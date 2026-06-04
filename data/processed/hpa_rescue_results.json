@@ -1,0 +1,1833 @@
+{
+  "rescue": [
+    [
+      "IAH1",
+      0,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "THAP8",
+      0,
+      [
+        "Nucleoplasm"
+      ],
+      "Enhanced",
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "MAB21L4",
+      2,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "PROB1",
+      2,
+      [
+        "Nucleoplasm"
+      ],
+      "Enhanced",
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "HMGXB3",
+      3,
+      [
+        "Nucleoli"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "RPUSD2",
+      4,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（核蛋白（需复核：Sheet1显示核定位但评分≤3））"
+    ],
+    [
+      "THAP10",
+      4,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（膜蛋白）"
+    ],
+    [
+      "SREK1IP1",
+      5,
+      [
+        "Nucleoli",
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（核蛋白（需复核：Sheet1显示核定位但评分≤3））"
+    ],
+    [
+      "TTC14",
+      5,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "INKA1",
+      6,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "PIANP",
+      6,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（核蛋白（需复核：Sheet1显示核定位但评分≤3））"
+    ],
+    [
+      "FAM32A",
+      7,
+      [
+        "Nucleoli",
+        "Nucleoplasm"
+      ],
+      "Supported",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "HTATSF1",
+      7,
+      [
+        "Nucleoplasm"
+      ],
+      "Enhanced",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "RPUSD1",
+      7,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（核蛋白（需复核：Sheet1显示核定位但评分≤3））"
+    ],
+    [
+      "PHF21B",
+      8,
+      [
+        "Nucleoli fibrillar center",
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "TMA7",
+      8,
+      [
+        "Nuclear bodies",
+        "Nucleoli rim",
+        "Nucleoli",
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "OGFRL1",
+      9,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（高尔基体蛋白）"
+    ],
+    [
+      "SAMD14",
+      9,
+      [
+        "Nucleoli fibrillar center",
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "SYT17",
+      9,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "MRPL40",
+      10,
+      [
+        "Nucleoli"
+      ],
+      "Supported",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "TBC1D8",
+      10,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "TYW2",
+      10,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "PELI2",
+      11,
+      [
+        "Nucleoplasm",
+        "Nucleoli"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "NWD1",
+      12,
+      [
+        "Nucleoli"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "PRRC2B",
+      12,
+      [
+        "Nuclear bodies"
+      ],
+      "Approved",
+      "核定位 ≤3（核蛋白（需复核：Sheet1显示核定位但评分≤3））"
+    ],
+    [
+      "TAPT1",
+      12,
+      [
+        "Nucleoplasm"
+      ],
+      "Supported",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "EMC6",
+      13,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "NAA35",
+      13,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（核蛋白（需复核：Sheet1显示核定位但评分≤3））"
+    ],
+    [
+      "SMAP2",
+      14,
+      [
+        "Nucleoplasm"
+      ],
+      "Supported",
+      "核定位 ≤3（膜蛋白）"
+    ],
+    [
+      "DCTN3",
+      15,
+      [
+        "Nucleoli"
+      ],
+      "Supported",
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "DENND2D",
+      15,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（细胞连接蛋白）"
+    ],
+    [
+      "DPH5",
+      15,
+      [
+        "Nucleoli"
+      ],
+      "Approved",
+      "核定位 ≤3（过氧化物酶体蛋白）"
+    ],
+    [
+      "P3H3",
+      15,
+      [
+        "Nucleoli"
+      ],
+      "Approved",
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "TTC8",
+      15,
+      [
+        "Nucleoli fibrillar center"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "VWA5A",
+      15,
+      [
+        "Nucleoli",
+        "Nucleoplasm"
+      ],
+      "Enhanced",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "GALK2",
+      16,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "ABTB1",
+      17,
+      [
+        "Nucleoli"
+      ],
+      "Supported",
+      "核定位 ≤3（质膜蛋白）"
+    ],
+    [
+      "COLGALT2",
+      17,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（核蛋白（需复核：Sheet1显示核定位但评分≤3））"
+    ],
+    [
+      "FANCL",
+      18,
+      [
+        "Nuclear bodies"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "HMGN3",
+      18,
+      [
+        "Nucleoplasm"
+      ],
+      "Supported",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "PRR3",
+      18,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（膜蛋白）"
+    ],
+    [
+      "SPSB4",
+      18,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（核蛋白（需复核：Sheet1显示核定位但评分≤3））"
+    ],
+    [
+      "PSTK",
+      19,
+      [
+        "Nuclear bodies",
+        "Nucleoli"
+      ],
+      "Approved",
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "TMC5",
+      19,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "FOXN2",
+      20,
+      [
+        "Nucleoplasm"
+      ],
+      "Supported",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "OLFM2",
+      20,
+      [
+        "Nucleoplasm"
+      ],
+      "Supported",
+      "核定位 ≤3（细胞骨架蛋白）"
+    ],
+    [
+      "FBXO4",
+      21,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "VTA1",
+      21,
+      [
+        "Nucleoplasm"
+      ],
+      "Supported",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "XYLB",
+      21,
+      [
+        "Nuclear speckles"
+      ],
+      "Approved",
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "AKTIP",
+      22,
+      [
+        "Nucleoli"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "CABLES2",
+      22,
+      [
+        "Nucleoli"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "CPNE4",
+      22,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "IARS1",
+      22,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "NRSN2",
+      22,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（核蛋白（需复核：Sheet1显示核定位但评分≤3））"
+    ],
+    [
+      "FANCM",
+      23,
+      [
+        "Nucleoplasm"
+      ],
+      "Supported",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "THUMPD3",
+      23,
+      [
+        "Nucleoli"
+      ],
+      "Enhanced",
+      "核定位 ≤3（溶酶体蛋白）"
+    ],
+    [
+      "ARFGEF1",
+      24,
+      [
+        "Nucleoplasm"
+      ],
+      "Enhanced",
+      "核定位 ≤3（细胞骨架蛋白）"
+    ],
+    [
+      "RASGEF1B",
+      24,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "FOXS1",
+      25,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "PPDPF",
+      25,
+      [
+        "Nucleoli",
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "TSPAN6",
+      25,
+      [
+        "Nucleoli fibrillar center"
+      ],
+      "Approved",
+      "核定位 ≤3（高尔基体蛋白）"
+    ],
+    [
+      "ETV3",
+      26,
+      [
+        "Nucleoli",
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "PEF1",
+      26,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "RHOBTB1",
+      26,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "SCOC",
+      26,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "SYNPR",
+      27,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "EXO5",
+      29,
+      [
+        "Nuclear speckles",
+        "Nucleoplasm"
+      ],
+      "Supported",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "HUNK",
+      29,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "DENND1B",
+      30,
+      [
+        "Nuclear speckles"
+      ],
+      "Supported",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "TNRC6C",
+      30,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "TIAM2",
+      31,
+      [
+        "Nucleoli fibrillar center",
+        "Nucleoplasm"
+      ],
+      "Supported",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "PRIM2",
+      33,
+      [
+        "Nucleoplasm"
+      ],
+      "Supported",
+      "核定位 ≤3（内质网蛋白）"
+    ],
+    [
+      "NINL",
+      34,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "SMYD5",
+      35,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "NPDC1",
+      36,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "AP3B2",
+      37,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "CRIP2",
+      37,
+      [
+        "Nucleoli",
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "FRK",
+      37,
+      [
+        "Nucleoplasm"
+      ],
+      "Supported",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "DOCK10",
+      38,
+      [
+        "Nucleoplasm"
+      ],
+      "Supported",
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "COG5",
+      39,
+      [
+        "Nucleoplasm"
+      ],
+      "Enhanced",
+      "核定位 ≤3（核蛋白（需复核：Sheet1显示核定位但评分≤3））"
+    ],
+    [
+      "DDIT4L",
+      39,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "TSC22D1",
+      39,
+      [
+        "Nuclear bodies",
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（细胞骨架蛋白）"
+    ],
+    [
+      "MYADM",
+      41,
+      [
+        "Nuclear speckles"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "RDH8",
+      41,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（膜蛋白）"
+    ],
+    [
+      "DIP2C",
+      42,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（线粒体蛋白）"
+    ],
+    [
+      "EOGT",
+      42,
+      [
+        "Nuclear membrane",
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（核蛋白（需复核：Sheet1显示核定位但评分≤3））"
+    ],
+    [
+      "WDFY4",
+      42,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（内质网蛋白）"
+    ],
+    [
+      "PLXDC2",
+      44,
+      [
+        "Nuclear bodies"
+      ],
+      "Supported",
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "SNCAIP",
+      45,
+      [
+        "Nucleoplasm"
+      ],
+      "Supported",
+      "核定位 ≤3（细胞骨架蛋白）"
+    ],
+    [
+      "FANCG",
+      46,
+      [
+        "Nuclear speckles"
+      ],
+      "Supported",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "PRR16",
+      47,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "CDC123",
+      48,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "FBXW11",
+      48,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "NUTM2B",
+      48,
+      [
+        "Nuclear bodies"
+      ],
+      "Approved",
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "PCYT2",
+      48,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "EAF1",
+      49,
+      [
+        "Nuclear bodies",
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "GALNT7",
+      50,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "AKNA",
+      51,
+      [
+        "Nucleoli fibrillar center",
+        "Nucleoplasm"
+      ],
+      "Supported",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "CRELD1",
+      51,
+      [
+        "Nucleoli"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "FAU",
+      51,
+      [
+        "Nucleoli"
+      ],
+      "Enhanced",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "HMGN5",
+      51,
+      [
+        "Nucleoplasm"
+      ],
+      "Supported",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "EPB41L4A",
+      52,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "MESD",
+      56,
+      [
+        "Nuclear bodies"
+      ],
+      "Supported",
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "P3H2",
+      56,
+      [
+        "Nucleoplasm"
+      ],
+      "Supported",
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "RIN2",
+      56,
+      [
+        "Nucleoli"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "YWHAH",
+      56,
+      [
+        "Nucleoli rim",
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（核蛋白（需复核：Sheet1显示核定位但评分≤3））"
+    ],
+    [
+      "CADM4",
+      57,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "NAGK",
+      57,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "PCP2",
+      57,
+      [
+        "Nuclear speckles"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "CERS5",
+      61,
+      [
+        "Nuclear membrane"
+      ],
+      "Approved",
+      "核定位 ≤3（细胞连接蛋白）"
+    ],
+    [
+      "E4F1",
+      62,
+      [
+        "Nucleoplasm"
+      ],
+      "Supported",
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "FBXO2",
+      62,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（内质网蛋白）"
+    ],
+    [
+      "SURF4",
+      62,
+      [
+        "Nuclear membrane"
+      ],
+      "Supported",
+      "核定位 ≤3（应激颗粒蛋白）"
+    ],
+    [
+      "BPGM",
+      63,
+      [
+        "Nucleoli rim",
+        "Nucleoli",
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "OSGIN1",
+      64,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "CAPZB",
+      65,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（核蛋白（需复核：Sheet1显示核定位但评分≤3））"
+    ],
+    [
+      "NFKBIE",
+      65,
+      [
+        "Nucleoli fibrillar center",
+        "Nucleoplasm"
+      ],
+      "Supported",
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "TNRC6A",
+      65,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "ACOT12",
+      66,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（分泌蛋白）"
+    ],
+    [
+      "ODAM",
+      66,
+      [
+        "Nucleoplasm"
+      ],
+      "Supported",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "MTCP1",
+      67,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "ANP32E",
+      68,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "PDLIM5",
+      68,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（内质网蛋白）"
+    ],
+    [
+      "CEP152",
+      69,
+      [
+        "Nucleoplasm"
+      ],
+      "Supported",
+      "核定位 ≤3（核蛋白（需复核：Sheet1显示核定位但评分≤3））"
+    ],
+    [
+      "ITPKB",
+      69,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "SNAPIN",
+      69,
+      [
+        "Nucleoli"
+      ],
+      "Approved",
+      "核定位 ≤3（溶酶体蛋白）"
+    ],
+    [
+      "RABGEF1",
+      70,
+      [
+        "Nucleoli"
+      ],
+      "Supported",
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "EPG5",
+      72,
+      [
+        "Nuclear speckles"
+      ],
+      "Approved",
+      "核定位 ≤3（细胞骨架蛋白）"
+    ],
+    [
+      "GTSE1",
+      72,
+      [
+        "Nucleoplasm"
+      ],
+      "Supported",
+      "核定位 ≤3（核蛋白（需复核：Sheet1显示核定位但评分≤3））"
+    ],
+    [
+      "ESPL1",
+      74,
+      [
+        "Nucleoplasm"
+      ],
+      "Supported",
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "EVX1",
+      74,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "SYVN1",
+      74,
+      [
+        "Nucleoplasm"
+      ],
+      "Supported",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "IFT140",
+      75,
+      [
+        "Nucleoplasm"
+      ],
+      "Supported",
+      "核定位 ≤3（核蛋白（需复核：Sheet1显示核定位但评分≤3））"
+    ],
+    [
+      "IQGAP3",
+      75,
+      [
+        "Nucleoli rim",
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "PLEKHA7",
+      75,
+      [
+        "Nucleoplasm"
+      ],
+      "Enhanced",
+      "核定位 ≤3（核蛋白（需复核：Sheet1显示核定位但评分≤3））"
+    ],
+    [
+      "ADARB2",
+      76,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "EPC2",
+      76,
+      [
+        "Nuclear speckles"
+      ],
+      "Approved",
+      "核定位 ≤3（内质网蛋白）"
+    ],
+    [
+      "ROM1",
+      76,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "PLD3",
+      77,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（核蛋白（需复核：Sheet1显示核定位但评分≤3））"
+    ],
+    [
+      "GGPS1",
+      79,
+      [
+        "Nucleoplasm"
+      ],
+      "Supported",
+      "核定位 ≤3（细胞骨架蛋白）"
+    ],
+    [
+      "NAPRT",
+      79,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "UCK2",
+      79,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（细胞骨架蛋白）"
+    ],
+    [
+      "ELP2",
+      82,
+      [
+        "Nucleoplasm"
+      ],
+      "Supported",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "TIFA",
+      84,
+      [
+        "Nucleoli",
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "TNNC1",
+      86,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（核蛋白（需复核：Sheet1显示核定位但评分≤3））"
+    ],
+    [
+      "AMPD3",
+      88,
+      [
+        "Nucleoli",
+        "Nuclear membrane"
+      ],
+      "Approved",
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "TNFAIP2",
+      88,
+      [
+        "Nuclear membrane",
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "PCTP",
+      91,
+      [
+        "Nucleoli",
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "UPP1",
+      93,
+      [
+        "Nucleoplasm"
+      ],
+      "Enhanced",
+      "核定位 ≤3（高尔基体蛋白）"
+    ],
+    [
+      "ELK4",
+      97,
+      [
+        "Nucleoplasm"
+      ],
+      "Supported",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "OPHN1",
+      97,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "EGLN2",
+      98,
+      [
+        "Nucleoplasm"
+      ],
+      "Supported",
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "PNPO",
+      98,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "GSK3A",
+      99,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "SYN2",
+      99,
+      [
+        "Nucleoplasm"
+      ],
+      "Approved",
+      "核定位 ≤3（过氧化物酶体蛋白）"
+    ],
+    [
+      "NKTR",
+      100,
+      [
+        "Nucleoplasm"
+      ],
+      "Supported",
+      "核定位 ≤3（核蛋白（需复核：Sheet1显示核定位但评分≤3））"
+    ]
+  ],
+  "correctly_rejected": [
+    [
+      "AARS1",
+      76,
+      [
+        "Cytosol"
+      ],
+      "Supported",
+      "核定位 ≤3（核蛋白（需复核：Sheet1显示核定位但评分≤3））"
+    ],
+    [
+      "ABLIM2",
+      19,
+      [
+        "Mitochondria",
+        "Nucleoplasm"
+      ],
+      "Uncertain",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "ADIG",
+      17,
+      [],
+      null,
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "BBLN",
+      7,
+      [
+        "Microtubules"
+      ],
+      "Approved",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "CLASP1",
+      94,
+      [],
+      null,
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "DYNC1LI1",
+      30,
+      [
+        "Cytosol",
+        "Centrosome",
+        "Plasma membrane",
+        "Nucleoplasm"
+      ],
+      "Uncertain",
+      "核定位 ≤3（核蛋白（需复核：Sheet1显示核定位但评分≤3））"
+    ],
+    [
+      "ENC1",
+      81,
+      [
+        "Plasma membrane"
+      ],
+      "Uncertain",
+      "核定位 ≤3（核蛋白（需复核：Sheet1显示核定位但评分≤3））"
+    ],
+    [
+      "ESCO1",
+      44,
+      [],
+      null,
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "EYA2",
+      48,
+      [
+        "Cytosol"
+      ],
+      "Supported",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "FABP6",
+      90,
+      [],
+      null,
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "FIGLA",
+      53,
+      [],
+      null,
+      "核定位 ≤3（内质网蛋白）"
+    ],
+    [
+      "FOXE3",
+      81,
+      [],
+      null,
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "FOXI3",
+      19,
+      [],
+      null,
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "FRG2",
+      17,
+      [],
+      null,
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "FSD1",
+      16,
+      [
+        "Cytosol"
+      ],
+      "Enhanced",
+      "核定位 ≤3（膜蛋白）"
+    ],
+    [
+      "GALM",
+      40,
+      [
+        "Nucleoplasm"
+      ],
+      "Uncertain",
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "IGDCC3",
+      12,
+      [
+        "Vesicles",
+        "Nucleoplasm"
+      ],
+      "Uncertain",
+      "核定位 ≤3（核蛋白（需复核：Sheet1显示核定位但评分≤3））"
+    ],
+    [
+      "ISL2",
+      33,
+      [
+        "Rods & Rings"
+      ],
+      "Approved",
+      "核定位 ≤3（内质网蛋白）"
+    ],
+    [
+      "IST1",
+      55,
+      [
+        "Vesicles"
+      ],
+      "Supported",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "NANOGNB",
+      4,
+      [],
+      null,
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "NUDCD2",
+      14,
+      [
+        "Cytosol",
+        "Mitotic spindle",
+        "Microtubules",
+        "Cytokinetic bridge"
+      ],
+      "Supported",
+      "核定位 ≤3（核蛋白（需复核：Sheet1显示核定位但评分≤3））"
+    ],
+    [
+      "PHLDA2",
+      96,
+      [
+        "Nucleoli"
+      ],
+      "Uncertain",
+      "核定位 ≤3（核蛋白（需复核：Sheet1显示核定位但评分≤3））"
+    ],
+    [
+      "PLA2G4D",
+      25,
+      [
+        "Plasma membrane",
+        "Cytosol"
+      ],
+      "Approved",
+      "核定位 ≤3（细胞骨架蛋白）"
+    ],
+    [
+      "PPAN",
+      31,
+      [],
+      null,
+      "核定位 ≤3（细胞连接蛋白）"
+    ],
+    [
+      "PRAMEF12",
+      2,
+      [
+        "Nucleoplasm"
+      ],
+      "Uncertain",
+      "核定位 ≤3（核蛋白（需复核：Sheet1显示核定位但评分≤3））"
+    ],
+    [
+      "RIOK2",
+      45,
+      [
+        "Plasma membrane",
+        "Cytosol"
+      ],
+      "Approved",
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "SAMD4A",
+      49,
+      [
+        "Cytosol",
+        "Cell Junctions"
+      ],
+      "Approved",
+      "核定位 ≤3（内质网蛋白）"
+    ],
+    [
+      "SCYL1",
+      39,
+      [
+        "Cytosol"
+      ],
+      "Supported",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "SIGLEC11",
+      35,
+      [
+        "Golgi apparatus",
+        "Nucleoplasm"
+      ],
+      "Uncertain",
+      "核定位 ≤3（膜蛋白）"
+    ],
+    [
+      "SKA1",
+      95,
+      [
+        "Primary cilium",
+        "Microtubules",
+        "Centriolar satellite",
+        "Basal body",
+        "Cytokinetic bridge"
+      ],
+      "Supported",
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "SKA2",
+      87,
+      [],
+      null,
+      "核定位 ≤3（胞质蛋白）"
+    ],
+    [
+      "SOHLH2",
+      36,
+      [
+        "Vesicles"
+      ],
+      "Uncertain",
+      "核定位 ≤3（核蛋白（需复核：Sheet1显示核定位但评分≤3））"
+    ],
+    [
+      "SPAG4",
+      44,
+      [],
+      null,
+      "核定位 ≤3（溶酶体蛋白）"
+    ],
+    [
+      "SSH1",
+      95,
+      [
+        "Cytosol",
+        "Plasma membrane",
+        "Nucleoplasm"
+      ],
+      "Uncertain",
+      "核定位 ≤3（核蛋白（需复核：Sheet1显示核定位但评分≤3））"
+    ],
+    [
+      "TEX14",
+      71,
+      [
+        "Vesicles",
+        "Plasma membrane",
+        "Cytosol"
+      ],
+      "Approved",
+      "核定位 ≤3（核蛋白（需复核：Sheet1显示核定位但评分≤3））"
+    ],
+    [
+      "TEX19",
+      13,
+      [],
+      null,
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "TGIF2LY",
+      6,
+      [],
+      null,
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "TNNI1",
+      54,
+      [
+        "Nucleoli",
+        "Nucleoplasm"
+      ],
+      "Uncertain",
+      "核定位 ≤3（核蛋白（需复核：Sheet1显示核定位但评分≤3））"
+    ],
+    [
+      "TP53INP2",
+      60,
+      [],
+      null,
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "TPRX2",
+      4,
+      [],
+      null,
+      "核定位 ≤3（核蛋白（需复核：Sheet1显示核定位但评分≤3））"
+    ],
+    [
+      "TRIM56",
+      56,
+      [
+        "Cytosol",
+        "Nucleoplasm"
+      ],
+      "Uncertain",
+      "核定位 ≤3（内质网蛋白）"
+    ],
+    [
+      "UPK3A",
+      74,
+      [
+        "Nuclear bodies",
+        "Nuclear membrane"
+      ],
+      "Uncertain",
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "WDR43",
+      26,
+      [],
+      null,
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "ZWILCH",
+      45,
+      [],
+      null,
+      "核定位 ≤3（非核蛋白）"
+    ]
+  ],
+  "no_data": [
+    [
+      "CRIPT",
+      31,
+      "核定位 ≤3（非核蛋白）"
+    ],
+    [
+      "FOXI1",
+      87,
+      "核定位 ≤3（非核蛋白）"
+    ]
+  ]
+}

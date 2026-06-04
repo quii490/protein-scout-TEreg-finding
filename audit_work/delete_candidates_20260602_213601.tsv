@@ -1,0 +1,8 @@
+gene	current_path	quarantine_path	current_lines	current_chars	reason	action
+AARS2	detail/rejected/AARS2/AARS2-evaluation.md	audit_work/quarantine/delete_candidates_20260602_213601/AARS2-evaluation.md	13	254	Not in Excel; thin template	QUARANTINE_ONLY_NOT_DELETED
+AASDHPPT	detail/rejected/AASDHPPT/AASDHPPT-evaluation.md	audit_work/quarantine/delete_candidates_20260602_213601/AASDHPPT-evaluation.md	13	297	Not in Excel; thin template	QUARANTINE_ONLY_NOT_DELETED
+ABAT	detail/rejected/ABAT/ABAT-evaluation.md	audit_work/quarantine/delete_candidates_20260602_213601/ABAT-evaluation.md	13	260	Not in Excel; thin template	QUARANTINE_ONLY_NOT_DELETED
+ABCA1	detail/rejected/ABCA1/ABCA1-evaluation.md	audit_work/quarantine/delete_candidates_20260602_213601/ABCA1-evaluation.md	13	256	Not in Excel; thin template	QUARANTINE_ONLY_NOT_DELETED
+AADAC	detail/rejected/AADAC/AADAC-evaluation.md	audit_work/quarantine/delete_candidates_20260602_213601/AADAC-evaluation.md	16	373	Not in Excel; thin template	QUARANTINE_ONLY_NOT_DELETED
+AADACL2	detail/rejected/AADACL2/AADACL2-evaluation.md	audit_work/quarantine/delete_candidates_20260602_213601/AADACL2-evaluation.md	16	364	Not in Excel; thin template	QUARANTINE_ONLY_NOT_DELETED
+AADAT	detail/rejected/AADAT/AADAT-evaluation.md	audit_work/quarantine/delete_candidates_20260602_213601/AADAT-evaluation.md	16	390	Not in Excel; thin template	QUARANTINE_ONLY_NOT_DELETED

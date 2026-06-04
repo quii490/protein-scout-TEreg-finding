@@ -1,0 +1,11 @@
+gene	current_path	status	current_lines	current_chars	risk	issues	excel_sheet	excel_row	hpa_loc	hpa_score	selection_reason
+AAAS	detail/rejected/AAAS/AAAS-evaluation.md	rejected	11	346	CRITICAL	THIN,SHORT_REJECTED	Sheet1	3	Nucleoplasm	2	Template report (11L, 346c); in Excel Sheet1 row 3; needs complete re-evaluation
+AAMDC	detail/rejected/AAMDC/AAMDC-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	28	Nuclear speckles|Nucleoplasm	6	Template report (11L, 186c); in Excel 重新pa一下 row 28; needs complete re-evaluation
+ABITRAM	detail/rejected/ABITRAM/ABITRAM-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	54	Nucleoplasm	6	Template report (11L, 190c); in Excel 重新pa一下 row 54; needs complete re-evaluation
+ABLIM3	detail/rejected/ABLIM3/ABLIM3-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	569	Nuclear bodies	6	Template report (11L, 188c); in Excel 重新pa一下 row 569; needs complete re-evaluation
+ABRAXAS1	detail/rejected/ABRAXAS1/ABRAXAS1-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	568	Nuclear membrane|Nucleoplasm	6	Template report (11L, 192c); in Excel 重新pa一下 row 568; needs complete re-evaluation
+ABRAXAS2	detail/rejected/ABRAXAS2/ABRAXAS2-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1302	Nucleoplasm	3	Template report (11L, 192c); in Excel 重新pa一下 row 1302; needs complete re-evaluation
+ABTB2	detail/rejected/ABTB2/ABTB2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	273	Nuclear bodies|Nucleoplasm	6	Template report (11L, 186c); in Excel 重新pa一下 row 273; needs complete re-evaluation
+ABTB3	detail/rejected/ABTB3/ABTB3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	176	Nucleoli|Nucleoplasm	6	Template report (11L, 186c); in Excel 重新pa一下 row 176; needs complete re-evaluation
+ACBD4	detail/rejected/ACBD4/ACBD4-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	269	Nucleoplasm	6	Template report (11L, 186c); in Excel 重新pa一下 row 269; needs complete re-evaluation
+ACOXL	detail/rejected/ACOXL/ACOXL-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	722	Nucleoplasm	6	Template report (11L, 186c); in Excel 重新pa一下 row 722; needs complete re-evaluation

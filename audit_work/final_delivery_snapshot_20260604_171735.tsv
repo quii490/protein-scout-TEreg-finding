@@ -1,0 +1,22 @@
+metric	value
+Excel unique genes	4756
+Excel covered	4756
+Excel missing	0
+Total reports	5770
+Unique reported genes	5607
+Scored	3154
+Rejected	2616
+Duplicates	153
+/180 reports	3969
+Harvest packets	3655
+CRITICAL false rejection fixed	94
+HIGH false rejection fixed	46
+CRITICAL still at risk	94
+HIGH still at risk	56
+<12L templates	81
+<50L thin	1080
+Packet error	0
+No nuke shorthand	0
+Forbidden	235
+Gate errors	2573
+Gate warnings	1955

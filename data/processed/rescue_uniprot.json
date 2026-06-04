@@ -1,0 +1,3157 @@
+{
+  "NWD1": {
+    "length": 1564,
+    "subcell": [
+      "Cytoplasm, cytosol"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "NACHT domain- and WD repeat-containing protein 1",
+    "acc": "Q149M9"
+  },
+  "TYW2": {
+    "length": 448,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "tRNA wybutosine-synthesizing protein 2 homolog",
+    "acc": "Q53H54"
+  },
+  "HTATSF1": {
+    "length": 755,
+    "subcell": [
+      "Nucleus",
+      "Chromosome"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "17S U2 SnRNP complex component HTATSF1",
+    "acc": "O43719"
+  },
+  "PELI2": {
+    "length": 420,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "E3 ubiquitin-protein ligase pellino homolog 2",
+    "acc": "Q9HAT8"
+  },
+  "SYT17": {
+    "length": 474,
+    "subcell": [
+      "Membrane"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Synaptotagmin-17",
+    "acc": "Q9BSW7"
+  },
+  "PRR3": {
+    "length": 188,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Proline-rich protein 3",
+    "acc": "P79522"
+  },
+  "SPSB4": {
+    "length": 273,
+    "subcell": [
+      "Cytoplasm",
+      "Cytoplasm, cytosol"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "SPRY domain-containing SOCS box protein 4",
+    "acc": "Q96A44"
+  },
+  "INKA1": {
+    "length": 287,
+    "subcell": [
+      "Nucleus",
+      "Cytoplasm"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "PAK4-inhibitor INKA1",
+    "acc": "Q96EL1"
+  },
+  "EMC6": {
+    "length": 110,
+    "subcell": [
+      "Endoplasmic reticulum membrane"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "ER membrane protein complex subunit 6",
+    "acc": "Q9BV81"
+  },
+  "SMAP2": {
+    "length": 429,
+    "subcell": [
+      "Cytoplasm"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Stromal membrane-associated protein 2",
+    "acc": "Q8WU79"
+  },
+  "P3H3": {
+    "length": 736,
+    "subcell": [
+      "Endoplasmic reticulum"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Prolyl 3-hydroxylase 3",
+    "acc": "Q8IVL6"
+  },
+  "FBXO4": {
+    "length": 387,
+    "subcell": [
+      "Cytoplasm"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "F-box only protein 4",
+    "acc": "Q9UKT5"
+  },
+  "OLFM2": {
+    "length": 454,
+    "subcell": [
+      "Secreted",
+      "Synapse",
+      "Membrane",
+      "Nucleus",
+      "Cytoplasm"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Noelin-2",
+    "acc": "O95897"
+  },
+  "TAPT1": {
+    "length": 567,
+    "subcell": [
+      "Cytoplasm, cytoskeleton, microtubule organizing center, centrosome",
+      "Cytoplasm, cytoskeleton, cilium basal body",
+      "Membrane"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Transmembrane anterior posterior transformation protein 1 homolog",
+    "acc": "Q6NXT6"
+  },
+  "DCTN3": {
+    "length": 186,
+    "subcell": [
+      "Cytoplasm",
+      "Cytoplasm, cytoskeleton, microtubule organizing center, centrosome",
+      "Chromosome, centromere, kinetochore",
+      "Cytoplasm, cytoskeleton, spindle",
+      "Cleavage furrow",
+      "Midbody"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Dynactin subunit 3",
+    "acc": "O75935"
+  },
+  "AKTIP": {
+    "length": 292,
+    "subcell": [
+      "Cytoplasm",
+      "Cell membrane"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "AKT-interacting protein",
+    "acc": "Q9H8T0"
+  },
+  "FANCL": {
+    "length": 375,
+    "subcell": [
+      "Cytoplasm",
+      "Nucleus"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "E3 ubiquitin-protein ligase FANCL",
+    "acc": "Q9NW38"
+  },
+  "GALK2": {
+    "length": 458,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "N-acetylgalactosamine kinase",
+    "acc": "Q01415"
+  },
+  "TTC8": {
+    "length": 541,
+    "subcell": [
+      "Cytoplasm, cytoskeleton, microtubule organizing center, centrosome",
+      "Cell projection, cilium membrane",
+      "Cytoplasm",
+      "Cytoplasm, cytoskeleton, microtubule organizing center, centrosome, centriolar satellite",
+      "Cell projection, cilium"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Tetratricopeptide repeat protein 8",
+    "acc": "Q8TAM2"
+  },
+  "SREK1IP1": {
+    "length": 155,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Protein SREK1IP1",
+    "acc": "Q8N9Q2"
+  },
+  "MRPL40": {
+    "length": 206,
+    "subcell": [
+      "Mitochondrion"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Large ribosomal subunit protein mL40",
+    "acc": "Q9NQ50"
+  },
+  "ABTB1": {
+    "length": 478,
+    "subcell": [
+      "Cytoplasm"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Ankyrin repeat and BTB/POZ domain-containing protein 1",
+    "acc": "Q969K4"
+  },
+  "NAA35": {
+    "length": 725,
+    "subcell": [
+      "Cytoplasm"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "N-alpha-acetyltransferase 35, NatC auxiliary subunit",
+    "acc": "Q5VZE5"
+  },
+  "COLGALT2": {
+    "length": 626,
+    "subcell": [
+      "Endoplasmic reticulum lumen"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Procollagen galactosyltransferase 2",
+    "acc": "Q8IYK4"
+  },
+  "VTA1": {
+    "length": 307,
+    "subcell": [
+      "Cytoplasm",
+      "Endosome membrane"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Vacuolar protein sorting-associated protein VTA1 homolog",
+    "acc": "Q9NP79"
+  },
+  "PIANP": {
+    "length": 282,
+    "subcell": [
+      "Membrane"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "PILR alpha-associated neural protein",
+    "acc": "Q8IYJ0"
+  },
+  "XYLB": {
+    "length": 536,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Xylulose kinase",
+    "acc": "O75191"
+  },
+  "PRRC2B": {
+    "length": 2229,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Protein PRRC2B",
+    "acc": "Q5JSZ5"
+  },
+  "DPH5": {
+    "length": 285,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Diphthine methyl ester synthase",
+    "acc": "Q9H2P9"
+  },
+  "DENND2D": {
+    "length": 471,
+    "subcell": [
+      "Cytoplasm"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "DENN domain-containing protein 2D",
+    "acc": "Q9H6A0"
+  },
+  "RPUSD2": {
+    "length": 545,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Pseudouridylate synthase RPUSD2",
+    "acc": "Q8IZ73"
+  },
+  "TBC1D8": {
+    "length": 1140,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "TBC1 domain family member 8",
+    "acc": "O95759"
+  },
+  "FOXN2": {
+    "length": 431,
+    "subcell": [
+      "Nucleus"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Forkhead box protein N2",
+    "acc": "P32314"
+  },
+  "VWA5A": {
+    "length": 786,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "von Willebrand factor A domain-containing protein 5A",
+    "acc": "O00534"
+  },
+  "FAM32A": {
+    "length": 112,
+    "subcell": [
+      "Nucleus",
+      "Nucleus"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Protein FAM32A",
+    "acc": "Q9Y421"
+  },
+  "HMGN3": {
+    "length": 99,
+    "subcell": [
+      "Nucleus"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "High mobility group nucleosome-binding domain-containing protein 3",
+    "acc": "Q15651"
+  },
+  "THAP10": {
+    "length": 257,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "THAP domain-containing protein 10",
+    "acc": "Q9P2Z0"
+  },
+  "SAMD14": {
+    "length": 417,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Sterile alpha motif domain-containing protein 14",
+    "acc": "Q8IZD0"
+  },
+  "IAH1": {
+    "length": 248,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Isoamyl acetate-hydrolyzing esterase 1 homolog",
+    "acc": "Q2TAA2"
+  },
+  "PSTK": {
+    "length": 348,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "L-seryl-tRNA(Sec) kinase",
+    "acc": "Q8IV42"
+  },
+  "PHF21B": {
+    "length": 531,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "PHD finger protein 21B",
+    "acc": "Q96EK2"
+  },
+  "TMA7": {
+    "length": 64,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Translation machinery-associated protein 7",
+    "acc": "Q9Y2S6"
+  },
+  "RPUSD1": {
+    "length": 312,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "RNA pseudouridylate synthase domain-containing protein 1",
+    "acc": "Q9UJJ7"
+  },
+  "TMC5": {
+    "length": 1006,
+    "subcell": [
+      "Membrane"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Transmembrane channel-like protein 5",
+    "acc": "Q6UXY8"
+  },
+  "TTC14": {
+    "length": 770,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Tetratricopeptide repeat protein 14",
+    "acc": "Q96N46"
+  },
+  "THAP8": {
+    "length": 274,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "THAP domain-containing protein 8",
+    "acc": "Q8NA92"
+  },
+  "OGFRL1": {
+    "length": 451,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      ""
+    ],
+    "name": "Opioid growth factor receptor-like protein 1",
+    "acc": "Q5TC84"
+  },
+  "PRR16": {
+    "length": 304,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Protein Largen",
+    "acc": "Q569H4"
+  },
+  "NPDC1": {
+    "length": 325,
+    "subcell": [
+      "Membrane"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Neural proliferation differentiation and control protein 1",
+    "acc": "Q9NQX5"
+  },
+  "THUMPD3": {
+    "length": 507,
+    "subcell": [
+      "Cytoplasm"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "tRNA (guanine(6)-N(2))-methyltransferase THUMP3",
+    "acc": "Q9BV44"
+  },
+  "EAF1": {
+    "length": 268,
+    "subcell": [
+      "Nucleus speckle",
+      "Nucleus, Cajal body"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "ELL-associated factor 1",
+    "acc": "Q96JC9"
+  },
+  "FAU": {
+    "length": 133,
+    "subcell": [
+      "Cytoplasm",
+      "Nucleus"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Ubiquitin-like FUBI-ribosomal protein eS30 fusion protein",
+    "acc": "P62861"
+  },
+  "SYNPR": {
+    "length": 265,
+    "subcell": [
+      "Cytoplasmic vesicle, secretory vesicle, synaptic vesicle membrane",
+      "Synapse, synaptosome"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Synaptoporin",
+    "acc": "Q8TBG9"
+  },
+  "GALNT7": {
+    "length": 657,
+    "subcell": [
+      "Golgi apparatus membrane"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "N-acetylgalactosaminyltransferase 7",
+    "acc": "Q86SF2"
+  },
+  "PCYT2": {
+    "length": 389,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Ethanolamine-phosphate cytidylyltransferase",
+    "acc": "Q99447"
+  },
+  "AP3B2": {
+    "length": 1082,
+    "subcell": [
+      "Cytoplasmic vesicle, clathrin-coated vesicle membrane",
+      "Golgi apparatus"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "AP-3 complex subunit beta-2",
+    "acc": "Q13367"
+  },
+  "AKNA": {
+    "length": 1439,
+    "subcell": [
+      "Cytoplasm, cytoskeleton, microtubule organizing center, centrosome, centriole",
+      "Nucleus"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Microtubule organization protein AKNA",
+    "acc": "Q7Z591"
+  },
+  "PRIM2": {
+    "length": 509,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "DNA primase large subunit",
+    "acc": "P49643"
+  },
+  "FANCG": {
+    "length": 622,
+    "subcell": [
+      "Nucleus",
+      "Cytoplasm"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Fanconi anemia group G protein",
+    "acc": "O15287"
+  },
+  "DDIT4L": {
+    "length": 193,
+    "subcell": [
+      "Cytoplasm"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      ""
+    ],
+    "name": "DNA damage-inducible transcript 4-like protein",
+    "acc": "Q96D03"
+  },
+  "SNCAIP": {
+    "length": 919,
+    "subcell": [
+      "Cytoplasm"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Synphilin-1",
+    "acc": "Q9Y6H5"
+  },
+  "IARS1": {
+    "length": 1262,
+    "subcell": [
+      "Cytoplasm",
+      "Cytoplasm, cytosol"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Isoleucine--tRNA ligase, cytoplasmic",
+    "acc": "P41252"
+  },
+  "RHOBTB1": {
+    "length": 696,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Rho-related BTB domain-containing protein 1",
+    "acc": "O94844"
+  },
+  "FANCM": {
+    "length": 2048,
+    "subcell": [
+      "Nucleus"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Fanconi anemia group M protein",
+    "acc": "Q8IYD8"
+  },
+  "EXO5": {
+    "length": 373,
+    "subcell": [
+      "Nucleus",
+      "Cytoplasm, cytosol"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Exonuclease V",
+    "acc": "Q9H790"
+  },
+  "SMYD5": {
+    "length": 418,
+    "subcell": [
+      "Cytoplasm"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Protein-lysine N-trimethyltransferase SMYD5",
+    "acc": "Q6GMV2"
+  },
+  "RASGEF1B": {
+    "length": 473,
+    "subcell": [
+      "Early endosome",
+      "Late endosome",
+      "Midbody"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Ras-GEF domain-containing family member 1B",
+    "acc": "Q0VAM2"
+  },
+  "TNRC6C": {
+    "length": 1936,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Trinucleotide repeat-containing gene 6C protein",
+    "acc": "Q9HCJ0"
+  },
+  "ETV3": {
+    "length": 512,
+    "subcell": [
+      "Nucleus"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "ETS translocation variant 3",
+    "acc": "P41162"
+  },
+  "MYADM": {
+    "length": 322,
+    "subcell": [
+      "Membrane"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Myeloid-associated differentiation marker",
+    "acc": "Q96S97"
+  },
+  "SCOC": {
+    "length": 159,
+    "subcell": [
+      "Golgi apparatus membrane",
+      "Golgi apparatus, trans-Golgi network",
+      "Cytoplasm, cytosol"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Short coiled-coil protein",
+    "acc": "Q9UIL1"
+  },
+  "NINL": {
+    "length": 1382,
+    "subcell": [
+      "Cytoplasm, cytoskeleton, microtubule organizing center, centrosome",
+      "Cytoplasm"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Ninein-like protein",
+    "acc": "Q9Y2I6"
+  },
+  "FRK": {
+    "length": 505,
+    "subcell": [
+      "Cytoplasm",
+      "Nucleus"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Tyrosine-protein kinase FRK",
+    "acc": "P42685"
+  },
+  "CDC123": {
+    "length": 336,
+    "subcell": [
+      "Cytoplasm"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Translation initiation factor eIF2 assembly protein",
+    "acc": "O75794"
+  },
+  "RDH8": {
+    "length": 311,
+    "subcell": [
+      "Membrane"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Retinol dehydrogenase 8",
+    "acc": "Q9NYR8"
+  },
+  "TIAM2": {
+    "length": 1701,
+    "subcell": [
+      "Cytoplasm",
+      "Cell projection, lamellipodium",
+      "Cell projection, filopodium",
+      "Cell projection, growth cone",
+      "Cell projection, neuron projection",
+      "Perikaryon"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Rho guanine nucleotide exchange factor TIAM2",
+    "acc": "Q8IVF5"
+  },
+  "DENND1B": {
+    "length": 775,
+    "subcell": [
+      "Cytoplasm, cytosol",
+      "Cytoplasmic vesicle, clathrin-coated vesicle"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "DENN domain-containing protein 1B",
+    "acc": "Q6P3S1"
+  },
+  "ARFGEF1": {
+    "length": 1849,
+    "subcell": [
+      "Cytoplasm",
+      "Cytoplasm, perinuclear region",
+      "Golgi apparatus",
+      "Golgi apparatus, trans-Golgi network membrane",
+      "Nucleus",
+      "Nucleus, nucleolus",
+      "Nucleus matrix"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Brefeldin A-inhibited guanine nucleotide-exchange protein 1",
+    "acc": "Q9Y6D6"
+  },
+  "COG5": {
+    "length": 860,
+    "subcell": [
+      "Cytoplasm, cytosol",
+      "Golgi apparatus membrane"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Conserved oligomeric Golgi complex subunit 5",
+    "acc": "Q9UP83"
+  },
+  "CRELD1": {
+    "length": 420,
+    "subcell": [
+      "Membrane"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Protein disulfide isomerase CRELD1",
+    "acc": "Q96HD1"
+  },
+  "PEF1": {
+    "length": 284,
+    "subcell": [
+      "Cytoplasm",
+      "Endoplasmic reticulum",
+      "Membrane",
+      "Cytoplasmic vesicle, COPII-coated vesicle membrane"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Peflin",
+    "acc": "Q9UBV8"
+  },
+  "PLXDC2": {
+    "length": 529,
+    "subcell": [
+      "Membrane"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Plexin domain-containing protein 2",
+    "acc": "Q6UX71"
+  },
+  "EOGT": {
+    "length": 527,
+    "subcell": [
+      "Endoplasmic reticulum lumen"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "EGF domain-specific O-linked N-acetylglucosamine transferase",
+    "acc": "Q5NDL2"
+  },
+  "DOCK10": {
+    "length": 2186,
+    "subcell": [
+      "Nucleus",
+      "Cytoplasm",
+      "Cell projection, dendritic spine"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Dedicator of cytokinesis protein 10",
+    "acc": "Q96BY6"
+  },
+  "FBXW11": {
+    "length": 542,
+    "subcell": [
+      "Cytoplasm",
+      "Nucleus"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "F-box/WD repeat-containing protein 11",
+    "acc": "Q9UKB1"
+  },
+  "TSC22D1": {
+    "length": 1073,
+    "subcell": [
+      "Cytoplasm",
+      "Nucleus",
+      "Cell membrane",
+      "Cytoplasm",
+      "Nucleus",
+      "Mitochondrion",
+      "Cytoplasm",
+      "Nucleus",
+      "Mitochondrion",
+      "Cytoplasm",
+      "Nucleus"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "TSC22 domain family protein 1",
+    "acc": "Q15714"
+  },
+  "CPNE4": {
+    "length": 557,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Copine-4",
+    "acc": "Q96A23"
+  },
+  "NRSN2": {
+    "length": 204,
+    "subcell": [
+      "Membrane"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Neurensin-2",
+    "acc": "Q9GZP1"
+  },
+  "HUNK": {
+    "length": 714,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Hormonally up-regulated neu tumor-associated kinase",
+    "acc": "P57058"
+  },
+  "FOXS1": {
+    "length": 330,
+    "subcell": [
+      "Nucleus"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Forkhead box protein S1",
+    "acc": "O43638"
+  },
+  "WDFY4": {
+    "length": 3184,
+    "subcell": [
+      "Early endosome",
+      "Endoplasmic reticulum"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "WD repeat- and FYVE domain-containing protein 4",
+    "acc": "Q6ZS81"
+  },
+  "TSPAN6": {
+    "length": 245,
+    "subcell": [
+      "Membrane"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Tetraspanin-6",
+    "acc": "O43657"
+  },
+  "CABLES2": {
+    "length": 478,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "CDK5 and ABL1 enzyme substrate 2",
+    "acc": "Q9BTV7"
+  },
+  "CRIP2": {
+    "length": 208,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Cysteine-rich protein 2",
+    "acc": "P52943"
+  },
+  "PPDPF": {
+    "length": 114,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Pancreatic progenitor cell differentiation and proliferation factor",
+    "acc": "Q9H3Y8"
+  },
+  "DIP2C": {
+    "length": 1556,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Disco-interacting protein 2 homolog C",
+    "acc": "Q9Y2E4"
+  },
+  "NUTM2B": {
+    "length": 878,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      ""
+    ],
+    "name": "NUT family member 2B",
+    "acc": "A6NNL0"
+  },
+  "ODAM": {
+    "length": 279,
+    "subcell": [
+      "Secreted",
+      "Cytoplasm",
+      "Nucleus"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Odontogenic ameloblast-associated protein",
+    "acc": "A1E959"
+  },
+  "BPGM": {
+    "length": 259,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Bisphosphoglycerate mutase",
+    "acc": "P07738"
+  },
+  "ITPKB": {
+    "length": 946,
+    "subcell": [
+      "Cytoplasm, cytoskeleton",
+      "Cytoplasm",
+      "Endoplasmic reticulum"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Inositol-trisphosphate 3-kinase B",
+    "acc": "P27987"
+  },
+  "GTSE1": {
+    "length": 739,
+    "subcell": [
+      "Cytoplasm, cytoskeleton"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "G2 and S phase-expressed protein 1",
+    "acc": "Q9NYZ3"
+  },
+  "PLD3": {
+    "length": 490,
+    "subcell": [
+      "Endoplasmic reticulum membrane",
+      "Lysosome lumen",
+      "Early endosome membrane",
+      "Late endosome membrane",
+      "Golgi apparatus membrane",
+      "Endosome membrane"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "5'-3' exonuclease PLD3",
+    "acc": "Q8IV08"
+  },
+  "EVX1": {
+    "length": 407,
+    "subcell": [
+      "Nucleus"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Homeobox even-skipped homolog protein 1",
+    "acc": "P49640"
+  },
+  "ROM1": {
+    "length": 351,
+    "subcell": [
+      "Photoreceptor inner segment membrane",
+      "Photoreceptor outer segment membrane"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Rod outer segment membrane protein 1",
+    "acc": "Q03395"
+  },
+  "IQGAP3": {
+    "length": 1631,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Ras GTPase-activating-like protein IQGAP3",
+    "acc": "Q86VI3"
+  },
+  "ANP32E": {
+    "length": 268,
+    "subcell": [
+      "Cytoplasm",
+      "Nucleus"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Acidic leucine-rich nuclear phosphoprotein 32 family member E",
+    "acc": "Q9BTT0"
+  },
+  "GGPS1": {
+    "length": 300,
+    "subcell": [
+      "Cytoplasm",
+      "Cytoplasm, perinuclear region",
+      "Cytoplasm, myofibril, sarcomere, Z line"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Geranylgeranyl pyrophosphate synthase",
+    "acc": "O95749"
+  },
+  "CAPZB": {
+    "length": 272,
+    "subcell": [
+      "Cytoplasm, cytoskeleton",
+      "Cytoplasm, myofibril, sarcomere"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "F-actin-capping protein subunit beta",
+    "acc": "P47756"
+  },
+  "AMPD3": {
+    "length": 767,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "AMP deaminase 3",
+    "acc": "Q01432"
+  },
+  "PLEKHA7": {
+    "length": 1121,
+    "subcell": [
+      "Cell junction, adherens junction",
+      "Cytoplasm",
+      "Cytoplasm, cytoskeleton, microtubule organizing center, centrosome"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Pleckstrin homology domain-containing family A member 7",
+    "acc": "Q6IQ23"
+  },
+  "TIFA": {
+    "length": 184,
+    "subcell": [
+      "Cytoplasm"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "TRAF-interacting protein with FHA domain-containing protein A",
+    "acc": "Q96CG3"
+  },
+  "YWHAH": {
+    "length": 246,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "14-3-3 protein eta",
+    "acc": "Q04917"
+  },
+  "UCK2": {
+    "length": 261,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Uridine-cytidine kinase 2",
+    "acc": "Q9BZX2"
+  },
+  "ELK4": {
+    "length": 431,
+    "subcell": [
+      "Nucleus"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "ETS domain-containing protein Elk-4",
+    "acc": "P28324"
+  },
+  "FBXO2": {
+    "length": 296,
+    "subcell": [
+      "Cytoplasm",
+      "Microsome membrane"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "F-box only protein 2",
+    "acc": "Q9UK22"
+  },
+  "NFKBIE": {
+    "length": 500,
+    "subcell": [
+      "Cytoplasm"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "NF-kappa-B inhibitor epsilon",
+    "acc": "O00221"
+  },
+  "PCTP": {
+    "length": 214,
+    "subcell": [
+      "Cytoplasm"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Phosphatidylcholine transfer protein",
+    "acc": "Q9UKL6"
+  },
+  "TNNC1": {
+    "length": 161,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Troponin C, slow skeletal and cardiac muscles",
+    "acc": "P63316"
+  },
+  "EPG5": {
+    "length": 2579,
+    "subcell": [
+      "Cytoplasm, perinuclear region",
+      "Lysosome"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Ectopic P granules protein 5 homolog",
+    "acc": "Q9HCE0"
+  },
+  "CEP152": {
+    "length": 1710,
+    "subcell": [
+      "Cytoplasm, cytoskeleton, microtubule organizing center, centrosome",
+      "Cytoplasm, cytoskeleton, microtubule organizing center, centrosome, centriole"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Centrosomal protein of 152 kDa",
+    "acc": "O94986"
+  },
+  "E4F1": {
+    "length": 784,
+    "subcell": [
+      "Nucleus, nucleoplasm",
+      "Cytoplasm"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Transcription factor E4F1",
+    "acc": "Q66K89"
+  },
+  "UPP1": {
+    "length": 310,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Uridine phosphorylase 1",
+    "acc": "Q16831"
+  },
+  "CERS5": {
+    "length": 392,
+    "subcell": [
+      "Endoplasmic reticulum membrane"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Ceramide synthase 5",
+    "acc": "Q8N5B7"
+  },
+  "RABGEF1": {
+    "length": 491,
+    "subcell": [
+      "Cytoplasm",
+      "Early endosome",
+      "Recycling endosome"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Rab5 GDP/GTP exchange factor",
+    "acc": "Q9UJ41"
+  },
+  "RIN2": {
+    "length": 895,
+    "subcell": [
+      "Cytoplasm"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Ras and Rab interactor 2",
+    "acc": "Q8WYP3"
+  },
+  "NAGK": {
+    "length": 344,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "N-acetyl-D-glucosamine kinase",
+    "acc": "Q9UJ70"
+  },
+  "ELP2": {
+    "length": 826,
+    "subcell": [
+      "Cytoplasm",
+      "Nucleus"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Elongator complex protein 2",
+    "acc": "Q6IA86"
+  },
+  "OSGIN1": {
+    "length": 477,
+    "subcell": [
+      "Midbody"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Oxidative stress-induced growth inhibitor 1",
+    "acc": "Q9UJX0"
+  },
+  "P3H2": {
+    "length": 708,
+    "subcell": [
+      "Endoplasmic reticulum",
+      "Sarcoplasmic reticulum",
+      "Golgi apparatus"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Prolyl 3-hydroxylase 2",
+    "acc": "Q8IVL5"
+  },
+  "SYVN1": {
+    "length": 617,
+    "subcell": [
+      "Endoplasmic reticulum membrane"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "E3 ubiquitin-protein ligase synoviolin",
+    "acc": "Q86TM6"
+  },
+  "NAPRT": {
+    "length": 538,
+    "subcell": [
+      "Cytoplasm, cytosol"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Nicotinate phosphoribosyltransferase",
+    "acc": "Q6XQN6"
+  },
+  "IFT140": {
+    "length": 1462,
+    "subcell": [
+      "Cytoplasm, cytoskeleton, cilium basal body",
+      "Cytoplasm, cytoskeleton, microtubule organizing center, centrosome",
+      "Cell projection, cilium"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Intraflagellar transport protein 140 homolog",
+    "acc": "Q96RY7"
+  },
+  "ESPL1": {
+    "length": 2120,
+    "subcell": [
+      "Cytoplasm",
+      "Nucleus"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Separin",
+    "acc": "Q14674"
+  },
+  "ADARB2": {
+    "length": 739,
+    "subcell": [
+      "Nucleus"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Inactive double-stranded RNA-specific editase B2",
+    "acc": "Q9NS39"
+  },
+  "SURF4": {
+    "length": 269,
+    "subcell": [
+      "Endoplasmic reticulum membrane",
+      "Endoplasmic reticulum-Golgi intermediate compartment membrane",
+      "Golgi apparatus membrane"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Surfeit locus protein 4",
+    "acc": "O15260"
+  },
+  "SNAPIN": {
+    "length": 136,
+    "subcell": [
+      "Membrane",
+      "Cytoplasm, cytosol",
+      "Cytoplasm, perinuclear region",
+      "Golgi apparatus membrane",
+      "Lysosome membrane",
+      "Cytoplasmic vesicle, secretory vesicle, synaptic vesicle membrane"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "SNARE-associated protein Snapin",
+    "acc": "O95295"
+  },
+  "CADM4": {
+    "length": 388,
+    "subcell": [
+      "Membrane"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Cell adhesion molecule 4",
+    "acc": "Q8NFZ8"
+  },
+  "PDLIM5": {
+    "length": 596,
+    "subcell": [
+      "Postsynaptic density",
+      "Presynapse",
+      "Postsynapse",
+      "Cytoplasm, cytosol"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "PDZ and LIM domain protein 5",
+    "acc": "Q96HC4"
+  },
+  "ACOT12": {
+    "length": 555,
+    "subcell": [
+      "Cytoplasm, cytosol"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Acetyl-coenzyme A thioesterase",
+    "acc": "Q8WYK0"
+  },
+  "TNRC6A": {
+    "length": 1962,
+    "subcell": [
+      "Cytoplasm, P-body"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Trinucleotide repeat-containing gene 6A protein",
+    "acc": "Q8NDV7"
+  },
+  "MESD": {
+    "length": 234,
+    "subcell": [
+      "Endoplasmic reticulum"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "LRP chaperone MESD",
+    "acc": "Q14696"
+  },
+  "HMGN5": {
+    "length": 282,
+    "subcell": [
+      "Nucleus"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "High mobility group nucleosome-binding domain-containing protein 5",
+    "acc": "P82970"
+  },
+  "TNFAIP2": {
+    "length": 654,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Tumor necrosis factor alpha-induced protein 2",
+    "acc": "Q03169"
+  },
+  "EPC2": {
+    "length": 807,
+    "subcell": [
+      "Nucleus"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Enhancer of polycomb homolog 2",
+    "acc": "Q52LR7"
+  },
+  "MTCP1": {
+    "length": 107,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Protein p13 MTCP-1",
+    "acc": "P56278"
+  },
+  "GSK3A": {
+    "length": 50,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      ""
+    ],
+    "name": "",
+    "acc": "A0A7I2V345"
+  },
+  "PNPO": {
+    "length": 151,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Pyridoxine-5'-phosphate oxidase",
+    "acc": "A0A286YFL3"
+  },
+  "SYN2": {
+    "length": 582,
+    "subcell": [
+      "Synapse"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      ""
+    ],
+    "name": "Synapsin-2",
+    "acc": "Q86VA8"
+  },
+  "OPHN1": {
+    "length": 694,
+    "subcell": [
+      "Cell projection, dendrite",
+      "Cell projection, dendritic spine",
+      "Cytoplasm",
+      "Presynapse"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Oligophrenin-1",
+    "acc": "A0A7P0Z4E9"
+  },
+  "EGLN2": {
+    "length": 139,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      ""
+    ],
+    "name": "",
+    "acc": "M0R0Z6"
+  },
+  "NKTR": {
+    "length": 104,
+    "subcell": [],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Peptidyl-prolyl cis-trans isomerase",
+    "acc": "C9JMM5"
+  },
+  "CRIPT": {
+    "length": 81,
+    "subcell": [
+      "Cytoplasm"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "Cysteine-rich PDZ-binding protein",
+    "acc": "A0ABB0MV94"
+  },
+  "FOXI1": {
+    "length": 378,
+    "subcell": [
+      "Nucleus"
+    ],
+    "domains": [],
+    "keywords": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "name": "",
+    "acc": "E0XEY9"
+  }
+}

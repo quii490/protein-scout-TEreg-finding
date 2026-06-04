@@ -1,0 +1,18 @@
+metric	value
+Excel unique genes	4756
+Total reports	4760
+Scored	2705
+Rejected	2055
+Missing from Excel	1061
+Duplicates	153
+<12L templates	81
+<50L thin	1019
+Packet error	0
+No nuclear evidence shorthand	0
+Forbidden placeholders	235
+Harvest gap	2738
+False-rejection CRITICAL	94
+FALSE-rejection HIGH	56
+FALSE-rejection MED	0
+Gate errors	2074
+Gate warnings	1719

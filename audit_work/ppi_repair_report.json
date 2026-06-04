@@ -1,0 +1,203 @@
+{
+  "targets": 22,
+  "results": [
+    {
+      "gene": "COG5",
+      "path": "detail/nucleoplasm/COG5/COG5-evaluation.md",
+      "uniprot": "Q9UP83",
+      "status": "updated",
+      "string_count": 15,
+      "intact_rows": 30,
+      "go_cc_count": 7
+    },
+    {
+      "gene": "EPB41L4A",
+      "path": "detail/nucleoplasm/EPB41L4A/EPB41L4A-evaluation.md",
+      "uniprot": null,
+      "status": "updated",
+      "string_count": 10,
+      "intact_rows": 17,
+      "go_cc_count": 0
+    },
+    {
+      "gene": "FOXJ3",
+      "path": "detail/nucleoplasm/FOXJ3/FOXJ3-evaluation.md",
+      "uniprot": "Q9UPW0",
+      "status": "updated",
+      "string_count": 15,
+      "intact_rows": 15,
+      "go_cc_count": 2
+    },
+    {
+      "gene": "GABPB1",
+      "path": "detail/nucleoplasm/GABPB1/GABPB1-evaluation.md",
+      "uniprot": "Q06547",
+      "status": "updated",
+      "string_count": 15,
+      "intact_rows": 30,
+      "go_cc_count": 3
+    },
+    {
+      "gene": "GABPB2",
+      "path": "detail/nucleoplasm/GABPB2/GABPB2-evaluation.md",
+      "uniprot": "Q8TAK5",
+      "status": "updated",
+      "string_count": 11,
+      "intact_rows": 30,
+      "go_cc_count": 1
+    },
+    {
+      "gene": "GBP4",
+      "path": "detail/nucleoplasm/GBP4/GBP4-evaluation.md",
+      "uniprot": "Q96PP9",
+      "status": "updated",
+      "string_count": 15,
+      "intact_rows": 3,
+      "go_cc_count": 7
+    },
+    {
+      "gene": "GEMIN4",
+      "path": "detail/nucleoplasm/GEMIN4/GEMIN4-evaluation.md",
+      "uniprot": "P57678",
+      "status": "updated",
+      "string_count": 15,
+      "intact_rows": 30,
+      "go_cc_count": 12
+    },
+    {
+      "gene": "GLIPR1",
+      "path": "detail/nucleoplasm/GLIPR1/GLIPR1-evaluation.md",
+      "uniprot": "P48060",
+      "status": "updated",
+      "string_count": 15,
+      "intact_rows": 11,
+      "go_cc_count": 4
+    },
+    {
+      "gene": "GMEB1",
+      "path": "detail/nucleoplasm/GMEB1/GMEB1-evaluation.md",
+      "uniprot": "Q9Y692",
+      "status": "updated",
+      "string_count": 15,
+      "intact_rows": 30,
+      "go_cc_count": 4
+    },
+    {
+      "gene": "GNB5",
+      "path": "detail/nucleoplasm/GNB5/GNB5-evaluation.md",
+      "uniprot": "O14775",
+      "status": "updated",
+      "string_count": 15,
+      "intact_rows": 30,
+      "go_cc_count": 10
+    },
+    {
+      "gene": "GON4L",
+      "path": "detail/nucleoplasm/GON4L/GON4L-evaluation.md",
+      "uniprot": "Q3T8J9",
+      "status": "updated",
+      "string_count": 15,
+      "intact_rows": 30,
+      "go_cc_count": 3
+    },
+    {
+      "gene": "GPCPD1",
+      "path": "detail/nucleoplasm/GPCPD1/GPCPD1-evaluation.md",
+      "uniprot": "Q9NPB8",
+      "status": "updated",
+      "string_count": 15,
+      "intact_rows": 5,
+      "go_cc_count": 1
+    },
+    {
+      "gene": "GPRIN3",
+      "path": "detail/nucleoplasm/GPRIN3/GPRIN3-evaluation.md",
+      "uniprot": "Q6ZVF9",
+      "status": "updated",
+      "string_count": 15,
+      "intact_rows": 9,
+      "go_cc_count": 2
+    },
+    {
+      "gene": "GRHL1",
+      "path": "detail/nucleoplasm/GRHL1/GRHL1-evaluation.md",
+      "uniprot": "Q9NZI5",
+      "status": "updated",
+      "string_count": 15,
+      "intact_rows": 7,
+      "go_cc_count": 3
+    },
+    {
+      "gene": "GRWD1",
+      "path": "detail/nucleoplasm/GRWD1/GRWD1-evaluation.md",
+      "uniprot": "Q9BQ67",
+      "status": "updated",
+      "string_count": 15,
+      "intact_rows": 30,
+      "go_cc_count": 6
+    },
+    {
+      "gene": "GSC2",
+      "path": "detail/nucleoplasm/GSC2/GSC2-evaluation.md",
+      "uniprot": "O15499",
+      "status": "updated",
+      "string_count": 15,
+      "intact_rows": 30,
+      "go_cc_count": 2
+    },
+    {
+      "gene": "GSE1",
+      "path": "detail/nucleoplasm/GSE1/GSE1-evaluation.md",
+      "uniprot": "Q14687",
+      "status": "updated",
+      "string_count": 15,
+      "intact_rows": 30,
+      "go_cc_count": 0
+    },
+    {
+      "gene": "GSX1",
+      "path": "detail/nucleoplasm/GSX1/GSX1-evaluation.md",
+      "uniprot": "Q9H4S2",
+      "status": "updated",
+      "string_count": 15,
+      "intact_rows": 30,
+      "go_cc_count": 2
+    },
+    {
+      "gene": "GSX2",
+      "path": "detail/nucleoplasm/GSX2/GSX2-evaluation.md",
+      "uniprot": "Q9BZM3",
+      "status": "updated",
+      "string_count": 15,
+      "intact_rows": 4,
+      "go_cc_count": 3
+    },
+    {
+      "gene": "IQGAP3",
+      "path": "detail/nucleolus/IQGAP3/IQGAP3-evaluation.md",
+      "uniprot": "Q86VI3",
+      "status": "updated",
+      "string_count": 15,
+      "intact_rows": 30,
+      "go_cc_count": 4
+    },
+    {
+      "gene": "MEIOC",
+      "path": "detail/nucleoplasm/MEIOC/MEIOC-evaluation.md",
+      "uniprot": "A2RUB1",
+      "status": "updated",
+      "string_count": 15,
+      "intact_rows": 8,
+      "go_cc_count": 2
+    },
+    {
+      "gene": "PCP2",
+      "path": "detail/nuclear-speckle/PCP2/PCP2-evaluation.md",
+      "uniprot": null,
+      "status": "updated",
+      "string_count": 15,
+      "intact_rows": 30,
+      "go_cc_count": 0
+    }
+  ]
+}

@@ -1,0 +1,926 @@
+gene	category	status	lines	is_thin	is_one_liner	has_packet_error	has_template	risk	missing_fields	issues
+C5orf46	rejected	rejected	11	True	False	True	False	CRITICAL	HPA,PubMed,AlphaFold/pLDDT,PDB,PPI	THIN,PACKET_ERROR,THIN_REJECTED
+IQCF3	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM110A	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+PRELID3B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+LZIC	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TGDS	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BCL9L	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM199X	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+LEKR1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TSACC	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CCDC34	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TRMT10B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CSTA	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+SATL1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TSTD2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM90A15	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TTC39C	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CIP2A	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAXC	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CALCOCO1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+MZT2B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM135A	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CYSRT1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM90A12	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DYNC2I2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CCDC69	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM90A24	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CIDEA	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM90A23	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+SPATA45	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FRMD4B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DISP2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM217B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+GRAMD2B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TSPYL6	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FBXL18	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+PIH1D2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+MTCL3	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DAB2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+RSPH14	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+NIBAN2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DCLRE1C	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DGKZ	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TEDC1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+SPATA17	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+NSMAF	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+SSX7	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+HUS1B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM90A22	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+RWDD1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+GMFB	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+MAGEA9B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM234A	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BARX1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CCSER2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CHUK	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM90A13	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+GVQW3	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TEX261	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CNBD2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TBC1D12	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CRKL	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DLX6	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DNAL1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+SAXO4	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CLDND2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM90A14	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TLCD4	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CC2D1A	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BIRC5	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+RIBC1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+LRRC2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CREB3L1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CUL5	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BIRC2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+WDR88	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TYSND1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+EFCAB5	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BECN1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CCDC149	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+KLHL35	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+ERLN	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+NBPF6	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+LCA5L	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+WDR86	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TMTC1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FNDC11	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CCDC74B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CCDC171	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BRDT	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+EFCAB14	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CLHC1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+KLHL32	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TSPAN31	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+MAGEB17	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BRAP	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CYFIP2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM76A	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BTG2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+POFUT4	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+KIAA1586	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+ELMOD2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DLL3	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+C1GALT1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+SRARP	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+PMFBP1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DDAH1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+PCMTD1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+EVA1B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM161B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+EEF1B2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+UMAD1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+RIMOC1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+PRTFDC1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BCL3	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+PELI3	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+MEA1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CCDC183	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TTC31	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+EFCAB12	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CLEC16A	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CPLANE2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BIRC3	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TTLL2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DCK	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+SUSD1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+KIAA1143	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DCTN1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+C1orf162	rejected	rejected	11	True	False	True	False	CRITICAL	HPA,PubMed,AlphaFold/pLDDT,PDB,PPI	THIN,PACKET_ERROR,THIN_REJECTED
+CSE1L	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+PLEKHG1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DFFB	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+PLPPR2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+ESPNL	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+KCTD11	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DALRD3	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+S100Z	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TBC1D10C	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM124A	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+WDR27	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CA13	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM229B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+VOPP1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CYGB	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+RAB3GAP1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TRIM51	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+KIAA1755	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+KLHL42	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TEX13C	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+GCNT7	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+WDCP	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM228A	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DIPK1B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TRIM60	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM227B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FHIP2A	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CFL1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+XAGE1B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+RETREG3	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CRK	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+LRRN4CL	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+EXOC6B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+NUTM2E	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+PCED1A	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+PRR23A	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+PPIL6	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB	THIN,THIN_REJECTED
+DMRTC1B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BRPF1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+XNDC1N	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TM2D1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+LACTBL1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TTC13	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CENPC	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TCP11L2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TMCO6	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+PRR29	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CAPG	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+KLHL11	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+THSD7B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CCDC152	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BANP	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TRIM61	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM204A	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+RHPN1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CRTC2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM186B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CETN2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DBNDD1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CNGA4	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+PRRT3	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BMAL2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+PRRT4	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+SPATA31F1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FBXO27	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BARD1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+SMKR1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+SDR39U1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+POF1B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CENPE	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+HS1BP3	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DCAKD	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+PLAC8L1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FARSB	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+MAB21L3	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+OBI1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CENPB	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TTC12	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TYW1B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+PP2D1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+INSYN1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+LRRN3	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TTC24	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+RIIAD1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+LRRN4	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+NUTM2D	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CMTM1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+KIAA0930	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CRYAA	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+ZAR1L	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+HERC4	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+MS4A14	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+PACRGL	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+ENTREP2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+NKPD1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM90A9	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+LRRC41	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+GIMAP2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM117A	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FBXW10	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+MANBAL	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM90A7	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CD72	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CAND1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+LRRC46	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CIART	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+KLHL8	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CDX1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+PRODH2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+METTL25B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+COMMD1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+GARIN1B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DMRTC1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TRMO	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+LDLRAD1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+PDZRN3	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TRIM49D1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+RFPL2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DST	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+LRRC23	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FBXL6	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+SERTAD1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+SSX4B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+WSCD1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CTBP2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+LONRF3	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+PHLDB3	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+RXYLT1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DDX39B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CACYBP	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+KBTBD2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM90A1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TMPPE	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+LRRC40	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FRMD7	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CREM	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CERS2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+EFHB	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+R3HCC1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+HAUS7	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CRYBG2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM90A8	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TRIM51G	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+LRRC75A	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM219B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TMA7B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TEX35	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM174C	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+LRRIQ3	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CYB5RL	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+MATCAP1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+OSGIN2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+HSBP1L1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+GAL3ST4	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+HEATR3	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CTTNBP2NL	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+C22orf23	rejected	rejected	11	True	False	True	False	CRITICAL	HPA,PubMed,AlphaFold/pLDDT,PDB,PPI	THIN,PACKET_ERROR,THIN_REJECTED
+BCL10	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BUB3	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DOP1B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+MORN3	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+LRRC14	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM89A	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+SEPTIN5	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CCDC18	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM131A	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CCDC27	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+MFHAS1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM90A11	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+NAT9	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DLX4	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BHLHE41	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM90A16	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TBC1D28	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DENND1C	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+GUCD1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+POC1B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CALCOCO2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM135B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DLX3	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CPA3	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM90A20	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+SSX5	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DEDD	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+LENG1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BNIP3L	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TBC1D19	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM90A18	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+LRRC61	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BHLHE23	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+POGLUT3	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+GIPC3	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BANF1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+SPATA12	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DTL	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CHM	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DGAT1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DGKQ	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DMTF1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CSTB	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CFLAR	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM90A26	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CLSPN	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+SSX3	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+NPHP3	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CIDEC	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM90A19	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BORA	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CEMP1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+HDHD3	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+UFC1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM90A17	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+SOWAHB	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM90A10	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+LRP12	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BMPR2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+SPATA2L	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FNBP4	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+EEIG2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DPYSL5	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BHMT	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DVL2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+KATNIP	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+M1AP	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DR1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FBRSL1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+OAF	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TTC9	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DOK1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CRBN	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DPCD	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+LMNTD1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+LRRC14B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DCLK1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BHLHE22	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BCL2L1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TEDC2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+GMIP	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BTG1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TRMT9B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BATF2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+SCARF2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+UCK1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM13C	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CLN6	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+XAGE5	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+EPHX3	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+WDR25	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FCHSD1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+PCMTD2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CTSV	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+ST6GALNAC4	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+GLTPD2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM240C	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BUB1B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+HYKK	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+MROH8	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+KLHL38	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TAS2R5	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CYLD	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TTC9C	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DCTN4	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+PROCA1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CREB3L2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+EBLN2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+PRR36	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DMRT2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+VWA5B2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+SULT1B1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TMOD2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+NHSL2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TSPAN32	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+SACK1G	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CCDC175	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+LINS1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CCDC181	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TTLL9	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CCAR2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BAMBI	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+MROH6	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+SAMD15	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FKBP15	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+PDIK1L	rejected	rejected	11	True	False	True	False	CRITICAL	HPA,PubMed,AlphaFold/pLDDT,PDB,PPI	THIN,PACKET_ERROR,THIN_REJECTED
+FAM91A1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+KIAA1328	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+KLRG2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+ZNRF2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TTC32	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+Tex19.2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+GLMN	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+RIMS4	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+IFFO2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+NBPF4	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+LRRC9	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CTNND2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TTC9B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BCL9	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM181A	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CREB3L3	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+LRMDA	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DCPH1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+WDR41	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FBXO36	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+PLEKHG2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+NAALADL2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CREB5	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TCEANC	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+NDUFA9	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CLBA1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+PRR23B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+GLCCI1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BRF1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+KIAA1191	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TTBK1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FDXACB1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CCDC7	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+HYDIN	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+VWA3B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+PRR23E	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+NECAB1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+NUTM2F	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+MAP7D2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CRABP2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+ZYG11A	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CASK	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FEM1C	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BMX	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+SMTNL2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+PCNX1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM163B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+RUNDC1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM227A	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CKS2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DIPK1A	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FHIP2B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CFL2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DCTD	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CEBPE	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DDN	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+SANBR	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+PDZD9	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TOR4A	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+GINM1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CENPA	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+SPRYD4	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+SPRYD3	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CENPF	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+GTSF1L	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CCDC150	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DPP9	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CEP290	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CREB3	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+R3HCC1L	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+NUTM2G	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+MAP7D3	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+PRR22	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+PRR23C	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+KCTD6	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TRIM65	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+RUSF1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+PBDC1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CRTC1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CEBPD	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TEX9	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+PSKH2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+WDR31	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+NEK8	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CBLB	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+SPATS1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BAG1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+MCTP2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DBNDD2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FBXO48	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+GARNL3	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BAG6	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+PTRHD1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+MORN1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BUB1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TEX52	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TRIM49D2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BRMS1L	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DPH7	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CDR2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM131C	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BCORL1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CTBP1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CSTF2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+KIAA1614	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+GAL3ST1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+HECTD4	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CRIP1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+LRRC27	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BRMS1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FSIP1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TKFC	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DLST	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CTC1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+PNMA8A	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+ERICH4	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+LRRC20	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BEND3	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CTXN1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM171B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+ENTPD7	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+KLHL2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FCHO1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CAMTA1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+PRELID2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FEZ2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DHPS	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DNAAF9	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CCDC71	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+KLHDC9	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+LRRC42	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+MAMDC4	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+SPANXN2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM117B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM90A3	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+LRIT3	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+MATCAP2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+SIMC1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+RILPL1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DRG1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+HECTD2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+ERICH5	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DIO2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+SIRPB2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+PHLDB1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CRYBB2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+NTAN1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+RERGL	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+ERICH2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+VPS33A	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CABIN1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DPH6	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+LBHD1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+B9D2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM178B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DOP1A	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+LRRC28	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+REDIC1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CIMIP6	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+LURAP1L	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DNAAF6	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+SPANXN3	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+KIAA1549L	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+SPANXN4	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+KATNA1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+IQCE	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+EVPLL	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+FAM90A5	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+TBC1D9B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+CBR1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+VSIG2	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+LRRC75B	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+RHCE	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+DEPTOR	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+ITPRID1	rejected	rejected	11	True	False	False	False	CRITICAL	HPA,AlphaFold/pLDDT,PDB,PPI	THIN,THIN_REJECTED
+BRICD5	rejected	rejected	26	False	False	False	False	MED	PPI	
+CRPPA	rejected	rejected	26	False	False	False	False	MED	PPI	
+C22orf39	rejected	rejected	26	False	False	False	False	HIGH	PDB,PPI	
+CXorf58	rejected	rejected	26	False	False	False	False	MED	PPI	
+CACHD1	rejected	rejected	26	False	False	False	False	MED	PPI	
+C6orf201	rejected	rejected	26	False	False	False	False	MED	PPI	
+C16orf87	rejected	rejected	26	False	False	False	False	MED	PPI	
+C6orf141	rejected	rejected	26	False	False	False	False	MED	PPI	
+BMERB1	rejected	rejected	26	False	False	False	False	MED	PPI	
+BLTP3A	rejected	rejected	26	False	False	False	False	MED	PPI	
+C8orf82	rejected	rejected	26	False	False	False	False	MED	PPI	
+BTBD6	rejected	rejected	26	False	False	False	False	MED	PPI	
+C6orf136	rejected	rejected	26	False	False	False	False	MED	PPI	
+CERCAM	rejected	rejected	26	False	False	False	False	MED	PPI	
+C6orf163	rejected	rejected	26	False	False	False	False	MED	PPI	
+BTBD9	rejected	rejected	26	False	False	False	False	MED	PPI	
+CCDC138	rejected	rejected	26	False	False	False	False	MED	PPI	
+CCDC81	rejected	rejected	26	False	False	False	False	MED	PPI	
+KBTBD4	rejected	rejected	26	False	False	False	False	MED	PPI	
+C2CD2L	rejected	rejected	26	False	False	False	False	MED	PPI	
+C6orf223	rejected	rejected	26	False	False	False	False	MED	PPI	
+CCDC17	rejected	rejected	26	False	False	False	False	MED	PPI	
+BEND7	rejected	rejected	26	False	False	False	False	MED	PPI	
+CCDC87	rejected	rejected	26	False	False	False	False	MED	PPI	
+BBIP1	rejected	rejected	26	False	False	False	False	MED	PPI	
+C2orf78	rejected	rejected	26	False	False	False	False	MED	PPI	
+C5orf63	rejected	rejected	26	False	False	False	False	MED	PPI	
+C17orf50	rejected	rejected	26	False	False	False	False	MED	PPI	
+CCDC63	rejected	rejected	26	False	False	False	False	MED	PPI	
+C17orf100	rejected	rejected	26	False	False	False	False	MED	PPI	
+BICDL1	rejected	rejected	26	False	False	False	False	MED	PPI	
+C17orf107	rejected	rejected	26	False	False	False	False	MED	PPI	
+C1orf216	rejected	rejected	26	False	False	False	False	MED	PPI	
+C18orf32	rejected	rejected	26	False	False	False	False	MED	PPI	
+CBY3	rejected	rejected	26	False	False	False	False	MED	PPI	
+CBARP	rejected	rejected	26	False	False	False	False	MED	PPI	
+ARMC2	rejected	rejected	26	False	False	False	False	MED	PPI	
+CIMIP2C	rejected	rejected	26	False	False	False	False	MED	PPI	
+BBOF1	rejected	rejected	26	False	False	False	False	MED	PPI	
+C6orf118	rejected	rejected	26	False	False	False	False	MED	PPI	
+ATXN7L2	rejected	rejected	26	False	False	False	False	MED	PPI	
+C6orf120	rejected	rejected	26	False	False	False	False	MED	PPI	
+C4orf45	rejected	rejected	26	False	False	False	False	MED	PPI	
+C1orf159	rejected	rejected	26	False	False	False	False	MED	PPI	
+C6orf132	rejected	rejected	26	False	False	False	False	MED	PPI	
+ATG4C	rejected	rejected	26	False	False	False	False	MED	PPI	
+CALML4	rejected	rejected	26	False	False	False	False	MED	PPI	
+C4orf51	rejected	rejected	26	False	False	False	False	HIGH	PDB,PPI	
+BTBD16	rejected	rejected	26	False	False	False	False	MED	PPI	
+C19orf44	rejected	rejected	26	False	False	False	False	MED	PPI	
+Hsf3	rejected	rejected	26	False	False	False	False	MED	PPI	
+CACNA2D3	rejected	rejected	26	False	False	False	False	MED	PPI	
+CAPSL	rejected	rejected	26	False	False	False	False	MED	PPI	
+CEACAM19	rejected	rejected	26	False	False	False	False	MED	PPI	
+CCDC28A	rejected	rejected	26	False	False	False	False	MED	PPI	
+CCDC15	rejected	rejected	26	False	False	False	False	MED	PPI	
+C6orf226	rejected	rejected	26	False	False	False	False	MED	PPI	
+CLXN	rejected	rejected	26	False	False	False	False	MED	PPI	
+LRRC10	rejected	rejected	26	False	False	False	False	MED	PPI	
+CCDC24	rejected	rejected	26	False	False	False	False	MED	PPI	
+C5orf60	rejected	rejected	26	False	False	False	False	HIGH	PDB,PPI	
+C5orf34	rejected	rejected	26	False	False	False	False	MED	PPI	
+C4orf47	rejected	rejected	27	False	False	False	False	HIGH	PDB,PPI	
+C2orf68	rejected	rejected	27	False	False	False	False	HIGH	PDB,PPI	
+C4orf33	rejected	rejected	27	False	False	False	False	HIGH	PDB,PPI	
+C3orf20	rejected	rejected	27	False	False	False	False	HIGH	PDB,PPI	
+C3orf80	rejected	rejected	27	False	False	False	False	HIGH	PDB,PPI	
+C2orf72	rejected	rejected	27	False	False	False	False	HIGH	PDB,PPI	
+C2orf81	rejected	rejected	27	False	False	False	False	HIGH	PDB,PPI	
+C3orf62	rejected	rejected	28	False	False	False	False	HIGH	PDB,PPI	
+C3orf33	rejected	rejected	28	False	False	False	False	HIGH	PDB,PPI	
+C4orf19	rejected	rejected	28	False	False	False	False	HIGH	PDB,PPI	
+C2CD3	rejected	rejected	28	False	False	False	False	HIGH	PDB,PPI	
+C22orf42	rejected	rejected	28	False	False	False	False	HIGH	PDB,PPI	
+C22orf15	rejected	rejected	38	False	False	False	False	MED	PPI	
+C20orf202	rejected	rejected	38	False	False	False	False	MED	PPI	
+C20orf96	rejected	rejected	38	False	False	False	False	MED	PPI	
+C20orf173	rejected	rejected	39	False	False	False	False	MED	PPI	
+C21orf58	rejected	rejected	40	False	False	False	False	MED	PPI	
+C20orf194	rejected	rejected	40	False	False	False	False	MED	PPI	
+RAB24	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+C9orf85	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+RFPL4A	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+FBXL17	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+NUDCD1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+C9orf40	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+MBIP	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+TTC5	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+Sgo2a	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+C5orf24	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+RALGAPA1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+FBH1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+MYORG	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+SPANXC	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+PRAC2	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+EEIG1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+CTDNEP1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+RCBTB1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+FAM193B	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+MRNIP	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+MINDY3	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+FOXD4L3	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+Spdye4a	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+C22orf31	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+PAPOLB	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+EID2B	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+Naa11	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+KPNA3	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+STX1B	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+H4C7	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+FAM47E	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+HROB	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+RHNO1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+C5orf22	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+GPN3	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+YPEL1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+PTOV1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+OOEP	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+RMI2	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+URI1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+PLSCR4	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+TSPY8	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+MACO1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+SYNE3	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+JMJD7	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+CCDC125	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+PLEKHA2	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+FIRRM	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+FAM9B	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+INPP4A	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+IFFO1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+NDOR1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+PTTG1IP	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+TSPY9	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+WDR74	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+DAZ4	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+KLHDC10	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+GHDC	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+STYX	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+FAM9C	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+LYRM4	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+NTMT2	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+TATDN1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+FAM209A	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+WDR18	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+Mplkip	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+CCDC106	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+Ifi211	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+SHISA5	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+TRAK1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+Gm52993	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+FAM169A	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+KLHL20	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+ELAC1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+ELP5	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+TC2N	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+C4orf54	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+SEPTIN12	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+NICN1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+DERPC	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+CCDC107	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+TRIM68	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+XRRA1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+TERB2	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+DGCR6L	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+PRR19	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+Trap1a	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+RUSC1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+STPG1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+TMC8	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+TNKS1BP1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+RAMACL	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+DNAAF4	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+Sox19	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+PPM1E	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+GARIN3	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+DUX3	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+DYNLT4	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+ZNG1C	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+HINT3	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+JPT2	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+NUPR2	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+COMMD6	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+COMMD8	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+MSL3B	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+Oog1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+CCDC89	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+SSUH2	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+KLHDC2	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+UBTFL1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+HMGB4	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+COMMD9	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+TUBD1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+RFPL3	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+SAAL1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+Slfn1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+MID1IP1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+Isoc2a	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+ERICH6	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+DUX5	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+TSEN15	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+ZNG1E	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+SPATA4	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+SPATA33	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+ZNG1B	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+Fam209	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+TESK2	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+MCRIP2	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+DCUN1D5	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+YPEL3	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+Chtf8	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+SPATA46	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+SCNM1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+CC2D2B	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+CTDSPL2	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+PCNP	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+TSEN34	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+MBLAC1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+TBATA	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+TDRP	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+TSTD1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+SPATA24	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+Tex24	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+DGCR6	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+DCUN1D3	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+DCANP1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+CPHXL	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+SLX1A	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+SPIN2B	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+CPHXL2	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+FAM76B	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+C8orf74	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+NUBP2	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+SYCP2L	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+NTAQ1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+METTL23	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+FAM9A	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+LYRM1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+TATDN3	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+KNOP1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+UBXN7	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+FAM220A	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+TSPY2	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+FAM53B	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+CCDC188	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+TSPY10	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+TRAPPC12	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+FRG2B	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+Xlr5c	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+DAZ1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+TATDN2	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+MEIOB	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+UBXN6	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+FAM209B	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+Ssxa1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+HARBI1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+ERFL	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+EDRF1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+URGCP	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+FRG2C	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+PNCK	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+TSPY4	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+DDIAS	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+STPG4	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+QRICH2	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+RFWD3	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+TCEANC2	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+KLHL15	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+DESI1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+R3HDM4	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+WDR55	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+RASL11A	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+WDR37	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+NFILZ	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+TPP2	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+PRR13	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+TSNAXIP1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+KAZN	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+R3HDM2	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+C8orf33	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+FBLL1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+DPY19L2	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+ISOC2	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+KLHL22	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+MVB12A	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+Rasl2-9	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+PTTG2	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+Mfap1b	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+NUGGC	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+NACAD	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+STARD9	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+PITPNA	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+UBXN2A	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+OSBPL8	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+STRADB	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+TOR1B	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+Ifi214	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+NMRAL1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+FANK1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+C9orf152	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+KATNBL1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+TEX55	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+EPM2A	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+CCDC13	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+EEF1AKMT2	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+KRCC1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+RFPL1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+NEMP2	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+GMCL2	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+DQX1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+GCHFR	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+ETV3L	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+TCF24	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+GCFC2	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+CIMAP3	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+FSBP	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+KRI1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+SEL1L2	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+KBTBD7	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+TCP10L	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+Isoc2b	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+DUX1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+C9orf153	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+RITA1	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+ZNG1F	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+LANCL2	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+KBTBD6	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+Fbxw15	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+SSX2B	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+CCDC102A	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+VEZT	rejected	rejected	44	False	False	False	False	HIGH	PDB,PPI	
+C2CD6	rejected	rejected	52	False	False	False	False	MED	PPI	
+C3orf38	nucleoplasm	scored	61	False	False	False	False	LOW		
+C19orf67	rejected	rejected	66	False	False	False	False	LOW		
+C19orf73	rejected	rejected	68	False	False	False	False	LOW		
+C19orf53	rejected	rejected	73	False	False	False	False	LOW		
+C2orf42	nucleoplasm	scored	186	False	False	False	False	LOW		
+C2orf49	nucleoplasm	scored	209	False	False	False	False	LOW		

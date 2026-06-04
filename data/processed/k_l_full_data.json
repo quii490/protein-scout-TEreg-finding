@@ -1,0 +1,233 @@
+{
+  "KANSL2": {
+    "af_plddt": null,
+    "af_version": null,
+    "af_entry": "AF-Q9H9L4-F1",
+    "interpro": [],
+    "name": "KAT8 regulatory NSL complex subunit 2",
+    "function": "Non-catalytic component of the NSL histone acetyltransferase complex, a multiprotein complex that mediates histone H4 acetylation at 'Lys-5'- and 'Lys-8' (H4K5ac and H4K8ac) at transcription start sites and promotes transcription initiation (PubMed:20018852, PubMed:33657400). Required for NSL complex stability and for transcription of intraciliary transport genes in both ciliated and non-ciliated cells by regulating histone H4 acetylation at 'Lys-5'- and 'Lys-12' (H4K5ac and H4K12ac) (By similar",
+    "features": []
+  },
+  "KANSL3": {
+    "af_plddt": null,
+    "af_version": null,
+    "af_entry": "AF-Q9P2N6-F1",
+    "interpro": [],
+    "name": "KAT8 regulatory NSL complex subunit 3",
+    "function": "Non-catalytic component of the NSL histone acetyltransferase complex, a multiprotein complex that mediates histone H4 acetylation at 'Lys-5'- and 'Lys-8' (H4K5ac and H4K8ac) at transcription start sites and promotes transcription initiation (PubMed:20018852, PubMed:33657400). The NSL complex also acts as a regulator of gene expression in mitochondria (PubMed:27768893). Within the NSL complex, KANSL3 is required to promote KAT8 association with mitochondrial DNA (PubMed:27768893). Required for tr",
+    "features": []
+  },
+  "KBTBD4": {
+    "af_plddt": null,
+    "af_version": null,
+    "af_entry": "AF-Q9NVX7-F1",
+    "interpro": [],
+    "name": "Kelch repeat and BTB domain-containing protein 4",
+    "function": "Substrate-specific adapter of a BCR (BTB-CUL3-RBX1) E3 ubiquitin ligase complex which targets CoREST corepressor complex components RCOR1, KDM1A/LSD1 and HDAC2 for proteasomal degradation (PubMed:33417871). RCOR1 is likely to be the primary target while degradation of KDM1A and HDAC2 is likely due to their association with RCOR1 (PubMed:33417871). Also targets RCOR3, MIER2 and MIER3 for proteasomal degradation as well as associated proteins ZNF217 and RREB1 (PubMed:36997086). Degradation is depe",
+    "features": []
+  },
+  "KCTD13": {
+    "af_plddt": null,
+    "af_version": null,
+    "af_entry": "AF-Q8WZ19-F1",
+    "interpro": [],
+    "name": "BTB/POZ domain-containing adapter for CUL3-mediated RhoA degradation protein 1",
+    "function": "Substrate-specific adapter of a BCR (BTB-CUL3-RBX1) E3 ubiquitin-protein ligase complex required for synaptic transmission (PubMed:19782033). The BCR(KCTD13) E3 ubiquitin ligase complex mediates the ubiquitination of RHOA, leading to its degradation by the proteasome (PubMed:19782033) Degradation of RHOA regulates the actin cytoskeleton and promotes synaptic transmission (By similarity)",
+    "features": []
+  },
+  "KCTD5": {
+    "af_plddt": null,
+    "af_version": null,
+    "af_entry": "AF-Q9NXV2-F1",
+    "interpro": [],
+    "name": "BTB/POZ domain-containing protein KCTD5",
+    "function": "Its interaction with CUL3 suggests that it may act as a substrate adapter in some E3 ligase complex (PubMed:18573101). Does not affect the function of Kv channel Kv2.1/KCNB1, Kv1.2/KCNA2, Kv4.2/KCND2 and Kv3.4/KCNC4 (PubMed:19361449)",
+    "features": []
+  },
+  "KLHDC4": {
+    "af_plddt": null,
+    "af_version": null,
+    "af_entry": "AF-Q8TBB5-F1",
+    "interpro": [],
+    "name": "Kelch domain-containing protein 4",
+    "function": "",
+    "features": []
+  },
+  "KLHDC8A": {
+    "af_plddt": null,
+    "af_version": null,
+    "af_entry": "AF-Q8IYD2-F1",
+    "interpro": [],
+    "name": "Kelch domain-containing protein 8A",
+    "function": "",
+    "features": []
+  },
+  "KPNA4": {
+    "af_plddt": null,
+    "af_version": null,
+    "af_entry": "AF-O00629-F1",
+    "interpro": [],
+    "name": "Importin subunit alpha-3",
+    "function": "(Microbial infection) In vitro, mediates the nuclear import of human cytomegalovirus UL84 by recognizing a non-classical NLS. In vitro, mediates the nuclear import of human cytomegalovirus UL84 by recognizing a non-classical NLS",
+    "features": []
+  },
+  "KTI12": {
+    "af_plddt": null,
+    "af_version": null,
+    "af_entry": "AF-Q96EK9-F1",
+    "interpro": [],
+    "name": "Protein KTI12 homolog",
+    "function": "",
+    "features": []
+  },
+  "LACC1": {
+    "af_plddt": null,
+    "af_version": null,
+    "af_entry": "AF-Q8IV20-F1",
+    "interpro": [],
+    "name": "Purine nucleoside phosphorylase LACC1",
+    "function": "Purine nucleoside enzyme that catalyzes the phosphorolysis of adenosine, guanosine and inosine nucleosides, yielding D-ribose 1-phosphate and the respective free bases, adenine, guanine and hypoxanthine (PubMed:31978345). Also catalyzes the phosphorolysis of S-methyl-5'-thioadenosine into adenine and S-methyl-5-thio-alpha-D-ribose 1-phosphate (PubMed:31978345). Also has adenosine deaminase activity (PubMed:31978345). Acts as a regulator of innate immunity in macrophages by modulating the purine ",
+    "features": []
+  },
+  "LBX2": {
+    "af_plddt": null,
+    "af_version": null,
+    "af_entry": "AF-Q6XYB7-F1",
+    "interpro": [],
+    "name": "Transcription factor LBX2",
+    "function": "Transcription factor",
+    "features": []
+  },
+  "LCOR": {
+    "af_plddt": null,
+    "af_version": null,
+    "af_entry": "AF-Q96JN0-F1",
+    "interpro": [],
+    "name": "Ligand-dependent corepressor",
+    "function": "May act as transcription activator that binds DNA elements with the sequence 5'-CCCTATCGATCGATCTCTACCT-3' (By similarity). Repressor of ligand-dependent transcription activation by target nuclear receptors. Repressor of ligand-dependent transcription activation by ESR1, ESR2, NR3C1, PGR, RARA, RARB, RARG, RXRA and VDR",
+    "features": []
+  },
+  "LDOC1": {
+    "af_plddt": null,
+    "af_version": null,
+    "af_entry": "AF-O95751-F1",
+    "interpro": [],
+    "name": "Protein LDOC1",
+    "function": "May have an important role in the development and/or progression of some cancers",
+    "features": []
+  },
+  "LEMD2": {
+    "af_plddt": null,
+    "af_version": null,
+    "af_entry": "AF-Q8NC56-F1",
+    "interpro": [],
+    "name": "LEM domain-containing protein 2",
+    "function": "Nuclear lamina-associated inner nuclear membrane protein that is involved in nuclear structure organization, maintenance of nuclear envelope (NE) integrity and NE reformation after mitosis (PubMed:16339967, PubMed:17097643, PubMed:28242692, PubMed:32494070). Plays a role as transmembrane adapter for the endosomal sorting complexes required for transport (ESCRT), and is thereby involved in ESCRT-mediated NE reformation (PubMed:28242692, PubMed:32494070). Promotes ESCRT-mediated NE closure by recr",
+    "features": []
+  },
+  "LEMD3": {
+    "af_plddt": null,
+    "af_version": null,
+    "af_entry": "AF-Q9Y2U8-F1",
+    "interpro": [],
+    "name": "Inner nuclear membrane protein Man1",
+    "function": "Can function as a specific repressor of TGF-beta, activin, and BMP signaling through its interaction with the R-SMAD proteins. Antagonizes TGF-beta-induced cell proliferation arrest",
+    "features": []
+  },
+  "LENG8": {
+    "af_plddt": null,
+    "af_version": null,
+    "af_entry": "AF-Q96PV6-F1",
+    "interpro": [],
+    "name": "Leukocyte receptor cluster member 8",
+    "function": "",
+    "features": []
+  },
+  "LETMD1": {
+    "af_plddt": null,
+    "af_version": null,
+    "af_entry": "AF-Q6P1Q0-F1",
+    "interpro": [],
+    "name": "LETM1 domain-containing protein 1",
+    "function": "Plays an essential role for mitochondrial structure and function, as well as thermogenesis of brown adipocytes. In brown adipose tissue also localizes in the nucleus where it interacts with the chromatin remodeler SMARCA4 to regulate thermogenic genes expression, such as UCP1 (By similarity). May regulate phagocytosis and inflammatory responses to lipopolysaccharide in macrophages (PubMed:31980577). Involved in tumorigenesis and may function as a negative regulator of the p53/TP53 (PubMed:128790",
+    "features": []
+  },
+  "LHX5": {
+    "af_plddt": null,
+    "af_version": null,
+    "af_entry": "AF-Q9H2C1-F1",
+    "interpro": [],
+    "name": "LIM/homeobox protein Lhx5",
+    "function": "Plays an essential role in the regulation of neuronal differentiation and migration during development of the central nervous system",
+    "features": []
+  },
+  "LLPH": {
+    "af_plddt": null,
+    "af_version": null,
+    "af_entry": "AF-Q9BRT6-F1",
+    "interpro": [],
+    "name": "Protein LLP homolog",
+    "function": "In hippocampal neurons, regulates dendritic and spine growth and synaptic transmission",
+    "features": []
+  },
+  "LRR1": {
+    "af_plddt": null,
+    "af_version": null,
+    "af_entry": "AF-Q96L50-F1",
+    "interpro": [],
+    "name": "Leucine-rich repeat protein 1",
+    "function": "Substrate recognition subunit of an ECS (Elongin BC-CUL2/5-SOCS-box protein) E3 ubiquitin-protein ligase complex which mediates the ubiquitination and subsequent proteasomal degradation of target proteins (PubMed:15601820). ECS(LRR1) ubiquitinates MCM7 and promotes CMG replisome disassembly by VCP and chromatin extraction during S-phase (By similarity). May negatively regulate the 4-1BB-mediated signaling cascades which result in the activation of NK-kappaB and JNK1 (PubMed:11804328)",
+    "features": []
+  },
+  "LRRC10": {
+    "af_plddt": null,
+    "af_version": null,
+    "af_entry": "AF-Q5BKY1-F1",
+    "interpro": [],
+    "name": "Leucine-rich repeat-containing protein 10",
+    "function": "May play important roles in cardiac development and/or cardiac function",
+    "features": []
+  },
+  "LRRC31": {
+    "af_plddt": null,
+    "af_version": null,
+    "af_entry": "AF-Q6UY01-F1",
+    "interpro": [],
+    "name": "Leucine-rich repeat-containing protein 31",
+    "function": "",
+    "features": []
+  },
+  "LRWD1": {
+    "af_plddt": null,
+    "af_version": null,
+    "af_entry": "AF-Q9UFC0-F1",
+    "interpro": [],
+    "name": "Leucine-rich repeat and WD repeat-containing protein 1",
+    "function": "Required for G1/S transition. Recruits and stabilizes the origin recognition complex (ORC) onto chromatin during G1 to establish pre-replication complex (preRC) and to heterochromatic sites in post-replicated cells. Binds a combination of DNA and histone methylation repressive marks on heterochromatin. Binds histone H3 and H4 trimethylation marks H3K9me3, H3K27me3 and H4K20me3 in a cooperative manner with DNA methylation. Required for silencing of major satellite repeats. May be important ORC2, ",
+    "features": []
+  },
+  "LSM8": {
+    "af_plddt": null,
+    "af_version": null,
+    "af_entry": "AF-O95777-F1",
+    "interpro": [],
+    "name": "U6 snRNA-associated Sm-like protein LSm8",
+    "function": "Plays a role in pre-mRNA splicing as component of the U4/U6-U5 tri-snRNP complex that is involved in spliceosome assembly, and as component of the precatalytic spliceosome (spliceosome B complex) (PubMed:28781166). The heptameric LSM2-8 complex binds specifically to the 3'-terminal U-tract of U6 snRNA (PubMed:10523320)",
+    "features": []
+  },
+  "LYAR": {
+    "af_plddt": null,
+    "af_version": null,
+    "af_entry": "AF-Q9NX58-F1",
+    "interpro": [],
+    "name": "Cell growth-regulating nucleolar protein",
+    "function": "Plays a role in the maintenance of the appropriate processing of 47S/45S pre-rRNA to 32S/30S pre-rRNAs and their subsequent processing to produce 18S and 28S rRNAs (PubMed:24495227). Also acts at the level of transcription regulation. Along with PRMT5, binds the gamma-globin (HBG1/HBG2) promoter and represses its expression (PubMed:25092918). In neuroblastoma cells, may also repress the expression of oxidative stress genes, including CHAC1, HMOX1, SLC7A11, ULBP1 and SNORD41 that encodes a small ",
+    "features": []
+  },
+  "KCTD1": {
+    "interpro": [],
+    "name": "BTB/POZ domain-containing protein KCTD1",
+    "function": "May repress the transcriptional activity of AP-2 family members, including TFAP2A, TFAP2B and TFAP2C to various extent",
+    "features": []
+  }
+}

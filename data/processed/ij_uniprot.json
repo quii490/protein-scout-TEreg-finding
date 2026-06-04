@@ -1,0 +1,1606 @@
+{
+  "ICE1": {
+    "protein_name": "Little elongation complex subunit 1",
+    "length": 2266,
+    "subcell": [
+      "Nucleus",
+      "Nucleus, Cajal body"
+    ],
+    "go_cc": [
+      "Cajal body",
+      "euchromatin",
+      "histone locus body",
+      "nuclear body",
+      "nucleoplasm",
+      "transcription elongation factor complex"
+    ],
+    "go_mf": [
+      "protein-macromolecule adaptor activity"
+    ],
+    "go_bp": [
+      "positive regulation of intracellular protein transport",
+      "positive regulation of protein-containing complex assembly",
+      "positive regulation of transcription by RNA polymerase III",
+      "snRNA transcription by RNA polymerase II",
+      "snRNA transcription by RNA polymerase III"
+    ],
+    "pdb_ids": [],
+    "domains": [
+      {
+        "id": "IPR057881",
+        "name": "ICE1_C"
+      }
+    ],
+    "pfam_domains": [
+      {
+        "id": "PF25817",
+        "name": "ICE1_C"
+      }
+    ],
+    "cc_interactions": []
+  },
+  "ICE2": {
+    "protein_name": "Little elongation complex subunit 2",
+    "length": 982,
+    "subcell": [
+      "Nucleus"
+    ],
+    "go_cc": [
+      "Cajal body",
+      "cytosol",
+      "euchromatin",
+      "histone locus body",
+      "nuclear body",
+      "nucleoplasm",
+      "transcription elongation factor complex"
+    ],
+    "go_mf": [],
+    "go_bp": [
+      "positive regulation of transcription by RNA polymerase III",
+      "snRNA transcription by RNA polymerase II",
+      "snRNA transcription by RNA polymerase III"
+    ],
+    "pdb_ids": [],
+    "domains": [
+      {
+        "id": "IPR019535",
+        "name": "ICE2_C"
+      }
+    ],
+    "pfam_domains": [
+      {
+        "id": "PF10505",
+        "name": "NARG2_C"
+      }
+    ],
+    "cc_interactions": [
+      {
+        "partner": "",
+        "type": ""
+      }
+    ]
+  },
+  "IER2": {
+    "protein_name": "Immediate early response gene 2 protein",
+    "length": 223,
+    "subcell": [
+      "Cytoplasm",
+      "Nucleus"
+    ],
+    "go_cc": [
+      "cytoplasm",
+      "nucleoplasm",
+      "nucleus"
+    ],
+    "go_mf": [
+      "DNA binding"
+    ],
+    "go_bp": [
+      "cell motility",
+      "neuron differentiation",
+      "positive regulation of transcription by RNA polymerase II",
+      "response to fibroblast growth factor"
+    ],
+    "pdb_ids": [],
+    "domains": [
+      {
+        "id": "IPR008653",
+        "name": "IER"
+      }
+    ],
+    "pfam_domains": [
+      {
+        "id": "PF05760",
+        "name": "IER"
+      }
+    ],
+    "cc_interactions": [
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      }
+    ]
+  },
+  "IER5": {
+    "protein_name": "Immediate early response gene 5 protein",
+    "length": 327,
+    "subcell": [
+      "Nucleus",
+      "Cytoplasm"
+    ],
+    "go_cc": [
+      "cytoplasm",
+      "nucleolus",
+      "nucleoplasm",
+      "nucleus"
+    ],
+    "go_mf": [
+      "identical protein binding"
+    ],
+    "go_bp": [
+      "cellular response to heat",
+      "positive regulation of cellular response to heat",
+      "positive regulation of transcription by RNA polymerase II",
+      "regulation of cell population proliferation"
+    ],
+    "pdb_ids": [
+      "8UO5"
+    ],
+    "domains": [
+      {
+        "id": "IPR008653",
+        "name": "IER"
+      }
+    ],
+    "pfam_domains": [
+      {
+        "id": "PF05760",
+        "name": "IER"
+      }
+    ],
+    "cc_interactions": [
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      }
+    ]
+  },
+  "IFI35": {
+    "protein_name": "Interferon-induced 35 kDa protein",
+    "length": 286,
+    "subcell": [
+      "Cytoplasm",
+      "Nucleus",
+      "Secreted"
+    ],
+    "go_cc": [
+      "cytoplasm",
+      "cytosol",
+      "extracellular space",
+      "membrane",
+      "nucleolus",
+      "nucleoplasm",
+      "nucleus"
+    ],
+    "go_mf": [
+      "identical protein binding"
+    ],
+    "go_bp": [
+      "innate immune response",
+      "macrophage activation involved in immune response",
+      "negative regulation of cell population proliferation",
+      "negative regulation of non-canonical NF-kappaB signal transduction",
+      "positive regulation of inflammatory response",
+      "positive regulation of innate immune response",
+      "positive regulation of non-canonical NF-kappaB signal transduction",
+      "positive regulation of toll-like receptor 4 signaling pathway"
+    ],
+    "pdb_ids": [],
+    "domains": [
+      {
+        "id": "IPR009909",
+        "name": "Nmi/IFP35_dom"
+      },
+      {
+        "id": "IPR009938",
+        "name": "Nmi/IFP35_N"
+      },
+      {
+        "id": "IPR012677",
+        "name": "Nucleotide-bd_a/b_plait_sf"
+      }
+    ],
+    "pfam_domains": [
+      {
+        "id": "PF07334",
+        "name": "IFP_35_N"
+      },
+      {
+        "id": "PF07292",
+        "name": "NID"
+      }
+    ],
+    "cc_interactions": [
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      }
+    ]
+  },
+  "IFRD2": {
+    "protein_name": "Interferon-related developmental regulator 2",
+    "length": 442,
+    "subcell": [],
+    "go_cc": [
+      "nucleus"
+    ],
+    "go_mf": [
+      "ribosome binding",
+      "translation repressor activity"
+    ],
+    "go_bp": [
+      "adipose tissue development",
+      "fat cell differentiation",
+      "negative regulation of translation",
+      "Wnt signaling pathway"
+    ],
+    "pdb_ids": [],
+    "domains": [
+      {
+        "id": "IPR011989",
+        "name": "ARM-like"
+      },
+      {
+        "id": "IPR016024",
+        "name": "ARM-type_fold"
+      },
+      {
+        "id": "IPR039777",
+        "name": "IFRD"
+      },
+      {
+        "id": "IPR006921",
+        "name": "Interferon-rel_develop_reg_C"
+      },
+      {
+        "id": "IPR007701",
+        "name": "Interferon-rel_develop_reg_N"
+      }
+    ],
+    "pfam_domains": [
+      {
+        "id": "PF05004",
+        "name": "IFRD"
+      },
+      {
+        "id": "PF04836",
+        "name": "IFRD_C"
+      }
+    ],
+    "cc_interactions": [
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      }
+    ]
+  },
+  "IHO1": {
+    "protein_name": "Interactor of HORMAD1 protein 1",
+    "length": 594,
+    "subcell": [
+      "Chromosome"
+    ],
+    "go_cc": [
+      "condensed nuclear chromosome"
+    ],
+    "go_mf": [],
+    "go_bp": [
+      "DNA recombination",
+      "homologous chromosome pairing at meiosis",
+      "meiotic DNA double-strand break formation",
+      "oogenesis",
+      "regulation of homologous chromosome segregation",
+      "spermatogenesis"
+    ],
+    "pdb_ids": [],
+    "domains": [
+      {
+        "id": "IPR031529",
+        "name": "IHO1"
+      }
+    ],
+    "pfam_domains": [
+      {
+        "id": "PF15771",
+        "name": "IHO1"
+      }
+    ],
+    "cc_interactions": [
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      }
+    ]
+  },
+  "ILF2": {
+    "protein_name": "Interleukin enhancer-binding factor 2",
+    "length": 390,
+    "subcell": [
+      "Nucleus, nucleolus",
+      "Cytoplasm",
+      "Nucleus"
+    ],
+    "go_cc": [
+      "cytosol",
+      "extracellular region",
+      "ficolin-1-rich granule lumen",
+      "membrane",
+      "nucleolus",
+      "nucleoplasm",
+      "nucleus",
+      "ribonucleoprotein complex",
+      "specific granule lumen",
+      "tertiary granule lumen"
+    ],
+    "go_mf": [
+      "DNA binding",
+      "double-stranded RNA binding",
+      "RNA binding"
+    ],
+    "go_bp": [
+      "positive regulation of DNA-templated transcription"
+    ],
+    "pdb_ids": [],
+    "domains": [
+      {
+        "id": "IPR006561",
+        "name": "DZF_dom"
+      },
+      {
+        "id": "IPR049402",
+        "name": "DZF_dom_C"
+      },
+      {
+        "id": "IPR049401",
+        "name": "DZF_dom_N"
+      },
+      {
+        "id": "IPR052134",
+        "name": "ILF2"
+      },
+      {
+        "id": "IPR043519",
+        "name": "NT_sf"
+      }
+    ],
+    "pfam_domains": [
+      {
+        "id": "PF20965",
+        "name": "DZF_C"
+      },
+      {
+        "id": "PF07528",
+        "name": "DZF_N"
+      }
+    ],
+    "cc_interactions": [
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      }
+    ]
+  },
+  "IPMK": {
+    "protein_name": "Inositol polyphosphate multikinase",
+    "length": 416,
+    "subcell": [
+      "Nucleus"
+    ],
+    "go_cc": [
+      "ciliary basal body",
+      "cytoplasm",
+      "nucleoplasm",
+      "nucleus"
+    ],
+    "go_mf": [
+      "1-phosphatidylinositol-4,5-bisphosphate 3-kinase activity",
+      "ATP binding",
+      "flavonoid binding",
+      "inositol tetrakisphosphate kinase activity",
+      "inositol-1,3,4,5-tetrakisphosphate 6-kinase activity",
+      "inositol-1,3,4,6-tetrakisphosphate 5-kinase activity",
+      "inositol-1,4,5,6-tetrakisphosphate 3-kinase activity",
+      "inositol-1,4,5-trisphosphate 3-kinase activity",
+      "inositol-1,4,5-trisphosphate 6-kinase activity",
+      "metal ion binding"
+    ],
+    "go_bp": [
+      "inositol phosphate biosynthetic process",
+      "inositol phosphate metabolic process",
+      "inositol trisphosphate metabolic process",
+      "necroptotic process",
+      "phosphatidylinositol metabolic process"
+    ],
+    "pdb_ids": [
+      "5W2G",
+      "5W2H",
+      "5W2I",
+      "6E7F",
+      "6M88",
+      "6M89",
+      "6M8A",
+      "6M8B",
+      "6M8C",
+      "6M8D",
+      "6M8E",
+      "8V6W",
+      "8V6X",
+      "8V6Y",
+      "8V6Z",
+      "8V70",
+      "8V71",
+      "8V72",
+      "8V73",
+      "8V74",
+      "8V75",
+      "8V76",
+      "8V77",
+      "8V78",
+      "8V79"
+    ],
+    "domains": [
+      {
+        "id": "IPR005522",
+        "name": "IPK"
+      },
+      {
+        "id": "IPR038286",
+        "name": "IPK_sf"
+      }
+    ],
+    "pfam_domains": [
+      {
+        "id": "PF03770",
+        "name": "IPK"
+      }
+    ],
+    "cc_interactions": [
+      {
+        "partner": "",
+        "type": ""
+      }
+    ]
+  },
+  "IRX1": {
+    "protein_name": "Iroquois-class homeodomain protein IRX-1",
+    "length": 480,
+    "subcell": [
+      "Nucleus"
+    ],
+    "go_cc": [
+      "chromatin",
+      "nucleus"
+    ],
+    "go_mf": [
+      "DNA-binding transcription factor activity, RNA polymerase II-specific",
+      "DNA-binding transcription repressor activity, RNA polymerase II-specific",
+      "RNA polymerase II cis-regulatory region sequence-specific DNA binding",
+      "sequence-specific DNA binding",
+      "sequence-specific double-stranded DNA binding"
+    ],
+    "go_bp": [
+      "cell development",
+      "negative regulation of transcription by RNA polymerase II",
+      "neuron differentiation",
+      "positive regulation of gene expression",
+      "proximal/distal pattern formation involved in metanephric nephron development",
+      "regulation of transcription by RNA polymerase II",
+      "specification of loop of Henle identity"
+    ],
+    "pdb_ids": [],
+    "domains": [
+      {
+        "id": "IPR001356",
+        "name": "HD"
+      },
+      {
+        "id": "IPR017970",
+        "name": "Homeobox_CS"
+      },
+      {
+        "id": "IPR009057",
+        "name": "Homeodomain-like_sf"
+      },
+      {
+        "id": "IPR003893",
+        "name": "Iroquois_homeo"
+      },
+      {
+        "id": "IPR008422",
+        "name": "KN_HD"
+      }
+    ],
+    "pfam_domains": [
+      {
+        "id": "PF05920",
+        "name": "Homeobox_KN"
+      }
+    ],
+    "cc_interactions": []
+  },
+  "IRX2": {
+    "protein_name": "Iroquois-class homeodomain protein IRX-2",
+    "length": 471,
+    "subcell": [
+      "Nucleus"
+    ],
+    "go_cc": [
+      "chromatin",
+      "nucleus"
+    ],
+    "go_mf": [
+      "DNA-binding transcription factor activity, RNA polymerase II-specific",
+      "DNA-binding transcription repressor activity, RNA polymerase II-specific",
+      "RNA polymerase II cis-regulatory region sequence-specific DNA binding",
+      "sequence-specific DNA binding"
+    ],
+    "go_bp": [
+      "cell development",
+      "negative regulation of transcription by RNA polymerase II",
+      "neuron differentiation",
+      "proximal/distal pattern formation involved in metanephric nephron development",
+      "regulation of transcription by RNA polymerase II",
+      "specification of loop of Henle identity"
+    ],
+    "pdb_ids": [],
+    "domains": [
+      {
+        "id": "IPR001356",
+        "name": "HD"
+      },
+      {
+        "id": "IPR017970",
+        "name": "Homeobox_CS"
+      },
+      {
+        "id": "IPR009057",
+        "name": "Homeodomain-like_sf"
+      },
+      {
+        "id": "IPR003893",
+        "name": "Iroquois_homeo"
+      },
+      {
+        "id": "IPR008422",
+        "name": "KN_HD"
+      }
+    ],
+    "pfam_domains": [
+      {
+        "id": "PF05920",
+        "name": "Homeobox_KN"
+      }
+    ],
+    "cc_interactions": [
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      }
+    ]
+  },
+  "IRX4": {
+    "protein_name": "Iroquois-class homeodomain protein IRX-4",
+    "length": 519,
+    "subcell": [
+      "Nucleus"
+    ],
+    "go_cc": [
+      "chromatin",
+      "nucleus"
+    ],
+    "go_mf": [
+      "DNA-binding transcription activator activity, RNA polymerase II-specific",
+      "DNA-binding transcription factor activity, RNA polymerase II-specific",
+      "RNA polymerase II cis-regulatory region sequence-specific DNA binding"
+    ],
+    "go_bp": [
+      "cell development",
+      "establishment of animal organ orientation",
+      "heart development",
+      "negative regulation of transcription by RNA polymerase II",
+      "neuron differentiation",
+      "positive regulation of DNA-templated transcription",
+      "regulation of transcription by RNA polymerase II"
+    ],
+    "pdb_ids": [],
+    "domains": [
+      {
+        "id": "IPR001356",
+        "name": "HD"
+      },
+      {
+        "id": "IPR017970",
+        "name": "Homeobox_CS"
+      },
+      {
+        "id": "IPR009057",
+        "name": "Homeodomain-like_sf"
+      },
+      {
+        "id": "IPR003893",
+        "name": "Iroquois_homeo"
+      },
+      {
+        "id": "IPR008422",
+        "name": "KN_HD"
+      }
+    ],
+    "pfam_domains": [
+      {
+        "id": "PF05920",
+        "name": "Homeobox_KN"
+      }
+    ],
+    "cc_interactions": [
+      {
+        "partner": "",
+        "type": ""
+      }
+    ]
+  },
+  "IRX5": {
+    "protein_name": "Iroquois-class homeodomain protein IRX-5",
+    "length": 483,
+    "subcell": [
+      "Nucleus"
+    ],
+    "go_cc": [
+      "chromatin",
+      "nucleus"
+    ],
+    "go_mf": [
+      "DNA-binding transcription factor activity, RNA polymerase II-specific",
+      "DNA-binding transcription factor binding",
+      "identical protein binding",
+      "RNA polymerase II cis-regulatory region sequence-specific DNA binding",
+      "sequence-specific double-stranded DNA binding",
+      "vitamin D binding"
+    ],
+    "go_bp": [
+      "cell development",
+      "embryonic cranial skeleton morphogenesis",
+      "gonad development",
+      "neuron differentiation",
+      "neuron maturation",
+      "regulation of heart rate",
+      "regulation of transcription by RNA polymerase II",
+      "retinal bipolar neuron differentiation",
+      "visual perception"
+    ],
+    "pdb_ids": [],
+    "domains": [
+      {
+        "id": "IPR001356",
+        "name": "HD"
+      },
+      {
+        "id": "IPR017970",
+        "name": "Homeobox_CS"
+      },
+      {
+        "id": "IPR009057",
+        "name": "Homeodomain-like_sf"
+      },
+      {
+        "id": "IPR003893",
+        "name": "Iroquois_homeo"
+      },
+      {
+        "id": "IPR008422",
+        "name": "KN_HD"
+      }
+    ],
+    "pfam_domains": [
+      {
+        "id": "PF05920",
+        "name": "Homeobox_KN"
+      }
+    ],
+    "cc_interactions": []
+  },
+  "IRX6": {
+    "protein_name": "Iroquois-class homeodomain protein IRX-6",
+    "length": 446,
+    "subcell": [
+      "Nucleus"
+    ],
+    "go_cc": [
+      "chromatin",
+      "nucleus"
+    ],
+    "go_mf": [
+      "DNA-binding transcription activator activity, RNA polymerase II-specific",
+      "DNA-binding transcription factor activity, RNA polymerase II-specific",
+      "RNA polymerase II cis-regulatory region sequence-specific DNA binding"
+    ],
+    "go_bp": [
+      "cell development",
+      "neuron differentiation",
+      "positive regulation of DNA-templated transcription",
+      "regulation of transcription by RNA polymerase II"
+    ],
+    "pdb_ids": [],
+    "domains": [
+      {
+        "id": "IPR001356",
+        "name": "HD"
+      },
+      {
+        "id": "IPR017970",
+        "name": "Homeobox_CS"
+      },
+      {
+        "id": "IPR009057",
+        "name": "Homeodomain-like_sf"
+      },
+      {
+        "id": "IPR003893",
+        "name": "Iroquois_homeo"
+      },
+      {
+        "id": "IPR008422",
+        "name": "KN_HD"
+      }
+    ],
+    "pfam_domains": [
+      {
+        "id": "PF05920",
+        "name": "Homeobox_KN"
+      }
+    ],
+    "cc_interactions": [
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      }
+    ]
+  },
+  "ISG20L2": {
+    "protein_name": "Interferon-stimulated 20 kDa exonuclease-like 2",
+    "length": 353,
+    "subcell": [
+      "Nucleus, nucleolus"
+    ],
+    "go_cc": [
+      "nucleolus",
+      "nucleus"
+    ],
+    "go_mf": [
+      "3'-5'-RNA exonuclease activity",
+      "exonuclease activity",
+      "RNA binding"
+    ],
+    "go_bp": [
+      "DNA metabolic process",
+      "ribosome biogenesis",
+      "RNA processing"
+    ],
+    "pdb_ids": [
+      "7YW5"
+    ],
+    "domains": [
+      {
+        "id": "IPR037433",
+        "name": "ISG20_DEDDh"
+      },
+      {
+        "id": "IPR047021",
+        "name": "REXO1/3/4-like"
+      },
+      {
+        "id": "IPR013520",
+        "name": "Ribonucl_H"
+      },
+      {
+        "id": "IPR012337",
+        "name": "RNaseH-like_sf"
+      },
+      {
+        "id": "IPR036397",
+        "name": "RNaseH_sf"
+      }
+    ],
+    "pfam_domains": [
+      {
+        "id": "PF00929",
+        "name": "RNase_T"
+      }
+    ],
+    "cc_interactions": [
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      }
+    ]
+  },
+  "ISX": {
+    "protein_name": "Intestine-specific homeobox",
+    "length": 245,
+    "subcell": [
+      "Nucleus"
+    ],
+    "go_cc": [
+      "chromatin",
+      "nucleus"
+    ],
+    "go_mf": [
+      "DNA-binding transcription factor activity, RNA polymerase II-specific",
+      "RNA polymerase II transcription regulatory region sequence-specific DNA binding",
+      "sequence-specific double-stranded DNA binding"
+    ],
+    "go_bp": [
+      "neuron development",
+      "regulation of transcription by RNA polymerase II"
+    ],
+    "pdb_ids": [],
+    "domains": [
+      {
+        "id": "IPR001356",
+        "name": "HD"
+      },
+      {
+        "id": "IPR017970",
+        "name": "Homeobox_CS"
+      },
+      {
+        "id": "IPR009057",
+        "name": "Homeodomain-like_sf"
+      },
+      {
+        "id": "IPR050649",
+        "name": "Paired_Homeobox_TFs"
+      }
+    ],
+    "pfam_domains": [
+      {
+        "id": "PF00046",
+        "name": "Homeodomain"
+      }
+    ],
+    "cc_interactions": [
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      }
+    ]
+  },
+  "ITGA7": {
+    "protein_name": "Integrin alpha-7",
+    "length": 1181,
+    "subcell": [
+      "Membrane"
+    ],
+    "go_cc": [
+      "cell surface",
+      "integrin complex",
+      "plasma membrane"
+    ],
+    "go_mf": [
+      "metal ion binding",
+      "signaling receptor activity"
+    ],
+    "go_bp": [
+      "cell-cell adhesion",
+      "cell-matrix adhesion",
+      "endodermal cell differentiation",
+      "heterotypic cell-cell adhesion",
+      "integrin-mediated signaling pathway",
+      "leukocyte migration",
+      "muscle organ development",
+      "regulation of cell shape"
+    ],
+    "pdb_ids": [],
+    "domains": [
+      {
+        "id": "IPR013517",
+        "name": "FG-GAP"
+      },
+      {
+        "id": "IPR013519",
+        "name": "Int_alpha_beta-p"
+      },
+      {
+        "id": "IPR000413",
+        "name": "Integrin_alpha"
+      },
+      {
+        "id": "IPR018184",
+        "name": "Integrin_alpha_C_CS"
+      },
+      {
+        "id": "IPR013649",
+        "name": "Integrin_alpha_Ig-like_1"
+      },
+      {
+        "id": "IPR048285",
+        "name": "Integrin_alpha_Ig-like_2"
+      },
+      {
+        "id": "IPR048286",
+        "name": "Integrin_alpha_Ig-like_3"
+      },
+      {
+        "id": "IPR028994",
+        "name": "Integrin_alpha_N"
+      },
+      {
+        "id": "IPR032695",
+        "name": "Integrin_dom_sf"
+      }
+    ],
+    "pfam_domains": [
+      {
+        "id": "PF01839",
+        "name": "FG-GAP"
+      },
+      {
+        "id": "PF08441",
+        "name": "Integrin_A_Ig_1"
+      },
+      {
+        "id": "PF20805",
+        "name": "Integrin_A_Ig_2"
+      },
+      {
+        "id": "PF20806",
+        "name": "Integrin_A_Ig_3"
+      }
+    ],
+    "cc_interactions": [
+      {
+        "partner": "",
+        "type": ""
+      }
+    ]
+  },
+  "ITGA9": {
+    "protein_name": "Integrin alpha-9",
+    "length": 1035,
+    "subcell": [
+      "Membrane"
+    ],
+    "go_cc": [
+      "basal plasma membrane",
+      "cell surface",
+      "integrin alpha9-beta1 complex",
+      "integrin complex",
+      "plasma membrane"
+    ],
+    "go_mf": [
+      "integrin binding involved in cell-matrix adhesion",
+      "metal ion binding",
+      "signaling receptor activity"
+    ],
+    "go_bp": [
+      "cell adhesion",
+      "cell-cell adhesion",
+      "cell-matrix adhesion",
+      "integrin-mediated signaling pathway",
+      "negative regulation of vasoconstriction",
+      "neutrophil chemotaxis"
+    ],
+    "pdb_ids": [],
+    "domains": [
+      {
+        "id": "IPR013517",
+        "name": "FG-GAP"
+      },
+      {
+        "id": "IPR013519",
+        "name": "Int_alpha_beta-p"
+      },
+      {
+        "id": "IPR000413",
+        "name": "Integrin_alpha"
+      },
+      {
+        "id": "IPR018184",
+        "name": "Integrin_alpha_C_CS"
+      },
+      {
+        "id": "IPR013649",
+        "name": "Integrin_alpha_Ig-like_1"
+      },
+      {
+        "id": "IPR048285",
+        "name": "Integrin_alpha_Ig-like_2"
+      },
+      {
+        "id": "IPR048286",
+        "name": "Integrin_alpha_Ig-like_3"
+      },
+      {
+        "id": "IPR028994",
+        "name": "Integrin_alpha_N"
+      },
+      {
+        "id": "IPR032695",
+        "name": "Integrin_dom_sf"
+      }
+    ],
+    "pfam_domains": [
+      {
+        "id": "PF01839",
+        "name": "FG-GAP"
+      },
+      {
+        "id": "PF08441",
+        "name": "Integrin_A_Ig_1"
+      },
+      {
+        "id": "PF20805",
+        "name": "Integrin_A_Ig_2"
+      },
+      {
+        "id": "PF20806",
+        "name": "Integrin_A_Ig_3"
+      }
+    ],
+    "cc_interactions": []
+  },
+  "ITPR2": {
+    "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+  },
+  "IVNS1ABP": {
+    "protein_name": "Influenza virus NS1A-binding protein",
+    "length": 642,
+    "subcell": [
+      "Cytoplasm",
+      "Cytoplasm, cytoskeleton",
+      "Nucleus, nucleoplasm"
+    ],
+    "go_cc": [
+      "Cul3-RING ubiquitin ligase complex",
+      "cytoplasm",
+      "cytoskeleton",
+      "cytosol",
+      "nucleoplasm",
+      "spliceosomal complex",
+      "transcription regulator complex"
+    ],
+    "go_mf": [
+      "ubiquitin-like ligase-substrate adaptor activity"
+    ],
+    "go_bp": [
+      "intrinsic apoptotic signaling pathway",
+      "mRNA processing",
+      "negative regulation of intrinsic apoptotic signaling pathway",
+      "negative regulation of protein ubiquitination",
+      "proteasome-mediated ubiquitin-dependent protein catabolic process",
+      "response to virus",
+      "RNA splicing",
+      "transcription by RNA polymerase III"
+    ],
+    "pdb_ids": [
+      "5YY8",
+      "6N34",
+      "6N3H"
+    ],
+    "domains": [
+      {
+        "id": "IPR011705",
+        "name": "BACK"
+      },
+      {
+        "id": "IPR017096",
+        "name": "BTB-kelch_protein"
+      },
+      {
+        "id": "IPR000210",
+        "name": "BTB/POZ_dom"
+      },
+      {
+        "id": "IPR015915",
+        "name": "Kelch-typ_b-propeller"
+      },
+      {
+        "id": "IPR006652",
+        "name": "Kelch_1"
+      },
+      {
+        "id": "IPR011333",
+        "name": "SKP1/BTB/POZ_sf"
+      }
+    ],
+    "pfam_domains": [
+      {
+        "id": "PF07707",
+        "name": "BACK"
+      },
+      {
+        "id": "PF00651",
+        "name": "BTB"
+      },
+      {
+        "id": "PF01344",
+        "name": "Kelch_1"
+      },
+      {
+        "id": "PF24681",
+        "name": "Kelch_KLHDC2_KLHL20_DRC7"
+      }
+    ],
+    "cc_interactions": []
+  },
+  "IWS1": {
+    "protein_name": "Protein IWS1 homolog",
+    "length": 819,
+    "subcell": [
+      "Nucleus"
+    ],
+    "go_cc": [
+      "nucleoplasm",
+      "nucleus"
+    ],
+    "go_mf": [],
+    "go_bp": [
+      "chromatin remodeling",
+      "in utero embryonic development",
+      "mRNA processing",
+      "poly(A)+ mRNA export from nucleus",
+      "regulation of mRNA export from nucleus",
+      "regulation of mRNA processing",
+      "RNA splicing",
+      "transcription elongation-coupled chromatin remodeling"
+    ],
+    "pdb_ids": [
+      "6EMR",
+      "6ZV1",
+      "6ZV4",
+      "9EGX",
+      "9EGY",
+      "9EGZ",
+      "9EH0",
+      "9EH1",
+      "9EH2",
+      "9RTT"
+    ],
+    "domains": [
+      {
+        "id": "IPR051037",
+        "name": "RNAPII_TF_IWS1"
+      },
+      {
+        "id": "IPR035441",
+        "name": "TFIIS/LEDGF_dom_sf"
+      },
+      {
+        "id": "IPR017923",
+        "name": "TFIIS_N"
+      }
+    ],
+    "pfam_domains": [
+      {
+        "id": "PF08711",
+        "name": "Med26"
+      }
+    ],
+    "cc_interactions": []
+  },
+  "JADE1": {
+    "protein_name": "Protein Jade-1",
+    "length": 842,
+    "subcell": [
+      "Nucleus",
+      "Chromosome",
+      "Cytoplasm",
+      "Cytoplasm, cytoskeleton, cilium basal body"
+    ],
+    "go_cc": [
+      "centrosome",
+      "ciliary basal body",
+      "cytoplasm",
+      "cytosol",
+      "histone acetyltransferase complex",
+      "nuclear speck",
+      "nucleoplasm",
+      "nucleus",
+      "plasma membrane"
+    ],
+    "go_mf": [
+      "transcription coactivator activity",
+      "zinc ion binding"
+    ],
+    "go_bp": [
+      "apoptotic process",
+      "chromatin remodeling",
+      "negative regulation of canonical Wnt signaling pathway",
+      "negative regulation of cell growth",
+      "negative regulation of G1/S transition of mitotic cell cycle",
+      "regulation of cell cycle",
+      "regulation of cell growth",
+      "regulation of DNA biosynthetic process",
+      "regulation of DNA replication",
+      "regulation of DNA-templated transcription"
+    ],
+    "pdb_ids": [
+      "8GDX",
+      "8GE0"
+    ],
+    "domains": [
+      {
+        "id": "IPR019542",
+        "name": "Enhancer_polycomb-like_N"
+      },
+      {
+        "id": "IPR034732",
+        "name": "EPHD"
+      },
+      {
+        "id": "IPR050701",
+        "name": "Histone_Mod_Regulator"
+      },
+      {
+        "id": "IPR039546",
+        "name": "Jade-1_PHD"
+      },
+      {
+        "id": "IPR019786",
+        "name": "Zinc_finger_PHD-type_CS"
+      },
+      {
+        "id": "IPR011011",
+        "name": "Znf_FYVE_PHD"
+      },
+      {
+        "id": "IPR001965",
+        "name": "Znf_PHD"
+      },
+      {
+        "id": "IPR019787",
+        "name": "Znf_PHD-finger"
+      },
+      {
+        "id": "IPR013083",
+        "name": "Znf_RING/FYVE/PHD"
+      }
+    ],
+    "pfam_domains": [
+      {
+        "id": "PF10513",
+        "name": "EPL1"
+      },
+      {
+        "id": "PF13831",
+        "name": "PHD_2"
+      },
+      {
+        "id": "PF13832",
+        "name": "zf-HC5HC2H_2"
+      }
+    ],
+    "cc_interactions": [
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      }
+    ]
+  },
+  "JADE2": {
+    "protein_name": "E3 ubiquitin-protein ligase Jade-2",
+    "length": 790,
+    "subcell": [],
+    "go_cc": [
+      "extracellular exosome",
+      "histone acetyltransferase complex",
+      "nucleoplasm"
+    ],
+    "go_mf": [
+      "histone H4K12 acetyltransferase activity",
+      "histone H4K5 acetyltransferase activity",
+      "histone H4K8 acetyltransferase activity",
+      "ubiquitin protein ligase activity",
+      "zinc ion binding"
+    ],
+    "go_bp": [
+      "protein ubiquitination",
+      "regulation of cell cycle",
+      "regulation of cell growth",
+      "regulation of DNA biosynthetic process",
+      "regulation of DNA replication",
+      "regulation of DNA-templated transcription",
+      "regulation of transcription by RNA polymerase II"
+    ],
+    "pdb_ids": [],
+    "domains": [
+      {
+        "id": "IPR019542",
+        "name": "Enhancer_polycomb-like_N"
+      },
+      {
+        "id": "IPR034732",
+        "name": "EPHD"
+      },
+      {
+        "id": "IPR050701",
+        "name": "Histone_Mod_Regulator"
+      },
+      {
+        "id": "IPR039549",
+        "name": "JADE2_ePHD"
+      },
+      {
+        "id": "IPR039548",
+        "name": "JADE2_PHD"
+      },
+      {
+        "id": "IPR019786",
+        "name": "Zinc_finger_PHD-type_CS"
+      },
+      {
+        "id": "IPR011011",
+        "name": "Znf_FYVE_PHD"
+      },
+      {
+        "id": "IPR001965",
+        "name": "Znf_PHD"
+      },
+      {
+        "id": "IPR019787",
+        "name": "Znf_PHD-finger"
+      },
+      {
+        "id": "IPR013083",
+        "name": "Znf_RING/FYVE/PHD"
+      }
+    ],
+    "pfam_domains": [
+      {
+        "id": "PF10513",
+        "name": "EPL1"
+      },
+      {
+        "id": "PF13831",
+        "name": "PHD_2"
+      },
+      {
+        "id": "PF13832",
+        "name": "zf-HC5HC2H_2"
+      }
+    ],
+    "cc_interactions": [
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      },
+      {
+        "partner": "",
+        "type": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,2692 @@
+{
+  "ICE1": {
+    "total": 56,
+    "partners": [
+      {
+        "idA": "uniprotkb:Q9Y2F5",
+        "idB": "uniprotkb:Q81K85",
+        "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+        "type": "Dyer et al. (2010)",
+        "pmid": "imex:IM-13779|pubmed:20711500"
+      },
+      {
+        "idA": "uniprotkb:Q5W0Q7",
+        "idB": "uniprotkb:Q9Y2F5",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Sowa et al. (2009)",
+        "pmid": "imex:IM-12079|pubmed:19615732"
+      },
+      {
+        "idA": "uniprotkb:Q62315",
+        "idB": "uniprotkb:E9Q286",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Shen et al. (2009)",
+        "pmid": "imex:IM-12118|pubmed:20064376"
+      },
+      {
+        "idA": "uniprotkb:Q02395",
+        "idB": "uniprotkb:E9Q286",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Shen et al. (2009)",
+        "pmid": "imex:IM-12118|pubmed:20064376"
+      },
+      {
+        "idA": "uniprotkb:O00472",
+        "idB": "uniprotkb:Q9Y2F5",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Takahashi et al. (2011)",
+        "pmid": "pubmed:21729782|imex:IM-16559"
+      },
+      {
+        "idA": "uniprotkb:Q9Y2F5",
+        "idB": "uniprotkb:P55199",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Takahashi et al. (2011)",
+        "pmid": "pubmed:21729782|imex:IM-16559"
+      },
+      {
+        "idA": "uniprotkb:Q9Y2F5",
+        "idB": "uniprotkb:Q659A1",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Takahashi et al. (2011)",
+        "pmid": "pubmed:21729782|imex:IM-16559"
+      },
+      {
+        "idA": "uniprotkb:Q659A1",
+        "idB": "uniprotkb:Q9Y2F5",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Takahashi et al. (2011)",
+        "pmid": "pubmed:21729782|imex:IM-16559"
+      },
+      {
+        "idA": "uniprotkb:Q659A1",
+        "idB": "uniprotkb:Q9Y2F5",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Takahashi et al. (2011)",
+        "pmid": "pubmed:21729782|imex:IM-16559"
+      },
+      {
+        "idA": "uniprotkb:Q9Y2F5",
+        "idB": "uniprotkb:Q96JC9",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Takahashi et al. (2011)",
+        "pmid": "pubmed:21729782|imex:IM-16559"
+      },
+      {
+        "idA": "uniprotkb:Q9Y2F5",
+        "idB": "uniprotkb:P55199",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Takahashi et al. (2011)",
+        "pmid": "pubmed:21729782|imex:IM-16559"
+      },
+      {
+        "idA": "uniprotkb:O95402",
+        "idB": "uniprotkb:Q9Y2F5",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Takahashi et al. (2011)",
+        "pmid": "pubmed:21729782|imex:IM-16559"
+      },
+      {
+        "idA": "uniprotkb:O95402",
+        "idB": "uniprotkb:Q9Y2F5",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Takahashi et al. (2011)",
+        "pmid": "pubmed:21729782|imex:IM-16559"
+      },
+      {
+        "idA": "uniprotkb:Q96JC9",
+        "idB": "uniprotkb:Q9Y2F5",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Takahashi et al. (2011)",
+        "pmid": "pubmed:21729782|imex:IM-16559"
+      },
+      {
+        "idA": "uniprotkb:Q9Y463",
+        "idB": "uniprotkb:Q9Y2F5",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Varjosalo et al. (2013)",
+        "pmid": "pubmed:23602568|imex:IM-17935"
+      },
+      {
+        "idA": "uniprotkb:O00311",
+        "idB": "uniprotkb:Q9Y2F5",
+        "method": "psi-mi:\"MI:0030\"(cross-linking study)",
+        "type": "Fasci et al. (2018)",
+        "pmid": "pubmed:30021884|imex:IM-26653|doi:10.1074/mcp.ra118.000924"
+      },
+      {
+        "idA": "uniprotkb:P03372",
+        "idB": "uniprotkb:Q9Y2F5",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Nassa et al. (2019)",
+        "pmid": "pubmed:31527615|imex:IM-26954"
+      },
+      {
+        "idA": "uniprotkb:P03372",
+        "idB": "uniprotkb:Q9Y2F5",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Nassa et al. (2019)",
+        "pmid": "pubmed:31527615|imex:IM-26954"
+      },
+      {
+        "idA": "uniprotkb:P0DOF2",
+        "idB": "uniprotkb:Q9Y2F5",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Xing et al. (2020)",
+        "pmid": "imex:IM-27674|pubmed:33208464"
+      },
+      {
+        "idA": "uniprotkb:Q9W1R4",
+        "idB": "uniprotkb:Q7JR58",
+        "method": "psi-mi:\"MI:0018\"(two hybrid)",
+        "type": "Pacifico et al. (2006)",
+        "pmid": "pubmed:16603075|imex:IM-19959"
+      }
+    ]
+  },
+  "ICE2": {
+    "total": 143,
+    "partners": [
+      {
+        "idA": "uniprotkb:P40499",
+        "idB": "uniprotkb:P00330",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Gavin et al. (2006)",
+        "pmid": "pubmed:16429126"
+      },
+      {
+        "idA": "uniprotkb:P40499",
+        "idB": "uniprotkb:P33892",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Gavin et al. (2006)",
+        "pmid": "pubmed:16429126"
+      },
+      {
+        "idA": "uniprotkb:P40499",
+        "idB": "uniprotkb:P02309",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Gavin et al. (2006)",
+        "pmid": "pubmed:16429126"
+      },
+      {
+        "idA": "uniprotkb:P40499",
+        "idB": "uniprotkb:P40069",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Gavin et al. (2006)",
+        "pmid": "pubmed:16429126"
+      },
+      {
+        "idA": "uniprotkb:P40499",
+        "idB": "uniprotkb:P23641",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Gavin et al. (2006)",
+        "pmid": "pubmed:16429126"
+      },
+      {
+        "idA": "uniprotkb:P40499",
+        "idB": "uniprotkb:P40959",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Gavin et al. (2006)",
+        "pmid": "pubmed:16429126"
+      },
+      {
+        "idA": "uniprotkb:P40499",
+        "idB": "uniprotkb:P04147",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Gavin et al. (2006)",
+        "pmid": "pubmed:16429126"
+      },
+      {
+        "idA": "uniprotkb:P40499",
+        "idB": "uniprotkb:P41940",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Gavin et al. (2006)",
+        "pmid": "pubmed:16429126"
+      },
+      {
+        "idA": "uniprotkb:P40499",
+        "idB": "uniprotkb:P32857",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Gavin et al. (2006)",
+        "pmid": "pubmed:16429126"
+      },
+      {
+        "idA": "uniprotkb:P40499",
+        "idB": "uniprotkb:P41805",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Gavin et al. (2006)",
+        "pmid": "pubmed:16429126"
+      },
+      {
+        "idA": "uniprotkb:P40499",
+        "idB": "uniprotkb:P46990",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Gavin et al. (2006)",
+        "pmid": "pubmed:16429126"
+      },
+      {
+        "idA": "uniprotkb:P40499",
+        "idB": "uniprotkb:P0C2I0",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Gavin et al. (2006)",
+        "pmid": "pubmed:16429126"
+      },
+      {
+        "idA": "uniprotkb:P40499",
+        "idB": "uniprotkb:P04449",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Gavin et al. (2006)",
+        "pmid": "pubmed:16429126"
+      },
+      {
+        "idA": "uniprotkb:P40499",
+        "idB": "uniprotkb:P10664",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Gavin et al. (2006)",
+        "pmid": "pubmed:16429126"
+      },
+      {
+        "idA": "uniprotkb:P40499",
+        "idB": "uniprotkb:P05737",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Gavin et al. (2006)",
+        "pmid": "pubmed:16429126"
+      },
+      {
+        "idA": "uniprotkb:P40499",
+        "idB": "uniprotkb:P05317",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Gavin et al. (2006)",
+        "pmid": "pubmed:16429126"
+      },
+      {
+        "idA": "uniprotkb:P40499",
+        "idB": "uniprotkb:P14127",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Gavin et al. (2006)",
+        "pmid": "pubmed:16429126"
+      },
+      {
+        "idA": "uniprotkb:P40499",
+        "idB": "uniprotkb:P23248",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Gavin et al. (2006)",
+        "pmid": "pubmed:16429126"
+      },
+      {
+        "idA": "uniprotkb:P40499",
+        "idB": "uniprotkb:P43609",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Gavin et al. (2006)",
+        "pmid": "pubmed:16429126"
+      },
+      {
+        "idA": "uniprotkb:P40499",
+        "idB": "uniprotkb:Q03940",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Gavin et al. (2006)",
+        "pmid": "pubmed:16429126"
+      }
+    ]
+  },
+  "IER2": {
+    "total": 65,
+    "partners": [
+      {
+        "idA": "uniprotkb:Q9BTL4",
+        "idB": "uniprotkb:Q5NG53",
+        "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+        "type": "Dyer et al. (2010)",
+        "pmid": "imex:IM-13779|pubmed:20711500"
+      },
+      {
+        "idA": "uniprotkb:Q9BTL4",
+        "idB": "uniprotkb:O00505",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2017)",
+        "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778"
+      },
+      {
+        "idA": "uniprotkb:Q9BTL4",
+        "idB": "uniprotkb:O00629",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2017)",
+        "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778"
+      },
+      {
+        "idA": "uniprotkb:Q9BTL4",
+        "idB": "uniprotkb:O14715",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2017)",
+        "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778"
+      },
+      {
+        "idA": "uniprotkb:Q9BTL4",
+        "idB": "uniprotkb:O15350-5",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2017)",
+        "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778"
+      },
+      {
+        "idA": "uniprotkb:Q9BTL4",
+        "idB": "uniprotkb:O60318",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2017)",
+        "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778"
+      },
+      {
+        "idA": "uniprotkb:Q9BTL4",
+        "idB": "uniprotkb:O75152",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2017)",
+        "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778"
+      },
+      {
+        "idA": "uniprotkb:Q9BTL4",
+        "idB": "uniprotkb:P11142",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2017)",
+        "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778"
+      },
+      {
+        "idA": "uniprotkb:Q9BTL4",
+        "idB": "uniprotkb:P30153",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2017)",
+        "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778"
+      },
+      {
+        "idA": "uniprotkb:Q9BTL4",
+        "idB": "uniprotkb:P30154-2",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2017)",
+        "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778"
+      },
+      {
+        "idA": "uniprotkb:Q9BTL4",
+        "idB": "uniprotkb:P41229-2",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2017)",
+        "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778"
+      },
+      {
+        "idA": "uniprotkb:Q9BTL4",
+        "idB": "uniprotkb:P63151",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2017)",
+        "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778"
+      },
+      {
+        "idA": "uniprotkb:Q9BTL4",
+        "idB": "uniprotkb:Q53GS7",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2017)",
+        "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778"
+      },
+      {
+        "idA": "uniprotkb:Q9BTL4",
+        "idB": "uniprotkb:Q562F6-2",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2017)",
+        "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778"
+      },
+      {
+        "idA": "uniprotkb:Q9BTL4",
+        "idB": "uniprotkb:Q69YH5",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2017)",
+        "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778"
+      },
+      {
+        "idA": "uniprotkb:Q9BTL4",
+        "idB": "uniprotkb:Q99697-2",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2017)",
+        "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778"
+      },
+      {
+        "idA": "uniprotkb:Q9BTL4",
+        "idB": "uniprotkb:Q9NUA8",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2017)",
+        "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778"
+      },
+      {
+        "idA": "uniprotkb:Q9BTL4",
+        "idB": "uniprotkb:Q9NXX6",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2017)",
+        "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778"
+      },
+      {
+        "idA": "uniprotkb:O94817",
+        "idB": "uniprotkb:Q9BTL4",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:O94817",
+        "idB": "uniprotkb:Q9BTL4",
+        "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      }
+    ]
+  },
+  "IER5": {
+    "total": 18,
+    "partners": [
+      {
+        "idA": "uniprotkb:Q00005",
+        "idB": "uniprotkb:Q5VY09",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Glatter et al.",
+        "pmid": "imex:IM-9155|pubmed:19156129"
+      },
+      {
+        "idA": "uniprotkb:Q9Z0S9",
+        "idB": "uniprotkb:O89113",
+        "method": "psi-mi:\"MI:0112\"(ubiquitin reconstruction)",
+        "type": "Abu et al. (2019)",
+        "pmid": "pubmed:30925931|imex:IM-26645"
+      },
+      {
+        "idA": "uniprotkb:P63151",
+        "idB": "uniprotkb:Q5VY09",
+        "method": "psi-mi:\"MI:0096\"(pull down)",
+        "type": "Yadav et al. (2017)",
+        "pmid": "pubmed:28330616|imex:IM-25671"
+      },
+      {
+        "idA": "uniprotkb:Q9Y2T4-3",
+        "idB": "uniprotkb:Q5VY09",
+        "method": "psi-mi:\"MI:0096\"(pull down)",
+        "type": "Yadav et al. (2017)",
+        "pmid": "pubmed:28330616|imex:IM-25671"
+      },
+      {
+        "idA": "uniprotkb:Q00005-7",
+        "idB": "uniprotkb:Q5VY09",
+        "method": "psi-mi:\"MI:0096\"(pull down)",
+        "type": "Yadav et al. (2017)",
+        "pmid": "pubmed:28330616|imex:IM-25671"
+      },
+      {
+        "idA": "uniprotkb:Q66LE6",
+        "idB": "uniprotkb:Q5VY09",
+        "method": "psi-mi:\"MI:0096\"(pull down)",
+        "type": "Yadav et al. (2017)",
+        "pmid": "pubmed:28330616|imex:IM-25671"
+      },
+      {
+        "idA": "uniprotkb:P30153",
+        "idB": "uniprotkb:Q5VY09",
+        "method": "psi-mi:\"MI:0096\"(pull down)",
+        "type": "Yadav et al. (2017)",
+        "pmid": "pubmed:28330616|imex:IM-25671"
+      },
+      {
+        "idA": "uniprotkb:Q9Y2T4-2",
+        "idB": "uniprotkb:Q5VY09",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2017)",
+        "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778"
+      },
+      {
+        "idA": "uniprotkb:Q66LE6",
+        "idB": "uniprotkb:Q5VY09",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2017)",
+        "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778"
+      },
+      {
+        "idA": "uniprotkb:Q6P5F9",
+        "idB": "uniprotkb:Q5VY09",
+        "method": "psi-mi:\"MI:0096\"(pull down)",
+        "type": "Kirli et al. (2015)",
+        "pmid": "pubmed:26673895|imex:IM-24970"
+      },
+      {
+        "idA": "uniprotkb:Q00005",
+        "idB": "uniprotkb:Q5VY09",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2021)",
+        "pmid": "pubmed:33961781|imex:IM-29278|doi:10.1016/j.cell.2021.04.011"
+      },
+      {
+        "idA": "uniprotkb:Q66LE6",
+        "idB": "uniprotkb:Q5VY09",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2021)",
+        "pmid": "pubmed:33961781|imex:IM-29278|doi:10.1016/j.cell.2021.04.011"
+      },
+      {
+        "idA": "uniprotkb:Q9Y2T4",
+        "idB": "uniprotkb:Q5VY09",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2021)",
+        "pmid": "pubmed:33961781|imex:IM-29278|doi:10.1016/j.cell.2021.04.011"
+      },
+      {
+        "idA": "uniprotkb:Q00005",
+        "idB": "uniprotkb:Q5VY09",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2021)",
+        "pmid": "pubmed:33961781|imex:IM-29278|doi:10.1016/j.cell.2021.04.011"
+      },
+      {
+        "idA": "uniprotkb:Q66LE6",
+        "idB": "uniprotkb:Q5VY09",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2021)",
+        "pmid": "pubmed:33961781|imex:IM-29278|doi:10.1016/j.cell.2021.04.011"
+      },
+      {
+        "idA": "uniprotkb:P30153",
+        "idB": "uniprotkb:Q5VY09",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2021)",
+        "pmid": "pubmed:33961781|imex:IM-29278|doi:10.1016/j.cell.2021.04.011"
+      },
+      {
+        "idA": "uniprotkb:Q9Y2T4",
+        "idB": "uniprotkb:Q5VY09",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2021)",
+        "pmid": "pubmed:33961781|imex:IM-29278|doi:10.1016/j.cell.2021.04.011"
+      },
+      {
+        "idA": "uniprotkb:Q66LE6",
+        "idB": "uniprotkb:Q5VY09",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2021)",
+        "pmid": "pubmed:33961781|imex:IM-29278|doi:10.1016/j.cell.2021.04.011"
+      }
+    ]
+  },
+  "IFI35": {
+    "total": 84,
+    "partners": [
+      {
+        "idA": "uniprotkb:P80217",
+        "idB": "uniprotkb:P28482",
+        "method": "psi-mi:\"MI:0018\"(two hybrid)",
+        "type": "Wang et al. (2008)",
+        "pmid": "pubmed:18624398|imex:IM-19021"
+      },
+      {
+        "idA": "uniprotkb:P80217",
+        "idB": "uniprotkb:Q53GL0",
+        "method": "psi-mi:\"MI:0018\"(two hybrid)",
+        "type": "Wang et al. (2008)",
+        "pmid": "pubmed:18624398|imex:IM-19021"
+      },
+      {
+        "idA": "uniprotkb:Q6UXB4",
+        "idB": "uniprotkb:P80217",
+        "method": "psi-mi:\"MI:0018\"(two hybrid)",
+        "type": "Wang et al. (2008)",
+        "pmid": "pubmed:18624398|imex:IM-19021"
+      },
+      {
+        "idA": "uniprotkb:Q6UXB4",
+        "idB": "uniprotkb:P80217",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Wang et al. (2008)",
+        "pmid": "pubmed:18624398|imex:IM-19021"
+      },
+      {
+        "idA": "uniprotkb:P80217",
+        "idB": "uniprotkb:Q6UXB4",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Wang et al. (2008)",
+        "pmid": "pubmed:18624398|imex:IM-19021"
+      },
+      {
+        "idA": "uniprotkb:P80217",
+        "idB": "uniprotkb:Q6UXB4",
+        "method": "psi-mi:\"MI:0663\"(confocal microscopy)",
+        "type": "Wang et al. (2008)",
+        "pmid": "pubmed:18624398|imex:IM-19021"
+      },
+      {
+        "idA": "uniprotkb:P09619",
+        "idB": "uniprotkb:F7FJL7",
+        "method": "psi-mi:\"MI:0096\"(pull down)",
+        "type": "Lundby et al. (2019)",
+        "pmid": "doi:10.1016/j.cell.2019.09.008|pubmed:31585087|imex:IM-27423"
+      },
+      {
+        "idA": "uniprotkb:P09619",
+        "idB": "uniprotkb:F7FJL7",
+        "method": "psi-mi:\"MI:0096\"(pull down)",
+        "type": "Lundby et al. (2019)",
+        "pmid": "doi:10.1016/j.cell.2019.09.008|pubmed:31585087|imex:IM-27423"
+      },
+      {
+        "idA": "uniprotkb:Q14192",
+        "idB": "uniprotkb:P80217-2",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q14192",
+        "idB": "uniprotkb:P80217-2",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:P80217-2",
+        "idB": "uniprotkb:Q14192",
+        "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:A0A0C4DGQ7",
+        "idB": "uniprotkb:P80217-2",
+        "method": "psi-mi:\"MI:1112\"(two hybrid prey pooling approach)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:P80217",
+        "idB": "uniprotkb:P05549-1",
+        "method": "psi-mi:\"MI:0018\"(two hybrid)",
+        "type": "Bogachek et al. (2014)",
+        "pmid": "imex:IM-22985|pubmed:24835590"
+      },
+      {
+        "idA": "uniprotkb:P42229",
+        "idB": "uniprotkb:F7FJL7",
+        "method": "psi-mi:\"MI:0096\"(pull down)",
+        "type": "Lundby et al. (2019)",
+        "pmid": "doi:10.1016/j.cell.2019.09.008|pubmed:31585087|imex:IM-27423"
+      },
+      {
+        "idA": "intact:EBI-22255361",
+        "idB": "uniprotkb:F7FJL7",
+        "method": "psi-mi:\"MI:0096\"(pull down)",
+        "type": "Lundby et al. (2019)",
+        "pmid": "doi:10.1016/j.cell.2019.09.008|pubmed:31585087|imex:IM-27423"
+      },
+      {
+        "idA": "uniprotkb:Q06124",
+        "idB": "uniprotkb:F7FJL7",
+        "method": "psi-mi:\"MI:0096\"(pull down)",
+        "type": "Lundby et al. (2019)",
+        "pmid": "doi:10.1016/j.cell.2019.09.008|pubmed:31585087|imex:IM-27423"
+      },
+      {
+        "idA": "uniprotkb:O43739-2",
+        "idB": "uniprotkb:P80217-2",
+        "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:P80217-2",
+        "idB": "uniprotkb:Q13287",
+        "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:O75934",
+        "idB": "uniprotkb:P80217-2",
+        "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:A0A0C4DGQ7",
+        "idB": "uniprotkb:P80217-2",
+        "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      }
+    ]
+  },
+  "IFRD2": {
+    "total": 30,
+    "partners": [
+      {
+        "idA": "uniprotkb:Q13283",
+        "idB": "uniprotkb:Q12894",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Sowa et al. (2009)",
+        "pmid": "imex:IM-12079|pubmed:19615732"
+      },
+      {
+        "idA": "uniprotkb:Q9P275",
+        "idB": "uniprotkb:Q12894",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Sowa et al. (2009)",
+        "pmid": "imex:IM-12079|pubmed:19615732"
+      },
+      {
+        "idA": "uniprotkb:Q9Y6K5",
+        "idB": "uniprotkb:Q12894",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Li et al. (2011)",
+        "pmid": "pubmed:21903422|imex:IM-17322"
+      },
+      {
+        "idA": "uniprotkb:Q12894",
+        "idB": "uniprotkb:Q9Y6K5",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Li et al. (2011)",
+        "pmid": "pubmed:21903422|imex:IM-17322"
+      },
+      {
+        "idA": "uniprotkb:Q14684",
+        "idB": "uniprotkb:Q12894",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Chamousset et al. (2010)",
+        "pmid": "imex:IM-26310|pubmed:20926688"
+      },
+      {
+        "idA": "uniprotkb:P03372",
+        "idB": "uniprotkb:Q12894",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Nassa et al. (2019)",
+        "pmid": "pubmed:31527615|imex:IM-26954"
+      },
+      {
+        "idA": "uniprotkb:P03372",
+        "idB": "uniprotkb:Q12894",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Nassa et al. (2019)",
+        "pmid": "pubmed:31527615|imex:IM-26954"
+      },
+      {
+        "idA": "uniprotkb:O75564-2",
+        "idB": "uniprotkb:Q12894",
+        "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q12894",
+        "idB": "uniprotkb:O75822",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2017)",
+        "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778"
+      },
+      {
+        "idA": "uniprotkb:Q12894",
+        "idB": "uniprotkb:Q9C0C9",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2017)",
+        "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778"
+      },
+      {
+        "idA": "uniprotkb:Q12894",
+        "idB": "uniprotkb:O75564-2",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q12894",
+        "idB": "uniprotkb:O75564-2",
+        "method": "psi-mi:\"MI:1112\"(two hybrid prey pooling approach)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q12894",
+        "idB": "uniprotkb:Q99750",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q12894",
+        "idB": "uniprotkb:Q99750",
+        "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q12894",
+        "idB": "uniprotkb:Q99750",
+        "method": "psi-mi:\"MI:1112\"(two hybrid prey pooling approach)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q9JLQ0",
+        "idB": "uniprotkb:Q12894",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Hein et al. (2015)",
+        "pmid": "pubmed:26496610|imex:IM-24272"
+      },
+      {
+        "idA": "uniprotkb:Q6ZWV7",
+        "idB": "uniprotkb:Q12894",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Hein et al. (2015)",
+        "pmid": "pubmed:26496610|imex:IM-24272"
+      },
+      {
+        "idA": "uniprotkb:Q9NWT6",
+        "idB": "uniprotkb:Q12894",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Rodriguez et al. (2016)",
+        "pmid": "pubmed:26972000|imex:IM-22750"
+      },
+      {
+        "idA": "uniprotkb:Q9UBN7",
+        "idB": "uniprotkb:Q12894",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Hein et al. (2015)",
+        "pmid": "pubmed:26496610|imex:IM-24272"
+      },
+      {
+        "idA": "uniprotkb:P06748",
+        "idB": "uniprotkb:Q12894",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Hein et al. (2015)",
+        "pmid": "pubmed:26496610|imex:IM-24272"
+      }
+    ]
+  },
+  "IHO1": {
+    "total": 319,
+    "partners": [
+      {
+        "idA": "uniprotkb:Q8IYA8",
+        "idB": "uniprotkb:Q8IYA8",
+        "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+        "type": "Yachie et al. (2016)",
+        "pmid": "doi:10.15252/msb.20156660|pubmed:27107012|imex:IM-25015"
+      },
+      {
+        "idA": "uniprotkb:Q8IYA8",
+        "idB": "uniprotkb:Q8IYA8",
+        "method": "psi-mi:\"MI:2215\"(barcode fusion genetics two hybrid)",
+        "type": "Yachie et al. (2016)",
+        "pmid": "doi:10.15252/msb.20156660|pubmed:27107012|imex:IM-25015"
+      },
+      {
+        "idA": "uniprotkb:Q8IYA8",
+        "idB": "uniprotkb:P57053",
+        "method": "psi-mi:\"MI:0030\"(cross-linking study)",
+        "type": "Fasci et al. (2018)",
+        "pmid": "pubmed:30021884|imex:IM-26653|doi:10.1074/mcp.ra118.000924"
+      },
+      {
+        "idA": "uniprotkb:Q8IYA8",
+        "idB": "uniprotkb:Q9NYB9",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Chen et al. (2018)",
+        "pmid": "pubmed:29892012|doi:10.1038/s41588-018-0130-z|imex:IM-27553"
+      },
+      {
+        "idA": "uniprotkb:Q8IYA8",
+        "idB": "uniprotkb:Q9NYB9",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Chen et al. (2018)",
+        "pmid": "pubmed:29892012|doi:10.1038/s41588-018-0130-z|imex:IM-27553"
+      },
+      {
+        "idA": "uniprotkb:Q8IYA8",
+        "idB": "uniprotkb:O75344",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Chen et al. (2018)",
+        "pmid": "pubmed:29892012|doi:10.1038/s41588-018-0130-z|imex:IM-27553"
+      },
+      {
+        "idA": "uniprotkb:Q8IYA8",
+        "idB": "uniprotkb:Q8NA54",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Fragoza et al. (2019)",
+        "pmid": "imex:IM-27438|doi:10.1038/s41467-019-11959-3|pubmed:31515488"
+      },
+      {
+        "idA": "uniprotkb:Q8IYA8",
+        "idB": "uniprotkb:O75344",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Fragoza et al. (2019)",
+        "pmid": "imex:IM-27438|doi:10.1038/s41467-019-11959-3|pubmed:31515488"
+      },
+      {
+        "idA": "uniprotkb:Q6DKK2",
+        "idB": "uniprotkb:Q8IYA8",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:P63167",
+        "idB": "uniprotkb:Q8IYA8",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q8IYR0",
+        "idB": "uniprotkb:Q8IYA8",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q9H257-2",
+        "idB": "uniprotkb:Q8IYA8",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q9NYB9-2",
+        "idB": "uniprotkb:Q8IYA8",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:P25791-3",
+        "idB": "uniprotkb:Q8IYA8",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q9NVR0",
+        "idB": "uniprotkb:Q8IYA8",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:P48023",
+        "idB": "uniprotkb:Q8IYA8",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q9NX04",
+        "idB": "uniprotkb:Q8IYA8",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q2TAC2-2",
+        "idB": "uniprotkb:Q8IYA8",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q8TBB1",
+        "idB": "uniprotkb:Q8IYA8",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q8IYA8",
+        "idB": "uniprotkb:Q9HAQ2",
+        "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      }
+    ]
+  },
+  "ILF2": {
+    "total": 356,
+    "partners": [
+      {
+        "idA": "uniprotkb:Q00653",
+        "idB": "uniprotkb:Q12905",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Bouwmeester et al. (2004)",
+        "pmid": "pubmed:14743216|mint:MINT-5216883"
+      },
+      {
+        "idA": "uniprotkb:Q99558",
+        "idB": "uniprotkb:Q12905",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Bouwmeester et al. (2004)",
+        "pmid": "pubmed:14743216|mint:MINT-5216883"
+      },
+      {
+        "idA": "uniprotkb:Q04206-2",
+        "idB": "uniprotkb:Q12905",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Bouwmeester et al. (2004)",
+        "pmid": "pubmed:14743216|mint:MINT-5216883"
+      },
+      {
+        "idA": "uniprotkb:P26641",
+        "idB": "uniprotkb:Q12905",
+        "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+        "type": "Rual et al. (2005)",
+        "pmid": "pubmed:16189514|imex:IM-16520|mint:MINT-5217968"
+      },
+      {
+        "idA": "uniprotkb:O43147",
+        "idB": "uniprotkb:Q12905",
+        "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+        "type": "Stelzl et al. (2005)",
+        "pmid": "pubmed:16169070|imex:IM-16517|mint:MINT-5217955"
+      },
+      {
+        "idA": "intact:EBI-5333265",
+        "idB": "uniprotkb:Q12905",
+        "method": "psi-mi:\"MI:0096\"(pull down)",
+        "type": "Duernberger et al. (2013)",
+        "pmid": "pubmed:23902751|imex:IM-21740"
+      },
+      {
+        "idA": "intact:EBI-5333238",
+        "idB": "uniprotkb:Q12905",
+        "method": "psi-mi:\"MI:0096\"(pull down)",
+        "type": "Duernberger et al. (2013)",
+        "pmid": "pubmed:23902751|imex:IM-21740"
+      },
+      {
+        "idA": "intact:EBI-5333234",
+        "idB": "uniprotkb:Q12905",
+        "method": "psi-mi:\"MI:0096\"(pull down)",
+        "type": "Duernberger et al. (2013)",
+        "pmid": "pubmed:23902751|imex:IM-21740"
+      },
+      {
+        "idA": "intact:EBI-5333232",
+        "idB": "uniprotkb:Q12905",
+        "method": "psi-mi:\"MI:0096\"(pull down)",
+        "type": "Duernberger et al. (2013)",
+        "pmid": "pubmed:23902751|imex:IM-21740"
+      },
+      {
+        "idA": "intact:EBI-5333168",
+        "idB": "uniprotkb:Q12905",
+        "method": "psi-mi:\"MI:0096\"(pull down)",
+        "type": "Duernberger et al. (2013)",
+        "pmid": "pubmed:23902751|imex:IM-21740"
+      },
+      {
+        "idA": "intact:EBI-5333166",
+        "idB": "uniprotkb:Q12905",
+        "method": "psi-mi:\"MI:0096\"(pull down)",
+        "type": "Duernberger et al. (2013)",
+        "pmid": "pubmed:23902751|imex:IM-21740"
+      },
+      {
+        "idA": "intact:EBI-5333238",
+        "idB": "uniprotkb:Q12905",
+        "method": "psi-mi:\"MI:0096\"(pull down)",
+        "type": "Duernberger et al. (2013)",
+        "pmid": "pubmed:23902751|imex:IM-21740"
+      },
+      {
+        "idA": "intact:EBI-5333236",
+        "idB": "uniprotkb:Q12905",
+        "method": "psi-mi:\"MI:0096\"(pull down)",
+        "type": "Duernberger et al. (2013)",
+        "pmid": "pubmed:23902751|imex:IM-21740"
+      },
+      {
+        "idA": "intact:EBI-5333234",
+        "idB": "uniprotkb:Q12905",
+        "method": "psi-mi:\"MI:0096\"(pull down)",
+        "type": "Duernberger et al. (2013)",
+        "pmid": "pubmed:23902751|imex:IM-21740"
+      },
+      {
+        "idA": "intact:EBI-5333230",
+        "idB": "uniprotkb:Q12905",
+        "method": "psi-mi:\"MI:0096\"(pull down)",
+        "type": "Duernberger et al. (2013)",
+        "pmid": "pubmed:23902751|imex:IM-21740"
+      },
+      {
+        "idA": "intact:EBI-5333185",
+        "idB": "uniprotkb:Q12905",
+        "method": "psi-mi:\"MI:0096\"(pull down)",
+        "type": "Duernberger et al. (2013)",
+        "pmid": "pubmed:23902751|imex:IM-21740"
+      },
+      {
+        "idA": "intact:EBI-5333265",
+        "idB": "uniprotkb:Q12905",
+        "method": "psi-mi:\"MI:0096\"(pull down)",
+        "type": "Duernberger et al. (2013)",
+        "pmid": "pubmed:23902751|imex:IM-21740"
+      },
+      {
+        "idA": "uniprotkb:O95166",
+        "idB": "uniprotkb:Q12905",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Behrends et al. (2010)",
+        "pmid": "pubmed:20562859|imex:IM-15184"
+      },
+      {
+        "idA": "uniprotkb:Q9GZQ8",
+        "idB": "uniprotkb:Q12905",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Behrends et al. (2010)",
+        "pmid": "pubmed:20562859|imex:IM-15184"
+      },
+      {
+        "idA": "uniprotkb:Q9H492",
+        "idB": "uniprotkb:Q12905",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Behrends et al. (2010)",
+        "pmid": "pubmed:20562859|imex:IM-15184"
+      }
+    ]
+  },
+  "IPMK": {
+    "total": 34,
+    "partners": [
+      {
+        "idA": "uniprotkb:P16403",
+        "idB": "uniprotkb:Q8NFU5",
+        "method": "psi-mi:\"MI:0030\"(cross-linking study)",
+        "type": "Fasci et al. (2018)",
+        "pmid": "pubmed:30021884|imex:IM-26653|doi:10.1074/mcp.ra118.000924"
+      },
+      {
+        "idA": "uniprotkb:P03372",
+        "idB": "uniprotkb:Q8NFU5",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Nassa et al. (2019)",
+        "pmid": "pubmed:31527615|imex:IM-26954"
+      },
+      {
+        "idA": "uniprotkb:P03372",
+        "idB": "uniprotkb:Q8NFU5",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Nassa et al. (2019)",
+        "pmid": "pubmed:31527615|imex:IM-26954"
+      },
+      {
+        "idA": "uniprotkb:O75031",
+        "idB": "uniprotkb:Q8NFU5",
+        "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q8NFU5",
+        "idB": "uniprotkb:O75031",
+        "method": "psi-mi:\"MI:1112\"(two hybrid prey pooling approach)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q8N960",
+        "idB": "uniprotkb:Q8NFU5",
+        "method": "psi-mi:\"MI:1314\"(proximity-dependent biotin identification)",
+        "type": "Gupta et al. (2015)",
+        "pmid": "imex:IM-24512|pubmed:26638075"
+      },
+      {
+        "idA": "uniprotkb:Q8NFU5",
+        "idB": "uniprotkb:O75031",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "intact:EBI-54386232",
+        "idB": "intact:EBI-32717431",
+        "method": "psi-mi:\"MI:2195\"(clash)",
+        "type": "Helwak et al. (2013)",
+        "pmid": "pubmed:23622248|imex:IM-30030|doi:10.1016/j.cell.2013.03.043"
+      },
+      {
+        "idA": "uniprotkb:Q05583",
+        "idB": "uniprotkb:Q12494",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Hazbun et al. (2003)",
+        "pmid": "pubmed:14690591"
+      },
+      {
+        "idA": "uniprotkb:Q02159",
+        "idB": "uniprotkb:Q12494",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Hazbun et al. (2003)",
+        "pmid": "pubmed:14690591"
+      },
+      {
+        "idA": "uniprotkb:P39081",
+        "idB": "uniprotkb:P07250",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Hazbun et al. (2003)",
+        "pmid": "pubmed:14690591"
+      },
+      {
+        "idA": "uniprotkb:P07249",
+        "idB": "uniprotkb:P07250",
+        "method": "psi-mi:\"MI:0018\"(two hybrid)",
+        "type": "Yu et al. (2008)",
+        "pmid": "pubmed:18719252"
+      },
+      {
+        "idA": "uniprotkb:Q03330",
+        "idB": "uniprotkb:Q12494",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Graumann et al. (2004)",
+        "pmid": "pubmed:14660704"
+      },
+      {
+        "idA": "uniprotkb:P07250",
+        "idB": "uniprotkb:P11746",
+        "method": "psi-mi:\"MI:0018\"(two hybrid)",
+        "type": "Yu et al. (2008)",
+        "pmid": "pubmed:18719252"
+      },
+      {
+        "idA": "uniprotkb:Q9VPR6",
+        "idB": "intact:EBI-194462",
+        "method": "psi-mi:\"MI:0018\"(two hybrid)",
+        "type": "Giot et al. (2003)",
+        "pmid": "pubmed:14605208|imex:IM-16524|mint:MINT-5216804"
+      },
+      {
+        "idA": "uniprotkb:Q9VPR6",
+        "idB": "uniprotkb:Q4V5U6",
+        "method": "psi-mi:\"MI:0018\"(two hybrid)",
+        "type": "Giot et al. (2003)",
+        "pmid": "pubmed:14605208|imex:IM-16524|mint:MINT-5216804"
+      },
+      {
+        "idA": "uniprotkb:Q9VPR6",
+        "idB": "uniprotkb:A1ZBC3",
+        "method": "psi-mi:\"MI:0018\"(two hybrid)",
+        "type": "Giot et al. (2003)",
+        "pmid": "pubmed:14605208|imex:IM-16524|mint:MINT-5216804"
+      },
+      {
+        "idA": "uniprotkb:Q9VPR6",
+        "idB": "uniprotkb:Q9VYV5",
+        "method": "psi-mi:\"MI:0018\"(two hybrid)",
+        "type": "Giot et al. (2003)",
+        "pmid": "pubmed:14605208|imex:IM-16524|mint:MINT-5216804"
+      },
+      {
+        "idA": "uniprotkb:Q9VPR6",
+        "idB": "uniprotkb:Q86DS1",
+        "method": "psi-mi:\"MI:0018\"(two hybrid)",
+        "type": "Giot et al. (2003)",
+        "pmid": "pubmed:14605208|imex:IM-16524|mint:MINT-5216804"
+      },
+      {
+        "idA": "uniprotkb:Q9W4F9",
+        "idB": "uniprotkb:Q9VPR6",
+        "method": "psi-mi:\"MI:0018\"(two hybrid)",
+        "type": "Giot et al. (2003)",
+        "pmid": "pubmed:14605208|imex:IM-16524|mint:MINT-5216804"
+      }
+    ]
+  },
+  "IRX1": {
+    "total": 10,
+    "partners": [
+      {
+        "idA": "uniprotkb:Q8GXN2",
+        "idB": "uniprotkb:Q8LPK5",
+        "method": "psi-mi:\"MI:0112\"(ubiquitin reconstruction)",
+        "type": "Jones et al. (2014)",
+        "pmid": "imex:IM-26362|pubmed:24833385|doi:10.1126/science.1251358"
+      },
+      {
+        "idA": "uniprotkb:Q67YN2",
+        "idB": "uniprotkb:Q8LPK5",
+        "method": "psi-mi:\"MI:0112\"(ubiquitin reconstruction)",
+        "type": "Jones et al. (2014)",
+        "pmid": "imex:IM-26362|pubmed:24833385|doi:10.1126/science.1251358"
+      },
+      {
+        "idA": "uniprotkb:O23693",
+        "idB": "uniprotkb:Q8LPK5",
+        "method": "psi-mi:\"MI:0112\"(ubiquitin reconstruction)",
+        "type": "Jones et al. (2014)",
+        "pmid": "imex:IM-26362|pubmed:24833385|doi:10.1126/science.1251358"
+      },
+      {
+        "idA": "uniprotkb:Q9SYS3",
+        "idB": "uniprotkb:Q8LPK5",
+        "method": "psi-mi:\"MI:0112\"(ubiquitin reconstruction)",
+        "type": "Jones et al. (2014)",
+        "pmid": "imex:IM-26362|pubmed:24833385|doi:10.1126/science.1251358"
+      },
+      {
+        "idA": "uniprotkb:Q8L7H7",
+        "idB": "uniprotkb:Q8LPK5",
+        "method": "psi-mi:\"MI:0112\"(ubiquitin reconstruction)",
+        "type": "Jones et al. (2014)",
+        "pmid": "imex:IM-26362|pubmed:24833385|doi:10.1126/science.1251358"
+      },
+      {
+        "idA": "uniprotkb:Q8L4X4",
+        "idB": "uniprotkb:Q8LPK5",
+        "method": "psi-mi:\"MI:0112\"(ubiquitin reconstruction)",
+        "type": "Jones et al. (2014)",
+        "pmid": "imex:IM-26362|pubmed:24833385|doi:10.1126/science.1251358"
+      },
+      {
+        "idA": "uniprotkb:Q6AWW5",
+        "idB": "uniprotkb:Q8LPK5",
+        "method": "psi-mi:\"MI:0112\"(ubiquitin reconstruction)",
+        "type": "Jones et al. (2014)",
+        "pmid": "imex:IM-26362|pubmed:24833385|doi:10.1126/science.1251358"
+      },
+      {
+        "idA": "uniprotkb:A0A178US29",
+        "idB": "uniprotkb:Q8LPK5",
+        "method": "psi-mi:\"MI:0112\"(ubiquitin reconstruction)",
+        "type": "Jones et al. (2014)",
+        "pmid": "imex:IM-26362|pubmed:24833385|doi:10.1126/science.1251358"
+      },
+      {
+        "idA": "uniprotkb:Q8GX92",
+        "idB": "uniprotkb:Q8LPK5",
+        "method": "psi-mi:\"MI:0112\"(ubiquitin reconstruction)",
+        "type": "Jones et al. (2014)",
+        "pmid": "imex:IM-26362|pubmed:24833385|doi:10.1126/science.1251358"
+      },
+      {
+        "idA": "uniprotkb:P78414",
+        "idB": "uniprotkb:Q8TEL6",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2021)",
+        "pmid": "pubmed:33961781|imex:IM-29278|doi:10.1016/j.cell.2021.04.011"
+      }
+    ]
+  },
+  "IRX2": {
+    "total": 12,
+    "partners": [
+      {
+        "idA": "uniprotkb:Q9BZI1",
+        "idB": "uniprotkb:Q99471",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q86SI9",
+        "idB": "uniprotkb:Q9UHD4",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q9BZI1",
+        "idB": "uniprotkb:Q9UPG8",
+        "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q99471",
+        "idB": "uniprotkb:Q9BZI1",
+        "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q86SI9",
+        "idB": "uniprotkb:Q9UHD4",
+        "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q9BZI1",
+        "idB": "uniprotkb:Q9UPG8",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q9BZI1",
+        "idB": "uniprotkb:Q99471",
+        "method": "psi-mi:\"MI:1112\"(two hybrid prey pooling approach)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q08117-2",
+        "idB": "uniprotkb:Q9BZI1",
+        "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q86SI9",
+        "idB": "uniprotkb:Q9UHD4",
+        "method": "psi-mi:\"MI:1112\"(two hybrid prey pooling approach)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q9BZI1",
+        "idB": "uniprotkb:Q9UPG8",
+        "method": "psi-mi:\"MI:1112\"(two hybrid prey pooling approach)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q9BZI1",
+        "idB": "uniprotkb:Q08117-2",
+        "method": "psi-mi:\"MI:1112\"(two hybrid prey pooling approach)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q9BZI1",
+        "idB": "uniprotkb:Q08117-2",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      }
+    ]
+  },
+  "IRX4": {
+    "total": 10,
+    "partners": [
+      {
+        "idA": "uniprotkb:P78413",
+        "idB": "uniprotkb:P78424",
+        "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:P78413",
+        "idB": "uniprotkb:P78424",
+        "method": "psi-mi:\"MI:1112\"(two hybrid prey pooling approach)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:P78413",
+        "idB": "uniprotkb:P78424",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "ensembl:ENSG00000186803",
+        "idB": "uniprotkb:P78413",
+        "method": "psi-mi:\"MI:0432\"(one hybrid)",
+        "type": "Santoso et al. (2020)",
+        "pmid": "doi:10.1093/nar/gkaa1055|pubmed:33179750|imex:IM-27908"
+      },
+      {
+        "idA": "ensembl:ENSG00000234829",
+        "idB": "uniprotkb:P78413",
+        "method": "psi-mi:\"MI:0432\"(one hybrid)",
+        "type": "Santoso et al. (2020)",
+        "pmid": "doi:10.1093/nar/gkaa1055|pubmed:33179750|imex:IM-27908"
+      },
+      {
+        "idA": "ensembl:ENSG00000147885",
+        "idB": "uniprotkb:P78413",
+        "method": "psi-mi:\"MI:0432\"(one hybrid)",
+        "type": "Santoso et al. (2020)",
+        "pmid": "doi:10.1093/nar/gkaa1055|pubmed:33179750|imex:IM-27908"
+      },
+      {
+        "idA": "ensembl:ENSG00000137080",
+        "idB": "uniprotkb:P78413",
+        "method": "psi-mi:\"MI:0432\"(one hybrid)",
+        "type": "Santoso et al. (2020)",
+        "pmid": "doi:10.1093/nar/gkaa1055|pubmed:33179750|imex:IM-27908"
+      },
+      {
+        "idA": "ensembl:ENSG00000236637",
+        "idB": "uniprotkb:P78413",
+        "method": "psi-mi:\"MI:0432\"(one hybrid)",
+        "type": "Santoso et al. (2020)",
+        "pmid": "doi:10.1093/nar/gkaa1055|pubmed:33179750|imex:IM-27908"
+      },
+      {
+        "idA": "uniprotkb:P43355",
+        "idB": "uniprotkb:P78413",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2021)",
+        "pmid": "pubmed:33961781|imex:IM-29278|doi:10.1016/j.cell.2021.04.011"
+      },
+      {
+        "idA": "uniprotkb:Q8NB90",
+        "idB": "uniprotkb:P78413",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Krishnamoorthy et al. (2024)",
+        "pmid": "pubmed:38554706|imex:IM-30175"
+      }
+    ]
+  },
+  "IRX5": {
+    "total": 28,
+    "partners": [
+      {
+        "idA": "uniprotkb:Q84JA6",
+        "idB": "uniprotkb:Q84JA6",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Altmann et al. (2020)",
+        "pmid": "pubmed:32612234|imex:IM-27834"
+      },
+      {
+        "idA": "intact:EBI-21945770",
+        "idB": "uniprotkb:P78411",
+        "method": "psi-mi:\"MI:0432\"(one hybrid)",
+        "type": "Shrestha et al. (2019)",
+        "pmid": "imex:IM-26689|pubmed:31481462"
+      },
+      {
+        "idA": "intact:EBI-21946377",
+        "idB": "uniprotkb:P78411",
+        "method": "psi-mi:\"MI:0432\"(one hybrid)",
+        "type": "Shrestha et al. (2019)",
+        "pmid": "imex:IM-26689|pubmed:31481462"
+      },
+      {
+        "idA": "intact:EBI-21946274",
+        "idB": "uniprotkb:P78411",
+        "method": "psi-mi:\"MI:0432\"(one hybrid)",
+        "type": "Shrestha et al. (2019)",
+        "pmid": "imex:IM-26689|pubmed:31481462"
+      },
+      {
+        "idA": "intact:EBI-21946257",
+        "idB": "uniprotkb:P78411",
+        "method": "psi-mi:\"MI:0432\"(one hybrid)",
+        "type": "Shrestha et al. (2019)",
+        "pmid": "imex:IM-26689|pubmed:31481462"
+      },
+      {
+        "idA": "uniprotkb:P62158",
+        "idB": "uniprotkb:P78411",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2021)",
+        "pmid": "pubmed:33961781|imex:IM-29278|doi:10.1016/j.cell.2021.04.011"
+      },
+      {
+        "idA": "uniprotkb:Q9SWW6",
+        "idB": "uniprotkb:Q84JA6",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Altmann et al. (2020)",
+        "pmid": "pubmed:32612234|imex:IM-27834"
+      },
+      {
+        "idA": "ensembl:ENSG00000108702",
+        "idB": "uniprotkb:P78411",
+        "method": "psi-mi:\"MI:0432\"(one hybrid)",
+        "type": "Santoso et al. (2020)",
+        "pmid": "doi:10.1093/nar/gkaa1055|pubmed:33179750|imex:IM-27908"
+      },
+      {
+        "idA": "ensembl:ENSG00000115009",
+        "idB": "uniprotkb:P78411",
+        "method": "psi-mi:\"MI:0432\"(one hybrid)",
+        "type": "Santoso et al. (2020)",
+        "pmid": "doi:10.1093/nar/gkaa1055|pubmed:33179750|imex:IM-27908"
+      },
+      {
+        "idA": "ensembl:ENSG00000102962",
+        "idB": "uniprotkb:P78411",
+        "method": "psi-mi:\"MI:0432\"(one hybrid)",
+        "type": "Santoso et al. (2020)",
+        "pmid": "doi:10.1093/nar/gkaa1055|pubmed:33179750|imex:IM-27908"
+      },
+      {
+        "idA": "ensembl:ENSG00000271503",
+        "idB": "uniprotkb:P78411",
+        "method": "psi-mi:\"MI:0432\"(one hybrid)",
+        "type": "Santoso et al. (2020)",
+        "pmid": "doi:10.1093/nar/gkaa1055|pubmed:33179750|imex:IM-27908"
+      },
+      {
+        "idA": "ensembl:ENSG00000006210",
+        "idB": "uniprotkb:P78411",
+        "method": "psi-mi:\"MI:0432\"(one hybrid)",
+        "type": "Santoso et al. (2020)",
+        "pmid": "doi:10.1093/nar/gkaa1055|pubmed:33179750|imex:IM-27908"
+      },
+      {
+        "idA": "ensembl:ENSG00000169245",
+        "idB": "uniprotkb:P78411",
+        "method": "psi-mi:\"MI:0432\"(one hybrid)",
+        "type": "Santoso et al. (2020)",
+        "pmid": "doi:10.1093/nar/gkaa1055|pubmed:33179750|imex:IM-27908"
+      },
+      {
+        "idA": "ensembl:ENSG00000145824",
+        "idB": "uniprotkb:P78411",
+        "method": "psi-mi:\"MI:0432\"(one hybrid)",
+        "type": "Santoso et al. (2020)",
+        "pmid": "doi:10.1093/nar/gkaa1055|pubmed:33179750|imex:IM-27908"
+      },
+      {
+        "idA": "ensembl:ENSG00000182393",
+        "idB": "uniprotkb:P78411",
+        "method": "psi-mi:\"MI:0432\"(one hybrid)",
+        "type": "Santoso et al. (2020)",
+        "pmid": "doi:10.1093/nar/gkaa1055|pubmed:33179750|imex:IM-27908"
+      },
+      {
+        "idA": "ensembl:ENSG00000272395",
+        "idB": "uniprotkb:P78411",
+        "method": "psi-mi:\"MI:0432\"(one hybrid)",
+        "type": "Santoso et al. (2020)",
+        "pmid": "doi:10.1093/nar/gkaa1055|pubmed:33179750|imex:IM-27908"
+      },
+      {
+        "idA": "ensembl:ENSG00000168811",
+        "idB": "uniprotkb:P78411",
+        "method": "psi-mi:\"MI:0432\"(one hybrid)",
+        "type": "Santoso et al. (2020)",
+        "pmid": "doi:10.1093/nar/gkaa1055|pubmed:33179750|imex:IM-27908"
+      },
+      {
+        "idA": "ensembl:ENSG00000164136",
+        "idB": "uniprotkb:P78411",
+        "method": "psi-mi:\"MI:0432\"(one hybrid)",
+        "type": "Santoso et al. (2020)",
+        "pmid": "doi:10.1093/nar/gkaa1055|pubmed:33179750|imex:IM-27908"
+      },
+      {
+        "idA": "ensembl:ENSG00000137033",
+        "idB": "uniprotkb:P78411",
+        "method": "psi-mi:\"MI:0432\"(one hybrid)",
+        "type": "Santoso et al. (2020)",
+        "pmid": "doi:10.1093/nar/gkaa1055|pubmed:33179750|imex:IM-27908"
+      },
+      {
+        "idA": "ensembl:ENSG00000163736",
+        "idB": "uniprotkb:P78411",
+        "method": "psi-mi:\"MI:0432\"(one hybrid)",
+        "type": "Santoso et al. (2020)",
+        "pmid": "doi:10.1093/nar/gkaa1055|pubmed:33179750|imex:IM-27908"
+      }
+    ]
+  },
+  "IRX6": {
+    "total": 60,
+    "partners": [
+      {
+        "idA": "uniprotkb:P78412",
+        "idB": "uniprotkb:O60806",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:P78412",
+        "idB": "uniprotkb:O43186",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:P78412",
+        "idB": "uniprotkb:Q03989",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:P78412",
+        "idB": "uniprotkb:Q96RU7",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:P78412",
+        "idB": "uniprotkb:Q3SYF9",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:P78412",
+        "idB": "uniprotkb:Q8NI38",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:P78412",
+        "idB": "uniprotkb:Q08117-2",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:P78412",
+        "idB": "uniprotkb:Q3SYF9",
+        "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:P78412",
+        "idB": "uniprotkb:Q03989",
+        "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:P78412",
+        "idB": "uniprotkb:Q8NI38",
+        "method": "psi-mi:\"MI:1112\"(two hybrid prey pooling approach)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:P78412",
+        "idB": "uniprotkb:O76003",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:P78412",
+        "idB": "uniprotkb:P10916",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:P78412",
+        "idB": "uniprotkb:O76003",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:P78412",
+        "idB": "uniprotkb:O76003",
+        "method": "psi-mi:\"MI:1112\"(two hybrid prey pooling approach)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:P78412",
+        "idB": "uniprotkb:P10916",
+        "method": "psi-mi:\"MI:1112\"(two hybrid prey pooling approach)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:P78412",
+        "idB": "uniprotkb:O76003",
+        "method": "psi-mi:\"MI:1112\"(two hybrid prey pooling approach)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:P10916",
+        "idB": "uniprotkb:P78412",
+        "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:P49639",
+        "idB": "uniprotkb:P78412",
+        "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:P78412",
+        "idB": "uniprotkb:Q8NI38",
+        "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:P78412",
+        "idB": "uniprotkb:Q96RU7",
+        "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      }
+    ]
+  },
+  "ISG20L2": {
+    "total": 42,
+    "partners": [
+      {
+        "idA": "uniprotkb:O00423",
+        "idB": "uniprotkb:Q9H9L3",
+        "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+        "type": "Rual et al. (2005)",
+        "pmid": "pubmed:16189514|imex:IM-16520|mint:MINT-5217968"
+      },
+      {
+        "idA": "intact:EBI-5333168",
+        "idB": "uniprotkb:Q9H9L3",
+        "method": "psi-mi:\"MI:0096\"(pull down)",
+        "type": "Duernberger et al. (2013)",
+        "pmid": "pubmed:23902751|imex:IM-21740"
+      },
+      {
+        "idA": "uniprotkb:P62993",
+        "idB": "uniprotkb:Q9H9L3",
+        "method": "psi-mi:\"MI:0081\"(peptide array)",
+        "type": "Wu et al. (2007)",
+        "pmid": "imex:IM-11903|pubmed:17474147|mint:MINT-8109998"
+      },
+      {
+        "idA": "uniprotkb:P16333",
+        "idB": "uniprotkb:Q9H9L3",
+        "method": "psi-mi:\"MI:0081\"(peptide array)",
+        "type": "Wu et al. (2007)",
+        "pmid": "imex:IM-11903|pubmed:17474147|mint:MINT-8109998"
+      },
+      {
+        "idA": "uniprotkb:P12931",
+        "idB": "uniprotkb:Q9H9L3",
+        "method": "psi-mi:\"MI:0081\"(peptide array)",
+        "type": "Wu et al. (2007)",
+        "pmid": "imex:IM-11903|pubmed:17474147|mint:MINT-8109998"
+      },
+      {
+        "idA": "uniprotkb:P06241",
+        "idB": "uniprotkb:Q9H9L3",
+        "method": "psi-mi:\"MI:0081\"(peptide array)",
+        "type": "Wu et al. (2007)",
+        "pmid": "imex:IM-11903|pubmed:17474147|mint:MINT-8109998"
+      },
+      {
+        "idA": "uniprotkb:Q9H9L3",
+        "idB": "uniprotkb:P46108",
+        "method": "psi-mi:\"MI:0081\"(peptide array)",
+        "type": "Wu et al. (2007)",
+        "pmid": "imex:IM-11903|pubmed:17474147|mint:MINT-8109998"
+      },
+      {
+        "idA": "uniprotkb:P16333",
+        "idB": "uniprotkb:Q9H9L3",
+        "method": "psi-mi:\"MI:0081\"(peptide array)",
+        "type": "Wu et al. (2007)",
+        "pmid": "imex:IM-11903|pubmed:17474147|mint:MINT-8109998"
+      },
+      {
+        "idA": "uniprotkb:P19174",
+        "idB": "uniprotkb:Q9H9L3",
+        "method": "psi-mi:\"MI:0081\"(peptide array)",
+        "type": "Wu et al. (2007)",
+        "pmid": "imex:IM-11903|pubmed:17474147|mint:MINT-8109998"
+      },
+      {
+        "idA": "uniprotkb:O00423",
+        "idB": "uniprotkb:Q9H9L3",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Venkatesan et al. (2009)",
+        "pmid": "pubmed:19060904|imex:IM-20259"
+      },
+      {
+        "idA": "uniprotkb:O00423",
+        "idB": "uniprotkb:Q9H9L3",
+        "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+        "type": "Venkatesan et al. (2009)",
+        "pmid": "pubmed:19060904|imex:IM-20259"
+      },
+      {
+        "idA": "uniprotkb:Q9H9L3",
+        "idB": "uniprotkb:P04792",
+        "method": "psi-mi:\"MI:0097\"(reverse ras recruitment system)",
+        "type": "Katsogiannou et al. (2014)",
+        "pmid": "imex:IM-20864|pubmed:25277244"
+      },
+      {
+        "idA": "uniprotkb:Q14684",
+        "idB": "uniprotkb:Q9H9L3",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Chamousset et al. (2010)",
+        "pmid": "imex:IM-26310|pubmed:20926688"
+      },
+      {
+        "idA": "uniprotkb:Q9H9L3",
+        "idB": "uniprotkb:P16403",
+        "method": "psi-mi:\"MI:0030\"(cross-linking study)",
+        "type": "Fasci et al. (2018)",
+        "pmid": "pubmed:30021884|imex:IM-26653|doi:10.1074/mcp.ra118.000924"
+      },
+      {
+        "idA": "uniprotkb:P03372",
+        "idB": "uniprotkb:Q9H9L3",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Nassa et al. (2019)",
+        "pmid": "pubmed:31527615|imex:IM-26954"
+      },
+      {
+        "idA": "uniprotkb:P03372",
+        "idB": "uniprotkb:Q9H9L3",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Nassa et al. (2019)",
+        "pmid": "pubmed:31527615|imex:IM-26954"
+      },
+      {
+        "idA": "uniprotkb:Q9NQ55",
+        "idB": "uniprotkb:Q9H9L3",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2017)",
+        "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778"
+      },
+      {
+        "idA": "uniprotkb:Q6VAB6",
+        "idB": "uniprotkb:Q9H9L3",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Bryan et al. (2016)",
+        "pmid": "pubmed:27086506|imex:IM-25748"
+      },
+      {
+        "idA": "uniprotkb:Q6VAB6",
+        "idB": "uniprotkb:Q9H9L3",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Bryan et al. (2016)",
+        "pmid": "pubmed:27086506|imex:IM-25748"
+      },
+      {
+        "idA": "uniprotkb:Q6VAB6",
+        "idB": "uniprotkb:Q9H9L3",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Bryan et al. (2016)",
+        "pmid": "pubmed:27086506|imex:IM-25748"
+      }
+    ]
+  },
+  "ISX": {
+    "total": 42,
+    "partners": [
+      {
+        "idA": "uniprotkb:Q2M1V0",
+        "idB": "uniprotkb:P08238",
+        "method": "psi-mi:\"MI:0729\"(luminescence based mammalian interactome mapping)",
+        "type": "Taipale et al. (2012)",
+        "pmid": "imex:IM-17906|pubmed:22939624|psi-mi:\"MI:0729\""
+      },
+      {
+        "idA": "uniprotkb:Q2M1V0",
+        "idB": "uniprotkb:Q01974",
+        "method": "psi-mi:\"MI:1112\"(two hybrid prey pooling approach)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q2M1V0",
+        "idB": "uniprotkb:Q01974",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:O15499",
+        "idB": "uniprotkb:Q2M1V0",
+        "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q2M1V0",
+        "idB": "uniprotkb:O15499",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q01974",
+        "idB": "uniprotkb:Q2M1V0",
+        "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q2M1V0",
+        "idB": "uniprotkb:Q5T6F2",
+        "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q2M1V0",
+        "idB": "uniprotkb:Q15038",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q2M1V0",
+        "idB": "uniprotkb:Q15038",
+        "method": "psi-mi:\"MI:1112\"(two hybrid prey pooling approach)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q2M1V0",
+        "idB": "uniprotkb:Q5T6F2",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q15038",
+        "idB": "uniprotkb:Q2M1V0",
+        "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q2M1V0",
+        "idB": "uniprotkb:P78424",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:P78424",
+        "idB": "uniprotkb:Q2M1V0",
+        "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q2M1V0",
+        "idB": "uniprotkb:O15499",
+        "method": "psi-mi:\"MI:1112\"(two hybrid prey pooling approach)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q2M1V0",
+        "idB": "uniprotkb:P78424",
+        "method": "psi-mi:\"MI:1112\"(two hybrid prey pooling approach)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q2M1V0",
+        "idB": "uniprotkb:Q5T6F2",
+        "method": "psi-mi:\"MI:1112\"(two hybrid prey pooling approach)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q2M1V0",
+        "idB": "uniprotkb:P27707",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2021)",
+        "pmid": "pubmed:33961781|imex:IM-29278|doi:10.1016/j.cell.2021.04.011"
+      },
+      {
+        "idA": "uniprotkb:Q2M1V0",
+        "idB": "uniprotkb:Q04727",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2021)",
+        "pmid": "pubmed:33961781|imex:IM-29278|doi:10.1016/j.cell.2021.04.011"
+      },
+      {
+        "idA": "uniprotkb:Q2M1V0",
+        "idB": "uniprotkb:O14556",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2021)",
+        "pmid": "pubmed:33961781|imex:IM-29278|doi:10.1016/j.cell.2021.04.011"
+      },
+      {
+        "idA": "uniprotkb:Q2M1V0",
+        "idB": "uniprotkb:O95396",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2021)",
+        "pmid": "pubmed:33961781|imex:IM-29278|doi:10.1016/j.cell.2021.04.011"
+      }
+    ]
+  },
+  "IVNS1ABP": {
+    "total": 92,
+    "partners": [
+      {
+        "idA": "uniprotkb:Q9Y6Y0",
+        "idB": "uniprotkb:Q12873",
+        "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+        "type": "Stelzl et al. (2005)",
+        "pmid": "pubmed:16169070|imex:IM-16517|mint:MINT-5217955"
+      },
+      {
+        "idA": "uniprotkb:Q9Y6Y0",
+        "idB": "uniprotkb:P35080",
+        "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+        "type": "Stelzl et al. (2005)",
+        "pmid": "pubmed:16169070|imex:IM-16517|mint:MINT-5217955"
+      },
+      {
+        "idA": "uniprotkb:Q9Y6Y0",
+        "idB": "uniprotkb:P08670",
+        "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+        "type": "Stelzl et al. (2005)",
+        "pmid": "pubmed:16169070|imex:IM-16517|mint:MINT-5217955"
+      },
+      {
+        "idA": "uniprotkb:Q9Y6Y0",
+        "idB": "uniprotkb:P62995",
+        "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+        "type": "Stelzl et al. (2005)",
+        "pmid": "pubmed:16169070|imex:IM-16517|mint:MINT-5217955"
+      },
+      {
+        "idA": "uniprotkb:Q9P1U0",
+        "idB": "uniprotkb:Q9Y6Y0",
+        "method": "psi-mi:\"MI:0018\"(two hybrid)",
+        "type": "Wang et al. (2011)",
+        "pmid": "imex:IM-15364|pubmed:21988832"
+      },
+      {
+        "idA": "uniprotkb:Q02878",
+        "idB": "uniprotkb:Q9Y6Y0",
+        "method": "psi-mi:\"MI:0018\"(two hybrid)",
+        "type": "Wang et al. (2011)",
+        "pmid": "imex:IM-15364|pubmed:21988832"
+      },
+      {
+        "idA": "uniprotkb:P06733",
+        "idB": "uniprotkb:Q9Y6Y0",
+        "method": "psi-mi:\"MI:0399\"(two hybrid fragment pooling approach)",
+        "type": "Blandin et al. (2013)",
+        "pmid": "pubmed:23414517|imex:IM-16425"
+      },
+      {
+        "idA": "uniprotkb:P04591",
+        "idB": "uniprotkb:Q9Y6Y0",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Jager et al. (2012)",
+        "pmid": "imex:IM-17346|pubmed:22190034|psi-mi:\"MI:0007\""
+      },
+      {
+        "idA": "uniprotkb:P51784",
+        "idB": "uniprotkb:Q9Y6Y0",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Sowa et al. (2009)",
+        "pmid": "imex:IM-12079|pubmed:19615732"
+      },
+      {
+        "idA": "uniprotkb:Q921E6",
+        "idB": "uniprotkb:Q920Q8",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Peng et al. (2009)",
+        "pmid": "imex:IM-12117|pubmed:20064375"
+      },
+      {
+        "idA": "uniprotkb:Q61210",
+        "idB": "uniprotkb:Q920Q8",
+        "method": "psi-mi:\"MI:0018\"(two hybrid)",
+        "type": "Papin et al. (2004)",
+        "pmid": "pubmed:15102471"
+      },
+      {
+        "idA": "uniprotkb:Q14558-2",
+        "idB": "uniprotkb:Q9Y6Y0",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2017)",
+        "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778"
+      },
+      {
+        "idA": "uniprotkb:Q9Y6Y0",
+        "idB": "uniprotkb:P49368",
+        "method": "psi-mi:\"MI:0030\"(cross-linking study)",
+        "type": "Fasci et al. (2018)",
+        "pmid": "pubmed:30021884|imex:IM-26653|doi:10.1074/mcp.ra118.000924"
+      },
+      {
+        "idA": "uniprotkb:P16333",
+        "idB": "uniprotkb:Q9Y6Y0",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Kennedy et al. (2019)",
+        "pmid": "pubmed:31980649|imex:IM-26434"
+      },
+      {
+        "idA": "uniprotkb:O75368",
+        "idB": "uniprotkb:Q9Y6Y0",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Kennedy et al. (2019)",
+        "pmid": "pubmed:31980649|imex:IM-26434"
+      },
+      {
+        "idA": "uniprotkb:P20936",
+        "idB": "uniprotkb:Q9Y6Y0",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Kennedy et al. (2019)",
+        "pmid": "pubmed:31980649|imex:IM-26434"
+      },
+      {
+        "idA": "uniprotkb:Q96B97",
+        "idB": "uniprotkb:Q9Y6Y0",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Kennedy et al. (2019)",
+        "pmid": "pubmed:31980649|imex:IM-26434"
+      },
+      {
+        "idA": "uniprotkb:P60953",
+        "idB": "uniprotkb:Q9Y6Y0",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Kennedy et al. (2019)",
+        "pmid": "pubmed:31980649|imex:IM-26434"
+      },
+      {
+        "idA": "uniprotkb:Q13164",
+        "idB": "uniprotkb:Q9Y6Y0",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Kennedy et al. (2019)",
+        "pmid": "pubmed:31980649|imex:IM-26434"
+      },
+      {
+        "idA": "uniprotkb:P15498",
+        "idB": "uniprotkb:Q9Y6Y0",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Kennedy et al. (2019)",
+        "pmid": "pubmed:31980649|imex:IM-26434"
+      }
+    ]
+  },
+  "IWS1": {
+    "total": 65,
+    "partners": [
+      {
+        "idA": "uniprotkb:P23615",
+        "idB": "uniprotkb:Q06505",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Gavin et al. (2006)",
+        "pmid": "pubmed:16429126"
+      },
+      {
+        "idA": "uniprotkb:P38074",
+        "idB": "uniprotkb:Q06505",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Hazbun et al. (2003)",
+        "pmid": "pubmed:14690591"
+      },
+      {
+        "idA": "uniprotkb:Q02159",
+        "idB": "uniprotkb:Q06505",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Hazbun et al. (2003)",
+        "pmid": "pubmed:14690591"
+      },
+      {
+        "idA": "chebi:\"CHEBI:16618\"",
+        "idB": "uniprotkb:Q96ST2",
+        "method": "psi-mi:\"MI:0004\"(affinity chromatography technology)",
+        "type": "Catimel et al. (2009)",
+        "pmid": "pubmed:19463016|imex:IM-17246"
+      },
+      {
+        "idA": "uniprotkb:P52630",
+        "idB": "uniprotkb:Q96ST2",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Wang et al. (2011)",
+        "pmid": "imex:IM-15364|pubmed:21988832"
+      },
+      {
+        "idA": "uniprotkb:Q96ST2",
+        "idB": "uniprotkb:Q81X85",
+        "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+        "type": "Dyer et al. (2010)",
+        "pmid": "imex:IM-13779|pubmed:20711500"
+      },
+      {
+        "idA": "uniprotkb:P68400",
+        "idB": "uniprotkb:Q96ST2-1",
+        "method": "psi-mi:\"MI:0424\"(protein kinase assay)",
+        "type": "Zhang et al. (2011)",
+        "pmid": "pubmed:22113938|imex:IM-16640"
+      },
+      {
+        "idA": "uniprotkb:P23615",
+        "idB": "uniprotkb:Q06505",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Krogan et al. (2002)",
+        "pmid": "pubmed:12242279|imex:IM-19705"
+      },
+      {
+        "idA": "uniprotkb:Q06505",
+        "idB": "uniprotkb:P23615",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Krogan et al. (2002)",
+        "pmid": "pubmed:12242279|imex:IM-19705"
+      },
+      {
+        "idA": "uniprotkb:Q8TAF3",
+        "idB": "uniprotkb:Q96ST2",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Sowa et al. (2009)",
+        "pmid": "imex:IM-12079|pubmed:19615732"
+      },
+      {
+        "idA": "uniprotkb:P23615",
+        "idB": "uniprotkb:Q06505",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Lambert et al. (2010)",
+        "pmid": "imex:IM-14085|pubmed:21179020"
+      },
+      {
+        "idA": "uniprotkb:P27692",
+        "idB": "uniprotkb:Q06505",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Lambert et al. (2010)",
+        "pmid": "imex:IM-14085|pubmed:21179020"
+      },
+      {
+        "idA": "uniprotkb:Q02206",
+        "idB": "uniprotkb:Q06505",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Lambert et al. (2010)",
+        "pmid": "imex:IM-14085|pubmed:21179020"
+      },
+      {
+        "idA": "uniprotkb:Q07979",
+        "idB": "uniprotkb:Q06505",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Lambert et al. (2010)",
+        "pmid": "imex:IM-14085|pubmed:21179020"
+      },
+      {
+        "idA": "uniprotkb:P02293",
+        "idB": "uniprotkb:Q06505",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Lambert et al. (2010)",
+        "pmid": "imex:IM-14085|pubmed:21179020"
+      },
+      {
+        "idA": "uniprotkb:Q06505",
+        "idB": "uniprotkb:P11484",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Gong et al. (2009)",
+        "pmid": "pubmed:19536198"
+      },
+      {
+        "idA": "uniprotkb:Q74PW2",
+        "idB": "uniprotkb:Q96ST2",
+        "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+        "type": "Dyer et al. (2010)",
+        "pmid": "imex:IM-13779|pubmed:20711500"
+      },
+      {
+        "idA": "uniprotkb:Q96ST2",
+        "idB": "uniprotkb:Q9H0D6",
+        "method": "psi-mi:\"MI:0030\"(cross-linking study)",
+        "type": "Fasci et al. (2018)",
+        "pmid": "pubmed:30021884|imex:IM-26653|doi:10.1074/mcp.ra118.000924"
+      },
+      {
+        "idA": "uniprotkb:P03372",
+        "idB": "uniprotkb:Q96ST2",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Nassa et al. (2019)",
+        "pmid": "pubmed:31527615|imex:IM-26954"
+      },
+      {
+        "idA": "uniprotkb:P03372",
+        "idB": "uniprotkb:Q96ST2",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "Nassa et al. (2019)",
+        "pmid": "pubmed:31527615|imex:IM-26954"
+      }
+    ]
+  },
+  "JADE1": {
+    "total": 41,
+    "partners": [
+      {
+        "idA": "uniprotkb:Q05086",
+        "idB": "uniprotkb:Q6IE81",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Lim et al. (2006)",
+        "pmid": "pubmed:16713569|imex:IM-11827|mint:MINT-5218676"
+      },
+      {
+        "idA": "uniprotkb:Q6IE81",
+        "idB": "uniprotkb:Q81X78",
+        "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+        "type": "Dyer et al. (2010)",
+        "pmid": "imex:IM-13779|pubmed:20711500"
+      },
+      {
+        "idA": "uniprotkb:P20263",
+        "idB": "uniprotkb:Q6ZPI0",
+        "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+        "type": "- (2010)",
+        "pmid": "pubmed:20362542|imex:IM-16970"
+      },
+      {
+        "idA": "uniprotkb:Q6IE81",
+        "idB": "uniprotkb:Q13813",
+        "method": "psi-mi:\"MI:0030\"(cross-linking study)",
+        "type": "Fasci et al. (2018)",
+        "pmid": "pubmed:30021884|imex:IM-26653|doi:10.1074/mcp.ra118.000924"
+      },
+      {
+        "idA": "uniprotkb:Q6IE81-3",
+        "idB": "uniprotkb:Q9UQR1-2",
+        "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q9HAF1-2",
+        "idB": "uniprotkb:Q6IE81",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2017)",
+        "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778"
+      },
+      {
+        "idA": "uniprotkb:Q6IE81",
+        "idB": "uniprotkb:O95251",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2017)",
+        "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778"
+      },
+      {
+        "idA": "uniprotkb:Q9BW85",
+        "idB": "uniprotkb:Q6IE81-3",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q6IE81-3",
+        "idB": "uniprotkb:Q9BW85",
+        "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q9UQR1-2",
+        "idB": "uniprotkb:Q6IE81-3",
+        "method": "psi-mi:\"MI:1112\"(two hybrid prey pooling approach)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q9BW85",
+        "idB": "uniprotkb:Q6IE81-3",
+        "method": "psi-mi:\"MI:1112\"(two hybrid prey pooling approach)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q05086-3",
+        "idB": "uniprotkb:Q6IE81-3",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Corominas et al. (2013)",
+        "pmid": "imex:IM-24135|pubmed:24722188|doi:10.1038/ncomms4650"
+      },
+      {
+        "idA": "uniprotkb:P83917",
+        "idB": "uniprotkb:Q6IE81-2",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Hein et al. (2015)",
+        "pmid": "pubmed:26496610|imex:IM-24272"
+      },
+      {
+        "idA": "uniprotkb:Q9CSU0",
+        "idB": "uniprotkb:Q6IE81-2",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Hein et al. (2015)",
+        "pmid": "pubmed:26496610|imex:IM-24272"
+      },
+      {
+        "idA": "uniprotkb:Q6IE81",
+        "idB": "uniprotkb:Q9BW85",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Rolland et al. (2014)",
+        "pmid": "imex:IM-23318|pubmed:25416956"
+      },
+      {
+        "idA": "uniprotkb:Q6IE81",
+        "idB": "uniprotkb:Q9BW85",
+        "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+        "type": "Rolland et al. (2014)",
+        "pmid": "imex:IM-23318|pubmed:25416956"
+      },
+      {
+        "idA": "uniprotkb:Q6IE81",
+        "idB": "uniprotkb:P40337",
+        "method": "psi-mi:\"MI:0231\"(mammalian protein protein interaction trap)",
+        "type": "Rolland et al. (2014)",
+        "pmid": "imex:IM-23318|pubmed:25416956"
+      },
+      {
+        "idA": "uniprotkb:Q9BW85",
+        "idB": "uniprotkb:Q6IE81",
+        "method": "psi-mi:\"MI:1112\"(two hybrid prey pooling approach)",
+        "type": "Rolland et al. (2014)",
+        "pmid": "imex:IM-23318|pubmed:25416956"
+      },
+      {
+        "idA": "uniprotkb:O00267",
+        "idB": "uniprotkb:Q6IE81-2",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Hein et al. (2015)",
+        "pmid": "pubmed:26496610|imex:IM-24272"
+      },
+      {
+        "idA": "uniprotkb:P42167",
+        "idB": "uniprotkb:Q6IE81-2",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Hein et al. (2015)",
+        "pmid": "pubmed:26496610|imex:IM-24272"
+      }
+    ]
+  },
+  "JADE2": {
+    "total": 89,
+    "partners": [
+      {
+        "idA": "uniprotkb:Q9NQC1",
+        "idB": "uniprotkb:Q5NF27",
+        "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+        "type": "Dyer et al. (2010)",
+        "pmid": "imex:IM-13779|pubmed:20711500"
+      },
+      {
+        "idA": "uniprotkb:Q9NQC1",
+        "idB": "uniprotkb:Q5NEB5",
+        "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+        "type": "Dyer et al. (2010)",
+        "pmid": "imex:IM-13779|pubmed:20711500"
+      },
+      {
+        "idA": "uniprotkb:Q9NQC1",
+        "idB": "uniprotkb:Q81X77",
+        "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+        "type": "Dyer et al. (2010)",
+        "pmid": "imex:IM-13779|pubmed:20711500"
+      },
+      {
+        "idA": "uniprotkb:Q9BY11",
+        "idB": "uniprotkb:Q9NQC1",
+        "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+        "type": "Bandyopadhyay et al. (2010)",
+        "pmid": "pubmed:20936779|imex:IM-17049"
+      },
+      {
+        "idA": "uniprotkb:Q9NQC1",
+        "idB": "uniprotkb:Q5NEM8",
+        "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+        "type": "Dyer et al. (2010)",
+        "pmid": "imex:IM-13779|pubmed:20711500"
+      },
+      {
+        "idA": "uniprotkb:Q8D0P9",
+        "idB": "uniprotkb:Q9NQC1",
+        "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+        "type": "Dyer et al. (2010)",
+        "pmid": "imex:IM-13779|pubmed:20711500"
+      },
+      {
+        "idA": "uniprotkb:Q9NQC1",
+        "idB": "uniprotkb:A0A2U2GZL1",
+        "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+        "type": "Dyer et al. (2010)",
+        "pmid": "imex:IM-13779|pubmed:20711500"
+      },
+      {
+        "idA": "uniprotkb:Q9BY11",
+        "idB": "uniprotkb:Q9NQC1",
+        "method": "psi-mi:\"MI:0399\"(two hybrid fragment pooling approach)",
+        "type": "Su\u0308gis et al. (2019)",
+        "pmid": "pubmed:31413325|imex:IM-26801"
+      },
+      {
+        "idA": "uniprotkb:Q9HAF1",
+        "idB": "uniprotkb:A0A0C4DFT8",
+        "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q8NHY3",
+        "idB": "uniprotkb:A0A0C4DFT8",
+        "method": "psi-mi:\"MI:1112\"(two hybrid prey pooling approach)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q8TAU3",
+        "idB": "uniprotkb:A0A0C4DFT8",
+        "method": "psi-mi:\"MI:1112\"(two hybrid prey pooling approach)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:A0A0C4DFT8",
+        "idB": "uniprotkb:Q96GN5",
+        "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:A0A0C4DFT8",
+        "idB": "uniprotkb:Q8NHY3",
+        "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:A0A0C4DFT8",
+        "idB": "uniprotkb:Q9HC52",
+        "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:A0A0C4DFT8",
+        "idB": "uniprotkb:Q8TAU3",
+        "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+        "type": "Luck et al. (2017)",
+        "pmid": "pubmed:32296183|imex:IM-25472"
+      },
+      {
+        "idA": "uniprotkb:Q9NQC1-2",
+        "idB": "uniprotkb:B2RTY4-2",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2017)",
+        "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778"
+      },
+      {
+        "idA": "uniprotkb:Q9NQC1-2",
+        "idB": "uniprotkb:O95251",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2017)",
+        "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778"
+      },
+      {
+        "idA": "uniprotkb:Q9NQC1-2",
+        "idB": "uniprotkb:Q3V6T2-2",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2017)",
+        "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778"
+      },
+      {
+        "idA": "uniprotkb:Q9NQC1-2",
+        "idB": "uniprotkb:Q567U6",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2017)",
+        "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778"
+      },
+      {
+        "idA": "uniprotkb:Q9NQC1-2",
+        "idB": "uniprotkb:Q86SX3-2",
+        "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+        "type": "Huttlin et al. (2017)",
+        "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778"
+      }
+    ]
+  }
+}

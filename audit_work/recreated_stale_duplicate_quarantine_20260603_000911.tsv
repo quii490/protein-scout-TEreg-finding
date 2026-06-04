@@ -1,0 +1,3 @@
+gene	stale_path	quarantine_path	canonical_path	canonical_exists	stale_exists_before	stale_exists_after	canonical_status	canonical_lines	stale_lines	action	reason
+AAAS	detail/rejected/AAAS/AAAS-evaluation.md	audit_work/quarantine/stale_duplicates_recreated_20260603_000911/AAAS	detail/nuclear-envelope/AAAS/AAAS-evaluation.md	True	True	False	scored	197	197	QUARANTINE_RECREATED_STALE_REJECTED_DUPLICATE	Linter recreated stale rejected after restore
+ABTB3	detail/rejected/ABTB3/ABTB3-evaluation.md	audit_work/quarantine/stale_duplicates_recreated_20260603_000911/ABTB3	detail/nucleoplasm/ABTB3/ABTB3-evaluation.md	True	True	False	scored	184	184	QUARANTINE_RECREATED_STALE_REJECTED_DUPLICATE	Linter recreated stale rejected after restore

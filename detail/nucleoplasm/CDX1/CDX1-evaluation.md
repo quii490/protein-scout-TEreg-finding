@@ -1,0 +1,177 @@
+---
+type: protein-evaluation
+gene: "CDX1"
+date: 2026-06-03
+tags: [protein-scout, rejected, evaluation]
+status: rejected
+---
+
+## CDX1 — REJECTED (研究热度过高 (PubMed strict=255，超过100篇阈值))
+
+### 1. 基本信息
+
+| 项目 | 内容 |
+|------|------|
+| 基因名 / 别名 | CDX1 |
+| 蛋白名称 | Homeobox protein CDX-1 |
+| 蛋白大小 | 265 aa / 28.1 kDa |
+| UniProt ID | P47902 |
+| 评估日期 | 2026-06-03 |
+
+### 2. 评分总览
+
+| 维度 | 得分 | 满分 | 加权后 | 关键证据摘要 |
+|------|------|------|--------|-------------|
+| 核定位特异性 | 8/10 | ×4 | 32 | HPA: 暂无HPA定位数据; UniProt: Nucleus |
+| 蛋白大小 | 10/10 | ×1 | 10 | 265 aa / 28.1 kDa |
+| 研究新颖性 | 0/10 | ×5 | 0 | PubMed strict=255 篇 (>100→REJECTED) |
+| 三维结构 | 6/10 | ×3 | 18 | AlphaFold v6 pLDDT=66.7; PDB: 5LUX, 7Q3O |
+| 调控结构域 | 7/10 | ×2 | 14 | InterPro: IPR006820, IPR047152, IPR001356, IPR020479, IPR017 |
+| PPI 网络 | 3/10 | ×3 | 9 | STRING 15 partners; IntAct 15 interactions |
+| 互证加分 | — | max +3 | 1.5 | PDB+AF+STRING+IntAct cross-validation |
+| **原始总分** | | | **84.5/180** | |
+| **归一化总分** | | | **46.9/100** | |
+
+### 3. 详细分析
+
+#### 3.1 核定位证据
+
+| 来源 | 定位 | 可信度 |
+|------|------|--------|
+| Protein Atlas (IF) | 暂无HPA定位数据 | 暂无 |
+| UniProt | Nucleus | Swiss-Prot/TrEMBL |
+
+**IF 图像状态**: HPA未检测到可靠IF图像信号。核定位证据基于HPA subcellular localization注释、UniProt注释和GO-CC术语。
+
+**GO Cellular Component**:
+- chromatin (GO:0000785)
+- nucleus (GO:0005634)
+
+**结论**: 主要定位于细胞核，HPA + UniProt/GO-CC 共同支持。
+
+#### 3.2 蛋白大小评估
+
+**评价**: 大小适中（200-800 aa），适合常规生化实验和结构解析。
+
+#### 3.3 研究现状
+
+| 指标 | 数值 |
+|------|------|
+| PubMed strict count | 255 |
+| PubMed broad count | 393 |
+| 别名(未计入scoring) | 无 |
+
+**关键文献**:
+1. Goblet cell differentiation subgroups in colorectal cancer.. *Proceedings of the National Academy of Sciences of the United States of America*. PMID: 39401352
+2. The Cdx1 homeodomain protein: an integrator of posterior signaling in the mouse.. *BioEssays : news and reviews in molecular, cellular and developmental biology*. PMID: 14505364
+3. Cdx1 and Gsc distinctly regulate the transcription of BMP4 target gene ventx3.2 by directly binding to the proximal promoter region in Xenopus gastrulae.. *Molecules and cells*. PMID: 38522664
+4. Campylobacter Concisus and Its Effect on the Expression of CDX1 and COX2.. *Asian Pacific journal of cancer prevention : APJCP*. PMID: 30486614
+5. CDX1/2 and KLF5 Expression and Epigenetic Modulation of Sonic Hedgehog Signaling in Gastric Adenocarcinoma.. *Pathology oncology research : POR*. PMID: 30685841
+
+**评价**: 研究基础较多，新颖性有限。
+
+#### 3.4 三维结构分析
+
+| 指标 | 数值 |
+|------|------|
+| AlphaFold 版本 | v6 |
+| AlphaFold 平均 pLDDT | 66.7 |
+| 高置信度残基 (pLDDT>90) 占比 | 21.5% |
+| 置信残基 (pLDDT 70-90) 占比 | 9.4% |
+| 中等置信 (pLDDT 50-70) 占比 | 53.6% |
+| 低置信 (pLDDT<50) 占比 | 15.5% |
+| 有序区域 (pLDDT>70) 占比 | 30.9% |
+| 可用 PDB 条目 | 5LUX, 7Q3O |
+
+**PAE**: PAE 图像未生成本地文件（standard evaluation），结构判断基于 AlphaFold pLDDT 统计。
+
+**评价**: AlphaFold 预测质量有限（pLDDT=66.7），有序残基占 30.9%。
+
+#### 3.5 结构域分析
+
+| 来源 | 结构域 |
+|------|--------|
+| InterPro/Pfam | InterPro: IPR006820, IPR047152, IPR001356, IPR020479, IPR017970; Pfam: PF04731, PF00046 |
+
+**染色质调控潜力分析**: 存在已知结构域注释，可作为功能研究的结构基础。
+
+#### 3.6 PPI 网络
+
+**STRING 预测互作** (combined score >0.4):
+
+| Partner | Combined Score | Experimental | 功能类别 |
+|---------|---------------|--------------|---------|
+| LEF1 | 0.704 | 0.292 | — |
+| TCOF1 | 0.670 | 0.045 | — |
+| CDX2 | 0.641 | 0.000 | — |
+| FOXA2 | 0.641 | 0.000 | — |
+| ANXA6 | 0.639 | 0.000 | — |
+| HNF1A | 0.618 | 0.000 | — |
+| CLDN2 | 0.613 | 0.000 | — |
+| NDST1 | 0.590 | 0.000 | — |
+| CLDN3 | 0.578 | 0.000 | — |
+| SOX2 | 0.567 | 0.292 | — |
+
+**实验验证互作** (IntAct):
+
+| Partner | 方法 | PMID |
+|---------|------|------|
+| TBP | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:17158164|imex:IM-26822 |
+| TAF7 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:17158164|imex:IM-26822 |
+| TMED7 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:17158164|imex:IM-26822 |
+| TAF12 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:17158164|imex:IM-26822 |
+| TAF15 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:17158164|imex:IM-26822 |
+| ZMPSTE24 | psi-mi:"MI:0030"(cross-linking study) | pubmed:30021884|imex:IM-26653| |
+| DDX42 | psi-mi:"MI:0030"(cross-linking study) | pubmed:30021884|imex:IM-26653| |
+| ZNF724 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
+| CASC3 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
+| PTCD1 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
+
+**PPI 互证分析**:
+- STRING + IntAct 均有数据
+- STRING partners: 15，IntAct interactions: 15
+- 调控相关比例: 0 / 15 = 0%
+
+**评价**: STRING 15 个预测互作，IntAct 15 个实验互作。调控相关配体占比 0%。
+
+#### 3.7 多库互证
+
+| 维度 | 来源 | 结果 | 是否一致 |
+|------|------|------|----------|
+| 三维结构 | AlphaFold pLDDT=66.7 + PDB: 5LUX, 7Q3O | pLDDT=66.7, v6 | 预测+实验 |
+| 定位 | UniProt + HPA | Nucleus / 暂无HPA定位数据 | 一致 |
+| PPI | STRING + IntAct | 15 + 15 interactions | 数据充分 |
+
+**互证加分明细**:
+- PDB + AlphaFold 双源验证: +0.5
+- 多库定位一致 (2源): +0.5
+- STRING + IntAct 双源验证: +0.5
+- 结构域 + AlphaFold 质量: +0
+- PDB 多条目覆盖: +0
+**总分**: +1.5 / max +3
+
+### 4. 总体评价
+
+**推荐等级**: ⭐⭐ (REJECTED)
+
+**核心优势**:
+1. CDX1 — Homeobox protein CDX-1，研究基础较多，新颖性有限。
+2. 蛋白大小265 aa，大小适中（200-800 aa），适合常规生化实验和结构解析。
+
+**风险/不确定性**:
+1. PubMed 255 篇，研究热度过高（>100），不符合新颖性要求
+2. AlphaFold 预测质量一般（pLDDT=66.7），需要更多实验结构验证
+
+**下一步建议**:
+- [ ] 查阅最新关键文献补充研究背景
+- [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
+- [ ] 设计体外实验验证核定位及潜在调控功能
+**该蛋白PubMed文献数 255 > 100，研究热度过高，不符合novelty筛选标准。**
+
+### 5. 数据来源
+- UniProt: https://www.uniprot.org/uniprotkb/P47902
+- Protein Atlas: https://www.proteinatlas.org/ENSG00000113722-CDX1/subcellular
+- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CDX1
+- AlphaFold: https://alphafold.ebi.ac.uk/entry/P47902
+- STRING: https://string-db.org/network/9606.ENSP00000
+- Data fetched live: 2026-06-03

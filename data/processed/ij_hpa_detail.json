@@ -1,0 +1,142 @@
+{
+  "ICE1": {
+    "ensembl": "ENSG00000164151",
+    "evidence": "Evidence at protein level",
+    "hpa_evidence": "Evidence at protein level",
+    "subcell_available": true,
+    "has_if_data": false
+  },
+  "ICE2": {
+    "ensembl": "ENSG00000128915",
+    "evidence": "Evidence at protein level",
+    "hpa_evidence": "Evidence at protein level",
+    "subcell_available": true,
+    "has_if_data": false
+  },
+  "IER2": {
+    "ensembl": "ENSG00000160888",
+    "evidence": "Evidence at protein level",
+    "hpa_evidence": "Evidence at protein level",
+    "subcell_available": true,
+    "has_if_data": false
+  },
+  "IER5": {
+    "ensembl": "ENSG00000162783",
+    "evidence": "Evidence at protein level",
+    "hpa_evidence": "Evidence at protein level",
+    "subcell_available": true,
+    "has_if_data": false
+  },
+  "IFI35": {
+    "ensembl": "ENSG00000068079",
+    "evidence": "Evidence at protein level",
+    "hpa_evidence": "Evidence at protein level",
+    "subcell_available": true,
+    "has_if_data": false
+  },
+  "IFRD2": {
+    "ensembl": "ENSG00000214706",
+    "evidence": "Evidence at protein level",
+    "hpa_evidence": "Evidence at transcript level",
+    "subcell_available": true,
+    "has_if_data": false
+  },
+  "IHO1": {
+    "ensembl": "ENSG00000173421",
+    "evidence": "Evidence at protein level",
+    "hpa_evidence": "Evidence at transcript level",
+    "subcell_available": true,
+    "has_if_data": false
+  },
+  "ILF2": {
+    "ensembl": "ENSG00000143621",
+    "evidence": "Evidence at protein level",
+    "hpa_evidence": "Evidence at protein level",
+    "subcell_available": true,
+    "has_if_data": false
+  },
+  "IPMK": {
+    "ensembl": "ENSG00000151151",
+    "evidence": "Evidence at protein level",
+    "hpa_evidence": "Evidence at protein level",
+    "subcell_available": true,
+    "has_if_data": false
+  },
+  "IRX1": {
+    "ensembl": "ENSG00000170549",
+    "evidence": "Evidence at protein level",
+    "hpa_evidence": "Evidence at protein level",
+    "subcell_available": true,
+    "has_if_data": false
+  },
+  "IRX2": {
+    "ensembl": "ENSG00000170561",
+    "evidence": "Evidence at protein level",
+    "hpa_evidence": "Evidence at transcript level",
+    "subcell_available": true,
+    "has_if_data": false
+  },
+  "IRX4": {
+    "ensembl": "ENSG00000113430",
+    "evidence": "Evidence at protein level",
+    "hpa_evidence": "Evidence at transcript level",
+    "subcell_available": true,
+    "has_if_data": false
+  },
+  "IRX5": {
+    "ensembl": "ENSG00000176842",
+    "evidence": "Evidence at protein level",
+    "hpa_evidence": "Evidence at protein level",
+    "subcell_available": true,
+    "has_if_data": false
+  },
+  "IRX6": {
+    "ensembl": "ENSG00000159387",
+    "evidence": "Evidence at protein level",
+    "hpa_evidence": "Evidence at transcript level",
+    "subcell_available": true,
+    "has_if_data": false
+  },
+  "ISG20L2": {
+    "ensembl": "ENSG00000143319",
+    "evidence": "Evidence at protein level",
+    "hpa_evidence": "Evidence at transcript level",
+    "subcell_available": true,
+    "has_if_data": false
+  },
+  "ISX": {
+    "ensembl": "ENSG00000175329",
+    "evidence": "Evidence at protein level",
+    "hpa_evidence": "Evidence at protein level",
+    "subcell_available": true,
+    "has_if_data": false
+  },
+  "IVNS1ABP": {
+    "ensembl": "ENSG00000116679",
+    "evidence": "Evidence at protein level",
+    "hpa_evidence": "Evidence at protein level",
+    "subcell_available": true,
+    "has_if_data": false
+  },
+  "IWS1": {
+    "ensembl": "ENSG00000163166",
+    "evidence": "Evidence at protein level",
+    "hpa_evidence": "Evidence at protein level",
+    "subcell_available": true,
+    "has_if_data": false
+  },
+  "JADE1": {
+    "ensembl": "ENSG00000077684",
+    "evidence": "Evidence at protein level",
+    "hpa_evidence": "Evidence at protein level",
+    "subcell_available": true,
+    "has_if_data": false
+  },
+  "JADE2": {
+    "ensembl": "ENSG00000043143",
+    "evidence": "Evidence at protein level",
+    "hpa_evidence": "Evidence at protein level",
+    "subcell_available": true,
+    "has_if_data": false
+  }
+}

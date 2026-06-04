@@ -1,0 +1,22 @@
+metric	value
+recovery_master_queue_total_genes	687
+已处理 (have /180 report)	284
+未处理	403
+已完成 batch 数	57
+未完成 batch 数	81
+scored (in MQ)	208
+rejected (in MQ)	77
+harvest packet 已有	317
+仍缺 harvest	370
+报告少于 50 行	1477
+报告少于 25 行	551
+报告少于 12 行	458
+禁用词命中	235
+Packet error 残留	0
+No nuclear evidence 一句话	0
+validate_strict Errors	1804
+validate_strict Warnings	1851
+非队列 gene 被修改数	2144
+duplicate MANUAL_REVIEW 被处理	0
+total harvest packets	2255
+total reports	4627

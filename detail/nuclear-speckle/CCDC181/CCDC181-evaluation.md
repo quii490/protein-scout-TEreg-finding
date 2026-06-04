@@ -1,0 +1,175 @@
+---
+type: protein-evaluation
+gene: "CCDC181"
+date: 2026-06-03
+tags: [protein-scout, nuclear-protein, evaluation]
+status: scored
+---
+
+## CCDC181 核蛋白评估报告 (Full Re-evaluation)
+
+### 1. 基本信息
+
+| 项目 | 内容 |
+|------|------|
+| 基因名 / 别名 | CCDC181 / C1orf114 |
+| 蛋白名称 | Coiled-coil domain-containing protein 181 |
+| 蛋白大小 | 509 aa / 60.1 kDa |
+| UniProt ID | Q5TID7 |
+| 评估日期 | 2026-06-03 |
+
+### 2. 评分总览
+
+| 维度 | 得分 | 满分 | 加权后 | 关键证据摘要 |
+|------|------|------|--------|-------------|
+| 核定位特异性 | 4/10 | ×4 | 16 | HPA: Nuclear speckles, Acrosome, Mid piece; 额外: Principal piece; UniProt: Cytoplasm, cytoskeleton; Cell projection, cilium, flagellum; |
+| 蛋白大小 | 10/10 | ×1 | 10 | 509 aa / 60.1 kDa |
+| 研究新颖性 | 10/10 | ×5 | 50 | PubMed strict=17 篇 (≤20→10) |
+| 三维结构 | 6/10 | ×3 | 18 | AlphaFold v6 pLDDT=67.7; PDB: 无 |
+| 调控结构域 | 7/10 | ×2 | 14 | InterPro: IPR026687 |
+| PPI 网络 | 3/10 | ×3 | 9 | STRING 15 partners; IntAct 5 interactions |
+| 互证加分 | — | max +3 | 1.0 | PDB+AF+STRING+IntAct cross-validation |
+| **原始总分** | | | **118.0/180** | |
+| **归一化总分** | | | **65.6/100** | |
+
+### 3. 详细分析
+
+#### 3.1 核定位证据
+
+| 来源 | 定位 | 可信度 |
+|------|------|--------|
+| Protein Atlas (IF) | Nuclear speckles, Acrosome, Mid piece; 额外: Principal piece | Approved |
+| UniProt | Cytoplasm, cytoskeleton; Cell projection, cilium, flagellum; Cell projection, cilium; Cytoplasm, cyt... | Swiss-Prot/TrEMBL |
+
+**IF 图像获取**: 未下载本地IF图像（standard evaluation），核定位证据基于HPA subcellular localization注释、UniProt注释和GO-CC术语。
+
+**GO Cellular Component**:
+- axoneme (GO:0005930)
+- cilium (GO:0005929)
+- manchette (GO:0002177)
+- microtubule (GO:0005874)
+- sperm flagellum (GO:0036126)
+
+**结论**: 核定位信号较弱，多个数据源显示混合定位或非核偏好。
+
+#### 3.2 蛋白大小评估
+
+**评价**: 大小适中（200-800 aa），适合常规生化实验和结构解析。
+
+#### 3.3 研究现状
+
+| 指标 | 数值 |
+|------|------|
+| PubMed strict count | 17 |
+| PubMed broad count | 21 |
+| 别名(未计入scoring) | Aliases observed but not used for scoring: C1orf114 |
+
+**关键文献**:
+1. CCDC181 is required for sperm flagellum biogenesis and male fertility in mice.. *Zoological research*. PMID: 39245650
+2. Methylation and transcriptome analysis reveal lung adenocarcinoma-specific diagnostic biomarkers.. *Journal of translational medicine*. PMID: 31558162
+3. Prognostic DNA methylation markers for prostate cancer.. *International journal of molecular sciences*. PMID: 25238417
+4. Histone Methylation Regulates Gene Expression in the Round Spermatids to Set the RNA Payloads of Sperm.. *Reproductive sciences (Thousand Oaks, Calif.)*. PMID: 35015293
+5. Discovery and development of differentially methylated regions in human papillomavirus-related oropharyngeal squamous cell carcinoma.. *International journal of cancer*. PMID: 30070359
+
+**评价**: 极度新颖，几乎未被系统研究（PubMed ≤20篇）。
+
+#### 3.4 三维结构分析
+
+| 指标 | 数值 |
+|------|------|
+| AlphaFold 版本 | v6 |
+| AlphaFold 平均 pLDDT | 67.7 |
+| 高置信度残基 (pLDDT>90) 占比 | 25.9% |
+| 置信残基 (pLDDT 70-90) 占比 | 18.1% |
+| 中等置信 (pLDDT 50-70) 占比 | 27.3% |
+| 低置信 (pLDDT<50) 占比 | 28.7% |
+| 有序区域 (pLDDT>70) 占比 | 44.0% |
+| 可用 PDB 条目 | 无 |
+
+**PAE**: PAE 图像未生成本地文件（standard evaluation），结构判断基于 AlphaFold pLDDT 统计。
+
+**评价**: AlphaFold 预测质量有限（pLDDT=67.7），有序残基占 44.0%。
+
+#### 3.5 结构域分析
+
+| 来源 | 结构域 |
+|------|--------|
+| InterPro/Pfam | InterPro: IPR026687 |
+
+**染色质调控潜力分析**: 存在已知结构域注释，可作为功能研究的结构基础。
+
+#### 3.6 PPI 网络
+
+**STRING 预测互作** (combined score >0.4):
+
+| Partner | Combined Score | Experimental | 功能类别 |
+|---------|---------------|--------------|---------|
+| HAPLN3 | 0.699 | 0.000 | — |
+| HOOK1 | 0.664 | 0.000 | — |
+| AOX1 | 0.625 | 0.000 | — |
+| ZNF660 | 0.609 | 0.044 | — |
+| PPP1R32 | 0.574 | 0.000 | — |
+| IQCF1 | 0.526 | 0.000 | — |
+| MRPL30 | 0.490 | 0.000 | — |
+| ANKRD9 | 0.490 | 0.000 | — |
+| ST6GALNAC3 | 0.485 | 0.000 | — |
+| NME7 | 0.475 | 0.000 | — |
+
+**实验验证互作** (IntAct):
+
+| Partner | 方法 | PMID |
+|---------|------|------|
+| LMNB1 | psi-mi:"MI:0030"(cross-linking study) | pubmed:30021884|imex:IM-26653| |
+| ABCF1 | psi-mi:"MI:0030"(cross-linking study) | pubmed:30021884|imex:IM-26653| |
+| PPP1R7 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:33961781|imex:IM-29278| |
+| FMOD | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:33961781|imex:IM-29278| |
+| ENST00000367805 | psi-mi:"MI:2195"(clash) | pubmed:23622248|imex:IM-30030| |
+
+**PPI 互证分析**:
+- STRING + IntAct 均有数据
+- STRING partners: 15，IntAct interactions: 5
+- 调控相关比例: 0 / 15 = 0%
+
+**评价**: STRING 15 个预测互作，IntAct 5 个实验互作。调控相关配体占比 0%。
+
+#### 3.7 多库互证
+
+| 维度 | 来源 | 结果 | 是否一致 |
+|------|------|------|----------|
+| 三维结构 | AlphaFold pLDDT=67.7 + PDB: 无 | pLDDT=67.7, v6 | 仅预测 |
+| 定位 | UniProt + HPA | Cytoplasm, cytoskeleton; Cell projection, cilium,  / Nuclear speckles, Acrosome, Mid piece; 额外: Princip | 一致 |
+| PPI | STRING + IntAct | 15 + 5 interactions | 数据充分 |
+
+**互证加分明细**:
+- PDB + AlphaFold 双源验证: +0
+- 多库定位一致 (3源): +0.5
+- STRING + IntAct 双源验证: +0.5
+- 结构域 + AlphaFold 质量: +0
+- PDB 多条目覆盖: +0
+**总分**: +1.0 / max +3
+
+### 4. 总体评价
+
+**推荐等级**: ⭐⭐⭐
+
+**核心优势**:
+1. CCDC181 — Coiled-coil domain-containing protein 181，极度新颖，几乎未被系统研究（PubMed ≤20篇）。
+2. 蛋白大小509 aa，大小适中（200-800 aa），适合常规生化实验和结构解析。
+
+**风险/不确定性**:
+1. PubMed 17 篇，研究基础极有限，功能注释不完整
+2. AlphaFold 预测质量一般（pLDDT=67.7），需要更多实验结构验证
+
+**下一步建议**:
+- [ ] 查阅最新关键文献补充研究背景
+- [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
+- [ ] 设计体外实验验证核定位及潜在调控功能
+
+
+### 5. 数据来源
+- UniProt: https://www.uniprot.org/uniprotkb/Q5TID7
+- Protein Atlas: https://www.proteinatlas.org/ENSG00000117477-CCDC181/subcellular
+- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CCDC181
+- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q5TID7
+- STRING: https://string-db.org/network/9606.ENSP00000
+- Data fetched live: 2026-06-03

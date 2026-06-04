@@ -1,0 +1,3015 @@
+{
+  "files_touched": 402,
+  "change_counts": {
+    "recomputed raw/normalized score from score table": 402,
+    "added explicit PAE absence note": 110,
+    "fixed novelty score 10->8 for PubMed=28": 12,
+    "fixed novelty score 10->8 for PubMed=30": 11,
+    "fixed novelty score 10->8 for PubMed=21": 11,
+    "fixed novelty score 10->8 for PubMed=25": 11,
+    "fixed novelty score 10->6 for PubMed=42": 10,
+    "fixed novelty score 10->8 for PubMed=22": 10,
+    "fixed novelty score 10->6 for PubMed=51": 10,
+    "fixed novelty score 10->8 for PubMed=23": 9,
+    "fixed novelty score 10->8 for PubMed=26": 9,
+    "fixed novelty score 10->4 for PubMed=70": 9,
+    "fixed novelty score 10->8 for PubMed=39": 8,
+    "fixed novelty score 10->4 for PubMed=62": 8,
+    "fixed novelty score 10->8 for PubMed=34": 8,
+    "fixed novelty score 10->4 for PubMed=74": 8,
+    "fixed novelty score 10->8 for PubMed=37": 8,
+    "fixed novelty score 10->4 for PubMed=68": 7,
+    "fixed novelty score 10->6 for PubMed=45": 7,
+    "fixed novelty score 10->6 for PubMed=47": 7,
+    "fixed novelty score 10->8 for PubMed=29": 7,
+    "fixed novelty score 10->8 for PubMed=32": 6,
+    "fixed novelty score 10->4 for PubMed=75": 6,
+    "fixed novelty score 10->6 for PubMed=43": 6,
+    "fixed novelty score 10->8 for PubMed=27": 6,
+    "fixed novelty score 10->8 for PubMed=35": 6,
+    "fixed novelty score 10->8 for PubMed=33": 6,
+    "fixed novelty score 10->6 for PubMed=49": 6,
+    "fixed novelty score 10->6 for PubMed=56": 6,
+    "fixed novelty score 10->6 for PubMed=48": 6,
+    "fixed novelty score 10->8 for PubMed=36": 6,
+    "fixed novelty score 10->6 for PubMed=41": 6,
+    "fixed novelty score 10->4 for PubMed=76": 6,
+    "fixed novelty score 10->6 for PubMed=57": 6,
+    "fixed novelty score 10->4 for PubMed=65": 6,
+    "fixed novelty score 10->8 for PubMed=38": 5,
+    "fixed novelty score 10->6 for PubMed=53": 5,
+    "fixed novelty score 10->4 for PubMed=66": 5,
+    "fixed novelty score 10->6 for PubMed=44": 5,
+    "fixed novelty score 10->8 for PubMed=31": 5,
+    "fixed novelty score 10->4 for PubMed=63": 5,
+    "fixed novelty score 10->4 for PubMed=61": 5,
+    "fixed novelty score 10->4 for PubMed=64": 5,
+    "fixed novelty score 10->6 for PubMed=52": 5,
+    "fixed novelty score 10->8 for PubMed=24": 5,
+    "fixed novelty score 10->6 for PubMed=55": 5,
+    "fixed novelty score 10->2 for PubMed=96": 4,
+    "fixed novelty score 10->6 for PubMed=46": 4,
+    "fixed novelty score 10->2 for PubMed=93": 4,
+    "fixed novelty score 10->4 for PubMed=79": 4,
+    "fixed novelty score 10->4 for PubMed=67": 4,
+    "fixed novelty score 10->2 for PubMed=86": 4,
+    "fixed novelty score 10->4 for PubMed=69": 4,
+    "fixed novelty score 10->2 for PubMed=84": 3,
+    "fixed novelty score 10->6 for PubMed=58": 3,
+    "fixed novelty score 10->2 for PubMed=88": 3,
+    "fixed novelty score 10->4 for PubMed=72": 3,
+    "fixed novelty score 10->2 for PubMed=87": 3,
+    "fixed novelty score 10->2 for PubMed=82": 3,
+    "fixed novelty score 10->4 for PubMed=73": 3,
+    "fixed novelty score 10->2 for PubMed=100": 3,
+    "fixed novelty score 10->6 for PubMed=54": 3,
+    "fixed novelty score 10->2 for PubMed=85": 3,
+    "fixed novelty score 10->4 for PubMed=71": 2,
+    "fixed novelty score 10->2 for PubMed=91": 2,
+    "fixed novelty score 10->4 for PubMed=77": 2,
+    "fixed novelty score 10->2 for PubMed=94": 2,
+    "fixed novelty score 10->6 for PubMed=50": 2,
+    "fixed novelty score 6->10 for PubMed=6": 2,
+    "fixed novelty score 10->2 for PubMed=98": 2,
+    "fixed novelty score 10->2 for PubMed=97": 2,
+    "fixed novelty score 10->2 for PubMed=99": 2,
+    "fixed novelty score 10->4 for PubMed=78": 2,
+    "fixed novelty score 10->2 for PubMed=83": 2,
+    "fixed novelty score 10->2 for PubMed=95": 2,
+    "fixed novelty score 10->2 for PubMed=89": 2,
+    "fixed novelty score 10->6 for PubMed=59": 2,
+    "fixed novelty score 10->2 for PubMed=81": 1,
+    "fixed novelty score 10->4 for PubMed=80": 1,
+    "fixed novelty score 10->2 for PubMed=92": 1,
+    "fixed novelty score 4->10 for PubMed=4": 1,
+    "fixed novelty score 8->10 for PubMed=14": 1,
+    "fixed novelty score 10->2 for PubMed=90": 1,
+    "fixed novelty score 10->6 for PubMed=60": 1
+  },
+  "files": [
+    {
+      "path": "detail/chromatin/ARID3A/ARID3A-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->2 for PubMed=96",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/chromatin/CREB3L4/CREB3L4-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=38",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/chromatin/LRWD1/LRWD1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=32",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/chromatin/MACROH2A2/MACROH2A2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=23",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/chromatin/NCBP2/NCBP2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=75",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/chromatin/NFX1/NFX1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=68",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/chromatin/NMD3/NMD3-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=26",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/chromatin/PAXIP1/PAXIP1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=53",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/chromatin/PAXX/PAXX-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=66",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/chromatin/PIDD1/PIDD1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=44",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/chromatin/PLRG1/PLRG1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=28",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/chromatin/PMF1/PMF1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=43",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/chromatin/PRRC2A/PRRC2A-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=45",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/chromatin/PTBP3/PTBP3-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=71",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/chromatin/PURB/PURB-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=75",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/chromatin/PUS1/PUS1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->2 for PubMed=91",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/chromatin/QRICH1/QRICH1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=39",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/chromatin/REC114/REC114-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=27",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/chromatin/SEM1/SEM1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=47",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/chromatin/SEPHS1/SEPHS1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=39",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/chromatin/SGF29/SGF29-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=26",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/chromatin/SGTA/SGTA-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->2 for PubMed=81",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/chromatin/SHLD1/SHLD1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=35",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/chromatin/SLFN5/SLFN5-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=46",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/chromatin/SLTM/SLTM-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=30",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/chromatin/SPC24/SPC24-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=45",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/chromatin/SPC25/SPC25-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->2 for PubMed=84",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/chromatin/SSBP2/SSBP2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=53",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/chromatin/SUPT16H/SUPT16H-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=33",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/chromatin/SYCE1/SYCE1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=66",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/chromatin/SYCE2/SYCE2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=21",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/chromatin/TADA2A/TADA2A-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=31",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/chromatin/TELO2/TELO2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=62",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/chromatin/TEX15/TEX15-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=34",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/chromatin/TOX4/TOX4-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=27",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/chromatin/UVSSA/UVSSA-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=49",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/chromatin/WDR77/WDR77-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=75",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/chromatin/ZHX1/ZHX1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=43",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-body/EAF1/EAF1-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->6 for PubMed=49",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-body/KBTBD4/KBTBD4-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=27",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-body/MESD/MESD-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=56",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-body/NAA15/NAA15-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=63",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-body/NUTM2B/NUTM2B-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->6 for PubMed=48",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-body/PLXDC2/PLXDC2-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->6 for PubMed=44",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-body/SP140/SP140-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=58",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-body/THAP11/THAP11-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=63",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-body/TSC22D1/TSC22D1-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=39",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-body/WDFY3/WDFY3-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->4 for PubMed=77",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-body/WRAP53/WRAP53-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->2 for PubMed=94",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-envelope/AMPD3/AMPD3-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->2 for PubMed=88",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-envelope/ANKRD17/ANKRD17-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=28",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-envelope/CERS5/CERS5-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->4 for PubMed=61",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-envelope/CHMP7/CHMP7-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=36",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-envelope/EOGT/EOGT-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->6 for PubMed=42",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-envelope/LEMD2/LEMD2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=46",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-envelope/LEMD3/LEMD3-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->2 for PubMed=93",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-envelope/NANOGP8/NANOGP8-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=42",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-envelope/NDC1/NDC1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=41",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-envelope/OTUD5/OTUD5-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=79",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-envelope/PHC1/PHC1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=67",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-envelope/SAMSN1/SAMSN1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=41",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-envelope/SUPT6H/SUPT6H-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=22",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-envelope/SURF4/SURF4-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->4 for PubMed=62",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-envelope/TNFAIP2/TNFAIP2-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->2 for PubMed=88",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-envelope/YAF2/YAF2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=35",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-speckle/DENND1B/DENND1B-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=30",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-speckle/EPC2/EPC2-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->4 for PubMed=76",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-speckle/EPG5/EPG5-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->4 for PubMed=72",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-speckle/EXO5/EXO5-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=29",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-speckle/FANCG/FANCG-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->6 for PubMed=46",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-speckle/MYADM/MYADM-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=41",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-speckle/NUFIP1/NUFIP1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=74",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-speckle/PCP2/PCP2-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->6 for PubMed=57",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-speckle/SGO2/SGO2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=38",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-speckle/SMAD9/SMAD9-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->2 for PubMed=86",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-speckle/SPOCD1/SPOCD1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=28",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-speckle/TESC/TESC-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=64",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-speckle/VGLL3/VGLL3-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->2 for PubMed=93",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-speckle/WDR82/WDR82-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=42",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nuclear-speckle/XYLB/XYLB-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=21",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/AKNA/AKNA-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=51",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/AKTIP/AKTIP-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=22",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/BPGM/BPGM-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=63",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/C12orf43/C12orf43-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=37",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/CABLES2/CABLES2-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=22",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/CRELD1/CRELD1-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->6 for PubMed=51",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/CRIP2/CRIP2-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=37",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/ETV3/ETV3-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=26",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/FAU/FAU-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->6 for PubMed=51",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/FOXI1/FOXI1-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->2 for PubMed=87",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/IQGAP3/IQGAP3-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->4 for PubMed=75",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/LYAR/LYAR-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=70",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/MYEOV/MYEOV-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=49",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/N4BP1/N4BP1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=52",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/NFKBIE/NFKBIE-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->4 for PubMed=65",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/NIFK/NIFK-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=30",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/NKRF/NKRF-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=80",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/NOSIP/NOSIP-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=31",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/NPM2/NPM2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=44",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/NPM3/NPM3-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=51",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/NSUN5/NSUN5-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=57",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/OLA1/OLA1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=56",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/PANK1/PANK1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=64",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/PCTP/PCTP-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->2 for PubMed=91",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/PHC2/PHC2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=36",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/PIN4/PIN4-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->2 for PubMed=86",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/PPDPF/PPDPF-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=25",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/PPID/PPID-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->2 for PubMed=92",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/PWP2/PWP2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=22",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/RABGEF1/RABGEF1-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->4 for PubMed=70",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/RCL1/RCL1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=28",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/RDM1/RDM1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=23",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/RIN2/RIN2-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->6 for PubMed=56",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/SDAD1/SDAD1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=37",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/SNAPIN/SNAPIN-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->4 for PubMed=69",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/SRP68/SRP68-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=31",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/SSBP3/SSBP3-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=29",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/STAMBP/STAMBP-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->2 for PubMed=82",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/SUPT3H/SUPT3H-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=25",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/TCF15/TCF15-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=63",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/TDRD3/TDRD3-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=39",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/TENT4B/TENT4B-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=52",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/TEX10/TEX10-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=42",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/TGS1/TGS1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=63",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/THUMPD3/THUMPD3-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=23",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/TIAM2/TIAM2-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=31",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/TIFA/TIFA-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->2 for PubMed=84",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/TNIP2/TNIP2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=50",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/TOE1/TOE1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=70",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/TONSL/TONSL-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=52",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/TRMT10A/TRMT10A-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=23",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/TSEN54/TSEN54-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=47",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/TSPAN6/TSPAN6-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=25",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/TXNL4B/TXNL4B-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=24",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/WDR3/WDR3-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=32",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleolus/YWHAH/YWHAH-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->6 for PubMed=56",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/ACOT12/ACOT12-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=66",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/ADARB2/ADARB2-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->4 for PubMed=76",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/ADAT2/ADAT2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=43",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/ADIRF/ADIRF-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=36",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/ALKBH8/ALKBH8-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=32",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/ALPK3/ALPK3-evaluation.md",
+      "changes": [
+        "fixed novelty score 6->10 for PubMed=6",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/ANP32E/ANP32E-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->4 for PubMed=68",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/AP3B2/AP3B2-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=37",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/API5/API5-evaluation.md",
+      "changes": [
+        "fixed novelty score 4->10 for PubMed=4",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/ARFGEF1/ARFGEF1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=24",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/ARID3B/ARID3B-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=38",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/ATF7IP2/ATF7IP2-evaluation.md",
+      "changes": [
+        "fixed novelty score 8->10 for PubMed=14",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/CADM4/CADM4-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->6 for PubMed=57",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/CAPZB/CAPZB-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->4 for PubMed=65",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/CBFA2T2/CBFA2T2-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=39",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/CCDC92/CCDC92-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=23",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/CDC123/CDC123-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->6 for PubMed=48",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/CEBPZ/CEBPZ-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=30",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/CEP152/CEP152-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->4 for PubMed=69",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/CHML/CHML-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=34",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/COG5/COG5-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=39",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/CPNE4/CPNE4-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=22",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/CRIPT/CRIPT-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=31",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/CSRNP1/CSRNP1-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=37",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/CSTF3/CSTF3-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=34",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/CWC27/CWC27-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=26",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/DDIT4L/DDIT4L-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=39",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/DIP2C/DIP2C-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->6 for PubMed=42",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/DOCK10/DOCK10-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=38",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/E4F1/E4F1-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->4 for PubMed=62",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/EGLN2/EGLN2-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->2 for PubMed=98",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/ELK4/ELK4-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->2 for PubMed=97",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/ELP2/ELP2-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->2 for PubMed=82",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/EPB41L4A/EPB41L4A-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->6 for PubMed=52",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/ESPL1/ESPL1-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->4 for PubMed=74",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/EVX1/EVX1-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->4 for PubMed=74",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/EVX2/EVX2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=35",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/FANCM/FANCM-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=23",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/FBXL3/FBXL3-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=48",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/FBXO2/FBXO2-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->4 for PubMed=62",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/FBXO4/FBXO4-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=21",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/FBXW11/FBXW11-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->6 for PubMed=48",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/FIGNL1/FIGNL1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=26",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/FOXS1/FOXS1-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=25",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/FRK/FRK-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=37",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/GALNT7/GALNT7-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=50",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/GGPS1/GGPS1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=79",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/GSK3A/GSK3A-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->2 for PubMed=99",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/GTSE1/GTSE1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=72",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/HASPIN/HASPIN-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=48",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/HAT1/HAT1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=62",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/HELT/HELT-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=22",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/HEMGN/HEMGN-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=28",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/HES7/HES7-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=65",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/HEYL/HEYL-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=78",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/HIF3A/HIF3A-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=73",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/HIPK1/HIPK1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=65",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/HLX/HLX-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=78",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/HMBOX1/HMBOX1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=49",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/HMCES/HMCES-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=21",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/HMG20A/HMG20A-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=39",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/HMG20B/HMG20B-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=27",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/HMGN5/HMGN5-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->6 for PubMed=51",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/HMX1/HMX1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=35",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/HMX2/HMX2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=21",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/HNF4G/HNF4G-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=53",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/HORMAD1/HORMAD1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=45",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/HS6ST1/HS6ST1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=57",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/HSF4/HSF4-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=64",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/HUNK/HUNK-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=29",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/HYPK/HYPK-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=32",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/IARS1/IARS1-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=22",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/IFT140/IFT140-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->4 for PubMed=75",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/ITPKB/ITPKB-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->4 for PubMed=69",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/KCTD1/KCTD1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=49",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/KCTD13/KCTD13-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=37",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/LBX2/LBX2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=73",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/LCOR/LCOR-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->2 for PubMed=83",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/LDOC1/LDOC1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=58",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/LEUTX/LEUTX-evaluation.md",
+      "changes": [
+        "fixed novelty score 6->10 for PubMed=6",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/LHX5/LHX5-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=68",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/LRR1/LRR1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=70",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/LRRC10/LRRC10-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=23",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/LSM8/LSM8-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=29",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/MAB21L1/MAB21L1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=30",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/MAEL/MAEL-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=47",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/MAF1/MAF1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->2 for PubMed=84",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/MAMLD1/MAMLD1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=74",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/MCIDAS/MCIDAS-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=28",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/MCRS1/MCRS1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=30",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/MEAF6/MEAF6-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=28",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/MEOX1/MEOX1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=69",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/METTL5/METTL5-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=51",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/MNAT1/MNAT1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=32",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/MRTFB/MRTFB-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=65",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/MTCP1/MTCP1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=67",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/MTREX/MTREX-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=21",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/MYCT1/MYCT1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=34",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/MYEF2/MYEF2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->2 for PubMed=96",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/NAB1/NAB1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=62",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/NAGK/NAGK-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->6 for PubMed=57",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/NAPRT/NAPRT-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->4 for PubMed=79",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/NCOA5/NCOA5-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=42",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/NELFA/NELFA-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=49",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/NFKBID/NFKBID-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=76",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/NFRKB/NFRKB-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=23",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/NHLH2/NHLH2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=61",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/NINL/NINL-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=34",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/NKAP/NKAP-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=70",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/NKTR/NKTR-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->2 for PubMed=100",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/NPAS1/NPAS1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=42",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/NPAS3/NPAS3-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=76",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/NPDC1/NPDC1-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=36",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/NRSN2/NRSN2-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=22",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/NUB1/NUB1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=76",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/NUTF2/NUTF2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->2 for PubMed=93",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/ODAM/ODAM-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->4 for PubMed=66",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/OLIG3/OLIG3-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=47",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/OPHN1/OPHN1-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->2 for PubMed=97",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/OSGIN1/OSGIN1-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->4 for PubMed=64",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/P3H2/P3H2-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->6 for PubMed=56",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/PCP4/PCP4-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=70",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/PCYT2/PCYT2-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->6 for PubMed=48",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/PDLIM5/PDLIM5-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->4 for PubMed=68",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/PEF1/PEF1-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=26",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/PHC3/PHC3-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=25",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/PHF20L1/PHF20L1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=25",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/PKNOX2/PKNOX2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=55",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/PLD3/PLD3-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->4 for PubMed=77",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/PLEKHA7/PLEKHA7-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->4 for PubMed=75",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/PNPO/PNPO-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->2 for PubMed=98",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/POU6F1/POU6F1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=61",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/PPIL1/PPIL1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=28",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/PPM1F/PPM1F-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=64",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/PRIM2/PRIM2-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=33",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/PRR16/PRR16-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->6 for PubMed=47",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/PUS7/PUS7-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=58",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/PYGO2/PYGO2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->2 for PubMed=94",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/RASGEF1B/RASGEF1B-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=24",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/RCAN2/RCAN2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=55",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/RCAN3/RCAN3-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=41",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/RDH8/RDH8-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->6 for PubMed=41",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/RHOBTB1/RHOBTB1-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=26",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/ROM1/ROM1-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->4 for PubMed=76",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/SCMH1/SCMH1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=35",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/SCOC/SCOC-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=26",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/SHPRH/SHPRH-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=53",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/SMYD5/SMYD5-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=35",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/SNCAIP/SNCAIP-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->6 for PubMed=45",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/SNRK/SNRK-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=44",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/SNURF/SNURF-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->2 for PubMed=87",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/SOX12/SOX12-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->2 for PubMed=100",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/SOX14/SOX14-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=54",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/SOX15/SOX15-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=74",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/SUPT5H/SUPT5H-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=28",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/SYN2/SYN2-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->2 for PubMed=99",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/SYNPR/SYNPR-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=27",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/SYVN1/SYVN1-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->4 for PubMed=74",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/TBL1X/TBL1X-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=72",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/TEAD3/TEAD3-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=70",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/TENT2/TENT2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=28",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/TFAP2E/TFAP2E-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=43",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/THRAP3/THRAP3-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=66",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/TLE2/TLE2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=43",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/TLX2/TLX2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=68",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/TNNC1/TNNC1-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->2 for PubMed=86",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/TNRC6A/TNRC6A-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->4 for PubMed=65",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/TNRC6C/TNRC6C-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=30",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/TOX2/TOX2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=54",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/TSR2/TSR2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=42",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/UCK2/UCK2-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->4 for PubMed=79",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/UPP1/UPP1-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->2 for PubMed=93",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/USB1/USB1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=53",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/VAX1/VAX1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->2 for PubMed=90",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/VENTX/VENTX-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=28",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/VGLL2/VGLL2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=52",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/VTA1/VTA1-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=21",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/WBP4/WBP4-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=25",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/WDFY4/WDFY4-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->6 for PubMed=42",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/WDR76/WDR76-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=34",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/YEATS2/YEATS2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=54",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleoplasm/YEATS4/YEATS4-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=45",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/ANKLE1/ANKLE1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=37",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/COMMD10/COMMD10-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=21",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/COMMD3/COMMD3-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=29",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/CYREN/CYREN-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=36",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/KCTD5/KCTD5-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=45",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/KPNA4/KPNA4-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->2 for PubMed=86",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/KTI12/KTI12-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=25",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/LACC1/LACC1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->2 for PubMed=85",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/NAA50/NAA50-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=26",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/NACC1/NACC1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=70",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/NCOA7/NCOA7-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=47",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/NEUROD4/NEUROD4-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=51",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/NFE2L3/NFE2L3-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->2 for PubMed=95",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/NFKBIB/NFKBIB-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=61",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/NPHP4/NPHP4-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->2 for PubMed=87",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/NPLOC4/NPLOC4-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=62",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/NUDC/NUDC-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->2 for PubMed=100",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/NUFIP2/NUFIP2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=24",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/OGFOD1/OGFOD1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=27",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/OSGEP/OSGEP-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->2 for PubMed=89",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/OTUD3/OTUD3-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=74",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/OTUD4/OTUD4-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->2 for PubMed=82",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/PADI6/PADI6-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=74",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/PAN2/PAN2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->2 for PubMed=85",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/PAN3/PAN3-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=60",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/PBX4/PBX4-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=28",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/PCBP3/PCBP3-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=21",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/PDS5B/PDS5B-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=55",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/PFN3/PFN3-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=25",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/PLCB3/PLCB3-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=70",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/PLD4/PLD4-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=51",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/POU5F1B/POU5F1B-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=33",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/PPM1G/PPM1G-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=62",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/PREPL/PREPL-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=71",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/PUS10/PUS10-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=21",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/PUS3/PUS3-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=33",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/PYGO1/PYGO1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=25",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/RARS1/RARS1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=25",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/RBP7/RBP7-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=33",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/REXO2/REXO2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=24",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/RTCB/RTCB-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=57",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/SAFB2/SAFB2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=32",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/SAPCD2/SAPCD2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=38",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/SDE2/SDE2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=21",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/SESN3/SESN3-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->2 for PubMed=96",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/SFMBT1/SFMBT1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=42",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/SFMBT2/SFMBT2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->2 for PubMed=83",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/SIPA1L2/SIPA1L2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=23",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/SKOR2/SKOR2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=22",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/SNIP1/SNIP1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=68",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/SNUPN/SNUPN-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=45",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/SNW1/SNW1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=46",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/SOHLH1/SOHLH1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->2 for PubMed=88",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/SOX30/SOX30-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=55",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/SPECC1/SPECC1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=30",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/SUGT1/SUGT1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=29",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/SYMPK/SYMPK-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=67",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/TACC1/TACC1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->2 for PubMed=95",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/TASL/TASL-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=67",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/TCERG1/TCERG1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=59",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/TCF19/TCF19-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=73",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/TCF20/TCF20-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=47",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/TCFL5/TCFL5-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=30",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/TENT4A/TENT4A-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=33",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/TENT5C/TENT5C-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->2 for PubMed=85",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/TFDP2/TFDP2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=30",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/TFIP11/TFIP11-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=51",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/TFPT/TFPT-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=61",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/THEMIS2/THEMIS2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=51",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/TICRR/TICRR-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->4 for PubMed=68",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/TIPIN/TIPIN-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->2 for PubMed=96",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/TLE6/TLE6-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=59",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/TMF1/TMF1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=30",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/TRA2A/TRA2A-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=34",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/TRMT112/TRMT112-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=29",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/TSC22D4/TSC22D4-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=36",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/TSPYL2/TSPYL2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=55",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/TTI2/TTI2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->8 for PubMed=22",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/UNC45A/UNC45A-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=44",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/UNCX/UNCX-evaluation.md",
+      "changes": [
+        "added explicit PAE absence note",
+        "fixed novelty score 10->8 for PubMed=34",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/VAX2/VAX2-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=43",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/VGLL1/VGLL1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=41",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/WDR26/WDR26-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->6 for PubMed=56",
+        "recomputed raw/normalized score from score table"
+      ]
+    },
+    {
+      "path": "detail/nucleus-cytoplasm/YOD1/YOD1-evaluation.md",
+      "changes": [
+        "fixed novelty score 10->2 for PubMed=89",
+        "recomputed raw/normalized score from score table"
+      ]
+    }
+  ]
+}

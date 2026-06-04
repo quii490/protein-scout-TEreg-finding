@@ -1,0 +1,324 @@
+{
+  "KANSL1": {
+    "acc": "A0A0G2JQF5",
+    "name": "KAT8 regulatory NSL complex subunit 1",
+    "length": 1041,
+    "loc": "NO_LOCATION_DATA",
+    "gene_names": "KANSL1"
+  },
+  "KANSL2": {
+    "acc": "H0YHH4",
+    "name": "KAT8 regulatory NSL complex subunit 2",
+    "length": 25,
+    "loc": "NO_LOCATION_DATA",
+    "gene_names": "KANSL2"
+  },
+  "KANSL3": {
+    "acc": "C9J491",
+    "name": "KAT8 regulatory NSL complex subunit 3",
+    "length": 76,
+    "loc": "NO_LOCATION_DATA",
+    "gene_names": "KANSL3"
+  },
+  "KATNAL2": {
+    "acc": "A0A8I5KR23",
+    "name": "Katanin catalytic subunit A1 like 2",
+    "length": 50,
+    "loc": "NO_LOCATION_DATA",
+    "gene_names": "KATNAL2"
+  },
+  "KBTBD4": {
+    "acc": "E9PQ38",
+    "name": "Kelch repeat and BTB domain containing 4",
+    "length": 286,
+    "loc": "NO_LOCATION_DATA",
+    "gene_names": "KBTBD4"
+  },
+  "KCTD1": {
+    "acc": "J3KSG1",
+    "name": "Potassium channel tetramerization domain containing 1",
+    "length": 208,
+    "loc": "NO_LOCATION_DATA",
+    "gene_names": "KCTD1"
+  },
+  "KCTD13": {
+    "acc": "I3L3K4",
+    "name": "Potassium channel tetramerization domain containing 13",
+    "length": 81,
+    "loc": "NO_LOCATION_DATA",
+    "gene_names": "KCTD13"
+  },
+  "KCTD15": {
+    "acc": "K7EQS3",
+    "name": "Potassium channel tetramerization domain containing 15",
+    "length": 82,
+    "loc": "NO_LOCATION_DATA",
+    "gene_names": "KCTD15"
+  },
+  "KCTD5": {
+    "acc": "Q9NXV2",
+    "name": "BTB/POZ domain-containing protein KCTD5",
+    "length": 234,
+    "loc": "Cytoplasm, cytosol; Cytoplasm; Nucleus",
+    "gene_names": "KCTD5"
+  },
+  "KHNYN": {
+    "acc": "G3V3G3",
+    "name": "KH and NYN domain containing",
+    "length": 123,
+    "loc": "NO_LOCATION_DATA",
+    "gene_names": "KHNYN"
+  },
+  "KLF3": {
+    "acc": "P57682",
+    "name": "Krueppel-like factor 3",
+    "length": 345,
+    "loc": "Nucleus",
+    "gene_names": "KLF3"
+  },
+  "KLHDC3": {
+    "acc": "Q8IVW5",
+    "name": "KLHDC3 protein",
+    "length": 248,
+    "loc": "NO_LOCATION_DATA",
+    "gene_names": "KLHDC3"
+  },
+  "KLHDC4": {
+    "acc": "H3BQ90",
+    "name": "Kelch domain containing 4",
+    "length": 105,
+    "loc": "NO_LOCATION_DATA",
+    "gene_names": "KLHDC4"
+  },
+  "KLHDC8A": {
+    "acc": "U3KQH1",
+    "name": "Kelch domain containing 8A",
+    "length": 216,
+    "loc": "NO_LOCATION_DATA",
+    "gene_names": "KLHDC8A"
+  },
+  "KPNA4": {
+    "acc": "Q96IJ5",
+    "name": "KPNA4 protein",
+    "length": 32,
+    "loc": "NO_LOCATION_DATA",
+    "gene_names": "KPNA4"
+  },
+  "KPNB1": {
+    "acc": "J3KTM9",
+    "name": "Importin subunit beta-1",
+    "length": 690,
+    "loc": "Cytoplasm; Nucleus",
+    "gene_names": "KPNB1"
+  },
+  "KPTN": {
+    "acc": "M0QXX4",
+    "name": "Kaptin, actin binding protein",
+    "length": 263,
+    "loc": "NO_LOCATION_DATA",
+    "gene_names": "KPTN"
+  },
+  "KTI12": {
+    "acc": "Q96EK9",
+    "name": "Protein KTI12 homolog",
+    "length": 354,
+    "loc": "NO_LOCATION_DATA",
+    "gene_names": "KTI12"
+  },
+  "LACC1": {
+    "acc": "A2A3Z5",
+    "name": "Laccase domain containing 1",
+    "length": 164,
+    "loc": "NO_LOCATION_DATA",
+    "gene_names": "LACC1"
+  },
+  "LAMTOR2": {
+    "acc": "Q9Y2Q5",
+    "name": "Ragulator complex protein LAMTOR2",
+    "length": 125,
+    "loc": "Late endosome membrane; Lysosome membrane",
+    "gene_names": "LAMTOR2"
+  },
+  "LBX1": {
+    "acc": "P52954",
+    "name": "Transcription factor LBX1",
+    "length": 281,
+    "loc": "Nucleus",
+    "gene_names": "LBX1"
+  },
+  "LBX2": {
+    "acc": "Q6XYB7",
+    "name": "Transcription factor LBX2",
+    "length": 198,
+    "loc": "Nucleus",
+    "gene_names": "LBX2"
+  },
+  "LCOR": {
+    "acc": "A0A6Q8PFV7",
+    "name": "Ligand dependent nuclear receptor corepressor",
+    "length": 45,
+    "loc": "NO_LOCATION_DATA",
+    "gene_names": "LCOR"
+  },
+  "LCORL": {
+    "acc": "A0A6Q8PFT7",
+    "name": "Ligand dependent nuclear receptor corepressor like",
+    "length": 433,
+    "loc": "NO_LOCATION_DATA",
+    "gene_names": "LCORL"
+  },
+  "LDOC1": {
+    "acc": "E5L8F5",
+    "name": "Leucine zipper downregulated in cancer variant",
+    "length": 44,
+    "loc": "NO_LOCATION_DATA",
+    "gene_names": "LDOC1"
+  },
+  "LEMD2": {
+    "acc": "A0A220T1R7",
+    "name": "LEM domain-containing protein 2",
+    "length": 358,
+    "loc": "Cytoplasm, cytoskeleton, spindle; Nucleus inner membrane",
+    "gene_names": "LEMD2"
+  },
+  "LEMD3": {
+    "acc": "Q9Y2U8",
+    "name": "Inner nuclear membrane protein Man1",
+    "length": 911,
+    "loc": "Nucleus inner membrane",
+    "gene_names": "LEMD3"
+  },
+  "LENG8": {
+    "acc": "A0A0G2JNN3",
+    "name": "Leukocyte receptor cluster member 8",
+    "length": 726,
+    "loc": "NO_LOCATION_DATA",
+    "gene_names": "LENG8"
+  },
+  "LETMD1": {
+    "acc": "Q6P1Q0",
+    "name": "LETM1 domain-containing protein 1",
+    "length": 360,
+    "loc": "Mitochondrion outer membrane; Nucleus; Mitochondrion inner membrane",
+    "gene_names": "LETMD1"
+  },
+  "LEUTX": {
+    "acc": "A8MZ59",
+    "name": "Paired-like homeodomain transcription factor LEUTX",
+    "length": 198,
+    "loc": "Nucleus",
+    "gene_names": "LEUTX"
+  },
+  "LHX5": {
+    "acc": "Q9H2C1",
+    "name": "LIM/homeobox protein Lhx5",
+    "length": 402,
+    "loc": "Nucleus",
+    "gene_names": "LHX5"
+  },
+  "LHX9": {
+    "acc": "H0YL54",
+    "name": "LIM/homeobox protein Lhx9",
+    "length": 336,
+    "loc": "Nucleus",
+    "gene_names": "LHX9"
+  },
+  "LIG1": {
+    "acc": "M0R0Q7",
+    "name": "DNA ligase",
+    "length": 800,
+    "loc": "NO_LOCATION_DATA",
+    "gene_names": "LIG1"
+  },
+  "LIG3": {
+    "acc": "P49916",
+    "name": "DNA ligase 3",
+    "length": 1009,
+    "loc": "Mitochondrion; Mitochondrion; Nucleus; Nucleus",
+    "gene_names": "LIG3"
+  },
+  "LLPH": {
+    "acc": "Q9BRT6",
+    "name": "Protein LLP homolog",
+    "length": 129,
+    "loc": "Nucleus, nucleolus; Chromosome",
+    "gene_names": "LLPH"
+  },
+  "LNPK": {
+    "acc": "C9JL94",
+    "name": "Lunapark, ER junction formation factor",
+    "length": 114,
+    "loc": "NO_LOCATION_DATA",
+    "gene_names": "LNPK"
+  },
+  "LRR1": {
+    "acc": "Q96L50",
+    "name": "Leucine-rich repeat protein 1",
+    "length": 414,
+    "loc": "Nucleus",
+    "gene_names": "LRR1"
+  },
+  "LRRC10": {
+    "acc": "Q5BKY1",
+    "name": "Leucine-rich repeat-containing protein 10",
+    "length": 277,
+    "loc": "Nucleus",
+    "gene_names": "LRRC10"
+  },
+  "LRRC31": {
+    "acc": "Q6UY01",
+    "name": "Leucine-rich repeat-containing protein 31",
+    "length": 552,
+    "loc": "NO_LOCATION_DATA",
+    "gene_names": "LRRC31"
+  },
+  "LRRC7": {
+    "acc": "V9GYE1",
+    "name": "Leucine rich repeat containing 7",
+    "length": 36,
+    "loc": "NO_LOCATION_DATA",
+    "gene_names": "LRRC7"
+  },
+  "LRWD1": {
+    "acc": "H7C5N7",
+    "name": "Leucine rich repeats and WD repeat domain containing 1",
+    "length": 242,
+    "loc": "NO_LOCATION_DATA",
+    "gene_names": "LRWD1"
+  },
+  "LSM8": {
+    "acc": "F2Z2Y6",
+    "name": "U6 snRNA-associated Sm-like protein LSm8",
+    "length": 67,
+    "loc": "Nucleus",
+    "gene_names": "LSM8"
+  },
+  "LTV1": {
+    "acc": "Q96GA3",
+    "name": "Protein LTV1 homolog",
+    "length": 475,
+    "loc": "Cytoplasm",
+    "gene_names": "LTV1"
+  },
+  "LXN": {
+    "acc": "H7C5A4",
+    "name": "Latexin",
+    "length": 157,
+    "loc": "NO_LOCATION_DATA",
+    "gene_names": "LXN"
+  },
+  "LYAR": {
+    "acc": "D6RDJ1",
+    "name": "Ly1 antibody reactive",
+    "length": 79,
+    "loc": "Cytoplasm; Nucleus",
+    "gene_names": "LYAR"
+  },
+  "LYL1": {
+    "acc": "K7ER61",
+    "name": "LYL1 basic helix-loop-helix family member",
+    "length": 57,
+    "loc": "NO_LOCATION_DATA",
+    "gene_names": "LYL1"
+  }
+}

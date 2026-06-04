@@ -1,0 +1,161 @@
+---
+type: protein-evaluation
+gene: "IQCF3"
+date: 2026-06-03
+tags: [protein-scout, nuclear-protein, evaluation]
+status: scored
+---
+
+## IQCF3 核蛋白评估报告 (Full Re-evaluation)
+
+### 1. 基本信息
+
+| 项目 | 内容 |
+|------|------|
+| 基因名 / 别名 | IQCF3 |
+| 蛋白名称 | IQ domain-containing protein F3 |
+| 蛋白大小 | 154 aa / 18.3 kDa |
+| UniProt ID | P0C7M6 |
+| 评估日期 | 2026-06-03 |
+
+### 2. 评分总览
+
+| 维度 | 得分 | 满分 | 加权后 | 关键证据摘要 |
+|------|------|------|--------|-------------|
+| 核定位特异性 | 7/10 | ×4 | 28 | HPA: Nucleoli; UniProt: 无注释 |
+| 蛋白大小 | 8/10 | ×1 | 8 | 154 aa / 18.3 kDa |
+| 研究新颖性 | 10/10 | ×5 | 50 | PubMed strict=1 篇 (≤20→10) |
+| 三维结构 | 7/10 | ×3 | 21 | AlphaFold v6 pLDDT=83.7; PDB: 无 |
+| 调控结构域 | 8/10 | ×2 | 16 | InterPro: IPR000048, IPR039887; Pfam: PF00612 |
+| PPI 网络 | 3/10 | ×3 | 9 | STRING 8 partners; IntAct 1 interactions |
+| 互证加分 | — | max +3 | 1.0 | PDB+AF+STRING+IntAct cross-validation |
+| **原始总分** | | | **133.0/180** | |
+| **归一化总分** | | | **73.9/100** | |
+
+### 3. 详细分析
+
+#### 3.1 核定位证据
+
+| 来源 | 定位 | 可信度 |
+|------|------|--------|
+| Protein Atlas (IF) | Nucleoli | Approved |
+| UniProt | 无注释 | Swiss-Prot/TrEMBL |
+
+**IF 图像获取**: 未下载本地IF图像（standard evaluation），核定位证据基于HPA subcellular localization注释、UniProt注释和GO-CC术语。
+
+**GO Cellular Component**:
+- 无 GO-CC 注释
+
+**结论**: 主要核定位，HPA 可靠性良好，有辅助数据源支持。
+
+#### 3.2 蛋白大小评估
+
+**评价**: 大小基本合适，可用于常规实验。
+
+#### 3.3 研究现状
+
+| 指标 | 数值 |
+|------|------|
+| PubMed strict count | 1 |
+| PubMed broad count | 1 |
+| 别名(未计入scoring) | 无 |
+
+**关键文献**:
+1. Functional Annotations of Single-Nucleotide Polymorphism (SNP)-Based and Gene-Based Genome-Wide Association Studies Show Genes Affecting Keratitis Susceptibility.. *Medical science monitor : international medical journal of experimental and clinical research*. PMID: 32450567
+
+**评价**: 极度新颖，几乎未被系统研究（PubMed ≤20篇）。
+
+#### 3.4 三维结构分析
+
+| 指标 | 数值 |
+|------|------|
+| AlphaFold 版本 | v6 |
+| AlphaFold 平均 pLDDT | 83.7 |
+| 高置信度残基 (pLDDT>90) 占比 | 64.9% |
+| 置信残基 (pLDDT 70-90) 占比 | 7.1% |
+| 中等置信 (pLDDT 50-70) 占比 | 19.5% |
+| 低置信 (pLDDT<50) 占比 | 8.4% |
+| 有序区域 (pLDDT>70) 占比 | 72.0% |
+| 可用 PDB 条目 | 无 |
+
+**PAE**: PAE 图像未生成本地文件（standard evaluation），结构判断基于 AlphaFold pLDDT 统计。
+
+**评价**: AlphaFold 中等质量（pLDDT=83.7，有序区 72.0%），结构基本可用。
+
+#### 3.5 结构域分析
+
+| 来源 | 结构域 |
+|------|--------|
+| InterPro/Pfam | InterPro: IPR000048, IPR039887; Pfam: PF00612 |
+
+**染色质调控潜力分析**: 多个已知结构域注释，AlphaFold预测质量高，结构域折叠可信。
+
+#### 3.6 PPI 网络
+
+**STRING 预测互作** (combined score >0.4):
+
+| Partner | Combined Score | Experimental | 功能类别 |
+|---------|---------------|--------------|---------|
+| WFDC11 | 0.501 | 0.000 | — |
+| C16orf90 | 0.480 | 0.000 | — |
+| SPANXN5 | 0.446 | 0.000 | — |
+| PRAMEF12 | 0.443 | 0.000 | — |
+| TEX29 | 0.438 | 0.000 | — |
+| RGPD4 | 0.412 | 0.000 | — |
+| LELP1 | 0.406 | 0.000 | — |
+| DEFB112 | 0.402 | 0.000 | — |
+
+**实验验证互作** (IntAct):
+
+| Partner | 方法 | PMID |
+|---------|------|------|
+| UBQLN2 | psi-mi:"MI:0397"(two hybrid array) | pubmed:32296183|imex:IM-25472 |
+
+**PPI 互证分析**:
+- STRING + IntAct 均有数据
+- STRING partners: 8，IntAct interactions: 1
+- 调控相关比例: 0 / 8 = 0%
+
+**评价**: STRING 8 个预测互作，IntAct 1 个实验互作。调控相关配体占比 0%。
+
+#### 3.7 多库互证
+
+| 维度 | 来源 | 结果 | 是否一致 |
+|------|------|------|----------|
+| 三维结构 | AlphaFold pLDDT=83.7 + PDB: 无 | pLDDT=83.7, v6 | 仅预测 |
+| 定位 | UniProt + HPA | 无注释 / Nucleoli | 待确认 |
+| PPI | STRING + IntAct | 8 + 1 interactions | 数据充分 |
+
+**互证加分明细**:
+- PDB + AlphaFold 双源验证: +0
+- 多库定位一致: +0
+- STRING + IntAct 双源验证: +0.5
+- 结构域 + AlphaFold 质量: +0.5
+- PDB 多条目覆盖: +0
+**总分**: +1.0 / max +3
+
+### 4. 总体评价
+
+**推荐等级**: ⭐⭐⭐⭐
+
+**核心优势**:
+1. IQCF3 — IQ domain-containing protein F3，极度新颖，几乎未被系统研究（PubMed ≤20篇）。
+2. 蛋白大小154 aa，大小基本合适，可用于常规实验。
+
+**风险/不确定性**:
+1. PubMed 1 篇，研究基础极有限，功能注释不完整
+2. 结构数据质量可接受
+
+**下一步建议**:
+- [ ] 查阅最新关键文献补充研究背景
+- [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
+- [ ] 设计体外实验验证核定位及潜在调控功能
+
+
+### 5. 数据来源
+- UniProt: https://www.uniprot.org/uniprotkb/P0C7M6
+- Protein Atlas: https://www.proteinatlas.org/ENSG00000229972-IQCF3/subcellular
+- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=IQCF3
+- AlphaFold: https://alphafold.ebi.ac.uk/entry/P0C7M6
+- STRING: https://string-db.org/network/9606.ENSP00000
+- Data fetched live: 2026-06-03

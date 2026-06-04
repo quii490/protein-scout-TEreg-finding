@@ -1,0 +1,106 @@
+{
+  "source_sheet": "研究很多",
+  "batch_index": 30,
+  "genes": [
+    {
+      "gene": "TLCD4",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TM2D1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TOR1B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TOR4A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TRAK1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TRAPPC12",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TCEANC",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TCEANC2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TCF24",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TMA7B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TSNAXIP1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TMCO6",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TMC8",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TMTC1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TMPPE",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TKFC",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TRIM49D1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TRIM49D2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TRIM60",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TRIM61",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TRIM65",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TRIM51",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TRIM51G",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TPP2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TRMT10B",
+      "source_sheet": "研究很多"
+    }
+  ]
+}

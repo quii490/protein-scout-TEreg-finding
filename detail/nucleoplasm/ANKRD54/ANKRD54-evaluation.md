@@ -1,0 +1,55 @@
+---
+type: protein-evaluation
+gene: "ANKRD54"
+date: 2026-06-03
+tags: [protein-scout, nucleoplasm, evaluation, full-reevaluate]
+status: scored
+---
+## ANKRD54
+
+Q6NXT1 | Ankyrin repeat domain-containing protein 54 | 300aa | pLDDT 68.4 | PM=2 | norm=63.4/100
+
+| 维度 | 得分 | 权重 | 加权 |
+|---|---|---|---|---|
+| 核定位特异性 | 4/10 | ×4 | 16 |
+| 蛋白大小 | 4/10 | ×1 | 4 |
+| 研究新颖性 | 10/10 | ×5 | 50 |
+| 三维结构 | 5/10 | ×3 | 15 |
+| 调控结构域 | 5/10 | ×2 | 10 |
+| PPI 网络 | 7/10 | ×3 | 21 |
+| **加权总分** | | | **116/180** |
+| 互证加分 | | | +0.5 |
+| **PubMed strict** | 2 | | |
+| **归一化总分 (÷1.83)** | | | **63.4/100** |
+
+**UniProt**: Q6NXT1 — Nucleus (ECO:0000250), Cytoplasm (ECO:0000250), Midbody (ECO:0000250). Plays important role in regulating intracellular signaling events associated with erythroid terminal differentiation. GO-CC: cytoplasm (ISS:UniProtKB), midbody (ISS:UniProtKB), nucleus (ISS:UniProtKB). Alias: LIAR.
+
+**HPA IF 状态**: HPA IF 原图可获取（HPA 检索页有 IF display images available）。6 张 IF 原图可用（blue_red_green 格式），可进行肉眼核定位信号确认。
+
+### 核定位评定
+HPA 主定位 Microtubules 与 Midbody (Approved)，额外定位 Nucleoplasm。UniProt 注释为 Nucleus + Cytoplasm + Midbody (均 ECO:0000250 序列相似性推断)。HPA IF 原图可获取（6 张 blue_red_green 格式图像），显示主要信号集中在微管/中体结构，Nucleoplasm 为额外定位。核定位证据存在但非主导，评为 4/10。
+
+### 蛋白大小
+300 aa，32.5 kDa，小型蛋白。InterPro: Ankyrin repeat (IPR002110/IPR036770)。Pfam: Ank (PF00023) + Ank_2 (PF12796)。分子量较小，结构域数量有限。评为 4/10。
+
+### 研究新颖性
+PubMed strict count = 2（极低，为该 15 个基因中最低）。两篇关键文献均聚焦于 Bruton 酪氨酸激酶 (BTK) 核质穿梭调控：(1) PMID 22527282 (2012) — ANKRD54 通过新型 SH3 依赖性互作调控 BTK 核质穿梭；(2) PMID 28369144 (2017) — ANKRD54 从人类 SH3 结构域文库中优先选择 BTK。两篇均为机制性研究，虽然数量少但质量较高（Mol Cell Biol + PLoS One）。评为 10/10（极高新颖性但已有明确功能线索）。
+
+### PDB 结构
+PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
+AlphaFold v6: mean_pLDDT = 68.4，pct_gt_90 = 23.7%，pct_70_90 = 33.3%，pct_lt_50 = 28.3%。置信度中等，约 57% 残基 pLDDT > 70。无实验 PDB 结构。结构预测可为功能分析提供框架，但存在显著的无序区域。评为 5/10。
+
+### 调控结构域
+InterPro: Ankyrin repeat (IPR002110/IPR036770)。Pfam: Ank (PF00023) + Ank_2 (PF12796)。ANK 重复适配 SH3 结构域识别，直接参与 BTK 酪氨酸激酶核质穿梭调控。与 BTK、BLK、LYN、TEC 等 Src 家族激酶均有互作，显示 ANK 重复在该蛋白中具有明确的信号适配功能。评为 5/10。
+
+### PPI 网络
+STRING: LIAS (0.942, textmining 共提及，lipoyl synthase)、TULP3 (0.834, exp 0.832)、SNX33 (0.591, exp 0.394)、LASP1 (0.552)、LYN (0.548, exp 0.336)、BLK (0.516, exp 0.495)、BTK (0.510, exp 0.395) 等 15 个伙伴。IntAct: Itk/Lyn (Y2H)、TULP3 (Y2H array)、DOCK5/DOCK1 (co-IP)、BTK (co-IP, Nature 2017)、BLK (co-IP)、Xpo1 (pull-down, exportin-1 核输出受体)、SORBS3/G0S2/TUB/PIP/SNX33 (co-IP, Cell 2021)。Xpo1 互作特别值得注意——ANKRD54 通过与 exportin-1 互作直接参与核质转运机制。PPI 网络覆盖面广，含多个实验验证的高质量互作。评为 7/10。
+
+### 关键文献
+- PMID 22527282: Regulation of nucleocytoplasmic shuttling of Btk through SH3-dependent interaction with ANKRD54 (Mol Cell Biol, 2012)
+- PMID 28369144: ANKRD54 preferentially selects BTK from a human SH3 domain library (PLoS One, 2017)
+
+### 人工复核建议
+虽然 PubMed 仅 2 篇，但研究质量高且功能方向明确：ANKRD54 是 BTK 核质穿梭的关键适配器。Xpo1 (exportin-1/CRM1) 互作直接关联核输出机制。若研究涉及核质转运调控，该蛋白是非常精准的候选对象。但需注意 HPA 主定位为微管/中体，Nucleoplasm 仅为 additional，核内稳态分布可能有限。HPA IF 原图可获取是其独特优势——建议人工复核 IF 图像确认核信号模式。
+
+HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。

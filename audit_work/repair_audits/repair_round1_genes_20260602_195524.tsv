@@ -1,0 +1,8 @@
+source	batch_id	gene	current_path	status	risk	issues	repair_reason
+scored_sample_audit	N/A	AATF	detail/nucleoplasm/AATF/AATF-evaluation.md	scored	HIGH	UniProt/GO, PubMed, PDB, Literature	Scored report missing: UniProt/GO, PubMed, PDB, Literature
+scored_sample_audit	N/A	AAGAB	detail/nuclear-speckle/AAGAB/AAGAB-evaluation.md	scored	MED	PDB, Literature	Scored report missing: PDB, Literature
+audit_then_fix_queue	1	AARS1	rejected/AARS1/AARS1-evaluation.md	rejected	HIGH		Missing: 
+audit_then_fix_queue	1	ABI1	rejected/ABI1/ABI1-evaluation.md	rejected	HIGH		Missing: 
+audit_then_fix_queue	1	ABLIM2	rejected/ABLIM2/ABLIM2-evaluation.md	rejected	CRITICAL		Missing: 
+audit_then_fix_queue	1	ATXN2L	rejected/ATXN2L/ATXN2L-evaluation.md	rejected	HIGH		Missing: 
+audit_then_fix_queue	1	C12orf60	rejected/C12orf60/C12orf60-evaluation.md	rejected	HIGH		Missing: 

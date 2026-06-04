@@ -1,0 +1,11 @@
+{
+  "batch": "sheet3_gap_next5",
+  "source_sheet": "研究很多",
+  "genes": [
+    {"gene": "CEP162", "expected_category": "nucleus-cytoplasm", "expected_status": "scored"},
+    {"gene": "CEP164", "expected_category": "nucleus-cytoplasm", "expected_status": "scored"},
+    {"gene": "C1orf94", "expected_category": "rejected", "expected_status": "rejected"},
+    {"gene": "C10orf62", "expected_category": "rejected", "expected_status": "rejected"},
+    {"gene": "C11orf21", "expected_category": "nucleoplasm", "expected_status": "scored"}
+  ]
+}

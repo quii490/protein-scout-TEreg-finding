@@ -1,0 +1,106 @@
+{
+  "source_sheet": "研究很多",
+  "batch_index": 7,
+  "genes": [
+    {
+      "gene": "C9orf153",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C9orf40",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C9orf85",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CXorf58",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CIMIP2C",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CIMIP6",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CPLANE2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CMTM1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CLBA1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CLHC1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CLDND2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CC2D2B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCDC102A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCDC106",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCDC107",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCDC125",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCDC13",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCDC138",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCDC149",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCDC150",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCDC152",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCDC171",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCDC175",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCDC18",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCDC181",
+      "source_sheet": "研究很多"
+    }
+  ]
+}

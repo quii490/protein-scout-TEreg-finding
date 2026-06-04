@@ -1,0 +1,21 @@
+metric	value	source_file	note
+原始 FULL_REEVALUATE gene 数	1370	audit_work/fast_batch_recovery_plan_20260602_193111.tsv	From recovery plan
+队列 gene 数	1360	audit_work/full_reevaluate_batches_20260603_005337.tsv	From 272 batches
+实际报告总数	4546	detail/	
+/180 格式报告数	2184	detail/	Complete /180 scoring
+scored 报告数	2069	detail/	Non-rejected categories
+rejected 报告数	2477	detail/	
+≤12行模板	634	detail/	Template reports
+13-24行	94		
+25-49行	913		
+≥50行	2905		
+Packet error 正文	0		
+No nuclear evidence 简写	0		
+禁用占位词命中	673		
+Harvest packets 总数	1988	/Users/quii/Desktop/projects/TE-regulated proteins finding/protein_data/harvest_packets	
+队列已处理	0		1360 total
+队列缺 harvest	635		
+非队列处理数	3186		Processed but not in queue
+MANUAL_REVIEW 被处理	47		Out of 47 conflicts
+Gate errors	1443	validate_strict.py	
+Gate warnings	1939	validate_strict.py	

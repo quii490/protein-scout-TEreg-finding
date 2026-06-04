@@ -1,0 +1,918 @@
+gene	path	status	lines	chars	has_yaml	has_hpa	has_uniprot_go	has_pubmed	has_structure	has_ppi	has_scoring_table	has_final_decision	has_packet_error_conclusion	has_one_line_no_nuclear_rejection	is_blocking_incomplete	reason
+CAMKMT	detail/nucleolus/CAMKMT/CAMKMT-evaluation.md	scored	62	2793	True	True	True	True	True	True	True	False	False	False	False	Missing: Decision
+ADAT3	detail/nucleoplasm/ADAT3/ADAT3-evaluation.md	scored	169	7174	True	True	True	True	True	True	True	False	False	False	False	Missing: Decision
+AGAP2	detail/nucleoplasm/AGAP2/AGAP2-evaluation.md	scored	217	9855	True	True	True	True	True	True	True	False	False	False	False	Missing: Decision
+ANKFN1	detail/nucleoplasm/ANKFN1/ANKFN1-evaluation.md	scored	54	2852	True	True	True	True	True	True	True	False	False	False	False	Missing: Decision
+ANKMY2	detail/nucleoplasm/ANKMY2/ANKMY2-evaluation.md	scored	54	2710	True	True	True	True	True	True	True	False	False	False	False	Missing: Decision
+ANKRA2	detail/nucleoplasm/ANKRA2/ANKRA2-evaluation.md	scored	54	2835	True	True	True	True	True	True	True	False	False	False	False	Missing: Decision
+ANKRD10	detail/nucleoplasm/ANKRD10/ANKRD10-evaluation.md	scored	54	2733	True	True	True	True	True	True	True	False	False	False	False	Missing: Decision
+ANKRD12	detail/nucleoplasm/ANKRD12/ANKRD12-evaluation.md	scored	54	2872	True	True	True	True	True	True	True	False	False	False	False	Missing: Decision
+ANKRD23	detail/nucleoplasm/ANKRD23/ANKRD23-evaluation.md	scored	54	3097	True	True	True	True	True	True	True	False	False	False	False	Missing: Decision
+ANKRD30B	detail/nucleoplasm/ANKRD30B/ANKRD30B-evaluation.md	scored	54	2702	True	True	True	True	True	True	True	False	False	False	False	Missing: Decision
+ANKRD34B	detail/nucleoplasm/ANKRD34B/ANKRD34B-evaluation.md	scored	54	2548	True	True	True	True	True	True	True	False	False	False	False	Missing: Decision
+ANKRD36	detail/nucleoplasm/ANKRD36/ANKRD36-evaluation.md	scored	54	2834	True	True	True	True	True	True	True	False	False	False	False	Missing: Decision
+ANKRD36B	detail/nucleoplasm/ANKRD36B/ANKRD36B-evaluation.md	scored	54	2762	True	True	True	True	True	True	True	False	False	False	False	Missing: Decision
+ANKRD37	detail/nucleoplasm/ANKRD37/ANKRD37-evaluation.md	scored	54	2954	True	True	True	True	True	True	True	False	False	False	False	Missing: Decision
+ANKRD54	detail/nucleoplasm/ANKRD54/ANKRD54-evaluation.md	scored	55	3118	True	True	True	True	True	True	True	False	False	False	False	Missing: Decision
+ANKS1A	detail/nucleoplasm/ANKS1A/ANKS1A-evaluation.md	scored	55	3022	True	True	True	True	True	True	True	False	False	False	False	Missing: Decision
+ANKS1B	detail/nucleoplasm/ANKS1B/ANKS1B-evaluation.md	scored	54	3708	True	True	True	True	True	True	True	False	False	False	False	Missing: Decision
+ANKS3	detail/nucleoplasm/ANKS3/ANKS3-evaluation.md	scored	55	3768	True	True	True	True	True	True	True	False	False	False	False	Missing: Decision
+CCDC88A	detail/nucleoplasm/CCDC88A/CCDC88A-evaluation.md	scored	69	2956	True	True	True	True	True	True	True	False	False	False	False	Missing: Decision
+CSNK2A3	detail/nucleoplasm/CSNK2A3/CSNK2A3-evaluation.md	scored	63	2896	True	True	True	True	True	True	True	False	False	False	False	Missing: Decision
+TRIM63	detail/nucleoplasm/TRIM63/TRIM63-evaluation.md	scored	197	19854	False	True	True	True	True	True	False	True	True	False	True	Packet error/harvest failure appears in final report body
+AGBL5	detail/nucleus-cytoplasm/AGBL5/AGBL5-evaluation.md	scored	216	10358	True	True	True	True	True	True	True	False	False	False	False	Missing: Decision
+AGFG1	detail/nucleus-cytoplasm/AGFG1/AGFG1-evaluation.md	scored	219	11075	True	True	True	True	True	True	True	False	False	False	False	Missing: Decision
+CABLES1	detail/nucleus-cytoplasm/CABLES1/CABLES1-evaluation.md	scored	65	2677	True	True	True	True	True	True	True	False	False	False	False	Missing: Decision
+CABYR	detail/nucleus-cytoplasm/CABYR/CABYR-evaluation.md	scored	68	2718	True	True	True	True	True	True	True	False	False	False	False	Missing: Decision
+CALML6	detail/nucleus-cytoplasm/CALML6/CALML6-evaluation.md	scored	68	2972	True	True	True	True	True	True	True	False	False	False	False	Missing: Decision
+CCDC62	detail/nucleus-cytoplasm/CCDC62/CCDC62-evaluation.md	scored	62	2622	True	True	True	True	True	True	True	False	False	False	False	Missing: Decision
+PKIG	detail/nucleus-cytoplasm/PKIG/PKIG-evaluation.md	scored	63	2836	True	True	True	True	True	True	True	False	False	False	False	Missing: Decision
+AASS	detail/rejected/AASS/AASS-evaluation.md	rejected	19	273	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+ABR	detail/rejected/ABR/ABR-evaluation.md	rejected	19	272	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+ACADS	detail/rejected/ACADS/ACADS-evaluation.md	rejected	37	884	True	False	True	True	True	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,PPI
+ACOX1	detail/rejected/ACOX1/ACOX1-evaluation.md	rejected	36	778	True	False	True	True	True	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,PPI
+ADD1	detail/rejected/ADD1/ADD1-evaluation.md	rejected	19	273	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+ADK	detail/rejected/ADK/ADK-evaluation.md	rejected	19	271	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+ADNP	detail/rejected/ADNP/ADNP-evaluation.md	rejected	211	7122	True	False	True	True	True	True	True	True	False	False	False	Missing: HPA
+ADRA1A	detail/rejected/ADRA1A/ADRA1A-evaluation.md	rejected	19	277	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+AEN	detail/rejected/AEN/AEN-evaluation.md	rejected	19	271	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+AFDN	detail/rejected/AFDN/AFDN-evaluation.md	rejected	19	274	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+AGL	detail/rejected/AGL/AGL-evaluation.md	rejected	19	272	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+AHRR	detail/rejected/AHRR/AHRR-evaluation.md	rejected	19	273	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+AICDA	detail/rejected/AICDA/AICDA-evaluation.md	rejected	19	276	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+AIM2	detail/rejected/AIM2/AIM2-evaluation.md	rejected	19	274	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+AIMP2	detail/rejected/AIMP2/AIMP2-evaluation.md	rejected	19	275	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+AJUBA	detail/rejected/AJUBA/AJUBA-evaluation.md	rejected	19	275	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+AK6	detail/rejected/AK6/AK6-evaluation.md	rejected	41	1073	True	True	True	False	True	False	True	True	False	False	False	Thin rejected/backlog candidate; Missing: PubMed,PPI
+AKT2	detail/rejected/AKT2/AKT2-evaluation.md	rejected	39	887	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+AKT3	detail/rejected/AKT3/AKT3-evaluation.md	rejected	39	887	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+ALMS1	detail/rejected/ALMS1/ALMS1-evaluation.md	rejected	19	276	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+ALOX5	detail/rejected/ALOX5/ALOX5-evaluation.md	rejected	19	276	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+ALOX5AP	detail/rejected/ALOX5AP/ALOX5AP-evaluation.md	rejected	19	279	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+ALX4	detail/rejected/ALX4/ALX4-evaluation.md	rejected	19	273	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+AMD1	detail/rejected/AMD1/AMD1-evaluation.md	rejected	19	273	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+AMHR2	detail/rejected/AMHR2/AMHR2-evaluation.md	rejected	19	275	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+ANXA10	detail/rejected/ANXA10/ANXA10-evaluation.md	rejected	19	277	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+AOX1	detail/rejected/AOX1/AOX1-evaluation.md	rejected	19	274	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+APAF1	detail/rejected/APAF1/APAF1-evaluation.md	rejected	19	277	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+APPL1	detail/rejected/APPL1/APPL1-evaluation.md	rejected	19	275	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+APRT	detail/rejected/APRT/APRT-evaluation.md	rejected	19	273	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+ARID5B	detail/rejected/ARID5B/ARID5B-evaluation.md	rejected	19	278	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+ARMC5	detail/rejected/ARMC5/ARMC5-evaluation.md	rejected	19	275	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+ARRB1	detail/rejected/ARRB1/ARRB1-evaluation.md	rejected	19	275	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+ARRB2	detail/rejected/ARRB2/ARRB2-evaluation.md	rejected	19	275	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+ASCC2	detail/rejected/ASCC2/ASCC2-evaluation.md	rejected	19	276	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+ASPM	detail/rejected/ASPM/ASPM-evaluation.md	rejected	19	274	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+ASPSCR1	detail/rejected/ASPSCR1/ASPSCR1-evaluation.md	rejected	19	279	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+ASS1	detail/rejected/ASS1/ASS1-evaluation.md	rejected	19	273	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+ASXL2	detail/rejected/ASXL2/ASXL2-evaluation.md	rejected	19	276	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+ATE1	detail/rejected/ATE1/ATE1-evaluation.md	rejected	19	273	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+ATF5	detail/rejected/ATF5/ATF5-evaluation.md	rejected	19	273	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+ATG12	detail/rejected/ATG12/ATG12-evaluation.md	rejected	19	275	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+ATG13	detail/rejected/ATG13/ATG13-evaluation.md	rejected	19	275	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+ATN1	detail/rejected/ATN1/ATN1-evaluation.md	rejected	19	274	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+ATOH7	detail/rejected/ATOH7/ATOH7-evaluation.md	rejected	19	276	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+ATXN3	detail/rejected/ATXN3/ATXN3-evaluation.md	rejected	19	276	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+ATXN7	detail/rejected/ATXN7/ATXN7-evaluation.md	rejected	19	275	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+AURKA	detail/rejected/AURKA/AURKA-evaluation.md	rejected	19	276	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+AURKB	detail/rejected/AURKB/AURKB-evaluation.md	rejected	39	891	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+AXIN2	detail/rejected/AXIN2/AXIN2-evaluation.md	rejected	19	276	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+C2CD4C	detail/rejected/C2CD4C/C2CD4C-evaluation.md	rejected	34	657	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+C2CD4D	detail/rejected/C2CD4D/C2CD4D-evaluation.md	rejected	34	657	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+C2orf50	detail/rejected/C2orf50/C2orf50-evaluation.md	rejected	34	662	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+C3orf36	detail/rejected/C3orf36/C3orf36-evaluation.md	rejected	34	662	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+CAMK4	detail/rejected/CAMK4/CAMK4-evaluation.md	rejected	39	891	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+CEP131	detail/rejected/CEP131/CEP131-evaluation.md	rejected	34	657	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+CEP250	detail/rejected/CEP250/CEP250-evaluation.md	rejected	34	657	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+CEP55	detail/rejected/CEP55/CEP55-evaluation.md	rejected	34	652	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+CEP85L	detail/rejected/CEP85L/CEP85L-evaluation.md	rejected	34	657	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+CFAP119	detail/rejected/CFAP119/CFAP119-evaluation.md	rejected	34	662	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+CFAP206	detail/rejected/CFAP206/CFAP206-evaluation.md	rejected	34	662	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+CFAP61	detail/rejected/CFAP61/CFAP61-evaluation.md	rejected	34	657	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+CGGBP1	detail/rejected/CGGBP1/CGGBP1-evaluation.md	rejected	34	657	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+CHAF1A	detail/rejected/CHAF1A/CHAF1A-evaluation.md	rejected	34	657	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+CHCHD6	detail/rejected/CHCHD6/CHCHD6-evaluation.md	rejected	34	657	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+CHD1L	detail/rejected/CHD1L/CHD1L-evaluation.md	rejected	34	652	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+CHEK1	detail/rejected/CHEK1/CHEK1-evaluation.md	rejected	39	894	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+CHID1	detail/rejected/CHID1/CHID1-evaluation.md	rejected	34	652	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+CIBAR2	detail/rejected/CIBAR2/CIBAR2-evaluation.md	rejected	34	657	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+CIMIP3	detail/rejected/CIMIP3/CIMIP3-evaluation.md	rejected	34	657	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+CITED2	detail/rejected/CITED2/CITED2-evaluation.md	rejected	39	895	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+CTDSPL2	detail/rejected/CTDSPL2/CTDSPL2-evaluation.md	rejected	48	899	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+Cbll1	detail/rejected/Cbll1/Cbll1-evaluation.md	rejected	37	859	True	False	False	False	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,PubMed,Structure
+Csnk2a1	detail/rejected/Csnk2a1/Csnk2a1-evaluation.md	rejected	37	867	True	False	False	False	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,PubMed,Structure
+DAZ1	detail/rejected/DAZ1/DAZ1-evaluation.md	rejected	48	890	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+DAZ4	detail/rejected/DAZ4/DAZ4-evaluation.md	rejected	48	890	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+DCANP1	detail/rejected/DCANP1/DCANP1-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+DCUN1D3	detail/rejected/DCUN1D3/DCUN1D3-evaluation.md	rejected	48	899	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+DCUN1D5	detail/rejected/DCUN1D5/DCUN1D5-evaluation.md	rejected	48	899	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+DDB1	detail/rejected/DDB1/DDB1-evaluation.md	rejected	39	887	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+DDIAS	detail/rejected/DDIAS/DDIAS-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+DESI1	detail/rejected/DESI1/DESI1-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+DGCR6	detail/rejected/DGCR6/DGCR6-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+DGCR6L	detail/rejected/DGCR6L/DGCR6L-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+DNAAF4	detail/rejected/DNAAF4/DNAAF4-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+DUX1	detail/rejected/DUX1/DUX1-evaluation.md	rejected	48	890	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+DUX3	detail/rejected/DUX3/DUX3-evaluation.md	rejected	48	890	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+DUX5	detail/rejected/DUX5/DUX5-evaluation.md	rejected	48	890	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+DYNLT4	detail/rejected/DYNLT4/DYNLT4-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+E2F2	detail/rejected/E2F2/E2F2-evaluation.md	rejected	36	657	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+E2F5	detail/rejected/E2F5/E2F5-evaluation.md	rejected	36	657	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+E2F6	detail/rejected/E2F6/E2F6-evaluation.md	rejected	36	657	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+E2F7	detail/rejected/E2F7/E2F7-evaluation.md	rejected	36	657	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+E2F8	detail/rejected/E2F8/E2F8-evaluation.md	rejected	36	657	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+EAF2	detail/rejected/EAF2/EAF2-evaluation.md	rejected	36	669	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+ECT2	detail/rejected/ECT2/ECT2-evaluation.md	rejected	36	689	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+EDARADD	detail/rejected/EDARADD/EDARADD-evaluation.md	rejected	36	697	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+EDRF1	detail/rejected/EDRF1/EDRF1-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+EEF1AKMT2	detail/rejected/EEF1AKMT2/EEF1AKMT2-evaluation.md	rejected	48	905	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+EEF2	detail/rejected/EEF2/EEF2-evaluation.md	rejected	36	662	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+EGLN3	detail/rejected/EGLN3/EGLN3-evaluation.md	rejected	36	671	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+EGR4	detail/rejected/EGR4/EGR4-evaluation.md	rejected	36	663	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+ELAC1	detail/rejected/ELAC1/ELAC1-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+ELK3	detail/rejected/ELK3/ELK3-evaluation.md	rejected	36	667	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+ELP5	detail/rejected/ELP5/ELP5-evaluation.md	rejected	48	890	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+EMG1	detail/rejected/EMG1/EMG1-evaluation.md	rejected	40	764	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+EMP2	detail/rejected/EMP2/EMP2-evaluation.md	rejected	36	715	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+EMSY	detail/rejected/EMSY/EMSY-evaluation.md	rejected	36	681	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+EMX2	detail/rejected/EMX2/EMX2-evaluation.md	rejected	36	676	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+EN2	detail/rejected/EN2/EN2-evaluation.md	rejected	36	656	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+ENC1	detail/rejected/ENC1/ENC1-evaluation.md	rejected	39	746	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+EPM2A	detail/rejected/EPM2A/EPM2A-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+EPOP	detail/rejected/EPOP/EPOP-evaluation.md	rejected	39	744	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+ERCC6L2	detail/rejected/ERCC6L2/ERCC6L2-evaluation.md	rejected	39	814	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+ERFL	detail/rejected/ERFL/ERFL-evaluation.md	rejected	48	890	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+ERICH6	detail/rejected/ERICH6/ERICH6-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+ESCO2	detail/rejected/ESCO2/ESCO2-evaluation.md	rejected	36	673	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+ESRRA	detail/rejected/ESRRA/ESRRA-evaluation.md	rejected	36	679	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+ESRRG	detail/rejected/ESRRG/ESRRG-evaluation.md	rejected	36	667	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+ESX1	detail/rejected/ESX1/ESX1-evaluation.md	rejected	36	664	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+ETV3L	detail/rejected/ETV3L/ETV3L-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+EVI5L	detail/rejected/EVI5L/EVI5L-evaluation.md	rejected	39	704	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+FABP1	detail/rejected/FABP1/FABP1-evaluation.md	rejected	21	307	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+FABP6	detail/rejected/FABP6/FABP6-evaluation.md	rejected	21	327	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+FABP7	detail/rejected/FABP7/FABP7-evaluation.md	rejected	21	310	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+FADD	detail/rejected/FADD/FADD-evaluation.md	rejected	21	309	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+FADS2	detail/rejected/FADS2/FADS2-evaluation.md	rejected	21	310	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+FAF1	detail/rejected/FAF1/FAF1-evaluation.md	rejected	21	308	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+FAM13A	detail/rejected/FAM13A/FAM13A-evaluation.md	rejected	21	313	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+FAM53B	detail/rejected/FAM53B/FAM53B-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+FAM76B	detail/rejected/FAM76B/FAM76B-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+FAM9A	detail/rejected/FAM9A/FAM9A-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+FAM9B	detail/rejected/FAM9B/FAM9B-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+FAM9C	detail/rejected/FAM9C/FAM9C-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+FANK1	detail/rejected/FANK1/FANK1-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+FBLL1	detail/rejected/FBLL1/FBLL1-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+FBP2	detail/rejected/FBP2/FBP2-evaluation.md	rejected	21	300	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+FDPS	detail/rejected/FDPS/FDPS-evaluation.md	rejected	21	302	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+FEN1	detail/rejected/FEN1/FEN1-evaluation.md	rejected	21	302	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+FEV	detail/rejected/FEV/FEV-evaluation.md	rejected	21	302	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+FGF12	detail/rejected/FGF12/FGF12-evaluation.md	rejected	21	304	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+FHIT	detail/rejected/FHIT/FHIT-evaluation.md	rejected	21	303	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+FHL1	detail/rejected/FHL1/FHL1-evaluation.md	rejected	21	302	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+FHL2	detail/rejected/FHL2/FHL2-evaluation.md	rejected	21	308	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+FHL3	detail/rejected/FHL3/FHL3-evaluation.md	rejected	21	317	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+FIGLA	detail/rejected/FIGLA/FIGLA-evaluation.md	rejected	21	315	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+FIRRM	detail/rejected/FIRRM/FIRRM-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+FKBP4	detail/rejected/FKBP4/FKBP4-evaluation.md	rejected	21	310	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+FKBP5	detail/rejected/FKBP5/FKBP5-evaluation.md	rejected	21	320	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+FLCN	detail/rejected/FLCN/FLCN-evaluation.md	rejected	21	302	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+FOXC2	detail/rejected/FOXC2/FOXC2-evaluation.md	rejected	21	307	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+FOXD2	detail/rejected/FOXD2/FOXD2-evaluation.md	rejected	21	310	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+FOXE1	detail/rejected/FOXE1/FOXE1-evaluation.md	rejected	21	310	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+FOXE3	detail/rejected/FOXE3/FOXE3-evaluation.md	rejected	21	325	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+FOXF1	detail/rejected/FOXF1/FOXF1-evaluation.md	rejected	21	310	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+FOXF2	detail/rejected/FOXF2/FOXF2-evaluation.md	rejected	21	310	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+FOXH1	detail/rejected/FOXH1/FOXH1-evaluation.md	rejected	21	310	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+FOXI3	detail/rejected/FOXI3/FOXI3-evaluation.md	rejected	21	326	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+FOXJ1	detail/rejected/FOXJ1/FOXJ1-evaluation.md	rejected	21	310	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+FOXO4	detail/rejected/FOXO4/FOXO4-evaluation.md	rejected	21	310	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+FOXQ1	detail/rejected/FOXQ1/FOXQ1-evaluation.md	rejected	21	310	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+FRG2	detail/rejected/FRG2/FRG2-evaluation.md	rejected	21	324	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+FRG2B	detail/rejected/FRG2B/FRG2B-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+FRG2C	detail/rejected/FRG2C/FRG2C-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+FSBP	detail/rejected/FSBP/FSBP-evaluation.md	rejected	48	890	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+FSD1	detail/rejected/FSD1/FSD1-evaluation.md	rejected	21	308	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+FSTL3	detail/rejected/FSTL3/FSTL3-evaluation.md	rejected	21	320	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+FUBP1	detail/rejected/FUBP1/FUBP1-evaluation.md	rejected	21	310	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+FUT8	detail/rejected/FUT8/FUT8-evaluation.md	rejected	21	317	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+FZR1	detail/rejected/FZR1/FZR1-evaluation.md	rejected	21	308	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+Fam209	detail/rejected/Fam209/Fam209-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+Fbxw15	detail/rejected/Fbxw15/Fbxw15-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+GAB1	detail/rejected/GAB1/GAB1-evaluation.md	rejected	34	708	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+GADD45B	detail/rejected/GADD45B/GADD45B-evaluation.md	rejected	34	720	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+GALM	detail/rejected/GALM/GALM-evaluation.md	rejected	41	963	True	True	True	True	True	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: PPI
+GARIN3	detail/rejected/GARIN3/GARIN3-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+GAS2	detail/rejected/GAS2/GAS2-evaluation.md	rejected	34	708	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+GATA5	detail/rejected/GATA5/GATA5-evaluation.md	rejected	34	712	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+GBP2	detail/rejected/GBP2/GBP2-evaluation.md	rejected	34	708	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+GBX2	detail/rejected/GBX2/GBX2-evaluation.md	rejected	34	708	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+GCAT	detail/rejected/GCAT/GCAT-evaluation.md	rejected	34	708	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+GCFC2	detail/rejected/GCFC2/GCFC2-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+GCH1	detail/rejected/GCH1/GCH1-evaluation.md	rejected	34	708	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+GCHFR	detail/rejected/GCHFR/GCHFR-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+GCLM	detail/rejected/GCLM/GCLM-evaluation.md	rejected	34	708	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+GCM1	detail/rejected/GCM1/GCM1-evaluation.md	rejected	34	708	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+GCM2	detail/rejected/GCM2/GCM2-evaluation.md	rejected	34	711	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+GDA	detail/rejected/GDA/GDA-evaluation.md	rejected	34	704	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+GEMIN2	detail/rejected/GEMIN2/GEMIN2-evaluation.md	rejected	34	716	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+GHDC	detail/rejected/GHDC/GHDC-evaluation.md	rejected	48	890	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+GLO1	detail/rejected/GLO1/GLO1-evaluation.md	rejected	34	708	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+GPX4	detail/rejected/GPX4/GPX4-evaluation.md	rejected	34	711	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+GRHL3	detail/rejected/GRHL3/GRHL3-evaluation.md	rejected	34	712	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+GSS	detail/rejected/GSS/GSS-evaluation.md	rejected	34	707	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+Gm52993	detail/rejected/Gm52993/Gm52993-evaluation.md	rejected	48	899	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+HAND1	detail/rejected/HAND1/HAND1-evaluation.md	rejected	43	992	True	True	True	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure
+HARBI1	detail/rejected/HARBI1/HARBI1-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+HAS1	detail/rejected/HAS1/HAS1-evaluation.md	rejected	43	987	True	True	True	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure
+HBP1	detail/rejected/HBP1/HBP1-evaluation.md	rejected	43	987	True	True	True	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure
+HBS1L	detail/rejected/HBS1L/HBS1L-evaluation.md	rejected	43	992	True	True	True	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure
+HBZ	detail/rejected/HBZ/HBZ-evaluation.md	rejected	43	982	True	True	True	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure
+HCFC1	detail/rejected/HCFC1/HCFC1-evaluation.md	rejected	43	992	True	True	True	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure
+HDGF	detail/rejected/HDGF/HDGF-evaluation.md	rejected	43	987	True	True	True	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure
+HELLS	detail/rejected/HELLS/HELLS-evaluation.md	rejected	43	992	True	True	True	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure
+HES6	detail/rejected/HES6/HES6-evaluation.md	rejected	43	987	True	True	True	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure
+HESX1	detail/rejected/HESX1/HESX1-evaluation.md	rejected	43	992	True	True	True	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure
+HEXIM1	detail/rejected/HEXIM1/HEXIM1-evaluation.md	rejected	43	997	True	True	True	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure
+HEY1	detail/rejected/HEY1/HEY1-evaluation.md	rejected	43	987	True	True	True	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure
+HEY2	detail/rejected/HEY2/HEY2-evaluation.md	rejected	43	987	True	True	True	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure
+HHEX	detail/rejected/HHEX/HHEX-evaluation.md	rejected	43	987	True	True	True	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure
+HINT1	detail/rejected/HINT1/HINT1-evaluation.md	rejected	43	992	True	True	True	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure
+HINT3	detail/rejected/HINT3/HINT3-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+HIP1	detail/rejected/HIP1/HIP1-evaluation.md	rejected	43	987	True	True	True	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure
+HIPK2	detail/rejected/HIPK2/HIPK2-evaluation.md	rejected	43	992	True	True	True	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure
+HIPK3	detail/rejected/HIPK3/HIPK3-evaluation.md	rejected	43	992	True	True	True	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure
+HJURP	detail/rejected/HJURP/HJURP-evaluation.md	rejected	43	992	True	True	True	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure
+HMGB2	detail/rejected/HMGB2/HMGB2-evaluation.md	rejected	43	992	True	True	True	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure
+HMGB3	detail/rejected/HMGB3/HMGB3-evaluation.md	rejected	43	992	True	True	True	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure
+HMGB4	detail/rejected/HMGB4/HMGB4-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+HMGCS1	detail/rejected/HMGCS1/HMGCS1-evaluation.md	rejected	43	997	True	True	True	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure
+HMGN2	detail/rejected/HMGN2/HMGN2-evaluation.md	rejected	43	992	True	True	True	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure
+HNMT	detail/rejected/HNMT/HNMT-evaluation.md	rejected	43	987	True	True	True	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure
+HPD	detail/rejected/HPD/HPD-evaluation.md	rejected	43	985	True	True	True	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure
+HPGD	detail/rejected/HPGD/HPGD-evaluation.md	rejected	43	987	True	True	True	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure
+HPGDS	detail/rejected/HPGDS/HPGDS-evaluation.md	rejected	43	992	True	True	True	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure
+HSBP1	detail/rejected/HSBP1/HSBP1-evaluation.md	rejected	43	981	True	True	True	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure
+HUS1	detail/rejected/HUS1/HUS1-evaluation.md	rejected	43	987	True	True	True	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure
+IFFO1	detail/rejected/IFFO1/IFFO1-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+IFI16	detail/rejected/IFI16/IFI16-evaluation.md	rejected	25	565	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+IFI44	detail/rejected/IFI44/IFI44-evaluation.md	rejected	25	561	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+IFI44L	detail/rejected/IFI44L/IFI44L-evaluation.md	rejected	25	366	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+IGDCC3	detail/rejected/IGDCC3/IGDCC3-evaluation.md	rejected	25	406	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+IGHMBP2	detail/rejected/IGHMBP2/IGHMBP2-evaluation.md	rejected	25	598	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+IKBKE	detail/rejected/IKBKE/IKBKE-evaluation.md	rejected	25	569	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+IKBKG	detail/rejected/IKBKG/IKBKG-evaluation.md	rejected	25	393	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+ILK	detail/rejected/ILK/ILK-evaluation.md	rejected	25	547	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+IMPDH1	detail/rejected/IMPDH1/IMPDH1-evaluation.md	rejected	25	367	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+IMPDH2	detail/rejected/IMPDH2/IMPDH2-evaluation.md	rejected	25	353	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+INCENP	detail/rejected/INCENP/INCENP-evaluation.md	rejected	25	461	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+INPP4A	detail/rejected/INPP4A/INPP4A-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+INVS	detail/rejected/INVS/INVS-evaluation.md	rejected	25	548	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+IRAK1	detail/rejected/IRAK1/IRAK1-evaluation.md	rejected	25	563	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+IRS1	detail/rejected/IRS1/IRS1-evaluation.md	rejected	25	357	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+IRX3	detail/rejected/IRX3/IRX3-evaluation.md	rejected	25	552	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+ISG20	detail/rejected/ISG20/ISG20-evaluation.md	rejected	25	546	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+ISL2	detail/rejected/ISL2/ISL2-evaluation.md	rejected	25	498	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+ISOC2	detail/rejected/ISOC2/ISOC2-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+IST1	detail/rejected/IST1/IST1-evaluation.md	rejected	25	361	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+ITCH	detail/rejected/ITCH/ITCH-evaluation.md	rejected	39	890	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+ITGA7	detail/rejected/ITGA7/ITGA7-evaluation.md	rejected	22	348	True	False	True	False	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,PubMed,Structure,PPI
+ITGA9	detail/rejected/ITGA9/ITGA9-evaluation.md	rejected	22	348	True	False	True	False	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,PubMed,Structure,PPI
+ITPA	detail/rejected/ITPA/ITPA-evaluation.md	rejected	25	567	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+ITPR2	detail/rejected/ITPR2/ITPR2-evaluation.md	rejected	22	397	True	False	True	False	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,PubMed,Structure,PPI
+IVL	detail/rejected/IVL/IVL-evaluation.md	rejected	25	408	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+Ifi211	detail/rejected/Ifi211/Ifi211-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+Ifi214	detail/rejected/Ifi214/Ifi214-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+Isoc2a	detail/rejected/Isoc2a/Isoc2a-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+Isoc2b	detail/rejected/Isoc2b/Isoc2b-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+JMJD1C	detail/rejected/JMJD1C/JMJD1C-evaluation.md	rejected	25	591	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+JMJD6	detail/rejected/JMJD6/JMJD6-evaluation.md	rejected	25	427	True	False	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,Structure,PPI
+JMJD7	detail/rejected/JMJD7/JMJD7-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+JPT2	detail/rejected/JPT2/JPT2-evaluation.md	rejected	48	890	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+KANSL1	detail/rejected/KANSL1/KANSL1-evaluation.md	rejected	38	797	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+KATNAL2	detail/rejected/KATNAL2/KATNAL2-evaluation.md	rejected	35	650	True	True	True	False	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: PubMed,Structure,PPI
+KATNBL1	detail/rejected/KATNBL1/KATNBL1-evaluation.md	rejected	48	899	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+KAZN	detail/rejected/KAZN/KAZN-evaluation.md	rejected	48	890	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+KBTBD6	detail/rejected/KBTBD6/KBTBD6-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+KBTBD7	detail/rejected/KBTBD7/KBTBD7-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+KCTD15	detail/rejected/KCTD15/KCTD15-evaluation.md	rejected	38	739	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+KHNYN	detail/rejected/KHNYN/KHNYN-evaluation.md	rejected	35	619	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+KHSRP	detail/rejected/KHSRP/KHSRP-evaluation.md	rejected	40	829	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+KIAA1549	detail/rejected/KIAA1549/KIAA1549-evaluation.md	rejected	40	789	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+KLF10	detail/rejected/KLF10/KLF10-evaluation.md	rejected	40	799	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+KLF11	detail/rejected/KLF11/KLF11-evaluation.md	rejected	40	795	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+KLF12	detail/rejected/KLF12/KLF12-evaluation.md	rejected	40	773	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+KLF14	detail/rejected/KLF14/KLF14-evaluation.md	rejected	40	821	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+KLF3	detail/rejected/KLF3/KLF3-evaluation.md	rejected	38	750	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+KLF6	detail/rejected/KLF6/KLF6-evaluation.md	rejected	40	806	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+KLF7	detail/rejected/KLF7/KLF7-evaluation.md	rejected	40	792	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+KLHDC10	detail/rejected/KLHDC10/KLHDC10-evaluation.md	rejected	48	899	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+KLHDC2	detail/rejected/KLHDC2/KLHDC2-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+KLHDC3	detail/rejected/KLHDC3/KLHDC3-evaluation.md	rejected	35	626	True	True	True	False	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: PubMed,Structure,PPI
+KLHL15	detail/rejected/KLHL15/KLHL15-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+KLHL20	detail/rejected/KLHL20/KLHL20-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+KLHL22	detail/rejected/KLHL22/KLHL22-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+KLRB1	detail/rejected/KLRB1/KLRB1-evaluation.md	rejected	40	835	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+KNL1	detail/rejected/KNL1/KNL1-evaluation.md	rejected	40	813	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+KNOP1	detail/rejected/KNOP1/KNOP1-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+KPNB1	detail/rejected/KPNB1/KPNB1-evaluation.md	rejected	38	754	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+KPTN	detail/rejected/KPTN/KPTN-evaluation.md	rejected	35	625	True	True	True	False	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: PubMed,Structure,PPI
+KRCC1	detail/rejected/KRCC1/KRCC1-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+KRI1	detail/rejected/KRI1/KRI1-evaluation.md	rejected	48	890	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+KRR1	detail/rejected/KRR1/KRR1-evaluation.md	rejected	40	830	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+KYNU	detail/rejected/KYNU/KYNU-evaluation.md	rejected	40	808	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+LAMTOR2	detail/rejected/LAMTOR2/LAMTOR2-evaluation.md	rejected	35	634	True	True	True	False	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: PubMed,Structure,PPI
+LANCL2	detail/rejected/LANCL2/LANCL2-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+LBH	detail/rejected/LBH/LBH-evaluation.md	rejected	40	795	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+LBX1	detail/rejected/LBX1/LBX1-evaluation.md	rejected	38	741	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+LCORL	detail/rejected/LCORL/LCORL-evaluation.md	rejected	38	739	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+LHX1	detail/rejected/LHX1/LHX1-evaluation.md	rejected	40	818	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+LHX8	detail/rejected/LHX8/LHX8-evaluation.md	rejected	40	788	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+LHX9	detail/rejected/LHX9/LHX9-evaluation.md	rejected	38	730	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+LIG3	detail/rejected/LIG3/LIG3-evaluation.md	rejected	38	733	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+LIMK1	detail/rejected/LIMK1/LIMK1-evaluation.md	rejected	40	795	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+LIPA	detail/rejected/LIPA/LIPA-evaluation.md	rejected	40	866	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+LITAF	detail/rejected/LITAF/LITAF-evaluation.md	rejected	40	857	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+LMNB2	detail/rejected/LMNB2/LMNB2-evaluation.md	rejected	40	819	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+LMO4	detail/rejected/LMO4/LMO4-evaluation.md	rejected	40	822	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+LMX1B	detail/rejected/LMX1B/LMX1B-evaluation.md	rejected	40	823	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+LNPK	detail/rejected/LNPK/LNPK-evaluation.md	rejected	35	615	True	True	True	False	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: PubMed,Structure,PPI
+LOXL2	detail/rejected/LOXL2/LOXL2-evaluation.md	rejected	40	827	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+LPIN1	detail/rejected/LPIN1/LPIN1-evaluation.md	rejected	40	793	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+LPP	detail/rejected/LPP/LPP-evaluation.md	rejected	39	751	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+LRRC7	detail/rejected/LRRC7/LRRC7-evaluation.md	rejected	35	617	True	True	True	False	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: PubMed,Structure,PPI
+LRRFIP1	detail/rejected/LRRFIP1/LRRFIP1-evaluation.md	rejected	40	865	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+LTV1	detail/rejected/LTV1/LTV1-evaluation.md	rejected	35	612	True	True	True	False	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: PubMed,Structure,PPI
+LYL1	detail/rejected/LYL1/LYL1-evaluation.md	rejected	38	728	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+LYRM1	detail/rejected/LYRM1/LYRM1-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+LYRM4	detail/rejected/LYRM4/LYRM4-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+LZTR1	detail/rejected/LZTR1/LZTR1-evaluation.md	rejected	40	817	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+MACC1	detail/rejected/MACC1/MACC1-evaluation.md	rejected	32	572	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+MACO1	detail/rejected/MACO1/MACO1-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+MAD2L1	detail/rejected/MAD2L1/MAD2L1-evaluation.md	rejected	32	572	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+MAFF	detail/rejected/MAFF/MAFF-evaluation.md	rejected	32	566	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+MAFK	detail/rejected/MAFK/MAFK-evaluation.md	rejected	32	566	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+MAGEA4	detail/rejected/MAGEA4/MAGEA4-evaluation.md	rejected	32	560	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+MAGEL2	detail/rejected/MAGEL2/MAGEL2-evaluation.md	rejected	32	561	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+MAGI1	detail/rejected/MAGI1/MAGI1-evaluation.md	rejected	32	605	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+MAML1	detail/rejected/MAML1/MAML1-evaluation.md	rejected	32	583	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+MAML2	detail/rejected/MAML2/MAML2-evaluation.md	rejected	32	583	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+MAML3	detail/rejected/MAML3/MAML3-evaluation.md	rejected	32	583	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+MARCKS	detail/rejected/MARCKS/MARCKS-evaluation.md	rejected	32	592	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+MAT1A	detail/rejected/MAT1A/MAT1A-evaluation.md	rejected	32	570	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+MAT2A	detail/rejected/MAT2A/MAT2A-evaluation.md	rejected	32	570	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+MBLAC1	detail/rejected/MBLAC1/MBLAC1-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+MCRIP2	detail/rejected/MCRIP2/MCRIP2-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+MEF2A	detail/rejected/MEF2A/MEF2A-evaluation.md	rejected	32	563	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+MEFV	detail/rejected/MEFV/MEFV-evaluation.md	rejected	32	573	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+MEIOB	detail/rejected/MEIOB/MEIOB-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+METTL23	detail/rejected/METTL23/METTL23-evaluation.md	rejected	48	899	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+MID1IP1	detail/rejected/MID1IP1/MID1IP1-evaluation.md	rejected	48	899	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+MKI67	detail/rejected/MKI67/MKI67-evaluation.md	rejected	32	569	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+MKNK1	detail/rejected/MKNK1/MKNK1-evaluation.md	rejected	39	891	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+MLLT10	detail/rejected/MLLT10/MLLT10-evaluation.md	rejected	32	594	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+MLX	detail/rejected/MLX/MLX-evaluation.md	rejected	32	561	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+MMACHC	detail/rejected/MMACHC/MMACHC-evaluation.md	rejected	32	575	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+MNDA	detail/rejected/MNDA/MNDA-evaluation.md	rejected	32	579	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+MNX1	detail/rejected/MNX1/MNX1-evaluation.md	rejected	32	571	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+MPG	detail/rejected/MPG/MPG-evaluation.md	rejected	32	563	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+MRO	detail/rejected/MRO/MRO-evaluation.md	rejected	32	540	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+MRTFA	detail/rejected/MRTFA/MRTFA-evaluation.md	rejected	32	577	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+MSL3B	detail/rejected/MSL3B/MSL3B-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+MSRA	detail/rejected/MSRA/MSRA-evaluation.md	rejected	32	567	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+MSX2	detail/rejected/MSX2/MSX2-evaluation.md	rejected	32	549	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+MTA1	detail/rejected/MTA1/MTA1-evaluation.md	rejected	39	887	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+MTAP	detail/rejected/MTAP/MTAP-evaluation.md	rejected	32	568	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+MTF1	detail/rejected/MTF1/MTF1-evaluation.md	rejected	32	574	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+MTRR	detail/rejected/MTRR/MTRR-evaluation.md	rejected	32	600	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+MUS81	detail/rejected/MUS81/MUS81-evaluation.md	rejected	32	582	True	True	True	True	True	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: PPI
+MUTYH	detail/rejected/MUTYH/MUTYH-evaluation.md	rejected	32	557	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+MVB12A	detail/rejected/MVB12A/MVB12A-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+MX2	detail/rejected/MX2/MX2-evaluation.md	rejected	32	557	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+MXD1	detail/rejected/MXD1/MXD1-evaluation.md	rejected	32	561	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+MXI1	detail/rejected/MXI1/MXI1-evaluation.md	rejected	32	572	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+MYBL1	detail/rejected/MYBL1/MYBL1-evaluation.md	rejected	32	562	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+MYOG	detail/rejected/MYOG/MYOG-evaluation.md	rejected	32	545	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+MYRF	detail/rejected/MYRF/MYRF-evaluation.md	rejected	32	560	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+Mfap1b	detail/rejected/Mfap1b/Mfap1b-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+Msx3	detail/rejected/Msx3/Msx3-evaluation.md	rejected	37	855	True	False	False	False	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,PubMed,Structure
+NAB2	detail/rejected/NAB2/NAB2-evaluation.md	rejected	45	790	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NACA	detail/rejected/NACA/NACA-evaluation.md	rejected	45	850	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NACAD	detail/rejected/NACAD/NACAD-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+NANOGNB	detail/rejected/NANOGNB/NANOGNB-evaluation.md	rejected	45	743	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NANS	detail/rejected/NANS/NANS-evaluation.md	rejected	45	766	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NASP	detail/rejected/NASP/NASP-evaluation.md	rejected	45	828	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NBAS	detail/rejected/NBAS/NBAS-evaluation.md	rejected	45	776	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NBR1	detail/rejected/NBR1/NBR1-evaluation.md	rejected	45	767	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NCBP1	detail/rejected/NCBP1/NCBP1-evaluation.md	rejected	45	777	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NCOA3	detail/rejected/NCOA3/NCOA3-evaluation.md	rejected	45	772	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NCOA4	detail/rejected/NCOA4/NCOA4-evaluation.md	rejected	45	773	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NDC80	detail/rejected/NDC80/NDC80-evaluation.md	rejected	45	776	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NDE1	detail/rejected/NDE1/NDE1-evaluation.md	rejected	45	774	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NDN	detail/rejected/NDN/NDN-evaluation.md	rejected	45	761	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NDOR1	detail/rejected/NDOR1/NDOR1-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+NEDD8	detail/rejected/NEDD8/NEDD8-evaluation.md	rejected	39	891	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+NEDD9	detail/rejected/NEDD9/NEDD9-evaluation.md	rejected	45	878	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NEFH	detail/rejected/NEFH/NEFH-evaluation.md	rejected	45	764	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NEFL	detail/rejected/NEFL/NEFL-evaluation.md	rejected	45	767	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NEIL1	detail/rejected/NEIL1/NEIL1-evaluation.md	rejected	45	808	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NEIL2	detail/rejected/NEIL2/NEIL2-evaluation.md	rejected	45	789	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NEIL3	detail/rejected/NEIL3/NEIL3-evaluation.md	rejected	45	788	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NEK2	detail/rejected/NEK2/NEK2-evaluation.md	rejected	39	887	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+NEK7	detail/rejected/NEK7/NEK7-evaluation.md	rejected	39	887	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+NEMP2	detail/rejected/NEMP2/NEMP2-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+NET1	detail/rejected/NET1/NET1-evaluation.md	rejected	45	816	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NEUROD2	detail/rejected/NEUROD2/NEUROD2-evaluation.md	rejected	45	803	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NFE2	detail/rejected/NFE2/NFE2-evaluation.md	rejected	45	810	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NFIC	detail/rejected/NFIC/NFIC-evaluation.md	rejected	45	777	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NFIL3	detail/rejected/NFIL3/NFIL3-evaluation.md	rejected	45	824	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NFILZ	detail/rejected/NFILZ/NFILZ-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+NFIX	detail/rejected/NFIX/NFIX-evaluation.md	rejected	45	776	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NFKBIA	detail/rejected/NFKBIA/NFKBIA-evaluation.md	rejected	45	852	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NFS1	detail/rejected/NFS1/NFS1-evaluation.md	rejected	45	763	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NFYA	detail/rejected/NFYA/NFYA-evaluation.md	rejected	45	821	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NFYB	detail/rejected/NFYB/NFYB-evaluation.md	rejected	45	819	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NFYC	detail/rejected/NFYC/NFYC-evaluation.md	rejected	45	820	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NHLH1	detail/rejected/NHLH1/NHLH1-evaluation.md	rejected	45	797	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NICN1	detail/rejected/NICN1/NICN1-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+NIN	detail/rejected/NIN/NIN-evaluation.md	rejected	45	742	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NMI	detail/rejected/NMI/NMI-evaluation.md	rejected	45	761	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NMNAT1	detail/rejected/NMNAT1/NMNAT1-evaluation.md	rejected	45	789	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NMRAL1	detail/rejected/NMRAL1/NMRAL1-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+NOBOX	detail/rejected/NOBOX/NOBOX-evaluation.md	rejected	45	764	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NOCT	detail/rejected/NOCT/NOCT-evaluation.md	rejected	45	748	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NOTO	detail/rejected/NOTO/NOTO-evaluation.md	rejected	45	755	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NPAS2	detail/rejected/NPAS2/NPAS2-evaluation.md	rejected	45	770	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NPAS4	detail/rejected/NPAS4/NPAS4-evaluation.md	rejected	45	770	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NPAT	detail/rejected/NPAT/NPAT-evaluation.md	rejected	45	827	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NSMF	detail/rejected/NSMF/NSMF-evaluation.md	rejected	45	805	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NTAQ1	detail/rejected/NTAQ1/NTAQ1-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+NTMT2	detail/rejected/NTMT2/NTMT2-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+NUAK1	detail/rejected/NUAK1/NUAK1-evaluation.md	rejected	45	796	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NUBP2	detail/rejected/NUBP2/NUBP2-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+NUCKS1	detail/rejected/NUCKS1/NUCKS1-evaluation.md	rejected	45	868	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NUDCD2	detail/rejected/NUDCD2/NUDCD2-evaluation.md	rejected	44	979	True	True	True	True	True	False	True	True	False	False	False	Thin rejected/backlog candidate; Missing: PPI
+NUDT14	detail/rejected/NUDT14/NUDT14-evaluation.md	rejected	44	979	True	True	True	True	True	False	True	True	False	False	False	Thin rejected/backlog candidate; Missing: PPI
+NUDT6	detail/rejected/NUDT6/NUDT6-evaluation.md	rejected	44	972	True	True	True	True	True	False	True	True	False	False	False	Thin rejected/backlog candidate; Missing: PPI
+NUDT8	detail/rejected/NUDT8/NUDT8-evaluation.md	rejected	44	972	True	True	True	True	True	False	True	True	False	False	False	Thin rejected/backlog candidate; Missing: PPI
+NUF2	detail/rejected/NUF2/NUF2-evaluation.md	rejected	45	825	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NUFIP1	detail/rejected/NUFIP1/NUFIP1-evaluation.md	rejected	44	979	True	True	True	True	True	False	True	True	False	False	False	Thin rejected/backlog candidate; Missing: PPI
+NUGGC	detail/rejected/NUGGC/NUGGC-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+NUMA1	detail/rejected/NUMA1/NUMA1-evaluation.md	rejected	45	777	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NUP43	detail/rejected/NUP43/NUP43-evaluation.md	rejected	44	972	True	True	True	True	True	False	True	True	False	False	False	Thin rejected/backlog candidate; Missing: PPI
+NUP62	detail/rejected/NUP62/NUP62-evaluation.md	rejected	44	972	True	True	True	True	True	False	True	True	False	False	False	Thin rejected/backlog candidate; Missing: PPI
+NUP62CL	detail/rejected/NUP62CL/NUP62CL-evaluation.md	rejected	44	986	True	True	True	True	True	False	True	True	False	False	False	Thin rejected/backlog candidate; Missing: PPI
+NUPR1	detail/rejected/NUPR1/NUPR1-evaluation.md	rejected	45	829	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NUPR2	detail/rejected/NUPR2/NUPR2-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+NUS1	detail/rejected/NUS1/NUS1-evaluation.md	rejected	44	965	True	True	True	True	True	False	True	True	False	False	False	Thin rejected/backlog candidate; Missing: PPI
+NUSAP1	detail/rejected/NUSAP1/NUSAP1-evaluation.md	rejected	45	786	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NUTM1	detail/rejected/NUTM1/NUTM1-evaluation.md	rejected	45	821	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+NUTM2D	detail/rejected/NUTM2D/NUTM2D-evaluation.md	rejected	44	979	True	True	True	True	True	False	True	True	False	False	False	Thin rejected/backlog candidate; Missing: PPI
+NUTM2F	detail/rejected/NUTM2F/NUTM2F-evaluation.md	rejected	44	979	True	True	True	True	True	False	True	True	False	False	False	Thin rejected/backlog candidate; Missing: PPI
+NXF2B	detail/rejected/NXF2B/NXF2B-evaluation.md	rejected	44	972	True	True	True	True	True	False	True	True	False	False	False	Thin rejected/backlog candidate; Missing: PPI
+NXPE2	detail/rejected/NXPE2/NXPE2-evaluation.md	rejected	44	972	True	True	True	True	True	False	True	True	False	False	False	Thin rejected/backlog candidate; Missing: PPI
+Ncbp2	detail/rejected/Ncbp2/Ncbp2-evaluation.md	rejected	37	859	True	False	False	False	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,PubMed,Structure
+Nsun5	detail/rejected/Nsun5/Nsun5-evaluation.md	rejected	37	859	True	False	False	False	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,PubMed,Structure
+OFD1	detail/rejected/OFD1/OFD1-evaluation.md	rejected	45	837	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+OGG1	detail/rejected/OGG1/OGG1-evaluation.md	rejected	45	805	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+OIP5	detail/rejected/OIP5/OIP5-evaluation.md	rejected	45	764	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+OLIG1	detail/rejected/OLIG1/OLIG1-evaluation.md	rejected	45	779	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+ONECUT1	detail/rejected/ONECUT1/ONECUT1-evaluation.md	rejected	45	798	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+ONECUT2	detail/rejected/ONECUT2/ONECUT2-evaluation.md	rejected	45	798	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+OOEP	detail/rejected/OOEP/OOEP-evaluation.md	rejected	48	890	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+OSBP	detail/rejected/OSBP/OSBP-evaluation.md	rejected	45	763	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+OSBPL8	detail/rejected/OSBPL8/OSBPL8-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+OSMR	detail/rejected/OSMR/OSMR-evaluation.md	rejected	45	759	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+OSR1	detail/rejected/OSR1/OSR1-evaluation.md	rejected	45	780	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+OSR2	detail/rejected/OSR2/OSR2-evaluation.md	rejected	45	801	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+OTP	detail/rejected/OTP/OTP-evaluation.md	rejected	45	755	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+OTX1	detail/rejected/OTX1/OTX1-evaluation.md	rejected	45	762	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+Obox1	detail/rejected/Obox1/Obox1-evaluation.md	rejected	37	859	True	False	False	False	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,PubMed,Structure
+Obox3	detail/rejected/Obox3/Obox3-evaluation.md	rejected	37	859	True	False	False	False	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,PubMed,Structure
+Obox4	detail/rejected/Obox4/Obox4-evaluation.md	rejected	37	859	True	False	False	False	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,PubMed,Structure
+Obox5	detail/rejected/Obox5/Obox5-evaluation.md	rejected	37	859	True	False	False	False	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,PubMed,Structure
+Oog1	detail/rejected/Oog1/Oog1-evaluation.md	rejected	48	890	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+PA2G4	detail/rejected/PA2G4/PA2G4-evaluation.md	rejected	45	769	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PADI4	detail/rejected/PADI4/PADI4-evaluation.md	rejected	45	811	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PAFAH1B1	detail/rejected/PAFAH1B1/PAFAH1B1-evaluation.md	rejected	45	884	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PAK2	detail/rejected/PAK2/PAK2-evaluation.md	rejected	39	887	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+PALB2	detail/rejected/PALB2/PALB2-evaluation.md	rejected	45	777	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PAPOLA	detail/rejected/PAPOLA/PAPOLA-evaluation.md	rejected	45	796	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PARG	detail/rejected/PARG/PARG-evaluation.md	rejected	39	887	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+PARK7	detail/rejected/PARK7/PARK7-evaluation.md	rejected	45	774	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PARN	detail/rejected/PARN/PARN-evaluation.md	rejected	45	824	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PASK	detail/rejected/PASK/PASK-evaluation.md	rejected	45	783	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PAWR	detail/rejected/PAWR/PAWR-evaluation.md	rejected	45	799	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PAX1	detail/rejected/PAX1/PAX1-evaluation.md	rejected	45	750	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PAX4	detail/rejected/PAX4/PAX4-evaluation.md	rejected	45	750	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PAX9	detail/rejected/PAX9/PAX9-evaluation.md	rejected	45	750	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PCNP	detail/rejected/PCNP/PCNP-evaluation.md	rejected	48	890	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+PDLIM2	detail/rejected/PDLIM2/PDLIM2-evaluation.md	rejected	45	758	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PDXK	detail/rejected/PDXK/PDXK-evaluation.md	rejected	45	754	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PEA15	detail/rejected/PEA15/PEA15-evaluation.md	rejected	45	787	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PEG10	detail/rejected/PEG10/PEG10-evaluation.md	rejected	45	764	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PELP1	detail/rejected/PELP1/PELP1-evaluation.md	rejected	45	839	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PEPD	detail/rejected/PEPD/PEPD-evaluation.md	rejected	45	749	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PES1	detail/rejected/PES1/PES1-evaluation.md	rejected	45	777	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PFKL	detail/rejected/PFKL/PFKL-evaluation.md	rejected	45	769	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PHF1	detail/rejected/PHF1/PHF1-evaluation.md	rejected	39	887	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+PHF21A	detail/rejected/PHF21A/PHF21A-evaluation.md	rejected	45	766	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PHGDH	detail/rejected/PHGDH/PHGDH-evaluation.md	rejected	45	772	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PHLDA1	detail/rejected/PHLDA1/PHLDA1-evaluation.md	rejected	45	847	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PHLDA2	detail/rejected/PHLDA2/PHLDA2-evaluation.md	rejected	45	776	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PHLPP1	detail/rejected/PHLPP1/PHLPP1-evaluation.md	rejected	39	895	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+PHLPP2	detail/rejected/PHLPP2/PHLPP2-evaluation.md	rejected	45	800	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PHOX2A	detail/rejected/PHOX2A/PHOX2A-evaluation.md	rejected	45	793	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PIK3R3	detail/rejected/PIK3R3/PIK3R3-evaluation.md	rejected	45	790	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PINX1	detail/rejected/PINX1/PINX1-evaluation.md	rejected	45	837	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PITPNA	detail/rejected/PITPNA/PITPNA-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+PITX3	detail/rejected/PITX3/PITX3-evaluation.md	rejected	45	816	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PKM	detail/rejected/PKM/PKM-evaluation.md	rejected	39	883	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+PKMYT1	detail/rejected/PKMYT1/PKMYT1-evaluation.md	rejected	45	801	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PKNOX1	detail/rejected/PKNOX1/PKNOX1-evaluation.md	rejected	45	792	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PKP2	detail/rejected/PKP2/PKP2-evaluation.md	rejected	45	752	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PLA2G4A	detail/rejected/PLA2G4A/PLA2G4A-evaluation.md	rejected	45	835	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PLA2G4D	detail/rejected/PLA2G4D/PLA2G4D-evaluation.md	rejected	45	779	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PLCB1	detail/rejected/PLCB1/PLCB1-evaluation.md	rejected	45	790	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PLCG2	detail/rejected/PLCG2/PLCG2-evaluation.md	rejected	45	766	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PLEKHA2	detail/rejected/PLEKHA2/PLEKHA2-evaluation.md	rejected	48	899	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+PLK1	detail/rejected/PLK1/PLK1-evaluation.md	rejected	39	887	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+PLK2	detail/rejected/PLK2/PLK2-evaluation.md	rejected	45	756	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PLOD2	detail/rejected/PLOD2/PLOD2-evaluation.md	rejected	45	789	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PLSCR1	detail/rejected/PLSCR1/PLSCR1-evaluation.md	rejected	45	769	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PLSCR4	detail/rejected/PLSCR4/PLSCR4-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+PMM2	detail/rejected/PMM2/PMM2-evaluation.md	rejected	45	758	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PNCK	detail/rejected/PNCK/PNCK-evaluation.md	rejected	48	890	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+PNKP	detail/rejected/PNKP/PNKP-evaluation.md	rejected	45	814	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PNN	detail/rejected/PNN/PNN-evaluation.md	rejected	45	779	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+POU1F1	detail/rejected/POU1F1/POU1F1-evaluation.md	rejected	45	811	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+POU2F1	detail/rejected/POU2F1/POU2F1-evaluation.md	rejected	45	811	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+POU2F2	detail/rejected/POU2F2/POU2F2-evaluation.md	rejected	45	813	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+POU2F3	detail/rejected/POU2F3/POU2F3-evaluation.md	rejected	45	812	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+POU3F1	detail/rejected/POU3F1/POU3F1-evaluation.md	rejected	45	812	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+POU3F2	detail/rejected/POU3F2/POU3F2-evaluation.md	rejected	45	812	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+POU3F3	detail/rejected/POU3F3/POU3F3-evaluation.md	rejected	45	812	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+POU3F4	detail/rejected/POU3F4/POU3F4-evaluation.md	rejected	45	812	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+POU4F1	detail/rejected/POU4F1/POU4F1-evaluation.md	rejected	45	812	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+POU4F2	detail/rejected/POU4F2/POU4F2-evaluation.md	rejected	45	811	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PPARGC1A	detail/rejected/PPARGC1A/PPARGC1A-evaluation.md	rejected	45	855	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PPARGC1B	detail/rejected/PPARGC1B/PPARGC1B-evaluation.md	rejected	45	848	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PPM1D	detail/rejected/PPM1D/PPM1D-evaluation.md	rejected	39	891	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+PPM1E	detail/rejected/PPM1E/PPM1E-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+PQBP1	detail/rejected/PQBP1/PQBP1-evaluation.md	rejected	45	772	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PRAME	detail/rejected/PRAME/PRAME-evaluation.md	rejected	45	790	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PRAMEF12	detail/rejected/PRAMEF12/PRAMEF12-evaluation.md	rejected	45	751	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PRICKLE1	detail/rejected/PRICKLE1/PRICKLE1-evaluation.md	rejected	45	787	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PRIMPOL	detail/rejected/PRIMPOL/PRIMPOL-evaluation.md	rejected	45	822	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PRKAA1	detail/rejected/PRKAA1/PRKAA1-evaluation.md	rejected	39	895	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+PRKCB	detail/rejected/PRKCB/PRKCB-evaluation.md	rejected	39	891	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+PRKCI	detail/rejected/PRKCI/PRKCI-evaluation.md	rejected	39	891	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+PRKN	detail/rejected/PRKN/PRKN-evaluation.md	rejected	39	887	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+PRKRA	detail/rejected/PRKRA/PRKRA-evaluation.md	rejected	45	882	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PRM1	detail/rejected/PRM1/PRM1-evaluation.md	rejected	39	887	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+PRM2	detail/rejected/PRM2/PRM2-evaluation.md	rejected	45	749	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PROP1	detail/rejected/PROP1/PROP1-evaluation.md	rejected	45	803	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PRR13	detail/rejected/PRR13/PRR13-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+PRR19	detail/rejected/PRR19/PRR19-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+PRRX2	detail/rejected/PRRX2/PRRX2-evaluation.md	rejected	45	766	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PTCH2	detail/rejected/PTCH2/PTCH2-evaluation.md	rejected	45	751	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PTGES3	detail/rejected/PTGES3/PTGES3-evaluation.md	rejected	45	770	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PTGS2	detail/rejected/PTGS2/PTGS2-evaluation.md	rejected	45	783	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PTH1R	detail/rejected/PTH1R/PTH1R-evaluation.md	rejected	45	772	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PTMA	detail/rejected/PTMA/PTMA-evaluation.md	rejected	45	755	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PTMS	detail/rejected/PTMS/PTMS-evaluation.md	rejected	45	757	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PTOV1	detail/rejected/PTOV1/PTOV1-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+PTTG1IP	detail/rejected/PTTG1IP/PTTG1IP-evaluation.md	rejected	48	899	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+PTTG2	detail/rejected/PTTG2/PTTG2-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+PURA	detail/rejected/PURA/PURA-evaluation.md	rejected	45	775	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+PYCARD	detail/rejected/PYCARD/PYCARD-evaluation.md	rejected	45	775	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+Pmf1	detail/rejected/Pmf1/Pmf1-evaluation.md	rejected	37	855	True	False	False	False	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,PubMed,Structure
+QRICH2	detail/rejected/QRICH2/QRICH2-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+R3HDM2	detail/rejected/R3HDM2/R3HDM2-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+R3HDM4	detail/rejected/R3HDM4/R3HDM4-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+RACGAP1	detail/rejected/RACGAP1/RACGAP1-evaluation.md	rejected	45	819	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+RACK1	detail/rejected/RACK1/RACK1-evaluation.md	rejected	39	891	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+RAI1	detail/rejected/RAI1/RAI1-evaluation.md	rejected	45	761	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+RAMACL	detail/rejected/RAMACL/RAMACL-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+RARB	detail/rejected/RARB/RARB-evaluation.md	rejected	45	795	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+RASL11A	detail/rejected/RASL11A/RASL11A-evaluation.md	rejected	48	899	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+RAX	detail/rejected/RAX/RAX-evaluation.md	rejected	45	775	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+RBL1	detail/rejected/RBL1/RBL1-evaluation.md	rejected	45	779	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+RBL2	detail/rejected/RBL2/RBL2-evaluation.md	rejected	45	776	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+RBX1	detail/rejected/RBX1/RBX1-evaluation.md	rejected	39	887	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+RCBTB1	detail/rejected/RCBTB1/RCBTB1-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+RCC1	detail/rejected/RCC1/RCC1-evaluation.md	rejected	45	776	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+RD3	detail/rejected/RD3/RD3-evaluation.md	rejected	45	783	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+RERE	detail/rejected/RERE/RERE-evaluation.md	rejected	45	826	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+REV1	detail/rejected/REV1/REV1-evaluation.md	rejected	39	887	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+RFPL1	detail/rejected/RFPL1/RFPL1-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+RFPL3	detail/rejected/RFPL3/RFPL3-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+RFWD3	detail/rejected/RFWD3/RFWD3-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+RGCC	detail/rejected/RGCC/RGCC-evaluation.md	rejected	45	760	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+RITA1	detail/rejected/RITA1/RITA1-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+RLBP1	detail/rejected/RLBP1/RLBP1-evaluation.md	rejected	45	772	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+RMI1	detail/rejected/RMI1/RMI1-evaluation.md	rejected	45	772	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+RMI2	detail/rejected/RMI2/RMI2-evaluation.md	rejected	48	890	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+RORB	detail/rejected/RORB/RORB-evaluation.md	rejected	45	801	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+RRM2	detail/rejected/RRM2/RRM2-evaluation.md	rejected	39	887	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+RTCA	detail/rejected/RTCA/RTCA-evaluation.md	rejected	45	772	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+RTEL1	detail/rejected/RTEL1/RTEL1-evaluation.md	rejected	45	785	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+RUBCN	detail/rejected/RUBCN/RUBCN-evaluation.md	rejected	45	768	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+RUSC1	detail/rejected/RUSC1/RUSC1-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+RUVBL1	detail/rejected/RUVBL1/RUVBL1-evaluation.md	rejected	45	791	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+RUVBL2	detail/rejected/RUVBL2/RUVBL2-evaluation.md	rejected	45	791	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+RXRB	detail/rejected/RXRB/RXRB-evaluation.md	rejected	45	762	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+RXRG	detail/rejected/RXRG/RXRG-evaluation.md	rejected	45	762	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+RYR2	detail/rejected/RYR2/RYR2-evaluation.md	rejected	45	764	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+Rasl2-9	detail/rejected/Rasl2-9/Rasl2-9-evaluation.md	rejected	48	899	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+Rhox5	detail/rejected/Rhox5/Rhox5-evaluation.md	rejected	37	859	True	False	False	False	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,PubMed,Structure
+Rrn3	detail/rejected/Rrn3/Rrn3-evaluation.md	rejected	37	855	True	False	False	False	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,PubMed,Structure
+SAAL1	detail/rejected/SAAL1/SAAL1-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+SAMD4A	detail/rejected/SAMD4A/SAMD4A-evaluation.md	rejected	45	761	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SARS1	detail/rejected/SARS1/SARS1-evaluation.md	rejected	45	771	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SASH1	detail/rejected/SASH1/SASH1-evaluation.md	rejected	45	773	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SAV1	detail/rejected/SAV1/SAV1-evaluation.md	rejected	45	824	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SCAI	detail/rejected/SCAI/SCAI-evaluation.md	rejected	45	773	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SCNM1	detail/rejected/SCNM1/SCNM1-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+SCYL1	detail/rejected/SCYL1/SCYL1-evaluation.md	rejected	45	742	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SEL1L2	detail/rejected/SEL1L2/SEL1L2-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+SELENOF	detail/rejected/SELENOF/SELENOF-evaluation.md	rejected	105	5521	True	True	True	True	True	True	False	True	True	False	True	Packet error/harvest failure appears in final report body
+SEMA4B	detail/rejected/SEMA4B/SEMA4B-evaluation.md	rejected	45	757	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SENP1	detail/rejected/SENP1/SENP1-evaluation.md	rejected	39	891	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+SEPTIN12	detail/rejected/SEPTIN12/SEPTIN12-evaluation.md	rejected	48	902	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+SESN1	detail/rejected/SESN1/SESN1-evaluation.md	rejected	45	750	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SGK1	detail/rejected/SGK1/SGK1-evaluation.md	rejected	45	778	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SGK3	detail/rejected/SGK3/SGK3-evaluation.md	rejected	45	791	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SGMS1	detail/rejected/SGMS1/SGMS1-evaluation.md	rejected	45	764	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SHF	detail/rejected/SHF/SHF-evaluation.md	rejected	45	770	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SHISA5	detail/rejected/SHISA5/SHISA5-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+SHMT1	detail/rejected/SHMT1/SHMT1-evaluation.md	rejected	45	820	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SHOC2	detail/rejected/SHOC2/SHOC2-evaluation.md	rejected	45	829	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SHOX	detail/rejected/SHOX/SHOX-evaluation.md	rejected	45	750	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SHOX2	detail/rejected/SHOX2/SHOX2-evaluation.md	rejected	45	756	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SIGLEC11	detail/rejected/SIGLEC11/SIGLEC11-evaluation.md	rejected	45	769	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SIK2	detail/rejected/SIK2/SIK2-evaluation.md	rejected	45	761	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SIM1	detail/rejected/SIM1/SIM1-evaluation.md	rejected	45	820	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SIM2	detail/rejected/SIM2/SIM2-evaluation.md	rejected	45	820	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SIPA1	detail/rejected/SIPA1/SIPA1-evaluation.md	rejected	45	831	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SIX3	detail/rejected/SIX3/SIX3-evaluation.md	rejected	45	785	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SIX4	detail/rejected/SIX4/SIX4-evaluation.md	rejected	45	784	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SIX5	detail/rejected/SIX5/SIX5-evaluation.md	rejected	45	784	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SIX6	detail/rejected/SIX6/SIX6-evaluation.md	rejected	45	785	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SKA1	detail/rejected/SKA1/SKA1-evaluation.md	rejected	45	766	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SKA2	detail/rejected/SKA2/SKA2-evaluation.md	rejected	45	767	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SKIL	detail/rejected/SKIL/SKIL-evaluation.md	rejected	45	786	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SKP1	detail/rejected/SKP1/SKP1-evaluation.md	rejected	45	815	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SKP2	detail/rejected/SKP2/SKP2-evaluation.md	rejected	45	817	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SLA	detail/rejected/SLA/SLA-evaluation.md	rejected	45	756	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SLFN11	detail/rejected/SLFN11/SLFN11-evaluation.md	rejected	45	769	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SLX1A	detail/rejected/SLX1A/SLX1A-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+SLX4	detail/rejected/SLX4/SLX4-evaluation.md	rejected	45	854	True	True	True	True	True	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: PPI
+SMAD5	detail/rejected/SMAD5/SMAD5-evaluation.md	rejected	45	762	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SMN2	detail/rejected/SMN2/SMN2-evaluation.md	rejected	32	575	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SMOX	detail/rejected/SMOX/SMOX-evaluation.md	rejected	45	754	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SMUG1	detail/rejected/SMUG1/SMUG1-evaluation.md	rejected	45	868	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SMURF2	detail/rejected/SMURF2/SMURF2-evaluation.md	rejected	39	895	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+SND1	detail/rejected/SND1/SND1-evaluation.md	rejected	45	792	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SOBP	detail/rejected/SOBP/SOBP-evaluation.md	rejected	45	803	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SOCS1	detail/rejected/SOCS1/SOCS1-evaluation.md	rejected	45	781	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SOCS4	detail/rejected/SOCS4/SOCS4-evaluation.md	rejected	45	775	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SOCS6	detail/rejected/SOCS6/SOCS6-evaluation.md	rejected	45	775	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SOS2	detail/rejected/SOS2/SOS2-evaluation.md	rejected	45	786	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SOX18	detail/rejected/SOX18/SOX18-evaluation.md	rejected	45	812	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SOX21	detail/rejected/SOX21/SOX21-evaluation.md	rejected	45	811	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SOX5	detail/rejected/SOX5/SOX5-evaluation.md	rejected	45	806	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SOX7	detail/rejected/SOX7/SOX7-evaluation.md	rejected	45	807	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SOX8	detail/rejected/SOX8/SOX8-evaluation.md	rejected	45	806	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SP110	detail/rejected/SP110/SP110-evaluation.md	rejected	45	796	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SP6	detail/rejected/SP6/SP6-evaluation.md	rejected	45	797	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SP9	detail/rejected/SP9/SP9-evaluation.md	rejected	45	796	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SPAG4	detail/rejected/SPAG4/SPAG4-evaluation.md	rejected	45	744	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SPAG5	detail/rejected/SPAG5/SPAG5-evaluation.md	rejected	45	773	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SPAST	detail/rejected/SPAST/SPAST-evaluation.md	rejected	45	749	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SPATA24	detail/rejected/SPATA24/SPATA24-evaluation.md	rejected	48	899	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+SPATA33	detail/rejected/SPATA33/SPATA33-evaluation.md	rejected	48	899	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+SPATA4	detail/rejected/SPATA4/SPATA4-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+SPATA46	detail/rejected/SPATA46/SPATA46-evaluation.md	rejected	48	899	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+SPEG	detail/rejected/SPEG/SPEG-evaluation.md	rejected	45	799	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SPHK2	detail/rejected/SPHK2/SPHK2-evaluation.md	rejected	45	761	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SPIC	detail/rejected/SPIC/SPIC-evaluation.md	rejected	45	813	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SPIN1	detail/rejected/SPIN1/SPIN1-evaluation.md	rejected	45	756	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SPIN2B	detail/rejected/SPIN2B/SPIN2B-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+SPRED1	detail/rejected/SPRED1/SPRED1-evaluation.md	rejected	45	840	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SPRY1	detail/rejected/SPRY1/SPRY1-evaluation.md	rejected	45	775	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SQSTM1	detail/rejected/SQSTM1/SQSTM1-evaluation.md	rejected	45	765	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SREBF1	detail/rejected/SREBF1/SREBF1-evaluation.md	rejected	45	808	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SREBF2	detail/rejected/SREBF2/SREBF2-evaluation.md	rejected	45	852	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SRM	detail/rejected/SRM/SRM-evaluation.md	rejected	45	759	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SRP54	detail/rejected/SRP54/SRP54-evaluation.md	rejected	45	765	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SRRT	detail/rejected/SRRT/SRRT-evaluation.md	rejected	45	822	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SSH1	detail/rejected/SSH1/SSH1-evaluation.md	rejected	45	753	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SSUH2	detail/rejected/SSUH2/SSUH2-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+SSX2B	detail/rejected/SSX2B/SSX2B-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+ST14	detail/rejected/ST14/ST14-evaluation.md	rejected	45	782	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+ST7	detail/rejected/ST7/ST7-evaluation.md	rejected	45	767	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+STAB1	detail/rejected/STAB1/STAB1-evaluation.md	rejected	45	752	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+STARD9	detail/rejected/STARD9/STARD9-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+STIL	detail/rejected/STIL/STIL-evaluation.md	rejected	45	772	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+STPG1	detail/rejected/STPG1/STPG1-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+STPG4	detail/rejected/STPG4/STPG4-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+STRADB	detail/rejected/STRADB/STRADB-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+STX2	detail/rejected/STX2/STX2-evaluation.md	rejected	45	753	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+STXBP1	detail/rejected/STXBP1/STXBP1-evaluation.md	rejected	45	771	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+STYX	detail/rejected/STYX/STYX-evaluation.md	rejected	48	890	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+SUFU	detail/rejected/SUFU/SUFU-evaluation.md	rejected	45	784	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SUN2	detail/rejected/SUN2/SUN2-evaluation.md	rejected	45	772	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SYCP2L	detail/rejected/SYCP2L/SYCP2L-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+SYNE1	detail/rejected/SYNE1/SYNE1-evaluation.md	rejected	45	843	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+SYNE3	detail/rejected/SYNE3/SYNE3-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+SYNGAP1	detail/rejected/SYNGAP1/SYNGAP1-evaluation.md	rejected	45	789	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+Slfn1	detail/rejected/Slfn1/Slfn1-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+Sox19	detail/rejected/Sox19/Sox19-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+Ssxa1	detail/rejected/Ssxa1/Ssxa1-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+TAB2	detail/rejected/TAB2/TAB2-evaluation.md	rejected	39	887	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+TAGLN	detail/rejected/TAGLN/TAGLN-evaluation.md	rejected	45	752	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TATDN1	detail/rejected/TATDN1/TATDN1-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+TATDN2	detail/rejected/TATDN2/TATDN2-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+TATDN3	detail/rejected/TATDN3/TATDN3-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+TAX1BP3	detail/rejected/TAX1BP3/TAX1BP3-evaluation.md	rejected	45	830	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TBATA	detail/rejected/TBATA/TBATA-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+TBL1XR1	detail/rejected/TBL1XR1/TBL1XR1-evaluation.md	rejected	45	784	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TBR1	detail/rejected/TBR1/TBR1-evaluation.md	rejected	45	772	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TBX15	detail/rejected/TBX15/TBX15-evaluation.md	rejected	45	780	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TBX19	detail/rejected/TBX19/TBX19-evaluation.md	rejected	45	780	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TBX20	detail/rejected/TBX20/TBX20-evaluation.md	rejected	45	781	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TBX6	detail/rejected/TBX6/TBX6-evaluation.md	rejected	45	776	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TBXT	detail/rejected/TBXT/TBXT-evaluation.md	rejected	45	766	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TC2N	detail/rejected/TC2N/TC2N-evaluation.md	rejected	48	890	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+TCEANC2	detail/rejected/TCEANC2/TCEANC2-evaluation.md	rejected	48	899	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+TCF12	detail/rejected/TCF12/TCF12-evaluation.md	rejected	45	764	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TCF24	detail/rejected/TCF24/TCF24-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+TCF7L1	detail/rejected/TCF7L1/TCF7L1-evaluation.md	rejected	45	832	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TCOF1	detail/rejected/TCOF1/TCOF1-evaluation.md	rejected	45	778	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TCP10L	detail/rejected/TCP10L/TCP10L-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+TDP1	detail/rejected/TDP1/TDP1-evaluation.md	rejected	45	769	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TDP2	detail/rejected/TDP2/TDP2-evaluation.md	rejected	45	769	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TDRP	detail/rejected/TDRP/TDRP-evaluation.md	rejected	48	890	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+TEAD2	detail/rejected/TEAD2/TEAD2-evaluation.md	rejected	45	802	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TEN1	detail/rejected/TEN1/TEN1-evaluation.md	rejected	45	807	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TERB2	detail/rejected/TERB2/TERB2-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+TERF1	detail/rejected/TERF1/TERF1-evaluation.md	rejected	45	774	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TERF2	detail/rejected/TERF2/TERF2-evaluation.md	rejected	45	774	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TERF2IP	detail/rejected/TERF2IP/TERF2IP-evaluation.md	rejected	45	830	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TESK2	detail/rejected/TESK2/TESK2-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+TEX14	detail/rejected/TEX14/TEX14-evaluation.md	rejected	45	838	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TEX55	detail/rejected/TEX55/TEX55-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+TFAP2B	detail/rejected/TFAP2B/TFAP2B-evaluation.md	rejected	45	774	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TFAP4	detail/rejected/TFAP4/TFAP4-evaluation.md	rejected	45	792	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TFCP2	detail/rejected/TFCP2/TFCP2-evaluation.md	rejected	45	765	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TFCP2L1	detail/rejected/TFCP2L1/TFCP2L1-evaluation.md	rejected	45	811	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TFEC	detail/rejected/TFEC/TFEC-evaluation.md	rejected	45	760	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TGFB1I1	detail/rejected/TGFB1I1/TGFB1I1-evaluation.md	rejected	45	795	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TGIF2	detail/rejected/TGIF2/TGIF2-evaluation.md	rejected	45	803	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TGIF2LY	detail/rejected/TGIF2LY/TGIF2LY-evaluation.md	rejected	45	764	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+THBD	detail/rejected/THBD/THBD-evaluation.md	rejected	45	757	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+THEMIS	detail/rejected/THEMIS/THEMIS-evaluation.md	rejected	45	774	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+THRA	detail/rejected/THRA/THRA-evaluation.md	rejected	45	768	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+THRSP	detail/rejected/THRSP/THRSP-evaluation.md	rejected	45	767	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TIMELESS	detail/rejected/TIMELESS/TIMELESS-evaluation.md	rejected	45	809	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TINF2	detail/rejected/TINF2/TINF2-evaluation.md	rejected	45	819	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TJP2	detail/rejected/TJP2/TJP2-evaluation.md	rejected	45	762	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TKT	detail/rejected/TKT/TKT-evaluation.md	rejected	45	749	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TLE1	detail/rejected/TLE1/TLE1-evaluation.md	rejected	45	824	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TLE3	detail/rejected/TLE3/TLE3-evaluation.md	rejected	45	823	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TLE4	detail/rejected/TLE4/TLE4-evaluation.md	rejected	45	823	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TLX1	detail/rejected/TLX1/TLX1-evaluation.md	rejected	45	794	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TMC8	detail/rejected/TMC8/TMC8-evaluation.md	rejected	48	890	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+TMPO	detail/rejected/TMPO/TMPO-evaluation.md	rejected	45	750	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TMSB4X	detail/rejected/TMSB4X/TMSB4X-evaluation.md	rejected	45	800	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TNFAIP8	detail/rejected/TNFAIP8/TNFAIP8-evaluation.md	rejected	45	774	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TNIK	detail/rejected/TNIK/TNIK-evaluation.md	rejected	45	771	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TNKS	detail/rejected/TNKS/TNKS-evaluation.md	rejected	45	817	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TNKS1BP1	detail/rejected/TNKS1BP1/TNKS1BP1-evaluation.md	rejected	48	902	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+TNKS2	detail/rejected/TNKS2/TNKS2-evaluation.md	rejected	45	823	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TNMD	detail/rejected/TNMD/TNMD-evaluation.md	rejected	45	742	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TNNI1	detail/rejected/TNNI1/TNNI1-evaluation.md	rejected	45	754	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TNNT1	detail/rejected/TNNT1/TNNT1-evaluation.md	rejected	45	772	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TNNT2	detail/rejected/TNNT2/TNNT2-evaluation.md	rejected	45	766	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TNP2	detail/rejected/TNP2/TNP2-evaluation.md	rejected	45	757	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TNPO1	detail/rejected/TNPO1/TNPO1-evaluation.md	rejected	45	754	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TNPO3	detail/rejected/TNPO3/TNPO3-evaluation.md	rejected	45	754	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TOLLIP	detail/rejected/TOLLIP/TOLLIP-evaluation.md	rejected	45	768	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TOR1A	detail/rejected/TOR1A/TOR1A-evaluation.md	rejected	45	804	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TOR1B	detail/rejected/TOR1B/TOR1B-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+TOX3	detail/rejected/TOX3/TOX3-evaluation.md	rejected	45	781	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TP53BP1	detail/rejected/TP53BP1/TP53BP1-evaluation.md	rejected	45	788	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TP53BP2	detail/rejected/TP53BP2/TP53BP2-evaluation.md	rejected	45	777	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TP53INP1	detail/rejected/TP53INP1/TP53INP1-evaluation.md	rejected	45	859	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TP53INP2	detail/rejected/TP53INP2/TP53INP2-evaluation.md	rejected	45	772	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TP73	detail/rejected/TP73/TP73-evaluation.md	rejected	45	755	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TPI1	detail/rejected/TPI1/TPI1-evaluation.md	rejected	45	764	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TPP2	detail/rejected/TPP2/TPP2-evaluation.md	rejected	48	890	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+TPRX2	detail/rejected/TPRX2/TPRX2-evaluation.md	rejected	45	744	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TPX2	detail/rejected/TPX2/TPX2-evaluation.md	rejected	45	804	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TRADD	detail/rejected/TRADD/TRADD-evaluation.md	rejected	45	816	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TRAF1	detail/rejected/TRAF1/TRAF1-evaluation.md	rejected	45	773	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TRAF4	detail/rejected/TRAF4/TRAF4-evaluation.md	rejected	45	773	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TRAK1	detail/rejected/TRAK1/TRAK1-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+TRAPPC12	detail/rejected/TRAPPC12/TRAPPC12-evaluation.md	rejected	48	902	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+TREX1	detail/rejected/TREX1/TREX1-evaluation.md	rejected	45	774	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TRIB2	detail/rejected/TRIB2/TRIB2-evaluation.md	rejected	45	764	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TRIB3	detail/rejected/TRIB3/TRIB3-evaluation.md	rejected	39	891	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+TRIM29	detail/rejected/TRIM29/TRIM29-evaluation.md	rejected	45	774	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TRIM32	detail/rejected/TRIM32/TRIM32-evaluation.md	rejected	39	855	True	False	True	False	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,PubMed,Structure
+TRIM33	detail/rejected/TRIM33/TRIM33-evaluation.md	rejected	39	895	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+TRIM37	detail/rejected/TRIM37/TRIM37-evaluation.md	rejected	45	801	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TRIM56	detail/rejected/TRIM56/TRIM56-evaluation.md	rejected	45	757	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TRIM68	detail/rejected/TRIM68/TRIM68-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+TRIP13	detail/rejected/TRIP13/TRIP13-evaluation.md	rejected	45	782	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TRIP4	detail/rejected/TRIP4/TRIP4-evaluation.md	rejected	45	778	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TRIP6	detail/rejected/TRIP6/TRIP6-evaluation.md	rejected	45	777	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TRPM7	detail/rejected/TRPM7/TRPM7-evaluation.md	rejected	45	879	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TRRAP	detail/rejected/TRRAP/TRRAP-evaluation.md	rejected	45	853	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TSC22D3	detail/rejected/TSC22D3/TSC22D3-evaluation.md	rejected	45	807	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TSEN15	detail/rejected/TSEN15/TSEN15-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+TSEN34	detail/rejected/TSEN34/TSEN34-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+TSG101	detail/rejected/TSG101/TSG101-evaluation.md	rejected	45	801	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TSNAXIP1	detail/rejected/TSNAXIP1/TSNAXIP1-evaluation.md	rejected	48	902	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+TSPY10	detail/rejected/TSPY10/TSPY10-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+TSPY2	detail/rejected/TSPY2/TSPY2-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+TSPY4	detail/rejected/TSPY4/TSPY4-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+TSPY8	detail/rejected/TSPY8/TSPY8-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+TSPY9	detail/rejected/TSPY9/TSPY9-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+TSTD1	detail/rejected/TSTD1/TSTD1-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+TTBK2	detail/rejected/TTBK2/TTBK2-evaluation.md	rejected	45	761	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TTF2	detail/rejected/TTF2/TTF2-evaluation.md	rejected	45	827	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TTK	detail/rejected/TTK/TTK-evaluation.md	rejected	45	754	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TTL	detail/rejected/TTL/TTL-evaluation.md	rejected	45	758	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TTN	detail/rejected/TTN/TTN-evaluation.md	rejected	45	748	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TUBD1	detail/rejected/TUBD1/TUBD1-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+TWIST2	detail/rejected/TWIST2/TWIST2-evaluation.md	rejected	45	838	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TXN	detail/rejected/TXN/TXN-evaluation.md	rejected	45	752	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TXNL1	detail/rejected/TXNL1/TXNL1-evaluation.md	rejected	45	780	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TXNRD1	detail/rejected/TXNRD1/TXNRD1-evaluation.md	rejected	45	771	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+TYMP	detail/rejected/TYMP/TYMP-evaluation.md	rejected	45	766	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+Tbl1x	detail/rejected/Tbl1x/Tbl1x-evaluation.md	rejected	37	859	True	False	False	False	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,PubMed,Structure
+Tex24	detail/rejected/Tex24/Tex24-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+Trap1a	detail/rejected/Trap1a/Trap1a-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+Tsga8	detail/rejected/Tsga8/Tsga8-evaluation.md	rejected	37	859	True	False	False	False	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,PubMed,Structure
+Txnl4a	detail/rejected/Txnl4a/Txnl4a-evaluation.md	rejected	37	863	True	False	False	False	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,PubMed,Structure
+UBTF	detail/rejected/UBTF/UBTF-evaluation.md	rejected	45	833	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+UBXN2A	detail/rejected/UBXN2A/UBXN2A-evaluation.md	rejected	48	896	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+UBXN6	detail/rejected/UBXN6/UBXN6-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+UBXN7	detail/rejected/UBXN7/UBXN7-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+UNC93B1	detail/rejected/UNC93B1/UNC93B1-evaluation.md	rejected	45	782	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+UNG	detail/rejected/UNG/UNG-evaluation.md	rejected	45	760	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+UPK3A	detail/rejected/UPK3A/UPK3A-evaluation.md	rejected	45	735	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+UPRT	detail/rejected/UPRT/UPRT-evaluation.md	rejected	45	812	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+URGCP	detail/rejected/URGCP/URGCP-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+URI1	detail/rejected/URI1/URI1-evaluation.md	rejected	48	890	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+URM1	detail/rejected/URM1/URM1-evaluation.md	rejected	45	766	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+UROD	detail/rejected/UROD/UROD-evaluation.md	rejected	45	767	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+UROS	detail/rejected/UROS/UROS-evaluation.md	rejected	45	767	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+USF2	detail/rejected/USF2/USF2-evaluation.md	rejected	45	822	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+UTY	detail/rejected/UTY/UTY-evaluation.md	rejected	45	805	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+UXT	detail/rejected/UXT/UXT-evaluation.md	rejected	45	782	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+VEZT	detail/rejected/VEZT/VEZT-evaluation.md	rejected	48	890	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+VGLL4	detail/rejected/VGLL4/VGLL4-evaluation.md	rejected	45	769	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+VIRMA	detail/rejected/VIRMA/VIRMA-evaluation.md	rejected	45	784	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+VSIG4	detail/rejected/VSIG4/VSIG4-evaluation.md	rejected	45	785	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+VSX1	detail/rejected/VSX1/VSX1-evaluation.md	rejected	45	761	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+WAC	detail/rejected/WAC/WAC-evaluation.md	rejected	45	780	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+WDHD1	detail/rejected/WDHD1/WDHD1-evaluation.md	rejected	45	800	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+WDR18	detail/rejected/WDR18/WDR18-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+WDR37	detail/rejected/WDR37/WDR37-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+WDR4	detail/rejected/WDR4/WDR4-evaluation.md	rejected	45	820	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+WDR43	detail/rejected/WDR43/WDR43-evaluation.md	rejected	45	737	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+WDR55	detail/rejected/WDR55/WDR55-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+WDR62	detail/rejected/WDR62/WDR62-evaluation.md	rejected	45	760	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+WDR74	detail/rejected/WDR74/WDR74-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+WEE1	detail/rejected/WEE1/WEE1-evaluation.md	rejected	39	887	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+WIPI2	detail/rejected/WIPI2/WIPI2-evaluation.md	rejected	45	789	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+WNK1	detail/rejected/WNK1/WNK1-evaluation.md	rejected	39	887	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+WWC1	detail/rejected/WWC1/WWC1-evaluation.md	rejected	45	812	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+WWOX	detail/rejected/WWOX/WWOX-evaluation.md	rejected	45	812	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+WWP2	detail/rejected/WWP2/WWP2-evaluation.md	rejected	45	788	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+WWTR1	detail/rejected/WWTR1/WWTR1-evaluation.md	rejected	45	788	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+XAF1	detail/rejected/XAF1/XAF1-evaluation.md	rejected	45	762	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+XK	detail/rejected/XK/XK-evaluation.md	rejected	45	796	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+XPA	detail/rejected/XPA/XPA-evaluation.md	rejected	39	883	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+XRCC1	detail/rejected/XRCC1/XRCC1-evaluation.md	rejected	39	891	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+XRCC6	detail/rejected/XRCC6/XRCC6-evaluation.md	rejected	39	891	True	False	False	True	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,Structure
+XRRA1	detail/rejected/XRRA1/XRRA1-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+Xiap	detail/rejected/Xiap/Xiap-evaluation.md	rejected	37	855	True	False	False	False	False	True	True	True	False	False	False	Thin rejected/backlog candidate; Missing: HPA,UniProt/GO,PubMed,Structure
+Xlr5c	detail/rejected/Xlr5c/Xlr5c-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+YBX2	detail/rejected/YBX2/YBX2-evaluation.md	rejected	45	778	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+YBX3	detail/rejected/YBX3/YBX3-evaluation.md	rejected	45	778	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+YPEL1	detail/rejected/YPEL1/YPEL1-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+YPEL3	detail/rejected/YPEL3/YPEL3-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+YWHAZ	detail/rejected/YWHAZ/YWHAZ-evaluation.md	rejected	45	908	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+ZMPSTE24	detail/rejected/ZMPSTE24/ZMPSTE24-evaluation.md	rejected	45	802	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+ZNG1B	detail/rejected/ZNG1B/ZNG1B-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+ZNG1C	detail/rejected/ZNG1C/ZNG1C-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+ZNG1E	detail/rejected/ZNG1E/ZNG1E-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+ZNG1F	detail/rejected/ZNG1F/ZNG1F-evaluation.md	rejected	48	893	True	True	True	True	True	True	False	True	False	False	False	Thin rejected/backlog candidate
+ZW10	detail/rejected/ZW10/ZW10-evaluation.md	rejected	45	761	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+ZWILCH	detail/rejected/ZWILCH/ZWILCH-evaluation.md	rejected	45	746	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+ZWINT	detail/rejected/ZWINT/ZWINT-evaluation.md	rejected	45	794	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI
+ZYX	detail/rejected/ZYX/ZYX-evaluation.md	rejected	45	740	True	True	True	True	False	False	False	True	False	False	False	Thin rejected/backlog candidate; Missing: Structure,PPI

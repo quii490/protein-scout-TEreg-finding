@@ -1,0 +1,186 @@
+---
+type: protein-evaluation
+gene: "SMAD9"
+date: 2026-05-30
+tags: [protein-scout, nuclear-protein, evaluation]
+status: scored
+---
+
+## SMAD9 核蛋白评估报告
+
+### 1. 基本信息
+
+| 项目 | 内容 |
+|---|---|
+| 基因名 / 别名 | SMAD9 / SMAD8|SMAD8/9 |
+| 蛋白全称 | SMAD family member 9 |
+| 蛋白大小 | 467 aa |
+| UniProt ID | O15198 |
+| 评估日期 | 2026-05-30 |
+
+**IF 图像**:
+![[Projects/TEreg-finding/protein-interested/detail/nuclear-speckle/SMAD9/IF_images/HEK293_1.jpg|HEK293]]
+![[Projects/TEreg-finding/protein-interested/detail/nuclear-speckle/SMAD9/IF_images/Rh30_1.jpg|Rh30]]
+
+### 2. 评分总览
+
+| 维度 | 得分 | 满分 | 加权后 | 关键证据摘要 |
+|---|---|---|---|---|
+| 核定位特异性 | 7/10 | ×4 | **28** | UniProt 核定位，部分细胞质 |
+| 蛋白大小 | 10/10 | ×1 | **10** | 467 aa，处于理想范围 |
+| 研究新颖性 | 2/10 | ×5 | 10 | PubMed 86 篇，中等研究热度 |
+| 三维结构 | 8/10 | ×3 | **24** | 1 个 PDB 结构 + AlphaFold 预测 |
+| 调控结构域 | 7/10 | ×2 | **14** | 13 个已注释结构域 |
+| PPI 网络 | 2/10 | ×3 | **6** | PPI 数据极为稀少 |
+| 互证加分 | -- | -- | **+2.0** | UniProt + GO 核定位互证 (+1); PDB + AlphaFold 结构互证 (+0.5); 多库结构域一致 (+0.5) |
+|  | **原始总分** |  | **93/183** | **92.0/183** |  |  |
+|  | **归一化总分** |  | **50.8/100** | **50.3/100** |  |  |
+
+### 3. 详细分析
+
+#### 3.1 核定位证据
+
+| 来源 | 定位 | 可信度 |
+|------|------|--------|
+| GeneCards | Tier1_保守_高置信度 | 高置信度保守 |
+| HPA IF | 暂无数据（待细胞分析），核定位基于 UniProt + GO 注释 | -- |
+| UniProt | Cytoplasm, Nucleus | 实验证据/预测 |
+| GO-CC | N/A | N/A |
+
+**结论**: UniProt Nucleus + partial cyto
+
+#### 3.2 蛋白大小评估
+
+**评价**: 467 aa，处于理想范围
+
+#### 3.3 研究现状
+
+| 指标 | 数值 |
+|------|------|
+| PubMed 总数 | 86 |
+
+**关键文献**:
+1. Welch et al. (2023). "Defining the clinical validity of genes reported to cause pulmonary arterial hypertension.". *Genet Med*. PMID: 37422716
+2. Montani et al. (2025). "Consistent Safety and Efficacy of Sotatercept for Pulmonary Arterial Hypertension in BMPR2 Mutation Carriers and Noncarriers: A Planned Analysis of a Phase II, Double-Blind, Placebo-controlled Clinical Trial (PULSAR).". *Am J Respir Crit Care Med*. PMID: 40035659
+3. Tsukamoto et al. (2014). "Smad9 is a new type of transcriptional regulator in bone morphogenetic protein signaling.". *Sci Rep*. PMID: 25534700
+4. Thompson et al. (2022). "Pediatric Germline Predisposition to Myeloid Neoplasms.". *Curr Hematol Malig Rep*. PMID: 36117229
+5. Hayvaci et al. (2026). "The Role of Genetics in Congenital Heart Disease-Associated Pulmonary Arterial Hypertension.". *Pediatr Cardiol*. PMID: 40180617
+**评价**: PubMed 86 篇，中等研究热度
+
+#### 3.4 三维结构分析
+
+| 指标 | 数值 |
+|------|------|
+| UniProt 长度 | 467 aa |
+| PDB 条数 | 1 |
+| 已注释结构域 | 13 |
+
+**PAE 图**:
+
+![[Projects/TEreg-finding/protein-interested/detail/nuclear-speckle/SMAD9/SMAD9-PAE.png]]
+
+**评价**: 1 个 PDB 结构 + AlphaFold 预测
+
+#### 3.5 结构域分析
+
+| 来源 | 结构域 |
+|------|------|
+| InterPro | Dwarfin |
+| InterPro | MAD_homology1_Dwarfin-type |
+| InterPro | MAD_homology_MH1 |
+| InterPro | SMAD-like_dom_sf |
+| InterPro | SMAD_dom_Dwarfin-type |
+| InterPro | SMAD_FHA_dom_sf |
+| InterPro | SMAD_MH1_sf |
+| Pfam | MH1 |
+| Pfam | MH2 |
+| SMART | DWA |
+| SMART | DWB |
+| PROSITE | MH1 |
+| PROSITE | MH2 |
+
+**染色质调控潜力分析**: 13 个已注释结构域，新颖蛋白基线水平
+
+#### 3.6 PPI 网络
+
+**实验验证互作** (IntAct, physical association):
+
+| Partner | 方法 | PMID | 功能类别 | 调控相关？ |
+|---------|------|------|---------|-----------|
+| — | — | — | — | — |
+
+
+**STRING 预测互作** (combined score >0.4):
+
+| Partner | Score | 功能类别 | 调控相关？ |
+|---------|-------|---------|------------|
+
+**已知复合体成员** (GO-CC):
+
+- C:chromatin (GO:0000785, ISA:NTNU_SB)
+- C:heteromeric SMAD protein complex (GO:0071144, IBA:GO_Central)
+- C:SMAD protein complex (GO:0071141, NAS:BHF-UCL)
+
+
+**PPI 互证分析**:
+- （待补充：综合 STRING、IntAct 和 GO 数据库的互作信息，分析 PPI 网络的一致性）
+**评价**: PPI 数据极为稀少
+
+#### 3.7 多库互证
+
+| 维度 | 来源 | 结果 | 是否一致 |
+|------|------|------|----------|
+| 三维结构 | AlphaFold + PDB | 1 条 | 一致 |
+| 结构域 | UniProt/InterPro/Pfam | 13 个 | 多库一致 |
+| PPI 网络 | STRING | 0 个 | 无数据 |
+| 核定位 | HPA/UniProt/GO | Nucleus | 多源一致 |
+
+**互证加分明细**:
+UniProt + GO 核定位互证 (+1)
+PDB + AlphaFold 结构互证 (+0.5)
+多库结构域一致 (+0.5)
+**总计**: +2.0
+
+### 4. 总体评价
+
+**推荐等级**: ***oo (3/5)
+
+**核心优势**:
+1. 新颖性: PubMed 86 篇，中等研究热度
+2. 核定位: 明确核定位
+
+**风险/不确定性**:
+1. 缺少 HPA IF 图像数据
+2. 已有 1 个 PDB 结构，结构信息充分
+
+**下一步建议**:
+- [ ] 通过 IF 实验验证核定位
+- [ ] 基于 PPI 网络开展功能研究
+- [ ] 结构分析: 基于 PDB 的功能位点设计
+
+### 5. 数据来源
+- GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=SMAD9
+- Protein Atlas: https://www.proteinatlas.org/ENSG00000120693-SMAD9
+- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22SMAD9%22%5BTitle/Abstract%5D
+- UniProt: https://www.uniprot.org/uniprot/O15198
+- STRING: https://string-db.org/network/9606.ENSG00000120693
+- AlphaFold: https://alphafold.ebi.ac.uk/entry/O15198
+
+
+#### PPI 网络（三源综合）
+| Partner | Source | Score/Evidence |
+|---|---|---|
+| 无记录 | — | — |
+
+IntAct 有限记录。无 BioGrid 补充数据。
+
+![[SMAD9-PAE.png]]
+
+PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
+
+
+![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nuclear-speckle/SMAD9/SMAD9-PAE.png]]
+
+
+
+

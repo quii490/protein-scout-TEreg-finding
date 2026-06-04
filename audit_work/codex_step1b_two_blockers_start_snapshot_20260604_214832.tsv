@@ -1,0 +1,3 @@
+gene	path	status	category	lines	chars	contains_packet_error	contains_harvest_failure	contains_one_line_no_nuclear	is_11_line_template	validate_errors	validate_warnings
+TRIM63	detail/nucleoplasm/TRIM63/TRIM63-evaluation.md	scored	nucleoplasm	197	19854	False	True	False	False	2653	1954
+SELENOF	detail/rejected/SELENOF/SELENOF-evaluation.md	rejected	rejected	105	5521	False	True	False	False	2653	1954

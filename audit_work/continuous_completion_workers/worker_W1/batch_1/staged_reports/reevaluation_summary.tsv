@@ -1,0 +1,57 @@
+gene	new_status	nuclear_score	dest	lines	rejection_reason
+AGTPBP1	rescued	核定位特异性	nucleoplasm	183	
+AKAP6	rescued	核定位特异性	nuclear-envelope	183	
+CMAS	rescued	核定位特异性	nucleoplasm	178	
+CMYA5	rescued	核定位特异性	nucleoplasm	180	
+MLIP	rescued	核定位特异性	nuclear-envelope	166	
+MMS19	rescued	核定位特异性	nucleoplasm	183	
+MMS22L	rescued	核定位特异性	nucleoplasm	181	
+MOB1B	rescued	核定位特异性	nucleoplasm	179	
+MOB2	rescued	核定位特异性	nucleolus	181	
+MORN2	rescued	核定位特异性	nucleoplasm	171	
+MOSPD1	rescued	核定位特异性	nucleoplasm	172	
+MPPE1	rescued	核定位特异性	nucleoplasm	179	
+MRFAP1	rescued	核定位特异性	nucleoplasm	177	
+NEXMIF	rescued	核定位特异性	nucleoplasm	161	
+NFKBIL1	rescued	核定位特异性	nucleoplasm	168	
+NHLRC1	rescued	核定位特异性	nucleoplasm	179	
+NIF3L1	rescued	核定位特异性	nucleoplasm	169	
+NME8	rescued	核定位特异性	nuclear-speckle	182	
+NMRK2	rescued	核定位特异性	nucleoplasm	172	
+NOM1	rescued	核定位特异性	nucleolus	176	
+NOPCHAP1	rescued	核定位特异性	nuclear-envelope	163	
+NRIP2	rescued	核定位特异性	nuclear-speckle	175	
+NSMCE4A	rescued	核定位特异性	nuclear-speckle	180	
+NSRP1	rescued	核定位特异性	nuclear-speckle	179	
+NUBP1	rescued	核定位特异性	nucleoplasm	183	
+RIPPLY2	rescued	核定位特异性	nucleoplasm	176	
+RIT2	rescued	核定位特异性	nucleoplasm	183	
+RSRP1	rescued	核定位特异性	nucleoplasm	167	
+RTN1	rescued	核定位特异性	nuclear-speckle	183	
+SAMD11	rescued	核定位特异性	nucleoplasm	171	
+SBF1	rescued	核定位特异性	nuclear-speckle	182	
+SBF2	rescued	核定位特异性	nucleoplasm	182	
+SBNO1	rescued	核定位特异性	nucleoplasm	176	
+SCEL	rescued	核定位特异性	nucleoplasm	179	
+SDCBP2	rescued	核定位特异性	nuclear-speckle	183	
+SELENOM	rescued	核定位特异性	nucleoplasm	178	
+SERF1A	rescued	核定位特异性	nuclear-speckle	172	
+SERF1B	rescued	核定位特异性	nuclear-speckle	166	
+SERGEF	rescued	核定位特异性	nucleoplasm	179	
+SERPINB10	rescued	核定位特异性	nucleoplasm	172	
+SERPINB13	rescued	核定位特异性	nuclear-speckle	182	
+SMPD4	rescued	核定位特异性	nuclear-envelope	183	
+SMTNL1	rescued	核定位特异性	nucleoplasm	174	
+SPANXA1	rescued	核定位特异性	nucleoplasm	171	
+SPANXB1	rescued	核定位特异性	nucleoplasm	177	
+SPANXD	rescued	核定位特异性	nucleoplasm	169	
+FAM193A	confirmed_rejected	核定位特异性		173	## FAM193A — REJECTED (核定位证据不足 (核定位得分 3/10 ≤ 3))
+FGF14	confirmed_rejected	核定位特异性		177	## FGF14 — REJECTED (研究热度过高 (PubMed strict=184，超过100篇阈值))
+HSD3B1	confirmed_rejected	核定位特异性		183	## HSD3B1 — REJECTED (研究热度过高 (PubMed strict=416，超过100篇阈值))
+HSD3B2	confirmed_rejected	核定位特异性		183	## HSD3B2 — REJECTED (研究热度过高 (PubMed strict=256，超过100篇阈值))
+LORICRIN	confirmed_rejected	核定位特异性		179	## LORICRIN — REJECTED (研究热度过高 (PubMed strict=538，超过100篇阈值))
+MKKS	confirmed_rejected	核定位特异性		182	## MKKS — REJECTED (研究热度过高 (PubMed strict=196，超过100篇阈值))
+NAA30	confirmed_rejected	核定位特异性		167	## NAA30 — REJECTED (核定位证据不足 (核定位得分 3/10 ≤ 3))
+NABP1	confirmed_rejected	核定位特异性		167	## NABP1 — REJECTED (核定位证据不足 (核定位得分 3/10 ≤ 3))
+NOS1AP	confirmed_rejected	核定位特异性		183	## NOS1AP — REJECTED (研究热度过高 (PubMed strict=156，超过100篇阈值))
+TEP1	confirmed_rejected	核定位特异性		171	## TEP1 — REJECTED (研究热度过高 (PubMed strict=253，超过100篇阈值))

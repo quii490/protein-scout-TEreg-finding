@@ -1,0 +1,106 @@
+{
+  "source_sheet": "研究很多",
+  "batch_index": 9,
+  "genes": [
+    {
+      "gene": "CPHXL",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CPHXL2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DALRD3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DCPH1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DCUN1D3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DCUN1D5",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DAZ1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DAZ4",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DPCD",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DCANP1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DENND1C",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DCAKD",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DERPC",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DESI1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DGCR6",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DGCR6L",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DPH7",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DPH6",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DISP2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DIPK1A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DIPK1B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DMRTC1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DMRTC1B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DOP1A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DOP1B",
+      "source_sheet": "研究很多"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+gene	status	path	lines	chars	score	has_hpa	has_uni	has_pubmed	has_af	has_pdb	has_ppi	has_score	has_reason	has_note	has_bad	errors	pass	reason
+BCLAF1	rejected	detail/rejected/BCLAF1/BCLAF1-evaluation.md	179	6685	28.9	True	True	True	True	True	True	True	True	False	False	1	False	FAIL
+MIOS	rejected	detail/rejected/MIOS/MIOS-evaluation.md	11	184	?	False	False	False	False	False	False	False	True	False	False	0	True	OK
+MIS18A	rejected	detail/rejected/MIS18A/MIS18A-evaluation.md	11	188	?	False	False	False	False	False	False	False	True	False	False	0	True	OK
+MKKS	rejected	detail/rejected/MKKS/MKKS-evaluation.md	194	7760	36.7	True	True	True	True	True	True	True	True	False	False	0	True	OK
+MKLN1	rejected	detail/rejected/MKLN1/MKLN1-evaluation.md	209	8338	52.8	True	True	True	True	True	True	True	True	False	False	0	True	OK

@@ -1,0 +1,178 @@
+---
+type: protein-evaluation
+gene: "METTL14"
+date: 2026-06-03
+tags: [protein-scout, rejected, evaluation]
+status: rejected
+---
+
+## METTL14 — REJECTED (研究热度过高 (PubMed strict=790，超过100篇阈值))
+
+### 1. 基本信息
+
+| 项目 | 内容 |
+|------|------|
+| 基因名 / 别名 | METTL14 / KIAA1627 |
+| 蛋白名称 | N(6)-adenosine-methyltransferase non-catalytic subunit METTL14 |
+| 蛋白大小 | 456 aa / 52.1 kDa |
+| UniProt ID | Q9HCE5 |
+| 评估日期 | 2026-06-03 |
+
+### 2. 评分总览
+
+| 维度 | 得分 | 满分 | 加权后 | 关键证据摘要 |
+|------|------|------|--------|-------------|
+| 核定位特异性 | 9/10 | ×4 | 36 | HPA: Nucleoplasm; UniProt: Nucleus |
+| 蛋白大小 | 10/10 | ×1 | 10 | 456 aa / 52.1 kDa |
+| 研究新颖性 | 0/10 | ×5 | 0 | PubMed strict=790 篇 (>100→REJECTED) |
+| 三维结构 | 10/10 | ×3 | 30 | AlphaFold v6 pLDDT=79.3; PDB: 5IL0, 5IL1, 5IL2, 5K7M, 5K7U, 5K7W, 5L6D |
+| 调控结构域 | 7/10 | ×2 | 14 | InterPro: IPR045123, IPR007757, IPR029063; Pfam: PF05063 |
+| PPI 网络 | 3/10 | ×3 | 9 | STRING 15 partners; IntAct 15 interactions |
+| 互证加分 | — | max +3 | 3.0 | PDB+AF+STRING+IntAct cross-validation |
+| **原始总分** | | | **102.0/180** | |
+| **归一化总分** | | | **56.7/100** | |
+
+### 3. 详细分析
+
+#### 3.1 核定位证据
+
+| 来源 | 定位 | 可信度 |
+|------|------|--------|
+| Protein Atlas (IF) | Nucleoplasm | Supported |
+| UniProt | Nucleus | Swiss-Prot/TrEMBL |
+
+**IF 图像获取**: 未下载本地IF图像（standard evaluation），核定位证据基于HPA subcellular localization注释、UniProt注释和GO-CC术语。
+
+**GO Cellular Component**:
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- RNA N6-methyladenosine methyltransferase complex (GO:0036396)
+
+**结论**: 多个独立数据源一致确认核定位，HPA可靠性高，核定位证据充分。
+
+#### 3.2 蛋白大小评估
+
+**评价**: 大小适中（200-800 aa），适合常规生化实验和结构解析。
+
+#### 3.3 研究现状
+
+| 指标 | 数值 |
+|------|------|
+| PubMed strict count | 790 |
+| PubMed broad count | 1265 |
+| 别名(未计入scoring) | Aliases observed but not used for scoring: KIAA1627 |
+
+**关键文献**:
+1. RNA m6A methylation across the transcriptome.. *Molecular cell*. PMID: 36736310
+2. Deletion of METTL14, a key methylation regulator, attenuates vascular ageing.. *European heart journal*. PMID: 40758401
+3. m(6) A RNA methylation: from mechanisms to therapeutic potential.. *The EMBO journal*. PMID: 33470439
+4. Methyltransferase-like proteins in cancer biology and potential therapeutic targeting.. *Journal of hematology & oncology*. PMID: 37533128
+5. Fine-tuning of gene expression through the Mettl3-Mettl14-Dnmt1 axis controls ESC differentiation.. *Cell*. PMID: 39826545
+
+**评价**: 研究基础较多，新颖性有限。
+
+#### 3.4 三维结构分析
+
+| 指标 | 数值 |
+|------|------|
+| AlphaFold 版本 | v6 |
+| AlphaFold 平均 pLDDT | 79.3 |
+| 高置信度残基 (pLDDT>90) 占比 | 56.4% |
+| 置信残基 (pLDDT 70-90) 占比 | 12.9% |
+| 中等置信 (pLDDT 50-70) 占比 | 10.7% |
+| 低置信 (pLDDT<50) 占比 | 20.0% |
+| 有序区域 (pLDDT>70) 占比 | 69.3% |
+| 可用 PDB 条目 | 5IL0, 5IL1, 5IL2, 5K7M, 5K7U, 5K7W, 5L6D, 5L6E, 5TEY, 6TTP |
+
+**PAE**: PAE 图像未生成本地文件（standard evaluation），结构判断基于 AlphaFold pLDDT 统计。
+
+**评价**: PDB实验结构（5IL0, 5IL1, 5IL2, 5K7M, 5K7U, 5K7W, 5L6D, 5L6E, 5TEY, 6TTP）+ AlphaFold极高置信度预测（pLDDT=79.3），结构可信度极高。
+
+#### 3.5 结构域分析
+
+| 来源 | 结构域 |
+|------|--------|
+| InterPro/Pfam | InterPro: IPR045123, IPR007757, IPR029063; Pfam: PF05063 |
+
+**染色质调控潜力分析**: 存在已知结构域注释，可作为功能研究的结构基础。
+
+#### 3.6 PPI 网络
+
+**STRING 预测互作** (combined score >0.4):
+
+| Partner | Combined Score | Experimental | 功能类别 |
+|---------|---------------|--------------|---------|
+| RBM15 | 0.999 | 0.136 | — |
+| WTAP | 0.999 | 0.585 | — |
+| CBLL1 | 0.999 | 0.292 | — |
+| VIRMA | 0.999 | 0.517 | — |
+| ZC3H13 | 0.999 | 0.331 | — |
+| METTL3 | 0.999 | 0.994 | — |
+| RBM15B | 0.999 | 0.136 | — |
+| METTL16 | 0.996 | 0.000 | — |
+| METTL4 | 0.992 | 0.000 | — |
+| DGCR8 | 0.989 | 0.000 | — |
+
+**实验验证互作** (IntAct):
+
+| Partner | 方法 | PMID |
+|---------|------|------|
+| MTB | psi-mi:"MI:0397"(two hybrid array) | pubmed:21798944|imex:IM-16043 |
+| Prp3 | psi-mi:"MI:0018"(two hybrid) | pubmed:14605208|imex:IM-16524| |
+| Dmel\CG8079 | psi-mi:"MI:0018"(two hybrid) | pubmed:14605208|imex:IM-16524| |
+| Miro | psi-mi:"MI:0018"(two hybrid) | pubmed:14605208|imex:IM-16524| |
+| Mettl3 | psi-mi:"MI:0018"(two hybrid) | pubmed:14605208|imex:IM-16524| |
+| cg4798 | psi-mi:"MI:0018"(two hybrid) | pubmed:14605208|imex:IM-16524| |
+| RASSF8 | psi-mi:"MI:0018"(two hybrid) | pubmed:14605208|imex:IM-16524| |
+| Dmel\CG5111 | psi-mi:"MI:0018"(two hybrid) | pubmed:14605208|imex:IM-16524| |
+| SRPK1 | psi-mi:"MI:0424"(protein kinase assay) | pubmed:23602568|imex:IM-17935 |
+| EBI-1180228 | psi-mi:"MI:0114"(x-ray crystallography) | imex:IM-26294|pubmed:27373337 |
+
+**PPI 互证分析**:
+- STRING + IntAct 均有数据
+- STRING partners: 15，IntAct interactions: 15
+- 调控相关比例: 0 / 15 = 0%
+
+**评价**: STRING 15 个预测互作，IntAct 15 个实验互作。调控相关配体占比 0%。
+
+#### 3.7 多库互证
+
+| 维度 | 来源 | 结果 | 是否一致 |
+|------|------|------|----------|
+| 三维结构 | AlphaFold pLDDT=79.3 + PDB: 5IL0, 5IL1, 5IL2, 5K7M, 5K7U,  | pLDDT=79.3, v6 | 预测+实验 |
+| 定位 | UniProt + HPA | Nucleus / Nucleoplasm | 一致 |
+| PPI | STRING + IntAct | 15 + 15 interactions | 数据充分 |
+
+**互证加分明细**:
+- PDB + AlphaFold 双源验证: +0.5
+- 多库定位一致 (3源): +0.5
+- STRING + IntAct 双源验证: +0.5
+- 结构域 + AlphaFold 质量: +0.5
+- PDB 多条目覆盖 (≥3): +1.0
+**总分**: +3.0 / max +3
+
+### 4. 总体评价
+
+**推荐等级**: ⭐⭐⭐ (REJECTED)
+
+**核心优势**:
+1. METTL14 — N(6)-adenosine-methyltransferase non-catalytic subunit METTL14，研究基础较多，新颖性有限。
+2. 蛋白大小456 aa，大小适中（200-800 aa），适合常规生化实验和结构解析。
+
+**风险/不确定性**:
+1. PubMed 790 篇，研究热度过高（>100），不符合新颖性要求
+2. 结构数据质量可接受
+
+**下一步建议**:
+- [ ] 查阅最新关键文献补充研究背景
+- [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
+- [ ] 设计体外实验验证核定位及潜在调控功能
+**该蛋白PubMed文献数 790 > 100，研究热度过高，不符合novelty筛选标准。**
+
+### 5. 数据来源
+- UniProt: https://www.uniprot.org/uniprotkb/Q9HCE5
+- Protein Atlas: https://www.proteinatlas.org/ENSG00000145388-METTL14/subcellular
+- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=METTL14
+- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9HCE5
+- STRING: https://string-db.org/network/9606.ENSP00000
+- Data fetched live: 2026-06-03

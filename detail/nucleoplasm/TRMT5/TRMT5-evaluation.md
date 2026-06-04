@@ -1,0 +1,179 @@
+---
+type: protein-evaluation
+gene: "TRMT5"
+date: 2026-06-03
+tags: [protein-scout, nuclear-protein, evaluation]
+status: scored
+---
+
+## TRMT5 核蛋白评估报告 (Full Re-evaluation)
+
+### 1. 基本信息
+
+| 项目 | 内容 |
+|------|------|
+| 基因名 / 别名 | TRMT5 / KIAA1393, TRM5 |
+| 蛋白名称 | tRNA (guanine(37)-N(1))-methyltransferase |
+| 蛋白大小 | 509 aa / 58.3 kDa |
+| UniProt ID | Q32P41 |
+| 评估日期 | 2026-06-03 |
+
+### 2. 评分总览
+
+| 维度 | 得分 | 满分 | 加权后 | 关键证据摘要 |
+|------|------|------|--------|-------------|
+| 核定位特异性 | 7/10 | ×4 | 28 | HPA: Nucleoplasm, Nucleoli; UniProt: Mitochondrion matrix; Nucleus; Cytoplasm |
+| 蛋白大小 | 10/10 | ×1 | 10 | 509 aa / 58.3 kDa |
+| 研究新颖性 | 10/10 | ×5 | 50 | PubMed strict=17 篇 (≤20→10) |
+| 三维结构 | 7/10 | ×3 | 21 | AlphaFold v6 pLDDT=80.7; PDB: 无 |
+| 调控结构域 | 8/10 | ×2 | 16 | InterPro: IPR030382, IPR029063, IPR056743, IPR056744, IPR025 |
+| PPI 网络 | 3/10 | ×3 | 9 | STRING 15 partners; IntAct 10 interactions |
+| 互证加分 | — | max +3 | 1.5 | PDB+AF+STRING+IntAct cross-validation |
+| **原始总分** | | | **135.5/180** | |
+| **归一化总分** | | | **75.3/100** | |
+
+### 3. 详细分析
+
+#### 3.1 核定位证据
+
+| 来源 | 定位 | 可信度 |
+|------|------|--------|
+| Protein Atlas (IF) | Nucleoplasm, Nucleoli | Approved |
+| UniProt | Mitochondrion matrix; Nucleus; Cytoplasm | Swiss-Prot/TrEMBL |
+
+**IF 图像获取**: 未下载本地IF图像（standard evaluation），核定位证据基于HPA subcellular localization注释、UniProt注释和GO-CC术语。
+
+**GO Cellular Component**:
+- cytoplasm (GO:0005737)
+- mitochondrial matrix (GO:0005759)
+- mitochondrion (GO:0005739)
+- nucleus (GO:0005634)
+
+**结论**: 主要核定位，HPA 可靠性良好，有辅助数据源支持。
+
+#### 3.2 蛋白大小评估
+
+**评价**: 大小适中（200-800 aa），适合常规生化实验和结构解析。
+
+#### 3.3 研究现状
+
+| 指标 | 数值 |
+|------|------|
+| PubMed strict count | 17 |
+| PubMed broad count | 28 |
+| 别名(未计入scoring) | Aliases observed but not used for scoring: KIAA1393, TRM5 |
+
+**关键文献**:
+1. PAX translocations remodel mitochondrial metabolism through altered leucine usage in rhabdomyosarcoma.. *Cell*. PMID: 40185100
+2. Disrupting tRNA modifications to target mitochondrial vulnerabilities in drug-resistant leukemia cells.. *Blood*. PMID: 40749163
+3. Lactate-related gene signatures predict prognosis and immune profiles in esophageal squamous cell carcinoma.. *Scientific reports*. PMID: 40617965
+4. Novel mitochondrial-related gene signature predicts prognosis and immunological status in glioma.. *Translational cancer research*. PMID: 39145059
+5. Circulating B Cell-Derived Small RNA Delivered by Extracellular Vesicles: A Dialogue Mechanism for Long-Range Targeted Renal Mitochondrial Injury in Obesity.. *Small (Weinheim an der Bergstrasse, Germany)*. PMID: 38958071
+
+**评价**: 极度新颖，几乎未被系统研究（PubMed ≤20篇）。
+
+#### 3.4 三维结构分析
+
+| 指标 | 数值 |
+|------|------|
+| AlphaFold 版本 | v6 |
+| AlphaFold 平均 pLDDT | 80.7 |
+| 高置信度残基 (pLDDT>90) 占比 | 64.0% |
+| 置信残基 (pLDDT 70-90) 占比 | 12.4% |
+| 中等置信 (pLDDT 50-70) 占比 | 4.3% |
+| 低置信 (pLDDT<50) 占比 | 19.3% |
+| 有序区域 (pLDDT>70) 占比 | 76.4% |
+| 可用 PDB 条目 | 无 |
+
+**PAE**: PAE 图像未生成本地文件（standard evaluation），结构判断基于 AlphaFold pLDDT 统计。
+
+**评价**: AlphaFold 中等质量（pLDDT=80.7，有序区 76.4%），结构基本可用。
+
+#### 3.5 结构域分析
+
+| 来源 | 结构域 |
+|------|--------|
+| InterPro/Pfam | InterPro: IPR030382, IPR029063, IPR056743, IPR056744, IPR025792; Pfam: PF02475, PF25133 |
+
+**染色质调控潜力分析**: 多个已知结构域注释，AlphaFold预测质量高，结构域折叠可信。
+
+#### 3.6 PPI 网络
+
+**STRING 预测互作** (combined score >0.4):
+
+| Partner | Combined Score | Experimental | 功能类别 |
+|---------|---------------|--------------|---------|
+| TRMT112 | 0.889 | 0.746 | — |
+| TYW3 | 0.883 | 0.000 | — |
+| TYW1 | 0.882 | 0.000 | — |
+| TRMT12 | 0.848 | 0.000 | — |
+| TRIT1 | 0.843 | 0.000 | — |
+| TRMT10A | 0.843 | 0.000 | — |
+| LCMT2 | 0.825 | 0.000 | — |
+| TRMT6 | 0.759 | 0.000 | — |
+| TRMT10B | 0.758 | 0.000 | — |
+| TRMT61A | 0.757 | 0.000 | — |
+
+**实验验证互作** (IntAct):
+
+| Partner | 方法 | PMID |
+|---------|------|------|
+| HSPD1 | psi-mi:"MI:1314"(proximity-dependent biotin identi | pubmed:29568061|imex:IM-26301 |
+| MGST3 | psi-mi:"MI:1314"(proximity-dependent biotin identi | pubmed:29568061|imex:IM-26301 |
+| TRMT61B | psi-mi:"MI:1314"(proximity-dependent biotin identi | pubmed:29568061|imex:IM-26301 |
+| PDK1 | psi-mi:"MI:1314"(proximity-dependent biotin identi | pubmed:29568061|imex:IM-26301 |
+| FAHD1 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:33961781|imex:IM-29278| |
+| SELENBP1 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:33961781|imex:IM-29278| |
+| - | psi-mi:"MI:1314"(proximity-dependent biotin identi | pubmed:29568061|imex:IM-26301 |
+| PCBP3 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:33961781|imex:IM-29278| |
+| ENST00000261249 | psi-mi:"MI:2195"(clash) | pubmed:23622248|imex:IM-30030| |
+| NPM1 | psi-mi:"MI:1314"(proximity-dependent biotin identi | imex:IM-30059|pubmed:39251607 |
+
+**PPI 互证分析**:
+- STRING + IntAct 均有数据
+- STRING partners: 15，IntAct interactions: 10
+- 调控相关比例: 0 / 15 = 0%
+
+**评价**: STRING 15 个预测互作，IntAct 10 个实验互作。调控相关配体占比 0%。
+
+#### 3.7 多库互证
+
+| 维度 | 来源 | 结果 | 是否一致 |
+|------|------|------|----------|
+| 三维结构 | AlphaFold pLDDT=80.7 + PDB: 无 | pLDDT=80.7, v6 | 仅预测 |
+| 定位 | UniProt + HPA | Mitochondrion matrix; Nucleus; Cytoplasm / Nucleoplasm, Nucleoli | 一致 |
+| PPI | STRING + IntAct | 15 + 10 interactions | 数据充分 |
+
+**互证加分明细**:
+- PDB + AlphaFold 双源验证: +0
+- 多库定位一致 (3源): +0.5
+- STRING + IntAct 双源验证: +0.5
+- 结构域 + AlphaFold 质量: +0.5
+- PDB 多条目覆盖: +0
+**总分**: +1.5 / max +3
+
+### 4. 总体评价
+
+**推荐等级**: ⭐⭐⭐⭐
+
+**核心优势**:
+1. TRMT5 — tRNA (guanine(37)-N(1))-methyltransferase，极度新颖，几乎未被系统研究（PubMed ≤20篇）。
+2. 蛋白大小509 aa，大小适中（200-800 aa），适合常规生化实验和结构解析。
+
+**风险/不确定性**:
+1. PubMed 17 篇，研究基础极有限，功能注释不完整
+2. 结构数据质量可接受
+
+**下一步建议**:
+- [ ] 查阅最新关键文献补充研究背景
+- [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
+- [ ] 设计体外实验验证核定位及潜在调控功能
+
+
+### 5. 数据来源
+- UniProt: https://www.uniprot.org/uniprotkb/Q32P41
+- Protein Atlas: https://www.proteinatlas.org/ENSG00000126814-TRMT5/subcellular
+- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=TRMT5
+- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q32P41
+- STRING: https://string-db.org/network/9606.ENSP00000
+- Data fetched live: 2026-06-03

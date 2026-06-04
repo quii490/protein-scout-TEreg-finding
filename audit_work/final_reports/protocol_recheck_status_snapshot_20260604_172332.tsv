@@ -1,0 +1,18 @@
+metric	value
+Excel unique	4756
+Excel covered	4756
+Excel missing	0
+Total reports	5770
+Unique genes	5607
+Scored	3154
+Rejected	2616
+Duplicates	153
+/180 reports	3969
+Packets	3655
+<12L	81
+<50L	1080
+Packet error	0
+No nuke	0
+Forbidden	235
+Gate errors	2573
+Gate warnings	1955

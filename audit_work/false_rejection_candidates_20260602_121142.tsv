@@ -1,0 +1,22 @@
+gene	risk	pm_strict	hpa_nuke	uni_nuke	go_nuke	reason
+AARS1	HIGH	76	False	True	False	UniProt_nuclear; PM=76
+ABLIM2	HIGH	19	True	False	False	HPA_nuclear; PM=19
+ADIG	HIGH	17	True	False	False	HPA_nuclear; PM=17
+ANKAR	HIGH	59	True	False	False	HPA_nuclear; PM=59
+ANKRD29	HIGH	10	True	False	False	HPA_nuclear; PM=10
+ANKRD30A	HIGH	16	True	False	False	HPA_nuclear; PM=16
+ANKRD36C	HIGH	10	True	False	False	HPA_nuclear; PM=10
+ANKRD39	HIGH	84	True	False	False	HPA_nuclear; PM=84
+ANKRD44	HIGH	15	True	False	False	HPA_nuclear; PM=15
+ASB13	HIGH	12	True	True	True	HPA_nuclear; UniProt_nuclear; GO_nuclear; PM=12
+BBLN	HIGH	20	True	False	False	HPA_nuclear; PM=20
+C10orf62	HIGH	10	True	False	False	HPA_nuclear; PM=10
+C11orf42	HIGH	11	True	False	False	HPA_nuclear; PM=11
+C12orf60	HIGH	12	True	False	False	HPA_nuclear; PM=12
+C1orf94	HIGH	20	True	False	False	HPA_nuclear; PM=20
+ESCO1	HIGH	44	True	False	False	HPA_nuclear; PM=44
+EYA2	HIGH	48	True	False	False	HPA_nuclear; PM=48
+FABP6	HIGH	90	True	False	False	HPA_nuclear; PM=90
+FIGLA	HIGH	53	True	False	False	HPA_nuclear; PM=53
+FOXE3	HIGH	81	True	False	False	HPA_nuclear; PM=81
+FSD1	HIGH	16	True	False	False	HPA_nuclear; PM=16

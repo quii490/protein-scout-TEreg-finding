@@ -1,0 +1,2323 @@
+{
+  "KANSL2": [
+    {
+      "partner": "psi-mi:kat8_mouse(display_long)|uniprotkb:Kat8(gene name)|psi-mi:Kat8(display_short)|uniprotkb:Mof(gene name synonym)|uniprotkb:MOZ, YBF2/SAS3, SAS2 and TIP60 protein 1(gene name synonym)|uniprotkb:Myst1(gene name synonym)|uniprotkb:Lysine acetyltransferase 8(gene name synonym)|uniprotkb:Males-absent on the first protein homolog(gene name synonym)|uniprotkb:Protein acetyltransferase KAT8(gene name synonym)|uniprotkb:Protein propionyltransferase KAT8(gene name synonym)",
+      "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+      "pmid": "imex:IM-11719|pubmed:20360068",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:neca1_human(display_long)|uniprotkb:NECAB1(gene name)|psi-mi:NECAB1(display_short)|uniprotkb:EFCBP1(gene name synonym)|uniprotkb:Neuronal calcium-binding protein 1(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:phf20_human(display_long)|uniprotkb:Transcription factor TZP(gene name synonym)|uniprotkb:Novel zinc finger protein(gene name synonym)|uniprotkb:PHF20(gene name)|psi-mi:PHF20(display_short)|uniprotkb:C20orf104(gene name synonym)|uniprotkb:GLEA2(gene name synonym)|uniprotkb:HCA58(gene name synonym)|uniprotkb:NZF(gene name synonym)|uniprotkb:TZP(gene name synonym)|uniprotkb:Hepatocellular carcinoma-associated antigen 58(gene name synonym)|uniprotkb:Glioma-expressed antigen 2(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:tnik_human(display_long)|uniprotkb:TNIK(gene name)|psi-mi:TNIK(display_short)|uniprotkb:KIAA0551(gene name synonym)",
+      "method": "psi-mi:\"MI:0399\"(two hybrid fragment pooling approach)",
+      "pmid": "pubmed:31413325|imex:IM-26801",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:q96mt8-2(display_long)|uniprotkb:CEP63(gene name)|psi-mi:CEP63(display_short)",
+      "method": "psi-mi:\"MI:0399\"(two hybrid fragment pooling approach)",
+      "pmid": "pubmed:31413325|imex:IM-26801",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:cdc5l_human(display_long)|uniprotkb:CDC5L(gene name)|psi-mi:CDC5L(display_short)|uniprotkb:Pombe cdc5-related protein(gene name synonym)|uniprotkb:KIAA0432(gene name synonym)|uniprotkb:PCDC5RP(gene name synonym)",
+      "method": "psi-mi:\"MI:0399\"(two hybrid fragment pooling approach)",
+      "pmid": "pubmed:31413325|imex:IM-26801",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:tulp3_human(display_long)|uniprotkb:Tubby-like protein 3(gene name synonym)|uniprotkb:TULP3(gene name)|psi-mi:TULP3(display_short)|uniprotkb:TUBL3(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:gpbl1_human(display_long)|uniprotkb:GPBP1L1(gene name)|psi-mi:GPBP1L1(display_short)|uniprotkb:GC-rich promoter-binding protein 1-like 1(gene name synonym)|uniprotkb:SP192(orf name)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:tri44_human(display_long)|uniprotkb:TRIM44(gene name)|psi-mi:TRIM44(display_short)|uniprotkb:DIPB(gene name synonym)|uniprotkb:Protein DIPB(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:kanl1_human(display_long)|uniprotkb:KANSL1(gene name)|psi-mi:KANSL1(display_short)|uniprotkb:KIAA1267(gene name synonym)|uniprotkb:MLL1/MLL complex subunit KANSL1(gene name synonym)|uniprotkb:MSL1 homolog 1(gene name synonym)|uniprotkb:MSL1V1(gene name synonym)|uniprotkb:NSL complex protein NSL1(gene name synonym)|uniprotkb:NSL1(gene name synonym)|uniprotkb:Non-specific lethal 1 homolog(gene name synonym)|uniprotkb:CENP-36(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:ogt1_human(display_long)|uniprotkb:O-linked N-acetylglucosamine transferase 110 kDa subunit(gene name synonym)|uniprotkb:O-GlcNAc transferase subunit p110(gene name synonym)|uniprotkb:OGT(gene name)|psi-mi:OGT(display_short)",
+      "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+      "pmid": "pubmed:27705803|imex:IM-21659",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:wdr5_human(display_long)|uniprotkb:BMP2-induced 3-kb gene protein(gene name synonym)|uniprotkb:WDR5(gene name)|psi-mi:WDR5(display_short)|uniprotkb:BIG3(gene name synonym)",
+      "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+      "pmid": "pubmed:27705803|imex:IM-21659",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:ppil2_human(display_long)|uniprotkb:Probable inactive peptidyl-prolyl cis-trans isomerase-like 2(gene name synonym)|uniprotkb:PPIL2(gene name)|psi-mi:PPIL2(display_short)|uniprotkb:Rotamase PPIL2(gene name synonym)|uniprotkb:Cyclophilin-60(gene name synonym)|uniprotkb:CYC4(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:26496610|imex:IM-24272",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:kanl1_human(display_long)|uniprotkb:KANSL1(gene name)|psi-mi:KANSL1(display_short)|uniprotkb:KIAA1267(gene name synonym)|uniprotkb:MLL1/MLL complex subunit KANSL1(gene name synonym)|uniprotkb:MSL1 homolog 1(gene name synonym)|uniprotkb:MSL1V1(gene name synonym)|uniprotkb:NSL complex protein NSL1(gene name synonym)|uniprotkb:NSL1(gene name synonym)|uniprotkb:Non-specific lethal 1 homolog(gene name synonym)|uniprotkb:CENP-36(gene name synonym)",
+      "method": "psi-mi:\"MI:0114\"(x-ray crystallography)",
+      "pmid": "imex:IM-22651|pubmed:24788516",
+      "type": "psi-mi:\"MI:0407\"(direct interaction)"
+    },
+    {
+      "partner": "psi-mi:kanl2_human(display_long)|uniprotkb:KANSL2(gene name)|psi-mi:KANSL2(display_short)|uniprotkb:C12orf41(gene name synonym)|uniprotkb:NSL complex protein NSL2(gene name synonym)|uniprotkb:NSL2(gene name synonym)|uniprotkb:Non-specific lethal 2 homolog(gene name synonym)",
+      "method": "psi-mi:\"MI:0065\"(isothermal titration calorimetry)",
+      "pmid": "imex:IM-22651|pubmed:24788516",
+      "type": "psi-mi:\"MI:0407\"(direct interaction)"
+    }
+  ],
+  "KANSL3": [
+    {
+      "partner": "psi-mi:med26_human(display_long)|uniprotkb:ARC70(gene name synonym)|uniprotkb:MED26(gene name)|psi-mi:MED26(display_short)|uniprotkb:Mediator complex subunit 26(gene name synonym)|uniprotkb:Cofactor required for Sp1 transcriptional activation subunit 7(gene name synonym)|uniprotkb:Transcriptional coactivator CRSP70(gene name synonym)|uniprotkb:Activator-recruited cofactor 70 kDa component(gene name synonym)|uniprotkb:CRSP7(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:15175163",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:rs27a_human(display_long)|uniprotkb:RPS27A(gene name)|psi-mi:RPS27A(display_short)|uniprotkb:UBA80(gene name synonym)|uniprotkb:UBCEP1(gene name synonym)|uniprotkb:Ubiquitin carboxyl extension protein 80(gene name synonym)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "pubmed:16169070|imex:IM-16517|mint:MINT-5217955",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:kat8_mouse(display_long)|uniprotkb:Kat8(gene name)|psi-mi:Kat8(display_short)|uniprotkb:Mof(gene name synonym)|uniprotkb:MOZ, YBF2/SAS3, SAS2 and TIP60 protein 1(gene name synonym)|uniprotkb:Myst1(gene name synonym)|uniprotkb:Lysine acetyltransferase 8(gene name synonym)|uniprotkb:Males-absent on the first protein homolog(gene name synonym)|uniprotkb:Protein acetyltransferase KAT8(gene name synonym)|uniprotkb:Protein propionyltransferase KAT8(gene name synonym)",
+      "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+      "pmid": "imex:IM-11719|pubmed:20360068",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:tf2l1_mouse(display_long)|uniprotkb:Tfcp2l1(gene name)|psi-mi:Tfcp2l1(display_short)|uniprotkb:CP2-related transcriptional repressor 1(gene name synonym)|uniprotkb:Crtr1(gene name synonym)|uniprotkb:Tcfcp2l1(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:20362541|imex:IM-16928",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:phf20_human(display_long)|uniprotkb:Transcription factor TZP(gene name synonym)|uniprotkb:Novel zinc finger protein(gene name synonym)|uniprotkb:PHF20(gene name)|psi-mi:PHF20(display_short)|uniprotkb:C20orf104(gene name synonym)|uniprotkb:GLEA2(gene name synonym)|uniprotkb:HCA58(gene name synonym)|uniprotkb:NZF(gene name synonym)|uniprotkb:TZP(gene name synonym)|uniprotkb:Hepatocellular carcinoma-associated antigen 58(gene name synonym)|uniprotkb:Glioma-expressed antigen 2(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:plec_human(display_long)|uniprotkb:PLEC(gene name)|psi-mi:PLEC(display_short)|uniprotkb:Hemidesmosomal protein 1(gene name synonym)|uniprotkb:PLEC1(gene name synonym)|uniprotkb:Plectin-1(gene name synonym)",
+      "method": "psi-mi:\"MI:0030\"(cross-linking study)",
+      "pmid": "pubmed:30021884|imex:IM-26653|doi:10.1074/mcp.ra118.000924",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:q13557-10(display_long)|uniprotkb:CAMK2D(gene name)|psi-mi:CAMK2D(display_short)|uniprotkb:CAMKD(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:anky2_human(display_long)|uniprotkb:ANKMY2(gene name)|psi-mi:ANKMY2(display_short)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:ogt1_human(display_long)|uniprotkb:O-linked N-acetylglucosamine transferase 110 kDa subunit(gene name synonym)|uniprotkb:O-GlcNAc transferase subunit p110(gene name synonym)|uniprotkb:OGT(gene name)|psi-mi:OGT(display_short)",
+      "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+      "pmid": "pubmed:27705803|imex:IM-21659",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:wdr5_human(display_long)|uniprotkb:BMP2-induced 3-kb gene protein(gene name synonym)|uniprotkb:WDR5(gene name)|psi-mi:WDR5(display_short)|uniprotkb:BIG3(gene name synonym)",
+      "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+      "pmid": "pubmed:27705803|imex:IM-21659",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:sta5b_human(display_long)|uniprotkb:STAT5B(gene name)|psi-mi:STAT5B(display_short)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:26496610|imex:IM-24272",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:cnot2_human(display_long)|uniprotkb:CCR4-associated factor 2(gene name synonym)|uniprotkb:CNOT2(gene name)|psi-mi:CNOT2(display_short)|uniprotkb:CDC36(gene name synonym)|uniprotkb:NOT2(gene name synonym)|uniprotkb:HSPC131(orf name)|uniprotkb:MSTP046(orf name)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:26496610|imex:IM-24272",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:kat8_mouse(display_long)|uniprotkb:Kat8(gene name)|psi-mi:Kat8(display_short)|uniprotkb:Mof(gene name synonym)|uniprotkb:MOZ, YBF2/SAS3, SAS2 and TIP60 protein 1(gene name synonym)|uniprotkb:Myst1(gene name synonym)|uniprotkb:Lysine acetyltransferase 8(gene name synonym)|uniprotkb:Males-absent on the first protein homolog(gene name synonym)|uniprotkb:Protein acetyltransferase KAT8(gene name synonym)|uniprotkb:Protein propionyltransferase KAT8(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:26496610|imex:IM-24272",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:nu155_mouse(display_long)|uniprotkb:Nucleoporin Nup155(gene name synonym)|uniprotkb:155 kDa nucleoporin(gene name synonym)|uniprotkb:Nup155(gene name)|psi-mi:Nup155(display_short)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:26496610|imex:IM-24272",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:samh1_human(display_long)|uniprotkb:Dendritic cell-derived IFNG-induced protein(gene name synonym)|uniprotkb:Monocyte protein 5(gene name synonym)|uniprotkb:SAMHD1(gene name)|psi-mi:SAMHD1(display_short)|uniprotkb:MOP5(gene name synonym)|uniprotkb:SAM domain and HD domain-containing protein 1(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:26496610|imex:IM-24272",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    }
+  ],
+  "KBTBD4": [
+    {
+      "partner": "psi-mi:cul3_human(display_long)|uniprotkb:CUL3(gene name)|psi-mi:CUL3(display_short)|uniprotkb:KIAA0617(gene name synonym)",
+      "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+      "pmid": "pubmed:21145461|imex:IM-18651|doi:10.1016/j.cell.2010.11.017",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:cul3_human(display_long)|uniprotkb:CUL3(gene name)|psi-mi:CUL3(display_short)|uniprotkb:KIAA0617(gene name synonym)",
+      "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+      "pmid": "pubmed:21145461|imex:IM-18651|doi:10.1016/j.cell.2010.11.017",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:csn5_human(display_long)|uniprotkb:Jun activation domain-binding protein 1(gene name synonym)|uniprotkb:COPS5(gene name)|psi-mi:COPS5(display_short)|uniprotkb:CSN5(gene name synonym)|uniprotkb:JAB1(gene name synonym)",
+      "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+      "pmid": "pubmed:21145461|imex:IM-18651|doi:10.1016/j.cell.2010.11.017",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:hs90b_human(display_long)|uniprotkb:HSP90AB1(gene name)|psi-mi:HSP90AB1(display_short)|uniprotkb:HSP90B(gene name synonym)|uniprotkb:HSPC2(gene name synonym)|uniprotkb:HSPCB(gene name synonym)|uniprotkb:Heat shock 84 kDa(gene name synonym)|uniprotkb:HSPC3(gene name synonym)|uniprotkb:Heat shock protein family C member 3(gene name synonym)",
+      "method": "psi-mi:\"MI:0729\"(luminescence based mammalian interactome mapping)",
+      "pmid": "imex:IM-17906|pubmed:22939624|psi-mi:\"MI:0729\"",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:kbtb4_human(display_long)|uniprotkb:BTB and kelch domain-containing protein 4(gene name synonym)|uniprotkb:KBTBD4(gene name)|psi-mi:KBTBD4(display_short)|uniprotkb:BKLHD4(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:kbtb4_human(display_long)|uniprotkb:BTB and kelch domain-containing protein 4(gene name synonym)|uniprotkb:KBTBD4(gene name)|psi-mi:KBTBD4(display_short)|uniprotkb:BKLHD4(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:kbtb4_human(display_long)|uniprotkb:BTB and kelch domain-containing protein 4(gene name synonym)|uniprotkb:KBTBD4(gene name)|psi-mi:KBTBD4(display_short)|uniprotkb:BKLHD4(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:kbtb4_human(display_long)|uniprotkb:BTB and kelch domain-containing protein 4(gene name synonym)|uniprotkb:KBTBD4(gene name)|psi-mi:KBTBD4(display_short)|uniprotkb:BKLHD4(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:kbtb4_human(display_long)|uniprotkb:BTB and kelch domain-containing protein 4(gene name synonym)|uniprotkb:KBTBD4(gene name)|psi-mi:KBTBD4(display_short)|uniprotkb:BKLHD4(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:kbtb4_human(display_long)|uniprotkb:BTB and kelch domain-containing protein 4(gene name synonym)|uniprotkb:KBTBD4(gene name)|psi-mi:KBTBD4(display_short)|uniprotkb:BKLHD4(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:kbtb4_human(display_long)|uniprotkb:BTB and kelch domain-containing protein 4(gene name synonym)|uniprotkb:KBTBD4(gene name)|psi-mi:KBTBD4(display_short)|uniprotkb:BKLHD4(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:kbtb4_human(display_long)|uniprotkb:BTB and kelch domain-containing protein 4(gene name synonym)|uniprotkb:KBTBD4(gene name)|psi-mi:KBTBD4(display_short)|uniprotkb:BKLHD4(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:kbtb4_human(display_long)|uniprotkb:BTB and kelch domain-containing protein 4(gene name synonym)|uniprotkb:KBTBD4(gene name)|psi-mi:KBTBD4(display_short)|uniprotkb:BKLHD4(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:kbtb4_human(display_long)|uniprotkb:BTB and kelch domain-containing protein 4(gene name synonym)|uniprotkb:KBTBD4(gene name)|psi-mi:KBTBD4(display_short)|uniprotkb:BKLHD4(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:kbtb4_human(display_long)|uniprotkb:BTB and kelch domain-containing protein 4(gene name synonym)|uniprotkb:KBTBD4(gene name)|psi-mi:KBTBD4(display_short)|uniprotkb:BKLHD4(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    }
+  ],
+  "KCTD1": [
+    {
+      "partner": "psi-mi:kctd1_human(display_long)|uniprotkb:KCTD1(gene name)|psi-mi:KCTD1(display_short)|uniprotkb:C18orf5(gene name synonym)|uniprotkb:Potassium channel tetramerization domain-containing protein 1(gene name synonym)",
+      "method": "psi-mi:\"MI:1112\"(two hybrid prey pooling approach)",
+      "pmid": "pubmed:32296183|imex:IM-25472",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:kctd1_human(display_long)|uniprotkb:KCTD1(gene name)|psi-mi:KCTD1(display_short)|uniprotkb:C18orf5(gene name synonym)|uniprotkb:Potassium channel tetramerization domain-containing protein 1(gene name synonym)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "imex:IM-23318|pubmed:25416956",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:kctd1_human(display_long)|uniprotkb:KCTD1(gene name)|psi-mi:KCTD1(display_short)|uniprotkb:C18orf5(gene name synonym)|uniprotkb:Potassium channel tetramerization domain-containing protein 1(gene name synonym)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "pubmed:32296183|imex:IM-25472",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:kctd1_human(display_long)|uniprotkb:KCTD1(gene name)|psi-mi:KCTD1(display_short)|uniprotkb:C18orf5(gene name synonym)|uniprotkb:Potassium channel tetramerization domain-containing protein 1(gene name synonym)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "pubmed:29892012|doi:10.1038/s41588-018-0130-z|imex:IM-27553",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:kctd1_human(display_long)|uniprotkb:KCTD1(gene name)|psi-mi:KCTD1(display_short)|uniprotkb:C18orf5(gene name synonym)|uniprotkb:Potassium channel tetramerization domain-containing protein 1(gene name synonym)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "imex:IM-27438|doi:10.1038/s41467-019-11959-3|pubmed:31515488",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:pick1_human(display_long)|uniprotkb:PICK1(gene name)|psi-mi:PICK1(display_short)|uniprotkb:PRKCABP(gene name synonym)|uniprotkb:Protein kinase C-alpha-binding protein(gene name synonym)|uniprotkb:Protein interacting with C kinase 1(gene name synonym)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "pubmed:32296183|imex:IM-25472",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:rpac1_human(display_long)|uniprotkb:DNA-directed RNA polymerases I and III 40 kDa polypeptide(gene name synonym)|uniprotkb:RPC40(gene name synonym)|uniprotkb:AC40(gene name synonym)|uniprotkb:RPA39(gene name synonym)|uniprotkb:POLR1C(gene name)|psi-mi:POLR1C(display_short)|uniprotkb:POLR1E(gene name synonym)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "pubmed:32296183|imex:IM-25472",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:p57075-2(display_long)|uniprotkb:UBASH3A(gene name)|psi-mi:UBASH3A(display_short)|uniprotkb:Cbl-interacting protein 4(gene name synonym)|uniprotkb:STS2(gene name synonym)|uniprotkb:Suppressor of T-cell receptor signaling 2(gene name synonym)|uniprotkb:T-cell ubiquitin ligand 1(gene name synonym)|uniprotkb:Short(isoform synonym)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "pubmed:32296183|imex:IM-25472",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:rbtn1_human(display_long)|uniprotkb:LMO1(gene name)|psi-mi:LMO1(display_short)|uniprotkb:Cysteine-rich protein TTG-1(gene name synonym)|uniprotkb:LIM domain only protein 1(gene name synonym)|uniprotkb:RBTN1(gene name synonym)|uniprotkb:RHOM1(gene name synonym)|uniprotkb:T-cell translocation protein 1(gene name synonym)|uniprotkb:TTG1(gene name synonym)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "pubmed:32296183|imex:IM-25472",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:p0di81-3(display_long)|uniprotkb:TRAPPC2(gene name)|psi-mi:TRAPPC2(display_short)|uniprotkb:SEDL(gene name synonym)|uniprotkb:Sedlin(gene name synonym)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "pubmed:32296183|imex:IM-25472",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:mo4l2_human(display_long)|uniprotkb:MORF4L2(gene name)|psi-mi:MORF4L2(display_short)|uniprotkb:KIAA0026(gene name synonym)|uniprotkb:MRGX(gene name synonym)|uniprotkb:MORF-related gene X protein(gene name synonym)|uniprotkb:Transcription factor-like protein MRGX(gene name synonym)|uniprotkb:Protein MSL3-2(gene name synonym)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "pubmed:32296183|imex:IM-25472",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:kctd1_human(display_long)|uniprotkb:KCTD1(gene name)|psi-mi:KCTD1(display_short)|uniprotkb:C18orf5(gene name synonym)|uniprotkb:Potassium channel tetramerization domain-containing protein 1(gene name synonym)",
+      "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+      "pmid": "pubmed:32296183|imex:IM-25472",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:rpac1_human(display_long)|uniprotkb:DNA-directed RNA polymerases I and III 40 kDa polypeptide(gene name synonym)|uniprotkb:RPC40(gene name synonym)|uniprotkb:AC40(gene name synonym)|uniprotkb:RPA39(gene name synonym)|uniprotkb:POLR1C(gene name)|psi-mi:POLR1C(display_short)|uniprotkb:POLR1E(gene name synonym)",
+      "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+      "pmid": "pubmed:32296183|imex:IM-25472",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:kctd1_human(display_long)|uniprotkb:KCTD1(gene name)|psi-mi:KCTD1(display_short)|uniprotkb:C18orf5(gene name synonym)|uniprotkb:Potassium channel tetramerization domain-containing protein 1(gene name synonym)",
+      "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+      "pmid": "pubmed:32296183|imex:IM-25472",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:q9y597-2(display_long)|uniprotkb:KCTD3(gene name)|psi-mi:KCTD3(display_short)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    }
+  ],
+  "KCTD13": [
+    {
+      "partner": "psi-mi:bacd1_human(display_long)|uniprotkb:Polymerase delta-interacting protein 1(gene name synonym)|uniprotkb:TNFAIP1-like protein(gene name synonym)|uniprotkb:KCTD13(gene name)|psi-mi:KCTD13(display_short)|uniprotkb:PDIP1(gene name synonym)|uniprotkb:POLDIP1(gene name synonym)|uniprotkb:FKSG86(orf name)|uniprotkb:PP6832(orf name)|uniprotkb:BACURD1(gene name synonym)|uniprotkb:BTB/POZ domain-containing protein KCTD13(gene name synonym)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "pubmed:32296183|imex:IM-25472",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:bacd1_human(display_long)|uniprotkb:Polymerase delta-interacting protein 1(gene name synonym)|uniprotkb:TNFAIP1-like protein(gene name synonym)|uniprotkb:KCTD13(gene name)|psi-mi:KCTD13(display_short)|uniprotkb:PDIP1(gene name synonym)|uniprotkb:POLDIP1(gene name synonym)|uniprotkb:FKSG86(orf name)|uniprotkb:PP6832(orf name)|uniprotkb:BACURD1(gene name synonym)|uniprotkb:BTB/POZ domain-containing protein KCTD13(gene name synonym)",
+      "method": "psi-mi:\"MI:1112\"(two hybrid prey pooling approach)",
+      "pmid": "pubmed:32296183|imex:IM-25472",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:bacd1_human(display_long)|uniprotkb:Polymerase delta-interacting protein 1(gene name synonym)|uniprotkb:TNFAIP1-like protein(gene name synonym)|uniprotkb:KCTD13(gene name)|psi-mi:KCTD13(display_short)|uniprotkb:PDIP1(gene name synonym)|uniprotkb:POLDIP1(gene name synonym)|uniprotkb:FKSG86(orf name)|uniprotkb:PP6832(orf name)|uniprotkb:BACURD1(gene name synonym)|uniprotkb:BTB/POZ domain-containing protein KCTD13(gene name synonym)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "imex:IM-23318|pubmed:25416956",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:kat7_human(display_long)|uniprotkb:KAT7(gene name)|psi-mi:KAT7(display_short)|uniprotkb:HBO1(gene name synonym)|uniprotkb:HBOa(gene name synonym)|uniprotkb:MOZ, YBF2/SAS3, SAS2 and TIP60 protein 2(gene name synonym)|uniprotkb:Histone acetyltransferase binding to ORC1(gene name synonym)|uniprotkb:MYST2(gene name synonym)|uniprotkb:Lysine acetyltransferase 7(gene name synonym)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "pubmed:16189514|imex:IM-16520|mint:MINT-5217968",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:nud18_human(display_long)|uniprotkb:NUDT18(gene name)|psi-mi:NUDT18(display_short)|uniprotkb:2-hydroxy-dADP phosphatase(gene name synonym)|uniprotkb:7,8-dihydro-8-oxoguanine phosphatase(gene name synonym)|uniprotkb:MTH3(gene name synonym)|uniprotkb:MutT homolog 3(gene name synonym)|uniprotkb:Nucleoside diphosphate-linked moiety X motif 18(gene name synonym)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "pubmed:16189514|imex:IM-16520|mint:MINT-5217968",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:vta1_human(display_long)|uniprotkb:VTA1(gene name)|psi-mi:VTA1(display_short)|uniprotkb:HSPC228(orf name)|uniprotkb:My012(orf name)|uniprotkb:SKD1-binding protein 1(gene name synonym)|uniprotkb:C6orf55(gene name synonym)|uniprotkb:Dopamine-responsive gene 1 protein(gene name synonym)|uniprotkb:LYST-interacting protein 5(gene name synonym)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "pubmed:16189514|imex:IM-16520|mint:MINT-5217968",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:zmy19_human(display_long)|uniprotkb:Melanin-concentrating hormone receptor 1-interacting zinc finger protein(gene name synonym)|uniprotkb:ZMYND19(gene name)|psi-mi:ZMYND19(display_short)|uniprotkb:MIZIP(gene name synonym)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "pubmed:16189514|imex:IM-16520|mint:MINT-5217968",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:lnx1_human(display_long)|uniprotkb:LNX1(gene name)|psi-mi:LNX1(display_short)|uniprotkb:LNX(gene name synonym)|uniprotkb:Numb-binding protein 1(gene name synonym)|uniprotkb:Ligand of Numb-protein X 1(gene name synonym)|uniprotkb:PDZ domain-containing RING finger protein 2(gene name synonym)|uniprotkb:PDZRN2(gene name synonym)|uniprotkb:RING-type E3 ubiquitin transferase LNX(gene name synonym)|uniprotkb:UNQ574/PRO1136(orf name)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "pubmed:16189514|imex:IM-16520|mint:MINT-5217968",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:armc7_human(display_long)|uniprotkb:ARMC7(gene name)|psi-mi:ARMC7(display_short)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "pubmed:16189514|imex:IM-16520|mint:MINT-5217968",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:bacd1_human(display_long)|uniprotkb:Polymerase delta-interacting protein 1(gene name synonym)|uniprotkb:TNFAIP1-like protein(gene name synonym)|uniprotkb:KCTD13(gene name)|psi-mi:KCTD13(display_short)|uniprotkb:PDIP1(gene name synonym)|uniprotkb:POLDIP1(gene name synonym)|uniprotkb:FKSG86(orf name)|uniprotkb:PP6832(orf name)|uniprotkb:BACURD1(gene name synonym)|uniprotkb:BTB/POZ domain-containing protein KCTD13(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "imex:IM-12079|pubmed:19615732",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:bacd1_human(display_long)|uniprotkb:Polymerase delta-interacting protein 1(gene name synonym)|uniprotkb:TNFAIP1-like protein(gene name synonym)|uniprotkb:KCTD13(gene name)|psi-mi:KCTD13(display_short)|uniprotkb:PDIP1(gene name synonym)|uniprotkb:POLDIP1(gene name synonym)|uniprotkb:FKSG86(orf name)|uniprotkb:PP6832(orf name)|uniprotkb:BACURD1(gene name synonym)|uniprotkb:BTB/POZ domain-containing protein KCTD13(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "imex:IM-12079|pubmed:19615732",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:bacd1_human(display_long)|uniprotkb:Polymerase delta-interacting protein 1(gene name synonym)|uniprotkb:TNFAIP1-like protein(gene name synonym)|uniprotkb:KCTD13(gene name)|psi-mi:KCTD13(display_short)|uniprotkb:PDIP1(gene name synonym)|uniprotkb:POLDIP1(gene name synonym)|uniprotkb:FKSG86(orf name)|uniprotkb:PP6832(orf name)|uniprotkb:BACURD1(gene name synonym)|uniprotkb:BTB/POZ domain-containing protein KCTD13(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "imex:IM-12079|pubmed:19615732",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:bacd1_human(display_long)|uniprotkb:Polymerase delta-interacting protein 1(gene name synonym)|uniprotkb:TNFAIP1-like protein(gene name synonym)|uniprotkb:KCTD13(gene name)|psi-mi:KCTD13(display_short)|uniprotkb:PDIP1(gene name synonym)|uniprotkb:POLDIP1(gene name synonym)|uniprotkb:FKSG86(orf name)|uniprotkb:PP6832(orf name)|uniprotkb:BACURD1(gene name synonym)|uniprotkb:BTB/POZ domain-containing protein KCTD13(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "imex:IM-12079|pubmed:19615732",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:bacd1_human(display_long)|uniprotkb:Polymerase delta-interacting protein 1(gene name synonym)|uniprotkb:TNFAIP1-like protein(gene name synonym)|uniprotkb:KCTD13(gene name)|psi-mi:KCTD13(display_short)|uniprotkb:PDIP1(gene name synonym)|uniprotkb:POLDIP1(gene name synonym)|uniprotkb:FKSG86(orf name)|uniprotkb:PP6832(orf name)|uniprotkb:BACURD1(gene name synonym)|uniprotkb:BTB/POZ domain-containing protein KCTD13(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "imex:IM-12079|pubmed:19615732",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:cul3_human(display_long)|uniprotkb:CUL3(gene name)|psi-mi:CUL3(display_short)|uniprotkb:KIAA0617(gene name synonym)",
+      "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+      "pmid": "pubmed:21145461|imex:IM-18651|doi:10.1016/j.cell.2010.11.017",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    }
+  ],
+  "KCTD5": [
+    {
+      "partner": "psi-mi:elf3_human(display_long)|uniprotkb:ELF3(gene name)|psi-mi:ELF3(display_short)|uniprotkb:ERT(gene name synonym)|uniprotkb:ESX(gene name synonym)|uniprotkb:JEN(gene name synonym)|uniprotkb:E74-like factor 3(gene name synonym)|uniprotkb:Epithelium-specific Ets transcription factor 1(gene name synonym)|uniprotkb:Epithelium-restricted Ets protein ESX(gene name synonym)|uniprotkb:Epithelial-restricted with serine box(gene name synonym)",
+      "method": "psi-mi:\"MI:0006\"(anti bait coimmunoprecipitation)",
+      "pmid": "pubmed:17353931",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:trip6_human(display_long)|uniprotkb:TRIP6(gene name)|psi-mi:TRIP6(display_short)|uniprotkb:OIP1(gene name synonym)|uniprotkb:Opa-interacting protein 1(gene name synonym)|uniprotkb:Zyxin-related protein 1(gene name synonym)",
+      "method": "psi-mi:\"MI:0006\"(anti bait coimmunoprecipitation)",
+      "pmid": "pubmed:17353931",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:ilk_human(display_long)|uniprotkb:ILK-1(gene name synonym)|uniprotkb:ILK-2(gene name synonym)|uniprotkb:p59ILK(gene name synonym)|uniprotkb:ILK(gene name)|psi-mi:ILK(display_short)|uniprotkb:ILK1(gene name synonym)|uniprotkb:ILK2(gene name synonym)|uniprotkb:Inactive integrin-linked kinase(gene name synonym)",
+      "method": "psi-mi:\"MI:0006\"(anti bait coimmunoprecipitation)",
+      "pmid": "pubmed:17353931",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:cul2_human(display_long)|uniprotkb:CUL2(gene name)|psi-mi:CUL2(display_short)",
+      "method": "psi-mi:\"MI:0006\"(anti bait coimmunoprecipitation)",
+      "pmid": "pubmed:17353931",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:nxf1_human(display_long)|uniprotkb:NXF1(gene name)|psi-mi:NXF1(display_short)|uniprotkb:TAP(gene name synonym)|uniprotkb:Tip-associating protein(gene name synonym)|uniprotkb:Tip-associated protein(gene name synonym)|uniprotkb:mRNA export factor TAP(gene name synonym)",
+      "method": "psi-mi:\"MI:0018\"(two hybrid)",
+      "pmid": "imex:IM-15364|pubmed:21988832",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:kctd5_human(display_long)|uniprotkb:KCTD5(gene name)|psi-mi:KCTD5(display_short)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "imex:IM-15364|pubmed:21988832",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:nxf1_human(display_long)|uniprotkb:NXF1(gene name)|psi-mi:NXF1(display_short)|uniprotkb:TAP(gene name synonym)|uniprotkb:Tip-associating protein(gene name synonym)|uniprotkb:Tip-associated protein(gene name synonym)|uniprotkb:mRNA export factor TAP(gene name synonym)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "imex:IM-15364|pubmed:21988832",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:kctd5_human(display_long)|uniprotkb:KCTD5(gene name)|psi-mi:KCTD5(display_short)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "imex:IM-15364|pubmed:21988832",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:kctd5_human(display_long)|uniprotkb:KCTD5(gene name)|psi-mi:KCTD5(display_short)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "imex:IM-15364|pubmed:21988832",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:kctd5_human(display_long)|uniprotkb:KCTD5(gene name)|psi-mi:KCTD5(display_short)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "imex:IM-15364|pubmed:21988832",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:ep300_human(display_long)|uniprotkb:Histone butyryltransferase p300(gene name synonym)|uniprotkb:Histone crotonyltransferase p300(gene name synonym)|uniprotkb:Protein propionyltransferase p300(gene name synonym)|uniprotkb:EP300(gene name)|psi-mi:EP300(display_short)|uniprotkb:P300(gene name synonym)|uniprotkb:E1A-associated protein p300(gene name synonym)|uniprotkb:Protein 2-hydroxyisobutyryltransferase p300(gene name synonym)|uniprotkb:Protein lactyltransferas p300(gene name synonym)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "imex:IM-15364|pubmed:21988832",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:kctd5_mouse(display_long)|uniprotkb:Kctd5(gene name)|psi-mi:Kctd5(display_short)",
+      "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+      "pmid": "imex:IM-11719|pubmed:20360068",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:kctd5_mouse(display_long)|uniprotkb:Kctd5(gene name)|psi-mi:Kctd5(display_short)",
+      "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+      "pmid": "imex:IM-11719|pubmed:20360068",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:cul3_human(display_long)|uniprotkb:CUL3(gene name)|psi-mi:CUL3(display_short)|uniprotkb:KIAA0617(gene name synonym)",
+      "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+      "pmid": "pubmed:21145461|imex:IM-18651|doi:10.1016/j.cell.2010.11.017",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:ptprr_human(display_long)|uniprotkb:PTPRR(gene name)|psi-mi:PTPRR(display_short)|uniprotkb:ECPTP(gene name synonym)|uniprotkb:PTPRQ(gene name synonym)|uniprotkb:Protein-tyrosine phosphatase PCPTP1(gene name synonym)|uniprotkb:NC-PTPCOM1(gene name synonym)|uniprotkb:Ch-1PTPase(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:31980649|imex:IM-26434",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    }
+  ],
+  "KLHDC4": [
+    {
+      "partner": "psi-mi:kldc4_human(display_long)|uniprotkb:KLHDC4(gene name)|psi-mi:KLHDC4(display_short)",
+      "method": "psi-mi:\"MI:0030\"(cross-linking study)",
+      "pmid": "pubmed:30021884|imex:IM-26653|doi:10.1074/mcp.ra118.000924",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:kldc4_human(display_long)|uniprotkb:KLHDC4(gene name)|psi-mi:KLHDC4(display_short)",
+      "method": "psi-mi:\"MI:0089\"(protein array)",
+      "pmid": "pubmed:29513927|doi:10.1002/pmic.201700444|imex:IM-26443",
+      "type": "psi-mi:\"MI:0407\"(direct interaction)"
+    },
+    {
+      "partner": "psi-mi:octc_human(display_long)|uniprotkb:CROT(gene name)|psi-mi:CROT(display_short)|uniprotkb:COT(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:cep76_human(display_long)|uniprotkb:CEP76(gene name)|psi-mi:CEP76(display_short)|uniprotkb:C18orf9(gene name synonym)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "imex:IM-23318|pubmed:25416956",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:cep76_human(display_long)|uniprotkb:CEP76(gene name)|psi-mi:CEP76(display_short)|uniprotkb:C18orf9(gene name synonym)",
+      "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+      "pmid": "imex:IM-23318|pubmed:25416956",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:cep76_human(display_long)|uniprotkb:CEP76(gene name)|psi-mi:CEP76(display_short)|uniprotkb:C18orf9(gene name synonym)",
+      "method": "psi-mi:\"MI:1112\"(two hybrid prey pooling approach)",
+      "pmid": "imex:IM-23318|pubmed:25416956",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:xpo1_mouse(display_long)|uniprotkb:Xpo1(gene name)|psi-mi:Xpo1(display_short)|uniprotkb:Crm1(gene name synonym)|uniprotkb:Chromosome region maintenance 1 protein homolog(gene name synonym)",
+      "method": "psi-mi:\"MI:0096\"(pull down)",
+      "pmid": "pubmed:26673895|imex:IM-24970",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:ahr_human(display_long)|uniprotkb:AHR(gene name)|psi-mi:AHR(display_short)|uniprotkb:BHLHE76(gene name synonym)|uniprotkb:Class E basic helix-loop-helix protein 76(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:33961781|imex:IM-29278|doi:10.1016/j.cell.2021.04.011",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:octc_human(display_long)|uniprotkb:CROT(gene name)|psi-mi:CROT(display_short)|uniprotkb:COT(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:33961781|imex:IM-29278|doi:10.1016/j.cell.2021.04.011",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:o75400-2(display_long)|uniprotkb:Huntingtin-interacting protein A(gene name synonym)|uniprotkb:PRPF40A(gene name)|psi-mi:PRPF40A(display_short)|uniprotkb:FBP11(gene name synonym)|uniprotkb:FLAF1(gene name synonym)|uniprotkb:FNBP3(gene name synonym)|uniprotkb:HIP10(gene name synonym)|uniprotkb:HYPA(gene name synonym)|uniprotkb:Fas ligand-associated factor 1(gene name synonym)|uniprotkb:Formin-binding protein 11(gene name synonym)|uniprotkb:Formin-binding protein 3(gene name synonym)|uniprotkb:Huntingtin yeast partner A(gene name synonym)|uniprotkb:Huntingtin-interacting protein 10(gene name synonym)|uniprotkb:Renal carcinoma antigen NY-REN-6(gene name synonym)|uniprotkb:HSPC225(orf name)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "pubmed:32814053|imex:IM-28217|doi:10.1016/j.celrep.2020.108050",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:ran_human(display_long)|uniprotkb:GTPase Ran(gene name synonym)|uniprotkb:Ras-related nuclear protein(gene name synonym)|uniprotkb:Ras-like protein TC4(gene name synonym)|uniprotkb:Androgen receptor-associated protein 24(gene name synonym)|uniprotkb:RAN(gene name)|psi-mi:RAN(display_short)|uniprotkb:ARA24(gene name synonym)|uniprotkb:OK/SW-cl.81(orf name)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "pubmed:32814053|imex:IM-28217|doi:10.1016/j.celrep.2020.108050",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:q8tbb52(display_long)|uniprotkb:KLHDC4(gene name)|psi-mi:KLHDC4(display_short)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "pubmed:32814053|imex:IM-28217|doi:10.1016/j.celrep.2020.108050",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:q8tbb52(display_long)|uniprotkb:KLHDC4(gene name)|psi-mi:KLHDC4(display_short)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "pubmed:32814053|imex:IM-28217|doi:10.1016/j.celrep.2020.108050",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:ran_human(display_long)|uniprotkb:GTPase Ran(gene name synonym)|uniprotkb:Ras-related nuclear protein(gene name synonym)|uniprotkb:Ras-like protein TC4(gene name synonym)|uniprotkb:Androgen receptor-associated protein 24(gene name synonym)|uniprotkb:RAN(gene name)|psi-mi:RAN(display_short)|uniprotkb:ARA24(gene name synonym)|uniprotkb:OK/SW-cl.81(orf name)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "pubmed:32814053|imex:IM-28217|doi:10.1016/j.celrep.2020.108050",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:casp6_human(display_long)|uniprotkb:Apoptotic protease Mch-2(gene name synonym)|uniprotkb:CASP6(gene name)|psi-mi:CASP6(display_short)|uniprotkb:MCH2(gene name synonym)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "pubmed:32814053|imex:IM-28217|doi:10.1016/j.celrep.2020.108050",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    }
+  ],
+  "KLHDC8A": [
+    {
+      "partner": "psi-mi:kld8a_human(display_long)|uniprotkb:KLHDC8A(gene name)|psi-mi:KLHDC8A(display_short)|uniprotkb:Substitute for delta-EGFR expression 1(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:kld8a_human(display_long)|uniprotkb:KLHDC8A(gene name)|psi-mi:KLHDC8A(display_short)|uniprotkb:Substitute for delta-EGFR expression 1(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:kld8a_human(display_long)|uniprotkb:KLHDC8A(gene name)|psi-mi:KLHDC8A(display_short)|uniprotkb:Substitute for delta-EGFR expression 1(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:kld8a_human(display_long)|uniprotkb:KLHDC8A(gene name)|psi-mi:KLHDC8A(display_short)|uniprotkb:Substitute for delta-EGFR expression 1(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:kld8a_human(display_long)|uniprotkb:KLHDC8A(gene name)|psi-mi:KLHDC8A(display_short)|uniprotkb:Substitute for delta-EGFR expression 1(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:kld8a_human(display_long)|uniprotkb:KLHDC8A(gene name)|psi-mi:KLHDC8A(display_short)|uniprotkb:Substitute for delta-EGFR expression 1(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:kld8a_human(display_long)|uniprotkb:KLHDC8A(gene name)|psi-mi:KLHDC8A(display_short)|uniprotkb:Substitute for delta-EGFR expression 1(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:kld8a_human(display_long)|uniprotkb:KLHDC8A(gene name)|psi-mi:KLHDC8A(display_short)|uniprotkb:Substitute for delta-EGFR expression 1(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:kld8a_human(display_long)|uniprotkb:KLHDC8A(gene name)|psi-mi:KLHDC8A(display_short)|uniprotkb:Substitute for delta-EGFR expression 1(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:kld8a_human(display_long)|uniprotkb:KLHDC8A(gene name)|psi-mi:KLHDC8A(display_short)|uniprotkb:Substitute for delta-EGFR expression 1(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:kld8a_human(display_long)|uniprotkb:KLHDC8A(gene name)|psi-mi:KLHDC8A(display_short)|uniprotkb:Substitute for delta-EGFR expression 1(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:kld8a_human(display_long)|uniprotkb:KLHDC8A(gene name)|psi-mi:KLHDC8A(display_short)|uniprotkb:Substitute for delta-EGFR expression 1(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:kld8a_human(display_long)|uniprotkb:KLHDC8A(gene name)|psi-mi:KLHDC8A(display_short)|uniprotkb:Substitute for delta-EGFR expression 1(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:kld8a_human(display_long)|uniprotkb:KLHDC8A(gene name)|psi-mi:KLHDC8A(display_short)|uniprotkb:Substitute for delta-EGFR expression 1(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:kld8a_human(display_long)|uniprotkb:KLHDC8A(gene name)|psi-mi:KLHDC8A(display_short)|uniprotkb:Substitute for delta-EGFR expression 1(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    }
+  ],
+  "KPNA4": [
+    {
+      "partner": "psi-mi:arrb2_human(display_long)|uniprotkb:Arrestin beta-2(gene name synonym)|uniprotkb:ARRB2(gene name)|psi-mi:ARRB2(display_short)|uniprotkb:ARB2(gene name synonym)|uniprotkb:ARR2(gene name synonym)|uniprotkb:Non-visual arrestin-3(gene name synonym)",
+      "method": "psi-mi:\"MI:0006\"(anti bait coimmunoprecipitation)",
+      "pmid": "pubmed:17353931",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:cbx1_human(display_long)|uniprotkb:CBX1(gene name)|psi-mi:CBX1(display_short)|uniprotkb:CBX(gene name synonym)|uniprotkb:Heterochromatin protein 1 homolog beta(gene name synonym)|uniprotkb:Modifier 1 protein(gene name synonym)|uniprotkb:M31(gene name synonym)|uniprotkb:Heterochromatin protein p25(gene name synonym)|uniprotkb:p25beta(gene name synonym)|uniprotkb:HP1Hsbeta(gene name synonym)",
+      "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+      "pmid": "pubmed:21888893|imex:IM-16911",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:cbx3_human(display_long)|uniprotkb:CBX3(gene name)|psi-mi:CBX3(display_short)|uniprotkb:Heterochromatin protein 1 homolog gamma(gene name synonym)|uniprotkb:Modifier 2 protein(gene name synonym)|uniprotkb:HECH(gene name synonym)",
+      "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+      "pmid": "pubmed:21888893|imex:IM-16911",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:cbx5_human(display_long)|uniprotkb:CBX5(gene name)|psi-mi:CBX5(display_short)|uniprotkb:Heterochromatin protein 1 homolog alpha(gene name synonym)|uniprotkb:Antigen p25(gene name synonym)|uniprotkb:HP1A(gene name synonym)",
+      "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+      "pmid": "pubmed:21888893|imex:IM-16911",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:ima3_human(display_long)|uniprotkb:KPNA4(gene name)|psi-mi:KPNA4(display_short)|uniprotkb:QIP1(gene name synonym)|uniprotkb:Karyopherin subunit alpha-4(gene name synonym)|uniprotkb:Importin alpha Q1(gene name synonym)",
+      "method": "psi-mi:\"MI:0424\"(protein kinase assay)",
+      "pmid": "pubmed:22113938|imex:IM-16640",
+      "type": "psi-mi:\"MI:0217\"(phosphorylation reaction)"
+    },
+    {
+      "partner": "psi-mi:w_nipav(display_long)|uniprotkb:P/V/C(gene name)|psi-mi:P/V/C(display_short)",
+      "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+      "pmid": "pubmed:22810585|imex:IM-17331",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:w_hendh(display_long)|uniprotkb:P/V/C(gene name)|psi-mi:P/V/C(display_short)",
+      "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+      "pmid": "pubmed:22810585|imex:IM-17331",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:ima3_human(display_long)|uniprotkb:KPNA4(gene name)|psi-mi:KPNA4(display_short)|uniprotkb:QIP1(gene name synonym)|uniprotkb:Karyopherin subunit alpha-4(gene name synonym)|uniprotkb:Importin alpha Q1(gene name synonym)",
+      "method": "psi-mi:\"MI:0096\"(pull down)",
+      "pmid": "imex:IM-12019|pubmed:17981117",
+      "type": "psi-mi:\"MI:0407\"(direct interaction)"
+    },
+    {
+      "partner": "psi-mi:slx4_human(display_long)|uniprotkb:SLX4(gene name)|psi-mi:SLX4(display_short)|uniprotkb:BTB/POZ domain-containing protein 12(gene name synonym)|uniprotkb:BTBD12(gene name synonym)|uniprotkb:KIAA1784(gene name synonym)|uniprotkb:KIAA1987(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "imex:IM-12200|pubmed:19596235",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:myc_human(display_long)|uniprotkb:BHLHE39(gene name synonym)|uniprotkb:Transcription factor p64(gene name synonym)|uniprotkb:MYC(gene name)|psi-mi:MYC(display_short)|uniprotkb:Proto-oncogene c-Myc(gene name synonym)|uniprotkb:Class E basic helix-loop-helix protein 39(gene name synonym)",
+      "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+      "pmid": "pubmed:17314511",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:ima3_human(display_long)|uniprotkb:KPNA4(gene name)|psi-mi:KPNA4(display_short)|uniprotkb:QIP1(gene name synonym)|uniprotkb:Karyopherin subunit alpha-4(gene name synonym)|uniprotkb:Importin alpha Q1(gene name synonym)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "pubmed:20936779|imex:IM-17049",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:rbp2_mouse(display_long)|uniprotkb:Ran-binding protein 2(gene name synonym)|uniprotkb:Ranbp2(gene name)|psi-mi:Ranbp2(display_short)",
+      "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+      "pmid": "imex:IM-11719|pubmed:20360068",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:ki67_mouse(display_long)|uniprotkb:Mki67(gene name)|psi-mi:Mki67(display_short)|uniprotkb:Antigen identified by monoclonal antibody Ki-67 homolog(gene name synonym)",
+      "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+      "pmid": "imex:IM-11719|pubmed:20360068",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:ima3_human(display_long)|uniprotkb:KPNA4(gene name)|psi-mi:KPNA4(display_short)|uniprotkb:QIP1(gene name synonym)|uniprotkb:Karyopherin subunit alpha-4(gene name synonym)|uniprotkb:Importin alpha Q1(gene name synonym)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "imex:IM-13779|pubmed:20711500",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:hdac1_human(display_long)|uniprotkb:HDAC1(gene name)|psi-mi:HDAC1(display_short)|uniprotkb:RPD3L1(gene name synonym)|uniprotkb:Protein deacetylase HDAC1(gene name synonym)|uniprotkb:Protein deacylase HDAC1(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "imex:IM-18733|pubmed:23752268",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    }
+  ],
+  "KTI12": [
+    {
+      "partner": "psi-mi:elp3_yeast(display_long)|uniprotkb:ELP3(gene name)|psi-mi:ELP3(display_short)|uniprotkb:Gamma-toxin target 3(gene name synonym)|uniprotkb:HPA1(gene name synonym)|uniprotkb:TOT3(gene name synonym)|uniprotkb:\"tRNA uridine(34) acetyltransferase\"(gene name synonym)|uniprotkb:YPL086C(locus name)",
+      "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+      "pmid": "imex:IM-14085|pubmed:21179020",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:kti12_yeast(display_long)|uniprotkb:KTI12(gene name)|psi-mi:KTI12(display_short)|uniprotkb:YKL110C(locus name)|uniprotkb:YKL500(orf name)|uniprotkb:YKL446(orf name)|uniprotkb:Killer toxin insensitivity protein 12(gene name synonym)|uniprotkb:Gamma-toxin target protein 4(gene name synonym)",
+      "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+      "pmid": "pubmed:19536198",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:hsp72_yeast(display_long)|uniprotkb:L0931(orf name)|uniprotkb:YLL024C(locus name)|uniprotkb:SSA2(gene name)|psi-mi:SSA2(display_short)",
+      "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+      "pmid": "pubmed:19536198",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:gpr35_human(display_long)|uniprotkb:GPR35(gene name)|psi-mi:GPR35(display_short)|uniprotkb:Kynurenic acid receptor(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:kti12_human(display_long)|uniprotkb:SBBI81(orf name)|uniprotkb:KTI12(gene name)|psi-mi:KTI12(display_short)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "imex:IM-23318|pubmed:25416956",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:fhl3_human(display_long)|uniprotkb:FHL3(gene name)|psi-mi:FHL3(display_short)|uniprotkb:SLIM2(gene name synonym)|uniprotkb:Skeletal muscle LIM-protein 2(gene name synonym)",
+      "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+      "pmid": "imex:IM-23318|pubmed:25416956",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:fhl3_human(display_long)|uniprotkb:FHL3(gene name)|psi-mi:FHL3(display_short)|uniprotkb:SLIM2(gene name synonym)|uniprotkb:Skeletal muscle LIM-protein 2(gene name synonym)",
+      "method": "psi-mi:\"MI:1112\"(two hybrid prey pooling approach)",
+      "pmid": "imex:IM-23318|pubmed:25416956",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:xpo1_yeast(display_long)|uniprotkb:CRM1(gene name)|psi-mi:CRM1(display_short)|uniprotkb:KAP124(gene name synonym)|uniprotkb:YGR218W(locus name)|uniprotkb:G8514(orf name)|uniprotkb:XPO1(gene name synonym)|uniprotkb:Chromosome region maintenance protein 1(gene name synonym)|uniprotkb:Karyopherin-124(gene name synonym)",
+      "method": "psi-mi:\"MI:0096\"(pull down)",
+      "pmid": "pubmed:26673895|imex:IM-24970",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:gpr35_human(display_long)|uniprotkb:GPR35(gene name)|psi-mi:GPR35(display_short)|uniprotkb:Kynurenic acid receptor(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:33961781|imex:IM-29278|doi:10.1016/j.cell.2021.04.011",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:elp3_human(display_long)|uniprotkb:ELP3(gene name)|psi-mi:ELP3(display_short)|uniprotkb:\"tRNA uridine(34) acetyltransferase\"(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:33961781|imex:IM-29278|doi:10.1016/j.cell.2021.04.011",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:tpr_drome(display_long)|uniprotkb:Mgtor(gene name)|psi-mi:Mgtor(display_short)|uniprotkb:Bx34(gene name synonym)|uniprotkb:Mtor(gene name synonym)|uniprotkb:Nuclear envelope antigen Bx34(gene name synonym)|uniprotkb:Protein megator(gene name synonym)|uniprotkb:\"l(2)k03905\"(gene name synonym)|uniprotkb:CG8274(orf name)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "imex:IM-16527|pubmed:25294943",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:piwi_drome(display_long)|uniprotkb:piwi(gene name)|psi-mi:piwi(display_short)|uniprotkb:CG6122(orf name)|uniprotkb:Protein P-element induced wimpy testis(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "imex:IM-16527|pubmed:25294943",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:b4fnn7_maize(display_long)|uniprotkb:LOC100278925(gene name)|psi-mi:LOC100278925(display_short)|uniprotkb:ZEAMMB73_Zm00001d018659(orf name)",
+      "method": "psi-mi:\"MI:0018\"(two hybrid)",
+      "pmid": "pubmed:36581701|imex:IM-29553",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:b4fnn7_maize(display_long)|uniprotkb:LOC100278925(gene name)|psi-mi:LOC100278925(display_short)|uniprotkb:ZEAMMB73_Zm00001d018659(orf name)",
+      "method": "psi-mi:\"MI:0018\"(two hybrid)",
+      "pmid": "pubmed:36581701|imex:IM-29553",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:b4fnn7_maize(display_long)|uniprotkb:LOC100278925(gene name)|psi-mi:LOC100278925(display_short)|uniprotkb:ZEAMMB73_Zm00001d018659(orf name)",
+      "method": "psi-mi:\"MI:0018\"(two hybrid)",
+      "pmid": "pubmed:36581701|imex:IM-29553",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    }
+  ],
+  "LACC1": [
+    {
+      "partner": "psi-mi:oser1_human(display_long)|uniprotkb:OSER1(gene name)|psi-mi:OSER1(display_short)|uniprotkb:C20orf111(gene name synonym)|uniprotkb:Oxidative stress-responsive protein 1(gene name synonym)|uniprotkb:Peroxide-inducible transcript 1 protein(gene name synonym)|uniprotkb:BM-038(orf name)|uniprotkb:HSPC168(orf name)|uniprotkb:HSPC207(orf name)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:q96qb1-3(display_long)|uniprotkb:DLC1(gene name)|psi-mi:DLC1(display_short)|uniprotkb:ARHGAP7(gene name synonym)|uniprotkb:KIAA1723(gene name synonym)|uniprotkb:STARD12(gene name synonym)|uniprotkb:Deleted in liver cancer 1 protein(gene name synonym)|uniprotkb:HP protein(gene name synonym)|uniprotkb:Rho-type GTPase-activating protein 7(gene name synonym)|uniprotkb:START domain-containing protein 12(gene name synonym)|uniprotkb:StAR-related lipid transfer protein 12(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:lacc1_human(display_long)|uniprotkb:LACC1(gene name)|psi-mi:LACC1(display_short)|uniprotkb:C13orf31(gene name synonym)|uniprotkb:FAMIN(gene name synonym)|uniprotkb:Fatty acid metabolism-immunity nexus(gene name synonym)|uniprotkb:Adenosine deaminase LACC1(gene name synonym)|uniprotkb:Guanosine phosphorylase LACC1(gene name synonym)|uniprotkb:Laccase domain-containing protein 1(gene name synonym)|uniprotkb:S-methyl-5'-thioadenosine phosphorylase LACC1(gene name synonym)",
+      "method": "psi-mi:\"MI:0004\"(affinity chromatography technology)",
+      "pmid": "pubmed:27478939|imex:IM-26127",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:lacc1_human(display_long)|uniprotkb:LACC1(gene name)|psi-mi:LACC1(display_short)|uniprotkb:C13orf31(gene name synonym)|uniprotkb:FAMIN(gene name synonym)|uniprotkb:Fatty acid metabolism-immunity nexus(gene name synonym)|uniprotkb:Adenosine deaminase LACC1(gene name synonym)|uniprotkb:Guanosine phosphorylase LACC1(gene name synonym)|uniprotkb:Laccase domain-containing protein 1(gene name synonym)|uniprotkb:S-methyl-5'-thioadenosine phosphorylase LACC1(gene name synonym)",
+      "method": "psi-mi:\"MI:0004\"(affinity chromatography technology)",
+      "pmid": "pubmed:27478939|imex:IM-26127",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:lacc1_human(display_long)|uniprotkb:LACC1(gene name)|psi-mi:LACC1(display_short)|uniprotkb:C13orf31(gene name synonym)|uniprotkb:FAMIN(gene name synonym)|uniprotkb:Fatty acid metabolism-immunity nexus(gene name synonym)|uniprotkb:Adenosine deaminase LACC1(gene name synonym)|uniprotkb:Guanosine phosphorylase LACC1(gene name synonym)|uniprotkb:Laccase domain-containing protein 1(gene name synonym)|uniprotkb:S-methyl-5'-thioadenosine phosphorylase LACC1(gene name synonym)",
+      "method": "psi-mi:\"MI:0004\"(affinity chromatography technology)",
+      "pmid": "pubmed:27478939|imex:IM-26127",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:lacc1_human(display_long)|uniprotkb:LACC1(gene name)|psi-mi:LACC1(display_short)|uniprotkb:C13orf31(gene name synonym)|uniprotkb:FAMIN(gene name synonym)|uniprotkb:Fatty acid metabolism-immunity nexus(gene name synonym)|uniprotkb:Adenosine deaminase LACC1(gene name synonym)|uniprotkb:Guanosine phosphorylase LACC1(gene name synonym)|uniprotkb:Laccase domain-containing protein 1(gene name synonym)|uniprotkb:S-methyl-5'-thioadenosine phosphorylase LACC1(gene name synonym)",
+      "method": "psi-mi:\"MI:0004\"(affinity chromatography technology)",
+      "pmid": "pubmed:27478939|imex:IM-26127",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:lacc1_human(display_long)|uniprotkb:LACC1(gene name)|psi-mi:LACC1(display_short)|uniprotkb:C13orf31(gene name synonym)|uniprotkb:FAMIN(gene name synonym)|uniprotkb:Fatty acid metabolism-immunity nexus(gene name synonym)|uniprotkb:Adenosine deaminase LACC1(gene name synonym)|uniprotkb:Guanosine phosphorylase LACC1(gene name synonym)|uniprotkb:Laccase domain-containing protein 1(gene name synonym)|uniprotkb:S-methyl-5'-thioadenosine phosphorylase LACC1(gene name synonym)",
+      "method": "psi-mi:\"MI:0004\"(affinity chromatography technology)",
+      "pmid": "pubmed:27478939|imex:IM-26127",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:lacc1_human(display_long)|uniprotkb:LACC1(gene name)|psi-mi:LACC1(display_short)|uniprotkb:C13orf31(gene name synonym)|uniprotkb:FAMIN(gene name synonym)|uniprotkb:Fatty acid metabolism-immunity nexus(gene name synonym)|uniprotkb:Adenosine deaminase LACC1(gene name synonym)|uniprotkb:Guanosine phosphorylase LACC1(gene name synonym)|uniprotkb:Laccase domain-containing protein 1(gene name synonym)|uniprotkb:S-methyl-5'-thioadenosine phosphorylase LACC1(gene name synonym)",
+      "method": "psi-mi:\"MI:0004\"(affinity chromatography technology)",
+      "pmid": "pubmed:27478939|imex:IM-26127",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:lacc1_human(display_long)|uniprotkb:LACC1(gene name)|psi-mi:LACC1(display_short)|uniprotkb:C13orf31(gene name synonym)|uniprotkb:FAMIN(gene name synonym)|uniprotkb:Fatty acid metabolism-immunity nexus(gene name synonym)|uniprotkb:Adenosine deaminase LACC1(gene name synonym)|uniprotkb:Guanosine phosphorylase LACC1(gene name synonym)|uniprotkb:Laccase domain-containing protein 1(gene name synonym)|uniprotkb:S-methyl-5'-thioadenosine phosphorylase LACC1(gene name synonym)",
+      "method": "psi-mi:\"MI:0004\"(affinity chromatography technology)",
+      "pmid": "pubmed:27478939|imex:IM-26127",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:lacc1_human(display_long)|uniprotkb:LACC1(gene name)|psi-mi:LACC1(display_short)|uniprotkb:C13orf31(gene name synonym)|uniprotkb:FAMIN(gene name synonym)|uniprotkb:Fatty acid metabolism-immunity nexus(gene name synonym)|uniprotkb:Adenosine deaminase LACC1(gene name synonym)|uniprotkb:Guanosine phosphorylase LACC1(gene name synonym)|uniprotkb:Laccase domain-containing protein 1(gene name synonym)|uniprotkb:S-methyl-5'-thioadenosine phosphorylase LACC1(gene name synonym)",
+      "method": "psi-mi:\"MI:0004\"(affinity chromatography technology)",
+      "pmid": "pubmed:27478939|imex:IM-26127",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:lacc1_human(display_long)|uniprotkb:LACC1(gene name)|psi-mi:LACC1(display_short)|uniprotkb:C13orf31(gene name synonym)|uniprotkb:FAMIN(gene name synonym)|uniprotkb:Fatty acid metabolism-immunity nexus(gene name synonym)|uniprotkb:Adenosine deaminase LACC1(gene name synonym)|uniprotkb:Guanosine phosphorylase LACC1(gene name synonym)|uniprotkb:Laccase domain-containing protein 1(gene name synonym)|uniprotkb:S-methyl-5'-thioadenosine phosphorylase LACC1(gene name synonym)",
+      "method": "psi-mi:\"MI:0004\"(affinity chromatography technology)",
+      "pmid": "pubmed:27478939|imex:IM-26127",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:lacc1_human(display_long)|uniprotkb:LACC1(gene name)|psi-mi:LACC1(display_short)|uniprotkb:C13orf31(gene name synonym)|uniprotkb:FAMIN(gene name synonym)|uniprotkb:Fatty acid metabolism-immunity nexus(gene name synonym)|uniprotkb:Adenosine deaminase LACC1(gene name synonym)|uniprotkb:Guanosine phosphorylase LACC1(gene name synonym)|uniprotkb:Laccase domain-containing protein 1(gene name synonym)|uniprotkb:S-methyl-5'-thioadenosine phosphorylase LACC1(gene name synonym)",
+      "method": "psi-mi:\"MI:0004\"(affinity chromatography technology)",
+      "pmid": "pubmed:27478939|imex:IM-26127",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:lacc1_human(display_long)|uniprotkb:LACC1(gene name)|psi-mi:LACC1(display_short)|uniprotkb:C13orf31(gene name synonym)|uniprotkb:FAMIN(gene name synonym)|uniprotkb:Fatty acid metabolism-immunity nexus(gene name synonym)|uniprotkb:Adenosine deaminase LACC1(gene name synonym)|uniprotkb:Guanosine phosphorylase LACC1(gene name synonym)|uniprotkb:Laccase domain-containing protein 1(gene name synonym)|uniprotkb:S-methyl-5'-thioadenosine phosphorylase LACC1(gene name synonym)",
+      "method": "psi-mi:\"MI:0004\"(affinity chromatography technology)",
+      "pmid": "pubmed:27478939|imex:IM-26127",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:lacc1_human(display_long)|uniprotkb:LACC1(gene name)|psi-mi:LACC1(display_short)|uniprotkb:C13orf31(gene name synonym)|uniprotkb:FAMIN(gene name synonym)|uniprotkb:Fatty acid metabolism-immunity nexus(gene name synonym)|uniprotkb:Adenosine deaminase LACC1(gene name synonym)|uniprotkb:Guanosine phosphorylase LACC1(gene name synonym)|uniprotkb:Laccase domain-containing protein 1(gene name synonym)|uniprotkb:S-methyl-5'-thioadenosine phosphorylase LACC1(gene name synonym)",
+      "method": "psi-mi:\"MI:0004\"(affinity chromatography technology)",
+      "pmid": "pubmed:27478939|imex:IM-26127",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:lacc1_human(display_long)|uniprotkb:LACC1(gene name)|psi-mi:LACC1(display_short)|uniprotkb:C13orf31(gene name synonym)|uniprotkb:FAMIN(gene name synonym)|uniprotkb:Fatty acid metabolism-immunity nexus(gene name synonym)|uniprotkb:Adenosine deaminase LACC1(gene name synonym)|uniprotkb:Guanosine phosphorylase LACC1(gene name synonym)|uniprotkb:Laccase domain-containing protein 1(gene name synonym)|uniprotkb:S-methyl-5'-thioadenosine phosphorylase LACC1(gene name synonym)",
+      "method": "psi-mi:\"MI:0004\"(affinity chromatography technology)",
+      "pmid": "pubmed:27478939|imex:IM-26127",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    }
+  ],
+  "LBX2": [
+    {
+      "partner": "psi-mi:p50750-2(display_long)|uniprotkb:Cell division cycle 2-like protein kinase 4(gene name synonym)|uniprotkb:Cell division protein kinase 9(gene name synonym)|uniprotkb:Serine/threonine-protein kinase PITALRE(gene name synonym)|uniprotkb:TAK(gene name synonym)|uniprotkb:Tat-associated kinase complex catalytic subunit(gene name synonym)|uniprotkb:CDK9(gene name)|psi-mi:CDK9(display_short)|uniprotkb:C-2K(gene name synonym)|uniprotkb:CDC2L4(gene name synonym)",
+      "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+      "pmid": "pubmed:32296183|imex:IM-25472",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:p50750-2(display_long)|uniprotkb:Cell division cycle 2-like protein kinase 4(gene name synonym)|uniprotkb:Cell division protein kinase 9(gene name synonym)|uniprotkb:Serine/threonine-protein kinase PITALRE(gene name synonym)|uniprotkb:TAK(gene name synonym)|uniprotkb:Tat-associated kinase complex catalytic subunit(gene name synonym)|uniprotkb:CDK9(gene name)|psi-mi:CDK9(display_short)|uniprotkb:C-2K(gene name synonym)|uniprotkb:CDC2L4(gene name synonym)",
+      "method": "psi-mi:\"MI:1112\"(two hybrid prey pooling approach)",
+      "pmid": "pubmed:32296183|imex:IM-25472",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:p50750-2(display_long)|uniprotkb:Cell division cycle 2-like protein kinase 4(gene name synonym)|uniprotkb:Cell division protein kinase 9(gene name synonym)|uniprotkb:Serine/threonine-protein kinase PITALRE(gene name synonym)|uniprotkb:TAK(gene name synonym)|uniprotkb:Tat-associated kinase complex catalytic subunit(gene name synonym)|uniprotkb:CDK9(gene name)|psi-mi:CDK9(display_short)|uniprotkb:C-2K(gene name synonym)|uniprotkb:CDC2L4(gene name synonym)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "pubmed:32296183|imex:IM-25472",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:lbx2_human(display_long)|uniprotkb:LBX2(gene name)|psi-mi:LBX2(display_short)|uniprotkb:Ladybird homeobox protein homolog 2(gene name synonym)|uniprotkb:LP3727(orf name)|uniprotkb:Ladybird homeobox 2(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:33961781|imex:IM-29278|doi:10.1016/j.cell.2021.04.011",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:lbx2_human(display_long)|uniprotkb:LBX2(gene name)|psi-mi:LBX2(display_short)|uniprotkb:Ladybird homeobox protein homolog 2(gene name synonym)|uniprotkb:LP3727(orf name)|uniprotkb:Ladybird homeobox 2(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:33961781|imex:IM-29278|doi:10.1016/j.cell.2021.04.011",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:lbx2_human(display_long)|uniprotkb:LBX2(gene name)|psi-mi:LBX2(display_short)|uniprotkb:Ladybird homeobox protein homolog 2(gene name synonym)|uniprotkb:LP3727(orf name)|uniprotkb:Ladybird homeobox 2(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:33961781|imex:IM-29278|doi:10.1016/j.cell.2021.04.011",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:lbx2_human(display_long)|uniprotkb:LBX2(gene name)|psi-mi:LBX2(display_short)|uniprotkb:Ladybird homeobox protein homolog 2(gene name synonym)|uniprotkb:LP3727(orf name)|uniprotkb:Ladybird homeobox 2(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:33961781|imex:IM-29278|doi:10.1016/j.cell.2021.04.011",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:lbx2_human(display_long)|uniprotkb:LBX2(gene name)|psi-mi:LBX2(display_short)|uniprotkb:Ladybird homeobox protein homolog 2(gene name synonym)|uniprotkb:LP3727(orf name)|uniprotkb:Ladybird homeobox 2(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:33961781|imex:IM-29278|doi:10.1016/j.cell.2021.04.011",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:mrna_lbx2(display_short)|psi-mi:EBI-54319588(display_long)|uniprotkb:LBX2(gene name)",
+      "method": "psi-mi:\"MI:2195\"(clash)",
+      "pmid": "pubmed:23622248|imex:IM-30030|doi:10.1016/j.cell.2013.03.043",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:mrna_lbx2(display_short)|psi-mi:EBI-54319588(display_long)|uniprotkb:LBX2(gene name)",
+      "method": "psi-mi:\"MI:2195\"(clash)",
+      "pmid": "pubmed:23622248|imex:IM-30030|doi:10.1016/j.cell.2013.03.043",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:mrna_lbx2(display_short)|psi-mi:EBI-54319588(display_long)|uniprotkb:LBX2(gene name)",
+      "method": "psi-mi:\"MI:2195\"(clash)",
+      "pmid": "pubmed:23622248|imex:IM-30030|doi:10.1016/j.cell.2013.03.043",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:mrna_lbx2(display_short)|psi-mi:EBI-54319588(display_long)|uniprotkb:LBX2(gene name)",
+      "method": "psi-mi:\"MI:2195\"(clash)",
+      "pmid": "pubmed:23622248|imex:IM-30030|doi:10.1016/j.cell.2013.03.043",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    }
+  ],
+  "LCOR": [
+    {
+      "partner": "psi-mi:ehmt2_human(display_long)|uniprotkb:KMT1C(gene name synonym)|uniprotkb:Histone H3-K9 methyltransferase 3(gene name synonym)|uniprotkb:Euchromatic histone-lysine N-methyltransferase 2(gene name synonym)|uniprotkb:HLA-B-associated transcript 8(gene name synonym)|uniprotkb:Protein G9a(gene name synonym)|uniprotkb:Lysine N-methyltransferase 1C(gene name synonym)|uniprotkb:EHMT2(gene name)|psi-mi:EHMT2(display_short)|uniprotkb:BAT8(gene name synonym)|uniprotkb:G9A(gene name synonym)|uniprotkb:NG36(gene name synonym)|uniprotkb:C6orf30(gene name synonym)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "pubmed:16189514|imex:IM-16520|mint:MINT-5217968",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:lcor_human(display_long)|uniprotkb:LCOR(gene name)|psi-mi:LCOR(display_short)|uniprotkb:C10orf12(gene name synonym)|uniprotkb:KIAA1795(gene name synonym)|uniprotkb:MLR2(gene name synonym)|uniprotkb:Mblk1-related protein 2(gene name synonym)",
+      "method": "psi-mi:\"MI:0030\"(cross-linking study)",
+      "pmid": "pubmed:30021884|imex:IM-26653|doi:10.1074/mcp.ra118.000924",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:ctbp2_human(display_long)|uniprotkb:CTBP2(gene name)|psi-mi:CTBP2(display_short)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "imex:IM-27438|doi:10.1038/s41467-019-11959-3|pubmed:31515488",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:q96jn0-2(display_long)|uniprotkb:LCOR(gene name)|psi-mi:LCOR(display_short)|uniprotkb:KIAA1795(gene name synonym)|uniprotkb:MLR2(gene name synonym)|uniprotkb:Mblk1-related protein 2(gene name synonym)|uniprotkb:C10orf12(gene name synonym)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "pubmed:32296183|imex:IM-25472",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:q96jn0-2(display_long)|uniprotkb:LCOR(gene name)|psi-mi:LCOR(display_short)|uniprotkb:KIAA1795(gene name synonym)|uniprotkb:MLR2(gene name synonym)|uniprotkb:Mblk1-related protein 2(gene name synonym)|uniprotkb:C10orf12(gene name synonym)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "pubmed:32296183|imex:IM-25472",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:q927531(display_long)|uniprotkb:RORB(gene name)|psi-mi:RORB(display_short)|uniprotkb:NR1F2(gene name synonym)|uniprotkb:RZRB(gene name synonym)",
+      "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+      "pmid": "pubmed:32296183|imex:IM-25472",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:traf1_human(display_long)|uniprotkb:TRAF1(gene name)|psi-mi:TRAF1(display_short)|uniprotkb:EBI6(gene name synonym)|uniprotkb:Epstein-Barr virus-induced protein 6(gene name synonym)",
+      "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+      "pmid": "pubmed:32296183|imex:IM-25472",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:suz12_human(display_long)|uniprotkb:CHET9(gene name synonym)|uniprotkb:JJAZ1(gene name synonym)|uniprotkb:KIAA0160(gene name synonym)|uniprotkb:SUZ12(gene name)|psi-mi:SUZ12(display_short)|uniprotkb:Suppressor of zeste 12 protein homolog(gene name synonym)|uniprotkb:Joined to JAZF1 protein(gene name synonym)|uniprotkb:Chromatin precipitated E2F target 9 protein(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:suz12_human(display_long)|uniprotkb:CHET9(gene name synonym)|uniprotkb:JJAZ1(gene name synonym)|uniprotkb:KIAA0160(gene name synonym)|uniprotkb:SUZ12(gene name)|psi-mi:SUZ12(display_short)|uniprotkb:Suppressor of zeste 12 protein homolog(gene name synonym)|uniprotkb:Joined to JAZF1 protein(gene name synonym)|uniprotkb:Chromatin precipitated E2F target 9 protein(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:ctbp1_human(display_long)|uniprotkb:CTBP1(gene name)|psi-mi:CTBP1(display_short)|uniprotkb:CTBP(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:ctbp1_human(display_long)|uniprotkb:CTBP1(gene name)|psi-mi:CTBP1(display_short)|uniprotkb:CTBP(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:kldc3_human(display_long)|uniprotkb:Testis intracellular mediator protein(gene name synonym)|uniprotkb:KLHDC3(gene name)|psi-mi:KLHDC3(display_short)|uniprotkb:PEAS(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:q96jn0-2(display_long)|uniprotkb:LCOR(gene name)|psi-mi:LCOR(display_short)|uniprotkb:KIAA1795(gene name synonym)|uniprotkb:MLR2(gene name synonym)|uniprotkb:Mblk1-related protein 2(gene name synonym)|uniprotkb:C10orf12(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:q96jn0-2(display_long)|uniprotkb:LCOR(gene name)|psi-mi:LCOR(display_short)|uniprotkb:KIAA1795(gene name synonym)|uniprotkb:MLR2(gene name synonym)|uniprotkb:Mblk1-related protein 2(gene name synonym)|uniprotkb:C10orf12(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:q96jn0-2(display_long)|uniprotkb:LCOR(gene name)|psi-mi:LCOR(display_short)|uniprotkb:KIAA1795(gene name synonym)|uniprotkb:MLR2(gene name synonym)|uniprotkb:Mblk1-related protein 2(gene name synonym)|uniprotkb:C10orf12(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    }
+  ],
+  "LCORL": [
+    {
+      "partner": "psi-mi:ctbp1_human(display_long)|uniprotkb:CTBP1(gene name)|psi-mi:CTBP1(display_short)|uniprotkb:CTBP(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:q8n3x6-3(display_long)|uniprotkb:LCORL(gene name)|psi-mi:LCORL(display_short)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "pubmed:32296183|imex:IM-25472",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:maga6_human(display_long)|uniprotkb:MAGE-6 antigen(gene name synonym)|uniprotkb:MAGE3B antigen(gene name synonym)|uniprotkb:Cancer/testis antigen 1.6(gene name synonym)|uniprotkb:MAGEA6(gene name)|psi-mi:MAGEA6(display_short)|uniprotkb:MAGE6(gene name synonym)",
+      "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+      "pmid": "pubmed:32296183|imex:IM-25472",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:q8n3x6-3(display_long)|uniprotkb:LCORL(gene name)|psi-mi:LCORL(display_short)",
+      "method": "psi-mi:\"MI:1112\"(two hybrid prey pooling approach)",
+      "pmid": "pubmed:32296183|imex:IM-25472",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:q8n3x6-3(display_long)|uniprotkb:LCORL(gene name)|psi-mi:LCORL(display_short)",
+      "method": "psi-mi:\"MI:1112\"(two hybrid prey pooling approach)",
+      "pmid": "pubmed:32296183|imex:IM-25472",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:q13363-2(display_long)|uniprotkb:CTBP1(gene name)|psi-mi:CTBP1(display_short)|uniprotkb:CTBP(gene name synonym)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "imex:IM-24135|pubmed:24722188|doi:10.1038/ncomms4650",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:ctbp1_human(display_long)|uniprotkb:CTBP1(gene name)|psi-mi:CTBP1(display_short)|uniprotkb:CTBP(gene name synonym)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "imex:IM-24135|pubmed:24722188|doi:10.1038/ncomms4650",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:lcorl_human(display_long)|uniprotkb:LCORL(gene name)|psi-mi:LCORL(display_short)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "imex:IM-23318|pubmed:25416956",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:lcorl_human(display_long)|uniprotkb:LCORL(gene name)|psi-mi:LCORL(display_short)",
+      "method": "psi-mi:\"MI:1112\"(two hybrid prey pooling approach)",
+      "pmid": "imex:IM-23318|pubmed:25416956",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:maga6_human(display_long)|uniprotkb:MAGE-6 antigen(gene name synonym)|uniprotkb:MAGE3B antigen(gene name synonym)|uniprotkb:Cancer/testis antigen 1.6(gene name synonym)|uniprotkb:MAGEA6(gene name)|psi-mi:MAGEA6(display_short)|uniprotkb:MAGE6(gene name synonym)",
+      "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+      "pmid": "imex:IM-23318|pubmed:25416956",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:q8n3x6-3(display_long)|uniprotkb:LCORL(gene name)|psi-mi:LCORL(display_short)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "pubmed:32296183|imex:IM-25472",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:ctbp1_human(display_long)|uniprotkb:CTBP1(gene name)|psi-mi:CTBP1(display_short)|uniprotkb:CTBP(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:31041561|imex:IM-29110",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:ctbp1_human(display_long)|uniprotkb:CTBP1(gene name)|psi-mi:CTBP1(display_short)|uniprotkb:CTBP(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:31041561|imex:IM-29110",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:ctbp1_human(display_long)|uniprotkb:CTBP1(gene name)|psi-mi:CTBP1(display_short)|uniprotkb:CTBP(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:31041561|imex:IM-29110",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:ctbp1_human(display_long)|uniprotkb:CTBP1(gene name)|psi-mi:CTBP1(display_short)|uniprotkb:CTBP(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:33961781|imex:IM-29278|doi:10.1016/j.cell.2021.04.011",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    }
+  ],
+  "LDOC1": [
+    {
+      "partner": "psi-mi:smrd1_human(display_long)|uniprotkb:SMARCD1(gene name)|psi-mi:SMARCD1(display_short)|uniprotkb:BAF60A(gene name synonym)|uniprotkb:SWI/SNF complex 60 kDa subunit(gene name synonym)|uniprotkb:60 kDa BRG-1/Brm-associated factor subunit A(gene name synonym)|uniprotkb:BRG1-associated factor 60A(gene name synonym)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "pubmed:16189514|imex:IM-16520|mint:MINT-5217968",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:cc85b_human(display_long)|uniprotkb:CCDC85B(gene name)|psi-mi:CCDC85B(display_short)|uniprotkb:Hepatitis delta antigen-interacting protein A(gene name synonym)|uniprotkb:DIPA(gene name synonym)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "pubmed:16189514|imex:IM-16520|mint:MINT-5217968",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:nrip1_human(display_long)|uniprotkb:Nuclear factor RIP140(gene name synonym)|uniprotkb:Receptor-interacting protein 140(gene name synonym)|uniprotkb:NRIP1(gene name)|psi-mi:NRIP1(display_short)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "pubmed:16189514|imex:IM-16520|mint:MINT-5217968",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:ldoc1_human(display_long)|uniprotkb:Leucine zipper protein down-regulated in cancer cells(gene name synonym)|uniprotkb:LDOC1(gene name)|psi-mi:LDOC1(display_short)|uniprotkb:BCUR1(gene name synonym)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "pubmed:16189514|imex:IM-16520|mint:MINT-5217968",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:ldoc1_human(display_long)|uniprotkb:Leucine zipper protein down-regulated in cancer cells(gene name synonym)|uniprotkb:LDOC1(gene name)|psi-mi:LDOC1(display_short)|uniprotkb:BCUR1(gene name synonym)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "pubmed:16189514|imex:IM-16520|mint:MINT-5217968",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:ldoc1_human(display_long)|uniprotkb:Leucine zipper protein down-regulated in cancer cells(gene name synonym)|uniprotkb:LDOC1(gene name)|psi-mi:LDOC1(display_short)|uniprotkb:BCUR1(gene name synonym)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "pubmed:16189514|imex:IM-16520|mint:MINT-5217968",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:ldoc1_human(display_long)|uniprotkb:Leucine zipper protein down-regulated in cancer cells(gene name synonym)|uniprotkb:LDOC1(gene name)|psi-mi:LDOC1(display_short)|uniprotkb:BCUR1(gene name synonym)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "pubmed:16189514|imex:IM-16520|mint:MINT-5217968",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:ldoc1_human(display_long)|uniprotkb:Leucine zipper protein down-regulated in cancer cells(gene name synonym)|uniprotkb:LDOC1(gene name)|psi-mi:LDOC1(display_short)|uniprotkb:BCUR1(gene name synonym)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "pubmed:16189514|imex:IM-16520|mint:MINT-5217968",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:hgs_human(display_long)|uniprotkb:Protein pp110(gene name synonym)|uniprotkb:Hrs(gene name synonym)|uniprotkb:HGS(gene name)|psi-mi:HGS(display_short)|uniprotkb:HRS(gene name synonym)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "pubmed:16189514|imex:IM-16520|mint:MINT-5217968",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:f107a_human(display_long)|uniprotkb:Down-regulated in renal cell carcinoma 1(gene name synonym)|uniprotkb:Protein TU3A(gene name synonym)|uniprotkb:FAM107A(gene name)|psi-mi:FAM107A(display_short)|uniprotkb:TU3A(gene name synonym)|uniprotkb:DRR1(gene name synonym)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "pubmed:16189514|imex:IM-16520|mint:MINT-5217968",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:fosl1_human(display_long)|uniprotkb:FOSL1(gene name)|psi-mi:FOSL1(display_short)|uniprotkb:FRA1(gene name synonym)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "pubmed:16189514|imex:IM-16520|mint:MINT-5217968",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:k1c15_human(display_long)|uniprotkb:KRT15(gene name)|psi-mi:KRT15(display_short)|uniprotkb:KRTB(gene name synonym)|uniprotkb:Cytokeratin-15(gene name synonym)|uniprotkb:Keratin-15(gene name synonym)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "pubmed:16189514|imex:IM-16520|mint:MINT-5217968",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:ldoc1_human(display_long)|uniprotkb:Leucine zipper protein down-regulated in cancer cells(gene name synonym)|uniprotkb:LDOC1(gene name)|psi-mi:LDOC1(display_short)|uniprotkb:BCUR1(gene name synonym)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "pubmed:16189514|imex:IM-16520|mint:MINT-5217968",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:atf4_human(display_long)|uniprotkb:Activating transcription factor 4(gene name synonym)|uniprotkb:CREB2(gene name synonym)|uniprotkb:ATF4(gene name)|psi-mi:ATF4(display_short)|uniprotkb:TXREB(gene name synonym)|uniprotkb:Cyclic AMP-responsive element-binding protein 2(gene name synonym)|uniprotkb:Tax-responsive enhancer element-binding protein 67(gene name synonym)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "pubmed:16189514|imex:IM-16520|mint:MINT-5217968",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:ldoc1_human(display_long)|uniprotkb:Leucine zipper protein down-regulated in cancer cells(gene name synonym)|uniprotkb:LDOC1(gene name)|psi-mi:LDOC1(display_short)|uniprotkb:BCUR1(gene name synonym)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "pubmed:16189514|imex:IM-16520|mint:MINT-5217968",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    }
+  ],
+  "LEMD2": [
+    {
+      "partner": "psi-mi:achb3_human(display_long)|uniprotkb:CHRNB3(gene name)|psi-mi:CHRNB3(display_short)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:sgsm3_human(display_long)|uniprotkb:SGSM3(gene name)|psi-mi:SGSM3(display_short)|uniprotkb:MAP(gene name synonym)|uniprotkb:RABGAPLP(gene name synonym)|uniprotkb:RUTBC3(gene name synonym)|uniprotkb:RUN and TBC1 domain-containing protein 3(gene name synonym)|uniprotkb:Rab-GTPase-activating protein-like protein(gene name synonym)|uniprotkb:Merlin-associated protein(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:lmna_human(display_long)|uniprotkb:LMNA(gene name)|psi-mi:LMNA(display_short)|uniprotkb:LMN1(gene name synonym)",
+      "method": "psi-mi:\"MI:0096\"(pull down)",
+      "pmid": "pubmed:29568061|imex:IM-26301",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:irf2_human(display_long)|uniprotkb:IRF2(gene name)|psi-mi:IRF2(display_short)",
+      "method": "psi-mi:\"MI:0096\"(pull down)",
+      "pmid": "pubmed:30833792|imex:IM-26691",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:sh2d3_human(display_long)|uniprotkb:SH2D3C(gene name)|psi-mi:SH2D3C(display_short)|uniprotkb:NSP3(gene name synonym)|uniprotkb:Novel SH2-containing protein 3(gene name synonym)|uniprotkb:SH2 domain-containing Eph receptor-binding protein 1(gene name synonym)|uniprotkb:UNQ272/PRO309/PRO34088(orf name)|uniprotkb:Cas/HEF1-associated signal transducer(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:31980649|imex:IM-26434",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:ssbp3_human(display_long)|uniprotkb:SSBP3(gene name)|psi-mi:SSBP3(display_short)|uniprotkb:SSDP(gene name synonym)|uniprotkb:SSDP1(gene name synonym)|uniprotkb:Sequence-specific single-stranded-DNA-binding protein(gene name synonym)",
+      "method": "psi-mi:\"MI:0096\"(pull down)",
+      "pmid": "pubmed:30833792|imex:IM-26691",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:o003222(display_long)|uniprotkb:UPK1A(gene name)|psi-mi:UPK1A(display_short)|uniprotkb:TSPAN21(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:nep_human(display_long)|uniprotkb:MME(gene name)|psi-mi:MME(display_short)|uniprotkb:EPN(gene name synonym)|uniprotkb:Neutral endopeptidase 24.11(gene name synonym)|uniprotkb:Enkephalinase(gene name synonym)|uniprotkb:Atriopeptidase(gene name synonym)|uniprotkb:Common acute lymphocytic leukemia antigen(gene name synonym)|uniprotkb:Skin fibroblast elastase(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:kcna5_human(display_long)|uniprotkb:KCNA5(gene name)|psi-mi:KCNA5(display_short)|uniprotkb:HPCN1(gene name synonym)|uniprotkb:Voltage-gated potassium channel HK2(gene name synonym)|uniprotkb:Voltage-gated potassium channel subunit Kv1.5(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:ctr1_human(display_long)|uniprotkb:SLC7A1(gene name)|psi-mi:SLC7A1(display_short)|uniprotkb:ATRC1(gene name synonym)|uniprotkb:ERR(gene name synonym)|uniprotkb:REC1L(gene name synonym)|uniprotkb:Ecotropic retroviral leukemia receptor homolog(gene name synonym)|uniprotkb:Ecotropic retrovirus receptor homolog(gene name synonym)|uniprotkb:Solute carrier family 7 member 1(gene name synonym)|uniprotkb:System Y+ basic amino acid transporter(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:p32297-1(display_long)|uniprotkb:CHRNA3(gene name)|psi-mi:CHRNA3(display_short)|uniprotkb:NACHRA3(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:p48960-2(display_long)|uniprotkb:ADGRE5(gene name)|psi-mi:ADGRE5(display_short)|uniprotkb:CD97(gene name synonym)|uniprotkb:Leukocyte antigen CD97(gene name synonym)|uniprotkb:\"EGF(1,2,5)\"(isoform synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:q037212(display_long)|uniprotkb:KCNC4(gene name)|psi-mi:KCNC4(display_short)|uniprotkb:C1orf30(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:q6p5w52(display_long)|uniprotkb:SLC39A4(gene name)|psi-mi:SLC39A4(display_short)|uniprotkb:ZIP4(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:acha9_human(display_long)|uniprotkb:CHRNA9(gene name)|psi-mi:CHRNA9(display_short)|uniprotkb:NACHRA9(gene name synonym)|uniprotkb:Nicotinic acetylcholine receptor subunit alpha-9(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    }
+  ],
+  "LEMD3": [
+    {
+      "partner": "psi-mi:smad2_human(display_long)|uniprotkb:SMAD2(gene name)|psi-mi:SMAD2(display_short)|uniprotkb:MADH2(gene name synonym)|uniprotkb:MADR2(gene name synonym)|uniprotkb:Mad-related protein 2(gene name synonym)|uniprotkb:SMAD family member 2(gene name synonym)|uniprotkb:JV18-1(gene name synonym)",
+      "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+      "pmid": "pubmed:18729074|imex:IM-19222",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:smad3_human(display_long)|uniprotkb:SMAD3(gene name)|psi-mi:SMAD3(display_short)|uniprotkb:MADH3(gene name synonym)|uniprotkb:SMAD family member 3(gene name synonym)|uniprotkb:JV15-2(gene name synonym)",
+      "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+      "pmid": "pubmed:18729074|imex:IM-19222",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:man1_human(display_long)|uniprotkb:MAN1(gene name synonym)|uniprotkb:LEM domain-containing protein 3(gene name synonym)|uniprotkb:LEMD3(gene name)|psi-mi:LEMD3(display_short)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "imex:IM-13779|pubmed:20711500",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:q9rmz3_bacan(display_long)|uniprotkb:capR(gene name)|psi-mi:capR(display_short)|uniprotkb:GBAA_pXO2_0040(locus name)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "imex:IM-13779|pubmed:20711500",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:smad3_mouse(display_long)|uniprotkb:Smad3(gene name)|psi-mi:Smad3(display_short)|uniprotkb:Madh3(gene name synonym)|uniprotkb:SMAD family member 3(gene name synonym)",
+      "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+      "pmid": "imex:IM-11719|pubmed:20360068",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:aoc2_human(display_long)|uniprotkb:Semicarbazide-sensitive amine oxidase(gene name synonym)|uniprotkb:AOC2(gene name)|psi-mi:AOC2(display_short)|uniprotkb:Amine oxidase copper-containing 2(gene name synonym)|uniprotkb:Retina-specific copper amine oxidase(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:o15198-2(display_long)|uniprotkb:SMAD8(gene name synonym)|uniprotkb:SMAD9(gene name)|psi-mi:SMAD9(display_short)|uniprotkb:MADH6(gene name synonym)|uniprotkb:MADH9(gene name synonym)|uniprotkb:Madh6(gene name synonym)|uniprotkb:SMAD family member 9(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:lmna_human(display_long)|uniprotkb:LMNA(gene name)|psi-mi:LMNA(display_short)|uniprotkb:LMN1(gene name synonym)",
+      "method": "psi-mi:\"MI:0096\"(pull down)",
+      "pmid": "pubmed:29568061|imex:IM-26301",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:h31_human(display_long)|uniprotkb:H3FA(gene name synonym)|uniprotkb:H3FL(gene name synonym)|uniprotkb:H3FD(gene name synonym)|uniprotkb:H3FI(gene name synonym)|uniprotkb:H3FH(gene name synonym)|uniprotkb:H3FK(gene name synonym)|uniprotkb:H3FF(gene name synonym)|uniprotkb:H3FJ(gene name synonym)|uniprotkb:H3FB(gene name synonym)|uniprotkb:Histone H3/a(gene name synonym)|uniprotkb:Histone H3/b(gene name synonym)|uniprotkb:Histone H3/c(gene name synonym)|uniprotkb:Histone H3/d(gene name synonym)|uniprotkb:Histone H3/f(gene name synonym)|uniprotkb:Histone H3/h(gene name synonym)|uniprotkb:Histone H3/i(gene name synonym)|uniprotkb:Histone H3/j(gene name synonym)|uniprotkb:Histone H3/k(gene name synonym)|uniprotkb:Histone H3/l(gene name synonym)|uniprotkb:H3C1(gene name)|psi-mi:H3C1(display_short)|uniprotkb:HIST1H3A(gene name synonym)|uniprotkb:H3C2(gene name)|psi-mi:H3C2(display_short)|uniprotkb:HIST1H3B(gene name synonym)|uniprotkb:H3C3(gene name)|psi-mi:H3C3(display_short)|uniprotkb:H3FC HIST1H3C(gene name synonym)|uniprotkb:H3C4(gene name)|psi-mi:H3C4(display_short)|uniprotkb:HIST1H3D(gene name synonym)|uniprotkb:H3C6(gene name)|psi-mi:H3C6(display_short)|uniprotkb:HIST1H3E(gene name synonym)|uniprotkb:H3C7(gene name)|psi-mi:H3C7(display_short)|uniprotkb:HIST1H3F(gene name synonym)|uniprotkb:H3C8(gene name)|psi-mi:H3C8(display_short)|uniprotkb:HIST1H3G(gene name synonym)|uniprotkb:H3C10(gene name)|psi-mi:H3C10(display_short)|uniprotkb:HIST1H3H(gene name synonym)|uniprotkb:H3C11(gene name)|psi-mi:H3C11(display_short)|uniprotkb:HIST1H3I(gene name synonym)|uniprotkb:H3C12(gene name)|psi-mi:H3C12(display_short)|uniprotkb:HIST1H3J(gene name synonym)",
+      "method": "psi-mi:\"MI:1314\"(proximity-dependent biotin identification)",
+      "pmid": "pubmed:29568061|imex:IM-26301",
+      "type": "psi-mi:\"MI:2364\"(proximity)"
+    },
+    {
+      "partner": "psi-mi:lamp1_human(display_long)|uniprotkb:CD107 antigen-like family member A(gene name synonym)|uniprotkb:LAMP1(gene name)|psi-mi:LAMP1(display_short)",
+      "method": "psi-mi:\"MI:1314\"(proximity-dependent biotin identification)",
+      "pmid": "pubmed:29568061|imex:IM-26301",
+      "type": "psi-mi:\"MI:2364\"(proximity)"
+    },
+    {
+      "partner": "psi-mi:plrkt_human(display_long)|uniprotkb:PLGRKT(gene name)|psi-mi:PLGRKT(display_short)|uniprotkb:C9orf46(gene name synonym)|uniprotkb:AD025(orf name)|uniprotkb:MDS030(orf name)",
+      "method": "psi-mi:\"MI:1314\"(proximity-dependent biotin identification)",
+      "pmid": "pubmed:29568061|imex:IM-26301",
+      "type": "psi-mi:\"MI:2364\"(proximity)"
+    },
+    {
+      "partner": "psi-mi:rab5a_human(display_long)|uniprotkb:RAB5A(gene name)|psi-mi:RAB5A(display_short)|uniprotkb:RAB5(gene name synonym)",
+      "method": "psi-mi:\"MI:1314\"(proximity-dependent biotin identification)",
+      "pmid": "pubmed:29568061|imex:IM-26301",
+      "type": "psi-mi:\"MI:2364\"(proximity)"
+    },
+    {
+      "partner": "psi-mi:calx_human(display_long)|uniprotkb:CANX(gene name)|psi-mi:CANX(display_short)|uniprotkb:Major histocompatibility complex class I antigen-binding protein p88(gene name synonym)|uniprotkb:p90(gene name synonym)|uniprotkb:IP90(gene name synonym)",
+      "method": "psi-mi:\"MI:1314\"(proximity-dependent biotin identification)",
+      "pmid": "pubmed:29568061|imex:IM-26301",
+      "type": "psi-mi:\"MI:2364\"(proximity)"
+    },
+    {
+      "partner": "psi-mi:lmna_human(display_long)|uniprotkb:LMNA(gene name)|psi-mi:LMNA(display_short)|uniprotkb:LMN1(gene name synonym)",
+      "method": "psi-mi:\"MI:1314\"(proximity-dependent biotin identification)",
+      "pmid": "pubmed:29568061|imex:IM-26301",
+      "type": "psi-mi:\"MI:2364\"(proximity)"
+    },
+    {
+      "partner": "psi-mi:calx_human(display_long)|uniprotkb:CANX(gene name)|psi-mi:CANX(display_short)|uniprotkb:Major histocompatibility complex class I antigen-binding protein p88(gene name synonym)|uniprotkb:p90(gene name synonym)|uniprotkb:IP90(gene name synonym)",
+      "method": "psi-mi:\"MI:0096\"(pull down)",
+      "pmid": "pubmed:29568061|imex:IM-26301",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    }
+  ],
+  "LENG8": [
+    {
+      "partner": "psi-mi:leng8_human(display_long)|uniprotkb:LENG8(gene name)|psi-mi:LENG8(display_short)|uniprotkb:KIAA1932(gene name synonym)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "pubmed:16189514|imex:IM-16520|mint:MINT-5217968",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:atn1_human(display_long)|uniprotkb:ATN1(gene name)|psi-mi:ATN1(display_short)|uniprotkb:DRPLA(gene name synonym)|uniprotkb:Dentatorubral-pallidoluysian atrophy protein(gene name synonym)|uniprotkb:D12S755E(gene name synonym)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "pubmed:16713569|imex:IM-11827|mint:MINT-5218676",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:leng8_human(display_long)|uniprotkb:LENG8(gene name)|psi-mi:LENG8(display_short)|uniprotkb:KIAA1932(gene name synonym)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "imex:IM-13779|pubmed:20711500",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:leng8_human(display_long)|uniprotkb:LENG8(gene name)|psi-mi:LENG8(display_short)|uniprotkb:KIAA1932(gene name synonym)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "imex:IM-13779|pubmed:20711500",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:pyrg_bacan(display_long)|uniprotkb:pyrG(gene name)|psi-mi:pyrG(display_short)|uniprotkb:ctrA(gene name synonym)|uniprotkb:UTP--ammonia ligase(gene name synonym)|uniprotkb:BA_5583(locus name)|uniprotkb:GBAA_5583(locus name)|uniprotkb:BAS5187(locus name)|uniprotkb:Cytidine 5'-triphosphate synthase(gene name synonym)|uniprotkb:Cytidine triphosphate synthetase(gene name synonym)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "imex:IM-13779|pubmed:20711500",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:a0a6l8pg50_bacan(display_long)|uniprotkb:fdhD2(gene name)|psi-mi:fdhD2(display_short)|uniprotkb:fdhD(gene name synonym)|uniprotkb:GBAA_3628(locus name)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "imex:IM-13779|pubmed:20711500",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:dmrtb_human(display_long)|uniprotkb:DMRTB1(gene name)|psi-mi:DMRTB1(display_short)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "pubmed:19060904|imex:IM-20259",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:leng8_human(display_long)|uniprotkb:LENG8(gene name)|psi-mi:LENG8(display_short)|uniprotkb:KIAA1932(gene name synonym)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "pubmed:19060904|imex:IM-20259",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:dmrtb_human(display_long)|uniprotkb:DMRTB1(gene name)|psi-mi:DMRTB1(display_short)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "pubmed:19060904|imex:IM-20259",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:leng8_human(display_long)|uniprotkb:LENG8(gene name)|psi-mi:LENG8(display_short)|uniprotkb:KIAA1932(gene name synonym)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "pubmed:19060904|imex:IM-20259",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:leng8_human(display_long)|uniprotkb:LENG8(gene name)|psi-mi:LENG8(display_short)|uniprotkb:KIAA1932(gene name synonym)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "pubmed:20936779|imex:IM-17049",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:leng8_human(display_long)|uniprotkb:LENG8(gene name)|psi-mi:LENG8(display_short)|uniprotkb:KIAA1932(gene name synonym)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "imex:IM-13779|pubmed:20711500",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:pur4_yerpe(display_long)|uniprotkb:purL(gene name)|psi-mi:purL(display_short)|uniprotkb:Formylglycinamide ribonucleotide amidotransferase(gene name synonym)|uniprotkb:YPO2921(locus name)|uniprotkb:YP_2536(locus name)|uniprotkb:y1309(locus name)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "imex:IM-13779|pubmed:20711500",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:leng8_human(display_long)|uniprotkb:LENG8(gene name)|psi-mi:LENG8(display_short)|uniprotkb:KIAA1932(gene name synonym)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "imex:IM-13779|pubmed:20711500",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:leng8_human(display_long)|uniprotkb:LENG8(gene name)|psi-mi:LENG8(display_short)|uniprotkb:KIAA1932(gene name synonym)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "imex:IM-13779|pubmed:20711500",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    }
+  ],
+  "LETMD1": [
+    {
+      "partner": "psi-mi:ltmd1_human(display_long)|uniprotkb:LETMD1(gene name)|psi-mi:LETMD1(display_short)|uniprotkb:Cervical cancer 1 proto-oncogene protein p40(gene name synonym)|uniprotkb:Cervical cancer proto-oncogene 2 protein(gene name synonym)|uniprotkb:HCRR-2(gene name synonym)|uniprotkb:HCCR-1(gene name synonym)",
+      "method": "psi-mi:\"MI:0096\"(pull down)",
+      "pmid": "pubmed:16762630",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:ltmd1_human(display_long)|uniprotkb:LETMD1(gene name)|psi-mi:LETMD1(display_short)|uniprotkb:Cervical cancer 1 proto-oncogene protein p40(gene name synonym)|uniprotkb:Cervical cancer proto-oncogene 2 protein(gene name synonym)|uniprotkb:HCRR-2(gene name synonym)|uniprotkb:HCCR-1(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:16762630",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:ltmd1_human(display_long)|uniprotkb:LETMD1(gene name)|psi-mi:LETMD1(display_short)|uniprotkb:Cervical cancer 1 proto-oncogene protein p40(gene name synonym)|uniprotkb:Cervical cancer proto-oncogene 2 protein(gene name synonym)|uniprotkb:HCRR-2(gene name synonym)|uniprotkb:HCCR-1(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:ltmd1_human(display_long)|uniprotkb:LETMD1(gene name)|psi-mi:LETMD1(display_short)|uniprotkb:Cervical cancer 1 proto-oncogene protein p40(gene name synonym)|uniprotkb:Cervical cancer proto-oncogene 2 protein(gene name synonym)|uniprotkb:HCRR-2(gene name synonym)|uniprotkb:HCCR-1(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:ltmd1_human(display_long)|uniprotkb:LETMD1(gene name)|psi-mi:LETMD1(display_short)|uniprotkb:Cervical cancer 1 proto-oncogene protein p40(gene name synonym)|uniprotkb:Cervical cancer proto-oncogene 2 protein(gene name synonym)|uniprotkb:HCRR-2(gene name synonym)|uniprotkb:HCCR-1(gene name synonym)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "pubmed:32296183|imex:IM-25472",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:ltmd1_human(display_long)|uniprotkb:LETMD1(gene name)|psi-mi:LETMD1(display_short)|uniprotkb:Cervical cancer 1 proto-oncogene protein p40(gene name synonym)|uniprotkb:Cervical cancer proto-oncogene 2 protein(gene name synonym)|uniprotkb:HCRR-2(gene name synonym)|uniprotkb:HCCR-1(gene name synonym)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "pubmed:32296183|imex:IM-25472",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:q6ntf93(display_long)|uniprotkb:RHBDD2(gene name)|psi-mi:RHBDD2(display_short)|uniprotkb:RHBDL7(gene name synonym)",
+      "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+      "pmid": "pubmed:32296183|imex:IM-25472",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:o003222(display_long)|uniprotkb:UPK1A(gene name)|psi-mi:UPK1A(display_short)|uniprotkb:TSPAN21(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:c3ar_human(display_long)|uniprotkb:C3R1(gene name synonym)|uniprotkb:HNFAG09(gene name synonym)|uniprotkb:C3AR1(gene name)|psi-mi:C3AR1(display_short)|uniprotkb:AZ3B(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:q6p5w52(display_long)|uniprotkb:SLC39A4(gene name)|psi-mi:SLC39A4(display_short)|uniprotkb:ZIP4(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:sg196_human(display_long)|uniprotkb:POMK(gene name)|psi-mi:POMK(display_short)|uniprotkb:Protein kinase-like protein SgK196(gene name synonym)|uniprotkb:SGK196(gene name synonym)|uniprotkb:Sugen kinase 196(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:ltmd1_human(display_long)|uniprotkb:LETMD1(gene name)|psi-mi:LETMD1(display_short)|uniprotkb:Cervical cancer 1 proto-oncogene protein p40(gene name synonym)|uniprotkb:Cervical cancer proto-oncogene 2 protein(gene name synonym)|uniprotkb:HCRR-2(gene name synonym)|uniprotkb:HCCR-1(gene name synonym)",
+      "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+      "pmid": "pubmed:32296183|imex:IM-25472",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:apoc4_human(display_long)|uniprotkb:Apolipoprotein C4(gene name synonym)|uniprotkb:APOC4(gene name)|psi-mi:APOC4(display_short)",
+      "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+      "pmid": "pubmed:32296183|imex:IM-25472",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:apoc1_human(display_long)|uniprotkb:APOC1(gene name)|psi-mi:APOC1(display_short)|uniprotkb:Apolipoprotein C1(gene name synonym)",
+      "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+      "pmid": "pubmed:32296183|imex:IM-25472",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:q504y03(display_long)|uniprotkb:SLC39A12(gene name)|psi-mi:SLC39A12(display_short)|uniprotkb:ZIP12(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    }
+  ],
+  "LHX5": [
+    {
+      "partner": "psi-mi:hd_human(display_long)|uniprotkb:HTT(gene name)|psi-mi:HTT(display_short)|uniprotkb:IT15(gene name synonym)|uniprotkb:HD(gene name synonym)|uniprotkb:Huntington disease protein(gene name synonym)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "pubmed:32814053|imex:IM-28217|doi:10.1016/j.celrep.2020.108050",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:lhx5_human(display_long)|uniprotkb:LHX5(gene name)|psi-mi:LHX5(display_short)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "pubmed:32814053|imex:IM-28217|doi:10.1016/j.celrep.2020.108050",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:hd_human(display_long)|uniprotkb:HTT(gene name)|psi-mi:HTT(display_short)|uniprotkb:IT15(gene name synonym)|uniprotkb:HD(gene name synonym)|uniprotkb:Huntington disease protein(gene name synonym)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "pubmed:32814053|imex:IM-28217|doi:10.1016/j.celrep.2020.108050",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:hd_human(display_long)|uniprotkb:HTT(gene name)|psi-mi:HTT(display_short)|uniprotkb:IT15(gene name synonym)|uniprotkb:HD(gene name synonym)|uniprotkb:Huntington disease protein(gene name synonym)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "pubmed:32814053|imex:IM-28217|doi:10.1016/j.celrep.2020.108050",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:lhx5_human(display_long)|uniprotkb:LHX5(gene name)|psi-mi:LHX5(display_short)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "pubmed:32814053|imex:IM-28217|doi:10.1016/j.celrep.2020.108050",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:hd_human(display_long)|uniprotkb:HTT(gene name)|psi-mi:HTT(display_short)|uniprotkb:IT15(gene name synonym)|uniprotkb:HD(gene name synonym)|uniprotkb:Huntington disease protein(gene name synonym)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "pubmed:32814053|imex:IM-28217|doi:10.1016/j.celrep.2020.108050",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:o75400-2(display_long)|uniprotkb:Huntingtin-interacting protein A(gene name synonym)|uniprotkb:PRPF40A(gene name)|psi-mi:PRPF40A(display_short)|uniprotkb:FBP11(gene name synonym)|uniprotkb:FLAF1(gene name synonym)|uniprotkb:FNBP3(gene name synonym)|uniprotkb:HIP10(gene name synonym)|uniprotkb:HYPA(gene name synonym)|uniprotkb:Fas ligand-associated factor 1(gene name synonym)|uniprotkb:Formin-binding protein 11(gene name synonym)|uniprotkb:Formin-binding protein 3(gene name synonym)|uniprotkb:Huntingtin yeast partner A(gene name synonym)|uniprotkb:Huntingtin-interacting protein 10(gene name synonym)|uniprotkb:Renal carcinoma antigen NY-REN-6(gene name synonym)|uniprotkb:HSPC225(orf name)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "pubmed:32814053|imex:IM-28217|doi:10.1016/j.celrep.2020.108050",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:pex26_human(display_long)|uniprotkb:PEX26(gene name)|psi-mi:PEX26(display_short)|uniprotkb:Peroxin-26(gene name synonym)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "pubmed:32814053|imex:IM-28217|doi:10.1016/j.celrep.2020.108050",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:q8tap4-4(display_long)|uniprotkb:LMO3(gene name)|psi-mi:LMO3(display_short)|uniprotkb:RBTN3(gene name synonym)|uniprotkb:RBTNL2(gene name synonym)|uniprotkb:RHOM3(gene name synonym)|uniprotkb:Neuronal-specific transcription factor DAT1(gene name synonym)|uniprotkb:Rhombotin-3(gene name synonym)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "pubmed:32814053|imex:IM-28217|doi:10.1016/j.celrep.2020.108050",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:lhx5_human(display_long)|uniprotkb:LHX5(gene name)|psi-mi:LHX5(display_short)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "pubmed:32814053|imex:IM-28217|doi:10.1016/j.celrep.2020.108050",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:hd_human(display_long)|uniprotkb:HTT(gene name)|psi-mi:HTT(display_short)|uniprotkb:IT15(gene name synonym)|uniprotkb:HD(gene name synonym)|uniprotkb:Huntington disease protein(gene name synonym)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "pubmed:32814053|imex:IM-28217|doi:10.1016/j.celrep.2020.108050",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:hd_human(display_long)|uniprotkb:HTT(gene name)|psi-mi:HTT(display_short)|uniprotkb:IT15(gene name synonym)|uniprotkb:HD(gene name synonym)|uniprotkb:Huntington disease protein(gene name synonym)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "pubmed:32814053|imex:IM-28217|doi:10.1016/j.celrep.2020.108050",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:hd_human(display_long)|uniprotkb:HTT(gene name)|psi-mi:HTT(display_short)|uniprotkb:IT15(gene name synonym)|uniprotkb:HD(gene name synonym)|uniprotkb:Huntington disease protein(gene name synonym)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "pubmed:32814053|imex:IM-28217|doi:10.1016/j.celrep.2020.108050",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:ubql1_human(display_long)|uniprotkb:Protein linking IAP with cytoskeleton 1(gene name synonym)|uniprotkb:UBQLN1(gene name)|psi-mi:UBQLN1(display_short)|uniprotkb:DA41(gene name synonym)|uniprotkb:PLIC1(gene name synonym)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "pubmed:32814053|imex:IM-28217|doi:10.1016/j.celrep.2020.108050",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:hd_human(display_long)|uniprotkb:HTT(gene name)|psi-mi:HTT(display_short)|uniprotkb:IT15(gene name synonym)|uniprotkb:HD(gene name synonym)|uniprotkb:Huntington disease protein(gene name synonym)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "pubmed:32814053|imex:IM-28217|doi:10.1016/j.celrep.2020.108050",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    }
+  ],
+  "LLPH": [
+    {
+      "partner": "psi-mi:lyar_human(display_long)|uniprotkb:LYAR(gene name)|psi-mi:LYAR(display_short)|uniprotkb:PNAS-5(orf name)",
+      "method": "psi-mi:\"MI:0006\"(anti bait coimmunoprecipitation)",
+      "pmid": "pubmed:17353931",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:ssrna_uc(display_short)|psi-mi:EBI-5333166(display_long)",
+      "method": "psi-mi:\"MI:0096\"(pull down)",
+      "pmid": "pubmed:23902751|imex:IM-21740",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:ctcf_mouse(display_long)|uniprotkb:Ctcf(gene name)|psi-mi:Ctcf(display_short)|uniprotkb:CCCTC-binding factor(gene name synonym)|uniprotkb:CTCFL paralog(gene name synonym)|uniprotkb:11-zinc finger protein(gene name synonym)",
+      "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+      "pmid": "imex:IM-11719|pubmed:20360068",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:srpk3_human(display_long)|uniprotkb:SRPK3(gene name)|psi-mi:SRPK3(display_short)|uniprotkb:MSSK1(gene name synonym)|uniprotkb:STK23(gene name synonym)|uniprotkb:Muscle-specific serine kinase 1(gene name synonym)|uniprotkb:Serine/arginine-rich protein-specific kinase 3(gene name synonym)|uniprotkb:Serine/threonine-protein kinase 23(gene name synonym)",
+      "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+      "pmid": "pubmed:23602568|imex:IM-17935",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:rs6_human(display_long)|uniprotkb:RPS6(gene name)|psi-mi:RPS6(display_short)|uniprotkb:Phosphoprotein NP33(gene name synonym)|uniprotkb:OK/SW-cl.2(orf name)|uniprotkb:40S ribosomal protein S6(gene name synonym)",
+      "method": "psi-mi:\"MI:1314\"(proximity-dependent biotin identification)",
+      "pmid": "pubmed:29568061|imex:IM-26301",
+      "type": "psi-mi:\"MI:2364\"(proximity)"
+    },
+    {
+      "partner": "psi-mi:polg_zikvk(display_long)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:30177828|imex:IM-26452",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:esr1_human(display_long)|uniprotkb:ESR1(gene name)|psi-mi:ESR1(display_short)|uniprotkb:ESR(gene name synonym)|uniprotkb:NR3A1(gene name synonym)|uniprotkb:Estradiol receptor(gene name synonym)|uniprotkb:ER-alpha(gene name synonym)|uniprotkb:Nuclear receptor subfamily 3 group A member 1(gene name synonym)",
+      "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+      "pmid": "pubmed:31527615|imex:IM-26954",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:oas3_human(display_long)|uniprotkb:OAS3(gene name)|psi-mi:OAS3(display_short)|uniprotkb:p100 OAS(gene name synonym)|uniprotkb:P/OKcl.4(orf name)",
+      "method": "psi-mi:\"MI:0096\"(pull down)",
+      "pmid": "pubmed:30833792|imex:IM-26691",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:esr1_human(display_long)|uniprotkb:ESR1(gene name)|psi-mi:ESR1(display_short)|uniprotkb:ESR(gene name synonym)|uniprotkb:NR3A1(gene name synonym)|uniprotkb:Estradiol receptor(gene name synonym)|uniprotkb:ER-alpha(gene name synonym)|uniprotkb:Nuclear receptor subfamily 3 group A member 1(gene name synonym)",
+      "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+      "pmid": "pubmed:31527615|imex:IM-26954",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:zfp41_human(display_long)|uniprotkb:ZFP41(gene name)|psi-mi:ZFP41(display_short)",
+      "method": "psi-mi:\"MI:1112\"(two hybrid prey pooling approach)",
+      "pmid": "pubmed:32296183|imex:IM-25472",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:zfp41_human(display_long)|uniprotkb:ZFP41(gene name)|psi-mi:ZFP41(display_short)",
+      "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+      "pmid": "pubmed:32296183|imex:IM-25472",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:a0a494c108_human(display_long)|uniprotkb:KRI1(gene name)|psi-mi:KRI1(display_short)",
+      "method": "psi-mi:\"MI:1356\"(validated two hybrid)",
+      "pmid": "pubmed:32296183|imex:IM-25472",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:magba_human(display_long)|uniprotkb:MAGEB10(gene name)|psi-mi:MAGEB10(display_short)|uniprotkb:MAGE-B10 antigen(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:rl30_human(display_long)|uniprotkb:RPL30(gene name)|psi-mi:RPL30(display_short)|uniprotkb:60S ribosomal protein L30(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:q7z2w4-2(display_long)|uniprotkb:ZC3HAV1(gene name)|psi-mi:ZC3HAV1(display_short)|uniprotkb:ZC3HDC2(gene name synonym)|uniprotkb:Zinc finger CCCH domain-containing protein 2(gene name synonym)|uniprotkb:Zinc finger antiviral protein(gene name synonym)|uniprotkb:PRO1677(orf name)|uniprotkb:ZAPS(isoform synonym)|uniprotkb:ADP-ribosyltransferase diphtheria toxin-like 13(gene name synonym)|uniprotkb:Inactive Poly [ADP-ribose] polymerase 13(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    }
+  ],
+  "LRR1": [
+    {
+      "partner": "psi-mi:csn6_human(display_long)|uniprotkb:COPS6(gene name)|psi-mi:COPS6(display_short)|uniprotkb:CSN6(gene name synonym)|uniprotkb:HVIP(gene name synonym)|uniprotkb:JAB1-containing signalosome subunit 6(gene name synonym)|uniprotkb:Vpr-interacting protein(gene name synonym)|uniprotkb:MOV34 homolog(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "imex:IM-12079|pubmed:19615732",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:cul2_human(display_long)|uniprotkb:CUL2(gene name)|psi-mi:CUL2(display_short)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:15601820|imex:IM-19076",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:llr1_human(display_long)|uniprotkb:LRR1(gene name)|psi-mi:LRR1(display_short)|uniprotkb:PPIL5(gene name synonym)|uniprotkb:LRR-repeat protein 1(gene name synonym)|uniprotkb:4-1BB-mediated-signaling molecule(gene name synonym)|uniprotkb:4-1BBlrr(gene name synonym)|uniprotkb:Peptidylprolyl isomerase-like 5(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:15601820|imex:IM-19076",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:llr1_human(display_long)|uniprotkb:LRR1(gene name)|psi-mi:LRR1(display_short)|uniprotkb:PPIL5(gene name synonym)|uniprotkb:LRR-repeat protein 1(gene name synonym)|uniprotkb:4-1BB-mediated-signaling molecule(gene name synonym)|uniprotkb:4-1BBlrr(gene name synonym)|uniprotkb:Peptidylprolyl isomerase-like 5(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:15601820|imex:IM-19076",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:llr1_human(display_long)|uniprotkb:LRR1(gene name)|psi-mi:LRR1(display_short)|uniprotkb:PPIL5(gene name synonym)|uniprotkb:LRR-repeat protein 1(gene name synonym)|uniprotkb:4-1BB-mediated-signaling molecule(gene name synonym)|uniprotkb:4-1BBlrr(gene name synonym)|uniprotkb:Peptidylprolyl isomerase-like 5(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:15601820|imex:IM-19076",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:llr1_human(display_long)|uniprotkb:LRR1(gene name)|psi-mi:LRR1(display_short)|uniprotkb:PPIL5(gene name synonym)|uniprotkb:LRR-repeat protein 1(gene name synonym)|uniprotkb:4-1BB-mediated-signaling molecule(gene name synonym)|uniprotkb:4-1BBlrr(gene name synonym)|uniprotkb:Peptidylprolyl isomerase-like 5(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:15601820|imex:IM-19076",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:llr1_human(display_long)|uniprotkb:LRR1(gene name)|psi-mi:LRR1(display_short)|uniprotkb:PPIL5(gene name synonym)|uniprotkb:LRR-repeat protein 1(gene name synonym)|uniprotkb:4-1BB-mediated-signaling molecule(gene name synonym)|uniprotkb:4-1BBlrr(gene name synonym)|uniprotkb:Peptidylprolyl isomerase-like 5(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:15601820|imex:IM-19076",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:llr1_human(display_long)|uniprotkb:LRR1(gene name)|psi-mi:LRR1(display_short)|uniprotkb:PPIL5(gene name synonym)|uniprotkb:LRR-repeat protein 1(gene name synonym)|uniprotkb:4-1BB-mediated-signaling molecule(gene name synonym)|uniprotkb:4-1BBlrr(gene name synonym)|uniprotkb:Peptidylprolyl isomerase-like 5(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:15601820|imex:IM-19076",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:llr1_human(display_long)|uniprotkb:LRR1(gene name)|psi-mi:LRR1(display_short)|uniprotkb:PPIL5(gene name synonym)|uniprotkb:LRR-repeat protein 1(gene name synonym)|uniprotkb:4-1BB-mediated-signaling molecule(gene name synonym)|uniprotkb:4-1BBlrr(gene name synonym)|uniprotkb:Peptidylprolyl isomerase-like 5(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:15601820|imex:IM-19076",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:llr1_human(display_long)|uniprotkb:LRR1(gene name)|psi-mi:LRR1(display_short)|uniprotkb:PPIL5(gene name synonym)|uniprotkb:LRR-repeat protein 1(gene name synonym)|uniprotkb:4-1BB-mediated-signaling molecule(gene name synonym)|uniprotkb:4-1BBlrr(gene name synonym)|uniprotkb:Peptidylprolyl isomerase-like 5(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:15601820|imex:IM-19076",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:cul5_human(display_long)|uniprotkb:CUL5(gene name)|psi-mi:CUL5(display_short)|uniprotkb:VACM1(gene name synonym)|uniprotkb:Vasopressin-activated calcium-mobilizing receptor 1(gene name synonym)",
+      "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+      "pmid": "pubmed:21145461|imex:IM-18651|doi:10.1016/j.cell.2010.11.017",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:cul2_human(display_long)|uniprotkb:CUL2(gene name)|psi-mi:CUL2(display_short)",
+      "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+      "pmid": "pubmed:21145461|imex:IM-18651|doi:10.1016/j.cell.2010.11.017",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:csn6_human(display_long)|uniprotkb:COPS6(gene name)|psi-mi:COPS6(display_short)|uniprotkb:CSN6(gene name synonym)|uniprotkb:HVIP(gene name synonym)|uniprotkb:JAB1-containing signalosome subunit 6(gene name synonym)|uniprotkb:Vpr-interacting protein(gene name synonym)|uniprotkb:MOV34 homolog(gene name synonym)",
+      "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+      "pmid": "pubmed:21145461|imex:IM-18651|doi:10.1016/j.cell.2010.11.017",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:csn6_human(display_long)|uniprotkb:COPS6(gene name)|psi-mi:COPS6(display_short)|uniprotkb:CSN6(gene name synonym)|uniprotkb:HVIP(gene name synonym)|uniprotkb:JAB1-containing signalosome subunit 6(gene name synonym)|uniprotkb:Vpr-interacting protein(gene name synonym)|uniprotkb:MOV34 homolog(gene name synonym)",
+      "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+      "pmid": "pubmed:21145461|imex:IM-18651|doi:10.1016/j.cell.2010.11.017",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:csn5_human(display_long)|uniprotkb:Jun activation domain-binding protein 1(gene name synonym)|uniprotkb:COPS5(gene name)|psi-mi:COPS5(display_short)|uniprotkb:CSN5(gene name synonym)|uniprotkb:JAB1(gene name synonym)",
+      "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+      "pmid": "pubmed:21145461|imex:IM-18651|doi:10.1016/j.cell.2010.11.017",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    }
+  ],
+  "LRRC10": [
+    {
+      "partner": "psi-mi:lrc10_human(display_long)|uniprotkb:LRRC10(gene name)|psi-mi:LRRC10(display_short)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:lrc10_human(display_long)|uniprotkb:LRRC10(gene name)|psi-mi:LRRC10(display_short)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:lrc10_human(display_long)|uniprotkb:LRRC10(gene name)|psi-mi:LRRC10(display_short)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:lrc10_human(display_long)|uniprotkb:LRRC10(gene name)|psi-mi:LRRC10(display_short)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:lrc10_human(display_long)|uniprotkb:LRRC10(gene name)|psi-mi:LRRC10(display_short)",
+      "method": "psi-mi:\"MI:0729\"(luminescence based mammalian interactome mapping)",
+      "pmid": "pubmed:25036637|imex:IM-22301",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:ryr2_mouse(display_long)|uniprotkb:Ryr2(gene name)|psi-mi:Ryr2(display_short)|uniprotkb:Cardiac muscle ryanodine receptor(gene name synonym)|uniprotkb:Cardiac muscle ryanodine receptor-calcium release channel(gene name synonym)|uniprotkb:Type 2 ryanodine receptor(gene name synonym)",
+      "method": "psi-mi:\"MI:0006\"(anti bait coimmunoprecipitation)",
+      "pmid": "pubmed:24952909|imex:IM-26422",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:cac1c_mouse(display_long)|uniprotkb:Voltage-gated calcium channel subunit alpha Cav1.2(gene name synonym)|uniprotkb:Calcium channel, L type, alpha-1 polypeptide, isoform 1, cardiac muscle(gene name synonym)|uniprotkb:Mouse brain class C(gene name synonym)|uniprotkb:MELC-CC(gene name synonym)|uniprotkb:Cacna1c(gene name)|psi-mi:Cacna1c(display_short)|uniprotkb:Cach2(gene name synonym)|uniprotkb:Cacn2(gene name synonym)|uniprotkb:Cacnl1a1(gene name synonym)|uniprotkb:Cchl1a1(gene name synonym)",
+      "method": "psi-mi:\"MI:0006\"(anti bait coimmunoprecipitation)",
+      "pmid": "pubmed:24952909|imex:IM-26422",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:lrc10_human(display_long)|uniprotkb:LRRC10(gene name)|psi-mi:LRRC10(display_short)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:33961781|imex:IM-29278|doi:10.1016/j.cell.2021.04.011",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:lrc10_human(display_long)|uniprotkb:LRRC10(gene name)|psi-mi:LRRC10(display_short)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:33961781|imex:IM-29278|doi:10.1016/j.cell.2021.04.011",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:lrc10_human(display_long)|uniprotkb:LRRC10(gene name)|psi-mi:LRRC10(display_short)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:33961781|imex:IM-29278|doi:10.1016/j.cell.2021.04.011",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:lrc10_human(display_long)|uniprotkb:LRRC10(gene name)|psi-mi:LRRC10(display_short)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:33961781|imex:IM-29278|doi:10.1016/j.cell.2021.04.011",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:lrc10_human(display_long)|uniprotkb:LRRC10(gene name)|psi-mi:LRRC10(display_short)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:33961781|imex:IM-29278|doi:10.1016/j.cell.2021.04.011",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:lrc10_human(display_long)|uniprotkb:LRRC10(gene name)|psi-mi:LRRC10(display_short)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:33961781|imex:IM-29278|doi:10.1016/j.cell.2021.04.011",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:lrc10_human(display_long)|uniprotkb:LRRC10(gene name)|psi-mi:LRRC10(display_short)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:33961781|imex:IM-29278|doi:10.1016/j.cell.2021.04.011",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:lrc10_human(display_long)|uniprotkb:LRRC10(gene name)|psi-mi:LRRC10(display_short)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:33961781|imex:IM-29278|doi:10.1016/j.cell.2021.04.011",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    }
+  ],
+  "LRRC31": [
+    {
+      "partner": "psi-mi:lrc31_human(display_long)|uniprotkb:LRRC31(gene name)|psi-mi:LRRC31(display_short)|uniprotkb:UNQ9367/PRO34156(orf name)",
+      "method": "psi-mi:\"MI:0030\"(cross-linking study)",
+      "pmid": "pubmed:30021884|imex:IM-26653|doi:10.1074/mcp.ra118.000924",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:lrc31_human(display_long)|uniprotkb:LRRC31(gene name)|psi-mi:LRRC31(display_short)|uniprotkb:UNQ9367/PRO34156(orf name)",
+      "method": "psi-mi:\"MI:0729\"(luminescence based mammalian interactome mapping)",
+      "pmid": "pubmed:25036637|imex:IM-22301",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:lrc31_human(display_long)|uniprotkb:LRRC31(gene name)|psi-mi:LRRC31(display_short)|uniprotkb:UNQ9367/PRO34156(orf name)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:33961781|imex:IM-29278|doi:10.1016/j.cell.2021.04.011",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:cftr_human(display_long)|uniprotkb:CFTR(gene name)|psi-mi:CFTR(display_short)|uniprotkb:ABCC7(gene name synonym)|uniprotkb:cAMP-dependent chloride channel(gene name synonym)|uniprotkb:ATP-binding cassette sub-family C member 7(gene name synonym)|uniprotkb:Channel conductance-controlling ATPase(gene name synonym)",
+      "method": "psi-mi:\"MI:0030\"(cross-linking study)",
+      "pmid": "pubmed:31324722|imex:IM-29200",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:cftr_human(display_long)|uniprotkb:CFTR(gene name)|psi-mi:CFTR(display_short)|uniprotkb:ABCC7(gene name synonym)|uniprotkb:cAMP-dependent chloride channel(gene name synonym)|uniprotkb:ATP-binding cassette sub-family C member 7(gene name synonym)|uniprotkb:Channel conductance-controlling ATPase(gene name synonym)",
+      "method": "psi-mi:\"MI:0030\"(cross-linking study)",
+      "pmid": "pubmed:31324722|imex:IM-29200",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:bmi1_human(display_long)|uniprotkb:BMI1(gene name)|psi-mi:BMI1(display_short)|uniprotkb:PCGF4(gene name synonym)|uniprotkb:RNF51(gene name synonym)|uniprotkb:Polycomb group RING finger protein 4(gene name synonym)|uniprotkb:RING finger protein 51(gene name synonym)",
+      "method": "psi-mi:\"MI:0006\"(anti bait coimmunoprecipitation)",
+      "pmid": "pubmed:34316702|imex:IM-29168",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    }
+  ],
+  "LRWD1": [
+    {
+      "partner": "psi-mi:h31_human(display_long)|uniprotkb:H3FA(gene name synonym)|uniprotkb:H3FL(gene name synonym)|uniprotkb:H3FD(gene name synonym)|uniprotkb:H3FI(gene name synonym)|uniprotkb:H3FH(gene name synonym)|uniprotkb:H3FK(gene name synonym)|uniprotkb:H3FF(gene name synonym)|uniprotkb:H3FJ(gene name synonym)|uniprotkb:H3FB(gene name synonym)|uniprotkb:Histone H3/a(gene name synonym)|uniprotkb:Histone H3/b(gene name synonym)|uniprotkb:Histone H3/c(gene name synonym)|uniprotkb:Histone H3/d(gene name synonym)|uniprotkb:Histone H3/f(gene name synonym)|uniprotkb:Histone H3/h(gene name synonym)|uniprotkb:Histone H3/i(gene name synonym)|uniprotkb:Histone H3/j(gene name synonym)|uniprotkb:Histone H3/k(gene name synonym)|uniprotkb:Histone H3/l(gene name synonym)|uniprotkb:H3C1(gene name)|psi-mi:H3C1(display_short)|uniprotkb:HIST1H3A(gene name synonym)|uniprotkb:H3C2(gene name)|psi-mi:H3C2(display_short)|uniprotkb:HIST1H3B(gene name synonym)|uniprotkb:H3C3(gene name)|psi-mi:H3C3(display_short)|uniprotkb:H3FC HIST1H3C(gene name synonym)|uniprotkb:H3C4(gene name)|psi-mi:H3C4(display_short)|uniprotkb:HIST1H3D(gene name synonym)|uniprotkb:H3C6(gene name)|psi-mi:H3C6(display_short)|uniprotkb:HIST1H3E(gene name synonym)|uniprotkb:H3C7(gene name)|psi-mi:H3C7(display_short)|uniprotkb:HIST1H3F(gene name synonym)|uniprotkb:H3C8(gene name)|psi-mi:H3C8(display_short)|uniprotkb:HIST1H3G(gene name synonym)|uniprotkb:H3C10(gene name)|psi-mi:H3C10(display_short)|uniprotkb:HIST1H3H(gene name synonym)|uniprotkb:H3C11(gene name)|psi-mi:H3C11(display_short)|uniprotkb:HIST1H3I(gene name synonym)|uniprotkb:H3C12(gene name)|psi-mi:H3C12(display_short)|uniprotkb:HIST1H3J(gene name synonym)",
+      "method": "psi-mi:\"MI:1314\"(proximity-dependent biotin identification)",
+      "pmid": "pubmed:29568061|imex:IM-26301",
+      "type": "psi-mi:\"MI:2364\"(proximity)"
+    },
+    {
+      "partner": "psi-mi:esr1_human(display_long)|uniprotkb:ESR1(gene name)|psi-mi:ESR1(display_short)|uniprotkb:ESR(gene name synonym)|uniprotkb:NR3A1(gene name synonym)|uniprotkb:Estradiol receptor(gene name synonym)|uniprotkb:ER-alpha(gene name synonym)|uniprotkb:Nuclear receptor subfamily 3 group A member 1(gene name synonym)",
+      "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+      "pmid": "pubmed:31527615|imex:IM-26954",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:esr1_human(display_long)|uniprotkb:ESR1(gene name)|psi-mi:ESR1(display_short)|uniprotkb:ESR(gene name synonym)|uniprotkb:NR3A1(gene name synonym)|uniprotkb:Estradiol receptor(gene name synonym)|uniprotkb:ER-alpha(gene name synonym)|uniprotkb:Nuclear receptor subfamily 3 group A member 1(gene name synonym)",
+      "method": "psi-mi:\"MI:0676\"(tandem affinity purification)",
+      "pmid": "pubmed:31527615|imex:IM-26954",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:mk13_human(display_long)|uniprotkb:MAPK13(gene name)|psi-mi:MAPK13(display_short)|uniprotkb:PRKM13(gene name synonym)|uniprotkb:SAPK4(gene name synonym)|uniprotkb:Stress-activated protein kinase 4(gene name synonym)|uniprotkb:Mitogen-activated protein kinase p38 delta(gene name synonym)",
+      "method": "psi-mi:\"MI:0096\"(pull down)",
+      "pmid": "doi:10.1016/j.cell.2019.09.008|pubmed:31585087|imex:IM-27423",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:orc6_human(display_long)|uniprotkb:ORC6(gene name)|psi-mi:ORC6(display_short)|uniprotkb:ORC6L(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:dnjc7_human(display_long)|uniprotkb:DNAJC7(gene name)|psi-mi:DNAJC7(display_short)|uniprotkb:TPR2(gene name synonym)|uniprotkb:TTC2(gene name synonym)|uniprotkb:Tetratricopeptide repeat protein 2(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:stn1_human(display_long)|uniprotkb:STN1(gene name)|psi-mi:STN1(display_short)|uniprotkb:OBFC1(gene name synonym)|uniprotkb:Oligonucleotide/oligosaccharide-binding fold-containing protein 1(gene name synonym)|uniprotkb:Suppressor of cdc thirteen homolog(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:rn126_human(display_long)|uniprotkb:RNF126(gene name)|psi-mi:RNF126(display_short)|uniprotkb:RING finger protein 126(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:q6uwn02(display_long)|uniprotkb:LYPD4(gene name)|psi-mi:LYPD4(display_short)|uniprotkb:UNQ2552/PRO6181(orf name)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:q92834-2(display_long)|uniprotkb:RPGR(gene name)|psi-mi:RPGR(display_short)|uniprotkb:RP3(gene name synonym)|uniprotkb:XLRP3(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:28514442|doi:10.1038/nature22366|imex:IM-25778",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:orc2_mouse(display_long)|uniprotkb:Orc2(gene name)|psi-mi:Orc2(display_short)|uniprotkb:Orc2l(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:26496610|imex:IM-24272",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:cbx1_mouse(display_long)|uniprotkb:Cbx1(gene name)|psi-mi:Cbx1(display_short)|uniprotkb:Cbx(gene name synonym)|uniprotkb:Heterochromatin protein 1 homolog beta(gene name synonym)|uniprotkb:Modifier 1 protein(gene name synonym)|uniprotkb:M31(gene name synonym)|uniprotkb:Heterochromatin protein p25(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:26496610|imex:IM-24272",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:orc1_human(display_long)|uniprotkb:ORC1(gene name)|psi-mi:ORC1(display_short)|uniprotkb:ORC1L(gene name synonym)|uniprotkb:PARC1(gene name synonym)|uniprotkb:Replication control protein 1(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:26496610|imex:IM-24272",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:mpp8_human(display_long)|uniprotkb:MPP8(gene name synonym)|uniprotkb:Two hybrid-associated protein 3 with RanBPM(gene name synonym)|uniprotkb:MPHOSPH8(gene name)|psi-mi:MPHOSPH8(display_short)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:26496610|imex:IM-24272",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    },
+    {
+      "partner": "psi-mi:orc2_human(display_long)|uniprotkb:ORC2(gene name)|psi-mi:ORC2(display_short)|uniprotkb:ORC2L(gene name synonym)",
+      "method": "psi-mi:\"MI:0007\"(anti tag coimmunoprecipitation)",
+      "pmid": "pubmed:26496610|imex:IM-24272",
+      "type": "psi-mi:\"MI:0914\"(association)"
+    }
+  ],
+  "LSM8": [],
+  "LYAR": [
+    {
+      "partner": "psi-mi:lyar_human(display_long)|uniprotkb:LYAR(gene name)|psi-mi:LYAR(display_short)|uniprotkb:PNAS-5(orf name)",
+      "method": "psi-mi:\"MI:1112\"(two hybrid prey pooling approach)",
+      "pmid": "pubmed:32296183|imex:IM-25472",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:lyar_human(display_long)|uniprotkb:LYAR(gene name)|psi-mi:LYAR(display_short)|uniprotkb:PNAS-5(orf name)",
+      "method": "psi-mi:\"MI:0397\"(two hybrid array)",
+      "pmid": "pubmed:32296183|imex:IM-25472",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:lyar_human(display_long)|uniprotkb:LYAR(gene name)|psi-mi:LYAR(display_short)|uniprotkb:PNAS-5(orf name)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "pubmed:16169070|imex:IM-16517|mint:MINT-5217955",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:lyar_human(display_long)|uniprotkb:LYAR(gene name)|psi-mi:LYAR(display_short)|uniprotkb:PNAS-5(orf name)",
+      "method": "psi-mi:\"MI:0398\"(two hybrid pooling approach)",
+      "pmid": "pubmed:16169070|imex:IM-16517|mint:MINT-5217955",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:lyar_human(display_long)|uniprotkb:LYAR(gene name)|psi-mi:LYAR(display_short)|uniprotkb:PNAS-5(orf name)",
+      "method": "psi-mi:\"MI:0006\"(anti bait coimmunoprecipitation)",
+      "pmid": "pubmed:17353931",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:lyar_human(display_long)|uniprotkb:LYAR(gene name)|psi-mi:LYAR(display_short)|uniprotkb:PNAS-5(orf name)",
+      "method": "psi-mi:\"MI:0006\"(anti bait coimmunoprecipitation)",
+      "pmid": "pubmed:17353931",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:lyar_human(display_long)|uniprotkb:LYAR(gene name)|psi-mi:LYAR(display_short)|uniprotkb:PNAS-5(orf name)",
+      "method": "psi-mi:\"MI:0006\"(anti bait coimmunoprecipitation)",
+      "pmid": "pubmed:17353931",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:lyar_human(display_long)|uniprotkb:LYAR(gene name)|psi-mi:LYAR(display_short)|uniprotkb:PNAS-5(orf name)",
+      "method": "psi-mi:\"MI:0006\"(anti bait coimmunoprecipitation)",
+      "pmid": "pubmed:17353931",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:lyar_human(display_long)|uniprotkb:LYAR(gene name)|psi-mi:LYAR(display_short)|uniprotkb:PNAS-5(orf name)",
+      "method": "psi-mi:\"MI:0006\"(anti bait coimmunoprecipitation)",
+      "pmid": "pubmed:17353931",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:lyar_human(display_long)|uniprotkb:LYAR(gene name)|psi-mi:LYAR(display_short)|uniprotkb:PNAS-5(orf name)",
+      "method": "psi-mi:\"MI:0006\"(anti bait coimmunoprecipitation)",
+      "pmid": "pubmed:17353931",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:lyar_human(display_long)|uniprotkb:LYAR(gene name)|psi-mi:LYAR(display_short)|uniprotkb:PNAS-5(orf name)",
+      "method": "psi-mi:\"MI:0006\"(anti bait coimmunoprecipitation)",
+      "pmid": "pubmed:17353931",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:lyar_human(display_long)|uniprotkb:LYAR(gene name)|psi-mi:LYAR(display_short)|uniprotkb:PNAS-5(orf name)",
+      "method": "psi-mi:\"MI:0006\"(anti bait coimmunoprecipitation)",
+      "pmid": "pubmed:17353931",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:lyar_human(display_long)|uniprotkb:LYAR(gene name)|psi-mi:LYAR(display_short)|uniprotkb:PNAS-5(orf name)",
+      "method": "psi-mi:\"MI:0006\"(anti bait coimmunoprecipitation)",
+      "pmid": "pubmed:17353931",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:lyar_human(display_long)|uniprotkb:LYAR(gene name)|psi-mi:LYAR(display_short)|uniprotkb:PNAS-5(orf name)",
+      "method": "psi-mi:\"MI:0006\"(anti bait coimmunoprecipitation)",
+      "pmid": "pubmed:17353931",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    },
+    {
+      "partner": "psi-mi:lyar_human(display_long)|uniprotkb:LYAR(gene name)|psi-mi:LYAR(display_short)|uniprotkb:PNAS-5(orf name)",
+      "method": "psi-mi:\"MI:0006\"(anti bait coimmunoprecipitation)",
+      "pmid": "pubmed:17353931",
+      "type": "psi-mi:\"MI:0915\"(physical association)"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+---
+type: protein-evaluation
+gene: "LBX2"
+date: 2026-06-03
+tags: [protein-scout, nuclear-protein, evaluation]
+status: scored
+---
+
+## LBX2 核蛋白评估报告 (Full Re-evaluation)
+
+### 1. 基本信息
+
+| 项目 | 内容 |
+|------|------|
+| 基因名 / 别名 | LBX2 |
+| 蛋白名称 | Transcription factor LBX2 |
+| 蛋白大小 | 198 aa / 21.5 kDa |
+| UniProt ID | Q6XYB7 |
+| 评估日期 | 2026-06-03 |
+
+### 2. 评分总览
+
+| 维度 | 得分 | 满分 | 加权后 | 关键证据摘要 |
+|------|------|------|--------|-------------|
+| 核定位特异性 | 9/10 | ×4 | 36 | HPA: Nucleoplasm; 额外: Midbody; UniProt: Nucleus |
+| 蛋白大小 | 8/10 | ×1 | 8 | 198 aa / 21.5 kDa |
+| 研究新颖性 | 6/10 | ×5 | 30 | PubMed strict=44 篇 (≤60→6) |
+| 三维结构 | 7/10 | ×3 | 21 | AlphaFold v6 pLDDT=74.5; PDB: 无 |
+| 调控结构域 | 7/10 | ×2 | 14 | InterPro: IPR001356, IPR009057, IPR051892; Pfam: PF00046 |
+| PPI 网络 | 3/10 | ×3 | 9 | STRING 3 partners; IntAct 8 interactions |
+| 互证加分 | — | max +3 | 1.5 | PDB+AF+STRING+IntAct cross-validation |
+| **原始总分** | | | **119.5/180** | |
+| **归一化总分** | | | **66.4/100** | |
+
+### 3. 详细分析
+
+#### 3.1 核定位证据
+
+| 来源 | 定位 | 可信度 |
+|------|------|--------|
+| Protein Atlas (IF) | Nucleoplasm; 额外: Midbody | Approved |
+| UniProt | Nucleus | Swiss-Prot/TrEMBL |
+
+**IF 图像获取**: 未下载本地IF图像（standard evaluation），核定位证据基于HPA subcellular localization注释、UniProt注释和GO-CC术语。
+
+**GO Cellular Component**:
+- chromatin (GO:0000785)
+- nucleus (GO:0005634)
+
+**结论**: 多个独立数据源一致确认核定位，HPA可靠性高，核定位证据充分。
+
+#### 3.2 蛋白大小评估
+
+**评价**: 大小基本合适，可用于常规实验。
+
+#### 3.3 研究现状
+
+| 指标 | 数值 |
+|------|------|
+| PubMed strict count | 44 |
+| PubMed broad count | 74 |
+| 别名(未计入scoring) | 无 |
+
+**关键文献**:
+1. The role of LncRNA LBX2-AS1 in cancers: functions, mechanisms and potential clinical utility.. *Clinical & translational oncology : official publication of the Federation of Spanish Oncology Societies and of the National Cancer Institute of Mexico*. PMID: 36131071
+2. Lbx2 regulates formation of myofibrils.. *BMC developmental biology*. PMID: 19216761
+3. Overexpression of Long Noncoding RNA LBX2-AS1 Promotes the Proliferation of Colorectal Cancer.. *Technology in cancer research & treatment*. PMID: 33733923
+4. LBX2-AS1/miR-219a-2-3p/FUS/LBX2 positive feedback loop contributes to the proliferation of gastric cancer.. *Gastric cancer : official journal of the International Gastric Cancer Association and the Japanese Gastric Cancer Association*. PMID: 31673844
+5. SP1-upregulated LBX2-AS1 promotes the progression of glioma by targeting the miR-491-5p/LIF axis.. *Journal of Cancer*. PMID: 34729101
+
+**评价**: 较新颖，有一定研究但存在未探索领域。
+
+#### 3.4 三维结构分析
+
+| 指标 | 数值 |
+|------|------|
+| AlphaFold 版本 | v6 |
+| AlphaFold 平均 pLDDT | 74.5 |
+| 高置信度残基 (pLDDT>90) 占比 | 34.3% |
+| 置信残基 (pLDDT 70-90) 占比 | 20.7% |
+| 中等置信 (pLDDT 50-70) 占比 | 32.3% |
+| 低置信 (pLDDT<50) 占比 | 12.6% |
+| 有序区域 (pLDDT>70) 占比 | 55.0% |
+| 可用 PDB 条目 | 无 |
+
+**PAE**: PAE 图像未生成本地文件（standard evaluation），结构判断基于 AlphaFold pLDDT 统计。
+
+**评价**: AlphaFold 中等质量（pLDDT=74.5，有序区 55.0%），结构基本可用。
+
+#### 3.5 结构域分析
+
+| 来源 | 结构域 |
+|------|--------|
+| InterPro/Pfam | InterPro: IPR001356, IPR009057, IPR051892; Pfam: PF00046 |
+
+**染色质调控潜力分析**: 存在已知结构域注释，可作为功能研究的结构基础。
+
+#### 3.6 PPI 网络
+
+**STRING 预测互作** (combined score >0.4):
+
+| Partner | Combined Score | Experimental | 功能类别 |
+|---------|---------------|--------------|---------|
+| WDR54 | 0.445 | 0.000 | — |
+| CCDC142 | 0.435 | 0.000 | — |
+| PCGF1 | 0.423 | 0.000 | — |
+
+**实验验证互作** (IntAct):
+
+| Partner | 方法 | PMID |
+|---------|------|------|
+| MYC | psi-mi:"MI:0676"(tandem affinity purification) | pubmed:21150319|imex:IM-16995 |
+| CDK9 | psi-mi:"MI:1356"(validated two hybrid) | pubmed:32296183|imex:IM-25472 |
+| GGPS1 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:33961781|imex:IM-29278| |
+| GFAP | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:33961781|imex:IM-29278| |
+| PREPL | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:33961781|imex:IM-29278| |
+| TRPC4AP | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:33961781|imex:IM-29278| |
+| SPATA33 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:33961781|imex:IM-29278| |
+| ENST00000460508 | psi-mi:"MI:2195"(clash) | pubmed:23622248|imex:IM-30030| |
+
+**PPI 互证分析**:
+- STRING + IntAct 均有数据
+- STRING partners: 3，IntAct interactions: 8
+- 调控相关比例: 0 / 3 = 0%
+
+**评价**: STRING 3 个预测互作，IntAct 8 个实验互作。调控相关配体占比 0%。
+
+#### 3.7 多库互证
+
+| 维度 | 来源 | 结果 | 是否一致 |
+|------|------|------|----------|
+| 三维结构 | AlphaFold pLDDT=74.5 + PDB: 无 | pLDDT=74.5, v6 | 仅预测 |
+| 定位 | UniProt + HPA | Nucleus / Nucleoplasm; 额外: Midbody | 一致 |
+| PPI | STRING + IntAct | 3 + 8 interactions | 数据充分 |
+
+**互证加分明细**:
+- PDB + AlphaFold 双源验证: +0
+- 多库定位一致 (3源): +0.5
+- STRING + IntAct 双源验证: +0.5
+- 结构域 + AlphaFold 质量: +0.5
+- PDB 多条目覆盖: +0
+**总分**: +1.5 / max +3
+
+### 4. 总体评价
+
+**推荐等级**: ⭐⭐⭐
+
+**核心优势**:
+1. LBX2 — Transcription factor LBX2，较新颖，有一定研究但存在未探索领域。
+2. 蛋白大小198 aa，大小基本合适，可用于常规实验。
+
+**风险/不确定性**:
+1. PubMed 44 篇，已有一定研究基础
+2. 结构数据质量可接受
+
+**下一步建议**:
+- [ ] 查阅最新关键文献补充研究背景
+- [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
+- [ ] 设计体外实验验证核定位及潜在调控功能
+
+
+### 5. 数据来源
+- UniProt: https://www.uniprot.org/uniprotkb/Q6XYB7
+- Protein Atlas: https://www.proteinatlas.org/ENSG00000179528-LBX2/subcellular
+- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=LBX2
+- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q6XYB7
+- STRING: https://string-db.org/network/9606.ENSP00000
+- Data fetched live: 2026-06-03
+
+![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/LBX2/IF_images/Hep-G2_1.jpg]]
+![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/LBX2/IF_images/CACO-2_1.jpg]]
+
+
+![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/LBX2/LBX2-PAE.png]]

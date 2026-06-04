@@ -1,0 +1,177 @@
+---
+type: protein-evaluation
+gene: "HELB"
+date: 2026-06-03
+tags: [protein-scout, nuclear-protein, evaluation]
+status: scored
+---
+
+## HELB 核蛋白评估报告 (Full Re-evaluation)
+
+### 1. 基本信息
+
+| 项目 | 内容 |
+|------|------|
+| 基因名 / 别名 | HELB |
+| 蛋白名称 | DNA helicase B |
+| 蛋白大小 | 1087 aa / 123.3 kDa |
+| UniProt ID | Q8NG08 |
+| 评估日期 | 2026-06-03 |
+
+### 2. 评分总览
+
+| 维度 | 得分 | 满分 | 加权后 | 关键证据摘要 |
+|------|------|------|--------|-------------|
+| 核定位特异性 | 7/10 | ×4 | 28 | HPA: Nucleoplasm; 额外: Nuclear bodies, Mitochondria, Cytosol; UniProt: Nucleus; Cytoplasm; Chromosome |
+| 蛋白大小 | 8/10 | ×1 | 8 | 1087 aa / 123.3 kDa |
+| 研究新颖性 | 8/10 | ×5 | 40 | PubMed strict=28 篇 (≤40→8) |
+| 三维结构 | 8/10 | ×3 | 24 | AlphaFold v6 pLDDT=70.3; PDB: 7XV1 |
+| 调控结构域 | 7/10 | ×2 | 14 | InterPro: IPR050534, IPR027417, IPR058839; Pfam: PF13604, PF |
+| PPI 网络 | 3/10 | ×3 | 9 | STRING 15 partners; IntAct 5 interactions |
+| 互证加分 | — | max +3 | 2.0 | PDB+AF+STRING+IntAct cross-validation |
+| **原始总分** | | | **125.0/180** | |
+| **归一化总分** | | | **69.4/100** | |
+
+### 3. 详细分析
+
+#### 3.1 核定位证据
+
+| 来源 | 定位 | 可信度 |
+|------|------|--------|
+| Protein Atlas (IF) | Nucleoplasm; 额外: Nuclear bodies, Mitochondria, Cytosol | Supported |
+| UniProt | Nucleus; Cytoplasm; Chromosome | Swiss-Prot/TrEMBL |
+
+**IF 图像获取**: 未下载本地IF图像（standard evaluation），核定位证据基于HPA subcellular localization注释、UniProt注释和GO-CC术语。
+
+**GO Cellular Component**:
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- mitochondrion (GO:0005739)
+- nuclear body (GO:0016604)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- site of double-strand break (GO:0035861)
+
+**结论**: 主要核定位，HPA 可靠性良好，有辅助数据源支持。
+
+#### 3.2 蛋白大小评估
+
+**评价**: 大小基本合适，可用于常规实验。
+
+#### 3.3 研究现状
+
+| 指标 | 数值 |
+|------|------|
+| PubMed strict count | 28 |
+| PubMed broad count | 119 |
+| 别名(未计入scoring) | 无 |
+
+**关键文献**:
+1. HMGA2-WIF1 Rearrangements Characterize a Distinctive Subset of Salivary Pleomorphic Adenomas With Prominent Trabecular (Canalicular Adenoma-like) Morphology.. *The American journal of surgical pathology*. PMID: 34324456
+2. Genome Maintenance by DNA Helicase B.. *Genes*. PMID: 32455610
+3. Rare SNP in the HELB gene interferes with RPA interaction and cellular function of HELB.. *NAR molecular medicine*. PMID: 40496644
+4. Exome sequencing identifies HELB as a novel susceptibility gene for non-mucinous, non-high-grade-serous epithelial ovarian cancer.. *European journal of human genetics : EJHG*. PMID: 39939714
+5. Rare SNP in the HELB gene interferes with RPA interaction and cellular function of HELB.. *bioRxiv : the preprint server for biology*. PMID: 38464108
+
+**评价**: 非常新颖，仅有少数基础研究。
+
+#### 3.4 三维结构分析
+
+| 指标 | 数值 |
+|------|------|
+| AlphaFold 版本 | v6 |
+| AlphaFold 平均 pLDDT | 70.3 |
+| 高置信度残基 (pLDDT>90) 占比 | 29.3% |
+| 置信残基 (pLDDT 70-90) 占比 | 37.3% |
+| 中等置信 (pLDDT 50-70) 占比 | 7.6% |
+| 低置信 (pLDDT<50) 占比 | 25.8% |
+| 有序区域 (pLDDT>70) 占比 | 66.6% |
+| 可用 PDB 条目 | 7XV1 |
+
+**PAE**: PAE 图像未生成本地文件（standard evaluation），结构判断基于 AlphaFold pLDDT 统计。
+
+**评价**: AlphaFold 高质量预测（pLDDT=70.3，有序区 66.6%），结构可靠。
+
+#### 3.5 结构域分析
+
+| 来源 | 结构域 |
+|------|--------|
+| InterPro/Pfam | InterPro: IPR050534, IPR027417, IPR058839; Pfam: PF13604, PF25894 |
+
+**染色质调控潜力分析**: 存在已知结构域注释，可作为功能研究的结构基础。
+
+#### 3.6 PPI 网络
+
+**STRING 预测互作** (combined score >0.4):
+
+| Partner | Combined Score | Experimental | 功能类别 |
+|---------|---------------|--------------|---------|
+| RPA1 | 0.996 | 0.994 | — |
+| RPA3 | 0.995 | 0.994 | — |
+| RPA2 | 0.995 | 0.994 | — |
+| DNA2 | 0.808 | 0.512 | — |
+| PCNA | 0.781 | 0.639 | — |
+| RAD52 | 0.685 | 0.433 | — |
+| ORC5 | 0.666 | 0.572 | — |
+| POLA2 | 0.660 | 0.345 | — |
+| FANCM | 0.639 | 0.415 | — |
+| FBH1 | 0.638 | 0.415 | — |
+
+**实验验证互作** (IntAct):
+
+| Partner | 方法 | PMID |
+|---------|------|------|
+| Q74TR8 | psi-mi:"MI:0398"(two hybrid pooling approach) | imex:IM-13779|pubmed:20711500 |
+| POLR2E | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
+| CCNA2 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
+| WDR5 | psi-mi:"MI:0676"(tandem affinity purification) | pubmed:27705803|imex:IM-21659 |
+| Septin9 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:26496610|imex:IM-24272 |
+
+**PPI 互证分析**:
+- STRING + IntAct 均有数据
+- STRING partners: 15，IntAct interactions: 5
+- 调控相关比例: 1 / 15 = 7%
+
+**评价**: STRING 15 个预测互作，IntAct 5 个实验互作。调控相关配体占比 7%。
+
+#### 3.7 多库互证
+
+| 维度 | 来源 | 结果 | 是否一致 |
+|------|------|------|----------|
+| 三维结构 | AlphaFold pLDDT=70.3 + PDB: 7XV1 | pLDDT=70.3, v6 | 预测+实验 |
+| 定位 | UniProt + HPA | Nucleus; Cytoplasm; Chromosome / Nucleoplasm; 额外: Nuclear bodies, Mitochondria, Cyt | 一致 |
+| PPI | STRING + IntAct | 15 + 5 interactions | 数据充分 |
+
+**互证加分明细**:
+- PDB + AlphaFold 双源验证: +0.5
+- 多库定位一致 (3源): +0.5
+- STRING + IntAct 双源验证: +0.5
+- 结构域 + AlphaFold 质量: +0.5
+- PDB 多条目覆盖: +0
+**总分**: +2.0 / max +3
+
+### 4. 总体评价
+
+**推荐等级**: ⭐⭐⭐
+
+**核心优势**:
+1. HELB — DNA helicase B，非常新颖，仅有少数基础研究。
+2. 蛋白大小1087 aa，大小基本合适，可用于常规实验。
+
+**风险/不确定性**:
+1. PubMed 28 篇，已有一定研究基础
+2. 结构数据质量可接受
+
+**下一步建议**:
+- [ ] 查阅最新关键文献补充研究背景
+- [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
+- [ ] 设计体外实验验证核定位及潜在调控功能
+
+
+### 5. 数据来源
+- UniProt: https://www.uniprot.org/uniprotkb/Q8NG08
+- Protein Atlas: https://www.proteinatlas.org/ENSG00000127311-HELB/subcellular
+- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=HELB
+- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8NG08
+- STRING: https://string-db.org/network/9606.ENSP00000
+- Data fetched live: 2026-06-03

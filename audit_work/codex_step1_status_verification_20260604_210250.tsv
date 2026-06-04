@@ -1,0 +1,33 @@
+metric	value
+Excel unique gene total	4755
+Excel covered gene count	4701
+Excel missing gene count	54
+Current detail report total	5685
+Current unique reported genes	5604
+Current scored reports	3180
+Current rejected reports	2505
+Current duplicate gene count	81
+Current scored+rejected conflict count	70
+Current multi-scored conflict count	11
+Current thin rejected <50L count	887
+Current 11-line template count	0
+Current Packet error body count	2
+Current one-line No nuclear evidence count	0
+validate_strict.py --all Errors	2653
+validate_strict.py --all Warnings	1954
+latest_file:protocol_accept	audit_work/PROTOCOL_REPAIR_ACCEPTANCE_REPORT_20260604_182052.md
+latest_file:if_pae_accept	audit_work/IF_PAE_MISMATCH_ACCEPTANCE_REPORT_20260604_193703.md
+latest_file:final_completion	MISSING
+latest_file:critical_false_rejection	MISSING
+latest_file:hpa_if_check	MISSING
+latest_file:pae_check	MISSING
+latest_file:fp_registry	audit_work/if_pae_audit_false_positive_registry_20260604_193703.tsv
+latest_file:project_state	audit_work/final_project_state_after_if_pae_acceptance_20260604_193703.tsv
+latest_file:thin_queue	audit_work/next_session_thin_rejected_harvest_queue_20260604_182052.tsv
+Current HPA IF true mismatch count	1038
+Current HPA IF audit false positive count	3691
+Current PAE true mismatch count	552
+Current PAE audit false positive count	177
+Current CRITICAL false rejection true remaining count	44
+Current HIGH false rejection risk count	27
+Current blocking incomplete/template count	2

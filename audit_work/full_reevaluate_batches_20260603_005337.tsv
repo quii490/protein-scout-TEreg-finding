@@ -1,0 +1,1361 @@
+batch_id	gene	current_path	status	current_lines	current_chars	risk	issues	excel_sheet	excel_row	hpa_loc	hpa_score	priority
+1	ACP4	detail/rejected/ACP4/ACP4-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1030	Nucleoli|Nucleoplasm	4	1
+1	ADAM33	detail/rejected/ADAM33/ADAM33-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	270		3	1
+1	ADAT3	detail/rejected/ADAT3/ADAT3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1163	Nucleoli	6	1
+1	ADPRHL1	detail/rejected/ADPRHL1/ADPRHL1-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	524	Nucleoplasm	6	1
+1	ADPRM	detail/rejected/ADPRM/ADPRM-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	127	Nucleoli|Nucleoplasm	3	1
+2	ADPRS	detail/rejected/ADPRS/ADPRS-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1161	Nucleoplasm	6	1
+2	AFMID	detail/rejected/AFMID/AFMID-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	280	Nucleoli|Nucleoli fibrillar center|Nucleoplasm	6	1
+2	AGAP2	detail/rejected/AGAP2/AGAP2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	854	Nuclear bodies|Nucleoplasm	6	1
+2	AGBL5	detail/rejected/AGBL5/AGBL5-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	677	Nucleoplasm	4	1
+2	AGFG1	detail/rejected/AGFG1/AGFG1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1183	Nucleoplasm	6	1
+3	AGPAT4	detail/rejected/AGPAT4/AGPAT4-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	721	Nucleoplasm	3	1
+3	AGTPBP1	detail/rejected/AGTPBP1/AGTPBP1-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	153		3	1
+3	AHCYL2	detail/rejected/AHCYL2/AHCYL2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1031	Nucleoli|Nucleoli rim	4	1
+3	AIRIM	detail/rejected/AIRIM/AIRIM-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1376		3	1
+3	AKAP6	detail/rejected/AKAP6/AKAP6-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	850	Nucleoli|Nucleoli fibrillar center	3	1
+4	AKAP7	detail/rejected/AKAP7/AKAP7-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	268	Nucleoplasm	6	1
+4	AKIP1	detail/rejected/AKIP1/AKIP1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1304	Nucleoplasm	3	1
+4	AKIRIN1	detail/rejected/AKIRIN1/AKIRIN1-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	723	Nucleoplasm	3	1
+4	ALG14	detail/rejected/ALG14/ALG14-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1319	Nucleoplasm	6	1
+4	ALG8	detail/rejected/ALG8/ALG8-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	724	Nuclear speckles|Nucleoplasm	3	1
+5	ALKBH2	detail/rejected/ALKBH2/ALKBH2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1032		3	1
+5	ALKBH6	detail/rejected/ALKBH6/ALKBH6-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	851	Nucleoplasm	3	1
+5	AMDHD1	detail/rejected/AMDHD1/AMDHD1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	272	Nucleoplasm	6	1
+5	AMDHD2	detail/rejected/AMDHD2/AMDHD2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	725	Nucleoplasm	3	1
+5	AMER1	detail/rejected/AMER1/AMER1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1398	Nuclear speckles	6	1
+6	ANAPC10	detail/rejected/ANAPC10/ANAPC10-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	545	Nucleoplasm	6	1
+6	ANAPC11	detail/rejected/ANAPC11/ANAPC11-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	78	Nucleoplasm	3	1
+6	ANAPC13	detail/rejected/ANAPC13/ANAPC13-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	528			1
+6	ANAPC2	detail/rejected/ANAPC2/ANAPC2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1166	Nucleoli	2	1
+6	ANAPC4	detail/rejected/ANAPC4/ANAPC4-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	55	Nucleoli	3	1
+7	ANAPC5	detail/rejected/ANAPC5/ANAPC5-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	509		3	1
+7	ANAPC7	detail/rejected/ANAPC7/ANAPC7-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	679		3	1
+7	ANGEL1	detail/rejected/ANGEL1/ANGEL1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1182	Nucleoplasm	6	1
+7	ANGEL2	detail/rejected/ANGEL2/ANGEL2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	529	Nucleoplasm	4	1
+7	ANKEF1	detail/rejected/ANKEF1/ANKEF1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	571	Nucleoplasm	6	1
+8	ANKFN1	detail/rejected/ANKFN1/ANKFN1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	274		3	1
+8	ANKMY2	detail/rejected/ANKMY2/ANKMY2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	29	Nucleoplasm	6	1
+8	ANKRA2	detail/rejected/ANKRA2/ANKRA2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	727	Nucleoli	3	1
+8	ANKRD10	detail/rejected/ANKRD10/ANKRD10-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1320		3	1
+8	ANKRD12	detail/rejected/ANKRD12/ANKRD12-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	79	Nucleoli|Nucleoplasm	3	1
+9	ANKRD23	detail/rejected/ANKRD23/ANKRD23-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	726	Nuclear membrane|Nucleoplasm	3	1
+9	ANKRD30B	detail/rejected/ANKRD30B/ANKRD30B-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	575	Nucleoli|Nucleoli fibrillar center	3	1
+9	ANKRD34B	detail/rejected/ANKRD34B/ANKRD34B-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	510	Nucleoplasm	6	1
+9	ANKRD36	detail/rejected/ANKRD36/ANKRD36-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	275		3	1
+9	ANKRD36B	detail/rejected/ANKRD36B/ANKRD36B-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	276	Nucleoli	6	1
+10	ANKRD37	detail/rejected/ANKRD37/ANKRD37-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	479	Nucleoplasm	3	1
+10	ANKRD54	detail/rejected/ANKRD54/ANKRD54-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	192	Nucleoplasm	3	1
+10	ANKS1A	detail/rejected/ANKS1A/ANKS1A-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	128	Nucleoli|Nucleoplasm	3	1
+10	ANKS1B	detail/rejected/ANKS1B/ANKS1B-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1312	Nuclear bodies	6	1
+10	ANKS3	detail/rejected/ANKS3/ANKS3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	573	Nucleoplasm	6	1
+11	ANKS4B	detail/rejected/ANKS4B/ANKS4B-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	558	Nucleoplasm	6	1
+11	ANKS6	detail/rejected/ANKS6/ANKS6-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	574	Nuclear speckles|Nucleoplasm	6	1
+11	ANXA11	detail/rejected/ANXA11/ANXA11-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1321		3	1
+11	ANXA13	detail/rejected/ANXA13/ANXA13-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	852	Nucleoli	3	1
+11	ANXA5	detail/rejected/ANXA5/ANXA5-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1317	Nucleoplasm	6	1
+12	ANXA9	detail/rejected/ANXA9/ANXA9-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	277		3	1
+12	AOPEP	detail/rejected/AOPEP/AOPEP-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1245	Nuclear bodies|Nucleoplasm	3	1
+12	AP3B1	detail/rejected/AP3B1/AP3B1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	164	Nuclear speckles	4	1
+12	AP5B1	detail/rejected/AP5B1/AP5B1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	224		3	1
+12	APBA1	detail/rejected/APBA1/APBA1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	504	Chromosome|Mitotic chromosome|Nucleoli|Nucleoplasm	3	1
+13	APBB3	detail/rejected/APBB3/APBB3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	570	Nucleoli|Nucleoli fibrillar center	6	1
+13	APIP	detail/rejected/APIP/APIP-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	853	Nucleoplasm	3	1
+13	APLF	detail/rejected/APLF/APLF-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	30	Nucleoplasm	6	1
+13	ARFGAP1	detail/rejected/ARFGAP1/ARFGAP1-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	728	Chromosome|Mitotic chromosome|Nucleoli|Nucleoli rim|Nucleoplasm	3	1
+13	ARFIP2	detail/rejected/ARFIP2/ARFIP2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	177	Nucleoplasm	3	1
+14	ARID4A	detail/rejected/ARID4A/ARID4A-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1179	Nucleoplasm	6	1
+14	ARIH1	detail/rejected/ARIH1/ARIH1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1323	Nucleoli|Nucleoplasm	3	1
+14	ARIH2	detail/rejected/ARIH2/ARIH2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1239	Nucleoli|Nucleoplasm	6	1
+14	ARK2N	detail/rejected/ARK2N/ARK2N-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	3		3	1
+14	ARL14EP	detail/rejected/ARL14EP/ARL14EP-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	278		3	1
+15	ARL2BP	detail/rejected/ARL2BP/ARL2BP-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	537	Nucleoplasm	3	1
+15	ARL6	detail/rejected/ARL6/ARL6-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	154	Nucleoplasm	4	1
+15	ARMC8	detail/rejected/ARMC8/ARMC8-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	279		3	1
+15	ARMCX4	detail/rejected/ARMCX4/ARMCX4-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1106	Nucleoplasm	6	1
+15	ARMCX5	detail/rejected/ARMCX5/ARMCX5-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	576	Nuclear bodies|Nucleoplasm	3	1
+16	ASAP3	detail/rejected/ASAP3/ASAP3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	729	Nuclear speckles	3	1
+16	ASB7	detail/rejected/ASB7/ASB7-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	572	Nuclear speckles	6	1
+16	ASCL3	detail/rejected/ASCL3/ASCL3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	551	Nucleoplasm	6	1
+16	ASCL5	detail/rejected/ASCL5/ASCL5-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1155	Nucleoplasm	6	1
+16	ASRGL1	detail/rejected/ASRGL1/ASRGL1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	525	Nucleoli|Nucleoli fibrillar center	5	1
+17	ASZ1	detail/rejected/ASZ1/ASZ1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	209	Nucleoplasm	3	1
+17	ATG10	detail/rejected/ATG10/ATG10-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1034	Nucleoplasm	3	1
+17	ATG2A	detail/rejected/ATG2A/ATG2A-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	730	Nucleoplasm	6	1
+17	ATOX1	detail/rejected/ATOX1/ATOX1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1033	Chromosome|Mitotic chromosome|Nucleoplasm	3	1
+17	ATXN3L	detail/rejected/ATXN3L/ATXN3L-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	281	Nuclear speckles|Nucleoplasm	6	1
+18	ATXN7L3B	detail/rejected/ATXN7L3B/ATXN7L3B-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	282	Nucleoli|Nucleoli fibrillar center|Nucleoplasm	6	1
+18	AUNIP	detail/rejected/AUNIP/AUNIP-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	284		3	1
+18	AUP1	detail/rejected/AUP1/AUP1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	283	Nucleoplasm	6	1
+18	B4GALNT4	detail/rejected/B4GALNT4/B4GALNT4-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	259	Nuclear bodies|Nucleoplasm	6	1
+18	B9D1	detail/rejected/B9D1/B9D1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	804	Nucleoplasm	3	1
+19	BABAM1	detail/rejected/BABAM1/BABAM1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	82		3	1
+19	BABAM2	detail/rejected/BABAM2/BABAM2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	6	Chromosome|Mitotic chromosome|Nucleoli|Nucleoli rim	6	1
+19	BACC1	detail/rejected/BACC1/BACC1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	186	Nucleoplasm	3	1
+19	BAG5	detail/rejected/BAG5/BAG5-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1247	Nucleoplasm	6	1
+19	BBS9	detail/rejected/BBS9/BBS9-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	285	Nucleoplasm	6	1
+20	BCAS3	detail/rejected/BCAS3/BCAS3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	288		3	1
+20	BCDIN3D	detail/rejected/BCDIN3D/BCDIN3D-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1248			1
+20	BCL7C	detail/rejected/BCL7C/BCL7C-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1324	Nucleoplasm	2	1
+20	BCLAF3	detail/rejected/BCLAF3/BCLAF3-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	4	Nucleoli|Nucleoplasm	6	1
+20	BEAN1	detail/rejected/BEAN1/BEAN1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1234		2	1
+21	BEGAIN	detail/rejected/BEGAIN/BEGAIN-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	856	Nuclear bodies	3	1
+21	BEND4	detail/rejected/BEND4/BEND4-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	577	Nucleoplasm	2	1
+21	BEND5	detail/rejected/BEND5/BEND5-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	958	Nuclear bodies|Nucleoplasm	6	1
+21	BET1L	detail/rejected/BET1L/BET1L-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	80			1
+21	BEX4	detail/rejected/BEX4/BEX4-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1250	Chromosome|Mitotic chromosome|Nucleoplasm	6	1
+22	BICD2	detail/rejected/BICD2/BICD2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	855		3	1
+22	BICRA	detail/rejected/BICRA/BICRA-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	540	Nucleoplasm	3	1
+22	BICRAL	detail/rejected/BICRAL/BICRAL-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	499		3	1
+22	BIRC7	detail/rejected/BIRC7/BIRC7-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1108		3	1
+22	BLCAP	detail/rejected/BLCAP/BLCAP-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1242	Nucleoplasm	6	1
+23	BLMH	detail/rejected/BLMH/BLMH-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	289	Nucleoplasm	6	1
+23	BLTP3B	detail/rejected/BLTP3B/BLTP3B-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	5	Nucleoli|Nucleoplasm	6	1
+23	BLVRB	detail/rejected/BLVRB/BLVRB-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	731	Nucleoli|Nucleoplasm	6	1
+23	BMP2K	detail/rejected/BMP2K/BMP2K-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	81		3	1
+23	BMS1	detail/rejected/BMS1/BMS1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1249	Nuclear bodies|Nucleoplasm	6	1
+24	BNIP2	detail/rejected/BNIP2/BNIP2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	137			1
+24	BOD1	detail/rejected/BOD1/BOD1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1184	Nucleoplasm	6	1
+24	BOD1L1	detail/rejected/BOD1L1/BOD1L1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1099		3	1
+24	BOLA2	detail/rejected/BOLA2/BOLA2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	290	Nucleoplasm	6	1
+24	BPNT1	detail/rejected/BPNT1/BPNT1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	266	Nucleoplasm	6	1
+25	BPNT2	detail/rejected/BPNT2/BPNT2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	27	Nuclear bodies|Nucleoplasm	6	1
+25	BRCC3	detail/rejected/BRCC3/BRCC3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1109	Nucleoplasm	3	1
+25	BRI3	detail/rejected/BRI3/BRI3-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1035	Nucleoplasm	3	1
+25	BRIX1	detail/rejected/BRIX1/BRIX1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1187			1
+25	BRK1	detail/rejected/BRK1/BRK1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	805		2	1
+26	BRME1	detail/rejected/BRME1/BRME1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	292	Nucleoplasm	6	1
+26	BROX	detail/rejected/BROX/BROX-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	578	Nuclear bodies	6	1
+26	BRPF3	detail/rejected/BRPF3/BRPF3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1186	Nucleoli|Nucleoplasm	4	1
+26	BSPRY	detail/rejected/BSPRY/BSPRY-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	287	Nucleoli|Nucleoli rim|Nucleoplasm	6	1
+26	BTBD1	detail/rejected/BTBD1/BTBD1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	579	Nucleoplasm	6	1
+27	BTBD18	detail/rejected/BTBD18/BTBD18-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	293	Nucleoplasm	4	1
+27	BTBD3	detail/rejected/BTBD3/BTBD3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	857	Nuclear bodies|Nucleoli|Nucleoplasm	6	1
+27	BTF3L4	detail/rejected/BTF3L4/BTF3L4-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	286		3	1
+27	BTNL9	detail/rejected/BTNL9/BTNL9-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	732	Nucleoplasm	6	1
+27	C10orf71	detail/rejected/C10orf71/C10orf71-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1253	Nucleoli|Nucleoplasm	6	1
+28	C10orf90	detail/rejected/C10orf90/C10orf90-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	720	Nuclear bodies	3	1
+28	C11orf58	detail/rejected/C11orf58/C11orf58-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	180		3	1
+28	C11orf68	detail/rejected/C11orf68/C11orf68-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	862	Nuclear membrane	5	1
+28	C14orf39	detail/rejected/C14orf39/C14orf39-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	56	Nucleoplasm	3	1
+28	C19orf47	detail/rejected/C19orf47/C19orf47-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	587	Nucleoli|Nucleoplasm	6	1
+29	C19orf84	detail/rejected/C19orf84/C19orf84-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1326	Nuclear speckles|Nucleoplasm	3	1
+29	C1orf146	detail/rejected/C1orf146/C1orf146-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	170	Nucleoplasm	6	1
+29	C1orf174	detail/rejected/C1orf174/C1orf174-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	223			1
+29	C1orf21	detail/rejected/C1orf21/C1orf21-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	159	Nucleoplasm	6	1
+29	C1orf226	detail/rejected/C1orf226/C1orf226-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	8	Nucleoli	6	1
+30	C1orf35	detail/rejected/C1orf35/C1orf35-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	33			1
+30	C1orf52	detail/rejected/C1orf52/C1orf52-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	680	Nucleoplasm	3	1
+30	C2CD4A	detail/rejected/C2CD4A/C2CD4A-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1294	Nuclear speckles|Nucleoplasm	3	1
+30	C2CD4B	detail/rejected/C2CD4B/C2CD4B-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1087	Nucleoplasm	6	1
+30	C6orf52	detail/rejected/C6orf52/C6orf52-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	301	Nuclear bodies|Nucleoli|Nucleoli fibrillar center|Nucleoplasm	6	1
+31	C6orf89	detail/rejected/C6orf89/C6orf89-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	162	Nucleoli|Nucleoplasm	3	1
+31	C7orf25	detail/rejected/C7orf25/C7orf25-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	302	Nucleoplasm	6	1
+31	C8orf34	detail/rejected/C8orf34/C8orf34-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	57	Nucleoplasm	3	1
+31	C8orf48	detail/rejected/C8orf48/C8orf48-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	303	Nucleoplasm	6	1
+31	C8orf58	detail/rejected/C8orf58/C8orf58-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	736	Nuclear speckles|Nucleoplasm	6	1
+32	C8orf76	detail/rejected/C8orf76/C8orf76-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	863	Nucleoplasm	4	1
+32	CABCOCO1	detail/rejected/CABCOCO1/CABCOCO1-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	226	Nucleoplasm	3	1
+32	CACNA1D	detail/rejected/CACNA1D/CACNA1D-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1303			1
+32	CACUL1	detail/rejected/CACUL1/CACUL1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	842	Nucleoplasm	6	1
+32	CADPS2	detail/rejected/CADPS2/CADPS2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	31	Nucleoplasm	3	1
+33	CAMK2N2	detail/rejected/CAMK2N2/CAMK2N2-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	295	Nuclear speckles	6	1
+33	CAMKK1	detail/rejected/CAMKK1/CAMKK1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	859	Nuclear speckles	6	1
+33	CAMLG	detail/rejected/CAMLG/CAMLG-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	32	Nucleoplasm	3	1
+33	CAND2	detail/rejected/CAND2/CAND2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	740			1
+33	CAPS2	detail/rejected/CAPS2/CAPS2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	581	Nuclear membrane|Nucleoplasm	6	1
+34	CARD8	detail/rejected/CARD8/CARD8-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	241	Nucleoli|Nucleoli fibrillar center|Nucleoplasm	6	1
+34	CARF	detail/rejected/CARF/CARF-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1188			1
+34	CASD1	detail/rejected/CASD1/CASD1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	841	Nucleoplasm	6	1
+34	CASKIN1	detail/rejected/CASKIN1/CASKIN1-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	297	Nucleoplasm	6	1
+34	CBLC	detail/rejected/CBLC/CBLC-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1015	Nucleoplasm	6	1
+35	CBR3	detail/rejected/CBR3/CBR3-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1252			1
+35	CC2D1B	detail/rejected/CC2D1B/CC2D1B-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1021	Nuclear bodies|Nucleoplasm	6	1
+35	CCDC110	detail/rejected/CCDC110/CCDC110-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	207	Nucleoplasm	3	1
+35	CCDC112	detail/rejected/CCDC112/CCDC112-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	307	Nuclear speckles|Nucleoli|Nucleoplasm	5	1
+35	CCDC117	detail/rejected/CCDC117/CCDC117-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	865			1
+36	CCDC12	detail/rejected/CCDC12/CCDC12-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1114			1
+36	CCDC122	detail/rejected/CCDC122/CCDC122-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	308	Nucleoplasm	6	1
+36	CCDC141	detail/rejected/CCDC141/CCDC141-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	485		3	1
+36	CCDC148	detail/rejected/CCDC148/CCDC148-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	589	Nucleoli|Nucleoplasm	6	1
+36	CCDC159	detail/rejected/CCDC159/CCDC159-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	309	Nucleoplasm	6	1
+37	CCDC169	detail/rejected/CCDC169/CCDC169-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	244	Nucleoplasm	3	1
+37	CCDC39	detail/rejected/CCDC39/CCDC39-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	864	Nucleoplasm	4	1
+37	CCDC59	detail/rejected/CCDC59/CCDC59-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1305	Nucleoli	3	1
+37	CCDC61	detail/rejected/CCDC61/CCDC61-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	35			1
+37	CCDC74A	detail/rejected/CCDC74A/CCDC74A-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	590	Nucleoplasm	6	1
+38	CCDC77	detail/rejected/CCDC77/CCDC77-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	310	Nucleoplasm	6	1
+38	CCDC8	detail/rejected/CCDC8/CCDC8-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1254			1
+38	CCDC83	detail/rejected/CCDC83/CCDC83-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	129	Nucleoli|Nucleoplasm	3	1
+38	CCDC85B	detail/rejected/CCDC85B/CCDC85B-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	311	Nucleoplasm	6	1
+38	CCDC88B	detail/rejected/CCDC88B/CCDC88B-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	306	Nucleoplasm	3	1
+39	CCDC91	detail/rejected/CCDC91/CCDC91-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	312		3	1
+39	CCDC97	detail/rejected/CCDC97/CCDC97-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1116	Nucleoplasm	3	1
+39	CCDC9B	detail/rejected/CCDC9B/CCDC9B-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	591	Nucleoplasm	6	1
+39	CCER1	detail/rejected/CCER1/CCER1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1328	Nucleoplasm	3	1
+39	CCHCR1	detail/rejected/CCHCR1/CCHCR1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1190			1
+40	CCT8	detail/rejected/CCT8/CCT8-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1113			1
+40	CD1E	detail/rejected/CD1E/CD1E-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	585	Nucleoli|Nucleoplasm	6	1
+40	CDADC1	detail/rejected/CDADC1/CDADC1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	314	Nucleoplasm	6	1
+40	CDPF1	detail/rejected/CDPF1/CDPF1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	255	Nucleoplasm	6	1
+40	CDV3	detail/rejected/CDV3/CDV3-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1111	Nucleoplasm	4	1
+41	CENPN	detail/rejected/CENPN/CENPN-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1379	Nucleoplasm	6	1
+41	CENPO	detail/rejected/CENPO/CENPO-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	7	Nucleoplasm	6	1
+41	CENPQ	detail/rejected/CENPQ/CENPQ-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1377	Nucleoplasm	6	1
+41	CENPS	detail/rejected/CENPS/CENPS-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1308	Nucleoplasm	2	1
+41	CENPW	detail/rejected/CENPW/CENPW-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	114	Nucleoli|Nucleoplasm	3	1
+42	CEP112	detail/rejected/CEP112/CEP112-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	959	Nucleoplasm	6	1
+42	CEP20	detail/rejected/CEP20/CEP20-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1112			1
+42	CEP350	detail/rejected/CEP350/CEP350-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	298	Nucleoplasm	6	1
+42	CEP57	detail/rejected/CEP57/CEP57-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	861	Nuclear membrane	6	1
+42	CEP70	detail/rejected/CEP70/CEP70-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	256	Nucleoplasm	6	1
+43	CEPT1	detail/rejected/CEPT1/CEPT1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1189	Nuclear speckles|Nucleoplasm	6	1
+43	CERKL	detail/rejected/CERKL/CERKL-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	825	Nuclear membrane	4	1
+43	CERS3	detail/rejected/CERS3/CERS3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	586		3	1
+43	CERS4	detail/rejected/CERS4/CERS4-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1389		3	1
+43	CERT1	detail/rejected/CERT1/CERT1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	205	Nucleoplasm	3	1
+44	CES3	detail/rejected/CES3/CES3-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1307	Nucleoplasm	3	1
+44	CETN1	detail/rejected/CETN1/CETN1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	227	Nucleoplasm	4	1
+44	CETN3	detail/rejected/CETN3/CETN3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1395	Nucleoli|Nucleoli fibrillar center|Nucleoplasm	3	1
+44	CGNL1	detail/rejected/CGNL1/CGNL1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1327	Nucleoplasm	3	1
+44	CHCHD1	detail/rejected/CHCHD1/CHCHD1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	738	Nucleoplasm	3	1
+45	CHFR	detail/rejected/CHFR/CHFR-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	960	Nucleoli|Nucleoplasm	6	1
+45	CHMP1B	detail/rejected/CHMP1B/CHMP1B-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	299	Nucleoplasm	6	1
+45	CHMP2A	detail/rejected/CHMP2A/CHMP2A-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1027	Nucleoplasm	4	1
+45	CHMP4B	detail/rejected/CHMP4B/CHMP4B-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	734	Nuclear speckles	6	1
+45	CHN2	detail/rejected/CHN2/CHN2-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	961	Nucleoplasm	6	1
+46	CHPF2	detail/rejected/CHPF2/CHPF2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	300	Nucleoplasm	6	1
+46	CHRAC1	detail/rejected/CHRAC1/CHRAC1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1325	Nuclear membrane|Nucleoli	3	1
+46	CHST1	detail/rejected/CHST1/CHST1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	733	Nucleoplasm	6	1
+46	CHST2	detail/rejected/CHST2/CHST2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	296		3	1
+46	CHST7	detail/rejected/CHST7/CHST7-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	582			1
+47	CHTF18	detail/rejected/CHTF18/CHTF18-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1100	Nuclear bodies	3	1
+47	CIAO1	detail/rejected/CIAO1/CIAO1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	934	Nucleoli	3	1
+47	CIAO2A	detail/rejected/CIAO2A/CIAO2A-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	316	Nucleoli|Nucleoli fibrillar center	3	1
+47	CIAO2B	detail/rejected/CIAO2B/CIAO2B-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	96	Nucleoli|Nucleoplasm	6	1
+47	CIAPIN1	detail/rejected/CIAPIN1/CIAPIN1-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1040	Nucleoplasm	3	1
+48	CIB1	detail/rejected/CIB1/CIB1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	858	Nucleoplasm	6	1
+48	CIMAP1D	detail/rejected/CIMAP1D/CIMAP1D-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	9	Nucleoplasm	6	1
+48	CINP	detail/rejected/CINP/CINP-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	742	Nuclear bodies	3	1
+48	CIRSR	detail/rejected/CIRSR/CIRSR-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	214	Nuclear speckles	3	1
+48	CKAP5	detail/rejected/CKAP5/CKAP5-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	866			1
+49	CLINT1	detail/rejected/CLINT1/CLINT1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1399	Nucleoli|Nucleoplasm	6	1
+49	CLMN	detail/rejected/CLMN/CLMN-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	860	Nuclear membrane|Nucleoli|Nucleoli fibrillar center	6	1
+49	CMAS	detail/rejected/CMAS/CMAS-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1329	Nuclear bodies|Nucleoplasm	3	1
+49	CMIP	detail/rejected/CMIP/CMIP-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	305	Nucleoplasm	4	1
+49	CMPK1	detail/rejected/CMPK1/CMPK1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	175	Nucleoplasm	3	1
+50	CMSS1	detail/rejected/CMSS1/CMSS1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	58	Chromosome|Mitotic chromosome|Nucleoli|Nucleoli rim	3	1
+50	CMTM3	detail/rejected/CMTM3/CMTM3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	304	Nucleoplasm	6	1
+50	CMTM8	detail/rejected/CMTM8/CMTM8-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	737		3	1
+50	CMYA5	detail/rejected/CMYA5/CMYA5-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	583	Nucleoli|Nucleoli rim|Nucleoplasm	6	1
+50	CNDP2	detail/rejected/CNDP2/CNDP2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1097	Nucleoplasm	6	1
+51	CNEP1R1	detail/rejected/CNEP1R1/CNEP1R1-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	313		3	1
+51	CNTD1	detail/rejected/CNTD1/CNTD1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	743	Nucleoplasm	3	1
+51	CNTNAP1	detail/rejected/CNTNAP1/CNTNAP1-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	253	Nucleoli|Nucleoli fibrillar center|Nucleoplasm	6	1
+51	CNTNAP5	detail/rejected/CNTNAP5/CNTNAP5-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	739		3	1
+51	COG3	detail/rejected/COG3/COG3-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1038			1
+52	COG6	detail/rejected/COG6/COG6-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1378	Nucleoplasm	6	1
+52	COMMD4	detail/rejected/COMMD4/COMMD4-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1117	Nucleoplasm	3	1
+52	COMMD5	detail/rejected/COMMD5/COMMD5-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	59	Nucleoplasm	3	1
+52	COPG1	detail/rejected/COPG1/COPG1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	963	Nucleoplasm	6	1
+52	COPRS	detail/rejected/COPRS/COPRS-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1176	Nucleoli|Nucleoli fibrillar center|Nucleoplasm	6	1
+53	COQ7	detail/rejected/COQ7/COQ7-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	541	Nuclear speckles|Nucleoplasm	3	1
+53	COTL1	detail/rejected/COTL1/COTL1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1037	Nucleoplasm	3	1
+53	CPED1	detail/rejected/CPED1/CPED1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1036		3	1
+53	CPNE1	detail/rejected/CPNE1/CPNE1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1386	Nucleoplasm	6	1
+53	CPNE2	detail/rejected/CPNE2/CPNE2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	36			1
+54	CPNE3	detail/rejected/CPNE3/CPNE3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	920	Nucleoplasm	3	1
+54	CRACD	detail/rejected/CRACD/CRACD-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1384	Nucleoli	3	1
+54	CRADD	detail/rejected/CRADD/CRADD-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	83	Nucleoplasm	3	1
+54	CRCP	detail/rejected/CRCP/CRCP-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	294		3	1
+54	CREBZF	detail/rejected/CREBZF/CREBZF-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1178	Nucleoplasm	6	1
+55	CRIP3	detail/rejected/CRIP3/CRIP3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	745			1
+55	CRYBG1	detail/rejected/CRYBG1/CRYBG1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	195	Nuclear bodies	3	1
+55	CRYL1	detail/rejected/CRYL1/CRYL1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	592		3	1
+55	CRYZL1	detail/rejected/CRYZL1/CRYZL1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	140			1
+55	CTDSP1	detail/rejected/CTDSP1/CTDSP1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	222			1
+56	CTNNBIP1	detail/rejected/CTNNBIP1/CTNNBIP1-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	584	Nucleoli|Nucleoplasm	3	1
+56	CTPS1	detail/rejected/CTPS1/CTPS1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	704		3	1
+56	CTPS2	detail/rejected/CTPS2/CTPS2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	593	Nucleoli|Nucleoplasm	6	1
+56	CUEDC2	detail/rejected/CUEDC2/CUEDC2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	594	Nucleoplasm	3	1
+56	CWF19L1	detail/rejected/CWF19L1/CWF19L1-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	741			1
+57	CWF19L2	detail/rejected/CWF19L2/CWF19L2-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1039			1
+57	CYB5D1	detail/rejected/CYB5D1/CYB5D1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	315		3	1
+57	CYB5R2	detail/rejected/CYB5R2/CYB5R2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	746	Nucleoplasm	3	1
+57	CYRIA	detail/rejected/CYRIA/CYRIA-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	681	Nucleoplasm	4	1
+57	CYTIP	detail/rejected/CYTIP/CYTIP-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1103		3	1
+58	CYYR1	detail/rejected/CYYR1/CYYR1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	744		2	1
+58	Chtf8	detail/rejected/Chtf8/Chtf8-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	研究很多	205	Nucleoli|Nucleoli fibrillar center|Nucleoplasm	6	1
+58	Crxos	detail/rejected/Crxos/Crxos-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	849	Nuclear speckles	3	1
+58	DAAM2	detail/rejected/DAAM2/DAAM2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1331	Nucleoli	3	1
+58	DACT1	detail/rejected/DACT1/DACT1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1295	Nucleoplasm	6	1
+59	DACT3	detail/rejected/DACT3/DACT3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1009	Nucleoplasm	3	1
+59	DAPL1	detail/rejected/DAPL1/DAPL1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	595	Nuclear bodies	3	1
+59	DAZ3	detail/rejected/DAZ3/DAZ3-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	319	Nucleoli|Nucleoli fibrillar center	4	1
+59	DAZAP2	detail/rejected/DAZAP2/DAZAP2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	867	Nucleoplasm	3	1
+59	DBF4B	detail/rejected/DBF4B/DBF4B-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	121	Nucleoli|Nucleoplasm	3	1
+60	DCLRE1A	detail/rejected/DCLRE1A/DCLRE1A-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	85	Nucleoplasm	3	1
+60	DCLRE1B	detail/rejected/DCLRE1B/DCLRE1B-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1332	Nucleoplasm	6	1
+60	DCTN5	detail/rejected/DCTN5/DCTN5-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	600	Nucleoplasm	6	1
+60	DCTN6	detail/rejected/DCTN6/DCTN6-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	832		3	1
+60	DCTPP1	detail/rejected/DCTPP1/DCTPP1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	747	Nucleoplasm	6	1
+61	DCUN1D1	detail/rejected/DCUN1D1/DCUN1D1-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	937	Nucleoplasm	5	1
+61	DCUN1D2	detail/rejected/DCUN1D2/DCUN1D2-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	318		3	1
+61	DCUN1D4	detail/rejected/DCUN1D4/DCUN1D4-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	107		2	1
+61	DDA1	detail/rejected/DDA1/DDA1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	868	Nucleoplasm	3	1
+61	DDI2	detail/rejected/DDI2/DDI2-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	748	Nucleoplasm	4	1
+62	DDRGK1	detail/rejected/DDRGK1/DDRGK1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	486	Nucleoplasm	3	1
+62	DDX19A	detail/rejected/DDX19A/DDX19A-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1390	Nucleoplasm	6	1
+62	DEDD2	detail/rejected/DEDD2/DEDD2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1191	Nuclear speckles|Nucleoplasm	6	1
+62	DEF8	detail/rejected/DEF8/DEF8-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1041	Nucleoplasm	3	1
+62	DEGS2	detail/rejected/DEGS2/DEGS2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1096	Nucleoplasm	3	1
+63	DENND2C	detail/rejected/DENND2C/DENND2C-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	220	Nucleoplasm	6	1
+63	DENND4B	detail/rejected/DENND4B/DENND4B-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	749	Nucleoli|Nucleoplasm	4	1
+63	DEPDC1B	detail/rejected/DEPDC1B/DEPDC1B-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1092		2	1
+63	DERA	detail/rejected/DERA/DERA-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	811		3	1
+63	DEXI	detail/rejected/DEXI/DEXI-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	964	Nucleoplasm	3	1
+64	DGKA	detail/rejected/DGKA/DGKA-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1168	Nuclear membrane|Nucleoplasm	6	1
+64	DGKE	detail/rejected/DGKE/DGKE-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	320	Nucleoplasm	3	1
+64	DHDH	detail/rejected/DHDH/DHDH-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	321	Nucleoplasm	3	1
+64	DIAPH2	detail/rejected/DIAPH2/DIAPH2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	543			1
+64	DIAPH3	detail/rejected/DIAPH3/DIAPH3-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1019		3	1
+65	DIMT1	detail/rejected/DIMT1/DIMT1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1330		3	1
+65	DISP3	detail/rejected/DISP3/DISP3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	322		3	1
+65	DLG3	detail/rejected/DLG3/DLG3-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	924	Nuclear bodies	3	1
+65	DLG4	detail/rejected/DLG4/DLG4-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1101	Nucleoli|Nucleoplasm	6	1
+65	DLGAP4	detail/rejected/DLGAP4/DLGAP4-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	596	Nuclear membrane|Nuclear speckles|Nucleoplasm	3	1
+66	DLGAP5	detail/rejected/DLGAP5/DLGAP5-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1023	Nuclear speckles	4	1
+66	DLK2	detail/rejected/DLK2/DLK2-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1255		3	1
+66	DMWD	detail/rejected/DMWD/DMWD-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	597	Nucleoplasm	6	1
+66	DMXL1	detail/rejected/DMXL1/DMXL1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	598	Nucleoli	6	1
+66	DNAAF2	detail/rejected/DNAAF2/DNAAF2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	197	Nucleoplasm	4	1
+67	DNAAF5	detail/rejected/DNAAF5/DNAAF5-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	869	Nucleoplasm	4	1
+67	DNTTIP2	detail/rejected/DNTTIP2/DNTTIP2-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1192	Nucleoli|Nucleoli fibrillar center|Nucleoplasm	3	1
+67	DOC2A	detail/rejected/DOC2A/DOC2A-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1333	Nuclear membrane	5	1
+67	DOCK1	detail/rejected/DOCK1/DOCK1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1094	Nucleoplasm	3	1
+67	DOCK4	detail/rejected/DOCK4/DOCK4-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1118	Nucleoplasm	4	1
+68	DOLK	detail/rejected/DOLK/DOLK-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	599			1
+68	DRC1	detail/rejected/DRC1/DRC1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	326		3	1
+68	DSEL	detail/rejected/DSEL/DSEL-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	10	Nucleoli|Nucleoplasm	6	1
+68	DTD1	detail/rejected/DTD1/DTD1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	317			1
+68	DTWD1	detail/rejected/DTWD1/DTWD1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	487	Nucleoli	6	1
+69	DTWD2	detail/rejected/DTWD2/DTWD2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	324		3	1
+69	DTX3	detail/rejected/DTX3/DTX3-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1119	Nucleoplasm	6	1
+69	DYNC1I1	detail/rejected/DYNC1I1/DYNC1I1-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	325		3	1
+69	DYNLL1	detail/rejected/DYNLL1/DYNLL1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1309	Nucleoplasm	4	1
+69	DYNLL2	detail/rejected/DYNLL2/DYNLL2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	60	Nucleoli	3	1
+70	DYNLT3	detail/rejected/DYNLT3/DYNLT3-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1334	Nuclear speckles|Nucleoplasm	6	1
+70	DYRK3	detail/rejected/DYRK3/DYRK3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	965	Nucleoli|Nucleoli fibrillar center|Nucleoplasm	4	1
+70	DYRK4	detail/rejected/DYRK4/DYRK4-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	750			1
+70	EAPP	detail/rejected/EAPP/EAPP-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1156	Nucleoli	6	1
+70	ECPAS	detail/rejected/ECPAS/ECPAS-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	97	Nucleoplasm	6	1
+71	ECT2L	detail/rejected/ECT2L/ECT2L-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	752	Nuclear bodies|Nucleoli|Nucleoplasm	6	1
+71	EEF1AKMT3	detail/rejected/EEF1AKMT3/EEF1AKMT3-evaluation.md	rejected	11	194	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	86		3	1
+71	EEF1D	detail/rejected/EEF1D/EEF1D-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1337	Nucleoplasm	3	1
+71	EEF1E1	detail/rejected/EEF1E1/EEF1E1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	496	Nucleoplasm	4	1
+71	EEFSEC	detail/rejected/EEFSEC/EEFSEC-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	488	Nuclear membrane|Nucleoplasm	6	1
+72	EEPD1	detail/rejected/EEPD1/EEPD1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	966		3	1
+72	EFCAB13	detail/rejected/EFCAB13/EFCAB13-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	601			1
+72	EFCAB6	detail/rejected/EFCAB6/EFCAB6-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	329	Nucleoplasm	3	1
+72	EFCC1	detail/rejected/EFCC1/EFCC1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	328	Chromosome|Mitotic chromosome|Nucleoli|Nucleoli rim	6	1
+72	EID1	detail/rejected/EID1/EID1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1122	Nucleoplasm	6	1
+73	EID2	detail/rejected/EID2/EID2-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	751	Nucleoplasm	3	1
+73	EID3	detail/rejected/EID3/EID3-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1335	Nucleoplasm	4	1
+73	EIPR1	detail/rejected/EIPR1/EIPR1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	327		3	1
+73	ELFN1	detail/rejected/ELFN1/ELFN1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1043	Nucleoplasm	3	1
+73	ELFN2	detail/rejected/ELFN2/ELFN2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	870		3	1
+74	ELMOD1	detail/rejected/ELMOD1/ELMOD1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	330	Nucleoplasm	3	1
+74	ELOC	detail/rejected/ELOC/ELOC-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1237	Nuclear membrane	6	1
+74	EME2	detail/rejected/EME2/EME2-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	602		3	1
+74	EML3	detail/rejected/EML3/EML3-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1042	Nucleoli|Nucleoli fibrillar center	6	1
+74	ENDOV	detail/rejected/ENDOV/ENDOV-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1193			1
+75	ENOPH1	detail/rejected/ENOPH1/ENOPH1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	331		3	1
+75	ENTREP3	detail/rejected/ENTREP3/ENTREP3-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	11			1
+75	EPB41	detail/rejected/EPB41/EPB41-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1010	Nucleoplasm	3	1
+75	EPN1	detail/rejected/EPN1/EPN1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1157	Nucleoplasm	3	1
+75	EPN3	detail/rejected/EPN3/EPN3-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	967		3	1
+76	EQTN	detail/rejected/EQTN/EQTN-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	332	Nucleoplasm	3	1
+76	ERAP1	detail/rejected/ERAP1/ERAP1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	940			1
+76	ERCC8	detail/rejected/ERCC8/ERCC8-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	603			1
+76	ERGIC1	detail/rejected/ERGIC1/ERGIC1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	37			1
+76	ERGIC2	detail/rejected/ERGIC2/ERGIC2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	190	Nucleoplasm	3	1
+77	ERI3	detail/rejected/ERI3/ERI3-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1194			1
+77	ERICH1	detail/rejected/ERICH1/ERICH1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	351	Nucleoplasm	6	1
+77	ERICH3	detail/rejected/ERICH3/ERICH3-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	246	Nuclear bodies|Nucleoplasm	6	1
+77	ERP29	detail/rejected/ERP29/ERP29-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1121		2	1
+77	ESF1	detail/rejected/ESF1/ESF1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1336	Nucleoplasm	6	1
+78	ETAA1	detail/rejected/ETAA1/ETAA1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1257	Nucleoplasm	6	1
+78	ETNK1	detail/rejected/ETNK1/ETNK1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	108	Nucleoplasm	6	1
+78	EVC2	detail/rejected/EVC2/EVC2-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	333	Nucleoplasm	6	1
+78	EVI5	detail/rejected/EVI5/EVI5-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1256		3	1
+78	EXOC3L2	detail/rejected/EXOC3L2/EXOC3L2-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1338	Nucleoli|Nucleoli fibrillar center|Nucleoplasm	6	1
+79	EYA4	detail/rejected/EYA4/EYA4-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1044	Nucleoplasm	3	1
+79	F8A2	detail/rejected/F8A2/F8A2-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	588	Nucleoplasm	6	1
+79	FA2H	detail/rejected/FA2H/FA2H-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	699	Nucleoli|Nucleoplasm	3	1
+79	FADS3	detail/rejected/FADS3/FADS3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1125	Nucleoli|Nucleoli fibrillar center|Nucleoplasm	4	1
+79	FAM107A	detail/rejected/FAM107A/FAM107A-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1013		3	1
+80	FAM107B	detail/rejected/FAM107B/FAM107B-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	753	Nucleoplasm	6	1
+80	FAM110C	detail/rejected/FAM110C/FAM110C-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	604	Nucleoplasm	6	1
+80	FAM111A	detail/rejected/FAM111A/FAM111A-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1339	Nucleoplasm	3	1
+80	FAM111B	detail/rejected/FAM111B/FAM111B-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1340	Nucleoplasm	4	1
+80	FAM114A1	detail/rejected/FAM114A1/FAM114A1-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1258	Nucleoplasm	6	1
+81	FAM120B	detail/rejected/FAM120B/FAM120B-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	210	Nuclear bodies	3	1
+81	FAM120C	detail/rejected/FAM120C/FAM120C-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	102	Nucleoplasm	3	1
+81	FAM124B	detail/rejected/FAM124B/FAM124B-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	335	Nucleoli|Nucleoli rim	6	1
+81	FAM131B	detail/rejected/FAM131B/FAM131B-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1124	Nucleoplasm	6	1
+81	FAM133A	detail/rejected/FAM133A/FAM133A-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	254	Nucleoplasm	6	1
+82	FAM133B	detail/rejected/FAM133B/FAM133B-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1045	Nucleoplasm	3	1
+82	FAM13B	detail/rejected/FAM13B/FAM13B-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1123	Nucleoplasm	6	1
+82	FAM161A	detail/rejected/FAM161A/FAM161A-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	522	Nucleoplasm	6	1
+82	FAM168A	detail/rejected/FAM168A/FAM168A-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	605	Nucleoli	6	1
+82	FAM177A1	detail/rejected/FAM177A1/FAM177A1-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	336	Chromosome|Mitotic chromosome|Nuclear bodies|Nucleoli|Nucleoli rim	6	1
+83	FAM181B	detail/rejected/FAM181B/FAM181B-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	968		3	1
+83	FAM186A	detail/rejected/FAM186A/FAM186A-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	337	Nucleoli|Nucleoplasm	5	1
+83	FAM193A	detail/rejected/FAM193A/FAM193A-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	969	Nuclear speckles|Nucleoplasm	4	1
+83	FAM20B	detail/rejected/FAM20B/FAM20B-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	334			1
+83	FAM219A	detail/rejected/FAM219A/FAM219A-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	338	Nucleoplasm	6	1
+84	FAM222B	detail/rejected/FAM222B/FAM222B-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	606	Nucleoplasm	6	1
+84	FAM241B	detail/rejected/FAM241B/FAM241B-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	12			1
+84	FAM50B	detail/rejected/FAM50B/FAM50B-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	754	Nucleoplasm	6	1
+84	FAM53A	detail/rejected/FAM53A/FAM53A-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	339	Nucleoplasm	4	1
+84	FAM78A	detail/rejected/FAM78A/FAM78A-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	755	Nucleoplasm	6	1
+85	FAM81A	detail/rejected/FAM81A/FAM81A-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1046			1
+85	FAM98B	detail/rejected/FAM98B/FAM98B-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	970	Nucleoplasm	3	1
+85	FAM98C	detail/rejected/FAM98C/FAM98C-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	756	Nucleoplasm	6	1
+85	FAR2	detail/rejected/FAR2/FAR2-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1259	Nucleoli	4	1
+85	FBLIM1	detail/rejected/FBLIM1/FBLIM1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	612	Nuclear bodies|Nucleoplasm	6	1
+86	FBRS	detail/rejected/FBRS/FBRS-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	835		3	1
+86	FBXL2	detail/rejected/FBXL2/FBXL2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	871	Nucleoli|Nucleoplasm	3	1
+86	FBXL21P	detail/rejected/FBXL21P/FBXL21P-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	61	Nucleoli|Nucleoplasm	3	1
+86	FBXO10	detail/rejected/FBXO10/FBXO10-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	872	Nucleoli|Nucleoli fibrillar center	3	1
+86	FBXO16	detail/rejected/FBXO16/FBXO16-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	607	Nuclear speckles	6	1
+87	FBXO25	detail/rejected/FBXO25/FBXO25-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1260	Nuclear speckles	3	1
+87	FBXO3	detail/rejected/FBXO3/FBXO3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	608	Nucleoplasm	6	1
+87	FBXO31	detail/rejected/FBXO31/FBXO31-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	609	Nucleoplasm	6	1
+87	FBXO33	detail/rejected/FBXO33/FBXO33-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	682	Nuclear speckles	6	1
+87	FBXO34	detail/rejected/FBXO34/FBXO34-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	610	Nucleoli|Nucleoplasm	6	1
+88	FBXO41	detail/rejected/FBXO41/FBXO41-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	611	Nucleoli|Nucleoplasm	6	1
+88	FBXO44	detail/rejected/FBXO44/FBXO44-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1195	Nucleoplasm	6	1
+88	FBXO46	detail/rejected/FBXO46/FBXO46-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	873	Nucleoli|Nucleoplasm	6	1
+88	FBXO5	detail/rejected/FBXO5/FBXO5-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1022		2	1
+88	FBXO7	detail/rejected/FBXO7/FBXO7-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1261	Nucleoli|Nucleoli rim|Nucleoplasm	6	1
+89	FBXO8	detail/rejected/FBXO8/FBXO8-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	874	Nuclear speckles|Nucleoplasm	3	1
+89	FBXW10B	detail/rejected/FBXW10B/FBXW10B-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	160	Nucleoplasm	3	1
+89	FBXW2	detail/rejected/FBXW2/FBXW2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	542	Nucleoli|Nucleoli fibrillar center	3	1
+89	FCF1	detail/rejected/FCF1/FCF1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1383	Nuclear membrane|Nucleoli|Nucleoli rim	3	1
+89	FEM1B	detail/rejected/FEM1B/FEM1B-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1341	Nucleoplasm	3	1
+90	FERMT2	detail/rejected/FERMT2/FERMT2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1241	Nucleoplasm	6	1
+90	FERRY3	detail/rejected/FERRY3/FERRY3-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	230	Nucleoplasm	3	1
+90	FGF11	detail/rejected/FGF11/FGF11-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1299	Nucleoplasm	3	1
+90	FGF14	detail/rejected/FGF14/FGF14-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1385	Nucleoplasm	6	1
+90	FHAD1	detail/rejected/FHAD1/FHAD1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	343	Nuclear speckles	4	1
+91	FICD	detail/rejected/FICD/FICD-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	178	Nucleoplasm	3	1
+91	FIGN	detail/rejected/FIGN/FIGN-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1262	Nucleoplasm	6	1
+91	FILIP1L	detail/rejected/FILIP1L/FILIP1L-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1316	Nucleoplasm	6	1
+91	FKBP14	detail/rejected/FKBP14/FKBP14-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	342		3	1
+91	FKBP3	detail/rejected/FKBP3/FKBP3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	701	Nucleoplasm	3	1
+92	FKBP6	detail/rejected/FKBP6/FKBP6-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1263	Nucleoplasm	6	1
+92	FKBPL	detail/rejected/FKBPL/FKBPL-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	87			1
+92	FKTN	detail/rejected/FKTN/FKTN-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1197	Nucleoli|Nucleoplasm	3	1
+92	FLYWCH2	detail/rejected/FLYWCH2/FLYWCH2-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	613	Nucleoplasm	6	1
+92	FN3KRP	detail/rejected/FN3KRP/FN3KRP-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1343	Nucleoplasm	6	1
+93	FNDC3A	detail/rejected/FNDC3A/FNDC3A-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	341	Nuclear speckles	4	1
+93	FOXD4	detail/rejected/FOXD4/FOXD4-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	344	Nucleoli|Nucleoplasm	2	1
+93	FOXD4L1	detail/rejected/FOXD4L1/FOXD4L1-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	183	Nucleoplasm	6	1
+93	FOXD4L4	detail/rejected/FOXD4L4/FOXD4L4-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	149	Nucleoli|Nucleoli rim	3	1
+93	FOXD4L6	detail/rejected/FOXD4L6/FOXD4L6-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1342	Nuclear bodies|Nucleoplasm	6	1
+94	FOXL2NB	detail/rejected/FOXL2NB/FOXL2NB-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	757		3	1
+94	FOXL3	detail/rejected/FOXL3/FOXL3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	62	Nucleoli|Nucleoplasm	3	1
+94	FRA10AC1	detail/rejected/FRA10AC1/FRA10AC1-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	758	Nuclear speckles|Nucleoplasm	6	1
+94	FRAT2	detail/rejected/FRAT2/FRAT2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1047			1
+94	FRMD4A	detail/rejected/FRMD4A/FRMD4A-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	340	Nucleoli|Nucleoplasm	4	1
+95	FSD2	detail/rejected/FSD2/FSD2-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	245	Nucleoli|Nucleoplasm	4	1
+95	FUT9	detail/rejected/FUT9/FUT9-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1196			1
+95	FYB1	detail/rejected/FYB1/FYB1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	759	Nucleoplasm	6	1
+95	Fcor	detail/rejected/Fcor/Fcor-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	263	Nucleoplasm	6	1
+95	GAB3	detail/rejected/GAB3/GAB3-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	875	Nucleoplasm	3	1
+96	GABARAPL2	detail/rejected/GABARAPL2/GABARAPL2-evaluation.md	rejected	11	194	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1098	Nucleoplasm	6	1
+96	GALNT10	detail/rejected/GALNT10/GALNT10-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	814	Nucleoplasm	6	1
+96	GALNT12	detail/rejected/GALNT12/GALNT12-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	897		3	1
+96	GALNT14	detail/rejected/GALNT14/GALNT14-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1165	Nucleoli	3	1
+96	GALNT17	detail/rejected/GALNT17/GALNT17-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1219	Nucleoplasm	6	1
+97	GALNT5	detail/rejected/GALNT5/GALNT5-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	511	Nucleoli	4	1
+97	GALNT6	detail/rejected/GALNT6/GALNT6-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1064		3	1
+97	GAREM1	detail/rejected/GAREM1/GAREM1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	355	Nucleoplasm	3	1
+97	GARIN1A	detail/rejected/GARIN1A/GARIN1A-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	63	Nucleoplasm	3	1
+97	GARIN5A	detail/rejected/GARIN5A/GARIN5A-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	13	Nucleoplasm	3	1
+98	GARRE1	detail/rejected/GARRE1/GARRE1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	354	Nucleoplasm	3	1
+98	GASK1B	detail/rejected/GASK1B/GASK1B-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	116	Nucleoli|Nucleoplasm	3	1
+98	GBP3	detail/rejected/GBP3/GBP3-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1199	Nucleoplasm	4	1
+98	GBX1	detail/rejected/GBX1/GBX1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1198	Nucleoplasm	6	1
+98	GCC2	detail/rejected/GCC2/GCC2-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	615	Nuclear bodies	6	1
+99	GCNA	detail/rejected/GCNA/GCNA-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	971	Chromosome|Mitotic chromosome|Nucleoli	5	1
+99	GCNT1	detail/rejected/GCNT1/GCNT1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	972	Nucleoplasm	3	1
+99	GCNT4	detail/rejected/GCNT4/GCNT4-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	614	Nucleoplasm	6	1
+99	GDPD3	detail/rejected/GDPD3/GDPD3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1127			1
+99	GEMIN8	detail/rejected/GEMIN8/GEMIN8-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1345	Nucleoli|Nucleoplasm	6	1
+100	GET3	detail/rejected/GET3/GET3-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	935	Nucleoplasm	6	1
+100	GET4	detail/rejected/GET4/GET4-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1128	Nucleoplasm	6	1
+100	GFPT1	detail/rejected/GFPT1/GFPT1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	165		3	1
+100	GFUS	detail/rejected/GFUS/GFUS-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	155	Nuclear membrane	3	1
+100	GGA1	detail/rejected/GGA1/GGA1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1048	Nucleoli|Nucleoplasm	6	1
+101	GGN	detail/rejected/GGN/GGN-evaluation.md	rejected	11	182	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	565	Nuclear speckles|Nucleoplasm	6	1
+101	GGT5	detail/rejected/GGT5/GGT5-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	801	Nucleoplasm	3	1
+101	GGT7	detail/rejected/GGT7/GGT7-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	760	Nucleoplasm	6	1
+101	GID8	detail/rejected/GID8/GID8-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1346	Nucleoplasm	6	1
+101	GINS1	detail/rejected/GINS1/GINS1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1391	Nucleoplasm	6	1
+102	GINS2	detail/rejected/GINS2/GINS2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	150	Nuclear membrane	3	1
+102	GINS3	detail/rejected/GINS3/GINS3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	349		3	1
+102	GIPC1	detail/rejected/GIPC1/GIPC1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	560	Nucleoli|Nucleoli rim	3	1
+102	GK5	detail/rejected/GK5/GK5-evaluation.md	rejected	11	182	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1181	Nucleoplasm	6	1
+102	GLB1L2	detail/rejected/GLB1L2/GLB1L2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	345	Nucleoplasm	3	1
+103	GLRX2	detail/rejected/GLRX2/GLRX2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	193	Nucleoplasm	6	1
+103	GMCL1	detail/rejected/GMCL1/GMCL1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	347	Nucleoplasm	3	1
+103	GMFG	detail/rejected/GMFG/GMFG-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	350	Nucleoplasm	6	1
+103	GMPPA	detail/rejected/GMPPA/GMPPA-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	346	Nuclear membrane|Nuclear speckles	4	1
+103	GMPR2	detail/rejected/GMPR2/GMPR2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	260		3	1
+104	GNL2	detail/rejected/GNL2/GNL2-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	819	Nucleoplasm	3	1
+104	GNL3L	detail/rejected/GNL3L/GNL3L-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1126	Nucleoplasm	6	1
+104	GON7	detail/rejected/GON7/GON7-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	353	Nuclear bodies|Nucleoplasm	3	1
+104	GORAB	detail/rejected/GORAB/GORAB-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	352	Nucleoplasm	6	1
+104	GOSR2	detail/rejected/GOSR2/GOSR2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	546	Nuclear speckles|Nucleoplasm	6	1
+105	GPALPP1	detail/rejected/GPALPP1/GPALPP1-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	122	Nucleoli|Nucleoplasm	3	1
+105	GPN1	detail/rejected/GPN1/GPN1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	761	Nucleoplasm	6	1
+105	GPS1	detail/rejected/GPS1/GPS1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	710	Nucleoli	4	1
+105	GRAP2	detail/rejected/GRAP2/GRAP2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	762	Nucleoplasm	3	1
+105	GRHPR	detail/rejected/GRHPR/GRHPR-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	156	Nucleoli|Nucleoli fibrillar center	3	1
+106	GRINA	detail/rejected/GRINA/GRINA-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	489	Nucleoplasm	6	1
+106	GRK3	detail/rejected/GRK3/GRK3-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1162		3	1
+106	GSKIP	detail/rejected/GSKIP/GSKIP-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	356	Nucleoplasm	3	1
+106	Gvin1	detail/rejected/Gvin1/Gvin1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	357	Nucleoplasm	3	1
+106	HABP4	detail/rejected/HABP4/HABP4-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	878	Nuclear speckles	3	1
+107	HACL1	detail/rejected/HACL1/HACL1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	265	Nucleoplasm	6	1
+107	HAPSTR1	detail/rejected/HAPSTR1/HAPSTR1-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1095	Nucleoli	3	1
+107	HAPSTR2	detail/rejected/HAPSTR2/HAPSTR2-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1129	Nucleoplasm	3	1
+107	HAUS2	detail/rejected/HAUS2/HAUS2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	358	Nucleoplasm	3	1
+107	HAUS6	detail/rejected/HAUS6/HAUS6-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	876	Nuclear membrane	5	1
+108	HCFC1R1	detail/rejected/HCFC1R1/HCFC1R1-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	124	Nucleoli|Nucleoplasm	3	1
+108	HCFC2	detail/rejected/HCFC2/HCFC2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	936	Nuclear membrane|Nucleoplasm	6	1
+108	HDDC2	detail/rejected/HDDC2/HDDC2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	39	Nucleoli|Nucleoli fibrillar center|Nucleoplasm	6	1
+108	HDDC3	detail/rejected/HDDC3/HDDC3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	550	Nucleoplasm	3	1
+108	HDGFL1	detail/rejected/HDGFL1/HDGFL1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	763	Nucleoplasm	6	1
+109	HDGFL3	detail/rejected/HDGFL3/HDGFL3-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	518	Nucleoli|Nucleoplasm	3	1
+109	HDX	detail/rejected/HDX/HDX-evaluation.md	rejected	11	182	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1105	Nucleoplasm	3	1
+109	HEATR1	detail/rejected/HEATR1/HEATR1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	123	Nucleoli|Nucleoplasm	3	1
+109	HEATR5B	detail/rejected/HEATR5B/HEATR5B-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	243	Nucleoli|Nucleoli fibrillar center	6	1
+109	HECW1	detail/rejected/HECW1/HECW1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	616	Nucleoplasm	6	1
+110	HELB	detail/rejected/HELB/HELB-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	323		2	1
+110	HELQ	detail/rejected/HELQ/HELQ-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	490	Nucleoplasm	3	1
+110	HEMK2	detail/rejected/HEMK2/HEMK2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	535			1
+110	HERC2	detail/rejected/HERC2/HERC2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1201	Nucleoplasm	6	1
+110	HERC6	detail/rejected/HERC6/HERC6-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	877	Nuclear membrane	5	1
+111	HERPUD2	detail/rejected/HERPUD2/HERPUD2-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	360	Nucleoplasm	2	1
+111	HEXD	detail/rejected/HEXD/HEXD-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	361	Nucleoplasm	6	1
+111	HEXIM2	detail/rejected/HEXIM2/HEXIM2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1049	Nucleoplasm	3	1
+111	HGH1	detail/rejected/HGH1/HGH1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	617	Nuclear bodies	6	1
+111	HIGD1A	detail/rejected/HIGD1A/HIGD1A-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	618	Nucleoli|Nucleoplasm	6	1
+112	HIKESHI	detail/rejected/HIKESHI/HIKESHI-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1388	Nucleoplasm	6	1
+112	HIRIP3	detail/rejected/HIRIP3/HIRIP3-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	764	Nucleoplasm	6	1
+112	HORMAD2	detail/rejected/HORMAD2/HORMAD2-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	362	Nucleoplasm	3	1
+112	HPF1	detail/rejected/HPF1/HPF1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	766	Nucleoplasm	3	1
+112	HRCT1	detail/rejected/HRCT1/HRCT1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	765		3	1
+113	HS6ST3	detail/rejected/HS6ST3/HS6ST3-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	359		3	1
+113	HSD17B6	detail/rejected/HSD17B6/HSD17B6-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	363	Nucleoplasm	3	1
+113	HSD3B1	detail/rejected/HSD3B1/HSD3B1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1293			1
+113	HSD3B2	detail/rejected/HSD3B2/HSD3B2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1050	Nucleoplasm	3	1
+113	IBTK	detail/rejected/IBTK/IBTK-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1315	Nucleoplasm	3	1
+114	IER5L	detail/rejected/IER5L/IER5L-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	364	Nucleoplasm	3	1
+114	IGFN1	detail/rejected/IGFN1/IGFN1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	365	Nucleoplasm	3	1
+114	IGSF3	detail/rejected/IGSF3/IGSF3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1347	Nucleoplasm	6	1
+114	ILDR2	detail/rejected/ILDR2/ILDR2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1264			1
+114	ILRUN	detail/rejected/ILRUN/ILRUN-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	366	Nucleoli	3	1
+115	IMPA2	detail/rejected/IMPA2/IMPA2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	619	Nucleoplasm	6	1
+115	INAVA	detail/rejected/INAVA/INAVA-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	151	Nucleoplasm	4	1
+115	INCA1	detail/rejected/INCA1/INCA1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1348	Nucleoplasm	6	1
+115	INIP	detail/rejected/INIP/INIP-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1202	Nucleoplasm	4	1
+115	INKA2	detail/rejected/INKA2/INKA2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	367			1
+116	INPP5E	detail/rejected/INPP5E/INPP5E-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	368	Nucleoli|Nucleoli fibrillar center	3	1
+116	INPP5J	detail/rejected/INPP5J/INPP5J-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	141			1
+116	INPP5K	detail/rejected/INPP5K/INPP5K-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	717	Nucleoplasm	6	1
+116	IQCB1	detail/rejected/IQCB1/IQCB1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	685	Nuclear speckles	3	1
+116	IQCK	detail/rejected/IQCK/IQCK-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	371		3	1
+117	IQSEC1	detail/rejected/IQSEC1/IQSEC1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	806	Nucleoplasm	6	1
+117	IQSEC3	detail/rejected/IQSEC3/IQSEC3-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	369	Nucleoplasm	3	1
+117	IQUB	detail/rejected/IQUB/IQUB-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	370	Nucleoplasm	2	1
+117	IRAK1BP1	detail/rejected/IRAK1BP1/IRAK1BP1-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1349			1
+117	ISYNA1	detail/rejected/ISYNA1/ISYNA1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	239		3	1
+118	ITGB1BP1	detail/rejected/ITGB1BP1/ITGB1BP1-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	880	Nucleoplasm	3	1
+118	ITGB3BP	detail/rejected/ITGB3BP/ITGB3BP-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	939			1
+118	ITPKC	detail/rejected/ITPKC/ITPKC-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	879	Nucleoplasm	3	1
+118	ITSN1	detail/rejected/ITSN1/ITSN1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1350	Nucleoli|Nucleoplasm	3	1
+118	Ifi203	detail/rejected/Ifi203/Ifi203-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	973	Nucleoplasm	3	1
+119	Ifi204	detail/rejected/Ifi204/Ifi204-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	548	Nucleoplasm	3	1
+119	Ifi27l2a	detail/rejected/Ifi27l2a/Ifi27l2a-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	705	Nucleoplasm	6	1
+119	Iigp1	detail/rejected/Iigp1/Iigp1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	480	Nuclear speckles	6	1
+119	JADE3	detail/rejected/JADE3/JADE3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	539	Nucleoli|Nucleoplasm	3	1
+119	JHY	detail/rejected/JHY/JHY-evaluation.md	rejected	11	182	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	847	Nucleoli	3	1
+120	JKAMP	detail/rejected/JKAMP/JKAMP-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1051		3	1
+120	JMY	detail/rejected/JMY/JMY-evaluation.md	rejected	11	182	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	846		3	1
+120	JPT1	detail/rejected/JPT1/JPT1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	219			1
+120	JRKL	detail/rejected/JRKL/JRKL-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	372	Nucleoplasm	6	1
+120	KALRN	detail/rejected/KALRN/KALRN-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	536	Nucleoli|Nucleoli fibrillar center	3	1
+121	KANK1	detail/rejected/KANK1/KANK1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	882	Nucleoli|Nucleoplasm	4	1
+121	KASH5	detail/rejected/KASH5/KASH5-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	64	Nuclear membrane|Nucleoplasm	3	1
+121	KCTD10	detail/rejected/KCTD10/KCTD10-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1367	Nuclear bodies|Nucleoplasm	6	1
+121	KCTD14	detail/rejected/KCTD14/KCTD14-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	780	Nucleoplasm	3	1
+121	KCTD19	detail/rejected/KCTD19/KCTD19-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1065	Nucleoplasm	6	1
+122	KCTD20	detail/rejected/KCTD20/KCTD20-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1220			1
+122	KCTD9	detail/rejected/KCTD9/KCTD9-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	409	Nucleoplasm	3	1
+122	KIAA0040	detail/rejected/KIAA0040/KIAA0040-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	184	Nucleoplasm	3	1
+122	KIAA0408	detail/rejected/KIAA0408/KIAA0408-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	376	Nuclear bodies	6	1
+122	KIAA1217	detail/rejected/KIAA1217/KIAA1217-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1172	Nucleoplasm	3	1
+123	KIDINS220	detail/rejected/KIDINS220/KIDINS220-evaluation.md	rejected	11	194	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	845	Nucleoplasm	6	1
+123	KLHDC7A	detail/rejected/KLHDC7A/KLHDC7A-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	373	Nucleoplasm	6	1
+123	KLHL17	detail/rejected/KLHL17/KLHL17-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	374	Nucleoplasm	6	1
+123	KLHL18	detail/rejected/KLHL18/KLHL18-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	375	Nucleoplasm	6	1
+123	KLHL23	detail/rejected/KLHL23/KLHL23-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1265	Nucleoplasm	3	1
+124	KLHL25	detail/rejected/KLHL25/KLHL25-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	109		3	1
+124	KLHL41	detail/rejected/KLHL41/KLHL41-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	949	Nuclear speckles	6	1
+124	KLHL7	detail/rejected/KLHL7/KLHL7-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	544	Nucleoplasm	6	1
+124	KLLN	detail/rejected/KLLN/KLLN-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	881			1
+124	KNSTRN	detail/rejected/KNSTRN/KNSTRN-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1203	Nucleoli|Nucleoplasm	6	1
+125	KNTC1	detail/rejected/KNTC1/KNTC1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1351	Nuclear bodies|Nucleoplasm	6	1
+125	KPNA1	detail/rejected/KPNA1/KPNA1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	514	Nuclear speckles	3	1
+125	KPNA6	detail/rejected/KPNA6/KPNA6-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1175	Nucleoli|Nucleoplasm	3	1
+125	KPNA7	detail/rejected/KPNA7/KPNA7-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1130		3	1
+125	KRTCAP3	detail/rejected/KRTCAP3/KRTCAP3-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	767	Nucleoplasm	3	1
+126	KXD1	detail/rejected/KXD1/KXD1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	377	Nucleoplasm	6	1
+126	KYAT3	detail/rejected/KYAT3/KYAT3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	248	Nucleoplasm	3	1
+126	LAGE3	detail/rejected/LAGE3/LAGE3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1297	Nucleoplasm	3	1
+126	LARS1	detail/rejected/LARS1/LARS1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	187	Nuclear speckles	3	1
+126	LAS1L	detail/rejected/LAS1L/LAS1L-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1204		3	1
+127	LCMT1	detail/rejected/LCMT1/LCMT1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1053	Chromosome|Mitotic chromosome|Nucleoli|Nucleoli rim|Nucleoplasm	6	1
+127	LDB2	detail/rejected/LDB2/LDB2-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1007		3	1
+127	LDB3	detail/rejected/LDB3/LDB3-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1054	Nuclear bodies|Nucleoplasm	6	1
+127	LENG9	detail/rejected/LENG9/LENG9-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1353		3	1
+127	LGALS12	detail/rejected/LGALS12/LGALS12-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	716	Nucleoplasm	3	1
+128	LGALS13	detail/rejected/LGALS13/LGALS13-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	533			1
+128	LGALS14	detail/rejected/LGALS14/LGALS14-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	694			1
+128	LGALS2	detail/rejected/LGALS2/LGALS2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	820	Nucleoplasm	3	1
+128	LGALSL	detail/rejected/LGALSL/LGALSL-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	38	Nucleoplasm	3	1
+128	LGSN	detail/rejected/LGSN/LGSN-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	378	Nucleoplasm	6	1
+129	LHFPL2	detail/rejected/LHFPL2/LHFPL2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	623	Nucleoplasm	6	1
+129	LHFPL6	detail/rejected/LHFPL6/LHFPL6-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	14	Nuclear bodies|Nucleoplasm	6	1
+129	LHPP	detail/rejected/LHPP/LHPP-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1275	Nucleoplasm	6	1
+129	LIAT1	detail/rejected/LIAT1/LIAT1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	15	Nucleoli|Nucleoli fibrillar center	3	1
+129	LIMD1	detail/rejected/LIMD1/LIMD1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1055	Nucleoplasm	6	1
+130	LIMD2	detail/rejected/LIMD2/LIMD2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	976	Nucleoplasm	3	1
+130	LIMK2	detail/rejected/LIMK2/LIMK2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1132		3	1
+130	LINGO2	detail/rejected/LINGO2/LINGO2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1352	Nucleoplasm	2	1
+130	LKAAEAR1	detail/rejected/LKAAEAR1/LKAAEAR1-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	379		3	1
+130	LMCD1	detail/rejected/LMCD1/LMCD1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	768	Nucleoplasm	6	1
+131	LMTK2	detail/rejected/LMTK2/LMTK2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	807	Nucleoplasm	3	1
+131	LMTK3	detail/rejected/LMTK3/LMTK3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	813	Nuclear membrane|Nucleoplasm	4	1
+131	LNP1	detail/rejected/LNP1/LNP1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	975	Nucleoplasm	3	1
+131	LONRF2	detail/rejected/LONRF2/LONRF2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	380	Nucleoplasm	6	1
+131	LORICRIN	detail/rejected/LORICRIN/LORICRIN-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1355			1
+132	LPIN2	detail/rejected/LPIN2/LPIN2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1207	Nucleoplasm	3	1
+132	LPIN3	detail/rejected/LPIN3/LPIN3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	708		3	1
+132	LPXN	detail/rejected/LPXN/LPXN-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	181	Nucleoplasm	3	1
+132	LRATD1	detail/rejected/LRATD1/LRATD1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	131	Nucleoplasm	3	1
+132	LRATD2	detail/rejected/LRATD2/LRATD2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	40	Nucleoplasm	4	1
+133	LRCH1	detail/rejected/LRCH1/LRCH1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	974		2	1
+133	LRIF1	detail/rejected/LRIF1/LRIF1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	718		3	1
+133	LRP10	detail/rejected/LRP10/LRP10-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1052		3	1
+133	LRRC10B	detail/rejected/LRRC10B/LRRC10B-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	620	Nucleoplasm	3	1
+133	LRRC34	detail/rejected/LRRC34/LRRC34-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1131	Nucleoli|Nucleoli rim|Nucleoplasm	6	1
+134	LRRC47	detail/rejected/LRRC47/LRRC47-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	719	Nuclear bodies	3	1
+134	LRRC58	detail/rejected/LRRC58/LRRC58-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	621	Nucleoplasm	6	1
+134	LRRC59	detail/rejected/LRRC59/LRRC59-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1205	Nucleoli|Nucleoplasm	6	1
+134	LRRC73	detail/rejected/LRRC73/LRRC73-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	130	Nucleoli|Nucleoplasm	3	1
+134	LTA4H	detail/rejected/LTA4H/LTA4H-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1354	Nuclear bodies|Nucleoplasm	6	1
+135	LTC4S	detail/rejected/LTC4S/LTC4S-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1206			1
+135	LTO1	detail/rejected/LTO1/LTO1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	821	Nuclear speckles	3	1
+135	LUZP1	detail/rejected/LUZP1/LUZP1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	622	Nucleoplasm	6	1
+135	LUZP4	detail/rejected/LUZP4/LUZP4-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	232		3	1
+135	LYPLA1	detail/rejected/LYPLA1/LYPLA1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	217	Nucleoli|Nucleoli fibrillar center|Nucleoplasm	6	1
+136	LYPLA2	detail/rejected/LYPLA2/LYPLA2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	216	Nucleoli|Nucleoli fibrillar center|Nucleoplasm	5	1
+136	LYSMD1	detail/rejected/LYSMD1/LYSMD1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	247	Nucleoplasm	6	1
+136	LYSMD2	detail/rejected/LYSMD2/LYSMD2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	381	Nucleoplasm	6	1
+136	MAB21L2	detail/rejected/MAB21L2/MAB21L2-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1356	Nucleoplasm	4	1
+136	MACIR	detail/rejected/MACIR/MACIR-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	523	Nuclear bodies|Nuclear membrane|Nucleoplasm	6	1
+137	MAD1L1	detail/rejected/MAD1L1/MAD1L1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1025	Nucleoplasm	3	1
+137	MAD2L1BP	detail/rejected/MAD2L1BP/MAD2L1BP-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	844	Nucleoplasm	6	1
+137	MAD2L2	detail/rejected/MAD2L2/MAD2L2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	980			1
+137	MAGEA10	detail/rejected/MAGEA10/MAGEA10-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	41	Nucleoplasm	3	1
+137	MAGEA11	detail/rejected/MAGEA11/MAGEA11-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	683	Nucleoplasm	6	1
+138	MAGEA2B	detail/rejected/MAGEA2B/MAGEA2B-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	481	Nucleoli|Nucleoplasm	4	1
+138	MAGEA9	detail/rejected/MAGEA9/MAGEA9-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	42	Nucleoplasm	3	1
+138	MAGEC1	detail/rejected/MAGEC1/MAGEC1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	513	Nucleoplasm	3	1
+138	MAGEC2	detail/rejected/MAGEC2/MAGEC2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	557	Nucleoplasm	3	1
+138	MAGED2	detail/rejected/MAGED2/MAGED2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	948			1
+139	MAGEH1	detail/rejected/MAGEH1/MAGEH1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	559	Nucleoplasm	6	1
+139	MAGIX	detail/rejected/MAGIX/MAGIX-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	174		3	1
+139	MAJIN	detail/rejected/MAJIN/MAJIN-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	978		3	1
+139	MAMSTR	detail/rejected/MAMSTR/MAMSTR-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	521	Nucleoplasm	6	1
+139	MAN1C1	detail/rejected/MAN1C1/MAN1C1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	883	Nucleoplasm	3	1
+140	MAP1S	detail/rejected/MAP1S/MAP1S-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	834	Nucleoplasm	6	1
+140	MAP9	detail/rejected/MAP9/MAP9-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	228	Nucleoplasm	3	1
+140	MAPDA	detail/rejected/MAPDA/MAPDA-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	202	Nucleoplasm	6	1
+140	MAST3	detail/rejected/MAST3/MAST3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	772	Nucleoplasm	4	1
+140	MBTPS2	detail/rejected/MBTPS2/MBTPS2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	769	Nucleoplasm	6	1
+141	MCRIP1	detail/rejected/MCRIP1/MCRIP1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	88	Nucleoplasm	3	1
+141	MDFI	detail/rejected/MDFI/MDFI-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	44	Nuclear speckles	6	1
+141	MEAK7	detail/rejected/MEAK7/MEAK7-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	261		3	1
+141	MEGF9	detail/rejected/MEGF9/MEGF9-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	629	Nucleoplasm	6	1
+141	MEIOSIN	detail/rejected/MEIOSIN/MEIOSIN-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	977	Nucleoplasm	3	1
+142	METAP1	detail/rejected/METAP1/METAP1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1088	Nucleoplasm	6	1
+142	METTL21A	detail/rejected/METTL21A/METTL21A-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	624	Nucleoplasm	6	1
+142	METTL21C	detail/rejected/METTL21C/METTL21C-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	625	Nucleoplasm	4	1
+142	METTL22	detail/rejected/METTL22/METTL22-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	626	Nucleoplasm	6	1
+142	MFAP3L	detail/rejected/MFAP3L/MFAP3L-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	383	Nucleoplasm	3	1
+143	MFSD8	detail/rejected/MFSD8/MFSD8-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	161	Nucleoplasm	6	1
+143	MGAT4B	detail/rejected/MGAT4B/MGAT4B-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	957	Nuclear speckles	6	1
+143	MGAT5B	detail/rejected/MGAT5B/MGAT5B-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	144	Nucleoplasm	6	1
+143	MIDEAS	detail/rejected/MIDEAS/MIDEAS-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1267	Nucleoplasm	4	1
+143	MIDN	detail/rejected/MIDN/MIDN-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	884	Nucleoli|Nucleoplasm	3	1
+144	MIER2	detail/rejected/MIER2/MIER2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1056	Nuclear bodies|Nucleoplasm	6	1
+144	MIER3	detail/rejected/MIER3/MIER3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1057	Nuclear speckles	6	1
+144	MIF4GD	detail/rejected/MIF4GD/MIF4GD-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	172	Nucleoplasm	6	1
+144	MIIP	detail/rejected/MIIP/MIIP-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	384	Nucleoplasm	3	1
+144	MINDY1	detail/rejected/MINDY1/MINDY1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	98	Nucleoplasm	6	1
+145	MINDY2	detail/rejected/MINDY2/MINDY2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	885	Nucleoplasm	3	1
+145	MIOS	detail/rejected/MIOS/MIOS-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	382	Nucleoplasm	3	1
+145	MIS18A	detail/rejected/MIS18A/MIS18A-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	627	Nucleoli	4	1
+145	MKKS	detail/rejected/MKKS/MKKS-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	500			1
+145	MKLN1	detail/rejected/MKLN1/MKLN1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	387	Nuclear bodies	6	1
+146	MLIP	detail/rejected/MLIP/MLIP-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	386	Nuclear bodies	6	1
+146	MLXIPL	detail/rejected/MLXIPL/MLXIPL-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1359	Nucleoplasm	6	1
+146	MMS19	detail/rejected/MMS19/MMS19-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	700	Nucleoplasm	3	1
+146	MMS22L	detail/rejected/MMS22L/MMS22L-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1360	Nucleoplasm	3	1
+146	MNS1	detail/rejected/MNS1/MNS1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1266	Nucleoplasm	4	1
+147	MOB1A	detail/rejected/MOB1A/MOB1A-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1300	Nuclear membrane	3	1
+147	MOB1B	detail/rejected/MOB1B/MOB1B-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1298	Nucleoplasm	3	1
+147	MOB2	detail/rejected/MOB2/MOB2-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	981	Nucleoplasm	6	1
+147	MOCS2	detail/rejected/MOCS2/MOCS2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1208	Nucleoplasm	6	1
+147	MON2	detail/rejected/MON2/MON2-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1133	Nuclear bodies|Nucleoplasm	6	1
+148	MORN2	detail/rejected/MORN2/MORN2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	65	Nuclear bodies	3	1
+148	MOSPD1	detail/rejected/MOSPD1/MOSPD1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	385	Nuclear bodies|Nucleoli|Nucleoplasm	6	1
+148	MPHOSPH6	detail/rejected/MPHOSPH6/MPHOSPH6-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	173			1
+148	MPHOSPH9	detail/rejected/MPHOSPH9/MPHOSPH9-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	628		3	1
+148	MPND	detail/rejected/MPND/MPND-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1134			1
+149	MPPE1	detail/rejected/MPPE1/MPPE1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	562		3	1
+149	MRFAP1	detail/rejected/MRFAP1/MRFAP1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	145	Nucleoplasm	6	1
+149	MRGBP	detail/rejected/MRGBP/MRGBP-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	706			1
+149	MRI1	detail/rejected/MRI1/MRI1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	979	Nuclear bodies|Nucleoplasm	3	1
+149	MRPL44	detail/rejected/MRPL44/MRPL44-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	692	Nuclear bodies|Nucleoplasm	6	1
+150	MS4A12	detail/rejected/MS4A12/MS4A12-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	770	Nucleoplasm	6	1
+150	MSANTD1	detail/rejected/MSANTD1/MSANTD1-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1268	Nuclear membrane|Nucleoplasm	6	1
+150	MSANTD3	detail/rejected/MSANTD3/MSANTD3-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	982	Nucleoplasm	4	1
+150	MSANTD4	detail/rejected/MSANTD4/MSANTD4-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1135	Nucleoli|Nucleoli fibrillar center	6	1
+150	MSRB1	detail/rejected/MSRB1/MSRB1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1358	Nucleoplasm	3	1
+151	MTHFSD	detail/rejected/MTHFSD/MTHFSD-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1357			1
+151	MTMR10	detail/rejected/MTMR10/MTMR10-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1210	Nucleoli|Nucleoli rim|Nucleoplasm	3	1
+151	MTMR7	detail/rejected/MTMR7/MTMR7-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	389	Nucleoplasm	5	1
+151	MTMR8	detail/rejected/MTMR8/MTMR8-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	630	Nucleoplasm	6	1
+151	MTPN	detail/rejected/MTPN/MTPN-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	552	Nucleoplasm	6	1
+152	MTUS1	detail/rejected/MTUS1/MTUS1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	771	Nuclear membrane|Nucleoplasm	6	1
+152	MYBPH	detail/rejected/MYBPH/MYBPH-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	773		3	1
+152	MYCBP2	detail/rejected/MYCBP2/MYCBP2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	233		3	1
+152	MYG1	detail/rejected/MYG1/MYG1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	886	Nucleoplasm	3	1
+152	MYOZ1	detail/rejected/MYOZ1/MYOZ1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	837	Nucleoplasm	6	1
+153	MYOZ2	detail/rejected/MYOZ2/MYOZ2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	555	Nucleoplasm	3	1
+153	MYPN	detail/rejected/MYPN/MYPN-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1269	Nuclear speckles	6	1
+153	MYRFL	detail/rejected/MYRFL/MYRFL-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1209			1
+153	MYRIP	detail/rejected/MYRIP/MYRIP-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	388	Nuclear bodies|Nucleoplasm	6	1
+153	Mfap1a	detail/rejected/Mfap1a/Mfap1a-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1393	Nucleoplasm	6	1
+154	Mndal	detail/rejected/Mndal/Mndal-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	566	Nuclear bodies	6	1
+154	Mplkip	detail/rejected/Mplkip/Mplkip-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	研究很多	526	Nucleoplasm	6	1
+154	Mycs	detail/rejected/Mycs/Mycs-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1318	Nucleoli	6	1
+154	N4BP2	detail/rejected/N4BP2/N4BP2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1211	Nucleoplasm	6	1
+154	N4BP2L2	detail/rejected/N4BP2L2/N4BP2L2-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	198	Nucleoplasm	3	1
+155	N4BP3	detail/rejected/N4BP3/N4BP3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	888	Nucleoli|Nucleoplasm	3	1
+155	NAA30	detail/rejected/NAA30/NAA30-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1171	Nucleoplasm	6	1
+155	NAA40	detail/rejected/NAA40/NAA40-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1296	Nucleoli	6	1
+155	NABP1	detail/rejected/NABP1/NABP1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	776			1
+155	NABP2	detail/rejected/NABP2/NABP2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	836	Nuclear bodies|Nucleoplasm	6	1
+156	NACA2	detail/rejected/NACA2/NACA2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	631	Nucleoplasm	3	1
+156	NADK	detail/rejected/NADK/NADK-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	932	Nuclear membrane	3	1
+156	NAIF1	detail/rejected/NAIF1/NAIF1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1271	Nucleoplasm	6	1
+156	NANP	detail/rejected/NANP/NANP-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1136		3	1
+156	NAP1L3	detail/rejected/NAP1L3/NAP1L3-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1240	Nucleoplasm	6	1
+157	NAPEPLD	detail/rejected/NAPEPLD/NAPEPLD-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	929	Nucleoplasm	3	1
+157	NARF	detail/rejected/NARF/NARF-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	396			1
+157	NAT16	detail/rejected/NAT16/NAT16-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	390	Nucleoplasm	6	1
+157	NAV2	detail/rejected/NAV2/NAV2-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1058	Nucleoplasm	6	1
+157	NAV3	detail/rejected/NAV3/NAV3-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1212	Nucleoplasm	6	1
+158	NBEAL1	detail/rejected/NBEAL1/NBEAL1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	634	Nuclear membrane	6	1
+158	NBPF3	detail/rejected/NBPF3/NBPF3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	632	Nucleoplasm	6	1
+158	NCBP3	detail/rejected/NCBP3/NCBP3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1235			1
+158	NCK1	detail/rejected/NCK1/NCK1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1361	Nucleoplasm	6	1
+158	NCKAP5	detail/rejected/NCKAP5/NCKAP5-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	887		3	1
+159	NCKIPSD	detail/rejected/NCKIPSD/NCKIPSD-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	218	Nucleoplasm	6	1
+159	NCLN	detail/rejected/NCLN/NCLN-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	505	Nucleoplasm	3	1
+159	NDEL1	detail/rejected/NDEL1/NDEL1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1392		3	1
+159	NEDD1	detail/rejected/NEDD1/NEDD1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	633		3	1
+159	NEK1	detail/rejected/NEK1/NEK1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	395	Nucleoplasm	6	1
+160	NEK10	detail/rejected/NEK10/NEK10-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	635	Nucleoplasm	3	1
+160	NEK11	detail/rejected/NEK11/NEK11-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	891	Nuclear bodies|Nucleoplasm	3	1
+160	NEK5	detail/rejected/NEK5/NEK5-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	636	Nucleoplasm	3	1
+160	NEK9	detail/rejected/NEK9/NEK9-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1362	Nucleoplasm	3	1
+160	NEMF	detail/rejected/NEMF/NEMF-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	892	Nucleoplasm	3	1
+161	NEXMIF	detail/rejected/NEXMIF/NEXMIF-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	530	Nuclear bodies|Nuclear speckles|Nucleoplasm	6	1
+161	NFATC2IP	detail/rejected/NFATC2IP/NFATC2IP-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	229	Nucleoplasm	3	1
+161	NFKBIL1	detail/rejected/NFKBIL1/NFKBIL1-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	889	Nucleoplasm	3	1
+161	NFU1	detail/rejected/NFU1/NFU1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	774	Nuclear membrane|Nucleoplasm	6	1
+161	NGDN	detail/rejected/NGDN/NGDN-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	689	Nucleoplasm	6	1
+162	NHEJ1	detail/rejected/NHEJ1/NHEJ1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	638	Nucleoli	2	1
+162	NHLRC1	detail/rejected/NHLRC1/NHLRC1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	890	Nucleoplasm	3	1
+162	NHLRC2	detail/rejected/NHLRC2/NHLRC2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	393	Nucleoplasm	6	1
+162	NHSL1	detail/rejected/NHSL1/NHSL1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	394	Nucleoplasm	3	1
+162	NHSL3	detail/rejected/NHSL3/NHSL3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	138			1
+163	NIF3L1	detail/rejected/NIF3L1/NIF3L1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	46	Nucleoplasm	4	1
+163	NIPAL3	detail/rejected/NIPAL3/NIPAL3-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	775		3	1
+163	NKIRAS2	detail/rejected/NKIRAS2/NKIRAS2-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1137	Nucleoli	3	1
+163	NLE1	detail/rejected/NLE1/NLE1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	808	Nucleoli|Nucleoli fibrillar center|Nucleoplasm	4	1
+163	NME7	detail/rejected/NME7/NME7-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1213		3	1
+164	NME8	detail/rejected/NME8/NME8-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	637	Nucleoli	2	1
+164	NMRK1	detail/rejected/NMRK1/NMRK1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	531	Nucleoplasm	5	1
+164	NMRK2	detail/rejected/NMRK2/NMRK2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1029	Nucleoplasm	6	1
+164	NOC3L	detail/rejected/NOC3L/NOC3L-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	182	Nucleoplasm	6	1
+164	NOM1	detail/rejected/NOM1/NOM1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1093	Nucleoplasm	2	1
+165	NOPCHAP1	detail/rejected/NOPCHAP1/NOPCHAP1-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	931	Nuclear speckles	4	1
+165	NOS1AP	detail/rejected/NOS1AP/NOS1AP-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1169	Nucleoplasm	6	1
+165	NPEPPS	detail/rejected/NPEPPS/NPEPPS-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	712		3	1
+165	NPTXR	detail/rejected/NPTXR/NPTXR-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	391		3	1
+165	NQO2	detail/rejected/NQO2/NQO2-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	690	Nucleoplasm	5	1
+166	NRARP	detail/rejected/NRARP/NRARP-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1363	Nucleoplasm	6	1
+166	NRBF2	detail/rejected/NRBF2/NRBF2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1059	Nucleoli	4	1
+166	NRIP2	detail/rejected/NRIP2/NRIP2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1272			1
+166	NSFL1C	detail/rejected/NSFL1C/NSFL1C-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1380	Nuclear bodies|Nuclear membrane|Nucleoplasm	6	1
+166	NSMCE1	detail/rejected/NSMCE1/NSMCE1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	822	Nuclear membrane	3	1
+167	NSMCE3	detail/rejected/NSMCE3/NSMCE3-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	501	Nucleoplasm	3	1
+167	NSMCE4A	detail/rejected/NSMCE4A/NSMCE4A-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	812	Nucleoplasm	3	1
+167	NSRP1	detail/rejected/NSRP1/NSRP1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1301	Nucleoli	6	1
+167	NT5C1B	detail/rejected/NT5C1B/NT5C1B-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	567	Nucleoli|Nucleoplasm	6	1
+167	NT5C3A	detail/rejected/NT5C3A/NT5C3A-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	554	Nucleoplasm	3	1
+168	NTMT1	detail/rejected/NTMT1/NTMT1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	47		3	1
+168	NUAK2	detail/rejected/NUAK2/NUAK2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1270	Nucleoplasm	6	1
+168	NUBP1	detail/rejected/NUBP1/NUBP1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	234	Nucleoli|Nucleoplasm	6	1
+168	NUTM2A	detail/rejected/NUTM2A/NUTM2A-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1089	Nucleoplasm	6	1
+168	NVL	detail/rejected/NVL/NVL-evaluation.md	rejected	11	182	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	848	Chromosome|Mitotic chromosome|Nucleoli|Nucleoli rim|Nucleoplasm	6	1
+169	NXN	detail/rejected/NXN/NXN-evaluation.md	rejected	11	182	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1243	Nucleoplasm	6	1
+169	NYAP2	detail/rejected/NYAP2/NYAP2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	392	Nucleoplasm	6	1
+169	Naa11	detail/rejected/Naa11/Naa11-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	研究很多	534	Nucleoplasm	6	1
+169	Nat8f3	detail/rejected/Nat8f3/Nat8f3-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	221	Nucleoli|Nucleoli fibrillar center	6	1
+169	OAZ2	detail/rejected/OAZ2/OAZ2-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	167			1
+170	OAZ3	detail/rejected/OAZ3/OAZ3-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	702			1
+170	ODR4	detail/rejected/ODR4/ODR4-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	526	Nucleoplasm	3	1
+170	OGFR	detail/rejected/OGFR/OGFR-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	549	Nuclear bodies|Nucleoplasm	6	1
+170	OPLAH	detail/rejected/OPLAH/OPLAH-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	267	Nucleoplasm	6	1
+170	OSBPL10	detail/rejected/OSBPL10/OSBPL10-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	398		3	1
+171	OSBPL11	detail/rejected/OSBPL11/OSBPL11-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	16			1
+171	OSBPL1A	detail/rejected/OSBPL1A/OSBPL1A-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	110	Nucleoli|Nucleoplasm	3	1
+171	OSBPL3	detail/rejected/OSBPL3/OSBPL3-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	777			1
+171	OSBPL7	detail/rejected/OSBPL7/OSBPL7-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	157	Nucleoli	3	1
+171	OSER1	detail/rejected/OSER1/OSER1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	840	Nucleoplasm	6	1
+172	OSTM1	detail/rejected/OSTM1/OSTM1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	893	Nucleoli|Nucleoli rim	3	1
+172	OTUD6B	detail/rejected/OTUD6B/OTUD6B-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	984	Nucleoli|Nucleoli rim|Nucleoplasm	6	1
+172	OTULINL	detail/rejected/OTULINL/OTULINL-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	48	Nucleoplasm	3	1
+172	OVCA2	detail/rejected/OVCA2/OVCA2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	894	Nucleoplasm	3	1
+172	OXNAD1	detail/rejected/OXNAD1/OXNAD1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	397		3	1
+173	Obox6	detail/rejected/Obox6/Obox6-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	983	Nucleoplasm	3	1
+173	Obox7	detail/rejected/Obox7/Obox7-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	639	Nucleoplasm	3	1
+173	Obox8	detail/rejected/Obox8/Obox8-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	640	Nucleoplasm	3	1
+173	P2RX6	detail/rejected/P2RX6/P2RX6-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	647	Nucleoplasm	3	1
+173	PAAF1	detail/rejected/PAAF1/PAAF1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	823	Nucleoplasm	3	1
+174	PABIR1	detail/rejected/PABIR1/PABIR1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1277		2	1
+174	PABIR2	detail/rejected/PABIR2/PABIR2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	250		3	1
+174	PABIR3	detail/rejected/PABIR3/PABIR3-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	237	Nuclear membrane|Nucleoplasm	6	1
+174	PABPC1L	detail/rejected/PABPC1L/PABPC1L-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1276	Nucleoplasm	3	1
+174	PACS1	detail/rejected/PACS1/PACS1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1365	Nuclear bodies|Nucleoplasm	3	1
+175	PADI1	detail/rejected/PADI1/PADI1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	944	Nucleoli|Nucleoplasm	6	1
+175	PADI3	detail/rejected/PADI3/PADI3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1311	Nucleoplasm	6	1
+175	PAFAH1B2	detail/rejected/PAFAH1B2/PAFAH1B2-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1218			1
+175	PAGE1	detail/rejected/PAGE1/PAGE1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	142			1
+175	PAGE3	detail/rejected/PAGE3/PAGE3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	117	Nucleoli|Nucleoplasm	3	1
+176	PAGR1	detail/rejected/PAGR1/PAGR1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	930	Nucleoplasm	6	1
+176	PAK1IP1	detail/rejected/PAK1IP1/PAK1IP1-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	17			1
+176	PANO1	detail/rejected/PANO1/PANO1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1104		3	1
+176	PAOX	detail/rejected/PAOX/PAOX-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	408	Nuclear bodies|Nucleoplasm	3	1
+176	PAPSS1	detail/rejected/PAPSS1/PAPSS1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	956		3	1
+177	PASD1	detail/rejected/PASD1/PASD1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	534			1
+177	PATL2	detail/rejected/PATL2/PATL2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1138	Nucleoplasm	6	1
+177	PBOV1	detail/rejected/PBOV1/PBOV1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	103	Nucleoli|Nucleoli fibrillar center|Nucleoplasm	5	1
+177	PBXIP1	detail/rejected/PBXIP1/PBXIP1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	515	Nucleoli	3	1
+177	PCBD1	detail/rejected/PCBD1/PCBD1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	921		3	1
+178	PCID2	detail/rejected/PCID2/PCID2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	895	Nucleoplasm	3	1
+178	PCLAF	detail/rejected/PCLAF/PCLAF-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	918	Nucleoli|Nucleoplasm	6	1
+178	PCLO	detail/rejected/PCLO/PCLO-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	779	Nucleoplasm	3	1
+178	PCP4L1	detail/rejected/PCP4L1/PCP4L1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	902	Nucleoli|Nucleoli fibrillar center	3	1
+178	PCYT1A	detail/rejected/PCYT1A/PCYT1A-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	641	Nuclear bodies|Nucleoplasm	6	1
+179	PDLIM4	detail/rejected/PDLIM4/PDLIM4-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1060	Nucleoplasm	3	1
+179	PDZD7	detail/rejected/PDZD7/PDZD7-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	399			1
+179	PELI1	detail/rejected/PELI1/PELI1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1214	Nucleoplasm	6	1
+179	PERM1	detail/rejected/PERM1/PERM1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	251	Nucleoplasm	3	1
+179	PHF3	detail/rejected/PHF3/PHF3-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	986	Nucleoplasm	6	1
+180	PHOSPHO2	detail/rejected/PHOSPHO2/PHOSPHO2-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1364	Nucleoplasm	4	1
+180	PHPT1	detail/rejected/PHPT1/PHPT1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1061	Nuclear bodies|Nucleoplasm	6	1
+180	PHTF1	detail/rejected/PHTF1/PHTF1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1067	Nucleoli|Nucleoli rim|Nucleoplasm	6	1
+180	PHTF2	detail/rejected/PHTF2/PHTF2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	782	Nucleoplasm	6	1
+180	PHYHD1	detail/rejected/PHYHD1/PHYHD1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1139	Nucleoplasm	4	1
+181	PHYHIP	detail/rejected/PHYHIP/PHYHIP-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	403			1
+181	PIERCE1	detail/rejected/PIERCE1/PIERCE1-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	404			1
+181	PIGX	detail/rejected/PIGX/PIGX-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	66	Nucleoplasm	3	1
+181	PIH1D1	detail/rejected/PIH1D1/PIH1D1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1215	Nuclear speckles	6	1
+181	PIMREG	detail/rejected/PIMREG/PIMREG-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	118	Nucleoli|Nucleoplasm	3	1
+182	PITPNC1	detail/rejected/PITPNC1/PITPNC1-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1274	Nucleoplasm	6	1
+182	PJA1	detail/rejected/PJA1/PJA1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1140			1
+182	PKN3	detail/rejected/PKN3/PKN3-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	645	Nucleoplasm	6	1
+182	PKP1	detail/rejected/PKP1/PKP1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1216			1
+182	PKP3	detail/rejected/PKP3/PKP3-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1217	Nuclear speckles|Nucleoplasm	6	1
+183	PLA2G4C	detail/rejected/PLA2G4C/PLA2G4C-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	987	Nucleoplasm	6	1
+183	PLAA	detail/rejected/PLAA/PLAA-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1167	Nuclear bodies|Nucleoplasm	2	1
+183	PLAAT1	detail/rejected/PLAAT1/PLAAT1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	203	Nucleoplasm	3	1
+183	PLAAT5	detail/rejected/PLAAT5/PLAAT5-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	67	Nuclear membrane	5	1
+183	PLCD4	detail/rejected/PLCD4/PLCD4-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	642	Nucleoplasm	6	1
+184	PLCZ1	detail/rejected/PLCZ1/PLCZ1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	778			1
+184	PLEK	detail/rejected/PLEK/PLEK-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	684	Nucleoplasm	4	1
+184	PLEKHA1	detail/rejected/PLEKHA1/PLEKHA1-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	896	Nucleoplasm	3	1
+184	PLEKHA5	detail/rejected/PLEKHA5/PLEKHA5-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1366	Nucleoplasm	3	1
+184	PLEKHA8	detail/rejected/PLEKHA8/PLEKHA8-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	406	Nucleoplasm	3	1
+185	PLEKHG4B	detail/rejected/PLEKHG4B/PLEKHG4B-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	405			1
+185	PLEKHO2	detail/rejected/PLEKHO2/PLEKHO2-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	644	Nuclear speckles	6	1
+185	PLK5	detail/rejected/PLK5/PLK5-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	407	Nucleoplasm	3	1
+185	PLOD1	detail/rejected/PLOD1/PLOD1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1085		2	1
+185	PLPP4	detail/rejected/PLPP4/PLPP4-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	643	Nucleoplasm	4	1
+186	PLPP6	detail/rejected/PLPP6/PLPP6-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	215	Nucleoplasm	3	1
+186	PLPP7	detail/rejected/PLPP7/PLPP7-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	709		3	1
+186	PLPPR3	detail/rejected/PLPPR3/PLPPR3-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1020	Nucleoplasm	6	1
+186	PLSCR2	detail/rejected/PLSCR2/PLSCR2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1062	Nucleoplasm	6	1
+186	PM20D2	detail/rejected/PM20D2/PM20D2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	400		2	1
+187	PNRC1	detail/rejected/PNRC1/PNRC1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	206	Nucleoplasm	3	1
+187	PNRC2	detail/rejected/PNRC2/PNRC2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1142	Nucleoplasm	6	1
+187	POFUT3	detail/rejected/POFUT3/POFUT3-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	204		3	1
+187	POGLUT2	detail/rejected/POGLUT2/POGLUT2-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	100	Nucleoplasm	6	1
+187	POMT2	detail/rejected/POMT2/POMT2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	781	Nucleoplasm	3	1
+188	POPDC3	detail/rejected/POPDC3/POPDC3-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	553	Nucleoplasm	3	1
+188	POU2AF2	detail/rejected/POU2AF2/POU2AF2-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1238		3	1
+188	POU2AF3	detail/rejected/POU2AF3/POU2AF3-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	99	Nucleoplasm	4	1
+188	POU6F2	detail/rejected/POU6F2/POU6F2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	695			1
+188	PPM1B	detail/rejected/PPM1B/PPM1B-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1066	Nuclear membrane|Nucleoplasm	6	1
+189	PRAC1	detail/rejected/PRAC1/PRAC1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	18			1
+189	PRAG1	detail/rejected/PRAG1/PRAG1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	132	Nucleoplasm	6	1
+189	PRICKLE2	detail/rejected/PRICKLE2/PRICKLE2-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	898	Nucleoli	3	1
+189	PRKD2	detail/rejected/PRKD2/PRKD2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1180	Nucleoplasm	6	1
+189	PRKRIP1	detail/rejected/PRKRIP1/PRKRIP1-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1026	Nucleoplasm	4	1
+190	PRKX	detail/rejected/PRKX/PRKX-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	412		3	1
+190	PRM3	detail/rejected/PRM3/PRM3-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	901	Nuclear bodies	3	1
+190	PRPS2	detail/rejected/PRPS2/PRPS2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1063	Nucleoli|Nucleoplasm	6	1
+190	PRPSAP2	detail/rejected/PRPSAP2/PRPSAP2-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	402			1
+190	PRR11	detail/rejected/PRR11/PRR11-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1141			1
+191	PRR12	detail/rejected/PRR12/PRR12-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	899	Nuclear bodies|Nucleoplasm	4	1
+191	PRR14L	detail/rejected/PRR14L/PRR14L-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	900	Nucleoplasm	3	1
+191	PRR32	detail/rejected/PRR32/PRR32-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	410	Nuclear bodies|Nucleoplasm	3	1
+191	PRR35	detail/rejected/PRR35/PRR35-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	411	Nuclear bodies|Nucleoplasm	3	1
+191	PRR9	detail/rejected/PRR9/PRR9-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1278	Nucleoplasm	6	1
+192	PRRG1	detail/rejected/PRRG1/PRRG1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1221		3	1
+192	PRXL2B	detail/rejected/PRXL2B/PRXL2B-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	401	Nucleoplasm	6	1
+192	PSORS1C1	detail/rejected/PSORS1C1/PSORS1C1-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	646	Nucleoli|Nucleoplasm	6	1
+192	PSRC1	detail/rejected/PSRC1/PSRC1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1158	Nucleoplasm	3	1
+192	PTGES2	detail/rejected/PTGES2/PTGES2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	168	Nucleoplasm	3	1
+193	PTGR3	detail/rejected/PTGR3/PTGR3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	133	Nucleoli|Nucleoplasm	3	1
+193	PUDP	detail/rejected/PUDP/PUDP-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	19	Nucleoplasm	3	1
+193	PURG	detail/rejected/PURG/PURG-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1279	Nucleoplasm	6	1
+193	PWWP2B	detail/rejected/PWWP2B/PWWP2B-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	988	Nuclear bodies	4	1
+193	PWWP3A	detail/rejected/PWWP3A/PWWP3A-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	249		3	1
+194	PXMP4	detail/rejected/PXMP4/PXMP4-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	985	Nucleoplasm	6	1
+194	PYDC2	detail/rejected/PYDC2/PYDC2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	235		3	1
+194	PYHIN1	detail/rejected/PYHIN1/PYHIN1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	989	Nucleoli	6	1
+194	PYM1	detail/rejected/PYM1/PYM1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1381	Nucleoplasm	3	1
+194	PYROXD1	detail/rejected/PYROXD1/PYROXD1-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	648		3	1
+195	Pak6	detail/rejected/Pak6/Pak6-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1273	Nucleoplasm	6	1
+195	Phf11a	detail/rejected/Phf11a/Phf11a-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	125	Nucleoli|Nucleoplasm	3	1
+195	QTGAL	detail/rejected/QTGAL/QTGAL-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	802	Nucleoli|Nucleoli fibrillar center|Nucleoplasm	3	1
+195	QTMAN	detail/rejected/QTMAN/QTMAN-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	809	Nucleoplasm	3	1
+195	R3HDM1	detail/rejected/R3HDM1/R3HDM1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	49	Nucleoplasm	3	1
+196	RAB34	detail/rejected/RAB34/RAB34-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	816	Nucleoplasm	3	1
+196	RAB3IP	detail/rejected/RAB3IP/RAB3IP-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	413		3	1
+196	RAB6C	detail/rejected/RAB6C/RAB6C-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	188	Nucleoli|Nucleoplasm	3	1
+196	RABL6	detail/rejected/RABL6/RABL6-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1280	Nucleoplasm	6	1
+196	RAI14	detail/rejected/RAI14/RAI14-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	905	Nucleoplasm	3	1
+197	RALGAPB	detail/rejected/RALGAPB/RALGAPB-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	649		3	1
+197	RALGDS	detail/rejected/RALGDS/RALGDS-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	925	Nuclear speckles	3	1
+197	RASAL3	detail/rejected/RASAL3/RASAL3-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	650	Nuclear bodies|Nucleoplasm	6	1
+197	RASD1	detail/rejected/RASD1/RASD1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1024	Nucleoplasm	4	1
+197	RASL11B	detail/rejected/RASL11B/RASL11B-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	415	Nucleoli	3	1
+198	RAX2	detail/rejected/RAX2/RAX2-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	904		2	1
+198	RBPJL	detail/rejected/RBPJL/RBPJL-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1014	Nucleoli|Nucleoplasm	6	1
+198	RCBTB2	detail/rejected/RCBTB2/RCBTB2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1068	Nucleoplasm	6	1
+198	RCCD1	detail/rejected/RCCD1/RCCD1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1143	Nucleoli|Nucleoplasm	4	1
+198	RDH14	detail/rejected/RDH14/RDH14-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	711	Nucleoplasm	6	1
+199	RERG	detail/rejected/RERG/RERG-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	990	Nucleoli|Nucleoli rim	5	1
+199	REXO1	detail/rejected/REXO1/REXO1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1397	Nucleoplasm	6	1
+199	REXO5	detail/rejected/REXO5/REXO5-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	506	Nucleoplasm	6	1
+199	RFESD	detail/rejected/RFESD/RFESD-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	417	Nucleoplasm	6	1
+199	RFNG	detail/rejected/RFNG/RFNG-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1281	Nucleoplasm	6	1
+200	RHBDL1	detail/rejected/RHBDL1/RHBDL1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	652	Nucleoplasm	3	1
+200	RHEBL1	detail/rejected/RHEBL1/RHEBL1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	71	Nuclear speckles	3	1
+200	RIMKLA	detail/rejected/RIMKLA/RIMKLA-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	252	Nuclear bodies|Nucleoplasm	3	1
+200	RIMKLB	detail/rejected/RIMKLB/RIMKLB-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	416	Nucleoplasm	6	1
+200	RIMS3	detail/rejected/RIMS3/RIMS3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	68	Nucleoli|Nucleoplasm	3	1
+201	RINL	detail/rejected/RINL/RINL-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	414	Nucleoplasm	3	1
+201	RIOX1	detail/rejected/RIOX1/RIOX1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	104	Nucleoplasm	3	1
+201	RIPOR3	detail/rejected/RIPOR3/RIPOR3-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	653	Nucleoplasm	3	1
+201	RIPPLY2	detail/rejected/RIPPLY2/RIPPLY2-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	418	Nucleoli|Nucleoplasm	4	1
+201	RIPPLY3	detail/rejected/RIPPLY3/RIPPLY3-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	419	Nuclear speckles	3	1
+202	RIT2	detail/rejected/RIT2/RIT2-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	947	Nucleoplasm	6	1
+202	RMC1	detail/rejected/RMC1/RMC1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	189	Nucleoplasm	6	1
+202	RMND5A	detail/rejected/RMND5A/RMND5A-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	516	Nuclear bodies	3	1
+202	RMP24	detail/rejected/RMP24/RMP24-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	517	Nucleoli	3	1
+202	RMP64	detail/rejected/RMP64/RMP64-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	491	Nucleoplasm	3	1
+203	ROGDI	detail/rejected/ROGDI/ROGDI-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1069	Nucleoplasm	6	1
+203	ROPN1L	detail/rejected/ROPN1L/ROPN1L-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	561	Nucleoplasm	6	1
+203	RSPH1	detail/rejected/RSPH1/RSPH1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1368		3	1
+203	RSRC1	detail/rejected/RSRC1/RSRC1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1322		3	1
+203	RSRC2	detail/rejected/RSRC2/RSRC2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1246	Nucleoplasm	4	1
+204	RSRP1	detail/rejected/RSRP1/RSRP1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	2	Nucleoplasm	6	1
+204	RTKN	detail/rejected/RTKN/RTKN-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	783	Nuclear speckles|Nucleoplasm	4	1
+204	RTKN2	detail/rejected/RTKN2/RTKN2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1282	Nucleoplasm	6	1
+204	RTL5	detail/rejected/RTL5/RTL5-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	69	Nuclear speckles	3	1
+204	RTL6	detail/rejected/RTL6/RTL6-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	70	Nucleoplasm	3	1
+205	RTN1	detail/rejected/RTN1/RTN1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	903	Nucleoplasm	3	1
+205	RTRAF	detail/rejected/RTRAF/RTRAF-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	482	Nucleoli|Nucleoplasm	3	1
+205	RUFY2	detail/rejected/RUFY2/RUFY2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1369	Nuclear speckles|Nucleoplasm	6	1
+205	RWDD3	detail/rejected/RWDD3/RWDD3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1222	Nucleoplasm	3	1
+205	Rhox13	detail/rejected/Rhox13/Rhox13-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	651	Nucleoplasm	3	1
+206	SACK1A	detail/rejected/SACK1A/SACK1A-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	89	Nucleoplasm	3	1
+206	SAGE1	detail/rejected/SAGE1/SAGE1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	257		3	1
+206	SAMD10	detail/rejected/SAMD10/SAMD10-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	998	Nucleoplasm	6	1
+206	SAMD11	detail/rejected/SAMD11/SAMD11-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	437	Nucleoplasm	2	1
+206	SASH3	detail/rejected/SASH3/SASH3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	497		2	1
+207	SAXO6	detail/rejected/SAXO6/SAXO6-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	211	Nuclear speckles	6	1
+207	SBF1	detail/rejected/SBF1/SBF1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	817	Nuclear membrane|Nucleoplasm	4	1
+207	SBF2	detail/rejected/SBF2/SBF2-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1071	Nuclear bodies|Nucleoplasm	3	1
+207	SBNO1	detail/rejected/SBNO1/SBNO1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	697			1
+207	SC5D	detail/rejected/SC5D/SC5D-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1086		3	1
+208	SCAMP1	detail/rejected/SCAMP1/SCAMP1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	991	Nucleoplasm	3	1
+208	SCEL	detail/rejected/SCEL/SCEL-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	906	Nucleoplasm	3	1
+208	SCFD2	detail/rejected/SCFD2/SCFD2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	907	Nuclear bodies	3	1
+208	SCHIP1	detail/rejected/SCHIP1/SCHIP1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	90	Nuclear speckles	3	1
+208	SCRN2	detail/rejected/SCRN2/SCRN2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	654	Nuclear speckles	6	1
+209	SDCBP2	detail/rejected/SDCBP2/SDCBP2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	231	Nucleoplasm	3	1
+209	SEH1L	detail/rejected/SEH1L/SEH1L-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1370	Nucleoli|Nucleoplasm	6	1
+209	SELENOH	detail/rejected/SELENOH/SELENOH-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	91	Nucleoplasm	3	1
+209	SELENOM	detail/rejected/SELENOM/SELENOM-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	519	Nucleoplasm	3	1
+209	SENP5	detail/rejected/SENP5/SENP5-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	441	Nucleoplasm	3	1
+210	SENP7	detail/rejected/SENP7/SENP7-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	440	Nucleoplasm	3	1
+210	SENP8	detail/rejected/SENP8/SENP8-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	945	Nucleoplasm	3	1
+210	SEPHS2	detail/rejected/SEPHS2/SEPHS2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	826	Nucleoli	3	1
+210	SEPTIN10	detail/rejected/SEPTIN10/SEPTIN10-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	148	Nucleoplasm	3	1
+210	SEPTIN3	detail/rejected/SEPTIN3/SEPTIN3-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	212	Nuclear speckles	4	1
+211	SEPTIN6	detail/rejected/SEPTIN6/SEPTIN6-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	992	Nuclear bodies	3	1
+211	SEPTIN7	detail/rejected/SEPTIN7/SEPTIN7-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	527	Nucleoplasm	3	1
+211	SERF1A	detail/rejected/SERF1A/SERF1A-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	112	Nucleoli|Nucleoplasm	3	1
+211	SERF1B	detail/rejected/SERF1B/SERF1B-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	426	Nucleoplasm	3	1
+211	SERGEF	detail/rejected/SERGEF/SERGEF-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	655		3	1
+212	SERPINB10	detail/rejected/SERPINB10/SERPINB10-evaluation.md	rejected	11	194	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1177	Nucleoplasm	6	1
+212	SERPINB13	detail/rejected/SERPINB13/SERPINB13-evaluation.md	rejected	11	194	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	503			1
+212	SERPINB9	detail/rejected/SERPINB9/SERPINB9-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	839	Nuclear speckles|Nucleoplasm	6	1
+212	SERTAD2	detail/rejected/SERTAD2/SERTAD2-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	422	Nucleoli|Nucleoli fibrillar center	3	1
+212	SERTAD3	detail/rejected/SERTAD3/SERTAD3-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	20	Nucleoplasm	4	1
+213	SERTAD4	detail/rejected/SERTAD4/SERTAD4-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	993	Nucleoplasm	3	1
+213	SFT2D1	detail/rejected/SFT2D1/SFT2D1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	169	Nucleoli|Nucleoplasm	4	1
+213	SGK2	detail/rejected/SGK2/SGK2-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	785	Nuclear bodies|Nuclear membrane|Nucleoplasm	6	1
+213	SGSM2	detail/rejected/SGSM2/SGSM2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1284	Nucleoli|Nucleoli fibrillar center|Nucleoplasm	3	1
+213	SGTB	detail/rejected/SGTB/SGTB-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	146	Nucleoplasm	3	1
+214	SHFL	detail/rejected/SHFL/SHFL-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	92	Nucleoli|Nucleoplasm	3	1
+214	SHISA2	detail/rejected/SHISA2/SHISA2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1072			1
+214	SHISA6	detail/rejected/SHISA6/SHISA6-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1283	Nucleoli|Nucleoplasm	3	1
+214	SHLD2	detail/rejected/SHLD2/SHLD2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	994	Nucleoplasm	3	1
+214	SHLD3	detail/rejected/SHLD3/SHLD3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	953	Nucleoplasm	4	1
+215	SHOC1	detail/rejected/SHOC1/SHOC1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	185	Nucleoplasm	6	1
+215	SHPK	detail/rejected/SHPK/SHPK-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1144	Nuclear speckles	3	1
+215	SHROOM4	detail/rejected/SHROOM4/SHROOM4-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	828	Nucleoplasm	3	1
+215	SHTN1	detail/rejected/SHTN1/SHTN1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1159	Nucleoplasm	3	1
+215	SIGIRR	detail/rejected/SIGIRR/SIGIRR-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1170	Nucleoplasm	6	1
+216	SIGLEC15	detail/rejected/SIGLEC15/SIGLEC15-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1224	Nucleoplasm	3	1
+216	SIRAL1	detail/rejected/SIRAL1/SIRAL1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	179		3	1
+216	SIVA1	detail/rejected/SIVA1/SIVA1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	484	Nucleoplasm	6	1
+216	SKA3	detail/rejected/SKA3/SKA3-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1285		3	1
+216	SKAP1	detail/rejected/SKAP1/SKAP1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	433	Nucleoplasm	4	1
+217	SKAP2	detail/rejected/SKAP2/SKAP2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	493	Nucleoplasm	3	1
+217	SKIDA1	detail/rejected/SKIDA1/SKIDA1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1073	Nucleoplasm	6	1
+217	SKOR1	detail/rejected/SKOR1/SKOR1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	657	Nuclear bodies|Nucleoplasm	6	1
+217	SLF2	detail/rejected/SLF2/SLF2-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	786	Nucleoplasm	3	1
+217	SLFN14	detail/rejected/SLFN14/SLFN14-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	421	Nuclear bodies	3	1
+218	SLX1B	detail/rejected/SLX1B/SLX1B-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	439	Nucleoplasm	3	1
+218	SLX9	detail/rejected/SLX9/SLX9-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1145	Nucleoli	2	1
+218	SMCR8	detail/rejected/SMCR8/SMCR8-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	787	Kinetochore|Nucleoli	3	1
+218	SMPD4	detail/rejected/SMPD4/SMPD4-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1225	Nucleoplasm	6	1
+218	SMTN	detail/rejected/SMTN/SMTN-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	427	Nucleoplasm	3	1
+219	SMTNL1	detail/rejected/SMTNL1/SMTNL1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	658	Nucleoplasm	6	1
+219	SNF8	detail/rejected/SNF8/SNF8-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1074			1
+219	SNTB2	detail/rejected/SNTB2/SNTB2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	668	Nuclear bodies|Nucleoplasm	6	1
+219	SNTG1	detail/rejected/SNTG1/SNTG1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	941			1
+219	SOCS5	detail/rejected/SOCS5/SOCS5-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	824	Nuclear membrane|Nucleoplasm	3	1
+220	SPACA9	detail/rejected/SPACA9/SPACA9-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	93	Nucleoplasm	3	1
+220	SPAG7	detail/rejected/SPAG7/SPAG7-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1371	Nucleoplasm	6	1
+220	SPAG8	detail/rejected/SPAG8/SPAG8-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	119	Nucleoli|Nucleoplasm	3	1
+220	SPANXA1	detail/rejected/SPANXA1/SPANXA1-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	106	Nucleoplasm	3	1
+220	SPANXA2	detail/rejected/SPANXA2/SPANXA2-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1016		3	1
+221	SPANXB1	detail/rejected/SPANXB1/SPANXB1-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	908	Nucleoli|Nucleoplasm	3	1
+221	SPANXD	detail/rejected/SPANXD/SPANXD-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	428		3	1
+221	SPATA13	detail/rejected/SPATA13/SPATA13-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	996	Nucleoplasm	3	1
+221	SPATA18	detail/rejected/SPATA18/SPATA18-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	788	Nuclear speckles	3	1
+221	SPATA2	detail/rejected/SPATA2/SPATA2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	909	Nucleoplasm	3	1
+222	SPATA22	detail/rejected/SPATA22/SPATA22-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	432	Nucleoplasm	5	1
+222	SPATA31H1	detail/rejected/SPATA31H1/SPATA31H1-evaluation.md	rejected	11	194	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	105	Nucleoplasm	3	1
+222	SPATS2L	detail/rejected/SPATS2L/SPATS2L-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1075			1
+222	SPDYA	detail/rejected/SPDYA/SPDYA-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	926	Nucleoplasm	3	1
+222	SPEF2	detail/rejected/SPEF2/SPEF2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	431	Nucleoplasm	3	1
+223	SPG11	detail/rejected/SPG11/SPG11-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	171	Nucleoplasm	3	1
+223	SPIDR	detail/rejected/SPIDR/SPIDR-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	420	Nucleoplasm	3	1
+223	SPIN2A	detail/rejected/SPIN2A/SPIN2A-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	72	Nucleoplasm	3	1
+223	SPIN3	detail/rejected/SPIN3/SPIN3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	790	Chromosome|Mitotic chromosome|Nucleoli|Nucleoli rim|Nucleoplasm	3	1
+223	SPIN4	detail/rejected/SPIN4/SPIN4-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1146	Nuclear speckles	3	1
+224	SPMAP2	detail/rejected/SPMAP2/SPMAP2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	201	Nucleoplasm	3	1
+224	SPOPL	detail/rejected/SPOPL/SPOPL-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	429	Nucleoli|Nucleoli rim|Nucleoplasm	6	1
+224	SPOUT1	detail/rejected/SPOUT1/SPOUT1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	659	Nuclear bodies|Nucleoplasm	6	1
+224	SPRR4	detail/rejected/SPRR4/SPRR4-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	995	Nucleoplasm	3	1
+224	SPRTN	detail/rejected/SPRTN/SPRTN-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1236	Nucleoplasm	4	1
+225	SPRY3	detail/rejected/SPRY3/SPRY3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	910	Nuclear bodies|Nucleoplasm	3	1
+225	SPSB3	detail/rejected/SPSB3/SPSB3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	50	Nucleoplasm	3	1
+225	SPTBN4	detail/rejected/SPTBN4/SPTBN4-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	430	Nucleoli|Nucleoplasm	3	1
+225	SPTY2D1	detail/rejected/SPTY2D1/SPTY2D1-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1394	Nuclear bodies	6	1
+225	SPZ1	detail/rejected/SPZ1/SPZ1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	789	Nucleoplasm	3	1
+226	SRP19	detail/rejected/SRP19/SRP19-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	656	Nucleoplasm	4	1
+226	SS18L1	detail/rejected/SS18L1/SS18L1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	434	Nuclear membrane|Nucleoplasm	6	1
+226	SS18L2	detail/rejected/SS18L2/SS18L2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	911	Nucleoplasm	3	1
+226	SSH3	detail/rejected/SSH3/SSH3-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	424	Nucleoli|Nucleoli fibrillar center	3	1
+226	SSNA1	detail/rejected/SSNA1/SSNA1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	152	Nucleoplasm	6	1
+227	SSX2IP	detail/rejected/SSX2IP/SSX2IP-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	660	Nucleoplasm	6	1
+227	SSX4	detail/rejected/SSX4/SSX4-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	661	Nucleoplasm	6	1
+227	ST6GAL2	detail/rejected/ST6GAL2/ST6GAL2-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	435	Nucleoli|Nucleoli fibrillar center|Nucleoplasm	3	1
+227	ST6GALNAC1	detail/rejected/ST6GALNAC1/ST6GALNAC1-evaluation.md	rejected	11	196	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1226	Nuclear bodies|Nucleoplasm	6	1
+227	ST6GALNAC3	detail/rejected/ST6GALNAC3/ST6GALNAC3-evaluation.md	rejected	11	196	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	436	Nucleoplasm	4	1
+228	STAM2	detail/rejected/STAM2/STAM2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	423	Nucleoli|Nucleoli fibrillar center|Nucleoplasm	3	1
+228	STAP1	detail/rejected/STAP1/STAP1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	111	Nucleoli|Nucleoplasm	3	1
+228	STARD3	detail/rejected/STARD3/STARD3-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	818	Nucleoplasm	3	1
+228	STEAP3	detail/rejected/STEAP3/STEAP3-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	997	Nucleoplasm	6	1
+228	STEEP1	detail/rejected/STEEP1/STEEP1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	74	Nucleoplasm	3	1
+229	STON2	detail/rejected/STON2/STON2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	143			1
+229	STOX1	detail/rejected/STOX1/STOX1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1076	Nuclear speckles	6	1
+229	STRADA	detail/rejected/STRADA/STRADA-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	662		3	1
+229	STRN	detail/rejected/STRN/STRN-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	438	Nucleoplasm	3	1
+229	STX12	detail/rejected/STX12/STX12-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	666	Nucleoplasm	6	1
+230	STX3	detail/rejected/STX3/STX3-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	792	Nuclear membrane|Nucleoplasm	3	1
+230	STX5	detail/rejected/STX5/STX5-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	827	Nucleoplasm	3	1
+230	STX6	detail/rejected/STX6/STX6-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	667	Nucleoli|Nucleoplasm	6	1
+230	STYK1	detail/rejected/STYK1/STYK1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1223	Nucleoli|Nucleoplasm	4	1
+230	STYXL2	detail/rejected/STYXL2/STYXL2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	483		3	1
+231	SUCO	detail/rejected/SUCO/SUCO-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	208	Nucleoplasm	6	1
+231	SULT1E1	detail/rejected/SULT1E1/SULT1E1-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1227	Nucleoplasm	3	1
+231	SUN3	detail/rejected/SUN3/SUN3-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1070	Nucleoplasm	4	1
+231	SUN5	detail/rejected/SUN5/SUN5-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	784	Nucleoplasm	6	1
+231	SUPT20H	detail/rejected/SUPT20H/SUPT20H-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	713	Nucleoplasm	3	1
+232	SURF2	detail/rejected/SURF2/SURF2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	912	Chromosome|Mitotic chromosome|Nucleoli|Nucleoli rim	3	1
+232	SURF6	detail/rejected/SURF6/SURF6-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	663		3	1
+232	SV2C	detail/rejected/SV2C/SV2C-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1000	Nucleoplasm	3	1
+232	SYAP1	detail/rejected/SYAP1/SYAP1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	791	Nucleoplasm	6	1
+232	SYCE3	detail/rejected/SYCE3/SYCE3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	664		3	1
+233	SYCP1	detail/rejected/SYCP1/SYCP1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1314		3	1
+233	SYCP2	detail/rejected/SYCP2/SYCP2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1102		3	1
+233	SYDE1	detail/rejected/SYDE1/SYDE1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	999	Nucleoplasm	3	1
+233	SYDE2	detail/rejected/SYDE2/SYDE2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	442	Nuclear speckles|Nucleoplasm	4	1
+233	SYNE2	detail/rejected/SYNE2/SYNE2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	922		3	1
+234	SYNE4	detail/rejected/SYNE4/SYNE4-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	492			1
+234	SYNJ1	detail/rejected/SYNJ1/SYNJ1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	443	Nucleoplasm	4	1
+234	SYNPO2	detail/rejected/SYNPO2/SYNPO2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1286	Nuclear bodies|Nucleoplasm	3	1
+234	SYTL3	detail/rejected/SYTL3/SYTL3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	665	Nucleoplasm	3	1
+234	SZT2	detail/rejected/SZT2/SZT2-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	952	Nucleoplasm	6	1
+235	Selenbp2	detail/rejected/Selenbp2/Selenbp2-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	696			1
+235	Serf1	detail/rejected/Serf1/Serf1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1160			1
+235	Serpina3g	detail/rejected/Serpina3g/Serpina3g-evaluation.md	rejected	11	194	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	950	Nucleoplasm	6	1
+235	Spin2c	detail/rejected/Spin2c/Spin2c-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	73	Nuclear membrane	3	1
+235	TAB3	detail/rejected/TAB3/TAB3-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	795	Nuclear bodies|Nucleoplasm	3	1
+236	TACC2	detail/rejected/TACC2/TACC2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1150	Nucleoplasm	3	1
+236	TADA1	detail/rejected/TADA1/TADA1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1174		3	1
+236	TAFA2	detail/rejected/TAFA2/TAFA2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	200	Nucleoplasm	3	1
+236	TALDO1	detail/rejected/TALDO1/TALDO1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	672	Nucleoplasm	4	1
+236	TAPBP	detail/rejected/TAPBP/TAPBP-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	946	Nucleoplasm	6	1
+237	TARS3	detail/rejected/TARS3/TARS3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	453	Nucleoplasm	3	1
+237	TBC1D1	detail/rejected/TBC1D1/TBC1D1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	803	Nucleoplasm	3	1
+237	TBC1D14	detail/rejected/TBC1D14/TBC1D14-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	793		3	1
+237	TBC1D2	detail/rejected/TBC1D2/TBC1D2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	687	Nuclear bodies|Nucleoplasm	4	1
+237	TBC1D22A	detail/rejected/TBC1D22A/TBC1D22A-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	445	Nucleoplasm	3	1
+238	TBC1D22B	detail/rejected/TBC1D22B/TBC1D22B-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	446	Nucleoplasm	3	1
+238	TBCA	detail/rejected/TBCA/TBCA-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1080	Nucleoplasm	3	1
+238	TBCK	detail/rejected/TBCK/TBCK-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	94	Nucleoplasm	3	1
+238	TBKBP1	detail/rejected/TBKBP1/TBKBP1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	913	Nuclear membrane|Nucleoplasm	6	1
+238	TBL1Y	detail/rejected/TBL1Y/TBL1Y-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	199	Nucleoplasm	5	1
+239	TBPL2	detail/rejected/TBPL2/TBPL2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	938	Nucleoli	5	1
+239	TBRG1	detail/rejected/TBRG1/TBRG1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	707	Nucleoplasm	6	1
+239	TBX22	detail/rejected/TBX22/TBX22-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	51	Nucleoplasm	6	1
+239	TCERG1L	detail/rejected/TCERG1L/TCERG1L-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	457	Nucleoplasm	3	1
+239	TCHHL1	detail/rejected/TCHHL1/TCHHL1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	673	Nucleoplasm	3	1
+240	TCIM	detail/rejected/TCIM/TCIM-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	242	Nucleoli	3	1
+240	TECPR2	detail/rejected/TECPR2/TECPR2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1287	Nucleoplasm	3	1
+240	TENM1	detail/rejected/TENM1/TENM1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1310	Nucleoli	6	1
+240	TENM2	detail/rejected/TENM2/TENM2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	447	Nucleoli|Nucleoli fibrillar center	3	1
+240	TENT5A	detail/rejected/TENT5A/TENT5A-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1306		2	1
+241	TENT5B	detail/rejected/TENT5B/TENT5B-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1001		3	1
+241	TEP1	detail/rejected/TEP1/TEP1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1288		2	1
+241	TERB1	detail/rejected/TERB1/TERB1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1228	Nucleoplasm	3	1
+241	TESMIN	detail/rejected/TESMIN/TESMIN-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1008		2	1
+241	TEX11	detail/rejected/TEX11/TEX11-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1017	Nucleoplasm	6	1
+242	TEX12	detail/rejected/TEX12/TEX12-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	448	Nucleoplasm	3	1
+242	TEX264	detail/rejected/TEX264/TEX264-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1147	Nucleoplasm	3	1
+242	TFAP2D	detail/rejected/TFAP2D/TFAP2D-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	919	Nucleoplasm	3	1
+242	TFDP3	detail/rejected/TFDP3/TFDP3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	238	Nucleoplasm	3	1
+242	THAP2	detail/rejected/THAP2/THAP2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1149	Nucleoplasm	3	1
+243	THAP3	detail/rejected/THAP3/THAP3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1373		3	1
+243	THAP6	detail/rejected/THAP6/THAP6-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1229	Nucleoplasm	3	1
+243	THNSL1	detail/rejected/THNSL1/THNSL1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	166	Nucleoplasm	3	1
+243	THTPA	detail/rejected/THTPA/THTPA-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	796	Nucleoplasm	3	1
+243	TIMM50	detail/rejected/TIMM50/TIMM50-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	76		3	1
+244	TJP3	detail/rejected/TJP3/TJP3-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	688	Nucleoplasm	2	1
+244	TLE5	detail/rejected/TLE5/TLE5-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	691	Nuclear bodies|Nucleoplasm	6	1
+244	TM2D2	detail/rejected/TM2D2/TM2D2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	113	Nucleoli|Nucleoplasm	3	1
+244	TM2D3	detail/rejected/TM2D3/TM2D3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	126	Nucleoli|Nucleoplasm	3	1
+244	TMC6	detail/rejected/TMC6/TMC6-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	458	Nucleoplasm	3	1
+245	TMCO5A	detail/rejected/TMCO5A/TMCO5A-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	22		3	1
+245	TMUB1	detail/rejected/TMUB1/TMUB1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1078	Nucleoli	3	1
+245	TMX4	detail/rejected/TMX4/TMX4-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	671		3	1
+245	TNFAIP1	detail/rejected/TNFAIP1/TNFAIP1-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	914	Nucleoplasm	3	1
+245	TNFAIP8L2	detail/rejected/TNFAIP8L2/TNFAIP8L2-evaluation.md	rejected	11	194	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1018	Nucleoplasm	6	1
+246	TNIP1	detail/rejected/TNIP1/TNIP1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1387	Nucleoplasm	6	1
+246	TNIP3	detail/rejected/TNIP3/TNIP3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	838		3	1
+246	TNNC2	detail/rejected/TNNC2/TNNC2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	915	Nucleoli	3	1
+246	TNP1	detail/rejected/TNP1/TNP1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	843	Nucleoli|Nucleoli fibrillar center|Nucleoplasm	6	1
+246	TNPO2	detail/rejected/TNPO2/TNPO2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	52	Nuclear membrane	4	1
+247	TOGARAM1	detail/rejected/TOGARAM1/TOGARAM1-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	262		3	1
+247	TOGARAM2	detail/rejected/TOGARAM2/TOGARAM2-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	564	Nucleoplasm	6	1
+247	TOR1AIP1	detail/rejected/TOR1AIP1/TOR1AIP1-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	538	Nuclear bodies	4	1
+247	TOR1AIP2	detail/rejected/TOR1AIP2/TOR1AIP2-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	495	Nucleoli|Nucleoplasm	3	1
+247	TP53RK	detail/rejected/TP53RK/TP53RK-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	135			1
+248	TP53TG5	detail/rejected/TP53TG5/TP53TG5-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	147	Nucleoplasm	6	1
+248	TPCN2	detail/rejected/TPCN2/TPCN2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	532			1
+248	TPPP	detail/rejected/TPPP/TPPP-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	698	Nucleoli|Nucleoplasm	6	1
+248	TPRG1	detail/rejected/TPRG1/TPRG1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	461			1
+248	TPRKB	detail/rejected/TPRKB/TPRKB-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	520	Nucleoli|Nucleoli fibrillar center|Nucleoplasm	4	1
+249	TPRN	detail/rejected/TPRN/TPRN-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	444	Nucleoplasm	4	1
+249	TRAIP	detail/rejected/TRAIP/TRAIP-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1230		3	1
+249	TRAK2	detail/rejected/TRAK2/TRAK2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	455	Nucleoli|Nucleoli fibrillar center	3	1
+249	TRAPPC13	detail/rejected/TRAPPC13/TRAPPC13-evaluation.md	rejected	11	192	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	456		3	1
+249	TRIM35	detail/rejected/TRIM35/TRIM35-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	53	Nucleoplasm	3	1
+250	TRIM41	detail/rejected/TRIM41/TRIM41-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	459	Nucleoli|Nucleoplasm	3	1
+250	TRIM45	detail/rejected/TRIM45/TRIM45-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1151		3	1
+250	TRIM52	detail/rejected/TRIM52/TRIM52-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1079	Nucleoplasm	6	1
+250	TRIM63	detail/rejected/TRIM63/TRIM63-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1396	Nucleoli|Nucleoplasm	3	1
+250	TRIM69	detail/rejected/TRIM69/TRIM69-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	460	Nuclear bodies|Nucleoplasm	6	1
+251	TRIM7	detail/rejected/TRIM7/TRIM7-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1003	Nucleoplasm	6	1
+251	TRIOBP	detail/rejected/TRIOBP/TRIOBP-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1090			1
+251	TRIR	detail/rejected/TRIR/TRIR-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	134			1
+251	TRMT11	detail/rejected/TRMT11/TRMT11-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	512		3	1
+251	TRMT13	detail/rejected/TRMT13/TRMT13-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	136			1
+252	TRMT44	detail/rejected/TRMT44/TRMT44-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	213	Nuclear bodies|Nucleoplasm	3	1
+252	TRMT5	detail/rejected/TRMT5/TRMT5-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	943	Nucleoplasm	6	1
+252	TRNP1	detail/rejected/TRNP1/TRNP1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1077		3	1
+252	TSEN2	detail/rejected/TSEN2/TSEN2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	715	Nuclear bodies|Nucleoplasm	6	1
+252	TSNAX	detail/rejected/TSNAX/TSNAX-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	833	Nuclear bodies|Nucleoplasm	6	1
+253	TSPAN13	detail/rejected/TSPAN13/TSPAN13-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	507		3	1
+253	TSPAN2	detail/rejected/TSPAN2/TSPAN2-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	829	Nucleoli|Nucleoplasm	6	1
+253	TSPAN3	detail/rejected/TSPAN3/TSPAN3-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	450	Nucleoplasm	6	1
+253	TSPAN9	detail/rejected/TSPAN9/TSPAN9-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	508		3	1
+253	TSPY1	detail/rejected/TSPY1/TSPY1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	498			1
+254	TSPY3	detail/rejected/TSPY3/TSPY3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	75	Nucleoplasm	3	1
+254	TSPYL1	detail/rejected/TSPYL1/TSPYL1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1374		3	1
+254	TSR1	detail/rejected/TSR1/TSR1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1289		3	1
+254	TSSK1B	detail/rejected/TSSK1B/TSSK1B-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	794	Nuclear bodies|Nucleoplasm	3	1
+254	TSSK3	detail/rejected/TSSK3/TSSK3-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	449	Nucleoplasm	3	1
+255	TSSK6	detail/rejected/TSSK6/TSSK6-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	830	Nucleoplasm	3	1
+255	TTC21A	detail/rejected/TTC21A/TTC21A-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	158			1
+255	TTC27	detail/rejected/TTC27/TTC27-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	451	Nucleoplasm	2	1
+255	TTC33	detail/rejected/TTC33/TTC33-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1148			1
+255	TTC36	detail/rejected/TTC36/TTC36-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	452	Nucleoli|Nucleoli fibrillar center|Nucleoplasm	3	1
+256	TTI1	detail/rejected/TTI1/TTI1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	494			1
+256	TTLL12	detail/rejected/TTLL12/TTLL12-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	797		3	1
+256	TTLL5	detail/rejected/TTLL5/TTLL5-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1004			1
+256	TUBGCP2	detail/rejected/TUBGCP2/TUBGCP2-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	95	Nucleoplasm	4	1
+256	TUSC1	detail/rejected/TUSC1/TUSC1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	462	Nucleoli|Nucleoli rim|Nucleoplasm	6	1
+257	TXK	detail/rejected/TXK/TXK-evaluation.md	rejected	11	182	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	955	Nucleoplasm	6	1
+257	TXLNA	detail/rejected/TXLNA/TXLNA-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	714	Nucleoplasm	3	1
+257	TXLNG	detail/rejected/TXLNG/TXLNG-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	669	Kinetochore|Nuclear bodies|Nucleoplasm	6	1
+257	TXNDC9	detail/rejected/TXNDC9/TXNDC9-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1002	Nucleoplasm	6	1
+257	TXNRD3	detail/rejected/TXNRD3/TXNRD3-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	670		3	1
+258	Tex19.1	detail/rejected/Tex19.1/Tex19.1-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	196	Nucleoplasm	6	1
+258	Tnni3k	detail/rejected/Tnni3k/Tnni3k-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	454	Nuclear bodies|Nucleoplasm	3	1
+258	Trappc2	detail/rejected/Trappc2/Trappc2-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	21	Nucleoplasm	6	1
+258	Trim30a	detail/rejected/Trim30a/Trim30a-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	236	Nucleoli|Nucleoli fibrillar center	3	1
+258	U2SURP	detail/rejected/U2SURP/U2SURP-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	933	Nuclear bodies	3	1
+259	UACA	detail/rejected/UACA/UACA-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	467	Nucleoplasm	6	1
+259	UBXN1	detail/rejected/UBXN1/UBXN1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	927	Nucleoplasm	4	1
+259	UBXN2B	detail/rejected/UBXN2B/UBXN2B-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	463	Nuclear speckles|Nucleoplasm	6	1
+259	UBXN4	detail/rejected/UBXN4/UBXN4-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	464		3	1
+259	UBXN8	detail/rejected/UBXN8/UBXN8-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	563	Nucleoplasm	6	1
+260	UCKL1	detail/rejected/UCKL1/UCKL1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	466	Nucleoplasm	6	1
+260	UEVLD	detail/rejected/UEVLD/UEVLD-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	916	Nucleoplasm	3	1
+260	UFSP2	detail/rejected/UFSP2/UFSP2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1152	Nucleoplasm	6	1
+260	UIMC1	detail/rejected/UIMC1/UIMC1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	703	Nucleoplasm	4	1
+260	UPP2	detail/rejected/UPP2/UPP2-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	465	Nucleoli|Nucleoli rim|Nucleoplasm	3	1
+261	URB2	detail/rejected/URB2/URB2-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	831		3	1
+261	USHBP1	detail/rejected/USHBP1/USHBP1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	163	Nuclear bodies	6	1
+261	USO1	detail/rejected/USO1/USO1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	951		3	1
+261	UVRAG	detail/rejected/UVRAG/UVRAG-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1153	Nucleoplasm	6	1
+261	VBP1	detail/rejected/VBP1/VBP1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	468	Nuclear speckles	6	1
+262	VCF1	detail/rejected/VCF1/VCF1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	693	Nucleoplasm	6	1
+262	VCPIP1	detail/rejected/VCPIP1/VCPIP1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1231	Nucleoli|Nucleoli fibrillar center|Nucleoplasm	6	1
+262	VPS13D	detail/rejected/VPS13D/VPS13D-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1005	Nucleoplasm	3	1
+262	VPS25	detail/rejected/VPS25/VPS25-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	917	Nucleoli|Nucleoli rim|Nucleoplasm	6	1
+262	VPS36	detail/rejected/VPS36/VPS36-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1233	Nucleoplasm	6	1
+263	VPS37A	detail/rejected/VPS37A/VPS37A-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	469	Nucleoli|Nucleoplasm	3	1
+263	VPS51	detail/rejected/VPS51/VPS51-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1028	Nucleoplasm	4	1
+263	VPS54	detail/rejected/VPS54/VPS54-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	547		3	1
+263	VPS9D1	detail/rejected/VPS9D1/VPS9D1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	470	Nucleoplasm	6	1
+263	VRK3	detail/rejected/VRK3/VRK3-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1290	Nucleoplasm	3	1
+264	VSIG10L	detail/rejected/VSIG10L/VSIG10L-evaluation.md	rejected	11	190	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	674	Nucleoplasm	3	1
+264	WAS	detail/rejected/WAS/WAS-evaluation.md	rejected	11	182	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	240	Nucleoplasm	4	1
+264	WASHC4	detail/rejected/WASHC4/WASHC4-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	23			1
+264	WASL	detail/rejected/WASL/WASL-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	810		3	1
+264	WBP1L	detail/rejected/WBP1L/WBP1L-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	678	Nucleoli|Nucleoli fibrillar center	3	1
+265	WBP2	detail/rejected/WBP2/WBP2-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	477	Nucleoplasm	3	1
+265	WDR11	detail/rejected/WDR11/WDR11-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1313		3	1
+265	WDR12	detail/rejected/WDR12/WDR12-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1173	Nucleoplasm	6	1
+265	WDR13	detail/rejected/WDR13/WDR13-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1291	Nucleoplasm	2	1
+265	WDR17	detail/rejected/WDR17/WDR17-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	675	Nucleoplasm	6	1
+266	WDR19	detail/rejected/WDR19/WDR19-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	471	Nucleoplasm	6	1
+266	WDR20	detail/rejected/WDR20/WDR20-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1081	Nuclear speckles|Nucleoplasm	6	1
+266	WDR36	detail/rejected/WDR36/WDR36-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	923	Nucleoli|Nucleoplasm	3	1
+266	WDR45B	detail/rejected/WDR45B/WDR45B-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	472	Nucleoplasm	6	1
+266	WDR46	detail/rejected/WDR46/WDR46-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1091		3	1
+267	WDR48	detail/rejected/WDR48/WDR48-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	473	Nucleoplasm	3	1
+267	WDR49	detail/rejected/WDR49/WDR49-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	474	Nucleoplasm	3	1
+267	WDR7	detail/rejected/WDR7/WDR7-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1154	Nucleoplasm	6	1
+267	WDR75	detail/rejected/WDR75/WDR75-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	120	Nucleoli|Nucleoplasm	3	1
+267	WDR83	detail/rejected/WDR83/WDR83-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1375	Nucleoplasm	6	1
+268	WDSUB1	detail/rejected/WDSUB1/WDSUB1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	475	Nucleoli|Nucleoli fibrillar center	3	1
+268	WEE2	detail/rejected/WEE2/WEE2-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1232	Nucleoplasm	4	1
+268	WIPI1	detail/rejected/WIPI1/WIPI1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	815	Nucleoplasm	3	1
+268	WSCD2	detail/rejected/WSCD2/WSCD2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	476	Nuclear speckles|Nucleoplasm	3	1
+268	XAGE1A	detail/rejected/XAGE1A/XAGE1A-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	77	Nucleoli|Nucleoplasm	6	1
+269	XIRP1	detail/rejected/XIRP1/XIRP1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1006	Nuclear membrane|Nucleoli|Nucleoplasm	6	1
+269	XIRP2	detail/rejected/XIRP2/XIRP2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	798		3	1
+269	XPOT	detail/rejected/XPOT/XPOT-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	115	Nucleoli|Nucleoplasm	3	1
+269	XRCC2	detail/rejected/XRCC2/XRCC2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1083		3	1
+269	YAE1	detail/rejected/YAE1/YAE1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1011	Nucleoplasm	3	1
+270	YARS1	detail/rejected/YARS1/YARS1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	101		3	1
+270	YIPF1	detail/rejected/YIPF1/YIPF1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	24			1
+270	YIPF5	detail/rejected/YIPF5/YIPF5-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	676	Nuclear membrane|Nucleoplasm	4	1
+270	YLPM1	detail/rejected/YLPM1/YLPM1-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1084		2	1
+270	YPEL2	detail/rejected/YPEL2/YPEL2-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	478	Nucleoplasm	6	1
+271	YPEL5	detail/rejected/YPEL5/YPEL5-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	1382	Nucleoplasm	3	1
+271	YWHAQ	detail/rejected/YWHAQ/YWHAQ-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	225		3	1
+271	YY1AP1	detail/rejected/YY1AP1/YY1AP1-evaluation.md	rejected	11	188	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	799	Nucleoplasm	3	1
+271	ZNG1A	detail/rejected/ZNG1A/ZNG1A-evaluation.md	rejected	11	186	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	26	Nuclear bodies|Nucleoplasm	3	1
+271	Zng1	detail/rejected/Zng1/Zng1-evaluation.md	rejected	11	184	CRITICAL	THIN,SHORT_REJECTED	重新pa一下	25	Nucleoli|Nucleoplasm	3	1
+272	ABCA13	detail/rejected/ABCA13/ABCA13-evaluation.md	rejected	11	162	CRITICAL	THIN,SHORT_REJECTED,PACKET_ERROR	?	?	?	?	2
+272	ABCA17	detail/rejected/ABCA17/ABCA17-evaluation.md	rejected	11	162	CRITICAL	THIN,SHORT_REJECTED,PACKET_ERROR	?	?	?	?	2
+272	ABCA2	detail/rejected/ABCA2/ABCA2-evaluation.md	rejected	11	160	CRITICAL	THIN,SHORT_REJECTED,PACKET_ERROR	?	?	?	?	2
+272	ABCA3	detail/rejected/ABCA3/ABCA3-evaluation.md	rejected	11	160	CRITICAL	THIN,SHORT_REJECTED,PACKET_ERROR	?	?	?	?	2
+272	BCLAF1	detail/rejected/BCLAF1/BCLAF1-evaluation.md	rejected	24	558	CRITICAL	THIN	Sheet1	178		3	2

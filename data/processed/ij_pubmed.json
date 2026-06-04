@@ -1,0 +1,82 @@
+{
+  "ICE1": {
+    "count": 196,
+    "pmids": []
+  },
+  "ICE2": {
+    "count": 26,
+    "pmids": []
+  },
+  "IER2": {
+    "count": 50,
+    "pmids": []
+  },
+  "IER5": {
+    "count": 42,
+    "pmids": []
+  },
+  "IFI35": {
+    "count": 76,
+    "pmids": []
+  },
+  "IFRD2": {
+    "count": 11,
+    "pmids": []
+  },
+  "IHO1": {
+    "count": 11,
+    "pmids": []
+  },
+  "ILF2": {
+    "count": 123,
+    "pmids": []
+  },
+  "IPMK": {
+    "count": 104,
+    "pmids": []
+  },
+  "IRX1": {
+    "count": 117,
+    "pmids": []
+  },
+  "IRX2": {
+    "count": 73,
+    "pmids": []
+  },
+  "IRX4": {
+    "count": 66,
+    "pmids": []
+  },
+  "IRX5": {
+    "count": 111,
+    "pmids": []
+  },
+  "IRX6": {
+    "count": 22,
+    "pmids": []
+  },
+  "ISG20L2": {
+    "count": 7,
+    "pmids": []
+  },
+  "ISX": {
+    "count": 64,
+    "pmids": []
+  },
+  "IVNS1ABP": {
+    "count": 7,
+    "pmids": []
+  },
+  "IWS1": {
+    "count": 38,
+    "pmids": []
+  },
+  "JADE1": {
+    "count": -1,
+    "pmids": []
+  },
+  "JADE2": {
+    "count": 11,
+    "pmids": []
+  }
+}

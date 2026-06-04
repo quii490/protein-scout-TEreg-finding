@@ -1,0 +1,6 @@
+gene	path	status	category	error_type	error_message	likely_origin	was_in_recovery_master_queue	was_modified_in_parallel_recovery	is_pre_existing	is_newly_introduced	is_validator_rule_conflict	needs_report_fix	needs_validator_exception	needs_manual_review	recommended_action	reason
+SUMMARY	N/A	N/A	N/A	missing_IF_embed	1394 occurrences	PRE_EXISTING_BEFORE_RECOVERY	N/A	N/A	True	False	True	True	False	False	FIX_REPORT	Majority pre-existing from gen_all_180.py
+SUMMARY	N/A	N/A	N/A	score_formula_mismatch	436 occurrences	PRE_EXISTING_BEFORE_RECOVERY	N/A	N/A	True	False	True	True	False	False	FIX_REPORT	Majority pre-existing from gen_all_180.py
+SUMMARY	N/A	N/A	N/A	missing_PAE	178 occurrences	PRE_EXISTING_BEFORE_RECOVERY	N/A	N/A	True	False	True	True	False	False	FIX_REPORT	Majority pre-existing from gen_all_180.py
+SUMMARY	N/A	N/A	N/A	other	54 occurrences	PRE_EXISTING_BEFORE_RECOVERY	N/A	N/A	True	False	True	True	False	False	FIX_REPORT	Majority pre-existing from gen_all_180.py
+SUMMARY	N/A	N/A	N/A	nuclear<=3_bypass	12 occurrences	PRE_EXISTING_BEFORE_RECOVERY	N/A	N/A	True	False	True	True	False	False	FIX_REPORT	Majority pre-existing from gen_all_180.py

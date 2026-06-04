@@ -1,0 +1,3207 @@
+{
+  "source_sheet": "研究很多",
+  "total_sheet_genes": 800,
+  "missing_count": 800,
+  "genes": [
+    {
+      "gene": "DNPH1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "OGFOD2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "OGFOD3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FSAF1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "NT5DC1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ABRACL",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ANP32D",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ACBD6",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ACYP1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ACYP2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "AP5S1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "AP5Z1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ADPRH",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "AARSD1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ALG1L2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "NPEPL1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "AMMECR1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "AMMECR1L",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ANAPC15",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ANAPC16",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ANKAR",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ANKDD1A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ASB10",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ASB13",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ANKRD16",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ANKRD20A1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ANKRD29",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ANKRD30A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ANKRD33",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ANKRD36C",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ANKRD39",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ANKRD40",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ANKRD42",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ANKRD44",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ANKRD49",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ANKRD50",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ANKRD61",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ANKRD62",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ANKRD65",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ANKRD7",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ANXA2R",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "APOBEC3A_B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "APOL6",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "AQP7B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ARB2A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "AMZ2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ARFIP1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ARL17A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ARL17B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ACAP3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "AVPI1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ARMC2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ASPDH",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ATXN7L1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ATXN7L2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ATXN8",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ATOSA",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ATOSB",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ARID3C",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ATG4C",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "BANF2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "BBOF1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "BLZF1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "BIVM",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "BBIP1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "BEND6",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "BEND7",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "BICDL1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "BOD1L2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "BMERB1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "BOLA2B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "BRICD5",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "BLTP3A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "BTBD10",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "BTBD16",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "BTBD6",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "BTBD8",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "BTBD9",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C2CD2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CACHD1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CLXN",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CABYR",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CAPSL",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CALML4",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CALML6",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CAMKMT",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PKIG",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CSNK2A3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CABLES1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CRPPA",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CEACAM19",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CDIP1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CNTLN",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CENPL",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CENPV",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CEP162",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CEP164",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CEP19",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CEP63",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CEP68",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CEP76",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CEP85",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CERCAM",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CHCT1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CBY1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CBY3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CLIC2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CDY1B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CDY2B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C1orf159",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C1orf162",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C1orf216",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C1orf94",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C10orf62",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C11orf21",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C11orf42",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C11orf71",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C11orf96",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C12orf57",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C12orf60",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C15orf39",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C15orf40",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C16orf46",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C16orf87",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C17orf100",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C17orf107",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C17orf50",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C18orf32",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C19orf33",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C19orf44",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C19orf53",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C19orf67",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C19orf73",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C2orf42",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C2orf49",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C2orf68",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C2orf72",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C2orf78",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C2orf81",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C20orf173",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C22orf31",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C3orf38",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C4orf33",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C4orf54",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C5orf22",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C5orf24",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C8orf33",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C8orf74",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C8orf82",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C9orf152",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C9orf153",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C9orf40",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C9orf85",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CXorf58",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CIMIP2C",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CIMIP6",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CPLANE2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CMTM1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CLBA1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CLHC1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CLDND2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CC2D2B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCDC102A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCDC106",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCDC107",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCDC125",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCDC13",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCDC138",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCDC149",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCDC150",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCDC152",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCDC171",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCDC175",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCDC18",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCDC181",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCDC183",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCDC188",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCDC24",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCDC27",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCDC34",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCDC63",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCDC69",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCDC7",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCDC71",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCDC74B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCDC87",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCDC89",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CCSER2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "COMMD6",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "COMMD8",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "COMMD9",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CTXN1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CRYBG2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CTDNEP1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CTDSPL2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CTTNBP2NL",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CNBD2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CNGA4",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CYSRT1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CYB5RL",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CPHXL",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CPHXL2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DALRD3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DCPH1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DCUN1D3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DCUN1D5",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DAZ1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DAZ4",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DPCD",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DCANP1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DENND1C",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DCAKD",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DERPC",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DESI1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DGCR6",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DGCR6L",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DPH7",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DPH6",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DISP2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DIPK1A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DIPK1B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DMRTC1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DMRTC1B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DOP1A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DOP1B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DUX1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DUX3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DUX5",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DPY19L2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DCTN4",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DYNC2I2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DNAAF4",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DNAAF6",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DNAAF9",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DNAL1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DYNLT4",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DBNDD1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DBNDD2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ENTPD7",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "EEF1AKMT2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "EEIG2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "EFCAB12",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "EFCAB14",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "EFCAB5",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "EFHB",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ELAC1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ELMOD2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "EBLN2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ERLN",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ENTREP2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "EVPLL",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "EID2B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "EPM2A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "EPHX3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "EDRF1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ESPNL",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "EEIG1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ERFL",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ETV3L",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "EEF1B2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "EVA1B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "EXOC6B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAXC",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM161B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM110A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM117A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM117B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM124A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM13C",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM131A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM131C",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM135A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM135B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM163B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM169A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM171B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM174C",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM178B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM181A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM186B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM193B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM199X",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM204A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM209A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM209B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM217B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM219B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM220A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM227A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM227B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM228A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM229B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM234A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM240C",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM47E",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM53B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM76A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM76B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM89A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM9A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM9B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM9C",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM90A1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM90A10",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM90A11",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM90A12",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM90A13",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM90A14",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM90A15",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM90A16",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM90A17",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM90A18",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM90A19",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM90A20",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM90A22",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM90A23",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM90A24",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM90A26",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM90A3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM90A5",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM90A7",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM90A8",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM90A9",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FAM91A1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FEZ2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FBXL17",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FBXL18",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FBXL6",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FBXW10",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FBH1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FBXO27",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FBXO36",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FBXO48",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FCHSD1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FCHO1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FEM1C",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FRMD4B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FRMD7",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FDXACB1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FHIP2A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FHIP2B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FBLL1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FSBP",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FNDC11",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FBRSL1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FSIP1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FIRRM",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FKBP15",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FOXD4L3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FNBP4",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FRG2B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FRG2C",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "GAL3ST1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "GAL3ST4",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "GTSF1L",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "GCFC2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "GMIP",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "GMCL2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "GHDC",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "GIPC3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "GMFB",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "GLMN",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "GLCCI1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "GCNT7",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ERICH2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ERICH4",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ERICH5",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ERICH6",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "QRICH2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "GLTPD2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "GINM1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "GARIN1B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "GARIN3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "GPN3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "GRAMD2B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "GCHFR",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "GARNL3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "GIMAP2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "GUCD1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "GVQW3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "H4C7",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "HDHD3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "HARBI1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "HAUS7",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "HS1BP3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "HEATR3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "HSBP1L1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "HERC4",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "HECTD2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "HECTD4",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "HMGB4",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "HINT3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "HROB",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "HUS1B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "HYDIN",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "HYKK",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "INSYN1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "INPP4A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "IFFO1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "IFFO2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "IQCE",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "IQCF3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ISOC2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ITPRID1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "JMJD7",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "JPT2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "KPNA3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "KATNA1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "KATNIP",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "KATNBL1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "KAZN",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "KLHDC10",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "KLHDC2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "KLHDC9",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "KLHL11",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "KLHL15",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "KLHL2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "KLHL20",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "KLHL22",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "KLHL32",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "KLHL35",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "KLHL38",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "KLHL42",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "KLHL8",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "KBTBD2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "KBTBD6",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "KBTBD7",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "KIAA0930",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "KIAA1143",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "KIAA1191",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "KIAA1328",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "KIAA1549L",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "KIAA1586",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "KIAA1614",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "KIAA1755",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "KLRG2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "KRI1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "LACTBL1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "LMNTD1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "LANCL2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "LBHD1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "LRP12",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "LCA5L",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "LURAP1L",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "LRMDA",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "LRRC14",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "LRRC14B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "LRRC2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "LRRC20",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "LRRC23",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "LRRC27",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "LRRC28",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "LRRC40",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "LRRC41",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "LRRC42",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "LRRC46",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "LRRC61",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "LRRC75A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "LRRC75B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "LRRC9",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "LRRN3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "LRRN4",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "LRIT3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "LRRIQ3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "LZIC",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "LEKR1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "LENG1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "LINS1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "LONRF3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "LDLRAD1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "LRRN4CL",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "LYRM1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "LYRM4",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "KRCC1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "KNOP1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "MAB21L3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "MACO1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "MROH6",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "MROH8",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "MAGEA9B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "MAGEB17",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "MEA1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "MAMDC4",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "MANBAL",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "MBIP",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "MAP7D2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "MAP7D3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "MCRIP2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "M1AP",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "MEIOB",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "MS4A14",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "MBLAC1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "METTL23",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "METTL25B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "MATCAP1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "MATCAP2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "MID1IP1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "MZT2B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "MORN1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "MORN3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "MRNIP",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "MSL3B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "MTCL3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "MFHAS1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "MCTP2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "MVB12A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "MYORG",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "NACAD",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "NAALADL2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "NAT9",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "NDUFA9",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "NDOR1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "NBPF4",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "NBPF6",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "NPHP3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "NSMAF",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "NFILZ",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "NHSL2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "NIBAN2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "NICN1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "NEK8",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "NMRAL1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "NTAN1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "NECAB1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "NTAQ1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "NTMT2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "NKPD1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "NUBP2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "NEMP2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "NUGGC",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "NUPR2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "NUDCD1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "NUTM2D",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "NUTM2E",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "NUTM2F",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "NUTM2G",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "OOEP",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "OBI1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "OAF",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "OSGIN2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PACRGL",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PCED1A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PDZD9",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PDZRN3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PCNX1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PELI3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PPIL6",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PTRHD1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PCNP",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FARSB",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PITPNA",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PLPPR2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PLSCR4",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PRTFDC1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PIH1D2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PTTG2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PLAC8L1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PLEKHG1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PLEKHG2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PLEKHA2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PHLDB1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PHLDB3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PNMA8A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "POC1B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "POF1B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PAPOLB",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PMFBP1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PBDC1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "KCTD11",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "KCTD6",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PRAC2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PRELID2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PRELID3B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PRODH2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PRR13",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PRR19",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PRR22",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PRR23A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PRR23B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PRR23C",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PRR29",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PRR36",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PRRT3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PRRT4",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PROCA1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "POFUT4",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "POGLUT3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PP2D1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PSKH2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PCMTD1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PCMTD2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PRR23E",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PTOV1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PTTG1IP",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "R3HCC1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "R3HCC1L",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "R3HDM2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "R3HDM4",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "RILPL1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "RAB24",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "RAB3GAP1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "RIMOC1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "RHNO1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "RSPH14",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "RALGAPA1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "RASL11A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "RITA1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "RCBTB1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "RMI2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "RIMS4",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "REDIC1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "RIIAD1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "RERGL",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "RFPL1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "RFPL2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "RFPL3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "RFPL4A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "RETREG3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "RHCE",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "RHPN1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "RIBC1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "RXYLT1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "RAMACL",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "RUSC1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "RUNDC1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "RUSF1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "RWDD1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "S100Z",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SANBR",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SACK1G",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SCARF2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SEL1L2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SEPTIN12",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SEPTIN5",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "STYX",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SERTAD1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SAAL1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SHISA5",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SDR39U1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SIRPB2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SMKR1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SMTNL2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SCNM1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SOWAHB",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SPANXC",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SPANXN2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SPANXN3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SPANXN4",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SPATA31F1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SYNE3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "STPG1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SPATA12",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SPATA17",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SPATA2L",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SPATA24",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SPATA33",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SPATA4",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SPATA45",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SPATA46",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SPATS1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SATL1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "STPG4",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SPIN2B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SPRYD3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SPRYD4",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SSUH2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SSX2B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SSX3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SSX4B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SSX5",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SSX7",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ST6GALNAC4",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SAXO4",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "STARD9",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "STRADB",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SAMD15",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SRARP",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SLX1A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SULT1B1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SUSD1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "SYCP2L",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "STX1B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TC2N",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TNKS1BP1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TAS2R5",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TATDN1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TATDN2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TATDN3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TTBK1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TBC1D10C",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TBC1D12",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TBC1D19",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TBC1D28",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TBC1D9B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TCP10L",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TCP11L2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TGDS",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TERB2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TESK2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TDRP",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TEX261",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TEX52",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TEX55",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TEX9",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TSPY10",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TSPY2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TSPY4",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TSPY8",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TSPY9",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TSPAN31",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TSPAN32",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TTC12",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TTC13",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TTC24",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TTC31",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TTC32",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TTC39C",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TTC5",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TTC9",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TTC9B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TTC9C",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TEX13C",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TSTD1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TSTD2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "THSD7B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TLCD4",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TM2D1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TOR1B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TOR4A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TRAK1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TRAPPC12",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TCEANC",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TCEANC2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TCF24",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TMA7B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TSNAXIP1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TMCO6",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TMC8",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TMTC1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TMPPE",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TKFC",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TRIM49D1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TRIM49D2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TRIM60",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TRIM61",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TRIM65",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TRIM51",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TRIM51G",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TPP2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TRMT10B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TRMT9B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TRMO",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TSEN15",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TSEN34",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TYW1B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TMOD2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TYSND1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TSPYL6",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TSACC",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TUBD1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TEDC1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TEDC2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TTLL2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "TTLL9",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "UMAD1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "UFC1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "URGCP",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "UBTFL1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "URI1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "UCK1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "VEZT",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "VWA3B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "VWA5B2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "VOPP1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "VPS33A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "VSIG2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "WDCP",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "WDR18",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "WDR25",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "WDR27",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "WDR31",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "WDR37",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "WDR41",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "WDR74",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "WDR86",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "WDR88",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "WSCD1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "XAGE1B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "XAGE5",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "XRRA1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "XNDC1N",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "YPEL1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "YPEL3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ZNRF2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ZNG1B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ZNG1C",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ZNG1E",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ZNG1F",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ZYG11A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ZAR1L",
+      "source_sheet": "研究很多"
+    }
+  ]
+}

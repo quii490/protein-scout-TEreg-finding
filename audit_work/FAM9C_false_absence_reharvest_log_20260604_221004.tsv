@@ -1,0 +1,5 @@
+gene	source	query	success	evidence_found	result_summary	error	note
+FAM9C	UniProt	FAM9C	True	True	Q8IZT9 - Nucleus ECO:0000269	None	Reharvest
+FAM9C	HPA	FAM9C	True	False	No subcellular data	None	ok=True but empty
+FAM9C	PubMed	FAM9C	True	False	strict=0	None	-
+FAM9C	STRING	FAM9C	True	False	0 partners	None	-

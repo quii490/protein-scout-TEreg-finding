@@ -1,0 +1,5103 @@
+{
+  "source_sheet": "重新pa一下",
+  "total_sheet_genes": 1281,
+  "missing_count": 1274,
+  "genes": [
+    {
+      "gene": "RSRP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ARK2N",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BCLAF3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BLTP3B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BABAM2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CENPO",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "C1orf226",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CIMAP1D",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DSEL",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ENTREP3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FAM241B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GARIN5A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LHFPL6",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LIAT1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "OSBPL11",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PRAC1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PUDP",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SERTAD3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TMCO5A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "WASHC4",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "YIPF1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ZNG1A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BPNT2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "AAMDC",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ANKMY2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "APLF",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CADPS2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CAMLG",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "C1orf35",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "C21orf58",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CCDC61",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CPNE2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ERGIC1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LGALSL",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "HDDC2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LRATD2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MAGEA10",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MAGEA9",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MDFI",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NAA11",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NIF3L1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NTMT1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "OTULINL",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "R3HDM1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SPSB3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TBX22",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TNPO2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ABITRAM",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ANAPC4",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "C14orf39",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "C8orf34",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CMSS1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "COMMD5",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DYNLL2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FOXL3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GARIN1A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "KASH5",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MORN2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PIGX",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PLAAT5",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RIMS3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RTL5",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RTL6",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RHEBL1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SPIN2A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "STEEP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TSPY3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TIMM50",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "XAGE1A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ANAPC11",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ANKRD12",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BET1L",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BMP2K",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BABAM1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CRADD",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "C22orf23",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "EEF1AKMT3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FKBPL",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MCRIP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SACK1A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SCHIP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SELENOH",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SHFL",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SPACA9",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TBCK",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TUBGCP2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CIAO2B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ECPAS",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MINDY1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "POU2AF3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "POGLUT2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "YARS1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FAM120C",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PBOV1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SPATA31H1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SPANXA1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DCUN1D4",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ETNK1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "KLHL25",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "OSBPL1A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "STAP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SERF1A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TM2D2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CENPW",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "XPOT",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GASK1B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PAGE3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PIMREG",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SPAG8",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "WDR75",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DBF4B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GPALPP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "HEATR1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "HCFC1R1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TM2D3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ADPRM",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ANKS1A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CCDC83",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LRRC73",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LRATD1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PRAG1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PTGR3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TRIR",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TP53RK",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TRMT13",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BNIP2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NHSL3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CHTF8",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CRYZL1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "INPP5J",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PAGE1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "STON2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MGAT5B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MRFAP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SGTB",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TP53TG5",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SEPTIN10",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FOXD4L4",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "INAVA",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SSNA1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "AGTPBP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ARL6",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GFUS",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GRHPR",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "OSBPL7",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TTC21A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "C1orf21",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FBXW10B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MFSD8",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "C6orf89",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "USHBP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "AP3B1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GFPT1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "THNSL1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "OAZ2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SFT2D1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "C1orf146",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SPG11",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MIF4GD",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MPHOSPH6",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MAGIX",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CMPK1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ABTB3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ARFIP2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FICD",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SIRAL1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "C11orf58",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LPXN",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NOC3L",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FOXD4L1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "KIAA0040",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SHOC1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BACC1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LARS1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RAB6C",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RMC1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ERGIC2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MPLKIP",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ANKRD54",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GLRX2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CCDC62",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CRYBG1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DNAAF2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "N4BP2L2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TBL1Y",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TAFA2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SPMAP2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MAPDA",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PLAAT1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "POFUT3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CERT1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PNRC1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CCDC110",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SUCO",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ASZ1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FAM120B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SAXO6",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SEPTIN3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TRMT44",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CIRSR",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PLPP6",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LYPLA2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LYPLA1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NCKIPSD",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "JPT1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DENND2C",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "C1orf174",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "AP5B1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "YWHAQ",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CABCOCO1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CETN1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MAP9",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NFATC2IP",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FERRY3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SDCBP2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LUZP4",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NUBP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PYDC2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PABIR3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TFDP3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ISYNA1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "WAS",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CARD8",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TCIM",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "HEATR5B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CCDC169",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FSD2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ERICH3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LYSMD1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "KYAT3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PWWP3A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PABIR2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PERM1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RIMKLA",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CNTNAP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FAM133A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CDPF1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CEP70",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SAGE1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "C3orf62",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "B4GALNT4",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GMPR2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MEAK7",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TOGARAM1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "HACL1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BPNT1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "OPLAH",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ACBD4",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ADAM33",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "AAGAB",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "AMDHD1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ABTB2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ANKFN1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ANKRD36",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ANKRD36B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ANXA9",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ARL14EP",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ARMC8",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "AFMID",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ATXN3L",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ATXN7L3B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "AUP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BBS9",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BTF3L4",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BSPRY",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BCAS3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BLMH",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BOLA2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BRME1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BTBD18",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CAMK2N2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CHST2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CASKIN1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CEP350",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CHMP1B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CHPF2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "C6orf52",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "C7orf25",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "C8orf48",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CMTM3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CMIP",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CCDC88B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CCDC112",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CCDC122",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CCDC159",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CCDC77",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CCDC85B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CCDC91",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CNEP1R1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CDADC1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CYB5D1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CIAO2A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DTD1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DCUN1D2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DAZ3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DGKE",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DHDH",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DISP3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "HELB",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DTWD2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DYNC1I1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DRC1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "EIPR1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "EFCC1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "EFCAB6",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ELMOD1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ENOPH1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "EVC2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FAM20B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FAM124B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FAM177A1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FAM186A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FAM219A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FAM53A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FRMD4A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FNDC3A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FKBP14",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FHAD1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FOXD4",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GLB1L2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GMPPA",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GMCL1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GMFG",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ERICH1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GORAB",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GON7",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GARRE1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GAREM1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GSKIP",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "HAUS2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "HS6ST3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "HERPUD2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "HEXD",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "HORMAD2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "HSD17B6",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "IER5L",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "IGFN1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ILRUN",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "INKA2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "INPP5E",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "IQSEC3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "IQUB",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "IQCK",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "JRKL",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "KLHDC7A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "KLHL17",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "KLHL18",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "KIAA0408",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "KXD1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LGSN",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LKAAEAR1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LONRF2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LYSMD2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MIOS",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MFAP3L",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MIIP",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MOSPD1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MLIP",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MKLN1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MYRIP",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MTMR7",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NAT16",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NPTXR",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NYAP2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NHLRC2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NHSL1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NARF",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "OXNAD1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "OSBPL10",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PDZD7",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PM20D2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PRXL2B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PRPSAP2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PHYHIP",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PIERCE1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PLEKHG4B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PLEKHA8",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PLK5",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PAOX",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "KCTD9",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PRR32",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PRR35",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PRKX",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RAB3IP",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RINL",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RASL11B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RIMKLB",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RFESD",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RIPPLY2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RIPPLY3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SLFN14",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SERTAD2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "STAM2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SSH3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SERF1B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SMTN",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SPANXD",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SPOPL",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SPTBN4",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SPEF2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SPATA22",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SKAP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SS18L1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ST6GAL2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ST6GALNAC3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SAMD11",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "STRN",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SLX1B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SENP7",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SYDE2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SYNJ1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TPRN",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TBC1D22A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TBC1D22B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TENM2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TEX12",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TSSK3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TSPAN3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TTC27",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TTC36",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TARS3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TRAK2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TRAPPC13",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TCERG1L",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TMC6",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TPRG1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TUSC1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "UPP2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "VBP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "VPS37A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "VPS9D1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "WDR19",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "WDR45B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "WDR48",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "WDR49",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "WDSUB1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "WSCD2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "WBP2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "YPEL2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ANKRD37",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MAGEA2B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RTRAF",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "STYXL2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SIVA1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CCDC141",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DDRGK1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DTWD1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "EEFSEC",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GRINA",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "HELQ",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RMP64",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SYNE4",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SKAP2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TTI1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TOR1AIP2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SASH3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TSPY1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BICRAL",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MKKS",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NSMCE3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SERPINB13",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "APBA1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NCLN",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "REXO5",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TSPAN13",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TSPAN9",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ANAPC5",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ANKRD34B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GALNT5",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TRMT11",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MAGEC1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "KPNA1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PBXIP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RMP24",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "HDGFL3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SELENOM",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TPRKB",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MAMSTR",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FAM161A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MACIR",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ADPRHL1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ASRGL1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ODR4",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SEPTIN7",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ANAPC13",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ANGEL2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NEXMIF",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NMRK1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TPCN2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LGALS13",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PASD1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "HEMK2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "KALRN",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TOR1AIP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "JADE3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BICRA",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "COQ7",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FBXW2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DIAPH2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "KLHL7",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ANAPC10",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GOSR2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "VPS54",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "OGFR",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "HDDC3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ASCL3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MTPN",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "POPDC3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NT5C3A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MYOZ2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MAGEC2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ANKS4B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MAGEH1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GIPC1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ROPN1L",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MPPE1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "UBXN8",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TOGARAM2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NT5C1B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ABRAXAS1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ABLIM3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "APBB3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ANKEF1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ASB7",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ANKS3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ANKS6",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ANKRD30B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ARMCX5",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BEND4",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BROX",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BTBD1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "C2CD3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CAPS2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CHST7",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CMYA5",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CTNNBIP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CD1E",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CERS3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "C19orf47",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "F8A2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CCDC148",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CCDC74A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CCDC9B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CRYL1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CTPS2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CUEDC2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DAPL1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DLGAP4",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DMWD",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DMXL1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DOLK",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DCTN5",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "EFCAB13",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "EME2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FAM110C",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FAM168A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FAM222B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FBXO16",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FBXO3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FBXO31",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FBXO34",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FBXO41",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FBLIM1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FLYWCH2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GCNT4",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GCC2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "HECW1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "HGH1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "HIGD1A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "IMPA2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LRRC10B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LRRC58",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LUZP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LHFPL2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "METTL21A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "METTL21C",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "METTL22",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MIS18A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MPHOSPH9",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MEGF9",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MTMR8",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NACA2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NBPF3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NEDD1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NBEAL1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NEK10",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NEK5",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NME8",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NHEJ1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PCYT1A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PLCD4",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PLPP4",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PLEKHO2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PSORS1C1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "P2RX6",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PYROXD1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RALGAPB",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RASAL3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RHBDL1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RIPOR3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SCRN2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SERGEF",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SRP19",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SKOR1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SMTNL1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SPOUT1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SSX2IP",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SSX4",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "STRADA",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SURF6",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SYCE3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SYTL3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "STX12",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "STX6",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SNTB2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TXLNG",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TXNRD3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TMX4",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TALDO1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TCHHL1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "VSIG10L",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "WDR17",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "YIPF5",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "AGBL5",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "WBP1L",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ANAPC7",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "C1orf52",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CYRIA",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FBXO33",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MAGEA11",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PLEK",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "IQCB1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "C6orf163",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TBC1D2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TJP3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NGDN",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NQO2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TLE5",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MRPL44",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "VCF1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LGALS14",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "POU6F2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SBNO1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TPPP",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FA2H",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MMS19",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FKBP3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "OAZ3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "UIMC1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CTPS1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MRGBP",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TBRG1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LPIN3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PLPP7",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GPS1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RDH14",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SUPT20H",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TXLNA",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TSEN2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LGALS12",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "INPP5K",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LRIF1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LRRC47",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "C10orf90",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "AGPAT4",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ACOXL",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "AKIRIN1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ALG8",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "AMDHD2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ANKRD23",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ANKRA2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ARFGAP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ASAP3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ATG2A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BLVRB",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BTNL9",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CHST1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CHMP4B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "C8orf58",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CMTM8",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CNTNAP5",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CAND2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CWF19L1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CINP",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CNTD1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CYYR1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CRIP3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CYB5R2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DCTPP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DDI2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DENND4B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "EID2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ECT2L",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FAM107B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FAM50B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FAM78A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FAM98C",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FOXL2NB",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FRA10AC1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FYB1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GGT7",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GPN1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GRAP2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "HDGFL1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "HIRIP3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "HRCT1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "HPF1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "KRTCAP3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LMCD1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MBTPS2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MS4A12",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MTUS1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MAST3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MYBPH",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NFU1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NIPAL3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NABP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "OSBPL3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PLCZ1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PCLO",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "KCTD14",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "POMT2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PHTF2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RTKN",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SUN5",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SGK2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SLF2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SPATA18",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SPZ1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SPIN3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SYAP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "STX3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TBC1D14",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TSSK1B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TAB3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "THTPA",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TTLL12",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "XIRP2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "YY1AP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CACNA2D3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GGT5",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "QTGAL",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TBC1D1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "B9D1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BRK1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "IQSEC1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LMTK2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NLE1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "QTMAN",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "WASL",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DERA",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NSMCE4A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LMTK3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GALNT10",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "WIPI1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RAB34",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SBF1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "STARD3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GNL2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LGALS2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LTO1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NSMCE1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PAAF1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SOCS5",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CERKL",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SEPHS2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "STX5",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SHROOM4",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TSPAN2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TSSK6",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "URB2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DCTN6",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TSNAX",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MAP1S",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FBRS",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NABP2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MYOZ1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TNIP3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SERPINB9",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "OSER1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CASD1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CACUL1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TNP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MAD2L1BP",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "KIDINS220",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "JMY",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "JHY",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NVL",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ALKBH6",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ANXA13",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "APIP",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "AGAP2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BICD2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BEGAIN",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BTBD3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CIB1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CLMN",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CEP57",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "C11orf68",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "C8orf76",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CCDC39",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CCDC117",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CKAP5",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DAZAP2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DDA1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DNAAF5",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ELFN2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FBXL2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FBXO10",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FBXO46",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FBXO8",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GAB3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "HAUS6",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "HERC6",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "HABP4",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ITPKC",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ITGB1BP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "KLLN",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "KANK1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MAN1C1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MIDN",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MINDY2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MYG1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NCKAP5",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "N4BP3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NFKBIL1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "OSTM1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "OVCA2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PCID2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PLEKHA1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GALNT12",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PRICKLE2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PRR12",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PRR14L",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PRM3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PCP4L1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RTN1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RAX2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RAI14",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SCEL",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SCFD2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SPANXB1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SPATA2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SPRY3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SS18L2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SURF2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TBKBP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TNFAIP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TNNC2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "UEVLD",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "VPS25",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PCLAF",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TFAP2D",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CPNE3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PCBD1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SYNE2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "WDR36",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DLG3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RALGDS",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SPDYA",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "UBXN1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NAPEPLD",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PAGR1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NOPCHAP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NADK",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "U2SURP",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CIAO1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "HCFC2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DCUN1D1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ITGB3BP",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ERAP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SNTG1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TRMT5",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PADI1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SENP8",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TAPBP",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RIT2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MAGED2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "KLHL41",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "USO1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SZT2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SHLD3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PAPSS1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MGAT4B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BEND5",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CEP112",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CHN2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "C6orf141",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "COPG1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DEXI",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "EEPD1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "EPN3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FAM181B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FAM193A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FAM98B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GCNA",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GCNT1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LRCH1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LNP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LIMD2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MEIOSIN",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MAJIN",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MRI1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MAD2L2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MSANTD3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "OTUD6B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PXMP4",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PHF3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PWWP2B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PYHIN1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RERG",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SCAMP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SEPTIN6",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SERTAD4",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SHLD2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SPRR4",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SPATA13",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "STEAP3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SAMD10",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SYDE1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SV2C",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TENT5B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TXNDC9",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TTLL5",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "VPS13D",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "XIRP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LDB2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TESMIN",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DACT3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "EPB41",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "YAE1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FAM107A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RBPJL",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CBLC",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SPANXA2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TEX11",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TNFAIP8L2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DIAPH3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PLPPR3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CC2D1B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FBXO5",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DLGAP5",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RASD1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MAD1L1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PRKRIP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CHMP2A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "VPS51",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NMRK2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ACP4",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "AHCYL2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ALKBH2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ATOX1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ATG10",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BRI3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CPED1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "COTL1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "COG3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CWF19L2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CIAPIN1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DEF8",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "EML3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ELFN1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FAM133B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FAM81A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FRAT2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GGA1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "HEXIM2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "HSD3B2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "JKAMP",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LRP10",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LCMT1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LDB3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LIMD1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MIER2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MIER3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NAV2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NRBF2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PDLIM4",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PHPT1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PLSCR2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PRPS2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GALNT6",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "KCTD19",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PPM1B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PHTF1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RCBTB2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ROGDI",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SUN3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SBF2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SHISA2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SKIDA1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SNF8",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SPATS2L",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "STOX1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TRNP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TMUB1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TBCA",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "WDR20",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "YLPM1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PLOD1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SC5D",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "C2CD4B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "METAP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NUTM2A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TRIOBP",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "WDR46",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DEPDC1B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NOM1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DOCK1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "HAPSTR1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DEGS2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CNDP2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GABARAPL2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BOD1L1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CHTF18",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DLG4",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SYCP2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CYTIP",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PANO1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "HDX",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ARMCX4",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BIRC7",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BRCC3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CDV3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CEP20",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CCT8",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CCDC12",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CCDC28A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CCDC97",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "COMMD4",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DOCK4",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DTX3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ERP29",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "EID1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FAM13B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FAM131B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FADS3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GNL3L",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GDPD3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GET4",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "HAPSTR2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "KPNA7",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LRRC34",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LIMK2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MON2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MPND",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MSANTD4",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NANP",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NKIRAS2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PATL2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PHYHD1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PJA1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PRR11",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PNRC2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RCCD1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SHPK",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SPIN4",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TEX264",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TTC33",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "THAP2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TACC2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "UVRAG",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "WDR7",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ASCL5",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "EAPP",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "EPN1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PSRC1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SHTN1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GRK3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ADAT3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GALNT14",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ANAPC2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PLAA",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DGKA",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NOS1AP",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SIGIRR",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NAA30",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "KIAA1217",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TADA1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "KPNA6",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "COPRS",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SERPINB10",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CREBZF",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ARID4A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GK5",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ANGEL1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "AGFG1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BOD1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BRPF3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CARF",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CEPT1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CCHCR1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DEDD2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DNTTIP2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ENDOV",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ERI3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FBXO44",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FUT9",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FKTN",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GBX1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GBP3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "INIP",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "KNSTRN",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LRRC59",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LTC4S",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LPIN2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MOCS2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MYRFL",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MTMR10",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "N4BP2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NAV3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NME7",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PELI1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PIH1D1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PKP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PKP3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PAFAH1B2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GALNT17",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "KCTD20",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PRRG1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RWDD3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "STYK1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SIGLEC15",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SMPD4",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ST6GALNAC1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SULT1E1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TERB1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "THAP6",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "VCPIP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "VPS36",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BEAN1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NCBP3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SPRTN",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "POU2AF2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FERMT2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BLCAP",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NXN",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "AOPEP",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RSRC2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BAG5",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BCDIN3D",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BEX4",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CBR3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "C10orf71",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CCDC8",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DLK2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "EVI5",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ETAA1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FAM114A1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FAR2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FBXO25",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FBXO7",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FIGN",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FKBP6",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ILDR2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "KLHL23",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MNS1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MIDEAS",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MSANTD1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MYPN",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NUAK2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NAIF1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NRIP2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PITPNC1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LHPP",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PABPC1L",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PABIR1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PRR9",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PURG",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RABL6",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RFNG",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RTKN2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SHISA6",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SGSM2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SKA3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SYNPO2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TECPR2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TEP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TSR1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "WDR13",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "HSD3B1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "C2CD4A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DACT1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NAA40",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LAGE3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MOB1A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NSRP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ABRAXAS2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CACNA1D",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "AKIP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CCDC59",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TENT5A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CES3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CENPS",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DYNLL1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TENM1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PADI3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ANKS1B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "WDR11",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SYCP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "IBTK",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FILIP1L",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ANXA5",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ALG14",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ANKRD10",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ANXA11",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RSRC1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "BCL7C",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CHRAC1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "C19orf84",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CGNL1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CCER1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CMAS",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DIMT1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DAAM2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DCLRE1B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DOC2A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "DYNLT3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "EID3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ESF1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "EXOC3L2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FAM111A",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FAM111B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FEM1B",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FOXD4L6",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FN3KRP",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GEMIN8",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "GID8",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "IGSF3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "INCA1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "IRAK1BP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "ITSN1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "KNTC1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LINGO2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LENG9",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LTA4H",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "LORICRIN",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MAB21L2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MTHFSD",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MSRB1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MLXIPL",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "MMS22L",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NCK1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NRARP",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PHOSPHO2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PACS1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PLEKHA5",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "KCTD10",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RSPH1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "RUFY2",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SEH1L",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SPAG7",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "THAP3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TSPYL1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "WDR83",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "AIRIM",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CENPQ",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "COG6",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CENPN",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NSFL1C",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "PYM1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "YPEL5",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FCF1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CRACD",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "FGF14",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CPNE1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "TNIP1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "HIKESHI",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CERS4",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "NDEL1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "SPTY2D1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CETN3",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "AMER1",
+      "source_sheet": "重新pa一下"
+    },
+    {
+      "gene": "CLINT1",
+      "source_sheet": "重新pa一下"
+    }
+  ]
+}

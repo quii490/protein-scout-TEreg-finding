@@ -1,0 +1,106 @@
+{
+  "source_sheet": "研究很多",
+  "batch_index": 3,
+  "genes": [
+    {
+      "gene": "AVPI1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ARMC2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ASPDH",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ATXN7L1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ATXN7L2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ATXN8",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ATOSA",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ATOSB",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ARID3C",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ATG4C",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "BANF2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "BBOF1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "BLZF1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "BIVM",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "BBIP1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "BEND6",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "BEND7",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "BICDL1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "BOD1L2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "BMERB1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "BOLA2B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "BRICD5",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "BLTP3A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "BTBD10",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "BTBD16",
+      "source_sheet": "研究很多"
+    }
+  ]
+}

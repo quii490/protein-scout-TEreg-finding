@@ -1,0 +1,8 @@
+query_type	query	raw_count	estimated_relevant_count	excluded_reason	representative_pmids	interpretation
+gene symbol strict	"AAAS"[Title/Abstract]	4450	0		TBD	POLLUTED
+gene+protein filter	"AAAS"[Title/Abstract] AND protein	976	976		TBD	RELEVANT
+protein name	"aladin"[Title/Abstract]	140	140		TBD	RELEVANT
+gene keyword	"AAAS gene"[Title/Abstract]	122	122		TBD	RELEVANT
+disease name	"achalasia-addisonianism-alacrima syndrome"[Title/Abstract]	10	10		TBD	RELEVANT
+AAA abbreviation	"AAA"[Title/Abstract]	19428	0	AAA pollution	TBD	POLLUTED
+AAA disease	"abdominal aortic aneurysm"[Title/Abstract]	20157	0	AAA pollution	TBD	POLLUTED

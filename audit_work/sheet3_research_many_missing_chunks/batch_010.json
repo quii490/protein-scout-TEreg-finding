@@ -1,0 +1,106 @@
+{
+  "source_sheet": "研究很多",
+  "batch_index": 10,
+  "genes": [
+    {
+      "gene": "DUX1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DUX3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DUX5",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DPY19L2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DCTN4",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DYNC2I2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DNAAF4",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DNAAF6",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DNAAF9",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DNAL1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DYNLT4",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DBNDD1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "DBNDD2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ENTPD7",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "EEF1AKMT2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "EEIG2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "EFCAB12",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "EFCAB14",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "EFCAB5",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "EFHB",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ELAC1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ELMOD2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "EBLN2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ERLN",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ENTREP2",
+      "source_sheet": "研究很多"
+    }
+  ]
+}

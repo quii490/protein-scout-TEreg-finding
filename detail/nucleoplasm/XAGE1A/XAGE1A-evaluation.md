@@ -1,0 +1,173 @@
+---
+type: protein-evaluation
+gene: "XAGE1A"
+date: 2026-06-03
+tags: [protein-scout, nuclear-protein, evaluation]
+status: scored
+---
+
+## XAGE1A 核蛋白评估报告 (Full Re-evaluation)
+
+### 1. 基本信息
+
+| 项目 | 内容 |
+|------|------|
+| 基因名 / 别名 | XAGE1A / GAGED2, XAGE1 |
+| 蛋白名称 | X antigen family member 1 |
+| 蛋白大小 | 81 aa / 9.1 kDa |
+| UniProt ID | Q9HD64 |
+| 评估日期 | 2026-06-03 |
+
+### 2. 评分总览
+
+| 维度 | 得分 | 满分 | 加权后 | 关键证据摘要 |
+|------|------|------|--------|-------------|
+| 核定位特异性 | 7/10 | ×4 | 28 | HPA: Nucleoplasm; UniProt: 无注释 |
+| 蛋白大小 | 5/10 | ×1 | 5 | 81 aa / 9.1 kDa |
+| 研究新颖性 | 10/10 | ×5 | 50 | PubMed strict=10 篇 (≤20→10) |
+| 三维结构 | 6/10 | ×3 | 18 | AlphaFold v6 pLDDT=50.6; PDB: 无 |
+| 调控结构域 | 5/10 | ×2 | 10 | 无注释结构域 |
+| PPI 网络 | 3/10 | ×3 | 9 | STRING 15 partners; IntAct 7 interactions |
+| 互证加分 | — | max +3 | 0.5 | PDB+AF+STRING+IntAct cross-validation |
+| **原始总分** | | | **120.5/180** | |
+| **归一化总分** | | | **66.9/100** | |
+
+### 3. 详细分析
+
+#### 3.1 核定位证据
+
+| 来源 | 定位 | 可信度 |
+|------|------|--------|
+| Protein Atlas (IF) | Nucleoplasm | Approved |
+| UniProt | 无注释 | Swiss-Prot/TrEMBL |
+
+**IF 图像获取**: 未下载本地IF图像（standard evaluation），核定位证据基于HPA subcellular localization注释、UniProt注释和GO-CC术语。
+
+**GO Cellular Component**:
+- 无 GO-CC 注释
+
+**结论**: 主要核定位，HPA 可靠性良好，有辅助数据源支持。
+
+#### 3.2 蛋白大小评估
+
+**评价**: 蛋白偏小/偏大，实验操作有一定难度。
+
+#### 3.3 研究现状
+
+| 指标 | 数值 |
+|------|------|
+| PubMed strict count | 10 |
+| PubMed broad count | 49 |
+| 别名(未计入scoring) | Aliases observed but not used for scoring: GAGED2, XAGE1 |
+
+**关键文献**:
+1. Serum Biomarker Panel for Rapid Early Diagnosis of Lung Cancer.. *Current cancer drug targets*. PMID: 35616661
+2. [A comprehensive analysis of potential prognostic biomarkers for MYCN-amplified neuroblastoma].. *Zhongguo dang dai er ke za zhi = Chinese journal of contemporary pediatrics*. PMID: 32204764
+3. Measurable Residual Disease Monitoring of SPAG6, ST18, PRAME, and XAGE1A Expression in Peripheral Blood May Detect Imminent Relapse in Childhood Acute Myeloid Leukemia.. *The Journal of molecular diagnostics : JMD*. PMID: 34600138
+4. Hepatocellular carcinoma patients highly and specifically expressing XAGE-1 exhibit prolonged survival.. *Oncology letters*. PMID: 22870117
+5. Identification of XAGE-1 isoforms: predominant expression of XAGE-1b in testis and tumors.. *Cancer immunity*. PMID: 17335148
+
+**评价**: 极度新颖，几乎未被系统研究（PubMed ≤20篇）。
+
+#### 3.4 三维结构分析
+
+| 指标 | 数值 |
+|------|------|
+| AlphaFold 版本 | v6 |
+| AlphaFold 平均 pLDDT | 50.6 |
+| 高置信度残基 (pLDDT>90) 占比 | 0.0% |
+| 置信残基 (pLDDT 70-90) 占比 | 0.0% |
+| 中等置信 (pLDDT 50-70) 占比 | 69.1% |
+| 低置信 (pLDDT<50) 占比 | 30.9% |
+| 有序区域 (pLDDT>70) 占比 | 0.0% |
+| 可用 PDB 条目 | 无 |
+
+**PAE**: PAE 图像未生成本地文件（standard evaluation），结构判断基于 AlphaFold pLDDT 统计。
+
+**评价**: AlphaFold 预测质量有限（pLDDT=50.6），有序残基占 0.0%。
+
+#### 3.5 结构域分析
+
+| 来源 | 结构域 |
+|------|--------|
+| InterPro/Pfam | 无注释结构域 |
+
+**染色质调控潜力分析**: 结构域注释有限，AlphaFold预测有可辨识折叠域。
+
+#### 3.6 PPI 网络
+
+**STRING 预测互作** (combined score >0.4):
+
+| Partner | Combined Score | Experimental | 功能类别 |
+|---------|---------------|--------------|---------|
+| XAGE1B | 0.999 | 0.000 | — |
+| XAGE3 | 0.947 | 0.000 | — |
+| XAGE2 | 0.923 | 0.000 | — |
+| MAGEC1 | 0.744 | 0.000 | — |
+| CTAG1B | 0.676 | 0.000 | — |
+| MAGEA1 | 0.619 | 0.000 | — |
+| CT45A1 | 0.611 | 0.000 | — |
+| GAGE2A | 0.606 | 0.000 | — |
+| GAGE1 | 0.594 | 0.000 | — |
+| ADAM29 | 0.557 | 0.000 | — |
+
+**实验验证互作** (IntAct):
+
+| Partner | 方法 | PMID |
+|---------|------|------|
+| XAGE1B | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
+| M | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | imex:IM-27674|pubmed:33208464 |
+| YY1 | psi-mi:"MI:1356"(validated two hybrid) | pubmed:32296183|imex:IM-25472 |
+| BANP | psi-mi:"MI:1356"(validated two hybrid) | imex:IM-23318|pubmed:25416956 |
+| TSPYL2 | psi-mi:"MI:1356"(validated two hybrid) | pubmed:32296183|imex:IM-25472 |
+| RYBP | psi-mi:"MI:1356"(validated two hybrid) | pubmed:32296183|imex:IM-25472 |
+| SETBP1 | psi-mi:"MI:0397"(two hybrid array) | imex:IM-23318|pubmed:25416956 |
+
+**PPI 互证分析**:
+- STRING + IntAct 均有数据
+- STRING partners: 15，IntAct interactions: 7
+- 调控相关比例: 1 / 15 = 7%
+
+**评价**: STRING 15 个预测互作，IntAct 7 个实验互作。调控相关配体占比 7%。
+
+#### 3.7 多库互证
+
+| 维度 | 来源 | 结果 | 是否一致 |
+|------|------|------|----------|
+| 三维结构 | AlphaFold pLDDT=50.6 + PDB: 无 | pLDDT=50.6, v6 | 仅预测 |
+| 定位 | UniProt + HPA | 无注释 / Nucleoplasm | 待确认 |
+| PPI | STRING + IntAct | 15 + 7 interactions | 数据充分 |
+
+**互证加分明细**:
+- PDB + AlphaFold 双源验证: +0
+- 多库定位一致: +0
+- STRING + IntAct 双源验证: +0.5
+- 结构域 + AlphaFold 质量: +0
+- PDB 多条目覆盖: +0
+**总分**: +0.5 / max +3
+
+### 4. 总体评价
+
+**推荐等级**: ⭐⭐⭐
+
+**核心优势**:
+1. XAGE1A — X antigen family member 1，极度新颖，几乎未被系统研究（PubMed ≤20篇）。
+2. 蛋白大小81 aa，蛋白偏小/偏大，实验操作有一定难度。
+
+**风险/不确定性**:
+1. PubMed 10 篇，研究基础极有限，功能注释不完整
+2. AlphaFold 预测质量一般（pLDDT=50.6），需要更多实验结构验证
+
+**下一步建议**:
+- [ ] 查阅最新关键文献补充研究背景
+- [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
+- [ ] 设计体外实验验证核定位及潜在调控功能
+
+
+### 5. 数据来源
+- UniProt: https://www.uniprot.org/uniprotkb/Q9HD64
+- Protein Atlas: https://www.proteinatlas.org/ENSG00000204379-XAGE1A/subcellular
+- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=XAGE1A
+- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9HD64
+- STRING: https://string-db.org/network/9606.ENSP00000
+- Data fetched live: 2026-06-03

@@ -1,0 +1,323 @@
+{
+  "KANSL1": {
+    "acc": "Q7Z3B3",
+    "name": "KAT8 regulatory NSL complex subunit 1",
+    "length": 1105,
+    "loc": "Nucleus; Chromosome, centromere, kinetochore; Mitochondrion; Cytoplasm, cytoskeleton, spindle pole",
+    "ev": "Nucleus(ECO:0000269,ECO:0000269); Chromosome, centromere, kinetochore(ECO:0000269); Mitochondrion(ECO:0000269); Cytoplasm, cytoskeleton, spindle pole(ECO:0000269)"
+  },
+  "KANSL2": {
+    "acc": "Q9H9L4",
+    "name": "KAT8 regulatory NSL complex subunit 2",
+    "length": 492,
+    "loc": "Nucleus; Mitochondrion",
+    "ev": "Nucleus(ECO:0000269); Mitochondrion(ECO:0000250)"
+  },
+  "KANSL3": {
+    "acc": "Q9P2N6",
+    "name": "KAT8 regulatory NSL complex subunit 3",
+    "length": 904,
+    "loc": "Nucleus; Mitochondrion; Cytoplasm, cytoskeleton, spindle pole",
+    "ev": "Nucleus(ECO:0000269,ECO:0000269); Mitochondrion(ECO:0000269); Cytoplasm, cytoskeleton, spindle pole(ECO:0000269)"
+  },
+  "KATNAL2": {
+    "acc": "Q8IYT4",
+    "name": "Katanin p60 ATPase-containing subunit A-like 2",
+    "length": 538,
+    "loc": "Cytoplasm, cytoskeleton; Cytoplasm; Cytoplasm, cytoskeleton, spindle; Cytoplasm, cytoskeleton, spindle pole",
+    "ev": "Cytoplasm, cytoskeleton(ECO:0000255); Cytoplasm(ECO:0000269); Cytoplasm, cytoskeleton, spindle(ECO:0000269); Cytoplasm, cytoskeleton, spindle pole(ECO:0000269)"
+  },
+  "KBTBD4": {
+    "acc": "Q9NVX7",
+    "name": "Kelch repeat and BTB domain-containing protein 4",
+    "length": 534,
+    "loc": "NO_LOCATION_DATA",
+    "ev": "NO_DATA"
+  },
+  "KCTD1": {
+    "acc": "Q719H9",
+    "name": "BTB/POZ domain-containing protein KCTD1",
+    "length": 257,
+    "loc": "Nucleus",
+    "ev": "Nucleus(ECO:0000269,ECO:0000269)"
+  },
+  "KCTD13": {
+    "acc": "Q8WZ19",
+    "name": "BTB/POZ domain-containing adapter for CUL3-mediated RhoA degradation protein 1",
+    "length": 329,
+    "loc": "Nucleus",
+    "ev": "Nucleus(ECO:0000269)"
+  },
+  "KCTD15": {
+    "acc": "Q96SI1",
+    "name": "BTB/POZ domain-containing protein KCTD15",
+    "length": 283,
+    "loc": "Nucleus",
+    "ev": "Nucleus(ECO:0000269)"
+  },
+  "KCTD5": {
+    "acc": "Q9NXV2",
+    "name": "BTB/POZ domain-containing protein KCTD5",
+    "length": 234,
+    "loc": "Cytoplasm, cytosol; Cytoplasm; Nucleus",
+    "ev": "Cytoplasm, cytosol(ECO:0000269); Cytoplasm(ECO:0000269); Nucleus()"
+  },
+  "KHNYN": {
+    "acc": "O15037",
+    "name": "Protein KHNYN",
+    "length": 678,
+    "loc": "NO_LOCATION_DATA",
+    "ev": "NO_DATA"
+  },
+  "KLF3": {
+    "acc": "P57682",
+    "name": "Krueppel-like factor 3",
+    "length": 345,
+    "loc": "Nucleus",
+    "ev": "Nucleus(ECO:0000305)"
+  },
+  "KLHDC3": {
+    "acc": "Q9BQ90",
+    "name": "Kelch domain-containing protein 3",
+    "length": 382,
+    "loc": "Cytoplasm",
+    "ev": "Cytoplasm(ECO:0000269)"
+  },
+  "KLHDC4": {
+    "acc": "Q8TBB5",
+    "name": "Kelch domain-containing protein 4",
+    "length": 520,
+    "loc": "NO_LOCATION_DATA",
+    "ev": "NO_DATA"
+  },
+  "KLHDC8A": {
+    "acc": "Q8IYD2",
+    "name": "Kelch domain-containing protein 8A",
+    "length": 350,
+    "loc": "NO_LOCATION_DATA",
+    "ev": "NO_DATA"
+  },
+  "KPNA4": {
+    "acc": "O00629",
+    "name": "Importin subunit alpha-3",
+    "length": 521,
+    "loc": "Cytoplasm; Nucleus",
+    "ev": "Cytoplasm(ECO:0000305,ECO:0000305); Nucleus(ECO:0000305,ECO:0000305)"
+  },
+  "KPNB1": {
+    "acc": "Q14974",
+    "name": "Importin subunit beta-1",
+    "length": 876,
+    "loc": "Cytoplasm; Nucleus envelope",
+    "ev": "Cytoplasm(ECO:0000269); Nucleus envelope(ECO:0000269)"
+  },
+  "KPTN": {
+    "acc": "Q9Y664",
+    "name": "KICSTOR complex protein kaptin",
+    "length": 436,
+    "loc": "Lysosome membrane; Cell projection, lamellipodium; Cell projection, stereocilium",
+    "ev": "Lysosome membrane(ECO:0000269); Cell projection, lamellipodium(ECO:0000269,ECO:0000269); Cell projection, stereocilium(ECO:0000250)"
+  },
+  "KTI12": {
+    "acc": "Q96EK9",
+    "name": "Protein KTI12 homolog",
+    "length": 354,
+    "loc": "NO_LOCATION_DATA",
+    "ev": "NO_DATA"
+  },
+  "LACC1": {
+    "acc": "Q8IV20",
+    "name": "Purine nucleoside phosphorylase LACC1",
+    "length": 430,
+    "loc": "Cytoplasm; Nucleus; Endoplasmic reticulum; Peroxisome",
+    "ev": "Cytoplasm(ECO:0000250); Nucleus(ECO:0000250); Endoplasmic reticulum(ECO:0000269); Peroxisome(ECO:0000269,ECO:0000269)"
+  },
+  "LAMTOR2": {
+    "acc": "Q9Y2Q5",
+    "name": "Ragulator complex protein LAMTOR2",
+    "length": 125,
+    "loc": "Late endosome membrane; Lysosome membrane",
+    "ev": "Late endosome membrane(ECO:0000250); Lysosome membrane(ECO:0000269)"
+  },
+  "LBX1": {
+    "acc": "P52954",
+    "name": "Transcription factor LBX1",
+    "length": 281,
+    "loc": "Nucleus",
+    "ev": "Nucleus(ECO:0000305)"
+  },
+  "LBX2": {
+    "acc": "Q6XYB7",
+    "name": "Transcription factor LBX2",
+    "length": 198,
+    "loc": "Nucleus",
+    "ev": "Nucleus(ECO:0000255)"
+  },
+  "LCOR": {
+    "acc": "Q96JN0",
+    "name": "Ligand-dependent corepressor",
+    "length": 433,
+    "loc": "Nucleus",
+    "ev": "Nucleus(ECO:0000255,ECO:0000269)"
+  },
+  "LCORL": {
+    "acc": "Q8N3X6",
+    "name": "Ligand-dependent nuclear receptor corepressor-like protein",
+    "length": 602,
+    "loc": "Nucleus",
+    "ev": "Nucleus(ECO:0000255)"
+  },
+  "LDOC1": {
+    "acc": "",
+    "name": "EXC",
+    "length": "",
+    "loc": "HTTPSConnectionPool(host='rest.uniprot.org', port=443): Max retries exceeded with url: /uniprotkb/O95751?format=json&fields=accession,protein_name,length,cc_subcellular_location (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))"
+  },
+  "LEMD2": {
+    "acc": "Q8NC56",
+    "name": "LEM domain-containing protein 2",
+    "length": 503,
+    "loc": "Nucleus inner membrane; Nucleus envelope; Cytoplasm, cytoskeleton, spindle",
+    "ev": "Nucleus inner membrane(ECO:0000269,ECO:0000269,ECO:0000269,ECO:0000269,ECO:0000269); Nucleus envelope(ECO:0000269); Cytoplasm, cytoskeleton, spindle(ECO:0000269)"
+  },
+  "LEMD3": {
+    "acc": "Q9Y2U8",
+    "name": "Inner nuclear membrane protein Man1",
+    "length": 911,
+    "loc": "Nucleus inner membrane",
+    "ev": "Nucleus inner membrane(ECO:0000269)"
+  },
+  "LENG8": {
+    "acc": "Q96PV6",
+    "name": "Leukocyte receptor cluster member 8",
+    "length": 800,
+    "loc": "NO_LOCATION_DATA",
+    "ev": "NO_DATA"
+  },
+  "LETMD1": {
+    "acc": "Q6P1Q0",
+    "name": "LETM1 domain-containing protein 1",
+    "length": 360,
+    "loc": "Mitochondrion outer membrane; Nucleus; Mitochondrion inner membrane",
+    "ev": "Mitochondrion outer membrane(ECO:0000269,ECO:0000269); Nucleus(ECO:0000250); Mitochondrion inner membrane(ECO:0000250)"
+  },
+  "LEUTX": {
+    "acc": "A8MZ59",
+    "name": "Paired-like homeodomain transcription factor LEUTX",
+    "length": 198,
+    "loc": "Nucleus",
+    "ev": "Nucleus(ECO:0000269)"
+  },
+  "LHX5": {
+    "acc": "Q9H2C1",
+    "name": "LIM/homeobox protein Lhx5",
+    "length": 402,
+    "loc": "Nucleus",
+    "ev": "Nucleus(ECO:0000305)"
+  },
+  "LHX9": {
+    "acc": "Q9NQ69",
+    "name": "LIM/homeobox protein Lhx9",
+    "length": 397,
+    "loc": "Nucleus",
+    "ev": "Nucleus(ECO:0000255)"
+  },
+  "LIG1": {
+    "acc": "P18858",
+    "name": "DNA ligase 1",
+    "length": 919,
+    "loc": "Nucleus",
+    "ev": "Nucleus()"
+  },
+  "LIG3": {
+    "acc": "P49916",
+    "name": "DNA ligase 3",
+    "length": 1009,
+    "loc": "Mitochondrion; Mitochondrion; Nucleus; Nucleus",
+    "ev": "Mitochondrion(ECO:0000269,ECO:0000269); Mitochondrion(ECO:0000305); Nucleus(ECO:0000269); Nucleus(ECO:0000305)"
+  },
+  "LLPH": {
+    "acc": "Q9BRT6",
+    "name": "Protein LLP homolog",
+    "length": 129,
+    "loc": "Nucleus, nucleolus; Chromosome",
+    "ev": "Nucleus, nucleolus(ECO:0000250); Chromosome(ECO:0000269)"
+  },
+  "LNPK": {
+    "acc": "Q9C0E8",
+    "name": "Endoplasmic reticulum junction formation protein lunapark",
+    "length": 428,
+    "loc": "Endoplasmic reticulum membrane",
+    "ev": "Endoplasmic reticulum membrane(ECO:0000269,ECO:0000269,ECO:0000269,ECO:0000269,ECO:0000269)"
+  },
+  "LRR1": {
+    "acc": "Q96L50",
+    "name": "Leucine-rich repeat protein 1",
+    "length": 414,
+    "loc": "Nucleus",
+    "ev": "Nucleus(ECO:0000269)"
+  },
+  "LRRC10": {
+    "acc": "Q5BKY1",
+    "name": "Leucine-rich repeat-containing protein 10",
+    "length": 277,
+    "loc": "Nucleus",
+    "ev": "Nucleus(ECO:0000250)"
+  },
+  "LRRC31": {
+    "acc": "Q6UY01",
+    "name": "Leucine-rich repeat-containing protein 31",
+    "length": 552,
+    "loc": "NO_LOCATION_DATA",
+    "ev": "NO_DATA"
+  },
+  "LRRC7": {
+    "acc": "Q96NW7",
+    "name": "Leucine-rich repeat-containing protein 7",
+    "length": 1537,
+    "loc": "Cytoplasm; Postsynaptic density",
+    "ev": "Cytoplasm(ECO:0000269); Postsynaptic density(ECO:0000250)"
+  },
+  "LRWD1": {
+    "acc": "Q9UFC0",
+    "name": "Leucine-rich repeat and WD repeat-containing protein 1",
+    "length": 647,
+    "loc": "Nucleus; Chromosome, centromere; Chromosome, telomere; Cytoplasm, cytoskeleton, microtubule organizing center, centrosome; Chromosome, centromere, kinetochore",
+    "ev": "Nucleus(ECO:0000269); Chromosome, centromere(); Chromosome, telomere(); Cytoplasm, cytoskeleton, microtubule organizing center, centrosome(ECO:0000250); Chromosome, centromere, kinetochore(ECO:0000269)"
+  },
+  "LSM8": {
+    "acc": "O95777",
+    "name": "U6 snRNA-associated Sm-like protein LSm8",
+    "length": 96,
+    "loc": "Nucleus",
+    "ev": "Nucleus(ECO:0000269,ECO:0000269,ECO:0000269)"
+  },
+  "LTV1": {
+    "acc": "Q96GA3",
+    "name": "Protein LTV1 homolog",
+    "length": 475,
+    "loc": "Cytoplasm",
+    "ev": "Cytoplasm(ECO:0000269)"
+  },
+  "LXN": {
+    "acc": "Q9BS40",
+    "name": "Latexin",
+    "length": 222,
+    "loc": "Cytoplasm",
+    "ev": "Cytoplasm(ECO:0000305)"
+  },
+  "LYAR": {
+    "acc": "Q9NX58",
+    "name": "Cell growth-regulating nucleolar protein",
+    "length": 379,
+    "loc": "Nucleus; Nucleus, nucleolus; Cytoplasm; Cell projection, cilium, photoreceptor outer segment",
+    "ev": "Nucleus(ECO:0000269,ECO:0000269); Nucleus, nucleolus(ECO:0000269,ECO:0000269); Cytoplasm(ECO:0000269); Cell projection, cilium, photoreceptor outer segment(ECO:0000250)"
+  },
+  "LYL1": {
+    "acc": "P12980",
+    "name": "Protein lyl-1",
+    "length": 280,
+    "loc": "Nucleus",
+    "ev": "Nucleus(ECO:0000255)"
+  }
+}

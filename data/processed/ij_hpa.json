@@ -1,0 +1,82 @@
+{
+  "ICE1": {
+    "has_if": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  "ICE2": {
+    "has_if": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  "IER2": {
+    "has_if": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  "IER5": {
+    "has_if": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  "IFI35": {
+    "has_if": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  "IFRD2": {
+    "has_if": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  "IHO1": {
+    "has_if": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  "ILF2": {
+    "has_if": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  "IPMK": {
+    "has_if": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  "IRX1": {
+    "has_if": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  "IRX2": {
+    "has_if": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  "IRX4": {
+    "has_if": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  "IRX5": {
+    "has_if": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  "IRX6": {
+    "has_if": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  "ISG20L2": {
+    "has_if": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  "ISX": {
+    "has_if": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  "IVNS1ABP": {
+    "has_if": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  "IWS1": {
+    "has_if": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  "JADE1": {
+    "has_if": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  "JADE2": {
+    "has_if": false,
+    "error": "HTTP Error 404: Not Found"
+  }
+}

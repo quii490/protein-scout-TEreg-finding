@@ -1,0 +1,106 @@
+{
+  "source_sheet": "研究很多",
+  "batch_index": 4,
+  "genes": [
+    {
+      "gene": "BTBD6",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "BTBD8",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "BTBD9",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "C2CD2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CACHD1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CLXN",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CABYR",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CAPSL",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CALML4",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CALML6",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CAMKMT",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PKIG",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CSNK2A3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CABLES1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CRPPA",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CEACAM19",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CDIP1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CNTLN",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CENPL",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CENPV",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CEP162",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CEP164",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CEP19",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CEP63",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "CEP68",
+      "source_sheet": "研究很多"
+    }
+  ]
+}

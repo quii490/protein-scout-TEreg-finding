@@ -1,0 +1,295 @@
+gene	path	status	score	nuclear_score	false_rejection_risk	has_packet	has_hpa	has_uniprot_go	has_pubmed	has_pdb_or_no_pdb	has_ppi	current_decision	is_true_remaining_critical	is_audit_false_positive	reason
+ABTB3	detail/rejected/ABTB3/ABTB3-evaluation.md	rejected	89	6	LOW	True	True	True	True	True	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+ACOXL	detail/rejected/ACOXL/ACOXL-evaluation.md	rejected	89	6	HIGH	True	True	True	True	True	True	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+ACP4	detail/rejected/ACP4/ACP4-evaluation.md	rejected	90	4	HIGH	True	True	True	True	True	True	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+ADIG	detail/rejected/ADIG/ADIG-evaluation.md	rejected	95	1	LOW	True	True	True	True	True	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+ADNP	detail/rejected/ADNP/ADNP-evaluation.md	rejected	119.5	1	HIGH	True	False	True	True	True	True	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+ADPRHL1	detail/rejected/ADPRHL1/ADPRHL1-evaluation.md	rejected	102	1	HIGH	True	True	True	True	True	True	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+AFMID	detail/nucleoplasm/AFMID/AFMID-evaluation.md	scored		30	LOW	True	True	True	True	True	True	scored	False	True	No true critical false-rejection signal by current heuristic
+AGPAT4	detail/rejected/AGPAT4/AGPAT4-evaluation.md	rejected	102	3	HIGH	True	True	True	True	True	True	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+AGTPBP1	detail/rejected/AGTPBP1/AGTPBP1-evaluation.md	rejected	95	3	HIGH	True	True	True	True	True	True	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+AIRIM	detail/nucleoplasm/AIRIM/AIRIM-evaluation.md	scored		30	LOW	True	True	True	True	True	True	scored	False	True	Expected rescued gene is currently scored
+AK6	detail/rejected/AK6/AK6-evaluation.md	rejected		6	HIGH	True	True	True	False	True	False	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+AKAP6	detail/rejected/AKAP6/AKAP6-evaluation.md	rejected	95	3	HIGH	True	True	True	True	True	True	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+AKIP1	detail/nucleoplasm/AKIP1/AKIP1-evaluation.md	scored		30	LOW	True	True	True	True	True	True	scored	False	True	Expected rescued gene is currently scored
+AKIRIN1	detail/nucleoplasm/AKIRIN1/AKIRIN1-evaluation.md	scored		30	LOW	True	True	True	True	True	True	scored	False	True	Expected rescued gene is currently scored
+ALKBH2	detail/nucleoplasm/ALKBH2/ALKBH2-evaluation.md	scored		30	LOW	True	True	True	True	True	True	scored	False	True	Expected rescued gene is currently scored
+ALKBH6	detail/nucleoplasm/ALKBH6/ALKBH6-evaluation.md	scored		30	LOW	True	True	True	True	True	True	scored	False	True	Expected rescued gene is currently scored
+AMDHD2	detail/rejected/AMDHD2/AMDHD2-evaluation.md	rejected	121	3	HIGH	True	True	True	True	True	True	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+ANAPC13	detail/nucleoplasm/ANAPC13/ANAPC13-evaluation.md	scored		30	LOW	True	True	True	True	True	True	scored	False	True	No true critical false-rejection signal by current heuristic
+BBLN	detail/rejected/BBLN/BBLN-evaluation.md	rejected	93.0	1	LOW	True	True	True	True	True	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+BBOF1	detail/rejected/BBOF1/BBOF1-evaluation.md	rejected	115.0	2	HIGH	True	True	True	True	True	True	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+C11orf42	detail/rejected/C11orf42/C11orf42-evaluation.md	rejected	183	11	LOW	True	True	True	True	True	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+CARMIL3	detail/rejected/CARMIL3/CARMIL3-evaluation.md	rejected	100	2	HIGH	True	True	True	True	True	True	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+CBWD3	detail/rejected/CBWD3/CBWD3-evaluation.md	rejected	115.5	3	HIGH	True	True	True	True	True	True	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+CBX3P9	detail/rejected/CBX3P9/CBX3P9-evaluation.md	rejected	99	3	HIGH	True	True	True	True	True	True	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+COX8A	detail/rejected/COX8A/COX8A-evaluation.md	rejected	106.5	2	HIGH	True	True	True	True	True	True	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+CRLS1	detail/rejected/CRLS1/CRLS1-evaluation.md	rejected	99.5	2	HIGH	True	True	True	True	True	True	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+Crxos	detail/rejected/Crxos/Crxos-evaluation.md	rejected	99	3	HIGH	True	True	True	True	True	True	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+DNAJB14	detail/rejected/DNAJB14/DNAJB14-evaluation.md	rejected	115.0	3	HIGH	True	True	True	True	True	True	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+DNAJC22	detail/rejected/DNAJC22/DNAJC22-evaluation.md	rejected	118.0	2	HIGH	True	True	True	True	True	True	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+DNM3	detail/rejected/DNM3/DNM3-evaluation.md	rejected	73	3	LOW	True	True	True	True	True	True	rejected	False	True	Expected confirmed rejected gene is currently rejected
+E2F2	detail/rejected/E2F2/E2F2-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+E2F5	detail/rejected/E2F5/E2F5-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+E2F6	detail/rejected/E2F6/E2F6-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+E2F7	detail/rejected/E2F7/E2F7-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+E2F8	detail/rejected/E2F8/E2F8-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+EAF2	detail/rejected/EAF2/EAF2-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+ECT2	detail/rejected/ECT2/ECT2-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+EEF2	detail/rejected/EEF2/EEF2-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+EGLN3	detail/rejected/EGLN3/EGLN3-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+EGR4	detail/rejected/EGR4/EGR4-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+ELK3	detail/rejected/ELK3/ELK3-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+EMG1	detail/rejected/EMG1/EMG1-evaluation.md	rejected		3	HIGH	True	True	True	True	False	False	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+EMSY	detail/rejected/EMSY/EMSY-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+EMX2	detail/rejected/EMX2/EMX2-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+EN2	detail/rejected/EN2/EN2-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+ENC1	detail/rejected/ENC1/ENC1-evaluation.md	rejected		3	HIGH	True	True	True	True	False	False	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+EPOP	detail/rejected/EPOP/EPOP-evaluation.md	rejected		3	HIGH	True	True	True	True	False	False	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+EQTN	detail/rejected/EQTN/EQTN-evaluation.md	rejected	109.5	2	HIGH	True	True	True	True	True	True	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+ERCC6L2	detail/rejected/ERCC6L2/ERCC6L2-evaluation.md	rejected		3	HIGH	True	True	True	True	False	False	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+ESCO2	detail/rejected/ESCO2/ESCO2-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+ESRRA	detail/rejected/ESRRA/ESRRA-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+ESRRG	detail/rejected/ESRRG/ESRRG-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+ESX1	detail/rejected/ESX1/ESX1-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+EVI5L	detail/rejected/EVI5L/EVI5L-evaluation.md	rejected		3	HIGH	True	True	True	True	False	False	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+FABP1	detail/rejected/FABP1/FABP1-evaluation.md	rejected		3	HIGH	True	True	True	True	False	False	rejected	False	True	Thin rejected report; likely backlog unless nuclear evidence is strong
+FABP6	detail/rejected/FABP6/FABP6-evaluation.md	rejected		3	HIGH	True	True	True	True	False	False	rejected	False	True	Thin rejected report; likely backlog unless nuclear evidence is strong
+FABP7	detail/rejected/FABP7/FABP7-evaluation.md	rejected		4	HIGH	True	True	True	True	False	False	rejected	False	True	Thin rejected report; likely backlog unless nuclear evidence is strong
+FADD	detail/rejected/FADD/FADD-evaluation.md	rejected		3	HIGH	True	True	True	True	False	False	rejected	False	True	Thin rejected report; likely backlog unless nuclear evidence is strong
+FADS2	detail/rejected/FADS2/FADS2-evaluation.md	rejected		3	HIGH	True	True	True	True	False	False	rejected	False	True	Thin rejected report; likely backlog unless nuclear evidence is strong
+FAF1	detail/rejected/FAF1/FAF1-evaluation.md	rejected		3	HIGH	True	True	True	True	False	False	rejected	False	True	Thin rejected report; likely backlog unless nuclear evidence is strong
+FAM13A	detail/rejected/FAM13A/FAM13A-evaluation.md	rejected		6	HIGH	True	True	True	True	False	False	rejected	False	True	Thin rejected report; likely backlog unless nuclear evidence is strong
+FHL2	detail/rejected/FHL2/FHL2-evaluation.md	rejected		6	HIGH	True	True	True	True	False	False	rejected	False	True	Thin rejected report; likely backlog unless nuclear evidence is strong
+FHL3	detail/rejected/FHL3/FHL3-evaluation.md	rejected		4	HIGH	True	True	True	True	False	False	rejected	False	True	Thin rejected report; likely backlog unless nuclear evidence is strong
+FIGLA	detail/rejected/FIGLA/FIGLA-evaluation.md	rejected		3	HIGH	True	True	True	True	False	False	rejected	False	True	Thin rejected report; likely backlog unless nuclear evidence is strong
+FKBP4	detail/rejected/FKBP4/FKBP4-evaluation.md	rejected		3	HIGH	True	True	True	True	False	False	rejected	False	True	Thin rejected report; likely backlog unless nuclear evidence is strong
+FKBP5	detail/rejected/FKBP5/FKBP5-evaluation.md	rejected		3	HIGH	True	True	True	True	False	False	rejected	False	True	Thin rejected report; likely backlog unless nuclear evidence is strong
+FOXC2	detail/rejected/FOXC2/FOXC2-evaluation.md	rejected		4	HIGH	True	True	True	True	False	False	rejected	False	True	Thin rejected report; likely backlog unless nuclear evidence is strong
+FOXD2	detail/rejected/FOXD2/FOXD2-evaluation.md	rejected		4	HIGH	True	True	True	True	False	False	rejected	False	True	Thin rejected report; likely backlog unless nuclear evidence is strong
+FOXE1	detail/rejected/FOXE1/FOXE1-evaluation.md	rejected		6	HIGH	True	True	True	True	False	False	rejected	False	True	Thin rejected report; likely backlog unless nuclear evidence is strong
+FOXE3	detail/rejected/FOXE3/FOXE3-evaluation.md	rejected		3	HIGH	True	True	True	True	False	False	rejected	False	True	Thin rejected report; likely backlog unless nuclear evidence is strong
+FOXF1	detail/rejected/FOXF1/FOXF1-evaluation.md	rejected		3	HIGH	True	True	True	True	False	False	rejected	False	True	Thin rejected report; likely backlog unless nuclear evidence is strong
+FOXF2	detail/rejected/FOXF2/FOXF2-evaluation.md	rejected		3	HIGH	True	True	True	True	False	False	rejected	False	True	Thin rejected report; likely backlog unless nuclear evidence is strong
+FOXH1	detail/rejected/FOXH1/FOXH1-evaluation.md	rejected		6	HIGH	True	True	True	True	False	False	rejected	False	True	Thin rejected report; likely backlog unless nuclear evidence is strong
+FOXJ1	detail/rejected/FOXJ1/FOXJ1-evaluation.md	rejected		4	HIGH	True	True	True	True	False	False	rejected	False	True	Thin rejected report; likely backlog unless nuclear evidence is strong
+FOXO4	detail/rejected/FOXO4/FOXO4-evaluation.md	rejected		6	HIGH	True	True	True	True	False	False	rejected	False	True	Thin rejected report; likely backlog unless nuclear evidence is strong
+FOXQ1	detail/rejected/FOXQ1/FOXQ1-evaluation.md	rejected		6	HIGH	True	True	True	True	False	False	rejected	False	True	Thin rejected report; likely backlog unless nuclear evidence is strong
+FSD1	detail/rejected/FSD1/FSD1-evaluation.md	rejected		3	HIGH	True	True	True	True	False	False	rejected	False	True	Thin rejected report; likely backlog unless nuclear evidence is strong
+FSTL3	detail/rejected/FSTL3/FSTL3-evaluation.md	rejected		6	HIGH	True	True	True	True	False	False	rejected	False	True	Thin rejected report; likely backlog unless nuclear evidence is strong
+FUBP1	detail/rejected/FUBP1/FUBP1-evaluation.md	rejected		4	HIGH	True	True	True	True	False	False	rejected	False	True	Thin rejected report; likely backlog unless nuclear evidence is strong
+FUT8	detail/rejected/FUT8/FUT8-evaluation.md	rejected		4	HIGH	True	True	True	True	False	False	rejected	False	True	Thin rejected report; likely backlog unless nuclear evidence is strong
+FZR1	detail/rejected/FZR1/FZR1-evaluation.md	rejected		6	HIGH	True	True	True	True	False	False	rejected	False	True	Thin rejected report; likely backlog unless nuclear evidence is strong
+GAB1	detail/rejected/GAB1/GAB1-evaluation.md	rejected		1	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+GADD45B	detail/rejected/GADD45B/GADD45B-evaluation.md	rejected		45	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+GALM	detail/rejected/GALM/GALM-evaluation.md	rejected		1	HIGH	True	True	True	True	False	False	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+GAS2	detail/rejected/GAS2/GAS2-evaluation.md	rejected		2	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+GATA5	detail/rejected/GATA5/GATA5-evaluation.md	rejected		5	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+GBP2	detail/rejected/GBP2/GBP2-evaluation.md	rejected		2	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+GBX2	detail/rejected/GBX2/GBX2-evaluation.md	rejected		2	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+GCAT	detail/rejected/GCAT/GCAT-evaluation.md	rejected		1	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+GCH1	detail/rejected/GCH1/GCH1-evaluation.md	rejected		1	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+GCLM	detail/rejected/GCLM/GCLM-evaluation.md	rejected		1	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+GCM1	detail/rejected/GCM1/GCM1-evaluation.md	rejected		1	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+GCM2	detail/rejected/GCM2/GCM2-evaluation.md	rejected		2	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+GDA	detail/rejected/GDA/GDA-evaluation.md	rejected		1	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+GEMIN2	detail/rejected/GEMIN2/GEMIN2-evaluation.md	rejected		2	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+GLO1	detail/rejected/GLO1/GLO1-evaluation.md	rejected		1	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+GPR176	detail/rejected/GPR176/GPR176-evaluation.md	rejected	99.5	2	HIGH	True	True	True	True	True	True	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+GPR78	detail/rejected/GPR78/GPR78-evaluation.md	rejected	95.0	2	HIGH	True	True	True	True	True	True	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+GPX4	detail/rejected/GPX4/GPX4-evaluation.md	rejected		4	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+GRHL3	detail/rejected/GRHL3/GRHL3-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+GSS	detail/rejected/GSS/GSS-evaluation.md	rejected		1	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+HAND1	detail/rejected/HAND1/HAND1-evaluation.md	rejected	3	1	LOW	True	True	True	True	False	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+HAS1	detail/rejected/HAS1/HAS1-evaluation.md	rejected	3	1	LOW	True	True	True	True	False	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+HBP1	detail/rejected/HBP1/HBP1-evaluation.md	rejected	3	1	LOW	True	True	True	True	False	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+HBS1L	detail/rejected/HBS1L/HBS1L-evaluation.md	rejected	3	1	LOW	True	True	True	True	False	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+HBZ	detail/rejected/HBZ/HBZ-evaluation.md	rejected	3	1	LOW	True	True	True	True	False	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+HCFC1	detail/rejected/HCFC1/HCFC1-evaluation.md	rejected	3	1	LOW	True	True	True	True	False	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+HDGF	detail/rejected/HDGF/HDGF-evaluation.md	rejected	3	1	LOW	True	True	True	True	False	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+HELLS	detail/rejected/HELLS/HELLS-evaluation.md	rejected	3	1	LOW	True	True	True	True	False	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+HES6	detail/rejected/HES6/HES6-evaluation.md	rejected	3	6	LOW	True	True	True	True	False	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+HESX1	detail/rejected/HESX1/HESX1-evaluation.md	rejected	3	1	LOW	True	True	True	True	False	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+HEXIM1	detail/rejected/HEXIM1/HEXIM1-evaluation.md	rejected	3	1	LOW	True	True	True	True	False	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+HEY1	detail/rejected/HEY1/HEY1-evaluation.md	rejected	3	1	LOW	True	True	True	True	False	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+HEY2	detail/rejected/HEY2/HEY2-evaluation.md	rejected	3	2	LOW	True	True	True	True	False	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+HHEX	detail/rejected/HHEX/HHEX-evaluation.md	rejected	3	1	LOW	True	True	True	True	False	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+HINT1	detail/rejected/HINT1/HINT1-evaluation.md	rejected	3	1	LOW	True	True	True	True	False	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+HIP1	detail/rejected/HIP1/HIP1-evaluation.md	rejected	3	1	LOW	True	True	True	True	False	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+HIPK2	detail/rejected/HIPK2/HIPK2-evaluation.md	rejected	3	2	LOW	True	True	True	True	False	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+HIPK3	detail/rejected/HIPK3/HIPK3-evaluation.md	rejected	3	3	LOW	True	True	True	True	False	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+HJURP	detail/rejected/HJURP/HJURP-evaluation.md	rejected	3	1	LOW	True	True	True	True	False	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+HMGB2	detail/rejected/HMGB2/HMGB2-evaluation.md	rejected	3	2	LOW	True	True	True	True	False	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+HMGB3	detail/rejected/HMGB3/HMGB3-evaluation.md	rejected	3	3	LOW	True	True	True	True	False	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+HMGCS1	detail/rejected/HMGCS1/HMGCS1-evaluation.md	rejected	3	1	LOW	True	True	True	True	False	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+HMGN2	detail/rejected/HMGN2/HMGN2-evaluation.md	rejected	3	2	LOW	True	True	True	True	False	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+HNMT	detail/rejected/HNMT/HNMT-evaluation.md	rejected	3	1	LOW	True	True	True	True	False	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+HPD	detail/rejected/HPD/HPD-evaluation.md	rejected	3	1	LOW	True	True	True	True	False	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+HPGD	detail/rejected/HPGD/HPGD-evaluation.md	rejected	3	1	LOW	True	True	True	True	False	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+HPGDS	detail/rejected/HPGDS/HPGDS-evaluation.md	rejected	3	1	LOW	True	True	True	True	False	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+HSBP1	detail/rejected/HSBP1/HSBP1-evaluation.md	rejected	3	1	LOW	True	True	True	True	False	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+HUS1	detail/rejected/HUS1/HUS1-evaluation.md	rejected	3	1	LOW	True	True	True	True	False	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+Hsf3	detail/rejected/Hsf3/Hsf3-evaluation.md	rejected	79	3	HIGH	True	True	True	True	True	True	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+IFI16	detail/rejected/IFI16/IFI16-evaluation.md	rejected			LOW	True	False	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+IFI44	detail/rejected/IFI44/IFI44-evaluation.md	rejected			LOW	True	False	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+IGDCC3	detail/rejected/IGDCC3/IGDCC3-evaluation.md	rejected		3	HIGH	True	False	True	True	False	False	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+IGHMBP2	detail/rejected/IGHMBP2/IGHMBP2-evaluation.md	rejected			LOW	True	False	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+ILK	detail/rejected/ILK/ILK-evaluation.md	rejected			LOW	True	False	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+INCENP	detail/rejected/INCENP/INCENP-evaluation.md	rejected			LOW	True	False	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+IRX3	detail/rejected/IRX3/IRX3-evaluation.md	rejected			LOW	True	False	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+ISG20	detail/rejected/ISG20/ISG20-evaluation.md	rejected			LOW	True	False	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+ITGA7	detail/rejected/ITGA7/ITGA7-evaluation.md	rejected		0	HIGH	True	False	True	False	False	False	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+ITGA9	detail/rejected/ITGA9/ITGA9-evaluation.md	rejected		0	HIGH	True	False	True	False	False	False	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+ITPA	detail/rejected/ITPA/ITPA-evaluation.md	rejected			LOW	True	False	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+IVL	detail/rejected/IVL/IVL-evaluation.md	rejected			LOW	True	False	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+Ifi204	detail/rejected/Ifi204/Ifi204-evaluation.md	rejected	79	3	HIGH	True	True	True	True	True	True	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+JMJD1C	detail/rejected/JMJD1C/JMJD1C-evaluation.md	rejected			LOW	True	False	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+KANSL1	detail/rejected/KANSL1/KANSL1-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+KCTD15	detail/rejected/KCTD15/KCTD15-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+KHNYN	detail/rejected/KHNYN/KHNYN-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+KHSRP	detail/rejected/KHSRP/KHSRP-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+KLF10	detail/rejected/KLF10/KLF10-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+KLF14	detail/rejected/KLF14/KLF14-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+KLF3	detail/rejected/KLF3/KLF3-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+KLF6	detail/rejected/KLF6/KLF6-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+KLRB1	detail/rejected/KLRB1/KLRB1-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+KNL1	detail/rejected/KNL1/KNL1-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+KPNB1	detail/rejected/KPNB1/KPNB1-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+KRR1	detail/rejected/KRR1/KRR1-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+LBH	detail/rejected/LBH/LBH-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+LBX1	detail/rejected/LBX1/LBX1-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+LCORL	detail/rejected/LCORL/LCORL-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+LHX9	detail/rejected/LHX9/LHX9-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+LIG3	detail/rejected/LIG3/LIG3-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+LIPA	detail/rejected/LIPA/LIPA-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+LITAF	detail/rejected/LITAF/LITAF-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+LMO4	detail/rejected/LMO4/LMO4-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+LPP	detail/rejected/LPP/LPP-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+LRRFIP1	detail/rejected/LRRFIP1/LRRFIP1-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+LYL1	detail/rejected/LYL1/LYL1-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+MACC1	detail/rejected/MACC1/MACC1-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+MAFF	detail/rejected/MAFF/MAFF-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+MAFK	detail/rejected/MAFK/MAFK-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+MAML1	detail/rejected/MAML1/MAML1-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+MAML2	detail/rejected/MAML2/MAML2-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+MAML3	detail/rejected/MAML3/MAML3-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+MKLN1	detail/nucleoplasm/MKLN1/MKLN1-evaluation.md	scored		30	LOW	True	True	True	True	True	True	scored	False	True	No true critical false-rejection signal by current heuristic
+MNDA	detail/rejected/MNDA/MNDA-evaluation.md	rejected		407	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+MRTFA	detail/rejected/MRTFA/MRTFA-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+MT1HL1	detail/rejected/MT1HL1/MT1HL1-evaluation.md	rejected	34	0	LOW	True	True	True	True	True	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+MT1L	detail/rejected/MT1L/MT1L-evaluation.md	rejected	0	0	HIGH	True	True	True	True	True	True	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+MTF1	detail/rejected/MTF1/MTF1-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+NABP1	detail/rejected/NABP1/NABP1-evaluation.md	rejected	111.5	3	HIGH	True	True	True	True	True	True	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+NAF1	detail/rejected/NAF1/NAF1-evaluation.md	rejected	60	3	LOW	True	True	True	True	True	True	rejected	False	True	Expected confirmed rejected gene is currently rejected
+NASP	detail/rejected/NASP/NASP-evaluation.md	rejected		49321	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+NCBP1	detail/rejected/NCBP1/NCBP1-evaluation.md	rejected		1	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+NCOA3	detail/rejected/NCOA3/NCOA3-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+NCOA4	detail/rejected/NCOA4/NCOA4-evaluation.md	rejected		4	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+NFE2	detail/rejected/NFE2/NFE2-evaluation.md	rejected		2	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+NFIC	detail/rejected/NFIC/NFIC-evaluation.md	rejected		08651	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+NFIL3	detail/rejected/NFIL3/NFIL3-evaluation.md	rejected		3	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+NFIX	detail/rejected/NFIX/NFIX-evaluation.md	rejected		14938	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+NFKBIA	detail/rejected/NFKBIA/NFKBIA-evaluation.md	rejected		25963	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+NFYA	detail/rejected/NFYA/NFYA-evaluation.md	rejected		23511	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+NFYB	detail/rejected/NFYB/NFYB-evaluation.md	rejected		25208	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+NFYC	detail/rejected/NFYC/NFYC-evaluation.md	rejected		13952	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+NPAT	detail/rejected/NPAT/NPAT-evaluation.md	rejected		14207	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+NSMF	detail/rejected/NSMF/NSMF-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+NUCKS1	detail/rejected/NUCKS1/NUCKS1-evaluation.md	rejected		1	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+NUMA1	detail/rejected/NUMA1/NUMA1-evaluation.md	rejected		1	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+NUPR1	detail/rejected/NUPR1/NUPR1-evaluation.md	rejected		1	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+NUSAP1	detail/rejected/NUSAP1/NUSAP1-evaluation.md	rejected		5	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+OLIG1	detail/rejected/OLIG1/OLIG1-evaluation.md	rejected		4	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+OSR1	detail/rejected/OSR1/OSR1-evaluation.md	rejected		4	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+PALB2	detail/rejected/PALB2/PALB2-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+PITX3	detail/rejected/PITX3/PITX3-evaluation.md	rejected		4	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+POU1F1	detail/rejected/POU1F1/POU1F1-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+POU2F1	detail/rejected/POU2F1/POU2F1-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+POU2F2	detail/rejected/POU2F2/POU2F2-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+POU2F3	detail/rejected/POU2F3/POU2F3-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+POU3F1	detail/rejected/POU3F1/POU3F1-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+POU3F2	detail/rejected/POU3F2/POU3F2-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+POU3F3	detail/rejected/POU3F3/POU3F3-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+POU3F4	detail/rejected/POU3F4/POU3F4-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+POU4F1	detail/rejected/POU4F1/POU4F1-evaluation.md	rejected		4	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+POU4F2	detail/rejected/POU4F2/POU4F2-evaluation.md	rejected		4	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+PRAME	detail/rejected/PRAME/PRAME-evaluation.md	rejected		78395	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+RBL1	detail/rejected/RBL1/RBL1-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+RBL2	detail/rejected/RBL2/RBL2-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+RCC1	detail/rejected/RCC1/RCC1-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+REEP3	detail/nucleoplasm/REEP3/REEP3-evaluation.md	rejected		0	LOW	True	True	True	True	True	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+REP15	detail/nucleoplasm/REP15/REP15-evaluation.md	rejected		0	LOW	True	True	True	True	True	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+RHOQ	detail/nucleoplasm/RHOQ/RHOQ-evaluation.md	rejected		0	LOW	True	True	True	True	True	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+RHPN1	detail/nucleoplasm/RHPN1/RHPN1-evaluation.md	rejected		1	LOW	True	True	True	True	True	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+RIBC1	detail/nucleoplasm/RIBC1/RIBC1-evaluation.md	rejected		0	LOW	True	True	True	True	True	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+RILPL1	detail/nucleoplasm/RILPL1/RILPL1-evaluation.md	rejected		2	LOW	True	True	True	True	True	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+RILPL2	detail/nucleoplasm/RILPL2/RILPL2-evaluation.md	rejected		1	LOW	True	True	True	True	True	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+RIPPLY2	detail/rejected/RIPPLY2/RIPPLY2-evaluation.md	rejected		3	LOW	True	True	True	True	True	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+RIT2	detail/rejected/RIT2/RIT2-evaluation.md	rejected		9	HIGH	True	True	True	True	True	True	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+RMND5A	detail/nucleoplasm/RMND5A/RMND5A-evaluation.md	scored		30	LOW	True	True	True	True	True	True	scored	False	True	No true critical false-rejection signal by current heuristic
+RNF44	detail/nucleoplasm/RNF44/RNF44-evaluation.md	rejected		2	LOW	True	True	True	True	True	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+ROGDI	detail/nucleoplasm/ROGDI/ROGDI-evaluation.md	scored		30	LOW	True	True	True	True	True	True	scored	False	True	No true critical false-rejection signal by current heuristic
+ROPN1L	detail/nucleoplasm/ROPN1L/ROPN1L-evaluation.md	scored		30	LOW	True	True	True	True	True	True	scored	False	True	No true critical false-rejection signal by current heuristic
+RPRD1A	detail/nucleoplasm/RPRD1A/RPRD1A-evaluation.md	scored		1	LOW	True	True	True	True	True	True	scored	False	True	No true critical false-rejection signal by current heuristic
+RSPH1	detail/nucleoplasm/RSPH1/RSPH1-evaluation.md	scored		30	LOW	True	True	True	True	True	True	scored	False	True	No true critical false-rejection signal by current heuristic
+RSRC2	detail/rejected/RSRC2/RSRC2-evaluation.md	rejected		5	HIGH	True	True	True	True	True	True	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+RSRP1	detail/rejected/RSRP1/RSRP1-evaluation.md	rejected		9	HIGH	True	True	True	True	True	True	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+RTKN	detail/rejected/RTKN/RTKN-evaluation.md	rejected		5	HIGH	True	True	True	True	True	True	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+RTKN2	detail/rejected/RTKN2/RTKN2-evaluation.md	rejected		5	HIGH	True	True	True	True	True	True	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+RTL5	detail/rejected/RTL5/RTL5-evaluation.md	rejected		5	HIGH	True	True	True	True	True	True	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+RTL6	detail/rejected/RTL6/RTL6-evaluation.md	rejected		5	HIGH	True	True	True	True	True	True	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+RUFY2	detail/nucleoplasm/RUFY2/RUFY2-evaluation.md	scored		30	LOW	True	True	True	True	True	True	scored	False	True	No true critical false-rejection signal by current heuristic
+RUSF1	detail/nucleoplasm/RUSF1/RUSF1-evaluation.md	rejected		1	LOW	True	True	True	True	True	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+RWDD3	detail/nucleoplasm/RWDD3/RWDD3-evaluation.md	scored		30	LOW	True	True	True	True	True	True	scored	False	True	No true critical false-rejection signal by current heuristic
+Rhox13	detail/rejected/Rhox13/Rhox13-evaluation.md	rejected		0	LOW	True	True	True	True	True	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+SACK1A	detail/rejected/SACK1A/SACK1A-evaluation.md	rejected		0	LOW	True	True	True	True	True	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+SAGE1	detail/nucleoplasm/SAGE1/SAGE1-evaluation.md	scored		30	LOW	True	True	True	True	True	True	scored	False	True	No true critical false-rejection signal by current heuristic
+SAMD10	detail/rejected/SAMD10/SAMD10-evaluation.md	rejected		5	HIGH	True	True	True	True	True	True	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+SAR1A	detail/nucleoplasm/SAR1A/SAR1A-evaluation.md	rejected		1	LOW	True	True	True	True	True	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+SASH3	detail/rejected/SASH3/SASH3-evaluation.md	rejected		5	HIGH	True	True	True	True	True	True	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+SAXO4	detail/nucleoplasm/SAXO4/SAXO4-evaluation.md	rejected		1	LOW	True	True	True	True	True	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+SAXO6	detail/rejected/SAXO6/SAXO6-evaluation.md	rejected		0	LOW	True	True	True	True	True	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+SCAMP1	detail/rejected/SCAMP1/SCAMP1-evaluation.md	rejected		3	LOW	True	True	True	True	True	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+SELENOF	detail/rejected/SELENOF/SELENOF-evaluation.md	rejected		3	HIGH	False	True	True	True	True	True	rejected	False	True	Rejected report contains nuclear evidence without clear PubMed>100/nuclear<=3 rejection basis; needs manual/deep audit, not counted as true CRITICAL in Step 1
+SEPTIN10	detail/nucleoplasm/SEPTIN10/SEPTIN10-evaluation.md	rejected		0	LOW	True	True	True	True	True	True	rejected	False	True	No true critical false-rejection signal by current heuristic
+SIM1	detail/rejected/SIM1/SIM1-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+SIM2	detail/rejected/SIM2/SIM2-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+SOX18	detail/rejected/SOX18/SOX18-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+SOX21	detail/rejected/SOX21/SOX21-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+SOX5	detail/rejected/SOX5/SOX5-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+SOX7	detail/rejected/SOX7/SOX7-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+SOX8	detail/rejected/SOX8/SOX8-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+SP110	detail/rejected/SP110/SP110-evaluation.md	rejected		110	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+SP6	detail/rejected/SP6/SP6-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+SP9	detail/rejected/SP9/SP9-evaluation.md	rejected		4	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+SPIC	detail/rejected/SPIC/SPIC-evaluation.md	rejected		4	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+SREBF1	detail/rejected/SREBF1/SREBF1-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+SREBF2	detail/rejected/SREBF2/SREBF2-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+SYNE1	detail/rejected/SYNE1/SYNE1-evaluation.md	rejected		1	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+TBR1	detail/rejected/TBR1/TBR1-evaluation.md	rejected		4	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+TBX15	detail/rejected/TBX15/TBX15-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+TBX19	detail/rejected/TBX19/TBX19-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+TBX20	detail/rejected/TBX20/TBX20-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+TBX6	detail/rejected/TBX6/TBX6-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+TBXT	detail/rejected/TBXT/TBXT-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+TCF12	detail/rejected/TCF12/TCF12-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+TCF7L1	detail/rejected/TCF7L1/TCF7L1-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+TEAD2	detail/rejected/TEAD2/TEAD2-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+TFAP2B	detail/rejected/TFAP2B/TFAP2B-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+TFAP4	detail/rejected/TFAP4/TFAP4-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+TFCP2	detail/rejected/TFCP2/TFCP2-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+TFCP2L1	detail/rejected/TFCP2L1/TFCP2L1-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+TFEC	detail/rejected/TFEC/TFEC-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+TINF2	detail/rejected/TINF2/TINF2-evaluation.md	rejected		2	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+TLE1	detail/rejected/TLE1/TLE1-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+TLE3	detail/rejected/TLE3/TLE3-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+TLE4	detail/rejected/TLE4/TLE4-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+TMSB4X	detail/rejected/TMSB4X/TMSB4X-evaluation.md	rejected		4	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+TP53INP1	detail/rejected/TP53INP1/TP53INP1-evaluation.md	rejected		1	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+TP53INP2	detail/rejected/TP53INP2/TP53INP2-evaluation.md	rejected		2	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+TRRAP	detail/rejected/TRRAP/TRRAP-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+TTF2	detail/rejected/TTF2/TTF2-evaluation.md	rejected		4	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+TWIST2	detail/rejected/TWIST2/TWIST2-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+UBTF	detail/rejected/UBTF/UBTF-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+USF2	detail/rejected/USF2/USF2-evaluation.md	rejected		6	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic
+WWTR1	detail/rejected/WWTR1/WWTR1-evaluation.md	rejected		4	LOW	True	True	True	True	False	False	rejected	False	True	No true critical false-rejection signal by current heuristic

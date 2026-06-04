@@ -1,0 +1,182 @@
+---
+type: protein-evaluation
+gene: "HERC2"
+date: 2026-06-03
+tags: [protein-scout, rejected, evaluation]
+status: rejected
+---
+
+## HERC2 — REJECTED (研究热度过高 (PubMed strict=195，超过100篇阈值))
+
+### 1. 基本信息
+
+| 项目 | 内容 |
+|------|------|
+| 基因名 / 别名 | HERC2 |
+| 蛋白名称 | E3 ubiquitin-protein ligase HERC2 |
+| 蛋白大小 | 4834 aa / 527.2 kDa |
+| UniProt ID | O95714 |
+| 评估日期 | 2026-06-03 |
+
+### 2. 评分总览
+
+| 维度 | 得分 | 满分 | 加权后 | 关键证据摘要 |
+|------|------|------|--------|-------------|
+| 核定位特异性 | 7/10 | ×4 | 28 | HPA: Cytosol; 额外: Plasma membrane; UniProt: Cytoplasm; Cytoplasm, cytoskeleton, microtubule organizing c |
+| 蛋白大小 | 0/10 | ×1 | 0 | 4834 aa / 527.2 kDa |
+| 研究新颖性 | 0/10 | ×5 | 0 | PubMed strict=195 篇 (>100→REJECTED) |
+| 三维结构 | 4/10 | ×3 | 12 | AlphaFold v? pLDDT=0; PDB: 2KEO, 3KCI, 4L1M, 6WW3, 6WW4, 7Q40, 7Q41 |
+| 调控结构域 | 7/10 | ×2 | 14 | InterPro: IPR004939, IPR006624, IPR021097, IPR001199, IPR036 |
+| PPI 网络 | 3/10 | ×3 | 9 | STRING 15 partners; IntAct 15 interactions |
+| 互证加分 | — | max +3 | 2.0 | PDB+AF+STRING+IntAct cross-validation |
+| **原始总分** | | | **65.0/180** | |
+| **归一化总分** | | | **36.1/100** | |
+
+### 3. 详细分析
+
+#### 3.1 核定位证据
+
+| 来源 | 定位 | 可信度 |
+|------|------|--------|
+| Protein Atlas (IF) | Cytosol; 额外: Plasma membrane | Supported |
+| UniProt | Cytoplasm; Cytoplasm, cytoskeleton, microtubule organizing center, centrosome, centriole; Nucleus | Swiss-Prot/TrEMBL |
+
+**IF 图像获取**: 未下载本地IF图像（standard evaluation），核定位证据基于HPA subcellular localization注释、UniProt注释和GO-CC术语。
+
+**GO Cellular Component**:
+- centriole (GO:0005814)
+- cytoplasm (GO:0005737)
+- cytosol (GO:0005829)
+- membrane (GO:0016020)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+- plasma membrane (GO:0005886)
+
+**结论**: 主要核定位，HPA 可靠性良好，有辅助数据源支持。
+
+#### 3.2 蛋白大小评估
+
+**评价**: 大小偏离理想范围，实验设计需特殊考虑。
+
+#### 3.3 研究现状
+
+| 指标 | 数值 |
+|------|------|
+| PubMed strict count | 195 |
+| PubMed broad count | 323 |
+| 别名(未计入scoring) | 无 |
+
+**关键文献**:
+1. The genomic landscape of familial glioma.. *Science advances*. PMID: 37115922
+2. Mechanism of orphan subunit recognition during assembly quality control.. *Cell*. PMID: 37480851
+3. HERC2 promotes inflammation-driven cancer stemness and immune evasion in hepatocellular carcinoma by activating STAT3 pathway.. *Journal of experimental & clinical cancer research : CR*. PMID: 36721234
+4. Hesperidin alleviated dendritic spines through inhibiting ferritinophagy via HERC2-NCOA4 ubiquitination in CUMS mice.. *Phytomedicine : international journal of phytotherapy and phytopharmacology*. PMID: 39522250
+5. Heterochromia.. **. PMID: 34662013
+
+**评价**: 研究基础较多，新颖性有限。
+
+#### 3.4 三维结构分析
+
+| 指标 | 数值 |
+|------|------|
+| AlphaFold 版本 | v? |
+| AlphaFold 平均 pLDDT | 0 |
+| 高置信度残基 (pLDDT>90) 占比 | 0% |
+| 置信残基 (pLDDT 70-90) 占比 | 0% |
+| 中等置信 (pLDDT 50-70) 占比 | 0% |
+| 低置信 (pLDDT<50) 占比 | 0% |
+| 有序区域 (pLDDT>70) 占比 | 0% |
+| 可用 PDB 条目 | 2KEO, 3KCI, 4L1M, 6WW3, 6WW4, 7Q40, 7Q41, 7Q42, 7Q43, 7Q44 |
+
+**PAE**: PAE 图像未生成本地文件（standard evaluation），结构判断基于 AlphaFold pLDDT 统计。
+
+**评价**: AlphaFold 预测质量有限（pLDDT=0），有序残基占 0%。
+
+#### 3.5 结构域分析
+
+| 来源 | 结构域 |
+|------|--------|
+| InterPro/Pfam | InterPro: IPR004939, IPR006624, IPR021097, IPR001199, IPR036400; Pfam: PF03256, PF11515, PF00173 |
+
+**染色质调控潜力分析**: 存在已知结构域注释，可作为功能研究的结构基础。
+
+#### 3.6 PPI 网络
+
+**STRING 预测互作** (combined score >0.4):
+
+| Partner | Combined Score | Experimental | 功能类别 |
+|---------|---------------|--------------|---------|
+| RNF8 | 0.952 | 0.786 | — |
+| NEURL4 | 0.937 | 0.822 | — |
+| UBE3A | 0.910 | 0.810 | — |
+| MYT1 | 0.901 | 0.900 | — |
+| DOCK10 | 0.901 | 0.900 | — |
+| USP35 | 0.900 | 0.900 | — |
+| MAPK6 | 0.888 | 0.783 | — |
+| PIAS4 | 0.861 | 0.292 | — |
+| BRCA1 | 0.849 | 0.625 | — |
+| HLTF | 0.822 | 0.068 | — |
+
+**实验验证互作** (IntAct):
+
+| Partner | 方法 | PMID |
+|---------|------|------|
+| MPDU1 | psi-mi:"MI:0006"(anti bait coimmunoprecipitation) | pubmed:17353931 |
+| DISC1 | psi-mi:"MI:0018"(two hybrid) | pubmed:17043677|imex:IM-16650 |
+| DBNL | psi-mi:"MI:0006"(anti bait coimmunoprecipitation) | pubmed:17353931 |
+| MAP1LC3B | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:20562859|imex:IM-15184 |
+| ORF | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | imex:IM-17346|pubmed:22190034| |
+| ZRANB1 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | imex:IM-12079|pubmed:19615732 |
+| USP19 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | imex:IM-12079|pubmed:19615732 |
+| USP20 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | imex:IM-12079|pubmed:19615732 |
+| USP16 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | imex:IM-12079|pubmed:19615732 |
+| SIRT3 | psi-mi:"MI:0096"(pull down) | imex:IM-12078|pubmed:19343720 |
+
+**PPI 互证分析**:
+- STRING + IntAct 均有数据
+- STRING partners: 15，IntAct interactions: 15
+- 调控相关比例: 1 / 15 = 7%
+
+**评价**: STRING 15 个预测互作，IntAct 15 个实验互作。调控相关配体占比 7%。
+
+#### 3.7 多库互证
+
+| 维度 | 来源 | 结果 | 是否一致 |
+|------|------|------|----------|
+| 三维结构 | AlphaFold pLDDT=0 + PDB: 2KEO, 3KCI, 4L1M, 6WW3, 6WW4,  | pLDDT=0, v? | 预测+实验 |
+| 定位 | UniProt + HPA | Cytoplasm; Cytoplasm, cytoskeleton, microtubule or / Cytosol; 额外: Plasma membrane | 一致 |
+| PPI | STRING + IntAct | 15 + 15 interactions | 数据充分 |
+
+**互证加分明细**:
+- PDB + AlphaFold 双源验证: +0
+- 多库定位一致 (3源): +0.5
+- STRING + IntAct 双源验证: +0.5
+- 结构域 + AlphaFold 质量: +0
+- PDB 多条目覆盖 (≥3): +1.0
+**总分**: +2.0 / max +3
+
+### 4. 总体评价
+
+**推荐等级**: ⭐⭐ (REJECTED)
+
+**核心优势**:
+1. HERC2 — E3 ubiquitin-protein ligase HERC2，研究基础较多，新颖性有限。
+2. 蛋白大小4834 aa，大小偏离理想范围，实验设计需特殊考虑。
+
+**风险/不确定性**:
+1. PubMed 195 篇，研究热度过高（>100），不符合新颖性要求
+2. 结构数据暂缺
+
+**下一步建议**:
+- [ ] 查阅最新关键文献补充研究背景
+- [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
+- [ ] 设计体外实验验证核定位及潜在调控功能
+**该蛋白PubMed文献数 195 > 100，研究热度过高，不符合novelty筛选标准。**
+
+### 5. 数据来源
+- UniProt: https://www.uniprot.org/uniprotkb/O95714
+- Protein Atlas: https://www.proteinatlas.org/ENSG00000128731-HERC2/subcellular
+- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=HERC2
+- AlphaFold: https://alphafold.ebi.ac.uk/entry/O95714
+- STRING: https://string-db.org/network/9606.ENSP00000
+- Data fetched live: 2026-06-03

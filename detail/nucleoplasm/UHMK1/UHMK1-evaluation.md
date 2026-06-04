@@ -1,0 +1,185 @@
+---
+type: protein-evaluation
+gene: "UHMK1"
+date: 2026-06-03
+tags: [protein-scout, nuclear-protein, evaluation]
+status: scored
+---
+
+## UHMK1 核蛋白评估报告 (Full Re-evaluation)
+
+### 1. 基本信息
+
+| 项目 | 内容 |
+|------|------|
+| 基因名 / 别名 | UHMK1 / KIS, KIST |
+| 蛋白名称 | Serine/threonine-protein kinase Kist |
+| 蛋白大小 | 419 aa / 46.5 kDa |
+| UniProt ID | Q8TAS1 |
+| 评估日期 | 2026-06-03 |
+
+### 2. 评分总览
+
+| 维度 | 得分 | 满分 | 加权后 | 关键证据摘要 |
+|------|------|------|--------|-------------|
+| 核定位特异性 | 7/10 | ×4 | 28 | HPA: Nucleoplasm; UniProt: Nucleus |
+| 蛋白大小 | 10/10 | ×1 | 10 | 419 aa / 46.5 kDa |
+| 研究新颖性 | 6/10 | ×5 | 30 | PubMed strict=42 篇 (≤60→6) |
+| 三维结构 | 8/10 | ×3 | 24 | AlphaFold v6 pLDDT=89.7; PDB: 无 |
+| 调控结构域 | 8/10 | ×2 | 16 | InterPro: IPR011009, IPR012677, IPR000719, IPR035979, IPR000 |
+| PPI 网络 | 3/10 | ×3 | 9 | STRING 15 partners; IntAct 15 interactions |
+| 互证加分 | — | max +3 | 1.5 | PDB+AF+STRING+IntAct cross-validation |
+| **原始总分** | | | **118.5/180** | |
+| **归一化总分** | | | **65.8/100** | |
+
+### 3. 详细分析
+
+#### 3.1 核定位证据
+
+| 来源 | 定位 | 可信度 |
+|------|------|--------|
+| Protein Atlas (IF) | Nucleoplasm | Supported |
+| UniProt | Nucleus | Swiss-Prot/TrEMBL |
+
+**IF 图像获取**: 未下载本地IF图像（standard evaluation），核定位证据基于HPA subcellular localization注释、UniProt注释和GO-CC术语。
+
+**GO Cellular Component**:
+- axon (GO:0030424)
+- dendrite cytoplasm (GO:0032839)
+- neuronal ribonucleoprotein granule (GO:0071598)
+- nucleoplasm (GO:0005654)
+- nucleus (GO:0005634)
+
+**结论**: 主要核定位，HPA 可靠性良好，有辅助数据源支持。
+
+#### 3.2 蛋白大小评估
+
+**评价**: 大小适中（200-800 aa），适合常规生化实验和结构解析。
+
+#### 3.3 研究现状
+
+| 指标 | 数值 |
+|------|------|
+| PubMed strict count | 42 |
+| PubMed broad count | 69 |
+| 别名(未计入scoring) | Aliases observed but not used for scoring: KIS, KIST |
+
+**关键文献**:
+1. UHMK1 aids colorectal cancer cell proliferation and chemoresistance through augmenting IL-6/STAT3 signaling.. *Cell death & disease*. PMID: 35501324
+2. UHMK1 Promotes Prostate Cancer Progression through a Positive Feedback Loop with MTHFD2.. *Oncology research*. PMID: 40918462
+3. UHMK1 is a novel splicing regulatory kinase.. *The Journal of biological chemistry*. PMID: 36803961
+4. UHMK1 promotes lung adenocarcinoma oncogenesis by regulating the PI3K/AKT/mTOR signaling pathway.. *Thoracic cancer*. PMID: 36919755
+5. UHMK1 Is a Novel Marker for Personalized Prediction of Pancreatic Cancer Prognosis.. *Frontiers in oncology*. PMID: 35359403
+
+**评价**: 较新颖，有一定研究但存在未探索领域。
+
+#### 3.4 三维结构分析
+
+| 指标 | 数值 |
+|------|------|
+| AlphaFold 版本 | v6 |
+| AlphaFold 平均 pLDDT | 89.7 |
+| 高置信度残基 (pLDDT>90) 占比 | 69.0% |
+| 置信残基 (pLDDT 70-90) 占比 | 25.5% |
+| 中等置信 (pLDDT 50-70) 占比 | 2.9% |
+| 低置信 (pLDDT<50) 占比 | 2.6% |
+| 有序区域 (pLDDT>70) 占比 | 94.5% |
+| 可用 PDB 条目 | 无 |
+
+**PAE**: PAE 图像未生成本地文件（standard evaluation），结构判断基于 AlphaFold pLDDT 统计。
+
+**评价**: AlphaFold 极高置信度预测（pLDDT=89.7，有序区 94.5%），结构可靠。
+
+#### 3.5 结构域分析
+
+| 来源 | 结构域 |
+|------|--------|
+| InterPro/Pfam | InterPro: IPR011009, IPR012677, IPR000719, IPR035979, IPR000504; Pfam: PF00069, PF00076 |
+
+**染色质调控潜力分析**: 多个已知结构域注释，AlphaFold预测质量高，结构域折叠可信。
+
+#### 3.6 PPI 网络
+
+**STRING 预测互作** (combined score >0.4):
+
+| Partner | Combined Score | Experimental | 功能类别 |
+|---------|---------------|--------------|---------|
+| STMN1 | 0.917 | 0.111 | — |
+| CDKN1B | 0.818 | 0.000 | — |
+| KCNIP4 | 0.802 | 0.129 | — |
+| KCNIP2 | 0.768 | 0.129 | — |
+| KCNIP1 | 0.761 | 0.129 | — |
+| KCND3 | 0.700 | 0.000 | — |
+| KCNIP3 | 0.695 | 0.129 | — |
+| KCNC1 | 0.661 | 0.000 | — |
+| PRPF40A | 0.583 | 0.068 | — |
+| SF3B1 | 0.565 | 0.000 | — |
+
+**实验验证互作** (IntAct):
+
+| Partner | 方法 | PMID |
+|---------|------|------|
+| ABL1 | psi-mi:"MI:0081"(peptide array) | imex:IM-11903|pubmed:17474147| |
+| FYN | psi-mi:"MI:0399"(two hybrid fragment pooling appro | pubmed:31413325|imex:IM-26801 |
+| LMO1 | psi-mi:"MI:0397"(two hybrid array) | pubmed:32296183|imex:IM-25472 |
+| TSGA10IP | psi-mi:"MI:1356"(validated two hybrid) | pubmed:32296183|imex:IM-25472 |
+| TMSB4X | psi-mi:"MI:1356"(validated two hybrid) | pubmed:32296183|imex:IM-25472 |
+| EDEM2 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
+| RGS8 | psi-mi:"MI:1356"(validated two hybrid) | pubmed:32296183|imex:IM-25472 |
+| AIRIM | psi-mi:"MI:0397"(two hybrid array) | pubmed:32296183|imex:IM-25472 |
+| NDUFAF3 | psi-mi:"MI:1356"(validated two hybrid) | pubmed:32296183|imex:IM-25472 |
+| POLR2A | psi-mi:"MI:0402"(chromatin immunoprecipitation ass | pubmed:23746844|imex:IM-21548 |
+
+**PPI 互证分析**:
+- STRING + IntAct 均有数据
+- STRING partners: 15，IntAct interactions: 15
+- 调控相关比例: 0 / 15 = 0%
+
+**评价**: STRING 15 个预测互作，IntAct 15 个实验互作。调控相关配体占比 0%。
+
+#### 3.7 多库互证
+
+| 维度 | 来源 | 结果 | 是否一致 |
+|------|------|------|----------|
+| 三维结构 | AlphaFold pLDDT=89.7 + PDB: 无 | pLDDT=89.7, v6 | 仅预测 |
+| 定位 | UniProt + HPA | Nucleus / Nucleoplasm | 一致 |
+| PPI | STRING + IntAct | 15 + 15 interactions | 数据充分 |
+
+**互证加分明细**:
+- PDB + AlphaFold 双源验证: +0
+- 多库定位一致 (3源): +0.5
+- STRING + IntAct 双源验证: +0.5
+- 结构域 + AlphaFold 质量: +0.5
+- PDB 多条目覆盖: +0
+**总分**: +1.5 / max +3
+
+### 4. 总体评价
+
+**推荐等级**: ⭐⭐⭐
+
+**核心优势**:
+1. UHMK1 — Serine/threonine-protein kinase Kist，较新颖，有一定研究但存在未探索领域。
+2. 蛋白大小419 aa，大小适中（200-800 aa），适合常规生化实验和结构解析。
+
+**风险/不确定性**:
+1. PubMed 42 篇，已有一定研究基础
+2. 结构数据质量可接受
+
+**下一步建议**:
+- [ ] 查阅最新关键文献补充研究背景
+- [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
+- [ ] 设计体外实验验证核定位及潜在调控功能
+
+
+### 5. 数据来源
+- UniProt: https://www.uniprot.org/uniprotkb/Q8TAS1
+- Protein Atlas: https://www.proteinatlas.org/ENSG00000152332-UHMK1/subcellular
+- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=UHMK1
+- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8TAS1
+- STRING: https://string-db.org/network/9606.ENSP00000
+- Data fetched live: 2026-06-03
+
+![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/UHMK1/IF_images/UHMK1_IF_red_green.jpg]]
+
+
+![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/UHMK1/UHMK1-PAE.png]]

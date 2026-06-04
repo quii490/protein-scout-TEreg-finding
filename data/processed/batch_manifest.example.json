@@ -1,0 +1,14 @@
+{
+  "description": "Example batch manifest for protein-scout supervision. Missing IF/PAE can pass only when the report contains an explicit absence note.",
+  "genes": [
+    {
+      "gene": "GENE1",
+      "expected_status": "scored",
+      "expected_category": "nucleoplasm"
+    },
+    {
+      "gene": "GENE2",
+      "expected_status": "rejected"
+    }
+  ]
+}

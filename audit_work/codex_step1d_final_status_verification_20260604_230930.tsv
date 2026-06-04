@@ -1,0 +1,23 @@
+metric	value
+Excel coverage	4661/4756=98%
+Missing genes	95
+Total reports	5588
+Scored	3283
+Rejected	2305
+/180 reports	4328
+Duplicates	79
+Scored+Rejected conflicts	158
+Thin rejected <50L	700
+11-line templates	0
+Packet error body	0
+Harvest failure body	1
+UniProt ?	0
+AlphaFold ?	0
+Unknown UniProt URL	31
+Unknown AlphaFold URL	0
+One-line No nuclear rejection	0
+HPA IF true mismatch	0
+PAE true mismatch	0
+CRITICAL FR true remaining	0
+Gate errors	2769
+Gate warnings	1795

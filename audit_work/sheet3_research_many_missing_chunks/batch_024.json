@@ -1,0 +1,106 @@
+{
+  "source_sheet": "研究很多",
+  "batch_index": 24,
+  "genes": [
+    {
+      "gene": "PRR19",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PRR22",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PRR23A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PRR23B",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PRR23C",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PRR29",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PRR36",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PRRT3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PRRT4",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PROCA1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "POFUT4",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "POGLUT3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PP2D1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PSKH2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PCMTD1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PCMTD2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PRR23E",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PTOV1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "PTTG1IP",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "R3HCC1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "R3HCC1L",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "R3HDM2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "R3HDM4",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "RILPL1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "RAB24",
+      "source_sheet": "研究很多"
+    }
+  ]
+}

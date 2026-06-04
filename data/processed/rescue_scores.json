@@ -1,0 +1,1453 @@
+{
+  "IAH1": {
+    "pubmed": 0,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 10
+  },
+  "THAP8": {
+    "pubmed": 0,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Enhanced",
+    "nuc_score": 7,
+    "nov_score": 10
+  },
+  "MAB21L4": {
+    "pubmed": 2,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 10
+  },
+  "PROB1": {
+    "pubmed": 2,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Enhanced",
+    "nuc_score": 7,
+    "nov_score": 10
+  },
+  "HMGXB3": {
+    "pubmed": 3,
+    "locs": [
+      "Nucleoli"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 10
+  },
+  "RPUSD2": {
+    "pubmed": 4,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 10
+  },
+  "THAP10": {
+    "pubmed": 4,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 10
+  },
+  "SREK1IP1": {
+    "pubmed": 5,
+    "locs": [
+      "Nucleoli",
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 7,
+    "nov_score": 10
+  },
+  "TTC14": {
+    "pubmed": 5,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 10
+  },
+  "INKA1": {
+    "pubmed": 6,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 10
+  },
+  "PIANP": {
+    "pubmed": 6,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 10
+  },
+  "FAM32A": {
+    "pubmed": 7,
+    "locs": [
+      "Nucleoli",
+      "Nucleoplasm"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 7,
+    "nov_score": 10
+  },
+  "HTATSF1": {
+    "pubmed": 7,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Enhanced",
+    "nuc_score": 7,
+    "nov_score": 10
+  },
+  "RPUSD1": {
+    "pubmed": 7,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 10
+  },
+  "PHF21B": {
+    "pubmed": 8,
+    "locs": [
+      "Nucleoli fibrillar center",
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 7,
+    "nov_score": 10
+  },
+  "TMA7": {
+    "pubmed": 8,
+    "locs": [
+      "Nuclear bodies",
+      "Nucleoli rim",
+      "Nucleoli",
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 7,
+    "nov_score": 10
+  },
+  "OGFRL1": {
+    "pubmed": 9,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 10
+  },
+  "SAMD14": {
+    "pubmed": 9,
+    "locs": [
+      "Nucleoli fibrillar center",
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 7,
+    "nov_score": 10
+  },
+  "SYT17": {
+    "pubmed": 9,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 10
+  },
+  "MRPL40": {
+    "pubmed": 10,
+    "locs": [
+      "Nucleoli"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 6,
+    "nov_score": 10
+  },
+  "TBC1D8": {
+    "pubmed": 10,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 10
+  },
+  "TYW2": {
+    "pubmed": 10,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 10
+  },
+  "PELI2": {
+    "pubmed": 11,
+    "locs": [
+      "Nucleoplasm",
+      "Nucleoli"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 7,
+    "nov_score": 10
+  },
+  "NWD1": {
+    "pubmed": 12,
+    "locs": [
+      "Nucleoli"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 10
+  },
+  "PRRC2B": {
+    "pubmed": 12,
+    "locs": [
+      "Nuclear bodies"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 10
+  },
+  "TAPT1": {
+    "pubmed": 12,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 6,
+    "nov_score": 10
+  },
+  "EMC6": {
+    "pubmed": 13,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 10
+  },
+  "NAA35": {
+    "pubmed": 13,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 10
+  },
+  "SMAP2": {
+    "pubmed": 14,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 6,
+    "nov_score": 10
+  },
+  "DCTN3": {
+    "pubmed": 15,
+    "locs": [
+      "Nucleoli"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 6,
+    "nov_score": 10
+  },
+  "DENND2D": {
+    "pubmed": 15,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 10
+  },
+  "DPH5": {
+    "pubmed": 15,
+    "locs": [
+      "Nucleoli"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 10
+  },
+  "P3H3": {
+    "pubmed": 15,
+    "locs": [
+      "Nucleoli"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 10
+  },
+  "TTC8": {
+    "pubmed": 15,
+    "locs": [
+      "Nucleoli fibrillar center"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 10
+  },
+  "VWA5A": {
+    "pubmed": 15,
+    "locs": [
+      "Nucleoli",
+      "Nucleoplasm"
+    ],
+    "reliability": "Enhanced",
+    "nuc_score": 9,
+    "nov_score": 10
+  },
+  "GALK2": {
+    "pubmed": 16,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 10
+  },
+  "ABTB1": {
+    "pubmed": 17,
+    "locs": [
+      "Nucleoli"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 6,
+    "nov_score": 10
+  },
+  "COLGALT2": {
+    "pubmed": 17,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 10
+  },
+  "FANCL": {
+    "pubmed": 18,
+    "locs": [
+      "Nuclear bodies"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 10
+  },
+  "HMGN3": {
+    "pubmed": 18,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 6,
+    "nov_score": 10
+  },
+  "PRR3": {
+    "pubmed": 18,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 10
+  },
+  "SPSB4": {
+    "pubmed": 18,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 10
+  },
+  "PSTK": {
+    "pubmed": 19,
+    "locs": [
+      "Nuclear bodies",
+      "Nucleoli"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 7,
+    "nov_score": 10
+  },
+  "TMC5": {
+    "pubmed": 19,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 10
+  },
+  "FOXN2": {
+    "pubmed": 20,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 6,
+    "nov_score": 10
+  },
+  "OLFM2": {
+    "pubmed": 20,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 6,
+    "nov_score": 10
+  },
+  "FBXO4": {
+    "pubmed": 21,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "VTA1": {
+    "pubmed": 21,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "XYLB": {
+    "pubmed": 21,
+    "locs": [
+      "Nuclear speckles"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "AKTIP": {
+    "pubmed": 22,
+    "locs": [
+      "Nucleoli"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "CABLES2": {
+    "pubmed": 22,
+    "locs": [
+      "Nucleoli"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "CPNE4": {
+    "pubmed": 22,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "IARS1": {
+    "pubmed": 22,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "NRSN2": {
+    "pubmed": 22,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "FANCM": {
+    "pubmed": 23,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "THUMPD3": {
+    "pubmed": 23,
+    "locs": [
+      "Nucleoli"
+    ],
+    "reliability": "Enhanced",
+    "nuc_score": 7,
+    "nov_score": 8
+  },
+  "ARFGEF1": {
+    "pubmed": 24,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Enhanced",
+    "nuc_score": 7,
+    "nov_score": 8
+  },
+  "RASGEF1B": {
+    "pubmed": 24,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "FOXS1": {
+    "pubmed": 25,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "PPDPF": {
+    "pubmed": 25,
+    "locs": [
+      "Nucleoli",
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 7,
+    "nov_score": 8
+  },
+  "TSPAN6": {
+    "pubmed": 25,
+    "locs": [
+      "Nucleoli fibrillar center"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "ETV3": {
+    "pubmed": 26,
+    "locs": [
+      "Nucleoli",
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 7,
+    "nov_score": 8
+  },
+  "PEF1": {
+    "pubmed": 26,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "RHOBTB1": {
+    "pubmed": 26,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "SCOC": {
+    "pubmed": 26,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "SYNPR": {
+    "pubmed": 27,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "EXO5": {
+    "pubmed": 29,
+    "locs": [
+      "Nuclear speckles",
+      "Nucleoplasm"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 7,
+    "nov_score": 8
+  },
+  "HUNK": {
+    "pubmed": 29,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "DENND1B": {
+    "pubmed": 30,
+    "locs": [
+      "Nuclear speckles"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "TNRC6C": {
+    "pubmed": 30,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "TIAM2": {
+    "pubmed": 31,
+    "locs": [
+      "Nucleoli fibrillar center",
+      "Nucleoplasm"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 7,
+    "nov_score": 8
+  },
+  "PRIM2": {
+    "pubmed": 33,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "NINL": {
+    "pubmed": 34,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "SMYD5": {
+    "pubmed": 35,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "NPDC1": {
+    "pubmed": 36,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "AP3B2": {
+    "pubmed": 37,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "CRIP2": {
+    "pubmed": 37,
+    "locs": [
+      "Nucleoli",
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 7,
+    "nov_score": 8
+  },
+  "FRK": {
+    "pubmed": 37,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "DOCK10": {
+    "pubmed": 38,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "COG5": {
+    "pubmed": 39,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Enhanced",
+    "nuc_score": 7,
+    "nov_score": 8
+  },
+  "DDIT4L": {
+    "pubmed": 39,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "TSC22D1": {
+    "pubmed": 39,
+    "locs": [
+      "Nuclear bodies",
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 7,
+    "nov_score": 8
+  },
+  "MYADM": {
+    "pubmed": 41,
+    "locs": [
+      "Nuclear speckles"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "RDH8": {
+    "pubmed": 41,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "DIP2C": {
+    "pubmed": 42,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "EOGT": {
+    "pubmed": 42,
+    "locs": [
+      "Nuclear membrane",
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 7,
+    "nov_score": 8
+  },
+  "WDFY4": {
+    "pubmed": 42,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "PLXDC2": {
+    "pubmed": 44,
+    "locs": [
+      "Nuclear bodies"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "SNCAIP": {
+    "pubmed": 45,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "FANCG": {
+    "pubmed": 46,
+    "locs": [
+      "Nuclear speckles"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "PRR16": {
+    "pubmed": 47,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "CDC123": {
+    "pubmed": 48,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "FBXW11": {
+    "pubmed": 48,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "NUTM2B": {
+    "pubmed": 48,
+    "locs": [
+      "Nuclear bodies"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "PCYT2": {
+    "pubmed": 48,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "EAF1": {
+    "pubmed": 49,
+    "locs": [
+      "Nuclear bodies",
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 7,
+    "nov_score": 8
+  },
+  "GALNT7": {
+    "pubmed": 50,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 8
+  },
+  "AKNA": {
+    "pubmed": 51,
+    "locs": [
+      "Nucleoli fibrillar center",
+      "Nucleoplasm"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 7,
+    "nov_score": 6
+  },
+  "CRELD1": {
+    "pubmed": 51,
+    "locs": [
+      "Nucleoli"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "FAU": {
+    "pubmed": 51,
+    "locs": [
+      "Nucleoli"
+    ],
+    "reliability": "Enhanced",
+    "nuc_score": 7,
+    "nov_score": 6
+  },
+  "HMGN5": {
+    "pubmed": 51,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "EPB41L4A": {
+    "pubmed": 52,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "MESD": {
+    "pubmed": 56,
+    "locs": [
+      "Nuclear bodies"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "P3H2": {
+    "pubmed": 56,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "RIN2": {
+    "pubmed": 56,
+    "locs": [
+      "Nucleoli"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "YWHAH": {
+    "pubmed": 56,
+    "locs": [
+      "Nucleoli rim",
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 7,
+    "nov_score": 6
+  },
+  "CADM4": {
+    "pubmed": 57,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "NAGK": {
+    "pubmed": 57,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "PCP2": {
+    "pubmed": 57,
+    "locs": [
+      "Nuclear speckles"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "CERS5": {
+    "pubmed": 61,
+    "locs": [
+      "Nuclear membrane"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "E4F1": {
+    "pubmed": 62,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "FBXO2": {
+    "pubmed": 62,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "SURF4": {
+    "pubmed": 62,
+    "locs": [
+      "Nuclear membrane"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "BPGM": {
+    "pubmed": 63,
+    "locs": [
+      "Nucleoli rim",
+      "Nucleoli",
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 7,
+    "nov_score": 6
+  },
+  "OSGIN1": {
+    "pubmed": 64,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "CAPZB": {
+    "pubmed": 65,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "NFKBIE": {
+    "pubmed": 65,
+    "locs": [
+      "Nucleoli fibrillar center",
+      "Nucleoplasm"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 7,
+    "nov_score": 6
+  },
+  "TNRC6A": {
+    "pubmed": 65,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "ACOT12": {
+    "pubmed": 66,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "ODAM": {
+    "pubmed": 66,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "MTCP1": {
+    "pubmed": 67,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "ANP32E": {
+    "pubmed": 68,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "PDLIM5": {
+    "pubmed": 68,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "CEP152": {
+    "pubmed": 69,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "ITPKB": {
+    "pubmed": 69,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "SNAPIN": {
+    "pubmed": 69,
+    "locs": [
+      "Nucleoli"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "RABGEF1": {
+    "pubmed": 70,
+    "locs": [
+      "Nucleoli"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "EPG5": {
+    "pubmed": 72,
+    "locs": [
+      "Nuclear speckles"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "GTSE1": {
+    "pubmed": 72,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "ESPL1": {
+    "pubmed": 74,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "EVX1": {
+    "pubmed": 74,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "SYVN1": {
+    "pubmed": 74,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "IFT140": {
+    "pubmed": 75,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "IQGAP3": {
+    "pubmed": 75,
+    "locs": [
+      "Nucleoli rim",
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 7,
+    "nov_score": 6
+  },
+  "PLEKHA7": {
+    "pubmed": 75,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Enhanced",
+    "nuc_score": 7,
+    "nov_score": 6
+  },
+  "ADARB2": {
+    "pubmed": 76,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "EPC2": {
+    "pubmed": 76,
+    "locs": [
+      "Nuclear speckles"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "ROM1": {
+    "pubmed": 76,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "PLD3": {
+    "pubmed": 77,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "GGPS1": {
+    "pubmed": 79,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "NAPRT": {
+    "pubmed": 79,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "UCK2": {
+    "pubmed": 79,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "ELP2": {
+    "pubmed": 82,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "TIFA": {
+    "pubmed": 84,
+    "locs": [
+      "Nucleoli",
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 7,
+    "nov_score": 6
+  },
+  "TNNC1": {
+    "pubmed": 86,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "AMPD3": {
+    "pubmed": 88,
+    "locs": [
+      "Nucleoli",
+      "Nuclear membrane"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 7,
+    "nov_score": 6
+  },
+  "TNFAIP2": {
+    "pubmed": 88,
+    "locs": [
+      "Nuclear membrane",
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 7,
+    "nov_score": 6
+  },
+  "PCTP": {
+    "pubmed": 91,
+    "locs": [
+      "Nucleoli",
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 7,
+    "nov_score": 6
+  },
+  "UPP1": {
+    "pubmed": 93,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Enhanced",
+    "nuc_score": 7,
+    "nov_score": 6
+  },
+  "ELK4": {
+    "pubmed": 97,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "OPHN1": {
+    "pubmed": 97,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "EGLN2": {
+    "pubmed": 98,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "PNPO": {
+    "pubmed": 98,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "GSK3A": {
+    "pubmed": 99,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "SYN2": {
+    "pubmed": 99,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "NKTR": {
+    "pubmed": 100,
+    "locs": [
+      "Nucleoplasm"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 6,
+    "nov_score": 6
+  },
+  "CRIPT": {
+    "pubmed": 31,
+    "locs": [
+      "Nucleoplasm",
+      "Nucleoli fibrillar center"
+    ],
+    "reliability": "Approved",
+    "nuc_score": 7,
+    "nov_score": 8
+  },
+  "FOXI1": {
+    "pubmed": 87,
+    "locs": [
+      "Nucleoli"
+    ],
+    "reliability": "Supported",
+    "nuc_score": 6,
+    "nov_score": 6
+  }
+}

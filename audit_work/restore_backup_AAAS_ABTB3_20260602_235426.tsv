@@ -1,0 +1,3 @@
+gene	current_path	backup_path	current_status	current_lines	current_chars	reason
+AAAS	detail/nuclear-envelope/AAAS	ALREADY_MISSING	rejected	0	0	Was already moved to rejected/ during quarantine
+ABTB3	detail/nucleoplasm/ABTB3	ALREADY_MISSING	rejected	0	0	Was already moved to rejected/ during quarantine

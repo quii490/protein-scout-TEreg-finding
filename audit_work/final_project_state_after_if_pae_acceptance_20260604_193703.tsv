@@ -1,0 +1,15 @@
+metric	value
+Excel coverage	4756/4756=100%
+Missing genes	0
+Total reports	5688
+Scored	3152
+Rejected	2536
+CRITICAL false rejection remaining	1
+True HPA IF mismatch remaining	515
+True PAE mismatch remaining	23
+Audit FP IF count	559
+Audit FP PAE count	23
+thin rejected <50L	998
+Duplicates	82
+Gate errors	2487
+Gate warnings	1954

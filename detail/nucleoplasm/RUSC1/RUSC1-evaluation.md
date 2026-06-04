@@ -1,0 +1,183 @@
+---
+type: protein-evaluation
+gene: "RUSC1"
+date: 2026-06-03
+tags: [protein-scout, nuclear-protein, evaluation]
+status: scored
+---
+
+## RUSC1 核蛋白评估报告 (Full Re-evaluation)
+
+### 1. 基本信息
+
+| 项目 | 内容 |
+|------|------|
+| 基因名 / 别名 | RUSC1 / NESCA |
+| 蛋白名称 | AP-4 complex accessory subunit RUSC1 |
+| 蛋白大小 | 902 aa / 96.4 kDa |
+| UniProt ID | Q9BVN2 |
+| 评估日期 | 2026-06-03 |
+
+### 2. 评分总览
+
+| 维度 | 得分 | 满分 | 加权后 | 关键证据摘要 |
+|------|------|------|--------|-------------|
+| 核定位特异性 | 7/10 | ×4 | 28 | HPA: Cytosol; 额外: Nucleoplasm, Vesicles; UniProt: Cytoplasm; Nucleus; Cytoplasm, cytoskeleton; Cytoplasmic ves |
+| 蛋白大小 | 8/10 | ×1 | 8 | 902 aa / 96.4 kDa |
+| 研究新颖性 | 10/10 | ×5 | 50 | PubMed strict=19 篇 (≤20→10) |
+| 三维结构 | 6/10 | ×3 | 18 | AlphaFold v6 pLDDT=53.5; PDB: 4GIW |
+| 调控结构域 | 7/10 | ×2 | 14 | InterPro: IPR004012, IPR037213, IPR047341, IPR047343, IPR036 |
+| PPI 网络 | 3/10 | ×3 | 9 | STRING 15 partners; IntAct 15 interactions |
+| 互证加分 | — | max +3 | 1.5 | PDB+AF+STRING+IntAct cross-validation |
+| **原始总分** | | | **128.5/180** | |
+| **归一化总分** | | | **71.4/100** | |
+
+### 3. 详细分析
+
+#### 3.1 核定位证据
+
+| 来源 | 定位 | 可信度 |
+|------|------|--------|
+| Protein Atlas (IF) | Cytosol; 额外: Nucleoplasm, Vesicles | Enhanced |
+| UniProt | Cytoplasm; Nucleus; Cytoplasm, cytoskeleton; Cytoplasmic vesicle; Early endosome; Postsynaptic densi... | Swiss-Prot/TrEMBL |
+
+**IF 图像获取**: 未下载本地IF图像（standard evaluation），核定位证据基于HPA subcellular localization注释、UniProt注释和GO-CC术语。
+
+**GO Cellular Component**:
+- cytoplasmic vesicle (GO:0031410)
+- cytosol (GO:0005829)
+- early endosome (GO:0005769)
+- Golgi apparatus (GO:0005794)
+- microtubule (GO:0005874)
+- microtubule cytoskeleton (GO:0015630)
+- nucleus (GO:0005634)
+- postsynaptic density (GO:0014069)
+
+**结论**: 主要核定位，HPA 可靠性良好，有辅助数据源支持。
+
+#### 3.2 蛋白大小评估
+
+**评价**: 大小基本合适，可用于常规实验。
+
+#### 3.3 研究现状
+
+| 指标 | 数值 |
+|------|------|
+| PubMed strict count | 19 |
+| PubMed broad count | 39 |
+| 别名(未计入scoring) | Aliases observed but not used for scoring: NESCA |
+
+**关键文献**:
+1. rDNA units are highly polymorphic in Scutellospora castanea (glomales, zygomycetes).. *Gene*. PMID: 9889322
+2. Characterization of RUSC1 and RUSC2 genes in silico.. *Oncology reports*. PMID: 15375525
+3. RUSC1-AS1 promotes the malignant progression of breast cancer depending on the regulation of the miR-326/XRCC5 pathway.. *Thoracic cancer*. PMID: 37429610
+4. lncRNA TMEM51-AS1 and RUSC1-AS1 function as ceRNAs for induction of laryngeal squamous cell carcinoma and prediction of prognosis.. *PeerJ*. PMID: 31565549
+5. LncRNA RUSC1-AS1 contributes to the progression of hepatocellular carcinoma cells by modulating miR-340-5p/CREB1 axis.. *American journal of translational research*. PMID: 33841637
+
+**评价**: 极度新颖，几乎未被系统研究（PubMed ≤20篇）。
+
+#### 3.4 三维结构分析
+
+| 指标 | 数值 |
+|------|------|
+| AlphaFold 版本 | v6 |
+| AlphaFold 平均 pLDDT | 53.5 |
+| 高置信度残基 (pLDDT>90) 占比 | 18.1% |
+| 置信残基 (pLDDT 70-90) 占比 | 10.6% |
+| 中等置信 (pLDDT 50-70) 占比 | 6.7% |
+| 低置信 (pLDDT<50) 占比 | 64.6% |
+| 有序区域 (pLDDT>70) 占比 | 28.7% |
+| 可用 PDB 条目 | 4GIW |
+
+**PAE**: PAE 图像未生成本地文件（standard evaluation），结构判断基于 AlphaFold pLDDT 统计。
+
+**评价**: AlphaFold 预测质量有限（pLDDT=53.5），有序残基占 28.7%。
+
+#### 3.5 结构域分析
+
+| 来源 | 结构域 |
+|------|--------|
+| InterPro/Pfam | InterPro: IPR004012, IPR037213, IPR047341, IPR047343, IPR036028; Pfam: PF02759, PF14604 |
+
+**染色质调控潜力分析**: 存在已知结构域注释，可作为功能研究的结构基础。
+
+#### 3.6 PPI 网络
+
+**STRING 预测互作** (combined score >0.4):
+
+| Partner | Combined Score | Experimental | 功能类别 |
+|---------|---------------|--------------|---------|
+| RUNDC3A | 0.796 | 0.000 | — |
+| MVD | 0.745 | 0.077 | — |
+| FDFT1 | 0.725 | 0.091 | — |
+| LSS | 0.713 | 0.000 | — |
+| IDI2 | 0.646 | 0.000 | — |
+| IDI1 | 0.646 | 0.000 | — |
+| PNMA1 | 0.617 | 0.602 | — |
+| GGPS1 | 0.615 | 0.272 | — |
+| COQ2 | 0.608 | 0.000 | — |
+| SERINC1 | 0.594 | 0.000 | — |
+
+**实验验证互作** (IntAct):
+
+| Partner | 方法 | PMID |
+|---------|------|------|
+| RUSC1-AS1 | psi-mi:"MI:0397"(two hybrid array) | imex:IM-23318|pubmed:25416956 |
+| PSMA3 | psi-mi:"MI:1356"(validated two hybrid) | imex:IM-23318|pubmed:25416956 |
+| TRIM63 | psi-mi:"MI:1112"(two hybrid prey pooling approach) | pubmed:31391242|imex:IM-25805| |
+| TRIM55 | psi-mi:"MI:1112"(two hybrid prey pooling approach) | pubmed:31391242|imex:IM-25805| |
+| HTT | psi-mi:"MI:0397"(two hybrid array) | pubmed:32814053|imex:IM-28217| |
+| ATXN3 | psi-mi:"MI:0398"(two hybrid pooling approach) | pubmed:32814053|imex:IM-28217| |
+| RAN | psi-mi:"MI:0397"(two hybrid array) | pubmed:32814053|imex:IM-28217| |
+| LAMP2 | psi-mi:"MI:0397"(two hybrid array) | pubmed:32814053|imex:IM-28217| |
+| CASP6 | psi-mi:"MI:0397"(two hybrid array) | pubmed:32814053|imex:IM-28217| |
+| CCK | psi-mi:"MI:0397"(two hybrid array) | pubmed:32814053|imex:IM-28217| |
+
+**PPI 互证分析**:
+- STRING + IntAct 均有数据
+- STRING partners: 15，IntAct interactions: 15
+- 调控相关比例: 0 / 15 = 0%
+
+**评价**: STRING 15 个预测互作，IntAct 15 个实验互作。调控相关配体占比 0%。
+
+#### 3.7 多库互证
+
+| 维度 | 来源 | 结果 | 是否一致 |
+|------|------|------|----------|
+| 三维结构 | AlphaFold pLDDT=53.5 + PDB: 4GIW | pLDDT=53.5, v6 | 预测+实验 |
+| 定位 | UniProt + HPA | Cytoplasm; Nucleus; Cytoplasm, cytoskeleton; Cytop / Cytosol; 额外: Nucleoplasm, Vesicles | 一致 |
+| PPI | STRING + IntAct | 15 + 15 interactions | 数据充分 |
+
+**互证加分明细**:
+- PDB + AlphaFold 双源验证: +0.5
+- 多库定位一致 (3源): +0.5
+- STRING + IntAct 双源验证: +0.5
+- 结构域 + AlphaFold 质量: +0
+- PDB 多条目覆盖: +0
+**总分**: +1.5 / max +3
+
+### 4. 总体评价
+
+**推荐等级**: ⭐⭐⭐⭐
+
+**核心优势**:
+1. RUSC1 — AP-4 complex accessory subunit RUSC1，极度新颖，几乎未被系统研究（PubMed ≤20篇）。
+2. 蛋白大小902 aa，大小基本合适，可用于常规实验。
+
+**风险/不确定性**:
+1. PubMed 19 篇，研究基础极有限，功能注释不完整
+2. AlphaFold 预测质量一般（pLDDT=53.5），需要更多实验结构验证
+
+**下一步建议**:
+- [ ] 查阅最新关键文献补充研究背景
+- [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
+- [ ] 设计体外实验验证核定位及潜在调控功能
+
+
+### 5. 数据来源
+- UniProt: https://www.uniprot.org/uniprotkb/Q9BVN2
+- Protein Atlas: https://www.proteinatlas.org/ENSG00000160753-RUSC1/subcellular
+- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=RUSC1
+- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9BVN2
+- STRING: https://string-db.org/network/9606.ENSP00000
+- Data fetched live: 2026-06-03

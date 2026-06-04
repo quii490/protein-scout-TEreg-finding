@@ -1,0 +1,19 @@
+metric	value
+Total reports	5683
+Scored	3369
+Rejected	2314
+nuke<=3 rejected	700
+UniProt ?	0
+AlphaFold ?	0
+Unknown UniProt URL	31
+Unknown AlphaFold URL	0
+No data/暂无数据	1521
+IF unavailable	637
+PAE 暂无数据	23
+Packet error/harvest failure	0
+Batch residue	3356
+only-PAE	536
+English reports	4898
+Rescued but rejected	1614
+Gate errors	2873
+Gate warnings	1840

@@ -1,0 +1,2862 @@
+{
+  "ICE1": [
+    {
+      "name": "ICE2",
+      "score": 0.292,
+      "exp_score": 0.292
+    },
+    {
+      "name": "ZC3H8",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "ELL3",
+      "score": 0.829,
+      "exp_score": 0.829
+    },
+    {
+      "name": "EAF1",
+      "score": 0.781,
+      "exp_score": 0.781
+    },
+    {
+      "name": "ELL",
+      "score": 0.292,
+      "exp_score": 0.292
+    },
+    {
+      "name": "ELL2",
+      "score": 0.292,
+      "exp_score": 0.292
+    },
+    {
+      "name": "SUPT5H",
+      "score": 0.3,
+      "exp_score": 0.3
+    },
+    {
+      "name": "AFF4",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "EAF2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "NELFB",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "ELOA",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "AFF1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "TCEA2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "CDK9",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "CCNT1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "NELFE",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "CTR9",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "ERCC6",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "MLLT3",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "MLLT1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "CDC73",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "CCNT2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "LEO1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "NELFCD",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "NELFA",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "PEX2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "RTF1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "ELOB",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "WDR61",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "ELOC",
+      "score": 0.0,
+      "exp_score": 0.0
+    }
+  ],
+  "ICE2": [
+    {
+      "name": "ICE1",
+      "score": 0.292,
+      "exp_score": 0.292
+    },
+    {
+      "name": "ZC3H8",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "ELL",
+      "score": 0.328,
+      "exp_score": 0.328
+    },
+    {
+      "name": "EAF1",
+      "score": 0.525,
+      "exp_score": 0.525
+    },
+    {
+      "name": "ELL3",
+      "score": 0.559,
+      "exp_score": 0.559
+    },
+    {
+      "name": "ZNF346",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "NAA15",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "ELL2",
+      "score": 0.091,
+      "exp_score": 0.091
+    },
+    {
+      "name": "EAF2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "AFF4",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "AFF1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "ELP4",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "ELOA",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "CDK9",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "CCNT1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "SUPT5H",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "TCEA2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "PEX2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "MLLT3",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "MLLT1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "CCNT2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "CDC73",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "CTR9",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "NELFB",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "RTF1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "SUPT4H1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "WDR61",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "LEO1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "NELFE",
+      "score": 0.041,
+      "exp_score": 0.041
+    },
+    {
+      "name": "NELFCD",
+      "score": 0.0,
+      "exp_score": 0.0
+    }
+  ],
+  "IER2": [
+    {
+      "name": "EGR1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "FOSB",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "FOS",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "JUNB",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "DUSP1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "ZFP36",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "ATF3",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "JUN",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "NR4A1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "PPP2R2A",
+      "score": 0.647,
+      "exp_score": 0.647
+    },
+    {
+      "name": "NR4A2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "BTG2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "EGR2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "IER3",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "CSRNP1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "EGR3",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "GADD45B",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "PHLDA1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "PPP2R1B",
+      "score": 0.5,
+      "exp_score": 0.5
+    },
+    {
+      "name": "PPP2R2D",
+      "score": 0.484,
+      "exp_score": 0.484
+    },
+    {
+      "name": "DUSP12",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "PPP2R1A",
+      "score": 0.474,
+      "exp_score": 0.474
+    },
+    {
+      "name": "SGO2",
+      "score": 0.467,
+      "exp_score": 0.467
+    },
+    {
+      "name": "PLPPR2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "PITX2",
+      "score": 0.433,
+      "exp_score": 0.433
+    },
+    {
+      "name": "CCN1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "ETS1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "IER5",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "TMEM125",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "ZBTB40",
+      "score": 0.44,
+      "exp_score": 0.44
+    }
+  ],
+  "IER5": [
+    {
+      "name": "MPDZ",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "PPP2R2C",
+      "score": 0.748,
+      "exp_score": 0.748
+    },
+    {
+      "name": "PPP2R1A",
+      "score": 0.616,
+      "exp_score": 0.616
+    },
+    {
+      "name": "PPP2R2D",
+      "score": 0.586,
+      "exp_score": 0.586
+    },
+    {
+      "name": "MINK1",
+      "score": 0.51,
+      "exp_score": 0.51
+    },
+    {
+      "name": "PPP2R2B",
+      "score": 0.579,
+      "exp_score": 0.579
+    },
+    {
+      "name": "PDZK1IP1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "MYCL",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "HSF1",
+      "score": 0.51,
+      "exp_score": 0.51
+    },
+    {
+      "name": "BTG2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "CDC25B",
+      "score": 0.292,
+      "exp_score": 0.292
+    },
+    {
+      "name": "TAL1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "TAL2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "ETS1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "C1QBP",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "STX6",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "IER2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "SERTAD1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "IER3",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "GADD45A",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "PLK2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "PHLDA3",
+      "score": 0.0,
+      "exp_score": 0.0
+    }
+  ],
+  "IFI35": [
+    {
+      "name": "FAU",
+      "score": 0.967,
+      "exp_score": 0.967
+    },
+    {
+      "name": "NMI",
+      "score": 0.812,
+      "exp_score": 0.812
+    },
+    {
+      "name": "RPS18",
+      "score": 0.84,
+      "exp_score": 0.84
+    },
+    {
+      "name": "RPL8",
+      "score": 0.839,
+      "exp_score": 0.839
+    },
+    {
+      "name": "RPL23",
+      "score": 0.839,
+      "exp_score": 0.839
+    },
+    {
+      "name": "RPS19",
+      "score": 0.839,
+      "exp_score": 0.839
+    },
+    {
+      "name": "RPL36",
+      "score": 0.834,
+      "exp_score": 0.834
+    },
+    {
+      "name": "RPS24",
+      "score": 0.84,
+      "exp_score": 0.84
+    },
+    {
+      "name": "RPL14",
+      "score": 0.836,
+      "exp_score": 0.836
+    },
+    {
+      "name": "RPL35A",
+      "score": 0.84,
+      "exp_score": 0.84
+    },
+    {
+      "name": "RPS11",
+      "score": 0.84,
+      "exp_score": 0.84
+    },
+    {
+      "name": "RPL38",
+      "score": 0.84,
+      "exp_score": 0.84
+    },
+    {
+      "name": "RPL34",
+      "score": 0.839,
+      "exp_score": 0.839
+    },
+    {
+      "name": "RPL13",
+      "score": 0.839,
+      "exp_score": 0.839
+    },
+    {
+      "name": "RPL18",
+      "score": 0.838,
+      "exp_score": 0.838
+    },
+    {
+      "name": "RPS25",
+      "score": 0.84,
+      "exp_score": 0.84
+    },
+    {
+      "name": "RPS20",
+      "score": 0.839,
+      "exp_score": 0.839
+    },
+    {
+      "name": "RPS3A",
+      "score": 0.834,
+      "exp_score": 0.834
+    },
+    {
+      "name": "RPL6",
+      "score": 0.839,
+      "exp_score": 0.839
+    },
+    {
+      "name": "RPS15",
+      "score": 0.84,
+      "exp_score": 0.84
+    },
+    {
+      "name": "RPL23A",
+      "score": 0.839,
+      "exp_score": 0.839
+    },
+    {
+      "name": "RPS26",
+      "score": 0.837,
+      "exp_score": 0.837
+    },
+    {
+      "name": "RPL31",
+      "score": 0.835,
+      "exp_score": 0.835
+    },
+    {
+      "name": "RPS16",
+      "score": 0.834,
+      "exp_score": 0.834
+    },
+    {
+      "name": "RPL27A",
+      "score": 0.84,
+      "exp_score": 0.84
+    },
+    {
+      "name": "RPS21",
+      "score": 0.84,
+      "exp_score": 0.84
+    },
+    {
+      "name": "RPL24",
+      "score": 0.839,
+      "exp_score": 0.839
+    },
+    {
+      "name": "UBA52",
+      "score": 0.841,
+      "exp_score": 0.841
+    },
+    {
+      "name": "RPL21",
+      "score": 0.839,
+      "exp_score": 0.839
+    },
+    {
+      "name": "RPL18A",
+      "score": 0.839,
+      "exp_score": 0.839
+    }
+  ],
+  "IFRD2": [
+    {
+      "name": "FAU",
+      "score": 0.967,
+      "exp_score": 0.967
+    },
+    {
+      "name": "RPL36",
+      "score": 0.752,
+      "exp_score": 0.752
+    },
+    {
+      "name": "RPS7",
+      "score": 0.75,
+      "exp_score": 0.75
+    },
+    {
+      "name": "RPL18A",
+      "score": 0.751,
+      "exp_score": 0.751
+    },
+    {
+      "name": "RPL11",
+      "score": 0.75,
+      "exp_score": 0.75
+    },
+    {
+      "name": "RPL8",
+      "score": 0.75,
+      "exp_score": 0.75
+    },
+    {
+      "name": "RPS26",
+      "score": 0.75,
+      "exp_score": 0.75
+    },
+    {
+      "name": "RPSA",
+      "score": 0.75,
+      "exp_score": 0.75
+    },
+    {
+      "name": "RPS28",
+      "score": 0.75,
+      "exp_score": 0.75
+    },
+    {
+      "name": "RPS2",
+      "score": 0.75,
+      "exp_score": 0.75
+    },
+    {
+      "name": "RPS16",
+      "score": 0.753,
+      "exp_score": 0.753
+    },
+    {
+      "name": "RPS21",
+      "score": 0.75,
+      "exp_score": 0.75
+    },
+    {
+      "name": "RPL35",
+      "score": 0.75,
+      "exp_score": 0.75
+    },
+    {
+      "name": "RPS18",
+      "score": 0.75,
+      "exp_score": 0.75
+    },
+    {
+      "name": "RPL13",
+      "score": 0.75,
+      "exp_score": 0.75
+    },
+    {
+      "name": "RPL18",
+      "score": 0.75,
+      "exp_score": 0.75
+    },
+    {
+      "name": "RPS15",
+      "score": 0.75,
+      "exp_score": 0.75
+    },
+    {
+      "name": "RPL38",
+      "score": 0.75,
+      "exp_score": 0.75
+    },
+    {
+      "name": "RPL19",
+      "score": 0.75,
+      "exp_score": 0.75
+    },
+    {
+      "name": "RPS6",
+      "score": 0.753,
+      "exp_score": 0.753
+    },
+    {
+      "name": "RPS20",
+      "score": 0.75,
+      "exp_score": 0.75
+    },
+    {
+      "name": "RPL27",
+      "score": 0.751,
+      "exp_score": 0.751
+    },
+    {
+      "name": "RPS23",
+      "score": 0.75,
+      "exp_score": 0.75
+    },
+    {
+      "name": "RPS19",
+      "score": 0.75,
+      "exp_score": 0.75
+    },
+    {
+      "name": "RPL6",
+      "score": 0.75,
+      "exp_score": 0.75
+    },
+    {
+      "name": "RPS8",
+      "score": 0.75,
+      "exp_score": 0.75
+    },
+    {
+      "name": "RPL4",
+      "score": 0.75,
+      "exp_score": 0.75
+    },
+    {
+      "name": "RPL14",
+      "score": 0.75,
+      "exp_score": 0.75
+    },
+    {
+      "name": "RPS3",
+      "score": 0.75,
+      "exp_score": 0.75
+    },
+    {
+      "name": "RPS27A",
+      "score": 0.75,
+      "exp_score": 0.75
+    }
+  ],
+  "IHO1": [
+    {
+      "name": "REC114",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "HORMAD1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "MEI4",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "CXXC1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "ANKRD31",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "MEI1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "SPO11",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "C11orf80",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "PRDM9",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "CD151",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "PRR35",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "SYCP3",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "SYCP1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "HORMAD2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "RAD21L1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "KBTBD12",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "RRP36",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "M0QYG6_HUMAN",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "FKBP6",
+      "score": 0.504,
+      "exp_score": 0.504
+    },
+    {
+      "name": "REC8",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "SYCE1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "TOGARAM1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "STAG3",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "TRAPPC6B",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "KCNG3",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "SIPA1L2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "VWC2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "ADARB1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "PKDCC",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "TMEM204",
+      "score": 0.0,
+      "exp_score": 0.0
+    }
+  ],
+  "ILF2": [
+    {
+      "name": "ILF3",
+      "score": 0.922,
+      "exp_score": 0.922
+    },
+    {
+      "name": "HNRNPC",
+      "score": 0.599,
+      "exp_score": 0.599
+    },
+    {
+      "name": "DHX9",
+      "score": 0.621,
+      "exp_score": 0.621
+    },
+    {
+      "name": "HNRNPM",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "HNRNPH1",
+      "score": 0.362,
+      "exp_score": 0.362
+    },
+    {
+      "name": "MATR3-2",
+      "score": 0.194,
+      "exp_score": 0.194
+    },
+    {
+      "name": "HNRNPA1",
+      "score": 0.584,
+      "exp_score": 0.584
+    },
+    {
+      "name": "HNRNPR",
+      "score": 0.626,
+      "exp_score": 0.626
+    },
+    {
+      "name": "YBX1",
+      "score": 0.598,
+      "exp_score": 0.598
+    },
+    {
+      "name": "MATR3",
+      "score": 0.43,
+      "exp_score": 0.43
+    },
+    {
+      "name": "FUS",
+      "score": 0.594,
+      "exp_score": 0.594
+    },
+    {
+      "name": "SYNCRIP",
+      "score": 0.372,
+      "exp_score": 0.372
+    },
+    {
+      "name": "SRSF3",
+      "score": 0.205,
+      "exp_score": 0.205
+    },
+    {
+      "name": "HNRNPH2",
+      "score": 0.045,
+      "exp_score": 0.045
+    },
+    {
+      "name": "HNRNPF",
+      "score": 0.045,
+      "exp_score": 0.045
+    },
+    {
+      "name": "HNRNPU",
+      "score": 0.313,
+      "exp_score": 0.313
+    },
+    {
+      "name": "HNRNPK",
+      "score": 0.07,
+      "exp_score": 0.07
+    },
+    {
+      "name": "RBMX",
+      "score": 0.233,
+      "exp_score": 0.233
+    },
+    {
+      "name": "ELAVL1",
+      "score": 0.187,
+      "exp_score": 0.187
+    },
+    {
+      "name": "HNRNPA2B1",
+      "score": 0.208,
+      "exp_score": 0.208
+    },
+    {
+      "name": "SNRPF",
+      "score": 0.188,
+      "exp_score": 0.188
+    },
+    {
+      "name": "HNRNPL",
+      "score": 0.219,
+      "exp_score": 0.219
+    },
+    {
+      "name": "XRCC6",
+      "score": 0.292,
+      "exp_score": 0.292
+    },
+    {
+      "name": "TRA2B",
+      "score": 0.22,
+      "exp_score": 0.22
+    },
+    {
+      "name": "RBM14",
+      "score": 0.36,
+      "exp_score": 0.36
+    },
+    {
+      "name": "SSB",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "ALYREF",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "EIF4A3",
+      "score": 0.626,
+      "exp_score": 0.626
+    },
+    {
+      "name": "SNRPD2",
+      "score": 0.139,
+      "exp_score": 0.139
+    },
+    {
+      "name": "ZFR",
+      "score": 0.751,
+      "exp_score": 0.751
+    }
+  ],
+  "IPMK": [
+    {
+      "name": "IPPK",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "ITPK1",
+      "score": 0.045,
+      "exp_score": 0.045
+    },
+    {
+      "name": "MINPP1",
+      "score": 0.053,
+      "exp_score": 0.053
+    },
+    {
+      "name": "ITPKB",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "ITPKA",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "ITPKC",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "INPP5J",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "PLCD1",
+      "score": 0.093,
+      "exp_score": 0.093
+    },
+    {
+      "name": "INPP5K",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "PLCB1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "INPP5A",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "PLCG1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "PLCD4",
+      "score": 0.093,
+      "exp_score": 0.093
+    },
+    {
+      "name": "PLCZ1",
+      "score": 0.093,
+      "exp_score": 0.093
+    },
+    {
+      "name": "PLCE1",
+      "score": 0.093,
+      "exp_score": 0.093
+    },
+    {
+      "name": "PLCH1",
+      "score": 0.093,
+      "exp_score": 0.093
+    },
+    {
+      "name": "PLCH2",
+      "score": 0.093,
+      "exp_score": 0.093
+    },
+    {
+      "name": "PLCD3",
+      "score": 0.093,
+      "exp_score": 0.093
+    },
+    {
+      "name": "PLCG2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "PLCB3",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "PLCB4",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "PLCB2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "PPIP5K1",
+      "score": 0.093,
+      "exp_score": 0.093
+    },
+    {
+      "name": "SRF",
+      "score": 0.233,
+      "exp_score": 0.233
+    },
+    {
+      "name": "MAP4K3",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "ISYNA1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "IMPA1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "STK11",
+      "score": 0.045,
+      "exp_score": 0.045
+    },
+    {
+      "name": "TP53",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "PIP5K1A",
+      "score": 0.0,
+      "exp_score": 0.0
+    }
+  ],
+  "IRX1": [
+    {
+      "name": "KCND2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "SMYD1",
+      "score": 0.056,
+      "exp_score": 0.056
+    },
+    {
+      "name": "HAND2",
+      "score": 0.047,
+      "exp_score": 0.047
+    },
+    {
+      "name": "AKAP11",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "KCNE4",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "FTO",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "IRX6",
+      "score": 0.271,
+      "exp_score": 0.271
+    },
+    {
+      "name": "ARID5B",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "GPD1L",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "IRX2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "KCNE3",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "CACNB2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "NKX2-5",
+      "score": 0.052,
+      "exp_score": 0.052
+    },
+    {
+      "name": "SCN5A",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "RPGRIP1L",
+      "score": 0.069,
+      "exp_score": 0.069
+    },
+    {
+      "name": "IRX3",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "HHEX",
+      "score": 0.301,
+      "exp_score": 0.301
+    },
+    {
+      "name": "SCN1B",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "SCN3B",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "SKOR2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "CACNA1C",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "SRF",
+      "score": 0.304,
+      "exp_score": 0.304
+    },
+    {
+      "name": "GPC5",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "DLX2",
+      "score": 0.072,
+      "exp_score": 0.072
+    },
+    {
+      "name": "POSTN",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "MKX",
+      "score": 0.271,
+      "exp_score": 0.271
+    },
+    {
+      "name": "IRX4",
+      "score": 0.206,
+      "exp_score": 0.206
+    },
+    {
+      "name": "SOX8",
+      "score": 0.058,
+      "exp_score": 0.058
+    },
+    {
+      "name": "TBX5",
+      "score": 0.046,
+      "exp_score": 0.046
+    },
+    {
+      "name": "VSX1",
+      "score": 0.077,
+      "exp_score": 0.077
+    }
+  ],
+  "IRX2": [
+    {
+      "name": "AKAP11",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "HHEX",
+      "score": 0.301,
+      "exp_score": 0.301
+    },
+    {
+      "name": "HOXB8",
+      "score": 0.094,
+      "exp_score": 0.094
+    },
+    {
+      "name": "IRX1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "C5orf38",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "GPC5",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "NKX6-1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "IRX3",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "POSTN",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "SMYD1",
+      "score": 0.056,
+      "exp_score": 0.056
+    },
+    {
+      "name": "GATA4",
+      "score": 0.068,
+      "exp_score": 0.068
+    },
+    {
+      "name": "TBC1D4",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "C17orf64",
+      "score": 0.066,
+      "exp_score": 0.066
+    },
+    {
+      "name": "DLX2",
+      "score": 0.072,
+      "exp_score": 0.072
+    },
+    {
+      "name": "PAX4",
+      "score": 0.071,
+      "exp_score": 0.071
+    },
+    {
+      "name": "HOXD12",
+      "score": 0.098,
+      "exp_score": 0.098
+    },
+    {
+      "name": "NKX6-2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "ISL1",
+      "score": 0.071,
+      "exp_score": 0.071
+    },
+    {
+      "name": "PAX6",
+      "score": 0.071,
+      "exp_score": 0.071
+    },
+    {
+      "name": "MAFB",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "DLX1",
+      "score": 0.072,
+      "exp_score": 0.072
+    },
+    {
+      "name": "POU6F2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "SRF",
+      "score": 0.304,
+      "exp_score": 0.304
+    },
+    {
+      "name": "ALX1",
+      "score": 0.071,
+      "exp_score": 0.071
+    },
+    {
+      "name": "NKX2-2",
+      "score": 0.072,
+      "exp_score": 0.072
+    },
+    {
+      "name": "BARHL2",
+      "score": 0.065,
+      "exp_score": 0.065
+    },
+    {
+      "name": "IRX5",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "NEUROG3",
+      "score": 0.05,
+      "exp_score": 0.05
+    },
+    {
+      "name": "IRX4",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "OTX2",
+      "score": 0.0,
+      "exp_score": 0.0
+    }
+  ],
+  "IRX4": [
+    {
+      "name": "NKX2-5",
+      "score": 0.052,
+      "exp_score": 0.052
+    },
+    {
+      "name": "HAND2",
+      "score": 0.047,
+      "exp_score": 0.047
+    },
+    {
+      "name": "AKAP11",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "TBX5",
+      "score": 0.046,
+      "exp_score": 0.046
+    },
+    {
+      "name": "NPPA",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "MYL2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "MYL7",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "KCNJ3",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "GPC5",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "SRF",
+      "score": 0.304,
+      "exp_score": 0.304
+    },
+    {
+      "name": "TBX20",
+      "score": 0.057,
+      "exp_score": 0.057
+    },
+    {
+      "name": "HEY2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "GATA4",
+      "score": 0.068,
+      "exp_score": 0.068
+    },
+    {
+      "name": "POSTN",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "ISL1",
+      "score": 0.071,
+      "exp_score": 0.071
+    },
+    {
+      "name": "NR2F2",
+      "score": 0.045,
+      "exp_score": 0.045
+    },
+    {
+      "name": "SHOX2",
+      "score": 0.071,
+      "exp_score": 0.071
+    },
+    {
+      "name": "MEF2C",
+      "score": 0.046,
+      "exp_score": 0.046
+    },
+    {
+      "name": "TBC1D4",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "HCN4",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "IRX1",
+      "score": 0.206,
+      "exp_score": 0.206
+    },
+    {
+      "name": "GJA5",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "MYH6",
+      "score": 0.069,
+      "exp_score": 0.069
+    },
+    {
+      "name": "TBX18",
+      "score": 0.057,
+      "exp_score": 0.057
+    },
+    {
+      "name": "MKX",
+      "score": 0.206,
+      "exp_score": 0.206
+    },
+    {
+      "name": "TNNT2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "OSR2",
+      "score": 0.066,
+      "exp_score": 0.066
+    },
+    {
+      "name": "NUDT11",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "TCAP",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "PITX2",
+      "score": 0.0,
+      "exp_score": 0.0
+    }
+  ],
+  "IRX5": [
+    {
+      "name": "IRX3",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "KCND2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "SMYD1",
+      "score": 0.056,
+      "exp_score": 0.056
+    },
+    {
+      "name": "HAND2",
+      "score": 0.047,
+      "exp_score": 0.047
+    },
+    {
+      "name": "KCNE4",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "FTO",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "GPD1L",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "IRX6",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "ARID5B",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "SRF",
+      "score": 0.304,
+      "exp_score": 0.304
+    },
+    {
+      "name": "RPGRIP1L",
+      "score": 0.069,
+      "exp_score": 0.069
+    },
+    {
+      "name": "KCNE3",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "SCN1B",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "CACNB2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "SCN5A",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "NKX2-5",
+      "score": 0.052,
+      "exp_score": 0.052
+    },
+    {
+      "name": "SCN3B",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "CACNA1C",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "KCNE2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "VSX1",
+      "score": 0.077,
+      "exp_score": 0.077
+    },
+    {
+      "name": "HCN4",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "DLX2",
+      "score": 0.072,
+      "exp_score": 0.072
+    },
+    {
+      "name": "DICER1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "DLX1",
+      "score": 0.072,
+      "exp_score": 0.072
+    },
+    {
+      "name": "SHOX2",
+      "score": 0.071,
+      "exp_score": 0.071
+    },
+    {
+      "name": "TBX5",
+      "score": 0.046,
+      "exp_score": 0.046
+    },
+    {
+      "name": "HHEX",
+      "score": 0.301,
+      "exp_score": 0.301
+    },
+    {
+      "name": "CDX1",
+      "score": 0.072,
+      "exp_score": 0.072
+    },
+    {
+      "name": "IRX2",
+      "score": 0.0,
+      "exp_score": 0.0
+    }
+  ],
+  "IRX6": [
+    {
+      "name": "FTO",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "NKX2-2",
+      "score": 0.072,
+      "exp_score": 0.072
+    },
+    {
+      "name": "SIX3",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "OLIG2",
+      "score": 0.05,
+      "exp_score": 0.05
+    },
+    {
+      "name": "RPGRIP1L",
+      "score": 0.069,
+      "exp_score": 0.069
+    },
+    {
+      "name": "IRX1",
+      "score": 0.271,
+      "exp_score": 0.271
+    },
+    {
+      "name": "IRX5",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "ARID5B",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "DBX2",
+      "score": 0.065,
+      "exp_score": 0.065
+    },
+    {
+      "name": "PAX6",
+      "score": 0.071,
+      "exp_score": 0.071
+    },
+    {
+      "name": "ISL1",
+      "score": 0.071,
+      "exp_score": 0.071
+    },
+    {
+      "name": "GBX2",
+      "score": 0.094,
+      "exp_score": 0.094
+    },
+    {
+      "name": "NKX6-1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "NKX6-2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "SMYD1",
+      "score": 0.056,
+      "exp_score": 0.056
+    },
+    {
+      "name": "DBX1",
+      "score": 0.065,
+      "exp_score": 0.065
+    },
+    {
+      "name": "SHH",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "EN1",
+      "score": 0.109,
+      "exp_score": 0.109
+    },
+    {
+      "name": "MKX",
+      "score": 0.271,
+      "exp_score": 0.271
+    },
+    {
+      "name": "HHEX",
+      "score": 0.301,
+      "exp_score": 0.301
+    },
+    {
+      "name": "OTX2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "NKX2-5",
+      "score": 0.052,
+      "exp_score": 0.052
+    },
+    {
+      "name": "ISL2",
+      "score": 0.071,
+      "exp_score": 0.071
+    },
+    {
+      "name": "PAX3",
+      "score": 0.071,
+      "exp_score": 0.071
+    },
+    {
+      "name": "TBX5",
+      "score": 0.046,
+      "exp_score": 0.046
+    },
+    {
+      "name": "SHOX2",
+      "score": 0.071,
+      "exp_score": 0.071
+    },
+    {
+      "name": "SRF",
+      "score": 0.304,
+      "exp_score": 0.304
+    },
+    {
+      "name": "LHX3",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "VSX2",
+      "score": 0.077,
+      "exp_score": 0.077
+    },
+    {
+      "name": "GJA5",
+      "score": 0.0,
+      "exp_score": 0.0
+    }
+  ],
+  "ISG20L2": [
+    {
+      "name": "PCNA",
+      "score": 0.416,
+      "exp_score": 0.416
+    },
+    {
+      "name": "NOL9",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "NPM1",
+      "score": 0.19,
+      "exp_score": 0.19
+    },
+    {
+      "name": "EML1",
+      "score": 0.6,
+      "exp_score": 0.6
+    },
+    {
+      "name": "WDR18",
+      "score": 0.045,
+      "exp_score": 0.045
+    },
+    {
+      "name": "PAN3",
+      "score": 0.498,
+      "exp_score": 0.498
+    },
+    {
+      "name": "RPL7",
+      "score": 0.087,
+      "exp_score": 0.087
+    },
+    {
+      "name": "EXOSC10",
+      "score": 0.125,
+      "exp_score": 0.125
+    },
+    {
+      "name": "NIP7",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "TEX10",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "DIS3",
+      "score": 0.054,
+      "exp_score": 0.054
+    },
+    {
+      "name": "RPL3",
+      "score": 0.134,
+      "exp_score": 0.134
+    },
+    {
+      "name": "FTSJ3",
+      "score": 0.099,
+      "exp_score": 0.099
+    },
+    {
+      "name": "DDX55",
+      "score": 0.091,
+      "exp_score": 0.091
+    },
+    {
+      "name": "FLAD1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "UTP23",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "LAS1L",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "RPL5",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "CRCP",
+      "score": 0.096,
+      "exp_score": 0.096
+    },
+    {
+      "name": "RPL28",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "RPL19",
+      "score": 0.132,
+      "exp_score": 0.132
+    },
+    {
+      "name": "RPL21",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "PNPT1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "RPL6",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "RPL31",
+      "score": 0.139,
+      "exp_score": 0.139
+    },
+    {
+      "name": "RPL27A",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "RPL23",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "PELP1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "RPLP0",
+      "score": 0.065,
+      "exp_score": 0.065
+    },
+    {
+      "name": "MOCS3",
+      "score": 0.0,
+      "exp_score": 0.0
+    }
+  ],
+  "ISX": [
+    {
+      "name": "BCO1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "SCARB1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "BCO2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "DCK",
+      "score": 0.591,
+      "exp_score": 0.591
+    },
+    {
+      "name": "RDH12",
+      "score": 0.1,
+      "exp_score": 0.1
+    },
+    {
+      "name": "KLF5",
+      "score": 0.071,
+      "exp_score": 0.071
+    },
+    {
+      "name": "RBP2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "RARS1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "PLAAT2",
+      "score": 0.045,
+      "exp_score": 0.045
+    },
+    {
+      "name": "LRAT",
+      "score": 0.0,
+      "exp_score": 0.0
+    }
+  ],
+  "IVNS1ABP": [
+    {
+      "name": "PRPSAP1",
+      "score": 0.815,
+      "exp_score": 0.815
+    },
+    {
+      "name": "HNRNPK",
+      "score": 0.292,
+      "exp_score": 0.292
+    },
+    {
+      "name": "TLX2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "PRPSAP2",
+      "score": 0.784,
+      "exp_score": 0.784
+    },
+    {
+      "name": "PRODH",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "SRSF2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "ENO1",
+      "score": 0.552,
+      "exp_score": 0.552
+    },
+    {
+      "name": "SART1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "SWT1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "NCL",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "SRSF6",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "TRMT1L",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "PRPS1",
+      "score": 0.453,
+      "exp_score": 0.453
+    },
+    {
+      "name": "NANP",
+      "score": 0.426,
+      "exp_score": 0.426
+    },
+    {
+      "name": "HNRNPUL1",
+      "score": 0.3,
+      "exp_score": 0.3
+    },
+    {
+      "name": "RSPH3",
+      "score": 0.426,
+      "exp_score": 0.426
+    },
+    {
+      "name": "HNRNPU",
+      "score": 0.3,
+      "exp_score": 0.3
+    },
+    {
+      "name": "HNRNPC",
+      "score": 0.292,
+      "exp_score": 0.292
+    },
+    {
+      "name": "HNRNPA1",
+      "score": 0.294,
+      "exp_score": 0.294
+    },
+    {
+      "name": "KLHL20",
+      "score": 0.31,
+      "exp_score": 0.31
+    },
+    {
+      "name": "PARP1",
+      "score": 0.424,
+      "exp_score": 0.424
+    },
+    {
+      "name": "SYNCRIP",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "MAD2L2",
+      "score": 0.426,
+      "exp_score": 0.426
+    },
+    {
+      "name": "ERVMER34-1",
+      "score": 0.091,
+      "exp_score": 0.091
+    },
+    {
+      "name": "HSP90AB1",
+      "score": 0.292,
+      "exp_score": 0.292
+    },
+    {
+      "name": "DDX17",
+      "score": 0.292,
+      "exp_score": 0.292
+    },
+    {
+      "name": "DDX21",
+      "score": 0.292,
+      "exp_score": 0.292
+    },
+    {
+      "name": "FBF1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "SERPINB10",
+      "score": 0.045,
+      "exp_score": 0.045
+    },
+    {
+      "name": "ILF3",
+      "score": 0.292,
+      "exp_score": 0.292
+    }
+  ],
+  "IWS1": [
+    {
+      "name": "SUPT6H",
+      "score": 0.981,
+      "exp_score": 0.981
+    },
+    {
+      "name": "SUPT5H",
+      "score": 0.903,
+      "exp_score": 0.903
+    },
+    {
+      "name": "TCEA1",
+      "score": 0.399,
+      "exp_score": 0.399
+    },
+    {
+      "name": "SETD2",
+      "score": 0.553,
+      "exp_score": 0.553
+    },
+    {
+      "name": "POLR2A",
+      "score": 0.889,
+      "exp_score": 0.889
+    },
+    {
+      "name": "SUPT16H",
+      "score": 0.763,
+      "exp_score": 0.763
+    },
+    {
+      "name": "LEO1",
+      "score": 0.8,
+      "exp_score": 0.8
+    },
+    {
+      "name": "SUPT4H1",
+      "score": 0.766,
+      "exp_score": 0.766
+    },
+    {
+      "name": "POLR2B",
+      "score": 0.882,
+      "exp_score": 0.882
+    },
+    {
+      "name": "CTR9",
+      "score": 0.803,
+      "exp_score": 0.803
+    },
+    {
+      "name": "POLR2C",
+      "score": 0.845,
+      "exp_score": 0.845
+    },
+    {
+      "name": "SSRP1",
+      "score": 0.614,
+      "exp_score": 0.614
+    },
+    {
+      "name": "RTF1",
+      "score": 0.77,
+      "exp_score": 0.77
+    },
+    {
+      "name": "ELOF1",
+      "score": 0.808,
+      "exp_score": 0.808
+    },
+    {
+      "name": "CTDP1",
+      "score": 0.164,
+      "exp_score": 0.164
+    },
+    {
+      "name": "SRBD1",
+      "score": 0.788,
+      "exp_score": 0.788
+    },
+    {
+      "name": "EEPD1",
+      "score": 0.788,
+      "exp_score": 0.788
+    },
+    {
+      "name": "C6orf15",
+      "score": 0.77,
+      "exp_score": 0.77
+    },
+    {
+      "name": "AFF4",
+      "score": 0.05,
+      "exp_score": 0.05
+    },
+    {
+      "name": "MLLT3",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "TCEA2",
+      "score": 0.399,
+      "exp_score": 0.399
+    },
+    {
+      "name": "ELL",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "EAF2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "EAF1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "MLLT1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "TCEA3",
+      "score": 0.399,
+      "exp_score": 0.399
+    },
+    {
+      "name": "POLR1C",
+      "score": 0.743,
+      "exp_score": 0.743
+    },
+    {
+      "name": "POLR2E",
+      "score": 0.741,
+      "exp_score": 0.741
+    },
+    {
+      "name": "POLR1B",
+      "score": 0.594,
+      "exp_score": 0.594
+    },
+    {
+      "name": "CDC73",
+      "score": 0.507,
+      "exp_score": 0.507
+    }
+  ],
+  "JADE1": [
+    {
+      "name": "KAT7",
+      "score": 0.892,
+      "exp_score": 0.892
+    },
+    {
+      "name": "ING4",
+      "score": 0.767,
+      "exp_score": 0.767
+    },
+    {
+      "name": "MEAF6",
+      "score": 0.836,
+      "exp_score": 0.836
+    },
+    {
+      "name": "ING5",
+      "score": 0.801,
+      "exp_score": 0.801
+    },
+    {
+      "name": "VHL",
+      "score": 0.708,
+      "exp_score": 0.708
+    },
+    {
+      "name": "NPHP4",
+      "score": 0.309,
+      "exp_score": 0.309
+    },
+    {
+      "name": "H3C12",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "H4C6",
+      "score": 0.292,
+      "exp_score": 0.292
+    },
+    {
+      "name": "H3-2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "H3-5",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "H3C13",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "H3-4",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "SFMBT2",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "KAT5",
+      "score": 0.292,
+      "exp_score": 0.292
+    },
+    {
+      "name": "BRPF1",
+      "score": 0.225,
+      "exp_score": 0.225
+    },
+    {
+      "name": "JADE2",
+      "score": 0.269,
+      "exp_score": 0.269
+    },
+    {
+      "name": "SMOC1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "JADE3",
+      "score": 0.225,
+      "exp_score": 0.225
+    },
+    {
+      "name": "H4C7",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "H3-3B",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "ELOC",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "SLC38A4",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "TP53",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "KAT6B",
+      "score": 0.226,
+      "exp_score": 0.226
+    },
+    {
+      "name": "CCT6B",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "H2AC18",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "H2AC20",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "KAT6A",
+      "score": 0.225,
+      "exp_score": 0.225
+    },
+    {
+      "name": "CTNNB1",
+      "score": 0.292,
+      "exp_score": 0.292
+    },
+    {
+      "name": "KIF3A",
+      "score": 0.0,
+      "exp_score": 0.0
+    }
+  ],
+  "JADE2": [
+    {
+      "name": "ING4",
+      "score": 0.874,
+      "exp_score": 0.874
+    },
+    {
+      "name": "KAT7",
+      "score": 0.839,
+      "exp_score": 0.839
+    },
+    {
+      "name": "MEAF6",
+      "score": 0.799,
+      "exp_score": 0.799
+    },
+    {
+      "name": "ING5",
+      "score": 0.861,
+      "exp_score": 0.861
+    },
+    {
+      "name": "ING3",
+      "score": 0.592,
+      "exp_score": 0.592
+    },
+    {
+      "name": "SETD1A",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "JADE3",
+      "score": 0.277,
+      "exp_score": 0.277
+    },
+    {
+      "name": "JADE1",
+      "score": 0.269,
+      "exp_score": 0.269
+    },
+    {
+      "name": "AARSD1",
+      "score": 0.41,
+      "exp_score": 0.41
+    },
+    {
+      "name": "BRPF3",
+      "score": 0.225,
+      "exp_score": 0.225
+    },
+    {
+      "name": "H3C12",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "PROB1",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "CCDC198",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "MYO9A",
+      "score": 0.455,
+      "exp_score": 0.455
+    },
+    {
+      "name": "USP28",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "OR10G6",
+      "score": 0.0,
+      "exp_score": 0.0
+    },
+    {
+      "name": "PIK3R4",
+      "score": 0.439,
+      "exp_score": 0.439
+    },
+    {
+      "name": "KAT6A",
+      "score": 0.225,
+      "exp_score": 0.225
+    },
+    {
+      "name": "PIK3C3",
+      "score": 0.431,
+      "exp_score": 0.431
+    },
+    {
+      "name": "CCDC93",
+      "score": 0.422,
+      "exp_score": 0.422
+    },
+    {
+      "name": "TEDC1",
+      "score": 0.421,
+      "exp_score": 0.421
+    },
+    {
+      "name": "KAT6B",
+      "score": 0.225,
+      "exp_score": 0.225
+    },
+    {
+      "name": "DDX24",
+      "score": 0.0,
+      "exp_score": 0.0
+    }
+  ]
+}

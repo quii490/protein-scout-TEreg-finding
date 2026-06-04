@@ -1,0 +1,106 @@
+{
+  "source_sheet": "研究很多",
+  "batch_index": 1,
+  "genes": [
+    {
+      "gene": "DNPH1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "OGFOD2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "OGFOD3",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "FSAF1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "NT5DC1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ABRACL",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ANP32D",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ACBD6",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ACYP1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ACYP2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "AP5S1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "AP5Z1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ADPRH",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "AARSD1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ALG1L2",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "NPEPL1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "AMMECR1",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "AMMECR1L",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ANAPC15",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ANAPC16",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ANKAR",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ANKDD1A",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ASB10",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ASB13",
+      "source_sheet": "研究很多"
+    },
+    {
+      "gene": "ANKRD16",
+      "source_sheet": "研究很多"
+    }
+  ]
+}

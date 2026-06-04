@@ -1,0 +1,3166 @@
+{
+  "KANSL1": {
+    "pubmed_count": 171,
+    "pubmed_ids": [
+      "42151137",
+      "42088849",
+      "41992370",
+      "41959502",
+      "41763442"
+    ],
+    "string": [
+      {
+        "name": "PHF20",
+        "score": 0
+      },
+      {
+        "name": "WDR5",
+        "score": 0
+      },
+      {
+        "name": "KANSL2",
+        "score": 0
+      },
+      {
+        "name": "MCRS1",
+        "score": 0
+      },
+      {
+        "name": "KAT8",
+        "score": 0
+      },
+      {
+        "name": "KANSL3",
+        "score": 0
+      },
+      {
+        "name": "HCFC1",
+        "score": 0
+      },
+      {
+        "name": "RBBP5",
+        "score": 0
+      },
+      {
+        "name": "KMT2A",
+        "score": 0
+      },
+      {
+        "name": "CHD8",
+        "score": 0
+      },
+      {
+        "name": "OGT",
+        "score": 0
+      },
+      {
+        "name": "PELP1",
+        "score": 0
+      },
+      {
+        "name": "MGA",
+        "score": 0
+      },
+      {
+        "name": "TAF4",
+        "score": 0
+      },
+      {
+        "name": "RUVBL1",
+        "score": 0
+      },
+      {
+        "name": "TAF1",
+        "score": 0
+      },
+      {
+        "name": "STH",
+        "score": 0
+      },
+      {
+        "name": "PHF20L1",
+        "score": 0
+      },
+      {
+        "name": "PRPF31",
+        "score": 0
+      },
+      {
+        "name": "TAF6",
+        "score": 0
+      }
+    ]
+  },
+  "KANSL2": {
+    "pubmed_count": 15,
+    "pubmed_ids": [
+      "41787092",
+      "41294048",
+      "41028714",
+      "37682714",
+      "37624894"
+    ],
+    "string": [
+      {
+        "name": "WDR5",
+        "score": 0
+      },
+      {
+        "name": "KANSL3",
+        "score": 0
+      },
+      {
+        "name": "KANSL1",
+        "score": 0
+      },
+      {
+        "name": "MCRS1",
+        "score": 0
+      },
+      {
+        "name": "PHF20",
+        "score": 0
+      },
+      {
+        "name": "OGT",
+        "score": 0
+      },
+      {
+        "name": "KAT8",
+        "score": 0
+      },
+      {
+        "name": "HCFC1",
+        "score": 0
+      },
+      {
+        "name": "MSL3",
+        "score": 0
+      },
+      {
+        "name": "PHF20L1",
+        "score": 0
+      },
+      {
+        "name": "MSL2",
+        "score": 0
+      },
+      {
+        "name": "MSL1",
+        "score": 0
+      },
+      {
+        "name": "KAT5",
+        "score": 0
+      },
+      {
+        "name": "ING3",
+        "score": 0
+      },
+      {
+        "name": "TRRAP",
+        "score": 0
+      },
+      {
+        "name": "ACTL6A",
+        "score": 0
+      },
+      {
+        "name": "DMAP1",
+        "score": 0
+      },
+      {
+        "name": "RUVBL1",
+        "score": 0
+      },
+      {
+        "name": "YEATS4",
+        "score": 0
+      },
+      {
+        "name": "MORF4L1",
+        "score": 0
+      }
+    ]
+  },
+  "KANSL3": {
+    "pubmed_count": 14,
+    "pubmed_ids": [
+      "41867223",
+      "41044006",
+      "41039555",
+      "38769918",
+      "37624894"
+    ],
+    "string": [
+      {
+        "name": "MCRS1",
+        "score": 0
+      },
+      {
+        "name": "KANSL2",
+        "score": 0
+      },
+      {
+        "name": "PHF20",
+        "score": 0
+      },
+      {
+        "name": "KANSL1",
+        "score": 0
+      },
+      {
+        "name": "OGT",
+        "score": 0
+      },
+      {
+        "name": "WDR5",
+        "score": 0
+      },
+      {
+        "name": "KAT8",
+        "score": 0
+      },
+      {
+        "name": "HCFC1",
+        "score": 0
+      },
+      {
+        "name": "PHF20L1",
+        "score": 0
+      },
+      {
+        "name": "MSL3",
+        "score": 0
+      },
+      {
+        "name": "KANSL1L",
+        "score": 0
+      },
+      {
+        "name": "MSL2",
+        "score": 0
+      },
+      {
+        "name": "MSL1",
+        "score": 0
+      },
+      {
+        "name": "ACTB",
+        "score": 0
+      },
+      {
+        "name": "KAT5",
+        "score": 0
+      },
+      {
+        "name": "EP400",
+        "score": 0
+      },
+      {
+        "name": "MORF4L1",
+        "score": 0
+      },
+      {
+        "name": "MORF4L2",
+        "score": 0
+      },
+      {
+        "name": "VPS72",
+        "score": 0
+      },
+      {
+        "name": "DMAP1",
+        "score": 0
+      }
+    ]
+  },
+  "KBTBD4": {
+    "pubmed_count": 27,
+    "pubmed_ids": [
+      "42115456",
+      "41353556",
+      "41190809",
+      "41049727",
+      "40479062"
+    ],
+    "string": [
+      {
+        "name": "CUL3",
+        "score": 0
+      },
+      {
+        "name": "KPNA6",
+        "score": 0
+      },
+      {
+        "name": "PRDM6",
+        "score": 0
+      },
+      {
+        "name": "CACUL1",
+        "score": 0
+      },
+      {
+        "name": "NUDCD3",
+        "score": 0
+      },
+      {
+        "name": "KDM1A",
+        "score": 0
+      },
+      {
+        "name": "MPG",
+        "score": 0
+      },
+      {
+        "name": "ZMYM3",
+        "score": 0
+      },
+      {
+        "name": "KPNA5",
+        "score": 0
+      },
+      {
+        "name": "SNCAIP",
+        "score": 0
+      },
+      {
+        "name": "PTPMT1",
+        "score": 0
+      },
+      {
+        "name": "MBLAC1",
+        "score": 0
+      },
+      {
+        "name": "RBM26",
+        "score": 0
+      },
+      {
+        "name": "MTCH2",
+        "score": 0
+      },
+      {
+        "name": "GFI1B",
+        "score": 0
+      },
+      {
+        "name": "ZC3H6",
+        "score": 0
+      },
+      {
+        "name": "FAM214A",
+        "score": 0
+      },
+      {
+        "name": "KDM6A",
+        "score": 0
+      },
+      {
+        "name": "CCDC80",
+        "score": 0
+      }
+    ]
+  },
+  "KCTD1": {
+    "pubmed_count": 49,
+    "pubmed_ids": [
+      "41765960",
+      "41672223",
+      "41414837",
+      "41086914",
+      "41075928"
+    ],
+    "string": [
+      {
+        "name": "TFAP2A",
+        "score": 0
+      },
+      {
+        "name": "TFAP2C",
+        "score": 0
+      },
+      {
+        "name": "TFAP2B",
+        "score": 0
+      },
+      {
+        "name": "UBE2I",
+        "score": 0
+      },
+      {
+        "name": "KCTD2",
+        "score": 0
+      },
+      {
+        "name": "KCTD9",
+        "score": 0
+      },
+      {
+        "name": "KCTD5",
+        "score": 0
+      },
+      {
+        "name": "CUL3",
+        "score": 0
+      },
+      {
+        "name": "BTBD10",
+        "score": 0
+      },
+      {
+        "name": "KCTD15",
+        "score": 0
+      },
+      {
+        "name": "TFAP2E",
+        "score": 0
+      },
+      {
+        "name": "TFAP2D",
+        "score": 0
+      },
+      {
+        "name": "KCTD20",
+        "score": 0
+      },
+      {
+        "name": "KCTD3",
+        "score": 0
+      },
+      {
+        "name": "HDAC1",
+        "score": 0
+      },
+      {
+        "name": "ZNF841",
+        "score": 0
+      },
+      {
+        "name": "TRIM43B",
+        "score": 0
+      },
+      {
+        "name": "BICC1",
+        "score": 0
+      },
+      {
+        "name": "EXOSC1",
+        "score": 0
+      },
+      {
+        "name": "CTNNB1",
+        "score": 0
+      }
+    ]
+  },
+  "KCTD13": {
+    "pubmed_count": 37,
+    "pubmed_ids": [
+      "42186860",
+      "41488891",
+      "41338233",
+      "40787599",
+      "39968753"
+    ],
+    "string": [
+      {
+        "name": "CUL3",
+        "score": 0
+      },
+      {
+        "name": "UBXN7",
+        "score": 0
+      },
+      {
+        "name": "FAF1",
+        "score": 0
+      },
+      {
+        "name": "TNFAIP1",
+        "score": 0
+      },
+      {
+        "name": "KCTD10",
+        "score": 0
+      },
+      {
+        "name": "KCTD17",
+        "score": 0
+      },
+      {
+        "name": "KLHL22",
+        "score": 0
+      },
+      {
+        "name": "KLHL20",
+        "score": 0
+      },
+      {
+        "name": "KLHL9",
+        "score": 0
+      },
+      {
+        "name": "KLHL21",
+        "score": 0
+      },
+      {
+        "name": "GAN",
+        "score": 0
+      },
+      {
+        "name": "RBX1",
+        "score": 0
+      },
+      {
+        "name": "KLHL3",
+        "score": 0
+      },
+      {
+        "name": "KBTBD7",
+        "score": 0
+      },
+      {
+        "name": "KBTBD6",
+        "score": 0
+      },
+      {
+        "name": "LZTR1",
+        "score": 0
+      },
+      {
+        "name": "ZSWIM8",
+        "score": 0
+      },
+      {
+        "name": "KLHL41",
+        "score": 0
+      },
+      {
+        "name": "KLHL12",
+        "score": 0
+      },
+      {
+        "name": "KEAP1",
+        "score": 0
+      }
+    ]
+  },
+  "KCTD15": {
+    "pubmed_count": 104,
+    "pubmed_ids": [
+      "41904351",
+      "41719982",
+      "41693649",
+      "41445605",
+      "41075928"
+    ],
+    "string": [
+      {
+        "name": "TMEM18",
+        "score": 0
+      },
+      {
+        "name": "GNPDA2",
+        "score": 0
+      },
+      {
+        "name": "NEGR1",
+        "score": 0
+      },
+      {
+        "name": "MTCH2",
+        "score": 0
+      },
+      {
+        "name": "SH2B1",
+        "score": 0
+      },
+      {
+        "name": "MC4R",
+        "score": 0
+      },
+      {
+        "name": "FTO",
+        "score": 0
+      },
+      {
+        "name": "TFAP2A",
+        "score": 0
+      },
+      {
+        "name": "UBE2I",
+        "score": 0
+      },
+      {
+        "name": "TFAP2B",
+        "score": 0
+      },
+      {
+        "name": "SEC16B",
+        "score": 0
+      },
+      {
+        "name": "KCTD2",
+        "score": 0
+      },
+      {
+        "name": "FAIM2",
+        "score": 0
+      },
+      {
+        "name": "ETV5",
+        "score": 0
+      },
+      {
+        "name": "BCDIN3D",
+        "score": 0
+      },
+      {
+        "name": "PTER",
+        "score": 0
+      },
+      {
+        "name": "TFAP2C",
+        "score": 0
+      },
+      {
+        "name": "KCTD1",
+        "score": 0
+      },
+      {
+        "name": "TFAP2E",
+        "score": 0
+      },
+      {
+        "name": "TFAP2D",
+        "score": 0
+      }
+    ]
+  },
+  "KCTD5": {
+    "pubmed_count": 45,
+    "pubmed_ids": [
+      "41612237",
+      "40936153",
+      "40846050",
+      "40832836",
+      "40233107"
+    ],
+    "string": [
+      {
+        "name": "CUL3",
+        "score": 0
+      },
+      {
+        "name": "KCTD17",
+        "score": 0
+      },
+      {
+        "name": "KCND2",
+        "score": 0
+      },
+      {
+        "name": "KCTD2",
+        "score": 0
+      },
+      {
+        "name": "KCTD11",
+        "score": 0
+      },
+      {
+        "name": "KCTD13",
+        "score": 0
+      },
+      {
+        "name": "RBX1",
+        "score": 0
+      },
+      {
+        "name": "KCTD10",
+        "score": 0
+      },
+      {
+        "name": "GAN",
+        "score": 0
+      },
+      {
+        "name": "SPOP",
+        "score": 0
+      },
+      {
+        "name": "KCTD1",
+        "score": 0
+      },
+      {
+        "name": "TNFAIP1",
+        "score": 0
+      },
+      {
+        "name": "KBTBD7",
+        "score": 0
+      },
+      {
+        "name": "KLHL9",
+        "score": 0
+      },
+      {
+        "name": "KBTBD6",
+        "score": 0
+      },
+      {
+        "name": "KLHL3",
+        "score": 0
+      },
+      {
+        "name": "YKT6",
+        "score": 0
+      },
+      {
+        "name": "KLHL41",
+        "score": 0
+      },
+      {
+        "name": "KLHL20",
+        "score": 0
+      },
+      {
+        "name": "KEAP1",
+        "score": 0
+      }
+    ]
+  },
+  "KLF3": {
+    "pubmed_count": 200,
+    "pubmed_ids": [
+      "42119364",
+      "42105037",
+      "42027634",
+      "42018572",
+      "41903548"
+    ],
+    "string": [
+      {
+        "name": "CTBP1",
+        "score": 0
+      },
+      {
+        "name": "CTBP2",
+        "score": 0
+      },
+      {
+        "name": "FHL3",
+        "score": 0
+      },
+      {
+        "name": "ZNF217",
+        "score": 0
+      },
+      {
+        "name": "ZNF516",
+        "score": 0
+      },
+      {
+        "name": "RCOR1",
+        "score": 0
+      },
+      {
+        "name": "HDAC2",
+        "score": 0
+      },
+      {
+        "name": "ZFPM1",
+        "score": 0
+      },
+      {
+        "name": "UBE2I",
+        "score": 0
+      },
+      {
+        "name": "GATA1",
+        "score": 0
+      },
+      {
+        "name": "SIN3A",
+        "score": 0
+      },
+      {
+        "name": "CBX2",
+        "score": 0
+      },
+      {
+        "name": "LHX8",
+        "score": 0
+      },
+      {
+        "name": "SOX6",
+        "score": 0
+      },
+      {
+        "name": "SRF",
+        "score": 0
+      },
+      {
+        "name": "SPI1",
+        "score": 0
+      },
+      {
+        "name": "HDAC1",
+        "score": 0
+      },
+      {
+        "name": "RIOK3",
+        "score": 0
+      },
+      {
+        "name": "RING1",
+        "score": 0
+      },
+      {
+        "name": "TLR6",
+        "score": 0
+      }
+    ]
+  },
+  "KLHDC4": {
+    "pubmed_count": 10,
+    "pubmed_ids": [
+      "41804841",
+      "41673210",
+      "41020869",
+      "39706520",
+      "38984674"
+    ],
+    "string": [
+      {
+        "name": "CROT",
+        "score": 0
+      },
+      {
+        "name": "ARMC6",
+        "score": 0
+      },
+      {
+        "name": "UTP6",
+        "score": 0
+      },
+      {
+        "name": "CEBPZ",
+        "score": 0
+      },
+      {
+        "name": "ZCCHC14",
+        "score": 0
+      },
+      {
+        "name": "SHCBP1",
+        "score": 0
+      },
+      {
+        "name": "ARMC7",
+        "score": 0
+      },
+      {
+        "name": "PRDM15",
+        "score": 0
+      },
+      {
+        "name": "TRAPPC2L",
+        "score": 0
+      },
+      {
+        "name": "L3MBTL2",
+        "score": 0
+      },
+      {
+        "name": "DMAC1",
+        "score": 0
+      },
+      {
+        "name": "RBM19",
+        "score": 0
+      },
+      {
+        "name": "GRWD1",
+        "score": 0
+      },
+      {
+        "name": "BMS1",
+        "score": 0
+      },
+      {
+        "name": "RBM28",
+        "score": 0
+      },
+      {
+        "name": "NOP2",
+        "score": 0
+      },
+      {
+        "name": "WDR74",
+        "score": 0
+      },
+      {
+        "name": "NOC2L",
+        "score": 0
+      },
+      {
+        "name": "RPF2",
+        "score": 0
+      },
+      {
+        "name": "SRSF6",
+        "score": 0
+      }
+    ]
+  },
+  "KLHDC8A": {
+    "pubmed_count": 14,
+    "pubmed_ids": [
+      "39805213",
+      "39614999",
+      "39327249",
+      "38509907",
+      "37814858"
+    ],
+    "string": [
+      {
+        "name": "PEX7",
+        "score": 0
+      },
+      {
+        "name": "TXNDC9",
+        "score": 0
+      },
+      {
+        "name": "PDCL",
+        "score": 0
+      },
+      {
+        "name": "CCT5",
+        "score": 0
+      },
+      {
+        "name": "CCT8",
+        "score": 0
+      },
+      {
+        "name": "CCT3",
+        "score": 0
+      },
+      {
+        "name": "CCT7",
+        "score": 0
+      },
+      {
+        "name": "TMEM71",
+        "score": 0
+      },
+      {
+        "name": "CCDC18",
+        "score": 0
+      },
+      {
+        "name": "WSCD1",
+        "score": 0
+      },
+      {
+        "name": "GMPPA",
+        "score": 0
+      },
+      {
+        "name": "RAB42",
+        "score": 0
+      },
+      {
+        "name": "PPP4R4",
+        "score": 0
+      },
+      {
+        "name": "TCP1",
+        "score": 0
+      },
+      {
+        "name": "PRRT4",
+        "score": 0
+      },
+      {
+        "name": "LRRC10B",
+        "score": 0
+      }
+    ]
+  },
+  "KPNA4": {
+    "pubmed_count": 86,
+    "pubmed_ids": [
+      "42201401",
+      "42155730",
+      "42149376",
+      "41959248",
+      "41634886"
+    ],
+    "string": [
+      {
+        "name": "RELA",
+        "score": 0
+      },
+      {
+        "name": "KPNB1",
+        "score": 0
+      },
+      {
+        "name": "RCC1",
+        "score": 0
+      },
+      {
+        "name": "NFKB1",
+        "score": 0
+      },
+      {
+        "name": "CSE1L",
+        "score": 0
+      },
+      {
+        "name": "KPNA3",
+        "score": 0
+      },
+      {
+        "name": "KPNA1",
+        "score": 0
+      },
+      {
+        "name": "RANBP3",
+        "score": 0
+      },
+      {
+        "name": "SOX2",
+        "score": 0
+      },
+      {
+        "name": "RAN",
+        "score": 0
+      },
+      {
+        "name": "KDM1A",
+        "score": 0
+      },
+      {
+        "name": "TP53BP1",
+        "score": 0
+      },
+      {
+        "name": "NUP50",
+        "score": 0
+      },
+      {
+        "name": "KPNA2",
+        "score": 0
+      },
+      {
+        "name": "PHGDH",
+        "score": 0
+      },
+      {
+        "name": "HNRNPK",
+        "score": 0
+      },
+      {
+        "name": "NUP153",
+        "score": 0
+      },
+      {
+        "name": "RANBP2",
+        "score": 0
+      },
+      {
+        "name": "TNPO1",
+        "score": 0
+      },
+      {
+        "name": "RECQL",
+        "score": 0
+      }
+    ]
+  },
+  "KPNB1": {
+    "pubmed_count": 144,
+    "pubmed_ids": [
+      "42176271",
+      "42101949",
+      "42094412",
+      "41953107",
+      "41815171"
+    ],
+    "string": [
+      {
+        "name": "KPNA1",
+        "score": 0
+      },
+      {
+        "name": "RAN",
+        "score": 0
+      },
+      {
+        "name": "KPNA2",
+        "score": 0
+      },
+      {
+        "name": "SNUPN",
+        "score": 0
+      },
+      {
+        "name": "NUP153",
+        "score": 0
+      },
+      {
+        "name": "KPNA6",
+        "score": 0
+      },
+      {
+        "name": "KPNA4",
+        "score": 0
+      },
+      {
+        "name": "RANBP2",
+        "score": 0
+      },
+      {
+        "name": "KPNA3",
+        "score": 0
+      },
+      {
+        "name": "NUP98",
+        "score": 0
+      },
+      {
+        "name": "KPNA5",
+        "score": 0
+      },
+      {
+        "name": "PTHLH",
+        "score": 0
+      },
+      {
+        "name": "DKC1",
+        "score": 0
+      },
+      {
+        "name": "NUP62",
+        "score": 0
+      },
+      {
+        "name": "SREBF2",
+        "score": 0
+      },
+      {
+        "name": "RANBP1",
+        "score": 0
+      },
+      {
+        "name": "EXOSC10",
+        "score": 0
+      },
+      {
+        "name": "RRP8",
+        "score": 0
+      },
+      {
+        "name": "H1-0",
+        "score": 0
+      },
+      {
+        "name": "IPO7",
+        "score": 0
+      }
+    ]
+  },
+  "KTI12": {
+    "pubmed_count": 25,
+    "pubmed_ids": [
+      "42012545",
+      "40226916",
+      "36340367",
+      "35327981",
+      "33417976"
+    ],
+    "string": [
+      {
+        "name": "ELP3",
+        "score": 0
+      },
+      {
+        "name": "ELP1",
+        "score": 0
+      },
+      {
+        "name": "ELP4",
+        "score": 0
+      },
+      {
+        "name": "DPH3",
+        "score": 0
+      },
+      {
+        "name": "ELP5",
+        "score": 0
+      },
+      {
+        "name": "CTU1",
+        "score": 0
+      },
+      {
+        "name": "MOCS3",
+        "score": 0
+      },
+      {
+        "name": "PSTK",
+        "score": 0
+      },
+      {
+        "name": "URM1",
+        "score": 0
+      },
+      {
+        "name": "SGCE",
+        "score": 0
+      },
+      {
+        "name": "SGCA",
+        "score": 0
+      },
+      {
+        "name": "PPP6R1",
+        "score": 0
+      },
+      {
+        "name": "PPP6R2",
+        "score": 0
+      },
+      {
+        "name": "PPP6R3",
+        "score": 0
+      },
+      {
+        "name": "NOB1",
+        "score": 0
+      },
+      {
+        "name": "GPR35",
+        "score": 0
+      },
+      {
+        "name": "SARS2",
+        "score": 0
+      },
+      {
+        "name": "SARS1",
+        "score": 0
+      },
+      {
+        "name": "MCM5",
+        "score": 0
+      },
+      {
+        "name": "SARS2-2",
+        "score": 0
+      }
+    ]
+  },
+  "LACC1": {
+    "pubmed_count": 85,
+    "pubmed_ids": [
+      "41736164",
+      "41430577",
+      "41413835",
+      "41376621",
+      "41193588"
+    ],
+    "string": [
+      {
+        "name": "CCDC122",
+        "score": 0
+      },
+      {
+        "name": "PLPBP",
+        "score": 0
+      },
+      {
+        "name": "TNFSF15",
+        "score": 0
+      },
+      {
+        "name": "RIPK2",
+        "score": 0
+      },
+      {
+        "name": "NOD2",
+        "score": 0
+      },
+      {
+        "name": "SPRYD7",
+        "score": 0
+      },
+      {
+        "name": "LRRK2",
+        "score": 0
+      },
+      {
+        "name": "SIN3A",
+        "score": 0
+      },
+      {
+        "name": "FASN",
+        "score": 0
+      },
+      {
+        "name": "PXDNL",
+        "score": 0
+      },
+      {
+        "name": "PXDN",
+        "score": 0
+      },
+      {
+        "name": "KIR2DL1",
+        "score": 0
+      },
+      {
+        "name": "VIL1",
+        "score": 0
+      },
+      {
+        "name": "TYR",
+        "score": 0
+      },
+      {
+        "name": "LTA4H",
+        "score": 0
+      },
+      {
+        "name": "PRODH",
+        "score": 0
+      },
+      {
+        "name": "TNP1",
+        "score": 0
+      },
+      {
+        "name": "SLC11A1",
+        "score": 0
+      },
+      {
+        "name": "SELENBP1",
+        "score": 0
+      },
+      {
+        "name": "TLR1",
+        "score": 0
+      }
+    ]
+  },
+  "LBX1": {
+    "pubmed_count": 175,
+    "pubmed_ids": [
+      "42054896",
+      "41993097",
+      "41440000",
+      "41188450",
+      "40951471"
+    ],
+    "string": [
+      {
+        "name": "FBXW4",
+        "score": 0
+      },
+      {
+        "name": "SKOR1",
+        "score": 0
+      },
+      {
+        "name": "POLL",
+        "score": 0
+      },
+      {
+        "name": "SIX4",
+        "score": 0
+      },
+      {
+        "name": "SIX1",
+        "score": 0
+      },
+      {
+        "name": "SEBOX",
+        "score": 0
+      },
+      {
+        "name": "DUX4",
+        "score": 0
+      },
+      {
+        "name": "SIX6",
+        "score": 0
+      },
+      {
+        "name": "SIX2",
+        "score": 0
+      },
+      {
+        "name": "BTRC",
+        "score": 0
+      },
+      {
+        "name": "NOBOX",
+        "score": 0
+      },
+      {
+        "name": "MYOD1",
+        "score": 0
+      },
+      {
+        "name": "SUFU",
+        "score": 0
+      },
+      {
+        "name": "TPRX1",
+        "score": 0
+      },
+      {
+        "name": "SIX3",
+        "score": 0
+      },
+      {
+        "name": "LMX1B",
+        "score": 0
+      },
+      {
+        "name": "TLE1",
+        "score": 0
+      },
+      {
+        "name": "ADGRG6",
+        "score": 0
+      },
+      {
+        "name": "LHX5",
+        "score": 0
+      },
+      {
+        "name": "DNAJC22",
+        "score": 0
+      }
+    ]
+  },
+  "LBX2": {
+    "pubmed_count": 73,
+    "pubmed_ids": [
+      "41388614",
+      "41387417",
+      "41244072",
+      "41020404",
+      "40518534"
+    ],
+    "string": [
+      {
+        "name": "WDR54",
+        "score": 0
+      },
+      {
+        "name": "CCDC142",
+        "score": 0
+      },
+      {
+        "name": "PCGF1",
+        "score": 0
+      }
+    ]
+  },
+  "LCOR": {
+    "pubmed_count": 83,
+    "pubmed_ids": [
+      "42151892",
+      "42123445",
+      "41694609",
+      "41576905",
+      "41412836"
+    ],
+    "string": [
+      {
+        "name": "CTBP1",
+        "score": 0
+      },
+      {
+        "name": "MTF2",
+        "score": 0
+      },
+      {
+        "name": "PHF1",
+        "score": 0
+      },
+      {
+        "name": "EZH2",
+        "score": 0
+      },
+      {
+        "name": "CTBP2",
+        "score": 0
+      },
+      {
+        "name": "ESR1",
+        "score": 0
+      },
+      {
+        "name": "SUZ12",
+        "score": 0
+      },
+      {
+        "name": "PHF19",
+        "score": 0
+      },
+      {
+        "name": "EZH1",
+        "score": 0
+      },
+      {
+        "name": "EPOP",
+        "score": 0
+      },
+      {
+        "name": "NRIP1",
+        "score": 0
+      },
+      {
+        "name": "AEBP2",
+        "score": 0
+      },
+      {
+        "name": "HDAC6",
+        "score": 0
+      },
+      {
+        "name": "JARID2",
+        "score": 0
+      },
+      {
+        "name": "RBBP4",
+        "score": 0
+      },
+      {
+        "name": "KDM1A",
+        "score": 0
+      },
+      {
+        "name": "NCOA2",
+        "score": 0
+      },
+      {
+        "name": "KLF6",
+        "score": 0
+      },
+      {
+        "name": "ZNF516",
+        "score": 0
+      },
+      {
+        "name": "CDYL",
+        "score": 0
+      }
+    ]
+  },
+  "LCORL": {
+    "pubmed_count": 184,
+    "pubmed_ids": [
+      "42055148",
+      "41981458",
+      "41968096",
+      "41859759",
+      "41859758"
+    ],
+    "string": [
+      {
+        "name": "NCAPG",
+        "score": 0
+      },
+      {
+        "name": "CTBP1",
+        "score": 0
+      },
+      {
+        "name": "FAM184B",
+        "score": 0
+      },
+      {
+        "name": "DCAF16",
+        "score": 0
+      },
+      {
+        "name": "PLAG1",
+        "score": 0
+      },
+      {
+        "name": "ZFAT",
+        "score": 0
+      },
+      {
+        "name": "LAP3",
+        "score": 0
+      },
+      {
+        "name": "HMGA2",
+        "score": 0
+      },
+      {
+        "name": "CLCN2",
+        "score": 0
+      },
+      {
+        "name": "CHCHD7",
+        "score": 0
+      },
+      {
+        "name": "NOL4",
+        "score": 0
+      },
+      {
+        "name": "NR6A1",
+        "score": 0
+      },
+      {
+        "name": "MED28",
+        "score": 0
+      },
+      {
+        "name": "KIT",
+        "score": 0
+      },
+      {
+        "name": "LCOR",
+        "score": 0
+      },
+      {
+        "name": "FAM110B",
+        "score": 0
+      },
+      {
+        "name": "LASP1",
+        "score": 0
+      },
+      {
+        "name": "MSTN",
+        "score": 0
+      },
+      {
+        "name": "CHD4",
+        "score": 0
+      },
+      {
+        "name": "WBP11",
+        "score": 0
+      }
+    ]
+  },
+  "LDOC1": {
+    "pubmed_count": 58,
+    "pubmed_ids": [
+      "41828328",
+      "41484780",
+      "41105192",
+      "39901723",
+      "39682774"
+    ],
+    "string": [
+      {
+        "name": "PEG10",
+        "score": 0
+      },
+      {
+        "name": "RTL9",
+        "score": 0
+      },
+      {
+        "name": "RTL4",
+        "score": 0
+      },
+      {
+        "name": "LNX1",
+        "score": 0
+      },
+      {
+        "name": "FANCM",
+        "score": 0
+      },
+      {
+        "name": "GNL3L",
+        "score": 0
+      },
+      {
+        "name": "CREB3",
+        "score": 0
+      },
+      {
+        "name": "FAM50B",
+        "score": 0
+      },
+      {
+        "name": "NRIP1",
+        "score": 0
+      },
+      {
+        "name": "AP1M1",
+        "score": 0
+      },
+      {
+        "name": "FXR2",
+        "score": 0
+      },
+      {
+        "name": "SPANXD",
+        "score": 0
+      }
+    ]
+  },
+  "LEMD2": {
+    "pubmed_count": 46,
+    "pubmed_ids": [
+      "42099394",
+      "41846956",
+      "41799755",
+      "41776713",
+      "41744617"
+    ],
+    "string": [
+      {
+        "name": "CHMP7",
+        "score": 0
+      },
+      {
+        "name": "IST1",
+        "score": 0
+      },
+      {
+        "name": "BANF1",
+        "score": 0
+      },
+      {
+        "name": "EMD",
+        "score": 0
+      },
+      {
+        "name": "BANF2",
+        "score": 0
+      },
+      {
+        "name": "ANKLE2",
+        "score": 0
+      },
+      {
+        "name": "LMNA",
+        "score": 0
+      },
+      {
+        "name": "FZR1",
+        "score": 0
+      },
+      {
+        "name": "LMNB1",
+        "score": 0
+      },
+      {
+        "name": "CC2D1B",
+        "score": 0
+      },
+      {
+        "name": "TMPO",
+        "score": 0
+      },
+      {
+        "name": "CHMP6",
+        "score": 0
+      },
+      {
+        "name": "SPAST",
+        "score": 0
+      },
+      {
+        "name": "ANKLE1",
+        "score": 0
+      },
+      {
+        "name": "CHMP2A",
+        "score": 0
+      },
+      {
+        "name": "CHMP3",
+        "score": 0
+      },
+      {
+        "name": "CHMP4A",
+        "score": 0
+      },
+      {
+        "name": "VPS4A",
+        "score": 0
+      },
+      {
+        "name": "CHMP4B",
+        "score": 0
+      },
+      {
+        "name": "SUN2",
+        "score": 0
+      }
+    ]
+  },
+  "LEMD3": {
+    "pubmed_count": 93,
+    "pubmed_ids": [
+      "42166119",
+      "42099394",
+      "41380350",
+      "41277804",
+      "41044070"
+    ],
+    "string": [
+      {
+        "name": "BANF1",
+        "score": 0
+      },
+      {
+        "name": "EMD",
+        "score": 0
+      },
+      {
+        "name": "SMAD1",
+        "score": 0
+      },
+      {
+        "name": "SMAD2",
+        "score": 0
+      },
+      {
+        "name": "SMAD3",
+        "score": 0
+      },
+      {
+        "name": "BANF2",
+        "score": 0
+      },
+      {
+        "name": "PIGN",
+        "score": 0
+      },
+      {
+        "name": "LBR",
+        "score": 0
+      },
+      {
+        "name": "LMNA",
+        "score": 0
+      },
+      {
+        "name": "LMNB1",
+        "score": 0
+      },
+      {
+        "name": "WIF1",
+        "score": 0
+      },
+      {
+        "name": "SMAD9",
+        "score": 0
+      },
+      {
+        "name": "TMPO",
+        "score": 0
+      },
+      {
+        "name": "LMNB2",
+        "score": 0
+      },
+      {
+        "name": "ANKLE2",
+        "score": 0
+      },
+      {
+        "name": "CDC5L",
+        "score": 0
+      },
+      {
+        "name": "SCAF8",
+        "score": 0
+      },
+      {
+        "name": "SYNE1",
+        "score": 0
+      },
+      {
+        "name": "VRK1",
+        "score": 0
+      },
+      {
+        "name": "SUN1",
+        "score": 0
+      }
+    ]
+  },
+  "LENG8": {
+    "pubmed_count": 16,
+    "pubmed_ids": [
+      "42140674",
+      "42039562",
+      "41997106",
+      "41861815",
+      "41675117"
+    ],
+    "string": [
+      {
+        "name": "PCID2",
+        "score": 0
+      },
+      {
+        "name": "CDC42EP5",
+        "score": 0
+      },
+      {
+        "name": "TTYH1",
+        "score": 0
+      },
+      {
+        "name": "NCBP3",
+        "score": 0
+      },
+      {
+        "name": "GIGYF1",
+        "score": 0
+      },
+      {
+        "name": "LENG9",
+        "score": 0
+      },
+      {
+        "name": "FNBP4",
+        "score": 0
+      },
+      {
+        "name": "LAIR2",
+        "score": 0
+      },
+      {
+        "name": "LAIR1",
+        "score": 0
+      },
+      {
+        "name": "FCAR",
+        "score": 0
+      },
+      {
+        "name": "RPS9",
+        "score": 0
+      },
+      {
+        "name": "SNAPC4",
+        "score": 0
+      },
+      {
+        "name": "ILVBL",
+        "score": 0
+      },
+      {
+        "name": "VSTM1",
+        "score": 0
+      },
+      {
+        "name": "RPL37",
+        "score": 0
+      },
+      {
+        "name": "SNRPA",
+        "score": 0
+      },
+      {
+        "name": "HYPK",
+        "score": 0
+      },
+      {
+        "name": "CUL9",
+        "score": 0
+      },
+      {
+        "name": "OLA1",
+        "score": 0
+      },
+      {
+        "name": "CROCC2",
+        "score": 0
+      }
+    ]
+  },
+  "LETMD1": {
+    "pubmed_count": 15,
+    "pubmed_ids": [
+      "41854441",
+      "39897567",
+      "39398236",
+      "37769890",
+      "37353518"
+    ],
+    "string": [
+      {
+        "name": "EIF2D",
+        "score": 0
+      },
+      {
+        "name": "SMARCC2",
+        "score": 0
+      },
+      {
+        "name": "TP53",
+        "score": 0
+      },
+      {
+        "name": "WDR59",
+        "score": 0
+      },
+      {
+        "name": "PCGF1",
+        "score": 0
+      },
+      {
+        "name": "MYC",
+        "score": 0
+      },
+      {
+        "name": "AFP",
+        "score": 0
+      },
+      {
+        "name": "HPS4",
+        "score": 0
+      },
+      {
+        "name": "ARID1B",
+        "score": 0
+      },
+      {
+        "name": "LMBR1L",
+        "score": 0
+      },
+      {
+        "name": "CD164L2",
+        "score": 0
+      },
+      {
+        "name": "UBXN1",
+        "score": 0
+      },
+      {
+        "name": "RNF185",
+        "score": 0
+      },
+      {
+        "name": "REEP5",
+        "score": 0
+      }
+    ]
+  },
+  "LHX5": {
+    "pubmed_count": 68,
+    "pubmed_ids": [
+      "42086608",
+      "42033978",
+      "40894618",
+      "40676597",
+      "40317384"
+    ],
+    "string": [
+      {
+        "name": "CCNK",
+        "score": 0
+      },
+      {
+        "name": "BARHL1",
+        "score": 0
+      },
+      {
+        "name": "ZIC1",
+        "score": 0
+      },
+      {
+        "name": "DBX1",
+        "score": 0
+      },
+      {
+        "name": "LDB1",
+        "score": 0
+      },
+      {
+        "name": "PAX2",
+        "score": 0
+      },
+      {
+        "name": "LDB2",
+        "score": 0
+      },
+      {
+        "name": "FEZF1",
+        "score": 0
+      },
+      {
+        "name": "ZIC3",
+        "score": 0
+      },
+      {
+        "name": "EMX2",
+        "score": 0
+      },
+      {
+        "name": "BARHL2",
+        "score": 0
+      },
+      {
+        "name": "LBX1",
+        "score": 0
+      },
+      {
+        "name": "FOXB1",
+        "score": 0
+      },
+      {
+        "name": "PTF1A",
+        "score": 0
+      },
+      {
+        "name": "FOXG1",
+        "score": 0
+      },
+      {
+        "name": "SIX3",
+        "score": 0
+      },
+      {
+        "name": "EMX1",
+        "score": 0
+      },
+      {
+        "name": "NEUROG2",
+        "score": 0
+      },
+      {
+        "name": "WNT8B",
+        "score": 0
+      },
+      {
+        "name": "FEZF2",
+        "score": 0
+      }
+    ]
+  },
+  "LHX9": {
+    "pubmed_count": 146,
+    "pubmed_ids": [
+      "42181240",
+      "41640146",
+      "41279796",
+      "40909808",
+      "40802848"
+    ],
+    "string": [
+      {
+        "name": "LDB1",
+        "score": 0
+      },
+      {
+        "name": "SSBP3",
+        "score": 0
+      },
+      {
+        "name": "LHX2",
+        "score": 0
+      },
+      {
+        "name": "POU4F1",
+        "score": 0
+      },
+      {
+        "name": "SSBP4",
+        "score": 0
+      },
+      {
+        "name": "NR5A1",
+        "score": 0
+      },
+      {
+        "name": "BARHL1",
+        "score": 0
+      },
+      {
+        "name": "WT1",
+        "score": 0
+      },
+      {
+        "name": "NR0B1",
+        "score": 0
+      },
+      {
+        "name": "LDB2",
+        "score": 0
+      },
+      {
+        "name": "DENND1B",
+        "score": 0
+      },
+      {
+        "name": "NHLH1",
+        "score": 0
+      },
+      {
+        "name": "AMH",
+        "score": 0
+      },
+      {
+        "name": "TBR1",
+        "score": 0
+      },
+      {
+        "name": "ATOH1",
+        "score": 0
+      },
+      {
+        "name": "KHK",
+        "score": 0
+      },
+      {
+        "name": "NEK7",
+        "score": 0
+      },
+      {
+        "name": "ZHX1",
+        "score": 0
+      },
+      {
+        "name": "ROBO3",
+        "score": 0
+      },
+      {
+        "name": "NEUROG1",
+        "score": 0
+      }
+    ]
+  },
+  "LIG1": {
+    "pubmed_count": 285,
+    "pubmed_ids": [
+      "42192108",
+      "42186816",
+      "42182135",
+      "42094445",
+      "42047708"
+    ],
+    "string": [
+      {
+        "name": "FEN1",
+        "score": 0
+      },
+      {
+        "name": "PCNA",
+        "score": 0
+      },
+      {
+        "name": "XRCC1",
+        "score": 0
+      },
+      {
+        "name": "APEX1",
+        "score": 0
+      },
+      {
+        "name": "POLB",
+        "score": 0
+      },
+      {
+        "name": "UHRF1",
+        "score": 0
+      },
+      {
+        "name": "POLD1",
+        "score": 0
+      },
+      {
+        "name": "RFC4",
+        "score": 0
+      },
+      {
+        "name": "UNG",
+        "score": 0
+      },
+      {
+        "name": "MCM5",
+        "score": 0
+      },
+      {
+        "name": "POLE",
+        "score": 0
+      },
+      {
+        "name": "EXO1",
+        "score": 0
+      },
+      {
+        "name": "ERCC2",
+        "score": 0
+      },
+      {
+        "name": "WRN",
+        "score": 0
+      },
+      {
+        "name": "DNA2",
+        "score": 0
+      },
+      {
+        "name": "ERCC1",
+        "score": 0
+      },
+      {
+        "name": "ERCC3",
+        "score": 0
+      },
+      {
+        "name": "OGG1",
+        "score": 0
+      },
+      {
+        "name": "POLL",
+        "score": 0
+      },
+      {
+        "name": "MCM6",
+        "score": 0
+      }
+    ]
+  },
+  "LIG3": {
+    "pubmed_count": 204,
+    "pubmed_ids": [
+      "42192108",
+      "42182287",
+      "42094445",
+      "41997885",
+      "41964798"
+    ],
+    "string": [
+      {
+        "name": "XRCC1",
+        "score": 0
+      },
+      {
+        "name": "POLB",
+        "score": 0
+      },
+      {
+        "name": "PNKP",
+        "score": 0
+      },
+      {
+        "name": "XRCC6",
+        "score": 0
+      },
+      {
+        "name": "TDP1",
+        "score": 0
+      },
+      {
+        "name": "PARP2",
+        "score": 0
+      },
+      {
+        "name": "PARP1",
+        "score": 0
+      },
+      {
+        "name": "APTX",
+        "score": 0
+      },
+      {
+        "name": "APEX1",
+        "score": 0
+      },
+      {
+        "name": "APLF",
+        "score": 0
+      },
+      {
+        "name": "XRCC5",
+        "score": 0
+      },
+      {
+        "name": "XRCC4",
+        "score": 0
+      },
+      {
+        "name": "PCNA",
+        "score": 0
+      },
+      {
+        "name": "FEN1",
+        "score": 0
+      },
+      {
+        "name": "OGG1",
+        "score": 0
+      },
+      {
+        "name": "POLE",
+        "score": 0
+      },
+      {
+        "name": "POLD1",
+        "score": 0
+      },
+      {
+        "name": "NEIL1",
+        "score": 0
+      },
+      {
+        "name": "RACGAP1",
+        "score": 0
+      },
+      {
+        "name": "MRE11",
+        "score": 0
+      }
+    ]
+  },
+  "LLPH": {
+    "pubmed_count": 16,
+    "pubmed_ids": [
+      "39260367",
+      "39103362",
+      "38106052",
+      "37696683",
+      "37308718"
+    ],
+    "string": [
+      {
+        "name": "RPL30",
+        "score": 0
+      },
+      {
+        "name": "ZNF593",
+        "score": 0
+      },
+      {
+        "name": "RSL24D1",
+        "score": 0
+      },
+      {
+        "name": "NMD3",
+        "score": 0
+      },
+      {
+        "name": "GNL2",
+        "score": 0
+      },
+      {
+        "name": "EIF6",
+        "score": 0
+      },
+      {
+        "name": "RPL36AL",
+        "score": 0
+      },
+      {
+        "name": "RPL7A",
+        "score": 0
+      },
+      {
+        "name": "GTPBP4",
+        "score": 0
+      },
+      {
+        "name": "RPL14",
+        "score": 0
+      },
+      {
+        "name": "RPL11",
+        "score": 0
+      },
+      {
+        "name": "RPL17",
+        "score": 0
+      },
+      {
+        "name": "CCDC59",
+        "score": 0
+      },
+      {
+        "name": "RPL37A",
+        "score": 0
+      },
+      {
+        "name": "RPL5",
+        "score": 0
+      },
+      {
+        "name": "RPL36A",
+        "score": 0
+      },
+      {
+        "name": "RPL4",
+        "score": 0
+      },
+      {
+        "name": "RPL3",
+        "score": 0
+      },
+      {
+        "name": "RPL15",
+        "score": 0
+      },
+      {
+        "name": "RPL31",
+        "score": 0
+      }
+    ]
+  },
+  "LRR1": {
+    "pubmed_count": 70,
+    "pubmed_ids": [
+      "42179790",
+      "41672286",
+      "40459634",
+      "40411782",
+      "40196253"
+    ],
+    "string": [
+      {
+        "name": "CUL2",
+        "score": 0
+      },
+      {
+        "name": "RBX1",
+        "score": 0
+      },
+      {
+        "name": "ELOC",
+        "score": 0
+      },
+      {
+        "name": "ELOB",
+        "score": 0
+      },
+      {
+        "name": "MCM7",
+        "score": 0
+      },
+      {
+        "name": "WDHD1",
+        "score": 0
+      },
+      {
+        "name": "MCM3",
+        "score": 0
+      },
+      {
+        "name": "MCM5",
+        "score": 0
+      },
+      {
+        "name": "CDC45",
+        "score": 0
+      },
+      {
+        "name": "GINS4",
+        "score": 0
+      },
+      {
+        "name": "TIPIN",
+        "score": 0
+      },
+      {
+        "name": "TIMELESS",
+        "score": 0
+      },
+      {
+        "name": "CLSPN",
+        "score": 0
+      },
+      {
+        "name": "GINS1",
+        "score": 0
+      },
+      {
+        "name": "POLE2",
+        "score": 0
+      },
+      {
+        "name": "GINS3",
+        "score": 0
+      },
+      {
+        "name": "MCM6",
+        "score": 0
+      },
+      {
+        "name": "GINS2",
+        "score": 0
+      },
+      {
+        "name": "MCM2",
+        "score": 0
+      },
+      {
+        "name": "MCM4",
+        "score": 0
+      }
+    ]
+  },
+  "LRRC10": {
+    "pubmed_count": 23,
+    "pubmed_ids": [
+      "41577076",
+      "39475605",
+      "38762910",
+      "38742167",
+      "37790372"
+    ],
+    "string": [
+      {
+        "name": "LRRC26",
+        "score": 0
+      },
+      {
+        "name": "CCT2",
+        "score": 0
+      },
+      {
+        "name": "BEST3",
+        "score": 0
+      },
+      {
+        "name": "NYX",
+        "score": 0
+      },
+      {
+        "name": "LRG1",
+        "score": 0
+      },
+      {
+        "name": "PRELP",
+        "score": 0
+      },
+      {
+        "name": "KERA",
+        "score": 0
+      },
+      {
+        "name": "SLMAP",
+        "score": 0
+      },
+      {
+        "name": "LUM",
+        "score": 0
+      },
+      {
+        "name": "OMD",
+        "score": 0
+      },
+      {
+        "name": "FMOD",
+        "score": 0
+      },
+      {
+        "name": "ADGRL2",
+        "score": 0
+      },
+      {
+        "name": "ADGRL3",
+        "score": 0
+      },
+      {
+        "name": "ADGRL1",
+        "score": 0
+      },
+      {
+        "name": "GP5",
+        "score": 0
+      },
+      {
+        "name": "DCN",
+        "score": 0
+      },
+      {
+        "name": "PODNL1",
+        "score": 0
+      },
+      {
+        "name": "FRS2",
+        "score": 0
+      },
+      {
+        "name": "LINGO4",
+        "score": 0
+      },
+      {
+        "name": "RTN4R",
+        "score": 0
+      }
+    ]
+  },
+  "LRRC31": {
+    "pubmed_count": 13,
+    "pubmed_ids": [
+      "41495324",
+      "38750571",
+      "38098610",
+      "36439479",
+      "36100143"
+    ],
+    "string": [
+      {
+        "name": "LRRIQ4",
+        "score": 0
+      },
+      {
+        "name": "LRRC34",
+        "score": 0
+      },
+      {
+        "name": "XRCC5",
+        "score": 0
+      },
+      {
+        "name": "XRCC6",
+        "score": 0
+      },
+      {
+        "name": "MYNN",
+        "score": 0
+      },
+      {
+        "name": "CAPN14",
+        "score": 0
+      },
+      {
+        "name": "TMEM174",
+        "score": 0
+      },
+      {
+        "name": "ACTRT3",
+        "score": 0
+      },
+      {
+        "name": "TRIP10",
+        "score": 0
+      },
+      {
+        "name": "CEP295NL",
+        "score": 0
+      },
+      {
+        "name": "RPL6",
+        "score": 0
+      },
+      {
+        "name": "LRRC32",
+        "score": 0
+      },
+      {
+        "name": "LYPD6",
+        "score": 0
+      },
+      {
+        "name": "CLRN2",
+        "score": 0
+      },
+      {
+        "name": "SURF4",
+        "score": 0
+      },
+      {
+        "name": "DNPEP",
+        "score": 0
+      },
+      {
+        "name": "DSG1",
+        "score": 0
+      },
+      {
+        "name": "INSYN2B",
+        "score": 0
+      },
+      {
+        "name": "WDSUB1",
+        "score": 0
+      }
+    ]
+  },
+  "LRWD1": {
+    "pubmed_count": 32,
+    "pubmed_ids": [
+      "42038776",
+      "41189662",
+      "40203731",
+      "38385979",
+      "37551430"
+    ],
+    "string": [
+      {
+        "name": "ORC3",
+        "score": 0
+      },
+      {
+        "name": "ORC5",
+        "score": 0
+      },
+      {
+        "name": "ORC2",
+        "score": 0
+      },
+      {
+        "name": "ORC4",
+        "score": 0
+      },
+      {
+        "name": "ORC1",
+        "score": 0
+      },
+      {
+        "name": "ORC6",
+        "score": 0
+      },
+      {
+        "name": "REPIN1",
+        "score": 0
+      },
+      {
+        "name": "CDT1",
+        "score": 0
+      },
+      {
+        "name": "OBI1",
+        "score": 0
+      },
+      {
+        "name": "TICRR",
+        "score": 0
+      },
+      {
+        "name": "H4C6",
+        "score": 0
+      },
+      {
+        "name": "SKP2",
+        "score": 0
+      },
+      {
+        "name": "CLBA1",
+        "score": 0
+      },
+      {
+        "name": "FXR1",
+        "score": 0
+      },
+      {
+        "name": "CDC6",
+        "score": 0
+      },
+      {
+        "name": "ADGRL1",
+        "score": 0
+      },
+      {
+        "name": "KMT5A",
+        "score": 0
+      },
+      {
+        "name": "ADGRL2",
+        "score": 0
+      },
+      {
+        "name": "ADGRL3",
+        "score": 0
+      },
+      {
+        "name": "HNRNPM",
+        "score": 0
+      }
+    ]
+  },
+  "LSM8": {
+    "pubmed_count": 29,
+    "pubmed_ids": [
+      "41663668",
+      "40433979",
+      "40206583",
+      "39417944",
+      "38694815"
+    ],
+    "string": [
+      {
+        "name": "LSM2",
+        "score": 0
+      },
+      {
+        "name": "EFTUD2",
+        "score": 0
+      },
+      {
+        "name": "SNRPD1",
+        "score": 0
+      },
+      {
+        "name": "SNRPD2",
+        "score": 0
+      },
+      {
+        "name": "LSM7",
+        "score": 0
+      },
+      {
+        "name": "LSM6",
+        "score": 0
+      },
+      {
+        "name": "PRPF3",
+        "score": 0
+      },
+      {
+        "name": "LSM4",
+        "score": 0
+      },
+      {
+        "name": "PRPF8",
+        "score": 0
+      },
+      {
+        "name": "LSM5",
+        "score": 0
+      },
+      {
+        "name": "PRPF6",
+        "score": 0
+      },
+      {
+        "name": "SNRPE",
+        "score": 0
+      },
+      {
+        "name": "SNRPD3",
+        "score": 0
+      },
+      {
+        "name": "SART1",
+        "score": 0
+      },
+      {
+        "name": "PRPF31",
+        "score": 0
+      },
+      {
+        "name": "PRPF4",
+        "score": 0
+      },
+      {
+        "name": "SNRNP200",
+        "score": 0
+      },
+      {
+        "name": "SNRPF",
+        "score": 0
+      },
+      {
+        "name": "LSM3",
+        "score": 0
+      },
+      {
+        "name": "SNRPG",
+        "score": 0
+      }
+    ]
+  },
+  "LYAR": {
+    "pubmed_count": 70,
+    "pubmed_ids": [
+      "42201873",
+      "41938621",
+      "41511857",
+      "41477963",
+      "41404914"
+    ],
+    "string": [
+      {
+        "name": "DDX18",
+        "score": 0
+      },
+      {
+        "name": "NIFK",
+        "score": 0
+      },
+      {
+        "name": "RRS1",
+        "score": 0
+      },
+      {
+        "name": "RRP1B",
+        "score": 0
+      },
+      {
+        "name": "RPS15",
+        "score": 0
+      },
+      {
+        "name": "RPF2",
+        "score": 0
+      },
+      {
+        "name": "RPLP0",
+        "score": 0
+      },
+      {
+        "name": "BRIX1",
+        "score": 0
+      },
+      {
+        "name": "RPL11",
+        "score": 0
+      },
+      {
+        "name": "NHP2",
+        "score": 0
+      },
+      {
+        "name": "RPL30",
+        "score": 0
+      },
+      {
+        "name": "RPS19",
+        "score": 0
+      },
+      {
+        "name": "RPL10A",
+        "score": 0
+      },
+      {
+        "name": "SURF6",
+        "score": 0
+      },
+      {
+        "name": "NIP7",
+        "score": 0
+      },
+      {
+        "name": "RPL37A",
+        "score": 0
+      },
+      {
+        "name": "NOP14",
+        "score": 0
+      },
+      {
+        "name": "RPL23A",
+        "score": 0
+      },
+      {
+        "name": "RPS3A",
+        "score": 0
+      },
+      {
+        "name": "PINX1",
+        "score": 0
+      }
+    ]
+  },
+  "LYL1": {
+    "pubmed_count": 147,
+    "pubmed_ids": [
+      "42174007",
+      "42082719",
+      "41561111",
+      "40866546",
+      "40637766"
+    ],
+    "string": [
+      {
+        "name": "LMO2",
+        "score": 0
+      },
+      {
+        "name": "TCF3",
+        "score": 0
+      },
+      {
+        "name": "LDB1",
+        "score": 0
+      },
+      {
+        "name": "LDB2",
+        "score": 0
+      },
+      {
+        "name": "CBFB",
+        "score": 0
+      },
+      {
+        "name": "RUNX1",
+        "score": 0
+      },
+      {
+        "name": "GATA2",
+        "score": 0
+      },
+      {
+        "name": "LMO1",
+        "score": 0
+      },
+      {
+        "name": "EP300",
+        "score": 0
+      },
+      {
+        "name": "TLX3",
+        "score": 0
+      },
+      {
+        "name": "CBFA2T3",
+        "score": 0
+      },
+      {
+        "name": "TLX1",
+        "score": 0
+      },
+      {
+        "name": "TAL1",
+        "score": 0
+      },
+      {
+        "name": "GATA1",
+        "score": 0
+      },
+      {
+        "name": "GFI1B",
+        "score": 0
+      },
+      {
+        "name": "BCL11B",
+        "score": 0
+      },
+      {
+        "name": "IKZF1",
+        "score": 0
+      },
+      {
+        "name": "TCF12",
+        "score": 0
+      },
+      {
+        "name": "SPI1",
+        "score": 0
+      },
+      {
+        "name": "HHEX",
+        "score": 0
+      }
+    ]
+  }
+}

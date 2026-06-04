@@ -1,0 +1,212 @@
+{
+  "KANSL1": {
+    "uniprot": "Q7Z3B3",
+    "plddt": null,
+    "version": null,
+    "entry_id": "AF-Q7Z3B3-F1"
+  },
+  "KANSL2": {
+    "uniprot": "Q9H9L4",
+    "plddt": null,
+    "version": null,
+    "entry_id": "AF-Q9H9L4-F1"
+  },
+  "KANSL3": {
+    "uniprot": "Q9P2N6",
+    "plddt": null,
+    "version": null,
+    "entry_id": "AF-Q9P2N6-F1"
+  },
+  "KBTBD4": {
+    "uniprot": "Q9NVX7",
+    "plddt": null,
+    "version": null,
+    "entry_id": "AF-Q9NVX7-F1"
+  },
+  "KCTD1": {
+    "uniprot": "Q719H9",
+    "plddt": null,
+    "version": null,
+    "entry_id": "AF-Q719H9-F1"
+  },
+  "KCTD13": {
+    "uniprot": "Q8WZ19",
+    "plddt": null,
+    "version": null,
+    "entry_id": "AF-Q8WZ19-F1"
+  },
+  "KCTD15": {
+    "uniprot": "Q96SI1",
+    "plddt": null,
+    "version": null,
+    "entry_id": "AF-Q96SI1-F1"
+  },
+  "KCTD5": {
+    "uniprot": "Q9NXV2",
+    "plddt": null,
+    "version": null,
+    "entry_id": "AF-Q9NXV2-F1"
+  },
+  "KLF3": {
+    "uniprot": "P57682",
+    "plddt": null,
+    "version": null,
+    "entry_id": "AF-P57682-F1"
+  },
+  "KLHDC4": {
+    "uniprot": "Q8TBB5",
+    "plddt": null,
+    "version": null,
+    "entry_id": "AF-Q8TBB5-F1"
+  },
+  "KLHDC8A": {
+    "uniprot": "Q8IYD2",
+    "plddt": null,
+    "version": null,
+    "entry_id": "AF-Q8IYD2-F1"
+  },
+  "KPNA4": {
+    "uniprot": "O00629",
+    "plddt": null,
+    "version": null,
+    "entry_id": "AF-O00629-F1"
+  },
+  "KPNB1": {
+    "uniprot": "Q14974",
+    "plddt": null,
+    "version": null,
+    "entry_id": "AF-Q14974-F1"
+  },
+  "KTI12": {
+    "uniprot": "Q96EK9",
+    "plddt": null,
+    "version": null,
+    "entry_id": "AF-Q96EK9-F1"
+  },
+  "LACC1": {
+    "uniprot": "Q8IV20",
+    "plddt": null,
+    "version": null,
+    "entry_id": "AF-Q8IV20-F1"
+  },
+  "LBX1": {
+    "uniprot": "P52954",
+    "plddt": null,
+    "version": null,
+    "entry_id": "AF-P52954-F1"
+  },
+  "LBX2": {
+    "uniprot": "Q6XYB7",
+    "plddt": null,
+    "version": null,
+    "entry_id": "AF-Q6XYB7-F1"
+  },
+  "LCOR": {
+    "uniprot": "Q96JN0",
+    "plddt": null,
+    "version": null,
+    "entry_id": "AF-Q96JN0-F1"
+  },
+  "LDOC1": {
+    "uniprot": "O95751",
+    "plddt": null,
+    "version": null,
+    "entry_id": "AF-O95751-F1"
+  },
+  "LEMD2": {
+    "uniprot": "Q8NC56",
+    "plddt": null,
+    "version": null,
+    "entry_id": "AF-Q8NC56-F1"
+  },
+  "LEMD3": {
+    "uniprot": "Q9Y2U8",
+    "plddt": null,
+    "version": null,
+    "entry_id": "AF-Q9Y2U8-F1"
+  },
+  "LENG8": {
+    "uniprot": "Q96PV6",
+    "plddt": null,
+    "version": null,
+    "entry_id": "AF-Q96PV6-F1"
+  },
+  "LETMD1": {
+    "uniprot": "Q6P1Q0",
+    "plddt": null,
+    "version": null,
+    "entry_id": "AF-Q6P1Q0-F1"
+  },
+  "LHX5": {
+    "uniprot": "Q9H2C1",
+    "plddt": null,
+    "version": null,
+    "entry_id": "AF-Q9H2C1-F1"
+  },
+  "LHX9": {
+    "uniprot": "Q9NQ69",
+    "plddt": null,
+    "version": null,
+    "entry_id": "AF-Q9NQ69-F1"
+  },
+  "LIG1": {
+    "uniprot": "P18858",
+    "plddt": null,
+    "version": null,
+    "entry_id": "AF-P18858-F1"
+  },
+  "LIG3": {
+    "uniprot": "P49916",
+    "plddt": null,
+    "version": null,
+    "entry_id": "AF-P49916-F1"
+  },
+  "LLPH": {
+    "uniprot": "Q9BRT6",
+    "plddt": null,
+    "version": null,
+    "entry_id": "AF-Q9BRT6-F1"
+  },
+  "LRR1": {
+    "uniprot": "Q96L50",
+    "plddt": null,
+    "version": null,
+    "entry_id": "AF-Q96L50-F1"
+  },
+  "LRRC10": {
+    "uniprot": "Q5BKY1",
+    "plddt": null,
+    "version": null,
+    "entry_id": "AF-Q5BKY1-F1"
+  },
+  "LRRC31": {
+    "uniprot": "Q6UY01",
+    "plddt": null,
+    "version": null,
+    "entry_id": "AF-Q6UY01-F1"
+  },
+  "LRWD1": {
+    "uniprot": "Q9UFC0",
+    "plddt": null,
+    "version": null,
+    "entry_id": "AF-Q9UFC0-F1"
+  },
+  "LSM8": {
+    "uniprot": "O95777",
+    "plddt": null,
+    "version": null,
+    "entry_id": "AF-O95777-F1"
+  },
+  "LYAR": {
+    "uniprot": "Q9NX58",
+    "plddt": null,
+    "version": null,
+    "entry_id": "AF-Q9NX58-F1"
+  },
+  "LYL1": {
+    "uniprot": "P12980",
+    "plddt": null,
+    "version": null,
+    "entry_id": "AF-P12980-F1"
+  }
+}

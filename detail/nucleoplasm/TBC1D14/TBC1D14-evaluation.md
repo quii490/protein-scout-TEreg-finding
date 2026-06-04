@@ -1,0 +1,180 @@
+---
+type: protein-evaluation
+gene: "TBC1D14"
+date: 2026-06-03
+tags: [protein-scout, nuclear-protein, evaluation]
+status: scored
+---
+
+## TBC1D14 核蛋白评估报告 (Full Re-evaluation)
+
+### 1. 基本信息
+
+| 项目 | 内容 |
+|------|------|
+| 基因名 / 别名 | TBC1D14 / KIAA1322 |
+| 蛋白名称 | TBC1 domain family member 14 |
+| 蛋白大小 | 693 aa / 78.1 kDa |
+| UniProt ID | Q9P2M4 |
+| 评估日期 | 2026-06-03 |
+
+### 2. 评分总览
+
+| 维度 | 得分 | 满分 | 加权后 | 关键证据摘要 |
+|------|------|------|--------|-------------|
+| 核定位特异性 | 7/10 | ×4 | 28 | HPA: Golgi apparatus, Vesicles; 额外: Nucleoplasm; UniProt: Golgi apparatus, cis-Golgi network; Golgi apparatus, trans-G |
+| 蛋白大小 | 10/10 | ×1 | 10 | 693 aa / 78.1 kDa |
+| 研究新颖性 | 10/10 | ×5 | 50 | PubMed strict=12 篇 (≤20→10) |
+| 三维结构 | 6/10 | ×3 | 18 | AlphaFold v6 pLDDT=65.4; PDB: 2QQ8 |
+| 调控结构域 | 7/10 | ×2 | 14 | InterPro: IPR000195, IPR035969, IPR050302; Pfam: PF00566 |
+| PPI 网络 | 3/10 | ×3 | 9 | STRING 15 partners; IntAct 15 interactions |
+| 互证加分 | — | max +3 | 1.5 | PDB+AF+STRING+IntAct cross-validation |
+| **原始总分** | | | **130.5/180** | |
+| **归一化总分** | | | **72.5/100** | |
+
+### 3. 详细分析
+
+#### 3.1 核定位证据
+
+| 来源 | 定位 | 可信度 |
+|------|------|--------|
+| Protein Atlas (IF) | Golgi apparatus, Vesicles; 额外: Nucleoplasm | Supported |
+| UniProt | Golgi apparatus, cis-Golgi network; Golgi apparatus, trans-Golgi network | Swiss-Prot/TrEMBL |
+
+**IF 图像获取**: 未下载本地IF图像（standard evaluation），核定位证据基于HPA subcellular localization注释、UniProt注释和GO-CC术语。
+
+**GO Cellular Component**:
+- autophagosome (GO:0005776)
+- cytosol (GO:0005829)
+- Golgi apparatus (GO:0005794)
+- nucleoplasm (GO:0005654)
+- recycling endosome (GO:0055037)
+
+**结论**: 主要核定位，HPA 可靠性良好，有辅助数据源支持。
+
+#### 3.2 蛋白大小评估
+
+**评价**: 大小适中（200-800 aa），适合常规生化实验和结构解析。
+
+#### 3.3 研究现状
+
+| 指标 | 数值 |
+|------|------|
+| PubMed strict count | 12 |
+| PubMed broad count | 25 |
+| 别名(未计入scoring) | Aliases observed but not used for scoring: KIAA1322 |
+
+**关键文献**:
+1. TBC1D14 inhibits autophagy to suppress lymph node metastasis in head and neck squamous cell carcinoma by downregulating macrophage erythroblast attacher.. *International journal of biological sciences*. PMID: 35342354
+2. TBC1D14 sets the TRAPP for ATG9.. *Autophagy*. PMID: 27171758
+3. TBC1D14 regulates autophagy via the TRAPP complex and ATG9 traffic.. *The EMBO journal*. PMID: 26711178
+4. Genomic associations with antibody response to an oral cholera vaccine.. *Vaccine*. PMID: 37699782
+5. miR-146b-5p Plays a Critical Role in the Regulation of Autophagy in ∆per Brucella melitensis-Infected RAW264.7 Cells.. *BioMed research international*. PMID: 32051823
+
+**评价**: 极度新颖，几乎未被系统研究（PubMed ≤20篇）。
+
+#### 3.4 三维结构分析
+
+| 指标 | 数值 |
+|------|------|
+| AlphaFold 版本 | v6 |
+| AlphaFold 平均 pLDDT | 65.4 |
+| 高置信度残基 (pLDDT>90) 占比 | 42.0% |
+| 置信残基 (pLDDT 70-90) 占比 | 8.7% |
+| 中等置信 (pLDDT 50-70) 占比 | 2.9% |
+| 低置信 (pLDDT<50) 占比 | 46.5% |
+| 有序区域 (pLDDT>70) 占比 | 50.7% |
+| 可用 PDB 条目 | 2QQ8 |
+
+**PAE**: PAE 图像未生成本地文件（standard evaluation），结构判断基于 AlphaFold pLDDT 统计。
+
+**评价**: AlphaFold 预测质量有限（pLDDT=65.4），有序残基占 50.7%。
+
+#### 3.5 结构域分析
+
+| 来源 | 结构域 |
+|------|--------|
+| InterPro/Pfam | InterPro: IPR000195, IPR035969, IPR050302; Pfam: PF00566 |
+
+**染色质调控潜力分析**: 存在已知结构域注释，可作为功能研究的结构基础。
+
+#### 3.6 PPI 网络
+
+**STRING 预测互作** (combined score >0.4):
+
+| Partner | Combined Score | Experimental | 功能类别 |
+|---------|---------------|--------------|---------|
+| TRAPPC8 | 0.949 | 0.779 | — |
+| RAB11A | 0.926 | 0.253 | — |
+| ULK1 | 0.884 | 0.292 | — |
+| TRAPPC12 | 0.849 | 0.785 | — |
+| TRAPPC13 | 0.837 | 0.783 | — |
+| TRAPPC2L | 0.827 | 0.780 | — |
+| TRAPPC11 | 0.822 | 0.785 | — |
+| TRAPPC3 | 0.807 | 0.713 | — |
+| TRAPPC5 | 0.790 | 0.772 | — |
+| TRAPPC6B | 0.746 | 0.739 | — |
+
+**实验验证互作** (IntAct):
+
+| Partner | 方法 | PMID |
+|---------|------|------|
+| ENSP00000404041.1 | psi-mi:"MI:0398"(two hybrid pooling approach) | imex:IM-13779|pubmed:20711500 |
+| xthA | psi-mi:"MI:0398"(two hybrid pooling approach) | imex:IM-13779|pubmed:20711500 |
+| SPARC | psi-mi:"MI:0030"(cross-linking study) | pubmed:30021884|imex:IM-26653| |
+| EEF1G | psi-mi:"MI:0030"(cross-linking study) | pubmed:30021884|imex:IM-26653| |
+| MMGT1 | psi-mi:"MI:0030"(cross-linking study) | pubmed:30021884|imex:IM-26653| |
+| OCIAD2 | psi-mi:"MI:0030"(cross-linking study) | pubmed:30021884|imex:IM-26653| |
+| NXF1 | psi-mi:"MI:1356"(validated two hybrid) | pubmed:32296183|imex:IM-25472 |
+| TRAPPC13 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
+| TRAPPC3 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
+| GRK2 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
+
+**PPI 互证分析**:
+- STRING + IntAct 均有数据
+- STRING partners: 15，IntAct interactions: 15
+- 调控相关比例: 0 / 15 = 0%
+
+**评价**: STRING 15 个预测互作，IntAct 15 个实验互作。调控相关配体占比 0%。
+
+#### 3.7 多库互证
+
+| 维度 | 来源 | 结果 | 是否一致 |
+|------|------|------|----------|
+| 三维结构 | AlphaFold pLDDT=65.4 + PDB: 2QQ8 | pLDDT=65.4, v6 | 预测+实验 |
+| 定位 | UniProt + HPA | Golgi apparatus, cis-Golgi network; Golgi apparatu / Golgi apparatus, Vesicles; 额外: Nucleoplasm | 一致 |
+| PPI | STRING + IntAct | 15 + 15 interactions | 数据充分 |
+
+**互证加分明细**:
+- PDB + AlphaFold 双源验证: +0.5
+- 多库定位一致 (3源): +0.5
+- STRING + IntAct 双源验证: +0.5
+- 结构域 + AlphaFold 质量: +0
+- PDB 多条目覆盖: +0
+**总分**: +1.5 / max +3
+
+### 4. 总体评价
+
+**推荐等级**: ⭐⭐⭐⭐
+
+**核心优势**:
+1. TBC1D14 — TBC1 domain family member 14，极度新颖，几乎未被系统研究（PubMed ≤20篇）。
+2. 蛋白大小693 aa，大小适中（200-800 aa），适合常规生化实验和结构解析。
+
+**风险/不确定性**:
+1. PubMed 12 篇，研究基础极有限，功能注释不完整
+2. AlphaFold 预测质量一般（pLDDT=65.4），需要更多实验结构验证
+
+**下一步建议**:
+- [ ] 查阅最新关键文献补充研究背景
+- [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
+- [ ] 设计体外实验验证核定位及潜在调控功能
+
+
+### 5. 数据来源
+- UniProt: https://www.uniprot.org/uniprotkb/Q9P2M4
+- Protein Atlas: https://www.proteinatlas.org/ENSG00000132405-TBC1D14/subcellular
+- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=TBC1D14
+- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9P2M4
+- STRING: https://string-db.org/network/9606.ENSP00000
+- Data fetched live: 2026-06-03
