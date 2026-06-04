@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SLF2 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>SLF2</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 26</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/SLF2/SLF2-evaluation.md</p></section><article class="report-body"><h2>SLF2 -- Critical False-Rejection Reevaluation Report</h2>
+<p><strong>Gene:</strong> SLF2 (SMC5-SMC6 complex localization factor protein 2) <strong>UniProt Accession:</strong> Q8IX21 <strong>Protein Name:</strong> SMC5-SMC6 complex localization factor protein 2 <strong>Length:</strong> 1173 aa | <strong>Mass:</strong> 131.9 kDa <strong>Aliases:</strong> C10orf6, FAM178A <strong>Report Date:</strong> 2026-06-04 <strong>Review Stage:</strong> W3 Batch 1 -- CRITICAL REOPEN</p>
+<hr>
+<h3>/180 Scoring Table</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Max</th><th>Score</th><th>Rationale</th></tr></thead><tbody>
+<tr><td>1. Nuclear Localization</td><td>30</td><td>26</td><td>HPA main: Nucleoplasm, Vesicles. Reliability: Approved. UniProt: Nucleus (ECO:0000269 x2 experimental), Nucleus PML body (ECO:0000269). GO-CC: nucleoplasm (IDA:HPA), nucleus (IDA:UniProtKB), chromatin (IDA:UniProtKB), PML body (IDA:UniProtKB), chromosome telomeric region (NAS:ComplexPortal), site of double-strand break (IDA:UniProtKB). STRONG nuclear and chromatin evidence. PML body localization is particularly relevant.</td></tr>
+<tr><td>2. Protein Size</td><td>10</td><td>6</td><td>1173 aa / 131.9 kDa. Very large protein. Substantial deduction.</td></tr>
+<tr><td>3. Research Novelty</td><td>10</td><td>10</td><td>PubMed strict: 17. Novelty rule: 1-50=10.</td></tr>
+<tr><td>4. 3D Structure</td><td>30</td><td>14</td><td>AlphaFold mean pLDDT: 55.0 (8.7% &gt;90, 27.7% 70-90, 7.8% 50-70, 55.8% &lt;50). PDB: 7T5P (EM, 3.40A, residues 635-1173 only). Low AF confidence overall. Partial EM structure.</td></tr>
+<tr><td>5. Regulatory Domains</td><td>50</td><td>30</td><td>IPR044276, IPR026161. PF14816. FUNCTION: Links RAD18 with SMC5-SMC6 complex at DNA damage sites. Recruits SMC5-SMC6 to chromatin at ICL and DSB sites. SMC5/6 complex compacts and silences unintegrated HIV-1 DNA (PMID:33811831). Role in viral restriction via chromatin compaction. SMC5/6-mediated DNA compaction/silencing is directly analogous to TE silencing mechanisms.</td></tr>
+<tr><td>6. PPI Network</td><td>50</td><td>30</td><td>STRING: 15 partners. SLF1 (0.999), SMC5 (0.967), SMC6 (0.955), RAD18 (0.924), NSMCE1 (0.927), NSMCE3 (0.904), NSMCE2 (0.883), NSMCE4A (0.866). IntAct: 15 interactors. SLF1, SMC6, RAD18, NSMCE1, H2BC20P (histone H2B), GCFC2, ITGA1, SIMC1.</td></tr>
+<tr><td><strong>TOTAL</strong></td><td><strong>180</strong></td><td><strong>116</strong></td><td></td></tr>
+</tbody></table></div>
+<hr>
+<h3>Nuclear Evidence Section</h3>
+<h4>HPA (Human Protein Atlas)</h4>
+<ul><li><strong>Status:</strong> hpa_localization_available</li><li><strong>Reliability (IF):</strong> Approved</li><li><strong>Main Location:</strong> Nucleoplasm, Vesicles</li><li><strong>Additional:</strong> None</li><li><strong>IF Image Status:</strong> no_image_detected (red_green images available via image_urls)</li><li><strong>Key Finding:</strong> HPA nucleoplasm (Approved). Also vesicular -- may reflect trafficking.</li></ul>
+<h4>UniProt Subcellular Location</h4>
+<ul><li><strong>Nucleus</strong> -- ECO:0000269 x2 (experimental)</li><li><strong>Nucleus, PML body</strong> -- ECO:0000269 (experimental)</li></ul>
+<h4>GO Cellular Component (GO-CC)</h4>
+<ul><li><strong>GO:0000785 (chromatin)</strong> -- IDA:UniProtKB (experimental)</li><li><strong>GO:0005654 (nucleoplasm)</strong> -- IDA:HPA</li><li><strong>GO:0005634 (nucleus)</strong> -- IDA:UniProtKB</li><li><strong>GO:0016605 (PML body)</strong> -- IDA:UniProtKB</li><li><strong>GO:0000781 (chromosome, telomeric region)</strong> -- NAS:ComplexPortal</li><li><strong>GO:0035861 (site of double-strand break)</strong> -- IDA:UniProtKB</li><li><strong>GO:0030915 (Smc5-Smc6 complex)</strong> -- NAS:ComplexPortal</li></ul>
+<p><strong>Summary:</strong> SLF2 is a nuclear chromatin-associated protein. PML body localization is notable -- PML bodies are involved in TE silencing and viral restriction. Chromatin localization (IDA) is experimentally validated. Nuclear score: 26/30 -- excellent nuclear/chromatin evidence.</p>
+<hr>
+<h3>PubMed Evidence</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Query Type</th><th>Count</th></tr></thead><tbody>
+<tr><td>Strict (Title/Abstract)</td><td>17</td></tr>
+<tr><td>Broad (All Fields)</td><td>30</td></tr>
+</tbody></table></div>
+<p><strong>Novelty score: 10/10.</strong></p>
+<h4>Key Papers</h4>
+<p>1. <strong>PMID:34780483</strong> -- Scott WA et al. (2021). &quot;ATRX proximal protein associations boast roles beyond histone deposition.&quot; *PLoS Genet*. 2. <strong>PMID:33811831</strong> -- Dupont L et al. (2021). &quot;The SMC5/6 complex compacts and silences unintegrated HIV-1 DNA and is antagonized by Vpr.&quot; *Cell Host Microbe*. -- SMC5/6 SILENCES DNA. 3. <strong>PMID:40883817</strong> -- Li S et al. (2025). &quot;Integrative single-cell and bulk transcriptomic analysis reveals the landscape of T cell mitotic catastrophe associated genes in esophageal squamous cell carcinoma.&quot; *Hum Genomics*. 4. <strong>PMID:33811915</strong> -- Gilhooley MJ et al. (2021). &quot;ON-bipolar cell gene expression during retinal degeneration.&quot; *Exp Eye Res*. 5. <strong>PMID:37191775</strong> -- Lelkes E et al. (2023). &quot;Characterization of the conserved features of the NSE6 subunit of the Physcomitrium patens SMC5/6 complex.&quot; *Plant J*.</p>
+<p><strong>Assessment:</strong> SMC5/6 complex DNA silencing function is directly relevant. SLF2 recruits SMC5/6 to chromatin. The HIV-1 DNA silencing paper (PMID:33811831) is especially relevant -- SMC5/6 compacts and transcriptionally silences extrachromosomal DNA, which is mechanistically similar to TE silencing.</p>
+<hr>
+<h3>AlphaFold / PDB / PAE</h3>
+<h4>AlphaFold Predicted Structure</h4>
+<ul><li><strong>Entry:</strong> AF-Q8IX21-F1, version 6</li><li><strong>mean pLDDT: 55.0</strong> (&gt;90: 8.7%, 70-90: 27.7%, 50-70: 7.8%, &lt;50: 55.8%)</li><li><strong>Assessment:</strong> Low confidence. More than half of residues below pLDDT 50. Large protein with likely disordered regions.</li></ul>
+<h4>Experimental PDB Structures</h4>
+<ul><li><strong>1 structure:</strong> 7T5P (EM, 3.40A, residues 635-1173 -- C-terminal half)</li><li><strong>Assessment:</strong> Partial structure of C-terminal domain at moderate resolution.</li></ul>
+<h4>PAE</h4>
+<ul><li>PAE image URL available.</li><li>PAE assessment pending image retrieval.</li></ul>
+<hr>
+<h3>PPI Network</h3>
+<h4>STRING (15 partners)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>Experimental</th><th>Function</th></tr></thead><tbody>
+<tr><td>SLF1</td><td>0.999</td><td>0.826</td><td>SMC5/6 localization factor</td></tr>
+<tr><td>SMC5</td><td>0.967</td><td>0.695</td><td>SMC5/6 complex ATPase</td></tr>
+<tr><td>SMC6</td><td>0.955</td><td>0.779</td><td>SMC5/6 complex ATPase</td></tr>
+<tr><td>RAD18</td><td>0.924</td><td>0.624</td><td>DNA damage ubiquitin ligase</td></tr>
+<tr><td>NSMCE1</td><td>0.927</td><td>0.743</td><td>SMC5/6 NSE1 subunit</td></tr>
+<tr><td>NSMCE2</td><td>0.883</td><td>0.610</td><td>SMC5/6 SUMO ligase</td></tr>
+<tr><td>UBE2I</td><td>0.551</td><td>0</td><td>SUMO E2 (database)</td></tr>
+</tbody></table></div>
+<h4>IntAct (15 interactors)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Method</th><th>PMID</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>SLF1</td><td>Co-IP</td><td>26496610</td><td>Binding partner</td></tr>
+<tr><td>SMC6</td><td>Co-IP</td><td>26496610</td><td>SMC5/6 complex</td></tr>
+<tr><td>RAD18</td><td>Co-IP</td><td>26496610</td><td>DNA damage</td></tr>
+<tr><td>NSMCE1</td><td>Co-IP</td><td>28514442</td><td>SMC5/6</td></tr>
+<tr><td>H2BC20P</td><td>Cross-link</td><td>30021884</td><td>Histone H2B -- chromatin</td></tr>
+<tr><td>SIMC1</td><td>Complex</td><td>-</td><td>PML body association</td></tr>
+</tbody></table></div>
+<h4>PPI Network Assessment</h4>
+<ul><li>Dense SMC5/6 complex network. SLF1-SLF2 dimer bridges RAD18 to SMC5/6.</li><li>H2BC20P (histone H2B) cross-linking confirms chromatin proximity.</li><li>NSMCE2 is a SUMO ligase -- SUMO pathway connection.</li><li>SIMC1 links to PML body recruitment for viral restriction.</li></ul>
+<hr>
+<h3>FALSE REJECTION RECHECK</h3>
+<h4>Original Rejection Reason (inferred)</h4>
+<p>SLF2 was likely rejected due to low structural confidence and possibly insufficient evaluation of SMC5/6 silencing function.</p>
+<h4>Recheck Analysis</h4>
+<p>1. <strong>Nuclear evidence:</strong> STRONG. HPA Approved nucleoplasm. UniProt experimental nucleus + PML body. GO-CC chromatin (IDA). PML body localization is key for TE/viral silencing. 2. <strong>Functional context:</strong> Recruits SMC5/6 complex to chromatin for DNA compaction and silencing. SMC5/6 directly silences extrachromosomal viral DNA (HIV-1) through compaction -- mechanistically identical to TE silencing. SLF1-SLF2 are the adaptors that target this silencing machinery. 3. <strong>PubMed:</strong> 17 strict. VERY LOW. 4. <strong>Structure:</strong> Low AF confidence. Partial EM structure. 5. <strong>PPI:</strong> Dense SMC5/6 network. Histone H2B cross-linking. SUMO pathway (NSMCE2).</p>
+<h4>Verdict</h4>
+<p><strong>The original rejection was INCORRECT.</strong> SLF2 is a chromatin-associated adaptor that targets the SMC5/6 DNA compaction/silencing complex to chromatin. SMC5/6-mediated DNA silencing is directly relevant to TE regulation -- it compacts and transcriptionally silences DNA. PML body localization further supports a role in nuclear silencing compartments. Should be RETAINED.</p>
+<hr>
+<h3>TE-Regulator Relevance</h3>
+<p>HIGH. SLF2 targets the SMC5/6 complex to chromatin, and SMC5/6 compacts and transcriptionally silences DNA (demonstrated for HIV-1, PMID:33811831). This DNA compaction/silencing mechanism is directly analogous to TE silencing -- SMC complexes are structurally related to condensins and cohesins, which organize chromatin. PML body localization connects SLF2 to nuclear bodies implicated in TE and viral restriction. The SUMO pathway connection (NSMCE2 SUMO ligase, UBE2I) is also relevant for TE silencing.</p>
+<hr>
+<h3>Final Decision: RETAINED</h3>
+<p>Score: 116/180. SLF2 is a chromatin-associated adaptor that targets the SMC5/6 DNA silencing complex to chromatin. Strong nuclear evidence (nucleoplasm + PML body + chromatin IDA), DNA silencing function directly relevant to TE biology, and high novelty. Retained.</p>
+<hr>
+<h3>Manual Review Note</h3>
+<p>STRONG CANDIDATE. SLF2 (FAM178A) is part of the SLF1-SLF2 heterodimer that bridges RAD18 to the SMC5/6 complex, recruiting it to DNA damage sites and chromatin. The SMC5/6 complex functions in DNA compaction and transcriptional silencing, demonstrated for HIV-1 extrachromosomal DNA (PMID:33811831). This mechanism is directly relevant to TE silencing. SLF2 localizes to PML bodies (nuclear silencing compartments) via SIMC1 interaction. PML bodies are key sites for TE and viral restriction. The protein is very large (1173 aa) and structurally poorly characterized, but the functional relevance is compelling. Bona fide chromatin-associated silencing adaptor.</p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

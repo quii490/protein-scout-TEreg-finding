@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>API5 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>API5</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 0</span><span class="badge">Nuclear: 5</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/API5/API5-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;API5&quot; date: 2026-05-29 tags: [protein-scout, nuclear-protein, evaluation, ] status: scored ---</p>
+<h3>API5 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>API5 / AAC-11, FIF, MIG8, XAGL</td></tr>
+<tr><td>蛋白大小</td><td>524 aa / ~59.4 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q9BZZ5 (API5_HUMAN)</td></tr>
+<tr><td>评估日期</td><td>2026-05-28</td></tr>
+</tbody></table></div>
+<p><strong>IF 图像</strong>: <figure><div class="missing-image">Missing local image: <code>../assets/report-images/API5/212_C4_1_red_green.jpg</code></div></figure> <figure><div class="missing-image">Missing local image: <code>../assets/report-images/API5/212_C4_2_red_green.jpg</code></div></figure></p>
+<h4>2. 评分总览 (权重: 核×4 大×1 新×5 结×3 域×2 PPI×3 ÷1.83)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>加权</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>🔴 核定位特异性</td><td>8/10</td><td>×4</td><td><strong>32</strong></td><td>nuclear speckles; UniProt: mainly nuclear; NLS 454-475</td></tr>
+<tr><td>📏 蛋白大小</td><td>10/10</td><td>×1</td><td><strong>10</strong></td><td>524 aa / 59.4 kDa, 理想实验范围</td></tr>
+<tr><td>🆕 研究新颖性</td><td>10/10</td><td>×5</td><td>50</td><td>PubMed 63篇; 50-200范围; chromatin方向空白大</td></tr>
+<tr><td>🏗️ 三维结构</td><td>10/10</td><td>×3</td><td><strong>30</strong></td><td>PDB: 3U0R(2.50A)/3V6A(2.60A)/6L4O(2.60A全链) X-ray; AF pLDDT 84.6; PDB+AF双重验证→10</td></tr>
+<tr><td>🧬 调控结构域</td><td>6/10</td><td>×2</td><td><strong>12</strong></td><td>ARM/HEAT repeats(蛋白互作域); 新颖基线6</td></tr>
+<tr><td>🔗 PPI</td><td>4/10</td><td>×3</td><td><strong>12</strong></td><td>凋亡(ACIN1)+FGF2+RNA加工(DDX39B)为主; 0% chromatin partner</td></tr>
+<tr><td>➕ 互证加分</td><td>—</td><td>—</td><td><strong>+2.0</strong></td><td>PDB+AF吻合+fold一致; &gt;=3源结构域; &gt;=2源定位; 进化保守</td></tr>
+<tr><td></td><td><strong>原始总分</strong></td><td></td><td><strong>148/183</strong></td><td><strong>128.0/183</strong></td><td></td></tr>
+<tr><td></td><td><strong>归一化总分</strong></td><td></td><td><strong>80.9/100</strong></td><td><strong>69.9/100</strong></td><td></td></tr>
+</tbody></table></div>
+<h5>3.6 PPI 网络（四源综合）</h5>
+<p><strong>实验验证互作</strong> (IntAct, physical association):</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>方法</th><th>PMID</th><th>功能类别</th><th>调控相关？</th></tr></thead><tbody>
+<tr><td>PRKAB1</td><td>anti bait coimmunoprecipitation</td><td>17353931</td><td>AMPK subunit, energy sensor</td><td>❌</td></tr>
+<tr><td>SOCS6</td><td>cross-linking study</td><td>30021884</td><td>Cytokine signaling suppressor</td><td>❌</td></tr>
+<tr><td>LTV1</td><td>cross-linking study</td><td>30021884</td><td>Ribosome biogenesis</td><td>❌</td></tr>
+<tr><td>OSGEPL1</td><td>cross-linking study</td><td>30021884</td><td>tRNA threonylcarbamoyladenosine</td><td>❌</td></tr>
+<tr><td>FRG2</td><td>cross-linking study</td><td>30021884</td><td>FSHD region gene</td><td>❌</td></tr>
+<tr><td>CEP112</td><td>cross-linking study</td><td>30021884</td><td>Centrosomal protein</td><td>❌</td></tr>
+<tr><td>HILS1</td><td>cross-linking study</td><td>30021884</td><td>Histone H1-like, spermatid-specific</td><td>✅</td></tr>
+<tr><td>BICDL2</td><td>validated two hybrid</td><td>32296183</td><td>Motor protein adaptor</td><td>❌</td></tr>
+<tr><td>HTT</td><td>two hybrid</td><td>17500595</td><td>Huntingtin, transcriptional regulation</td><td>✅</td></tr>
+<tr><td>ATXN10</td><td>two hybrid array</td><td>32814053</td><td>Ataxin-10</td><td>❌</td></tr>
+<tr><td>NDUFV2</td><td>two hybrid pooling approach</td><td>32814053</td><td>Mitochondrial Complex I</td><td>❌</td></tr>
+<tr><td>DDX39B</td><td>cross-linking study</td><td>30021884</td><td>mRNA export helicase (TREX complex)</td><td>❌</td></tr>
+</tbody></table></div>
+<p><strong>STRING 预测互作</strong> (已知功能方向):</p>
+<ul><li>ACIN1 (apoptotic chromatin condensation), FGF2 (growth factor), DDX39B (TREX mRNA export)</li><li>主要集中于凋亡调控、RNA加工和生长因子信号通路</li></ul>
+<p><strong>已知复合体成员</strong> (GO Cellular Component):</p>
+<ul><li>Nuclear speck (GO:0016607) — 剪接/RNA加工核内枢纽</li><li>Spliceosomal complex (GO:0005681)</li><li>Nucleus, Cytoplasm, Membrane</li></ul>
+<p><strong>PPI 互证分析</strong>:</p>
+<ul><li>调控相关比例: 2/12 (16.7%) — HILS1 (组蛋白H1样蛋白), HTT (亨廷顿蛋白/转录调控)</li><li>IntAct 实验互作以细胞质/代谢蛋白为主（PRKAB1, NDUFV2）和交联质谱捕获的核蛋白</li><li>Nuclear speck + spliceosomal complex GO 注释与 RNA processing 功能方向一致，非经典染色质调控</li></ul>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/API5/API5-PAE.png</code></div></figure></p>
+<p><strong>评价</strong>: API5 的 PPI 网络未呈现明显的染色质/转录调控富集。IntAct 实验互作以代谢和信号蛋白为主。HILS1（组蛋白H1样睾丸特异蛋白）的交联研究互作可能为间接关联。HTT（亨廷顿蛋白）虽涉及转录调控但为神经退行性疾病蛋白。Nuclear speck 和 spliceosomal complex 的 GO-CC 注释确认 API5 位于 RNA 加工相关亚核结构，但此定位与剪接/mRNA 代谢更相关，而非直接染色质调控。PPI 评分维持 4（调控比例 ~17%）。</p>
+<h4>X. 关键文献 (PubMed)</h4>
+<p>1. Sharma VK et al. (2021). &quot;Interplay between p300 and HDAC1 regulate acetylation and stability of Api5 to regulate cell proliferation.&quot;. *Sci Rep*. PMID: 34385547 2. Bong SM et al. (2020). &quot;Regulation of mRNA export through API5 and nuclear FGF2 interaction.&quot;. *Nucleic Acids Res*. PMID: 32383752 3. Garcia-Jove Navarro M et al. (2013). &quot;Api5 contributes to E2F1 control of the G1/S cell cycle phase transition.&quot;. *PLoS One*. PMID: 23940755 4. Kuttanamkuzhi A et al. (2023). &quot;Altered expression of anti-apoptotic protein Api5 affects breast tumorigenesis.&quot;. *BMC Cancer*. PMID: 37095445 5. Morris EJ et al. (2006). &quot;Functional identification of Api5 as a suppressor of E2F-dependent apoptosis in vivo.&quot;. *PLoS Genet*. PMID: 17112319</p>
+<h4>4. 总体评价</h4>
+<p><strong>推荐等级</strong>: ⭐⭐⭐ (3/5)</p>
+<p><strong>核心优势</strong>: 1. 蛋白大小理想 (524 aa)，结构质量优异 (pLDDT 84.6) 2. 研究新颖性高 (63篇)，chromatin 方向几近空白 3. Nuclear speckles 定位提示可能与 RNA 加工/转录调控交叉 4. 高置信度 ARM/HEAT 折叠域可能具有未发现的核酸结合功能</p>
+<p><strong>风险/不确定性</strong>: 1. 无任何已知 chromatin/DNA 结合结构域，功能推断缺乏结构基础 2. 已知 PPI 系统鉴定 API5 的核内互作组</p>
+<ul><li>[ ] 利用 ChIP-seq / CUT&amp;RUN 检测 API5 是否与染色质结合</li><li>[ ] 分析 nuclear speckles 定位是否参与 transcription-coupled RNA processing</li><li>[ ] AlphaFold 折叠域与已知核酸结合域做三维结构比对，寻找潜在 homology</li></ul>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9BZZ5</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=API5</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9BZZ5</li><li>InterPro: https://www.ebi.ac.uk/interpro/protein/Q9BZZ5/</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000166181-API5</li><li>STRING: (API 不可达)</li><li>humanPPI: </li></ul>
+<h5>PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th></tr></thead><tbody>
+<tr><td>无记录</td><td>—</td><td>—</td></tr>
+</tbody></table></div>
+<p>IntAct 有限记录。无 BioGrid 补充数据。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/API5/API5-PAE.png</code></div></figure></p>
+<p>PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/API5/API5-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

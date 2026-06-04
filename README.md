@@ -51,6 +51,38 @@ Comprehensive protein evaluation project for TE (Transposable Element) regulatio
 - ~4,800 pre-existing gate errors (format issues)
 - Obsidian vault-path links may show as broken in filesystem browsers
 
+
+## Local Static Website
+
+Open locally:
+
+```text
+docs/index.html
+```
+
+Rebuild the website:
+
+```bash
+python scripts/build/build_report_index.py
+python scripts/build/build_pages.py
+python scripts/build/validate_pages_links.py
+```
+
+Website contents:
+
+- Home overview
+- Protein Index
+- Category pages
+- Detail pages
+
+Known non-blocking backlog:
+
+- 832 need reharvest backlog
+- 43 duplicate conflicts
+- pre-existing gate errors
+
+GitHub Pages setup instructions are in `docs/GITHUB_PAGES_SETUP.md`. The site has not been published in Step 4B.
+
 ## Next Steps
 
 1. Step 3B: Initialize standalone git repository

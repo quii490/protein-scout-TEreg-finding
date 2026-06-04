@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FAM9C · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>FAM9C</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleus-cytoplasm</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 0</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleus-cytoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleus-cytoplasm/FAM9C/FAM9C-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;FAM9C&quot; date: 2026-06-04 tags: [protein-scout, scored, false-absence-repair, pilot] status: scored ---</p>
+<h3>FAM9C — SCORED (False-Absence Recovery)</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Q8IZT9</td></tr>
+<tr><td>蛋白</td><td>Protein FAM9C</td></tr>
+<tr><td>大小</td><td>166 aa</td></tr>
+<tr><td>AlphaFold pLDDT</td><td>N/A (uncollected)</td></tr>
+<tr><td>PubMed strict</td><td>0</td></tr>
+<tr><td>PDB</td><td>0 entries</td></tr>
+</tbody></table></div>
+<h4>2. 核定位证据</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>证据</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Nucleus</td><td><strong>ECO:0000269</strong> (实验证据)</td></tr>
+<tr><td>GO-CC</td><td>synaptonemal complex (IBA:GO_Central)</td><td>—</td></tr>
+<tr><td>HPA</td><td>No subcellular data (ok=True)</td><td>—</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 状态</strong>: HPA packet ok=True 但无 subcellular localization 数据。核定位基于 UniProt experimental evidence (ECO:0000269)。</p>
+<h4>3. False Absence Recheck</h4>
+<p><strong>原报告问题</strong>: 原 49-line rejected 报告含有以下 harvest data collection issue (now resolved) 迹象：</p>
+<ul><li>UniProt <code>?</code> — 实际 accession 为 Q8IZT9，定位为 Nucleus ECO:0000269</li><li>AlphaFold pLDDT: N/A — 实际值为 ?</li><li>GO-CC <code>No data</code> — 实际有 synaptonemal complex</li><li>HPA <code>main=No data</code> — 实际 packet ok=True</li><li>IF unavailable — 需独立检索 HPA</li></ul>
+<p><strong>修复</strong>: 重新 harvest FAM9C，确认 UniProt 有实验级核定位证据。原 <code>核定位 0/10</code> 应修正为 <code>核定位 6/10</code>。</p>
+<h4>4. 功能背景</h4>
+<p>FAM9C 是 FAM9 家族蛋白，UniProt 实验证据定位为 Nucleus。GO-CC 注释为 synaptonemal complex（减数分裂染色体联会复合体），与染色质功能相关。</p>
+<h4>5. PubMed 证据</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Type</th><th>Count</th></tr></thead><tbody>
+<tr><td>Strict</td><td>0</td></tr>
+<tr><td>Broad</td><td>0</td></tr>
+</tbody></table></div>
+<p>研究极少，极度新颖。</p>
+<h4>6. AlphaFold / PAE / PDB</h4>
+<ul><li>AlphaFold pLDDT: N/A (harvest packet did not collect)</li><li>PAE: 暂无数据（未生成 PAE 图片）</li><li>PDB: 0 entries</li></ul>
+<h4>7. PPI 网络</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>结果</th></tr></thead><tbody>
+<tr><td>STRING</td><td>packet 返回 0 partners</td></tr>
+<tr><td>IntAct</td><td>packet 返回 0 interactions</td></tr>
+<tr><td>UniProt interactions</td><td>11</td></tr>
+</tbody></table></div>
+<p>PPI 网络数据有限，但不影响核定位判断。</p>
+<h4>8. TE-Regulator Relevance</h4>
+<p>FAM9C 定位于 nucleus + synaptonemal complex，与减数分裂染色体结构相关。与 TE 调控的直接关联较弱，但核定位 + 极度新颖使其适合 as exploratory candidate。</p>
+<h4>9. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>权重</th><th>加权</th><th>摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>6/10</td><td>×4</td><td>24</td><td>UniProt Nucleus ECO:0000269</td></tr>
+<tr><td>蛋白大小</td><td>10/10</td><td>×1</td><td>10</td><td>166 aa</td></tr>
+<tr><td>研究新颖性</td><td>10/10</td><td>×5</td><td>50</td><td>PubMed strict=0</td></tr>
+<tr><td>三维结构</td><td>3/10</td><td>×3</td><td>9</td><td>pLDDT=N/A (harvest uncollected)</td></tr>
+<tr><td>调控结构域</td><td>5/10</td><td>×2</td><td>10</td><td>FAM9 family</td></tr>
+<tr><td>PPI 网络</td><td>3/10</td><td>×3</td><td>9</td><td>Limited data</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>112/180</strong></td><td></td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>61.2/100</strong></td><td></td></tr>
+</tbody></table></div>
+<h4>10. Final Decision</h4>
+<p><strong>SCORED</strong> — rescued from false-absence rejection. UniProt experimental evidence (ECO:0000269) confirms nuclear localization. Original rejection was caused by harvest/network failure writing <code>?</code> for all data fields.</p>
+<h4>11. 人工复核建议</h4>
+<p>HPA subcellular data 缺失，建议独立检索 HPA 确认 IF 图像状态。STRING/IntAct/PDB 数据均为零，但不影响核定位核心证据。</p>
+<h4>12. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q8IZT9</li><li>HPA: 无 subcellular 数据 (ok=True)</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8IZT9</li><li>Packet: 2026-06-04 re-harvest</li></ul></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ASF1B · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>ASF1B</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 28</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/ASF1B/ASF1B-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;ASF1B&quot; date: 2026-06-01 tags: [protein-scout, nucleoplasm, evaluation] status: scored ---</p>
+<h3>ASF1B 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>ASF1B</td></tr>
+<tr><td>蛋白全名</td><td>Histone chaperone ASF1B</td></tr>
+<tr><td>蛋白大小</td><td>202 aa / 22.4 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q9NVP2</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>新权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>7/10</td><td>x4</td><td>28.0</td><td>UniProt Nucleus; Cytosol, HPA Nucleoplasm</td></tr>
+<tr><td>蛋白大小</td><td>10/10</td><td>x1</td><td>10.0</td><td>202 aa, 22.4 kDa，极小</td></tr>
+<tr><td>研究新颖性</td><td>2/10</td><td>x5</td><td>10.0</td><td>PubMed strict=81 (≤100 区间)</td></tr>
+<tr><td>三维结构</td><td>8/10</td><td>x3</td><td>24.0</td><td>PDB 4 entries (5BNX/5BO0/7V1M/7VCQ), AF pLDDT 84.6, &gt;90=75.2%</td></tr>
+<tr><td>调控结构域</td><td>9/10</td><td>x2</td><td>18.0</td><td>Histone chaperone ASF1 domain，直接结合 H3/H4 二聚体</td></tr>
+<tr><td>PPI 网络</td><td>8/10</td><td>x3</td><td>24.0</td><td>STRING NASP 0.999, H3-3B 0.998, MCM2 0.996, CHAF1B 0.993, TLK2 0.981；IntAct 15+ 条</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>114/180</strong>**</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+0.0</td><td></td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>62.3/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt Subcellular Location</td><td>Nucleus (ECO:0000269); Cytoplasm, cytosol (ECO:0000269)</td><td>高（实验证据）</td></tr>
+<tr><td>GO-CC</td><td>chromatin (IDA:UniProtKB), nucleoplasm (IDA:HPA), nucleus (IBA:GO_Central), cytosol (IEA)</td><td>高</td></tr>
+<tr><td>HPA IF</td><td>Nucleoplasm (Enhanced 可靠性)</td><td>高</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 状态</strong>: IF available -- HPA 可靠性 Enhanced，定位 Nucleoplasm（纯核质）。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/ASF1B/ASF1B_IF_red_green.jpg</code></div></figure></p>
+<p><strong>结论</strong>: ASF1B 是组蛋白伴侣，在核质和胞质间穿梭，核质为主要功能定位。HPA Enhanced 可靠性纯 Nucleoplasm 定位，与组蛋白 H3/H4 的核输入和染色质组装功能一致。</p>
+<h5>3.2 结构与数据源</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold</td><td>AF-Q9NVP2-F1</td></tr>
+<tr><td>平均 pLDDT</td><td>84.6</td></tr>
+<tr><td>pLDDT &gt;90</td><td>75.2%</td></tr>
+<tr><td>pLDDT 70-90</td><td>1.0%</td></tr>
+<tr><td>pLDDT &lt;50</td><td>17.3%</td></tr>
+<tr><td>PDB</td><td>4 entries (5BNX 2.31A, 5BO0 2.91A, 7V1M 2.83A, 7VCQ 3.00A) -- 与 CDAN1 和组蛋白伴侣复合体共解析</td></tr>
+</tbody></table></div>
+<p>AlphaFold pLDDT 84.6，&gt;90 区 75.2%，核心 ASF1 域折叠极好。PDB 4 个结构均为与 CDAN1 等伴侣蛋白的共结晶。N 端 1-158 aa 区结构明确，C 端 ~40 aa 含无序区。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/ASF1B/ASF1B-PAE.png</code></div></figure></p>
+<div class="table-wrap"><table>
+<thead><tr><th>InterPro</th><th>Pfam</th></tr></thead><tbody>
+<tr><td>IPR006818 (ASF1-like histone chaperone), IPR036747 (ASF1-like superfamily)</td><td>PF04729 (ASF1_hist_chap)</td></tr>
+</tbody></table></div>
+<p><strong>染色质调控潜力</strong>: ASF1B 是复制依赖性染色质组装的核心组蛋白伴侣。直接结合新合成的 H3-H4 二聚体（H3K9me1 + H4K5K12ac 标记），与 CAF-1 协同完成 DNA 复制偶联的核小体组装。TLK1/TLK2 磷酸化 ASF1B 调控其活性。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict (Title/Abstract)</td><td>81</td></tr>
+<tr><td>PubMed broad</td><td>146</td></tr>
+<tr><td>别名</td><td>无</td></tr>
+</tbody></table></div>
+<p>关键文献：</p>
+<ul><li>PMID:40091041: &quot;Mechanism of ASF1 engagement by CDAN1.&quot; (Nat Commun, 2025) -- ASF1 结构机制</li><li>PMID:38498025: &quot;The TLK-ASF1 histone chaperone pathway plays a critical role in IL-1beta-mediated AML progression.&quot; (Blood, 2024)</li><li>PMID:26527279: ASF1B 识别 H3K9me1 和 H4K5K12ac 修饰的新合成组蛋白</li><li>PMID:38537775: &quot;Activation of the FOXM1/ASF1B/PRDX3 axis confers hyperproliferative and antioxidative stress reactivity to gastric cancer.&quot; (Cancer Lett, 2024)</li><li>PMID:36416310: &quot;Anti-silencing function 1B promotes the progression of pancreatic cancer by activating c-Myc.&quot; (Int J Oncol, 2023)</li></ul>
+<h5>3.4 PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>NASP</td><td>STRING</td><td>0.999 (exp 0.995)</td><td>组蛋白伴侣</td></tr>
+<tr><td>H3-3B</td><td>STRING</td><td>0.998 (exp 0.987)</td><td>组蛋白 H3.3 变体</td></tr>
+<tr><td>MCM2</td><td>STRING</td><td>0.996 (exp 0.983)</td><td>DNA 复制解旋酶</td></tr>
+<tr><td>CHAF1B</td><td>STRING</td><td>0.993 (exp 0.970)</td><td>CAF-1 复合体（复制偶联染色质组装）</td></tr>
+<tr><td>H4C6</td><td>STRING</td><td>0.993 (exp 0.988)</td><td>组蛋白 H4</td></tr>
+<tr><td>TLK2</td><td>STRING</td><td>0.981 (exp 0.875)</td><td>磷酸化激酶</td></tr>
+<tr><td>CDAN1</td><td>IntAct</td><td>coIP (PMID:17353931)</td><td>ASF1 调控因子</td></tr>
+<tr><td>TLK1</td><td>IntAct</td><td>coIP (PMID:17353931)</td><td>磷酸化激酶</td></tr>
+<tr><td>CHAF1A</td><td>IntAct</td><td>coIP (PMID:17353931)</td><td>CAF-1 大亚基</td></tr>
+<tr><td>CDAN1</td><td>UniProt</td><td>7 experiments</td><td>Codanin-1</td></tr>
+<tr><td>TLK2</td><td>UniProt</td><td>8 experiments</td><td>Tousled-like kinase 2</td></tr>
+</tbody></table></div>
+<p>ASF1B 的 PPI 网络高度集中于组蛋白伴侣/染色质组装体系。NASP、H3/H4 组蛋白、MCM2、CAF-1 (CHAF1A/B) 构成复制偶联染色质组装的核心网络。TLK1/TLK2 通过磷酸化调控 ASF1B。CDAN1 是 ASF1 的抑制因子。UniProt 记录 13 条 curated 互作。</p>
+<h4>4. 总体评价</h4>
+<p>ASF1B 是核心组蛋白伴侣，与 CAF-1 协同完成复制偶联核小体组装。主要劣势是 PubMed 81 篇（新颖性仅 2/10）。优势包括：极小蛋白（202 aa）、HPA Enhanced 纯核质定位、4 个 PDB 结构（与 CDAN1 复合体）、ASF1 域直接结合 H3/H4、PPI 网络以组蛋白伴侣体系为核心（CAF-1/TLK/CDAN1）。是染色质组装领域的关键靶点，但需注意 ASF1A 的高度同源性（需区分功能）。</p>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9NVP2</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9NVP2</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=ASF1B</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000105011-ASF1B</li></ul>
+<p>HPA IF 图像已本地嵌入。</p>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/ASF1B/ASF1B-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

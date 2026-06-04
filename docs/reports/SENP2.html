@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SENP2 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>SENP2</h1><div class="report-meta"><span class="badge muted">rejected</span><span class="badge">rejected</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 1</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/rejected.html">Category page</a></div><p class="source-path">Original detail path: detail/rejected/SENP2/SENP2-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;SENP2&quot; date: 2026-06-04 tags: [protein-scout, re-evaluation, batch-recovery] status: rejected rejection_reason: &quot;PubMed strict count 137 &gt; 100 (well-studied protein)&quot; ---</p>
+<h3>SENP2 -- Re-evaluation Report (REJECTED: PubMed Count &gt;100)</h3>
+<h4>1. Basic Information</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Item</th><th>Content</th></tr></thead><tbody>
+<tr><td>Gene / Aliases</td><td>SENP2 / KIAA1331</td></tr>
+<tr><td>Protein Name</td><td>Sentrin-specific protease 2 (SUMO-specific protease 2)</td></tr>
+<tr><td>Protein Size</td><td>589 aa, 67.9 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q9HC62 (SENP2_HUMAN, Swiss-Prot reviewed)</td></tr>
+<tr><td>Evaluation Date</td><td>2026-06-04</td></tr>
+<tr><td>Data Source</td><td>Full harvest packet available</td></tr>
+</tbody></table></div>
+<h4>2. Scoring Overview</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Score</th><th>Max</th><th>Weighted</th><th>Key Evidence Summary</th></tr></thead><tbody>
+<tr><td>Nuclear Localization Specificity</td><td>8/10</td><td>x4</td><td><strong>32</strong></td><td>Nuclear pore complex, nuclear membrane, nucleoplasm; strong multi-DB consensus</td></tr>
+<tr><td>Protein Size</td><td>8/10</td><td>x1</td><td><strong>8</strong></td><td>589 aa, slightly large but tractable</td></tr>
+<tr><td>Research Novelty</td><td>0/10</td><td>x5</td><td><strong>0</strong></td><td><strong>PubMed strict=137 (&gt;100 -&gt; AUTO REJECT)</strong></td></tr>
+<tr><td>3D Structure</td><td>10/10</td><td>x3</td><td><strong>30</strong></td><td>8 experimental PDB entries (X-ray, 2.15-3.20 A); AlphaFold available</td></tr>
+<tr><td>Regulatory Domains</td><td>8/10</td><td>x2</td><td><strong>16</strong></td><td>Ulp1 protease domain (PF02902); SUMO deconjugation activity</td></tr>
+<tr><td>PPI Network</td><td>8/10</td><td>x3</td><td><strong>24</strong></td><td>Strong SUMO pathway network; SUMO1-3, RANGAP1, NUP153, nuclear pore partners</td></tr>
+<tr><td>Cross-Validation Bonus</td><td>--</td><td>--</td><td><strong>+2.0</strong></td><td>Nuclear localization consensus (+1.0); PDB + domain consistency (+1.0)</td></tr>
+<tr><td><strong>Raw Total</strong></td><td></td><td></td><td><strong>120.0/180</strong></td><td>(Scored for completeness despite auto-rejection)</td></tr>
+<tr><td><strong>Normalized Total</strong></td><td></td><td></td><td><strong>66.7/100</strong></td><td></td></tr>
+</tbody></table></div>
+<p><strong>FINAL DECISION: REJECTED. PubMed strict count 137 &gt; 100 threshold. SENP2 is a well-studied SUMO protease with extensive literature. Auto-rejection applies regardless of other scoring dimensions per the &quot;PubMed&gt;100→REJECTED&quot; rule.</strong></p>
+<h4>3. Nuclear Localization Evidence</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Source</th><th>Localization</th><th>Reliability</th></tr></thead><tbody>
+<tr><td>UniProt (Swiss-Prot)</td><td>Nucleus, nuclear pore complex</td><td>Experimental (ECO:0000269)</td></tr>
+<tr><td>UniProt (Swiss-Prot)</td><td>Nucleus membrane</td><td>Experimental (ECO:0000269)</td></tr>
+<tr><td>UniProt (Swiss-Prot)</td><td>Cytoplasm</td><td>Experimental (ECO:0000269)</td></tr>
+<tr><td>GO-CC</td><td>Nuclear pore (IDA), nucleoplasm (TAS), nuclear membrane (IEA), nucleus (IBA), PML body (IEA), cytosol (IDA)</td><td>Multiple high-evidence terms</td></tr>
+<tr><td>HPA IF</td><td>Cytosol</td><td>Reliability: Supported</td></tr>
+</tbody></table></div>
+<p><strong>Manual Review Assessment</strong>: SENP2 has robust nuclear localization evidence. UniProt confirms nuclear pore complex and nuclear membrane localization with experimental evidence (ECO:0000269). GO-CC annotates nuclear pore (IDA, direct assay), nucleoplasm (TAS, traceable author statement), nucleus (IBA, inferred from biological aspect of ancestor), and PML body (IEA). The HPA IF data shows cytosol localization with &quot;Supported&quot; reliability, but this likely reflects the dynamic nucleocytoplasmic shuttling known for SUMO proteases. The N-terminal domain mediates nuclear envelope localization, while the C-terminal catalytic domain contains the active site. Overall nuclear evidence is strong and multi-source. Score 8/10 reflects strong nuclear evidence with the caveat of dynamic shuttling.</p>
+<h4>4. Protein Size Assessment</h4>
+<p>SENP2 is 589 amino acids (67.9 kDa), somewhat large but still within a tractable range for biochemical studies. The catalytic domain alone (residues 364-589, ~226 aa) can be expressed independently and has been crystallized. Size score: 8/10.</p>
+<h4>5. Research Novelty (PubMed Analysis)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody>
+<tr><td>PubMed strict count</td><td><strong>137 articles</strong></td></tr>
+<tr><td>PubMed broad count</td><td>249 articles</td></tr>
+<tr><td>Novelty category</td><td><strong>&gt;100 -&gt; AUTO REJECT</strong></td></tr>
+</tbody></table></div>
+<p>SENP2 has been extensively studied since its discovery in 2000. Research covers its role in SUMO processing and deconjugation, nuclear pore association, Wnt pathway modulation (via CTNNB1 desumoylation), adipogenesis (CEBPB stabilization), cGAS-STING pathway regulation, and myocardial ischemia-reperfusion injury. With 137+ PubMed articles and 8 experimental PDB structures, SENP2 is a mature, well-characterized target with limited discovery potential. Auto-rejection for PubMed &gt;100.</p>
+<h4>6. 3D Structure Analysis</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody>
+<tr><td>AlphaFold Prediction</td><td>Available (AF-Q9HC62-F1, v6)</td></tr>
+<tr><td>PDB Entries</td><td>8 experimental structures (X-ray)</td></tr>
+<tr><td>Mean pLDDT</td><td>62.1</td></tr>
+<tr><td>pct pLDDT &gt;90</td><td>37.4%</td></tr>
+<tr><td>pct pLDDT &lt;50</td><td>50.9%</td></tr>
+</tbody></table></div>
+<p>SENP2 has exceptional structural coverage with 8 experimental PDB entries at resolutions ranging from 2.15 A to 3.20 A. These all cover the C-terminal catalytic domain (residues ~364-589). The AlphaFold prediction shows a moderate mean pLDDT (62.1), with 50.9% of residues below pLDDT 50, likely reflecting the N-terminal disordered region involved in nuclear envelope targeting. The crystallized catalytic domain is well-characterized. Score 10/10 reflects the abundance of experimental structural data.</p>
+<h4>7. Domain Architecture</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Source</th><th>Domain/Feature</th><th>Notes</th></tr></thead><tbody>
+<tr><td>InterPro</td><td>IPR038765</td><td>Papain-like cysteine peptidase superfamily</td></tr>
+<tr><td>InterPro</td><td>IPR003653</td><td>Ulp1 protease family, C-terminal catalytic domain</td></tr>
+<tr><td>Pfam</td><td>PF02902</td><td>Ulp1 protease family (C-terminal catalytic domain)</td></tr>
+</tbody></table></div>
+<p>SENP2 contains a C-terminal Ulp1 protease domain (PF02902) responsible for SUMO processing and deconjugation. The N-terminal region (~1-363) mediates subcellular localization to the nuclear pore complex and nuclear envelope but is predicted to be largely disordered (consistent with low AlphaFold pLDDT). The catalytic domain is a cysteine protease with a conserved catalytic triad. The domain architecture directly supports nuclear function through the N-terminal targeting domain and enzymatic function through the C-terminal protease domain. Score 8/10.</p>
+<h4>8. PPI Network Analysis</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Source</th><th>Result</th></tr></thead><tbody>
+<tr><td>STRING</td><td>Top partners: SUMO1 (0.997, exp 0.983), SUMO2 (0.995, exp 0.985), RANGAP1 (0.989), NUP153 (0.981), SUMO3 (0.981)</td></tr>
+<tr><td>IntAct</td><td>15 interactors: CDK5RAP2, SUMO1 (X-ray crystallography), IKBKG, SMAD2, CANX, CCT6A, PB2 (viral)</td></tr>
+<tr><td>UniProt Interactions</td><td>20 interactors: SUMO1, SUMO2, SUMO3 (multiple experiments), KASH5 (6 experiments)</td></tr>
+</tbody></table></div>
+<p>SENP2 has a rich and well-characterized PPI network centered on the SUMO pathway. The strongest interactions are with SUMO1-3 (combined scores &gt;0.98, experimental &gt;0.9), consistent with its enzymatic function. Nuclear pore partners (NUP153, NUP133) and nuclear transport factors (KPNB1, IPO5, RANBP6) support its nuclear envelope localization. The DVL family interactions (0.91) link SENP2 to Wnt signaling. STRING network is dense and biologically coherent. Score 8/10.</p>
+<h4>9. Cross-Validation Analysis</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Sources</th><th>Result</th><th>Consistent?</th></tr></thead><tbody>
+<tr><td>Nuclear Localization</td><td>UniProt + GO-CC + STRING</td><td>Nuclear pore/membrane/nucleoplasm</td><td>Multi-DB consensus</td></tr>
+<tr><td>Structure</td><td>AlphaFold + 8 PDB entries</td><td>Well-characterized catalytic domain</td><td>Consistent</td></tr>
+<tr><td>PPI</td><td>STRING + IntAct + UniProt</td><td>SUMO pathway network</td><td>Dense and coherent</td></tr>
+</tbody></table></div>
+<p><strong>Cross-Validation Bonus Details</strong>:</p>
+<ul><li>Multi-database nuclear localization consensus (UniProt experimental + GO-CC IDA): +1.0</li><li>PDB structural data cross-validated with domain architecture: +1.0</li><li>STRING + IntAct PPI cross-validation: +0 (already accounted in PPI scoring)</li><li><strong>Total Cross-Validation Bonus</strong>: +2.0 / max +3</li></ul>
+<h4>10. Overall Assessment</h4>
+<p><strong>Recommendation Level</strong>: NOT RECOMMENDED (AUTO-REJECTED: PubMed &gt;100)</p>
+<p><strong>Primary Rejection Reason</strong>: PubMed strict count of 137 exceeds the 100-article threshold. SENP2 is a mature research target with extensive literature spanning SUMO biology, nuclear transport, Wnt signaling, adipogenesis, cGAS-STING immunity, and ischemia-reperfusion injury. Despite excellent nuclear localization credentials (score 8/10), high-quality structural data (8 PDB entries), and a well-characterized PPI network, SENP2 cannot pass the novelty filter. The protein is too well-studied to offer significant discovery potential for a TE-regulation focused project.</p>
+<h4>11. Decision</h4>
+<p><strong>FINAL DECISION: REJECTED.</strong> PubMed strict count 137 &gt; 100 threshold. The auto-rejection rule &quot;PubMed&gt;100→REJECTED&quot; applies regardless of other scoring dimensions. SENP2 would otherwise score 120/180 (66.7/100) with strong nuclear localization, excellent structural data, and a rich PPI network. The rejection is based solely on excessive prior research (low novelty), which is considered disqualifying for a discovery-oriented TE-regulation screen. No appeal pathway: this rejection is final and irreversible.</p>
+<h4>12. Data Sources</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9HC62</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9HC62</li><li>STRING: https://string-db.org/network/9606.ENSP00000330929</li><li>HPA: https://www.proteinatlas.org/ENSG00000163904-SENP2</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22SENP2%22</li><li>Harvest Packet: SENP2.json (full data available)</li></ul>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/SENP2/SENP2-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

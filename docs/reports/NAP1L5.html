@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NAP1L5 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>NAP1L5</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 24</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/NAP1L5/NAP1L5-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;NAP1L5&quot; date: 2026-06-01 tags: [protein-scout, nucleoplasm, evaluation] status: scored ---</p>
+<h3>NAP1L5 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>NAP1L5 / DRLM</td></tr>
+<tr><td>蛋白全名</td><td>Nucleosome assembly protein 1-like 5</td></tr>
+<tr><td>蛋白大小</td><td>182 aa / 19.6 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q96NT1</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>新权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>5/10</td><td>x4</td><td>20.0</td><td>UniProt Nucleus (ECO:0000305); GO-CC nucleus (IEA); HPA Nucleoplasm (Approved) + Cytosol</td></tr>
+<tr><td>蛋白大小</td><td>9/10</td><td>x1</td><td>9.0</td><td>182 aa, 19.6 kDa, 小型核小体组装蛋白</td></tr>
+<tr><td>研究新颖性</td><td>8/10</td><td>x5</td><td>40.0</td><td>PubMed strict=24, broad=37</td></tr>
+<tr><td>三维结构</td><td>3/10</td><td>x3</td><td>9.0</td><td>AlphaFold mean pLDDT 65.4; PDB 无; pct_gt_90=24.7%</td></tr>
+</tbody></table></div>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/NAP1L5/NAP1L5-PAE.png</code></div></figure></p>
+<div class="table-wrap"><table>
+<tbody>
+<tr><td>调控结构域</td><td>7/10</td><td>x2</td><td>14.0</td><td>NAP family (IPR037231, IPR002164); Pfam PF00956 (Nucleosome assembly protein); 直接染色质组装</td></tr>
+<tr><td>PPI 网络</td><td>5/10</td><td>x3</td><td>15.0</td><td>STRING: NAP1L1 0.793, NAP1L4 0.746, NOL6 0.736; IntAct 15 条; UniProt 4 条</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>107/180</strong>**</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+1.0</td><td>印记基因; 核小体组装</td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>58.5/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Nucleus (ECO:0000305)</td><td>低置信度 (无实验证据引用的 curator 推断)</td></tr>
+<tr><td>GO-CC</td><td>nucleus (IEA:UniProtKB-SubCell)</td><td>电子注释</td></tr>
+<tr><td>Protein Atlas (IF)</td><td>Nucleoplasm (main, Approved) + Cytosol (additional)</td><td>HPA Approved</td></tr>
+<tr><td>Protein name</td><td>Nucleosome assembly protein 1-like 5</td><td>名称暗示核功能</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 状态</strong>: HPA IF 图像已本地嵌入。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/NAP1L5/NAP1L5_IF_1599_B11_3_red_green.jpg</code></div></figure>。核定位基于HPA localization/reliability + UniProt + GO-CC。</p>
+<p><strong>结论</strong>: NAP1L5 核定位证据主要依赖 HPA IF Approved (Nucleoplasm main)。UniProt 仅有低置信度推断 (ECO:0000305)，GO-CC 为电子注释。HPA Approved 提供了独立的实验定位支持。</p>
+<h5>3.2 结构与数据源</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold</td><td>AF-Q96NT1-F1 (v6)</td></tr>
+<tr><td>平均 pLDDT</td><td>65.4</td></tr>
+<tr><td>pLDDT &gt;90</td><td>24.7%</td></tr>
+<tr><td>pLDDT 70-90</td><td>7.1%</td></tr>
+<tr><td>pLDDT 50-70</td><td>46.2%</td></tr>
+<tr><td>pLDDT &lt;50</td><td>22.0%</td></tr>
+<tr><td>PDB</td><td>无</td></tr>
+<tr><td>InterPro</td><td>IPR037231 (NAP-like superfamily), IPR002164 (NAP family)</td></tr>
+<tr><td>Pfam</td><td>PF00956 (NAP)</td></tr>
+</tbody></table></div>
+<p>AlphaFold 置信度中等偏低 (mean 65.4)，大部分区域在 50-70% 区间，提示蛋白可能含固有无序区。无 PDB 实验结构。NAP domain 是核小体组装蛋白的保守结构域。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict (Title/Abstract)</td><td>24</td></tr>
+<tr><td>PubMed symbol only</td><td>35</td></tr>
+<tr><td>PubMed broad</td><td>37</td></tr>
+<tr><td>别名</td><td>DRLM（未用于 scoring）</td></tr>
+</tbody></table></div>
+<p>关键文献：</p>
+<ul><li>PMID:36568274 (Wang B et al., 2022) -- NAP1L5 缓解阿尔茨海默病细胞模型病理特征</li><li>PMID:40786510 (Wang M et al., 2025) -- NAP1L5 在急性髓系白血病中的预后生物标志物</li><li>PMID:37717692 (Xiao B et al., 2023) -- NAP1L5 通过 TRIM29 介导的 PHLPP1 泛素化促进胰腺癌</li><li>PMID:36374212 (Zhao R et al., 2022) -- NAP1L5 联合 MYH9 通过 PI3K/AKT/mTOR 抑制 HCC</li><li>PMID:37667226 (Roh J et al., 2023) -- MALAT1 调控肺癌细胞基因表达谱（含 NAP1L5）</li></ul>
+<p>NAP1L5 是一个印记基因，研究集中在肿瘤生物学（胰腺癌、HCC、AML）和神经退行性疾病。核小体组装功能主要通过家族归属推断，直接生化证据有限。</p>
+<h5>3.4 PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>NAP1L1</td><td>STRING</td><td>0.793 (exp 0.537)</td><td>NAP family</td></tr>
+<tr><td>NAP1L4</td><td>STRING</td><td>0.746 (exp 0.508)</td><td>NAP family</td></tr>
+<tr><td>NOL6</td><td>STRING</td><td>0.736 (exp 0.702)</td><td>Nucleolar</td></tr>
+<tr><td>NAP1L2</td><td>STRING</td><td>0.673 (exp 0.593)</td><td>NAP family (imprinted)</td></tr>
+<tr><td>TSPYL4</td><td>STRING</td><td>0.712 (exp 0.624)</td><td>Chromatin</td></tr>
+<tr><td>ATF4</td><td>IntAct</td><td>Y2H (PMID:32296183)</td><td>转录因子</td></tr>
+<tr><td>NAP1L2</td><td>IntAct</td><td>PCA (PMID:32296183)</td><td>NAP family, UniProt 5 exps</td></tr>
+<tr><td>SYCE2</td><td>IntAct</td><td>validated Y2H (PMID:32296183)</td><td>Synaptonemal complex, UniProt 5 exps</td></tr>
+<tr><td>KAT5</td><td>IntAct</td><td>Y2H (PMID:16169070)</td><td>组蛋白乙酰转移酶 (Tip60)</td></tr>
+<tr><td>GRB2</td><td>IntAct</td><td>Y2H (PMID:20936779)</td><td>信号适配器</td></tr>
+<tr><td>IKBKG</td><td>IntAct</td><td>protein array (PMID:20098747)</td><td>NF-kB 信号</td></tr>
+<tr><td>SNRPB2</td><td>IntAct</td><td>Y2H (PMID:32296183)</td><td>剪接体</td></tr>
+<tr><td>--</td><td>UniProt</td><td>ATF4(3), NAP1L2(5), SNRPB2(3), SYCE2(5)</td><td>Curated</td></tr>
+</tbody></table></div>
+<p>PPI 网络以 NAP 家族同源互作为主，同时 KAT5 (Tip60 组蛋白乙酰转移酶) 的互作提示染色质修饰关联。UniProt 记录 4 个 curated interactors。</p>
+<h4>4. 总体评价</h4>
+<p>NAP1L5 是一个小型印记核小体组装蛋白，HPA IF Approved 支持核定位。NAP domain 直接参与染色质组装。研究热度低 (strict=24)，新颖性良好。不足之处：UniProt 定位证据薄弱（仅 ECO:0000305），结构数据中等偏下，NAP 家族染色质组装功能需实验验证。</p>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q96NT1</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q96NT1</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=NAP1L5</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000177432-NAP1L5</li></ul>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/NAP1L5/NAP1L5-PAE.png</code></div></figure></p>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/NAP1L5/NAP1L5-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

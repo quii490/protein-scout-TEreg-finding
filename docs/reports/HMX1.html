@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HMX1 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>HMX1</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 5</span><span class="badge">Nuclear: 8</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/HMX1/HMX1-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;HMX1&quot; date: 2026-06-01 tags: [protein-scout, nuclear-protein, evaluation] status: scored ---</p>
+<h3>HMX1 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>HMX1 / H6</td></tr>
+<tr><td>蛋白全名</td><td>Homeobox protein HMX1</td></tr>
+<tr><td>蛋白大小</td><td>348 aa / 36.2 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q9NP08 (HMX1_HUMAN)</td></tr>
+<tr><td>评估日期</td><td>2026-06-01</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览 (权重: 核×4 大×1 新×5 结×3 域×2 PPI×3 /1.83)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>加权</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>8/10</td><td>×4</td><td><strong>32</strong></td><td>UniProt: Nucleus (ECO:0000305); GO: chromatin (ISA:NTNU_SB)+nucleus (IBA); Homeobox TF内在核定位+DNA结合</td></tr>
+<tr><td>蛋白大小</td><td>10/10</td><td>×1</td><td><strong>10</strong></td><td>348 aa / 36.2 kDa, 300-800理想区间</td></tr>
+<tr><td>研究新颖性</td><td>6/10</td><td>×5</td><td>30</td><td>PubMed 57篇; ≤60区间</td></tr>
+<tr><td>三维结构</td><td>5/10</td><td>×3</td><td><strong>15</strong></td><td>AF pLDDT 61.7; 35.3%无序(pLDDT&lt;50); 无PDB实验结构; homeobox域折叠较好</td></tr>
+<tr><td>调控结构域</td><td>7/10</td><td>×2</td><td><strong>14</strong></td><td>Homeobox domain (IPR001356/IPR020479/PF00046); DNA-binding TF; 直接结合5&#x27;-CAAG-3&#x27;</td></tr>
+<tr><td>PPI</td><td>2/10</td><td>×3</td><td><strong>6</strong></td><td>STRING: PAX2(0.624)+PPP2R2C(0.483); IntAct: NAF1(Y2H)1条; 极低PPI密度</td></tr>
+<tr><td>互证加分</td><td>—</td><td>—</td><td><strong>+0.5</strong></td><td>chromatin GO + homeobox domain注释一致; ≥2源定位</td></tr>
+<tr><td><strong>原始总分</strong></td><td></td><td></td><td><strong>107.5/180</strong></td><td></td></tr>
+<tr><td><strong>归一化总分</strong></td><td></td><td></td><td><strong>58.7/100</strong></td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Nucleus (ECO:0000305, 无实验证据)</td><td>推断</td></tr>
+<tr><td>GO-CC</td><td>chromatin (ISA:NTNU_SB), nucleus (IBA:GO_Central)</td><td>ISA/IBA</td></tr>
+<tr><td>HPA (IF)</td><td>无IF图像 (ENSG00000215612, 无图像获取)</td><td>—</td></tr>
+</tbody></table></div>
+<p><strong>IF 图像</strong>: HPA无HMX1的IF展示图像数据。Gene ENSG00000215612存在但未获取到IF数据。</p>
+<p><strong>结论</strong>: HMX1作为Homeobox转录因子，核定位是其功能所需(序列特异性DNA结合)。GO-CC的chromatin注释(ISA:NTNU_SB)提示其直接结合染色质，而非仅定位于核质。UniProt核定位为推断性证据(ECO:0000305，非实验)，但homeobox蛋白家族的核定位高度保守。缺乏HPA IF直接验证。评分8分(Homeobox TF内在核定位+chromatin GO，但缺实验IF)。</p>
+<h5>3.2 蛋白大小评估</h5>
+<p><strong>评价</strong>: 348 aa / 36.2 kDa，处于理想的300-800 aa区间。蛋白紧凑，适合重组表达和生化实验。Homeobox domain(~60aa)仅占一小部分，其余为转录调控区(可能含转录激活/抑制域)。评分10分。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict</td><td>57</td></tr>
+<tr><td>PubMed broad</td><td>88</td></tr>
+<tr><td>Chromatin/epigenetics 比例</td><td>&lt;5%</td></tr>
+</tbody></table></div>
+<p><strong>主要研究方向</strong>:</p>
+<ul><li>颅面发育(眼/耳发育畸形，小耳畸形microtia相关)</li><li>视网膜发育和EPHA6/epha4b调控</li><li>斑马鱼椎体矿化和骨发育</li><li>人类CNV: HMX1远端增强子重复导致双侧小耳畸形</li><li>NKX2-5转录拮抗</li></ul>
+<p><strong>关键文献</strong>: 1. Xing W et al. (2024). &quot;An innovative CRISPR/Cas9 mouse model of human isolated microtia indicates the potential contribution of CNVs near HMX1 gene.&quot; *Int J Pediatr Otorhinolaryngol*. PMID: 39616960 2. El Fersioui Y et al. (2022). &quot;Premature Vertebral Mineralization in hmx1-Mutant Zebrafish.&quot; *Cells*. PMID: 35406651 3. Marcelli F et al. (2014). &quot;A dimerized HMX1 inhibits EPHA6/epha4b in mouse and zebrafish retinas.&quot; *PLoS One*. PMID: 24945320 4. Si N et al. (2020). &quot;Duplications involving the long range HMX1 enhancer are associated with human isolated bilateral concha-type microtia.&quot; *J Transl Med*. PMID: 32552830 5. Yoshiura K et al. (1998). &quot;Cloning, characterization, and mapping of the mouse homeobox gene Hmx1.&quot; *Genomics*. PMID: 9628823</p>
+<p><strong>评价</strong>: 57篇PubMed主要集中于发育生物学(颅面/眼/耳)，chromatin/epigenetics方向几乎无专门研究。Homeobox TF在发育中调控靶基因转录，但其作为染色质调控因子的研究完全空白。与NKX2-5的拮抗关系暗示其在心脏发育转录网络中的角色。评分6分。</p>
+<h5>3.4 三维结构分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold 平均 pLDDT</td><td>61.7</td></tr>
+<tr><td>pLDDT &gt;90 占比</td><td>17.8%</td></tr>
+<tr><td>pLDDT 70-90 占比</td><td>7.2%</td></tr>
+<tr><td>pLDDT 50-70 占比</td><td>39.7%</td></tr>
+<tr><td>pLDDT &lt;50 占比</td><td>35.3%</td></tr>
+<tr><td>可用 PDB 条目</td><td>无</td></tr>
+</tbody></table></div>
+<p><strong>PAE 图</strong>: <figure><div class="missing-image">Missing local image: <code>../assets/report-images/HMX1/HMX1-PAE.png</code></div></figure></p>
+<p><strong>评价</strong>: 结构质量偏低。AlphaFold pLDDT=61.7，35.3%残基pLDDT&lt;50。Homeobox domain(预计位于100-160区域)应有较好的折叠(pLDDT可能&gt;70)，但蛋白整体无序区域较多(可能为转录调控区的内在无序性)。无PDB实验结构验证。评分5分。</p>
+<h5>3.5 结构域分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>结构域</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Homeobox domain</td></tr>
+<tr><td>InterPro</td><td>IPR001356 (Homeobox domain); IPR020479 (Homeobox, metazoa); IPR051300 (HMX family); IPR017970 (Homeobox, conserved site); IPR009057 (Homeobox-like superfamily)</td></tr>
+<tr><td>Pfam</td><td>PF00046 (Homeobox domain)</td></tr>
+</tbody></table></div>
+<p><strong>调控潜力分析</strong>: HMX1含经典的Homeobox domain(~60aa, helix-turn-helix fold)，是序列特异性DNA结合模块。Homeobox TF直接识别并结合靶基因启动子/增强子区域的5&#x27;-CAAG-3&#x27;核心序列，直接影响染色质层面的转录调控。作为转录抑制因子(antagonizes NKX2-5)，可能通过招募共抑制因子复合物改变局部染色质状态。Homeobox蛋白在发育中协调染色质可及性，但HMX1的具体chromatin调控机制未被研究。评分7分(DNA-binding TF, chromatin GO注释)。</p>
+<h5>3.6 PPI 网络</h5>
+<p><strong>实验验证互作</strong> (IntAct):</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>方法</th><th>PMID</th><th>功能类别</th><th>调控相关？</th></tr></thead><tbody>
+<tr><td>NAF1</td><td>Y2H array</td><td>14690591</td><td>H/ACA snoRNP assembly (nucleolar)</td><td>否(核仁)</td></tr>
+</tbody></table></div>
+<p><strong>STRING 预测互作</strong> (combined score &gt;0.4):</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>功能类别</th><th>调控相关？</th></tr></thead><tbody>
+<tr><td>PAX2</td><td>0.624 (textmining 0.6)</td><td>Paired box TF, 发育调控</td><td>是(转录因子)</td></tr>
+<tr><td>PPP2R2C</td><td>0.483 (textmining 0.458)</td><td>PP2A regulatory subunit</td><td>否</td></tr>
+<tr><td>ZNF579</td><td>0.436</td><td>Zinc finger protein</td><td>可能</td></tr>
+</tbody></table></div>
+<p><strong>PPI 评价</strong>: PPI数据极度稀疏。仅1条IntAct实验互作(NAF1, Y2H)和低置信度STRING预测(PAX2=0.624 textmining, 可能与耳/眼发育共表达相关)。PAX2同为发育转录因子，与HMX1在眼/耳发育中可能有功能关联。整体PPI密度极低，反映该蛋白研究的严重不足。评分2分。</p>
+<h4>4. 总体评价</h4>
+<p><strong>推荐等级</strong>: 2星半 (58.7/100)</p>
+<p><strong>核心优势</strong>: 1. Homeobox转录因子，内在核定位+序列特异性DNA结合+chromatin GO注释 2. 蛋白尺寸理想(348aa)，适合生化研究 3. Chromatin/epigenetics方向完全未开发，研究空白明确 4. 发育转录因子，靶基因调控与染色质状态直接相关</p>
+<p><strong>风险/不确定性</strong>: 1. PPI极度稀疏(2/10)，分子网络完全未知 2. 35.3%无序区域，无PDB实验结构 3. UniProt核定位为推断性证据(ECO:0000305, 非实验) 4. HPA无IF数据 5. 主要研究局限于发育生物学，细胞/分子水平功能研究缺乏</p>
+<p><strong>下一步建议</strong>:</p>
+<ul><li>[ ] ChIP-seq鉴定HMX1全基因组结合位点(利用其5&#x27;-CAAG-3&#x27; motif)</li><li>[ ] 鉴定HMX1的转录共调节因子(co-repressor/co-activator)</li><li>[ ] 评估HMX1在发育过程中对靶基因位点染色质可及性的影响</li></ul>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9NP08</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000215612-HMX1</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=HMX1</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9NP08</li><li>STRING: https://string-db.org/ (HMX1)</li><li>IntAct: https://www.ebi.ac.uk/intact/</li></ul>
+<h5>PPI 网络</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th></tr></thead><tbody>
+<tr><td>PAX2</td><td>STRING</td><td>0.624</td></tr>
+<tr><td>PPP2R2C</td><td>STRING</td><td>0.483</td></tr>
+<tr><td>ZNF579</td><td>STRING</td><td>0.436</td></tr>
+<tr><td>NAF1</td><td>IntAct</td><td>psi-mi:&quot;MI:0397&quot;(two hybrid ar</td></tr>
+</tbody></table></div>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/HMX1/HMX1-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

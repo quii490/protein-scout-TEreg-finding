@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HELT · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>HELT</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 2</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/HELT/HELT-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;HELT&quot; date: 2026-06-01 tags: [protein-scout, nucleoplasm, evaluation] status: scored ---</p>
+<h3>HELT 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名</td><td>HELT</td></tr>
+<tr><td>蛋白全名</td><td>Hairy and enhancer of split-related protein HELT</td></tr>
+<tr><td>蛋白大小</td><td>242 aa / 26.9 kDa</td></tr>
+<tr><td>UniProt ID</td><td>A6NFD8</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>新权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>7/10</td><td>×4</td><td>28.0</td><td>UniProt: Nucleus (ECO:0000255); GO: chromatin ISA, nucleus IBA; HPA 无 IF 数据</td></tr>
+<tr><td>蛋白大小</td><td>9/10</td><td>×1</td><td>9.0</td><td>242 aa, 26.9 kDa</td></tr>
+<tr><td>研究新颖性</td><td>10/10</td><td>×5</td><td>50.0</td><td>PubMed strict=16, broad=348</td></tr>
+<tr><td>三维结构</td><td>6/10</td><td>×3</td><td>18.0</td><td>AlphaFold pLDDT 65.8; 39.7% &lt;50; 无 PDB</td></tr>
+</tbody></table></div>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/HELT/HELT-PAE.png</code></div></figure></p>
+<div class="table-wrap"><table>
+<tbody>
+<tr><td>调控结构域</td><td>8/10</td><td>×2</td><td>16.0</td><td>bHLH + Orange domain; 转录抑制因子; GABAergic 神经元命运决定</td></tr>
+<tr><td>PPI 网络</td><td>5/10</td><td>×3</td><td>15.0</td><td>STRING TLE5 (exp 0.534); IntAct 多 Y2H array partner</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>136/180</strong>**</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+1.0</td><td>bHLH TF 在神经发育中功能明确; TLE5 共抑制因子</td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>74.3/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Nucleus (ECO:0000255)</td><td>Predicted</td></tr>
+<tr><td>GO-CC</td><td>chromatin (ISA:NTNU_SB); nucleus (IBA:GO_Central); transcription regulator complex (IEA:Ensembl)</td><td>Mixed</td></tr>
+<tr><td>Protein Atlas (IF)</td><td>无 IF 数据; reliability_if=null; subcellular_location=[]</td><td>无数据</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 状态</strong>: HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。 — HPA 未提供 HELT 的 IF 定位数据（subcellular_location 为空，reliability_if 为 null）。核定位证据完全依赖于 UniProt 和 GO 预测/推断。作为 bHLH 转录因子家族成员和已知的转录抑制因子，核定位在功能上合理但缺乏直接实验验证。</p>
+<h5>3.2 结构与结构域</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold</td><td>AF-A6NFD8-F1</td></tr>
+<tr><td>平均 pLDDT</td><td>65.8</td></tr>
+<tr><td>pLDDT &gt;90</td><td>29.8%</td></tr>
+<tr><td>pLDDT 70-90</td><td>12.8%</td></tr>
+<tr><td>pLDDT 50-70</td><td>17.8%</td></tr>
+<tr><td>pLDDT &lt;50</td><td>39.7%</td></tr>
+<tr><td>PDB</td><td>无</td></tr>
+<tr><td>InterPro</td><td>IPR011598 (bHLH), IPR050370, IPR036638 (Orange), IPR003650</td></tr>
+<tr><td>Pfam</td><td>PF07527 (Hairy_orange), PF00010 (HLH)</td></tr>
+</tbody></table></div>
+<p><strong>AlphaFold PAE 状态</strong>: PAE 已下载，见上图。pLDDT 中等（65.8），与 HEYL 相似。bHLH 和 Orange 结构域区域可能有较可靠折叠。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict (Title/Abstract)</td><td>16</td></tr>
+<tr><td>PubMed broad</td><td>348</td></tr>
+</tbody></table></div>
+<p>高度新颖。关键文献包括 HELT 作为 bHLH 转录抑制因子的首次鉴定（PMID:14764602）、决定中脑 GABAergic 神经元命运（PMID:17611227）、与 Dbx1 在 GABAergic 分化中的关系（PMID:38344749）。broad 高达 348 但 strict 仅 16，说明该词在很多文献中以其他含义出现（如德语词 &quot;Held&quot; 的变体），基因特异性研究很少。研究集中于发育神经生物学中的神经元命运决定。</p>
+<h5>3.4 PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>TLE5</td><td>STRING</td><td>0.549 (exp 0.534)</td><td>Co-repressor</td></tr>
+<tr><td>TLE5</td><td>IntAct</td><td>validated Y2H (PMID:32296183)</td><td>Co-repressor</td></tr>
+<tr><td>ASCL1</td><td>STRING</td><td>0.660 (exp 0.094)</td><td>bHLH TF, neural development</td></tr>
+<tr><td>SLC6A7</td><td>STRING</td><td>0.801 (textmining)</td><td>Proline transporter</td></tr>
+<tr><td>TAL2</td><td>STRING</td><td>0.606 (exp 0.094)</td><td>bHLH TF</td></tr>
+<tr><td>LMO4</td><td>IntAct</td><td>validated Y2H (PMID:32296183)</td><td>LIM domain TF regulator</td></tr>
+<tr><td>TRAF1</td><td>IntAct</td><td>two hybrid array (PMID:32296183)</td><td>TNF receptor signaling</td></tr>
+<tr><td>BAG3</td><td>IntAct</td><td>two hybrid array (PMID:32296183)</td><td>Co-chaperone</td></tr>
+<tr><td>VPS37C</td><td>IntAct</td><td>validated Y2H (PMID:32296183)</td><td>ESCRT-I subunit</td></tr>
+<tr><td>SORT1</td><td>IntAct</td><td>anti tag coIP (PMID:33961781)</td><td>Sortilin, trafficking</td></tr>
+<tr><td>—</td><td>UniProt</td><td>无记录互作</td><td>—</td></tr>
+</tbody></table></div>
+<p>TLE5 是最重要的生物学 partner（STRING exp 0.534, IntAct validated Y2H），作为转录共抑制因子与 HELT 的 bHLH 抑制功能一致。ASCL1 和 TAL2 均为神经发育相关 bHLH TF。IntAct 记录了多个 Y2H 互作但功能关联不明。UniProt 无互作记录。</p>
+<h4>4. 总体评价</h4>
+<p>HELT 是本批中评分最高的候选之一（74.9/100）。核心优势：蛋白极小（26.9 kDa）、极高新颖性（PM=16）、bHLH-Orange 结构域明确指向转录调控、神经发育中的 GABAergic 命运决定功能独特。主要劣势：HPA 无 IF 数据（核定位依赖预测）、PDB 缺失、PPI 网络以 Y2H 为主。TLE5 作为共抑制因子的实验验证增强了功能可信度。建议作为中高优先级核质候选保留。</p>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/A6NFD8</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/A6NFD8</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=HELT</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000187821-HELT（无 IF 数据）</li></ul>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/HELT/HELT-PAE.png</code></div></figure></p>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/HELT/HELT-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

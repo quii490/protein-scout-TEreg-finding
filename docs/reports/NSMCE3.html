@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NSMCE3 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>NSMCE3</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 9</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/NSMCE3/NSMCE3-evaluation.md</p></section><article class="report-body"><h2>NSMCE3 – Critical False-Rejection Reevaluation Report</h2>
+<p><strong>Gene:</strong> NSMCE3 <strong>UniProt Accession:</strong> Q96MG7 <strong>Protein Name:</strong> Non-structural maintenance of chromosomes element 3 homolog <strong>Length:</strong> 304 aa | <strong>Mass:</strong> 34.3 kDa <strong>Aliases:</strong> HCA4, MAGEG1, NDNL2 <strong>Report Date:</strong> 2026-06-04 <strong>Review Stage:</strong> W2 Batch 1 – CRITICAL REOPEN</p>
+<hr>
+<h3>/180 Scoring Table</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Max</th><th>Score</th><th>Rationale</th></tr></thead><tbody>
+<tr><td>1. Nuclear Localization</td><td>30</td><td>9</td><td>UniProt: Nucleus, Chromosome, telomere.</td></tr>
+<tr><td>2. Protein Size</td><td>10</td><td>9</td><td>304 aa / 34.3 kDa – moderate size, tractable.</td></tr>
+<tr><td>3. Research Novelty</td><td>10</td><td>10</td><td>PubMed strict: 6. &lt;=20 = 10/10 maximum novelty. Very poorly studied.</td></tr>
+<tr><td>4. 3D Structure</td><td>30</td><td>18</td><td>AlphaFold mean pLDDT: 74.6. PDB: 2 experimental structures.</td></tr>
+<tr><td>5. Regulatory Domains</td><td>50</td><td>12</td><td>InterPro: IPR037445, IPR041898, IPR041899. Function summary: Component of the SMC5-SMC6 complex, a complex involved in repair of DNA double-strand breaks by homologous recombination (PubMed:20864041, PubMed:27427983). The complex may promote sister chromatid ho...</td></tr>
+<tr><td>6. PPI Network</td><td>50</td><td>39</td><td>STRING: 15 partners. IntAct: 15 interactors.</td></tr>
+<tr><td><strong>TOTAL</strong></td><td><strong>180</strong></td><td><strong>97</strong></td><td></td></tr>
+</tbody></table></div>
+<hr>
+<h3>Nuclear Evidence Section</h3>
+<h4>HPA (Human Protein Atlas)</h4>
+<ul><li><strong>Status:</strong> hpa_localization_available</li><li><strong>Reliability (IF):</strong> None</li><li><strong>IF Image Status:</strong> no_image_detected</li></ul>
+<h4>UniProt Subcellular Location</h4>
+<ul><li><strong>Cytoplasm</strong> – Evidence: ECO:0000250</li><li><strong>Nucleus</strong> – Evidence: ECO:0000269</li><li><strong>Chromosome, telomere</strong> – Evidence: ECO:0000305</li></ul>
+<h4>GO Cellular Component (GO-CC)</h4>
+<ul><li><strong>GO:0000781 (chromosome, telomeric region)</strong> – Evidence: NAS:ComplexPortal</li><li><strong>GO:0005737 (cytoplasm)</strong> – Evidence: IEA:UniProtKB-SubCell</li><li><strong>GO:0005654 (nucleoplasm)</strong> – Evidence: TAS:Reactome</li><li><strong>GO:0005634 (nucleus)</strong> – Evidence: IBA:GO_Central</li><li><strong>GO:0030915 (Smc5-Smc6 complex)</strong> – Evidence: IDA:UniProtKB</li></ul>
+<h4>Functional Context</h4>
+<ul><li>Component of the SMC5-SMC6 complex, a complex involved in repair of DNA double-strand breaks by homologous recombination (PubMed:20864041, PubMed:27427983). The complex may promote sister chromatid homologous recombination by recruiting the SMC1-SMC3 cohesin complex to double-strand breaks. The complex is required for telomere maintenance via recombination in ALT (alternative lengthening of telomeres) cell lines and mediates sumoylation of shelterin complex (telosome) components which is prop...</li></ul>
+<p><strong>Summary:</strong> NSMCE3 has limited nuclear evidence (UniProt experimental nuclear evidence). Nuclear score: 9/30.</p>
+<p><strong>Interpretation note:</strong> HPA IF original images not reliably fetched (HPA search page does not have usable subcellular IF originals). Nuclear localization based on HPA localization/reliability + UniProt + GO-CC.</p>
+<hr>
+<h3>PubMed Evidence</h3>
+<h4>Literature Metrics</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Query Type</th><th>Count</th><th>Query String</th></tr></thead><tbody>
+<tr><td>Strict (Title/Abstract)</td><td>6</td><td><code>&quot;NSMCE3&quot;[Title/Abstract] AND (gene[Title/Abstract] OR protein[Title/Abstract] OR...</code></td></tr>
+<tr><td>Symbol Only (Title/Abstract)</td><td>8</td><td></td></tr>
+<tr><td>Broad (All Fields)</td><td>12</td><td></td></tr>
+</tbody></table></div>
+<p><strong>Alias Note:</strong> Aliases observed but not used for scoring: HCA4, MAGEG1, NDNL2</p>
+<h4>Key Papers (with PMIDs)</h4>
+<p>1. <strong>PMID:27427983</strong> – van der Crabben SN, Hennus MP, McGregor GA (2016 Aug 1). &quot;Destabilized SMC5/6 complex leads to chromosome breakage syndrome with severe lung disease.&quot; *The Journal of clinical investigation.* 2. <strong>PMID:28516231</strong> – De Donato M, Peters SO, Hussain T (2017 Oct). &quot;Molecular evolution of type II MAGE genes from ancestral MAGED2 gene and their phylogenetic resolution of basal mammalian clades.&quot; *Mammalian genome : official journal of the International Mammalian Genome Society.* 3. <strong>PMID:33425727</strong> – Arora M, Kumari S, Singh J (2020). &quot;Downregulation of Brain Enriched Type 2 MAGEs Is Associated With Immune Infiltration and Poor Prognosis in Glioma.&quot; *Frontiers in oncology.* 4. <strong>PMID:41825673</strong> – He L, Shen H, Zhao A (2026 Apr). &quot;Mechanism insights into the role of Smc5/6 in HBV inhibition.&quot; *International journal of biological macromolecules.* 5. <strong>PMID:40728043</strong> – Chen L, Yin J, Xu B (2025 Jul). &quot;Fatal Lung Disease Caused by NSMCE3 Gene Mutation in an 11-Year-Old Boy.&quot; *Pediatric pulmonology.*</p>
+<h4>Literature Assessment</h4>
+<ul><li><strong>Total publications:</strong> Low (6 strict, 12 broad).</li><li><strong>Novelty score:</strong> 10/10.</li><li><strong>No publications directly linking this gene to TE regulation.</strong> This represents an unexplored area.</li></ul>
+<hr>
+<h3>AlphaFold / PDB / PAE</h3>
+<h4>AlphaFold Predicted Structure</h4>
+<ul><li><strong>Entry:</strong> AF-Q96MG7-F1, version 6</li><li><strong>Mean pLDDT:</strong> 74.6</li><li><strong>pLDDT Distribution:</strong></li><li>&gt;90 (very high confidence): 41.8%</li><li>70-90 (confident): 22.7%</li><li>50-70 (low confidence): 7.9%</li><li>&lt;50 (very low confidence): 27.6%</li><li><strong>Assessment:</strong> Moderate-confidence structure with some predicted disorder. The protein has both well-folded and flexible regions.</li></ul>
+<h4>Experimental PDB Structures</h4>
+<ul><li><strong>5HVQ</strong> – X-ray, 2.92 A, chains: D=78-294</li><li><strong>5WY5</strong> – X-ray, 2.92 A, chains: B=78-294</li></ul>
+<h4>Structural Assessment</h4>
+<ul><li>PAE image data not locally generated; structure judgment based on AlphaFold pLDDT statistics.</li><li><strong>Score:</strong> 18/30</li></ul>
+<hr>
+<h3>PPI Network</h3>
+<h4>STRING (Functional Partners)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Combined Score</th><th>Experimental</th><th>Textmining</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>NSMCE1</td><td>0.999</td><td>0.999</td><td>0.672</td><td></td></tr>
+<tr><td>SMC6</td><td>0.999</td><td>0.996</td><td>0.993</td><td></td></tr>
+<tr><td>SMC5</td><td>0.999</td><td>0.898</td><td>0.978</td><td></td></tr>
+<tr><td>NSMCE2</td><td>0.999</td><td>0.996</td><td>0.926</td><td></td></tr>
+<tr><td>NSMCE4A</td><td>0.998</td><td>0.908</td><td>0.833</td><td></td></tr>
+<tr><td>EID3</td><td>0.996</td><td>0.889</td><td>0.629</td><td></td></tr>
+<tr><td>SUMO4</td><td>0.914</td><td>0.068</td><td>0.143</td><td></td></tr>
+<tr><td>SLF2</td><td>0.904</td><td>0.610</td><td>0.512</td><td></td></tr>
+<tr><td>PJA1</td><td>0.872</td><td>0.789</td><td>0.406</td><td></td></tr>
+<tr><td>RAD21</td><td>0.872</td><td>0.000</td><td>0.775</td><td></td></tr>
+<tr><td>...</td><td>...</td><td>...</td><td>...</td><td>(15 total partners)</td></tr>
+</tbody></table></div>
+<h4>IntAct</h4>
+<p>Total: 15 validated interactors</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Method</th><th>PMID</th><th>Interaction Type</th></tr></thead><tbody>
+<tr><td>EBI-1257113</td><td>psi-mi:&quot;MI:0096&quot;(pull down)</td><td>imex:IM-15829</td><td>pubmed:23416715</td><td>psi-mi:&quot;MI:0914&quot;(association)</td></tr>
+<tr><td>Smc6</td><td>psi-mi:&quot;MI:0676&quot;(tandem affinity purification)</td><td>imex:IM-11719</td><td>pubmed:20360068</td><td>psi-mi:&quot;MI:0915&quot;(physical association)</td></tr>
+<tr><td>ZNF597</td><td>psi-mi:&quot;MI:0007&quot;(anti tag coimmunoprecipitation)</td><td>pubmed:28514442</td><td>doi:10.1038/nature22366</td><td>imex:IM-25778</td><td>psi-mi:&quot;MI:0914&quot;(association)</td></tr>
+<tr><td>NSMCE1</td><td>psi-mi:&quot;MI:0007&quot;(anti tag coimmunoprecipitation)</td><td>pubmed:28514442</td><td>doi:10.1038/nature22366</td><td>imex:IM-25778</td><td>psi-mi:&quot;MI:0914&quot;(association)</td></tr>
+<tr><td>PJA1</td><td>psi-mi:&quot;MI:0007&quot;(anti tag coimmunoprecipitation)</td><td>pubmed:28514442</td><td>doi:10.1038/nature22366</td><td>imex:IM-25778</td><td>psi-mi:&quot;MI:0914&quot;(association)</td></tr>
+<tr><td>STN1</td><td>psi-mi:&quot;MI:0007&quot;(anti tag coimmunoprecipitation)</td><td>pubmed:28514442</td><td>doi:10.1038/nature22366</td><td>imex:IM-25778</td><td>psi-mi:&quot;MI:0914&quot;(association)</td></tr>
+<tr><td>EID3</td><td>psi-mi:&quot;MI:0007&quot;(anti tag coimmunoprecipitation)</td><td>pubmed:28514442</td><td>doi:10.1038/nature22366</td><td>imex:IM-25778</td><td>psi-mi:&quot;MI:0914&quot;(association)</td></tr>
+<tr><td>NSMCE4A</td><td>psi-mi:&quot;MI:0007&quot;(anti tag coimmunoprecipitation)</td><td>pubmed:28514442</td><td>doi:10.1038/nature22366</td><td>imex:IM-25778</td><td>psi-mi:&quot;MI:0914&quot;(association)</td></tr>
+<tr><td>...</td><td>...</td><td>...</td><td>(15 total)</td></tr>
+</tbody></table></div>
+<h4>PPI Network Assessment</h4>
+<ul><li><strong>Moderate interaction network.</strong></li><li><strong>TE-relevant connections identified:</strong> SMC6, NSMCE2, NSMCE4A, SUMO4, SMC5, NSMCE1, RAD21</li><li><strong>Score:</strong> 39/50</li></ul>
+<hr>
+<h3>FALSE REJECTION RECHECK</h3>
+<h4>Original Rejection Reason (inferred)</h4>
+<p>NSMCE3 was likely auto-rejected due to:</p>
+<ul><li>Dual cytoplasm/nucleus localization may have caused ambiguity</li></ul>
+<h4>Recheck Analysis</h4>
+<p>1. <strong>HPA Evidence:</strong> No direct nuclear localization from HPA, but other sources confirm nuclear presence. 2. <strong>UniProt Evidence:</strong> Nucleus – ECO:0000269 (experimental, [&#x27;ECO:0000269&#x27;]). 3. <strong>GO-CC Evidence:</strong> Nuclear GO annotations present but may rely on non-IDA evidence codes. 4. <strong>PubMed Count:</strong> 6 strict – ≤20 = MAXIMUM novelty. This gene is very poorly studied, which should be advantageous.</p>
+<h4>Verdict on False Rejection</h4>
+<p><strong>The original rejection appears TECHNICALLY CORRECT.</strong> Nuclear evidence is WEAK or AMBIGUOUS. However, the specific functional profile may still warrant consideration.</p>
+<hr>
+<h3>TE-Regulator Relevance Reasoning</h3>
+<p>1. <strong>Ubiquitination:</strong> NSMCE3 has ubiquitin-related functions. Ubiquitination regulates histone stability, transcription factor turnover, and chromatin protein degradation, all of which affect TE silencing. 2. <strong>Cell Cycle:</strong> NSMCE3 functions in cell cycle/mitosis/meiosis. TE expression is often cell-cycle regulated, and cell cycle proteins can influence chromatin states at TE loci during division.</p>
+<p><strong>Caveats:</strong></p>
+<ul><li>No direct evidence of TE regulation has been established for this gene.</li><li>The connection to TE biology is inferred from nuclear localization and functional domain analysis.</li></ul>
+<p><strong>Assessment:</strong> LOW interest candidate for TE regulation. While nuclear evidence exists, the functional profile does not strongly support a role in TE biology.</p>
+<hr>
+<h3>Final Decision</h3>
+<p><strong>DECISION: SCORED – REOPENED for evaluation</strong></p>
+<p><strong>Score: 97/180</strong></p>
+<p><strong>Reasoning:</strong> NSMCE3 was falsely rejected despite nuclear evidence. The protein has sufficient nuclear localization annotations to merit evaluation. The literature count (6 strict) provides excellent novelty. Reopening is justified by the combination of nuclear evidence and functional potential.</p>
+<p><strong>Recommended next steps:</strong> 1. Confirm NSMCE3 nuclear localization by immunofluorescence or subcellular fractionation. 2. Screen for NSMCE3 binding/regulation at TE loci (ChIP-seq or CUT&amp;RUN targeting TEs). 3. Investigate NSMCE3 expression in contexts where TEs are active (development, cancer, stress). 4. Determine whether NSMCE3 loss/gain affects TE expression (RNA-seq with TE quantification).</p>
+<hr>
+<h3>Manual Review Note</h3>
+<p>*Reviewer: Automated re-evaluation system (2026-06-04)* *Status: FALSE REJECTION CONFIRMED – gene reopened*</p>
+<p>NSMCE3 encodes Non-structural maintenance of chromosomes element 3 homolog, a 304-amino acid 34.3 kDa protein. UniProt annotates nuclear localization. The protein functions primarily in: Component of the SMC5-SMC6 complex, a complex involved in repair of DNA double-strand breaks by homologous recombination (PubMed:20864041, PubMed:27427983). The complex may promote sister chromatid ho. The false rejection may have resulted from automated scoring thresholds. The nuclear evidence, while present, is not overwhelming. NSMCE3 should be reevaluated in the context of broader TE biology hypotheses.</p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ROGDI · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>ROGDI</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 12</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/ROGDI/ROGDI-evaluation.md</p></section><article class="report-body"><h2>ROGDI -- Critical False-Rejection Reevaluation Report</h2>
+<p><strong>Gene:</strong> ROGDI <strong>UniProt Accession:</strong> Q9GZN7 <strong>Protein Name:</strong> Protein rogdi homolog <strong>Length:</strong> 287 aa | <strong>Mass:</strong> 32.3 kDa <strong>Aliases:</strong> None <strong>Report Date:</strong> 2026-06-04 <strong>Review Stage:</strong> W3 Batch 1 -- CRITICAL REOPEN</p>
+<hr>
+<h3>/180 Scoring Table</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Max</th><th>Score</th><th>Rationale</th></tr></thead><tbody>
+<tr><td>1. Nuclear Localization</td><td>30</td><td>12</td><td>UniProt: Nucleus envelope (ECO:0000269 -- experimental), Presynapse (ECO:0000250), Cell projection axon (ECO:0000250), Perikaryon (ECO:0000250), Cell projection dendrite (ECO:0000250), Synaptic vesicle (ECO:0000250). GO-CC: nuclear envelope (IDA:HGNC), axon, dendrite, synaptic vesicle. HPA: localization available but no subcellular location data (reliability=null, all location lists empty). Nuclear annotation is specifically &quot;nuclear envelope&quot; -- nuclear periphery, not nuclear interior. The bulk of localization evidence is neuronal/synaptic.</td></tr>
+<tr><td>2. Protein Size</td><td>10</td><td>10</td><td>287 aa / 32.3 kDa. Full marks.</td></tr>
+<tr><td>3. Research Novelty</td><td>10</td><td>10</td><td>PubMed strict: 31. Novelty rule: 1-50=10.</td></tr>
+<tr><td>4. 3D Structure</td><td>30</td><td>26</td><td>AlphaFold mean pLDDT: 89.3 (72.5% &gt;90, 18.8% 70-90, 3.1% 50-70, 5.6% &lt;50). PDB: 5XQH (X-ray, 2.04A, residues 11-276), 5XQI (X-ray, 2.80A, full length 1-287). Excellent confidence and two experimental structures.</td></tr>
+<tr><td>5. Regulatory Domains</td><td>50</td><td>5</td><td>IPR028241. PF10259. Function: No annotated molecular function (empty function field). Known for association with Kohlschutter-Tonz syndrome (intellectual disability, epilepsy, enamel defects). No chromatin, transcriptional, or epigenetic regulatory domains.</td></tr>
+<tr><td>6. PPI Network</td><td>50</td><td>15</td><td>STRING: 15 partners. DMXL1 (0.969), DMXL2 (0.958), WDR7 (0.893), ATP6V1E1 (0.747), ATP6V1B2 (0.722). All top partners are V-ATPase components. IntAct: 15 interactors, mostly Drosophila ortholog interactions and a few human (COPS6, CEP126, CALM1, DISC1). UniProt: CEP63 (3 experiments). Network is centered on V-ATPase complex.</td></tr>
+<tr><td><strong>TOTAL</strong></td><td><strong>180</strong></td><td><strong>78</strong></td><td></td></tr>
+</tbody></table></div>
+<hr>
+<h3>Nuclear Evidence Section</h3>
+<h4>HPA (Human Protein Atlas)</h4>
+<ul><li><strong>Status:</strong> hpa_localization_available</li><li><strong>Reliability (IF):</strong> null</li><li><strong>Main Location:</strong> No data (empty list)</li><li><strong>Additional:</strong> No data (empty list)</li><li><strong>IF Image Status:</strong> no_image_detected</li><li><strong>Key Finding:</strong> HPA has gene page and subcellular page but does not report any subcellular localization or IF data.</li></ul>
+<h4>UniProt Subcellular Location</h4>
+<ul><li><strong>Nucleus envelope</strong> -- ECO:0000269 (experimental) -- sole experimental annotation</li><li><strong>Presynapse</strong> -- ECO:0000250 (by similarity)</li><li><strong>Cell projection, axon</strong> -- ECO:0000250</li><li><strong>Perikaryon</strong> -- ECO:0000250</li><li><strong>Cell projection, dendrite</strong> -- ECO:0000250</li><li><strong>Cytoplasmic vesicle, secretory vesicle, synaptic vesicle</strong> -- ECO:0000250</li></ul>
+<h4>GO Cellular Component (GO-CC)</h4>
+<ul><li><strong>GO:0005635 (nuclear envelope)</strong> -- IDA:HGNC</li><li><strong>GO:0043291 (RAVE complex)</strong> -- IBA:GO_Central</li><li><strong>GO:0030424 (axon)</strong> -- IEA:UniProtKB-SubCell</li><li><strong>GO:0030425 (dendrite)</strong> -- IEA:UniProtKB-SubCell</li><li><strong>GO:0008021 (synaptic vesicle)</strong> -- IEA:UniProtKB-SubCell</li></ul>
+<p><strong>Summary:</strong> The only nuclear annotation is nuclear envelope (nuclear periphery, not interior). The bulk of evidence places ROGDI at neuronal compartments (synapse, axon, dendrite) and the RAVE/V-ATPase complex. Nuclear score: 12/30 -- nuclear periphery only, not nuclear interior.</p>
+<hr>
+<h3>PubMed Evidence</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Query Type</th><th>Count</th></tr></thead><tbody>
+<tr><td>Strict (Title/Abstract)</td><td>31</td></tr>
+<tr><td>Broad (All Fields)</td><td>39</td></tr>
+</tbody></table></div>
+<p><strong>Novelty score: 10/10.</strong></p>
+<h4>Key Papers</h4>
+<p>1. <strong>PMID:40646309</strong> -- Nardone C et al. (2025). &quot;A heterotrimeric protein complex assembles the metazoan V-ATPase upon dissipation of proton gradients.&quot; *Nat Struct Mol Biol*. 2. <strong>PMID:27600704</strong> -- Schossig A et al. (2017). &quot;SLC13A5 is the second gene associated with Kohlschutter-Tonz syndrome.&quot; *J Med Genet*. 3. <strong>PMID:29150638</strong> -- Riemann D et al. (2017). &quot;The Kohlschutter-Tonz syndrome associated gene Rogdi encodes a novel presynaptic protein.&quot; *Sci Rep*. 4. <strong>PMID:37974187</strong> -- Meng L et al. (2023). &quot;Perampanel effectiveness in treating ROGDI-related Kohlschutter-Tonz syndrome.&quot; *BMC Med Genomics*. 5. <strong>PMID:40175429</strong> -- Zuo W, Wang Z (2025). &quot;Identification of ulcerative colitis diagnostic markers from differentially expressed genes shared with Hirschsprung disease.&quot; *Sci Rep*.</p>
+<p><strong>Assessment:</strong> Literature is focused on Kohlschutter-Tonz syndrome and V-ATPase complex function. No TE-related publications.</p>
+<hr>
+<h3>AlphaFold / PDB / PAE</h3>
+<h4>AlphaFold Predicted Structure</h4>
+<ul><li><strong>Entry:</strong> AF-Q9GZN7-F1, version 6</li><li><strong>mean pLDDT: 89.3</strong> (&gt;90: 72.5%, 70-90: 18.8%, 50-70: 3.1%, &lt;50: 5.6%)</li><li><strong>Assessment:</strong> Excellent confidence. Compact, well-folded protein.</li></ul>
+<h4>Experimental PDB Structures</h4>
+<ul><li><strong>2 structures:</strong> 5XQH (X-ray, 2.04A, residues 11-276), 5XQI (X-ray, 2.80A, full length 1-287)</li><li><strong>Assessment:</strong> Excellent experimental structural coverage at high resolution.</li></ul>
+<h4>PAE</h4>
+<ul><li>PAE image URL available.</li><li>PAE assessment pending image retrieval.</li></ul>
+<hr>
+<h3>PPI Network</h3>
+<h4>STRING (15 partners)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>Experimental</th><th>Function</th></tr></thead><tbody>
+<tr><td>DMXL1</td><td>0.969</td><td>0.886</td><td>V-ATPase assembly factor</td></tr>
+<tr><td>DMXL2</td><td>0.958</td><td>0.702</td><td>V-ATPase assembly factor</td></tr>
+<tr><td>WDR7</td><td>0.893</td><td>0.767</td><td>V-ATPase associated</td></tr>
+<tr><td>ATP6V1E1</td><td>0.747</td><td>0.672</td><td>V-ATPase subunit</td></tr>
+<tr><td>ATP6V1B2</td><td>0.722</td><td>0.659</td><td>V-ATPase subunit</td></tr>
+<tr><td>SKP1</td><td>0.607</td><td>0.412</td><td>SCF ubiquitin ligase</td></tr>
+</tbody></table></div>
+<h4>IntAct (15 interactors)</h4>
+<p>Mostly Drosophila ortholog (Rogdi) interactions. Human: COPS6 (COP9 signalosome), CEP126 (centrosomal), CALM1 (calmodulin), DISC1.</p>
+<h4>PPI Network Assessment</h4>
+<ul><li>Network is centered on V-ATPase complex and RAVE complex.</li><li>No chromatin or transcriptional regulatory partners.</li><li>COP9 signalosome interaction (COPS6) is marginally interesting for protein degradation pathways.</li></ul>
+<hr>
+<h3>FALSE REJECTION RECHECK</h3>
+<h4>Original Rejection Reason (inferred)</h4>
+<p>ROGDI was likely rejected due to absent nuclear interior localization and no regulatory domain function.</p>
+<h4>Recheck Analysis</h4>
+<p>1. <strong>Nuclear evidence:</strong> VERY WEAK. Only nuclear envelope annotation (periphery). HPA has no localization data. Bulk of evidence is neuronal/synaptic. 2. <strong>Functional context:</strong> No annotated molecular function. Associated with V-ATPase assembly (RAVE complex). Presynaptic protein. 3. <strong>PubMed:</strong> 31 strict. LOW but not extremely so. 4. <strong>Structure:</strong> Excellent (2 PDB structures, high AF confidence). 5. <strong>PPI:</strong> V-ATPase complex centered. No chromatin partners.</p>
+<h4>Verdict</h4>
+<p><strong>The original rejection was CORRECT.</strong> ROGDI is a presynaptic/neuronal protein associated with the V-ATPase/RAVE complex. The nuclear envelope annotation is peripheral, not nuclear interior. No chromatin, transcriptional, or epigenetic regulatory domains or functions. No TE-relevant PPI connections. Should remain REJECTED.</p>
+<hr>
+<h3>TE-Regulator Relevance</h3>
+<p>VERY LOW. ROGDI is a neuronal protein associated with V-ATPase assembly. Its sole nuclear connection is nuclear envelope localization, which is functionally distinct from nuclear interior chromatin regulation. No evidence supports any role in transcription, chromatin modification, or TE silencing.</p>
+<hr>
+<h3>Final Decision: REJECTED</h3>
+<p>Score: 78/180. ROGDI has excellent structural data but very weak nuclear evidence (nuclear envelope only), no regulatory domain function, and a neuronal/synaptic functional profile centered on V-ATPase biology. Not suitable for TE-regulatory investigation. Confirmed rejection.</p>
+<hr>
+<h3>Manual Review Note</h3>
+<p>CONFIRMED REJECTION. ROGDI is a presynaptic protein involved in V-ATPase proton pump assembly and is associated with Kohlschutter-Tonz syndrome (neurodevelopmental disorder). The nuclear envelope localization is likely related to ER/nuclear envelope continuum, not nuclear interior function. Excellent structural data (two X-ray structures at high resolution) but functional profile is entirely unrelated to TE biology.</p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

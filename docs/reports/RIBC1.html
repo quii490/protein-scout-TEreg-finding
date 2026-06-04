@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RIBC1 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>RIBC1</h1><div class="report-meta"><span class="badge muted">rejected</span><span class="badge">nucleoplasm</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 0</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/RIBC1/RIBC1-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;RIBC1&quot; date: 2026-06-04 tags: [protein-scout, re-evaluation, recovery-from-false-rejection] status: rejected ---</p>
+<h3>RIBC1 -- Re-evaluation Report (Recovery from False-Rejection)</h3>
+<h4>1. Basic Information</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Item</th><th>Content</th></tr></thead><tbody>
+<tr><td>Gene / Aliases</td><td>RIBC1 / RIB43A-like with coiled-coils protein 1</td></tr>
+<tr><td>Protein Name</td><td>RIB43A-like with coiled-coils protein 1</td></tr>
+<tr><td>Protein Size</td><td>379 aa</td></tr>
+<tr><td>UniProt ID</td><td>Q8N443 (RIBC1_HUMAN, Swiss-Prot reviewed)</td></tr>
+<tr><td>Evaluation Date</td><td>2026-06-04</td></tr>
+<tr><td>Previous Status</td><td>REJECTED (previously listed in garbage reports)</td></tr>
+<tr><td>Re-evaluation Reason</td><td>Recovery from false-rejection; complete re-evaluation to confirm rejection status</td></tr>
+</tbody></table></div>
+<h4>2. Scoring Overview</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Score</th><th>Max</th><th>Weighted</th><th>Key Evidence Summary</th></tr></thead><tbody>
+<tr><td>Nuclear Localization Specificity</td><td>0/10</td><td>x4</td><td><strong>0</strong></td><td>Axonemal A tubule inner sheath; sperm flagellum; motile cilia/flagella component; no nuclear evidence</td></tr>
+<tr><td>Protein Size</td><td>10/10</td><td>x1</td><td><strong>10</strong></td><td>379 aa, within ideal range</td></tr>
+<tr><td>Research Novelty</td><td>10/10</td><td>x5</td><td><strong>50</strong></td><td>PubMed ~5-10 articles (&lt;=20 -&gt; 10)</td></tr>
+<tr><td>3D Structure</td><td>4/10</td><td>x3</td><td><strong>12</strong></td><td>AlphaFold prediction only; no PDB; coiled-coil protein</td></tr>
+<tr><td>Regulatory Domains</td><td>2/10</td><td>x2</td><td><strong>4</strong></td><td>Coiled-coil regions; structural role in flagella/cilia</td></tr>
+<tr><td>PPI Network</td><td>2/10</td><td>x3</td><td><strong>6</strong></td><td>Minimal PPI data; flagella/axoneme structural partners</td></tr>
+<tr><td>Cross-Validation Bonus</td><td>--</td><td>--</td><td><strong>+0.5</strong></td><td>Multi-DB flagella/cilia localization consistency (+0.5)</td></tr>
+<tr><td><strong>Raw Total</strong></td><td></td><td></td><td><strong>82.5/180</strong></td><td></td></tr>
+<tr><td><strong>Normalized Total</strong></td><td></td><td></td><td><strong>45.8/100</strong></td><td></td></tr>
+</tbody></table></div>
+<h4>3. Nuclear Localization Evidence -- CRITICAL FAIL</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Source</th><th>Localization</th><th>Reliability</th></tr></thead><tbody>
+<tr><td>UniProt (Swiss-Prot)</td><td>Axonemal A tubule inner sheath</td><td>Reviewed</td></tr>
+<tr><td>UniProt</td><td>Sperm flagellum</td><td>Reviewed</td></tr>
+<tr><td>PhosphoSitePlus</td><td>Sperm flagellum; Axonemal A tubule inner sheath</td><td>Curated</td></tr>
+<tr><td>HPA (predicted)</td><td>Intracellular</td><td>Predicted</td></tr>
+<tr><td>Any nuclear source</td><td>NONE</td><td>--</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF Status</strong>: HPA IF original images not reliably obtained (HPA search page lacks usable subcellular IF original images). Nuclear localization assessment based on HPA localization/reliability + UniProt + GO-CC.</p>
+<p><strong>Manual Review Assessment</strong>: RIBC1 is a structural component of motile cilia and flagella. It localizes specifically to the axonemal A tubule inner sheath, which is part of the microtubule-based axoneme core of cilia and flagella. The gene belongs to the RIB43A family, a group of proteins associated with ciliary and flagellar axoneme structure.</p>
+<p>Key evidence for non-nuclear localization:</p>
+<ul><li>Localizes to sperm flagellum -- a highly specialized cellular projection</li><li>Axonemal A tubule inner sheath -- a structural component of the ciliary/flagellar microtubule apparatus</li><li>No nuclear localization annotated in any database</li><li>Gene located on X chromosome (Xp11.22)</li><li>Function is structural (axoneme component), not regulatory</li></ul>
+<p><strong>Nuclear localization score: 0/10. RULE: Nuclear &lt;=3 -&gt; REJECTED.</strong></p>
+<h4>4. Protein Size Assessment</h4>
+<p>RIBC1 is 379 amino acids, within the ideal range for experimental characterization. Size score: 10/10.</p>
+<h4>5. Research Novelty (PubMed Analysis)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody>
+<tr><td>PubMed estimated count</td><td>~5-10</td></tr>
+<tr><td>Novelty category</td><td>&lt;=20 -&gt; Score 10</td></tr>
+</tbody></table></div>
+<p><strong>Research Context</strong>: RIBC1 is extremely understudied. The gene is part of the RIB43A family associated with cilia and flagella. Most literature references are from genomic catalogs, large-scale expression studies, or proteomic analyses of cilia/flagella. Few, if any, direct functional studies exist.</p>
+<p><strong>Novelty Assessment</strong>: With ~5-10 PubMed articles, RIBC1 is among the most novel genes in the candidate list. Score 10/10. However, extreme novelty cannot compensate for complete absence of nuclear localization.</p>
+<h4>6. 3D Structure Analysis</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody>
+<tr><td>AlphaFold Prediction</td><td>Available</td></tr>
+<tr><td>PDB Entries</td><td>0</td></tr>
+<tr><td>Structural Features</td><td>Predicted coiled-coil regions; likely elongated structure</td></tr>
+</tbody></table></div>
+<p><strong>Structure Assessment</strong>: RIBC1 is predicted to contain coiled-coil domains, which typically form elongated, fibrous structures. Such proteins often function as structural scaffolds in macromolecular assemblies (consistent with the axoneme/flagella localization). The AlphaFold prediction is available but quality may be limited for a fibrous coiled-coil protein. Score 4/10.</p>
+<h4>7. Domain Architecture</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Source</th><th>Domain/Feature</th><th>Notes</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Coiled-coil regions</td><td>Fibrous structural domains</td></tr>
+<tr><td>Family</td><td>RIB43A family</td><td>Ciliary/flagellar axoneme proteins</td></tr>
+</tbody></table></div>
+<p><strong>Domain Analysis</strong>: RIBC1 has a simple domain architecture consisting primarily of coiled-coil regions. Coiled-coil domains mediate protein-protein interactions in structural contexts (cytoskeleton, axoneme, extracellular matrix). There are no DNA-binding, chromatin-binding, transcriptional regulatory, or enzymatic domains. Domain score: 2/10.</p>
+<h4>8. PPI Network Analysis</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Source</th><th>Result</th></tr></thead><tbody>
+<tr><td>STRING</td><td>No data in packet</td></tr>
+<tr><td>IntAct</td><td>No data in packet</td></tr>
+</tbody></table></div>
+<p><strong>PPI Assessment</strong>: PPI data for RIBC1 is virtually nonexistent. As a structural component of the flagellar/ciliary axoneme, it likely interacts with other axonemal proteins, but these interactions are not cataloged in standard PPI databases. PPI score: 2/10.</p>
+<h4>9. Cross-Validation Analysis</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Sources</th><th>Result</th><th>Consistent?</th></tr></thead><tbody>
+<tr><td>Localization</td><td>UniProt + PhosphoSitePlus</td><td>Sperm flagellum, axonemal A tubule</td><td>Consistent</td></tr>
+</tbody></table></div>
+<p><strong>Cross-Validation Bonus Details</strong>:</p>
+<ul><li>Multi-database flagella/cilia localization consistency: +0.5</li><li><strong>Total Cross-Validation Bonus</strong>: +0.5 / max +3</li></ul>
+<h4>10. Overall Assessment</h4>
+<p><strong>Recommendation Level</strong>: NOT RECOMMENDED -- REJECTED</p>
+<p><strong>Core Reasons for Rejection</strong>: 1. Zero nuclear localization evidence -- structural flagellar/ciliary axoneme component 2. Protein is a structural scaffold (coiled-coil), not a regulatory protein 3. Function is in motile cilia and sperm flagella, far removed from nuclear biology 4. Extremely novel (PubMed ~5-10) but novelty does not compensate for non-nuclear localization</p>
+<p><strong>Why Previous Rejection Was Likely Correct</strong>: The original rejection of RIBC1 was correct. This is a sperm flagellum/ciliary axoneme structural protein with no connection to nuclear biology. While the gene is extremely novel, the fundamental subcellular localization makes it unsuitable for a nuclear protein screen.</p>
+<h4>11. Decision</h4>
+<p><strong>FINAL DECISION</strong>: REJECTED (previous rejection UPHELD). RIBC1 fails the nuclear localization criterion (score 0/10, threshold &lt;=3). The protein is a structural component of ciliary and flagellar axonemes with no nuclear localization. Nuclear score &lt;=3 triggers automatic REJECTED status.</p>
+<h4>12. Data Sources</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q8N443</li><li>PhosphoSitePlus: https://www.phosphosite.org/proteinAction?id=1312065</li><li>HPA: https://www.proteinatlas.org/ENSG00000158423-RIBC1</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22RIBC1%22</li><li>Note: Harvest packet not available; data compiled from UniProt and literature database queries</li></ul></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

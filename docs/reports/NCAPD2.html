@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NCAPD2 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>NCAPD2</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">chromatin</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 32</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/chromatin.html">Category page</a></div><p class="source-path">Original detail path: detail/chromatin/NCAPD2/NCAPD2-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;NCAPD2&quot; date: 2026-06-01 tags: [protein-scout, chromatin, evaluation] status: scored ---</p>
+<h3>NCAPD2 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>NCAPD2 / CAPD2, CNAP1, KIAA0159</td></tr>
+<tr><td>蛋白全名</td><td>Condensin complex subunit 1</td></tr>
+<tr><td>蛋白大小</td><td>1401 aa / 157.2 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q15021</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>权重</th><th>加权</th><th>摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>8/10</td><td>x4</td><td>32.0</td><td>UniProt: Nucleus/Chromosome (ECO:0000269); HPA Nucleoplasm main; condensin complex IDA</td></tr>
+<tr><td>蛋白大小</td><td>4/10</td><td>x1</td><td>4.0</td><td>1401 aa, 157 kDa -- large condensin subunit</td></tr>
+<tr><td>研究新颖性</td><td>8/10</td><td>x5</td><td>40.0</td><td>Strict=25</td></tr>
+<tr><td>三维结构</td><td>6/10</td><td>x3</td><td>18.0</td><td>AlphaFold pLDDT 79.6; 无 PDB 实验结构</td></tr>
+<tr><td>调控结构域</td><td>6/10</td><td>x2</td><td>12.0</td><td>Condensin-specific Cnd1 domain; Armadillo-type fold</td></tr>
+<tr><td>PPI 网络</td><td>7/10</td><td>x3</td><td>21.0</td><td>Condensin I complex (SMC2/SMC4/NCAPG/NCAPH) 均 0.999</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>127/180</strong>********</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+2.0</td><td>UniProt+HPA 一致: Nucleoplasm/Chromosome</td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>69.4/100</strong>********</td><td></td></tr>
+</tbody></table></div>
+<p>PubMed strict: 25</p>
+<h4>3. 核定位证据</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Nucleus (ECO:0000269); Cytoplasm (ECO:0000269); Chromosome (ECO:0000269)</td><td>Experimental</td></tr>
+<tr><td>GO-CC</td><td>condensin complex IDA:UniProtKB; condensed nuclear chromosome ISO; nucleoplasm IDA:HPA</td><td>Direct assay</td></tr>
+<tr><td>HPA (IF)</td><td>Nucleoplasm (main), Cytosol (main), Nucleoli/centriolar satellite (additional); Reliability: Supported</td><td>IF available</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 状态</strong>: IF available -- HPA Supported。主定位 Nucleoplasm + Cytosol。condensin I 复合体在有丝分裂期定位于 condensed chromosome，间期分布于核质。IF 图像已下载。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/NCAPD2/NCAPD2-PAE.png</code></div></figure></p>
+<p><strong>PAE 状态</strong>: 已获取 PAE 图像。AlphaFold pLDDT 79.6 (mean), 40.9% &gt;90, 13.6% &lt;50。1401 aa 大蛋白存在较多无序区域，折叠域（Armadillo/HEAT repeats）预测良好。</p>
+<h4>4. PPI 网络</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th></tr></thead><tbody>
+<tr><td>SMC2</td><td>STRING</td><td>0.999 (experimental 0.993)</td></tr>
+<tr><td>SMC4</td><td>STRING</td><td>0.999 (experimental 0.993)</td></tr>
+<tr><td>NCAPG</td><td>STRING + UniProt</td><td>0.999 (experimental 0.978)</td></tr>
+<tr><td>NCAPH</td><td>STRING + UniProt</td><td>0.999 (experimental 0.992)</td></tr>
+<tr><td>NCAPG2</td><td>STRING</td><td>0.988 (database/textmining)</td></tr>
+<tr><td>NCAPD3</td><td>STRING</td><td>0.984 (database)</td></tr>
+<tr><td>AURKB</td><td>STRING</td><td>0.792 (experimental 0.194)</td></tr>
+<tr><td>CDK1</td><td>STRING</td><td>0.789 (experimental 0.292)</td></tr>
+</tbody></table></div>
+<p><strong>核心发现</strong>: NCAPD2 是 condensin I 复合体的 scaffold 亚基，PPI 网络以 condensin 复合体成员 (SMC2/SMC4/NCAPG/NCAPH) 为主，均为 0.999 最高置信度。AURKB/CDK1 为已知的 condensin 调控激酶。</p>
+<p>IntAct 15 条记录（含 CSNK2A1 磷酸化实验、ESR1/RRP1B co-IP 等）。UniProt 记录 NCAPG/NCAPH 两个互作 partner。</p>
+<h4>5. 结构域与染色质调控潜力</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>结构域</th></tr></thead><tbody>
+<tr><td>InterPro</td><td>IPR026971 (Cnd1), IPR032682 (Cnd1 N-term), IPR007673 (Cnd1/Pcs1), IPR011989 (Armadillo-like helical), IPR016024 (Armadillo-type fold)</td></tr>
+<tr><td>Pfam</td><td>PF12717 (Cnd1), PF12922 (Cnd1 N-terminal)</td></tr>
+</tbody></table></div>
+<p>NCAPD2 作为 condensin I scaffold，通过 Armadillo/HEAT repeat 折叠介导蛋白-蛋白互作，组装 SMC2/SMC4 异二聚体形成 condensin I 全酶。具有 ATP-dependent DNA supercoiling 和 chromosome compaction 功能。染色质调控潜力的直接性极高（condensin 本身就是染色质结构调控因子），但需注意其功能主要在有丝分裂期而非间期基因表达调控。</p>
+<h4>6. 总体评价</h4>
+<p>NCAPD2 是 condensin I 复合体的核心 scaffold 亚基，具有明确的染色质/染色体定位（condensed chromosome + nucleoplasm）。PPI 网络以 condensin 复合体为主，置信度极高。优势在于极端染色质特异性和 condensin 生物学重要性，劣势在于蛋白过大 (1401 aa) 和缺乏间期转录调控证据。作为低研究新颖性染色质结构蛋白靶点评分良好。</p>
+<p><strong>推荐等级</strong>: 3/5</p>
+<p><strong>HPA IF 状态</strong>: HPA IF 图像已本地嵌入。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/NCAPD2/NCAPD2_IF_638_E4_2_blue_red_green.jpg</code></div></figure>。核定位基于HPA localization/reliability + UniProt + GO-CC。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/NCAPD2/NCAPD2-PAE.png</code></div></figure></p>
+<h5>关键文献</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>PMID</th><th>标题</th></tr></thead><tbody>
+<tr><td>41319185</td><td>NCAPD2 promotes the progression of lung adenocarcinoma through an AKT/MDM2/E2F1 positive feedback lo</td></tr>
+<tr><td>36701707</td><td>NCAPD2 is a novel marker for the poor prognosis of lung adenocarcinoma and is associated with immune</td></tr>
+<tr><td>37498296</td><td>Non-SMC condensin I complex subunit D2 (NCAPD2) reveals its prognostic and immunologic features in h</td></tr>
+<tr><td>40245749</td><td>Impact of Non-SMC Condensin I Complex Subunit D2 Upregulation on Oral Squamous Cell Carcinoma Progno</td></tr>
+<tr><td>39092569</td><td>NCAPD2 augments the tumorigenesis and progression of human liver cancer via the PI3K‑Akt‑mTOR signal</td></tr>
+</tbody></table></div>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/NCAPD2/NCAPD2-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

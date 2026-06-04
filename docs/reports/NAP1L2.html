@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NAP1L2 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>NAP1L2</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">chromatin</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 5</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/chromatin.html">Category page</a></div><p class="source-path">Original detail path: detail/chromatin/NAP1L2/NAP1L2-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;NAP1L2&quot; date: 2026-06-01 tags: [protein-scout, chromatin, evaluation] status: scored ---</p>
+<h3>NAP1L2 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>NAP1L2 / BPX</td></tr>
+<tr><td>蛋白全名</td><td>Nucleosome assembly protein 1-like 2</td></tr>
+<tr><td>蛋白大小</td><td>460 aa / 52.5 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q9ULW6</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>新权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>5/10</td><td>x4</td><td>20.0</td><td>UniProt Nucleus; Chromosome; Cytosol, <strong>HPA 冲突</strong> (Plasma membrane + Cytosol)</td></tr>
+<tr><td>蛋白大小</td><td>10/10</td><td>x1</td><td>10.0</td><td>460 aa, 52.5 kDa</td></tr>
+<tr><td>研究新颖性</td><td>10/10</td><td>x5</td><td>50.0</td><td>PubMed strict=14 (≤20 区间)</td></tr>
+<tr><td>三维结构</td><td>5/10</td><td>x3</td><td>15.0</td><td>无 PDB；AF pLDDT 67.0, &gt;90=30.9%, &lt;50=35.0%</td></tr>
+<tr><td>调控结构域</td><td>7/10</td><td>x2</td><td>14.0</td><td>NAP domain (IPR002164)，组蛋白伴侣/nucleosome assembly</td></tr>
+<tr><td>PPI 网络</td><td>5/10</td><td>x3</td><td>15.0</td><td>STRING NAP1L3 0.817, NAP1L5 0.673, CDX4 0.868 (textmining)；IntAct 家族互作</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>124/180</strong>**</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+0.0</td><td></td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>67.8/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据 -- ⚠️ HPA 与 UniProt 定位冲突</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt Subcellular Location</td><td>Nucleus (ECO:0000305); Chromosome (ECO:0000305); Cytoplasm, cytosol (ECO:0000250)</td><td>低-中（序列分析/同源推断）</td></tr>
+<tr><td>GO-CC</td><td>chromatin (IBA:GO_Central), nucleus (IBA:GO_Central)</td><td>中（IBA 推断）</td></tr>
+<tr><td>HPA IF</td><td><strong>Plasma membrane + Cytosol</strong> (Enhanced 可靠性)</td><td>高（但非核）</td></tr>
+<tr><td>Literature</td><td>NAP1L2 是 nucleosome assembly protein 家族成员，文献支持染色质/核内功能（核小体组装、组蛋白乙酰化调控）</td><td>中</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 状态</strong>: IF available -- HPA 可靠性 Enhanced，定位 <strong>Plasma membrane + Cytosol</strong>（! 与 UniProt/文献核定位冲突）。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/NAP1L2/NAP1L2_IF_blue_red_green.jpg</code></div></figure></p>
+<p><strong>结论</strong>: ⚠️ <strong>显著定位冲突</strong>。UniProt 标注 Nucleus/Chromosome 但均为低可信度（ECO:0000305/0000250）。GO-CC 仅有 IBA 推断级别。HPA Enhanced 可靠性定位为 Plasma membrane + Cytosol，完全不在核内。但文献中 NAP1L2 被描述为组蛋白伴侣参与核小体组装，且同源蛋白 NAP1L1/NAP1L3/NAP1L4 均定位核内。这种冲突降低了核定位评分至 5/10，需实验验证。</p>
+<h5>3.2 结构与数据源</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold</td><td>AF-Q9ULW6-F1</td></tr>
+<tr><td>平均 pLDDT</td><td>67.0</td></tr>
+<tr><td>pLDDT &gt;90</td><td>30.9%</td></tr>
+<tr><td>pLDDT 70-90</td><td>21.3%</td></tr>
+<tr><td>pLDDT &lt;50</td><td><strong>35.0%</strong></td></tr>
+<tr><td>PDB</td><td>无</td></tr>
+</tbody></table></div>
+<p>AlphaFold 预测质量偏低（pLDDT 67.0），&lt;50 低置信区域高达 35.0%。NAP domain 区域（~aa 100-360）折叠较好，但 N 端和 C 端区域无序度高。无 PDB 实验结构。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/NAP1L2/NAP1L2-PAE.png</code></div></figure></p>
+<div class="table-wrap"><table>
+<thead><tr><th>InterPro</th><th>Pfam</th></tr></thead><tbody>
+<tr><td>IPR037231 (NAP-like superfamily), IPR002164 (NAP / Nucleosome assembly protein)</td><td>PF00956 (NAP)</td></tr>
+</tbody></table></div>
+<p><strong>染色质调控潜力</strong>: NAP1L2 属于 nucleosome assembly protein 家族，理论上参与组蛋白 H2A-H2B 和 H3-H4 的核小体组装。文献报道参与 H3 &#x27;Lys-14&#x27; 去乙酰化调控（通过 SIRT1），在骨分化衰老中起作用。但 HPA 定位结果与染色质功能矛盾，需进一步验证。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict (Title/Abstract)</td><td>14</td></tr>
+<tr><td>PubMed broad</td><td>18</td></tr>
+<tr><td>别名</td><td>BPX（未用于 scoring）</td></tr>
+</tbody></table></div>
+<p>关键文献：</p>
+<ul><li>PMID:35032339: &quot;NAP1L2 drives mesenchymal stem cell senescence and suppresses osteogenic differentiation.&quot; (Aging Cell, 2022)</li><li>PMID:37993768: &quot;Disrupted cardiac fibroblast BCAA catabolism contributes to diabetic cardiomyopathy via a periostin/NAP1L2/SIRT3 axis.&quot; (Cell Mol Biol Lett, 2023)</li><li>PMID:21333655: &quot;Interaction between nucleosome assembly protein 1-like family members.&quot; (J Mol Biol, 2011) -- NAP1 家族互作</li><li>PMID:10932189: &quot;Control of neurulation by the nucleosome assembly protein-1-like 2.&quot; (Nat Genet, 2000)</li><li>PMID:25187168: &quot;Integrated multi-cohort transcriptional meta-analysis of neurodegenerative diseases.&quot; (Acta Neuropathol Commun, 2014)</li></ul>
+<h5>3.4 PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>NAP1L3</td><td>STRING</td><td>0.817 (exp 0.619)</td><td>同源家族蛋白</td></tr>
+<tr><td>NAP1L5</td><td>STRING</td><td>0.673 (exp 0.593)</td><td>同源家族蛋白</td></tr>
+<tr><td>CDX4</td><td>STRING</td><td>0.868 (textmining 0.865)</td><td>转录因子</td></tr>
+<tr><td>H2AZ1</td><td>STRING</td><td>0.602 (exp 0.516)</td><td>组蛋白变体</td></tr>
+<tr><td>NAP1L1</td><td>IntAct</td><td>Y2H array (PMID:32296183)</td><td>同源家族</td></tr>
+<tr><td>NAP1L5</td><td>IntAct</td><td>protein complementation (PMID:32296183)</td><td>同源家族</td></tr>
+<tr><td>FBL</td><td>IntAct</td><td>coIP (PMID:28514442)</td><td>核仁蛋白</td></tr>
+<tr><td>DMAP1</td><td>IntAct</td><td>validated Y2H (PMID:32296183)</td><td>DNMT1 相关</td></tr>
+<tr><td>DMAP1</td><td>UniProt</td><td>3 experiments</td><td>curated</td></tr>
+</tbody></table></div>
+<p>NAP1L2 的 PPI 网络以 NAP1 家族内部互作为主（NAP1L1/L3/L5）。与 H2AZ1 的实验互作（0.516）支持其组蛋白伴侣功能。FBL (fibrillarin) 的 coIP 互作连接至核仁。DMAP1 互作连接至 DNA 甲基化通路。整体网络偏弱，以家族内互作为主。</p>
+<h4>4. 总体评价</h4>
+<p>NAP1L2 是本批次中需要特别谨慎的候选。<strong>最大风险是 HPA IF 定位为 Plasma membrane + Cytosol，与 UniProt/GO-CC 的核定位推断矛盾</strong>。优势包括：极低文献量（PubMed strict=14，新颖性 10/10）、NAP domain 家族功能明确（核小体组装）、460 aa 适中大小。劣势包括：核定位证据弱且存在冲突、无 PDB 结构、AF pLDDT 仅 67.0（35% 低置信区）、PPI 网络偏弱。建议在进一步评估前通过独立 IF 实验验证核定位。</p>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9ULW6</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9ULW6</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=NAP1L2</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000186462-NAP1L2</li></ul>
+<p>HPA IF 图像已本地嵌入。</p>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/NAP1L2/NAP1L2-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

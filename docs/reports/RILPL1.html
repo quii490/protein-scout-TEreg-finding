@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RILPL1 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>RILPL1</h1><div class="report-meta"><span class="badge muted">rejected</span><span class="badge">nucleoplasm</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 2</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/RILPL1/RILPL1-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;RILPL1&quot; date: 2026-06-04 tags: [protein-scout, re-evaluation, recovery-from-false-rejection] status: rejected ---</p>
+<h3>RILPL1 -- Re-evaluation Report (Recovery from False-Rejection)</h3>
+<h4>1. Basic Information</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Item</th><th>Content</th></tr></thead><tbody>
+<tr><td>Gene / Aliases</td><td>RILPL1 / GOSPEL (GAPDH competitor of SIAH protein enhances life), Rab-interacting lysosomal-like protein 1</td></tr>
+<tr><td>Protein Name</td><td>RILP-like protein 1</td></tr>
+<tr><td>Protein Size</td><td>~407 aa</td></tr>
+<tr><td>UniProt ID</td><td>Q5EBL4 (RIPL1_HUMAN)</td></tr>
+<tr><td>Evaluation Date</td><td>2026-06-04</td></tr>
+<tr><td>Previous Status</td><td>REJECTED (previously listed in garbage reports)</td></tr>
+<tr><td>Re-evaluation Reason</td><td>Recovery from false-rejection; complete re-evaluation to confirm rejection status</td></tr>
+</tbody></table></div>
+<h4>2. Scoring Overview</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Score</th><th>Max</th><th>Weighted</th><th>Key Evidence Summary</th></tr></thead><tbody>
+<tr><td>Nuclear Localization Specificity</td><td>2/10</td><td>x4</td><td><strong>8</strong></td><td>Cytosol, centrosome, cilium (primary); HPA detects nucleoplasm (minor); no established nuclear function</td></tr>
+<tr><td>Protein Size</td><td>10/10</td><td>x1</td><td><strong>10</strong></td><td>~407 aa, within ideal range</td></tr>
+<tr><td>Research Novelty</td><td>8/10</td><td>x5</td><td><strong>40</strong></td><td>PubMed ~35-45 articles (21-40 -&gt; 8)</td></tr>
+<tr><td>3D Structure</td><td>4/10</td><td>x3</td><td><strong>12</strong></td><td>AlphaFold prediction only; no PDB; predicted coiled-coil regions</td></tr>
+<tr><td>Regulatory Domains</td><td>3/10</td><td>x2</td><td><strong>6</strong></td><td>RILP homology domain; no DNA-binding domains; ciliary transport</td></tr>
+<tr><td>PPI Network</td><td>4/10</td><td>x3</td><td><strong>12</strong></td><td>GAPDH (cytosolic sequestration), RAB10 (ciliary), LRRK2 pathway</td></tr>
+<tr><td>Cross-Validation Bonus</td><td>--</td><td>--</td><td><strong>+0.5</strong></td><td>Multi-DB cytosolic/centrosomal localization consistency (+0.5)</td></tr>
+<tr><td><strong>Raw Total</strong></td><td></td><td></td><td><strong>88.5/180</strong></td><td></td></tr>
+<tr><td><strong>Normalized Total</strong></td><td></td><td></td><td><strong>49.2/100</strong></td><td></td></tr>
+</tbody></table></div>
+<h4>3. Nuclear Localization Evidence -- FAILS THRESHOLD</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Source</th><th>Localization</th><th>Reliability</th></tr></thead><tbody>
+<tr><td>UniProt (Swiss-Prot)</td><td>Cytoplasm, cytosol</td><td>Experimental (PMID:14668488)</td></tr>
+<tr><td>UniProt</td><td>Cytoskeleton, microtubule organizing center, centrosome</td><td>By similarity</td></tr>
+<tr><td>UniProt</td><td>Cell projection, cilium</td><td>By similarity</td></tr>
+<tr><td>HPA (IF)</td><td>Ciliary basal body, Nucleoplasm, Centrosome, Cilium, Plasma membrane</td><td>IF-based</td></tr>
+<tr><td>GO-CC</td><td>Centrosome</td><td>--</td></tr>
+<tr><td>GO-CC</td><td>Cilium</td><td>--</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF Status</strong>: HPA IF original images not reliably obtained (HPA search page lacks usable subcellular IF original images). Nuclear localization assessment based on HPA localization/reliability + UniProt + GO-CC.</p>
+<p><strong>Manual Review Assessment</strong>: RILPL1 is a complex case. The protein has multiple annotated subcellular locations:</p>
+<ul><li>Primary UniProt annotation: Cytoplasm, cytosol (experimental evidence)</li><li>HPA detects nucleoplasm signal -- but this is one of several locations (also ciliary basal body, centrosome, cilium, plasma membrane)</li><li>The protein&#x27;s main characterized functions are cytoplasmic/ciliary: (1) sequestering GAPDH in the cytosol to prevent its apoptotic nuclear translocation; (2) regulating ciliogenesis via RAB10 binding after LRRK2 phosphorylation</li></ul>
+<p>The HPA nucleoplasm detection is noteworthy but must be evaluated in context. The protein&#x27;s experimentally validated primary function (GAPDH sequestration) occurs in the cytosol -- RILPL1 keeps GAPDH OUT of the nucleus. The ciliary functions are also non-nuclear. HPA nucleoplasm signal may represent a minor pool or detection artifact.</p>
+<p><strong>Nuclear localization score: 2/10. RULE: Nuclear &lt;=3 -&gt; REJECTED.</strong> The HPA nucleoplasm detection provides some evidence, but the protein&#x27;s primary localization and characterized functions are cytoplasmic/ciliary. The nucleoplasm signal is insufficient to overcome the threshold.</p>
+<h4>4. Protein Size Assessment</h4>
+<p>RILPL1 is approximately 407 amino acids, within the ideal range. Size score: 10/10.</p>
+<h4>5. Research Novelty (PubMed Analysis)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody>
+<tr><td>PubMed estimated count</td><td>~35-45</td></tr>
+<tr><td>Novelty category</td><td>21-40 -&gt; 8 (or 41-60 -&gt; 6)</td></tr>
+</tbody></table></div>
+<p><strong>Research Context</strong>: RILPL1 has gained attention in recent years due to its role in the LRRK2 Parkinson&#x27;s disease pathway. The protein is a RAB10 effector that mediates ciliogenesis inhibition upon LRRK2-mediated RAB10 phosphorylation. Earlier work identified RILPL1 (as GOSPEL) as a neuroprotective protein that binds GAPDH. The literature is growing but still relatively modest.</p>
+<p><strong>Novelty Assessment</strong>: PubMed count estimated at 35-45 articles. Most publications are from the last 5-8 years. Score 8/10 reflects moderate novelty in the 21-40 range (or 6/10 at 41-60).</p>
+<h4>6. 3D Structure Analysis</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody>
+<tr><td>AlphaFold Prediction</td><td>Available</td></tr>
+<tr><td>PDB Entries</td><td>0</td></tr>
+<tr><td>Structural Features</td><td>Predicted coiled-coil regions; RILP homology domain</td></tr>
+</tbody></table></div>
+<p><strong>Structure Assessment</strong>: RILPL1 is predicted to contain coiled-coil regions and a RILP homology domain. The structure is likely elongated and may have flexible/disordered regions. AlphaFold prediction quality for coiled-coil proteins can be variable. Score 4/10.</p>
+<h4>7. Domain Architecture</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Source</th><th>Domain/Feature</th><th>Notes</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>RILP homology domain</td><td>Rab-interacting lysosomal protein family</td></tr>
+<tr><td>Function</td><td>GAPDH binding</td><td>Cytosolic sequestration, neuroprotection</td></tr>
+<tr><td>Function</td><td>RAB10 binding</td><td>Ciliary transport, ciliogenesis regulation</td></tr>
+</tbody></table></div>
+<p><strong>Domain Analysis</strong>: RILPL1 contains a RILP (Rab-interacting lysosomal protein) homology domain, which mediates interactions with Rab GTPases. There are no DNA-binding domains, chromatin-binding domains, transcription factor domains, or other nuclear regulatory domains. Domain score: 3/10.</p>
+<h4>8. PPI Network Analysis</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Context</th><th>Functional Relevance</th></tr></thead><tbody>
+<tr><td>GAPDH</td><td>Cytosolic sequestration</td><td>Prevents GAPDH nuclear translocation and apoptosis</td></tr>
+<tr><td>RAB10</td><td>Ciliary transport</td><td>LRRK2-mediated phosphorylation; ciliogenesis inhibition</td></tr>
+<tr><td>LRRK2</td><td>Parkinson&#x27;s disease pathway</td><td>Kinase that phosphorylates RAB10</td></tr>
+<tr><td>CMIP</td><td>Interaction reported</td><td>Function unclear</td></tr>
+<tr><td>MOV10</td><td>Interaction reported</td><td>RNA helicase</td></tr>
+</tbody></table></div>
+<p><strong>PPI Assessment</strong>: RILPL1 has notable interactions. The GAPDH interaction is functionally significant -- RILPL1 actively keeps GAPDH in the cytosol, preventing its pro-apoptotic nuclear translocation. This is an anti-nuclear function. The RAB10 interaction mediates ciliary regulation. PPI score: 4/10.</p>
+<h4>9. Cross-Validation Analysis</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Sources</th><th>Result</th><th>Consistent?</th></tr></thead><tbody>
+<tr><td>Localization</td><td>UniProt + HPA</td><td>Cytosol, centrosome, cilium (+ nucleoplasm minor)</td><td>Partially consistent</td></tr>
+<tr><td>Function</td><td>Literature + GO</td><td>GAPDH sequestration, ciliary regulation</td><td>Consistent</td></tr>
+</tbody></table></div>
+<p><strong>Cross-Validation Bonus Details</strong>:</p>
+<ul><li>Multi-database cytosol/centrosomal localization consistency: +0.5</li><li><strong>Total Cross-Validation Bonus</strong>: +0.5 / max +3</li></ul>
+<h4>10. Overall Assessment</h4>
+<p><strong>Recommendation Level</strong>: NOT RECOMMENDED -- REJECTED (borderline case)</p>
+<p><strong>Core Reasons for Rejection</strong>: 1. Nuclear localization insufficient (score 2/10, threshold &lt;=3 triggers rejection) 2. Primary localization is cytosol with experimental validation (PMID:14668488) 3. Characterized functions are cytoplasmic (GAPDH sequestration) and ciliary (ciliogenesis) 4. HPA nucleoplasm signal is minor and not supported by other databases 5. No DNA-binding domains or nuclear-specific functions</p>
+<p><strong>Borderline Nature</strong>: RILPL1 is a borderline case. The HPA nucleoplasm detection provides some nuclear evidence, and the interaction with MOV10 (RNA helicase with nuclear functions) is suggestive. However, the overwhelming evidence places RILPL1 in cytosolic and ciliary compartments. A higher-resolution IF analysis might provide more definitive subcellular localization data.</p>
+<h4>11. Decision</h4>
+<p><strong>FINAL DECISION</strong>: REJECTED (previous rejection UPHELD). RILPL1 fails the nuclear localization criterion (score 2/10, threshold &lt;=3). The protein is primarily cytosolic and ciliary with minor HPA nucleoplasm signal. Nuclear score &lt;=3 triggers automatic REJECTED status. NOTE: This is a borderline case. If higher-quality IF data becomes available showing stronger nuclear localization, re-evaluation may be warranted.</p>
+<h4>12. Data Sources</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q5EBL4</li><li>HPA: https://www.proteinatlas.org/ (RILPL1)</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22RILPL1%22+OR+%22GOSPEL%22</li><li>BioGRID: https://thebiogrid.org/ (RILPL1 interactions)</li><li>Note: Harvest packet not available; data compiled from UniProt and literature database queries</li></ul></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

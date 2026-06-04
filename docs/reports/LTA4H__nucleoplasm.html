@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LTA4H · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>LTA4H</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 17</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/LTA4H/LTA4H-evaluation.md</p></section><article class="report-body"><h2>LTA4H – Critical False-Rejection Reevaluation Report</h2>
+<p><strong>Gene:</strong> LTA4H <strong>UniProt Accession:</strong> P09960 <strong>Protein Name:</strong> Leukotriene A-4 hydrolase <strong>Length:</strong> 611 aa | <strong>Mass:</strong> 69.3 kDa <strong>Aliases:</strong> LTA4 <strong>Report Date:</strong> 2026-06-02 <strong>Review Stage:</strong> W1 – CRITICAL REOPEN</p>
+<hr>
+<h3>/180 Scoring Table</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Max</th><th>Score</th><th>Rationale</th></tr></thead><tbody>
+<tr><td>1. Nuclear Localization</td><td>30</td><td>17</td><td>HPA additional nuclear: Nucleoplasm. Nuclear is secondary location. Reliability: Supported.</td><td>UniProt: No nuclear annotation in UniProt</td><td>GO-CC: GO:GO:0005654 (nucleoplasm, IDA); GO:GO:0005634 (nucleu</td></tr>
+<tr><td>2. Protein Size</td><td>10</td><td>8</td><td>611 aa / 69.3 kDa. Slight deduction for size.</td></tr>
+<tr><td>3. Research Novelty</td><td>10</td><td>0</td><td>PubMed strict: 277. Novelty rule: &gt;100=0 (REJECTED).</td></tr>
+<tr><td>4. 3D Structure</td><td>30</td><td>30</td><td>mean pLDDT: 96.3 (&gt;90: 94.4%, 70-90: 5.2%, 50-70: 0.2%, &lt;50: 0.2%). PDB: 77 structures.</td></tr>
+<tr><td>5. Regulatory Domains</td><td>50</td><td>10</td><td>No direct transcription function. No chromatin association. No epigenetic activity. No nucleic acid binding.</td></tr>
+<tr><td>6. PPI Network</td><td>50</td><td>13</td><td>STRING: 15 partners. IntAct: 15 interactors. UniProt: 1 interactors.</td></tr>
+<tr><td><strong>TOTAL</strong></td><td><strong>180</strong></td><td><strong>78</strong></td><td><strong>NOTE: REJECTED – PubMed&gt;100 (strict=277)</strong></td></tr>
+</tbody></table></div>
+<hr>
+<h3>Nuclear Evidence Section</h3>
+<h4>HPA (Human Protein Atlas)</h4>
+<ul><li><strong>Status:</strong> hpa_localization_available</li><li><strong>Reliability (IF):</strong> Supported</li><li><strong>Main Location:</strong> Cytosol</li><li><strong>Additional:</strong> Nucleoplasm</li><li><strong>IF Image Status:</strong> no_image_detected</li><li><strong>Key Finding:</strong> Cytosol</li></ul>
+<p><strong>Interpretation note:</strong> HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。</p>
+<h4>UniProt Subcellular Location</h4>
+<ul><li><strong>Cytoplasm</strong> – Evidence: ECO:0000269</li></ul>
+<h4>GO Cellular Component (GO-CC)</h4>
+<ul><li><strong>GO:0005829 (cytosol)</strong> – Evidence: IDA:HPA</li><li><strong>GO:0070062 (extracellular exosome)</strong> – Evidence: HDA:UniProtKB</li><li><strong>GO:0005576 (extracellular region)</strong> – Evidence: TAS:Reactome</li><li><strong>GO:1904813 (ficolin-1-rich granule lumen)</strong> – Evidence: TAS:Reactome</li><li><strong>GO:0005654 (nucleoplasm)</strong> – Evidence: IDA:HPA</li><li><strong>GO:0005634 (nucleus)</strong> – Evidence: IBA:GO_Central</li><li><strong>GO:1904724 (tertiary granule lumen)</strong> – Evidence: TAS:Reactome</li></ul>
+<h4>Functional Context</h4>
+<p>Bifunctional zinc metalloenzyme that comprises both epoxide hydrolase (EH) and aminopeptidase activities. Acts as an epoxide hydrolase to catalyze the conversion of LTA4 to the pro-inflammatory mediator leukotriene B4 (LTB4) (PubMed:11917124, PubMed:12207002, PubMed:15078870, PubMed:18804029, PubMed:1897988, PubMed:1975494, PubMed:2244921, PubMed:2996528). Can utilize LTA5 less effectively as a substrate than LTA4, and produce LTB5 (PubMed:2996528). Also has aminopeptidase activity, with high af</p>
+<p><strong>Summary:</strong> HPA additional nuclear: Nucleoplasm. Nuclear is secondary location. Reliability: Supported. | UniProt: No nuclear annotation in UniProt | GO-CC: GO:GO:0005654 (nucleoplasm, IDA); GO:GO:0005634 (nucleus, IBA)</p>
+<hr>
+<h3>PubMed Evidence</h3>
+<h4>Literature Metrics</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Query Type</th><th>Count</th></tr></thead><tbody>
+<tr><td>Strict (Title/Abstract)</td><td>277</td></tr>
+<tr><td>Broad (All Fields)</td><td>325</td></tr>
+</tbody></table></div>
+<p><strong>Alias Note:</strong> Aliases observed but not used for scoring: LTA4</p>
+<p><strong>REJECTION TRIGGERED: PubMed strict &gt; 100.</strong></p>
+<h4>Key Papers (with PMIDs)</h4>
+<ul><li><strong>PMID:40056904</strong> – Yang S, Qiu X, Yang Y (2025 Mar 18). &quot;LTA4H improves the tumor microenvironment and prevents HCC progression via targeting the HNRNPA1/LTBP1/TGF-β axis.&quot; *Cell reports. Medicine*.</li><li><strong>PMID:33400226</strong> – Cherian A, Ajitha KC, Iype T (2021 Feb). &quot;Neurotuberculosis: an update.&quot; *Acta neurologica Belgica*.</li><li><strong>PMID:37589142</strong> – Yang M, Zhou X, Pearce SWA (2023 Oct). &quot;Causal Role for Neutrophil Elastase in Thoracic Aortic Dissection in Mice.&quot; *Arteriosclerosis, thrombosis, and vascular biology*.</li><li><strong>PMID:19077707</strong> – Lima JJ, Blake KV, Tantisira KG (2009 Jan). &quot;Pharmacogenetics of asthma.&quot; *Current opinion in pulmonary medicine*.</li><li><strong>PMID:40324735</strong> – Ye K, Li J, Huo Z (2025 Aug). &quot;Down-regulating HDAC2-LTA4H pathway ameliorates renal ischemia-reperfusion injury.&quot; *Biochimica et biophysica acta. Molecular basis of disease*.</li></ul>
+<h4>Literature Assessment</h4>
+<ul><li><strong>Total publications:</strong> Very high (&gt;100, rejected) (277 strict, 325 broad).</li><li><strong>Novelty score:</strong> 0/10.</li><li><strong>No publications directly linking LTA4H to TE regulation.</strong> This represents an unexplored area.</li></ul>
+<hr>
+<h3>AlphaFold / PDB / PAE</h3>
+<h4>AlphaFold Predicted Structure</h4>
+<ul><li><strong>Entry:</strong> AF-P09960-F1, version 6</li><li><strong>mean pLDDT: 96.3 (&gt;90: 94.4%, 70-90: 5.2%, 50-70: 0.2%, &lt;50: 0.2%)</strong></li><li><strong>Assessment:</strong> Exceptionally high confidence.</li></ul>
+<h4>Experimental PDB Structures</h4>
+<ul><li><strong>77 structures available:</strong> 1GW6 (X-ray, 2.20 A); 1H19 (X-ray, 2.10 A); 1HS6 (X-ray, 1.95 A); 1SQM (X-ray, 2.30 A); 2R59 (X-ray, 1.89 A); 2VJ8 (X-ray, 1.80 A); 3B7R (X-ray, 1.81 A); 3B7S (X-ray, 1.47 A); 3B7T (X-ray, 2.30 A); 3B7U (X-ray, 1.90 A) ... +67 more</li></ul>
+<h4>Structural Assessment</h4>
+<ul><li>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</li></ul>
+<hr>
+<h3>PPI Network</h3>
+<h4>STRING</h4>
+<ul><li>Data available with 15 partners</li><li><strong>ALOX5</strong> (score: 0.992)</li><li><strong>LTC4S</strong> (score: 0.992)</li><li><strong>ALOX5AP</strong> (score: 0.95)</li><li><strong>CYP4F3</strong> (score: 0.936)</li><li><strong>CYP4F2</strong> (score: 0.92)</li></ul>
+<h4>IntAct</h4>
+<ul><li>Total: 15 validated interactors</li><li><strong>TMEM62</strong> (psi-mi:&quot;MI:0398&quot;(two hybrid pooling approach), pubmed:16169070|imex:IM-16517|mint:MINT-)</li><li><strong>ARPC3</strong> (psi-mi:&quot;MI:0398&quot;(two hybrid pooling approach), pubmed:16169070|imex:IM-16517|mint:MINT-)</li><li><strong>HLA-C</strong> (psi-mi:&quot;MI:0006&quot;(anti bait coimmunoprecipitation), pubmed:17353931)</li><li><strong>HLA-B</strong> (psi-mi:&quot;MI:0006&quot;(anti bait coimmunoprecipitation), pubmed:17353931)</li><li><strong>MCC</strong> (psi-mi:&quot;MI:0006&quot;(anti bait coimmunoprecipitation), pubmed:17353931)</li><li><strong>IKBKE</strong> (psi-mi:&quot;MI:0006&quot;(anti bait coimmunoprecipitation), pubmed:17353931)</li><li><strong>GH1</strong> (psi-mi:&quot;MI:0006&quot;(anti bait coimmunoprecipitation), pubmed:17353931)</li><li><strong>UBA5</strong> (psi-mi:&quot;MI:0007&quot;(anti tag coimmunoprecipitation), pubmed:20562859|imex:IM-15184)</li></ul>
+<h4>PPI Network Assessment</h4>
+<ul><li>Moderate interaction network.</li><li>TE-relevant connections: Limited TE-relevant connections</li></ul>
+<hr>
+<h3>FALSE REJECTION RECHECK</h3>
+<h4>Original Rejection Reason (inferred)</h4>
+<p>LTA4H was likely auto-rejected due to: PubMed&gt;100 (strict=277)</p>
+<h4>Recheck Analysis</h4>
+<p>1. <strong>HPA Evidence:</strong> Cytosol 2. <strong>UniProt Evidence:</strong> Weak or no experimental nuclear evidence 3. <strong>GO-CC Evidence:</strong> Nuclear/chromatin GO annotations present 4. <strong>PubMed Count:</strong> 277 strict, 325 broad – EXCEEDS 100 threshold</p>
+<h4>Verdict on False Rejection</h4>
+<p><strong>The original rejection was TECHNICALLY CORRECT under the PubMed&gt;100 (strict=277) rule.</strong> However, functional evidence may warrant exception review.</p>
+<p><strong>This gene should remain REJECTED</strong> per pipeline rules, but may qualify for exception review.</p>
+<hr>
+<h3>TE-Regulator Relevance Reasoning</h3>
+<p>LTA4H has indirect TE-regulatory relevance at best. The protein primarily functions in processes not directly related to TE biology.</p>
+<hr>
+<h3>Final Decision</h3>
+<p><strong>DECISION: REJECTED (PubMed&gt;100 (strict=277))</strong></p>
+<p>Score: 78/180 (shown for completeness, but automatic rejection applies).</p>
+<p><strong>Reasoning:</strong> LTA4H exceeds the PubMed&gt;100 rejection threshold (277 publications). While nuclear evidence may be present, the high literature volume triggers automatic exclusion per pipeline rules.</p>
+<hr>
+<h3>Manual Review Note</h3>
+<p>*Reviewer: Automated re-evaluation system (2026-06-02)* *Status: CONFIRMED REJECTION per PubMed&gt;100 rule – exception review recommended*</p>
+<p>This gene exceeds the PubMed&gt;100 threshold for automatic rejection. However, its functional profile is relevant to TE biology. If exception criteria exist, this gene should be considered for waiver review.</p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

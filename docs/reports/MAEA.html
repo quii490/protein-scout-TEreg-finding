@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MAEA · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>MAEA</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 1</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/MAEA/MAEA-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;MAEA&quot; date: 2026-06-01 tags: [protein-scout, nucleoplasm, evaluation] status: scored ---</p>
+<h3>MAEA 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>MAEA / EMP</td></tr>
+<tr><td>蛋白全名</td><td>E3 ubiquitin-protein transferase MAEA (Macrophage erythroblast attacher)</td></tr>
+<tr><td>蛋白大小</td><td>396 aa / 45.3 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q7L5Y9</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>权重</th><th>加权</th><th>摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>8/10</td><td>x4</td><td>32.0</td><td>UniProt: Nucleus nucleoplasm (ECO:0000269 x3); HPA Nucleoplasm (Enhanced)</td></tr>
+<tr><td>蛋白大小</td><td>7/10</td><td>x1</td><td>7.0</td><td>396 aa, 45.3 kDa</td></tr>
+<tr><td>研究新颖性</td><td>4/10</td><td>x5</td><td>20.0</td><td>Strict=66</td></tr>
+<tr><td>三维结构</td><td>8/10</td><td>x3</td><td>24.0</td><td>AlphaFold pLDDT 91.5; PDB 8PJN (EM 3.40A); 80.1% &gt;90</td></tr>
+<tr><td>调控结构域</td><td>7/10</td><td>x2</td><td>14.0</td><td>CTLH complex E3 ligase subunit; LisH/CTLH domains</td></tr>
+<tr><td>PPI 网络</td><td>7/10</td><td>x3</td><td>21.0</td><td>CTLH complex: ARMC8 (0.986), RMND5A (0.969), WDR26 (0.969)</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>118/180</strong>********</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+2.0</td><td>UniProt + HPA (Enhanced) 一致确认 Nucleoplasm</td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>64.5/100</strong>********</td><td></td></tr>
+</tbody></table></div>
+<p>PubMed strict: 66</p>
+<h4>3. 核定位证据</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Nucleus, nucleoplasm (ECO:0000269 x3); Nucleus matrix (ECO:0000269); Cytoplasm (ECO:0000250); Cell membrane; Cytoskeleton</td><td>Experimental</td></tr>
+<tr><td>GO-CC</td><td>nucleoplasm IDA:HPA; nuclear matrix IDA:UniProtKB; nucleus IDA:UniProtKB; GID complex IBA; ubiquitin ligase complex IDA</td><td>Direct assay</td></tr>
+<tr><td>HPA (IF)</td><td>Nucleoplasm (main, <strong>Enhanced</strong> 可靠性)</td><td>IF available</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 状态</strong>: IF available -- HPA <strong>Enhanced</strong> 级别（最高可靠性等级）。单一定位 Nucleoplasm，无附加胞质信号。Enhanced 可靠性意味着通过 siRNA knockdown 或 GFP 融合蛋白等方式进行了独立验证。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/MAEA/MAEA-PAE.png</code></div></figure></p>
+<p><strong>PAE 状态</strong>: 已获取 PAE 图像。AlphaFold pLDDT 91.5 (mean), 80.1% &gt;90, 仅 1.8% &lt;50。结构质量优异。PDB 8PJN (Cryo-EM 3.40A) 提供了 CTLH complex 的实验结构，MAEA 以全长 1-396 参与复合体。</p>
+<h4>4. PPI 网络</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th></tr></thead><tbody>
+<tr><td>ARMC8</td><td>STRING + UniProt</td><td>0.986 (experimental 0.784)</td></tr>
+<tr><td>RMND5A</td><td>STRING + IntAct + UniProt</td><td>0.969 (experimental 0.845)</td></tr>
+<tr><td>WDR26</td><td>STRING + UniProt</td><td>0.969 (experimental 0.694)</td></tr>
+<tr><td>GID8</td><td>STRING + UniProt</td><td>0.960 (experimental 0.784)</td></tr>
+<tr><td>RANBP9</td><td>STRING + UniProt</td><td>0.952 (experimental 0.873)</td></tr>
+<tr><td>RANBP10</td><td>STRING + UniProt</td><td>0.920 (experimental 0.732)</td></tr>
+<tr><td>MKLN1</td><td>STRING + UniProt</td><td>0.912 (experimental 0.654)</td></tr>
+<tr><td>UBE2H</td><td>STRING</td><td>0.666 (experimental 0.292)</td></tr>
+</tbody></table></div>
+<p><strong>核心发现</strong>: MAEA 是 CTLH (C-terminal to LisH) E3 泛素连接酶复合体的核心催化亚基。CTLH 复合体由 MAEA-RMND5A-WDR26-ARMC8-GID8-RANBP9-RANBP10-MKLN1 等多组分组成，类似于酵母 GID (Glucose-Induced Degradation) 系统。MAEA 与 RMND5A 共同提供催化活性，介导底物蛋白 (如 HBP1) 的泛素化降解。</p>
+<p>IntAct 15 条记录。UniProt 记录 8 个互作 partner（均为 CTLH complex 成员）。</p>
+<p><strong>核功能关键线索</strong>: 2025 年 Nature Communications (PMID:41315365) 报道 CTLH complex 底物 ZMYND19 和 MKLN1 负调控 mTORC1 在溶酶体膜上的活性，而 MAEA 本身定位于 nucleoplasm 和 nuclear matrix，提示 CTLH complex 可能在核内外具有时空分离的功能模块。</p>
+<h4>5. 结构域与染色质调控潜力</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>结构域</th></tr></thead><tbody>
+<tr><td>InterPro</td><td>IPR013144 (CTLH/CRA), IPR006595 (CTLH C-term LisH), IPR006594 (LisH), IPR045098 (MAEA-like), IPR044063 (MAEA CTLH)</td></tr>
+<tr><td>Pfam</td><td>PF10607 (CTLH)</td></tr>
+</tbody></table></div>
+<p>MAEA 包含 LisH (Lissencephaly type-1-like homology) 和 CTLH (C-terminal to LisH) 结构域，这些结构域在多种 E3 泛素连接酶复合体中充当 scaffold。Nuclear matrix 定位 (IDA:UniProtKB) 提示 MAEA 与核骨架关联，可能参与核内蛋白质质量控制或转录因子（如 HBP1）的泛素化降解调控。</p>
+<p><strong>染色质调控潜力</strong>: 通过 CTLH complex 泛素化降解转录因子间接参与基因表达调控。无直接 DNA/chromatin binding 结构域，属于 &quot;泛素化介导的间接染色质调控&quot; 类别。</p>
+<h4>6. 总体评价</h4>
+<p>MAEA 是本研究核定位证据最强的蛋白之一：UniProt 实验级别 nucleoplasm (ECO:0000269 x3) + HPA Enhanced + GO-CC IDA:HPA/IDA:UniProtKB 三重确认。CTLH complex 的 E3 连接酶催化亚基，PPI 网络以复合体成员为主且置信度高。结构质量优异 (pLDDT 91.5 + PDB 8PJN)。主要劣势是 PubMed 66（新颖性中等）。适合作为核内泛素化-转录调控交叉方向的中高优先级靶点。</p>
+<p><strong>推荐等级</strong>: 3.5/5</p>
+<p><strong>HPA IF 状态</strong>: HPA IF 图像已本地嵌入。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/MAEA/MAEA_IF_407_D2_1_red_green.jpg</code></div></figure>。核定位基于HPA localization/reliability + UniProt + GO-CC。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/MAEA/MAEA-PAE.png</code></div></figure></p>
+<h5>关键文献</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>PMID</th><th>标题</th></tr></thead><tbody>
+<tr><td>34182925</td><td>The plasma peptides of Alzheimer&#x27;s disease.</td></tr>
+<tr><td>35342354</td><td>TBC1D14 inhibits autophagy to suppress lymph node metastasis in head and neck squamous cell carcinom</td></tr>
+<tr><td>36444483</td><td>maea affects head formation through ß-catenin degradation during early Xenopus laevis development.</td></tr>
+<tr><td>41524512</td><td>Dysregulation of U12-Type Splicing in Lupus Neutrophils.</td></tr>
+<tr><td>31795790</td><td>The GID ubiquitin ligase complex is a regulator of AMPK activity and organismal lifespan.</td></tr>
+</tbody></table></div>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/MAEA/MAEA-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

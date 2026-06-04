@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ATF7IP · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>ATF7IP</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 1.5</span><span class="badge">Nuclear: 10</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/ATF7IP/ATF7IP-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;ATF7IP&quot; date: 2026-05-29 tags: [protein-scout, nuclear-protein, evaluation] status: scored ---</p>
+<h3>ATF7IP 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>ATF7IP / MCAF, MCAF1</td></tr>
+<tr><td>蛋白大小</td><td>1270 aa / 136.4 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q6VMQ6 (MCAF1_HUMAN, Swiss-Prot reviewed)</td></tr>
+<tr><td>Ensembl ID</td><td>ENSG00000171681</td></tr>
+<tr><td>评估日期</td><td>2026-05-28</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览 (权重: 核×4 大×1 新×5 结×3 域×2 PPI×3 ÷1.83)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>加权</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>🔴 核定位特异性</td><td>10/10</td><td>×4</td><td><strong>40</strong></td><td>HPA: Nucleoplasm+Nuclear bodies(Enhanced); UniProt: Nucleus; GO: nucleus; Enhanced→10</td></tr>
+<tr><td>📏 蛋白大小</td><td>8/10</td><td>×1</td><td><strong>8</strong></td><td>1270 aa / 136.4 kDa, 偏大但在可操作范围</td></tr>
+<tr><td>🆕 研究新颖性</td><td>6/10</td><td>×5</td><td><strong>30</strong></td><td>PubMed 60篇; 50-200篇范围; SETDB1核心辅因子</td></tr>
+<tr><td>🏗️ 三维结构</td><td>5/10</td><td>×3</td><td><strong>15</strong></td><td>pLDDT 47.74, 77.3%无序; 1 NMR片段(2RPQ); Fn3域pLDDT 92.0; 新颖基线5</td></tr>
+<tr><td>🧬 调控结构域</td><td>7/10</td><td>×2</td><td><strong>14</strong></td><td>Fibronectin type-III + ATF7IP-specific domains; NLS; SETDB1/MBD1/SUMO互作区</td></tr>
+<tr><td>🔗 PPI</td><td>10/10</td><td>×3</td><td><strong>30</strong></td><td>SETDB1(0.999),DNMT3A(0.999),CBX1/3,HUSH,EHMT2,SUV39H1; &gt;80%调控相关</td></tr>
+<tr><td>➕ 互证加分</td><td>—</td><td>—</td><td><strong>+1.5</strong></td><td>&gt;=3源结构域互证; 域功能chromatin一致; &gt;=2源定位; 无实验PDB</td></tr>
+<tr><td><strong>原始总分</strong></td><td></td><td></td><td><strong>138.5/183</strong></td><td></td></tr>
+<tr><td><strong>归一化总分</strong></td><td></td><td></td><td><strong>75.7/100</strong></td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>Protein Atlas (IF)</td><td>Nucleoplasm, Nuclear bodies; 部分细胞系有微弱Cytosol</td><td><strong>Enhanced</strong> (siRNA验证, HPA023505)</td></tr>
+<tr><td>GeneCards</td><td>predominantly disordered</td><td>—</td></tr>
+<tr><td>UniProt</td><td>Nucleus</td><td>Swiss-Prot reviewed</td></tr>
+<tr><td>GO</td><td>nucleus (IDA), nucleoplasm (IDA:HPA), nuclear body (IDA:HPA), transcription regulator complex (IBA)</td><td>实验证据</td></tr>
+<tr><td>NLS motif</td><td>553-571 (UniProt motif annotation)</td><td>计算预测</td></tr>
+</tbody></table></div>
+<p><strong>结论</strong>: ATF7IP 是严格的核蛋白。Protein Atlas Enhanced + UniProt + GO 多源一致确认核定位。拥有明确 NLS 序列。在部分细胞系（A-431, U2OS）中 HPA016578 抗体检测到微弱胞质信号，但不影响主要核定位判断。评分: <strong>10/10</strong>。</p>
+<p><strong>IF 图像</strong>: <figure><div class="missing-image">Missing local image: <code>../assets/report-images/ATF7IP/ATF7IP_IF_1.jpg</code></div></figure> <figure><div class="missing-image">Missing local image: <code>../assets/report-images/ATF7IP/ATF7IP_IF_2.jpg</code></div></figure></p>
+<p><strong>IF 图像</strong>:</p>
+<h5>3.2 蛋白大小评估</h5>
+<ul><li>1270 aa, 136.4 kDa</li><li>属于 800-1200 aa 范围</li><li>适中偏大，但仍在生化实验可操作范围内。较大的无序区域（~77%）可能使蛋白在体外不稳定，但可以通过截短体研究折叠域。</li><li><strong>评价</strong>: 评分 <strong>8/10</strong>。</li></ul>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed 总数</td><td>60 篇</td></tr>
+<tr><td>最近发表趋势</td><td>2024-2026 年活跃发表</td></tr>
+<tr><td>Chromatin/epigenetics 比例</td><td>~60% (12/20 近期论文涉及 SETDB1/HUSH/heterochromatin)</td></tr>
+</tbody></table></div>
+<p><strong>主要研究方向</strong>:</p>
+<ul><li>SETDB1/ATF7IP 复合体在 H3K9me3 介导的异染色质形成中的核心作用</li><li>HUSH 复合体 (TASOR/MPHOSPH8/PPHLN1) 介导的基因沉默</li><li>肿瘤免疫逃逸 (CD8+ T cell exhaustion)</li><li>MBD1 依赖的转录抑制</li><li>MGA 招募 SETDB1/ATF7IP 调控减数分裂基因</li><li>SUMO 化修饰调控</li></ul>
+<p><strong>评价</strong>: 总发表量仅 60 篇，属于相对小众的研究领域。然而在 chromatin/epigenetics 领域已形成较明确的功能认知（SETDB1 核心辅因子、HUSH 复合体），说明其重要性已被领域认可。仍有大量未知——ATF7IP 的独立功能（非 SETDB1 依赖）、结构域的详细机制、在不同组织中的特异性角色等。评分: <strong>8/10</strong>。</p>
+<h5>3.4 三维结构分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold 平均 pLDDT</td><td>47.74</td></tr>
+<tr><td>有序区域 (pLDDT&gt;70) 占比</td><td>17.3% (220/1270)</td></tr>
+<tr><td>Very high (pLDDT&gt;90) 占比</td><td>8.0% (101/1270)</td></tr>
+<tr><td>无序区域 (pLDDT&lt;50) 占比</td><td>77.3% (982/1270)</td></tr>
+<tr><td>可用 PDB 条目</td><td>1个NMR片段 (2RPQ, aa938-981, 覆盖率3.4%)</td></tr>
+<tr><td>AlphaFold 版本</td><td>v6</td></tr>
+</tbody></table></div>
+<p><strong>高置信度折叠域</strong>:</p>
+<div class="table-wrap"><table>
+<thead><tr><th>区域</th><th>长度</th><th>平均 pLDDT</th><th>注释</th></tr></thead><tbody>
+<tr><td>13-38</td><td>26 aa</td><td>82.7</td><td>小折叠域</td></tr>
+<tr><td>591-662</td><td>72 aa</td><td>85.9</td><td>Coiled-coil 区域</td></tr>
+<tr><td>1139-1206</td><td>68 aa</td><td>89.0</td><td>Fibronectin type-III domain</td></tr>
+<tr><td>1211-1264</td><td>54 aa</td><td>92.0</td><td>Fibronectin type-III domain</td></tr>
+</tbody></table></div>
+<p><strong>PAE 图</strong>: <figure><div class="missing-image">Missing local image: <code>../assets/report-images/ATF7IP/ATF7IP-PAE.png</code></div></figure></p>
+<p><strong>PAE 数值分析</strong>:</p>
+<ul><li>PAE 矩阵尺寸: 1270×1270</li><li>PAE 总体均值: 28.10 A</li><li>PAE &lt;5 A 占比: 1.19%</li><li>PAE &lt;10 A 占比: 2.10%</li><li>Max PAE: 31.75 A</li></ul>
+<p>PAE 值普遍偏高，说明各域间相对取向不确定性大，这与蛋白高度无序一致。仅在对角线附近存在低 PAE 条带（对应折叠域），域间无低 PAE 块，表明各折叠域相对独立，无刚性域间排列。</p>
+<p><strong>评价</strong>: 蛋白高度无序（77%），但 C 端 Fn3 域（1139-1264）折叠质量极好（pLDDT 92.0），中部 coiled-coil 区域（591-662）也有较高置信度。UniProt收录1个NMR片段(2RPQ, aa938-981)，覆盖极小(3.4%)。PubMed 60篇(&lt;100)，按新颖蛋白结构基线为5分——大量无序不额外扣分。评分: <strong>5/10</strong>。</p>
+<h5>3.5 结构域分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>结构域</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Fibronectin type-III (1160-1270); Coiled coil (617-665); NLS (553-571)</td></tr>
+<tr><td>InterPro</td><td>Fibronectin type III (IPR003961); Immunoglobulin-like fold (IPR013783); ATF7IP-specific protein binding domain (IPR031870, IPR056565)</td></tr>
+<tr><td>Pfam</td><td>Fibronectin type-III (PF00041)</td></tr>
+</tbody></table></div>
+<p><strong>功能区域</strong>:</p>
+<div class="table-wrap"><table>
+<thead><tr><th>区域</th><th>功能</th></tr></thead><tbody>
+<tr><td>553-571</td><td>Nuclear localization signal (NLS)</td></tr>
+<tr><td>562-817</td><td>SETDB1 结合域（组蛋白甲基转移酶）</td></tr>
+<tr><td>965-975</td><td>SUMO 互作位点</td></tr>
+<tr><td>1154-1270</td><td>MBD1 结合域（甲基化 CpG 结合蛋白）</td></tr>
+</tbody></table></div>
+<p><strong>染色质调控潜力分析</strong>: ATF7IP 虽无经典 chromatin-binding domain（如 bromodomain、chromodomain、PHD 等），但其功能性角色极其明确。通过蛋白-蛋白互作直接参与多个核心表观遗传通路：</p>
+<ul><li>招募/稳定 SETDB1（催化 H3K9me3）</li><li>与 MBD1 结合，介导 DNA 甲基化依赖的转录沉默</li><li>参与 HUSH 复合体 (TASOR/MPHOSPH8) 介导的异染色质形成</li><li>SUMO 化修饰调控其功能</li></ul>
+<p>Fn3 域作为蛋白-蛋白互作支架，在此蛋白中可能介导与 MBD1 的结合。ATF7IP 代表了「非经典结构域但功能明确」的核蛋白范例。评分: <strong>7/10</strong>。</p>
+<h5>3.6 PPI 网络</h5>
+<p><strong>实验验证互作</strong> (IntAct, physical association/direct interaction):</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>方法</th><th>PMID</th><th>功能类别</th><th>调控相关？</th></tr></thead><tbody>
+<tr><td>GTF2IRD1</td><td>co-IP</td><td>26275350</td><td>TFII-I family, transcription factor</td><td>✅ 转录调控</td></tr>
+<tr><td>DISC1</td><td>Y2H</td><td>12812986</td><td>Scaffold protein, neurodevelopment</td><td>❌</td></tr>
+<tr><td>FMR1</td><td>Y2H</td><td>31413325</td><td>FMRP, RNA binding</td><td>❌</td></tr>
+</tbody></table></div>
+<p>&gt; GTF2IRD1 的 co-IP 验证 (PMID:26275350) 为 ATF7IP 提供了新的转录调控连接。但大部分关键互作 (SETDB1, DNMT3A 等) 在 IntAct 中未收录 physical association 类别。</p>
+<p><strong>STRING 预测互作</strong> (combined score &gt;0.4):</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>功能类别</th><th>与调控相关？</th></tr></thead><tbody>
+<tr><td>H3-3B</td><td>0.999</td><td>Histone H3.3 variant</td><td>✓ Chromatin</td></tr>
+<tr><td>DNMT3A</td><td>0.999</td><td>DNA methyltransferase</td><td>✓ Epigenetic writer</td></tr>
+<tr><td>GTF2H1</td><td>0.999</td><td>TFIIH subunit</td><td>✓ Transcription</td></tr>
+<tr><td>SETDB1</td><td>0.999</td><td>H3K9me3 methyltransferase</td><td>✓ Epigenetic writer</td></tr>
+<tr><td>GTF2E1</td><td>0.999</td><td>TFIIE subunit</td><td>✓ Transcription</td></tr>
+<tr><td>ERCC3</td><td>0.999</td><td>TFIIH/XPB helicase</td><td>✓ Transcription/Repair</td></tr>
+<tr><td>CBX3</td><td>0.999</td><td>HP1γ (heterochromatin)</td><td>✓ Chromatin reader</td></tr>
+<tr><td>GTF2E2</td><td>0.999</td><td>TFIIE subunit</td><td>✓ Transcription</td></tr>
+<tr><td>TP53</td><td>0.998</td><td>Tumor suppressor/TF</td><td>✓ Transcription</td></tr>
+<tr><td>TASOR</td><td>0.998</td><td>HUSH complex</td><td>✓ Epigenetic</td></tr>
+<tr><td>CBX1</td><td>0.998</td><td>HP1β (heterochromatin)</td><td>✓ Chromatin reader</td></tr>
+<tr><td>EHMT2</td><td>0.995</td><td>G9a, H3K9 methyltransferase</td><td>✓ Epigenetic writer</td></tr>
+<tr><td>SUV39H1</td><td>0.990</td><td>H3K9me3 methyltransferase</td><td>✓ Epigenetic writer</td></tr>
+<tr><td>MPHOSPH8</td><td>0.981</td><td>HUSH complex (MPP8)</td><td>✓ Epigenetic</td></tr>
+<tr><td>SUMO2</td><td>0.979</td><td>SUMO modifier</td><td>✓ PTM</td></tr>
+<tr><td>MBD1</td><td>0.905</td><td>Methyl-CpG binding</td><td>✓ Epigenetic reader</td></tr>
+<tr><td>KMT5C</td><td>0.884</td><td>H4K20 methyltransferase</td><td>✓ Epigenetic writer</td></tr>
+<tr><td>SOX5</td><td>0.861</td><td>Transcription factor</td><td>✓ Transcription</td></tr>
+<tr><td>ATF7</td><td>0.823</td><td>Transcription factor</td><td>✓ Transcription</td></tr>
+<tr><td>KMT5B</td><td>0.822</td><td>H4K20 methyltransferase</td><td>✓ Epigenetic writer</td></tr>
+</tbody></table></div>
+<p><strong>已知复合体成员</strong> (GO Cellular Component):</p>
+<ul><li><strong>SETDB1-ATF7IP 异染色质复合体</strong> (GO 推断 + 文献): ATF7IP + SETDB1 形成核心 H3K9me3 甲基转移酶复合体</li><li><strong>HUSH 复合体</strong> (TASOR/MPPHOS8/PPHLN1, GO 推断): ATF7IP 与 HUSH 复合体协同介导转座子沉默</li><li><strong>MBD1 共抑制复合体</strong>: ATF7IP C 端 Fn3 域结合 MBD1, 介导 DNA 甲基化依赖的转录抑制</li></ul>
+<p><strong>PPI 互证分析</strong>:</p>
+<ul><li>STRING 显示 100% 表观遗传/转录调控 partner (SETDB1, DNMT3A, CBX1/3, EHMT2, SUV39H1, HUSH, MBD1 等)</li><li>IntAct 新增: <strong>GTF2IRD1</strong> (co-IP, TFII-I 家族转录因子) -- 揭示了 ATF7IP 可能直接参与 Pol II 转录调控</li><li>调控相关比例: STRING 20/20 (100%), IntAct 1/3 (33%)</li><li>IntAct 未收录 ATF7IP 与 SETDB1 的直接 physical association (但文献验证充分)</li></ul>
+<p><strong>评价</strong>: ATF7IP 的 PPI 网络100%围绕异染色质形成。核心功能定位为: (1) 组蛋白 H3 变异体 + HP1 阅读器; (2) H3K9 甲基转移酶; (3) DNA 甲基化系统; (4) 转录机器; (5) H4K20 甲基转移酶。形成了完整的「异染色质建立-维持-解读」网络。IntAct 新增 GTF2IRD1 (co-IP) 为进一步探索 ATF7IP 在 Pol II 转录中的角色提供了实验基础。评分: <strong>10/10</strong>。</p>
+<div class="table-wrap"><table>
+<thead><tr><th>核定位</th><th>UniProt</th><th>Nucleus</th><th>✓ 一致</th></tr></thead><tbody>
+<tr><td>核定位</td><td>GO</td><td>nucleus (IDA), nucleoplasm (IDA), nuclear body (IDA)</td><td>✓ 一致</td></tr>
+<tr><td>结构域</td><td>UniProt</td><td>Fn3 (1160-1270)</td><td>✓ 一致</td></tr>
+<tr><td>结构域</td><td>InterPro</td><td>IPR003961 (Fn3), IPR013783 (Ig-like fold)</td><td>✓ 一致</td></tr>
+<tr><td>结构域</td><td>Pfam</td><td>PF00041 (Fn3)</td><td>✓ 一致</td></tr>
+<tr><td>三维结构</td><td>AlphaFold</td><td>Fn3 domain pLDDT 92.0</td><td>预测良好</td></tr>
+<tr><td>三维结构</td><td>PDB</td><td>无实验结构</td><td>N/A</td></tr>
+<tr><td>PPI</td><td>STRING</td><td>100% epigenetic/transcription partners</td><td>高度一致</td></tr>
+<tr><td>PPI</td><td>humanPPI</td><td>N/A</td><td></td><td>✓ 实验证据</td></tr>
+</tbody></table></div>
+<p><strong>互证加分明细</strong>:</p>
+<ul><li>结构域 ≥3 个独立来源确认 Fn3 domain: <strong>+0.5</strong></li><li>域功能注释与 chromatin 调控一致（GO: DNA methylation-dependent heterochromatin formation, IMP）: <strong>+0.5</strong></li><li>核定位 ≥2 个独立来源一致确认 (Protein Atlas + UniProt + GO): <strong>+0.5</strong></li><li>PPI 与功能推断高度吻合但缺乏 humanPPI 对比: 不加分</li><li>无实验 PDB 结构: 不加分</li><li>模式生物保守: mouse Atf7ip 与 SETDB1 互作保守 (PMID: 39734414): 暂不加（humanPPI 缺）</li></ul>
+<p><strong>总分</strong>: +1.5 / max +3</p>
+<h5>3.7 多库互证</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>来源</th><th>结果</th><th>是否一致</th></tr></thead><tbody>
+<tr><td>三维结构</td><td>AlphaFold + PDB</td><td>见 3.4 节</td><td>—</td></tr>
+<tr><td>结构域</td><td>UniProt / InterPro / Pfam</td><td>见 3.5 节</td><td>—</td></tr>
+<tr><td>PPI</td><td>STRING</td><td>见 3.6 节</td><td>—</td></tr>
+<tr><td>定位</td><td>Protein Atlas IF / UniProt / GO</td><td>Nucleus</td><td>✅</td></tr>
+</tbody></table></div>
+<h4>X. 关键文献 (PubMed)</h4>
+<p>1. Song Z et al. (2022). &quot;Overexpression of MFN2 alleviates sorafenib-induced cardiomyocyte necroptosis via the MAM-CaMKIIδ pathway in vitro and in vivo.&quot;. *Theranostics*. PMID: 35154486 2. Wu J et al. (2023). &quot;Atf7ip and Setdb1 interaction orchestrates the hematopoietic stem and progenitor cell state with diverse lineage differentiation.&quot;. *Proc Natl Acad Sci U S A*. PMID: 36577070 3. Chang S et al. (2019). &quot;The cancer driver genes IDH1/2, JARID1C/ KDM5C, and UTX/ KDM6A: crosstalk between histone demethylation and hypoxic reprogramming in cancer metabolism.&quot;. *Exp Mol Med*. PMID: 31221981 4. Chen W et al. (2025). &quot;ATF7IP/SETDB1-mediated epigenetic programming regulates thymic homing and T lymphopoiesis of hematopoietic progenitors during embryogenesis.&quot;. *Nat Commun*. PMID: 40670340 5. Kariapper LS et al. (2025). &quot;Setdb1 and Atf7IP form a hetero-trimeric complex that blocks Setdb1 nuclear export.&quot;. *J Biol Chem*. PMID: 40339988</p>
+<h4>4. 总体评价</h4>
+<p><strong>推荐等级</strong>: 4.5/5</p>
+<p><strong>核心优势</strong>: 1. <strong>核定位极其明确</strong>: Enhanced IF + NLS + 多数据库一致, 无可争议 2. <strong>PPI 5. </strong>结构域可操作**: C 端 Fn3 域 pLDDT 92+, 适合结构解析</p>
+<p><strong>风险/不确定性</strong>: 1. <strong>高度无序</strong> (77% disorder) 可能使全长蛋白体外研究困难, 需截短体策略 2. <strong>蛋白偏大</strong> (136 kDa) 表达纯化有挑战 3. <strong>功能高度依赖 SETDB1</strong> — 独立作用尚不清楚 4. **仅 TrEMBL 有部分交互数据, humanPPI 和 coiled-coil (591-662) 截短体用于结构研究</p>
+<ul><li>[ ] 利用 STRING 数据设计 Co-IP/MS 验证 PPI - [ ] 寻找 ATF7IP 独立于 SETDB1 的功能</li></ul>
+<h4>5. 数据来源</h4>
+<ul><li>GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=ATF7IP</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000171681-ATF7IP/subcellular</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22ATF7IP%22</li><li>UniProt: https://www.uniprot.org/uniprotkb/Q6VMQ6</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q6VMQ6</li><li>STRING: https://string-db.org/network/9606.ENSP00000271640</li><li>InterPro: https://www.ebi.ac.uk/interpro/protein/uniprot/Q6VMQ6</li></ul>
+<h5>PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th></tr></thead><tbody>
+<tr><td>无记录</td><td>—</td><td>—</td></tr>
+</tbody></table></div>
+<p>IntAct 有限记录。无 BioGrid 补充数据。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/ATF7IP/ATF7IP-PAE.png</code></div></figure></p>
+<p>PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/ATF7IP/ATF7IP-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

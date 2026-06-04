@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SENP6 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>SENP6</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 58</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/SENP6/SENP6-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;SENP6&quot; date: 2026-06-01 tags: [protein-scout, nucleoplasm, evaluation] status: scored ---</p>
+<h3>SENP6 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>SENP6 / KIAA0797, SSP1, SUSP1</td></tr>
+<tr><td>蛋白全名</td><td>Sentrin-specific protease 6</td></tr>
+<tr><td>蛋白大小</td><td>1112 aa / 126.1 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q9GZR1</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>新权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>5/10</td><td>×4</td><td>20.0</td><td>UniProt Nucleus (ECO:0000269)；GO-CC nucleoplasm IDA, cytoplasm/cytosol IBA；HPA Supported, Nucleoplasm (main) + Cytosol</td></tr>
+<tr><td>蛋白大小</td><td>3/10</td><td>×1</td><td>3.0</td><td>1112 aa, 126.1 kDa，大型 SUMO 蛋白酶</td></tr>
+<tr><td>研究新颖性</td><td>6/10</td><td>×5</td><td>30.0</td><td>PubMed strict=58, broad=106</td></tr>
+<tr><td>三维结构</td><td>3/10</td><td>×3</td><td>9.0</td><td>AlphaFold pLDDT 54.7 (pct&gt;90: 20.1%, pct&lt;50: 61.0%)；无 PDB 结构</td></tr>
+</tbody></table></div>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/SENP6/SENP6-PAE.png</code></div></figure></p>
+<div class="table-wrap"><table>
+<tbody>
+<tr><td>调控结构域</td><td>6/10</td><td>×2</td><td>12.0</td><td>Peptidase C48 (PF02902, IPR003653, IPR038765)；SUMO 去修饰酶，调控染色体排列与纺锤体组装</td></tr>
+<tr><td>PPI 网络</td><td>6/10</td><td>×3</td><td>18.0</td><td>STRING: SUMO2 (0.967 exp 0.731), SUMO1 (0.95), PRPF19 (0.837 exp)；IntAct 14 条；UniProt 无记录</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>92/180</strong>**</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+0.0</td><td></td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>50.3/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Nucleus (ECO:0000269 ×2)</td><td>中高 (实验证据)</td></tr>
+<tr><td>GO-CC</td><td>nucleoplasm (IDA:HPA), cytosol (IDA:HPA), cytoplasm (IBA:GO_Central), nucleus (IBA:GO_Central)</td><td>中高</td></tr>
+<tr><td>Protein Atlas (IF)</td><td>HPA Supported, Nucleoplasm (main) + Cytosol</td><td>中</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 状态</strong>: HPA IF 图像已本地嵌入。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/SENP6/SENP6_IF_196_B12_1_red_green.jpg</code></div></figure>。核定位基于HPA localization/reliability + UniProt + GO-CC。</p>
+<p><strong>结论</strong>: SENP6 主要定位于核质 (IDA:HPA)，但同时存在胞质分布 (cytosol IDA:HPA)，核定位特异性仅为中等。SUMO 蛋白酶功能涵盖核-质两部分底物。</p>
+<h5>3.2 结构与数据源</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold</td><td>AF-Q9GZR1-F1</td></tr>
+<tr><td>平均 pLDDT</td><td>54.7</td></tr>
+<tr><td>pLDDT &gt;90</td><td>20.1%</td></tr>
+<tr><td>pLDDT 70-90</td><td>13.8%</td></tr>
+<tr><td>pLDDT &lt;50</td><td>61.0%</td></tr>
+<tr><td>PDB</td><td>无</td></tr>
+<tr><td>InterPro</td><td>IPR038765 (Papain-like cysteine peptidase), IPR003653 (Peptidase C48), IPR051947</td></tr>
+<tr><td>Pfam</td><td>PF02902 (Peptidase C48/Ulp1)</td></tr>
+</tbody></table></div>
+<p><strong>AlphaFold PAE 状态</strong>: PAE 已下载。pLDDT 较低 (54.7)，61.0% 残基 pLDDT &lt;50。该大蛋白 (1112 aa) 存在大量无序区域，仅 N-terminal Peptidase C48 催化域可能有序。无 PDB 实验结构。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/SENP6/SENP6-PAE.png</code></div></figure></p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict (Title/Abstract)</td><td>58</td></tr>
+<tr><td>PubMed broad</td><td>106</td></tr>
+<tr><td>别名</td><td>KIAA0797, SSP1, SUSP1（未用于 scoring）</td></tr>
+</tbody></table></div>
+<p>关键文献：SENP6 是 poly-SUMO2/3 链特异性去 SUMO 酶，参与染色体排列/纺锤体组装 (CENPH-CENPI-CENPK 复合体调控)、PML 和 CENPI 蛋白稳定性保护 (antagonize RNF4 泛素化)、DNA 修复 (RPA1 desumoylation)。代表性文献：PMID:29321472 (osteochondroprogenitor homeostasis, Nature Communications), PMID:40729740 (mitochondrial protein import via TOM40, Advanced Science), PMID:37059091 (SLX4-driven DNA repair, Molecular Cell)。研究热度中等（strict=58）。</p>
+<h5>3.4 PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>SUMO2</td><td>STRING</td><td>0.967 (exp 0.731)</td><td>Substrate, poly-SUMO chains</td></tr>
+<tr><td>SUMO1</td><td>STRING</td><td>0.95 (exp 0.559)</td><td>Substrate</td></tr>
+<tr><td>PRPF19</td><td>STRING+IntAct</td><td>0.837 (exp 0.795), Co-IP (PMID:28514442)</td><td>SUMO-related E3 ligase</td></tr>
+<tr><td>RANGAP1</td><td>STRING</td><td>0.85 (textmining 0.847)</td><td>SUMO pathway</td></tr>
+<tr><td>UBE2I</td><td>STRING</td><td>0.749 (exp 0.184)</td><td>SUMO E2</td></tr>
+<tr><td>SENP3</td><td>STRING</td><td>0.696 (exp 0.295)</td><td>SENP family</td></tr>
+<tr><td>NPM1</td><td>IntAct</td><td>BioID (PMID:39251607)</td><td>Nucleolar proximity</td></tr>
+<tr><td>LMNA</td><td>IntAct</td><td>BioID (PMID:29568061)</td><td>Nuclear lamina</td></tr>
+<tr><td>HNRNPC</td><td>IntAct</td><td>BioID (PMID:39251607)</td><td>Nuclear RNA binding</td></tr>
+</tbody></table></div>
+<p>PPI 网络围绕 SUMO 信号通路 (SUMO1/2/3, UBE2I, SAE1, UBA2)，含有较多实验验证互作。SENP6 与 SENP3/SENP5 同属 SENP 家族，且 BioID 结果显示其与 NPM1（核仁）、LMNA（核膜）、HNRNPC 等核因子邻近。</p>
+<h4>4. 总体评价</h4>
+<p>SENP6 是 poly-SUMO 链特异性蛋白酶，PPI 网络以 SUMO 通路为核心，在染色体排列/纺锤体组装中发挥关键功能。主要不足：分子量极大 (126.1 kDa)，AlphaFold 预测不可靠 (pLDDT 54.7, 61% &lt;50)，无 PDB 实验结构，核定位特异性仅中等 (核-质双分布)。研究热度中等 (PM=58)，SUMO 通路的普遍性降低了该靶标的区分度。</p>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9GZR1</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9GZR1</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=SENP6</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000112701-SENP6</li></ul>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/SENP6/SENP6-PAE.png</code></div></figure></p>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/SENP6/SENP6-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

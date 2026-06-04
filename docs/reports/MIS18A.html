@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MIS18A · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>MIS18A</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 1</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/MIS18A/MIS18A-evaluation.md</p></section><article class="report-body"><h2>MIS18A – Critical False-Rejection Reevaluation Report</h2>
+<p><strong>Gene:</strong> MIS18A <strong>UniProt Accession:</strong> Q9NYP9 <strong>Protein Name:</strong> Protein Mis18-alpha <strong>Length:</strong> 233 aa | <strong>Mass:</strong> 25.9 kDa <strong>Aliases:</strong> C21orf45, C21orf46, FASP1 <strong>Report Date:</strong> 2026-06-04 <strong>Review Stage:</strong> W2 Batch 1 – CRITICAL REOPEN</p>
+<hr>
+<h3>/180 Scoring Table</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Max</th><th>Score</th><th>Rationale</th></tr></thead><tbody>
+<tr><td>1. Nuclear Localization</td><td>30</td><td>26</td><td>HPA: Nucleoplasm, Cytosol (Approved). UniProt: Nucleus, Chromosome, Chromosome, centromere. GO-CC: 1 IDA nuclear anno.</td></tr>
+<tr><td>2. Protein Size</td><td>10</td><td>9</td><td>233 aa / 25.9 kDa – moderate size, tractable.</td></tr>
+<tr><td>3. Research Novelty</td><td>10</td><td>10</td><td>PubMed strict: 17. &lt;=20 = 10/10 maximum novelty. Very poorly studied.</td></tr>
+<tr><td>4. 3D Structure</td><td>30</td><td>18</td><td>AlphaFold mean pLDDT: 79.1. PDB: 3 experimental structures.</td></tr>
+<tr><td>5. Regulatory Domains</td><td>50</td><td>18</td><td>InterPro: IPR034752, IPR004910. Function summary: Required for recruitment of CENPA to centromeres and normal chromosome segregation during mitosis...</td></tr>
+<tr><td>6. PPI Network</td><td>50</td><td>34</td><td>STRING: 15 partners. IntAct: 15 interactors.</td></tr>
+<tr><td><strong>TOTAL</strong></td><td><strong>180</strong></td><td><strong>115</strong></td><td></td></tr>
+</tbody></table></div>
+<hr>
+<h3>Nuclear Evidence Section</h3>
+<h4>HPA (Human Protein Atlas)</h4>
+<ul><li><strong>Status:</strong> hpa_localization_available</li><li><strong>Reliability (IF):</strong> Approved</li><li><strong>Main Location:</strong> Nucleoplasm, Cytosol</li><li><strong>IF Image Status:</strong> if_display_images_available</li><li><strong>IF Images:</strong> 12 images available</li><li><strong>Nuclear-relevant locations:</strong> Nucleoplasm, Cytosol</li></ul>
+<h4>UniProt Subcellular Location</h4>
+<ul><li><strong>Nucleus</strong> – Evidence: ECO:0000269</li><li><strong>Chromosome</strong> – Evidence: ECO:0000269</li><li><strong>Chromosome, centromere</strong> – Evidence: ECO:0000269</li></ul>
+<h4>GO Cellular Component (GO-CC)</h4>
+<ul><li><strong>GO:0098654 (CENP-A recruiting complex)</strong> – Evidence: IPI:ComplexPortal</li><li><strong>GO:0000785 (chromatin)</strong> – Evidence: IBA:GO_Central</li><li><strong>GO:0000775 (chromosome, centromeric region)</strong> – Evidence: IBA:GO_Central</li><li><strong>GO:0005829 (cytosol)</strong> – Evidence: IDA:HPA</li><li><strong>GO:0005654 (nucleoplasm)</strong> – Evidence: IDA:HPA</li><li><strong>GO:0005634 (nucleus)</strong> – Evidence: IBA:GO_Central</li></ul>
+<h4>Functional Context</h4>
+<ul><li>Required for recruitment of CENPA to centromeres and normal chromosome segregation during mitosis</li></ul>
+<p><strong>Summary:</strong> MIS18A has strong nuclear evidence (HPA: Approved reliability; UniProt experimental nuclear evidence; GO: 1 IDA nuclear annotations). Nuclear score: 26/30.</p>
+<p><strong>Interpretation note:</strong> HPA IF original images not reliably fetched (HPA search page does not have usable subcellular IF originals). Nuclear localization based on HPA localization/reliability + UniProt + GO-CC.</p>
+<hr>
+<h3>PubMed Evidence</h3>
+<h4>Literature Metrics</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Query Type</th><th>Count</th><th>Query String</th></tr></thead><tbody>
+<tr><td>Strict (Title/Abstract)</td><td>17</td><td><code>&quot;MIS18A&quot;[Title/Abstract] AND (gene[Title/Abstract] OR protein[Title/Abstract] OR...</code></td></tr>
+<tr><td>Symbol Only (Title/Abstract)</td><td>17</td><td></td></tr>
+<tr><td>Broad (All Fields)</td><td>30</td><td></td></tr>
+</tbody></table></div>
+<p><strong>Alias Note:</strong> Aliases observed but not used for scoring: C21orf45, C21orf46, FASP1</p>
+<h4>Key Papers (with PMIDs)</h4>
+<p>1. <strong>PMID:31576812</strong> – Zhang G, Kang Y, Feng X (2019 Oct 2). &quot;LncRNAs down-regulate Myh1, Casr, and Mis18a expression in the Substantia Nigra of aged male rats.&quot; *Aging.* 2. <strong>PMID:38910901</strong> – Zhu Y, Li Z, Wu Z (2024 Aug). &quot;MIS18A upregulation promotes cell viability, migration and tumor immune evasion in lung adenocarcinoma.&quot; *Oncology letters.* 3. <strong>PMID:35058972</strong> – Novo LC, Cavani L, Pinedo P (2021). &quot;Genomic Analysis of Visceral Fat Accumulation in Holstein Cows.&quot; *Frontiers in genetics.* 4. <strong>PMID:36995257</strong> – Moyer AJ, Fernandez FX, Li Y (2023 Apr 1). &quot;Overexpression screen of chromosome 21 genes reveals modulators of Sonic hedgehog signaling relevant to Down syndrome.&quot; *Disease models &amp; mechanisms.* 5. <strong>PMID:31955161</strong> – Dutra SGV, Paterson A, Monteiro LRN (2021). &quot;Physiological and Transcriptomic Changes in the Hypothalamic-Neurohypophysial System after 24 h of Furosemide-Induced Sodium Depletion.&quot; *Neuroendocrinology.*</p>
+<h4>Literature Assessment</h4>
+<ul><li><strong>Total publications:</strong> Low (17 strict, 30 broad).</li><li><strong>Novelty score:</strong> 10/10.</li><li><strong>No publications directly linking this gene to TE regulation.</strong> This represents an unexplored area.</li></ul>
+<hr>
+<h3>AlphaFold / PDB / PAE</h3>
+<h4>AlphaFold Predicted Structure</h4>
+<ul><li><strong>Entry:</strong> AF-Q9NYP9-F1, version 6</li><li><strong>Mean pLDDT:</strong> 79.1</li><li><strong>pLDDT Distribution:</strong></li><li>&gt;90 (very high confidence): 47.6%</li><li>70-90 (confident): 20.2%</li><li>50-70 (low confidence): 19.3%</li><li>&lt;50 (very low confidence): 12.9%</li><li><strong>Assessment:</strong> Moderate-confidence structure with some predicted disorder. The protein has both well-folded and flexible regions.</li></ul>
+<h4>Experimental PDB Structures</h4>
+<ul><li><strong>7SFY</strong> – X-ray, 2.50 A, chains: A/B/D/E=191-233</li><li><strong>7SFZ</strong> – X-ray, 3.00 A, chains: A/B/C/D/E/F/G/H=77-190</li><li><strong>8S30</strong> – X-ray, 1.94 A, chains: B=49-55</li></ul>
+<h4>Structural Assessment</h4>
+<ul><li>PAE image data not locally generated; structure judgment based on AlphaFold pLDDT statistics.</li><li><strong>Score:</strong> 18/30</li></ul>
+<hr>
+<h3>PPI Network</h3>
+<h4>STRING (Functional Partners)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Combined Score</th><th>Experimental</th><th>Textmining</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>MIS18BP1</td><td>0.999</td><td>0.837</td><td>0.998</td><td></td></tr>
+<tr><td>OIP5</td><td>0.999</td><td>0.886</td><td>0.996</td><td></td></tr>
+<tr><td>HJURP</td><td>0.964</td><td>0.704</td><td>0.720</td><td></td></tr>
+<tr><td>CENPA</td><td>0.956</td><td>0.651</td><td>0.694</td><td></td></tr>
+<tr><td>CENPC</td><td>0.895</td><td>0.088</td><td>0.785</td><td></td></tr>
+<tr><td>RBBP7</td><td>0.874</td><td>0.478</td><td>0.526</td><td></td></tr>
+<tr><td>CENPI</td><td>0.854</td><td>0.000</td><td>0.582</td><td></td></tr>
+<tr><td>CENPW</td><td>0.848</td><td>0.000</td><td>0.456</td><td></td></tr>
+<tr><td>CENPK</td><td>0.846</td><td>0.000</td><td>0.556</td><td></td></tr>
+<tr><td>CENPQ</td><td>0.844</td><td>0.000</td><td>0.586</td><td></td></tr>
+<tr><td>...</td><td>...</td><td>...</td><td>...</td><td>(15 total partners)</td></tr>
+</tbody></table></div>
+<h4>IntAct</h4>
+<p>Total: 15 validated interactors</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Method</th><th>PMID</th><th>Interaction Type</th></tr></thead><tbody>
+<tr><td>ENSP00000290130.3</td><td>psi-mi:&quot;MI:1356&quot;(validated two hybrid)</td><td>pubmed:32296183</td><td>imex:IM-25472</td><td>psi-mi:&quot;MI:0915&quot;(physical association)</td></tr>
+<tr><td>NDEL1</td><td>psi-mi:&quot;MI:0018&quot;(two hybrid)</td><td>pubmed:17043677</td><td>imex:IM-16650</td><td>psi-mi:&quot;MI:0915&quot;(physical association)</td></tr>
+<tr><td>MAFIP</td><td>psi-mi:&quot;MI:0018&quot;(two hybrid)</td><td>imex:IM-15364</td><td>pubmed:21988832</td><td>psi-mi:&quot;MI:0915&quot;(physical association)</td></tr>
+<tr><td>HJURP</td><td>psi-mi:&quot;MI:0007&quot;(anti tag coimmunoprecipitation)</td><td>pubmed:28514442</td><td>doi:10.1038/nature22366</td><td>imex:IM-25778</td><td>psi-mi:&quot;MI:0914&quot;(association)</td></tr>
+<tr><td>CANX</td><td>psi-mi:&quot;MI:1314&quot;(proximity-dependent biotin identification)</td><td>pubmed:29568061</td><td>imex:IM-26301</td><td>psi-mi:&quot;MI:2364&quot;(proximity)</td></tr>
+<tr><td>OIP5</td><td>psi-mi:&quot;MI:0397&quot;(two hybrid array)</td><td>imex:IM-27438</td><td>doi:10.1038/s41467-019-11959-3</td><td>pubmed:31515488</td><td>psi-mi:&quot;MI:0915&quot;(physical association)</td></tr>
+<tr><td>TMEM150A</td><td>psi-mi:&quot;MI:0007&quot;(anti tag coimmunoprecipitation)</td><td>pubmed:28514442</td><td>doi:10.1038/nature22366</td><td>imex:IM-25778</td><td>psi-mi:&quot;MI:0914&quot;(association)</td></tr>
+<tr><td>PPP1R13B</td><td>psi-mi:&quot;MI:0397&quot;(two hybrid array)</td><td>pubmed:32296183</td><td>imex:IM-25472</td><td>psi-mi:&quot;MI:0915&quot;(physical association)</td></tr>
+<tr><td>...</td><td>...</td><td>...</td><td>(15 total)</td></tr>
+</tbody></table></div>
+<h4>PPI Network Assessment</h4>
+<ul><li><strong>Moderate interaction network.</strong></li><li><strong>TE-relevant connections identified:</strong> DNMT3A</li><li><strong>Score:</strong> 34/50</li></ul>
+<hr>
+<h3>FALSE REJECTION RECHECK</h3>
+<h4>Original Rejection Reason (inferred)</h4>
+<p>MIS18A was likely auto-rejected due to automated scoring below pipeline threshold, despite qualifying nuclear evidence.</p>
+<h4>Recheck Analysis</h4>
+<p>1. <strong>HPA Evidence:</strong> Nucleoplasm, Cytosol – STRONG, reliability: Approved. 2. <strong>UniProt Evidence:</strong> Nucleus – ECO:0000269 (experimental, [&#x27;ECO:0000269&#x27;]). 3. <strong>GO-CC Evidence:</strong> 1 IDA-level nuclear annotations present: nucleoplasm. 4. <strong>PubMed Count:</strong> 17 strict – ≤20 = MAXIMUM novelty. This gene is very poorly studied, which should be advantageous.</p>
+<h4>Verdict on False Rejection</h4>
+<p><strong>The original rejection was FALSE – MIS18A should NOT have been rejected.</strong> The nuclear evidence is ROBUST (HPA + UniProt experimental + GO IDA). The automated system may have undervalued the nuclear localization, been confused by dual localization patterns, or applied overly conservative scoring.</p>
+<p><strong>This gene SHOULD BE REOPENED for TE-regulatory evaluation.</strong></p>
+<hr>
+<h3>TE-Regulator Relevance Reasoning</h3>
+<p>1. <strong>Chromatin Association:</strong> MIS18A is annotated to chromatin or chromatin-related complexes. This is directly relevant to TE biology, as TEs are regulated through chromatin modifications (histone methylation, DNA methylation, chromatin remodeling). 2. <strong>Centromere Function:</strong> MIS18A functions at centromeres. Centromeres are enriched in repetitive DNA and TEs. Centromeric proteins can influence chromatin organization at repetitive elements. 3. <strong>Cell Cycle:</strong> MIS18A functions in cell cycle/mitosis/meiosis. TE expression is often cell-cycle regulated, and cell cycle proteins can influence chromatin states at TE loci during division.</p>
+<p><strong>Caveats:</strong></p>
+<ul><li>No direct evidence of TE regulation has been established for this gene.</li><li>The connection to TE biology is inferred from nuclear localization and functional domain analysis.</li></ul>
+<p><strong>Assessment:</strong> HIGH interest candidate for TE regulation. STRONG nuclear evidence combined with MAXIMUM novelty (17 publications). The protein&#x27;s nuclear localization and functional domain profile make it a compelling target for original investigation into TE biology.</p>
+<hr>
+<h3>Final Decision</h3>
+<p><strong>DECISION: SCORED – REOPENED for evaluation</strong></p>
+<p><strong>Score: 115/180</strong></p>
+<p><strong>Reasoning:</strong> MIS18A was falsely rejected despite nuclear evidence. The protein has sufficient nuclear localization annotations to merit evaluation. The literature count (17 strict) provides excellent novelty. Reopening is justified by the combination of nuclear evidence and functional potential.</p>
+<p><strong>Recommended next steps:</strong> 1. Confirm MIS18A nuclear localization by immunofluorescence or subcellular fractionation. 2. Screen for MIS18A binding/regulation at TE loci (ChIP-seq or CUT&amp;RUN targeting TEs). 3. Investigate MIS18A expression in contexts where TEs are active (development, cancer, stress). 4. Determine whether MIS18A loss/gain affects TE expression (RNA-seq with TE quantification).</p>
+<hr>
+<h3>Manual Review Note</h3>
+<p>*Reviewer: Automated re-evaluation system (2026-06-04)* *Status: FALSE REJECTION CONFIRMED – gene reopened*</p>
+<p>MIS18A encodes Protein Mis18-alpha, a 233-amino acid 25.9 kDa protein. HPA localizes MIS18A to Nucleoplasm (Approved reliability). UniProt annotates nuclear localization. The protein functions primarily in: Required for recruitment of CENPA to centromeres and normal chromosome segregation during mitosis. The false rejection appears to have resulted from automated scoring that failed to adequately weight the nuclear evidence. With only 17 publications, MIS18A represents a highly novel target. The nuclear localization and functional profile make it a strong candidate for TE-regulatory investigation.</p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

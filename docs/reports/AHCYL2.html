@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AHCYL2 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>AHCYL2</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleus-cytoplasm</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 16</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleus-cytoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleus-cytoplasm/AHCYL2/AHCYL2-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;AHCYL2&quot; date: 2026-06-03 tags: [protein-scout, nuclear-protein, evaluation] status: scored ---</p>
+<h3>AHCYL2 核蛋白评估报告（重新评估）</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>AHCYL2 / KIAA0828</td></tr>
+<tr><td>蛋白大小</td><td>611 aa / 66.7 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q96HN2</td></tr>
+<tr><td>蛋白全名</td><td>Adenosylhomocysteinase 3</td></tr>
+<tr><td>子定位分类</td><td>nucleus-cytoplasm</td></tr>
+<tr><td>HPA IF 主定位</td><td>Cytosol</td></tr>
+<tr><td>HPA IF 附加定位</td><td>Nucleoplasm, Vesicles</td></tr>
+<tr><td>HPA Reliability</td><td>Approved</td></tr>
+<tr><td>评估日期</td><td>2026-06-03</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>权重</th><th>加权</th><th>摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>4/10</td><td>×4</td><td>16</td><td>HPA主定位Cytosol，Nucleoplasm为附加；UniProt注释Cytoplasm；核定位不主导</td></tr>
+<tr><td>蛋白大小</td><td>10/10</td><td>×1</td><td>10</td><td>611aa/66.7kDa，理想实验范围</td></tr>
+<tr><td>研究新颖性</td><td>10/10</td><td>×5</td><td>50</td><td>PubMed strict=19 (≤20→10)</td></tr>
+<tr><td>三维结构</td><td>8/10</td><td>×3</td><td>24</td><td>pLDDT=79.2；PDB 3GVP (X-ray 2.25A)</td></tr>
+<tr><td>调控结构域</td><td>8/10</td><td>×2</td><td>16</td><td>IPR000043 AdoHcyase + IPR015878 NAD binding + IPR036291 NAD(P)超家族；经典代谢酶折叠</td></tr>
+<tr><td>PPI网络</td><td>7/10</td><td>×3</td><td>21</td><td>AHCYL1(0.964实验), CBS(0.975), BHMT(0.975)；IntAct 15条含TRAF6/BAP1/CSNK1E</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>137/180</strong>**</td><td></td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>74.9/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>HPA (IF)</td><td>Cytosol (main), Nucleoplasm (additional), Vesicles (additional)</td><td>Approved</td></tr>
+<tr><td>UniProt</td><td>Cytoplasm (by similarity), Microsome (by similarity)</td><td></td></tr>
+<tr><td>GO-CC</td><td>GO:0005829 (cytosol, IBA), GO:0043005 (neuron projection, IEA)</td><td></td></tr>
+</tbody></table></div>
+<p>HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。HPA Approved 级别 IF 明确将 Cytosol 列为主定位，Nucleoplasm 为附加定位。蛋白主要在胞质中发挥功能，但有一定核分布。<strong>评分: 4/10</strong>。</p>
+<h5>3.2 蛋白大小评估</h5>
+<p>611 aa / 66.7 kDa。大小处于 200-800 aa 理想实验范围，足够包含完整酶活结构域，又不过大难以重组表达。<strong>评分: 10/10</strong>。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict_count</td><td>19</td></tr>
+<tr><td>PubMed symbol_only</td><td>29</td></tr>
+<tr><td>别名</td><td>KIAA0828</td></tr>
+<tr><td>主要方向</td><td>钠/碳酸氢盐共转运体调控、IRBIT家族信号、视网膜发育</td></tr>
+</tbody></table></div>
+<p><strong>评价</strong>: PubMed 仅 19 篇 (strict)，极度新颖。AHCYL2 属于 IRBIT 家族，调控 NBCe1-B 钠/碳酸氢盐共转运体活性。研究主要来自韩国团队。<strong>评分: 10/10</strong> (≤20篇)。</p>
+<p><strong>关键文献</strong>: 1. Park PW et al. (2016). &quot;Ahcyl2 upregulates NBCe1-B via multiple serine residues of the PEST domain-mediated association.&quot; *Korean J Physiol Pharmacol*. PMID: 27382360 — 核心功能文献 2. Campbell WA et al. (2023). &quot;Chromatin access regulates the formation of Müller glia-derived progenitor cells in the retina.&quot; *Glia*. PMID: 36971459 — 染色质可及性与AHCYL2 3. Liu Y et al. (2025). &quot;IRBITs, signaling molecules of great functional diversity.&quot; *Pflugers Arch*. PMID: 40445299 — IRBIT家族综述 4. Praus F et al. (2023). &quot;Panomics reveals patient individuality as the major driver of colorectal cancer progression.&quot; *J Transl Med*. PMID: 36691026 5. Yang C et al. (2023). &quot;The identification of metabolism-related subtypes and potential treatments for idiopathic pulmonary fibrosis.&quot; *Front Pharmacol*. PMID: 37274115</p>
+<h5>3.4 三维结构分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold 平均 pLDDT</td><td>79.2</td></tr>
+<tr><td>pLDDT &gt; 90 (Very High)</td><td>66.8%</td></tr>
+<tr><td>pLDDT 70-90 (High)</td><td>5.6%</td></tr>
+<tr><td>pLDDT 50-70 (Medium)</td><td>1.1%</td></tr>
+<tr><td>pLDDT &lt; 50 (Low)</td><td>26.5%</td></tr>
+<tr><td>有序区域 (pLDDT&gt;70)</td><td>72.4%</td></tr>
+<tr><td>AlphaFold 版本</td><td>v6</td></tr>
+<tr><td>实验结构 (PDB)</td><td>3GVP (X-ray, 2.25A, chains A/B/C/D=175-607)</td></tr>
+</tbody></table></div>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。PDB 3GVP 为截短体 X-ray 晶体结构 (2.25 A)，涵盖 175-607 位残基（约占全长 70%），提供可靠实验结构信息。AlphaFold pLDDT 79.2，26.5% 无序区域可能位于 N 端。<strong>评分: 8/10</strong>。</p>
+<h5>3.5 结构域分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>结构域</th></tr></thead><tbody>
+<tr><td>InterPro</td><td>IPR000043 (Adenosylhomocysteinase); IPR015878 (S-adenosyl-L-homocysteine hydrolase, NAD binding domain); IPR036291 (NAD(P)-binding domain superfamily); IPR042172 (Adenosylhomocysteinase, eukaryotic/archaeal); IPR020082 (S-adenosyl-L-homocysteine hydrolase, conserved site)</td></tr>
+<tr><td>Pfam</td><td>PF00670 (S-adenosyl-L-homocysteine hydrolase, NAD binding domain); PF05221 (Adenosylhomocysteinase)</td></tr>
+</tbody></table></div>
+<p>AHCYL2 为 S-腺苷同型半胱氨酸水解酶家族成员 (AHCY-like 2)，含经典的双结构域折叠 (NAD binding + catalytic domain)。虽为代谢酶，AHCYL2 与同家族 AHCYL1 (IRBIT) 一样具有非酶信号功能——通过 PEST 结构域介导 NBCe1-B 调控。NAD 结合域与代谢和信号双重功能相关。<strong>评分: 8/10</strong>。</p>
+<h5>3.6 PPI 网络</h5>
+<p><strong>STRING 预测互作</strong> (combined score &gt;0.4, top 10):</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>实验证据</th><th>功能类别</th></tr></thead><tbody>
+<tr><td>BHMT</td><td>0.975</td><td>0</td><td>同型半胱氨酸代谢</td></tr>
+<tr><td>CBS</td><td>0.975</td><td>0.07</td><td>转硫途径</td></tr>
+<tr><td>BHMT2</td><td>0.973</td><td>0</td><td>甜菜碱-同型半胱氨酸甲基转移酶</td></tr>
+<tr><td>MTR</td><td>0.972</td><td>0</td><td>甲硫氨酸合成酶</td></tr>
+<tr><td>CTH</td><td>0.971</td><td>0.069</td><td>半胱氨酸代谢</td></tr>
+<tr><td>AHCYL1</td><td>0.964</td><td>0.651</td><td>IRBIT家族，实验互作强</td></tr>
+<tr><td>AHCY</td><td>0.921</td><td>0.208</td><td>经典AdoHcyase，实验互作</td></tr>
+<tr><td>KYAT1</td><td>0.920</td><td>0</td><td>犬尿氨酸转氨酶</td></tr>
+<tr><td>DNMT1</td><td>0.919</td><td>0</td><td>DNA甲基转移酶</td></tr>
+<tr><td>DNMT3B</td><td>0.913</td><td>0</td><td>DNA甲基转移酶</td></tr>
+</tbody></table></div>
+<p><strong>实验验证互作</strong> (IntAct):</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>方法</th><th>PMID</th></tr></thead><tbody>
+<tr><td>TRAF6</td><td>anti bait co-IP</td><td>17353931</td></tr>
+<tr><td>CSNK1E</td><td>TAP</td><td>23455922</td></tr>
+<tr><td>CLK4</td><td>TAP</td><td>23602568</td></tr>
+<tr><td>BAP1</td><td>anti tag co-IP</td><td>19615732</td></tr>
+<tr><td>SLX4</td><td>anti tag co-IP</td><td>19596235</td></tr>
+<tr><td>FAM13A</td><td>anti tag co-IP</td><td>32203420</td></tr>
+<tr><td>EZR</td><td>BioID</td><td>29568061</td></tr>
+<tr><td>TGOLN2</td><td>BioID</td><td>29568061</td></tr>
+</tbody></table></div>
+<p><strong>PPI 互证分析</strong>:</p>
+<ul><li>AHCYL1 实验互作 (0.651) 为最可靠伙伴，同属 IRBIT 信号家族</li><li>DNMT1/DNMT3B 的文本挖掘关联暗示潜在的表观遗传调控连接</li><li>TRAF6 和 CSNK1E 互作连接至 NF-kB 和 Wnt 信号通路</li><li>AHCY 代谢酶互作指向 S-腺苷甲硫氨酸循环与甲基化代谢的交叉</li></ul>
+<p><strong>评分: 7/10</strong> (IRBIT家族互作 + DNMT关联 + TRAF6/CSNK1E信号连接)</p>
+<h4>4. 总体评价</h4>
+<p><strong>推荐等级</strong>: ⭐⭐⭐ (3/5) — 76.1/100</p>
+<p><strong>核心优势</strong>: 1. 极度新颖: PubMed 仅 19 篇 2. IRBIT 家族成员，具有非酶信号功能 3. PDB 实验结构支撑 4. DNMT 关联暗示表观遗传交叉 5. 实验 PPI 含 TRAF6/CSNK1E 信号激酶</p>
+<p><strong>风险/不确定性</strong>: 1. HPA 主定位为 Cytosol，Nucleoplasm 仅为附加 2. 功能主要为胞质 NBCe1-B 调控 3. 核功能直接证据缺乏 4. 26.5% 无序区域可能影响结构研究</p>
+<p><strong>下一步建议</strong>:</p>
+<ul><li>[ ] 验证 AHCYL2 的核定位比例及其调控条件</li><li>[ ] 探索 AHCYL2-DNMT 关联的表观遗传意义</li><li>[ ] 分析 AHCYL1/AHCYL2 在 IRBIT 信号网络中的功能分工</li></ul>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q96HN2</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q96HN2</li><li>PDB: https://www.rcsb.org/structure/3GVP</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=AHCYL2%5BTitle/Abstract%5D</li><li>HPA: https://www.proteinatlas.org/ENSG00000158467-AHCYL2</li><li>STRING: https://string-db.org (API, species=9606)</li><li>IntAct: https://www.ebi.ac.uk/intact/</li></ul></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

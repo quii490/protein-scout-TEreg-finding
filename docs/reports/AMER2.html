@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AMER2 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>AMER2</h1><div class="report-meta"><span class="badge muted">rejected</span><span class="badge">rejected</span><span class="badge">Score: NA</span><span class="badge">Nuclear: NA</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/rejected.html">Category page</a></div><p class="source-path">Original detail path: detail/rejected/AMER2/AMER2-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;AMER2&quot; date: 2026-06-03 tags: [protein-scout, rejected, evaluation] status: rejected ---</p>
+<h3>AMER2 -- 评估报告（REJECTED）</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名</td><td>AMER2</td></tr>
+<tr><td>评估日期</td><td>2026-06-03</td></tr>
+<tr><td>数据状态</td><td>harvest packet缺失</td></tr>
+</tbody></table></div>
+<h4>2. 拒绝原因</h4>
+<p><strong>核心原因: 数据不可用。AMER2 的harvest packet JSON文件在 protein_data/harvest_packets/ 目录中不存在，无法从自动化pipeline获取UniProt、AlphaFold、PubMed、STRING、IntAct、HPA等必需数据库信息。</strong></p>
+<p><strong>备注</strong>: AMER2 (APC membrane recruitment protein 2) 是Wnt信号通路的膜招募蛋白，已知功能定位于质膜和细胞质，参与β-catenin降解复合体的膜招募。该蛋白不太可能具有核定位功能，理论上不适合作为核蛋白研究目标。</p>
+<h4>3. 数据获取状态</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>数据库</th><th>状态</th><th>说明</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>不可用</td><td>harvest packet缺失，无accession、序列长度、功能注释、亚细胞定位</td></tr>
+<tr><td>AlphaFold</td><td>不可用</td><td>harvest packet缺失，无pLDDT统计、PAE图像、PDB文件</td></tr>
+<tr><td>PubMed</td><td>不可用</td><td>harvest packet缺失，无文献计数、关键论文列表</td></tr>
+<tr><td>STRING</td><td>不可用</td><td>harvest packet缺失，无蛋白互作网络数据</td></tr>
+<tr><td>IntAct</td><td>不可用</td><td>harvest packet缺失，无实验验证互作记录</td></tr>
+<tr><td>HPA</td><td>不可用</td><td>harvest packet缺失，无免疫荧光定位、可靠性评分</td></tr>
+</tbody></table></div>
+<h4>4. 影响分析</h4>
+<p>缺乏harvest packet意味着无法进行以下六维核心评估:</p>
+<div class="table-wrap"><table>
+<thead><tr><th>评估维度</th><th>受影响的数据点</th><th>影响程度</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>HPA IF定位、UniProt Subcellular Location、GO Cellular Component</td><td>完全无法评估</td></tr>
+<tr><td>蛋白大小</td><td>氨基酸序列长度、分子量</td><td>完全无法评估</td></tr>
+<tr><td>研究新颖性</td><td>PubMed strict/broad文献计数</td><td>完全无法评估</td></tr>
+<tr><td>三维结构</td><td>AlphaFold pLDDT、PDB实验结构</td><td>完全无法评估</td></tr>
+<tr><td>调控结构域</td><td>InterPro/Pfam结构域注释</td><td>完全无法评估</td></tr>
+<tr><td>PPI网络</td><td>STRING/IntAct/UniProt互作数据</td><td>完全无法评估</td></tr>
+</tbody></table></div>
+<h4>5. 可能原因分析</h4>
+<p>1. <strong>基因名问题</strong>: 基因符号可能不是当前HGNC官方符号，或存在别名未被识别 2. <strong>数据库覆盖</strong>: 该基因产物可能未被UniProt review（如TrEMBL条目），或为predicted protein 3. <strong>Pipeline覆盖</strong>: harvest pipeline可能未处理该基因（如批次遗漏、API限制） 4. <strong>产物类型</strong>: 该基因可能为假基因（pseudogene）、非编码RNA、或未充分注释的阅读框 5. <strong>文件清理</strong>: packet文件可能被误删除或移动到其他位置</p>
+<h4>6. 补救建议</h4>
+<p>1. 确认 AMER2 的当前HGNC官方符号，如有变更重新运行harvest 2. 手动检查 UniProt (https://www.uniprot.org) 和 GeneCards (https://www.genecards.org) 确认基因存在性 3. 如基因确实存在且有研究价值，手动创建harvest packet或使用交互式工具逐数据库查询 4. 如果确认该基因无数据库记录，将其标记为不适合当前研究目标 5. 对于已知功能定位于膜/胞质的基因（如AMER家族），可基于文献知识直接判定为不符合核蛋白标准</p>
+<h4>7. 评估结论</h4>
+<p>AMER2 因harvest packet数据缺失，无法完成标准六维蛋白评估。在获得完整数据之前，<strong>维持拒绝状态</strong>。如后续补充packet数据或确认该基因的数据库记录状态，可重新进行完整评估。</p>
+<p>&lt;div class=&quot;missing-image&quot;&gt;Missing local image: &lt;code&gt;Projects/TEreg-finding/protein-interested/detail/rejected/AMER2/AMER2-PAE.png&lt;/code&gt;&lt;/div&gt;</p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

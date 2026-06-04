@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SPATA18 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>SPATA18</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 7</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/SPATA18/SPATA18-evaluation.md</p></section><article class="report-body"><h2>SPATA18 – Critical False-Rejection Reevaluation Report</h2>
+<p><strong>Gene:</strong> SPATA18 (Spermatogenesis-associated protein 18) / MIEAP (Mitochondria-eating protein) <strong>UniProt Accession:</strong> Q8TC71 <strong>Protein Name:</strong> Mitochondria-eating protein <strong>Length:</strong> 538 aa | <strong>Mass:</strong> 61.1 kDa <strong>Aliases:</strong> MIEAP <strong>Report Date:</strong> 2026-06-04 <strong>Review Stage:</strong> W4 Batch 1 – CRITICAL REOPEN</p>
+<hr>
+<h3>/180 Scoring Table</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Max</th><th>Score</th><th>Rationale</th></tr></thead><tbody>
+<tr><td>1. Nuclear Localization</td><td>30</td><td>12</td><td>HPA: Mitochondria (main), Nucleoplasm and Cytosol (additional). Nucleoplasm is an ADDITIONAL (minor) location. UniProt: Exclusively cytoplasmic/mitochondrial (cytosol, mitochondrial outer membrane, mitochondrial matrix). No nuclear localization in UniProt. GO-CC: nucleoplasm (GO:0005654, IDA:HPA) – direct assay from HPA IF. This is the only nuclear GO annotation among 7 total. The primary localization is mitochondrial and cytoplasmic. The nucleoplasm signal likely represents a minor fraction or detection in specific cell types.</td></tr>
+<tr><td>2. Protein Size</td><td>10</td><td>6</td><td>538 aa / 61.1 kDa – moderate-large size. Deduction for scale.</td></tr>
+<tr><td>3. Research Novelty</td><td>10</td><td>8</td><td>PubMed strict: 30 publications. Low-moderate publication count. Novelty still high but above the ≤20 threshold for full marks.</td></tr>
+<tr><td>4. 3D Structure</td><td>30</td><td>18</td><td>AlphaFold mean pLDDT: 75.4. Distribution: 39.4% &gt;90, 28.4% 70-90, 11.7% 50-70, 20.4% &lt;50. Moderate-good prediction quality. Nearly 40% very high confidence, but 20% is very low confidence (likely disordered). No experimental PDB structures.</td></tr>
+<tr><td>5. Regulatory Domains</td><td>50</td><td>10</td><td>IPR026169 (SPATA18 family) / PF16026 (DUF4795). The domains are uncharacterized (DUF = Domain of Unknown Function). The protein&#x27;s established function is as a mitochondrial quality control factor (mitochondria-eating protein, MIEAP). It mediates the repair or degradation of unhealthy mitochondria in response to damage (PubMed:21264221, PubMed:21264228). Regulates mitophagy by interacting with BNIP3 and BNIP3L (mitophagy receptors). Also designated as a p53/p63 transcriptional target (PMID:21300779), connecting it to the p53 tumor suppressor pathway. However, the protein itself is not a transcription factor – it is a p53 target gene. No known DNA-binding, chromatin, or direct transcriptional regulatory domains.</td></tr>
+<tr><td>6. PPI Network</td><td>50</td><td>22</td><td>STRING: 15 partners. SGCB (0.79), BNIP3L (0.747), BNIP3 (0.628), ATG5 (0.535), MAP1LC3B (0.498). Network is dominated by mitochondrial/autophagy proteins (BNIP3, BNIP3L are mitophagy receptors; ATG5 and MAP1LC3B are core autophagy machinery). ATG9A (0.513) is an autophagy transmembrane protein. IntAct: 15 interactors including LRIF1 (nuclear receptor interacting factor, two-hybrid), PIBF1 (progesterone-induced blocking factor, two-hybrid), AIMP2 (aminoacyl-tRNA synthetase complex-interacting multifunctional protein 2, two-hybrid), GOLGA2 (golgin A2, two-hybrid). LRIF1 is the most interesting: it interacts with nuclear receptors, is involved in chromatin organization, and localizes to the nucleus. However, this is a two-hybrid hit only. AIMP2 has a secondary nuclear function in p53 activation (forms a complex with p53 after DNA damage).</td></tr>
+<tr><td><strong>TOTAL</strong></td><td><strong>180</strong></td><td><strong>76</strong></td><td></td></tr>
+</tbody></table></div>
+<hr>
+<h3>Nuclear Evidence Section</h3>
+<h4>HPA (Human Protein Atlas)</h4>
+<ul><li><strong>Status:</strong> hpa_localization_available</li><li><strong>Reliability (IF):</strong> Supported</li><li><strong>Main Location:</strong> Mitochondria</li><li><strong>Additional Locations:</strong> Nucleoplasm, Cytosol</li><li><strong>Key Finding:</strong> HPA main localization is mitochondrial. Nucleoplasm is an ADDITIONAL (minor) location. The mitochondrial signal is dominant, consistent with the protein&#x27;s established function as MIEAP (mitochondria-eating protein). The nucleoplasm detection is secondary and may represent a small fraction of protein or detection in specific cell contexts (e.g., upon stress).</li></ul>
+<p><strong>Interpretation note:</strong> Detection of nucleoplasm as an additional location could reflect: (1) a genuine minor nuclear pool with distinct function, (2) detection of newly synthesized protein before mitochondrial import, or (3) protein released from damaged mitochondria during HPA sample preparation. The mitochondrial-dominant pattern makes the first interpretation most plausible, but the functional significance is unknown.</p>
+<h4>UniProt Subcellular Location</h4>
+<ul><li><strong>Cytoplasm, cytosol</strong> – Listed multiple times, likely reflecting different conditions (inactive and active states).</li><li><strong>Mitochondrion outer membrane</strong> – Localizes to the outer membrane for mitophagy initiation.</li><li><strong>Mitochondrion matrix</strong> – Can translocate to the mitochondrial matrix.</li><li><strong>Note:</strong> No nuclear localization in UniProt subcellular locations.</li></ul>
+<h4>GO Cellular Component (GO-CC)</h4>
+<ul><li><strong>GO:0005739 (mitochondrion)</strong> – Evidence: IDA:HPA – direct assay.</li><li><strong>GO:0005759 (mitochondrial matrix)</strong> – Evidence: IDA:UniProtKB – direct assay.</li><li><strong>GO:0005741 (mitochondrial outer membrane)</strong> – Evidence: IDA:UniProtKB – direct assay.</li><li><strong>GO:0005737 (cytoplasm)</strong> – Evidence: IDA:UniProtKB – direct assay.</li><li><strong>GO:0005829 (cytosol)</strong> – Evidence: IDA:HPA – direct assay.</li><li><strong>GO:0005654 (nucleoplasm)</strong> – Evidence: IDA:HPA – direct assay. The only nuclear annotation.</li><li><strong>GO:0043231 (intracellular membrane-bounded organelle)</strong> – Evidence: IDA:UniProtKB.</li></ul>
+<h4>Functional Nuclear Context</h4>
+<ul><li><strong>p53 Target Gene:</strong> SPATA18/MIEAP is a direct transcriptional target of p53 and p63 (PMID:21300779). The p53 binding site is in the SPATA18 promoter. When p53 is activated by DNA damage, SPATA18 is transcriptionally upregulated. This links SPATA18 to the nuclear p53 pathway, but SPATA18 is the target (output), not the regulator (input).</li><li><strong>Potential Nuclear Role:</strong> AIMP2 (interactor by two-hybrid) has a nuclear function as a p53 activator. AIMP2 translocates to the nucleus upon DNA damage and directly interacts with p53 to prevent MDM2-mediated degradation. This connection could place SPATA18 in a feedback loop: p53 activates SPATA18 transcription; SPATA18 protein may interact with AIMP2; AIMP2 feeds back to stabilize p53. However, this is speculative and based on weak two-hybrid evidence.</li><li><strong>LRIF1 Interaction:</strong> LRIF1 (ligand-dependent nuclear receptor interacting factor 1) is a nuclear protein that interacts with nuclear hormone receptors and is involved in chromatin organization. Two-hybrid only.</li></ul>
+<p><strong>Summary:</strong> SPATA18 has weak nuclear evidence. HPA shows nucleoplasm as an ADDITIONAL (minor) location. UniProt lists no nuclear localization. Only 1 of 7 GO-CC annotations is nuclear. The primary localization and function are mitochondrial (mitophagy). The p53 target gene connection is real but positions SPATA18 as downstream of nuclear signaling, not as a nuclear regulator. Nuclear score: 12/30 – moderate, given the secondary nucleoplasm detection and the absence of dedicated nuclear annotations.</p>
+<hr>
+<h3>PubMed Evidence</h3>
+<h4>Literature Metrics</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Query Type</th><th>Count</th><th>Query String</th></tr></thead><tbody>
+<tr><td>Strict (Title/Abstract)</td><td>30</td><td><code>&quot;SPATA18&quot;[Title/Abstract] AND (gene OR protein OR hydrolase)</code></td></tr>
+<tr><td>Symbol Only (Title/Abstract)</td><td>37</td><td><code>&quot;SPATA18&quot;[Title/Abstract]</code></td></tr>
+<tr><td>Broad (All Fields)</td><td>53</td><td><code>&quot;SPATA18&quot;</code></td></tr>
+</tbody></table></div>
+<p><strong>Alias Note:</strong> Alias MIEAP observed but not used for scoring. Alias MIEAP (mitochondria-eating protein) is commonly used in the mitochondrial/mitophagy literature.</p>
+<h4>Key Papers (with PMIDs)</h4>
+<p>1. <strong>PMID:21300779</strong> – Bornstein C, et al. (2011). &quot;SPATA18, a spermatogenesis-associated gene, is a novel transcriptional target of p53 and p63.&quot; – Establishes SPATA18 as a p53/p63 target gene, linking it to the DNA damage response pathway. 2. <strong>PMID:21264221</strong> – Kitamura N, et al. (2011). &quot;Mieap, a p53-inducible protein, controls mitochondrial quality by repairing or eliminating unhealthy mitochondria.&quot; – Primary characterization of MIEAP/SPATA18 function as a mitochondrial quality control factor. 3. <strong>PMID:21264228</strong> – Nakamura Y, et al. (2011). &quot;BNIP3 and NIX mediate Mieap-induced accumulation of lysosomal proteins within mitochondria.&quot; – Mechanism of MIEAP-mediated mitophagy through BNIP3/BNIP3L. 4. <strong>PMID:36751118</strong> – High SPATA18 Expression and its Diagnostic and Prognostic Value in Clear Cell Renal Cell Carcinoma. Cancer biomarker study. 5. <strong>PMID:38830862</strong> – Analysis of human neuronal cells carrying ASTN2 deletion – SPATA18 among altered genes.</p>
+<h4>Literature Assessment</h4>
+<ul><li><strong>Total publications:</strong> Low-moderate (30 strict, 53 broad). Focused but not extensive literature.</li><li><strong>Thematic focus:</strong> Dominated by mitochondrial biology (mitophagy, mitochondrial quality control). Secondary cancer biomarker literature (SPATA18 as a p53 target with possible tumor suppressor function).</li><li><strong>Key functional theme:</strong> SPATA18/MIEAP is a mitochondrial quality control protein. It functions at mitochondria to either repair damaged mitochondria or target them for lysosomal degradation (mitophagy). The mechanism involves BNIP3 and BNIP3L (mitophagy receptors) and lysosomal proteins.</li><li><strong>p53 connection:</strong> SPATA18 is transcriptionally regulated by p53, making it part of the p53-mediated DNA damage response. This is a nuclear-to-mitochondrial signaling axis: nuclear p53 activates SPATA18 transcription, the protein goes to mitochondria to control quality.</li><li><strong>No publications on TE regulation.</strong></li><li><strong>Novelty score:</strong> 8/10 (31-50 publications range).</li></ul>
+<hr>
+<h3>AlphaFold / PDB / PAE</h3>
+<h4>AlphaFold Predicted Structure</h4>
+<ul><li><strong>Entry:</strong> AF-Q8TC71-F1, version 6</li><li><strong>Mean pLDDT:</strong> 75.4</li><li><strong>pLDDT Distribution:</strong></li><li>&gt;90 (very high confidence): 39.4%</li><li>70-90 (confident): 28.4%</li><li>50-70 (low confidence): 11.7%</li><li>&lt;50 (very low confidence): 20.4%</li><li><strong>Assessment:</strong> Moderate-good prediction with significant disorder (20.4% very low confidence). The structured regions likely form the core mitochondrial interaction domains, while disordered regions may mediate dynamic localization or protein-protein interactions.</li></ul>
+<h4>Experimental PDB Structures</h4>
+<ul><li><strong>None available.</strong></li></ul>
+<h4>Structural Assessment</h4>
+<ul><li>The structure is partially well-folded (67.8% &gt;70 confidence) but contains substantial disordered regions (20.4% &lt;50). This is consistent with a mitochondrial quality control protein that needs to interact with multiple partners (mitochondrial membranes, BNIP3, ATG proteins, lysosomal proteins).</li><li>The DUF4795 domain (PF16026) is functionally uncharacterized but likely mediates protein-protein interactions in the mitophagy pathway.</li><li><strong>Score:</strong> 18/30 – Moderate prediction quality with no experimental structure. The disorder is functionally consistent with the dynamic localization and multi-partner interactions.</li></ul>
+<hr>
+<h3>PPI Network</h3>
+<h4>STRING (Functional Partners)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Combined Score</th><th>Experimental</th><th>Textmining</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>SGCB</td><td>0.79</td><td>0</td><td>0.79</td><td>Sarcoglycan beta, muscle</td></tr>
+<tr><td>BNIP3L</td><td>0.747</td><td>0</td><td>0.747</td><td>BCL2 interacting protein 3 like, mitophagy receptor</td></tr>
+<tr><td>BNIP3</td><td>0.628</td><td>0</td><td>0.628</td><td>BCL2 interacting protein 3, mitophagy receptor</td></tr>
+<tr><td>SPATA45</td><td>0.626</td><td>0</td><td>0.57</td><td>Spermatogenesis-associated 45</td></tr>
+<tr><td>SPATA19</td><td>0.607</td><td>0</td><td>0.569</td><td>Spermatogenesis-associated 19</td></tr>
+<tr><td>ATG5</td><td>0.535</td><td>0</td><td>0.36</td><td>Autophagy protein 5</td></tr>
+<tr><td>MAP1LC3B</td><td>0.498</td><td>0</td><td>0.319</td><td>LC3B, autophagosome marker</td></tr>
+<tr><td>BNIP1</td><td>0.494</td><td>0</td><td>0.454</td><td>BCL2 interacting protein 1</td></tr>
+</tbody></table></div>
+<p><strong>Note:</strong> All STRING scores are textmining/co-occurrence based. No experimental confidence scores.</p>
+<h4>IntAct</h4>
+<p>Total: 15 validated interactors</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Method</th><th>PMID</th><th>Interaction Type</th></tr></thead><tbody>
+<tr><td>PIBF1</td><td>two hybrid array</td><td>PMID:25416956</td><td>physical association</td></tr>
+<tr><td>AIMP2</td><td>two hybrid array</td><td>PMID:25416956</td><td>physical association</td></tr>
+<tr><td>GOLGA2</td><td>two hybrid array</td><td>PMID:25416956</td><td>physical association</td></tr>
+<tr><td>LRIF1</td><td>validated two hybrid</td><td>PMID:32296183</td><td>physical association</td></tr>
+<tr><td>ENSP00000295213.4</td><td>two hybrid prey pooling</td><td>PMID:32296183</td><td>physical association</td></tr>
+</tbody></table></div>
+<h4>PPI Network Assessment</h4>
+<ul><li><strong>Mitochondrial/autophagy context:</strong> The literature-established interactions (BNIP3, BNIP3L) are supported by functional studies (PMID:21264228) but show no STRING experimental scores – indicating the functional studies are not captured in STRING&#x27;s interaction databases. The IntAct network (all two-hybrid) does not include these functionally validated interactions, revealing a gap between functional literature and interaction databases for this protein.</li><li><strong>LRIF1:</strong> The most nuclear-relevant interactor. LRIF1 is a nuclear receptor co-factor involved in chromatin organization and nuclear receptor signaling. Validated two-hybrid (PMID:32296183). This is a weak but interesting connection to nuclear chromatin function.</li><li><strong>AIMP2:</strong> Aminoacyl-tRNA synthetase complex-interacting multifunctional protein 2. Has a well-characterized nuclear function as a p53 activator (translocates to nucleus upon DNA damage, binds p53, prevents MDM2-mediated degradation). Two-hybrid only for SPATA18 interaction. Potentially forms a p53-SPATA18-AIMP2 regulatory circuit.</li><li><strong>Network weakness:</strong> All validated interactors are from large-scale two-hybrid screens. The functionally important interactions (BNIP3, BNIP3L, ATG5) are not captured in IntAct. The interaction data is incomplete and biased toward two-hybrid-detectable interactions.</li><li><strong>Score:</strong> 22/50 – The literature-established mitochondrial interactions are well-supported functionally but poorly captured in databases. The LRIF1 and AIMP2 connections are intriguing but low-confidence (two-hybrid only).</li></ul>
+<hr>
+<h3>FALSE REJECTION RECHECK</h3>
+<h4>Original Rejection Reason (inferred)</h4>
+<p>SPATA18 was likely auto-rejected because: 1. Primary localization is mitochondrial, not nuclear. 2. UniProt lists no nuclear localization. 3. The protein&#x27;s known function (mitophagy) has no connection to nuclear biology or TE regulation. 4. Nuclear detection (HPA additional location) is secondary.</p>
+<h4>Recheck Analysis</h4>
+<p>1. <strong>Nuclear Evidence:</strong> HPA shows nucleoplasm as an ADDITIONAL (minor) location. UniProt lists NO nuclear localization. Only 1 of 7 GO-CC annotations is nuclear. The nuclear signal is real but minor. 2. <strong>Functional Context:</strong> SPATA18/MIEAP is a mitochondrial quality control protein. Its established function is at mitochondria (repair/degrade damaged mitochondria). This is a cytoplasmic/mitochondrial function with no direct nuclear component. 3. <strong>p53 Connection:</strong> SPATA18 is a p53 transcriptional target (promoter contains p53 binding site). This places SPATA18 in the p53 pathway but as a target (output), not a regulator (input). p53 regulates SPATA18 expression; SPATA18 does not regulate p53 or nuclear events. 4. <strong>AIMP2-LRIF1 Connections:</strong> Two-hybrid interactions with nuclear proteins (AIMP2, LRIF1) are weak evidence that does not override the primary mitochondrial function and localization.</p>
+<h4>Verdict on False Rejection</h4>
+<p><strong>The original rejection appears CORRECT.</strong> SPATA18 is primarily a mitochondrial protein with minor nucleoplasm detection. The established function is mitochondrial quality control (mitophagy). The p53 connection positions SPATA18 downstream of nuclear signaling, not as a nuclear regulator. The weak nuclear interactor data (AIMP2, LRIF1, two-hybrid only) does not establish a nuclear function.</p>
+<p><strong>This gene should remain rejected.</strong> SPATA18 is a valuable mitochondrial/mitophagy protein but has no plausible role in TE regulation.</p>
+<hr>
+<h3>TE-Regulator Relevance Reasoning</h3>
+<p>1. <strong>Minor Nuclear Detection:</strong> HPA nucleoplasm is additional, not main. The protein is primarily mitochondrial. For TE regulation, robust nuclear localization is a prerequisite, and SPATA18 does not meet this threshold.</p>
+<p>2. <strong>Mitochondrial Function:</strong> The established function is mitochondrial quality control (mitochondria-eating protein). Mitophagy, while important for cellular homeostasis, is a cytoplasmic process with no direct connection to TE regulation.</p>
+<p>3. <strong>p53 Pathway Position:</strong> SPATA18 is a p53 target gene, not a p53 regulator. The protein is induced by p53 and acts at mitochondria. This is a downstream effector role. While p53 is relevant to TE regulation (through DNA damage response and apoptosis), SPATA18 is far downstream and operates in the wrong compartment (mitochondria).</p>
+<p>4. <strong>Weak Nuclear Interactions:</strong> AIMP2 (p53 activator) and LRIF1 (nuclear receptor co-factor) interactions are two-hybrid only and do not establish a nuclear function for SPATA18. These may be false positives from large-scale screens.</p>
+<p>5. <strong>No Regulatory Domains:</strong> The DUF4795 domain is functionally uncharacterized. No known DNA-binding, chromatin, or transcriptional domains.</p>
+<p><strong>Assessment:</strong> SPATA18 is a LOW interest candidate for TE regulation. The mitochondrial/mitophagy function, minor nuclear localization, and downstream position in the p53 pathway all argue against a nuclear regulatory role.</p>
+<hr>
+<h3>Final Decision</h3>
+<p><strong>DECISION: REJECTION CONFIRMED – mitochondrial protein with minor nuclear detection</strong></p>
+<p><strong>Reasoning:</strong> SPATA18/MIEAP is a well-characterized mitochondrial quality control protein. The nucleoplasm detection is secondary (HPA additional location only). The protein&#x27;s function is at mitochondria (mitophagy), not in the nucleus. The p53 connection is as a target gene, not as a regulator. The weak two-hybrid interactions with nuclear proteins (AIMP2, LRIF1) cannot overturn the primary localization and functional evidence. SPATA18 has no credible connection to TE biology.</p>
+<p><strong>Score: 76/180</strong> – The score reflects weak nuclear evidence and a clearly non-nuclear primary function.</p>
+<p><strong>Flag for deletion</strong> – SPATA18 should not be reopened.</p>
+<hr>
+<h3>Manual Review Note</h3>
+<p>*Reviewer: W4 Batch 1 re-evaluation (2026-06-04)* *Status: REJECTION CONFIRMED – mitochondrial protein, correctly rejected*</p>
+<p>SPATA18 is an excellent mitochondrial protein with a clear and important function in mitochondrial quality control. It should not have been included in the false-rejection queue. The nuclear detection (HPA additional nucleoplasm) likely represents a minor soluble pool or pre-mitochondrial newly synthesized protein. The p53 target gene relationship is real and interesting for cancer biology, but SPATA18 is the effector that acts at mitochondria after being induced by nuclear p53. For a TE-regulatory screen, SPATA18 offers nothing: no nuclear function, no chromatin interaction, no transcriptional regulatory activity. Correctly rejected; should not be reopened.</p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PADI6 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>PADI6</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleus-cytoplasm</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 16</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleus-cytoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleus-cytoplasm/PADI6/PADI6-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;PADI6&quot; date: 2026-06-02 tags: [protein-scout, nucleus-cytoplasm, evaluation] status: scored ---</p>
+<h3>PADI6 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>PADI6 / PAD6</td></tr>
+<tr><td>蛋白全名</td><td>Inactive protein-arginine deiminase type-6</td></tr>
+<tr><td>蛋白大小</td><td>694 aa / 77.7 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q6TGC4</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>4/10</td><td>×4</td><td>16.0</td><td>Cytoplasm + Nucleus (ECO:0000250); GO nucleus IBA; HPA 无IF图像</td></tr>
+<tr><td>蛋白大小</td><td>10/10</td><td>×1</td><td>10.0</td><td>694 aa, 77.7 kDa, 处于理想范围</td></tr>
+<tr><td>研究新颖性</td><td>6/10</td><td>×5</td><td>30.0</td><td>PubMed strict=59, symbol_only=82, broad=91</td></tr>
+<tr><td>三维结构</td><td>8/10</td><td>×3</td><td>24.0</td><td>4 PDB (4DAT/4DAU/8QL0/9FMN, X-ray 1.40-2.44A) + AF pLDDT=85.7</td></tr>
+<tr><td>调控结构域</td><td>7/10</td><td>×2</td><td>14.0</td><td>10 domains (7 InterPro + 3 Pfam): PAD family, Cupredoxin</td></tr>
+<tr><td>PPI 网络</td><td>4/10</td><td>×3</td><td>12.0</td><td>IntAct 15 + STRING 15 + UniProt 4; SCMC相关+染色质调控因子</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>106/180</strong>**</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+1.0</td><td>PDB+AF 互证(+0.5); 多库结构域一致(+0.5)</td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>57.9/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/PADI6/PADI6-PAE.png</code></div></figure></p>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Cytoplasm (ECO:0000269); Cytoplasmic vesicle, secretory vesicle, Cortical granule (ECO:0000250); Nucleus (ECO:0000250)</td><td>混合证据</td></tr>
+<tr><td>GO-CC</td><td>cortical granule ISS; cytoplasm IDA; cytoplasmic lattice IDA; intermediate filament cytoskeleton IEA; nucleus IBA</td><td>实验+预测</td></tr>
+<tr><td>Protein Atlas (IF)</td><td>HPA 暂无数据，未获取到 IF 图像</td><td>未确认</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 状态</strong>: HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。. 核定位基于 UniProt + GO-CC，但 nucleus 证据为 ECO:0000250 (by similarity) 和 IBA (GO_Central)，非直接实验证据。主要定位在 cytoplasmic lattice (IDA)，是 oocyte 特异性结构。</p>
+<p><strong>结论</strong>: 细胞核+细胞质，核定位证据偏间接，以胞质为主。</p>
+<h5>3.2 结构与结构域</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold</td><td>AF-Q6TGC4-F1 (v6)</td></tr>
+<tr><td>平均 pLDDT</td><td>85.7</td></tr>
+<tr><td>pLDDT &gt;90 / 70-90 / 50-70 / &lt;50</td><td>55.0% / 30.7% / 11.2% / 3.0%</td></tr>
+<tr><td>PDB</td><td>4DAT (X-ray 1.40A, B=441-449), 4DAU (X-ray 2.00A, B=1-13), 8QL0 (X-ray 1.68A, A=2-694), 9FMN (X-ray 2.44A, A=1-694)</td></tr>
+</tbody></table></div>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>结构域</th></tr></thead><tbody>
+<tr><td>InterPro</td><td>IPR008972 (Cupredoxin), IPR004303 (PAD), IPR013530 (PAD_C), IPR036556 (PAD_central_sf), IPR013732 (PAD_N), IPR038685 (PAD_N_sf), IPR013733 (Prot_Arg_deaminase_cen_dom)</td></tr>
+<tr><td>Pfam</td><td>PF03068 (PAD), PF08527 (PAD_M), PF08526 (PAD_N)</td></tr>
+</tbody></table></div>
+<p><strong>评价</strong>: AF pLDDT 85.7 表示整体结构预测置信度高。4个X-ray PDB覆盖全长。PAD (peptidyl arginine deiminase) 家族结构域完整，但该蛋白因无法结合 Ca²⁺ 而失活。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict</td><td>59</td></tr>
+<tr><td>PubMed symbol_only</td><td>82</td></tr>
+<tr><td>PubMed broad</td><td>91</td></tr>
+</tbody></table></div>
+<p><strong>关键文献</strong>: 1. Jentoft IMA et al. (2023). &quot;Mammalian oocytes store proteins for the early embryo on cytoplasmic lattices.&quot; *Cell*. PMID: 37922900 2. Giaccari C et al. (2024). &quot;A maternal-effect Padi6 variant causes nuclear and cytoplasmic abnormalities in oocytes...&quot; *Genes Dev*. PMID: 38453481 3. Williams JPC &amp; Walport LJ (2023). &quot;PADI6: What we know about the elusive fifth member of the peptidyl arginine deiminase family.&quot; *Philos Trans R Soc Lond B Biol Sci*. PMID: 37778376 4. Liu S et al. (2026). &quot;Molecular basis of oocyte cytoplasmic lattice assembly.&quot; *Nature*. PMID: 41845018 5. Sang Q et al. (2021). &quot;Genetic factors as potential molecular markers of human oocyte and embryo quality.&quot; *J Assist Reprod Genet*. PMID: 33895934</p>
+<p><strong>评价</strong>: 研究集中在oocyte/early embryo cytoplasmic lattice，2024-2026有多篇高影响因子论文。新颖性中等。</p>
+<h5>3.4 PPI 网络</h5>
+<p><strong>实验验证互作</strong> (IntAct):</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>方法</th><th>PMID</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>ZNF526</td><td>two hybrid array</td><td>32296183</td><td>—</td></tr>
+<tr><td>DDIT4L</td><td>two hybrid prey pooling</td><td>32296183</td><td>—</td></tr>
+<tr><td>SUV39H1</td><td>validated two hybrid</td><td>32296183</td><td>H3K9 methyltransferase, chromatin</td></tr>
+<tr><td>KLHL2</td><td>validated two hybrid</td><td>32296183</td><td>—</td></tr>
+<tr><td>MTA3</td><td>anti tag coIP</td><td>26028330</td><td>NuRD complex, chromatin</td></tr>
+<tr><td>MN1</td><td>anti tag coIP</td><td>33961781</td><td>—</td></tr>
+<tr><td>EBF2</td><td>anti tag coIP</td><td>33961781</td><td>—</td></tr>
+<tr><td>UHRF1</td><td>anti tag coIP</td><td>33961781</td><td>DNA methylation, chromatin</td></tr>
+<tr><td>BRMS1</td><td>anti tag coIP</td><td>33961781</td><td>—</td></tr>
+<tr><td>KLHL28</td><td>anti tag coIP</td><td>33961781</td><td>—</td></tr>
+</tbody></table></div>
+<p><strong>STRING 预测互作</strong> (score &gt;0.4):</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>Experimental</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>OOEP</td><td>0.965</td><td>0</td><td>SCMC</td></tr>
+<tr><td>TLE6</td><td>0.950</td><td>0</td><td>SCMC</td></tr>
+<tr><td>SFN</td><td>0.904</td><td>0.900</td><td>SCMC</td></tr>
+<tr><td>NLRP5</td><td>0.873</td><td>0</td><td>SCMC</td></tr>
+<tr><td>KHDC3L</td><td>0.829</td><td>0</td><td>SCMC</td></tr>
+<tr><td>NLRP2</td><td>0.741</td><td>0</td><td>SCMC</td></tr>
+<tr><td>ZBED3</td><td>0.705</td><td>0</td><td>—</td></tr>
+<tr><td>H3C12</td><td>0.605</td><td>0</td><td>Histone, chromatin</td></tr>
+<tr><td>H3C13</td><td>0.604</td><td>0</td><td>Histone, chromatin</td></tr>
+<tr><td>ZAR1</td><td>0.590</td><td>0</td><td>oocyte</td></tr>
+</tbody></table></div>
+<p><strong>已知复合体</strong>: Subcortical Maternal Complex (SCMC) 关联 (OOEP, TLE6, NLRP5, KHDC3L)</p>
+<p><strong>评价</strong>: PPI 网络主要与 SCMC (subcortical maternal complex) 和 oocyte-specific factors 相关。IntAct 中有 SUV39H1 (H3K9 甲基转移酶)、UHRF1 (DNA 甲基化reader) 等染色质调控因子。整体调控相关性中等。</p>
+<h5>3.5 多库互证</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>来源</th><th>结果</th><th>一致性</th></tr></thead><tbody>
+<tr><td>三维结构</td><td>AlphaFold + PDB</td><td>4 PDB + AF 预测</td><td>一致</td></tr>
+<tr><td>结构域</td><td>UniProt/InterPro/Pfam</td><td>10 个</td><td>多库一致</td></tr>
+<tr><td>PPI 网络</td><td>STRING + IntAct + UniProt</td><td>多源</td><td>部分一致</td></tr>
+<tr><td>核定位</td><td>HPA/UniProt/GO</td><td>Nucleus + Cytoplasm</td><td>部分一致</td></tr>
+</tbody></table></div>
+<p><strong>互证加分明细</strong>: PDB+AF互证(+0.5), 多库结构域一致(+0.5), 总计 +1.0</p>
+<h4>4. 总体评价</h4>
+<p>PADI6 是 cytoplasmic lattice 的结构组分，在早期胚胎发育中起关键作用。蛋白本身无酶活性(PAD inactive)。核定位信号较弱(ECO:0000250 only)，主要定位在 oocyte cytoplasm/cortical granule/cytoplasmic lattice。SCMC 复合体关联和部分染色质调控因子互作(SUV39H1, UHRF1)提供一定调控潜力。4个X-ray PDB结构覆盖全长，结构信息丰富。</p>
+<p><strong>推荐</strong>: 中等优先级。核定位证据偏间接，但染色质调控因子 PPI 和完整结构值得关注。</p>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprot/Q6TGC4</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q6TGC4</li><li>PDB: 4DAT, 4DAU, 8QL0, 9FMN</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=PADI6</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000276747-PADI6 (HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。)</li></ul>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/PADI6/PADI6-PAE.png</code></div></figure></p>
+<h5>PPI 网络</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th></tr></thead><tbody>
+<tr><td>OOEP</td><td>STRING</td><td>0.965</td></tr>
+<tr><td>TLE6</td><td>STRING</td><td>0.95</td></tr>
+<tr><td>SFN</td><td>STRING</td><td>0.904</td></tr>
+<tr><td>NLRP5</td><td>STRING</td><td>0.873</td></tr>
+<tr><td>KHDC3L</td><td>STRING</td><td>0.829</td></tr>
+<tr><td>ZNF526</td><td>IntAct</td><td>psi-mi:&quot;MI:0397&quot;(two hybrid ar</td></tr>
+<tr><td>DDIT4L</td><td>IntAct</td><td>psi-mi:&quot;MI:1112&quot;(two hybrid pr</td></tr>
+<tr><td>SUV39H1</td><td>IntAct</td><td>psi-mi:&quot;MI:1356&quot;(validated two</td></tr>
+</tbody></table></div>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/PADI6/PADI6-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SNF8 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>SNF8</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 18</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/SNF8/SNF8-evaluation.md</p></section><article class="report-body"><h2>SNF8 -- Critical False-Rejection Reevaluation Report</h2>
+<p><strong>Gene:</strong> SNF8 (Vacuolar-sorting protein SNF8) <strong>UniProt Accession:</strong> Q96H20 <strong>Protein Name:</strong> Vacuolar-sorting protein SNF8 <strong>Length:</strong> 258 aa | <strong>Mass:</strong> 28.9 kDa <strong>Aliases:</strong> EAP30 <strong>Report Date:</strong> 2026-06-04 <strong>Review Stage:</strong> W3 Batch 1 -- CRITICAL REOPEN</p>
+<hr>
+<h3>/180 Scoring Table</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Max</th><th>Score</th><th>Rationale</th></tr></thead><tbody>
+<tr><td>1. Nuclear Localization</td><td>30</td><td>18</td><td>HPA main: Cytosol. Additional: Nucleoplasm. Reliability: Supported. UniProt: Cytoplasm, Endosome membrane, Nucleus (ECO:0000305), Late endosome membrane. GO-CC: nucleoplasm (IDA:HPA), nucleus (IDA:UniProtKB), cytoplasm (IDA:UniProtKB), endosome membrane (IDA:UniProtKB), ESCRT II complex (IDA:UniProtKB), transcription regulator complex (IDA:MGI). Nucleoplasm is ADDITIONAL, not primary. Nuclear annotation has ECO:0000305 (curator inference).</td></tr>
+<tr><td>2. Protein Size</td><td>10</td><td>10</td><td>258 aa / 28.9 kDa. Full marks.</td></tr>
+<tr><td>3. Research Novelty</td><td>10</td><td>10</td><td>PubMed strict: 20. Novelty rule: 1-50=10.</td></tr>
+<tr><td>4. 3D Structure</td><td>30</td><td>24</td><td>AlphaFold mean pLDDT: 84.9 (48.8% &gt;90, 36.4% 70-90, 12.8% 50-70, 1.9% &lt;50). PDB: 2ZME (X-ray, 2.90A, full-length), 3CUQ (X-ray, 2.61A, residues 25-258). Good AF and two X-ray structures.</td></tr>
+<tr><td>5. Regulatory Domains</td><td>50</td><td>20</td><td>IPR016689, IPR040608, IPR036388, IPR036390. PF04157. FUNCTION: ESCRT-II complex component for MVB sorting. ALSO: may play a role in transcription regulation by participating in derepression of transcription by RNA polymerase II, possibly via interaction with ELL (PubMed:). ESCRT-II components have moonlighting nuclear functions in transcription. ELL is a transcription elongation factor.</td></tr>
+<tr><td>6. PPI Network</td><td>50</td><td>30</td><td>STRING: 15 partners. VPS25 (0.999), VPS36 (0.999), CHMP6 (0.999), VPS28 (0.992). ELL (0.971 experimental). IntAct: 15 interactors. VPS25, VPS36, VPS20, NIF3L1, DVL2, ADORA1. UniProt: 29 interactors including ELL, KDM1A (LSD1 histone demethylase!), POLR2A (RNA Pol II), PRMT6 (arginine methyltransferase), SMARCD1 (SWI/SNF chromatin remodeler), MCM2.</td></tr>
+<tr><td><strong>TOTAL</strong></td><td><strong>180</strong></td><td><strong>112</strong></td><td></td></tr>
+</tbody></table></div>
+<hr>
+<h3>Nuclear Evidence Section</h3>
+<h4>HPA (Human Protein Atlas)</h4>
+<ul><li><strong>Status:</strong> hpa_localization_available</li><li><strong>Reliability (IF):</strong> Supported</li><li><strong>Main Location:</strong> Cytosol</li><li><strong>Additional:</strong> Nucleoplasm</li><li><strong>IF Image Status:</strong> if_display_images_available (4 blue_red_green images)</li><li><strong>Key Finding:</strong> Cytosol is main, nucleoplasm is additional. ESCRT-II is primarily endosomal but has documented nuclear moonlighting.</li></ul>
+<h4>UniProt Subcellular Location</h4>
+<ul><li><strong>Cytoplasm</strong> -- no evidence code</li><li><strong>Endosome membrane</strong> -- no evidence code</li><li><strong>Nucleus</strong> -- ECO:0000305 (curator inference)</li><li><strong>Late endosome membrane</strong> -- no evidence code</li></ul>
+<h4>GO Cellular Component (GO-CC)</h4>
+<ul><li><strong>GO:0005654 (nucleoplasm)</strong> -- IDA:HPA</li><li><strong>GO:0005634 (nucleus)</strong> -- IDA:UniProtKB</li><li><strong>GO:0005737 (cytoplasm)</strong> -- IDA:UniProtKB</li><li><strong>GO:0000814 (ESCRT II complex)</strong> -- IDA:UniProtKB</li><li><strong>GO:0005667 (transcription regulator complex)</strong> -- IDA:MGI</li><li><strong>GO:0010008 (endosome membrane)</strong> -- IDA:UniProtKB</li></ul>
+<p><strong>Summary:</strong> SNF8 has dual localization: cytosolic/endosomal (ESCRT-II) and nuclear (transcription regulator complex). Nuclear/mucleoplasm evidence is from HPA and UniProt. The transcription regulator complex annotation (MGI) supports nuclear regulatory function. Nuclear score: 18/30 -- nucleus is secondary to endosomal function.</p>
+<hr>
+<h3>PubMed Evidence</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Query Type</th><th>Count</th></tr></thead><tbody>
+<tr><td>Strict (Title/Abstract)</td><td>20</td></tr>
+<tr><td>Broad (All Fields)</td><td>38</td></tr>
+</tbody></table></div>
+<p><strong>Novelty score: 10/10.</strong></p>
+<h4>Key Papers</h4>
+<p>1. <strong>PMID:32829877</strong> -- Han S et al. (2020). &quot;VPS-22/SNF8 regulates longevity via modulating the activity of DAF-16 in C. elegans.&quot; *Biochem Biophys Res Commun*. 2. <strong>PMID:30154260</strong> -- Holt S et al. (2018). &quot;Polygenic Analysis in Absence of Major Effector ATF1 Unveils Novel Components in Yeast Flavor Ester Biosynthesis.&quot; *mBio*. 3. <strong>PMID:7785322</strong> -- Yeghiayan P et al. (1995). &quot;Molecular analysis of the SNF8 gene of Saccharomyces cerevisiae.&quot; *Yeast*. 4. <strong>PMID:23171048</strong> -- Carrasquillo R et al. (2012). &quot;SNF8, a member of the ESCRT-II complex, interacts with TRPC6 and enhances its channel activity.&quot; *BMC Cell Biol*. 5. <strong>PMID:32255230</strong> -- Hoban K et al. (2020). &quot;ESCRT-dependent protein sorting is required for the viability of yeast clathrin-mediated endocytosis mutants.&quot; *Traffic*.</p>
+<p><strong>Assessment:</strong> SNF8 is primarily studied as an ESCRT-II component in endosomal sorting. The nuclear transcription role (via ELL interaction) is acknowledged but not the main research focus.</p>
+<hr>
+<h3>AlphaFold / PDB / PAE</h3>
+<h4>AlphaFold Predicted Structure</h4>
+<ul><li><strong>Entry:</strong> AF-Q96H20-F1, version 6</li><li><strong>mean pLDDT: 84.9</strong> (&gt;90: 48.8%, 70-90: 36.4%, 50-70: 12.8%, &lt;50: 1.9%)</li><li><strong>Assessment:</strong> Good confidence. Well-folded.</li></ul>
+<h4>Experimental PDB Structures</h4>
+<ul><li><strong>2 structures:</strong> 2ZME (X-ray, 2.90A, full length), 3CUQ (X-ray, 2.61A, residues 25-258)</li><li><strong>Assessment:</strong> Good experimental coverage with two X-ray structures at moderate resolution.</li></ul>
+<h4>PAE</h4>
+<ul><li>PAE image URL available.</li><li>PAE assessment pending image retrieval.</li></ul>
+<hr>
+<h3>PPI Network</h3>
+<h4>STRING (15 partners)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>Experimental</th><th>Function</th></tr></thead><tbody>
+<tr><td>VPS25</td><td>0.999</td><td>0.997</td><td>ESCRT-II subunit</td></tr>
+<tr><td>VPS36</td><td>0.999</td><td>0.999</td><td>ESCRT-II subunit</td></tr>
+<tr><td>CHMP6</td><td>0.999</td><td>0.954</td><td>ESCRT-III</td></tr>
+<tr><td>ELL</td><td>0.971</td><td>0.594</td><td>Transcription elongation factor</td></tr>
+</tbody></table></div>
+<h4>UniProt Interactions (key nuclear-relevant)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Experiments</th><th>Function</th></tr></thead><tbody>
+<tr><td>KDM1A</td><td>2</td><td>LSD1 -- histone H3K4 demethylase</td></tr>
+<tr><td>POLR2A</td><td>2</td><td>RNA Polymerase II largest subunit</td></tr>
+<tr><td>PRMT6</td><td>2</td><td>Protein arginine methyltransferase</td></tr>
+<tr><td>SMARCD1</td><td>3</td><td>SWI/SNF chromatin remodeler subunit</td></tr>
+<tr><td>MCM2</td><td>8</td><td>DNA replication licensing</td></tr>
+<tr><td>ELL</td><td>3</td><td>Transcription elongation factor</td></tr>
+<tr><td>STAU1</td><td>3</td><td>RNA-binding protein</td></tr>
+</tbody></table></div>
+<h4>PPI Network Assessment</h4>
+<ul><li>PRIMARY: ESCRT-II/MVB sorting (VPS25, VPS36, CHMP6, etc.)</li><li>SECONDARY (moonlighting): Nuclear transcription network -- ELL, KDM1A (LSD1), POLR2A, PRMT6, SMARCD1 (SWI/SNF), MCM2. These nuclear interactions are of moderate quality (2-8 experiments) but collectively suggest a real nuclear moonlighting function.</li></ul>
+<hr>
+<h3>FALSE REJECTION RECHECK</h3>
+<h4>Original Rejection Reason (inferred)</h4>
+<p>SNF8 was likely rejected due to primarily endosomal (ESCRT-II) function with nuclear localization being secondary.</p>
+<h4>Recheck Analysis</h4>
+<p>1. <strong>Nuclear evidence:</strong> SECONDARY but PRESENT. HPA nucleoplasm (additional). Nucleus (UniProt, curator inference). GO-CC transcription regulator complex (IDA:MGI). 2. <strong>Functional context:</strong> ESCRT-II MVB sorting (primary). Moonlighting nuclear function in transcription regulation via ELL interaction and RNA Pol II derepression. UniProt interactions with KDM1A (LSD1 histone demethylase), POLR2A, PRMT6, and SMARCD1 (SWI/SNF) strongly suggest a nuclear regulatory role. 3. <strong>PubMed:</strong> 20 strict. LOW. 4. <strong>Structure:</strong> Good AF and 2 X-ray structures. 5. <strong>PPI:</strong> Nuclear transcription PPI network is surprisingly rich -- KDM1A (histone demethylase), SMARCD1 (SWI/SNF), ELL, POLR2A, PRMT6.</p>
+<h4>Verdict</h4>
+<p><strong>The original rejection was INCORRECT.</strong> While SNF8 is primarily an ESCRT-II endosomal protein, its nuclear moonlighting role in transcription regulation is well-supported by PPI data (KDM1A/LSD1 histone demethylase, POLR2A, SMARCD1/SWI-SNF, ELL, PRMT6). The transcription regulator complex annotation (MGI) and ELL-mediated transcription derepression function provide a direct nuclear regulatory role. Should be RETAINED.</p>
+<hr>
+<h3>TE-Regulator Relevance</h3>
+<p>MODERATE-HIGH. SNF8&#x27;s nuclear PPI network includes KDM1A (LSD1 -- H3K4me1/me2 demethylase), SMARCD1 (SWI/SNF chromatin remodeler), POLR2A (RNA Pol II), PRMT6 (arginine methyltransferase), and ELL (transcription elongation factor). KDM1A/LSD1 is a key histone demethylase directly involved in chromatin regulation and TE silencing. SWI/SNF is a major chromatin remodeling complex. While SNF8&#x27;s primary role is endosomal, the quality and composition of its nuclear interaction network strongly suggests chromatin-level regulatory involvement.</p>
+<hr>
+<h3>Final Decision: RETAINED</h3>
+<p>Score: 112/180. SNF8 has a documented nuclear moonlighting function in transcription regulation with rich nuclear PPI connections including LSD1, SWI/SNF, POLR2A, PRMT6, and ELL. Retained despite its primary ESCRT-II endosomal role.</p>
+<hr>
+<h3>Manual Review Note</h3>
+<p>MODERATE CANDIDATE with nuclear moonlighting. SNF8 (EAP30) is a core component of ESCRT-II, a complex essential for multivesicular body sorting at endosomes. However, SNF8 has a well-documented moonlighting role in the nucleus: it participates in transcription derepression through interaction with ELL (transcription elongation factor). The UniProt interaction network is striking -- KDM1A/LSD1 (histone demethylase), SMARCD1 (SWI/SNF), POLR2A, and PRMT6 all point to chromatin-level function. The HPA detects SNF8 in nucleoplasm (additional location). While the primary function is endosomal, the nuclear PPI connections are too chromatin-relevant to dismiss. Retained for further evaluation of its nuclear regulatory function.</p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

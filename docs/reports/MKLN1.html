@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MKLN1 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>MKLN1</h1><div class="report-meta"><span class="badge muted">rejected</span><span class="badge">rejected</span><span class="badge">Score: 1.8</span><span class="badge">Nuclear: 3</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/rejected.html">Category page</a></div><p class="source-path">Original detail path: detail/rejected/MKLN1/MKLN1-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;MKLN1&quot; date: 2026-06-04 tags: [protein-scout, confirmed-rejected, critical-false-rejection-recheck] status: confirmed-rejected previous_status: rejected previous_rejection_reason: nuclear_score ≤ 3 recheck_result: &quot;CONFIRMED REJECTED — HPA=Plasma membrane+Cytosol(Approved); UniProt nucleoplasm仅ECO:0000250(by similarity); GO-CC nucleoplasm仅IEA(电子注释); CTLH E3 ligase降解HBP1 TF但自身不在核内; nuclear_score=2准确&quot; revised_nuclear_score: 2 ---</p>
+<h3>MKLN1 核蛋白评估报告 -- FALSE REJECTION RE-EVALUATION (确认拒绝)</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>MKLN1 / Muskelin</td></tr>
+<tr><td>蛋白大小</td><td>735 aa / 84.8 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q9UL63</td></tr>
+<tr><td>蛋白全名</td><td>Muskelin</td></tr>
+<tr><td>HPA IF 主定位</td><td><strong>Plasma membrane, Cytosol</strong></td></tr>
+<tr><td>HPA IF 附加定位</td><td>Vesicles</td></tr>
+<tr><td>HPA Reliability</td><td>Approved</td></tr>
+<tr><td>原评估状态</td><td>REJECTED (nuclear_score=2)</td></tr>
+<tr><td>重新评估日期</td><td>2026-06-04</td></tr>
+<tr><td>CONFIRMED REJECTED</td><td><strong>CONFIRMED REJECTED</strong> — 非核蛋白</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览（修订后，确认原评分）</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>权重</th><th>加权</th><th>摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td><strong>2/10</strong></td><td>×4</td><td>8</td><td>HPA=Plasma membrane+Cytosol(Approved); UniProt nucleoplasm仅ECO:0000250; GO-CC nucleoplasm仅IEA</td></tr>
+<tr><td>蛋白大小</td><td>4/10</td><td>×1</td><td>4</td><td>735aa/84.8kDa，中等偏大</td></tr>
+<tr><td>研究新颖性</td><td>6/10</td><td>×5</td><td>30</td><td>PubMed strict=44 (41-60→6)</td></tr>
+<tr><td>三维结构</td><td>8/10</td><td>×3</td><td>24</td><td>pLDDT=89.1; PDB 8TTQ (EM 3.27A, 全长二聚体)</td></tr>
+<tr><td>调控结构域</td><td>7/10</td><td>×2</td><td>14</td><td>LisH+CTLH+Kelch×6; E3泛素连接酶底物识别模块</td></tr>
+<tr><td>PPI网络</td><td>6/10</td><td>×3</td><td>18</td><td>STRING: RANBP9(0.998), GID8(0.995), RMND5A(0.990); CTLH/GID复合物全实验验证</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>98/180</strong></td><td></td></tr>
+<tr><td><strong>归一化总分 (÷1.8)</strong></td><td></td><td></td><td><strong>54.4/100</strong></td><td></td></tr>
+</tbody></table></div>
+<h4>3. False rejection recheck -- CRITICAL</h4>
+<p><strong>为何被列为CRITICAL进行重新评估:</strong></p>
+<p>MKLN1又名Muskelin，是CTLH/GID E3泛素连接酶复合物的核心支架亚基，该复合物直接靶向转录因子HBP1进行泛素化降解。这种&quot;E3连接酶在胞质中降解核转录因子&quot;的功能模式引发了合理的疑问: MKLN1是否也在核内执行部分功能? 本研究池中已有多个E3连接酶亚基(如ANAPC13)被列为候选，因此MKLN1值得仔细审查。</p>
+<p>此外，MKLN1拥有所有10个CRITICAL基因中最好的结构数据组合(AlphaFold pLDDT 89.1 + 全长PDB 8TTQ + LisH/CTLH/Kelch多重结构域)和最丰富的结构域架构(9个InterPro条目)。</p>
+<p><strong>逐一数据库审查:</strong></p>
+<p>1. <strong>UniProt Subcellular Location (harvest packet)</strong>:</p>
+<ul><li>Cytoplasm: ECO:0000269 (IDA, 实验验证) -- 高证据</li><li>Cytoplasm, cytosol: ECO:0000250 (by similarity) -- 推断</li><li><strong>Nucleus, nucleoplasm: ECO:0000250 (by similarity) -- 仅为序列相似性推断，非人源实验证据</strong></li><li>Cell projection, ruffle: ECO:0000250</li><li>Cytoplasm, cell cortex: ECO:0000250</li><li>Synapse: ECO:0000250</li><li>Postsynapse: ECO:0000250</li><li><strong>7个亚细胞定位中，仅1个是实验验证(IDA)，其余6个均为by similarity(ECO:0000250)。核定位恰为by similarity</strong></li></ul>
+<p>2. <strong>GO-CC (harvest packet) -- 核定位仅为电子注释</strong>:</p>
+<ul><li>GO:0005737 cytoplasm: IDA:UniProtKB (实验验证)</li><li>GO:0000151 ubiquitin ligase complex: IDA:UniProtKB (实验验证)</li><li>GO:0005654 nucleoplasm: <strong>IEA:UniProtKB-SubCell (电子自动注释!!)</strong></li><li>其他6个GO-CC术语(细胞皮层、突触、GABA-ergic synapse等)均为ISS/IEA</li><li><strong>nucleoplasm的GO-CC证据是IEA(最低等级)，无任何人工审核或实验验证</strong></li></ul>
+<p>3. <strong>HPA Subcellular (harvest packet) -- 决定性</strong>:</p>
+<ul><li>Main location: <strong>Plasma membrane</strong>, <strong>Cytosol</strong></li><li>Additional: Vesicles</li><li>Reliability: <strong>Approved (最高可信度!!)</strong></li><li>IF display images: 6张在线可用</li><li><strong>零核信号!! 完全没有nucleoplasm/nucleus/nuclear membrane</strong></li></ul>
+<p>4. <strong>功能证据 -- 胞质E3连接酶靶向核内转录因子</strong>:</p>
+<ul><li>CTLH/GID E3连接酶复合物介导HBP1转录因子的泛素化降解</li><li>HBP1在核内调控基因表达，但其降解发生在胞质(蛋白酶体)</li><li>Muskelin作为支架亚基在胞质中组装CTLH/GID复合物</li><li>功能还包括GABA受体(GABRA1)从细胞膜的内吞</li><li>介导细胞铺展和细胞骨架对THBS1的响应</li><li><strong>靶向转录因子进行降解 =/= 自身定位于核内</strong></li></ul>
+<p><strong>为何这不是假阴性:</strong></p>
+<p>MKLN1的三个核定位数据点均来自低证据等级的推断:</p>
+<ul><li>UniProt nucleoplasm: ECO:0000250 (by similarity — 基于其他物种或相似蛋白的推断，可能是小鼠Muskelin有核定位)</li><li>GO-CC nucleoplasm: IEA (电子自动注释 — 由pipeline自动从UniProt序列推断)</li><li>GO-CC没有其他核术语</li></ul>
+<p>而HPA Approved的实验数据明确否定核定位: Plasma membrane + Cytosol + Vesicles，零核信号。</p>
+<p>MKLN1的案例说明了一个重要原则: E3泛素连接酶虽然靶向核转录因子(HBP1)进行降解，但其泛素化反应通常发生在胞质——E3连接酶识别从核中输出的底物、催化泛素链组装、最终将底物递送至26S蛋白酶体。而蛋白酶体本身可以定位于胞质和核。</p>
+<p><strong>修订后核定位评分: 2/10 (确认)</strong>。</p>
+<h4>4. 详细分析</h4>
+<h5>4.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th><th>证据代码</th></tr></thead><tbody>
+<tr><td>HPA (IF)</td><td>Plasma membrane, Cytosol</td><td><strong>Approved</strong> (最高)</td><td>IF实验，6张display images</td></tr>
+<tr><td>HPA (IF)</td><td>Vesicles (additional)</td><td>Approved</td><td>IF实验</td></tr>
+<tr><td>UniProt</td><td>Cytoplasm</td><td>IDA</td><td>ECO:0000269 (实验)</td></tr>
+<tr><td>UniProt</td><td>Nucleoplasm</td><td>ECO:0000250</td><td><strong>by similarity (推断)</strong></td></tr>
+<tr><td>GO-CC</td><td>cytoplasm</td><td>IDA:UniProtKB</td><td>实验</td></tr>
+<tr><td>GO-CC</td><td>nucleoplasm</td><td>IEA:UniProtKB-SubCell</td><td><strong>电子注释</strong></td></tr>
+<tr><td>GO-CC</td><td>ubiquitin ligase complex</td><td>IDA:UniProtKB</td><td>实验</td></tr>
+</tbody></table></div>
+<p>Muskelin的&quot;核定位&quot;证据完全来自两个低层级推断(UniProt by similarity + GO IEA)，而HPA Approved实验数据明确将其定位于Plasma membrane+Cytosol。<strong>核定位评分: 2/10 (确认)</strong>。</p>
+<h5>4.2 蛋白大小评估</h5>
+<p>735 aa / 84.8 kDa。中等偏大的多结构域蛋白，包含LisH(二聚化)+CTLH(复合物组装)+Kelch×6(beta-propeller底物识别)。实验操作可能有一定难度(大蛋白表达+纯化)。<strong>评分: 4/10</strong>。</p>
+<h5>4.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict_count</td><td>44</td></tr>
+<tr><td>PubMed symbol_only</td><td>77</td></tr>
+<tr><td>主要方向</td><td>CTLH/GID复合物、结直肠癌易感、肝癌lncRNA</td></tr>
+</tbody></table></div>
+<p>中等新颖度(44篇)。研究集中在CTLH/GID E3连接酶复合物的生化特性和癌症关联。<strong>评分: 6/10</strong>。</p>
+<p><strong>关键文献</strong>: 1. Yun D et al. (2025). &quot;MMP14 and MKLN1 as colorectal cancer susceptibility genes.&quot; *J Transl Med*. PMID: 40369569 2. Guo C et al. (2022). &quot;SOX9/MKLN1-AS Axis Induces Hepatocellular Carcinoma.&quot; *Biochem Genet*. PMID: 35138470 3. Barbulescu P et al. (2024). &quot;FAM72A degrades UNG2 through the GID/CTLH complex.&quot; *Nat Commun*. PMID: 39215025 4. Liu H et al. (2020). &quot;The GID ubiquitin ligase complex regulates AMPK activity and lifespan.&quot; *Autophagy*. PMID: 31795790 5. Lampert F et al. (2018). &quot;The multi-subunit GID/CTLH E3 ubiquitin ligase targets Hbp1 for degradation.&quot; *eLife*. PMID: 29911972</p>
+<h5>4.4 三维结构分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold 平均 pLDDT</td><td>89.1</td></tr>
+<tr><td>pLDDT &gt; 90 (Very High)</td><td>71.3%</td></tr>
+<tr><td>pLDDT &lt; 50 (Low)</td><td>4.4%</td></tr>
+<tr><td>实验结构 (PDB)</td><td>8TTQ (EM, 3.27A, chains A/B=2-735, 全长二聚体)</td></tr>
+</tbody></table></div>
+<p>PDB 8TTQ是CTLH/GID E3连接酶复合物的冷冻电镜全结构，覆盖Muskelin全长并展示其二聚化模式。N端LisH-CTLH介导与GID8/RANBP9的互作; C端6个Kelch重复形成beta-propeller负责底物识别。结构质量优秀。<strong>评分: 8/10</strong>。</p>
+<h5>4.5 结构域分析</h5>
+<p>9个InterPro条目，3个Pfam条目。LisH domain (IPR006594, dimerization) + CTLH domain (IPR010565, complex assembly) + Kelch repeats ×6 (IPR006652, IPR015915, beta-propeller)。结构域在E3泛素连接酶底物识别中的角色清晰。</p>
+<p><strong>与TE调控的潜在关联</strong>: CTLH/GID复合物通过降解HBP1(TE-associated transcription factor?)间接影响转录。但Muskelin本身作为胞质支架，不直接接触染色质。Kelch beta-propeller的底物识别功能可能靶向TE来源的蛋白底物，但这属于推测。<strong>评分: 7/10</strong>。</p>
+<h5>4.6 PPI 网络</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Combined Score</th><th>Experimental</th><th>功能</th></tr></thead><tbody>
+<tr><td>RANBP9</td><td>0.998</td><td>0.837</td><td>CTLH复合物亚基</td></tr>
+<tr><td>GID8</td><td>0.995</td><td>0.701</td><td>CTLH复合物亚基</td></tr>
+<tr><td>RMND5A</td><td>0.990</td><td>0.835</td><td>CTLH复合物亚基</td></tr>
+<tr><td>WDR26</td><td>0.961</td><td>0.671</td><td>CTLH复合物亚基</td></tr>
+</tbody></table></div>
+<p>PPI网络全部集中于CTLH/GID复合物(STRING/IntAct高度一致)，IntAct确认RMND5A、GID4、MAEA、TLE4、SLX4等co-IP。实验证据扎实但反映胞质E3连接酶功能。<strong>评分: 6/10</strong>。</p>
+<h4>5. 最终决定</h4>
+<p><strong>CONFIRMED REJECTED — 非核蛋白，nuclear_score=2准确</strong></p>
+<p>Muskelin是一个高度有序的胞质E3连接酶支架蛋白，其结构数据(AlphaFold+PDB)和PPI网络(CTLH/GID)在10个CRITICAL基因中属于最优。但由于HPA Approved明确显示Plasma membrane+Cytosol(零核信号)，且UniProt/GO-CC的核定位均为低层级推断，nuclear_score=2是正确的。</p>
+<p><strong>与其他E3连接酶基因的比较</strong>: ANAPC13(APC/C复合物亚基)也在此批次中被拒绝——两者均为E3泛素连接酶复合物亚基但在执行功能时不在核内。而AKIRIN1(Akirin-1)虽与蛋白酶体/PPI相关但明确在核内(HPA Approved Nucleoplasm)。每个E3连接酶亚基的亚细胞定位需要根据实验证据单独判断，不能一概而论。</p>
+<p><strong>不建议重新评估</strong>。除非有新的实验数据显示Muskelin在特定条件下(如细胞应激、分化)发生核转位。</p>
+<h4>6. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9UL63</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9UL63</li><li>PDB: https://www.rcsb.org/structure/8TTQ</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=MKLN1%5BTitle/Abstract%5D</li><li>HPA: https://www.proteinatlas.org/ENSG00000128585-MKLN1</li><li>STRING: https://string-db.org/network/9606.ENSP00000323527</li><li>IntAct: https://www.ebi.ac.uk/intact/interactors/id:Q9UL63</li><li>Harvest packet: /Users/quii/Desktop/projects/TE-regulated proteins finding/protein_data/harvest_packets/MKLN1.json (2026-06-03)</li></ul>
+<p>HPA IF图像在线可用(6张blue_red_green, Plasma membrane+Cytosol信号)，未下载本地。PAE未生成本地。</p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SKOR1 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>SKOR1</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 22</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/SKOR1/SKOR1-evaluation.md</p></section><article class="report-body"><h2>SKOR1 -- Critical False-Rejection Reevaluation Report</h2>
+<p><strong>Gene:</strong> SKOR1 (SKI family transcriptional corepressor 1) <strong>UniProt Accession:</strong> P84550 <strong>Protein Name:</strong> SKI family transcriptional corepressor 1 <strong>Length:</strong> 965 aa | <strong>Mass:</strong> 99.8 kDa <strong>Aliases:</strong> CORL1, FUSSEL15, LBXCOR1 <strong>Report Date:</strong> 2026-06-04 <strong>Review Stage:</strong> W3 Batch 1 -- CRITICAL REOPEN</p>
+<hr>
+<h3>/180 Scoring Table</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Max</th><th>Score</th><th>Rationale</th></tr></thead><tbody>
+<tr><td>1. Nuclear Localization</td><td>30</td><td>22</td><td>HPA main: Nucleoplasm. Reliability: Approved. UniProt: Nucleus (ECO:0000250 -- by similarity). GO-CC: nucleus (IBA:GO_Central), transcription regulator complex (IBA:GO_Central), cytoplasm (IBA:GO_Central), dendrite (IDA:UniProtKB), neuronal cell body (IDA:UniProtKB). HPA nucleoplasm is strong, but UniProt nuclear annotation is by-similarity only. Protein also localizes to neuronal compartments.</td></tr>
+<tr><td>2. Protein Size</td><td>10</td><td>8</td><td>965 aa / 99.8 kDa. Large protein.</td></tr>
+<tr><td>3. Research Novelty</td><td>10</td><td>10</td><td>PubMed strict: 18. Novelty rule: 1-50=10.</td></tr>
+<tr><td>4. 3D Structure</td><td>30</td><td>8</td><td>AlphaFold mean pLDDT: 54.1 (18.3% &gt;90, 9.3% 70-90, 7.9% 50-70, 64.5% &lt;50). PDB: None. VERY low confidence. Majority of protein is low-confidence.</td></tr>
+<tr><td>5. Regulatory Domains</td><td>50</td><td>40</td><td>IPR014890, IPR009061, IPR010919, IPR003380, IPR037000, IPR023216. PF08782, PF02437. FUNCTION: Acts as transcriptional corepressor of LBX1. Inhibits BMP signaling. SKI family transcriptional corepressor -- SKI family proteins are well-established transcriptional repressors involved in TGF-beta/BMP and other signaling pathways. Transcriptional corepressor with direct regulatory function.</td></tr>
+<tr><td>6. PPI Network</td><td>50</td><td>25</td><td>STRING: 15 partners. MAP2K5 (0.974), LBX1 (0.887), BTBD9 (0.884), MEIS1 (0.844), TLE1 (0.746, experimental), SMAD3 (0.613, experimental), CTBP1 (0.532, experimental). IntAct: 10 interactors. HDAC1 (Co-IP), TLE1 (Co-IP), CTBP1 (Co-IP), LBX1 (cross-link), HIPK2, TRIM27, PRKAA1, HDAC6, DYRK1B.</td></tr>
+<tr><td><strong>TOTAL</strong></td><td><strong>180</strong></td><td><strong>113</strong></td><td></td></tr>
+</tbody></table></div>
+<hr>
+<h3>Nuclear Evidence Section</h3>
+<h4>HPA (Human Protein Atlas)</h4>
+<ul><li><strong>Status:</strong> hpa_localization_available</li><li><strong>Reliability (IF):</strong> Approved</li><li><strong>Main Location:</strong> Nucleoplasm</li><li><strong>Additional:</strong> None</li><li><strong>IF Image Status:</strong> no_image_detected (red_green images available via image_urls)</li><li><strong>Key Finding:</strong> HPA nucleoplasm (Approved). Consistent with transcriptional corepressor function.</li></ul>
+<h4>UniProt Subcellular Location</h4>
+<ul><li><strong>Nucleus</strong> -- ECO:0000250 (by similarity)</li></ul>
+<h4>GO Cellular Component (GO-CC)</h4>
+<ul><li><strong>GO:0005634 (nucleus)</strong> -- IBA:GO_Central</li><li><strong>GO:0005667 (transcription regulator complex)</strong> -- IBA:GO_Central</li><li><strong>GO:0005737 (cytoplasm)</strong> -- IBA:GO_Central</li><li><strong>GO:0030425 (dendrite)</strong> -- IDA:UniProtKB</li><li><strong>GO:0043025 (neuronal cell body)</strong> -- IDA:UniProtKB</li></ul>
+<p><strong>Summary:</strong> SKOR1 localizes to nucleoplasm (HPA Approved) and is associated with transcription regulator complexes. Also found in neuronal compartments (dendrite, cell body). Nuclear score: 22/30 -- good HPA data but UniProt annotation is by-similarity.</p>
+<hr>
+<h3>PubMed Evidence</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Query Type</th><th>Count</th></tr></thead><tbody>
+<tr><td>Strict (Title/Abstract)</td><td>18</td></tr>
+<tr><td>Broad (All Fields)</td><td>38</td></tr>
+</tbody></table></div>
+<p><strong>Novelty score: 10/10.</strong></p>
+<h4>Key Papers</h4>
+<p>1. <strong>PMID:39695147</strong> -- Li G et al. (2024). &quot;Overexpression of PDSS2-Del2 in HCC promotes tumor metastasis by interacting with macrophages.&quot; *Cell Death Discov*. 2. <strong>PMID:38267254</strong> -- Tan BJ et al. (2024). &quot;Genetic Association Studies in Restless Legs Syndrome: Risk Variants &amp; Ethnic Differences.&quot; *Can J Neurol Sci*. 3. <strong>PMID:32572201</strong> -- Sarayloo F et al. (2020). &quot;SKOR1 has a transcriptional regulatory role on genes involved in pathways related to restless legs syndrome.&quot; *Eur J Hum Genet*. 4. <strong>PMID:25817513</strong> -- Gan-Or Z et al. (2015). &quot;Genetic markers of Restless Legs Syndrome in Parkinson disease.&quot; *Parkinsonism Relat Disord*. 5. <strong>PMID:36209572</strong> -- Martins TF et al. (2022). &quot;Functional analysis of litter size and number of teats in pigs: From GWAS to post-GWAS.&quot; *Theriogenology*.</p>
+<p><strong>Assessment:</strong> SKOR1 is primarily studied in restless legs syndrome genetics. Key paper (PMID:32572201) directly demonstrates transcriptional regulatory function.</p>
+<hr>
+<h3>AlphaFold / PDB / PAE</h3>
+<h4>AlphaFold Predicted Structure</h4>
+<ul><li><strong>Entry:</strong> AF-P84550-F1, version 6</li><li><strong>mean pLDDT: 54.1</strong> (&gt;90: 18.3%, 70-90: 9.3%, 50-70: 7.9%, &lt;50: 64.5%)</li><li><strong>Assessment:</strong> VERY LOW confidence. Nearly two-thirds of residues below pLDDT 50. Likely a largely disordered protein that requires binding partners for folding.</li></ul>
+<h4>Experimental PDB Structures</h4>
+<ul><li><strong>None.</strong></li><li><strong>Assessment:</strong> No experimental structures.</li></ul>
+<h4>PAE</h4>
+<ul><li>PAE image URL available.</li><li>PAE assessment pending image retrieval.</li></ul>
+<hr>
+<h3>PPI Network</h3>
+<h4>STRING (15 partners)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>Experimental</th><th>Function</th></tr></thead><tbody>
+<tr><td>MAP2K5</td><td>0.974</td><td>0</td><td>MEK5 kinase</td></tr>
+<tr><td>LBX1</td><td>0.887</td><td>0</td><td>Transcription factor (SKOR1 targets)</td></tr>
+<tr><td>BTBD9</td><td>0.884</td><td>0</td><td>RLS-associated</td></tr>
+<tr><td>MEIS1</td><td>0.844</td><td>0</td><td>Homeobox TF</td></tr>
+<tr><td>TLE1</td><td>0.746</td><td>0.095</td><td>Transcriptional corepressor</td></tr>
+<tr><td>SMAD3</td><td>0.613</td><td>0.071</td><td>TGF-beta/BMP signaling</td></tr>
+<tr><td>CTBP1</td><td>0.532</td><td>0.095</td><td>Transcriptional corepressor</td></tr>
+</tbody></table></div>
+<h4>IntAct (10 interactors)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Method</th><th>PMID</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>HDAC1</td><td>Co-IP</td><td>15528197</td><td>Histone deacetylase -- CHROMATIN</td></tr>
+<tr><td>TLE1</td><td>Co-IP</td><td>15528197</td><td>Transcriptional corepressor</td></tr>
+<tr><td>CTBP1</td><td>Co-IP</td><td>15528197</td><td>Transcriptional corepressor</td></tr>
+<tr><td>LBX1</td><td>Cross-link</td><td>15528197</td><td>Direct target TF</td></tr>
+<tr><td>HIPK2</td><td>Colocalization</td><td>15528197</td><td>Homeodomain kinase</td></tr>
+<tr><td>HDAC6</td><td>Co-IP</td><td>33961781</td><td>Histone deacetylase</td></tr>
+<tr><td>TRIM27</td><td>Co-IP</td><td>33961781</td><td>E3 ubiquitin ligase</td></tr>
+<tr><td>DYRK1B</td><td>Co-IP</td><td>33961781</td><td>Dual-specificity kinase</td></tr>
+</tbody></table></div>
+<h4>PPI Network Assessment</h4>
+<ul><li>Strong transcriptional corepressor network.</li><li>HDAC1 interaction (Co-IP, PMID:15528197) is KEY -- direct connection to histone deacetylation/chromatin modification.</li><li>TLE1 and CTBP1 are well-established corepressors.</li><li>LBX1 cross-linking confirms direct transcription factor interaction.</li></ul>
+<hr>
+<h3>FALSE REJECTION RECHECK</h3>
+<h4>Original Rejection Reason (inferred)</h4>
+<p>SKOR1 was likely rejected due to low structural confidence and potentially underestimated regulatory function.</p>
+<h4>Recheck Analysis</h4>
+<p>1. <strong>Nuclear evidence:</strong> PRESENT. HPA Approved: Nucleoplasm. Associated with transcription regulator complex (GO-CC). 2. <strong>Functional context:</strong> SKI family transcriptional corepressor. Directly represses transcription via LBX1. Inhibits BMP signaling. SKI family proteins are prototypical transcriptional repressors. 3. <strong>PubMed:</strong> 18 strict. LOW. 4. <strong>Structure:</strong> Very low AF confidence. Likely disordered. 5. <strong>PPI:</strong> HDAC1 interaction (histone deacetylase) is a direct chromatin modification connection. TLE1 and CTBP1 corepressors confirm transcriptional regulatory role.</p>
+<h4>Verdict</h4>
+<p><strong>The original rejection was INCORRECT.</strong> SKOR1 is a SKI family transcriptional corepressor with direct transcription regulation function. The HDAC1 interaction (histone deacetylase, Co-IP validated) provides a direct chromatin-level regulatory connection. HPA nucleoplasm (Approved) supports nuclear localization. The SKI protein family is well-characterized for transcriptional repression. Should be RETAINED.</p>
+<hr>
+<h3>TE-Regulator Relevance</h3>
+<p>HIGH. SKOR1 is a transcriptional corepressor of the SKI family, which represses gene expression through recruitment of HDAC-containing complexes. The HDAC1 interaction is directly relevant to histone deacetylation and chromatin condensation -- core mechanisms for TE silencing. SKI family proteins also interact with SMAD proteins in TGF-beta/BMP signaling, which can regulate chromatin states. As a corepressor, SKOR1 could potentially be recruited to TE loci to mediate transcriptional silencing.</p>
+<hr>
+<h3>Final Decision: RETAINED</h3>
+<p>Score: 113/180. SKOR1 is a SKI family transcriptional corepressor with HPA Approved nucleoplasm localization, HDAC1 interaction (direct chromatin modification link), and high novelty (PubMed=18). Retained despite low structural confidence.</p>
+<hr>
+<h3>Manual Review Note</h3>
+<p>STRONG CANDIDATE. SKOR1 (CORL1/LBXCOR1) is a SKI family transcriptional corepressor that interacts with HDAC1, establishing a direct link to histone deacetylation-mediated gene repression. The SKI protein family (SKI, SKIL/SNO) is well-characterized for transcriptional repression. SKOR1 acts as a corepressor for LBX1 and inhibits BMP signaling. The HDAC1 interaction (PMID:15528197) and TLE1/CTBP1 corepressor network strongly support a chromatin-level regulatory role. Despite very poor structural data (mean pLDDT 54.1) -- common for transcriptional regulators with disordered activation/repression domains -- the functional evidence is compelling. Prioritized for TE investigation.</p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

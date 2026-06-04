@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CNTLN · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>CNTLN</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 58.2</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/CNTLN/CNTLN-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;CNTLN&quot; date: 2026-05-31 tags: [protein-scout, nucleoplasm, evaluation] status: scored ---</p>
+<h3>CNTLN 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>CNTLN / C9orf101, C9orf39</td></tr>
+<tr><td>蛋白全名</td><td>Centlein</td></tr>
+<tr><td>蛋白大小</td><td>1405 aa / 161.6 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q9NXG0</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>新权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>6/10</td><td>×4</td><td>24.0</td><td>初级定位 Centriole/Centrosome; GO nucleoplasm IDA:HPA</td></tr>
+<tr><td>蛋白大小</td><td>1/10</td><td>×1</td><td>1.0</td><td>1405 aa, 161.6 kDa，超大蛋白</td></tr>
+<tr><td>研究新颖性</td><td>10/10</td><td>×5</td><td>50.0</td><td>Strict=12</td></tr>
+<tr><td>三维结构</td><td>4/10</td><td>×3</td><td>12.0</td><td>无 PDB; pLDDT 70.2</td></tr>
+<tr><td>调控结构域</td><td>2/10</td><td>×2</td><td>4.0</td><td>IPR038810 (CNTLN family)，无 Pfam</td></tr>
+<tr><td>PPI 网络</td><td>5/10</td><td>×3</td><td>15.0</td><td>STRING centrosome 网络（主要为 textmining）; IntAct 多重互作</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>106/180</strong>**</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+0.5</td><td>GO nucleoplasm IDA:HPA 提供实验核定位，但初级定位为 centrosome/centriole</td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>57.9/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<p>PubMed strict: 12</p>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Cytoplasm, cytoskeleton, microtubule organizing center, centrosome, centriole (ECO:0000269)</td><td>实验证据（初级定位）</td></tr>
+<tr><td>GO-CC</td><td>centriole (IDA); centrosome (IDA:HPA); cytoplasm (IDA); cytosol (IDA:HPA); extracellular exosome (HDA); nucleoplasm (IDA:HPA); sperm head-tail coupling apparatus (IEA)</td><td>nucleoplasm 有 IDA:HPA 实验证据</td></tr>
+<tr><td>HPA (IF)</td><td>页面含图像但无 IF 图像</td><td>无 IF 数据</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 状态</strong>: IF thumbnail only — HPA 暂无 IF 原图，仅获取到 60x60 缩略图，不能作为可靠定位证据。核定位基于 UniProt + GO-CC。</p>
+<p><strong>结论</strong>: CNTLN 的核定位复杂。GO-CC 中有 nucleoplasm IDA:HPA 实验证据，但 UniProt Subcellular Location 仅记录 centrosome/centriole。核定位可能反映 HPA 在特定条件下的检测，而非稳态定位。</p>
+<h5>3.2 结构与结构域</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold</td><td>AF-Q9NXG0-F1</td></tr>
+<tr><td>平均 pLDDT</td><td>70.2</td></tr>
+<tr><td>pLDDT &gt;90</td><td>21.8%</td></tr>
+<tr><td>pLDDT 70-90</td><td>41.2%</td></tr>
+<tr><td>pLDDT 50-70</td><td>7.9%</td></tr>
+<tr><td>pLDDT &lt;50</td><td>29.1%</td></tr>
+<tr><td>PDB</td><td>无</td></tr>
+<tr><td>InterPro</td><td>IPR038810</td></tr>
+<tr><td>Pfam</td><td>无</td></tr>
+</tbody></table></div>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CNTLN/CNTLN-PAE.png</code></div></figure> <figure><div class="missing-image">Missing local image: <code>../assets/report-images/CNTLN/CNTLN-PAE.png</code></div></figure></p>
+<p>蛋白极大（1405 aa），pLDDT 中等（均值 70.2），29.1% &lt;50 提示存在无序区域。无 PDB 实验结构，无 Pfam 结构域注释。结构域预测高度有限。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict (Title/Abstract)</td><td>12</td></tr>
+<tr><td>PubMed broad</td><td>20</td></tr>
+<tr><td>别名</td><td>C9orf101, C9orf39（未用于 scoring）</td></tr>
+</tbody></table></div>
+<p>关键文献：</p>
+<ul><li>PMID:24554434 — &quot;Centlein mediates an interaction between C-Nap1 and Cep68 to maintain centrosome cohesion&quot; (J Cell Sci, 2014)</li><li>PMID:27743375 — &quot;Genetic resilience to amyloid related cognitive decline&quot; (Brain Imaging Behav, 2017)</li><li>PMID:39640822 — &quot;High heritability of human facial traits reveals associations with CNTLN, BRCA1, and TMPRSS6 loci in Korean families&quot; (Heliyon, 2024)</li></ul>
+<p>功能聚焦于中心体 cohesion 维护（CNTLN-C-Nap1-Cep68 复合体）。研究量偏低但非极端。GWAS 关联到认知衰退和面部特征。</p>
+<h5>3.4 PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>PCNT</td><td>STRING</td><td>0.969 (textmining)</td><td>Pericentrin，中心体核心蛋白</td></tr>
+<tr><td>LRRC45</td><td>STRING</td><td>0.923 (textmining)</td><td>中心体相关</td></tr>
+<tr><td>CROCC</td><td>STRING</td><td>0.922 (textmining)</td><td>Rootletin，中心体/纤毛</td></tr>
+<tr><td>NIN</td><td>STRING</td><td>0.898 (textmining)</td><td>Ninein，中心体/微管锚定</td></tr>
+<tr><td>CEP135</td><td>STRING</td><td>0.887 (exp 0.161, textmining 0.870)</td><td>中心体蛋白 135，有弱实验支持</td></tr>
+<tr><td>LAS2</td><td>IntAct</td><td>two hybrid array (PMID:32296183)</td><td>神经酰胺合成酶</td></tr>
+<tr><td>RFK</td><td>IntAct</td><td>validated two hybrid (PMID:32296183)</td><td>Riboflavin kinase</td></tr>
+<tr><td>TPM1</td><td>IntAct</td><td>anti tag coIP (PMID:28514442)</td><td>Tropomyosin 1</td></tr>
+<tr><td>GOPC</td><td>IntAct</td><td>anti tag coIP (PMID:28514442)</td><td>Golgi-associated PDZ</td></tr>
+<tr><td>LAS2</td><td>UniProt</td><td>3 experiments (CNTLN isoform 2)</td><td>神经酰胺合成酶</td></tr>
+<tr><td>RFK</td><td>UniProt</td><td>3 experiments (CNTLN isoform 2)</td><td>Riboflavin kinase</td></tr>
+</tbody></table></div>
+<p>STRING top 5 均为中心体/纤毛相关蛋白（PCNT, LRRC45, CROCC, NIN, CEP135），但全部以 textmining 为主，实验支持弱（仅 CEP135 有 exp 0.161）。IntAct 记录 LAS2、RFK、TPM1、GOPC 等互作。UniProt 记录 LAS2/RFK（via isoform 2）。PPI 网络指向中心体生物学，非染色质/核复合体。</p>
+<h4>4. 总体评价</h4>
+<p>CNTLN 是一个超大中心体蛋白，负责中心体 cohesion。GO nucleoplasm IDA:HPA 提示存在核定位，但需要以初级定位 centrosome/centriole 为背景理解。归一化总分 58.2/100。核定位置信度受 UniProt Subcellular Location 无 nucleus 记录的限制，建议将 CNTLN 作为低优先级 nucleoplasm 候选，后续如补 IF 原图确认核信号可提升定位置信度。</p>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9NXG0</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9NXG0</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CNTLN</li><li>Protein Atlas: https://www.proteinatlas.org/search/CNTLN（无 IF 图像）</li></ul>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CNTLN/CNTLN-PAE.png</code></div></figure></p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CNTLN/CNTLN-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

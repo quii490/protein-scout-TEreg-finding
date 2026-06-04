@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PKN2 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>PKN2</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 90</span><span class="badge">Nuclear: 6</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/PKN2/PKN2-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;PKN2&quot; date: 2026-06-01 tags: [protein-scout, nuclear-protein, evaluation] status: scored ---</p>
+<h3>PKN2 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>PKN2 / PRK2, PRKCL2</td></tr>
+<tr><td>蛋白全名</td><td>Serine/threonine-protein kinase N2</td></tr>
+<tr><td>蛋白大小</td><td>984 aa / 112.0 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q16513 (PKN2_HUMAN)</td></tr>
+<tr><td>评估日期</td><td>2026-06-01</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览 (权重: 核×4 大×1 新×5 结×3 域×2 PPI×3 /1.83)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>加权</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>6/10</td><td>×4</td><td><strong>24</strong></td><td>UniProt: Cytoplasm+Nucleus; GO: nucleoplasm(IDA:HPA)+nuclear body(IDA:HPA)+nucleus(IDA); HPA无IF但GO-CC确认核定位</td></tr>
+<tr><td>蛋白大小</td><td>5/10</td><td>×1</td><td><strong>5</strong></td><td>984 aa / 112 kDa, 超出300-800理想区间</td></tr>
+<tr><td>研究新颖性</td><td>2/10</td><td>×5</td><td>10</td><td>PubMed 92篇; &gt;80但≤100</td></tr>
+<tr><td>三维结构</td><td>7/10</td><td>×3</td><td><strong>21</strong></td><td>PDB: 4CRS(2.75A,646-984)+4RRV/6CCY/6GBE(peptide); AF pLDDT 71.4; PDB部分验证+AF中等</td></tr>
+<tr><td>调控结构域</td><td>7/10</td><td>×2</td><td><strong>14</strong></td><td>PKc kinase domain+C2 domain+Rho-binding; 可磷酸化HDAC5影响其核输入</td></tr>
+<tr><td>PPI</td><td>5/10</td><td>×3</td><td><strong>15</strong></td><td>STRING: PDPK1(0.996)+RHOA(0.992)+AKT1(0.816); IntAct:15条实验互作含TGFBR2+LRRK2; ~20%调控相关</td></tr>
+<tr><td>互证加分</td><td>—</td><td>—</td><td><strong>+1.0</strong></td><td>PDB+AF验证; ≥2源定位; ≥3源结构域</td></tr>
+<tr><td><strong>原始总分</strong></td><td></td><td></td><td><strong>90/180</strong></td><td></td></tr>
+<tr><td><strong>归一化总分</strong></td><td></td><td></td><td><strong>49.2/100</strong></td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Cytoplasm; Nucleus; Membrane; Lamellipodium; Cytoskeleton; Cleavage furrow; Midbody; Cell junction</td><td>ECO:0000269 (实验)</td></tr>
+<tr><td>GO-CC</td><td>nucleoplasm (IDA:HPA), nuclear body (IDA:HPA), nucleus (IDA:UniProtKB)</td><td>IDA</td></tr>
+<tr><td>HPA (IF)</td><td>无IF图像获取; 页面显示nucleoplasm相关</td><td>—</td></tr>
+</tbody></table></div>
+<p><strong>IF 图像</strong>: HPA无IF展示图像数据获取。</p>
+<p><strong>结论</strong>: PKN2在多个区室均有分布(胞质、核、膜、黏着斑、中间体等)，但GO-CC的IDA证据明确支持nucleoplasm和nuclear body定位。UniProt的Nucleus注释为实验证据(ECO:0000269)。值得注意的是，PKN2能磷酸化HDAC5影响其核输入(PMID:uniprot)，提示PKN2在核-质穿梭调控中发挥作用。核定位明确但非特异性核蛋白，评分6分。</p>
+<h5>3.2 蛋白大小评估</h5>
+<p><strong>评价</strong>: 984 aa / 112 kDa，超出300-800 aa理想区间。蛋白较大增加重组表达和纯化难度，但仍在可操作范围内。大尺寸也意味着可能包含多个功能域(kinase domain + C2 + HR1 repeats)。评分5分。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict</td><td>92</td></tr>
+<tr><td>PubMed broad</td><td>117</td></tr>
+<tr><td>Chromatin/epigenetics 比例</td><td>&lt;5%</td></tr>
+</tbody></table></div>
+<p><strong>主要研究方向</strong>:</p>
+<ul><li>Rho/Rac效应器和PKC相关激酶信号转导</li><li>细胞周期进展和胞质分裂调控</li><li>肿瘤细胞侵袭和间质样状态 (Cancer Discovery 2025)</li><li>血管生成调控 (HIF-1alpha)</li><li>HDAC5磷酸化与核输入调控</li></ul>
+<p><strong>关键文献</strong>: 1. Killarney ST et al. (2025). &quot;PKN2 Is a Dependency of the Mesenchymal-like Cancer Cell State.&quot; *Cancer Discov*. PMID: 39560431 2. Gross LZF et al. (2024). &quot;Molecular insights into the regulatory landscape of PKC-related kinase-2 (PRK2/PKN2) using targeted small compounds.&quot; *J Biol Chem*. PMID: 39002682 3. Wang D et al. (2023). &quot;Phosphorylation of KRT8 by excessive mechanical load-activated PKN impairs autophagosome initiation.&quot; *Autophagy*. PMID: 36897022 4. Zhu Y et al. (2025). &quot;PKN2 Inhibits VEGFA and bFGF-Mediated Angiogenesis by Targeting HIF-1alpha in Colon Cancer.&quot; *Kaohsiung J Med Sci*. PMID: 40515512 5. Lee SJ et al. (2016). &quot;PKN2 and Cdo interact to activate AKT and promote myoblast differentiation.&quot; *Cell Death Dis*. PMID: 27763641</p>
+<p><strong>评价</strong>: PKN2是Rho/Rac效应激酶，研究集中于信号转导和肿瘤生物学。其HDAC5磷酸化功能暗示与表观遗传调控的潜在联系，但尚未被专门研究。92篇文献接近淘汰阈值。评分2分。</p>
+<h5>3.4 三维结构分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold 平均 pLDDT</td><td>71.4</td></tr>
+<tr><td>pLDDT &gt;90 占比</td><td>31.7%</td></tr>
+<tr><td>pLDDT 70-90 占比</td><td>31.3%</td></tr>
+<tr><td>pLDDT &lt;50 占比</td><td>27.3%</td></tr>
+<tr><td>可用 PDB 条目</td><td>4 (4CRS/4RRV/6CCY/6GBE)</td></tr>
+</tbody></table></div>
+<p><strong>PDB详情</strong>:</p>
+<ul><li>4CRS: X-ray 2.75A, 646-984 (催化域+尾部, 338aa)</li><li>4RRV/6CCY: peptide (969-983, 仅15aa)</li><li>6GBE: NMR, 973-984 (12aa peptide)</li></ul>
+<p><strong>评价</strong>: 4个PDB结构中仅4CRS覆盖有意义的蛋白区域(催化域)。AlphaFold pLDDT=71.4中等，提示存在显著无序区域。N端调控域(1-645)无实验结构。PAE图待获取。评分7分。</p>
+<h5>3.5 结构域分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>结构域</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Protein kinase (IPR000719); C2 domain (IPR000008); HR1 repeats (Rho-binding)</td></tr>
+<tr><td>InterPro</td><td>IPR000961(PKc kinase); IPR037784(HR1); IPR037313(PKN2-specific)</td></tr>
+<tr><td>Pfam</td><td>PF02185(HR1); PF00069(Pkinase); PF00433(Pkinase_C)</td></tr>
+</tbody></table></div>
+<p><strong>调控潜力分析</strong>: PKN2含有一个N端调控区(HR1 repeats, Rho结合)和C端催化域(C2 + kinase domain)，属Rho效应激酶家族。其最显著的调控功能是磷酸化HDAC5(组蛋白去乙酰化酶)，影响HDAC5的核输入过程。这提供了PKN2与染色质/表观遗传调控之间的直接分子联系。但HR1和kinase domain本身非经典染色质调控模块。评分7分。</p>
+<h5>3.6 PPI 网络</h5>
+<p><strong>实验验证互作</strong> (IntAct, 15条):</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>方法</th><th>PMID</th><th>功能类别</th><th>调控相关？</th></tr></thead><tbody>
+<tr><td>TGFBR2</td><td>anti tag coIP</td><td>28514442</td><td>TGF-beta receptor</td><td>信号转导</td></tr>
+<tr><td>LRRK2</td><td>anti tag coIP</td><td>31046837</td><td>Parkinson&#x27;s kinase</td><td>信号转导</td></tr>
+<tr><td>USP11</td><td>anti tag coIP</td><td>19615732</td><td>Deubiquitinase</td><td>否</td></tr>
+<tr><td>HSP90AB1</td><td>LUMIER</td><td>22939624</td><td>Chaperone</td><td>否</td></tr>
+<tr><td>TANK</td><td>virotrap</td><td>30561431</td><td>NF-kB regulator</td><td>信号转导</td></tr>
+<tr><td>TRADD</td><td>virotrap</td><td>30561431</td><td>TNF signaling</td><td>信号转导</td></tr>
+<tr><td>EZR</td><td>BioID</td><td>29568061</td><td>Cytoskeleton</td><td>否</td></tr>
+<tr><td>RUFY1</td><td>pull down</td><td>31585087</td><td>Endosome</td><td>否</td></tr>
+</tbody></table></div>
+<p><strong>STRING 预测互作</strong> (combined score &gt;0.4):</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>功能类别</th><th>调控相关？</th></tr></thead><tbody>
+<tr><td>PDPK1</td><td>0.996 (exp 0.955)</td><td>PDK1 kinase</td><td>信号传导</td></tr>
+<tr><td>RHOA</td><td>0.992 (exp 0.731)</td><td>Small GTPase</td><td>信号传导</td></tr>
+<tr><td>MEFV</td><td>0.956 (database 0.9)</td><td>Pyrin/炎症</td><td>否</td></tr>
+<tr><td>PKN1</td><td>0.923</td><td>同源激酶</td><td>否</td></tr>
+<tr><td>PKN3</td><td>0.906</td><td>同源激酶</td><td>否</td></tr>
+<tr><td>AKT1</td><td>0.816 (exp 0.325)</td><td>Pro-survival kinase</td><td>信号传导</td></tr>
+<tr><td>RAC1</td><td>0.820 (exp 0.353)</td><td>Small GTPase</td><td>信号传导</td></tr>
+<tr><td>RPS6KA1</td><td>0.761 (exp 0.292)</td><td>RSK kinase</td><td>信号传导</td></tr>
+<tr><td>NCK1/2</td><td>0.748/0.775 (exp 0.51/0.59)</td><td>Adaptor</td><td>信号传导</td></tr>
+</tbody></table></div>
+<p><strong>PPI 评价</strong>: PPI网络以Rho/Rac信号通路和蛋白激酶级联为主。PDPK1(PDK1)是PKN2的上游激活激酶，RHOA/RAC1是上游GTPase激活子。AKT1和RPS6KA1提示与PI3K/mTOR和MAPK通路的crosstalk。无STRONG chromatin/epigenetic调控partner。但Function注释明确PKN2磷酸化HDAC5(组蛋白去乙酰化酶)影响其核输入，这是一个直接的表观遗传调控链接，虽未反映在PPI数据库中。评分5分。</p>
+<h4>4. 总体评价</h4>
+<p><strong>推荐等级</strong>: 2星 (49.2/100)</p>
+<p><strong>核心优势</strong>: 1. 核定位多源确认 (UniProt实验证据 + GO nucleoplasm/nuclear body IDA) 2. HDAC5磷酸化提供与表观遗传调控的直接功能链接 3. PDB/AlphaFold双重结构验证</p>
+<p><strong>风险/不确定性</strong>: 1. PubMed 92篇，新颖性仅2分，接近淘汰阈值 2. 主要定位于胞质和膜结构，核功能非主导 3. 蛋白较大(984aa)，生化实验难度高 4. 27.3%无序区域，N端调控域无结构信息 5. PPI网络以细胞骨架/信号转导为主，染色质调控关联间接(仅通过HDAC5磷酸化)</p>
+<p><strong>下一步建议</strong>:</p>
+<ul><li>[ ] 验证PKN2在核内的底物谱(除HDAC5外还有哪些核蛋白被磷酸化)</li><li>[ ] 评估PKN2-HDAC5磷酸化轴在染色质调控中的功能意义</li></ul>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q16513</li><li>Protein Atlas: https://www.proteinatlas.org/search/PKN2</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=PKN2</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q16513</li><li>STRING: https://string-db.org/ (PKN2)</li><li>IntAct: https://www.ebi.ac.uk/intact/</li></ul>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/PKN2/PKN2-PAE.png</code></div></figure></p>
+<h5>PPI 网络</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th></tr></thead><tbody>
+<tr><td>PDPK1</td><td>STRING</td><td>0.996</td></tr>
+<tr><td>RHOA</td><td>STRING</td><td>0.992</td></tr>
+<tr><td>MEFV</td><td>STRING</td><td>0.956</td></tr>
+<tr><td>PKN1</td><td>STRING</td><td>0.923</td></tr>
+<tr><td>PKN3</td><td>STRING</td><td>0.906</td></tr>
+<tr><td>EBI-1257125</td><td>IntAct</td><td>psi-mi:&quot;MI:0096&quot;(pull down)</td></tr>
+<tr><td>EBI-1257113</td><td>IntAct</td><td>psi-mi:&quot;MI:0096&quot;(pull down)</td></tr>
+<tr><td>USP11</td><td>IntAct</td><td>psi-mi:&quot;MI:0007&quot;(anti tag coim</td></tr>
+</tbody></table></div>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/PKN2/PKN2-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

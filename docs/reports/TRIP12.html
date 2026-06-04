@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TRIP12 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>TRIP12</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 32</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/TRIP12/TRIP12-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;TRIP12&quot; date: 2026-06-01 tags: [protein-scout, nucleoplasm, evaluation] status: scored ---</p>
+<h3>TRIP12 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>TRIP12 / KIAA0045, ULF</td></tr>
+<tr><td>蛋白全名</td><td>E3 ubiquitin-protein ligase TRIP12</td></tr>
+<tr><td>蛋白大小</td><td>2067 aa / 228.5 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q14669</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>新权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>8/10</td><td>x4</td><td>32.0</td><td>UniProt Nucleus nucleoplasm (exp), GO nucleoplasm (IDA)/nuclear speck, HPA Nuclear speckles (Approved)</td></tr>
+<tr><td>蛋白大小</td><td>0/10</td><td>x1</td><td>0.0</td><td>2067 aa, 228.5 kDa，超大蛋白</td></tr>
+<tr><td>研究新颖性</td><td>2/10</td><td>x5</td><td>10.0</td><td>PubMed strict=92, broad=135</td></tr>
+<tr><td>三维结构</td><td>5/10</td><td>x3</td><td>15.0</td><td>AlphaFold pLDDT 66.8；PDB 4 个结构（X-ray domain + EM partial）</td></tr>
+</tbody></table></div>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/TRIP12/TRIP12-PAE.png</code></div></figure></p>
+<div class="table-wrap"><table>
+<tbody>
+<tr><td>调控结构域</td><td>5/10</td><td>x2</td><td>10.0</td><td>HECT E3 ligase domain + WWE domain + ARM repeat，泛素化调控</td></tr>
+<tr><td>PPI 网络</td><td>4/10</td><td>x3</td><td>12.0</td><td>STRING UBR1/UBR2/USP7 强实验，UBE2D1/CDKN2A/RNF168；IntAct + UniProt 中等</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>79/180</strong>**</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+0.0</td><td></td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>43.2/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Nucleus, nucleoplasm (ECO:0000269, experimental)</td><td>高（exp 证据）</td></tr>
+<tr><td>GO-CC</td><td>nucleoplasm (IDA:UniProtKB), nuclear speck (IDA:HPA), nucleus (HDA:UniProtKB), cytosol (TAS:Reactome)</td><td>高（多来源 IDA）</td></tr>
+<tr><td>HPA IF</td><td>Nuclear speckles (Approved 可靠性)</td><td>中-高</td></tr>
+<tr><td>Literature</td><td>TRIP12 作为 E3 泛素连接酶在核内调控 RNF168/DNA 损伤应答、降解 CDKN2A/p19ARF</td><td>中-高</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 状态</strong>: IF available -- HPA 可靠性 Approved，定位 Nuclear speckles（仅该定位，无附加定位）。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/TRIP12/TRIP12_IF_red_green.jpg</code></div></figure></p>
+<p><strong>结论</strong>: TRIP12 核定位证据充分（UniProt exp + GO IDA + HPA），HPA IF 显示纯核 speckle 分布，无细胞质/膜附加定位。但蛋白巨大（2067 aa/228.5 kDa）。</p>
+<h5>3.2 结构与数据源</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold</td><td>AF-Q14669-F1</td></tr>
+<tr><td>平均 pLDDT</td><td>66.8</td></tr>
+<tr><td>pLDDT &gt;90</td><td>25.7%</td></tr>
+<tr><td>pLDDT 70-90</td><td>33.2%</td></tr>
+<tr><td>pLDDT &lt;50</td><td>34.6%</td></tr>
+<tr><td>PDB</td><td>4 个结构 (9BKR/9BKS X-ray HECT-WWE domain 1.17-1.40A; 9GKM/9GKN EM C-terminal 478-2067 3.4-3.69A)</td></tr>
+</tbody></table></div>
+<p><strong>AlphaFold PAE 状态</strong>: PAE 已下载。pLDDT 均值 66.8，HECT 催化域 (803-881 aa) 有高分辨 X-ray 结构，C 端 478-2067 有 EM 结构。N 端 1-477 aa 在 PDB 中缺失，预测显示大段无序区。整体为典型的 E3 连接酶多结构域架构。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict (Title/Abstract)</td><td>92</td></tr>
+<tr><td>PubMed broad</td><td>135</td></tr>
+<tr><td>别名</td><td>KIAA0045, ULF（未用于 scoring）</td></tr>
+</tbody></table></div>
+<p>关键文献：</p>
+<ul><li>PMID:40128189: &quot;Combinatorial ubiquitin code degrades deubiquitylation-protected substrates.&quot; (Nat Commun, 2025)</li><li>PMID:40473626: &quot;The TRIP12 E3 ligase induces SWI/SNF component BRG1-beta-catenin interaction to promote Wnt signaling.&quot; (Nat Commun, 2025) -- 涉及染色质重塑</li><li>PMID:22884692: TRIP12 通过泛素化 RNF168 调控 DNA 损伤染色质应答</li><li>PMID:20208519: TRIP12 介导 p19ARF 的泛素化降解</li></ul>
+<h5>3.4 PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>UBR1</td><td>STRING</td><td>0.973 (exp 0.912)</td><td>N-end rule E3 ligase</td></tr>
+<tr><td>UBR2</td><td>STRING</td><td>0.964 (exp 0.912)</td><td>N-end rule E3 ligase</td></tr>
+<tr><td>USP7</td><td>STRING</td><td>0.963 (exp 0.778)</td><td>DUB, p53/MDM2 通路</td></tr>
+<tr><td>UBE2D1</td><td>STRING</td><td>0.910 (exp 0.835)</td><td>E2 泛素结合酶</td></tr>
+<tr><td>CDKN2A</td><td>STRING</td><td>0.894 (exp 0.785)</td><td>TRIP12 ubiquitination substrate</td></tr>
+<tr><td>MYC</td><td>UniProt</td><td>7 experiments</td><td>转录因子，竞争性抑制 TRIP12</td></tr>
+<tr><td>NPM1</td><td>UniProt</td><td>2 experiments</td><td>核仁蛋白</td></tr>
+<tr><td>RNF168</td><td>IntAct</td><td>pull down (PMID:22884692)</td><td>DNA 损伤染色质泛素化</td></tr>
+<tr><td>USP7</td><td>IntAct</td><td>coIP (PMID:19615732)</td><td>DUB 互作</td></tr>
+</tbody></table></div>
+<p>STRING 互作网络以泛素化系统蛋白为主（UBR1/UBR2 N-end rule 通路，USP7 DUB），实验验证度中高。IntAct 含 CFTR, ESR1, DISC1 等多条互作但部分为筛选级别。UniProt 互作数量有限。</p>
+<h4>4. 总体评价</h4>
+<p>TRIP12 是核 speckle 定位的 HECT E3 连接酶，核定位证据扎实且 HPA 定位单一（仅 Nuclear speckles）。主要劣势为蛋白极大（228 kDa）和 PubMed 文献量偏高（92）。其与染色质/DNA 损伤通路的连接（RNF168, beta-catenin/SWI-SNF）提供了一定的转录调控关联，但总体更适合作为核 E3 连接酶而非染色质直接调控因子。</p>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q14669</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q14669</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=TRIP12</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000153827-TRIP12</li></ul>
+<p>HPA IF 图像已本地嵌入。</p>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/TRIP12/TRIP12-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ARNT · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>ARNT</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 3</span><span class="badge">Nuclear: 3</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/ARNT/ARNT-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;ARNT&quot; date: 2026-05-28 tags: [protein-scout, nuclear-protein, evaluation] status: scored ---</p>
+<h3>ARNT 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>ARNT / BHLHE2, HIF-1-beta, HIF1B, HIF1-beta</td></tr>
+<tr><td>蛋白全称</td><td>Aryl hydrocarbon receptor nuclear translocator</td></tr>
+<tr><td>蛋白大小</td><td>789 aa / 86.6 kDa</td></tr>
+<tr><td>UniProt ID</td><td>P27540 (ARNT_HUMAN)</td></tr>
+<tr><td>评估日期</td><td>2026-05-28</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>满分</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>🔴 核定位特异性</td><td>10/10</td><td>×3</td><td><strong>30</strong></td><td>严格核蛋白; &quot;Nuclear translocator&quot;; 3+ 源一致确认 Nucleus/Nucleoplasm</td></tr>
+<tr><td>📏 蛋白大小</td><td>10/10</td><td>×2</td><td><strong>20</strong></td><td>789 aa, 接近上限但仍在 300-800 区间</td></tr>
+<tr><td>🆕 研究新颖性</td><td>2/10</td><td>×3</td><td><strong>6</strong></td><td>PubMed 1985 篇, 极度热门 (HIF-1β/AhR 通路核心), 拥挤赛道</td></tr>
+<tr><td>🏗️ 三维结构</td><td>5/10</td><td>×3</td><td><strong>15</strong></td><td>平均 pLDDT=55.5; 58.7% 无序; 但 bHLH+PAS 域有 37+ 高分辨率 PDB 结构</td></tr>
+<tr><td>🧬 调控结构域</td><td>10/10</td><td>×2</td><td><strong>20</strong></td><td>bHLH + PAS×2 + PAC 域; 5+ 数据库一致确认; 有 DNA 结合突变验证</td></tr>
+<tr><td>🔗 PPI</td><td>8/10</td><td>×3</td><td><strong>24</strong></td><td>详见 3.6 PPI 分析</td></tr>
+<tr><td><strong>原始总分</strong></td><td></td><td></td><td><strong>119/158</strong></td><td></td></tr>
+<tr><td><strong>归一化总分</strong></td><td></td><td></td><td><strong>75.3/100</strong></td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>GeneCards</td><td>Domain:BHLH(89-142); Domain:PAS(161-235); Domain:PAS(368-416); Region:Disordered(1-97)</td></tr>
+<tr><td>---</td><td>---</td></tr>
+<tr><td>UniProt</td><td>Nucleus (SL-0191) — 无 Cytoplasm 注释</td><td>ECO:0000305 (PubMed, 2021)</td><td>GO</td><td>Nucleus (IDA:UniProtKB), Nucleoplasm (IDA:HPA), Nuclear body (IDA:HPA), Chromatin (ISA:NTNU_SB)</td><td>实验证据</td></tr>
+<tr><td>Protein Atlas</td><td>Nucleoplasm, Nuclear speckles — Supported</td><td>HPA001759</td></tr>
+</tbody></table></div>
+<p><strong>IF 图像</strong>: <figure><div class="missing-image">Missing local image: <code>../assets/report-images/ARNT/U2OS_1.jpg</code></div></figure> <figure><div class="missing-image">Missing local image: <code>../assets/report-images/ARNT/A431_1.jpg</code></div></figure></p>
+<p><strong>结论</strong>: ARNT 作为「aryl hydrocarbon receptor <strong>nuclear translocator</strong>」, 其名称本身就表明核定位功能。UniProt 仅标注 Nucleus, GO 同时有 Nucleoplasm 和 Nuclear body 注释, 甚至 Chromatin 注释 (ISA:NTNU_SB), 证实其直接参与染色质水平的转录调控。Protein Atlas IF 确认 Nucleoplasm + Nuclear speckles 分布。GO 中虽有 cytoplasm (IEA:Ensembl, 电子注释), 但 UniProt 无 Cytoplasm 定位。<strong>评分 10 分</strong>。</p>
+<p><strong>IF 图像</strong>:</p>
+<h5>3.2 蛋白大小评估</h5>
+<p>789 aa / 86.6 kDa — 在 300-800 aa 边界 (接近 800 aa 上限)。略大于理想区间, 但仍在实验可行范围内。bHLH-PAS 结构域簇 (~90-470) 占据了约 380 aa, C 端反式激活域 (~500-789) 贡献剩余大小。<strong>评分 10 分</strong>。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed 总数</td><td>1985</td></tr>
+<tr><td>最早发表年份</td><td>1991</td></tr>
+<tr><td>Chromatin/epigenetics 方向占比</td><td>~5% (绝大多数是 AhR/HIF 信号通路)</td></tr>
+</tbody></table></div>
+<p><strong>主要研究方向</strong>:</p>
+<ul><li>二恶英/AhR 信号通路 (外源性化合物代谢)</li><li>低氧应答 HIF 通路 (HIF-1β 身份)</li><li>生物钟调控 (与 BMAL1/CLOCK 形成异源二聚体)</li><li>血管生成和肿瘤微环境</li><li>结构生物学 (bHLH-PAS 域高分辨率结构)</li></ul>
+<p><strong>评价</strong>: ARNT 是分子毒理学和低氧生物学的明星分子。1985 篇发表使其成为极度热门的研究目标。作为 HIF-1β 和 AhR 的专性二聚化伙伴, 其功能已被深入研究。染色质调控角度虽然文献存在 (HIF-1 靶基因的染色质调控), 但绝大多数研究将其视为「二聚化伙伴」而非独立研究对象。对 TE 调控的 niche 空间极小 — 这个赛道非常拥挤。<strong>评分 2 分</strong>。</p>
+<h5>3.4 三维结构分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold 平均 pLDDT</td><td>55.5</td></tr>
+<tr><td>PDB 实验结构</td><td>—</td></tr>
+<tr><td>Very High (&gt;90)</td><td>19.1% (151 aa)</td></tr>
+<tr><td>Confident (70-90)</td><td>14.4% (114 aa)</td></tr>
+<tr><td>Low (50-70)</td><td>7.7% (61 aa)</td></tr>
+<tr><td>Very Low (&lt;50)</td><td>58.7% (463 aa)</td></tr>
+<tr><td>高置信度折叠域</td><td><strong>92-141</strong> (bHLH, 50 aa, pLDDT=90.0), <strong>174-225</strong> (PAS-A N-term, 52 aa, pLDDT=88.8), <strong>362-464</strong> (PAS-B, 103 aa, pLDDT=92.5)</td></tr>
+<tr><td>可用 PDB 条目</td><td><strong>37 条</strong> (1.17-4.00 A 分辨率, X-ray/NMR/EM) — 涵盖 bHLH-PAS-A (8XSB, 3.06A) 和 PAS-B (3F1P, 1.17A)</td></tr>
+</tbody></table></div>
+<p><strong>PAE 图</strong>: <figure><div class="missing-image">Missing local image: <code>../assets/report-images/ARNT/ARNT-PAE.png</code></div></figure></p>
+<p><strong>PAE 数值分析</strong>:</p>
+<ul><li>PAE 矩阵 789×789, 总体均值 26.06 Å</li><li>PAE &lt;5 Å: 3.8% (极低)</li><li>PAE &lt;10 Å: 5.9% (极低)</li><li>蛋白整体柔性极大, C 端反式激活域完全无序</li></ul>
+<p><strong>评价</strong>: ARNT 展示了「有序域+长无序区」的经典转录因子结构模式。58.7% 的序列为无序 (主要在 N 端 1-97 和 C 端 465-789), 但 bHLH-PAS 域簇 (90-467) 的结构研究极为透彻。37 条 PDB 条目包含:</p>
+<ul><li>bHLH-PAS-A 域 (8XSB 系列, 2024 年发布, 2.60-3.11A) — 完整展示了 ARNT:AHR 与 DNA 的三元复合物</li><li>PAS-B 域 (3F1P, 1.17A 超高分辨率) — 为药物设计提供原子水平细节</li><li>多种配体结合的 PAS-B 结构 (6CZW/6D09/6D0B 等, 1.50-1.85A)</li></ul>
+<p>AlphaFold 预测质量中等 (pLDDT=55.5 受无序区拖累), 但实验结构覆盖极好。<strong>评分 5 分</strong> (整体无序但关键结构域实验验证极为充分)。</p>
+<h5>3.5 结构域分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>结构域</th></tr></thead><tbody>
+<tr><td>UniProt</td><td><strong>bHLH</strong> (89-142, PROSITE PRU00981), <strong>PAS 1</strong> (161-235), <strong>PAS 2</strong> (349-419), <strong>PAC</strong> (424-467)</td></tr>
+<tr><td>InterPro</td><td>IPR011598 (bHLH domain), IPR000014 (PAS domain), IPR001610 (PAC motif), IPR001067 (Nuclear translocator family), IPR013767 (PAS fold), IPR035965 (PAS superfamily), IPR036638 (HLH DNA-binding superfamily), IPR050933 (Circadian Clock TF family)</td></tr>
+<tr><td>SMART</td><td>SM00353 (HLH), SM00091 (PAS ×2), SM00086 (PAC)</td></tr>
+<tr><td>Pfam</td><td>PF00010 (HLH), PF00989 (PAS), PF14598 (PAS_11)</td></tr>
+<tr><td>PROSITE</td><td>PS50888 (bHLH), PS50112 (PAS ×2)</td></tr>
+<tr><td>CDD</td><td>cd18947 (bHLH-PAS_ARNT)</td></tr>
+</tbody></table></div>
+<p><strong>染色质调控潜力分析</strong>: ARNT 具备经典的 bHLH-PAS 转录因子结构域架构。bHLH 域直接结合 DNA (5&#x27;-TACGTG-3&#x27; HRE 或 5&#x27;-TGCGTG-3&#x27; DRE), 突变验证充分: R91A/N93A/H94A/E98A/R99A/R101A/R102A 均削弱 DNA 结合 (Bacsi 1996, JBC)。PAS 域介导蛋白二聚化 — ARNT 与 AHR, HIF1A, EPAS1, NPAS1, NPAS3, NPAS4, SIM1, SIM2 等异源二聚化。PAC 域 (424-467) 辅助 PAS 折叠。5+ 数据库一致确认所有结构域。DNA binding 和 protein dimerization 均有 GO 注释。染色质调控通过 bHLH-DNA 结合 + 招募 EP300/CREBBP (HAT 活性) 实现。<strong>评分 10 分</strong>。</p>
+<h5>3.6 PPI :</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>实验次数</th><th>功能</th></tr></thead><tbody>
+<tr><td>HIF1A</td><td>13</td><td>低氧诱导因子 α 亚基, TF</td></tr>
+<tr><td>EPAS1</td><td>8</td><td>HIF2α, TF</td></tr>
+<tr><td>AHR</td><td>7</td><td>二恶英受体, TF</td></tr>
+<tr><td>NCOA7</td><td>2</td><td>核受体共激活因子</td></tr>
+<tr><td>NCOR2</td><td>2</td><td>核受体共抑制因子</td></tr>
+</tbody></table></div>
+<p><strong>STRING Top partners</strong> (score &gt;0.87):</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>功能类别</th><th>与调控相关？</th></tr></thead><tbody>
+<tr><td>AHR</td><td>0.999</td><td>bHLH TF, 二恶英受体</td><td>✅</td></tr>
+<tr><td>EP300</td><td>0.999</td><td>组蛋白乙酰转移酶 (HAT)</td><td>✅</td></tr>
+<tr><td>EPAS1</td><td>0.999</td><td>HIF2α, bHLH TF</td><td>✅</td></tr>
+<tr><td>HIF3A</td><td>0.999</td><td>HIF3α 抑制性亚基</td><td>✅</td></tr>
+<tr><td>HIF1A</td><td>0.999</td><td>HIF1α, bHLH TF</td><td>✅</td></tr>
+<tr><td>NPAS4</td><td>0.998</td><td>神经元 bHLH TF</td><td>✅</td></tr>
+<tr><td>SIM1</td><td>0.979</td><td>bHLH TF</td><td>✅</td></tr>
+<tr><td>CREBBP</td><td>0.968</td><td>组蛋白乙酰转移酶 (HAT)</td><td>✅</td></tr>
+<tr><td>SIM2</td><td>0.962</td><td>bHLH TF</td><td>✅</td></tr>
+<tr><td>EGLN1</td><td>0.943</td><td>HIF 脯氨酰羟化酶</td><td>⚠️</td></tr>
+<tr><td>EGLN3</td><td>0.929</td><td>HIF 脯氨酰羟化酶</td><td>⚠️</td></tr>
+<tr><td>VHL</td><td>0.925</td><td>E3 泛素连接酶</td><td>⚠️</td></tr>
+<tr><td>AHRR</td><td>0.894</td><td>AhR 通路抑制因子</td><td>✅</td></tr>
+<tr><td>NPAS1</td><td>0.878</td><td>bHLH TF</td><td>✅</td></tr>
+</tbody></table></div>
+<p><strong>PPI 互证</strong> (STRING vs IntAct):</p>
+<div class="table-wrap"><table>
+<thead><tr><th>共同 Partner</th><th>STRING Score</th><th>IntAct 实验次数</th></tr></thead><tbody>
+<tr><td>AHR</td><td>0.999</td><td>7</td></tr>
+<tr><td>HIF1A</td><td>0.999</td><td>13</td></tr>
+<tr><td>EPAS1</td><td>0.999</td><td>8</td></tr>
+</tbody></table></div>
+<p><strong>调控相关比例</strong>: 11/20 (55%)</p>
+<p><strong>评价</strong>: ARNT 的 PPI , EPAS1/HIF2A 2. <strong>AhR 外源性化合物通路</strong>: AHR-AHRR 对, 直接招募 EP300/CREBBP HAT 3. <strong>生物钟</strong>: NPAS1, NPAS4, SIM1/SIM2 4. <strong>表观遗传</strong>: EP300/CREBBP 作为组蛋白乙酰转移酶, 是 ARNT 复合物的转录共激活因子 STRING + IntAct 高度一致 — Top 3 partner 全部在两个数据库中确认, 且均为实验验证。这是 PPI 数据质量极高的信号。<strong>评分 10 分</strong>。</p>
+<h5>3.7 多库互证</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>来源</th><th>结果</th><th>是否一致</th></tr></thead><tbody>
+<tr><td>三维结构</td><td>AlphaFold PAS-B pLDDT=92.5 vs PDB 3F1P (1.17A); bHLH pLDDT=90.0 vs PDB 8XSB (3.06A)</td><td>37 条 PDB 结构全覆盖 AF 预测的折叠域, fold 完全一致</td><td>✅</td></tr>
+<tr><td>结构域</td><td>UniProt / InterPro / SMART / Pfam / PROSITE</td><td>5+ 源一致检出 bHLH + PAS×2 + PAC</td><td>✅</td></tr>
+<tr><td>结构域功能</td><td>GO (DNA binding, protein dimerization, transcription factor activity)</td><td>功能注释与 bHLH-PAS 架构完全一致</td><td>✅</td></tr>
+<tr><td>PPI</td><td>STRING (Top 3: AHR/HIF1A/EPAS1) vs IntAct (AHR 7次/HIF1A 13次/EPAS1 8次)</td><td>两数据库 Top partner 高度重叠, 且全部有实验验证</td><td>✅</td></tr>
+<tr><td>PPI Top 10 重叠</td><td>STRING Top 10 vs IntAct Top interacting partners</td><td>AHR/HIF1A/EPAS1 = 3 个重叠</td><td>✅</td></tr>
+<tr><td>定位</td><td>Protein Atlas IF / UniProt / GO</td><td>均确认 Nucleoplasm/Nucleus</td><td>✅</td></tr>
+<tr><td>进化保守性</td><td>小鼠 Arnt, 果蝇 Tango, 线虫 AHA-1</td><td>模式生物中高度保守</td><td>✅</td></tr>
+</tbody></table></div>
+<p><strong>互证加分明细</strong>:</p>
+<ul><li>三维结构互证: AlphaFold bHLH+PAS-B 高置信度域在 37 条 PDB 中有实验结构吻合, fold 一致 → <strong>+1.0</strong></li><li>结构域互证: ≥3 来源检出所有结构域 (实际 5+ 源) → <strong>+0.5</strong></li><li>Domain-GO 注释一致: DNA binding + dimerization + transcription factor activity → <strong>+0.5</strong></li><li>PPI 互证: STRING + IntAct 共同预测 AHR/HIF1A/EPAS1, 且有实验验证 → <strong>+1.0</strong></li><li>定位互证: ≥2 来源 → <strong>+0.5</strong></li><li>进化保守性: 小鼠/果蝇/线虫明确同源 → <strong>+0.5</strong></li></ul>
+<p><strong>总分</strong>: <strong>+3.0</strong> / max +3 (截顶)</p>
+<h4>4. 总体评价</h4>
+<p><strong>推荐等级</strong>: ⭐⭐⭐ (3/5)</p>
+<p><strong>核心优势</strong>: 1. 严格核蛋白 + 「nuclear translocator」命名, 定位确凿 2. 结构研究极为透彻 — 37 条 PDB 结构, bHLH-PAS-A 与 DNA 三元复合物结构为 2024 年最新发表 3. PPI → 明确的染色质调控机制 5. bHLH 域提供序列特异性 DNA 结合 — 可做 ChIP-seq 等全基因组实验</p>
+<p><strong>风险/不确定性</strong>: 1. ⛔ <strong>极度热门</strong> — 1985 篇 PubMed, HIF/AhR 领域极度拥挤, TE 调控的原创性空间极小 2. ⛔ 大多数研究者将 ARNT 视为「二聚化伙伴」而非独立研究对象 — 提出 ARNT 的独立染色质功能需要克服学科惯性 3. ⛔ 58.7% 序列为无序 — C 端反式激活域 (465-789) 几乎全无序, 实验操作可能困难 4. ⚠️ ARNT 基因敲除小鼠胚胎致死 (胎盘发育缺陷) — 体内功能研究门槛高 5. ⚠️ 作为 HIF-1β, ARNT 的研究预算和竞争都非常激烈</p>
+<p><strong>核心判断</strong>: ARNT 是一个<strong>已被充分研究、赛道拥挤</strong>的蛋白。虽然它在结构和功能上都是「理想蛋白」(结构清楚、PPI 验证充分、DNA 结合明确), 但在 TE 调控方向提出原创性研究问题的空间极为有限。除非找到 ARNT 在 TE 调控中的<strong>独特而非冗余的角色</strong>（与 HIF/AhR 通路独立）, 否则不建议作为主攻目标。</p>
+<p><strong>下一步建议</strong>:</p>
+<ul><li>[ ] 如果对 ARNT 感兴趣, 建议从 ARNT 的 TE 结合特异性入手 — 已知 ARNT:AHR 结合 XRE (5&#x27;-TGCGTG-3&#x27;), 但 ARNT 是否独立结合特定 TE 序列 (不与 AHR/HIF1A 形成复合物)?</li><li>[ ] 探索 ARNT 的非经典 partner (SMART 中 NCOA7/NCOR2 互作数据较少)</li><li>[ ] <strong>中等优先级</strong> — 得分 75.3/100, 除非有独特的 TE 调控 hypothesis, 否则建议优先考虑 ARID3A/ARID3B</li></ul>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/P27540</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000143437-ARNT/subcellular</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22ARNT%22%5BTitle/Abstract%5D</li><li>InterPro: https://www.ebi.ac.uk/interpro/protein/UniProt/P27540/</li><li>STRING: https://string-db.org/network/9606.ENSP00000351407</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/P27540</li><li>PDB 3F1P: https://www.rcsb.org/structure/3F1P</li><li>PDB 8XSB: https://www.rcsb.org/structure/8XSB</li></ul>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/ARNT/ARNT-PAE.png</code></div></figure></p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/ARNT/ARNT-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

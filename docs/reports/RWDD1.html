@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RWDD1 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>RWDD1</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 1</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/RWDD1/RWDD1-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;RWDD1&quot; date: 2026-06-04 tags: [protein-scout, re-evaluation, recovery-from-false-rejection] status: scored ---</p>
+<h3>RWDD1 -- Re-evaluation Report (Recovery from False-Rejection)</h3>
+<h4>1. Basic Information</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Item</th><th>Content</th></tr></thead><tbody>
+<tr><td>Gene / Aliases</td><td>RWDD1 / CGI-24, PTD013, DFRP2</td></tr>
+<tr><td>Protein Name</td><td>RWD Domain Containing 1 (DRG family-regulatory protein 2)</td></tr>
+<tr><td>Protein Size</td><td>243 aa (isoform a); 147 aa (isoform b)</td></tr>
+<tr><td>UniProt ID</td><td>Q9H446 (RWDD1_HUMAN)</td></tr>
+<tr><td>Evaluation Date</td><td>2026-06-04</td></tr>
+<tr><td>Previous Status</td><td>Previously unscored; flagged for re-evaluation</td></tr>
+<tr><td>Re-evaluation Reason</td><td>Complete re-evaluation per batch recovery protocol</td></tr>
+</tbody></table></div>
+<h4>2. Scoring Overview</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Score</th><th>Max</th><th>Weighted</th><th>Key Evidence Summary</th></tr></thead><tbody>
+<tr><td>Nuclear Localization Specificity</td><td>4/10</td><td>x4</td><td><strong>16</strong></td><td>AR coactivator with nuclear functional role; primarily cytoplasmic localization in mammalian cells</td></tr>
+<tr><td>Protein Size</td><td>10/10</td><td>x1</td><td><strong>10</strong></td><td>243 aa, well within ideal range</td></tr>
+<tr><td>Research Novelty</td><td>8/10</td><td>x5</td><td><strong>40</strong></td><td>PubMed ~30 articles; moderately novel (21-40 -&gt; 8)</td></tr>
+<tr><td>3D Structure</td><td>4/10</td><td>x3</td><td><strong>12</strong></td><td>Intrinsically unstructured protein; AlphaFold likely low confidence; no PDB entries</td></tr>
+<tr><td>Regulatory Domains</td><td>5/10</td><td>x2</td><td><strong>10</strong></td><td>RWD domain (protein interaction); AR coactivator function; sumoylation site</td></tr>
+<tr><td>PPI Network</td><td>4/10</td><td>x3</td><td><strong>12</strong></td><td>DRG2 interaction confirmed; AR/GR interaction; limited overall network</td></tr>
+<tr><td>Cross-Validation Bonus</td><td>--</td><td>--</td><td><strong>+0.5</strong></td><td>AR + GR coactivation consensus (+0.5)</td></tr>
+<tr><td><strong>Raw Total</strong></td><td></td><td></td><td><strong>100.5/180</strong></td><td></td></tr>
+<tr><td><strong>Normalized Total</strong></td><td></td><td></td><td><strong>55.8/100</strong></td><td></td></tr>
+</tbody></table></div>
+<h4>3. Nuclear Localization Evidence</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Source</th><th>Localization</th><th>Reliability</th></tr></thead><tbody>
+<tr><td>Xenbase (Xenopus)</td><td>Nucleus</td><td>Developmental model</td></tr>
+<tr><td>OMIM (Kang et al., 2008)</td><td>Cytoplasm (GFP-tagged, 293T cells)</td><td>Experimental -- does not translocate to nucleus upon testosterone</td></tr>
+<tr><td>UniProt (Rat)</td><td>Cytoplasm</td><td>Experimental</td></tr>
+<tr><td>Grotsch et al., 2012</td><td>Cytosol (urethral epithelium, mouse)</td><td>Experimental</td></tr>
+<tr><td>OMIM (functional)</td><td>Transcription factor activity</td><td>Inferred from AR coactivation</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF Status</strong>: HPA IF data not available for this protein.</p>
+<p><strong>Manual Review Assessment</strong>: RWDD1 presents a complex localization picture. While annotated as a transcription factor/AR coactivator by OMIM (implying nuclear function), the majority of experimental evidence in mammalian cells places it in the cytoplasm. Xenopus data reports nuclear localization, but this may be species- or developmental stage-specific. The protein functions as a coactivator for androgen receptor (AR) and glucocorticoid receptor (GR) -- nuclear receptors whose transcriptional activity occurs in the nucleus. However, RWDD1 may exert its coactivator function indirectly (e.g., through cytoplasmic modulation of receptor trafficking or stability) rather than through direct nuclear residence. It also protects DRG2 (a cytoplasmic protein) from degradation.</p>
+<p><strong>Key ambiguity</strong>: Does RWDD1 need to be in the nucleus to function as an AR coactivator, or does it act from the cytoplasm? The published data lean toward cytoplasmic action. Score 4/10 reflects some evidence for nuclear relevance (AR coactivator function) but predominantly cytoplasmic localization in mammalian cells. Above the ≤3 rejection threshold.</p>
+<h4>4. Protein Size Assessment</h4>
+<p>RWDD1 is 243 amino acids (isoform a), well within the ideal 200-800 aa range. Given its classification as an intrinsically unstructured protein (IUP), its small size is advantageous -- smaller IDPs are easier to characterize than large ones. Size score: 10/10.</p>
+<h4>5. Research Novelty (PubMed Analysis)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody>
+<tr><td>PubMed estimated count</td><td>~25-35</td></tr>
+<tr><td>Novelty category</td><td>21-40 -&gt; Score 8</td></tr>
+</tbody></table></div>
+<p>RWDD1 has been studied primarily in the context of androgen receptor signaling and as a DRG2-interacting protein. Key publications include characterization of its AR coactivator function and its role in protecting DRG2 from proteolytic degradation. Research is limited but not extremely sparse. Some publications on the broader RWD domain family and sumoylation biology also reference RWDD1. Score 8/10.</p>
+<h4>6. 3D Structure Analysis</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody>
+<tr><td>AlphaFold Prediction</td><td>Available (predicted low confidence)</td></tr>
+<tr><td>PDB Entries</td><td>0</td></tr>
+<tr><td>Protein Class</td><td>Intrinsically unstructured protein (IUP)</td></tr>
+</tbody></table></div>
+<p>RWDD1 is a member of the intrinsically unstructured protein family, sharing high sequence similarity with yeast Gir2. It is sensitive to limited protease digestion and migrates at a higher apparent molecular weight than predicted (~27 kDa), consistent with a partially unfolded state. As an IUP, it is unlikely to have a single well-defined 3D structure, which limits the utility of AlphaFold predictions. Score 4/10 reflects the structural challenges inherent to IDPs rather than poor prediction quality per se.</p>
+<h4>7. Domain Architecture</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Source</th><th>Domain/Feature</th><th>Notes</th></tr></thead><tbody>
+<tr><td>InterPro</td><td>RWD domain (IPR006575)</td><td>Protein-protein interaction; found in ubiquitin-conjugating enzymes and signaling proteins</td></tr>
+<tr><td>Pfam</td><td>RWD domain (PF05773)</td><td>Named after RING finger, WD repeat, DEAD-like helicases</td></tr>
+<tr><td>Post-translational</td><td>Sumoylation site (K90)</td><td>Enhances transcriptional repression activity (shown in Urechis)</td></tr>
+</tbody></table></div>
+<p>The RWD domain is the sole annotated domain. While it mediates protein-protein interactions, it does not directly confer DNA-binding, chromatin-modifying, or other canonical regulatory activities. The sumoylation site at K90 has been shown to enhance transcriptional repression in invertebrate models, suggesting that post-translational modification may modulate RWDD1&#x27;s regulatory function. Score 5/10 reflects domain-mediated interaction capabilities with limited direct regulatory function.</p>
+<h4>8. PPI Network Analysis</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Context</th><th>Evidence</th></tr></thead><tbody>
+<tr><td>AR (Androgen Receptor)</td><td>Coactivation</td><td>Direct interaction via LBD</td></tr>
+<tr><td>GR (Glucocorticoid Receptor)</td><td>Coactivation</td><td>Functional enhancement</td></tr>
+<tr><td>DRG2</td><td>Protection from degradation</td><td>Protein stabilization</td></tr>
+</tbody></table></div>
+<p>RWDD1 has a focused but functionally relevant interaction network centered on nuclear receptor coactivation and DRG2 stabilization. The interaction with AR is direct (via the C-terminal ligand-binding domain), and the coactivation effect is independent of the AF2 hydrophobic pocket -- a unique mechanism. The PPI network is limited in scope but mechanistically well-defined. Score 4/10 reflects functional relevance of interactions but limited overall network breadth.</p>
+<h4>9. Cross-Validation Analysis</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Sources</th><th>Result</th><th>Consistent?</th></tr></thead><tbody>
+<tr><td>AR Coactivation</td><td>OMIM + UniProt + Literature</td><td>AR/GR coactivator</td><td>Consistent</td></tr>
+<tr><td>Localization</td><td>OMIM (mammalian) + UniProt (rat)</td><td>Primarily cytoplasmic</td><td>Consistent across mammalian data</td></tr>
+<tr><td>DRG2 Protection</td><td>Literature</td><td>Functional interaction</td><td>Validated</td></tr>
+</tbody></table></div>
+<p><strong>Cross-Validation Bonus Details</strong>:</p>
+<ul><li>AR + GR coactivation consensus from multiple sources: +0.5</li><li>Limited structural cross-validation (IUP, no PDB): +0</li><li>Limited PPI cross-validation: +0</li><li><strong>Total Cross-Validation Bonus</strong>: +0.5 / max +3</li></ul>
+<h4>10. Overall Assessment</h4>
+<p><strong>Recommendation Level</strong>: CONDITIONALLY RECOMMENDED (Score: 55.8/100)</p>
+<p><strong>Core Strengths</strong>: 1. AR/GR coactivator function provides nuclear functional relevance 2. Small protein size (243 aa) ideal for experimental characterization 3. Unique coactivation mechanism (AF2-independent) offers mechanistic novelty 4. Intrinsically unstructured nature may enable discovery of disorder-to-order transitions 5. RWD domain mediates specific protein-protein interactions</p>
+<p><strong>Risks / Uncertainties</strong>: 1. Localization is predominantly cytoplasmic in mammalian cells -- nuclear relevance is functional, not physical (score 4/10) 2. As an IDP, structural characterization is challenging 3. Limited PPI network scope 4. Species-dependent localization differences (Xenopus nuclear vs. mammalian cytoplasmic) 5. Coactivator function may be indirect (e.g., affecting receptor trafficking rather than direct transcriptional regulation)</p>
+<p><strong>Next Steps</strong>:</p>
+<ul><li>[ ] Determine whether RWDD1 enters the nucleus under specific conditions (cell type, stimulus, cell cycle)</li><li>[ ] Characterize the mechanism of AF2-independent AR coactivation</li><li>[ ] Investigate whether sumoylation at K90 affects subcellular localization</li><li>[ ] Profile disorder-to-order transitions upon partner binding</li></ul>
+<h4>11. Decision</h4>
+<p><strong>FINAL DECISION</strong>: NOT REJECTED. Nuclear localization score 4/10 is above the ≤3 rejection threshold, and PubMed count (~25-35) is below the &gt;100 rejection threshold. However, the predominantly cytoplasmic localization pattern and IDP structural nature result in a lower priority score (55.8/100). RWDD1 is a viable candidate but should be prioritized below genes with stronger nuclear enrichment and higher structural tractability. The AF2-independent AR coactivation mechanism is unique and may represent a novel regulatory paradigm worth investigating.</p>
+<h4>12. Data Sources</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9H446</li><li>OMIM: https://www.omim.org/entry/620844</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=RWDD1</li><li>GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=RWDD1</li><li>Note: Harvest packet not available; data compiled from UniProt, OMIM, and literature database queries</li></ul></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

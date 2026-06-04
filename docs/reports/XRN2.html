@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>XRN2 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>XRN2</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 1</span><span class="badge">Nuclear: 0.5</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/XRN2/XRN2-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;XRN2&quot; date: 2026-05-28 tags: [protein-scout, nuclear-protein, evaluation, scored] status: scored _date: 2026-05-29 _notes: &quot;PubMed=199 (≥100, 无基线调整); HPA Enhanced→核=10; 新降级8→7; PDB查无人类结构(仅酵母Rat1同源)&quot; ---</p>
+<h3>XRN2 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>XRN2 / 5&#x27;-3&#x27; exoribonuclease 2 / Rat1 homolog</td></tr>
+<tr><td>蛋白大小</td><td>950 aa / ~108 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q9H0D6</td></tr>
+<tr><td>评估日期</td><td>2026-05-28 () / 2026-05-29</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>满分</th><th>加权后</th><th>得分</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>🔴 核定位特异性</td><td>10/10</td><td>×3</td><td>30.0</td><td>10</td><td>HPA Enhanced (最高等级), 核仁+核质; 双重抗体三细胞系验证</td></tr>
+<tr><td>📏 蛋白大小</td><td>8/10</td><td>×2</td><td>16.0</td><td>8</td><td>950 aa, 略超800上限</td></tr>
+<tr><td>🆕 研究新颖性</td><td>7/10</td><td>×3</td><td>21.0</td><td>8</td><td>PubMed=199 (≥100, 无基线); 199篇偏多但chromatin方向极少</td></tr>
+<tr><td>🏗️ 三维结构</td><td>7/10</td><td>×3</td><td>21.0</td><td>7</td><td>pLDDT 76.5; 71.5%有序; PDB无人类结构(仅酵母Rat1); ≥100无基线</td></tr>
+<tr><td>🧬 调控结构域</td><td>5/10</td><td>×2</td><td>10.0</td><td>5</td><td>XRN exonuclease + CCHC ZnF; ≥100无域基线提升</td></tr>
+<tr><td>🔗 PPI</td><td>0/10</td><td>×3</td><td><strong>0</strong></td><td>详见 3.6 PPI 分析</td></tr>
+<tr><td><strong>原始总分</strong></td><td></td><td></td><td><strong>109.0/158</strong></td><td>112.0</td><td></td></tr>
+<tr><td><strong>归一化总分</strong></td><td></td><td></td><td><strong>69.0/100</strong></td><td>70.9</td><td><strong>Δ = -1.9</strong></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt (Q9H0D6)</td><td>Nucleus, nucleolus</td><td>注释</td></tr>
+<tr><td>GO Cellular Component</td><td>Nucleus, Nucleolus, Nucleoplasm</td><td>IBA/IDA</td></tr>
+<tr><td>Protein Atlas (HPA047118, HPA050485)</td><td>Nucleoli (Enhanced), Nucleoplasm (Enhanced)</td><td>Enhanced - 最高等级</td></tr>
+</tbody></table></div>
+<p><strong>结论</strong>: 严格的核仁+核质蛋白。Protein Atlas Enhanced 等级（最高可信度），HEK293/MCF-7/U2OS 三种细胞系双重抗体验证一致。评分 10。</p>
+<p><strong>IF 图像</strong>: <figure><div class="missing-image">Missing local image: <code>../assets/report-images/XRN2/U2OS_HPA047118.jpg</code></div></figure> <figure><div class="missing-image">Missing local image: <code>../assets/report-images/XRN2/MCF7_HPA047118.jpg</code></div></figure></p>
+<p><strong>IF 图像</strong>:</p>
+<h5>3.2 蛋白大小评估</h5>
+<p><strong>评价</strong>: 950 aa (~108 kDa)。略高于 800 aa 理想上限，但仍在 800-1200 aa 的可操作范围。对于生化实验（尤其是 exonuclease 活性测定）有一定难度，但表达和纯化是可行的（文献中有大量 XRN2 体外实验报道）。评分 8。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed 总数 (gene+protein filter)</td><td>150</td></tr>
+<tr><td>PubMed 总数 (gene only)</td><td>199</td></tr>
+<tr><td>最早发表年份</td><td>1999</td></tr>
+<tr><td>Chromatin/epigenetics 比例</td><td>&lt;5%</td></tr>
+</tbody></table></div>
+<p><strong>主要研究方向</strong>:</p>
+<ul><li>转录终止：XRN2 通过 torpedo 模型在 polyA 位点后降解 RNA，促进 Pol II 终止</li><li>R-loop 分辨率：XRN2 结合 G-rich pause site 形成的 R-loops</li><li>RNA 代谢：5&#x27;-3&#x27; exoribonuclease 活性，参与 rRNA processing</li><li>少数研究涉及 XRN2 在 DNA 损伤应答和核糖体应激中的作用</li></ul>
+<p><strong>评价</strong>: XRN2 有近 200 篇文献，但几乎全部聚焦于 RNA processing。与 chromatin/DNA 直接相关的研究极少，主要是在转录终止这个交叉点上。作为研究较深入的蛋白，新颖性在 chromatin 方向仍然较高。评分 8。</p>
+<h5>3.4 三维结构分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold 平均 pLDDT</td><td>76.5</td></tr>
+<tr><td>PDB 实验结构</td><td>—</td></tr>
+<tr><td>有序区域 (pLDDT&gt;70) 占比</td><td>71.5%</td></tr>
+<tr><td>高置信度 (pLDDT&gt;90) 区域</td><td>502 aa (52.8%)</td></tr>
+<tr><td>无序区域 (pLDDT&lt;50) 占比</td><td>20.5% (残基408-508, 911-950)</td></tr>
+<tr><td>可用 PDB 条目</td><td>部分细菌/酵母 Rat1 同源物结构</td></tr>
+</tbody></table></div>
+<p><strong>PAE 图</strong>: <figure><div class="missing-image">Missing local image: <code>../assets/report-images/XRN2/XRN2-PAE.png</code></div></figure></p>
+<p><strong>评价</strong>: 结构质量良好。52.8% 高置信度折叠，平均 pLDDT 76.5。XRN_N 和 XRN_M 折叠域分明，存在明确的域间结构。两个 IDR 区域（408-508, 911-950）可能为调节区。整体结构适合进行结构-功能研究。评分 7。</p>
+<h5>3.5 结构域分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>结构域</th></tr></thead><tbody>
+<tr><td>Pfam</td><td>XRN_N (PF03159), XRN_M (PF18363)</td></tr>
+<tr><td>InterPro</td><td>Xrn1_N (IPR027073), Xrn1_helical (IPR041412), Xrn2/3/4 (IPR047763), 5_3_exoribonuclease (IPR017151)</td></tr>
+<tr><td>CDD</td><td>PIN_XRN1-2-like</td></tr>
+<tr><td>Gene3D</td><td>—</td></tr>
+<tr><td>GeneCards</td><td>Region:Disordered(408-508); Region:Disordered(911-950)</td></tr>
+<tr><td>UniProt</td><td>CCHC-type zinc finger (262-278), Disordered (408-508, 911-950)</td></tr>
+</tbody></table></div>
+<p><strong>染色质调控潜力分析</strong>: XRN 结构域家族是经典的外切核酸酶结构域，非直接 chromatin/DNA 结合域。但 UniProt GO 标注了 &quot;transcription termination site sequence-specific DNA binding&quot;，表明 XRN2 在转录终止位点有序列特异性 DNA 结合活性。CCHC 锌指可能参与核酸结合。XRN2 在转录终止中的角色使其与 Pol II 染色质占位有间接关联。评分 5（非chromatin结构域但有 transcription termination DNA binding 活性）。</p>
+<h5>3.6 PPI :</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>功能类别</th><th>与调控相关？</th></tr></thead><tbody>
+<tr><td>MTREX</td><td>0.995</td><td>Nuclear exosome cofactor</td><td>— (RNA processing)</td></tr>
+<tr><td>CPSF3</td><td>0.989</td><td>Cleavage/polyadenylation factor</td><td>— (RNA processing)</td></tr>
+<tr><td>EXOSC10</td><td>0.818</td><td>Exosome component</td><td>— (RNA processing)</td></tr>
+<tr><td>XRN1</td><td>0.654</td><td>5&#x27;-3&#x27; exonuclease (cytoplasmic paralog)</td><td>— (RNA processing)</td></tr>
+<tr><td>DCP2</td><td>0.578</td><td>mRNA decapping enzyme</td><td>— (RNA processing)</td></tr>
+<tr><td>DICER1</td><td>0.562</td><td>miRNA processing</td><td>— (RNA processing)</td></tr>
+<tr><td>SETX</td><td>0.466</td><td>Senataxin, transcription termination</td><td>✓ (转录终止)</td></tr>
+<tr><td>UPF1</td><td>0.412</td><td>Nonsense-mediated decay</td><td>— (RNA processing)</td></tr>
+<tr><td>UPF2</td><td>0.582</td><td>NMD factor</td><td>— (RNA processing)</td></tr>
+<tr><td>SKIV2L</td><td>0.547</td><td>RNA helicase</td><td>— (RNA processing)</td></tr>
+<tr><td>FBF1</td><td>0.447</td><td>Fas binding factor 1</td><td>—</td></tr>
+</tbody></table></div>
+<p><strong>调控相关比例</strong>: 1/11 (9.1%)</p>
+<p><strong>humanPPI</strong> (prodata.swmed.edu): 证书错误不可访问。</p>
+<p><strong>评价</strong>: PPI ，反映了 XRN2 的核心生物学角色。评分 4。</p>
+<h5>3.7 多库互证</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>来源</th><th>结果</th><th>是否一致</th></tr></thead><tbody>
+<tr><td>三维结构</td><td>AlphaFold pLDDT 76.5 + 同源物PDB结构存在</td><td>AlphaFold 预测良好，同源物有实验结构</td><td>部分互证</td></tr>
+<tr><td>结构域</td><td>UniProt / Pfam / InterPro / CDD</td><td>四库一致XRN exonuclease域</td><td>✓ 一致</td></tr>
+<tr><td>PPI</td><td>STRING (only) + STRING 数据</td><td>仅单源</td><td>无互证</td></tr>
+<tr><td>定位</td><td>Protein Atlas (Enhanced) / UniProt / GO</td><td>三源一致核仁+核质</td><td>✓ 一致</td></tr>
+</tbody></table></div>
+<p><strong>互证加分明细</strong>:</p>
+<ul><li>≥3 个独立来源检出同一结构域 (XRN家族, 4/4库) → +0.5</li><li>≥2 个独立来源一致确认核定位 (PA Enhanced + UniProt + GO) → +0.5</li></ul>
+<p><strong>总分</strong>: +1.0 / max +3</p>
+<h4>4. 总体评价</h4>
+<p><strong>推荐等级</strong>: ⭐⭐⭐ (3/5)</p>
+<p><strong>核心优势</strong>: 1. <strong>严格的核仁定位</strong>: Protein Atlas Enhanced 最高可信度，双重抗体三细胞系验证 2. <strong>结构质量好</strong>: 71.5% 有序，pLDDT 76.5，明确的域结构 3. <strong>转录终止功能</strong>: 与 Pol II 染色质动态直接相关，存在 R-loop 调控潜力 4. <strong>成熟的实验工具</strong>: 已有抗体、体外实验体系、knock-down 表型</p>
+<p><strong>风险/不确定性</strong>: 1. <strong>研究较多</strong> (199篇): 但 chromatin 方向极少，需要找到差异化的切入角度 2. <strong>PPI : 全长表达和纯化有一定挑战 4. </strong>功能定位于RNA而非chromatin**: 与 TEreg/chromatin 的核心关注点距离较远</p>
+<p><strong>下一步建议</strong>:</p>
+<ul><li>[ ] 探索 XRN2 在特定基因组位点（如 TE 富集区域）的 R-loop 调控角色</li><li>[ ] ChIP-seq 分析 XRN2 是否存在非转录终止位点的染色质结合</li><li>[ ] 与 cohesin/CTCF 等染色质架构蛋白的关系</li></ul>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9H0D6</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000088930-XRN2</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22XRN2%22</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9H0D6</li><li>STRING: https://string-db.org/network/9606.ENSP00000366396</li></ul>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/XRN2/XRN2-PAE.png</code></div></figure></p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/XRN2/XRN2-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

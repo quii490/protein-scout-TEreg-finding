@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CDIP1 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>CDIP1</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleus-cytoplasm</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 58.5</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleus-cytoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleus-cytoplasm/CDIP1/CDIP1-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;CDIP1&quot; date: 2026-05-31 tags: [protein-scout, nucleus-cytoplasm, evaluation] status: scored ---</p>
+<h3>CDIP1 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>CDIP1 / C16orf5, CDIP, LITAFL</td></tr>
+<tr><td>蛋白全名</td><td>Cell death-inducing p53-target protein 1</td></tr>
+<tr><td>蛋白大小</td><td>208 aa / 21.9 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q9H305</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>新权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>4/10</td><td>×4</td><td>16.0</td><td>初级定位 Late endosome/Lysosome membrane; GO nucleus IDA:MGI (鼠源)</td></tr>
+<tr><td>蛋白大小</td><td>8/10</td><td>×1</td><td>8.0</td><td>208 aa, 21.9 kDa，小型蛋白</td></tr>
+<tr><td>研究新颖性</td><td>10/10</td><td>×5</td><td>50.0</td><td>Strict=11</td></tr>
+<tr><td>三维结构</td><td>2/10</td><td>×3</td><td>6.0</td><td>无 PDB; pLDDT 55.3（较低，0% &gt;90）</td></tr>
+<tr><td>调控结构域</td><td>3/10</td><td>×2</td><td>6.0</td><td>LITAF domain (IPR006629, IPR037519), PF10601</td></tr>
+<tr><td>PPI 网络</td><td>7/10</td><td>×3</td><td>21.0</td><td>STRING BCAP31/DESI1; IntAct 多重互作; UniProt 12 个互作</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>107/180</strong>**</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+0.0</td><td>核定位仅 GO IDA:MGI（鼠源推断），人类无实验核定位证据</td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>58.5/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<p>PubMed strict: 11</p>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Late endosome membrane (ECO:0000269); Lysosome membrane (ECO:0000269)</td><td>实验证据（初级定位）</td></tr>
+<tr><td>GO-CC</td><td>cytoplasmic side of late endosome membrane (IDA); cytoplasmic side of lysosomal membrane (IDA); nucleus (IDA:MGI)</td><td>核定位仅为鼠源 IDA</td></tr>
+<tr><td>HPA (IF)</td><td>有 IF 缩略图，原图未取得</td><td>间接支持</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 状态</strong>: IF thumbnail only — HPA 暂无 IF 原图，仅获取到 60x60 缩略图，不能作为可靠定位证据。核定位基于 UniProt + GO-CC。 <figure><div class="missing-image">Missing local image: <code>../assets/report-images/CDIP1/CDIP1_IF_49352.jpg</code></div></figure></p>
+<p><strong>结论</strong>: CDIP1 的核定位置信度低。UniProt Subcellular Location 完全未提 nucleus，而明确指向 late endosome/lysosome membrane。GO-CC 中的 nucleus IDA 标注为 MGI（Mouse Genome Informatics），即来自鼠同源基因的实验数据。作为核候选不可靠，但 p53 靶基因的属性保留一定关注价值。</p>
+<h5>3.2 结构与结构域</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold</td><td>AF-Q9H305-F1</td></tr>
+<tr><td>平均 pLDDT</td><td>55.3</td></tr>
+<tr><td>pLDDT &gt;90</td><td>0.0%</td></tr>
+<tr><td>pLDDT 70-90</td><td>3.4%</td></tr>
+<tr><td>pLDDT 50-70</td><td>71.6%</td></tr>
+<tr><td>pLDDT &lt;50</td><td>25.0%</td></tr>
+<tr><td>PDB</td><td>无</td></tr>
+<tr><td>InterPro</td><td>IPR006629 (LITAF domain), IPR037519 (CDIP1/LITAF family)</td></tr>
+<tr><td>Pfam</td><td>PF10601</td></tr>
+</tbody></table></div>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CDIP1/CDIP1-PAE.png</code></div></figure> <figure><div class="missing-image">Missing local image: <code>../assets/report-images/CDIP1/CDIP1-PAE.png</code></div></figure></p>
+<p>pLDDT 偏低（均值 55.3），0% 残基 &gt;90，71.6% 在 50-70 区间。无 PDB 实验结构。结构域为 LITAF 家族（与 CDIP1 共享），提示参与膜曲率感知和内体分选。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict (Title/Abstract)</td><td>11</td></tr>
+<tr><td>PubMed broad</td><td>26</td></tr>
+<tr><td>别名</td><td>C16orf5, CDIP, LITAFL（未用于 scoring）</td></tr>
+</tbody></table></div>
+<p>关键文献：</p>
+<ul><li>PMID:34342350 — &quot;Endosomal recycling tubule scission and integrin recycling involve the membrane curvature-supporting protein LITAF&quot; (J Cell Sci, 2021)</li><li>PMID:33503978 — &quot;The Novel ALG-2 Target Protein CDIP1 Promotes Cell Death by Interacting with ESCRT-I and VAPA/B&quot; (Int J Mol Sci, 2021)</li><li>PMID:38928226 — &quot;Cytoprotective Role of Autophagy in CDIP1 Expression-Induced Apoptosis in MCF-7 Breast Cancer Cells&quot; (Int J Mol Sci, 2024)</li><li>PMID:24139803 — &quot;CDIP1-BAP31 complex transduces apoptotic signals from ER to mitochondria under ER stress&quot; (Cell Rep, 2013)</li></ul>
+<p>功能聚焦于 p53 介导的凋亡、内体分选和 ER 应激信号。研究量低，但不是核蛋白功能。</p>
+<h5>3.4 PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>BCAP31</td><td>STRING</td><td>0.943 (textmining)</td><td>ER 膜蛋白，凋亡信号传递</td></tr>
+<tr><td>DESI1</td><td>STRING</td><td>0.591 (exp 0.591)</td><td>Deubiquitinase，实验支持</td></tr>
+<tr><td>FANCM</td><td>STRING</td><td>0.532 (exp 0.528)</td><td>DNA repair，实验支持</td></tr>
+<tr><td>ITCH</td><td>STRING</td><td>0.486 (textmining)</td><td>E3 ligase，泛素化</td></tr>
+<tr><td>NEDD4</td><td>STRING</td><td>0.485 (textmining)</td><td>E3 ligase，泛素化</td></tr>
+<tr><td>DESI1</td><td>IntAct</td><td>two hybrid array (PMID:32296183)</td><td>Deubiquitinase</td></tr>
+<tr><td>DCUN1D1</td><td>IntAct</td><td>validated two hybrid (PMID:32296183)</td><td>Neddylation E3</td></tr>
+<tr><td>OTUD7B</td><td>IntAct</td><td>two hybrid array (PMID:32296183)</td><td>Deubiquitinase</td></tr>
+<tr><td>DCUN1D1</td><td>UniProt</td><td>3 experiments</td><td>Neddylation E3</td></tr>
+<tr><td>DESI1</td><td>UniProt</td><td>4 experiments</td><td>Deubiquitinase</td></tr>
+<tr><td>EPN2</td><td>UniProt</td><td>3 experiments</td><td>Epsin-2，内吞</td></tr>
+<tr><td>TOLLIP</td><td>UniProt</td><td>3 experiments</td><td>Toll-interacting protein</td></tr>
+<tr><td>UBQLN1</td><td>UniProt</td><td>3 experiments</td><td>Ubiquilin-1</td></tr>
+<tr><td>UBQLN2</td><td>UniProt</td><td>3 experiments</td><td>Ubiquilin-2</td></tr>
+<tr><td>UBB</td><td>UniProt</td><td>3 experiments</td><td>Ubiquitin B</td></tr>
+<tr><td>UBC</td><td>UniProt</td><td>3 experiments</td><td>Ubiquitin C</td></tr>
+</tbody></table></div>
+<p>PPI 网络丰富：STRING 连接 BCAP31（凋亡）、DESI1（去泛素化酶）、FANCM（DNA 修复）；IntAct 和 UniProt 记录多个去泛素化酶（DESI1, OTUD7B）、泛素通路（UBB, UBC, UBQLN1/2）和内吞因子（EPN2）。PPI 指向内体/溶酶体泛素化调控和凋亡信号，不涉及染色质或核复合体。</p>
+<h4>4. 总体评价</h4>
+<p>CDIP1 是一个 p53 靶基因编码的小型内体/溶酶体膜蛋白，功能明确指向凋亡和内体分选。核定位证据薄弱（仅 GO IDA:MGI 鼠源推断，UniProt Subcellular Location 完全不支持核定位）。PPI 网络丰富但均为内体/泛素通路相关。归一化总分 58.5/100。不建议作为核-胞质蛋白候选——其功能定位在膜系统，核定位可能为假阳性或间接现象。</p>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9H305</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9H305</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CDIP1</li><li>Protein Atlas: https://www.proteinatlas.org/search/CDIP1（IF 缩略图）</li></ul>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CDIP1/CDIP1_IF_thumb_if_selected_60x60.jpg</code></div></figure></p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CDIP1/CDIP1-PAE.png</code></div></figure></p>
+<p>HPA IF 图像已本地嵌入。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CDIP1/CDIP1-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

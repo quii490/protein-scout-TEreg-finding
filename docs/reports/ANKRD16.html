@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ANKRD16 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>ANKRD16</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleus-cytoplasm</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 16</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleus-cytoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleus-cytoplasm/ANKRD16/ANKRD16-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;ANKRD16&quot; date: 2026-06-01 tags: [protein-scout, nucleus-cytoplasm, evaluation] status: scored ---</p>
+<h3>ANKRD16 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名</td><td>ANKRD16</td></tr>
+<tr><td>蛋白全名</td><td>Ankyrin repeat domain-containing protein 16</td></tr>
+<tr><td>蛋白大小</td><td>361 aa / 39.3 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q6P6B7</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>4/10</td><td>×4</td><td>16.0</td><td>UniProt: Cytoplasm + Nucleus (ECO:0000250); GO: cytoplasm ISS + nucleus ISS — 仅序列相似性推断</td></tr>
+<tr><td>蛋白大小</td><td>7/10</td><td>×1</td><td>7.0</td><td>361 aa</td></tr>
+<tr><td>研究新颖性</td><td>10/10</td><td>×5</td><td>50.0</td><td>PubMed strict=3, broad=5</td></tr>
+<tr><td>三维结构</td><td>8/10</td><td>×3</td><td>24.0</td><td>AlphaFold pLDDT 93.9; PDB 无</td></tr>
+<tr><td>调控结构域</td><td>4/10</td><td>×2</td><td>8.0</td><td>Ankyrin repeat domain; 功能为 tRNA 翻译保真度</td></tr>
+<tr><td>PPI 网络</td><td>4/10</td><td>×3</td><td>12.0</td><td>STRING 弱: FBH1, RPP14, NFKBIA; IntAct 6 条</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>117/180</strong>**</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+0.0</td><td></td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>63.9/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Cytoplasm (ECO:0000250); Nucleus (ECO:0000250)</td><td>序列相似性推断</td></tr>
+<tr><td>GO-CC</td><td>cytoplasm (ISS:UniProtKB); nucleus (ISS:UniProtKB)</td><td>序列相似性推断</td></tr>
+<tr><td>HPA</td><td>Reliability (IF): Approved; Subcellular location: Endoplasmic reticulum</td><td>Experimental (IF)</td></tr>
+</tbody></table></div>
+<p><strong>HPA 定位</strong>: Reliability (IF) = Approved。Subcellular location = Endoplasmic reticulum（单一）。HPA IF 实验显示 ER 定位，与 UniProt/GO 的 cytoplasm + nucleus 注释不一致。注意：UniProt/GO 核定位证据均来自序列相似性推断（ISS/ECO:0000250），属于最低级别的注释证据，HPA Approved 的实验数据显示 ER 而非核定位。核-胞质分类主要基于 UniProt/GO 双源一致的注释，但实际实验支持较弱。</p>
+<p><figure><img src="https://images.proteinatlas.org/37920/1584_H10_3_blue_red_green.jpg" alt="HPA IF display image"></figure></p>
+<h5>3.2 结构</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold</td><td>AF-Q6P6B7-F1</td></tr>
+<tr><td>平均 pLDDT</td><td>93.9</td></tr>
+<tr><td>pLDDT &gt;90</td><td>89.8%</td></tr>
+<tr><td>pLDDT 70-90</td><td>4.4%</td></tr>
+<tr><td>pLDDT 50-70</td><td>3.6%</td></tr>
+<tr><td>pLDDT &lt;50</td><td>2.2%</td></tr>
+<tr><td>PDB</td><td>无</td></tr>
+<tr><td>InterPro</td><td>IPR002110, IPR036770</td></tr>
+<tr><td>Pfam</td><td>PF12796, PF13606, PF13637</td></tr>
+</tbody></table></div>
+<p>AlphaFold pLDDT 93.9（mean），结构预测置信度极高（89.8% &gt;90）。PAE image URL 存在 (AF-Q6P6B7-F1-predicted_aligned_error_v6.png)，未生成本地副本。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict (Title/Abstract)</td><td>3</td></tr>
+<tr><td>PubMed broad</td><td>5</td></tr>
+</tbody></table></div>
+<p>文献量极低。关键文献 PMID:29769718 (Nature 2018) 报道 ANKRD16 通过与 AARS/AlaRS 结合防止 tRNA 错配，维持翻译保真度。功能明确但研究量极少。</p>
+<h5>3.4 PPI 网络</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Evidence/Method</th><th>Score/Experiments</th><th>PMID/Note</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>FBH1</td><td>STRING</td><td>experimental+textmining</td><td>exp 0.042, score 0.639</td><td>DNA helicase</td><td>弱实验支持</td></tr>
+<tr><td>RPP14</td><td>STRING</td><td>textmining</td><td>score 0.516</td><td>Ribonuclease P subunit</td><td>textmining only</td></tr>
+<tr><td>NFKBIA</td><td>STRING</td><td>—</td><td>score 0.501 (no sub-scores)</td><td>NF-kB inhibitor</td><td>无实验/数据库支持</td></tr>
+<tr><td>RFXANK</td><td>STRING</td><td>textmining</td><td>score 0.497</td><td>MHC II regulator</td><td>textmining only</td></tr>
+<tr><td>AARS2</td><td>STRING</td><td>experimental+textmining</td><td>exp 0.096, score 0.443</td><td>mitochondrial AlaRS</td><td>功能关联（同源）</td></tr>
+<tr><td>AARS1</td><td>STRING</td><td>experimental+textmining</td><td>exp 0.096, score 0.439</td><td>cytoplasmic AlaRS</td><td>已知功能伙伴</td></tr>
+<tr><td>CD19</td><td>IntAct</td><td>anti tag coIP</td><td>PMID:33961781</td><td>Cell 2021</td><td>实验验证</td></tr>
+<tr><td>RHOA</td><td>IntAct</td><td>anti tag coIP</td><td>PMID:33961781</td><td>Cell 2021</td><td>实验验证</td></tr>
+<tr><td>GAMT</td><td>IntAct</td><td>anti tag coIP</td><td>PMID:33961781</td><td>Cell 2021</td><td>实验验证</td></tr>
+<tr><td>Oxnad1</td><td>IntAct</td><td>anti tag coIP</td><td>PMID:26496610</td><td>—</td><td>小鼠同源</td></tr>
+<tr><td>Spred2</td><td>IntAct</td><td>anti tag coIP</td><td>PMID:26496610</td><td>—</td><td>小鼠同源</td></tr>
+</tbody></table></div>
+<p>UniProt interactions: 无记录。PPI 整体弱，AARS1 为已知功能伙伴（ANKRD16 与 AlaRS 结合防止 tRNA 错配）。</p>
+<h4>4. 总体评价</h4>
+<p>ANKRD16 是低置信度核-胞质候选。UniProt + GO 双源一致的核 + 胞质注释均为序列相似性推断（ECO:0000250 / ISS），HPA Approved IF 实验数据显示单一 ER 定位，与核注释不一致。蛋白功能为 tRNA 翻译保真度（Nature 2018），但定位证据薄弱。保留仅因双源一致的注释框架，置信度低。</p>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q6P6B7</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q6P6B7</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=ANKRD16</li><li>HPA: https://www.proteinatlas.org/ENSG00000134461-ANKRD16</li></ul>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/ANKRD16/ANKRD16-PAE.png</code></div></figure></p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/ANKRD16/ANKRD16_IF_1584_H10_3_blue_red_green.jpg</code></div></figure></p>
+<p>HPA IF 图像已本地嵌入。</p>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/ANKRD16/ANKRD16-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

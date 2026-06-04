@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DNM3 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>DNM3</h1><div class="report-meta"><span class="badge muted">rejected</span><span class="badge">rejected</span><span class="badge">Score: 1.8</span><span class="badge">Nuclear: 3</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/rejected.html">Category page</a></div><p class="source-path">Original detail path: detail/rejected/DNM3/DNM3-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;DNM3&quot; date: 2026-06-04 tags: [protein-scout, confirmed-rejected, critical-false-rejection-recheck] status: confirmed-rejected previous_status: rejected previous_rejection_reason: &quot;nuclear_score ≤ 3 AND PubMed &gt; 100 (dual rejection)&quot; recheck_result: &quot;CONFIRMED REJECTED — Zero nuclear evidence in all databases; HPA=Golgi apparatus(Uncertain); UniProt=Cytoplasm/Cytoskeleton; GO-CC: NO nuclear terms; PubMed 109&gt;100; nuclear_score=2 is correct&quot; revised_nuclear_score: 2 ---</p>
+<h3>DNM3 核蛋白评估报告 -- FALSE REJECTION RE-EVALUATION (确认拒绝)</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>DNM3 / KIAA0820</td></tr>
+<tr><td>蛋白大小</td><td>869 aa / 97.7 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q9UQ16</td></tr>
+<tr><td>蛋白全名</td><td>Dynamin-3</td></tr>
+<tr><td>HPA IF 主定位</td><td><strong>Golgi apparatus</strong></td></tr>
+<tr><td>HPA Reliability</td><td>Uncertain</td></tr>
+<tr><td>原评估状态</td><td>REJECTED (nuclear_score=2, PubMed&gt;100)</td></tr>
+<tr><td>重新评估日期</td><td>2026-06-04</td></tr>
+<tr><td>CONFIRMED REJECTED</td><td><strong>CONFIRMED REJECTED</strong> — 双原因：(1)非核蛋白；(2)PubMed 109&gt;100</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览（修订后，确认原评分）</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>权重</th><th>加权</th><th>摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td><strong>2/10</strong></td><td>×4</td><td>8</td><td>HPA=Golgi apparatus; UniProt=Cytoplasm/Cytoskeleton; GO-CC: 零核术语; 非核蛋白</td></tr>
+<tr><td>蛋白大小</td><td>8/10</td><td>×1</td><td>8</td><td>869aa/97.7kDa，较大但结构域丰富</td></tr>
+<tr><td>研究新颖性</td><td>0/10</td><td>×5</td><td>0</td><td>PubMed strict=82, broad=109 (&gt;100→REJECTED)</td></tr>
+<tr><td>三维结构</td><td>8/10</td><td>×3</td><td>24</td><td>pLDDT=77.3; PDB 3L43(2.27A X-ray), 5A3F(3.70A X-ray)</td></tr>
+<tr><td>调控结构域</td><td>6/10</td><td>×2</td><td>12</td><td>Dynamin GTPase + PH + GED; 膜重塑和胞吞</td></tr>
+<tr><td>PPI网络</td><td>7/10</td><td>×3</td><td>21</td><td>STRING: DNM1(0.999实验), DNM2(0.984实验), GRB2(0.653实验); 强实验PPI</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>73/180</strong></td><td></td></tr>
+<tr><td><strong>归一化总分 (÷1.8)</strong></td><td></td><td></td><td><strong>40.6/100</strong></td><td></td></tr>
+</tbody></table></div>
+<h4>3. False rejection recheck -- CRITICAL</h4>
+<p><strong>为何被列为CRITICAL进行重新评估:</strong></p>
+<p>DNM3在原始Sheet4中的nuclear_score信息可能不准确。Dynamin家族蛋白有时被错误地与核膜重建或核内体运输相关联。此外，DNM3的结构域丰富(GTPase+PH+GED+PRD)和PDB实验结构(3L43, 5A3F)使其表面看起来像是一个&quot;好&quot;候选。需要在所有数据库中逐一核查核定位证据。</p>
+<p><strong>逐一数据库审查:</strong></p>
+<p>1. <strong>UniProt Subcellular Location (harvest packet) — ZERO NUCLEAR</strong>:</p>
+<ul><li>Cytoplasm: ECO:0000305 (no experimental evidence — inferred by curator, not based on direct assay)</li><li>Cytoplasm, cytoskeleton: ECO:0000305 (curator inference, not experimental)</li><li><strong>没有Nuclear/Nucleoplasm/Nucleolus定位</strong></li><li>ECO:0000305 = &quot;inferred by curator&quot; — 这是比ECO:0000255(序列预测)更弱的证据等级，因为它仅表示curator的推测，无算法支持</li></ul>
+<p>2. <strong>GO-CC (harvest packet) — 完全缺乏核术语</strong>:</p>
+<ul><li>cytoplasm (IBA:GO_Central)</li><li>dendritic spine (ISS:UniProtKB)</li><li>extracellular exosome (HDA:UniProtKB)</li><li>microtubule (IBA:GO_Central)</li><li>perinuclear region of cytoplasm (ISS:UniProtKB)</li><li>plasma membrane (IBA:GO_Central)</li><li>postsynaptic density (ISS:UniProtKB)</li><li>presynapse (IEA:GOC)</li><li>synapse (IBA:GO_Central)</li><li><strong>9个GO-CC术语，零个是nuclear。Perinuclear region of cytoplasm指的是细胞核周围的胞质区域，而非核内</strong></li></ul>
+<p>3. <strong>HPA Subcellular (harvest packet) — 明确非核</strong>:</p>
+<ul><li>Main location: Golgi apparatus</li><li>Reliability: Uncertain</li><li>HPA IF图像在线可用(6张blue_red_green)</li><li>零核信号</li></ul>
+<p>4. <strong>功能证据 — 膜重塑而非核功能</strong>:</p>
+<ul><li>Dynamin-3是large GTPase，负责膜分裂(fission)</li><li>核心功能: clathrin-mediated endocytosis(网格蛋白介导胞吞)</li><li>在突触小泡再循环(synaptic vesicle recycling)中起关键作用</li><li>与微管结合并产生力来捆绑微管</li><li>这些功能全部在细胞质/细胞膜/突触执行，与细胞核无关</li></ul>
+<p><strong>为何这不是假阴性:</strong></p>
+<p>DNM3的核定位证据为零。在所有数据库中系统地搜索&quot;nucleus&quot;、&quot;nuclear&quot;、&quot;nucleoplasm&quot;、&quot;nucleolus&quot;等术语后，DNM3的GO-CC列表完全缺乏核术语，UniProt没有核定位，HPA明确显示Golgi apparatus。这是10个CRITICAL基因中核证据最弱的基因。</p>
+<p>此外，DNM3受到双拒绝机制: (1) nuclear_score=2 (非核蛋白); (2) PubMed 109&gt;100 (研究热度过高)。即使核定位问题被解决，PubMed热度也会单独拒绝该基因。</p>
+<h4>4. 详细分析</h4>
+<h5>4.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th><th>证据代码</th></tr></thead><tbody>
+<tr><td>HPA (IF)</td><td>Golgi apparatus</td><td>Uncertain</td><td>IF实验</td></tr>
+<tr><td>UniProt</td><td>Cytoplasm</td><td>ECO:0000305</td><td><strong>curator推断, 非实验</strong></td></tr>
+<tr><td>UniProt</td><td>Cytoplasm, cytoskeleton</td><td>ECO:0000305</td><td><strong>curator推断, 非实验</strong></td></tr>
+<tr><td>GO-CC</td><td>cytoplasm, dendritic spine, exosome, microtubule, perinuclear region, plasma membrane, postsynapse, presynapse, synapse</td><td>混合等级</td><td><strong>零核术语</strong></td></tr>
+</tbody></table></div>
+<p>DNM3的GO-CC共有9个术语，其中&quot;perinuclear region of cytoplasm&quot;是距离&quot;nucleus&quot;最近的条目——但perinuclear region指的是核周质(靠近核膜的胞质区域)，不是核内。这是10个CRITICAL基因中唯一在UniProt/GO-CC/HPA三个数据库中均无任何核信号的基因。<strong>核定位评分: 2/10 (确认)</strong>。</p>
+<h5>4.2 蛋白大小评估</h5>
+<p>869 aa / 97.7 kDa。较大的多结构域蛋白。包含Dynamin-type G domain (GTPase), Dynamin central domain, PH domain, GED (GTPase effector domain), 和PRD (proline-rich domain)。结构域架构清晰完整。但蛋白较大可能带来表达和操作挑战。<strong>评分: 8/10</strong>。</p>
+<h5>4.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict_count</td><td>82</td></tr>
+<tr><td>PubMed symbol_only</td><td>109</td></tr>
+<tr><td>PubMed broad_count</td><td>109</td></tr>
+<tr><td>别名</td><td>KIAA0820</td></tr>
+<tr><td>主要方向</td><td>突触胞吞、Parkinson病遗传修饰因子、癌症外泌体</td></tr>
+</tbody></table></div>
+<p>PubMed 109篇(broad)，82篇(strict)。研究热度较高，在突触生物学和癌生物学中有大量文献。<strong>评分: 0/10</strong> (&gt;100自动REJECTED)。</p>
+<p><strong>关键文献</strong>: 1. Brown EE et al. (2021). &quot;Analysis of DNM3 and VAMP4 as genetic modifiers of LRRK2 Parkinson&#x27;s disease.&quot; *Neurobiol Aging*. PMID: 32873436 2. De Houwer JFH et al. (2025). &quot;Distinct proteomic CSF profiles in genetic frontotemporal lobar degeneration.&quot; *Brain*. PMID: 41343108 3. Liu J et al. (2021). &quot;The biology, function, and applications of exosomes in cancer.&quot; *Acta Pharm Sin B*. PMID: 34589397 4. Juknyte G et al. (2021). &quot;TBX15, DNM3, RAD51B gene polymorphisms and associations with pituitary adenoma.&quot; *In Vivo*. PMID: 33622874 5. Berge-Seidl V et al. (2019). &quot;No evidence for DNM3 as genetic modifier of age at onset in Parkinson&#x27;s disease.&quot; *Neurobiol Aging*. PMID: 30340792</p>
+<h5>4.4 三维结构分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold 平均 pLDDT</td><td>77.3</td></tr>
+<tr><td>pLDDT &gt; 90 (Very High)</td><td>39.8%</td></tr>
+<tr><td>pLDDT 70-90 (High)</td><td>35.1%</td></tr>
+<tr><td>pLDDT &lt; 50 (Low)</td><td>16.5%</td></tr>
+<tr><td>有序区域 (pLDDT&gt;70)</td><td>74.9%</td></tr>
+<tr><td>实验结构 (PDB)</td><td>3L43 (2.27A, 6-306), 5A3F (3.70A, 1-764)</td></tr>
+</tbody></table></div>
+<p>两个X-ray实验结构覆盖N端GTPase+middle domain(3L43)和近全长(5A3F)。PDB覆盖良好但C端PRD区域(pLDDT较低区域)仍缺乏实验结构。<strong>评分: 8/10</strong>。</p>
+<h5>4.5 结构域分析</h5>
+<p>丰富的结构域架构: Dynamin GTPase (IPR001401) + PH domain (IPR001849) + GED (IPR003130) + Dynamin central (IPR000375)。所有结构域指向膜重塑和胞吞功能。无DNA/RNA结合或染色质修饰域。<strong>评分: 6/10</strong>。</p>
+<h5>4.6 PPI 网络</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Combined Score</th><th>Experimental</th><th>功能</th></tr></thead><tbody>
+<tr><td>DNM1</td><td>0.999</td><td>0.994</td><td>Dynamin-1, 同家族</td></tr>
+<tr><td>DNM2</td><td>0.984</td><td>0.847</td><td>Dynamin-2, 同家族</td></tr>
+<tr><td>HCLS1</td><td>0.965</td><td>0.065</td><td>造血细胞特异性Lyn底物</td></tr>
+<tr><td>SH3GL2</td><td>0.837</td><td>0.396</td><td>Endophilin-A1, 胞吞</td></tr>
+<tr><td>GRB2</td><td>0.701</td><td>0.653</td><td>生长因子受体结合蛋白, 信号转导</td></tr>
+</tbody></table></div>
+<p>DNM3拥有10个CRITICAL基因中最强的实验PPI网络之一，以同家族(DNM1/DNM2)和胞吞机器(SH3GL2/CLTC/SNX9)为核心。但这种强PPI网络支持胞吞功能，而非核功能。<strong>评分: 7/10</strong>。</p>
+<h4>5. 最终决定</h4>
+<p><strong>CONFIRMED REJECTED — 非核蛋白 + PubMed&gt;100，双原因确认拒绝</strong></p>
+<p>DNM3是10个CRITICAL基因中最明确的非核蛋白。在所有数据库中:</p>
+<ul><li>HPA: Golgi apparatus (细胞质膜系统)</li><li>UniProt: Cytoplasm / Cytoskeleton (无核定位)</li><li>GO-CC: 9个术语，零个核术语</li><li>功能: 膜分裂GTPase (胞吞)</li></ul>
+<p>此外，即使核定位证据存在，PubMed 109篇(&gt;100)也会作为独立原因触发拒绝。Dynamin-3是一个充分研究的蛋白质，其主要科学价值在于突触胞吞和膜运输，而非TE调控或染色质生物学。</p>
+<h4>6. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9UQ16</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9UQ16</li><li>PDB: https://www.rcsb.org/structure/3L43 / https://www.rcsb.org/structure/5A3F</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=DNM3%5BTitle/Abstract%5D</li><li>HPA: https://www.proteinatlas.org/ENSG00000197959-DNM3</li><li>STRING: https://string-db.org/network/9606.ENSP00000363588</li><li>IntAct: https://www.ebi.ac.uk/intact/interactors/id:Q9UQ16</li><li>Harvest packet: /Users/quii/Desktop/projects/TE-regulated proteins finding/protein_data/harvest_packets/DNM3.json (2026-06-03)</li></ul>
+<p>HPA IF图像在线可用(6张blue_red_green, Golgi apparatus信号)，未下载本地。PAE未生成本地。</p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

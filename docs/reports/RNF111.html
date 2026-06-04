@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RNF111 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>RNF111</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 0.5</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/RNF111/RNF111-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;RNF111&quot; date: 2026-06-04 tags: [protein-scout, re-evaluation, recovery-from-false-rejection] status: scored ---</p>
+<h3>RNF111 -- Re-evaluation Report (Recovery from False-Rejection)</h3>
+<h4>1. Basic Information</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Item</th><th>Content</th></tr></thead><tbody>
+<tr><td>Gene / Aliases</td><td>RNF111 / Arkadia</td></tr>
+<tr><td>Protein Name</td><td>E3 ubiquitin-protein ligase Arkadia</td></tr>
+<tr><td>Protein Size</td><td>994 aa / 108.9 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q6ZNA4 (RN111_HUMAN, Swiss-Prot reviewed)</td></tr>
+<tr><td>Evaluation Date</td><td>2026-06-04</td></tr>
+<tr><td>Previous Status</td><td>REJECTED (thin template report, no harvest packet)</td></tr>
+<tr><td>Re-evaluation Reason</td><td>Recovery from false-rejection; complete re-evaluation with updated data</td></tr>
+</tbody></table></div>
+<h4>2. Scoring Overview</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Score</th><th>Max</th><th>Weighted</th><th>Key Evidence Summary</th></tr></thead><tbody>
+<tr><td>Nuclear Localization Specificity</td><td>8/10</td><td>x4</td><td><strong>32</strong></td><td>UniProt: Nucleus, PML body; GO-CC: nucleoplasm, nucleus, PML body; cytoplasm also annotated but PML body = strong nuclear feature</td></tr>
+<tr><td>Protein Size</td><td>8/10</td><td>x1</td><td><strong>8</strong></td><td>994 aa, in the 800-1200 aa range</td></tr>
+<tr><td>Research Novelty</td><td>6/10</td><td>x5</td><td><strong>30</strong></td><td>PubMed ~51 articles (51-100 -&gt; 6)</td></tr>
+<tr><td>3D Structure</td><td>8/10</td><td>x3</td><td><strong>24</strong></td><td>PDB: 2KIZ, 5LG0, 5LG7, 7P2K; experimental NMR/crystallography structures + AlphaFold prediction</td></tr>
+<tr><td>Regulatory Domains</td><td>8/10</td><td>x2</td><td><strong>16</strong></td><td>RING-type zinc finger (E3 ligase); SUMO-targeted ubiquitin ligase activity; TGF-beta/SMAD pathway regulator</td></tr>
+<tr><td>PPI Network</td><td>6/10</td><td>x3</td><td><strong>18</strong></td><td>SMAD7, AXIN, SKI/SKIL, SMURF1, SUMO pathway; TGF-beta signaling hub</td></tr>
+<tr><td>Cross-Validation Bonus</td><td>--</td><td>--</td><td><strong>+1.0</strong></td><td>Multi-DB nuclear/PML body localization consensus (+0.5); PDB + domain architecture consistency (+0.5)</td></tr>
+<tr><td><strong>Raw Total</strong></td><td></td><td></td><td><strong>129.0/180</strong></td><td></td></tr>
+<tr><td><strong>Normalized Total</strong></td><td></td><td></td><td><strong>70.5/100</strong></td><td></td></tr>
+</tbody></table></div>
+<h4>3. Nuclear Localization Evidence</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Source</th><th>Localization</th><th>Reliability</th></tr></thead><tbody>
+<tr><td>UniProt (Swiss-Prot)</td><td>Nucleus</td><td>Reviewed</td></tr>
+<tr><td>UniProt (Swiss-Prot)</td><td>Cytoplasm</td><td>Reviewed</td></tr>
+<tr><td>UniProt (Swiss-Prot)</td><td>Nucleus, PML body</td><td>Reviewed</td></tr>
+<tr><td>GO-CC</td><td>Nucleoplasm</td><td>IDA:HPA</td></tr>
+<tr><td>GO-CC</td><td>Nucleus</td><td>--</td></tr>
+<tr><td>GO-CC</td><td>PML body</td><td>--</td></tr>
+<tr><td>GO-CC</td><td>Cytoplasm</td><td>--</td></tr>
+<tr><td>GO-CC</td><td>Cytosol</td><td>--</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF Status</strong>: HPA IF original images not reliably obtained (HPA search page lacks usable subcellular IF original images). Nuclear localization assessment based on UniProt + GO-CC.</p>
+<p><strong>Manual Review Assessment</strong>: RNF111 (Arkadia) is a well-characterized nuclear E3 ubiquitin ligase that localizes to PML nuclear bodies. PML bodies are nuclear sub-compartments involved in sumoylation, transcriptional regulation, apoptosis, and DNA damage response. The protein also has cytoplasmic annotation, which is consistent with nucleocytoplasmic shuttling behavior observed for many regulatory E3 ligases. The PML body localization is a hallmark of nuclear regulatory function and strongly supports nuclear classification.</p>
+<p><strong>Key points supporting nuclear localization</strong>: 1. UniProt annotates Nucleus + PML body as subcellular locations 2. GO-CC has nucleoplasm with IDA:HPA evidence (experimental) 3. PML body is a strictly nuclear compartment 4. The protein&#x27;s primary function (TGF-beta/SMAD pathway regulation) occurs in the nucleus 5. Keywords include &quot;Nucleus&quot; in UniProt</p>
+<p><strong>Nuclear localization score: 8/10.</strong> The protein has strong evidence for nuclear localization (PML body, nucleoplasm), but cytoplasmic presence is also annotated. The nuclear signal is dominant and functionally significant. Above the &lt;=3 rejection threshold.</p>
+<h4>4. Protein Size Assessment</h4>
+<p>RNF111 is 994 amino acids, placing it at the upper end of the 800-1200 aa range. Score 8/10. While slightly larger than the ideal 200-800 aa range for some biochemical assays, the protein has successful experimental structures (multiple PDB entries including NMR and crystallography), demonstrating its tractability for structural and biochemical studies.</p>
+<h4>5. Research Novelty (PubMed Analysis)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody>
+<tr><td>PubMed count (Title/Abstract)</td><td>~51</td></tr>
+<tr><td>Novelty category</td><td>51-100 -&gt; Score 6</td></tr>
+<tr><td>Earliest publication</td><td>~2004</td></tr>
+</tbody></table></div>
+<p><strong>Research Context</strong>: RNF111 (Arkadia) was discovered as a positive regulator of Nodal/TGF-beta signaling during embryonic development. It functions as a SUMO-targeted ubiquitin ligase (STUbL) that ubiquitinates SUMO-modified substrates for proteasomal degradation. Key substrates include SKI/SKIL (transcriptional co-repressors) and components of the TGF-beta pathway. Arkadia-mediated degradation of SKI/SKIL derepresses SMAD-dependent transcription.</p>
+<p><strong>Major research themes</strong>:</p>
+<ul><li>TGF-beta/BMP signaling regulation</li><li>SUMO-targeted ubiquitin ligation (STUbL)</li><li>Embryonic development and axis formation</li><li>Cancer biology (tumor suppression via TGF-beta pathway)</li><li>DNA damage response (RNF111 ubiquitinates SUMOylated proteins at damage sites)</li></ul>
+<p><strong>Novelty Assessment</strong>: PubMed count of ~51 places RNF111 in the moderately studied category (51-100 -&gt; 6). The protein has a well-defined molecular mechanism (STUbL activity) but questions remain about its full substrate repertoire and tissue-specific functions. Niche space exists for exploring chromatin context-specific roles and non-canonical substrates.</p>
+<h4>6. 3D Structure Analysis</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody>
+<tr><td>AlphaFold Prediction</td><td>Available (canonical isoform)</td></tr>
+<tr><td>PDB Entries</td><td>4 (2KIZ, 5LG0, 5LG7, 7P2K)</td></tr>
+<tr><td>PDB Method</td><td>NMR (2KIZ); X-ray (5LG0, 5LG7, 7P2K)</td></tr>
+<tr><td>Structural Coverage</td><td>RING domain + N-terminal region</td></tr>
+</tbody></table></div>
+<p><strong>PAE</strong>: PAE image data not available (local image not generated or not reliably obtained). Structural assessment based on PDB entries and domain architecture.</p>
+<p><strong>Structure Assessment</strong>: RNF111 has multiple experimental PDB structures including the RING finger domain (2KIZ by NMR) and larger constructs solved by X-ray crystallography (5LG0, 5LG7, 7P2K). The presence of experimental structures from multiple groups validates the folded nature of the protein. The N-terminal region (RNF111_N domain, PF15303) and RING domain (PF13639) are the structurally characterized regions. The central region may contain disordered segments. Score 8/10 reflects the availability of experimental structures with good resolution.</p>
+<h4>7. Domain Architecture</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Source</th><th>Domain/Feature</th><th>Notes</th></tr></thead><tbody>
+<tr><td>InterPro</td><td>IPR029306 (RNF111_N)</td><td>E3 ubiquitin-protein ligase Arkadia N-terminal domain</td></tr>
+<tr><td>InterPro</td><td>IPR001841 (RING finger)</td><td>Zn-finger, E3 ubiquitin ligase activity</td></tr>
+<tr><td>InterPro</td><td>IPR013083 (Zinc finger, RING/FYVE/PHD-type)</td><td>Metal-binding, protein interaction</td></tr>
+<tr><td>Pfam</td><td>PF15303 (RNF111_N)</td><td>N-terminal domain</td></tr>
+<tr><td>Pfam</td><td>PF13639 (zf-RING_2)</td><td>RING-type zinc finger</td></tr>
+</tbody></table></div>
+<p><strong>Domain Analysis</strong>: RNF111 contains the signature RING finger domain characteristic of E3 ubiquitin ligases, which mediates ubiquitin transfer from E2 enzymes to substrates. The N-terminal domain (RNF111_N) is specific to this protein family. The protein also contains SUMO-interacting motifs (SIMs) that enable its function as a SUMO-targeted ubiquitin ligase (STUbL). While these are not classical DNA-binding domains, the STUbL activity directly impacts chromatin-associated processes including transcription regulation and DNA repair. Domain score: 8/10. The RING domain provides clear molecular function, and the STUbL activity links it to chromatin biology.</p>
+<h4>8. PPI Network Analysis</h4>
+<p><strong>Experimentally validated interactions</strong>:</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Context</th><th>Functional Relevance</th></tr></thead><tbody>
+<tr><td>SMAD7</td><td>TGF-beta signaling</td><td>Substrate recruitment, ubiquitination</td></tr>
+<tr><td>SKI/SKIL</td><td>Transcriptional co-repressors</td><td>Ubiquitination targets; degradation releases SMAD-mediated transcription</td></tr>
+<tr><td>AXIN</td><td>Wnt/TGF-beta crosstalk</td><td>Regulatory complex</td></tr>
+<tr><td>SMURF1</td><td>E3 ligase</td><td>Cooperative ubiquitination</td></tr>
+<tr><td>SUMOylated proteins</td><td>STUbL substrates</td><td>DNA damage response, transcription regulation</td></tr>
+</tbody></table></div>
+<p><strong>Pathway context</strong>: RNF111 operates at the interface of TGF-beta/BMP signaling and the SUMO pathway. It is a critical node that links sumoylation to ubiquitin-dependent degradation. The interaction with SMAD7 defines its role as a positive regulator of TGF-beta signaling (SMAD7-SMURF1/2 complex targets TGF-beta receptors, while SMAD7-Arkadia targets nuclear repressors).</p>
+<p><strong>PPI Assessment</strong>: RNF111 has well-characterized interactions with key signaling molecules. The PPI network is focused on the TGF-beta/SMAD pathway and SUMO-regulated processes. While the number of physical interaction partners is moderate, the interactions are functionally deep rather than broad. Partner enrichment in chromatin/transcription is significant (SMAD7, SKI/SKIL are transcriptional regulators). Score 6/10 reflects moderate PPI network size but strong functional relevance to nuclear processes.</p>
+<h4>9. Cross-Validation Analysis</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Sources</th><th>Result</th><th>Consistent?</th></tr></thead><tbody>
+<tr><td>Nuclear Localization</td><td>UniProt + GO-CC + Keywords</td><td>Nucleus + PML body</td><td>Multi-DB consensus</td></tr>
+<tr><td>PML Body Localization</td><td>UniProt + GO-CC</td><td>PML body confirmed</td><td>Consistent</td></tr>
+<tr><td>Structure</td><td>PDB (4 entries) + AlphaFold</td><td>Experimentally validated fold</td><td>Consistent</td></tr>
+<tr><td>Domain</td><td>InterPro + Pfam + UniProt</td><td>RING finger + RNF111_N</td><td>Consistent</td></tr>
+<tr><td>Function</td><td>Literature + GO</td><td>STUbL, TGF-beta regulation</td><td>Consistent</td></tr>
+</tbody></table></div>
+<p><strong>Cross-Validation Bonus Details</strong>:</p>
+<ul><li>Multi-database nuclear/PML body localization consensus (UniProt + GO-CC): +0.5</li><li>PDB experimental structures + domain architecture consistency: +0.5</li><li><strong>Total Cross-Validation Bonus</strong>: +1.0 / max +3</li></ul>
+<h4>10. Overall Assessment</h4>
+<p><strong>Recommendation Level</strong>: RECOMMENDED (Score: 70.5/100)</p>
+<p><strong>Core Strengths</strong>: 1. Strong nuclear localization with PML body targeting (score 8/10) 2. Well-defined molecular mechanism as SUMO-targeted ubiquitin ligase (STUbL) 3. Experimental PDB structures available (4 entries, NMR + X-ray) 4. Direct functional link to chromatin/transcription regulation via TGF-beta/SMAD pathway 5. Moderate novelty (PubMed ~51) with niche space remaining 6. Protein size (994 aa) is tractable for biochemical studies 7. Deep functional characterization provides foundation for hypothesis-driven research</p>
+<p><strong>Risks / Uncertainties</strong>: 1. PubMed count is moderate (51), reducing novelty score 2. Large protein size (994 aa) may challenge some structural approaches 3. Cytoplasmic annotation may indicate nucleocytoplasmic shuttling -- careful validation needed 4. HPA IF images not available for direct assessment 5. Competition risk from established TGF-beta research community 6. Central disordered regions may complicate full-length structural studies</p>
+<p><strong>Next Steps</strong>:</p>
+<ul><li>[ ] Verify PML body/nuclear localization by HPA IF or independent immunofluorescence</li><li>[ ] Assess chromatin context-specific STUbL substrates</li><li>[ ] Expand PPI network in specific cell types/conditions</li><li>[ ] Evaluate tissue-specific expression and functional relevance</li></ul>
+<h4>11. Decision</h4>
+<p><strong>FINAL DECISION</strong>: NOT REJECTED (recovery from false-rejection). RNF111 clears both nuclear localization threshold (score 8/10) and PubMed threshold (51 articles, &lt;=100). The protein&#x27;s PML body localization, STUbL activity, and role in TGF-beta/SMAD transcriptional regulation make it a strong nuclear candidate. Multiple experimental PDB structures and deep functional characterization support experimental feasibility. Recommended for inclusion with caveat about competition from established literature.</p>
+<h4>12. Data Sources</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q6ZNA4</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22RNF111%22%5BTitle/Abstract%5D</li><li>GO: Gene Ontology annotations via UniProt cross-references</li><li>PDB: https://www.rcsb.org/ (2KIZ, 5LG0, 5LG7, 7P2K)</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q6ZNA4</li><li>Note: Harvest packet not available; data compiled from UniProt and literature database queries</li></ul></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

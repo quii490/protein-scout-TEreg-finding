@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CAMKMT · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>CAMKMT</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleolus</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 32</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleolus.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleolus/CAMKMT/CAMKMT-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;CAMKMT&quot; date: 2026-05-31 tags: [protein-scout, nucleolus, evaluation] status: scored ---</p>
+<h3>CAMKMT 核仁蛋白</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>权重</th><th>加权</th><th>摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>8/10</td><td>×4</td><td>32.0</td><td>GO nucleolus IDA:HPA + nucleoplasm IDA:HPA</td></tr>
+<tr><td>蛋白大小</td><td>6/10</td><td>×1</td><td>6.0</td><td>323 aa</td></tr>
+<tr><td>研究新颖性</td><td>10/10</td><td>×5</td><td>50.0</td><td>PubMed strict=11, broad=15</td></tr>
+<tr><td>三维结构</td><td>7/10</td><td>×3</td><td>21.0</td><td>AlphaFold pLDDT 84.8; PDB 4PWY (X-ray 1.90A)</td></tr>
+<tr><td>调控结构域</td><td>5/10</td><td>×2</td><td>10.0</td><td>Methyltransferase domain</td></tr>
+<tr><td>PPI 网络</td><td>4/10</td><td>×3</td><td>12.0</td><td>STRING methyltransferase network; IntAct limited</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>131/180</strong>********</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+2.0</td><td>Nucleolus + nucleoplasm IDA:HPA</td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>71.6/100</strong>********</td><td></td></tr>
+</tbody></table></div>
+<p><strong>核定位证据</strong>: UniProt Cytoplasm + Nucleus + Golgi ECO:0000269. GO <strong>nucleolus IDA:HPA</strong> + <strong>nucleoplasm IDA:HPA</strong> -- strong subnuclear evidence. Calmodulin-lysine N-methyltransferase.</p>
+<p><strong>HPA IF 状态</strong>: IF thumbnail only — HPA 暂无 IF 原图，仅获取到 60x60 缩略图，不能作为可靠定位证据。核定位基于 UniProt + GO-CC。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CAMKMT/CAMKMT-PAE.png</code></div></figure></p>
+<p>PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。</p>
+<h5>PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>PREPL</td><td>STRING</td><td>score=0.976, exp=0</td><td>Textmining only; prolyl endopeptidase-like</td></tr>
+<tr><td>PPM1B</td><td>STRING</td><td>score=0.953, exp=0</td><td>Textmining only; protein phosphatase</td></tr>
+<tr><td>PLOD1</td><td>STRING</td><td>score=0.900, exp=0</td><td>Database (0.9); lysyl hydroxylase</td></tr>
+<tr><td>EHMT2</td><td>STRING</td><td>score=0.861, exp=0</td><td>Histone methyltransferase (database 0.65)</td></tr>
+<tr><td>DOT1L</td><td>STRING</td><td>score=0.861, exp=0</td><td>Histone methyltransferase (database 0.65)</td></tr>
+<tr><td>SELENBP1</td><td>IntAct</td><td>anti tag coIP</td><td>Selenium binding protein</td></tr>
+<tr><td>H1-5</td><td>IntAct</td><td>cross-linking</td><td>Histone linker H1</td></tr>
+<tr><td>CALM1</td><td>IntAct</td><td>anti tag coIP</td><td>Calmodulin (substrate)</td></tr>
+</tbody></table></div>
+<p><strong>IntAct 数据</strong>: SELENBP1, H1-5, COL1A1, COL1A2, CALM1, SPX 等 (均为 coIP 或 cross-linking)。STRED 连接多基于数据库/文本挖掘 (exp=0)，实验证据薄弱。无 BioGrid 补充数据。UniProt 未记载互作伙伴。</p>
+<p>Nucleolus + nucleoplasm IDA:HPA makes this a strong nucleolus candidate.</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CAMKMT/CAMKMT-PAE.png</code></div></figure></p>
+<h5>关键文献</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>PMID</th><th>标题</th></tr></thead><tbody>
+<tr><td>34548933</td><td>Genetic Biomarkers in Association with Depressive Disorder in UAE Residents: A Pilot Case Study.</td></tr>
+<tr><td>38949516</td><td>Genome-wide comparative analyses highlight selection signatures underlying saline adaptation in Chil</td></tr>
+<tr><td>31886626</td><td>Genome-wide association study of shared liability to anxiety disorders in Army STARRS.</td></tr>
+<tr><td>30085123</td><td>ZBTB24 is a transcriptional regulator that coordinates with DNMT3B to control DNA methylation.</td></tr>
+<tr><td>27435482</td><td>Effect of polymorphisms in the CAMKMT gene on growth traits in Ujumqin sheep.</td></tr>
+</tbody></table></div>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CAMKMT/CAMKMT-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

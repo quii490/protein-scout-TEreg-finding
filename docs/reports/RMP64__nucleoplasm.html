@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RMP64 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>RMP64</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 20</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/RMP64/RMP64-evaluation.md</p></section><article class="report-body"><h2>RMP64 -- Critical False-Rejection Reevaluation Report</h2>
+<p><strong>Gene:</strong> RMP64 (Ribonuclease MRP subunit P64) <strong>UniProt Accession:</strong> Q6NW34 <strong>Protein Name:</strong> Ribonuclease MRP subunit P64 <strong>Length:</strong> 567 aa | <strong>Mass:</strong> 64.6 kDa <strong>Aliases:</strong> C3orf17, NEPRO <strong>Report Date:</strong> 2026-06-04 <strong>Review Stage:</strong> W3 Batch 1 -- CRITICAL REOPEN</p>
+<hr>
+<h3>/180 Scoring Table</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Max</th><th>Score</th><th>Rationale</th></tr></thead><tbody>
+<tr><td>1. Nuclear Localization</td><td>30</td><td>20</td><td>UniProt: Nucleus (ECO:0000269 -- experimental), Nucleus nucleolus (ECO:0000250 -- by similarity). GO-CC: nucleolus (ISS:UniProtKB), nucleus (IDA:UniProtKB), ribonuclease MRP complex (IDA:UniProtKB). HPA: page_found_no_if_image_detected -- no HPA localization data available. Nuclear evidence is from UniProt experimental (nucleus) and by-similarity (nucleolus). Valid but weaker than HPA-supported cases.</td></tr>
+<tr><td>2. Protein Size</td><td>10</td><td>8</td><td>567 aa / 64.6 kDa. Moderate-large size.</td></tr>
+<tr><td>3. Research Novelty</td><td>10</td><td>10</td><td>PubMed strict: 4. Novelty rule: 1-50=10. Extremely few publications.</td></tr>
+<tr><td>4. 3D Structure</td><td>30</td><td>10</td><td>AlphaFold mean pLDDT: 64.0 (20.5% &gt;90, 29.5% 70-90, 10.4% 50-70, 39.7% &lt;50). PDB: None. Low structural confidence overall. No experimental structures.</td></tr>
+<tr><td>5. Regulatory Domains</td><td>50</td><td>5</td><td>IPR052835, IPR027951. PF14780. Function: Specific component of RNase MRP complex involved in pre-rRNA processing. Role in cortex development downstream of Notch signaling. RNase MRP processes pre-rRNA and mitochondrial RNA. No direct transcriptional/chromatin regulatory function. Ribosome biogenesis role, not chromatin-level regulation.</td></tr>
+<tr><td>6. PPI Network</td><td>50</td><td>5</td><td>STRING: Not found (HTTP 404). IntAct: Empty. UniProt interactions: None. No interaction data available.</td></tr>
+<tr><td><strong>TOTAL</strong></td><td><strong>180</strong></td><td><strong>58</strong></td><td></td></tr>
+</tbody></table></div>
+<hr>
+<h3>Nuclear Evidence Section</h3>
+<h4>HPA (Human Protein Atlas)</h4>
+<ul><li><strong>Status:</strong> page_found_no_if_image_detected</li><li><strong>Reliability (IF):</strong> null</li><li><strong>Main Location:</strong> No data</li><li><strong>Additional:</strong> No data</li><li><strong>IF Image Status:</strong> no_image_detected</li><li><strong>Key Finding:</strong> HPA has a gene page for RMP64 but no subcellular localization or IF data.</li></ul>
+<h4>UniProt Subcellular Location</h4>
+<ul><li><strong>Nucleus</strong> -- ECO:0000269 (experimental)</li><li><strong>Nucleus, nucleolus</strong> -- ECO:0000250 (by similarity)</li></ul>
+<h4>GO Cellular Component (GO-CC)</h4>
+<ul><li><strong>GO:0005730 (nucleolus)</strong> -- ISS:UniProtKB</li><li><strong>GO:0005634 (nucleus)</strong> -- IDA:UniProtKB</li><li><strong>GO:0000172 (ribonuclease MRP complex)</strong> -- IDA:UniProtKB</li></ul>
+<p><strong>Summary:</strong> Nuclear localization supported by UniProt experimental evidence (nucleus) and by-similarity (nucleolus). RNase MRP complex localization is in the nucleolus. However, HPA has no localization data available. Nuclear score: 20/30 -- valid nuclear evidence but limited HPA support.</p>
+<hr>
+<h3>PubMed Evidence</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Query Type</th><th>Count</th></tr></thead><tbody>
+<tr><td>Strict (Title/Abstract)</td><td>4</td></tr>
+<tr><td>Broad (All Fields)</td><td>4</td></tr>
+</tbody></table></div>
+<p><strong>Novelty score: 10/10.</strong> Extremely few publications (4 strict).</p>
+<h4>Key Papers</h4>
+<p>1. <strong>PMID:40867056</strong> -- Liu Y et al. (2025). &quot;Composition and RNA binding specificity of metazoan RNase MRP.&quot; *Nucleic Acids Res*. 2. <strong>PMID:41888142</strong> -- Zhou B et al. (2026). &quot;Structural and evolutionary insights into the eukaryotic RNase MRP ribonucleoprotein complex.&quot; *Nat Commun*. 3. <strong>PMID:40413743</strong> -- Che R et al. (2025). &quot;Identification of RMP24 and RMP64, human ribonuclease MRP-specific protein components.&quot; *Cell Rep*. 4. <strong>PMID:41136609</strong> -- Smith EM et al. (2026). &quot;RNase MRP subunit composition and role in 40S ribosome biogenesis.&quot; *Nat Struct Mol Biol*.</p>
+<p><strong>Assessment:</strong> All 4 publications are about RNase MRP complex characterization. No publications link RMP64 to TE regulation.</p>
+<hr>
+<h3>AlphaFold / PDB / PAE</h3>
+<h4>AlphaFold Predicted Structure</h4>
+<ul><li><strong>Entry:</strong> AF-Q6NW34-F1, version 6</li><li><strong>mean pLDDT: 64.0</strong> (&gt;90: 20.5%, 70-90: 29.5%, 50-70: 10.4%, &lt;50: 39.7%)</li><li><strong>Assessment:</strong> Low-moderate overall confidence. Nearly 40% of residues have pLDDT &lt;50.</li></ul>
+<h4>Experimental PDB Structures</h4>
+<ul><li><strong>None.</strong></li><li><strong>Assessment:</strong> No experimental structures available.</li></ul>
+<h4>PAE</h4>
+<ul><li>PAE image URL available.</li><li>PAE assessment pending image retrieval.</li></ul>
+<hr>
+<h3>PPI Network</h3>
+<h4>STRING</h4>
+<ul><li><strong>Status:</strong> HTTP Error 404 -- STRING has no entry for RMP64.</li></ul>
+<h4>IntAct</h4>
+<ul><li><strong>Status:</strong> Empty -- no interactions recorded.</li></ul>
+<h4>UniProt Interactions</h4>
+<ul><li><strong>None.</strong></li></ul>
+<h4>PPI Network Assessment</h4>
+<ul><li>No interaction data available from any source. As a component of the RNase MRP complex, RMP64 likely interacts with other complex subunits, but these interactions are not recorded in public databases.</li></ul>
+<hr>
+<h3>FALSE REJECTION RECHECK</h3>
+<h4>Original Rejection Reason (inferred)</h4>
+<p>RMP64 was likely rejected due to very limited data availability and low scores across multiple dimensions.</p>
+<h4>Recheck Analysis</h4>
+<p>1. <strong>Nuclear evidence:</strong> PRESENT but WEAK. UniProt experimental nucleus (ECO:0000269). HPA has no data. No IF images. 2. <strong>Functional context:</strong> RNase MRP complex component. Pre-rRNA processing. Not transcriptional or chromatin regulatory. 3. <strong>PubMed:</strong> 4 strict. Very low. HIGH NOVELTY. 4. <strong>Structure:</strong> Low AF confidence (mean pLDDT 64.0, 39.7% &lt;50). No PDB structures. 5. <strong>PPI:</strong> No data. Empty STRING and IntAct. 6. <strong>Regulatory domains:</strong> Minimal. No chromatin/transcriptional regulatory domains.</p>
+<h4>Verdict</h4>
+<p><strong>The original rejection was CORRECT.</strong> RMP64 is a ribosome biogenesis factor (RNase MRP complex) without direct transcriptional or chromatin regulatory function. While nuclear localization is supported by UniProt experimental data, the functional profile does not suggest TE-regulatory relevance. The very low structural confidence and absence of PPI data further weaken the case. This gene should remain REJECTED.</p>
+<hr>
+<h3>TE-Regulator Relevance</h3>
+<p>VERY LOW. RMP64 functions in pre-rRNA processing as part of the RNase MRP complex. This is a ribosomal biogenesis function, not chromatin or TE regulation. There is no evidence connecting RMP64 to transcriptional regulation, histone modification, DNA methylation, or any TE silencing mechanism. The protein&#x27;s role is limited to ribosomal RNA maturation.</p>
+<hr>
+<h3>Final Decision: REJECTED</h3>
+<p>Score: 58/180. Very low score across all dimensions except novelty. While RMP64 is nuclear (nucleolar), its function is exclusively in ribosome biogenesis (pre-rRNA processing) with no evidence of transcriptional, chromatin, or TE-regulatory activity. Structural data is poor and no interaction network data exists. Confirmed rejection.</p>
+<hr>
+<h3>Manual Review Note</h3>
+<p>CONFIRMED REJECTION. RMP64 is a recently characterized component of the human RNase MRP complex involved in pre-rRNA processing. Its function is ribosomal biogenesis, not chromatin/transcriptional regulation. While it is nucleolar (nuclear subcompartment), this reflects its role in rRNA processing. No evidence supports TE-regulatory function. PubMed count of 4 indicates it is newly identified and under-characterized, but the known function is not relevant to TE biology.</p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

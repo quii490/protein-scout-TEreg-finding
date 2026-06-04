@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CENPL · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>CENPL</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">chromatin</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 73.2</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/chromatin.html">Category page</a></div><p class="source-path">Original detail path: detail/chromatin/CENPL/CENPL-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;CENPL&quot; date: 2026-05-31 tags: [protein-scout, chromatin, evaluation] status: scored ---</p>
+<h3>CENPL 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>CENPL / C1orf155, ICEN33</td></tr>
+<tr><td>蛋白全名</td><td>Centromere protein L</td></tr>
+<tr><td>蛋白大小</td><td>344 aa / 39.0 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q8N0S6</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>新权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>8/10</td><td>×4</td><td>32.0</td><td>UniProt Nucleus + Chromosome/centromere (ECO:0000269); GO inner kinetochore + nucleoplasm</td></tr>
+<tr><td>蛋白大小</td><td>6/10</td><td>×1</td><td>6.0</td><td>344 aa, 39.0 kDa，中等大小</td></tr>
+<tr><td>研究新颖性</td><td>8/10</td><td>×5</td><td>40.0</td><td>Strict=22</td></tr>
+<tr><td>三维结构</td><td>7/10</td><td>×3</td><td>21.0</td><td>8 PDB EM 结构（着丝粒复合物，全蛋白覆盖）；pLDDT 83.0</td></tr>
+<tr><td>调控结构域</td><td>5/10</td><td>×2</td><td>10.0</td><td>CENP-L domain (IPR025204, PF13092)，着丝粒组装</td></tr>
+<tr><td>PPI 网络</td><td>8/10</td><td>×3</td><td>24.0</td><td>STRING 极强 CENP 家族网络（score 均 0.99+）; IntAct 多重互作</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>133/180</strong>**</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+1.0</td><td>UniProt/GO 多源实验定位互证（ECO:0000269 + IPI + TAS + NAS）；CENP 网络 PPI 多库互证</td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>72.7/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<p>PubMed strict: 22</p>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Nucleus (ECO:0000269); Chromosome, centromere (ECO:0000269)</td><td>实验证据</td></tr>
+<tr><td>GO-CC</td><td>cytosol (TAS:Reactome); inner kinetochore (IPI:ComplexPortal); nucleoplasm (TAS:Reactome); nucleus (NAS:ComplexPortal)</td><td>多项证据</td></tr>
+<tr><td>HPA (IF)</td><td>页面有图像但无 IF 图像</td><td>无 IF 数据</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 状态</strong>: IF thumbnail only — HPA 暂无 IF 原图，仅获取到 60x60 缩略图，不能作为可靠定位证据。核定位基于 UniProt + GO-CC。</p>
+<p><strong>结论</strong>: CENPL 核定位有强大实验证据。作为着丝粒蛋白（CENP family），其定位 specificity 在着丝粒/内层 kinetochore，核定位是基础属性。</p>
+<h5>3.2 结构与结构域</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold</td><td>AF-Q8N0S6-F1</td></tr>
+<tr><td>平均 pLDDT</td><td>83.0</td></tr>
+<tr><td>pLDDT &gt;90</td><td>62.8%</td></tr>
+<tr><td>pLDDT 70-90</td><td>16.0%</td></tr>
+<tr><td>pLDDT 50-70</td><td>7.8%</td></tr>
+<tr><td>pLDDT &lt;50</td><td>13.4%</td></tr>
+<tr><td>PDB</td><td>7PKN (3.20 A), 7QOO (4.60 A), 7R5S (2.83 A), 7R5V (4.55 A), 7XHN (3.71 A), 7XHO (3.29 A), 7YWX (12.00 A), 7YYH (8.90 A)，均为 EM，全蛋白覆盖 L=1-344</td></tr>
+<tr><td>InterPro</td><td>IPR025204</td></tr>
+<tr><td>Pfam</td><td>PF13092</td></tr>
+</tbody></table></div>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CENPL/CENPL-PAE.png</code></div></figure> <figure><div class="missing-image">Missing local image: <code>../assets/report-images/CENPL/CENPL-PAE.png</code></div></figure></p>
+<p>pLDDT 良好（均值 83.0），62.8% &gt;90。8 个 PDB EM 结构覆盖全长（1-344），均为着丝粒复合体组装状态，resolution 从 2.83 A 到 12.00 A。结构域注释为 CENP-L 特异性（IPR025204, PF13092）。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict (Title/Abstract)</td><td>22</td></tr>
+<tr><td>PubMed broad</td><td>32</td></tr>
+<tr><td>别名</td><td>C1orf155, ICEN33（未用于 scoring）</td></tr>
+</tbody></table></div>
+<p>关键文献：</p>
+<ul><li>PMID:39507047 — &quot;Role of CENPL, DARS2, and PAICS in determining the prognosis of patients with lung adenocarcinoma&quot; (Transl Lung Cancer Res, 2024)</li><li>PMID:35844598 — &quot;Pan-Cancer and Single-Cell Analysis Reveals CENPL as a Cancer Prognosis and Immune Infiltration-Related Biomarker&quot; (Front Immunol, 2022)</li><li>PMID:38522807 — &quot;E2F8-CENPL pathway contributes to homologous recombination repair and chemoresistance in breast cancer&quot; (Cell Signal, 2024)</li><li>PMID:37914022 — &quot;CENPL accelerates cell proliferation, cell cycle, apoptosis, and glycolysis via MEK1/2-ERK1/2 pathway in HCC&quot; (Int J Biochem Cell Biol, 2024)</li><li>PMID:36816951 — &quot;Highly expressed CENPL is correlated with breast cancer cell proliferation and immune infiltration&quot; (Front Oncol, 2023)</li></ul>
+<p>功能双重：着丝粒组装（CENPA-NAC/CAD complex）+ 肿瘤预后标志物（多种癌症）。研究量中等偏低（strict=22），但近年肿瘤关联研究活跃，仍有新颖性空间。</p>
+<h5>3.4 PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>CENPN</td><td>STRING</td><td>0.999 (exp 0.953)</td><td>CENP-N，CENPA-NAC 复合体核心成员</td></tr>
+<tr><td>CENPI</td><td>STRING</td><td>0.999 (exp 0.936)</td><td>CENP-I，着丝粒组成型蛋白</td></tr>
+<tr><td>CENPM</td><td>STRING</td><td>0.999 (exp 0.953)</td><td>CENP-M，着丝粒组成型蛋白</td></tr>
+<tr><td>CENPO</td><td>STRING</td><td>0.999 (exp 0.805)</td><td>CENP-O，着丝粒组成型蛋白</td></tr>
+<tr><td>CENPH</td><td>STRING</td><td>0.999 (exp 0.847)</td><td>CENP-H，着丝粒组成型蛋白</td></tr>
+<tr><td>CENPH</td><td>IntAct</td><td>anti tag coIP (PMID:19070575)</td><td>CENP-H，物理互作</td></tr>
+<tr><td>FAM9B</td><td>IntAct</td><td>two hybrid array (PMID:25416956)</td><td>未知功能</td></tr>
+<tr><td>ICK</td><td>IntAct</td><td>anti tag coIP (PMID:28514442)</td><td>Intestinal cell kinase</td></tr>
+<tr><td>FAM9B</td><td>UniProt</td><td>3 experiments</td><td>未知功能</td></tr>
+</tbody></table></div>
+<p>STRING PPI 网络极度强大：top 15 全部是 CENP 家族成员（CENPN/C/M/O/H/Q/K/C/P/U/S/T/A/W），combined score 均为 0.99+，实验 score 0.80-0.95。IntAct 确认 CENPH 物理互作（anti tag coIP）。UniProt 仅记录 FAM9B 互作。PPI 网络明确指向着丝粒/kinetochore 组装，是典型的染色质相关蛋白复合体。</p>
+<h4>4. 总体评价</h4>
+<p>CENPL 是一个定位明确、结构已知、PPI 网络强大的着丝粒蛋白。核定位/染色质定位有充分实验证据。归一化总分 73.2/100，在 chromatin 类别中表现优异。主要局限是作为 CENP family 成员，功能相对明确（着丝粒组装），研究新颖性因近年肿瘤生物标志物研究大量涌现而略降。建议作为高优先级 chromatin 候选保留。</p>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q8N0S6</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8N0S6</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CENPL</li><li>Protein Atlas: https://www.proteinatlas.org/search/CENPL（无 IF 图像）</li></ul>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CENPL/CENPL-PAE.png</code></div></figure></p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CENPL/CENPL-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RWDD3 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>RWDD3</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 22</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/RWDD3/RWDD3-evaluation.md</p></section><article class="report-body"><h2>RWDD3 -- Critical False-Rejection Reevaluation Report</h2>
+<p><strong>Gene:</strong> RWDD3 (RWD domain-containing protein 3) <strong>UniProt Accession:</strong> Q9Y3V2 <strong>Protein Name:</strong> RWD domain-containing protein 3 <strong>Length:</strong> 267 aa | <strong>Mass:</strong> 30.5 kDa <strong>Aliases:</strong> RSUME <strong>Report Date:</strong> 2026-06-04 <strong>Review Stage:</strong> W3 Batch 1 -- CRITICAL REOPEN</p>
+<hr>
+<h3>/180 Scoring Table</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Max</th><th>Score</th><th>Rationale</th></tr></thead><tbody>
+<tr><td>1. Nuclear Localization</td><td>30</td><td>22</td><td>UniProt: Nucleus (ECO:0000269 -- experimental), Cytoplasm (ECO:0000269). GO-CC: nucleus (IEA:UniProtKB-SubCell), cytoplasm (IEA:UniProtKB-SubCell). HPA: hpa_localization_available but no subcellular location data available (reliability=null, empty location lists). Nuclear evidence is from UniProt experimental only. HPA has no data.</td></tr>
+<tr><td>2. Protein Size</td><td>10</td><td>10</td><td>267 aa / 30.5 kDa. Full marks.</td></tr>
+<tr><td>3. Research Novelty</td><td>10</td><td>10</td><td>PubMed strict: 18. Novelty rule: 1-50=10.</td></tr>
+<tr><td>4. 3D Structure</td><td>30</td><td>20</td><td>AlphaFold mean pLDDT: 81.6 (24.0% &gt;90, 65.2% 70-90, 3.7% 50-70, 7.1% &lt;50). PDB: 2EBK (NMR, residues 1-121), 4Y1L (X-ray, 2.70A, residues 2-113). Partial structures only (N-terminal RWD domain). Good AF confidence overall.</td></tr>
+<tr><td>5. Regulatory Domains</td><td>50</td><td>40</td><td>IPR006575 (RWD domain), IPR038840, IPR016135. PF05773. FUNCTION: Enhancer of SUMO conjugation. Increases SUMO conjugation to proteins including HIF1A, PIAS, NFKBIA, NR3C1, TOP1. Regulates NF-kappa-B and HIF1A signaling pathways through sumoylation. SUMOylation is a KEY post-translational modification involved in transcriptional regulation, chromatin organization, and TE silencing. Acts through interaction with UBE2I/UBC9 (E2 SUMO enzyme).</td></tr>
+<tr><td>6. PPI Network</td><td>50</td><td>30</td><td>STRING: 9 partners. UBE2I (0.991), SUMO1 (0.753), VHL (0.692), HIF1A (0.676), SAE1 (0.568), UBA2 (0.551). IntAct: 4 interactors. UBE2I (direct interaction, pull-down), SUMO1, NFKBIA, HIF1A. All SUMO pathway partners.</td></tr>
+<tr><td><strong>TOTAL</strong></td><td><strong>180</strong></td><td><strong>132</strong></td><td></td></tr>
+</tbody></table></div>
+<hr>
+<h3>Nuclear Evidence Section</h3>
+<h4>HPA (Human Protein Atlas)</h4>
+<ul><li><strong>Status:</strong> hpa_localization_available</li><li><strong>Reliability (IF):</strong> null</li><li><strong>Main Location:</strong> No data (empty lists)</li><li><strong>Additional:</strong> No data (empty lists)</li><li><strong>IF Image Status:</strong> no_image_detected</li><li><strong>Key Finding:</strong> HPA has a gene page but does not report any subcellular localization. No IF images.</li></ul>
+<h4>UniProt Subcellular Location</h4>
+<ul><li><strong>Nucleus</strong> -- ECO:0000269 (experimental)</li><li><strong>Cytoplasm</strong> -- ECO:0000269 (experimental)</li></ul>
+<h4>GO Cellular Component (GO-CC)</h4>
+<ul><li><strong>GO:0005634 (nucleus)</strong> -- IEA:UniProtKB-SubCell</li><li><strong>GO:0005737 (cytoplasm)</strong> -- IEA:UniProtKB-SubCell</li></ul>
+<p><strong>Summary:</strong> UniProt experimental evidence supports both nuclear and cytoplasmic localization. HPA provides no localization data. Nuclear score: 22/30 -- UniProt experimental evidence for nucleus, but limited HPA support.</p>
+<hr>
+<h3>PubMed Evidence</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Query Type</th><th>Count</th></tr></thead><tbody>
+<tr><td>Strict (Title/Abstract)</td><td>18</td></tr>
+<tr><td>Broad (All Fields)</td><td>35</td></tr>
+</tbody></table></div>
+<p><strong>Novelty score: 10/10.</strong></p>
+<h4>Key Papers</h4>
+<p>1. <strong>PMID:35528020</strong> -- Fuertes M et al. (2022). &quot;Impact of RSUME Actions on Biomolecular Modifications in Physio-Pathological Processes.&quot; *Front Endocrinol*. 2. <strong>PMID:31864228</strong> -- Elguero B et al. (2019). &quot;Modifications in the cellular proteome and their clinical application.&quot; *Medicina*. 3. <strong>PMID:29436665</strong> -- Ji CX et al. (2018). &quot;MicroRNA-375 inhibits glioma cell proliferation and migration by downregulating RWDD3 in vitro.&quot; *Oncol Rep*. 4. <strong>PMID:34768754</strong> -- Ward Z et al. (2021). &quot;Novel and Annotated Long Noncoding RNAs Associated with Ischemia in the Human Heart.&quot; *Int J Mol Sci*. 5. <strong>PMID:29622689</strong> -- Fuertes M et al. (2018). &quot;Protein stabilization by RSUME accounts for PTTG pituitary tumor abundance and oncogenicity.&quot; *Endocr Relat Cancer*.</p>
+<p><strong>Assessment:</strong> Literature focuses on RSUME&#x27;s role in SUMOylation enhancement and cancer biology. Direct relevance to protein modification pathways.</p>
+<hr>
+<h3>AlphaFold / PDB / PAE</h3>
+<h4>AlphaFold Predicted Structure</h4>
+<ul><li><strong>Entry:</strong> AF-Q9Y3V2-F1, version 6</li><li><strong>mean pLDDT: 81.6</strong> (&gt;90: 24.0%, 70-90: 65.2%, 50-70: 3.7%, &lt;50: 7.1%)</li><li><strong>Assessment:</strong> Good overall confidence. Most residues 70-90.</li></ul>
+<h4>Experimental PDB Structures</h4>
+<ul><li><strong>2 structures:</strong> 2EBK (NMR, residues 1-121 -- N-terminal RWD domain), 4Y1L (X-ray, 2.70A, residues 2-113 in complex with UBE2I)</li><li><strong>Assessment:</strong> Partial structural coverage of the RWD domain. C-terminal region not covered.</li></ul>
+<h4>PAE</h4>
+<ul><li>PAE image URL available.</li><li>PAE assessment pending image retrieval.</li></ul>
+<hr>
+<h3>PPI Network</h3>
+<h4>STRING (9 partners)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>Experimental</th><th>Function</th></tr></thead><tbody>
+<tr><td>UBE2I</td><td>0.991</td><td>0.926</td><td>E2 SUMO-conjugating enzyme</td></tr>
+<tr><td>SUMO1</td><td>0.753</td><td>0.292</td><td>Small ubiquitin-like modifier</td></tr>
+<tr><td>VHL</td><td>0.692</td><td>0.510</td><td>E3 ubiquitin ligase</td></tr>
+<tr><td>HIF1A</td><td>0.676</td><td>0.510</td><td>Hypoxia transcription factor</td></tr>
+<tr><td>SAE1</td><td>0.568</td><td>0</td><td>SUMO E1 subunit</td></tr>
+<tr><td>UBA2</td><td>0.551</td><td>0</td><td>SUMO E1 subunit</td></tr>
+<tr><td>RANBP2</td><td>0.510</td><td>0</td><td>SUMO E3 ligase / nuclear pore</td></tr>
+</tbody></table></div>
+<h4>IntAct (4 interactors)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Method</th><th>PMID</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>UBE2I</td><td>Pull-down (direct)</td><td>17956732</td><td>Core SUMO E2 enzyme</td></tr>
+<tr><td>SUMO1</td><td>Co-IP</td><td>17956732</td><td>SUMO modifier</td></tr>
+<tr><td>NFKBIA</td><td>Co-IP</td><td>17956732</td><td>NF-kB inhibitor</td></tr>
+<tr><td>HIF1A</td><td>Co-IP</td><td>17956732</td><td>Hypoxia transcription factor</td></tr>
+</tbody></table></div>
+<h4>PPI Network Assessment</h4>
+<ul><li>Dedicated SUMOylation network. UBE2I is the core interaction -- RWDD3 acts as a SUMOylation enhancer.</li><li>HIF1A and NFKBIA sumoylation connects to transcription regulation.</li><li>RANBP2 connection to nuclear pore/SUMO E3 is notable.</li></ul>
+<hr>
+<h3>FALSE REJECTION RECHECK</h3>
+<h4>Original Rejection Reason (inferred)</h4>
+<p>RWDD3 was likely rejected due to incomplete HPA data and possibly undervaluation of the SUMOylation regulatory function.</p>
+<h4>Recheck Analysis</h4>
+<p>1. <strong>Nuclear evidence:</strong> PRESENT. UniProt experimental nucleus (ECO:0000269). HPA has no data available. 2. <strong>Functional context:</strong> SUMOylation enhancer. Directly enhances SUMO conjugation to target proteins. SUMOylation is a critical PTM for transcriptional regulation, chromatin organization, and TE silencing. Regulates HIF1A (transcription factor) and NFKBIA (NF-kB pathway) through sumoylation. 3. <strong>PubMed:</strong> 18 strict. VERY LOW. 4. <strong>Structure:</strong> Partial PDB structures + good AF confidence. 5. <strong>PPI:</strong> Dedicated SUMO pathway network (UBE2I, SUMO1, RANBP2).</p>
+<h4>Verdict</h4>
+<p><strong>The original rejection was INCORRECT.</strong> RWDD3/RSUME is a SUMOylation enhancer -- SUMO is a critical pathway for chromatin organization and TE silencing. The protein directly interacts with UBE2I (E2 SUMO enzyme) and enhances SUMO conjugation. While nuclear evidence is UniProt-only (no HPA data), the SUMOylation function is strongly chromatin-relevant. Should be RETAINED.</p>
+<hr>
+<h3>TE-Regulator Relevance</h3>
+<p>HIGH. RWDD3 (RSUME) enhances SUMO conjugation to target proteins. SUMOylation is a key post-translational modification involved in transcriptional repression, heterochromatin formation, and TE silencing. The SUMO pathway is directly implicated in KRAB-ZFP/KAP1-mediated TE repression. RWDD3&#x27;s role as a SUMOylation enhancer positions it upstream of these silencing pathways. The interaction with RANBP2 (SUMO E3 ligase at nuclear pore) further supports nuclear/complex-level SUMO function.</p>
+<hr>
+<h3>Final Decision: RETAINED</h3>
+<p>Score: 132/180. RWDD3 is a SUMOylation enhancer with direct relevance to chromatin regulation and TE silencing pathways. Strong PPI network (SUMO pathway core components), good structural data, and very high novelty (PubMed=18). Retained.</p>
+<hr>
+<h3>Manual Review Note</h3>
+<p>STRONG CANDIDATE. RWDD3 (RSUME) functions as an enhancer of SUMO conjugation, a pathway directly implicated in TE silencing. The core interaction with UBE2I (SUMO E2) positions RWDD3 as a regulator of global SUMOylation. SUMO modification is critical for KAP1/TRIM28-mediated TE repression, heterochromatin formation, and PML nuclear body function. HIF1A and NFKBIA sumoylation links to hypoxic and inflammatory transcriptional programs that may affect TE expression. The HPA data gap (no localization/images) is the main weakness. Retained for its high regulatory relevance despite limited HPA evidence.</p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

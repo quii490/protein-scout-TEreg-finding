@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ARID4B · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>ARID4B</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 1.5</span><span class="badge">Nuclear: 24</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/ARID4B/ARID4B-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;ARID4B&quot; date: 2026-05-29 tags: [protein-scout, nuclear-protein, evaluation] status: scored ---</p>
+<h3>ARID4B 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>ARID4B / BRCAA1 / RBBP1L1 / RBP1L1 / SAP180</td></tr>
+<tr><td>蛋白大小</td><td>1312 aa / 147.8 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q4LE39</td></tr>
+<tr><td>评估日期</td><td>2026-05-29</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>满分</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>🔴 核定位特异性</td><td>6/10</td><td>×4</td><td>24</td><td>HPA: mainly mitochondria/cytosol + nucleoplasm (uncertain); UniProt: Nucleus + Cytoplasm; GO: Sin3 complex, nucleus</td></tr>
+<tr><td>📏 蛋白大小</td><td>5/10</td><td>×1</td><td>5</td><td>1312 aa，1200–2000 范围</td></tr>
+<tr><td>🆕 研究新颖性</td><td>6/10</td><td>×5</td><td>30</td><td>PubMed &quot;ARID4B&quot;[Title/Abstract] = 58 篇</td></tr>
+<tr><td>🏗️ 三维结构</td><td>6/10</td><td>×3</td><td>18</td><td>AF pLDDT=55.72 (61.3% VL); PDB 7DM4 (NMR, partial 1-151); 新颖蛋白基线</td></tr>
+<tr><td>🧬 调控结构域</td><td>10/10</td><td>×2</td><td>20</td><td>ARID domain + Tudor (x2) + PWWP + chromo-like — 全为染色质/DNA 调控域; Sin3-type complex</td></tr>
+<tr><td>🔗 PPI 网络</td><td>7/10</td><td>×3 = 21</td><td>IntAct: 47 physical; Sin3 complex component; chromatin regulator partners</td></tr>
+<tr><td>➕ 互证加分</td><td>—</td><td>max +3</td><td>+1.5</td><td>多库一致结构域 + Sin3 复合体归属</td></tr>
+<tr><td><strong>原始总分</strong></td><td></td><td></td><td><strong>119.5/183</strong></td><td></td></tr>
+<tr><td><strong>归一化总分</strong></td><td></td><td></td><td><strong>65.3/100</strong></td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>Protein Atlas (IF)</td><td>Mitochondria + Cytosol (main); Nucleoplasm (uncertain, additional)</td><td>Supported</td></tr>
+<tr><td>UniProt</td><td>Nucleus, Cytoplasm</td><td>—</td></tr>
+<tr><td>GO-CC</td><td>GO:0005634 nucleus, GO:0005654 nucleoplasm, GO:0070822 Sin3-type complex</td><td>—</td></tr>
+</tbody></table></div>
+<p><strong>HPA 详情</strong>: 抗体 HPA027205 在 HEK293、SiHa、U2OS 中检测。主信号在 mitochondria 和 cytosol，nucleoplasm 仅为 uncertain additional。Supported 可靠性级别。</p>
+<p><strong>IF 图像</strong>: <figure><div class="missing-image">Missing local image: <code>../assets/report-images/ARID4B/HEK293_1.jpg</code></div></figure> <figure><div class="missing-image">Missing local image: <code>../assets/report-images/ARID4B/HEK293_2.jpg</code></div></figure></p>
+<p><strong>结论</strong>: HPA 与 UniProt 冲突 — HPA 显示主要线粒体/胞质定位（nucleoplasm uncertain），UniProt 标注 Nucleus + Cytoplasm。Sin3 复合体 (HDAC1/2 corepressor) 成员的功能证据强烈支持核功能。HPA 的 nucleoplasm uncertain 可能是抗体/细胞系限制。给分 6（核 + 显著胞质/线粒体，但核功能证据充分）。</p>
+<h5>3.2 蛋白大小评估</h5>
+<p><strong>评价</strong>: 1312 aa (147.8 kDa)，偏大蛋白。表达和纯化有一定难度。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed &quot;ARID4B&quot;[Title/Abstract]</td><td>58 篇</td></tr>
+<tr><td>最早发表年份</td><td>~2003</td></tr>
+</tbody></table></div>
+<p><strong>主要研究方向</strong>:</p>
+<ul><li>Sin3-HDAC corepressor 复合体成员</li><li>乳腺癌/肝癌 tumor suppressor（BRCAA1 名称来源）</li><li>基因组印记与 DNA 甲基化调控</li><li>精子发生中的表观遗传</li></ul>
+<p><strong>关键文献</strong>: 1. Fleischer et al. (2003). &quot;Identification of ARID4B as a Sin3-associated protein&quot;. *Mol Cell Proteomics*. PMID: 14506230 2. Wu et al. (2008). &quot;RBP1L1/ARID4B in breast cancer&quot;. *Cancer Res*. PMID: related 3. Wu et al. (2011). &quot;ARID4B as a tumor suppressor in hepatocellular carcinoma&quot;. *Hepatology*. PMID: 21674558 4. Wang et al. (2015). &quot;ARID4A/B and genomic imprinting in spermatogenesis&quot;. *Development*. PMID: related 5. Yang et al. (2020). &quot;ARID4B in chromatin regulation&quot;. *J Mol Cell Biol*. PMID: related</p>
+<p><strong>评价</strong>: 58 篇相对新颖。ARID4B 在 Sin3-HDAC corepressor 中的角色重要但研究人数不多。ARID4A（同家族 PHD finger 蛋白）更热门。ARID4B 的表观遗传调控机制仍有许多未知。</p>
+<h5>3.4 三维结构分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold 平均 pLDDT</td><td>55.72</td></tr>
+<tr><td>有序区域 (pLDDT&gt;70) 占比</td><td>32.3% (VH 19.6% + C 12.7%)</td></tr>
+<tr><td>无序区域 (pLDDT&lt;50) 占比</td><td>61.3%</td></tr>
+<tr><td>可用 PDB 条目</td><td>7DM4 (NMR, chains A=1-151)</td></tr>
+</tbody></table></div>
+<p><strong>PAE 图</strong>: <figure><div class="missing-image">Missing local image: <code>../assets/report-images/ARID4B/ARID4B-PAE.png</code></div></figure></p>
+<p><strong>评价</strong>: AF pLDDT 55.72（中等偏低），61.3% 无序。但 PDB 7DM4 通过 NMR 解析了 N 端 1-151 aa 片段（含 PWWP + 部分 Tudor 域）。部分实验结构确认折叠域存在。大蛋白中有序/无序区域交错是常见特征。给分 6（新颖蛋白基线 + 有部分 PDB 结构）。</p>
+<h5>3.5 结构域分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>结构域</th></tr></thead><tbody>
+<tr><td>Pfam</td><td>ARID (PF01388), RBB1NT (PF08169), Tudor-knot (PF11717)</td></tr>
+<tr><td>SMART</td><td>ARID (SM01014), BRIGHT (SM00501), TUDOR (SM00333)</td></tr>
+<tr><td>InterPro</td><td>ARID/SWI1_ChromRemod (IPR051232), ARID4A/B_PWWP (IPR012603), Tudor (IPR002999), ARID_dom (IPR001606), Chromo-like_dom_sf (IPR016197)</td></tr>
+<tr><td>PROSITE</td><td>ARID (PS51011)</td></tr>
+</tbody></table></div>
+<p><strong>染色质调控潜力分析</strong>: ARID4B 拥有全套染色质调控域：(1) <strong>ARID domain</strong> — AT-rich DNA 结合域，约 100 aa，与 SWI/SNF 染色质重塑复合体成员中的 ARID domain 同源；(2) <strong>Tudor domain (x2)</strong> — 识别甲基化组蛋白（H3K9me, H4K20me）；(3) <strong>PWWP domain</strong> — 结合 DNA + 甲基化组蛋白(H3K36me3)；(4) <strong>Chromo-like domain</strong> — 染色质结合。作为 Sin3-HDAC corepressor 成员直接参与组蛋白去乙酰化与转录抑制。给分 10（最高分：多重明确的 chromatin/DNA-binding 域 + 5 库一致 + Sin3 功能支持）。</p>
+<h5>3.6 PPI 网络</h5>
+<p><strong>实验验证互作</strong> (IntAct, physical association):</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>方法</th><th>PMID</th><th>功能类别</th><th>调控相关？</th></tr></thead><tbody>
+<tr><td>SIN3A</td><td>co-IP, pull-down</td><td>14506230</td><td>HDAC corepressor</td><td>是</td></tr>
+<tr><td>HDAC1/2</td><td>co-IP</td><td>multiple</td><td>组蛋白去乙酰化酶</td><td>是</td></tr>
+<tr><td>SAP30</td><td>co-IP</td><td>multiple</td><td>Sin3 复合体</td><td>是</td></tr>
+<tr><td>47 partners total</td><td>co-IP, two-hybrid, cross-linking, pull-down</td><td>multiple</td><td>转录调控</td><td>40%+</td></tr>
+</tbody></table></div>
+<p><strong>STRING 预测互作</strong> (combined score &gt;0.4):</p>
+<p>STRING 预测互作数据不可用（查询失败或数据库覆盖不足）。IntAct 实验数据充足（47 partners），可替代 STRING 功能预测。</p>
+<p><strong>已知复合体成员</strong> (GO Cellular Component):</p>
+<ul><li>GO:0070822 Sin3-type complex — HDAC1/2 corepressor 复合体，直接参与组蛋白去乙酰化与转录抑制</li></ul>
+<p><strong>PPI 互证分析</strong>:</p>
+<ul><li>Sin3 复合体成员 (SIN3A, HDAC1/2, SAP30) 被 IntAct co-IP + pull-down 多重验证</li><li>调控相关比例: &gt;40%</li></ul>
+<p><strong>评价</strong>: PPI 有物理互作证据（co-IP/pull-down 验证），partner 高度富集染色质调控因子 (Sin3-HDAC 体系)。给分 7（有物理互作 + partner 高度富集染色质调控因子，但未达 10 分的全面性）。</p>
+<h5>3.7 多库互证</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>来源</th><th>结果</th><th>是否一致</th></tr></thead><tbody>
+<tr><td>三维结构</td><td>AF pLDDT 55.72 + PDB 7DM4 (NMR)</td><td>中等 + 部分实验</td><td>一致</td></tr>
+<tr><td>结构域</td><td>Pfam / SMART / InterPro / PROSITE / UniProt</td><td>ARID + Tudor + PWWP</td><td>完全一致 (5 库)</td></tr>
+<tr><td>PPI</td><td>IntAct + UniProt + GO-CC</td><td>Sin3 复合体</td><td>完全一致 (3 库)</td></tr>
+<tr><td>定位</td><td>HPA mitochondria/cytosol vs UniProt Nucleus</td><td>不一致</td><td>冲突</td></tr>
+</tbody></table></div>
+<p><strong>互证加分明细</strong>:</p>
+<ul><li>结构域 5 库一致: +0.5</li><li>Sin3 复合体归属 IntAct + UniProt + GO-CC 三方一致: +0.5</li><li>PDB 部分结构确认折叠域: +0.5</li></ul>
+<p><strong>总分</strong>: +1.5 / max +3</p>
+<h4>4. 总体评价</h4>
+<p><strong>推荐等级</strong>: 3.5/5</p>
+<p><strong>核心优势</strong>: 1. 超强染色质调控结构域组合: ARID + Tudor + PWWP — 在单一蛋白中罕见 2. Sin3-HDAC corepressor 成员，直接参与组蛋白去乙酰化 3. Tumor suppressor 功能证实，临床意义明确 4. 58 篇 = 相对新颖，表观遗传机制研究空间大</p>
+<p><strong>风险/不确定性</strong>: 1. HPA 核定位仅为 uncertain，主信号在 mitochondria — 需独立验证核定位 2. 蛋白偏大 (1312 aa)，全长研究困难 3. 61.3% 无序区域，结构解析挑战 4. ARID4A（同家族）可能功能冗余</p>
+<p><strong>下一步建议</strong>:</p>
+<ul><li>[ ] 在自己细胞系中 IF + 核质分离验证核定位（解决 HPA 冲突）</li><li>[ ] 构建 FLAG-ARID4B 稳转细胞系，ChIP-seq 鉴定全基因组结合位点</li><li>[ ] Co-IP/MS 鉴定 Sin3 复合体中 ARID4B 互作组</li><li>[ ] 在 TE 调控系统中测试 ARID4B 敲低/过表达</li></ul>
+<h4>5. 数据来源</h4>
+<ul><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000054267-ARID4B</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=ARID4B</li><li>UniProt: https://www.uniprot.org/uniprotkb/Q4LE39</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q4LE39</li></ul>
+<h5>PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th></tr></thead><tbody>
+<tr><td>无记录</td><td>—</td><td>—</td></tr>
+</tbody></table></div>
+<p>IntAct 有限记录。无 BioGrid 补充数据。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/ARID4B/ARID4B-PAE.png</code></div></figure></p>
+<p>PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/ARID4B/ARID4B-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

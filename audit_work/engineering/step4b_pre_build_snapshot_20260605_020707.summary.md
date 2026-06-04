@@ -1,0 +1,15 @@
+# Step 4B Pre-build Snapshot
+
+- Timestamp: 20260605_020707
+- Project: `/Users/quii/Desktop/projects/protein-scout-TEreg-finding`
+
+- total_files: `10638`
+- detail_report_count: `5647`
+- detail_image_count: `3438`
+- protein_finding_md_exists: `True`
+- docs_exists: `True`
+- docs_current_file_count: `1`
+- scripts_build_exists: `True`
+- data_summary_exists: `True`
+- git_status_short: `?? Proteins.md | ?? audit_work/engineering/CODEX_STEP4A0_WEB_DESIGN_EXPLORATION_REPORT_20260605_015715.md | ?? audit_work/engineering/WEB_ATLAS_BUILD_PLAN_20260605_015715.md | ?? audit_work/engineering/WEB_ATLAS_DATA_SCHEMA_20260605_015715.md | ?? audit_work/engineering/WEB_ATLAS_IMPLEMENTATION_OPTIONS_20260605_015715.md | ?? audit_work/engineering/WEB_ATLAS_INFORMATION_ARCHITECTURE_20260605_015715.md | ?? audit_work/engineering/WEB_ATLAS_UI_WIREFRAME_20260605_015715.md | ?? audit_work/engineering/web_design_detail_report_schema_probe_20260605_015715.summary.md | ?? audit_work/engineering/web_design_detail_report_schema_probe_20260605_015715.tsv | ?? audit_work/engineering/web_design_existing_tables_inventory_20260605_015715.summary.md | ?? audit_work/engineering/web_design_existing_tables_inventory_20260605_015715.tsv | ?? audit_work/engineering/web_design_exploration_manifest_20260605_015715.txt | ?? fetch_if_log.txt | ?? log/ | ?? protein-finding.md | ?? protein_gate.py | ?? rebuild_summary.py | ?? skills.md | ?? validate.py | ?? validate_strict.py`
+- git_diff_stat: ``

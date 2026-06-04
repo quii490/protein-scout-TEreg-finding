@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ARGFX · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>ARGFX</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 5</span><span class="badge">Nuclear: 7</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/ARGFX/ARGFX-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;ARGFX&quot; date: 2026-05-29 tags: [protein-scout, nuclear-protein, evaluation, scored] status: scored _date: 2026-05-29 _notes: &quot;PubMed=16 (&lt;100) → 基线提升: 结4→5; 域10已超基线6; 无HPA IF→核=7; PDB查无结构&quot; ---</p>
+<h3>ARGFX 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>ARGFX / Arginine-fifty homeobox</td></tr>
+<tr><td>蛋白大小</td><td>315 aa / 35.6 kDa</td></tr>
+<tr><td>UniProt ID</td><td>A6NJG6</td></tr>
+<tr><td>评估日期</td><td>2026-05-28 () / 2026-05-29</td></tr>
+</tbody></table></div>
+<p><strong>IF 图像</strong>: 暂无IF数据</p>
+<h4>2. 评分总览 (权重: 核×4 大×1 新×5 结×3 域×2 PPI×3 ÷1.83)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>加权</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>🔴 核定位特异性</td><td>7/10</td><td>×4</td><td><strong>28</strong></td><td>UniProt+GO预测Nucleus; 无HPA IF; Homeobox TF保守→7</td></tr>
+</tbody></table></div>
+<p>&gt; <strong>Protein Atlas IF</strong>: 暂无数据（Pending cell analysis），核定位依据 UniProt + GO。</p>
+<div class="table-wrap"><table>
+<thead><tr><th>📏 蛋白大小</th><th>10/10</th><th>×1</th><th><strong>10</strong></th><th>315 aa / 35.6 kDa, 理想实验大小</th></tr></thead><tbody>
+<tr><td>🆕 研究新颖性</td><td>10/10</td><td>×5</td><td><strong>50</strong></td><td>PubMed=16; 极度新颖</td></tr>
+<tr><td>🏗️ 三维结构</td><td>5/10</td><td>×3</td><td><strong>15</strong></td><td>pLDDT 56.7; 无PDB; 新颖基线5</td></tr>
+<tr><td>🧬 调控结构域</td><td>10/10</td><td>×2</td><td><strong>20</strong></td><td>Homeodomain(9库确认); 经典DNA-binding TF</td></tr>
+<tr><td>🔗 PPI</td><td>4/10</td><td>×3</td><td><strong>12</strong></td><td>TPRX1(0.808),DUXB(0.738),KLF17(0.602); 76.5%调控相关但全部text-mining→4</td></tr>
+<tr><td>➕ 互证加分</td><td>—</td><td>—</td><td><strong>+1.5</strong></td><td>&gt;=9库结构域; GO染色质一致; &gt;=2源定位; 进化保守</td></tr>
+<tr><td><strong>原始总分</strong></td><td></td><td></td><td><strong>136.5/183</strong></td><td></td></tr>
+<tr><td><strong>归一化总分</strong></td><td></td><td></td><td><strong>74.6/100</strong></td><td></td></tr>
+</tbody></table></div>
+<h5>3.6 PPI 网络（四源综合）</h5>
+<p><strong>实验验证互作</strong> (IntAct):</p>
+<ul><li><strong>无实验互作记录</strong> — ARGFX 未被 IntAct 收录，反映该蛋白极度新颖且未被系统互作研究覆盖</li></ul>
+<p><strong>STRING 预测互作</strong> (combined score &gt;0.4):</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>功能类别</th><th>调控相关？</th></tr></thead><tbody>
+<tr><td>TPRX1</td><td>0.808</td><td>Homeobox TF, early embryo</td><td>✅</td></tr>
+<tr><td>DUXB</td><td>0.738</td><td>Double homeobox TF</td><td>✅</td></tr>
+<tr><td>KLF17</td><td>0.602</td><td>Krueppel-like factor, TF</td><td>✅</td></tr>
+<tr><td>Other PRD-like TFs</td><td>0.4-0.5</td><td>Homeobox transcription factors</td><td>✅</td></tr>
+<tr><td>—</td><td>—</td><td>76.5%调控相关但全为text-mining</td><td>⚠️</td></tr>
+</tbody></table></div>
+<p><strong>已知复合体成员</strong> (GO Cellular Component):</p>
+<ul><li><strong>Chromatin (GO:0000785)</strong> — 直接注释染色质定位</li><li>Nucleus (GO:0005634)</li></ul>
+<p><strong>PPI 互证分析</strong>:</p>
+<ul><li>IntAct: 无实验数据（极度新颖蛋白的特征）</li><li>STRING: 邻居蛋白富集 homeobox TF (TPRX1, DUXB, KLF17等)，76.5%为转录调控相关 — 但全部来源于text-mining</li><li>GO-CC: Chromatin 注释直接指向染色质定位（但需核实证据代码等级）</li><li>调控相关比例: ~76.5%（STRING邻居），但缺乏实验验证</li></ul>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/ARGFX/ARGFX-PAE.png</code></div></figure></p>
+<p><strong>评价</strong>: ARGFX 在 IntAct 中无任何实验互作记录，与其极度新颖（PubMed仅16篇）一致。GO-CC 中 &quot;chromatin&quot; 的注释是该蛋白的重要线索——直接表明其染色质定位。STRING 邻居蛋白高度富集 homeobox 转录因子，与其自身 homeodomain 身份吻合。所有互作均为 text-mining 推导，无实验验证，这是极度新颖蛋白的典型特征。PPI 评分维持 4（邻居高度富集调控因子但无实验验证）。</p>
+<h4>X. 关键文献 (PubMed)</h4>
+<p>1. Guo Q et al. (2025). &quot;Allelic transcriptomic profiling identifies the role of PRD-like homeobox genes in human embryonic-cleavage-stage arrest.&quot;. *Dev Cell*. PMID: 39809281 2. Madissoon E et al. (2016). &quot;Characterization and target genes of nine human PRD-like homeobox domain genes expressed exclusively in early embryos.&quot;. *Sci Rep*. PMID: 27412763 3. Li G et al. (2010). &quot;The origin and evolution of ARGFX homeobox loci in mammalian radiation.&quot;. *BMC Evol Biol*. PMID: 20565723 4. Lewin TD et al. (2022). &quot;PRD-Class Homeobox Genes in Bovine Early Embryos: Function, Evolution, and Overlapping Roles.&quot;. *Mol Biol Evol*. PMID: 35512670 5. Töhönen V et al. (2015). &quot;Novel PRD-like homeodomain transcription factors and retrotransposon elements in early human development.&quot;. *Nat Commun*. PMID: 26360614</p>
+<h4>4. 总体评价</h4>
+<p><strong>推荐等级</strong>: ★★★★☆ (4/5)</p>
+<p><strong>核心优势</strong>: 1. <strong>极度新颖</strong>：仅 16 篇 PubMed，homeobox TF 的生化功能完全未被探索，发现空间极大 2. <strong>明确的 DNA 结合域</strong>：Homeodomain 被 9 个数据库确认，染色质调控功能预测明确 3. <strong>理想实验大小</strong>：315 aa 适合各类生化实验，表达纯化可行 4. <strong>胚胎发育特异性表达</strong>：可能在早期胚胎表观遗传重编程中发挥作用（类似 DUX/TPRX 家族）</p>
+<p><strong>风险/不确定性</strong>: 1. <strong>结构质量偏低</strong>：pLDDT 仅 56.7，80% 残基无序，可能难以获得稳定结构 2. <strong>PPI 全无实验验证</strong>：所有相互作用均来自文本挖掘，可能为假阳性 3. <strong>表达水平低</strong>：Protein Atlas 蛋白水平未检出，组织特异性高（仅骨髓/心肌），可能难以获取内源材料 4. <strong>功能完全未知</strong>：无任何功能验证实验，可能存在功能冗余或仅在特定发育窗口有作用</p>
+<p><strong>下一步建议</strong>:</p>
+<ul><li>[ ] 克隆 ARGFX ORF 到哺乳动物表达载体，在 HEK293T 细胞中验证核定位（IF/GFP 融合）</li><li>[ ] ChIP-seq 鉴定 ARGFX 的全基因组结合位点</li><li>[ ] 在胚胎干细胞中建立诱导表达系统，检测转录组变化</li><li>[ ] 通过 IP-MS 鉴定真正的相互作用蛋白</li></ul>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/A6NJG6</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000186103-ARGFX</li><li>PubMed: 16 articles (search: &quot;ARGFX&quot;)</li><li>STRING: https://string-db.org (ARGFX, 9606)</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/A6NJG6</li><li>EBI Proteins API: https://www.ebi.ac.uk/proteins/api/proteins/A6NJG6</li></ul>
+<h5>PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th></tr></thead><tbody>
+<tr><td>无记录</td><td>—</td><td>—</td></tr>
+</tbody></table></div>
+<p>IntAct 有限记录。无 BioGrid 补充数据。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/ARGFX/ARGFX-PAE.png</code></div></figure></p>
+<p>PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/ARGFX/ARGFX-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

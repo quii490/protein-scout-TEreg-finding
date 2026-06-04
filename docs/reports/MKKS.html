@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MKKS · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>MKKS</h1><div class="report-meta"><span class="badge muted">rejected</span><span class="badge">nucleoplasm</span><span class="badge">Score: 1.8</span><span class="badge">Nuclear: 3</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/MKKS/MKKS-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;MKKS&quot; date: 2026-06-03 tags: [protein-scout, rejected, evaluation] status: rejected rejection_reason: &quot;PubMed strict count 196 &gt; 100 — research novelty threshold exceeded&quot; ---</p>
+<h3>MKKS 核蛋白评估（淘汰）</h3>
+<h4>基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>属性</th><th>值</th></tr></thead><tbody>
+<tr><td>基因名</td><td>MKKS (BBS6)</td></tr>
+<tr><td>UniProt Accession</td><td>Q9NPJ1</td></tr>
+<tr><td>蛋白全称</td><td>Molecular chaperone MKKS (McKusick-Kaufman syndrome protein)</td></tr>
+<tr><td>氨基酸长度</td><td>570 aa</td></tr>
+<tr><td>分子量</td><td>62.3 kDa</td></tr>
+<tr><td>功能摘要</td><td>Probable molecular chaperone assisting protein folding upon ATP hydrolysis. Plays a role in BBSome assembly, a complex involved in ciliogenesis regulating vesicle transport to cilia. May play a role in protein processing in limb, cardiac, and reproductive system development. Associated with McKusick-Kaufman syndrome and Bardet-Biedl syndrome (as BBS6).</td></tr>
+</tbody></table></div>
+<h4>淘汰判定</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>淘汰规则</th><th>阈值</th><th>实际值</th><th>触发</th></tr></thead><tbody>
+<tr><td>PubMed strict count &gt; 100</td><td>≤100</td><td>196</td><td><strong>是</strong></td></tr>
+<tr><td>核定位特异性 ≤ 3</td><td>≥4</td><td>4</td><td>否</td></tr>
+</tbody></table></div>
+<p><strong>结论</strong>: PubMed strict count = 196，远超100篇门槛。MKKS/BBS6作为Bardet-Biedl综合征的关键基因，已被广泛研究，涉及纤毛发生、BBSome组装、分子伴侣功能等经典领域。研究新颖性不足，不适宜作为TE调控新靶点。</p>
+<hr>
+<h4>多维度评分</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>权重</th><th>加权</th><th>摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>4/10</td><td>×4</td><td>16</td><td>UniProt Nucleus (ECO:0000269) + centrosome/cytosol。GO-CC nucleus IDA:UniProtKB。但HPA IF显示主定位为Centrosome+Basal body，不包含核信号。UniProt与HPA定位冲突。</td></tr>
+<tr><td>蛋白大小</td><td>5/10</td><td>×1</td><td>5</td><td>570 aa, 62.3 kDa。中等大小，属于type II chaperonin家族。</td></tr>
+<tr><td>研究新颖性</td><td>0/10</td><td>×5</td><td>0</td><td>PubMed strict=196 (query: &quot;MKKS&quot;[Title/Abstract] AND gene/protein/hydrolase)，broad=255，symbol_only=229。远超100篇淘汰线。</td></tr>
+<tr><td>三维结构</td><td>5/10</td><td>×3</td><td>15</td><td>无实验PDB结构。AlphaFold mean pLDDT=89.0，pct_gt_90=64.6%，pct_lt_50仅0.7%，预测结构置信度极高。属chaperonin折叠，可能以寡聚体形式发挥功能。</td></tr>
+<tr><td>调控结构域</td><td>6/10</td><td>×2</td><td>12</td><td>Type II chaperonin (TCP-1/CCT家族): IPR002423 (Cpn60/TCP-1), IPR027409 (GroEL-like apical domain), IPR027413 (GroEL-like equatorial domain), IPR027410 (TCP-1-like intermediate domain)。Pfam PF00118。结构域注释丰富且功能明确。</td></tr>
+<tr><td>PPI网络</td><td>6/10</td><td>×3</td><td>18</td><td>STRING: CCT复合物全亚基(CCT2-8, TCP1) + BBSome组分(BBS2, BBS7, BBS10, BBS12)。IntAct实验验证：BBS7, TCP1, CCT2, BBS10, BBS2, BBS12(均CoIP, PMID:22500027)。功能网络清晰完整。</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>66/180</strong></td><td></td></tr>
+<tr><td><strong>归一化总分 (÷1.8)</strong></td><td></td><td></td><td><strong>36.7/100</strong></td><td></td></tr>
+</tbody></table></div>
+<hr>
+<h4>核定位详细分析</h4>
+<p><strong>UniProt 亚细胞定位</strong>:</p>
+<ul><li>Cytoplasm, cytoskeleton, microtubule organizing center, centrosome</li><li>Cytoplasm, cytosol (ECO:0000269 — experimental evidence from PubMed)</li><li>Nucleus (ECO:0000269 — experimental evidence from PubMed)</li></ul>
+<p><strong>GO-CC 细胞组分</strong>:</p>
+<ul><li>GO:0005813 centrosome (IDA:HPA)</li><li>GO:0036064 ciliary basal body (IDA:HPA)</li><li>GO:0005737 cytoplasm (IDA:UniProtKB)</li><li>GO:0005829 cytosol (IEA:UniProtKB-SubCell)</li><li>GO:1902636 kinociliary basal body (IBA:GO_Central)</li><li>GO:0031514 motile cilium (ISS:BHF-UCL)</li><li>GO:0005634 nucleus (IDA:UniProtKB)</li></ul>
+<p><strong>HPA 免疫荧光</strong>:</p>
+<ul><li>可靠性: Supported</li><li>主定位: Centrosome, Basal body</li><li>附加定位: (无)</li><li>IF图像: 可用（12张blue_red_green IF原图）</li></ul>
+<p>HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。</p>
+<p>关键矛盾：UniProt列出的nucleus定位有实验证据(ECO:0000269)支持，GO-CC中nucleus的注释来源为IDA:UniProtKB。然而，HPA免疫荧光的主要信号位于centrosome和basal body（纤毛基体），并未报告核定位信号。这种不一致可能反映出：(1) MKKS在特定条件下才进入核内（如细胞周期特定时相或应激条件）；(2) HPA的抗体可能因为表位遮蔽而未能检测到核内MKKS。HPA的&quot;Supported&quot;可靠性等级低于&quot;Enhanced&quot;和&quot;Approved&quot;，提示数据一致性可能存在问题。</p>
+<p>由于HPA未能验证核定位，且已知功能集中在centrosome和cilia相关过程，核定位特异性仅得4分。</p>
+<hr>
+<h4>三维结构分析</h4>
+<p><strong>AlphaFold 预测</strong>:</p>
+<ul><li>Entry: AF-Q9NPJ1-F1 (version 6)</li><li>Mean pLDDT: 89.0</li><li>pLDDT &gt;90: 64.6%</li><li>pLDDT 70-90: 26.5%</li><li>pLDDT 50-70: 8.2%</li><li>pLDDT &lt;50: 0.7%</li></ul>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。pLDDT统计显示该蛋白具有极高的结构置信度：64.6%残基pLDDT&gt;90，仅0.7%残基pLDDT&lt;50。这与其作为chaperonin家族成员的折叠特性一致——分子伴侣通常具有高度有序的三维结构。</p>
+<p><strong>实验结构</strong>: 无PDB条目。MKKS尚未有实验解析的三维结构。作为type II chaperonin (CCT/TRiC复合物相关)，MKKS的功能形式可能为寡聚体，单体实验结构解析的缺失可能与此有关。AlphaFold预测仅涵盖单体构象。</p>
+<hr>
+<h4>调控结构域分析</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>数据库</th><th>条目</th><th>名称</th></tr></thead><tbody>
+<tr><td>InterPro</td><td>IPR002423</td><td>Chaperonin Cpn60/GroEL/TCP-1 family</td></tr>
+<tr><td>InterPro</td><td>IPR027409</td><td>GroEL-like apical domain superfamily</td></tr>
+<tr><td>InterPro</td><td>IPR027413</td><td>GroEL-like equatorial domain superfamily</td></tr>
+<tr><td>InterPro</td><td>IPR028790</td><td>MKKS/BBS6</td></tr>
+<tr><td>InterPro</td><td>IPR027410</td><td>TCP-1-like chaperonin intermediate domain superfamily</td></tr>
+<tr><td>Pfam</td><td>PF00118</td><td>TCP-1/cpn60 chaperonin family</td></tr>
+</tbody></table></div>
+<p>MKKS属于type II chaperonin家族，与CCT/TRiC复合物各亚基(CCT1-8)共享折叠模式。经典chaperonin含三个结构域：</p>
+<ul><li><strong>Apical domain</strong>: 负责底物识别和结合</li><li><strong>Intermediate domain</strong>: 连接apical和equatorial，传递ATP水解的构象变化</li><li><strong>Equatorial domain</strong>: 含ATP结合和水解位点，介导寡聚化</li></ul>
+<p>MKKS作为BBSome组装过程中的分子伴侣，协助BBS蛋白的正确折叠和复合物组装。MKKS突变导致蛋白质错误折叠并经由CHIP介导的泛素化途径降解(PMID:18094050)，证实了其分子伴侣功能的结构基础。</p>
+<hr>
+<h4>PPI 网络分析</h4>
+<p><strong>STRING 数据库 Top 15 互作伴侣</strong>:</p>
+<div class="table-wrap"><table>
+<thead><tr><th>伴侣基因</th><th>综合得分</th><th>实验得分</th><th>数据库得分</th><th>文本挖掘</th></tr></thead><tbody>
+<tr><td>CCT2</td><td>0.994</td><td>0.787</td><td>0.876</td><td>0.331</td></tr>
+<tr><td>CCT5</td><td>0.990</td><td>0.693</td><td>0.876</td><td>0.298</td></tr>
+<tr><td>CCT8</td><td>0.966</td><td>0.615</td><td>0.851</td><td>0.138</td></tr>
+<tr><td>BBS12</td><td>0.966</td><td>0.780</td><td>0.800</td><td>0.303</td></tr>
+<tr><td>CCT3</td><td>0.956</td><td>0.616</td><td>0.851</td><td>0.141</td></tr>
+<tr><td>CCT4</td><td>0.950</td><td>0.625</td><td>0.851</td><td>0.152</td></tr>
+<tr><td>BBS10</td><td>0.929</td><td>0.516</td><td>0.800</td><td>0.314</td></tr>
+<tr><td>TCP1</td><td>0.924</td><td>0.516</td><td>0.800</td><td>0.257</td></tr>
+<tr><td>CCT7</td><td>0.922</td><td>0.585</td><td>0.408</td><td>0.116</td></tr>
+<tr><td>HSPE1</td><td>0.798</td><td>0.470</td><td>0</td><td>0.172</td></tr>
+<tr><td>CCT6A</td><td>0.788</td><td>0.497</td><td>0</td><td>0.104</td></tr>
+<tr><td>CCT8L2</td><td>0.780</td><td>0.479</td><td>0.290</td><td>0.138</td></tr>
+<tr><td>CCT6B</td><td>0.778</td><td>0.497</td><td>0</td><td>0.104</td></tr>
+<tr><td>BBS2</td><td>0.775</td><td>0.510</td><td>0.400</td><td>0.293</td></tr>
+<tr><td>BBS7</td><td>0.750</td><td>0.510</td><td>0.400</td><td>0.204</td></tr>
+</tbody></table></div>
+<p><strong>IntAct 实验互作（已验证）</strong>:</p>
+<div class="table-wrap"><table>
+<thead><tr><th>互作伴侣</th><th>方法</th><th>PMID</th></tr></thead><tbody>
+<tr><td>BBS7</td><td>anti-tag coimmunoprecipitation</td><td>22500027</td></tr>
+<tr><td>TCP1</td><td>anti-tag coimmunoprecipitation</td><td>22500027</td></tr>
+<tr><td>CCT2</td><td>anti-tag coimmunoprecipitation</td><td>22500027</td></tr>
+<tr><td>BBS10</td><td>anti-tag coimmunoprecipitation</td><td>22500027</td></tr>
+<tr><td>BBS2</td><td>anti-tag coimmunoprecipitation</td><td>22500027</td></tr>
+<tr><td>BBS12</td><td>anti-tag coimmunoprecipitation</td><td>22500027</td></tr>
+<tr><td>ZBED1</td><td>two hybrid array</td><td>32296183</td></tr>
+<tr><td>CDR2</td><td>two hybrid array</td><td>32296183</td></tr>
+<tr><td>HSCB</td><td>anti-bait coimmunoprecipitation</td><td>28380382</td></tr>
+<tr><td>EEF1G</td><td>anti-tag coimmunoprecipitation</td><td>28514442</td></tr>
+<tr><td>STK16</td><td>anti-bait coimmunoprecipitation</td><td>17353931</td></tr>
+<tr><td>TGIF1</td><td>anti-bait coimmunoprecipitation</td><td>17353931</td></tr>
+<tr><td>ICA1</td><td>anti-bait coimmunoprecipitation</td><td>17353931</td></tr>
+</tbody></table></div>
+<p>PPI网络呈现清晰的二分结构：(1) CCT/TRiC伴侣蛋白复合物各亚基——反映了MKKS作为type II chaperonin与标准伴侣蛋白机器的物理关联；(2) BBSome组分(BBS2, BBS7, BBS10, BBS12)——反映其在纤毛发生过程中的BBS伴侣功能。Seo et al. (2010, PMID:20080638)系统的CoIP实验证实了MKKS与BBS10/BBS12的BBS-chaperonin复合物形成。</p>
+<hr>
+<h4>关键文献</h4>
+<p>1. <strong>PMID: 20080638</strong> — Seo S et al. (2010) &quot;BBS6, BBS10, and BBS12 form a complex with CCT/TRiC family chaperonins and mediate BBSome assembly.&quot; *PNAS*. 核心文献：证实MKKS与BBS10、BBS12及CCT/TRiC伴侣蛋白形成复合物，介导BBSome组装。</p>
+<p>2. <strong>PMID: 18094050</strong> — Hirayama S et al. (2008) &quot;MKKS is a centrosome-shuttling protein degraded by disease-causing mutations via CHIP-mediated ubiquitination.&quot; *Molecular Biology of the Cell*. 阐明MKKS的中心体穿梭机制和致病突变的降解途径。</p>
+<p>3. <strong>PMID: 22446187</strong> — Rachel RA et al. (2012) &quot;Combining Cep290 and Mkks ciliopathy alleles in mice rescues sensory defects and restores ciliogenesis.&quot; *Journal of Clinical Investigation*. 小鼠模型中的遗传互作研究。</p>
+<p>4. <strong>PMID: 18813213</strong> — Rouskas K et al. (2008) &quot;Association between BBS6/MKKS gene polymorphisms, obesity and metabolic syndrome in the Greek population.&quot; *International Journal of Obesity*. MKKS多态性与代谢综合征的人群遗传学关联。</p>
+<p>5. <strong>PMID: 28753627</strong> — May-Simera HL et al. (2017) &quot;MKKS/BBS6 in cytokinesis.&quot; 证实MKKS在胞质分裂中的功能。</p>
+<hr>
+<h4>HPA IF 图像</h4>
+<p>HPA IF 原图已从HPA网站获取（12张IF原图），但未下载到本地。HPA主定位：Centrosome, Basal body。无核定位信号。可靠性：Supported。</p>
+<hr>
+<h4>最终决定</h4>
+<p><strong>REJECTED</strong> — PubMed strict count = 196，远超100篇上限。MKKS/BBS6是Bardet-Biedl综合征和McKusick-Kaufman综合征的经典致病基因，在最临床遗传学、纤毛生物学、分子伴侣领域已有数十年研究历史。其功能定位以中心体和纤毛基体为主，核定位证据存在但受HPA IF数据矛盾的影响。作为高度成熟的研究对象，不满足TE调控新靶点的筛选条件。</p>
+<hr>
+<h4>人工审核备注</h4>
+<ul><li>MKKS定位于染色体20p12.2，编码type II chaperonin</li><li>BBSome组装机制已被多篇Nature/Science/PNAS级论文阐明</li><li>BBS6(BBS10,BBS12)-CCT/TRiC轴是纤毛生物学的经典范式</li><li>核定位证据存在但与HPA主定位(centrosome/basal body)冲突</li><li>AlphaFold结构置信度极佳(mean pLDDT 89.0)，但无实验结构</li><li>PPI网络以CCT复合物和BBSome为核心，功能明确</li><li>自上次thin-reject后重新评估：harvest数据完整，因PubMed&gt;100仍被淘汰</li></ul></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

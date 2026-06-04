@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HDX · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>HDX</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 6</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/HDX/HDX-evaluation.md</p></section><article class="report-body"><h2>HDX – Critical False-Rejection Reevaluation Report</h2>
+<p><strong>Gene:</strong> HDX <strong>UniProt Accession:</strong> Q7Z353 <strong>Protein Name:</strong> Highly divergent homeobox <strong>Length:</strong> 690 aa | <strong>Mass:</strong> 77.2 kDa <strong>Aliases:</strong> CXorf43 <strong>Report Date:</strong> 2026-06-02 <strong>Review Stage:</strong> W1 – CRITICAL REOPEN</p>
+<hr>
+<h3>/180 Scoring Table</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Max</th><th>Score</th><th>Rationale</th></tr></thead><tbody>
+<tr><td>1. Nuclear Localization</td><td>30</td><td>6</td><td>HPA: Cytosol; GO-CC: chromatin (ISA:NTNU_SB)</td></tr>
+<tr><td>2. Protein Size</td><td>10</td><td>8</td><td>690 aa / 77.2 kDa.</td></tr>
+<tr><td>3. Research Novelty</td><td>10</td><td>0</td><td>PubMed strict: 1060. Range: &gt;100 (REJ).</td></tr>
+<tr><td>4. 3D Structure</td><td>30</td><td>11</td><td>mean pLDDT: 55.5 (&gt;90: 20.9%, 70-90: 8.4%, 50-70: 10.3%, &lt;50: 60.4%). PDB: 2DA4 (NMR, -)</td></tr>
+<tr><td>5. Regulatory Domains</td><td>50</td><td>25</td><td>TR: no; Chromatin: yes; Epigenetic: no; DNA/RNA bind: no.</td></tr>
+<tr><td>6. PPI Network</td><td>50</td><td>17</td><td>STRING: 4; IntAct: 15; UniProt: 14.</td></tr>
+<tr><td><strong>TOTAL</strong></td><td><strong>180</strong></td><td><strong>67</strong></td><td><strong>REJECTED: PubMed&gt;100</strong></td></tr>
+</tbody></table></div>
+<hr>
+<h3>Nuclear Evidence Section</h3>
+<h4>HPA (Human Protein Atlas)</h4>
+<ul><li><strong>Status:</strong> hpa_localization_available</li><li><strong>Reliability (IF):</strong> Approved</li><li><strong>Main Location:</strong> Cytosol</li><li><strong>Additional:</strong> None</li><li><strong>IF Image Status:</strong> if_display_images_available</li></ul>
+<p><strong>Interpretation note:</strong> HPA IF images were not reliably obtainable for this review cycle. Nuclear localization assessment is based on HPA localization/reliability annotations combined with UniProt subcellular evidence and GO Cellular Component annotations.</p>
+<h4>UniProt Subcellular Location</h4>
+<ul><li><strong>Nucleus</strong> – Evidence: ECO:0000255</li></ul>
+<h4>GO Cellular Component (GO-CC)</h4>
+<ul><li><strong>GO:0000785 (chromatin)</strong> – Evidence: ISA:NTNU_SB</li><li><strong>GO:0005634 (nucleus)</strong> – Evidence: IEA:UniProtKB-SubCell</li></ul>
+<h4>Functional Context</h4>
+<p>N/A</p>
+<p><strong>Summary:</strong> Nuclear score 6/30. Limited nuclear evidence.</p>
+<hr>
+<h3>PubMed Evidence</h3>
+<h4>Literature Metrics</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Query Type</th><th>Count</th></tr></thead><tbody>
+<tr><td>Strict (Title/Abstract)</td><td>1060</td></tr>
+<tr><td>Broad (All Fields)</td><td>1715</td></tr>
+</tbody></table></div>
+<p><strong>Alias Note:</strong> Aliases observed but not used for scoring: CXorf43</p>
+<p><strong>REJECTION TRIGGERED: PubMed strict &gt; 100.</strong></p>
+<h4>Key Papers (with PMIDs)</h4>
+<ul><li><strong>PMID:36251047</strong> – Vinciauskaite V, Masson GR (2023 Mar 29). &quot;Fundamentals of HDX-MS.&quot; *Essays in biochemistry*.</li><li><strong>PMID:40867645</strong> – Hamuro Y, Armstrong A, Branson J (2025 Aug 20). &quot;Enhancement of Protein-Protein Interactions by Destabilizing Mutations Revealed by HDX-MS.&quot; *Biomolecules*.</li><li><strong>PMID:40482399</strong> – Guffick C, Politis A (2025 Oct). &quot;HDX-MS in micelles and membranes for small molecule and biopharmaceutical development.&quot; *Current opinion in structural biology*.</li><li><strong>PMID:36636941</strong> – Chow V, Wolf E, Lento C (2023 Mar 29). &quot;Developments in rapid hydrogen-deuterium exchange methods.&quot; *Essays in biochemistry*.</li><li><strong>PMID:32709043</strong> – Narang D, Lento C, J Wilson D (2020 Jul 17). &quot;HDX-MS: An Analytical Tool to Capture Protein Motion in Action.&quot; *Biomedicines*.</li></ul>
+<h4>Literature Assessment</h4>
+<ul><li><strong>Total:</strong> Very high – REJECTED (1060 strict, 1715 broad).</li><li><strong>Novelty score:</strong> 0/10.</li><li><strong>TE-relevance in literature:</strong> No publications directly link HDX to TE regulation.</li></ul>
+<hr>
+<h3>AlphaFold / PDB / PAE</h3>
+<h4>AlphaFold Predicted Structure</h4>
+<ul><li><strong>Entry:</strong> AF-Q7Z353-F1, v6</li><li><strong>mean pLDDT: 55.5 (&gt;90: 20.9%, 70-90: 8.4%, 50-70: 10.3%, &lt;50: 60.4%)</strong></li><li><strong>Assessment:</strong> Very low confidence</li></ul>
+<h4>Experimental PDB Structures</h4>
+<ul><li><strong>1 structures:</strong> 2DA4 (NMR, -)</li></ul>
+<h4>Structural Assessment</h4>
+<ul><li>PAE images were not locally generated or reliably fetched for this cycle. Structural judgment based on AlphaFold pLDDT statistics and available PDB structures.</li><li>Score: 11/30.</li></ul>
+<hr>
+<h3>PPI Network</h3>
+<h4>STRING</h4>
+<ul><li><strong>SMIM1</strong> (score: 0.572)</li><li><strong>RINT1</strong> (score: 0.556)</li><li><strong>HOMEZ</strong> (score: 0.417)</li><li><strong>STX18</strong> (score: 0.403)</li></ul>
+<h4>IntAct</h4>
+<ul><li>Total: 15 interactors</li><li><strong>POLR1E</strong> (psi-mi:&quot;MI:0006&quot;(anti bait coimmunoprecipitation), pubmed:17353931)</li><li><strong>Arhgap18</strong> (psi-mi:&quot;MI:0007&quot;(anti tag coimmunoprecipitation), pubmed:32203420|imex:IM-26436)</li><li><strong>Arhgap33</strong> (psi-mi:&quot;MI:0007&quot;(anti tag coimmunoprecipitation), pubmed:32203420|imex:IM-26436)</li><li><strong>BOLA1</strong> (psi-mi:&quot;MI:0397&quot;(two hybrid array), pubmed:32296183|imex:IM-25472)</li><li><strong>BOLA2-SMG1P6</strong> (psi-mi:&quot;MI:0397&quot;(two hybrid array), pubmed:32296183|imex:IM-25472)</li><li><strong>TTC5</strong> (psi-mi:&quot;MI:0397&quot;(two hybrid array), pubmed:32296183|imex:IM-25472)</li><li><strong>TSGA10</strong> (psi-mi:&quot;MI:0397&quot;(two hybrid array), pubmed:32296183|imex:IM-25472)</li><li><strong>MID2</strong> (psi-mi:&quot;MI:0397&quot;(two hybrid array), pubmed:32296183|imex:IM-25472)</li></ul>
+<h4>PPI Network Assessment</h4>
+<ul><li>Network size: Moderate.</li><li>TE-relevant connections: Limited TE-relevant connections</li></ul>
+<hr>
+<h3>FALSE REJECTION RECHECK</h3>
+<h4>Original Rejection Reason (inferred)</h4>
+<p>HDX was likely auto-rejected due to: PubMed&gt;100</p>
+<h4>Recheck Analysis</h4>
+<p>1. <strong>HPA:</strong> Cytosol 2. <strong>UniProt:</strong> Weak or absent experimental nuclear evidence 3. <strong>GO-CC:</strong> Nuclear/chromatin GO terms present 4. <strong>PubMed:</strong> 1060 strict – EXCEEDS 100 threshold</p>
+<h4>Verdict on False Rejection</h4>
+<p><strong>The original rejection was TECHNICALLY CORRECT</strong> under the PubMed&gt;100 rule. However, functional evidence may warrant exception review.</p>
+<p><strong>REMAINS REJECTED</strong> per pipeline rules. Exception review recommended if waiver criteria exist.</p>
+<hr>
+<h3>TE-Regulator Relevance Reasoning</h3>
+<p><strong>MODERATE relevance.</strong> HDX has functional features potentially relevant to TE regulation .</p>
+<hr>
+<h3>Final Decision</h3>
+<p><strong>DECISION: REJECTED (PubMed&gt;100)</strong></p>
+<p><strong>Score: 67/180.</strong></p>
+<p><strong>Reasoning:</strong> HDX exceeds the published rejection threshold (PubMed&gt;100 = 1060 publications). While functional evidence may be relevant to TE biology, the gene meets exclusion criteria and should remain rejected unless exception waivers are applied.</p>
+<hr>
+<h3>Manual Review Note</h3>
+<p>*Reviewer: Automated re-evaluation system (2026-06-02)* *Status: CONFIRMED REJECTION per PubMed&gt;100 – exception review recommended*</p>
+<p>This gene exceeds the automated rejection threshold (PubMed&gt;100). While functional evidence is relevant to TE biology, pipeline rules dictate exclusion. If exception or waiver processes are available, this gene should be prioritized for reconsideration based on its functional profile.</p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

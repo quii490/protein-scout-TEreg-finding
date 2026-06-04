@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TRIM8 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>TRIM8</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nuclear-body</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 1</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nuclear-body.html">Category page</a></div><p class="source-path">Original detail path: detail/nuclear-body/TRIM8/TRIM8-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;TRIM8&quot; date: 2026-06-01 tags: [protein-scout, nuclear-body, evaluation] status: scored ---</p>
+<h3>TRIM8 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>TRIM8 / GERP, RNF27</td></tr>
+<tr><td>蛋白全名</td><td>E3 ubiquitin-protein ligase TRIM8</td></tr>
+<tr><td>蛋白大小</td><td>551 aa / 61.5 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q9BZR9</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>权重</th><th>加权</th><th>摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>7/10</td><td>x4</td><td>28.0</td><td>UniProt: Nucleus nuclear body (ECO:0000269); HPA Nucleoplasm main; PML body IDA</td></tr>
+<tr><td>蛋白大小</td><td>7/10</td><td>x1</td><td>7.0</td><td>551 aa, 61.5 kDa</td></tr>
+<tr><td>研究新颖性</td><td>2/10</td><td>x5</td><td>20.0</td><td>Strict=89</td></tr>
+<tr><td>三维结构</td><td>5/10</td><td>x3</td><td>15.0</td><td>AlphaFold pLDDT 71.0; 32.1% &lt;50; 无 PDB</td></tr>
+<tr><td>调控结构域</td><td>7/10</td><td>x2</td><td>14.0</td><td>TRIM/RBCC: RING finger (E3 ligase) + B-box + coiled-coil</td></tr>
+<tr><td>PPI 网络</td><td>6/10</td><td>x3</td><td>18.0</td><td>SOCS1 (0.946), MAP3K7 (0.795), PIAS3 (0.764); innate immune signaling</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>92/180</strong>********</td><td><strong>102.0/180</strong></td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+2.0</td><td>UniProt nuclear body + HPA Nucleoplasm 一致</td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>50.3/100</strong>********</td><td><strong>56.8/100</strong></td><td></td></tr>
+</tbody></table></div>
+<p>PubMed strict: 89</p>
+<h4>3. 核定位证据</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Cytoplasm (ECO:0000269 x2); Nucleus (ECO:0000269 x2); Nucleus, nuclear body (ECO:0000269)</td><td>Experimental</td></tr>
+<tr><td>GO-CC</td><td>PML body IDA:UniProtKB; nucleus IMP:UniProtKB; cytoplasm IDA:UniProt</td><td>Direct assay</td></tr>
+<tr><td>HPA (IF)</td><td>Nucleoplasm (main), Vesicles/Cytosol (additional); Reliability: Supported</td><td>IF detection</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 状态</strong>: IF available (non-standard format detection)。HPA 记录 Nucleoplasm 为主定位，Vesicles/Cytosol 为附加定位。抗体可靠性 Supported。较早批次 IF 图像存在（red_green channel only）。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/TRIM8/TRIM8-PAE.png</code></div></figure></p>
+<p><strong>PAE 状态</strong>: 已获取 PAE 图像。AlphaFold pLDDT 71.0 (mean), 48.8% &gt;90, 32.1% &lt;50。TRIM 家族典型的 RING/B-box/coiled-coil 折叠域预测较好，C 端 SPRY/B30.2 区域可能有 IDR 成分。</p>
+<h4>4. PPI 网络</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th></tr></thead><tbody>
+<tr><td>SOCS1</td><td>STRING</td><td>0.946 (experimental 0.198, textmining 0.935)</td></tr>
+<tr><td>MAP3K7</td><td>STRING</td><td>0.795 (experimental 0.738)</td></tr>
+<tr><td>PIAS3</td><td>STRING</td><td>0.764 (experimental 0.292, textmining 0.678)</td></tr>
+<tr><td>TRAT1</td><td>STRING</td><td>0.794 (textmining)</td></tr>
+<tr><td>UBE2D1</td><td>STRING + IntAct + UniProt</td><td>STRING co-occurrence; IntAct two hybrid array</td></tr>
+<tr><td>UBE2L6</td><td>STRING + IntAct + UniProt</td><td>IntAct two hybrid array</td></tr>
+</tbody></table></div>
+<p><strong>核心发现</strong>: TRIM8 的 PPI 网络围绕 SOCS1 和 PIAS3 两个关键调控节点。SOCS1 是 JAK/STAT 信号抑制因子 -- TRIM8 通过 K63-linked poly-Ub 促进其降解以激活 IFN-gamma 信号。PIAS3 是 STAT3 的 SUMO E3 连接酶抑制剂 -- TRIM8 通过降解或核排出 PIAS3 来调控 STAT3 活性。</p>
+<p>IntAct 15 条记录（含多个 UBE2 泛素结合酶互作）。UniProt 记录 23 个互作 partner（含 LNX1, TARDBP, RNF168 等）。</p>
+<h4>5. 结构域与染色质调控潜力</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>结构域</th></tr></thead><tbody>
+<tr><td>InterPro</td><td>IPR001841 (Znf RING), IPR013083 (Znf RING/FYVE/PHD), IPR017907 (Znf RING CSHC4), IPR027370 (RING-HC), IPR051051 (TRIM8-like), IPR058030 (TRIM8 PRY/SPRY)</td></tr>
+<tr><td>Pfam</td><td>PF25600 (RING-HC), PF13445 (RING-HC)</td></tr>
+</tbody></table></div>
+<p>TRIM8 具有典型的 TRIM/RBCC 基序：RING finger（E3 泛素连接酶活性）、B-box（锌指蛋白互作）、coiled-coil（二聚化）。C 端 PRY/SPRY (B30.2) 结构域可能介导底物识别。核定位信号位于 coiled-coil 区域附近。通过调控 SOCS1/PIAS3/STAT3 轴间接参与转录调控，非直接染色质 reader/writer。</p>
+<p><strong>核体特异性</strong>: GO-CC 含 PML body (IDA:UniProtKB)，PML nuclear body 是 SUMOylation 和转录调控枢纽，TRIM8 定位于此提示其在核内 sumoylation/ubiquitination crosstalk 中的功能。</p>
+<h4>6. 总体评价</h4>
+<p>TRIM8 是定位于 PML nuclear body 的 E3 泛素连接酶，通过降解 SOCS1 和 PIAS3 调控 JAK/STAT 和 NF-kB 信号通路。核定位证据充分（UniProt + HPA + GO-CC 三重验证）。主要劣势是 PubMed 89（新颖性扣分）和 AlphaFold 结构质量中等（32% &lt;50）。PPI 网络以免疫信号转导为主线，与核体/转录调控交叉。适合作为核体-泛素化方向的中等新颖性靶点。</p>
+<p><strong>推荐等级</strong>: 2.5/5</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/TRIM8/274_C2_1_blue_red_green.jpg</code></div></figure></p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/TRIM8/274_C2_2_blue_red_green.jpg</code></div></figure></p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/TRIM8/TRIM8-PAE.png</code></div></figure></p>
+<h5>关键文献</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>PMID</th><th>标题</th></tr></thead><tbody>
+<tr><td>38237865</td><td>TRIB3-TRIM8 complex drives NAFLD progression by regulating HNF4α stability.</td></tr>
+<tr><td>34329586</td><td>TRIM8 modulates the EWS/FLI oncoprotein to promote survival in Ewing sarcoma.</td></tr>
+<tr><td>35565438</td><td>Dissecting the Functional Role of the TRIM8 Protein on Cancer Pathogenesis.</td></tr>
+<tr><td>41057298</td><td>The dynamic role of TRIM8, a novel ciliary protein, during various stages of mitosis.</td></tr>
+<tr><td>33230447</td><td>Rise of TRIM8: A Molecule of Duality.</td></tr>
+</tbody></table></div>
+<p>HPA IF 图像已本地嵌入。</p>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/TRIM8/TRIM8-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

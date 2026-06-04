@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CSNK1A1 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>CSNK1A1</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">chromatin</span><span class="badge">Score: 5</span><span class="badge">Nuclear: 5</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/chromatin.html">Category page</a></div><p class="source-path">Original detail path: detail/chromatin/CSNK1A1/CSNK1A1-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;CSNK1A1&quot; date: 2026-06-01 tags: [protein-scout, nuclear-protein, evaluation] status: scored ---</p>
+<h3>CSNK1A1 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>CSNK1A1 / Casein kinase I isoform alpha (CK1alpha)</td></tr>
+<tr><td>蛋白大小</td><td>337 aa / 38.9 kDa</td></tr>
+<tr><td>UniProt ID</td><td>P48729 (KC1A_HUMAN)</td></tr>
+<tr><td>评估日期</td><td>2026-06-01</td></tr>
+</tbody></table></div>
+<p><strong>IF 图像</strong>:</p>
+<h4>2. 评分总览 (权重: 核×4 大×1 新×5 结×3 域×2 PPI×3 /1.83)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>加权</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>5/10</td><td>×4</td><td><strong>20</strong></td><td>UniProt: Cytoplasm+Centrosome+Kinetochore+Nuclear speckle; HPA: Cytosol; GO: nuclear speck(IDA)+nucleus(IBA); 多区室, 核speckle明确但胞质主导</td></tr>
+<tr><td>蛋白大小</td><td>10/10</td><td>×1</td><td><strong>10</strong></td><td>337 aa / 38.9 kDa, 300-800理想区间</td></tr>
+<tr><td>研究新颖性</td><td>2/10</td><td>×5</td><td>10</td><td>PubMed 89篇; &gt;80但≤100</td></tr>
+<tr><td>三维结构</td><td>10/10</td><td>×3</td><td><strong>30</strong></td><td>PDB: 5FQD(2.45A)+6GZD(2.28A)+7WTT(3.10A EM)+8G66(3.45A); AF pLDDT 91.4(84.3%&gt;90); PDB+AF双重验证满分</td></tr>
+<tr><td>调控结构域</td><td>6/10</td><td>×2</td><td><strong>12</strong></td><td>Ser/Thr kinase domain; 磷酸化beta-catenin/PER/p53/MDM2; 无chromatin binding domain</td></tr>
+<tr><td>PPI</td><td>7/10</td><td>×3</td><td><strong>21</strong></td><td>STRING: AXIN1(0.999)+APC(0.999)+CTNNB1(0.999)+MDM2(0.961)+TP53(0.926); IntAct:15条; ~40%调控相关(Wnt/p53/cGAS-STING)</td></tr>
+<tr><td>互证加分</td><td>—</td><td>—</td><td><strong>+1.5</strong></td><td>PDB+AF+4结构双向验证+0.5; 结构域≥3源+0.5; 定位≥2源+0.5</td></tr>
+<tr><td><strong>原始总分</strong></td><td></td><td></td><td><strong>104.5/180</strong></td><td></td></tr>
+<tr><td><strong>归一化总分</strong></td><td></td><td></td><td><strong>57.1/100</strong></td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Cytoplasm; Centrosome; Kinetochore; Nuclear speckle; Cilium basal body; Spindle</td><td>ECO:0000269 (实验)</td></tr>
+<tr><td>GO-CC</td><td>nuclear speck (IDA:UniProtKB), nucleus (IBA:GO_Central), kinetochore (IEA), beta-catenin destruction complex (IDA)</td><td>IDA/IBA</td></tr>
+<tr><td>HPA (IF)</td><td>Cytosol (Supported), IF图像可用</td><td>Supported</td></tr>
+</tbody></table></div>
+<p><strong>IF 图像</strong>: 6张IF原图(Hep-G2, A-431, U2OS)。HPA主定位Cytosol，但nuclear speckle注释来自GO IDA实验证据。</p>
+<p><strong>结论</strong>: CSNK1A1是多区室蛋白，胞质为主导定位(HPA Cytosol)，但UniProt实验证据确认Nuclear speckle定位。Kinetochore定位提示其在有丝分裂中的核功能。Nuclear speckle是mRNA剪接因子富集的核亚结构。核定位特异性和强度中等，因胞质功能主导(Wnt信号中beta-catenin磷酸化发生在胞质)。评分5分。</p>
+<h5>3.2 蛋白大小评估</h5>
+<p><strong>评价</strong>: 337 aa / 38.9 kDa，处于理想的300-800 aa区间。蛋白紧凑，适合重组表达、纯化和晶体学。分子量约39 kDa便于SDS-PAGE和Western blot检测。评分10分。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict</td><td>89</td></tr>
+<tr><td>PubMed broad</td><td>139</td></tr>
+<tr><td>Chromatin/epigenetics 比例</td><td>&lt;10%</td></tr>
+</tbody></table></div>
+<p><strong>主要研究方向</strong>:</p>
+<ul><li>Wnt/beta-catenin信号通路(S45磷酸化标记beta-catenin降解)</li><li>p53/MDM2/MDM4调控轴</li><li>昼夜节律(PER蛋白磷酸化)</li><li>cGAS-STING先天免疫通路</li><li>FAM83家族蛋白调控CK1alpha活性</li><li>血液肿瘤中的抑癌/致癌双重角色</li></ul>
+<p><strong>关键文献</strong>: 1. Kataoka K et al. (2015). &quot;Integrated molecular analysis of adult T cell leukemia/lymphoma.&quot; *Nat Genet*. PMID: 26437031 2. Pan M et al. (2024). &quot;CSNK1A1/CK1alpha suppresses autoimmunity by restraining the CGAS-STING1 signaling.&quot; *Autophagy*. PMID: 37723657 3. Kadosh E et al. (2020). &quot;The gut microbiome switches mutant p53 from tumour-suppressive to oncogenic.&quot; *Nature*. PMID: 32728212 4. Liu C et al. (2002). &quot;Control of beta-catenin phosphorylation/degradation by a dual-kinase mechanism.&quot; *Cell*. PMID: 11955436 5. Feng X et al. (2019). &quot;Ubiquitination of UVRAG by SMURF1 promotes autophagosome maturation.&quot; *Autophagy*. PMID: 30686098</p>
+<p><strong>评价</strong>: 89篇文献接近淘汰阈值。研究高度集中于Wnt信号通路和肿瘤生物学。其beta-catenin磷酸化功能是Wnt通路的核心组成部分，CK1alpha也参与p53-MDM2调控轴和cGAS-STING通路。Chromatin/epigenetics方向极少专门研究，但beta-catenin和p53均为转录调控核心因子，CK1alpha间接参与染色质层面的基因表达调控。评分2分。</p>
+<h5>3.4 三维结构分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold 平均 pLDDT</td><td>91.4</td></tr>
+<tr><td>pLDDT &gt;90 占比</td><td>84.3%</td></tr>
+<tr><td>pLDDT 70-90 占比</td><td>5.6%</td></tr>
+<tr><td>pLDDT &lt;50 占比</td><td>7.7%</td></tr>
+<tr><td>可用 PDB 条目</td><td>4 (5FQD/6GZD/7WTT/8G66)</td></tr>
+</tbody></table></div>
+<p><strong>PDB详情</strong>:</p>
+<ul><li>5FQD: X-ray 2.45A, 全长(1-337), 与抑制剂复合物</li><li>6GZD: X-ray 2.28A, 全长(1-337)</li><li>7WTT: EM 3.10A, 全长(1-337), 与beta-catenin肽段复合物</li><li>8G66: X-ray 3.45A, 全长(1-337)</li></ul>
+<p><strong>评价</strong>: 结构质量极高。4个PDB实验结构(其中2个&lt;2.5A高分辨率)均为全长蛋白，覆盖多种构象状态(apo、抑制剂结合、底物结合)。AlphaFold pLDDT=91.4，84.3%残基&gt;90，结构预测与实验高度一致。是极优秀的结构和药物设计靶点。评分10分。</p>
+<h5>3.5 结构域分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>结构域</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Protein kinase domain (IPR000719)</td></tr>
+<tr><td>InterPro</td><td>IPR011009(Kinase-like); IPR000719(Protein kinase); IPR008271(Ser/Thr kinase, active site); IPR017441(Protein kinase ATP binding)</td></tr>
+<tr><td>Pfam</td><td>PF00069 (Pkinase)</td></tr>
+</tbody></table></div>
+<p><strong>调控潜力分析</strong>: CSNK1A1含经典Ser/Thr蛋白激酶结构域，属于CK1家族。虽无经典chromatin-binding结构域(bromodomain/chromodomain/PHD)，但其底物谱包含多个核心转录/染色质调控因子:</p>
+<ul><li><strong>beta-catenin (S45)</strong>: Wnt通路转录共激活因子，直接调控TCF/LEF靶基因</li><li><strong>p53</strong>: 调控p53-MDM2相互作用，影响p53依赖的转录</li><li><strong>MDM2/MDM4</strong>: p53的E3泛素连接酶</li><li><strong>PER1/PER2</strong>: 昼夜节律转录调控因子</li></ul>
+<p>CK1alpha通过这些底物间接参与染色质层面的基因调控。其Nuclear speckle定位(IDA)进一步支持核功能。评分6分。</p>
+<h5>3.6 PPI 网络</h5>
+<p><strong>实验验证互作</strong> (IntAct, 15条):</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>方法</th><th>PMID</th><th>功能类别</th><th>调控相关？</th></tr></thead><tbody>
+<tr><td>MDM2</td><td>anti tag coIP</td><td>20708156</td><td>p53 E3 ligase</td><td>是(转录调控)</td></tr>
+<tr><td>FAM83G</td><td>TAP</td><td>23455922</td><td>CK1 activator/adaptor</td><td>间接</td></tr>
+<tr><td>SNCA</td><td>pull down</td><td>18614564</td><td>Synuclein</td><td>否</td></tr>
+<tr><td>GNB2</td><td>Y2H array</td><td>21988832</td><td>G protein</td><td>否</td></tr>
+<tr><td>Cbx1 (HP1beta)</td><td>TAP</td><td>20360068</td><td>Heterochromatin protein 1</td><td>是(染色质)</td></tr>
+<tr><td>HSP90AA1</td><td>TAP</td><td>19875381</td><td>Chaperone</td><td>否</td></tr>
+<tr><td>YWHAH</td><td>TAP</td><td>17979178</td><td>14-3-3</td><td>信号传导</td></tr>
+</tbody></table></div>
+<p><strong>STRING 预测互作</strong> (combined score &gt;0.4):</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>功能类别</th><th>调控相关？</th></tr></thead><tbody>
+<tr><td>AXIN1</td><td>0.999 (exp 0.718)</td><td>beta-catenin destruction complex scaffold</td><td>是(Wnt转录)</td></tr>
+<tr><td>APC</td><td>0.999 (exp 0.292)</td><td>Wnt pathway tumor suppressor</td><td>是(Wnt转录)</td></tr>
+<tr><td>GSK3B</td><td>0.999</td><td>Wnt kinase</td><td>是(Wnt转录)</td></tr>
+<tr><td>CTNNB1</td><td>0.999 (exp 0.798)</td><td>beta-catenin, 转录共激活因子</td><td>是(核心转录调控)</td></tr>
+<tr><td>CRBN</td><td>0.997 (exp 0.977)</td><td>Cereblon E3 ligase</td><td>间接</td></tr>
+<tr><td>MDM4</td><td>0.971 (exp 0.883)</td><td>p53 regulator</td><td>是(转录调控)</td></tr>
+<tr><td>MDM2</td><td>0.961 (exp 0.737)</td><td>p53 E3 ligase</td><td>是(转录调控)</td></tr>
+<tr><td>TP53</td><td>0.926 (exp 0.785)</td><td>p53 tumor suppressor, TF</td><td>是(核心转录调控)</td></tr>
+<tr><td>AMER1</td><td>0.960 (database 0.8)</td><td>WTX, Wnt regulator</td><td>是(Wnt转录)</td></tr>
+<tr><td>BTRC</td><td>0.926 (exp 0.219)</td><td>beta-TrCP, beta-catenin E3</td><td>是(Wnt转录)</td></tr>
+</tbody></table></div>
+<p><strong>PPI 互证分析</strong>:</p>
+<ul><li>STRING + IntAct 共同确认: MDM2 (两源均验证), FAM83G</li><li>IntAct独有亮点: <strong>Cbx1/HP1beta</strong> (异染色质蛋白1, TAP实验) -- 直接chromatin调控蛋白互作!</li><li>STRING独有: AXIN1, APC, CTNNB1, TP53等核心转录调控因子</li><li>调控相关比例: ~40% (Wnt通路+ p53通路+ Cbx1 chromatin)</li></ul>
+<p><strong>评价</strong>: CSNK1A1的PPI网络富含转录/染色质调控相关partner。CTNNB1(beta-catenin)和TP53是核心转录调控节点。Cbx1/HP1beta IntAct互作直接指向异染色质调控。AXIN1/APC/AMER1均为Wnt通路调控因子。调控相关比例~40%，在现有评分基因中属于高水平。评分7分。</p>
+<h4>4. 总体评价</h4>
+<p><strong>推荐等级</strong>: 2星半 (57.1/100)</p>
+<p><strong>核心优势</strong>: 1. 结构质量极高: 4个PDB全长结构+AlphaFold pLDDT 91.4，是优秀的结构和药物设计靶点 2. PPI富含转录调控因子: CTNNB1(beta-catenin), TP53(p53), Cbx1(HP1beta)等 3. 蛋白紧凑(337aa)，适合各种生化实验 4. CK1alpha是Wnt/p53/昼夜节律多条核心通路的交汇点</p>
+<p><strong>风险/不确定性</strong>: 1. PubMed 89篇，新颖性仅2分，研究较为成熟 2. 核定位非主导(HPA主定Cytosol)，chromatin/epigenetics方向极少专门研究 3. 核心功能(beta-catenin磷酸化)发生在胞质破坏复合体中，核功能为次要 4. Nuclear speckle功能角色不明</p>
+<p><strong>下一步建议</strong>:</p>
+<ul><li>[ ] 探索CK1alpha在Nuclear speckle中的底物和功能</li><li>[ ] 验证Cbx1/HP1beta互作在异染色质调控中的功能意义</li><li>[ ] 评估CK1alpha在TE调控/重复序列沉默中的潜在角色(通过HP1beta链接)</li></ul>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/P48729</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000113712-CSNK1A1</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CSNK1A1</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/P48729</li><li>STRING: https://string-db.org/ (CSNK1A1)</li><li>IntAct: https://www.ebi.ac.uk/intact/</li></ul>
+<p><strong>HPA IF 状态</strong>: HPA IF 图像已本地嵌入。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CSNK1A1/CSNK1A1_IF_1028_B8_3_blue_red_green.jpg</code></div></figure>。核定位基于HPA localization/reliability + UniProt + GO-CC。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CSNK1A1/CSNK1A1-PAE.png</code></div></figure></p>
+<h5>PPI 网络</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th></tr></thead><tbody>
+<tr><td>AXIN1</td><td>STRING</td><td>0.999</td></tr>
+<tr><td>APC</td><td>STRING</td><td>0.999</td></tr>
+<tr><td>GSK3B</td><td>STRING</td><td>0.999</td></tr>
+<tr><td>CTNNB1</td><td>STRING</td><td>0.999</td></tr>
+<tr><td>CRBN</td><td>STRING</td><td>0.997</td></tr>
+<tr><td>EBI-1257113</td><td>IntAct</td><td>psi-mi:&quot;MI:0096&quot;(pull down)</td></tr>
+<tr><td>GNB2</td><td>IntAct</td><td>psi-mi:&quot;MI:0397&quot;(two hybrid ar</td></tr>
+<tr><td>EBI-1380405</td><td>IntAct</td><td>psi-mi:&quot;MI:0096&quot;(pull down)</td></tr>
+</tbody></table></div>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CSNK1A1/CSNK1A1-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

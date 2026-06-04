@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RHOT2 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>RHOT2</h1><div class="report-meta"><span class="badge muted">rejected</span><span class="badge">nucleoplasm</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 0</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/RHOT2/RHOT2-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;RHOT2&quot; date: 2026-06-04 tags: [protein-scout, re-evaluation, recovery-from-false-rejection] status: rejected ---</p>
+<h3>RHOT2 -- Re-evaluation Report (Recovery from False-Rejection)</h3>
+<h4>1. Basic Information</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Item</th><th>Content</th></tr></thead><tbody>
+<tr><td>Gene / Aliases</td><td>RHOT2 / MIRO2, ras homolog family member T2</td></tr>
+<tr><td>Protein Name</td><td>Mitochondrial Rho GTPase 2 (MIRO-2)</td></tr>
+<tr><td>Protein Size</td><td>~618 aa</td></tr>
+<tr><td>UniProt ID</td><td>Q8IXI1 (MIRO2_HUMAN, Swiss-Prot reviewed)</td></tr>
+<tr><td>Evaluation Date</td><td>2026-06-04</td></tr>
+<tr><td>Previous Status</td><td>REJECTED (thin template, no harvest packet)</td></tr>
+<tr><td>Re-evaluation Reason</td><td>Recovery from false-rejection; complete re-evaluation to confirm rejection status</td></tr>
+</tbody></table></div>
+<h4>2. Scoring Overview</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Score</th><th>Max</th><th>Weighted</th><th>Key Evidence Summary</th></tr></thead><tbody>
+<tr><td>Nuclear Localization Specificity</td><td>0/10</td><td>x4</td><td><strong>0</strong></td><td>Mitochondrion outer membrane; single-pass type IV membrane protein; HPA confirms mitochondrial</td></tr>
+<tr><td>Protein Size</td><td>10/10</td><td>x1</td><td><strong>10</strong></td><td>~618 aa, within ideal range</td></tr>
+<tr><td>Research Novelty</td><td>4/10</td><td>x5</td><td><strong>20</strong></td><td>PubMed ~80-120 articles (81-100 -&gt; 2 if 80-100, &gt;100 -&gt; 0 if &gt;100)</td></tr>
+<tr><td>3D Structure</td><td>6/10</td><td>x3</td><td><strong>18</strong></td><td>GTPase + EF-hand domains; AlphaFold prediction available</td></tr>
+<tr><td>Regulatory Domains</td><td>5/10</td><td>x2</td><td><strong>10</strong></td><td>Dual GTPase domains + 2 EF-hand Ca2+-binding domains; mitochondrial trafficking</td></tr>
+<tr><td>PPI Network</td><td>5/10</td><td>x3</td><td><strong>15</strong></td><td>TRAK1/TRAK2 kinesin adaptors; mitochondrial motor complex; MGARP</td></tr>
+<tr><td>Cross-Validation Bonus</td><td>--</td><td>--</td><td><strong>+1.0</strong></td><td>Multi-DB mitochondrial localization consensus (+0.5); Domain + structure consistency (+0.5)</td></tr>
+<tr><td><strong>Raw Total</strong></td><td></td><td></td><td><strong>74.0/180</strong></td><td></td></tr>
+<tr><td><strong>Normalized Total</strong></td><td></td><td></td><td><strong>41.1/100</strong></td><td></td></tr>
+</tbody></table></div>
+<h4>3. Nuclear Localization Evidence -- CRITICAL FAIL</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Source</th><th>Localization</th><th>Reliability</th></tr></thead><tbody>
+<tr><td>UniProt (Swiss-Prot)</td><td>Mitochondrion outer membrane; Single-pass type IV membrane protein</td><td>Reviewed</td></tr>
+<tr><td>HPA</td><td>Mainly mitochondria (confirmed); Nucleoplasm (uncertain, minor)</td><td>IF-based</td></tr>
+<tr><td>GO-CC</td><td>Mitochondrion (GO:0005739)</td><td>Curated</td></tr>
+<tr><td>GO-CC</td><td>Mitochondrial outer membrane (GO:0005741)</td><td>Curated</td></tr>
+<tr><td>RefSeq</td><td>Outer mitochondrial membrane</td><td>Curated</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF Status</strong>: HPA IF original images not reliably obtained (HPA search page lacks usable subcellular IF original images). Nuclear localization assessment based on HPA localization/reliability + UniProt + GO-CC.</p>
+<p><strong>Manual Review Assessment</strong>: RHOT2/MIRO2 is a mitochondrial outer membrane protein. Its primary and unambiguous localization is the mitochondrion, where it is anchored via a C-terminal transmembrane domain (residues ~590-615) as a single-pass type IV membrane protein with the N-terminal GTPase domain facing the cytosol. The protein functions as a mitochondrial GTPase regulating anterograde transport and subcellular distribution of mitochondria along microtubules.</p>
+<p>HPA annotates the protein as &quot;mainly mitochondria&quot; with some additional &quot;uncertain&quot; nucleoplasm signal in certain cell lines. This minor HPA nucleoplasm annotation is likely an artifact (overexpressed protein, cell line-specific cross-reactivity, or mitochondrial fragmentation during sample preparation). No other database supports nuclear localization, and the protein&#x27;s C-terminal transmembrane anchor commits it to the mitochondrial outer membrane.</p>
+<p><strong>Nuclear localization score: 0/10. RULE: Nuclear &lt;=3 -&gt; REJECTED.</strong> The minor, uncertain HPA nucleoplasm annotation does not constitute credible nuclear localization evidence for a protein that is structurally committed to the mitochondrial outer membrane via a C-terminal transmembrane domain.</p>
+<h4>4. Protein Size Assessment</h4>
+<p>RHOT2 is approximately 618 amino acids, placing it well within the ideal range for experimental characterization. Size score: 10/10.</p>
+<h4>5. Research Novelty (PubMed Analysis)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody>
+<tr><td>PubMed estimated count</td><td>~80-120</td></tr>
+<tr><td>Novelty category</td><td>81-100 -&gt; 2 or &gt;100 -&gt; 0</td></tr>
+</tbody></table></div>
+<p><strong>Research Context</strong>: RHOT2/MIRO2 is part of the well-studied MIRO (Mitochondrial Rho) protein family. MIRO proteins are key regulators of mitochondrial transport, dynamics, and homeostasis. The gene has been extensively studied in the context of mitochondrial trafficking in neurons, mitophagy, and mitochondrial quality control. Related to Parkinson&#x27;s disease research (PINK1/Parkin pathway).</p>
+<p><strong>Novelty Assessment</strong>: PubMed count is estimated at 80-120 articles. At &gt;100, novelty score = 0 per scoring rules. Even at 80-100, score = 2. The gene is NOT novel.</p>
+<h4>6. 3D Structure Analysis</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody>
+<tr><td>AlphaFold Prediction</td><td>Available</td></tr>
+<tr><td>PDB Entries</td><td>Limited (some MIRO structures available)</td></tr>
+<tr><td>Structural Features</td><td>N-terminal GTPase domain + C-terminal GTPase domain + 2 EF-hand domains + C-terminal transmembrane anchor</td></tr>
+</tbody></table></div>
+<p><strong>Structure Assessment</strong>: RHOT2 has a multi-domain structure with two GTPase domains, two Ca2+-binding EF-hand domains, and a C-terminal transmembrane helix. The domain architecture is well-understood from studies on related MIRO proteins. AlphaFold prediction quality is expected to be good for the soluble domains, with lower confidence for inter-domain linkers. Score 6/10.</p>
+<h4>7. Domain Architecture</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Source</th><th>Domain/Feature</th><th>Notes</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>N-terminal GTPase domain</td><td>GTP binding/hydrolysis</td></tr>
+<tr><td>UniProt</td><td>C-terminal GTPase domain</td><td>GTP binding/hydrolysis</td></tr>
+<tr><td>UniProt</td><td>2 EF-hand domains</td><td>Ca2+ binding and regulation</td></tr>
+<tr><td>UniProt</td><td>C-terminal transmembrane domain</td><td>Mitochondrial outer membrane anchor</td></tr>
+</tbody></table></div>
+<p><strong>Domain Analysis</strong>: RHOT2 has a distinctive domain architecture: dual GTPase domains (unusual for small GTPases) combined with Ca2+-sensing EF-hand domains and a transmembrane anchor. This architecture enables RHOT2 to function as a Ca2+-regulated switch for mitochondrial transport along microtubules. The domains are well-characterized and consistent with mitochondrial function. No nuclear-related domains. Domain score: 5/10.</p>
+<h4>8. PPI Network Analysis</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Context</th><th>Function</th></tr></thead><tbody>
+<tr><td>TRAK1 (OIP106)</td><td>Kinesin adaptor</td><td>Anterograde mitochondrial transport</td></tr>
+<tr><td>TRAK2 (GRIF1)</td><td>Kinesin adaptor</td><td>Anterograde mitochondrial transport</td></tr>
+<tr><td>MGARP</td><td>Mitochondrial localization</td><td>Colocalization at mitochondria</td></tr>
+<tr><td>Kinesin-1</td><td>Motor protein</td><td>Mitochondrial movement</td></tr>
+</tbody></table></div>
+<p><strong>PPI Assessment</strong>: RHOT2 interacts with mitochondrial transport machinery (TRAK1/TRAK2 adaptors that link mitochondria to kinesin motors). These interactions are well-characterized and specific to mitochondrial trafficking. No nuclear protein interactions. PPI score: 5/10.</p>
+<h4>9. Cross-Validation Analysis</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Sources</th><th>Result</th><th>Consistent?</th></tr></thead><tbody>
+<tr><td>Localization</td><td>UniProt + HPA + GO-CC + RefSeq</td><td>Mitochondrial outer membrane</td><td>Multi-source consensus</td></tr>
+<tr><td>Function</td><td>Literature + GO</td><td>Mitochondrial transport</td><td>Consistent</td></tr>
+<tr><td>Structure</td><td>Domain architecture + AlphaFold</td><td>Multi-domain GTPase</td><td>Consistent</td></tr>
+</tbody></table></div>
+<p><strong>Cross-Validation Bonus Details</strong>:</p>
+<ul><li>Multi-database mitochondrial localization consensus (4+ sources): +0.5</li><li>Domain architecture + structure consistency: +0.5</li><li><strong>Total Cross-Validation Bonus</strong>: +1.0 / max +3</li></ul>
+<h4>10. Overall Assessment</h4>
+<p><strong>Recommendation Level</strong>: NOT RECOMMENDED -- REJECTED</p>
+<p><strong>Core Reasons for Rejection</strong>: 1. Unambiguous mitochondrial outer membrane protein (C-terminal transmembrane anchor) 2. No credible nuclear localization evidence (HPA &quot;uncertain&quot; nucleoplasm signal is likely artifactual) 3. Protein topology (type IV membrane protein) is incompatible with soluble nuclear function 4. Well-studied gene (PubMed &gt;80), low novelty 5. All interactions are with mitochondrial transport machinery</p>
+<p><strong>Why Previous Rejection Was Correct</strong>: RHOT2 is a mitochondrial outer membrane protein. The minor &quot;uncertain&quot; HPA nucleoplasm annotation does not constitute reliable nuclear localization evidence, especially given the structural commitment to the mitochondrial outer membrane via the C-terminal transmembrane domain. The rejection was correct.</p>
+<h4>11. Decision</h4>
+<p><strong>FINAL DECISION</strong>: REJECTED (previous rejection UPHELD). RHOT2 fails the nuclear localization criterion (score 0/10, threshold &lt;=3). The protein is a mitochondrial outer membrane protein with a C-terminal transmembrane anchor committing it to mitochondrial localization. The minor, uncertain HPA nucleoplasm signal is likely artifactual and does not overcome the overwhelming evidence for exclusive mitochondrial localization.</p>
+<h4>12. Data Sources</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q8IXI1</li><li>HPA Cell Atlas: https://v19.proteinatlas.org/ENSG00000140983-RHOT2/cell</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22RHOT2%22+OR+%22MIRO2%22</li><li>RefSeq: NM_138769</li><li>Note: Harvest packet not available; data compiled from UniProt and literature database queries</li></ul></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

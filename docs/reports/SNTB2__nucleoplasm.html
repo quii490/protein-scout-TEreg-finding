@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SNTB2 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>SNTB2</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 10</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/SNTB2/SNTB2-evaluation.md</p></section><article class="report-body"><h2>SNTB2 -- Critical False-Rejection Reevaluation Report</h2>
+<p><strong>Gene:</strong> SNTB2 (Beta-2-syntrophin) <strong>UniProt Accession:</strong> Q13425 <strong>Protein Name:</strong> Beta-2-syntrophin <strong>Length:</strong> 540 aa | <strong>Mass:</strong> 58.0 kDa <strong>Aliases:</strong> D16S2531E, SNT2B2, SNTL <strong>Report Date:</strong> 2026-06-04 <strong>Review Stage:</strong> W3 Batch 1 -- CRITICAL REOPEN</p>
+<hr>
+<h3>/180 Scoring Table</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Max</th><th>Score</th><th>Rationale</th></tr></thead><tbody>
+<tr><td>1. Nuclear Localization</td><td>30</td><td>10</td><td>HPA main: Golgi apparatus, Plasma membrane, Centriolar satellite, Basal body. Additional: Nucleoplasm, Primary cilium transition zone. Reliability: Approved. UniProt: Membrane, Secretory vesicle membrane, Cell junction, Cytoplasm cytoskeleton. NO nuclear UniProt annotation. GO-CC: nucleoplasm (IDA:HPA). Nucleoplasm is ADDITIONAL HPA location only. The primary localization is membrane/cytoskeletal/ciliary.</td></tr>
+<tr><td>2. Protein Size</td><td>10</td><td>8</td><td>540 aa / 58.0 kDa. Moderate size.</td></tr>
+<tr><td>3. Research Novelty</td><td>10</td><td>10</td><td>PubMed strict: 14. Novelty rule: 1-50=10.</td></tr>
+<tr><td>4. 3D Structure</td><td>30</td><td>18</td><td>AlphaFold mean pLDDT: 78.7 (51.1% &gt;90, 22.8% 70-90, 6.1% 50-70, 20.0% &lt;50). PDB: 2VRF (X-ray, 2.00A, residues 112-200 only -- PDZ domain). Good AF but limited PDB coverage.</td></tr>
+<tr><td>5. Regulatory Domains</td><td>50</td><td>5</td><td>IPR001478 (PDZ), IPR036034, IPR011993, IPR001849 (PH), IPR041428, IPR015482, IPR055108. PF00595 (PDZ), PF00169 (PH), PF18012, PF23012. FUNCTION: Adapter protein linking membrane proteins to actin cytoskeleton and dystrophin glycoprotein complex. Scaffolding/adaptor -- no catalytic, chromatin, or transcriptional regulatory domains.</td></tr>
+<tr><td>6. PPI Network</td><td>50</td><td>25</td><td>STRING: 15 partners. UTRN (0.990), DMD (0.985), DTNA (0.974), DTNB (0.937), SNTG2 (0.927), SNTB1 (0.923), SNTA1 (0.905), DAG1 (0.901), ADRA1D (0.874). IntAct: 15 interactors. DMD, UTRN, ABCA1, PTPRN, MARK2, LIN7A, MCM7, ESR1, DAG1.</td></tr>
+<tr><td><strong>TOTAL</strong></td><td><strong>180</strong></td><td><strong>76</strong></td><td></td></tr>
+</tbody></table></div>
+<hr>
+<h3>Nuclear Evidence Section</h3>
+<h4>HPA (Human Protein Atlas)</h4>
+<ul><li><strong>Status:</strong> hpa_localization_available</li><li><strong>Reliability (IF):</strong> Approved</li><li><strong>Main Location:</strong> Golgi apparatus, Plasma membrane, Centriolar satellite, Basal body</li><li><strong>Additional:</strong> Nucleoplasm, Primary cilium transition zone</li><li><strong>IF Image Status:</strong> if_display_images_available (6 blue_red_green images)</li><li><strong>Key Finding:</strong> Nucleoplasm is ADDITIONAL only. Primary locations are membrane/cytoskeletal/ciliary. HPA IF images show Golgi/membrane/ciliary staining, not nuclear.</li></ul>
+<h4>UniProt Subcellular Location</h4>
+<ul><li><strong>Membrane</strong> -- no evidence code</li><li><strong>Cytoplasmic vesicle, secretory vesicle membrane</strong> -- no evidence code</li><li><strong>Cell junction</strong> -- ECO:0000250</li><li><strong>Cytoplasm, cytoskeleton</strong> -- no evidence code</li><li><strong>NO nuclear annotation in UniProt</strong></li></ul>
+<h4>GO Cellular Component (GO-CC)</h4>
+<ul><li><strong>GO:0005654 (nucleoplasm)</strong> -- IDA:HPA</li><li><strong>GO:0005737 (cytoplasm)</strong> -- IDA:UniProtKB</li><li><strong>GO:0005794 (Golgi apparatus)</strong> -- IDA:HPA</li><li><strong>GO:0005886 (plasma membrane)</strong> -- IDA:HPA</li><li><strong>GO:0034451 (centriolar satellite)</strong> -- IDA:HPA</li><li><strong>GO:0016010 (dystrophin-associated glycoprotein complex)</strong> -- IBA:GO_Central</li><li><strong>GO:0045202 (synapse)</strong> -- IBA:GO_Central</li></ul>
+<p><strong>Summary:</strong> SNTB2 is primarily a membrane-associated adapter protein. Nucleoplasm is an HPA additional location only -- not supported by UniProt. The functional profile is entirely consistent with membrane/cytoskeletal scaffolding. Nuclear score: 10/30 -- very weak nuclear evidence (additional HPA only).</p>
+<hr>
+<h3>PubMed Evidence</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Query Type</th><th>Count</th></tr></thead><tbody>
+<tr><td>Strict (Title/Abstract)</td><td>14</td></tr>
+<tr><td>Broad (All Fields)</td><td>15</td></tr>
+</tbody></table></div>
+<p><strong>Novelty score: 10/10.</strong></p>
+<h4>Key Papers</h4>
+<p>1. <strong>PMID:25625330</strong> -- Hebel T et al. (2015). &quot;Lipid abnormalities in alpha/beta2-syntrophin null mice are independent from ABCA1.&quot; *Biochim Biophys Acta*. 2. <strong>PMID:30014220</strong> -- Krautbauer S et al. (2019). &quot;The utrophin-beta 2 syntrophin complex regulates adipocyte lipid droplet size independent of adipogenesis.&quot; *Mol Cell Biochem*. 3. <strong>PMID:30990585</strong> -- Krautbauer S et al. (2019). &quot;Adipocyte Hypertrophy and Improved Postprandial Lipid Response in Beta 2 Syntrophin Deficient Mice.&quot; *Cell Physiol Biochem*. 4. <strong>PMID:23860432</strong> -- Neumeier M et al. (2013). &quot;Adiponectin receptor 1 C-terminus interacts with PDZ-domain proteins such as syntrophins.&quot; *Exp Mol Pathol*. 5. <strong>PMID:26079703</strong> -- Eisinger K et al. (2015). &quot;Evaluation of the specificity of four commercially available antibodies to alpha-syntrophin.&quot; *Anal Biochem*.</p>
+<p><strong>Assessment:</strong> Literature is focused on SNTB2&#x27;s role in adipocyte biology, lipid metabolism, and dystrophin complex function. No TE-related publications.</p>
+<hr>
+<h3>AlphaFold / PDB / PAE</h3>
+<h4>AlphaFold Predicted Structure</h4>
+<ul><li><strong>Entry:</strong> AF-Q13425-F1, version 6</li><li><strong>mean pLDDT: 78.7</strong> (&gt;90: 51.1%, 70-90: 22.8%, 50-70: 6.1%, &lt;50: 20.0%)</li><li><strong>Assessment:</strong> Moderate-good confidence. Some disordered regions.</li></ul>
+<h4>Experimental PDB Structures</h4>
+<ul><li><strong>1 structure:</strong> 2VRF (X-ray, 2.00A, residues 112-200 -- PDZ domain only)</li><li><strong>Assessment:</strong> Only the PDZ domain is structurally characterized. The rest of the protein has no experimental structure.</li></ul>
+<h4>PAE</h4>
+<ul><li>PAE image URL available.</li><li>PAE assessment pending image retrieval.</li></ul>
+<hr>
+<h3>PPI Network</h3>
+<h4>STRING (15 partners)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>Experimental</th><th>Function</th></tr></thead><tbody>
+<tr><td>UTRN</td><td>0.990</td><td>0.800</td><td>Utrophin (dystrophin homolog)</td></tr>
+<tr><td>DMD</td><td>0.985</td><td>0.777</td><td>Dystrophin</td></tr>
+<tr><td>DTNA</td><td>0.974</td><td>0.749</td><td>Dystrobrevin</td></tr>
+<tr><td>DTNB</td><td>0.937</td><td>0.762</td><td>Dystrobrevin</td></tr>
+<tr><td>SNTG2</td><td>0.927</td><td>0.708</td><td>Syntrophin gamma-2</td></tr>
+<tr><td>DAG1</td><td>0.901</td><td>0.336</td><td>Dystroglycan</td></tr>
+</tbody></table></div>
+<h4>IntAct (15 interactors)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Method</th><th>PMID</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>DMD/Dmd</td><td>Co-IP</td><td>9214383, 8576247</td><td>Dystrophin</td></tr>
+<tr><td>UTRN</td><td>Co-IP</td><td>8576247</td><td>Utrophin</td></tr>
+<tr><td>ABCA1</td><td>Affinity chrom.</td><td>16192269</td><td>Cholesterol transporter</td></tr>
+<tr><td>ESR1</td><td>TAP</td><td>31527615</td><td>Estrogen receptor</td></tr>
+<tr><td>MCM7</td><td>Co-IP</td><td>23764002</td><td>DNA replication</td></tr>
+<tr><td>MARK2</td><td>Co-IP</td><td>19615732</td><td>Polarity kinase</td></tr>
+</tbody></table></div>
+<h4>PPI Network Assessment</h4>
+<ul><li>Core network is dystrophin-associated glycoprotein complex (DGC).</li><li>ESR1 (estrogen receptor) and MCM7 (DNA replication) interactions suggest some nuclear connections.</li><li>Primarily a membrane/cytoskeletal scaffolding network.</li></ul>
+<hr>
+<h3>FALSE REJECTION RECHECK</h3>
+<h4>Original Rejection Reason (inferred)</h4>
+<p>SNTB2 was likely rejected due to primarily membrane/cytoskeletal localization and non-regulatory scaffolding function.</p>
+<h4>Recheck Analysis</h4>
+<p>1. <strong>Nuclear evidence:</strong> VERY WEAK. Nucleoplasm is HPA additional only. UniProt has NO nuclear annotation. Primary localization is membrane/cytoskeletal. 2. <strong>Functional context:</strong> Scaffolding adapter. Links membrane proteins to actin cytoskeleton and dystrophin complex. No catalytic or regulatory function. 3. <strong>PubMed:</strong> 14 strict. LOW. 4. <strong>Structure:</strong> PDZ domain only solved. Moderate AF confidence. 5. <strong>PPI:</strong> Dystrophin complex. ESR1 and MCM7 interactions are notable nuclear connections but insufficient to establish a nuclear function.</p>
+<h4>Verdict</h4>
+<p><strong>The original rejection was CORRECT.</strong> SNTB2 is a membrane-associated scaffolding protein (syntrophin family) with primary function in dystrophin complex organization at the plasma membrane and cytoskeleton. The nucleoplasm HPA annotation is additional only and not supported by UniProt. No chromatin, transcriptional, or TE-regulatory function. Should remain REJECTED.</p>
+<hr>
+<h3>TE-Regulator Relevance</h3>
+<p>NEGLIGIBLE. SNTB2 is a PDZ/PH domain scaffolding protein that organizes the dystrophin-associated glycoprotein complex at membranes. Its biology is entirely structural/scaffolding at the membrane-cytoskeleton interface. No evidence for nuclear function beyond a secondary HPA nucleoplasm annotation.</p>
+<hr>
+<h3>Final Decision: REJECTED</h3>
+<p>Score: 76/180. SNTB2 has very weak nuclear evidence (HPA additional only, no UniProt nuclear), no regulatory domain function, and a dedicated membrane/cytoskeletal scaffolding role. Confirmed rejection.</p>
+<hr>
+<h3>Manual Review Note</h3>
+<p>CONFIRMED REJECTION. SNTB2 (beta-2-syntrophin) is a member of the syntrophin family of dystrophin-associated scaffold proteins. Its well-characterized function is in organizing the dystrophin glycoprotein complex at the sarcolemma and other plasma membrane domains. The nucleoplasm HPA annotation is classified as &quot;additional&quot; and is not corroborated by UniProt subcellular location data. HPA IF images show membrane/Golgi/centriolar staining, not nuclear. No evidence supports a chromatin or TE-regulatory function.</p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

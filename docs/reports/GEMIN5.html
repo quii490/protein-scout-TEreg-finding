@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GEMIN5 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>GEMIN5</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleolus</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 5</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleolus.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleolus/GEMIN5/GEMIN5-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;GEMIN5&quot; date: 2026-06-02 tags: [protein-scout, nucleolus, evaluation] status: scored ---</p>
+<h3>GEMIN5 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>GEMIN5 / —</td></tr>
+<tr><td>蛋白全名</td><td>Gem-associated protein 5</td></tr>
+<tr><td>蛋白大小</td><td>1508 aa / 168.6 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q8TEQ6</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>7/10</td><td>×4</td><td>28.0</td><td>UniProt: Nucleoplasm (ECO:0000269) + Gem (ECO:0000269) + Cytoplasm; GO-CC: nuclear body (IDA), nucleoplasm (IDA); HPA &quot;Enhanced&quot;: Nuclear bodies + Cytosol</td></tr>
+<tr><td>蛋白大小</td><td>1/10</td><td>×1</td><td>1.0</td><td>1508 aa, 168.6 kDa, 极大蛋白</td></tr>
+<tr><td>研究新颖性</td><td>4/10</td><td>×5</td><td>20.0</td><td>PubMed strict=80, ≤80</td></tr>
+<tr><td>三维结构</td><td>9/10</td><td>×3</td><td>27.0</td><td>AlphaFold mean pLDDT 78.9; 16 PDB (X-ray + EM, 覆盖 N 端 WD40 + C 端 TPR 结构域)</td></tr>
+</tbody></table></div>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/GEMIN5/GEMIN5-PAE.png</code></div></figure></p>
+<div class="table-wrap"><table>
+<tbody>
+<tr><td>调控结构域</td><td>6/10</td><td>×2</td><td>12.0</td><td>WD40 repeats (PF00400, 14 repeats) + TPR domain + cap-binding — RNA 结合与 snRNA 识别</td></tr>
+<tr><td>PPI 网络</td><td>8/10</td><td>×3</td><td>24.0</td><td>SMN complex 核心 (GEMIN2/4/6/7/8 ≥0.996); SMN1, SNRPs; IntAct 含 EIF4E/SMN2 等多条 co-IP</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>112/180</strong>********</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+0.0</td><td></td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>61.2/100</strong>********</td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Nucleus, nucleoplasm (ECO:0000269); Nucleus, gem (ECO:0000269); Cytoplasm (ECO:0000269 ×5)</td><td>高（多实验证据）</td></tr>
+<tr><td>GO-CC</td><td>nuclear body (IDA:UniProtKB), nucleoplasm (IDA:UniProtKB), Gemini of Cajal bodies (IEA), cytoplasm/cytosol (IDA), membrane (HDA), SMN complex (IDA), SMN-Gemin2 complex (IDA), SMN-Sm protein complex (IDA)</td><td>高（多 IDA）</td></tr>
+<tr><td>Protein Atlas (IF)</td><td>HPA &quot;Enhanced&quot;: Cytosol (main) + Nuclear bodies (additional)</td><td>高（IF 验证）</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 状态</strong>: IF images available (HPA reliability &quot;Enhanced&quot;) — HPA 检测到 Cytosol (main) + Nuclear bodies (additional localization)。IF 图像 extensive（多抗体/多细胞系，含 green_magenta 双通道）。Enhanced 为 HPA 最高可靠性级别。</p>
+<p><strong>结论</strong>: GEMIN5 核定位证据非常充分，三源一致。UniProt 以多 ECO:0000269 实验证据确认 nucleoplasm + gem 定位。GO-CC 含多处 IDA 级别注释（nuclear body, nucleoplasm, SMN complex 等）。HPA &quot;Enhanced&quot; 最高可靠性确认 Nuclear bodies。<strong>重要提示：该基因被分配至 nucleolus 类别，但 UniProt/GO-CC/HPA 均无 nucleolus 注释。</strong> GEMIN5 的核内定位为 nuclear bodies (Gemini of Cajal bodies) 和 nucleoplasm，非 nucleolus 特异性蛋白。GEM 和 Cajal body 属 nuclear body 大类。</p>
+<h5>3.2 结构与数据源</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold</td><td>AF-Q8TEQ6-F1</td></tr>
+<tr><td>平均 pLDDT</td><td>78.9</td></tr>
+<tr><td>pLDDT &gt;90</td><td>45.8%</td></tr>
+<tr><td>pLDDT 70-90</td><td>32.6%</td></tr>
+<tr><td>PDB</td><td>16 个结构（X-ray 1.65-3.00A + EM 2.60-3.31A），覆盖 N 端 WD40 domain (1-740) + C 端 TPR domain (841-1508)，近乎全长</td></tr>
+<tr><td>InterPro</td><td>IPR056432, IPR056424, IPR056420, IPR052640, IPR011047, IPR056421, IPR015943, IPR020472, IPR019775, IPR036322, IPR001680 (WD40 repeat)</td></tr>
+<tr><td>Pfam</td><td>PF23770, PF23775, PF23777, PF23774, PF00400 (WD40)</td></tr>
+</tbody></table></div>
+<p><strong>AlphaFold PAE 状态</strong>: PAE 已下载，模型置信度中等（mean pLDDT 78.9），WD40 和 TPR 结构域区域置信度高，中间 linker 区域置信度低。16 个 PDB 结构覆盖 N 端和 C 端主要结构域，是实验结构数据最丰富的候选之一。 <figure><div class="missing-image">Missing local image: <code>../assets/report-images/GEMIN5/GEMIN5-PAE.png</code></div></figure></p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict (Title/Abstract)</td><td>80</td></tr>
+<tr><td>PubMed broad</td><td>96</td></tr>
+<tr><td>别名</td><td>无</td></tr>
+</tbody></table></div>
+<p>关键文献：GEMIN5 核心方向围绕 SMN 复合物和神经发育疾病。关键文献包括：GEMIN5 功能丧失突变导致神经发育障碍（PMID:33963192, Nature Communications）、GEMIN5 突变与辅酶 Q10 缺乏的关联（PMID:38316953）、SMN 调控 GEMIN5 表达并作为 GEMIN5 介导神经退行性修饰因子（PMID:37369805）、GEMIN5 作为多任务 RNA 结合蛋白参与翻译控制（PMID:25898402, 综述）。功能上 GEMIN5 是 SMN 复合物中识别 snRNA 的关键组分（通过 7-甲基鸟苷帽结合），同时参与 SMN1 mRNA 翻译调控和核糖体互作。文献量中等偏高（PM=80）。</p>
+<h5>3.4 PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>GEMIN2</td><td>STRING</td><td>0.999 (exp 0.599, database 0.9, textmining 0.998)</td><td>SMN complex scaffold</td></tr>
+<tr><td>GEMIN6</td><td>STRING</td><td>0.999 (exp 0.605, database 0.9, textmining 0.988)</td><td>SMN complex</td></tr>
+<tr><td>DDX20</td><td>STRING</td><td>0.999 (exp 0.878, database 0.9, textmining 0.998)</td><td>SMN complex</td></tr>
+<tr><td>GEMIN4</td><td>STRING</td><td>0.999 (exp 0.696, database 0.9, textmining 0.993)</td><td>SMN complex</td></tr>
+<tr><td>GEMIN7</td><td>STRING</td><td>0.997 (exp 0.675, database 0.9, textmining 0.936)</td><td>SMN complex</td></tr>
+<tr><td>GEMIN8</td><td>STRING</td><td>0.996 (exp 0.704, database 0.9, textmining 0.893)</td><td>SMN complex</td></tr>
+<tr><td>STRAP</td><td>STRING</td><td>0.995 (exp 0.644, database 0.9, textmining 0.880)</td><td>SMN complex</td></tr>
+<tr><td>SMN1</td><td>STRING</td><td>0.992 (exp 0.836, database 0.9, textmining 0.539)</td><td>SMN core</td></tr>
+<tr><td>SNRPD1</td><td>STRING</td><td>0.982 (exp 0.610, database 0.9)</td><td>Sm core protein</td></tr>
+<tr><td>SNRPE</td><td>STRING</td><td>0.973 (exp 0.564, database 0.9)</td><td>Sm core protein</td></tr>
+</tbody></table></div>
+<p>PPI 网络强大且实验验证充分，以 SMN 复合物和 spliceosomal Sm 蛋白为核心（≥0.955）。DDX20 (0.878 实验得分) 和 SMN1 (0.836 实验得分) 实验验证最强。IntAct 含 15 条互作：EIF4E pull-down（PMID:16739988, direct interaction）、SMN2 co-IP、CUL3/CUL5 TAP、RNPS1 co-IP 等。CUL3/CUL5 TAP (PMID:21145461) 提示 E3 ligase 关联。</p>
+<p><strong>UniProt 记录互作</strong>: EIF4E (3), SMN2 (8), SNRPE (7)。</p>
+<h4>4. 总体评价</h4>
+<p>GEMIN5 是 SMN 复合物中结构覆盖最为全面的成员（64.5/100）。核心优势：三源核定位确认（UniProt/GO-CC/HPA Enhanced 一致）、极丰富的实验结构数据（16 PDB，近乎全长覆盖）、WD40 + TPR 多结构域 RNA 结合蛋白功能明确、PPI 网络强大（SMN 复合物 + Sm 蛋白）。核心弱点：蛋白极大（1508 aa, 168.6 kDa）、文献量偏高（PM=80）、AF 置信度中等但实验结构弥补了这一不足。<strong>注意：GEMIN5 定位于 nuclear body (Gemini of Cajal bodies) 和 nucleoplasm，非 nucleolus，与目录分类存在差异。</strong> 建议重新评估分类归属。</p>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q8TEQ6</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8TEQ6</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=GEMIN5</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000082516-GEMIN5（IF: Enhanced, Cytosol main + Nuclear bodies）</li></ul>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/GEMIN5/A-431_1.jpg</code></div></figure></p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/GEMIN5/GEMIN5-PAE.png</code></div></figure></p>
+<p>HPA IF 图像已本地嵌入。</p>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/GEMIN5/GEMIN5-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ARK2C · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>ARK2C</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 8</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/ARK2C/ARK2C-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;ARK2C&quot; date: 2026-05-31 tags: [protein-scout, nucleoplasm, evaluation] status: scored ---</p>
+<h3>ARK2C 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>ARK2C / RNF165</td></tr>
+<tr><td>蛋白全名</td><td>E3 ubiquitin-protein ligase ARK2C</td></tr>
+<tr><td>蛋白大小</td><td>346 aa / 39.5 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q6ZSG1</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>新权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>4/10</td><td>×4</td><td>16.0</td><td>UniProt Nucleus ECO:0000250 (序列类比); GO nucleus IBA:GO_Central</td></tr>
+<tr><td>蛋白大小</td><td>6/10</td><td>×1</td><td>6.0</td><td>346 aa, 39.5 kDa，中等大小</td></tr>
+<tr><td>研究新颖性</td><td>10/10</td><td>×5</td><td>50.0</td><td>Strict=3</td></tr>
+<tr><td>三维结构</td><td>6/10</td><td>×3</td><td>18.0</td><td>8 PDB X-ray 结构 (255-346 RING domain)；pLDDT 57.0</td></tr>
+<tr><td>调控结构域</td><td>4/10</td><td>×2</td><td>8.0</td><td>RING E3 ubiquitin ligase domain (IPR001841, IPR013083)</td></tr>
+<tr><td>PPI 网络</td><td>4/10</td><td>×3</td><td>12.0</td><td>IntAct 8 UBE2 泛素结合酶; UniProt SKI(2)</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>110/180</strong>**</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+0.0</td><td>核定位证据均为预测来源（ECO:0000250, IBA）</td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>60.1/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<p>PubMed strict: 3</p>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Nucleus (ECO:0000250)</td><td>序列类比预测</td></tr>
+<tr><td>GO-CC</td><td>nucleus (IBA:GO_Central); protein-containing complex (IEA:Ensembl)</td><td>IBA 为系统发育推断</td></tr>
+<tr><td>HPA (IF)</td><td>有 IF 缩略图，原图未取得</td><td>间接支持</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 状态</strong>: IF thumbnail only — HPA 暂无 IF 原图，仅获取到 60x60 缩略图，不能作为可靠定位证据。核定位基于 UniProt + GO-CC。 <figure><div class="missing-image">Missing local image: <code>../assets/report-images/ARK2C/ARK2C_IF_41615.jpg</code></div></figure></p>
+<p><strong>结论</strong>: ARK2C 核定位证据为预测级别（序列类比），缺少实验赋值（ECO:0000269/IDA）。核定位为低置信度。</p>
+<h5>3.2 结构与结构域</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold</td><td>AF-Q6ZSG1-F1</td></tr>
+<tr><td>平均 pLDDT</td><td>57.0</td></tr>
+<tr><td>pLDDT &gt;90</td><td>18.5%</td></tr>
+<tr><td>pLDDT 70-90</td><td>10.1%</td></tr>
+<tr><td>pLDDT 50-70</td><td>16.8%</td></tr>
+<tr><td>pLDDT &lt;50</td><td>54.6%</td></tr>
+<tr><td>PDB</td><td>5D0I, 5D0K, 5D0M, 5ULH, 5ULK, 7R70, 7R71, 9N1F（均为 X-ray，1.90-2.80 A，RING domain residues 255-346）</td></tr>
+<tr><td>InterPro</td><td>IPR045191, IPR001841 (RING finger), IPR011016 (Zinc finger RING-CH), IPR013083 (Zinc finger RING/FYVE/PHD)</td></tr>
+<tr><td>Pfam</td><td>PF13639</td></tr>
+</tbody></table></div>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/ARK2C/ARK2C-PAE.png</code></div></figure> <figure><div class="missing-image">Missing local image: <code>../assets/report-images/ARK2C/ARK2C-PAE.png</code></div></figure></p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict (Title/Abstract)</td><td>3</td></tr>
+<tr><td>PubMed broad</td><td>6</td></tr>
+<tr><td>别名</td><td>RNF165（未用于 scoring）</td></tr>
+</tbody></table></div>
+<p>关键文献：</p>
+<ul><li>PMID:23610558 — &quot;Rnf165/Ark2C enhances BMP-Smad signaling to mediate motor axon extension&quot; (PLoS Biol, 2013)</li><li>PMID:33086510 — &quot;Assessing the Direct Binding of Ark-Like E3 RING Ligases to Ubiquitin&quot; (Molecules, 2020)</li><li>PMID:37024974 — &quot;The UAS thioredoxin-like domain of UBXN7 regulates E3 ubiquitin ligase activity of RNF111/Arkadia&quot; (BMC Biol, 2023)</li></ul>
+<p>功能聚焦于 BMP-Smad 信号通路调控和泛素化调控。研究量极低，高度新颖。</p>
+<h5>3.4 PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>UBE2D1</td><td>IntAct</td><td>two hybrid array (PMID:19690564)</td><td>E2 ubiquitin-conjugating enzyme</td></tr>
+<tr><td>UBE2D2</td><td>IntAct</td><td>two hybrid array (PMID:19690564)</td><td>E2 ubiquitin-conjugating enzyme</td></tr>
+<tr><td>UBE2D3</td><td>IntAct</td><td>two hybrid array (PMID:19690564)</td><td>E2 ubiquitin-conjugating enzyme</td></tr>
+<tr><td>UBE2D4</td><td>IntAct</td><td>two hybrid array (PMID:19690564)</td><td>E2 ubiquitin-conjugating enzyme</td></tr>
+<tr><td>UBE2E1</td><td>IntAct</td><td>two hybrid array (PMID:19690564)</td><td>E2 ubiquitin-conjugating enzyme</td></tr>
+<tr><td>UBE2E3</td><td>IntAct</td><td>two hybrid array (PMID:19690564)</td><td>E2 ubiquitin-conjugating enzyme</td></tr>
+<tr><td>UBE2N</td><td>IntAct</td><td>two hybrid array (PMID:19690564)</td><td>E2 ubiquitin-conjugating enzyme</td></tr>
+<tr><td>UBE2W</td><td>IntAct</td><td>two hybrid array (PMID:19690564)</td><td>E2 ubiquitin-conjugating enzyme</td></tr>
+<tr><td>SKI</td><td>UniProt</td><td>2 experiments</td><td>E3 ligase substrate (BMP pathway)</td></tr>
+<tr><td>—</td><td>STRING</td><td>502 错误，无数据</td><td>—</td></tr>
+</tbody></table></div>
+<p>STRING 查询失败（502 Bad Gateway）。IntAct 记录 8 个 UBE2 家族 E2 泛素结合酶 via two hybrid array（PMID:19690564），一致指向 E3-E2 泛素化通路。UniProt 记录 SKI 作为底物。PPI 网络局限于泛素化通路，非染色质相关。</p>
+<h4>4. 总体评价</h4>
+<p>ARK2C 是一个文献量极低（PubMed strict=3）的 E3 泛素连接酶，在 BMP-Smad 信号中调控运动神经元轴突延伸。核定位仅有序列类比/IBA 预测证据，未达到实验确认水平。8 个 PDB 结构仅覆盖 C 端 RING domain（255-346），N 端无序区 pLDDT 较低。作为 nucleoplasm 候选置信度低，建议补内源 IF 确认核定位后重新评估。</p>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q6ZSG1</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q6ZSG1</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=ARK2C</li><li>Protein Atlas: https://www.proteinatlas.org/search/ARK2C（IF 缩略图）</li></ul>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/ARK2C/ARK2C_IF_thumb_if_selected_60x60.jpg</code></div></figure></p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/ARK2C/ARK2C-PAE.png</code></div></figure></p>
+<p>HPA IF 图像已本地嵌入。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/ARK2C/ARK2C-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

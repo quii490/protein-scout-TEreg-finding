@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TLE6 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>TLE6</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleus-cytoplasm</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 40</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleus-cytoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleus-cytoplasm/TLE6/TLE6-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;TLE6&quot; date: 2026-06-02 tags: [protein-scout, nucleus-cytoplasm, evaluation] status: scored ---</p>
+<h3>TLE6 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>TLE6 / GRG6</td></tr>
+<tr><td>蛋白全名</td><td>Transducin-like enhancer protein 6</td></tr>
+<tr><td>蛋白大小</td><td>572 aa / 63.5 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q9H808</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>4/10</td><td>×4</td><td>16.0</td><td>Cytoplasm (ECO:0000269, 3x) + Nucleus (ECO:0000250); GO nucleus IBA, transcription regulator complex IBA</td></tr>
+<tr><td>蛋白大小</td><td>10/10</td><td>×1</td><td>10.0</td><td>572 aa, 63.5 kDa, 处于理想范围</td></tr>
+<tr><td>研究新颖性</td><td>8/10</td><td>×5</td><td>40.0</td><td>PubMed strict=40, symbol_only=58, broad=63</td></tr>
+<tr><td>三维结构</td><td>8/10</td><td>×3</td><td>24.0</td><td>2 PDB (8X7V/8X7W, EM 3.01-3.36A) + AF pLDDT=66.3</td></tr>
+<tr><td>调控结构域</td><td>7/10</td><td>×2</td><td>14.0</td><td>5 domains (4 InterPro + 1 Pfam): WD40 repeats, Groucho_enhancer</td></tr>
+<tr><td>PPI 网络</td><td>4/10</td><td>×3</td><td>12.0</td><td>IntAct 15 + STRING 15 + UniProt 5; SCMC + transcription regulation</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>116/180</strong>**</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+1.0</td><td>PDB+AF 互证(+0.5); 多库结构域一致(+0.5)</td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>63.4/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/TLE6/TLE6-PAE.png</code></div></figure></p>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Cytoplasm (ECO:0000269, 3x); Nucleus (ECO:0000250); Cytoplasm (ECO:0000269, 2x)</td><td>实验证据(胞质) + by similarity(核)</td></tr>
+<tr><td>GO-CC</td><td>cell cortex ISS; cytoplasm IDA; cytoplasmic lattice IDA; nucleus IBA; protein-containing complex IMP; sperm midpiece ISS; subcortical maternal complex IDA; transcription regulator complex IBA</td><td>实验+预测</td></tr>
+<tr><td>Protein Atlas (IF)</td><td>HPA 无图像数据</td><td>无数据</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 状态</strong>: No HPA data — 核定位证据为 ECO:0000250 (by similarity) 和 IBA，非直接实验。主要定位在 cytoplasm/cytoplasmic lattice (IDA) 和 SCMC (IDA)。</p>
+<p><strong>结论</strong>: 胞质定位为主(SCMC component)。Nucleus 定位证据较弱(by similarity + IBA)。Transcription regulator complex (IBA) 关联暗示潜在核功能。</p>
+<h5>3.2 结构与结构域</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold</td><td>AF-Q9H808-F1 (v6)</td></tr>
+<tr><td>平均 pLDDT</td><td>66.3</td></tr>
+<tr><td>pLDDT &gt;90 / 70-90 / 50-70 / &lt;50</td><td>37.2% / 16.4% / 10.1% / 36.2%</td></tr>
+<tr><td>PDB</td><td>8X7V (EM 3.01A, C=146-572), 8X7W (EM 3.36A, C/F=146-572)</td></tr>
+</tbody></table></div>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>结构域</th></tr></thead><tbody>
+<tr><td>InterPro</td><td>IPR009146 (Groucho_enhancer), IPR015943 (WD40/YVTN_repeat-like_dom_sf), IPR036322 (WD40_repeat_dom_sf), IPR001680 (WD40_rpt)</td></tr>
+<tr><td>Pfam</td><td>PF00400 (WD40)</td></tr>
+</tbody></table></div>
+<p><strong>评价</strong>: TLE/Groucho 家族成员。WD40 repeat domain (C-terminal 146-572) 有2个 EM 实验结构。AF pLDDT 66.3，N-terminal 区域置信度低(36.2% &lt;50)。Groucho_enhancer domain 暗示其与 TLE 转录辅抑制功能的进化关系。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict</td><td>40</td></tr>
+<tr><td>PubMed symbol_only</td><td>58</td></tr>
+<tr><td>PubMed broad</td><td>63</td></tr>
+</tbody></table></div>
+<p><strong>关键文献</strong>: 1. Campos G et al. (2023). &quot;Total fertilization failure after ICSI: insights into pathophysiology, diagnosis, and management through artificial oocyte activation.&quot; *Hum Reprod Update*. PMID: 36977357 2. Sang Q et al. (2021). &quot;Genetic factors as potential molecular markers of human oocyte and embryo quality.&quot; *J Assist Reprod Genet*. PMID: 33895934 3. Li R et al. (2024). &quot;Biallelic Recessive Mutations in TLE6 and NLRP5 Cause Female Infertility Characterized by Human Early Embryonic Arrest.&quot; *Hum Mutat*. PMID: 40225929 4. Chi P et al. (2024). &quot;Structural basis of the subcortical maternal complex and its implications in reproductive disorders.&quot; *Nat Struct Mol Biol*. PMID: 38177687 5. Rui X et al. (2024). &quot;Variants in NLRP2 and ZFP36L2, non-core components of the human subcortical maternal complex, cause female infertility...&quot; *Mol Hum Reprod*. PMID: 39178021</p>
+<p><strong>评价</strong>: 研究集中在 early embryonic development 和 SCMC (subcortical maternal complex)。Human infertility 致病基因。新颖性中等(40 strict)。</p>
+<h5>3.4 PPI 网络</h5>
+<p><strong>UniProt 实验互作</strong>:</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Experiments</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>BDNF</td><td>3</td><td>Neurotrophin</td></tr>
+<tr><td>KLK6</td><td>3</td><td>Serine protease</td></tr>
+<tr><td>KHDC3L</td><td>2</td><td>SCMC component</td></tr>
+<tr><td>NLRP5</td><td>2</td><td>SCMC core</td></tr>
+<tr><td>OOEP</td><td>2</td><td>SCMC core</td></tr>
+</tbody></table></div>
+<p><strong>STRING 预测互作</strong> (score &gt;0.4):</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>Experimental</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>OOEP</td><td>0.999</td><td>0.300</td><td>SCMC</td></tr>
+<tr><td>NLRP5</td><td>0.994</td><td>0.300</td><td>SCMC</td></tr>
+<tr><td>KHDC3L</td><td>0.993</td><td>0.292</td><td>SCMC</td></tr>
+<tr><td>PADI6</td><td>0.950</td><td>0</td><td>SCMC</td></tr>
+<tr><td>NLRP2</td><td>0.813</td><td>0</td><td>SCMC</td></tr>
+<tr><td>HLF</td><td>0.788</td><td>0</td><td>Transcription factor</td></tr>
+<tr><td>TLE5</td><td>0.781</td><td>0.050</td><td>TLE family</td></tr>
+<tr><td>TCF3</td><td>0.665</td><td>0.069</td><td>Wnt/transcription</td></tr>
+</tbody></table></div>
+<p><strong>已知复合体</strong>: Subcortical maternal complex (GO:0106333, IDA); Transcription regulator complex (GO:0005667, IBA)</p>
+<p><strong>评价</strong>: PPI 以 SCMC (OOEP/NLRP5/KHDC3L/PADI6) 为绝对核心。同时有 transcription regulator complex (IBA) 和 TCF3/TLE5 互作暗示转录调控潜力。TLE/Groucho 家族是经典转录辅抑制因子家族。</p>
+<h5>3.5 多库互证</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>来源</th><th>结果</th><th>一致性</th></tr></thead><tbody>
+<tr><td>三维结构</td><td>AlphaFold + PDB</td><td>2 PDB (EM) + AF</td><td>一致</td></tr>
+<tr><td>结构域</td><td>UniProt/InterPro/Pfam</td><td>5 个 (WD40/Groucho)</td><td>多库一致</td></tr>
+<tr><td>PPI 网络</td><td>STRING + IntAct + UniProt</td><td>SCMC core</td><td>多源一致</td></tr>
+<tr><td>核定位</td><td>HPA/UniProt/GO</td><td>Cytoplasm + Nucleus</td><td>部分一致</td></tr>
+</tbody></table></div>
+<p><strong>互证加分明细</strong>: PDB+AF互证(+0.5), 多库结构域一致(+0.5), 总计 +1.0</p>
+<h4>4. 总体评价</h4>
+<p>TLE6 是 SCMC (subcortical maternal complex) 的核心组分，属于 TLE/Groucho 转录辅抑制因子家族。SCMC 功能明确(early embryonic development)，且是 human infertility 致病基因。TLE 家族本身是经典转录 repressor，但 TLE6 的核定位证据较弱(by similarity)。WD40 结构域有实验结构。PPI 以 SCMC 为核心，TCF3/TLE5 互作提供转录调控潜力。</p>
+<p><strong>推荐</strong>: 中等优先级。TLE/Groucho 家族背景暗示转录调控潜力，但核定位证据不足，以 cytoplasmic lattice/SCMC 功能为主。</p>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprot/Q9H808</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9H808</li><li>PDB: 8X7V, 8X7W</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=TLE6</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000104953-TLE6 (no data)</li></ul>
+<p><strong>HPA IF 状态</strong>: HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。 — HPA 暂无 IF 原图数据。核定位基于 UniProt + GO-CC。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/TLE6/TLE6-PAE.png</code></div></figure></p>
+<h5>PPI 网络</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th></tr></thead><tbody>
+<tr><td>OOEP</td><td>STRING</td><td>0.999</td></tr>
+<tr><td>NLRP5</td><td>STRING</td><td>0.994</td></tr>
+<tr><td>KHDC3L</td><td>STRING</td><td>0.993</td></tr>
+<tr><td>PADI6</td><td>STRING</td><td>0.95</td></tr>
+<tr><td>NLRP2</td><td>STRING</td><td>0.813</td></tr>
+<tr><td>RPL14</td><td>IntAct</td><td>psi-mi:&quot;MI:0397&quot;(two hybrid ar</td></tr>
+<tr><td>NUDC</td><td>IntAct</td><td>psi-mi:&quot;MI:0729&quot;(luminescence</td></tr>
+<tr><td>KLK6</td><td>IntAct</td><td>psi-mi:&quot;MI:0397&quot;(two hybrid ar</td></tr>
+</tbody></table></div>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/TLE6/TLE6-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

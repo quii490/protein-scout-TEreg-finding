@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ROPN1L · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>ROPN1L</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 7</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/ROPN1L/ROPN1L-evaluation.md</p></section><article class="report-body"><h2>ROPN1L -- Critical False-Rejection Reevaluation Report</h2>
+<p><strong>Gene:</strong> ROPN1L (Ropporin-1-like protein) <strong>UniProt Accession:</strong> Q96C74 <strong>Protein Name:</strong> Ropporin-1-like protein <strong>Length:</strong> 230 aa | <strong>Mass:</strong> 26.1 kDa <strong>Aliases:</strong> ASP, RSPH11 <strong>Report Date:</strong> 2026-06-04 <strong>Review Stage:</strong> W3 Batch 1 -- CRITICAL REOPEN</p>
+<hr>
+<h3>/180 Scoring Table</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Max</th><th>Score</th><th>Rationale</th></tr></thead><tbody>
+<tr><td>1. Nuclear Localization</td><td>30</td><td>7</td><td>HPA main: Primary cilium transition zone, Mid piece, Principal piece, End piece. Additional: Nucleoplasm, Vesicles. Reliability: Supported. UniProt: Cell projection cilium flagellum (ECO:0000250), Cell projection cilium (ECO:0000269). GO-CC: cilium, sperm components, nucleoplasm (IDA:HPA). Nucleoplasm is an ADDITIONAL location, not primary. The primary locations are ciliary/sperm. Nuclear evidence is peripheral -- nucleoplasm appears as secondary, not main.</td></tr>
+<tr><td>2. Protein Size</td><td>10</td><td>10</td><td>230 aa / 26.1 kDa. Full marks.</td></tr>
+<tr><td>3. Research Novelty</td><td>10</td><td>10</td><td>PubMed strict: 21. Novelty rule: 1-50=10.</td></tr>
+<tr><td>4. 3D Structure</td><td>30</td><td>22</td><td>AlphaFold mean pLDDT: 85.7 (64.8% &gt;90, 18.7% 70-90, 11.3% 50-70, 5.2% &lt;50). PDB: 8J07 (EM, 4.10A, full length 1-230). Good AF confidence. One EM structure at moderate resolution.</td></tr>
+<tr><td>5. Regulatory Domains</td><td>50</td><td>5</td><td>IPR047844. No Pfam domains. Function: Part of axonemal radial spoke complexes for sperm/cilia motility. Involved in PKA-dependent signaling for sperm capacitation. No chromatin, transcriptional, or epigenetic regulatory function. Purely structural/ciliary.</td></tr>
+<tr><td>6. PPI Network</td><td>50</td><td>15</td><td>STRING: Failed (HTTP 502). IntAct: 10 interactors. AKAP14, AKAP5, AKAP7, BEX2, SPA17, RSPH3, RSPH14, AKAP9, CD74. UniProt: AKAP14, AKAP5, AKAP7, BEX2, ROPN1L (self), RSPH3, SPA17. Network is ciliary/sperm signaling (AKAP family, radial spoke proteins).</td></tr>
+<tr><td><strong>TOTAL</strong></td><td><strong>180</strong></td><td><strong>69</strong></td><td></td></tr>
+</tbody></table></div>
+<hr>
+<h3>Nuclear Evidence Section</h3>
+<h4>HPA (Human Protein Atlas)</h4>
+<ul><li><strong>Status:</strong> hpa_localization_available</li><li><strong>Reliability (IF):</strong> Supported</li><li><strong>Main Location:</strong> Primary cilium transition zone, Mid piece, Principal piece, End piece</li><li><strong>Additional:</strong> Nucleoplasm, Vesicles</li><li><strong>IF Image Status:</strong> if_display_images_available (8 blue_red_green images)</li><li><strong>Key Finding:</strong> Nucleoplasm is classified as ADDITIONAL location, not primary. HPA IF images show primary ciliary and sperm tail staining, not nuclear.</li></ul>
+<h4>UniProt Subcellular Location</h4>
+<ul><li><strong>Cell projection, cilium, flagellum</strong> -- ECO:0000250 (by similarity)</li><li><strong>Cell projection, cilium</strong> -- ECO:0000269 (experimental)</li></ul>
+<h4>GO Cellular Component (GO-CC)</h4>
+<ul><li><strong>GO:0035869 (ciliary transition zone)</strong> -- IDA:HPA</li><li><strong>GO:0005929 (cilium)</strong> -- IDA:UniProtKB</li><li><strong>GO:0031514 (motile cilium)</strong> -- IDA:BHF-UCL</li><li><strong>GO:0005654 (nucleoplasm)</strong> -- IDA:HPA (additional)</li><li><strong>GO:0001534 (radial spoke)</strong> -- ISS:UniProtKB</li><li><strong>GO:0097229, 0097225, 0097228 (sperm components)</strong> -- IDA:HPA</li></ul>
+<p><strong>Summary:</strong> ROPN1L is primarily a ciliary/sperm protein. Nucleoplasm appears as a secondary/additional HPA annotation but is not the primary localization. The functional context is entirely ciliary/sperm motility. Nuclear score: 7/30 -- weak nuclear evidence (additional only).</p>
+<hr>
+<h3>PubMed Evidence</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Query Type</th><th>Count</th></tr></thead><tbody>
+<tr><td>Strict (Title/Abstract)</td><td>21</td></tr>
+<tr><td>Broad (All Fields)</td><td>37</td></tr>
+</tbody></table></div>
+<p><strong>Novelty score: 10/10.</strong></p>
+<h4>Key Papers</h4>
+<p>1. <strong>PMID:40538010</strong> -- Huang X et al. (2025). &quot;Machine Learning-Driven Discovery of TRIM Genes as Diagnostic Biomarkers for Idiopathic Pulmonary Fibrosis.&quot; *Med Sci Monit*. 2. <strong>PMID:25124046</strong> -- Rattanachan S et al. (2014). &quot;Opisthorchis viverrini: analysis of the sperm-specific rhophilin associated tail protein 1-like.&quot; *Acta Trop*. 3. <strong>PMID:38027210</strong> -- Sun W et al. (2023). &quot;RNA sequencing profiles reveals progressively reduced spermatogenesis with progression in adult cryptorchidism.&quot; *Front Endocrinol*. 4. <strong>PMID:35207567</strong> -- Omolaoye TS et al. (2022). &quot;Omics and Male Infertility: Highlighting the Application of Transcriptomic Data.&quot; *Life*. 5. <strong>PMID:23303679</strong> -- Fiedler SE et al. (2013). &quot;Loss of R2D2 proteins ROPN1 and ROPN1L causes defects in murine sperm motility, phosphorylation, and fibrous sheath integrity.&quot; *Biol Reprod*.</p>
+<p><strong>Assessment:</strong> All literature is focused on sperm biology, cilia, and male fertility. No TE-related publications.</p>
+<hr>
+<h3>AlphaFold / PDB / PAE</h3>
+<h4>AlphaFold Predicted Structure</h4>
+<ul><li><strong>Entry:</strong> AF-Q96C74-F1, version 6</li><li><strong>mean pLDDT: 85.7</strong> (&gt;90: 64.8%, 70-90: 18.7%, 50-70: 11.3%, &lt;50: 5.2%)</li><li><strong>Assessment:</strong> Good confidence. Well-folded small protein.</li></ul>
+<h4>Experimental PDB Structures</h4>
+<ul><li><strong>1 structure:</strong> 8J07 (EM, 4.10A, full length 1-230)</li><li><strong>Assessment:</strong> Full-length structure at moderate resolution.</li></ul>
+<h4>PAE</h4>
+<ul><li>PAE image URL available.</li><li>PAE assessment pending image retrieval.</li></ul>
+<hr>
+<h3>PPI Network</h3>
+<h4>STRING</h4>
+<ul><li><strong>Status:</strong> HTTP Error 502 -- STRING unavailable for this query.</li></ul>
+<h4>IntAct (10 interactors)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Method</th><th>PMID</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>AKAP14</td><td>Validated 2H</td><td>32296183</td><td>PKA anchoring in sperm</td></tr>
+<tr><td>AKAP5</td><td>Validated 2H</td><td>32296183</td><td>PKA anchoring</td></tr>
+<tr><td>AKAP7</td><td>Validated 2H</td><td>32296183</td><td>PKA anchoring</td></tr>
+<tr><td>SPA17</td><td>Co-IP</td><td>28514442</td><td>Sperm autoantigen</td></tr>
+<tr><td>RSPH3</td><td>2H Array</td><td>31515488</td><td>Radial spoke head</td></tr>
+<tr><td>BEX2</td><td>Validated 2H</td><td>32296183</td><td>Brain expressed</td></tr>
+<tr><td>AKAP9</td><td>Co-IP</td><td>28514442</td><td>Centrosome/Golgi</td></tr>
+<tr><td>CD74</td><td>Co-IP</td><td>33961781</td><td>MHC class II</td></tr>
+</tbody></table></div>
+<h4>PPI Network Assessment</h4>
+<ul><li>Network is entirely ciliary/sperm signaling (AKAP family) and radial spoke proteins.</li><li>No chromatin, transcriptional, or nuclear PPI connections.</li></ul>
+<hr>
+<h3>FALSE REJECTION RECHECK</h3>
+<h4>Original Rejection Reason (inferred)</h4>
+<p>ROPN1L was likely rejected due to primarily ciliary/sperm localization with only secondary nucleoplasmic annotation.</p>
+<h4>Recheck Analysis</h4>
+<p>1. <strong>Nuclear evidence:</strong> WEAK. Nucleoplasm is HPA ADDITIONAL location only, not primary. Primary localization is ciliary/sperm. 2. <strong>Functional context:</strong> Radial spoke complex component for cilia/sperm motility. PKA-dependent signaling in sperm capacitation. 3. <strong>PubMed:</strong> 21 strict. LOW. 4. <strong>Structure:</strong> Good AF, one EM structure. 5. <strong>PPI:</strong> Entirely ciliary/sperm. No nuclear partners.</p>
+<h4>Verdict</h4>
+<p><strong>The original rejection was CORRECT.</strong> ROPN1L is a ciliary/sperm radial spoke protein. The nucleoplasmic annotation is secondary (additional, not primary) and likely reflects non-specific or trace localization. The functional profile is entirely dedicated to sperm/cilia motility with no evidence of nuclear, chromatin, or transcriptional regulatory function. Should remain REJECTED.</p>
+<hr>
+<h3>TE-Regulator Relevance</h3>
+<p>NEGLIGIBLE. ROPN1L functions in the axonemal radial spoke complex of motile cilia and sperm flagella. Its biological role is mechanical (ciliary beating, sperm motility) and signaling (PKA in sperm capacitation). No connection to TE biology, chromatin, or nuclear regulation.</p>
+<hr>
+<h3>Final Decision: REJECTED</h3>
+<p>Score: 69/180. ROPN1L has weak nuclear evidence (nucleoplasm is additional, not primary), no regulatory domain function, and a dedicated ciliary/sperm functional profile. Not suitable for TE-regulatory investigation. Confirmed rejection.</p>
+<hr>
+<h3>Manual Review Note</h3>
+<p>CONFIRMED REJECTION. ROPN1L is a ropporin family protein that functions as part of the radial spoke complex in cilia and sperm flagella. The nucleoplasmic HPA annotation is &quot;additional&quot; (not primary) and inconsistent with the known biological function. No evidence supports nuclear or chromatin-level regulatory activity. Retaining this gene would be based on a secondary localization annotation rather than functional evidence.</p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

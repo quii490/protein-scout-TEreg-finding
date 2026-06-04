@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AMER1 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>AMER1</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nuclear-body</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 6</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nuclear-body.html">Category page</a></div><p class="source-path">Original detail path: detail/nuclear-body/AMER1/AMER1-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;AMER1&quot; date: 2026-06-03 tags: [protein-scout, nuclear-protein, evaluation] status: scored ---</p>
+<h3>AMER1 核蛋白评估报告（重新评估）</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>AMER1 / FAM123B / WTX</td></tr>
+<tr><td>蛋白大小</td><td>1135 aa / 124.0 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q5JTC6</td></tr>
+<tr><td>蛋白全名</td><td>APC membrane recruitment protein 1</td></tr>
+<tr><td>子定位分类</td><td>nuclear-body</td></tr>
+<tr><td>HPA IF 主定位</td><td>Nuclear bodies</td></tr>
+<tr><td>HPA IF 附加定位</td><td>Vesicles, Plasma membrane</td></tr>
+<tr><td>HPA Reliability</td><td>Supported</td></tr>
+<tr><td>评估日期</td><td>2026-06-03</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>权重</th><th>加权</th><th>摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>6/10</td><td>×4</td><td>24</td><td>HPA主定位Nuclear bodies；UniProt Cell membrane/Cytoplasm/Nucleus；核体定位明确</td></tr>
+<tr><td>蛋白大小</td><td>6/10</td><td>×1</td><td>6</td><td>1135aa/124.0kDa，大蛋白，重组表达困难</td></tr>
+<tr><td>研究新颖性</td><td>6/10</td><td>×5</td><td>30</td><td>PubMed strict=53 (41-60→6)</td></tr>
+<tr><td>三维结构</td><td>3/10</td><td>×3</td><td>9</td><td>pLDDT=48.3, pct&lt;50=72.2%；高度无序</td></tr>
+<tr><td>调控结构域</td><td>7/10</td><td>×2</td><td>14</td><td>IPR019003 WTX family；Wnt/β-catenin调控，APC/AXIN/CTNNB1核心伙伴</td></tr>
+<tr><td>PPI网络</td><td>8/10</td><td>×3</td><td>24</td><td>AXIN1(0.999实验), APC(0.998实验), CTNNB1(0.992实验)；Wnt核心网络</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>107/180</strong>**</td><td></td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>58.5/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>HPA (IF)</td><td>Nuclear bodies (main), Vesicles (additional), Plasma membrane (additional)</td><td>Supported</td></tr>
+<tr><td>UniProt</td><td>Cell membrane, Cytoplasm, Nucleus</td><td></td></tr>
+<tr><td>GO-CC</td><td>GO:0016604 (nuclear body, IDA:HPA), GO:0005886 (plasma membrane, IDA:HPA), GO:0005829 (cytosol, TAS)</td><td></td></tr>
+</tbody></table></div>
+<p>HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。HPA Supported IF 将 Nuclear bodies 列为主定位，Vesicles 和 Plasma membrane 为附加。UniProt 注释含 Nucleus。GO-CC 含 nuclear body (IDA:HPA)。<strong>评分: 6/10</strong>。</p>
+<h5>3.2 蛋白大小评估</h5>
+<p>1135 aa / 124.0 kDa。大蛋白，超过 800 aa 理想范围。高度无序 (72.2% pLDDT&lt;50)，重组全长表达困难。需截短体策略。<strong>评分: 6/10</strong>。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict_count</td><td>53</td></tr>
+<tr><td>PubMed symbol_only</td><td>82</td></tr>
+<tr><td>别名</td><td>FAM123B, WTX</td></tr>
+<tr><td>主要方向</td><td>Wnt信号、Wilms肿瘤、结直肠癌、骨硬化症</td></tr>
+</tbody></table></div>
+<p><strong>评价</strong>: PubMed 53 篇 (strict)，中等研究热度。AMER1/WTX 作为 Wnt/β-catenin 信号通路关键调控因子，在肿瘤生物学中有较多研究。<strong>评分: 6/10</strong> (41-60篇)。</p>
+<p><strong>关键文献</strong>: 1. Boutet A et al. (2010). &quot;The WTX/AMER1 gene family: evolution, signature and function.&quot; *BMC Evol Biol*. PMID: 20843316 — 家族进化与功能综述 2. Palles C et al. (2022). &quot;Germline MBD4 deficiency causes a multi-tumor predisposition syndrome.&quot; *Am J Hum Genet*. PMID: 35460607 3. Guo L et al. (2023). &quot;Molecular Profiling Provides Clinical Insights Into Targeted and Immunotherapies as Well as Colorectal Cancer Prognosis.&quot; *Gastroenterology*. PMID: 37146911 4. Brunet Guasch M et al. (2025). &quot;Mathematical Modeling Quantifies &#x27;Just-Right&#x27; APC Inactivation for Colorectal Cancer Initiation.&quot; *Cancer Res*. PMID: 41091816 5. Adam MP et al. (1993/updated). &quot;Osteopathia Striata with Cranial Sclerosis.&quot; *GeneReviews*. PMID: 33856753</p>
+<h5>3.4 三维结构分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold 平均 pLDDT</td><td>48.3</td></tr>
+<tr><td>pLDDT &gt; 90 (Very High)</td><td>6.8%</td></tr>
+<tr><td>pLDDT 70-90 (High)</td><td>2.6%</td></tr>
+<tr><td>pLDDT 50-70 (Medium)</td><td>18.4%</td></tr>
+<tr><td>pLDDT &lt; 50 (Low)</td><td>72.2%</td></tr>
+<tr><td>有序区域 (pLDDT&gt;70)</td><td>9.4%</td></tr>
+<tr><td>实验结构 (PDB)</td><td>4YJE (X-ray 1.90A, B=325-335); 4YJL (2.10A, G-L=496-508); 4YK6 (1.70A, B=365-375) — 仅短肽片段</td></tr>
+</tbody></table></div>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。AMER1 为高度无序蛋白：AlphaFold pLDDT 仅 48.3，72.2% 残基 pLDDT &lt; 50。PDB 仅含 3 个短肽片段 (10-13 aa) 的晶体结构，均为与 β-catenin/Axin 的结合肽段。无序区域占比与支架蛋白功能一致。<strong>评分: 3/10</strong>。</p>
+<h5>3.5 结构域分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>结构域</th></tr></thead><tbody>
+<tr><td>InterPro</td><td>IPR019003 (WTX/AMER1 family)</td></tr>
+<tr><td>Pfam</td><td>PF09422 (WTX family)</td></tr>
+</tbody></table></div>
+<p>AMER1 为 WTX/AMER1 家族成员，含多个短线性基序 (SLiMs) 介导特定蛋白-蛋白互作。作为 Wnt/β-catenin 破坏复合体的支架蛋白，通过对 PtdIns(4,5)P2 的膜结合将 APC/AXIN/GSK3B/CTNNB1 招募至细胞膜。同时调控 β-catenin 泛素化和降解。核心 Wnt 信号调控因子。<strong>评分: 7/10</strong>。</p>
+<h5>3.6 PPI 网络</h5>
+<p><strong>STRING 预测互作</strong> (top 10):</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>实验证据</th><th>功能</th></tr></thead><tbody>
+<tr><td>AXIN1</td><td>0.999</td><td>0.80</td><td>β-catenin破坏复合体核心</td></tr>
+<tr><td>APC</td><td>0.998</td><td>0.971</td><td>β-catenin破坏复合体核心</td></tr>
+<tr><td>GSK3B</td><td>0.993</td><td>0</td><td>Wnt激酶</td></tr>
+<tr><td>CTNNB1</td><td>0.992</td><td>0.783</td><td>Wnt效应器, 实验互作</td></tr>
+<tr><td>KEAP1</td><td>0.978</td><td>0.629</td><td>氧化应激/NRF2</td></tr>
+<tr><td>CSNK1A1</td><td>0.960</td><td>0</td><td>Wnt激酶</td></tr>
+<tr><td>BTRC</td><td>0.952</td><td>0.615</td><td>E3泛素连接酶</td></tr>
+<tr><td>WT1</td><td>0.849</td><td>0</td><td>Wilms肿瘤</td></tr>
+<tr><td>DVL1</td><td>0.788</td><td>0</td><td>Wnt信号</td></tr>
+<tr><td>FBXW11</td><td>0.788</td><td>0.733</td><td>E3泛素连接酶</td></tr>
+</tbody></table></div>
+<p><strong>UniProt 实验互作</strong>: AXIN1 (7实验), CTNNB1 (9实验), BTRC (7实验), FBXW11 (6实验), APC (4实验), KEAP1 (2实验), AMER3 (4实验)</p>
+<p><strong>PPI 互证分析</strong>: PPI 网络为所有评估基因中最强之一。核心 Wnt/β-catenin 破坏复合体成员全覆盖 (AXIN1, APC, GSK3B, CTNNB1, CSNK1A1, BTRC)。AXIN1、APC、CTNNB1 均有强实验证据 (0.80-0.97)。KEAP1 互作使 NRF2 氧化应激通路与 Wnt 信号交叉。<strong>评分: 8/10</strong>。</p>
+<h4>4. 总体评价</h4>
+<p><strong>推荐等级</strong>: ⭐⭐⭐ (3/5) — 59.4/100</p>
+<p><strong>核心优势</strong>: 1. Wnt/β-catenin 核心调控因子，信号通路重要性极高 2. PPI 网络极强，覆盖完整破坏复合体 3. HPA Nuclear bodies 主定位 4. 与 APC/AXIN/CTNNB1/GSK3B 所有核心伙伴的实验互作 5. 肿瘤生物学高度相关</p>
+<p><strong>风险/不确定性</strong>: 1. 蛋白高度无序 (72.2% pLDDT&lt;50)，结构研究困难 2. 大蛋白 (1135 aa)，重组表达困难 3. PubMed 53 篇 (&gt;40)，新颖度中等 4. 无序蛋白的生化/结构实验设计挑战大</p>
+<p><strong>下一步建议</strong>:</p>
+<ul><li>[ ] 利用已解析的短肽-β-catenin/Axin 结构设计截短体</li><li>[ ] 探索 AMER1 的液-液相分离行为（IDR占主导）</li><li>[ ] 在 TEreg 背景下验证 AMER1 的 Wnt 信号调控功能</li></ul>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q5JTC6</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q5JTC6</li><li>PDB: https://www.rcsb.org/structure/4YJE</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=AMER1%5BTitle/Abstract%5D</li><li>HPA: https://www.proteinatlas.org/ENSG00000184675-AMER1</li><li>STRING: https://string-db.org (API, species=9606)</li><li>IntAct: https://www.ebi.ac.uk/intact/</li></ul></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

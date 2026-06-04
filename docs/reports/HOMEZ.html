@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HOMEZ · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>HOMEZ</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 24</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/HOMEZ/HOMEZ-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;HOMEZ&quot; date: 2026-06-01 tags: [protein-scout, nucleoplasm, evaluation] status: scored ---</p>
+<h3>HOMEZ 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>HOMEZ / KIAA1443 / Homeobox and leucine zipper protein Homez</td></tr>
+<tr><td>蛋白全名</td><td>Homeobox and leucine zipper protein Homez</td></tr>
+<tr><td>蛋白大小</td><td>550 aa / 61.2 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q8IX15</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 图像</strong>: <figure><div class="missing-image">Missing local image: <code>../assets/report-images/HOMEZ/A-431_1.jpg</code></div></figure> <figure><div class="missing-image">Missing local image: <code>../assets/report-images/HOMEZ/U-251MG_1.jpg</code></div></figure></p>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>新权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>6/10</td><td>x4</td><td>24.0</td><td>HPA Supported: Nucleoli (main) + Nucleoplasm (additional) + Cytosol; UniProt: Nucleus (ECO:0000269); GO: nucleoplasm+nucleolus (IDA)</td></tr>
+<tr><td>蛋白大小</td><td>6/10</td><td>x1</td><td>6.0</td><td>550 aa, 61.2 kDa, 中等大小</td></tr>
+<tr><td>研究新颖性</td><td>10/10</td><td>x5</td><td>50.0</td><td>PubMed strict=10, 极度新颖</td></tr>
+<tr><td>三维结构</td><td>6/10</td><td>x3</td><td>18.0</td><td>PDB: 2ECC (NMR, homeobox), 2YS9 (NMR, leucine zipper); AlphaFold pLDDT=58.9, pct&gt;90=10.9%</td></tr>
+<tr><td>调控结构域</td><td>7/10</td><td>x2</td><td>14.0</td><td>Homeobox + leucine zipper; predicted transcriptional regulator</td></tr>
+<tr><td>PPI 网络</td><td>6/10</td><td>x3</td><td>18.0</td><td>IntAct: 14-3-3 family x6 (coIP), SMYD1/DEF6/LNX1/MED18/SDCBP (Y2H), PPP1CA, Bap1, DGCR6, GTF2IRD1; STRING: HOXC8/SMYD1/PPP1CA (exp)</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>130/180</strong>**</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+1.0</td><td>IntAct+STRING+UniProt 多次出现 SMYD1/PPP1CA/DEF6; HPA+UniProt+GO 定位一致</td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>71.0/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>HPA</td><td>Nucleoli (main), Nucleoplasm (additional), Cytosol (additional)</td><td>Supported</td></tr>
+<tr><td>UniProt</td><td>Nucleus (ECO:0000255, ECO:0000269)</td><td>Experimental</td></tr>
+<tr><td>GO-CC</td><td>chromatin (ISA), cytosol (IDA), nucleolus (IDA), nucleoplasm (IDA), nucleus (IBA)</td><td>-</td></tr>
+</tbody></table></div>
+<p><strong>结论</strong>: HPA Supported 级别多定位（Nucleoli + Nucleoplasm + Cytosol），UniProt/GO 一致支持核定位。GO 具有 nucleoplasm IDA 实验证据。</p>
+<h5>3.2 蛋白大小评估</h5>
+<p>550 aa, 61.2 kDa。中等大小，含 homeobox 和 leucine zipper 结构域。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict (Title/Abstract)</td><td>10</td></tr>
+<tr><td>PubMed broad</td><td>20</td></tr>
+<tr><td>新颖性级别</td><td>极度新颖</td></tr>
+</tbody></table></div>
+<p>PubMed 仅 10 篇严格文献。HOMEZ 几乎未被研究，仅在 male fertility (knockout mice)、ventricular septal defect、oral squamous cell carcinoma 中有少量报道。极具探索空间。</p>
+<p><strong>关键文献</strong>: 1. Gargano G et al. (2025). &quot;AI-derived five-gene signature predicts risk in multiple myeloma under bortezomib-based therapy.&quot; *Sci Rep*. PMID: 41339727 2. Yue Q et al. (2022). &quot;Homeodomain protein HOMEZ is dispensable for male fertility in mice.&quot; *Transl Androl Urol*. PMID: 35812194 3. Yu B et al. (2024). &quot;Downstream Target Analysis for miR-365 among Oral Squamous Cell Carcinomas Reveals Differential Associations with Chemoresistance.&quot; *Life (Basel)*. PMID: 38929724 4. Xuan C et al. (2013). &quot;Identification of two novel mutations of the HOMEZ gene in Chinese patients with isolated ventricular septal defect.&quot; *Genet Test Mol Biomarkers*. PMID: 23574532 5. Bayarsaihan D et al. (2003). &quot;Homez, a homeobox leucine zipper gene specific to the vertebrate lineage.&quot; *Proc Natl Acad Sci U S A*. PMID: 12925734</p>
+<h5>3.4 三维结构分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold</td><td>AF-Q8IX15-F1 v6</td></tr>
+<tr><td>平均 pLDDT</td><td>58.9</td></tr>
+<tr><td>pLDDT &gt;90</td><td>10.9%</td></tr>
+<tr><td>pLDDT 70-90</td><td>22.7%</td></tr>
+<tr><td>pLDDT 50-70</td><td>13.1%</td></tr>
+<tr><td>pLDDT &lt;50</td><td>53.3%</td></tr>
+<tr><td>PDB</td><td>2ECC (NMR, aa361-423, homeobox), 2YS9 (NMR, aa453-509, leucine zipper)</td></tr>
+</tbody></table></div>
+<p><strong>AlphaFold PAE</strong>: <figure><div class="missing-image">Missing local image: <code>../assets/report-images/HOMEZ/HOMEZ-PAE.png</code></div></figure></p>
+<p>低总体 pLDDT (58.9)，53.3% 区域 &lt;50。但 2 个 NMR 结构覆盖 homeobox 和 leucine zipper domain，局部结构已知。大部分区域为内在无序。</p>
+<h5>3.5 结构域分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>结构域</th><th>备注</th></tr></thead><tbody>
+<tr><td>InterPro</td><td>IPR001356 (Homeobox), IPR009057 (Homeobox-like), IPR024578 (HOMEZ-specific domain)</td><td>Homeobox DNA-binding + leucine zipper dimerization</td></tr>
+<tr><td>Pfam</td><td>PF11569 (zf-HOMEZ)</td><td>HOMEZ 特异性 zinc finger-like domain</td></tr>
+<tr><td>PDB</td><td>2ECC (homeobox domain), 2YS9 (leucine zipper)</td><td>两个 NMR 结构</td></tr>
+</tbody></table></div>
+<p>Homeobox + leucine zipper 转录调控因子。Homeobox domain 负责 DNA 结合，leucine zipper 介导二聚化。脊椎动物特异性基因 (PMID:12925734)。</p>
+<h5>3.6 PPI 网络（三源综合）</h5>
+<p><strong>实验验证互作 (IntAct, 精选)</strong>:</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>方法</th><th>PMID</th><th>功能类别</th></tr></thead><tbody>
+<tr><td>YWHAH</td><td>anti tag coIP</td><td>28514442</td><td>14-3-3 eta</td></tr>
+<tr><td>YWHAZ</td><td>anti tag coIP</td><td>28514442</td><td>14-3-3 zeta</td></tr>
+<tr><td>YWHAQ</td><td>anti tag coIP</td><td>28514442</td><td>14-3-3 theta</td></tr>
+<tr><td>YWHAB</td><td>anti tag coIP</td><td>28514442</td><td>14-3-3 beta</td></tr>
+<tr><td>YWHAG</td><td>anti tag coIP</td><td>28514442</td><td>14-3-3 gamma</td></tr>
+<tr><td>SMYD1</td><td>two hybrid array</td><td>29892012</td><td>Histone methyltransferase</td></tr>
+<tr><td>DEF6</td><td>two hybrid prey pooling</td><td>25416956</td><td>GTPase regulator</td></tr>
+<tr><td>PPP1CA</td><td>anti tag coIP</td><td>28514442</td><td>Ser/Thr phosphatase</td></tr>
+<tr><td>LNX1</td><td>two hybrid array</td><td>29892012</td><td>E3 ubiquitin ligase</td></tr>
+<tr><td>MED18</td><td>two hybrid array</td><td>31515488</td><td>Mediator complex</td></tr>
+<tr><td>GTF2IRD1</td><td>confocal microscopy/colocalization</td><td>26275350</td><td>Transcription factor</td></tr>
+<tr><td>Bap1</td><td>anti tag coIP</td><td>26496610</td><td>Deubiquitinase</td></tr>
+<tr><td>DGCR6</td><td>two hybrid array</td><td>24722188</td><td>DiGeorge syndrome protein</td></tr>
+<tr><td>SDCBP</td><td>two hybrid prey pooling</td><td>25416956</td><td>Syntenin-1</td></tr>
+<tr><td>SH3RF2</td><td>validated two hybrid</td><td>25416956</td><td>E3 ubiquitin ligase</td></tr>
+</tbody></table></div>
+<p><strong>STRING 预测互作 (combined score &gt;0.4)</strong>:</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>证据类型</th><th>功能类别</th></tr></thead><tbody>
+<tr><td>HOXC8</td><td>0.717</td><td>textmining</td><td>Homeobox TF</td></tr>
+<tr><td>LRIT1</td><td>0.608</td><td>experimental=0.205</td><td>Leucine-rich repeat</td></tr>
+<tr><td>SMYD1</td><td>0.484</td><td>experimental=0.480</td><td>Histone methyltransferase</td></tr>
+<tr><td>DEF6</td><td>0.453</td><td>experimental=0.453</td><td>GTPase regulator</td></tr>
+<tr><td>PPP1CA</td><td>0.439</td><td>experimental=0.425</td><td>Ser/Thr phosphatase</td></tr>
+</tbody></table></div>
+<p><strong>UniProt 记录互作</strong>: rep (4exp), AEN, CENPS, DEF6, DNTTIP1, EBF1, EIF4E2, ELOA, GRB2, KPNA2, LNX1, LRRC7, MAD2L1BP, MED18, MRPL11, NCK2, PIN1, PRKAA1/2, RBM39, RNF8, RPGR, RPL9P9, SDCBP, SH3RF2, SMYD1, SNRPB2, SUMO2, TEAD4, TLE5, TRAF4, ZBTB7A (all 3exp, Y2H)</p>
+<p>PPI 网络独特：14-3-3 family 6 成员全部通过 coIP 实验证实（BioPlex 3.0），是核心互作模式。SMYD1 (组蛋白甲基转移酶) 在三源 (IntAct + STRING + UniProt) 均有出现。KPNA2 (importin) 提示核转运机制。</p>
+<h5>3.7 多库互证</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>来源</th><th>结果</th><th>是否一致</th></tr></thead><tbody>
+<tr><td>定位</td><td>HPA / UniProt / GO</td><td>Nucleoli+Nucleoplasm / Nucleus / nucleoplasm+nucleolus+chromatin</td><td>三源一致</td></tr>
+<tr><td>PPI</td><td>IntAct / STRING / UniProt</td><td>SMYD1/DEF6/SDCBP/PPP1CA 三源确认</td><td>多源互证</td></tr>
+<tr><td>结构</td><td>AlphaFold + PDB (NMR)</td><td>pLDDT=58.9 + 2 NMR structures</td><td>实验+预测双重支持</td></tr>
+</tbody></table></div>
+<p><strong>互证加分明细</strong>: +1 (定位三源一致 + SMYD1/DEF6/PPP1CA 三源 PPI 互证) <strong>总计</strong>: +1 / max +3</p>
+<h4>4. 总体评价</h4>
+<p><strong>推荐等级</strong>: 3星 (71.6/100)</p>
+<p>HOMEZ 极度新颖 (PM=10)，具 homeobox + leucine zipper 经典转录因子结构域。14-3-3 family 6 成员集体互作是显著特征，SMYD1（组蛋白甲基转移酶）互作提示染色质调控潜力。主要限制：AlphaFold pLDDT 较低，大量无序区域。</p>
+<p><strong>核心优势</strong>: 1. PubMed=10，极度新颖 2. 具 homeobox + leucine zipper 转录因子结构域 3. 14-3-3 家族全面互作 + SMYD1 (组蛋白甲基转移酶) 互作 4. HPA+UniProt+GO 三源核定位一致</p>
+<p><strong>风险/不确定性</strong>: 1. AlphaFold pLDDT 较低 (58.9)，大量无序区域 2. HOMEZ-/- mice 雄性 fertility 正常 (功能冗余) 3. PPI 以高通量为主，缺少靶向功能验证</p>
+<p><strong>下一步建议</strong>:</p>
+<ul><li>验证与 SMYD1 的功能性互作及其对组蛋白修饰的影响</li><li>解析 14-3-3 结合对 HOMEZ 核定位/活性的调控</li><li>功能获得/缺失表型筛选（超越 fertility）</li></ul>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q8IX15</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8IX15</li><li>PDB: 2ECC, 2YS9</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22HOMEZ%22%5BTitle/Abstract%5D</li><li>HPA: https://www.proteinatlas.org/ENSG00000290292-HOMEZ</li></ul>
+<p>HPA IF 图像已本地嵌入。</p>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/HOMEZ/HOMEZ-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

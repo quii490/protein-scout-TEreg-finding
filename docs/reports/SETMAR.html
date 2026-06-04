@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SETMAR · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>SETMAR</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">chromatin</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 5</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/chromatin.html">Category page</a></div><p class="source-path">Original detail path: detail/chromatin/SETMAR/SETMAR-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;SETMAR&quot; date: 2026-06-01 tags: [protein-scout, chromatin, evaluation] status: scored ---</p>
+<h3>SETMAR 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>SETMAR (无别名)</td></tr>
+<tr><td>蛋白全名</td><td>Histone-lysine N-methyltransferase SETMAR</td></tr>
+<tr><td>蛋白大小</td><td>684 aa / 78.0 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q53H47</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>新权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>9/10</td><td>x4</td><td>36.0</td><td>UniProt Nucleus (ECO:0000269) + Chromosome (ECO:0000269 x2); HPA Nucleoli (Supported); GO-CC nucleolus (IDA:HPA) + nucleus (IDA) + DSB site (IDA)</td></tr>
+<tr><td>蛋白大小</td><td>8/10</td><td>x1</td><td>8.0</td><td>684 aa, 78.0 kDa, 大小适中</td></tr>
+<tr><td>研究新颖性</td><td>6/10</td><td>x5</td><td>30.0</td><td>PubMed strict=50, broad=68</td></tr>
+<tr><td>三维结构</td><td>9/10</td><td>x3</td><td>27.0</td><td>5 PDB 结构; AlphaFold mean pLDDT 82.8; pct_gt_90=57.7%</td></tr>
+</tbody></table></div>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/SETMAR/SETMAR-PAE.png</code></div></figure></p>
+<div class="table-wrap"><table>
+<tbody>
+<tr><td>调控结构域</td><td>9/10</td><td>x2</td><td>18.0</td><td>SET domain (IPR001214) + Transposase (IPR007728); 组蛋白甲基转移酶 + DNA 转座酶融合</td></tr>
+<tr><td>PPI 网络</td><td>6/10</td><td>x3</td><td>18.0</td><td>IntAct 15 条 (IKZF3, HSPA8, SETX, LEO1, PCBP1/2 等); STRING 502 error; UniProt YJU2</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>137/180</strong>********</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+2.0</td><td>灵长类特有的 SET-转座酶融合蛋白; 直接参与 DSB 修复与 H3K36me2</td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>74.9/100</strong>********</td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Nucleus (ECO:0000269) + Chromosome (ECO:0000269 x2)</td><td>Curated</td></tr>
+<tr><td>GO-CC</td><td>nucleolus (IDA:HPA), nucleus (IDA:UniProtKB), site of double-strand break (IDA:UniProtKB)</td><td>实验支持</td></tr>
+<tr><td>Protein Atlas (IF)</td><td>Nucleoli (Supported reliability)</td><td>HPA 验证</td></tr>
+<tr><td>Function</td><td>DNA double-strand break repair, H3K4/H3K36 methylation</td><td>核内功能</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 状态</strong>: HPA IF 图像已本地嵌入。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/SETMAR/SETMAR_IF_1070_D10_1_red_green.jpg</code></div></figure>。核定位基于HPA localization/reliability + UniProt + GO-CC。</p>
+<p><strong>结论</strong>: SETMAR 核定位证据极为充分，四源一致：UniProt curated + GO-CC IDA + HPA IF Supported + 功能注释（DSB 修复、组蛋白甲基化）。</p>
+<h5>3.2 结构与数据源</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold</td><td>AF-Q53H47-F1 (v6)</td></tr>
+<tr><td>平均 pLDDT</td><td>82.8</td></tr>
+<tr><td>pLDDT &gt;90</td><td>57.7%</td></tr>
+<tr><td>pLDDT 70-90</td><td>25.3%</td></tr>
+<tr><td>pLDDT &lt;50</td><td>12.1%</td></tr>
+<tr><td>PDB</td><td>3BO5 (1.59A, SET-NTD), 3F2K (1.85A, Transposase), 3K9J (1.90A, Transposase), 3K9K (2.55A, Transposase), 7S03 (2.37A, ZnF)</td></tr>
+<tr><td>InterPro</td><td>IPR041426, IPR003616, IPR007728 (Transposase), IPR036397, IPR001214 (SET domain), IPR046341, IPR052709, IPR001888, IPR036388</td></tr>
+<tr><td>Pfam</td><td>PF17906, PF05033 (Pre-SET), PF00856 (SET), PF01359 (Transposase_21)</td></tr>
+</tbody></table></div>
+<p>SETMAR 结构数据非常优秀：AlphaFold 高质量 (82.8 mean)，5 个 PDB 结构覆盖 SET 域 (1.59A)、转座酶域 (1.85-2.55A) 及 ZnF 域，各功能模块均有高分辨率实验结构。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict (Title/Abstract)</td><td>50</td></tr>
+<tr><td>PubMed symbol only</td><td>58</td></tr>
+<tr><td>PubMed broad</td><td>68</td></tr>
+<tr><td>别名</td><td>无</td></tr>
+</tbody></table></div>
+<p>关键文献：</p>
+<ul><li>PMID:38900084 (Zhang W et al., 2024) -- SETMAR 通过 SMARCA2 介导的染色质重塑促进甲状腺癌分化</li><li>PMID:34947873 (Tellier M, 2021) -- SETMAR 蛋白赖氨酸甲基转移酶的结构、活性与功能综述</li><li>PMID:35395947 (Lie O et al., 2022) -- SETMAR: 灵长类 co-opted 基因的新视角</li><li>PMID:35378129 (Chen Q et al., 2022) -- 转座子衍生蛋白 SETMAR 改变转录和剪接</li><li>PMID:36706314 (Boroumand-Noughabi S et al., 2023) -- SETMAR 转录变体在儿童急性白血病中的表达</li></ul>
+<p>SETMAR 是灵长类特有的 SET-转座酶融合蛋白，兼具组蛋白 H3K36 二甲基化和 DNA 末端连接活性，直接参与 DSB 修复中的 NHEJ 通路。研究热点集中在肿瘤表观遗传学和 DNA 修复。</p>
+<h5>3.4 PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>IKZF3</td><td>IntAct</td><td>co-IP (PMID:28514442, Nature)</td><td>转录因子</td></tr>
+<tr><td>HSPA8</td><td>IntAct</td><td>co-IP (PMID:28514442, Nature)</td><td>分子伴侣</td></tr>
+<tr><td>SETX</td><td>IntAct</td><td>co-IP (PMID:28514442, Nature)</td><td>RNA/DNA 解旋酶 (核)</td></tr>
+<tr><td>PCBP1</td><td>IntAct</td><td>co-IP (PMID:28514442, Nature)</td><td>RNA 结合蛋白</td></tr>
+<tr><td>PCBP2</td><td>IntAct</td><td>co-IP (PMID:33961781, Cell 2021)</td><td>RNA 结合蛋白</td></tr>
+<tr><td>LEO1</td><td>IntAct</td><td>co-IP (PMID:26496610)</td><td>PAF1 复合体 (转录)</td></tr>
+<tr><td>DOC2A</td><td>IntAct</td><td>co-IP (PMID:28514442)</td><td>钙结合蛋白</td></tr>
+<tr><td>TRUB1</td><td>IntAct</td><td>co-IP (PMID:33961781)</td><td>tRNA 假尿苷合酶</td></tr>
+<tr><td>CAPG</td><td>IntAct</td><td>co-IP (PMID:33961781)</td><td>Actin 调控</td></tr>
+<tr><td>VPS26C</td><td>IntAct</td><td>Y2H (PMID:35914814)</td><td>Retromer</td></tr>
+<tr><td>YJU2</td><td>IntAct</td><td>co-IP (PMID:28514442)</td><td>剪接因子</td></tr>
+<tr><td>YJU2</td><td>UniProt</td><td>3 experiments</td><td>Spliceosome</td></tr>
+<tr><td>Naa50</td><td>IntAct</td><td>co-IP (PMID:26496610)</td><td>N-acetyltransferase</td></tr>
+</tbody></table></div>
+<p>PPI 网络以 co-IP 为主，包含核蛋白 SETX、剪接因子 YJU2、PAF1 复合体 LEO1 等，提示 SETMAR 参与转录和 RNA 加工。但缺乏与 DSB 修复核心蛋白（如 Ku70/80, DNA-PKcs）的直接互作记录。</p>
+<h4>4. 总体评价</h4>
+<p>SETMAR 是本批次最高分候选。灵长类特有的 SET-转座酶融合蛋白，兼具组蛋白甲基转移酶和 DNA 修复功能。核定位四源一致、结构数据优秀（5 PDB + 高置信度 AlphaFold）、PPI 涉及转录/RNA 加工。研究量适中（strict=50），处于表观遗传学与 DNA 修复交叉领域，niche 空间充足。</p>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q53H47</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q53H47</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=SETMAR</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000170364-SETMAR</li></ul>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/SETMAR/SETMAR-PAE.png</code></div></figure></p>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/SETMAR/SETMAR-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

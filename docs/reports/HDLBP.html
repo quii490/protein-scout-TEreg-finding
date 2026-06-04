@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HDLBP · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>HDLBP</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 1.5</span><span class="badge">Nuclear: 16</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/HDLBP/HDLBP-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;HDLBP&quot; date: 2026-05-29 tags: [protein-scout, nuclear-protein, evaluation] status: scored ---</p>
+<h3>HDLBP 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>HDLBP / Vigilin</td></tr>
+<tr><td>蛋白大小</td><td>1268 aa / 141.4 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q00341</td></tr>
+<tr><td>评估日期</td><td>2026-05-28</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览 (权重: 核×4 大×1 新×5 结×3 域×2 PPI×3 ÷1.83)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>加权</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>🔴 核定位特异性</td><td>4/10</td><td>×4</td><td><strong>16</strong></td><td>Cytoplasm+Nucleus; 主要功能为胆固醇代谢/RNA结合; 无chromatin功能</td></tr>
+<tr><td>📏 蛋白大小</td><td>5/10</td><td>×1</td><td><strong>5</strong></td><td>1268 aa / 141.4 kDa, 超1200阈值</td></tr>
+<tr><td>🆕 研究新颖性</td><td>4/10</td><td>×5</td><td><strong>30</strong></td><td>PubMed 63篇; 50-200范围</td></tr>
+<tr><td>🏗️ 三维结构</td><td>7/10</td><td>×3</td><td><strong>21</strong></td><td>pLDDT 74.51; 78%有序; 8个PDB实验结构(KH domains)</td></tr>
+<tr><td>🧬 调控结构域</td><td>3/10</td><td>×2</td><td><strong>6</strong></td><td>14xKH domain (RNA binding); 非chromatin/DNA调控</td></tr>
+<tr><td>🔗 PPI</td><td>0/10</td><td>×3</td><td><strong>0</strong></td><td>DHX9(RNA helicase)~5%调控相关; 绝大部分为RNA/代谢相关</td></tr>
+<tr><td>➕ 互证加分</td><td>—</td><td>—</td><td><strong>+1.5</strong></td><td>&gt;=3源结构域; &gt;=2源定位; 进化保守</td></tr>
+<tr><td></td><td><strong>原始总分</strong></td><td></td><td><strong>69.5/183</strong></td><td><strong>80.0/183</strong></td><td></td><td></td></tr>
+<tr><td></td><td><strong>归一化总分</strong></td><td></td><td><strong>38.0/100</strong></td><td><strong>43.7/100</strong></td><td></td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>GeneCards</td><td>predominantly disordered</td><td>—</td></tr>
+<tr><td>Protein Atlas (IF)</td><td></td><td>—</td></tr>
+<tr><td>UniProt</td><td>Cytoplasm, Nucleus</td><td>实验证据</td></tr>
+</tbody></table></div>
+<p><strong>GO 定位</strong>:</p>
+<ul><li>GO:0005634 C:nucleus (IDA, HPA, IEA)</li><li>GO:0003729 F:mRNA binding (IDA)</li><li>GO:0003723 F:RNA binding (IDA)</li></ul>
+<p><strong>IF 图像</strong>: <figure><div class="missing-image">Missing local image: <code>../assets/report-images/HDLBP/634_G1_2_blue_green.jpg</code></div></figure> <figure><div class="missing-image">Missing local image: <code>../assets/report-images/HDLBP/639_G1_1_blue_green.jpg</code></div></figure></p>
+<p><strong>结论</strong>: HDLBP 已知在胞质和核均有分布。UniProt 标注为其功能主要涉及 &quot;cell sterol metabolism&quot; 和 &quot;protect cells from over-accumulation of cholesterol&quot;。其 14 个 KH domain 为 RNA 结合模块, 可能参与 mRNA 代谢而非染色质/DNA 调控。核-质穿梭可能与 mRNA 运输相关, 但与 chromatin/transcription 调控无直接关联。<strong>评分: 4</strong> (核+胞质双分布, 无chromatin功能)。</p>
+<p><strong>IF 图像</strong>:</p>
+<h5>3.2 蛋白大小评估</h5>
+<p>1268 aa / 141.4 kDa, 略超 1200 aa 阈值 (1200-2000等级)。作为 14-KH-domain 的串联重复蛋白, 大小虽超出理想范围但结构域排列规整, 可考虑分段表达策略。<strong>评分: 5</strong>。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed 总数</td><td>63</td></tr>
+<tr><td>最早发表年份</td><td>~1990s</td></tr>
+<tr><td>Chromatin/epigenetics 比例</td><td>~0%</td></tr>
+</tbody></table></div>
+<p><strong>主要研究方向</strong>:</p>
+<ul><li>胆固醇代谢/HDL 结合功能 (命名来源: High Density Lipoprotein Binding Protein)</li><li>RNA 结合功能 (Vigilin/KH domain protein)</li><li>脂蛋白受体介导的信号转导</li></ul>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/HDLBP/HDLBP-PAE.png</code></div></figure></p>
+<p><strong>评价</strong>: HDLBP 研究主力在脂代谢领域 (63 篇)。作为 RNA 结合蛋白 (14 KH domains) 的功能研究较为成熟。chromatin/epigenetics 方向几乎空白。<strong>评分: 8</strong> (50-200 篇, niche 空间存在但蛋白核心功能非核调控)。</p>
+<h5>3.4 三维结构分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold 平均 pLDDT</td><td>74.51</td></tr>
+<tr><td>PDB 实验结构</td><td>—</td></tr>
+<tr><td>有序区域 (pLDDT&gt;70) 占比</td><td>78.0%</td></tr>
+<tr><td>&gt;90</td><td>1.8%</td></tr>
+<tr><td>70-90</td><td>76.2%</td></tr>
+<tr><td>50-70</td><td>10.2%</td></tr>
+<tr><td>&lt;50</td><td>11.8%</td></tr>
+<tr><td>可用 PDB 条目</td><td>1VIG, 1VIH, 2CTE, 2CTF, 2CTJ, 2CTK, 2CTL, 2CTM</td></tr>
+</tbody></table></div>
+<p><strong>PAE 数值分析</strong>:</p>
+<ul><li>PAE 矩阵: 1268×1268</li><li>均值 PAE: 25.30</li><li>PAE &lt;5 Å: 2.54%</li><li>PAE &lt;10 Å: 6.12%</li><li>可辨识折叠域: 17 个域段, 对应 14 个 KH domains 及连接区</li></ul>
+<p><strong>评价</strong>: AlphaFold 预测质量良好 (平均 pLDDT 74.51, 78% 有序)。14 个 KH domain 在 PAE 图中清晰可见为连续的低 PAE 条带块。8 个 PDB 实验结构与预测一致, 确认 KH domain 折叠。<strong>评分: 7</strong>。</p>
+<h5>3.5 结构域分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>结构域</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>14×KH domain (158-1209, 串联排列)</td></tr>
+<tr><td>InterPro</td><td>IPR004087/004088 KH domain; IPR036612 KH type 1 superfamily; IPR057778 Vigilin N-terminal KH</td></tr>
+<tr><td>SMART</td><td>—</td></tr>
+<tr><td>GeneCards</td><td>predominantly disordered</td></tr>
+</tbody></table></div>
+<p><strong>染色质调控潜力分析</strong>: KH domain 是经典的 RNA 结合模块 (type I hnRNP K homology domain), 识别单链核酸。UniProt 功能注释明确指向 cholesterol metabolism 和 mRNA binding。8 个 PDB 结构均为 KH domain-RNA 复合物。<strong>评分: 3</strong> (KH domain 是 nucleic acid binding, 但明确属于 RNA binding 而非 DNA/chromatin 调控, 且蛋白已充分研究确认其功能方向)。</p>
+<h5>3.6 PPI 网络（四源综合）</h5>
+<p><strong>实验验证互作</strong> (IntAct, physical association):</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>方法</th><th>PMID</th><th>功能类别</th><th>调控相关？</th></tr></thead><tbody>
+<tr><td>SOS1</td><td>two hybrid pooling approach</td><td>20936779</td><td>Ras-GEF, signaling</td><td>❌</td></tr>
+<tr><td>HSPB1</td><td>reverse ras recruitment system</td><td>25277244</td><td>Heat shock protein</td><td>❌</td></tr>
+<tr><td>FMR1</td><td>two hybrid fragment pooling</td><td>31413325</td><td>RNA-binding, translation regulation</td><td>❌</td></tr>
+<tr><td>TROVE2</td><td>cross-linking study</td><td>30021884</td><td>Ro60 autoantigen, RNA binding</td><td>❌</td></tr>
+<tr><td>AKTIP</td><td>anti bait coimmunoprecipitation</td><td>17353931</td><td>AKT interactor, signaling</td><td>❌</td></tr>
+<tr><td>ARF6</td><td>anti bait coimmunoprecipitation</td><td>17353931</td><td>Small GTPase</td><td>❌</td></tr>
+<tr><td>MAGEA6</td><td>anti bait coimmunoprecipitation</td><td>17353931</td><td>Cancer testis antigen</td><td>❌</td></tr>
+<tr><td>MYH16</td><td>cross-linking study</td><td>30021884</td><td>Myosin heavy chain</td><td>❌</td></tr>
+<tr><td>GLRB</td><td>cross-linking study</td><td>30021884</td><td>Glycine receptor</td><td>❌</td></tr>
+<tr><td>IGSF3</td><td>cross-linking study</td><td>30021884</td><td>Immunoglobulin superfamily</td><td>❌</td></tr>
+<tr><td>MGAT4D</td><td>cross-linking study</td><td>30021884</td><td>Glycosyltransferase</td><td>❌</td></tr>
+<tr><td>PRKN</td><td>cross-linking study</td><td>30021884</td><td>E3 ubiquitin ligase (mitophagy)</td><td>❌</td></tr>
+<tr><td>OR51M1</td><td>cross-linking study</td><td>30021884</td><td>Olfactory receptor</td><td>❌</td></tr>
+<tr><td>miR-877-3p/484/365a-3p/222-3p 等</td><td>CLASH</td><td>23622248</td><td>miRNA</td><td>❌</td></tr>
+</tbody></table></div>
+<p><strong>STRING 预测互作</strong> (combined score &gt;0.4):</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>功能类别</th><th>与调控相关？</th></tr></thead><tbody>
+<tr><td>CETP</td><td>0.989</td><td>Cholesteryl ester transfer</td><td>No</td></tr>
+<tr><td>APOC3</td><td>0.999</td><td>Lipoprotein metabolism</td><td>No</td></tr>
+<tr><td>APOB</td><td>0.999</td><td>Lipoprotein structural</td><td>No</td></tr>
+<tr><td>APOA1</td><td>0.999</td><td>HDL component</td><td>No</td></tr>
+<tr><td>APOE</td><td>0.999</td><td>Lipoprotein receptor ligand</td><td>No</td></tr>
+<tr><td>APOA2</td><td>0.995</td><td>HDL component</td><td>No</td></tr>
+<tr><td>APOA4</td><td>0.994</td><td>HDL component</td><td>No</td></tr>
+<tr><td>APOA5</td><td>0.994</td><td>TG regulation</td><td>No</td></tr>
+<tr><td>APOC2</td><td>0.998</td><td>Lipoprotein lipase activator</td><td>No</td></tr>
+<tr><td>LIPC</td><td>0.957</td><td>Hepatic lipase</td><td>No</td></tr>
+<tr><td>LPL</td><td>0.920</td><td>Lipoprotein lipase</td><td>No</td></tr>
+<tr><td>VLDLR</td><td>0.911</td><td>VLDL receptor</td><td>No</td></tr>
+<tr><td>GPIHBP1</td><td>0.999</td><td>Lipoprotein transport</td><td>No</td></tr>
+<tr><td>COL6A3</td><td>0.649</td><td>Extracellular matrix</td><td>No</td></tr>
+<tr><td>DHX9</td><td>0.922</td><td>RNA helicase (R-loop, transcription)</td><td>Possibly</td></tr>
+<tr><td>ADAR</td><td>0.637</td><td>RNA editing (dsRNA)</td><td>No (RNA)</td></tr>
+<tr><td>EEF1G</td><td>0.994</td><td>Translation elongation</td><td>No</td></tr>
+<tr><td>RRBP1</td><td>0.688</td><td>Ribosome binding</td><td>No</td></tr>
+<tr><td>UBA6</td><td>0.665</td><td>Ubiquitin activation</td><td>No</td></tr>
+<tr><td>RACK1</td><td>0.774</td><td>Signaling scaffold</td><td>No</td></tr>
+</tbody></table></div>
+<p><strong>已知复合体成员</strong> (GO Cellular Component):</p>
+<ul><li>High-density lipoprotein particle (GO:0034364)</li><li>Nucleus, Cytoplasm, Plasma membrane</li><li>无染色质调控复合体注释；HDLBP 的功能定位主要在脂蛋白代谢和细胞膜系统</li></ul>
+<p><strong>humanPPI</strong> (prodata.swmed.edu): 。</p>
+<p><strong>调控相关比例</strong>: 1/20 (DHX9, RNA helicase with R-loop/transcription roles) ≈ 5%</p>
+<p><strong>PPI 互证分析</strong>:</p>
+<ul><li>IntAct: 21个physical association（含14个蛋白互作 + 7个miRNA CLASH），但均非染色质调控相关</li><li>STRING: 几乎全部为脂蛋白代谢/胞外蛋白</li><li>两源共同确认: 无明确的共同验证partner</li><li>调控相关: DHX9 为唯一的边际转录调控关联（STRING 0.922）</li></ul>
+<p><strong>评价</strong>: 四源增强确认 HDLBP 的 PPI 网络与染色质/转录调控无关。IntAct 的 14 个蛋白实验互作以信号蛋白（SOS1, ARF6, AKTIP）、RNA 结合蛋白（FMR1, TROVE2）和膜蛋白为主，无任何染色质调控因子或转录因子。GO-CC 注解指向脂蛋白颗粒和膜系统，确认其功能定位与核内染色质调控无关。PPI 评分维持 0。</p>
+<h5>3.7 多库互证</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>来源</th><th>结果</th><th>是否一致</th></tr></thead><tbody>
+<tr><td>三维结构</td><td>AlphaFold pLDDT + PDB (8 entries)</td><td>KH domain 折叠一致</td><td>一致 (+1.0)</td></tr>
+<tr><td>结构域</td><td>UniProt / InterPro / Pfam</td><td>KH domain, multi-source</td><td>一致 (+0.5)</td></tr>
+</tbody></table></div>
+<p>| PPI | STRING + humanPPI | humanPPI- 结构域互证: UniProt + InterPro + Pfam 均确认 KH domain (+0.5)</p>
+<ul><li>其他维度缺验证</li></ul>
+<p><strong>总分</strong>: +1.5 / max +3</p>
+<h4>X. 关键文献 (PubMed)</h4>
+<p>1. Feicht J et al. (2024). &quot;The high-density lipoprotein binding protein HDLBP is an unusual RNA-binding protein with multiple roles in cancer and disease.&quot;. *RNA Biol*. PMID: 38477883 2. Kosmas K et al. (2021). &quot;TSC2 Interacts with HDLBP/Vigilin and Regulates Stress Granule Formation.&quot;. *Mol Cancer Res*. PMID: 33888601 3. Lin J et al. (2025). &quot;Identification and Construction of a R-loop Mediated Diagnostic Model and Associated Immune Microenvironment of COPD through Machine Learning and Single-Cell Transcriptomics.&quot;. *Inflammation*. PMID: 39798034 4. Zinnall U et al. (2022). &quot;HDLBP binds ER-targeted mRNAs by multivalent interactions to promote protein synthesis of transmembrane and secreted proteins.&quot;. *Nat Commun*. PMID: 35585045 5. Dergunov AD et al. (2024). &quot;HDL Cholesterol-Associated Shifts in the Expression of Preselected Genes Reveal both Pro-Atherogenic and Atheroprotective Effects of HDL in Coronary Artery Disease.&quot;. *Front Biosci (Landmark Ed)*. PMID: 39614436</p>
+<h4>4. 总体评价</h4>
+<p><strong>推荐等级</strong>: ⭐ (1/5)</p>
+<p><strong>核心优势</strong>: 1. 三维结构质量好 (pLDDT 74.51, 78% 有序, 8 个 PDB 验证) 2. 结构域明确 (14×KH domain, RNA 结合)</p>
+<p><strong>风险/不确定性</strong>: 1. <strong>核定位特异性低</strong>: 主要胞质蛋白, 核功能与 mRNA 运输/代谢相关, 非染色质/DNA 调控 2. **PPI , 可考虑从 RNA biology 角度切入</p>
+<h4>5. 数据来源</h4>
+<ul><li>GeneCards: - Protein Atlas: - UniProt: https://www.uniprot.org/uniprotkb/Q00341</li><li>SMART: - humanPPI: - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q00341</li><li>STRING: https://string-db.org (API, species=9606)</li><li>InterPro: https://www.ebi.ac.uk/interpro/protein/Q00341/</li></ul>
+<h5>PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th></tr></thead><tbody>
+<tr><td>无记录</td><td>—</td><td>—</td></tr>
+</tbody></table></div>
+<p>IntAct 有限记录。无 BioGrid 补充数据。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/HDLBP/HDLBP-PAE.png</code></div></figure></p>
+<p>PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/HDLBP/HDLBP-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

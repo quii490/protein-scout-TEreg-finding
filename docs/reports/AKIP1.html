@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AKIP1 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>AKIP1</h1><div class="report-meta"><span class="badge muted">rejected</span><span class="badge">nucleoplasm</span><span class="badge">Score: 1.8</span><span class="badge">Nuclear: 3</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/AKIP1/AKIP1-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;AKIP1&quot; date: 2026-06-04 tags: [protein-scout, rescored, rescued-to-scored, critical-false-rejection] status: rescored-to-scored previous_status: scored previous_rejection_reason: nuclear_score ≤ 3 rescue_reason: &quot;HPA Nucleoplasm(Supported)+UniProt Nucleus(IDA×2)+GO-CC nucleoplasm(IDA:HPA); Function=RELA nuclear localization enhancer; nuclear_score=3 was an error despite PubMed 61 and low AF quality&quot; revised_nuclear_score: 6 ---</p>
+<h3>AKIP1 核蛋白评估报告 -- CRITICAL FALSE REJECTION RE-EVALUATION</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>AKIP1 / BCA3 / C11orf17</td></tr>
+<tr><td>蛋白大小</td><td>210 aa / 23.1 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q9NQ31</td></tr>
+<tr><td>蛋白全名</td><td>A-kinase-interacting protein 1</td></tr>
+<tr><td>HPA IF 主定位</td><td>Nucleoplasm</td></tr>
+<tr><td>HPA Reliability</td><td>Supported</td></tr>
+<tr><td>原评估状态</td><td>REJECTED (nuclear_score=3)</td></tr>
+<tr><td>重新评估日期</td><td>2026-06-04</td></tr>
+<tr><td>重新评估结果</td><td><strong>RESCUED TO SCORED</strong></td></tr>
+<tr><td>注意</td><td>此基因其他维度(Pubmed热度, AF质量)仍有局限，但核定位证据本身已达到scored标准</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览（修订后）</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>权重</th><th>加权</th><th>摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td><strong>6/10</strong></td><td>×4</td><td>24</td><td>HPA Nucleoplasm(Supported); UniProt Nucleus(IDA×2); GO-CC nucleoplasm(IDA:HPA); Function RELA nuclear transporter</td></tr>
+<tr><td>蛋白大小</td><td>5/10</td><td>×1</td><td>5</td><td>210aa/23.1kDa，极小蛋白</td></tr>
+<tr><td>研究新颖性</td><td>6/10</td><td>×5</td><td>30</td><td>PubMed strict=61 (41-60→6)</td></tr>
+<tr><td>三维结构</td><td>4/10</td><td>×3</td><td>12</td><td>pLDDT=68.2, pct&lt;50=31.0%，高比例无序</td></tr>
+<tr><td>调控结构域</td><td>4/10</td><td>×2</td><td>8</td><td>IPR033214 (AKIP1 family)，adaptor蛋白</td></tr>
+<tr><td>PPI网络</td><td>6/10</td><td>×3</td><td>18</td><td>PRKACA(实验0.51), RELA(实验0.51); NF-kB+核转运功能</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>97/180</strong></td><td></td></tr>
+<tr><td><strong>归一化总分 (÷1.8)</strong></td><td></td><td></td><td><strong>53.9/100</strong></td><td></td></tr>
+</tbody></table></div>
+<h4>3. False rejection recheck -- CRITICAL</h4>
+<p><strong>为何本次重新评估被列为CRITICAL:</strong></p>
+<p>AKIP1代表了&quot;功能本身即核定位调控&quot;的特殊类型——其已知功能是增强NF-kB亚基RELA的<strong>核定位和核保留</strong>。这意味着AKIP1蛋白必须定位于细胞核才能执行其核心功能(促进RELA的核定位和磷酸化)。尽管PubMed研究热度中等(61篇)且AlphaFold结构质量低(pLDDT 68.2)，但这些与核定位是独立维度——核定位评分不应因其他维度低而被压低。</p>
+<p><strong>逐一数据库审查:</strong></p>
+<p>1. <strong>UniProt Subcellular Location (harvest packet)</strong>:</p>
+<ul><li>Nucleus: ECO:0000269 ×2 (IDA, 两次独立实验验证)</li><li>单一核定位，无胞质注释</li><li>与其他有一定非核信号的基因不同，AKIP1的UniProt定位是纯核的</li></ul>
+<p>2. <strong>GO-CC (harvest packet)</strong>:</p>
+<ul><li>GO:0005654 nucleoplasm: IDA:HPA (实验)</li><li>单一GO-CC条目，且为核定位</li></ul>
+<p>3. <strong>HPA Subcellular (harvest packet)</strong>:</p>
+<ul><li>Main location: Nucleoplasm</li><li>Reliability: Supported</li><li>单一核定位，无附加定位</li></ul>
+<p>4. <strong>功能证据 -- 本身是核定位调控因子</strong>:</p>
+<ul><li>UniProt function: &quot;Enhances NF-kappa-B transcriptional activity by <strong>regulating the nuclear localization</strong> of the NF-kappa-B subunit RELA and promoting the phosphorylation of RELA by PRKACA&quot;</li><li>此蛋白的功能是促进另一个蛋白(RELA)的核定位——该功能预设其自身核定位</li><li>与RELA(0.757, exp=0.51 STRING)和PRKACA(0.896, exp=0.51)的实验互作在本功能框架内</li></ul>
+<p><strong>为何原核定位评分=3是错误的:</strong></p>
+<p>AKIP1拥有:</p>
+<ul><li>UniProt Nucleus IDA (两次独立实验, ECO:0000269 ×2)</li><li>GO-CC nucleoplasm IDA:HPA</li><li>HPA Nucleoplasm主定位 (Supported)</li><li><strong>零胞质/膜GO-CC或UniProt注释</strong></li><li>功能本身即为核定位调控</li></ul>
+<p>在纯核定位蛋白中，score=3是极大的低估。正确的核定位评分应≥6/10。</p>
+<p><strong>修订后核定位评分: 6/10</strong></p>
+<ul><li>HPA Nucleoplasm (Supported): 核蛋白确认</li><li>UniProt Nucleus (IDA ×2): 双实验验证</li><li>GO-CC nucleoplasm (IDA:HPA): 实验验证</li><li>纯核定位，无胞质信号</li><li>扣分项: HPA reliability为Supported而非Approved; 蛋白小且无序，可能难以特异性定位</li><li>功能预设核定位(RELA nuclear import enhancer): 加分</li></ul>
+<h4>4. 详细分析</h4>
+<h5>4.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th><th>证据代码</th></tr></thead><tbody>
+<tr><td>HPA (IF)</td><td>Nucleoplasm (main)</td><td>Supported</td><td>IF实验</td></tr>
+<tr><td>UniProt</td><td>Nucleus</td><td>IDA (×2)</td><td>ECO:0000269</td></tr>
+<tr><td>GO-CC</td><td>nucleoplasm</td><td>IDA:HPA</td><td>实验验证</td></tr>
+</tbody></table></div>
+<p>AKIP1是少数在三大数据库(HPA/UniProt/GO-CC)均为纯核定位的蛋白。HPA仅报告Nucleoplasm(main)，无additional location。UniProt双IDA证据。GO-CC仅含nucleoplasm(IDA:HPA)。其功能——促进RELA核定位和磷酸化——本身就要求AKIP1在核内执行功能。值得注意的是，RELA正是通过AKIP1被保留在核内并磷酸化以激活NF-kB靶基因转录——这一功能的分子机制要求AKIP1-RELA-PRKACA形成核内三元复合物。<strong>修订评分: 6/10</strong>。</p>
+<h5>4.2 蛋白大小评估</h5>
+<p>210 aa / 23.1 kDa。极端小的adaptor蛋白，近于ANAPC13(74aa)和AKIRIN1(192aa)之间。仅含IPR033214家族分类，无Pfam功能域。小蛋白实验操作便利。<strong>评分: 5/10</strong>。</p>
+<h5>4.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict_count</td><td>61</td></tr>
+<tr><td>PubMed symbol_only</td><td>64</td></tr>
+<tr><td>别名</td><td>BCA3, C11orf17</td></tr>
+<tr><td>主要方向</td><td>NF-kB信号、心肌重塑、胶质母细胞瘤、宫颈癌转移</td></tr>
+</tbody></table></div>
+<p>PubMed 61篇(strict)，中等研究热度。AKIP1在NF-kB信号通路(特别是RELA亚基的调控)中有系统研究，但在TE/转座子调控领域完全未被探索。NF-kB信号与内源性逆转录病毒(ERV)激活和炎症反应有已知交叉——LTR启动子驱动的ERV转录可激活cGAS-STING通路，而NF-kB是该通路的下游效应器。AKIP1作为NF-kB核定位的正调控因子，可能参与ERV激活的NF-kB响应。<strong>评分: 6/10</strong> (41-60篇)。</p>
+<p><strong>关键文献</strong>: 1. Gao N et al. (2008). &quot;AKIP1 enhances NF-kappaB-dependent gene expression by promoting the nuclear retention and phosphorylation of p65.&quot; *J Biol Chem*. PMID: 18178962 -- 核心功能 2. Nijholt KT et al. (2023). &quot;AKIP1 promotes cardiomyocyte elongation and physiological cardiac remodelling.&quot; *Sci Rep*. PMID: 36899057 3. Wan S et al. (2023). &quot;AKIP1 accelerates glioblastoma progression through stabilizing EGFR expression.&quot; *Oncogene*. PMID: 37596322 4. Yulia A et al. (2021). &quot;PKA and AKIP1 interact to mediate cAMP-driven COX-2 expression.&quot; *PLoS One*. PMID: 34166397 5. Zhang X et al. (2020). &quot;AKIP1 promotes EMT and metastasis via PI3K/Akt/IKKβ pathway in cervical cancer.&quot; *Cell Biochem Funct*. PMID: 32401379</p>
+<h5>4.4 三维结构分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold 平均 pLDDT</td><td>68.2</td></tr>
+<tr><td>pLDDT &gt; 90 (Very High)</td><td>26.2%</td></tr>
+<tr><td>pLDDT 70-90 (High)</td><td>21.4%</td></tr>
+<tr><td>pLDDT 50-70 (Medium)</td><td>21.4%</td></tr>
+<tr><td>pLDDT &lt; 50 (Low)</td><td>31.0%</td></tr>
+<tr><td>有序区域 (pLDDT&gt;70)</td><td>47.6%</td></tr>
+<tr><td>实验结构 (PDB)</td><td>无</td></tr>
+</tbody></table></div>
+<p>AlphaFold低质量预测，31%残基无序。作为adaptor蛋白，高比例无序区域(IDR)可能具有功能性——无序区域常在多蛋白互作中提供柔性结合界面。类似CREB binding protein和p53的N端无序区通过诱导折叠(indued folding)与不同伴侣结合。但无PDB实验结构限制了结构生物学应用。<strong>评分: 4/10</strong>。</p>
+<p>PAE图像未生成本地文件。</p>
+<h5>4.5 结构域分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>结构域</th></tr></thead><tbody>
+<tr><td>InterPro</td><td>IPR033214 (A-kinase-interacting protein 1 family)</td></tr>
+<tr><td>Pfam</td><td>无</td></tr>
+</tbody></table></div>
+<p>无已知功能域。作为PKA(PKRACA)和NF-kB(RELA)之间的桥接adaptor，AKIP1通过蛋白-蛋白互作将cAMP信号传导至NF-kB转录激活。<strong>与TE调控的潜在关联</strong>: NF-kB通路在ERV去抑制和炎症中起核心作用——ERV的LTR启动子在衰老和癌症中被去甲基化后，可通过cGAS-STING-TBK1-IKK-NF-kB轴驱动炎症基因表达。AKIP1作为RELA核保留的正调控因子，可能在该通路中放大NF-kB对ERV激活的响应，从而影响TE驱动的炎症。<strong>评分: 4/10</strong>。</p>
+<h5>4.6 PPI 网络</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Combined Score</th><th>Experimental</th><th>功能</th></tr></thead><tbody>
+<tr><td>PRKACA</td><td>0.896</td><td>0.51</td><td>PKA催化亚基(cAMP信号)</td></tr>
+<tr><td>PRKACB</td><td>0.796</td><td>0</td><td>PKA催化亚基β</td></tr>
+<tr><td>RELA</td><td>0.757</td><td>0.51</td><td>NF-kB p65亚基(转录因子)</td></tr>
+<tr><td>SIRT1</td><td>0.585</td><td>0.292</td><td>去乙酰化酶(老化/代谢)</td></tr>
+</tbody></table></div>
+<p><strong>IntAct实验互作</strong>: PRKACA(Y2H, PMID:15630084), FHL2(Y2H array), RNF2(co-IP, PMID:26496610), CNOT2(co-IP), LNX1(holdup assay, direct interaction, PMID:36115835), NOS1(holdup assay, direct interaction), POC1B(co-IP, PMID:33961781), TNFRSF1B(co-IP)</p>
+<p>PPI以PRKACA(0.51实验)和RELA(0.51实验)为核心，直接关联cAMP-PKA-NF-kB信号轴。LNX1(ligand of numb-protein X1, E3泛素连接酶)的直接互作(holdup assay)尤其有趣——LNX1通过泛素化调控NOTCH和NUMB信号，可能在核内通过降解AKIP1调控NF-kB活性。<strong>评分: 6/10</strong> (因PRKACA+RELA双实验确认且生物学功能明确)。</p>
+<h4>5. Rescue Decision</h4>
+<p><strong>决策: RESCUED TO SCORED</strong></p>
+<p><strong>核定位评分修正</strong>: 从3/10 → 6/10。修正依据: 1. HPA Nucleoplasm (Supported) 纯核定位 2. UniProt Nucleus (IDA ×2) 双实验验证 3. GO-CC nucleoplasm (IDA:HPA) 单一纯核GO-CC 4. 零胞质/膜注释，纯核定位蛋白 5. 功能本身为核定位调控 (RELA nuclear retention enhancer)</p>
+<p><strong>修正后加权总分</strong>: 97/180 (53.9/100)。总分相对较低(主要因为PubMed热度+低AF质量)，但这反映了各维度独立评分的原则——核定位评分应在其自身维度公正评估。</p>
+<p><strong>AKIP1应进入scored蛋白列表，但需注意其局限性</strong>: 蛋白小(210aa)、高度无序(31% pLDDT&lt;50)、PubMed热度中等(61篇)。其核心吸引力在于: (1) 纯核定位; (2) NF-kB信号通路的直接核调控因子; (3) NF-kB-ERV激活的潜在交叉点。在scored列表中，可根据实验优先级综合考虑。</p>
+<h4>6. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9NQ31</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9NQ31</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=AKIP1%5BTitle/Abstract%5D</li><li>HPA: https://www.proteinatlas.org/ENSG00000166452-AKIP1</li><li>STRING: https://string-db.org/network/9606.ENSP00000362598</li><li>IntAct: https://www.ebi.ac.uk/intact/interactors/id:Q9NQ31</li><li>Harvest packet: /Users/quii/Desktop/projects/TE-regulated proteins finding/protein_data/harvest_packets/AKIP1.json (2026-06-03)</li></ul>
+<p>HPA IF图像可在线获取(Supported, Nucleoplasm, 多细胞系)，未下载本地。PAE未生成本地。</p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

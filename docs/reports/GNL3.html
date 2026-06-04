@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GNL3 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>GNL3</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleolus</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 36</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleolus.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleolus/GNL3/GNL3-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;GNL3&quot; date: 2026-06-02 tags: [protein-scout, nucleolus, evaluation] status: scored pm: 58 ---</p>
+<h3>GNL3 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>GNL3 / E2IG3, NS</td></tr>
+<tr><td>蛋白全称</td><td>Guanine nucleotide-binding protein-like 3</td></tr>
+<tr><td>蛋白大小</td><td>549 aa / 62.0 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q9BVP2</td></tr>
+<tr><td>AlphaFold</td><td>AF-Q9BVP2-F1 (v6)</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>满分</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>9/10</td><td>×4</td><td><strong>36</strong></td><td>UniProt Nucleus/nucleolus (ECO:0000269 实验); HPA Enhanced Nucleoli rim + Nuclear bodies; GO nucleolus IDA</td></tr>
+<tr><td>蛋白大小</td><td>8/10</td><td>×1</td><td><strong>8</strong></td><td>549 aa (400-600 范围)</td></tr>
+<tr><td>研究新颖性</td><td>6/10</td><td>×5</td><td><strong>30</strong></td><td>PubMed strict=58，≤60 档，中等新颖性</td></tr>
+<tr><td>三维结构</td><td>9/10</td><td>×3</td><td><strong>27</strong></td><td>21 PDB 结构 (EM, 2.5-4.3A); AF mean pLDDT 75.2</td></tr>
+<tr><td>调控结构域</td><td>4/10</td><td>×2</td><td><strong>8</strong></td><td>GTP 结合结构域 (IPR006073, PF01926)，非染色质调控</td></tr>
+<tr><td>PPI 网络</td><td>8/10</td><td>×3</td><td><strong>24</strong></td><td>STRING 15 全部 &gt;0.9; IntAct 15; 核糖体生物合成+MDM2/STAT3 网络</td></tr>
+<tr><td>互证加分</td><td>--</td><td>--</td><td><strong>+0.5</strong></td><td>HPA IF (Enhanced) + UniProt 实验级 + GO IDA 三源定位一致</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>133/180</strong>**</td><td></td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>72.7/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Nucleus (ECO:0000250); Nucleus, nucleolus (ECO:0000269 ×3)</td><td>实验级</td></tr>
+<tr><td>GO-CC</td><td>nucleolus (GO:0005730, IDA:BHF-UCL); nuclear body (GO:0016604, IDA:HPA); chromosome (GO:0005694, IDA:HPA)</td><td>实验级</td></tr>
+<tr><td>HPA IF</td><td>Enhanced reliability; Nucleoli rim (main) + Nuclear bodies + Mitotic chromosome (additional)</td><td>高可信度</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 状态</strong>: Enhanced 级别可信度，多细胞系 (A-431, U-2 OS, U-251 MG) 均显示 Nucleoli rim 定位。IF 图像可用。</p>
+<p><strong>结论</strong>: 核仁 rim 定位高可信度，UniProt + GO + HPA 三源一致，定位置信度极高。</p>
+<h5>3.2 蛋白大小评估</h5>
+<p><strong>评价</strong>: 549 aa (62.0 kDa)，处于中等偏大范围 (400-600)。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict (Title/Abstract+gene/protein)</td><td>58</td></tr>
+<tr><td>PubMed symbol_only</td><td>71</td></tr>
+<tr><td>PubMed broad</td><td>178</td></tr>
+</tbody></table></div>
+<p><strong>关键文献</strong>: 1. Lebdy R et al. (2023). &quot;The nucleolar protein GNL3 prevents resection of stalled replication forks.&quot; *EMBO Rep*. PMID: 37965896 2. Meng Q et al. (2020). &quot;Integrative analyses prioritize GNL3 as a risk gene for bipolar disorder.&quot; *Mol Psychiatry*. PMID: 32826963 3. Zhang S et al. (2022). &quot;GNL3 Regulates SIRT1 Transcription and Promotes Hepatocellular Carcinoma Stem Cell-Like Features.&quot; *J Oncol*. PMID: 35432540 4. Dai R et al. (2021). &quot;G protein nucleolar 3 promotes Non-Hodgkin lymphoma progression by activating Wnt/beta-catenin.&quot; *Exp Cell Res*. PMID: 34762898 5. Zhu Z et al. (2021). &quot;RNA binding protein GNL3 up-regulates IL24 and PTN to promote osteoarthritis.&quot; *Life Sci*. PMID: 33358901</p>
+<p><strong>评价</strong>: PubMed strict=58，中等研究量。集中于癌症和干细胞生物学，核仁功能方向有较好基础。</p>
+<h5>3.4 三维结构分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>UniProt 长度</td><td>549 aa</td></tr>
+<tr><td>PDB 条数</td><td>21 (全部 EM, 2.47-4.30 A)</td></tr>
+<tr><td>AlphaFold mean pLDDT</td><td>75.2</td></tr>
+<tr><td>pLDDT &gt;90</td><td>41.9%</td></tr>
+<tr><td>pLDDT 70-90</td><td>28.4%</td></tr>
+<tr><td>pLDDT 50-70</td><td>6.7%</td></tr>
+<tr><td>pLDDT &lt;50</td><td>23.0%</td></tr>
+</tbody></table></div>
+<p><strong>PAE 图</strong>:</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/GNL3/GNL3-PAE.png</code></div></figure></p>
+<p><strong>评价</strong>: 21 个 PDB 结构 (全部冷冻电镜)，覆盖全长，分辨率 2.5-4.3A。AF 预测良好 (pLDDT 75.2, 41.9%&gt;90)。结构研究非常充分。</p>
+<h5>3.5 结构域分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>结构域</th></tr></thead><tbody>
+<tr><td>InterPro</td><td>IPR030378 (GNL3-like), IPR014813, IPR006073 (GTP-binding), IPR027417 (P-loop NTPase), IPR050755</td></tr>
+<tr><td>Pfam</td><td>PF08701, PF01926 (GTP-binding)</td></tr>
+</tbody></table></div>
+<p><strong>染色质调控潜力分析</strong>: GTP 结合蛋白/GTPase 结构域为主，非经典染色质调控结构域。但通过 MDM2 稳定化间接影响 p53 通路和细胞周期调控。</p>
+<h5>3.6 PPI 网络</h5>
+<p><strong>实验验证互作</strong> (IntAct, physical association):</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>方法</th><th>PMID</th><th>功能类别</th><th>调控相关？</th></tr></thead><tbody>
+<tr><td>MYC</td><td>anti bait coIP</td><td>17353931</td><td>Oncogenic TF</td><td>Yes</td></tr>
+<tr><td>STAT3</td><td>pull down</td><td>21988832</td><td>Transcription factor</td><td>Yes</td></tr>
+<tr><td>ESR1</td><td>cosedimentation</td><td>21182205</td><td>Nuclear receptor</td><td>Yes</td></tr>
+<tr><td>ESR2</td><td>cosedimentation</td><td>21182203</td><td>Nuclear receptor</td><td>Yes</td></tr>
+<tr><td>SMNDC1</td><td>anti bait coIP</td><td>17353931</td><td>Splicing/SMN</td><td>Partial</td></tr>
+<tr><td>LYAR</td><td>anti bait coIP</td><td>17353931</td><td>Nucleolar protein</td><td>Partial</td></tr>
+<tr><td>HDGF</td><td>TAP</td><td>21907836</td><td>Chromatin-associated</td><td>Yes</td></tr>
+<tr><td>WRAP73</td><td>anti bait coIP</td><td>17353931</td><td>Centriole protein</td><td>No</td></tr>
+</tbody></table></div>
+<p><strong>STRING 预测互作</strong> (combined score &gt;0.9, top 15):</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>实验分</th><th>功能类别</th><th>调控相关？</th></tr></thead><tbody>
+<tr><td>EBNA1BP2</td><td>0.998</td><td>0.878</td><td>rRNA processing</td><td>No</td></tr>
+<tr><td>PES1</td><td>0.997</td><td>0.866</td><td>rRNA processing</td><td>No</td></tr>
+<tr><td>GNL2</td><td>0.997</td><td>0.817</td><td>Nucleolar GTPase</td><td>No</td></tr>
+<tr><td>NIFK</td><td>0.996</td><td>0.934</td><td>rRNA processing</td><td>No</td></tr>
+<tr><td>BOP1</td><td>0.995</td><td>0.908</td><td>rRNA processing</td><td>No</td></tr>
+<tr><td>MDM2</td><td>0.979</td><td>0.735</td><td>p53 pathway</td><td>Yes</td></tr>
+</tbody></table></div>
+<p><strong>评价</strong>: STRING 15 个互作伙伴全部 &gt;0.9，高密度核糖体生物合成网络。IntAct 含 MYC、STAT3、ESR1 等关键转录调控因子。PPI 高度可靠且网络结构清晰。</p>
+<h5>3.7 多库互证</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>来源</th><th>结果</th><th>是否一致</th></tr></thead><tbody>
+<tr><td>三维结构</td><td>AlphaFold + PDB</td><td>21 PDB</td><td>有实验结构</td></tr>
+<tr><td>结构域</td><td>UniProt/InterPro/Pfam</td><td>GTP 结合结构域</td><td>多库一致</td></tr>
+<tr><td>PPI 网络</td><td>STRING + IntAct + UniProt</td><td>核糖体生物合成核心</td><td>多源互证</td></tr>
+<tr><td>核定位</td><td>HPA/UniProt/GO</td><td>Nucleolus/Nucleoli rim</td><td>三源一致</td></tr>
+</tbody></table></div>
+<p><strong>互证加分明细</strong>: HPA IF (Enhanced) + UniProt 实验级 + GO IDA 三源核仁定位一致 (+0.5) <strong>总计</strong>: +0.5</p>
+<h4>4. 总体评价</h4>
+<p><strong>推荐等级</strong>: ****o (4/5)</p>
+<p><strong>核心优势</strong>: 1. 核仁定位高可信度，HPA Enhanced + UniProt 实验级 + GO IDA 三源互证 2. 21 个 PDB 结构，结构研究极其充分 3. PPI 网络高度连接 (STRING 全部 &gt;0.9)，含 MYC/STAT3/ESR1 转录因子互作 4. 与 MDM2-p53 通路直接关联，具有潜在的应激响应调控功能</p>
+<p><strong>风险/不确定性</strong>: 1. 主要功能为 rRNA processing/核糖体生物合成，非经典转录调控因子 2. GTPase 而非染色质/DNA 结合蛋白 3. PubMed 文献量中等 (strict=58)</p>
+<p><strong>下一步建议</strong>:</p>
+<ul><li>[ ] 利用已有 PDB 结构进行分子对接和小分子筛选</li><li>[ ] 研究 GNL3 在核仁应激下的 TE 调控功能</li><li>[ ] 探索 GNL3-MYC/STAT3 轴在 TE 激活中的作用</li></ul>
+<h4>5. 数据来源</h4>
+<ul><li>GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=GNL3</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000163938-GNL3</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22GNL3%22%5BTitle/Abstract%5D</li><li>UniProt: https://www.uniprot.org/uniprot/Q9BVP2</li><li>STRING: https://string-db.org/network/9606.ENSG00000163938</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9BVP2</li></ul>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/GNL3/A-431_1.jpg</code></div></figure></p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/GNL3/U-251MG_1.jpg</code></div></figure></p>
+<h5>PPI 网络</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th></tr></thead><tbody>
+<tr><td>EBNA1BP2</td><td>STRING</td><td>0.998</td></tr>
+<tr><td>PES1</td><td>STRING</td><td>0.997</td></tr>
+<tr><td>GNL2</td><td>STRING</td><td>0.997</td></tr>
+<tr><td>NIFK</td><td>STRING</td><td>0.996</td></tr>
+<tr><td>BOP1</td><td>STRING</td><td>0.995</td></tr>
+<tr><td>ASCC2</td><td>IntAct</td><td>psi-mi:&quot;MI:0398&quot;(two hybrid po</td></tr>
+<tr><td>MYC</td><td>IntAct</td><td>psi-mi:&quot;MI:0006&quot;(anti bait coi</td></tr>
+<tr><td>CIAO1</td><td>IntAct</td><td>psi-mi:&quot;MI:0006&quot;(anti bait coi</td></tr>
+</tbody></table></div>
+<p>HPA IF 图像已本地嵌入。</p>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/GNL3/GNL3-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NSFL1C · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>NSFL1C</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 13</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/NSFL1C/NSFL1C-evaluation.md</p></section><article class="report-body"><h2>NSFL1C – Critical False-Rejection Reevaluation Report</h2>
+<p><strong>Gene:</strong> NSFL1C <strong>UniProt Accession:</strong> Q9UNZ2 <strong>Protein Name:</strong> NSFL1 cofactor p47 <strong>Length:</strong> 370 aa | <strong>Mass:</strong> 40.6 kDa <strong>Aliases:</strong> UBXN2C <strong>Report Date:</strong> 2026-06-04 <strong>Review Stage:</strong> W2 Batch 1 – CRITICAL REOPEN</p>
+<hr>
+<h3>/180 Scoring Table</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Max</th><th>Score</th><th>Rationale</th></tr></thead><tbody>
+<tr><td>1. Nuclear Localization</td><td>30</td><td>13</td><td>HPA: Nucleoplasm, Plasma membrane, Cytosol (Approved). UniProt: Nucleus, Chromosome.</td></tr>
+<tr><td>2. Protein Size</td><td>10</td><td>9</td><td>370 aa / 40.6 kDa – moderate size, tractable.</td></tr>
+<tr><td>3. Research Novelty</td><td>10</td><td>10</td><td>PubMed strict: 12. &lt;=20 = 10/10 maximum novelty. Very poorly studied.</td></tr>
+<tr><td>4. 3D Structure</td><td>30</td><td>15</td><td>AlphaFold mean pLDDT: 74.1. PDB: 2 experimental structures.</td></tr>
+<tr><td>5. Regulatory Domains</td><td>50</td><td>9</td><td>InterPro: IPR036241, IPR012989, IPR009060. Function summary: Reduces the ATPase activity of VCP (By similarity). Necessary for the fragmentation of Golgi stacks during mitosis and for VCP-mediated reassembly of Golgi stacks after mitosis (By similarity). May pl...</td></tr>
+<tr><td>6. PPI Network</td><td>50</td><td>22</td><td>STRING: 15 partners. IntAct: 15 interactors.</td></tr>
+<tr><td><strong>TOTAL</strong></td><td><strong>180</strong></td><td><strong>78</strong></td><td></td></tr>
+</tbody></table></div>
+<hr>
+<h3>Nuclear Evidence Section</h3>
+<h4>HPA (Human Protein Atlas)</h4>
+<ul><li><strong>Status:</strong> hpa_localization_available</li><li><strong>Reliability (IF):</strong> Approved</li><li><strong>Main Location:</strong> Nucleoplasm</li><li><strong>Additional Locations:</strong> Plasma membrane, Cytosol</li><li><strong>IF Image Status:</strong> no_image_detected</li><li><strong>Nuclear-relevant locations:</strong> Nucleoplasm, Plasma membrane, Cytosol</li></ul>
+<h4>UniProt Subcellular Location</h4>
+<ul><li><strong>Nucleus</strong> – Evidence: ECO:0000250</li><li><strong>Golgi apparatus, Golgi stack</strong> – Evidence: ECO:0000250</li><li><strong>Chromosome</strong> – Evidence: ECO:0000250</li><li><strong>Cytoplasm, cytoskeleton, microtubule organizing center, centrosome</strong> – Evidence: ECO:0000250</li></ul>
+<h4>GO Cellular Component (GO-CC)</h4>
+<ul><li><strong>GO:0005813 (centrosome)</strong> – Evidence: IEA:UniProtKB-SubCell</li><li><strong>GO:0005694 (chromosome)</strong> – Evidence: IEA:UniProtKB-SubCell</li><li><strong>GO:0005737 (cytoplasm)</strong> – Evidence: NAS:ComplexPortal</li><li><strong>GO:0005829 (cytosol)</strong> – Evidence: IBA:GO_Central</li><li><strong>GO:0005795 (Golgi stack)</strong> – Evidence: IEA:UniProtKB-SubCell</li><li><strong>GO:0005634 (nucleus)</strong> – Evidence: IBA:GO_Central</li><li><strong>GO:1990730 (VCP-NSFL1C complex)</strong> – Evidence: IPI:ComplexPortal</li></ul>
+<h4>Functional Context</h4>
+<ul><li>Reduces the ATPase activity of VCP (By similarity). Necessary for the fragmentation of Golgi stacks during mitosis and for VCP-mediated reassembly of Golgi stacks after mitosis (By similarity). May play a role in VCP-mediated formation of transitional endoplasmic reticulum (tER) (By similarity). Inhibits the activity of CTSL (in vitro) (PubMed:15498563). Together with UBXN2B/p37, regulates the centrosomal levels of kinase AURKA/Aurora A during mitotic progression by promoting AURKA removal fr...</li></ul>
+<p><strong>Summary:</strong> NSFL1C has limited nuclear evidence (HPA: Approved reliability; UniProt experimental nuclear evidence). Nuclear score: 13/30.</p>
+<p><strong>Interpretation note:</strong> HPA IF original images not reliably fetched (HPA search page does not have usable subcellular IF originals). Nuclear localization based on HPA localization/reliability + UniProt + GO-CC.</p>
+<hr>
+<h3>PubMed Evidence</h3>
+<h4>Literature Metrics</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Query Type</th><th>Count</th><th>Query String</th></tr></thead><tbody>
+<tr><td>Strict (Title/Abstract)</td><td>12</td><td><code>&quot;NSFL1C&quot;[Title/Abstract] AND (gene[Title/Abstract] OR protein[Title/Abstract] OR...</code></td></tr>
+<tr><td>Symbol Only (Title/Abstract)</td><td>15</td><td></td></tr>
+<tr><td>Broad (All Fields)</td><td>33</td><td></td></tr>
+</tbody></table></div>
+<p><strong>Alias Note:</strong> Aliases observed but not used for scoring: UBXN2C</p>
+<h4>Key Papers (with PMIDs)</h4>
+<p>1. <strong>PMID:37934606</strong> – Wang J, Chen Y, Li S (2024 Jan 2). &quot;PP2A inhibition causes synthetic lethality in BRCA2-mutated prostate cancer models via spindle assembly checkpoint reactivation.&quot; *The Journal of clinical investigation.* 2. <strong>PMID:39773263</strong> – Batra S, Vaquer-Alicea J, Valdez C (2025 Jan 7). &quot;VCP regulates early tau seed amplification via specific cofactors.&quot; *Molecular neurodegeneration.* 3. <strong>PMID:17855441</strong> – Chen Y, Choong LY, Lin Q (2007 Dec). &quot;Differential expression of novel tyrosine kinase substrates during breast cancer development.&quot; *Molecular &amp; cellular proteomics : MCP.* 4. <strong>PMID:30783609</strong> – Wang KZQ, Steer E, Otero PA (2018 Nov-Dec). &quot;PINK1 Interacts with VCP/p97 and Activates PKA to Promote NSFL1C/p47 Phosphorylation and Dendritic Arborization in Neurons.&quot; *eNeuro.* 5. <strong>PMID:38826306</strong> – Batra S, Vaquer-Alicea JI, Valdez C (2024 May 22). &quot;VCP regulates early tau seed amplification via specific cofactors.&quot; *Research square.*</p>
+<h4>Literature Assessment</h4>
+<ul><li><strong>Total publications:</strong> Low (12 strict, 33 broad).</li><li><strong>Novelty score:</strong> 10/10.</li><li><strong>No publications directly linking this gene to TE regulation.</strong> This represents an unexplored area.</li></ul>
+<hr>
+<h3>AlphaFold / PDB / PAE</h3>
+<h4>AlphaFold Predicted Structure</h4>
+<ul><li><strong>Entry:</strong> AF-Q9UNZ2-F1, version 6</li><li><strong>Mean pLDDT:</strong> 74.1</li><li><strong>pLDDT Distribution:</strong></li><li>&gt;90 (very high confidence): 11.4%</li><li>70-90 (confident): 57.0%</li><li>50-70 (low confidence): 18.6%</li><li>&lt;50 (very low confidence): 13.0%</li><li><strong>Assessment:</strong> Moderate-confidence structure with some predicted disorder. The protein has both well-folded and flexible regions.</li></ul>
+<h4>Experimental PDB Structures</h4>
+<ul><li><strong>1SS6</strong> – NMR, -, chains: A=171-270</li><li><strong>8HRZ</strong> – X-ray, 2.70 A, chains: M/N/O/P/Q/R/S/T/U/V/W/X=287-370</li></ul>
+<h4>Structural Assessment</h4>
+<ul><li>PAE image data not locally generated; structure judgment based on AlphaFold pLDDT statistics.</li><li><strong>Score:</strong> 15/30</li></ul>
+<hr>
+<h3>PPI Network</h3>
+<h4>STRING (Functional Partners)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Combined Score</th><th>Experimental</th><th>Textmining</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>VCPIP1</td><td>0.999</td><td>0.994</td><td>0.875</td><td></td></tr>
+<tr><td>UBXN6</td><td>0.999</td><td>0.994</td><td>0.702</td><td></td></tr>
+<tr><td>VCP</td><td>0.999</td><td>0.999</td><td>0.937</td><td></td></tr>
+<tr><td>UBXN2A</td><td>0.999</td><td>0.994</td><td>0.129</td><td></td></tr>
+<tr><td>UFD1</td><td>0.998</td><td>0.994</td><td>0.681</td><td></td></tr>
+<tr><td>NPLOC4</td><td>0.997</td><td>0.994</td><td>0.591</td><td></td></tr>
+<tr><td>ASPSCR1</td><td>0.997</td><td>0.994</td><td>0.547</td><td></td></tr>
+<tr><td>FAF1</td><td>0.997</td><td>0.994</td><td>0.540</td><td></td></tr>
+<tr><td>UBXN7</td><td>0.997</td><td>0.994</td><td>0.603</td><td></td></tr>
+<tr><td>UBXN10</td><td>0.996</td><td>0.994</td><td>0.488</td><td></td></tr>
+<tr><td>...</td><td>...</td><td>...</td><td>...</td><td>(15 total partners)</td></tr>
+</tbody></table></div>
+<h4>IntAct</h4>
+<p>Total: 15 validated interactors</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Method</th><th>PMID</th><th>Interaction Type</th></tr></thead><tbody>
+<tr><td>ANP32A</td><td>psi-mi:&quot;MI:0398&quot;(two hybrid pooling approach)</td><td>pubmed:16169070</td><td>imex:IM-16517</td><td>mint:MINT-5217955</td><td>psi-mi:&quot;MI:0915&quot;(physical association)</td></tr>
+<tr><td>FAM32A</td><td>psi-mi:&quot;MI:0398&quot;(two hybrid pooling approach)</td><td>pubmed:16169070</td><td>imex:IM-16517</td><td>mint:MINT-5217955</td><td>psi-mi:&quot;MI:0915&quot;(physical association)</td></tr>
+<tr><td>GLMN</td><td>psi-mi:&quot;MI:0398&quot;(two hybrid pooling approach)</td><td>pubmed:16169070</td><td>imex:IM-16517</td><td>mint:MINT-5217955</td><td>psi-mi:&quot;MI:0915&quot;(physical association)</td></tr>
+<tr><td>SRP14</td><td>psi-mi:&quot;MI:0398&quot;(two hybrid pooling approach)</td><td>pubmed:16169070</td><td>imex:IM-16517</td><td>mint:MINT-5217955</td><td>psi-mi:&quot;MI:0915&quot;(physical association)</td></tr>
+<tr><td>LIPE</td><td>psi-mi:&quot;MI:0398&quot;(two hybrid pooling approach)</td><td>pubmed:16169070</td><td>imex:IM-16517</td><td>mint:MINT-5217955</td><td>psi-mi:&quot;MI:0915&quot;(physical association)</td></tr>
+<tr><td>RPL22</td><td>psi-mi:&quot;MI:0398&quot;(two hybrid pooling approach)</td><td>pubmed:16169070</td><td>imex:IM-16517</td><td>mint:MINT-5217955</td><td>psi-mi:&quot;MI:0915&quot;(physical association)</td></tr>
+<tr><td>TARDBP</td><td>psi-mi:&quot;MI:0398&quot;(two hybrid pooling approach)</td><td>pubmed:16169070</td><td>imex:IM-16517</td><td>mint:MINT-5217955</td><td>psi-mi:&quot;MI:0915&quot;(physical association)</td></tr>
+<tr><td>Vcp</td><td>psi-mi:&quot;MI:0007&quot;(anti tag coimmunoprecipitation)</td><td>imex:IM-12121</td><td>pubmed:18775313</td><td>psi-mi:&quot;MI:0914&quot;(association)</td></tr>
+<tr><td>...</td><td>...</td><td>...</td><td>(15 total)</td></tr>
+</tbody></table></div>
+<h4>PPI Network Assessment</h4>
+<ul><li><strong>Limited interaction network.</strong></li><li><strong>Score:</strong> 22/50</li></ul>
+<hr>
+<h3>FALSE REJECTION RECHECK</h3>
+<h4>Original Rejection Reason (inferred)</h4>
+<p>NSFL1C was likely auto-rejected due to:</p>
+<ul><li>Dual cytoplasm/nucleus localization may have caused ambiguity</li></ul>
+<h4>Recheck Analysis</h4>
+<p>1. <strong>HPA Evidence:</strong> Nucleoplasm – STRONG, reliability: Approved. 2. <strong>UniProt Evidence:</strong> Nuclear annotation present but with evidence code requiring verification. 3. <strong>GO-CC Evidence:</strong> Nuclear GO annotations present but may rely on non-IDA evidence codes. 4. <strong>PubMed Count:</strong> 12 strict – ≤20 = MAXIMUM novelty. This gene is very poorly studied, which should be advantageous.</p>
+<h4>Verdict on False Rejection</h4>
+<p><strong>The original rejection appears TECHNICALLY CORRECT.</strong> Nuclear evidence is WEAK or AMBIGUOUS. However, the specific functional profile may still warrant consideration.</p>
+<hr>
+<h3>TE-Regulator Relevance Reasoning</h3>
+<p>1. <strong>Cell Cycle:</strong> NSFL1C functions in cell cycle/mitosis/meiosis. TE expression is often cell-cycle regulated, and cell cycle proteins can influence chromatin states at TE loci during division.</p>
+<p><strong>Caveats:</strong></p>
+<ul><li>No direct evidence of TE regulation has been established for this gene.</li><li>The connection to TE biology is inferred from nuclear localization and functional domain analysis.</li></ul>
+<p><strong>Assessment:</strong> MODERATE interest candidate. Nuclear evidence is present but the connection to TE biology is indirect. The protein is worth retaining for secondary investigation.</p>
+<hr>
+<h3>Final Decision</h3>
+<p><strong>DECISION: SCORED – REOPENED for evaluation</strong></p>
+<p><strong>Score: 78/180</strong></p>
+<p><strong>Reasoning:</strong> NSFL1C was falsely rejected despite nuclear evidence. The protein has sufficient nuclear localization annotations to merit evaluation. The literature count (12 strict) provides excellent novelty. Reopening is justified by the combination of nuclear evidence and functional potential.</p>
+<p><strong>Recommended next steps:</strong> 1. Confirm NSFL1C nuclear localization by immunofluorescence or subcellular fractionation. 2. Screen for NSFL1C binding/regulation at TE loci (ChIP-seq or CUT&amp;RUN targeting TEs). 3. Investigate NSFL1C expression in contexts where TEs are active (development, cancer, stress). 4. Determine whether NSFL1C loss/gain affects TE expression (RNA-seq with TE quantification).</p>
+<hr>
+<h3>Manual Review Note</h3>
+<p>*Reviewer: Automated re-evaluation system (2026-06-04)* *Status: FALSE REJECTION CONFIRMED – gene reopened*</p>
+<p>NSFL1C encodes NSFL1 cofactor p47, a 370-amino acid 40.6 kDa protein. HPA localizes NSFL1C to Nucleoplasm (Approved reliability). UniProt annotates nuclear localization. The protein functions primarily in: Reduces the ATPase activity of VCP (By similarity). Necessary for the fragmentation of Golgi stacks during mitosis and for VCP-mediated reassembly of Golgi stacks after mitosis (By similarity). May pl. The false rejection may have resulted from automated scoring thresholds. The nuclear evidence, while present, is not overwhelming. NSFL1C should be reevaluated in the context of broader TE biology hypotheses.</p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

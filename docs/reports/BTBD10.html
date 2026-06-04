@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BTBD10 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>BTBD10</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 17</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/BTBD10/BTBD10-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;BTBD10&quot; date: 2026-05-31 tags: [protein-scout, nucleoplasm, evaluation] status: scored ---</p>
+<h3>BTBD10 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名</td><td>BTBD10</td></tr>
+<tr><td>UniProt ID</td><td>Q9BSF8</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>新权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>8/10</td><td>×4</td><td>32.0</td><td>UniProt Nucleus ECO:0000269; GO fibrillar center IDA:HPA + nucleoplasm IDA:HPA</td></tr>
+<tr><td>蛋白大小</td><td>6/10</td><td>×1</td><td>6.0</td><td>~480 aa</td></tr>
+<tr><td>研究新颖性</td><td>10/10</td><td>×5</td><td>50.0</td><td>PubMed strict=17, broad=22</td></tr>
+<tr><td>三维结构</td><td>5/10</td><td>×3</td><td>15.0</td><td>AlphaFold pLDDT 68.9</td></tr>
+<tr><td>调控结构域</td><td>5/10</td><td>×2</td><td>10.0</td><td>BTB/POZ domain + BACK</td></tr>
+<tr><td>PPI 网络</td><td>5/10</td><td>×3</td><td>15.0</td><td>STRING/IntAct multiple partners</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>128/180</strong>********</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+1.5</td><td>Nucleoplasm + fibrillar center IDA:HPA; experimental nucleus</td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>69.9/100</strong>********</td><td></td></tr>
+</tbody></table></div>
+<h4>3. 核定位证据</h4>
+<p>UniProt Nucleus ECO:0000269 + Cytoplasm ECO:0000250. GO fibrillar center IDA:HPA + nucleoplasm IDA:HPA. Subnuclear localization to fibrillar center (nucleolar component). Strong direct experimental evidence.</p>
+<p><strong>HPA IF 状态</strong>: IF thumbnail only — HPA 暂无 IF 原图，仅获取到 60x60 缩略图，不能作为可靠定位证据。核定位基于 UniProt + GO-CC。 <figure><div class="missing-image">Missing local image: <code>../assets/report-images/BTBD10/BTBD10_IF_46777.jpg</code></div></figure></p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/BTBD10/BTBD10-PAE.png</code></div></figure></p>
+<p>PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。</p>
+<h5>PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>CUL3</td><td>STRING</td><td>score=0.716, exp=0.604</td><td>BTB-CUL3 E3 ligase adaptor; also in IntAct (two hybrid) + UniProt (6 experiments)</td></tr>
+<tr><td>TNFAIP1</td><td>STRING</td><td>score=0.650, exp=0</td><td>BTB family co-expression</td></tr>
+<tr><td>KCTD19</td><td>STRING</td><td>score=0.641, exp=0</td><td>BTB domain family</td></tr>
+<tr><td>BUB3</td><td>IntAct</td><td>anti tag coIP</td><td>Mitotic checkpoint; also STRING exp=0.552</td></tr>
+<tr><td>DLG5</td><td>IntAct</td><td>two hybrid pooling</td><td>Scaffold protein</td></tr>
+<tr><td>ACIN1</td><td>IntAct</td><td>two hybrid pooling</td><td>Apoptotic chromatin condensation inducer</td></tr>
+</tbody></table></div>
+<p><strong>IntAct 数据</strong>: CUL3, BUB3, DLG5, ACIN1, LAMA5, PPP1CA, FOS, FMR1, Taf15, DUSP16 等多条互作记录，涵盖 two hybrid、coIP、BioID 等方法。无 BioGrid 补充数据。UniProt 记载 CUL3（6 个实验）互作。</p>
+<h4>4. 总体评价</h4>
+<p>BTBD10 — BTB/POZ domain protein. Fibrillar center + nucleoplasm IDA:HPA is strong subnuclear evidence. Good nucleoplasm candidate. PubMed strict=17 (&lt;20) 确认高新颖性。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/BTBD10/BTBD10_IF_thumb_if_selected_60x60.jpg</code></div></figure></p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/BTBD10/BTBD10-PAE.png</code></div></figure></p>
+<h5>关键文献</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>PMID</th><th>标题</th></tr></thead><tbody>
+<tr><td>38835051</td><td>Single-cell and bulk RNA-seq unveils the immune infiltration landscape associated with cuproptosis i</td></tr>
+<tr><td>36045715</td><td>BTBD10 inhibits glioma tumorigenesis by downregulating cyclin D1 and p-Akt.</td></tr>
+<tr><td>24156551</td><td>KCTD20, a relative of BTBD10, is a positive regulator of Akt.</td></tr>
+<tr><td>15556295</td><td>Molecular cloning and characterization of a novel human BTB domain-containing gene, BTBD10, which is</td></tr>
+<tr><td>35059434</td><td>BTBD10 is a Prognostic Biomarker Correlated With Immune Infiltration in Hepatocellular Carcinoma.</td></tr>
+</tbody></table></div>
+<p>HPA IF 图像已本地嵌入。</p>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/BTBD10/BTBD10-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

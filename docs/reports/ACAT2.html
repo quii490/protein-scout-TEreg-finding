@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ACAT2 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>ACAT2</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">rejected</span><span class="badge">Score: 0</span><span class="badge">Nuclear: 4</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/rejected.html">Category page</a></div><p class="source-path">Original detail path: detail/rejected/ACAT2/ACAT2-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;ACAT2&quot; date: 2026-05-28 tags: [protein-scout, nuclear-protein, evaluation] status: scored ---</p>
+<h3>ACAT2 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>ACAT2 / Acetyl-CoA acetyltransferase, cytosolic; acetoacetyl-CoA thiolase</td></tr>
+<tr><td>蛋白大小</td><td>397 aa / 41351 Da</td></tr>
+<tr><td>UniProt ID</td><td>Q9BWD1</td></tr>
+<tr><td>评估日期</td><td>2026-05-28</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>满分</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>🔴 核定位特异性</td><td>4 /10</td><td>×3</td><td>12</td><td>Protein Atlas IF 显示主要定位于胞质溶胶 + 核质 (approved)；UniProt 仅列 cytosol；核定位弱但存在</td></tr>
+<tr><td>📏 蛋白大小</td><td>10 /10</td><td>×2</td><td>20</td><td>397 aa, 41.4 kDa, 处于理想区间</td></tr>
+<tr><td>🆕 研究新颖性</td><td>5 /10</td><td>×3</td><td>15</td><td>PubMed 260 篇 (1996 年起)；chromatin/epigenetics 仅 66 篇，主要为代谢交叉提及</td></tr>
+<tr><td>🏗️ 三维结构</td><td>10 /10</td><td>×3</td><td>30</td><td>pLDDT 平均 97.2，有序区 99.0%；PAE 均值 3.1 Å，PAE&lt;5 占 88.4%；结构预测质量极佳</td></tr>
+<tr><td>🧬 调控结构域</td><td>0 /10</td><td>×2</td><td>0</td><td>仅有硫解酶 (thiolase) 结构域，确认为纯代谢酶，无任何染色质/DNA 结合相关结构域</td></tr>
+<tr><td>🔗 PPI ，0% 调控相关 partner</td></tr>
+<tr><td>➕ 互证加分</td><td>—</td><td>max +3</td><td>0</td><td>定位来源矛盾 (IF vs UniProt)；无调控结构域可互证；无调控 PPI 可互证</td></tr>
+<tr><td><strong>原始总分</strong></td><td></td><td></td><td><strong>77.0 /158</strong></td></tr>
+<tr><td><strong>归一化总分</strong></td><td></td><td></td><td><strong>48.7 /100</strong></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>Protein Atlas (IF)</td><td><strong>主要胞质溶胶 (cytosol)</strong> + 核质 (nucleoplasm)</td><td>Approved</td></tr>
+<tr><td>GeneCards</td><td>Cytoplasm, cytosol</td><td>—</td></tr>
+<tr><td>UniProt</td><td>细胞质、胞质溶胶、细胞外外泌体</td><td>—</td></tr>
+<tr><td>GO (CC)</td><td>cytoplasm, cytosol, extracellular exosome</td><td>—</td></tr>
+</tbody></table></div>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/ACAT2/A431_1.jpg</code></div></figure> <figure><div class="missing-image">Missing local image: <code>../assets/report-images/ACAT2/U2OS_1.jpg</code></div></figure></p>
+<p><strong>结论</strong>: Protein Atlas IF 显示 ACAT2 主要定位于胞质溶胶，同时存在核质信号。UniProt 仅注释了胞质定位。核定位证据较弱，但 IF 确实检测到核内信号。得分 4（核+胞质均有分布，无明显偏好，且主要定位于胞质）。</p>
+<p><strong>IF 图像</strong>: <figure><div class="missing-image">Missing local image: <code>../assets/report-images/ACAT2/A431_2.jpg</code></div></figure></p>
+<h5>3.2 蛋白大小评估</h5>
+<p><strong>评价</strong>: 397 aa / 41.4 kDa，处于 300-800 aa 理想区间，适合生化纯化和结构解析。硫解酶家族蛋白通常以二聚体形式发挥功能（同源二聚体约 83 kDa）。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed 总数</td><td>260</td></tr>
+<tr><td>最早发表年份</td><td>1996</td></tr>
+<tr><td>Chromatin/epigenetics 相关</td><td>66 (25%) — 几乎全部为代谢综合征/脂代谢中的交叉提及</td></tr>
+</tbody></table></div>
+<p><strong>主要研究方向</strong>:</p>
+<ul><li>胆固醇/酮体代谢 (acetyl-CoA → acetoacetyl-CoA)</li><li>脂质代谢疾病</li><li>癌症代谢重编程 (部分肿瘤中表达上调)</li><li>代谢酶在细胞增殖中的作用</li></ul>
+<p><strong>评价</strong>: 260 篇文献，研究热点集中在代谢领域。66 篇涉及 chromatin 关键词主要是代谢调控间接关联染色质状态（如乙酰-CoA 作为组蛋白乙酰化底物），非 ACAT2 本身的染色质结合功能。ACAT2 作为染色质调控蛋白的研究完全空白。</p>
+<h5>3.4 三维结构分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold 平均 pLDDT</td><td>97.2</td></tr>
+<tr><td>PDB 实验结构</td><td>—</td></tr>
+<tr><td>有序区域 (pLDDT&gt;70) 占比</td><td>99.0% (393/397 residues)</td></tr>
+<tr><td>高置信度 (pLDDT&gt;90)</td><td>98.0% (389 residues)</td></tr>
+<tr><td>低置信度/无序 (pLDDT&lt;50)</td><td>0.8% (3 residues, 均在 N 末端)</td></tr>
+<tr><td>可用 PDB 条目</td><td>未从 GeneCards 检索到实验结构</td></tr>
+</tbody></table></div>
+<p><strong>PAE 图</strong>: <figure><div class="missing-image">Missing local image: <code>../assets/report-images/ACAT2/ACAT2-PAE.png</code></div></figure></p>
+<p><strong>PAE 数值分析</strong>:</p>
+<ul><li>PAE 矩阵尺寸: 397 × 397</li><li>PAE 总体均值: 3.1 Å（预测置信度极高）</li><li>PAE &lt;5 Å 占比: 88.4%（绝大多数残基对定位准确）</li><li>PAE &lt;10 Å 占比: 97.7%</li><li>N/C 半区间 PAE: 3.3 Å（域间关系高度确定）</li><li>二级结构: α-helix ~35%、β-sheet ~25%、coil ~40%（估计值，典型硫解酶折叠含 α/β 混合结构）</li></ul>
+<p><strong>评价</strong>: ⭐ 结构质量优异。pLDDT 平均值 97.2 是88.4% 的残基对 PAE &lt;5 Å，表明预测结构高度可靠。硫解酶折叠是 α/β 混合结构，含特征性硫解酶 N 端和 C 端结构域。整个蛋白仅有 N 末端的 3 个残基 (0.8%) 处于无序状态。适合基于结构的药物设计和功能研究。</p>
+<h5>3.5 结构域分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>结构域</th></tr></thead><tbody>
+<tr><td>InterPro</td><td>Thiolase, N-terminal (IPR020616), Thiolase, C-terminal (IPR020617), Thiolase, active site (IPR020610), Thiolase, conserved site (IPR020613), Thiolase-like superfamily (IPR016039)</td></tr>
+<tr><td>UniProt</td><td>无额外结构域注释</td></tr>
+</tbody></table></div>
+<p><strong>染色质调控潜力分析</strong>:</p>
+<ul><li>ACAT2 是典型的<strong>硫解酶家族</strong>成员，催化 acetyl-CoA → acetoacetyl-CoA 的可逆反应</li><li>所有结构域均为<strong>代谢酶催化域</strong>，完全无 DNA/染色质结合结构域</li><li>蛋白在进化上高度保守（硫解酶折叠从细菌到人类），序列约束来自催化功能而非调控功能</li><li><strong>结论</strong>: 确认为纯代谢酶，与染色质/DNA 调控无关。得分 0。</li></ul>
+<p>&gt; <strong>关联性提示</strong>: 虽然 ACAT2 本身不与染色质结合，但它在胞质中生成的 acetoacetyl-CoA 和消耗的 acetyl-CoA 可间接影响组蛋白乙酰化水平（acetyl-CoA 是组蛋白乙酰转移酶的底物）。这种间接代谢-表观遗传耦合是代谢研究的活跃领域，但属于「代谢调控表观遗传」而非「核蛋白直接调控染色质」。</p>
+<h5>3.6 PPI :</h5>
+<p>Top 15 partners:</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>功能类别</th><th>与调控相关？</th></tr></thead><tbody>
+<tr><td>HMGCS1</td><td>0.998</td><td>酮体/胆固醇合成</td><td>否</td></tr>
+<tr><td>HMGCS2</td><td>0.993</td><td>酮体合成 (线粒体)</td><td>否</td></tr>
+<tr><td>ECI2</td><td>0.981</td><td>脂肪酸氧化</td><td>否</td></tr>
+<tr><td>EHHADH</td><td>0.980</td><td>脂肪酸氧化</td><td>否</td></tr>
+<tr><td>HADHA</td><td>0.974</td><td>脂肪酸氧化</td><td>否</td></tr>
+<tr><td>OXCT1</td><td>0.972</td><td>酮体代谢</td><td>否</td></tr>
+<tr><td>OXCT2</td><td>0.971</td><td>酮体代谢</td><td>否</td></tr>
+<tr><td>CS</td><td>0.966</td><td>TCA 循环</td><td>否</td></tr>
+<tr><td>ACOX1</td><td>0.965</td><td>脂肪酸氧化</td><td>否</td></tr>
+<tr><td>ACADSB</td><td>0.962</td><td>脂肪酸氧化</td><td>否</td></tr>
+<tr><td>ACADS</td><td>0.960</td><td>脂肪酸氧化</td><td>否</td></tr>
+<tr><td>ACACA</td><td>0.959</td><td>脂肪酸合成</td><td>否</td></tr>
+<tr><td>ACSS2</td><td>0.959</td><td>乙酰-CoA 合成</td><td>否</td></tr>
+<tr><td>AACS</td><td>0.958</td><td>酮体利用</td><td>否</td></tr>
+<tr><td>ACAT1</td><td>0.950</td><td>硫解酶 (线粒体)</td><td>否</td></tr>
+</tbody></table></div>
+<p><strong>humanPPI</strong> (prodata.swmed.edu): 详见 STRING API 数据</p>
+<p><strong>PPI 互证</strong>:</p>
+<ul><li>两工具共同预测的调控相关 neighbor: N/A</li><li>STRING 调控相关比例: <strong>0/30 (0%)</strong></li></ul>
+<p><strong>调控相关比例</strong>: 0/30 (0%)</p>
+<p><strong>评价</strong>: PPI |</p>
+<div class="table-wrap"><table>
+<thead><tr><th>PPI</th><th>STRING only</th><th>纯代谢vs UniProt (cytosol only)</th><th>定位来源矛盾</th><th>❌ 不一致</th></tr></thead><tbody>
+</tbody></table></div>
+<p><strong>互证加分明细</strong>: 无加分项。定位来源矛盾、无调控结构域、无双库 PPI 验证、无实验结构。</p>
+<ul><li><strong>总分</strong>: <strong>+0 / max +3</strong></li></ul>
+<h5>3.7 多库互证</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>来源</th><th>结果</th><th>是否一致</th></tr></thead><tbody>
+<tr><td>三维结构</td><td>AlphaFold + PDB</td><td>见 3.4 节</td><td>—</td></tr>
+<tr><td>结构域</td><td>UniProt / InterPro / Pfam</td><td>见 3.5 节</td><td>—</td></tr>
+<tr><td>PPI</td><td>STRING</td><td>见 3.6 节</td><td>—</td></tr>
+<tr><td>定位</td><td>Protein Atlas IF / UniProt / GO</td><td>Nucleus</td><td>✅</td></tr>
+</tbody></table></div>
+<h4>4. 总体评价</h4>
+<p><strong>推荐等级</strong>: ⭐ (1/5)</p>
+<p><strong>核心优势</strong>: 1. 三维结构质量极佳 (pLDDT 97.2, PAE 3.1 Å)，适合结构导向研究 2. 蛋白大小理想 (397 aa)，实验操作友好 3. 间接的代谢-表观遗传耦合（acetyl-CoA 作为组蛋白乙酰化底物）</p>
+<p><strong>风险/不确定性</strong>: 1. <strong>本质是代谢酶</strong>：无任何 DNA/染色质结合结构域，所有注释为硫解酶催化域 2. **PPI - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9BWD1</p>
+<ul><li>InterPro: https://www.ebi.ac.uk/interpro/protein/UniProt/Q9BWD1/</li><li>STRING: https://string-db.org/network/9606.ENSP00000356229</li></ul>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/ACAT2/ACAT2-PAE.png</code></div></figure></p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/ACAT2/ACAT2-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

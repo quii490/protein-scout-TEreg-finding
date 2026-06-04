@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ANAPC13 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>ANAPC13</h1><div class="report-meta"><span class="badge muted">rejected</span><span class="badge">rejected</span><span class="badge">Score: 1.8</span><span class="badge">Nuclear: 3</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/rejected.html">Category page</a></div><p class="source-path">Original detail path: detail/rejected/ANAPC13/ANAPC13-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;ANAPC13&quot; date: 2026-06-04 tags: [protein-scout, confirmed-rejected, critical-false-rejection-recheck] status: confirmed-rejected previous_status: rejected previous_rejection_reason: nuclear_score ≤ 3 recheck_result: &quot;CONFIRMED REJECTED — HPA=Mitochondria+Cytosol(Approved); UniProt Nucleus仅ECO:0000305(curator inference,非实验); GO-CC无核术语; APC/C在核内执行功能但ANAPC13可能仅在胞质中组装; nuclear_score=3 borderline但接受原评分&quot; revised_nuclear_score: 3 ---</p>
+<h3>ANAPC13 核蛋白评估报告 -- FALSE REJECTION RE-EVALUATION (确认拒绝)</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>ANAPC13</td></tr>
+<tr><td>蛋白大小</td><td>74 aa / 8.5 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q9BS18</td></tr>
+<tr><td>蛋白全名</td><td>Anaphase-promoting complex subunit 13</td></tr>
+<tr><td>HPA IF 主定位</td><td><strong>Mitochondria, Cytosol</strong></td></tr>
+<tr><td>HPA Reliability</td><td>Approved</td></tr>
+<tr><td>原评估状态</td><td>REJECTED (nuclear_score=3)</td></tr>
+<tr><td>重新评估日期</td><td>2026-06-04</td></tr>
+<tr><td>CONFIRMED REJECTED</td><td><strong>CONFIRMED REJECTED</strong> — 核定位证据严重不足</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览（修订后，确认原评分）</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>权重</th><th>加权</th><th>摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td><strong>3/10</strong></td><td>×4</td><td>12</td><td>HPA=Mitochondria+Cytosol(Approved); UniProt Nucleus仅ECO:0000305; GO-CC仅anaphase-promoting complex</td></tr>
+<tr><td>蛋白大小</td><td>5/10</td><td>×1</td><td>5</td><td>74aa/8.5kDa，极端微型蛋白</td></tr>
+<tr><td>研究新颖性</td><td>10/10</td><td>×5</td><td>50</td><td>PubMed strict=11 (≤20→10)</td></tr>
+<tr><td>三维结构</td><td>10/10</td><td>×3</td><td>30</td><td>pLDDT=73.6; 18个PDB EM结构(2.90-6.40A, 全长1-74覆盖)</td></tr>
+<tr><td>调控结构域</td><td>7/10</td><td>×2</td><td>14</td><td>IPR008401/PF05839 (ANAPC13); APC/C E3泛素连接酶亚基</td></tr>
+<tr><td>PPI网络</td><td>8/10</td><td>×3</td><td>24</td><td>STRING: 全部APC/C亚基0.993-0.999实验验证; IntAct: TAP纯化全实验</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>135/180</strong></td><td></td></tr>
+<tr><td><strong>归一化总分 (÷1.8)</strong></td><td></td><td></td><td><strong>75.0/100</strong></td><td></td></tr>
+</tbody></table></div>
+<h4>3. False rejection recheck -- CRITICAL</h4>
+<p><strong>为何被列为CRITICAL进行重新评估:</strong></p>
+<p>ANAPC13是10个CRITICAL基因中一个特殊案例: 其加权总分(135/180)实际上高于大多数rescued基因(如ALKBH2的133/180)。它拥有:</p>
+<ul><li>极度新颖(PubMed=11)</li><li>18个PDB实验结构(全部为EM，覆盖全长)</li><li>APC/C E3泛素连接酶复合物全亚基的实验验证PPI网络(STRING scores 0.993-0.999)</li><li>仅有74aa的极端微型蛋白(结构生物学上极有趣)</li></ul>
+<p>ANAPC13被拒绝的唯一原因是核定位不足。APC/C复合物在细胞周期中执行核功能(介导有丝分裂调节因子的泛素化降解)，这引发了一个关键问题: ANAPC13作为核心亚基是否也在核内?</p>
+<p><strong>逐一数据库审查:</strong></p>
+<p>1. <strong>UniProt Subcellular Location (harvest packet)</strong>:</p>
+<ul><li>Nucleus: ECO:0000305 (curator inference — 非实验，非序列预测)</li><li><strong>单一定位，但证据等级极弱</strong></li><li>ECO:0000305 = &quot;inferred by curator without traceable author statement&quot; — 这是UniProt中最弱的证据等级之一</li></ul>
+<p>2. <strong>GO-CC (harvest packet)</strong>:</p>
+<ul><li>GO:0005680 anaphase-promoting complex: IDA:UniProtKB (实验)</li><li><strong>仅有一个GO-CC术语，且该术语描述的是蛋白质复合物而非亚细胞区室</strong></li><li>没有nucleus, nucleoplasm, cytoplasm等任何亚细胞定位的GO-CC术语</li></ul>
+<p>3. <strong>HPA Subcellular (harvest packet) -- 明确矛盾</strong>:</p>
+<ul><li>Main location: <strong>Mitochondria</strong>, <strong>Cytosol</strong></li><li>Reliability: <strong>Approved (最高可信度)</strong></li><li>IF display images: 6张在线可用(blue_red_green)</li><li><strong>零核信号!</strong></li></ul>
+<p>4. <strong>功能证据 -- 复合物功能 vs 亚基定位</strong>:</p>
+<ul><li>APC/C复合物在有丝分裂中定位于核(spindle checkpoint, mitotic cyclin degradation)</li><li>但ANAPC13仅74aa，可能在胞质中与APC/C复合物其他亚基组装，组装完成的复合物再进入核内</li><li>&quot;anaphase-promoting complex&quot;作为GO-CC术语描述的是复合物水平，而非单个亚基的亚细胞定位</li><li>ANAPC13可能从未独立于复合物进入细胞核</li></ul>
+<p><strong>为何这不是假阴性:</strong></p>
+<p>ANAPC13面对一个核心矛盾:</p>
+<ul><li><strong>复合物功能</strong>: APC/C在有丝分裂中定位于核并降解核蛋白(cyclin B, securin等)</li><li><strong>亚基定位数据</strong>: HPA Approved显示Mitochondria+Cytosol，UniProt Nucleus仅ECO:0000305</li></ul>
+<p>这种矛盾在其他多亚基复合物中很常见: 支架亚基在胞质中组装复合物，功能性亚基(如共激活因子CDC20/CDH1)负责核定位。ANAPC13(又称APC13或SWM1)是最小的APC/C亚基，可能仅起结构支架作用——在胞质中稳定复合物，但不参与核靶向。</p>
+<p>如果UniProt的Nucleus证据至少是ECO:0000269(实验)或GO-CC有nucleus/nucleoplasm(实验)，我会倾向于rescuing。但当前最佳实验数据(HPA Approved)显示Mitochondria+Cytosol，而仅有的核证据是curator inference(ECO:0000305)。</p>
+<p><strong>修订后核定位评分: 3/10 (确认)。因APC/C复合物的核功能，将评分保持在3而非2，但HPA Approved Mitochondria+Cytosol + 极度弱UniProt证据不足以触发rescue。</strong></p>
+<h4>4. 详细分析</h4>
+<h5>4.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th><th>证据代码</th></tr></thead><tbody>
+<tr><td>HPA (IF)</td><td>Mitochondria, Cytosol</td><td><strong>Approved</strong> (最高)</td><td>IF实验，6张display images</td></tr>
+<tr><td>UniProt</td><td>Nucleus</td><td>ECO:0000305</td><td><strong>curator inference (非实验)</strong></td></tr>
+<tr><td>GO-CC</td><td>anaphase-promoting complex (GO:0005680)</td><td>IDA:UniProtKB</td><td>实验(但描述复合物而非区室)</td></tr>
+</tbody></table></div>
+<p>核定位证据完全依赖UniProt的一个弱备注(ECO:0000305)和APC/C复合物在有丝分裂中的核功能。HPA Approved实验数据的否定影响更大。Mitochondria信号可能是实验伪影(小蛋白(8.5kDa)的抗体可能与线粒体蛋白交叉反应)。<strong>评分: 3/10</strong>。</p>
+<h5>4.2 蛋白大小评估</h5>
+<p>74 aa / 8.5 kDa。极端微型蛋白，是所有评估基因中最小的。可能代表了多亚基复合物中结构稳定的最小单元。太小而难以独立功能化——几乎肯定只能在APC/C复合物背景下执行功能。<strong>评分: 5/10</strong>。</p>
+<h5>4.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict_count</td><td>11</td></tr>
+<tr><td>主要方向</td><td>APC/C复合物结构、SF3B1-K700E突变/Treg功能</td></tr>
+</tbody></table></div>
+<p>极度新颖(11篇)。APC/C复合物整体研究深入(&gt;5000篇)，但ANAPC13作为最小亚基几乎未被单独研究。<strong>评分: 10/10</strong>。</p>
+<p><strong>关键文献</strong>: 1. Shi Y et al. (2024). &quot;SF3B1-K700E mutation controls immune responses by regulating Treg function via aberrant Anapc13 splicing.&quot; *Sci Adv*. PMID: 39303038 2. Wang D et al. (2017). &quot;miRNA-mRNA regulation network of chronic pancreatitis.&quot; *Medicine*. PMID: 28538367 3. Abbas SZ et al. (2020). &quot;Systems-level differential gene expression reveals new genetic variants of oral cancer.&quot; *Sci Rep*. PMID: 32887903 4. He K et al. (2025). &quot;Identifying genes associated with Sorafenib resistance in hepatocellular carcinoma.&quot; *Discov Oncol*. PMID: 40835789 5. Jiang BJ et al. (2012). &quot;ANAPC13 gene polymorphisms associated with body measurement traits in Bos taurus.&quot; *Genet Mol Res*. PMID: 22782628</p>
+<h5>4.4 三维结构分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold 平均 pLDDT</td><td>73.6</td></tr>
+<tr><td>pLDDT &gt; 90 (Very High)</td><td>10.8%</td></tr>
+<tr><td>pLDDT 70-90 (High)</td><td>41.9%</td></tr>
+<tr><td>pLDDT 50-70 (Medium)</td><td>45.9%</td></tr>
+<tr><td>pLDDT &lt; 50 (Low)</td><td>1.4%</td></tr>
+<tr><td>实验结构 (PDB)</td><td>18个EM结构(2.90-6.40A, 全部覆盖全长1-74)</td></tr>
+</tbody></table></div>
+<p><strong>PDB条目</strong>: 4UI9, 5G04, 5KHR, 5KHU, 5L9T, 5L9U, 5LCW, 6Q6G, 6Q6H, 6TLJ, 6TM5, 6TNT, 8PKP, 8TAR, 8TAU, 9GAW, 9N9R, 9N9S</p>
+<p>18个PDB结构全部为APC/C全复合物的冷冻电镜结构，ANAPC13仅作为其中一个小亚基被解析。最高分辨率2.90A(9GAW)。<strong>评分: 10/10</strong>。</p>
+<h5>4.5 结构域分析</h5>
+<p>IPR008401/PF05839 (ANAPC13)。小亚基仅含一个结构域，在APC/C复合物中可能扮演结构稳定角色。调控潜力有限。<strong>评分: 7/10</strong> (因APC/C在细胞周期中的核心调控角色)。</p>
+<h5>4.6 PPI 网络</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Combined Score</th><th>Experimental</th><th>注释</th></tr></thead><tbody>
+<tr><td>CDC16</td><td>0.999</td><td>0.989</td><td>APC/C亚基</td></tr>
+<tr><td>ANAPC5</td><td>0.999</td><td>0.987</td><td>APC/C亚基</td></tr>
+<tr><td>CDC27</td><td>0.999</td><td>0.999</td><td>APC/C亚基</td></tr>
+<tr><td>CDC23</td><td>0.999</td><td>0.991</td><td>APC/C亚基</td></tr>
+<tr><td>ANAPC10</td><td>0.999</td><td>0.998</td><td>APC/C亚基</td></tr>
+</tbody></table></div>
+<p>所有APC/C亚基均实验验证(STRING experimental 0.929-0.999)。IntAct TAP实验全确认。10个CRITICAL基因中最强的PPI网络。但全部局限于APC/C自身。<strong>评分: 8/10</strong>。</p>
+<h4>5. 最终决定</h4>
+<p><strong>CONFIRMED REJECTED — 核定位证据严重不足，nuclear_score=3可接受</strong></p>
+<p>ANAPC13是本次评估中最复杂的案例: 结构数据(18个PDB)、PPI网络(全APC/C实验验证)、新颖度(11篇)均为顶级，但核定位证据薄弱。HPA Approved的实验数据显示Mitochondria+Cytosol，而非Nucleus/Nucleoplasm。UniProt的唯一核证据是ECO:0000305(curator inference)。</p>
+<p><strong>为什么nuclear_score=3不是假阴性</strong>:</p>
+<ul><li>HPA Approved否定核定位</li><li>UniProt核证据是最弱等级</li><li>GO-CC无任何亚细胞区室术语</li><li>蛋白太小(74aa)难以独立核定位——依赖整个APC/C复合物的运输</li></ul>
+<p><strong>与其他类似案例的比较</strong>: 与ALKBH2(3个核区室均为IDA，18个PDB支持核功能)的rescued形成鲜明对比。ANAPC13虽然有18个PDB结构，但这些结构展示的是APC/C全复合物(非ANAPC13单独)，且APC/C在有丝分裂中的核定位是由其他亚基(如CDC20/CDH1/RAP1)介导的。</p>
+<p><strong>边界提示</strong>: 如果未来的实验数据(如细胞周期同步化后的IF、核质分离Western blot)显示ANAPC13在M期确实位于核内，该基因应重新评估。但当前数据不支持rescue。</p>
+<h4>6. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9BS18</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9BS18</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=ANAPC13%5BTitle/Abstract%5D</li><li>HPA: https://www.proteinatlas.org/ENSG00000129055-ANAPC13</li><li>STRING: https://string-db.org/network/9606.ENSP00000361538</li><li>IntAct: https://www.ebi.ac.uk/intact/interactors/id:Q9BS18</li><li>Harvest packet: /Users/quii/Desktop/projects/TE-regulated proteins finding/protein_data/harvest_packets/ANAPC13.json (2026-06-03)</li></ul>
+<p>HPA IF图像在线可用(6张blue_red_green, Mitochondria+Cytosol信号)，未下载本地。PAE未生成本地。</p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

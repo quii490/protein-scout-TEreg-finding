@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RPRD2 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>RPRD2</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 2</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/RPRD2/RPRD2-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;RPRD2&quot; date: 2026-06-04 tags: [protein-scout, re-evaluation, recovery-from-false-rejection] status: scored ---</p>
+<h3>RPRD2 -- Re-evaluation Report (Recovery from False-Rejection)</h3>
+<h4>1. Basic Information</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Item</th><th>Content</th></tr></thead><tbody>
+<tr><td>Gene / Aliases</td><td>RPRD2 / KIAA0460</td></tr>
+<tr><td>Protein Name</td><td>Regulation of nuclear pre-mRNA domain-containing protein 2</td></tr>
+<tr><td>Protein Size</td><td>1461 aa / 156.0 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q5VT52 (RPRD2_HUMAN, Swiss-Prot reviewed)</td></tr>
+<tr><td>Evaluation Date</td><td>2026-06-04</td></tr>
+<tr><td>Previous Status</td><td>REJECTED (thin template report, no harvest packet)</td></tr>
+<tr><td>Re-evaluation Reason</td><td>Recovery from false-rejection; complete re-evaluation with updated data</td></tr>
+</tbody></table></div>
+<h4>2. Scoring Overview</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Score</th><th>Max</th><th>Weighted</th><th>Key Evidence Summary</th></tr></thead><tbody>
+<tr><td>Nuclear Localization Specificity</td><td>7/10</td><td>x4</td><td><strong>28</strong></td><td>GO-CC: nucleoplasm, transcription preinitiation complex; no direct UniProt nucleus annotation but transcription complex = nuclear; paralog RPRD1A is nuclear</td></tr>
+<tr><td>Protein Size</td><td>5/10</td><td>x1</td><td><strong>5</strong></td><td>1461 aa, in the 1200-2000 aa range; large scaffold protein</td></tr>
+<tr><td>Research Novelty</td><td>10/10</td><td>x5</td><td><strong>50</strong></td><td>PubMed ~9 articles (&lt;=20 -&gt; 10); extremely under-studied</td></tr>
+<tr><td>3D Structure</td><td>7/10</td><td>x3</td><td><strong>21</strong></td><td>PDB: 4FLB (X-ray); experimental crystallography; CID domain structurally characterized</td></tr>
+<tr><td>Regulatory Domains</td><td>8/10</td><td>x2</td><td><strong>16</strong></td><td>CID domain (CTD-interacting, Pol II binding); transcription preinitiation complex; paralog of RPRD1A</td></tr>
+<tr><td>PPI Network</td><td>7/10</td><td>x3</td><td><strong>21</strong></td><td>RNA Pol II CTD interaction (by paralogy); transcription preinitiation complex membership</td></tr>
+<tr><td>Cross-Validation Bonus</td><td>--</td><td>--</td><td><strong>+1.5</strong></td><td>Nucleoplasm + transcription complex consensus (+0.5); CID domain + paralog functional consistency (+0.5); gene name + function alignment (+0.5)</td></tr>
+<tr><td><strong>Raw Total</strong></td><td></td><td></td><td><strong>142.5/180</strong></td><td></td></tr>
+<tr><td><strong>Normalized Total</strong></td><td></td><td></td><td><strong>77.9/100</strong></td><td></td></tr>
+</tbody></table></div>
+<h4>3. Nuclear Localization Evidence</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Source</th><th>Localization</th><th>Reliability</th></tr></thead><tbody>
+<tr><td>GO-CC</td><td>Nucleoplasm</td><td>Curated</td></tr>
+<tr><td>GO-CC</td><td>Transcription preinitiation complex</td><td>Curated</td></tr>
+<tr><td>UniProt (Swiss-Prot)</td><td>Not explicitly annotated</td><td>--</td></tr>
+<tr><td>Gene Name</td><td>&quot;Regulation of nuclear pre-mRNA domain-containing protein 2&quot;</td><td>Descriptive</td></tr>
+<tr><td>Paralog (RPRD1A)</td><td>Nucleus confirmed</td><td>By inference</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF Status</strong>: HPA IF original images not reliably obtained. Nuclear localization assessment based on GO-CC, paralog inference, and functional annotation.</p>
+<p><strong>Manual Review Assessment</strong>: RPRD2 is annotated to the nucleoplasm and transcription preinitiation complex by GO Cellular Component, which inherently defines nuclear localization. The transcription preinitiation complex assembles at gene promoters in the nucleus. The gene name &quot;Regulation of nuclear pre-mRNA domain-containing protein 2&quot; explicitly describes nuclear function. The paralog RPRD1A is definitively nuclear (UniProt Nucleus annotation, GO-CC nucleus + transcription preinitiation complex). The lack of explicit UniProt subcellular location annotation for RPRD2 likely reflects its even more extreme under-study (PubMed=9) rather than non-nuclear localization.</p>
+<p><strong>Key points supporting nuclear localization</strong>: 1. GO-CC: Nucleoplasm -- soluble nuclear compartment 2. GO-CC: Transcription preinitiation complex -- inherently nuclear 3. Gene name explicitly describes &quot;nuclear pre-mRNA domain-containing&quot; 4. Paralog RPRD1A is definitively nuclear 5. CID domain implies Pol II CTD interaction -- exclusively nuclear 6. Keywords do not include non-nuclear compartments</p>
+<p><strong>Nuclear localization score: 7/10.</strong> The GO-CC nucleoplasm + transcription preinitiation complex annotation provides strong evidence for nuclear localization, confirmed by gene name and paralog function. The score is 7 rather than 9 due to the absence of explicit UniProt subcellular location annotation. Well above the &lt;=3 rejection threshold.</p>
+<h4>4. Protein Size Assessment</h4>
+<p>RPRD2 is 1461 amino acids (156.0 kDa), placing it in the 1200-2000 aa range. This is considerably larger than the ideal 200-800 aa range. The protein is a scaffold within the transcription preinitiation complex, where large size is expected for proteins that serve as assembly platforms for multiple interaction partners. The paralog RPRD1A is much smaller (312 aa), suggesting RPRD2 may have gained additional domains or regulatory regions. Score 5/10 reflects the large size category.</p>
+<h4>5. Research Novelty (PubMed Analysis)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody>
+<tr><td>PubMed count (Title/Abstract)</td><td>~9</td></tr>
+<tr><td>Novelty category</td><td>&lt;=20 -&gt; Score 10</td></tr>
+<tr><td>Earliest publication</td><td>Genome-wide studies / high-throughput</td></tr>
+</tbody></table></div>
+<p><strong>Research Context</strong>: RPRD2 is an extremely under-studied protein with approximately 9 PubMed entries. Parallel to RPRD1A (the highest-scoring protein in the W2 batch), RPRD2 is a member of the transcription preinitiation complex that has received virtually no dedicated functional investigation. The vast majority of publications mentioning RPRD2 are high-throughput studies of the transcription machinery or protein interaction networks.</p>
+<p><strong>Major research themes (limited)</strong>:</p>
+<ul><li>Transcription preinitiation complex composition</li><li>CID domain structural biology</li><li>Potential CTD interaction (by paralogy with RPRD1A)</li><li>High-throughput protein interaction mapping</li></ul>
+<p><strong>Novelty Assessment</strong>: PubMed count of ~9 places RPRD2 in the most novel category (&lt;=20 -&gt; 10). As a transcription preinitiation complex member with fewer than 10 publications, RPRD2 is one of the most under-studied components of the transcription machinery.</p>
+<h4>6. 3D Structure Analysis</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody>
+<tr><td>AlphaFold Prediction</td><td>Available</td></tr>
+<tr><td>PDB Entries</td><td>1 (4FLB, X-ray crystallography)</td></tr>
+<tr><td>PDB Method</td><td>X-ray diffraction</td></tr>
+<tr><td>Structural Coverage</td><td>CID domain region</td></tr>
+</tbody></table></div>
+<p><strong>PAE</strong>: PAE image data not available (local image not generated or not reliably obtained). Structural assessment based on PDB entry and paralog structures.</p>
+<p><strong>Structure Assessment</strong>: RPRD2 has one experimental PDB structure (4FLB) solved by X-ray crystallography, covering at least the CID domain. The large protein size (1461 aa) means the experimental structure likely covers only a fraction of the total sequence. The CID domain structure is likely similar to that of its paralog RPRD1A (4JXT, 4NAC). Additional regions may be disordered or structurally uncharacterized. Score 7/10 reflects partial experimental structure for a highly novel protein.</p>
+<h4>7. Domain Architecture</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Source</th><th>Domain/Feature</th><th>Notes</th></tr></thead><tbody>
+<tr><td>InterPro</td><td>IPR006569 (CID domain)</td><td>CTD-interacting domain -- binds Pol II CTD</td></tr>
+<tr><td>InterPro</td><td>IPR008942 (ENTH/VHS)</td><td>Potential membrane trafficking domain</td></tr>
+<tr><td>InterPro</td><td>IPR047885 (RPRD2-specific)</td><td>RPRD2-specific domain</td></tr>
+<tr><td>Pfam</td><td>PF04818 (RPRD)</td><td>RPRD family domain</td></tr>
+</tbody></table></div>
+<p><strong>Domain Analysis</strong>: RPRD2 shares the CID (CTD-interacting domain) with its paralog RPRD1A, which directly binds the phosphorylated C-terminal domain of RNA Polymerase II. The CID-CTD interaction positions RPRD2 at the core of transcription regulation. The ENTH/VHS domain annotation is shared with RPRD1A and is unusual for a transcription factor, potentially representing a moonlighting function or a domain with nuclear-specific roles. RPRD2 has family-specific domains (IPR047885) that distinguish it from RPRD1A.</p>
+<p><strong>Chromatin/Regulatory Potential</strong>: The CID domain + transcription preinitiation complex membership positions RPRD2 at the interface of transcription initiation and CTD-dependent regulation. The larger size compared to RPRD1A (1461 vs 312 aa) suggests additional domains or regulatory regions that may confer distinct functions. Score 8/10 reflects the CID domain and transcription machinery context.</p>
+<h4>8. PPI Network Analysis</h4>
+<p><strong>Transcription Preinitiation Complex and CTD Interactions</strong>:</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Context</th><th>Functional Relevance</th></tr></thead><tbody>
+<tr><td>RNA Pol II RPB1 CTD</td><td>Transcription machinery</td><td>Direct CTD interaction (by CID domain paralogy)</td></tr>
+<tr><td>Transcription preinitiation complex</td><td>Transcription initiation</td><td>Complex membership</td></tr>
+</tbody></table></div>
+<p><strong>PPI Assessment</strong>: By paralogy with RPRD1A and CID domain presence, RPRD2 is expected to interact with the Pol II CTD. The transcription preinitiation complex membership provides a rich network of transcription-related nuclear proteins. The extensive additional sequence in RPRD2 (over 1100 aa beyond the RPRD1A-equivalent length) may mediate unique protein interactions not shared with RPRD1A. Score 7/10 reflects the strong transcription context with uncharacterized interaction potential.</p>
+<h4>9. Cross-Validation Analysis</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Sources</th><th>Result</th><th>Consistent?</th></tr></thead><tbody>
+<tr><td>Nuclear Localization</td><td>GO-CC (nucleoplasm, transcription preinitiation complex) + gene name + paralog</td><td>Nucleoplasm / transcription complex</td><td>Consistent</td></tr>
+<tr><td>CID Domain</td><td>InterPro + Pfam + paralog (RPRD1A)</td><td>CTD-interacting domain conserved</td><td>Consistent</td></tr>
+<tr><td>Structure</td><td>PDB 4FLB (X-ray) + CID domain</td><td>Experimental validation of CID fold</td><td>Consistent</td></tr>
+<tr><td>Function</td><td>Transcription preinitiation complex + CID domain</td><td>Transcriptional regulation</td><td>Consistent with paralog</td></tr>
+</tbody></table></div>
+<p><strong>Cross-Validation Bonus Details</strong>:</p>
+<ul><li>Nucleoplasm + transcription complex GO-CC consensus: +0.5</li><li>CID domain + paralog (RPRD1A) functional consistency: +0.5</li><li>Gene name (&quot;Regulation of nuclear pre-mRNA...&quot;) + function alignment: +0.5</li><li><strong>Total Cross-Validation Bonus</strong>: +1.5 / max +3</li></ul>
+<h4>10. Overall Assessment</h4>
+<p><strong>Recommendation Level</strong>: HIGHLY RECOMMENDED (Score: 77.9/100)</p>
+<p><strong>Core Strengths</strong>: 1. Extreme novelty (PubMed=9, score 10/10) -- virtually unexplored 2. Transcription preinitiation complex membership -- core transcription machinery 3. CID domain implies direct Pol II CTD interaction 4. Paralog RPRD1A provides functional framework (CID-CTD interaction established) 5. Experimental PDB structure (4FLB) for CID domain 6. Gene name explicitly declares nuclear pre-mRNA regulatory function 7. Large additional sequence vs RPRD1A suggests unique functional domains 8. Rich interaction potential through transcription complex membership</p>
+<p><strong>Risks / Uncertainties</strong>: 1. Large size (1461 aa) may challenge full-length biochemical studies 2. No explicit UniProt subcellular location annotation 3. Function largely inferred from paralog RPRD1A 4. Potential functional redundancy with RPRD1A needs investigation 5. ENTH/VHS domain role in nuclear context is unclear 6. Most of the protein sequence is structurally uncharacterized</p>
+<p><strong>Next Steps</strong>:</p>
+<ul><li>[ ] Confirm nuclear localization by immunofluorescence</li><li>[ ] Validate Pol II CTD binding via CID domain</li><li>[ ] Determine functional relationship with paralog RPRD1A (redundant vs distinct)</li><li>[ ] Map unique interaction partners beyond those shared with RPRD1A</li><li>[ ] Characterize domain architecture of the additional ~1100 aa</li><li>[ ] Assess genome-wide chromatin occupancy</li></ul>
+<h4>11. Decision</h4>
+<p><strong>FINAL DECISION</strong>: NOT REJECTED (recovery from false-rejection). RPRD2 clears the nuclear localization threshold (score 7/10, above &lt;=3) and PubMed threshold (9 articles, &lt;=100). As the paralog of the top-scoring W2 candidate RPRD1A, RPRD2 shares the core advantages (CID domain, transcription preinitiation complex membership, extreme novelty) while offering distinct opportunities through its larger size and potentially unique functional domains. RPRD2 and RPRD1A together represent a valuable paralog pair for comparative studies of CTD-dependent transcription regulation.</p>
+<h4>12. Data Sources</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q5VT52</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22RPRD2%22%5BTitle/Abstract%5D</li><li>GO: Gene Ontology annotations via UniProt cross-references</li><li>PDB: https://www.rcsb.org/ (4FLB)</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q5VT52</li><li>InterPro: https://www.ebi.ac.uk/interpro/protein/Q5VT52/</li><li>Note: Harvest packet not available; data compiled from UniProt and literature database queries</li></ul></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

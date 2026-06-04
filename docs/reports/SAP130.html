@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SAP130 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>SAP130</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 0.5</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/SAP130/SAP130-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;SAP130&quot; date: 2026-06-04 tags: [protein-scout, re-evaluation, recovery-from-false-rejection] status: scored ---</p>
+<h3>SAP130 -- Re-evaluation Report (Recovery from False-Rejection)</h3>
+<h4>1. Basic Information</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Item</th><th>Content</th></tr></thead><tbody>
+<tr><td>Gene / Aliases</td><td>SAP130 / Sin3A-Associated Protein 130 (histone deacetylase complex subunit SAP130)</td></tr>
+<tr><td>Protein Name</td><td>Histone Deacetylase Complex Subunit SAP130 (Sin3-associated polypeptide p130)</td></tr>
+<tr><td>Protein Size</td><td>~1,048 aa / ~130 kDa (estimated)</td></tr>
+<tr><td>UniProt ID</td><td>Q9H0E3 (SAP130_HUMAN)</td></tr>
+<tr><td>Evaluation Date</td><td>2026-06-04</td></tr>
+<tr><td>Previous Status</td><td>Previously unscored; flagged for re-evaluation</td></tr>
+<tr><td>Re-evaluation Reason</td><td>Complete re-evaluation per batch recovery protocol</td></tr>
+</tbody></table></div>
+<p><strong>NOMENCLATURE NOTE</strong>: SAP130 refers to the Sin3A-associated protein 130, a subunit of the HDAC-dependent SIN3A corepressor complex. This protein is distinct from SF3B3 (splicing factor 3b subunit 3), which is also sometimes referred to as SAP130 (spliceosome-associated protein 130) in older literature. The gene evaluated here is GeneID 79595, the HDAC complex component.</p>
+<h4>2. Scoring Overview</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Score</th><th>Max</th><th>Weighted</th><th>Key Evidence Summary</th></tr></thead><tbody>
+<tr><td>Nuclear Localization Specificity</td><td>8/10</td><td>x4</td><td><strong>32</strong></td><td>SIN3A-HDAC corepressor complex; nuclear transcriptional repression</td></tr>
+<tr><td>Protein Size</td><td>7/10</td><td>x1</td><td><strong>7</strong></td><td>~1,048 aa / ~130 kDa; slightly above ideal 200-800 aa range</td></tr>
+<tr><td>Research Novelty</td><td>8/10</td><td>x5</td><td><strong>40</strong></td><td>PubMed ~25-35 articles; moderately novel (21-40 -&gt; 8)</td></tr>
+<tr><td>3D Structure</td><td>4/10</td><td>x3</td><td><strong>12</strong></td><td>AlphaFold predicted; no experimental PDB entries; large protein</td></tr>
+<tr><td>Regulatory Domains</td><td>7/10</td><td>x2</td><td><strong>14</strong></td><td>HDAC complex subunit; transcriptional corepressor; SIN3A interaction</td></tr>
+<tr><td>PPI Network</td><td>6/10</td><td>x3</td><td><strong>18</strong></td><td>SIN3A complex members (SIN3A, SUDS3/SAP45, ARID4B/SAP180, HDAC1/2)</td></tr>
+<tr><td>Cross-Validation Bonus</td><td>--</td><td>--</td><td><strong>+1.0</strong></td><td>Nuclear localization multi-DB (+0.5); HDAC complex membership consensus (+0.5)</td></tr>
+<tr><td><strong>Raw Total</strong></td><td></td><td></td><td><strong>124.0/180</strong></td><td></td></tr>
+<tr><td><strong>Normalized Total</strong></td><td></td><td></td><td><strong>68.9/100</strong></td><td></td></tr>
+</tbody></table></div>
+<h4>3. Nuclear Localization Evidence</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Source</th><th>Localization</th><th>Reliability</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Nucleus</td><td>By similarity (SIN3A complex)</td></tr>
+<tr><td>GO-CC</td><td>Nucleus (GO:0005634)</td><td>ISS</td></tr>
+<tr><td>GO-CC</td><td>SIN3-type complex (GO:0070822)</td><td>ISS</td></tr>
+<tr><td>GeneCards</td><td>Nucleus</td><td>Predicted</td></tr>
+<tr><td>Functional Context</td><td>SIN3A-HDAC corepressor complex</td><td>Nuclear transcriptional repression</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF Status</strong>: HPA IF data not available in accessible databases for this protein.</p>
+<p><strong>Manual Review Assessment</strong>: SAP130 is a subunit of the SIN3A-HDAC corepressor complex, which functions exclusively in the nucleus to mediate transcriptional repression through histone deacetylation. The SIN3A complex is recruited to target gene promoters by sequence-specific transcription factors and represses transcription via HDAC1/HDAC2-mediated histone deacetylation. As a core component of this complex, SAP130&#x27;s function is intrinsically nuclear. The protein does not contain a recognizable NLS in public annotations, but its incorporation into the nuclear SIN3A complex ensures nuclear localization.</p>
+<p><strong>Key evidence for nuclear localization</strong>: 1. Component of the SIN3A-HDAC nuclear corepressor complex 2. Transcriptional repression function (nuclear process) 3. Interaction with nuclear proteins (SIN3A, HDAC1/HDAC2) 4. GO-CC annotations support nuclear localization</p>
+<p>Score 8/10 reflects strong functional evidence for nuclear localization through HDAC complex membership, with the caveat that direct experimental localization data is limited.</p>
+<h4>4. Protein Size Assessment</h4>
+<p>SAP130 is a large protein at approximately 130 kDa (~1,048 aa), which is above the ideal 200-800 aa experimental range. Large proteins (&gt;100 kDa) present technical challenges for recombinant expression, purification, and structural characterization. However, the modular nature of HDAC complex subunits may allow domain-level studies. Size score: 7/10.</p>
+<h4>5. Research Novelty (PubMed Analysis)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody>
+<tr><td>PubMed estimated count</td><td>~25-35</td></tr>
+<tr><td>Novelty category</td><td>21-40 -&gt; Score 8</td></tr>
+</tbody></table></div>
+<p><strong>Key Research Context</strong>: SAP130 was identified by Fleischer et al. (2003, PMID: 12724404) as a subunit of the SIN3A corepressor complex. Research since then has focused primarily on its role within the HDAC complex. Key publications include: 1. Fleischer et al. (2003) -- Identification and preliminary characterization of SAP130 as a SIN3A-associated polypeptide 2. Additional studies on SIN3A complex composition and function that reference SAP130</p>
+<p>SAP130 is notably less studied than other SIN3A complex components (SIN3A itself, HDAC1/2). Most publications mentioning SAP130 do so in the context of SIN3A complex characterization rather than as a dedicated research focus. However, the PubMed count includes papers on SIN3A complex biology that list SAP130 among complex components. Score 8/10 reflects moderate novelty.</p>
+<h4>6. 3D Structure Analysis</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody>
+<tr><td>AlphaFold Prediction</td><td>Available (predicted)</td></tr>
+<tr><td>PDB Entries</td><td>0 (no experimental structures for SAP130 alone)</td></tr>
+<tr><td>Structural Context</td><td>SIN3A complex structures may contain SAP130 density</td></tr>
+</tbody></table></div>
+<p>No experimental structures exist for SAP130 in isolation. Recent Cryo-EM structures of the SIN3A complex may contain SAP130 density, but the resolution and assignment may be limited. As a 130 kDa protein, full-length structural characterization is challenging. AlphaFold prediction is available but confidence metrics are not available without the harvest packet. Score 4/10 reflects the absence of dedicated experimental structures and the size-related challenges.</p>
+<h4>7. Domain Architecture</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Source</th><th>Domain/Feature</th><th>Notes</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>SIN3A interaction region</td><td>Mediates incorporation into SIN3A complex</td></tr>
+<tr><td>InterPro</td><td>Limited annotation</td><td>Large protein with sparse domain annotation</td></tr>
+<tr><td>Functional</td><td>Histone deacetylase complex subunit</td><td>Transcriptional corepressor</td></tr>
+</tbody></table></div>
+<p>SAP130&#x27;s domain architecture is poorly annotated. The protein&#x27;s defining feature is its interaction with SIN3A, which enables its incorporation into the HDAC corepressor complex. Unlike many transcriptional regulators, SAP130 does not contain recognizable DNA-binding domains, histone modification domains, or other canonical chromatin regulatory modules. This suggests it may function as a scaffold or assembly factor within the SIN3A complex rather than possessing intrinsic enzymatic or DNA-binding activity. Score 7/10 reflects well-defined functional complex membership despite limited domain annotation.</p>
+<h4>8. PPI Network Analysis</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Context</th><th>Functional Relevance</th></tr></thead><tbody>
+<tr><td>SIN3A</td><td>HDAC complex scaffold</td><td>Core interaction; defines complex membership</td></tr>
+<tr><td>SUDS3/SAP45</td><td>SIN3A complex subunit</td><td>HDAC complex component</td></tr>
+<tr><td>ARID4B/SAP180</td><td>SIN3A complex subunit</td><td>DNA/chromatin targeting</td></tr>
+<tr><td>HDAC1</td><td>Histone deacetylase</td><td>Enzymatic core of the complex</td></tr>
+<tr><td>HDAC2</td><td>Histone deacetylase</td><td>Enzymatic core of the complex</td></tr>
+<tr><td>CLEC4E</td><td>Dead/dying cell signaling</td><td>Reported interaction</td></tr>
+</tbody></table></div>
+<p>SAP130&#x27;s PPI network is focused on the SIN3A-HDAC corepressor complex. The interactions with SIN3A, SUDS3, ARID4B, HDAC1, and HDAC2 are well-established through complex purification studies. The interaction with CLEC4E was identified through high-throughput screens and may represent a context-dependent function outside the SIN3A complex. The PPI network is narrow in scope but functionally well-defined. Score 6/10 reflects focused complex membership with high functional relevance but limited network breadth.</p>
+<h4>9. Cross-Validation Analysis</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Sources</th><th>Result</th><th>Consistent?</th></tr></thead><tbody>
+<tr><td>SIN3A Complex</td><td>UniProt + GO-CC + Literature</td><td>SAP130 is a SIN3A-HDAC subunit</td><td>Multi-source consensus</td></tr>
+<tr><td>Nuclear Function</td><td>Complex membership + GO-CC</td><td>Nuclear transcriptional repression</td><td>Consistent</td></tr>
+<tr><td>HDAC Association</td><td>HDAC1/2 co-purification</td><td>Histone deacetylase complex</td><td>Validated</td></tr>
+</tbody></table></div>
+<p><strong>Cross-Validation Bonus Details</strong>:</p>
+<ul><li>Multi-source SIN3A-HDAC complex membership consensus: +0.5</li><li>Nuclear localization through complex function consistency: +0.5</li><li>No structural cross-validation (no PDB): +0</li><li>Limited PPI cross-validation (beyond SIN3A complex): +0</li><li><strong>Total Cross-Validation Bonus</strong>: +1.0 / max +3</li></ul>
+<h4>10. Overall Assessment</h4>
+<p><strong>Recommendation Level</strong>: RECOMMENDED (Score: 68.9/100)</p>
+<p><strong>Core Strengths</strong>: 1. Strong nuclear functional context through SIN3A-HDAC corepressor complex membership 2. Direct involvement in transcriptional regulation via histone deacetylation 3. Moderately novel (PubMed ~25-35) with dedicated studies being rare 4. Well-defined functional context provides clear experimental framework 5. Disease relevance: HDAC complexes are therapeutic targets in cancer</p>
+<p><strong>Risks / Uncertainties</strong>: 1. Large protein size (~130 kDa, ~1,048 aa) presents technical challenges (score 7/10) 2. No experimental PDB structures; structural characterization will be difficult 3. Direct experimental nuclear localization evidence is limited 4. Poorly annotated domain architecture 5. May function as a scaffold rather than possessing intrinsic enzymatic activity 6. Research focus on SIN3A complex as a whole, not SAP130 specifically</p>
+<p><strong>Next Steps</strong>:</p>
+<ul><li>[ ] Verify nuclear localization by IF in relevant cell types</li><li>[ ] Map SAP130 interaction surfaces within SIN3A complex by truncation/domain analysis</li><li>[ ] Investigate whether SAP130 has SIN3A-independent functions</li><li>[ ] Obtain AlphaFold pLDDT statistics and PAE data for domain identification</li><li>[ ] Assess SAP130-specific contributions to HDAC complex function (vs. other subunits)</li></ul>
+<h4>11. Decision</h4>
+<p><strong>FINAL DECISION</strong>: NOT REJECTED. Nuclear localization score 8/10 (above ≤3 threshold), PubMed count ~25-35 (below 100 threshold). SAP130 is a recommended candidate with good scores across most dimensions. Its membership in the SIN3A-HDAC corepressor complex provides a strong nuclear functional context and well-defined experimental framework. The primary concerns are the large protein size (~130 kDa) and lack of structural data. However, as a scaffold protein within a well-studied complex, focused domain-level studies may be productive without requiring full-length protein characterization. SAP130 is recommended for inclusion, ideally with a focus on defining its specific role within the SIN3A complex and any SIN3A-independent functions.</p>
+<h4>12. Data Sources</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9H0E3</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=SAP130</li><li>GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=SAP130</li><li>NCBI Gene: https://www.ncbi.nlm.nih.gov/gene/79595</li><li>Note: SAP130 is distinct from SF3B3; harvest packet not available; data compiled from UniProt and literature database queries</li></ul></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

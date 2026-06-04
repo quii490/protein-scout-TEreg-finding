@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BRSK1 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>BRSK1</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 100</span><span class="badge">Nuclear: 7</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/BRSK1/BRSK1-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;BRSK1&quot; date: 2026-06-01 tags: [protein-scout, nuclear-protein, evaluation] status: scored ---</p>
+<h3>BRSK1 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>BRSK1 / SAD1, SADB, KIAA1811</td></tr>
+<tr><td>蛋白全名</td><td>Serine/threonine-protein kinase BRSK1 (Brain-specific serine/threonine-protein kinase 1)</td></tr>
+<tr><td>蛋白大小</td><td>778 aa / 85.1 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q8TDC3 (BRSK1_HUMAN)</td></tr>
+<tr><td>评估日期</td><td>2026-06-01</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览 (权重: 核×4 大×1 新×5 结×3 域×2 PPI×3 /1.83)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>加权</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>7/10</td><td>×4</td><td><strong>28</strong></td><td>HPA: Nucleoplasm(主定位)+Vesicles+Plasma membrane; GO: nucleoplasm(IDA:HPA)+nucleus(IDA); UniProt: Cytoplasm+Nucleus; 核质为主(Supported)</td></tr>
+<tr><td>蛋白大小</td><td>8/10</td><td>×1</td><td><strong>8</strong></td><td>778 aa / 85.1 kDa, 接近300-800上界</td></tr>
+<tr><td>研究新颖性</td><td>8/10</td><td>×5</td><td>40</td><td>PubMed 35篇; ≤40区间</td></tr>
+<tr><td>三维结构</td><td>5/10</td><td>×3</td><td><strong>15</strong></td><td>AF pLDDT 66.0; 41%无序(pLDDT&lt;50); 无PDB实验结构</td></tr>
+<tr><td>调控结构域</td><td>6/10</td><td>×2</td><td><strong>12</strong></td><td>Ser/Thr kinase domain + UBA domain + KA1 domain; 磷酸化CDC25/WEE1/TAU; LKB1下游</td></tr>
+<tr><td>PPI</td><td>5/10</td><td>×3</td><td><strong>15</strong></td><td>STRING: KMT5C(0.776)+CDC25B(0.735)+WEE1(0.64); IntAct:15条含PSEN1+Fmr1; ~15%调控相关(KMT5C=H4K20me1)</td></tr>
+<tr><td>互证加分</td><td>—</td><td>—</td><td><strong>+1.0</strong></td><td>≥2源NuLoc(HPA+UniProt+GO); ≥3源结构域</td></tr>
+<tr><td><strong>原始总分</strong></td><td></td><td></td><td><strong>119/180</strong></td><td></td></tr>
+<tr><td><strong>归一化总分</strong></td><td></td><td></td><td><strong>65.0/100</strong></td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>HPA (IF)</td><td>Nucleoplasm (主定位, Supported), Vesicles, Plasma membrane</td><td>Supported</td></tr>
+<tr><td>UniProt</td><td>Cytoplasm; Nucleus; Centrosome; Synapse; Presynaptic active zone; Synaptic vesicle</td><td>ECO:0000269 (实验)</td></tr>
+<tr><td>GO-CC</td><td>nucleoplasm (IDA:HPA), nucleus (IDA:UniProtKB), centrosome (ISS), distal axon (ISS)</td><td>IDA</td></tr>
+</tbody></table></div>
+<p><strong>IF 图像</strong>: HPA有IF展示图但检测为no_image_detected状态。Nucleoplasm为主定位(Protein Atlas annotation)。</p>
+<p><strong>结论</strong>: BRSK1在HPA中被标记为主要定位于Nucleoplasm (Supported可靠性)，同时检测到Vesicles和Plasma membrane的附加定位。GO-CC的nucleoplasm拥有IDA:HPA实验证据。UniProt实验证据包含Nucleus(ECO:0000269)。但蛋白也在胞质、突触和中心体有明确分布(LKB1-AMPK家族脑特异性激酶，神经元功能和中心体复制均有角色)。核定位明确且为主定位，评分7分。</p>
+<h5>3.2 蛋白大小评估</h5>
+<p><strong>评价</strong>: 778 aa / 85.1 kDa，接近300-800理想区间上界。蛋白大小可接受，适合标准生化实验。包含kinase domain(~250aa)+UBA+KA1+长N端调节区，域架构合理。评分8分。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict</td><td>35</td></tr>
+<tr><td>PubMed broad</td><td>71</td></tr>
+<tr><td>Chromatin/epigenetics 比例</td><td>&lt;5%</td></tr>
+</tbody></table></div>
+<p><strong>主要研究方向</strong>:</p>
+<ul><li>神经元极性(LKB1下游, TAU/MAP2磷酸化)</li><li>中心体复制(gamma-tubulin磷酸化)</li><li>UV诱导DNA损伤检查点(CDC25/WEE1)</li><li>神经发育疾病(癫痫、BRSK1 haploinsufficiency)</li><li>卵巢早衰/绝经年龄(GWAS)</li></ul>
+<p><strong>关键文献</strong>: 1. Zhang Q et al. (2025). &quot;Haploinsufficiency of brain-specific kinase BRSK1 causes epilepsy and neurodevelopmental disorders.&quot; *Epilepsia*. PMID: 41035394 2. Dugan MP et al. (2024). &quot;Brain-specific serine/threonine-protein kinase 1 is a substrate of protein kinase C epsilon involved in sex-specific ethanol and anxiety phenotypes.&quot; *Addict Biol*. PMID: 38497285 3. Gill MK et al. (2025). &quot;Integrative High-Throughput RNAi Screening Identifies BRSK1, STK32C and STK40 as Novel Activators of YAP/TAZ.&quot; *Int J Mol Sci*. PMID: 40869130 4. Qin Y et al. (2012). &quot;ESR1, HK3 and BRSK1 gene variants are associated with both age at natural menopause and premature ovarian failure.&quot; *Orphanet J Rare Dis*. PMID: 22248077 5. Bright NJ et al. (2008). &quot;Investigating the regulation of brain-specific kinases 1 and 2 by phosphorylation.&quot; *J Biol Chem*. PMID: 18339622</p>
+<p><strong>评价</strong>: 35篇PubMed属于高新颖性区间。BRSK1的chromatin/epigenetics方向几乎完全未开发。YAP/TAZ激活功能(PMID:40869130)揭示其潜在的转录调控角色。评分8分。</p>
+<h5>3.4 三维结构分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold 平均 pLDDT</td><td>66.0</td></tr>
+<tr><td>pLDDT &gt;90 占比</td><td>26.7%</td></tr>
+<tr><td>pLDDT 70-90 占比</td><td>24.7%</td></tr>
+<tr><td>pLDDT &lt;50 占比</td><td>41.0%</td></tr>
+<tr><td>可用 PDB 条目</td><td>无</td></tr>
+</tbody></table></div>
+<p><strong>评价</strong>: 结构质量中等偏低。AlphaFold pLDDT=66.0，41.0%残基pLDDT&lt;50(高度无序)。kinase domain区域(26-280)预测质量较好，但长N端(1-25)和C端调节区(600-778)高度无序。无PDB实验结构，完全依赖AF预测。评分5分。</p>
+<h5>3.5 结构域分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>结构域</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Protein kinase (IPR000719)</td></tr>
+<tr><td>InterPro</td><td>IPR011009(Kinase-like); IPR000719(Protein kinase); IPR015940(UBA-like); IPR048622(KA1 domain)</td></tr>
+<tr><td>Pfam</td><td>PF00069 (Pkinase); PF21122; PF21115</td></tr>
+</tbody></table></div>
+<p><strong>调控潜力分析</strong>: BRSK1含Ser/Thr kinase domain + UBA-like domain + KA1 domain。KA1(kinase associated-1)域通常参与蛋白定位和底物识别。作为LKB1-AMPK家族成员，BRSK1参与细胞极性调控(神经元轴突特化)。其底物包括WEE1(细胞周期检查点激酶)和CDC25家族磷酸酶，均参与G2/M转换。最近发现BRSK1可激活YAP/TAZ转录共激活因子(PMID:40869130)，提示其可能间接参与转录调控。但无chromatin-binding结构域。评分6分。</p>
+<h5>3.6 PPI 网络</h5>
+<p><strong>实验验证互作</strong> (IntAct, 15条):</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>方法</th><th>PMID</th><th>功能类别</th><th>调控相关？</th></tr></thead><tbody>
+<tr><td>PSEN1</td><td>pull down</td><td>27036734</td><td>Presenilin-1, gamma-secretase</td><td>否(神经)</td></tr>
+<tr><td>Fmr1 (FMRP)</td><td>anti bait coIP</td><td>28671696</td><td>RNA-binding, translation regulator</td><td>间接(翻译)</td></tr>
+<tr><td>S100A2</td><td>anti tag coIP</td><td>33961781</td><td>Calcium-binding</td><td>否</td></tr>
+<tr><td>H2BC20P</td><td>cross-linking</td><td>30021884</td><td>Histone H2B family</td><td>是(染色质)</td></tr>
+<tr><td>SNCA</td><td>pull down</td><td>18614564</td><td>alpha-synuclein</td><td>否</td></tr>
+<tr><td>MTNR1B</td><td>two hybrid</td><td>26514267</td><td>Melatonin receptor</td><td>否</td></tr>
+</tbody></table></div>
+<p><strong>STRING 预测互作</strong> (combined score &gt;0.4):</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>功能类别</th><th>调控相关？</th></tr></thead><tbody>
+<tr><td>CDR2</td><td>0.778</td><td>Cerebellar degeneration</td><td>否</td></tr>
+<tr><td><strong>KMT5C</strong></td><td>0.776</td><td>Histone H4K20 methyltransferase (SUV420H2)</td><td><strong>是(染色质表观)</strong></td></tr>
+<tr><td>HSPBP1</td><td>0.764</td><td>HSP70 binding</td><td>否</td></tr>
+<tr><td>CDC25B</td><td>0.735 (exp 0.485)</td><td>Cell cycle phosphatase</td><td>否(细胞周期)</td></tr>
+<tr><td>WEE1</td><td>0.640 (exp 0.436)</td><td>Cell cycle kinase</td><td>否(细胞周期)</td></tr>
+<tr><td>NAP1L3</td><td>0.533 (exp 0.411)</td><td>Nucleosome assembly protein 1-like 3</td><td><strong>是(染色质组装)</strong></td></tr>
+<tr><td>MAPT</td><td>0.527 (exp 0.292)</td><td>Tau, microtubule</td><td>否</td></tr>
+<tr><td>CDC25C</td><td>0.597 (exp 0.485)</td><td>Cell cycle phosphatase</td><td>否</td></tr>
+</tbody></table></div>
+<p><strong>PPI 评价</strong>: KMT5C(SUV420H2, H4K20me1/me2甲基转移酶)是最显著的chromatin调控partner(STRING 0.776 textmining)。NAP1L3是核小体组装蛋白。CDC25B/C和WEE1是已知BRSK1底物(细胞周期调控)。IntAct中H2BC20P(Histone H2B)实验互作进一步支持chromatin关联。但整体PPI信号较弱(最高STRING仅0.778)，且无高置信度实验验证的chromatin互作。评分5分。</p>
+<h4>4. 总体评价</h4>
+<p><strong>推荐等级</strong>: 3星 (65.0/100)</p>
+<p><strong>核心优势</strong>: 1. 高新颖性(35篇), chromatin/epigenetics方向几乎空白 2. HPA主定位为Nucleoplasm (Supported)，核定位明确 3. KMT5C(组蛋白甲基转移酶)与NAP1L3(核小体组装)的PPI关联提示chromatin调控潜力 4. YAP/TAZ激活功能揭示转录调控角色 5. 蛋白尺寸理想(778aa)</p>
+<p><strong>风险/不确定性</strong>: 1. 41%无序区域(AF)，无PDB实验结构 2. 主要功能为神经元极性/中心体复制，chromatin功能未经验证 3. KMT5C/NAP1L3关联均为textmining/低实验证据 4. 脑特异性表达，在其他组织中表达受限</p>
+<p><strong>下一步建议</strong>:</p>
+<ul><li>[ ] 验证BRSK1在核内的底物磷酸化谱</li><li>[ ] 探索BRSK1-KMT5C功能关联在H4K20甲基化调控中的意义</li><li>[ ] 利用YAP/TAZ通路探究BRSK1在转录调控中的间接角色</li></ul>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q8TDC3</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000160469-BRSK1</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=BRSK1</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8TDC3</li><li>STRING: https://string-db.org/ (BRSK1)</li><li>IntAct: https://www.ebi.ac.uk/intact/</li></ul>
+<p><strong>HPA IF 状态</strong>: HPA IF 图像已本地嵌入。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/BRSK1/BRSK1_IF_147_G7_1_red_green.jpg</code></div></figure>。核定位基于HPA localization/reliability + UniProt + GO-CC。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/BRSK1/BRSK1-PAE.png</code></div></figure></p>
+<h5>PPI 网络</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th></tr></thead><tbody>
+<tr><td>CDR2</td><td>STRING</td><td>0.778</td></tr>
+<tr><td>KMT5C</td><td>STRING</td><td>0.776</td></tr>
+<tr><td>HSPBP1</td><td>STRING</td><td>0.764</td></tr>
+<tr><td>CDC25B</td><td>STRING</td><td>0.735</td></tr>
+<tr><td>WEE1</td><td>STRING</td><td>0.64</td></tr>
+<tr><td>Shc1</td><td>IntAct</td><td>psi-mi:&quot;MI:0018&quot;(two hybrid)</td></tr>
+<tr><td>HSD17B7</td><td>IntAct</td><td>psi-mi:&quot;MI:0397&quot;(two hybrid ar</td></tr>
+<tr><td>SNCA</td><td>IntAct</td><td>psi-mi:&quot;MI:0096&quot;(pull down)</td></tr>
+</tbody></table></div>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/BRSK1/BRSK1-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

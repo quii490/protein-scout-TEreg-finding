@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AFF3 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>AFF3</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 3</span><span class="badge">Nuclear: 4</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/AFF3/AFF3-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;AFF3&quot; date: 2026-05-29 tags: [protein-scout, nuclear-protein, evaluation] status: scored ---</p>
+<h3>AFF3 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>AFF3 / LAF4 (Lymphoid nuclear protein related to AF4)</td></tr>
+<tr><td>蛋白大小</td><td>1226 aa / ~135 kDa</td></tr>
+<tr><td>UniProt ID</td><td>P51826</td></tr>
+<tr><td>全称</td><td>AF4/FMR2 family member 3 (ALF transcription elongation factor 3)</td></tr>
+<tr><td>功能摘要</td><td>推定转录激活因子，参与淋巴发育和肿瘤发生；体外结合双链DNA；超级延伸复合体（Super Elongation Complex, SEC）成员</td></tr>
+<tr><td>评估日期</td><td>2026-05-29</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>满分</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>7</td><td>10</td><td>×4 = 28</td><td>HPA IF Supported: 主要核质（3/3 细胞系），部分胞质（2/3 系），核体（U-251MG）</td></tr>
+<tr><td>蛋白大小</td><td>5</td><td>10</td><td>×1 = 5</td><td>1226 aa，1200–2000 aa 范围</td></tr>
+<tr><td>研究新颖性</td><td>4/10</td><td>10</td><td>20</td><td>PubMed 76 篇 (51–100)，AF4/FMR2 家族中研究最少的成员</td></tr>
+<tr><td>三维结构</td><td>6</td><td>10</td><td>×3 = 18</td><td>无PDB；AlphaFold pLDDT均值 51.17，14%高置信度折叠域在C端</td></tr>
+<tr><td>调控结构域</td><td>7</td><td>10</td><td>×2 = 14</td><td>AF-4 (PF05110) + AF4_int (PF18875) + AFF4_CHD (PF18876)；体外DNA结合</td></tr>
+<tr><td>🔗 PPI</td><td>10/10</td><td>×3</td><td><strong>30</strong></td><td>详见 3.6 PPI 分析</td></tr>
+<tr><td>互证加分</td><td>+3</td><td>max +3</td><td>+3</td><td>定位(Atlas+UniProt+GO) + 结构域(Pfam+InterPro) + PPI(IntAct+STRING+GO-CC)</td></tr>
+<tr><td><strong>原始总分</strong></td><td></td><td></td><td><strong>118/183</strong></td><td></td></tr>
+<tr><td><strong>归一化总分</strong></td><td></td><td></td><td><strong>64.5/100</strong></td><td></td></tr>
+</tbody></table></div>
+<p>&gt; 评分公式：原始 = (7×4) + (5×1) + (6×5) + (6×3) + (7×2) + (10×3) + 3 = 128；归一化 = 128 ÷ 1.83 = 69.9</p>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>GeneCards</td><td>Nucleus</td><td>—</td></tr>
+<tr><td>Protein Atlas (IF)</td><td>Mainly nucleoplasm, additional cytosol; nuclear bodies (U-251MG)</td><td>Supported (Ab: HPA053379)</td></tr>
+<tr><td>UniProt</td><td>Nucleus</td><td>Swiss-Prot reviewed</td></tr>
+<tr><td>GO-CC</td><td>Nuclear body (IDA:HPA), Nucleoplasm (IDA:HPA), Cytosol (IDA:HPA), Nucleus (IDA:BHF-UCL)</td><td>IDA 证据</td></tr>
+</tbody></table></div>
+<p><strong>IF 图像</strong>:</p>
+<p>U-251MG (胶质瘤细胞系) — 核质 + 核体 + 胞质： <figure><div class="missing-image">Missing local image: <code>../assets/report-images/AFF3/U251MG_1.jpg</code></div></figure> <figure><div class="missing-image">Missing local image: <code>../assets/report-images/AFF3/U251MG_2.jpg</code></div></figure></p>
+<p>U2OS (骨肉瘤细胞系) — 纯核质： <figure><div class="missing-image">Missing local image: <code>../assets/report-images/AFF3/U2OS_1.jpg</code></div></figure> <figure><div class="missing-image">Missing local image: <code>../assets/report-images/AFF3/U2OS_2.jpg</code></div></figure></p>
+<p><strong>结论</strong>: AFF3 主要定位于核质，在 U-251MG 中可见核体信号，部分细胞系存在胞质信号（HPA 判定为附加定位而非主要定位）。HPA 可靠性等级为 Supported。核定位明确，得分 7/10（主要核定位，HPA IF 确认，但存在部分胞质信号）。</p>
+<h5>3.2 蛋白大小评估</h5>
+<p>AFF3 全长 1226 aa（约 135 kDa），属于中等偏大蛋白（1200–2000 aa 范围）。蛋白含有大量无序区域（约 78% 低置信度），实际折叠核心在 C 端约 245 aa。适合常规生化实验但全长蛋白表达和结晶有挑战。得分 5/10。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed 总数 (Title/Abstract)</td><td>76 篇</td></tr>
+<tr><td>最早发表年份</td><td>1990s (LAF4克隆)</td></tr>
+<tr><td>Chromatin/epigenetics 相关比例</td><td>~50%（集中于白血病/转录延伸/SEC方向）</td></tr>
+</tbody></table></div>
+<p><strong>主要研究方向</strong>:</p>
+<ul><li>AFF3 在白血病中的染色体易位（与 MLL 融合）</li><li>AF4/FMR2 家族在转录延伸中的功能</li><li>KINSSHIP 综合征（AFF3 突变导致的神经发育障碍）</li><li>AFF3 与前列腺癌/铁死亡的关系</li><li>GCC 重复扩增与智力障碍的关联</li></ul>
+<p><strong>关键文献</strong>: 1. Jadhav B et al. (2024). &quot;A phenome-wide association study of methylated GC-rich repeats identifies a GCC repeat expansion in AFF3 associated with intellectual disability.&quot; *Nat Genet*. PMID: 39313615 2. Inoue Y et al. (2023). &quot;Three KINSSHIP syndrome patients with mosaic and germline AFF3 variants.&quot; *Clin Genet*. PMID: 36576140 3. Sun D et al. (2024). &quot;Molecular evolution of transcription factors AF4/FMR2 family member (AFF) gene family and the role of lamprey AFF3 in cell proliferation.&quot; *Dev Genes Evol*. PMID: 38733410 4. Fan A et al. (2024). &quot;Loss of AR-regulated AFF3 contributes to prostate cancer progression and reduces ferroptosis sensitivity by downregulating ACSL4 based on single-cell sequencing analysis.&quot; *Apoptosis*. PMID: 38478171 5. Annear DJ et al. (2023). &quot;Unravelling the link between neurodevelopmental disorders and short tandem CGG-repeat expansions.&quot; *Emerg Top Life Sci*. PMID: 37768318</p>
+<p><strong>评价</strong>: AFF3 在 AF4/FMR2 家族中（AFF1/AFF2/AFF3/AFF4）是研究最少的成员。AFF1 (AF4) 和 AFF4 因在 SEC 复合体中的核心作用已被大量研究，而 AFF3 虽同为 SEC 成员，独立功能研究尚不充分。76 篇论文中约一半与白血病易位有关，蛋白本身的生化功能、染色质结合机制、核体定位功能等方向均有探索空间。极具新颖性潜力。得分 6/10（51–100 篇）。</p>
+<h5>3.4 三维结构分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold 平均 pLDDT</td><td>51.17</td></tr>
+<tr><td>Very Low pLDDT (&lt;50) 占比</td><td>69.5% (852/1226)</td></tr>
+<tr><td>Low pLDDT (50–70) 占比</td><td>8.6% (105/1226)</td></tr>
+<tr><td>Confident pLDDT (70–90) 占比</td><td>7.9% (97/1226)</td></tr>
+<tr><td>Very High pLDDT (&gt;90) 占比</td><td>14.0% (172/1226)</td></tr>
+<tr><td>有序区域 (pLDDT&gt;70) 占比</td><td>21.9% (269/1226)</td></tr>
+<tr><td>C 端高置信折叠域</td><td>976–1220（约 245 aa，含 AF4_int + AFF4_CHD 域）</td></tr>
+<tr><td>N 端 AF-4 域</td><td>第 68 位附近极小高置信区（1 aa），整体预测差</td></tr>
+<tr><td>可用 PDB 条目</td><td><strong>无</strong></td></tr>
+</tbody></table></div>
+<p><strong>PAE 图</strong>: <figure><div class="missing-image">Missing local image: <code>../assets/report-images/AFF3/AFF3-PAE.png</code></div></figure></p>
+<p><strong>PAE 数值分析</strong>:</p>
+<ul><li>PAE 矩阵尺寸: 1226 × 1226</li><li>C 端区域 (976–1226) 域内 PAE 低，指示独立折叠结构域</li><li>N 端区域 PAE 高，对应大规模无序区</li><li>域间 PAE 高，指示不同区域之间缺乏稳定堆积</li></ul>
+<p><strong>评价</strong>: AFF3 整体为高度无序蛋白（69.5% 极低置信度），仅 C 端 245 aa 形成可辨识的折叠域（含 AF4_int + AFF4_CHD 两个 Pfam 结构域）。N 端 AF-4 同源域在 AlphaFold 预测中几乎不可见（仅 1 aa 高置信），可能与天然无序特征或需结合伴侣才能折叠有关。无 PDB 实验结构可用。由于 PubMed ≤100，新颖蛋白的结构差是正常现象，使用基线分。得分 6/10（基线）。</p>
+<h5>3.5 结构域分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>结构域</th></tr></thead><tbody>
+<tr><td>UniProt features</td><td>无注释结构域（仅8段无序区域注释）</td></tr>
+<tr><td>Pfam</td><td>PF05110 (AF-4, N端同源域), PF18875 (AF4_int, 内部相互作用域), PF18876 (AFF4_CHD, C端同源域)</td></tr>
+<tr><td>InterPro</td><td>IPR007797 (AF4/FMR2), IPR043640 (AF4/FMR2_CHD), IPR043639 (AF4_int)</td></tr>
+<tr><td>SMART</td><td>待验证（需浏览器访问）</td></tr>
+</tbody></table></div>
+<p><strong>染色质调控潜力分析</strong>:</p>
+<p>AFF3 的 AF4/FMR2 家族结构域主要介导蛋白-蛋白相互作用，而非直接 DNA 结合：</p>
+<ul><li><strong>AF-4 (PF05110)</strong>：N 端同源域，功能尚不明确，可能参与 SEC 复合体组装</li><li><strong>AF4_int (PF18875)</strong>：内部结构域，可能介导与 ELL 家族延伸因子的互作</li><li><strong>AFF4_CHD (PF18876)</strong>：C 端同源结构域，可能介导与 P-TEFb (CDK9/Cyclin T) 的互作</li></ul>
+<p>值得注意的是，UniProt 注释 AFF3 &quot;Binds, in vitro, to double-stranded DNA&quot;，且 GO 标注 DNA-binding transcription factor activity (IEA:Ensembl)，提示该蛋白可能具有非经典 DNA 结合机制。IDR 区域可能在结合 DNA 中起重要作用（&quot;fuzzy&quot; 结合模式）。</p>
+<p>AF-4 域在 AlphaFold 中预测为无序状态，可能具有条件性折叠（coupled folding and binding）特征。得分 7/10（基线，新颖蛋白的正常状态）。</p>
+<h5>3.6 PPI 网络</h5>
+<p><strong>实验验证互作 (IntAct, 人类)</strong>:</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>方法</th><th>PMID</th><th>功能类别</th><th>调控相关？</th></tr></thead><tbody>
+<tr><td>CDK9</td><td>anti-bait coIP / pull-down / TAP</td><td>23455922, 28514442, 30021884, 32707033</td><td>转录延伸激酶 (P-TEFb)</td><td><strong>是</strong></td></tr>
+<tr><td>MLLT1 (ENL)</td><td>anti-bait coIP</td><td>23455922</td><td>染色质阅读器 (YEATS域), SEC成员</td><td><strong>是</strong></td></tr>
+<tr><td>MLLT3 (AF9)</td><td>anti-bait coIP</td><td>23455922</td><td>染色质阅读器 (YEATS域), SEC成员</td><td><strong>是</strong></td></tr>
+<tr><td>PIP4K2A</td><td>anti-bait coIP</td><td>23455922</td><td>磷脂酰肌醇激酶</td><td>否</td></tr>
+<tr><td>MLLT3-like</td><td>anti-HA coIP</td><td>31413325</td><td>MLLT3 同源蛋白</td><td><strong>是</strong></td></tr>
+</tbody></table></div>
+<p><strong>STRING 预测互作 (combined score &gt;0.4)</strong>:</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>escore</th><th>功能类别</th><th>调控相关？</th></tr></thead><tbody>
+<tr><td>MLLT3</td><td>0.964</td><td>0.546</td><td>染色质阅读器, SEC</td><td><strong>是</strong></td></tr>
+<tr><td>MLLT1</td><td>0.959</td><td>0.638</td><td>染色质阅读器, SEC</td><td><strong>是</strong></td></tr>
+<tr><td>CDK9</td><td>0.947</td><td>0.808</td><td>转录延伸激酶 (P-TEFb)</td><td><strong>是</strong></td></tr>
+<tr><td>EAF1</td><td>0.900</td><td>0</td><td>ELL 相关因子, SEC</td><td><strong>是</strong></td></tr>
+<tr><td>AFF4</td><td>0.835</td><td>0</td><td>SEC 支架蛋白</td><td><strong>是</strong></td></tr>
+<tr><td>ELL</td><td>0.834</td><td>0.049</td><td>转录延伸因子, SEC</td><td><strong>是</strong></td></tr>
+<tr><td>ELL2</td><td>0.782</td><td>0.049</td><td>转录延伸因子, SEC</td><td><strong>是</strong></td></tr>
+<tr><td>CCNT1</td><td>0.771</td><td>0.045</td><td>Cyclin T1, P-TEFb 组分</td><td><strong>是</strong></td></tr>
+<tr><td>AFF1</td><td>0.769</td><td>0</td><td>AF4, SEC 支架蛋白</td><td><strong>是</strong></td></tr>
+<tr><td>ELL3</td><td>0.701</td><td>0.049</td><td>转录延伸因子, SEC</td><td><strong>是</strong></td></tr>
+<tr><td>CCNT2</td><td>0.699</td><td>0.045</td><td>Cyclin T2, P-TEFb 组分</td><td><strong>是</strong></td></tr>
+<tr><td>KMT2A</td><td>0.631</td><td>0.125</td><td>H3K4 甲基转移酶 (MLL1)</td><td><strong>是</strong></td></tr>
+<tr><td>LONRF2</td><td>0.665</td><td>0.045</td><td>E3 泛素连接酶</td><td>否</td></tr>
+</tbody></table></div>
+<p><strong>已知复合体成员 (GO Cellular Component)</strong>:</p>
+<ul><li><strong>Super Elongation Complex (SEC)</strong> (GO:0032783, IBA:GO_Central)：AFF3 是 SEC 的组成成员，与 CDK9、CCNT1/2、AFF1/4、ELL1/2/3、MLLT1/3、EAF1/2 共同构成转录延伸复合体</li></ul>
+<p><strong>PPI 互证分析</strong>:</p>
+<ul><li><strong>STRING + IntAct 共同确认</strong>: CDK9（IntAct coIP/pull-down/TAP + STRING escore 0.808）、MLLT1（IntAct coIP + STRING escore 0.638）、MLLT3（IntAct coIP + STRING escore 0.546）→ 极高可信度</li><li><strong>仅 STRING 预测</strong>: AFF4, ELL, ELL2, ELL3, CCNT1, CCNT2, AFF1, EAF1, KMT2A, LONRF2（均为 SEC 相关或邻近因子，功能关联强）</li><li><strong>仅 IntAct 实验</strong>: PIP4K2A, MLLT3-like</li><li><strong>GO-CC 互证</strong>: SEC complex 成员身份与 STRING/IntAct 数据一致</li></ul>
+<p>调控相关比例: 15/18 (83.3%)</p>
+<p><strong>评价</strong>: AFF3 的 PPI 网络极其清晰且高度富集于转录调控因子。该蛋白是 Super Elongation Complex 的核心成员，与 P-TEFb (CDK9/CyclinT)、ELL 延伸因子、MLLT/AFF 支架蛋白、KMT2A 组蛋白甲基转移酶形成功能网络。83% 的互作伙伴为转录/染色质调控因子，远超 40% 阈值。IntAct 有直接 coIP 实验证据支持 CDK9、MLLT1、MLLT3 的物理互作。这是一个高度调控相关、物理互作证据充足的 PPI 网络。得分 10/10。</p>
+<h5>3.7 多库互证</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>来源</th><th>结果</th><th>是否一致</th></tr></thead><tbody>
+<tr><td>亚细胞定位</td><td>Protein Atlas IF / UniProt / GO-CC</td><td>核质/核体（Protein Atlas Supported + UniProt Nucleus + GO IDA）</td><td><strong>一致</strong> ✓</td></tr>
+<tr><td>三维结构</td><td>AlphaFold + PDB</td><td>AlphaFold 预测（C端折叠域）；无 PDB 实验结构</td><td>N/A (仅 AlphaFold)</td></tr>
+<tr><td>结构域</td><td>Pfam / InterPro</td><td>AF-4 (PF05110), AF4_int (PF18875), AFF4_CHD (PF18876)</td><td><strong>一致</strong> ✓</td></tr>
+<tr><td>PPI</td><td>IntAct + STRING + GO-CC</td><td>CDK9/MLLT1/MLLT3 coIP + STRING高分 + SEC复合体</td><td><strong>一致</strong> ✓</td></tr>
+</tbody></table></div>
+<p><strong>互证加分明细</strong>:</p>
+<ul><li>亚细胞定位三源一致 (Protein Atlas + UniProt + GO-CC)：<strong>+1</strong></li><li>结构域二源一致 (Pfam + InterPro)：<strong>+1</strong></li><li>PPI 三源一致 (IntAct coIP + STRING escore + GO-CC SEC)：<strong>+1</strong></li></ul>
+<p><strong>互证总分</strong>: +3 / max +3</p>
+<h4>4. 总体评价</h4>
+<p><strong>推荐等级</strong>: ★★★★☆ (4/5)</p>
+<p><strong>核心优势</strong>: 1. <strong>SEC 核心成员，PPI 信号极强</strong>：AFF3 是 Super Elongation Complex 的组成部分，network 中 83% 的邻居为转录/染色质调控因子，且有 CDK9/MLLT1/MLLT3 的 coIP 实验证据直接支持物理互作 2. <strong>AF4/FMR2 家族中研究最少</strong>：AFF1 (AF4) 和 AFF4 已有大量白血病及 SEC 研究，AFF3 虽同属该家族，独立功能（尤其是染色质结合机制和核体定位功能）几乎未被探索，新颖性空间充足 3. <strong>疾病关联多样</strong>：从 KINSSHIP 综合征（神经发育）到白血病（MLL 融合）到前列腺癌，提示多功能性</p>
+<p><strong>风险/不确定性</strong>: 1. <strong>高度无序、结构差</strong>：69.5% 残基 pLDDT &lt; 50，仅 C 端 245 aa 可折叠。无 PDB 实验结构。IDR 区域的生化表征困难但也是新机制（conditional folding, fuzzy binding）的潜力空间 2. <strong>缺乏经典 DNA 结合域</strong>：虽标注&quot;in vitro binds dsDNA&quot;，但 AF4/FMR2 家族域主要介导蛋白互作而非 DNA 结合，具体 DNA 识别机制不清 3. <strong>核体定位功能未知</strong>：U-251MG 中观察到核体定位（可能与 PML body 或其他核体相关），但该定位的功能意义完全未被研究</p>
+<p><strong>下一步建议</strong>:</p>
+<ul><li>[ ] 克隆并表达 C 端折叠域（976-1220 aa）用于结构生物学研究</li><li>[ ] ChIP-seq 确定 AFF3 在基因组上的结合位点，验证直接染色质结合</li><li>[ ] 通过 IDR 截短实验研究无序区域在 DNA 结合和 SEC 组装中的角色</li><li>[ ] 研究 AFF3 核体定位的功能（与其他核体蛋白如 PML/SP100 的共定位）</li></ul>
+<h4>5. 数据来源</h4>
+<ul><li>GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=AFF3</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000144218-AFF3/subcellular</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22AFF3%22%5BTitle/Abstract%5D</li><li>UniProt: https://www.uniprot.org/uniprotkb/P51826</li><li>Pfam/InterPro: https://www.ebi.ac.uk/interpro/protein/UniProt/P51826/</li><li>STRING: https://string-db.org/network/9606.ENSP00000386834</li><li>IntAct: https://www.ebi.ac.uk/intact/search?query=AFF3</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/P51826</li></ul>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/AFF3/AFF3-PAE.png</code></div></figure></p>
+<p>PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/AFF3/AFF3-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

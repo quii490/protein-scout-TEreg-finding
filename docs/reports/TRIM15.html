@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TRIM15 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>TRIM15</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 15</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/TRIM15/TRIM15-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;TRIM15&quot; date: 2026-06-01 tags: [protein-scout, nucleoplasm, evaluation] status: scored ---</p>
+<h3>TRIM15 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>TRIM15 / RNF93, ZNF178, ZNFB7</td></tr>
+<tr><td>蛋白全名</td><td>E3 ubiquitin-protein ligase TRIM15</td></tr>
+<tr><td>蛋白大小</td><td>465 aa / 52.1 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q9C019</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>新权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>4/10</td><td>x4</td><td>16.0</td><td>UniProt nucleus (IDA:UniProt); GO nucleus (IDA); 但 HPA 分类为 Centriolar satellite + Cytosol，非核</td></tr>
+<tr><td>蛋白大小</td><td>5/10</td><td>x1</td><td>5.0</td><td>465 aa, 52.1 kDa</td></tr>
+<tr><td>研究新颖性</td><td>8/10</td><td>x5</td><td>40.0</td><td>PubMed strict=29</td></tr>
+<tr><td>三维结构</td><td>5/10</td><td>x3</td><td>15.0</td><td>AF pLDDT 83.9 (49.7% &gt;90); PDB 1个 (7QS2, SPRY domain)</td></tr>
+</tbody></table></div>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/TRIM15/TRIM15-PAE.png</code></div></figure></p>
+<div class="table-wrap"><table>
+<tbody>
+<tr><td>调控结构域</td><td>6/10</td><td>x2</td><td>12.0</td><td>RING finger (E3 ligase) + B-box + SPRY/B30.2 domain; 典型 TRIM 家族架构</td></tr>
+<tr><td>PPI 网络</td><td>5/10</td><td>x3</td><td>15.0</td><td>STRING 中 PXN (0.63 exp); IntAct 含 AXIN1/TRIM8/CDK6 等 Y2H</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>103/180</strong>**</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+0.0</td><td></td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>56.3/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Nucleus (ECO:0000269), Cytoplasm (ECO:0000269), Focal adhesion</td><td>实验证据 (IDA)</td></tr>
+<tr><td>GO-CC</td><td>nucleus (IDA:UniProt), cytoplasm (IBA)</td><td>直接实验</td></tr>
+<tr><td>HPA (IF)</td><td>Centriolar satellite, Cytosol (main: Cytosol)</td><td>Approved, 但未列核定位</td></tr>
+<tr><td>文献</td><td>PMID:25450970 focal adhesion protein; PMID:34497368 ERK activation</td><td>部分胞质/黏着斑功能</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 状态</strong>: Approved — 6 张 IF 原图可用，显示 Centriolar satellite + Cytosol 定位，HPA 未确认核定位。<figure><div class="missing-image">Missing local image: <code>../assets/report-images/TRIM15/TRIM15-IF1.jpg</code></div></figure><figure><div class="missing-image">Missing local image: <code>../assets/report-images/TRIM15/TRIM15-IF2.jpg</code></div></figure></p>
+<p><strong>结论</strong>: TRIM15 在 UniProt/GO 中有 IDA 级别的核定位证据，但 HPA IF 分类不包含核定位，一致性不足。保留为低置信度核蛋白候选，需独立验证。</p>
+<h5>3.2 结构与数据源</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold</td><td>AF-Q9C019-F1</td></tr>
+<tr><td>平均 pLDDT</td><td>83.9</td></tr>
+<tr><td>pLDDT &gt;90</td><td>49.7%</td></tr>
+<tr><td>pLDDT &lt;50</td><td>8.0%</td></tr>
+<tr><td>PDB</td><td>7QS2 (1.70A, SPRY domain 289-465)</td></tr>
+<tr><td>InterPro</td><td>IPR001870 (B-box), IPR003877 (SPRY), IPR001841 (RING finger), IPR000315 (B30.2)</td></tr>
+<tr><td>Pfam</td><td>PF13765 (B-box), PF00622 (SPRY), PF00643 (B-box), PF00097 (RING finger)</td></tr>
+</tbody></table></div>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict (Title/Abstract)</td><td>29</td></tr>
+<tr><td>PubMed broad</td><td>42</td></tr>
+<tr><td>别名</td><td>RNF93, ZNF178, ZNFB7（未用于 scoring）</td></tr>
+</tbody></table></div>
+<p>关键文献：PMID:40138455 (OA chondrocyte senescence, 2025), PMID:34497368 (ERK Lys63-ubiquitination, Nature Cell Biology 2021), PMID:38657551 (pancreatic cancer, 2024), PMID:41461634 (Wnt/Axin1, colorectal cancer, 2025), PMID:25450970 (focal adhesion, colon cancer, 2015). 文献集中于 2021-2025，为近年新兴靶点。</p>
+<h5>3.4 PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>PXN</td><td>STRING</td><td>0.63 (exp 0.299)</td><td>Focal adhesion scaffold</td></tr>
+<tr><td>AXIN1</td><td>IntAct+UniProt</td><td>Y2H (PMID:26871637)</td><td>Wnt 信号</td></tr>
+<tr><td>CDK6</td><td>IntAct+UniProt</td><td>Y2H</td><td>细胞周期</td></tr>
+<tr><td>TRIM8</td><td>IntAct</td><td>Y2H</td><td>TRIM 家族，NF-kB 调控</td></tr>
+<tr><td>MAVS</td><td>STRING</td><td>0.495 (exp 0.065)</td><td>抗病毒免疫</td></tr>
+<tr><td>EHMT1</td><td>IntAct</td><td>Y2H</td><td>组蛋白甲基转移酶</td></tr>
+<tr><td>IRF5</td><td>IntAct</td><td>Y2H</td><td>干扰素调控因子</td></tr>
+<tr><td>FBLIM1</td><td>STRING</td><td>0.461 (exp 0.292)</td><td>细胞粘附</td></tr>
+<tr><td>UBE2U</td><td>IntAct</td><td>Y2H</td><td>E2 泛素结合酶</td></tr>
+<tr><td>MYBL2</td><td>IntAct</td><td>Y2H</td><td>转录因子</td></tr>
+</tbody></table></div>
+<p>PPI 网络以 Y2H 互作为主，涵盖 Wnt/Axin1、细胞周期、免疫及黏着斑通路，但物理互作验证多为高通量筛选，独立验证较少。</p>
+<h4>4. 总体评价</h4>
+<p>TRIM15 为近年关注度上升的 TRIM 家族 E3 ligase（RING + B-box + SPRY），PubMed=29 属中低文献量。HPA IF 不确认核定位为其主要弱点（仅 Cytosol/Centriolar satellite），虽 UniProt IDA 支持核定位，定位证据矛盾需补内源 IF。结构预测中等（AF pLDDT 83.9），SPRY domain 已有晶体结构。建议优先补 IF 确认核定位后再决定是否深入。</p>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9C019</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9C019</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=TRIM15</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000204610-TRIM15</li></ul>
+<p><strong>HPA IF 状态</strong>: HPA IF 图像已本地嵌入。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/TRIM15/TRIM15_IF_807_E7_1_blue_red_green.jpg</code></div></figure>。核定位基于HPA localization/reliability + UniProt + GO-CC。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/TRIM15/TRIM15-PAE.png</code></div></figure></p>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/TRIM15/TRIM15-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AK9 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>AK9</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 100</span><span class="badge">Nuclear: 28</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/AK9/AK9-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;AK9&quot; date: 2026-06-01 tags: [protein-scout, nuclear-protein, evaluation] status: scored ---</p>
+<h3>AK9 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>AK9 / AKD1, AKD2, C6orf199, C6orf224</td></tr>
+<tr><td>蛋白全名</td><td>Adenylate kinase 9</td></tr>
+<tr><td>蛋白大小</td><td>1911 aa / 221.4 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q5TCS8 (KAD9_HUMAN)</td></tr>
+<tr><td>评估日期</td><td>2026-06-01</td></tr>
+</tbody></table></div>
+<p><strong>IF 图像</strong>:</p>
+<h4>2. 评分总览 (权重: 核×4 大×1 新×5 结×3 域×2 PPI×3 /1.83)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>加权</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>7/10</td><td>×4</td><td><strong>28</strong></td><td>HPA: Nucleoplasm(Enhanced)+Nuclear membrane+ Cytosol+Calyx; GO: nucleoplasm(IDA:HPA)+nuclear membrane(IDA:HPA)+nucleus(IDA); UniProt: Cytoplasm+Nucleus+Cilium; 核质Enhanced置信度最高</td></tr>
+<tr><td>蛋白大小</td><td>5/10</td><td>×1</td><td><strong>5</strong></td><td>1911 aa / 221.4 kDa, 远超出1200-2000区间(仅在此区间, 极大蛋白)</td></tr>
+<tr><td>研究新颖性</td><td>10/10</td><td>×5</td><td>50</td><td>PubMed 15篇; ≤20区间, 极度新颖</td></tr>
+<tr><td>三维结构</td><td>6/10</td><td>×3</td><td><strong>18</strong></td><td>AF pLDDT 73.6; 67.7%在70-90区间; 13.6%无序; 无PDB实验结构</td></tr>
+<tr><td>调控结构域</td><td>6/10</td><td>×2</td><td><strong>12</strong></td><td>AAA+ ATPase domain (IPR003593)+Adenylate kinase (IPR000850); 核苷酸代谢酶; 新颖蛋白基线</td></tr>
+<tr><td>PPI</td><td>5/10</td><td>×3</td><td><strong>15</strong></td><td>STRING: ADSL(0.99)+APRT(0.986)核苷酸代谢; IntAct: HDAC3(coIP)+TAF2(coIP)+CUL4A(TAP)+PRIM1(coIP); HDAC3/TAF2为chromatin调控</td></tr>
+<tr><td>互证加分</td><td>—</td><td>—</td><td><strong>+1.0</strong></td><td>≥2源NuLoc(HPA Enhanced+GO+UniProt); HPA IF原图可用; IntAct含chromatin调控partner</td></tr>
+<tr><td><strong>原始总分</strong></td><td></td><td></td><td><strong>129/180</strong></td><td></td></tr>
+<tr><td><strong>归一化总分</strong></td><td></td><td></td><td><strong>70.5/100</strong></td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>HPA (IF)</td><td>Nucleoplasm (Enhanced, 主定位), Nuclear membrane, Cytosol, Calyx</td><td>Enhanced</td></tr>
+<tr><td>UniProt</td><td>Cytoplasm; Nucleus; Cell projection, cilium, flagellum</td><td>ECO:0000269 (实验)</td></tr>
+<tr><td>GO-CC</td><td>nucleoplasm (IDA:HPA), nuclear membrane (IDA:HPA), nucleus (IDA:UniProtKB), cytosol (IDA:HPA), microtubule cytoskeleton (IDA:HPA)</td><td>IDA</td></tr>
+</tbody></table></div>
+<p><strong>IF 图像</strong>: 8张IF原图(4细胞系: Hep-G2, U2OS, A-431, RH-30)，Enhanced可靠性。</p>
+<p><strong>结论</strong>: AK9的核定位由HPA IF(Enhanced, 最高可靠性)和GO-CC IDA实验证据确认。Nucleoplasm为主定位(Enhanced)，附加Nuclear membrane定位。UniProt也有实验证据(ECO:0000269)支持Nucleus。但同时也有Cytosol、Cilium和Microtubule cytoskeleton的明确定位。作为腺苷酸激酶，核内核苷酸代谢功能有其生物学合理性(核内ATP/ADP平衡)。评分7分。</p>
+<h5>3.2 蛋白大小评估</h5>
+<p><strong>评价</strong>: 1911 aa / 221.4 kDa，是极大的蛋白(&gt;2000 aa级别的巨型蛋白)。远超出300-800理想区间。大尺寸增加重组表达、纯化和生化实验的复杂性。然而大蛋白也为多域架构和多重功能提供基础。评分5分。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict</td><td>15</td></tr>
+<tr><td>PubMed broad</td><td>33</td></tr>
+<tr><td>Chromatin/epigenetics 比例</td><td>0%</td></tr>
+</tbody></table></div>
+<p><strong>主要研究方向</strong>:</p>
+<ul><li>腺苷酸激酶催化活性(AMP/ATP互转)</li><li>精子功能和雄性生育力(PNAS 2023: AK9敲除小鼠雄性不育)</li><li>纤毛/鞭毛功能与精子活力</li><li>核苷酸代谢与能量平衡</li><li>肢带型重症肌无力(罕见病例: RAPSN+AK9双基因突变)</li></ul>
+<p><strong>关键文献</strong>: 1. O&#x27;Callaghan E et al. (2023). &quot;Adenylate kinase 9 is essential for sperm function and male fertility in mammals.&quot; *Proc Natl Acad Sci USA*. PMID: 37812723 2. Lam CW et al. (2017). &quot;Limb girdle myasthenia with digenic RAPSN and a novel disease gene AK9 mutations.&quot; *Eur J Hum Genet*. PMID: 27966543 3. Panayiotou C et al. (2014). &quot;The many isoforms of human adenylate kinases.&quot; *Int J Biochem Cell Biol*. PMID: 24495878</p>
+<p><strong>评价</strong>: 仅15篇PubMed，极度新颖(AK9的novelty=10满分)。Chromatin/epigenetics方向完全未开发。仅有的研究集中于生殖生物学(精子鞭毛功能)和核苷酸代谢酶活性。但核内核苷酸代谢(ATP/ADP/GTP平衡)可能与ATP依赖的染色质重塑复合体(SWI/SNF, ISWI等)存在间接功能关联。评分10分。</p>
+<h5>3.4 三维结构分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold 平均 pLDDT</td><td>73.6</td></tr>
+<tr><td>pLDDT &gt;90 占比</td><td>6.0%</td></tr>
+<tr><td>pLDDT 70-90 占比</td><td>67.7%</td></tr>
+<tr><td>pLDDT 50-70 占比</td><td>12.7%</td></tr>
+<tr><td>pLDDT &lt;50 占比</td><td>13.6%</td></tr>
+<tr><td>可用 PDB 条目</td><td>无</td></tr>
+</tbody></table></div>
+<p><strong>PAE 图</strong>:</p>
+<p><strong>评价</strong>: 结构质量中等偏上。AlphaFold pLDDT=73.6，67.7%残基在70-90区间(confident)。仅6%极高置信度(&gt;90)，13.6%无序。作为1911 aa大蛋白，整体折叠质量可接受。PAE图预测多个独立折叠域之间的相对位置关系。无实验PDB结构，结构域边界需进一步验证。评分6分。</p>
+<h5>3.5 结构域分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>结构域</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>AAA+ ATPase domain; Adenylate kinase domain</td></tr>
+<tr><td>InterPro</td><td>IPR003593 (AAA+ ATPase); IPR000850 (Adenylate kinase); IPR027417 (P-loop NTPase)</td></tr>
+<tr><td>Pfam</td><td>PF13238 (AAA_18); PF00406 (ADK)</td></tr>
+</tbody></table></div>
+<p><strong>调控潜力分析</strong>: AK9含AAA+ ATPase域和腺苷酸激酶(ADK)域，是核苷酸代谢酶。ADK催化ATP + AMP &lt;-&gt; 2 ADP的可逆反应，是细胞能量平衡的核心酶。AAA+ ATPase域通常在分子机器中参与ATP驱动的构象变化。AK9的核定位和核苷酸代谢功能暗示其可能在核内维持ATP/GTP平衡，间接支持ATP依赖的chromatin重塑、DNA复制和转录过程。但无DNA/RNA结合域或chromatin修饰结构域。评分6分。</p>
+<h5>3.6 PPI 网络</h5>
+<p><strong>实验验证互作</strong> (IntAct, 14条):</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>方法</th><th>PMID</th><th>功能类别</th><th>调控相关？</th></tr></thead><tbody>
+<tr><td><strong>HDAC3</strong></td><td>anti tag coIP</td><td>28514442</td><td>Histone deacetylase 3</td><td><strong>是(chromatin调控)</strong></td></tr>
+<tr><td><strong>TAF2</strong></td><td>anti tag coIP</td><td>28514442</td><td>TFIID subunit, transcription initiation</td><td><strong>是(转录调控)</strong></td></tr>
+<tr><td>CUL4A</td><td>TAP</td><td>21145461</td><td>Cullin 4A E3 ligase</td><td>间接(泛素化)</td></tr>
+<tr><td>PRIM1</td><td>anti tag coIP</td><td>28514442</td><td>DNA primase subunit</td><td>间接(DNA复制)</td></tr>
+<tr><td>RHOA</td><td>anti tag coIP</td><td>28514442</td><td>Small GTPase</td><td>否</td></tr>
+<tr><td>EIF2AK4</td><td>anti tag coIP</td><td>33961781</td><td>GCN2, integrated stress response</td><td>信号传导</td></tr>
+<tr><td>ATG16L1</td><td>anti tag coIP</td><td>31015422</td><td>Autophagy</td><td>否</td></tr>
+<tr><td>PEA15</td><td>Y2H pooling</td><td>16169070</td><td>Apoptosis/ERK regulator</td><td>信号传导</td></tr>
+<tr><td>MYO9A</td><td>anti tag coIP</td><td>28514442</td><td>Myosin</td><td>否</td></tr>
+</tbody></table></div>
+<p><strong>STRING 预测互作</strong> (combined score &gt;0.4):</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>功能类别</th><th>调控相关？</th></tr></thead><tbody>
+<tr><td>ADSL</td><td>0.990 (database 0.982)</td><td>Purine biosynthesis</td><td>否(代谢)</td></tr>
+<tr><td>APRT</td><td>0.986 (database 0.978)</td><td>Adenine phosphoribosyltransferase</td><td>否(代谢)</td></tr>
+<tr><td>DTYMK</td><td>0.957 (database 0.925)</td><td>dTMP kinase</td><td>否(代谢)</td></tr>
+<tr><td>NME6</td><td>0.954 (database 0.918)</td><td>Nucleoside diphosphate kinase</td><td>否(代谢)</td></tr>
+<tr><td>RRM1</td><td>0.953 (database 0.942)</td><td>Ribonucleotide reductase</td><td>否(代谢)</td></tr>
+<tr><td>CMPK2</td><td>0.952</td><td>Cytidine monophosphate kinase</td><td>否(代谢)</td></tr>
+<tr><td>AK3</td><td>0.945</td><td>Adenylate kinase 3 (mitochondrial)</td><td>否(同源)</td></tr>
+</tbody></table></div>
+<p><strong>PPI 评价</strong>: STRING网络完全是核苷酸代谢酶网络(ADSL/APRT/DTYMK/NME家族)。但IntAct实验互作揭示了两个重要的chromatin/转录调控partner: <strong>HDAC3</strong>(组蛋白去乙酰化酶3, anti tag coIP)和<strong>TAF2</strong>(TFIID转录起始复合体亚基, anti tag coIP)。这两个互作来自同一高质量coIP实验(PMID:28514442)。CUL4A是泛素E3连接酶(可调控chromatin蛋白降解)。PRIM1参与DNA复制。这些非代谢partner暗示AK9可能通过蛋白-蛋白互作而非催化活性参与核调控。评分5分。</p>
+<h4>4. 总体评价</h4>
+<p><strong>推荐等级</strong>: 3星半 (70.5/100)</p>
+<p><strong>核心优势</strong>: 1. <strong>极度新颖</strong>(15篇PubMed)，研究几乎空白 2. HPA IF Nucleoplasm定位为Enhanced(最高可靠性)，8张IF原图可用 3. IntAct实验互作发现HDAC3(组蛋白去乙酰化酶)和TAF2(TFIID亚基)作为核调控partner 4. 极大蛋白(1911 aa)提供丰富的结构域和互作界面</p>
+<p><strong>风险/不确定性</strong>: 1. 蛋白极大(1911 aa)，生化实验难度高 2. 无PDB实验结构，依赖AlphaFold 3. 主要功能为核苷酸代谢酶(ADK+AAA+)，chromatin功能为非经典方向 4. STRING网络完全是代谢相关，chromatin调控partner仅在IntAct中 5. HDAC3/TAF2互作需独立验证 6. 精子鞭毛功能与核功能的相对重要性未定</p>
+<p><strong>下一步建议</strong>:</p>
+<ul><li>[ ] 独立验证AK9-HDAC3和AK9-TAF2互作(coIP/WB)</li><li>[ ] 评估AK9在核内的核苷酸代谢活性是否影响ATP依赖的chromatin重塑</li><li>[ ] 利用BioID/APEX2鉴定AK9在核内的互作组</li><li>[ ] 解析AK9的域架构，确定哪些域负责核定位和chromatin调控partner互作</li></ul>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q5TCS8</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000155085-AK9</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=AK9</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q5TCS8</li><li>STRING: https://string-db.org/ (AK9)</li><li>IntAct: https://www.ebi.ac.uk/intact/</li></ul>
+<p><strong>HPA IF 状态</strong>: HPA IF 图像已本地嵌入。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/AK9/AK9_IF_827_F2_1_red_green.jpg</code></div></figure>。核定位基于HPA localization/reliability + UniProt + GO-CC。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/AK9/AK9-PAE.png</code></div></figure></p>
+<h5>PPI 网络</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th></tr></thead><tbody>
+<tr><td>ADSL</td><td>STRING</td><td>0.99</td></tr>
+<tr><td>APRT</td><td>STRING</td><td>0.986</td></tr>
+<tr><td>DTYMK</td><td>STRING</td><td>0.957</td></tr>
+<tr><td>NME6</td><td>STRING</td><td>0.954</td></tr>
+<tr><td>RRM1</td><td>STRING</td><td>0.953</td></tr>
+<tr><td>PEA15</td><td>IntAct</td><td>psi-mi:&quot;MI:0398&quot;(two hybrid po</td></tr>
+<tr><td>A0A0F7RIX9</td><td>IntAct</td><td>psi-mi:&quot;MI:0398&quot;(two hybrid po</td></tr>
+<tr><td>CUL4A</td><td>IntAct</td><td>psi-mi:&quot;MI:0676&quot;(tandem affini</td></tr>
+</tbody></table></div>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/AK9/AK9-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

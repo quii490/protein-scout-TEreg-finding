@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SPACA9 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>SPACA9</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 8</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/SPACA9/SPACA9-evaluation.md</p></section><article class="report-body"><h2>SPACA9 – Critical False-Rejection Reevaluation Report</h2>
+<p><strong>Gene:</strong> SPACA9 (Sperm acrosome-associated protein 9) <strong>UniProt Accession:</strong> Q96E40 <strong>Protein Name:</strong> Sperm acrosome-associated protein 9 <strong>Length:</strong> 222 aa | <strong>Mass:</strong> 25.2 kDa <strong>Aliases:</strong> C9orf9 <strong>Report Date:</strong> 2026-06-04 <strong>Review Stage:</strong> W4 Batch 1 – CRITICAL REOPEN</p>
+<hr>
+<h3>/180 Scoring Table</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Max</th><th>Score</th><th>Rationale</th></tr></thead><tbody>
+<tr><td>1. Nuclear Localization</td><td>30</td><td>8</td><td>UniProt: Nucleus (ECO:0000250, sequence similarity only). HPA: Vesicles (main), Cytosol/End piece (additional) – no nucleoplasm detection. GO-CC: nucleus (GO:0005634, ISS:UniProtKB) – inferred from sequence similarity, NO direct experimental (IDA) evidence. The nuclear annotation is weak (ISS only). HPA does NOT detect nuclear localization. The protein is primarily a microtubule inner protein (MIP) of ciliary/flagellar axonemes, which is a cytoplasmic structure. The nuclear localization claim rests solely on sequence similarity inference. Most GO-CC terms relate to ciliary/flagellar compartments (acrosomal vesicle, axoneme, sperm flagellum, ciliary basal body).</td></tr>
+<tr><td>2. Protein Size</td><td>10</td><td>8</td><td>222 aa / 25.2 kDa – small and tractable. Slightly above 200 aa threshold for full marks.</td></tr>
+<tr><td>3. Research Novelty</td><td>10</td><td>10</td><td>PubMed strict: 3 publications. Extremely understudied. Maximum novelty.</td></tr>
+<tr><td>4. 3D Structure</td><td>30</td><td>22</td><td>AlphaFold mean pLDDT: 80.3. Distribution: 67.1% &gt;90, 3.6% 70-90, 7.2% 50-70, 22.1% &lt;50. Three experimental cryo-EM PDB structures available (7UN1 at 6.00A, 7UNG at 3.60A, 8J07 at 4.10A) showing the protein in the context of axonemal doublet microtubules. Good structural coverage (67% very high confidence) with some disordered regions (22% &lt;50). The cryo-EM structures provide experimental validation.</td></tr>
+<tr><td>5. Regulatory Domains</td><td>50</td><td>8</td><td>IPR027818 / PF15120 – structurally defined but functionally uncharacterized domain. Protein functions as a microtubule inner protein (MIP) cross-linking the lumen of axonemal doublet microtubules in cilia and flagella. No known DNA-binding, chromatin, or transcriptional regulatory domains. No link to gene regulation. Function is purely structural (cytoskeletal).</td></tr>
+<tr><td>6. PPI Network</td><td>50</td><td>15</td><td>STRING: 15 partners, all ciliary/flagellar proteins (CFAP77 0.901, CCDC173 0.891, EFHC1 0.823, TUBB4B 0.823). IntAct: 15 interactors including DDX24 (two-hybrid), SEPHS1 (two-hybrid), H3-4 (cross-linking), RIOX2 (co-IP). The H3-4 (histone H3.4) cross-linking interaction (PMID:30021884) is notable since it links this flagellar protein to chromatin, but this may be an artifact of proximity labeling in a cellular context. Most interactions are with ciliary/flagellar structural proteins. DDX24 (DEAD-box helicase) is a nuclear RNA helicase, the interaction was detected by two-hybrid (MI:0398) – weak evidence. RIOX2 (ribosomal oxygenase 2) is nuclear and involved in histone modification (co-IP, PMID:28514442) – this is the most interesting interaction but is a single low-confidence hit among otherwise exclusively ciliary partners.</td></tr>
+<tr><td><strong>TOTAL</strong></td><td><strong>180</strong></td><td><strong>71</strong></td><td></td></tr>
+</tbody></table></div>
+<hr>
+<h3>Nuclear Evidence Section</h3>
+<h4>HPA (Human Protein Atlas)</h4>
+<ul><li><strong>Status:</strong> hpa_localization_available</li><li><strong>Reliability (IF):</strong> Supported</li><li><strong>Main Location:</strong> Vesicles</li><li><strong>Additional Locations:</strong> Cytosol, End piece</li><li><strong>Key Finding:</strong> HPA does NOT detect nucleoplasm localization. The protein is detected in Vesicles (main), Cytosol, and End piece (additional). This is consistent with SPACA9&#x27;s role as a sperm acrosome-associated and ciliary protein. The absence of nucleoplasm detection is significant for nuclear re-evaluation.</li></ul>
+<p><strong>Interpretation note:</strong> The HPA data argues strongly AGAINST nuclear localization in the cell types examined (A-431, U-2 OS, U-251 MG). The IF images (14 total) show vesicular and cytosolic staining consistent with acrosomal/flagellar localization, not nuclear.</p>
+<h4>UniProt Subcellular Location</h4>
+<ul><li><strong>Nucleus</strong> – Evidence: ECO:0000250 (inferred from sequence similarity by UniProtKB) – This is the weakest form of UniProt evidence, based on automated sequence analysis rather than experimental evidence.</li><li><strong>Cytoplasm</strong> – ECO:0000250 (sequence similarity)</li><li><strong>Cytoplasmic vesicle, secretory vesicle, acrosome</strong> – ECO:0000250 (sequence similarity)</li><li><strong>Cytoplasm, cytoskeleton, cilium axoneme</strong> – ECO:0000269 (experimental evidence) x2 – experimentally validated localization to ciliary axoneme.</li><li><strong>Cytoplasm, cytoskeleton, flagellum axoneme</strong> – ECO:0000250 (sequence similarity)</li></ul>
+<h4>GO Cellular Component (GO-CC)</h4>
+<ul><li><strong>GO:0005879 (axonemal microtubule)</strong> – Evidence: IDA:UniProtKB – direct assay evidence.</li><li><strong>GO:0005930 (axoneme)</strong> – Evidence: IDA:UniProtKB – direct assay evidence.</li><li><strong>GO:0005881 (cytoplasmic microtubule)</strong> – Evidence: IDA:UniProtKB – direct assay evidence.</li><li><strong>GO:0001669 (acrosomal vesicle)</strong> – Evidence: IBA:GO_Central – phylogenetically conserved.</li><li><strong>GO:0036126 (sperm flagellum)</strong> – Evidence: IBA:GO_Central – phylogenetically conserved.</li><li><strong>GO:0097546 (ciliary base)</strong> – Evidence: IBA:GO_Central – phylogenetically conserved.</li><li><strong>GO:0005634 (nucleus)</strong> – Evidence: ISS:UniProtKB – sequence similarity only. NO experimental evidence.</li></ul>
+<h4>Functional Nuclear Context</h4>
+<ul><li><strong>SPACA9 is a microtubule inner protein (MIP)</strong> that cross-links the lumen of axonemal doublet microtubules in cilia and flagella (PubMed:36191189). Cryo-EM structures (7UNG, 8J07) show SPACA9 decorating the interior of axonemal microtubules.</li><li><strong>The nuclear annotation (ISS:UniProtKB) is weak and contradicted by HPA data</strong>, which shows exclusively non-nuclear localization (Vesicles, Cytosol, End piece).</li><li><strong>This protein is structurally embedded in axonemal microtubules</strong> – it is an integral component of the ciliary/flagellar cytoskeleton, not a soluble protein that shuttles to the nucleus.</li></ul>
+<p><strong>Summary:</strong> SPACA9 has essentially no credible nuclear evidence. The sole nuclear annotation (ISS:UniProtKB) is sequence similarity-based and not supported by any experimental data. HPA shows no nuclear localization. The protein has strong experimental evidence for localization to ciliary/flagellar axonemes and the acrosome. Nuclear score: 8/30 (generous, recognizing the ISS annotation).</p>
+<hr>
+<h3>PubMed Evidence</h3>
+<h4>Literature Metrics</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Query Type</th><th>Count</th><th>Query String</th></tr></thead><tbody>
+<tr><td>Strict (Title/Abstract)</td><td>3</td><td><code>&quot;SPACA9&quot;[Title/Abstract] AND (gene OR protein OR hydrolase)</code></td></tr>
+<tr><td>Symbol Only (Title/Abstract)</td><td>3</td><td><code>&quot;SPACA9&quot;[Title/Abstract]</code></td></tr>
+<tr><td>Broad (All Fields)</td><td>6</td><td><code>&quot;SPACA9&quot;</code></td></tr>
+</tbody></table></div>
+<p><strong>Alias Note:</strong> Alias C9orf9 observed but not used for scoring.</p>
+<h4>Key Papers (with PMIDs)</h4>
+<p>1. <strong>PMID:37865089</strong> – Chen Z, Shiozaki M, et al. (2023). &quot;De novo protein identification in mammalian sperm using in situ cryoelectron tomography and AlphaFold2 docking.&quot; *Cell.* – Identification of SPACA9 as an axonemal microtubule inner protein. 2. <strong>PMID:36191189</strong> – Gui M, Croft JT, et al. (2022). &quot;SPACA9 is a lumenal protein of human ciliary singlet and doublet microtubules.&quot; *Proc Natl Acad Sci USA.* – Primary characterization of SPACA9 as a ciliary MIP. 3. <strong>PMID:40453182</strong> – Development of a procedure for isolation, identification and quality assessment of bovine spermatids.</p>
+<h4>Literature Assessment</h4>
+<ul><li><strong>Total publications:</strong> Extremely low (3 strict, 6 broad). SPACA9 is one of the least studied human proteins.</li><li><strong>Thematic focus:</strong> Sperm biology, cilia/flagella structure, microtubule inner proteins. The entire literature is structural/cell biology of the male reproductive system.</li><li><strong>Critical gap:</strong> No functional studies beyond structural characterization. No disease associations. No links to nuclear biology or gene regulation.</li><li><strong>No publications on TE regulation.</strong></li><li><strong>Novelty score:</strong> 10/10 (≤20 publications = maximum novelty).</li></ul>
+<hr>
+<h3>AlphaFold / PDB / PAE</h3>
+<h4>AlphaFold Predicted Structure</h4>
+<ul><li><strong>Entry:</strong> AF-Q96E40-F1, version 6</li><li><strong>Mean pLDDT:</strong> 80.3</li><li><strong>pLDDT Distribution:</strong></li><li>&gt;90 (very high confidence): 67.1%</li><li>70-90 (confident): 3.6%</li><li>50-70 (low confidence): 7.2%</li><li>&lt;50 (very low confidence): 22.1%</li><li><strong>Assessment:</strong> Good overall structure with 67% very high confidence. The 22% disordered fraction is moderate and likely represents flexible loops in the context of the MIP fold.</li></ul>
+<h4>Experimental PDB Structures</h4>
+<ul><li><strong>7UN1</strong> – EM, 6.00A resolution. SPACA9 in the context of axonemal doublet microtubules (multiple chains spanning full length).</li><li><strong>7UNG</strong> – EM, 3.60A resolution. SPACA9 as part of the axonemal microtubule doublet inner sheath.</li><li><strong>8J07</strong> – EM, 4.10A resolution. SPACA9 with multiple chains representing the protein&#x27;s periodic arrangement along the microtubule.</li></ul>
+<h4>Structural Assessment</h4>
+<ul><li>The three cryo-EM structures confirm SPACA9&#x27;s role as an integral component of axonemal microtubules. The protein is structurally well-characterized in its native context.</li><li>The fold (PF15120) is specific to microtubule inner proteins and has no association with DNA binding or nuclear functions.</li><li><strong>Score:</strong> 22/30 – Good structural coverage with experimental validation, but modest disordered fraction.</li></ul>
+<hr>
+<h3>PPI Network</h3>
+<h4>STRING (Functional Partners)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Combined Score</th><th>Experimental</th><th>Textmining</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>CFAP77</td><td>0.901</td><td>0.8</td><td>0.474</td><td>Cilia and flagella associated protein</td></tr>
+<tr><td>CCDC173</td><td>0.891</td><td>0.8</td><td>0.479</td><td>Coiled-coil domain protein, ciliary</td></tr>
+<tr><td>C5orf49</td><td>0.835</td><td>0.8</td><td>0.204</td><td>Uncharacterized ciliary protein</td></tr>
+<tr><td>FAM183A</td><td>0.827</td><td>0.8</td><td>0.135</td><td>Family with sequence similarity 183A</td></tr>
+<tr><td>EFHC1</td><td>0.823</td><td>0.8</td><td>0</td><td>EF-hand containing, ciliary</td></tr>
+<tr><td>TUBB4B</td><td>0.823</td><td>0.8</td><td>0.154</td><td>Tubulin beta 4B</td></tr>
+<tr><td>C9orf116</td><td>0.822</td><td>0.8</td><td>0</td><td>Ciliary protein</td></tr>
+<tr><td>EFHC2</td><td>0.819</td><td>0.8</td><td>0</td><td>EF-hand containing 2, ciliary</td></tr>
+<tr><td>CFAP126</td><td>0.818</td><td>0.8</td><td>0</td><td>Cilia and flagella associated protein</td></tr>
+<tr><td>CFAP45</td><td>0.817</td><td>0.8</td><td>0</td><td>Cilia and flagella associated protein</td></tr>
+<tr><td>TEKT1</td><td>0.815</td><td>0.8</td><td>0</td><td>Tektin 1, microtubule inner protein</td></tr>
+</tbody></table></div>
+<h4>IntAct</h4>
+<p>Total: 15 validated interactors</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Method</th><th>PMID</th><th>Interaction Type</th></tr></thead><tbody>
+<tr><td>DDX24</td><td>two hybrid pooling</td><td>PMID:16169070</td><td>physical association</td></tr>
+<tr><td>SEPHS1</td><td>two hybrid pooling</td><td>PMID:16169070</td><td>physical association</td></tr>
+<tr><td>RIOX2</td><td>anti tag co-IP</td><td>PMID:28514442</td><td>association</td></tr>
+<tr><td>MUCL1</td><td>anti tag co-IP</td><td>PMID:28514442</td><td>association</td></tr>
+<tr><td>H3-4</td><td>cross-linking study</td><td>PMID:30021884</td><td>physical association</td></tr>
+<tr><td>EFEMP2</td><td>two hybrid array</td><td>PMID:32296183</td><td>physical association</td></tr>
+<tr><td>KRTAP1-1</td><td>validated two hybrid</td><td>PMID:32296183</td><td>physical association</td></tr>
+</tbody></table></div>
+<h4>PPI Network Assessment</h4>
+<ul><li><strong>Ciliary/flagellar-centric network:</strong> The STRING network is dominated by ciliary and flagellar associated proteins with uniformly high experimental scores (0.8). This reflects SPACA9&#x27;s role as a structural component of the axoneme.</li><li><strong>H3-4 interaction:</strong> The cross-linking detection of histone H3-4 (PMID:30021884) is the only chromatin-associated hit. This is likely a proximity artifact from cross-linking mass spectrometry of whole cells, where the abundance of histones creates many spurious interactions.</li><li><strong>DDX24:</strong> Nuclear DEAD-box RNA helicase detected by two-hybrid (pooling approach). Very indirect evidence – DDX24 is a promiscuous two-hybrid prey.</li><li><strong>RIOX2:</strong> A nuclear ribosomal oxygenase involved in histone modification (H3K9me3/H3K36me3 demethylation). Detected by co-IP (PMID:28514442). This is the most interesting nuclear-relevant interaction, but is a single hit among 15 interactors.</li><li><strong>Score:</strong> 15/50 – Overwhelmingly ciliary network. The few nuclear connections are low-confidence or likely artifactual.</li></ul>
+<hr>
+<h3>FALSE REJECTION RECHECK</h3>
+<h4>Original Rejection Reason (inferred)</h4>
+<p>SPACA9 was likely auto-rejected because: 1. HPA shows NO nucleoplasm localization (Vesicles, Cytosol, End piece only). 2. Nuclear localization evidence is ISS only (sequence similarity) – the weakest annotation type. 3. The protein is structurally characterized as a ciliary/flagellar axoneme component, making nuclear function improbable.</p>
+<h4>Recheck Analysis</h4>
+<p>1. <strong>Nuclear Evidence Quality:</strong> The sole nuclear annotation (GO:0005634, ISS:UniProtKB) is automated, similarity-based, and NOT supported by any experimental data. HPA (highest resolution spatial data) explicitly shows NO nuclear localization. 2. <strong>Functional Context:</strong> SPACA9 is an integral structural component of axonemal microtubules. Cryo-EM structures show it decorating the microtubule lumen. This is incompatible with a nuclear function – it is physically embedded in the ciliary cytoskeleton. 3. <strong>Tissue Specificity:</strong> SPACA9 expression is testis/sperm-specific. The protein is part of the specialized flagellar apparatus. Testis-specific expression with no evidence of expression in other tissues where nuclear functions would be expected. 4. <strong>Literature Consensus:</strong> Every publication describes SPACA9 as a ciliary/flagellar structural protein. No publication mentions nuclear localization or function.</p>
+<h4>Verdict on False Rejection</h4>
+<p><strong>The original rejection appears CORRECT – SPACA9 should remain rejected.</strong> The nuclear annotation (ISS:UniProtKB) is weak, automated, and contradicted by HPA experimental data. SPACA9 is a structural component of cilia/flagella and has no plausible role in nuclear biology or TE regulation. The absence of any HPA nucleoplasm detection is decisive – this protein does not localize to the nucleus in any cell type tested.</p>
+<p><strong>However</strong>, given the request for re-evaluation, the protein&#x27;s extreme novelty (3 publications) and the RIOX2 and H3-4 interactions merit acknowledgment even though they cannot redeem the localization deficiency.</p>
+<hr>
+<h3>TE-Regulator Relevance Reasoning</h3>
+<p>1. <strong>No Nuclear Localization:</strong> HPA shows no nucleoplasm detection. The protein primarily localizes to vesicles, cytosol, and the acrosome/end piece (sperm flagellum). TE regulation requires nuclear access, which SPACA9 lacks.</p>
+<p>2. <strong>Structural/Flagellar Function Only:</strong> SPACA9&#x27;s known function is as a microtubule inner protein cross-linking the lumen of axonemal doublet microtubules. This is a purely structural/cytoskeletal role with no connection to gene regulation.</p>
+<p>3. <strong>Testis-Specific Expression:</strong> SPACA9 is expressed in testis and sperm cells. While sperm biology involves unique chromatin organization (protamine replacement), SPACA9 acts on the cilium/flagellum, not on chromatin.</p>
+<p>4. <strong>Weak Nuclear Interactions:</strong> The few nuclear-relevant interactors (DDX24, RIOX2, H3-4) are:</p>
+<ul><li>DDX24: Two-hybrid only (low specificity assay).</li><li>RIOX2: Interesting histone demethylase, but single co-IP hit.</li><li>H3-4: Cross-linking likely artifactual due to histone abundance.</li></ul>
+<p>None of these are sufficient to override the primary localization evidence.</p>
+<p>5. <strong>Caveat:</strong> The extreme novelty (3 publications) means there could be undiscovered functions. However, the cryo-EM structures showing SPACA9 embedded in axonemal microtubules make a moonlighting nuclear function extremely unlikely.</p>
+<p><strong>Assessment:</strong> SPACA9 is a LOW interest candidate for TE regulation. The structural evidence for ciliary/flagellar localization is definitive, and there is no credible evidence of nuclear function.</p>
+<hr>
+<h3>Final Decision</h3>
+<p><strong>DECISION: REJECTION CONFIRMED – nuclear evidence insufficient</strong></p>
+<p><strong>Reasoning:</strong> Despite extreme novelty (3 PubMed publications), SPACA9 lacks any credible nuclear localization evidence. HPA (Supported reliability) shows NO nucleoplasm detection. The sole nuclear GO annotation is ISS (sequence similarity, automated). The protein is structurally characterized as an integral axonemal microtubule component. The few nuclear-relevant interactions (RIOX2, DDX24) are low-confidence and cannot compensate for the absence of nuclear localization. This is a ciliary/flagellar structural protein with no plausible role in TE biology.</p>
+<p><strong>Score: 71/180</strong> – The low score reflects the fundamental gap: no experimental nuclear localization, no regulatory domains, and a purely structural ciliary function.</p>
+<p><strong>Flag for deletion</strong> – SPACA9 should not consume further analysis resources. The rejection was correct.</p>
+<hr>
+<h3>Manual Review Note</h3>
+<p>*Reviewer: W4 Batch 1 re-evaluation (2026-06-04)* *Status: REJECTION CONFIRMED – nuclear localization absent*</p>
+<p>SPACA9 is a valuable protein for cilia/flagella biology but has no place in a TE-regulatory protein screen. The key evidence against nuclear function is: (1) HPA detects no nucleoplasm signal, (2) the sole nuclear GO annotation is ISS (automated), (3) cryo-EM structures show SPACA9 physically embedded in axonemal microtubules, (4) expression is testis-specific with no suggestion of nuclear function in any publication. The three publications characterize SPACA9 exclusively as a ciliary structural component. While the RIOX2 interaction (histone demethylase) is intriguing, a single co-IP hit among 15 ciliary interactors does not constitute evidence of nuclear function. This gene is correctly rejected and should not be reopened.</p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

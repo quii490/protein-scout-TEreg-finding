@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TOPORS · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>TOPORS</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 53</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/TOPORS/TOPORS-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;TOPORS&quot; date: 2026-06-01 tags: [protein-scout, nucleoplasm, evaluation] status: scored ---</p>
+<h3>TOPORS 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>TOPORS / LUN, TP53BPL</td></tr>
+<tr><td>蛋白全名</td><td>E3 ubiquitin-protein ligase Topors</td></tr>
+<tr><td>蛋白大小</td><td>1045 aa / 119.2 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q9NS56</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>新权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>7/10</td><td>x4</td><td>28.0</td><td>UniProt Nucleus + PML body, GO nucleoplasm/nucleus/PML body/nuclear speck/centriole, HPA Nucleoplasm</td></tr>
+<tr><td>蛋白大小</td><td>2/10</td><td>x1</td><td>2.0</td><td>1045 aa, 119.2 kDa，大型蛋白</td></tr>
+<tr><td>研究新颖性</td><td>4/10</td><td>x5</td><td>20.0</td><td>PubMed strict=67, broad=97</td></tr>
+<tr><td>三维结构</td><td>1/10</td><td>x3</td><td>3.0</td><td>AlphaFold pLDDT 49.0；PDB 无；&lt;50 区域占 75.6%</td></tr>
+</tbody></table></div>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/TOPORS/TOPORS-PAE.png</code></div></figure></p>
+<div class="table-wrap"><table>
+<tbody>
+<tr><td>调控结构域</td><td>4/10</td><td>x2</td><td>8.0</td><td>RING-type Zn-finger E3 ligase + SUMO ligase，含 RING 域</td></tr>
+<tr><td>PPI 网络</td><td>3/10</td><td>x3</td><td>9.0</td><td>STRING TP53/TOP1/SUMO pathway；IntAct p53 + UBE2 家族；UniProt 仅 Rep68</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>70/180</strong>**</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+0.0</td><td></td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>38.3/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Nucleus, Nucleus PML body (subcellular location annotated, no evidence codes)</td><td>中</td></tr>
+<tr><td>GO-CC</td><td>nucleoplasm (IDA:HPA), nucleus (IDA:UniProtKB), nuclear speck (IDA:UniProtKB), PML body (IDA:UniProtKB), centriole, ciliary basal body, spindle pole, midbody</td><td>高（多 IDA 但定位分散）</td></tr>
+<tr><td>HPA IF</td><td>Nucleoplasm (Supported 可靠性)</td><td>中-高</td></tr>
+<tr><td>Literature</td><td>TOPORS 位于 PML nuclear bodies 和核质，作为 p53 的 E3 连接酶和 SUMO ligase 调控染色质修饰</td><td>中-高</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 状态</strong>: IF available -- HPA 可靠性 Supported，定位 Nucleoplasm（仅该定位）。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/TOPORS/TOPORS_IF_red_green.jpg</code></div></figure></p>
+<p><strong>结论</strong>: TOPORS 有明确的核定位（UniProt + GO + HPA 一致指向 Nucleoplasm/PML body），但同时有多个非核 GO-CC 注释（centriole/ciliary body/spindle pole/midbody）。核定位特异性中等。</p>
+<h5>3.2 结构与数据源</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold</td><td>AF-Q9NS56-F1</td></tr>
+<tr><td>平均 pLDDT</td><td>49.0</td></tr>
+<tr><td>pLDDT &gt;90</td><td>11.2%</td></tr>
+<tr><td>pLDDT 70-90</td><td>7.8%</td></tr>
+<tr><td>pLDDT &lt;50</td><td>75.6%</td></tr>
+<tr><td>PDB</td><td>无</td></tr>
+</tbody></table></div>
+<p><strong>AlphaFold PAE 状态</strong>: PAE 已下载。pLDDT 均值极低（49.0），&lt;50 低置信区域高达 75.6%，为该批次中结构预测最差的蛋白。仅有 N 端 RING 域附近（~11% aa）pLDDT &gt;90。无 PDB 实验结构。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict (Title/Abstract)</td><td>67</td></tr>
+<tr><td>PubMed broad</td><td>97</td></tr>
+<tr><td>别名</td><td>LUN, TP53BPL（未用于 scoring）</td></tr>
+</tbody></table></div>
+<p>关键文献：</p>
+<ul><li>PMID:39198387: &quot;Inhibition of TOPORS ubiquitin ligase augments the efficacy of DNA hypomethylating agents through DNMT1 stabilization.&quot; (Nat Commun, 2024) -- DNMT1/DNA 甲基化</li><li>PMID:39198401: &quot;TOPORS E3 ligase mediates resistance to hypomethylating agent cytotoxicity in acute myeloid leukemia cells.&quot; (Nat Commun, 2024)</li><li>PMID:38649616: &quot;Concerted SUMO-targeted ubiquitin ligase activities of TOPORS and RNF4 are essential for stress management and cell proliferation.&quot; (Nat Struct Mol Biol, 2024)</li><li>PMID:40239066: &quot;PML mutants from arsenic-resistant patients reveal SUMO1-TOPORS and SUMO2/3-RNF4 degradation pathways.&quot; (J Cell Biol, 2025)</li></ul>
+<h5>3.4 PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>TP53</td><td>STRING</td><td>0.952 (exp 0.785)</td><td>p53 通路，E3 底物</td></tr>
+<tr><td>TOP1</td><td>STRING</td><td>0.939 (exp 0.644)</td><td>Topoisomerase I，互作命名来源</td></tr>
+<tr><td>UBE2I</td><td>STRING</td><td>0.900 (exp 0.487)</td><td>SUMO E2 (UBC9)</td></tr>
+<tr><td>SUMO1</td><td>STRING</td><td>0.869 (exp 0.467)</td><td>SUMO 修饰</td></tr>
+<tr><td>UBE2D1</td><td>STRING</td><td>0.829 (exp 0.696)</td><td>泛素 E2</td></tr>
+<tr><td>TP53</td><td>IntAct</td><td>Y2H fragment pooling (PMID:15710747)</td><td>p53 直接互作</td></tr>
+<tr><td>SATB1</td><td>IntAct</td><td>Y2H (PMID:18408014)</td><td>染色质组织者</td></tr>
+<tr><td>TOP1</td><td>IntAct</td><td>pull down direct interaction</td><td>Topoisomerase I</td></tr>
+<tr><td>Rep68</td><td>UniProt</td><td>3 experiments</td><td>AAV 蛋白</td></tr>
+</tbody></table></div>
+<p>互作网络以 p53/TOP1/SUMO 通路为核心。STRING TP53 (exp 0.785) 和 TOP1 (exp 0.644) 的互作实验支持较好，SUMO E2 UBE2I 和 SUMO1 有中等实验支持。IntAct 含 TP53 (Y2H) 和 TOP1 (pull down direct) 两条关键互作。UniProt 互作记录极少（仅 Rep68）。</p>
+<h4>4. 总体评价</h4>
+<p>TOPORS 是 p53 和 TOP1 的 E3/SUMO 连接酶，核定位明确（PML body + nucleoplasm），文献量适中（strict=67）。主要劣势是 AlphaFold 预测极差（pLDDT 49.0, &lt;50 占 75.6%）、无 PDB 实验结构、蛋白偏大（119 kDa）。与染色质调控的关联主要通过 p53 和 SUMO 通路，缺乏直接的染色质结合结构域。总分较低，适合作为低优先级候补。</p>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9NS56</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9NS56</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=TOPORS</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000197579-TOPORS</li></ul>
+<p>HPA IF 图像已本地嵌入。</p>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/TOPORS/TOPORS-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

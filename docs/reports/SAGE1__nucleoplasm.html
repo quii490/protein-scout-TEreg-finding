@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SAGE1 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>SAGE1</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 28</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/SAGE1/SAGE1-evaluation.md</p></section><article class="report-body"><h2>SAGE1 -- Critical False-Rejection Reevaluation Report</h2>
+<p><strong>Gene:</strong> SAGE1 (Sarcoma antigen 1) <strong>UniProt Accession:</strong> Q9NXZ1 <strong>Protein Name:</strong> Sarcoma antigen 1 <strong>Length:</strong> 904 aa | <strong>Mass:</strong> 99.2 kDa <strong>Aliases:</strong> SAGE <strong>Report Date:</strong> 2026-06-04 <strong>Review Stage:</strong> W3 Batch 1 -- CRITICAL REOPEN</p>
+<hr>
+<h3>/180 Scoring Table</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Max</th><th>Score</th><th>Rationale</th></tr></thead><tbody>
+<tr><td>1. Nuclear Localization</td><td>30</td><td>28</td><td>HPA main: Nucleoplasm. Additional: Nuclear bodies. Reliability: Enhanced. UniProt: Nucleus (ECO:0000269 -- experimental). GO-CC: nuclear body (IDA:HPA), nucleoplasm (IDA:HPA), nucleus (IDA:UniProtKB), integrator complex (IBA:GO_Central). STRONG nuclear evidence. Nucleoplasm + nuclear bodies. Integrator complex association suggests involvement in snRNA processing/transcription.</td></tr>
+<tr><td>2. Protein Size</td><td>10</td><td>8</td><td>904 aa / 99.2 kDa. Large protein.</td></tr>
+<tr><td>3. Research Novelty</td><td>10</td><td>10</td><td>PubMed strict: 10. Novelty rule: 1-50=10.</td></tr>
+<tr><td>4. 3D Structure</td><td>30</td><td>8</td><td>AlphaFold mean pLDDT: 50.2 (3.0% &gt;90, 8.5% 70-90, 30.9% 50-70, 57.6% &lt;50). PDB: 8HPP (X-ray, 3.00A, residues 818-904 only -- C-terminal tail). Very low AF confidence. Mostly disordered.</td></tr>
+<tr><td>5. Regulatory Domains</td><td>50</td><td>20</td><td>IPR029307, IPR051113. PF15300. Function: No annotated molecular function (empty field). Associated with integrator complex (GO-CC IBA). Integrator complex is involved in snRNA 3&#x27; end processing and transcription regulation. No annotated molecular function but complex association is suggestive.</td></tr>
+<tr><td>6. PPI Network</td><td>50</td><td>15</td><td>STRING: 15 partners. DDX43 (0.869), SPA17 (0.815), MAGEC2 (0.812), PRSS50 (0.771), GAGE1 (0.754), PAGE5 (0.737). Most partners are cancer-testis antigens (CTAs). INTS14 (0.626), INTS11 (0.613) -- Integrator complex subunits. IntAct: Empty.</td></tr>
+<tr><td><strong>TOTAL</strong></td><td><strong>180</strong></td><td><strong>89</strong></td><td></td></tr>
+</tbody></table></div>
+<hr>
+<h3>Nuclear Evidence Section</h3>
+<h4>HPA (Human Protein Atlas)</h4>
+<ul><li><strong>Status:</strong> hpa_localization_available</li><li><strong>Reliability (IF):</strong> Enhanced</li><li><strong>Main Location:</strong> Nucleoplasm</li><li><strong>Additional:</strong> Nuclear bodies</li><li><strong>IF Image Status:</strong> no_image_detected (red_green images available via image_urls but not flagged)</li><li><strong>Key Finding:</strong> Nucleoplasm + nuclear bodies. Enhanced reliability. Very strong nuclear evidence.</li></ul>
+<h4>UniProt Subcellular Location</h4>
+<ul><li><strong>Nucleus</strong> -- ECO:0000269 (experimental)</li></ul>
+<h4>GO Cellular Component (GO-CC)</h4>
+<ul><li><strong>GO:0032039 (integrator complex)</strong> -- IBA:GO_Central</li><li><strong>GO:0016604 (nuclear body)</strong> -- IDA:HPA</li><li><strong>GO:0005654 (nucleoplasm)</strong> -- IDA:HPA</li><li><strong>GO:0005634 (nucleus)</strong> -- IDA:UniProtKB</li></ul>
+<p><strong>Summary:</strong> Very strong nuclear evidence. HPA Enhanced reliability with nucleoplasm + nuclear bodies. Integrator complex association (IBA). Nuclear score: 28/30.</p>
+<hr>
+<h3>PubMed Evidence</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Query Type</th><th>Count</th></tr></thead><tbody>
+<tr><td>Strict (Title/Abstract)</td><td>10</td></tr>
+<tr><td>Broad (All Fields)</td><td>34</td></tr>
+</tbody></table></div>
+<p><strong>Novelty score: 10/10.</strong></p>
+<h4>Key Papers</h4>
+<p>1. <strong>PMID:40415416</strong> -- Chen C et al. (2025). &quot;The progression of multiple myeloma is regulated by LILRB1 via the GATA2-SAGE1 pathway.&quot; *Br J Haematol*. 2. <strong>PMID:35651938</strong> -- Yang Y et al. (2022). &quot;Identification of Novel Characteristics in TP53-Mutant Hepatocellular Carcinoma Using Bioinformatics.&quot; *Front Genet*. 3. <strong>PMID:39161926</strong> -- Hu J et al. (2024). &quot;Characterization of RNA Processing Genes in Colon Cancer for Predicting Clinical Outcomes.&quot; *Biomark Insights*. 4. <strong>PMID:21706474</strong> -- Lim J et al. (2011). &quot;OCT2, SSX and SAGE1 reveal the phenotypic heterogeneity of spermatocytic seminoma reflecting distinct subpopulations of spermatogonia.&quot; *J Pathol*. 5. <strong>PMID:38862430</strong> -- Yang X et al. (2024). &quot;Pindel-TD: A Tandem Duplication Detector Based on A Pattern Growth Approach.&quot; *Genomics Proteomics Bioinformatics*.</p>
+<p><strong>Assessment:</strong> Cancer-testis antigen literature. SAGE1 is a CTA expressed in testis and various cancers. Very limited functional characterization.</p>
+<hr>
+<h3>AlphaFold / PDB / PAE</h3>
+<h4>AlphaFold Predicted Structure</h4>
+<ul><li><strong>Entry:</strong> AF-Q9NXZ1-F1, version 6</li><li><strong>mean pLDDT: 50.2</strong> (&gt;90: 3.0%, 70-90: 8.5%, 50-70: 30.9%, &lt;50: 57.6%)</li><li><strong>Assessment:</strong> VERY LOW confidence. The majority of the protein is disordered or low-confidence. Only a small C-terminal region is ordered.</li></ul>
+<h4>Experimental PDB Structures</h4>
+<ul><li><strong>1 structure:</strong> 8HPP (X-ray, 3.00A, residues 818-904 only)</li><li><strong>Assessment:</strong> Only the very C-terminal tail is resolved. The bulk of the protein (1-817) has no experimental structure.</li></ul>
+<h4>PAE</h4>
+<ul><li>PAE image URL available.</li><li>PAE assessment pending image retrieval.</li></ul>
+<hr>
+<h3>PPI Network</h3>
+<h4>STRING (15 partners)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>Experimental</th><th>Function</th></tr></thead><tbody>
+<tr><td>DDX43</td><td>0.869</td><td>0</td><td>Cancer-testis antigen</td></tr>
+<tr><td>SPA17</td><td>0.815</td><td>0</td><td>Sperm autoantigen</td></tr>
+<tr><td>MAGEC2</td><td>0.812</td><td>0</td><td>Cancer-testis antigen</td></tr>
+<tr><td>PRSS50</td><td>0.771</td><td>0</td><td>Testis-specific protease</td></tr>
+<tr><td>INTS14</td><td>0.626</td><td>0</td><td>Integrator complex subunit</td></tr>
+<tr><td>INTS11</td><td>0.613</td><td>0</td><td>Integrator complex subunit</td></tr>
+</tbody></table></div>
+<h4>IntAct</h4>
+<ul><li><strong>Empty.</strong> No interactions recorded.</li></ul>
+<h4>PPI Network Assessment</h4>
+<ul><li>Network is predominantly cancer-testis antigens (CTAs). No experimental validation.</li><li>Integrator complex connections (INTS14, INTS11) are database-driven, not experimental.</li><li>Very weak PPI evidence overall.</li></ul>
+<hr>
+<h3>FALSE REJECTION RECHECK</h3>
+<h4>Original Rejection Reason (inferred)</h4>
+<p>SAGE1 was likely rejected due to very low structural confidence and very limited functional characterization.</p>
+<h4>Recheck Analysis</h4>
+<p>1. <strong>Nuclear evidence:</strong> STRONG. HPA Enhanced: Nucleoplasm + Nuclear bodies. Integrator complex association. 2. <strong>Functional context:</strong> No annotated molecular function. Cancer-testis antigen. Integrator complex association (IBA) suggests involvement in snRNA processing, but no experimental confirmation. 3. <strong>PubMed:</strong> 10 strict. VERY LOW. 4. <strong>Structure:</strong> Very poor. mean pLDDT 50.2 with 57.6% &lt;50. 5. <strong>PPI:</strong> Very weak. Only textmining/database connections to other CTAs.</p>
+<h4>Verdict</h4>
+<p><strong>The original rejection was CORRECT, but this is a borderline case.</strong> SAGE1 has excellent nuclear evidence (HPA Enhanced, nucleoplasm + nuclear bodies) and Integrator complex association, which is relevant for transcription. However, the complete absence of annotated function, very poor structural confidence (mostly disordered), and lack of experimental PPI data make it difficult to justify retention. Should remain REJECTED with a note for potential future re-evaluation if functional data emerges.</p>
+<hr>
+<h3>TE-Regulator Relevance</h3>
+<p>LOW (with caveat). SAGE1 has nuclear localization in nucleoplasm and nuclear bodies, and is associated with the Integrator complex, which processes snRNA and regulates transcription. However, no functional characterization exists. The Integrator complex connection is solely via electronic annotation (IBA), not experimental. Without any functional data, the TE-regulatory relevance is speculative.</p>
+<hr>
+<h3>Final Decision: REJECTED (borderline)</h3>
+<p>Score: 89/180. SAGE1 has strong nuclear evidence (HPA Enhanced) and Integrator complex association (IBA), but no annotated molecular function, very poor structural confidence, and almost no experimental PPI data. Rejected due to insufficient functional characterization, with a flag for potential re-evaluation.</p>
+<hr>
+<h3>Manual Review Note</h3>
+<p>BORDERLINE REJECTION. SAGE1 has one of the strongest HPA nuclear profiles in this batch (Enhanced reliability, nucleoplasm + nuclear bodies). The Integrator complex association is intriguing because the Integrator regulates snRNA processing and transcription. However, the complete absence of any annotated molecular function, extremely poor AF confidence (mean pLDDT 50.2), and lack of experimental interactions make this gene unsuitable for current pipeline inclusion. Flag for re-evaluation if functional characterization emerges. Cancer-testis antigens like SAGE1 may have reproductive-tissue-specific regulatory roles that remain undiscovered.</p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

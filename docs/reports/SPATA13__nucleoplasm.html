@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SPATA13 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>SPATA13</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 12</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/SPATA13/SPATA13-evaluation.md</p></section><article class="report-body"><h2>SPATA13 -- Critical False-Rejection Reevaluation Report</h2>
+<p><strong>Gene:</strong> SPATA13 (Spermatogenesis-associated protein 13) <strong>UniProt Accession:</strong> Q96N96 <strong>Protein Name:</strong> Spermatogenesis-associated protein 13 <strong>Length:</strong> 652 aa | <strong>Mass:</strong> 74.8 kDa <strong>Aliases:</strong> None <strong>Report Date:</strong> 2026-06-04 <strong>Review Stage:</strong> W3 Batch 1 -- CRITICAL REOPEN</p>
+<hr>
+<h3>/180 Scoring Table</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Max</th><th>Score</th><th>Rationale</th></tr></thead><tbody>
+<tr><td>1. Nuclear Localization</td><td>30</td><td>12</td><td>HPA main: Nucleoplasm. Additional: Cytosol. Reliability: Enhanced. UniProt: Cytoplasm, Filopodium, Lamellipodium, Ruffle membrane, Podosome (ECO:0000250). NO nuclear UniProt annotation. GO-CC: nucleoplasm (IDA:HPA), cytosol (IDA:HPA), cytoplasm (IDA:UniProtKB), filopodium (IDA:UniProtKB), lamellipodium (IDA:UniProtKB), ruffle membrane (IDA:UniProtKB). HPA Enhanced nucleoplasm vs. NO UniProt nuclear annotation -- discordant.</td></tr>
+<tr><td>2. Protein Size</td><td>10</td><td>8</td><td>652 aa / 74.8 kDa. Moderate-large size.</td></tr>
+<tr><td>3. Research Novelty</td><td>10</td><td>10</td><td>PubMed strict: 18. Novelty rule: 1-50=10.</td></tr>
+<tr><td>4. 3D Structure</td><td>30</td><td>14</td><td>AlphaFold mean pLDDT: 71.7 (46.6% &gt;90, 18.1% 70-90, 4.3% 50-70, 31.0% &lt;50). PDB: None. Moderate AF confidence. No experimental structures.</td></tr>
+<tr><td>5. Regulatory Domains</td><td>50</td><td>15</td><td>IPR035899, IPR000219 (DH domain), IPR011993, IPR001849 (PH domain), IPR036028, IPR001452 (SH3 domain), IPR055251. PF00621 (RhoGEF), PF00018 (SH3), PF22697. FUNCTION: GEF for RHOA, RAC1, CDC42 GTPases. Regulates cell migration and adhesion. Also known as ASEF2. RhoGEF function is signaling (cytoplasmic), not nuclear/chromatin regulation. DH-PH domains are prototypical GEF modules.</td></tr>
+<tr><td>6. PPI Network</td><td>50</td><td>25</td><td>STRING: 15 partners. APC (0.983), CDC42 (0.949), RAC2 (0.936), RAC3 (0.933), ARHGEF4 (0.930), APC2 (0.903), YWHAE (0.772). IntAct: 15 interactors. SHANK3, GLDC, YWHAQ, YWHAB, YWHAG, YWHAE, YWHAZ, YWHAH, APC, CTNNB1, CDC42, RAC1, ARHGEF4.</td></tr>
+<tr><td><strong>TOTAL</strong></td><td><strong>180</strong></td><td><strong>84</strong></td><td></td></tr>
+</tbody></table></div>
+<hr>
+<h3>Nuclear Evidence Section</h3>
+<h4>HPA (Human Protein Atlas)</h4>
+<ul><li><strong>Status:</strong> hpa_localization_available</li><li><strong>Reliability (IF):</strong> Enhanced</li><li><strong>Main Location:</strong> Nucleoplasm</li><li><strong>Additional:</strong> Cytosol</li><li><strong>IF Image Status:</strong> no_image_detected (red_green images available via image_urls)</li><li><strong>Key Finding:</strong> HPA detects nucleoplasm at Enhanced reliability. But this is discordant with UniProt and functional context.</li></ul>
+<h4>UniProt Subcellular Location</h4>
+<ul><li><strong>Cytoplasm</strong> -- no evidence code</li><li><strong>Cell projection, filopodium</strong> -- no evidence code</li><li><strong>Cell projection, lamellipodium</strong> -- no evidence code</li><li><strong>Cell projection, ruffle membrane</strong> -- no evidence code</li><li><strong>Cell projection, podosome</strong> -- ECO:0000250</li><li><strong>NO nuclear annotation in UniProt</strong></li></ul>
+<h4>GO Cellular Component (GO-CC)</h4>
+<ul><li><strong>GO:0005654 (nucleoplasm)</strong> -- IDA:HPA</li><li><strong>GO:0005829 (cytosol)</strong> -- IDA:HPA</li><li><strong>GO:0005737 (cytoplasm)</strong> -- IDA:UniProtKB</li><li><strong>GO:0030175 (filopodium)</strong> -- IDA:UniProtKB</li><li><strong>GO:0030027 (lamellipodium)</strong> -- IDA:UniProtKB</li><li><strong>GO:0032587 (ruffle membrane)</strong> -- IDA:UniProtKB</li></ul>
+<p><strong>Summary:</strong> Discordant nuclear evidence. HPA (Enhanced) detects nucleoplasm, but UniProt has NO nuclear annotation. The functional context (RhoGEF, cell migration, filopodia/lamellipodia) is entirely cytoplasmic/membrane. The HPA nucleoplasm annotation may be an artifact or reflect a minor pool. Nuclear score: 12/30 -- discordant, unreliable nuclear evidence.</p>
+<hr>
+<h3>PubMed Evidence</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Query Type</th><th>Count</th></tr></thead><tbody>
+<tr><td>Strict (Title/Abstract)</td><td>18</td></tr>
+<tr><td>Broad (All Fields)</td><td>40</td></tr>
+</tbody></table></div>
+<p><strong>Novelty score: 10/10.</strong></p>
+<h4>Key Papers</h4>
+<p>1. <strong>PMID:40910032</strong> -- Yang H et al. (2025). &quot;The ceRNA Regulatory Network in Vitiligo: Evidence from Bioinformatics Analysis.&quot; *Clin Cosmet Investig Dermatol*. 2. <strong>PMID:32339198</strong> -- Waseem NH et al. (2020). &quot;Mutations in SPATA13/ASEF2 cause primary angle closure glaucoma.&quot; *PLoS Genet*. 3. <strong>PMID:41358093</strong> -- Liu J et al. (2025). &quot;Identification of Neurotrophic Factor Related Biomarkers and Mechanistic Insights into Neuropathic Pain via Integrated Bioinformatics Analysis.&quot; *ACS Omega*. 4. <strong>PMID:31020388</strong> -- Bourbia N et al. (2019). &quot;The guanine nucleotide exchange factor, Spata13, influences social behaviour and nocturnal activity.&quot; *Mamm Genome*. 5. <strong>PMID:41299718</strong> -- Zhao X et al. (2025). &quot;Overexpression of Hspa1b in the mouse hippocampus may be associated with major depressive disorder.&quot; *Behav Brain Funct*.</p>
+<p><strong>Assessment:</strong> SPATA13 (ASEF2) is studied as a RhoGEF in cell migration and cancer. Primary angle closure glaucoma association. No TE-related publications.</p>
+<hr>
+<h3>AlphaFold / PDB / PAE</h3>
+<h4>AlphaFold Predicted Structure</h4>
+<ul><li><strong>Entry:</strong> AF-Q96N96-F1, version 6</li><li><strong>mean pLDDT: 71.7</strong> (&gt;90: 46.6%, 70-90: 18.1%, 50-70: 4.3%, &lt;50: 31.0%)</li><li><strong>Assessment:</strong> Moderate confidence. About one-third of residues below pLDDT 50.</li></ul>
+<h4>Experimental PDB Structures</h4>
+<ul><li><strong>None.</strong></li><li><strong>Assessment:</strong> No experimental structures.</li></ul>
+<h4>PAE</h4>
+<ul><li>PAE image URL available.</li><li>PAE assessment pending image retrieval.</li></ul>
+<hr>
+<h3>PPI Network</h3>
+<h4>STRING (15 partners)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>Experimental</th><th>Function</th></tr></thead><tbody>
+<tr><td>APC</td><td>0.983</td><td>0.630</td><td>Adenomatous polyposis coli</td></tr>
+<tr><td>CDC42</td><td>0.949</td><td>0.728</td><td>Rho GTPase (GEF substrate)</td></tr>
+<tr><td>RAC2</td><td>0.936</td><td>0.302</td><td>Rho GTPase</td></tr>
+<tr><td>RAC3</td><td>0.933</td><td>0.302</td><td>Rho GTPase</td></tr>
+<tr><td>ARHGEF4</td><td>0.930</td><td>0.292</td><td>Related RhoGEF</td></tr>
+<tr><td>YWHAE</td><td>0.772</td><td>0.771</td><td>14-3-3 epsilon</td></tr>
+<tr><td>RAC1</td><td>0.709</td><td>0.484</td><td>Rho GTPase (GEF substrate)</td></tr>
+<tr><td>RHOA</td><td>0.624</td><td>0.128</td><td>Rho GTPase (GEF substrate)</td></tr>
+</tbody></table></div>
+<h4>IntAct (15 interactors)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Method</th><th>PMID</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>APC</td><td>Pull-down (direct)</td><td>17599059</td><td>Tumor suppressor scaffold</td></tr>
+<tr><td>CTNNB1</td><td>Co-IP</td><td>10947987</td><td>Beta-catenin -- WNT pathway</td></tr>
+<tr><td>CDC42</td><td>GEF assay</td><td>17145773</td><td>Direct GEF substrate</td></tr>
+<tr><td>RAC1</td><td>Pull-down</td><td>17145773</td><td>Direct GEF substrate</td></tr>
+<tr><td>YWHAE/Q/B/G/Z/H</td><td>Co-IP</td><td>28514442</td><td>14-3-3 family</td></tr>
+</tbody></table></div>
+<h4>PPI Network Assessment</h4>
+<ul><li>Core function: RhoGEF for CDC42, RAC1, RHOA.</li><li>APC interaction connects to WNT signaling and cell migration.</li><li>CTNNB1 (beta-catenin) interaction is notable for WNT pathway connection.</li><li>Network is cytoplasmic signaling/migration, not nuclear/chromatin.</li></ul>
+<hr>
+<h3>FALSE REJECTION RECHECK</h3>
+<h4>Original Rejection Reason (inferred)</h4>
+<p>SPATA13 was likely rejected due to primarily cytoplasmic signaling function and discordant nuclear evidence.</p>
+<h4>Recheck Analysis</h4>
+<p>1. <strong>Nuclear evidence:</strong> DISCORDANT. HPA Enhanced nucleoplasm is contradicted by UniProt (no nuclear annotation) and functional context (RhoGEF, cell migration). HPA may be detecting a minor or artifactual nuclear pool. 2. <strong>Functional context:</strong> RhoGEF (DH-PH domains). Activates CDC42, RAC1, RHOA. Regulates cell migration, adhesion, tumor angiogenesis. Cytoplasmic signaling. 3. <strong>PubMed:</strong> 18 strict. LOW. 4. <strong>Structure:</strong> Moderate AF. No PDB. 5. <strong>PPI:</strong> RhoGEF signaling network. APC/CTNNB1 WNT pathway connection is interesting but cytoplasmic.</p>
+<h4>Verdict</h4>
+<p><strong>The original rejection was CORRECT.</strong> SPATA13 is a RhoGEF (ASEF2) that functions in cytoplasmic signal transduction (small GTPase activation) and cell migration. The HPA nucleoplasm annotation is discordant with UniProt (no nuclear) and the well-characterized cytoplasmic function. No chromatin, transcriptional, or TE-regulatory function. Should remain REJECTED.</p>
+<hr>
+<h3>TE-Regulator Relevance</h3>
+<p>NEGLIGIBLE. SPATA13 is a RhoGEF that activates small GTPases (CDC42, RAC1, RHOA) to regulate actin cytoskeleton dynamics, cell migration, and adhesion. Its biology is cytoplasmic signal transduction and cytoskeletal regulation. No evidence for nuclear function or chromatin/TE regulation.</p>
+<hr>
+<h3>Final Decision: REJECTED</h3>
+<p>Score: 84/180. SPATA13 has discordant nuclear evidence (HPA nucleoplasm vs. no UniProt nuclear annotation), cytoplasmic signaling function (RhoGEF), and no chromatin or TE-regulatory activity. Confirmed rejection.</p>
+<hr>
+<h3>Manual Review Note</h3>
+<p>CONFIRMED REJECTION. SPATA13 (ASEF2) is a well-characterized RhoGEF containing DH-PH and SH3 domains. Its function is activation of small GTPases (CDC42, RAC1, RHOA) at the plasma membrane to regulate actin dynamics and cell migration. The APC interaction connects it to WNT pathway and colorectal cancer. The HPA nucleoplasm annotation at Enhanced reliability is discordant with the known biology -- RhoGEFs function at membranes, not in the nucleus. The absence of any UniProt nuclear annotation strongly suggests the HPA signal is non-specific or represents a minor/artifactual pool. Not suitable for TE investigation.</p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RMND5A · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>RMND5A</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 26</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/RMND5A/RMND5A-evaluation.md</p></section><article class="report-body"><h2>RMND5A -- Critical False-Rejection Reevaluation Report</h2>
+<p><strong>Gene:</strong> RMND5A <strong>UniProt Accession:</strong> Q9H871 <strong>Protein Name:</strong> E3 ubiquitin-protein transferase RMND5A <strong>Length:</strong> 391 aa | <strong>Mass:</strong> 44.0 kDa <strong>Aliases:</strong> None <strong>Report Date:</strong> 2026-06-04 <strong>Review Stage:</strong> W3 Batch 1 -- CRITICAL REOPEN</p>
+<hr>
+<h3>/180 Scoring Table</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Max</th><th>Score</th><th>Rationale</th></tr></thead><tbody>
+<tr><td>1. Nuclear Localization</td><td>30</td><td>26</td><td>HPA main: Nucleoplasm (Supported). UniProt: Nucleus nucleoplasm (ECO:0000269 x3), Cytoplasm (ECO:0000269 x3). GO-CC: nucleoplasm (IDA:HPA), nucleus (IDA:UniProtKB), cytoplasm (IDA:UniProtKB), ubiquitin ligase complex (IDA:UniProtKB). Nucleoplasmic localization is well-supported, but also cytoplasmic. Dual localization reduces nuclear score slightly.</td></tr>
+<tr><td>2. Protein Size</td><td>10</td><td>10</td><td>391 aa / 44.0 kDa. Full marks.</td></tr>
+<tr><td>3. Research Novelty</td><td>10</td><td>10</td><td>PubMed strict: 16. Novelty rule: 1-50=10. Very few publications.</td></tr>
+<tr><td>4. 3D Structure</td><td>30</td><td>24</td><td>AlphaFold mean pLDDT: 89.9 (65.2% &gt;90, 30.7% 70-90, 4.1% 50-70, 0.0% &lt;50). PDB: 8PJN (EM, 3.40A, full length). Good confidence, one experimental structure.</td></tr>
+<tr><td>5. Regulatory Domains</td><td>50</td><td>35</td><td>IPR013144, IPR024964, IPR006595, IPR006594, IPR045098, IPR037680, IPR044063, IPR027370. PF10607, PF13445. Function: Core component of CTLH E3 ubiquitin ligase complex. Mediates ubiquitination and proteasomal degradation of transcription factor HBP1. CTLH complex targets include transcription factors. E3 ligase activity directly regulates protein stability, including transcription factors. Indirect but significant regulatory role.</td></tr>
+<tr><td>6. PPI Network</td><td>50</td><td>35</td><td>STRING: 15 partners with strong experimental support. GID8 (0.999), RANBP9 (0.997), WDR26 (0.997), ARMC8 (0.996), GID4 (0.991), MKLN1 (0.990), MAEA (0.969). IntAct: 15 interactors including RANBP9, MAEA, TENT4A, ZMYND19, H2BC1 (histone!), ARMC8, HTRA2, MKLN1, TCEAL9, YPEL5. UniProt: 15 interactors including TARDBP (TDP-43), ATXN1. Large CTLH complex network.</td></tr>
+<tr><td><strong>TOTAL</strong></td><td><strong>180</strong></td><td><strong>140</strong></td><td></td></tr>
+</tbody></table></div>
+<hr>
+<h3>Nuclear Evidence Section</h3>
+<h4>HPA (Human Protein Atlas)</h4>
+<ul><li><strong>Status:</strong> hpa_localization_available</li><li><strong>Reliability (IF):</strong> Supported</li><li><strong>Main Location:</strong> Nucleoplasm</li><li><strong>Additional:</strong> None</li><li><strong>IF Image Status:</strong> no_image_detected (red_green images available via image_urls but not flagged as if_display)</li><li><strong>Key Finding:</strong> Nucleoplasm localization supported.</li></ul>
+<h4>UniProt Subcellular Location</h4>
+<ul><li><strong>Nucleus, nucleoplasm</strong> -- ECO:0000269 x3 (experimental)</li><li><strong>Cytoplasm</strong> -- ECO:0000269 x3 (experimental)</li></ul>
+<h4>GO Cellular Component (GO-CC)</h4>
+<ul><li><strong>GO:0005654 (nucleoplasm)</strong> -- IDA:HPA</li><li><strong>GO:0005634 (nucleus)</strong> -- IDA:UniProtKB</li><li><strong>GO:0005737 (cytoplasm)</strong> -- IDA:UniProtKB</li><li><strong>GO:0005829 (cytosol)</strong> -- TAS:Reactome</li><li><strong>GO:0034657 (GID complex)</strong> -- IBA:GO_Central</li><li><strong>GO:0000151 (ubiquitin ligase complex)</strong> -- IDA:UniProtKB</li></ul>
+<p><strong>Summary:</strong> RMND5A localizes to both nucleoplasm and cytoplasm. Experimental evidence supports nucleoplasmic localization. Nuclear score: 26/30 -- good nuclear evidence with dual localization caveat.</p>
+<hr>
+<h3>PubMed Evidence</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Query Type</th><th>Count</th></tr></thead><tbody>
+<tr><td>Strict (Title/Abstract)</td><td>16</td></tr>
+<tr><td>Symbol-only</td><td>25</td></tr>
+<tr><td>Broad (All Fields)</td><td>26</td></tr>
+</tbody></table></div>
+<p><strong>Novelty score: 10/10.</strong></p>
+<h4>Key Papers</h4>
+<p>1. <strong>PMID:34079591</strong> -- Chen S et al. (2021). &quot;miR-590-5p targets RMND5A and promotes migration in pancreatic adenocarcinoma cell lines.&quot; *Oncol Lett*. 2. <strong>PMID:31285494</strong> -- Maitland MER et al. (2019). &quot;The mammalian CTLH complex is an E3 ubiquitin ligase that targets its subunit muskelin for degradation.&quot; *Sci Rep*. 3. <strong>PMID:31885576</strong> -- Huffman N et al. (2019). &quot;The CTLH Complex in Cancer Cell Plasticity.&quot; *J Oncol*. 4. <strong>PMID:28731166</strong> -- Liu H, Ye H (2017). &quot;Screening of the prognostic targets for breast cancer based co-expression modules analysis.&quot; *Mol Med Rep*. 5. <strong>PMID:40377017</strong> -- Nakagawa T et al. (2025). &quot;E3 ubiquitin ligase RMND5A maintains the self-renewal state of human neural stem/precursor cells by regulating Wnt and mTOR signaling pathways.&quot; *FEBS Lett*.</p>
+<p><strong>Assessment:</strong> Very low publication count (16 strict). RMND5A is under-studied, especially regarding TE regulation.</p>
+<hr>
+<h3>AlphaFold / PDB / PAE</h3>
+<h4>AlphaFold Predicted Structure</h4>
+<ul><li><strong>Entry:</strong> AF-Q9H871-F1, version 6</li><li><strong>mean pLDDT: 89.9</strong> (&gt;90: 65.2%, 70-90: 30.7%, 50-70: 4.1%, &lt;50: 0.0%)</li><li><strong>Assessment:</strong> Excellent confidence. Virtually no low-confidence regions.</li></ul>
+<h4>Experimental PDB Structures</h4>
+<ul><li><strong>1 structure:</strong> 8PJN (EM, 3.40A, full length 1-391)</li><li><strong>Assessment:</strong> Single cryo-EM structure of full protein at moderate resolution.</li></ul>
+<h4>PAE</h4>
+<ul><li>PAE image URL available.</li><li>PAE assessment pending image retrieval.</li></ul>
+<hr>
+<h3>PPI Network</h3>
+<h4>STRING (15 partners)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>Experimental</th><th>Function</th></tr></thead><tbody>
+<tr><td>GID8</td><td>0.999</td><td>0.934</td><td>CTLH complex component</td></tr>
+<tr><td>RANBP9</td><td>0.997</td><td>0.934</td><td>Ran-binding, CTLH complex</td></tr>
+<tr><td>WDR26</td><td>0.997</td><td>0.890</td><td>CTLH complex scaffold</td></tr>
+<tr><td>ARMC8</td><td>0.996</td><td>0.849</td><td>CTLH complex</td></tr>
+<tr><td>GID4</td><td>0.991</td><td>0.859</td><td>Substrate receptor</td></tr>
+<tr><td>MKLN1</td><td>0.990</td><td>0.835</td><td>CTLH complex</td></tr>
+<tr><td>MAEA</td><td>0.969</td><td>0.845</td><td>E3 ligase partner</td></tr>
+<tr><td>RMND5B</td><td>0.901</td><td>0.782</td><td>Paralog</td></tr>
+</tbody></table></div>
+<h4>IntAct (15 interactors)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Method</th><th>PMID</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>RANBP9</td><td>Co-IP</td><td>28514442</td><td>CTLH complex</td></tr>
+<tr><td>MAEA</td><td>Co-IP</td><td>28514442</td><td>E3 ligase activity</td></tr>
+<tr><td>H2BC1</td><td>Co-IP</td><td>28514442</td><td>Histone H2B -- chromatin connection</td></tr>
+<tr><td>MKLN1</td><td>Co-IP</td><td>28514442</td><td>CTLH complex</td></tr>
+<tr><td>ARMC8</td><td>Co-IP</td><td>28514442</td><td>CTLH complex</td></tr>
+</tbody></table></div>
+<h4>PPI Network Assessment</h4>
+<ul><li>Dense CTLH E3 ubiquitin ligase complex network with strong experimental support.</li><li>Interaction with H2BC1 (histone H2B) is notable for chromatin relevance.</li><li>UniProt interactions with TARDBP (TDP-43, RNA-binding) and ATXN1 (transcription factor).</li></ul>
+<hr>
+<h3>FALSE REJECTION RECHECK</h3>
+<h4>Original Rejection Reason (inferred)</h4>
+<p>RMND5A was likely rejected due to incomplete reporting or placeholder text.</p>
+<h4>Recheck Analysis</h4>
+<p>1. <strong>Nuclear evidence:</strong> PRESENT. HPA nucleoplasm (Supported). UniProt experimental nucleoplasm x3. 2. <strong>Functional context:</strong> E3 ubiquitin ligase (CTLH complex). Targets transcription factor HBP1 for degradation. E3 ligase activity is indirect regulatory, but regulation of transcription factor stability has downstream transcriptional effects. 3. <strong>PubMed:</strong> 16 strict. Very low. HIGH NOVELTY. 4. <strong>Structure:</strong> Good AF (mean pLDDT 89.9), one EM structure. 5. <strong>PPI:</strong> H2BC1 histone interaction suggests potential chromatin-level involvement.</p>
+<h4>Verdict</h4>
+<p><strong>The original rejection was INCORRECT.</strong> RMND5A has nuclear localization (nucleoplasm), functions as an E3 ubiquitin ligase regulating transcription factor stability, has high novelty (PubMed=16), and interacts with histone H2B. Should be RETAINED for further evaluation.</p>
+<hr>
+<h3>TE-Regulator Relevance</h3>
+<p>MODERATE. RMND5A is an E3 ubiquitin ligase component of the CTLH complex. Its direct regulatory function is protein ubiquitination and degradation, targeting transcription factor HBP1. The CTLH complex also regulates stem cell self-renewal through Wnt and mTOR pathways. The interaction with histone H2B (H2BC1) suggests potential chromatin-level involvement. As an E3 ligase, RMND5A could regulate stability of TE-associated transcription factors or chromatin modifiers. However, no direct TE silencing function is known.</p>
+<hr>
+<h3>Final Decision: RETAINED</h3>
+<p>Score: 140/180. RMND5A is a nucleoplasmic E3 ubiquitin ligase with good nuclear evidence, high novelty, excellent structural confidence, and a chromatin-relevant interaction (H2BC1 histone). The CTLH complex&#x27;s role in transcription factor degradation provides indirect regulatory potential. Retained for the pipeline.</p>
+<hr>
+<h3>Manual Review Note</h3>
+<p>MODERATE CANDIDATE. RMND5A&#x27;s E3 ligase activity on transcription factors (HBP1) and stem cell self-renewal regulation suggest broad regulatory potential. The H2BC1 (histone H2B) interaction is interesting for chromatin biology. PubMed count of 16 indicates very limited investigation. The CTLH complex (GID complex) is a highly conserved ubiquitin ligase system. Structural data is good with excellent AF confidence and one EM structure. Retained.</p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

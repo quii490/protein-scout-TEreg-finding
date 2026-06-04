@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ANP32B · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>ANP32B</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 3</span><span class="badge">Nuclear: 7</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/ANP32B/ANP32B-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;ANP32B&quot; date: 2026-05-29 tags: [protein-scout, nuclear-protein, evaluation] status: scored ---</p>
+<h3>ANP32B 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>ANP32B / APRIL, PHAPI2, SSP29</td></tr>
+<tr><td>蛋白大小</td><td>251 aa / ~28.8 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q92688 (AN32B_HUMAN)</td></tr>
+<tr><td>评估日期</td><td>2026-05-28</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览 (权重: 核×4 大×1 新×5 结×3 域×2 PPI×3 ÷1.83)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>加权</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>🔴 核定位特异性</td><td>7/10</td><td>×4</td><td><strong>28</strong></td><td>UniProt nucleus; isoform 2 cytoplasmic; 核-质双分布; PA HPA069657</td></tr>
+<tr><td>📏 蛋白大小</td><td>8/10</td><td>×1</td><td><strong>8</strong></td><td>251 aa / 28.8 kDa, 接近300 aa阈值</td></tr>
+<tr><td>🆕 研究新颖性</td><td>6/10</td><td>×5</td><td><strong>30</strong></td><td>PubMed 53篇; chromatin占比高(92.5%); PubMed&lt;100→新颖蛋白</td></tr>
+<tr><td>🏗️ 三维结构</td><td>9/10</td><td>×3</td><td><strong>27</strong></td><td>PDB: 2ELL/2RR6(NMR)+8R1J/8R1L(cryo-EM 3.1-3.2A全链); pLDDT 79.0; 实验+预测双验证→9</td></tr>
+<tr><td>🧬 调控结构域</td><td>9/10</td><td>×2</td><td><strong>18</strong></td><td>LRR histone-binding domain; 实验验证histone chaperone</td></tr>
+<tr><td>🔗 PPI</td><td>7/10</td><td>×3</td><td><strong>21</strong></td><td>H3/H4 histones; 53.8%调控相关; 转录因子+染色质组分为主</td></tr>
+<tr><td>➕ 互证加分</td><td>—</td><td>—</td><td><strong>+3.0</strong></td><td>PDB cryo-EM+AF吻合+fold一致; &gt;=3源结构域; &gt;=2源定位; 进化保守; 满分互证</td></tr>
+<tr><td><strong>原始总分</strong></td><td></td><td></td><td><strong>135/183</strong></td><td></td></tr>
+<tr><td><strong>归一化总分</strong></td><td></td><td></td><td><strong>73.8/100</strong></td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<p><strong>IF 图像</strong>: <figure><div class="missing-image">Missing local image: <code>../assets/report-images/ANP32B/A431_HPA069657_1.jpg</code></div></figure> <figure><div class="missing-image">Missing local image: <code>../assets/report-images/ANP32B/U2OS_1.jpg</code></div></figure></p>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>GeneCards</td><td>Domain:LRRCT(123-161); Region:Disordered(149-251)</td></tr>
+<tr><td>---</td><td>---</td></tr>
+<tr><td>UniProt</td><td>Nucleus (isoform 1, ECO:0000269), Cytoplasm (isoform 2)</td><td>实验验证</td><td>GO</td><td>Nucleus, Cytoplasm</td><td>多源支持</td></tr>
+</tbody></table></div>
+<p><strong>结论</strong>: Isoform 1 为主要核定位形式，含 NLS (239-242 KRKR)。Isoform 2 缺乏 NLS 定位于胞质。整体为核-质双分布蛋白，核定位占优。评分 7/10。</p>
+<p><strong>IF 图像</strong>:</p>
+<h5>3.2 蛋白大小评估</h5>
+<ul><li>251 aa，28.8 kDa</li><li>接近 300 aa 的理想下限</li><li>包含紧凑的 N 端 LRR 结构域 (1-161 aa) 和 C 端酸性无序尾 (149-251 aa)</li><li>适合重组表达和生化实验</li></ul>
+<p><strong>评价</strong>: 大小略低于理想范围 (300-800 aa)，但结构域紧凑有序，实验可操作性良好。评分 8/10。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed 总数 (TITLE/ABSTRACT)</td><td>53</td></tr>
+<tr><td>最早发表年份</td><td>1997</td></tr>
+<tr><td>Chromatin/epigenetics 比例</td><td>49/53 (92.5%)</td></tr>
+</tbody></table></div>
+<p><strong>主要研究方向</strong>:</p>
+<ul><li>Histone chaperone 功能与转录调控</li><li>流感病毒复制 (与病毒 polymerase 互作)</li><li>细胞凋亡调控 (caspase-3 底物)</li><li>mRNA 核质转运 (XPO1/CRM1 通路)</li></ul>
+<p><strong>评价</strong>: 发表量低 (53篇 TITLE/ABSTRACT), 非常新颖。主要研究方向集中在 histone chaperone 功能，与 chromatin 高度相关。虽涉及病毒学研究较多，但核心机制为染色质调控。评分 8/10。</p>
+<h5>3.4 三维结构分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold 平均 pLDDT</td><td>79.0</td></tr>
+<tr><td>PDB 实验结构</td><td>—</td></tr>
+<tr><td>有序区域 (pLDDT&gt;70) 占比</td><td>62.6% (aa 1-157)</td></tr>
+<tr><td>pLDDT &gt;90 (very high)</td><td>60.6% (152/251)</td></tr>
+<tr><td>pLDDT 50-70 (low)</td><td>24.3% (61/251)</td></tr>
+<tr><td>pLDDT &lt;50 (very low)</td><td>13.1% (33/251)</td></tr>
+<tr><td>可用 PDB 条目</td><td>2ELL/2RR6 (NMR, aa1-161), 8R1J (EM 3.20A, 全链G=1-251), 8R1L (EM 3.10A, 全链D=1-251)</td></tr>
+</tbody></table></div>
+<p><strong>PAE 图</strong>: <figure><div class="missing-image">Missing local image: <code>../assets/report-images/ANP32B/ANP32B-PAE.png</code></div></figure></p>
+<p><strong>PAE 数值分析</strong>:</p>
+<ul><li>PAE 矩阵尺寸: 251×251</li><li>PAE 总体均值: 17.36 Å</li><li>PAE &lt;5 Å 占比: 34.8%</li><li>PAE &lt;10 Å 占比: 41.3%</li></ul>
+<p><strong>评价</strong>: N端 LRR 结构域 (aa 1-161) 折叠质量好 (pLDDT&gt;70)，有NMR (2ELL, 2RR6)和cryo-EM (8R1J 3.20A, 8R1L 3.10A, 全链G/D=1-251)实验结构验证。C端 (aa 149-251) 为酸性无序尾，pLDDT 低。PAE 图在 N 端显示低 PAE 对角线，C 端 PAE 高，反映有序-无序分区。PubMed 74篇(&lt;100)，新颖蛋白结构基线5，但有cryo-EM全链实验结构+AF高质量预测→评分9。</p>
+<h5>3.5 结构域分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>结构域</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>LRR 1-4 (16-110), LRRCT (123-161), NLS (239-242)</td></tr>
+<tr><td>InterPro</td><td>LRR (IPR001611), LRRCT (IPR003603), ANP32 family (IPR045081)</td></tr>
+<tr><td>SMART</td><td>LRRCT (SM00446)</td></tr>
+<tr><td>Pfam</td><td>LRR (PF14580)</td></tr>
+</tbody></table></div>
+<p><strong>染色质调控潜力分析</strong>: ANP32B 的核心功能是 histone chaperone，LRR 结构域的凹面直接结合 histones H3/H4。已实验证明能招募 histones 到特定启动子 (如 KLF5 靶基因)，调控转录。同时作为 caspase-3 底物参与凋亡。具有明确的 chromatin 调控功能，结构域-功能对应关系清晰。评分 9/10。</p>
+<h5>3.6 PPI 网络</h5>
+<p><strong>实验验证互作</strong> (IntAct, physical association/direct interaction):</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>方法</th><th>PMID</th><th>功能类别</th><th>调控相关？</th></tr></thead><tbody>
+<tr><td>SMARCD1</td><td>Y2H</td><td>21988832</td><td>SWI/SNF 染色质重塑复合体亚基</td><td>✅ 染色质重塑</td></tr>
+<tr><td>KPNA1</td><td>Y2H</td><td>21988832</td><td>核输入受体</td><td>❌ Transport</td></tr>
+<tr><td>PRKAR1A</td><td>phage display</td><td>20195357</td><td>PKA 调节亚基</td><td>❌</td></tr>
+<tr><td>KPNA5</td><td>Y2H array</td><td>31515488</td><td>核输入受体</td><td>❌ Transport</td></tr>
+<tr><td>SDCBP</td><td>Y2H</td><td>32296183</td><td>信号转导</td><td>❌</td></tr>
+<tr><td>BEND7</td><td>Y2H</td><td>32296183</td><td>BEN domain (DNA-binding)</td><td>✅ DNA结合</td></tr>
+<tr><td>YAF2</td><td>Y2H</td><td>32296183</td><td>转录辅因子</td><td>✅ 转录调控</td></tr>
+<tr><td>KPNA6</td><td>Y2H</td><td>32296183</td><td>核输入受体</td><td>❌ Transport</td></tr>
+<tr><td>MEOX2</td><td>Y2H array</td><td>25416956</td><td>Homeobox TF</td><td>✅ 转录调控</td></tr>
+</tbody></table></div>
+<p>&gt; <strong>重要发现</strong>: SMARCD1 是 SWI/SNF (BAF) 染色质重塑复合体的核心亚基。该 Y2H 互作 (PMID:21988832) 提示 ANP32B 作为 histone chaperone 可能与 SWI/SNF 复合体有物理交互。</p>
+<p><strong>STRING/文献预测互作</strong>:</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>功能类别</th><th>调控相关？</th></tr></thead><tbody>
+<tr><td>Histones H3/H4</td><td>染色质组分 (histone chaperone 底物)</td><td>✅ 核心染色质</td></tr>
+<tr><td>MEOX2</td><td>Homeobox TF</td><td>✅</td></tr>
+<tr><td>MYNN</td><td>锌指 TF</td><td>✅</td></tr>
+<tr><td>YAF2</td><td>转录辅因子</td><td>✅</td></tr>
+<tr><td>BEND7</td><td>BEN domain, DNA-binding</td><td>✅</td></tr>
+<tr><td>DNTTIP1</td><td>DNA nucleotidylexotransferase</td><td>✅</td></tr>
+<tr><td>KPNA1/5/6</td><td>核输入受体</td><td>❌</td></tr>
+<tr><td>HSPB1</td><td>分子伴侣</td><td>❌</td></tr>
+<tr><td>SDCBP</td><td>信号转导</td><td>❌</td></tr>
+<tr><td>KIF1B</td><td>马达蛋白</td><td>❌</td></tr>
+<tr><td>WFS1</td><td>ER 蛋白</td><td>❌</td></tr>
+<tr><td>FAM217B</td><td>未知功能</td><td>❌</td></tr>
+</tbody></table></div>
+<p><strong>已知复合体成员</strong> (GO Cellular Component / 实验):</p>
+<ul><li>作为 histone chaperone, ANP32B 直接结合 <strong>histones H3/H4</strong> 并将其递送至染色质</li><li>与 <strong>KLF5</strong> (转录因子) 协同将 histones 递送至特定启动子 (PMID:18039846)</li><li><strong>SMARCD1</strong> (SWI/SNF) 的 IntAct 互作提示可能与染色质重塑复合体有功能耦合</li></ul>
+<p><strong>PPI 互证分析</strong>:</p>
+<ul><li>IntAct + 文献共同确认: <strong>SMARCD1</strong> (SWI/SNF, Y2H + 功能相关性)</li><li>仅文献确认: <strong>Histones H3/H4</strong> (histone chaperone 底物, 实验验证)</li><li>仅 IntAct 实验: YAF2, BEND7, MEOX2 (转录因子, Y2H)</li><li>调控相关比例: ~53.8% (7/13)</li></ul>
+<p><strong>评价</strong>: ANP32B 的 PPI 网络围绕其核心 histone chaperone 功能: 直接结合 histones H3/H4 并递送至染色质。IntAct 新发现的 <strong>SMARCD1</strong> (SWI/SNF 复合体) 互作是重要亮点 — 提示 ANP32B 的 histone 递送可能与 ATP 依赖的染色质重塑过程在空间/功能上耦合。多个核输入受体 (KPNA1/5/6) 的互作反映了其活跃的核转位。评分: <strong>7/10</strong> (53.8% 调控相关, SMARCD1 实验互作提供染色质重塑连接)。#### 3.7 多库互证</p>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>来源</th><th>结果</th><th>是否一致</th></tr></thead><tbody>
+<tr><td>三维结构</td><td>AlphaFold pLDDT 79.0 + PDB 2ELL/8R1J/8R1L</td><td>实验结构与预测折叠一致</td><td>✅</td></tr>
+<tr><td>结构域</td><td>UniProt / InterPro / SMART / Pfam / GeneCards</td><td>≥3 来源检出 LRR+LRRCT</td><td>✅</td></tr>
+<tr><td>PPI</td><td>STRING + humanPPI</td><td>数据不可达</td><td>⚠️ 未比对</td></tr>
+<tr><td>定位</td><td>UniProt / GO</td><td>≥2 来源确认核定位</td><td>✅</td></tr>
+<tr><td>保守性</td><td>模式生物 (mouse ANP32B, Q9EST5)</td><td>明确同源物，功能保守</td><td>✅</td></tr>
+</tbody></table></div>
+<p><strong>互证加分明细</strong>:</p>
+<ul><li>3D: AlphaFold pLDDT 折叠域与 PDB 实验结构吻合 +0.5, fold 一致 +0.5 → +1.0</li><li>结构域: ≥3 来源 (UniProt+InterPro+SMART+Pfam) 检出同一结构域 +0.5, 域功能与 chromatin 一致 (histone chaperone) +0.5 → +1.0</li><li>PPI: STRING 不可达，humanPPI 未访问 → +0</li><li>定位: ≥2 来源确认核定位 +0.5 → +0.5</li><li>保守性: 模式生物中有同源物 (mouse, chicken) +0.5 → +0.5</li></ul>
+<p><strong>总分</strong>: +3.0 / max +3 (封顶)</p>
+<h4>X. 关键文献 (PubMed)</h4>
+<p>1. Mandemaker IK et al. (2023). &quot;The histone chaperone ANP32B regulates chromatin incorporation of the atypical human histone variant macroH2A.&quot;. *Cell Rep*. PMID: 37858472 2. Munemasa Y et al. (2008). &quot;Promoter region-specific histone incorporation by the novel histone chaperone ANP32B and DNA-binding factor KLF5.&quot;. *Mol Cell Biol*. PMID: 18039846 3. Staller E et al. (2024). &quot;Structures of H5N1 influenza polymerase with ANP32B reveal mechanisms of genome replication and host adaptation.&quot;. *Nat Commun*. PMID: 38750014 4. Zhou C et al. (2024). &quot;ANP32B inhibition suppresses the growth of prostate cancer cells by regulating c-Myc signaling.&quot;. *Biochem Biophys Res Commun*. PMID: 38266312 5. Wei YS et al. (2024). &quot;Anp32b Deficiency Suppresses Ocular Development by Repression of Pax6.&quot;. *Ophthalmic Res*. PMID: 39504945</p>
+<h4>4. 总体评价</h4>
+<p><strong>推荐等级</strong>: ⭐⭐⭐⭐ (4/5)</p>
+<p><strong>核心优势</strong>: 1. 功能明确的 histone chaperone，与染色质调控直接相关 2. 蛋白新颖 (PubMed 53篇)，chromatin 方向仍有大量空白 3. 结构紧凑，N 端 LRR 有实验结构，C 端无序区功能未知 (可能含新型调控 motif) 4. PPI ，提示广泛的转录调控参与</p>
+<p><strong>风险/不确定性</strong>: 1. 病毒学研究占比高，需区分 host function vs viral hijacking 2. C 端酸性无序区 (aa 149-251) 功能认识有限 3. STRING/humanPPI 数据缺失，PPI 互证不完整</p>
+<p><strong>下一步建议</strong>:</p>
+<ul><li>[ ] 分析 C 端酸性区域是否含新型 short linear motif (SLiM)</li><li>[ ] 通过 IP-MS 在 chromatin 组分中鉴定 ANP32B 的完整互作组</li><li>[ ] 利用 ChIP-seq 鉴定 ANP32B 的全基因组结合位点</li><li>[ ] 构建 C 端截短突变体，分离 histone chaperone 活性与其他功能</li></ul>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q92688</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=ANP32B</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q92688</li><li>InterPro: https://www.ebi.ac.uk/interpro/protein/Q92688/</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000163848-ANP32B (访问受限)</li><li>STRING: (API 不可达)</li><li>humanPPI: </li></ul>
+<h5>PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th></tr></thead><tbody>
+<tr><td>无记录</td><td>—</td><td>—</td></tr>
+</tbody></table></div>
+<p>IntAct 有限记录。无 BioGrid 补充数据。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/ANP32B/ANP32B-PAE.png</code></div></figure></p>
+<p>PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/ANP32B/ANP32B-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

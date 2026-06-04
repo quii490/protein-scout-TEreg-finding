@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PHF20 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>PHF20</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 1</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/PHF20/PHF20-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;PHF20&quot; date: 2026-06-01 tags: [protein-scout, nucleoplasm, evaluation] status: scored ---</p>
+<h3>PHF20 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>PHF20 / C20orf104, GLEA2, HCA58, NZF, TZP</td></tr>
+<tr><td>蛋白全名</td><td>PHD finger protein 20</td></tr>
+<tr><td>蛋白大小</td><td>1012 aa / 115.4 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q9BVI0</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>新权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>8/10</td><td>x4</td><td>32.0</td><td>UniProt Nucleus (exp), GO nucleoplasm (IDA:HPA)/NSL complex/MLL1 complex, HPA Nucleoplasm</td></tr>
+<tr><td>蛋白大小</td><td>2/10</td><td>x1</td><td>2.0</td><td>1012 aa, 115.4 kDa，大型蛋白</td></tr>
+<tr><td>研究新颖性</td><td>6/10</td><td>x5</td><td>30.0</td><td>PubMed strict=42, broad=61</td></tr>
+<tr><td>三维结构</td><td>5/10</td><td>x3</td><td>15.0</td><td>AlphaFold pLDDT 54.5；PDB 7 个 domain 结构（PHD/Tudor/Zn-finger）</td></tr>
+</tbody></table></div>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/PHF20/PHF20-PAE.png</code></div></figure></p>
+<div class="table-wrap"><table>
+<tbody>
+<tr><td>调控结构域</td><td>7/10</td><td>x2</td><td>14.0</td><td>PHD finger + Tudor domain (methyl-lysine reader) + Zn-finger，p53 甲基化 effector</td></tr>
+<tr><td>PPI 网络</td><td>6/10</td><td>x3</td><td>18.0</td><td>NSL HAT complex (KANSL1-3, KAT8, MCRS1, WDR5) + MLL1 complex, STRONG exp+IntAct</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>111/180</strong>**</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+0.0</td><td></td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>60.7/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Nucleus (ECO:0000269, experimental)</td><td>高（exp 证据）</td></tr>
+<tr><td>GO-CC</td><td>nucleoplasm (IDA:HPA), nuclear membrane (IDA:HPA), cytosol (IDA:HPA), NSL complex (IDA:ComplexPortal), MLL1 complex (IDA:UniProtKB), histone acetyltransferase complex (IDA:UniProtKB)</td><td>高（多来源 IDA）</td></tr>
+<tr><td>HPA IF</td><td>Nucleoplasm, Nuclear membrane, Golgi apparatus, Cytosol (Supported 可靠性)</td><td>中-高</td></tr>
+<tr><td>Literature</td><td>PHF20 是 NSL (MOF) HAT 复合体和 MLL1 复合体组分，作为 methyl-lysine reader 稳定和激活 p53</td><td>强</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 状态</strong>: IF available -- HPA 可靠性 Supported，主定位 Nucleoplasm，附加 Nuclear membrane/Golgi/Cytosol。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/PHF20/PHF20_IF_red_green.jpg</code></div></figure></p>
+<p><strong>结论</strong>: PHF20 核定位证据强（UniProt exp + GO 多 IDA + HPA Nucleoplasm），HPA 显示主要核质定位但也有附加的膜/高尔基体/胞质信号，提示非完全核专属。作为 NSL HAT 和 MLL1 复合体的组分，具有直接的组蛋白乙酰化和甲基化调控功能。</p>
+<h5>3.2 结构与数据源</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold</td><td>AF-Q9BVI0-F1</td></tr>
+<tr><td>平均 pLDDT</td><td>54.5</td></tr>
+<tr><td>pLDDT &gt;90</td><td>16.9%</td></tr>
+<tr><td>pLDDT 70-90</td><td>15.5%</td></tr>
+<tr><td>pLDDT &lt;50</td><td>62.6%</td></tr>
+<tr><td>PDB</td><td>7 个结构 (3P8D/3Q1J/3QII/3SD4/5TAB X-ray PHD/Tudor domain; 2LDM/5TBN NMR)</td></tr>
+</tbody></table></div>
+<p><strong>AlphaFold PAE 状态</strong>: PAE 已下载。pLDDT 均值低（54.5），&lt;50 区域高达 62.6%，整体结构置信度不高。但 7 个 PDB 结构覆盖了关键的 PHD finger (aa 84-147) 和 Tudor (aa 4-69) 结构域，包括甲基化组蛋白结合的共晶结构。pLDDT &gt;90 区域（16.9%）对应这些明确折叠的结构域。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict (Title/Abstract)</td><td>42</td></tr>
+<tr><td>PubMed broad</td><td>61</td></tr>
+<tr><td>别名</td><td>C20orf104, GLEA2, HCA58, NZF, TZP（未用于 scoring）</td></tr>
+</tbody></table></div>
+<p>关键文献：</p>
+<ul><li>PMID:35033534: &quot;Methyl-lysine readers PHF20 and PHF20L1 define two distinct gene expression-regulating NSL complexes.&quot; (J Biol Chem, 2022) -- 直接研究 PHF20 在 NSL complex 中的功能分型</li><li>PMID:22864287: &quot;PHF20 is an effector protein of p53 double lysine methylation that stabilizes and activates p53.&quot; (Nat Struct Mol Biol, 2012) -- Nature 子刊，确定 PHF20 为 p53 甲基化 reader</li><li>PMID:26722404: &quot;Expression of PHF20 protein contributes to good prognosis of NSCLC.&quot; (Int J Clin Exp Pathol, 2015)</li><li>PMID:36598702: &quot;PHF20 is a Novel Prognostic Biomarker and Correlated with Immune Status in Breast Cancer.&quot; (Biochem Genet, 2023)</li></ul>
+<h5>3.4 PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>KANSL1</td><td>STRING</td><td>0.999 (exp 0.832)</td><td>NSL complex 支架亚基</td></tr>
+<tr><td>KANSL2</td><td>STRING</td><td>0.998 (exp 0.826)</td><td>NSL complex 亚基</td></tr>
+<tr><td>KANSL3</td><td>STRING</td><td>0.998 (exp 0.809)</td><td>NSL complex 亚基</td></tr>
+<tr><td>MCRS1</td><td>STRING</td><td>0.998 (exp 0.796)</td><td>NSL complex 亚基</td></tr>
+<tr><td>KAT8</td><td>STRING</td><td>0.992 (exp 0.795)</td><td>MOF HAT, H4K16ac writer</td></tr>
+<tr><td>TP53</td><td>STRING</td><td>0.970 (exp 0.295)</td><td>p53 methyl-lysine effector 靶标</td></tr>
+<tr><td>WDR5</td><td>STRING</td><td>0.993 (exp 0.450)</td><td>MLL1 complex 核心亚基</td></tr>
+<tr><td>KAT8</td><td>IntAct</td><td>coIP (PMID:23452852)</td><td>MOF HAT</td></tr>
+<tr><td>WDR5</td><td>IntAct</td><td>coIP + TAP (PMID:23452852, 27705803)</td><td>MLL1 complex</td></tr>
+<tr><td>H3C12/H4C9</td><td>UniProt</td><td>6/3 experiments</td><td>组蛋白直接互作</td></tr>
+</tbody></table></div>
+<p>PHF20 的 PPI 网络横跨两个关键染色质调控复合体：NSL HAT complex (KANSL1-3, KAT8/MOF, MCRS1) 和 MLL1/COMPASS-like complex (WDR5, RBBP5, KMT2A)。TP53 通过甲基化依赖方式被 PHF20 识别。UniProt 记录了 H3C12 和 H4C9 的组蛋白直接互作。IntAct 确认 KAT8、WDR5、KANSL1-3 和 MCRS1 的多条实验互作。</p>
+<h4>4. 总体评价</h4>
+<p>PHF20 是一个文献量适中（strict=42）的核蛋白，最大的亮点在于<strong>调控结构域极强</strong>：同时具备 PHD finger 和 Tudor domain（均为甲基化组蛋白 reader），直接参与 NSL HAT 和 MLL1 两种染色质修饰复合体，且是 p53 双甲基化的 effector。PDB 有 7 个 domain 结构（含 methyl-lysine 共晶）。主要劣势是 AlphaFold 全长的 pLDDT 低（54.5）和蛋白偏大（115 kDa）。适合作为染色质 reader/组蛋白修饰复合体亚基方向的高质量候选。</p>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9BVI0</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9BVI0</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=PHF20</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000025293-PHF20</li></ul>
+<p>HPA IF 图像已本地嵌入。</p>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/PHF20/PHF20-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

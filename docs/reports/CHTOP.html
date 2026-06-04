@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CHTOP · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>CHTOP</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleolus</span><span class="badge">Score: 100</span><span class="badge">Nuclear: 4</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleolus.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleolus/CHTOP/CHTOP-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;CHTOP&quot; date: 2026-06-01 tags: [protein-scout, nuclear-protein, evaluation] status: scored ---</p>
+<h3>CHTOP 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>CHTOP / C1orf77, FOP</td></tr>
+<tr><td>蛋白全名</td><td>Chromatin target of PRMT1 protein</td></tr>
+<tr><td>蛋白大小</td><td>248 aa / 26.4 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q9Y3Y2 (CHTOP_HUMAN)</td></tr>
+<tr><td>评估日期</td><td>2026-06-01</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览 (权重: 核×4 大×1 新×5 结×3 域×2 PPI×3 /1.83)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>加权</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>9/10</td><td>×4</td><td><strong>36</strong></td><td>UniProt: Nucleus+Nucleolus+Nucleoplasm+Nuclear speckle(全ECO:0000269实验); HPA: Nuclear speckles(Supported); GO: nuclear speck(IDA)+nucleolus(IEA)+nucleoplasm(TAS); 纯核蛋白</td></tr>
+<tr><td>蛋白大小</td><td>8/10</td><td>×1</td><td><strong>8</strong></td><td>248 aa / 26.4 kDa, 接近200-300区间下界</td></tr>
+<tr><td>研究新颖性</td><td>8/10</td><td>×5</td><td>40</td><td>PubMed 26篇; ≤40区间</td></tr>
+<tr><td>三维结构</td><td>4/10</td><td>×3</td><td><strong>12</strong></td><td>AF pLDDT 61.2; 36.7%无序(pLDDT&lt;50); 无PDB实验结构</td></tr>
+<tr><td>调控结构域</td><td>7/10</td><td>×2</td><td><strong>14</strong></td><td>PRMT1-binding/chromatin-targeting(IPR025715); TREX复合体组分; 结合5hmC+招募methylosome</td></tr>
+<tr><td>PPI</td><td>5/10</td><td>×3</td><td><strong>15</strong></td><td>IntAct: DDX39B/TREX组件+MAGOH+EIF4A3+LBR+SRPK2/3+ZC3H18; STRING: unresolvable; LBR=chromatin, TREX=coupled transcription-export</td></tr>
+<tr><td>互证加分</td><td>—</td><td>—</td><td><strong>+1.0</strong></td><td>NuLoc≥2源(UniProt+GO+HPALoc确认); 结构域≥2源(UniProt+InterPro); IntAct实验PPI丰富</td></tr>
+<tr><td><strong>原始总分</strong></td><td></td><td></td><td><strong>126/180</strong></td><td></td></tr>
+<tr><td><strong>归一化总分</strong></td><td></td><td></td><td><strong>68.9/100</strong></td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Nucleus; Nucleolus; Nucleoplasm; Nuclear speckle</td><td>全ECO:0000269 (实验)</td></tr>
+<tr><td>HPA (IF)</td><td>Nuclear speckles (Supported reliability)</td><td>Supported, IF图可用</td></tr>
+<tr><td>GO-CC</td><td>nuclear speck (IDA:HPA), nucleolus (IEA:UniProtKB-SubCell), nucleoplasm (TAS:Reactome), TREX complex (IDA)</td><td>IDA/IEA/TAS</td></tr>
+</tbody></table></div>
+<p><strong>IF 图像</strong>: HPA有IF展示图(Nuclear speckles定位, 4细胞系: A-431, U-251MG, U2OS, Hep-G2)。</p>
+<p><strong>结论</strong>: CHTOP是高度明确的纯核蛋白。UniProt四个核亚区定位均为ECO:0000269实验证据。HPA IF确认为Nuclear speckles(Supported)，GO-CC覆盖nuclear speck/nucleolus/nucleoplasm。蛋白名&quot;Chromatin target of PRMT1&quot;本身就反映其chromatin靶向功能。作为TREX复合体组分，CHTOP偶联mRNA转录、加工和核输出。评分9分(仅因nucleolus/nucleoplasm/speckle多核区而非单一区室，但均为核内)。</p>
+<h5>3.2 蛋白大小评估</h5>
+<p><strong>评价</strong>: 248 aa / 26.4 kDa，接近200-300 aa区间下界。蛋白较小但功能完整。TREX复合体和methylosome复合体中的适配角色与其较小尺寸一致。适合重组表达和pull-down实验。评分8分。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict</td><td>26</td></tr>
+<tr><td>PubMed broad</td><td>41</td></tr>
+<tr><td>Chromatin/epigenetics 比例</td><td>~30%</td></tr>
+</tbody></table></div>
+<p><strong>主要研究方向</strong>:</p>
+<ul><li>5hmC(5-hydroxymethylcytosine)结合与methylosome招募</li><li>PRMT1/PRMT5甲基化酶复合体与H4R3me2a</li><li>mRNA核输出(TREX复合体, DDX39B/ALYREF)</li><li>胶质母细胞瘤中的chromatin靶向和转录激活</li><li>选择性剪接调控/内含子滞留</li><li>脑血管缺血再灌注损伤中的RNA剪接调控</li></ul>
+<p><strong>关键文献</strong>: 1. Maron MI et al. (2022). &quot;Type I and II PRMTs inversely regulate post-transcriptional intron detention through Sm and CHTOP methylation.&quot; *eLife*. PMID: 34984976 2. Izumikawa K et al. (2018). &quot;Modulating the expression of Chtop, a versatile regulator of gene-specific transcription and mRNA export.&quot; *RNA Biol*. PMID: 29683372 3. Zhou X et al. (2024). &quot;CHTOP Promotes Microglia-Mediated Inflammation by Regulating Cell Metabolism and Inflammatory Gene Expression.&quot; *J Immunol*. PMID: 38117276 4. Cui Y et al. (2024). &quot;Chromatin target of protein arginine methyltransferases alleviates cerebral ischemia/reperfusion-induced injury by regulating RNA alternative splicing.&quot; *iScience*. PMID: 38188517 5. Takai H et al. (2014). &quot;5-Hydroxymethylcytosine plays a critical role in glioblastomagenesis by recruiting the CHTOP-methylosome complex.&quot; *Cell Rep*. PMID: 25284789</p>
+<p><strong>评价</strong>: 26篇PubMed，高新颖性。CHTOP的chromatin功能是其核心研究方向(~30%文献涉及chromatin/epigenetics)。作为5hmC reader和PRMT1/methylosome招募因子，CHTOP直接参与chromatin修饰和转录激活。TREX复合体中的角色使其处于转录-加工-输出的交叉路口。Chromatin功能明确但尚未被系统研究。评分8分。</p>
+<h5>3.4 三维结构分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold 平均 pLDDT</td><td>61.2</td></tr>
+<tr><td>pLDDT &gt;90 占比</td><td>7.3%</td></tr>
+<tr><td>pLDDT 70-90 占比</td><td>25.8%</td></tr>
+<tr><td>pLDDT 50-70 占比</td><td>30.2%</td></tr>
+<tr><td>pLDDT &lt;50 占比</td><td>36.7%</td></tr>
+<tr><td>可用 PDB 条目</td><td>无</td></tr>
+</tbody></table></div>
+<p><strong>PAE 图</strong>: <figure><div class="missing-image">Missing local image: <code>../assets/report-images/CHTOP/CHTOP-PAE.png</code></div></figure></p>
+<p><strong>评价</strong>: 结构质量偏低。AlphaFold pLDDT=61.2，36.7%无序。作为TREX复合体和methylosome中的适配蛋白，CHTOP可能主要为内在无序蛋白(intrinsically disordered protein, IDP)，通过折叠-结合耦合(folding-upon-binding)与伴侣蛋白互作。这在adaptor/scaffold蛋白中常见。无PDB。评分4分。</p>
+<h5>3.5 结构域分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>结构域</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>无注释结构域</td></tr>
+<tr><td>InterPro</td><td>IPR052656 (CHTOP family); IPR025715 (Chtop domain)</td></tr>
+<tr><td>Pfam</td><td>PF13865 (Chtop domain)</td></tr>
+</tbody></table></div>
+<p><strong>调控潜力分析</strong>: CHTOP含有一个进化保守的Chtop结构域(PF13865)，功能为chromatin靶向和PRMT1结合。CHTOP通过直接识别5hmC(5-hydroxymethylcytosine, 活性去甲基化中间产物)，招募PRMT1-PRMT5-MEP50-ERH methylosome复合体至特定位点，催化H4R3me2a并激活转录。这是CHTOP的核心chromatin调控机制。作为TREX复合体组分，CHTOP同时介导mRNA核输出的偶联。5hmC reader + methylosome招募 + TREX适配的三重功能使其成为转录调控和表观修饰的有趣交叉点。评分7分。</p>
+<h5>3.6 PPI 网络</h5>
+<p><strong>实验验证互作</strong> (IntAct, 15条):</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>方法</th><th>PMID</th><th>功能类别</th><th>调控相关？</th></tr></thead><tbody>
+<tr><td>DDX39B</td><td>two hybrid</td><td>14667819</td><td>TREX复合体, mRNA核输出</td><td>间接(转录耦合)</td></tr>
+<tr><td>MAGOH</td><td>anti tag coIP</td><td>23084401</td><td>EJC组分, mRNA剪接</td><td>间接(剪接)</td></tr>
+<tr><td>EIF4A3</td><td>anti tag coIP</td><td>23084401</td><td>EJC核心, mRNA剪接</td><td>间接(剪接)</td></tr>
+<tr><td>SRPK2</td><td>protein kinase assay</td><td>23602568</td><td>SR蛋白激酶, 剪接调控</td><td>是(剪接调控)</td></tr>
+<tr><td>SRPK3</td><td>TAP</td><td>23602568</td><td>SR蛋白激酶</td><td>是(剪接调控)</td></tr>
+<tr><td>ZC3H18</td><td>anti tag coIP</td><td>29298432</td><td>Nuclear cap-binding complex, transcription</td><td>是(转录)</td></tr>
+<tr><td>LBR</td><td>anti tag coIP</td><td>28514442</td><td>Lamin B receptor, 核膜/chromatin锚定</td><td><strong>是(chromatin)</strong></td></tr>
+<tr><td>ATG12</td><td>anti bait coIP</td><td>17353931</td><td>Autophagy</td><td>否</td></tr>
+<tr><td>GABARAPL2</td><td>anti tag coIP</td><td>20562859</td><td>Autophagy</td><td>否</td></tr>
+<tr><td>MAP1LC3A</td><td>anti tag coIP</td><td>20562859</td><td>Autophagy</td><td>否</td></tr>
+</tbody></table></div>
+<p><strong>STRING 预测互作</strong>: API不可用(502/SSL错误)。</p>
+<p><strong>PPI 评价</strong>: IntAct实验PPI丰富(15条)。LBR(lamin B receptor)是chromatin锚定蛋白，与核膜和异染色质相关。ZC3H18是核帽结合复合体组分，直接参与转录。SRPK2/3调控剪接因子磷酸化。DDX39B/MAGOH/EIF4A3均为TREX/EJC组分。ATG12/GABARAPL2/MAP1LC3A提示CHTOP与自噬存在意外关联(可能是独立于TREX的功能)。调控相关比例~40%。评分5分。</p>
+<h4>4. 总体评价</h4>
+<p><strong>推荐等级</strong>: 3星半 (68.9/100)</p>
+<p><strong>核心优势</strong>: 1. <strong>纯核蛋白</strong>: 四个核亚区UniProt实验证据+HPA IF确认，核定位特异性(9/10) 2. <strong>直接chromatin靶向</strong>: 蛋白名即为&quot;Chromatin target&quot;，5hmC reader+PRMT1/methylosome招募功能 3. <strong>高新颖性</strong>: 26篇PubMed，chromatin功能明确但机制远未揭示 4. <strong>TREX+chromatin双重角色</strong>: 处于转录-染色质修饰-mRNA输出交叉路口 5. PPI网络包含LBR(chromatin锚定)和SRPK2/3(剪接调控激酶)</p>
+<p><strong>风险/不确定性</strong>: 1. 36.7%无序区域，无PDB结构，作为IDP存在生化研究挑战 2. 蛋白较小(248aa)限制了独立功能域的丰富度 3. STRING数据缺失 4. TREX功能与chromatin功能的相对重要性未定</p>
+<p><strong>下一步建议</strong>:</p>
+<ul><li>[ ] ChIP-seq鉴定CHTOP-5hmC全基因组结合谱</li><li>[ ] 解析CHTOP识别5hmC的结构基础</li><li>[ ] 探究CHTOP-methylosome在TE重复序列或异染色质区域的潜在靶向</li><li>[ ] 利用PRMT1/PRMT5抑制剂验证CHTOP依赖的H4R3me2a转录调控</li></ul>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9Y3Y2</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000160679-CHTOP</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CHTOP</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9Y3Y2</li><li>IntAct: https://www.ebi.ac.uk/intact/</li></ul>
+<p><strong>HPA IF 状态</strong>: HPA IF 图像已本地嵌入。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CHTOP/899_C1_1_blue_red_green.jpg</code></div></figure> <figure><div class="missing-image">Missing local image: <code>../assets/report-images/CHTOP/899_C1_3_blue_red_green.jpg</code></div></figure>。核定位基于HPA localization/reliability + UniProt + GO-CC。</p>
+<h5>PPI 网络</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th></tr></thead><tbody>
+<tr><td>DDX39B</td><td>IntAct</td><td>psi-mi:&quot;MI:0018&quot;(two hybrid)</td></tr>
+<tr><td>ATG12</td><td>IntAct</td><td>psi-mi:&quot;MI:0006&quot;(anti bait coi</td></tr>
+<tr><td>GABARAPL2</td><td>IntAct</td><td>psi-mi:&quot;MI:0007&quot;(anti tag coim</td></tr>
+</tbody></table></div>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CHTOP/CHTOP-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

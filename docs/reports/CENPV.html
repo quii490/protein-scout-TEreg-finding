@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CENPV · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>CENPV</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">chromatin</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 32</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/chromatin.html">Category page</a></div><p class="source-path">Original detail path: detail/chromatin/CENPV/CENPV-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;CENPV&quot; date: 2026-05-31 tags: [protein-scout, chromatin, evaluation] status: scored ---</p>
+<h3>CENPV 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>CENPV / PRR6</td></tr>
+<tr><td>蛋白全名</td><td>Centromere protein V</td></tr>
+<tr><td>蛋白大小</td><td>275 aa / 29.9 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q7Z7K6</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>新权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>8/10</td><td>×4</td><td>32.0</td><td>UniProt Chromosome/centromere/kinetochore + Nucleus + Spindle (ECO:0000269); GO kinetochore IDA + nucleoplasm IDA:HPA + nuclear membrane IDA:HPA</td></tr>
+<tr><td>蛋白大小</td><td>7/10</td><td>×1</td><td>7.0</td><td>275 aa, 29.9 kDa</td></tr>
+<tr><td>研究新颖性</td><td>10/10</td><td>×5</td><td>50.0</td><td>Strict=9</td></tr>
+<tr><td>三维结构</td><td>6/10</td><td>×3</td><td>18.0</td><td>无 PDB; pLDDT 78.9（良好, 55.6% &gt;90）</td></tr>
+<tr><td>调控结构域</td><td>5/10</td><td>×2</td><td>10.0</td><td>CENP-V/PRR6 domain (IPR006913, PF04828); Mss4-like superfamily (IPR011057)</td></tr>
+<tr><td>PPI 网络</td><td>7/10</td><td>×3</td><td>21.0</td><td>STRING SPI1/CEBPE; IntAct 多重互作; UniProt 19 个互作（含 HTT 15 experiments）</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>138/180</strong>**</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+1.0</td><td>UniProt/GO 多源实验定位互证（ECO:0000269 + IDA:UniProtKB + IDA:HPA 多处）；PPI 多库内容丰富</td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>75.4/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<p>PubMed strict: 9</p>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Chromosome, centromere, kinetochore (ECO:0000269); Nucleus (ECO:0000269); Cytoplasm, cytoskeleton, spindle (ECO:0000269)</td><td>实验证据（三处定位）</td></tr>
+<tr><td>GO-CC</td><td>cytosol (IDA:HPA); kinetochore (IDA:UniProtKB); microtubule cytoskeleton (IDA:MGI); midbody (IDA:HPA); nuclear membrane (IDA:HPA); nucleoplasm (IDA:HPA); nucleus (IDA:UniProtKB); spindle midzone (IDA:UniProtKB)</td><td>多项实验证据</td></tr>
+<tr><td>HPA (IF)</td><td>页面有图像但无 IF 图像</td><td>无 IF 数据</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 状态</strong>: IF thumbnail only — HPA 暂无 IF 原图，仅获取到 60x60 缩略图，不能作为可靠定位证据。核定位基于 UniProt + GO-CC。</p>
+<p><strong>结论</strong>: CENPV 核定位证据极为充分且多样，覆盖着丝粒/kinetochore、核质、核膜等多个核下区室。作为着丝粒蛋白，核/染色质定位是其功能必需。</p>
+<h5>3.2 结构与结构域</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold</td><td>AF-Q7Z7K6-F1</td></tr>
+<tr><td>平均 pLDDT</td><td>78.9</td></tr>
+<tr><td>pLDDT &gt;90</td><td>55.6%</td></tr>
+<tr><td>pLDDT 70-90</td><td>8.0%</td></tr>
+<tr><td>pLDDT 50-70</td><td>18.2%</td></tr>
+<tr><td>pLDDT &lt;50</td><td>18.2%</td></tr>
+<tr><td>PDB</td><td>无</td></tr>
+<tr><td>InterPro</td><td>IPR052355, IPR006913 (CENP-V/PRR6), IPR011057 (Mss4-like superfamily)</td></tr>
+<tr><td>Pfam</td><td>PF04828</td></tr>
+</tbody></table></div>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CENPV/CENPV-PAE.png</code></div></figure> <figure><div class="missing-image">Missing local image: <code>../assets/report-images/CENPV/CENPV-PAE.png</code></div></figure></p>
+<p>pLDDT 良好（均值 78.9），55.6% &gt;90。无 PDB 实验结构。结构域包含 CENP-V/PRR6 特异性 domain (IPR006913, PF04828) 和 Mss4-like superfamily (IPR011057)，后者可能提示核苷酸交换因子样折叠，但功能未确认。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict (Title/Abstract)</td><td>9</td></tr>
+<tr><td>PubMed broad</td><td>11</td></tr>
+<tr><td>别名</td><td>PRR6（未用于 scoring）</td></tr>
+</tbody></table></div>
+<p>关键文献：</p>
+<ul><li>PMID:31260673 — &quot;CENPV Is a CYLD-Interacting Molecule Regulating Ciliary Acetylated α-Tubulin&quot; (J Invest Dermatol, 2020)</li><li>PMID:37738895 — &quot;Identification of cell-type-specific genes in multimodal single-cell data using deep neural network algorithm&quot; (Comput Biol Med, 2023)</li><li>PMID:30097555 — &quot;SCML2 promotes heterochromatin organization in late spermatogenesis&quot; (J Cell Sci, 2018) [提及 CENPV]</li><li>PMID:31198983 — &quot;Construction of prognostic risk prediction model of oral squamous cell carcinoma based on co-methylated genes&quot; (Int J Mol Med, 2019)</li></ul>
+<p>功能覆盖着丝粒组织、异染色质分布、纤毛调控（via CYLD 互作）和细胞分裂。研究量极低（strict=9），高度新颖。</p>
+<h5>3.4 PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>SPI1</td><td>STRING</td><td>0.880 (textmining)</td><td>PU.1 转录因子（造血）</td></tr>
+<tr><td>CEBPE</td><td>STRING</td><td>0.785 (textmining)</td><td>C/EBP epsilon 转录因子</td></tr>
+<tr><td>HBZ</td><td>STRING</td><td>0.731 (textmining)</td><td>Hemoglobin zeta</td></tr>
+<tr><td>EMB</td><td>STRING</td><td>0.670 (textmining)</td><td>Embigin</td></tr>
+<tr><td>CD99</td><td>STRING</td><td>0.656 (textmining)</td><td>CD99 表面抗原</td></tr>
+<tr><td>MYC</td><td>IntAct</td><td>tandem affinity purification (PMID:21150319)</td><td>c-Myc 转录因子</td></tr>
+<tr><td>SUMO1</td><td>IntAct</td><td>affinity chromatography (PMID:17000644)</td><td>SUMO 修饰</td></tr>
+<tr><td>RRP1B</td><td>IntAct</td><td>anti tag coIP (PMID:20926688)</td><td>Ribosomal RNA processing</td></tr>
+<tr><td>HTT</td><td>UniProt</td><td>15 experiments</td><td>Huntingtin，最强互作</td></tr>
+<tr><td>ATXN1</td><td>UniProt</td><td>6 experiments</td><td>Ataxin-1</td></tr>
+<tr><td>SNCA</td><td>UniProt</td><td>4 experiments</td><td>α-Synuclein</td></tr>
+<tr><td>SETDB1</td><td>UniProt</td><td>3 experiments</td><td>H3K9 甲基转移酶，异染色质</td></tr>
+<tr><td>KAT5</td><td>UniProt</td><td>3 experiments</td><td>Histone acetyltransferase (Tip60)</td></tr>
+<tr><td>YWHAG</td><td>UniProt</td><td>3 experiments</td><td>14-3-3 gamma</td></tr>
+<tr><td>BAG6</td><td>UniProt</td><td>3 experiments</td><td>BAG6/BAT3，蛋白质量控制</td></tr>
+<tr><td>HLA-A</td><td>UniProt</td><td>3 experiments</td><td>MHC class I</td></tr>
+</tbody></table></div>
+<p>STRING 为 textmining 主导（SPI1, CEBPE 等转录因子）。IntAct 记录 MYC (TAP), SUMO1 (affinity chromatography) 和 RRP1B。UniProt curated 互作极丰富（19 个互作），包含 HTT (15 experiments)、ATXN1 (6 experiments)、SETDB1 (H3K9 甲基转移酶，异染色质核心酶)、KAT5 (Tip60 乙酰转移酶)、SNCA (α-synuclein)。SETDB1 和 KAT5 互作支持 CENPV 在着丝粒周围异染色质组织中的调控角色。</p>
+<h4>4. 总体评价</h4>
+<p>CENPV 是着丝粒/kinetochore 蛋白，定位证据极大丰富（UniProt 三处 ECO:0000269 + GO 八处实验赋值）。PPI 网络包含 SETDB1（H3K9 甲基转移酶）、KAT5（组蛋白乙酰转移酶）和 HTT（Huntingtin），提示其参与着丝粒周围异染色质组织。归一化总分 76.0/100，为当前评估最高。研究新颖性极高（PubMed strict=9）。建议作为高优先级 chromatin 候选保留，后续重点验证其与 SETDB1/KAT5 的染色质调控互作及 TE 沉默功能。</p>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q7Z7K6</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q7Z7K6</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CENPV</li><li>Protein Atlas: https://www.proteinatlas.org/search/CENPV（无 IF 图像）</li></ul>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CENPV/CENPV-PAE.png</code></div></figure></p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CENPV/CENPV-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+/Users/quii/Desktop/projects/protein-scout-TEreg-finding/audit_work/engineering/web_design_existing_tables_inventory_20260605_015715.tsv
+/Users/quii/Desktop/projects/protein-scout-TEreg-finding/audit_work/engineering/web_design_existing_tables_inventory_20260605_015715.summary.md
+/Users/quii/Desktop/projects/protein-scout-TEreg-finding/audit_work/engineering/web_design_detail_report_schema_probe_20260605_015715.tsv
+/Users/quii/Desktop/projects/protein-scout-TEreg-finding/audit_work/engineering/web_design_detail_report_schema_probe_20260605_015715.summary.md
+/Users/quii/Desktop/projects/protein-scout-TEreg-finding/audit_work/engineering/WEB_ATLAS_INFORMATION_ARCHITECTURE_20260605_015715.md
+/Users/quii/Desktop/projects/protein-scout-TEreg-finding/audit_work/engineering/WEB_ATLAS_DATA_SCHEMA_20260605_015715.md
+/Users/quii/Desktop/projects/protein-scout-TEreg-finding/audit_work/engineering/WEB_ATLAS_UI_WIREFRAME_20260605_015715.md
+/Users/quii/Desktop/projects/protein-scout-TEreg-finding/audit_work/engineering/WEB_ATLAS_IMPLEMENTATION_OPTIONS_20260605_015715.md
+/Users/quii/Desktop/projects/protein-scout-TEreg-finding/audit_work/engineering/WEB_ATLAS_BUILD_PLAN_20260605_015715.md
+/Users/quii/Desktop/projects/protein-scout-TEreg-finding/audit_work/engineering/CODEX_STEP4A0_WEB_DESIGN_EXPLORATION_REPORT_20260605_015715.md

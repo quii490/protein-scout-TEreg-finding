@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FOXO6 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>FOXO6</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleolus</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 56.7</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleolus.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleolus/FOXO6/FOXO6-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;FOXO6&quot; date: 2026-06-02 tags: [protein-scout, nucleolus, evaluation] status: scored ---</p>
+<h3>FOXO6 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>FOXO6 / —</td></tr>
+<tr><td>蛋白全名</td><td>Forkhead box protein O6</td></tr>
+<tr><td>蛋白大小</td><td>492 aa / 50.6 kDa</td></tr>
+<tr><td>UniProt ID</td><td>A8MYZ6</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>5/10</td><td>×4</td><td>20.0</td><td>UniProt: Nucleus (ECO:0000255 sequence) + Cytoplasm (ECO:0000250); GO-CC: chromatin/nucleoplasm/nucleus (ISS/IEA); HPA 无 IF; 无 nucleolus 特异性注释</td></tr>
+<tr><td>蛋白大小</td><td>4/10</td><td>×1</td><td>4.0</td><td>492 aa, 50.6 kDa, 中等大小</td></tr>
+<tr><td>研究新颖性</td><td>2/10</td><td>×5</td><td>10.0</td><td>PubMed strict=84, ≤100</td></tr>
+<tr><td>三维结构</td><td>2/10</td><td>×3</td><td>6.0</td><td>AlphaFold mean pLDDT 56.7 (低); 无 PDB; &lt;50 占 49.6%</td></tr>
+</tbody></table></div>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/FOXO6/FOXO6-PAE.png</code></div></figure></p>
+<div class="table-wrap"><table>
+<tbody>
+<tr><td>调控结构域</td><td>5/10</td><td>×2</td><td>10.0</td><td>Forkhead domain (PF00250) + FOXO-specific domain (PF16676); 转录因子经典结构域</td></tr>
+<tr><td>PPI 网络</td><td>5/10</td><td>×3</td><td>15.0</td><td>AKT1 (exp 0.312), FOXO4 (exp 0.421), 14-3-3 家族 (YWHAs co-IP); 中等实验验证</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>65/180</strong>**</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+0.0</td><td></td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>35.5/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Cytoplasm (ECO:0000250, sequence similarity); Nucleus (ECO:0000255, PROSITE-ProRule)</td><td>低（计算推断，无直接实验）</td></tr>
+<tr><td>GO-CC</td><td>chromatin (ISA:NTNU_SB), cytoplasm (ISS), nucleoplasm (IEA:UniProtKB-ARBA), nucleus (ISS)</td><td>低（电子注释/序列推断为主）</td></tr>
+<tr><td>Protein Atlas (IF)</td><td>HPA 无 IF 图像（no_image_detected）</td><td>未确认</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 状态</strong>: no_image_detected — HPA 未检测到可用 IF 图像。核定位基于 UniProt + GO-CC，但两者均为序列推断级别证据（ECO:0000250/0000255/ISS/IEA/ISA），非直接实验验证。</p>
+<p><strong>结论</strong>: FOXO6 核定位证据薄弱。UniProt 定位为 Cytoplasm (By similarity) 和 Nucleus (PROSITE rule)，均为计算/序列推断，无直接实验证据。GO-CC 含 chromatin/nucleoplasm/nucleus 但均为电子注释（ISS/IEA/ISA）。作为 FOXO 家族成员（FOXO1/3/4 核质穿梭已被大量实验确认），FOXO6 核定位可以基于同源性推断，但直接实验证据缺失。<strong>重要提示：该基因被分配至 nucleolus 类别，但 UniProt/GO-CC 均无 nucleolus 注释。</strong> FOXO 家族以核质穿梭调控著称，非 nucleolus 特异性蛋白。</p>
+<h5>3.2 结构与数据源</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold</td><td>AF-A8MYZ6-F1</td></tr>
+<tr><td>平均 pLDDT</td><td>56.7</td></tr>
+<tr><td>pLDDT &gt;90</td><td>13.2%</td></tr>
+<tr><td>pLDDT 70-90</td><td>5.5%</td></tr>
+<tr><td>pLDDT &lt;50</td><td>49.6%</td></tr>
+<tr><td>PDB</td><td>无</td></tr>
+<tr><td>InterPro</td><td>IPR047410, IPR001766 (Forkhead), IPR032067, IPR030456, IPR036388, IPR036390</td></tr>
+<tr><td>Pfam</td><td>PF00250 (Forkhead), PF16676 (FOXO_KIX)</td></tr>
+</tbody></table></div>
+<p><strong>AlphaFold PAE 状态</strong>: PAE 已下载，模型置信度低（mean pLDDT 56.7, &lt;50 占 49.6%）。仅有 Forkhead 结构域区域置信度较高，其余大部分区域为无序预测。无 PDB 实验结构。FOXO6 可能含有大量固有无序区域（IDR），这对转录因子而言正常，但降低了结构评分。 <figure><div class="missing-image">Missing local image: <code>../assets/report-images/FOXO6/FOXO6-PAE.png</code></div></figure></p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict (Title/Abstract)</td><td>84</td></tr>
+<tr><td>PubMed broad</td><td>165</td></tr>
+<tr><td>别名</td><td>无</td></tr>
+</tbody></table></div>
+<p>关键文献：FOXO6 文献量偏高（strict=84, broad=165）。研究方向覆盖代谢调控（PMID:32639626, CHOP-FOXO6 促进肝脂质积累）、衰老和长寿（PMID:26643314, FOXO proteins in aging）、FOXO 转录因子综述（PMID:36280450, 37710009）、FOX gene family 综述（PMID:15492844）。FOXO6 作为 FOXO 家族中研究最少的成员（相比 FOXO1/3/4 数千篇文献），84 篇仍偏高，反映 FOXO 家族整体高热度。</p>
+<h5>3.4 PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>AKT1</td><td>STRING</td><td>0.861 (exp 0.312, database 0.5, textmining 0.628)</td><td>Key regulator (phosphorylation)</td></tr>
+<tr><td>FOXO4</td><td>STRING</td><td>0.716 (exp 0.421, database 0.4, textmining 0.214)</td><td>FOXO family member</td></tr>
+<tr><td>AKT2</td><td>STRING</td><td>0.706 (exp 0.312, database 0.4, textmining 0.346)</td><td>AKT signaling</td></tr>
+<tr><td>G6PC</td><td>STRING</td><td>0.704 (exp 0.071, database 0.5)</td><td>Target gene (gluconeogenesis)</td></tr>
+<tr><td>INS</td><td>STRING</td><td>0.687 (database 0.4, textmining 0.497)</td><td>Insulin signaling</td></tr>
+<tr><td>AKT3</td><td>STRING</td><td>0.678 (exp 0.312, database 0.4)</td><td>AKT signaling</td></tr>
+<tr><td>MYC</td><td>STRING</td><td>0.665 (exp 0.561)</td><td>Transcription factor</td></tr>
+<tr><td>SIRT1</td><td>STRING</td><td>0.622 (exp 0.183, textmining 0.557)</td><td>Deacetylase</td></tr>
+<tr><td>FOXO1</td><td>STRING</td><td>0.607 (exp 0.199, database 0.4)</td><td>FOXO family member</td></tr>
+<tr><td>YWHAQ</td><td>IntAct</td><td>co-IP (PMID:28514442)</td><td>14-3-3 protein</td></tr>
+</tbody></table></div>
+<p>PPI 网络中等，以 AKT 信号通路和 FOXO 家族成员为主。IntAct 确认 4 条 14-3-3 家族互作（YWHAQ/YWHAB/YWHAG/YWHAH, co-IP, PMID:28514442），14-3-3 蛋白在 FOXO 磷酸化依赖性核质穿梭中起关键作用。STRING 最高分（AKT1 0.861）含实验分量 0.312。</p>
+<p><strong>UniProt 记录互作</strong>: HNF4A (2 experiments)。</p>
+<h4>4. 总体评价</h4>
+<p>FOXO6 是本批次评分最低的候选（36.1/100）。核心弱点：核定位证据为纯计算推断（无实验验证，且无 nucleolus 注释）、AF 置信度极低（mean pLDDT 56.7，近 50% 残基 &lt;50）、文献量偏高（PM=84）、无 PDB 实验结构。少数优势：Forkhead 转录因子结构域功能明确、AKT-14-3-3 调控通路清晰、FOXO 家族功能框架成熟可借鉴。然而，缺少实验定位验证、结构预测差、文献热度高，综合不建议优先研究。</p>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/A8MYZ6</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/A8MYZ6</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=FOXO6</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000204060-FOXO6（无 IF 原图）</li></ul>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/FOXO6/FOXO6-PAE.png</code></div></figure></p>
+<p>HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。</p>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/FOXO6/FOXO6-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AMPD3 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>AMPD3</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nuclear-envelope</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 3</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nuclear-envelope.html">Category page</a></div><p class="source-path">Original detail path: detail/nuclear-envelope/AMPD3/AMPD3-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;AMPD3&quot; date: 2026-06-01 tags: [protein-scout, nuclear-envelope, evaluation] status: scored ---</p>
+<h3>AMPD3 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名</td><td>AMPD3</td></tr>
+<tr><td>蛋白全名</td><td>AMP deaminase 3</td></tr>
+<tr><td>蛋白大小</td><td>767 aa / 88.8 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q01432</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>新权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>5/10</td><td>×4</td><td>20.0</td><td>HPA: Nuclear membrane (main) + Nucleoli (additional) Approved; UniProt 无定位注释; GO 仅 cytosol/secretory</td></tr>
+<tr><td>蛋白大小</td><td>2/10</td><td>×1</td><td>2.0</td><td>767 aa, 88.8 kDa</td></tr>
+<tr><td>研究新颖性</td><td>6/10</td><td>×5</td><td>30.0</td><td>PubMed strict=51, broad=88</td></tr>
+<tr><td>三维结构</td><td>7/10</td><td>×3</td><td>21.0</td><td>AlphaFold pLDDT 85.1; 66.4% &gt;90; 无 PDB</td></tr>
+</tbody></table></div>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/AMPD3/AMPD3-PAE.png</code></div></figure></p>
+<div class="table-wrap"><table>
+<tbody>
+<tr><td>调控结构域</td><td>5/10</td><td>×2</td><td>10.0</td><td>AMP deaminase; 嘌呤核苷酸代谢酶</td></tr>
+<tr><td>PPI 网络</td><td>8/10</td><td>×3</td><td>24.0</td><td>STRING purine metabolism 网络强 (ADSS2, APRT, ADK, ADSL); AMPD1/AMPD2 同源互作</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>107/180</strong>**</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+1.0</td><td>HPA Approved nuclear membrane; purine metabolism 强 PPI 网络</td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>58.5/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>无亚细胞定位注释</td><td>不适用</td></tr>
+<tr><td>GO-CC</td><td>cytosol (IBA:GO_Central); extracellular region (TAS:Reactome); ficolin-1-rich granule lumen (TAS); secretory granule lumen (TAS)</td><td>Predicted</td></tr>
+<tr><td>Protein Atlas (IF)</td><td>Nuclear membrane (main) + Nucleoli (additional), Approved</td><td>Approved</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 状态</strong>: IF available (Approved reliability) — HPA 主定位为 Nuclear membrane，辅以 Nucleoli，获 Approved 认证。UniProt 无定位注释，GO-CC 仅列出胞质/分泌相关定位。HPA 的核膜定位与蛋白的代谢酶功能存在有趣的张力——AMP deaminase 经典定位为胞质，但核膜定位可能提示其参与核质核苷酸代谢或核膜上的嘌呤信号调控。</p>
+<h5>3.2 结构与结构域</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold</td><td>AF-Q01432-F1</td></tr>
+<tr><td>平均 pLDDT</td><td>85.1</td></tr>
+<tr><td>pLDDT &gt;90</td><td>66.4%</td></tr>
+<tr><td>pLDDT 70-90</td><td>16.2%</td></tr>
+<tr><td>pLDDT 50-70</td><td>8.7%</td></tr>
+<tr><td>pLDDT &lt;50</td><td>8.7%</td></tr>
+<tr><td>PDB</td><td>无</td></tr>
+<tr><td>InterPro</td><td>IPR006650 (AMP_deaminase), IPR006329, IPR032466</td></tr>
+<tr><td>Pfam</td><td>PF19326</td></tr>
+</tbody></table></div>
+<p><strong>AlphaFold PAE 状态</strong>: PAE 已下载，见上图。结构置信度良好（pLDDT 85.1），66% 残基置信度 &gt;90。无 PDB 实验结构，AlphaFold 是唯一结构信息来源。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict (Title/Abstract)</td><td>51</td></tr>
+<tr><td>PubMed broad</td><td>88</td></tr>
+</tbody></table></div>
+<p>研究量适中。关键文献包括全外显子测序发现 AMPD3 变异与低 α-脂蛋白血症关联（PMID:35460704）、AMPD3 通过 HSP90α 促进阿霉素心肌病中的铁死亡（PMID:39474068）、AMP 脱氨在骨骼肌萎缩代谢表型中的作用（PMID:34400216）、2 型糖尿病低氧免疫 hub 基因（PMID:37153000）以及 HNSCC 预后关联（PMID:35241525）。研究较分散，无明确的主导方向。</p>
+<h5>3.4 PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>ADSS2</td><td>STRING</td><td>0.993 (database 0.9)</td><td>Adenylosuccinate synthase</td></tr>
+<tr><td>APRT</td><td>STRING</td><td>0.986 (exp 0.163, database 0.942)</td><td>Adenine phosphoribosyltransferase</td></tr>
+<tr><td>ADK</td><td>STRING</td><td>0.980 (exp 0.099, database 0.925)</td><td>Adenosine kinase</td></tr>
+<tr><td>ADSL</td><td>STRING</td><td>0.973 (database 0.9)</td><td>Adenylosuccinate lyase</td></tr>
+<tr><td>IMPDH2</td><td>STRING</td><td>0.966 (exp 0.091, database 0.914)</td><td>IMP dehydrogenase</td></tr>
+<tr><td>IMPDH1</td><td>STRING</td><td>0.965 (exp 0.091, database 0.914)</td><td>IMP dehydrogenase</td></tr>
+<tr><td>HPRT1</td><td>STRING</td><td>0.963 (database 0.932)</td><td>Hypoxanthine-guanine PRT</td></tr>
+<tr><td>AMPD1</td><td>STRING</td><td>0.934 (exp 0.311, database 0.9)</td><td>AMP deaminase 1, isoform</td></tr>
+<tr><td>HSP90AB1</td><td>UniProt</td><td>2 experiments</td><td>Chaperone</td></tr>
+<tr><td>HSP90AB1</td><td>IntAct</td><td>anti tag coIP (PMID:25910212)</td><td>Chaperone</td></tr>
+<tr><td>AMPD1</td><td>UniProt/IntAct</td><td>3 experiments / validated Y2H</td><td>AMP deaminase isoform</td></tr>
+<tr><td>AMPD2</td><td>IntAct</td><td>anti tag coIP (PMID:33961781)</td><td>AMP deaminase isoform</td></tr>
+<tr><td>HSPA8</td><td>IntAct</td><td>anti tag coIP (PMID:25910212)</td><td>Hsp70 chaperone</td></tr>
+<tr><td>ATG16L1</td><td>IntAct</td><td>anti tag coIP (PMID:31015422)</td><td>Autophagy</td></tr>
+<tr><td>H2BC9</td><td>IntAct</td><td>cross-linking (PMID:30021884)</td><td>Histone</td></tr>
+</tbody></table></div>
+<p>STRING PPI 网络是本批最强之一，嘌呤核苷酸代谢通路几乎全覆盖（ADSS2, APRT, ADK, ADSL, IMPDH1/2, HPRT1, AMPD1），combined score 均 &gt;0.93，database 贡献大。AMPD1/AMPD2 同工酶互作多源确认。IntAct 记录到 HSP90AB1、HSPA8、ATG16L1 和组蛋白 H2BC9 互作，其中与组蛋白的交联互作是核关联的间接证据。</p>
+<h4>4. 总体评价</h4>
+<p>AMPD3 是核膜定位的代谢酶，评分居中（59.0/100）。核心优势：嘌呤代谢 PPI 网络极为完整且强（STRING combined scores &gt;0.93）、AlphaFold 结构好、HPA Approved 核膜定位。劣势：蛋白大（88.8 kDa）、UniProt 无定位注释支持、核膜定位与经典胞质代谢酶角色矛盾。作为 nuclear-envelope 候选有其独特价值。建议作为中等优先级核膜候选保留。</p>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q01432</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q01432</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=AMPD3</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000133805-AMPD3</li></ul>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/AMPD3/1004_H5_2_blue_red_green.jpg</code></div></figure></p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/AMPD3/1004_H5_3_blue_red_green.jpg</code></div></figure></p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/AMPD3/AMPD3-PAE.png</code></div></figure></p>
+<p>HPA IF 图像已本地嵌入。</p>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/AMPD3/AMPD3-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ABRAXAS1 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>ABRAXAS1</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nuclear-body</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 6</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nuclear-body.html">Category page</a></div><p class="source-path">Original detail path: detail/nuclear-body/ABRAXAS1/ABRAXAS1-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: ABRAXAS1 date: 2026-06-02 tags:</p>
+<ul><li>protein-evaluation</li><li>nuclear-body</li><li>dna-damage</li><li>brca1</li><li>ddr</li><li>re-evaluate</li><li>pilot-gene</li></ul>
+<p>status: scored nuclear_score: 6 ---</p>
+<h2>ABRAXAS1 (BRCA1-A complex subunit Abraxas 1) -- Re-Evaluation Report</h2>
+<h3>1. 基本信息</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>属性</th><th>值</th></tr></thead><tbody>
+<tr><td><strong>UniProt ID</strong></td><td>Q6UWZ7</td></tr>
+<tr><td><strong>Protein Name</strong></td><td>BRCA1-A complex subunit Abraxas 1</td></tr>
+<tr><td><strong>Aliases</strong></td><td>ABRA1, CCDC98, FAM175A</td></tr>
+<tr><td><strong>Length</strong></td><td>409 aa</td></tr>
+<tr><td><strong>Mass</strong></td><td>46.7 kDa</td></tr>
+<tr><td><strong>AlphaFold mean pLDDT</strong></td><td>77.0</td></tr>
+<tr><td><strong>AlphaFold pLDDT &gt;90</strong></td><td>46.9%</td></tr>
+<tr><td><strong>AlphaFold pLDDT &lt;50</strong></td><td>19.8%</td></tr>
+<tr><td><strong>PubMed (strict)</strong></td><td>9</td></tr>
+<tr><td><strong>PubMed (broad)</strong></td><td>48</td></tr>
+<tr><td><strong>Function</strong></td><td>Involved in DNA damage response and double-strand break (DSB) repair. Component of the BRCA1-A complex, acting as a central scaffold protein that assembles the various components of the complex and mediates the recruitment of BRCA1. The BRCA1-A complex specifically recognizes &#x27;Lys-63&#x27;-linked ubiquitinated histones H2A and H2AX at DNA lesion sites, leading to target the BRCA1-BARD1 heterodimer to sites of DNA damage at DSBs. This complex also possesses deubiquitinase activity.</td></tr>
+</tbody></table></div>
+<h3>2. 核定位证据</h3>
+<h4>UniProt Subcellular Location</h4>
+<ul><li><strong>Nucleus</strong> (ECO:0000269 x3 -- experimental evidence from multiple publications)</li></ul>
+<p><strong>Note</strong>: UniProt provides strong experimental evidence for nuclear localization. The ECO:0000269 code indicates direct experimental assay evidence from published studies (not computational prediction).</p>
+<h4>GO Cellular Component</h4>
+<ul><li>GO:0070531 <strong>BRCA1-A complex</strong> (IDA:UniProtKB -- experimental)</li><li>GO:0016604 <strong>nuclear body</strong> (IDA:HPA -- experimental, based on HPA antibody staining)</li><li>GO:0005654 <strong>nucleoplasm</strong> (TAS:Reactome -- traceable author statement)</li><li>GO:0005634 <strong>nucleus</strong> (IDA:UniProtKB -- experimental)</li></ul>
+<p><strong>Note</strong>: Four nuclear GO-CC terms, two with IDA (direct assay) evidence. BRCA1-A complex localization to nuclear bodies is experimentally confirmed. The GO annotation independently supports the HPA nuclear body localization.</p>
+<h4>HPA Subcellular Localization</h4>
+<ul><li><strong>Main location</strong>: <strong>Nuclear bodies</strong></li><li><strong>Additional locations</strong>: (none)</li><li><strong>Reliability (IF)</strong>: <strong>Supported</strong> (second-highest tier)</li><li><strong>IF Display Images Available</strong>: NO (<code>if_image_urls</code> array is empty)</li><li><strong>Image status</strong>: <code>no_image_detected</code></li></ul>
+<p><strong>HPA Nuclear Localization Summary</strong>: HPA classifies ABRAXAS1 as exclusively localized to nuclear bodies with &quot;Supported&quot; reliability. This is consistent with its well-characterized role in the BRCA1-A DNA damage response complex, which forms discrete nuclear foci (bodies) at sites of DNA double-strand breaks. While no curated IF display images are shown, the Supported reliability and GO-CC IDA evidence provide strong confidence.</p>
+<p><strong>Nuclear Evidence Consensus</strong>: There is excellent agreement between HPA (Nuclear bodies, Supported), UniProt (Nucleus, experimental), and GO-CC (nuclear body IDA, nucleoplasm TAS, nucleus IDA). This is one of the most consistent nuclear localization profiles in the set. The BRCA1-A complex localization to DNA-damage-induced nuclear foci is a well-established finding in the DDR field.</p>
+<p><strong>Note on Excel discrepancy</strong>: The original Sheet4 Excel listed ABRAXAS1 as HPA=&quot;Nuclear membrane|Nucleoplasm&quot; with nuclear_score=6. The actual harvested HPA data shows &quot;Nuclear bodies&quot; as the sole main location (no Nuclear membrane, no Nucleoplasm). This is a significant misclassification in the original Excel. Interestingly, Nuclear bodies is actually a stronger and more specific nuclear compartment annotation than the original assignment.</p>
+<h3>3. HPA Immunofluorescence</h3>
+<p><strong>IF unavailable — HPA 检索页无可用的 subcellular IF 原图。暂无数据（HPA IF 原图未可靠获取），核定位基于 HPA localization + UniProt + GO-CC -- HPA检索页无可用的subcellular IF原图。核定位基于HPA localization (Supported reliability) + UniProt experimental evidence + GO-CC IDA annotations.</strong></p>
+<p>The HPA subcellular page shows <code>no_image_detected</code> for display-quality IF images. However, the &quot;Supported&quot; reliability tier indicates that HPA internal scoring of IF data supports nuclear body localization. Given the extensive independent evidence for nuclear localization (UniProt experimental, GO-CC IDA, well-characterized DDR function), the absence of curated IF display images does not weaken the nuclear localization conclusion.</p>
+<h3>4. PubMed Literature Assessment</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Query Type</th><th>Count</th><th>Notes</th></tr></thead><tbody>
+<tr><td>Strict: &quot;ABRAXAS1&quot;[Title/Abstract] AND (gene OR protein OR hydrolase)</td><td>9</td><td>Gene-specific</td></tr>
+<tr><td>Symbol-only: &quot;ABRAXAS1&quot;[Title/Abstract]</td><td>14</td><td>Gene-specific</td></tr>
+<tr><td>Broad: &quot;ABRAXAS1&quot;</td><td>48</td><td>Includes some alias matches</td></tr>
+</tbody></table></div>
+<p><strong>Key Papers:</strong></p>
+<ul><li>PMID:37198153 -- &quot;ABRAXAS1 orchestrates BRCA1 activities to counter genome destabilizing repair pathways -- lessons from breast cancer patients&quot; (Cell Death &amp; Disease, 2023). Excellent review of ABRAXAS1 function in DDR and cancer.</li><li>PMID:31630195 -- &quot;BRCA1 mislocalization leads to aberrant DNA damage response in heterozygous ABRAXAS1 mutation carrier cells&quot; (Human Molecular Genetics, 2019). Directly addresses nuclear localization and functional consequences of ABRAXAS1 mutation.</li><li>PMID:41088366 -- &quot;Exome sequencing reveals new insights into the germline landscape of inflammatory breast cancer among Tunisian patients&quot; (J Transl Med, 2025). Clinical cancer relevance.</li><li>PMID:36896237 -- &quot;Evaluation of AlphaFold structure-based protein stability prediction on missense variations in cancer&quot; (Front Genet, 2023).</li><li>PMID:36551595 -- &quot;Proteome-Wide Identification of RNA-Dependent Proteins in Lung Cancer Cells&quot; (Cancers, 2022).</li></ul>
+<p><strong>Research Volume Assessment</strong>: Modest strict count (9) but much larger when aliases are included (broad: 48). ABRAXAS1 is studied primarily in the context of DNA damage response and breast cancer. The protein is clinically relevant -- mutations are associated with hereditary breast cancer. The literature, while not voluminous, is high-quality and mechanistically detailed. Gene symbol is unique.</p>
+<p><strong>Aliases observed</strong>: ABRA1, CCDC98, FAM175A</p>
+<h3>5. AlphaFold / PAE / PDB</h3>
+<h4>AlphaFold</h4>
+<ul><li>Entry: AF-Q6UWZ7-F1 (version 6)</li><li>Mean pLDDT: 77.0 (moderate confidence)</li><li>pLDDT &gt;90: 46.9%, 70-90: 24.4%, &lt;50: 19.8%</li><li>PAE: Available (JSON file exists at EBI)</li></ul>
+<h4>Experimental PDB Structures</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>PDB ID</th><th>Method</th><th>Resolution</th><th>Coverage</th></tr></thead><tbody>
+<tr><td>4JLU</td><td>X-ray</td><td>3.50 A</td><td>399-409 (C-terminal peptide, chain B)</td></tr>
+<tr><td>4U4A</td><td>X-ray</td><td>3.51 A</td><td>399-409 (C-terminal peptide, chains D/E/F)</td></tr>
+<tr><td>4Y18</td><td>X-ray</td><td>3.50 A</td><td>399-409 (C-terminal peptide, chains I-P)</td></tr>
+<tr><td>4Y2G</td><td>X-ray</td><td>2.50 A</td><td>403-409 (C-terminal peptide, chain B)</td></tr>
+</tbody></table></div>
+<p><strong>Structure Assessment</strong>: Four X-ray crystal structures exist, but they all cover only the extreme C-terminal peptide (last 7-10 amino acids, 399-409). These structures represent ABRAXAS1 in complex with other BRCA1-A components (the C-terminal peptide is responsible for complex assembly). The vast majority of the protein (residues 1-398, ~97%) has no experimental structure. The AlphaFold model has moderate confidence (mean pLDDT 77.0) with 19.8% low-confidence regions, suggesting some intrinsic disorder. PAE data available.</p>
+<h3>6. InterPro / Pfam Domains</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>InterPro</th><th>Description</th></tr></thead><tbody>
+<tr><td>IPR023239</td><td>Abraxas 1, MPN domain</td></tr>
+<tr><td>IPR023238</td><td>BRCA1-A complex subunit Abraxas/Abraxas2</td></tr>
+<tr><td>IPR037518</td><td>MPN domain</td></tr>
+</tbody></table></div>
+<div class="table-wrap"><table>
+<thead><tr><th>Pfam</th><th>Description</th></tr></thead><tbody>
+<tr><td>PF21125</td><td>MPN domain</td></tr>
+</tbody></table></div>
+<p><strong>Domain Assessment</strong>: ABRAXAS1 contains an MPN (Mpr1/Pad1 N-terminal) domain. MPN domains are found in subunits of the proteasome, COP9 signalosome, and translation initiation factor 3 complexes. In ABRAXAS1, the MPN domain serves as a scaffold for the BRCA1-A complex. This is a protein-protein interaction domain without catalytic activity. The domain architecture is consistent with ABRAXAS1&#x27;s role as a scaffold protein in DDR.</p>
+<h3>7. Protein-Protein Interaction Network</h3>
+<h4>STRING (Top 15)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Combined Score</th><th>Experimental</th><th>Database</th><th>Textmining</th></tr></thead><tbody>
+<tr><td>UIMC1</td><td>0.999</td><td>0.994</td><td>0.900</td><td>0.999</td></tr>
+<tr><td>BARD1</td><td>0.999</td><td>0.994</td><td>0.900</td><td>0.993</td></tr>
+<tr><td>BABAM1</td><td>0.999</td><td>0.994</td><td>0.900</td><td>0.997</td></tr>
+<tr><td>BRCA1</td><td>0.999</td><td>0.994</td><td>0.900</td><td>0.997</td></tr>
+<tr><td>BABAM2</td><td>0.999</td><td>0.994</td><td>0.900</td><td>0.997</td></tr>
+<tr><td>BRCC3</td><td>0.999</td><td>0.997</td><td>0.900</td><td>0.998</td></tr>
+<tr><td>MDC1</td><td>0.923</td><td>0.443</td><td>0.500</td><td>0.748</td></tr>
+<tr><td>RBBP8</td><td>0.896</td><td>0.292</td><td>0.500</td><td>0.729</td></tr>
+<tr><td>RNF8</td><td>0.846</td><td>0</td><td>0.500</td><td>0.705</td></tr>
+<tr><td>MRE11</td><td>0.843</td><td>0</td><td>0.500</td><td>0.691</td></tr>
+<tr><td>CHEK2</td><td>0.790</td><td>0</td><td>0.500</td><td>0.595</td></tr>
+<tr><td>TP53BP1</td><td>0.789</td><td>0.330</td><td>0.500</td><td>0.419</td></tr>
+<tr><td>ATM</td><td>0.785</td><td>0</td><td>0.500</td><td>0.582</td></tr>
+<tr><td>H2AX</td><td>0.777</td><td>0</td><td>0.500</td><td>0.574</td></tr>
+<tr><td>RNF168</td><td>0.776</td><td>0</td><td>0.500</td><td>0.570</td></tr>
+</tbody></table></div>
+<p><strong>STRING Assessment</strong>: Exceptional PPI network. The top 6 partners (all BRCA1-A complex components) have combined scores of 0.999 with experimental scores &gt;=0.994. This is one of the strongest PPI networks observed. Beyond the core complex, partners include key DDR proteins: MDC1, RBBP8/CtIP, RNF8, MRE11, CHEK2, TP53BP1, ATM, H2AX, RNF168. The network is entirely DDR-focused, reflecting ABRAXAS1&#x27;s central scaffold role.</p>
+<h4>IntAct (15 interactions)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Method</th><th>PMID</th><th>Significance</th></tr></thead><tbody>
+<tr><td>BRCA1</td><td>Pull down (direct interaction)</td><td>17525340</td><td>Core BRCA1-A interaction</td></tr>
+<tr><td>UIMC1</td><td>co-IP</td><td>17525340</td><td>Core BRCA1-A subunit</td></tr>
+<tr><td>RBBP8/CtIP</td><td>co-IP</td><td>17525340</td><td>DNA end resection</td></tr>
+<tr><td>RAD51</td><td>Fluorescence microscopy (colocalization)</td><td>17525340</td><td>Homologous recombination</td></tr>
+<tr><td>BRIP1</td><td>co-IP</td><td>17525340</td><td>DNA helicase</td></tr>
+<tr><td>BRCC3</td><td>co-IP</td><td>19615732</td><td>Deubiquitinase</td></tr>
+<tr><td>BABAM2</td><td>co-IP</td><td>19615732</td><td>BRCA1-A subunit</td></tr>
+<tr><td>BABAM1</td><td>co-IP</td><td>19615732</td><td>BRCA1-A subunit</td></tr>
+<tr><td>MANF</td><td>Cross-linking</td><td>30021884</td><td>ER stress protein</td></tr>
+<tr><td>RABGGTB</td><td>co-IP</td><td>28514442</td><td>Prenylation</td></tr>
+<tr><td>TEKT4</td><td>co-IP</td><td>28514442</td><td>-</td></tr>
+<tr><td>LAMC1</td><td>co-IP</td><td>28514442</td><td>-</td></tr>
+<tr><td>PSMC5</td><td>co-IP</td><td>28514442</td><td>Proteasome subunit</td></tr>
+<tr><td>ALDH6A1</td><td>co-IP</td><td>28514442</td><td>Metabolism</td></tr>
+<tr><td>WTAP</td><td>co-IP</td><td>28514442</td><td>RNA modification</td></tr>
+</tbody></table></div>
+<h4>UniProt Interactions (6 entries)</h4>
+<p>BRCA1 (16 experiments), BRCC3 (4), CFTR (3), KPNA4 (2), UIMC1 (9+4), UIMC1 (duplicate)</p>
+<p><strong>PPI Assessment</strong>: Outstanding PPI evidence. ABRAXAS1 is the central scaffold of the BRCA1-A complex with extensive experimental validation. BRCA1 interaction (16 UniProt experiments, plus direct interaction by pull-down in IntAct) is the strongest PPI in the dataset. The KPNA4 (karyopherin alpha 4) interaction (2 experiments) may mediate nuclear import. PPI network strength is among the highest of any protein in this evaluation set.</p>
+<h3>7. 评分总览</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>权重</th><th>加权</th><th>摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>8/10</td><td>×4</td><td>32</td><td>HPA/UniProt/GO evidence</td></tr>
+<tr><td>蛋白大小</td><td>6/10</td><td>×1</td><td>6</td><td></td></tr>
+<tr><td>研究新颖性</td><td>10/10</td><td>×5</td><td>35</td><td>PubMed strict</td></tr>
+<tr><td>三维结构</td><td>8/10</td><td>×3</td><td>24</td><td>AlphaFold pLDDT</td></tr>
+<tr><td>调控结构域</td><td>6/10</td><td>×2</td><td>12</td><td>InterPro/Pfam</td></tr>
+<tr><td>PPI 网络</td><td>4/10</td><td>×3</td><td>12</td><td>STRING/IntAct</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>136/180</strong>**</td><td></td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>74.3/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<h3>9. Final Decision</h3>
+<p><strong>SCORED: 71/100 -- STRONG NUCLEAR CANDIDATE</strong></p>
+<p>ABRAXAS1 is a high-confidence nuclear protein. The evidence for nuclear localization is definitive (UniProt experimental, GO-CC IDA, HPA Supported), and the functional characterization as a DNA damage response scaffold protein is excellent. The BRCA1-A complex exclusively functions in the nucleus at sites of DNA double-strand breaks.</p>
+<p><strong>Strengths</strong>:</p>
+<ul><li>Definitive nuclear localization from multiple independent sources</li><li>Well-characterized function in DNA damage response</li><li>Central scaffold of the BRCA1-A complex with outstanding PPI network</li><li>Clinical relevance: mutations associated with hereditary breast cancer</li><li>Extensive literature on molecular mechanism</li><li>BRCA1 interaction is among the most validated PPIs in the human proteome</li></ul>
+<p><strong>Weaknesses</strong>:</p>
+<ul><li>PDB structures are fragment-level only (C-terminal peptide)</li><li>No enzymatic activity (purely a scaffold protein)</li><li>No HPA IF display images (but strong corroborating evidence compensates)</li><li>Modest strict PubMed count (9) relative to functional importance</li></ul>
+<p><strong>Recommendation</strong>: Retain as a high-priority nuclear protein. ABRAXAS1 should never have been template-rejected. The nuclear body localization is experimentally validated and functionally characterized. The gene&#x27;s role in DDR and breast cancer makes it both biologically important and clinically relevant. If the project focuses on nuclear proteins with defined functions, ABRAXAS1 should be prioritized.</p>
+<h3>10. Manual Review Note</h3>
+<p>The original Excel classified ABRAXAS1 as HPA=&quot;Nuclear membrane|Nucleoplasm&quot;, which is incorrect. The actual HPA data shows &quot;Nuclear bodies&quot; as the sole main location. This misclassification may explain the template rejection -- the evaluator may have been looking for the wrong nuclear compartment. Nuclear bodies (DNA damage foci) is a more specific and mechanistically relevant annotation than the generic &quot;Nuclear membrane|Nucleoplasm&quot; originally assigned.</p>
+<p><strong>Re-evaluator&#x27;s note</strong>: ABRAXAS1 is one of the strongest candidates in this re-evaluation set. The template rejection was clearly an error, likely caused by the Excel misclassifying the nuclear compartment. This gene scores very well across all nuclear dimensions and functions in a pathway (DDR) that is of high interest for many research programs. The only caveat is that scaffold proteins without enzymatic activity can be challenging as drug targets, but this does not diminish the nuclear localization evidence.</p>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

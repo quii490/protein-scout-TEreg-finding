@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SLX9 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>SLX9</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 22</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/SLX9/SLX9-evaluation.md</p></section><article class="report-body"><h2>SLX9 -- Critical False-Rejection Reevaluation Report</h2>
+<p><strong>Gene:</strong> SLX9 (Ribosome biogenesis protein SLX9 homolog) <strong>UniProt Accession:</strong> Q9NSI2 <strong>Protein Name:</strong> Ribosome biogenesis protein SLX9 homolog <strong>Length:</strong> 230 aa | <strong>Mass:</strong> 25.5 kDa <strong>Aliases:</strong> C21orf70, FAM207A <strong>Report Date:</strong> 2026-06-04 <strong>Review Stage:</strong> W3 Batch 1 -- CRITICAL REOPEN</p>
+<hr>
+<h3>/180 Scoring Table</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Max</th><th>Score</th><th>Rationale</th></tr></thead><tbody>
+<tr><td>1. Nuclear Localization</td><td>30</td><td>22</td><td>HPA main: Nucleoli. Additional: Nucleoplasm. Reliability: Supported. UniProt: Nucleus nucleolus (ECO:0000250 -- by similarity). GO-CC: nucleolus (IEA:UniProtKB-SubCell), 90S preribosome (IEA:InterPro), preribosome small subunit precursor (IEA:InterPro). Nucleolar localization is well-supported by HPA. Nucleolus is a nuclear subcompartment but dedicated to ribosome biogenesis, not chromatin regulation.</td></tr>
+<tr><td>2. Protein Size</td><td>10</td><td>10</td><td>230 aa / 25.5 kDa. Full marks.</td></tr>
+<tr><td>3. Research Novelty</td><td>10</td><td>10</td><td>PubMed strict: 5. Novelty rule: 1-50=10.</td></tr>
+<tr><td>4. 3D Structure</td><td>30</td><td>24</td><td>AlphaFold mean pLDDT: 71.0 (30.9% &gt;90, 21.7% 70-90, 23.9% 50-70, 23.5% &lt;50). PDB: 7WTS (EM, 3.20A), 7WTT (3.10A), 7WTU (3.00A), 7WTV (3.50A), 7WTW (3.20A) -- 5 cryo-EM structures, all full-length in pre-ribosome complexes. Excellent structural coverage.</td></tr>
+<tr><td>5. Regulatory Domains</td><td>50</td><td>5</td><td>IPR028160. PF15341. FUNCTION: May be involved in ribosome biogenesis. Pre-ribosome component. No chromatin, transcriptional, or epigenetic regulatory domains or functions.</td></tr>
+<tr><td>6. PPI Network</td><td>50</td><td>15</td><td>STRING: 15 partners. SENP6 (0.785 experimental), GPR1 (0.712), FAM50B (0.607), PRPF19 (0.604 experimental). IntAct: 15 interactors, mostly yeast ortholog interactions (ribosomal proteins: RPL4A, RPL5, RPS0A, RPS24A, RPS4A, TSR1, HHF1). UniProt: GOLGA2, GOLGA6L9, PICK1. Network is ribosome biogenesis.</td></tr>
+<tr><td><strong>TOTAL</strong></td><td><strong>180</strong></td><td><strong>86</strong></td><td></td></tr>
+</tbody></table></div>
+<hr>
+<h3>Nuclear Evidence Section</h3>
+<h4>HPA (Human Protein Atlas)</h4>
+<ul><li><strong>Status:</strong> hpa_localization_available</li><li><strong>Reliability (IF):</strong> Supported</li><li><strong>Main Location:</strong> Nucleoli</li><li><strong>Additional:</strong> Nucleoplasm</li><li><strong>IF Image Status:</strong> no_image_detected (red_green images available via image_urls)</li><li><strong>Key Finding:</strong> Nucleoli (Supported) + nucleoplasm (additional). Nucleolar localization is consistent with ribosome biogenesis function.</li></ul>
+<h4>UniProt Subcellular Location</h4>
+<ul><li><strong>Nucleus, nucleolus</strong> -- ECO:0000250 (by similarity)</li></ul>
+<h4>GO Cellular Component (GO-CC)</h4>
+<ul><li><strong>GO:0005730 (nucleolus)</strong> -- IEA:UniProtKB-SubCell</li><li><strong>GO:0030686 (90S preribosome)</strong> -- IEA:InterPro</li><li><strong>GO:0030688 (preribosome, small subunit precursor)</strong> -- IEA:InterPro</li></ul>
+<p><strong>Summary:</strong> SLX9 is a nucleolar protein involved in pre-ribosome assembly. Nucleolar localization is a specialized nuclear function dedicated to ribosome biogenesis, not chromatin or transcription regulation. Nuclear score: 22/30 -- nucleolar, not chromatin-associated.</p>
+<hr>
+<h3>PubMed Evidence</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Query Type</th><th>Count</th></tr></thead><tbody>
+<tr><td>Strict (Title/Abstract)</td><td>5</td></tr>
+<tr><td>Broad (All Fields)</td><td>7</td></tr>
+</tbody></table></div>
+<p><strong>Novelty score: 10/10.</strong> Extremely few publications.</p>
+<h4>Key Papers</h4>
+<p>1. <strong>PMID:31067825</strong> -- Gotz S et al. (2019). &quot;A Novel G-Quadruplex Binding Protein in Yeast-Slx9.&quot; *Molecules*. -- NOTE: G-quadruplex binding! 2. <strong>PMID:25895666</strong> -- Fischer U et al. (2015). &quot;A non-canonical mechanism for Crm1-export cargo complex assembly.&quot; *eLife*. 3. <strong>PMID:17018574</strong> -- Bax R et al. (2006). &quot;Slx9p facilitates efficient ITS1 processing of pre-rRNA in Saccharomyces cerevisiae.&quot; *RNA*. 4. <strong>PMID:20551975</strong> -- Kaiser VB et al. (2011). &quot;A new plant sex-linked gene with high sequence diversity and possible introgression of the X copy.&quot; *Heredity*. 5. <strong>PMID:30653518</strong> -- Linnemann J et al. (2019). &quot;Impact of two neighbouring ribosomal protein clusters on biogenesis factor binding and assembly of yeast late small ribosomal subunit precursors.&quot; *PLoS One*.</p>
+<p><strong>Assessment:</strong> Yeast Slx9 is a pre-rRNA processing factor and G-quadruplex binding protein. Human SLX9 is very poorly characterized.</p>
+<hr>
+<h3>AlphaFold / PDB / PAE</h3>
+<h4>AlphaFold Predicted Structure</h4>
+<ul><li><strong>Entry:</strong> AF-Q9NSI2-F1, version 6</li><li><strong>mean pLDDT: 71.0</strong> (&gt;90: 30.9%, 70-90: 21.7%, 50-70: 23.9%, &lt;50: 23.5%)</li><li><strong>Assessment:</strong> Moderate confidence. About one-quarter of residues below pLDDT 50.</li></ul>
+<h4>Experimental PDB Structures</h4>
+<ul><li><strong>5 structures:</strong> 7WTS (3.20A), 7WTT (3.10A), 7WTU (3.00A), 7WTV (3.50A), 7WTW (3.20A) -- all full-length cryo-EM in pre-ribosome complexes.</li><li><strong>Assessment:</strong> Excellent structural coverage in the context of ribosome biogenesis intermediates.</li></ul>
+<h4>PAE</h4>
+<ul><li>PAE image URL available.</li><li>PAE assessment pending image retrieval.</li></ul>
+<hr>
+<h3>PPI Network</h3>
+<h4>STRING (15 partners)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>Experimental</th><th>Function</th></tr></thead><tbody>
+<tr><td>SENP6</td><td>0.785</td><td>0.785</td><td>SUMO protease</td></tr>
+<tr><td>PRPF19</td><td>0.604</td><td>0.604</td><td>Spliceosome/DNA repair</td></tr>
+<tr><td>GPR1</td><td>0.712</td><td>0</td><td>G protein-coupled receptor</td></tr>
+<tr><td>FAM50B</td><td>0.607</td><td>0</td><td>Uncharacterized</td></tr>
+<tr><td>MCTS2P</td><td>0.600</td><td>0</td><td>Pseudogene</td></tr>
+</tbody></table></div>
+<h4>IntAct (15 interactors)</h4>
+<p>Mostly yeast Slx9 interaction data with ribosomal proteins (RPL4A, RPL5, RPS0A, RPS24A, RPS4A) and ribosome biogenesis factors (TSR1, BMS1, BFR2).</p>
+<h4>PPI Network Assessment</h4>
+<ul><li>Network is ribosomal/ribosome biogenesis.</li><li>SENP6 (SUMO protease) interaction is experimentally supported and interesting -- SUMO pathway connection.</li><li>PRPF19 interaction connects to spliceosome, which is nuclear.</li></ul>
+<hr>
+<h3>FALSE REJECTION RECHECK</h3>
+<h4>Original Rejection Reason (inferred)</h4>
+<p>SLX9 was likely rejected due to ribosome biogenesis function without regulatory relevance.</p>
+<h4>Recheck Analysis</h4>
+<p>1. <strong>Nuclear evidence:</strong> PRESENT. HPA Supported nucleoli. Nucleolar localization, consistent with ribosome biogenesis function. 2. <strong>Functional context:</strong> Pre-rRNA processing and ribosome biogenesis. Yeast ortholog binds G-quadruplex structures -- potentially relevant for nucleic acid structure recognition. 3. <strong>PubMed:</strong> 5 strict. EXTREMELY LOW. 4. <strong>Structure:</strong> 5 cryo-EM structures in pre-ribosome complexes. Excellent. 5. <strong>PPI:</strong> Ribosome biogenesis network. SENP6 (SUMO protease) interaction is notable.</p>
+<h4>Verdict</h4>
+<p><strong>The original rejection was CORRECT.</strong> SLX9 is a nucleolar ribosome biogenesis factor. Its function is pre-rRNA processing, not chromatin or transcriptional regulation. While the G-quadruplex binding activity (yeast) and SENP6 interaction are interesting, there is no evidence for TE-relevant regulatory function. Should remain REJECTED.</p>
+<hr>
+<h3>TE-Regulator Relevance</h3>
+<p>VERY LOW. SLX9 functions in pre-rRNA processing and small ribosomal subunit assembly. Its biological role is ribosomal biogenesis. No evidence for chromatin modification, transcription regulation, or TE silencing. The G-quadruplex binding activity described in yeast could theoretically affect nucleic acid structures, but this is speculative and not demonstrated for human SLX9.</p>
+<hr>
+<h3>Final Decision: REJECTED</h3>
+<p>Score: 86/180. SLX9 has good nuclear (nucleolar) localization and excellent structural data, but its function is exclusively ribosomal biogenesis with no chromatin or TE-regulatory activity. Confirmed rejection.</p>
+<hr>
+<h3>Manual Review Note</h3>
+<p>CONFIRMED REJECTION. SLX9 is a conserved ribosome biogenesis factor involved in pre-rRNA ITS1 processing and small ribosomal subunit maturation. 5 cryo-EM structures place it in pre-ribosome complexes. While yeast Slx9 has G-quadruplex nucleic acid binding activity, this likely relates to rRNA processing rather than DNA/chromatin-level regulation. Human SLX9 is very poorly characterized (PubMed=5). Not suitable for TE investigation.</p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

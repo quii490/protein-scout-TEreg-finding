@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AKAP7 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>AKAP7</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleus-cytoplasm</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 6</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleus-cytoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleus-cytoplasm/AKAP7/AKAP7-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;AKAP7&quot; date: 2026-06-03 tags: [protein-scout, nuclear-protein, evaluation] status: scored ---</p>
+<h3>AKAP7 核蛋白评估报告（重新评估）</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>AKAP7 / AKAP18</td></tr>
+<tr><td>蛋白大小</td><td>348 aa / 39.5 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q9P0M2</td></tr>
+<tr><td>蛋白全名</td><td>A-kinase anchor protein 7 isoform gamma</td></tr>
+<tr><td>子定位分类</td><td>nucleus-cytoplasm</td></tr>
+<tr><td>HPA IF 主定位</td><td>Vesicles</td></tr>
+<tr><td>HPA Reliability</td><td>Approved</td></tr>
+<tr><td>评估日期</td><td>2026-06-03</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>权重</th><th>加权</th><th>摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>6/10</td><td>×4</td><td>24</td><td>HPA IF显示Vesicles；UniProt注释Nucleus(by similarity)+Cytoplasm(experimental)；GO-CC有nucleus</td></tr>
+<tr><td>蛋白大小</td><td>7/10</td><td>×1</td><td>7</td><td>348aa/39.5kDa，较小但含完整功能域</td></tr>
+<tr><td>研究新颖性</td><td>8/10</td><td>×5</td><td>40</td><td>PubMed strict=29 (21-40→8)</td></tr>
+<tr><td>三维结构</td><td>7/10</td><td>×3</td><td>21</td><td>pLDDT=76.7；PDB 4ZP3/5JJ2 (PKA-RII结合域晶体结构)</td></tr>
+<tr><td>调控结构域</td><td>7/10</td><td>×2</td><td>14</td><td>IPR019510 PKA-RII binding；核心cAMP/PKA信号调控</td></tr>
+<tr><td>PPI网络</td><td>7/10</td><td>×3</td><td>21</td><td>PRKAR2A(0.963实验), PRKACA(0.965实验)；强PKA通路PPI</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>127/180</strong>**</td><td></td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>69.4/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>HPA (IF)</td><td>Vesicles (main)</td><td>Approved</td></tr>
+<tr><td>UniProt</td><td>Nucleus (by similarity), Cytoplasm (experimental)</td><td></td></tr>
+<tr><td>GO-CC</td><td>GO:0005829 (cytosol, IDA), GO:0005634 (nucleus, IEA), GO:0098686 (hippocampal mossy fiber to CA3 synapse)</td><td></td></tr>
+</tbody></table></div>
+<p>HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。HPA Approved IF 将 Vesicles 列为主定位，但 UniProt 通过相似性推断 Nucleus 定位，并有胞质实验证据。核定位部分由 UniProt/IEA 支持。<strong>评分: 6/10</strong>。</p>
+<h5>3.2 蛋白大小评估</h5>
+<p>348 aa / 39.5 kDa。蛋白较小但功能完整，含 PKA-RII 结合域和核定位相关结构。紧凑型信号支架蛋白，实验操作便利。<strong>评分: 7/10</strong>。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict_count</td><td>29</td></tr>
+<tr><td>PubMed symbol_only</td><td>33</td></tr>
+<tr><td>别名</td><td>AKAP18</td></tr>
+<tr><td>主要方向</td><td>PKA信号、ENaC调控、神经元功能、血小板活化</td></tr>
+</tbody></table></div>
+<p><strong>评价</strong>: PubMed 29 篇 (strict)，中等新颖度。AKAP7 在 PKA 信号空间调控中重要，但研究规模有限。<strong>评分: 8/10</strong> (21-40篇)。</p>
+<p><strong>关键文献</strong>: 1. Jones BW et al. (2016). &quot;Targeted deletion of AKAP7 in dentate granule cells impairs spatial discrimination.&quot; *eLife*. PMID: 27911261 — 神经元功能 2. Johnson KR et al. (2012). &quot;Molecular evolution of A-kinase anchoring protein (AKAP)-7.&quot; *BMC Evol Biol*. PMID: 22834419 3. Khalil JS et al. (2024). &quot;Protein Kinase A Regulates Platelet Phosphodiesterase 3A through an A-Kinase Anchoring Protein Dependent Manner.&quot; *Cells*. PMID: 38994957 4. Kotaki R et al. (2020). &quot;Overexpression of miR-669m inhibits erythroblast differentiation.&quot; *Sci Rep*. PMID: 32782283 5. Goldstein SA et al. (2024). &quot;Hidden evolutionary constraints dictate the retention of coronavirus accessory genes.&quot; *Curr Biol*. PMID: 39566499</p>
+<h5>3.4 三维结构分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold 平均 pLDDT</td><td>76.7</td></tr>
+<tr><td>pLDDT &gt; 90 (Very High)</td><td>54.0%</td></tr>
+<tr><td>pLDDT 70-90 (High)</td><td>12.4%</td></tr>
+<tr><td>pLDDT 50-70 (Medium)</td><td>7.8%</td></tr>
+<tr><td>pLDDT &lt; 50 (Low)</td><td>25.9%</td></tr>
+<tr><td>有序区域 (pLDDT&gt;70)</td><td>66.4%</td></tr>
+<tr><td>实验结构 (PDB)</td><td>4ZP3 (X-ray 2.63A), 5JJ2 (X-ray 1.25A) — PKA-RII结合域</td></tr>
+</tbody></table></div>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。PDB 含两个 PKA-RII 结合域的晶体结构 (含 5JJ2 高分辨率 1.25 A)，提供可靠的实验结构信息。AlphaFold 预测中 25.9% 无序区域主要在非保守连接区。<strong>评分: 7/10</strong>。</p>
+<h5>3.5 结构域分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>结构域</th></tr></thead><tbody>
+<tr><td>InterPro</td><td>IPR019510 (A-kinase anchor protein, PKA-RII binding); IPR019511 (A-kinase anchoring protein); IPR052641 (AKAP7 family); IPR009097 (cAMP-dependent protein kinase regulator)</td></tr>
+<tr><td>Pfam</td><td>PF10469 (AKAP7 2&#x27;,5&#x27;-RNA ligase-like domain); PF10470 (AKAP7 NLS/RII binding)</td></tr>
+</tbody></table></div>
+<p>AKAP7 是经典 A-kinase anchoring protein，将 PKA 靶向特异性亚细胞位置。含 PKA-RII 结合域和 NLS-like 序列。通过调控 ENaC 通道和 cAMP 信号参与膜兴奋性调控。AKAP 家族作为信号组织者具有重要调控功能。<strong>评分: 7/10</strong>。</p>
+<h5>3.6 PPI 网络</h5>
+<p><strong>STRING 预测互作</strong> (top 10):</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>实验证据</th><th>功能类别</th></tr></thead><tbody>
+<tr><td>PRKACA</td><td>0.965</td><td>0.806</td><td>PKA催化亚基</td></tr>
+<tr><td>PRKAR2A</td><td>0.963</td><td>0.961</td><td>PKA II型调节亚基</td></tr>
+<tr><td>PRKACB</td><td>0.963</td><td>0.796</td><td>PKA催化亚基β</td></tr>
+<tr><td>PRKACG</td><td>0.931</td><td>0.622</td><td>PKA催化亚基γ</td></tr>
+<tr><td>PRKAR2B</td><td>0.926</td><td>0.839</td><td>PKA II型调节亚基β</td></tr>
+<tr><td>AKAP1</td><td>0.924</td><td>0</td><td>线粒体AKAP</td></tr>
+<tr><td>CACNA1C</td><td>0.877</td><td>0</td><td>L型钙通道</td></tr>
+<tr><td>PDE4D</td><td>0.872</td><td>0</td><td>cAMP磷酸二酯酶</td></tr>
+<tr><td>AKAP5</td><td>0.849</td><td>0</td><td>膜AKAP</td></tr>
+<tr><td>YBEY</td><td>0.832</td><td>0.831</td><td>核糖体成熟, 实验互作</td></tr>
+</tbody></table></div>
+<p><strong>IntAct 实验互作</strong>: PRKACA (TAP), PRKACB (TAP), PRKAR1B (Y2H array), PRKAR2B (PCA), SPA17 (Y2H array), ROPN1L (validated Y2H), SNRPE (co-IP)</p>
+<p><strong>PPI 互证分析</strong>: PPI 网络核心为 PKA 全酶复合体 (催化+调节亚基)，实验证据丰富。PRKAR2A 和 PRKAR2B 的强实验互作确认了 AKAP7 作为 PKA 锚定蛋白的核心功能。额外伙伴 YBEY, SPA17, SNRPE 拓展了功能网络。<strong>评分: 7/10</strong>。</p>
+<h4>4. 总体评价</h4>
+<p><strong>推荐等级</strong>: ⭐⭐⭐ (3/5) — 70.6/100</p>
+<p><strong>核心优势</strong>: 1. PKA 信号通路核心支架蛋白 2. PKA-RII 结合域有高分辨率晶体结构 3. 强 PKA 全酶复合体 PPI 4. PPI 实验证据丰富</p>
+<p><strong>风险/不确定性</strong>: 1. HPA IF 主定位为 Vesicles，核定位仅由 UniProt 推断 2. 蛋白较小 (348 aa) 3. 信号通路虽经典但非染色质/转录调控 4. 25.9% 无序区域</p>
+<p><strong>下一步建议</strong>:</p>
+<ul><li>[ ] 确认 AKAP7 在目标细胞中的核质分布</li><li>[ ] 探索非 PKA 伙伴 (YBEY/SPA17) 的功能意义</li></ul>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9P0M2</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9P0M2</li><li>PDB: https://www.rcsb.org/structure/4ZP3</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=AKAP7%5BTitle/Abstract%5D</li><li>HPA: https://www.proteinatlas.org/ENSG00000118507-AKAP7</li><li>STRING: https://string-db.org (API, species=9606)</li><li>IntAct: https://www.ebi.ac.uk/intact/</li></ul></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

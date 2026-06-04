@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HSF2BP · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>HSF2BP</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 24</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/HSF2BP/HSF2BP-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;HSF2BP&quot; date: 2026-06-01 tags: [protein-scout, nucleoplasm, evaluation] status: scored ---</p>
+<h3>HSF2BP 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>HSF2BP / MEILB2 / Heat shock factor 2-binding protein</td></tr>
+<tr><td>蛋白全名</td><td>Heat shock factor 2-binding protein</td></tr>
+<tr><td>蛋白大小</td><td>334 aa / 37.6 kDa</td></tr>
+<tr><td>UniProt ID</td><td>O75031</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 图像</strong>: <figure><div class="missing-image">Missing local image: <code>../assets/report-images/HSF2BP/A-431_1.jpg</code></div></figure> <figure><div class="missing-image">Missing local image: <code>../assets/report-images/HSF2BP/U-251MG_1.jpg</code></div></figure></p>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>新权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>6/10</td><td>x4</td><td>24.0</td><td>HPA Supported: Nucleoplasm (main) + Cytosol (additional); UniProt: Cytoplasm (ECO:0000250)+Chromosome (ECO:0000269); GO: chromosome+nucleoplasm (IDA)+cytosol (IDA)</td></tr>
+<tr><td>蛋白大小</td><td>8/10</td><td>x1</td><td>8.0</td><td>334 aa, 37.6 kDa</td></tr>
+<tr><td>研究新颖性</td><td>10/10</td><td>x5</td><td>50.0</td><td>PubMed strict=15, 极度新颖</td></tr>
+<tr><td>三维结构</td><td>9/10</td><td>x3</td><td>27.0</td><td>PDB: 7BDX (2.60A), 7LDG (2.56A), 8A50 (1.48A), 8A51 (1.90A); AlphaFold pLDDT=91.0, pct&gt;90=79.9%</td></tr>
+<tr><td>调控结构域</td><td>7/10</td><td>x2</td><td>14.0</td><td>Armadillo-type fold (IPR011989/016024); meiotic recombination factor; BRCA2 interaction</td></tr>
+<tr><td>PPI 网络</td><td>7/10</td><td>x3</td><td>21.0</td><td>STRING: BRCA2 (0.951, exp=0.913); IntAct: extensive Y2H network; UniProt: 200+ partners</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>144/180</strong>**</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+0.0</td><td>无额外互证加分（定位存在分歧: UniProt 标 Cytoplasm, HPA 标 Nucleoplasm）</td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>78.7/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>HPA</td><td>Nucleoplasm (main), Cytosol (additional)</td><td>Supported</td></tr>
+<tr><td>UniProt</td><td>Cytoplasm (ECO:0000250), Chromosome (ECO:0000269)</td><td>Experimental</td></tr>
+<tr><td>GO-CC</td><td>chromosome (IDA), cytosol (IDA), nucleoplasm (IDA)</td><td>-</td></tr>
+</tbody></table></div>
+<p><strong>结论</strong>: HPA Supported 级别 Nucleoplasm 主定位。UniProt 注释偏胞浆/染色体，但 GO-CC 有 nucleoplasm IDA 证据。定位存在部分分歧，可能反映细胞周期/组织特异性核-质分布。</p>
+<h5>3.2 蛋白大小评估</h5>
+<p>334 aa, 37.6 kDa。适中大小，含 Armadillo-type repeat fold。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict (Title/Abstract)</td><td>15</td></tr>
+<tr><td>PubMed broad</td><td>24</td></tr>
+<tr><td>新颖性级别</td><td>极度新颖</td></tr>
+</tbody></table></div>
+<p>PubMed 仅 15 篇严格文献。HSF2BP 主要在 meiosis (BRCA2/SPATA22 interaction)、spermatogenesis、lung adenocarcinoma、acute liver injury 方向有少量研究。极具探索空间。</p>
+<p><strong>关键文献</strong>: 1. Brandsma I et al. (2019). &quot;HSF2BP Interacts with a Conserved Domain of BRCA2 and Is Required for Mouse Spermatogenesis.&quot; *Cell Rep*. PMID: 31242413 2. Liu J et al. (2025). &quot;HSF2BP modulates lung adenocarcinoma proliferation and immune microenvironment via BNC1/TGF-beta/SMAD3 signaling pathway.&quot; *Sci Rep*. PMID: 41083582 3. Bi J et al. (2022). &quot;HSF2BP protects against acute liver injury by regulating HSF2/HSP70/MAPK signaling in mice.&quot; *Cell Death Dis*. PMID: 36167792 4. Zhang J et al. (2023). &quot;Overexpression of HSF2 binding protein suppresses endoplasmic reticulum stress via regulating subcellular localization of CDC73 in hepatocytes.&quot; *Cell Biosci*. PMID: 36964632 5. Ghouil R et al. (2023). &quot;BRCA2-HSF2BP oligomeric ring disassembly by BRME1 promotes homologous recombination.&quot; *Sci Adv*. PMID: 37889963</p>
+<h5>3.4 三维结构分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold</td><td>AF-O75031-F1 v6</td></tr>
+<tr><td>平均 pLDDT</td><td>91.0</td></tr>
+<tr><td>pLDDT &gt;90</td><td>79.9%</td></tr>
+<tr><td>pLDDT 70-90</td><td>11.7%</td></tr>
+<tr><td>pLDDT 50-70</td><td>3.0%</td></tr>
+<tr><td>pLDDT &lt;50</td><td>5.4%</td></tr>
+<tr><td>PDB</td><td>7BDX (2.60A, aa122-334), 7LDG (2.56A, aa83-334), 8A50 (1.48A, BRCA2 peptide complex), 8A51 (1.90A)</td></tr>
+</tbody></table></div>
+<p><strong>AlphaFold PAE</strong>: <figure><div class="missing-image">Missing local image: <code>../assets/report-images/HSF2BP/HSF2BP-PAE.png</code></div></figure></p>
+<p>极高结构质量：pLDDT=91.0, 79.9% &gt;90。4 个 PDB entries（含 1.48A 高分辨 BRCA2 复合物结构）。结构生物学可行性极高。</p>
+<h5>3.5 结构域分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>结构域</th><th>备注</th></tr></thead><tbody>
+<tr><td>InterPro</td><td>IPR011989 (Armadillo-like helical), IPR016024 (Armadillo-type fold), IPR039584 (HSF2BP)</td><td>Armadillo repeat scaffold protein</td></tr>
+<tr><td>Pfam</td><td>无 Pfam domain</td><td>—</td></tr>
+<tr><td>PDB</td><td>7BDX/7LDG (C-terminal armadillo domain), 8A50 (BRCA2 peptide complex)</td><td>结构已知</td></tr>
+</tbody></table></div>
+<p>Armadillo-type fold 支架蛋白，通过 C 端 armadillo repeats 与 BRCA2 形成复合物。meiotic recombination factor，参与 DSB repair 和 homologous recombination。非经典 DNA-binding protein。</p>
+<h5>3.6 PPI 网络（三源综合）</h5>
+<p><strong>STRING 预测互作 (combined score &gt;0.5)</strong>:</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>Experimental</th><th>功能类别</th></tr></thead><tbody>
+<tr><td>BRCA2</td><td>0.951</td><td>0.913</td><td>Homologous recombination</td></tr>
+<tr><td>C19orf57</td><td>0.793</td><td>0.174</td><td>Unknown</td></tr>
+<tr><td>SPATA22</td><td>0.791</td><td>0.109</td><td>Meiosis</td></tr>
+<tr><td>MEIOB</td><td>0.691</td><td>0</td><td>Meiosis</td></tr>
+<tr><td>HSF2</td><td>0.618</td><td>0.178</td><td>Heat shock TF</td></tr>
+<tr><td>SYCE2</td><td>0.599</td><td>0</td><td>Synaptonemal complex</td></tr>
+<tr><td>PALB2</td><td>0.579</td><td>0.095</td><td>Homologous recombination</td></tr>
+</tbody></table></div>
+<p><strong>实验验证互作 (IntAct, 精选)</strong>:</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>方法</th><th>PMID</th><th>功能类别</th></tr></thead><tbody>
+<tr><td>BRCA2</td><td>Confirmed by PDB co-structure</td><td>multiple</td><td>Homologous recombination</td></tr>
+<tr><td>HSF2</td><td>two hybrid array</td><td>32296183</td><td>Heat shock TF (namesake)</td></tr>
+<tr><td>CBX8</td><td>two hybrid array</td><td>32296183</td><td>Polycomb repressor</td></tr>
+<tr><td>SETDB1</td><td>two hybrid array (UniProt)</td><td>—</td><td>H3K9 methyltransferase</td></tr>
+<tr><td>HDAC4</td><td>two hybrid array (UniProt)</td><td>—</td><td>Histone deacetylase</td></tr>
+<tr><td>SMARCB1</td><td>two hybrid array (UniProt)</td><td>—</td><td>SWI/SNF subunit</td></tr>
+<tr><td>SMARCD1</td><td>two hybrid array (UniProt)</td><td>—</td><td>SWI/SNF subunit</td></tr>
+<tr><td>INO80B</td><td>two hybrid array (UniProt)</td><td>—</td><td>INO80 chromatin remodeler</td></tr>
+<tr><td>POGZ</td><td>two hybrid array (UniProt)</td><td>—</td><td>Chromatin regulator</td></tr>
+<tr><td>DPF2</td><td>6 experiments (UniProt)</td><td>—</td><td>BAF complex subunit</td></tr>
+<tr><td>CDC73</td><td>4 experiments (UniProt)</td><td>—</td><td>PAF1 complex</td></tr>
+<tr><td>BMI1</td><td>two hybrid array (UniProt)</td><td>—</td><td>PRC1 complex</td></tr>
+<tr><td>L3MBTL2/3/4</td><td>two hybrid array (UniProt)</td><td>—</td><td>Polycomb repressors</td></tr>
+<tr><td>HASPIN</td><td>two hybrid array (UniProt)</td><td>—</td><td>H3T3 kinase</td></tr>
+<tr><td>H2AC25</td><td>two hybrid array (UniProt)</td><td>—</td><td>Histone H2A</td></tr>
+<tr><td>BAZ2B</td><td>two hybrid array (UniProt)</td><td>—</td><td>Chromatin remodeler</td></tr>
+</tbody></table></div>
+<p><strong>UniProt 记录互作</strong>: 200+ Y2H partners (3experiments each), 部分高置信度 (CDC73 4exp, BEND7 5exp, ELOA2 5exp, TOX2 5exp, CEP57 6exp, CNNM1 6exp, DPF2 6exp, GGN 6exp, etc.)</p>
+<p>PPI 网络极其庞大（200+ partners），显著富集染色质调控因子：Polycomb (CBX8, BMI1, L3MBTL2/3/4), SWI/SNF (SMARCB1, SMARCD1, DPF2), 组蛋白修饰 (HDAC4, SETDB1, HASPIN), INO80 复合体 (INO80B), PAF1 复合体 (CDC73)。BRCA2 互作结构已解析。染色质调控网络是其 PPI 核心特征。</p>
+<h5>3.7 多库互证</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>来源</th><th>结果</th><th>是否一致</th></tr></thead><tbody>
+<tr><td>定位</td><td>HPA / UniProt / GO</td><td>Nucleoplasm / Cytoplasm+Chromosome / nucleoplasm+cytosol+chromosome</td><td>GO-CC 与 HPA 一致有 nucleoplasm; UniProt 偏胞浆</td></tr>
+<tr><td>PPI</td><td>STRING / IntAct / UniProt</td><td>BRCA2+HSF2 多源确认; 染色质因子富集于 UniProt Y2H</td><td>BRCA2 强互证</td></tr>
+<tr><td>结构</td><td>AlphaFold + PDB</td><td>pLDDT=91.0 + 4 PDB entries</td><td>实验+预测双重支持</td></tr>
+</tbody></table></div>
+<p><strong>互证加分明细</strong>: 无额外互证加分 (定位存在分歧) <strong>总计</strong>: +0 / max +3</p>
+<h4>4. 总体评价</h4>
+<p><strong>推荐等级</strong>: 4星 (78.7/100)</p>
+<p>HSF2BP 极度新颖 (PM=15)，结构质量极高 (pLDDT=91.0 + 4 PDB entries)。PPI 网络最为突出：200+ 互作伙伴，富集 Polycomb/SWI-SNF/组蛋白修饰/INO80/PAF1 复合体成员，提示该蛋白是广泛染色质调控网络的支架蛋白。最核心的已知功能是 BRCA2 介导的 meiotic recombination。</p>
+<p><strong>核心优势</strong>: 1. PubMed=15，极度新颖 2. 结构质量极高: pLDDT=91.0 + 4 PDB (包括 1.48A BRCA2 复合物) 3. PPI 网络庞大且显著富集染色质调控因子: Polycomb/SWI-SNF/HDAC/HMT/INO80/PAF1 4. HPA Nucleoplasm 定位</p>
+<p><strong>风险/不确定性</strong>: 1. UniProt 定位偏胞浆, 与 HPA nucleoplasm 存在分歧 2. PPI 以高通量 Y2H 为主，需 coIP 验证 3. 大部分 PPI 来自单一 Y2H 平台 (PMID:32296183)</p>
+<p><strong>下一步建议</strong>:</p>
+<ul><li>内源 coIP-MS 验证与 Polycomb/SWI-SNF 复合体的互作</li><li>ChIP-seq 确定染色质结合位点</li><li>功能获得/缺失实验，检测 H3K27me3/H3K9me3 等组蛋白修饰变化</li></ul>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/O75031</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/O75031</li><li>PDB: 7BDX, 7LDG, 8A50, 8A51</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22HSF2BP%22%5BTitle/Abstract%5D</li><li>HPA: https://www.proteinatlas.org/ENSG00000160207-HSF2BP</li></ul>
+<p>HPA IF 图像已本地嵌入。</p>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/HSF2BP/HSF2BP-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

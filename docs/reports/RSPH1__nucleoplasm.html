@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RSPH1 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>RSPH1</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 10</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/RSPH1/RSPH1-evaluation.md</p></section><article class="report-body"><h2>RSPH1 -- Critical False-Rejection Reevaluation Report</h2>
+<p><strong>Gene:</strong> RSPH1 (Radial spoke head 1 homolog) <strong>UniProt Accession:</strong> Q8WYR4 <strong>Protein Name:</strong> Radial spoke head 1 homolog <strong>Length:</strong> 309 aa | <strong>Mass:</strong> 35.1 kDa <strong>Aliases:</strong> TSA2, TSGA2 <strong>Report Date:</strong> 2026-06-04 <strong>Review Stage:</strong> W3 Batch 1 -- CRITICAL REOPEN</p>
+<hr>
+<h3>/180 Scoring Table</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Max</th><th>Score</th><th>Rationale</th></tr></thead><tbody>
+<tr><td>1. Nuclear Localization</td><td>30</td><td>10</td><td>HPA main: Centrosome, Basal body, Mid piece. Additional: Acrosome. Reliability: Uncertain. NO nuclear HPA annotation. UniProt: Cytoplasm (ECO:0000250), Chromosome (ECO:0000250 -- by similarity only), Cilium axoneme (ECO:0000269), Flagellum axoneme (ECO:0000250). GO-CC: condensed nuclear chromosome (IEA:Ensembl -- electronic annotation), nucleus (HDA:UniProtKB -- high-throughput), meiotic spindle (IEA:Ensembl). The chromosome annotation is by-similarity (ECO:0000250) only, and GO-CC nuclear annotations are electronic or high-throughput. Primary localization is ciliary/centrosomal.</td></tr>
+<tr><td>2. Protein Size</td><td>10</td><td>10</td><td>309 aa / 35.1 kDa. Full marks.</td></tr>
+<tr><td>3. Research Novelty</td><td>10</td><td>10</td><td>PubMed strict: 27. Novelty rule: 1-50=10.</td></tr>
+<tr><td>4. 3D Structure</td><td>30</td><td>18</td><td>AlphaFold mean pLDDT: 74.2 (56.3% &gt;90, 6.5% 70-90, 5.2% 50-70, 32.0% &lt;50). PDB: 8J07 (EM, 4.10A, full length 1-309). Moderate AF confidence with significant disordered regions.</td></tr>
+<tr><td>5. Regulatory Domains</td><td>50</td><td>0</td><td>IPR003409. PF02493. Function: Part of axonemal radial spoke complexes for sperm/cilia motility. No chromatin, transcriptional, or epigenetic regulatory function.</td></tr>
+<tr><td>6. PPI Network</td><td>50</td><td>20</td><td>STRING: 15 partners. RSPH4A (0.990), RSPH9 (0.982), RSPH6A (0.861), ZMYND10 (0.844), RSPH3 (0.832). All radial spoke and ciliary partners. IntAct: 15 interactors including MORN3, TSPY2, METAP2, RSPH4A, RSPH6A, FBXO16, CCN2, EZR, FRMD4B, SH3GLB2, SF1, PDE4DIP, UBC, BTBD1, TUBB3. UniProt: MORN3 (7 experiments). All ciliary/cytoskeletal.</td></tr>
+<tr><td><strong>TOTAL</strong></td><td><strong>180</strong></td><td><strong>68</strong></td><td></td></tr>
+</tbody></table></div>
+<hr>
+<h3>Nuclear Evidence Section</h3>
+<h4>HPA (Human Protein Atlas)</h4>
+<ul><li><strong>Status:</strong> hpa_localization_available</li><li><strong>Reliability (IF):</strong> Uncertain</li><li><strong>Main Location:</strong> Centrosome, Basal body, Mid piece</li><li><strong>Additional:</strong> Acrosome</li><li><strong>IF Image Status:</strong> if_display_images_available (14 blue_red_green images)</li><li><strong>Key Finding:</strong> HPA does NOT detect RSPH1 in the nucleus. All HPA annotations are centrosomal/basal body/ciliary/sperm.</li></ul>
+<h4>UniProt Subcellular Location</h4>
+<ul><li><strong>Cytoplasm</strong> -- ECO:0000250 (by similarity)</li><li><strong>Chromosome</strong> -- ECO:0000250 (by similarity) -- NOTE: &quot;chromosome&quot; not &quot;nucleus&quot;</li><li><strong>Cytoplasm, cytoskeleton, cilium axoneme</strong> -- ECO:0000269 (experimental)</li><li><strong>Cytoplasm, cytoskeleton, flagellum axoneme</strong> -- ECO:0000250</li></ul>
+<h4>GO Cellular Component (GO-CC)</h4>
+<ul><li><strong>GO:0000794 (condensed nuclear chromosome)</strong> -- IEA:Ensembl (electronic annotation)</li><li><strong>GO:0005634 (nucleus)</strong> -- HDA:UniProtKB (high-throughput)</li><li><strong>GO:0072687 (meiotic spindle)</strong> -- IEA:Ensembl (electronic)</li><li><strong>GO:0031514 (motile cilium)</strong> -- IDA:UniProtKB</li><li><strong>GO:0001535 (radial spoke head)</strong> -- ISS:UniProtKB</li></ul>
+<p><strong>Summary:</strong> HPA (Uncertain reliability) detects RSPH1 at centrosome/basal body/mid piece, NOT nucleus. UniProt has &quot;chromosome&quot; by similarity (not nucleus). The GO-CC nuclear annotations are electronic (IEA) or high-throughput (HDA). The &quot;chromosome&quot; annotation may relate to meiotic spindle association, not nucleoplasmic function. Nuclear score: 10/30 -- very weak nuclear evidence.</p>
+<hr>
+<h3>PubMed Evidence</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Query Type</th><th>Count</th></tr></thead><tbody>
+<tr><td>Strict (Title/Abstract)</td><td>27</td></tr>
+<tr><td>Broad (All Fields)</td><td>43</td></tr>
+</tbody></table></div>
+<p><strong>Novelty score: 10/10.</strong></p>
+<h4>Key Papers</h4>
+<p>1. <strong>PMID:20301301</strong> -- Adam MP et al. (1993/updated). &quot;Primary Ciliary Dyskinesia.&quot; *GeneReviews*. 2. <strong>PMID:37601242</strong> -- Wang M et al. (2023). &quot;CCDC189 affects sperm flagellum formation by interacting with CABCOCO1.&quot; *Natl Sci Rev*. 3. <strong>PMID:36820148</strong> -- Zi X et al. (2023). &quot;An Integrated Analysis Reveals Ciliary Abnormalities in Antrochoanal Polyps.&quot; *J Inflamm Res*. 4. <strong>PMID:25789548</strong> -- Frommer A et al. (2015). &quot;Immunofluorescence Analysis and Diagnosis of Primary Ciliary Dyskinesia with Radial Spoke Defects.&quot; *Am J Respir Cell Mol Biol*. 5. <strong>PMID:36873931</strong> -- Aprea I et al. (2023). &quot;Pathogenic gene variants in CCDC39, CCDC40, RSPH1, RSPH9, HYDIN, and SPEF2 cause defects of sperm flagella composition and male infertility.&quot; *Front Genet*.</p>
+<p><strong>Assessment:</strong> All literature is about primary ciliary dyskinesia, sperm flagella, and ciliary biology. No TE-related publications.</p>
+<hr>
+<h3>AlphaFold / PDB / PAE</h3>
+<h4>AlphaFold Predicted Structure</h4>
+<ul><li><strong>Entry:</strong> AF-Q8WYR4-F1, version 6</li><li><strong>mean pLDDT: 74.2</strong> (&gt;90: 56.3%, 70-90: 6.5%, 50-70: 5.2%, &lt;50: 32.0%)</li><li><strong>Assessment:</strong> Moderate confidence. One-third of residues are low-confidence (&lt;50).</li></ul>
+<h4>Experimental PDB Structures</h4>
+<ul><li><strong>1 structure:</strong> 8J07 (EM, 4.10A, full length 1-309, in complex with radial spoke)</li><li><strong>Assessment:</strong> Full-length structure at moderate resolution in the radial spoke complex.</li></ul>
+<h4>PAE</h4>
+<ul><li>PAE image URL available.</li><li>PAE assessment pending image retrieval.</li></ul>
+<hr>
+<h3>PPI Network</h3>
+<h4>STRING (15 partners)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>Experimental</th><th>Function</th></tr></thead><tbody>
+<tr><td>RSPH4A</td><td>0.990</td><td>0.828</td><td>Radial spoke head</td></tr>
+<tr><td>RSPH9</td><td>0.982</td><td>0.797</td><td>Radial spoke head</td></tr>
+<tr><td>RSPH6A</td><td>0.861</td><td>0.583</td><td>Radial spoke head</td></tr>
+<tr><td>ZMYND10</td><td>0.844</td><td>0.144</td><td>Ciliary protein</td></tr>
+<tr><td>RSPH3</td><td>0.832</td><td>0.139</td><td>Radial spoke head</td></tr>
+</tbody></table></div>
+<h4>IntAct (15 interactors)</h4>
+<p>Mostly Y2H interactions from PMID:35914814. Few validated: MORN3 (Y2H array), RSPH4A (Co-IP), RSPH6A (Co-IP), TSPY2 (Co-IP).</p>
+<h4>PPI Network Assessment</h4>
+<ul><li>Network is exclusively ciliary/radial spoke/flagellar.</li><li>No nuclear, chromatin, or transcriptional partners.</li><li>No TE-relevant connections.</li></ul>
+<hr>
+<h3>FALSE REJECTION RECHECK</h3>
+<h4>Original Rejection Reason (inferred)</h4>
+<p>RSPH1 was likely rejected due to absence of nuclear HPA annotation and purely ciliary functional profile.</p>
+<h4>Recheck Analysis</h4>
+<p>1. <strong>Nuclear evidence:</strong> VERY WEAK. HPA does NOT detect RSPH1 in nucleus (only centrosome/basal body). UniProt &quot;chromosome&quot; annotation is by similarity. GO-CC nuclear annotations are electronic or high-throughput. 2. <strong>Functional context:</strong> Axonemal radial spoke head component. Sperm/cilia motility. No regulatory function. 3. <strong>PubMed:</strong> 27 strict. LOW. 4. <strong>Structure:</strong> Moderate AF, one EM structure. 5. <strong>PPI:</strong> Exclusively ciliary/radial spoke. No nuclear connections.</p>
+<h4>Verdict</h4>
+<p><strong>The original rejection was CORRECT.</strong> RSPH1 is a dedicated ciliary/flagellar structural protein. The nuclear/chromosome annotations are weak (by-similarity, electronic, high-throughput) and HPA explicitly does not detect it in the nucleus. No regulatory function. Should remain REJECTED.</p>
+<hr>
+<h3>TE-Regulator Relevance</h3>
+<p>NEGLIGIBLE. RSPH1 is a structural component of the axonemal radial spoke head complex, essential for ciliary and flagellar motility. Its biology is entirely mechanical (ciliary beating). No connection to TE regulation, chromatin modification, or transcription.</p>
+<hr>
+<h3>Final Decision: REJECTED</h3>
+<p>Score: 68/180. RSPH1 has very weak nuclear evidence (HPA detects centrosome only, not nucleus), no regulatory domain function, and a dedicated ciliary/flagellar structural role. Not suitable for TE investigation. Confirmed rejection.</p>
+<hr>
+<h3>Manual Review Note</h3>
+<p>CONFIRMED REJECTION. RSPH1 is a classic radial spoke head protein with well-established function in ciliary and flagellar motility. The &quot;chromosome&quot; UniProt annotation (ECO:0000250) and electronic GO-CC nuclear annotations are weak and inconsistent with the overwhelming ciliary functional evidence. Mutations in RSPH1 cause primary ciliary dyskinesia. No plausible TE-regulatory role.</p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

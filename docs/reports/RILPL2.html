@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RILPL2 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>RILPL2</h1><div class="report-meta"><span class="badge muted">rejected</span><span class="badge">nucleoplasm</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 5</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/RILPL2/RILPL2-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;RILPL2&quot; date: 2026-06-04 tags: [protein-scout, re-evaluation, recovery-from-false-rejection] status: rejected ---</p>
+<h3>RILPL2 -- Re-evaluation Report (Recovery from False-Rejection)</h3>
+<h4>1. Basic Information</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Item</th><th>Content</th></tr></thead><tbody>
+<tr><td>Gene / Aliases</td><td>RILPL2 / Rab-interacting lysosomal protein-like 2, p40phox-binding protein</td></tr>
+<tr><td>Protein Name</td><td>RILP-like protein 2</td></tr>
+<tr><td>Protein Size</td><td>~204 aa</td></tr>
+<tr><td>UniProt ID</td><td>Q969X0 (RIPL2_HUMAN, Swiss-Prot reviewed)</td></tr>
+<tr><td>Evaluation Date</td><td>2026-06-04</td></tr>
+<tr><td>Previous Status</td><td>REJECTED (thin template, no harvest packet)</td></tr>
+<tr><td>Re-evaluation Reason</td><td>Recovery from false-rejection; complete re-evaluation to confirm rejection status</td></tr>
+</tbody></table></div>
+<h4>2. Scoring Overview</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Score</th><th>Max</th><th>Weighted</th><th>Key Evidence Summary</th></tr></thead><tbody>
+<tr><td>Nuclear Localization Specificity</td><td>1/10</td><td>x4</td><td><strong>4</strong></td><td>Cytosol, centrosome, cilium (primary); no established nuclear function</td></tr>
+<tr><td>Protein Size</td><td>4/10</td><td>x1</td><td><strong>4</strong></td><td>~204 aa, at lower limit of workable range</td></tr>
+<tr><td>Research Novelty</td><td>8/10</td><td>x5</td><td><strong>40</strong></td><td>PubMed ~30-40 articles (21-40 -&gt; 8)</td></tr>
+<tr><td>3D Structure</td><td>4/10</td><td>x3</td><td><strong>12</strong></td><td>AlphaFold prediction only; no PDB; small protein</td></tr>
+<tr><td>Regulatory Domains</td><td>3/10</td><td>x2</td><td><strong>6</strong></td><td>RILP homology domain; myosin-Va binding; ciliary transport</td></tr>
+<tr><td>PPI Network</td><td>4/10</td><td>x3</td><td><strong>12</strong></td><td>Myosin Va, RAB10, LRRK2 pathway; Rac1, PAK1 signaling</td></tr>
+<tr><td>Cross-Validation Bonus</td><td>--</td><td>--</td><td><strong>+0.5</strong></td><td>Multi-DB cytosolic/centrosomal consistency (+0.5)</td></tr>
+<tr><td><strong>Raw Total</strong></td><td></td><td></td><td><strong>78.5/180</strong></td><td></td></tr>
+<tr><td><strong>Normalized Total</strong></td><td></td><td></td><td><strong>43.6/100</strong></td><td></td></tr>
+</tbody></table></div>
+<h4>3. Nuclear Localization Evidence -- FAILS THRESHOLD</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Source</th><th>Localization</th><th>Reliability</th></tr></thead><tbody>
+<tr><td>UniProt (Swiss-Prot)</td><td>Cytoplasm, cytosol</td><td>Reviewed, annotation score 5/5</td></tr>
+<tr><td>UniProt</td><td>Cytoskeleton, microtubule organizing center, centrosome</td><td>Reviewed</td></tr>
+<tr><td>UniProt</td><td>Cell projection, cilium</td><td>Reviewed</td></tr>
+<tr><td>GO-CC</td><td>Cytoplasm (GO:0005737)</td><td>Curated</td></tr>
+<tr><td>GO-CC</td><td>Cytosol (GO:0005829)</td><td>Curated</td></tr>
+<tr><td>GO-CC</td><td>Centrosome (GO:0005813)</td><td>Curated</td></tr>
+<tr><td>GO-CC</td><td>Cilium (GO:0005929)</td><td>Curated</td></tr>
+<tr><td>GO-CC</td><td>Ciliary basal body (GO:0036064)</td><td>Curated</td></tr>
+<tr><td>GO-CC</td><td>Membrane (GO:0016020)</td><td>Curated</td></tr>
+<tr><td>Any nuclear source</td><td>NONE</td><td>--</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF Status</strong>: HPA IF original images not reliably obtained (HPA search page lacks usable subcellular IF original images). Nuclear localization assessment based on HPA localization/reliability + UniProt + GO-CC.</p>
+<p><strong>Manual Review Assessment</strong>: RILPL2 is a cytosolic and ciliary protein with no credible nuclear localization evidence. Key findings:</p>
+<ul><li>UniProt (Swiss-Prot, annotation score 5/5): Cytoplasm, cytosol, centrosome, cilium -- no nuclear annotation</li><li>GO-CC: 7 cellular component terms, none of which are nuclear</li><li>The protein is involved in cell shape maintenance, neuronal morphogenesis (dendritic spine formation), and protein transport away from primary cilia</li><li>RILPL2 acts via activation of RAC1 and PAK1 -- cytoplasmic signaling pathways</li><li>The protein interacts with Myosin Va for cargo transport -- a cytoplasmic motor protein</li></ul>
+<p>Unlike RILPL1, which has a minor HPA nucleoplasm signal, RILPL2 has NO nuclear localization evidence from any source. The annotation score of 5/5 on UniProt indicates the highest level of curation confidence for the non-nuclear annotations.</p>
+<p><strong>Nuclear localization score: 0/10. RULE: Nuclear &lt;=3 -&gt; REJECTED.</strong></p>
+<h4>4. Protein Size Assessment</h4>
+<p>RILPL2 is approximately 204 amino acids, at the lower boundary of the workable range. Small proteins can present challenges for some experimental approaches. Size score: 4/10.</p>
+<h4>5. Research Novelty (PubMed Analysis)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody>
+<tr><td>PubMed estimated count</td><td>~30-40</td></tr>
+<tr><td>Novelty category</td><td>21-40 -&gt; Score 8</td></tr>
+</tbody></table></div>
+<p><strong>Research Context</strong>: RILPL2 research has grown in recent years, particularly in the context of the LRRK2 Parkinson&#x27;s disease pathway. The protein functions as a RAB10 effector that, upon LRRK2 phosphorylation, sequesters Myosin Va and blocks ciliogenesis. Additional studies have examined RILPL2 in cancer (cervical squamous cell carcinoma, breast cancer, NSCLC). The gene is also involved in migrasome transport.</p>
+<p><strong>Novelty Assessment</strong>: PubMed count of ~30-40 places RILPL2 in the 21-40 range (score 8). Research is growing due to the Parkinson&#x27;s disease connection but remains moderate.</p>
+<h4>6. 3D Structure Analysis</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody>
+<tr><td>AlphaFold Prediction</td><td>Available</td></tr>
+<tr><td>PDB Entries</td><td>0</td></tr>
+<tr><td>Structural Features</td><td>Small protein with RILP homology domain</td></tr>
+</tbody></table></div>
+<p><strong>Structure Assessment</strong>: RILPL2 is a relatively small protein with a RILP homology domain. The structure is likely to include coiled-coil regions for protein-protein interactions. AlphaFold prediction quality for a small protein of this type should be reasonable. Score 4/10.</p>
+<h4>7. Domain Architecture</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Source</th><th>Domain/Feature</th><th>Notes</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>RILP homology domain</td><td>Rab-interacting lysosomal protein family</td></tr>
+<tr><td>Function</td><td>Myosin Va binding</td><td>Cargo transport, ciliogenesis</td></tr>
+<tr><td>Function</td><td>RAB10 binding</td><td>Ciliary regulation</td></tr>
+</tbody></table></div>
+<p><strong>Domain Analysis</strong>: RILPL2 contains a RILP homology domain that mediates interactions with Rab GTPases. No DNA-binding domains, chromatin-binding domains, or transcription factor domains are present. Domain score: 3/10.</p>
+<h4>8. PPI Network Analysis</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Context</th><th>Functional Relevance</th></tr></thead><tbody>
+<tr><td>Myosin Va</td><td>Cargo transport</td><td>Sequestered by RILPL2 during ciliogenesis blockade</td></tr>
+<tr><td>RAB10</td><td>Ciliary regulation</td><td>LRRK2-phosphorylated; binds RILPL2</td></tr>
+<tr><td>Rac1</td><td>Cytoskeletal signaling</td><td>Cell shape regulation</td></tr>
+<tr><td>PAK1</td><td>Cytoskeletal signaling</td><td>Downstream kinase</td></tr>
+<tr><td>LRRK2</td><td>Parkinson&#x27;s disease</td><td>Kinase pathway</td></tr>
+<tr><td>TUBB3</td><td>Microtubule</td><td>Cytoskeletal interaction</td></tr>
+<tr><td>HEXD</td><td>Interaction reported</td><td>Function unclear</td></tr>
+</tbody></table></div>
+<p><strong>PPI Assessment</strong>: RILPL2 has a network of interactions centered on cytoskeletal and ciliary regulation. The Myosin Va interaction is functionally significant for ciliogenesis. All interaction partners are cytoplasmic, membrane, or cytoskeletal proteins -- none are nuclear. PPI score: 4/10.</p>
+<h4>9. Cross-Validation Analysis</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Sources</th><th>Result</th><th>Consistent?</th></tr></thead><tbody>
+<tr><td>Localization</td><td>UniProt + GO-CC</td><td>Cytosol, centrosome, cilium</td><td>Multi-source consistent</td></tr>
+<tr><td>Function</td><td>Literature + GO</td><td>Ciliary transport, cell shape</td><td>Consistent</td></tr>
+</tbody></table></div>
+<p><strong>Cross-Validation Bonus Details</strong>:</p>
+<ul><li>Multi-database cytosol/centrosomal localization consistency (UniProt annotation score 5/5): +0.5</li><li><strong>Total Cross-Validation Bonus</strong>: +0.5 / max +3</li></ul>
+<h4>10. Overall Assessment</h4>
+<p><strong>Recommendation Level</strong>: NOT RECOMMENDED -- REJECTED</p>
+<p><strong>Core Reasons for Rejection</strong>: 1. Zero credible nuclear localization evidence -- complete absence of nuclear in 7 GO-CC terms 2. UniProt annotation score 5/5 for cytoplasmic/centrosomal/ciliary localization 3. All characterized functions are cytoplasmic (Rac1/PAK1 signaling) or ciliary (ciliogenesis blockade) 4. All interaction partners are cytoplasmic/membrane proteins 5. Moderately novel (PubMed ~30-40) but novelty cannot compensate for non-nuclear localization</p>
+<p><strong>Why Previous Rejection Was Likely Correct</strong>: The original rejection of RILPL2 was correct. The protein has the highest confidence annotation (score 5/5) for exclusively non-nuclear localization. There is no evidence from any database supporting nuclear localization.</p>
+<h4>11. Decision</h4>
+<p><strong>FINAL DECISION</strong>: REJECTED (previous rejection UPHELD). RILPL2 fails the nuclear localization criterion (score 0/10, threshold &lt;=3). The protein is exclusively cytosolic, centrosomal, and ciliary with UniProt annotation score 5/5. Nuclear score &lt;=3 triggers automatic REJECTED status.</p>
+<h4>12. Data Sources</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q969X0</li><li>HPA Subcellular: https://v21.proteinatlas.org/ENSG00000150977-RILPL2/subcellular</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22RILPL2%22</li><li>FACTA: https://www.nactem.ac.uk/facta/ (RILPL2)</li><li>Note: Harvest packet not available; data compiled from UniProt and literature database queries</li></ul></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

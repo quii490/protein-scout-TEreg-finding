@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RCBTB2 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>RCBTB2</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 4</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/RCBTB2/RCBTB2-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;RCBTB2&quot; date: 2026-06-04 tags: [protein-scout, re-evaluation, recovery-from-false-rejection] status: scored ---</p>
+<h3>RCBTB2 -- Re-evaluation Report (Recovery from False-Rejection)</h3>
+<h4>1. Basic Information</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Item</th><th>Content</th></tr></thead><tbody>
+<tr><td>Gene / Aliases</td><td>RCBTB2 / CHC1L, RLG</td></tr>
+<tr><td>Protein Name</td><td>RCC1 and BTB domain-containing protein 2</td></tr>
+<tr><td>Protein Size</td><td>551 aa / 60.3 kDa</td></tr>
+<tr><td>UniProt ID</td><td>O95199</td></tr>
+<tr><td>Evaluation Date</td><td>2026-06-04</td></tr>
+<tr><td>Re-evaluation Reason</td><td>Recovery from previous false-rejection; full data re-harvest and manual review</td></tr>
+</tbody></table></div>
+<h4>2. Scoring Overview</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Score</th><th>Max</th><th>Weighted</th><th>Key Evidence Summary</th></tr></thead><tbody>
+<tr><td>Nuclear Localization Specificity</td><td>4/10</td><td>x4</td><td><strong>16</strong></td><td>HPA: Nucleoplasm + Golgi apparatus (Approved); UniProt: Cytoplasmic vesicle, secretory vesicle, acrosome; GO-CC: acrosomal vesicle + cytoplasm</td></tr>
+<tr><td>Protein Size</td><td>10/10</td><td>x1</td><td><strong>10</strong></td><td>551 aa, within ideal range (200-800 aa)</td></tr>
+<tr><td>Research Novelty</td><td>10/10</td><td>x5</td><td><strong>50</strong></td><td>PubMed strict count = 20 (&lt;=20 -&gt; 10)</td></tr>
+<tr><td>3D Structure</td><td>8/10</td><td>x3</td><td><strong>24</strong></td><td>AlphaFold v6, mean pLDDT = 90.4, ordered region (pLDDT&gt;70) = 93.5%; PDB = 0</td></tr>
+<tr><td>Regulatory Domains</td><td>8/10</td><td>x2</td><td><strong>16</strong></td><td>InterPro: 6 annotated domains (IPR000210, IPR058923, IPR009091, IPR000408, IPR051625, IPR011333); Pfam: 2 domains (PF00651, PF25390); BTB + RCC1 fold</td></tr>
+<tr><td>PPI Network</td><td>5/10</td><td>x3</td><td><strong>15</strong></td><td>STRING 15 partners (top LPAR6 0.755); IntAct 15 experimental interactions (co-IP, two-hybrid, pull-down); UniProt 7 curated interactions</td></tr>
+<tr><td>Cross-Validation Bonus</td><td>--</td><td>--</td><td><strong>+1.5</strong></td><td>STRING + IntAct dual-source (+0.5); Multi-DB localization consistency (+0.5); Domain + AlphaFold quality (+0.5)</td></tr>
+<tr><td><strong>Raw Total</strong></td><td></td><td></td><td><strong>132.5/180</strong></td><td></td></tr>
+<tr><td><strong>Normalized Total</strong></td><td></td><td></td><td><strong>73.6/100</strong></td><td></td></tr>
+</tbody></table></div>
+<h4>3. Nuclear Localization Evidence</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Source</th><th>Localization</th><th>Reliability</th></tr></thead><tbody>
+<tr><td>HPA (Immunofluorescence)</td><td>Nucleoplasm, Golgi apparatus</td><td>Approved</td></tr>
+<tr><td>HPA (Main Location)</td><td>Nucleoplasm, Golgi apparatus</td><td>--</td></tr>
+<tr><td>UniProt (Subcellular)</td><td>Cytoplasmic vesicle, secretory vesicle, acrosome</td><td>ECO:0000250 (sequence similarity)</td></tr>
+<tr><td>GO-CC</td><td>Acrosomal vesicle (GO:0001669), Cytoplasm (GO:0005737)</td><td>IEA + IBA</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF Status</strong>: HPA IF original images not reliably obtained (HPA search page lacks usable subcellular IF original images). Nuclear localization assessment based on HPA localization/reliability + UniProt + GO-CC.</p>
+<p><strong>Manual Review Assessment</strong>: RCBTB2 shows partial nuclear localization (Nucleoplasm by HPA). However, the protein also annotates to Golgi and cytoplasmic vesicles, indicating it is not exclusively nuclear. The dual localization pattern (nucleoplasm + Golgi) is consistent with proteins that may shuttle between compartments. Immunofluorescence evidence from HPA is classified as &quot;Approved&quot; for nucleoplasm detection. Nuclear specificity is moderate -- the protein is detected in the nucleoplasm but not exclusively nuclear (also Golgi and cytoplasmic vesicles). Score 4/10 reflects partial but not exclusive nuclear localization.</p>
+<h4>4. Protein Size Assessment</h4>
+<p>At 551 amino acids (60.3 kDa), RCBTB2 falls within the ideal range for biochemical characterization. Proteins in this size range are amenable to recombinant expression, purification, crystallography, and most functional assays. Size score: 10/10.</p>
+<h4>5. Research Novelty (PubMed Analysis)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody>
+<tr><td>PubMed strict query</td><td>20</td></tr>
+<tr><td>PubMed symbol-only query</td><td>22</td></tr>
+<tr><td>PubMed broad query</td><td>27</td></tr>
+<tr><td>Aliases observed (not scored)</td><td>CHC1L, RLG</td></tr>
+</tbody></table></div>
+<p><strong>Key Publications</strong>: 1. Mo R, Chi N, Du J et al. (2025). &quot;The ubiquitin ligase RCBTB2 regulates aggrephagy and inhibits prostate cancer progression by targeting GPAA1 for degradation.&quot; *Am J Cancer Res*. PMID: 41244118 2. Singh M, Sharma P, Bhatia P et al. (2024). &quot;Integrated analysis of transcriptome and genome variations in pediatric T cell acute lymphoblastic leukemia.&quot; *BMC Cancer*. PMID: 38459434 3. Kim JW, Moon SW, Mo HY et al. (2023). &quot;Concurrent inactivating mutations and expression losses of RGS2, HNF1A, and CAPN12 candidate tumor suppressor genes in colon cancers.&quot; *Pathol Res Pract*. PMID: 36566600 4. Legoff L, Dali O, D&#x27;Cruz SC et al. (2019). &quot;Ovarian dysfunction following prenatal exposure to an insecticide, chlordecone, associates with altered epigenetic features.&quot; *Epigenetics Chromatin*. PMID: 31084621 5. Zhou X, Zhao H et al. (2023). &quot;FAIM2 is correlated with metastasis of medulloblastoma through bioinformatics analysis.&quot; *Medicine*. PMID: 37083768</p>
+<p><strong>Novelty Score</strong>: PubMed strict count = 20. Per scoring rule: &lt;=20 -&gt; 10. This gene is extremely understudied, with only 20 direct PubMed hits. The most relevant paper (PMID 41244118) describes RCBTB2 as a ubiquitin ligase regulating aggrephagy in prostate cancer -- a recently discovered function. The remaining literature is primarily genomic/transcriptomic association studies without functional characterization. <strong>Extremely novel target.</strong></p>
+<h4>6. 3D Structure Analysis</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody>
+<tr><td>AlphaFold Version</td><td>v6</td></tr>
+<tr><td>Mean pLDDT</td><td>90.4</td></tr>
+<tr><td>pLDDT &gt; 90 (very high confidence)</td><td>72.6%</td></tr>
+<tr><td>pLDDT 70-90 (confident)</td><td>20.9%</td></tr>
+<tr><td>pLDDT 50-70 (low confidence)</td><td>2.2%</td></tr>
+<tr><td>pLDDT &lt; 50 (disordered)</td><td>4.4%</td></tr>
+<tr><td>Ordered region (pLDDT &gt; 70)</td><td>93.5%</td></tr>
+<tr><td>Available PDB entries</td><td>0</td></tr>
+</tbody></table></div>
+<p><strong>PAE</strong>: PAE image data not available (local image not generated or not reliably obtained). Structural assessment based on AlphaFold pLDDT statistics.</p>
+<p><strong>Structure Assessment</strong>: The AlphaFold prediction is of very high quality (mean pLDDT = 90.4). Over 93% of residues are in ordered regions, suggesting a well-folded protein. The high confidence prediction supports the structural domain annotations (BTB domain, RCC1 repeats). No experimental PDB structures exist, confirming the novelty of this target. Score 8/10 reflects excellent predicted structure quality but lack of experimental validation.</p>
+<h4>7. Domain Architecture</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Source</th><th>Domain/Feature</th><th>ID</th></tr></thead><tbody>
+<tr><td>InterPro</td><td>BTB/POZ domain</td><td>IPR000210</td></tr>
+<tr><td>InterPro</td><td>RCC1/regulator of chromosome condensation</td><td>IPR058923</td></tr>
+<tr><td>InterPro</td><td>Regulator of chromosome condensation 1/beta-lactamase-inhibitor protein II</td><td>IPR009091</td></tr>
+<tr><td>InterPro</td><td>RCC1 repeat</td><td>IPR000408</td></tr>
+<tr><td>InterPro</td><td>RCC1 and BTB domain-containing protein</td><td>IPR051625</td></tr>
+<tr><td>InterPro</td><td>RCC1/BLIP-II superfamily</td><td>IPR011333</td></tr>
+<tr><td>Pfam</td><td>BTB/POZ domain</td><td>PF00651</td></tr>
+<tr><td>Pfam</td><td>Domain of unknown function</td><td>PF25390</td></tr>
+</tbody></table></div>
+<p><strong>Domain Analysis</strong>: RCBTB2 contains two major domain types: (1) an N-terminal BTB/POZ domain, which mediates protein-protein interactions and is commonly found in transcription factors and ubiquitin ligase adaptors; (2) RCC1-like repeats forming a seven-bladed beta-propeller, a fold commonly involved in chromatin binding and guanine nucleotide exchange. The combination of BTB + RCC1 domains is characteristic of the RCBTB family, which may function as ubiquitin ligase substrate adaptors. The domain architecture supports potential roles in chromatin regulation and protein degradation.</p>
+<h4>8. PPI Network Analysis</h4>
+<p><strong>STRING Predicted Interactions</strong> (combined score &gt; 0.4):</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Combined Score</th><th>Experimental</th><th>Database</th><th>Text Mining</th></tr></thead><tbody>
+<tr><td>LPAR6</td><td>0.755</td><td>0.000</td><td>0.000</td><td>0.641</td></tr>
+<tr><td>RCBTB1</td><td>0.698</td><td>0.637</td><td>0.000</td><td>0.064</td></tr>
+<tr><td>ITM2B</td><td>0.653</td><td>0.000</td><td>0.000</td><td>0.628</td></tr>
+<tr><td>NUDCD2</td><td>0.607</td><td>0.607</td><td>0.000</td><td>0.000</td></tr>
+<tr><td>FNDC3A</td><td>0.565</td><td>0.000</td><td>0.000</td><td>0.531</td></tr>
+<tr><td>UBE2E3</td><td>0.565</td><td>0.489</td><td>0.000</td><td>0.154</td></tr>
+<tr><td>CDADC1</td><td>0.555</td><td>0.000</td><td>0.000</td><td>0.516</td></tr>
+<tr><td>SETDB2</td><td>0.496</td><td>0.041</td><td>0.000</td><td>0.478</td></tr>
+<tr><td>CYSLTR2</td><td>0.492</td><td>0.000</td><td>0.000</td><td>0.488</td></tr>
+<tr><td>TSSK4</td><td>0.490</td><td>0.045</td><td>0.000</td><td>0.488</td></tr>
+</tbody></table></div>
+<p><strong>IntAct Experimental Interactions</strong>:</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Method</th><th>PMID</th></tr></thead><tbody>
+<tr><td>RCBTB1</td><td>Anti-tag coimmunoprecipitation</td><td>28514442</td></tr>
+<tr><td>COPS4</td><td>Two-hybrid pooling</td><td>16189514</td></tr>
+<tr><td>HSP90AB1</td><td>Luminescence-based mammalian interactome mapping</td><td>22939624</td></tr>
+<tr><td>FARS2</td><td>Two-hybrid array</td><td>32296183</td></tr>
+<tr><td>PTPN11</td><td>Pull-down</td><td>31585087</td></tr>
+<tr><td>FLT3</td><td>Pull-down</td><td>31585087</td></tr>
+<tr><td>ZBTB18</td><td>Anti-tag coimmunoprecipitation</td><td>28514442</td></tr>
+<tr><td>STX11</td><td>Anti-tag coimmunoprecipitation</td><td>28514442</td></tr>
+<tr><td>CCDC120</td><td>Anti-tag coimmunoprecipitation</td><td>28514442</td></tr>
+<tr><td>MRPS11</td><td>Anti-tag coimmunoprecipitation</td><td>28514442</td></tr>
+<tr><td>FECH</td><td>Anti-tag coimmunoprecipitation</td><td>28514442</td></tr>
+<tr><td>ZNF558</td><td>Anti-tag coimmunoprecipitation</td><td>28514442</td></tr>
+<tr><td>HELLS</td><td>Anti-tag coimmunoprecipitation</td><td>28514442</td></tr>
+<tr><td>UBE2E3</td><td>Anti-tag coimmunoprecipitation</td><td>28514442</td></tr>
+<tr><td>ENSP00000345144.3</td><td>Two-hybrid pooling</td><td>16189514</td></tr>
+</tbody></table></div>
+<p><strong>UniProt Curated Interactions</strong>: FARS2 (6 experiments), MORF4L1 (3), NUDCD2 (2), PLA2G6 (3), RBBP9 (3), UBE2I (3), TAE1 (3)</p>
+<p><strong>PPI Assessment</strong>: RCBTB2 has a moderately sized PPI network with 15 STRING partners and 15 IntAct experimental interactions. Notable regulatory partners include: UBE2E3 (ubiquitin-conjugating enzyme), SETDB2 (histone methyltransferase), HELLS (chromatin remodeling), and ZBTB18 (transcriptional repressor). These partners suggest involvement in ubiquitin-mediated processes and chromatin regulation. The interaction with the paralog RCBTB1 is the strongest experimentally validated interaction (STRING combined 0.698, experimental 0.637), suggesting possible functional redundancy or heterodimerization. PPI score: 5/10.</p>
+<h4>9. Cross-Validation Analysis</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Sources</th><th>Result</th><th>Consistent?</th></tr></thead><tbody>
+<tr><td>3D Structure</td><td>AlphaFold + PDB</td><td>pLDDT=90.4, 0 PDB entries</td><td>Prediction only</td></tr>
+<tr><td>Localization</td><td>HPA + UniProt + GO-CC</td><td>Nucleoplasm + Golgi / Cytoplasmic vesicle + acrosome</td><td>Multi-source, partially consistent</td></tr>
+<tr><td>PPI</td><td>STRING + IntAct + UniProt</td><td>15 + 15 + 7 interactions</td><td>Dual-source validated</td></tr>
+<tr><td>Domains</td><td>InterPro + Pfam</td><td>6 + 2 domains</td><td>Multi-DB consistent</td></tr>
+</tbody></table></div>
+<p><strong>Cross-Validation Bonus Details</strong>:</p>
+<ul><li>STRING + IntAct dual-source PPI validation: +0.5</li><li>Multi-database localization consistency (HPA + UniProt + GO-CC): +0.5</li><li>Domain annotation + AlphaFold structural quality: +0.5</li><li>PDB + AlphaFold structural cross-validation: +0 (no experimental PDB)</li><li><strong>Total Cross-Validation Bonus</strong>: +1.5 / max +3</li></ul>
+<h4>10. Overall Assessment</h4>
+<p><strong>Recommendation Level</strong>: Recommended for further study (Score: 73.6/100)</p>
+<p><strong>Core Strengths</strong>: 1. Extreme novelty: Only 20 PubMed publications, making this a highly underexplored target 2. High-quality structural prediction: AlphaFold pLDDT 90.4 with 93.5% ordered residues 3. Well-annotated domain architecture: BTB domain + RCC1 repeats suggest regulatory function 4. Moderate PPI network with chromatin/ubiquitin-related partners 5. Protein size (551 aa) is ideal for experimental characterization 6. HPA-confirmed nucleoplasm localization</p>
+<p><strong>Risks / Uncertainties</strong>: 1. Nuclear localization is partial (also Golgi + cytoplasmic vesicles), not exclusively nuclear 2. No experimental PDB structures available 3. Very limited functional literature -- most functional annotation is predicted 4. Potential functional redundancy with paralog RCBTB1 5. HPA IF original images not directly obtained; localization based on database annotations</p>
+<p><strong>Next Steps</strong>:</p>
+<ul><li>[ ] Obtain HPA IF images to verify nucleoplasm localization independently</li><li>[ ] Experimental validation of nuclear vs. cytoplasmic distribution</li><li>[ ] Functional studies of the BTB-ubiquitin ligase activity</li><li>[ ] Investigate potential redundancy with RCBTB1</li><li>[ ] Structural determination via crystallography or cryo-EM</li></ul>
+<h4>11. Decision</h4>
+<p><strong>FINAL DECISION</strong>: NOT REJECTED. This protein was previously false-rejected. Upon complete re-evaluation with full harvest packet data, RCBTB2 meets the scoring criteria for a viable TE-regulated nuclear protein candidate. Nuclear localization is supported by HPA (Nucleoplasm, Approved), protein is extremely novel (PubMed 20), and structural prediction is high quality. Recommended for inclusion in the candidate pool.</p>
+<h4>12. Data Sources</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/O95199</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000136161-RCBTB2/subcellular</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22RCBTB2%22%5BTitle/Abstract%5D</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/O95199</li><li>STRING: https://string-db.org/network/9606.ENSP00000266049</li><li>Data harvested: 2026-06-04</li><li>Re-evaluation: Manual review with full packet inspection</li></ul></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

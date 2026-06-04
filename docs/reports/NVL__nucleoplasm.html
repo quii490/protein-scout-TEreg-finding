@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NVL · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>NVL</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 3</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/NVL/NVL-evaluation.md</p></section><article class="report-body"><h2>NVL – Critical False-Rejection Reevaluation Report</h2>
+<p><strong>Gene:</strong> NVL <strong>UniProt Accession:</strong> O15381 <strong>Protein Name:</strong> Nuclear valosin-containing protein-like <strong>Length:</strong> 856 aa | <strong>Mass:</strong> 95.1 kDa <strong>Aliases:</strong> NVL2 <strong>Report Date:</strong> 2026-06-04 <strong>Review Stage:</strong> W2 Batch 1 – CRITICAL REOPEN</p>
+<hr>
+<h3>/180 Scoring Table</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Max</th><th>Score</th><th>Rationale</th></tr></thead><tbody>
+<tr><td>1. Nuclear Localization</td><td>30</td><td>27</td><td>HPA: Nucleoli (Enhanced). UniProt: Nucleus, nucleoplasm, Nucleus, nucleolus, Nucleus, nucleoplasm. GO-CC: 3 IDA nuclear anno.</td></tr>
+<tr><td>2. Protein Size</td><td>10</td><td>3</td><td>856 aa / 95.1 kDa – very large protein. Significant resource commitment for full characterization.</td></tr>
+<tr><td>3. Research Novelty</td><td>10</td><td>7</td><td>PubMed strict: 34. Moderately low literature. Good novelty.</td></tr>
+<tr><td>4. 3D Structure</td><td>30</td><td>15</td><td>AlphaFold mean pLDDT: 72.5. PDB: 2 experimental structures.</td></tr>
+<tr><td>5. Regulatory Domains</td><td>50</td><td>9</td><td>InterPro: IPR003593, IPR050168, IPR041569. Function summary: Participates in the assembly of the telomerase holoenzyme and effecting of telomerase activity via its interaction with TERT (PubMed:22226966). Involved in both early and late stages of the pre-rRNA p...</td></tr>
+<tr><td>6. PPI Network</td><td>50</td><td>28</td><td>STRING: 15 partners. IntAct: 15 interactors.</td></tr>
+<tr><td><strong>TOTAL</strong></td><td><strong>180</strong></td><td><strong>89</strong></td><td></td></tr>
+</tbody></table></div>
+<hr>
+<h3>Nuclear Evidence Section</h3>
+<h4>HPA (Human Protein Atlas)</h4>
+<ul><li><strong>Status:</strong> hpa_localization_available</li><li><strong>Reliability (IF):</strong> Enhanced</li><li><strong>Main Location:</strong> Nucleoli</li><li><strong>IF Image Status:</strong> no_image_detected</li><li><strong>Nuclear-relevant locations:</strong> Nucleoli</li></ul>
+<h4>UniProt Subcellular Location</h4>
+<ul><li><strong>Nucleus, nucleoplasm</strong> – Evidence: ECO:0000269</li><li><strong>Nucleus, nucleolus</strong> – Evidence: ECO:0000269, ECO:0000269, ECO:0000269, ECO:0000269, ECO:0000269</li><li><strong>Nucleus, nucleoplasm</strong> – Evidence: ECO:0000269</li></ul>
+<h4>GO Cellular Component (GO-CC)</h4>
+<ul><li><strong>GO:0016020 (membrane)</strong> – Evidence: HDA:UniProtKB</li><li><strong>GO:0005730 (nucleolus)</strong> – Evidence: IDA:HPA</li><li><strong>GO:0005654 (nucleoplasm)</strong> – Evidence: IDA:HPA</li><li><strong>GO:0005634 (nucleus)</strong> – Evidence: IDA:UniProtKB</li><li><strong>GO:0005697 (telomerase holoenzyme complex)</strong> – Evidence: IDA:UniProtKB</li></ul>
+<h4>Functional Context</h4>
+<ul><li>Participates in the assembly of the telomerase holoenzyme and effecting of telomerase activity via its interaction with TERT (PubMed:22226966). Involved in both early and late stages of the pre-rRNA processing pathways (PubMed:26166824). Spatiotemporally regulates 60S ribosomal subunit biogenesis in the nucleolus (PubMed:15469983, PubMed:16782053, PubMed:26456651, PubMed:29107693). Catalyzes the release of specific assembly factors, such as WDR74, from pre-60S ribosomal particles through the ...</li></ul>
+<p><strong>Summary:</strong> NVL has strong nuclear evidence (HPA: Enhanced reliability; UniProt experimental nuclear evidence; GO: 3 IDA nuclear annotations). Nuclear score: 27/30.</p>
+<p><strong>Interpretation note:</strong> HPA IF original images not reliably fetched (HPA search page does not have usable subcellular IF originals). Nuclear localization based on HPA localization/reliability + UniProt + GO-CC.</p>
+<hr>
+<h3>PubMed Evidence</h3>
+<h4>Literature Metrics</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Query Type</th><th>Count</th><th>Query String</th></tr></thead><tbody>
+<tr><td>Strict (Title/Abstract)</td><td>34</td><td><code>&quot;NVL&quot;[Title/Abstract] AND (gene[Title/Abstract] OR protein[Title/Abstract] OR hy...</code></td></tr>
+<tr><td>Symbol Only (Title/Abstract)</td><td>162</td><td></td></tr>
+<tr><td>Broad (All Fields)</td><td>234</td><td></td></tr>
+</tbody></table></div>
+<p><strong>Alias Note:</strong> Aliases observed but not used for scoring: NVL2</p>
+<h4>Key Papers (with PMIDs)</h4>
+<p>1. <strong>PMID:36634459</strong> – Vulsteke JB, Smith V, Bonroy C (2023 Feb). &quot;Identification of new telomere- and telomerase-associated autoantigens in systemic sclerosis.&quot; *Journal of autoimmunity.* 2. <strong>PMID:36609656</strong> – Louche A, Blanco A, Lacerda TLS (2023 Jan 6). &quot;Brucella effectors NyxA and NyxB target SENP3 to modulate the subcellular localisation of nucleolar proteins.&quot; *Nature communications.* 3. <strong>PMID:40780730</strong> – Yamashita Y, Yamano Y, Muro Y (2025 Aug 7). &quot;Development of an enzyme-linked immunosorbent assay for the efficient detection of autoantibodies against nuclear valosin-containing protein-like protein (NVL) 2 using its manipulated cDNA.&quot; *RMD open.* 4. <strong>PMID:25891250</strong> – Wang M, Chen J, He K (2015 Oct 1). &quot;The NVL gene confers risk for both major depressive disorder and schizophrenia in the Han Chinese population.&quot; *Progress in neuro-psychopharmacology &amp; biological psychiatry.* 5. <strong>PMID:34909468</strong> – Yilmaz YZ, Yilmaz BB, Ozdemir YE (2021 Dec). &quot;Effects of hypertonic alkaline nasal irrigation on COVID-19.&quot; *Laryngoscope investigative otolaryngology.*</p>
+<h4>Literature Assessment</h4>
+<ul><li><strong>Total publications:</strong> Low (34 strict, 234 broad).</li><li><strong>Novelty score:</strong> 7/10.</li><li><strong>No publications directly linking this gene to TE regulation.</strong> This represents an unexplored area.</li></ul>
+<hr>
+<h3>AlphaFold / PDB / PAE</h3>
+<h4>AlphaFold Predicted Structure</h4>
+<ul><li><strong>Entry:</strong> AF-O15381-F1, version 6</li><li><strong>Mean pLDDT:</strong> 72.5</li><li><strong>pLDDT Distribution:</strong></li><li>&gt;90 (very high confidence): 19.0%</li><li>70-90 (confident): 49.9%</li><li>50-70 (low confidence): 9.0%</li><li>&lt;50 (very low confidence): 22.1%</li><li><strong>Assessment:</strong> Moderate-confidence structure with some predicted disorder. The protein has both well-folded and flexible regions.</li></ul>
+<h4>Experimental PDB Structures</h4>
+<ul><li><strong>2X8A</strong> – X-ray, 2.60 A, chains: A=574-845</li><li><strong>6RO1</strong> – X-ray, 3.07 A, chains: B=167-216</li></ul>
+<h4>Structural Assessment</h4>
+<ul><li>PAE image data not locally generated; structure judgment based on AlphaFold pLDDT statistics.</li><li><strong>Score:</strong> 15/30</li></ul>
+<hr>
+<h3>PPI Network</h3>
+<h4>STRING (Functional Partners)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Combined Score</th><th>Experimental</th><th>Textmining</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>MTREX</td><td>0.983</td><td>0.900</td><td>0.623</td><td></td></tr>
+<tr><td>TERT</td><td>0.944</td><td>0.000</td><td>0.465</td><td></td></tr>
+<tr><td>GNL3L</td><td>0.938</td><td>0.085</td><td>0.489</td><td></td></tr>
+<tr><td>DKC1</td><td>0.934</td><td>0.000</td><td>0.187</td><td></td></tr>
+<tr><td>NHP2</td><td>0.920</td><td>0.100</td><td>0.091</td><td></td></tr>
+<tr><td>GAR1</td><td>0.917</td><td>0.000</td><td>0.000</td><td></td></tr>
+<tr><td>NOP10</td><td>0.914</td><td>0.000</td><td>0.094</td><td></td></tr>
+<tr><td>TEP1</td><td>0.910</td><td>0.088</td><td>0.081</td><td></td></tr>
+<tr><td>NOM1</td><td>0.906</td><td>0.000</td><td>0.000</td><td></td></tr>
+<tr><td>WRAP53</td><td>0.906</td><td>0.000</td><td>0.094</td><td></td></tr>
+<tr><td>...</td><td>...</td><td>...</td><td>...</td><td>(15 total partners)</td></tr>
+</tbody></table></div>
+<h4>IntAct</h4>
+<p>Total: 15 validated interactors</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Method</th><th>PMID</th><th>Interaction Type</th></tr></thead><tbody>
+<tr><td>CRMP1</td><td>psi-mi:&quot;MI:0398&quot;(two hybrid pooling approach)</td><td>pubmed:16169070</td><td>imex:IM-16517</td><td>mint:MINT-5217955</td><td>psi-mi:&quot;MI:0915&quot;(physical association)</td></tr>
+<tr><td>CUL3</td><td>psi-mi:&quot;MI:0676&quot;(tandem affinity purification)</td><td>pubmed:21145461</td><td>imex:IM-18651</td><td>doi:10.1016/j.cell.2010.11.017</td><td>psi-mi:&quot;MI:0914&quot;(association)</td></tr>
+<tr><td>HSPB1</td><td>psi-mi:&quot;MI:0097&quot;(reverse ras recruitment system)</td><td>imex:IM-20864</td><td>pubmed:25277244</td><td>psi-mi:&quot;MI:0915&quot;(physical association)</td></tr>
+<tr><td>RPS6</td><td>psi-mi:&quot;MI:1314&quot;(proximity-dependent biotin identification)</td><td>pubmed:29568061</td><td>imex:IM-26301</td><td>psi-mi:&quot;MI:2364&quot;(proximity)</td></tr>
+<tr><td>RRP8</td><td>psi-mi:&quot;MI:0007&quot;(anti tag coimmunoprecipitation)</td><td>pubmed:28514442</td><td>doi:10.1038/nature22366</td><td>imex:IM-25778</td><td>psi-mi:&quot;MI:0914&quot;(association)</td></tr>
+<tr><td>FGF8</td><td>psi-mi:&quot;MI:0007&quot;(anti tag coimmunoprecipitation)</td><td>pubmed:28514442</td><td>doi:10.1038/nature22366</td><td>imex:IM-25778</td><td>psi-mi:&quot;MI:0914&quot;(association)</td></tr>
+<tr><td>PLEKHO1</td><td>psi-mi:&quot;MI:0007&quot;(anti tag coimmunoprecipitation)</td><td>pubmed:28514442</td><td>doi:10.1038/nature22366</td><td>imex:IM-25778</td><td>psi-mi:&quot;MI:0914&quot;(association)</td></tr>
+<tr><td>RNF4</td><td>psi-mi:&quot;MI:1356&quot;(validated two hybrid)</td><td>pubmed:32296183</td><td>imex:IM-25472</td><td>psi-mi:&quot;MI:0915&quot;(physical association)</td></tr>
+<tr><td>...</td><td>...</td><td>...</td><td>(15 total)</td></tr>
+</tbody></table></div>
+<h4>PPI Network Assessment</h4>
+<ul><li><strong>Moderate interaction network.</strong></li><li><strong>Score:</strong> 28/50</li></ul>
+<hr>
+<h3>FALSE REJECTION RECHECK</h3>
+<h4>Original Rejection Reason (inferred)</h4>
+<p>NVL was likely auto-rejected due to:</p>
+<ul><li>Large protein size (856 aa)</li></ul>
+<h4>Recheck Analysis</h4>
+<p>1. <strong>HPA Evidence:</strong> Nucleoli – STRONG, reliability: Enhanced. 2. <strong>UniProt Evidence:</strong> Nucleus, nucleoplasm – ECO:0000269 (experimental, [&#x27;ECO:0000269&#x27;]). 2. <strong>UniProt Evidence:</strong> Nucleus, nucleolus – ECO:0000269 (experimental, [&#x27;ECO:0000269&#x27;, &#x27;ECO:0000269&#x27;, &#x27;ECO:0000269&#x27;, &#x27;ECO:0000269&#x27;, &#x27;ECO:0000269&#x27;]). 2. <strong>UniProt Evidence:</strong> Nucleus, nucleoplasm – ECO:0000269 (experimental, [&#x27;ECO:0000269&#x27;]). 3. <strong>GO-CC Evidence:</strong> 3 IDA-level nuclear annotations present: nucleolus, nucleoplasm, nucleus. 4. <strong>PubMed Count:</strong> 34 strict – within acceptable range.</p>
+<h4>Verdict on False Rejection</h4>
+<p><strong>The original rejection was FALSE – NVL should NOT have been rejected.</strong> The nuclear evidence is ROBUST (HPA + UniProt experimental + GO IDA). The automated system may have undervalued the nuclear localization, been confused by dual localization patterns, or applied overly conservative scoring.</p>
+<p><strong>This gene SHOULD BE REOPENED for TE-regulatory evaluation.</strong></p>
+<hr>
+<h3>TE-Regulator Relevance Reasoning</h3>
+<p>1. <strong>Translation/Ribosome:</strong> NVL is involved in translation. TE transcripts can be translated, and translational regulation is a layer of TE control. Ribosome-associated proteins may affect TE-derived protein production. 2. <strong>Nucleolar Function:</strong> NVL localizes to the nucleolus. Repetitive rDNA and some TEs are organized in nucleolar-associated domains, making nucleolar proteins relevant to TE spatial organization.</p>
+<p><strong>Caveats:</strong></p>
+<ul><li>No direct evidence of TE regulation has been established for this gene.</li><li>The connection to TE biology is inferred from nuclear localization and functional domain analysis.</li></ul>
+<p><strong>Assessment:</strong> MODERATE-HIGH interest candidate. Nuclear evidence is robust and literature is limited, offering good novelty. The protein&#x27;s functional roles in the nucleus provide mechanistic hypotheses for TE regulation.</p>
+<hr>
+<h3>Final Decision</h3>
+<p><strong>DECISION: SCORED – REOPENED for evaluation</strong></p>
+<p><strong>Score: 89/180</strong></p>
+<p><strong>Reasoning:</strong> NVL was falsely rejected despite nuclear evidence. The protein has sufficient nuclear localization annotations to merit evaluation. The literature count (34 strict) is within acceptable range. Reopening is justified by the combination of nuclear evidence and functional potential.</p>
+<p><strong>Recommended next steps:</strong> 1. Confirm NVL nuclear localization by immunofluorescence or subcellular fractionation. 2. Screen for NVL binding/regulation at TE loci (ChIP-seq or CUT&amp;RUN targeting TEs). 3. Investigate NVL expression in contexts where TEs are active (development, cancer, stress). 4. Determine whether NVL loss/gain affects TE expression (RNA-seq with TE quantification).</p>
+<hr>
+<h3>Manual Review Note</h3>
+<p>*Reviewer: Automated re-evaluation system (2026-06-04)* *Status: FALSE REJECTION CONFIRMED – gene reopened*</p>
+<p>NVL encodes Nuclear valosin-containing protein-like, a 856-amino acid 95.1 kDa protein. HPA localizes NVL to Nucleoli (Enhanced reliability). UniProt annotates nuclear localization. The protein functions primarily in: Participates in the assembly of the telomerase holoenzyme and effecting of telomerase activity via its interaction with TERT (PubMed:22226966). Involved in both early and late stages of the pre-rRNA p. The false rejection appears to have resulted from automated scoring that failed to adequately weight the nuclear evidence. With only 34 publications, NVL represents a highly novel target. The nuclear localization and functional profile make it a strong candidate for TE-regulatory investigation.</p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PKIG · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>PKIG</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleus-cytoplasm</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 20</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleus-cytoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleus-cytoplasm/PKIG/PKIG-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;PKIG&quot; date: 2026-05-31 tags: [protein-scout, nucleus-cytoplasm, evaluation] status: scored ---</p>
+<h3>PKIG 核-胞质蛋白</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>权重</th><th>加权</th><th>摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>5/10</td><td>×4</td><td>20.0</td><td>GO cytoplasm IBA + nucleus IBA</td></tr>
+<tr><td>蛋白大小</td><td>7/10</td><td>×1</td><td>7.0</td><td>76 aa (~7.9 kDa)</td></tr>
+<tr><td>研究新颖性</td><td>10/10</td><td>×5</td><td>50.0</td><td>PubMed strict=11, broad=19</td></tr>
+<tr><td>三维结构</td><td>5/10</td><td>×3</td><td>15.0</td><td>AlphaFold pLDDT 62.9</td></tr>
+<tr><td>调控结构域</td><td>5/10</td><td>×2</td><td>10.0</td><td>PKA inhibitor domain</td></tr>
+<tr><td>PPI 网络</td><td>4/10</td><td>×3</td><td>12.0</td><td>STRING: PKIA/PKIB family; IntAct: PKA catalytic subunits</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>114/180</strong>**</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+0.0</td><td>IBA evidence only</td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>62.3/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<p><strong>核定位证据</strong>: GO cytoplasm IBA + nucleus IBA. cAMP-dependent protein kinase inhibitor gamma.</p>
+<p><strong>HPA IF 状态</strong>: IF thumbnail only — HPA 暂无 IF 原图，仅获取到 60x60 缩略图，不能作为可靠定位证据。核定位基于 UniProt + GO-CC。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/PKIG/PKIG-PAE.png</code></div></figure></p>
+<p>PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。</p>
+<h5>PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>PKIA</td><td>STRING</td><td>score=0.982, exp=0</td><td>PKA inhibitor family; textmining</td></tr>
+<tr><td>ADA</td><td>STRING</td><td>score=0.771, exp=0</td><td>Adenosine deaminase; textmining</td></tr>
+<tr><td>PRKACB</td><td>STRING</td><td>score=0.764, exp=0.700</td><td>PKA catalytic subunit beta; strong experimental</td></tr>
+<tr><td>PRKACA</td><td>STRING</td><td>score=0.653, exp=0.564</td><td>PKA catalytic subunit alpha; also IntAct (coIP)</td></tr>
+<tr><td>PKIB</td><td>STRING</td><td>score=0.637, exp=0</td><td>PKA inhibitor family; textmining</td></tr>
+<tr><td>PRKACG</td><td>IntAct</td><td>anti tag coIP</td><td>PKA catalytic subunit gamma; also STRING exp=0.435</td></tr>
+<tr><td>KPTN</td><td>IntAct</td><td>anti bait coIP</td><td>Kaptin; actin binding</td></tr>
+<tr><td>DYNLL1</td><td>IntAct</td><td>two hybrid prey pooling</td><td>Dynein light chain</td></tr>
+<tr><td>DYNLL2</td><td>IntAct</td><td>two hybrid array</td><td>Dynein light chain</td></tr>
+</tbody></table></div>
+<p><strong>IntAct 数据</strong>: PRKACA, PRKACB, PRKACG (coIP), KPTN, RPA3, RAB25, DYNLL1, DYNLL2, TYMS, TPM2, MEOX2 等 12 条互作记录。STRING 中 PRKACB (exp=0.700) 和 PRKACA (exp=0.564) 有强实验信号。无 BioGrid 补充数据。UniProt 未记载互作伙伴。</p>
+<p>Low-confidence nucleus-cytoplasm; IBA evidence only.</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/PKIG/PKIG-PAE.png</code></div></figure></p>
+<h5>关键文献</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>PMID</th><th>标题</th></tr></thead><tbody>
+<tr><td>10880337</td><td>Cloning and mapping of human PKIB and PKIG, and comparison of tissue expression patterns of three me</td></tr>
+<tr><td>39548579</td><td>Blood mir-331-3p is a potential diagnostic marker for giant panda (Ailuropoda melanoleuca) testicula</td></tr>
+<tr><td>40395612</td><td>Assessment of molecular and morphological dynamics during long-time in vitro cultivation of cryopres</td></tr>
+<tr><td>37653016</td><td>[Exploration of the Perturbation of PKIG in Lung Squamous Cell Carcinoma and the Role in Tumor Micro</td></tr>
+<tr><td>33885249</td><td>Glucose deprivation affects the expression of genes encoding cAMP-activated protein kinase and relat</td></tr>
+</tbody></table></div>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/PKIG/PKIG-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

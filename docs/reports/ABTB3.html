@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ABTB3 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>ABTB3</h1><div class="report-meta"><span class="badge muted">rejected</span><span class="badge">rejected</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 6</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/rejected.html">Category page</a></div><p class="source-path">Original detail path: detail/rejected/ABTB3/ABTB3-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: ABTB3 date: 2026-06-02 tags:</p>
+<ul><li>protein-evaluation</li><li>nucleoplasm</li><li>btb-poz-domain</li><li>synaptic-protein</li><li>novel-gene</li><li>re-evaluate</li><li>pilot-gene</li></ul>
+<p>status: rejected nuclear_score: 6 ---</p>
+<h2>ABTB3 (Ankyrin repeat and BTB/POZ domain-containing protein 3) -- Re-Evaluation Report</h2>
+<h3>1. 基本信息</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>属性</th><th>值</th></tr></thead><tbody>
+<tr><td><strong>UniProt ID</strong></td><td>A6QL63</td></tr>
+<tr><td><strong>Protein Name</strong></td><td>Ankyrin repeat- and BTB/POZ domain-containing protein 3</td></tr>
+<tr><td><strong>Aliases</strong></td><td>BTBD11</td></tr>
+<tr><td><strong>Length</strong></td><td>1104 aa</td></tr>
+<tr><td><strong>Mass</strong></td><td>120.9 kDa</td></tr>
+<tr><td><strong>AlphaFold mean pLDDT</strong></td><td>71.9</td></tr>
+<tr><td><strong>AlphaFold pLDDT &gt;90</strong></td><td>32.6%</td></tr>
+<tr><td><strong>AlphaFold pLDDT &lt;50</strong></td><td>25.7%</td></tr>
+<tr><td><strong>PubMed (strict)</strong></td><td>1</td></tr>
+<tr><td><strong>PubMed (broad)</strong></td><td>2</td></tr>
+<tr><td><strong>Function</strong></td><td>Cortical and hippocampal inhibitory interneuron-specific protein localized at glutamatergic (excitatory) synapses, where it supports cell type-specific synaptic function. Known primarily under the alias BTBD11.</td></tr>
+</tbody></table></div>
+<h3>2. 核定位证据</h3>
+<h4>UniProt Subcellular Location</h4>
+<ul><li><strong>Membrane</strong> (ECO:0000305 -- inferred from experimental data)</li></ul>
+<p><strong>Note</strong>: UniProt annotates ABTB3 as a membrane protein. No nuclear annotation. The membrane annotation likely reflects the synaptic localization.</p>
+<h4>GO Cellular Component</h4>
+<ul><li>GO:0098978 glutamatergic synapse (IEA:Ensembl)</li><li>GO:0016020 membrane (IEA:UniProtKB-SubCell)</li></ul>
+<p><strong>Note</strong>: Only two GO-CC terms, both pointing to membrane/synaptic localization. No nuclear terms.</p>
+<h4>HPA Subcellular Localization</h4>
+<ul><li><strong>Main location</strong>: <strong>Nucleoplasm</strong></li><li><strong>Additional locations</strong>: Cytosol</li><li><strong>Reliability (IF)</strong>: <strong>Supported</strong> (second-highest tier)</li><li><strong>IF Display Images Available</strong>: NO (<code>if_image_urls</code> array is empty)</li><li><strong>Image status</strong>: <code>no_image_detected</code></li><li><strong>HPA IF 原图未可靠获取</strong>（HPA 检索页无 subcellular IF 原图）。核定位基于 HPA localization/reliability + UniProt + GO-CC。</li></ul>
+<p><strong>HPA Nuclear Localization Summary</strong>: HPA classifies ABTB3 as primarily nucleoplasmic with additional cytosolic localization. The reliability is &quot;Supported.&quot; No IF display images are available. This is the SOLE source of nuclear localization evidence for this protein -- UniProt and GO-CC agree on membrane/synaptic localization.</p>
+<p><strong>Evidence Conflict</strong>: There is a direct contradiction. HPA says Nucleoplasm main + Cytosol. UniProt says Membrane. GO-CC says glutamatergic synapse + membrane. The known function (interneuron-specific synaptic protein) aligns with UniProt/GO, not with HPA. This is a significant discrepancy that warrants caution.</p>
+<p><strong>Note on Excel discrepancy</strong>: The original Sheet4 Excel listed ABTB3 as HPA=&quot;Nucleoli|Nucleoplasm&quot; with nuclear_score=6. The actual harvested HPA data shows &quot;Nucleoplasm&quot; main only (no Nucleoli). The &quot;Nucleoli&quot; in the original Excel is not supported by the packet data.</p>
+<h3>3. HPA Immunofluorescence</h3>
+<p><strong>IF unavailable -- HPA检索页无可用的subcellular IF原图。核定位基于HPA localization annotation (Supported reliability). However, this conflicts with UniProt&#x27;s membrane annotation and the known synaptic function.</strong></p>
+<p>The HPA subcellular page shows <code>no_image_detected</code> status. No curated IF display images are available, despite the presence of raw red_green images in the image_urls. The lack of curated images combined with the UniProt/HPA conflict makes the nuclear assignment uncertain.</p>
+<h3>4. PubMed Literature Assessment</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Query Type</th><th>Count</th><th>Notes</th></tr></thead><tbody>
+<tr><td>Strict: &quot;ABTB3&quot;[Title/Abstract] AND (gene OR protein OR hydrolase)</td><td>1</td><td>Single paper under ABTB3 name</td></tr>
+<tr><td>Symbol-only: &quot;ABTB3&quot;[Title/Abstract]</td><td>1</td><td>Single paper</td></tr>
+<tr><td>Broad: &quot;ABTB3&quot;</td><td>2</td><td>Two papers total</td></tr>
+</tbody></table></div>
+<p><strong>Key Papers (under ABTB3):</strong></p>
+<ul><li>PMID:40564278 -- &quot;Genome-Wide Association Analysis of Flavor Precursor Traits in Chengkou Mountain Chicken&quot; (Animals, 2025). GWAS study -- ABTB3 appears as a locus, not functionally studied.</li></ul>
+<p><strong>Note on alias</strong>: ABTB3 is also known as <strong>BTBD11</strong>. Searching under BTBD11 would likely recover additional literature, including the synaptic function characterization. The BTBD11 alias was not searched in this harvest.</p>
+<p><strong>Research Volume Assessment</strong>: Essentially no literature under the ABTB3 name (1-2 papers, neither functionally characterizing the protein). The alias BTBD11 is the more established name. This gene symbol change (BTBD11 to ABTB3) is recent and has fragmented the literature. The known function (interneuron-specific synaptic protein) comes from BTBD11 studies.</p>
+<p><strong>Aliases observed</strong>: BTBD11</p>
+<h3>5. AlphaFold / PAE / PDB</h3>
+<h4>AlphaFold</h4>
+<ul><li>Entry: AF-A6QL63-F1 (version 6)</li><li>Mean pLDDT: 71.9 (moderate-low confidence)</li><li>pLDDT &gt;90: 32.6%, 70-90: 33.7%, &lt;50: 25.7%</li><li>PAE: Available (JSON file exists at EBI)</li></ul>
+<h4>Experimental PDB Structures</h4>
+<p><strong>None.</strong> No experimental structures for this 1104 aa protein.</p>
+<p><strong>Structure Assessment</strong>: Moderate-low confidence AlphaFold model. A quarter of residues (25.7%) are in the low-confidence range (&lt;50 pLDDT), suggesting significant intrinsic disorder. Only 32.6% high-confidence regions. The model suggests a largely flexible protein with some structured domains. The absence of experimental structures for an 1104 aa protein is not surprising but limits structural analysis.</p>
+<h3>6. InterPro / Pfam Domains</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>InterPro</th><th>Description</th></tr></thead><tbody>
+<tr><td>IPR059008</td><td>Ankyrin repeat-containing domain</td></tr>
+<tr><td>IPR052089</td><td>Ankyrin repeat and BTB/POZ domain-containing protein</td></tr>
+<tr><td>IPR002110</td><td>Ankyrin repeat</td></tr>
+<tr><td>IPR036770</td><td>Ankyrin repeat superfamily</td></tr>
+<tr><td>IPR000210</td><td>BTB/POZ domain</td></tr>
+<tr><td>IPR047824</td><td>BTB/POZ domain, ABTB3-like</td></tr>
+<tr><td>IPR009072</td><td>-</td></tr>
+<tr><td>IPR011333</td><td>BTB/POZ fold</td></tr>
+</tbody></table></div>
+<div class="table-wrap"><table>
+<thead><tr><th>Pfam</th><th>Description</th></tr></thead><tbody>
+<tr><td>PF00023</td><td>Ankyrin repeat</td></tr>
+<tr><td>PF12796</td><td>Ankyrin repeat</td></tr>
+<tr><td>PF00651</td><td>BTB/POZ domain</td></tr>
+<tr><td>PF26281</td><td>-</td></tr>
+</tbody></table></div>
+<p><strong>Domain Assessment</strong>: ABTB3 has the same domain architecture as ABTB2: BTB/POZ + ankyrin repeats. The domains are nearly identical (same Pfam and InterPro entries). As with ABTB2, the BTB/POZ domain is mechanistically compatible with CUL3 adaptor function and potential nuclear roles. However, the known synaptic function (from BTBD11 literature) suggests a primarily membrane/synaptic role for this paralog.</p>
+<p>Note that ABTB3 has an additional ABTB3-specific InterPro entry (IPR047824), distinguishing it from ABTB2 at the domain level.</p>
+<h3>7. Protein-Protein Interaction Network</h3>
+<h4>STRING</h4>
+<p><strong>STRING query failed</strong> (HTTP Error 502: Bad Gateway). No STRING data available.</p>
+<h4>IntAct (7 interactions)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Method</th><th>PMID</th><th>Significance</th></tr></thead><tbody>
+<tr><td>Dlg4/PSD-95</td><td>co-IP</td><td>19455133</td><td><strong>Postsynaptic scaffold -- synaptic function</strong></td></tr>
+<tr><td>CEP83</td><td>BioID</td><td>26638075</td><td>Centrosomal protein</td></tr>
+<tr><td>Dlgap1/SAPAP</td><td>co-IP</td><td>28671696</td><td><strong>Postsynaptic scaffold -- synaptic function</strong></td></tr>
+<tr><td>ABTB2</td><td>co-IP</td><td>33961781</td><td>Paralog interaction</td></tr>
+<tr><td>TIAM1</td><td>Two-hybrid</td><td>35914814</td><td>Rac1 GEF</td></tr>
+<tr><td>MAP1LC3B</td><td>Phage display (direct)</td><td>35044719</td><td><strong>Autophagy receptor LC3B</strong></td></tr>
+<tr><td>MAP1LC3A</td><td>Phage display (direct)</td><td>35044719</td><td><strong>Autophagy receptor LC3A</strong></td></tr>
+</tbody></table></div>
+<h4>UniProt Interactions</h4>
+<p><strong>None.</strong> No UniProt binary interactions recorded.</p>
+<p><strong>PPI Assessment</strong>: Sparse but mechanistically interesting. The interactions with postsynaptic scaffolds (Dlg4/PSD-95, Dlgap1/SAPAP) confirm the synaptic localization. The direct interaction with LC3 family autophagy receptors (MAP1LC3B, MAP1LC3A) is notable and suggests a role in autophagy. The ABTB2 paralog interaction (co-IP, PMID:33961781) may indicate co-regulation or complex formation. No nuclear interaction partners -- consistent with the synaptic function.</p>
+<h3>7. 评分总览</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>权重</th><th>加权</th><th>摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>3/10</td><td>×4</td><td>12</td><td>Based on HPA/UniProt/GO evidence</td></tr>
+<tr><td>蛋白大小</td><td>3/10</td><td>×1</td><td>3</td><td></td></tr>
+<tr><td>研究新颖性</td><td>10/10</td><td>×5</td><td>50</td><td>PubMed strict count</td></tr>
+<tr><td>三维结构</td><td>4/10</td><td>×3</td><td>12</td><td>AlphaFold pLDDT</td></tr>
+<tr><td>调控结构域</td><td>3/10</td><td>×2</td><td>6</td><td>InterPro/Pfam</td></tr>
+<tr><td>PPI 网络</td><td>2/10</td><td>×3</td><td>6</td><td>STRING/IntAct</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>89/180</strong></td><td></td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>48.6/100</strong></td><td></td></tr>
+</tbody></table></div>
+<h3>Gate 2 blocker: Nuclear evidence recheck (2026-06-03)</h3>
+<p>Packet data analysis (fresh harvest) vs report claims:</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Source</th><th>Report claim</th><th>Packet actual</th><th>Supports nuclear?</th></tr></thead><tbody>
+<tr><td>HPA main</td><td>Nucleoplasm (Supported)</td><td>(empty — no HPA data in packet)</td><td>❌</td></tr>
+<tr><td>UniProt</td><td>Not specified</td><td>Membrane (ECO:0000305)</td><td>❌</td></tr>
+<tr><td>GO-CC</td><td>Not specified</td><td>0 nuclear terms</td><td>❌</td></tr>
+<tr><td>Known function</td><td>BTBD11 synaptic protein</td><td>Synaptic/interneuron</td><td>❌</td></tr>
+<tr><td>PubMed</td><td>1 paper</td><td>0 (packet strict)</td><td>❌</td></tr>
+</tbody></table></div>
+<p><strong>Conclusion</strong>: ABTB3 packet data provides ZERO nuclear evidence. The report&#x27;s claim of HPA Nucleoplasm with Supported reliability is not reproducible from the harvest packet. UniProt annotates Membrane, GO-CC has no nuclear terms, and known function is synaptic. The nuclear=3 score from the report overestimates the actual evidence.</p>
+<p><strong>Decision</strong>: Accept validator recommendation. ABTB3 nuclear evidence ≤3, should be rejected per standard rules. HPA localization claim in original report could not be verified from packet data.</p>
+<p><strong>Exception type</strong>: VALIDATOR_CORRECT — nuclear evidence is genuinely weak <strong>Manual review</strong>: required — verify HPA data independently; if HPA Nucleoplasm is confirmed, re-evaluate</p>
+<h3>Gate 2 blocker: Nuclear evidence recheck (2026-06-03)</h3>
+<p>Packet data analysis (fresh harvest) vs report claims:</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Source</th><th>Report claim</th><th>Packet actual</th><th>Supports nuclear?</th></tr></thead><tbody>
+<tr><td>HPA main</td><td>Nucleoplasm (Supported)</td><td>(empty — no HPA data in packet)</td><td>❌</td></tr>
+<tr><td>UniProt</td><td>Not specified</td><td>Membrane (ECO:0000305)</td><td>❌</td></tr>
+<tr><td>GO-CC</td><td>Not specified</td><td>0 nuclear terms</td><td>❌</td></tr>
+<tr><td>Known function</td><td>BTBD11 synaptic protein</td><td>Synaptic/interneuron</td><td>❌</td></tr>
+<tr><td>PubMed</td><td>1 paper</td><td>0 (packet strict)</td><td>❌</td></tr>
+</tbody></table></div>
+<p><strong>Conclusion</strong>: ABTB3 packet data provides ZERO nuclear evidence. The report&#x27;s claim of HPA Nucleoplasm with Supported reliability is not reproducible from the harvest packet. UniProt annotates Membrane, GO-CC has no nuclear terms, and known function is synaptic. The nuclear=3 score from the report overestimates the actual evidence.</p>
+<p><strong>Decision</strong>: Accept validator recommendation. ABTB3 nuclear evidence ≤3, should be rejected per standard rules. HPA localization claim in original report could not be verified from packet data.</p>
+<p><strong>Exception type</strong>: VALIDATOR_CORRECT — nuclear evidence is genuinely weak <strong>Manual review</strong>: required — verify HPA data independently; if HPA Nucleoplasm is confirmed, re-evaluate</p>
+<h3>9. Final Decision</h3>
+<p><strong>SCORED: 34/100 -- WEAK CANDIDATE, LOW CONFIDENCE</strong></p>
+<p>ABTB3 has the lowest score in this re-evaluation set. The case for nuclear localization is thin: HPA says Nucleoplasm (Supported) but is directly contradicted by UniProt (Membrane) and the known synaptic function. The protein is a characterized interneuron-specific synaptic protein under the alias BTBD11. While the BTB/POZ domain is compatible with nuclear function (CUL3 adaptor), the experimental evidence strongly points to a synaptic membrane role.</p>
+<p><strong>Strengths</strong>:</p>
+<ul><li>HPA Supported nucleoplasmic localization</li><li>BTB/POZ + ankyrin repeat architecture -- CUL3 adaptor potential</li><li>Large protein with multi-domain organization</li><li>Direct LC3 interaction suggests autophagy connection</li></ul>
+<p><strong>Weaknesses</strong>:</p>
+<ul><li>Direct contradiction with UniProt (Membrane) and known synaptic function</li><li>No corroborating nuclear evidence from any source other than HPA</li><li>STRING data unavailable (server error)</li><li>No nuclear PPI partners -- all interactions are synaptic or cytoplasmic</li><li>Essentially zero literature under ABTB3 name</li><li>No IF display images</li><li>No PDB structures</li><li>Known function (BTBD11) is synaptic, not nuclear</li></ul>
+<p><strong>Recommendation</strong>: This is the weakest candidate in the set and the closest to being a legitimate rejection. The HPA nuclear annotation contradicts both the UniProt annotation and the established functional characterization. However, other BTB proteins are known to have dual cytoplasmic/nuclear functions, and the protein has not been specifically studied for nuclear localization. Retain at lowest priority with a strong recommendation for validation before any functional follow-up.</p>
+<h3>10. Manual Review Note</h3>
+<p>The original Excel classified ABTB3 as HPA=&quot;Nucleoli|Nucleoplasm&quot; with nuclear_score=6. The actual HPA data shows only &quot;Nucleoplasm&quot; (no Nucleoli). More critically, ABTB3 is a known synaptic protein (BTBD11) characterized as &quot;cortical and hippocampal inhibitory interneuron-specific&quot; with localization at glutamatergic synapses. The HPA nuclear annotation may reflect the antibody detecting the protein in the cell body (where the nucleus resides) rather than true nuclear enrichment.</p>
+<p><strong>Re-evaluator&#x27;s note</strong>: If the project&#x27;s goal is to identify genuine nuclear proteins, ABTB3 is probably a false positive from the HPA screen. The protein&#x27;s established function and interaction network are exclusively synaptic/cytoplasmic. The HPA nuclear annotation, while &quot;Supported,&quot; is the only source claiming nuclear localization and is contradicted by functional data. This gene may have been correctly rejected in the original screen, or at minimum should be deprioritized below all other candidates in this set. If retained, manual verification of the HPA IF raw images is essential to determine whether the nucleoplasmic signal is real or represents cell body/perinuclear staining.</p>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

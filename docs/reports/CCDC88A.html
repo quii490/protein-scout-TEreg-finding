@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CCDC88A · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>CCDC88A</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 28</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/CCDC88A/CCDC88A-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;CCDC88A&quot; date: 2026-05-31 tags: [protein-scout, nucleoplasm, evaluation] status: scored ---</p>
+<h3>CCDC88A 核质蛋白 (Girdin)</h3>
+<p>UniProt: Q3V6T2.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>权重</th><th>加权</th><th>摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>7/10</td><td>×4</td><td>28.0</td><td>GO nucleoplasm IDA:HPA; membrane/centrosome/lamellipodium in UniProt</td></tr>
+<tr><td>蛋白大小</td><td>2/10</td><td>×1</td><td>2.0</td><td>1871 aa (~216 kDa)</td></tr>
+<tr><td>研究新颖性</td><td>6/10</td><td>×5</td><td>30.0</td><td>Strict=48</td></tr>
+<tr><td>三维结构</td><td>6/10</td><td>×3</td><td>18.0</td><td>pLDDT 66.3; PDB 6MHF</td></tr>
+<tr><td>调控结构域</td><td>6/10</td><td>×2</td><td>12.0</td><td>G-protein modulator; AKT-mTOR signaling hub</td></tr>
+<tr><td>PPI 网络</td><td>7/10</td><td>×3</td><td>21.0</td><td>STRING/IntAct: GNAI3, AKT1, EGFR network</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>111/180</strong>********</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+1.5</td><td>Nucleoplasm IDA:HPA + centrosome IDA:HPA</td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>60.7/100</strong>********</td><td></td></tr>
+</tbody></table></div>
+<p>PubMed strict: 48</p>
+<p><strong>核定位证据</strong>: GO nucleoplasm IDA:HPA. Membrane/centrosome/lamellipodium in UniProt. Girdin -- EGFR/AKT-mTOR signaling hub. PDB 6MHF.</p>
+<p><strong>HPA IF 状态</strong>: IF thumbnail only — HPA 暂无 IF 原图，仅获取到 60x60 缩略图，不能作为可靠定位证据。核定位基于 UniProt + GO-CC。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CCDC88A/CCDC88A-PAE.png</code></div></figure></p>
+<p>PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。</p>
+<h5>PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>GNAI3</td><td>STRING</td><td>score=0.918, exp=0.770</td><td>G protein alpha subunit; strong experimental evidence</td></tr>
+<tr><td>DISC1</td><td>STRING</td><td>score=0.863, exp=0.342</td><td>Neuronal development; also IntAct (two hybrid)</td></tr>
+<tr><td>AKT1</td><td>STRING</td><td>score=0.826, exp=0.532</td><td>AKT-mTOR pathway; key signaling effector</td></tr>
+<tr><td>NDEL1</td><td>STRING</td><td>score=0.738, exp=0.342</td><td>Dynein regulator; also IntAct (two hybrid)</td></tr>
+<tr><td>EGFR</td><td>STRING</td><td>score=0.591, exp=0.469</td><td>EGFR signaling; membrane retention</td></tr>
+<tr><td>DCTN1</td><td>STRING</td><td>score=0.576, exp=0.544</td><td>Dynactin; motor protein</td></tr>
+<tr><td>GNAI2</td><td>IntAct</td><td>anti tag coIP</td><td>G protein alpha subunit</td></tr>
+<tr><td>PARD3</td><td>IntAct</td><td>anti tag coIP</td><td>Cell polarity</td></tr>
+<tr><td>YWHAB</td><td>IntAct</td><td>anti tag coIP</td><td>14-3-3 scaffold</td></tr>
+</tbody></table></div>
+<p><strong>IntAct 数据</strong>: GNAI2, YWHAB, PARD3, DISC1, NDEL1, PRKACA, BRAF, YWHAZ 等多条互作记录（涵盖 coIP, two hybrid, TAP 等方法）。STRING 有强实验信号 (GNAI3 exp=0.770, AKT1 exp=0.532)。无 BioGrid 补充数据。UniProt 未记载互作伙伴。</p>
+<p>Large signaling protein with HPA-derived nuclear annotation.</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CCDC88A/CCDC88A-PAE.png</code></div></figure></p>
+<h5>关键文献</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>PMID</th><th>标题</th></tr></thead><tbody>
+<tr><td>37357876</td><td>The association between the CCDC88A gene polymorphism at rs1437396 and alcohol use disorder, with or</td></tr>
+<tr><td>39480488</td><td>Breast cancers that disseminate to bone marrow acquire aggressive phenotypes through CX43-related tu</td></tr>
+<tr><td>34190023</td><td>CCDC88A/GIV promotes HBV replication and progeny secretion via enhancing endosomal trafficking and b</td></tr>
+<tr><td>35493459</td><td>CCDC88A Post-Transcriptionally Regulates VEGF via miR-101 and Subsequently Regulates Hepatocellular</td></tr>
+<tr><td>37798908</td><td>Refining the phenotypic spectrum of CCDC88A-related PEHO-like syndrome.</td></tr>
+</tbody></table></div>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CCDC88A/CCDC88A-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

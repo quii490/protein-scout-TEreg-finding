@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>REP15 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>REP15</h1><div class="report-meta"><span class="badge muted">rejected</span><span class="badge">nucleoplasm</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 0</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/REP15/REP15-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;REP15&quot; date: 2026-06-04 tags: [protein-scout, re-evaluation, recovery-from-false-rejection] status: rejected ---</p>
+<h3>REP15 -- Re-evaluation Report (Recovery from False-Rejection)</h3>
+<h4>1. Basic Information</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Item</th><th>Content</th></tr></thead><tbody>
+<tr><td>Gene / Aliases</td><td>REP15 / RAB15EP, Rab15 effector protein</td></tr>
+<tr><td>Protein Name</td><td>Rab15 effector protein</td></tr>
+<tr><td>Protein Size</td><td>236 aa</td></tr>
+<tr><td>UniProt ID</td><td>Q6BDI9 (REP15_HUMAN, Swiss-Prot reviewed)</td></tr>
+<tr><td>Evaluation Date</td><td>2026-06-04</td></tr>
+<tr><td>Previous Status</td><td>REJECTED (thin template, no harvest packet)</td></tr>
+<tr><td>Re-evaluation Reason</td><td>Recovery from false-rejection; complete re-evaluation to confirm rejection status</td></tr>
+</tbody></table></div>
+<h4>2. Scoring Overview</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Score</th><th>Max</th><th>Weighted</th><th>Key Evidence Summary</th></tr></thead><tbody>
+<tr><td>Nuclear Localization Specificity</td><td>0/10</td><td>x4</td><td><strong>0</strong></td><td>Early endosome membrane; endocytic recycling compartment; no nuclear evidence</td></tr>
+<tr><td>Protein Size</td><td>5/10</td><td>x1</td><td><strong>5</strong></td><td>236 aa, near lower limit of workable range</td></tr>
+<tr><td>Research Novelty</td><td>10/10</td><td>x5</td><td><strong>50</strong></td><td>PubMed ~5-10 articles (&lt;=20 -&gt; 10)</td></tr>
+<tr><td>3D Structure</td><td>4/10</td><td>x3</td><td><strong>12</strong></td><td>AlphaFold prediction only; no PDB; small membrane-associated protein</td></tr>
+<tr><td>Regulatory Domains</td><td>2/10</td><td>x2</td><td><strong>4</strong></td><td>No known regulatory domains; RAB effector binding only</td></tr>
+<tr><td>PPI Network</td><td>2/10</td><td>x3</td><td><strong>6</strong></td><td>Interaction with GTP-bound RAB15 only</td></tr>
+<tr><td>Cross-Validation Bonus</td><td>--</td><td>--</td><td><strong>+0.5</strong></td><td>Multi-DB localization consistency (+0.5)</td></tr>
+<tr><td><strong>Raw Total</strong></td><td></td><td></td><td><strong>77.5/180</strong></td><td></td></tr>
+<tr><td><strong>Normalized Total</strong></td><td></td><td></td><td><strong>43.1/100</strong></td><td></td></tr>
+</tbody></table></div>
+<h4>3. Nuclear Localization Evidence -- CRITICAL FAIL</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Source</th><th>Localization</th><th>Reliability</th></tr></thead><tbody>
+<tr><td>UniProt (Swiss-Prot)</td><td>Early endosome membrane</td><td>Reviewed</td></tr>
+<tr><td>UniProt</td><td>Endocytic recycling compartment</td><td>Reviewed</td></tr>
+<tr><td>HPA</td><td>Not available in packet</td><td>--</td></tr>
+<tr><td>Any nuclear source</td><td>NONE</td><td>--</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF Status</strong>: HPA IF original images not reliably obtained (HPA search page lacks usable subcellular IF original images). Nuclear localization assessment based on HPA localization/reliability + UniProt + GO-CC.</p>
+<p><strong>Manual Review Assessment</strong>: REP15 is an endosomal membrane protein. It localizes specifically to the early endosome membrane and the endocytic recycling compartment, where it regulates transferrin receptor recycling from the endocytic recycling compartment back to the cell surface. The protein colocalizes with RAB11 and RAB15. There is zero evidence for nuclear localization from any database. The gene is intronless, which is sometimes a feature of retrotransposed genes. <strong>Nuclear localization score: 0/10. RULE: Nuclear &lt;=3 -&gt; REJECTED.</strong></p>
+<h4>4. Protein Size Assessment</h4>
+<p>REP15 is 236 amino acids, at the lower end of the workable size range. Small proteins can be more challenging for some biochemical assays but are generally still tractable. Size score: 5/10.</p>
+<h4>5. Research Novelty (PubMed Analysis)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody>
+<tr><td>PubMed estimated count</td><td>~5-10</td></tr>
+<tr><td>Novelty category</td><td>&lt;=20 -&gt; Score 10</td></tr>
+</tbody></table></div>
+<p><strong>Research Context</strong>: REP15 is extremely understudied. The gene was identified as a RAB15 effector involved in endocytic recycling. There are very few publications directly studying REP15. Most references are from large-scale interaction screens or gene catalogs. No disease associations have been established.</p>
+<p><strong>Novelty Assessment</strong>: REP15 is an extremely novel target with minimal published research. Score 10/10 reflects the very low PubMed count (&lt;=20). However, the high novelty score is negated by the complete absence of nuclear localization.</p>
+<h4>6. 3D Structure Analysis</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody>
+<tr><td>AlphaFold Prediction</td><td>Available</td></tr>
+<tr><td>PDB Entries</td><td>0</td></tr>
+<tr><td>Structural Features</td><td>Small protein, likely RAB-binding domain</td></tr>
+</tbody></table></div>
+<p><strong>PAE</strong>: PAE image data not available (local image not generated or not reliably obtained). Structural assessment based on AlphaFold pLDDT statistics.</p>
+<p><strong>Structure Assessment</strong>: REP15 is a small protein with limited structural characterization. AlphaFold prediction is available but quality is uncertain for a protein of this size with limited domain annotation. Score 4/10.</p>
+<h4>7. Domain Architecture</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Source</th><th>Domain/Feature</th><th>Notes</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>RAB15 binding region</td><td>Protein-protein interaction</td></tr>
+<tr><td>Gene Features</td><td>Intronless gene</td><td>Retrotransposed origin</td></tr>
+</tbody></table></div>
+<p><strong>Domain Analysis</strong>: REP15 has minimal domain annotation. The protein functions as a binding partner for GTP-bound RAB15. No known regulatory domains (DNA-binding, chromatin-binding, transcription factor, enzyme, etc.) are present. Domain score: 2/10.</p>
+<h4>8. PPI Network Analysis</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Context</th><th>Evidence</th></tr></thead><tbody>
+<tr><td>RAB15 (GTP-bound)</td><td>Endocytic recycling regulation</td><td>Direct interaction</td></tr>
+<tr><td>RAB11</td><td>Colocalization in recycling compartment</td><td>Colocalization</td></tr>
+</tbody></table></div>
+<p><strong>PPI Assessment</strong>: REP15 interacts primarily with RAB15 in its GTP-bound form. This interaction mediates its role in endocytic recycling. No interactions with nuclear proteins, transcription factors, chromatin modifiers, or other regulatory proteins were identified. PPI score: 2/10.</p>
+<h4>9. Cross-Validation Analysis</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Sources</th><th>Result</th><th>Consistent?</th></tr></thead><tbody>
+<tr><td>Localization</td><td>UniProt + literature</td><td>Early endosome, recycling compartment</td><td>Consistent</td></tr>
+</tbody></table></div>
+<p><strong>Cross-Validation Bonus Details</strong>:</p>
+<ul><li>Multi-database endosomal localization consistency: +0.5</li><li><strong>Total Cross-Validation Bonus</strong>: +0.5 / max +3</li></ul>
+<h4>10. Overall Assessment</h4>
+<p><strong>Recommendation Level</strong>: NOT RECOMMENDED -- REJECTED</p>
+<p><strong>Core Reasons for Rejection</strong>: 1. Zero nuclear localization evidence -- REP15 is an endosomal membrane protein 2. Function is exclusively in endocytic recycling, not nuclear regulation 3. No regulatory domains of any kind 4. Minimal PPI network, limited to endosomal RAB GTPases 5. Gene is intronless, consistent with retrotransposed origin</p>
+<p><strong>Why Previous Rejection Was Correct</strong>: The original rejection of REP15 was appropriate. This is an endosomal protein with no connection to nuclear biology. The gene is extremely novel and understudied, but this does not compensate for the complete absence of nuclear localization.</p>
+<p><strong>Would Additional Data Change the Decision?</strong> No. REP15 functions in endocytic membrane trafficking. No amount of additional structural or interaction data would change the cellular compartment in which it functions.</p>
+<h4>11. Decision</h4>
+<p><strong>FINAL DECISION</strong>: REJECTED (previous rejection UPHELD). REP15 fails the nuclear localization criterion (score 0/10, threshold &lt;=3). The protein is an early endosome membrane protein involved in endocytic recycling. Nuclear score &lt;=3 triggers automatic REJECTED status per scoring rules. Recovery from false-rejection does not apply -- the original rejection was correct.</p>
+<h4>12. Data Sources</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q6BDI9</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22REP15%22</li><li>NCBI Gene: https://www.ncbi.nlm.nih.gov/gene/387849</li><li>Ensembl: https://www.ensembl.org/Homo_sapiens/Gene/Summary?g=ENSG00000174236</li><li>Note: Harvest packet not available; data compiled from UniProt and literature database queries</li></ul></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

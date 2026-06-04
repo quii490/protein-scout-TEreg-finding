@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ARNT2 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>ARNT2</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">rejected</span><span class="badge">Score: 2</span><span class="badge">Nuclear: 9</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/rejected.html">Category page</a></div><p class="source-path">Original detail path: detail/rejected/ARNT2/ARNT2-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;ARNT2&quot; date: 2026-05-28 tags: [protein-scout, nuclear-protein, evaluation] status: scored ---</p>
+<h3>ARNT2 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>ARNT2 / bHLHe1, KIAA0307</td></tr>
+<tr><td>蛋白大小</td><td>717 aa / 78.7 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q9HBZ2 (ARNT2_HUMAN)</td></tr>
+<tr><td>评估日期</td><td>2026-05-28</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>满分</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>🔴 核定位特异性</td><td>9</td><td>/10</td><td>×3 = 27</td><td>HPA: Supported(9); UniProt (PubMed实验证据), Protein Atlas (Nucleoplasm), GO chromatin</td></tr>
+<tr><td>📏 蛋白大小</td><td>10</td><td>/10</td><td>×2 = 20</td><td>717 aa, 78.7 kDa (300-800范围, 理想大小)</td></tr>
+<tr><td>🆕 研究新颖性</td><td>6</td><td>/10</td><td>×3 = 18</td><td>****: PubMed 141篇→100-200区间→6分; 仅9篇(6.4%)涉及chromatin/epigenetics</td></tr>
+<tr><td>🏗️ 三维结构</td><td>5</td><td>/10</td><td>×3 = 15</td><td>pLDDT 58.3; 有序域质量高(bHLH 88.6/PAS 85.2/PAS2+PAC 92.4); 53.1%无序; 无PDB(UniProt确认)</td></tr>
+<tr><td>🧬 调控结构域</td><td>10</td><td>/10</td><td>×2 = 20</td><td>bHLH + 双PAS + PAC, 6+数据库一致确认; 非新颖蛋白无基线保护</td></tr>
+<tr><td>🔗 PPI</td><td>5/10</td><td>×3</td><td><strong>15</strong></td><td>详见 3.6 PPI 分析</td></tr>
+<tr><td><strong>原始总分</strong></td><td></td><td></td><td><strong>127.0</strong> /158</td></tr>
+<tr><td><strong>归一化总分</strong></td><td></td><td></td><td><strong>80.4</strong> /100</td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>GeneCards</td><td>Nucleus</td><td>高</td></tr>
+<tr><td>Protein Atlas (IF)</td><td>Nucleoplasm (HPA001056, RT-4/KOLF2.1J/NIH 3T3)</td><td>Supported</td></tr>
+<tr><td>UniProt</td><td>Nucleus (ECO:0000255 PROSITE-ProRule, ECO:0000269 PubMed:24465693)</td><td>高(实验验证)</td></tr>
+<tr><td>GO</td><td>chromatin (GO:0000785), transcription regulator complex (GO:0005667)</td><td>高</td></tr>
+</tbody></table></div>
+<p><strong>IF 图像</strong>: <figure><div class="missing-image">Missing local image: <code>../assets/report-images/ARNT2/A431_1.jpg</code></div></figure> <figure><div class="missing-image">Missing local image: <code>../assets/report-images/ARNT2/HeLa_1.jpg</code></div></figure> <figure><div class="missing-image">Missing local image: <code>../assets/report-images/ARNT2/HeLa_2.jpg</code></div></figure></p>
+<p><strong>结论</strong>: 严格核蛋白。UniProt 有PubMed实验证据支持(PMID:24465693)，Protein Atlas ICC/IF 确认核质定位，GO注释包含chromatin定位。多个数据库一致，评10分。</p>
+<p><strong>IF 图像</strong>: <figure><div class="missing-image">Missing local image: <code>../assets/report-images/ARNT2/HeLa_1.jpg</code></div></figure> *ARNT2 IF染色 - HeLa细胞: 抗体HPA001056, 显示核质定位(nucleoplasm)*</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/ARNT2/A431_1.jpg</code></div></figure> *ARNT2 IF染色 - A-431细胞: 核质定位*</p>
+<p><strong>IF 图像</strong>:</p>
+<h5>3.2 蛋白大小评估</h5>
+<p>717 aa, 78.7 kDa，属于300-800 aa的理想区间，适合重组表达、生化实验(pull-down/Co-IP)和结构解析（冷冻电镜/X射线晶体学）。bHLH-PAS蛋白家族中，PAS结构域约100 aa, 两个PAS + bHLH共约350 aa的折叠核心，适合结构生物学研究。</p>
+<p><strong>评价</strong>: 10/10</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed 总数</td><td>141 (Title/Abstract: &quot;ARNT2&quot; AND (gene OR protein))</td></tr>
+<tr><td>最早发表年份</td><td>~1997 (ARNT家族)</td></tr>
+<tr><td>Chromatin/epigenetics 比例</td><td>9/141 (6.4%)</td></tr>
+</tbody></table></div>
+<p><strong>主要研究方向</strong>:</p>
+<ul><li>低氧响应(HIF)通路中的二聚化伙伴 (与HIF1A/EPAS1形成异二聚体)</li><li>AHR(芳香烃受体)信号通路 (异生物质代谢)</li><li>下丘脑-垂体轴发育、脑发育和视觉/肾功能</li><li>神经发育: NPAS4-ARNT2在抑制性突触形成中的作用</li></ul>
+<p><strong>评价</strong>: 141篇文献属于100-200范围，chromatin/epigenetics方向仅9篇(6.4%)。ARNT2主要被研究为HIF/AHR的通用二聚化伙伴，其作为直接chromatin调控因子的角色几乎未被关注，niche空间大。: 6分 (100-200区间)。</p>
+<h5>3.4 三维结构分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold 平均 pLDDT</td><td>58.3</td></tr>
+<tr><td>PDB 实验结构</td><td>—</td></tr>
+<tr><td>有序区域 (pLDDT&gt;70) 占比</td><td>37.2% (267/717 aa)</td></tr>
+<tr><td>高置信度区域 (&gt;90)</td><td>20.6% (148/717 aa)</td></tr>
+<tr><td>低置信度区域 (&lt;50)</td><td>53.1% (381/717 aa)</td></tr>
+<tr><td>α-helix 含量</td><td>~30% (bHLH + PAS域富含α螺旋)</td></tr>
+<tr><td>β-sheet 含量</td><td>~10% (PAS域含β折叠)</td></tr>
+<tr><td>可用 PDB 条目</td><td>无 (仅AlphaFold预测)</td></tr>
+</tbody></table></div>
+<p><strong>有序结构域</strong>:</p>
+<div class="table-wrap"><table>
+<thead><tr><th>区域</th><th>长度</th><th>平均pLDDT</th><th>对应结构域</th></tr></thead><tbody>
+<tr><td>65-116</td><td>52 aa</td><td>88.6</td><td>bHLH (basic helix-loop-helix)</td></tr>
+<tr><td>132-200</td><td>69 aa</td><td>85.2</td><td>PAS 1</td></tr>
+<tr><td>233-244</td><td>12 aa</td><td>87.0</td><td>linker region</td></tr>
+<tr><td>275-288</td><td>14 aa</td><td>85.2</td><td>linker region</td></tr>
+<tr><td>308-318</td><td>11 aa</td><td>86.5</td><td>linker region</td></tr>
+<tr><td>335-440</td><td>106 aa</td><td>92.4</td><td>PAS 2 + PAC motif</td></tr>
+</tbody></table></div>
+<p><strong>PAE 图</strong>: <figure><div class="missing-image">Missing local image: <code>../assets/report-images/ARNT2/ARNT2-PAE.png</code></div></figure></p>
+<p><strong>PAE 数值分析</strong>:</p>
+<ul><li>PAE 矩阵尺寸: 717×717</li><li>PAE 总体均值: 25.47 Å</li><li>PAE &lt;5 Å 占比: 4.2%</li><li>PAE &lt;10 Å 占比: 6.9%</li></ul>
+<p><strong>评价</strong>: 平均pLDDT 58.3 (50-70范围)，53.1%区域无序。但有序结构域质量出色：PAS2+PAC域平均pLDDT高达92.4, bHLH域88.6, PAS1域85.2。这些域对应于bHLH-PAS蛋白的经典折叠。无序区域主要集中在N端(1-64)和C端(548-717)反式激活域。UniProt确认<strong>无PDB实验结构</strong>。ARNT2非新颖蛋白(PubMed=141&gt;100)，不适用基线保护。基于有序域质量上调至<strong>5分</strong>。</p>
+<h5>3.5 结构域分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>结构域</th></tr></thead><tbody>
+<tr><td>GeneCards</td><td>bHLH (IPR011598), PAS (IPR000014), PAC (IPR001610)</td></tr>
+<tr><td>SMART</td><td>HLH (SM00353, 69-122), PAS (SM00091, 137-204, 325-391), PAC (SM00086, 398-441)</td></tr>
+<tr><td>InterPro</td><td>bHLH (IPR011598), PAS (IPR000014), PAC (IPR001610), PAS fold (IPR013767), PAS superfamily (IPR035965)</td></tr>
+<tr><td>Pfam</td><td>HLH (PF00010, 65-116), PAS fold (PF00989, 140-243), PAS domain (PF14598, 336-436)</td></tr>
+<tr><td>CDD (NCBI)</td><td>bHLH-PAS_ARNT (cd18947, 62-124), PAS (cd00130, 146-199, 336-432)</td></tr>
+<tr><td>UniProt</td><td>bHLH (63-116), PAS 1 (134-209), PAS 2 (323-393), PAC (398-441)</td></tr>
+<tr><td>CATH/Gene3D</td><td>PAS domain (G3DSA:3.30.450.20), HLH (G3DSA:4.10.280.10)</td></tr>
+</tbody></table></div>
+<p><strong>染色质调控潜力分析</strong>: bHLH-PAS结构域架构是经典的转录因子架构。bHLH域直接识别并结合E-box DNA序列(CANNTG)，PAS域介导蛋白-蛋白二聚化（如与HIF1A/EPAS1/AHR），PAC motif辅助PAS折叠。GO注释包含chromatin binding (GO:0000785)和多种DNA-binding条目。ARNT2作为通用bHLH-PAS二聚化伙伴，其chromatin调控角色（如HIF靶基因位点的chromatin重塑）尚未被充分研究。评10分。</p>
+<h5>3.6 PPI :</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>功能类别</th><th>与调控相关？</th></tr></thead><tbody>
+<tr><td>HIF1A</td><td>0.999</td><td>bHLH-PAS TF (低氧响应主调控因子)</td><td>是</td></tr>
+<tr><td>EPAS1 (HIF2A)</td><td>0.998</td><td>bHLH-PAS TF (低氧响应)</td><td>是</td></tr>
+<tr><td>ARNT (ARNT1)</td><td>0.999</td><td>bHLH-PAS TF (通用二聚化伙伴)</td><td>是</td></tr>
+<tr><td>AHR</td><td>0.999</td><td>bHLH-PAS TF (异生物质受体)</td><td>是</td></tr>
+<tr><td>EP300</td><td>0.999</td><td>转录共激活因子 (组蛋白乙酰转移酶)</td><td>是</td></tr>
+<tr><td>NPAS4</td><td>0.998</td><td>bHLH-PAS TF (神经元活性依赖)</td><td>是</td></tr>
+<tr><td>HIF3A</td><td>0.999</td><td>bHLH-PAS TF (低氧负调控)</td><td>是</td></tr>
+<tr><td>EGLN1</td><td>0.999</td><td>脯氨酸羟化酶 (HIF降解调控)</td><td>是</td></tr>
+<tr><td>EGLN3</td><td>0.999</td><td>脯氨酸羟化酶</td><td>是</td></tr>
+<tr><td>HSP90AB1</td><td>0.999</td><td>分子伴侣 (AHR复合物组分)</td><td>部分</td></tr>
+<tr><td>AIP</td><td>0.999</td><td>AHR-interacting protein (AHR复合物)</td><td>是</td></tr>
+<tr><td>ELOC (TCEB1)</td><td>0.999</td><td>转录延伸因子B</td><td>是</td></tr>
+<tr><td>HIF1A-ELOC</td><td>0.999</td><td>HIF1A-泛素连接酶复合物</td><td>是</td></tr>
+<tr><td>EP300-ARNT</td><td>0.999</td><td>共激活因子-TF复合物</td><td>是</td></tr>
+<tr><td>EP300-EPAS1</td><td>0.998</td><td>共激活因子-TF复合物</td><td>是</td></tr>
+<tr><td>ARNT-HIF1A</td><td>0.999</td><td>TF二聚体</td><td>是</td></tr>
+</tbody></table></div>
+<p><strong>humanPPI</strong> (prodata.swmed.edu): <strong>评价</strong>: ARNT2位于bHLH-PAS转录因子| 完全一致 |</p>
+<p><strong>互证加分明细</strong>:</p>
+<ul><li><strong>结构域多源</strong>: ≥3独立来源(InterPro/SMART/Pfam/UniProt/CDD/CATH)确认bHLH和PAS → <strong>+0.5</strong></li><li><strong>域功能一致性</strong>: bHLH/PAS域在GO/UniProt中注释为DNA-binding转录调控 → <strong>+0.5</strong></li><li><strong>定位多源</strong>: Protein Atlas IF(Nucleoplasm) + UniProt(Nucleus) + GO(Chromatin) → <strong>+0.5</strong></li><li><strong>进化保守</strong>: bHLH-PAS家族从果蝇到人类高度保守(哺乳动物ARNT1/ARNT2同源) → <strong>+0.5</strong></li><li>三维结构互证: 无实验PDB → 0</li><li>PPI互证: humanPPI待获取 → 0</li></ul>
+<p><strong>互证总分</strong>: <strong>+2.0</strong> / max +3</p>
+<h5>3.7 多库互证</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>来源</th><th>结果</th><th>是否一致</th></tr></thead><tbody>
+<tr><td>三维结构</td><td>AlphaFold + PDB</td><td>见 3.4 节</td><td>—</td></tr>
+<tr><td>结构域</td><td>UniProt / InterPro / Pfam</td><td>见 3.5 节</td><td>—</td></tr>
+<tr><td>PPI</td><td>STRING</td><td>见 3.6 节</td><td>—</td></tr>
+<tr><td>定位</td><td>Protein Atlas IF / UniProt / GO</td><td>Nucleus</td><td>✅</td></tr>
+</tbody></table></div>
+<h4>4. 总体评价</h4>
+<p><strong>推荐等级</strong>: ★★★★☆ (4/5)</p>
+<p><strong>核心优势</strong>: 1. <strong>结构域架构完整</strong>: bHLH-PAS-PAC是经典的DNA结合+蛋白互作架构，6+数据库一致确认，PAS2+PAC域AlphaFold置信度极高(pLDDT 92.4) 2. <strong>PPI3. </strong>研究新颖性佳<strong>: 141篇文献中chromatin方向仅9篇(6.4%)，其作为chromatin调控因子的角色几乎空白，niche空间大 4. </strong>大小理想**: 717 aa适合生化和结构实验，重组表达可行</p>
+<p><strong>风险/不确定性</strong>: 1. <strong>高度无序</strong>: C端(548-717)和N端(1-64)占蛋白长度53%，功能未知，可能影响蛋白表达纯化 2. <strong>无实验结构</strong>: PAS域虽有高质量AlphaFold预测，但无PDB实验结构；化学计量学(与HIF1A/AHR二聚体)需实验确定 3. <strong>功能冗余</strong>: 与ARNT(ARNT1)高度同源，可能存在功能冗余，需设计特异性工具(如domain swap) 4. **PPI，STRING显示进行结构解析</p>
+<ul><li>[ ] ChIP-seq/MS分析ARNT2在低氧/非低氧条件下的基因组占有率</li><li>[ ] 比较ARNT2 vs ARNT在全基因组chromatin结合位点的差异</li></ul>
+<h4>5. 数据来源</h4>
+<ul><li>GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=ARNT2</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000172379-ARNT2</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22ARNT2%22</li><li>UniProt: https://www.uniprot.org/uniprotkb/Q9HBZ2</li><li>- - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9HBZ2</li><li>STRING: https://string-db.org/network/9606.ENSP00000307479</li><li>InterPro: https://www.ebi.ac.uk/interpro/protein/uniprot/Q9HBZ2</li></ul>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/ARNT2/ARNT2-PAE.png</code></div></figure></p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/ARNT2/ARNT2-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

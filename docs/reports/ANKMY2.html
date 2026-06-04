@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ANKMY2 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>ANKMY2</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 4</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/ANKMY2/ANKMY2-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;ANKMY2&quot; date: 2026-06-03 tags: [protein-scout, nucleoplasm, evaluation, full-reevaluate] status: scored ---</p>
+<h3>ANKMY2</h3>
+<p>Q8IV38 | Ankyrin repeat and MYND domain-containing protein 2 | 441aa | pLDDT 86.5 | PM=14 | norm=66.7/100</p>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>权重</th><th>加权</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>4/10</td><td>×4</td><td>16</td></tr>
+<tr><td>蛋白大小</td><td>6/10</td><td>×1</td><td>6</td></tr>
+<tr><td>研究新颖性</td><td>10/10</td><td>×5</td><td>50</td></tr>
+<tr><td>三维结构</td><td>7/10</td><td>×3</td><td>21</td></tr>
+<tr><td>调控结构域</td><td>5/10</td><td>×2</td><td>10</td></tr>
+<tr><td>PPI 网络</td><td>7/10</td><td>×3</td><td>21</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>124/180</strong></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+0.5</td></tr>
+<tr><td><strong>PubMed strict</strong></td><td>14</td><td></td><td></td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>67.8/100</strong></td></tr>
+</tbody></table></div>
+<p><strong>UniProt</strong>: Q8IV38 — Cell projection, cilium (ECO:0000250). GO-CC: cilium (IEA:UniProtKB-SubCell). UniProt interaction: TINF2.</p>
+<p><strong>HPA IF 状态</strong>: HPA IF 原图未可靠获取（HPA 检索页无可用的 subcellular IF 原图）。核定位基于 HPA localization/reliability + UniProt + GO-CC。</p>
+<h4>核定位评定</h4>
+<p>HPA 主定位 Cytosol (Approved)，额外定位 Nucleoplasm。UniProt 自身注释为纤毛定位 (cilium)，无核定位信息。HPA 将 Nucleoplasm 列为 additional location，reliability 为 Approved，表明 IF 信号中观察到核质分布但非主导。由于主定位不在核内且 UniProt 不支持核定位，核定位特异性评为 4/10。</p>
+<h4>蛋白大小</h4>
+<p>441 aa，49.3 kDa，中等大小蛋白。包含 Ankyrin repeat (IPR002110/IPR036770) 和 MYND domain (IPR002893)。分子量适合常规生化分析，评为 6/10。</p>
+<h4>研究新颖性</h4>
+<p>PubMed strict count = 14（≤20 档），研究稀缺。关键方向：(1) 纤毛生物学 — PMID 37943875 报道 ANKMY2 在 hedgehog 通路纤毛调控中的上下文依赖功能，PMID 41474822 发现 ANKMY2 缺失抑制肾囊肿生成，PMID 40501923 关联纤毛腺苷酸环化酶靶向与 ADPKD；(2) 阿尔茨海默病血浆肽段 — PMID 34182925；(3) circRNA — PMID 33095438 报道 Circ_ANKMY2 通过 miR-106b-5p/FOXP1 轴调控颞叶癫痫。肾纤毛病变与纤毛信号转导是其主要研究方向。评为 10/10（高新颖性）。</p>
+<h4>PDB 结构</h4>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。 AlphaFold v6: mean_pLDDT = 86.5，pct_gt_90 = 77.3%，pct_70_90 = 6.6%，pct_lt_50 = 12.9%。结构预测置信度优秀，77% 残基 pLDDT &gt; 90。无实验 PDB 结构。AlphaFold 模型质量较高，适合用于结构分析。评为 7/10。</p>
+<h4>调控结构域</h4>
+<p>InterPro: Ankyrin repeat (IPR002110/IPR036770/IPR052452) + MYND zinc finger (IPR002893)。Pfam: Ank_2 (PF12796) + zf-MYND (PF01753)。MYND 结构域为锌指型蛋白-蛋白互作模块，常见于转录调控因子。ANK 重复提供支架功能，MYND 赋予潜在转录调控活性，组合具有功能多样性。评为 5/10。</p>
+<h4>PPI 网络</h4>
+<p>STRING: AGO3 (0.885, experimental 0.782)、FKBP8 (0.719, exp 0.611)、GUCY1A1 (0.628, exp 0.622) 等 15 个伙伴。IntAct: 15 条互作记录，包括 GUCY2D (co-IP)、AGO3 (co-IP)、ADCY3/6 (co-IP)、HSP90AA1 (co-IP)、FKBP8 (co-IP) 等，多条源自 Nature 2017 大规模 co-IP 研究 (PMID 28514442)。UniProt: TINF2 (2 experiments)。PPI 网络由多项大规模实验支撑，AGO 家族蛋白与纤毛腺苷酸环化酶的互作尤为突出。评为 7/10。</p>
+<h4>关键文献</h4>
+<ul><li>PMID 41474822: Lack of ANKMY2 suppresses kidney cystogenesis in ADPKD (PLoS Genet, 2025)</li><li>PMID 37943875: Context-dependent ciliary regulation of hedgehog pathway (PLoS Genet, 2023)</li><li>PMID 33095438: Circ_ANKMY2 regulates temporal lobe epilepsy via miR-106b-5p/FOXP1 (Neurochem Res, 2020)</li></ul>
+<h4>人工复核建议</h4>
+<p>核定位为 HPA additional location，主定位 Cytosol/纤毛，若以核蛋白研究为目标则该蛋白核定位偏弱。纤毛-核质穿梭可能在某些条件下发生，但并非稳态核定位。建议关注其在纤毛信号转导中的角色及其与肾纤毛病的关系。</p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

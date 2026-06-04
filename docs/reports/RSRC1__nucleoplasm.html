@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RSRC1 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>RSRC1</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 25</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/RSRC1/RSRC1-evaluation.md</p></section><article class="report-body"><h2>RSRC1 -- Critical False-Rejection Reevaluation Report</h2>
+<p><strong>Gene:</strong> RSRC1 (Serine/Arginine-related protein 53) <strong>UniProt Accession:</strong> Q96IZ7 <strong>Protein Name:</strong> Serine/Arginine-related protein 53 <strong>Length:</strong> 334 aa | <strong>Mass:</strong> 38.7 kDa <strong>Aliases:</strong> SRRP53 <strong>Report Date:</strong> 2026-06-04 <strong>Review Stage:</strong> W3 Batch 1 -- CRITICAL REOPEN</p>
+<hr>
+<h3>/180 Scoring Table</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Max</th><th>Score</th><th>Rationale</th></tr></thead><tbody>
+<tr><td>1. Nuclear Localization</td><td>30</td><td>25</td><td>HPA main: Nuclear speckles. Reliability: Approved. UniProt: Nucleus (ECO:0000250), Nucleus speckle (ECO:0000250), Cytoplasm (ECO:0000250). GO-CC: nuclear speck (ISS:UniProtKB), nucleus (ISS:UniProtKB). Nuclear speckles are a well-defined nuclear subcompartment for splicing factors. HPA Approved reliability. Strong evidence for nuclear speckle localization.</td></tr>
+<tr><td>2. Protein Size</td><td>10</td><td>10</td><td>334 aa / 38.7 kDa. Full marks.</td></tr>
+<tr><td>3. Research Novelty</td><td>10</td><td>10</td><td>PubMed strict: 22. Novelty rule: 1-50=10.</td></tr>
+<tr><td>4. 3D Structure</td><td>30</td><td>8</td><td>AlphaFold mean pLDDT: 58.4 (9.9% &gt;90, 21.3% 70-90, 20.4% 50-70, 48.5% &lt;50). PDB: None. Low structural confidence. Nearly half of residues &lt;50 pLDDT.</td></tr>
+<tr><td>5. Regulatory Domains</td><td>50</td><td>35</td><td>IPR034604. No Pfam. FUNCTION: Role in alternative splicing and transcription regulation (PMID:29522154). Involved in both constitutive and alternative pre-mRNA splicing. May have role in recognition of 3&#x27; splice site during second step of splicing. Splicing regulation is a nuclear RNA-processing function with indirect transcriptional regulatory impact. Also involved in transcription regulation directly.</td></tr>
+<tr><td>6. PPI Network</td><td>50</td><td>30</td><td>STRING: 15 partners. FAU (0.988), RPS15 (0.985), RPS18 (0.983), RPS9 (0.983). All top STRING partners are ribosomal proteins -- RSRC1 associates with ribosome. IntAct: 15 interactors. EEF1A1, LSM2, UTP14A, PRPF8 (spliceosome!), SNW1 (spliceosome), SRPK2 (SR protein kinase), SRPK1, NCBP3 (cap-binding), AUTS2, ESR1 (estrogen receptor), SRRM4. UniProt: JMJD6 (histone arginine demethylase), LAMP2, PRPF40A, RAN, SRPK2, SRRM4, YWHAG. Splicing factor network + chromatin connections.</td></tr>
+<tr><td><strong>TOTAL</strong></td><td><strong>180</strong></td><td><strong>118</strong></td><td></td></tr>
+</tbody></table></div>
+<hr>
+<h3>Nuclear Evidence Section</h3>
+<h4>HPA (Human Protein Atlas)</h4>
+<ul><li><strong>Status:</strong> hpa_localization_available</li><li><strong>Reliability (IF):</strong> Approved</li><li><strong>Main Location:</strong> Nuclear speckles</li><li><strong>Additional:</strong> None</li><li><strong>IF Image Status:</strong> no_image_detected (red_green images available via image_urls)</li><li><strong>Key Finding:</strong> Nuclear speckles -- canonical subnuclear compartment for pre-mRNA splicing factors.</li></ul>
+<h4>UniProt Subcellular Location</h4>
+<ul><li><strong>Nucleus</strong> -- ECO:0000250 (by similarity)</li><li><strong>Nucleus speckle</strong> -- ECO:0000250 (by similarity)</li><li><strong>Cytoplasm</strong> -- ECO:0000250 (by similarity)</li></ul>
+<h4>GO Cellular Component (GO-CC)</h4>
+<ul><li><strong>GO:0016607 (nuclear speck)</strong> -- ISS:UniProtKB</li><li><strong>GO:0005634 (nucleus)</strong> -- ISS:UniProtKB</li><li><strong>GO:0005737 (cytoplasm)</strong> -- ISS:UniProtKB</li></ul>
+<p><strong>Summary:</strong> RSRC1 localizes to nuclear speckles (HPA Approved), which are subnuclear domains enriched in pre-mRNA splicing factors. This is a strong nuclear localization relevant to RNA processing/splicing. Nuclear score: 25/30 -- strong nuclear speckle evidence.</p>
+<hr>
+<h3>PubMed Evidence</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Query Type</th><th>Count</th></tr></thead><tbody>
+<tr><td>Strict (Title/Abstract)</td><td>22</td></tr>
+<tr><td>Broad (All Fields)</td><td>28</td></tr>
+</tbody></table></div>
+<p><strong>Novelty score: 10/10.</strong></p>
+<h4>Key Papers</h4>
+<p>1. <strong>PMID:29522154</strong> -- Perez Y et al. (2018). &quot;RSRC1 mutation affects intellect and behaviour through aberrant splicing and transcription, downregulating IGFBP3.&quot; *Brain*. 2. <strong>PMID:37095490</strong> -- Zhang S et al. (2023). &quot;A novel protein encoded by circRsrc1 regulates mitochondrial ribosome assembly and translation during spermatogenesis.&quot; *BMC Biol*. 3. <strong>PMID:29653227</strong> -- Tang J et al. (2018). &quot;RSRC1 and CPZ gene polymorphisms with neuroblastoma susceptibility in Chinese children.&quot; *Gene*. 4. <strong>PMID:25937118</strong> -- Chen L et al. (2015). &quot;RSRC1 SUMOylation enhances SUMOylation and inhibits transcriptional activity of estrogen receptor beta.&quot; *FEBS Lett*. 5. <strong>PMID:40078563</strong> -- Zhang W et al. (2025). &quot;Improving neuroblastoma risk prediction through a polygenic risk score derived from genome-wide association study-identified loci.&quot; *Chin J Cancer Res*.</p>
+<p><strong>Assessment:</strong> RSRC1 has roles in splicing, transcription regulation, and SUMOylation. SUMOylation connection to estrogen receptor beta transcription is notable.</p>
+<hr>
+<h3>AlphaFold / PDB / PAE</h3>
+<h4>AlphaFold Predicted Structure</h4>
+<ul><li><strong>Entry:</strong> AF-Q96IZ7-F1, version 6</li><li><strong>mean pLDDT: 58.4</strong> (&gt;90: 9.9%, 70-90: 21.3%, 50-70: 20.4%, &lt;50: 48.5%)</li><li><strong>Assessment:</strong> LOW confidence. Nearly half of residues below pLDDT 50. Likely an intrinsically disordered protein or requires binding partners for folding.</li></ul>
+<h4>Experimental PDB Structures</h4>
+<ul><li><strong>None.</strong></li><li><strong>Assessment:</strong> No experimental structures.</li></ul>
+<h4>PAE</h4>
+<ul><li>PAE image URL available.</li><li>PAE assessment pending image retrieval.</li></ul>
+<hr>
+<h3>PPI Network</h3>
+<h4>STRING (15 partners)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>Experimental</th><th>Function</th></tr></thead><tbody>
+<tr><td>FAU</td><td>0.988</td><td>0.967</td><td>Ribosomal protein</td></tr>
+<tr><td>RPS15</td><td>0.985</td><td>0.841</td><td>Ribosomal protein</td></tr>
+<tr><td>RPS18</td><td>0.983</td><td>0.839</td><td>Ribosomal protein</td></tr>
+<tr><td>RPS9</td><td>0.983</td><td>0.839</td><td>Ribosomal protein</td></tr>
+<tr><td>RPS3</td><td>0.982</td><td>0.834</td><td>Ribosomal protein</td></tr>
+</tbody></table></div>
+<p>All top STRING partners are ribosomal proteins. Strong ribosome association.</p>
+<h4>IntAct (15 interactors)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Method</th><th>PMID</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>PRPF8</td><td>TAP</td><td>20360068</td><td>Spliceosome core</td></tr>
+<tr><td>SNW1</td><td>TAP</td><td>20360068</td><td>Spliceosome</td></tr>
+<tr><td>SRPK2</td><td>Kinase assay</td><td>23602568</td><td>SR protein kinase</td></tr>
+<tr><td>SRPK1</td><td>Kinase assay</td><td>23602568</td><td>SR protein kinase</td></tr>
+<tr><td>NCBP3</td><td>Pull-down</td><td>26382858</td><td>Cap-binding complex</td></tr>
+<tr><td>ESR1</td><td>TAP</td><td>31527615</td><td>Estrogen receptor</td></tr>
+<tr><td>SRRM4</td><td>Validated 2H</td><td>32296183</td><td>Splicing regulator</td></tr>
+<tr><td>AUTS2</td><td>Cross-link</td><td>30021884</td><td>Neurodevelopmental</td></tr>
+</tbody></table></div>
+<h4>PPI Network Assessment</h4>
+<ul><li>Strong splicing factor network (PRPF8, SNW1, SRPK1/2, SRRM4).</li><li>Ribosomal protein association (possible translation coupling).</li><li>ESR1 (estrogen receptor) interaction links to transcriptional regulation.</li><li>JMJD6 (UniProt, 4 experiments) is a histone arginine demethylase -- chromatin connection.</li></ul>
+<hr>
+<h3>FALSE REJECTION RECHECK</h3>
+<h4>Original Rejection Reason (inferred)</h4>
+<p>RSRC1 was likely rejected due to low structural confidence and potentially incomplete reporting.</p>
+<h4>Recheck Analysis</h4>
+<p>1. <strong>Nuclear evidence:</strong> STRONG. HPA Approved: Nuclear speckles. This is a well-defined nuclear subcompartment for splicing factors. 2. <strong>Functional context:</strong> Splicing regulation AND transcription regulation. Involved in alternative splicing. SUMOylation modulates ESR1 transcriptional activity. 3. <strong>PubMed:</strong> 22 strict. LOW. 4. <strong>Structure:</strong> Low AF confidence (mean pLDDT 58.4). Likely IDR. 5. <strong>PPI:</strong> Strong splicing factor network with chromatin connections (JMJD6 histone demethylase, ESR1, AUTS2).</p>
+<h4>Verdict</h4>
+<p><strong>The original rejection was INCORRECT.</strong> RSRC1 is a nuclear speckle protein with roles in alternative splicing and transcription regulation. It interacts with core spliceosome components (PRPF8, SNW1), SR protein kinases, and chromatin-associated proteins (JMJD6, ESR1). While structural confidence is low, the nuclear localization and regulatory function are well-supported. Should be RETAINED.</p>
+<hr>
+<h3>TE-Regulator Relevance</h3>
+<p>MODERATE. RSRC1 functions in alternative splicing and transcription regulation. Alternative splicing of TE-derived transcripts could influence TE silencing outcomes. The ESR1 (estrogen receptor) interaction and JMJD6 (histone arginine demethylase) connection suggest potential chromatin-level involvement. SUMOylation of RSRC1 affects its regulatory activity. However, no direct TE silencing function is demonstrated. Worth retaining for its splicing/transcription regulatory role in the nuclear compartment.</p>
+<hr>
+<h3>Final Decision: RETAINED</h3>
+<p>Score: 118/180. RSRC1 is a nuclear speckle splicing factor with transcription regulatory function, strong nuclear localization (HPA Approved), good PPI network (spliceosome + chromatin connections), and high novelty (PubMed=22). Retained despite low structural confidence.</p>
+<hr>
+<h3>Manual Review Note</h3>
+<p>MODERATE CANDIDATE. RSRC1 (SRRP53) is an SR-related protein that localizes to nuclear speckles and participates in pre-mRNA splicing and transcription regulation. Key strengths: HPA Approved nuclear speckle localization, strong spliceosome PPI network (PRPF8, SNW1, SRPK1/2), chromatin connections (JMJD6, ESR1), SUMOylation-dependent regulatory activity. Key weakness: very low structural confidence (mean pLDDT 58.4) suggesting substantial disorder. Retained for splicing/transcription regulatory potential.</p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

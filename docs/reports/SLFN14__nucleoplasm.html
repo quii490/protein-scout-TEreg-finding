@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SLFN14 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>SLFN14</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 22</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/SLFN14/SLFN14-evaluation.md</p></section><article class="report-body"><h2>SLFN14 -- Critical False-Rejection Reevaluation Report</h2>
+<p><strong>Gene:</strong> SLFN14 (Protein SLFN14) <strong>UniProt Accession:</strong> P0C7P3 <strong>Protein Name:</strong> Protein SLFN14 <strong>Length:</strong> 912 aa | <strong>Mass:</strong> 103.9 kDa <strong>Aliases:</strong> None <strong>Report Date:</strong> 2026-06-04 <strong>Review Stage:</strong> W3 Batch 1 -- CRITICAL REOPEN</p>
+<hr>
+<h3>/180 Scoring Table</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Max</th><th>Score</th><th>Rationale</th></tr></thead><tbody>
+<tr><td>1. Nuclear Localization</td><td>30</td><td>22</td><td>UniProt: Nucleus (ECO:0000269 x2 experimental). GO-CC: nucleus (IDA:UniProtKB), cytoplasm (IDA:UniProtKB). HPA: no localization data (reliability=null, empty lists). Nuclear evidence is from UniProt experimental only. Dual nuclear/cytoplasmic localization.</td></tr>
+<tr><td>2. Protein Size</td><td>10</td><td>6</td><td>912 aa / 103.9 kDa. Very large protein.</td></tr>
+<tr><td>3. Research Novelty</td><td>10</td><td>10</td><td>PubMed strict: 21. Novelty rule: 1-50=10.</td></tr>
+<tr><td>4. 3D Structure</td><td>30</td><td>24</td><td>AlphaFold mean pLDDT: 83.5 (46.2% &gt;90, 39.8% 70-90, 7.7% 50-70, 6.4% &lt;50). PDB: 9JN9 (EM, 3.36A), 9JR9 (2.84A), 9NYY (2.73A), 9UIE (2.88A) -- 4 cryo-EM structures, all full-length. Good structural coverage.</td></tr>
+<tr><td>5. Regulatory Domains</td><td>50</td><td>30</td><td>IPR027417, IPR031450, IPR029684, IPR007421, IPR038461, IPR048729. PF17057, PF04326, PF21026. FUNCTION: Ribosome-associated endoribonuclease. Cleaves mRNAs and rRNAs (PubMed:25996083). RNA surveillance -- recognizes stalled ribosomes and triggers endonucleolytic cleavage of aberrant mRNAs. RNA degradation activity. Schlafen family members in other species have known roles in viral restriction and translational control.</td></tr>
+<tr><td>6. PPI Network</td><td>50</td><td>5</td><td>STRING: 1 partner. FYB1 (0.405 -- very low confidence, textmining only). IntAct: 1 interactor. S100A10 (cross-linking, PMID:30021884). Very limited interaction data.</td></tr>
+<tr><td><strong>TOTAL</strong></td><td><strong>180</strong></td><td><strong>97</strong></td><td></td></tr>
+</tbody></table></div>
+<hr>
+<h3>Nuclear Evidence Section</h3>
+<h4>HPA (Human Protein Atlas)</h4>
+<ul><li><strong>Status:</strong> hpa_localization_available</li><li><strong>Reliability (IF):</strong> null</li><li><strong>Main Location:</strong> No data (empty lists)</li><li><strong>Additional:</strong> No data (empty lists)</li><li><strong>IF Image Status:</strong> no_image_detected</li><li><strong>Key Finding:</strong> HPA has gene page but no subcellular localization or IF data.</li></ul>
+<h4>UniProt Subcellular Location</h4>
+<ul><li><strong>Nucleus</strong> -- ECO:0000269 x2 (experimental)</li></ul>
+<h4>GO Cellular Component (GO-CC)</h4>
+<ul><li><strong>GO:0005634 (nucleus)</strong> -- IDA:UniProtKB (experimental)</li><li><strong>GO:0005737 (cytoplasm)</strong> -- IDA:UniProtKB (experimental)</li></ul>
+<p><strong>Summary:</strong> SLFN14 localizes to both nucleus and cytoplasm (UniProt experimental). HPA provides no data. Nuclear score: 22/30 -- UniProt experimental evidence but limited HPA support and dual localization.</p>
+<hr>
+<h3>PubMed Evidence</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Query Type</th><th>Count</th></tr></thead><tbody>
+<tr><td>Strict (Title/Abstract)</td><td>21</td></tr>
+<tr><td>Broad (All Fields)</td><td>32</td></tr>
+</tbody></table></div>
+<p><strong>Novelty score: 10/10.</strong></p>
+<h4>Key Papers</h4>
+<p>1. <strong>PMID:40794453</strong> -- Stapley RJ et al. (2025). &quot;Platelet-specific SLFN14 deletion causes macrothrombocytopenia and platelet dysfunction through dysregulated megakaryocyte and platelet gene expression.&quot; *J Clin Invest*. 2. <strong>PMID:36790527</strong> -- Ver Donck F et al. (2023). &quot;Ribosome dysfunction underlies SLFN14-related thrombocytopenia.&quot; *Blood*. 3. <strong>PMID:40592880</strong> -- Van Riper J et al. (2025). &quot;CryoEM structure of the SLFN14 endoribonuclease reveals insight into RNA binding and cleavage.&quot; *Nat Commun*. 4. <strong>PMID:31378119</strong> -- Stapley RJ et al. (2020). &quot;SLFN14 gene mutations associated with bleeding.&quot; *Platelets*. 5. <strong>PMID:40510593</strong> -- Xie H et al. (2025). &quot;Novel mutation SLFN14 T853fs associated with inherited macrothrombocytopenia.&quot; *Mol Ther Nucleic Acids*.</p>
+<p><strong>Assessment:</strong> Literature is focused on SLFN14&#x27;s role in platelet biology and thrombocytopenia. Schlafen family function in RNA degradation is well-established but SLFN14-specific literature is limited.</p>
+<hr>
+<h3>AlphaFold / PDB / PAE</h3>
+<h4>AlphaFold Predicted Structure</h4>
+<ul><li><strong>Entry:</strong> AF-P0C7P3-F1, version 6</li><li><strong>mean pLDDT: 83.5</strong> (&gt;90: 46.2%, 70-90: 39.8%, 50-70: 7.7%, &lt;50: 6.4%)</li><li><strong>Assessment:</strong> Good overall confidence. Well-folded.</li></ul>
+<h4>Experimental PDB Structures</h4>
+<ul><li><strong>4 structures:</strong> 9JN9 (EM, 3.36A), 9JR9 (EM, 2.84A), 9NYY (EM, 2.73A), 9UIE (EM, 2.88A)</li><li>All full-length cryo-EM structures at good resolution.</li><li><strong>Assessment:</strong> Excellent structural coverage with multiple high-resolution structures.</li></ul>
+<h4>PAE</h4>
+<ul><li>PAE image URL available.</li><li>PAE assessment pending image retrieval.</li></ul>
+<hr>
+<h3>PPI Network</h3>
+<h4>STRING</h4>
+<ul><li><strong>1 partner only:</strong> FYB1 (score 0.405, textmining only)</li><li><strong>Assessment:</strong> Essentially no interaction data. Very isolated.</li></ul>
+<h4>IntAct</h4>
+<ul><li><strong>1 interactor:</strong> S100A10 (cross-linking, PMID:30021884)</li><li><strong>Assessment:</strong> Single cross-linking hit. Not validated.</li></ul>
+<h4>PPI Network Assessment</h4>
+<ul><li>EXTREMELY SPARSE. Only 1-2 low-confidence interactions. SLFN14 appears to function independently or in complexes not captured by current interaction databases.</li></ul>
+<hr>
+<h3>FALSE REJECTION RECHECK</h3>
+<h4>Original Rejection Reason (inferred)</h4>
+<p>SLFN14 was likely rejected due to extremely sparse PPI network and ribosome-associated rather than chromatin-associated function.</p>
+<h4>Recheck Analysis</h4>
+<p>1. <strong>Nuclear evidence:</strong> PRESENT. UniProt experimental nucleus (ECO:0000269 x2). HPA has no data. 2. <strong>Functional context:</strong> Ribosome-associated endoribonuclease. RNA surveillance/degradation. Schlafen family -- some family members (e.g., SLFN11) have roles in viral restriction and translational control, but these are cytoplasmic functions. 3. <strong>PubMed:</strong> 21 strict. LOW. 4. <strong>Structure:</strong> 4 cryo-EM structures at good resolution. Excellent. 5. <strong>PPI:</strong> Essentially none. Extremely isolated.</p>
+<h4>Verdict</h4>
+<p><strong>The original rejection was CORRECT.</strong> SLFN14 is an endoribonuclease involved in ribosome-associated RNA surveillance. While it has nuclear localization (UniProt experimental), its function is cytoplasmic/ribosomal RNA degradation, not chromatin or transcriptional regulation. The Schlafen family has diverse functions (some nuclear, mostly cytoplasmic), and SLFN14 specifically shows ribosome association and endoribonuclease activity. The complete absence of PPI data further weakens the case. Should remain REJECTED.</p>
+<hr>
+<h3>TE-Regulator Relevance</h3>
+<p>LOW. SLFN14 is a ribosome-associated endoribonuclease. Its RNA degradation activity could theoretically affect TE transcript stability, but this is an indirect and non-specific mechanism. No evidence for chromatin, transcriptional, or epigenetic regulatory function. Other Schlafen family members (SLFN11) have DNA damage response functions, but SLFN14 appears dedicated to ribosomal RNA surveillance.</p>
+<hr>
+<h3>Final Decision: REJECTED</h3>
+<p>Score: 97/180. SLFN14 has good structural data (4 cryo-EM structures) and nuclear localization evidence, but its function is cytoplasmic/ribosomal RNA degradation, not chromatin regulation. The complete absence of PPI data and lack of TE-relevant function warrant rejection.</p>
+<hr>
+<h3>Manual Review Note</h3>
+<p>CONFIRMED REJECTION. SLFN14 is a Schlafen family endoribonuclease with well-characterized ribosome-associated RNA cleavage activity. While the Schlafen family includes proteins with diverse functions (viral restriction, DNA damage response, translational control), SLFN14 appears specialized for ribosomal RNA surveillance. The 4 cryo-EM structures provide excellent structural characterization. However, the functional profile (ribosome-associated RNAse) and complete absence of interaction partners make it unsuitable for TE-regulatory investigation. Note: could be reconsidered if future data reveals a nuclear/chromatin function.</p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

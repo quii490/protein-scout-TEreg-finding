@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CAMK1 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>CAMK1</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleus-cytoplasm</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 1</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleus-cytoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleus-cytoplasm/CAMK1/CAMK1-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;CAMK1&quot; date: 2026-05-31 tags: [protein-scout, nucleus-cytoplasm, evaluation] status: scored ---</p>
+<h3>CAMK1 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名</td><td>CAMK1</td></tr>
+<tr><td>蛋白全名</td><td>Calcium/calmodulin-dependent protein kinase type 1</td></tr>
+<tr><td>蛋白大小</td><td>370 aa / 41.3 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q14012</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>新权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>5/10</td><td>×4</td><td>20.0</td><td>UniProt Nucleus + Cytoplasm (ECO:0000250); GO nucleus IEA</td></tr>
+<tr><td>蛋白大小</td><td>6/10</td><td>×1</td><td>6.0</td><td>370 aa, 41.3 kDa，中等大小</td></tr>
+<tr><td>研究新颖性</td><td>6/10</td><td>×5</td><td>30.0</td><td>Strict=53</td></tr>
+<tr><td>三维结构</td><td>7/10</td><td>×3</td><td>21.0</td><td>4 PDB X-ray 结构 (kinase domain, 2.20-2.70 A)；pLDDT 78.4</td></tr>
+<tr><td>调控结构域</td><td>5/10</td><td>×2</td><td>10.0</td><td>蛋白激酶结构域 (IPR000719, PF00069)，CaM 调控</td></tr>
+<tr><td>PPI 网络</td><td>7/10</td><td>×3</td><td>21.0</td><td>STRING 强 CaM 网络; IntAct 多重互作; UniProt ATXN1/CALM3 等</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>108/180</strong>**</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+0.0</td><td>核定位均为预测证据（ECO:0000250, IEA）</td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>59.0/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<p>PubMed strict: 53</p>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Cytoplasm (ECO:0000250); Nucleus (ECO:0000250)</td><td>序列类比预测</td></tr>
+<tr><td>GO-CC</td><td>cytoplasm (IBA); cytosol (TAS); nucleus (IEA); postsynaptic density (IBA)</td><td>nucleus 为电子注释预测</td></tr>
+<tr><td>HPA (IF)</td><td>有 IF 缩略图，原图未取得</td><td>间接支持</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 状态</strong>: IF thumbnail only — HPA 暂无 IF 原图，仅获取到 60x60 缩略图，不能作为可靠定位证据。核定位基于 UniProt + GO-CC。 <figure><div class="missing-image">Missing local image: <code>../assets/report-images/CAMK1/CAMK1_IF_51409.jpg</code></div></figure></p>
+<p><strong>结论</strong>: CAMK1 核定位证据为预测级别，缺少实验赋值。但作为 CaM kinase，其底物包含转录因子（CREB1, ATF1）和 HDAC5（核质穿梭调控），功能上支持核-胞质定位。</p>
+<h5>3.2 结构与结构域</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold</td><td>AF-Q14012-F1</td></tr>
+<tr><td>平均 pLDDT</td><td>78.4</td></tr>
+<tr><td>pLDDT &gt;90</td><td>48.1%</td></tr>
+<tr><td>pLDDT 70-90</td><td>24.1%</td></tr>
+<tr><td>pLDDT 50-70</td><td>8.1%</td></tr>
+<tr><td>pLDDT &lt;50</td><td>19.7%</td></tr>
+<tr><td>PDB</td><td>4FG7 (2.70 A, A=1-293), 4FG8 (2.20 A, A/B=1-315), 4FG9 (2.40 A, A/B=1-320), 4FGB (2.60 A, A=1-320)，均为 X-ray</td></tr>
+<tr><td>InterPro</td><td>IPR011009 (Kinase-like), IPR000719 (Protein kinase), IPR017441 (ATP-binding), IPR008271 (Ser/Thr kinase active site)</td></tr>
+<tr><td>Pfam</td><td>PF00069 (Protein kinase domain)</td></tr>
+</tbody></table></div>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CAMK1/CAMK1-PAE.png</code></div></figure> <figure><div class="missing-image">Missing local image: <code>../assets/report-images/CAMK1/CAMK1-PAE.png</code></div></figure></p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict (Title/Abstract)</td><td>53</td></tr>
+<tr><td>PubMed broad</td><td>187</td></tr>
+<tr><td>别名</td><td>无</td></tr>
+</tbody></table></div>
+<p>关键文献：</p>
+<ul><li>PMID:24825433 — &quot;CAMK1 phosphoinositide signal-mediated protein sorting and transport network in human HCC&quot; (Cell Biochem Biophys, 2014)</li><li>PMID:33342045 — &quot;Expression of CAMK1 and its association with clinicopathologic characteristics in pancreatic cancer&quot; (J Cell Mol Med, 2021)</li><li>PMID:33238205 — &quot;Exosomal miR-211 contributes to pulmonary hypertension via attenuating CaMK1/PPAR-γ axis&quot; (Vascul Pharmacol, 2021)</li><li>PMID:38216068 — &quot;IGF2BP3-stabilized CAMK1 regulates mitochondrial dynamics of renal tubule to alleviate diabetic nephropathy&quot; (Biochim Biophys Acta, 2024)</li></ul>
+<p>CAMK1 是经典 CaMKK-CaMK1 级联的组成部分，调控转录因子、细胞周期、肌细胞分化和神经突生长。研究量中等（strict=53），新颖性一般。</p>
+<h5>3.4 PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>CALM3</td><td>STRING</td><td>0.998 (exp 0.952)</td><td>Calmodulin，核心调控因子，最强实验支持</td></tr>
+<tr><td>CALM1</td><td>STRING</td><td>0.982 (exp 0.936)</td><td>Calmodulin 1</td></tr>
+<tr><td>CALM2</td><td>STRING</td><td>0.969 (exp 0.933)</td><td>Calmodulin 2</td></tr>
+<tr><td>CALML3</td><td>STRING</td><td>0.958 (exp 0.275)</td><td>Calmodulin-like 3</td></tr>
+<tr><td>CALML5</td><td>STRING</td><td>0.956 (exp 0.246)</td><td>Calmodulin-like 5</td></tr>
+<tr><td>CALM1</td><td>IntAct</td><td>affinity chromatography (PMID:16512683)</td><td>Calmodulin 1</td></tr>
+<tr><td>ATXN1</td><td>IntAct</td><td>validated two hybrid (PMID:32296183)</td><td>Ataxin-1，神经退行性疾病</td></tr>
+<tr><td>IL16</td><td>IntAct</td><td>anti tag coIP (PMID:28514442)</td><td>Interleukin 16，免疫调控</td></tr>
+<tr><td>ATXN1</td><td>UniProt</td><td>12 experiments</td><td>Ataxin-1，最强 UniProt 互作</td></tr>
+<tr><td>HTT</td><td>UniProt</td><td>3 experiments</td><td>Huntingtin，神经退行性疾病</td></tr>
+<tr><td>CALM3</td><td>UniProt</td><td>2 experiments</td><td>Calmodulin 3</td></tr>
+<tr><td>CAMK1D</td><td>UniProt</td><td>3 experiments</td><td>CaM kinase I delta，同工型</td></tr>
+<tr><td>IL16</td><td>UniProt</td><td>3 experiments</td><td>Interleukin 16</td></tr>
+</tbody></table></div>
+<p>STRING 网络以 CaM/calmodulin 家族为核心（CALM1-3, CALML3-6），其中 CALM3 实验 score 达 0.952。UniProt 记录 ATXN1 (12 experiments) 为最强互作。PPI 网络覆盖钙信号、神经退行性疾病（ATXN1, HTT）和免疫调控（IL16），但不涉及经典染色质复合体。</p>
+<h4>4. 总体评价</h4>
+<p>CAMK1 是经典 CaM 激酶，功能广泛覆盖转录调控、细胞分化和神经发育。核定位仅有预测证据，但底物网络（CREB1, ATF1, HDAC5）强烈指向核-胞质功能。研究量中等，作为已知激酶新颖性有限。建议作为中等优先级核-胞质候选，若需提升置信度需补内源 IF 核定位。</p>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q14012</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q14012</li><li>PDB: 4FG7, 4FG8, 4FG9, 4FGB</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CAMK1</li><li>Protein Atlas: https://www.proteinatlas.org/search/CAMK1（IF 缩略图）</li></ul>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CAMK1/CAMK1_IF_thumb_if_selected_60x60.jpg</code></div></figure></p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CAMK1/CAMK1-PAE.png</code></div></figure></p>
+<p>HPA IF 图像已本地嵌入。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CAMK1/CAMK1-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

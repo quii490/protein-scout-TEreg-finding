@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SNTG1 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>SNTG1</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 10</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/SNTG1/SNTG1-evaluation.md</p></section><article class="report-body"><h2>SNTG1 -- Critical False-Rejection Reevaluation Report</h2>
+<p><strong>Gene:</strong> SNTG1 (Gamma-1-syntrophin) <strong>UniProt Accession:</strong> Q9NSN8 <strong>Protein Name:</strong> Gamma-1-syntrophin <strong>Length:</strong> 517 aa | <strong>Mass:</strong> 58.0 kDa <strong>Aliases:</strong> None <strong>Report Date:</strong> 2026-06-04 <strong>Review Stage:</strong> W3 Batch 1 -- CRITICAL REOPEN</p>
+<hr>
+<h3>/180 Scoring Table</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Max</th><th>Score</th><th>Rationale</th></tr></thead><tbody>
+<tr><td>1. Nuclear Localization</td><td>30</td><td>10</td><td>UniProt: Cytoplasm cytoskeleton, Nucleus (no evidence code). GO-CC: nucleus (IEA:UniProtKB-SubCell -- electronic), cytoplasm (IDA:UniProtKB), cytoskeleton (IDA:LIFEdb), dystrophin-associated glycoprotein complex (IBA:GO_Central), syntrophin complex (TAS:ProtInc). Nuclear annotation has NO evidence code in UniProt and is electronic in GO-CC. HPA: no localization data (reliability=null, empty). Very weak nuclear evidence.</td></tr>
+<tr><td>2. Protein Size</td><td>10</td><td>8</td><td>517 aa / 58.0 kDa. Moderate size.</td></tr>
+<tr><td>3. Research Novelty</td><td>10</td><td>10</td><td>PubMed strict: 16. Novelty rule: 1-50=10.</td></tr>
+<tr><td>4. 3D Structure</td><td>30</td><td>18</td><td>AlphaFold mean pLDDT: 82.3 (62.3% &gt;90, 18.0% 70-90, 5.4% 50-70, 14.3% &lt;50). PDB: 7PC7 (X-ray, 2.10A, residues 54-143), 7PC8 (X-ray, 2.50A, 54-143), 7QQN (X-ray, 2.45A, 54-143). Good AF. 3 X-ray structures of the PDZ domain.</td></tr>
+<tr><td>5. Regulatory Domains</td><td>50</td><td>5</td><td>IPR001478 (PDZ), IPR036034, IPR001849 (PH), IPR015482, IPR055108. PF00595 (PDZ), PF23012. FUNCTION: Adapter protein linking receptors to actin cytoskeleton and dystrophin glycoprotein complex. May regulate DGK-zeta subcellular location. Scaffolding/adaptor -- no catalytic or chromatin regulatory domains.</td></tr>
+<tr><td>6. PPI Network</td><td>50</td><td>25</td><td>STRING: 15 partners. DMD (0.992), DTNB (0.951), SNTA1 (0.938), DTNA (0.877), SNTB1 (0.874), SNTB2 (0.844), DAG1 (0.839), UTRN (0.798). IntAct: 15 interactors. PLEKHA2, VTN, CES2, RNASEH1, DTNB, MLYCD, DMD, ACADSB, UTRN, CTBP2, SNTA1, SNTB2, SNTB1, LRRC4B, CTNNAL1.</td></tr>
+<tr><td><strong>TOTAL</strong></td><td><strong>180</strong></td><td><strong>76</strong></td><td></td></tr>
+</tbody></table></div>
+<hr>
+<h3>Nuclear Evidence Section</h3>
+<h4>HPA (Human Protein Atlas)</h4>
+<ul><li><strong>Status:</strong> hpa_localization_available</li><li><strong>Reliability (IF):</strong> null</li><li><strong>Main Location:</strong> No data (empty lists)</li><li><strong>Additional:</strong> No data (empty lists)</li><li><strong>IF Image Status:</strong> no_image_detected</li><li><strong>Key Finding:</strong> HPA has gene page but provides NO subcellular localization data whatsoever.</li></ul>
+<h4>UniProt Subcellular Location</h4>
+<ul><li><strong>Cytoplasm, cytoskeleton</strong> -- no evidence code</li><li><strong>Nucleus</strong> -- no evidence code</li></ul>
+<h4>GO Cellular Component (GO-CC)</h4>
+<ul><li><strong>GO:0005634 (nucleus)</strong> -- IEA:UniProtKB-SubCell (electronic annotation)</li><li><strong>GO:0005737 (cytoplasm)</strong> -- IDA:UniProtKB</li><li><strong>GO:0005856 (cytoskeleton)</strong> -- IDA:LIFEdb</li><li><strong>GO:0016010 (dystrophin-associated glycoprotein complex)</strong> -- IBA:GO_Central</li><li><strong>GO:0032587 (ruffle membrane)</strong> -- IDA:UniProtKB</li><li><strong>GO:0016013 (syntrophin complex)</strong> -- TAS:ProtInc</li></ul>
+<p><strong>Summary:</strong> SNTG1&#x27;s nuclear annotation is extremely weak. UniProt has no evidence code for nucleus. GO-CC nucleus is electronic (IEA) only. HPA has no localization data. The experimentally validated locations are cytoplasmic/cytoskeletal/membrane. Nuclear score: 10/30 -- essentially no reliable nuclear evidence.</p>
+<hr>
+<h3>PubMed Evidence</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Query Type</th><th>Count</th></tr></thead><tbody>
+<tr><td>Strict (Title/Abstract)</td><td>16</td></tr>
+<tr><td>Broad (All Fields)</td><td>24</td></tr>
+</tbody></table></div>
+<p><strong>Novelty score: 10/10.</strong></p>
+<h4>Key Papers</h4>
+<p>1. <strong>PMID:39738056</strong> -- Yang MY et al. (2024). &quot;SEAD reference panel with 22,134 haplotypes boosts rare variant imputation and genome-wide association analysis in Asian populations.&quot; *Nat Commun*. 2. <strong>PMID:15088139</strong> -- Bashiardes S et al. (2004). &quot;SNTG1, the gene encoding gamma1-syntrophin: a candidate gene for idiopathic scoliosis.&quot; *Hum Genet*. 3. <strong>PMID:37982029</strong> -- Broadwin M et al. (2023). &quot;Extracellular vesicle treatment partially reverts epigenetic alterations in chronically ischemic porcine myocardium.&quot; *Vessel Plus*. 4. <strong>PMID:34048959</strong> -- Tassano E et al. (2021). &quot;Scoliosis with cognitive impairment in a girl with 8q11.21q11.23 microdeletion and SNTG1 disruption.&quot; *Bone*. 5. <strong>PMID:21151896</strong> -- Job B et al. (2010). &quot;Genomic aberrations in lung adenocarcinoma in never smokers.&quot; *PLoS One*.</p>
+<p><strong>Assessment:</strong> SNTG1 is studied as a candidate gene for idiopathic scoliosis. Most mentions are from GWAS/genomic studies. No functional characterization.</p>
+<hr>
+<h3>AlphaFold / PDB / PAE</h3>
+<h4>AlphaFold Predicted Structure</h4>
+<ul><li><strong>Entry:</strong> AF-Q9NSN8-F1, version 6</li><li><strong>mean pLDDT: 82.3</strong> (&gt;90: 62.3%, 70-90: 18.0%, 50-70: 5.4%, &lt;50: 14.3%)</li><li><strong>Assessment:</strong> Good confidence overall.</li></ul>
+<h4>Experimental PDB Structures</h4>
+<ul><li><strong>3 structures:</strong> 7PC7 (X-ray, 2.10A, residues 54-143), 7PC8 (X-ray, 2.50A, 54-143), 7QQN (X-ray, 2.45A, 54-143) -- all PDZ domain only</li><li><strong>Assessment:</strong> PDZ domain well-characterized at high resolution. Rest of protein not structurally covered.</li></ul>
+<h4>PAE</h4>
+<ul><li>PAE image URL available.</li><li>PAE assessment pending image retrieval.</li></ul>
+<hr>
+<h3>PPI Network</h3>
+<h4>STRING (15 partners)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>Experimental</th><th>Function</th></tr></thead><tbody>
+<tr><td>DMD</td><td>0.992</td><td>0.648</td><td>Dystrophin</td></tr>
+<tr><td>DTNB</td><td>0.951</td><td>0.619</td><td>Dystrobrevin beta</td></tr>
+<tr><td>SNTA1</td><td>0.938</td><td>0.597</td><td>Syntrophin alpha-1</td></tr>
+<tr><td>DTNA</td><td>0.877</td><td>0.482</td><td>Dystrobrevin alpha</td></tr>
+<tr><td>SNTB1</td><td>0.874</td><td>0.494</td><td>Syntrophin beta-1</td></tr>
+<tr><td>SNTB2</td><td>0.844</td><td>0.448</td><td>Syntrophin beta-2</td></tr>
+<tr><td>DAG1</td><td>0.839</td><td>0</td><td>Dystroglycan</td></tr>
+<tr><td>UTRN</td><td>0.798</td><td>0.435</td><td>Utrophin</td></tr>
+</tbody></table></div>
+<h4>IntAct (15 interactors)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Method</th><th>PMID</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>DMD</td><td>Co-IP</td><td>33961781</td><td>Dystrophin</td></tr>
+<tr><td>UTRN</td><td>Co-IP</td><td>33961781</td><td>Utrophin</td></tr>
+<tr><td>SNTA1</td><td>Co-IP</td><td>33961781</td><td>Syntrophin alpha-1</td></tr>
+<tr><td>SNTB1</td><td>Co-IP</td><td>33961781</td><td>Syntrophin beta-1</td></tr>
+<tr><td>SNTB2</td><td>Co-IP</td><td>33961781</td><td>Syntrophin beta-2</td></tr>
+<tr><td>DTNB</td><td>Co-IP</td><td>33961781</td><td>Dystrobrevin</td></tr>
+<tr><td>CTBP2</td><td>Co-IP</td><td>33961781</td><td>Transcriptional corepressor</td></tr>
+<tr><td>CTNNAL1</td><td>Co-IP</td><td>33961781</td><td>Catenin alpha-like</td></tr>
+</tbody></table></div>
+<h4>PPI Network Assessment</h4>
+<ul><li>Core network is dystrophin-associated glycoprotein complex (DGC).</li><li>Syntrophin family interactions (SNTA1, SNTB1, SNTB2) confirm scaffolding role.</li><li>CTBP2 interaction is interesting -- CTBP2 is a transcriptional corepressor. However, this is from a single high-throughput Co-IP study and may not reflect a functional nuclear interaction.</li></ul>
+<hr>
+<h3>FALSE REJECTION RECHECK</h3>
+<h4>Original Rejection Reason (inferred)</h4>
+<p>SNTG1 was likely rejected due to absent nuclear evidence and non-regulatory scaffolding function.</p>
+<h4>Recheck Analysis</h4>
+<p>1. <strong>Nuclear evidence:</strong> ESSENTIALLY ABSENT. HPA has no localization data. UniProt nuclear annotation has no evidence code. GO-CC nucleus is electronic (IEA) only. All experimentally validated locations are cytoplasmic/cytoskeletal. 2. <strong>Functional context:</strong> Scaffolding adapter in the dystrophin-associated glycoprotein complex. Syntrophin family. No catalytic or regulatory function. 3. <strong>PubMed:</strong> 16 strict. LOW. 4. <strong>Structure:</strong> PDZ domain well-characterized. Good AF. 5. <strong>PPI:</strong> Dystrophin complex. CTBP2 association is from a single high-throughput study.</p>
+<h4>Verdict</h4>
+<p><strong>The original rejection was CORRECT.</strong> SNTG1 is a syntrophin family scaffolding protein that functions in the dystrophin-associated glycoprotein complex. Nuclear evidence is essentially non-existent (no evidence code in UniProt, electronic only in GO-CC, no HPA data). No regulatory domains or functions. Should remain REJECTED.</p>
+<hr>
+<h3>TE-Regulator Relevance</h3>
+<p>NEGLIGIBLE. SNTG1 is a PDZ/PH domain scaffolding protein in the syntrophin/dystrophin complex. Its biology is structural organization of membrane protein complexes. No evidence for nuclear function or TE-regulatory activity.</p>
+<hr>
+<h3>Final Decision: REJECTED</h3>
+<p>Score: 76/180. SNTG1 has essentially no nuclear evidence (UniProt nucleus lacks evidence code, GO-CC is electronic, HPA has no data), no regulatory domains, and a dedicated membrane/cytoskeletal scaffolding function. Confirmed rejection.</p>
+<hr>
+<h3>Manual Review Note</h3>
+<p>CONFIRMED REJECTION. SNTG1 (gamma-1-syntrophin) is the least characterized member of the syntrophin family. Like other syntrophins, its function is adapter/scaffolding in the dystrophin-associated glycoprotein complex. The nuclear annotation in UniProt has NO evidence code, and GO-CC classifies it as electronic (IEA). HPA provides no localization data. The CTBP2 interaction from a high-throughput study is the only hint of a nuclear connection, but this is insufficient to establish a nuclear function. Not suitable for TE investigation.</p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

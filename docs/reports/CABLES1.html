@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CABLES1 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>CABLES1</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleus-cytoplasm</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 20</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleus-cytoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleus-cytoplasm/CABLES1/CABLES1-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;CABLES1&quot; date: 2026-05-31 tags: [protein-scout, nucleus-cytoplasm, evaluation] status: scored ---</p>
+<h3>CABLES1 核-胞质蛋白</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>权重</th><th>加权</th><th>摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>5/10</td><td>×4</td><td>20.0</td><td>UniProt Nucleus + Cytoplasm ECO:0000250; GO nucleus IEA</td></tr>
+<tr><td>蛋白大小</td><td>6/10</td><td>×1</td><td>6.0</td><td>633 aa</td></tr>
+<tr><td>研究新颖性</td><td>8/10</td><td>×5</td><td>40.0</td><td>Strict=39</td></tr>
+<tr><td>三维结构</td><td>4/10</td><td>×3</td><td>12.0</td><td>AlphaFold pLDDT 55.9</td></tr>
+<tr><td>调控结构域</td><td>5/10</td><td>×2</td><td>10.0</td><td>Cyclin-dependent kinase binding</td></tr>
+<tr><td>PPI 网络</td><td>5/10</td><td>×3</td><td>15.0</td><td>STRING/IntAct: CDK5 core network</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>103/180</strong>**</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+0.0</td><td></td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>56.3/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<p>PubMed strict: 39</p>
+<p><strong>核定位证据</strong>: UniProt Nucleus + Cytoplasm ECO:0000250 (sequence-inferred). GO nucleus IEA:UniProtKB-SubCell. Cdk5 and Abl enzyme substrate 1. Low-confidence due to PubMed 39 and sequence-inferred nucleus.</p>
+<p><strong>HPA IF 状态</strong>: IF thumbnail only — HPA 暂无 IF 原图，仅获取到 60x60 缩略图，不能作为可靠定位证据。核定位基于 UniProt + GO-CC。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CABLES1/CABLES1-PAE.png</code></div></figure></p>
+<p>PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。</p>
+<h5>PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>CDK5</td><td>STRING</td><td>score=0.969, exp=0.843</td><td>Primary binding partner; also UniProt (N=8 experiments) + IntAct (TAP)</td></tr>
+<tr><td>TP53</td><td>STRING</td><td>score=0.864, exp=0.512</td><td>p53/p73-induced cell death; also IntAct (pull down)</td></tr>
+<tr><td>WEE1</td><td>STRING</td><td>score=0.936, exp=0</td><td>CDK2 regulation; database linkage</td></tr>
+<tr><td>CDK2</td><td>STRING</td><td>score=0.899, exp=0</td><td>Cyclin-dependent kinase; database linkage</td></tr>
+<tr><td>FIBP</td><td>STRING</td><td>score=0.836, exp=0.836</td><td>Co-expression with strong experimental support</td></tr>
+<tr><td>TP63</td><td>UniProt</td><td>N=7 experiments</td><td>p73 family member</td></tr>
+<tr><td>TP73</td><td>IntAct</td><td>pull down</td><td>p53 family tumor suppressor</td></tr>
+</tbody></table></div>
+<p><strong>IntAct 数据</strong>: CDK5 (TAP), TP53 (pull down), TP73 (pull down), ALB (coIP), CDK2 (two hybrid) 等多条记录。无 BioGrid 补充数据。</p>
+<p>Low-confidence due to PubMed 39 and sequence-inferred nucleus.</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CABLES1/CABLES1-PAE.png</code></div></figure></p>
+<h5>关键文献</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>PMID</th><th>标题</th></tr></thead><tbody>
+<tr><td>28119482</td><td>The Emerging Role of Cables1 in Cancer and Other Diseases.</td></tr>
+<tr><td>29180230</td><td>Glucocorticoids, genes and brain function.</td></tr>
+<tr><td>39307305</td><td>Identification of Cables1 as a critical host factor that promotes ALV-J replication via genome-wide</td></tr>
+<tr><td>26695862</td><td>The Cables1 Gene in Glucocorticoid Regulation of Pituitary Corticotrope Growth and Cushing Disease.</td></tr>
+<tr><td>31327733</td><td>CABLES1 Deficiency Impairs Quiescence and Stress Responses of Hematopoietic Stem Cells in Intrinsic</td></tr>
+</tbody></table></div>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CABLES1/CABLES1-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

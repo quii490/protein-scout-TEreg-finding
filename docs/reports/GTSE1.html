@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GTSE1 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>GTSE1</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 78.5</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/GTSE1/GTSE1-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;GTSE1&quot; date: 2026-06-01 tags: [protein-scout, nucleoplasm, evaluation] status: scored ---</p>
+<h3>GTSE1 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名</td><td>GTSE1</td></tr>
+<tr><td>蛋白全名</td><td>G2 and S phase-expressed protein 1</td></tr>
+<tr><td>蛋白大小</td><td>739 aa / 78.5 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q9NYZ3</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>新权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>4/10</td><td>×4</td><td>16.0</td><td>HPA: Nucleoplasm 为 additional (非 main); UniProt: Cytoplasm/cytoskeleton; GO: nucleoplasm TAS only</td></tr>
+<tr><td>蛋白大小</td><td>4/10</td><td>×1</td><td>4.0</td><td>739 aa, 78.5 kDa</td></tr>
+<tr><td>研究新颖性</td><td>2/10</td><td>×5</td><td>10.0</td><td>PubMed strict=95, broad=122</td></tr>
+<tr><td>三维结构</td><td>5/10</td><td>×3</td><td>15.0</td><td>PDB 6QNN/6QNP 部分 C-term; AlphaFold pLDDT 50.9, 61% &lt;50</td></tr>
+</tbody></table></div>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/GTSE1/GTSE1-PAE.png</code></div></figure></p>
+<div class="table-wrap"><table>
+<tbody>
+<tr><td>调控结构域</td><td>5/10</td><td>×2</td><td>10.0</td><td>GTSE1 family; 细胞周期 G2/M 调控; 微管结合</td></tr>
+<tr><td>PPI 网络</td><td>6/10</td><td>×3</td><td>18.0</td><td>UniProt PLK1 (6 exp) strong; IntAct 多 partners; STRING 获取失败</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>73/180</strong>**</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+1.0</td><td>PLK1 强互作; HPA nucleoplasm 信号</td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>39.9/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Cytoplasm, cytoskeleton</td><td>No evidence code</td></tr>
+<tr><td>GO-CC</td><td>cytoplasmic microtubule IDA; cytosol TAS; membrane HDA; nucleoplasm TAS:Reactome</td><td>Mixed</td></tr>
+<tr><td>Protein Atlas (IF)</td><td>Plasma membrane + Centrosome (main); Nucleoplasm + Primary cilium + Cytosol (additional); Supported</td><td>Supported</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 状态</strong>: IF available (Supported reliability) — HPA 主定位为 Plasma membrane 和 Centrosome，Nucleoplasm 仅列为 additional location，且可靠性评级为 Supported（低于 Approved）。UniProt 和 GO 均以胞质/微管为主要定位，核质仅为 Reactome pathway 推断（TAS）。核定位证据薄弱。</p>
+<h5>3.2 结构与结构域</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold</td><td>AF-Q9NYZ3-F1</td></tr>
+<tr><td>平均 pLDDT</td><td>50.9</td></tr>
+<tr><td>pLDDT &gt;90</td><td>2.0%</td></tr>
+<tr><td>pLDDT 70-90</td><td>8.0%</td></tr>
+<tr><td>pLDDT 50-70</td><td>29.0%</td></tr>
+<tr><td>pLDDT &lt;50</td><td>61.0%</td></tr>
+<tr><td>PDB</td><td>6QNN (X-ray 2.03A, B=661-726); 6QNP (X-ray 2.70A, H/I/J/K=653-719)</td></tr>
+<tr><td>InterPro</td><td>IPR026657, IPR032768</td></tr>
+<tr><td>Pfam</td><td>PF15259</td></tr>
+</tbody></table></div>
+<p><strong>AlphaFold PAE 状态</strong>: PAE 已下载，见上图。整体 pLDDT 很低（50.9），61% 残基置信度低于 50。PDB 结构仅覆盖 C 端约 60 个残基。结构信息极为有限。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict (Title/Abstract)</td><td>95</td></tr>
+<tr><td>PubMed broad</td><td>122</td></tr>
+</tbody></table></div>
+<p>GTSE1 研究热度较高，接近 rejection 阈值。关键文献覆盖其在非小细胞肺癌中的促增殖作用（PMID:37079439, ERK/MAPK pathway）、肺纤维化 EMT（PMID:39342428）、骨肉瘤微环境（PMID:40831537）、肺癌细胞周期调控（PMID:39026496）及作为泛肿瘤预后生物标志物（PMID:38715380）。研究集中在肿瘤生物学，功能较为明确。</p>
+<h5>3.4 PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>PLK1</td><td>UniProt</td><td>6 experiments</td><td>Cell cycle kinase, strong</td></tr>
+<tr><td>GGA1</td><td>UniProt</td><td>2 experiments</td><td>Golgi trafficking</td></tr>
+<tr><td>USP11</td><td>IntAct</td><td>anti tag coIP (PMID:19615732)</td><td>Deubiquitinase</td></tr>
+<tr><td>PICALM</td><td>IntAct</td><td>anti tag coIP (PMID:28514442)</td><td>Clathrin-mediated endocytosis</td></tr>
+<tr><td>STAMBPL1</td><td>IntAct</td><td>anti tag coIP (PMID:28514442)</td><td>Deubiquitinase</td></tr>
+<tr><td>STAMBP</td><td>IntAct</td><td>anti tag coIP (PMID:28514442)</td><td>Deubiquitinase</td></tr>
+<tr><td>NCAPH2</td><td>IntAct</td><td>anti tag coIP (PMID:28514442)</td><td>Condensin II, chromosome</td></tr>
+<tr><td>RNF213</td><td>IntAct</td><td>pull down (PMID:30833792)</td><td>Ubiquitin ligase</td></tr>
+<tr><td>PPP2R3A</td><td>IntAct</td><td>anti tag coIP (PMID:28514442)</td><td>PP2A phosphatase</td></tr>
+<tr><td>—</td><td>STRING</td><td>获取失败 (HTTP 502)</td><td>—</td></tr>
+</tbody></table></div>
+<p>PLK1 是最强互作（UniProt 6 experiments），与 GTSE1 的细胞周期 G2/M 调控功能一致。NCAPH2（condensin II）可能提示染色体关联。STRING 数据未获取。PPI 网络指向细胞周期调控、泛素化和内吞通路。</p>
+<h4>4. 总体评价</h4>
+<p>GTSE1 在本批中评分最低（40.4/100）。主要问题：核定位仅为 HPA additional（非主定位）、蛋白较大（78.5 kDa）、研究热度高（PM=95）、结构置信度极低。核质定位可能为其在细胞周期特定阶段（G2/S）的瞬时核转运。PLK1 强互作和 condensin II 关联有一定意义，但总体核定位支持不足。建议谨慎保留为低优先级候选。</p>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9NYZ3</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9NYZ3</li><li>PDB: 6QNN, 6QNP</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=GTSE1</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000075218-GTSE1</li></ul>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/GTSE1/1512_G12_3_blue_red_green.jpg</code></div></figure></p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/GTSE1/1512_G12_1_blue_red_green.jpg</code></div></figure></p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/GTSE1/GTSE1-PAE.png</code></div></figure></p>
+<p>HPA IF 图像已本地嵌入。</p>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/GTSE1/GTSE1-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

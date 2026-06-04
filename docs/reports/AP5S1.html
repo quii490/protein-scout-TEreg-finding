@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AP5S1 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>AP5S1</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleus-cytoplasm</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 5</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleus-cytoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleus-cytoplasm/AP5S1/AP5S1-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;AP5S1&quot; date: 2026-05-31 tags: [protein-scout, nucleus-cytoplasm, evaluation] status: scored ---</p>
+<h3>AP5S1 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>AP5S1 / C20orf29</td></tr>
+<tr><td>蛋白全名</td><td>AP-5 complex subunit sigma-1</td></tr>
+<tr><td>蛋白大小</td><td>200 aa / 22.5 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q9NUS5</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>新权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>5/10</td><td>×4</td><td>20.0</td><td>GO-CC 有 nucleoplasm IDA:HPA，但 UniProt 主定位为 cytosol/endosome/lysosome membrane</td></tr>
+<tr><td>蛋白大小</td><td>8/10</td><td>×1</td><td>8.0</td><td>200 aa, 22.5 kDa</td></tr>
+<tr><td>研究新颖性</td><td>10/10</td><td>×5</td><td>50.0</td><td>PubMed strict=0, broad=0</td></tr>
+<tr><td>三维结构</td><td>7/10</td><td>×3</td><td>21.0</td><td>PDB 8YAB/8YAH EM 结构；AlphaFold pLDDT 80.4</td></tr>
+</tbody></table></div>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/AP5S1/AP5S1-PAE.png</code></div></figure> <figure><div class="missing-image">Missing local image: <code>../assets/report-images/AP5S1/AP5S1-PAE.png</code></div></figure></p>
+<div class="table-wrap"><table>
+<tbody>
+<tr><td>调控结构域</td><td>5/10</td><td>×2</td><td>10.0</td><td>AP-5 adaptor complex sigma subunit；运输/膜被覆复合体</td></tr>
+<tr><td>PPI 网络</td><td>8/10</td><td>×3</td><td>24.0</td><td>AP5M1/AP5B1/AP5Z1/SPG11 强互证；IntAct 有 AP5 complex 和部分核调控相关 partner</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>133/180</strong>**</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+1.0</td><td>AP-5 复合体多库互证；GO nucleoplasm 与 DNA repair 功能提示弱核关联</td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>72.7/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Cytoplasm/cytosol (ECO:0000269); late endosome membrane; lysosome membrane</td><td>Experimental/predicted</td></tr>
+<tr><td>GO-CC</td><td>cytosol IDA:HPA; late endosome/lysosome; nucleoplasm IDA:HPA</td><td>Mixed</td></tr>
+<tr><td>Protein Atlas (IF)</td><td>HPA 暂无数据，未获取到 IF 图像或缩略图</td><td>未确认</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 状态</strong>: HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。 — HPA 暂无数据，未获取到 IF 图像或缩略图。核定位基于 UniProt + GO-CC。AP5S1 的核定位证据主要来自 GO nucleoplasm IDA:HPA，而 UniProt 主定位支持 cytosol/endosome/lysosome，因此定为 nucleus-cytoplasm 且核定位分不高。</p>
+<h5>3.2 结构与结构域</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold</td><td>AF-Q9NUS5-F1</td></tr>
+<tr><td>平均 pLDDT</td><td>80.4</td></tr>
+<tr><td>PDB</td><td>8YAB EM 3.26 Å; 8YAH EM 3.30 Å</td></tr>
+<tr><td>InterPro</td><td>IPR029392</td></tr>
+<tr><td>Pfam</td><td>PF15001</td></tr>
+</tbody></table></div>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/AP5S1/AP5S1-PAE.png</code></div></figure></p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict (Title/Abstract)</td><td>0</td></tr>
+<tr><td>PubMed broad</td><td>0</td></tr>
+<tr><td>别名</td><td>C20orf29（未用于 scoring）</td></tr>
+</tbody></table></div>
+<p>AP5S1 几乎没有以基因名出现的独立文献。UniProt 功能注释称其为 AP-5 复合体组分，可能参与 endosomal transport，并据 PMID:20613862 参与 homologous recombination DNA double-strand break repair。</p>
+<h5>3.4 PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>AP5M1</td><td>STRING</td><td>0.999 (exp 0.626)</td><td>AP-5 complex subunit</td></tr>
+<tr><td>AP5B1</td><td>STRING</td><td>0.999 (exp 0.591)</td><td>AP-5 complex subunit</td></tr>
+<tr><td>AP5Z1</td><td>STRING</td><td>0.997 (exp 0.181)</td><td>AP-5 complex subunit</td></tr>
+<tr><td>SPG11</td><td>STRING</td><td>0.961 (exp 0.232)</td><td>Lysosomal/transport</td></tr>
+<tr><td>AP4M1</td><td>STRING</td><td>0.958 (database 0.9)</td><td>AP-4 complex</td></tr>
+<tr><td>SPG11</td><td>IntAct</td><td>anti tag coIP (PMID:33961781)</td><td>Lysosomal/transport</td></tr>
+<tr><td>AP5Z1</td><td>IntAct</td><td>anti tag coIP (PMID:33961781)</td><td>AP-5 complex subunit</td></tr>
+<tr><td>AP5B1</td><td>IntAct</td><td>anti tag coIP (PMID:33961781)</td><td>AP-5 complex subunit</td></tr>
+<tr><td>MRGBP</td><td>IntAct</td><td>anti tag coIP (PMID:33961781)</td><td>Nuclear regulation</td></tr>
+<tr><td>MORF4L1</td><td>IntAct</td><td>anti tag coIP (PMID:33961781)</td><td>Nuclear regulation</td></tr>
+<tr><td>—</td><td>UniProt</td><td>无记录互作</td><td>—</td></tr>
+</tbody></table></div>
+<p>STRING 强支持 AP5M1, AP5B1, AP5Z1, SPG11 等 AP-5/膜运输网络。IntAct 记录 AP5Z1、AP5B1、AP5M1、SPG11、NHERF1 等互作，也含 MRGBP/MORF4L1 等核调控相关 partner，但主要网络仍是 AP-5 adaptor complex。</p>
+<h4>4. 总体评价</h4>
+<p>AP5S1 不是经典核蛋白；主定位和 PPI 网络都偏 endosome/lysosome/adaptor complex。但 GO nucleoplasm IDA:HPA 和 DNA repair 注释使其不能简单丢弃。保留为低-中置信度 nucleus-cytoplasm 候选，后续应优先核查 HPA 原图或做内源 IF。</p>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9NUS5</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9NUS5</li><li>PDB: 8YAB, 8YAH</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=AP5S1</li><li>Protein Atlas: https://www.proteinatlas.org/search/AP5S1（无 IF 原图）</li></ul>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/AP5S1/AP5S1-PAE.png</code></div></figure></p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/AP5S1/AP5S1-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

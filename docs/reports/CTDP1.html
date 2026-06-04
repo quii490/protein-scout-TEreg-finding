@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CTDP1 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>CTDP1</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 36</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/CTDP1/CTDP1-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;CTDP1&quot; date: 2026-06-01 tags: [protein-scout, nucleoplasm, evaluation] status: scored ---</p>
+<h3>CTDP1 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>CTDP1 / FCP1</td></tr>
+<tr><td>蛋白全名</td><td>RNA polymerase II subunit A C-terminal domain phosphatase</td></tr>
+<tr><td>蛋白大小</td><td>961 aa / 104.4 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q9Y5B0</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>新权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>9/10</td><td>x4</td><td>36.0</td><td>HPA Nucleoplasm (main, Approved); GO nucleoplasm IDA:HPA; UniProt Nucleus (ECO:0000269)</td></tr>
+<tr><td>蛋白大小</td><td>3/10</td><td>x1</td><td>3.0</td><td>961 aa, 104.4 kDa</td></tr>
+<tr><td>研究新颖性</td><td>10/10</td><td>x5</td><td>50.0</td><td>PubMed strict=19</td></tr>
+<tr><td>三维结构</td><td>4/10</td><td>x3</td><td>12.0</td><td>AF pLDDT 63.7; PDB 3个 (BRCT domain, C-terminal peptides)</td></tr>
+</tbody></table></div>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CTDP1/CTDP1-PAE.png</code></div></figure></p>
+<div class="table-wrap"><table>
+<tbody>
+<tr><td>调控结构域</td><td>7/10</td><td>x2</td><td>14.0</td><td>BRCT domain (phosphopeptide-binding); FCP1 phosphatase domain; CTD phosphatase 催化核心</td></tr>
+<tr><td>PPI 网络</td><td>8/10</td><td>x3</td><td>24.0</td><td>STRING GTF2F1 (0.999 exp 0.995), POLR2A (0.998 exp 0.977); 核心 Pol II 转录 machinery</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>139/180</strong>**</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+0.0</td><td></td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>76.0/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Nucleus (ECO:0000269), Centrosome, Spindle pole, Midbody</td><td>实验证据</td></tr>
+<tr><td>GO-CC</td><td>nucleoplasm (IDA:HPA), nucleus (IDA:CAFA), centrosome, spindle, midbody</td><td>多源高置信度</td></tr>
+<tr><td>HPA (IF)</td><td>Nucleoplasm (main), Vesicles</td><td>Approved, 无IF原图</td></tr>
+<tr><td>功能</td><td>RNA Pol II CTD Ser2/Ser5 去磷酸化酶</td><td>核心转录功能即核定位</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 状态</strong>: HPA 分类为 Nucleoplasm (main) + Vesicles, 无 IF 原图（image_status: no_image_detected）。核定位基于 UniProt + GO + HPA 三源一致。</p>
+<p><strong>结论</strong>: CTDP1 核定位证据极为坚实 — 作为 RNA Pol II CTD 磷酸酶，功能天然位于核质；HPA + GO-CC 均为 IDA 级别核质定位。</p>
+<h5>3.2 结构与数据源</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold</td><td>AF-Q9Y5B0-F1</td></tr>
+<tr><td>平均 pLDDT</td><td>63.7</td></tr>
+<tr><td>pLDDT &gt;90</td><td>31.0%</td></tr>
+<tr><td>pLDDT &lt;50</td><td>46.6%</td></tr>
+<tr><td>PDB</td><td>1J2X (2.00A, BRCT-C-ter peptide), 1ONV (NMR, C-ter), 2K7L (NMR, BRCT) — 均仅小片段</td></tr>
+<tr><td>InterPro</td><td>IPR001357 (BRCT), IPR004274 (FCP1), IPR011947 (FCP1-like phosphatase)</td></tr>
+<tr><td>Pfam</td><td>PF00533 (BRCT), PF26077, PF09309 (FCP1_C), PF03031 (NIF)</td></tr>
+</tbody></table></div>
+<p>结构数据覆盖 3 个 PDB 但均仅小片段（BRCT domain 及 C-terminal motif）。AF 预测质量中等（31% &gt;90 pLDDT, 46.6% &lt;50）。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict (Title/Abstract)</td><td>19</td></tr>
+<tr><td>PubMed broad</td><td>33</td></tr>
+<tr><td>别名</td><td>FCP1（未用于 scoring）</td></tr>
+</tbody></table></div>
+<p>关键文献：PMID:16939648 (CCFDN syndrome, 2006), PMID:33408128 (Ctdp1 deficiency embryonic lethal, 2021), PMID:41515914 (founder variant in CCFDN, 2025), PMID:31240132 (breast cancer, DNA repair, FANCI interaction, 2019), PMID:26722269 (gastric cancer, 2015). 文献极少（strict=19），以 CCFDN 综合征遗传病和肿瘤细胞系研究为主。</p>
+<h5>3.4 PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>GTF2F1</td><td>STRING+IntAct</td><td>0.999 (exp 0.995) / NMR direct</td><td>TFIIF alpha, CTDP1 招募/激活</td></tr>
+<tr><td>POLR2A</td><td>STRING</td><td>0.998 (exp 0.977)</td><td>RNA Pol II 最大亚基，核心底物</td></tr>
+<tr><td>GTF2F2</td><td>STRING</td><td>0.979 (exp 0.655)</td><td>TFIIF beta</td></tr>
+<tr><td>POLR2G/C/B/D/J</td><td>STRING</td><td>0.91-0.97 (exp 0.61-0.85)</td><td>RNA Pol II 亚基组</td></tr>
+<tr><td>GTF2B</td><td>STRING+IntAct</td><td>0.950 (exp 0.679) / coIP</td><td>转录 initiation factor</td></tr>
+<tr><td>CDK9</td><td>STRING</td><td>0.917 (exp 0.625)</td><td>P-TEFb, CTD Ser2 激酶 (拮抗/协作)</td></tr>
+<tr><td>TCEA1</td><td>STRING</td><td>0.918 (database 0.8)</td><td>转录延伸因子</td></tr>
+<tr><td>RPRD1B</td><td>IntAct</td><td>coIP (PMID:28514442)</td><td>RNA Pol II CTD 相关</td></tr>
+<tr><td>CDK8</td><td>IntAct</td><td>coIP</td><td>Mediator kinase</td></tr>
+<tr><td>WDR77</td><td>STRING</td><td>0.873 (exp 0.511)</td><td>转录调控</td></tr>
+</tbody></table></div>
+<p>PPI 网络极为聚焦：以 RNA Pol II 全酶 (POLR2A/B/C/D/G/J) 和通用转录因子 (GTF2F1/2, GTF2B) 为核心，GTF2F1 与 CTDP1 的互作达到实验分数 0.995 + NMR 直接互作验证。作为 Pol II CTD 磷酸化的反向调控者（CDK9 Ser2 磷酸化 vs CTDP1 Ser2 去磷酸化），CTDP1 处于转录调控的核心枢纽位置。</p>
+<h4>4. 总体评价</h4>
+<p>CTDP1 为本批次评分最高候选（76.0/100），核心优势为：极低文献量（PM=19, 新颖性满分 10/10）、坚实的核质定位证据（三源一致）、PPI 网络锁定在 RNA Pol II 转录 machinery 核心（GTF2F1-POLR2A 实验分数接近满分）、BRCT domain + FCP1 phosphatase 双调控结构域。主要不足为蛋白较大（961 aa）和 AF 结构预测中等质量。作为 RNA Pol II CTD 磷酸酶，其在转录调控（包括 TE 转录）中处于关键位置，是极具优先度的候选靶点。</p>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9Y5B0</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9Y5B0</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CTDP1</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000060069-CTDP1</li></ul>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CTDP1/CTDP1-PAE.png</code></div></figure></p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CTDP1/CTDP1_IF_1746_A7_11_cr5804b66b7c4a3_red_green.jpg</code></div></figure></p>
+<p>HPA IF 图像已本地嵌入。</p>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CTDP1/CTDP1-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

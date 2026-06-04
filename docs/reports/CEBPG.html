@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CEBPG · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>CEBPG</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 32</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/CEBPG/CEBPG-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;CEBPG&quot; date: 2026-06-02 tags: [protein-scout, nucleoplasm, evaluation] status: scored pm: 55 ---</p>
+<h3>CEBPG 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>CEBPG (no known aliases)</td></tr>
+<tr><td>蛋白全称</td><td>CCAAT/enhancer-binding protein gamma</td></tr>
+<tr><td>蛋白大小</td><td>150 aa / 16.4 kDa</td></tr>
+<tr><td>UniProt ID</td><td>P53567</td></tr>
+<tr><td>AlphaFold</td><td>AF-P53567-F1 (v6)</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>满分</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>8/10</td><td>×4</td><td><strong>32</strong></td><td>HPA Supported Nucleoplasm; GO nucleoplasm IDA:HPA + chromatin ISA + nucleus ISS</td></tr>
+<tr><td>蛋白大小</td><td>10/10</td><td>×1</td><td><strong>10</strong></td><td>150 aa，理想范围</td></tr>
+<tr><td>研究新颖性</td><td>6/10</td><td>×5</td><td><strong>30</strong></td><td>PubMed strict=55，≤60 档，中等新颖性</td></tr>
+<tr><td>三维结构</td><td>5/10</td><td>×3</td><td><strong>15</strong></td><td>无 PDB 结构; AF mean pLDDT 74.5, bZIP 结构域预测良好</td></tr>
+<tr><td>调控结构域</td><td>10/10</td><td>×2</td><td><strong>20</strong></td><td>bZIP 转录因子 (IPR004827, PF07716)，经典 DNA 结合域</td></tr>
+<tr><td>PPI 网络</td><td>8/10</td><td>×3</td><td><strong>24</strong></td><td>STRING 15 + IntAct + UniProt 40 互作; ATF/CEBP/FOS/JUN 家族网络</td></tr>
+<tr><td>互证加分</td><td>--</td><td>--</td><td><strong>+0.5</strong></td><td>ATF4-CEBPG 异源二聚体多库互证 (+0.5)</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>131/180</strong>**</td><td></td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>71.6/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Nucleus (ECO:0000250)</td><td>预测级</td></tr>
+<tr><td>GO-CC</td><td>nucleoplasm (GO:0005654, IDA:HPA); chromatin (GO:0000785, ISA:NTNU_SB); nucleus (GO:0005634, ISS)</td><td>实验级</td></tr>
+<tr><td>HPA IF</td><td>Supported reliability; Nucleoplasm (main)</td><td>中等可信度</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 状态</strong>: Supported 级别可信度，HPA 明确显示 Nucleoplasm 定位。GO 含 nucleoplasm IDA:HPA 和 chromatin ISA 双重核内注释。</p>
+<p><strong>结论</strong>: HPA + GO 双源支持核定位，GO 含 chromatin 注释提示染色质结合。UniProt 仅预测级但整体定位置信度较高。</p>
+<h5>3.2 蛋白大小评估</h5>
+<p><strong>评价</strong>: 150 aa (16.4 kDa)，处于理想实验范围 (150-400)。小蛋白易于重组表达和纯化。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict (Title/Abstract+gene/protein)</td><td>55</td></tr>
+<tr><td>PubMed symbol_only</td><td>66</td></tr>
+<tr><td>PubMed broad</td><td>69</td></tr>
+</tbody></table></div>
+<p><strong>关键文献</strong>: 1. Jin S et al. (2025). &quot;RETREG1-mediated reticulophagy is activated by an ATF4-CEBPG/C/EBP-gamma heterodimer.&quot; *Autophagy*. PMID: 40437698 2. Jiang Y et al. (2021). &quot;CEBPG promotes acute myeloid leukemia progression by enhancing EIF4EBP1.&quot; *Cancer Cell Int*. PMID: 34743716 3. Xie H et al. (2025). &quot;Acetyltransferase NAT10 inhibits T-cell immunity through DDX5/HMGB1 axis.&quot; *J Immunother Cancer*. PMID: 39939141 4. Sheng Y et al. (2024). &quot;Deciphering mechanisms of cardiomyocytes transformation in myocardial remodeling.&quot; *J Adv Res*. PMID: 37722560 5. Shi Z et al. (2024). &quot;Mechanistic study of NUPR1 in bladder cancer through transcriptional regulation of CCR2.&quot; *J Cell Physiol*. PMID: 39149887</p>
+<p><strong>评价</strong>: PubMed strict=55，中等研究量。作为 C/EBP 家族成员研究相对较少（相比 CEBPA/CEBPB），集中于应激响应和癌症。</p>
+<h5>3.4 三维结构分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>UniProt 长度</td><td>150 aa</td></tr>
+<tr><td>PDB 条数</td><td>0</td></tr>
+<tr><td>AlphaFold mean pLDDT</td><td>74.5</td></tr>
+<tr><td>pLDDT &gt;90</td><td>43.3%</td></tr>
+<tr><td>pLDDT 70-90</td><td>8.0%</td></tr>
+<tr><td>pLDDT 50-70</td><td>33.3%</td></tr>
+<tr><td>pLDDT &lt;50</td><td>15.3%</td></tr>
+</tbody></table></div>
+<p><strong>PAE 图</strong>:</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CEBPG/CEBPG-PAE.png</code></div></figure></p>
+<p><strong>评价</strong>: 无 PDB 结构，仅 AlphaFold 预测。pLDDT 74.5，结构域区域预测良好。小蛋白 (150 aa)，适合结构解析。</p>
+<h5>3.5 结构域分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>结构域</th></tr></thead><tbody>
+<tr><td>InterPro</td><td>IPR004827 (bZIP transcription factor), IPR046347 (bZIP superfamily), IPR031106 (C/EBP gamma)</td></tr>
+<tr><td>Pfam</td><td>PF07716 (bZIP_2)</td></tr>
+</tbody></table></div>
+<p><strong>染色质调控潜力分析</strong>: bZIP (basic leucine zipper) 转录因子，经典 DNA 结合结构域。通过 bZIP 结构域形成同源或异源二聚体 (与 ATF4, ATF5, CEBPA/B/D/E, DDIT3, FOS, JUN 等)，结合 CCAAT/enhancer 元件调控靶基因转录。染色质调控潜力高。</p>
+<h5>3.6 PPI 网络</h5>
+<p><strong>UniProt 记录互作</strong> (实验级):</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>实验数</th><th>功能类别</th></tr></thead><tbody>
+<tr><td>ATF4</td><td>16</td><td>bZIP TF, stress response</td></tr>
+<tr><td>DDIT3</td><td>7+3</td><td>bZIP TF, ER stress</td></tr>
+<tr><td>ATF5</td><td>8</td><td>bZIP TF</td></tr>
+<tr><td>NFE2L2</td><td>5</td><td>bZIP TF, oxidative stress</td></tr>
+<tr><td>BATF</td><td>4</td><td>bZIP TF</td></tr>
+<tr><td>CEBPA</td><td>4</td><td>bZIP TF, C/EBP family</td></tr>
+<tr><td>ATF2</td><td>3</td><td>bZIP TF</td></tr>
+</tbody></table></div>
+<p><strong>实验验证互作</strong> (IntAct, physical association):</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>方法</th><th>PMID</th><th>功能类别</th></tr></thead><tbody>
+<tr><td>ATF4</td><td>two hybrid array</td><td>32296183</td><td>bZIP TF</td></tr>
+<tr><td>DDIT3</td><td>two hybrid pooling</td><td>16189514</td><td>bZIP TF</td></tr>
+<tr><td>ATF5</td><td>validated two hybrid</td><td>32296183</td><td>bZIP TF</td></tr>
+<tr><td>ATF3</td><td>two hybrid array</td><td>20211142</td><td>bZIP TF</td></tr>
+<tr><td>FOS</td><td>split luciferase</td><td>31467278</td><td>bZIP TF</td></tr>
+<tr><td>JUN</td><td>anti tag coIP</td><td>33961781</td><td>bZIP TF</td></tr>
+<tr><td>NFE2L2</td><td>two hybrid array</td><td>32911434</td><td>bZIP TF</td></tr>
+<tr><td>MLLT6</td><td>two hybrid pooling</td><td>16189514</td><td>Transcriptional coactivator</td></tr>
+<tr><td>SRC</td><td>anti tag coIP</td><td>33961781</td><td>Tyrosine kinase</td></tr>
+</tbody></table></div>
+<p><strong>STRING 预测互作</strong> (combined score &gt;0.7):</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>实验分</th></tr></thead><tbody>
+<tr><td>ATF4</td><td>0.977</td><td>0.821</td></tr>
+<tr><td>CEBPB</td><td>0.971</td><td>0.459</td></tr>
+<tr><td>ATF5</td><td>0.955</td><td>0.745</td></tr>
+<tr><td>DDIT3</td><td>0.949</td><td>0.792</td></tr>
+<tr><td>JUN</td><td>0.823</td><td>0.550</td></tr>
+<tr><td>ATF3</td><td>0.834</td><td>0.636</td></tr>
+<tr><td>FOS</td><td>0.773</td><td>0.607</td></tr>
+<tr><td>ATF2</td><td>0.760</td><td>0.730</td></tr>
+<tr><td>CEBPA</td><td>0.733</td><td>0.486</td></tr>
+<tr><td>MLLT6</td><td>0.692</td><td>0.683</td></tr>
+</tbody></table></div>
+<p><strong>评价</strong>: PPI 网络极为丰富：UniProt 20 条互作记录 + IntAct 15 条 + STRING 15 条，三源高度一致。PPI 核心为 bZIP 转录因子大家族 (ATF4, ATF5, DDIT3, CEBPA/B, FOS, JUN, NFE2L2)，形成同源/异源二聚体网络。功能上覆盖 ER 应激、氧化应激、自噬和免疫调控。</p>
+<h5>3.7 多库互证</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>来源</th><th>结果</th><th>是否一致</th></tr></thead><tbody>
+<tr><td>三维结构</td><td>AlphaFold + PDB</td><td>PDB 0</td><td>仅预测</td></tr>
+<tr><td>结构域</td><td>UniProt/InterPro/Pfam</td><td>bZIP 多库一致</td><td>一致</td></tr>
+<tr><td>PPI 网络</td><td>STRING + IntAct + UniProt</td><td>ATF/CEBP bZIP 网络三源互证</td><td>高度一致</td></tr>
+<tr><td>核定位</td><td>HPA/UniProt/GO</td><td>Nucleoplasm</td><td>一致</td></tr>
+</tbody></table></div>
+<p><strong>互证加分明细</strong>: ATF4-CEBPG 异源二聚体 UniProt (16 experiments) + IntAct + STRING (0.977) 三源互证 (+0.5) <strong>总计</strong>: +0.5</p>
+<h4>4. 总体评价</h4>
+<p><strong>推荐等级</strong>: ****o (4/5)</p>
+<p><strong>核心优势</strong>: 1. 经典 bZIP 转录因子，DNA 结合能力明确，染色质调控潜力高 2. PPI 网络极其丰富且三源高度一致，ATF/CEBP/FOS/JUN bZIP 大家族网络 3. 小蛋白 (150 aa)，实验操作友好 4. 核定位 HPA + GO 双源支持，定位置信 5. 应激响应 (ER stress, oxidative stress, autophagy) 连接 TE 调控的可能性</p>
+<p><strong>风险/不确定性</strong>: 1. 无 PDB 结构（但小蛋白适合结构解析） 2. PubMed strict=55，中等文献量 3. C/EBP 家族中研究相对较少，缺乏独立深度研究</p>
+<p><strong>下一步建议</strong>:</p>
+<ul><li>[ ] ChIP-seq 鉴定全基因组结合位点，特别关注 TE 富集区域</li><li>[ ] 解析 bZIP 结构域晶体或 NMR 结构 (150 aa 理想大小)</li><li>[ ] 在应激条件下研究 CEBPG 对 TE 转录的调控</li><li>[ ] 利用丰富的 PPI 网络筛选协同调控 TE 的 bZIP 二聚体伙伴</li></ul>
+<h4>5. 数据来源</h4>
+<ul><li>GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=CEBPG</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000153879-CEBPG</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22CEBPG%22%5BTitle/Abstract%5D</li><li>UniProt: https://www.uniprot.org/uniprot/P53567</li><li>STRING: https://string-db.org/network/9606.ENSG00000153879</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/P53567</li></ul>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CEBPG/A-431_1.jpg</code></div></figure> <figure><div class="missing-image">Missing local image: <code>../assets/report-images/CEBPG/A-431_2.jpg</code></div></figure></p>
+<p>HPA IF 图像已本地嵌入。</p>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CEBPG/CEBPG-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

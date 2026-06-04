@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TCF25 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>TCF25</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 21</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/TCF25/TCF25-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;TCF25&quot; date: 2026-06-01 tags: [protein-scout, nucleoplasm, evaluation] status: scored ---</p>
+<h3>TCF25 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>TCF25 / KIAA1049, NULP1</td></tr>
+<tr><td>蛋白全名</td><td>Ribosome quality control complex subunit TCF25</td></tr>
+<tr><td>蛋白大小</td><td>676 aa / 76.7 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q9BQ70</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>权重</th><th>加权</th><th>摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>5/10</td><td>x4</td><td>20.0</td><td>UniProt Nucleus (ECO:0000269); HPA 无定位数据; GO nucleus IEA only</td></tr>
+<tr><td>蛋白大小</td><td>7/10</td><td>x1</td><td>7.0</td><td>676 aa, 76.7 kDa</td></tr>
+<tr><td>研究新颖性</td><td>8/10</td><td>x5</td><td>40.0</td><td>Strict=21</td></tr>
+<tr><td>三维结构</td><td>5/10</td><td>x3</td><td>15.0</td><td>AlphaFold pLDDT 72.0; 30.5% &lt;50; 无 PDB</td></tr>
+<tr><td>调控结构域</td><td>5/10</td><td>x2</td><td>10.0</td><td>TCF25 domain; TPR-like fold; ribosome quality control</td></tr>
+<tr><td>PPI 网络</td><td>6/10</td><td>x3</td><td>18.0</td><td>RQC complex: GPRASP2 (0.994), NEMF (0.956), LTN1 (0.954)</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>110/180</strong>**</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+0.0</td><td>HPA 无数据; GO-CC 仅有 IEA</td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>60.1/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<p>PubMed strict: 21</p>
+<h4>3. 核定位证据</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Nucleus (ECO:0000269 x2); Cytoplasm, cytosol (ECO:0000269)</td><td>Experimental</td></tr>
+<tr><td>GO-CC</td><td>nucleus IEA:UniProtKB-SubCell; cytosol IEA:UniProtKB-SubCell; RQC complex IDA:UniProtKB</td><td>Electronic Annotation</td></tr>
+<tr><td>HPA (IF)</td><td><strong>无数据</strong> -- 抗体未生成或验证中 (reliability: null, no subcellular_location)</td><td>HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 状态</strong>: HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。 -- HPA 未提供任何亚细胞定位数据（reliability: null, subcellular_location: 空数组）。仅存在 IHC 和 RNA 数据，无 IF 图像。TCF25 的核定位目前仅依赖 UniProt 注释。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/TCF25/TCF25-PAE.png</code></div></figure></p>
+<p><strong>PAE 状态</strong>: 已获取 PAE 图像。AlphaFold pLDDT 72.0 (mean), 42.8% &gt;90, 30.5% &lt;50。N 端 TCF25 domain 和 TPR-like 重复序列折叠较好，C 端存在较多低置信度区域。</p>
+<h4>4. PPI 网络</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th></tr></thead><tbody>
+<tr><td>GPRASP2</td><td>STRING + IntAct + UniProt</td><td>0.994 (experimental 0.994)</td></tr>
+<tr><td>NEMF</td><td>STRING</td><td>0.956 (experimental 0.322, database 0.54)</td></tr>
+<tr><td>LTN1</td><td>STRING</td><td>0.954 (experimental 0.401, database 0.54)</td></tr>
+<tr><td>SAT1</td><td>STRING + IntAct + UniProt</td><td>0.758 (experimental 0.753)</td></tr>
+<tr><td>VCP</td><td>STRING</td><td>0.826 (experimental 0.126)</td></tr>
+<tr><td>LRRK2</td><td>STRING + IntAct + UniProt</td><td>0.630 (experimental 0.425)</td></tr>
+</tbody></table></div>
+<p><strong>核心发现</strong>: TCF25 的 PPI 网络以 Ribosome Quality Control (RQC) 复合体为核心。RQC 复合体由 TCF25-NEMF-LTN1 组成，在核糖体停滞时介导 nascent chain 的 K48-linked polyubiquitination 和蛋白酶体降解。GPRASP2 为最高置信度互作 partner (experimental 0.994)。VCP/p97 参与下游 extraction 过程。</p>
+<p>IntAct 15 条记录（含 SAT1, MAGEA11 two-hybrid, LRRK2/PDPK1 co-IP 等）。UniProt 记录 11 个互作 partner。</p>
+<p><strong>核功能线索</strong>: TCF25 的 RQC 功能主要发生于胞质核糖体，但其 Nucleus 定位提示可能参与核内核糖体质量控制或转录/剪接偶联的质量控制通路。2025 年文献报道 TCF25 作为 nutrient sensor 调控溶酶体酸化 (Cell Rep, PMID:40844875)，暗示非 RQC 的额外核功能。</p>
+<h4>5. 结构域与染色质调控潜力</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>结构域</th></tr></thead><tbody>
+<tr><td>InterPro</td><td>IPR006994 (TCF25), IPR011990 (TPR-like helical)</td></tr>
+<tr><td>Pfam</td><td>PF04910 (TCF25)</td></tr>
+</tbody></table></div>
+<p>TCF25 domain 和 TPR-like 重复序列形成螺旋束支架，主要功能是结合 RQC 复合体组分和泛素。无已知染色质 reader/writer/remodeler 结构域。染色质调控潜力较低，RQC 复合体定位以胞质为主。</p>
+<h4>6. 总体评价</h4>
+<p>TCF25 是 RQC 复合体的 scaffold 亚基，具有 UniProt 实验级别的核定位证据。新颖性良好 (PM=21)，PPI 网络以 RQC 复合体为核心且置信度高。主要劣势：(1) HPA 无 IF 数据；(2) GO-CC 仅有电子注释级别核定位；(3) 结构与染色质调控无直接关联；(4) 核心功能定位于胞质核糖体质量控制而非核内染色质调控。适合作为核定位-胞质功能交叉的中等优先级靶点。</p>
+<p><strong>推荐等级</strong>: 2.5/5</p>
+<p><strong>HPA IF 状态</strong>: HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。 — HPA 暂无 IF 原图数据。核定位基于 UniProt + GO-CC。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/TCF25/TCF25-PAE.png</code></div></figure></p>
+<h5>关键文献</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>PMID</th><th>标题</th></tr></thead><tbody>
+<tr><td>39731152</td><td>Distinct microbes, metabolites, and the host genome define the multi-omics profiles in right-sided a</td></tr>
+<tr><td>41210950</td><td>Transcription factor 25 modulates gametocytogenesis and ribosome biogenesis in the malaria parasite</td></tr>
+<tr><td>40844875</td><td>TCF25 serves as a nutrient sensor to orchestrate metabolic adaptation and cell death by enhancing ly</td></tr>
+<tr><td>40428348</td><td>Whole-Genome DNA Methylation Analysis in Age-Related Hearing Loss.</td></tr>
+<tr><td>29221435</td><td>Exploring digenic inheritance in arrhythmogenic cardiomyopathy.</td></tr>
+</tbody></table></div>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/TCF25/TCF25-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

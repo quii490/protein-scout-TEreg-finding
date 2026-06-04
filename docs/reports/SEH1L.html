@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SEH1L · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>SEH1L</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 2</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/SEH1L/SEH1L-evaluation.md</p></section><article class="report-body"><h2>SEH1L -- Critical False-Rejection Reevaluation Report</h2>
+<p><strong>Gene:</strong> SEH1L (Nucleoporin SEH1) <strong>UniProt Accession:</strong> Q96EE3 <strong>Protein Name:</strong> Nucleoporin SEH1 <strong>Length:</strong> 360 aa | <strong>Mass:</strong> 39.6 kDa <strong>Aliases:</strong> SEC13L, SEH1 <strong>Report Date:</strong> 2026-06-04 <strong>Review Stage:</strong> W3 Batch 1 -- CRITICAL REOPEN</p>
+<hr>
+<h3>/180 Scoring Table</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Max</th><th>Score</th><th>Rationale</th></tr></thead><tbody>
+<tr><td>1. Nuclear Localization</td><td>30</td><td>15</td><td>UniProt: Chromosome centromere kinetochore (ECO:0000269 x2), Nucleus nuclear pore complex (ECO:0000269 x2), Lysosome membrane (ECO:0000269). GO-CC: nuclear pore, nuclear envelope, nuclear pore outer ring, kinetochore. HPA: no localization data (reliability=null, empty). SEH1L is a nuclear pore complex component. This is nuclear periphery, NOT nuclear interior. NPC function in nucleocytoplasmic transport. Also kinetochore and lysosome (GATOR2).</td></tr>
+<tr><td>2. Protein Size</td><td>10</td><td>10</td><td>360 aa / 39.6 kDa. Full marks.</td></tr>
+<tr><td>3. Research Novelty</td><td>10</td><td>10</td><td>PubMed strict: 15. Novelty rule: 1-50=10.</td></tr>
+<tr><td>4. 3D Structure</td><td>30</td><td>26</td><td>AlphaFold mean pLDDT: 86.9 (73.3% &gt;90, 11.7% 70-90, 5.6% 50-70, 9.4% &lt;50). PDB: 8 structures. 7UHY (EM, 3.66A), 9LVJ (3.82A), 9LVK (3.59A), 9LWF (3.41A) -- all cryo-EM of nuclear pore and GATOR2 complexes. Good structural coverage.</td></tr>
+<tr><td>5. Regulatory Domains</td><td>50</td><td>10</td><td>IPR037363, IPR015943, IPR020472, IPR036322, IPR001680. PF00400 (WD40 repeat). Function: NPC component + GATOR2 complex (mTORC1 activator). WD40 repeat beta-propeller -- a scaffold domain, not a catalytic domain. No chromatin/transcriptional regulatory function. NPC-mediated transport and mTORC1 amino acid sensing.</td></tr>
+<tr><td>6. PPI Network</td><td>50</td><td>35</td><td>STRING: 15 partners. NUP133 (0.999), NUP107 (0.999), NUP85 (0.999), NUP43 (0.999), SEC13 (0.999), NUP37 (0.999), MIOS (0.999), WDR59 (0.999), WDR24 (0.999), NPRL2 (0.999). HUGE NPC and GATOR2 network. IntAct: 15 interactors. NUP107, NUP98, SLX4, BECN1, COPS5, HERC2, LMNA, NCBP2, CEP192.</td></tr>
+<tr><td><strong>TOTAL</strong></td><td><strong>180</strong></td><td><strong>106</strong></td><td></td></tr>
+</tbody></table></div>
+<hr>
+<h3>Nuclear Evidence Section</h3>
+<h4>HPA (Human Protein Atlas)</h4>
+<ul><li><strong>Status:</strong> hpa_localization_available</li><li><strong>Reliability (IF):</strong> null</li><li><strong>Main Location:</strong> No data (empty lists)</li><li><strong>Additional:</strong> No data (empty lists)</li><li><strong>IF Image Status:</strong> no_image_detected</li><li><strong>Key Finding:</strong> HPA has gene page but no subcellular localization data or IF images.</li></ul>
+<h4>UniProt Subcellular Location</h4>
+<ul><li><strong>Chromosome, centromere, kinetochore</strong> -- ECO:0000269 x2 (experimental)</li><li><strong>Nucleus, nuclear pore complex</strong> -- ECO:0000269 x2 (experimental)</li><li><strong>Lysosome membrane</strong> -- ECO:0000269 (experimental)</li></ul>
+<h4>GO Cellular Component (GO-CC)</h4>
+<ul><li><strong>GO:0005643 (nuclear pore)</strong> -- NAS:ComplexPortal</li><li><strong>GO:0005635 (nuclear envelope)</strong> -- IDA:ComplexPortal</li><li><strong>GO:0031080 (nuclear pore outer ring)</strong> -- IDA:UniProtKB</li><li><strong>GO:0000776 (kinetochore)</strong> -- IEA:UniProtKB-KW</li><li><strong>GO:0061700 (GATOR2 complex)</strong> -- IDA:UniProtKB</li><li><strong>GO:0005765 (lysosomal membrane)</strong> -- IDA:UniProtKB</li></ul>
+<p><strong>Summary:</strong> SEH1L is a nuclear pore complex outer ring component (Nup107-160 subcomplex) and GATOR2 complex component. Nuclear pore is nuclear periphery, not nuclear interior. Also localizes to kinetochore and lysosome. Nuclear score: 15/30 -- nuclear periphery (pore), not interior.</p>
+<hr>
+<h3>PubMed Evidence</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Query Type</th><th>Count</th></tr></thead><tbody>
+<tr><td>Strict (Title/Abstract)</td><td>15</td></tr>
+<tr><td>Broad (All Fields)</td><td>24</td></tr>
+</tbody></table></div>
+<p><strong>Novelty score: 10/10.</strong></p>
+<h4>Key Papers</h4>
+<p>1. <strong>PMID:35831510</strong> -- Valenstein ML et al. (2022). &quot;Structure of the nutrient-sensing hub GATOR2.&quot; *Nature*. 2. <strong>PMID:23723238</strong> -- Bar-Peled L et al. (2013). &quot;A Tumor suppressor complex with GAP activity for the Rag GTPases that signal amino acid sufficiency to mTORC1.&quot; *Science*. 3. <strong>PMID:40781725</strong> -- Wei Y et al. (2025). &quot;Screening, identification, and experimental validation of SUMOylation biomarkers in Parkinson&#x27;s disease.&quot; *Hereditas*. 4. <strong>PMID:38372438</strong> -- Yang C et al. (2024). &quot;New insights into GATOR2-dependent interactions and its conformational changes in amino acid sensing.&quot; *Biosci Rep*. 5. <strong>PMID:38505924</strong> -- Yuan D et al. (2024). &quot;Identification of Key Ubiquitination-Related Genes and Their Association with Immune Infiltration in Osteoarthritis Based on the mRNA-miRNA Network.&quot; *Crit Rev Immunol*.</p>
+<p><strong>Assessment:</strong> Literature focuses on NPC biology and GATOR2/mTORC1 amino acid sensing. No TE-related publications.</p>
+<hr>
+<h3>AlphaFold / PDB / PAE</h3>
+<h4>AlphaFold Predicted Structure</h4>
+<ul><li><strong>Entry:</strong> AF-Q96EE3-F1, version 6</li><li><strong>mean pLDDT: 86.9</strong> (&gt;90: 73.3%, 70-90: 11.7%, 50-70: 5.6%, &lt;50: 9.4%)</li><li><strong>Assessment:</strong> Good confidence. WD40 beta-propeller is well-folded.</li></ul>
+<h4>Experimental PDB Structures</h4>
+<ul><li><strong>8 structures:</strong> 5A9Q (EM, 23A), 7PEQ (35A), 7R5J (50A), 7R5K (12A), 7UHY (3.66A), 9LVJ (3.82A), 9LVK (3.59A), 9LWF (3.41A)</li><li>All cryo-EM structures in NPC or GATOR2 complexes</li><li><strong>Assessment:</strong> Extensive structural coverage, mostly in complex. Resolution varies widely.</li></ul>
+<h4>PAE</h4>
+<ul><li>PAE image URL available.</li><li>PAE assessment pending image retrieval.</li></ul>
+<hr>
+<h3>PPI Network</h3>
+<h4>STRING (15 partners)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>Experimental</th><th>Function</th></tr></thead><tbody>
+<tr><td>NUP133</td><td>0.999</td><td>0.998</td><td>NPC Nup107-160 complex</td></tr>
+<tr><td>NUP107</td><td>0.999</td><td>0.998</td><td>NPC Nup107-160</td></tr>
+<tr><td>NUP85</td><td>0.999</td><td>0.999</td><td>NPC Nup107-160</td></tr>
+<tr><td>SEC13</td><td>0.999</td><td>0.997</td><td>NPC + GATOR2</td></tr>
+<tr><td>MIOS</td><td>0.999</td><td>0.996</td><td>GATOR2</td></tr>
+<tr><td>WDR59</td><td>0.999</td><td>0.999</td><td>GATOR2</td></tr>
+<tr><td>WDR24</td><td>0.999</td><td>0.999</td><td>GATOR2</td></tr>
+<tr><td>NPRL2</td><td>0.999</td><td>0.997</td><td>GATOR1 (inhibited by GATOR2)</td></tr>
+</tbody></table></div>
+<h4>IntAct (15 interactors)</h4>
+<p>Strong NPC interaction network: NUP107, NUP98, LMNA (nuclear lamina), NCBP2 (cap-binding complex). Also: SLX4 (DNA repair), BECN1 (autophagy), COPS5 (COP9 signalosome), HERC2 (E3 ligase).</p>
+<h4>PPI Network Assessment</h4>
+<ul><li>Very dense, well-validated network spanning NPC and GATOR2/mTORC1.</li><li>LMNA interaction connects to nuclear lamina/chromatin interface.</li><li>NCBP2 interaction connects to mRNA cap-binding.</li></ul>
+<hr>
+<h3>FALSE REJECTION RECHECK</h3>
+<h4>Original Rejection Reason (inferred)</h4>
+<p>SEH1L was likely rejected due to nuclear periphery (NPC) rather than nuclear interior localization, and non-regulatory function.</p>
+<h4>Recheck Analysis</h4>
+<p>1. <strong>Nuclear evidence:</strong> NUCLEAR PERIPHERY. NPC component. Nuclear pore outer ring. NOT nuclear interior/nucleoplasm. 2. <strong>Functional context:</strong> Nucleocytoplasmic transport (NPC) and mTORC1 amino acid sensing (GATOR2). Both are non-chromatin functions. 3. <strong>PubMed:</strong> 15 strict. LOW. 4. <strong>Structure:</strong> 8 PDB structures, good AF. Excellent structural data. 5. <strong>PPI:</strong> Dense NPC + mTORC1 network. Well-validated.</p>
+<h4>Verdict</h4>
+<p><strong>The original rejection was CORRECT.</strong> SEH1L is a nuclear pore complex component (Nup107-160 subcomplex) and GATOR2/mTORC1 regulator. Its nuclear localization is at the nuclear pore (periphery), not the nuclear interior where chromatin/transcription regulation occurs. Neither NPC transport nor mTORC1 signaling represent direct TE-regulatory functions. Should remain REJECTED.</p>
+<hr>
+<h3>TE-Regulator Relevance</h3>
+<p>LOW. SEH1L functions in nucleocytoplasmic transport and mTORC1 activation. While NPC-mediated transport could theoretically affect TE transcript export, this is an indirect and non-specific mechanism. The GATOR2/mTORC1 function is metabolic signaling, not TE-specific. No evidence for direct chromatin or transcriptional regulatory activity.</p>
+<hr>
+<h3>Final Decision: REJECTED</h3>
+<p>Score: 106/180. SEH1L has excellent structural data and a dense PPI network, but its localization is nuclear periphery (NPC), not nuclear interior, and its functions (NPC transport, mTORC1 signaling) are not directly TE-regulatory. Confirmed rejection.</p>
+<hr>
+<h3>Manual Review Note</h3>
+<p>CONFIRMED REJECTION. SEH1L is a well-studied nucleoporin (Nup107-160 subcomplex) with dual function in nuclear pore transport and GATOR2-mediated mTORC1 activation. While the NPC is nuclear-associated, NPC proteins function at the nuclear-cytoplasmic interface, not in the nuclear interior. SEH1L has no chromatin, transcriptional, or epigenetic regulatory domains or functions. The GATOR2 role in mTORC1 signaling is metabolic, not TE-regulatory. Rejected despite excellent structural data and dense PPI network.</p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

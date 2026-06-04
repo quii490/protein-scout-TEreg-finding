@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SELENOF · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>SELENOF</h1><div class="report-meta"><span class="badge muted">rejected</span><span class="badge">rejected</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 3</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/rejected.html">Category page</a></div><p class="source-path">Original detail path: detail/rejected/SELENOF/SELENOF-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;SELENOF&quot; date: 2026-06-04 tags: [protein-scout, re-evaluation, batch-recovery] status: rejected rejection_reason: &quot;Nuclear localization score ≤3 (ER lumen resident protein)&quot; ---</p>
+<h3>SELENOF -- Re-evaluation Report (REJECTED: ER Lumen Protein, No Nuclear Localization)</h3>
+<h4>1. Basic Information</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Item</th><th>Content</th></tr></thead><tbody>
+<tr><td>Gene / Aliases</td><td>SELENOF / SEP15, Selenoprotein F, 15 kDa selenoprotein</td></tr>
+<tr><td>Protein Name</td><td>Selenoprotein F (15 kDa selenoprotein, thioredoxin-like domain protein)</td></tr>
+<tr><td>Protein Size</td><td>162 aa, ~17.2 kDa</td></tr>
+<tr><td>UniProt ID</td><td>O60613 (SEP15_HUMAN, Swiss-Prot reviewed)</td></tr>
+<tr><td>Evaluation Date</td><td>2026-06-04</td></tr>
+<tr><td>Data Source</td><td>Curated public database evidence and existing report-level annotations</td></tr>
+</tbody></table></div>
+<h4>2. Scoring Overview</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Score</th><th>Max</th><th>Weighted</th><th>Key Evidence Summary</th></tr></thead><tbody>
+<tr><td>Nuclear Localization Specificity</td><td>1/10</td><td>x4</td><td><strong>4</strong></td><td>ER lumen; retained via UGGT1 interaction; no nuclear annotation</td></tr>
+<tr><td>Protein Size</td><td>10/10</td><td>x1</td><td><strong>10</strong></td><td>162 aa, small and tractable</td></tr>
+<tr><td>Research Novelty</td><td>6/10</td><td>x5</td><td><strong>30</strong></td><td>Estimated ~40-60 PubMed articles</td></tr>
+<tr><td>3D Structure</td><td>5/10</td><td>x3</td><td><strong>15</strong></td><td>AlphaFold predicted; thioredoxin-like fold; no experimental PDB</td></tr>
+<tr><td>Regulatory Domains</td><td>2/10</td><td>x2</td><td><strong>4</strong></td><td>Thioredoxin-like domain; no regulatory domains</td></tr>
+<tr><td>PPI Network</td><td>3/10</td><td>x3</td><td><strong>9</strong></td><td>UGGT1/UGCGL1 complex; UFBP1; limited interactome</td></tr>
+<tr><td>Cross-Validation Bonus</td><td>--</td><td>--</td><td><strong>+0</strong></td><td>Consistent ER annotation; nuclear support absent from curated localization sources</td></tr>
+<tr><td><strong>Raw Total</strong></td><td></td><td></td><td><strong>72.0/180</strong></td><td></td></tr>
+<tr><td><strong>Normalized Total</strong></td><td></td><td></td><td><strong>40.0/100</strong></td><td></td></tr>
+</tbody></table></div>
+<p><strong>FINAL DECISION: REJECTED. Nuclear localization score 1/10 (threshold: ≤3). SELENOF is an ER lumen resident protein with no nuclear localization evidence.</strong></p>
+<h4>3. Nuclear Localization Evidence</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Source</th><th>Localization</th><th>Reliability</th></tr></thead><tbody>
+<tr><td>UniProt (Swiss-Prot)</td><td>Endoplasmic reticulum lumen</td><td>Primary annotation</td></tr>
+<tr><td>Wikipedia</td><td>Endoplasmic reticulum</td><td>Consensus</td></tr>
+<tr><td>HPA Cell Atlas</td><td>Endoplasmic reticulum</td><td>Database annotation</td></tr>
+</tbody></table></div>
+<p><strong>Manual Review Assessment</strong>: SELENOF is definitively localized to the endoplasmic reticulum lumen. Its ER retention depends on a tight complex with UGGT1/UGCGL1 (UDP-glucose:glycoprotein glucosyltransferase), an ER-resident protein. This interaction is essential for its retention -- without UGGT1, SELENOF would be secreted. The protein functions in ER protein quality control, regulating protein folding by enhancing UGGT1/UGGT2 catalytic activity. It contains a thioredoxin-like domain with a selenocysteine (Sec) residue at its active site, involved in redox reactions associated with disulfide bond formation -- an ER-specific process. No database annotates nuclear localization. The protein&#x27;s biology is entirely ER/secretory pathway-dependent. Nuclear localization score 1/10 reflects unequivocal ER localization.</p>
+<h4>4. Protein Size Assessment</h4>
+<p>SELENOF is 162 amino acids (17.2 kDa), a small protein amenable to structural and biochemical studies. Size score: 10/10.</p>
+<h4>5. Research Novelty (PubMed Analysis)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody>
+<tr><td>PubMed strict query</td><td><code>&quot;SELENOF&quot;[Title/Abstract] OR &quot;SEP15&quot;[Title/Abstract]</code></td></tr>
+<tr><td>PubMed strict estimated count</td><td>~40-60 articles</td></tr>
+<tr><td>PubMed broad query</td><td><code>&quot;SELENOF&quot; OR &quot;SEP15&quot; OR &quot;Selenoprotein F&quot;</code></td></tr>
+<tr><td>PubMed broad estimated count</td><td>Moderate; dominated by selenium biology and ER quality-control studies</td></tr>
+<tr><td>Novelty category</td><td>41-80 -&gt; Score 6</td></tr>
+</tbody></table></div>
+<p>SELENOF/SEP15 was discovered as part of the selenoproteome. Research focuses on its role in ER redox homeostasis, protein quality control, and selenium biology. Moderate research activity. Score 6/10.</p>
+<h4>6. 3D Structure Analysis</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody>
+<tr><td>AlphaFold Prediction</td><td>Available</td></tr>
+<tr><td>pLDDT / PAE</td><td>AlphaFold model expected to be most confident across the compact thioredoxin-like domain; PAE image/metadata should be interpreted as supportive structural context rather than evidence for nuclear function</td></tr>
+<tr><td>PDB Entries</td><td>0 (no experimental structures)</td></tr>
+<tr><td>Domain</td><td>Thioredoxin-like fold</td></tr>
+</tbody></table></div>
+<p>AlphaFold prediction available. The thioredoxin-like domain is a well-characterized protein fold typically predicted with high confidence. PAE/pLDDT evidence supports the compact ER redox-fold interpretation, but it does not create nuclear localization or TE-regulatory relevance. No experimental structures. Score 5/10.</p>
+<h4>7. Domain Architecture</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Source</th><th>Domain/Feature</th><th>Notes</th></tr></thead><tbody>
+<tr><td>InterPro</td><td>Thioredoxin-like domain</td><td>Redox-active selenocysteine; protein disulfide isomerase family</td></tr>
+<tr><td>UniProt</td><td>Selenocysteine active site</td><td>Sec (U) at active site position</td></tr>
+</tbody></table></div>
+<p>SELENOF contains a thioredoxin-like domain, characteristic of protein disulfide isomerases and redox enzymes functioning in the ER. No regulatory domains (no kinase, phosphatase, DNA-binding, chromatin, or signaling domains). The selenocysteine active site is specialized for ER redox catalysis. Score 2/10.</p>
+<h4>8. PPI Network Analysis</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Source</th><th>Result</th></tr></thead><tbody>
+<tr><td>Known Partners</td><td>UGGT1/UGCGL1 (ER-retention complex), UFBP1 (UFM1-binding protein)</td></tr>
+<tr><td>STRING</td><td>ER quality control network</td></tr>
+</tbody></table></div>
+<p>PPI data is limited to ER quality control machinery. No nuclear or regulatory interactions. Score 3/10.</p>
+<h4>9. TE-Regulator Relevance Reasoning</h4>
+<p>SELENOF has very low relevance to TE regulation. Its localization, domain architecture, and interaction context all point to ER protein quality control rather than nuclear transcription, chromatin regulation, RNA processing, DNA repair, or TE-silencing biology. The thioredoxin-like selenoprotein fold is compatible with ER redox chemistry and disulfide quality control, not with DNA/RNA binding or chromatin reader activity. UGGT1/UGCGL1-linked retention further supports an ER lumen role. This evidence explains why the current rejected status is based on biological localization and function rather than a data retrieval artifact.</p>
+<h4>10. Overall Assessment</h4>
+<p><strong>Recommendation Level</strong>: NOT RECOMMENDED (REJECTED)</p>
+<p><strong>Primary Rejection Reason</strong>: SELENOF is an ER lumen resident protein dedicated to ER protein quality control. It has no nuclear localization, nuclear function, or connection to transcriptional regulation. The rejection is based on unambiguous non-nuclear localization.</p>
+<h4>11. Decision</h4>
+<p><strong>FINAL DECISION: REJECTED.</strong> Nuclear localization score 1/10. SELENOF&#x27;s ER biology excludes it from TE-regulation screening.</p>
+<h4>12. Data Sources</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/O60613</li><li>HPA Cell Atlas: https://v19.proteinatlas.org/ENSG00000183291-SELENOF/cell</li><li>Wikipedia: https://en.wikipedia.org/wiki/SEP15</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=SELENOF</li><li>Note: Evidence summary compiled from curated public database annotations and existing report-level sources</li></ul></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

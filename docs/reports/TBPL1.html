@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TBPL1 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>TBPL1</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 24</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/TBPL1/TBPL1-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;TBPL1&quot; date: 2026-06-01 tags: [protein-scout, nucleoplasm, evaluation] status: scored ---</p>
+<h3>TBPL1 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>TBPL1 / TLF, TLP, TLP21, TRF2, TRP</td></tr>
+<tr><td>蛋白全名</td><td>TATA box-binding protein-like 1</td></tr>
+<tr><td>蛋白大小</td><td>186 aa / 20.9 kDa</td></tr>
+<tr><td>UniProt ID</td><td>P62380</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>新权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>6/10</td><td>×4</td><td>24.0</td><td>UniProt Cytoplasm+Nucleus (ECO:0000250)；GO-CC male germ cell nucleus IEA, TFIIA complex IEA；HPA Supported, Nucleoplasm (main) + Nucleoli</td></tr>
+<tr><td>蛋白大小</td><td>9/10</td><td>×1</td><td>9.0</td><td>186 aa, 20.9 kDa，小型 TBP 家族转录因子</td></tr>
+<tr><td>研究新颖性</td><td>10/10</td><td>×5</td><td>50.0</td><td>PubMed strict=16, broad=39</td></tr>
+<tr><td>三维结构</td><td>7/10</td><td>×3</td><td>21.0</td><td>AlphaFold pLDDT 95.0 (pct&gt;90: 93.5%)；无 PDB 结构</td></tr>
+</tbody></table></div>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/TBPL1/TBPL1-PAE.png</code></div></figure></p>
+<div class="table-wrap"><table>
+<tbody>
+<tr><td>调控结构域</td><td>7/10</td><td>×2</td><td>14.0</td><td>TBP domain (PF00352, IPR000814, IPR012295)；TATA box 结合蛋白同源域，转录因子核心域</td></tr>
+<tr><td>PPI 网络</td><td>7/10</td><td>×3</td><td>21.0</td><td>STRING: GTF2B (0.996 exp 0.81), GTF2A1 (0.993 exp 0.931), GTF2A2 (0.976 exp 0.936)；IntAct 15 条；UniProt 8 条</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>139/180</strong>**</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+0.0</td><td></td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>76.0/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Cytoplasm (ECO:0000250), Nucleus (ECO:0000250)</td><td>低 (序列相似性推断)</td></tr>
+<tr><td>GO-CC</td><td>cytoplasm (IEA:UniProtKB-SubCell), male germ cell nucleus (IEA:Ensembl), transcription factor TFIIA complex (IEA:Ensembl)</td><td>低-中</td></tr>
+<tr><td>Protein Atlas (IF)</td><td>HPA Supported, Nucleoplasm (main) + Nucleoli (additional)</td><td>中 (HPA 确认)</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 状态</strong>: HPA IF 图像已本地嵌入。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/TBPL1/TBPL1_IF_1510_H9_1_red_green.jpg</code></div></figure>。核定位基于HPA localization/reliability + UniProt + GO-CC。</p>
+<p><strong>结论</strong>: TBPL1 核定位主要依赖 HPA（Supported），UniProt/GO-CC 证据较弱（均为同源推断或电子注释）。但作为 TBP 家族转录因子，核定位在功能逻辑上高度合理。HPA 支持的 Nucleoplasm + Nucleoli 定位与已知的 ribosomal protein gene 转录调控功能一致。</p>
+<h5>3.2 结构与数据源</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold</td><td>AF-P62380-F1</td></tr>
+<tr><td>平均 pLDDT</td><td>95.0</td></tr>
+<tr><td>pLDDT &gt;90</td><td>93.5%</td></tr>
+<tr><td>pLDDT 70-90</td><td>2.2%</td></tr>
+<tr><td>pLDDT &lt;50</td><td>1.6%</td></tr>
+<tr><td>PDB</td><td>无</td></tr>
+<tr><td>InterPro</td><td>IPR000814 (TBP), IPR015445 (TBP-like), IPR012295 (TBP domain superfamily)</td></tr>
+<tr><td>Pfam</td><td>PF00352 (TBP)</td></tr>
+</tbody></table></div>
+<p><strong>AlphaFold PAE 状态</strong>: PAE 已下载。pLDDT 极高 (95.0, 93.5% &gt;90)，仅 1.6% &lt;50，结构预测极为可靠。TBPL1 为小型蛋白 (186 aa)，虽无 PDB 实验结构，但 AlphaFold 预测置信度足以支持结构相关研究。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/TBPL1/TBPL1-PAE.png</code></div></figure></p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict (Title/Abstract)</td><td>16</td></tr>
+<tr><td>PubMed broad</td><td>39</td></tr>
+<tr><td>别名</td><td>TLF, TLP, TLP21, TRF2, TRP（未用于 scoring）</td></tr>
+</tbody></table></div>
+<p>关键文献：TBPL1 是 TATA box-binding protein (TBP) 家族成员，通过识别 TCT 启动子元件介导 ribosomal protein genes 的转录（不结合 TATA box）。功能区别于经典 TBP，但在转录调控中角色独立且重要。代表性文献：PMID:35122989 (c-MYC 通过 miR-9-5p 调控 TBPL1 参与 IPF), PMID:35597524 (TBP 家族在转录调控中的角色综述), PMID:19515240 (TIPT2 和 geminin 与 basal transcription factors 协同)。文献量极低（strict=16），属于高度新颖靶标。</p>
+<h5>3.4 PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>GTF2B</td><td>STRING</td><td>0.996 (exp 0.81, database 0.9)</td><td>Basal transcription factor</td></tr>
+<tr><td>GTF2A1</td><td>STRING+IntAct+UniProt</td><td>0.993 (exp 0.931), Co-IP, 8 exp</td><td>TFIIA complex</td></tr>
+<tr><td>GTF2A2</td><td>STRING+IntAct+UniProt</td><td>0.976 (exp 0.936), Co-IP, 4 exp</td><td>TFIIA complex</td></tr>
+<tr><td>TBP</td><td>STRING</td><td>0.941 (exp 0.277, database 0.9)</td><td>TBP family</td></tr>
+<tr><td>TBPL2</td><td>STRING</td><td>0.938 (exp 0.277, database 0.9)</td><td>TBP family</td></tr>
+<tr><td>TAF2</td><td>STRING</td><td>0.881 (exp 0.743)</td><td>TFIID complex</td></tr>
+<tr><td>TAF12</td><td>STRING</td><td>0.868 (exp 0.743)</td><td>TFIID complex</td></tr>
+<tr><td>BTAF1</td><td>STRING</td><td>0.87 (exp 0.749)</td><td>TBP regulator</td></tr>
+</tbody></table></div>
+<p>PPI 网络以基础转录机器（GTF2B/GTF2A1/GTF2A2/TBP/TAFs）为核心，实验验证丰富且多样化（Co-IP, Y2H, protein array, cross-linking）。GTF2A1-GTF2A2 的 Co-IP 和 Y2H 验证极为充分（exp 0.931/0.936）。IntAct 和 UniProt 记录相互独立验证相同互作伙伴（GTF2A1, GTF2A2），提供 PPI 网络的三源互证。</p>
+<h4>4. 总体评价</h4>
+<p>TBPL1 是一个文献量极低（strict=16）、结构预测可靠（pLDDT 95.0）、蛋白小型（20.9 kDa）的转录因子候选。作为 TBP 家族中独立于 TATA box 的 ribosomal protein gene 特异转录因子，其功能新颖且有区分度。优势：极高结构预测置信度、PPI 网络丰富且实验验证充分（GTF2A1/GTF2B 等）。主要不足：无 PDB 实验结构，核定位 UniProt/GO-CC 证据偏弱（依赖同源推断），但 HPA Supported 定位 + 功能逻辑强烈支持核定位。综合评分在 nucleoplasm 类别中具有竞争力。</p>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/P62380</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/P62380</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=TBPL1</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000028839-TBPL1</li></ul>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/TBPL1/TBPL1-PAE.png</code></div></figure></p>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/TBPL1/TBPL1-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,842 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home · Protein Scout</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="home">
+<header class="topbar">
+  <a class="brand" href="index.html">Protein Scout</a>
+  <nav>
+    <a href="protein_index.html">Protein Index</a>
+    <a href="category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="category/nuclear-body.html">Nuclear body</a>
+    <a href="category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container">
+  <section class="hero"><div><h1>Protein Scout / TEreg Finding Atlas</h1><p class="lede">A static research atlas for TE-regulation candidate protein evaluations. The site is generated from the existing master summary and the original per-protein reports without modifying scientific report content.</p></div><div class="panel"><h2>Screening focus</h2><p>Nuclear localization, domain evidence, novelty, structure evidence, protein interactions, and literature support are summarized for fast review.</p></div></section>
+  <section class="stats-grid"><div class="stat"><span class="label">Total reports</span><span class="value">5,647</span></div><div class="stat"><span class="label">Scored</span><span class="value">3,379</span></div><div class="stat"><span class="label">Rejected</span><span class="value">2,268</span></div><div class="stat"><span class="label">Categories</span><span class="value">8</span></div><div class="stat"><span class="label">Duplicates</span><span class="value">86</span></div><div class="stat"><span class="label">Backlog flags</span><span class="value">310</span></div></section>
+  <section class="panel"><h2>Current data state</h2><p>Excel coverage is recorded as 4,756/4,756. Known non-blocking backlog remains visible: 832 need reharvest backlog, 43 duplicate conflicts, and pre-existing gate errors.</p></section>
+  <section class="panel"><h2>Browse</h2><div class="nav-grid"><a class="button primary" href="protein_index.html">All proteins</a><a class="button" href="category/nucleoplasm.html">nucleoplasm <span class="badge">2939</span></a><a class="button" href="category/nucleus-cytoplasm.html">nucleus-cytoplasm <span class="badge">150</span></a><a class="button" href="category/nuclear-speckle.html">nuclear-speckle <span class="badge">329</span></a><a class="button" href="category/nuclear-body.html">nuclear-body <span class="badge">74</span></a><a class="button" href="category/nucleolus.html">nucleolus <span class="badge">400</span></a><a class="button" href="category/nuclear-envelope.html">nuclear-envelope <span class="badge">147</span></a><a class="button" href="category/chromatin.html">chromatin <span class="badge">138</span></a><a class="button" href="category/rejected.html">rejected <span class="badge">1470</span></a></div></section>
+  <h2>High-scoring preview</h2><section class="panel table-panel">
+  <div class="controls" data-controls>
+    <input type="search" data-search placeholder="Search gene symbol" aria-label="Search gene symbol">
+    <select data-status-filter aria-label="Filter by status"><option value="">All status</option><option value="scored">Scored</option><option value="rejected">Rejected</option></select>
+    <select data-category-filter aria-label="Filter by category"><option value="">All categories</option></select>
+    <button class="button" type="button" data-sort-score>Sort score</button>
+    <button class="button" type="button" data-sort-nuclear>Sort nuclear score</button>
+    <button class="button ghost" type="button" data-clear>Clear</button>
+  </div>
+  <div class="table-meta"><span data-visible-count>80</span> visible / 80 records</div>
+  <div class="table-wrap">
+    <table class="protein-table" data-protein-table>
+      <thead><tr><th>Gene</th><th>Status</th><th>Category</th><th>Score</th><th>Nuclear score</th><th>Evidence</th><th>Backlog / manual</th><th>Detail</th></tr></thead>
+      <tbody><tr data-gene="iho1" data-status="scored" data-category="chromatin" data-score="100" data-nuclear-score="36">
+<td><a class="gene-link" href="reports/IHO1.html">IHO1</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/chromatin.html">chromatin</a></td>
+<td class="num">100</td>
+<td class="num">36</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/IHO1.html">Open</a></td>
+</tr>
+<tr data-gene="lrwd1" data-status="scored" data-category="chromatin" data-score="100" data-nuclear-score="9">
+<td><a class="gene-link" href="reports/LRWD1.html">LRWD1</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/chromatin.html">chromatin</a></td>
+<td class="num">100</td>
+<td class="num">9</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/LRWD1.html">Open</a></td>
+</tr>
+<tr data-gene="mphosph8" data-status="scored" data-category="chromatin" data-score="100" data-nuclear-score="36">
+<td><a class="gene-link" href="reports/MPHOSPH8.html">MPHOSPH8</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/chromatin.html">chromatin</a></td>
+<td class="num">100</td>
+<td class="num">36</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/MPHOSPH8.html">Open</a></td>
+</tr>
+<tr data-gene="paxip1" data-status="scored" data-category="chromatin" data-score="100" data-nuclear-score="1">
+<td><a class="gene-link" href="reports/PAXIP1.html">PAXIP1</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/chromatin.html">chromatin</a></td>
+<td class="num">100</td>
+<td class="num">1</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/PAXIP1.html">Open</a></td>
+</tr>
+<tr data-gene="plrg1" data-status="scored" data-category="chromatin" data-score="100" data-nuclear-score="1">
+<td><a class="gene-link" href="reports/PLRG1.html">PLRG1</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/chromatin.html">chromatin</a></td>
+<td class="num">100</td>
+<td class="num">1</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/PLRG1.html">Open</a></td>
+</tr>
+<tr data-gene="pphln1" data-status="scored" data-category="chromatin" data-score="100" data-nuclear-score="1">
+<td><a class="gene-link" href="reports/PPHLN1.html">PPHLN1</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/chromatin.html">chromatin</a></td>
+<td class="num">100</td>
+<td class="num">1</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/PPHLN1.html">Open</a></td>
+</tr>
+<tr data-gene="prr14" data-status="scored" data-category="chromatin" data-score="100" data-nuclear-score="1">
+<td><a class="gene-link" href="reports/PRR14.html">PRR14</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/chromatin.html">chromatin</a></td>
+<td class="num">100</td>
+<td class="num">1</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/PRR14.html">Open</a></td>
+</tr>
+<tr data-gene="prr7" data-status="scored" data-category="chromatin" data-score="100" data-nuclear-score="16">
+<td><a class="gene-link" href="reports/PRR7.html">PRR7</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/chromatin.html">chromatin</a></td>
+<td class="num">100</td>
+<td class="num">16</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/PRR7.html">Open</a></td>
+</tr>
+<tr data-gene="purb" data-status="scored" data-category="chromatin" data-score="100" data-nuclear-score="1">
+<td><a class="gene-link" href="reports/PURB.html">PURB</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/chromatin.html">chromatin</a></td>
+<td class="num">100</td>
+<td class="num">1</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/PURB.html">Open</a></td>
+</tr>
+<tr data-gene="qser1" data-status="scored" data-category="chromatin" data-score="100" data-nuclear-score="20">
+<td><a class="gene-link" href="reports/QSER1.html">QSER1</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/chromatin.html">chromatin</a></td>
+<td class="num">100</td>
+<td class="num">20</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/QSER1.html">Open</a></td>
+</tr>
+<tr data-gene="rtf2" data-status="scored" data-category="chromatin" data-score="100" data-nuclear-score="2">
+<td><a class="gene-link" href="reports/RTF2.html">RTF2</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/chromatin.html">chromatin</a></td>
+<td class="num">100</td>
+<td class="num">2</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/RTF2.html">Open</a></td>
+</tr>
+<tr data-gene="sgf29" data-status="scored" data-category="chromatin" data-score="100" data-nuclear-score="1">
+<td><a class="gene-link" href="reports/SGF29.html">SGF29</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/chromatin.html">chromatin</a></td>
+<td class="num">100</td>
+<td class="num">1</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/SGF29.html">Open</a></td>
+</tr>
+<tr data-gene="sltm" data-status="scored" data-category="chromatin" data-score="100" data-nuclear-score="1">
+<td><a class="gene-link" href="reports/SLTM.html">SLTM</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/chromatin.html">chromatin</a></td>
+<td class="num">100</td>
+<td class="num">1</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/SLTM.html">Open</a></td>
+</tr>
+<tr data-gene="spindoc" data-status="scored" data-category="chromatin" data-score="100" data-nuclear-score="1">
+<td><a class="gene-link" href="reports/SPINDOC.html">SPINDOC</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/chromatin.html">chromatin</a></td>
+<td class="num">100</td>
+<td class="num">1</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/SPINDOC.html">Open</a></td>
+</tr>
+<tr data-gene="ssbp2" data-status="scored" data-category="chromatin" data-score="100" data-nuclear-score="1">
+<td><a class="gene-link" href="reports/SSBP2.html">SSBP2</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/chromatin.html">chromatin</a></td>
+<td class="num">100</td>
+<td class="num">1</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/SSBP2.html">Open</a></td>
+</tr>
+<tr data-gene="supt16h" data-status="scored" data-category="chromatin" data-score="100" data-nuclear-score="1">
+<td><a class="gene-link" href="reports/SUPT16H.html">SUPT16H</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/chromatin.html">chromatin</a></td>
+<td class="num">100</td>
+<td class="num">1</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/SUPT16H.html">Open</a></td>
+</tr>
+<tr data-gene="syce1" data-status="scored" data-category="chromatin" data-score="100" data-nuclear-score="1">
+<td><a class="gene-link" href="reports/SYCE1.html">SYCE1</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/chromatin.html">chromatin</a></td>
+<td class="num">100</td>
+<td class="num">1</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/SYCE1.html">Open</a></td>
+</tr>
+<tr data-gene="syce2" data-status="scored" data-category="chromatin" data-score="100" data-nuclear-score="1">
+<td><a class="gene-link" href="reports/SYCE2.html">SYCE2</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/chromatin.html">chromatin</a></td>
+<td class="num">100</td>
+<td class="num">1</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/SYCE2.html">Open</a></td>
+</tr>
+<tr data-gene="tada2a" data-status="scored" data-category="chromatin" data-score="100" data-nuclear-score="1">
+<td><a class="gene-link" href="reports/TADA2A.html">TADA2A</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/chromatin.html">chromatin</a></td>
+<td class="num">100</td>
+<td class="num">1</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/TADA2A.html">Open</a></td>
+</tr>
+<tr data-gene="tasor2" data-status="scored" data-category="chromatin" data-score="100" data-nuclear-score="1">
+<td><a class="gene-link" href="reports/TASOR2.html">TASOR2</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/chromatin.html">chromatin</a></td>
+<td class="num">100</td>
+<td class="num">1</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/TASOR2.html">Open</a></td>
+</tr>
+<tr data-gene="telo2" data-status="scored" data-category="chromatin" data-score="100" data-nuclear-score="1">
+<td><a class="gene-link" href="reports/TELO2.html">TELO2</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/chromatin.html">chromatin</a></td>
+<td class="num">100</td>
+<td class="num">1</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/TELO2.html">Open</a></td>
+</tr>
+<tr data-gene="thap4" data-status="scored" data-category="chromatin" data-score="100" data-nuclear-score="1">
+<td><a class="gene-link" href="reports/THAP4.html">THAP4</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/chromatin.html">chromatin</a></td>
+<td class="num">100</td>
+<td class="num">1</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/THAP4.html">Open</a></td>
+</tr>
+<tr data-gene="tox4" data-status="scored" data-category="chromatin" data-score="100" data-nuclear-score="1">
+<td><a class="gene-link" href="reports/TOX4.html">TOX4</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/chromatin.html">chromatin</a></td>
+<td class="num">100</td>
+<td class="num">1</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/TOX4.html">Open</a></td>
+</tr>
+<tr data-gene="mesd" data-status="scored" data-category="nuclear-body" data-score="100" data-nuclear-score="3">
+<td><a class="gene-link" href="reports/MESD.html">MESD</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nuclear-body.html">nuclear-body</a></td>
+<td class="num">100</td>
+<td class="num">3</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/MESD.html">Open</a></td>
+</tr>
+<tr data-gene="eogt" data-status="scored" data-category="nuclear-envelope" data-score="100" data-nuclear-score="3">
+<td><a class="gene-link" href="reports/EOGT.html">EOGT</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nuclear-envelope.html">nuclear-envelope</a></td>
+<td class="num">100</td>
+<td class="num">3</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/EOGT.html">Open</a></td>
+</tr>
+<tr data-gene="lemd2" data-status="scored" data-category="nuclear-envelope" data-score="100" data-nuclear-score="2">
+<td><a class="gene-link" href="reports/LEMD2.html">LEMD2</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nuclear-envelope.html">nuclear-envelope</a></td>
+<td class="num">100</td>
+<td class="num">2</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/LEMD2.html">Open</a></td>
+</tr>
+<tr data-gene="resf1" data-status="scored" data-category="nuclear-envelope" data-score="100" data-nuclear-score="1">
+<td><a class="gene-link" href="reports/RESF1.html">RESF1</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nuclear-envelope.html">nuclear-envelope</a></td>
+<td class="num">100</td>
+<td class="num">1</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/RESF1.html">Open</a></td>
+</tr>
+<tr data-gene="supt6h" data-status="scored" data-category="nuclear-envelope" data-score="100" data-nuclear-score="6">
+<td><a class="gene-link" href="reports/SUPT6H.html">SUPT6H</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nuclear-envelope.html">nuclear-envelope</a></td>
+<td class="num">100</td>
+<td class="num">6</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/SUPT6H.html">Open</a></td>
+</tr>
+<tr data-gene="yaf2" data-status="scored" data-category="nuclear-envelope" data-score="100" data-nuclear-score="2">
+<td><a class="gene-link" href="reports/YAF2.html">YAF2</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nuclear-envelope.html">nuclear-envelope</a></td>
+<td class="num">100</td>
+<td class="num">2</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/YAF2.html">Open</a></td>
+</tr>
+<tr data-gene="dennd1b" data-status="scored" data-category="nuclear-speckle" data-score="100" data-nuclear-score="3">
+<td><a class="gene-link" href="reports/DENND1B.html">DENND1B</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nuclear-speckle.html">nuclear-speckle</a></td>
+<td class="num">100</td>
+<td class="num">3</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/DENND1B.html">Open</a></td>
+</tr>
+<tr data-gene="exo5" data-status="scored" data-category="nuclear-speckle" data-score="100" data-nuclear-score="3">
+<td><a class="gene-link" href="reports/EXO5.html">EXO5</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nuclear-speckle.html">nuclear-speckle</a></td>
+<td class="num">100</td>
+<td class="num">3</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/EXO5.html">Open</a></td>
+</tr>
+<tr data-gene="gucy1a1" data-status="scored" data-category="nuclear-speckle" data-score="100" data-nuclear-score="1">
+<td><a class="gene-link" href="reports/GUCY1A1.html">GUCY1A1</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nuclear-speckle.html">nuclear-speckle</a></td>
+<td class="num">100</td>
+<td class="num">1</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/GUCY1A1.html">Open</a></td>
+</tr>
+<tr data-gene="pou5f2" data-status="scored" data-category="nuclear-speckle" data-score="100" data-nuclear-score="5">
+<td><a class="gene-link" href="reports/POU5F2.html">POU5F2</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nuclear-speckle.html">nuclear-speckle</a></td>
+<td class="num">100</td>
+<td class="num">5</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/POU5F2.html">Open</a></td>
+</tr>
+<tr data-gene="serf2" data-status="scored" data-category="nuclear-speckle" data-score="100" data-nuclear-score="2">
+<td><a class="gene-link" href="reports/SERF2.html">SERF2</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nuclear-speckle.html">nuclear-speckle</a></td>
+<td class="num">100</td>
+<td class="num">2</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/SERF2.html">Open</a></td>
+</tr>
+<tr data-gene="sgo2" data-status="scored" data-category="nuclear-speckle" data-score="100" data-nuclear-score="2">
+<td><a class="gene-link" href="reports/SGO2.html">SGO2</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nuclear-speckle.html">nuclear-speckle</a></td>
+<td class="num">100</td>
+<td class="num">2</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/SGO2.html">Open</a></td>
+</tr>
+<tr data-gene="spocd1" data-status="scored" data-category="nuclear-speckle" data-score="100" data-nuclear-score="1">
+<td><a class="gene-link" href="reports/SPOCD1.html">SPOCD1</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nuclear-speckle.html">nuclear-speckle</a></td>
+<td class="num">100</td>
+<td class="num">1</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/SPOCD1.html">Open</a></td>
+</tr>
+<tr data-gene="ssbp4" data-status="scored" data-category="nuclear-speckle" data-score="100" data-nuclear-score="4">
+<td><a class="gene-link" href="reports/SSBP4.html">SSBP4</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nuclear-speckle.html">nuclear-speckle</a></td>
+<td class="num">100</td>
+<td class="num">4</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/SSBP4.html">Open</a></td>
+</tr>
+<tr data-gene="xylb" data-status="scored" data-category="nuclear-speckle" data-score="100" data-nuclear-score="3">
+<td><a class="gene-link" href="reports/XYLB.html">XYLB</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nuclear-speckle.html">nuclear-speckle</a></td>
+<td class="num">100</td>
+<td class="num">3</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/XYLB.html">Open</a></td>
+</tr>
+<tr data-gene="abtb1" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="3">
+<td><a class="gene-link" href="reports/ABTB1.html">ABTB1</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">3</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/ABTB1.html">Open</a></td>
+</tr>
+<tr data-gene="akna" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="3">
+<td><a class="gene-link" href="reports/AKNA.html">AKNA</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">3</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/AKNA.html">Open</a></td>
+</tr>
+<tr data-gene="aktip" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="3">
+<td><a class="gene-link" href="reports/AKTIP.html">AKTIP</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">3</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/AKTIP.html">Open</a></td>
+</tr>
+<tr data-gene="bpgm" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="3">
+<td><a class="gene-link" href="reports/BPGM.html">BPGM</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">3</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/BPGM.html">Open</a></td>
+</tr>
+<tr data-gene="cables2" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="3">
+<td><a class="gene-link" href="reports/CABLES2.html">CABLES2</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">3</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/CABLES2.html">Open</a></td>
+</tr>
+<tr data-gene="chtop" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="4">
+<td><a class="gene-link" href="reports/CHTOP.html">CHTOP</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">4</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/CHTOP.html">Open</a></td>
+</tr>
+<tr data-gene="creld1" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="3">
+<td><a class="gene-link" href="reports/CRELD1.html">CRELD1</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">3</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/CRELD1.html">Open</a></td>
+</tr>
+<tr data-gene="dctn3" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="3">
+<td><a class="gene-link" href="reports/DCTN3.html">DCTN3</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">3</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/DCTN3.html">Open</a></td>
+</tr>
+<tr data-gene="dph5" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="3">
+<td><a class="gene-link" href="reports/DPH5.html">DPH5</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">3</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/DPH5.html">Open</a></td>
+</tr>
+<tr data-gene="etv3" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="3">
+<td><a class="gene-link" href="reports/ETV3.html">ETV3</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">3</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/ETV3.html">Open</a></td>
+</tr>
+<tr data-gene="fam32a" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="3">
+<td><a class="gene-link" href="reports/FAM32A.html">FAM32A</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">3</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/FAM32A.html">Open</a></td>
+</tr>
+<tr data-gene="hmgxb3" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="3">
+<td><a class="gene-link" href="reports/HMGXB3.html">HMGXB3</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">3</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/HMGXB3.html">Open</a></td>
+</tr>
+<tr data-gene="isg20l2" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="36">
+<td><a class="gene-link" href="reports/ISG20L2.html">ISG20L2</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">36</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/ISG20L2.html">Open</a></td>
+</tr>
+<tr data-gene="llph" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="10">
+<td><a class="gene-link" href="reports/LLPH.html">LLPH</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">10</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/LLPH.html">Open</a></td>
+</tr>
+<tr data-gene="lyar" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="6">
+<td><a class="gene-link" href="reports/LYAR.html">LYAR</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">6</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/LYAR.html">Open</a></td>
+</tr>
+<tr data-gene="mrpl40" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="3">
+<td><a class="gene-link" href="reports/MRPL40.html">MRPL40</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">3</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/MRPL40.html">Open</a></td>
+</tr>
+<tr data-gene="nfkbie" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="3">
+<td><a class="gene-link" href="reports/NFKBIE.html">NFKBIE</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">3</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/NFKBIE.html">Open</a></td>
+</tr>
+<tr data-gene="nwd1" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="3">
+<td><a class="gene-link" href="reports/NWD1.html">NWD1</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">3</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/NWD1.html">Open</a></td>
+</tr>
+<tr data-gene="p3h3" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="3">
+<td><a class="gene-link" href="reports/P3H3.html">P3H3</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">3</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/P3H3.html">Open</a></td>
+</tr>
+<tr data-gene="papolg" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="1">
+<td><a class="gene-link" href="reports/PAPOLG.html">PAPOLG</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">1</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/PAPOLG.html">Open</a></td>
+</tr>
+<tr data-gene="peli2" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="3">
+<td><a class="gene-link" href="reports/PELI2.html">PELI2</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">3</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/PELI2.html">Open</a></td>
+</tr>
+<tr data-gene="phc2" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="1">
+<td><a class="gene-link" href="reports/PHC2.html">PHC2</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">1</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/PHC2.html">Open</a></td>
+</tr>
+<tr data-gene="phf21b" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="3">
+<td><a class="gene-link" href="reports/PHF21B.html">PHF21B</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">3</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/PHF21B.html">Open</a></td>
+</tr>
+<tr data-gene="ppdpf" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="3">
+<td><a class="gene-link" href="reports/PPDPF.html">PPDPF</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">3</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/PPDPF.html">Open</a></td>
+</tr>
+<tr data-gene="pwp1" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="1">
+<td><a class="gene-link" href="reports/PWP1.html">PWP1</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">1</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/PWP1.html">Open</a></td>
+</tr>
+<tr data-gene="rdm1" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="1">
+<td><a class="gene-link" href="reports/RDM1.html">RDM1</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">1</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/RDM1.html">Open</a></td>
+</tr>
+<tr data-gene="rin2" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="3">
+<td><a class="gene-link" href="reports/RIN2.html">RIN2</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">3</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/RIN2.html">Open</a></td>
+</tr>
+<tr data-gene="samd14" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="3">
+<td><a class="gene-link" href="reports/SAMD14.html">SAMD14</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">3</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/SAMD14.html">Open</a></td>
+</tr>
+<tr data-gene="snapin" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="3">
+<td><a class="gene-link" href="reports/SNAPIN.html">SNAPIN</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">3</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/SNAPIN.html">Open</a></td>
+</tr>
+<tr data-gene="srek1ip1" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="3">
+<td><a class="gene-link" href="reports/SREK1IP1.html">SREK1IP1</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">3</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/SREK1IP1.html">Open</a></td>
+</tr>
+<tr data-gene="ssbp3" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="1">
+<td><a class="gene-link" href="reports/SSBP3.html">SSBP3</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">1</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/SSBP3.html">Open</a></td>
+</tr>
+<tr data-gene="supt3h" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="1">
+<td><a class="gene-link" href="reports/SUPT3H.html">SUPT3H</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">1</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/SUPT3H.html">Open</a></td>
+</tr>
+<tr data-gene="supt7l" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="1">
+<td><a class="gene-link" href="reports/SUPT7L.html">SUPT7L</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">1</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/SUPT7L.html">Open</a></td>
+</tr>
+<tr data-gene="tdrd3" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="1">
+<td><a class="gene-link" href="reports/TDRD3.html">TDRD3</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">1</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/TDRD3.html">Open</a></td>
+</tr>
+<tr data-gene="tent4b" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="1">
+<td><a class="gene-link" href="reports/TENT4B.html">TENT4B</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">1</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/TENT4B.html">Open</a></td>
+</tr>
+<tr data-gene="tex2" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="24">
+<td><a class="gene-link" href="reports/TEX2.html">TEX2</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">24</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/TEX2.html">Open</a></td>
+</tr>
+<tr data-gene="thumpd3" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="3">
+<td><a class="gene-link" href="reports/THUMPD3.html">THUMPD3</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">3</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/THUMPD3.html">Open</a></td>
+</tr>
+<tr data-gene="tiam2" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="3">
+<td><a class="gene-link" href="reports/TIAM2.html">TIAM2</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">3</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/TIAM2.html">Open</a></td>
+</tr>
+<tr data-gene="trmt10a" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="1">
+<td><a class="gene-link" href="reports/TRMT10A.html">TRMT10A</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">1</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/TRMT10A.html">Open</a></td>
+</tr>
+<tr data-gene="trmt1l" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="1">
+<td><a class="gene-link" href="reports/TRMT1L.html">TRMT1L</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">1</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/TRMT1L.html">Open</a></td>
+</tr>
+<tr data-gene="tspan6" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="3">
+<td><a class="gene-link" href="reports/TSPAN6.html">TSPAN6</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">3</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/TSPAN6.html">Open</a></td>
+</tr>
+<tr data-gene="ttc8" data-status="scored" data-category="nucleolus" data-score="100" data-nuclear-score="3">
+<td><a class="gene-link" href="reports/TTC8.html">TTC8</a></td>
+<td><span class="badge good">scored</span></td>
+<td><a href="category/nucleolus.html">nucleolus</a></td>
+<td class="num">100</td>
+<td class="num">3</td>
+<td><div class="badges"><span class="badge good">HPA</span><span class="badge good">IF</span><span class="badge good">PAE</span><span class="badge good">PDB</span><span class="badge good">PPI</span><span class="badge good">PubMed</span></div></td>
+<td class="flags"></td>
+<td><a class="button small" href="reports/TTC8.html">Open</a></td>
+</tr></tbody>
+    </table>
+  </div>
+</section>
+</main>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

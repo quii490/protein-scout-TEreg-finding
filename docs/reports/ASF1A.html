@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ASF1A · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>ASF1A</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">chromatin</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 36</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/chromatin.html">Category page</a></div><p class="source-path">Original detail path: detail/chromatin/ASF1A/ASF1A-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;ASF1A&quot; date: 2026-06-01 tags: [protein-scout, chromatin, evaluation] status: scored ---</p>
+<h3>ASF1A 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>ASF1A</td></tr>
+<tr><td>蛋白全名</td><td>Histone chaperone ASF1A</td></tr>
+<tr><td>蛋白大小</td><td>204 aa / 23.0 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q9Y294</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>新权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>9/10</td><td>x4</td><td>36.0</td><td>UniProt Nucleus; Chromosome, HPA Nucleoplasm（纯核质）</td></tr>
+<tr><td>蛋白大小</td><td>10/10</td><td>x1</td><td>10.0</td><td>204 aa, 23.0 kDa，极小</td></tr>
+<tr><td>研究新颖性</td><td>4/10</td><td>x5</td><td>20.0</td><td>PubMed strict=62 (≤80 区间)</td></tr>
+<tr><td>三维结构</td><td>9/10</td><td>x3</td><td>27.0</td><td>PDB 20 entries (X-ray+NMR+EM), AF pLDDT 84.1, &gt;90=74.0%</td></tr>
+<tr><td>调控结构域</td><td>9/10</td><td>x2</td><td>18.0</td><td>Histone chaperone ASF1 domain，直接结合 H3/H4，HIRA 伴侣</td></tr>
+<tr><td>PPI 网络</td><td>8/10</td><td>x3</td><td>24.0</td><td>STRING UBN1 0.999, HIRA 0.999, H3-3B 0.999, TLK2 0.997, CABIN1 0.998</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>135/180</strong>**</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+1.0</td><td>PDB 20 entries + chromatin 特异性</td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>73.8/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt Subcellular Location</td><td>Nucleus (ECO:0000269 x2); Chromosome (ECO:0000269)</td><td>高（实验证据）</td></tr>
+<tr><td>GO-CC</td><td>chromatin (IDA:UniProtKB), nucleoplasm (IDA:HPA), nucleus (IDA:LIFEdb), site of double-strand break (IDA:UniProt)</td><td>高</td></tr>
+<tr><td>HPA IF</td><td>Nucleoplasm (Enhanced 可靠性)</td><td>高</td></tr>
+<tr><td>Literature</td><td>ASF1A 是复制非依赖性染色质组装的核心伴侣（与 HIRA 协同），参与 DSB 修复和 SAHF 形成</td><td>强</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 状态</strong>: IF available -- HPA 可靠性 Enhanced，定位 Nucleoplasm（纯核质）。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/ASF1A/ASF1A_IF_red_green.jpg</code></div></figure></p>
+<p><strong>结论</strong>: ASF1A 是组蛋白 H3/H4 伴侣，核质定位（含染色质区域）明确。UniProt 三条实验证据（Nucleus + Chromosome），GO-CC 多源 IDA 支持。HPA Enhanced 纯 Nucleoplasm。参与 DSB 位点的组蛋白替换和衰老相关异染色质 foci (SAHF) 形成。</p>
+<h5>3.2 结构与数据源</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold</td><td>AF-Q9Y294-F1</td></tr>
+<tr><td>平均 pLDDT</td><td>84.1</td></tr>
+<tr><td>pLDDT &gt;90</td><td>74.0%</td></tr>
+<tr><td>pLDDT 70-90</td><td>2.0%</td></tr>
+<tr><td>pLDDT &lt;50</td><td>17.6%</td></tr>
+<tr><td>PDB</td><td>20 entries (1TEY NMR, 2I32 2.70A X-ray, 2IIJ NMR, 2IO5 2.70A, 3AAD 3.30A, 5C3I 3.50A, 6F0F 2.00A, 6F0G 2.30A, 6F0H 1.98A, 6ZUF 1.80A, 7LNY 2.10A, 7LO0 2.71A, 7V6Q 3.00A, 8BV1 2.83A, 8CJ1 2.56A, 8CJ2 2.13A, 8CJ3 3.00A, 8Z50 2.80A, 9CVC 3.50A EM, 9IMZ 3.75A EM)</td></tr>
+</tbody></table></div>
+<p>ASF1A 是本批次结构信息最丰富的蛋白：20 个 PDB 实验结构，涵盖 X-ray、NMR 和 Cryo-EM，最高分辨率 1.80A (6ZUF)。AF pLDDT 84.1。核心 ASF1 domain (1-156 aa) 结构明确，C 端 ~48 aa 含部分无序区。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/ASF1A/ASF1A-PAE.png</code></div></figure></p>
+<div class="table-wrap"><table>
+<thead><tr><th>InterPro</th><th>Pfam</th></tr></thead><tbody>
+<tr><td>IPR006818 (ASF1-like histone chaperone), IPR036747 (ASF1-like superfamily)</td><td>PF04729 (ASF1_hist_chap)</td></tr>
+</tbody></table></div>
+<p><strong>染色质调控潜力</strong>: ASF1A 是 HIRA 介导的复制非依赖性（RI）染色质组装的核心组蛋白伴侣。直接结合新合成的 H3-H4 二聚体（H3K9me1K14ac + H4K5K12ac），在 DSB 修复中促进组蛋白替换和 RAD51 加载。参与 SAHF 形成和细胞衰老。TLK1/TLK2 磷酸化调控。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict (Title/Abstract)</td><td>62</td></tr>
+<tr><td>PubMed broad</td><td>164</td></tr>
+<tr><td>别名</td><td>无</td></tr>
+</tbody></table></div>
+<p>关键文献：</p>
+<ul><li>PMID:29478807: ASF1A 在停滞/崩溃复制叉处促进同源重组修复 DSB</li><li>PMID:15621527: ASF1A 为衰老相关异染色质 foci (SAHF) 形成和细胞周期退出必需</li><li>PMID:40091041: &quot;Mechanism of ASF1 engagement by CDAN1.&quot; (Nat Commun, 2025)</li><li>PMID:39027248: &quot;ASF1A-dependent P300-mediated histone H3 lysine 18 lactylation promotes atherosclerosis by regulating EndMT.&quot; (Acta Pharm Sin B, 2024)</li><li>PMID:38498025: &quot;The TLK-ASF1 histone chaperone pathway plays a critical role in IL-1beta-mediated AML progression.&quot; (Blood, 2024)</li></ul>
+<h5>3.4 PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>UBN1</td><td>STRING</td><td>0.999 (exp 0.835)</td><td>HIRA complex 组分</td></tr>
+<tr><td>HIRA</td><td>STRING</td><td>0.999 (exp 0.997)</td><td>RI 染色质组装</td></tr>
+<tr><td>H3-3B</td><td>STRING</td><td>0.999 (exp 0.987)</td><td>组蛋白 H3.3</td></tr>
+<tr><td>CABIN1</td><td>STRING</td><td>0.998 (exp 0.820)</td><td>HIRA complex</td></tr>
+<tr><td>TLK2</td><td>STRING</td><td>0.997 (exp 0.985)</td><td>磷酸化激酶</td></tr>
+<tr><td>NASP</td><td>STRING</td><td>0.995 (exp 0.966)</td><td>组蛋白伴侣</td></tr>
+<tr><td>MCM2</td><td>STRING</td><td>0.992 (exp 0.985)</td><td>复制/修复</td></tr>
+<tr><td>CHAF1B</td><td>STRING</td><td>0.988 (exp 0.937)</td><td>CAF-1 (偶联复制和 RI 通路)</td></tr>
+<tr><td>TLK1</td><td>IntAct</td><td>Y2H (PMID:16189514)</td><td>磷酸化激酶</td></tr>
+<tr><td>HAT1</td><td>IntAct</td><td>coIP (PMID:28514442)</td><td>组蛋白乙酰转移酶</td></tr>
+<tr><td>NASP</td><td>IntAct</td><td>validated Y2H (PMID:32296183)</td><td>组蛋白伴侣</td></tr>
+</tbody></table></div>
+<p>ASF1A 的 PPI 网络以 HIRA 复合体（UBN1 + HIRA + CABIN1）为核心，介导复制非依赖性染色质组装。与 TLK1/TLK2 磷酸化调控通路紧密连接。NASP 和 HAT1 共同参与组蛋白代谢。MCM2 和 CHAF1B 连接至复制偶联通路，显示 ASF1A 在复制和非复制染色质组装间的枢纽作用。</p>
+<h4>4. 总体评价</h4>
+<p>ASF1A 是组蛋白伴侣家族的旗舰蛋白。核心优势：纯核质定位（HPA Enhanced）、极小蛋白（204 aa）、20 个 PDB 结构（X-ray/NMR/EM，最高 1.80A）、STRONG PPI（HIRA 复合体 + TLK 通路）、直接的染色质组装功能。主要劣势是 PubMed 62（新颖性 4/10），研究热度中等偏高。与 ASF1B 高度同源但功能分工清晰（ASF1A = RI 染色质组装 + DSB 修复 + SAHF；ASF1B = 复制偶联染色质组装）。作为染色质组装和衰老调控的关键因子，是优秀的结构功能研究靶点。</p>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9Y294</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9Y294</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=ASF1A</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000111875-ASF1A</li></ul>
+<p>HPA IF 图像已本地嵌入。</p>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/ASF1A/ASF1A-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

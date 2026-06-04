@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PREPL · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>PREPL</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleus-cytoplasm</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 22</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleus-cytoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleus-cytoplasm/PREPL/PREPL-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;PREPL&quot; date: 2026-06-02 tags: [protein-scout, nucleus-cytoplasm, evaluation] status: scored ---</p>
+<h3>PREPL 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>PREPL / KIAA0436</td></tr>
+<tr><td>蛋白全名</td><td>Prolyl endopeptidase-like</td></tr>
+<tr><td>蛋白大小</td><td>727 aa / 83.9 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q4J6C6</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>4/10</td><td>×4</td><td>16.0</td><td>Cytosol + Golgi + Nucleus (ECO:0000269); GO nucleus IEA</td></tr>
+<tr><td>蛋白大小</td><td>10/10</td><td>×1</td><td>10.0</td><td>727 aa, 83.9 kDa, 处于理想范围</td></tr>
+<tr><td>研究新颖性</td><td>6/10</td><td>×5</td><td>30.0</td><td>PubMed strict=44, symbol_only=96, broad=404</td></tr>
+<tr><td>三维结构</td><td>8/10</td><td>×3</td><td>24.0</td><td>2 PDB (7OBM X-ray 3.10A, 8RFB EM 4.01A) + AF pLDDT=82.8</td></tr>
+<tr><td>调控结构域</td><td>7/10</td><td>×2</td><td>14.0</td><td>7 domains (5 InterPro + 2 Pfam): Peptidase_S9, AB_hydrolase</td></tr>
+<tr><td>PPI 网络</td><td>3/10</td><td>×3</td><td>9.0</td><td>IntAct 15 + STRING 15 + UniProt 0; 代谢/蛋白酶相关</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>103/180</strong>**</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+1.0</td><td>PDB+AF 互证(+0.5); 多库结构域一致(+0.5)</td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>56.3/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/PREPL/PREPL-PAE.png</code></div></figure></p>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Cytoplasm, cytosol (ECO:0000269); Golgi apparatus, trans-Golgi network (ECO:0000250); Cytoplasm, cytoskeleton (ECO:0000250); Golgi apparatus (ECO:0000250); Nucleus (ECO:0000269)</td><td>实验证据</td></tr>
+<tr><td>GO-CC</td><td>cytoskeleton IBA; cytosol IEA; Golgi apparatus IBA; mitochondrion HTP; nucleus IEA; trans-Golgi network IEA</td><td>混合证据</td></tr>
+<tr><td>Protein Atlas (IF)</td><td>HPA 有 IHC/RNA 数据但 IF 未获取</td><td>未确认</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 状态</strong>: HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。 — Nucleus 定位有 ECO:0000269 (experimental). 但主要定位在 cytosol/Golgi/cytoskeleton。</p>
+<p><strong>结论</strong>: 多亚细胞定位，nucleus 有实验证据但非主导定位。主要功能在 cytosol 和 Golgi。</p>
+<h5>3.2 结构与结构域</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold</td><td>AF-Q4J6C6-F1 (v6)</td></tr>
+<tr><td>平均 pLDDT</td><td>82.8</td></tr>
+<tr><td>pLDDT &gt;90 / 70-90 / 50-70 / &lt;50</td><td>64.0% / 17.3% / 3.7% / 15.0%</td></tr>
+<tr><td>PDB</td><td>7OBM (X-ray 3.10A, A=90-727), 8RFB (EM 4.01A, A=90-727)</td></tr>
+</tbody></table></div>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>结构域</th></tr></thead><tbody>
+<tr><td>InterPro</td><td>IPR029058 (AB_hydrolase_fold), IPR023302 (Pept_S9A_N), IPR001375 (Peptidase_S9_cat), IPR002470 (Peptidase_S9A), IPR051543 (Serine_Peptidase_S9A)</td></tr>
+<tr><td>Pfam</td><td>PF00326 (Peptidase_S9), PF02897 (Peptidase_S9_N)</td></tr>
+</tbody></table></div>
+<p><strong>评价</strong>: AF pLDDT 82.8，结构预测置信度高。2个实验PDB结构覆盖 catalytic domain (90-727)。Prolyl endopeptidase S9A 家族典型结构。N-terminal (1-89) 在PDB中未被解析，15% 残基 pLDDT &lt;50 可能对应于此区域。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict</td><td>44</td></tr>
+<tr><td>PubMed symbol_only</td><td>96</td></tr>
+<tr><td>PubMed broad</td><td>404 (含非特异)</td></tr>
+</tbody></table></div>
+<p><strong>关键文献</strong>: 1. Monnens Y et al. (2024). &quot;Missense variants in CMS22 patients reveal that PREPL has both enzymatic and nonenzymatic functions.&quot; *JCI Insight*. PMID: 39078710 2. Kramer NJ et al. (2023). &quot;Regulators of mitonuclear balance link mitochondrial metabolism to mtDNA expression.&quot; *Nat Cell Biol*. PMID: 37770567 3. Rosier K et al. (2021). &quot;Prolyl endopeptidase-like is a (thio)esterase involved in mitochondrial respiratory chain function.&quot; *iScience*. PMID: 34888501 4. Adam MP et al. (1993). &quot;Congenital Myasthenic Syndromes Overview.&quot; PMID: 20301347 5. Dang Y et al. (2021). &quot;Cleavage of PrePL by Lon promotes growth and pathogenesis in Magnaporthe oryzae.&quot; *Environ Microbiol*. PMID: 33225564</p>
+<p><strong>评价</strong>: Congenital Myasthenic Syndrome (CMS22) 致病基因，研究集中在神经肌肉疾病和线粒体代谢。strict=44 篇，中等新颖性。</p>
+<h5>3.4 PPI 网络</h5>
+<p><strong>实验验证互作</strong> (IntAct):</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>方法</th><th>PMID</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>COIL</td><td>two hybrid</td><td>16713569</td><td>Cajal body</td></tr>
+<tr><td>CAPN3</td><td>two hybrid fragment</td><td>23414517</td><td>Calpain protease</td></tr>
+<tr><td>USP22</td><td>anti tag coIP</td><td>19615732</td><td>Deubiquitinase, chromatin</td></tr>
+<tr><td>NR4A1</td><td>display technology</td><td>20195357</td><td>Nuclear receptor</td></tr>
+<tr><td>RGS4</td><td>anti tag coIP</td><td>28514442</td><td>GPCR signaling</td></tr>
+<tr><td>ACAA2</td><td>anti tag coIP</td><td>28514442</td><td>Mitochondrial</td></tr>
+<tr><td>HSPD1</td><td>BioID proximity</td><td>29568061</td><td>Mitochondrial chaperone</td></tr>
+<tr><td>C1QBP</td><td>anti tag coIP</td><td>27499296</td><td>Mitochondrial</td></tr>
+<tr><td>MRPL1</td><td>anti tag coIP</td><td>27499296</td><td>Mitochondrial</td></tr>
+</tbody></table></div>
+<p><strong>STRING 预测互作</strong> (score &gt;0.4):</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>Experimental</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>CAMKMT</td><td>0.976</td><td>0</td><td>Calmodulin-lysine methyltransferase</td></tr>
+<tr><td>SLC3A1</td><td>0.972</td><td>0</td><td>Amino acid transport</td></tr>
+<tr><td>PPM1B</td><td>0.967</td><td>0</td><td>Protein phosphatase</td></tr>
+<tr><td>APEH</td><td>0.580</td><td>0.242</td><td>Acylaminoacyl-peptidase</td></tr>
+</tbody></table></div>
+<p><strong>评价</strong>: PPI 以代谢酶和线粒体蛋白为主 (HSPD1, C1QBP, MRPL1, ACAA2)。USP22 (chromatin deubiquitinase, SAGA complex) 和 NR4A1 (nuclear receptor) 互作提供有限核调控链接。无染色质调控核心网络。</p>
+<h5>3.5 多库互证</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>来源</th><th>结果</th><th>一致性</th></tr></thead><tbody>
+<tr><td>三维结构</td><td>AlphaFold + PDB</td><td>2 PDB + AF</td><td>一致</td></tr>
+<tr><td>结构域</td><td>UniProt/InterPro/Pfam</td><td>7 个</td><td>多库一致</td></tr>
+<tr><td>PPI 网络</td><td>IntAct + STRING</td><td>代谢/线粒体为主</td><td>一致</td></tr>
+<tr><td>核定位</td><td>HPA/UniProt/GO</td><td>Nucleus + Cytosol + Golgi</td><td>部分一致</td></tr>
+</tbody></table></div>
+<p><strong>互证加分明细</strong>: PDB+AF互证(+0.5), 多库结构域一致(+0.5), 总计 +1.0</p>
+<h4>4. 总体评价</h4>
+<p>PREPL 是 serine peptidase S9A 家族成员，主要功能在蛋白水解和线粒体呼吸链。核定位有实验证据但非主导。CMS22 致病基因，疾病关联明确但在 TE/染色质调控背景下不突出。PPI 以代谢蛋白为主，USP22 (chromatin deubiquitinase) 互作提供有限调控价值。2个PDB结构覆盖催化域，AF结构置信度高。</p>
+<p><strong>推荐</strong>: 中等优先级。结构信息丰富，但染色质调控关联有限。</p>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprot/Q4J6C6</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q4J6C6</li><li>PDB: 7OBM, 8RFB</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=PREPL</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000138078-PREPL (HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。)</li></ul>
+<p><strong>HPA IF 状态</strong>: HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。 — HPA 暂无 IF 原图数据。核定位基于 UniProt + GO-CC。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/PREPL/PREPL-PAE.png</code></div></figure></p>
+<h5>PPI 网络</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th></tr></thead><tbody>
+<tr><td>CAMKMT</td><td>STRING</td><td>0.976</td></tr>
+<tr><td>SLC3A1</td><td>STRING</td><td>0.972</td></tr>
+<tr><td>PPM1B</td><td>STRING</td><td>0.967</td></tr>
+<tr><td>ALG14</td><td>STRING</td><td>0.665</td></tr>
+<tr><td>DPAGT1</td><td>STRING</td><td>0.583</td></tr>
+<tr><td>COIL</td><td>IntAct</td><td>psi-mi:&quot;MI:0018&quot;(two hybrid)</td></tr>
+<tr><td>nagA</td><td>IntAct</td><td>psi-mi:&quot;MI:0398&quot;(two hybrid po</td></tr>
+<tr><td>CAPN3</td><td>IntAct</td><td>psi-mi:&quot;MI:0399&quot;(two hybrid fr</td></tr>
+</tbody></table></div>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/PREPL/PREPL-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

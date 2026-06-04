@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WRNIP1 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>WRNIP1</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 28</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/WRNIP1/WRNIP1-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;WRNIP1&quot; date: 2026-06-01 tags: [protein-scout, nucleoplasm, evaluation] status: scored ---</p>
+<h3>WRNIP1 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>WRNIP1 / WHIP</td></tr>
+<tr><td>蛋白全名</td><td>ATPase WRNIP1</td></tr>
+<tr><td>蛋白大小</td><td>665 aa / 72.1 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q96S55</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>新权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>7/10</td><td>x4</td><td>28.0</td><td>UniProt Nucleus; Cytoplasm, HPA Nucleoplasm</td></tr>
+<tr><td>蛋白大小</td><td>7/10</td><td>x1</td><td>7.0</td><td>665 aa, 72.1 kDa，中等偏大</td></tr>
+<tr><td>研究新颖性</td><td>6/10</td><td>x5</td><td>30.0</td><td>PubMed strict=54 (≤60 区间)</td></tr>
+<tr><td>三维结构</td><td>6/10</td><td>x3</td><td>18.0</td><td>PDB 2 entries (3VHS/3VHT 仅小片段 9-46aa), AF pLDDT 71.6, &lt;50=31.1%</td></tr>
+<tr><td>调控结构域</td><td>7/10</td><td>x2</td><td>14.0</td><td>AAA+ ATPase, Zn-finger, DNA polymerase delta 调节因子</td></tr>
+<tr><td>PPI 网络</td><td>7/10</td><td>x3</td><td>21.0</td><td>STRING WRN 0.998, RAD18 0.893, POLD1/POLD2; IntAct RIGI/TOLLIP/LMNA</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>118/180</strong>**</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+0.0</td><td></td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>64.5/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt Subcellular Location</td><td>Nucleus (ECO:0000269); Cytoplasm (ECO:0000269)</td><td>高（实验证据）</td></tr>
+<tr><td>GO-CC</td><td>nucleus (IDA:UniProtKB), perinuclear region of cytoplasm (IDA:UniProtKB), membrane (HDA:UniProtKB)</td><td>高</td></tr>
+<tr><td>HPA IF</td><td>Nucleoplasm (Approved 可靠性)</td><td>高</td></tr>
+<tr><td>Literature</td><td>WRNIP1 在 DNA 复制应激时与 WRN 协同定位于核内复制叉；在先天免疫中还参与胞质 RIGI 信号</td><td>中-高</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 状态</strong>: IF available -- HPA 可靠性 Approved，定位 Nucleoplasm。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/WRNIP1/WRNIP1_IF_red_green.jpg</code></div></figure></p>
+<p><strong>结论</strong>: WRNIP1 核质定位明确，HPA Approved 可靠性。虽有胞质功能（RIGI 抗病毒信号），但主要功能为核内 DNA 复制调节和基因组稳定性维持。UniProt 和 GO-CC 均有 IDA 实验证据支持核定位。</p>
+<h5>3.2 结构与数据源</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold</td><td>AF-Q96S55-F1</td></tr>
+<tr><td>平均 pLDDT</td><td>71.6</td></tr>
+<tr><td>pLDDT &gt;90</td><td>40.2%</td></tr>
+<tr><td>pLDDT 70-90</td><td>23.8%</td></tr>
+<tr><td>pLDDT &lt;50</td><td><strong>31.1%</strong></td></tr>
+<tr><td>PDB</td><td>2 entries (3VHS 1.90A X-ray chains A/B=17-40; 3VHT 2.40A X-ray chain B=9-46) -- 仅为 N 端 Ubiquitin-like 域片段</td></tr>
+</tbody></table></div>
+<p>AlphaFold pLDDT 71.6，&lt;50 低置信区高达 31.1%。PDB 仅有 N 端小片段结构（17-46 aa），尽管分辨率高（1.90A），但不覆盖全长。AAA+ ATPase 域和 C 端区域预测质量中等，提示部分柔性。全长结构完全依赖 AF 预测。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/WRNIP1/WRNIP1-PAE.png</code></div></figure></p>
+<div class="table-wrap"><table>
+<thead><tr><th>InterPro</th><th>Pfam</th></tr></thead><tbody>
+<tr><td>IPR003593 (AAA+ ATPase), IPR032423 (WRNIP1-like), IPR051314 (WRNIP1/AAA+), IPR003959 (AAA+ ATPase core), IPR008921 (ATPase motor), IPR021886 (MgsA AAA+), IPR027417 (P-loop NTPase), IPR006642 (Zinc finger Rad18-like), IPR040539 (WHIP N-terminal)</td><td>PF00004 (AAA), PF16193 (WHIP_N), PF12002 (MgsA_C), PF18279</td></tr>
+</tbody></table></div>
+<p><strong>染色质调控潜力</strong>: WRNIP1 通过与 WRN 解旋酶和 DNA 聚合酶 delta (POLD1/POLD2/POLD4) 的互作参与 DNA 复制起始/重启调节。在复制应激和转录相关基因组不稳定性中发挥保护作用。与 RAD18 的互作连接至 DNA 损伤耐受/跨损伤合成通路。但与染色质修饰（甲基化、乙酰化）无直接关联。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict (Title/Abstract)</td><td>54</td></tr>
+<tr><td>PubMed broad</td><td>68</td></tr>
+<tr><td>别名</td><td>WHIP（未用于 scoring）</td></tr>
+</tbody></table></div>
+<p>关键文献：</p>
+<ul><li>PMID:38488661: &quot;WRNIP1 prevents transcription-associated genomic instability.&quot; (eLife, 2024) -- 转录相关基因组不稳定性</li><li>PMID:28118071: &quot;The role of WRNIP1 in genome maintenance.&quot; (Cell Cycle, 2017) -- 综述</li><li>PMID:31061318: &quot;WRNIP1 Controls the Amount of PrimPol.&quot; (Biol Pharm Bull, 2019) -- PrimPol 调控</li><li>PMID:38190717: &quot;AXL/WRNIP1 Mediates Replication Stress Response and Promotes Therapy Resistance and Metachronous Metastasis in HER2+ Breast Cancer.&quot; (Cancer Res, 2024)</li><li>PMID:35163467: &quot;R-Loop-Associated Genomic Instability and Implication of WRN and WRNIP1.&quot; (Int J Mol Sci, 2022)</li></ul>
+<h5>3.4 PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>WRN</td><td>STRING</td><td>0.998 (exp 0.560, text 0.995)</td><td>Werner 解旋酶</td></tr>
+<tr><td>RAD18</td><td>STRING</td><td>0.893 (exp 0.645, text 0.708)</td><td>DNA 损伤耐受</td></tr>
+<tr><td>POLD2</td><td>STRING</td><td>0.722 (exp 0.464)</td><td>DNA pol delta 亚基</td></tr>
+<tr><td>POLD1</td><td>STRING</td><td>0.667 (exp 0.553)</td><td>DNA pol delta 催化亚基</td></tr>
+<tr><td>ZRANB3</td><td>STRING</td><td>0.683 (exp 0.098, text 0.658)</td><td>DNA 解旋酶/转位酶</td></tr>
+<tr><td>DNA2</td><td>STRING</td><td>0.683 (exp 0.250, text 0.595)</td><td>DNA 解旋酶/核酸酶</td></tr>
+<tr><td>PRIMPOL</td><td>STRING</td><td>0.668 (exp 0.292, text 0.547)</td><td>Primase-polymerase</td></tr>
+<tr><td>RIGI</td><td>IntAct</td><td>coIP (PMID:21903422)</td><td>抗病毒先天免疫</td></tr>
+<tr><td>TOLLIP</td><td>IntAct</td><td>coIP (PMID:21903422)</td><td>TLR 信号</td></tr>
+<tr><td>LMNA</td><td>IntAct</td><td>BioID (PMID:29568061)</td><td>核纤层蛋白</td></tr>
+<tr><td>KDM4A</td><td>IntAct</td><td>pull down (PMID:23871696)</td><td>H3K9/H3K36 去甲基化酶</td></tr>
+<tr><td>POLD1</td><td>UniProt</td><td>2 experiments</td><td>curated</td></tr>
+<tr><td>RIGI</td><td>UniProt</td><td>2 experiments</td><td>curated</td></tr>
+</tbody></table></div>
+<p>WRNIP1 的 PPI 网络跨 DNA 复制/修复和先天免疫两条不相交通路。WRN (0.998) 为核心伴侣，与 RAD18、POLD1/POLD2 构成 DNA 复制调节网络。RIGI/TOLLIP 为抗病毒信号通路。LMNA (BioID) 提示核纤层定位。KDM4A (pull down) 互作值得关注，连接至组蛋白去甲基化。</p>
+<h4>4. 总体评价</h4>
+<p>WRNIP1 是 DNA 复制应激和基因组稳定性的多功能 ATPase，评分中等（64.5/100）。优势包括：HPA Approved 纯核质定位、与 WRN 解旋酶强互作（0.998）、功能涉及 R-loop/转录相关基因组不稳定性（与 TE 调控间接相关）、多域结构（AAA+ ATPase + Zn-finger）。劣势包括：PubMed 54（新颖性 6/10）、蛋白偏大（665 aa）、AF 预测质量中等（pLDDT 71.6，31% &lt;50）、PDB 仅 N 端小片段、无直接染色质修饰活性。KDM4A 互作为潜在桥梁至组蛋白去甲基化/染色质调控通路。</p>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q96S55</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q96S55</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=WRNIP1</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000124535-WRNIP1</li></ul>
+<p>HPA IF 图像已本地嵌入。</p>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/WRNIP1/WRNIP1-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

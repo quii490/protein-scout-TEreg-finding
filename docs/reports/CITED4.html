@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CITED4 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>CITED4</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 20</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/CITED4/CITED4-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;CITED4&quot; date: 2026-06-01 tags: [protein-scout, nucleoplasm, evaluation] status: scored ---</p>
+<h3>CITED4 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>CITED4 / MRG2</td></tr>
+<tr><td>蛋白全名</td><td>Cbp/p300-interacting transactivator 4</td></tr>
+<tr><td>蛋白大小</td><td>184 aa / 18.6 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q96RK1</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>权重</th><th>加权</th><th>摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>5/10</td><td>x4</td><td>20.0</td><td>UniProt Nucleus (ECO:0000269); HPA Vesicles -- 来源不一致</td></tr>
+<tr><td>蛋白大小</td><td>8/10</td><td>x1</td><td>8.0</td><td>184 aa, 18.6 kDa -- very small</td></tr>
+<tr><td>研究新颖性</td><td>8/10</td><td>x5</td><td>40.0</td><td>Strict=33</td></tr>
+<tr><td>三维结构</td><td>4/10</td><td>x3</td><td>12.0</td><td>AlphaFold pLDDT 59.6; 仅 12% &gt;90; 无 PDB</td></tr>
+<tr><td>调控结构域</td><td>7/10</td><td>x2</td><td>14.0</td><td>CITED domain (CBP/p300-interacting); transcriptional coactivator</td></tr>
+<tr><td>PPI 网络</td><td>6/10</td><td>x3</td><td>18.0</td><td>EP300 (0.955), TFAP2A (0.905), CREBBP (0.841)</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>112/180</strong>**</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+0.0</td><td>HPA (Vesicles) 与 UniProt (Nucleus) 不一致</td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>61.2/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<p>PubMed strict: 33</p>
+<h4>3. 核定位证据</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Nucleus (ECO:0000269 x2); Cytoplasm (ECO:0000269 x2)</td><td>Experimental</td></tr>
+<tr><td>GO-CC</td><td>nucleoplasm TAS:Reactome; nucleus IBA:GO_Central</td><td>Traceable Author Statement</td></tr>
+<tr><td>HPA (IF)</td><td><strong>Vesicles</strong> (Approved) -- NOT Nucleoplasm</td><td>IF available</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 状态</strong>: IF available -- HPA Approved 但记录定位为 <strong>Vesicles</strong>，与 UniProt Nucleus 存在显著不一致。HPA 在 U-2 OS 细胞系检测可能因细胞系/抗体差异未捕获核信号。CITED4 作为转录辅激活因子，其核心功能依赖核定位（与 CBP/p300 在核内互作），但 HPA 数据不支持。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CITED4/CITED4-PAE.png</code></div></figure></p>
+<p><strong>PAE 状态</strong>: 已获取 PAE 图像。AlphaFold pLDDT 59.6 (mean), 仅 12.0% &gt;90, 53.8% 在 50-70 区间，27.2% &lt;50。小蛋白 (184 aa) 预测质量低，提示大量内在无序区域 (IDR)，可能通过折叠-upon-binding 机制与 CBP/p300 互作。</p>
+<h4>4. PPI 网络</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th></tr></thead><tbody>
+<tr><td>EP300</td><td>STRING</td><td>0.955 (experimental 0.295)</td></tr>
+<tr><td>TFAP2A</td><td>STRING</td><td>0.905 (experimental 0.295)</td></tr>
+<tr><td>CREBBP</td><td>STRING</td><td>0.841 (experimental 0.095)</td></tr>
+<tr><td>TFAP2C</td><td>STRING</td><td>0.694 (experimental 0.295)</td></tr>
+<tr><td>CITED2</td><td>STRING</td><td>0.642 (database)</td></tr>
+<tr><td>TFAP2B</td><td>STRING</td><td>0.654 (experimental 0.295)</td></tr>
+</tbody></table></div>
+<p><strong>核心发现</strong>: CITED4 的 PPI 网络以 CBP/p300 (EP300/CREBBP) 组蛋白乙酰转移酶和 AP-2 转录因子家族 (TFAP2A/C/B) 为核心。与 EP300 的互作是 CITED 家族的定义性特征。CITED4 通过 CITED domain 与 CBP/p300 的 CH1 区域结合，发挥转录辅激活功能。</p>
+<p>IntAct 14 条记录（均为酵母双杂交 array 数据，来自 PMID:20211142）。UniProt 无 interaction 记录。</p>
+<h4>5. 结构域与染色质调控潜力</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>结构域</th></tr></thead><tbody>
+<tr><td>InterPro</td><td>IPR007576 (CITED)</td></tr>
+<tr><td>Pfam</td><td>PF04487 (CITED)</td></tr>
+</tbody></table></div>
+<p>CITED domain 是 CBP/p300-interacting transactivator 家族的保守结构域，直接结合 CBP/p300 组蛋白乙酰转移酶。通过招募 CBP/p300 至 AP-2 转录因子靶基因启动子，CITED4 可间接参与染色质乙酰化修饰和转录调控。染色质调控潜力通过 CBP/p300 间接实现，非直接 reader/writer。</p>
+<h4>6. 总体评价</h4>
+<p>CITED4 是小型转录辅激活因子 (184 aa)，通过 CITED domain 与 CBP/p300 互作参与 AP-2 介导的转录调控。HPA IF 定位为 Vesicles（而非 Nucleoplasm）是主要扣分项，与 UniProt 实验级别核定位存在不一致。蛋白 IDR 比例高（AlphaFold pLDDT 低），可能固有无序需结合伴侣后折叠。PPI 网络小但功能明确（CBP/p300 复合体）。研究新颖性良好 (PM=33)。</p>
+<p><strong>推荐等级</strong>: 2.5/5</p>
+<p><strong>HPA IF 状态</strong>: HPA IF 图像已本地嵌入。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CITED4/CITED4_IF_918_B4_1_blue_red_green.jpg</code></div></figure>。核定位基于HPA localization/reliability + UniProt + GO-CC。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CITED4/CITED4-PAE.png</code></div></figure></p>
+<h5>关键文献</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>PMID</th><th>标题</th></tr></thead><tbody>
+<tr><td>40389954</td><td>Gemcitabine resistance by CITED4 upregulation via the regulation of BIRC2 expression in pancreatic c</td></tr>
+<tr><td>39066479</td><td>CITED4 gene therapy protects against maladaptive cardiac remodeling after ischemia/reperfusion injur</td></tr>
+<tr><td>36899057</td><td>A Kinase Interacting Protein 1 (AKIP1) promotes cardiomyocyte elongation and physiological cardiac r</td></tr>
+<tr><td>33275121</td><td>CITED4 mediates proliferation, apoptosis and steroidogenesis of Hu sheep granulosa cells in vitro.</td></tr>
+<tr><td>24878634</td><td>CBP-CITED4 is required for luteinizing hormone-triggered target gene expression during ovulation.</td></tr>
+</tbody></table></div>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CITED4/CITED4-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

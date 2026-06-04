@@ -1,0 +1,339 @@
+# Web Design Existing Tables Inventory Summary
+
+- Timestamp: 20260605_015715
+- Project: `/Users/quii/Desktop/projects/protein-scout-TEreg-finding`
+- Candidate files inventoried: 695
+- Role distribution: {'SECONDARY_METADATA_SOURCE': 7, 'IGNORE_FOR_WEB': 255, 'MANUAL_REVIEW': 306, 'AUDIT_ONLY': 126, 'PRIMARY_INDEX_SOURCE': 1}
+
+## Recommended Primary Source
+
+Recommended primary table/source for the website is `protein-finding.md` as the human-facing summary seed, combined with a fresh scan of `detail/` as the canonical report-path/status/category source.
+
+Reason: `protein-finding.md` already mirrors the desired table UX and contains score columns plus detail links, while `detail/` provides the stable per-report file system truth needed to generate HTML detail pages safely. `Proteins.md` is symbol-only and cannot drive the web atlas by itself.
+
+## Fields Available in `protein-finding.md`
+
+- Detected table columns: `['#', '基因', '核', '大', '新', '结', '域', 'PPI', '互证', '总分', '推荐', '详情']`
+- It contains category sections, score component columns, total score, recommendation/localization, and Obsidian-style detail links.
+- Missing or unreliable for direct web use: normalized `status`, normalized `category`, machine-stable `report_path`, `docs_report_path`, evidence flags, duplicate/backlog flags, and image availability flags.
+
+## Need to Regenerate Index?
+
+Yes. Reuse `protein-finding.md` as a seed, but generate a normalized `protein_report_index` by scanning `detail/` and enriching from `protein-finding.md`. This avoids stale/missing paths and makes search/filter/detail generation deterministic.
+
+## Notable Existing Sources
+
+- `Proteins.md`: SECONDARY_METADATA_SOURCE - Symbol list only; useful for coverage/candidate list but lacks status/category/score/report path.
+- `audit_work/claude_protocols/04_recheck_false_rejections.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/claude_protocols/05_continue_new_proteins.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/claude_runs/sheet3_batch001_prompt.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/claude_runs/sheet3_gap_next5_supervised_prompt.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/claude_runs/sheet3_gap_next5b_supervised_prompt.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/codex_step1_critical_false_rejection_check_20260604_210250.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/codex_step1_critical_false_rejection_check_20260604_211018.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/codex_step1_critical_false_rejection_check_20260604_211724.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/codex_step1_critical_false_rejection_check_20260604_215236.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/codex_step1_excel_coverage_check_20260604_210250.tsv`: SECONDARY_METADATA_SOURCE - Useful for coverage/readiness evidence and missing-gene checks, not a full presentation index.
+- `audit_work/codex_step1_excel_coverage_check_20260604_211018.tsv`: SECONDARY_METADATA_SOURCE - Useful for coverage/readiness evidence and missing-gene checks, not a full presentation index.
+- `audit_work/codex_step1_excel_coverage_check_20260604_211724.tsv`: SECONDARY_METADATA_SOURCE - Useful for coverage/readiness evidence and missing-gene checks, not a full presentation index.
+- `audit_work/codex_step1_excel_coverage_check_20260604_215236.tsv`: SECONDARY_METADATA_SOURCE - Useful for coverage/readiness evidence and missing-gene checks, not a full presentation index.
+- `audit_work/codex_step1_incomplete_template_check_20260604_210250.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/codex_step1_incomplete_template_check_20260604_211018.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/codex_step1_incomplete_template_check_20260604_211724.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/codex_step1_incomplete_template_check_20260604_215236.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/codex_step1b_blocker_backup_record_20260604_214832.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/codex_step1b_two_blockers_start_snapshot_20260604_214832.summary.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/codex_step1b_two_blockers_start_snapshot_20260604_214832.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/AGTPBP1_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/AKAP6_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/CMAS_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/CMYA5_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/FAM193A_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/FGF14_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/HSD3B1_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/HSD3B2_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/LORICRIN_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/MKKS_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/MLIP_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/MMS19_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/MMS22L_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/MOB1B_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/MOB2_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/MORN2_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/MOSPD1_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/MPPE1_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/MRFAP1_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/NAA30_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/NABP1_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/NEXMIF_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/NFKBIL1_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/NHLRC1_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/NIF3L1_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/NME8_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/NMRK2_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/NOM1_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/NOPCHAP1_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/NOS1AP_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/NRIP2_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/NSMCE4A_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/NSRP1_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/NUBP1_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/RIPPLY2_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/RIT2_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/RSRP1_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/RTN1_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/SAMD11_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/SBF1_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/SBF2_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/SBNO1_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/SCEL_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/SDCBP2_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/SELENOM_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/SERF1A_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/SERF1B_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/SERGEF_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/SERPINB10_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/SERPINB13_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/SMPD4_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/SMTNL1_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/SPANXA1_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/SPANXB1_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/SPANXD_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/TEP1_evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/continuous_completion_workers/worker_W1/batch_1/staged_reports/reevaluation_summary.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/critical_reopen_qa_20260604_124814.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/critical_reopen_workers/worker_W1/batch_1/staged_reports/AIRIM-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W1/batch_1/staged_reports/AKIP1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W1/batch_1/staged_reports/AKIRIN1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W1/batch_1/staged_reports/ALKBH2-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W1/batch_1/staged_reports/ALKBH6-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W1/batch_1/staged_reports/BCLAF1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W1/batch_1/staged_reports/BICD2-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W1/batch_1/staged_reports/CARD8-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W1/batch_1/staged_reports/CIB1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W1/batch_1/staged_reports/CMIP-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W1/batch_1/staged_reports/FBXO7-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W1/batch_1/staged_reports/GGA1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W1/batch_1/staged_reports/HERC2-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W1/batch_1/staged_reports/INPP5E-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W1/batch_1/staged_reports/ITSN1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W1/batch_1/staged_reports/LIMK2-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W1/batch_1/staged_reports/LTA4H-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W1/batch_1/staged_reports/LTC4S-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W1/batch_1/staged_reports/MKLN1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W2/batch_1/staged_reports/MIOS-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W2/batch_1/staged_reports/MIS18A-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W2/batch_1/staged_reports/MNS1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W2/batch_1/staged_reports/MOCS2-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W2/batch_1/staged_reports/MPHOSPH6-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W2/batch_1/staged_reports/MRGBP-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W2/batch_1/staged_reports/MRI1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W2/batch_1/staged_reports/MRPL44-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W2/batch_1/staged_reports/NEK1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W2/batch_1/staged_reports/NFATC2IP-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W2/batch_1/staged_reports/NFU1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W2/batch_1/staged_reports/NGDN-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W2/batch_1/staged_reports/NHEJ1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W2/batch_1/staged_reports/NLE1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W2/batch_1/staged_reports/NME7-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W2/batch_1/staged_reports/NOC3L-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W2/batch_1/staged_reports/NSFL1C-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W2/batch_1/staged_reports/NSMCE1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W2/batch_1/staged_reports/NSMCE3-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W2/batch_1/staged_reports/NVL-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W2/batch_1/staged_reports/PKP1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W2/batch_1/staged_reports/Pak6-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W2/batch_1/staged_reports/RALGDS-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W3/batch_1/staged_reports/RIOX1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W3/batch_1/staged_reports/RMND5A-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W3/batch_1/staged_reports/ROPN1L-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W3/batch_1/staged_reports/RSPH1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W3/batch_1/staged_reports/RTRAF-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W3/batch_1/staged_reports/RUFY2-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W3/batch_1/staged_reports/SAGE1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W3/batch_1/staged_reports/SEH1L-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W3/batch_1/staged_reports/SKOR1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W3/batch_1/staged_reports/SLF2-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W3/batch_1/staged_reports/SLX1B-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W3/batch_1/staged_reports/SLX9-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W3/batch_1/staged_reports/SMCR8-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W3/batch_1/staged_reports/SNF8-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W3/batch_1/staged_reports/SNTB2-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W3/batch_1/staged_reports/SPATA13-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W4/batch_1/staged_reports/SPACA9-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W4/batch_1/staged_reports/SPAG7-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W4/batch_1/staged_reports/SPAG8-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W4/batch_1/staged_reports/SPANXA2-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W4/batch_1/staged_reports/SPATA18-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W4/batch_1/staged_reports/SULT1E1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W4/batch_1/staged_reports/SYCP1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W4/batch_1/staged_reports/SYNJ1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W4/batch_1/staged_reports/TBC1D1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W4/batch_1/staged_reports/TNIP1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W4/batch_1/staged_reports/XRCC2-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_W4/batch_1/staged_reports/_harvest_data.json`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/critical_reopen_workers/worker_WM/batch_1/staged_reports/CARF-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_WM/batch_1/staged_reports/MLXIPL-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_WM/batch_1/staged_reports/NAPEPLD-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_WM/batch_1/staged_reports/NQO2-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_WM/batch_1/staged_reports/NRBF2-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_WM/batch_1/staged_reports/NT5C3A-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_WM/batch_1/staged_reports/SENP5-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/critical_reopen_workers/worker_WM/batch_1/staged_reports/SPG11-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/engineering/engineering_step2a_target_structure_plan_20260605_005958.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/false_absence_workers/FAM9C_pilot/staged_reports/FAM9C-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/fast_batch_recovery_plan_20260602_192956.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/fast_batch_recovery_plan_20260602_193111.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/final_reports/FINAL_VERIFIED_ACCEPTANCE_REPORT_20260604_203917.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/final_reports/IF_PAE_MISMATCH_ACCEPTANCE_REPORT_20260604_193703.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/final_reports/protocol_recheck_excel_coverage_20260604_172332.tsv`: SECONDARY_METADATA_SOURCE - Useful for coverage/readiness evidence and missing-gene checks, not a full presentation index.
+- `audit_work/final_reports/protocol_recheck_incomplete_reports_20260604_172332.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/full_reevaluate_batches_20260603_005337.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/full_reevaluate_pilot_genes_20260602_213624.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/gate2_blocker_resolution_summary_20260603_004229.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/gate_error_triage_20260604_111952.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/local_evidence_inventory_20260604_183229.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/missing_excel_gene_snapshot_20260604_133024.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/parallel_recovery_pilot50_qa_20260604_025720.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/parallel_workers/worker_W1/batch_1/staged_reports/RCBTB1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W1/batch_1/staged_reports/RCBTB2-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W1/batch_1/staged_reports/REPIN1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W1/batch_1/staged_reports/RHOT2-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W1/batch_1/staged_reports/RHPN1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W1/batch_1/staged_reports/RILPL1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W1/batch_1/staged_reports/RILPL2-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W1/batch_2/staged_reports/RIOX1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W1/batch_2/staged_reports/RIT2-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W1/batch_2/staged_reports/RMND5A-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W1/batch_2/staged_reports/ROPN1L-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W1/batch_2/staged_reports/RSRP1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W1/batch_2/staged_reports/RTKN-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W1/batch_2/staged_reports/RTKN2-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W1/batch_2/staged_reports/RTL5-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W1/batch_2/staged_reports/RTRAF-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W1/batch_2/staged_reports/RUFY2-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W1/batch_2/staged_reports/SAGE1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W1/batch_2/staged_reports/SAMD10-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W1/batch_2/staged_reports/SASH3-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W2/batch_1/staged_reports/RNF111-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W2/batch_1/staged_reports/RNF113B-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W2/batch_1/staged_reports/RNF187-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W2/batch_1/staged_reports/RNF44-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W2/batch_1/staged_reports/RPGRIP1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W2/batch_1/staged_reports/RPP21-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W2/batch_1/staged_reports/RPRD1A-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W2/batch_1/staged_reports/RPRD2-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W2/batch_1/staged_reports/RTCB-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W2/batch_2/staged_reports/SBF2-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W2/batch_2/staged_reports/SBNO1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W2/batch_2/staged_reports/SC5D-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W2/batch_2/staged_reports/SCEL-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W2/batch_2/staged_reports/SCFD2-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W2/batch_2/staged_reports/SCHIP1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W2/batch_2/staged_reports/SCRN2-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W2/batch_2/staged_reports/SDCBP2-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W2/batch_2/staged_reports/SELENOH-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W2/batch_2/staged_reports/SELENOM-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W2/batch_2/staged_reports/SENP5-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W2/batch_2/staged_reports/SENP7-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W2/batch_2/staged_reports/SENP8-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W2/batch_2/staged_reports/SEPHS2-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W2/batch_2/staged_reports/SEPTIN3-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W2/batch_2/staged_reports/SERGEF-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W2/batch_2/staged_reports/SERPINB10-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W2/batch_2/staged_reports/SERPINB13-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W3/batch_1/staged_reports/RWDD2B-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W3/batch_1/staged_reports/RXRA-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W3/batch_1/staged_reports/SAAL1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W3/batch_1/staged_reports/SAMD11-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W3/batch_1/staged_reports/SAMHD1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W3/batch_1/staged_reports/SART3-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W3/batch_1/staged_reports/SBDS-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W3/batch_2/staged_reports/SERPINB9-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W3/batch_2/staged_reports/SERTAD2-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W3/batch_2/staged_reports/SERTAD4-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W3/batch_2/staged_reports/SFT2D1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W3/batch_2/staged_reports/SGK2-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W3/batch_2/staged_reports/SGSM2-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W3/batch_2/staged_reports/SGTB-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W3/batch_2/staged_reports/SHFL-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W3/batch_2/staged_reports/SHISA2-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W3/batch_2/staged_reports/SHISA6-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W3/batch_2/staged_reports/SHLD2-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W3/batch_2/staged_reports/SHLD3-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W3/batch_2/staged_reports/SHOC1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W3/batch_2/staged_reports/SHPK-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W3/batch_2/staged_reports/SHROOM4-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W3/batch_2/staged_reports/SHTN1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W3/batch_2/staged_reports/SIGLEC15-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W3/batch_2/staged_reports/SIVA1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W3/batch_2/staged_reports/SKAP1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W3/batch_2/staged_reports/SKAP2-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W3/batch_2/staged_reports/SKIDA1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W4/batch_1/staged_reports/SCAMP1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W4/batch_1/staged_reports/SCNM1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W4/batch_1/staged_reports/SENP2-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W4/batch_2/staged_reports/SKOR1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W4/batch_2/staged_reports/SLF2-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W4/batch_2/staged_reports/SLX1B-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W4/batch_2/staged_reports/SLX9-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W4/batch_2/staged_reports/SMCR8-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W4/batch_2/staged_reports/SMTN-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W4/batch_2/staged_reports/SNF8-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W4/batch_2/staged_reports/SNTB2-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W4/batch_2/staged_reports/SOCS5-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W4/batch_2/staged_reports/SPAG7-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W4/batch_2/staged_reports/SPAG8-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W4/batch_2/staged_reports/SPANXA1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W4/batch_2/staged_reports/SPANXA2-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W4/batch_2/staged_reports/SPANXB1-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W4/batch_2/staged_reports/SPANXD-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W4/batch_2/staged_reports/SPATA13-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/parallel_workers/worker_W4/batch_2/staged_reports/SPATA18-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/quarantine/restore_backups_20260602_235426/AAAS_rejected_current/AAAS-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/quarantine/restore_backups_20260602_235426/ABTB3_rejected_current/ABTB3-evaluation.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/quarantine_violation_restore_plan_20260602_232636.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/queues/continuous_completion_master_queue_20260604_131856.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/queues/critical_false_rejection_reopen_queue_20260604_113712.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/queues/missing_excel_gene_evaluation_queue_20260604_133115.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/queues/next_session_thin_rejected_harvest_queue_20260604_182052.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/queues/parallel_recovery_queue_20260604_013811.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/queues/recovery_false_rejection_queue_20260603_204714.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/queues/recovery_harvest_gap_queue_20260603_204714.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/queues/recovery_master_queue_20260603_204714.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/recovery_batch1_summary_20260603_210311.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/repair_audits/audit_actionable_20260601_120305.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/repair_audits/audit_then_fix_batches_20260602_193922.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/repair_audits/broken_report_audit_20260601_154641.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/repair_audits/claude_history_audit_prompt.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/repair_audits/codex_step1b_two_blockers_repair_audit_20260604_215056.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/repair_audits/codex_step1b_two_blockers_repair_audit_20260604_215206.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/repair_audits/data_absence_mismatch_audit_20260602_032944.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/repair_audits/data_absence_mismatch_deep_audit_20260604_183229.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/repair_audits/false_absence_harvest_failure_audit_20260604_220809.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/repair_audits/false_absence_repair_queue_20260604_221004.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/repair_audits/fast_batch_quality_audit_20260602_152422.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/repair_audits/fast_batch_quality_audit_20260602_152933.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/repair_audits/fast_batch_quality_audit_20260602_191138.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/repair_audits/fast_batch_quality_audit_20260602_191202.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/repair_audits/final_excel_coverage_audit_20260604_171823.tsv`: SECONDARY_METADATA_SOURCE - Useful for coverage/readiness evidence and missing-gene checks, not a full presentation index.
+- `audit_work/repair_audits/full_reevaluate_false_rejection_risk_audit_20260603_203855.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/repair_audits/full_reevaluate_harvest_gap_audit_20260603_203718.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/repair_audits/full_reevaluate_harvest_gap_audit_20260603_203823.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/repair_audits/full_reevaluate_queue_consistency_audit_20260603_203649.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/repair_audits/full_reevaluate_sample_quality_audit_20260603_203926.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/repair_audits/history_audit_report.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/repair_audits/protocol_repair_final_git_status_20260604_182052.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/repair_audits/quarantine_violation_audit_20260602_232556.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/repair_audits/quarantine_violation_audit_20260602_232636.summary.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/repair_audits/recovery_batch1_audit_20260603_210311.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/repair_audits/recovery_master_completion_audit_20260604_111817.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/repair_audits/remaining_rejected_false_negative_audit_20260604_111921.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/repair_audits/repair_round1_genes_20260602_195524.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/repair_audits/repair_round1_summary_20260602_200322.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `audit_work/repair_audits/repair_round1_targeted_audit_20260602_200315.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/repair_audits/report_quality_audit_20260601_120229.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/repair_audits/scored_report_sample_audit_20260602_193922.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `audit_work/restore_backup_AAAS_ABTB3_20260602_235426.tsv`: MANUAL_REVIEW - Structured fields look potentially web-relevant; inspect before using.
+- `logs/claude_audit_repair_final_20260601_120652.md`: MANUAL_REVIEW - Markdown contains protein-summary terms but is not the known main summary.
+- `protein-finding.md`: PRIMARY_INDEX_SOURCE - Rich current Markdown summary with category sections, score table columns, and detail links; needs parsing/normalization from Obsidian wikilinks.

@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AKIRIN2 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>AKIRIN2</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleus-cytoplasm</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 7</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleus-cytoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleus-cytoplasm/AKIRIN2/AKIRIN2-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;AKIRIN2&quot; date: 2026-05-29 tags: [protein-scout, nuclear-protein, evaluation, ] status: scored ---</p>
+<h3>AKIRIN2 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>AKIRIN2 / C6orf166</td></tr>
+<tr><td>蛋白大小</td><td>203 aa / 22.5 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q53H80 (AKIR2_HUMAN)</td></tr>
+<tr><td>评估日期</td><td>2026-05-28</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览 (新权重)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>新权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>🔴 核定位特异性</td><td>8/10</td><td>×4</td><td>32.0</td><td>Protein Atlas: Nucleoplasm (Supported); UniProt: Nucleus+Cytoplasm+Membrane; 核-质穿梭</td></tr>
+<tr><td>📏 蛋白大小</td><td>8/10</td><td>×1</td><td>8.0</td><td>203 aa, 200-300 aa次优范围; adaptor蛋白大小合理</td></tr>
+<tr><td>🆕 研究新颖性</td><td>4/10</td><td>×5</td><td>30.0</td><td>PubMed 73篇 (&lt;100, 不淘汰); SWI/SNF桥接功能远未深入</td></tr>
+<tr><td>🏗️ 三维结构</td><td>10/10</td><td>×3</td><td>30.0</td><td>PDB: 7NHT (Cryo-EM, 2.80A, chains c/d=1-203全长); 基线6</td></tr>
+<tr><td>🧬 调控结构域</td><td>7/10</td><td>×2</td><td>14.0</td><td>Akirin家族域; 功能上桥接SWI/SNF; 基线7</td></tr>
+<tr><td>🔗 PPI</td><td>10/10</td><td>×3</td><td>30.0</td><td>62.5%调控相关; SMARCD1/SMARCD3(SWI/SNF)+NFKBIZ+DMAP1</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>134/180</strong>**</td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>73.2/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>Protein Atlas (IF)</td><td>Nucleoplasm（核质）</td><td>Supported</td></tr>
+<tr><td>GeneCards</td><td>Nucleus; Cytoplasm; Membrane</td><td>—</td></tr>
+<tr><td>UniProt</td><td>Nucleus, Cytoplasm, Membrane</td><td>Reviewed (Swiss-Prot)</td></tr>
+<tr><td>GO</td><td>Nucleus, Nucleoplasm, Cytoplasm</td><td>—</td></tr>
+</tbody></table></div>
+<p><strong>IF 数据</strong>：抗体 HPA064239 在 Hep-G2、SH-SY5Y、U2OS 三种细胞系中均显示核质定位，有单细胞间表达差异但不与细胞周期相关。</p>
+<p><strong>IF 图像</strong>: <figure><div class="missing-image">Missing local image: <code>../assets/report-images/AKIRIN2/HepG2_HPA064239_1.jpg</code></div></figure> <figure><div class="missing-image">Missing local image: <code>../assets/report-images/AKIRIN2/U2OS_HPA064239_1.jpg</code></div></figure></p>
+<p><strong>结论</strong>: AKIRIN2 主要为核质蛋白（Protein Atlas IF 三细胞系一致），但 UniProt 同时列出胞质和膜定位，提示该蛋白在核-质间穿梭（其功能涉及proteasome核输入，需要胞质-核转运）。核定位 7 分（主要核定位，存在胞质穿梭）。</p>
+<p><strong>IF 图像</strong>:</p>
+<h5>3.2 蛋白大小评估</h5>
+<p>203 aa，22.5 kDa，属于较小蛋白（200–300 aa次优范围）。小型蛋白可能作为adaptor/scaffold发挥作用——这与其「分子适配器」的功能描述一致。<strong>评价</strong>: 8 分，虽略小但性质与功能吻合。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed 总数</td><td>73</td></tr>
+<tr><td>最早发表年份</td><td>~2008</td></tr>
+<tr><td>Chromatin/epigenetics 比例</td><td>~15%（SWI/SNF桥接、肌肉分化基因调控）</td></tr>
+</tbody></table></div>
+<p><strong>主要研究方向</strong>:</p>
+<ul><li>先天免疫中 TLR 下游 IL6 产生的调控（通过桥接 NFKBIZ 和 SWI/SNF 复合体）</li><li>20S proteasome 核输入（通过桥接proteasome和IPO9）</li><li>胚胎发育、肌生成、脑发育中的角色</li><li>适应性免疫中 B 细胞激活</li><li>肢体发育中 interdigital 组织退化</li></ul>
+<p><strong>评价</strong>: 73篇文献，研究热门度低。但已有直接涉及 SWI/SNF chromatin remodeling 复合体的功能研究（AKIRIN2 桥接 NFKBIZ 和 SWI/SNF 以激活 IL6 转录），说明其在chromatin调控中的角色已有初步实验证据。新颖性 8 分（50–200范围内，chromatin方向有切入点但远未饱和）。</p>
+<h5>3.4 三维结构分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold 平均 pLDDT</td><td>65.6</td></tr>
+<tr><td>PDB 实验结构</td><td>—</td></tr>
+<tr><td>有序区域 (pLDDT&gt;70) 占比</td><td>38.4%</td></tr>
+<tr><td>Very high (&gt;90)</td><td>29.6%</td></tr>
+<tr><td>Confident (70–90)</td><td>8.9%</td></tr>
+<tr><td>Low (50–70)</td><td>23.6%</td></tr>
+<tr><td>Very low (&lt;50)</td><td>37.9%</td></tr>
+</tbody></table></div>
+<p><strong>高级置信度有序区域</strong>:</p>
+<ul><li>残基 75–96 (22 aa)</li><li>残基 142–195 (C端域, 54 aa)</li></ul>
+<p><strong>PAE 图</strong>: <figure><div class="missing-image">Missing local image: <code>../assets/report-images/AKIRIN2/AKIRIN2-PAE.png</code></div></figure></p>
+<p><strong>PAE 数值分析</strong>:</p>
+<ul><li>PAE 矩阵: 203×203, 最大 PAE: 31.75</li><li>整体均值: 24.64</li><li>PAE &lt;5 Å: 7.1%, PAE &lt;10 Å: 11.4%</li></ul>
+<p><strong>评价</strong>: AlphaFold 预测质量中等偏低（pLDDT 65.6, 仅38.4%有序）。有两个明确的折叠域：N端附近小片段（75-96）和C端域（142-195）。其余大部分（~62%）为无序区域。PAE 整体均值偏高（24.64），PAE&lt;5 Å 仅 7.1%，表明蛋白整体较为灵活。作为小分子adaptor蛋白，这种低结构复杂性与功能吻合。结构得分 4 分（pLDDT 50–70区间）。</p>
+<h5>3.5 结构域分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>结构域</th></tr></thead><tbody>
+<tr><td>InterPro</td><td>IPR024132: Akirin家族</td></tr>
+<tr><td>UniProt</td><td>无domain注释</td></tr>
+</tbody></table></div>
+<p><strong>染色质调控潜力分析</strong>: AKIRIN2 属于 Akirin 家族（IPR024132），该家族在进化上从果蝇到人高度保守。虽然缺乏经典的 chromatin-binding 或 DNA-binding 域注释，但其功能上明确涉及染色质调控：</p>
+<ul><li>直接与 SWI/SNF 染色质重塑复合体的 SMARCD1/BAF60A 亚基结合</li><li>桥接 NFKBIZ 和 SWI/SNF，调控 IL6 的转录激活</li><li>C端域（142–195，高pLDDT折叠区）可能介导蛋白-蛋白相互作用</li></ul>
+<p>对于仅73篇文献的新颖蛋白，缺乏结构域注释是正常的。Akirin家族域的功能可能在进化中被保守用于SWI/SNF桥接。但因为没有直接证据表明该域本身是chromatin-binding domain，结构域得分 5 分（无注释结构域但蛋白新颖，AlphaFold有折叠域）。</p>
+<h5>3.6 PPI 网络（四源综合）</h5>
+<p><strong>实验验证互作</strong> (IntAct, physical association):</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>方法</th><th>PMID</th><th>功能类别</th><th>调控相关？</th></tr></thead><tbody>
+<tr><td>AKIRIN2</td><td>validated two hybrid</td><td>32296183</td><td>Self-association</td><td>❌</td></tr>
+<tr><td>LNX1</td><td>two hybrid pooling approach</td><td>16189514</td><td>E3 ubiquitin ligase</td><td>❌</td></tr>
+<tr><td>CCDC85B</td><td>two hybrid pooling approach</td><td>16189514</td><td>Coiled-coil domain, unknown</td><td>❌</td></tr>
+<tr><td>SPG21</td><td>validated two hybrid / two hybrid array / pooling</td><td>32296183/31515488/16189514</td><td>Spastic paraplegia protein</td><td>❌</td></tr>
+<tr><td>HNRNPF</td><td>two hybrid prey pooling</td><td>32296183</td><td>hnRNP, splicing</td><td>❌</td></tr>
+<tr><td>NTAQ1</td><td>two hybrid array</td><td>32296183</td><td>N-terminal amidase</td><td>❌</td></tr>
+<tr><td>MESD</td><td>two hybrid prey pooling</td><td>32296183</td><td>Wnt co-receptor chaperone</td><td>❌</td></tr>
+<tr><td>MYOZ3</td><td>two hybrid prey pooling</td><td>32296183</td><td>Myozenin, muscle</td><td>❌</td></tr>
+<tr><td>HSD17B14</td><td>validated two hybrid</td><td>32296183</td><td>Dehydrogenase</td><td>❌</td></tr>
+<tr><td>SORBS3</td><td>validated two hybrid</td><td>32296183</td><td>Adhesion/scaffold</td><td>❌</td></tr>
+</tbody></table></div>
+<p><strong>STRING 预测互作</strong> / <strong>文献实验互作</strong>:</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>证据</th><th>功能类别</th><th>调控相关？</th></tr></thead><tbody>
+<tr><td>SMARCD3/BAF60C</td><td>STRING 0.733</td><td>SWI/SNF染色质重塑复合体亚基</td><td><strong>是</strong></td></tr>
+<tr><td>PSMA1-7</td><td>STRING 0.70–0.84</td><td>20S proteasome alpha亚基</td><td>部分（蛋白降解→调控）</td></tr>
+<tr><td>PSMB2-3</td><td>STRING 0.75–0.82</td><td>20S proteasome beta亚基</td><td>部分</td></tr>
+<tr><td>NFKBIZ</td><td>STRING 0.70+</td><td>NF-κB抑制子zeta（转录调控因子）</td><td><strong>是</strong></td></tr>
+<tr><td>IPO9</td><td>直接互作(PubMed:34711951)</td><td>Importin-9（核输入受体）</td><td>部分（核转运）</td></tr>
+<tr><td>DMAP1</td><td>STRING 0.72–0.80</td><td>DNA甲基转移酶关联蛋白1（转录调控）</td><td><strong>是</strong></td></tr>
+<tr><td>YWHAB</td><td>PubMed:18460465</td><td>14-3-3 beta，与AKIRIN2形成DUSP1转录抑制复合体</td><td><strong>是</strong></td></tr>
+</tbody></table></div>
+<p><strong>已知复合体成员</strong> (GO Cellular Component):</p>
+<ul><li><strong>Chromatin (GO:0000785)</strong> — 直接注释染色质定位</li><li><strong>Transcription repressor complex (GO:0017053)</strong> — 转录抑制复合体成员</li><li>Nucleoplasm (GO:0005654), Nucleus (GO:0005634), Cytoplasm, Membrane</li><li>核蛋白质量控制/泛素-蛋白酶体途径 (GO:0071630)</li></ul>
+<p><strong>调控相关比例</strong>: 7/17 (41.2%) — SMARCD1/3(SWI/SNF)+NFKBIZ+DMAP1+YWHAB+IPO9; 加上GO-CC chromatin/transcription repressor complex 注释</p>
+<p><strong>PPI 互证</strong>:</p>
+<ul><li>SWI/SNF 相互作用在果蝇（Bap60）、小鼠、人类中均保守，多个独立研究确认</li><li>IntAct 新增 12 个实验互作但均非染色质调控蛋白（主要为两项大规模Y2H筛选中的背景互作）</li><li>核心调控互作（SMARCD1/3, NFKBIZ, DMAP1）来自文献实验验证和 STRING</li></ul>
+<p><strong>评价</strong>: GO-CC 中 &quot;chromatin&quot; 和 &quot;transcription repressor complex&quot; 的注释为 AKIRIN2 的染色质调控功能提供了额外的独立证据支持。IntAct 虽新增了 12 个实验互作记录，但均为大规模Y2H筛选中的非特异性互作（SPG21 有 3 个独立来源验证，但仍与染色质无关）。真正的染色质调控互作（SWI/SNF 亚基）来自文献实验验证，不在 IntAct 数据库中。PPI 评分维持 10（已有多个独立来源确认的 SWI/SNF 桥接功能 + GO-CC chromatin 注释）。</p>
+<h5>3.7 多库互证</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>来源</th><th>结果</th><th>是否一致</th></tr></thead><tbody>
+<tr><td>三维结构</td><td>AlphaFold pLDDT 65.6</td><td>两个折叠域，整体无序，无PDB实验结构</td><td>部分</td></tr>
+<tr><td>结构域</td><td>InterPro / UniProt</td><td>仅 InterPro 检出 Akirin 家族域</td><td>部分</td></tr>
+<tr><td>PPI</td><td>STRING + 文献</td><td>SWI/SNF + proteasome + NFKBIZ 多源一致</td><td>一致 ✓</td></tr>
+<tr><td>定位</td><td>Protein Atlas IF (Supported) / UniProt (Nucleus)</td><td>一致确认核定位</td><td>一致 ✓</td></tr>
+</tbody></table></div>
+<p><strong>互证加分明细</strong>:</p>
+<ul><li>定位互证: Protein Atlas (Supported) + UniProt (Nucleus) → ≥2来源确认核定位 → <strong>+0.5</strong></li><li>进化保守: 果蝇akirin、小鼠Akirin2功能保守（SWI/SNF桥接、proteasome核输入、肌生成） → <strong>+0.5</strong></li><li>PPI互证由于STRING API不可达无法做humanPPI交叉比对</li></ul>
+<p><strong>总分</strong>: +1.0 / max +3</p>
+<h4>4. 总体评价</h4>
+<p><strong>推荐等级</strong>: ⭐⭐⭐ (3/5)</p>
+<p><strong>核心优势</strong>: 1. <strong>独特的功能机制</strong>: 作为 SWI/SNF 染色质重塑复合体与免疫信号通路之间的分子桥梁，机制新颖 2. <strong>已有chromatin调控实验证据</strong>: 直接与 SMARCD1 结合，调控 IL6 转录 3. <strong>高度新颖</strong>: PubMed 仅73篇，chromatin功能方向远未饱和 4. <strong>进化保守</strong>: 从果蝇到人类功能保守，提示核心生物学重要性 5. <strong>proteasome核输入功能</strong>: 提供了独特的核蛋白降解调控维度</p>
+<p><strong>风险/不确定性</strong>: 1. <strong>蛋白小（203 aa）</strong>: 作为adaptor功能明确，但独立结构域少，可能难以做传统的domain mapping 2. <strong>三维结构差</strong>: 62%无序，结构生物学研究困难 3. <strong>Akirin域功能定义不明确</strong>: 缺少经典chromatin-binding domain的结构基础 4. <strong>SWI/SNF桥接的具体分子机制</strong>: 尚未完全阐明</p>
+<p><strong>下一步建议</strong>:</p>
+<ul><li>[ ] ChIP-seq 确定 AKIRIN2 是否直接与染色质结合（通过SWI/SNF间接？还是直接？）</li><li>[ ] 在免疫刺激条件下分析 AKIRIN2 的全基因组定位变化</li><li>[ ] 利用其C端有序域（142–195）进行结构解析和互作mapping</li><li>[ ] 探索 AKIRIN2 是否在 TE 调控中发挥作用（TE通常受SWI/SNF调控）</li></ul>
+<h4>5. 关键文献</h4>
+<p>1. Tartey S et al. (2014). &quot;Akirin2 is critical for inducing inflammatory genes by bridging IκB-ζ and the SWI/SNF complex&quot;. *EMBO J*, 33(20):2332-48. PMID: 25107474 2. Tartey S &amp; Takeuchi O. (2016). &quot;Akirin2-mediated transcriptional control by recruiting SWI/SNF complex in B cells&quot;. *Crit Rev Immunol*, 36(3):249-58. PMID: 28605346 3. Tartey S et al. (2015). &quot;Chromatin remodeling and transcriptional control in innate immunity: emergence of Akirin2 as a novel player&quot;. *Biomolecules*, 5(3):1618-33. PMID: 26287257 4. Tartey S et al. (2015). &quot;Essential function for the nuclear protein Akirin2 in B cell activation and humoral immune responses&quot;. *J Immunol*, 195(2):519-27. PMID: 26041538 5. Sanjabi S et al. (2016). &quot;Identification of Akirin2 as a key regulator of the SWI/SNF complex in proteasome nuclear import&quot;. *J Cell Sci*, 129(14):2768-77. (AKIRIN2-proteasome-IPO9 axis; PMID: 34711951)</p>
+<h4>6. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q53H80</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000135334-AKIRIN2</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=AKIRIN2</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q53H80</li><li>STRING: https://string-db.org/ (数据整合自多物种STRING- InterPro: https://www.ebi.ac.uk/interpro/protein/uniprot/Q53H80/</li></ul>
+<h5>PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th></tr></thead><tbody>
+<tr><td>无记录</td><td>—</td><td>—</td></tr>
+</tbody></table></div>
+<p>IntAct 有限记录。无 BioGrid 补充数据。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/AKIRIN2/AKIRIN2-PAE.png</code></div></figure></p>
+<p>PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。</p>
+<p>HPA IF 图像已本地嵌入。</p>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/AKIRIN2/AKIRIN2-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

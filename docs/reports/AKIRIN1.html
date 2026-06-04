@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AKIRIN1 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>AKIRIN1</h1><div class="report-meta"><span class="badge muted">rejected</span><span class="badge">nucleoplasm</span><span class="badge">Score: 1.8</span><span class="badge">Nuclear: 3</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/AKIRIN1/AKIRIN1-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;AKIRIN1&quot; date: 2026-06-04 tags: [protein-scout, rescored, rescued-to-scored, critical-false-rejection] status: rescored-to-scored previous_status: scored previous_rejection_reason: nuclear_score ≤ 3 rescue_reason: &quot;HPA Nucleoplasm+Nuclear membrane(Approved); GO-CC chromatin(IBA)+nucleoplasm(IDA:HPA); UniProt Nucleus(IDA); 极度新颖(16篇); nuclear_score=3显著低估&quot; revised_nuclear_score: 7 ---</p>
+<h3>AKIRIN1 核蛋白评估报告 -- CRITICAL FALSE REJECTION RE-EVALUATION</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>AKIRIN1 / C1orf108</td></tr>
+<tr><td>蛋白大小</td><td>192 aa / 21.9 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q9H9L7</td></tr>
+<tr><td>蛋白全名</td><td>Akirin-1</td></tr>
+<tr><td>HPA IF 主定位</td><td>Nucleoplasm</td></tr>
+<tr><td>HPA IF 附加定位</td><td>Nuclear membrane</td></tr>
+<tr><td>HPA Reliability</td><td>Approved</td></tr>
+<tr><td>原评估状态</td><td>REJECTED (nuclear_score=3)</td></tr>
+<tr><td>重新评估日期</td><td>2026-06-04</td></tr>
+<tr><td>重新评估结果</td><td><strong>RESCUED TO SCORED</strong></td></tr>
+</tbody></table></div>
+<h4>2. 评分总览（修订后）</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>权重</th><th>加权</th><th>摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td><strong>7/10</strong></td><td>×4</td><td>28</td><td>HPA Nucleoplasm+Nuclear membrane(Approved); GO-CC chromatin+nucleoplasm; UniProt Nucleus(IDA)</td></tr>
+<tr><td>蛋白大小</td><td>5/10</td><td>×1</td><td>5</td><td>192aa/21.9kDa，极小蛋白但含adaptor功能</td></tr>
+<tr><td>研究新颖性</td><td>10/10</td><td>×5</td><td>50</td><td>PubMed strict=16 (≤20→10)</td></tr>
+<tr><td>三维结构</td><td>4/10</td><td>×3</td><td>12</td><td>pLDDT=68.1, pct&lt;50=27.1%，高比例无序</td></tr>
+<tr><td>调控结构域</td><td>4/10</td><td>×2</td><td>8</td><td>IPR024132 (Akirin family)，adaptor蛋白，无经典DNA结合域</td></tr>
+<tr><td>PPI网络</td><td>6/10</td><td>×3</td><td>18</td><td>STRING: AKIRIN2(0.849实验), PSMA5/PSMB3(实验); 蛋白酶体+核转运</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>121/180</strong></td><td></td></tr>
+<tr><td><strong>归一化总分 (÷1.8)</strong></td><td></td><td></td><td><strong>67.2/100</strong></td><td></td></tr>
+</tbody></table></div>
+<h4>3. False rejection recheck -- CRITICAL</h4>
+<p><strong>为何本次重新评估被列为CRITICAL:</strong></p>
+<p>AKIRIN1代表了&quot;核定位极其明确但蛋白过小+结构无序导致综合评分偏低而错误拒绝&quot;的典型。GO-CC含chromatin注释(IBA)，这在所有评估基因中极为罕见——直接暗示染色质相互作用。HPA Approved最高可信度的Nucleoplasm+Nuclear membrane双定位也是最佳核定位证据之一。</p>
+<p><strong>逐一数据库审查:</strong></p>
+<p>1. <strong>UniProt Subcellular Location (harvest packet)</strong>:</p>
+<ul><li>Nucleus: ECO:0000269 (IDA, 实验验证)</li><li>单一核定位，无胞质注释</li></ul>
+<p>2. <strong>GO-CC (harvest packet) -- 极为丰富的核注释</strong>:</p>
+<ul><li>GO:0000785 chromatin: IBA:GO_Central -- <strong>罕见的染色质注释!</strong></li><li>GO:0031965 nuclear membrane: IDA:HPA (实验)</li><li>GO:0005654 nucleoplasm: IDA:HPA (实验)</li><li>GO:0005634 nucleus: IDA:UniProtKB (实验)</li><li><strong>四个核GO术语，含染色质，在10个CRITICAL基因中独一无二</strong></li></ul>
+<p>3. <strong>HPA Subcellular (harvest packet)</strong>:</p>
+<ul><li>Main location: Nucleoplasm</li><li>Additional: Nuclear membrane</li><li>Reliability: Approved (最高可信度)</li><li>纯核定位，无胞质/膜信号</li></ul>
+<p>4. <strong>功能证据</strong>:</p>
+<ul><li>作为分子adaptor桥接蛋白间相互作用</li><li>参与骨骼肌发育(通过PI3K通路调控actin骨架)</li><li>与AKIRIN2不同，不参与蛋白酶体核转运</li><li>在天然杀伤细胞和粒细胞中作为参考基因</li></ul>
+<p><strong>为何原核定位评分=3是错误的:</strong></p>
+<p>AKIRIN1同时拥有:</p>
+<ul><li>HPA Approved Nucleoplasm+Nuclear membrane (纯核定位)</li><li>GO-CC chromatin (IBA, 暗示染色质结合)</li><li>UniProt Nucleus (IDA实验)</li><li>无任何胞质注释(GO-CC胞质条目为0)</li></ul>
+<p>这组核定位证据在研究基因中属于最高水平。chromatin的IBA注释虽然有别于IDA，但来自GO_Central的进化保守推断仍有较高可信度。核定位评分至少应为7/10。</p>
+<p><strong>修订后核定位评分: 7/10</strong></p>
+<ul><li>HPA Approved纯核定位: 核蛋白确认</li><li>GO-CC chromatin: 暗示功能核定位(染色质关联)</li><li>UniProt Nucleus IDA: 独立实验验证</li><li>扣分项: chromatin为IBA(推断)而非IDA; AlphaFold结构无序(但结构质量与核定位证据独立)</li><li>加分项: 纯核定位，无胞质contamination</li></ul>
+<h4>4. 详细分析</h4>
+<h5>4.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th><th>证据代码</th></tr></thead><tbody>
+<tr><td>HPA (IF)</td><td>Nucleoplasm (main)</td><td>Approved (最高)</td><td>IF实验</td></tr>
+<tr><td>HPA (IF)</td><td>Nuclear membrane (additional)</td><td>Approved (最高)</td><td>IF实验</td></tr>
+<tr><td>UniProt</td><td>Nucleus</td><td>IDA</td><td>ECO:0000269</td></tr>
+<tr><td>GO-CC</td><td>chromatin</td><td>IBA:GO_Central</td><td>进化保守推断</td></tr>
+<tr><td>GO-CC</td><td>nuclear membrane</td><td>IDA:HPA</td><td>实验验证</td></tr>
+<tr><td>GO-CC</td><td>nucleoplasm</td><td>IDA:HPA</td><td>实验验证</td></tr>
+<tr><td>GO-CC</td><td>nucleus</td><td>IDA:UniProtKB</td><td>实验验证</td></tr>
+</tbody></table></div>
+<p>AKIRIN1是10个CRITICAL基因中唯一的纯核蛋白(HPA无任何胞质/膜信号)，且GO-CC含chromatin条目。Nuclear membrane附加定位与HPA Approved一致，提示AKIRIN1可能定位于内核膜或核孔复合物附近，这是许多核-质穿梭蛋白和核骨架蛋白的特征性定位模式。<strong>修订评分: 7/10</strong>。</p>
+<h5>4.2 蛋白大小评估</h5>
+<p>192 aa / 21.9 kDa。极小的adaptor蛋白，为Akirin家族最小成员。作为分子桥接蛋白(bridge between proteins)，小尺寸可能是功能性特征——作为信号复合物的hub，小蛋白可以高效地在不同复合物间切换。但与标准核蛋白(如转录因子≥300aa)相比，功能域容量有限。<strong>评分: 5/10</strong>。</p>
+<h5>4.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict_count</td><td>16</td></tr>
+<tr><td>PubMed symbol_only</td><td>19</td></tr>
+<tr><td>别名</td><td>C1orf108</td></tr>
+<tr><td>主要方向</td><td>骨骼肌发育、NF-kB信号、免疫</td></tr>
+</tbody></table></div>
+<p>PubMed仅16篇(strict)，极度新颖。与AKIRIN2(广泛研究的蛋白酶体核转运因子)形成鲜明对比——AKIRIN1的功能领域完全不同且在文献中呈现&quot;低关注度&quot;。<strong>评分: 10/10</strong>。</p>
+<p><strong>关键文献</strong>: 1. Rao VV et al. (2019). &quot;Role of Akirin1 in the regulation of skeletal muscle fiber-type switch.&quot; *J Cell Biochem*. PMID: 30746755 2. Sun W et al. (2019). &quot;Akirin1 promotes myoblast differentiation by modulating multiple myoblast differentiation factors.&quot; *Biosci Rep*. PMID: 30777932 3. Coulibaly A et al. (2019). &quot;AKIRIN1: A Potential New Reference Gene in Human Natural Killer Cells and Granulocytes in Sepsis.&quot; *Int J Mol Sci*. PMID: 31075840 4. Bosch PJ et al. (2020). &quot;Akirin proteins in development and disease: critical roles and mechanisms of action.&quot; *Cell Mol Life Sci*. PMID: 32361777 -- 综述 5. Macqueen DJ et al. (2010). &quot;Positioning the expanded akirin gene family of Atlantic salmon within the transcriptional networks of myogenesis.&quot; *Biochem Biophys Res Commun*. PMID: 20804733</p>
+<h5>4.4 三维结构分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold 平均 pLDDT</td><td>68.1</td></tr>
+<tr><td>pLDDT &gt; 90 (Very High)</td><td>29.7%</td></tr>
+<tr><td>pLDDT 70-90 (High)</td><td>13.5%</td></tr>
+<tr><td>pLDDT 50-70 (Medium)</td><td>29.7%</td></tr>
+<tr><td>pLDDT &lt; 50 (Low)</td><td>27.1%</td></tr>
+<tr><td>有序区域 (pLDDT&gt;70)</td><td>43.2%</td></tr>
+<tr><td>实验结构 (PDB)</td><td>无</td></tr>
+</tbody></table></div>
+<p>AlphaFold低质量预测(pLDDT 68.1)，仅43.2%有序。27.1%的pLDDT&lt;50区域可能代表AKIRIN1作为adaptor蛋白的功能性无序区域，这类IDR(intrinsically disordered region)常用于介导多蛋白复合物中的灵活互作。小adaptor蛋白的高比例无序是功能特征而非结构缺陷——许多hub蛋白(如p53 N端、CREB binding protein)具有类似特征。但无PDB实验结构降低了结构可信度。<strong>评分: 4/10</strong>。</p>
+<p>PAE图像未生成本地文件，但基于pLDDT分布推测，有序区(前90个残基)内部PAE可能较低，而无序区PAE较高。</p>
+<h5>4.5 结构域分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>结构域</th></tr></thead><tbody>
+<tr><td>InterPro</td><td>IPR024132 (Akirin family)</td></tr>
+<tr><td>Pfam</td><td>无</td></tr>
+</tbody></table></div>
+<p>AKIRIN1属于Akirin家族，无已知Pfam功能域。作为分子adaptor，其功能通过蛋白-蛋白互作实现，不依赖酶活性或DNA结合。<strong>与TE调控的潜在关联</strong>: (1) GO-CC chromatin注释(IBA)暗示直接染色质结合; (2) 与RAN(核转运GTPase)和多个蛋白酶体亚基(PSMA5/PSMB3/PSMB9)的实验互作提示核蛋白输入和降解功能; (3) 通过PI3K通路调控actin细胞骨架重组，与核actin功能(染色质重塑、转录调控)有间接关联; (4) Akirin家族在果蝇中参与NF-kB先天免疫信号，该通路与内源性逆转录病毒防御交叉。<strong>评分: 4/10</strong>。</p>
+<h5>4.6 PPI 网络</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Combined Score</th><th>Experimental</th><th>功能</th></tr></thead><tbody>
+<tr><td>AKIRIN2</td><td>0.849</td><td>0.82</td><td>同家族互作</td></tr>
+<tr><td>PSMA5</td><td>0.686</td><td>0.685</td><td>20S蛋白酶体α亚基</td></tr>
+<tr><td>RAN</td><td>0.636</td><td>0.612</td><td>核转运GTPase</td></tr>
+<tr><td>DDX17</td><td>0.586</td><td>0.298</td><td>RNA解旋酶</td></tr>
+<tr><td>KHDRBS1</td><td>0.583</td><td>0.292</td><td>RNA结合/剪接因子</td></tr>
+<tr><td>PSMB3</td><td>0.551</td><td>0.55</td><td>20S蛋白酶体β亚基</td></tr>
+<tr><td>PSMB9</td><td>0.509</td><td>0.509</td><td>免疫蛋白酶体亚基</td></tr>
+<tr><td>PSMA2</td><td>0.465</td><td>0.466</td><td>20S蛋白酶体α亚基</td></tr>
+</tbody></table></div>
+<p><strong>IntAct实验互作</strong>: PSMB3(co-IP), RAN(co-IP), AKIRIN2(co-IP), PSMA5(co-IP), PSMB9(co-IP), PSMA2(co-IP), USP7(phage display, direct interaction), GOPC(Y2H array)</p>
+<p>PPI网络高度集中于蛋白酶体(PSMA5/PSMB3/PSMB9/PSMA2)和核转运(RAN)，与Akirin家族保守的蛋白酶体调控功能一致。但值得注意的是，文献明确指出AKIRIN1(不同于AKIRIN2)不参与蛋白酶体核转运(PubMed:34711951)，暗示其蛋白酶体互作可能服务于不同功能——如在染色质上介导特定底物的泛素化降解。USP7(deubiquitinase)的直接互作进一步支持其泛素信号调控角色。<strong>评分: 6/10</strong> (PPI集中于蛋白酶体但实验证据扎实)。</p>
+<h4>5. Rescue Decision</h4>
+<p><strong>决策: RESCUED TO SCORED</strong></p>
+<p><strong>核定位评分修正</strong>: 从3/10 → 7/10。修正依据: 1. HPA Approved纯核定位(Nucleoplasm+Nuclear membrane)，无胞质信号 2. GO-CC含chromatin注释(IBA) -- 10个CRITICAL基因中独一无二 3. UniProt Nucleus IDA实验验证 4. GO-CC 4个核术语全部为实验级别(IDA)或保守推断(IBA) 5. PPI集中于蛋白酶体+核转运，功能指向核内蛋白降解</p>
+<p><strong>修正后加权总分</strong>: 121/180 (67.2/100)。</p>
+<p><strong>AKIRIN1应进入scored蛋白列表</strong>。尽管蛋白大小和结构质量偏弱，但其纯核定位(Approved HPA) + chromatin GO注释 + 极度新颖 + 实验PPI集中于核功能蛋白的组合使其成为TE调控研究的有趣候选——特别是如果其chromatin注释反映了在特定基因组区域(如TE位点)的富集。</p>
+<h4>6. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9H9L7</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9H9L7</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=AKIRIN1%5BTitle/Abstract%5D</li><li>HPA: https://www.proteinatlas.org/ENSG00000174574-AKIRIN1</li><li>STRING: https://string-db.org/network/9606.ENSP00000366569</li><li>IntAct: https://www.ebi.ac.uk/intact/interactors/id:Q9H9L7</li><li>Harvest packet: /Users/quii/Desktop/projects/TE-regulated proteins finding/protein_data/harvest_packets/AKIRIN1.json (2026-06-03)</li></ul>
+<p>HPA IF图像可在线获取(Approved, Nucleoplasm+Nuclear membrane)，未下载本地。PAE未生成本地。</p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

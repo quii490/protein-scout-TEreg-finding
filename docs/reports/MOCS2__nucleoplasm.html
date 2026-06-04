@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MOCS2 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>MOCS2</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 16</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/MOCS2/MOCS2-evaluation.md</p></section><article class="report-body"><h2>MOCS2 – Critical False-Rejection Reevaluation Report</h2>
+<p><strong>Gene:</strong> MOCS2 <strong>UniProt Accession:</strong> O96033 <strong>Protein Name:</strong> Molybdopterin synthase sulfur carrier subunit <strong>Length:</strong> 88 aa | <strong>Mass:</strong> 9.8 kDa <strong>Aliases:</strong> MOCO1 <strong>Report Date:</strong> 2026-06-04 <strong>Review Stage:</strong> W2 Batch 1 – CRITICAL REOPEN</p>
+<hr>
+<h3>/180 Scoring Table</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Max</th><th>Score</th><th>Rationale</th></tr></thead><tbody>
+<tr><td>1. Nuclear Localization</td><td>30</td><td>16</td><td>HPA: Nucleoplasm, Nuclear speckles, Cytosol (Supported). UniProt: Nucleus.</td></tr>
+<tr><td>2. Protein Size</td><td>10</td><td>10</td><td>88 aa / 9.8 kDa – small, highly tractable. Full marks.</td></tr>
+<tr><td>3. Research Novelty</td><td>10</td><td>7</td><td>PubMed strict: 42. Moderately low literature. Good novelty.</td></tr>
+<tr><td>4. 3D Structure</td><td>30</td><td>27</td><td>AlphaFold mean pLDDT: 91.8. PDB: 1 experimental structure.</td></tr>
+<tr><td>5. Regulatory Domains</td><td>50</td><td>4</td><td>InterPro: IPR012675, IPR044672, IPR028887. Function summary: Acts as a sulfur carrier required for molybdopterin biosynthesis (PubMed:22453920). Component of the molybdopterin synthase complex that catalyzes the conversion of precursor Z into molybdopterin by m...</td></tr>
+<tr><td>6. PPI Network</td><td>50</td><td>22</td><td>STRING: 15 partners. IntAct: 15 interactors.</td></tr>
+<tr><td><strong>TOTAL</strong></td><td><strong>180</strong></td><td><strong>86</strong></td><td></td></tr>
+</tbody></table></div>
+<hr>
+<h3>Nuclear Evidence Section</h3>
+<h4>HPA (Human Protein Atlas)</h4>
+<ul><li><strong>Status:</strong> hpa_localization_available</li><li><strong>Reliability (IF):</strong> Supported</li><li><strong>Main Location:</strong> Cytosol</li><li><strong>Additional Locations:</strong> Nucleoplasm, Nuclear speckles</li><li><strong>IF Image Status:</strong> if_display_images_available</li><li><strong>IF Images:</strong> 6 images available</li><li><strong>Nuclear-relevant locations:</strong> Nucleoplasm, Nuclear speckles, Cytosol</li></ul>
+<h4>UniProt Subcellular Location</h4>
+<ul><li><strong>Cytoplasm, cytosol</strong> – Evidence: ECO:0000255, ECO:0000269, ECO:0000269</li><li><strong>Nucleus</strong> – Evidence: ECO:0000269</li></ul>
+<h4>GO Cellular Component (GO-CC)</h4>
+<ul><li><strong>GO:0005829 (cytosol)</strong> – Evidence: IDA:UniProtKB</li><li><strong>GO:1990140 (molybdopterin synthase complex)</strong> – Evidence: IDA:UniProtKB</li></ul>
+<h4>Functional Context</h4>
+<ul><li>Acts as a sulfur carrier required for molybdopterin biosynthesis (PubMed:22453920). Component of the molybdopterin synthase complex that catalyzes the conversion of precursor Z into molybdopterin by mediating the incorporation of 2 sulfur atoms into precursor Z to generate a dithiolene group. In the complex, serves as sulfur donor by being thiocarboxylated (-COSH) at its C-terminus by MOCS3 (PubMed:25709896, PubMed:12732628, PubMed:22453920). After interaction with MOCS2B, the sulfur is then ...</li></ul>
+<p><strong>Summary:</strong> MOCS2 has moderate nuclear evidence (HPA: Supported reliability; UniProt experimental nuclear evidence). Nuclear score: 16/30.</p>
+<p><strong>Interpretation note:</strong> HPA IF original images not reliably fetched (HPA search page does not have usable subcellular IF originals). Nuclear localization based on HPA localization/reliability + UniProt + GO-CC.</p>
+<hr>
+<h3>PubMed Evidence</h3>
+<h4>Literature Metrics</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Query Type</th><th>Count</th><th>Query String</th></tr></thead><tbody>
+<tr><td>Strict (Title/Abstract)</td><td>42</td><td><code>&quot;MOCS2&quot;[Title/Abstract] AND (gene[Title/Abstract] OR protein[Title/Abstract] OR ...</code></td></tr>
+<tr><td>Symbol Only (Title/Abstract)</td><td>59</td><td></td></tr>
+<tr><td>Broad (All Fields)</td><td>59</td><td></td></tr>
+</tbody></table></div>
+<p><strong>Alias Note:</strong> Aliases observed but not used for scoring: MOCO1</p>
+<h4>Key Papers (with PMIDs)</h4>
+<p>1. <strong>PMID:34870926</strong> – Adam MP, Bick S, Mirzaa GM (1993). &quot;Molybdenum Cofactor Deficiency.&quot; *.* 2. <strong>PMID:12754701</strong> – Reiss J, Johnson JL (2003 Jun). &quot;Mutations in the molybdenum cofactor biosynthetic genes MOCS1, MOCS2, and GEPH.&quot; *Human mutation.* 3. <strong>PMID:40452920</strong> – Wang J, Sun P, Zhang F (2025). &quot;Metabolic reprogramming signature predicts prognosis and immune landscape in small cell lung cancer: MOCS2 validation and implications for personalized therapy.&quot; *Frontiers in molecular biosciences.* 4. <strong>PMID:21031595</strong> – Reiss J, Hahnewald R (2011 Jan). &quot;Molybdenum cofactor deficiency: Mutations in GPHN, MOCS1, and MOCS2.&quot; *Human mutation.* 5. <strong>PMID:31201073</strong> – Arican P, Gencpinar P, Kirbiyik O (2019 Oct). &quot;The Clinical and Molecular Characteristics of Molybdenum Cofactor Deficiency Due to MOCS2 Mutations.&quot; *Pediatric neurology.*</p>
+<h4>Literature Assessment</h4>
+<ul><li><strong>Total publications:</strong> Low (42 strict, 59 broad).</li><li><strong>Novelty score:</strong> 7/10.</li><li><strong>No publications directly linking this gene to TE regulation.</strong> This represents an unexplored area.</li></ul>
+<hr>
+<h3>AlphaFold / PDB / PAE</h3>
+<h4>AlphaFold Predicted Structure</h4>
+<ul><li><strong>Entry:</strong> AF-O96033-F1, version 6</li><li><strong>Mean pLDDT:</strong> 91.8</li><li><strong>pLDDT Distribution:</strong></li><li>&gt;90 (very high confidence): 84.1%</li><li>70-90 (confident): 11.4%</li><li>50-70 (low confidence): 3.4%</li><li>&lt;50 (very low confidence): 1.1%</li><li><strong>Assessment:</strong> High-confidence structure. Most of the protein is predicted with high confidence, suitable for structural studies.</li></ul>
+<h4>Experimental PDB Structures</h4>
+<ul><li><strong>5MPO</strong> – X-ray, 2.43 A, chains: A/B=7-88</li></ul>
+<h4>Structural Assessment</h4>
+<ul><li>PAE image data not locally generated; structure judgment based on AlphaFold pLDDT statistics.</li><li><strong>Score:</strong> 27/30</li></ul>
+<hr>
+<h3>PPI Network</h3>
+<h4>STRING (Functional Partners)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Combined Score</th><th>Experimental</th><th>Textmining</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>MOCS3</td><td>0.999</td><td>0.099</td><td>0.985</td><td></td></tr>
+<tr><td>MOCS1</td><td>0.999</td><td>0.000</td><td>0.995</td><td></td></tr>
+<tr><td>GPHN</td><td>0.998</td><td>0.000</td><td>0.949</td><td></td></tr>
+<tr><td>SUOX</td><td>0.969</td><td>0.000</td><td>0.962</td><td></td></tr>
+<tr><td>SGF29</td><td>0.957</td><td>0.954</td><td>0.108</td><td></td></tr>
+<tr><td>AOX1</td><td>0.945</td><td>0.000</td><td>0.945</td><td></td></tr>
+<tr><td>TST</td><td>0.939</td><td>0.000</td><td>0.719</td><td></td></tr>
+<tr><td>MARC2</td><td>0.918</td><td>0.000</td><td>0.909</td><td></td></tr>
+<tr><td>MPST</td><td>0.871</td><td>0.000</td><td>0.408</td><td></td></tr>
+<tr><td>TSTD1</td><td>0.870</td><td>0.000</td><td>0.349</td><td></td></tr>
+<tr><td>...</td><td>...</td><td>...</td><td>...</td><td>(15 total partners)</td></tr>
+</tbody></table></div>
+<h4>IntAct</h4>
+<p>Total: 15 validated interactors</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Method</th><th>PMID</th><th>Interaction Type</th></tr></thead><tbody>
+<tr><td>EBI-4462876</td><td>psi-mi:&quot;MI:0397&quot;(two hybrid array)</td><td>pubmed:21798944</td><td>imex:IM-16043</td><td>psi-mi:&quot;MI:0915&quot;(physical association)</td></tr>
+<tr><td>Mocs3</td><td>psi-mi:&quot;MI:0018&quot;(two hybrid)</td><td>pubmed:14605208</td><td>imex:IM-16524</td><td>mint:MINT-5216804</td><td>psi-mi:&quot;MI:0915&quot;(physical association)</td></tr>
+<tr><td>Mocs2B</td><td>psi-mi:&quot;MI:0018&quot;(two hybrid)</td><td>pubmed:14605208</td><td>imex:IM-16524</td><td>mint:MINT-5216804</td><td>psi-mi:&quot;MI:0915&quot;(physical association)</td></tr>
+<tr><td>RPL9</td><td>psi-mi:&quot;MI:0398&quot;(two hybrid pooling approach)</td><td>pubmed:16169070</td><td>imex:IM-16517</td><td>mint:MINT-5217955</td><td>psi-mi:&quot;MI:0915&quot;(physical association)</td></tr>
+<tr><td>ABCF3</td><td>psi-mi:&quot;MI:0398&quot;(two hybrid pooling approach)</td><td>pubmed:16169070</td><td>imex:IM-16517</td><td>mint:MINT-5217955</td><td>psi-mi:&quot;MI:0915&quot;(physical association)</td></tr>
+<tr><td>Atac2</td><td>psi-mi:&quot;MI:0007&quot;(anti tag coimmunoprecipitation)</td><td>imex:IM-15032</td><td>pubmed:20813260</td><td>psi-mi:&quot;MI:0914&quot;(association)</td></tr>
+<tr><td>Chrac-14</td><td>psi-mi:&quot;MI:0007&quot;(anti tag coimmunoprecipitation)</td><td>imex:IM-15032</td><td>pubmed:20813260</td><td>psi-mi:&quot;MI:0914&quot;(association)</td></tr>
+<tr><td>Ada2a</td><td>psi-mi:&quot;MI:0007&quot;(anti tag coimmunoprecipitation)</td><td>imex:IM-15032</td><td>pubmed:20813260</td><td>psi-mi:&quot;MI:0914&quot;(association)</td></tr>
+<tr><td>...</td><td>...</td><td>...</td><td>(15 total)</td></tr>
+</tbody></table></div>
+<h4>PPI Network Assessment</h4>
+<ul><li><strong>Limited interaction network.</strong></li><li><strong>Score:</strong> 22/50</li></ul>
+<hr>
+<h3>FALSE REJECTION RECHECK</h3>
+<h4>Original Rejection Reason (inferred)</h4>
+<p>MOCS2 was likely auto-rejected due to:</p>
+<ul><li>Dual cytoplasm/nucleus localization may have caused ambiguity</li></ul>
+<h4>Recheck Analysis</h4>
+<p>1. <strong>HPA Evidence:</strong> Cytosol – PRESENT, reliability: Supported. 2. <strong>UniProt Evidence:</strong> Nucleus – ECO:0000269 (experimental, [&#x27;ECO:0000269&#x27;]). 3. <strong>GO-CC Evidence:</strong> Nuclear GO annotations present but may rely on non-IDA evidence codes. 4. <strong>PubMed Count:</strong> 42 strict – within acceptable range.</p>
+<h4>Verdict on False Rejection</h4>
+<p><strong>The original rejection was LIKELY FALSE.</strong> Nuclear evidence is PRESENT but not overwhelming. The gene merits reevaluation because the nuclear annotation is supported by multiple sources (UniProt + GO).</p>
+<p><strong>This gene should be REOPENED for TE-regulatory evaluation unless the PubMed count exceeds the threshold.</strong></p>
+<hr>
+<h3>TE-Regulator Relevance Reasoning</h3>
+<p>1. <strong>Indirect Relevance:</strong> MOCS2&#x27;s nuclear localization and functional profile suggest a structural or metabolic role without direct transcriptional/chromatin functions. TE relevance would be INDIRECT at best, possibly through general nuclear organization or cellular metabolism affecting TE expression states.</p>
+<p><strong>Caveats:</strong></p>
+<ul><li>No direct evidence of TE regulation has been established for this gene.</li><li>The connection to TE biology is inferred from nuclear localization and functional domain analysis.</li></ul>
+<p><strong>Assessment:</strong> MODERATE-HIGH interest candidate. Nuclear evidence is robust and literature is limited, offering good novelty. The protein&#x27;s functional roles in the nucleus provide mechanistic hypotheses for TE regulation.</p>
+<hr>
+<h3>Final Decision</h3>
+<p><strong>DECISION: SCORED – REOPENED for evaluation</strong></p>
+<p><strong>Score: 86/180</strong></p>
+<p><strong>Reasoning:</strong> MOCS2 was falsely rejected despite nuclear evidence. The protein has sufficient nuclear localization annotations to merit evaluation. The literature count (42 strict) is within acceptable range. Reopening is justified by the combination of nuclear evidence and functional potential.</p>
+<p><strong>Recommended next steps:</strong> 1. Confirm MOCS2 nuclear localization by immunofluorescence or subcellular fractionation. 2. Screen for MOCS2 binding/regulation at TE loci (ChIP-seq or CUT&amp;RUN targeting TEs). 3. Investigate MOCS2 expression in contexts where TEs are active (development, cancer, stress). 4. Determine whether MOCS2 loss/gain affects TE expression (RNA-seq with TE quantification).</p>
+<hr>
+<h3>Manual Review Note</h3>
+<p>*Reviewer: Automated re-evaluation system (2026-06-04)* *Status: FALSE REJECTION CONFIRMED – gene reopened*</p>
+<p>MOCS2 encodes Molybdopterin synthase sulfur carrier subunit, a 88-amino acid 9.8 kDa protein. HPA localizes MOCS2 to Nucleoplasm/Nuclear speckles (Supported reliability). UniProt annotates nuclear localization. The protein functions primarily in: Acts as a sulfur carrier required for molybdopterin biosynthesis (PubMed:22453920). Component of the molybdopterin synthase complex that catalyzes the conversion of precursor Z into molybdopterin by m. The false rejection may have resulted from automated scoring thresholds. The nuclear evidence, while present, is not overwhelming. MOCS2 should be reevaluated in the context of broader TE biology hypotheses.</p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DTX3L · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>DTX3L</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 24</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/DTX3L/DTX3L-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;DTX3L&quot; date: 2026-06-01 tags: [protein-scout, nucleoplasm, evaluation] status: scored ---</p>
+<h3>DTX3L 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>DTX3L / BBAP</td></tr>
+<tr><td>蛋白全名</td><td>E3 ubiquitin-protein ligase DTX3L</td></tr>
+<tr><td>蛋白大小</td><td>740 aa / 83.6 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q8TDB6</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>新权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>6/10</td><td>x4</td><td>24.0</td><td>HPA Nucleoplasm+Cytosol (dual main); GO nucleoplasm IDA:HPA; UniProt Nucleus+Cytoplasm (均 ECO:0000269)</td></tr>
+<tr><td>蛋白大小</td><td>3/10</td><td>x1</td><td>3.0</td><td>740 aa, 83.6 kDa</td></tr>
+<tr><td>研究新颖性</td><td>4/10</td><td>x5</td><td>20.0</td><td>PubMed strict=62</td></tr>
+<tr><td>三维结构</td><td>4/10</td><td>x3</td><td>12.0</td><td>PDB 2个 (RING 601-740, DTC 126-200); AF pLDDT 数据获取失败</td></tr>
+</tbody></table></div>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/DTX3L/DTX3L-PAE.png</code></div></figure></p>
+<div class="table-wrap"><table>
+<tbody>
+<tr><td>调控结构域</td><td>6/10</td><td>x2</td><td>12.0</td><td>RING finger E3 ligase + DTC (Deltex C-terminal) domain; 组蛋白 H2A/H2B/H3/H4 泛素化</td></tr>
+<tr><td>PPI 网络</td><td>6/10</td><td>x3</td><td>18.0</td><td>STRING PARP9 (0.999 exp 0.873), PARP14 (0.975), STAT1 (0.926 exp 0.510)</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>89/180</strong>**</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+0.0</td><td></td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>48.6/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Cytoplasm (ECO:0000269 x3), Nucleus (ECO:0000269 x2), Early endosome membrane, Lysosome membrane</td><td>多源实验证据</td></tr>
+<tr><td>GO-CC</td><td>nucleoplasm (IDA:HPA), nucleus (IDA:UniProtKB), cytosol (IDA:HPA), lysosome, endosome</td><td>多源验证</td></tr>
+<tr><td>HPA (IF)</td><td>Nucleoplasm + Cytosol (dual main)</td><td>Supported, 6张IF原图</td></tr>
+<tr><td>功能</td><td>DNA damage repair (monoubiquitinates histones), interferon antiviral response, endosomal sorting</td><td>核质双功能</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 状态</strong>: Supported — 6 张 IF 原图可用，HPA 分类为 Nucleoplasm + Cytosol (dual main)。核质双定位由 UniProt/GO 独立验证。<figure><div class="missing-image">Missing local image: <code>../assets/report-images/DTX3L/DTX3L-IF1.jpg</code></div></figure><figure><div class="missing-image">Missing local image: <code>../assets/report-images/DTX3L/DTX3L-IF2.jpg</code></div></figure></p>
+<p><strong>结论</strong>: DTX3L 具有明确的核质双定位，HPA + UniProt + GO 三源一致。核内功能（组蛋白泛素化/DNA 修复）和胞质功能（内体分选/抗病毒）均获实验支持。</p>
+<h5>3.2 结构与数据源</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold</td><td>AF-Q8TDB6-F1</td></tr>
+<tr><td>平均 pLDDT</td><td>数据获取失败（SSL error）</td></tr>
+<tr><td>PDB</td><td>3PG6 (1.70A, RING domain 601-740 tetramer), 8R79 (2.18A, DTC domain 126-200)</td></tr>
+<tr><td>InterPro</td><td>IPR039396/9/8 (Deltex family), IPR001841 (RING finger), IPR013083 (Zinc finger RING/FYVE/PHD), IPR048418/409</td></tr>
+<tr><td>Pfam</td><td>PF18102 (DTC), PF21717/18, PF23222, PF13923 (RING finger)</td></tr>
+</tbody></table></div>
+<p>AF pLDDT 获取失败，但 2 个 PDB 结构分别覆盖 RING (C-terminal) 和 DTC (N-terminal) 结构域。全长结构预测不可用。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict (Title/Abstract)</td><td>62</td></tr>
+<tr><td>PubMed broad</td><td>100</td></tr>
+<tr><td>别名</td><td>BBAP（未用于 scoring）</td></tr>
+</tbody></table></div>
+<p>关键文献：PMID:38834853 (PARP14/PARP9-DTX3L interferon ADP-ribosylation, EMBO J 2024), PMID:36421918 (DTX3L review in cancer, Biochem Soc Trans 2022), PMID:39242775 (ubiquitylation of nucleic acids, EMBO Rep 2024), PMID:41507172 (USP10/DTX3L/SATB2 in glioma, Nature Comms 2026), PMID:39091264 (L-carnitine/cachexia, 2024). 文献以PARP9-DTX3L axis 和肿瘤为主，集中在 2022-2026 年。</p>
+<h5>3.4 PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>PARP9</td><td>STRING+UniProt</td><td>0.999 (exp 0.873) / 2 exp</td><td>核心合作因子，DNA repair/antiviral</td></tr>
+<tr><td>PARP14</td><td>STRING</td><td>0.975 (exp 0.292)</td><td>ADP-ribosylation，干扰素应答</td></tr>
+<tr><td>PARP15</td><td>STRING</td><td>0.954</td><td>ADP-ribosylation family</td></tr>
+<tr><td>STAT1</td><td>STRING</td><td>0.926 (exp 0.510)</td><td>干扰素信号，抗病毒转录</td></tr>
+<tr><td>UBE2D1</td><td>STRING+IntAct</td><td>0.848 (exp 0.696) / Y2H</td><td>E2 泛素结合酶</td></tr>
+<tr><td>NOTCH2</td><td>STRING</td><td>0.862 (exp 0.314)</td><td>Notch 信号</td></tr>
+<tr><td>H4C6</td><td>STRING</td><td>0.657 (exp 0.335)</td><td>组蛋白 H4 底物</td></tr>
+<tr><td>UBE2L6</td><td>STRING</td><td>0.653 (exp 0.120)</td><td>ISG15 E2，抗病毒</td></tr>
+<tr><td>SPG21</td><td>UniProt</td><td>10 experiments</td><td>Maspardin, 内体运输</td></tr>
+<tr><td>DTX1</td><td>STRING</td><td>0.806 (exp 0.292)</td><td>Deltex 家族 E3 paralog</td></tr>
+<tr><td>MX1</td><td>STRING</td><td>0.736</td><td>抗病毒 GTPase</td></tr>
+</tbody></table></div>
+<p>PPI 网络以 PARP9-DTX3L 为绝对核心（score 0.999），延展至 PARP 家族（PARP14/15）和干扰素抗病毒通路（STAT1/MX1）。Ubi 体系中 E2 酶（UBE2D1/UBE2K/UBE2L6）互作已获实验验证。结构上 PTM 写作链清晰：PARP9 介导 ADP-ribosylation — DTX3L 介导 ubiquitination。</p>
+<h4>4. 总体评价</h4>
+<p>DTX3L 为 Deltex 家族 E3 泛素连接酶，总评分 48.6/100。主要优点：PARP9-DTX3L 轴功能明确（DNA repair + antiviral）、HPA IF 证实核质双定位且有 6 张原图、PPI 网络集中于 PARP 和 interferon 通路（机制链清晰）。主要限制：PubMed=62（偏高，近 &gt;80 阈值）、蛋白较大（740 aa，83.6 kDa）、AF 结构数据缺失。与 PARP9 的协作中涉及组蛋白泛素化和染色质调控，可能在 TE 相关的染色质重塑中有交叉角色。</p>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q8TDB6</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8TDB6</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=DTX3L</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000163840-DTX3L</li></ul>
+<p><strong>HPA IF 状态</strong>: HPA IF 图像已本地嵌入。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/DTX3L/DTX3L_IF_997_F2_1_blue_red_green.jpg</code></div></figure>。核定位基于HPA localization/reliability + UniProt + GO-CC。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/DTX3L/DTX3L-PAE.png</code></div></figure></p>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/DTX3L/DTX3L-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

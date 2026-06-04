@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FRG1 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>FRG1</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleolus</span><span class="badge">Score: 1.83</span><span class="badge">Nuclear: 1</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleolus.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleolus/FRG1/FRG1-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;FRG1&quot; date: 2026-06-02 tags: [protein-scout, nucleolus, evaluation] status: scored ---</p>
+<h3>FRG1 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>FRG1 / —</td></tr>
+<tr><td>蛋白全名</td><td>Protein FRG1</td></tr>
+<tr><td>蛋白大小</td><td>258 aa / 29.2 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q14331</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>8/10</td><td>×4</td><td>32.0</td><td>UniProt: Cajal body + Nucleolus + Cytoplasm + Z line (ECO:0000269实验证据); GO-CC: Cajal body, catalytic step 2 spliceosome, nucleolus (IDA/IBA)</td></tr>
+<tr><td>蛋白大小</td><td>7/10</td><td>×1</td><td>7.0</td><td>258 aa, 29.2 kDa, 小-中等</td></tr>
+<tr><td>研究新颖性</td><td>4/10</td><td>×5</td><td>20.0</td><td>PubMed strict=64, ≤80</td></tr>
+<tr><td>三维结构</td><td>5/10</td><td>×3</td><td>15.0</td><td>AlphaFold mean pLDDT 75.8; 3 PDB (EM, 剪接体复合物)</td></tr>
+</tbody></table></div>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/FRG1/FRG1-PAE.png</code></div></figure></p>
+<div class="table-wrap"><table>
+<tbody>
+<tr><td>调控结构域</td><td>2/10</td><td>×2</td><td>4.0</td><td>IPR008999, IPR010414, PF06229 — FRG1 结构域; 简单</td></tr>
+<tr><td>PPI 网络</td><td>6/10</td><td>×3</td><td>18.0</td><td>剪接体网络 (CWC22 0.998 exp, PRPF8, SNRPF 等 ≥0.828); IntAct 含 SART3/CAND1/ESR1 等</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>96/180</strong>**</td><td></td></tr>
+<tr><td>互证加分</td><td></td><td></td><td>+0.0</td><td></td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>52.5/100</strong>**</td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Nucleus, Cajal body (ECO:0000269 ×3); Nucleus, nucleolus (ECO:0000269 ×3); Cytoplasm (ECO:0000269 ×2); Z line (ECO:0000269)</td><td>高（实验证据）</td></tr>
+<tr><td>GO-CC</td><td>Cajal body (IEA), catalytic step 2 spliceosome (IDA:UniProtKB), nucleolus (IBA:GO_Central), striated muscle dense body (IBA), Z disc (IEA)</td><td>高（含 IDA/IBA）</td></tr>
+<tr><td>Protein Atlas (IF)</td><td>HPA 无 IF 图像（no_image_detected）</td><td>未确认</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 状态</strong>: no_image_detected — HPA 未检测到标准 IF 图像，但有 image_urls（可能为 IHC 或 RNA 表达数据）。核定位基于 UniProt + GO-CC。</p>
+<p><strong>结论</strong>: FRG1 核定位证据充分，特异性高。UniProt 以多实验证据（ECO:0000269 ×3）确认 Cajal body 和 nucleolus 双重核内定位。GO-CC 含催化步骤 2 剪接体 (IDA) 和 nucleolus (IBA)。此外在骨骼肌中有 Z line 定位，提示组织特异性。作为 Cajal body + nucleolus 双定位蛋白，核内空间分布明确。关键文献 PMID:20970242 直接命名为 &quot;FRG1 is a dynamic nuclear and sarcomeric protein&quot;。</p>
+<h5>3.2 结构与数据源</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold</td><td>AF-Q14331-F1</td></tr>
+<tr><td>平均 pLDDT</td><td>75.8</td></tr>
+<tr><td>pLDDT &gt;90</td><td>23.6%</td></tr>
+<tr><td>pLDDT 70-90</td><td>43.0%</td></tr>
+<tr><td>PDB</td><td>3 个结构（EM 3.40-5.00A），均为剪接体复合物中鉴定</td></tr>
+<tr><td>InterPro</td><td>IPR008999 (Actin cross-linking), IPR010414 (FRG1)</td></tr>
+<tr><td>Pfam</td><td>PF06229 (FRG1)</td></tr>
+</tbody></table></div>
+<p><strong>AlphaFold PAE 状态</strong>: PAE 已下载，模型置信度中等（mean pLDDT 75.8）。FRG1 结构域折叠预测可靠，部分区域有内在无序倾向。PDB 有 3 个 EM 结构（6ZYM/7A5P/8I0W），均在人类剪接体复合物中鉴定。 <figure><div class="missing-image">Missing local image: <code>../assets/report-images/FRG1/FRG1-PAE.png</code></div></figure></p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict (Title/Abstract)</td><td>64</td></tr>
+<tr><td>PubMed broad</td><td>123</td></tr>
+<tr><td>别名</td><td>无</td></tr>
+</tbody></table></div>
+<p>关键文献：FRG1 核心研究方向围绕面肩肱型肌营养不良（FSHD）。关键文献包括 FRG1 作为动态核与肌节蛋白的鉴定（PMID:20970242, &quot;FSHD region gene 1 (FRG1) is a dynamic nuclear and sarcomeric protein&quot;）、FRG1 在肌肉发育中的关键作用（PMID:19097195）、FRG1 是无义介导 mRNA 降解基因的直接转录调控因子（PMID:36521634）、FBXO32-FRG1 在胰腺癌中的功能（PMID:38775804）。FSHD 综合综述（PMID:28915324）涵盖了 FRG1 区域。文献集中在肌肉疾病和前体 mRNA 剪接/加工方向。</p>
+<h5>3.4 PPI 网络（三源综合）</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>CWC22</td><td>STRING</td><td>0.998 (exp 0.998)</td><td>Spliceosome factor</td></tr>
+<tr><td>FRG2</td><td>STRING</td><td>0.987 (textmining 0.987)</td><td>FSHD region gene</td></tr>
+<tr><td>DUX4</td><td>STRING</td><td>0.927 (textmining 0.927)</td><td>FSHD causal gene</td></tr>
+<tr><td>PRPF8</td><td>STRING</td><td>0.906 (exp 0.900)</td><td>Spliceosome core</td></tr>
+<tr><td>SNRPF</td><td>STRING</td><td>0.902 (exp 0.800)</td><td>Sm protein</td></tr>
+<tr><td>CIR1</td><td>STRING</td><td>0.901 (exp 0.800)</td><td>Spliceosome</td></tr>
+<tr><td>PPWD1</td><td>STRING</td><td>0.870 (exp 0.802)</td><td>Spliceosome</td></tr>
+<tr><td>EFTUD2</td><td>STRING</td><td>0.829 (exp 0.826)</td><td>Spliceosome</td></tr>
+<tr><td>SNW1</td><td>STRING</td><td>0.836 (exp 0.800)</td><td>Spliceosome</td></tr>
+<tr><td>BCAS2</td><td>STRING</td><td>0.842 (exp 0.800)</td><td>Spliceosome</td></tr>
+</tbody></table></div>
+<p>PPI 网络集中在剪接体/RNA 加工复合物（CWC22, PRPF8, EFTUD2, SNRPF 等），与 FRG1 在 Cajal body 和剪接体中的定位吻合。CWC22 实验得分极高达 0.998。IntAct 确认 SART3 (co-IP, PMID:19615732)、CAND1 (TAP, PMID:21145461)、LRRK2 (co-IP, PMID:31046837)、ESR1 (TAP, PMID:31527615) 等互作。H3C1（BioID 邻近标记, PMID:29568061）提示染色质邻近关系。</p>
+<p><strong>UniProt 记录互作</strong>: CWC22 (2), EXOSC8 (3), GNMT (3), KRT40 (3), LZTS2 (3)。</p>
+<h4>4. 总体评价</h4>
+<p>FRG1 是一个核定位证据充分但文献量偏高的候选（52.5/100）。核心优势：Cajal body + nucleolus 双核内定位（UniProt 实验证据充分）、剪接体相关 PPI 网络（CWC22 等）、PDB 已有 EM 结构。核心弱点：文献量中等偏高（PM=64, broad=123 含 FSHD 方向大量关注）、结构域注释简单（仅 FRG1 结构域）、AF 置信度中等、无 HPA IF 验证。作为 nucleolus 类别候选，定位特异性（Cajal body + nucleolus）和剪接体功能关联是核心价值，但 FSHD 疾病关联使文献热度不低。</p>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q14331</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q14331</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=FRG1</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000109536-FRG1（无 IF 原图）</li></ul>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/FRG1/FRG1-PAE.png</code></div></figure></p>
+<p>HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。</p>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/FRG1/FRG1-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

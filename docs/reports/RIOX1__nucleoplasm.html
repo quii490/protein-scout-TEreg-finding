@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RIOX1 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>RIOX1</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: NA</span><span class="badge">Nuclear: 28</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/RIOX1/RIOX1-evaluation.md</p></section><article class="report-body"><h2>RIOX1 -- Critical False-Rejection Reevaluation Report</h2>
+<p><strong>Gene:</strong> RIOX1 (Ribosomal oxygenase 1) <strong>UniProt Accession:</strong> Q9H6W3 <strong>Protein Name:</strong> Ribosomal oxygenase 1 <strong>Length:</strong> 641 aa | <strong>Mass:</strong> 71.1 kDa <strong>Aliases:</strong> C14orf169, MAPJD, NO66 <strong>Report Date:</strong> 2026-06-04 <strong>Review Stage:</strong> W3 Batch 1 -- CRITICAL REOPEN</p>
+<hr>
+<h3>/180 Scoring Table</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Dimension</th><th>Max</th><th>Score</th><th>Rationale</th></tr></thead><tbody>
+<tr><td>1. Nuclear Localization</td><td>30</td><td>28</td><td>HPA main: Nucleoli rim (Supported). HPA IF images available (blue_red_green). UniProt: Nucleus nucleolus (ECO:0000269 x2), Nucleus nucleoplasm (ECO:0000269). GO-CC: nucleolus (IDA:HPA), nucleoplasm (TAS:Reactome), nucleus (ISS:UniProtKB). Strong nuclear evidence -- nucleolar localization confirmed by multiple independent sources.</td></tr>
+<tr><td>2. Protein Size</td><td>10</td><td>8</td><td>641 aa / 71.1 kDa. Moderate-large size, slight deduction.</td></tr>
+<tr><td>3. Research Novelty</td><td>10</td><td>10</td><td>PubMed strict: 7. Novelty rule: 1-50=10. Very few publications. Highly novel target.</td></tr>
+<tr><td>4. 3D Structure</td><td>30</td><td>26</td><td>AlphaFold mean pLDDT: 79.9 (70.4% &gt;90, 1.6% 70-90, 0.2% 50-70, 27.9% &lt;50). PDB: 10 structures (4CCJ 2.15A, 4CCK 2.15A, 4CCM 2.51A, 4CCN 2.23A, 4CCO 2.30A, 4DIQ 2.40A, 4E4H 2.28A, 4Y33 2.70A, 4Y3O 2.20A, 4Y4R 3.30A). Extensive experimental structural coverage of catalytic domain (residues ~176-641).</td></tr>
+<tr><td>5. Regulatory Domains</td><td>50</td><td>45</td><td>IPR003347, IPR039994, IPR049043. PF08007, PF21233. KEY FUNCTION: Histone lysine demethylase -- specifically demethylates H3K4me3, H3K4me1, and H3K36me2. This is a DIRECT epigenetic regulatory activity. Also hydroxylates ribosomal protein L8. Participates in MYC-induced transcriptional activation. Demethylates cGAS. RIOX1 is a BONA FIDE histone modifier with direct chromatin-level regulatory function.</td></tr>
+<tr><td>6. PPI Network</td><td>50</td><td>35</td><td>STRING: 15 partners including RPL8 (0.986), PHF19 (0.940), SP7 (0.920), RIOK1 (0.807). PHF19 is a Polycomb component -- relevant for chromatin. MYC (0.604 experimental). IntAct: 15 interactors including MKI67 (proliferation marker), HNRNPU (RNA-binding), EIF3A (translation initiation), NOP56 (nucleolar), multiple ribosomal proteins. UniProt: SP7 (6 experiments). Network connects ribosomal biogenesis with chromatin/transcription.</td></tr>
+<tr><td><strong>TOTAL</strong></td><td><strong>180</strong></td><td><strong>152</strong></td><td></td></tr>
+</tbody></table></div>
+<hr>
+<h3>Nuclear Evidence Section</h3>
+<h4>HPA (Human Protein Atlas)</h4>
+<ul><li><strong>Status:</strong> hpa_localization_available</li><li><strong>Reliability (IF):</strong> Supported</li><li><strong>Main Location:</strong> Nucleoli rim</li><li><strong>Additional:</strong> None</li><li><strong>IF Image Status:</strong> if_display_images_available (6 blue_red_green images)</li><li><strong>Key Finding:</strong> Strong nucleolar rim staining pattern, consistent with nucleolar localization.</li></ul>
+<h4>UniProt Subcellular Location</h4>
+<ul><li><strong>Nucleus, nucleolus</strong> -- ECO:0000269 x2 (experimental)</li><li><strong>Nucleus, nucleoplasm</strong> -- ECO:0000269 (experimental)</li></ul>
+<h4>GO Cellular Component (GO-CC)</h4>
+<ul><li><strong>GO:0005730 (nucleolus)</strong> -- IDA:HPA</li><li><strong>GO:0005654 (nucleoplasm)</strong> -- TAS:Reactome</li><li><strong>GO:0005634 (nucleus)</strong> -- ISS:UniProtKB</li></ul>
+<p><strong>Summary:</strong> RIOX1 is a nucleolar and nucleoplasmic protein. Strong experimental evidence from HPA IF (nucleoli rim pattern), UniProt (experimental), and GO-CC. Nuclear score: 28/30 -- excellent nuclear localization.</p>
+<hr>
+<h3>PubMed Evidence</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Query Type</th><th>Count</th></tr></thead><tbody>
+<tr><td>Strict (Title/Abstract)</td><td>7</td></tr>
+<tr><td>Broad (All Fields)</td><td>24</td></tr>
+</tbody></table></div>
+<p><strong>Novelty score: 10/10.</strong> RIOX1 is a very under-studied gene.</p>
+<h4>Key Papers</h4>
+<p>1. <strong>PMID:29914368</strong> -- Brauer KE et al. (2018). &quot;Phylogenetic and genomic analyses of the ribosomal oxygenases Riox1 (No66) and Riox2 (Mina53) provide new insights into their evolution.&quot; *BMC Evol Biol*. 2. <strong>PMID:35210392</strong> -- Xiao Y et al. (2022). &quot;RIOX1-demethylated cGAS regulates ionizing radiation-elicited DNA repair.&quot; *Bone Res*. 3. <strong>PMID:36660551</strong> -- Chen Q et al. (2023). &quot;Osteoblast-Specific Overexpression of Nucleolar Protein NO66/RIOX1 in Mouse Embryos Leads to Osteoporosis in Adult Mice.&quot; *J Osteoporos*. 4. <strong>PMID:34624518</strong> -- Qin Z et al. (2022). &quot;Genome-wide identification, evolution of histone lysine demethylases (KDM) genes and their expression during gonadal development in Nile tilapia.&quot; *Comp Biochem Physiol B*. 5. <strong>PMID:35361830</strong> -- Hafliger IM et al. (2022). &quot;Four novel candidate causal variants for deficient homozygous haplotypes in Holstein cattle.&quot; *Sci Rep*.</p>
+<p><strong>Assessment:</strong> Very low publication count. Highly underexplored. Direct connection to histone demethylation (H3K4me3, H3K36me2) is clear.</p>
+<hr>
+<h3>AlphaFold / PDB / PAE</h3>
+<h4>AlphaFold Predicted Structure</h4>
+<ul><li><strong>Entry:</strong> AF-Q9H6W3-F1, version 6</li><li><strong>mean pLDDT: 79.9</strong> (&gt;90: 70.4%, 70-90: 1.6%, 50-70: 0.2%, &lt;50: 27.9%)</li><li><strong>Assessment:</strong> Good overall confidence. The N-terminal region (~residues 1-180) has lower confidence, but the catalytic C-terminal domain (183-641) is well resolved.</li></ul>
+<h4>Experimental PDB Structures</h4>
+<ul><li><strong>10 structures:</strong> 4CCJ (2.15A), 4CCK (2.15A), 4CCM (2.51A), 4CCN (2.23A), 4CCO (2.30A), 4DIQ (2.40A), 4E4H (2.28A), 4Y33 (2.70A), 4Y3O (2.20A), 4Y4R (3.30A)</li><li>All X-ray crystallography, covering the catalytic domain (residues ~176-641).</li><li><strong>Assessment:</strong> Excellent experimental structural coverage of the histone demethylase catalytic domain.</li></ul>
+<h4>PAE</h4>
+<ul><li>PAE image URL available: AF-Q9H6W3-F1-predicted_aligned_error_v6.png</li><li>PAE assessment pending image retrieval.</li></ul>
+<hr>
+<h3>PPI Network</h3>
+<h4>STRING (15 partners)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>Experimental</th><th>Function</th></tr></thead><tbody>
+<tr><td>RPL8</td><td>0.986</td><td>0.960</td><td>Ribosomal protein (hydroxylation target)</td></tr>
+<tr><td>PHF19</td><td>0.940</td><td>0</td><td>Polycomb group protein (chromatin)</td></tr>
+<tr><td>SP7</td><td>0.920</td><td>0.096</td><td>Osteoblast transcription factor</td></tr>
+<tr><td>RIOK1</td><td>0.807</td><td>0</td><td>Ribosomal biogenesis kinase</td></tr>
+<tr><td>MYC</td><td>0.604</td><td>0.292</td><td>Oncogenic transcription factor</td></tr>
+<tr><td>TRRAP</td><td>0.674</td><td>0.292</td><td>Histone acetyltransferase complex</td></tr>
+<tr><td>KDM8</td><td>0.648</td><td>0</td><td>Histone demethylase</td></tr>
+<tr><td>KDM2B</td><td>0.626</td><td>0</td><td>Histone demethylase</td></tr>
+</tbody></table></div>
+<h4>IntAct (15 interactors)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Method</th><th>PMID</th><th>Relevance</th></tr></thead><tbody>
+<tr><td>MKI67</td><td>Co-IP</td><td>26949251</td><td>Proliferation marker</td></tr>
+<tr><td>HNRNPU</td><td>Co-IP</td><td>26496610</td><td>RNA binding, chromatin</td></tr>
+<tr><td>EIF3A</td><td>Co-IP</td><td>26496610</td><td>Translation initiation</td></tr>
+<tr><td>NOP56</td><td>Co-IP</td><td>26496610</td><td>Nucleolar rRNA processing</td></tr>
+<tr><td>RPL4, RPLP0, RPL7A</td><td>Co-IP</td><td>33961781</td><td>Ribosomal proteins</td></tr>
+<tr><td>RPS6</td><td>BioID</td><td>29568061</td><td>Ribosomal protein</td></tr>
+<tr><td>USP42</td><td>Co-IP</td><td>19615732</td><td>Deubiquitinase</td></tr>
+</tbody></table></div>
+<h4>PPI Network Assessment</h4>
+<ul><li>Moderate interaction network linking ribosomal biogenesis with chromatin regulation.</li><li>PHF19 (Polycomb) and MYC/TRRAP connections are chromatin-relevant.</li><li>Multiple histone demethylase family connections (KDM8, KDM2B).</li></ul>
+<hr>
+<h3>FALSE REJECTION RECHECK</h3>
+<h4>Original Rejection Reason (inferred)</h4>
+<p>RIOX1 was likely rejected due to incomplete scoring or placeholder text in original report.</p>
+<h4>Recheck Analysis</h4>
+<p>1. <strong>Nuclear evidence:</strong> STRONG. HPA main location: Nucleoli rim (Supported). UniProt experimental evidence for nucleolus and nucleoplasm. IF images available. 2. <strong>Functional context:</strong> DIRECT histone demethylase activity (H3K4me3, H3K36me2). This is core epigenetic regulation -- directly relevant to TE silencing. 3. <strong>PubMed:</strong> 7 strict. Very low. HIGH NOVELTY. 4. <strong>Structure:</strong> 10 PDB structures plus good AlphaFold. Excellent structural coverage. 5. <strong>PPI:</strong> PHF19 (Polycomb), MYC, TRRAP -- all chromatin-relevant partners.</p>
+<h4>Verdict</h4>
+<p><strong>The original rejection was INCORRECT.</strong> RIOX1 is a histone lysine demethylase with direct epigenetic regulatory function, strong nuclear localization, excellent structural data, and very high novelty (PubMed=7). It should be RETAINED.</p>
+<hr>
+<h3>TE-Regulator Relevance</h3>
+<p>HIGH. RIOX1 is a histone H3K4me3 and H3K36me2 demethylase. H3K4me3 is a hallmark of active promoters, and H3K36me2 is associated with transcription elongation. Both marks are relevant to TE silencing mechanisms. The protein also demethylates cGAS, connecting it to innate immune sensing of cytosolic DNA -- potentially relevant for TE-derived DNA sensing. The interaction with PHF19 (Polycomb repressive complex component) further supports a chromatin-level regulatory role. MYC interaction connects to broad transcriptional programs. This is a strong candidate for TE-regulatory investigation.</p>
+<hr>
+<h3>Final Decision: RETAINED</h3>
+<p>Score: 152/180. RIOX1 is a histone lysine demethylase with direct epigenetic regulatory function, strong nuclear localization, excellent structural data (10 PDB, good AF), very high novelty (PubMed=7), and chromatin-relevant PPI network. The protein demethylates H3K4me3 and H3K36me2 -- histone marks directly relevant to TE silencing. This gene should NOT have been rejected.</p>
+<hr>
+<h3>Manual Review Note</h3>
+<p>STRONG CANDIDATE. RIOX1 demethylates H3K4me3 (active promoter mark) and H3K36me2 (transcription elongation mark). Both are critical for TE regulation. The protein localizes to nucleoli/nucleoplasm (HPA + UniProt experimental). PubMed count of 7 indicates extremely low prior investigation -- high novelty for TE biology. The PHF19 (Polycomb) interaction suggests connection to repressive chromatin complexes. Structural data is excellent with 10 PDB entries. This gene should be prioritized for TE-regulatory investigation.</p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

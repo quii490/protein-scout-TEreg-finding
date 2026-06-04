@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OASL · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">Protein Index</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
+    <a href="../category/nuclear-body.html">Nuclear body</a>
+    <a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>OASL</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">rejected</span><span class="badge">Score: 1</span><span class="badge">Nuclear: 12</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/rejected.html">Category page</a></div><p class="source-path">Original detail path: detail/rejected/OASL/OASL-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;OASL&quot; date: 2026-05-28 tags: [protein-scout, evaluation] status: scored ---</p>
+<h3>OASL 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>OASL / 2&#x27;-5&#x27;-oligoadenylate synthetase-like / p59 / TRIP14</td></tr>
+<tr><td>蛋白大小</td><td>514 aa / ~59 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q15646</td></tr>
+<tr><td>评估日期</td><td>2026-05-28</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>满分</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>🔴 核定位特异性</td><td>4</td><td>/10</td><td>×3 = 12</td><td>UniProt Nucleus/nucleolus+Cytoplasm; Protein Atlas nucleoplasm+cytosol (Supported); 核质双分布</td></tr>
+<tr><td>📏 蛋白大小</td><td>10</td><td>/10</td><td>×2 = 20</td><td>514 aa，300-800最佳区间</td></tr>
+<tr><td>🆕 研究新颖性</td><td>5</td><td>/10</td><td>×3 = 15</td><td>PubMed 380篇；200-500区间</td></tr>
+<tr><td>🏗️ 三维结构</td><td>10</td><td>/10</td><td>×3 = 30</td><td>平均pLDDT极高；96.1%有序；OAS+Ubl双域结构完整</td></tr>
+<tr><td>🧬 调控结构域</td><td>1</td><td>/10</td><td>×2 = 2</td><td>OAS域+Ubiquitin-like域；与chromatin/DNA无关</td></tr>
+<tr><td>🔗 PPI</td><td>0/10</td><td>×3</td><td><strong>0</strong></td><td>详见 3.6 PPI 分析</td></tr>
+<tr><td>➕ 互证加分</td><td>+1.0</td><td>max +3</td><td>—</td><td>结构域多库互证+0.5；定位双源互证+0.5</td></tr>
+<tr><td><strong>原始总分</strong></td><td></td><td></td><td><strong>82.5 / 158</strong></td></tr>
+<tr><td><strong>归一化总分</strong></td><td></td><td></td><td><strong>52.2 / 100</strong></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt (Q15646)</td><td>Nucleus, nucleolus; Cytoplasm</td><td>注释</td></tr>
+<tr><td>Protein Atlas (HPA001474)</td><td>Nucleoplasm (Approved), Cytosol (Supported)</td><td>Supported</td></tr>
+<tr><td>GO Cellular Component</td><td>Nucleolus, Nucleoplasm, Cytoplasm, Cytosol</td><td>IBA/IEA</td></tr>
+</tbody></table></div>
+<p><strong>结论</strong>: 核质双分布蛋白。Protein Atlas 在 A-431 和 RT-4 中显示核质+胞质双信号；但在 U2OS 中仅检测到胞质（RNA表达仅2.0 nTPM），提示定位可能与表达水平或细胞类型相关。无明显的核偏好。评分 4。</p>
+<p><strong>IF 图像</strong>: <figure><div class="missing-image">Missing local image: <code>../assets/report-images/OASL/A431_HPA001474_1.jpg</code></div></figure> <figure><div class="missing-image">Missing local image: <code>../assets/report-images/OASL/RT4_HPA001474_1.jpg</code></div></figure></p>
+<p><strong>IF 图像</strong>:</p>
+<h5>3.2 蛋白大小评估</h5>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/OASL/OASL-PAE.png</code></div></figure></p>
+<p><strong>评价</strong>: 514 aa (~59 kDa)。完美落入 300-800 aa 的 sweet spot，适合所有常规生化实验。评分 10。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed 总数</td><td>380</td></tr>
+<tr><td>最早发表年份</td><td>1999</td></tr>
+<tr><td>Chromatin/epigenetics 比例</td><td>0%</td></tr>
+</tbody></table></div>
+<p><strong>主要研究方向</strong>: 抗病毒先天免疫。OASL 是无 2-5A 合成活性的 OAS 家族成员，通过结合 dsRNA 及 RIG-I 增强抗病毒信号。C 端两个 ubiquitin-like 结构域参与蛋白互作。主要研究方向包括抗 HCV、抗 EMCV、IFN 信号通路调控、自身免疫病关联。</p>
+<p><strong>评价</strong>: 中度热门的先天免疫蛋白。研究方向完全聚焦于抗病毒免疫，无 chromatin/epigenetics 研究。评分 5。</p>
+<h5>3.4 三维结构分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold 平均 pLDDT</td><td>极高（96.1%有序）</td></tr>
+<tr><td>PDB 实验结构</td><td>—</td></tr>
+<tr><td>有序区域 (pLDDT&gt;70) 占比</td><td>96.1%</td></tr>
+<tr><td>高置信度 (pLDDT&gt;90) 占比</td><td>81.9%</td></tr>
+<tr><td>无序区域 (pLDDT&lt;50) 占比</td><td>1.8%</td></tr>
+<tr><td>可用 PDB 条目</td><td>OASL 部分结构已有晶体学数据</td></tr>
+</tbody></table></div>
+<p><strong>评价</strong>: 结构质量近乎完美。81.9% 高置信度，仅 1.8% 无序。OAS domain + 两个 ubiquitin-like domain 均为完整折叠。评分 10。</p>
+<h5>3.5 结构域分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>结构域</th></tr></thead><tbody>
+<tr><td>Pfam</td><td>OAS1_C, ubiquitin (×2)</td></tr>
+<tr><td>InterPro</td><td>NT_2-5OAS_ClassI-CCAase, Ubiquitin-like_dom, Ubiquitin-like_domsf</td></tr>
+<tr><td>SMART</td><td>UBQ</td></tr>
+<tr><td>CDD</td><td>NT_2-5OAS_ClassI-CCAase, Ubl1_OASL, Ubl2_OASL</td></tr>
+<tr><td>PROSITE</td><td>25A_SYNTH_1/2/3, UBIQUITIN_2</td></tr>
+</tbody></table></div>
+<p><strong>染色质调控潜力分析</strong>: 所有结构域均为 OAS/dsRNA 结合 + ubiquitin-like 蛋白互作结构域。Ubiquitin-like domain 虽然与 ubiquitin 信号通路相关，但并非 chromatin-modifying 的 ubiquitin ligase/deubiquitinase。无 DNA/chromatin 结合域。评分 1。</p>
+<h5>3.6 PPI :</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Score</th><th>功能类别</th></tr></thead><tbody>
+<tr><td>ISG15</td><td>0.999</td><td>Ubiquitin-like antiviral</td></tr>
+<tr><td>MX1</td><td>0.958</td><td>Antiviral GTPase</td></tr>
+<tr><td>HERC5</td><td>0.956</td><td>Ubiquitin ligase, antiviral</td></tr>
+<tr><td>RSAD2</td><td>0.954</td><td>Antiviral (viperin)</td></tr>
+<tr><td>IFIT1</td><td>0.949</td><td>RNA binding antiviral</td></tr>
+<tr><td>DDX58</td><td>0.940</td><td>RIG-I</td></tr>
+<tr><td>IFI44</td><td>0.939</td><td>IFN-induced</td></tr>
+<tr><td>IRF7</td><td>0.936</td><td>IFN regulatory TF</td></tr>
+<tr><td>OAS2</td><td>0.916</td><td>2-5A synthetase paralog</td></tr>
+<tr><td>IFIT3</td><td>0.902</td><td>RNA binding antiviral</td></tr>
+<tr><td>STAT1</td><td>0.886</td><td>IFN signaling TF</td></tr>
+<tr><td>IFIH1</td><td>0.857</td><td>MDA5, viral RNA sensor</td></tr>
+<tr><td>RNASEL</td><td>0.690</td><td>2-5A activated RNase</td></tr>
+</tbody></table></div>
+<p><strong>评价</strong>: 纯抗病毒先天免疫→ +0.5</p>
+<ul><li>≥2 个独立来源确认定位 (PA + UniProt) → +0.5</li></ul>
+<p><strong>总分</strong>: +1.0 / max +3</p>
+<h5>3.7 多库互证</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>来源</th><th>结果</th><th>是否一致</th></tr></thead><tbody>
+<tr><td>三维结构</td><td>AlphaFold + PDB</td><td>见 3.4 节</td><td>—</td></tr>
+<tr><td>结构域</td><td>UniProt / InterPro / Pfam</td><td>见 3.5 节</td><td>—</td></tr>
+<tr><td>PPI</td><td>STRING</td><td>见 3.6 节</td><td>—</td></tr>
+<tr><td>定位</td><td>Protein Atlas IF / UniProt / GO</td><td>Nucleus</td><td>✅</td></tr>
+</tbody></table></div>
+<h4>4. 总体评价</h4>
+<p><strong>推荐等级</strong>: ⭐ (1/5)</p>
+<p><strong>核心优势</strong>: 无——从 chromatin/nuclear biology 角度无吸引力。</p>
+<p><strong>风险/不确定性</strong>: 功能完全定位于先天免疫/抗病毒。虽然 OASL 有核信号且有独特的 ubiquitin-like domain（可能参与核蛋白降解），但整个研究方向与 TEreg/chromatin 不相关。</p>
+<p><strong>结论</strong>: 不推荐作为染色质/转录调控实验室的研究目标。</p>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q15646</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000135114-OASL</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22OASL%22</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q15646</li><li>STRING: https://string-db.org/network/9606.ENSP00000257570</li></ul>
+<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/OASL/OASL-PAE.png</code></div></figure></p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>
