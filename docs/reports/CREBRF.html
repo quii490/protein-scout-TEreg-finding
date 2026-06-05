@@ -10,12 +10,10 @@
 <header class="topbar">
   <a class="brand" href="../index.html">Protein Scout</a>
   <nav>
-    <a href="../protein_index.html">Protein Index</a>
-    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
-    <a href="../category/nuclear-body.html">Nuclear body</a>
-    <a href="../category/rejected.html">Rejected</a>
+    <a href="../protein_index.html">总表</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a><a href="../category/nucleus-cytoplasm.html">Nucleus-cytoplasm</a><a href="../category/nuclear-speckle.html">Nuclear speckle</a><a href="../category/nuclear-body.html">Nuclear body</a><a href="../category/nucleolus.html">Nucleolus</a><a href="../category/nuclear-envelope.html">Nuclear envelope</a><a href="../category/chromatin.html">Chromatin</a><a href="../category/rejected.html">Rejected</a>
   </nav>
-</header><main class="container report-shell"><section class="panel"><h1>CREBRF</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 0</span><span class="badge">Nuclear: 30</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/CREBRF/CREBRF-evaluation.md</p></section><article class="report-body"><hr>
+</header><main class="container report-shell"><section class="panel"><h1>CREBRF</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">总分: 60.1</span><span class="badge">核定位: 9</span><a class="button small" href="../protein_index.html">蛋白总表</a><a class="button small" href="../category/nucleoplasm.html">分类页</a></div><p class="source-path">原始 detail 路径: detail/nucleoplasm/CREBRF/CREBRF-evaluation.md</p></section><article class="report-body"><hr>
 <p>type: protein-evaluation gene: &quot;CREBRF&quot; date: 2026-05-29 tags: [protein-scout, nuclear-protein, evaluation] status: scored ---</p>
 <h3>CREBRF 核蛋白评估报告</h3>
 <h4>1. 基本信息</h4>
@@ -49,11 +47,11 @@
 <tr><td>UniProt</td><td>Nucleus</td><td>IDA (实验验证)</td><td>Protein Atlas (IF)</td><td>nucleoplasm (Approved, SK-MEL-30)</td><td>Approved</td></tr>
 <tr><td>humanPPI</td><td>Nucleus</td><td>数据库注释</td></tr>
 </tbody></table></div>
-<p><strong>IF 图像</strong>: <figure><div class="missing-image">Missing local image: <code>../assets/report-images/CREBRF/SK-MEL-30_1.jpg</code></div></figure> <figure><div class="missing-image">Missing local image: <code>../assets/report-images/CREBRF/SK-MEL-30_2.jpg</code></div></figure> <figure><div class="missing-image">Missing local image: <code>../assets/report-images/CREBRF/U2OS_1.jpg</code></div></figure></p>
+<p><strong>IF 图像</strong>: <figure><img src="../../detail/nucleoplasm/CREBRF/IF_images/SK-MEL-30_1.jpg" alt="SK-MEL-30_1.jpg"></figure> <figure><img src="../../detail/nucleoplasm/CREBRF/IF_images/SK-MEL-30_2.jpg" alt="SK-MEL-30_2.jpg"></figure> <figure><img src="../../detail/nucleoplasm/CREBRF/IF_images/U2OS_1.jpg" alt="U2OS_1.jpg"></figure></p>
 <p><strong>结论</strong>: 三大独立数据源一致确认核定位。Protein Atlas 两个细胞系（SK-MEL-30, U2OS）IF 均显示严格核质定位，无胞质信号。可靠性：Supported。这是</p>
 <h5>3.2 蛋白大小评估</h5>
 <p>639 aa / ~70 kDa — 在 300-800 aa 黄金区间内，非常适合常规分子克隆、蛋白表达与纯化。不过大也不过小。</p>
-<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CREBRF/CREBRF-PAE.png</code></div></figure></p>
+<p><figure><img src="../../detail/nucleoplasm/CREBRF/CREBRF-PAE.png" alt="CREBRF-PAE.png"></figure></p>
 <p><strong>评价</strong>: 实验操作友好度高。</p>
 <h5>3.3 研究现状</h5>
 <div class="table-wrap"><table>
@@ -80,7 +78,7 @@
 <tr><td>Basic motif</td><td>523-532</td><td><strong>91.61</strong></td></tr>
 <tr><td>Leucine zipper</td><td>533-540</td><td><strong>97.27</strong></td></tr>
 </tbody></table></div>
-<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CREBRF/CREBRF-pae.png</code></div></figure></p>
+<p><figure><img src="../../detail/nucleoplasm/CREBRF/CREBRF-pae.png" alt="CREBRF-pae.png"></figure></p>
 <ul><li>bZIP 域内部 PAE 均值: <strong>4.61</strong> (&lt;5 = AlphaFold 高度自信)</li><li>bZIP 与相邻有序区 PAE: 5.22（域间堆积良好）</li><li>全局 pLDDT 偏低是因为 302-422 区域的大面积无序区（符合转录因子反式激活域特征）</li></ul>
 <p><strong>评价</strong>: 规则下，CREBRF为新颖蛋白(PubMed&lt;100)，结构维度基线5分。全局pLDDT被无序区拖累，但bZIP结构域pLDDT&gt;90、PAE&lt;5，Leucine zipper达97.27。UniProt确认无PDB实验结构。基线5 + bZIP域高质量(+1) = <strong>6分</strong>。</p>
 <h5>3.5 结构域分析</h5>
@@ -138,9 +136,9 @@
 <ul><li>[ ] ChIP-seq / CUT&amp;RUN 鉴定 CREBRF 全基因组结合位点</li><li>[ ] 基于 Leucine zipper (pLDDT 97.27) 做 CREBRF-CREB3 互作界面的结构生物学研究</li><li>[ ] 探索 CREBRF 在 TE 调控中的潜在角色（bZIP 家族可能识别 TE 衍生序列）</li></ul>
 <h4>5. 数据来源</h4>
 <ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q8IUR6</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000164463-CREBRF/subcellular</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CREBRF</li><li>InterPro: https://www.ebi.ac.uk/interpro/protein/uniprot/Q8IUR6/</li><li>STRING: https://string-db.org/network/9606.ENSP00000296953</li><li>humanPPI: http://prodata.swmed.edu/humanPPI/</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8IUR6</li></ul>
-<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CREBRF/CREBRF-PAE.png</code></div></figure></p>
+<p><figure><img src="../../detail/nucleoplasm/CREBRF/CREBRF-PAE.png" alt="CREBRF-PAE.png"></figure></p>
 <p>PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。</p>
-<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/CREBRF/CREBRF-PAE.png</code></div></figure></p></article></main>
+<p><figure><img src="../../detail/nucleoplasm/CREBRF/CREBRF-PAE.png" alt="CREBRF-PAE.png"></figure></p></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

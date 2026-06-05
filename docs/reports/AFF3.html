@@ -10,12 +10,10 @@
 <header class="topbar">
   <a class="brand" href="../index.html">Protein Scout</a>
   <nav>
-    <a href="../protein_index.html">Protein Index</a>
-    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
-    <a href="../category/nuclear-body.html">Nuclear body</a>
-    <a href="../category/rejected.html">Rejected</a>
+    <a href="../protein_index.html">总表</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a><a href="../category/nucleus-cytoplasm.html">Nucleus-cytoplasm</a><a href="../category/nuclear-speckle.html">Nuclear speckle</a><a href="../category/nuclear-body.html">Nuclear body</a><a href="../category/nucleolus.html">Nucleolus</a><a href="../category/nuclear-envelope.html">Nuclear envelope</a><a href="../category/chromatin.html">Chromatin</a><a href="../category/rejected.html">Rejected</a>
   </nav>
-</header><main class="container report-shell"><section class="panel"><h1>AFF3</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">Score: 3</span><span class="badge">Nuclear: 4</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/AFF3/AFF3-evaluation.md</p></section><article class="report-body"><hr>
+</header><main class="container report-shell"><section class="panel"><h1>AFF3</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">总分: 64.5</span><span class="badge">核定位: 7</span><a class="button small" href="../protein_index.html">蛋白总表</a><a class="button small" href="../category/nucleoplasm.html">分类页</a></div><p class="source-path">原始 detail 路径: detail/nucleoplasm/AFF3/AFF3-evaluation.md</p></section><article class="report-body"><hr>
 <p>type: protein-evaluation gene: &quot;AFF3&quot; date: 2026-05-29 tags: [protein-scout, nuclear-protein, evaluation] status: scored ---</p>
 <h3>AFF3 核蛋白评估报告</h3>
 <h4>1. 基本信息</h4>
@@ -52,8 +50,8 @@
 <tr><td>GO-CC</td><td>Nuclear body (IDA:HPA), Nucleoplasm (IDA:HPA), Cytosol (IDA:HPA), Nucleus (IDA:BHF-UCL)</td><td>IDA 证据</td></tr>
 </tbody></table></div>
 <p><strong>IF 图像</strong>:</p>
-<p>U-251MG (胶质瘤细胞系) — 核质 + 核体 + 胞质： <figure><div class="missing-image">Missing local image: <code>../assets/report-images/AFF3/U251MG_1.jpg</code></div></figure> <figure><div class="missing-image">Missing local image: <code>../assets/report-images/AFF3/U251MG_2.jpg</code></div></figure></p>
-<p>U2OS (骨肉瘤细胞系) — 纯核质： <figure><div class="missing-image">Missing local image: <code>../assets/report-images/AFF3/U2OS_1.jpg</code></div></figure> <figure><div class="missing-image">Missing local image: <code>../assets/report-images/AFF3/U2OS_2.jpg</code></div></figure></p>
+<p>U-251MG (胶质瘤细胞系) — 核质 + 核体 + 胞质： <figure><img src="../../detail/nucleoplasm/AFF3/IF_images/U251MG_1.jpg" alt="U251MG_1.jpg"></figure> <figure><img src="../../detail/nucleoplasm/AFF3/IF_images/U251MG_2.jpg" alt="U251MG_2.jpg"></figure></p>
+<p>U2OS (骨肉瘤细胞系) — 纯核质： <figure><img src="../../detail/nucleoplasm/AFF3/IF_images/U2OS_1.jpg" alt="U2OS_1.jpg"></figure> <figure><img src="../../detail/nucleoplasm/AFF3/IF_images/U2OS_2.jpg" alt="U2OS_2.jpg"></figure></p>
 <p><strong>结论</strong>: AFF3 主要定位于核质，在 U-251MG 中可见核体信号，部分细胞系存在胞质信号（HPA 判定为附加定位而非主要定位）。HPA 可靠性等级为 Supported。核定位明确，得分 7/10（主要核定位，HPA IF 确认，但存在部分胞质信号）。</p>
 <h5>3.2 蛋白大小评估</h5>
 <p>AFF3 全长 1226 aa（约 135 kDa），属于中等偏大蛋白（1200–2000 aa 范围）。蛋白含有大量无序区域（约 78% 低置信度），实际折叠核心在 C 端约 245 aa。适合常规生化实验但全长蛋白表达和结晶有挑战。得分 5/10。</p>
@@ -81,7 +79,7 @@
 <tr><td>N 端 AF-4 域</td><td>第 68 位附近极小高置信区（1 aa），整体预测差</td></tr>
 <tr><td>可用 PDB 条目</td><td><strong>无</strong></td></tr>
 </tbody></table></div>
-<p><strong>PAE 图</strong>: <figure><div class="missing-image">Missing local image: <code>../assets/report-images/AFF3/AFF3-PAE.png</code></div></figure></p>
+<p><strong>PAE 图</strong>: <figure><img src="../../detail/nucleoplasm/AFF3/AFF3-PAE.png" alt="AFF3-PAE.png"></figure></p>
 <p><strong>PAE 数值分析</strong>:</p>
 <ul><li>PAE 矩阵尺寸: 1226 × 1226</li><li>C 端区域 (976–1226) 域内 PAE 低，指示独立折叠结构域</li><li>N 端区域 PAE 高，对应大规模无序区</li><li>域间 PAE 高，指示不同区域之间缺乏稳定堆积</li></ul>
 <p><strong>评价</strong>: AFF3 整体为高度无序蛋白（69.5% 极低置信度），仅 C 端 245 aa 形成可辨识的折叠域（含 AF4_int + AFF4_CHD 两个 Pfam 结构域）。N 端 AF-4 同源域在 AlphaFold 预测中几乎不可见（仅 1 aa 高置信），可能与天然无序特征或需结合伴侣才能折叠有关。无 PDB 实验结构可用。由于 PubMed ≤100，新颖蛋白的结构差是正常现象，使用基线分。得分 6/10（基线）。</p>
@@ -150,9 +148,9 @@
 <ul><li>[ ] 克隆并表达 C 端折叠域（976-1220 aa）用于结构生物学研究</li><li>[ ] ChIP-seq 确定 AFF3 在基因组上的结合位点，验证直接染色质结合</li><li>[ ] 通过 IDR 截短实验研究无序区域在 DNA 结合和 SEC 组装中的角色</li><li>[ ] 研究 AFF3 核体定位的功能（与其他核体蛋白如 PML/SP100 的共定位）</li></ul>
 <h4>5. 数据来源</h4>
 <ul><li>GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=AFF3</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000144218-AFF3/subcellular</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22AFF3%22%5BTitle/Abstract%5D</li><li>UniProt: https://www.uniprot.org/uniprotkb/P51826</li><li>Pfam/InterPro: https://www.ebi.ac.uk/interpro/protein/UniProt/P51826/</li><li>STRING: https://string-db.org/network/9606.ENSP00000386834</li><li>IntAct: https://www.ebi.ac.uk/intact/search?query=AFF3</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/P51826</li></ul>
-<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/AFF3/AFF3-PAE.png</code></div></figure></p>
+<p><figure><img src="../../detail/nucleoplasm/AFF3/AFF3-PAE.png" alt="AFF3-PAE.png"></figure></p>
 <p>PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。</p>
-<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/AFF3/AFF3-PAE.png</code></div></figure></p></article></main>
+<p><figure><img src="../../detail/nucleoplasm/AFF3/AFF3-PAE.png" alt="AFF3-PAE.png"></figure></p></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

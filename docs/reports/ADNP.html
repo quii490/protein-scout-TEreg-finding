@@ -10,12 +10,10 @@
 <header class="topbar">
   <a class="brand" href="../index.html">Protein Scout</a>
   <nav>
-    <a href="../protein_index.html">Protein Index</a>
-    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
-    <a href="../category/nuclear-body.html">Nuclear body</a>
-    <a href="../category/rejected.html">Rejected</a>
+    <a href="../protein_index.html">总表</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a><a href="../category/nucleus-cytoplasm.html">Nucleus-cytoplasm</a><a href="../category/nuclear-speckle.html">Nuclear speckle</a><a href="../category/nuclear-body.html">Nuclear body</a><a href="../category/nucleolus.html">Nucleolus</a><a href="../category/nuclear-envelope.html">Nuclear envelope</a><a href="../category/chromatin.html">Chromatin</a><a href="../category/rejected.html">Rejected</a>
   </nav>
-</header><main class="container report-shell"><section class="panel"><h1>ADNP</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">rejected</span><span class="badge">Score: 1.5</span><span class="badge">Nuclear: 10</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/rejected.html">Category page</a></div><p class="source-path">Original detail path: detail/rejected/ADNP/ADNP-evaluation.md</p></section><article class="report-body"><hr>
+</header><main class="container report-shell"><section class="panel"><h1>ADNP</h1><div class="report-meta"><span class="badge muted">rejected</span><span class="badge">rejected</span><span class="badge">总分: NA</span><span class="badge">核定位: 10</span><a class="button small" href="../protein_index.html">蛋白总表</a><a class="button small" href="../category/rejected.html">分类页</a></div><p class="source-path">原始 detail 路径: detail/rejected/ADNP/ADNP-evaluation.md</p></section><article class="report-body"><hr>
 <p>type: protein-evaluation gene: &quot;ADNP&quot; date: 2026-05-28 tags: [protein-scout, nuclear-protein, evaluation] status: scored ---</p>
 <h3>ADNP 核蛋白评估报告</h3>
 <h4>1. 基本信息</h4>
@@ -40,7 +38,7 @@
 <tr><td><strong>归一化总分</strong></td><td></td><td></td><td><strong>75.6</strong>/100</td><td></td></tr>
 </tbody></table></div>
 <h4>3. 详细分析</h4>
-<p><strong>IF 图像</strong>: <figure><div class="missing-image">Missing local image: <code>../assets/report-images/ADNP/A431_HPA006371_1.jpg</code></div></figure> <figure><div class="missing-image">Missing local image: <code>../assets/report-images/ADNP/U2OS_HPA050560_1.jpg</code></div></figure></p>
+<p><strong>IF 图像</strong>: <figure><img src="../../detail/rejected/ADNP/IF_images/A431_HPA006371_1.jpg" alt="A431_HPA006371_1.jpg"></figure> <figure><img src="../../detail/rejected/ADNP/IF_images/U2OS_HPA050560_1.jpg" alt="U2OS_HPA050560_1.jpg"></figure></p>
 <h5>3.1 核定位证据</h5>
 <div class="table-wrap"><table>
 <thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
@@ -77,7 +75,7 @@
 </tbody></table></div>
 <p><strong>pLDDT 解析</strong>:</p>
 <ul><li>超过半数残基 (54%) pLDDT &lt; 50, 为高度无序区域</li><li>仅 60 个残基 (5.4%) pLDDT &gt; 90, 高置信度折叠极少</li><li>有序区域分散为 17 个小片段 (最长仅 92 aa), 无大型连续折叠域</li><li>主要有序块: 72-130 (59 aa, 可能对应 homeodomain 附近), 445-536 (92 aa), 751-820 (70 aa)</li></ul>
-<p><strong>PAE 图</strong>: <figure><div class="missing-image">Missing local image: <code>../assets/report-images/ADNP/ADNP-PAE.png</code></div></figure></p>
+<p><strong>PAE 图</strong>: <figure><img src="../../detail/rejected/ADNP/ADNP-PAE.png" alt="ADNP-PAE.png"></figure></p>
 <p><strong>PAE 数值分析</strong>:</p>
 <ul><li>PAE 均值 27.9 Å, 整体预测误差极大</li><li>PAE &lt; 5 Å 仅占 1.6%, 几乎无可辨识的刚性折叠域间接触</li><li>PAE &lt; 10 Å 仅占 3.0%, 域间组织高度松散</li><li>对角线 PAE &lt; 5 为 100% (连续链内接触正常)</li></ul>
 <p><strong>评价</strong>: 结构预测质量偏低。pLDDT 均值仅 56.2, 54% 残基无序。PAE 图整体模糊, 缺乏清晰域间低 PAE 块, 提示 ADNP 为高度固有无序蛋白 (IDP), 可能在结合 partner 后才折叠。这与许多染色质调控蛋白 (如转录因子) 的特征一致 —— 固有无序区域介导多价互作。得分 4。</p>
@@ -147,8 +145,8 @@
 <ul><li>[ ] 重点研究 homeodomain 或锌指域截短体的 DNA 结合特异性和结构</li><li>[ ] 利用 ChIP-seq/CUT&amp;RUN 确定 ADNP 全基因组结合谱</li><li>[ ] 通过 co-IP/MS 验证与 SWI/SNF 和 NuRD 复合体的内源互作</li><li>[ ] 有序区域 (72-130, 445-536, 751-820) 可作为结构解析的切入点</li></ul>
 <h4>5. 数据来源</h4>
 <ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9H2P0</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9H2P0</li><li>STRING: https://string-db.org/network/9606.ENSP00000360662</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=ADNP</li><li>InterPro: https://www.ebi.ac.uk/interpro/protein/Q9H2P0/</li></ul>
-<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/ADNP/ADNP-PAE.png</code></div></figure></p>
-<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/ADNP/ADNP-PAE.png</code></div></figure></p></article></main>
+<p><figure><img src="../../detail/rejected/ADNP/ADNP-PAE.png" alt="ADNP-PAE.png"></figure></p>
+<p><figure><img src="../../detail/rejected/ADNP/ADNP-PAE.png" alt="ADNP-PAE.png"></figure></p></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

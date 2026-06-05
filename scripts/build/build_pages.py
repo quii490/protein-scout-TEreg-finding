@@ -19,7 +19,7 @@ REPORT_IMAGE_ROOT = ASSETS / "report-images"
 ENGINEERING = ROOT / "audit_work" / "engineering"
 ANNOTATIONS = ROOT / "data" / "manual" / "web_annotations.tsv"
 TS = dt.datetime.now().strftime("%Y%m%d_%H%M%S")
-GENERATE_HTML_REPORTS = os.environ.get("PROTEIN_SCOUT_GENERATE_HTML_REPORTS") == "1"
+GENERATE_HTML_REPORTS = os.environ.get("PROTEIN_SCOUT_GENERATE_HTML_REPORTS", "1") != "0"
 
 for p in [DOCS, ASSETS / "css", ASSETS / "js", DOCS / "data", DOCS / "category", ENGINEERING, ANNOTATIONS.parent]:
     p.mkdir(parents=True, exist_ok=True)
@@ -87,8 +87,7 @@ def slug(s: str) -> str:
 
 
 def detail_href(rec: dict, prefix: str) -> str:
-    up = "../" if prefix == "" else "../../"
-    return quote(up + rec["report_path"], safe="/#._-")
+    return quote(prefix + rec["docs_report_path"], safe="/#._-")
 
 
 def is_external(src: str) -> bool:
@@ -145,8 +144,6 @@ class ImageRewriter:
     def __init__(self, rec: dict):
         self.rec = rec
         self.report_path = ROOT / rec["report_path"]
-        self.dest_dir = REPORT_IMAGE_ROOT / slug(rec["gene"])
-        self.dest_dir.mkdir(parents=True, exist_ok=True)
         self.map_rows: list[dict] = []
 
     def copy_src(self, src: str) -> str:
@@ -156,18 +153,9 @@ class ImageRewriter:
         if source is None:
             self.map_rows.append({"gene": self.rec["gene"], "report_path": self.rec["report_path"], "source_image": src, "copied_image": "", "copied": "False", "reason": "source_not_found"})
             return None
-        dest = self.dest_dir / source.name
-        if dest.exists() and source.resolve() != dest.resolve():
-            try:
-                if source.read_bytes() != dest.read_bytes():
-                    dest = unique_dest(dest)
-            except OSError:
-                dest = unique_dest(dest)
-        if not dest.exists():
-            shutil.copy2(source, dest)
         page_path = DOCS / self.rec["docs_report_path"]
-        web_src = quote(os.path.relpath(dest, page_path.parent).replace('\\', '/'))
-        self.map_rows.append({"gene": self.rec["gene"], "report_path": self.rec["report_path"], "source_image": str(source), "copied_image": rel(dest), "copied": "True", "reason": "copied_or_reused"})
+        web_src = quote(os.path.relpath(source, page_path.parent).replace('\\', '/'))
+        self.map_rows.append({"gene": self.rec["gene"], "report_path": self.rec["report_path"], "source_image": str(source), "copied_image": web_src, "copied": "False", "reason": "linked_existing_local_image"})
         return web_src
 
     def missing_image(self, src: str) -> str:
@@ -531,7 +519,7 @@ def build_home(meta: dict, records: list[dict], annotations: dict[tuple[str, str
 
 def build_index(records: list[dict], annotations: dict[tuple[str, str], dict[str, str]]) -> None:
     sorted_records = sorted(records, key=lambda r: (-(float(r.get("score") or -1)), r["gene"]))
-    body = nav("") + f'''<main class="container"><h1>蛋白总表</h1><p class="lede">按 `protein-finding.md` 总表样式展示评分维度；默认按总分降序。点击 Gene 或箭头进入原始 detail Markdown 报告。</p>{table_block(sorted_records, '', annotations)}</main>'''
+    body = nav("") + f'''<main class="container"><h1>蛋白总表</h1><p class="lede">按 `protein-finding.md` 总表样式展示评分维度；默认按总分降序。点击 Gene 或箭头进入 HTML 详情页。</p>{table_block(sorted_records, '', annotations)}</main>'''
     (DOCS / "protein_index.html").write_text(html_page("蛋白总表", body), encoding="utf-8")
 
 

@@ -10,12 +10,10 @@
 <header class="topbar">
   <a class="brand" href="../index.html">Protein Scout</a>
   <nav>
-    <a href="../protein_index.html">Protein Index</a>
-    <a href="../category/nucleoplasm.html">Nucleoplasm</a>
-    <a href="../category/nuclear-body.html">Nuclear body</a>
-    <a href="../category/rejected.html">Rejected</a>
+    <a href="../protein_index.html">总表</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a><a href="../category/nucleus-cytoplasm.html">Nucleus-cytoplasm</a><a href="../category/nuclear-speckle.html">Nuclear speckle</a><a href="../category/nuclear-body.html">Nuclear body</a><a href="../category/nucleolus.html">Nucleolus</a><a href="../category/nuclear-envelope.html">Nuclear envelope</a><a href="../category/chromatin.html">Chromatin</a><a href="../category/rejected.html">Rejected</a>
   </nav>
-</header><main class="container report-shell"><section class="panel"><h1>BCLAF1</h1><div class="report-meta"><span class="badge muted">rejected</span><span class="badge">nucleoplasm</span><span class="badge">Score: 1.8</span><span class="badge">Nuclear: 3</span><a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/nucleoplasm.html">Category page</a></div><p class="source-path">Original detail path: detail/nucleoplasm/BCLAF1/BCLAF1-evaluation.md</p></section><article class="report-body"><hr>
+</header><main class="container report-shell"><section class="panel"><h1>BCLAF1</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">总分: 28.9</span><span class="badge">核定位: 7</span><a class="button small" href="../protein_index.html">蛋白总表</a><a class="button small" href="../category/nucleoplasm.html">分类页</a></div><p class="source-path">原始 detail 路径: detail/nucleoplasm/BCLAF1/BCLAF1-evaluation.md</p></section><article class="report-body"><hr>
 <p>type: protein-evaluation gene: &quot;BCLAF1&quot; date: 2026-06-03 tags: [protein-scout, rejected, evaluation] status: rejected rejection_reason: &quot;PubMed strict count 114 &gt; 100 — research novelty threshold exceeded&quot; ---</p>
 <h3>BCLAF1 核蛋白评估（淘汰）</h3>
 <h4>基本信息</h4>
@@ -55,14 +53,14 @@
 <p><strong>GO-CC 细胞组分</strong>:</p>
 <ul><li>GO:0005737 cytoplasm (IEA:UniProtKB-SubCell)</li><li>GO:0016592 mediator complex (IBA:GO_Central)</li><li>GO:0016607 nuclear speck (IDA:HPA)</li><li>GO:0005654 nucleoplasm (IDA:UniProtKB)</li><li>GO:0005634 nucleus (IDA:MGI)</li></ul>
 <p><strong>HPA 免疫荧光（HPA IF）</strong>: HPA IF 图像已本地嵌入。</p>
-<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/BCLAF1/BCLAF1_U2OS_1.jpg</code></div></figure> <figure><div class="missing-image">Missing local image: <code>../assets/report-images/BCLAF1/BCLAF1_U2OS_2.jpg</code></div></figure></p>
+<p><figure><img src="../../detail/rejected/BCLAF1/IF_images/BCLAF1_U2OS_1.jpg" alt="BCLAF1_U2OS_1.jpg"></figure> <figure><img src="../../detail/rejected/BCLAF1/IF_images/BCLAF1_U2OS_2.jpg" alt="BCLAF1_U2OS_2.jpg"></figure></p>
 <p>虽有实验证据支持核定位（nuclear speck + nucleoplasm 均为 ECO:0000269），且GO-CC中有IDA级别的实验证据，但由于HPA未能提供可验证的IF原图，核定位特异性得分为7而非更高。</p>
 <hr>
 <h4>三维结构分析</h4>
 <p><strong>AlphaFold 预测</strong>:</p>
 <ul><li>Entry: AF-Q9NYF8-F1 (version 6)</li><li>Mean pLDDT: 46.7</li><li>pLDDT &gt;90: 1.4%</li><li>pLDDT 70-90: 5.5%</li><li>pLDDT 50-70: 16.1%</li><li>pLDDT &lt;50: 77.0%</li></ul>
 <p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
-<p><figure><div class="missing-image">Missing local image: <code>../assets/report-images/BCLAF1/BCLAF1-PAE.png</code></div></figure>77%残基pLDDT&lt;50表明该蛋白大部分区域为固有无序（intrinsically disordered），仅有少量有序结构域。这与920 aa的大尺寸相符合，暗示BCLAF1可能通过液-液相分离方式发挥功能。</p>
+<p><figure><img src="../../detail/rejected/BCLAF1/BCLAF1-PAE.png" alt="BCLAF1-PAE.png"></figure>77%残基pLDDT&lt;50表明该蛋白大部分区域为固有无序（intrinsically disordered），仅有少量有序结构域。这与920 aa的大尺寸相符合，暗示BCLAF1可能通过液-液相分离方式发挥功能。</p>
 <p><strong>实验结构</strong>:</p>
 <ul><li>7RJN: X-ray, 1.95 A, chains C/D=330-339（仅十肽，来自复合物中的短肽段）</li><li>7RJR: X-ray, 1.45 A, chain B=330-339（同上肽段）</li></ul>
 <p>两条PDB条目仅覆盖十肽片段(330-339 SRSRSRSRDR)，全长920 aa中几乎无实验结构信息。该短肽为富含丝氨酸-精氨酸的RS重复区，可能参与RNA结合或蛋白-蛋白相互作用。</p>
