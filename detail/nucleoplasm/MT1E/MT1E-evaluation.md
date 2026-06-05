@@ -88,7 +88,7 @@ None (no MT1E-specific experimental structures). Homologous structures from MT1A
 
 **Structure Assessment**: AlphaFold provides a high-quality model (pLDDT 87.6, 86.2% ordered). The metal-thiolate cluster architecture is well-captured. No experimental structures exist for MT1E specifically, but the family conservation allows reliable structural inference from MT1A/MT2A NMR structures. The folded state is metal-dependent (holo-form structured, apo-form disordered).
 
-PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 ## 6. InterPro / Pfam Domains
 
@@ -186,3 +186,9 @@ MT1E has genuine nuclear localization (HPA Approved, nucleoplasm as additional l
 - STRING: https://string-db.org/network/9606.ENSP00000304101
 
 **Re-evaluator's note**: The original stub rejection (PubMed >100) was correct in its conclusion but incomplete in its analysis. This full re-evaluation confirms the rejection while providing the comprehensive assessment that the original stub lacked. MT1E's nuclear localization is real, but the publication volume (115 papers) definitively exceeds the threshold. The most distinctive feature -- MT1E as a monocyte differentiation marker -- has already been thoroughly characterized. Researchers seeking novelty within the metallothionein family should consider MT1H, MT1M, or other understudied isoforms instead.
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-P04732-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

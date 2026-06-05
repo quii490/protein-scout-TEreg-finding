@@ -30,7 +30,7 @@ status: rejected
 | **归一化总分** | | | **淘汰** | |
 
 #
-> **Protein Atlas IF**: 暂无数据（Pending cell analysis），核定位基于 UniProt + GO。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 ## 3. 淘汰原因
 
@@ -41,3 +41,14 @@ status: rejected
 ### 4. 数据来源
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22HAS1%22%5BTitle/Abstract%5D
 - UniProt: https://www.uniprot.org/uniprotkb/Q92839 (if available)
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Plasma membrane (supported)。来源: https://www.proteinatlas.org/ENSG00000105509-HAS1/subcellular
+
+![](https://images.proteinatlas.org/67602/1702_D3_23_cr57eaa9fe4e301_red_green.jpg)
+![](https://images.proteinatlas.org/67602/1702_D3_3_cr57eaa9f68ccac_red_green.jpg)
+![](https://images.proteinatlas.org/67602/1709_B10_13_cr580485d27f2a8_red_green.jpg)
+![](https://images.proteinatlas.org/67602/1709_B10_2_cr580485c965c96_red_green.jpg)
+![](https://images.proteinatlas.org/67602/1782_C6_16_cr596f4e89acec0_red_green.jpg)
+![](https://images.proteinatlas.org/67602/1782_C6_1_cr59aeda3164ed8_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

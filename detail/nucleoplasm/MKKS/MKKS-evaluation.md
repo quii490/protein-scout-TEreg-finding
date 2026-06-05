@@ -68,7 +68,7 @@ rejection_reason: "PubMed strict count 196 > 100 — research novelty threshold 
 - 附加定位: (无)
 - IF图像: 可用（12张blue_red_green IF原图）
 
-HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 关键矛盾：UniProt列出的nucleus定位有实验证据(ECO:0000269)支持，GO-CC中nucleus的注释来源为IDA:UniProtKB。然而，HPA免疫荧光的主要信号位于centrosome和basal body（纤毛基体），并未报告核定位信号。这种不一致可能反映出：(1) MKKS在特定条件下才进入核内（如细胞周期特定时相或应激条件）；(2) HPA的抗体可能因为表位遮蔽而未能检测到核内MKKS。HPA的"Supported"可靠性等级低于"Enhanced"和"Approved"，提示数据一致性可能存在问题。
 
@@ -191,3 +191,14 @@ HPA IF 原图已从HPA网站获取（12张IF原图），但未下载到本地。
 - AlphaFold结构置信度极佳(mean pLDDT 89.0)，但无实验结构
 - PPI网络以CCT复合物和BBSome为核心，功能明确
 - 自上次thin-reject后重新评估：harvest数据完整，因PubMed>100仍被淘汰
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Centrosome (supported)。来源: https://www.proteinatlas.org/ENSG00000125863-MKKS/subcellular
+
+![](https://images.proteinatlas.org/44233/2120_B7_44_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44233/2120_B7_6_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44233/2131_C10_19_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44233/2131_C10_37_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44233/2168_D9_11_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44233/2168_D9_68_blue_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

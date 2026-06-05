@@ -34,7 +34,7 @@ status: scored
 - **主要定位**：Nucleoplasm
 - **附加定位**：无
 - **可靠性**：Approved
-- **IF 图像状态**：HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 HPA将ADAT3定位于Nucleoplasm（核质），且为唯一的主要定位，无附加定位记录。Approved可靠性等级表明IF信号在多个细胞系中一致且可信。Nucleoplasm是tRNA编辑复合体（ADAT2/ADAT3）执行A34-to-inosine脱氨功能的关键亚细胞场所，与蛋白质的已知生化功能高度匹配。
 
@@ -150,7 +150,7 @@ IntAct收录15条互作记录，最核心的是ADAT2通过anti-tag co-IP（PMID:
 | **加权总分** | | | **134/180** | |
 | **归一化总分 (÷1.83)** | | | **73.2/100** | |
 
-HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。
 
@@ -167,3 +167,14 @@ ADAT3是5个候选基因中综合得分最高的蛋白（23.50/32.79）。其核
 ## Manual Review Note
 
 ADAT3在五个评估基因中表现最为突出。其核定位毋庸置疑——参与tRNA pre-mRNA加工的酶复合体必须在核内执行功能，这与HPA/UniProt/GO-CC的三方数据完全吻合。值得注意的是ADAT3具有核质双定位特征，这可能暗示其在核内完成tRNA编辑后随tRNA输出到胞质，或在不同细胞周期/应激条件下重新分布——这本身就是一个有趣的研究方向。从TE调控角度考量，tRNA修饰直接影响翻译效率和密码子偏好性，而转座元件（TEs）的翻译和转座活性可能与tRNA pool的组成密切相关，ADAT3作为tRNA编辑调控节点蛋白具有独特的生物学切入点。唯一需要注意的是，ADAT3的催化活性依赖与ADAT2形成复合体，单独研究ADAT3可能需要共表达ADAT2或使用复合体形式。酵母复合体结构的可用性为人类蛋白的结构研究和药物设计提供了良好的起点。
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000213638-ADAT3/subcellular
+
+![](https://images.proteinatlas.org/58899/1018_E3_1_red_green.jpg)
+![](https://images.proteinatlas.org/58899/1018_E3_2_red_green.jpg)
+![](https://images.proteinatlas.org/58899/1218_E3_1_red_green.jpg)
+![](https://images.proteinatlas.org/58899/1218_E3_3_red_green.jpg)
+![](https://images.proteinatlas.org/58899/1307_E4_1_red_green.jpg)
+![](https://images.proteinatlas.org/58899/1307_E4_5_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

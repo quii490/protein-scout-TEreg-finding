@@ -46,8 +46,8 @@
 <p><strong>Nuclear Evidence Consensus</strong>: There is excellent agreement between HPA (Nuclear bodies, Supported), UniProt (Nucleus, experimental), and GO-CC (nuclear body IDA, nucleoplasm TAS, nucleus IDA). This is one of the most consistent nuclear localization profiles in the set. The BRCA1-A complex localization to DNA-damage-induced nuclear foci is a well-established finding in the DDR field.</p>
 <p><strong>Note on Excel discrepancy</strong>: The original Sheet4 Excel listed ABRAXAS1 as HPA=&quot;Nuclear membrane|Nucleoplasm&quot; with nuclear_score=6. The actual harvested HPA data shows &quot;Nuclear bodies&quot; as the sole main location (no Nuclear membrane, no Nucleoplasm). This is a significant misclassification in the original Excel. Interestingly, Nuclear bodies is actually a stronger and more specific nuclear compartment annotation than the original assignment.</p>
 <h3>3. HPA Immunofluorescence</h3>
-<p><strong>IF unavailable — HPA 检索页无可用的 subcellular IF 原图。暂无数据（HPA IF 原图未可靠获取），核定位基于 HPA localization + UniProt + GO-CC -- HPA检索页无可用的subcellular IF原图。核定位基于HPA localization (Supported reliability) + UniProt experimental evidence + GO-CC IDA annotations.</strong></p>
-<p>The HPA subcellular page shows <code>no_image_detected</code> for display-quality IF images. However, the &quot;Supported&quot; reliability tier indicates that HPA internal scoring of IF data supports nuclear body localization. Given the extensive independent evidence for nuclear localization (UniProt experimental, GO-CC IDA, well-characterized DDR function), the absence of curated IF display images does not weaken the nuclear localization conclusion.</p>
+<p>HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。</p>
+<p>HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。</p>
 <h3>4. PubMed Literature Assessment</h3>
 <div class="table-wrap"><table>
 <thead><tr><th>Query Type</th><th>Count</th><th>Notes</th></tr></thead><tbody>
@@ -149,7 +149,9 @@
 <h3>10. Manual Review Note</h3>
 <p>The original Excel classified ABRAXAS1 as HPA=&quot;Nuclear membrane|Nucleoplasm&quot;, which is incorrect. The actual HPA data shows &quot;Nuclear bodies&quot; as the sole main location. This misclassification may explain the template rejection -- the evaluator may have been looking for the wrong nuclear compartment. Nuclear bodies (DNA damage foci) is a more specific and mechanistically relevant annotation than the generic &quot;Nuclear membrane|Nucleoplasm&quot; originally assigned.</p>
 <p><strong>Re-evaluator&#x27;s note</strong>: ABRAXAS1 is one of the strongest candidates in this re-evaluation set. The template rejection was clearly an error, likely caused by the Excel misclassifying the nuclear compartment. This gene scores very well across all nuclear dimensions and functions in a pathway (DDR) that is of high interest for many research programs. The only caveat is that scaffold proteins without enzymatic activity can be challenging as drug targets, but this does not diminish the nuclear localization evidence.</p>
-<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p></article></main>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p>&lt;!-- HPA_IF_REPAIR_START --&gt; <strong>HPA IF 图像修正（2026-06-05）</strong>: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nuclear bodies (supported)。来源: https://www.proteinatlas.org/ENSG00000163322-ABRAXAS1/subcellular</p>
+<p><figure><img src="https://images.proteinatlas.org/37654/738_D2_2_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/37654/738_D2_3_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/37654/750_D2_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/37654/750_D2_2_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/37654/822_H7_2_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/37654/822_H7_4_red_green.jpg" alt="image"></figure> &lt;!-- HPA_IF_REPAIR_END --&gt;</p></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

@@ -42,7 +42,7 @@ status: scored
 | Protein Atlas (IF) | Nucleoplasm; 额外: Nucleoplasm | Approved |
 | UniProt | Chromosome | Swiss-Prot/TrEMBL |
 
-**IF 图像说明**: HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。
+**IF 图像说明**: HPA subcellular IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；核定位仍结合 HPA reliability、UniProt 和 GO-CC 综合判断。
 
 **GO Cellular Component**:
 - chromosome (GO:0005694)
@@ -165,3 +165,14 @@ status: scored
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=BOD1L1
 - STRING: https://string-db.org/network/9606.BOD1L1
 - Packet data timestamp: 2026-06-03 03:42:10
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000038219-BOD1L1/subcellular
+
+![](https://images.proteinatlas.org/37362/430_G1_1_red_green.jpg)
+![](https://images.proteinatlas.org/37362/430_G1_2_red_green.jpg)
+![](https://images.proteinatlas.org/37362/432_G1_1_red_green.jpg)
+![](https://images.proteinatlas.org/37362/432_G1_2_red_green.jpg)
+![](https://images.proteinatlas.org/37362/441_G1_1_red_green.jpg)
+![](https://images.proteinatlas.org/37362/441_G1_2_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

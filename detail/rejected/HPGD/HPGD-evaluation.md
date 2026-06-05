@@ -30,7 +30,7 @@ status: rejected
 | **归一化总分** | | | **淘汰** | |
 
 #
-> **Protein Atlas IF**: 暂无数据（Pending cell analysis），核定位基于 UniProt + GO。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 ## 3. 淘汰原因
 
@@ -41,3 +41,14 @@ status: rejected
 ### 4. 数据来源
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22HPGD%22%5BTitle/Abstract%5D
 - UniProt: https://www.uniprot.org/uniprotkb/P15428 (if available)
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Cytosol (supported)。来源: https://www.proteinatlas.org/ENSG00000164120-HPGD/subcellular
+
+![](https://images.proteinatlas.org/5679/10_A5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5679/10_A5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5679/1424_F7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5679/1424_F7_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5679/15_A5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5679/15_A5_2_blue_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

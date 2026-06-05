@@ -86,7 +86,7 @@ status: scored
 | 有序区域 (pLDDT>70) 占比 | 68.4% |
 | 可用 PDB 条目 | 8FKV, 8FKW, 8FKX, 8FKY |
 
-**PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。**
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 **评价**: PDB实验结构（8FKV, 8FKW, 8FKX, 8FKY）+ AlphaFold高质量预测（pLDDT=74.8），结构可信度高。
 
@@ -181,3 +181,9 @@ status: scored
 
 ---
 *本报告为全量重评估 (Full Re-evaluation) -- Recovery from false-rejection。所有评分基于最新harvest packet数据，使用标准/180评分体系计算。*
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-Q8WTT2-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

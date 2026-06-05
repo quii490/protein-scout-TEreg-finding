@@ -30,7 +30,7 @@ status: rejected
 | **归一化总分** | | | **淘汰** | |
 
 #
-> **Protein Atlas IF**: 暂无数据（Pending cell analysis），核定位基于 UniProt + GO。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 ## 3. 淘汰原因
 
@@ -41,3 +41,14 @@ status: rejected
 ### 4. 数据来源
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22HJURP%22%5BTitle/Abstract%5D
 - UniProt: https://www.uniprot.org/uniprotkb/Q8NCD3 (if available)
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (uncertain)。来源: https://www.proteinatlas.org/ENSG00000123485-HJURP/subcellular
+
+![](https://images.proteinatlas.org/27261/1112_D5_6_red_green.jpg)
+![](https://images.proteinatlas.org/27261/1112_D5_9_red_green.jpg)
+![](https://images.proteinatlas.org/27261/1116_D5_2_red_green.jpg)
+![](https://images.proteinatlas.org/27261/1116_D5_4_red_green.jpg)
+![](https://images.proteinatlas.org/27261/1176_G4_2_red_green.jpg)
+![](https://images.proteinatlas.org/27261/1176_G4_7_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

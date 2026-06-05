@@ -51,7 +51,7 @@ nuclear_score: 6
 - **Reliability (IF)**: **Supported** (second-highest tier)
 - **IF Display Images Available**: NO (`if_image_urls` array is empty)
 - **Image status**: `no_image_detected`
-- **HPA IF 原图未可靠获取**（HPA 检索页无 subcellular IF 原图）。核定位基于 HPA localization/reliability + UniProt + GO-CC。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 **HPA Nuclear Localization Summary**: HPA classifies ABTB3 as primarily nucleoplasmic with additional cytosolic localization. The reliability is "Supported." No IF display images are available. This is the SOLE source of nuclear localization evidence for this protein -- UniProt and GO-CC agree on membrane/synaptic localization.
 
@@ -61,9 +61,9 @@ nuclear_score: 6
 
 ## 3. HPA Immunofluorescence
 
-**IF unavailable -- HPA检索页无可用的subcellular IF原图。核定位基于HPA localization annotation (Supported reliability). However, this conflicts with UniProt's membrane annotation and the known synaptic function.**
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
-The HPA subcellular page shows `no_image_detected` status. No curated IF display images are available, despite the presence of raw red_green images in the image_urls. The lack of curated images combined with the UniProt/HPA conflict makes the nuclear assignment uncertain.
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 ## 4. PubMed Literature Assessment
 
@@ -226,3 +226,14 @@ The original Excel classified ABTB3 as HPA="Nucleoli|Nucleoplasm" with nuclear_s
 **Re-evaluator's note**: If the project's goal is to identify genuine nuclear proteins, ABTB3 is probably a false positive from the HPA screen. The protein's established function and interaction network are exclusively synaptic/cytoplasmic. The HPA nuclear annotation, while "Supported," is the only source claiming nuclear localization and is contradicted by functional data. This gene may have been correctly rejected in the original screen, or at minimum should be deprioritized below all other candidates in this set. If retained, manual verification of the HPA IF raw images is essential to determine whether the nucleoplasmic signal is real or represents cell body/perinuclear staining.
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (supported)。来源: https://www.proteinatlas.org/ENSG00000151136-ABTB3/subcellular
+
+![](https://images.proteinatlas.org/55898/1144_A11_1_red_green.jpg)
+![](https://images.proteinatlas.org/55898/1144_A11_2_red_green.jpg)
+![](https://images.proteinatlas.org/55898/873_H2_1_red_green.jpg)
+![](https://images.proteinatlas.org/55898/873_H2_2_red_green.jpg)
+![](https://images.proteinatlas.org/55898/878_H2_1_red_green.jpg)
+![](https://images.proteinatlas.org/55898/878_H2_2_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

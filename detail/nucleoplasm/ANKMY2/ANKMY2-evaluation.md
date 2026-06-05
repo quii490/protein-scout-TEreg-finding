@@ -24,7 +24,7 @@ Q8IV38 | Ankyrin repeat and MYND domain-containing protein 2 | 441aa | pLDDT 86.
 
 **UniProt**: Q8IV38 — Cell projection, cilium (ECO:0000250). GO-CC: cilium (IEA:UniProtKB-SubCell). UniProt interaction: TINF2.
 
-**HPA IF 状态**: HPA IF 原图未可靠获取（HPA 检索页无可用的 subcellular IF 原图）。核定位基于 HPA localization/reliability + UniProt + GO-CC。
+**HPA IF 状态**: HPA subcellular IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 ### 核定位评定
 HPA 主定位 Cytosol (Approved)，额外定位 Nucleoplasm。UniProt 自身注释为纤毛定位 (cilium)，无核定位信息。HPA 将 Nucleoplasm 列为 additional location，reliability 为 Approved，表明 IF 信号中观察到核质分布但非主导。由于主定位不在核内且 UniProt 不支持核定位，核定位特异性评为 4/10。
@@ -52,3 +52,14 @@ STRING: AGO3 (0.885, experimental 0.782)、FKBP8 (0.719, exp 0.611)、GUCY1A1 (0
 
 ### 人工复核建议
 核定位为 HPA additional location，主定位 Cytosol/纤毛，若以核蛋白研究为目标则该蛋白核定位偏弱。纤毛-核质穿梭可能在某些条件下发生，但并非稳态核定位。建议关注其在纤毛信号转导中的角色及其与肾纤毛病的关系。
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Cytosol (approved)。来源: https://www.proteinatlas.org/ENSG00000106524-ANKMY2/subcellular
+
+![](https://images.proteinatlas.org/67100/1250_G5_1_red_green.jpg)
+![](https://images.proteinatlas.org/67100/1250_G5_2_red_green.jpg)
+![](https://images.proteinatlas.org/67100/1255_G5_1_red_green.jpg)
+![](https://images.proteinatlas.org/67100/1255_G5_3_red_green.jpg)
+![](https://images.proteinatlas.org/67100/1924_G12_2_red_green.jpg)
+![](https://images.proteinatlas.org/67100/1924_G12_3_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

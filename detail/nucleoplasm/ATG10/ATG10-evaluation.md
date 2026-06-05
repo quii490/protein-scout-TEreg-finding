@@ -45,7 +45,7 @@ status: rejected
 | Protein Atlas (IF) | Nucleoli; 额外: Nucleoplasm, Nucleoli | Approved |
 | UniProt | Cytoplasm | Swiss-Prot/TrEMBL |
 
-**IF 图像说明**: HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。
+**IF 图像说明**: HPA subcellular IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；核定位仍结合 HPA reliability、UniProt 和 GO-CC 综合判断。
 
 **GO Cellular Component**:
 - cytosol (GO:0005829)
@@ -167,3 +167,14 @@ status: rejected
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9H0Y0
 - STRING: https://string-db.org/network/9606.ATG10
 - Packet data timestamp: 2026-06-03 03:25:19
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoli (approved)。来源: https://www.proteinatlas.org/ENSG00000152348-ATG10/subcellular
+
+![](https://images.proteinatlas.org/44163/711_D2_1_red_green.jpg)
+![](https://images.proteinatlas.org/44163/711_D2_2_red_green.jpg)
+![](https://images.proteinatlas.org/44163/723_D2_1_red_green.jpg)
+![](https://images.proteinatlas.org/44163/723_D2_2_red_green.jpg)
+![](https://images.proteinatlas.org/44163/866_D2_1_red_green.jpg)
+![](https://images.proteinatlas.org/44163/866_D2_2_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

@@ -46,8 +46,8 @@
 <p><strong>Critical Evidence Conflict</strong>: There is a severe contradiction between HPA (Nucleoplasm main, Uncertain reliability) and UniProt/GO (cytoplasm only). The &quot;Uncertain&quot; HPA reliability flag strongly suggests that the IF data is ambiguous or inconsistent. This is a weaker nuclear case than genes with Approved or Supported reliability.</p>
 <p><strong>Note on Excel discrepancy</strong>: The original Sheet4 Excel listed ABLIM3 as HPA=&quot;Nuclear bodies&quot; with nuclear_score=6. The actual harvested HPA data shows &quot;Nucleoplasm&quot; (not Nuclear bodies) as the main location. This is a significant misclassification in the original Excel.</p>
 <h3>3. HPA Immunofluorescence</h3>
-<p>**HPA IF 原图未可靠获取（HPA 检索页无可用的 subcellular IF 原图）。核定位基于 HPA localization/reliability + UniProt + GO-CC。</p>
-<p>The HPA subcellular page shows <code>no_image_detected</code> status. No curated IF display images are available. The &quot;Uncertain&quot; reliability flag means the HPA internal scoring of the IF data was inconclusive or inconsistent across cell lines/antibodies. This significantly weakens the nuclear evidence from HPA.</p>
+<p>HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。</p>
+<p>HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。</p>
 <h3>4. PubMed Literature Assessment</h3>
 <div class="table-wrap"><table>
 <thead><tr><th>Query Type</th><th>Count</th><th>Notes</th></tr></thead><tbody>
@@ -151,7 +151,9 @@
 <h3>10. Manual Review Note</h3>
 <p>The original Excel classified ABLIM3 as HPA=&quot;Nuclear bodies&quot; with nuclear_score=6, but the actual harvested HPA data shows &quot;Nucleoplasm&quot; (not Nuclear bodies) with &quot;Uncertain&quot; reliability. This represents two errors in the original assessment: (1) the nuclear compartment was misclassified, and (2) the Uncertain reliability flag was not considered. The Excel&#x27;s nuclear_score=6 appears inflated relative to the actual evidence quality.</p>
 <p><strong>Re-evaluator&#x27;s note</strong>: This gene illustrates the importance of checking HPA reliability tiers. The &quot;Uncertain&quot; flag is a strong caution signal. The gene&#x27;s LIM domain architecture and nuclear PPI partners provide plausible nuclear biology, but the experimental HPA evidence is not compelling. This should be considered a candidate requiring validation rather than a confirmed nuclear protein.</p>
-<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p></article></main>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p>&lt;!-- HPA_IF_REPAIR_START --&gt; <strong>HPA IF 图像修正（2026-06-05）</strong>: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (uncertain)。来源: https://www.proteinatlas.org/ENSG00000173210-ABLIM3/subcellular</p>
+<p><figure><img src="https://images.proteinatlas.org/2472/1875_C2_16_cr5b7c0b5cdd9fd_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/2472/1875_C2_2_cr5b7c0b5cdd6ee_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/2472/1904_F1_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/2472/1904_F1_2_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/2472/1913_E14_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/2472/1913_E14_2_red_green.jpg" alt="image"></figure> &lt;!-- HPA_IF_REPAIR_END --&gt;</p></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

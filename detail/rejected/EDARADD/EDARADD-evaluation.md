@@ -29,8 +29,17 @@ rejection_reason: PubMed > 100
 | UniProt 定位 | Cytoplasm | |
 
 #
-> **Protein Atlas IF**: 暂无数据（Pending cell analysis），核定位基于 UniProt + GO。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 ## 3. 判定
 
 该基因研究热度极高（PubMed 130 篇），不符合新颖性筛选标准（阈值 ≤100），直接淘汰。
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000186197-EDARADD/subcellular
+
+![](https://images.proteinatlas.org/18836/1042_C4_2_red_green.jpg)
+![](https://images.proteinatlas.org/18836/1042_C4_3_red_green.jpg)
+![](https://images.proteinatlas.org/18836/1386_A4_1_red_green.jpg)
+![](https://images.proteinatlas.org/18836/1386_A4_2_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

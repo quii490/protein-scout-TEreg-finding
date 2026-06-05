@@ -36,7 +36,7 @@ HPA 主定位 Microtubules 与 Midbody (Approved)，额外定位 Nucleoplasm。U
 PubMed strict count = 2（极低，为该 15 个基因中最低）。两篇关键文献均聚焦于 Bruton 酪氨酸激酶 (BTK) 核质穿梭调控：(1) PMID 22527282 (2012) — ANKRD54 通过新型 SH3 依赖性互作调控 BTK 核质穿梭；(2) PMID 28369144 (2017) — ANKRD54 从人类 SH3 结构域文库中优先选择 BTK。两篇均为机制性研究，虽然数量少但质量较高（Mol Cell Biol + PLoS One）。评为 10/10（极高新颖性但已有明确功能线索）。
 
 ### PDB 结构
-PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 AlphaFold v6: mean_pLDDT = 68.4，pct_gt_90 = 23.7%，pct_70_90 = 33.3%，pct_lt_50 = 28.3%。置信度中等，约 57% 残基 pLDDT > 70。无实验 PDB 结构。结构预测可为功能分析提供框架，但存在显著的无序区域。评为 5/10。
 
 ### 调控结构域
@@ -52,4 +52,21 @@ STRING: LIAS (0.942, textmining 共提及，lipoyl synthase)、TULP3 (0.834, exp
 ### 人工复核建议
 虽然 PubMed 仅 2 篇，但研究质量高且功能方向明确：ANKRD54 是 BTK 核质穿梭的关键适配器。Xpo1 (exportin-1/CRM1) 互作直接关联核输出机制。若研究涉及核质转运调控，该蛋白是非常精准的候选对象。但需注意 HPA 主定位为微管/中体，Nucleoplasm 仅为 additional，核内稳态分布可能有限。HPA IF 原图可获取是其独特优势——建议人工复核 IF 图像确认核信号模式。
 
-HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Microtubules (approved)。来源: https://www.proteinatlas.org/ENSG00000100124-ANKRD54/subcellular
+
+![](https://images.proteinatlas.org/71287/1369_D6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/71287/1369_D6_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/71287/1371_D6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/71287/1371_D6_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/71287/1581_B12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/71287/1581_B12_3_blue_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-Q6NXT1-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

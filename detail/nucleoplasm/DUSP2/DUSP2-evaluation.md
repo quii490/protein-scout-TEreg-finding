@@ -41,7 +41,7 @@ status: rejected
 | Protein Atlas (IF) | Nuclear membrane; 额外: Nucleoplasm | Supported |
 | UniProt | Nucleus | Swiss-Prot/TrEMBL |
 
-**IF 图像状态**: HPA未检测到可靠IF图像信号（image_status: no_image_detected）。核定位证据基于HPA subcellular localization注释、UniProt注释和GO-CC术语。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 **GO Cellular Component**:
 - cytoplasm (GO:0005737)
@@ -169,3 +169,14 @@ status: rejected
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q05923
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Packet data timestamp: 2026-06-03 12:21:11
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nuclear membrane (supported)。来源: https://www.proteinatlas.org/ENSG00000158050-DUSP2/subcellular
+
+![](https://images.proteinatlas.org/71920/1337_C11_1_red_green.jpg)
+![](https://images.proteinatlas.org/71920/1337_C11_3_red_green.jpg)
+![](https://images.proteinatlas.org/71920/1338_C11_1_red_green.jpg)
+![](https://images.proteinatlas.org/71920/1338_C11_5_red_green.jpg)
+![](https://images.proteinatlas.org/71920/1422_E5_2_red_green.jpg)
+![](https://images.proteinatlas.org/71920/1422_E5_3_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

@@ -27,7 +27,7 @@ status: rejected
 **详细理由**: PubMed 发表数 152 篇，超过 100 篇阈值，研究领域过于拥挤
 
 #
-> **Protein Atlas IF**: 暂无数据（Pending cell analysis），核定位基于 UniProt + GO。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 ## 3. 关键数据
 
@@ -43,3 +43,14 @@ status: rejected
 ### 4. 结论
 
 该基因不满足蛋白评估的基本筛选条件（PubMed ≤ 100 且核定位 > 3），予以淘汰。
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000100625-SIX4/subcellular
+
+![](https://images.proteinatlas.org/31793/1807_A3_33_red_green.jpg)
+![](https://images.proteinatlas.org/31793/1807_A3_35_red_green.jpg)
+![](https://images.proteinatlas.org/31793/1861_F12_18_cr5aea091e151a9_red_green.jpg)
+![](https://images.proteinatlas.org/31793/1861_F12_9_cr5aea091e14651_red_green.jpg)
+![](https://images.proteinatlas.org/31793/2190_F8_1_red_green.jpg)
+![](https://images.proteinatlas.org/31793/2190_F8_3_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

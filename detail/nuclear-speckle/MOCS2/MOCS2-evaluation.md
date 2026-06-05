@@ -95,7 +95,7 @@ nuclear_score: 7
 | 有序区域 (pLDDT>70) 占比 | 95.5% |
 | 可用 PDB 条目 | 5MPO |
 
-**PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。**
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 **评价**: AlphaFold 极高置信度预测（pLDDT=91.8，有序区 95.5%），结构可靠。
 
@@ -197,3 +197,9 @@ nuclear_score: 7
 ---
 
 *本报告基于最新的 harvest packet 数据（2026-06-03 21:51:04），各数据库实时抓取。评分严格遵循 /180 加权评分体系：核定位×4 + 大小×1 + 新颖性×5 + 结构×3 + 结构域×2 + PPI×3 + 互证加分（max+3）。PubMed>100 或 核定位≤3 为 REJECTED。*
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-O96033-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

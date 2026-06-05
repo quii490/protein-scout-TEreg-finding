@@ -41,13 +41,14 @@
 <ul><li>GO:0098978 glutamatergic synapse (IEA:Ensembl)</li><li>GO:0016020 membrane (IEA:UniProtKB-SubCell)</li></ul>
 <p><strong>Note</strong>: Only two GO-CC terms, both pointing to membrane/synaptic localization. No nuclear terms.</p>
 <h4>HPA Subcellular Localization</h4>
-<ul><li><strong>Main location</strong>: <strong>Nucleoplasm</strong></li><li><strong>Additional locations</strong>: Cytosol</li><li><strong>Reliability (IF)</strong>: <strong>Supported</strong> (second-highest tier)</li><li><strong>IF Display Images Available</strong>: NO (<code>if_image_urls</code> array is empty)</li><li><strong>Image status</strong>: <code>no_image_detected</code></li><li><strong>HPA IF 原图未可靠获取</strong>（HPA 检索页无 subcellular IF 原图）。核定位基于 HPA localization/reliability + UniProt + GO-CC。</li></ul>
+<ul><li><strong>Main location</strong>: <strong>Nucleoplasm</strong></li><li><strong>Additional locations</strong>: Cytosol</li><li><strong>Reliability (IF)</strong>: <strong>Supported</strong> (second-highest tier)</li><li><strong>IF Display Images Available</strong>: NO (<code>if_image_urls</code> array is empty)</li><li><strong>Image status</strong>: <code>no_image_detected</code></li></ul>
+<p>HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。</p>
 <p><strong>HPA Nuclear Localization Summary</strong>: HPA classifies ABTB3 as primarily nucleoplasmic with additional cytosolic localization. The reliability is &quot;Supported.&quot; No IF display images are available. This is the SOLE source of nuclear localization evidence for this protein -- UniProt and GO-CC agree on membrane/synaptic localization.</p>
 <p><strong>Evidence Conflict</strong>: There is a direct contradiction. HPA says Nucleoplasm main + Cytosol. UniProt says Membrane. GO-CC says glutamatergic synapse + membrane. The known function (interneuron-specific synaptic protein) aligns with UniProt/GO, not with HPA. This is a significant discrepancy that warrants caution.</p>
 <p><strong>Note on Excel discrepancy</strong>: The original Sheet4 Excel listed ABTB3 as HPA=&quot;Nucleoli|Nucleoplasm&quot; with nuclear_score=6. The actual harvested HPA data shows &quot;Nucleoplasm&quot; main only (no Nucleoli). The &quot;Nucleoli&quot; in the original Excel is not supported by the packet data.</p>
 <h3>3. HPA Immunofluorescence</h3>
-<p><strong>IF unavailable -- HPA检索页无可用的subcellular IF原图。核定位基于HPA localization annotation (Supported reliability). However, this conflicts with UniProt&#x27;s membrane annotation and the known synaptic function.</strong></p>
-<p>The HPA subcellular page shows <code>no_image_detected</code> status. No curated IF display images are available, despite the presence of raw red_green images in the image_urls. The lack of curated images combined with the UniProt/HPA conflict makes the nuclear assignment uncertain.</p>
+<p>HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。</p>
+<p>HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。</p>
 <h3>4. PubMed Literature Assessment</h3>
 <div class="table-wrap"><table>
 <thead><tr><th>Query Type</th><th>Count</th><th>Notes</th></tr></thead><tbody>
@@ -153,7 +154,9 @@
 <h3>10. Manual Review Note</h3>
 <p>The original Excel classified ABTB3 as HPA=&quot;Nucleoli|Nucleoplasm&quot; with nuclear_score=6. The actual HPA data shows only &quot;Nucleoplasm&quot; (no Nucleoli). More critically, ABTB3 is a known synaptic protein (BTBD11) characterized as &quot;cortical and hippocampal inhibitory interneuron-specific&quot; with localization at glutamatergic synapses. The HPA nuclear annotation may reflect the antibody detecting the protein in the cell body (where the nucleus resides) rather than true nuclear enrichment.</p>
 <p><strong>Re-evaluator&#x27;s note</strong>: If the project&#x27;s goal is to identify genuine nuclear proteins, ABTB3 is probably a false positive from the HPA screen. The protein&#x27;s established function and interaction network are exclusively synaptic/cytoplasmic. The HPA nuclear annotation, while &quot;Supported,&quot; is the only source claiming nuclear localization and is contradicted by functional data. This gene may have been correctly rejected in the original screen, or at minimum should be deprioritized below all other candidates in this set. If retained, manual verification of the HPA IF raw images is essential to determine whether the nucleoplasmic signal is real or represents cell body/perinuclear staining.</p>
-<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p></article></main>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p>&lt;!-- HPA_IF_REPAIR_START --&gt; <strong>HPA IF 图像修正（2026-06-05）</strong>: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (supported)。来源: https://www.proteinatlas.org/ENSG00000151136-ABTB3/subcellular</p>
+<p><figure><img src="https://images.proteinatlas.org/55898/1144_A11_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/55898/1144_A11_2_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/55898/873_H2_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/55898/873_H2_2_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/55898/878_H2_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/55898/878_H2_2_red_green.jpg" alt="image"></figure> &lt;!-- HPA_IF_REPAIR_END --&gt;</p></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

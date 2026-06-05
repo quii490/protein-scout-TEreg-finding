@@ -44,9 +44,9 @@
 <thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
 <tr><td>UniProt</td><td>Nucleus (ECO:0000269); Cytoplasm (ECO:0000269)</td><td>实验证据</td></tr>
 <tr><td>GO-CC</td><td>cytoplasm (IDA:UniProtKB); nucleus (IDA:UniProtKB)</td><td>实验证据</td></tr>
-<tr><td>HPA (IF)</td><td>页面有图像但无 IF 图像</td><td>无 IF 数据</td></tr>
+<tr><td>Protein Atlas (IF)</td><td>HPA subcellular IF 图像可用（见下方 HPA IF 图像修正块）</td><td>需人工复核</td></tr>
 </tbody></table></div>
-<p><strong>HPA IF 状态</strong>: IF thumbnail only — HPA 暂无 IF 原图，仅获取到 60x60 缩略图，不能作为可靠定位证据。核定位基于 UniProt + GO-CC。</p>
+<p><strong>HPA IF 状态</strong>: HPA subcellular IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。</p>
 <p><strong>结论</strong>: CDIN1 核-胞质定位有 UniProt ECO:0000269 + GO IDA 双源实验支持，定位置信度可靠。</p>
 <h5>3.2 结构与结构域</h5>
 <div class="table-wrap"><table>
@@ -91,9 +91,12 @@
 <h4>4. 总体评价</h4>
 <p>CDIN1 是一个实验确认的核-胞质蛋白，AlphaFold 结构预测质量极高（pLDDT 93.5），功能指向红细胞生成与组蛋白代谢。PPI 网络包含 CDAN1、ASF1A、ASF1B 等染色质相关因子。PubMed strict=7，高度新颖。主要局限是无 PDB 实验结构和调控结构域注释有限（仅 IPR029404/PF14811）。建议作为中等优先级核-胞质候选。 <figure><img src="../../detail/nucleus-cytoplasm/CDIN1/CDIN1-PAE.png" alt="CDIN1-PAE.png"></figure></p>
 <h4>5. 数据来源</h4>
-<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9Y2V0</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9Y2V0</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CDIN1</li><li>Protein Atlas: https://www.proteinatlas.org/search/CDIN1（无 IF 图像）</li></ul>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9Y2V0</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9Y2V0</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CDIN1</li></ul>
+<p>HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。</p>
 <p><figure><img src="../../detail/nucleus-cytoplasm/CDIN1/CDIN1-PAE.png" alt="CDIN1-PAE.png"></figure></p>
-<p><figure><img src="../../detail/nucleus-cytoplasm/CDIN1/CDIN1-PAE.png" alt="CDIN1-PAE.png"></figure></p></article></main>
+<p><figure><img src="../../detail/nucleus-cytoplasm/CDIN1/CDIN1-PAE.png" alt="CDIN1-PAE.png"></figure></p>
+<p>&lt;!-- HPA_IF_REPAIR_START --&gt; <strong>HPA IF 图像修正（2026-06-05）</strong>: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000186073-CDIN1/subcellular</p>
+<p><figure><img src="https://images.proteinatlas.org/61023/1112_G8_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/61023/1112_G8_2_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/61023/1116_G8_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/61023/1116_G8_2_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/61023/1421_B12_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/61023/1421_B12_2_red_green.jpg" alt="image"></figure> &lt;!-- HPA_IF_REPAIR_END --&gt;</p></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

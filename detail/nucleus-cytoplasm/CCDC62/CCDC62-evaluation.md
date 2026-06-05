@@ -24,7 +24,7 @@ UniProt: Q6P9F0. Nuclear receptor coactivator (ESR1/ESR2).
 
 **核定位证据**: UniProt Nucleus + Cytoplasm + Acrosome ECO:0000269. GO nucleus IDA:ParkinsonsUK-UCL. Nuclear receptor coactivator -- functional confirmation of nuclear localization.
 
-**HPA IF 状态**: IF thumbnail only — HPA 暂无 IF 原图，仅获取到 60x60 缩略图，不能作为可靠定位证据。核定位基于 UniProt + GO-CC。
+**HPA IF 状态**: HPA subcellular IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 ![[CCDC62-PAE.png]]
 
@@ -56,7 +56,24 @@ Strong nuclear receptor coactivator.
 | 36047070 | Globozoospermia: A Case Report and Systematic Review of Literature. |
 | 24335092 | CCDC62 variant rs12817488 is associated with the risk of Parkinson's disease in a Han Chinese popula |
 
-PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleus-cytoplasm/CCDC62/CCDC62-PAE.png]]
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Plasma membrane (uncertain)。来源: https://www.proteinatlas.org/ENSG00000130783-CCDC62/subcellular
+
+![](https://images.proteinatlas.org/39021/435_E6_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39021/435_E6_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39021/445_E6_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39021/445_E6_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39021/448_E6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39021/448_E6_2_blue_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-Q6P9F0-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

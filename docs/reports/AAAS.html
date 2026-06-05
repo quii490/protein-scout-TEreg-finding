@@ -39,7 +39,8 @@
 <h4>GO Cellular Component</h4>
 <ul><li>GO:0005643 <strong>nuclear pore</strong> (IDA:UniProtKB)</li><li>GO:0005654 <strong>nucleoplasm</strong> (IDA:HPA)</li><li>GO:0005635 <strong>nuclear envelope</strong> (IDA:UniProtKB)</li><li>GO:0031965 <strong>nuclear membrane</strong> (IDA:HPA)</li><li>GO:0005634 <strong>nucleus</strong> (HDA:UniProtKB)</li><li>GO:0005813 centrosome (IDA:HPA)</li><li>GO:0005829 cytosol (IDA:HPA)</li><li>GO:0072686 mitotic spindle (IDA:UniProtKB)</li><li>GO:0000922 spindle pole (IDA:UniProtKB)</li><li>GO:0016020 membrane (HDA:UniProtKB)</li><li>GO:0097229 sperm end piece (IDA:HPA)</li></ul>
 <h4>HPA Subcellular Localization</h4>
-<ul><li><strong>Main location</strong>: Nuclear membrane</li><li><strong>Additional locations</strong>: Nucleoplasm, Centrosome, Cytosol, End piece</li><li><strong>Reliability (IF)</strong>: Supported</li><li><strong>IF Display Images Available</strong>: YES (4 images)</li><li><code>2239_B4_19_blue_red_green.jpg</code></li><li><code>2239_B4_26_blue_red_green.jpg</code></li><li><code>2267_H3_63_blue_red_green.jpg</code></li><li><code>2267_H3_88_blue_red_green.jpg</code></li><li><strong>Image status</strong>: <code>if_display_images_available</code></li><li><strong>HPA IF 原图未可靠获取</strong>（subcellular IF 原图未从 HPA 页面可靠下载，仅有 display image 列表）。核定位基于 HPA localization/reliability + UniProt + GO-CC。</li></ul>
+<ul><li><strong>Main location</strong>: Nuclear membrane</li><li><strong>Additional locations</strong>: Nucleoplasm, Centrosome, Cytosol, End piece</li><li><strong>Reliability (IF)</strong>: Supported</li><li><strong>IF Display Images Available</strong>: YES (4 images)</li><li><code>2239_B4_19_blue_red_green.jpg</code></li><li><code>2239_B4_26_blue_red_green.jpg</code></li><li><code>2267_H3_63_blue_red_green.jpg</code></li><li><code>2267_H3_88_blue_red_green.jpg</code></li><li><strong>Image status</strong>: <code>if_display_images_available</code></li></ul>
+<p>HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。</p>
 <p><strong>HPA Nuclear Localization Summary</strong>: HPA IF staining shows AAAS primarily at the nuclear membrane, consistent with its role as a nuclear pore complex component. Additional nucleoplasmic signal is also observed. The reliability is &quot;Supported&quot; -- the second highest HPA reliability tier. Nuclear localization is well-established by HPA experimental data.</p>
 <p><strong>Note on Excel discrepancy</strong>: The original Sheet4 Excel listed AAAS as HPA=Nucleoplasm with nuclear_score=2. The actual harvested HPA data shows Nuclear membrane as the main location, with Nucleoplasm as an additional location. The nuclear_score=2 appears to be an underestimate -- see scoring section below.</p>
 <h3>3. HPA Immunofluorescence</h3>
@@ -149,7 +150,9 @@
 <p><strong>This is a false rejection driven by gene symbol pollution, not by lack of nuclear evidence.</strong></p>
 <p><strong>Manual review</strong>: STRONGLY RECOMMENDED. This gene should be re-scored if the PubMed&gt;100 rule is refined to account for alias collisions.</p>
 <p><strong>Exception type</strong>: PUBMED_ALIAS_COLLISION_FORCED_REJECTION</p>
-<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p></article></main>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p>&lt;!-- HPA_IF_REPAIR_START --&gt; <strong>HPA IF 图像修正（2026-06-05）</strong>: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nuclear membrane (supported)。来源: https://www.proteinatlas.org/ENSG00000094914-AAAS/subcellular</p>
+<p><figure><img src="https://images.proteinatlas.org/40086/2239_B4_19_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/40086/2239_B4_26_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/40086/2267_H3_63_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/40086/2267_H3_88_blue_red_green.jpg" alt="image"></figure> &lt;!-- HPA_IF_REPAIR_END --&gt;</p></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

@@ -45,7 +45,7 @@ status: rejected
 | Protein Atlas (IF) | 无数据; 额外: 无 | N/A |
 | UniProt | Membrane | Swiss-Prot/TrEMBL |
 
-**IF 图像说明**: HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。
+**IF 图像说明**: HPA subcellular IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；核定位仍结合 HPA reliability、UniProt 和 GO-CC 综合判断。
 
 **GO Cellular Component**:
 - GABA-ergic synapse (GO:0098982)
@@ -86,7 +86,7 @@ status: rejected
 | 低置信 (pLDDT<50) 占比 | 6.5% |
 | 有序区域 (pLDDT>70) 占比 | 87.0% |
 
-**PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。**
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 **评价**: AlphaFold高质量预测（pLDDT=83.0），预测结构可信。三维结构评分 9/10。
 
@@ -178,3 +178,20 @@ status: rejected
 
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/rejected/CACNA2D3/CACNA2D3-PAE.png]]
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (uncertain)。来源: https://www.proteinatlas.org/ENSG00000157445-CACNA2D3/subcellular
+
+![](https://images.proteinatlas.org/30849/2200_E7_15_blue_red_green.jpg)
+![](https://images.proteinatlas.org/30849/2200_E7_32_blue_red_green.jpg)
+![](https://images.proteinatlas.org/30849/1036_C12_1_red_green.jpg)
+![](https://images.proteinatlas.org/30849/1036_C12_2_red_green.jpg)
+![](https://images.proteinatlas.org/30849/780_B1_2_red_green.jpg)
+![](https://images.proteinatlas.org/30849/780_B1_3_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-Q8IZS8-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

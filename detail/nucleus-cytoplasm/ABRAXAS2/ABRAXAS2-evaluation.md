@@ -65,7 +65,7 @@ nuclear_score: 6
   - `2201_C8_35_blue_red_green.jpg`, `2201_C8_96_blue_red_green.jpg`
   - `2178_B8_45_blue_red_green.jpg`, `2178_B8_57_blue_red_green.jpg`
 - **Image status**: `if_display_images_available`
-- **HPA IF 原图未可靠获取**（subcellular IF 原图未从 HPA 页面可靠下载，仅有 display image 列表）。核定位基于 HPA localization/reliability + UniProt + GO-CC。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 **HPA Nuclear Localization Summary**: HPA does NOT classify ABRAXAS2 as nuclear. Its main location is Cytosol, with Primary cilium transition zone and Basal body as additional locations. No nuclear compartment appears in the HPA subcellular_location list. However, 10 IF display images are available, meaning the IF data can be manually reviewed.
 
@@ -219,3 +219,14 @@ ABRAXAS2 is a validated nucleocytoplasmic shuttling protein. The HPA data shows 
 The original Excel listed ABRAXAS2 as HPA="Nucleoplasm" with nuclear_score=3, but the actual harvested HPA data does NOT include any nuclear compartment. This is the most significant Excel-to-packet discrepancy in this set. The Excel appears to have assigned a nuclear compartment that HPA does not report. Despite this, ABRAXAS2 genuinely has nuclear functions validated in the literature.
 
 **Re-evaluator's note**: This case demonstrates why relying solely on HPA for nuclear classification can miss genuine nuclear proteins. ABRAXAS2 is a nucleocytoplasmic shuttling protein whose steady-state localization (captured by HPA IF) is predominantly cytoplasmic, but whose nuclear functions are well-established. The gene was correctly identified as having nuclear relevance (via UniProt), even though the HPA compartment assignment was inaccurate. A manual IF image review would help determine whether nuclear signal is present but below HPA's compartment-classification threshold. This gene should be retained despite the low HPA nuclear score.
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Cytosol (supported)。来源: https://www.proteinatlas.org/ENSG00000165660-ABRAXAS2/subcellular
+
+![](https://images.proteinatlas.org/74089/1484_G2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/74089/1484_G2_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/74089/1559_E4_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/74089/1559_E4_6_blue_red_green.jpg)
+![](https://images.proteinatlas.org/74089/2176_A8_38_blue_red_green.jpg)
+![](https://images.proteinatlas.org/74089/2176_A8_44_blue_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

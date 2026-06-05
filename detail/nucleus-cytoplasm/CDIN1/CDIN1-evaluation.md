@@ -37,9 +37,9 @@ PubMed strict: 7
 |---|---|---|
 | UniProt | Nucleus (ECO:0000269); Cytoplasm (ECO:0000269) | 实验证据 |
 | GO-CC | cytoplasm (IDA:UniProtKB); nucleus (IDA:UniProtKB) | 实验证据 |
-| HPA (IF) | 页面有图像但无 IF 图像 | 无 IF 数据 |
+| Protein Atlas (IF) | HPA subcellular IF 图像可用（见下方 HPA IF 图像修正块） | 需人工复核 |
 
-**HPA IF 状态**: IF thumbnail only — HPA 暂无 IF 原图，仅获取到 60x60 缩略图，不能作为可靠定位证据。核定位基于 UniProt + GO-CC。
+**HPA IF 状态**: HPA subcellular IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 **结论**: CDIN1 核-胞质定位有 UniProt ECO:0000269 + GO IDA 双源实验支持，定位置信度可靠。
 
@@ -100,10 +100,21 @@ CDIN1 是一个实验确认的核-胞质蛋白，AlphaFold 结构预测质量极
 - UniProt: https://www.uniprot.org/uniprotkb/Q9Y2V0
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9Y2V0
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CDIN1
-- Protein Atlas: https://www.proteinatlas.org/search/CDIN1（无 IF 图像）
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 ![[Projects/TEreg-finding/protein-interested/detail/nucleus-cytoplasm/CDIN1/CDIN1-PAE.png]]
 
 
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleus-cytoplasm/CDIN1/CDIN1-PAE.png]]
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000186073-CDIN1/subcellular
+
+![](https://images.proteinatlas.org/61023/1112_G8_1_red_green.jpg)
+![](https://images.proteinatlas.org/61023/1112_G8_2_red_green.jpg)
+![](https://images.proteinatlas.org/61023/1116_G8_1_red_green.jpg)
+![](https://images.proteinatlas.org/61023/1116_G8_2_red_green.jpg)
+![](https://images.proteinatlas.org/61023/1421_B12_1_red_green.jpg)
+![](https://images.proteinatlas.org/61023/1421_B12_2_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

@@ -31,7 +31,7 @@
 - **Reliability (IF):** Approved
 - **Main Location:** Nucleoplasm
 - **Additional Locations:** Plasma membrane, Cytosol
-- **IF Image Status:** no_image_detected
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 - **Nuclear-relevant locations:** Nucleoplasm, Plasma membrane, Cytosol
 
 ### UniProt Subcellular Location
@@ -200,3 +200,14 @@ The protein functions primarily in: Reduces the ATPase activity of VCP (By simil
 The false rejection may have resulted from automated scoring thresholds. 
 The nuclear evidence, while present, is not overwhelming. 
 NSFL1C should be reevaluated in the context of broader TE biology hypotheses.
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000088833-NSFL1C/subcellular
+
+![](https://images.proteinatlas.org/47108/2172_A4_5_red_green.jpg)
+![](https://images.proteinatlas.org/47108/2172_A4_7_red_green.jpg)
+![](https://images.proteinatlas.org/47108/748_A9_1_red_green.jpg)
+![](https://images.proteinatlas.org/47108/748_A9_2_red_green.jpg)
+![](https://images.proteinatlas.org/47108/896_A9_3_red_green.jpg)
+![](https://images.proteinatlas.org/47108/896_A9_4_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

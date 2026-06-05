@@ -41,7 +41,7 @@ status: rejected
 | Protein Atlas (IF) | Principal piece; 额外: Acrosome, Equatorial segment | Approved |
 | UniProt | Cell projection, cilium, flagellum membrane | Swiss-Prot/TrEMBL |
 
-**IF 图像获取**: Protein Atlas 检索页无可用 subcellular IF 原图（图像未检测到或数据不可用）。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 **GO Cellular Component**:
 - CatSper complex (GO:0036128)
@@ -179,3 +179,10 @@ status: rejected
 
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/rejected/C2CD6/C2CD6-PAE.png]]
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Principal piece (approved)。来源: https://www.proteinatlas.org/ENSG00000155754-C2CD6/subcellular
+
+![](https://images.proteinatlas.org/45406/2239_E11_11_blue_red_green.jpg)
+![](https://images.proteinatlas.org/45406/2239_E11_25_blue_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

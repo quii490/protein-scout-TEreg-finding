@@ -31,7 +31,7 @@
 - **Reliability (IF):** Supported
 - **Main Location:** Nucleoli
 - **Additional:** Nucleoplasm
-- **IF Image Status:** no_image_detected (red_green images available via image_urls)
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 - **Key Finding:** Nucleoli (Supported) + nucleoplasm (additional). Nucleolar localization is consistent with ribosome biogenesis function.
 
 ### UniProt Subcellular Location
@@ -135,3 +135,14 @@ Score: 86/180. SLX9 has good nuclear (nucleolar) localization and excellent stru
 
 ## Manual Review Note
 CONFIRMED REJECTION. SLX9 is a conserved ribosome biogenesis factor involved in pre-rRNA ITS1 processing and small ribosomal subunit maturation. 5 cryo-EM structures place it in pre-ribosome complexes. While yeast Slx9 has G-quadruplex nucleic acid binding activity, this likely relates to rRNA processing rather than DNA/chromatin-level regulation. Human SLX9 is very poorly characterized (PubMed=5). Not suitable for TE investigation.
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoli (supported)。来源: https://www.proteinatlas.org/ENSG00000160256-SLX9/subcellular
+
+![](https://images.proteinatlas.org/36559/767_C11_1_red_green.jpg)
+![](https://images.proteinatlas.org/36559/767_C11_2_red_green.jpg)
+![](https://images.proteinatlas.org/36559/779_C11_1_red_green.jpg)
+![](https://images.proteinatlas.org/36559/779_C11_2_red_green.jpg)
+![](https://images.proteinatlas.org/36559/820_A9_3_red_green.jpg)
+![](https://images.proteinatlas.org/36559/820_A9_4_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

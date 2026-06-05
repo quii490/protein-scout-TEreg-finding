@@ -47,7 +47,7 @@ status: scored
 | UniProt | Nucleus | — |
 | GO Cellular Component | chromatin | nucleus | — |
 
-**结论**: 严格核蛋白：UniProt Nucleus + GO 支持（HPA 无 IF 数据）。UniProt 明确标注 Nucleus 定位。HPA 暂无 IF 数据，核定位判断主要基于 UniProt + GO。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 #### 3.2 蛋白大小评估
 
@@ -175,6 +175,11 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/IRX6/IRX6-PAE.png]]
 
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000159387-IRX6/subcellular
 
-
-
+![](https://images.proteinatlas.org/18332/1639_D1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/18332/1639_D1_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/18332/1682_A2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/18332/1682_A2_2_blue_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

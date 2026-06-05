@@ -30,7 +30,7 @@ status: rejected
 | **归一化总分** | | | **淘汰** | |
 
 #
-> **Protein Atlas IF**: 暂无数据（Pending cell analysis），核定位基于 UniProt + GO。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 ## 3. 淘汰原因
 
@@ -41,3 +41,14 @@ status: rejected
 ### 4. 数据来源
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22HESX1%22%5BTitle/Abstract%5D
 - UniProt: https://www.uniprot.org/uniprotkb/Q9UBX0 (if available)
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000163666-HESX1/subcellular
+
+![](https://images.proteinatlas.org/24187/1516_B7_2_red_green.jpg)
+![](https://images.proteinatlas.org/24187/1516_B7_3_red_green.jpg)
+![](https://images.proteinatlas.org/24187/1669_B1_1_red_green.jpg)
+![](https://images.proteinatlas.org/24187/1669_B1_2_red_green.jpg)
+![](https://images.proteinatlas.org/24187/607_F1_1_red_green.jpg)
+![](https://images.proteinatlas.org/24187/607_F1_3_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

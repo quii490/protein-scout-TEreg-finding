@@ -38,7 +38,7 @@ status: scored
 | 来源 | 定位 | 可信度 |
 |------|------|--------|
 | GeneCards | — | — |
-| Protein Atlas (IF) | 暂无数据（Pending cell analysis），核定位基于 UniProt + GO（多项组蛋白乙酰转移酶复合体注释） | — |
+| Protein Atlas (IF) | HPA subcellular IF 图像可用（见下方 HPA IF 图像修正块） | 需人工复核 |
 | UniProt | Nucleus/Nucleolus/Kinetochore (UniProt), GO: NuA4 HAT, MOZ/MORF HAT, nucleolus, nucleoplasm, nucleos | Experimental/ECO evidence |
 
 **结论**: Nucleus/Nucleolus/Kinetochore (UniProt), GO: NuA4 HAT, MOZ/MORF HAT, nucleolus, nucleoplasm, nucleosome, nucleus
@@ -174,3 +174,14 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/MEAF6/MEAF6-PAE.png]]
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nuclear bodies (approved)。来源: https://www.proteinatlas.org/ENSG00000163875-MEAF6/subcellular
+
+![](https://images.proteinatlas.org/29599/2057_F1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29599/2057_F1_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29599/507_D4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29599/507_D4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29599/511_D4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29599/511_D4_2_blue_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

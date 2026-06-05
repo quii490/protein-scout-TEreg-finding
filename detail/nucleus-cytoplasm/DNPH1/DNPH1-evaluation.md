@@ -40,9 +40,9 @@ status: scored
 |---|---|---|
 | UniProt | Cytoplasm (ECO:0000269); Nucleus (ECO:0000269) | Experimental |
 | GO-CC | Nucleus (IDA); Cytoplasm (IDA); Cytosol (TAS); Extracellular exosome (HDA) | Mixed |
-| Protein Atlas (IF) | HPA 暂无 IF 原图，仅获取到 60x60 缩略图，不能作为可靠定位证据 | 未确认 |
+| Protein Atlas (IF) | HPA subcellular IF 图像可用（见下方 HPA IF 图像修正块） | 需人工复核 |
 
-**HPA IF 状态**: IF thumbnail only — HPA 暂无 IF 原图，仅获取到 60x60 缩略图，不能作为可靠定位证据。核定位基于 UniProt + GO-CC。DNPH1 的核-胞质双定位判断基于 UniProt 亚细胞定位注释（Nucleus + Cytoplasm，均为 ECO:0000269 实验证据）和 GO-CC 注释（nucleus IDA + cytoplasm IDA）。因缺少 HPA IF 完整原图独立验证，定位置信度相应降低。
+**HPA IF 状态**: HPA subcellular IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 **结论**: DNPH1 为核-胞质双定位蛋白，UniProt 和 GO-CC 均提供实验证据支持两种定位。该蛋白作为核苷酸补救通路酶，可能根据细胞周期或 DNA 损伤状态在核质间动态分布。核定位 8 分（双定位，实验证据充分，但缺 HPA IF 独立确认）。
 
@@ -234,9 +234,24 @@ IPR007710/PF05014 属于 Nucleoside 2-deoxyribosyltransferase 超家族，为核
 PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 
-PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleus-cytoplasm/DNPH1/DNPH1-PAE.png]]
 
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000112667-DNPH1/subcellular
 
+![](https://images.proteinatlas.org/29675/281_F11_1_red_green.jpg)
+![](https://images.proteinatlas.org/29675/281_F11_2_red_green.jpg)
+![](https://images.proteinatlas.org/29675/282_F11_1_red_green.jpg)
+![](https://images.proteinatlas.org/29675/282_F11_2_red_green.jpg)
+![](https://images.proteinatlas.org/29675/283_F11_1_red_green.jpg)
+![](https://images.proteinatlas.org/29675/283_F11_2_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-O43598-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

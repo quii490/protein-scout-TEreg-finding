@@ -49,7 +49,7 @@
 <tr><td>UniProt</td><td>Cell membrane, Cytoplasm, Nucleus</td><td></td></tr>
 <tr><td>GO-CC</td><td>GO:0016604 (nuclear body, IDA:HPA), GO:0005886 (plasma membrane, IDA:HPA), GO:0005829 (cytosol, TAS)</td><td></td></tr>
 </tbody></table></div>
-<p>HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。HPA Supported IF 将 Nuclear bodies 列为主定位，Vesicles 和 Plasma membrane 为附加。UniProt 注释含 Nucleus。GO-CC 含 nuclear body (IDA:HPA)。<strong>评分: 6/10</strong>。</p>
+<p>HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。</p>
 <h5>3.2 蛋白大小评估</h5>
 <p>1135 aa / 124.0 kDa。大蛋白，超过 800 aa 理想范围。高度无序 (72.2% pLDDT&lt;50)，重组全长表达困难。需截短体策略。<strong>评分: 6/10</strong>。</p>
 <h5>3.3 研究现状</h5>
@@ -73,7 +73,7 @@
 <tr><td>有序区域 (pLDDT&gt;70)</td><td>9.4%</td></tr>
 <tr><td>实验结构 (PDB)</td><td>4YJE (X-ray 1.90A, B=325-335); 4YJL (2.10A, G-L=496-508); 4YK6 (1.70A, B=365-375) — 仅短肽片段</td></tr>
 </tbody></table></div>
-<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。AMER1 为高度无序蛋白：AlphaFold pLDDT 仅 48.3，72.2% 残基 pLDDT &lt; 50。PDB 仅含 3 个短肽片段 (10-13 aa) 的晶体结构，均为与 β-catenin/Axin 的结合肽段。无序区域占比与支架蛋白功能一致。<strong>评分: 3/10</strong>。</p>
+<p><strong>PAE 图像说明</strong>: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。</p>
 <h5>3.5 结构域分析</h5>
 <div class="table-wrap"><table>
 <thead><tr><th>来源</th><th>结构域</th></tr></thead><tbody>
@@ -105,7 +105,11 @@
 <p><strong>下一步建议</strong>:</p>
 <ul><li>[ ] 利用已解析的短肽-β-catenin/Axin 结构设计截短体</li><li>[ ] 探索 AMER1 的液-液相分离行为（IDR占主导）</li><li>[ ] 在 TEreg 背景下验证 AMER1 的 Wnt 信号调控功能</li></ul>
 <h4>5. 数据来源</h4>
-<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q5JTC6</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q5JTC6</li><li>PDB: https://www.rcsb.org/structure/4YJE</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=AMER1%5BTitle/Abstract%5D</li><li>HPA: https://www.proteinatlas.org/ENSG00000184675-AMER1</li><li>STRING: https://string-db.org (API, species=9606)</li><li>IntAct: https://www.ebi.ac.uk/intact/</li></ul></article></main>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q5JTC6</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q5JTC6</li><li>PDB: https://www.rcsb.org/structure/4YJE</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=AMER1%5BTitle/Abstract%5D</li><li>HPA: https://www.proteinatlas.org/ENSG00000184675-AMER1</li><li>STRING: https://string-db.org (API, species=9606)</li><li>IntAct: https://www.ebi.ac.uk/intact/</li></ul>
+<p>&lt;!-- HPA_IF_REPAIR_START --&gt; <strong>HPA IF 图像修正（2026-06-05）</strong>: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nuclear bodies (supported)。来源: https://www.proteinatlas.org/ENSG00000184675-AMER1/subcellular</p>
+<p><figure><img src="https://images.proteinatlas.org/65265/1151_D11_1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/65265/1151_D11_2_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/65265/1154_D11_1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/65265/1154_D11_2_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/65265/1254_F7_1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/65265/1254_F7_2_blue_red_green.jpg" alt="image"></figure> &lt;!-- HPA_IF_REPAIR_END --&gt;</p>
+<p>&lt;!-- AF_PAE_REPAIR_START --&gt; <strong>PAE 图像修正（2026-06-05）</strong>: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。</p>
+<p><figure><img src="https://alphafold.ebi.ac.uk/files/AF-Q5JTC6-F1-predicted_aligned_error_v6.png" alt="image"></figure> &lt;!-- AF_PAE_REPAIR_END --&gt;</p></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

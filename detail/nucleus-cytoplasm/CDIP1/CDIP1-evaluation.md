@@ -39,7 +39,7 @@ PubMed strict: 11
 | GO-CC | cytoplasmic side of late endosome membrane (IDA); cytoplasmic side of lysosomal membrane (IDA); nucleus (IDA:MGI) | 核定位仅为鼠源 IDA |
 | HPA (IF) | 有 IF 缩略图，原图未取得 | 间接支持 |
 
-**HPA IF 状态**: IF thumbnail only — HPA 暂无 IF 原图，仅获取到 60x60 缩略图，不能作为可靠定位证据。核定位基于 UniProt + GO-CC。
+**HPA IF 状态**: HPA subcellular IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 ![[Projects/TEreg-finding/protein-interested/detail/nucleus-cytoplasm/CDIP1/IF_images/CDIP1_IF_49352.jpg]]
 
 **结论**: CDIP1 的核定位置信度低。UniProt Subcellular Location 完全未提 nucleus，而明确指向 late endosome/lysosome membrane。GO-CC 中的 nucleus IDA 标注为 MGI（Mouse Genome Informatics），即来自鼠同源基因的实验数据。作为核候选不可靠，但 p53 靶基因的属性保留一定关注价值。
@@ -120,4 +120,13 @@ HPA IF 图像已本地嵌入。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleus-cytoplasm/CDIP1/CDIP1-PAE.png]]
 
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Centrosome (supported)。来源: https://www.proteinatlas.org/ENSG00000089486-CDIP1/subcellular
 
+![](https://images.proteinatlas.org/49352/1145_G2_1_red_green.jpg)
+![](https://images.proteinatlas.org/49352/1145_G2_4_red_green.jpg)
+![](https://images.proteinatlas.org/49352/783_D12_1_red_green.jpg)
+![](https://images.proteinatlas.org/49352/783_D12_4_red_green.jpg)
+![](https://images.proteinatlas.org/49352/785_D12_5_red_green.jpg)
+![](https://images.proteinatlas.org/49352/785_D12_6_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

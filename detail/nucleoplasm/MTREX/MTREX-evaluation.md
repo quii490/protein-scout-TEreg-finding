@@ -38,7 +38,7 @@ status: scored
 | 来源 | 定位 | 可信度 |
 |------|------|--------|
 | GeneCards | — | — |
-| Protein Atlas (IF) | 暂无数据（Pending cell analysis），核定位基于 UniProt + GO（5项核 GO-CC 注释） | — |
+| Protein Atlas (IF) | HPA subcellular IF 图像可用（见下方 HPA IF 图像修正块） | 需人工复核 |
 | UniProt | Nucleus/Nucleoplasm/Nucleolus/Nuclear speckle (UniProt), GO: nuclear speck, nucleolus, nucleoplasm,  | Experimental/ECO evidence |
 
 **结论**: Nucleus/Nucleoplasm/Nucleolus/Nuclear speckle (UniProt), GO: nuclear speck, nucleolus, nucleoplasm, nucleus, TRAMP complex
@@ -177,3 +177,14 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/MTREX/MTREX-PAE.png]]
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (supported)。来源: https://www.proteinatlas.org/ENSG00000039123-MTREX/subcellular
+
+![](https://images.proteinatlas.org/37379/430_D10_1_red_green.jpg)
+![](https://images.proteinatlas.org/37379/430_D10_2_red_green.jpg)
+![](https://images.proteinatlas.org/37379/432_D10_3_red_green.jpg)
+![](https://images.proteinatlas.org/37379/432_D10_4_red_green.jpg)
+![](https://images.proteinatlas.org/37379/441_D10_2_red_green.jpg)
+![](https://images.proteinatlas.org/37379/441_D10_3_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

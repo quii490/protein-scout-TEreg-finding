@@ -40,7 +40,7 @@ status: scored
 | 抗体可靠性 | Supported |
 | IF 图像 | IF images available (2 cell lines) |
 
-**评价**: HPA 主定位为 Primary cilium, Primary cilium tip, Primary cilium transition zone, Flagellar centriole, Mid piece, Principal piece。标注定位包括: Nucleoplasm, Vesicles, Primary cilium, Primary cilium tip, Primary cilium transition zone, Cytosol, Acrosome, Equatorial segment, Flagellar centriole, Mid piece, Principal piece。抗体可靠性评级: Supported。HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图，仅有display image列表）。核定位基于HPA localization/reliability + UniProt + GO-CC。，显示核内信号分布。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 ### 4. PubMed 文献
 
@@ -154,4 +154,21 @@ status: scored
 
 **数据来源**: UniProt Q3SYG4, HPA ENSG00000122507, AlphaFold AF-Q3SYG4-F1, STRING, IntAct
 
-PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Primary cilium (supported)。来源: https://www.proteinatlas.org/ENSG00000122507-BBS9/subcellular
+
+![](https://images.proteinatlas.org/21289/2200_E4_40_blue_red_green.jpg)
+![](https://images.proteinatlas.org/21289/2200_E4_45_blue_red_green.jpg)
+![](https://images.proteinatlas.org/21289/2121_G12_19_red_green.jpg)
+![](https://images.proteinatlas.org/21289/2121_G12_8_red_green.jpg)
+![](https://images.proteinatlas.org/21289/2128_E11_16_red_green.jpg)
+![](https://images.proteinatlas.org/21289/2128_E11_79_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-Q3SYG4-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

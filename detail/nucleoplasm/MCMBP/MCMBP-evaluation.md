@@ -38,7 +38,7 @@ status: scored
 | 来源 | 定位 | 可信度 |
 |------|------|--------|
 | GeneCards | — | — |
-| Protein Atlas (IF) | 暂无数据（Pending cell analysis），核定位基于 HPA 标注（Nucleoplasm）+ UniProt + GO | — |
+| Protein Atlas (IF) | HPA subcellular IF 图像可用（见下方 HPA IF 图像修正块） | 需人工复核 |
 | UniProt | Nucleus (UniProt), HPA: Nucleoplasm, GO: nucleoplasm, nucleus | Experimental/ECO evidence |
 
 **结论**: Nucleus (UniProt), HPA: Nucleoplasm, GO: nucleoplasm, nucleus
@@ -168,3 +168,14 @@ PAE 图片未获取
 | 无记录 | — | — |
 
 IntAct 有限记录。无 BioGrid 补充数据。
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (supported)。来源: https://www.proteinatlas.org/ENSG00000197771-MCMBP/subcellular
+
+![](https://images.proteinatlas.org/13792/612_G3_1_red_green.jpg)
+![](https://images.proteinatlas.org/13792/612_G3_2_red_green.jpg)
+![](https://images.proteinatlas.org/13792/615_G3_2_red_green.jpg)
+![](https://images.proteinatlas.org/13792/615_G3_3_red_green.jpg)
+![](https://images.proteinatlas.org/13792/621_G3_2_red_green.jpg)
+![](https://images.proteinatlas.org/13792/621_G3_3_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

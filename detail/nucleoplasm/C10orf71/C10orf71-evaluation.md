@@ -41,7 +41,7 @@ status: scored
 | Protein Atlas (IF) | Nucleoplasm; 额外: Mitochondria | Approved |
 | UniProt | Cytoplasm, myofibril, sarcomere, Z line | Swiss-Prot/TrEMBL |
 
-**IF 图像状态**: HPA未检测到可靠IF图像信号（image_status: no_image_detected）。核定位证据基于HPA subcellular localization注释、UniProt注释和GO-CC术语。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 **GO Cellular Component**:
 - Z disc (GO:0030018)
@@ -165,3 +165,14 @@ status: scored
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q711Q0
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Packet data timestamp: 2026-06-03 04:19:29
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000177354-C10orf71/subcellular
+
+![](https://images.proteinatlas.org/57556/1377_E4_1_red_green.jpg)
+![](https://images.proteinatlas.org/57556/1377_E4_2_red_green.jpg)
+![](https://images.proteinatlas.org/57556/1413_E12_1_red_green.jpg)
+![](https://images.proteinatlas.org/57556/1413_E12_3_red_green.jpg)
+![](https://images.proteinatlas.org/57556/1854_A3_2_red_green.jpg)
+![](https://images.proteinatlas.org/57556/1854_A3_4_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

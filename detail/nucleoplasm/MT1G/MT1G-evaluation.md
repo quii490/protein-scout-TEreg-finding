@@ -86,7 +86,7 @@ HPA IF 原图可获取。MT1G immunofluorescence shows the standard cytoplasmic 
 ### Experimental PDB Structures
 None (MT1G-specific). Homologous MT1A NMR structures applicable.
 
-**Structure Assessment**: High-quality AlphaFold model (pLDDT 86.7, 84.7% ordered). PAE 图像暂无数据。
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 ## 6. InterPro / Pfam Domains
 
@@ -180,3 +180,9 @@ MT1G fails on TWO fronts: the PubMed count (134) exceeds the novelty threshold, 
 - STRING: https://string-db.org/network/9606.ENSP00000246794
 
 **Re-evaluator's note**: The original rejection is confirmed and strengthened upon re-evaluation. MT1G has both excessive publication volume and marginal nuclear evidence. Among the MT1 family, this is one of the least favorable candidates for nuclear protein discovery. The liver-specific expression and hypoxia regulation are interesting biological features but are already well-characterized in the existing literature.
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-P13640-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

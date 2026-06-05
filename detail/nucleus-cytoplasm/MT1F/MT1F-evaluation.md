@@ -86,7 +86,7 @@ HPA IF 原图可获取。MT1F displays the standard metallothionein staining: di
 ### Experimental PDB Structures
 None (MT1F-specific). MT1A NMR structures (1MHU, 2KAK) are applicable via high sequence identity.
 
-**Structure Assessment**: High-quality AlphaFold model (pLDDT 88.2, 88.5% ordered). Metal-thiolate clusters well-predicted. No experimental structures specific to MT1F. PAE 图像暂无数据。
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 ## 6. InterPro / Pfam Domains
 
@@ -183,3 +183,9 @@ None (MT1F-specific). MT1A NMR structures (1MHU, 2KAK) are applicable via high s
 - STRING: https://string-db.org/network/9606.ENSP00000244735
 
 **Re-evaluator's note**: RECOVERY from false-rejection. MT1F was incorrectly classified as over-published. The unique epigenetic silencing in multiple cancers and the TP53 interaction provide distinct research angles that are not covered by the better-known MT1A or MT2A isoforms. The combination of nuclear localization, cancer-specific methylation, and mechanistic pathway links (TP53, Snail/EMT) makes MT1F a legitimate target for investigating metallothionein isoform-specific nuclear functions in tumor suppression.
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-P04733-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

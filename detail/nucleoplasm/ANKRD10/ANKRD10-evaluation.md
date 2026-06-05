@@ -24,7 +24,7 @@ Q9NXR5 | Ankyrin repeat domain-containing protein 10 | 420aa | pLDDT 63.7 | PM=4
 
 **UniProt**: Q9NXR5 — No annotated function (function empty). GO-CC: nucleoplasm (IDA:HPA) — single GO-CC entry with experimental evidence.
 
-**HPA IF 状态**: HPA IF 原图未可靠获取（HPA 检索页无可用的 subcellular IF 原图）。核定位基于 HPA localization/reliability + UniProt + GO-CC。
+**HPA IF 状态**: HPA subcellular IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 ### 核定位评定
 HPA 主定位 Nucleoplasm only (Supported)，无额外定位。UniProt GO-CC 仅有 nucleoplasm (IDA:HPA) 一条实验证据，UniProt subcellular_locations 为空。HPA 将 Nucleoplasm 列为主定位且无其他信号，核定位高度特异。唯一扣分在于 reliability 为 Supported（非 Approved）。评为 9/10。
@@ -52,3 +52,14 @@ STRING 请求失败（HTTP 502），无法获取 STRING 数据。IntAct: DPP9 (c
 
 ### 人工复核建议
 PubMed strict=4 表明该蛋白几乎未被专门研究，新颖性极高，但这也意味着缺乏功能验证实验。核定位基于 HPA IDA 证据，相对可靠。PPI 网络以 Y2H 筛选数据为主，需独立验证。建议作为高新颖性 nucleoplasm 候选保留，但需额外的细胞生物学表征。
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (supported)。来源: https://www.proteinatlas.org/ENSG00000088448-ANKRD10/subcellular
+
+![](https://images.proteinatlas.org/38878/716_H1_1_red_green.jpg)
+![](https://images.proteinatlas.org/38878/716_H1_3_red_green.jpg)
+![](https://images.proteinatlas.org/38878/719_H1_1_red_green.jpg)
+![](https://images.proteinatlas.org/38878/719_H1_2_red_green.jpg)
+![](https://images.proteinatlas.org/38878/764_H1_1_red_green.jpg)
+![](https://images.proteinatlas.org/38878/764_H1_2_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

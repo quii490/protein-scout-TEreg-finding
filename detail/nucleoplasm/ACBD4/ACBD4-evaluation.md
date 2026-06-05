@@ -55,9 +55,9 @@ nuclear_score: 6
 
 ## 3. HPA Immunofluorescence
 
-**HPA IF 原图未可靠获取（HPA 检索页无可用的 subcellular IF 原图）。核定位基于 HPA localization/reliability + UniProt + GO-CC。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
-The HPA subcellular page shows `no_image_detected` status. No curated IF display images are available. However, the "Approved" reliability tier is the most stringent HPA classification, suggesting that HPA's internal scoring of the IF data was consistent and unambiguous. The absence of curated images is a data presentation issue rather than an evidence quality issue, but it prevents independent verification of the nuclear signal.
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 ## 4. PubMed Literature Assessment
 
@@ -194,3 +194,14 @@ The HPA Approved reliability carries significant weight, but the biological cont
 **Re-evaluator's note**: This is a case where HPA evidence for nuclear localization is formally strong (Approved tier) but conflicts with biological knowledge. The protein is not described as nuclear in any functional study. The decision to retain or reject depends on the project's tolerance for unexpected localizations. For a conservative nuclear protein screen, rejection would be defensible. For a discovery-oriented screen, this protein is worth keeping for the unexpected HPA finding and the potential lipid-nucleus connection. Manual review of HPA IF raw data is essential before any downstream investment.
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000181513-ACBD4/subcellular
+
+![](https://images.proteinatlas.org/51772/1101_D2_5_red_green.jpg)
+![](https://images.proteinatlas.org/51772/1101_D2_6_red_green.jpg)
+![](https://images.proteinatlas.org/51772/1128_A9_4_red_green.jpg)
+![](https://images.proteinatlas.org/51772/1128_A9_5_red_green.jpg)
+![](https://images.proteinatlas.org/51772/1276_D6_4_red_green.jpg)
+![](https://images.proteinatlas.org/51772/1276_D6_7_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

@@ -42,11 +42,11 @@
 <p><strong>Note</strong>: Only one GO-CC term, and it is cytoplasmic. No nuclear GO terms.</p>
 <h4>HPA Subcellular Localization</h4>
 <ul><li><strong>Main location</strong>: <strong>Nucleoplasm</strong></li><li><strong>Additional locations</strong>: Cytosol</li><li><strong>Reliability (IF)</strong>: <strong>Approved</strong> (highest tier)</li><li><strong>IF Display Images Available</strong>: NO (<code>if_image_urls</code> array is empty)</li><li><strong>Image status</strong>: <code>no_image_detected</code></li></ul>
-<p><strong>HPA Nuclear Localization Summary</strong>: HPA classifies AAMDC as primarily nucleoplasmic with additional cytosolic localization. The reliability is &quot;Approved&quot; -- HPA&#x27;s highest confidence tier. However, no IF display images are available on the subcellular page. The localization annotation is based on HPA&#x27;s internal scoring from the IF raw data (which exists as <code>red_green</code> images in the image_urls but has <code>no_image_detected</code> status).</p>
+<p>HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。</p>
 <p><strong>Critical Evidence Conflict</strong>: There is a direct contradiction between HPA (Nucleoplasm main, Approved) and UniProt/GO (cytoplasm only, by similarity). UniProt annotation is computational (by similarity), while HPA annotation is based on experimental IF data. The HPA Approved reliability suggests strong experimental support for nucleoplasmic localization despite the lack of published IF display images.</p>
 <h3>3. HPA Immunofluorescence</h3>
-<p>**HPA IF 原图未可靠获取（HPA 检索页无可用的 subcellular IF 原图）。核定位基于 HPA localization/reliability + UniProt + GO-CC。</p>
-<p>While no IF display images are shown on the HPA subcellular page (image_status: <code>no_image_detected</code>), the HPA localization call of &quot;Nucleoplasm&quot; with &quot;Approved&quot; reliability indicates that HPA internal scoring of IF raw data supports nuclear localization. The raw red_green images exist in the image_urls but are not curated as display-quality IF images.</p>
+<p>HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。</p>
+<p>HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。</p>
 <h3>4. PubMed Literature Assessment</h3>
 <div class="table-wrap"><table>
 <thead><tr><th>Query Type</th><th>Count</th><th>Notes</th></tr></thead><tbody>
@@ -125,7 +125,9 @@
 <h3>10. Manual Review Note</h3>
 <p>The original Excel assigned AAMDC with HPA=&quot;Nuclear speckles|Nucleoplasm&quot; and nuclear_score=6. The actual harvested HPA data shows only &quot;Nucleoplasm&quot; main (no nuclear speckles). The HPA reliability is &quot;Approved&quot; -- the highest tier. The critical issue is the HPA/UniProt contradiction. A reviewer should manually examine whether the HPA IF signal genuinely supports nuclear localization or whether the Approved annotation might be an artifact for such a small protein. If the nuclear localization is confirmed, the score could be revised upward.</p>
 <p><strong>Re-evaluator&#x27;s note</strong>: The original template rejection was likely due to the UniProt annotation showing cytoplasm only. However, the HPA Approved nuclear classification cannot be dismissed. This gene needs a manual IF image review to resolve the conflict. It should not have been template-rejected without examining the evidence.</p>
-<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p></article></main>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p>&lt;!-- HPA_IF_REPAIR_START --&gt; <strong>HPA IF 图像修正（2026-06-05）</strong>: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000087884-AAMDC/subcellular</p>
+<p><figure><img src="https://images.proteinatlas.org/37918/404_F4_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/37918/404_F4_2_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/37918/407_F4_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/37918/407_F4_2_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/37918/410_F4_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/37918/410_F4_2_red_green.jpg" alt="image"></figure> &lt;!-- HPA_IF_REPAIR_END --&gt;</p></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

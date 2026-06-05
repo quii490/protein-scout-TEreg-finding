@@ -44,9 +44,9 @@
 <thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
 <tr><td>UniProt</td><td>Cytoplasm, cytoskeleton, microtubule organizing center, centrosome, centriole (ECO:0000269)</td><td>实验证据（初级定位）</td></tr>
 <tr><td>GO-CC</td><td>centriole (IDA); centrosome (IDA:HPA); cytoplasm (IDA); cytosol (IDA:HPA); extracellular exosome (HDA); nucleoplasm (IDA:HPA); sperm head-tail coupling apparatus (IEA)</td><td>nucleoplasm 有 IDA:HPA 实验证据</td></tr>
-<tr><td>HPA (IF)</td><td>页面含图像但无 IF 图像</td><td>无 IF 数据</td></tr>
+<tr><td>Protein Atlas (IF)</td><td>HPA subcellular IF 图像可用（见下方 HPA IF 图像修正块）</td><td>需人工复核</td></tr>
 </tbody></table></div>
-<p><strong>HPA IF 状态</strong>: IF thumbnail only — HPA 暂无 IF 原图，仅获取到 60x60 缩略图，不能作为可靠定位证据。核定位基于 UniProt + GO-CC。</p>
+<p><strong>HPA IF 状态</strong>: HPA subcellular IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。</p>
 <p><strong>结论</strong>: CNTLN 的核定位复杂。GO-CC 中有 nucleoplasm IDA:HPA 实验证据，但 UniProt Subcellular Location 仅记录 centrosome/centriole。核定位可能反映 HPA 在特定条件下的检测，而非稳态定位。</p>
 <h5>3.2 结构与结构域</h5>
 <div class="table-wrap"><table>
@@ -92,9 +92,12 @@
 <h4>4. 总体评价</h4>
 <p>CNTLN 是一个超大中心体蛋白，负责中心体 cohesion。GO nucleoplasm IDA:HPA 提示存在核定位，但需要以初级定位 centrosome/centriole 为背景理解。归一化总分 58.2/100。核定位置信度受 UniProt Subcellular Location 无 nucleus 记录的限制，建议将 CNTLN 作为低优先级 nucleoplasm 候选，后续如补 IF 原图确认核信号可提升定位置信度。</p>
 <h4>5. 数据来源</h4>
-<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9NXG0</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9NXG0</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CNTLN</li><li>Protein Atlas: https://www.proteinatlas.org/search/CNTLN（无 IF 图像）</li></ul>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9NXG0</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9NXG0</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CNTLN</li></ul>
+<p>HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。</p>
 <p><figure><img src="../../detail/nucleoplasm/CNTLN/CNTLN-PAE.png" alt="CNTLN-PAE.png"></figure></p>
-<p><figure><img src="../../detail/nucleoplasm/CNTLN/CNTLN-PAE.png" alt="CNTLN-PAE.png"></figure></p></article></main>
+<p><figure><img src="../../detail/nucleoplasm/CNTLN/CNTLN-PAE.png" alt="CNTLN-PAE.png"></figure></p>
+<p>&lt;!-- HPA_IF_REPAIR_START --&gt; <strong>HPA IF 图像修正（2026-06-05）</strong>: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Centrosome (supported)。来源: https://www.proteinatlas.org/ENSG00000044459-CNTLN/subcellular</p>
+<p><figure><img src="https://images.proteinatlas.org/7201/1595_H11_2_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/7201/1595_H11_3_red_green.jpg" alt="image"></figure> &lt;!-- HPA_IF_REPAIR_END --&gt;</p></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

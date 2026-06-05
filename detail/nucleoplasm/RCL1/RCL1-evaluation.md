@@ -41,7 +41,7 @@ status: scored
 | UniProt | Nucleus, nucleolus | Experimental evidence |
 | GO-CC | Nucleus (GO:0005634), Nucleolus (GO:0005730) | IBA, IEA |
 | GeneCards | Tier1 conserved, high confidence | High confidence |
-| HPA IF | Not available (pending cell analysis) | -- |
+| Protein Atlas (IF) | HPA subcellular IF 图像可用（见下方 HPA IF 图像修正块） | 需人工复核 |
 
 **HPA IF Status**: HPA IF original images not reliably obtained (HPA search page lacks usable subcellular IF original images). Nuclear localization assessment based on HPA localization/reliability + UniProt + GO-CC.
 
@@ -172,3 +172,14 @@ RCL1 is 373 amino acids, well within the ideal range for experimental characteri
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9Y2P8
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=RCL1
 - Note: Existing IF images and PAE available in vault directory
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000120158-RCL1/subcellular
+
+![](https://images.proteinatlas.org/71308/1357_A8_1_red_green.jpg)
+![](https://images.proteinatlas.org/71308/1357_A8_3_red_green.jpg)
+![](https://images.proteinatlas.org/71308/1359_A8_6_red_green.jpg)
+![](https://images.proteinatlas.org/71308/1359_A8_8_red_green.jpg)
+![](https://images.proteinatlas.org/71308/1510_E9_1_red_green.jpg)
+![](https://images.proteinatlas.org/71308/1510_E9_2_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

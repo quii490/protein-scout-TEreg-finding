@@ -27,7 +27,7 @@ status: rejected
 **详细理由**: PubMed 发表数 390 篇，超过 100 篇阈值，研究领域过于拥挤
 
 #
-> **Protein Atlas IF**: 暂无数据（Pending cell analysis），核定位基于 UniProt + GO。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 ## 3. 关键数据
 
@@ -43,3 +43,14 @@ status: rejected
 ### 4. 结论
 
 该基因不满足蛋白评估的基本筛选条件（PubMed ≤ 100 且核定位 > 3），予以淘汰。
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Golgi apparatus (enhanced)。来源: https://www.proteinatlas.org/ENSG00000110048-OSBP/subcellular
+
+![](https://images.proteinatlas.org/39227/460_C8_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39227/460_C8_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39227/465_C8_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39227/465_C8_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39227/467_C8_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39227/467_C8_2_blue_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

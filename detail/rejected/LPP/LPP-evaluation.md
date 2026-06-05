@@ -27,7 +27,7 @@ status: rejected
 **淘汰原因**: 研究新颖性不达标。PubMed 发表数 215 篇 > 100 篇阈值，该蛋白已被广泛研究，不符合「寻找新颖核蛋白」的核心目标。
 
 #
-> **Protein Atlas IF**: 暂无数据（Pending cell analysis），核定位基于 UniProt + GO。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 ## 3. 补充说明
 
@@ -37,3 +37,14 @@ status: rejected
 
 ### 4. 数据来源
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=LPP%5BTitle/Abstract%5D
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Focal adhesion sites (approved)。来源: https://www.proteinatlas.org/ENSG00000145012-LPP/subcellular
+
+![](https://images.proteinatlas.org/11133/108_A8_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/11133/108_A8_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/11133/2120_B6_19_blue_red_green.jpg)
+![](https://images.proteinatlas.org/11133/2120_B6_7_blue_red_green.jpg)
+![](https://images.proteinatlas.org/11133/2133_B11_12_blue_red_green.jpg)
+![](https://images.proteinatlas.org/11133/2133_B11_54_blue_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

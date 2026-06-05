@@ -39,7 +39,7 @@ status: scored
 | 来源 | 定位 | 可信度 |
 |------|------|--------|
 | GeneCards | Tier1_保守_高置信度 | 高置信度保守 |
-| HPA IF | 暂无数据（待细胞分析），核定位基于 UniProt + GO 注释 | -- |
+| Protein Atlas (IF) | HPA subcellular IF 图像可用（见下方 HPA IF 图像修正块） | 需人工复核 |
 | UniProt | Nucleus | 实验证据/预测 |
 | GO-CC | N/A | N/A |
 
@@ -171,6 +171,13 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/VENTX/VENTX-PAE.png]]
 
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoli fibrillar center (approved)。来源: https://www.proteinatlas.org/ENSG00000151650-VENTX/subcellular
 
-
-
+![](https://images.proteinatlas.org/50955/1431_B4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/50955/1431_B4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/50955/1525_F6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/50955/1525_F6_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/50955/2155_F4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/50955/2155_F4_2_blue_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

@@ -31,7 +31,7 @@
 - **Reliability (IF):** Approved
 - **Main Location:** Nuclear speckles
 - **Additional:** None
-- **IF Image Status:** no_image_detected (red_green images available via image_urls)
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 - **Key Finding:** Nuclear speckles -- canonical subnuclear compartment for pre-mRNA splicing factors.
 
 ### UniProt Subcellular Location
@@ -149,3 +149,14 @@ Score: 118/180. RSRC1 is a nuclear speckle splicing factor with transcription re
 
 ## Manual Review Note
 MODERATE CANDIDATE. RSRC1 (SRRP53) is an SR-related protein that localizes to nuclear speckles and participates in pre-mRNA splicing and transcription regulation. Key strengths: HPA Approved nuclear speckle localization, strong spliceosome PPI network (PRPF8, SNW1, SRPK1/2), chromatin connections (JMJD6, ESR1), SUMOylation-dependent regulatory activity. Key weakness: very low structural confidence (mean pLDDT 58.4) suggesting substantial disorder. Retained for splicing/transcription regulatory potential.
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nuclear speckles (approved)。来源: https://www.proteinatlas.org/ENSG00000174891-RSRC1/subcellular
+
+![](https://images.proteinatlas.org/44792/522_C1_1_red_green.jpg)
+![](https://images.proteinatlas.org/44792/522_C1_2_red_green.jpg)
+![](https://images.proteinatlas.org/44792/527_C1_1_red_green.jpg)
+![](https://images.proteinatlas.org/44792/527_C1_2_red_green.jpg)
+![](https://images.proteinatlas.org/44792/529_C1_1_red_green.jpg)
+![](https://images.proteinatlas.org/44792/529_C1_2_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

@@ -31,7 +31,7 @@
 - **Reliability (IF):** Supported
 - **Main Location:** Nucleoplasm
 - **Additional:** None
-- **IF Image Status:** no_image_detected (red_green images available via image_urls)
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 - **Key Finding:** Nucleoplasm (Supported). Consistent with DNA repair function.
 
 ### UniProt Subcellular Location
@@ -140,3 +140,14 @@ Score: 98/180. SLX1B has good nuclear evidence and reasonable structural confide
 
 ## Manual Review Note
 CONFIRMED REJECTION. SLX1B is one of two human SLX1 paralogs (SLX1A and SLX1B) that partner with SLX4 to form structure-specific endonucleases resolving Holliday junctions. Its function is in DNA repair/recombination, not chromatin/transcriptional regulation. Note: SLX1B is located in the 16p11.2 CNV region, which may explain its presence in GWAS/disease studies. The SLX1-SLX4 complex is well-characterized in yeast but human SLX1B-specific literature is extremely sparse. Not suitable for TE investigation.
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (supported)。来源: https://www.proteinatlas.org/ENSG00000181625-SLX1B/subcellular
+
+![](https://images.proteinatlas.org/47038/739_B7_1_red_green.jpg)
+![](https://images.proteinatlas.org/47038/739_B7_2_red_green.jpg)
+![](https://images.proteinatlas.org/47038/753_B7_1_red_green.jpg)
+![](https://images.proteinatlas.org/47038/753_B7_2_red_green.jpg)
+![](https://images.proteinatlas.org/47038/864_E6_1_red_green.jpg)
+![](https://images.proteinatlas.org/47038/864_E6_2_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

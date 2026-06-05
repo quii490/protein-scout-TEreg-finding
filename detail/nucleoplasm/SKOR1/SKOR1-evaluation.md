@@ -31,7 +31,7 @@
 - **Reliability (IF):** Approved
 - **Main Location:** Nucleoplasm
 - **Additional:** None
-- **IF Image Status:** no_image_detected (red_green images available via image_urls)
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 - **Key Finding:** HPA nucleoplasm (Approved). Consistent with transcriptional corepressor function.
 
 ### UniProt Subcellular Location
@@ -149,3 +149,14 @@ Score: 113/180. SKOR1 is a SKI family transcriptional corepressor with HPA Appro
 
 ## Manual Review Note
 STRONG CANDIDATE. SKOR1 (CORL1/LBXCOR1) is a SKI family transcriptional corepressor that interacts with HDAC1, establishing a direct link to histone deacetylation-mediated gene repression. The SKI protein family (SKI, SKIL/SNO) is well-characterized for transcriptional repression. SKOR1 acts as a corepressor for LBX1 and inhibits BMP signaling. The HDAC1 interaction (PMID:15528197) and TLE1/CTBP1 corepressor network strongly support a chromatin-level regulatory role. Despite very poor structural data (mean pLDDT 54.1) -- common for transcriptional regulators with disordered activation/repression domains -- the functional evidence is compelling. Prioritized for TE investigation.
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000188779-SKOR1/subcellular
+
+![](https://images.proteinatlas.org/40673/2062_A2_2_red_green.jpg)
+![](https://images.proteinatlas.org/40673/2062_A2_3_red_green.jpg)
+![](https://images.proteinatlas.org/40673/418_F1_1_red_green.jpg)
+![](https://images.proteinatlas.org/40673/418_F1_2_red_green.jpg)
+![](https://images.proteinatlas.org/40673/424_F1_1_red_green.jpg)
+![](https://images.proteinatlas.org/40673/424_F1_2_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

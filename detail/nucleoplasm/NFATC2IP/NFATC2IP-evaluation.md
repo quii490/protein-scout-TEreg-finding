@@ -30,7 +30,7 @@
 - **Status:** hpa_localization_available
 - **Reliability (IF):** Approved
 - **Main Location:** Nucleoplasm
-- **IF Image Status:** no_image_detected
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 - **Nuclear-relevant locations:** Nucleoplasm
 
 ### UniProt Subcellular Location
@@ -183,3 +183,14 @@ The protein functions primarily in: In T-helper 2 (Th2) cells, regulates the mag
 The false rejection may have resulted from automated scoring thresholds. 
 The nuclear evidence, while present, is not overwhelming. 
 NFATC2IP should be reevaluated in the context of broader TE biology hypotheses.
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000176953-NFATC2IP/subcellular
+
+![](https://images.proteinatlas.org/53587/849_G5_1_red_green.jpg)
+![](https://images.proteinatlas.org/53587/849_G5_2_red_green.jpg)
+![](https://images.proteinatlas.org/53587/869_G5_1_red_green.jpg)
+![](https://images.proteinatlas.org/53587/869_G5_2_red_green.jpg)
+![](https://images.proteinatlas.org/53587/885_G5_1_red_green.jpg)
+![](https://images.proteinatlas.org/53587/885_G5_2_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

@@ -37,7 +37,7 @@ status: scored
 **IF 图像**: 暂无HPA数据:
 
 >
-> **Protein Atlas IF**: 暂无数据（Pending cell analysis），核定位基于 UniProt + GO。SHLD1 定位于 Chromosome / DSB site。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 #### 3.1 核定位证据
 
@@ -205,3 +205,14 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/chromatin/SHLD1/SHLD1-PAE.png]]
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Endoplasmic reticulum (approved)。来源: https://www.proteinatlas.org/ENSG00000171984-SHLD1/subcellular
+
+![](https://images.proteinatlas.org/40749/411_F8_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40749/411_F8_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40749/415_F8_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40749/415_F8_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40749/416_F8_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40749/416_F8_2_blue_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

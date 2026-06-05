@@ -32,7 +32,7 @@
 </tbody></table></div>
 <p><strong>UniProt</strong>: 数据获取失败（URLError: EOF occurred in violation of protocol）。UniProt accession Q92625 来自 HPA 数据，但抓取过程中 SSL 连接错误导致 UniProt 注释不可用。以下评估基于 HPA、STRING、IntAct 和 PubMed 数据。</p>
 <p><strong>AlphaFold</strong>: 未找到 AF 条目（AlphaFold DB 查询返回 found=false）。可能因为基因名/accession 映射问题或该蛋白未被 AlphaFold 收录。</p>
-<p><strong>HPA IF 状态</strong>: HPA IF 原图未可靠获取（HPA 检索页无可用的 subcellular IF 原图）。核定位基于 HPA localization/reliability（UniProt 数据不可用）。</p>
+<p><strong>HPA IF 状态</strong>: HPA subcellular IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。</p>
 <h4>核定位评定</h4>
 <p>HPA 主定位 Nucleoplasm (Approved)，额外定位 Cytosol。UniProt 数据不可用，无法获得 GO-CC 或 UniProt subcellular 注释的独立验证。HPA IF reliability 为 Approved 级别，Nucleoplasm 列为主定位，提供核定位的主要证据。因缺乏 Orthogonal 验证来源，评为 8/10（保守）。</p>
 <h4>蛋白大小</h4>
@@ -48,7 +48,9 @@
 <h4>关键文献</h4>
 <ul><li>PMID 38123547: ANKS1A regulates LRP1-mediated cerebrovascular clearance in brain endothelial cells (Nat Commun, 2023)</li><li>PMID 33504787: Molecular dynamics of subdistal appendages in multi-ciliated cells (Nat Commun, 2021)</li><li>PMID 27802842: Defective Anks1a disrupts export of RTKs from ER (BMB Rep, 2016)</li></ul>
 <h4>人工复核建议</h4>
-<p><strong>重要提醒</strong>：该蛋白的 UniProt 和 AlphaFold 数据均未能获取。这是 15 个基因中唯一双缺失的情况，评估可靠性受限制。建议：(1) 重新尝试 UniProt API 获取 Q92625 数据；(2) 在 AlphaFold DB 中通过 accession Q92625 手动搜索；(3) 14-3-3 蛋白家族互作（YWHAG/YWAHZ/YWHAQ/YWHAB）是潜在的调控机制入口。若结构数据补全后，该蛋白的 SAM + PTB 信号适配架构在纤毛生物学和受体转运中具有研究价值。</p></article></main>
+<p><strong>重要提醒</strong>：该蛋白的 UniProt 和 AlphaFold 数据均未能获取。这是 15 个基因中唯一双缺失的情况，评估可靠性受限制。建议：(1) 重新尝试 UniProt API 获取 Q92625 数据；(2) 在 AlphaFold DB 中通过 accession Q92625 手动搜索；(3) 14-3-3 蛋白家族互作（YWHAG/YWAHZ/YWHAQ/YWHAB）是潜在的调控机制入口。若结构数据补全后，该蛋白的 SAM + PTB 信号适配架构在纤毛生物学和受体转运中具有研究价值。</p>
+<p>&lt;!-- HPA_IF_REPAIR_START --&gt; <strong>HPA IF 图像修正（2026-06-05）</strong>: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000064999-ANKS1A/subcellular</p>
+<p><figure><img src="https://images.proteinatlas.org/36768/403_B4_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/36768/403_B4_2_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/36768/406_B4_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/36768/406_B4_2_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/36768/408_B4_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/36768/408_B4_2_red_green.jpg" alt="image"></figure> &lt;!-- HPA_IF_REPAIR_END --&gt;</p></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

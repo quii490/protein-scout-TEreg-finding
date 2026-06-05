@@ -42,7 +42,7 @@ status: rejected
 | Protein Atlas (IF) | Cytosol; 额外: Nucleoplasm | Supported |
 | UniProt | Cytoplasm | Swiss-Prot/TrEMBL |
 
-**IF 图像说明**: HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。
+**IF 图像说明**: HPA subcellular IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；核定位仍结合 HPA reliability、UniProt 和 GO-CC 综合判断。
 
 **GO Cellular Component**:
 - cytosol (GO:0005829)
@@ -180,3 +180,14 @@ status: rejected
 
 ---
 *本报告为全量重评估 (Full Re-evaluation) -- Recovery from false-rejection。所有评分基于最新harvest packet数据，使用标准/180评分体系计算。*
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Cytosol (supported)。来源: https://www.proteinatlas.org/ENSG00000124588-NQO2/subcellular
+
+![](https://images.proteinatlas.org/21332/189_A7_1_red_green.jpg)
+![](https://images.proteinatlas.org/21332/189_A7_2_red_green.jpg)
+![](https://images.proteinatlas.org/21332/190_A7_1_red_green.jpg)
+![](https://images.proteinatlas.org/21332/190_A7_2_red_green.jpg)
+![](https://images.proteinatlas.org/21332/191_A7_1_red_green.jpg)
+![](https://images.proteinatlas.org/21332/191_A7_2_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

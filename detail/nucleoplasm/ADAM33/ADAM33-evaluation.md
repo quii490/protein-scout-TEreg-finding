@@ -82,7 +82,7 @@ status: rejected
 | 有序区域 (pLDDT>70) 占比 | 71.3% |
 | 可用 PDB 条目 | 1R54, 1R55 |
 
-**PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。**
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 **评价**: PDB实验结构（1R54, 1R55）+ AlphaFold高质量预测（pLDDT=75.3），结构可信度高。
 
@@ -165,3 +165,9 @@ status: rejected
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9BZ11
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Packet data timestamp: 2026-06-03 02:50:52
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-Q9BZ11-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

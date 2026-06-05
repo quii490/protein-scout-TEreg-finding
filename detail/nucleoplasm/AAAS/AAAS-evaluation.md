@@ -60,7 +60,7 @@ nuclear_score: 6
   - `2267_H3_63_blue_red_green.jpg`
   - `2267_H3_88_blue_red_green.jpg`
 - **Image status**: `if_display_images_available`
-- **HPA IF 原图未可靠获取**（subcellular IF 原图未从 HPA 页面可靠下载，仅有 display image 列表）。核定位基于 HPA localization/reliability + UniProt + GO-CC。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 **HPA Nuclear Localization Summary**: HPA IF staining shows AAAS primarily at the nuclear membrane, consistent with its role as a nuclear pore complex component. Additional nucleoplasmic signal is also observed. The reliability is "Supported" -- the second highest HPA reliability tier. Nuclear localization is well-established by HPA experimental data.
 
@@ -237,3 +237,12 @@ However, PubMed counts are inflated by the AAA/abdominal aortic aneurysm abbrevi
 **Exception type**: PUBMED_ALIAS_COLLISION_FORCED_REJECTION
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nuclear membrane (supported)。来源: https://www.proteinatlas.org/ENSG00000094914-AAAS/subcellular
+
+![](https://images.proteinatlas.org/40086/2239_B4_19_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40086/2239_B4_26_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40086/2267_H3_63_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40086/2267_H3_88_blue_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

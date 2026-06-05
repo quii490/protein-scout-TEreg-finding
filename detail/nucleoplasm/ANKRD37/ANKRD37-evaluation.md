@@ -24,7 +24,7 @@ Q7Z713 | Ankyrin repeat domain-containing protein 37 | 158aa | pLDDT 72.3 | PM=2
 
 **UniProt**: Q7Z713 — Nucleus (ECO:0000269 PubMed), Cytoplasm (ECO:0000269 PubMed). GO-CC: cytoplasm (IBA:GO_Central), cytosol (IDA:HPA), male germ cell nucleus (IEA:Ensembl), mitochondrion (IDA:HPA), nucleoplasm (IDA:HPA). Alias: LPR2BP.
 
-**HPA IF 状态**: HPA IF 原图未可靠获取（HPA 检索页无可用的 subcellular IF 原图）。核定位基于 HPA localization/reliability + UniProt + GO-CC。
+**HPA IF 状态**: HPA subcellular IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 ### 核定位评定
 HPA 主定位 Nucleoplasm 与 Cytosol 双定位 (Supported)，无额外定位。UniProt 明确注释 Nucleus (ECO:0000269 PubMed) 与 Cytoplasm，GO-CC 包含 nucleoplasm (IDA:HPA) 和 male germ cell nucleus (IEA:Ensembl)。核定位证据来自 UniProt PubMed 实验证据和 HPA IDA 级别注释，但 Cytosol 共主定位和 Supported reliability 降低了特异性。评为 7/10。
@@ -52,3 +52,14 @@ STRING: FEM1B (0.719, exp 0.095+textmining 0.698)、BNIP3 (0.593, textmining 0.5
 
 ### 人工复核建议
 缺氧生物学是该蛋白最清晰的功能场景。HIF1AN（HIF 羟化酶抑制因子）的 7 次实验验证互作特别值得关注，提示 ANKRD37 可能参与 HIF 通路的反馈调控。NF-kB 通路互作（子痫前期研究）扩展了其功能范围。158 aa 的小尺寸使其成为良好的结构生物学和生化研究对象。推荐作为中优先级候选。
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (supported)。来源: https://www.proteinatlas.org/ENSG00000186352-ANKRD37/subcellular
+
+![](https://images.proteinatlas.org/58127/1191_C4_1_red_green.jpg)
+![](https://images.proteinatlas.org/58127/1191_C4_2_red_green.jpg)
+![](https://images.proteinatlas.org/58127/1194_C4_3_red_green.jpg)
+![](https://images.proteinatlas.org/58127/1194_C4_4_red_green.jpg)
+![](https://images.proteinatlas.org/58127/1248_H10_1_red_green.jpg)
+![](https://images.proteinatlas.org/58127/1248_H10_2_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

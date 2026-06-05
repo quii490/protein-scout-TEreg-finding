@@ -41,7 +41,7 @@ status: scored
 | Protein Atlas (IF) | Nucleoplasm; 额外: Cytosol | Supported |
 | UniProt | 无注释 | Swiss-Prot/TrEMBL |
 
-**IF 图像状态**: HPA未检测到可靠IF图像信号（image_status: no_image_detected）。核定位证据基于HPA subcellular localization注释、UniProt注释和GO-CC术语。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 **GO Cellular Component**:
 - 无 GO-CC 注释
@@ -172,3 +172,14 @@ status: scored
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9BPX7
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Packet data timestamp: 2026-06-03 04:26:38
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (supported)。来源: https://www.proteinatlas.org/ENSG00000136197-C7orf25/subcellular
+
+![](https://images.proteinatlas.org/20120/177_H8_1_red_green.jpg)
+![](https://images.proteinatlas.org/20120/177_H8_2_red_green.jpg)
+![](https://images.proteinatlas.org/20120/178_H8_1_red_green.jpg)
+![](https://images.proteinatlas.org/20120/178_H8_2_red_green.jpg)
+![](https://images.proteinatlas.org/20120/247_H8_1_red_green.jpg)
+![](https://images.proteinatlas.org/20120/247_H8_2_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

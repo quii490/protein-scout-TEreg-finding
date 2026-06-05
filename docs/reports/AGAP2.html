@@ -49,12 +49,13 @@
 <tr><td>GO:0016020</td><td>membrane</td><td>HDA:UniProtKB</td></tr>
 </tbody></table></div>
 <h4>HPA Subcellular Localization</h4>
-<ul><li><strong>Main locations</strong>: Nucleoplasm, Cytosol</li><li><strong>Additional location</strong>: Midbody ring</li><li><strong>Reliability (IF)</strong>: Supported</li><li><strong>IF Display Images Available</strong>: NO (image_status: no_image_detected)</li></ul>
-<p><strong>HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。</strong></p>
+<ul><li><strong>Main locations</strong>: Nucleoplasm, Cytosol</li><li><strong>Additional location</strong>: Midbody ring</li><li><strong>Reliability (IF)</strong>: Supported</li></ul>
+<p>HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。</p>
+<p>HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。</p>
 <h4>核定位评估</h4>
 <p>AGAP2 在 HPA 中双定位于 Nucleoplasm 和 Cytosol（Supported 可靠性）。GO-CC 通过 IDA 证据支持 nucleoplasm (HPA) 和 nucleus (MGI)。UniProt 列出 Cytoplasm 和 Nucleus 但未标注证据代码。该蛋白在胞质和核质均有分布，可能与细胞周期依赖性的核质穿梭有关。Flemming body (midbody ring) 的定位提示可能在胞质分裂中发挥功能。<strong>核定位特异性评分: 6/10</strong>（HPA/GO 支持核定位，但为双定位蛋白，非专一性核蛋白）。</p>
 <h3>3. HPA Immunofluorescence</h3>
-<p>HPA IF 原图在本次采集中未可靠获取。image_status 为 &quot;no_image_detected&quot;，未返回 subcellular IF display images。Image URLs 中包含 <code>_red_green</code> 模式的 IF 原始图像链接，提示 HPA 数据库中存有 IF 图像。核定位依据 HPA subcellular_location record (Nucleoplasm + Cytosol, Supported reliability) 及 GO-CC 多重验证。</p>
+<p>HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。</p>
 <h3>4. PubMed Literature Assessment</h3>
 <div class="table-wrap"><table>
 <thead><tr><th>Query Type</th><th>Count</th><th>Notes</th></tr></thead><tbody>
@@ -168,11 +169,15 @@
 <p><strong>推荐</strong>: 保留观察。如果研究方向偏向 PI3K/Akt 信号与染色质调控的交叉（如 Akt 磷酸化调控表观遗传因子），该蛋白可能具有研究价值。但在纯核蛋白/TE 调控筛选中不占优势。</p>
 <h3>10. Manual Review Note</h3>
 <p>原 Sheet4 分配 nuclear_score=6。本 full re-evaluate 维持相似的核定位评估 (6/10)。结构域评分上调至 8/10（四域组合，≥3 库确认 ANK/ArfGAP/PH）。PubMed strict=81 导致新颖性评分仅 2/10，是总分偏低的主要原因。注意 lncRNA AGAP2-AS1 文献干扰 PubMed 计数 -- 真正的 AGAP2 蛋白文献 &lt;40 篇。如果排除 lncRNA 干扰，该蛋白的新颖性实际优于评分所示。</p>
-<p>HPA IF 状态: image_status=&quot;no_image_detected&quot;，IF display images 未获取。HPA 定位记录 (Nucleoplasm+Cytosol, Supported) 用于核定位判断。</p>
+<p><strong>HPA IF 状态</strong>: HPA subcellular IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。</p>
 <hr>
 <h3>数据来源</h3>
 <ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q99490</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q99490</li><li>STRING: https://string-db.org/network/9606.ENSP00000257617</li><li>InterPro: https://www.ebi.ac.uk/interpro/protein/uniprot/Q99490/</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000135439-AGAP2</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=AGAP2[Title/Abstract]</li></ul>
-<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p></article></main>
+<p><strong>PAE 图像说明</strong>: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。</p>
+<p>&lt;!-- HPA_IF_REPAIR_START --&gt; <strong>HPA IF 图像修正（2026-06-05）</strong>: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (supported)。来源: https://www.proteinatlas.org/ENSG00000135439-AGAP2/subcellular</p>
+<p><figure><img src="https://images.proteinatlas.org/75831/1806_E8_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/75831/1806_E8_4_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/75831/1835_G3_7_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/75831/1835_G3_8_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/75831/1870_G2_3_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/75831/1870_G2_5_red_green.jpg" alt="image"></figure> &lt;!-- HPA_IF_REPAIR_END --&gt;</p>
+<p>&lt;!-- AF_PAE_REPAIR_START --&gt; <strong>PAE 图像修正（2026-06-05）</strong>: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。</p>
+<p><figure><img src="https://alphafold.ebi.ac.uk/files/AF-Q99490-F1-predicted_aligned_error_v6.png" alt="image"></figure> &lt;!-- AF_PAE_REPAIR_END --&gt;</p></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

@@ -50,15 +50,15 @@ nuclear_score: 6
 - **IF Display Images Available**: NO (`if_image_urls` array is empty)
 - **Image status**: `no_image_detected`
 
-**HPA Nuclear Localization Summary**: HPA classifies AAMDC as primarily nucleoplasmic with additional cytosolic localization. The reliability is "Approved" -- HPA's highest confidence tier. However, no IF display images are available on the subcellular page. The localization annotation is based on HPA's internal scoring from the IF raw data (which exists as `red_green` images in the image_urls but has `no_image_detected` status).
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 **Critical Evidence Conflict**: There is a direct contradiction between HPA (Nucleoplasm main, Approved) and UniProt/GO (cytoplasm only, by similarity). UniProt annotation is computational (by similarity), while HPA annotation is based on experimental IF data. The HPA Approved reliability suggests strong experimental support for nucleoplasmic localization despite the lack of published IF display images.
 
 ## 3. HPA Immunofluorescence
 
-**HPA IF 原图未可靠获取（HPA 检索页无可用的 subcellular IF 原图）。核定位基于 HPA localization/reliability + UniProt + GO-CC。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
-While no IF display images are shown on the HPA subcellular page (image_status: `no_image_detected`), the HPA localization call of "Nucleoplasm" with "Approved" reliability indicates that HPA internal scoring of IF raw data supports nuclear localization. The raw red_green images exist in the image_urls but are not curated as display-quality IF images.
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 ## 4. PubMed Literature Assessment
 
@@ -179,3 +179,14 @@ The original Excel assigned AAMDC with HPA="Nuclear speckles|Nucleoplasm" and nu
 **Re-evaluator's note**: The original template rejection was likely due to the UniProt annotation showing cytoplasm only. However, the HPA Approved nuclear classification cannot be dismissed. This gene needs a manual IF image review to resolve the conflict. It should not have been template-rejected without examining the evidence.
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000087884-AAMDC/subcellular
+
+![](https://images.proteinatlas.org/37918/404_F4_1_red_green.jpg)
+![](https://images.proteinatlas.org/37918/404_F4_2_red_green.jpg)
+![](https://images.proteinatlas.org/37918/407_F4_1_red_green.jpg)
+![](https://images.proteinatlas.org/37918/407_F4_2_red_green.jpg)
+![](https://images.proteinatlas.org/37918/410_F4_1_red_green.jpg)
+![](https://images.proteinatlas.org/37918/410_F4_2_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

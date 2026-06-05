@@ -40,7 +40,7 @@ status: scored
 | UniProt | Cytoplasm; Nucleus; Centrosome; Synapse; Presynaptic active zone; Synaptic vesicle | ECO:0000269 (实验) |
 | GO-CC | nucleoplasm (IDA:HPA), nucleus (IDA:UniProtKB), centrosome (ISS), distal axon (ISS) | IDA |
 
-**IF 图像**: HPA有IF展示图但检测为no_image_detected状态。Nucleoplasm为主定位(Protein Atlas annotation)。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 **结论**: BRSK1在HPA中被标记为主要定位于Nucleoplasm (Supported可靠性)，同时检测到Vesicles和Plasma membrane的附加定位。GO-CC的nucleoplasm拥有IDA:HPA实验证据。UniProt实验证据包含Nucleus(ECO:0000269)。但蛋白也在胞质、突触和中心体有明确分布(LKB1-AMPK家族脑特异性激酶，神经元功能和中心体复制均有角色)。核定位明确且为主定位，评分7分。
 
@@ -168,7 +168,24 @@ status: scored
 | HSD17B7 | IntAct | psi-mi:"MI:0397"(two hybrid ar |
 | SNCA | IntAct | psi-mi:"MI:0096"(pull down) |
 
-PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/BRSK1/BRSK1-PAE.png]]
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (supported)。来源: https://www.proteinatlas.org/ENSG00000160469-BRSK1/subcellular
+
+![](https://images.proteinatlas.org/21212/146_G7_1_red_green.jpg)
+![](https://images.proteinatlas.org/21212/146_G7_2_red_green.jpg)
+![](https://images.proteinatlas.org/21212/147_G7_1_red_green.jpg)
+![](https://images.proteinatlas.org/21212/147_G7_2_red_green.jpg)
+![](https://images.proteinatlas.org/21212/148_G7_1_red_green.jpg)
+![](https://images.proteinatlas.org/21212/148_G7_2_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-Q8TDC3-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

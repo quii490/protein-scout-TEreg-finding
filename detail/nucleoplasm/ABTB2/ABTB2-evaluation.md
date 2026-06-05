@@ -56,9 +56,9 @@ nuclear_score: 6
 
 ## 3. HPA Immunofluorescence
 
-**HPA IF 原图未可靠获取（HPA 检索页无可用的 subcellular IF 原图）。核定位基于 HPA localization/reliability + UniProt + GO-CC。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
-The HPA subcellular page shows `no_image_detected` status. No curated IF display images are available. The raw IF images (red_green format) exist in the image_urls but were not processed into display-quality images. The nuclear localization is based on HPA's internal IF scoring.
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 ## 4. PubMed Literature Assessment
 
@@ -206,3 +206,14 @@ The original Excel classified ABTB2 as HPA="Nuclear bodies|Nucleoplasm" with nuc
 **Re-evaluator's note**: This is a marginal case. The complete absence of any non-HPA nuclear data makes this one of the weakest nuclear candidates in the set. However, the BTB/POZ domain and Xpo1 interaction provide enough biological rationale to avoid outright rejection. A manual review of the raw HPA IF images would be valuable to confirm or refute the nucleoplasmic assignment. If confirmed, the protein's large size, multi-domain architecture, and cancer relevance could make it a worthwhile candidate.
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (supported)。来源: https://www.proteinatlas.org/ENSG00000166016-ABTB2/subcellular
+
+![](https://images.proteinatlas.org/20065/234_C3_1_red_green.jpg)
+![](https://images.proteinatlas.org/20065/234_C3_2_red_green.jpg)
+![](https://images.proteinatlas.org/20065/235_C3_1_red_green.jpg)
+![](https://images.proteinatlas.org/20065/235_C3_2_red_green.jpg)
+![](https://images.proteinatlas.org/20065/535_C3_1_red_green.jpg)
+![](https://images.proteinatlas.org/20065/535_C3_2_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

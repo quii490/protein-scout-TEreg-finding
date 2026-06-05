@@ -37,7 +37,7 @@
 <h4>多维度评分</h4>
 <div class="table-wrap"><table>
 <thead><tr><th>维度</th><th>得分</th><th>权重</th><th>加权</th><th>摘要</th></tr></thead><tbody>
-<tr><td>核定位特异性</td><td>7/10</td><td>×4</td><td>28</td><td>UniProt Nucleus/Nucleus speckle/Nucleoplasm (ECO:0000269) + GO-CC nucleoplasm IDA:UniProtKB + nuclear speck IDA:HPA + nucleus IDA:MGI。HPA检索页无可用的subcellular IF原图。</td></tr>
+<tr><td>Protein Atlas (IF)</td><td>HPA subcellular IF 图像可用（见下方 HPA IF 图像修正块）</td><td>需人工复核</td></tr>
 <tr><td>蛋白大小</td><td>2/10</td><td>×1</td><td>2</td><td>920 aa, 106.1 kDa。大型蛋白，AlphaFold预测77.0%残基pLDDT&lt;50，高度无序，不利于结构研究。</td></tr>
 <tr><td>研究新颖性</td><td>0/10</td><td>×5</td><td>0</td><td>PubMed strict=114 (query: &quot;BCLAF1&quot;[Title/Abstract] AND gene/protein/hydrolase)，broad=180。远超100篇上限，触发淘汰。</td></tr>
 <tr><td>三维结构</td><td>2/10</td><td>×3</td><td>6</td><td>PDB仅有7RJN(1.95A)和7RJR(1.45A)中330-339十肽片段，非全长结构。AlphaFold mean pLDDT=46.7，pct_gt_90仅1.4%，预测置信度极低。</td></tr>
@@ -116,13 +116,17 @@
 <p>5. <strong>PMID: 38805063</strong> — Chen J et al. (2024) &quot;CircZFR promotes colorectal cancer progression via stabilizing BCLAF1 and regulating the miR-3127-5p/RTKN2 axis.&quot; *Science China Life Sciences*. 环状RNA CircZFR稳定BCLAF1促进结直肠癌进展。</p>
 <hr>
 <h4>HPA IF 图像</h4>
-<p>HPA检索页无可用的subcellular IF原图。已验证的IF图像来自本地存档（U2OS细胞系）：</p>
+<p>HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。</p>
 <hr>
 <h4>最终决定</h4>
 <p><strong>REJECTED</strong> — PubMed strict count = 114，超过100篇研究新颖性上限。该基因已有大量文献积累（162篇含基因名Title/Abstract，180篇全字段检索），包括多条独立的肿瘤学信号通路研究（食管癌、肝癌、结直肠癌）。不符合低研究热度的目标蛋白筛选标准。</p>
 <hr>
 <h4>人工审核备注</h4>
-<ul><li>BCLAF1为Bcl-2家族相关转录因子，位于染色体6q23.3</li><li>核定位证据充分但蛋白高度无序（77%残基无序），结构研究困难</li><li>虽功能多样（凋亡调控、RNA加工、DNA损伤应答、染色质重塑），研究过于成熟</li><li>HPA无可靠subcellular IF原图可验证</li><li>自上次thin-reject后重新评估：harvest数据完整，但因PubMed&gt;100仍不符合筛选标准</li></ul></article></main>
+<ul><li>BCLAF1为Bcl-2家族相关转录因子，位于染色体6q23.3</li><li>核定位证据充分但蛋白高度无序（77%残基无序），结构研究困难</li><li>虽功能多样（凋亡调控、RNA加工、DNA损伤应答、染色质重塑），研究过于成熟</li></ul>
+<p>HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。</p>
+<ul><li>自上次thin-reject后重新评估：harvest数据完整，但因PubMed&gt;100仍不符合筛选标准</li></ul>
+<p>&lt;!-- HPA_IF_REPAIR_START --&gt; <strong>HPA IF 图像修正（2026-06-05）</strong>: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nuclear speckles (enhanced)。来源: https://www.proteinatlas.org/ENSG00000029363-BCLAF1/subcellular</p>
+<p><figure><img src="https://images.proteinatlas.org/27770/497_F10_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/27770/497_F10_2_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/27770/507_F10_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/27770/507_F10_2_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/27770/511_F10_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/27770/511_F10_2_red_green.jpg" alt="image"></figure> &lt;!-- HPA_IF_REPAIR_END --&gt;</p></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

@@ -33,7 +33,7 @@ status: rejected
 - **主要定位**：Plasma membrane
 - **附加定位**：Nucleoli
 - **可靠性**：Approved
-- **IF 图像状态**：HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 HPA Approved级别IF显示ADPRHL1主要定位于质膜，同时在核仁（Nucleoli）检测到附加信号。核仁是rRNA转录和核糖体生物发生的场所，这一附加定位提示ADPRHL1可能参与核仁相关的调控过程。但核仁仅为附加定位（非主要定位），信号强度未知。
 
@@ -126,7 +126,7 @@ IntAct仅收录1条互作记录：Cav3（Caveolin-3，肌肉特异性caveolin蛋
 | **加权总分** | | | **102/180** | |
 | **归一化总分 (÷1.83)** | | | **55.7/100** | |
 
-HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。
 
@@ -145,3 +145,14 @@ ADPRHL1通过核评分阈值的初步筛选（nuclear_score=6 > 3），但深度
 ## Manual Review Note
 
 ADPRHL1是5个基因中最矛盾的候选者——其新颖性（PubMed=10）和结构质量（pLDDT 93.8）在本批评估中名列第一，但核定位证据的跨数据库冲突也是本批最严重的。值得深思的是，心脏限制性表达蛋白很少同时具有核仁定位，这要么是HPA的假阳性信号（来自抗体交叉反应或固定伪影），要么提示该蛋白在心肌细胞中确实存在尚未被认识的核仁功能。考虑到该蛋白催化失活的特殊性，作为伪酶的支架/调控功能的假说颇具吸引力——类似于伪激酶在信号通路中的作用模式。然而，在缺乏独立核定位验证的情况下（如核质分离western blot、免疫电镜、或核定位序列的突变分析），当前的核定位证据强度不足以支撑高置信度的评估。如果该基因能通过后续实验证实其核仁定位的真实性，应大幅提升其优先级。目前建议保留在中低优先级候选池中。
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Plasma membrane (approved)。来源: https://www.proteinatlas.org/ENSG00000153531-ADPRHL1/subcellular
+
+![](https://images.proteinatlas.org/43951/1070_D2_1_red_green.jpg)
+![](https://images.proteinatlas.org/43951/1070_D2_2_red_green.jpg)
+![](https://images.proteinatlas.org/43951/1076_D2_1_red_green.jpg)
+![](https://images.proteinatlas.org/43951/1076_D2_2_red_green.jpg)
+![](https://images.proteinatlas.org/43951/1719_G7_17_cr5804b60cde478_red_green.jpg)
+![](https://images.proteinatlas.org/43951/1719_G7_3_cr5804b60255ac2_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

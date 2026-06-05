@@ -31,7 +31,7 @@
 - **Reliability (IF):** Supported
 - **Main Location:** Nucleoplasm
 - **Additional:** None
-- **IF Image Status:** no_image_detected (red_green images available via image_urls)
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 - **Key Finding:** Nucleoplasm (Supported). HPA IF images available but not flagged as display.
 
 ### UniProt Subcellular Location
@@ -141,3 +141,14 @@ Score: 89/180. RTRAF has good nuclear evidence (nucleoplasm, Supported), transcr
 
 ## Manual Review Note
 BORDERLINE CANDIDATE. RTRAF (C14orf166) is a poorly characterized RNA-binding protein with roles in Pol II transcription modulation, tRNA splicing, and cap-binding complex activity. The very low PubMed count (3 strict) indicates high novelty but also limited functional characterization. The protein is clearly nuclear (HPA Supported + UniProt experimental), but its regulatory function is indirect (RNA processing/transport rather than chromatin-level). Retained primarily for novelty and nuclear localization. May be downgraded upon further review.
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (supported)。来源: https://www.proteinatlas.org/ENSG00000087302-RTRAF/subcellular
+
+![](https://images.proteinatlas.org/39824/486_A2_1_red_green.jpg)
+![](https://images.proteinatlas.org/39824/486_A2_2_red_green.jpg)
+![](https://images.proteinatlas.org/39824/490_A2_1_red_green.jpg)
+![](https://images.proteinatlas.org/39824/490_A2_2_red_green.jpg)
+![](https://images.proteinatlas.org/39824/509_A2_1_red_green.jpg)
+![](https://images.proteinatlas.org/39824/509_A2_2_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

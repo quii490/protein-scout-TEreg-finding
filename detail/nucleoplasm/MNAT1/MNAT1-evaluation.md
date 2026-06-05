@@ -38,7 +38,7 @@ status: scored
 | 来源 | 定位 | 可信度 |
 |------|------|--------|
 | GeneCards | — | — |
-| Protein Atlas (IF) | 暂无数据（Pending cell analysis），核定位基于 UniProt + GO（TFIIH 转录/修复复合体） | — |
+| Protein Atlas (IF) | HPA subcellular IF 图像可用（见下方 HPA IF 图像修正块） | 需人工复核 |
 | UniProt | Nucleus (UniProt), GO: CAK-ERCC2 complex, TFIIH core/holo/K complex, nucleoplasm | Experimental/ECO evidence |
 
 **结论**: Nucleus (UniProt), GO: CAK-ERCC2 complex, TFIIH core/holo/K complex, nucleoplasm
@@ -173,3 +173,14 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/MNAT1/MNAT1-PAE.png]]
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (enhanced)。来源: https://www.proteinatlas.org/ENSG00000020426-MNAT1/subcellular
+
+![](https://images.proteinatlas.org/1154/169_D1_1_red_green.jpg)
+![](https://images.proteinatlas.org/1154/169_D1_2_red_green.jpg)
+![](https://images.proteinatlas.org/1154/170_D1_1_red_green.jpg)
+![](https://images.proteinatlas.org/1154/170_D1_2_red_green.jpg)
+![](https://images.proteinatlas.org/1154/171_D1_1_red_green.jpg)
+![](https://images.proteinatlas.org/1154/171_D1_2_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

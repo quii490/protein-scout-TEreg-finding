@@ -31,7 +31,7 @@
 - **Reliability (IF):** Enhanced
 - **Main Location:** Nucleoplasm
 - **Additional:** None
-- **IF Image Status:** no_image_detected (red_green images available via image_urls)
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 - **Key Finding:** HPA nucleoplasm (Enhanced reliability). Strong HPA evidence.
 
 ### UniProt Subcellular Location
@@ -148,3 +148,14 @@ Score: 121/180. SMCR8 has a documented nuclear chromatin association with transc
 
 ## Manual Review Note
 MODERATE CANDIDATE. SMCR8 is primarily known as the obligate partner of C9orf72 in a GEF complex regulating autophagy. However, SMCR8 has an independent nuclear function: it associates with chromatin and negatively regulates ULK1 and WIPI2 gene expression (PMID:28195531). This nuclear chromatin function is directly relevant to transcriptional regulation. The C9orf72 connection to ALS/FTD, where TE dysregulation is increasingly recognized, adds disease context relevance. The main limitation is that the nuclear function is less well-characterized than the cytoplasmic autophagy role. Retained for its chromatin association and transcriptional regulatory potential.
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (enhanced)。来源: https://www.proteinatlas.org/ENSG00000176994-SMCR8/subcellular
+
+![](https://images.proteinatlas.org/21557/189_D1_1_red_green.jpg)
+![](https://images.proteinatlas.org/21557/189_D1_2_red_green.jpg)
+![](https://images.proteinatlas.org/21557/190_D1_1_red_green.jpg)
+![](https://images.proteinatlas.org/21557/190_D1_2_red_green.jpg)
+![](https://images.proteinatlas.org/21557/191_D1_1_red_green.jpg)
+![](https://images.proteinatlas.org/21557/191_D1_2_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

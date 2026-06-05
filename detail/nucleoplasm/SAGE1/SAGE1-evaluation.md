@@ -31,7 +31,7 @@
 - **Reliability (IF):** Enhanced
 - **Main Location:** Nucleoplasm
 - **Additional:** Nuclear bodies
-- **IF Image Status:** no_image_detected (red_green images available via image_urls but not flagged)
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 - **Key Finding:** Nucleoplasm + nuclear bodies. Enhanced reliability. Very strong nuclear evidence.
 
 ### UniProt Subcellular Location
@@ -137,3 +137,14 @@ Score: 89/180. SAGE1 has strong nuclear evidence (HPA Enhanced) and Integrator c
 
 ## Manual Review Note
 BORDERLINE REJECTION. SAGE1 has one of the strongest HPA nuclear profiles in this batch (Enhanced reliability, nucleoplasm + nuclear bodies). The Integrator complex association is intriguing because the Integrator regulates snRNA processing and transcription. However, the complete absence of any annotated molecular function, extremely poor AF confidence (mean pLDDT 50.2), and lack of experimental interactions make this gene unsuitable for current pipeline inclusion. Flag for re-evaluation if functional characterization emerges. Cancer-testis antigens like SAGE1 may have reproductive-tissue-specific regulatory roles that remain undiscovered.
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (enhanced)。来源: https://www.proteinatlas.org/ENSG00000181433-SAGE1/subcellular
+
+![](https://images.proteinatlas.org/3033/1854_G8_4_red_green.jpg)
+![](https://images.proteinatlas.org/3033/1854_G8_5_red_green.jpg)
+![](https://images.proteinatlas.org/3033/4_H6_1_red_green.jpg)
+![](https://images.proteinatlas.org/3033/4_H6_2_red_green.jpg)
+![](https://images.proteinatlas.org/3033/5_H6_1_red_green.jpg)
+![](https://images.proteinatlas.org/3033/5_H6_2_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

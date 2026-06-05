@@ -33,8 +33,19 @@ rejection_reason: Nuclear localization <= 3
 **核定位评分为 0**: 蛋白无核定位证据，主要定位于其他区室。
 
 #
-> **Protein Atlas IF**: 暂无数据（Pending cell analysis），核定位基于 UniProt + GO。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 ## 3. 判定
 
 该基因核定位证据不足（评分 0/10 ≤ 3 分阈值），不满足核蛋白筛选基本条件，直接淘汰。
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoli rim (supported)。来源: https://www.proteinatlas.org/ENSG00000126749-EMG1/subcellular
+
+![](https://images.proteinatlas.org/39304/1336_A3_2_red_green.jpg)
+![](https://images.proteinatlas.org/39304/1336_A3_3_red_green.jpg)
+![](https://images.proteinatlas.org/39304/1525_E5_1_red_green.jpg)
+![](https://images.proteinatlas.org/39304/1525_E5_3_red_green.jpg)
+![](https://images.proteinatlas.org/39304/1888_F3_3_red_green.jpg)
+![](https://images.proteinatlas.org/39304/1888_F3_4_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

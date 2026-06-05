@@ -44,7 +44,7 @@ status: scored
 | GO-CC | PRC1 complex (GO:0035102) | ISS:UniProtKB |
 | HPA Reliability | Approved | IF images available |
 
-**HPA IF Status**: HPA IF images available (IF detection status: no_image_detected in harvest; HPA reliability: Approved). Subcellular location reported as Nucleoplasm (main) and Vesicles (additional).
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 **Manual Review Assessment**: SAMD11 is a component of the Polycomb group (PcG) multiprotein PRC1-like complex, which functions in the nucleus to establish and maintain gene silencing through chromatin modification. Its role in establishing rod photoreceptor cell identity by silencing non-rod gene expression is a nuclear transcriptional repression function. Multiple databases support nuclear localization (UniProt, HPA, GO-CC). The HPA annotation also includes Vesicles as an additional location, but Nucleoplasm is the main location with Approved reliability. Score 7/10 reflects strong multi-source nuclear consensus with minor uncertainty from the additional vesicular annotation. Well above the ≤3 rejection threshold.
 
@@ -161,3 +161,14 @@ SAMD11 has a moderate PPI network with 15+ Y2H-identified interactions and one c
 - STRING: https://string-db.org/network/9606.ENSG00000187634
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=SAMD11
 - Harvest packet: /Users/quii/Desktop/projects/TE-regulated proteins finding/protein_data/harvest_packets/SAMD11.json
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000187634-SAMD11/subcellular
+
+![](https://images.proteinatlas.org/30110/322_G9_1_red_green.jpg)
+![](https://images.proteinatlas.org/30110/322_G9_2_red_green.jpg)
+![](https://images.proteinatlas.org/30110/327_G9_1_red_green.jpg)
+![](https://images.proteinatlas.org/30110/327_G9_2_red_green.jpg)
+![](https://images.proteinatlas.org/30110/335_G9_2_red_green.jpg)
+![](https://images.proteinatlas.org/30110/335_G9_3_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

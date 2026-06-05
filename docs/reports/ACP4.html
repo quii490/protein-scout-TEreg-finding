@@ -33,7 +33,8 @@
 </tbody></table></div>
 <h3>核定位证据</h3>
 <h4>HPA 免疫荧光</h4>
-<ul><li><strong>主要定位</strong>：Plasma membrane</li><li><strong>附加定位</strong>：Nuclear bodies, Microtubules</li><li><strong>可靠性</strong>：Approved</li><li><strong>IF 图像状态</strong>：HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。</li></ul>
+<ul><li><strong>主要定位</strong>：Plasma membrane</li><li><strong>附加定位</strong>：Nuclear bodies, Microtubules</li><li><strong>可靠性</strong>：Approved</li></ul>
+<p>HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。</p>
 <p>HPA Approved级别免疫荧光将ACP4主要定位于质膜，同时检测到核体（Nuclear bodies）和微管的附加信号。Nuclear bodies是细胞核内的亚结构域（包括PML bodies、Cajal bodies等），提示该蛋白在特定条件下可能部分进入细胞核。但需要注意，其主要定位为质膜，核体仅为附加定位信号。</p>
 <h4>UniProt 亚细胞定位</h4>
 <ul><li><strong>Membrane</strong>（ECO:0000255，序列分析预测）</li></ul>
@@ -104,14 +105,16 @@
 <tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>90/180</strong></td><td></td></tr>
 <tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>49.2/100</strong></td><td></td></tr>
 </tbody></table></div>
-<p>HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。</p>
+<p>HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。</p>
 <p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
 <h3>最终决策</h3>
 <p><strong>Scored（低优先级，49.2/100）</strong></p>
 <p>ACP4通过核评分阈值的初步筛选（nuclear_score=4 &gt; 3），但全面评估显示其核定位证据强度有限。该蛋白本质为膜相关睾丸酸性磷酸酶，其主要功能在牙齿釉质形成中，亚细胞定位以质膜和溶酶体为主。HPA虽在核体（Nuclear bodies）检测到Approved级别的信号，但仅为附加定位，且UniProt、GO-CC均不支持核定位。</p>
 <p>有利因素包括：适中的蛋白大小（426 aa）、较高质量的AlphaFold结构（mean pLDDT 87.6）、以及中等研究热度（PubMed=22，核生物学方向未开发）。不利因素主要为核定位证据薄弱（仅HPA附加定位）和PPI证据几乎为零（全部为textmining共提及）。综合得分15.85属于低分区间，建议在优先候选蛋白评估完成后再考虑该基因。</p>
 <h3>Manual Review Note</h3>
-<p>ACP4作为睾丸酸性磷酸酶，传统认知为膜蛋白/分泌蛋白。HPA的Nuclear bodies信号可能反映：(1) 蛋白在生理条件下确实部分定位于核体，可能在特定核内过程中发挥未表征的非典型功能；(2) 抗体交叉反应或IF伪影，毕竟胞质/膜蛋白在固定后的染色有时会呈现核信号。鉴于GO-CC完全缺乏核术语、UniProt仅注释Membrane、且所有PPI证据均为textmining而非实验互作，保守判断其核定位可信度较低。如果后续能获得western blot核质分离或核定位序列预测的独立证据，可重新评估。目前建议以较低优先级保留在候选池中。</p></article></main>
+<p>ACP4作为睾丸酸性磷酸酶，传统认知为膜蛋白/分泌蛋白。HPA的Nuclear bodies信号可能反映：(1) 蛋白在生理条件下确实部分定位于核体，可能在特定核内过程中发挥未表征的非典型功能；(2) 抗体交叉反应或IF伪影，毕竟胞质/膜蛋白在固定后的染色有时会呈现核信号。鉴于GO-CC完全缺乏核术语、UniProt仅注释Membrane、且所有PPI证据均为textmining而非实验互作，保守判断其核定位可信度较低。如果后续能获得western blot核质分离或核定位序列预测的独立证据，可重新评估。目前建议以较低优先级保留在候选池中。</p>
+<p>&lt;!-- HPA_IF_REPAIR_START --&gt; <strong>HPA IF 图像修正（2026-06-05）</strong>: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Plasma membrane (approved)。来源: https://www.proteinatlas.org/ENSG00000142513-ACP4/subcellular</p>
+<p><figure><img src="https://images.proteinatlas.org/48882/2048_B5_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/48882/2048_B5_2_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/48882/2118_D2_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/48882/2118_D2_2_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/48882/2180_C2_4_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/48882/2180_C2_5_red_green.jpg" alt="image"></figure> &lt;!-- HPA_IF_REPAIR_END --&gt;</p></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

@@ -24,7 +24,7 @@ Q9BXX2 | Ankyrin repeat domain-containing protein 30B | 1392aa | pLDDT 51.6 | PM
 
 **UniProt**: Q9BXX2 — No annotated function, no subcellular locations, no GO-CC entries. UniProt annotation is minimal for this protein.
 
-**HPA IF 状态**: HPA IF 原图未可靠获取（HPA 检索页无可用的 subcellular IF 原图）。核定位基于 HPA localization/reliability + UniProt + GO-CC。
+**HPA IF 状态**: HPA subcellular IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 ### 核定位评定
 HPA 主定位 Nucleoli (Approved)，额外定位 Nucleoplasm。UniProt 无任何亚细胞定位注释，GO-CC 为空。HPA IF reliability 为 Approved，Nucleoli 主定位 + Nucleoplasm 额外定位提示该蛋白主要分布于核仁，部分定位于核质。核仁-核质双分布模式在大型 ANK 重复蛋白中较常见。因 Nucleoplasm 非主定位，评为 6/10。
@@ -52,3 +52,14 @@ STRING: ANKRD30A (0.492, exp 0.360)、ASB15 (0.511)、ANKRD39 (0.507)、NFKBIA (
 
 ### 人工复核建议
 UniProt 注释近乎空白（无功能、无定位、无 GO-CC），研究极度稀缺。核定位全部依赖 HPA IF (Approved)，UniProt 无独立验证。该蛋白在当前阶段的信息量极少，可能适合作为"探索性候选"，但不适合作为优先研究对象。若 HPA IF 原图可获取，建议核实核仁/核质信号的真实性。
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoli (approved)。来源: https://www.proteinatlas.org/ENSG00000180777-ANKRD30B/subcellular
+
+![](https://images.proteinatlas.org/43287/2058_E9_2_red_green.jpg)
+![](https://images.proteinatlas.org/43287/2058_E9_4_red_green.jpg)
+![](https://images.proteinatlas.org/43287/2089_C1_1_red_green.jpg)
+![](https://images.proteinatlas.org/43287/2089_C1_2_red_green.jpg)
+![](https://images.proteinatlas.org/43287/2142_G1_1_red_green.jpg)
+![](https://images.proteinatlas.org/43287/2142_G1_2_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

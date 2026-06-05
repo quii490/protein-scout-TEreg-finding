@@ -40,7 +40,7 @@ status: scored
 | GO-CC | cytoplasm IDA; cytosol TAS; nucleus IDA | Experimental |
 | Protein Atlas (IF) | HPA 暂无数据，未获取到 IF 图像或缩略图 | 未确认 |
 
-**HPA IF 状态**: HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。 — HPA 暂无数据，未获取到 IF 图像或缩略图。核定位基于 UniProt + GO-CC。定位置信度因缺少 IF 原图略降，但 UniProt/GO 的 nucleus IDA/ECO:0000269 支持其核-胞质定位。
+**HPA IF 状态**: HPA subcellular IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 #### 3.2 结构与结构域
 | 指标 | 数值 |
@@ -93,3 +93,14 @@ ACBD6 是有实验证据的核-胞质蛋白，主要功能偏脂质/蛋白 acyla
 
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleus-cytoplasm/ACBD6/ACBD6-PAE.png]]
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000230124-ACBD6/subcellular
+
+![](https://images.proteinatlas.org/28457/1466_A7_3_red_green.jpg)
+![](https://images.proteinatlas.org/28457/1466_A7_4_red_green.jpg)
+![](https://images.proteinatlas.org/28457/1520_A12_1_red_green.jpg)
+![](https://images.proteinatlas.org/28457/1520_A12_2_red_green.jpg)
+![](https://images.proteinatlas.org/28457/1521_A7_1_red_green.jpg)
+![](https://images.proteinatlas.org/28457/1521_A7_3_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

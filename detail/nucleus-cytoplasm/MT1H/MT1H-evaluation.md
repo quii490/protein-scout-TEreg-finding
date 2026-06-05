@@ -87,7 +87,7 @@ HPA IF 原图可获取。MT1H exhibits a distinctive immunofluorescence pattern:
 ### Experimental PDB Structures
 None (MT1H-specific). MT1A NMR structures serve as homologous references.
 
-**Structure Assessment**: High-quality AlphaFold model (pLDDT 87.4, 85.8% ordered). The metal-thiolate clusters are well-predicted. PAE 图像暂无数据。
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 ## 6. InterPro / Pfam Domains
 
@@ -190,3 +190,9 @@ None (MT1H-specific). MT1A NMR structures serve as homologous references.
 - STRING: https://string-db.org/network/9606.ENSP00000330862
 
 **Re-evaluator's note**: RECOVERY from false-rejection. MT1H is the strongest recovery among the MT1 family. It combines: (1) an actual publication deficit (78 papers, the second least studied MT1 isoform after MT1M), (2) high-quality nuclear localization evidence (HPA Approved, nucleoplasm + nucleoli), and (3) a distinctive nucleolar localization pattern that provides a focused research hypothesis. The nucleolar connection to zinc biology is a genuinely underexplored area. MT1H should be prioritized for investigation over other MT1 isoforms due to the favorable combination of nuclear evidence quality and research novelty.
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-P80294-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

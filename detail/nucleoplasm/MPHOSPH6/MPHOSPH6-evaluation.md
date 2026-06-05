@@ -30,7 +30,7 @@
 - **Status:** hpa_localization_available
 - **Reliability (IF):** Supported
 - **Main Location:** Nucleoplasm, Nucleoli
-- **IF Image Status:** no_image_detected
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 - **Nuclear-relevant locations:** Nucleoplasm, Nucleoli
 
 ### UniProt Subcellular Location
@@ -199,3 +199,14 @@ The protein functions primarily in: RNA-binding protein that associates with the
 The false rejection may have resulted from automated scoring thresholds. 
 The nuclear evidence, while present, is not overwhelming. 
 MPHOSPH6 should be reevaluated in the context of broader TE biology hypotheses.
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000135698-MPHOSPH6/subcellular
+
+![](https://images.proteinatlas.org/26948/604_D8_1_red_green.jpg)
+![](https://images.proteinatlas.org/26948/604_D8_2_red_green.jpg)
+![](https://images.proteinatlas.org/26948/607_D8_1_red_green.jpg)
+![](https://images.proteinatlas.org/26948/607_D8_2_red_green.jpg)
+![](https://images.proteinatlas.org/26948/609_D8_1_red_green.jpg)
+![](https://images.proteinatlas.org/26948/609_D8_2_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

@@ -41,7 +41,7 @@ status: scored
 | Protein Atlas (IF) | Nucleoplasm, Vesicles; 额外: Cytosol | Uncertain |
 | UniProt | Cytoplasm; Cytoplasm, cytoskeleton, microtubule organizing center, centrosome; Cytoplasm, cytoskelet... | Swiss-Prot/TrEMBL |
 
-**IF 图像状态**: HPA未检测到可靠IF图像信号（image_status: no_image_detected）。核定位证据基于HPA subcellular localization注释、UniProt注释和GO-CC术语。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 **GO Cellular Component**:
 - cell cortex (GO:0005938)
@@ -184,3 +184,14 @@ status: scored
 
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/FAM110A/FAM110A-PAE.png]]
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (uncertain)。来源: https://www.proteinatlas.org/ENSG00000125898-FAM110A/subcellular
+
+![](https://images.proteinatlas.org/69240/1324_G9_4_red_green.jpg)
+![](https://images.proteinatlas.org/69240/1324_G9_5_red_green.jpg)
+![](https://images.proteinatlas.org/69240/1325_G9_1_red_green.jpg)
+![](https://images.proteinatlas.org/69240/1325_G9_2_red_green.jpg)
+![](https://images.proteinatlas.org/69240/1547_F4_5_red_green.jpg)
+![](https://images.proteinatlas.org/69240/1547_F4_6_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

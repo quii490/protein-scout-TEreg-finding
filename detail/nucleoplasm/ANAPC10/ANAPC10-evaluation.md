@@ -41,7 +41,7 @@ status: scored
 | Protein Atlas (IF) | Nucleoplasm; 额外: Golgi apparatus | Approved |
 | UniProt | 暂无数据（UniProt获取失败） | 获取失败 |
 
-**IF 图像说明**: HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。
+**IF 图像说明**: HPA subcellular IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；核定位仍结合 HPA reliability、UniProt 和 GO-CC 综合判断。
 
 **GO Cellular Component**:
 - 无 GO-CC 注释 (UniProt未获取)
@@ -173,3 +173,14 @@ status: scored
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/ANAPC10
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Packet data timestamp: 2026-06-03 01:48:12
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000164162-ANAPC10/subcellular
+
+![](https://images.proteinatlas.org/44547/498_F7_1_red_green.jpg)
+![](https://images.proteinatlas.org/44547/498_F7_2_red_green.jpg)
+![](https://images.proteinatlas.org/44547/501_F7_1_red_green.jpg)
+![](https://images.proteinatlas.org/44547/501_F7_2_red_green.jpg)
+![](https://images.proteinatlas.org/44547/512_F7_1_red_green.jpg)
+![](https://images.proteinatlas.org/44547/512_F7_3_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

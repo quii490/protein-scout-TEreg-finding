@@ -30,7 +30,7 @@
 - **Reliability (IF):** Supported
 - **Main Location:** Nucleoli
 - **Additional Locations:** Nucleoplasm
-- **IF Image Status:** no_image_detected
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 - **Nuclear-relevant locations:** Nucleoplasm, Nucleoli
 
 ### UniProt Subcellular Location
@@ -188,3 +188,14 @@ The protein functions primarily in: Plays a role in regulating Notch activity. P
 The false rejection appears to have resulted from automated scoring that failed to adequately weight the nuclear evidence. 
 With only 14 publications, NLE1 represents a highly novel target. 
 The nuclear localization and functional profile make it a strong candidate for TE-regulatory investigation.
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoli (supported)。来源: https://www.proteinatlas.org/ENSG00000073536-NLE1/subcellular
+
+![](https://images.proteinatlas.org/18807/115_C2_1_red_green.jpg)
+![](https://images.proteinatlas.org/18807/115_C2_2_red_green.jpg)
+![](https://images.proteinatlas.org/18807/116_C2_1_red_green.jpg)
+![](https://images.proteinatlas.org/18807/116_C2_2_red_green.jpg)
+![](https://images.proteinatlas.org/18807/117_C2_1_red_green.jpg)
+![](https://images.proteinatlas.org/18807/117_C2_2_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

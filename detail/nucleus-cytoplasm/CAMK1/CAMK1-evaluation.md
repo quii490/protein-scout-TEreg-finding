@@ -39,7 +39,7 @@ PubMed strict: 53
 | GO-CC | cytoplasm (IBA); cytosol (TAS); nucleus (IEA); postsynaptic density (IBA) | nucleus 为电子注释预测 |
 | HPA (IF) | 有 IF 缩略图，原图未取得 | 间接支持 |
 
-**HPA IF 状态**: IF thumbnail only — HPA 暂无 IF 原图，仅获取到 60x60 缩略图，不能作为可靠定位证据。核定位基于 UniProt + GO-CC。
+**HPA IF 状态**: HPA subcellular IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 ![[Projects/TEreg-finding/protein-interested/detail/nucleus-cytoplasm/CAMK1/IF_images/CAMK1_IF_51409.jpg]]
 
 **结论**: CAMK1 核定位证据为预测级别，缺少实验赋值。但作为 CaM kinase，其底物包含转录因子（CREB1, ATF1）和 HDAC5（核质穿梭调控），功能上支持核-胞质定位。
@@ -116,4 +116,13 @@ HPA IF 图像已本地嵌入。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleus-cytoplasm/CAMK1/CAMK1-PAE.png]]
 
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Cytosol (approved)。来源: https://www.proteinatlas.org/ENSG00000134072-CAMK1/subcellular
 
+![](https://images.proteinatlas.org/51409/2166_H6_43_blue_red_green.jpg)
+![](https://images.proteinatlas.org/51409/2166_H6_8_blue_red_green.jpg)
+![](https://images.proteinatlas.org/51409/2185_G6_12_blue_red_green.jpg)
+![](https://images.proteinatlas.org/51409/2185_G6_24_blue_red_green.jpg)
+![](https://images.proteinatlas.org/51409/781_D4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/51409/781_D4_2_blue_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

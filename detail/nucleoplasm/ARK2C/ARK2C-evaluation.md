@@ -39,7 +39,7 @@ PubMed strict: 3
 | GO-CC | nucleus (IBA:GO_Central); protein-containing complex (IEA:Ensembl) | IBA 为系统发育推断 |
 | HPA (IF) | 有 IF 缩略图，原图未取得 | 间接支持 |
 
-**HPA IF 状态**: IF thumbnail only — HPA 暂无 IF 原图，仅获取到 60x60 缩略图，不能作为可靠定位证据。核定位基于 UniProt + GO-CC。
+**HPA IF 状态**: HPA subcellular IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 ![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/ARK2C/IF_images/ARK2C_IF_41615.jpg]]
 
 **结论**: ARK2C 核定位证据为预测级别（序列类比），缺少实验赋值（ECO:0000269/IDA）。核定位为低置信度。
@@ -111,4 +111,13 @@ HPA IF 图像已本地嵌入。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/ARK2C/ARK2C-PAE.png]]
 
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000141622-RNF165/subcellular
 
+![](https://images.proteinatlas.org/41615/1054_H2_1_red_green.jpg)
+![](https://images.proteinatlas.org/41615/1054_H2_2_red_green.jpg)
+![](https://images.proteinatlas.org/41615/486_G12_1_red_green.jpg)
+![](https://images.proteinatlas.org/41615/486_G12_2_red_green.jpg)
+![](https://images.proteinatlas.org/41615/490_G12_1_red_green.jpg)
+![](https://images.proteinatlas.org/41615/490_G12_2_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

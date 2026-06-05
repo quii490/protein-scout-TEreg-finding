@@ -31,7 +31,7 @@
 - **Reliability (IF):** Enhanced
 - **Main Location:** Nucleoplasm
 - **Additional:** Cytosol
-- **IF Image Status:** no_image_detected (red_green images available via image_urls)
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 - **Key Finding:** HPA detects nucleoplasm at Enhanced reliability. But this is discordant with UniProt and functional context.
 
 ### UniProt Subcellular Location
@@ -153,3 +153,14 @@ Score: 84/180. SPATA13 has discordant nuclear evidence (HPA nucleoplasm vs. no U
 
 ## Manual Review Note
 CONFIRMED REJECTION. SPATA13 (ASEF2) is a well-characterized RhoGEF containing DH-PH and SH3 domains. Its function is activation of small GTPases (CDC42, RAC1, RHOA) at the plasma membrane to regulate actin dynamics and cell migration. The APC interaction connects it to WNT pathway and colorectal cancer. The HPA nucleoplasm annotation at Enhanced reliability is discordant with the known biology -- RhoGEFs function at membranes, not in the nucleus. The absence of any UniProt nuclear annotation strongly suggests the HPA signal is non-specific or represents a minor/artifactual pool. Not suitable for TE investigation.
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (enhanced)。来源: https://www.proteinatlas.org/ENSG00000182957-SPATA13/subcellular
+
+![](https://images.proteinatlas.org/40185/461_C3_1_red_green.jpg)
+![](https://images.proteinatlas.org/40185/461_C3_4_red_green.jpg)
+![](https://images.proteinatlas.org/40185/462_C3_1_red_green.jpg)
+![](https://images.proteinatlas.org/40185/462_C3_2_red_green.jpg)
+![](https://images.proteinatlas.org/40185/464_C3_1_red_green.jpg)
+![](https://images.proteinatlas.org/40185/464_C3_2_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

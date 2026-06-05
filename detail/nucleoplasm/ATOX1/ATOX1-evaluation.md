@@ -44,7 +44,7 @@ status: rejected
 |------|------|--------|
 | Protein Atlas (IF) | Nucleoplasm; 额外: Nucleoplasm, Plasma membrane | Approved |
 
-**IF 图像说明**: HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。
+**IF 图像说明**: HPA subcellular IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；核定位仍结合 HPA reliability、UniProt 和 GO-CC 综合判断。
 
 **GO Cellular Component**:
 - cytosol (GO:0005829)
@@ -75,7 +75,7 @@ status: rejected
 
 **AlphaFold pLDDT 统计数据不可用（获取失败）。**
 
-**PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。**
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 **评价**: 三维结构数据有限。三维结构评分 1/10。
 
@@ -155,3 +155,20 @@ status: rejected
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/O00244
 - STRING: https://string-db.org/network/9606.ATOX1
 - Packet data timestamp: 2026-06-03 03:26:11
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000177556-ATOX1/subcellular
+
+![](https://images.proteinatlas.org/55036/875_H1_2_red_green.jpg)
+![](https://images.proteinatlas.org/55036/875_H1_3_red_green.jpg)
+![](https://images.proteinatlas.org/55036/883_H1_2_red_green.jpg)
+![](https://images.proteinatlas.org/55036/883_H1_3_red_green.jpg)
+![](https://images.proteinatlas.org/55036/908_F3_1_red_green.jpg)
+![](https://images.proteinatlas.org/55036/908_F3_2_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-O00244-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

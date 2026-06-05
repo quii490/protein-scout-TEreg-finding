@@ -43,7 +43,7 @@ status: scored
 
 **HPA 详情**: reliability=Enhanced（最高等级）; subcellular_location=Nuclear speckles; main=Nuclear speckles（单一主定位）。
 
-**IF 图像**: 暂无数据（Pending cell analysis）。HPA subcellular 页面未检测到标准 IF display 图像（blue_red_green.jpg），仅有 red_green.jpg 格式图像。核定位基于 HPA Enhanced 等级 + subcellular location 注释 + UniProt GO nuclear speck。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 **结论**: HPA Enhanced 确认 nuclear speckles 为唯一 main location。UniProt 同时有 cytoplasm 实验证据和 nuclear speck GO 注释。核定位得分 9。
 
@@ -191,3 +191,14 @@ IntAct 有限记录。无 BioGrid 补充数据。
 
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nuclear-speckle/C12orf57/C12orf57-PAE.png]]
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nuclear speckles (enhanced)。来源: https://www.proteinatlas.org/ENSG00000111678-C12orf57/subcellular
+
+![](https://images.proteinatlas.org/46182/1605_A2_2_red_green.jpg)
+![](https://images.proteinatlas.org/46182/1605_A2_3_red_green.jpg)
+![](https://images.proteinatlas.org/46182/1615_A2_1_red_green.jpg)
+![](https://images.proteinatlas.org/46182/1615_A2_2_red_green.jpg)
+![](https://images.proteinatlas.org/46182/1687_E1_1_red_green.jpg)
+![](https://images.proteinatlas.org/46182/1687_E1_2_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

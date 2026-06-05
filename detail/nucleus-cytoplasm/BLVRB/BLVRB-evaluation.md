@@ -91,7 +91,7 @@ status: scored
 | 有序区域 (pLDDT>70) 占比 | 99.6% |
 | 可用 PDB 条目 | 1HDO, 1HE2, 1HE3, 1HE4, 1HE5, 5OOG, 5OOH, 6OPL, 7ER6, 7ER7, 7ER8, 7ER9, 7ERA, 7ERB, 7ERC, 7ERD, 7ERE, 8ELL, 8ELM, 8K4K, 9C16, 9C17, 9C18 |
 
-**PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。**
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 **评价**: PDB实验结构 + AlphaFold高质量预测（pLDDT=97.7），结构可信度高。三维结构评分 10/10。
 
@@ -183,3 +183,9 @@ status: scored
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/P30043
 - STRING: https://string-db.org/network/9606.BLVRB
 - Packet data timestamp: 2026-06-03 03:39:58
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-P30043-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

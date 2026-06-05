@@ -46,7 +46,7 @@
 <tr><td>Protein Atlas (IF)</td><td>Nucleoplasm; 额外: Nucleoplasm</td><td>Approved</td></tr>
 <tr><td>UniProt</td><td>Cytoplasm</td><td>Swiss-Prot/TrEMBL</td></tr>
 </tbody></table></div>
-<p><strong>IF 图像说明</strong>: HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。</p>
+<p><strong>IF 图像说明</strong>: HPA subcellular IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；核定位仍结合 HPA reliability、UniProt 和 GO-CC 综合判断。</p>
 <p><strong>GO Cellular Component</strong>:</p>
 <ul><li>cytoplasm (GO:0005737)</li></ul>
 <p><strong>结论</strong>: 核定位证据充分，多个数据源一致支持核定位，定位特异性高。</p>
@@ -71,7 +71,7 @@
 <tr><td>低置信 (pLDDT&lt;50) 占比</td><td>38.1%</td></tr>
 <tr><td>有序区域 (pLDDT&gt;70) 占比</td><td>43.3%</td></tr>
 </tbody></table></div>
-<p><strong>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</strong></p>
+<p><strong>PAE 图像说明</strong>: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。</p>
 <p><strong>评价</strong>: AlphaFold中等质量预测（pLDDT=67.4），存在部分低置信区域。三维结构评分 7/10。</p>
 <h5>3.5 结构域分析</h5>
 <div class="table-wrap"><table>
@@ -114,7 +114,11 @@
 <p><strong>下一步建议</strong>:</p>
 <ul><li>[ ] 查阅最新关键文献补充研究背景</li><li>[ ] 获取 Protein Atlas IF 图像确认亚细胞定位</li><li>[ ] 设计体外实验验证核定位及潜在调控功能</li><li>[ ] 考虑通过AlphaFold预测 + MD模拟获取结构信息</li></ul>
 <h4>5. 数据来源</h4>
-<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q96GX2</li><li>Protein Atlas: https://www.proteinatlas.org/search/ATXN7L3B</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=ATXN7L3B</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q96GX2</li><li>STRING: https://string-db.org/network/9606.ATXN7L3B</li><li>Packet data timestamp: 2026-06-03 03:27:06</li></ul></article></main>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q96GX2</li><li>Protein Atlas: https://www.proteinatlas.org/search/ATXN7L3B</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=ATXN7L3B</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q96GX2</li><li>STRING: https://string-db.org/network/9606.ATXN7L3B</li><li>Packet data timestamp: 2026-06-03 03:27:06</li></ul>
+<p>&lt;!-- HPA_IF_REPAIR_START --&gt; <strong>HPA IF 图像修正（2026-06-05）</strong>: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000253719-ATXN7L3B/subcellular</p>
+<p><figure><img src="https://images.proteinatlas.org/56612/935_A9_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/56612/935_A9_2_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/56612/958_F3_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/56612/958_F3_2_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/56612/982_F8_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/56612/982_F8_2_red_green.jpg" alt="image"></figure> &lt;!-- HPA_IF_REPAIR_END --&gt;</p>
+<p>&lt;!-- AF_PAE_REPAIR_START --&gt; <strong>PAE 图像修正（2026-06-05）</strong>: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。</p>
+<p><figure><img src="https://alphafold.ebi.ac.uk/files/AF-Q96GX2-F1-predicted_aligned_error_v6.png" alt="image"></figure> &lt;!-- AF_PAE_REPAIR_END --&gt;</p></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

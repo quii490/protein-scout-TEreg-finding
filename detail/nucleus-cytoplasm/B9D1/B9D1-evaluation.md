@@ -40,7 +40,7 @@ status: scored
 | 抗体可靠性 | Uncertain |
 | IF 图像 | IF images available (8 cell lines) |
 
-**评价**: HPA 主定位为 Nucleoplasm, Acrosome, Equatorial segment, Mid piece。标注定位包括: Nucleoplasm, Vesicles, Basal body, Cytosol, Acrosome, Equatorial segment, Mid piece, Principal piece, End piece。抗体可靠性评级: Uncertain。HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图，仅有display image列表）。核定位基于HPA localization/reliability + UniProt + GO-CC。，显示核内信号分布。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 ### 4. PubMed 文献
 
@@ -134,4 +134,21 @@ status: scored
 
 **数据来源**: UniProt Q9UPM9, HPA ENSG00000108641, AlphaFold AF-Q9UPM9-F1, STRING, IntAct
 
-PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (uncertain)。来源: https://www.proteinatlas.org/ENSG00000108641-B9D1/subcellular
+
+![](https://images.proteinatlas.org/22957/2124_G9_19_blue_red_green.jpg)
+![](https://images.proteinatlas.org/22957/2124_G9_30_blue_red_green.jpg)
+![](https://images.proteinatlas.org/22957/2129_C4_59_blue_red_green.jpg)
+![](https://images.proteinatlas.org/22957/2129_C4_78_blue_red_green.jpg)
+![](https://images.proteinatlas.org/22957/2167_H3_37_blue_red_green.jpg)
+![](https://images.proteinatlas.org/22957/2167_H3_64_blue_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-Q9UPM9-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

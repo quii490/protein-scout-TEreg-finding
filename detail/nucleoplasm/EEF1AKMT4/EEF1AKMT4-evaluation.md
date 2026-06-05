@@ -45,7 +45,7 @@ status: scored
 | Protein Atlas (IF) | Nucleoplasm | Supported |
 | UniProt | 无注释 | — |
 
-**结论**: HPA 显示核质定位。作为赖氨酸甲基转移酶，核定位符合其表观遗传调控功能角色。但 UniProt 注释尚不完整。暂无 IF 图片数据（HPA IF 图像已本地嵌入。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 
 #### 3.2 蛋白大小评估
@@ -165,4 +165,13 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/EEF1AKMT4/EEF1AKMT4-PAE.png]]
 
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (uncertain)。来源: https://www.proteinatlas.org/ENSG00000284753-EEF1AKMT4/subcellular
 
+![](https://images.proteinatlas.org/62215/1106_A6_1_red_green.jpg)
+![](https://images.proteinatlas.org/62215/1106_A6_2_red_green.jpg)
+![](https://images.proteinatlas.org/62215/1148_A6_1_red_green.jpg)
+![](https://images.proteinatlas.org/62215/1148_A6_3_red_green.jpg)
+![](https://images.proteinatlas.org/62215/1192_G7_3_red_green.jpg)
+![](https://images.proteinatlas.org/62215/1192_G7_4_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

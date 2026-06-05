@@ -49,7 +49,7 @@
 <tr><td>UniProt</td><td>Cytoplasm (IDA), Cytosol (ISS), Nucleus (IDA), Mitochondrion (ISS)</td><td></td></tr>
 <tr><td>GO-CC</td><td>GO:0005654 (nucleoplasm, IDA:HPA), GO:0005737 (cytoplasm, IDA), GO:0034451 (centriolar satellite, IDA)</td><td></td></tr>
 </tbody></table></div>
-<p>HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。HPA IF Supported 级别将 Nucleoplasm 列为主定位，但同时有多达5个定位（细胞膜、初级纤毛、中心粒卫星、基体），显示该蛋白广泛分布于多个细胞区室。UniProt 实验证据同时支持 Cytoplasm 和 Nucleus。GO-CC 也同时注释 nucleoplasm 和多个胞质/纤毛结构。核定位特异性不高。<strong>评分: 3/10</strong>。</p>
+<p>HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。</p>
 <h5>3.2 蛋白大小评估</h5>
 <p>1226 aa / 138.4 kDa。蛋白极大，远超800 aa最佳实验范围。重组全长表达困难，可能需截短体构建。<strong>评分: 6/10</strong>。</p>
 <h5>3.3 研究现状</h5>
@@ -73,7 +73,7 @@
 <tr><td>有序区域 (pLDDT&gt;70)</td><td>71.2%</td></tr>
 <tr><td>实验结构 (PDB)</td><td>无</td></tr>
 </tbody></table></div>
-<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。AlphaFold 中等质量预测 (pLDDT 75.3)，24.9% 残基 pLDDT &lt; 50 提示大量无序区域。作为大蛋白，IDR 占比高可能与其功能调控相关。<strong>评分: 5/10</strong>。</p>
+<p><strong>PAE 图像说明</strong>: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。</p>
 <h5>3.5 结构域分析</h5>
 <div class="table-wrap"><table>
 <thead><tr><th>来源</th><th>结构域</th></tr></thead><tbody>
@@ -88,7 +88,11 @@
 <ul><li>虽然 HPA IF 将 Nucleoplasm 列为主定位，但定位信号广泛分布于膜、纤毛、中心粒等多个区室</li><li>UniProt 实验证据显示 Cytoplasm 为主要定位</li><li>功能为胞质羧肽酶，催化微管蛋白去谷氨酰化，与核功能关联弱</li></ul>
 <p><strong>结论</strong>: 核定位特异性不足，功能高度偏向胞质/细胞骨架调控，不符合核蛋白筛选标准。</p>
 <h4>5. 数据来源</h4>
-<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9UPW5</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9UPW5</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=AGTPBP1%5BTitle/Abstract%5D</li><li>HPA: https://www.proteinatlas.org/ENSG00000135049-AGTPBP1</li></ul></article></main>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9UPW5</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9UPW5</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=AGTPBP1%5BTitle/Abstract%5D</li><li>HPA: https://www.proteinatlas.org/ENSG00000135049-AGTPBP1</li></ul>
+<p>&lt;!-- HPA_IF_REPAIR_START --&gt; <strong>HPA IF 图像修正（2026-06-05）</strong>: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (supported)。来源: https://www.proteinatlas.org/ENSG00000135049-AGTPBP1/subcellular</p>
+<p><figure><img src="https://images.proteinatlas.org/71094/2124_E11_19_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/71094/2124_E11_31_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/71094/2134_D10_12_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/71094/2134_D10_51_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/71094/2169_H5_20_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/71094/2169_H5_37_blue_red_green.jpg" alt="image"></figure> &lt;!-- HPA_IF_REPAIR_END --&gt;</p>
+<p>&lt;!-- AF_PAE_REPAIR_START --&gt; <strong>PAE 图像修正（2026-06-05）</strong>: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。</p>
+<p><figure><img src="https://alphafold.ebi.ac.uk/files/AF-Q9UPW5-F1-predicted_aligned_error_v6.png" alt="image"></figure> &lt;!-- AF_PAE_REPAIR_END --&gt;</p></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

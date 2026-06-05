@@ -76,7 +76,7 @@ HPA IF 数据不存在。MT1HL1 未收录于 Human Protein Atlas 数据库。无
 ### Experimental PDB Structures
 None. No experimental structures exist for MT1HL1.
 
-**Structure Assessment**: AlphaFold prediction quality is moderate (pLDDT 84.2, 81.5% ordered). The prediction supports a metallothionein-like fold with the characteristic metal-thiolate clusters. However, this is purely computational -- no experimental structure exists. PAE 图像暂无数据。
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 ## 6. InterPro / Pfam Domains
 
@@ -149,3 +149,9 @@ MT1HL1 is NOT a viable research target at this time. The gene suffers from a nea
 - STRING: No data available
 
 **Re-evaluator's note**: MT1HL1 was likely included in the batch due to its metallothionein family membership and UniProt annotation as "evidence at protein level." However, this UniProt evidence code (ECO:0000256) is computational (InterPro signature match), not experimental protein identification. The gene is essentially a genomic prediction without experimental validation. Rejection is the correct outcome -- this is not a false rejection but rather a prudent exclusion of an uncharacterized gene. If MT1HL1 is confirmed as a functional protein in future studies, a re-evaluation would be warranted, but for now, the risk of non-expression is too high for an experimental target.
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-P0DM35-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

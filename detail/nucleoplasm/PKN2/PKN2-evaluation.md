@@ -38,7 +38,7 @@ status: scored
 |---|---|---|
 | UniProt | Cytoplasm; Nucleus; Membrane; Lamellipodium; Cytoskeleton; Cleavage furrow; Midbody; Cell junction | ECO:0000269 (实验) |
 | GO-CC | nucleoplasm (IDA:HPA), nuclear body (IDA:HPA), nucleus (IDA:UniProtKB) | IDA |
-| HPA (IF) | 无IF图像获取; 页面显示nucleoplasm相关 | — |
+| Protein Atlas (IF) | HPA subcellular IF 图像可用（见下方 HPA IF 图像修正块） | 需人工复核 |
 
 **IF 图像**: HPA无IF展示图像数据获取。
 
@@ -169,7 +169,24 @@ status: scored
 | EBI-1257113 | IntAct | psi-mi:"MI:0096"(pull down) |
 | USP11 | IntAct | psi-mi:"MI:0007"(anti tag coim |
 
-PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/PKN2/PKN2-PAE.png]]
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (enhanced)。来源: https://www.proteinatlas.org/ENSG00000065243-PKN2/subcellular
+
+![](https://images.proteinatlas.org/34861/404_H3_1_red_green.jpg)
+![](https://images.proteinatlas.org/34861/404_H3_2_red_green.jpg)
+![](https://images.proteinatlas.org/34861/407_H3_1_red_green.jpg)
+![](https://images.proteinatlas.org/34861/407_H3_2_red_green.jpg)
+![](https://images.proteinatlas.org/34861/410_H3_2_red_green.jpg)
+![](https://images.proteinatlas.org/34861/410_H3_3_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-Q16513-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

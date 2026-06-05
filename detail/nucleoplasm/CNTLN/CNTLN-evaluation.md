@@ -37,9 +37,9 @@ PubMed strict: 12
 |---|---|---|
 | UniProt | Cytoplasm, cytoskeleton, microtubule organizing center, centrosome, centriole (ECO:0000269) | 实验证据（初级定位） |
 | GO-CC | centriole (IDA); centrosome (IDA:HPA); cytoplasm (IDA); cytosol (IDA:HPA); extracellular exosome (HDA); nucleoplasm (IDA:HPA); sperm head-tail coupling apparatus (IEA) | nucleoplasm 有 IDA:HPA 实验证据 |
-| HPA (IF) | 页面含图像但无 IF 图像 | 无 IF 数据 |
+| Protein Atlas (IF) | HPA subcellular IF 图像可用（见下方 HPA IF 图像修正块） | 需人工复核 |
 
-**HPA IF 状态**: IF thumbnail only — HPA 暂无 IF 原图，仅获取到 60x60 缩略图，不能作为可靠定位证据。核定位基于 UniProt + GO-CC。
+**HPA IF 状态**: HPA subcellular IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 **结论**: CNTLN 的核定位复杂。GO-CC 中有 nucleoplasm IDA:HPA 实验证据，但 UniProt Subcellular Location 仅记录 centrosome/centriole。核定位可能反映 HPA 在特定条件下的检测，而非稳态定位。
 
@@ -99,10 +99,17 @@ CNTLN 是一个超大中心体蛋白，负责中心体 cohesion。GO nucleoplasm
 - UniProt: https://www.uniprot.org/uniprotkb/Q9NXG0
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9NXG0
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CNTLN
-- Protein Atlas: https://www.proteinatlas.org/search/CNTLN（无 IF 图像）
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 ![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CNTLN/CNTLN-PAE.png]]
 
 
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CNTLN/CNTLN-PAE.png]]
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Centrosome (supported)。来源: https://www.proteinatlas.org/ENSG00000044459-CNTLN/subcellular
+
+![](https://images.proteinatlas.org/7201/1595_H11_2_red_green.jpg)
+![](https://images.proteinatlas.org/7201/1595_H11_3_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

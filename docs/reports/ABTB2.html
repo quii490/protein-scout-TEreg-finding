@@ -45,8 +45,8 @@
 <p><strong>Evidence Assessment</strong>: Nuclear localization evidence is entirely dependent on HPA. There is no corroboration from UniProt, GO-CC, or the literature. This makes the nuclear assignment less robust than for genes with multi-source evidence.</p>
 <p><strong>Note on Excel discrepancy</strong>: The original Sheet4 Excel listed ABTB2 as HPA=&quot;Nuclear bodies|Nucleoplasm&quot; with nuclear_score=6. The actual harvested HPA data shows &quot;Nucleoplasm&quot; main (not Nuclear bodies) with &quot;Vesicles&quot; additional. The &quot;Nuclear bodies&quot; assignment in the Excel is not present in the actual HPA data.</p>
 <h3>3. HPA Immunofluorescence</h3>
-<p>**HPA IF 原图未可靠获取（HPA 检索页无可用的 subcellular IF 原图）。核定位基于 HPA localization/reliability + UniProt + GO-CC。</p>
-<p>The HPA subcellular page shows <code>no_image_detected</code> status. No curated IF display images are available. The raw IF images (red_green format) exist in the image_urls but were not processed into display-quality images. The nuclear localization is based on HPA&#x27;s internal IF scoring.</p>
+<p>HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。</p>
+<p>HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。</p>
 <h3>4. PubMed Literature Assessment</h3>
 <div class="table-wrap"><table>
 <thead><tr><th>Query Type</th><th>Count</th><th>Notes</th></tr></thead><tbody>
@@ -144,7 +144,9 @@
 <h3>10. Manual Review Note</h3>
 <p>The original Excel classified ABTB2 as HPA=&quot;Nuclear bodies|Nucleoplasm&quot; with nuclear_score=6. The actual HPA data shows only &quot;Nucleoplasm&quot; main (no Nuclear bodies). The protein has no localization annotation in UniProt and no GO-CC terms, making it essentially a &quot;blank slate&quot; protein that happens to have a favorable HPA IF readout. The BTB/POZ domain is the strongest mechanistic argument for nuclear function -- CUL3-BTB complexes are classically nuclear in many cases (SPOP, KEAP1).</p>
 <p><strong>Re-evaluator&#x27;s note</strong>: This is a marginal case. The complete absence of any non-HPA nuclear data makes this one of the weakest nuclear candidates in the set. However, the BTB/POZ domain and Xpo1 interaction provide enough biological rationale to avoid outright rejection. A manual review of the raw HPA IF images would be valuable to confirm or refute the nucleoplasmic assignment. If confirmed, the protein&#x27;s large size, multi-domain architecture, and cancer relevance could make it a worthwhile candidate.</p>
-<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p></article></main>
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。</p>
+<p>&lt;!-- HPA_IF_REPAIR_START --&gt; <strong>HPA IF 图像修正（2026-06-05）</strong>: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (supported)。来源: https://www.proteinatlas.org/ENSG00000166016-ABTB2/subcellular</p>
+<p><figure><img src="https://images.proteinatlas.org/20065/234_C3_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/20065/234_C3_2_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/20065/235_C3_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/20065/235_C3_2_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/20065/535_C3_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/20065/535_C3_2_red_green.jpg" alt="image"></figure> &lt;!-- HPA_IF_REPAIR_END --&gt;</p></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

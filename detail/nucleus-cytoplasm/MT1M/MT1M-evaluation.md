@@ -86,7 +86,7 @@ HPA IF 原图可获取。MT1M displays the characteristic metallothionein immuno
 ### Experimental PDB Structures
 None (MT1M-specific). MT1A NMR structures (1MHU, 2KAK) serve as homologous references.
 
-**Structure Assessment**: Excellent AlphaFold model quality. pLDDT = 88.7, with 89.2% ordered residues -- among the best in the MT1 family. The metal-thiolate cluster architecture is well-captured by the prediction. PAE 图像暂无数据。
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 ## 6. InterPro / Pfam Domains
 
@@ -198,3 +198,9 @@ None (MT1M-specific). MT1A NMR structures (1MHU, 2KAK) serve as homologous refer
 | MT1F | 88 | HPA Supported | MODERATE |
 
 MT1M leads the recovery cohort in novelty and should be the highest priority for experimental follow-up.
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-Q8N339-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

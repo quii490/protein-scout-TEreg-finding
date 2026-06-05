@@ -48,7 +48,7 @@ nuclear_score: 5
 - **Note**: HPA 未检测到 Nucleoplasm/Nucleus/Nuclear pore 定位
 
 ### IF 图像获取状态
-HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图，仅有display image列表）。核定位基于HPA localization/reliability + UniProt + GO-CC。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 HPA IF display images 可用（6 张，来自 A-431, U2OS, U-251MG 细胞株）。HPA 记录显示 Vesicles 定位，无核定位条目。
 
@@ -216,4 +216,21 @@ AGFG1 是一个研究极新的蛋白 (PubMed 14)，具有独特的 FG repeat + A
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000173744-AGFG1
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=AGFG1[Title/Abstract]
 
-PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Vesicles (supported)。来源: https://www.proteinatlas.org/ENSG00000173744-AGFG1/subcellular
+
+![](https://images.proteinatlas.org/8741/100_F5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/8741/100_F5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/8741/101_F5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/8741/101_F5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/8741/82_F5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/8741/82_F5_2_blue_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-P52594-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

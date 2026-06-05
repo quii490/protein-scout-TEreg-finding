@@ -26,9 +26,20 @@ status: rejected
 **淘汰判定**: PubMed >100 篇 (PubMed = 123)，不满足新颖性要求（>100 自动淘汰）。该蛋白不满足核蛋白筛选标准，已淘汰。
 
 #
-> **Protein Atlas IF**: 暂无数据（Pending cell analysis），核定位基于 UniProt + GO。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 ## 3. 数据来源
 
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22GRHL3%22%5BTitle%2FAbstract%5D
 - UniProt: https://www.uniprot.org/uniprot/Q8TE85
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (supported)。来源: https://www.proteinatlas.org/ENSG00000158055-GRHL3/subcellular
+
+![](https://images.proteinatlas.org/59960/1089_C7_1_red_green.jpg)
+![](https://images.proteinatlas.org/59960/1089_C7_2_red_green.jpg)
+![](https://images.proteinatlas.org/59960/1383_C10_2_red_green.jpg)
+![](https://images.proteinatlas.org/59960/1383_C10_3_red_green.jpg)
+![](https://images.proteinatlas.org/59960/1503_F3_1_red_green.jpg)
+![](https://images.proteinatlas.org/59960/1503_F3_2_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

@@ -31,7 +31,7 @@
 - **Reliability (IF):** Supported
 - **Main Location:** Nucleoplasm
 - **Additional:** None
-- **IF Image Status:** no_image_detected (red_green images available via image_urls but not flagged as if_display)
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 - **Key Finding:** Nucleoplasm localization supported.
 
 ### UniProt Subcellular Location
@@ -149,3 +149,12 @@ Score: 140/180. RMND5A is a nucleoplasmic E3 ubiquitin ligase with good nuclear 
 
 ## Manual Review Note
 MODERATE CANDIDATE. RMND5A's E3 ligase activity on transcription factors (HBP1) and stem cell self-renewal regulation suggest broad regulatory potential. The H2BC1 (histone H2B) interaction is interesting for chromatin biology. PubMed count of 16 indicates very limited investigation. The CTLH complex (GID complex) is a highly conserved ubiquitin ligase system. Structural data is good with excellent AF confidence and one EM structure. Retained.
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (supported)。来源: https://www.proteinatlas.org/ENSG00000153561-RMND5A/subcellular
+
+![](https://images.proteinatlas.org/60843/1104_A6_2_red_green.jpg)
+![](https://images.proteinatlas.org/60843/1104_A6_3_red_green.jpg)
+![](https://images.proteinatlas.org/60843/1171_H8_3_red_green.jpg)
+![](https://images.proteinatlas.org/60843/1171_H8_4_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

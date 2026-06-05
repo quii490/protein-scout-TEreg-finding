@@ -202,4 +202,15 @@ ACOXL is fundamentally a peroxisomal enzyme. The HPA nucleoli additional annotat
 
 **Re-evaluator's note**: If the project is screening for genuinely nuclear proteins, ACOXL is probably a false positive. The evidence for nuclear localization is a single HPA "additional" annotation that contradicts every other piece of data (GO peroxisome, PPI metabolic, domain architecture). However, the 12 IF images provide an excellent opportunity for definitive adjudication -- if manual review shows clear nucleolar signal, this could represent an interesting case of metabolic enzyme moonlighting in the nucleolus. If the signal is absent or represents nucleolar-adjacent cytoplasmic staining, the gene should be rejected. **Manual IF review required before final decision.**
 
-HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Cytosol (supported)。来源: https://www.proteinatlas.org/ENSG00000153093-ACOXL/subcellular
+
+![](https://images.proteinatlas.org/35392/1392_G3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35392/1392_G3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35392/407_B2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35392/407_B2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35392/410_B2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35392/410_B2_2_blue_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

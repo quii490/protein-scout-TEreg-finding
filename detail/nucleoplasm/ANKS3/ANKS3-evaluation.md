@@ -24,7 +24,7 @@ Q6ZW76 | Ankyrin repeat and SAM domain-containing protein 3 | 656aa | pLDDT 68.6
 
 **UniProt**: Q6ZW76 — Cell projection, cilium (ECO:0000250), Cytoplasm (ECO:0000250). May be involved in vasopressin signaling in the kidney. GO-CC: cilium (IBA:GO_Central), cytoplasm (ISS:UniProtKB). Alias: KIAA1977.
 
-**HPA IF 状态**: HPA IF 原图未可靠获取（HPA 检索页无可用的 subcellular IF 原图）。核定位基于 HPA localization/reliability + UniProt + GO-CC。
+**HPA IF 状态**: HPA subcellular IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 ### 核定位评定
 HPA 主定位 Nucleoplasm (Approved)，额外定位 Cytosol。UniProt 注释完全指向纤毛和细胞质定位（cilium ECO:0000250, cytoplasm ECO:0000250），GO-CC 仅有 cilium 和 cytoplasm，**无任何核定位注释**。这形成了 HPA (Nucleoplasm Approved) 与 UniProt (cilium only) 之间的显著矛盾。可能原因：(1) HPA 抗体存在非特异性核信号；(2) 该蛋白在特定条件下发生纤毛-核质穿梭。鉴于 HPA Approved 级别 IF 数据通常可靠，保留 Nucleoplasm 分类但标注矛盾。评为 7/10（因 UniProt 不支持核定位而扣分）。
@@ -53,3 +53,14 @@ STRING: ANKS6 (0.994, exp 0.970)、NEK7 (0.937, exp 0.739)、NEK8 (0.913, exp 0.
 
 ### 人工复核建议
 该蛋白是 15 个基因中原始总分最高的（138/180），主要得益于极强的 PPI 网络和研究新颖性。但需注意 UniProt 与 HPA 的定位矛盾：UniProt 仅注释纤毛/细胞质而无核定位，HPA 却以 Nucleoplasm 为主定位。建议：(1) 查阅 HPA IF 原图确认核信号真实性；(2) 在纤毛细胞系中验证内源性 ANKS3 的亚细胞分布。若核定位得到独立验证，则该蛋白的 SAM 聚合物形成能力 + NEK 激酶调控 + 纤毛-核信号传导具有高度研究价值。NEK 激酶家族与细胞周期和纤毛解体的关系（NEK7 参与 NLRP3 炎症小体活化，NEK8 调控 Hippo 通路）进一步扩展了其功能范围。
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000168096-ANKS3/subcellular
+
+![](https://images.proteinatlas.org/41409/2146_E2_38_red_green.jpg)
+![](https://images.proteinatlas.org/41409/2146_E2_80_red_green.jpg)
+![](https://images.proteinatlas.org/41409/2153_E10_40_red_green.jpg)
+![](https://images.proteinatlas.org/41409/2153_E10_4_red_green.jpg)
+![](https://images.proteinatlas.org/41409/486_B6_2_red_green.jpg)
+![](https://images.proteinatlas.org/41409/486_B6_3_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

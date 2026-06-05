@@ -30,7 +30,7 @@
 - **Status:** hpa_localization_available
 - **Reliability (IF):** Enhanced
 - **Main Location:** Nucleoli
-- **IF Image Status:** no_image_detected
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 - **Nuclear-relevant locations:** Nucleoli
 
 ### UniProt Subcellular Location
@@ -201,3 +201,14 @@ The protein functions primarily in: Participates in the assembly of the telomera
 The false rejection appears to have resulted from automated scoring that failed to adequately weight the nuclear evidence. 
 With only 34 publications, NVL represents a highly novel target. 
 The nuclear localization and functional profile make it a strong candidate for TE-regulatory investigation.
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoli (enhanced)。来源: https://www.proteinatlas.org/ENSG00000143748-NVL/subcellular
+
+![](https://images.proteinatlas.org/28219/1176_B1_2_red_green.jpg)
+![](https://images.proteinatlas.org/28219/1176_B1_3_red_green.jpg)
+![](https://images.proteinatlas.org/28219/1281_D12_1_red_green.jpg)
+![](https://images.proteinatlas.org/28219/1281_D12_3_red_green.jpg)
+![](https://images.proteinatlas.org/28219/1313_D12_3_red_green.jpg)
+![](https://images.proteinatlas.org/28219/1313_D12_5_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

@@ -24,7 +24,7 @@ Q8N2N9 | Ankyrin repeat domain-containing protein 36B | 1353aa | pLDDT 59.2 | PM
 
 **UniProt**: Q8N2N9 — No annotated function, no subcellular locations, no GO-CC entries. Multiple splice isoform interactions annotated in UniProt.
 
-**HPA IF 状态**: HPA IF 原图未可靠获取（HPA 检索页无可用的 subcellular IF 原图）。核定位基于 HPA localization/reliability + UniProt + GO-CC。
+**HPA IF 状态**: HPA subcellular IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 ### 核定位评定
 HPA 主定位 Nucleoplasm 与 Cytosol 双定位 (Approved)，无额外定位。UniProt 无任何亚细胞定位或 GO-CC 注释。HPA IF reliability 为 Approved 提供核定位主要证据，但缺乏 UniProt/GO 独立验证。Cytosol 共主定位提示可能为核质穿梭蛋白。评为 7/10。
@@ -52,3 +52,14 @@ STRING: ANKRD36 (0.983, exp 0.092)、ANKRD36C (0.896, exp 0.279)、ANKRD39 (0.67
 
 ### 人工复核建议
 与 ANKRD36 共享相同结构域架构和类似表达模式，可能为功能冗余的家族成员。UniProt 注释极少，建议将 ANKRD36/36B/36C 作为蛋白家族整体评估而非单独追踪单个成员。SNAPC2 互作提供了 snRNA 转录相关功能的线索。
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000196912-ANKRD36B/subcellular
+
+![](https://images.proteinatlas.org/51757/1002_E3_1_red_green.jpg)
+![](https://images.proteinatlas.org/51757/1002_E3_2_red_green.jpg)
+![](https://images.proteinatlas.org/51757/1004_E3_2_red_green.jpg)
+![](https://images.proteinatlas.org/51757/1004_E3_3_red_green.jpg)
+![](https://images.proteinatlas.org/57661/1060_F6_1_red_green.jpg)
+![](https://images.proteinatlas.org/57661/1060_F6_3_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

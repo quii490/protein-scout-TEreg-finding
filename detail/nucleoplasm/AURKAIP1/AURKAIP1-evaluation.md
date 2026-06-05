@@ -39,7 +39,7 @@ PubMed strict: 9
 | GO-CC | mitochondrial inner membrane (TAS); mitochondrial matrix (IDA); mitochondrial small ribosomal subunit (NAS); mitochondrion (IDA:HPA); nucleoplasm (IDA:HPA); nucleus (IDA:UniProtKB) | 多项实验证据 |
 | HPA (IF) | 有 IF 缩略图，原图未取得 | 间接支持 |
 
-**HPA IF 状态**: IF thumbnail only — HPA 暂无 IF 原图，仅获取到 60x60 缩略图，不能作为可靠定位证据。核定位基于 UniProt + GO-CC。
+**HPA IF 状态**: HPA subcellular IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 ![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/AURKAIP1/IF_images/AURKAIP1_IF_31821.jpg]]
 
 **结论**: AURKAIP1 核定位有多项实验证据支持（ECO:0000269, IDA:HPA, IDA:UniProtKB）。需注意其初级定位为线粒体基质/线粒体核糖体，核定位为次级。
@@ -114,4 +114,13 @@ HPA IF 图像已本地嵌入。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/AURKAIP1/AURKAIP1-PAE.png]]
 
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (supported)。来源: https://www.proteinatlas.org/ENSG00000175756-AURKAIP1/subcellular
 
+![](https://images.proteinatlas.org/31821/371_B10_1_red_green.jpg)
+![](https://images.proteinatlas.org/31821/371_B10_3_red_green.jpg)
+![](https://images.proteinatlas.org/31821/372_B10_1_red_green.jpg)
+![](https://images.proteinatlas.org/31821/372_B10_3_red_green.jpg)
+![](https://images.proteinatlas.org/31821/374_B10_1_red_green.jpg)
+![](https://images.proteinatlas.org/31821/374_B10_2_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

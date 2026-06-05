@@ -62,9 +62,9 @@ nuclear_score: 6
 
 ## 3. HPA Immunofluorescence
 
-**HPA IF 原图未可靠获取（HPA 检索页无可用的 subcellular IF 原图）。核定位基于 HPA localization/reliability + UniProt + GO-CC。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
-The HPA subcellular page shows `no_image_detected` status. No curated IF display images are available. The "Uncertain" reliability flag means the HPA internal scoring of the IF data was inconclusive or inconsistent across cell lines/antibodies. This significantly weakens the nuclear evidence from HPA.
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 ## 4. PubMed Literature Assessment
 
@@ -210,3 +210,14 @@ The original Excel classified ABLIM3 as HPA="Nuclear bodies" with nuclear_score=
 **Re-evaluator's note**: This gene illustrates the importance of checking HPA reliability tiers. The "Uncertain" flag is a strong caution signal. The gene's LIM domain architecture and nuclear PPI partners provide plausible nuclear biology, but the experimental HPA evidence is not compelling. This should be considered a candidate requiring validation rather than a confirmed nuclear protein.
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (uncertain)。来源: https://www.proteinatlas.org/ENSG00000173210-ABLIM3/subcellular
+
+![](https://images.proteinatlas.org/2472/1875_C2_16_cr5b7c0b5cdd9fd_red_green.jpg)
+![](https://images.proteinatlas.org/2472/1875_C2_2_cr5b7c0b5cdd6ee_red_green.jpg)
+![](https://images.proteinatlas.org/2472/1904_F1_1_red_green.jpg)
+![](https://images.proteinatlas.org/2472/1904_F1_2_red_green.jpg)
+![](https://images.proteinatlas.org/2472/1913_E14_1_red_green.jpg)
+![](https://images.proteinatlas.org/2472/1913_E14_2_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

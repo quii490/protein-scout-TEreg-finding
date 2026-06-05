@@ -41,7 +41,7 @@ status: scored
 | Protein Atlas (IF) | Nucleoplasm, Centrosome; 额外: Midbody ring, Cytosol | Approved |
 | UniProt | Cytoplasm, cytoskeleton, microtubule organizing center, centrosome; Nucleus; Cyt... | Swiss-Prot/TrEMBL |
 
-**IF 图像状态**: HPA未检测到可靠IF图像信号（image_status: no_image_detected）。核定位证据基于HPA subcellular localization注释、UniProt注释和GO-CC术语。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 **GO Cellular Component**:
 - centrosome (GO:0005813)
@@ -176,3 +176,14 @@ status: scored
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8N8E3
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Packet data timestamp: 2026-06-03 04:48:16
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000154240-CEP112/subcellular
+
+![](https://images.proteinatlas.org/69724/1806_C6_2_red_green.jpg)
+![](https://images.proteinatlas.org/69724/1806_C6_3_red_green.jpg)
+![](https://images.proteinatlas.org/69724/1861_B6_33_red_green.jpg)
+![](https://images.proteinatlas.org/69724/1861_B6_34_red_green.jpg)
+![](https://images.proteinatlas.org/69724/2058_F11_2_red_green.jpg)
+![](https://images.proteinatlas.org/69724/2058_F11_3_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

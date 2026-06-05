@@ -54,7 +54,7 @@
 <ul><li>GO:0005813 centrosome (IDA:HPA)</li><li>GO:0036064 ciliary basal body (IDA:HPA)</li><li>GO:0005737 cytoplasm (IDA:UniProtKB)</li><li>GO:0005829 cytosol (IEA:UniProtKB-SubCell)</li><li>GO:1902636 kinociliary basal body (IBA:GO_Central)</li><li>GO:0031514 motile cilium (ISS:BHF-UCL)</li><li>GO:0005634 nucleus (IDA:UniProtKB)</li></ul>
 <p><strong>HPA 免疫荧光</strong>:</p>
 <ul><li>可靠性: Supported</li><li>主定位: Centrosome, Basal body</li><li>附加定位: (无)</li><li>IF图像: 可用（12张blue_red_green IF原图）</li></ul>
-<p>HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。</p>
+<p>HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。</p>
 <p>关键矛盾：UniProt列出的nucleus定位有实验证据(ECO:0000269)支持，GO-CC中nucleus的注释来源为IDA:UniProtKB。然而，HPA免疫荧光的主要信号位于centrosome和basal body（纤毛基体），并未报告核定位信号。这种不一致可能反映出：(1) MKKS在特定条件下才进入核内（如细胞周期特定时相或应激条件）；(2) HPA的抗体可能因为表位遮蔽而未能检测到核内MKKS。HPA的&quot;Supported&quot;可靠性等级低于&quot;Enhanced&quot;和&quot;Approved&quot;，提示数据一致性可能存在问题。</p>
 <p>由于HPA未能验证核定位，且已知功能集中在centrosome和cilia相关过程，核定位特异性仅得4分。</p>
 <hr>
@@ -131,7 +131,9 @@
 <p><strong>REJECTED</strong> — PubMed strict count = 196，远超100篇上限。MKKS/BBS6是Bardet-Biedl综合征和McKusick-Kaufman综合征的经典致病基因，在最临床遗传学、纤毛生物学、分子伴侣领域已有数十年研究历史。其功能定位以中心体和纤毛基体为主，核定位证据存在但受HPA IF数据矛盾的影响。作为高度成熟的研究对象，不满足TE调控新靶点的筛选条件。</p>
 <hr>
 <h4>人工审核备注</h4>
-<ul><li>MKKS定位于染色体20p12.2，编码type II chaperonin</li><li>BBSome组装机制已被多篇Nature/Science/PNAS级论文阐明</li><li>BBS6(BBS10,BBS12)-CCT/TRiC轴是纤毛生物学的经典范式</li><li>核定位证据存在但与HPA主定位(centrosome/basal body)冲突</li><li>AlphaFold结构置信度极佳(mean pLDDT 89.0)，但无实验结构</li><li>PPI网络以CCT复合物和BBSome为核心，功能明确</li><li>自上次thin-reject后重新评估：harvest数据完整，因PubMed&gt;100仍被淘汰</li></ul></article></main>
+<ul><li>MKKS定位于染色体20p12.2，编码type II chaperonin</li><li>BBSome组装机制已被多篇Nature/Science/PNAS级论文阐明</li><li>BBS6(BBS10,BBS12)-CCT/TRiC轴是纤毛生物学的经典范式</li><li>核定位证据存在但与HPA主定位(centrosome/basal body)冲突</li><li>AlphaFold结构置信度极佳(mean pLDDT 89.0)，但无实验结构</li><li>PPI网络以CCT复合物和BBSome为核心，功能明确</li><li>自上次thin-reject后重新评估：harvest数据完整，因PubMed&gt;100仍被淘汰</li></ul>
+<p>&lt;!-- HPA_IF_REPAIR_START --&gt; <strong>HPA IF 图像修正（2026-06-05）</strong>: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Centrosome (supported)。来源: https://www.proteinatlas.org/ENSG00000125863-MKKS/subcellular</p>
+<p><figure><img src="https://images.proteinatlas.org/44233/2120_B7_44_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/44233/2120_B7_6_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/44233/2131_C10_19_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/44233/2131_C10_37_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/44233/2168_D9_11_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/44233/2168_D9_68_blue_red_green.jpg" alt="image"></figure> &lt;!-- HPA_IF_REPAIR_END --&gt;</p></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

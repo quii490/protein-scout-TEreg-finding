@@ -31,7 +31,7 @@
 - **Reliability (IF):** Approved
 - **Main Location:** Nucleoplasm, Vesicles
 - **Additional:** None
-- **IF Image Status:** no_image_detected (red_green images available via image_urls)
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 - **Key Finding:** HPA nucleoplasm (Approved). Also vesicular -- may reflect trafficking.
 
 ### UniProt Subcellular Location
@@ -150,3 +150,14 @@ Score: 116/180. SLF2 is a chromatin-associated adaptor that targets the SMC5/6 D
 
 ## Manual Review Note
 STRONG CANDIDATE. SLF2 (FAM178A) is part of the SLF1-SLF2 heterodimer that bridges RAD18 to the SMC5/6 complex, recruiting it to DNA damage sites and chromatin. The SMC5/6 complex functions in DNA compaction and transcriptional silencing, demonstrated for HIV-1 extrachromosomal DNA (PMID:33811831). This mechanism is directly relevant to TE silencing. SLF2 localizes to PML bodies (nuclear silencing compartments) via SIMC1 interaction. PML bodies are key sites for TE and viral restriction. The protein is very large (1173 aa) and structurally poorly characterized, but the functional relevance is compelling. Bona fide chromatin-associated silencing adaptor.
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (supported)。来源: https://www.proteinatlas.org/ENSG00000119906-SLF2/subcellular
+
+![](https://images.proteinatlas.org/57568/975_B7_1_red_green.jpg)
+![](https://images.proteinatlas.org/57568/975_B7_2_red_green.jpg)
+![](https://images.proteinatlas.org/57568/976_B7_1_red_green.jpg)
+![](https://images.proteinatlas.org/57568/976_B7_2_red_green.jpg)
+![](https://images.proteinatlas.org/57568/980_B7_1_red_green.jpg)
+![](https://images.proteinatlas.org/57568/980_B7_7_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

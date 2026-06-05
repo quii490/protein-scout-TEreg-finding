@@ -31,7 +31,7 @@
 - **Reliability (IF):** Approved
 - **Main Location:** Nucleoplasm
 - **Additional:** None
-- **IF Image Status:** no_image_detected (red_green images available via image_urls)
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 - **Key Finding:** HPA detects nucleoplasm (Approved) but no IF display images flagged.
 
 ### UniProt Subcellular Location
@@ -142,3 +142,14 @@ Score: 71/180. RUFY2 has discordant nuclear evidence (HPA nucleoplasm vs. known 
 
 ## Manual Review Note
 CONFIRMED REJECTION. RUFY2 is a member of the RUFY family of endosomal trafficking proteins defined by RUN and FYVE domains. The FYVE domain specifically binds PI3P on endosomal membranes, making endosomal localization a functional requirement. The HPA nucleoplasm annotation may reflect antibody cross-reactivity or non-specific staining. All interaction data (STRING, IntAct, UniProt) places RUFY2 in endosomal/membrane trafficking networks with no nuclear partners. Not suitable for TE research.
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000204130-RUFY2/subcellular
+
+![](https://images.proteinatlas.org/39792/517_H1_1_red_green.jpg)
+![](https://images.proteinatlas.org/39792/517_H1_2_red_green.jpg)
+![](https://images.proteinatlas.org/39792/520_H1_2_red_green.jpg)
+![](https://images.proteinatlas.org/39792/520_H1_3_red_green.jpg)
+![](https://images.proteinatlas.org/39792/523_H1_1_red_green.jpg)
+![](https://images.proteinatlas.org/39792/523_H1_3_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

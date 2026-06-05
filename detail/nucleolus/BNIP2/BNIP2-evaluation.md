@@ -93,7 +93,7 @@ status: scored
 | 低置信 (pLDDT<50) 占比 | 25.5% |
 | 有序区域 (pLDDT>70) 占比 | 58.3% |
 
-**PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。**
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 **评价**: AlphaFold中等质量预测（pLDDT=72.3），存在部分低置信区域。三维结构评分 7/10。
 
@@ -183,3 +183,9 @@ status: scored
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q12982
 - STRING: https://string-db.org/network/9606.BNIP2
 - Packet data timestamp: 2026-06-03 03:41:20
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-Q12982-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->
