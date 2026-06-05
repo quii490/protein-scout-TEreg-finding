@@ -17,20 +17,33 @@ DOCS = ROOT / "docs"
 ASSETS = DOCS / "assets"
 REPORT_IMAGE_ROOT = ASSETS / "report-images"
 ENGINEERING = ROOT / "audit_work" / "engineering"
+ANNOTATIONS = ROOT / "data" / "manual" / "web_annotations.tsv"
 TS = dt.datetime.now().strftime("%Y%m%d_%H%M%S")
+GENERATE_HTML_REPORTS = os.environ.get("PROTEIN_SCOUT_GENERATE_HTML_REPORTS") == "1"
 
-for p in [DOCS, ASSETS / "css", ASSETS / "js", DOCS / "data", DOCS / "reports", DOCS / "category", REPORT_IMAGE_ROOT, ENGINEERING]:
+for p in [DOCS, ASSETS / "css", ASSETS / "js", DOCS / "data", DOCS / "category", ENGINEERING, ANNOTATIONS.parent]:
     p.mkdir(parents=True, exist_ok=True)
 
 CATEGORY_DESCRIPTIONS = {
-    "nucleoplasm": "Candidates primarily associated with the nucleoplasm or diffuse nuclear compartment.",
-    "nucleus-cytoplasm": "Candidates with evidence spanning nuclear and cytoplasmic localization.",
-    "nuclear-speckle": "Candidates enriched in nuclear speckles or RNA-processing-associated nuclear bodies.",
-    "nuclear-body": "Candidates associated with discrete nuclear bodies, DNA damage foci, or related assemblies.",
-    "nucleolus": "Candidates localized to or functionally tied to the nucleolus.",
-    "nuclear-envelope": "Candidates associated with the nuclear envelope, lamina, or nuclear pore region.",
-    "chromatin": "Candidates with chromatin, chromosome, histone, or DNA-associated localization/evidence.",
-    "rejected": "Reports eliminated or rejected by screening rules; retained for transparency and auditability.",
+    "nucleoplasm": "主要定位于 nucleoplasm 或弥散核内区域的候选蛋白。",
+    "nucleus-cytoplasm": "同时具有 nucleus 与 cytoplasm 定位证据的候选蛋白。",
+    "nuclear-speckle": "富集于 nuclear speckle 或 RNA processing 相关核内结构的候选蛋白。",
+    "nuclear-body": "定位于 nuclear body、DNA damage foci 或相关核内组装体的候选蛋白。",
+    "nucleolus": "定位于 nucleolus 或与核仁功能相关的候选蛋白。",
+    "nuclear-envelope": "与 nuclear envelope、lamina 或 nuclear pore 区域相关的候选蛋白。",
+    "chromatin": "具有 chromatin、chromosome、histone 或 DNA 相关定位/功能证据的候选蛋白。",
+    "rejected": "被筛选规则淘汰的报告；保留用于透明审计。",
+}
+
+CATEGORY_LABELS = {
+    "nucleoplasm": "Nucleoplasm",
+    "nucleus-cytoplasm": "Nucleus-cytoplasm",
+    "nuclear-speckle": "Nuclear speckle",
+    "nuclear-body": "Nuclear body",
+    "nucleolus": "Nucleolus",
+    "nuclear-envelope": "Nuclear envelope",
+    "chromatin": "Chromatin",
+    "rejected": "Rejected",
 }
 
 
@@ -43,8 +56,39 @@ def load_index() -> tuple[dict, list[dict]]:
     return data.get("metadata", {}), data.get("records", [])
 
 
+def ensure_annotations_table() -> None:
+    if ANNOTATIONS.exists():
+        return
+    ANNOTATIONS.write_text(
+        "gene\treport_path\trow_class\tnote\tpriority\n"
+        "SETMAR\t\thighlight\tExample: important candidate; edit or delete this example row.\tnormal\n",
+        encoding="utf-8",
+    )
+
+
+def load_annotations() -> dict[tuple[str, str], dict[str, str]]:
+    ensure_annotations_table()
+    out: dict[tuple[str, str], dict[str, str]] = {}
+    with ANNOTATIONS.open("r", encoding="utf-8", newline="") as f:
+        reader = csv.DictReader(f, delimiter="\t")
+        for row in reader:
+            gene = (row.get("gene") or "").strip()
+            report_path = (row.get("report_path") or "").strip()
+            if not gene:
+                continue
+            out[(gene.casefold(), report_path)] = row
+            if not report_path:
+                out[(gene.casefold(), "")] = row
+    return out
+
+
 def slug(s: str) -> str:
     return re.sub(r"[^A-Za-z0-9._-]+", "_", s).strip("_") or "item"
+
+
+def detail_href(rec: dict, prefix: str) -> str:
+    up = "../" if prefix == "" else "../../"
+    return quote(up + rec["report_path"], safe="/#._-")
 
 
 def is_external(src: str) -> bool:
@@ -269,13 +313,15 @@ def html_page(title: str, body: str, depth: int = 0, extra_class: str = "") -> s
 
 
 def nav(prefix: str = "") -> str:
+    category_links = ''.join(
+        f'<a href="{prefix}category/{cat}.html">{html.escape(label)}</a>'
+        for cat, label in CATEGORY_LABELS.items()
+    )
     return f'''<header class="topbar">
   <a class="brand" href="{prefix}index.html">Protein Scout</a>
   <nav>
-    <a href="{prefix}protein_index.html">Protein Index</a>
-    <a href="{prefix}category/nucleoplasm.html">Nucleoplasm</a>
-    <a href="{prefix}category/nuclear-body.html">Nuclear body</a>
-    <a href="{prefix}category/rejected.html">Rejected</a>
+    <a href="{prefix}protein_index.html">总表</a>
+    {category_links}
   </nav>
 </header>'''
 
@@ -294,40 +340,71 @@ def evidence_badges(rec: dict) -> str:
     return '<div class="badges">' + ''.join(badge(label, bool(rec.get(key))) for label, key in keys) + '</div>'
 
 
-def protein_rows(records: list[dict], prefix: str = "") -> str:
+def annotation_for(rec: dict, annotations: dict[tuple[str, str], dict[str, str]]) -> dict[str, str]:
+    return (
+        annotations.get((rec["gene"].casefold(), rec.get("report_path", "")))
+        or annotations.get((rec["gene"].casefold(), ""))
+        or {}
+    )
+
+
+def protein_rows(records: list[dict], prefix: str = "", annotations: dict[tuple[str, str], dict[str, str]] | None = None) -> str:
+    annotations = annotations or {}
     rows = []
     for rec in records:
         score = rec.get("score") if rec.get("score") is not None else ""
         nuclear = rec.get("nuclear_score") if rec.get("nuclear_score") is not None else ""
-        backlog = rec.get("known_backlog_flags") or ""
-        rows.append(f'''<tr data-gene="{html.escape(rec['gene'].lower())}" data-status="{html.escape(rec['status'])}" data-category="{html.escape(rec['category'])}" data-score="{score or ''}" data-nuclear-score="{nuclear or ''}">
-<td><a class="gene-link" href="{prefix}{html.escape(rec['docs_report_path'])}">{html.escape(rec['gene'])}</a></td>
+        size = rec.get("size_score") or ""
+        novelty = rec.get("novelty_score") or ""
+        structure = rec.get("structure_score") or ""
+        domain = rec.get("domain_score") or ""
+        ppi = rec.get("ppi_score") or ""
+        corroboration = rec.get("corroboration_score") or ""
+        pubmed = rec.get("pubmed_count") or ""
+        recommendation = rec.get("recommendation") or rec.get("rejection_reason") or ""
+        protein_full_name = rec.get("protein_full_name") or ""
+        ann = annotation_for(rec, annotations)
+        row_class = (ann.get("row_class") or "").strip().lower()
+        if row_class not in {"danger", "warning", "highlight", "muted"}:
+            row_class = ""
+        row_note = ann.get("note") or ""
+        detail = detail_href(rec, prefix)
+        if row_note:
+            recommendation = f"{row_note}; {recommendation}" if recommendation else row_note
+        rows.append(f'''<tr class="{html.escape('row-' + row_class if row_class else '')}" title="{html.escape(row_note)}" data-gene="{html.escape(rec['gene'].lower())}" data-status="{html.escape(rec['status'])}" data-category="{html.escape(rec['category'])}" data-score="{score or ''}" data-nuclear-score="{nuclear or ''}">
+<td><a class="gene-link" href="{html.escape(detail)}">{html.escape(rec['gene'])}</a></td>
 <td>{badge(rec['status'], rec['status'] == 'scored')}</td>
-<td><a href="{prefix}category/{html.escape(rec['category'])}.html">{html.escape(rec['category'])}</a></td>
-<td class="num">{html.escape(str(score or ''))}</td>
+<td class="protein-name">{html.escape(protein_full_name)}</td>
 <td class="num">{html.escape(str(nuclear or ''))}</td>
-<td>{evidence_badges(rec)}</td>
-<td class="flags">{html.escape(backlog)}</td>
-<td><a class="button small" href="{prefix}{html.escape(rec['docs_report_path'])}">Open</a></td>
+<td class="num">{html.escape(str(size))}</td>
+<td class="num">{html.escape(str(novelty))}</td>
+<td class="num">{html.escape(str(structure))}</td>
+<td class="num">{html.escape(str(domain))}</td>
+<td class="num">{html.escape(str(ppi))}</td>
+<td class="num">{html.escape(str(corroboration))}</td>
+<td class="num score-cell">{html.escape(str(score or ''))}</td>
+<td class="num">{html.escape(str(pubmed))}</td>
+<td class="recommendation">{html.escape(str(recommendation))}</td>
+<td><a class="button small detail-arrow" href="{html.escape(detail)}" title="打开详情" aria-label="打开详情">→</a></td>
 </tr>''')
     return '\n'.join(rows)
 
 
-def table_block(records: list[dict], prefix: str = "") -> str:
+def table_block(records: list[dict], prefix: str = "", annotations: dict[tuple[str, str], dict[str, str]] | None = None) -> str:
     return f'''<section class="panel table-panel">
   <div class="controls" data-controls>
-    <input type="search" data-search placeholder="Search gene symbol" aria-label="Search gene symbol">
-    <select data-status-filter aria-label="Filter by status"><option value="">All status</option><option value="scored">Scored</option><option value="rejected">Rejected</option></select>
-    <select data-category-filter aria-label="Filter by category"><option value="">All categories</option></select>
-    <button class="button" type="button" data-sort-score>Sort score</button>
-    <button class="button" type="button" data-sort-nuclear>Sort nuclear score</button>
-    <button class="button ghost" type="button" data-clear>Clear</button>
+    <input type="search" data-search placeholder="搜索 Gene symbol" aria-label="搜索 Gene symbol">
+    <select data-status-filter aria-label="按状态筛选"><option value="">全部状态</option><option value="scored">Scored</option><option value="rejected">Rejected</option></select>
+    <select data-category-filter aria-label="按定位分类筛选"><option value="">全部定位分类</option></select>
+    <button class="button" type="button" data-sort-score>按总分排序</button>
+    <button class="button" type="button" data-sort-nuclear>按核定位排序</button>
+    <button class="button ghost" type="button" data-clear>清除筛选</button>
   </div>
-  <div class="table-meta"><span data-visible-count>{len(records)}</span> visible / {len(records)} records</div>
+  <div class="table-meta">当前显示 <span data-visible-count>{len(records)}</span> / {len(records)} 条记录，默认按总分降序。</div>
   <div class="table-wrap">
     <table class="protein-table" data-protein-table>
-      <thead><tr><th>Gene</th><th>Status</th><th>Category</th><th>Score</th><th>Nuclear score</th><th>Evidence</th><th>Backlog / manual</th><th>Detail</th></tr></thead>
-      <tbody>{protein_rows(records, prefix)}</tbody>
+      <thead><tr><th>Gene</th><th>状态</th><th>蛋白全称</th><th>核</th><th>大</th><th>新</th><th>结</th><th>域</th><th>PPI</th><th>互证</th><th>总分</th><th>PubMed</th><th>推荐/原因</th><th>详情</th></tr></thead>
+      <tbody>{protein_rows(records, prefix, annotations)}</tbody>
     </table>
   </div>
 </section>'''
@@ -360,9 +437,11 @@ h1 { margin: 0 0 10px; font-size: 38px; line-height: 1.12; letter-spacing: 0; } 
 input, select { min-height: 36px; border: 1px solid var(--line); border-radius: 6px; padding: 7px 10px; background: #fff; color: var(--ink); font: inherit; } input[type="search"] { min-width: min(360px, 100%); }
 .table-meta { color: var(--muted); font-size: 13px; margin-bottom: 8px; }
 .table-wrap { overflow: auto; border: 1px solid var(--line); border-radius: 8px; background: #fff; }
-table { width: 100%; border-collapse: collapse; font-size: 14px; } th, td { padding: 9px 10px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
-th { position: sticky; top: 49px; background: #f3f5f8; color: #344054; font-size: 12px; text-transform: uppercase; letter-spacing: .04em; z-index: 1; }
-tr:hover td { background: #f8fbff; } .num { text-align: right; font-variant-numeric: tabular-nums; } .gene-link { font-weight: 760; }
+table { width: 100%; border-collapse: separate; border-spacing: 0; font-size: 14px; } th, td { padding: 9px 10px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
+thead th { position: sticky; top: 0; background: #f3f5f8; color: #344054; font-size: 12px; text-transform: uppercase; letter-spacing: .04em; z-index: 2; }
+tr:hover td { background: #f8fbff; } .num { text-align: right; font-variant-numeric: tabular-nums; } .gene-link { font-weight: 760; } .protein-name { min-width: 220px; max-width: 380px; color: #344054; }
+tr.row-danger td { background: #fff1f2; } tr.row-warning td { background: #fffbeb; } tr.row-highlight td { background: #eff6ff; } tr.row-muted td { color: #667085; background: #f8fafc; }
+tr.row-danger:hover td { background: #ffe4e6; } tr.row-warning:hover td { background: #fef3c7; } tr.row-highlight:hover td { background: #dbeafe; }
 .badges { display: flex; flex-wrap: wrap; gap: 5px; } .badge { display: inline-flex; align-items: center; min-height: 22px; padding: 2px 7px; border-radius: 999px; background: var(--chip); color: #344054; font-size: 12px; font-weight: 650; white-space: nowrap; } .badge.good { background: #dff6ed; color: var(--good); } .badge.muted { background: #f1f3f5; color: #98a2b3; }
 .flags { max-width: 260px; color: var(--warn); font-size: 13px; }
 .report-shell { display: grid; grid-template-columns: minmax(0, 1fr); gap: 16px; } .report-meta { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
@@ -372,7 +451,7 @@ tr:hover td { background: #f8fbff; } .num { text-align: right; font-variant-nume
 .report-body figure { margin: 14px 0; } .report-body img { max-width: 100%; height: auto; border: 1px solid var(--line); border-radius: 6px; background: #fff; }
 .missing-image { margin: 12px 0; padding: 10px 12px; border: 1px dashed var(--warn); border-radius: 6px; color: var(--warn); background: #fff7ed; overflow-wrap: anywhere; }
 .footer-note { color: var(--muted); font-size: 13px; margin-top: 26px; }
-@media (max-width: 900px) { .topbar { align-items: flex-start; flex-direction: column; } .hero { grid-template-columns: 1fr; } .stats-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } h1 { font-size: 30px; } th { top: 98px; } }
+@media (max-width: 900px) { .topbar { align-items: flex-start; flex-direction: column; } .hero { grid-template-columns: 1fr; } .stats-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } h1 { font-size: 30px; } }
 '''
     (ASSETS / "css" / "style.css").write_text(css, encoding="utf-8")
 
@@ -425,37 +504,38 @@ document.addEventListener('DOMContentLoaded', initProteinTables);
     (ASSETS / "js" / "app.js").write_text(js, encoding="utf-8")
 
 
-def build_home(meta: dict, records: list[dict]) -> None:
+def build_home(meta: dict, records: list[dict], annotations: dict[tuple[str, str], dict[str, str]]) -> None:
     status_counts = Counter(r["status"] for r in records)
     cat_counts = Counter(r["category"] for r in records)
     duplicate_records = sum(1 for r in records if int(r.get("duplicate_count") or 1) > 1)
     backlog_records = sum(1 for r in records if r.get("known_backlog_flags"))
     preview = sorted([r for r in records if r["status"] == "scored"], key=lambda r: float(r.get("score") or -1), reverse=True)[:80]
     stat_cards = ''.join([
-        f'<div class="stat"><span class="label">Total reports</span><span class="value">{len(records):,}</span></div>',
+        f'<div class="stat"><span class="label">详情报告</span><span class="value">{len(records):,}</span></div>',
         f'<div class="stat"><span class="label">Scored</span><span class="value">{status_counts.get("scored",0):,}</span></div>',
         f'<div class="stat"><span class="label">Rejected</span><span class="value">{status_counts.get("rejected",0):,}</span></div>',
-        f'<div class="stat"><span class="label">Categories</span><span class="value">{len(cat_counts):,}</span></div>',
-        f'<div class="stat"><span class="label">Duplicates</span><span class="value">{duplicate_records:,}</span></div>',
+        f'<div class="stat"><span class="label">定位分类</span><span class="value">{len(cat_counts):,}</span></div>',
+        f'<div class="stat"><span class="label">Duplicate records</span><span class="value">{duplicate_records:,}</span></div>',
         f'<div class="stat"><span class="label">Backlog flags</span><span class="value">{backlog_records:,}</span></div>',
     ])
-    nav_buttons = ''.join(f'<a class="button" href="category/{cat}.html">{html.escape(cat)} <span class="badge">{cat_counts.get(cat,0)}</span></a>' for cat in CATEGORY_DESCRIPTIONS)
+    nav_buttons = ''.join(f'<a class="button" href="category/{cat}.html">{html.escape(CATEGORY_LABELS.get(cat, cat))} <span class="badge">{cat_counts.get(cat,0)}</span></a>' for cat in CATEGORY_DESCRIPTIONS)
     body = nav("") + f'''<main class="container">
-  <section class="hero"><div><h1>Protein Scout / TEreg Finding Atlas</h1><p class="lede">A static research atlas for TE-regulation candidate protein evaluations. The site is generated from the existing master summary and the original per-protein reports without modifying scientific report content.</p></div><div class="panel"><h2>Screening focus</h2><p>Nuclear localization, domain evidence, novelty, structure evidence, protein interactions, and literature support are summarized for fast review.</p></div></section>
+  <section class="hero"><div><h1>Protein Scout / TEreg Finding Atlas</h1><p class="lede">基于现有总表和 detail 报告生成的静态网页，用于浏览 TE regulation 候选蛋白的评分、定位分类、PubMed 数量和完整评估报告。</p></div><div class="panel"><h2>筛选重点</h2><p>综合核定位、蛋白大小、研究新颖性、三维结构、调控结构域、PPI 网络和互证加分；表格默认按总分降序。</p></div></section>
   <section class="stats-grid">{stat_cards}</section>
-  <section class="panel"><h2>Current data state</h2><p>Excel coverage is recorded as 4,756/4,756. Known non-blocking backlog remains visible: 832 need reharvest backlog, 43 duplicate conflicts, and pre-existing gate errors.</p></section>
-  <section class="panel"><h2>Browse</h2><div class="nav-grid"><a class="button primary" href="protein_index.html">All proteins</a>{nav_buttons}</div></section>
-  <h2>High-scoring preview</h2>{table_block(preview, '')}
+  <section class="panel"><h2>当前数据状态</h2><p>Excel coverage: 4,756/4,756。已知非阻塞 backlog: 832 need reharvest、43 duplicate conflicts、pre-existing gate errors。</p></section>
+  <section class="panel"><h2>浏览</h2><div class="nav-grid"><a class="button primary" href="protein_index.html">全部蛋白</a>{nav_buttons}</div></section>
+  <h2>高分候选预览</h2>{table_block(preview, '', annotations)}
 </main>'''
-    (DOCS / "index.html").write_text(html_page("Home", body, 0, "home"), encoding="utf-8")
+    (DOCS / "index.html").write_text(html_page("首页", body, 0, "home"), encoding="utf-8")
 
 
-def build_index(records: list[dict]) -> None:
-    body = nav("") + f'''<main class="container"><h1>Protein Index</h1><p class="lede">Search, filter, and sort all generated protein report records. Detail pages preserve the original evaluation report body as rendered HTML.</p>{table_block(records, '')}</main>'''
-    (DOCS / "protein_index.html").write_text(html_page("Protein Index", body), encoding="utf-8")
+def build_index(records: list[dict], annotations: dict[tuple[str, str], dict[str, str]]) -> None:
+    sorted_records = sorted(records, key=lambda r: (-(float(r.get("score") or -1)), r["gene"]))
+    body = nav("") + f'''<main class="container"><h1>蛋白总表</h1><p class="lede">按 `protein-finding.md` 总表样式展示评分维度；默认按总分降序。点击 Gene 或箭头进入原始 detail Markdown 报告。</p>{table_block(sorted_records, '', annotations)}</main>'''
+    (DOCS / "protein_index.html").write_text(html_page("蛋白总表", body), encoding="utf-8")
 
 
-def build_categories(records: list[dict]) -> None:
+def build_categories(records: list[dict], annotations: dict[tuple[str, str], dict[str, str]]) -> None:
     by_cat: dict[str, list[dict]] = defaultdict(list)
     for rec in records:
         by_cat[rec["category"]].append(rec)
@@ -464,8 +544,8 @@ def build_categories(records: list[dict]) -> None:
         all_categories.append(cat)
     for cat in all_categories:
         recs = sorted(by_cat.get(cat, []), key=lambda r: (-(float(r.get("score") or -1)), r["gene"]))
-        body = nav("../") + f'''<main class="container"><h1>Category: {html.escape(cat)}</h1><p class="lede">{html.escape(CATEGORY_DESCRIPTIONS.get(cat, "Generated category page."))}</p><section class="stats-grid"><div class="stat"><span class="label">Records</span><span class="value">{len(recs):,}</span></div></section><p><a class="button" href="../index.html">Home</a> <a class="button" href="../protein_index.html">All proteins</a></p>{table_block(recs, '../')}</main>'''
-        (DOCS / "category" / f"{cat}.html").write_text(html_page(f"Category {cat}", body, 1), encoding="utf-8")
+        body = nav("../") + f'''<main class="container"><h1>定位分类：{html.escape(CATEGORY_LABELS.get(cat, cat))}</h1><p class="lede">{html.escape(CATEGORY_DESCRIPTIONS.get(cat, "生成的定位分类页。"))}</p><section class="stats-grid"><div class="stat"><span class="label">记录数</span><span class="value">{len(recs):,}</span></div></section><p><a class="button" href="../index.html">首页</a> <a class="button" href="../protein_index.html">全部蛋白</a></p>{table_block(recs, '../', annotations)}</main>'''
+        (DOCS / "category" / f"{cat}.html").write_text(html_page(f"定位分类 {cat}", body, 1), encoding="utf-8")
 
 
 def build_reports(records: list[dict]) -> list[dict]:
@@ -478,7 +558,7 @@ def build_reports(records: list[dict]) -> list[dict]:
         image_rows.extend(rewriter.map_rows)
         score = rec.get("score") if rec.get("score") is not None else "NA"
         nuclear = rec.get("nuclear_score") if rec.get("nuclear_score") is not None else "NA"
-        body = nav("../") + f'''<main class="container report-shell"><section class="panel"><h1>{html.escape(rec['gene'])}</h1><div class="report-meta">{badge(rec['status'], rec['status'] == 'scored')}{badge(rec['category'])}{badge('Score: ' + str(score))}{badge('Nuclear: ' + str(nuclear))}<a class="button small" href="../protein_index.html">Protein Index</a><a class="button small" href="../category/{html.escape(rec['category'])}.html">Category page</a></div><p class="source-path">Original detail path: {html.escape(rec['report_path'])}</p></section><article class="report-body">{rendered}</article></main>'''
+        body = nav("../") + f'''<main class="container report-shell"><section class="panel"><h1>{html.escape(rec['gene'])}</h1><div class="report-meta">{badge(rec['status'], rec['status'] == 'scored')}{badge(rec['category'])}{badge('总分: ' + str(score))}{badge('核定位: ' + str(nuclear))}<a class="button small" href="../protein_index.html">蛋白总表</a><a class="button small" href="../category/{html.escape(rec['category'])}.html">分类页</a></div><p class="source-path">原始 detail 路径: {html.escape(rec['report_path'])}</p></section><article class="report-body">{rendered}</article></main>'''
         out = DOCS / rec["docs_report_path"]
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(html_page(rec["gene"], body, 1, "report-page"), encoding="utf-8")
@@ -496,11 +576,13 @@ def write_image_map(rows: list[dict]) -> Path:
 
 def main() -> None:
     meta, records = load_index()
-    write_css(); write_js(); build_home(meta, records); build_index(records); build_categories(records)
-    image_rows = build_reports(records)
+    annotations = load_annotations()
+    write_css(); write_js(); build_home(meta, records, annotations); build_index(records, annotations); build_categories(records, annotations)
+    image_rows = build_reports(records) if GENERATE_HTML_REPORTS else []
     image_map = write_image_map(image_rows)
     copied = sum(1 for r in image_rows if r.get("copied") == "True")
-    print(f"pages_reports={len(records)} copied_images={copied} image_map={image_map}")
+    mode = "html_reports" if GENERATE_HTML_REPORTS else "markdown_links"
+    print(f"mode={mode} records={len(records)} copied_images={copied} image_map={image_map}")
 
 if __name__ == "__main__":
     if ROOT.name != "protein-scout-TEreg-finding":
