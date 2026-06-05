@@ -82,7 +82,6 @@ pm: 17
 
 **PAE 图**:
 
-![[Projects/TEreg-finding/protein-interested/detail/nucleus-cytoplasm/RIPPLY1/RIPPLY1-PAE.png]]
 
 **评价**: 无 PDB 结构，仅 AlphaFold 预测。pLDDT 均值 59.8（偏低），仅 2.6% 残基 >90。小蛋白但预测置信度低，可能为部分无序蛋白或需要结合伴侣才稳定折叠。
 
@@ -188,7 +187,6 @@ pm: 17
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleus-cytoplasm/RIPPLY1/RIPPLY1-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

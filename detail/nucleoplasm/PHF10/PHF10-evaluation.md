@@ -24,7 +24,6 @@ status: scored
 | 研究新颖性 | 8/10 | x5 | 40.0 | PubMed strict=39, broad=54 |
 | 三维结构 | 6/10 | x3 | 18.0 | AlphaFold pLDDT 70.1；PDB 2 个 EM（全长在 SWI/SNF 复合体中） |
 
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/PHF10/PHF10-PAE.png]]
 | 调控结构域 | 6/10 | x2 | 12.0 | PHD finger (chromatin reader) + Zn-finger，PBAF 复合体特异性亚基 |
 | PPI 网络 | 7/10 | x3 | 21.0 | 完整 PBAF/SWI-SNF 复合体成员，STRONG experimental STRING (all 0.999) + IntAct |
 | **加权总分** | | | **129/180**** | |
@@ -103,7 +102,6 @@ HPA IF 图像已本地嵌入。
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/PHF10/PHF10-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

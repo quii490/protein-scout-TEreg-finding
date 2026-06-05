@@ -24,7 +24,6 @@ status: scored
 | 研究新颖性 | 10/10 | ×5 | 50.0 | PubMed strict=11, ≤20 |
 | 三维结构 | 9/10 | ×3 | 27.0 | AlphaFold mean pLDDT 92.6; 13 PDB (X-ray + EM, 全蛋白高分辨) |
 
-![[CENPX-PAE.png]]
 | 调控结构域 | 2/10 | ×2 | 4.0 | IPR018552, PF09415 — MHF/CENP-X 特异结构域; 功能域简单 |
 | PPI 网络 | 7/10 | ×3 | 21.0 | Fanconi anemia + inner kinetochore 双网络; CENPS(0.999), FANCM(0.999), FANC family; IntAct 多 co-IP |
 | **加权总分** | | | **144/180**** | |
@@ -55,7 +54,6 @@ status: scored
 | Pfam | PF09415 |
 
 **AlphaFold PAE 状态**: PAE 已下载，模型置信度极高（mean pLDDT 92.6, >90 占 88.9%）。小蛋白折叠紧凑，预测可靠性强。
-![[CENPX-PAE.png]]
 
 #### 3.3 研究现状
 | 指标 | 数值 |
@@ -93,14 +91,12 @@ CENPX 是本批次评分最高的候选（80.0/100）。核心优势：极低文
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CENPX
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000169689-CENPX（无 IF 原图）
 
-![[Projects/TEreg-finding/protein-interested/detail/chromatin/CENPX/CENPX-PAE.png]]
 
 HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。
 
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/chromatin/CENPX/CENPX-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

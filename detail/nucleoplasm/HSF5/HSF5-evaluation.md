@@ -24,7 +24,6 @@ status: scored
 | 研究新颖性 | 8/10 | ×5 | 40.0 | PubMed strict=22, broad=44 |
 | 三维结构 | 6/10 | ×3 | 18.0 | PDB 8ZYS X-ray 2.00A DBD 部分; AlphaFold pLDDT 52.8 (整体无序) |
 
-![[HSF5-PAE.png]]
 | 调控结构域 | 7/10 | ×2 | 14.0 | HSF DNA-binding domain (PF00447); 雄性减数分裂关键 TF |
 | PPI 网络 | 4/10 | ×3 | 12.0 | STRING 弱 (最高 HRC 0.573); IntAct 仅 3 partners; UniProt 无记录 |
 | **加权总分** | | | **121/180**** | |
@@ -93,7 +92,6 @@ HSF5 是一个高潜力的减数分裂特异性转录因子：核定位确认、
 
 ![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/HSF5/IF_images/CACO-2_1.jpg]]
 
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/HSF5/HSF5-PAE.png]]
 
 HPA IF 图像已本地嵌入。
 
@@ -102,7 +100,6 @@ HPA IF 图像已本地嵌入。
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/HSF5/HSF5-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

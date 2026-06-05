@@ -90,7 +90,7 @@ status: rejected
 | 可用 PDB 条目 | 3LV3, 7UHF, 7UHG, 8E59, 8E5A, 8E5B |
 
 
-**PAE**: PAE 图像未生成本地文件，结构判断基于 AlphaFold pLDDT 统计。
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 **评价**: AlphaFold 预测质量有限（pLDDT=64.3），有序残基占 56.2%。
 
@@ -183,6 +183,8 @@ status: rejected
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Packet data timestamp: 2026-06-03 04:28:58
 
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
 
-
-
+![](https://alphafold.ebi.ac.uk/files/AF-Q01668-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

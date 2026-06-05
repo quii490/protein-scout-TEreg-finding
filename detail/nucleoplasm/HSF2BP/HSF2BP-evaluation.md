@@ -75,7 +75,6 @@ PubMed 仅 15 篇严格文献。HSF2BP 主要在 meiosis (BRCA2/SPATA22 interact
 | PDB | 7BDX (2.60A, aa122-334), 7LDG (2.56A, aa83-334), 8A50 (1.48A, BRCA2 peptide complex), 8A51 (1.90A) |
 
 **AlphaFold PAE**:
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/HSF2BP/HSF2BP-PAE.png]]
 
 极高结构质量：pLDDT=91.0, 79.9% >90。4 个 PDB entries（含 1.48A 高分辨 BRCA2 复合物结构）。结构生物学可行性极高。
 
@@ -171,7 +170,6 @@ HPA IF 图像已本地嵌入。
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/HSF2BP/HSF2BP-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

@@ -1,7 +1,6 @@
 gene	report_path	row_class	note	priority
 ALKBH4		warning		candidate
 AMMECR1		warning		candidate
-APEX1		warning		candidate
 ARL14EP		warning		candidate
 BOD1L1		warning		candidate
 C10ORF71		warning		candidate
@@ -37,9 +36,7 @@ C9ORF40		warning		candidate
 CARNMT1		warning		candidate
 CCAR2		warning		candidate
 CCDC89		warning		candidate
-CENPA		warning		candidate
 CHTOP		warning		candidate
-CRY1		warning		candidate
 CSRNP2		warning		candidate
 CXORF58		warning		candidate
 DCANP1		warning		candidate
@@ -47,7 +44,6 @@ DEK		warning		candidate
 DERPC		warning		candidate
 DMRTC2		warning		candidate
 DPY19L2		warning		candidate
-E2F1		warning		candidate
 ERFL		warning		candidate
 ERICH1		warning		candidate
 ERICH6		warning		candidate
@@ -90,7 +86,6 @@ HCFC1		warning		candidate
 HJURP		warning		candidate
 HROB		warning		candidate
 JRKL		warning		candidate
-JUN		warning		candidate
 KHNYN		warning		candidate
 KIAA0408		warning		candidate
 KIAA0930		warning		candidate
@@ -104,12 +99,10 @@ MAMLD1		warning		candidate
 MCRIP1		warning		candidate
 MPG		warning		candidate
 MTF2		warning		candidate
-MYB		warning		candidate
 NACC1		warning		candidate
 NAT10		warning		candidate
 NPM1		warning		candidate
 PAGR1		warning		candidate
-PER2		warning		candidate
 PHF3		warning		candidate
 PIMREG		warning		candidate
 PQBP1		warning		candidate
@@ -125,7 +118,6 @@ SSUH2		warning		candidate
 SSX3		warning		candidate
 STPG1		warning		candidate
 STPG4		warning		candidate
-SUV39H1		warning		candidate
 TATDN3		warning		candidate
 TDRD3		warning		candidate
 TDRP		warning		candidate
@@ -136,7 +128,4 @@ UBTFL1		warning		candidate
 WDR18		warning		candidate
 WDR76		warning		candidate
 WDR77		warning		candidate
-XRCC2		warning		candidate
 XRCC6		warning		candidate
-XRN2		warning		candidate
-YY1		warning		candidate

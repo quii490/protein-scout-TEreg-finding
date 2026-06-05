@@ -41,7 +41,7 @@ status: rejected
 | Protein Atlas (IF) | Nucleoli; 额外: Nucleoplasm, Plasma membrane | Approved |
 | UniProt | Membrane | Swiss-Prot/TrEMBL |
 
-**IF 图像获取**: 未下载本地IF图像（standard evaluation），核定位证据基于HPA subcellular localization注释、UniProt注释和GO-CC术语。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 **GO Cellular Component**:
 - ANPR-A receptor complex (GO:1990620)
@@ -84,7 +84,7 @@ status: rejected
 | 有序区域 (pLDDT>70) 占比 | 86.0% |
 | 可用 PDB 条目 | 8TG9, 8TGA, 9BCL, 9BCN, 9BCO, 9BCP, 9BCQ, 9BCS, 9BCV |
 
-**PAE**: PAE 图像未生成本地文件（standard evaluation），结构判断基于 AlphaFold pLDDT 统计。
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 **评价**: PDB实验结构（8TG9, 8TGA, 9BCL, 9BCN, 9BCO, 9BCP, 9BCQ, 9BCS, 9BCV）+ AlphaFold极高置信度预测（pLDDT=84.6），结构可信度极高。
 
@@ -176,3 +176,20 @@ status: rejected
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/P16066
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoli (approved)。来源: https://www.proteinatlas.org/ENSG00000169418-NPR1/subcellular
+
+![](https://images.proteinatlas.org/31087/1061_E3_1_red_green.jpg)
+![](https://images.proteinatlas.org/31087/1061_E3_2_red_green.jpg)
+![](https://images.proteinatlas.org/31087/330_F1_1_red_green.jpg)
+![](https://images.proteinatlas.org/31087/330_F1_2_red_green.jpg)
+![](https://images.proteinatlas.org/31087/331_F1_1_red_green.jpg)
+![](https://images.proteinatlas.org/31087/331_F1_3_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-P16066-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

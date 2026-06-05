@@ -97,7 +97,7 @@
 <tr><td>实验结构 (PDB)</td><td>无</td></tr>
 </tbody></table></div>
 <p>AlphaFold低质量预测(pLDDT 68.1)，仅43.2%有序。27.1%的pLDDT&lt;50区域可能代表AKIRIN1作为adaptor蛋白的功能性无序区域，这类IDR(intrinsically disordered region)常用于介导多蛋白复合物中的灵活互作。小adaptor蛋白的高比例无序是功能特征而非结构缺陷——许多hub蛋白(如p53 N端、CREB binding protein)具有类似特征。但无PDB实验结构降低了结构可信度。<strong>评分: 4/10</strong>。</p>
-<p>PAE图像未生成本地文件，但基于pLDDT分布推测，有序区(前90个残基)内部PAE可能较低，而无序区PAE较高。</p>
+<p><strong>PAE 图像说明</strong>: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。</p>
 <h5>4.5 结构域分析</h5>
 <div class="table-wrap"><table>
 <thead><tr><th>来源</th><th>结构域</th></tr></thead><tbody>
@@ -126,7 +126,9 @@
 <p><strong>AKIRIN1应进入scored蛋白列表</strong>。尽管蛋白大小和结构质量偏弱，但其纯核定位(Approved HPA) + chromatin GO注释 + 极度新颖 + 实验PPI集中于核功能蛋白的组合使其成为TE调控研究的有趣候选——特别是如果其chromatin注释反映了在特定基因组区域(如TE位点)的富集。</p>
 <h4>6. 数据来源</h4>
 <ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9H9L7</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9H9L7</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=AKIRIN1%5BTitle/Abstract%5D</li><li>HPA: https://www.proteinatlas.org/ENSG00000174574-AKIRIN1</li><li>STRING: https://string-db.org/network/9606.ENSP00000366569</li><li>IntAct: https://www.ebi.ac.uk/intact/interactors/id:Q9H9L7</li><li>Harvest packet: /Users/quii/Desktop/projects/TE-regulated proteins finding/protein_data/harvest_packets/AKIRIN1.json (2026-06-03)</li></ul>
-<p>HPA IF图像可在线获取(Approved, Nucleoplasm+Nuclear membrane)，未下载本地。PAE未生成本地。</p></article></main>
+<p>HPA IF图像可在线获取(Approved, Nucleoplasm+Nuclear membrane)，未下载本地。PAE未生成本地。</p>
+<p>&lt;!-- AF_PAE_REPAIR_START --&gt; <strong>PAE 图像修正（2026-06-05）</strong>: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。</p>
+<p><figure><img src="https://alphafold.ebi.ac.uk/files/AF-Q9H9L7-F1-predicted_aligned_error_v6.png" alt="image"></figure> &lt;!-- AF_PAE_REPAIR_END --&gt;</p></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

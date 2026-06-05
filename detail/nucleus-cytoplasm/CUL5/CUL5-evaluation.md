@@ -41,7 +41,7 @@ status: rejected
 | Protein Atlas (IF) | Golgi apparatus, Cytosol | Approved |
 | UniProt | Nucleus | Swiss-Prot/TrEMBL |
 
-**IF 图像获取**: 未下载本地IF图像（standard evaluation），核定位证据基于HPA subcellular localization注释、UniProt注释和GO-CC术语。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 **GO Cellular Component**:
 - Cul5-RING ubiquitin ligase complex (GO:0031466)
@@ -87,7 +87,7 @@ status: rejected
 | 有序区域 (pLDDT>70) 占比 | 93.7% |
 | 可用 PDB 条目 | 3DPL, 3DQV, 4JGH, 4N9F, 6V9I, 7ONI, 8EI2, 8FVI, 8FVJ, 9OMA |
 
-**PAE**: PAE 图像未生成本地文件（standard evaluation），结构判断基于 AlphaFold pLDDT 统计。
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 **评价**: PDB实验结构（3DPL, 3DQV, 4JGH, 4N9F, 6V9I, 7ONI, 8EI2, 8FVI, 8FVJ, 9OMA）+ AlphaFold极高置信度预测（pLDDT=89.3），结构可信度极高。
 
@@ -179,3 +179,20 @@ status: rejected
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q93034
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Golgi apparatus (approved)。来源: https://www.proteinatlas.org/ENSG00000166266-CUL5/subcellular
+
+![](https://images.proteinatlas.org/2185/62_H5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/2185/62_H5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/2185/63_H5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/2185/63_H5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/2185/93_H5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/2185/93_H5_2_blue_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-Q93034-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

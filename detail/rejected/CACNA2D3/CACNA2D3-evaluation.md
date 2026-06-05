@@ -177,7 +177,6 @@ status: rejected
 - Packet data timestamp: 2026-05-31 22:43:51
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/rejected/CACNA2D3/CACNA2D3-PAE.png]]
 
 <!-- HPA_IF_REPAIR_START -->
 **HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (uncertain)。来源: https://www.proteinatlas.org/ENSG00000157445-CACNA2D3/subcellular

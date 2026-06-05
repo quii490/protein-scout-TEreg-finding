@@ -24,7 +24,6 @@ status: scored
 | 研究新颖性 | 10/10 | ×5 | 50.0 | PubMed strict=6, broad=11 |
 | 三维结构 | 5/10 | ×3 | 15.0 | AlphaFold pLDDT 55.7; 54.2% <50; 无 PDB; HMG box domain |
 
-![[HMGXB4-PAE.png]]
 | 调控结构域 | 7/10 | ×2 | 14.0 | HMG box (PF00505); NURF 染色质重塑复合体; Wnt/β-catenin 负调控 |
 | PPI 网络 | 8/10 | ×3 | 24.0 | STRING BPTF/SMARCA1/SMARCA5/RBBP4 强实验验证; NURF 复合体多库互证 |
 | **加权总分** | | | **144/180**** | |
@@ -100,7 +99,6 @@ HMGXB4 是本批中评分最高的候选（79.2/100）。核心优势：NURF 染
 
 ![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/HMGXB4/IF_images/AF22_1.jpg]]
 
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/HMGXB4/HMGXB4-PAE.png]]
 
 HPA IF 图像已本地嵌入。
 
@@ -109,7 +107,6 @@ HPA IF 图像已本地嵌入。
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/HMGXB4/HMGXB4-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

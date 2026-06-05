@@ -24,7 +24,6 @@ status: scored
 | 研究新颖性 | 10/10 | ×5 | 50.0 | PubMed strict=11, broad=13 |
 | 三维结构 | 7/10 | ×3 | 21.0 | AlphaFold pLDDT 79.3; PDB 无 |
 
-![[ASB10-PAE.png]]
 | 调控结构域 | 6/10 | ×2 | 12.0 | SOCS box + ankyrin repeats; SCF-like ECS E3 ubiquitin ligase substrate recognition |
 | PPI 网络 | 5/10 | ×3 | 15.0 | STRING CUL5/ELOB/RNF7 E3 ligase 网络; IntAct 9 条（CUL5 co-IP 等） |
 | **加权总分** | | | **132/180**** | |
@@ -55,7 +54,6 @@ status: scored
 | Pfam | PF00023 (Ankyrin repeat), PF12796, PF07525 (SOCS box) |
 
 **AlphaFold PAE 状态**: PAE image URL 存在 (AF-Q8WXI3-F1-predicted_aligned_error_v6.png)，未生成本地副本。结构判断基于 pLDDT 统计。pLDDT 分布总体良好 (mean 79.3, 78.4% >70)，13.5% <50 的残基可能对应连接区。SOCS box + ankyrin repeat 结构域为 E3 ubiquitin ligase 底物识别模块。
-![[ASB10-PAE.png]]
 
 #### 3.3 研究现状
 | 指标 | 数值 |
@@ -93,14 +91,12 @@ ASB10 是有实验级双定位证据（nucleus + cytoplasm IDA）的 SOCS box E3
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=ASB10
 - HPA: https://www.proteinatlas.org/ENSG00000146926-ASB10
 
-![[Projects/TEreg-finding/protein-interested/detail/nucleus-cytoplasm/ASB10/ASB10-PAE.png]]
 
 HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。
 
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleus-cytoplasm/ASB10/ASB10-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

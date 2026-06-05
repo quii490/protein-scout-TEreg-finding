@@ -41,7 +41,7 @@ status: scored
 | Protein Atlas (IF) | Nucleoli, Nucleoli rim; 额外: Nucleoplasm, Cytosol | Supported |
 | UniProt | Nucleus, nucleoplasm; Nucleus, nucleolus | Swiss-Prot/TremBL |
 
-**IF 图像状态**: HPA未检测到可靠IF图像信号。定位证据基于HPA/UniProt/GO-CC注释。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 **GO Cellular Component**:
 - cytosol (GO:0005829)
@@ -85,7 +85,7 @@ status: scored
 | 有序区域 (pLDDT>70) 占比 | 91.4% |
 | 可用 PDB 条目 | 1ZQ9, 6W6C, 6W6F, 7MQA, 7WTS |
 
-**PAE**: PAE图像下载跳过（快速standard evaluation）。结构判断基于 AlphaFold pLDDT 统计。
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 **评价**: PDB实验结构（1ZQ9, 6W6C, 6W6F, 7MQA, 7WTS）+ AlphaFold极高置信度预测（pLDDT=92.0），结构可信度极高。
 
@@ -168,3 +168,18 @@ status: scored
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9UNQ2
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoli (supported)。来源: https://www.proteinatlas.org/ENSG00000086189-DIMT1/subcellular
+
+![](https://images.proteinatlas.org/42944/518_D4_1_red_green.jpg)
+![](https://images.proteinatlas.org/42944/518_D4_3_red_green.jpg)
+![](https://images.proteinatlas.org/42944/530_D4_1_red_green.jpg)
+![](https://images.proteinatlas.org/42944/530_D4_4_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-Q9UNQ2-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

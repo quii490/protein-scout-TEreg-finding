@@ -175,7 +175,6 @@ CK1alpha通过这些底物间接参与染色质层面的基因调控。其Nuclea
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/chromatin/CSNK1A1/IF_images/CSNK1A1_IF_1028_B8_3_blue_red_green.jpg]]。核定位基于HPA localization/reliability + UniProt + GO-CC。
 
 
-![[Projects/TEreg-finding/protein-interested/detail/chromatin/CSNK1A1/CSNK1A1-PAE.png]]
 
 
 #### PPI 网络
@@ -193,7 +192,6 @@ CK1alpha通过这些底物间接参与染色质层面的基因调控。其Nuclea
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/chromatin/CSNK1A1/CSNK1A1-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

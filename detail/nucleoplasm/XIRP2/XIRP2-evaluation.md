@@ -41,7 +41,7 @@ status: scored
 | Protein Atlas (IF) | Plasma membrane; 额外: Nucleoplasm | Approved |
 | UniProt | Cell junction | Swiss-Prot/TrEMBL |
 
-**IF 图像获取**: 未下载本地IF图像（standard evaluation），核定位证据基于HPA subcellular localization注释、UniProt注释和GO-CC术语。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 **GO Cellular Component**:
 - cell-cell junction (GO:0005911)
@@ -175,3 +175,14 @@ status: scored
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/A4UGR9
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Plasma membrane (approved)。来源: https://www.proteinatlas.org/ENSG00000163092-XIRP2/subcellular
+
+![](https://images.proteinatlas.org/74599/1708_B2_28_cr57eaad1ed1b55_red_green.jpg)
+![](https://images.proteinatlas.org/74599/1708_B2_8_cr57eaad0f887c3_red_green.jpg)
+![](https://images.proteinatlas.org/74599/1751_G4_5_cr57fd2fa615234_red_green.jpg)
+![](https://images.proteinatlas.org/74599/1751_G4_8_cr57fd2faf1a9d9_red_green.jpg)
+![](https://images.proteinatlas.org/74599/1767_C5_18_cr594ba87eefaa4_red_green.jpg)
+![](https://images.proteinatlas.org/74599/1767_C5_7_cr594ba87eeebaf_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

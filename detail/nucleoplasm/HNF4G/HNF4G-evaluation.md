@@ -75,7 +75,6 @@ PubMed 52 篇。HNF4G 主要在 kidney organoid gene regulatory network、pancre
 | PDB | 1LV2 (2.70A, aa103-328, DBD+LBD) |
 
 **AlphaFold PAE**:
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/HNF4G/HNF4G-PAE.png]]
 
 高质量结构：pLDDT=80.5，62.5% >90。1LV2 PDB 结构覆盖 DNA-binding domain (zinc fingers) + ligand-binding domain。N 端 A/B domain 和 C 端 F domain 为无序区域。
 
@@ -167,7 +166,6 @@ HPA IF 图像已本地嵌入。
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/HNF4G/HNF4G-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

@@ -24,7 +24,6 @@ status: scored
 | 研究新颖性 | 10/10 | ×5 | 50.0 | PubMed strict=14, broad=26 |
 | 三维结构 | 8/10 | ×3 | 24.0 | AlphaFold pLDDT 87.7 (pct>90: 71.2%)；PDB 28 个结构 (EM, pre-60S ribosomal subunit) |
 
-![[NSA2-PAE.png]]
 | 调控结构域 | 4/10 | ×2 | 8.0 | Ribosomal protein S8e domain (PF01201)；核糖体生物合成/60S 亚基组装因子 |
 | PPI 网络 | 6/10 | ×3 | 18.0 | STRING: RPF2 (0.999 exp 0.988), GTPBP4 (0.999 exp 0.991), RSL24D1 (0.999 exp 0.969)；IntAct 大量酵母 TAP；UniProt 无记录 |
 | **加权总分** | | | **140/180**** | |
@@ -60,7 +59,6 @@ status: scored
 
 **AlphaFold PAE 状态**: PAE 已下载。pLDDT 良好 (87.7, 71.2% >90)，仅 1.9% <50，结构预测可靠。PDB 拥有大量 pre-60S ribosome Cryo-EM 结构（28 个），均为不同组装状态下的全 60S 颗粒，NSA2 作为组装因子嵌入其中。
 
-![[NSA2-PAE.png]]
 
 #### 3.3 研究现状
 | 指标 | 数值 |
@@ -94,12 +92,10 @@ NSA2 是一个文献量极低（strict=14）、结构验证充分（PDB 28 个 p
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=NSA2
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000164346-NSA2
 
-![[Projects/TEreg-finding/protein-interested/detail/nucleolus/NSA2/NSA2-PAE.png]]
 
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleolus/NSA2/NSA2-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

@@ -41,7 +41,7 @@ status: rejected
 | Protein Atlas (IF) | 暂无HPA定位数据 | 暂无数据 |
 | UniProt | Cytoplasm | Swiss-Prot/TrEMBL |
 
-**IF 图像状态**: HPA未检测到可靠IF图像信号。核定位证据基于HPA subcellular localization注释、UniProt注释和GO-CC术语。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 **GO Cellular Component**:
 - cytosol (GO:0005829)
@@ -82,7 +82,7 @@ status: rejected
 | 有序区域 (pLDDT>70) 占比 | 76.9% |
 | 可用 PDB 条目 | 2VKP |
 
-**PAE**: PAE 图像未生成本地文件（standard evaluation），结构判断基于 AlphaFold pLDDT 统计。
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 **评价**: AlphaFold 高质量预测（pLDDT=81.3，有序区 76.9%），结构可靠。
 
@@ -178,4 +178,20 @@ status: rejected
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/rejected/BTBD6/IF_images/BTBD6_IF_if_selected_60x60.jpg]]
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/rejected/BTBD6/BTBD6-PAE.png]]
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000184887-BTBD6/subcellular
+
+![](https://images.proteinatlas.org/31355/319_C10_1_red_green.jpg)
+![](https://images.proteinatlas.org/31355/319_C10_2_red_green.jpg)
+![](https://images.proteinatlas.org/31355/320_C10_1_red_green.jpg)
+![](https://images.proteinatlas.org/31355/320_C10_2_red_green.jpg)
+![](https://images.proteinatlas.org/31355/340_C10_1_red_green.jpg)
+![](https://images.proteinatlas.org/31355/340_C10_2_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-Q96KE9-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

@@ -24,7 +24,6 @@ status: scored
 | 研究新颖性 | 6/10 | x5 | 30.0 | PubMed strict=42, broad=61 |
 | 三维结构 | 5/10 | x3 | 15.0 | AlphaFold pLDDT 54.5；PDB 7 个 domain 结构（PHD/Tudor/Zn-finger） |
 
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/PHF20/PHF20-PAE.png]]
 | 调控结构域 | 7/10 | x2 | 14.0 | PHD finger + Tudor domain (methyl-lysine reader) + Zn-finger，p53 甲基化 effector |
 | PPI 网络 | 6/10 | x3 | 18.0 | NSL HAT complex (KANSL1-3, KAT8, MCRS1, WDR5) + MLL1 complex, STRONG exp+IntAct |
 | **加权总分** | | | **111/180**** | |
@@ -103,7 +102,6 @@ HPA IF 图像已本地嵌入。
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/PHF20/PHF20-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

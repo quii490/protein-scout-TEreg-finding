@@ -24,7 +24,6 @@ status: scored
 | 研究新颖性 | 2/10 | ×5 | 10.0 | PubMed strict=92, broad=140 |
 | 三维结构 | 7/10 | ×3 | 21.0 | AlphaFold pLDDT 80.5 (pct>90: 38.8%)；PDB 9 个结构 (X-ray+EM, 全蛋白 Cryo-EM 2.20A) |
 
-![[UFL1-PAE.png]]
 | 调控结构域 | 7/10 | ×2 | 14.0 | E3 UFM1 ligase (IPR018611, PF09743)；ufmylation 通路核心酶，调控核糖体回收、ER-phagy、DNA 损伤应答 |
 | PPI 网络 | 5/10 | ×3 | 15.0 | STRING: CDK5RAP3 (0.999 exp 0.856), DDRGK1 (0.996), UFM1 (0.975)；IntAct 部分 (多为 fly Y2H)；UniProt 3 条 |
 | **加权总分** | | | **80/180**** | |
@@ -57,7 +56,6 @@ status: scored
 
 **AlphaFold PAE 状态**: PAE 已下载。pLDDT 良好 (80.5, 81.6% >70)，12.0% <50。PDB 已有多个 Cryo-EM 全蛋白结构（最高 2.20A），与 DDRGK1/CDK5RAP3/UFC1 复合体结构解析充分。
 
-![[UFL1-PAE.png]]
 
 #### 3.3 研究现状
 | 指标 | 数值 |
@@ -90,12 +88,10 @@ UFL1 是 ufmylation 通路的核心 E3 连接酶，在 ER-phagy、核糖体回�
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=UFL1
 - Protein Atlas: https://www.proteinatlas.org/search/UFL1
 
-![[Projects/TEreg-finding/protein-interested/detail/chromatin/UFL1/UFL1-PAE.png]]
 
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/chromatin/UFL1/UFL1-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

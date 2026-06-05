@@ -24,7 +24,6 @@ status: scored
 | 研究新颖性 | 4/10 | x5 | 20.0 | PubMed strict=78, broad=118 |
 | 三维结构 | 9/10 | x3 | 27.0 | 7 PDB 结构 (含 1.48A 全蛋白); AlphaFold mean pLDDT 75.7 |
 
-![[CAMK1D-PAE.png]]
 | 调控结构域 | 4/10 | x2 | 8.0 | Protein kinase domain (IPR000719, IPR011009); 非染色质结构域 |
 | PPI 网络 | 4/10 | x3 | 12.0 | IntAct 15 条; STRING 502 error; UniProt CAMK1(3); 以 Y2H + co-IP 为主 |
 | **加权总分** | | | **96/180**** | |
@@ -101,7 +100,6 @@ CAMK1D 是一个 Ca2+/CaM 信号通路激酶，结构数据极优秀（7 PDB 含
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8IU85
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CAMK1D
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000183049-CAMK1D
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CAMK1D/CAMK1D-PAE.png]]
 
 HPA IF 图像已本地嵌入。
 
@@ -110,7 +108,6 @@ HPA IF 图像已本地嵌入。
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CAMK1D/CAMK1D-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

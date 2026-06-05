@@ -41,7 +41,7 @@ status: scored
 | Protein Atlas (IF) | Nuclear membrane; 额外: Cytosol | Approved |
 | UniProt | 暂无数据（UniProt获取失败） | 获取失败 |
 
-**IF 图像获取**: 未下载本地IF图像（standard evaluation），核定位证据基于HPA subcellular localization注释、UniProt注释和GO-CC术语。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 **GO Cellular Component**:
 - 无 GO-CC 注释 (UniProt未获取)
@@ -160,3 +160,14 @@ status: scored
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/C22orf31
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nuclear membrane (approved)。来源: https://www.proteinatlas.org/ENSG00000100249-C22orf31/subcellular
+
+![](https://images.proteinatlas.org/68522/1943_G10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/68522/1943_G10_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/68522/1953_F3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/68522/1953_F3_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/68522/1971_H4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/68522/1971_H4_2_blue_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

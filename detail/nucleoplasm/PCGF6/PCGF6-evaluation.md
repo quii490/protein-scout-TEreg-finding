@@ -24,7 +24,6 @@ status: scored
 | 研究新颖性 | 8/10 | x5 | 40.0 | PubMed strict=31, broad=74 |
 | 三维结构 | 5/10 | x3 | 15.0 | 1 PDB (2DJB, NMR); AlphaFold mean pLDDT 72.0; pct_gt_90=37.7% |
 
-![[PCGF6-PAE.png]]
 | 调控结构域 | 7/10 | x2 | 14.0 | RING finger (IPR001841) + Zinc finger (IPR013083); PRC1.6 核心; H2A ubiquitination |
 | PPI 网络 | 8/10 | x3 | 24.0 | STRING: RING1 0.999, RNF2 0.999, L3MBTL2 0.997, E2F6 0.997; IntAct 15 条; UniProt 5 条 |
 | **加权总分** | | | **138/180********** | |
@@ -108,14 +107,12 @@ PCGF6 是本批次评分最高的基因之一。作为非经典 PRC1.6 复合体
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=PCGF6
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000156374-PCGF6
 
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/PCGF6/PCGF6-PAE.png]]
 
 HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。
 
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/PCGF6/PCGF6-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

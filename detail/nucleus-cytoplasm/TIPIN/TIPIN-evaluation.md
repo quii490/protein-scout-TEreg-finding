@@ -31,7 +31,6 @@ status: scored
 | 互证加分 | | | +0.5 | PDB+AF 互证(+0.5) |
 | **归一化总分 (÷1.83)** | | | **57.4/100**** | |
 
-![[TIPIN-PAE.png]]
 
 ### 3. 详细分析
 
@@ -135,7 +134,6 @@ TIPIN 是 TIMELESS-TIPIN 复制叉保护复合体的核心组分。chromatin (ID
 
 **HPA IF 状态**: HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。 — HPA 暂无 IF 原图数据。核定位基于 UniProt + GO-CC。
 
-![[Projects/TEreg-finding/protein-interested/detail/nucleus-cytoplasm/TIPIN/TIPIN-PAE.png]]
 
 
 #### PPI 网络
@@ -148,7 +146,6 @@ TIPIN 是 TIMELESS-TIPIN 复制叉保护复合体的核心组分。chromatin (ID
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleus-cytoplasm/TIPIN/TIPIN-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

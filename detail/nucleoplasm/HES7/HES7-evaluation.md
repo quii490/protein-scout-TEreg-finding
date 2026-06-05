@@ -75,7 +75,6 @@ PubMed 共 100 篇文献（严格查询），处于新颖性阈值上限。HES7 
 | PDB | 无 |
 
 **AlphaFold PAE**:
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/HES7/HES7-PAE.png]]
 
 中等置信度，37.3% 高置信区域集中在 bHLH DNA-binding domain，N/C 端存在无序区域。
 
@@ -147,7 +146,6 @@ HPA IF 图像已本地嵌入。
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/HES7/HES7-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

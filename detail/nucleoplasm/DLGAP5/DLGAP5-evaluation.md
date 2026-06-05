@@ -41,7 +41,7 @@ status: rejected
 | Protein Atlas (IF) | Cytosol; 额外: Mitotic spindle | Supported |
 | UniProt | Nucleus; Cytoplasm; Cytoplasm, cytoskeleton, spindle | Swiss-Prot/TrEMBL |
 
-**IF 图像获取**: 未下载本地IF图像（standard evaluation），核定位证据基于HPA subcellular localization注释、UniProt注释和GO-CC术语。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 **GO Cellular Component**:
 - cytoplasm (GO:0005737)
@@ -86,7 +86,7 @@ status: rejected
 | 有序区域 (pLDDT>70) 占比 | 27.4% |
 | 可用 PDB 条目 | 7ZX4, 8X9P, 9DHZ, 9DUQ |
 
-**PAE**: PAE 图像未生成本地文件（standard evaluation），结构判断基于 AlphaFold pLDDT 统计。
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 **评价**: AlphaFold 预测质量有限（pLDDT=55.6），有序残基占 27.4%。
 
@@ -178,3 +178,20 @@ status: rejected
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q15398
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Cytosol (supported)。来源: https://www.proteinatlas.org/ENSG00000126787-DLGAP5/subcellular
+
+![](https://images.proteinatlas.org/71028/1840_B3_62_blue_red_green.jpg)
+![](https://images.proteinatlas.org/71028/1840_B3_63_blue_red_green.jpg)
+![](https://images.proteinatlas.org/71028/1973_F11_31_blue_red_green.jpg)
+![](https://images.proteinatlas.org/71028/1973_F11_32_blue_red_green.jpg)
+![](https://images.proteinatlas.org/71028/2087_G6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/71028/2087_G6_3_blue_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-Q15398-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

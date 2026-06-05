@@ -70,7 +70,6 @@ PubMed strict: 5
 | PDB | 无实验结构 |
 | Domain | Ankyrin repeat (IPR002110, multiple copies) |
 
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/ANKRD50/ANKRD50-PAE.png]]
 
 **PAE**: PAE 图像已获取。pLDDT 73.9，蛋白存在显著无序区域 (26.5% <50)，与大尺寸 (1429 aa) 一致。44.9% 残基 >90 置信度，提示存在明确折叠的 ankyrin repeat 结构域。
 
@@ -146,7 +145,6 @@ HPA IF 图像已本地嵌入。
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/ANKRD50/ANKRD50-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

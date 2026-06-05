@@ -24,7 +24,6 @@ status: scored
 | 研究新颖性 | 8/10 | ×5 | 40.0 | PubMed strict=36, broad=105 |
 | 三维结构 | 7/10 | ×3 | 21.0 | AlphaFold pLDDT 74.7 (pct>90: 51.2%)；PDB 11 个结构 (X-ray+EM) |
 
-![[CHAF1B-PAE.png]]
 | 调控结构域 | 8/10 | ×2 | 16.0 | WD40 repeats (IPR001680, PF15512)；CAF-1 复合体，组蛋白 H3/H4 chaperone，直接参与 DNA replication-coupled 核小体组装 |
 | PPI 网络 | 7/10 | ×3 | 21.0 | STRING: CHAF1A (0.999 exp 0.898), RBBP4 (0.999 exp 0.899), ASF1B (0.993 exp 0.97)；IntAct 15 条；UniProt 2 条 |
 | **加权总分** | | | **135/180**** | |
@@ -60,7 +59,6 @@ status: scored
 
 **AlphaFold PAE 状态**: PAE 已下载。pLDDT 中等偏上 (74.7, 51.2% >90)，28.4% <50 提示存在部分无序区域。PDB 拥有 CAF-1 全复合体 Crystal/Cryo-EM 结构，覆盖大部分蛋白。
 
-![[CHAF1B-PAE.png]]
 
 #### 3.3 研究现状
 | 指标 | 数值 |
@@ -96,12 +94,10 @@ CHAF1B 是 chromatin assembly factor 1 的核心 p60 亚基，在 DNA 复制耦�
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CHAF1B
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000159259-CHAF1B
 
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CHAF1B/CHAF1B-PAE.png]]
 
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CHAF1B/CHAF1B-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

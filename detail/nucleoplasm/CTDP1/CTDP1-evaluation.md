@@ -24,7 +24,6 @@ status: scored
 | 研究新颖性 | 10/10 | x5 | 50.0 | PubMed strict=19 |
 | 三维结构 | 4/10 | x3 | 12.0 | AF pLDDT 63.7; PDB 3个 (BRCT domain, C-terminal peptides) |
 
-![[CTDP1-PAE.png]]
 | 调控结构域 | 7/10 | x2 | 14.0 | BRCT domain (phosphopeptide-binding); FCP1 phosphatase domain; CTD phosphatase 催化核心 |
 | PPI 网络 | 8/10 | x3 | 24.0 | STRING GTF2F1 (0.999 exp 0.995), POLR2A (0.998 exp 0.977); 核心 Pol II 转录 machinery |
 | **加权总分** | | | **139/180**** | |
@@ -91,7 +90,6 @@ CTDP1 为本批次评分最高候选（76.0/100），核心优势为：极低文
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CTDP1
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000060069-CTDP1
 
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CTDP1/CTDP1-PAE.png]]
 
 ![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CTDP1/IF_images/CTDP1_IF_1746_A7_11_cr5804b66b7c4a3_red_green.jpg]]
 
@@ -102,7 +100,6 @@ HPA IF 图像已本地嵌入。
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CTDP1/CTDP1-PAE.png]]
 
 <!-- HPA_IF_REPAIR_START -->
 **HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (supported)。来源: https://www.proteinatlas.org/ENSG00000060069-CTDP1/subcellular

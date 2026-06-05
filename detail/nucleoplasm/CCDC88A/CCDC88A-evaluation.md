@@ -30,7 +30,6 @@ PubMed strict: 48
 
 **HPA IF 状态**: HPA subcellular IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
-![[CCDC88A-PAE.png]]
 
 PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
@@ -51,7 +50,6 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 Large signaling protein with HPA-derived nuclear annotation.
 
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CCDC88A/CCDC88A-PAE.png]]
 
 
 #### 关键文献
@@ -66,7 +64,6 @@ Large signaling protein with HPA-derived nuclear annotation.
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CCDC88A/CCDC88A-PAE.png]]
 
 <!-- HPA_IF_REPAIR_START -->
 **HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (uncertain)。来源: https://www.proteinatlas.org/ENSG00000115355-CCDC88A/subcellular

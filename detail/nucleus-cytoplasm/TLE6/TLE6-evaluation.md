@@ -31,7 +31,6 @@ status: scored
 | 互证加分 | | | +1.0 | PDB+AF 互证(+0.5); 多库结构域一致(+0.5) |
 | **归一化总分 (÷1.83)** | | | **63.4/100**** | |
 
-![[TLE6-PAE.png]]
 
 ### 3. 详细分析
 
@@ -135,7 +134,6 @@ TLE6 是 SCMC (subcortical maternal complex) 的核心组分，属于 TLE/Grouch
 
 **HPA IF 状态**: HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。 — HPA 暂无 IF 原图数据。核定位基于 UniProt + GO-CC。
 
-![[Projects/TEreg-finding/protein-interested/detail/nucleus-cytoplasm/TLE6/TLE6-PAE.png]]
 
 
 #### PPI 网络
@@ -153,7 +151,6 @@ TLE6 是 SCMC (subcortical maternal complex) 的核心组分，属于 TLE/Grouch
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleus-cytoplasm/TLE6/TLE6-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

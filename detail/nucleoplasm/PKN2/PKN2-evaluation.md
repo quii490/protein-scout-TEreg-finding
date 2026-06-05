@@ -154,7 +154,6 @@ status: scored
 - STRING: https://string-db.org/ (PKN2)
 - IntAct: https://www.ebi.ac.uk/intact/
 
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/PKN2/PKN2-PAE.png]]
 
 
 #### PPI 网络
@@ -172,7 +171,6 @@ status: scored
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/PKN2/PKN2-PAE.png]]
 
 <!-- HPA_IF_REPAIR_START -->
 **HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (enhanced)。来源: https://www.proteinatlas.org/ENSG00000065243-PKN2/subcellular

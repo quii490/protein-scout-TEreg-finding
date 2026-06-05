@@ -92,7 +92,7 @@ status: scored
 | 可用 PDB 条目 | 3EAB, 3JC1, 4TXQ, 4TXR, 6E8G, 6TZ4, 6TZ5, 6TZ9, 8V2Q, 8V2R |
 
 
-**PAE**: PAE 图像未生成本地文件，结构判断基于 AlphaFold pLDDT 统计。
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 **评价**: PDB实验结构（3EAB, 3JC1, 4TXQ, 4TXR, 6E8G, 6TZ4, 6TZ5, 6TZ9, 8V2Q, 8V2R）+ AlphaFold预测（pLDDT=80.8），实验结构可用。
 
@@ -184,3 +184,9 @@ status: scored
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q7LBR1
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Packet data timestamp: 2026-06-03 04:55:03
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-Q7LBR1-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

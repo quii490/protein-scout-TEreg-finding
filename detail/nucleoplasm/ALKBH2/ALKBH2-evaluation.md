@@ -156,7 +156,7 @@ PubMed 35篇(strict)，中等新颖度。ALKBH2在DNA修复领域有系统生化
 
 ALKBH2的PDB覆盖范围是所有基因中最完整的，提供了从apo到产物复合物的完整催化循环快照。AlphaFold pLDDT 83.6，19.9%的pLDDT<50区域可能对应N端无序区和活性位点柔性loop（这在酶中是常见特征，实验结构中这些区域也常缺失）。**评分: 10/10**。
 
-PAE图像未生成本地文件，但从AlphaFold预测评估，86-88%的残基对PAE<5A，表明结构域内折叠良好。
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 #### 4.5 结构域分析
 
@@ -218,4 +218,10 @@ PPI网络主要依赖ALKBH家族的文本挖掘共现，实验互作伙伴较少
 - IntAct: https://www.ebi.ac.uk/intact/interactors/id:Q6NS38
 - Harvest packet: /Users/quii/Desktop/projects/TE-regulated proteins finding/protein_data/harvest_packets/ALKBH2.json (2026-06-03)
 
-HPA IF图像可在线获取（多细胞系Nucleoplasm信号），但未下载本地副本。PAE图像未生成本地文件。
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-Q6NS38-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

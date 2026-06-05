@@ -41,7 +41,7 @@ status: rejected
 | Protein Atlas (IF) | Nucleoplasm | Supported |
 | UniProt | Cytoplasm, perinuclear region; Nucleus matrix; Chromosome, centromere, kinetochore; Cytoplasm, cytos... | Swiss-Prot/TrEMBL |
 
-**IF 图像获取**: 未下载本地IF图像（standard evaluation），核定位证据基于HPA subcellular localization注释、UniProt注释和GO-CC术语。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 **GO Cellular Component**:
 - axoneme (GO:0005930)
@@ -181,3 +181,14 @@ status: rejected
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/P49454
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (supported)。来源: https://www.proteinatlas.org/ENSG00000117724-CENPF/subcellular
+
+![](https://images.proteinatlas.org/52382/783_C3_1_red_green.jpg)
+![](https://images.proteinatlas.org/52382/783_C3_2_red_green.jpg)
+![](https://images.proteinatlas.org/52382/785_C3_1_red_green.jpg)
+![](https://images.proteinatlas.org/52382/785_C3_2_red_green.jpg)
+![](https://images.proteinatlas.org/52382/868_E10_1_red_green.jpg)
+![](https://images.proteinatlas.org/52382/868_E10_2_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

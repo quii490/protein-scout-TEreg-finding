@@ -24,7 +24,6 @@ status: scored
 | 研究新颖性 | 2/10 | ×5 | 10.0 | PubMed strict=95, broad=122 |
 | 三维结构 | 5/10 | ×3 | 15.0 | PDB 6QNN/6QNP 部分 C-term; AlphaFold pLDDT 50.9, 61% <50 |
 
-![[GTSE1-PAE.png]]
 | 调控结构域 | 5/10 | ×2 | 10.0 | GTSE1 family; 细胞周期 G2/M 调控; 微管结合 |
 | PPI 网络 | 6/10 | ×3 | 18.0 | UniProt PLK1 (6 exp) strong; IntAct 多 partners; STRING 获取失败 |
 | **加权总分** | | | **73/180**** | |
@@ -94,7 +93,6 @@ GTSE1 在本批中评分最低（40.4/100）。主要问题：核定位仅为 HP
 
 ![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/GTSE1/IF_images/1512_G12_1_blue_red_green.jpg]]
 
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/GTSE1/GTSE1-PAE.png]]
 
 HPA IF 图像已本地嵌入。
 
@@ -103,7 +101,6 @@ HPA IF 图像已本地嵌入。
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/GTSE1/GTSE1-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

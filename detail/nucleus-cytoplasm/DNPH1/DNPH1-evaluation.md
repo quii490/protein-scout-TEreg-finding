@@ -95,7 +95,6 @@ status: scored
 | 9DA6 | X-ray | 1.35 Å | 20-162 |
 
 **PAE 图**:
-![[Projects/TEreg-finding/protein-interested/detail/nucleus-cytoplasm/DNPH1/DNPH1-PAE.png]]
 
 **AlphaFold 结构文件**: DNPH1-alphafold.pdb (version 6, AF-O43598-F1)
 
@@ -229,7 +228,6 @@ IPR007710/PF05014 属于 Nucleoside 2-deoxyribosyltransferase 超家族，为核
 - Protein Atlas: https://www.proteinatlas.org/search/DNPH1（仅检索页缩略图；IF 原图未可靠获取）
 - GeneCards: 未直接采集，基本属性以 UniProt/PDB/InterPro 交叉替代
 
-![[DNPH1-PAE.png]]
 
 PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
@@ -237,7 +235,6 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleus-cytoplasm/DNPH1/DNPH1-PAE.png]]
 
 <!-- HPA_IF_REPAIR_START -->
 **HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000112667-DNPH1/subcellular

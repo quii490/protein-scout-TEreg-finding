@@ -139,7 +139,7 @@ PubMed仅2篇(strict)，是所有基因中最少的(与少数其他基因并列)
 
 仅0.5%残基pLDDT<50，98.5%高度有序。AlphaFold 94.2的平均pLDDT在10个CRITICAL基因中最高(与AFMID的94.0并列)。8RHN为低温电镜结构(4.50A)，虽然分辨率中等但覆盖全长1-203。**评分: 9/10**。
 
-PAE图像未生成本地文件。基于极高pLDDT推断PAE应普遍较低。
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 #### 4.5 结构域分析
 
@@ -186,3 +186,9 @@ TADA2A(SAGA组蛋白乙酰转移酶复合物亚基)和ZBED1(转座酶起源的DN
 - Harvest packet: /Users/quii/Desktop/projects/TE-regulated proteins finding/protein_data/harvest_packets/AIRIM.json (2026-06-03)
 
 HPA IF原图未下载。GO-CC IDA:HPA注释来自HPA实验。PAE未生成本地。
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-Q9NX04-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

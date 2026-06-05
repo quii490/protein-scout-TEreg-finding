@@ -24,7 +24,6 @@ status: scored
 | 研究新颖性 | 6/10 | ×5 | 30.0 | PubMed strict=54, broad=100 |
 | 三维结构 | 7/10 | ×3 | 21.0 | AlphaFold pLDDT 86.6; pLDDT >90 70.3%; 无 PDB |
 
-![[HS6ST1-PAE.png]]
 | 调控结构域 | 6/10 | ×2 | 12.0 | Sulfotransferase domain (PF03567); 硫酸乙酰肝素修饰酶 |
 | PPI 网络 | 6/10 | ×3 | 18.0 | STRING HS2ST1 strongest (0.996); IntAct 多 coIP partner |
 | **加权总分** | | | **108/180**** | |
@@ -94,7 +93,6 @@ HS6ST1 是一个定位信息存在内部矛盾的案例：HPA Approved Nucleopla
 
 ![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/HS6ST1/IF_images/U-251MG_1.jpg]]
 
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/HS6ST1/HS6ST1-PAE.png]]
 
 HPA IF 图像已本地嵌入。
 
@@ -103,7 +101,6 @@ HPA IF 图像已本地嵌入。
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/HS6ST1/HS6ST1-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

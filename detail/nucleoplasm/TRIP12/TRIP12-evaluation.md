@@ -24,7 +24,6 @@ status: scored
 | 研究新颖性 | 2/10 | x5 | 10.0 | PubMed strict=92, broad=135 |
 | 三维结构 | 5/10 | x3 | 15.0 | AlphaFold pLDDT 66.8；PDB 4 个结构（X-ray domain + EM partial） |
 
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/TRIP12/TRIP12-PAE.png]]
 | 调控结构域 | 5/10 | x2 | 10.0 | HECT E3 ligase domain + WWE domain + ARM repeat，泛素化调控 |
 | PPI 网络 | 4/10 | x3 | 12.0 | STRING UBR1/UBR2/USP7 强实验，UBE2D1/CDKN2A/RNF168；IntAct + UniProt 中等 |
 | **加权总分** | | | **79/180**** | |
@@ -102,7 +101,6 @@ HPA IF 图像已本地嵌入。
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/TRIP12/TRIP12-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

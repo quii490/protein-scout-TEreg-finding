@@ -24,7 +24,6 @@ status: scored
 | 研究新颖性 | 4/10 | x5 | 20.0 | PubMed strict=62, broad=88 |
 | 三维结构 | 7/10 | x3 | 21.0 | 4 PDB; AlphaFold mean pLDDT 69.1; pct_gt_90=43.3%; pct_lt_50=36.6% |
 
-![[PHF19-PAE.png]]
 | 调控结构域 | 8/10 | x2 | 16.0 | PHD finger (IPR001965, IPR019786) + Tudor (IPR002999); H3K36me3 reader |
 | PPI 网络 | 8/10 | x3 | 24.0 | STRING: PRC2 core (SUZ12 0.998, EZH2 0.989, EED 0.972); IntAct 15 条; UniProt 27 条 |
 | **加权总分** | | | **119/180********** | |
@@ -105,14 +104,12 @@ PHF19 是 PRC2 复合体的关键辅助因子，介导 H3K36me3 识别到 H3K27m
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=PHF19
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000119403-PHF19
 
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/PHF19/PHF19-PAE.png]]
 
 HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。
 
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/PHF19/PHF19-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

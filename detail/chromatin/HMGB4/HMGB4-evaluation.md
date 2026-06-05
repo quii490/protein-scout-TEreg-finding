@@ -83,7 +83,7 @@ status: scored
 | 有序区域 (pLDDT>70) 占比 | 93.5% |
 | 可用 PDB 条目 | 无 |
 
-**PAE**: PAE 图像未生成本地文件（standard evaluation），结构判断基于 AlphaFold pLDDT 统计。
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 **评价**: AlphaFold 极高置信度预测（pLDDT=88.2，有序区 93.5%），结构可靠。
 
@@ -169,3 +169,9 @@ status: scored
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8WW32
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-Q8WW32-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

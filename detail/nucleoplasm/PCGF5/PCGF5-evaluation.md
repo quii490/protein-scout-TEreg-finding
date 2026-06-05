@@ -56,7 +56,6 @@ status: scored
 
 AlphaFold pLDDT 80.5，>90 区 58.2%。PDB 4S3O 解析了 N 端 RING finger (1-109 aa)，与 RNF2/RING1 复合体共结晶。C 端 RAWUL 域（~aa 150-256）参与 PRC1 亚基间互作。
 
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/PCGF5/PCGF5-PAE.png]]
 
 | InterPro | Pfam |
 |---|---|
@@ -110,7 +109,6 @@ HPA IF 图像已本地嵌入。
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/PCGF5/PCGF5-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

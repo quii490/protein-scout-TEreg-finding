@@ -41,7 +41,7 @@ status: rejected
 | Protein Atlas (IF) | Nucleoplasm; 额外: Plasma membrane, Centriolar satellite | Supported |
 | UniProt | Cytoplasm | Swiss-Prot/TrEMBL |
 
-**IF 图像获取**: 未下载本地IF图像（standard evaluation），核定位证据基于HPA subcellular localization注释、UniProt注释和GO-CC术语。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 **GO Cellular Component**:
 - cytoplasm (GO:0005737)
@@ -175,3 +175,14 @@ status: rejected
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q99698
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (enhanced)。来源: https://www.proteinatlas.org/ENSG00000143669-LYST/subcellular
+
+![](https://images.proteinatlas.org/53366/806_C2_1_red_green.jpg)
+![](https://images.proteinatlas.org/53366/806_C2_3_red_green.jpg)
+![](https://images.proteinatlas.org/53366/810_C2_1_red_green.jpg)
+![](https://images.proteinatlas.org/53366/810_C2_2_red_green.jpg)
+![](https://images.proteinatlas.org/53366/838_B10_1_red_green.jpg)
+![](https://images.proteinatlas.org/53366/838_B10_2_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

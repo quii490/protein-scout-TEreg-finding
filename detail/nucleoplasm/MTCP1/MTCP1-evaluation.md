@@ -84,7 +84,6 @@ status: scored
 - 1QTU: NMR, 全长(1-107), 溶液结构
 
 **PAE 图**:
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/MTCP1/MTCP1-PAE.png]]
 
 **评价**: 结构质量极优。3个PDB实验结构(高分辨率X-ray+NMR双验证)，覆盖全长蛋白。AlphaFold pLDDT=86.2, 仅2.8%无序。折叠为8-stranded beta-barrel结构，与TCL1家族蛋白高度相似。是极优秀的结构和生物物理研究靶点。评分9分。
 
@@ -175,7 +174,6 @@ status: scored
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/MTCP1/MTCP1-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

@@ -24,7 +24,6 @@ status: scored
 | 研究新颖性 | 2/10 | ×5 | 10.0 | PubMed strict=81, broad=118 |
 | 三维结构 | 6/10 | ×3 | 18.0 | AlphaFold pLDDT 72.8 (pct>90: 48.6%)；PDB 3 个结构 (X-ray, 1.90-3.17A) |
 
-![[PSPC1-PAE.png]]
 | 调控结构域 | 6/10 | ×2 | 12.0 | RRM (PF00076) ×2, NOPS domain (PF08075)；RNA-binding, paraspeckle formation |
 | PPI 网络 | 7/10 | ×3 | 21.0 | NONO (UniProt 17 exp, STRING failed), SFPQ (UniProt 4 exp)；IntAct 15 条多种方法验证 |
 | **加权总分** | | | **99/180**** | |
@@ -60,7 +59,6 @@ status: scored
 
 **AlphaFold PAE 状态**: PAE 已下载。pLDDT 中等 (72.8)，约 35.6% 残基 pLDDT <50，提示存在显著无序区域（可能为 C-terminal low complexity region）。
 
-![[PSPC1-PAE.png]]
 
 #### 3.3 研究现状
 | 指标 | 数值 |
@@ -93,12 +91,10 @@ PSPC1 是 paraspeckle 核心蛋白，核定位证据极其充分（HPA Enhanced 
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=PSPC1
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000121390-PSPC1
 
-![[Projects/TEreg-finding/protein-interested/detail/nucleolus/PSPC1/PSPC1-PAE.png]]
 
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleolus/PSPC1/PSPC1-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

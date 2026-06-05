@@ -91,7 +91,6 @@ C19orf33 具有双源实验级核定位证据：UniProt 实验级 Nucleus 注释
 | pLDDT <50 | 3.8% |
 | PDB | 无实验结构 |
 
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/C19orf33/C19orf33-PAE.png]]
 
 **PAE**: PAE 图像已获取。pLDDT 62.4 表明蛋白整体折叠置信度中等，大部分残基在 50–70 范围（低置信度折叠），无高置信度 (>90) 区域。3.8% 残基 pLDDT <50（无序区）。
 
@@ -171,7 +170,6 @@ HPA IF 图像已本地嵌入。
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/C19orf33/C19orf33-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

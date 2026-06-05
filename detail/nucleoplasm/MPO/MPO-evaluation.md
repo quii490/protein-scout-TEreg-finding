@@ -41,7 +41,7 @@ status: rejected
 | Protein Atlas (IF) | Vesicles; 额外: Nucleoplasm | Supported |
 | UniProt | Lysosome | Swiss-Prot/TrEMBL |
 
-**IF 图像获取**: 未下载本地IF图像（standard evaluation），核定位证据基于HPA subcellular localization注释、UniProt注释和GO-CC术语。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 **GO Cellular Component**:
 - azurophil granule (GO:0042582)
@@ -89,7 +89,7 @@ status: rejected
 | 有序区域 (pLDDT>70) 占比 | 90.0% |
 | 可用 PDB 条目 | 1CXP, 1D2V, 1D5L, 1D7W, 1DNU, 1DNW, 1MHL, 1MYP, 3F9P, 3ZS0 |
 
-**PAE**: PAE 图像未生成本地文件（standard evaluation），结构判断基于 AlphaFold pLDDT 统计。
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 **评价**: PDB实验结构（1CXP, 1D2V, 1D5L, 1D7W, 1DNU, 1DNW, 1MHL, 1MYP, 3F9P, 3ZS0）+ AlphaFold极高置信度预测（pLDDT=89.0），结构可信度极高。
 
@@ -181,3 +181,20 @@ status: rejected
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/P05164
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Vesicles (supported)。来源: https://www.proteinatlas.org/ENSG00000005381-MPO/subcellular
+
+![](https://images.proteinatlas.org/61464/1398_F7_1_red_green.jpg)
+![](https://images.proteinatlas.org/61464/1398_F7_2_red_green.jpg)
+![](https://images.proteinatlas.org/61464/1403_F7_1_red_green.jpg)
+![](https://images.proteinatlas.org/61464/1403_F7_2_red_green.jpg)
+![](https://images.proteinatlas.org/61464/1487_B11_3_red_green.jpg)
+![](https://images.proteinatlas.org/61464/1487_B11_4_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-P05164-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

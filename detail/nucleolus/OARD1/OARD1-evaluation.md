@@ -24,7 +24,6 @@ status: scored
 | 研究新颖性 | 10/10 | ×5 | 50.0 | PubMed strict=4, broad=16 |
 | 三维结构 | 9/10 | ×3 | 27.0 | AlphaFold pLDDT 93.5 (pct>90: 90.8%)；PDB 6 个结构 (NMR+X-ray, 最高 1.25A) |
 
-![[OARD1-PAE.png]]
 | 调控结构域 | 5/10 | ×2 | 10.0 | Macro domain (IPR002589, PF01661)，ADP-ribose 结合/水解，与 DNA damage response 相关 |
 | PPI 网络 | 2/10 | ×3 | 6.0 | STRING 不可用 (502)；IntAct 以 Y2H/Co-IP 为主；UniProt 无记录互作 |
 | **加权总分** | | | **139/180**** | |
@@ -59,7 +58,6 @@ status: scored
 
 **AlphaFold PAE 状态**: PAE 已下载。pLDDT 极高 (93.5, 90.8% >90)，结构预测极为可靠。PDB 已有 6 个实验结构验证，包括高分辨率 X-ray (最高 1.25A) 和 NMR。
 
-![[OARD1-PAE.png]]
 
 #### 3.3 研究现状
 | 指标 | 数值 |
@@ -97,12 +95,10 @@ OARD1 是一个文献量极低（strict=4）、结构验证极其充分（pLDDT 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleolus/OARD1/IF_images/OARD1_IF_373_A3_1_blue_red_green.jpg]]。核定位基于HPA localization/reliability + UniProt + GO-CC。
 
 
-![[Projects/TEreg-finding/protein-interested/detail/nucleolus/OARD1/OARD1-PAE.png]]
 
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleolus/OARD1/OARD1-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

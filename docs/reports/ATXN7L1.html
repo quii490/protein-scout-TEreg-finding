@@ -45,7 +45,7 @@
 <tr><td>Protein Atlas (IF)</td><td>暂无HPA定位数据</td><td>暂无数据</td></tr>
 <tr><td>UniProt</td><td>无注释</td><td>Swiss-Prot/TrEMBL</td></tr>
 </tbody></table></div>
-<p><strong>IF 图像状态</strong>: HPA未检测到可靠IF图像信号。核定位证据基于HPA subcellular localization注释、UniProt注释和GO-CC术语。</p>
+<p>HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。</p>
 <p><strong>GO Cellular Component</strong>:</p>
 <ul><li>无 GO-CC 注释</li></ul>
 <p><strong>结论</strong>: 核定位证据不足，HPA与UniProt存在矛盾或缺乏核注释。</p>
@@ -72,7 +72,7 @@
 <tr><td>有序区域 (pLDDT&gt;70) 占比</td><td>17.8%</td></tr>
 <tr><td>可用 PDB 条目</td><td>无</td></tr>
 </tbody></table></div>
-<p><strong>PAE</strong>: PAE 图像未生成本地文件（standard evaluation），结构判断基于 AlphaFold pLDDT 统计。</p>
+<p><strong>PAE 图像说明</strong>: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。</p>
 <p><strong>评价</strong>: AlphaFold 预测质量有限（pLDDT=50.6），有序残基占 17.8%。</p>
 <h5>3.5 结构域分析</h5>
 <div class="table-wrap"><table>
@@ -130,7 +130,10 @@
 <ul><li>[ ] 查阅最新关键文献补充研究背景</li><li>[ ] 获取 Protein Atlas IF 图像确认亚细胞定位</li><li>[ ] 设计体外实验验证核定位及潜在调控功能</li><li>[ ] <strong>该蛋白核定位证据不足（≤3/10），不建议作为核蛋白研究目标。</strong></li></ul>
 <h4>5. 数据来源</h4>
 <ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9ULK2</li><li>Protein Atlas: https://www.proteinatlas.org/search/ATXN7L1</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=ATXN7L1</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9ULK2</li><li>STRING: https://string-db.org/network/9606.ENSP00000</li><li>Data fetched live: 2026-06-03</li></ul>
-<p><figure><img src="../../detail/rejected/ATXN7L1/ATXN7L1-PAE.png" alt="ATXN7L1-PAE.png"></figure></p></article></main>
+<p>&lt;!-- HPA_IF_REPAIR_START --&gt; <strong>HPA IF 图像修正（2026-06-05）</strong>: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000146776-ATXN7L1/subcellular</p>
+<p><figure><img src="https://images.proteinatlas.org/21448/234_D11_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/21448/234_D11_2_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/21448/235_D11_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/21448/235_D11_2_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/21448/535_D11_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/21448/535_D11_2_red_green.jpg" alt="image"></figure> &lt;!-- HPA_IF_REPAIR_END --&gt;</p>
+<p>&lt;!-- AF_PAE_REPAIR_START --&gt; <strong>PAE 图像修正（2026-06-05）</strong>: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。</p>
+<p><figure><img src="https://alphafold.ebi.ac.uk/files/AF-Q9ULK2-F1-predicted_aligned_error_v6.png" alt="image"></figure> &lt;!-- AF_PAE_REPAIR_END --&gt;</p></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

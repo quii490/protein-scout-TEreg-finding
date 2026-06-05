@@ -24,7 +24,6 @@ status: scored
 | 研究新颖性 | 10/10 | ×5 | 50.0 | PubMed strict=8, broad=23 |
 | 三维结构 | 9/10 | ×3 | 27.0 | PDB 2A2C X-ray 1.65A full-length; PDB 2A2D X-ray 2.20A; AlphaFold pLDDT 94.9 |
 
-![[GALK2-PAE.png]]
 | 调控结构域 | 5/10 | ×2 | 10.0 | Galactokinase family; 糖代谢 kinase, 非经典调控蛋白 |
 | PPI 网络 | 7/10 | ×3 | 21.0 | STRING GALE/GALT/GALM 高置信度+实验支持; DHDH 实验分 0.743 |
 | **加权总分** | | | **134/180**** | |
@@ -96,7 +95,6 @@ GALK2 的评分亮点在三维结构（全长 1.65A 晶体结构 + AlphaFold pLD
 
 ![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/GALK2/IF_images/784_B11_1_blue_red_green.jpg]]
 
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/GALK2/GALK2-PAE.png]]
 
 HPA IF 图像已本地嵌入。
 
@@ -105,7 +103,6 @@ HPA IF 图像已本地嵌入。
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/GALK2/GALK2-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

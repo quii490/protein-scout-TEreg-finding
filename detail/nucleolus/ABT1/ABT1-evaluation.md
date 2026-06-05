@@ -94,7 +94,6 @@ status: scored
 | C端无序区 | 198-272 | 66.9 | 39% |
 
 **PAE 图**:
-![[Projects/TEreg-finding/protein-interested/detail/nucleolus/ABT1/ABT1-PAE.png]]
 
 **PAE 数值分析**:
 - PAE 矩阵尺寸: 272×272
@@ -265,7 +264,6 @@ status: scored
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
-![[ABT1-PAE.png]]
 
 PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
@@ -276,7 +274,6 @@ HPA IF 图像已本地嵌入。
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleolus/ABT1/ABT1-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

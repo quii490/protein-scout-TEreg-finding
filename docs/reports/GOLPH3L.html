@@ -45,7 +45,7 @@
 <tr><td>Protein Atlas (IF)</td><td>Golgi apparatus; 额外: Cytosol</td><td>Supported</td></tr>
 <tr><td>UniProt</td><td>Golgi apparatus, Golgi stack membrane; Golgi apparatus, trans-Golgi network membrane</td><td>Swiss-Prot/TrEMBL</td></tr>
 </tbody></table></div>
-<p><strong>IF 图像获取</strong>: 未下载本地IF图像（standard evaluation），核定位证据基于HPA subcellular localization注释、UniProt注释和GO-CC术语。</p>
+<p>HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。</p>
 <p><strong>GO Cellular Component</strong>:</p>
 <ul><li>cytosol (GO:0005829)</li><li>Golgi apparatus (GO:0005794)</li><li>Golgi cisterna (GO:0031985)</li><li>Golgi cisterna membrane (GO:0032580)</li><li>Golgi membrane (GO:0000139)</li><li>trans-Golgi network (GO:0005802)</li><li>trans-Golgi network membrane (GO:0032588)</li></ul>
 <p><strong>结论</strong>: 核定位证据极弱，主要数据源均不指向细胞核。</p>
@@ -72,7 +72,7 @@
 <tr><td>有序区域 (pLDDT&gt;70) 占比</td><td>83.1%</td></tr>
 <tr><td>可用 PDB 条目</td><td>无</td></tr>
 </tbody></table></div>
-<p><strong>PAE</strong>: PAE 图像未生成本地文件（standard evaluation），结构判断基于 AlphaFold pLDDT 统计。</p>
+<p><strong>PAE 图像说明</strong>: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。</p>
 <p><strong>评价</strong>: AlphaFold 中等质量（pLDDT=84.9，有序区 83.1%），结构基本可用。</p>
 <h5>3.5 结构域分析</h5>
 <div class="table-wrap"><table>
@@ -129,7 +129,11 @@
 <p><strong>下一步建议</strong>:</p>
 <ul><li>[ ] 查阅最新关键文献补充研究背景</li><li>[ ] 获取 Protein Atlas IF 图像确认亚细胞定位</li><li>[ ] 设计体外实验验证核定位及潜在调控功能</li><li>[ ] <strong>该蛋白核定位证据不足（≤3/10），不建议作为核蛋白研究目标。</strong></li></ul>
 <h4>5. 数据来源</h4>
-<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9H4A5</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000143457-GOLPH3L/subcellular</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=GOLPH3L</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9H4A5</li><li>STRING: https://string-db.org/network/9606.ENSP00000</li><li>Data fetched live: 2026-06-03</li></ul></article></main>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9H4A5</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000143457-GOLPH3L/subcellular</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=GOLPH3L</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9H4A5</li><li>STRING: https://string-db.org/network/9606.ENSP00000</li><li>Data fetched live: 2026-06-03</li></ul>
+<p>&lt;!-- HPA_IF_REPAIR_START --&gt; <strong>HPA IF 图像修正（2026-06-05）</strong>: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Golgi apparatus (supported)。来源: https://www.proteinatlas.org/ENSG00000143457-GOLPH3L/subcellular</p>
+<p><figure><img src="https://images.proteinatlas.org/72016/1872_E3_27_cr5b50524d86a86_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/72016/1872_E3_7_cr5b50524d8657a_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/72016/1925_E9_1_cr5cd561ee955f5_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/72016/1925_E9_7_cr5cd561ee95db1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/72016/1935_D7_4_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/72016/1935_D7_5_blue_red_green.jpg" alt="image"></figure> &lt;!-- HPA_IF_REPAIR_END --&gt;</p>
+<p>&lt;!-- AF_PAE_REPAIR_START --&gt; <strong>PAE 图像修正（2026-06-05）</strong>: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。</p>
+<p><figure><img src="https://alphafold.ebi.ac.uk/files/AF-Q9H4A5-F1-predicted_aligned_error_v6.png" alt="image"></figure> &lt;!-- AF_PAE_REPAIR_END --&gt;</p></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

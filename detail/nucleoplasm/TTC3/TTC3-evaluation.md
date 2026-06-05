@@ -24,7 +24,6 @@ status: scored
 | 研究新颖性 | 6/10 | x5 | 30.0 | PubMed strict=52 |
 | 三维结构 | 2/10 | x3 | 6.0 | AF pLDDT 62.1 (40.1% <50); PDB 无 |
 
-![[TTC3-PAE.png]]
 | 调控结构域 | 5/10 | x2 | 10.0 | RING finger (E3 ligase) + TPR repeats; E3 ubiquitin ligase 活性依赖于 Akt 磷酸化 |
 | PPI 网络 | 4/10 | x3 | 12.0 | STRING DHRS2 (0.874); IntAct 含 APP/DISC1/NR3C1/SMC6/WAPL 等 |
 | **加权总分** | | | **91/180**** | |
@@ -92,7 +91,6 @@ TTC3 是超大 RING-type E3 泛素连接酶（2025 aa），拥有良好的核定
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=TTC3
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000182670-TTC3
 
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/TTC3/TTC3-PAE.png]]
 
 ![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/TTC3/IF_images/TTC3_IF_1011_E2_1_red_green.jpg]]
 
@@ -103,7 +101,6 @@ HPA IF 图像已本地嵌入。
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/TTC3/TTC3-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

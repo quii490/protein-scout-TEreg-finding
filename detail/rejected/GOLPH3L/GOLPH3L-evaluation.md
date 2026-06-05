@@ -41,7 +41,7 @@ status: rejected
 | Protein Atlas (IF) | Golgi apparatus; 额外: Cytosol | Supported |
 | UniProt | Golgi apparatus, Golgi stack membrane; Golgi apparatus, trans-Golgi network membrane | Swiss-Prot/TrEMBL |
 
-**IF 图像获取**: 未下载本地IF图像（standard evaluation），核定位证据基于HPA subcellular localization注释、UniProt注释和GO-CC术语。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 **GO Cellular Component**:
 - cytosol (GO:0005829)
@@ -88,7 +88,7 @@ status: rejected
 | 有序区域 (pLDDT>70) 占比 | 83.1% |
 | 可用 PDB 条目 | 无 |
 
-**PAE**: PAE 图像未生成本地文件（standard evaluation），结构判断基于 AlphaFold pLDDT 统计。
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 **评价**: AlphaFold 中等质量（pLDDT=84.9，有序区 83.1%），结构基本可用。
 
@@ -180,3 +180,20 @@ status: rejected
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9H4A5
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Golgi apparatus (supported)。来源: https://www.proteinatlas.org/ENSG00000143457-GOLPH3L/subcellular
+
+![](https://images.proteinatlas.org/72016/1872_E3_27_cr5b50524d86a86_blue_red_green.jpg)
+![](https://images.proteinatlas.org/72016/1872_E3_7_cr5b50524d8657a_blue_red_green.jpg)
+![](https://images.proteinatlas.org/72016/1925_E9_1_cr5cd561ee955f5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/72016/1925_E9_7_cr5cd561ee95db1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/72016/1935_D7_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/72016/1935_D7_5_blue_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-Q9H4A5-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

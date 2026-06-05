@@ -41,7 +41,7 @@ status: rejected
 | Protein Atlas (IF) | Plasma membrane; 额外: Golgi apparatus, Cytokinetic bridge | Approved |
 | UniProt | Secreted | Swiss-Prot/TrEMBL |
 
-**IF 图像获取**: 未下载本地IF图像（standard evaluation），核定位证据基于HPA subcellular localization注释、UniProt注释和GO-CC术语。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 **GO Cellular Component**:
 - extracellular exosome (GO:0070062)
@@ -177,3 +177,14 @@ status: rejected
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9Y6R7
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Plasma membrane (approved)。来源: https://www.proteinatlas.org/ENSG00000275395-FCGBP/subcellular
+
+![](https://images.proteinatlas.org/3564/1610_E10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3564/1610_E10_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3564/1719_E6_14_cr5804b7d8871a2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3564/1719_E6_19_cr5804b7e1c4e96_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3564/35_G4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3564/35_G4_2_blue_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

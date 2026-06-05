@@ -24,7 +24,6 @@ status: scored
 | 研究新颖性 | 8/10 | ×5 | 40.0 | PubMed strict=22, ≤40 |
 | 三维结构 | 6/10 | ×3 | 18.0 | AlphaFold mean pLDDT 85.6; 无 PDB |
 
-![[G2E3-PAE.png]]
 | 调控结构域 | 7/10 | ×2 | 14.0 | HECT domain (PF00632) + RING-like domain + 多个 IPR — E3 ubiquitin ligase, 重要调控功能 |
 | PPI 网络 | 4/10 | ×3 | 12.0 | WDR6 (exp 0.626), HTT/ATN1/KLK6 (Y2H); 网络强度中等偏低 |
 | **加权总分** | | | **107/180**** | |
@@ -55,7 +54,6 @@ status: scored
 | Pfam | PF00632 (HECT), PF26054, PF13771 (zf-C2H2_6) |
 
 **AlphaFold PAE 状态**: PAE 已下载，模型置信度良好（mean pLDDT 85.6, >90 占 66.4%）。HECT E3 ligase 结构域折叠预测可靠。无 PDB 实验结构。
-![[G2E3-PAE.png]]
 
 #### 3.3 研究现状
 | 指标 | 数值 |
@@ -97,7 +95,6 @@ G2E3 是一个具有有趣功能特征但核定位存在矛盾的候选（58.5/1
 
 ![[Projects/TEreg-finding/protein-interested/detail/nucleolus/G2E3/IF_images/A-431_1.jpg]]
 
-![[Projects/TEreg-finding/protein-interested/detail/nucleolus/G2E3/G2E3-PAE.png]]
 
 HPA IF 图像已本地嵌入。
 
@@ -106,7 +103,6 @@ HPA IF 图像已本地嵌入。
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleolus/G2E3/G2E3-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

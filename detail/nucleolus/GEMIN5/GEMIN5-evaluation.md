@@ -24,7 +24,6 @@ status: scored
 | 研究新颖性 | 4/10 | ×5 | 20.0 | PubMed strict=80, ≤80 |
 | 三维结构 | 9/10 | ×3 | 27.0 | AlphaFold mean pLDDT 78.9; 16 PDB (X-ray + EM, 覆盖 N 端 WD40 + C 端 TPR 结构域) |
 
-![[GEMIN5-PAE.png]]
 | 调控结构域 | 6/10 | ×2 | 12.0 | WD40 repeats (PF00400, 14 repeats) + TPR domain + cap-binding — RNA 结合与 snRNA 识别 |
 | PPI 网络 | 8/10 | ×3 | 24.0 | SMN complex 核心 (GEMIN2/4/6/7/8 ≥0.996); SMN1, SNRPs; IntAct 含 EIF4E/SMN2 等多条 co-IP |
 | **加权总分** | | | **112/180********** | |
@@ -55,7 +54,6 @@ status: scored
 | Pfam | PF23770, PF23775, PF23777, PF23774, PF00400 (WD40) |
 
 **AlphaFold PAE 状态**: PAE 已下载，模型置信度中等（mean pLDDT 78.9），WD40 和 TPR 结构域区域置信度高，中间 linker 区域置信度低。16 个 PDB 结构覆盖 N 端和 C 端主要结构域，是实验结构数据最丰富的候选之一。
-![[GEMIN5-PAE.png]]
 
 #### 3.3 研究现状
 | 指标 | 数值 |
@@ -95,7 +93,6 @@ GEMIN5 是 SMN 复合物中结构覆盖最为全面的成员（64.5/100）。核
 
 ![[Projects/TEreg-finding/protein-interested/detail/nucleolus/GEMIN5/IF_images/A-431_1.jpg]]
 
-![[Projects/TEreg-finding/protein-interested/detail/nucleolus/GEMIN5/GEMIN5-PAE.png]]
 
 HPA IF 图像已本地嵌入。
 
@@ -104,7 +101,6 @@ HPA IF 图像已本地嵌入。
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleolus/GEMIN5/GEMIN5-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

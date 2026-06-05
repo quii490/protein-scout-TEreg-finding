@@ -25,7 +25,6 @@ status: scored
 | 研究新颖性 | 10/10 | ×5 | 50.0 | PubMed strict=12, broad=15 |
 | 三维结构 | 8/10 | ×3 | 24.0 | AlphaFold pLDDT 94.3; PDB 无 |
 
-![[NPEPL1-PAE.png]]
 | 调控结构域 | 6/10 | ×2 | 12.0 | Peptidase M17 domain; 氨基肽酶催化功能 |
 | PPI 网络 | 5/10 | ×3 | 15.0 | STRING: STX16/ATRIP/DNPEP/PRPF19/NCOA5; IntAct 7 条; UniProt 5 条 |
 | **加权总分** | | | **130/180**** | |
@@ -59,7 +58,6 @@ status: scored
 | Pfam | PF18295, PF00883 (Peptidase M17 family) |
 
 AlphaFold pLDDT 94.3（mean），结构预测置信度极高（91.2% >90）。PAE image URL 存在 (AF-Q8NDH3-F1-predicted_aligned_error_v6.png)，未生成本地副本。Peptidase M17 结构域为氨基肽酶催化域。
-![[NPEPL1-PAE.png]]
 
 #### 3.3 研究现状
 | 指标 | 数值 |
@@ -98,7 +96,6 @@ NPEPL1 是基于 HPA Approved Nucleoplasm + GO nucleus HDA 双源互证重新分
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=NPEPL1
 - HPA: https://www.proteinatlas.org/ENSG00000215440-NPEPL1
 
-![[Projects/TEreg-finding/protein-interested/detail/nucleus-cytoplasm/NPEPL1/NPEPL1-PAE.png]]
 
 HPA IF 图像已本地嵌入。
 
@@ -107,7 +104,6 @@ HPA IF 图像已本地嵌入。
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleus-cytoplasm/NPEPL1/NPEPL1-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

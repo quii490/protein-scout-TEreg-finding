@@ -24,7 +24,6 @@ status: scored
 | 研究新颖性 | 2/10 | ×5 | 10.0 | PubMed strict=84, ≤100 |
 | 三维结构 | 2/10 | ×3 | 6.0 | AlphaFold mean pLDDT 56.7 (低); 无 PDB; <50 占 49.6% |
 
-![[FOXO6-PAE.png]]
 | 调控结构域 | 5/10 | ×2 | 10.0 | Forkhead domain (PF00250) + FOXO-specific domain (PF16676); 转录因子经典结构域 |
 | PPI 网络 | 5/10 | ×3 | 15.0 | AKT1 (exp 0.312), FOXO4 (exp 0.421), 14-3-3 家族 (YWHAs co-IP); 中等实验验证 |
 | **加权总分** | | | **65/180**** | |
@@ -56,7 +55,6 @@ status: scored
 | Pfam | PF00250 (Forkhead), PF16676 (FOXO_KIX) |
 
 **AlphaFold PAE 状态**: PAE 已下载，模型置信度低（mean pLDDT 56.7, <50 占 49.6%）。仅有 Forkhead 结构域区域置信度较高，其余大部分区域为无序预测。无 PDB 实验结构。FOXO6 可能含有大量固有无序区域（IDR），这对转录因子而言正常，但降低了结构评分。
-![[FOXO6-PAE.png]]
 
 #### 3.3 研究现状
 | 指标 | 数值 |
@@ -94,14 +92,12 @@ FOXO6 是本批次评分最低的候选（36.1/100）。核心弱点：核定位
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=FOXO6
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000204060-FOXO6（无 IF 原图）
 
-![[Projects/TEreg-finding/protein-interested/detail/nucleolus/FOXO6/FOXO6-PAE.png]]
 
 HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）。核定位基于HPA localization/reliability + UniProt + GO-CC。
 
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleolus/FOXO6/FOXO6-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

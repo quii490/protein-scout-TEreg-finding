@@ -82,7 +82,6 @@ pm: 18
 
 **PAE 图**:
 
-![[Projects/TEreg-finding/protein-interested/detail/nuclear-speckle/GUCY1A1/GUCY1A1-PAE.png]]
 
 **评价**: 12 个 PDB 结构，含 X-ray 晶体 (1.9-2.1A) 和冷冻电镜结构。结构研究充分，催化结构域有高分辨结构。
 
@@ -185,7 +184,6 @@ HPA IF 图像已本地嵌入。
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nuclear-speckle/GUCY1A1/GUCY1A1-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

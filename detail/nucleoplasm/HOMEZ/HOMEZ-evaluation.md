@@ -75,7 +75,6 @@ PubMed 仅 10 篇严格文献。HOMEZ 几乎未被研究，仅在 male fertility
 | PDB | 2ECC (NMR, aa361-423, homeobox), 2YS9 (NMR, aa453-509, leucine zipper) |
 
 **AlphaFold PAE**:
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/HOMEZ/HOMEZ-PAE.png]]
 
 低总体 pLDDT (58.9)，53.3% 区域 <50。但 2 个 NMR 结构覆盖 homeobox 和 leucine zipper domain，局部结构已知。大部分区域为内在无序。
 
@@ -168,7 +167,6 @@ HPA IF 图像已本地嵌入。
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/HOMEZ/HOMEZ-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

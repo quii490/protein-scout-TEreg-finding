@@ -71,7 +71,6 @@ ANP32E 是 ANP32 (acidic nuclear phosphoprotein) 家族成员。作为 H2A.Z 组
 | PDB | 2 structures (X-ray, ~3.0 Å, C-terminal domain) |
 | Domain | ANP32 family leucine-rich repeat; H2A.Z binding |
 
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/ANP32E/ANP32E-PAE.png]]
 
 **PAE**: PAE 图像已获取。
 
@@ -138,7 +137,6 @@ HPA IF 图像已本地嵌入。
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/ANP32E/ANP32E-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

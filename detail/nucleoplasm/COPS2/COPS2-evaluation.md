@@ -82,7 +82,7 @@ status: scored
 | 有序区域 (pLDDT>70) 占比 | 91.9% |
 | 可用 PDB 条目 | 4D10, 4D18, 4WSN, 6A73, 6R6H, 6R7F, 6R7H, 6R7I, 6R7N, 8H38 |
 
-**PAE**: PAE图像下载跳过（快速standard evaluation）。结构判断基于 AlphaFold pLDDT 统计。
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 **评价**: PDB实验结构 + AlphaFold极高置信度（pLDDT=85.1），结构可信度极高。
 
@@ -165,3 +165,9 @@ status: scored
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/P61201
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-P61201-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

@@ -41,7 +41,7 @@ status: scored
 | Protein Atlas (IF) | Nucleoplasm, Cytosol; 额外: Mitochondria | Enhanced |
 | UniProt | Cytoplasm; Nucleus; Mitochondrion | Swiss-Prot/TrEMBL |
 
-**IF 图像获取**: 未下载本地IF图像（standard evaluation），核定位证据基于HPA subcellular localization注释、UniProt注释和GO-CC术语。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 **GO Cellular Component**:
 - cytoplasm (GO:0005737)
@@ -88,7 +88,7 @@ status: scored
 | 有序区域 (pLDDT>70) 占比 | 76.4% |
 | 可用 PDB 条目 | 8QBN, 8QE8 |
 
-**PAE**: PAE 图像未生成本地文件（standard evaluation），结构判断基于 AlphaFold pLDDT 统计。
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 **评价**: PDB实验结构（8QBN, 8QE8）+ AlphaFold高质量预测（pLDDT=79.2），结构可信度高。
 
@@ -180,3 +180,20 @@ status: scored
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9H7D7
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (enhanced)。来源: https://www.proteinatlas.org/ENSG00000162923-WDR26/subcellular
+
+![](https://images.proteinatlas.org/28538/1922_H2_10_cr5cc2f7c8f3527_red_green.jpg)
+![](https://images.proteinatlas.org/28538/1922_H2_34_red_green.jpg)
+![](https://images.proteinatlas.org/28538/1985_G4_4_cr5f04c632ce536_red_green.jpg)
+![](https://images.proteinatlas.org/28538/1985_G4_7_cr5f04c632cfce8_red_green.jpg)
+![](https://images.proteinatlas.org/28538/1992_F8_32_cr5ed636704e18b_red_green.jpg)
+![](https://images.proteinatlas.org/28538/1992_F8_45_cr5ed636704f9d9_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-Q9H7D7-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

@@ -24,7 +24,6 @@ status: scored
 | 研究新颖性 | 2/10 | ×5 | 10.0 | PubMed strict=90, broad=705 |
 | 三维结构 | 6/10 | ×3 | 18.0 | AlphaFold pLDDT 65.0; 34.1% <50; 无 PDB |
 
-![[HEYL-PAE.png]]
 | 调控结构域 | 8/10 | ×2 | 16.0 | bHLH + Orange domain; Notch 信号下游转录抑制因子; 心血管发育关键 |
 | PPI 网络 | 7/10 | ×3 | 21.0 | UniProt MDFI (7 exp), RBPMS (4 exp); IntAct Hand1/2, ATXN1, BANP 等丰富 |
 | **加权总分** | | | **105/180**** | |
@@ -98,7 +97,6 @@ HEYL 是 Notch 信号通路的核心转录抑制因子，核定位强（GO nucle
 
 ![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/HEYL/IF_images/AF22_1.jpg]]
 
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/HEYL/HEYL-PAE.png]]
 
 HPA IF 图像已本地嵌入。
 
@@ -107,7 +105,6 @@ HPA IF 图像已本地嵌入。
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/HEYL/HEYL-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

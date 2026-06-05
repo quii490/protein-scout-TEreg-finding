@@ -134,7 +134,7 @@ PubMed 61篇(strict)，中等研究热度。AKIP1在NF-kB信号通路(特别是R
 
 AlphaFold低质量预测，31%残基无序。作为adaptor蛋白，高比例无序区域(IDR)可能具有功能性——无序区域常在多蛋白互作中提供柔性结合界面。类似CREB binding protein和p53的N端无序区通过诱导折叠(indued folding)与不同伴侣结合。但无PDB实验结构限制了结构生物学应用。**评分: 4/10**。
 
-PAE图像未生成本地文件。
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 #### 4.5 结构域分析
 
@@ -183,3 +183,9 @@ PPI以PRKACA(0.51实验)和RELA(0.51实验)为核心，直接关联cAMP-PKA-NF-k
 - Harvest packet: /Users/quii/Desktop/projects/TE-regulated proteins finding/protein_data/harvest_packets/AKIP1.json (2026-06-03)
 
 HPA IF图像可在线获取(Supported, Nucleoplasm, 多细胞系)，未下载本地。PAE未生成本地。
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-Q9NQ31-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

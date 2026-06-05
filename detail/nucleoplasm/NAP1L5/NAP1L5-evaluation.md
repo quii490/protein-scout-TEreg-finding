@@ -24,7 +24,6 @@ status: scored
 | 研究新颖性 | 8/10 | x5 | 40.0 | PubMed strict=24, broad=37 |
 | 三维结构 | 3/10 | x3 | 9.0 | AlphaFold mean pLDDT 65.4; PDB 无; pct_gt_90=24.7% |
 
-![[NAP1L5-PAE.png]]
 | 调控结构域 | 7/10 | x2 | 14.0 | NAP family (IPR037231, IPR002164); Pfam PF00956 (Nucleosome assembly protein); 直接染色质组装 |
 | PPI 网络 | 5/10 | x3 | 15.0 | STRING: NAP1L1 0.793, NAP1L4 0.746, NOL6 0.736; IntAct 15 条; UniProt 4 条 |
 | **加权总分** | | | **107/180**** | |
@@ -107,12 +106,10 @@ NAP1L5 是一个小型印记核小体组装蛋白，HPA IF Approved 支持核定
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=NAP1L5
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000177432-NAP1L5
 
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/NAP1L5/NAP1L5-PAE.png]]
 
 **PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/NAP1L5/NAP1L5-PAE.png]]
 
 <!-- AF_PAE_REPAIR_START -->
 **PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。

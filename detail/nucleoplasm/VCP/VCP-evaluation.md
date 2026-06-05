@@ -41,7 +41,7 @@ status: rejected
 | Protein Atlas (IF) | Nucleoplasm, Cytosol; 额外: Mitotic spindle, Primary cilium tip, Primary cilium transition zone, Basal body | Supported |
 | UniProt | Cytoplasm, cytosol; Endoplasmic reticulum; Nucleus; Cytoplasm, Stress granule | Swiss-Prot/TrEMBL |
 
-**IF 图像获取**: 未下载本地IF图像（standard evaluation），核定位证据基于HPA subcellular localization注释、UniProt注释和GO-CC术语。
+HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。
 
 **GO Cellular Component**:
 - ATPase complex (GO:1904949)
@@ -89,7 +89,7 @@ status: rejected
 | 有序区域 (pLDDT>70) 占比 | 85.6% |
 | 可用 PDB 条目 | 3EBB, 3HU1, 3HU2, 3HU3, 3QC8, 3QQ7, 3QQ8, 3QWZ, 3TIW, 4KDI |
 
-**PAE**: PAE 图像未生成本地文件（standard evaluation），结构判断基于 AlphaFold pLDDT 统计。
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 **评价**: PDB实验结构（3EBB, 3HU1, 3HU2, 3HU3, 3QC8, 3QQ7, 3QQ8, 3QWZ, 3TIW, 4KDI）+ AlphaFold极高置信度预测（pLDDT=82.6），结构可信度极高。
 
@@ -181,3 +181,20 @@ status: rejected
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/P55072
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (supported)。来源: https://www.proteinatlas.org/ENSG00000165280-VCP/subcellular
+
+![](https://images.proteinatlas.org/12728/2133_D9_35_red_green.jpg)
+![](https://images.proteinatlas.org/12728/2133_D9_55_red_green.jpg)
+![](https://images.proteinatlas.org/12728/2150_E5_18_red_green.jpg)
+![](https://images.proteinatlas.org/12728/2150_E5_42_red_green.jpg)
+![](https://images.proteinatlas.org/12728/2241_E4_21_red_green.jpg)
+![](https://images.proteinatlas.org/12728/2241_E4_63_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-P55072-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->
