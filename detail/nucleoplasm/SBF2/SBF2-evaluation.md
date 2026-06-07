@@ -173,3 +173,29 @@ High-confidence interactors (score >= 0.7): 9. Total STRING interactions: 15. In
 - STRING: https://string-db.org/ (search SBF2)
 - IntAct: https://www.ebi.ac.uk/intact/ (search SBF2)
 - Harvest packet: SBF2.json
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q86WG5 |
+| SMART | SM00801;SM00799;SM00568;SM00233;SM00800; |
+| UniProt Domain [FT] | DOMAIN 7..172; /note="uDENN"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00304"; DOMAIN 191..324; /note="cDENN"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00304"; DOMAIN 326..427; /note="dDENN"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00304"; DOMAIN 871..957; /note="GRAM"; /evidence="ECO:0000255"; DOMAIN 1108..1584; /note="Myotubularin phosphatase"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00669"; DOMAIN 1743..1847; /note="PH"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00145" |
+| InterPro | IPR001194;IPR005112;IPR043153;IPR004182;IPR037823;IPR030564;IPR010569;IPR011993;IPR001849;IPR029021;IPR022096;IPR037516;IPR005113; |
+| Pfam | PF02141;PF02893;PF06602;PF00169;PF12335;PF03456; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000133812-SBF2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| MTMR1 | Biogrid, Opencell | true |
+| MTMR2 | Biogrid, Opencell | true |
+| DHFR | Bioplex | false |
+| EEF1AKMT3 | Bioplex | false |
+| FHL3 | Intact | false |
+| RBPMS | Intact | false |
+| SBF1 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

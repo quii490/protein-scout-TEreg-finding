@@ -171,3 +171,21 @@ status: rejected
 
 ![](https://alphafold.ebi.ac.uk/files/AF-A0A0J9YX62-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O75190 |
+| SMART | SM00271; |
+| UniProt Domain [FT] | DOMAIN 2..69; /note="J"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00286" |
+| InterPro | IPR001623;IPR018253;IPR043183;IPR036869; |
+| Pfam | PF00226; |
+
+### humanPPI / HPA Interaction
+Source: 未找到 HPA interaction 页面
+
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -181,3 +181,21 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 ![](https://images.proteinatlas.org/38511/455_C11_1_red_green.jpg)
 ![](https://images.proteinatlas.org/38511/455_C11_2_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q5VV67 |
+| SMART | SM00360; |
+| UniProt Domain [FT] | DOMAIN 1543..1619; /note="RRM"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00176" |
+| InterPro | IPR012677;IPR034605;IPR034834;IPR035979;IPR000504; |
+| Pfam | PF00076; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000148840-PPRC1/interaction
+
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

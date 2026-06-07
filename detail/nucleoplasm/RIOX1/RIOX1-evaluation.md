@@ -148,3 +148,23 @@ Score: 152/180. RIOX1 is a histone lysine demethylase with direct epigenetic reg
 
 ## Manual Review Note
 STRONG CANDIDATE. RIOX1 demethylates H3K4me3 (active promoter mark) and H3K36me2 (transcription elongation mark). Both are critical for TE regulation. The protein localizes to nucleoli/nucleoplasm (HPA + UniProt experimental). PubMed count of 7 indicates extremely low prior investigation -- high novelty for TE biology. The PHF19 (Polycomb) interaction suggests connection to repressive chromatin complexes. Structural data is excellent with 10 PDB entries. This gene should be prioritized for TE-regulatory investigation.
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9H6W3 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 294..439; /note="JmjC"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00538" |
+| InterPro | IPR003347;IPR039994;IPR049043; |
+| Pfam | PF08007;PF21233; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000170468-RIOX1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| MYC | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

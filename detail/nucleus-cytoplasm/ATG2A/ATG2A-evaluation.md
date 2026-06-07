@@ -185,3 +185,29 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q2TAZ0-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q2TAZ0 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 14..111; /note="Chorein N-terminal"; /evidence="ECO:0000255" |
+| InterPro | IPR026849; |
+| Pfam | PF13329; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000110046-ATG2A/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| WDR45 | Intact, Biogrid | true |
+| ATG9A | Intact | false |
+| GABARAP | Intact | false |
+| GABARAPL1 | Intact | false |
+| GABARAPL2 | Intact | false |
+| MAP1LC3B | Intact | false |
+| TOMM40 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

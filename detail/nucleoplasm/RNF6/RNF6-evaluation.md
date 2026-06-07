@@ -167,3 +167,30 @@ RNF6 is 685 amino acids in length, placing it within the ideal 200-800 aa range.
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9Y252
 - InterPro: https://www.ebi.ac.uk/interpro/protein/Q9Y252/
 - Note: Harvest packet not available; data compiled from UniProt and literature database queries
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9Y252 |
+| SMART | SM00184; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR051834;IPR058896;IPR001841;IPR013083; |
+| Pfam | PF25914;PF13639; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000127870-RNF6/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| AR | Intact, Biogrid | true |
+| CDKN1B | Biogrid | false |
+| FOXA1 | Biogrid | false |
+| PTPN6 | Biogrid | false |
+| STK4 | Biogrid | false |
+| TCF4 | Biogrid | false |
+| TLE3 | Biogrid | false |
+| UBE2D1 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -109,3 +109,30 @@ HPA IF 图像已本地嵌入。
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q8WXD5-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8WXD5 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 7..74; /note="Sm"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01346"; DOMAIN 69..167; /note="AD"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01345" |
+| InterPro | IPR047574;IPR009422;IPR046856;IPR046857;IPR047575; |
+| Pfam | PF06372;PF20417; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000152147-GEMIN6/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| DDX20 | Biogrid, Bioplex | true |
+| GEMIN4 | Biogrid, Bioplex | true |
+| GEMIN7 | Intact, Biogrid, Bioplex | true |
+| GEMIN8 | Biogrid, Bioplex | true |
+| SMN1 | Biogrid, Opencell | true |
+| SNRPB | Biogrid, Opencell | true |
+| SNRPD2 | Intact, Biogrid, Opencell | true |
+| SNRPE | Intact, Biogrid, Bioplex | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

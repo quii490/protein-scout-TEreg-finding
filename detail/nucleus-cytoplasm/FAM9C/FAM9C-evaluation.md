@@ -100,3 +100,30 @@ HPA subcellular data 缺失，建议独立检索 HPA 确认 IF 图像状态。ST
 - HPA: 无 subcellular 数据 (ok=True)
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8IZT9
 - Packet: 2026-06-04 re-harvest
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8IZT9 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR051443;IPR006888; |
+| Pfam | PF04803; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000187268-FAM9C/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| NDC80 | Intact, Biogrid | true |
+| SKA1 | Intact, Biogrid | true |
+| SNAP29 | Intact, Biogrid, Bioplex | true |
+| BORCS6 | Intact | false |
+| TEX12 | Intact | false |
+| TPM1 | Biogrid | false |
+| TPM3 | Intact | false |
+| TRIML2 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

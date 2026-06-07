@@ -177,3 +177,30 @@ PAE image data not yet available (local image not generated or not reliably fetc
 ![](https://images.proteinatlas.org/26915/300_B6_3_red_green.jpg)
 ![](https://images.proteinatlas.org/26915/300_B6_4_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9UBW8 |
+| SMART | SM00088; |
+| UniProt Domain [FT] | DOMAIN 2..159; /note="PCI"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01185" |
+| InterPro | IPR045237;IPR041481;IPR000717; |
+| Pfam | PF22061;PF18392;PF01399; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000111652-COPS7A/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| BTBD1 | Biogrid, Bioplex | true |
+| COPS2 | Intact, Biogrid | true |
+| COPS3 | Intact, Biogrid, Bioplex | true |
+| COPS5 | Biogrid, Bioplex | true |
+| COPS6 | Biogrid, Bioplex | true |
+| COPS7B | Biogrid, Bioplex | true |
+| COPS8 | Biogrid, Bioplex | true |
+| CUL5 | Biogrid, Bioplex | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

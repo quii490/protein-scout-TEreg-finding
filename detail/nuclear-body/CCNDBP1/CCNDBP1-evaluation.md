@@ -181,6 +181,29 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nuclear-body/CCNDBP1/CCNDBP1-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O95273 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR026907;IPR049317;IPR049318; |
+| Pfam | PF20936;PF13324; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000166946-CCNDBP1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| COPS5 | Intact, Biogrid | true |
+| IMP3 | Intact, Biogrid | true |
+| RPLP0 | Intact, Biogrid, Bioplex | true |
+| RRAD | Intact, Biogrid | true |
+| SYF2 | Intact, Biogrid | true |
+| TFPT | Intact, Biogrid | true |
+| ZNF627 | Intact, Biogrid | true |
+| AMPD2 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

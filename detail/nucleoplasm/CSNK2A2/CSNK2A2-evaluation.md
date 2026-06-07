@@ -99,3 +99,30 @@ CSNK2A2 是 casein kinase II 的 alpha' 催化亚基，结构解析极其充分�
 
 ![](https://alphafold.ebi.ac.uk/files/AF-P19784-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P19784 |
+| SMART | SM00220; |
+| UniProt Domain [FT] | DOMAIN 40..325; /note="Protein kinase"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00159" |
+| InterPro | IPR045216;IPR011009;IPR000719;IPR017441;IPR008271; |
+| Pfam | PF00069; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000070770-CSNK2A2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| C18orf25 | Biogrid, Opencell | true |
+| CBX4 | Biogrid, Opencell | true |
+| CCNL1 | Biogrid, Bioplex | true |
+| CDC37 | Biogrid, Opencell | true |
+| CEP170 | Biogrid, Opencell | true |
+| CHD4 | Biogrid, Opencell | true |
+| CREBBP | Biogrid, Opencell | true |
+| CSNK2A1 | Intact, Biogrid, Opencell, Bioplex | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

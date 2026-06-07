@@ -180,6 +180,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CDC14A/CDC14A-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9UNH5 |
+| SMART | SM00195;SM00404; |
+| UniProt Domain [FT] | DOMAIN 179..336; /note="Tyrosine-protein phosphatase"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00160" |
+| InterPro | IPR044506;IPR029260;IPR029021;IPR050561;IPR016130;IPR003595;IPR000387;IPR020422; |
+| Pfam | PF14671;PF22785; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000079335-CDC14A/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ATPAF2 | Intact | false |
+| BRAP | Biogrid | false |
+| C14orf119 | Intact | false |
+| CDC25B | Biogrid | false |
+| KIF20A | Biogrid | false |
+| LUZP1 | Biogrid | false |
+| PLK1 | Biogrid | false |
+| PRRC2A | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

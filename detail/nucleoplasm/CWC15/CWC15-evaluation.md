@@ -165,6 +165,29 @@ IntAct 有限记录。无 BioGrid 补充数据。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CWC15/CWC15-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9P013 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR006973; |
+| Pfam | PF04889; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000150316-CWC15/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| BCAS2 | Biogrid, Bioplex | true |
+| CDC5L | Intact, Biogrid | true |
+| CTNNBL1 | Intact, Biogrid, Opencell | true |
+| DNAJC17 | Biogrid, Bioplex | true |
+| PRPF19 | Biogrid, Opencell, Bioplex | true |
+| SF3A1 | Biogrid, Opencell | true |
+| SF3B1 | Biogrid, Opencell | true |
+| SNRPA | Biogrid, Opencell | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

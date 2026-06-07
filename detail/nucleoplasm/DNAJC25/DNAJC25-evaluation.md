@@ -181,6 +181,29 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/DNAJC25/DNAJC25-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9H1X3 |
+| SMART | SM00271; |
+| UniProt Domain [FT] | DOMAIN 49..124; /note="J"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00286" |
+| InterPro | IPR001623;IPR044632;IPR036869; |
+| Pfam | PF00226; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000059769-DNAJC25/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CCDC47 | Biogrid | false |
+| EMD | Biogrid | false |
+| ESYT2 | Biogrid | false |
+| FKBP8 | Biogrid | false |
+| LSG1 | Biogrid | false |
+| MTDH | Biogrid | false |
+| PGRMC1 | Biogrid | false |
+| POR | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

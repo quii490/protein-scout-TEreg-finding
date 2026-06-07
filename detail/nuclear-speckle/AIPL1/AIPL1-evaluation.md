@@ -160,6 +160,29 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/rejected/AIPL1/AIPL1-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9NZN9 |
+| SMART | SM00028; |
+| UniProt Domain [FT] | DOMAIN 53..145; /note="PPIase FKBP-type" |
+| InterPro | IPR039663;IPR056277;IPR046357;IPR011990;IPR019734; |
+| Pfam | PF23322; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000129221-AIPL1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| BLM | Intact, Biogrid | true |
+| NUB1 | Intact, Biogrid | true |
+| PDE5A | Intact, Biogrid | true |
+| CEP43 | Intact | false |
+| FKBP15 | Intact | false |
+| HSPA8 | Biogrid | false |
+| LBX1 | Intact | false |
+| MIOS | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -210,6 +210,29 @@ STRING + IntAct 高度一致 — Top 3 partner 全部在两个数据库中确认
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/rejected/ARNT/ARNT-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P27540 |
+| SMART | SM00353;SM00086;SM00091; |
+| UniProt Domain [FT] | DOMAIN 89..142; /note="bHLH"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00981"; DOMAIN 161..235; /note="PAS 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00140"; DOMAIN 349..419; /note="PAS 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00140"; DOMAIN 424..467; /note="PAC" |
+| InterPro | IPR011598;IPR050933;IPR036638;IPR001067;IPR001610;IPR000014;IPR035965;IPR013767; |
+| Pfam | PF00010;PF00989;PF14598; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000143437-ARNT/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| AHR | Intact, Biogrid | true |
+| EPAS1 | Intact, Biogrid | true |
+| HIF1A | Intact, Biogrid | true |
+| AHRR | Biogrid | false |
+| AKT1 | Intact, Biogrid | false |
+| BRCA1 | Biogrid | false |
+| CALCOCO1 | Biogrid | false |
+| CALM1 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -173,3 +173,23 @@ status: scored
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q1W6H9
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q1W6H9 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR025740;IPR025741;IPR025739; |
+| Pfam | PF14160;PF14161; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000184731-FAM110C/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CSNK1E | Intact, Biogrid, Bioplex | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

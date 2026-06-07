@@ -181,3 +181,30 @@ status: rejected
 
 ![](https://alphafold.ebi.ac.uk/files/AF-P31689-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P31689 |
+| SMART | SM00271; |
+| UniProt Domain [FT] | DOMAIN 6..68; /note="J" |
+| InterPro | IPR012724;IPR002939;IPR001623;IPR018253;IPR044713;IPR008971;IPR001305;IPR036410;IPR036869; |
+| Pfam | PF00226;PF01556;PF00684; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000086061-DNAJA1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| DNAJA2 | Biogrid, Opencell, Bioplex | true |
+| ENDOG | Biogrid, Opencell, Bioplex | true |
+| HSPA1L | Biogrid, Opencell | true |
+| HSPA5 | Biogrid, Opencell | true |
+| HSPA8 | Biogrid, Opencell | true |
+| HSPH1 | Biogrid, Opencell | true |
+| HTT | Intact, Biogrid | true |
+| METTL3 | Biogrid, Opencell | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

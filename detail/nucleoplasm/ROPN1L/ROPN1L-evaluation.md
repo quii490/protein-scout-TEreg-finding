@@ -141,3 +141,26 @@ Score: 69/180. ROPN1L has weak nuclear evidence (nucleoplasm is additional, not 
 
 ## Manual Review Note
 CONFIRMED REJECTION. ROPN1L is a ropporin family protein that functions as part of the radial spoke complex in cilia and sperm flagella. The nucleoplasmic HPA annotation is "additional" (not primary) and inconsistent with the known biological function. No evidence supports nuclear or chromatin-level regulatory activity. Retaining this gene would be based on a secondary localization annotation rather than functional evidence.
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96C74 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 17..46; /note="RIIa" |
+| InterPro | IPR047844; |
+| Pfam | 未检出 |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000145491-ROPN1L/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| SPA17 | Intact, Biogrid | true |
+| AKAP14 | Intact | false |
+| AKAP5 | Intact | false |
+| BEX2 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -189,6 +189,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/MKRN1/MKRN1-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9UHC7 |
+| SMART | SM00184;SM00356; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR045072;IPR031644;IPR041367;IPR018957;IPR000571;IPR036855;IPR001841;IPR013083;IPR017907; |
+| Pfam | PF15815;PF00097;PF00642;PF14608;PF18044; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000133606-MKRN1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CDKN1A | Intact, Biogrid | true |
+| PABPC4 | Biogrid, Opencell | true |
+| TP53 | Intact, Biogrid | true |
+| APC | Biogrid | false |
+| BYSL | Intact | false |
+| CDKN2A | Biogrid | false |
+| DAXX | Intact | false |
+| ELAVL1 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -159,3 +159,21 @@ PAE image data not yet available (local image not generated or not reliably fetc
 ![](https://images.proteinatlas.org/40625/502_H5_1_blue_red_green.jpg)
 ![](https://images.proteinatlas.org/40625/502_H5_2_blue_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | A8K830 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 5..27; /note="OCA"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01347" |
+| InterPro | IPR047571;IPR043265; |
+| Pfam | 未检出 |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000214290-POU2AF3/interaction
+
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -116,6 +116,29 @@ HPA 免疫荧光（IF）实验数据确认 OSGIN1 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9UJX0 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR036188;IPR029731; |
+| Pfam | 未检出 |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000140961-OSGIN1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| BCAR3 | Intact, Biogrid | true |
+| BTBD2 | Intact, Biogrid | true |
+| ARNT2 | Intact | false |
+| CAPN3 | Intact | false |
+| CRX | Intact | false |
+| DECR2 | Intact | false |
+| GCLM | Intact | false |
+| IKBKG | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

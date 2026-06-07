@@ -176,6 +176,20 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/ERI2/ERI2-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | A8K979 |
+| SMART | SM00479; |
+| UniProt Domain [FT] | DOMAIN 37..226; /note="Exonuclease" |
+| InterPro | IPR051274;IPR047201;IPR013520;IPR012337;IPR036397;IPR010666; |
+| Pfam | PF00929;PF06839; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000196678-ERI2/interaction
 
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

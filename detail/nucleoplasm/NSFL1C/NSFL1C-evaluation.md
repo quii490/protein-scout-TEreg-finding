@@ -211,3 +211,30 @@ NSFL1C should be reevaluated in the context of broader TE biology hypotheses.
 ![](https://images.proteinatlas.org/47108/896_A9_3_red_green.jpg)
 ![](https://images.proteinatlas.org/47108/896_A9_4_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9UNZ2 |
+| SMART | SM00553;SM00166; |
+| UniProt Domain [FT] | DOMAIN 179..244; /note="SEP"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00732"; DOMAIN 291..368; /note="UBX"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00215" |
+| InterPro | IPR036241;IPR012989;IPR009060;IPR029071;IPR001012; |
+| Pfam | PF08059;PF14555;PF00789; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000088833-NSFL1C/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| VCP | Intact, Biogrid, Opencell | true |
+| ASPSCR1 | Biogrid | false |
+| CCNF | Biogrid | false |
+| FAF1 | Biogrid | false |
+| FAM104A | Biogrid | false |
+| FGGY | Biogrid | false |
+| IDE | Biogrid | false |
+| IKBKG | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

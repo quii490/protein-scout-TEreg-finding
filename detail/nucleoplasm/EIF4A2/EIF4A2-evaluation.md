@@ -186,6 +186,29 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/EIF4A2/EIF4A2-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q14240 |
+| SMART | SM00487;SM00490; |
+| UniProt Domain [FT] | DOMAIN 64..235; /note="Helicase ATP-binding"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00541"; DOMAIN 246..407; /note="Helicase C-terminal"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00542" |
+| InterPro | IPR011545;IPR044728;IPR014001;IPR001650;IPR027417;IPR000629;IPR014014; |
+| Pfam | PF00270;PF00271; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000156976-EIF4A2/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| EIF3G | Biogrid, Opencell | true |
+| EIF3H | Intact, Biogrid | true |
+| EIF4E | Intact, Biogrid | true |
+| EIF4G1 | Intact, Biogrid | true |
+| EIF4G2 | Intact, Biogrid | true |
+| HSPB1 | Intact, Biogrid | true |
+| IPO11 | Intact, Biogrid | true |
+| PDCD4 | Intact, Biogrid | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -188,6 +188,28 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/METTL6/METTL6-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8TCB7 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR013217;IPR026113;IPR029063; |
+| Pfam | PF08242; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000206562-METTL6/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ALDH1A2 | Bioplex | false |
+| CCT3 | Bioplex | false |
+| CCT6A | Bioplex | false |
+| GPANK1 | Intact | false |
+| LGALS7 | Bioplex | false |
+| LGALS7B | Bioplex | false |
+| PLS1 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

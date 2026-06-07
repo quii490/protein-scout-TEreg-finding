@@ -198,3 +198,30 @@ CK1alpha通过这些底物间接参与染色质层面的基因调控。其Nuclea
 
 ![](https://alphafold.ebi.ac.uk/files/AF-P48729-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P48729 |
+| SMART | SM00220; |
+| UniProt Domain [FT] | DOMAIN 17..285; /note="Protein kinase"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00159" |
+| InterPro | IPR050235;IPR011009;IPR000719;IPR017441;IPR008271; |
+| Pfam | PF00069; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000113712-CSNK1A1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| BACH1 | Biogrid, Opencell | true |
+| CARD11 | Intact, Biogrid | true |
+| CRBN | Intact, Biogrid | true |
+| CSNK1D | Biogrid, Opencell | true |
+| DBR1 | Biogrid, Opencell | true |
+| FAM83B | Intact, Biogrid, Opencell | true |
+| FAM83D | Intact, Biogrid, Opencell | true |
+| FAM83G | Intact, Biogrid, Opencell | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

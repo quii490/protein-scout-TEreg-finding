@@ -63,3 +63,30 @@ STRING: AGO3 (0.885, experimental 0.782)、FKBP8 (0.719, exp 0.611)、GUCY1A1 (0
 ![](https://images.proteinatlas.org/67100/1924_G12_2_red_green.jpg)
 ![](https://images.proteinatlas.org/67100/1924_G12_3_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8IV38 |
+| SMART | SM00248; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR052452;IPR002110;IPR036770;IPR002893; |
+| Pfam | PF12796;PF01753; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000106524-ANKMY2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ADCY3 | Bioplex | false |
+| ADCY9 | Bioplex | false |
+| DNAAF1 | Intact | false |
+| FBXL6 | Biogrid | false |
+| FKBP5 | Biogrid | false |
+| FKBP8 | Biogrid | false |
+| GUCY1B1 | Bioplex | false |
+| PLD2 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

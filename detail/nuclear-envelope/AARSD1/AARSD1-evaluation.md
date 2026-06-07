@@ -118,4 +118,28 @@ HPA IF 图像已本地嵌入。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nuclear-envelope/AARSD1/AARSD1-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9BTE6 |
+| SMART | SM00863; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR018165;IPR051335;IPR018163;IPR009000;IPR012947; |
+| Pfam | PF07973; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000266967-AARSD1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| DYNLT1 | Biogrid | false |
+| DYRK1A | Biogrid | false |
+| HECTD1 | Biogrid | false |
+| HSPB1 | Biogrid | false |
+| IRS4 | Biogrid | false |
+| SERPINH1 | Biogrid | false |
+| TUBA1A | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

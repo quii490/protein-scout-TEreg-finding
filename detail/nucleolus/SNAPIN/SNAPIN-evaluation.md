@@ -116,6 +116,29 @@ HPA 免疫荧光（IF）实验数据确认 SNAPIN 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O95295 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR017246;IPR028119; |
+| Pfam | PF14712; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000143553-SNAPIN/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| BLOC1S1 | Intact, Biogrid | true |
+| BLOC1S2 | Intact, Biogrid | true |
+| BLOC1S6 | Biogrid, Bioplex | true |
+| DTNBP1 | Intact, Biogrid | true |
+| DYSF | Intact, Biogrid | true |
+| ELP1 | Intact, Biogrid | true |
+| ENTHD1 | Intact, Biogrid | true |
+| EXOC1 | Intact, Biogrid | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

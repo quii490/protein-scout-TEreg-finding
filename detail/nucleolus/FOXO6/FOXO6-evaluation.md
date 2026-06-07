@@ -104,3 +104,21 @@ HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）�
 
 ![](https://alphafold.ebi.ac.uk/files/AF-A8MYZ6-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | A8MYZ6 |
+| SMART | SM00339; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR047410;IPR001766;IPR032067;IPR030456;IPR036388;IPR036390; |
+| Pfam | PF00250;PF16676; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000204060-FOXO6/interaction
+
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -234,6 +234,29 @@ IntAct 有限记录。无 BioGrid 补充数据。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/EP400/EP400-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96L91 |
+| SMART | SM00487;SM00490;SM00573; |
+| UniProt Domain [FT] | DOMAIN 799..871; /note="HSA"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00549"; DOMAIN 1103..1268; /note="Helicase ATP-binding"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00541"; DOMAIN 1899..2056; /note="Helicase C-terminal"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00542"; DOMAIN 2360..2429; /note="Myb-like"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00133" |
+| InterPro | IPR031575;IPR014001;IPR001650;IPR014012;IPR027417;IPR001005;IPR038718;IPR049730;IPR000330; |
+| Pfam | PF15790;PF00271;PF07529;PF00176; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000183495-EP400/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ACTL6A | Intact, Biogrid | true |
+| BRD8 | Intact, Biogrid | true |
+| MYC | Intact, Biogrid | true |
+| RUVBL1 | Biogrid, Opencell | true |
+| RUVBL2 | Intact, Biogrid, Opencell | true |
+| ACTB | Opencell | false |
+| ACTC1 | Biogrid | false |
+| ACTG1 | Opencell | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

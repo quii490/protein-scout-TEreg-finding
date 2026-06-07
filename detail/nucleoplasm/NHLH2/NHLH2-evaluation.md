@@ -179,6 +179,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/NHLH2/NHLH2-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q02577 |
+| SMART | SM00353; |
+| UniProt Domain [FT] | DOMAIN 77..129; /note="bHLH"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00981" |
+| InterPro | IPR011598;IPR036638;IPR040238; |
+| Pfam | PF00010; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000177551-NHLH2/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| AP3B1 | Bioplex | false |
+| ARFGEF1 | Bioplex | false |
+| ARFGEF2 | Bioplex | false |
+| BHLHA15 | Bioplex | false |
+| CUEDC1 | Bioplex | false |
+| HBB | Bioplex | false |
+| HES1 | Biogrid | false |
+| MYF5 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

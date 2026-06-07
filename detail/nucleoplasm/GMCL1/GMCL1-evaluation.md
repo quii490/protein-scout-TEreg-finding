@@ -177,3 +177,30 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q96IK5-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96IK5 |
+| SMART | SM00875;SM00225; |
+| UniProt Domain [FT] | DOMAIN 108..178; /note="BTB"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00037" |
+| InterPro | IPR011705;IPR000210;IPR043380;IPR011333; |
+| Pfam | PF07707;PF00651; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000087338-GMCL1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CUL3 | Intact, Biogrid | true |
+| FAM167A | Intact, Biogrid, Bioplex | true |
+| PBXIP1 | Intact, Biogrid | true |
+| XAGE2 | Intact, Biogrid, Bioplex | true |
+| XAGE3 | Intact, Biogrid | true |
+| APOL6 | Intact | false |
+| BEGAIN | Intact | false |
+| BSCL2 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

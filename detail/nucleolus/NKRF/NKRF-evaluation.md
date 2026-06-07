@@ -187,4 +187,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleolus/NKRF/NKRF-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O15226 |
+| SMART | SM00358;SM00443;SM00393; |
+| UniProt Domain [FT] | DOMAIN 551..596; /note="G-patch"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00092"; DOMAIN 600..664; /note="R3H"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00382" |
+| InterPro | IPR014720;IPR058828;IPR000467;IPR001374;IPR036867;IPR034071; |
+| Pfam | PF26535;PF01585;PF01424; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000186416-NKRF/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| DHX58 | Intact, Biogrid | true |
+| ILF3 | Biogrid, Opencell | true |
+| NIFK | Biogrid, Bioplex | true |
+| PRKRA | Intact, Biogrid, Bioplex | true |
+| RPL19 | Biogrid, Opencell, Bioplex | true |
+| RPL31 | Biogrid, Bioplex | true |
+| RPL4 | Biogrid, Opencell, Bioplex | true |
+| STAU1 | Intact, Biogrid | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

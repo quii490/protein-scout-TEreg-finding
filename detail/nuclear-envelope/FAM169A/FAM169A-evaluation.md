@@ -172,6 +172,26 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nuclear-envelope/FAM169A/FAM169A-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9Y6X4 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR029625; |
+| Pfam | 未检出 |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000198780-FAM169A/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| LMNB1 | Intact, Biogrid | true |
+| H2BC8 | Biogrid | false |
+| LMNA | Biogrid | false |
+| MTMR9 | Intact | false |
+| SEC61B | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

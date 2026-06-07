@@ -138,3 +138,30 @@ RHOQ is a small GTPase that functions at the plasma membrane and cytoplasmic ves
 - Wikipedia: https://en.wikipedia.org/wiki/RHOQ_(gene)
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22RHOQ%22+OR+%22TC10%22
 - Note: Harvest packet not available; data compiled from UniProt and literature database queries
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P17081 |
+| SMART | SM00175;SM00173;SM00174; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR027417;IPR005225;IPR001806;IPR003578; |
+| Pfam | PF00071; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000119729-RHOQ/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| PARD6B | Intact, Biogrid | true |
+| CDC42EP2 | Biogrid | false |
+| CDC42EP3 | Biogrid | false |
+| EXOC7 | Biogrid | false |
+| GOPC | Biogrid | false |
+| MORN4 | Intact | false |
+| NTAQ1 | Intact | false |
+| PACSIN2 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

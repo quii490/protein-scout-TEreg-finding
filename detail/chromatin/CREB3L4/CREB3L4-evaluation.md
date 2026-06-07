@@ -170,6 +170,23 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/chromatin/CREB3L4/CREB3L4-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8TEY5 |
+| SMART | SM00338; |
+| UniProt Domain [FT] | DOMAIN 217..280; /note="bZIP"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00978" |
+| InterPro | IPR004827;IPR046347;IPR051381; |
+| Pfam | PF00170; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000143578-CREB3L4/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CREB3 | Biogrid | false |
+| GET3 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

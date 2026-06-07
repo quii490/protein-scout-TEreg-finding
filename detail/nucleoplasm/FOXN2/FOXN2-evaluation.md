@@ -116,6 +116,27 @@ HPA 免疫荧光（IF）实验数据确认 FOXN2 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P32314 |
+| SMART | SM00339; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR047403;IPR001766;IPR047119;IPR018122;IPR030456;IPR036388;IPR036390; |
+| Pfam | PF00250; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000170802-FOXN2/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| FBXW11 | Intact, Biogrid | true |
+| RFX1 | Intact, Biogrid, Bioplex | true |
+| BTRC | Biogrid | false |
+| DHX16 | Bioplex | false |
+| RIOK2 | Bioplex | false |
+| USP7 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

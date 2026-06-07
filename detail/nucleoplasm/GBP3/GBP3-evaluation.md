@@ -184,3 +184,28 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q9H0R5-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8WXF7 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 64..309; /note="GB1/RHD3-type G"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01052, ECO:0000269\|PubMed:21220294, ECO:0000269\|PubMed:21368113, ECO:0000269\|PubMed:23334294, ECO:0000269\|PubMed:34546351, ECO:0000269\|PubMed:38509071" |
+| InterPro | IPR030386;IPR036543;IPR015894;IPR027417; |
+| Pfam | PF02263; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000117226-GBP3/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| MAP4K4 | Intact, Biogrid | true |
+| ACTL6B | Bioplex | false |
+| CASP6 | Bioplex | false |
+| GBP1 | Intact, Bioplex | false |
+| GBP2 | Intact, Bioplex | false |
+| GBP5 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

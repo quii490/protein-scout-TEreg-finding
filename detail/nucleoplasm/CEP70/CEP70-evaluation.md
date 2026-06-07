@@ -186,3 +186,30 @@ STRING 15 个预测互作，IntAct 15 个实验互作。调控相关配体占比
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q8NHQ1-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8NHQ1 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR037692;IPR019734; |
+| Pfam | 未检出 |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000114107-CEP70/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ARHGEF3 | Intact, Biogrid | true |
+| C8orf33 | Intact, Biogrid | true |
+| CDC73 | Intact, Biogrid | true |
+| CDCA7L | Intact, Biogrid | true |
+| ENKD1 | Intact, Biogrid | true |
+| KANSL1 | Intact, Biogrid | true |
+| KDM1A | Intact, Biogrid | true |
+| METTL17 | Intact, Biogrid | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

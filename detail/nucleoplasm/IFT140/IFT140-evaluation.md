@@ -116,6 +116,29 @@ HPA 免疫荧光（IF）实验数据确认 IFT140 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96RY7 |
+| SMART | SM00320; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR056154;IPR056155;IPR056168;IPR056156;IPR015943;IPR036322;IPR001680; |
+| Pfam | PF23383;PF23385;PF24762;PF24760; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000187535-IFT140/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| IFT122 | Intact, Biogrid | true |
+| IFT43 | Intact, Biogrid, Bioplex | true |
+| TULP3 | Intact, Biogrid, Bioplex | true |
+| ACSL3 | Intact | false |
+| CIAO2A | Bioplex | false |
+| CIB2 | Bioplex | false |
+| D2HGDH | Bioplex | false |
+| DHFR | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

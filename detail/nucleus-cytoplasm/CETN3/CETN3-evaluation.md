@@ -196,3 +196,30 @@ STRING 15 个预测互作，IntAct 15 个实验互作。调控相关配体占比
 
 ![](https://alphafold.ebi.ac.uk/files/AF-O15182-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O15182 |
+| SMART | SM00054; |
+| UniProt Domain [FT] | DOMAIN 25..60; /note="EF-hand 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00448"; DOMAIN 61..96; /note="EF-hand 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00448"; DOMAIN 98..133; /note="EF-hand 3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00448"; DOMAIN 134..167; /note="EF-hand 4"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00448" |
+| InterPro | IPR050230;IPR011992;IPR018247;IPR002048; |
+| Pfam | PF13499; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000153140-CETN3/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| POC5 | Intact, Biogrid, Opencell, Bioplex | true |
+| XPC | Biogrid, Bioplex | true |
+| AGR2 | Intact | false |
+| ANKS6 | Opencell | false |
+| BCKDK | Biogrid | false |
+| CALM1 | Opencell | false |
+| CALM2 | Opencell | false |
+| CALM3 | Opencell | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -138,3 +138,23 @@ RILPL1 is approximately 407 amino acids, within the ideal range. Size score: 10/
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22RILPL1%22+OR+%22GOSPEL%22
 - BioGRID: https://thebiogrid.org/ (RILPL1 interactions)
 - Note: Harvest packet not available; data compiled from UniProt and literature database queries
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q5EBL4 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 10..97; /note="RH1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01112"; DOMAIN 291..356; /note="RH2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01113" |
+| InterPro | IPR051241;IPR034743;IPR034744;IPR021563; |
+| Pfam | PF09744;PF11461; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000188026-RILPL1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| RAB8A | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

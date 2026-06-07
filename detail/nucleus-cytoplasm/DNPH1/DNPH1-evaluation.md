@@ -252,3 +252,27 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![](https://alphafold.ebi.ac.uk/files/AF-O43598-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O43598 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR051239;IPR028607;IPR007710; |
+| Pfam | PF05014; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000112667-DNPH1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| DDIT4L | Intact | false |
+| KAT5 | Intact | false |
+| PRKCA | Intact | false |
+| TERF1 | Intact | false |
+| YWHAG | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

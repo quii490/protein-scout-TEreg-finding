@@ -116,6 +116,29 @@ HPA 免疫荧光（IF）实验数据确认 TNFAIP2 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q03169 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR010326;IPR042532; |
+| Pfam | PF06046; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000185215-TNFAIP2/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| A4GNT | Bioplex | false |
+| AGK | Bioplex | false |
+| APLNR | Bioplex | false |
+| CD70 | Bioplex | false |
+| FAM174A | Bioplex | false |
+| GML | Bioplex | false |
+| GPR182 | Bioplex | false |
+| KEAP1 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

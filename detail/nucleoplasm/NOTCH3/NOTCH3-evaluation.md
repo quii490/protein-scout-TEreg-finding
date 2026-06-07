@@ -198,3 +198,30 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q9UM47-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9UM47 |
+| SMART | SM00248;SM01334;SM00181;SM00179;SM00004;SM01338;SM01339; |
+| UniProt Domain [FT] | DOMAIN 40..77; /note="EGF-like 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00076"; DOMAIN 78..118; /note="EGF-like 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00076"; DOMAIN 119..156; /note="EGF-like 3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00076"; DOMAIN 158..195; /note="EGF-like 4; calcium-binding"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00076"; DOMAIN 197..234; /note="EGF-like 5"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00076"; DOMAIN 236..272; /note="EGF-like 6; calcium-binding"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00076"; DOMAIN 274..312; /note="EGF-like 7"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00076"; DOMAIN 314..350; /note="EGF-like 8; calcium-binding"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00076"; DOMAIN 351..389; /note="EGF-like 9"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00076"; DOMAIN 391..429; /note="EGF-like 10; calcium-binding"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00076"; DOMAIN 431..467; /note="EGF-like 11; calcium-binding"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00076"; DOMAIN 469..505; /note="EGF-like 12; calcium-binding"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00076"; DOMAIN 507..543; /note="EGF-like 13; calcium-binding"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00076"; DOMAIN 545..580; /note="EGF-like 14; calcium-binding"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00076"; DOMAIN 582..618; /note="EGF-like 15; calcium-binding"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00076"; DOMAIN 620..655; /note="EGF-like 16; calcium-binding"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00076"; DOMAIN 657..693; /note="EGF-like 17; calcium-binding"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00076"; DOMAIN 695..730; /note="EGF-like 18"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00076"; DOMAIN 734..770; /note="EGF-like 19"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00076"; DOMAIN 771..808; /note="EGF-like 20"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00076"; DOMAIN 810..847; /note="EGF-like 21; calcium-binding"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00076"; DOMAIN 849..885; /note="EGF-like 22; calcium-binding"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00076"; DOMAIN 887..922; /note="EGF-like 23; calcium-binding"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00076"; DOMAIN 924..960; /note="EGF-like 24"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00076"; DOMAIN 962..998; /note="EGF-like 25"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00076"; DOMAIN 1000..1034; /note="EGF-like 26"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00076"; DOMAIN 1036..1082; /note="EGF-like 27"; /evidence="ECO:0000305"; DOMAIN 1084..1120; /note="EGF-like 28"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00076"; DOMAIN 1122..1158; /note="EGF-like 29; calcium-binding"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00076"; DOMAIN 1160..1203; /note="EGF-like 30; calcium-binding"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00076"; DOMAIN 1205..1244; /note="EGF-like 31"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00076"; DOMAIN 1246..1287; /note="EGF-like 32"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00076"; DOMAIN 1289..1325; /note="EGF-like 33"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00076"; DOMAIN 1335..1373; /note="EGF-like 34"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00076" |
+| InterPro | IPR002110;IPR036770;IPR000742;IPR001881;IPR013032;IPR000152;IPR018097;IPR009030;IPR008297;IPR035993;IPR051355;IPR049883;IPR022331;IPR024600;IPR000800;IPR010660;IPR011656; |
+| Pfam | PF00023;PF12796;PF00008;PF07645;PF12661;PF06816;PF07684;PF00066; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000074181-NOTCH3/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| HIF1AN | Biogrid, Bioplex | true |
+| FBXO2 | Bioplex | false |
+| LGALS1 | Bioplex | false |
+| NEU2 | Bioplex | false |
+| PRG2 | Bioplex | false |
+| PRR20D | Intact | false |
+| RBPJ | Biogrid | false |
+| WWP2 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

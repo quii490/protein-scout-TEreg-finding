@@ -161,3 +161,21 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q6ZU67-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q6ZU67 |
+| SMART | SM01025; |
+| UniProt Domain [FT] | DOMAIN 390..498; /note="BEN"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00784" |
+| InterPro | IPR018379;IPR038950; |
+| Pfam | PF10523; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000188848-BEND4/interaction
+
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

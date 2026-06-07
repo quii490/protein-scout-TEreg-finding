@@ -129,3 +129,30 @@ No. REP15 functions in endocytic membrane trafficking. No amount of additional s
 - NCBI Gene: https://www.ncbi.nlm.nih.gov/gene/387849
 - Ensembl: https://www.ensembl.org/Homo_sapiens/Gene/Summary?g=ENSG00000174236
 - Note: Harvest packet not available; data compiled from UniProt and literature database queries
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q6BDI9 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR027985; |
+| Pfam | PF15208; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000174236-REP15/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| EVI5 | Intact, Biogrid | true |
+| ARID3A | Intact | false |
+| GNG11 | Intact | false |
+| RAB15 | Biogrid | false |
+| RAB3A | Biogrid | false |
+| RAB3B | Biogrid | false |
+| RAB3C | Biogrid | false |
+| RAB3D | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

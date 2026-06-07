@@ -142,3 +142,25 @@ Score: 132/180. RWDD3 is a SUMOylation enhancer with direct relevance to chromat
 
 ## Manual Review Note
 STRONG CANDIDATE. RWDD3 (RSUME) functions as an enhancer of SUMO conjugation, a pathway directly implicated in TE silencing. The core interaction with UBE2I (SUMO E2) positions RWDD3 as a regulator of global SUMOylation. SUMO modification is critical for KAP1/TRIM28-mediated TE repression, heterochromatin formation, and PML nuclear body function. HIF1A and NFKBIA sumoylation links to hypoxic and inflammatory transcriptional programs that may affect TE expression. The HPA data gap (no localization/images) is the main weakness. Retained for its high regulatory relevance despite limited HPA evidence.
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9Y3V2 |
+| SMART | SM00591; |
+| UniProt Domain [FT] | DOMAIN 7..114; /note="RWD"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00179" |
+| InterPro | IPR006575;IPR038840;IPR016135; |
+| Pfam | PF05773; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000122481-RWDD3/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| UBE2I | Intact, Biogrid | true |
+| HIF1A | Biogrid | false |
+| VHL | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

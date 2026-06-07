@@ -188,3 +188,30 @@ status: rejected
 
 ![](https://alphafold.ebi.ac.uk/files/AF-P63241-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P63241 |
+| SMART | SM01376; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR001884;IPR048670;IPR020189;IPR012340;IPR014722;IPR019769;IPR008991; |
+| Pfam | PF01287;PF21485; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000132507-EIF5A/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ACE2 | Biogrid | false |
+| BICD2 | Biogrid | false |
+| CRX | Intact | false |
+| DHPS | Intact | false |
+| DOHH | Intact | false |
+| EIF5A2 | Biogrid | false |
+| EIF5AL1 | Biogrid | false |
+| ESR1 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -173,3 +173,30 @@ status: rejected
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/A0A126LB39
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q01658 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 12..75; /note="Histone-fold"; /evidence="ECO:0000255" |
+| InterPro | IPR003958;IPR009072;IPR042225; |
+| Pfam | PF00808; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000117505-DR1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| DRAP1 | Intact, Biogrid | true |
+| MBIP | Biogrid, Bioplex | true |
+| POLE3 | Intact, Biogrid | true |
+| SGF29 | Biogrid, Bioplex | true |
+| TBP | Intact, Biogrid, Opencell | true |
+| YEATS2 | Biogrid, Bioplex | true |
+| ACTB | Opencell | false |
+| ANXA8 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

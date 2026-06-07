@@ -133,6 +133,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleolus/MRPL40/MRPL40-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9NQ50 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR019192;IPR039145; |
+| Pfam | PF09812; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000185608-MRPL40/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| MRPL2 | Biogrid, Bioplex | true |
+| MRPL37 | Biogrid, Bioplex | true |
+| MRPL42 | Biogrid, Bioplex | true |
+| MRPL46 | Biogrid, Bioplex | true |
+| MRPL50 | Biogrid, Bioplex | true |
+| MRPL51 | Biogrid, Bioplex | true |
+| MRPL52 | Biogrid, Bioplex | true |
+| CS | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

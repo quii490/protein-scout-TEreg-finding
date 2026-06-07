@@ -192,6 +192,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/chromatin/PAXIP1/PAXIP1-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q6ZW49 |
+| SMART | SM00292; |
+| UniProt Domain [FT] | DOMAIN 8..93; /note="BRCT 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00033"; DOMAIN 94..183; /note="BRCT 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00033"; DOMAIN 601..694; /note="BRCT 3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00033"; DOMAIN 703..779; /note="BRCT 4"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00033"; DOMAIN 866..947; /note="BRCT 5"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00033"; DOMAIN 970..1059; /note="BRCT 6"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00033" |
+| InterPro | IPR001357;IPR036420;IPR051579; |
+| Pfam | PF00533;PF16589;PF12738;PF16770; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000157212-PAXIP1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ASH2L | Intact, Biogrid | true |
+| PAGR1 | Intact, Biogrid | true |
+| RBBP5 | Intact, Biogrid | true |
+| TP53BP1 | Intact, Biogrid | true |
+| WDR5 | Intact, Biogrid | true |
+| APP | Intact | false |
+| BLM | Biogrid | false |
+| CABYR | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

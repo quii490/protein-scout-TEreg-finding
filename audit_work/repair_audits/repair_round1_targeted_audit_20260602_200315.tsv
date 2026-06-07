@@ -1,8 +1,0 @@
-gene	category	status	lines	chars	has_hpa	has_pubmed	has_af_plddt	has_pdb	has_ppi	has_literature	has_reason	warnings
-AATF	rejected	rejected	191	6921	True	True	True	True	True	True	True	0
-AAGAB	nuclear-speckle	scored	48	1454	True	True	True	True	True	True	True	1
-AARS1	rejected	rejected	67	2055	True	True	True	True	True	True	True	1
-ABI1	rejected	rejected	63	2052	True	True	True	True	True	True	True	1
-ABLIM2	rejected	rejected	58	1579	True	True	True	True	True	True	True	1
-ATXN2L	rejected	rejected	71	2715	True	True	True	True	True	True	True	0
-C12orf60	rejected	rejected	64	1860	True	True	True	True	True	True	True	0

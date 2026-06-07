@@ -186,3 +186,30 @@ status: rejected
 
 ![](https://alphafold.ebi.ac.uk/files/AF-P30040-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P30040 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR016855;IPR011679;IPR036356;IPR012883;IPR036249; |
+| Pfam | PF07749;PF07912; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000089248-ERP29/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ADIPOQ | Intact | false |
+| AGR2 | Biogrid | false |
+| BMP10 | Intact | false |
+| C3orf52 | Intact | false |
+| CALR3 | Biogrid | false |
+| CANX | Opencell | false |
+| COL1A1 | Intact | false |
+| CTSS | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

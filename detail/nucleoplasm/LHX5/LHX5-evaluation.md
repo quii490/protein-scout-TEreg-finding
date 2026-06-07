@@ -168,6 +168,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/LHX5/LHX5-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9H2C1 |
+| SMART | SM00389;SM00132; |
+| UniProt Domain [FT] | DOMAIN 3..61; /note="LIM zinc-binding 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00125"; DOMAIN 62..125; /note="LIM zinc-binding 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00125" |
+| InterPro | IPR001356;IPR017970;IPR009057;IPR049618;IPR049619;IPR050453;IPR001781; |
+| Pfam | PF00046;PF00412; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000089116-LHX5/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CASP6 | Intact | false |
+| CCK | Intact | false |
+| COQ8A | Intact | false |
+| FGFR3 | Intact | false |
+| GRIN2C | Intact | false |
+| GSN | Intact | false |
+| HIP1 | Intact | false |
+| HTT | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -116,6 +116,25 @@ HPA 免疫荧光（IF）实验数据确认 ROM1 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q03395 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR000830;IPR018498;IPR042026;IPR018499;IPR008952; |
+| Pfam | PF00335; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000149489-ROM1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CYP4F2 | Intact | false |
+| MYG1 | Intact | false |
+| ORMDL3 | Intact | false |
+| PHGDH | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

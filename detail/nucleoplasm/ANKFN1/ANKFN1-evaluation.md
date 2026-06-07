@@ -69,3 +69,21 @@ STRING: 15 个互作伙伴，最高分 0.611（TTLL9），多数为 textmining �
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q8N957-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8N957 |
+| SMART | SM00248;SM00060; |
+| UniProt Domain [FT] | DOMAIN 270..366; /note="Fibronectin type-III"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00316" |
+| InterPro | IPR039269;IPR002110;IPR036770;IPR003961;IPR036116;IPR013783; |
+| Pfam | PF00041; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000153930-ANKFN1/interaction
+
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -204,3 +204,30 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 ![](https://images.proteinatlas.org/12416/638_D4_1_red_green.jpg)
 ![](https://images.proteinatlas.org/12416/638_D4_3_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q7KZ85 |
+| SMART | SM00316;SM00252;SM00732; |
+| UniProt Domain [FT] | DOMAIN 1213..1282; /note="S1 motif"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00180"; DOMAIN 1325..1431; /note="SH2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00191" |
+| InterPro | IPR041692;IPR012340;IPR012337;IPR010994;IPR003029;IPR000980;IPR036860;IPR028083;IPR042066;IPR032706;IPR028088;IPR035420;IPR035018;IPR035019;IPR028231;IPR055179;IPR023323;IPR023319;IPR017072;IPR006641;IPR037027; |
+| Pfam | PF14635;PF17674;PF14641;PF00575;PF14633;PF14632;PF22706;PF14639; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000109111-SUPT6H/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| POLR2E | Biogrid, Opencell | true |
+| POLR2F | Biogrid, Opencell | true |
+| POLR2K | Biogrid, Opencell | true |
+| SSRP1 | Biogrid, Opencell | true |
+| SUPT5H | Biogrid, Opencell | true |
+| CPSF6 | Opencell | false |
+| DDOST | Opencell | false |
+| ELOA | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

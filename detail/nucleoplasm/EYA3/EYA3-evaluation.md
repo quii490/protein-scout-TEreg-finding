@@ -187,6 +187,29 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/EYA3/EYA3-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q99504 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR028472;IPR006545;IPR042577;IPR038102; |
+| Pfam | PF00702; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000158161-EYA3/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ATP1A3 | Intact | false |
+| FHL2 | Biogrid | false |
+| HSPD1 | Intact | false |
+| HTT | Intact | false |
+| MECP2 | Intact | false |
+| NEFL | Intact | false |
+| PECAM1 | Intact | false |
+| PTRH2 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

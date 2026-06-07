@@ -159,3 +159,29 @@ MODERATE CANDIDATE. SMCR8 is primarily known as the obligate partner of C9orf72 
 ![](https://images.proteinatlas.org/21557/191_D1_1_red_green.jpg)
 ![](https://images.proteinatlas.org/21557/191_D1_2_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8TEV9 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 48..220; /note="uDENN FLCN/SMCR8-type"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01178, ECO:0000305\|PubMed:23248642"; DOMAIN 318..835; /note="cDENN FLCN/SMCR8-type"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01178, ECO:0000305\|PubMed:23248642"; DOMAIN 844..910; /note="dDENN FLCN/SMCR8-type"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01178, ECO:0000305\|PubMed:23248642" |
+| InterPro | IPR037521;IPR037520; |
+| Pfam | PF11704; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000176994-SMCR8/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| C9orf72 | Intact, Biogrid | true |
+| ALK | Biogrid | false |
+| FEM1B | Biogrid | false |
+| FTL | Bioplex | false |
+| RAB9A | Biogrid | false |
+| RB1CC1 | Biogrid | false |
+| WDR41 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

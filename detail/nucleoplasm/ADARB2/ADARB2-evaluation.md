@@ -116,6 +116,20 @@ HPA 免疫荧光（IF）实验数据确认 ADARB2 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9NS39 |
+| SMART | SM00552;SM00358; |
+| UniProt Domain [FT] | DOMAIN 125..191; /note="DRBM 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00266"; DOMAIN 274..341; /note="DRBM 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00266"; DOMAIN 408..735; /note="A to I editase"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00240" |
+| InterPro | IPR002466;IPR044460;IPR014720; |
+| Pfam | PF02137;PF00035; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000185736-ADARB2/interaction
 
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -116,6 +116,25 @@ HPA 免疫荧光（IF）实验数据确认 ELK4 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P28324 |
+| SMART | SM00413; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR000418;IPR046328;IPR036388;IPR036390; |
+| Pfam | PF00178; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000158711-ELK4/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| BRCA1 | Biogrid | false |
+| DOK4 | Biogrid | false |
+| SIRT7 | Intact | false |
+| SRF | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

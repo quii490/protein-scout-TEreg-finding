@@ -232,3 +232,30 @@ AGAP2 是一个多结构域信号蛋白，在 PI3K/Akt 通路中充当信号整�
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q99490-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q99490 |
+| SMART | SM00105;SM00233;SM00175;SM00173; |
+| UniProt Domain [FT] | DOMAIN 402..578; /note="GLD"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01402"; DOMAIN 676..910; /note="PH"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00145"; DOMAIN 931..1051; /note="Arf-GAP"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00288" |
+| InterPro | IPR002110;IPR036770;IPR051282;IPR037278;IPR001164;IPR038508;IPR027417;IPR011993;IPR001849;IPR001806; |
+| Pfam | PF12796;PF01412;PF00071; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000135439-AGAP2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| AKT1 | Biogrid | false |
+| CDC42 | Biogrid | false |
+| CDK4 | Biogrid | false |
+| EPB41L1 | Biogrid | false |
+| GRIP1 | Biogrid | false |
+| HOMER1 | Biogrid | false |
+| INSR | Intact | false |
+| PIK3R1 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

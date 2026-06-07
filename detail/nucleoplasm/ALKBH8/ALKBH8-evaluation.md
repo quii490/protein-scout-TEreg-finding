@@ -220,6 +220,22 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/ALKBH8/ALKBH8-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96BT7 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 43..120; /note="RRM"; DOMAIN 220..337; /note="Fe2OG dioxygenase"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00805" |
+| InterPro | IPR027450;IPR015095;IPR051422;IPR034256;IPR013216;IPR012677;IPR005123;IPR035979;IPR000504;IPR029063; |
+| Pfam | PF13532;PF09004;PF08241;PF00076; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000137760-ALKBH8/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| TRMT112 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -209,3 +209,30 @@ MRI1 should be reevaluated in the context of broader TE biology hypotheses.
 ![](https://images.proteinatlas.org/42744/510_F6_1_red_green.jpg)
 ![](https://images.proteinatlas.org/42744/510_F6_2_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9BV20 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR000649;IPR005251;IPR042529;IPR011559;IPR027363;IPR037171; |
+| Pfam | PF01008; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000037757-MRI1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CASP6 | Intact | false |
+| COG6 | Intact | false |
+| F11R | Intact | false |
+| NUP58 | Intact | false |
+| PICK1 | Intact | false |
+| PLEKHF2 | Intact | false |
+| PRKN | Biogrid | false |
+| SH3GLB1 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

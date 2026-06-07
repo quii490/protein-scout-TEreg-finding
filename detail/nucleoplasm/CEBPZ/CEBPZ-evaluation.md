@@ -170,6 +170,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CEBPZ/CEBPZ-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q03701 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR016024;IPR005612;IPR040155; |
+| Pfam | PF03914; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000115816-CEBPZ/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| GSK3B | Intact, Biogrid | true |
+| PRKRA | Intact, Biogrid, Bioplex | true |
+| RRP8 | Biogrid, Bioplex | true |
+| TP53 | Intact, Biogrid | true |
+| ADARB1 | Biogrid | false |
+| ANLN | Biogrid | false |
+| APEX1 | Biogrid | false |
+| FBL | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

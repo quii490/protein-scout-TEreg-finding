@@ -173,3 +173,30 @@ status: rejected
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q92597
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q92597 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR029058;IPR004142; |
+| Pfam | PF03096; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000185721-DRG1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CFTR | Intact, Biogrid | true |
+| DNAJC2 | Biogrid, Opencell | true |
+| EIF4G1 | Biogrid, Opencell | true |
+| HSPA14 | Biogrid, Opencell | true |
+| LARP7 | Biogrid, Opencell | true |
+| MEPCE | Biogrid, Opencell | true |
+| NTMT1 | Biogrid, Opencell | true |
+| RPL10 | Biogrid, Opencell | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

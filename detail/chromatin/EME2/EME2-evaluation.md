@@ -175,3 +175,23 @@ status: scored
 
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/chromatin/EME2/EME2-PAE.png]]
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | A4GXA9 |
+| SMART | SM00891; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR042530;IPR006166;IPR033310;IPR047523; |
+| Pfam | PF21292;PF02732; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000197774-EME2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| MUS81 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

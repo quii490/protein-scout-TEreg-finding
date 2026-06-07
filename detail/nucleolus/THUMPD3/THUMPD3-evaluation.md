@@ -116,6 +116,29 @@ HPA 免疫荧光（IF）实验数据确认 THUMPD3 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9BV44 |
+| SMART | SM00981; |
+| UniProt Domain [FT] | DOMAIN 165..285; /note="THUMP"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00529" |
+| InterPro | IPR000241;IPR053943;IPR029063;IPR004114; |
+| Pfam | PF02926;PF01170; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000134077-THUMPD3/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| TRMT112 | Intact, Biogrid | true |
+| CIAO2A | Bioplex | false |
+| D2HGDH | Bioplex | false |
+| EEF1AKMT3 | Bioplex | false |
+| GRSF1 | Biogrid | false |
+| LIN28A | Bioplex | false |
+| PRKN | Biogrid | false |
+| SULT1C4 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

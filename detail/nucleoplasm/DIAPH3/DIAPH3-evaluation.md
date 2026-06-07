@@ -178,3 +178,30 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q9NSV4-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9NSV4 |
+| SMART | SM01139;SM01140;SM00498; |
+| UniProt Domain [FT] | DOMAIN 114..476; /note="GBD/FH3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00579"; DOMAIN 561..631; /note="FH1"; DOMAIN 636..1034; /note="FH2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00774"; DOMAIN 1057..1087; /note="DAD"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00577" |
+| InterPro | IPR011989;IPR016024;IPR014767;IPR044933;IPR015425;IPR042201;IPR010472;IPR051412;IPR014768;IPR010473; |
+| Pfam | PF06367;PF06371;PF02181; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000139734-DIAPH3/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CDC42 | Biogrid | false |
+| NCKIPSD | Biogrid | false |
+| PCM1 | Biogrid | false |
+| RAC1 | Biogrid | false |
+| RHOA | Biogrid | false |
+| RHOB | Biogrid | false |
+| SQSTM1 | Biogrid | false |
+| TPTE2 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

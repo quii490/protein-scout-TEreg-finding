@@ -184,4 +184,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CENPI/CENPI-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q92674 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR012485; |
+| Pfam | PF07778; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000102384-CENPI/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CENPH | Biogrid, Bioplex | true |
+| CENPK | Intact, Biogrid | true |
+| CENPM | Biogrid, Opencell | true |
+| CENPA | Biogrid | false |
+| CENPN | Biogrid | false |
+| CENPO | Biogrid | false |
+| CENPQ | Biogrid | false |
+| CENPU | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

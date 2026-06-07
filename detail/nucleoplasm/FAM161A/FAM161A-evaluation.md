@@ -191,6 +191,29 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/FAM161A/FAM161A-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q3B820 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR051655;IPR019579; |
+| Pfam | PF10595; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000170264-FAM161A/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| PNMA2 | Intact, Biogrid | true |
+| POC5 | Intact, Biogrid | true |
+| PPFIA1 | Intact, Biogrid | true |
+| AQP1 | Intact | false |
+| AXIN2 | Intact | false |
+| BACH2 | Intact | false |
+| BEGAIN | Intact | false |
+| BEND3 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

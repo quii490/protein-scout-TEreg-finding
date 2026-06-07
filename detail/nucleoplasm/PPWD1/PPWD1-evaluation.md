@@ -186,3 +186,30 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 ![](https://images.proteinatlas.org/19360/242_C1_1_blue_red_green.jpg)
 ![](https://images.proteinatlas.org/19360/242_C1_2_blue_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96BP3 |
+| SMART | SM00320; |
+| UniProt Domain [FT] | DOMAIN 490..645; /note="PPIase cyclophilin-type"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00156" |
+| InterPro | IPR029000;IPR002130;IPR044666;IPR015943;IPR036322;IPR001680; |
+| Pfam | PF00160;PF00400; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000113593-PPWD1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CHRNA7 | Bioplex | false |
+| CPSF6 | Opencell | false |
+| FKBP5 | Opencell | false |
+| PRKN | Biogrid | false |
+| RBM39 | Opencell | false |
+| SEC13 | Bioplex | false |
+| SF3A1 | Opencell | false |
+| SNRPA | Opencell | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

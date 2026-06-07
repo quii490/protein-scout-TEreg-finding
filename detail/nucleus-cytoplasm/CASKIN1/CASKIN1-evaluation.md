@@ -197,3 +197,24 @@ status: scored
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CASKIN1
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8WXD9
 - STRING: https://string-db.org/cgi/network?identifiers=CASKIN1&species=9606
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8WXD9 |
+| SMART | SM00248;SM00454;SM00326; |
+| UniProt Domain [FT] | DOMAIN 281..347; /note="SH3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00192"; DOMAIN 472..535; /note="SAM 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00184"; DOMAIN 541..605; /note="SAM 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00184" |
+| InterPro | IPR033635;IPR002110;IPR036770;IPR032232;IPR035497;IPR035498;IPR035495;IPR032117;IPR001660;IPR013761;IPR036028;IPR001452; |
+| Pfam | PF12796;PF13637;PF16907;PF16632;PF16600;PF00536;PF07653; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000167971-CASKIN1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CASK | Intact | false |
+| HIF1AN | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -176,3 +176,26 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/ATF7IP2/ATF7IP2-PAE.png]]
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q5U623 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 575..680; /note="Fibronectin type-III"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00316" |
+| InterPro | IPR026085;IPR031870;IPR056565;IPR003961; |
+| Pfam | PF16788;PF16794; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000166669-ATF7IP2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ARL14EP | Biogrid, Opencell | true |
+| SETDB1 | Biogrid | false |
+| SP1 | Biogrid | false |
+| SPSB2 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

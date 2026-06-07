@@ -116,6 +116,24 @@ HPA 免疫荧光（IF）实验数据确认 HUNK 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P57058 |
+| SMART | SM00220; |
+| UniProt Domain [FT] | DOMAIN 62..320; /note="Protein kinase"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00159" |
+| InterPro | IPR034671;IPR011009;IPR000719;IPR017441;IPR008271; |
+| Pfam | PF00069; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000142149-HUNK/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| AGAP3 | Intact, Biogrid | true |
+| CFL1 | Intact | false |
+| LIMK1 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

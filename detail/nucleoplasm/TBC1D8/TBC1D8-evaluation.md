@@ -116,6 +116,28 @@ HPA 免疫荧光（IF）实验数据确认 TBC1D8 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O95759 |
+| SMART | SM00568;SM00164; |
+| UniProt Domain [FT] | DOMAIN 145..212; /note="GRAM 1"; DOMAIN 285..353; /note="GRAM 2"; DOMAIN 505..692; /note="Rab-GAP TBC"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00163" |
+| InterPro | IPR011992;IPR004182;IPR011993;IPR000195;IPR035969;IPR036009;IPR036016; |
+| Pfam | PF02893;PF00566; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000204634-TBC1D8/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CD70 | Bioplex | false |
+| COMTD1 | Bioplex | false |
+| FAM174A | Bioplex | false |
+| GPR45 | Bioplex | false |
+| GZMH | Bioplex | false |
+| RAB4A | Biogrid | false |
+| TRAF1 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

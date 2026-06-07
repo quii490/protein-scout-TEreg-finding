@@ -193,3 +193,21 @@ HPA IF 图像可用 (12张)，待下载。
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CAPS2
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q86UW7
 - STRING: https://string-db.org/cgi/network?identifiers=CAPS2&species=9606
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q86UW7 |
+| SMART | SM01145;SM00233; |
+| UniProt Domain [FT] | DOMAIN 293..400; /note="DM10"; /evidence="ECO:0000305\|PubMed:38538594"; DOMAIN 350..464; /note="C2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00041"; DOMAIN 487..590; /note="PH"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00145"; DOMAIN 885..1056; /note="MHD1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00587" |
+| InterPro | IPR000008;IPR035892;IPR033227;IPR057457;IPR010439;IPR014770;IPR011993;IPR001849; |
+| Pfam | PF25341;PF06292;PF00169; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000180881-CAPS2/interaction
+
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

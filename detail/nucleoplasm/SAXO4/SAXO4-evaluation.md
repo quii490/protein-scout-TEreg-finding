@@ -138,3 +138,21 @@ No cross-validation relevant to nuclear biology is possible. All biological data
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=SAXO4
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=SAXO4
 - Note: Harvest packet not available; data compiled from UniProt and literature database queries
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q7Z5V6 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR031410; |
+| Pfam | PF15691; |
+
+### humanPPI / HPA Interaction
+Source: 未找到 HPA interaction 页面
+
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

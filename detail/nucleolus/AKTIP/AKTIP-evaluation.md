@@ -125,6 +125,29 @@ HPA 免疫荧光（IF）实验数据确认 AKTIP 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9H8T0 |
+| SMART | SM00212; |
+| UniProt Domain [FT] | DOMAIN 74..222; /note="UBC core"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00388" |
+| InterPro | IPR050113;IPR000608;IPR016135; |
+| Pfam | PF00179; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000166971-AKTIP/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| FHIP1A | Intact, Biogrid | true |
+| HOOK1 | Intact, Biogrid | true |
+| HOOK2 | Intact, Biogrid | true |
+| HOOK3 | Intact, Biogrid | true |
+| TRIM32 | Intact, Biogrid | true |
+| AKT1 | Biogrid | false |
+| EGFR | Biogrid | false |
+| FHIP1B | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

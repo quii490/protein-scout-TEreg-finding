@@ -202,3 +202,30 @@ IntAct 有限记录。无 BioGrid 补充数据。
 ![](https://images.proteinatlas.org/46182/1687_E1_1_red_green.jpg)
 ![](https://images.proteinatlas.org/46182/1687_E1_2_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q99622 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR026317; |
+| Pfam | PF14974; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000111678-C12orf57/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| AGAP3 | Opencell | false |
+| ANKK1 | Intact | false |
+| BLMH | Bioplex | false |
+| CAPZB | Opencell | false |
+| CCNL1 | Bioplex | false |
+| CNOT7 | Bioplex | false |
+| CRYBG2 | Bioplex | false |
+| EMC4 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

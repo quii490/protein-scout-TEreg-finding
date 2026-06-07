@@ -190,6 +190,29 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/chromatin/EXD2/EXD2-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9NVH0 |
+| SMART | SM00474; |
+| UniProt Domain [FT] | DOMAIN 155..247; /note="3'-5' exonuclease"; /evidence="ECO:0000255" |
+| InterPro | IPR002562;IPR051132;IPR012337;IPR036397; |
+| Pfam | PF01612; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000081177-EXD2/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| RBBP8 | Intact, Biogrid | true |
+| AKAP1 | Biogrid | false |
+| ASPH | Bioplex | false |
+| C9orf72 | Biogrid | false |
+| CCNF | Biogrid | false |
+| CLPX | Biogrid | false |
+| GRAMD2B | Bioplex | false |
+| MTCH2 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

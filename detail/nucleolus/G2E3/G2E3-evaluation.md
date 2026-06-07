@@ -109,3 +109,30 @@ HPA IF 图像已本地嵌入。
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q7L622-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q7L622 |
+| SMART | SM00119;SM00249; |
+| UniProt Domain [FT] | DOMAIN 371..698; /note="HECT"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00104" |
+| InterPro | IPR034732;IPR000569;IPR035983;IPR051188;IPR059102;IPR042013;IPR019786;IPR011011;IPR001965;IPR013083; |
+| Pfam | PF00632;PF26054;PF13771; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000092140-G2E3/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| HTT | Intact | false |
+| KLK6 | Intact | false |
+| MDH2 | Biogrid | false |
+| NEFL | Intact | false |
+| RPS15 | Intact | false |
+| SPECC1L | Intact | false |
+| SPRED1 | Intact | false |
+| WFS1 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

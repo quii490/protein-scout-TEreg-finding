@@ -171,3 +171,30 @@ RNF138 is 245 amino acids in length, placing it within the ideal 200-800 aa rang
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8WVD3
 - InterPro: https://www.ebi.ac.uk/interpro/protein/Q8WVD3/
 - Note: Harvest packet not available; data compiled from UniProt and literature database queries
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8WVD3 |
+| SMART | SM00184; |
+| UniProt Domain [FT] | DOMAIN 225..243; /note="UIM"; /evidence="ECO:0000305" |
+| InterPro | IPR008598;IPR052498;IPR034734;IPR001841;IPR013083; |
+| Pfam | PF13923;PF05605;PF18574; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000134758-RNF138/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| UBE2K | Intact, Biogrid | true |
+| ADRB2 | Intact | false |
+| EFEMP2 | Intact | false |
+| FGFR3 | Intact | false |
+| FXN | Intact | false |
+| GRIN2C | Intact | false |
+| GRN | Intact | false |
+| GSN | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

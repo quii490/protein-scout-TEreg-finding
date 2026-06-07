@@ -188,3 +188,30 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 ![](https://images.proteinatlas.org/34925/972_C1_1_red_green.jpg)
 ![](https://images.proteinatlas.org/34925/972_C1_2_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9H7E2 |
+| SMART | SM00333;SM00165; |
+| UniProt Domain [FT] | DOMAIN 193..233; /note="UBA"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00212"; DOMAIN 555..615; /note="Tudor"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00211" |
+| InterPro | IPR042470;IPR013894;IPR002999;IPR047379;IPR015940;IPR009060;IPR041915; |
+| Pfam | PF08585;PF00567;PF22562; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000083544-TDRD3/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| FMR1 | Intact, Biogrid | true |
+| DCTN1 | Biogrid | false |
+| DDX3X | Biogrid | false |
+| DHX9 | Biogrid | false |
+| EEF1A1 | Biogrid | false |
+| EWSR1 | Biogrid | false |
+| FBL | Biogrid | false |
+| FUBP3 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -125,6 +125,29 @@ HPA 免疫荧光（IF）实验数据确认 NFKBIE 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O00221 |
+| SMART | SM00248; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR002110;IPR036770;IPR051070; |
+| Pfam | PF12796; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000146232-NFKBIE/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| NFKB1 | Intact, Biogrid | true |
+| REL | Intact, Biogrid, Bioplex | true |
+| RELA | Intact, Biogrid, Opencell | true |
+| RELB | Intact, Biogrid, Bioplex | true |
+| ANKHD1 | Intact | false |
+| C1QBP | Intact | false |
+| NFKB2 | Biogrid | false |
+| PPP6R1 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

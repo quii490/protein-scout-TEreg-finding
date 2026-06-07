@@ -181,6 +181,23 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/FAM219A/FAM219A-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8IW50 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR029339; |
+| Pfam | PF15260; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000164970-FAM219A/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| PDE6D | Intact, Biogrid | true |
+| BTRC | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

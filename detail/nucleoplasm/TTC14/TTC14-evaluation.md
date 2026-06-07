@@ -116,6 +116,22 @@ HPA 免疫荧光（IF）实验数据确认 TTC14 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96N46 |
+| SMART | SM00028; |
+| UniProt Domain [FT] | DOMAIN 126..208; /note="S1 motif"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00180" |
+| InterPro | IPR012340;IPR003029;IPR011990;IPR019734;IPR039190; |
+| Pfam | PF13414; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000163728-TTC14/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CDK10 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

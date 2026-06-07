@@ -175,3 +175,30 @@ status: rejected
 
 ![](https://alphafold.ebi.ac.uk/files/AF-O43918-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O43918 |
+| SMART | SM00249;SM00258; |
+| UniProt Domain [FT] | DOMAIN 1..105; /note="HSR"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00747"; DOMAIN 181..280; /note="SAND"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00185" |
+| InterPro | IPR008087;IPR042580;IPR004865;IPR010919;IPR000770;IPR043563;IPR019786;IPR011011;IPR001965;IPR019787;IPR013083; |
+| Pfam | PF03172;PF00628;PF01342; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000160224-AIRE/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| DAXX | Intact, Biogrid | true |
+| H3C1 | Intact, Biogrid | true |
+| PRKDC | Intact, Biogrid | true |
+| CREBBP | Biogrid | false |
+| DDX5 | Biogrid | false |
+| FBXO3 | Biogrid | false |
+| H3C10 | Intact | false |
+| H3C11 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

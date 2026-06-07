@@ -188,6 +188,29 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/FAN1/FAN1-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9Y2M0 |
+| SMART | SM00990;SM00734; |
+| UniProt Domain [FT] | DOMAIN 895..1007; /note="VRR-NUC" |
+| InterPro | IPR033315;IPR049132;IPR049126;IPR049125;IPR049138;IPR006642;IPR011856;IPR014883; |
+| Pfam | PF21315;PF21169;PF21170;PF08774; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000198690-FAN1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| MLH1 | Biogrid, Bioplex | true |
+| FANCD2 | Biogrid | false |
+| FANCI | Biogrid | false |
+| MLH3 | Biogrid | false |
+| PCNA | Biogrid | false |
+| PMS1 | Biogrid | false |
+| PMS2 | Biogrid | false |
+| UBC | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

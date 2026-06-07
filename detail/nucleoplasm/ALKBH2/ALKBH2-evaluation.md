@@ -225,3 +225,26 @@ PPI网络主要依赖ALKBH家族的文本挖掘共现，实验互作伙伴较少
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q6NS38-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q6NS38 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 152..257; /note="Fe2OG dioxygenase"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00805" |
+| InterPro | IPR027450;IPR037151;IPR032852;IPR005123; |
+| Pfam | PF13532; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000189046-ALKBH2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ARL3 | Intact | false |
+| FTL | Bioplex | false |
+| GOLGA2 | Intact | false |
+| LCN1 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

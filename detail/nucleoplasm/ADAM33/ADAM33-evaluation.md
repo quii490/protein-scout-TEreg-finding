@@ -171,3 +171,21 @@ status: rejected
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q9BZ11-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9BZ11 |
+| SMART | SM00608;SM00050; |
+| UniProt Domain [FT] | DOMAIN 210..409; /note="Peptidase M12B"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00276"; DOMAIN 417..503; /note="Disintegrin"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00068"; DOMAIN 649..681; /note="EGF-like"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00076" |
+| InterPro | IPR006586;IPR018358;IPR001762;IPR036436;IPR000742;IPR024079;IPR001590;IPR002870;IPR034027; |
+| Pfam | PF08516;PF00200;PF01562;PF01421; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000149451-ADAM33/interaction
+
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

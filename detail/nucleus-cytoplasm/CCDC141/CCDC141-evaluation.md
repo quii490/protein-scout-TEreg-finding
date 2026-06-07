@@ -194,3 +194,21 @@ status: scored
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CCDC141
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q6ZP82
 - STRING: https://string-db.org/cgi/network?identifiers=CCDC141&species=9606
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q6ZP82 |
+| SMART | SM00409;SM00408; |
+| UniProt Domain [FT] | DOMAIN 1409..1530; /note="Ig-like" |
+| InterPro | IPR007110;IPR036179;IPR013783;IPR013098;IPR003599;IPR003598;IPR050876;IPR002017; |
+| Pfam | PF07679;PF00435; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000163492-CCDC141/interaction
+
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

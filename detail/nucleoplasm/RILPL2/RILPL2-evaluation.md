@@ -147,3 +147,24 @@ The original rejection of RILPL2 was correct. The protein has the highest confid
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22RILPL2%22
 - FACTA: https://www.nactem.ac.uk/facta/ (RILPL2)
 - Note: Harvest packet not available; data compiled from UniProt and literature database queries
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q969X0 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 24..106; /note="RH1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01112"; DOMAIN 130..201; /note="RH2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01113" |
+| InterPro | IPR051241;IPR034743;IPR034744;IPR021563; |
+| Pfam | PF09744;PF11461; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000150977-RILPL2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| RAB10 | Intact | false |
+| RAB8A | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

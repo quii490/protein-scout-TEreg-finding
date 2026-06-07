@@ -182,6 +182,29 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/rejected/ANKRD11/ANKRD11-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q6UB99 |
+| SMART | SM00248; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR042636;IPR002110;IPR036770; |
+| Pfam | PF12796; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000167522-ANKRD11/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CDCA7L | Biogrid | false |
+| CSNK2B | Opencell | false |
+| GOLGA2 | Biogrid | false |
+| GPS2 | Bioplex | false |
+| HDAC3 | Biogrid | false |
+| HOOK2 | Biogrid | false |
+| IMMT | Biogrid | false |
+| KPNA3 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

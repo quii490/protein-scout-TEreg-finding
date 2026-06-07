@@ -178,6 +178,25 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CDK2AP2/CDK2AP2-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O75956 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR017266; |
+| Pfam | PF09806; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000167797-CDK2AP2/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| HDAC2 | Biogrid, Opencell | true |
+| CDK2AP1 | Biogrid | false |
+| CHD4 | Biogrid | false |
+| MRFAP1L1 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

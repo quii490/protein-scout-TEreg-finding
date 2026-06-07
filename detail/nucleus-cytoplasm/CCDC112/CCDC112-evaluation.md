@@ -192,3 +192,29 @@ status: scored
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CCDC112
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8NEF3
 - STRING: https://string-db.org/cgi/network?identifiers=CCDC112&species=9606
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8NEF3 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR039902; |
+| Pfam | 未检出 |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000164221-CCDC112/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| LURAP1 | Intact, Biogrid | true |
+| TEX9 | Intact, Biogrid | true |
+| FSD2 | Intact | false |
+| KRT31 | Intact | false |
+| KRT40 | Intact | false |
+| PCM1 | Biogrid | false |
+| TNIP1 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

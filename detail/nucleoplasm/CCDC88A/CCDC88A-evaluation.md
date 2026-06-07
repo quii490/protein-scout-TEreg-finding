@@ -81,3 +81,30 @@ Large signaling protein with HPA-derived nuclear annotation.
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q3V6T2-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q3V6T2 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 12..132; /note="Calponin-homology (CH)"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00044" |
+| InterPro | IPR001715;IPR036872;IPR043936; |
+| Pfam | PF19047; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000115355-CCDC88A/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| AKT1 | Biogrid | false |
+| CTNNA2 | Biogrid | false |
+| CTNNB1 | Biogrid | false |
+| EGFR | Biogrid | false |
+| GJA1 | Biogrid | false |
+| GNAI3 | Biogrid | false |
+| INSR | Biogrid | false |
+| KRAS | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

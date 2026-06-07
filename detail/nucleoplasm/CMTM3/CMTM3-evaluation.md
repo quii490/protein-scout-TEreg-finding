@@ -180,3 +180,30 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q96MX0-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96MX0 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 36..155; /note="MARVEL"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00581" |
+| InterPro | IPR008253;IPR050578; |
+| Pfam | PF01284; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000140931-CMTM3/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| APOA5 | Intact | false |
+| AQP6 | Intact | false |
+| ARL13B | Intact | false |
+| CREB3L1 | Intact | false |
+| ELOVL4 | Intact | false |
+| F13A1 | Intact | false |
+| GJB1 | Intact | false |
+| HSD17B11 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -183,3 +183,30 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-O75688-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O75688 |
+| SMART | SM00332; |
+| UniProt Domain [FT] | DOMAIN 23..295; /note="PPM-type phosphatase"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01082" |
+| InterPro | IPR015655;IPR000222;IPR012911;IPR036580;IPR036457;IPR001932; |
+| Pfam | PF00481;PF07830; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000138032-PPM1B/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ARRB1 | Intact, Biogrid | true |
+| ARRB2 | Intact, Biogrid | true |
+| ERBB3 | Intact, Biogrid | true |
+| CDK2 | Biogrid | false |
+| CDK6 | Biogrid | false |
+| CHUK | Biogrid | false |
+| CMTR1 | Biogrid | false |
+| DCAF4L2 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -167,3 +167,30 @@ status: rejected
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q96SW2-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96SW2 |
+| SMART | SM00464; |
+| UniProt Domain [FT] | DOMAIN 81..319; /note="Lon N-terminal"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01123"; DOMAIN 318..426; /note="CULT"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01124" |
+| InterPro | IPR034750;IPR003111;IPR046336;IPR015947;IPR004910; |
+| Pfam | PF02190;PF03226; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000113851-CRBN/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| COPS5 | Intact, Biogrid | true |
+| COPS6 | Intact, Biogrid | true |
+| CSNK1A1 | Intact, Biogrid | true |
+| CUL4A | Intact, Biogrid | true |
+| DDB1 | Intact, Biogrid, Opencell | true |
+| RBX1 | Intact, Biogrid | true |
+| AGO2 | Biogrid | false |
+| APP | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

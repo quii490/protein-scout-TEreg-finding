@@ -153,3 +153,23 @@ CONFIRMED REJECTION. RUFY2 is a member of the RUFY family of endosomal trafficki
 ![](https://images.proteinatlas.org/39792/523_H1_1_red_green.jpg)
 ![](https://images.proteinatlas.org/39792/523_H1_3_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8WXA3 |
+| SMART | SM00064;SM00593; |
+| UniProt Domain [FT] | DOMAIN 37..169; /note="RUN"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00178" |
+| InterPro | IPR047333;IPR047335;IPR004012;IPR037213;IPR047332;IPR000306;IPR017455;IPR011011;IPR013083; |
+| Pfam | PF01363;PF02759; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000204130-RUFY2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| RUFY1 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

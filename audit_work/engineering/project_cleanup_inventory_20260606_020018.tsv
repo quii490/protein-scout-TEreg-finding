@@ -1,0 +1,22 @@
+path	type	size_mb	recommended_role	reason
+.DS_Store	file	0.01	MANUAL_REVIEW	unclassified top-level item
+.git	dir	798.25	KEEP_CORE	required for repo, GitHub Pages, source reports, or summary rebuild
+.gitignore	file	0.0	KEEP_CORE	required for repo, GitHub Pages, source reports, or summary rebuild
+.nojekyll	file	0.0	KEEP_CORE	required for repo, GitHub Pages, source reports, or summary rebuild
+Proteins.md	file	0.0	DELETE_OR_ARCHIVE_CANDIDATE	not required by current GitHub Pages build; verify before deletion
+README.md	file	0.0	KEEP_CORE	required for repo, GitHub Pages, source reports, or summary rebuild
+audit_work	dir	524.25	ARCHIVE_OR_PRUNE	large historical audit/work logs; keep claude_protocols and latest engineering summaries, archive old worker/log dirs
+data	dir	11.69	KEEP_CORE	required for repo, GitHub Pages, source reports, or summary rebuild
+detail	dir	1083.33	KEEP_CORE	required for repo, GitHub Pages, source reports, or summary rebuild
+docs	dir	626.62	KEEP_CORE	required for repo, GitHub Pages, source reports, or summary rebuild
+fetch_if_log.txt	file	0.13	DELETE_OR_ARCHIVE_CANDIDATE	not required by current GitHub Pages build; verify before deletion
+index.html	file	0.0	KEEP_CORE	required for repo, GitHub Pages, source reports, or summary rebuild
+log	dir	0.0	DELETE_OR_ARCHIVE_CANDIDATE	not required by current GitHub Pages build; verify before deletion
+logs	dir	0.11	DELETE_OR_ARCHIVE_CANDIDATE	not required by current GitHub Pages build; verify before deletion
+protein-finding.md	file	0.84	KEEP_CORE	required for repo, GitHub Pages, source reports, or summary rebuild
+protein_gate.py	file	0.0	KEEP_CORE	required for repo, GitHub Pages, source reports, or summary rebuild
+rebuild_summary.py	file	0.01	KEEP_CORE	required for repo, GitHub Pages, source reports, or summary rebuild
+scripts	dir	1.39	REVIEW_KEEP_BUILD_ONLY	keep scripts/build and active maintenance scripts; old batch generation scripts likely archival
+skills.md	file	0.0	DELETE_OR_ARCHIVE_CANDIDATE	not required by current GitHub Pages build; verify before deletion
+validate.py	file	0.01	DELETE_OR_ARCHIVE_CANDIDATE	not required by current GitHub Pages build; verify before deletion
+validate_strict.py	file	0.02	DELETE_OR_ARCHIVE_CANDIDATE	not required by current GitHub Pages build; verify before deletion

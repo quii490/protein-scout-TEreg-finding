@@ -163,3 +163,21 @@ High-confidence interactors (score >= 0.7): 4. Total STRING interactions: 15. In
 - STRING: https://string-db.org/ (search SBNO1)
 - IntAct: https://www.ebi.ac.uk/intact/ (search SBNO1)
 - Harvest packet: SBNO1.json
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | A3KN83 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR027417;IPR057332;IPR026937;IPR026741;IPR039187; |
+| Pfam | PF13872;PF13871;PF25373; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000139697-SBNO1/interaction
+
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

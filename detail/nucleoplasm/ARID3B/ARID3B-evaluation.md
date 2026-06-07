@@ -228,6 +228,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/ARID3B/ARID3B-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8IVW6 |
+| SMART | SM01014;SM00501; |
+| UniProt Domain [FT] | DOMAIN 215..307; /note="ARID"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00355"; DOMAIN 419..517; /note="REKLES"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00819" |
+| InterPro | IPR045147;IPR001606;IPR036431;IPR023334; |
+| Pfam | PF01388; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000179361-ARID3B/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| AR | Biogrid | false |
+| ARID3A | Biogrid | false |
+| FOXL1 | Biogrid | false |
+| HCN1 | Intact | false |
+| HECTD1 | Biogrid | false |
+| MYC | Biogrid | false |
+| NFIA | Biogrid | false |
+| NFIB | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

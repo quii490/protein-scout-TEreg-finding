@@ -169,6 +169,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/KCTD13/KCTD13-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8WZ19 |
+| SMART | SM00225; |
+| UniProt Domain [FT] | DOMAIN 41..109; /note="BTB"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00037" |
+| InterPro | IPR045068;IPR000210;IPR011333;IPR003131; |
+| Pfam | PF02214; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000174943-KCTD13/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CUL3 | Intact, Biogrid | true |
+| FXR1 | Intact, Biogrid | true |
+| KCTD10 | Intact, Biogrid, Bioplex | true |
+| TNFAIP1 | Intact, Biogrid, Bioplex | true |
+| ADRB2 | Biogrid | false |
+| ARIH1 | Biogrid | false |
+| ARMC7 | Intact | false |
+| BAG3 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

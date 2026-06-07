@@ -115,4 +115,29 @@ HPA IF 图像已本地嵌入。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/ANKRD49/ANKRD49-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8WVL7 |
+| SMART | SM00248; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR002110;IPR036770; |
+| Pfam | PF00023;PF12796; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000168876-ANKRD49/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| FKBPL | Intact, Biogrid, Bioplex | true |
+| HIF1AN | Intact, Biogrid, Bioplex | true |
+| ARFGAP2 | Bioplex | false |
+| BCL7B | Bioplex | false |
+| BTF3L4 | Bioplex | false |
+| CHMP1A | Bioplex | false |
+| CMSS1 | Bioplex | false |
+| CNPY3 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

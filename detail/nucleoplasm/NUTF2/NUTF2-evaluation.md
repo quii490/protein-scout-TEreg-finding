@@ -203,3 +203,30 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/NUTF2/NUTF2-PAE.png]]
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P61970 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 10..121; /note="NTF2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00137" |
+| InterPro | IPR045875;IPR032710;IPR002075;IPR018222; |
+| Pfam | PF02136; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000102898-NUTF2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| KPNB1 | Biogrid, Opencell | true |
+| NUP153 | Biogrid, Opencell | true |
+| NUP54 | Intact, Biogrid | true |
+| NUP62 | Intact, Biogrid | true |
+| NUP93 | Biogrid, Opencell | true |
+| RAN | Intact, Biogrid, Opencell | true |
+| CCDC106 | Intact | false |
+| CHCHD3 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

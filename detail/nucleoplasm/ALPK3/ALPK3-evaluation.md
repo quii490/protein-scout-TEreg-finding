@@ -123,6 +123,20 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/ALPK3/ALPK3-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96L96 |
+| SMART | SM00811;SM00409;SM00408; |
+| UniProt Domain [FT] | DOMAIN 77..168; /note="Ig-like 1"; DOMAIN 1274..1362; /note="Ig-like 2"; DOMAIN 1390..1625; /note="Alpha-type protein kinase"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00501" |
+| InterPro | IPR004166;IPR007110;IPR036179;IPR013783;IPR013098;IPR003599;IPR003598;IPR011009; |
+| Pfam | PF02816;PF07679; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000136383-ALPK3/interaction
 
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

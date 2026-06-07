@@ -188,6 +188,29 @@ AUTS2 是一个经典的内在无序蛋白 (IDP)。UniProt 标注了 5 段大范
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/rejected/AUTS2/AUTS2-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8WXX7 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR023246; |
+| Pfam | PF15336; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000158321-AUTS2/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CSNK2B | Biogrid, Opencell | true |
+| EP300 | Intact, Biogrid | true |
+| PCGF5 | Intact, Biogrid | true |
+| RNF2 | Intact, Biogrid | true |
+| CSNK2A1 | Biogrid | false |
+| CSNK2A2 | Biogrid | false |
+| DCAF7 | Biogrid | false |
+| PCGF3 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

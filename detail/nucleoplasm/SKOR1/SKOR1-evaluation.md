@@ -160,3 +160,21 @@ STRONG CANDIDATE. SKOR1 (CORL1/LBXCOR1) is a SKI family transcriptional corepres
 ![](https://images.proteinatlas.org/40673/424_F1_1_red_green.jpg)
 ![](https://images.proteinatlas.org/40673/424_F1_2_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P84550 |
+| SMART | SM01046; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR014890;IPR009061;IPR010919;IPR003380;IPR037000;IPR023216; |
+| Pfam | PF08782;PF02437; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000188779-SKOR1/interaction
+
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

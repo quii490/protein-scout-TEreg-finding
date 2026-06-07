@@ -106,3 +106,30 @@ HPA IF 图像已本地嵌入。
 
 ![](https://alphafold.ebi.ac.uk/files/AF-O94762-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O94762 |
+| SMART | SM00487;SM00490; |
+| UniProt Domain [FT] | DOMAIN 39..213; /note="Helicase ATP-binding"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00541"; DOMAIN 241..403; /note="Helicase C-terminal"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00542" |
+| InterPro | IPR011545;IPR002464;IPR004589;IPR014001;IPR001650;IPR027417;IPR010716;IPR032284;IPR013257; |
+| Pfam | PF00270;PF00271;PF06959;PF16124;PF08236; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000108469-RECQL5/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| POLR2D | Biogrid, Bioplex | true |
+| POLR2F | Biogrid, Bioplex | true |
+| POLR2G | Biogrid, Bioplex | true |
+| POLR2J | Biogrid, Bioplex | true |
+| POLR2L | Biogrid, Bioplex | true |
+| RPRD1B | Biogrid, Bioplex | true |
+| ASB6 | Bioplex | false |
+| BRCA1 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

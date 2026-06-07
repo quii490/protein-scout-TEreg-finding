@@ -165,6 +165,20 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/ATRNL1/ATRNL1-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q5VV63 |
+| SMART | SM00034;SM00042;SM00181;SM00180;SM00423; |
+| UniProt Domain [FT] | DOMAIN 53..91; /note="EGF-like 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00076"; DOMAIN 93..209; /note="CUB"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00059"; DOMAIN 207..245; /note="EGF-like 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00076"; DOMAIN 614..657; /note="PSI 1"; DOMAIN 666..709; /note="PSI 2"; DOMAIN 715..760; /note="PSI 3"; DOMAIN 755..873; /note="C-type lectin"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00040"; DOMAIN 889..939; /note="PSI 4"; DOMAIN 942..1012; /note="PSI 5"; DOMAIN 1014..1059; /note="Laminin EGF-like 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00460"; DOMAIN 1060..1108; /note="Laminin EGF-like 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00460" |
+| InterPro | IPR034011;IPR056737;IPR001304;IPR016186;IPR016187;IPR000859;IPR000742;IPR056732;IPR015915;IPR002049;IPR056863;IPR051568;IPR002165;IPR016201;IPR035914; |
+| Pfam | PF24981;PF00431;PF24973;PF23106;PF24972;PF01437; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000107518-ATRNL1/interaction
 
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

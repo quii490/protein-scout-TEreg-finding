@@ -170,4 +170,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/KANSL3/KANSL3-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9P2N6 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR029058;IPR046879;IPR056519;IPR026555; |
+| Pfam | PF20408;PF23154; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000114982-KANSL3/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| PHF20 | Intact, Biogrid | true |
+| FOXK2 | Biogrid | false |
+| HCFC1 | Biogrid | false |
+| HCFC2 | Biogrid | false |
+| KANSL1 | Biogrid | false |
+| KANSL2 | Biogrid | false |
+| KAT8 | Biogrid | false |
+| MCRS1 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

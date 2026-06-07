@@ -210,3 +210,30 @@ The nuclear localization and functional profile make it a strong candidate for T
 ![](https://images.proteinatlas.org/43091/857_H2_1_red_green.jpg)
 ![](https://images.proteinatlas.org/43091/857_H2_2_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8WV22 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR011513;IPR014857;IPR002219;IPR036388;IPR001841;IPR013083; |
+| Pfam | PF07574;PF08746; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000169189-NSMCE1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| EID3 | Intact, Biogrid, Bioplex | true |
+| MAGEF1 | Intact, Biogrid, Bioplex | true |
+| NSMCE2 | Intact, Biogrid | true |
+| NSMCE3 | Intact, Biogrid, Bioplex | true |
+| NSMCE4A | Intact, Biogrid, Bioplex | true |
+| SMC5 | Intact, Biogrid, Bioplex | true |
+| SMC6 | Intact, Biogrid, Bioplex | true |
+| MAGEB10 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

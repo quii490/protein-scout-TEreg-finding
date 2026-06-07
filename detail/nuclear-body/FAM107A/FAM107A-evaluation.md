@@ -191,6 +191,29 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nuclear-body/FAM107A/FAM107A-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O95990 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR009533; |
+| Pfam | PF06625; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000168309-FAM107A/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ACTB | Biogrid | false |
+| COMMD1 | Biogrid | false |
+| DDX3Y | Bioplex | false |
+| FKBPL | Bioplex | false |
+| LDOC1 | Intact | false |
+| TRAF2 | Intact | false |
+| TRIM37 | Biogrid | false |
+| USHBP1 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

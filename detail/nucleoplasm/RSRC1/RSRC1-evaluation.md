@@ -160,3 +160,30 @@ MODERATE CANDIDATE. RSRC1 (SRRP53) is an SR-related protein that localizes to nu
 ![](https://images.proteinatlas.org/44792/529_C1_1_red_green.jpg)
 ![](https://images.proteinatlas.org/44792/529_C1_2_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96IZ7 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR034604; |
+| Pfam | 未检出 |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000174891-RSRC1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CSNK2B | Biogrid, Opencell | true |
+| JMJD6 | Intact, Biogrid | true |
+| SRPK2 | Intact, Biogrid | true |
+| AAMP | Opencell | false |
+| CD2BP2 | Opencell | false |
+| CDKN2A | Opencell | false |
+| COMMD1 | Opencell | false |
+| COMMD2 | Opencell | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

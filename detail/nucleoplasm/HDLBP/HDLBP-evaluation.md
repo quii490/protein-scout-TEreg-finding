@@ -219,6 +219,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/HDLBP/HDLBP-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q00341 |
+| SMART | SM00322; |
+| UniProt Domain [FT] | DOMAIN 158..229; /note="KH 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00117"; DOMAIN 230..302; /note="KH 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00117"; DOMAIN 303..371; /note="KH 3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00117"; DOMAIN 372..442; /note="KH 4"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00117"; DOMAIN 443..514; /note="KH 5"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00117"; DOMAIN 515..588; /note="KH 6"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00117"; DOMAIN 589..660; /note="KH 7"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00117"; DOMAIN 661..734; /note="KH 8"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00117"; DOMAIN 735..807; /note="KH 9"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00117"; DOMAIN 808..880; /note="KH 10"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00117"; DOMAIN 881..979; /note="KH 11"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00117"; DOMAIN 980..1059; /note="KH 12"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00117"; DOMAIN 1060..1134; /note="KH 13"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00117"; DOMAIN 1135..1209; /note="KH 14"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00117" |
+| InterPro | IPR004087;IPR004088;IPR036612;IPR057778; |
+| Pfam | PF00013;PF24668; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000115677-HDLBP/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CTCF | Intact, Biogrid | true |
+| G3BP2 | Biogrid, Opencell | true |
+| PINK1 | Biogrid, Bioplex | true |
+| PSPC1 | Biogrid, Opencell | true |
+| RACK1 | Biogrid, Opencell | true |
+| ADAR | Biogrid | false |
+| AGR2 | Biogrid | false |
+| ATG13 | Opencell | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -184,3 +184,30 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q9NRF8-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9NRF8 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 300..554; /note="Glutamine amidotransferase type-1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00605" |
+| InterPro | IPR029062;IPR004468;IPR017456;IPR017926;IPR033828;IPR027417; |
+| Pfam | PF06418;PF00117; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000047230-CTPS2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CTPS1 | Intact, Biogrid, Opencell | true |
+| SPG21 | Intact, Biogrid | true |
+| APLNR | Bioplex | false |
+| APOBEC3C | Bioplex | false |
+| CACNG4 | Bioplex | false |
+| CHST10 | Bioplex | false |
+| CLEC4E | Bioplex | false |
+| DKKL1 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

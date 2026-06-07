@@ -116,6 +116,29 @@ HPA 免疫荧光（IF）实验数据确认 ELP2 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q6IA86 |
+| SMART | SM00320; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR037289;IPR015943;IPR036322;IPR001680; |
+| Pfam | PF00400; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000134759-ELP2/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ELP1 | Intact, Biogrid | true |
+| ELP3 | Biogrid | false |
+| ELP4 | Biogrid | false |
+| ELP6 | Biogrid | false |
+| FKBP5 | Opencell | false |
+| JAK1 | Biogrid | false |
+| RPA2 | Biogrid | false |
+| STAT3 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

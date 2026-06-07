@@ -116,6 +116,20 @@ HPA 免疫荧光（IF）实验数据确认 SAMD14 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8IZD0 |
+| SMART | SM00454; |
+| UniProt Domain [FT] | DOMAIN 326..389; /note="SAM"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00184" |
+| InterPro | IPR043446;IPR001660;IPR013761; |
+| Pfam | PF07647; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000167100-SAMD14/interaction
 
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

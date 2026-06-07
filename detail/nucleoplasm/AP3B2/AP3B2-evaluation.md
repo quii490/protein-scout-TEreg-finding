@@ -116,6 +116,25 @@ HPA 免疫荧光（IF）实验数据确认 AP3B2 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q13367 |
+| SMART | SM01355; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR026740;IPR056314;IPR029390;IPR026739;IPR011989;IPR016024;IPR002553;IPR013041; |
+| Pfam | PF01602;PF14796;PF24080; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000103723-AP3B2/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| AP3M1 | Biogrid | false |
+| AP3S1 | Biogrid | false |
+| ARRB2 | Biogrid | false |
+| RUFY1 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

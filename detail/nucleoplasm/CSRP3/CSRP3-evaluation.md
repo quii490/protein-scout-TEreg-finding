@@ -184,4 +184,28 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CSRP3/CSRP3-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P50461 |
+| SMART | SM00132; |
+| UniProt Domain [FT] | DOMAIN 10..61; /note="LIM zinc-binding 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00125"; DOMAIN 120..171; /note="LIM zinc-binding 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00125" |
+| InterPro | IPR001781; |
+| Pfam | PF00412; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000129170-CSRP3/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ACTN2 | Intact | false |
+| GNB2 | Bioplex | false |
+| HDAC4 | Biogrid | false |
+| HTT | Intact | false |
+| MYOD1 | Biogrid | false |
+| SMPDL3B | Bioplex | false |
+| TCAP | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

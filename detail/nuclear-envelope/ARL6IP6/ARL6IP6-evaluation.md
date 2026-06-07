@@ -118,4 +118,29 @@ HPA IF 图像已本地嵌入。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nuclear-envelope/ARL6IP6/ARL6IP6-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8N6S5 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR029383; |
+| Pfam | PF15062; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000177917-ARL6IP6/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ACTR2 | Opencell | false |
+| APPL1 | Opencell | false |
+| AQP6 | Intact | false |
+| ARPC1A | Opencell | false |
+| ARPC1B | Opencell | false |
+| ARPC2 | Opencell | false |
+| BAIAP2 | Opencell | false |
+| CLASP1 | Opencell | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -167,3 +167,27 @@ status: scored
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/O75071
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O75071 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 434..463; /note="EF-hand 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00448"; DOMAIN 464..495; /note="EF-hand 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00448" |
+| InterPro | IPR011992;IPR002048;IPR042352; |
+| Pfam | 未检出 |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000159658-EFCAB14/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CSNK2A1 | Biogrid, Opencell | true |
+| CSNK2A2 | Biogrid, Opencell | true |
+| CSNK2B | Opencell | false |
+| GRAMD2B | Bioplex | false |
+| LGALS1 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

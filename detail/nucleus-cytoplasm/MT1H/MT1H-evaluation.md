@@ -196,3 +196,23 @@ None (MT1H-specific). MT1A NMR structures serve as homologous references.
 
 ![](https://alphafold.ebi.ac.uk/files/AF-P80294-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P80294 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR017854;IPR023587;IPR000006;IPR018064; |
+| Pfam | PF00131; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000205358-MT1H/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| SPINK7 | Intact, Biogrid | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

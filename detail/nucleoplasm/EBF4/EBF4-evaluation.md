@@ -181,6 +181,20 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/EBF4/EBF4-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9BQW3 |
+| SMART | SM00429; |
+| UniProt Domain [FT] | DOMAIN 256..338; /note="IPT/TIG" |
+| InterPro | IPR032200;IPR038173;IPR032201;IPR038006;IPR013783;IPR014756;IPR002909;IPR003523;IPR018350; |
+| Pfam | PF16422;PF16423;PF01833; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000188869-EBF4/interaction
 
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -178,3 +178,30 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q86XP3-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q86XP3 |
+| SMART | SM00487;SM00490; |
+| UniProt Domain [FT] | DOMAIN 284..459; /note="Helicase ATP-binding"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00541"; DOMAIN 487..632; /note="Helicase C-terminal"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00542" |
+| InterPro | IPR011545;IPR014001;IPR001650;IPR027417;IPR000629;IPR014014; |
+| Pfam | PF00270;PF00271; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000198231-DDX42/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CPSF6 | Biogrid, Opencell | true |
+| RBM39 | Biogrid, Opencell | true |
+| SF3A1 | Intact, Biogrid, Opencell | true |
+| SF3A2 | Intact, Biogrid, Opencell | true |
+| SF3B1 | Biogrid, Opencell | true |
+| SF3B2 | Biogrid, Opencell | true |
+| SF3B3 | Biogrid, Opencell | true |
+| SF3B4 | Intact, Biogrid, Opencell | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

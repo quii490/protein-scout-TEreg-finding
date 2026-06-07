@@ -183,6 +183,29 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nuclear-envelope/DNAJA4/DNAJA4-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8WW22 |
+| SMART | SM00271; |
+| UniProt Domain [FT] | DOMAIN 4..70; /note="J" |
+| InterPro | IPR012724;IPR002939;IPR001623;IPR018253;IPR044713;IPR008971;IPR001305;IPR036410;IPR036869; |
+| Pfam | PF00226;PF01556;PF00684; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000140403-DNAJA4/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| DNAJA2 | Intact, Biogrid | true |
+| ENDOG | Intact, Biogrid | true |
+| DNAJA1 | Biogrid | false |
+| GRPEL1 | Biogrid | false |
+| HSPA1A | Biogrid | false |
+| MLLT11 | Biogrid | false |
+| PRPS1 | Biogrid | false |
+| RADX | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

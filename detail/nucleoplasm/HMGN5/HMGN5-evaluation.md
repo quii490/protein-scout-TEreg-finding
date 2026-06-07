@@ -116,6 +116,29 @@ HPA 免疫荧光（IF）实验数据确认 HMGN5 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P82970 |
+| SMART | SM00527; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR040164;IPR000079; |
+| Pfam | PF01101; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000198157-HMGN5/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CBX8 | Biogrid, Opencell | true |
+| ACLY | Opencell | false |
+| APOBEC3C | Opencell | false |
+| ATAD2 | Opencell | false |
+| ATAD2B | Opencell | false |
+| ATG13 | Opencell | false |
+| BANF1 | Opencell | false |
+| BARD1 | Opencell | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

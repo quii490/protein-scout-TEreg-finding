@@ -173,3 +173,30 @@ status: scored
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8N9N8
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8N9N8 |
+| SMART | SM00652; |
+| UniProt Domain [FT] | DOMAIN 5..89; /note="S1-like"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00181" |
+| InterPro | IPR039294;IPR012340;IPR006196;IPR001253; |
+| Pfam | PF01176; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000175376-EIF1AD/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| STAT1 | Intact, Biogrid | true |
+| AP2M1 | Intact | false |
+| BEND7 | Intact | false |
+| CCDC106 | Intact | false |
+| CEP55 | Intact | false |
+| CEP76 | Intact | false |
+| CLNS1A | Opencell | false |
+| CSNK2A2 | Opencell | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

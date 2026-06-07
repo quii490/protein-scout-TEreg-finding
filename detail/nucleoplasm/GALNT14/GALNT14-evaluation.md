@@ -181,3 +181,23 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q96FL9-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96FL9 |
+| SMART | SM00458; |
+| UniProt Domain [FT] | DOMAIN 415..550; /note="Ricin B-type lectin"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00174" |
+| InterPro | IPR045885;IPR001173;IPR029044;IPR035992;IPR000772; |
+| Pfam | PF00535;PF00652; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000158089-GALNT14/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| SLC9A6 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

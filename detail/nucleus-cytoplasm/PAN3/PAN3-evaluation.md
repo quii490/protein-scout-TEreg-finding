@@ -153,3 +153,30 @@ PAN3 是 PAN deadenylation complex 的调控亚基，负责招募 PAN2 催化亚
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q58A45-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q58A45 |
+| SMART | SM00356; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR011009;IPR030844;IPR041332;IPR000719;IPR000571;IPR036855; |
+| Pfam | PF18101; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000152520-PAN3/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| PABPC1 | Intact, Biogrid | true |
+| PAN2 | Intact, Biogrid | true |
+| TNRC6A | Intact, Biogrid | true |
+| TNRC6B | Intact, Biogrid | true |
+| TNRC6C | Intact, Biogrid | true |
+| ASF1A | Biogrid | false |
+| DDX6 | Opencell | false |
+| GSPT1 | Opencell | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

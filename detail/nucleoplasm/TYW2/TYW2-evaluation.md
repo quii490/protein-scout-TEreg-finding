@@ -116,6 +116,20 @@ HPA 免疫荧光（IF）实验数据确认 TYW2 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q53H54 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR030382;IPR029063;IPR056743;IPR056744;IPR056745; |
+| Pfam | PF02475;PF25132;PF25133; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000183665-TRMT12/interaction
 
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

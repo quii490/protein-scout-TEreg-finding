@@ -98,3 +98,30 @@ UFL1 是 ufmylation 通路的核心 E3 连接酶，在 ER-phagy、核糖体回�
 
 ![](https://alphafold.ebi.ac.uk/files/AF-O94874-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O94874 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR018611;IPR056761;IPR056580;IPR056579; |
+| Pfam | PF09743;PF23659;PF25041;PF25870; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000014123-UFL1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CCDC47 | Biogrid, Opencell | true |
+| CDK5RAP3 | Intact, Biogrid | true |
+| DDOST | Biogrid, Opencell | true |
+| DDRGK1 | Intact, Biogrid | true |
+| PGRMC1 | Biogrid, Opencell | true |
+| RACK1 | Biogrid, Opencell | true |
+| RPL19 | Biogrid, Opencell | true |
+| RPL5 | Biogrid, Opencell | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

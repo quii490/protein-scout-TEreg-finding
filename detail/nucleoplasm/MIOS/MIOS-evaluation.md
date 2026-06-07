@@ -206,3 +206,30 @@ MIOS should be reevaluated in the context of broader TE biology hypotheses.
 ![](https://images.proteinatlas.org/42928/558_H4_3_red_green.jpg)
 ![](https://images.proteinatlas.org/42928/558_H4_5_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9NXC5 |
+| SMART | SM00320; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR037593;IPR049092;IPR015943;IPR036322;IPR001680;IPR031488; |
+| Pfam | PF21719;PF21720;PF17034; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000164654-MIOS/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CASTOR1 | Intact, Biogrid | true |
+| SEC13 | Biogrid, Opencell, Bioplex | true |
+| SESN2 | Intact, Biogrid | true |
+| WDR24 | Intact, Biogrid | true |
+| AIPL1 | Intact | false |
+| CASTOR2 | Intact | false |
+| CCT2 | Bioplex | false |
+| DEPDC5 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

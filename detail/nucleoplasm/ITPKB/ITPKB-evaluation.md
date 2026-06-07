@@ -116,6 +116,29 @@ HPA 免疫荧光（IF）实验数据确认 ITPKB 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P27987 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR005522;IPR038286; |
+| Pfam | PF03770; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000143772-ITPKB/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| BRAF | Intact | false |
+| CEP70 | Intact | false |
+| CTDSP1 | Intact | false |
+| GOLGA2 | Intact | false |
+| IFT88 | Intact | false |
+| KRT34 | Intact | false |
+| SCAI | Intact | false |
+| TRIM54 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -181,3 +181,21 @@ status: rejected
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q9Y5K1-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9Y5K1 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 42..177; /note="Topo IIA-type catalytic"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01385" |
+| InterPro | IPR004084;IPR013048;IPR002815;IPR013049;IPR036078;IPR034136;IPR036388; |
+| Pfam | PF03533;PF21180;PF04406; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000054796-SPO11/interaction
+
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

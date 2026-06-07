@@ -116,6 +116,23 @@ HPA 免疫荧光（IF）实验数据确认 CERS5 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8N5B7 |
+| SMART | SM00724; |
+| UniProt Domain [FT] | DOMAIN 139..340; /note="TLC"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00205" |
+| InterPro | IPR001356;IPR009057;IPR016439;IPR006634; |
+| Pfam | PF00046;PF03798; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000139624-CERS5/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| HMGCS1 | Opencell | false |
+| MACO1 | Opencell | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

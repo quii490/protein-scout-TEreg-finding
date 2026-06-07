@@ -190,4 +190,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/chromatin/MACROH2A2/MACROH2A2-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9P0M6 |
+| SMART | SM00506;SM00414; |
+| UniProt Domain [FT] | DOMAIN 2..117; /note="Histone H2A"; DOMAIN 184..370; /note="Macro"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00490" |
+| InterPro | IPR021171;IPR007125;IPR009072;IPR002119;IPR032454;IPR002589;IPR043472;IPR035796; |
+| Pfam | PF00125;PF16211;PF01661; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000099284-MACROH2A2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| SSRP1 | Biogrid, Opencell | true |
+| BRD2 | Biogrid | false |
+| BRD3 | Biogrid | false |
+| FAM133A | Intact | false |
+| H2AZ1 | Biogrid | false |
+| H2BC1 | Bioplex | false |
+| H3C1 | Biogrid | false |
+| HMGA1 | Opencell | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

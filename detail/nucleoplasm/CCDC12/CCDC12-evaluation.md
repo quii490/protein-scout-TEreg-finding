@@ -196,3 +196,30 @@ status: scored
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CCDC12
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8WUD4
 - STRING: https://string-db.org/cgi/network?identifiers=CCDC12&species=9606
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8WUD4 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR013169; |
+| Pfam | PF08315; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000160799-CCDC12/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ATG5 | Intact, Biogrid, Bioplex | true |
+| BUD31 | Biogrid, Bioplex | true |
+| CDC40 | Biogrid, Bioplex | true |
+| CDC5L | Biogrid, Bioplex | true |
+| CRNKL1 | Intact, Biogrid | true |
+| PRPF19 | Biogrid, Opencell, Bioplex | true |
+| AQR | Bioplex | false |
+| ATG12 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

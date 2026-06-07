@@ -178,3 +178,21 @@ ADAT3在五个评估基因中表现最为突出。其核定位毋庸置疑——
 ![](https://images.proteinatlas.org/58899/1307_E4_1_red_green.jpg)
 ![](https://images.proteinatlas.org/58899/1307_E4_5_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96EY9 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 187..352; /note="CMP/dCMP-type deaminase"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01083" |
+| InterPro | IPR002125;IPR016193; |
+| Pfam | PF00383; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000213638-ADAT3/interaction
+
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

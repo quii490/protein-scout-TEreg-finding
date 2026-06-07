@@ -191,6 +191,29 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleolus/EIF3L/EIF3L-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9Y262 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 331..537; /note="PCI"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01185" |
+| InterPro | IPR019382;IPR000717;IPR011990; |
+| Pfam | PF10255; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000100129-EIF3L/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CSNK2A1 | Biogrid, Opencell | true |
+| CSNK2A2 | Biogrid, Opencell | true |
+| EIF3A | Intact, Biogrid, Bioplex | true |
+| EIF3B | Intact, Biogrid, Opencell | true |
+| EIF3C | Intact, Biogrid, Bioplex | true |
+| EIF3D | Intact, Biogrid, Bioplex | true |
+| EIF3E | Intact, Biogrid, Bioplex | true |
+| EIF3F | Biogrid, Bioplex | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

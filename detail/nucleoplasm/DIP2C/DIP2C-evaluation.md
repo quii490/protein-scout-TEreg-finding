@@ -117,6 +117,20 @@ HPA 免疫荧光（IF）实验数据确认 DIP2C 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9Y2E4 |
+| SMART | SM01137; |
+| UniProt Domain [FT] | DOMAIN 7..120; /note="DMAP1-binding"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01260" |
+| InterPro | IPR025110;IPR045851;IPR000873;IPR042099;IPR037337;IPR010506; |
+| Pfam | PF00501;PF23024;PF06464; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000151240-DIP2C/interaction
 
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -145,3 +145,30 @@ Score: 106/180. SEH1L has excellent structural data and a dense PPI network, but
 
 ## Manual Review Note
 CONFIRMED REJECTION. SEH1L is a well-studied nucleoporin (Nup107-160 subcomplex) with dual function in nuclear pore transport and GATOR2-mediated mTORC1 activation. While the NPC is nuclear-associated, NPC proteins function at the nuclear-cytoplasmic interface, not in the nuclear interior. SEH1L has no chromatin, transcriptional, or epigenetic regulatory domains or functions. The GATOR2 role in mTORC1 signaling is metabolic, not TE-regulatory. Rejected despite excellent structural data and dense PPI network.
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96EE3 |
+| SMART | SM00320; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR037363;IPR015943;IPR020472;IPR036322;IPR001680; |
+| Pfam | PF00400; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000085415-SEH1L/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| NUP43 | Intact, Biogrid | true |
+| NUP85 | Intact, Biogrid | true |
+| SEC13 | Intact, Biogrid, Opencell | true |
+| AHCTF1 | Intact | false |
+| CCNF | Biogrid | false |
+| MIOS | Biogrid | false |
+| MTMR14 | Biogrid | false |
+| MYC | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

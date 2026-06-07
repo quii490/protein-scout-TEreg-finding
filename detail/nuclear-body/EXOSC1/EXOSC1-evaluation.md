@@ -191,6 +191,29 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nuclear-body/EXOSC1/EXOSC1-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9Y3B2 |
+| SMART | SM00316; |
+| UniProt Domain [FT] | DOMAIN 66..147; /note="S1 motif" |
+| InterPro | IPR039771;IPR019495;IPR025721;IPR012340;IPR003029; |
+| Pfam | PF14382;PF10447; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000171311-EXOSC1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| C1D | Biogrid, Bioplex | true |
+| DIS3L | Biogrid, Bioplex | true |
+| EXOSC10 | Intact, Biogrid | true |
+| EXOSC2 | Intact, Biogrid, Bioplex | true |
+| EXOSC3 | Intact, Biogrid, Bioplex | true |
+| EXOSC4 | Intact, Biogrid, Bioplex | true |
+| EXOSC5 | Intact, Biogrid, Bioplex | true |
+| EXOSC6 | Intact, Biogrid, Bioplex | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

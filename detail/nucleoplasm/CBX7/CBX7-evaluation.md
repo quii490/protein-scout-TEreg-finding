@@ -183,6 +183,29 @@ status: rejected
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/rejected/CBX7/CBX7-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O95931 |
+| SMART | SM00298; |
+| UniProt Domain [FT] | DOMAIN 11..69; /note="Chromo"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00053" |
+| InterPro | IPR043000;IPR033773;IPR016197;IPR000953;IPR017984;IPR023780;IPR023779; |
+| Pfam | PF17218;PF00385; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000100307-CBX7/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| BMI1 | Intact, Biogrid, Bioplex | true |
+| PCGF1 | Intact, Biogrid | true |
+| PCGF2 | Intact, Biogrid, Bioplex | true |
+| PCGF3 | Intact, Biogrid | true |
+| PCGF6 | Intact, Biogrid, Bioplex | true |
+| PHC1 | Biogrid, Bioplex | true |
+| RING1 | Intact, Biogrid, Bioplex | true |
+| RNF2 | Intact, Biogrid, Bioplex | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

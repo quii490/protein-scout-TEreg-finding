@@ -140,6 +140,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/LEUTX/LEUTX-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | A8MZ59 |
+| SMART | SM00389; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR001356;IPR017970;IPR009057; |
+| Pfam | PF00046; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000213921-LEUTX/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| AGPAT4 | Intact | false |
+| AQP2 | Intact | false |
+| AQP3 | Intact | false |
+| ASGR1 | Intact | false |
+| C1QL4 | Intact | false |
+| C3orf52 | Intact | false |
+| CDS2 | Intact | false |
+| CMTM3 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

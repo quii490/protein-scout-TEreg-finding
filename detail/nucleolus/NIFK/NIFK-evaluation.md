@@ -180,4 +180,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleolus/NIFK/NIFK-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9BYG3 |
+| SMART | SM00360; |
+| UniProt Domain [FT] | DOMAIN 45..123; /note="RRM"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00176" |
+| InterPro | IPR021043;IPR012677;IPR035979;IPR000504; |
+| Pfam | PF12196;PF00076; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000155438-NIFK/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CCDC59 | Biogrid, Bioplex | true |
+| CSNK2A1 | Biogrid, Bioplex | true |
+| DDX18 | Biogrid, Bioplex | true |
+| DDX24 | Biogrid, Bioplex | true |
+| DDX50 | Biogrid, Bioplex | true |
+| DKC1 | Biogrid, Bioplex | true |
+| GNL2 | Biogrid, Bioplex | true |
+| KNOP1 | Biogrid, Bioplex | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

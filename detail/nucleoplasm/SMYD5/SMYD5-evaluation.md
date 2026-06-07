@@ -116,6 +116,23 @@ HPA 免疫荧光（IF）实验数据确认 SMYD5 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q6GMV2 |
+| SMART | SM00317; |
+| UniProt Domain [FT] | DOMAIN 21..352; /note="SET"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00190" |
+| InterPro | IPR001214;IPR046341;IPR044422; |
+| Pfam | PF00856; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000135632-SMYD5/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ZNF417 | Intact | false |
+| ZNF587 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

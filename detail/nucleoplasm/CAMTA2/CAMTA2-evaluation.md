@@ -165,6 +165,22 @@ IntAct 有限记录。无 BioGrid 补充数据。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CAMTA2/CAMTA2-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O94983 |
+| SMART | SM01076; |
+| UniProt Domain [FT] | DOMAIN 537..615; /note="IPT/TIG"; DOMAIN 1049..1078; /note="IQ 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00116"; DOMAIN 1102..1131; /note="IQ 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00116" |
+| InterPro | IPR036770;IPR005559;IPR013783;IPR014756;IPR002909; |
+| Pfam | PF03859;PF01833; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000108509-CAMTA2/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ASXL1 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

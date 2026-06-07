@@ -194,3 +194,24 @@ NFATC2IP should be reevaluated in the context of broader TE biology hypotheses.
 ![](https://images.proteinatlas.org/53587/885_G5_1_red_green.jpg)
 ![](https://images.proteinatlas.org/53587/885_G5_2_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8NCF5 |
+| SMART | SM00213; |
+| UniProt Domain [FT] | DOMAIN 348..419; /note="Ubiquitin-like"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00214" |
+| InterPro | IPR052324;IPR022617;IPR000626;IPR029071; |
+| Pfam | PF11976; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000176953-NFATC2IP/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| H2BC8 | Biogrid | false |
+| RPL26 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -191,3 +191,30 @@ STRING 15 个预测互作，IntAct 15 个实验互作。调控相关配体占比
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q9Y5P4-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9Y5P4 |
+| SMART | SM00233;SM00234; |
+| UniProt Domain [FT] | DOMAIN 23..117; /note="PH"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00145"; DOMAIN 389..618; /note="START"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00197" |
+| InterPro | IPR011993;IPR001849;IPR041952;IPR023393;IPR002913;IPR051213; |
+| Pfam | PF00169;PF01852; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000113163-CERT1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ARL6IP1 | Intact, Biogrid | true |
+| CSNK1G2 | Intact, Biogrid | true |
+| ITGB3BP | Intact, Biogrid | true |
+| RTN3 | Intact, Biogrid | true |
+| RTN4 | Intact, Biogrid | true |
+| ACTL8 | Intact | false |
+| APCS | Intact | false |
+| MARK2 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -187,3 +187,30 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 ![](https://images.proteinatlas.org/48374/850_G9_1_red_green.jpg)
 ![](https://images.proteinatlas.org/48374/850_G9_2_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O95758 |
+| SMART | SM00360; |
+| UniProt Domain [FT] | DOMAIN 59..143; /note="RRM 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00176"; DOMAIN 182..258; /note="RRM 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00176"; DOMAIN 358..432; /note="RRM 3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00176"; DOMAIN 475..550; /note="RRM 4"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00176" |
+| InterPro | IPR006536;IPR055204;IPR012677;IPR021790;IPR033110;IPR035979;IPR034326;IPR000504; |
+| Pfam | PF22976;PF13893;PF11835; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000119314-PTBP3/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CAPZB | Opencell | false |
+| COPB2 | Opencell | false |
+| COPE | Opencell | false |
+| ELAVL1 | Biogrid | false |
+| ESR1 | Biogrid | false |
+| MATR3 | Biogrid | false |
+| PTBP1 | Biogrid | false |
+| STAU1 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -180,3 +180,21 @@ status: scored
 
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/chromatin/FBXO18/FBXO18-PAE.png]]
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8NFZ0 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 138..184; /note="F-box"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00080"; DOMAIN 442..705; /note="UvrD-like helicase ATP-binding"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00560" |
+| InterPro | IPR014017;IPR000212;IPR036047;IPR001810;IPR027417;IPR014016; |
+| Pfam | PF12937;PF00580;PF13361; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000134452-FBH1/interaction
+
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

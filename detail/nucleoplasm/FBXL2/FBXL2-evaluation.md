@@ -186,6 +186,29 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/FBXL2/FBXL2-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9UKC9 |
+| SMART | SM00256;SM00367; |
+| UniProt Domain [FT] | DOMAIN 9..55; /note="F-box"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00080" |
+| InterPro | IPR001810;IPR050648;IPR057207;IPR006553;IPR032675; |
+| Pfam | PF25372;PF12937; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000153558-FBXL2/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| SKP1 | Intact, Biogrid, Bioplex | true |
+| APP | Biogrid | false |
+| AURKB | Biogrid | false |
+| CCND2 | Biogrid | false |
+| CCT5 | Intact | false |
+| CDC34 | Biogrid | false |
+| CUL1 | Biogrid | false |
+| EGFR | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -201,6 +201,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/TYW1/TYW1-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9NV66 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 79..237; /note="Flavodoxin-like"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00088"; DOMAIN 400..644; /note="Radical SAM core"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01266" |
+| InterPro | IPR013785;IPR001094;IPR008254;IPR029039;IPR007197;IPR058240;IPR013917;IPR034556; |
+| Pfam | PF00258;PF04055;PF08608; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000198874-TYW1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| AMHR2 | Bioplex | false |
+| C3orf52 | Bioplex | false |
+| CCDC107 | Bioplex | false |
+| CD7 | Bioplex | false |
+| CIAO2A | Bioplex | false |
+| CIB2 | Bioplex | false |
+| CYP19A1 | Bioplex | false |
+| EVA1B | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -182,6 +182,20 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/FAM175B/FAM175B-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q15018 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 3..149; /note="MPN"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01182" |
+| InterPro | IPR023240;IPR023238;IPR037518; |
+| Pfam | PF21125; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000165660-ABRAXAS2/interaction
 
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

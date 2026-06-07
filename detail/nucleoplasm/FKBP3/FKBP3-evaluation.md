@@ -180,3 +180,30 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q00688-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q00688 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 128..224; /note="PPIase FKBP-type"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00277" |
+| InterPro | IPR043368;IPR041200;IPR046357;IPR001179; |
+| Pfam | PF18410;PF00254; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000100442-FKBP3/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| MDM2 | Intact, Biogrid | true |
+| BARD1 | Biogrid | false |
+| CALM1 | Biogrid | false |
+| MAPT | Biogrid | false |
+| NEDD4 | Biogrid | false |
+| NEDD4L | Biogrid | false |
+| OSGEP | Bioplex | false |
+| PARP2 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

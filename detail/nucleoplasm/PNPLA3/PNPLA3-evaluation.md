@@ -178,3 +178,21 @@ status: rejected
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q9NST1-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9NST1 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 10..179; /note="PNPLA"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01161" |
+| InterPro | IPR016035;IPR039185;IPR033562;IPR002641; |
+| Pfam | PF01734; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000100344-PNPLA3/interaction
+
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

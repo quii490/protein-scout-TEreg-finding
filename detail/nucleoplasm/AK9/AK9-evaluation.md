@@ -182,3 +182,21 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q5TCS8-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q5TCS8 |
+| SMART | SM00382; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR003593;IPR000850;IPR027417; |
+| Pfam | PF13238;PF00406; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000155085-AK9/interaction
+
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

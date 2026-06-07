@@ -116,6 +116,29 @@ HPA 免疫荧光（IF）实验数据确认 IARS1 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P41252 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR001412;IPR002300;IPR033709;IPR002301;IPR023586;IPR013155;IPR014729;IPR009080;IPR057033;IPR009008; |
+| Pfam | PF08264;PF19302;PF00133;PF23567; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000196305-IARS1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| DARS1 | Biogrid, Bioplex | true |
+| EEF1E1 | Biogrid, Bioplex | true |
+| EPRS1 | Intact, Biogrid, Bioplex | true |
+| LARS1 | Biogrid, Bioplex | true |
+| MARS1 | Biogrid, Bioplex | true |
+| QARS1 | Biogrid, Bioplex | true |
+| AARS1 | Biogrid | false |
+| AGR2 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

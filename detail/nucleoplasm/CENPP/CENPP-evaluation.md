@@ -165,6 +165,29 @@ IntAct 有限记录。无 BioGrid 补充数据。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CENPP/CENPP-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q6IPU0 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR027801; |
+| Pfam | PF13096; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000188312-CENPP/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CENPO | Intact, Biogrid, Bioplex | true |
+| CENPQ | Biogrid, Bioplex | true |
+| CENPU | Biogrid, Bioplex | true |
+| ATP6V0D2 | Intact | false |
+| BACH2 | Intact | false |
+| C2orf88 | Intact | false |
+| CCDC85B | Intact | false |
+| CENPH | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

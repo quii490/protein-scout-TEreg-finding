@@ -220,6 +220,28 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/MYSM1/MYSM1-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q5VVJ2 |
+| SMART | SM00232;SM00717; |
+| UniProt Domain [FT] | DOMAIN 116..167; /note="SANT"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00624"; DOMAIN 372..470; /note="SWIRM"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00247"; DOMAIN 577..709; /note="MPN"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01182" |
+| InterPro | IPR009057;IPR000555;IPR050242;IPR037518;IPR017930;IPR001005;IPR017884;IPR007526;IPR036388; |
+| Pfam | PF01398;PF00249;PF04433; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000162601-MYSM1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| H2AC20 | Biogrid | false |
+| H2AX | Biogrid | false |
+| HELLS | Biogrid | false |
+| KAT2B | Biogrid | false |
+| MPP7 | Intact | false |
+| RFC5 | Biogrid | false |
+| STING1 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -167,6 +167,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/chromatin/PRRC2A/PRRC2A-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P48634 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR009738;IPR033184; |
+| Pfam | PF07001; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000204469-PRRC2A/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| GRB2 | Intact, Biogrid | true |
+| ATXN1 | Intact | false |
+| ATXN1L | Biogrid | false |
+| BMI1 | Biogrid | false |
+| BTRC | Biogrid | false |
+| C1QBP | Biogrid | false |
+| CAPRIN1 | Biogrid | false |
+| CDC14A | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

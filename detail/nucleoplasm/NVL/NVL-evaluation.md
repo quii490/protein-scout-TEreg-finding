@@ -212,3 +212,30 @@ The nuclear localization and functional profile make it a strong candidate for T
 ![](https://images.proteinatlas.org/28219/1313_D12_3_red_green.jpg)
 ![](https://images.proteinatlas.org/28219/1313_D12_5_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O15381 |
+| SMART | SM00382; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR003593;IPR050168;IPR041569;IPR003959;IPR003960;IPR038100;IPR031996;IPR027417; |
+| Pfam | PF00004;PF17862;PF16725; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000143748-NVL/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ADARB1 | Biogrid | false |
+| ATP5PD | Opencell | false |
+| BRD4 | Biogrid | false |
+| IFI16 | Biogrid | false |
+| MYC | Biogrid | false |
+| NDUFV2 | Opencell | false |
+| NPM1 | Biogrid | false |
+| PARP1 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

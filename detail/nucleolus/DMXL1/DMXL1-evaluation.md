@@ -174,3 +174,30 @@ status: scored
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9Y485
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9Y485 |
+| SMART | SM00320; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR052208;IPR022033;IPR015943;IPR036322;IPR001680; |
+| Pfam | PF12234;PF00400; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000172869-DMXL1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ATP6V1B2 | Biogrid, Opencell | true |
+| ATP6V1G1 | Biogrid, Opencell | true |
+| ATP6V1E1 | Opencell | false |
+| ATP6V1F | Opencell | false |
+| ATP6V1H | Opencell | false |
+| DDOST | Opencell | false |
+| OST4 | Opencell | false |
+| ROGDI | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

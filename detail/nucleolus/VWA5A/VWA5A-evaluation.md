@@ -116,6 +116,24 @@ HPA 免疫荧光（IF）实验数据确认 VWA5A 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O00534 |
+| SMART | SM00609;SM00327; |
+| UniProt Domain [FT] | DOMAIN 1..131; /note="VIT"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00801"; DOMAIN 281..462; /note="VWFA"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00219" |
+| InterPro | IPR013694;IPR002035;IPR036465; |
+| Pfam | PF08487;PF13768; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000110002-VWA5A/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| PRTFDC1 | Intact | false |
+| SPSB1 | Intact | false |
+| TXNL4B | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

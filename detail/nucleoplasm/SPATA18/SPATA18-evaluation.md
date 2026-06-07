@@ -201,3 +201,30 @@ SPATA18 was likely auto-rejected because:
 *Status: REJECTION CONFIRMED – mitochondrial protein, correctly rejected*
 
 SPATA18 is an excellent mitochondrial protein with a clear and important function in mitochondrial quality control. It should not have been included in the false-rejection queue. The nuclear detection (HPA additional nucleoplasm) likely represents a minor soluble pool or pre-mitochondrial newly synthesized protein. The p53 target gene relationship is real and interesting for cancer biology, but SPATA18 is the effector that acts at mitochondria after being induced by nuclear p53. For a TE-regulatory screen, SPATA18 offers nothing: no nuclear function, no chromatin interaction, no transcriptional regulatory activity. Correctly rejected; should not be reopened.
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8TC71 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR026169;IPR031981; |
+| Pfam | PF16026; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000163071-SPATA18/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| YWHAE | Biogrid, Opencell | true |
+| YWHAG | Biogrid, Opencell | true |
+| AIMP2 | Intact | false |
+| CARD10 | Intact | false |
+| CCDC102B | Intact | false |
+| EFHC2 | Intact | false |
+| GAS8 | Intact | false |
+| GOLGA2 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

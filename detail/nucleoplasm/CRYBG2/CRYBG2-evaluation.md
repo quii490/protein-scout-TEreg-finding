@@ -166,3 +166,27 @@ PAE image data not yet available (local image not generated or not reliably fetc
 ![](https://images.proteinatlas.org/29629/272_A3_1_red_green.jpg)
 ![](https://images.proteinatlas.org/29629/272_A3_2_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8N1P7 |
+| SMART | SM00458;SM00247; |
+| UniProt Domain [FT] | DOMAIN 986..1023; /note="Beta/gamma crystallin 'Greek key' 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00028"; DOMAIN 1024..1067; /note="Beta/gamma crystallin 'Greek key' 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00028"; DOMAIN 1073..1113; /note="Beta/gamma crystallin 'Greek key' 3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00028"; DOMAIN 1114..1156; /note="Beta/gamma crystallin 'Greek key' 4"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00028"; DOMAIN 1168..1213; /note="Beta/gamma crystallin 'Greek key' 5"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00028"; DOMAIN 1214..1256; /note="Beta/gamma crystallin 'Greek key' 6"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00028"; DOMAIN 1262..1302; /note="Beta/gamma crystallin 'Greek key' 7"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00028"; DOMAIN 1303..1345; /note="Beta/gamma crystallin 'Greek key' 8"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00028"; DOMAIN 1356..1393; /note="Beta/gamma crystallin 'Greek key' 9"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00028"; DOMAIN 1394..1437; /note="Beta/gamma crystallin 'Greek key' 10"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00028"; DOMAIN 1443..1483; /note="Beta/gamma crystallin 'Greek key' 11"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00028"; DOMAIN 1484..1525; /note="Beta/gamma crystallin 'Greek key' 12"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00028"; DOMAIN 1569..1659; /note="Ricin B-type lectin"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00174" |
+| InterPro | IPR050252;IPR001064;IPR011024;IPR035992;IPR000772; |
+| Pfam | PF00030;PF00652; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000176092-CRYBG2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| C12orf57 | Bioplex | false |
+| CORO1A | Bioplex | false |
+| LAMTOR4 | Bioplex | false |
+| NEIL3 | Bioplex | false |
+| RALBP1 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

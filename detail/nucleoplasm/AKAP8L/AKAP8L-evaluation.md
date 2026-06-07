@@ -141,6 +141,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/AKAP8L/AKAP8L-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9ULX6 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR007071;IPR034736; |
+| Pfam | PF04988; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000011243-AKAP8L/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| RNF43 | Intact, Biogrid | true |
+| SNRPC | Intact, Biogrid, Opencell | true |
+| ATOSB | Intact | false |
+| ATPAF2 | Intact | false |
+| CAPZB | Opencell | false |
+| CARHSP1 | Intact | false |
+| CATSPER1 | Intact | false |
+| CCDC120 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

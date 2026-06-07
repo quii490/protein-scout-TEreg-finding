@@ -116,6 +116,29 @@ HPA 免疫荧光（IF）实验数据确认 SNCAIP 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9Y6H5 |
+| SMART | SM00248; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR002110;IPR036770;IPR040133;IPR032027; |
+| Pfam | PF12796;PF16700; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000064692-SNCAIP/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| SNCA | Intact, Biogrid | true |
+| CSNK2A1 | Biogrid | false |
+| GSK3B | Biogrid | false |
+| KALRN | Biogrid | false |
+| NUB1 | Biogrid | false |
+| PIN1 | Biogrid | false |
+| PPHLN1 | Intact | false |
+| PPP1CA | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -198,3 +198,24 @@ status: scored
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CC2D1B
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q5T0F9
 - STRING: https://string-db.org/cgi/network?identifiers=CC2D1B&species=9606
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q5T0F9 |
+| SMART | SM00239;SM00685; |
+| UniProt Domain [FT] | DOMAIN 676..815; /note="C2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00041" |
+| InterPro | IPR000008;IPR035892;IPR037772;IPR039725;IPR006608; |
+| Pfam | PF00168;PF21528; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000154222-CC2D1B/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CHMP4B | Biogrid, Opencell | true |
+| MDFI | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -205,3 +205,23 @@ SPANXA2 was likely auto-rejected because:
 *Status: FALSE REJECTION CONFIRMED – gene reopened*
 
 SPANXA2 is a fascinating candidate that was incorrectly rejected. The protein's defining feature is nuclear association – it is literally named for it. The HPA Approved nucleoplasm signal, the spermiogenesis chromatin condensation context, and the SETBP1 interaction all converge on a nuclear chromatin-organizing function. The hominoid-specific evolution is particularly intriguing: a recently evolved nuclear protein that packages the sperm genome could have co-evolved with primate-specific TEs (Alu, SVA) that require germline silencing. The extreme novelty is both a challenge (no functional data) and an opportunity (maximum discovery potential). This gene deserves thorough evaluation for TE-regulatory function, particularly in the context of germline TE silencing and the histone-to-protamine transition.
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9NS26 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR010007; |
+| Pfam | PF07458; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000203926-SPANXA2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| SETBP1 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

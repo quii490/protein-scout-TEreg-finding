@@ -189,3 +189,30 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 ![](https://images.proteinatlas.org/44852/1521_A5_2_red_green.jpg)
 ![](https://images.proteinatlas.org/44852/1521_A5_3_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q149N8 |
+| SMART | SM00487;SM00526;SM00490;SM00249;SM00184; |
+| UniProt Domain [FT] | DOMAIN 307..389; /note="Helicase ATP-binding; first part"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00541"; DOMAIN 438..512; /note="H15"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00837"; DOMAIN 710..868; /note="Helicase ATP-binding; second part"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00541"; DOMAIN 1514..1672; /note="Helicase C-terminal"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00542" |
+| InterPro | IPR052583;IPR014001;IPR001650;IPR005818;IPR027417;IPR048686;IPR048695;IPR038718;IPR049730;IPR000330;IPR036388;IPR036390;IPR019786;IPR027370;IPR011011;IPR001965;IPR001841;IPR013083;IPR017907; |
+| Pfam | PF00271;PF00538;PF21325;PF21324;PF00176;PF13445; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000146414-SHPRH/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| RBBP4 | Biogrid, Opencell | true |
+| BORCS6 | Intact | false |
+| DTL | Biogrid | false |
+| EDARADD | Intact | false |
+| FKBP5 | Opencell | false |
+| H3C1 | Biogrid | false |
+| H4C1 | Biogrid | false |
+| HSPA9 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

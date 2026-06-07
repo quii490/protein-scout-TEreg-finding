@@ -177,3 +177,30 @@ status: rejected
 
 ![](https://alphafold.ebi.ac.uk/files/AF-O60832-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O60832 |
+| SMART | SM01136;SM00359; |
+| UniProt Domain [FT] | DOMAIN 296..371; /note="PUA"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00161" |
+| InterPro | IPR012960;IPR020103;IPR002501;IPR002478;IPR015947;IPR036974;IPR004802;IPR032819;IPR004521; |
+| Pfam | PF08068;PF01472;PF16198;PF01509; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000130826-DKC1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| DDX21 | Biogrid, Opencell | true |
+| GAR1 | Intact, Biogrid, Opencell | true |
+| LIN28A | Biogrid, Bioplex | true |
+| NAF1 | Biogrid, Opencell, Bioplex | true |
+| NHP2 | Intact, Biogrid, Opencell, Bioplex | true |
+| NIFK | Biogrid, Bioplex | true |
+| NOP10 | Intact, Biogrid, Opencell, Bioplex | true |
+| RPL31 | Biogrid, Bioplex | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

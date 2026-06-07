@@ -142,6 +142,23 @@ HPA 免疫荧光（IF）实验数据确认 EPB41L4A 定位：
 
 **补充结论**: PPI 评分仍以报告评分表为准；本节用于补齐 IntAct、STRING、GO-CC 三源审计证据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9HCS5 |
+| SMART | SM00295;SM01195;SM01196; |
+| UniProt Domain [FT] | DOMAIN 11..299; /note="FERM"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00084" |
+| InterPro | IPR030696;IPR019749;IPR000798;IPR014847;IPR014352;IPR035963;IPR019748;IPR019747;IPR000299;IPR018979;IPR018980;IPR011993;IPR029071; |
+| Pfam | PF08736;PF09380;PF00373;PF09379; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000129595-EPB41L4A/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| DVL3 | Biogrid | false |
+| UNC119 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

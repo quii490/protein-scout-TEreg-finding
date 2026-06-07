@@ -173,3 +173,30 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-A0JNW5-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | A0JNW5 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 3..94; /note="Chorein N-terminal"; /evidence="ECO:0000255" |
+| InterPro | IPR026728; |
+| Pfam | PF24917; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000111647-BLTP3B/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| DYNLL1 | Biogrid, Opencell | true |
+| DYNLL2 | Biogrid, Opencell | true |
+| YWHAB | Biogrid, Opencell | true |
+| YWHAG | Biogrid, Opencell | true |
+| YWHAH | Biogrid, Opencell | true |
+| YWHAQ | Biogrid, Opencell | true |
+| YWHAZ | Biogrid, Opencell | true |
+| DIO3 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

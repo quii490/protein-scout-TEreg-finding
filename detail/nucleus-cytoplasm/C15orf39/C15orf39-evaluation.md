@@ -78,3 +78,24 @@ C15orf39 是大型未表征蛋白，具有实验级核-胞质双定位证据 (EC
 
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleus-cytoplasm/C15orf39/C15orf39-PAE.png]]
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q6ZRI6 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR037656; |
+| Pfam | PF17663; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000167173-C15orf39/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CAPZB | Opencell | false |
+| CTBP1 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -196,3 +196,30 @@ HPA IF 可显示图像可用，可靠性: Supported。
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q96LI5-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96LI5 |
+| SMART | SM00369; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR050410;IPR034967;IPR036691;IPR005135;IPR001611;IPR003591;IPR032675; |
+| Pfam | PF03372;PF13855; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000138767-CNOT6L/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CAPZB | Biogrid, Opencell | true |
+| CNOT1 | Intact, Biogrid | true |
+| CNOT10 | Intact, Biogrid | true |
+| CNOT11 | Intact, Biogrid, Bioplex | true |
+| CNOT2 | Intact, Biogrid, Bioplex | true |
+| CNOT3 | Intact, Biogrid, Bioplex | true |
+| CNOT6 | Intact, Biogrid, Bioplex | true |
+| CNOT7 | Intact, Biogrid, Bioplex | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

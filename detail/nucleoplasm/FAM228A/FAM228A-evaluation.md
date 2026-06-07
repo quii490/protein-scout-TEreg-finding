@@ -171,6 +171,29 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/FAM228A/FAM228A-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q86W67 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR040046; |
+| Pfam | 未检出 |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000186453-FAM228A/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| BYSL | Intact | false |
+| CDKN2D | Intact | false |
+| COX5B | Intact | false |
+| EAF1 | Intact | false |
+| ENKD1 | Intact | false |
+| FAM90A1 | Intact | false |
+| GYS1 | Intact | false |
+| HSF2BP | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

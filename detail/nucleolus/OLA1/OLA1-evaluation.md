@@ -189,3 +189,30 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 ![](https://images.proteinatlas.org/35790/383_C12_3_blue_red_green.jpg)
 ![](https://images.proteinatlas.org/35790/383_C12_4_blue_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9NTK5 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 23..283; /note="OBG-type G"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01047"; DOMAIN 304..387; /note="TGS"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01228" |
+| InterPro | IPR004396;IPR012675;IPR031167;IPR006073;IPR027417;IPR004095;IPR012676;IPR023192;IPR013029;IPR041706; |
+| Pfam | PF01926;PF06071; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000138430-OLA1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| AURKA | Biogrid | false |
+| BARD1 | Biogrid | false |
+| BCL6 | Biogrid | false |
+| BRCA1 | Biogrid | false |
+| HUWE1 | Biogrid | false |
+| PRKN | Biogrid | false |
+| PRPF31 | Intact | false |
+| RACK1 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

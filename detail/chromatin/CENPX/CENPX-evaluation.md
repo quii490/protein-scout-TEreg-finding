@@ -103,3 +103,30 @@ HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）�
 
 ![](https://alphafold.ebi.ac.uk/files/AF-A8MT69-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | A8MT69 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR018552; |
+| Pfam | PF09415; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000169689-CENPX/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CENPS | Intact, Biogrid, Bioplex | true |
+| BLM | Biogrid | false |
+| FAAP100 | Biogrid | false |
+| FAAP24 | Biogrid | false |
+| FANCA | Biogrid | false |
+| FANCC | Biogrid | false |
+| FANCE | Biogrid | false |
+| FANCF | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

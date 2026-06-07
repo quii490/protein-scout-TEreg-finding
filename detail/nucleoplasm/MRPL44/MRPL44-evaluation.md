@@ -206,3 +206,30 @@ The protein functions primarily in: Component of the 39S subunit of mitochondria
 The false rejection may have resulted from automated scoring thresholds. 
 The nuclear evidence, while present, is not overwhelming. 
 MRPL44 should be reevaluated in the context of broader TE biology hypotheses.
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9H9J2 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 236..306; /note="DRBM"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00266" |
+| InterPro | IPR014720;IPR044444;IPR055189;IPR036389; |
+| Pfam | PF22892;PF22935; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000135900-MRPL44/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| IMMT | Intact, Biogrid | true |
+| MRPL13 | Biogrid, Bioplex | true |
+| MRPL18 | Biogrid, Bioplex | true |
+| MRPL21 | Biogrid, Bioplex | true |
+| MRPL23 | Biogrid, Bioplex | true |
+| MRPL27 | Biogrid, Bioplex | true |
+| MRPL28 | Biogrid, Bioplex | true |
+| MRPL37 | Biogrid, Bioplex | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

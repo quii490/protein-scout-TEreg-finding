@@ -116,6 +116,20 @@ HPA 免疫荧光（IF）实验数据确认 RASGEF1B 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q0VAM2 |
+| SMART | SM00147;SM00229; |
+| UniProt Domain [FT] | DOMAIN 34..164; /note="N-terminal Ras-GEF"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00135"; DOMAIN 204..452; /note="Ras-GEF"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00168" |
+| InterPro | IPR008937;IPR000651;IPR019804;IPR023578;IPR001895;IPR036964; |
+| Pfam | PF00617;PF00618; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000138670-RASGEF1B/interaction
 
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -116,6 +116,29 @@ HPA 免疫荧光（IF）实验数据确认 TNRC6C 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9HCJ0 |
+| SMART | SM00165; |
+| UniProt Domain [FT] | DOMAIN 1140..1185; /note="UBA"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00212"; DOMAIN 1811..1878; /note="RRM" |
+| InterPro | IPR019486;IPR052068;IPR026805;IPR012677;IPR035979;IPR000504;IPR041917;IPR032226;IPR034927;IPR015940;IPR009060; |
+| Pfam | PF10427;PF12938;PF00076;PF16608;PF00627; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000078687-TNRC6C/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| AGO1 | Intact, Biogrid, Opencell | true |
+| AGO2 | Intact, Biogrid, Opencell | true |
+| AGO3 | Intact, Biogrid | true |
+| AGO4 | Intact, Biogrid | true |
+| CNOT1 | Intact, Biogrid | true |
+| CNOT10 | Intact, Biogrid | true |
+| CNOT2 | Intact, Biogrid | true |
+| CNOT3 | Intact, Biogrid | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

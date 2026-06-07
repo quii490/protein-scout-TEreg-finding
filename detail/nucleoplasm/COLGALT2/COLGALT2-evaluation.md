@@ -119,6 +119,29 @@ IntAct 有限记录。无 BioGrid 补充数据。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/COLGALT2/COLGALT2-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8IYK4 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR050757;IPR002654;IPR029044; |
+| Pfam | PF13704;PF01755; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000198756-COLGALT2/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| C1QTNF3 | Intact | false |
+| COL6A1 | Bioplex | false |
+| COL9A2 | Bioplex | false |
+| COL9A3 | Bioplex | false |
+| COLGALT1 | Bioplex | false |
+| FAM136A | Bioplex | false |
+| HPCAL1 | Intact | false |
+| MRPS36 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

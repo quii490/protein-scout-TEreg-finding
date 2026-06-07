@@ -195,3 +195,30 @@ The protein functions primarily in: Aminopeptidase with broad substrate specific
 The false rejection may have resulted from automated scoring thresholds. 
 The nuclear evidence, while present, is not overwhelming. 
 NPEPPS should be reevaluated in the context of broader TE biology hypotheses.
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P55786 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR045357;IPR042097;IPR024571;IPR034016;IPR001930;IPR050344;IPR014782;IPR027268; |
+| Pfam | PF11838;PF01433;PF17900; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000141279-NPEPPS/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| AGR2 | Biogrid | false |
+| CCNF | Biogrid | false |
+| CEBPB | Biogrid | false |
+| CUL3 | Biogrid | false |
+| EIF6 | Biogrid | false |
+| FAF2 | Biogrid | false |
+| HSPA8 | Biogrid | false |
+| LRRC8E | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -116,6 +116,29 @@ HPA 免疫荧光（IF）实验数据确认 PDLIM5 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96HC4 |
+| SMART | SM00132;SM00228; |
+| UniProt Domain [FT] | DOMAIN 2..85; /note="PDZ"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00143"; DOMAIN 418..477; /note="LIM zinc-binding 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00125"; DOMAIN 477..536; /note="LIM zinc-binding 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00125"; DOMAIN 536..596; /note="LIM zinc-binding 3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00125" |
+| InterPro | IPR001478;IPR050604;IPR036034;IPR001781; |
+| Pfam | PF00412;PF00595; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000163110-PDLIM5/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ZYX | Intact, Biogrid | true |
+| ATXN1 | Intact | false |
+| BRCA1 | Biogrid | false |
+| CALML3 | Bioplex | false |
+| COIL | Intact | false |
+| DYRK1A | Biogrid | false |
+| GFAP | Intact | false |
+| HARS2 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

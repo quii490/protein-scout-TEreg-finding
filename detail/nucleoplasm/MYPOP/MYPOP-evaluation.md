@@ -190,6 +190,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/MYPOP/MYPOP-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q86VE0 |
+| SMART | SM00717; |
+| UniProt Domain [FT] | DOMAIN 12..84; /note="Myb-like"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00133" |
+| InterPro | IPR052870;IPR028002;IPR001005; |
+| Pfam | PF13873; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000176182-MYPOP/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| AKAP8L | Intact | false |
+| BAG4 | Intact | false |
+| BBC3 | Intact | false |
+| CARD10 | Intact | false |
+| CHIC2 | Intact | false |
+| CIB4 | Intact | false |
+| CYSRT1 | Intact | false |
+| FHL3 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

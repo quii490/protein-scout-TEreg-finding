@@ -175,3 +175,30 @@ RPAP1 is 1393 amino acids (152.8 kDa), placing it in the 1200-2000 aa range. Thi
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9BWH6
 - InterPro: https://www.ebi.ac.uk/interpro/protein/Q9BWH6/
 - Note: Harvest packet not available; data compiled from UniProt and literature database queries
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9BWH6 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR039913;IPR013929;IPR013930;IPR057989; |
+| Pfam | PF08620;PF08621;PF25766; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000103932-RPAP1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| POLR2B | Biogrid, Opencell | true |
+| POLR2C | Biogrid, Opencell | true |
+| POLR2J | Biogrid, Opencell | true |
+| POLR2L | Intact, Biogrid | true |
+| CCNF | Biogrid | false |
+| CSNK2A1 | Opencell | false |
+| CSNK2A2 | Opencell | false |
+| DHX9 | Opencell | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

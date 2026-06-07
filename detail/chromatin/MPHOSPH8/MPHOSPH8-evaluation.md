@@ -168,6 +168,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/chromatin/MPHOSPH8/MPHOSPH8-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q99549 |
+| SMART | SM00248;SM00298; |
+| UniProt Domain [FT] | DOMAIN 59..118; /note="Chromo"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00053" |
+| InterPro | IPR002110;IPR036770;IPR016197;IPR000953;IPR023780;IPR023779;IPR050889; |
+| Pfam | PF00023;PF12796;PF00385; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000196199-MPHOSPH8/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| EHMT1 | Intact, Biogrid | true |
+| TASOR | Intact, Biogrid | true |
+| CGAS | Biogrid | false |
+| DNMT3A | Biogrid | false |
+| H2BC8 | Biogrid | false |
+| H3-3A | Biogrid | false |
+| H3C1 | Intact, Biogrid | false |
+| H3C10 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

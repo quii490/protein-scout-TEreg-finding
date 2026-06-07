@@ -173,3 +173,28 @@ HPA IF 图像已本地嵌入。
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q8WYK0-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8WYK0 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 5..117; /note="HotDog ACOT-type 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01106"; DOMAIN 179..294; /note="HotDog ACOT-type 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01106"; DOMAIN 340..549; /note="START"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00197" |
+| InterPro | IPR040170;IPR033120;IPR029069;IPR023393;IPR002913;IPR006683; |
+| Pfam | PF03061;PF01852; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000172497-ACOT12/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ZBTB8A | Intact, Biogrid | true |
+| MEOX1 | Intact | false |
+| NAA10 | Intact | false |
+| NAA11 | Intact | false |
+| PAX5 | Intact | false |
+| PAX6 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

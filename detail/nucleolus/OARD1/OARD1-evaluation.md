@@ -105,3 +105,25 @@ OARD1 是一个文献量极低（strict=4）、结构验证极其充分（pLDDT 
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q9Y530-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9Y530 |
+| SMART | SM00506; |
+| UniProt Domain [FT] | DOMAIN 2..152; /note="Macro"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00490" |
+| InterPro | IPR050892;IPR002589;IPR043472; |
+| Pfam | PF01661; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000124596-OARD1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| PARP1 | Intact | false |
+| PICK1 | Intact | false |
+| TNKS | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

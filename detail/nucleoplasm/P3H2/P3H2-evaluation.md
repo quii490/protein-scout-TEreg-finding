@@ -116,6 +116,20 @@ HPA 免疫荧光（IF）实验数据确认 P3H2 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8IVL5 |
+| SMART | SM00702; |
+| UniProt Domain [FT] | DOMAIN 557..671; /note="Fe2OG dioxygenase"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00805" |
+| InterPro | IPR056585;IPR005123;IPR039575;IPR006620;IPR044862;IPR011990; |
+| Pfam | PF13640;PF23557; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000090530-P3H2/interaction
 
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

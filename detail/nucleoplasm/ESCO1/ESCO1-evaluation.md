@@ -182,3 +182,25 @@ status: scored
 
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/ESCO1/ESCO1-PAE.png]]
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q5FWF5 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR028005;IPR028009; |
+| Pfam | PF13880;PF13878; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000141446-ESCO1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CALM1 | Opencell | false |
+| CALM2 | Opencell | false |
+| CALM3 | Opencell | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

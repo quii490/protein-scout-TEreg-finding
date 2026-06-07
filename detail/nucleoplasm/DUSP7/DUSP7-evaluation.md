@@ -173,3 +173,27 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q16829-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q16829 |
+| SMART | SM00195;SM00450; |
+| UniProt Domain [FT] | DOMAIN 68..187; /note="Rhodanese"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00173"; DOMAIN 244..387; /note="Tyrosine-protein phosphatase"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00160" |
+| InterPro | IPR000340;IPR008343;IPR029021;IPR001763;IPR036873;IPR000387;IPR020422; |
+| Pfam | PF00782;PF00581; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000164086-DUSP7/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| MAPK1 | Intact, Biogrid | true |
+| SPOP | Intact, Biogrid | true |
+| EGLN3 | Intact | false |
+| GHR | Intact | false |
+| MAPK14 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

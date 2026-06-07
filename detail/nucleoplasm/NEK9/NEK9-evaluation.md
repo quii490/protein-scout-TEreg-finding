@@ -181,3 +181,30 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q8TD19-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8TD19 |
+| SMART | SM00220; |
+| UniProt Domain [FT] | DOMAIN 52..308; /note="Protein kinase"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00159" |
+| InterPro | IPR011009;IPR042767;IPR000719;IPR058923;IPR009091;IPR000408;IPR008271;IPR051997; |
+| Pfam | PF00069;PF25390; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000119638-NEK9/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| DYNLL1 | Intact, Biogrid | true |
+| DYNLL2 | Intact, Biogrid | true |
+| EML4 | Biogrid, Opencell | true |
+| GABARAP | Intact, Biogrid | true |
+| GABARAPL2 | Intact, Biogrid | true |
+| MAP1LC3A | Intact, Biogrid | true |
+| MAP1LC3B | Intact, Biogrid | true |
+| NEK6 | Intact, Biogrid, Bioplex | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

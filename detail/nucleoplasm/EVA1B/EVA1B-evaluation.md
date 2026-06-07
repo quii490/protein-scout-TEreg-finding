@@ -184,6 +184,29 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/EVA1B/EVA1B-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9NVM1 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR052461;IPR039500; |
+| Pfam | PF14851; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000142694-EVA1B/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ACP2 | Bioplex | false |
+| ACVR2A | Bioplex | false |
+| ANXA1 | Intact | false |
+| CA14 | Bioplex | false |
+| CALR | Intact | false |
+| CYSRT1 | Intact | false |
+| DCAKD | Bioplex | false |
+| DLST | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

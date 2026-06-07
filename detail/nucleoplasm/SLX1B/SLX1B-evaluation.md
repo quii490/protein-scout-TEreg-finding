@@ -151,3 +151,25 @@ CONFIRMED REJECTION. SLX1B is one of two human SLX1 paralogs (SLX1A and SLX1B) t
 ![](https://images.proteinatlas.org/47038/864_E6_1_red_green.jpg)
 ![](https://images.proteinatlas.org/47038/864_E6_2_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9BQ83 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 12..95; /note="GIY-YIG"; /evidence="ECO:0000255\|HAMAP-Rule:MF_03100" |
+| InterPro | IPR000305;IPR035901;IPR027520;IPR048749;IPR050381;IPR013083; |
+| Pfam | PF01541;PF21202; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000181625-SLX1B/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| SLX4 | Intact, Biogrid | true |
+| ERCC1 | Biogrid | false |
+| ERCC4 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

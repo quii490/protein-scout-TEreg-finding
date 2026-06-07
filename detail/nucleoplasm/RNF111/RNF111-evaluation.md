@@ -176,3 +176,30 @@ RNF111 is 994 amino acids, placing it at the upper end of the 800-1200 aa range.
 - PDB: https://www.rcsb.org/ (2KIZ, 5LG0, 5LG7, 7P2K)
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q6ZNA4
 - Note: Harvest packet not available; data compiled from UniProt and literature database queries
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q6ZNA4 |
+| SMART | SM00184; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR029306;IPR001841;IPR013083;IPR051073; |
+| Pfam | PF15303;PF13639; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000157450-RNF111/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CSNK2A1 | Intact, Biogrid | true |
+| CSNK2B | Biogrid, Opencell | true |
+| UBE2D1 | Intact, Biogrid | true |
+| UBE2D2 | Intact, Biogrid | true |
+| UBE2D3 | Intact, Biogrid | true |
+| UBE2D4 | Intact, Biogrid | true |
+| UBE2E1 | Intact, Biogrid | true |
+| UBE2E3 | Intact, Biogrid | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

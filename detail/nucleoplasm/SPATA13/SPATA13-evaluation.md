@@ -164,3 +164,24 @@ CONFIRMED REJECTION. SPATA13 (ASEF2) is a well-characterized RhoGEF containing D
 ![](https://images.proteinatlas.org/40185/464_C3_1_red_green.jpg)
 ![](https://images.proteinatlas.org/40185/464_C3_2_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96N96 |
+| SMART | SM00233;SM00325;SM00326; |
+| UniProt Domain [FT] | DOMAIN 147..206; /note="SH3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00192"; DOMAIN 240..424; /note="DH"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00062"; DOMAIN 455..561; /note="PH"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00145" |
+| InterPro | IPR035899;IPR000219;IPR011993;IPR001849;IPR036028;IPR001452;IPR055251; |
+| Pfam | PF00621;PF00018;PF22697; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000182957-SPATA13/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| APC | Intact | false |
+| YWHAE | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

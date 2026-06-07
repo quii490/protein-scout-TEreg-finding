@@ -162,3 +162,30 @@ TSPYL2 是极具吸引力的候选蛋白。NAP (Nucleosome Assembly Protein) 家
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q9H2G4-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9H2G4 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR037231;IPR002164; |
+| Pfam | PF00956; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000184205-TSPYL2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ABT1 | Intact, Biogrid | true |
+| CSNK2A1 | Intact, Biogrid | true |
+| NOP53 | Intact, Biogrid | true |
+| ZFP91 | Intact, Biogrid | true |
+| ZNF687 | Intact, Biogrid | true |
+| CASK | Biogrid | false |
+| CCNB1 | Biogrid | false |
+| CEP19 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

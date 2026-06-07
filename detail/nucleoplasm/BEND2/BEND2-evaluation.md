@@ -180,3 +180,25 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/BEND2/BEND2-PAE.png]]
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8NDZ0 |
+| SMART | SM01025; |
+| UniProt Domain [FT] | DOMAIN 483..582; /note="BEN 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00784"; DOMAIN 667..765; /note="BEN 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00784" |
+| InterPro | IPR018379; |
+| Pfam | PF10523; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000177324-BEND2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| LHX2 | Intact | false |
+| PRR20D | Intact | false |
+| SF3A2 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

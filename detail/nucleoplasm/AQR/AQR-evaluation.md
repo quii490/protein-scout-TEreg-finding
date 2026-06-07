@@ -170,6 +170,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/AQR/AQR-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O60306 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR048966;IPR048967;IPR032174;IPR026300;IPR045055;IPR041679;IPR041677;IPR027417;IPR047187; |
+| Pfam | PF13086;PF13087;PF16399;PF21143;PF21144; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000021776-AQR/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| EIF4A3 | Intact, Biogrid | true |
+| ISY1 | Intact, Biogrid | true |
+| PPIE | Intact, Biogrid | true |
+| PRPF19 | Intact, Biogrid, Opencell, Bioplex | true |
+| PRPF8 | Intact, Biogrid | true |
+| RBM39 | Biogrid, Opencell | true |
+| SNRPB | Intact, Biogrid, Opencell | true |
+| SNRPF | Intact, Biogrid, Opencell, Bioplex | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -184,6 +184,29 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/FAM133A/FAM133A-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8N9E0 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR026766; |
+| Pfam | 未检出 |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000179083-FAM133A/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CSNK2A1 | Intact, Biogrid, Bioplex | true |
+| NOS1AP | Intact, Biogrid, Bioplex | true |
+| ACOX3 | Bioplex | false |
+| AFF4 | Bioplex | false |
+| AGPAT3 | Intact | false |
+| APPL1 | Bioplex | false |
+| ATP5IF1 | Bioplex | false |
+| C1orf35 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

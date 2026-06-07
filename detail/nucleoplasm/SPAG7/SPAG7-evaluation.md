@@ -202,3 +202,24 @@ SPAG7 was likely auto-rejected because:
 *Status: BORDERLINE – nuclear localization confirmed, functional ignorance limits assessment*
 
 SPAG7 is a protein that exists – it localizes to the nucleoplasm, has a potentially interesting R3H nucleic acid binding domain, and shows up in proximity to the nuclear lamina. That is the sum total of what is known about it. The extreme sparsity of the literature (10 publications, none mechanistic) makes it impossible to assess TE-regulatory potential. This is the kind of protein where a "yes" or "no" decision depends on whether the project has bandwidth for speculative candidates that would require extensive characterization before any hypothesis can be tested. The nuclear localization is sufficient to justify studying it, but the functional ignorance is sufficient to justify rejecting it. Reviewer judgment needed.
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O75391 |
+| SMART | SM00393; |
+| UniProt Domain [FT] | DOMAIN 46..109; /note="R3H"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00382" |
+| InterPro | IPR001374;IPR036867;IPR034068;IPR017330; |
+| Pfam | PF01424; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000091640-SPAG7/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| H2BC8 | Biogrid | false |
+| LXN | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

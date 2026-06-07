@@ -175,3 +175,28 @@ status: scored
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8NA77
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8NA77 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR029093; |
+| Pfam | PF15553; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000182459-TEX19/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ATXN3 | Intact | false |
+| GRN | Intact | false |
+| RNF11 | Intact | false |
+| WFS1 | Intact | false |
+| ZNF490 | Intact | false |
+| ZNF648 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

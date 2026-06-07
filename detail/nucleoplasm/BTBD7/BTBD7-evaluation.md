@@ -179,6 +179,22 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/BTBD7/BTBD7-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9P203 |
+| SMART | SM00875;SM00225; |
+| UniProt Domain [FT] | DOMAIN 142..211; /note="BTB 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00037"; DOMAIN 247..341; /note="BTB 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00037"; DOMAIN 413..479; /note="BACK" |
+| InterPro | IPR011705;IPR000210;IPR042345;IPR047936;IPR047934;IPR047935;IPR011333; |
+| Pfam | PF07707;PF00651; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000011114-BTBD7/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CUL3 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -182,6 +182,29 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/ELOA2/ELOA2-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8IYF1 |
+| SMART | SM00509; |
+| UniProt Domain [FT] | DOMAIN 5..80; /note="TFIIS N-terminal"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00649" |
+| InterPro | IPR051870;IPR010684;IPR003617;IPR035441;IPR017923; |
+| Pfam | PF06881;PF08711; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000206181-ELOA2/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CALCOCO2 | Intact | false |
+| DVL2 | Intact | false |
+| HSF2BP | Intact | false |
+| NKAPD1 | Intact | false |
+| RNPS1 | Intact | false |
+| SREK1IP1 | Intact | false |
+| TRAF2 | Intact | false |
+| ZBTB43 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

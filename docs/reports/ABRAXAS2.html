@@ -156,7 +156,32 @@
 <p>The original Excel listed ABRAXAS2 as HPA=&quot;Nucleoplasm&quot; with nuclear_score=3, but the actual harvested HPA data does NOT include any nuclear compartment. This is the most significant Excel-to-packet discrepancy in this set. The Excel appears to have assigned a nuclear compartment that HPA does not report. Despite this, ABRAXAS2 genuinely has nuclear functions validated in the literature.</p>
 <p><strong>Re-evaluator&#x27;s note</strong>: This case demonstrates why relying solely on HPA for nuclear classification can miss genuine nuclear proteins. ABRAXAS2 is a nucleocytoplasmic shuttling protein whose steady-state localization (captured by HPA IF) is predominantly cytoplasmic, but whose nuclear functions are well-established. The gene was correctly identified as having nuclear relevance (via UniProt), even though the HPA compartment assignment was inaccurate. A manual IF image review would help determine whether nuclear signal is present but below HPA&#x27;s compartment-classification threshold. This gene should be retained despite the low HPA nuclear score.</p>
 <p>&lt;!-- HPA_IF_REPAIR_START --&gt; <strong>HPA IF 图像修正（2026-06-05）</strong>: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Cytosol (supported)。来源: https://www.proteinatlas.org/ENSG00000165660-ABRAXAS2/subcellular</p>
-<p><figure><img src="https://images.proteinatlas.org/74089/1484_G2_1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/74089/1484_G2_3_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/74089/1559_E4_5_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/74089/1559_E4_6_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/74089/2176_A8_38_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/74089/2176_A8_44_blue_red_green.jpg" alt="image"></figure> &lt;!-- HPA_IF_REPAIR_END --&gt;</p></article></main>
+<p><figure><img src="https://images.proteinatlas.org/74089/1484_G2_1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/74089/1484_G2_3_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/74089/1559_E4_5_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/74089/1559_E4_6_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/74089/2176_A8_38_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/74089/2176_A8_44_blue_red_green.jpg" alt="image"></figure> &lt;!-- HPA_IF_REPAIR_END --&gt;</p>
+<p>&lt;!-- DOMAIN_HUMANPPI_REPAIR_START --&gt;</p>
+<h3>Domain/SMART 与 humanPPI 补充（2026-06-07）</h3>
+<h4>SMART / UniProt domain</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Source</th><th>Data</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Q15018</td></tr>
+<tr><td>SMART</td><td>未在 UniProt xref 中检出 SMART 条目</td></tr>
+<tr><td>UniProt Domain [FT]</td><td>DOMAIN 3..149; /note=&quot;MPN&quot;; /evidence=&quot;ECO:0000255\</td><td>PROSITE-ProRule:PRU01182&quot;</td></tr>
+<tr><td>InterPro</td><td>IPR023240;IPR023238;IPR037518;</td></tr>
+<tr><td>Pfam</td><td>PF21125;</td></tr>
+</tbody></table></div>
+<h4>humanPPI / HPA Interaction</h4>
+<p>Source: https://www.proteinatlas.org/ENSG00000165660-ABRAXAS2/interaction</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>Datasets</th><th>AF3/HPA structure</th></tr></thead><tbody>
+<tr><td>BABAM2</td><td>Intact, Biogrid, Bioplex</td><td>true</td></tr>
+<tr><td>BRCC3</td><td>Intact, Biogrid</td><td>true</td></tr>
+<tr><td>SHMT2</td><td>Biogrid, Bioplex</td><td>true</td></tr>
+<tr><td>ATF4</td><td>Biogrid</td><td>false</td></tr>
+<tr><td>BABAM1</td><td>Biogrid</td><td>false</td></tr>
+<tr><td>BSPRY</td><td>Bioplex</td><td>false</td></tr>
+<tr><td>DCUN1D1</td><td>Intact</td><td>false</td></tr>
+<tr><td>GTPBP1</td><td>Bioplex</td><td>false</td></tr>
+</tbody></table></div>
+<p>&lt;!-- DOMAIN_HUMANPPI_REPAIR_END --&gt;</p></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

@@ -185,6 +185,29 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/FAM124B/FAM124B-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9H5Z6 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR029380;IPR046365; |
+| Pfam | PF15067; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000124019-FAM124B/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| MDFI | Intact, Biogrid | true |
+| TRIM37 | Intact, Biogrid | true |
+| BIRC7 | Intact | false |
+| CARD9 | Intact | false |
+| GOLGA2 | Intact | false |
+| KCTD6 | Intact | false |
+| KCTD9 | Intact | false |
+| KIAA1958 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

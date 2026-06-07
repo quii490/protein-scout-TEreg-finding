@@ -105,3 +105,30 @@ AP5S1 不是经典核蛋白；主定位和 PPI 网络都偏 endosome/lysosome/ad
 ![](https://images.proteinatlas.org/43533/1732_A11_13_cr58060c99d0db1_red_green.jpg)
 ![](https://images.proteinatlas.org/43533/1732_A11_8_cr58060c8fe8b85_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9NUS5 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR029392; |
+| Pfam | PF15001; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000125843-AP5S1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| AP5B1 | Bioplex | false |
+| COPS3 | Bioplex | false |
+| COPS4 | Bioplex | false |
+| COPS6 | Bioplex | false |
+| COPS7A | Bioplex | false |
+| COPS7B | Bioplex | false |
+| MRGBP | Bioplex | false |
+| PRAME | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

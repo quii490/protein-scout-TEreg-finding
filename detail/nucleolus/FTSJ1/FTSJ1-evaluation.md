@@ -193,4 +193,26 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleolus/FTSJ1/FTSJ1-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9UET6 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR028590;IPR050082;IPR002877;IPR015507;IPR029063; |
+| Pfam | PF01728; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000068438-FTSJ1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| EPHA2 | Biogrid | false |
+| GNL3L | Biogrid | false |
+| KRAS | Biogrid | false |
+| NTRK1 | Biogrid | false |
+| WDR6 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

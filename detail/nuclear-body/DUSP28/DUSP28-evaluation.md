@@ -162,3 +162,21 @@ status: scored
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q4G0W2
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q4G0W2 |
+| SMART | SM00195; |
+| UniProt Domain [FT] | DOMAIN 17..159; /note="Tyrosine-protein phosphatase"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00160" |
+| InterPro | IPR000340;IPR052103;IPR029021;IPR000387;IPR020422; |
+| Pfam | PF00782; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000188542-DUSP28/interaction
+
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

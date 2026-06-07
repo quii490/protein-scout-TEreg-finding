@@ -63,3 +63,24 @@ STRING: FEM1B (0.719, exp 0.095+textmining 0.698)、BNIP3 (0.593, textmining 0.5
 ![](https://images.proteinatlas.org/58127/1248_H10_1_red_green.jpg)
 ![](https://images.proteinatlas.org/58127/1248_H10_2_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q7Z713 |
+| SMART | SM00248; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR050776;IPR002110;IPR036770; |
+| Pfam | PF12796; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000186352-ANKRD37/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| HIF1AN | Intact | false |
+| ZNF76 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

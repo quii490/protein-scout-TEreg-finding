@@ -186,6 +186,23 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/ESRP2/ESRP2-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9H6T0 |
+| SMART | SM00360; |
+| UniProt Domain [FT] | DOMAIN 257..353; /note="RRM 1"; DOMAIN 358..438; /note="RRM 2"; DOMAIN 475..555; /note="RRM 3" |
+| InterPro | IPR050666;IPR012677;IPR035979;IPR012337;IPR036397;IPR000504; |
+| Pfam | 未检出 |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000103067-ESRP2/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| HSPA8 | Intact, Biogrid | true |
+| HSP90B1 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

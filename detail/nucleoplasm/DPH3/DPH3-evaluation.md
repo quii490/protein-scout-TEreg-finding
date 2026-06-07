@@ -173,3 +173,25 @@ status: scored
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q96FX2
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96FX2 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 4..60; /note="DPH-type MB"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00456" |
+| InterPro | IPR044248;IPR007872;IPR036671; |
+| Pfam | PF05207; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000154813-DPH3/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| SERGEF | Intact, Biogrid | true |
+| PIH1D2 | Intact | false |
+| ZNF438 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

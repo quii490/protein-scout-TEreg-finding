@@ -102,3 +102,30 @@ NSA2 是一个文献量极低（strict=14）、结构验证充分（PDB 28 个 p
 
 ![](https://alphafold.ebi.ac.uk/files/AF-O95478-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O95478 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR039411;IPR022309; |
+| Pfam | PF01201; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000164346-NSA2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| NLE1 | Biogrid, Bioplex | true |
+| RPL13 | Biogrid, Bioplex | true |
+| ABT1 | Bioplex | false |
+| APOBEC3D | Bioplex | false |
+| ATP6V1B2 | Opencell | false |
+| CD9 | Opencell | false |
+| CGAS | Biogrid | false |
+| GAPDH | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

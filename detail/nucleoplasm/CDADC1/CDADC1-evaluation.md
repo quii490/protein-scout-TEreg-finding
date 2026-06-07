@@ -186,3 +186,21 @@ STRING 15 个预测互作，IntAct 12 个实验互作。调控相关配体占比
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q9BWV3-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9BWV3 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 70..168; /note="CMP/dCMP-type deaminase 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01083"; DOMAIN 317..482; /note="CMP/dCMP-type deaminase 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01083" |
+| InterPro | IPR016192;IPR002125;IPR016193;IPR015517;IPR035105; |
+| Pfam | PF00383; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000102543-CDADC1/interaction
+
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

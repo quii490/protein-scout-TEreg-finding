@@ -187,6 +187,29 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nuclear-body/ETAA1/ETAA1-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9NY74 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR029406; |
+| Pfam | PF15350; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000143971-ETAA1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ATR | Biogrid | false |
+| ATRIP | Biogrid | false |
+| BLM | Biogrid | false |
+| BRCA1 | Biogrid | false |
+| BRCA2 | Biogrid | false |
+| HLTF | Biogrid | false |
+| HSPA4 | Opencell | false |
+| RPA1 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

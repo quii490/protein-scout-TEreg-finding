@@ -199,3 +199,27 @@ HPA IF图像可在线获取(Approved, Nucleoplasm+Nuclear membrane)，未下载�
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q9H9L7-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9H9L7 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR024132; |
+| Pfam | 未检出 |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000174574-AKIRIN1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| AKIRIN2 | Biogrid, Bioplex | true |
+| GOPC | Intact | false |
+| PSMA2 | Bioplex | false |
+| PSMA6 | Opencell | false |
+| PSMB7 | Opencell | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

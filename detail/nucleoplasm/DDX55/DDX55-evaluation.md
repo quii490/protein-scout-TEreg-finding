@@ -179,3 +179,30 @@ PAE image data not yet available (local image not generated or not reliably fetc
 ![](https://images.proteinatlas.org/39962/1276_H6_4_red_green.jpg)
 ![](https://images.proteinatlas.org/39962/1276_H6_5_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8NHQ9 |
+| SMART | SM00487;SM01178;SM00490; |
+| UniProt Domain [FT] | DOMAIN 40..223; /note="Helicase ATP-binding"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00541"; DOMAIN 254..402; /note="Helicase C-terminal"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00542" |
+| InterPro | IPR011545;IPR014001;IPR001650;IPR027417;IPR000629;IPR014014;IPR025313; |
+| Pfam | PF13959;PF00270;PF00271; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000111364-DDX55/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| AGTRAP | Intact | false |
+| CALM2 | Opencell | false |
+| CALM3 | Opencell | false |
+| CRLF3 | Bioplex | false |
+| DDX56 | Biogrid | false |
+| FGFBP1 | Bioplex | false |
+| H1-4 | Bioplex | false |
+| H2BC8 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

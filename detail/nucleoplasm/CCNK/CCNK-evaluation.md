@@ -183,6 +183,29 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CCNK/CCNK-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O75909 |
+| SMART | SM00385;SM01332; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR013763;IPR036915;IPR043198;IPR004367;IPR006671; |
+| Pfam | PF00134;PF21797; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000090061-CCNK/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ATXN1 | Intact, Biogrid | true |
+| CDK12 | Intact, Biogrid, Opencell | true |
+| CDK13 | Intact, Biogrid, Opencell | true |
+| RBPMS | Intact, Biogrid | true |
+| BHLHE40 | Intact | false |
+| CDK9 | Biogrid | false |
+| DDB1 | Biogrid | false |
+| LZTS2 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

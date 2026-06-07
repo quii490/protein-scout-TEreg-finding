@@ -227,3 +227,30 @@ HPA IF 图像已本地嵌入。
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q53H80-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q53H80 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR024132; |
+| Pfam | 未检出 |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000135334-AKIRIN2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| AKIRIN1 | Biogrid, Bioplex | true |
+| IPO9 | Biogrid, Bioplex | true |
+| PSMA2 | Biogrid, Bioplex | true |
+| PSMC4 | Biogrid, Opencell | true |
+| RAN | Biogrid, Opencell | true |
+| SPG21 | Intact, Biogrid | true |
+| DHX16 | Bioplex | false |
+| HNRNPF | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

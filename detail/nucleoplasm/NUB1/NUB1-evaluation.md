@@ -185,6 +185,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/NUB1/NUB1-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9Y5A7 |
+| SMART | SM00165; |
+| UniProt Domain [FT] | DOMAIN 374..413; /note="UBA 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00212"; DOMAIN 424..470; /note="UBA 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00212"; DOMAIN 489..529; /note="UBA 3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00212" |
+| InterPro | IPR039749;IPR041207;IPR058666;IPR011990;IPR015940;IPR009060;IPR029071; |
+| Pfam | PF26285;PF00627;PF18037; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000013374-NUB1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| AIPL1 | Intact, Biogrid | true |
+| TERF1 | Intact, Biogrid | true |
+| UBD | Intact, Biogrid | true |
+| NEDD8 | Biogrid | false |
+| PSMC5 | Opencell | false |
+| PSMD2 | Biogrid | false |
+| PSMD4 | Biogrid | false |
+| SF3B4 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

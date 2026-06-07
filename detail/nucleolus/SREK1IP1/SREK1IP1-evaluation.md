@@ -125,6 +125,29 @@ HPA 免疫荧光（IF）实验数据确认 SREK1IP1 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8N9Q2 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR001878; |
+| Pfam | PF13917; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000153006-SREK1IP1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| AGPAT3 | Intact | false |
+| BPIFA1 | Bioplex | false |
+| C4orf45 | Intact | false |
+| CCNL1 | Intact | false |
+| CSNK2A1 | Bioplex | false |
+| CSNK2A2 | Bioplex | false |
+| CSNK2B | Bioplex | false |
+| CT45A1 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

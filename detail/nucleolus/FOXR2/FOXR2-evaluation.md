@@ -183,4 +183,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleolus/FOXR2/FOXR2-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q6PJQ5 |
+| SMART | SM00339; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR001766;IPR052328;IPR036388;IPR036390; |
+| Pfam | PF00250; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000189299-FOXR2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ARNT | Biogrid | false |
+| CCNC | Intact | false |
+| EP400 | Biogrid | false |
+| KRT76 | Intact | false |
+| MAX | Biogrid | false |
+| MYC | Biogrid | false |
+| PEF1 | Intact | false |
+| POLR1C | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -188,6 +188,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/BCL7A/BCL7A-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q4VC05 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR006804; |
+| Pfam | PF04714; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000110987-BCL7A/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ACTL6A | Biogrid | false |
+| ALAS1 | Intact | false |
+| ARID1A | Biogrid | false |
+| ARID1B | Biogrid | false |
+| ARID2 | Biogrid | false |
+| BCL7C | Biogrid | false |
+| BRD7 | Biogrid | false |
+| BRD9 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

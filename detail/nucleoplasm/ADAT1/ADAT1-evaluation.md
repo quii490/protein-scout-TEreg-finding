@@ -189,4 +189,20 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/ADAT1/ADAT1-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9BUB4 |
+| SMART | SM00552; |
+| UniProt Domain [FT] | DOMAIN 63..501; /note="A to I editase"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00240" |
+| InterPro | IPR002466; |
+| Pfam | PF02137; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000065457-ADAT1/interaction
+
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

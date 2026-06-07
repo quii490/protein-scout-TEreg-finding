@@ -116,6 +116,29 @@ HPA 免疫荧光（IF）实验数据确认 PEF1 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9UBV8 |
+| SMART | SM00054; |
+| UniProt Domain [FT] | DOMAIN 114..149; /note="EF-hand 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00448"; DOMAIN 155..183; /note="EF-hand 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00448"; DOMAIN 181..216; /note="EF-hand 3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00448"; DOMAIN 217..253; /note="EF-hand 4"; /evidence="ECO:0000305"; DOMAIN 254..283; /note="EF-hand 5"; /evidence="ECO:0000305" |
+| InterPro | IPR011992;IPR018247;IPR002048;IPR051426; |
+| Pfam | PF13405;PF13499; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000162517-PEF1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| KLHL12 | Intact, Biogrid | true |
+| NUDCD3 | Biogrid, Bioplex | true |
+| PDCD6 | Intact, Biogrid, Opencell, Bioplex | true |
+| AKAP8L | Intact | false |
+| BAG3 | Biogrid | false |
+| BAG4 | Intact | false |
+| BPIFA1 | Intact | false |
+| C11orf1 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

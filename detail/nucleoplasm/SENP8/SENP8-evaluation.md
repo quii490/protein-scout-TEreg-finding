@@ -155,3 +155,29 @@ High-confidence interactors (score >= 0.7): 15. Total STRING interactions: 15. I
 - STRING: https://string-db.org/ (search SENP8)
 - IntAct: https://www.ebi.ac.uk/intact/ (search SENP8)
 - Harvest packet: SENP8.json
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96LD8 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR044613;IPR038765;IPR003653; |
+| Pfam | PF02902; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000166192-SENP8/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| AKIP1 | Biogrid | false |
+| CHN2 | Intact | false |
+| COPS2 | Biogrid | false |
+| CUL1 | Biogrid | false |
+| CUL4A | Biogrid | false |
+| NEDD8 | Biogrid | false |
+| NSF | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -184,3 +184,30 @@ status: scored
 ![](https://images.proteinatlas.org/44547/512_F7_1_red_green.jpg)
 ![](https://images.proteinatlas.org/44547/512_F7_3_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9UM13 |
+| SMART | SM01337; |
+| UniProt Domain [FT] | DOMAIN 2..185; /note="DOC"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00614" |
+| InterPro | IPR016901;IPR004939;IPR008979; |
+| Pfam | PF03256; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000164162-ANAPC10/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ANAPC1 | Intact, Biogrid | true |
+| ANAPC16 | Intact, Biogrid, Opencell, Bioplex | true |
+| ANAPC2 | Intact, Biogrid, Opencell | true |
+| ANAPC4 | Biogrid, Opencell | true |
+| ANAPC5 | Biogrid, Bioplex | true |
+| CDC16 | Intact, Biogrid, Opencell | true |
+| CDC20 | Intact, Biogrid | true |
+| CDC23 | Biogrid, Opencell | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

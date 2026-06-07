@@ -191,6 +191,29 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nuclear-body/ERCC8/ERCC8-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q13216 |
+| SMART | SM00320; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR042238;IPR015943;IPR020472;IPR019775;IPR036322;IPR001680; |
+| Pfam | PF00400; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000049167-ERCC8/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| DDB1 | Biogrid, Opencell | true |
+| XAB2 | Intact, Biogrid | true |
+| CCT2 | Biogrid | false |
+| CCT3 | Biogrid | false |
+| CCT4 | Biogrid | false |
+| CCT5 | Biogrid | false |
+| CCT6A | Biogrid | false |
+| CCT8 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

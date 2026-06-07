@@ -234,3 +234,30 @@ AGFG1 是一个研究极新的蛋白 (PubMed 14)，具有独特的 FG repeat + A
 
 ![](https://alphafold.ebi.ac.uk/files/AF-P52594-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P52594 |
+| SMART | SM00105; |
+| UniProt Domain [FT] | DOMAIN 11..135; /note="Arf-GAP"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00288" |
+| InterPro | IPR052248;IPR037278;IPR001164;IPR038508; |
+| Pfam | PF01412; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000173744-AGFG1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| EPS15 | Intact, Biogrid | true |
+| EGFR | Biogrid | false |
+| FCHO1 | Biogrid | false |
+| NYAP2 | Intact | false |
+| OGT | Biogrid | false |
+| POLE2 | Intact | false |
+| RAB11A | Biogrid | false |
+| VAMP7 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

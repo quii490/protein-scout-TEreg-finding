@@ -177,6 +177,29 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleolus/DHX33/DHX33-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9H6R0 |
+| SMART | SM00487;SM00847;SM00490; |
+| UniProt Domain [FT] | DOMAIN 84..252; /note="Helicase ATP-binding"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00541"; DOMAIN 277..450; /note="Helicase C-terminal"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00542" |
+| InterPro | IPR011709;IPR011545;IPR002464;IPR048333;IPR007502;IPR014001;IPR001650;IPR027417; |
+| Pfam | PF00270;PF21010;PF00271;PF07717;PF04408; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000005100-DHX33/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| USP36 | Intact, Biogrid, Opencell | true |
+| FKBP5 | Opencell | false |
+| MRPL38 | Bioplex | false |
+| MYC | Biogrid | false |
+| NOP56 | Biogrid | false |
+| NUDCD1 | Biogrid | false |
+| POLR3K | Bioplex | false |
+| RPS6 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

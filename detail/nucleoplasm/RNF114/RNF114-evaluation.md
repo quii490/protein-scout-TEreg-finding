@@ -164,3 +164,30 @@ RNF114 is 228 amino acids in length, well within the ideal 200-800 aa range for 
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9Y508
 - InterPro: https://www.ebi.ac.uk/interpro/protein/Q9Y508/
 - Note: Harvest packet not available; data compiled from UniProt and literature database queries
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9Y508 |
+| SMART | SM00184; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR008598;IPR042716;IPR051438;IPR034734;IPR027370;IPR001841;IPR013083;IPR017907; |
+| Pfam | PF05605;PF13445;PF18574; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000124226-RNF114/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| UBE2D1 | Intact, Biogrid | true |
+| UBE2D2 | Intact, Biogrid | true |
+| XAF1 | Intact, Biogrid | true |
+| HOXD10 | Bioplex | false |
+| HSPA5 | Biogrid | false |
+| KAT5 | Intact | false |
+| LHFPL4 | Bioplex | false |
+| MAVS | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

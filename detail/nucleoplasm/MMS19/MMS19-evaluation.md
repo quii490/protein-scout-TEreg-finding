@@ -221,3 +221,30 @@ nuclear_score: 7
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q96T76-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96T76 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR011989;IPR016024;IPR039920;IPR024687;IPR029240; |
+| Pfam | PF12460;PF14500; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000155229-MMS19/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| BRIP1 | Intact, Biogrid | true |
+| CIAO1 | Intact, Biogrid, Bioplex | true |
+| CIAO2B | Intact, Biogrid, Bioplex | true |
+| CIAO3 | Intact, Biogrid | true |
+| DNA2 | Biogrid, Bioplex | true |
+| ERCC2 | Intact, Biogrid | true |
+| MYC | Intact, Biogrid | true |
+| POLD1 | Intact, Biogrid | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

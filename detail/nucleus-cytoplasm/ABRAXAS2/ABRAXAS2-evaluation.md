@@ -230,3 +230,30 @@ The original Excel listed ABRAXAS2 as HPA="Nucleoplasm" with nuclear_score=3, bu
 ![](https://images.proteinatlas.org/74089/2176_A8_38_blue_red_green.jpg)
 ![](https://images.proteinatlas.org/74089/2176_A8_44_blue_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q15018 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 3..149; /note="MPN"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01182" |
+| InterPro | IPR023240;IPR023238;IPR037518; |
+| Pfam | PF21125; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000165660-ABRAXAS2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| BABAM2 | Intact, Biogrid, Bioplex | true |
+| BRCC3 | Intact, Biogrid | true |
+| SHMT2 | Biogrid, Bioplex | true |
+| ATF4 | Biogrid | false |
+| BABAM1 | Biogrid | false |
+| BSPRY | Bioplex | false |
+| DCUN1D1 | Intact | false |
+| GTPBP1 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -171,3 +171,24 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q9Y4K1-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9Y4K1 |
+| SMART | SM00458;SM00247; |
+| UniProt Domain [FT] | DOMAIN 1430..1469; /note="Beta/gamma crystallin 'Greek key' 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00028"; DOMAIN 1470..1525; /note="Beta/gamma crystallin 'Greek key' 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00028"; DOMAIN 1531..1571; /note="Beta/gamma crystallin 'Greek key' 3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00028"; DOMAIN 1572..1614; /note="Beta/gamma crystallin 'Greek key' 4"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00028"; DOMAIN 1626..1678; /note="Beta/gamma crystallin 'Greek key' 5"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00028"; DOMAIN 1679..1721; /note="Beta/gamma crystallin 'Greek key' 6"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00028"; DOMAIN 1727..1769; /note="Beta/gamma crystallin 'Greek key' 7"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00028"; DOMAIN 1770..1812; /note="Beta/gamma crystallin 'Greek key' 8"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00028"; DOMAIN 1823..1860; /note="Beta/gamma crystallin 'Greek key' 9"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00028"; DOMAIN 1861..1904; /note="Beta/gamma crystallin 'Greek key' 10"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00028"; DOMAIN 1910..1950; /note="Beta/gamma crystallin 'Greek key' 11"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00028"; DOMAIN 1951..1992; /note="Beta/gamma crystallin 'Greek key' 12"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00028"; DOMAIN 1994..2127; /note="Ricin B-type lectin"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00174" |
+| InterPro | IPR050252;IPR001064;IPR011024;IPR035992;IPR000772; |
+| Pfam | PF00030;PF00652; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000112297-CRYBG1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| NEFM | Biogrid | false |
+| STK4 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

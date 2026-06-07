@@ -190,3 +190,24 @@ HPA IF 图像已本地嵌入。
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q02108-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q02108 |
+| SMART | SM00044; |
+| UniProt Domain [FT] | DOMAIN 481..608; /note="Guanylate cyclase"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00099" |
+| InterPro | IPR001054;IPR018297;IPR038158;IPR011645;IPR042463;IPR024096;IPR029787; |
+| Pfam | PF00211;PF07701; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000164116-GUCY1A1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| AGAP1 | Biogrid | false |
+| GUCY1B1 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

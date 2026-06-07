@@ -185,3 +185,27 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q8TDY4-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8TDY4 |
+| SMART | SM00248;SM00105;SM00233; |
+| UniProt Domain [FT] | DOMAIN 302..394; /note="PH"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00145"; DOMAIN 426..551; /note="Arf-GAP"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00288" |
+| InterPro | IPR027267;IPR002110;IPR036770;IPR037278;IPR001164;IPR038508;IPR043593;IPR047006;IPR028775;IPR004148;IPR011993;IPR037844;IPR001849; |
+| Pfam | PF12796;PF01412;PF16746;PF00169; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000088280-ASAP3/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CRK | Intact, Biogrid | true |
+| PDZD3 | Intact | false |
+| REL | Intact | false |
+| TEPSIN | Intact | false |
+| TFCP2 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -162,3 +162,26 @@ PADI6 是 cytoplasmic lattice 的结构组分，在早期胚胎发育中起关�
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q6TGC4-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q6TGC4 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR008972;IPR004303;IPR013530;IPR036556;IPR013732;IPR038685;IPR013733; |
+| Pfam | PF03068;PF08527;PF08526; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000276747-PADI6/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| DDIT4L | Intact | false |
+| KLHL2 | Intact | false |
+| SUV39H1 | Intact | false |
+| ZNF526 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

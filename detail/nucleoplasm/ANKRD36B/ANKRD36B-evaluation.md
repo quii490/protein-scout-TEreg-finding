@@ -63,3 +63,23 @@ STRING: ANKRD36 (0.983, exp 0.092)、ANKRD36C (0.896, exp 0.279)、ANKRD39 (0.67
 ![](https://images.proteinatlas.org/57661/1060_F6_1_red_green.jpg)
 ![](https://images.proteinatlas.org/57661/1060_F6_3_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8N2N9 |
+| SMART | SM00248; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR050657;IPR002110;IPR036770;IPR039497; |
+| Pfam | PF12796;PF14915; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000196912-ANKRD36B/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| FAM9B | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

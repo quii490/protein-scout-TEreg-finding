@@ -165,3 +165,21 @@ RNF113B is 322 amino acids in length, placing it well within the ideal 200-800 a
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8IZP6
 - InterPro: https://www.ebi.ac.uk/interpro/protein/Q8IZP6/
 - Note: Harvest packet not available; data compiled from UniProt and literature database queries
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8IZP6 |
+| SMART | SM00184;SM00356; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR039971;IPR000571;IPR036855;IPR001841;IPR013083;IPR017907; |
+| Pfam | PF13920;PF00642; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000139797-RNF113B/interaction
+
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

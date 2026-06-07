@@ -166,3 +166,21 @@ status: scored
 
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CENPBD1/CENPBD1-PAE.png]]
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | B2RD01 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 13..64; /note="HTH psq-type"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00320"; DOMAIN 78..155; /note="HTH CENPB-type"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00583" |
+| InterPro | IPR009057;IPR006600;IPR007889;IPR036388; |
+| Pfam | PF04218;PF03221; |
+
+### humanPPI / HPA Interaction
+Source: 未找到 HPA interaction 页面
+
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

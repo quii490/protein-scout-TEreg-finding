@@ -184,4 +184,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nuclear-speckle/NIP7/NIP7-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9Y221 |
+| SMART | SM00359; |
+| UniProt Domain [FT] | DOMAIN 94..170; /note="PUA"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00161" |
+| InterPro | IPR040598;IPR055359;IPR002478;IPR015947;IPR036974;IPR016686;IPR005155; |
+| Pfam | PF17833;PF03657; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000132603-NIP7/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| NOP2 | Intact, Biogrid | true |
+| ANLN | Biogrid | false |
+| CRX | Intact | false |
+| DDX24 | Biogrid | false |
+| LZTS2 | Intact | false |
+| NOL8 | Biogrid | false |
+| OPTN | Intact | false |
+| RBM28 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

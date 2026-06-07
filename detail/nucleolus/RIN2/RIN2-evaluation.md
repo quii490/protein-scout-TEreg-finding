@@ -116,6 +116,22 @@ HPA 免疫荧光（IF）实验数据确认 RIN2 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8WYP3 |
+| SMART | SM00314;SM00167; |
+| UniProt Domain [FT] | DOMAIN 97..190; /note="SH2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00191"; DOMAIN 618..757; /note="VPS9"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00550"; DOMAIN 787..878; /note="Ras-associating"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00166" |
+| InterPro | IPR000159;IPR035868;IPR000980;IPR036860;IPR029071;IPR003123;IPR045046;IPR037191; |
+| Pfam | PF00788;PF23268;PF02204; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000132669-RIN2/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| RAB5B | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

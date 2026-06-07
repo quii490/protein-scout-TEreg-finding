@@ -106,3 +106,30 @@ MYADM 是一个有趣的矛盾案例：UniProt 和 GO-CC 主要支持其为膜/�
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q96S97-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96S97 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 31..163; /note="MARVEL 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00581"; DOMAIN 168..319; /note="MARVEL 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00581" |
+| InterPro | IPR008253;IPR047123; |
+| Pfam | PF01284; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000179820-MYADM/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| TGFBR2 | Biogrid, Bioplex | true |
+| ACVR1 | Bioplex | false |
+| ANLN | Biogrid | false |
+| ARF6 | Intact | false |
+| C16orf92 | Intact | false |
+| CACNG4 | Bioplex | false |
+| CD7 | Bioplex | false |
+| CD79A | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

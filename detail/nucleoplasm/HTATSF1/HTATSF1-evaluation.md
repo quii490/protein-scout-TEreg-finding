@@ -116,6 +116,29 @@ HPA 免疫荧光（IF）实验数据确认 HTATSF1 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O43719 |
+| SMART | SM00360; |
+| UniProt Domain [FT] | DOMAIN 133..218; /note="RRM 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00176"; DOMAIN 264..349; /note="RRM 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00176" |
+| InterPro | IPR012677;IPR035979;IPR000504;IPR034393;IPR034392; |
+| Pfam | PF00076; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000102241-HTATSF1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| SF3A2 | Intact, Biogrid, Opencell | true |
+| SNRPB | Intact, Biogrid, Opencell | true |
+| SNRPB2 | Biogrid, Opencell, Bioplex | true |
+| SNRPD2 | Biogrid, Opencell | true |
+| SNRPF | Biogrid, Opencell, Bioplex | true |
+| AP3D1 | Biogrid | false |
+| BRD4 | Biogrid | false |
+| HDAC6 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

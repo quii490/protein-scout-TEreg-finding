@@ -69,3 +69,30 @@ PDB 结构覆盖度好（N 端 + C 端均有实验结构），推荐作为结构
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q9H9E1-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9H9E1 |
+| SMART | SM00248; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR002110;IPR036770; |
+| Pfam | PF00023;PF12796; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000164331-ANKRA2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CCDC8 | Intact, Biogrid | true |
+| HDAC4 | Intact, Biogrid | true |
+| HDAC5 | Intact, Biogrid | true |
+| RFX7 | Intact, Biogrid | true |
+| CUL7 | Biogrid | false |
+| LRP2 | Biogrid | false |
+| NEK6 | Biogrid | false |
+| RFX5 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

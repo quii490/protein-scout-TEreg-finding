@@ -187,6 +187,29 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nuclear-body/EIF4H/EIF4H-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q15056 |
+| SMART | SM00360; |
+| UniProt Domain [FT] | DOMAIN 42..118; /note="RRM"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00176" |
+| InterPro | IPR034229;IPR012677;IPR035979;IPR000504; |
+| Pfam | PF00076; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000106682-EIF4H/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| BTF3 | Biogrid, Opencell | true |
+| C11orf68 | Intact | false |
+| EIF4A1 | Intact, Biogrid | false |
+| EWSR1 | Biogrid | false |
+| GDI2 | Opencell | false |
+| LNX1 | Intact | false |
+| PKMYT1 | Opencell | false |
+| SAR1B | Opencell | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

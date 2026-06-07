@@ -197,3 +197,25 @@ status: scored
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CCDC61
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9Y6R9
 - STRING: https://string-db.org/cgi/network?identifiers=CCDC61&species=9606
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9Y6R9 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR049733; |
+| Pfam | 未检出 |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000104983-CCDC61/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CEP131 | Intact | false |
+| CEP170 | Intact | false |
+| PCM1 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -214,6 +214,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleolus/ARID5A/ARID5A-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q03989 |
+| SMART | SM01014;SM00501; |
+| UniProt Domain [FT] | DOMAIN 55..147; /note="ARID"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00355" |
+| InterPro | IPR051232;IPR001606;IPR036431; |
+| Pfam | PF01388; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000196843-ARID5A/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ATXN1 | Intact, Biogrid | true |
+| ESR1 | Intact, Biogrid | true |
+| ATP6V0D2 | Intact | false |
+| ATXN1L | Intact | false |
+| BAG4 | Intact | false |
+| BAHD1 | Intact | false |
+| C14orf119 | Intact | false |
+| CAMK2A | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

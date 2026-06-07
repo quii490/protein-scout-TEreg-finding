@@ -176,3 +176,21 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q5TA45-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q5TA45 |
+| SMART | SM01027;SM00849; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR022712;IPR041897;IPR048662;IPR050698;IPR001279;IPR036866;IPR011108; |
+| Pfam | PF10996;PF21386;PF16661;PF07521; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000127054-CPSF3L/interaction
+
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

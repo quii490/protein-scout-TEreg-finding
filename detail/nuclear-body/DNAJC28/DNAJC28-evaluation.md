@@ -177,6 +177,22 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nuclear-body/DNAJC28/DNAJC28-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9NX36 |
+| SMART | SM00271; |
+| UniProt Domain [FT] | DOMAIN 51..115; /note="J"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00286" |
+| InterPro | IPR052573;IPR001623;IPR018961;IPR036869; |
+| Pfam | PF09350;PF00226; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000177692-DNAJC28/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| IARS2 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

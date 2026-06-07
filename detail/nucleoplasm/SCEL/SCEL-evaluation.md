@@ -159,3 +159,28 @@ High-confidence interactors (score >= 0.7): 4. Total STRING interactions: 15. In
 - STRING: https://string-db.org/ (search SCEL)
 - IntAct: https://www.ebi.ac.uk/intact/ (search SCEL)
 - Harvest packet: SCEL.json
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O95171 |
+| SMART | SM00132; |
+| UniProt Domain [FT] | DOMAIN 619..685; /note="LIM zinc-binding"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00125" |
+| InterPro | IPR052621;IPR001781; |
+| Pfam | 未检出 |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000136155-SCEL/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| FXR2 | Intact | false |
+| GOLGA2 | Intact | false |
+| KIFC3 | Intact | false |
+| MTUS2 | Intact | false |
+| NMI | Intact | false |
+| TSGA10 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

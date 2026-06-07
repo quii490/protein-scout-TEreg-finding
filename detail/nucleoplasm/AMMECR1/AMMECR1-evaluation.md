@@ -107,4 +107,28 @@ HPA IF 图像已本地嵌入。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/AMMECR1/AMMECR1-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9Y4X0 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 119..313; /note="AMMECR1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00467" |
+| InterPro | IPR023473;IPR036071;IPR002733;IPR027485; |
+| Pfam | PF01871; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000101935-AMMECR1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| EFEMP2 | Intact, Biogrid | true |
+| AXIN2 | Intact | false |
+| CALCOCO2 | Intact | false |
+| KRTAP10-8 | Intact | false |
+| LRP6 | Intact | false |
+| RBPMS | Intact | false |
+| TRIM27 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

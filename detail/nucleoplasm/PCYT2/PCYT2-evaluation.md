@@ -116,6 +116,28 @@ HPA 免疫荧光（IF）实验数据确认 PCYT2 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q99447 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR041723;IPR004821;IPR044608;IPR014729; |
+| Pfam | PF01467; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000185813-PCYT2/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CASP6 | Intact | false |
+| CLVS2 | Intact | false |
+| INCA1 | Intact | false |
+| INPPL1 | Intact, Bioplex | false |
+| PSMA1 | Intact | false |
+| RIPPLY1 | Bioplex | false |
+| SLC35G2 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

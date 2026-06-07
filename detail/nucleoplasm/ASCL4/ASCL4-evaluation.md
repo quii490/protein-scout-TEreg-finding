@@ -164,3 +164,30 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/ASCL4/ASCL4-PAE.png]]
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q6XD76 |
+| SMART | SM00353; |
+| UniProt Domain [FT] | DOMAIN 72..124; /note="bHLH"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00981" |
+| InterPro | IPR011598;IPR050283;IPR036638; |
+| Pfam | PF00010; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000187855-ASCL4/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ID2 | Intact, Biogrid, Bioplex | true |
+| TCF12 | Intact, Biogrid | true |
+| ACTA1 | Intact | false |
+| ARAP3 | Bioplex | false |
+| ATP1A3 | Intact | false |
+| CASP6 | Intact | false |
+| CCK | Intact | false |
+| CYCS | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -179,3 +179,30 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q5HYK3-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q5HYK3 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR029063;IPR004033;IPR023576; |
+| Pfam | PF01209; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000110871-COQ5/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| COQ4 | Intact, Biogrid | true |
+| COQ6 | Intact, Biogrid | true |
+| COQ9 | Intact, Biogrid | true |
+| ALOX12B | Bioplex | false |
+| APLNR | Bioplex | false |
+| CD70 | Bioplex | false |
+| COQ3 | Intact | false |
+| COQ7 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -151,3 +151,24 @@ RCBTB1 is 531 amino acids in length, placing it well within the ideal range for 
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8NDN9
 - STRING: https://string-db.org/network/9606.ENSP00000365833
 - Note: Harvest packet not available for this gene; data compiled from web database queries
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8NDN9 |
+| SMART | SM00225; |
+| UniProt Domain [FT] | DOMAIN 370..437; /note="BTB 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00037"; DOMAIN 470..499; /note="BTB 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00037" |
+| InterPro | IPR000210;IPR047996;IPR058923;IPR009091;IPR000408;IPR051625;IPR011333; |
+| Pfam | PF00651;PF25390; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000136144-RCBTB1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ANKRD40 | Intact | false |
+| CUL3 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

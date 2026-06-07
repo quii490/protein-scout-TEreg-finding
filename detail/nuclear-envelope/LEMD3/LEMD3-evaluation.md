@@ -174,4 +174,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nuclear-envelope/LEMD3/LEMD3-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9Y2U8 |
+| SMART | SM00540; |
+| UniProt Domain [FT] | DOMAIN 6..50; /note="LEM"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00313" |
+| InterPro | IPR052277;IPR011015;IPR003887;IPR018996;IPR034394;IPR041885;IPR012677;IPR035979; |
+| Pfam | PF03020;PF09402; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000174106-LEMD3/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| SMAD1 | Intact, Biogrid | true |
+| SMAD2 | Intact, Biogrid | true |
+| SMAD3 | Intact, Biogrid, Bioplex | true |
+| SMAD9 | Intact, Biogrid | true |
+| TMPO | Biogrid, Opencell | true |
+| ALK | Biogrid | false |
+| ARF6 | Biogrid | false |
+| ATP2A1 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

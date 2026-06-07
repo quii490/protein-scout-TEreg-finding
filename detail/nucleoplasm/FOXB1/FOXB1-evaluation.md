@@ -186,4 +186,26 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/FOXB1/FOXB1-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q99853 |
+| SMART | SM00339; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR001766;IPR050211;IPR047389;IPR018122;IPR030456;IPR036388;IPR036390; |
+| Pfam | PF00250; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000171956-FOXB1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| KRT31 | Intact | false |
+| KRT40 | Intact | false |
+| KRTAP10-8 | Intact | false |
+| NOTCH2NLA | Intact | false |
+| TRIM27 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

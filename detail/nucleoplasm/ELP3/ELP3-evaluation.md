@@ -180,6 +180,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/ELP3/ELP3-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9H9T3 |
+| SMART | SM00729; |
+| UniProt Domain [FT] | DOMAIN 82..372; /note="Radical SAM core"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01266"; DOMAIN 396..547; /note="N-acetyltransferase"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00532" |
+| InterPro | IPR016181;IPR039661;IPR034687;IPR056591;IPR006638;IPR000182;IPR032432;IPR007197;IPR058240; |
+| Pfam | PF23613;PF04055;PF16199; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000134014-ELP3/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ELP1 | Intact, Biogrid | true |
+| CCNF | Biogrid | false |
+| CIAO1 | Biogrid | false |
+| DUSP9 | Biogrid | false |
+| ELP2 | Biogrid | false |
+| ELP4 | Biogrid | false |
+| ELP6 | Biogrid | false |
+| KTI12 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

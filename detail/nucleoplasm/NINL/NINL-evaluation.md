@@ -116,6 +116,29 @@ HPA 免疫荧光（IF）实验数据确认 NINL 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9Y2I6 |
+| SMART | SM00054; |
+| UniProt Domain [FT] | DOMAIN 7..42; /note="EF-hand 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00448"; DOMAIN 41..76; /note="EF-hand 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00448"; DOMAIN 196..231; /note="EF-hand 3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00448"; DOMAIN 233..268; /note="EF-hand 4"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00448" |
+| InterPro | IPR011992;IPR018247;IPR002048; |
+| Pfam | PF13499; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000101004-NINL/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| LZTS2 | Intact, Biogrid | true |
+| MCM10 | Intact, Biogrid | true |
+| RCOR3 | Intact, Biogrid | true |
+| RGS2 | Intact, Biogrid | true |
+| ACTR1A | Biogrid | false |
+| AHI1 | Biogrid | false |
+| ARHGAP21 | Biogrid | false |
+| AURKB | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

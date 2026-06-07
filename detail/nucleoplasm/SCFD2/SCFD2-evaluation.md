@@ -153,3 +153,25 @@ High-confidence interactors (score >= 0.7): 10. Total STRING interactions: 15. I
 - STRING: https://string-db.org/ (search SCFD2)
 - IntAct: https://www.ebi.ac.uk/intact/ (search SCFD2)
 - Harvest packet: SCFD2.json
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8WU76 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR001619;IPR027482;IPR036045; |
+| Pfam | PF00995; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000184178-SCFD2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| SCFD1 | Biogrid, Opencell | true |
+| STX18 | Biogrid, Opencell | true |
+| NAPA | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

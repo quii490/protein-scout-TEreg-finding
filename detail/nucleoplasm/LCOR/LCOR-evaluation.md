@@ -169,6 +169,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/LCOR/LCOR-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96JN0 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 340..392; /note="HTH psq-type"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00320" |
+| InterPro | IPR009057;IPR007889; |
+| Pfam | PF05225; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000196233-LCOR/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CCT2 | Intact, Biogrid | true |
+| CTBP1 | Intact, Biogrid, Opencell | true |
+| CTBP2 | Intact, Biogrid, Opencell | true |
+| AR | Biogrid | false |
+| EED | Biogrid | false |
+| ESR1 | Biogrid | false |
+| EZH1 | Biogrid | false |
+| EZH2 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

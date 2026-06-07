@@ -181,3 +181,24 @@ status: rejected
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9Y6V0
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9Y6V0 |
+| SMART | SM00239;SM00228; |
+| UniProt Domain [FT] | DOMAIN 4496..4590; /note="PDZ"; DOMAIN 4694..4823; /note="C2 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00041"; DOMAIN 5007..5132; /note="C2 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00041" |
+| InterPro | IPR000008;IPR035892;IPR042720;IPR001478;IPR036034;IPR052098;IPR011011;IPR008899;IPR013083; |
+| Pfam | PF00168;PF00595;PF05715; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000186472-PCLO/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| GIT1 | Biogrid | false |
+| SNCA | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

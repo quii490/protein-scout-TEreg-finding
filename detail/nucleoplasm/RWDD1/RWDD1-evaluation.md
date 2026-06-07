@@ -141,3 +141,27 @@ RWDD1 has a focused but functionally relevant interaction network centered on nu
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=RWDD1
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=RWDD1
 - Note: Harvest packet not available; data compiled from UniProt, OMIM, and literature database queries
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9H446 |
+| SMART | SM00591; |
+| UniProt Domain [FT] | DOMAIN 10..114; /note="RWD"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00179" |
+| InterPro | IPR040213;IPR006575;IPR016135;IPR032378; |
+| Pfam | PF16543;PF05773; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000111832-RWDD1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| DRG1 | Intact, Biogrid | true |
+| DRG2 | Intact, Biogrid | true |
+| DNAJC1 | Biogrid | false |
+| DNAJC2 | Biogrid | false |
+| HSPA14 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

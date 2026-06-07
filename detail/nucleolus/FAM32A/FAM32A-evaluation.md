@@ -117,6 +117,23 @@ HPA 免疫荧光（IF）实验数据确认 FAM32A 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9Y421 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR013865; |
+| Pfam | PF08555; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000105058-FAM32A/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CWC22 | Intact, Biogrid | true |
+| MYC | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

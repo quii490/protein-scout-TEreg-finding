@@ -203,6 +203,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleolus/AFF4/AFF4-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9UHB7 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR007797;IPR043640;IPR043639; |
+| Pfam | PF05110;PF18875;PF18876; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000072364-AFF4/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CCNT1 | Intact, Biogrid, Bioplex | true |
+| EAF1 | Biogrid, Bioplex | true |
+| ELL | Biogrid, Bioplex | true |
+| ELL2 | Biogrid, Bioplex | true |
+| MLLT1 | Intact, Biogrid, Bioplex | true |
+| MLLT3 | Intact, Biogrid | true |
+| SIAH1 | Intact, Biogrid | true |
+| TRAF2 | Intact, Biogrid | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

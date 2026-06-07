@@ -191,6 +191,29 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleolus/EXOSC8/EXOSC8-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96B26 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR001247;IPR015847;IPR036345;IPR050590;IPR027408;IPR020568;IPR033196; |
+| Pfam | PF01138;PF03725; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000120699-EXOSC8/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| DIS3 | Intact, Biogrid | true |
+| EXOSC1 | Intact, Biogrid, Bioplex | true |
+| EXOSC10 | Intact, Biogrid | true |
+| EXOSC2 | Biogrid, Bioplex | true |
+| EXOSC3 | Intact, Biogrid, Bioplex | true |
+| EXOSC4 | Biogrid, Bioplex | true |
+| EXOSC5 | Intact, Biogrid, Bioplex | true |
+| EXOSC7 | Biogrid, Bioplex | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

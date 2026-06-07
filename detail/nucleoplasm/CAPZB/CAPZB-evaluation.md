@@ -116,6 +116,29 @@ HPA 免疫荧光（IF）实验数据确认 CAPZB 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P47756 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR037282;IPR042276;IPR001698;IPR043175;IPR019771; |
+| Pfam | PF01115; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000077549-CAPZB/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ACTB | Biogrid, Opencell | true |
+| ACTC1 | Biogrid, Opencell | true |
+| ACTG1 | Biogrid, Opencell | true |
+| ACTR10 | Biogrid, Opencell | true |
+| ACTR1A | Biogrid, Opencell | true |
+| ACTR1B | Biogrid, Opencell | true |
+| ARAP1 | Biogrid, Opencell | true |
+| ARHGAP17 | Biogrid, Opencell | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

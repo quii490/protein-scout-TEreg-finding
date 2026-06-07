@@ -116,6 +116,29 @@ HPA 免疫荧光（IF）实验数据确认 YWHAH 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q04917 |
+| SMART | SM00101; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR000308;IPR023409;IPR036815;IPR023410; |
+| Pfam | PF00244; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000128245-YWHAH/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ABL1 | Biogrid, Opencell | true |
+| ABLIM1 | Biogrid, Opencell | true |
+| AFDN | Biogrid, Opencell | true |
+| AKAP13 | Biogrid, Opencell | true |
+| AKT1S1 | Biogrid, Opencell | true |
+| ALS2 | Biogrid, Opencell | true |
+| ARAF | Biogrid, Opencell | true |
+| ARHGEF7 | Biogrid, Opencell | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

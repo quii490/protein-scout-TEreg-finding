@@ -116,6 +116,28 @@ HPA 免疫荧光（IF）实验数据确认 FRK 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P42685 |
+| SMART | SM00252;SM00326;SM00219; |
+| UniProt Domain [FT] | DOMAIN 42..110; /note="SH3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00192"; DOMAIN 116..208; /note="SH2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00191"; DOMAIN 234..491; /note="Protein kinase"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00159" |
+| InterPro | IPR011009;IPR050198;IPR000719;IPR017441;IPR001245;IPR000980;IPR036860;IPR035805;IPR036028;IPR001452;IPR008266;IPR020635; |
+| Pfam | PF07714;PF00017;PF00018; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000111816-FRK/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| EGFR | Intact, Biogrid | true |
+| PTEN | Intact, Biogrid | true |
+| RB1 | Intact, Biogrid | true |
+| BNIP2 | Intact | false |
+| CSK | Biogrid | false |
+| SF3B4 | Intact | false |
+| YAP1 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

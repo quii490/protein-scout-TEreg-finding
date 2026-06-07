@@ -188,3 +188,30 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q16513-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q16513 |
+| SMART | SM00239;SM00742;SM00133;SM00220; |
+| UniProt Domain [FT] | DOMAIN 33..109; /note="REM-1 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01207"; DOMAIN 121..203; /note="REM-1 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01207"; DOMAIN 204..284; /note="REM-1 3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01207"; DOMAIN 353..473; /note="C2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00041"; DOMAIN 657..916; /note="Protein kinase"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00159"; DOMAIN 917..984; /note="AGC-kinase C-terminal"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00618" |
+| InterPro | IPR000961;IPR000008;IPR035892;IPR037784;IPR011072;IPR036274;IPR011009;IPR017892;IPR037313;IPR000719;IPR017441;IPR008271; |
+| Pfam | PF02185;PF00069;PF00433; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000065243-PKN2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CETN2 | Intact, Biogrid, Opencell | true |
+| PNMA2 | Biogrid, Bioplex | true |
+| PTPN13 | Intact, Biogrid | true |
+| AKT1 | Biogrid | false |
+| ATP5PB | Bioplex | false |
+| CAMKV | Bioplex | false |
+| CAPZB | Opencell | false |
+| CES2 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

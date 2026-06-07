@@ -173,3 +173,30 @@ RPRD2 is 1461 amino acids (156.0 kDa), placing it in the 1200-2000 aa range. Thi
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q5VT52
 - InterPro: https://www.ebi.ac.uk/interpro/protein/Q5VT52/
 - Note: Harvest packet not available; data compiled from UniProt and literature database queries
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q5VT52 |
+| SMART | SM00582; |
+| UniProt Domain [FT] | DOMAIN 19..149; /note="CID"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00724" |
+| InterPro | IPR006569;IPR008942;IPR047885; |
+| Pfam | PF04818; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000163125-RPRD2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| SUPT5H | Biogrid, Opencell | true |
+| CPSF6 | Opencell | false |
+| HIF1AN | Biogrid | false |
+| MIF | Opencell | false |
+| MYC | Biogrid | false |
+| PFDN2 | Biogrid | false |
+| POLR2G | Biogrid | false |
+| POLR2J | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -151,3 +151,30 @@ Score: 76/180. SNTB2 has very weak nuclear evidence (HPA additional only, no Uni
 
 ## Manual Review Note
 CONFIRMED REJECTION. SNTB2 (beta-2-syntrophin) is a member of the syntrophin family of dystrophin-associated scaffold proteins. Its well-characterized function is in organizing the dystrophin glycoprotein complex at the sarcolemma and other plasma membrane domains. The nucleoplasm HPA annotation is classified as "additional" and is not corroborated by UniProt subcellular location data. HPA IF images show membrane/Golgi/centriolar staining, not nuclear. No evidence supports a chromatin or TE-regulatory function.
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q13425 |
+| SMART | SM00228;SM00233; |
+| UniProt Domain [FT] | DOMAIN 115..198; /note="PDZ"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00143"; DOMAIN 163..300; /note="PH 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00145"; DOMAIN 325..437; /note="PH 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00145"; DOMAIN 484..540; /note="SU" |
+| InterPro | IPR001478;IPR036034;IPR011993;IPR001849;IPR041428;IPR015482;IPR055108; |
+| Pfam | PF00595;PF00169;PF18012;PF23012; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000168807-SNTB2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ABCA1 | Intact, Biogrid | true |
+| ADRA1D | Intact, Biogrid | true |
+| CASK | Intact, Biogrid | true |
+| DMD | Intact, Biogrid | true |
+| UTRN | Intact, Biogrid, Opencell | true |
+| ANLN | Biogrid | false |
+| CFAP36 | Intact | false |
+| DTNA | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

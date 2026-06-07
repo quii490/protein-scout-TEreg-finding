@@ -129,3 +129,21 @@ Score: 97/180. SLFN14 has good structural data (4 cryo-EM structures) and nuclea
 
 ## Manual Review Note
 CONFIRMED REJECTION. SLFN14 is a Schlafen family endoribonuclease with well-characterized ribosome-associated RNA cleavage activity. While the Schlafen family includes proteins with diverse functions (viral restriction, DNA damage response, translational control), SLFN14 appears specialized for ribosomal RNA surveillance. The 4 cryo-EM structures provide excellent structural characterization. However, the functional profile (ribosome-associated RNAse) and complete absence of interaction partners make it unsuitable for TE-regulatory investigation. Note: could be reconsidered if future data reveals a nuclear/chromatin function.
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P0C7P3 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR027417;IPR031450;IPR029684;IPR007421;IPR038461;IPR048729; |
+| Pfam | PF17057;PF04326;PF21026; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000236320-SLFN14/interaction
+
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

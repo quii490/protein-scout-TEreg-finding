@@ -183,3 +183,30 @@ status: scored
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q5VT06
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Packet data timestamp: 2026-06-03 04:49:15
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q5VT06 |
+| SMART | SM01052; |
+| UniProt Domain [FT] | DOMAIN 2517..2559; /note="CAP-Gly"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00045" |
+| InterPro | IPR036859;IPR000938;IPR028750;IPR025486; |
+| Pfam | PF01302;PF14309; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000135837-CEP350/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CEP19 | Biogrid, Bioplex | true |
+| MAPRE1 | Biogrid, Opencell | true |
+| PPP2CA | Biogrid, Opencell | true |
+| PPP2CB | Biogrid, Opencell, Bioplex | true |
+| PPP2R1A | Biogrid, Bioplex | true |
+| PPP2R3C | Biogrid, Opencell | true |
+| APP | Intact | false |
+| BRCA1 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

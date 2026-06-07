@@ -116,6 +116,29 @@ HPA 免疫荧光（IF）实验数据确认 CADM4 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8NFZ8 |
+| SMART | SM00294;SM00409;SM00408; |
+| UniProt Domain [FT] | DOMAIN 21..119; /note="Ig-like V-type"; DOMAIN 124..219; /note="Ig-like C2-type 1"; DOMAIN 224..307; /note="Ig-like C2-type 2" |
+| InterPro | IPR013162;IPR007110;IPR036179;IPR013783;IPR003599;IPR003598;IPR013106;IPR003585; |
+| Pfam | PF08205;PF13927;PF07686; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000105767-CADM4/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CLEC2B | Bioplex | false |
+| CLEC4A | Bioplex | false |
+| FBXO2 | Bioplex | false |
+| HLA-DRB1 | Bioplex | false |
+| HLA-G | Bioplex | false |
+| LRRN4CL | Bioplex | false |
+| SFTPC | Bioplex | false |
+| TNFSF8 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

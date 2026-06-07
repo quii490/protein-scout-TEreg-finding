@@ -179,3 +179,27 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q96BZ4-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96BZ4 |
+| SMART | SM00155; |
+| UniProt Domain [FT] | DOMAIN 209..236; /note="PLD phosphodiesterase 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00153"; DOMAIN 423..449; /note="PLD phosphodiesterase 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00153" |
+| InterPro | IPR050874;IPR032803;IPR001736; |
+| Pfam | PF13918; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000166428-PLD4/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| PLD3 | Biogrid | false |
+| RPN2 | Biogrid | false |
+| TM9SF1 | Biogrid | false |
+| TM9SF3 | Biogrid | false |
+| TMX3 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

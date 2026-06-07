@@ -118,6 +118,24 @@ HPA 免疫荧光（IF）实验数据确认 PHF21B 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96EK2 |
+| SMART | SM00249; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR011011;IPR001965;IPR019787;IPR013083; |
+| Pfam | PF00628; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000056487-PHF21B/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| HDAC1 | Biogrid | false |
+| RCOR1 | Biogrid | false |
+| RCOR3 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

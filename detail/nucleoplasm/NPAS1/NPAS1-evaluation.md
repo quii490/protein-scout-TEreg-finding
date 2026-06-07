@@ -185,6 +185,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/NPAS1/NPAS1-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q99742 |
+| SMART | SM00353;SM00091; |
+| UniProt Domain [FT] | DOMAIN 45..98; /note="bHLH"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00981"; DOMAIN 135..207; /note="PAS 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00140"; DOMAIN 293..359; /note="PAS 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00140"; DOMAIN 365..408; /note="PAC" |
+| InterPro | IPR011598;IPR036638;IPR000014;IPR035965;IPR013767;IPR013655; |
+| Pfam | PF23171;PF00989;PF08447; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000130751-NPAS1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ACTR5 | Bioplex | false |
+| ACTR8 | Bioplex | false |
+| AKAP1 | Bioplex | false |
+| AKAP10 | Bioplex | false |
+| AKAP11 | Bioplex | false |
+| ANAPC5 | Bioplex | false |
+| ANKLE2 | Bioplex | false |
+| ANKRD11 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

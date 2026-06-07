@@ -140,3 +140,23 @@ Score: 68/180. RSPH1 has very weak nuclear evidence (HPA detects centrosome only
 
 ## Manual Review Note
 CONFIRMED REJECTION. RSPH1 is a classic radial spoke head protein with well-established function in ciliary and flagellar motility. The "chromosome" UniProt annotation (ECO:0000250) and electronic GO-CC nuclear annotations are weak and inconsistent with the overwhelming ciliary functional evidence. Mutations in RSPH1 cause primary ciliary dyskinesia. No plausible TE-regulatory role.
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8WYR4 |
+| SMART | SM00698; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR003409; |
+| Pfam | PF02493; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000160188-RSPH1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| MORN3 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

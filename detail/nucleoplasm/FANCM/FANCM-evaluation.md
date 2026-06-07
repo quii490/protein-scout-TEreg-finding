@@ -185,3 +185,30 @@ status: rejected
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q8IYD8-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8IYD8 |
+| SMART | SM00487;SM00891;SM00490; |
+| UniProt Domain [FT] | DOMAIN 98..266; /note="Helicase ATP-binding"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00541"; DOMAIN 452..627; /note="Helicase C-terminal"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00542" |
+| InterPro | IPR011545;IPR006166;IPR031879;IPR039686;IPR044749;IPR014001;IPR001650;IPR027417;IPR011335;IPR010994;IPR047418; |
+| Pfam | PF00270;PF02732;PF16783;PF00271; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000187790-FANCM/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CENPS | Intact, Biogrid, Bioplex | true |
+| FAAP24 | Intact, Biogrid, Bioplex | true |
+| BLM | Biogrid | false |
+| CENPX | Biogrid | false |
+| COX5B | Biogrid | false |
+| FAAP100 | Biogrid | false |
+| FAAP20 | Biogrid | false |
+| FANCA | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

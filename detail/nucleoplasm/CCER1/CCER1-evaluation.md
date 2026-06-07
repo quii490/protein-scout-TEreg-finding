@@ -192,3 +192,30 @@ status: scored
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CCER1
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8TC90
 - STRING: https://string-db.org/cgi/network?identifiers=CCER1&species=9606
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8TC90 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR027889;IPR052696; |
+| Pfam | PF15482; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000197651-CCER1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CYSRT1 | Intact | false |
+| KRT31 | Intact | false |
+| KRT40 | Intact | false |
+| KRTAP4-2 | Intact | false |
+| KRTAP6-2 | Intact | false |
+| KRTAP6-3 | Intact | false |
+| KRTAP9-3 | Intact | false |
+| NOTCH2NLA | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

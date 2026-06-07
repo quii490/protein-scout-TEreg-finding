@@ -116,6 +116,29 @@ HPA 免疫荧光（IF）实验数据确认 UPP1 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q16831 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR018016;IPR000845;IPR035994;IPR010059; |
+| Pfam | PF01048; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000183696-UPP1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| A2ML1 | Bioplex | false |
+| ARMCX5 | Bioplex | false |
+| BBS2 | Bioplex | false |
+| BRCA2 | Bioplex | false |
+| CCR1 | Bioplex | false |
+| CTPS2 | Bioplex | false |
+| CUL7 | Bioplex | false |
+| FDFT1 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

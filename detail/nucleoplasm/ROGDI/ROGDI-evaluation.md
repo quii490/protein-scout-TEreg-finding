@@ -143,3 +143,30 @@ Score: 78/180. ROGDI has excellent structural data but very weak nuclear evidenc
 
 ## Manual Review Note
 CONFIRMED REJECTION. ROGDI is a presynaptic protein involved in V-ATPase proton pump assembly and is associated with Kohlschutter-Tonz syndrome (neurodevelopmental disorder). The nuclear envelope localization is likely related to ER/nuclear envelope continuum, not nuclear interior function. Excellent structural data (two X-ray structures at high resolution) but functional profile is entirely unrelated to TE biology.
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9GZN7 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR028241; |
+| Pfam | PF10259; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000067836-ROGDI/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ATP6V1B2 | Opencell | false |
+| ATP6V1E1 | Opencell | false |
+| ATP6V1F | Opencell | false |
+| ATP6V1G1 | Opencell | false |
+| ATP6V1H | Opencell | false |
+| DMXL1 | Biogrid | false |
+| DMXL2 | Bioplex | false |
+| NUDT3 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

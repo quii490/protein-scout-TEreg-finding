@@ -151,3 +151,26 @@ High-confidence interactors (score >= 0.7): 3. Total STRING interactions: 15. In
 - STRING: https://string-db.org/ (search SCRN2)
 - IntAct: https://www.ebi.ac.uk/intact/ (search SCRN2)
 - Harvest packet: SCRN2.json
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96FV2 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR005322; |
+| Pfam | PF03577; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000141295-SCRN2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| IFI30 | Bioplex | false |
+| KAT5 | Intact | false |
+| SCRN1 | Bioplex | false |
+| TINF2 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

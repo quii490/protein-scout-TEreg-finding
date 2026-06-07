@@ -162,3 +162,21 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-P0C860-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P0C860 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 2..350; /note="MRG"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00972" |
+| InterPro | IPR008676;IPR038217;IPR026541; |
+| Pfam | PF05712; |
+
+### humanPPI / HPA Interaction
+Source: 未找到 HPA interaction 页面
+
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

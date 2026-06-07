@@ -125,6 +125,29 @@ HPA 免疫荧光（IF）实验数据确认 RABGEF1 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9UJ41 |
+| SMART | SM00167;SM00259; |
+| UniProt Domain [FT] | DOMAIN 232..375; /note="VPS9"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00550" |
+| InterPro | IPR041545;IPR003123;IPR045046;IPR037191;IPR002653; |
+| Pfam | PF18151;PF02204;PF01754; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000154710-RABGEF1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| EGFR | Intact, Biogrid | true |
+| KXD1 | Intact, Biogrid | true |
+| RABEP1 | Intact, Biogrid, Opencell | true |
+| YWHAB | Intact, Biogrid | true |
+| YWHAG | Intact, Biogrid | true |
+| YWHAZ | Biogrid, Opencell | true |
+| BLOC1S6 | Intact | false |
+| CCHCR1 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

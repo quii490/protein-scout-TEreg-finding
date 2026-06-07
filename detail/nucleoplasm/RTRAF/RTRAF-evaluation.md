@@ -152,3 +152,30 @@ BORDERLINE CANDIDATE. RTRAF (C14orf166) is a poorly characterized RNA-binding pr
 ![](https://images.proteinatlas.org/39824/509_A2_1_red_green.jpg)
 ![](https://images.proteinatlas.org/39824/509_A2_2_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9Y224 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR019265; |
+| Pfam | PF10036; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000087302-RTRAF/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| C2orf49 | Intact, Biogrid, Bioplex | true |
+| DDX1 | Intact, Biogrid, Bioplex | true |
+| FAM98A | Intact, Biogrid | true |
+| FAM98B | Intact, Biogrid | true |
+| NIN | Intact, Biogrid | true |
+| RTCB | Intact, Biogrid, Opencell | true |
+| BMI1 | Biogrid | false |
+| BYSL | Opencell | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

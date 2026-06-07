@@ -180,6 +180,29 @@ status: rejected
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/rejected/DIS3/DIS3-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9Y2L1 |
+| SMART | SM00670;SM00955; |
+| UniProt Domain [FT] | DOMAIN 64..182; /note="PINc"; DOMAIN 227..319; /note="CSD1"; /evidence="ECO:0000255"; DOMAIN 372..438; /note="CSD2"; /evidence="ECO:0000255"; DOMAIN 467..792; /note="RNB"; /evidence="ECO:0000255" |
+| InterPro | IPR041505;IPR012340;IPR029060;IPR002716;IPR001900;IPR022966;IPR050180;IPR033771;IPR033770; |
+| Pfam | PF17849;PF13638;PF00773;PF17216;PF17215; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000083520-DIS3/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| EXOSC10 | Intact, Biogrid | true |
+| EXOSC2 | Intact, Biogrid | true |
+| EXOSC3 | Intact, Biogrid, Bioplex | true |
+| EXOSC8 | Intact, Biogrid | true |
+| C1D | Bioplex | false |
+| C1orf174 | Bioplex | false |
+| CD14 | Bioplex | false |
+| CIAO2A | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

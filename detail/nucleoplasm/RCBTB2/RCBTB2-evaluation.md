@@ -195,3 +195,30 @@ At 551 amino acids (60.3 kDa), RCBTB2 falls within the ideal range for biochemic
 - STRING: https://string-db.org/network/9606.ENSP00000266049
 - Data harvested: 2026-06-04
 - Re-evaluation: Manual review with full packet inspection
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O95199 |
+| SMART | SM00225; |
+| UniProt Domain [FT] | DOMAIN 394..457; /note="BTB"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00037" |
+| InterPro | IPR000210;IPR058923;IPR009091;IPR000408;IPR051625;IPR011333; |
+| Pfam | PF00651;PF25390; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000136161-RCBTB2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ATXN2L | Opencell | false |
+| CAPRIN1 | Opencell | false |
+| CLASP1 | Opencell | false |
+| CLASP2 | Opencell | false |
+| CUL3 | Biogrid | false |
+| FARS2 | Intact | false |
+| FXR1 | Opencell | false |
+| HDAC2 | Opencell | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

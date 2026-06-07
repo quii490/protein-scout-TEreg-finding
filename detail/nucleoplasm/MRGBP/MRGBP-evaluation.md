@@ -204,3 +204,30 @@ MRGBP should be reevaluated in the context of broader TE biology hypotheses.
 ![](https://images.proteinatlas.org/17012/161_A11_1_red_green.jpg)
 ![](https://images.proteinatlas.org/17012/161_A11_2_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9NV56 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR012423; |
+| Pfam | PF07904; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000101189-MRGBP/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ACTL6A | Intact, Biogrid | true |
+| BRD8 | Intact, Biogrid | true |
+| DMAP1 | Intact, Biogrid, Bioplex | true |
+| EPC2 | Biogrid, Bioplex | true |
+| H2AZ1 | Biogrid, Bioplex | true |
+| KAT5 | Intact, Biogrid | true |
+| MORF4L1 | Intact, Biogrid | true |
+| MORF4L2 | Intact, Biogrid, Bioplex | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -181,4 +181,26 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CHP2/CHP2-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O43745 |
+| SMART | SM00054; |
+| UniProt Domain [FT] | DOMAIN 26..61; /note="EF-hand 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00448"; DOMAIN 71..106; /note="EF-hand 2"; /evidence="ECO:0000305"; DOMAIN 111..146; /note="EF-hand 3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00448"; DOMAIN 152..187; /note="EF-hand 4"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00448" |
+| InterPro | IPR051875;IPR011992;IPR018247;IPR002048; |
+| Pfam | PF13202;PF13499; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000166869-CHP2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| SLC9A1 | Intact, Biogrid | true |
+| MDFI | Intact | false |
+| SLC9A2 | Biogrid | false |
+| SLC9A3 | Biogrid | false |
+| SLC9A5 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

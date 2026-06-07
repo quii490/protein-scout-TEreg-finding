@@ -155,3 +155,25 @@ High-confidence interactors (score >= 0.7): 15. Total STRING interactions: 15. I
 - STRING: https://string-db.org/ (search SELENOH)
 - IntAct: https://www.ebi.ac.uk/intact/ (search SELENOH)
 - Harvest packet: SELENOH.json
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8IZQ5 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR011893;IPR052674;IPR036249; |
+| Pfam | PF10262; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000211450-SELENOH/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ARIH1 | Biogrid | false |
+| KPNA4 | Opencell | false |
+| PPM1G | Opencell | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

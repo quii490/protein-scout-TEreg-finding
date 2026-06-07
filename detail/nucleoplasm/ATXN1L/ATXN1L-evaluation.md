@@ -269,6 +269,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/ATXN1L/ATXN1L-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P0C7T5 |
+| SMART | SM00536; |
+| UniProt Domain [FT] | DOMAIN 457..588; /note="AXH"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00496" |
+| InterPro | IPR020997;IPR043404;IPR003652;IPR036096; |
+| Pfam | PF12547;PF08517; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000224470-ATXN1L/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| AGXT | Intact | false |
+| ARID5A | Intact | false |
+| ATXN1 | Biogrid | false |
+| C1orf94 | Intact | false |
+| CIC | Biogrid | false |
+| CTBP2 | Biogrid | false |
+| ELP5 | Biogrid | false |
+| FOXH1 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

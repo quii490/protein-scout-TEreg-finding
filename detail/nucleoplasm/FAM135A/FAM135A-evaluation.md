@@ -181,6 +181,29 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/FAM135A/FAM135A-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9P2D6 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR029058;IPR022122;IPR007751;IPR044294; |
+| Pfam | PF12394;PF05057; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000082269-FAM135A/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CLNS1A | Opencell | false |
+| GLUL | Opencell | false |
+| LAMP1 | Biogrid | false |
+| RAB5A | Biogrid | false |
+| RAB9A | Biogrid | false |
+| RPL11 | Opencell | false |
+| TUBA1B | Opencell | false |
+| UBA52 | Opencell | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

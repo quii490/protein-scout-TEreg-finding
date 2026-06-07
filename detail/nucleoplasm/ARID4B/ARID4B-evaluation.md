@@ -176,6 +176,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/ARID4B/ARID4B-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q4LE39 |
+| SMART | SM01014;SM00501;SM00333; |
+| UniProt Domain [FT] | DOMAIN 306..398; /note="ARID"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00355"; DOMAIN 572..624; /note="Tudor-knot"; /evidence="ECO:0000255" |
+| InterPro | IPR051232;IPR012603;IPR028853;IPR001606;IPR036431;IPR016197;IPR002999;IPR025995;IPR047476;IPR047474; |
+| Pfam | PF01388;PF08169;PF11717; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000054267-ARID4B/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| HDAC1 | Biogrid, Opencell, Bioplex | true |
+| HDAC2 | Biogrid, Opencell | true |
+| ING2 | Biogrid, Bioplex | true |
+| PARP1 | Biogrid, Opencell | true |
+| RBBP4 | Biogrid, Opencell | true |
+| RBBP7 | Biogrid, Bioplex | true |
+| SAP30 | Biogrid, Bioplex | true |
+| SINHCAF | Biogrid, Bioplex | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

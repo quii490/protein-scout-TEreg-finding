@@ -163,3 +163,21 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q9Y543-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9Y543 |
+| SMART | SM00353;SM00511; |
+| UniProt Domain [FT] | DOMAIN 13..70; /note="bHLH"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00981"; DOMAIN 86..119; /note="Orange"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00380" |
+| InterPro | IPR011598;IPR050370;IPR036638;IPR003650; |
+| Pfam | PF07527;PF00010; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000069812-HES2/interaction
+
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

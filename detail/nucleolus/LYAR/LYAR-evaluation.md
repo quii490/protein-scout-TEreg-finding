@@ -169,4 +169,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleolus/LYAR/LYAR-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9NX58 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR039999;IPR058719;IPR041010;IPR014898;IPR036236; |
+| Pfam | PF25879;PF08790;PF17848; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000145220-LYAR/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| BRIX1 | Intact, Biogrid, Bioplex | true |
+| DDX21 | Intact, Biogrid | true |
+| EBNA1BP2 | Intact, Biogrid | true |
+| FBL | Intact, Biogrid | true |
+| GNL2 | Intact, Biogrid, Bioplex | true |
+| GTPBP4 | Intact, Biogrid, Bioplex | true |
+| KPNA1 | Intact, Biogrid, Bioplex | true |
+| MYBBP1A | Intact, Biogrid | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

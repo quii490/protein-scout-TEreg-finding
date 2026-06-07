@@ -171,3 +171,30 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q9UI42-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9UI42 |
+| SMART | SM00631; |
+| UniProt Domain [FT] | DOMAIN 122..416; /note="Peptidase M14"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01379" |
+| InterPro | IPR057246;IPR057247;IPR034248;IPR036990;IPR003146;IPR000834; |
+| Pfam | PF00246;PF02244; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000128510-CPA4/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ADH1C | Bioplex | false |
+| ATP6AP2 | Bioplex | false |
+| CCR1 | Bioplex | false |
+| CPA2 | Bioplex | false |
+| E2F6 | Bioplex | false |
+| ERCC3 | Bioplex | false |
+| IFNA4 | Bioplex | false |
+| MBNL1 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

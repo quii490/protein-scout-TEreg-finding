@@ -142,3 +142,30 @@ RWDD2B has essentially no characterized protein-protein interaction network. The
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=RWDD2B
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000156253-RWDD2B
 - Note: Harvest packet not available; data compiled from UniProt, GeneCards, and literature database queries
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P57060 |
+| SMART | SM00591; |
+| UniProt Domain [FT] | DOMAIN 41..165; /note="RWD"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00179" |
+| InterPro | IPR017359;IPR010541;IPR006575;IPR059181;IPR016135; |
+| Pfam | PF06544;PF05773; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000156253-RWDD2B/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| TRIM7 | Intact, Biogrid | true |
+| ACY3 | Bioplex | false |
+| DVL3 | Intact | false |
+| FAM163A | Intact | false |
+| GADD45G | Intact | false |
+| GAPDH | Bioplex | false |
+| IKZF1 | Intact | false |
+| KIAA1958 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

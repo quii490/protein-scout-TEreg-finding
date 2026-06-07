@@ -104,3 +104,25 @@ ACBD6 是有实验证据的核-胞质蛋白，主要功能偏脂质/蛋白 acyla
 ![](https://images.proteinatlas.org/28457/1521_A7_1_red_green.jpg)
 ![](https://images.proteinatlas.org/28457/1521_A7_3_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9BR61 |
+| SMART | SM00248; |
+| UniProt Domain [FT] | DOMAIN 42..127; /note="ACB"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00573" |
+| InterPro | IPR000582;IPR035984;IPR002110;IPR036770;IPR014352; |
+| Pfam | PF00887;PF12796; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000230124-ACBD6/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| NMT1 | Intact, Biogrid | true |
+| NMT2 | Intact, Biogrid | true |
+| SRC | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

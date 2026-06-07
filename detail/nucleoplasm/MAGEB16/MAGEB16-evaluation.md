@@ -184,6 +184,22 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/MAGEB16/MAGEB16-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | A2A368 |
+| SMART | SM01373;SM01392; |
+| UniProt Domain [FT] | DOMAIN 113..312; /note="MAGE"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00127" |
+| InterPro | IPR037445;IPR021072;IPR041898;IPR041899;IPR002190; |
+| Pfam | PF01454;PF12440; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000189023-MAGEB16/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| MAGEA4 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

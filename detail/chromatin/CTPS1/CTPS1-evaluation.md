@@ -176,3 +176,30 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-P17812-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P17812 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 300..554; /note="Glutamine amidotransferase type-1" |
+| InterPro | IPR029062;IPR004468;IPR017456;IPR017926;IPR033828;IPR027417; |
+| Pfam | PF06418;PF00117; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000171793-CTPS1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CTPS2 | Intact, Biogrid, Opencell | true |
+| MYC | Intact, Biogrid | true |
+| ATP6V1E1 | Opencell | false |
+| CCNF | Biogrid | false |
+| CFAP298 | Opencell | false |
+| CFTR | Biogrid | false |
+| COPS5 | Biogrid | false |
+| CUL3 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -191,3 +191,30 @@ status: scored
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CCDC97
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q96F63
 - STRING: https://string-db.org/cgi/network?identifiers=CCDC97&species=9606
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96F63 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR040233;IPR018613; |
+| Pfam | PF09747; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000142039-CCDC97/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| DNAJC8 | Biogrid, Bioplex | true |
+| PHF5A | Biogrid, Bioplex | true |
+| SF3A1 | Biogrid, Opencell, Bioplex | true |
+| SF3B1 | Biogrid, Opencell, Bioplex | true |
+| SF3B3 | Biogrid, Opencell, Bioplex | true |
+| SF3B5 | Biogrid, Opencell, Bioplex | true |
+| SF3B6 | Biogrid, Opencell, Bioplex | true |
+| CHERP | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

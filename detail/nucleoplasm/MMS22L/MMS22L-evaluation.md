@@ -217,3 +217,30 @@ nuclear_score: 7
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q6ZRQ5-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q6ZRQ5 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR042320;IPR029424;IPR029425; |
+| Pfam | PF14911;PF14910; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000146263-MMS22L/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ASF1B | Intact, Biogrid | true |
+| H3C6 | Biogrid, Bioplex | true |
+| MCM2 | Biogrid, Bioplex | true |
+| SSRP1 | Biogrid, Opencell | true |
+| SUPT16H | Biogrid, Opencell | true |
+| TONSL | Intact, Biogrid | true |
+| ASF1A | Biogrid | false |
+| ESCO2 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

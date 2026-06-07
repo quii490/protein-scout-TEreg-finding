@@ -183,3 +183,25 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q96EF0-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96EF0 |
+| SMART | SM00404; |
+| UniProt Domain [FT] | DOMAIN 126..500; /note="Myotubularin phosphatase"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00669" |
+| InterPro | IPR030591;IPR030564;IPR010569;IPR048994;IPR011993;IPR029021;IPR016130;IPR003595; |
+| Pfam | PF06602;PF21098; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000102043-MTMR8/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| MTMR9 | Intact, Biogrid, Bioplex | true |
+| STIP1 | Biogrid | false |
+| TAB1 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

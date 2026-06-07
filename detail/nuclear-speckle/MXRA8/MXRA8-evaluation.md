@@ -187,6 +187,26 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nuclear-speckle/MXRA8/MXRA8-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9BRK3 |
+| SMART | SM00409;SM00406; |
+| UniProt Domain [FT] | DOMAIN 29..157; /note="Ig-like V-type 1"; DOMAIN 160..288; /note="Ig-like V-type 2" |
+| InterPro | IPR007110;IPR036179;IPR013783;IPR003599;IPR013106;IPR042472; |
+| Pfam | PF07686; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000162576-MXRA8/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CABP2 | Intact | false |
+| DTX2 | Intact | false |
+| GMEB2 | Intact | false |
+| NTAQ1 | Intact | false |
+| TTC19 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

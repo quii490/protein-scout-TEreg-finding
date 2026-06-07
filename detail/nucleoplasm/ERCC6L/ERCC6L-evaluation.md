@@ -180,6 +180,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/ERCC6L/ERCC6L-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q2NKX8 |
+| SMART | SM00487;SM00490; |
+| UniProt Domain [FT] | DOMAIN 109..277; /note="Helicase ATP-binding"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00541"; DOMAIN 464..620; /note="Helicase C-terminal"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00542" |
+| InterPro | IPR014001;IPR001650;IPR027417;IPR038718;IPR049730;IPR000330;IPR050496; |
+| Pfam | PF00271;PF00176; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000186871-ERCC6L/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| PLK1 | Biogrid, Opencell | true |
+| BRD2 | Opencell | false |
+| EEF1AKMT3 | Bioplex | false |
+| HTT | Intact | false |
+| LMO4 | Intact | false |
+| MINK1 | Opencell | false |
+| PASK | Opencell | false |
+| RB1CC1 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

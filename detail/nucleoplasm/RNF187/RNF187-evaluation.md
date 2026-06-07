@@ -146,3 +146,30 @@ RNF187 is 235 amino acids in length, well within the ideal 200-800 aa range. Thi
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q5TA31
 - InterPro: https://www.ebi.ac.uk/interpro/protein/Q5TA31/
 - Note: Harvest packet not available; data compiled from UniProt and literature database queries
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q5TA31 |
+| SMART | SM00184; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR050143;IPR001841;IPR013083;IPR017907; |
+| Pfam | PF15227; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000168159-RNF187/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CUL2 | Biogrid, Bioplex | true |
+| AMBRA1 | Biogrid | false |
+| JUN | Biogrid | false |
+| PRMT1 | Biogrid | false |
+| TP53 | Biogrid | false |
+| TRIM44 | Bioplex | false |
+| TRIM7 | Biogrid | false |
+| YAP1 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

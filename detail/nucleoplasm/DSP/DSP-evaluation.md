@@ -176,6 +176,29 @@ status: rejected
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Packet data timestamp: 2026-06-03 12:20:09
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P15924 |
+| SMART | SM00250;SM00150; |
+| UniProt Domain [FT] | DOMAIN 458..515; /note="SH3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00192" |
+| InterPro | IPR041615;IPR041573;IPR043197;IPR035915;IPR001101;IPR001452;IPR018159; |
+| Pfam | PF00681;PF17902;PF18373;PF21019; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000096696-DSP/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| FES | Intact, Biogrid | true |
+| JUP | Intact, Biogrid | true |
+| KRT18 | Biogrid, Opencell | true |
+| ANLN | Biogrid | false |
+| ARAF | Biogrid | false |
+| BTRC | Biogrid | false |
+| C18orf21 | Bioplex | false |
+| C6orf141 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

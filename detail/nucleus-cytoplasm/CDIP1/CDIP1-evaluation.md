@@ -130,3 +130,30 @@ HPA IF 图像已本地嵌入。
 ![](https://images.proteinatlas.org/49352/785_D12_5_red_green.jpg)
 ![](https://images.proteinatlas.org/49352/785_D12_6_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9H305 |
+| SMART | SM00714; |
+| UniProt Domain [FT] | DOMAIN 122..206; /note="LITAF"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01181" |
+| InterPro | IPR006629;IPR037519; |
+| Pfam | PF10601; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000089486-CDIP1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| DCUN1D1 | Intact | false |
+| DESI1 | Intact | false |
+| OTUB2 | Intact | false |
+| OTUD7B | Intact | false |
+| TNIP1 | Intact | false |
+| TOLLIP | Intact | false |
+| UBB | Intact | false |
+| UBC | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

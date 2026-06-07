@@ -173,3 +173,30 @@ status: scored
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q6XZF7
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q6XZF7 |
+| SMART | SM00721;SM00325;SM00326; |
+| UniProt Domain [FT] | DOMAIN 2..61; /note="SH3 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00192"; DOMAIN 66..126; /note="SH3 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00192"; DOMAIN 145..204; /note="SH3 3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00192"; DOMAIN 243..302; /note="SH3 4"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00192"; DOMAIN 784..967; /note="DH"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00062"; DOMAIN 1008..1217; /note="BAR"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00361"; DOMAIN 1285..1348; /note="SH3 5"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00192"; DOMAIN 1513..1576; /note="SH3 6"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00192" |
+| InterPro | IPR027267;IPR004148;IPR035899;IPR000219;IPR035820;IPR035817;IPR035818;IPR035819;IPR051492;IPR001331;IPR036028;IPR001452; |
+| Pfam | PF03114;PF00621;PF00018;PF07653;PF14604; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000107554-DNMBP/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| BIN3 | Intact, Biogrid, Opencell, Bioplex | true |
+| C10orf88 | Bioplex | false |
+| CAPZB | Opencell | false |
+| CDC42 | Biogrid | false |
+| CIAO2A | Bioplex | false |
+| CRYBB3 | Bioplex | false |
+| DHFR | Bioplex | false |
+| DNM1 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

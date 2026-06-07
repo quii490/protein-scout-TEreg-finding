@@ -210,4 +210,25 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/ADAT2/ADAT2-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q7Z6V5 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 20..145; /note="CMP/dCMP-type deaminase"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01083" |
+| InterPro | IPR016192;IPR002125;IPR016193;IPR028883; |
+| Pfam | PF00383; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000189007-ADAT2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| NAV2 | Intact | false |
+| SGTB | Intact | false |
+| SMARCD1 | Intact | false |
+| SPRED1 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

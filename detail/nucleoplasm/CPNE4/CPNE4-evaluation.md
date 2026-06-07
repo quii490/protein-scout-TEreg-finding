@@ -119,6 +119,20 @@ IntAct 有限记录。无 BioGrid 补充数据。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CPNE4/CPNE4-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96A23 |
+| SMART | SM00239;SM00327; |
+| UniProt Domain [FT] | DOMAIN 3..131; /note="C2 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00041"; DOMAIN 137..264; /note="C2 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00041"; DOMAIN 305..507; /note="VWFA"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00219" |
+| InterPro | IPR000008;IPR035892;IPR037768;IPR045052;IPR010734;IPR002035;IPR036465; |
+| Pfam | PF00168;PF07002; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000196353-CPNE4/interaction
 
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

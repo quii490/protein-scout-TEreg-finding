@@ -190,6 +190,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/MORF4L2/MORF4L2-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q15014 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 117..288; /note="MRG"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00972" |
+| InterPro | IPR008676;IPR038217;IPR026541; |
+| Pfam | PF05712; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000123562-MORF4L2/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ACTL6A | Intact, Biogrid | true |
+| BRD8 | Intact, Biogrid | true |
+| CDR2 | Intact, Biogrid | true |
+| DMAP1 | Biogrid, Bioplex | true |
+| MRFAP1 | Intact, Biogrid, Bioplex | true |
+| MRFAP1L1 | Intact, Biogrid, Bioplex | true |
+| MRGBP | Intact, Biogrid, Bioplex | true |
+| PALB2 | Biogrid, Bioplex | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

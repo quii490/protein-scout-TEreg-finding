@@ -119,6 +119,23 @@ IntAct 有限记录。无 BioGrid 补充数据。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleolus/CABLES2/CABLES2-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9BTV7 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR012388;IPR036915;IPR006671; |
+| Pfam | PF00134; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000149679-CABLES2/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CDK5 | Biogrid | false |
+| FTL | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

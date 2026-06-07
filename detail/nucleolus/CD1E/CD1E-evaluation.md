@@ -195,3 +195,21 @@ STRING 15 个预测互作，IntAct 15 个实验互作。调控相关配体占比
 
 ![](https://alphafold.ebi.ac.uk/files/AF-P15812-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P15812 |
+| SMART | SM00407; |
+| UniProt Domain [FT] | DOMAIN 191..301; /note="Ig-like" |
+| InterPro | IPR007110;IPR036179;IPR013783;IPR003597;IPR050208;IPR011161;IPR037055;IPR011162; |
+| Pfam | PF07654;PF16497; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000158488-CD1E/interaction
+
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -137,3 +137,30 @@ RNF44 is 432 amino acids in length, within the ideal 200-800 aa range. The prote
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q7L0R7
 - InterPro: https://www.ebi.ac.uk/interpro/protein/Q7L0R7/
 - Note: Harvest packet not available; data compiled from UniProt and literature database queries
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q7L0R7 |
+| SMART | SM00184; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR001841;IPR013083; |
+| Pfam | PF13639; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000146083-RNF44/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ARID5A | Intact | false |
+| DAZAP2 | Intact | false |
+| KRTAP19-1 | Intact | false |
+| KRTAP19-5 | Intact | false |
+| KRTAP19-7 | Intact | false |
+| KRTAP21-2 | Intact | false |
+| KRTAP3-1 | Intact | false |
+| OXER1 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

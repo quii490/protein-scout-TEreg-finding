@@ -116,6 +116,25 @@ HPA 免疫荧光（IF）实验数据确认 PIANP 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8IYJ0 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR029198;IPR039628; |
+| Pfam | PF15298; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000139200-PIANP/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CMTM7 | Intact | false |
+| DEFB127 | Intact | false |
+| TMBIM6 | Intact | false |
+| UBQLN2 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

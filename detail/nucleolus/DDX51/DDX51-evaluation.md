@@ -171,3 +171,30 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q8N8A6-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8N8A6 |
+| SMART | SM00487;SM00490; |
+| UniProt Domain [FT] | DOMAIN 243..452; /note="Helicase ATP-binding"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00541"; DOMAIN 494..640; /note="Helicase C-terminal"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00542" |
+| InterPro | IPR011545;IPR014001;IPR001650;IPR027417;IPR000629; |
+| Pfam | PF00270;PF00271; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000185163-DDX51/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CBX6 | Bioplex | false |
+| FGFBP1 | Bioplex | false |
+| IFI16 | Biogrid | false |
+| MYC | Biogrid | false |
+| NEIL1 | Bioplex | false |
+| NPM3 | Bioplex | false |
+| PRKRA | Bioplex | false |
+| REXO4 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

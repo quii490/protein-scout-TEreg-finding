@@ -208,3 +208,30 @@ The protein functions primarily in: Microtubule inner protein (MIP) part of the 
 The false rejection appears to have resulted from automated scoring that failed to adequately weight the nuclear evidence. 
 With only 43 publications, MNS1 represents a highly novel target. 
 The nuclear localization and functional profile make it a strong candidate for TE-regulatory investigation.
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8NEH6 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR026504;IPR043597; |
+| Pfam | PF13868; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000138587-MNS1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| AATF | Intact | false |
+| ACTG1 | Opencell | false |
+| CCND3 | Intact | false |
+| CDR2 | Intact | false |
+| GIGYF1 | Intact | false |
+| HRAS | Intact | false |
+| HSF1 | Intact | false |
+| KANK2 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

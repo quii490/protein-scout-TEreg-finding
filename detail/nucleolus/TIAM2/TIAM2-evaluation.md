@@ -116,6 +116,29 @@ HPA 免疫荧光（IF）实验数据确认 TIAM2 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8IVF5 |
+| SMART | SM00228;SM00233;SM00455;SM00325; |
+| UniProt Domain [FT] | DOMAIN 506..620; /note="PH 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00145"; DOMAIN 810..881; /note="RBD"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00262"; DOMAIN 890..976; /note="PDZ"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00143"; DOMAIN 1099..1293; /note="DH"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00062"; DOMAIN 1347..1478; /note="PH 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00145" |
+| InterPro | IPR035899;IPR000219;IPR001331;IPR001478;IPR036034;IPR011993;IPR001849;IPR055230;IPR003116;IPR043537;IPR040655; |
+| Pfam | PF00595;PF00169;PF23014;PF00621;PF18385; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000146426-TIAM2/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ILF3 | Opencell | false |
+| PHKG2 | Opencell | false |
+| WNK1 | Opencell | false |
+| YWHAB | Opencell | false |
+| YWHAE | Opencell | false |
+| YWHAG | Opencell | false |
+| YWHAH | Opencell | false |
+| YWHAQ | Opencell | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

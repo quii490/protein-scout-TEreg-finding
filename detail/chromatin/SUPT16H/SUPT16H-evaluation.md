@@ -201,3 +201,30 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 ![](https://images.proteinatlas.org/22551/621_E11_1_red_green.jpg)
 ![](https://images.proteinatlas.org/22551/621_E11_2_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9Y5B9 |
+| SMART | SM01285;SM01287;SM01286; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR029149;IPR036005;IPR029148;IPR056595;IPR048969;IPR013953;IPR000994;IPR011993;IPR013719;IPR040258;IPR033825; |
+| Pfam | PF14826;PF00557;PF24824;PF08512;PF08644;PF21091; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000092201-SUPT16H/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CHMP4C | Biogrid, Bioplex | true |
+| CSNK2B | Biogrid, Opencell | true |
+| DDB1 | Biogrid, Opencell | true |
+| DDX21 | Biogrid, Opencell | true |
+| H2AX | Biogrid, Bioplex | true |
+| H2BC1 | Biogrid, Bioplex | true |
+| H3C1 | Biogrid, Bioplex | true |
+| H3C3 | Biogrid, Bioplex | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

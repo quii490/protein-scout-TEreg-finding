@@ -173,3 +173,21 @@ status: scored
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/O94769
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O94769 |
+| SMART | SM00364;SM00369;SM00214; |
+| UniProt Domain [FT] | DOMAIN 101..158; /note="VWFC"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00220"; DOMAIN 307..344; /note="LRRNT" |
+| InterPro | IPR043184;IPR001611;IPR025875;IPR003591;IPR032675;IPR001007; |
+| Pfam | PF12799;PF13855;PF00093; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000106823-ECM2/interaction
+
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

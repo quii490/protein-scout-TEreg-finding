@@ -69,3 +69,23 @@ PPI 网络完全缺失（0 实验互作，STRING 仅 3 个低质量预测），U
 
 ![](https://alphafold.ebi.ac.uk/files/AF-A5PLL1-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | A5PLL1 |
+| SMART | SM00248; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR042637;IPR002110;IPR036770; |
+| Pfam | PF12796;PF13637; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000189127-ANKRD34B/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| YWHAZ | Opencell | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

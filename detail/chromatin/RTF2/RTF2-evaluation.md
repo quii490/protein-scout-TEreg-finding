@@ -167,6 +167,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/chromatin/RTF2/RTF2-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9BY42 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR006735;IPR027799; |
+| Pfam | PF04641; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000022277-RTF2/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| BBOX1 | Bioplex | false |
+| CES2 | Bioplex | false |
+| DMAP1 | Bioplex | false |
+| FLNC | Intact | false |
+| IL1R2 | Bioplex | false |
+| KDM4B | Bioplex | false |
+| KIFBP | Bioplex | false |
+| MILR1 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

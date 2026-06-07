@@ -119,4 +119,29 @@ HPA IF 图像已本地嵌入。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleolus/ARL4A/ARL4A-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P40617 |
+| SMART | SM00177;SM00175;SM00173;SM00178; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR027417;IPR005225;IPR024156;IPR006689; |
+| Pfam | PF00025; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000122644-ARL4A/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CCDC102B | Intact | false |
+| CCDC57 | Intact | false |
+| ELMO1 | Biogrid | false |
+| EVI5 | Intact | false |
+| GCC2 | Biogrid | false |
+| GOLGA2 | Intact | false |
+| KPNA2 | Biogrid | false |
+| KRT19 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -174,4 +174,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nuclear-speckle/NELFCD/NELFCD-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8IXH7 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR006942; |
+| Pfam | PF04858; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000101158-NELFCD/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ARAF | Intact, Biogrid | true |
+| NELFA | Intact, Biogrid | true |
+| AR | Biogrid | false |
+| BRD4 | Biogrid | false |
+| KLF11 | Intact | false |
+| NELFB | Biogrid | false |
+| NELFE | Biogrid | false |
+| NUP58 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

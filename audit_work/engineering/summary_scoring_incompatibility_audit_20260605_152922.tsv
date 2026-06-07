@@ -1,0 +1,3 @@
+gene	category	report_path	issue	field	value	reason
+ARID1A	nucleoplasm	detail/nucleoplasm/ARID1A/ARID1A-evaluation.md	SCORED_DETAIL_NOT_IN_SUMMARY			rebuild_summary did not include this scored report
+ARID1B	nucleoplasm	detail/nucleoplasm/ARID1B/ARID1B-evaluation.md	SCORED_DETAIL_NOT_IN_SUMMARY			rebuild_summary did not include this scored report

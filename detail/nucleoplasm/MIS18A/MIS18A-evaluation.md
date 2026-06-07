@@ -203,3 +203,30 @@ The protein functions primarily in: Required for recruitment of CENPA to centrom
 The false rejection appears to have resulted from automated scoring that failed to adequately weight the nuclear evidence. 
 With only 17 publications, MIS18A represents a highly novel target. 
 The nuclear localization and functional profile make it a strong candidate for TE-regulatory investigation.
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9NYP9 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 80..178; /note="Mis18"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01129" |
+| InterPro | IPR034752;IPR004910; |
+| Pfam | PF03226; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000159055-MIS18A/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| MIS18BP1 | Intact, Biogrid, Bioplex | true |
+| NDEL1 | Intact, Biogrid | true |
+| OIP5 | Intact, Biogrid, Bioplex | true |
+| TXLNA | Intact, Biogrid | true |
+| ABI3 | Intact | false |
+| ACTR10 | Bioplex | false |
+| AIMP2 | Intact | false |
+| ATG14 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

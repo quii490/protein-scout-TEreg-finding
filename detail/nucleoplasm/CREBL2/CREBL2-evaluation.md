@@ -165,6 +165,25 @@ IntAct 有限记录。无 BioGrid 补充数据。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CREBL2/CREBL2-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O60519 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 23..86; /note="bZIP" |
+| InterPro | IPR004827;IPR046347;IPR039250; |
+| Pfam | PF07716; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000111269-CREBL2/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| NFE2L2 | Intact, Biogrid | true |
+| CREBRF | Intact | false |
+| DDIT3 | Intact | false |
+| PKNOX2 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

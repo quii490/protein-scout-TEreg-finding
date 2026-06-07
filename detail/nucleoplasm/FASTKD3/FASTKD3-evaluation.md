@@ -187,6 +187,28 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/FASTKD3/FASTKD3-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q14CZ7 |
+| SMART | SM00952; |
+| UniProt Domain [FT] | DOMAIN 591..649; /note="RAP"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00619" |
+| InterPro | IPR013579;IPR050870;IPR010622;IPR013584; |
+| Pfam | PF06743;PF08368;PF08373; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000124279-FASTKD3/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| AGTRAP | Intact | false |
+| FAM9B | Intact | false |
+| FASTKD1 | Biogrid | false |
+| GPR182 | Bioplex | false |
+| MAGEA12 | Intact | false |
+| PDHA1 | Biogrid | false |
+| TMEM9 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

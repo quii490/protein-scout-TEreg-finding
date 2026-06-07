@@ -167,6 +167,24 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/ANKRD35/ANKRD35-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8N283 |
+| SMART | SM00248; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR002110;IPR036770;IPR042420; |
+| Pfam | PF12796; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000198483-ANKRD35/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| MITD1 | Biogrid | false |
+| RBCK1 | Biogrid | false |
+| SUMO2 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

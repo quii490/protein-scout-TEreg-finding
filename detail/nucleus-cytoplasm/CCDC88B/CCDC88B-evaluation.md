@@ -198,3 +198,30 @@ status: scored
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CCDC88B
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/A6NC98
 - STRING: https://string-db.org/cgi/network?identifiers=CCDC88B&species=9606
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | A6NC98 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR036872;IPR043936; |
+| Pfam | PF19047; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000168071-CCDC88B/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| BEX2 | Intact | false |
+| C1orf109 | Intact | false |
+| CDK18 | Intact | false |
+| CWF19L2 | Intact | false |
+| DEF6 | Intact | false |
+| EXOSC5 | Intact | false |
+| FAM161A | Intact | false |
+| FAM161B | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

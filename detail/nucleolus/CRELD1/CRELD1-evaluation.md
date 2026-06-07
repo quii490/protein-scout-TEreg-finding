@@ -116,6 +116,23 @@ HPA 免疫荧光（IF）实验数据确认 CRELD1 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96HD1 |
+| SMART | SM00181;SM00179;SM00261; |
+| UniProt Domain [FT] | DOMAIN 153..193; /note="EGF-like 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00076"; DOMAIN 305..344; /note="EGF-like 2; calcium-binding"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00076" |
+| InterPro | IPR021852;IPR050751;IPR000742;IPR001881;IPR000152;IPR018097;IPR006212;IPR009030;IPR002049;IPR049883; |
+| Pfam | PF11938;PF07645; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000163703-CRELD1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| RER1 | Opencell | false |
+| SLC35F6 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -191,6 +191,29 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/FAU/FAU-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P62861 |
+| SMART | SM00213; |
+| UniProt Domain [FT] | DOMAIN 1..74; /note="Ubiquitin-like"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00214" |
+| InterPro | IPR039415;IPR006846;IPR000626;IPR029071;IPR019954;IPR019956; |
+| Pfam | PF04758;PF00240; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000149806-FAU/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| BYSL | Biogrid, Opencell | true |
+| NPM1 | Biogrid, Opencell | true |
+| RIOK1 | Biogrid, Opencell | true |
+| RPL11 | Biogrid, Opencell | true |
+| RPL5 | Biogrid, Opencell | true |
+| RPS16 | Biogrid, Opencell | true |
+| TSR1 | Biogrid, Opencell | true |
+| ACE2 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

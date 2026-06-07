@@ -171,3 +171,30 @@ status: rejected
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/P55884
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P55884 |
+| SMART | SM00360; |
+| UniProt Domain [FT] | DOMAIN 185..268; /note="RRM"; /evidence="ECO:0000255\|HAMAP-Rule:MF_03001" |
+| InterPro | IPR011400;IPR034363;IPR012677;IPR035979;IPR000504;IPR013979;IPR015943; |
+| Pfam | PF08662;PF00076; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000106263-EIF3B/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CAPZB | Biogrid, Opencell | true |
+| CSNK2A1 | Biogrid, Opencell | true |
+| DDX3X | Intact, Biogrid | true |
+| EIF3A | Intact, Biogrid, Opencell | true |
+| EIF3C | Intact, Biogrid | true |
+| EIF3D | Intact, Biogrid, Opencell | true |
+| EIF3E | Intact, Biogrid, Opencell | true |
+| EIF3F | Intact, Biogrid, Opencell | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -166,3 +166,24 @@ High-confidence interactors (score >= 0.7): 7. Total STRING interactions: 15. In
 - STRING: https://string-db.org/ (search SERPINB13)
 - IntAct: https://www.ebi.ac.uk/intact/ (search SERPINB13)
 - Harvest packet: SERPINB13.json
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9UIV8 |
+| SMART | SM00093; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR023795;IPR023796;IPR000215;IPR036186;IPR042178;IPR042185; |
+| Pfam | PF00079; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000197641-SERPINB13/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| BRAF | Intact | false |
+| DLG2 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

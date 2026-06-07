@@ -116,6 +116,29 @@ HPA 免疫荧光（IF）实验数据确认 TIFA 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96CG3 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 47..103; /note="FHA"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00086" |
+| InterPro | IPR000253;IPR008984;IPR033621; |
+| Pfam | PF00498; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000145365-TIFA/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| DVL2 | Intact, Biogrid | true |
+| RIPPLY3 | Intact, Biogrid | true |
+| SDCBP2 | Intact, Biogrid | true |
+| TRAF2 | Intact, Biogrid | true |
+| TRAF6 | Intact, Biogrid | true |
+| AP1M1 | Intact | false |
+| ARHGEF39 | Intact | false |
+| BIRC2 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

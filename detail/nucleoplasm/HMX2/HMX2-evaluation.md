@@ -153,3 +153,24 @@ HMX2 是 Homeobox 转录因子，PubMed 仅 37 篇，非常新颖。但 HPA 无�
 
 ![](https://alphafold.ebi.ac.uk/files/AF-A2RU54-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | A2RU54 |
+| SMART | SM00389; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR001356;IPR020479;IPR051300;IPR017970;IPR009057; |
+| Pfam | PF00046; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000188816-HMX2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CALB2 | Bioplex | false |
+| LHPP | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -186,3 +186,30 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-O76003-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O76003 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 2..117; /note="Thioredoxin"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00691"; DOMAIN 144..236; /note="Glutaredoxin 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00686"; DOMAIN 237..335; /note="Glutaredoxin 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00686" |
+| InterPro | IPR002109;IPR033658;IPR004480;IPR036249;IPR013766; |
+| Pfam | PF00462;PF00085; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000108010-GLRX3/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| BOLA1 | Intact, Biogrid, Bioplex | true |
+| BOLA2B | Intact, Biogrid | true |
+| CA9 | Intact, Biogrid | true |
+| CIAPIN1 | Intact, Biogrid | true |
+| GRN | Intact, Biogrid | true |
+| KRTAP5-6 | Intact, Biogrid | true |
+| MOXD1 | Intact, Biogrid | true |
+| PLSCR1 | Intact, Biogrid | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -131,3 +131,21 @@ Score: 58/180. Very low score across all dimensions except novelty. While RMP64 
 
 ## Manual Review Note
 CONFIRMED REJECTION. RMP64 is a recently characterized component of the human RNase MRP complex involved in pre-rRNA processing. Its function is ribosomal biogenesis, not chromatin/transcriptional regulation. While it is nucleolar (nuclear subcompartment), this reflects its role in rRNA processing. No evidence supports TE-regulatory function. PubMed count of 4 indicates it is newly identified and under-characterized, but the known function is not relevant to TE biology.
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q6NW34 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR052835;IPR027951; |
+| Pfam | PF14780; |
+
+### humanPPI / HPA Interaction
+Source: 未找到 HPA interaction 页面
+
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

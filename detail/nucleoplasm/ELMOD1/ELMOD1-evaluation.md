@@ -186,6 +186,22 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/ELMOD1/ELMOD1-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8N336 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 133..314; /note="ELMO"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00664" |
+| InterPro | IPR006816;IPR050868; |
+| Pfam | PF04727; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000110675-ELMOD1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| RHOA | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

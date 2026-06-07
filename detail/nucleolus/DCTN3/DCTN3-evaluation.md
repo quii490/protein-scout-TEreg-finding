@@ -125,6 +125,29 @@ HPA 免疫荧光（IF）实验数据确认 DCTN3 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O75935 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR009991; |
+| Pfam | PF07426; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000137100-DCTN3/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CAPZB | Biogrid, Opencell | true |
+| DCTN1 | Intact, Biogrid | true |
+| DCTN2 | Intact, Biogrid, Opencell | true |
+| DYNC1I2 | Biogrid, Opencell | true |
+| ACTG1 | Opencell | false |
+| ACTR1A | Biogrid | false |
+| ACTR1B | Biogrid | false |
+| CAPZA2 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -194,6 +194,24 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CREBRF/CREBRF-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8IUR6 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 521..584; /note="bZIP" |
+| InterPro | IPR004827;IPR046347;IPR039165; |
+| Pfam | 未检出 |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000164463-CREBRF/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CREBL2 | Intact | false |
+| NAA10 | Intact | false |
+| NAA11 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

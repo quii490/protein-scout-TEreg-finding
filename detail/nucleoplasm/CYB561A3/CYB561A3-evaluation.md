@@ -160,4 +160,29 @@ IntAct 有限记录。无 BioGrid 补充数据。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CYB561A3/CYB561A3-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8NBI2 |
+| SMART | SM00665; |
+| UniProt Domain [FT] | DOMAIN 12..219; /note="Cytochrome b561"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00242" |
+| InterPro | IPR043205;IPR006593; |
+| Pfam | PF03188; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000162144-CYB561A3/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| AGPAT5 | Intact | false |
+| AQP6 | Intact | false |
+| CD40 | Intact | false |
+| CD79A | Intact | false |
+| CLDN5 | Intact | false |
+| CLDN7 | Intact | false |
+| CREB3L3 | Intact | false |
+| EHHADH | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -133,3 +133,30 @@ The original rejection of RIBC1 was correct. This is a sperm flagellum/ciliary a
 - HPA: https://www.proteinatlas.org/ENSG00000158423-RIBC1
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22RIBC1%22
 - Note: Harvest packet not available; data compiled from UniProt and literature database queries
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8N443 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR008805; |
+| Pfam | PF05914; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000158423-RIBC1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CNOT2 | Biogrid, Bioplex | true |
+| ATP6V0D2 | Intact | false |
+| BORCS6 | Intact | false |
+| BPIFA1 | Bioplex | false |
+| BPIFB1 | Bioplex | false |
+| CCNC | Intact | false |
+| CNOT11 | Bioplex | false |
+| CNOT3 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

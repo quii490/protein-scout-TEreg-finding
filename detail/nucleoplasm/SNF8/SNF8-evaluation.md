@@ -147,3 +147,30 @@ Score: 112/180. SNF8 has a documented nuclear moonlighting function in transcrip
 
 ## Manual Review Note
 MODERATE CANDIDATE with nuclear moonlighting. SNF8 (EAP30) is a core component of ESCRT-II, a complex essential for multivesicular body sorting at endosomes. However, SNF8 has a well-documented moonlighting role in the nucleus: it participates in transcription derepression through interaction with ELL (transcription elongation factor). The UniProt interaction network is striking -- KDM1A/LSD1 (histone demethylase), SMARCD1 (SWI/SNF), POLR2A, and PRMT6 all point to chromatin-level function. The HPA detects SNF8 in nucleoplasm (additional location). While the primary function is endosomal, the nuclear PPI connections are too chromatin-relevant to dismiss. Retained for further evaluation of its nuclear regulatory function.
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96H20 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR016689;IPR040608;IPR036388;IPR036390; |
+| Pfam | PF04157; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000159210-SNF8/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CHMP6 | Biogrid, Bioplex | true |
+| ELL | Intact, Biogrid | true |
+| KDM1A | Intact, Biogrid | true |
+| MCM2 | Intact, Biogrid | true |
+| PRMT6 | Intact, Biogrid | true |
+| VAC14 | Intact, Biogrid | true |
+| VPS25 | Intact, Biogrid, Opencell, Bioplex | true |
+| VPS36 | Intact, Biogrid, Opencell | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

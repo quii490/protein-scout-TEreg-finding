@@ -134,6 +134,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleolus/ABTB1/ABTB1-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q969K4 |
+| SMART | SM00248;SM00225; |
+| UniProt Domain [FT] | DOMAIN 115..182; /note="BTB 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00037"; DOMAIN 272..346; /note="BTB 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00037" |
+| InterPro | IPR044515;IPR002110;IPR036770;IPR000210;IPR011333; |
+| Pfam | PF12796;PF00651; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000114626-ABTB1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CUL3 | Intact, Biogrid | true |
+| EEF1A2 | Intact, Biogrid, Bioplex | true |
+| EEF1D | Intact, Biogrid | true |
+| ATXN1 | Intact | false |
+| CAPRIN1 | Biogrid | false |
+| DNTTIP1 | Biogrid | false |
+| TARDBP | Intact | false |
+| TRIM4 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

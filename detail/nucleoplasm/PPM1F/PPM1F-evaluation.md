@@ -181,3 +181,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 ![](https://images.proteinatlas.org/30989/398_E5_1_red_green.jpg)
 ![](https://images.proteinatlas.org/30989/398_E5_2_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P49593 |
+| SMART | SM00331;SM00332; |
+| UniProt Domain [FT] | DOMAIN 156..413; /note="PPM-type phosphatase"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01082" |
+| InterPro | IPR015655;IPR000222;IPR036457;IPR001932; |
+| Pfam | PF00481; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000100034-PPM1F/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| FEM1B | Intact, Biogrid | true |
+| DIAPH1 | Intact | false |
+| KLK15 | Bioplex | false |
+| LATS1 | Biogrid | false |
+| PRKAA1 | Biogrid | false |
+| PRKN | Biogrid | false |
+| RBCK1 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

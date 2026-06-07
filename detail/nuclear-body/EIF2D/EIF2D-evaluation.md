@@ -170,3 +170,25 @@ status: scored
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/P41214
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P41214 |
+| SMART | SM00359; |
+| UniProt Domain [FT] | DOMAIN 93..173; /note="PUA"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00161"; DOMAIN 383..467; /note="SWIB/MDM2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01273"; DOMAIN 491..564; /note="SUI1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00200" |
+| InterPro | IPR039757;IPR048247;IPR039759;IPR041366;IPR002478;IPR015947;IPR048248;IPR001950;IPR036877;IPR058886;IPR036885;IPR003121;IPR057429; |
+| Pfam | PF17832;PF26292;PF01253;PF26291;PF25304; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000143486-EIF2D/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| EIF1 | Biogrid | false |
+| EIF1B | Biogrid | false |
+| HARS1 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

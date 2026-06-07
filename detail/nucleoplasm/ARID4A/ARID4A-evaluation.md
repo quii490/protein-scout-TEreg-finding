@@ -195,3 +195,30 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-P29374-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P29374 |
+| SMART | SM01014;SM00501;SM00298;SM00333; |
+| UniProt Domain [FT] | DOMAIN 309..401; /note="ARID"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00355"; DOMAIN 576..628; /note="Tudor-knot"; /evidence="ECO:0000255" |
+| InterPro | IPR051232;IPR012603;IPR001606;IPR036431;IPR047473;IPR016197;IPR000953;IPR002999;IPR025995;IPR047472; |
+| Pfam | PF01388;PF08169;PF11717; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000032219-ARID4A/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| BRMS1 | Intact, Biogrid | true |
+| HDAC1 | Biogrid, Opencell, Bioplex | true |
+| HDAC2 | Biogrid, Opencell | true |
+| ING2 | Biogrid, Bioplex | true |
+| RBBP7 | Biogrid, Bioplex | true |
+| SAP30 | Biogrid, Bioplex | true |
+| SINHCAF | Biogrid, Bioplex | true |
+| CCND1 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

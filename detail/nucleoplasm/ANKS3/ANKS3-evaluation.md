@@ -64,3 +64,25 @@ STRING: ANKS6 (0.994, exp 0.970)、NEK7 (0.937, exp 0.739)、NEK8 (0.913, exp 0.
 ![](https://images.proteinatlas.org/41409/486_B6_2_red_green.jpg)
 ![](https://images.proteinatlas.org/41409/486_B6_3_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q6ZW76 |
+| SMART | SM00248;SM00454; |
+| UniProt Domain [FT] | DOMAIN 425..488; /note="SAM"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00184" |
+| InterPro | IPR047238;IPR002110;IPR036770;IPR001660;IPR013761; |
+| Pfam | PF12796;PF13637;PF00536; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000168096-ANKS3/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ANKS6 | Intact, Biogrid | true |
+| NEK7 | Intact, Biogrid | true |
+| NEK8 | Intact, Biogrid | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -180,6 +180,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CRTC3/CRTC3-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q6UUV7 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR024786;IPR024785;IPR024784;IPR024783; |
+| Pfam | PF12886;PF12885;PF12884; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000140577-CRTC3/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| YWHAB | Biogrid, Opencell | true |
+| YWHAE | Biogrid, Opencell | true |
+| YWHAG | Intact, Biogrid, Opencell | true |
+| YWHAH | Biogrid, Opencell | true |
+| YWHAZ | Biogrid, Opencell | true |
+| CA13 | Intact | false |
+| CENPJ | Biogrid | false |
+| DCAF7 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

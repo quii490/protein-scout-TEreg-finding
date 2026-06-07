@@ -192,3 +192,30 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 ![](https://images.proteinatlas.org/76497/1680_G1_2_red_green.jpg)
 ![](https://images.proteinatlas.org/76497/1680_G1_6_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O75478 |
+| SMART | SM00717; |
+| UniProt Domain [FT] | DOMAIN 70..122; /note="SANT"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00624"; DOMAIN 356..443; /note="SWIRM"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00247" |
+| InterPro | IPR041983;IPR016827;IPR009057;IPR017930;IPR001005;IPR017884;IPR007526;IPR055141;IPR036388;IPR000433;IPR043145; |
+| Pfam | PF00249;PF04433;PF22941;PF25299; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000276234-TADA2A/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ACTC1 | Biogrid | false |
+| ATXN7 | Biogrid | false |
+| CCDC134 | Biogrid | false |
+| CDK8 | Biogrid | false |
+| DR1 | Biogrid | false |
+| HDAC1 | Biogrid | false |
+| HGS | Biogrid | false |
+| HNF4A | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

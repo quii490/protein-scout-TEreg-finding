@@ -116,6 +116,28 @@ HPA 免疫荧光（IF）实验数据确认 TNNC1 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P19429 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR001978;IPR021666;IPR050875;IPR038077; |
+| Pfam | PF00992;PF11636; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000114854-TNNC1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| TNNI1 | Intact, Biogrid | true |
+| TNNI2 | Intact, Biogrid, Bioplex | true |
+| TNNI3 | Intact, Biogrid, Bioplex | true |
+| CD33 | Bioplex | false |
+| KCNN4 | Bioplex | false |
+| MIDN | Bioplex | false |
+| TRIM63 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

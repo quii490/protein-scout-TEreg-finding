@@ -176,3 +176,27 @@ PAE image data not yet available (local image not generated or not reliably fetc
 ![](https://images.proteinatlas.org/71191/1476_C1_1_blue_red_green.jpg)
 ![](https://images.proteinatlas.org/71191/1476_C1_2_blue_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q6PUV4 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR008849; |
+| Pfam | PF05835; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000145920-CPLX2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CPLX1 | Bioplex | false |
+| DHX16 | Bioplex | false |
+| MYG1 | Intact | false |
+| SRP54 | Bioplex | false |
+| TSFM | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

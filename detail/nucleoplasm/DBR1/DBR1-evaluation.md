@@ -161,6 +161,26 @@ status: scored
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9UK59 |
+| SMART | SM01124; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR004843;IPR007708;IPR041816;IPR029052; |
+| Pfam | PF05011;PF00149; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000138231-DBR1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CSNK1A1 | Biogrid, Opencell | true |
+| MPLKIP | Bioplex | false |
+| PLK1 | Biogrid | false |
+| PRKN | Biogrid | false |
+| TBP | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

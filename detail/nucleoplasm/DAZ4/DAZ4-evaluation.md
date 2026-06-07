@@ -167,3 +167,21 @@ status: scored
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q86SG3
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q86SG3 |
+| SMART | SM00360; |
+| UniProt Domain [FT] | DOMAIN 40..115; /note="RRM 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00176"; DOMAIN 205..280; /note="RRM 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00176"; DOMAIN 332..355; /note="DAZ 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01238"; DOMAIN 356..379; /note="DAZ 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01238"; DOMAIN 380..403; /note="DAZ 3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01238"; DOMAIN 404..427; /note="DAZ 4"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01238"; DOMAIN 428..451; /note="DAZ 5"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01238"; DOMAIN 452..475; /note="DAZ 6"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01238"; DOMAIN 476..499; /note="DAZ 7"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01238"; DOMAIN 500..523; /note="DAZ 8"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01238"; DOMAIN 524..547; /note="DAZ 9"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01238" |
+| InterPro | IPR043628;IPR037551;IPR012677;IPR035979;IPR000504; |
+| Pfam | PF18872;PF00076; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000205916-DAZ4/interaction
+
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

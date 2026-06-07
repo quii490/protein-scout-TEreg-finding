@@ -190,6 +190,29 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/EXOC8/EXOC8-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8IYI6 |
+| SMART | SM00233; |
+| UniProt Domain [FT] | DOMAIN 182..282; /note="PH"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00145" |
+| InterPro | IPR016159;IPR033961;IPR032403;IPR042561;IPR042560;IPR011993;IPR001849; |
+| Pfam | PF16528;PF08700; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000116903-EXOC8/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| BECN1 | Intact, Biogrid | true |
+| EXOC1 | Intact, Biogrid | true |
+| EXOC2 | Intact, Biogrid, Bioplex | true |
+| EXOC3 | Intact, Biogrid | true |
+| EXOC4 | Intact, Biogrid, Bioplex | true |
+| EXOC5 | Intact, Biogrid, Bioplex | true |
+| EXOC6 | Intact, Biogrid, Bioplex | true |
+| EXOC6B | Intact, Biogrid, Bioplex | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

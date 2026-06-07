@@ -183,6 +183,20 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CCNQ/CCNQ-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8N1B3 |
+| SMART | SM00385; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR013763;IPR036915;IPR048055;IPR048053;IPR043198;IPR006671; |
+| Pfam | PF00134;PF21797; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000262919-CCNQ/interaction
 
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

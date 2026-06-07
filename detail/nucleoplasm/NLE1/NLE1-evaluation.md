@@ -199,3 +199,30 @@ The nuclear localization and functional profile make it a strong candidate for T
 ![](https://images.proteinatlas.org/18807/117_C2_1_red_green.jpg)
 ![](https://images.proteinatlas.org/18807/117_C2_2_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9NVX2 |
+| SMART | SM00320; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR012972;IPR015943;IPR001632;IPR020472;IPR019775;IPR036322;IPR001680; |
+| Pfam | PF08154;PF00400; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000073536-NLE1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CCT2 | Biogrid, Bioplex | true |
+| GNL3 | Intact, Biogrid | true |
+| NSA2 | Biogrid, Bioplex | true |
+| CCT5 | Biogrid | false |
+| GNL2 | Biogrid | false |
+| GPATCH4 | Biogrid | false |
+| MDN1 | Biogrid | false |
+| MYC | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

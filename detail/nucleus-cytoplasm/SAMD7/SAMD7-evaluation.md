@@ -157,3 +157,28 @@ SAMD7 是极具吸引力的候选蛋白。作为细胞类型特异性 PRC1 compo
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q7Z3H4-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q7Z3H4 |
+| SMART | SM00454; |
+| UniProt Domain [FT] | DOMAIN 327..392; /note="SAM"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00184" |
+| InterPro | IPR050548;IPR001660;IPR013761; |
+| Pfam | PF00536; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000187033-SAMD7/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| KRTAP3-1 | Intact | false |
+| KRTAP6-2 | Intact | false |
+| KRTAP6-3 | Intact | false |
+| OIP5 | Intact | false |
+| RNF11 | Intact | false |
+| WFS1 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

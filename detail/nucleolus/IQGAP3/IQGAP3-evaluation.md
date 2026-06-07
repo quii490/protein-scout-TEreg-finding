@@ -154,6 +154,29 @@ HPA 免疫荧光（IF）实验数据确认 IQGAP3 定位：
 
 **补充结论**: PPI 评分仍以报告评分表为准；本节用于补齐 IntAct、STRING、GO-CC 三源审计证据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q86VI3 |
+| SMART | SM00033;SM00015;SM00323; |
+| UniProt Domain [FT] | DOMAIN 34..149; /note="Calponin-homology (CH)"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00044"; DOMAIN 730..759; /note="IQ 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00116"; DOMAIN 760..789; /note="IQ 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00116"; DOMAIN 790..819; /note="IQ 3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00116"; DOMAIN 820..849; /note="IQ 4"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00116"; DOMAIN 1004..1253; /note="Ras-GAP"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00167" |
+| InterPro | IPR001715;IPR036872;IPR000048;IPR000593;IPR023152;IPR001936;IPR008936; |
+| Pfam | PF00307;PF00612;PF00616;PF03836; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000183856-IQGAP3/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CALM1 | Biogrid, Opencell | true |
+| CALM2 | Biogrid, Opencell | true |
+| CDC42 | Biogrid, Opencell, Bioplex | true |
+| RAC1 | Intact, Biogrid | true |
+| ACTL6B | Bioplex | false |
+| AMZ1 | Bioplex | false |
+| ANLN | Biogrid | false |
+| APBA3 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

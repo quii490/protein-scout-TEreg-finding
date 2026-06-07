@@ -69,3 +69,25 @@ STRING: RIN1 (0.627)、RASAL2 (0.626, exp 0.620)、DAB2IP (0.623, exp 0.618)、A
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q7Z6G8-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q7Z6G8 |
+| SMART | SM00248;SM00462;SM00454; |
+| UniProt Domain [FT] | DOMAIN 810..876; /note="SAM 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00184"; DOMAIN 884..949; /note="SAM 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00184"; DOMAIN 1056..1213; /note="PID"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00148" |
+| InterPro | IPR033635;IPR002110;IPR036770;IPR011993;IPR006020;IPR001660;IPR013761;IPR041880;IPR041882; |
+| Pfam | PF12796;PF00640;PF00536; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000185046-ANKS1B/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| APP | Biogrid | false |
+| RIN1 | Biogrid | false |
+| UBC | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

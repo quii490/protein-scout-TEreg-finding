@@ -173,3 +173,30 @@ HPA IF 图像已本地嵌入。
 
 ![](https://alphafold.ebi.ac.uk/files/AF-P49840-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P49840 |
+| SMART | SM00220; |
+| UniProt Domain [FT] | DOMAIN 119..403; /note="Protein kinase"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00159" |
+| InterPro | IPR050591;IPR011009;IPR000719;IPR017441;IPR008271;IPR039192; |
+| Pfam | PF00069; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000105723-GSK3A/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| AKAP11 | Intact, Biogrid | true |
+| AXIN1 | Intact, Biogrid, Opencell | true |
+| AXIN2 | Intact, Biogrid, Bioplex | true |
+| DEAF1 | Intact, Biogrid | true |
+| FBXO42 | Intact, Biogrid | true |
+| FRAT1 | Intact, Biogrid, Bioplex | true |
+| GSK3B | Biogrid, Opencell | true |
+| GSKIP | Intact, Biogrid, Opencell, Bioplex | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -116,6 +116,29 @@ HPA 免疫荧光（IF）实验数据确认 RHOBTB1 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O94844 |
+| SMART | SM00225;SM00175;SM00173;SM00174; |
+| UniProt Domain [FT] | DOMAIN 266..427; /note="BTB 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00037"; DOMAIN 485..552; /note="BTB 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00037" |
+| InterPro | IPR000210;IPR027417;IPR011333;IPR001806;IPR003578; |
+| Pfam | PF00651;PF00071; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000072422-RHOBTB1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| COPS7B | Biogrid, Bioplex | true |
+| APBB3 | Bioplex | false |
+| CACYBP | Biogrid | false |
+| CAMSAP1 | Biogrid | false |
+| COIL | Biogrid | false |
+| COPS5 | Biogrid | false |
+| COPS6 | Biogrid | false |
+| COPS7A | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

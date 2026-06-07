@@ -116,6 +116,25 @@ HPA 免疫荧光（IF）实验数据确认 TAPT1 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q6NXT6 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR008010; |
+| Pfam | PF05346; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000169762-TAPT1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| LRRC59 | Biogrid | false |
+| SEC61B | Biogrid | false |
+| SMAD1 | Biogrid | false |
+| SMURF1 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

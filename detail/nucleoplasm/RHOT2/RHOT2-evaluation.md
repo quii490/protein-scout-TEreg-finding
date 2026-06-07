@@ -136,3 +136,30 @@ RHOT2 is a mitochondrial outer membrane protein. The minor "uncertain" HPA nucle
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22RHOT2%22+OR+%22MIRO2%22
 - RefSeq: NM_138769
 - Note: Harvest packet not available; data compiled from UniProt and literature database queries
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8IXI1 |
+| SMART | SM00175;SM00173;SM00174; |
+| UniProt Domain [FT] | DOMAIN 2..168; /note="Miro 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00757"; DOMAIN 184..219; /note="EF-hand 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00448"; DOMAIN 304..339; /note="EF-hand 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00448"; DOMAIN 414..576; /note="Miro 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00757" |
+| InterPro | IPR011992;IPR018247;IPR013566;IPR013567;IPR002048;IPR021181;IPR052266;IPR020860;IPR027417;IPR001806; |
+| Pfam | PF08355;PF08356;PF00071; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000140983-RHOT2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| AKAP1 | Biogrid, Bioplex | true |
+| IPO5 | Biogrid, Opencell | true |
+| MGARP | Biogrid, Bioplex | true |
+| TRAK1 | Intact, Biogrid | true |
+| AIFM1 | Biogrid | false |
+| APLNR | Bioplex | false |
+| C9orf72 | Biogrid | false |
+| DKKL1 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

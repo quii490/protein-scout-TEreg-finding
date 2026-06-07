@@ -185,3 +185,30 @@ status: scored
 
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/EML3/EML3-PAE.png]]
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q32P44 |
+| SMART | SM00320; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR055442;IPR055439;IPR005108;IPR011047;IPR015943;IPR001680;IPR050630; |
+| Pfam | PF23409;PF23414;PF03451; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000149499-EML3/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| DYNLL1 | Biogrid, Opencell | true |
+| DYNLL2 | Biogrid, Opencell | true |
+| NEK6 | Intact, Biogrid | true |
+| NEK7 | Biogrid, Bioplex | true |
+| YWHAG | Intact, Biogrid | true |
+| YWHAQ | Intact, Biogrid | true |
+| ATXN1 | Intact | false |
+| CHCHD2 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

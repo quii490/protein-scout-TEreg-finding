@@ -181,3 +181,30 @@ status: rejected
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q27J81-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q27J81 |
+| SMART | SM01139;SM01140;SM00498; |
+| UniProt Domain [FT] | DOMAIN 2..330; /note="GBD/FH3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00579"; DOMAIN 554..946; /note="FH2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00774"; DOMAIN 974..989; /note="WH2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00406" |
+| InterPro | IPR011989;IPR016024;IPR015425;IPR042201;IPR010472;IPR014768;IPR010473;IPR003124; |
+| Pfam | PF06367;PF06371;PF02181;PF02205; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000203485-INF2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ACTB | Biogrid, Opencell | true |
+| ACTG1 | Opencell | false |
+| ANLN | Biogrid | false |
+| CALD1 | Opencell | false |
+| CALM1 | Opencell | false |
+| CALM2 | Opencell | false |
+| CALM3 | Opencell | false |
+| CAPZB | Opencell | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

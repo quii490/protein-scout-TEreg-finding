@@ -159,3 +159,30 @@ SAP130's PPI network is focused on the SIN3A-HDAC corepressor complex. The inter
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=SAP130
 - NCBI Gene: https://www.ncbi.nlm.nih.gov/gene/79595
 - Note: SAP130 is distinct from SF3B3; harvest packet not available; data compiled from UniProt and literature database queries
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q15393 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR018846;IPR058543;IPR050358;IPR004871;IPR015943;IPR036322; |
+| Pfam | PF10433;PF23726;PF03178; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000136715-SAP130/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| HDAC1 | Biogrid, Opencell, Bioplex | true |
+| HDAC2 | Biogrid, Opencell | true |
+| ING2 | Biogrid, Bioplex | true |
+| RBBP7 | Biogrid, Bioplex | true |
+| SAP30 | Biogrid, Bioplex | true |
+| SINHCAF | Biogrid, Bioplex | true |
+| ARID4B | Biogrid | false |
+| BRD4 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

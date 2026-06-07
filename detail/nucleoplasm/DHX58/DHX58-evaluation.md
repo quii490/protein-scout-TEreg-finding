@@ -180,3 +180,30 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q96C10-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96C10 |
+| SMART | SM00487;SM00490; |
+| UniProt Domain [FT] | DOMAIN 11..188; /note="Helicase ATP-binding"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00541"; DOMAIN 350..514; /note="Helicase C-terminal"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00542"; DOMAIN 539..669; /note="RLR CTR"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01125" |
+| InterPro | IPR006935;IPR014001;IPR001650;IPR027417;IPR041204;IPR038557;IPR021673;IPR051363; |
+| Pfam | PF00271;PF04851;PF18119;PF11648; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000108771-DHX58/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| AGO2 | Intact, Biogrid | true |
+| DHX30 | Intact, Biogrid | true |
+| DICER1 | Intact, Biogrid | true |
+| EIF2AK2 | Intact, Biogrid | true |
+| EIF6 | Intact, Biogrid | true |
+| NKRF | Intact, Biogrid | true |
+| STAU2 | Intact, Biogrid | true |
+| IFI16 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -187,3 +187,30 @@ status: rejected
 
 ![](https://alphafold.ebi.ac.uk/files/AF-O43463-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O43463 |
+| SMART | SM00298;SM00508;SM00468;SM00317; |
+| UniProt Domain [FT] | DOMAIN 43..101; /note="Chromo"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00053"; DOMAIN 179..240; /note="Pre-SET"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00157"; DOMAIN 243..366; /note="SET"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00190"; DOMAIN 396..412; /note="Post-SET"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00155" |
+| InterPro | IPR016197;IPR000953;IPR023780;IPR023779;IPR011381;IPR050973;IPR003616;IPR007728;IPR001214;IPR046341; |
+| Pfam | PF00385;PF05033;PF00856; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000101945-SUV39H1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ATE1 | Intact, Biogrid | true |
+| BCL11B | Intact, Biogrid | true |
+| C8orf74 | Intact, Biogrid | true |
+| CBX1 | Intact, Biogrid, Bioplex | true |
+| CBX3 | Intact, Biogrid, Bioplex | true |
+| CBX5 | Intact, Biogrid, Bioplex | true |
+| CDCA4 | Intact, Biogrid | true |
+| CLK3 | Intact, Biogrid | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -176,3 +176,26 @@ This gene exceeds the PubMed>100 threshold for automatic rejection. However, its
 ![](https://images.proteinatlas.org/8399/75_D10_1_red_green.jpg)
 ![](https://images.proteinatlas.org/8399/75_D10_2_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P09960 |
+| SMART | SM01263; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR045357;IPR042097;IPR016024;IPR012777;IPR049980;IPR038502;IPR034015;IPR001930;IPR015211;IPR014782;IPR027268; |
+| Pfam | PF09127;PF01433;PF17900; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000111144-LTA4H/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| COPB2 | Opencell | false |
+| PRKN | Biogrid | false |
+| SAR1B | Opencell | false |
+| TINF2 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -64,3 +64,30 @@ STRING: RIN1 (0.790, exp 0.773)、DAB2IP (0.771, exp 0.756)、EGFR (0.752, exp 0
 ![](https://images.proteinatlas.org/36768/408_B4_1_red_green.jpg)
 ![](https://images.proteinatlas.org/36768/408_B4_2_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q92625 |
+| SMART | SM00248;SM00462;SM00454; |
+| UniProt Domain [FT] | DOMAIN 696..762; /note="SAM 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00184"; DOMAIN 770..837; /note="SAM 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00184"; DOMAIN 936..1091; /note="PID"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00148" |
+| InterPro | IPR033635;IPR002110;IPR036770;IPR011993;IPR006020;IPR001660;IPR013761;IPR041880;IPR041882; |
+| Pfam | PF12796;PF00640;PF00536; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000064999-ANKS1A/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| EGFR | Intact, Biogrid | true |
+| SFN | Intact, Biogrid | true |
+| YWHAG | Intact, Biogrid | true |
+| ASB6 | Bioplex | false |
+| CIAO2A | Bioplex | false |
+| D2HGDH | Bioplex | false |
+| DAB2IP | Biogrid | false |
+| DOK3 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

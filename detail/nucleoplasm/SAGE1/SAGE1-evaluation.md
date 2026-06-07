@@ -148,3 +148,21 @@ BORDERLINE REJECTION. SAGE1 has one of the strongest HPA nuclear profiles in thi
 ![](https://images.proteinatlas.org/3033/5_H6_1_red_green.jpg)
 ![](https://images.proteinatlas.org/3033/5_H6_2_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9NXZ1 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR029307;IPR051113; |
+| Pfam | PF15300; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000181433-SAGE1/interaction
+
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

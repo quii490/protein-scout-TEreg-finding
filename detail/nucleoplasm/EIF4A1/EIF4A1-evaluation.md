@@ -188,3 +188,30 @@ status: rejected
 
 ![](https://alphafold.ebi.ac.uk/files/AF-P60842-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P60842 |
+| SMART | SM00487;SM00490; |
+| UniProt Domain [FT] | DOMAIN 63..234; /note="Helicase ATP-binding"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00541"; DOMAIN 245..406; /note="Helicase C-terminal"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00542" |
+| InterPro | IPR011545;IPR044728;IPR014001;IPR001650;IPR027417;IPR000629;IPR014014; |
+| Pfam | PF00270;PF00271; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000161960-EIF4A1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ATXN2 | Biogrid, Opencell | true |
+| EIF3A | Intact, Biogrid | true |
+| EIF3B | Biogrid, Opencell | true |
+| EIF3G | Biogrid, Opencell | true |
+| EIF3I | Biogrid, Opencell | true |
+| EIF4E | Intact, Biogrid, Opencell | true |
+| EIF4G1 | Intact, Biogrid | true |
+| EIF4G2 | Intact, Biogrid, Opencell | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

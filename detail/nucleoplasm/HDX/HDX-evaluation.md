@@ -159,3 +159,30 @@ HDX was likely auto-rejected due to: PubMed>100
 *Status: CONFIRMED REJECTION per PubMed>100 – exception review recommended*
 
 This gene exceeds the automated rejection threshold (PubMed>100). While functional evidence is relevant to TE biology, pipeline rules dictate exclusion. If exception or waiver processes are available, this gene should be prioritized for reconsideration based on its functional profile.
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q7Z353 |
+| SMART | SM00389; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR001356;IPR009057;IPR050255; |
+| Pfam | 未检出 |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000165259-HDX/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| SUFU | Intact, Biogrid | true |
+| BOLA1 | Intact | false |
+| FHL5 | Intact | false |
+| GCC1 | Intact | false |
+| LMO1 | Intact | false |
+| LNX1 | Intact | false |
+| POLR1C | Intact | false |
+| RTN4IP1 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

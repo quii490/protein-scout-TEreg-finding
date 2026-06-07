@@ -181,6 +181,25 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/FAM204A/FAM204A-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9H8W3 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR037690; |
+| Pfam | 未检出 |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000165669-FAM204A/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| SMYD1 | Intact, Biogrid | true |
+| FHL2 | Intact | false |
+| KDM1A | Intact | false |
+| SPANXN2 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

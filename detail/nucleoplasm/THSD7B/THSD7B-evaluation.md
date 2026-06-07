@@ -191,3 +191,30 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q9C0I4-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9C0I4 |
+| SMART | SM00209; |
+| UniProt Domain [FT] | DOMAIN 40..98; /note="TSP type-1 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00210"; DOMAIN 102..177; /note="TSP type-1 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00210"; DOMAIN 179..233; /note="TSP type-1 3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00210"; DOMAIN 336..392; /note="TSP type-1 4"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00210"; DOMAIN 399..482; /note="TSP type-1 5"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00210"; DOMAIN 484..543; /note="TSP type-1 6"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00210"; DOMAIN 601..661; /note="TSP type-1 7"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00210"; DOMAIN 662..735; /note="TSP type-1 8"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00210"; DOMAIN 737..796; /note="TSP type-1 9"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00210"; DOMAIN 797..869; /note="TSP type-1 10"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00210"; DOMAIN 871..924; /note="TSP type-1 11"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00210"; DOMAIN 925..998; /note="TSP type-1 12"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00210"; DOMAIN 1000..1125; /note="TSP type-1 13"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00210"; DOMAIN 1127..1181; /note="TSP type-1 14"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00210"; DOMAIN 1182..1245; /note="TSP type-1 15"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00210"; DOMAIN 1247..1302; /note="TSP type-1 16"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00210"; DOMAIN 1303..1368; /note="TSP type-1 17"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00210"; DOMAIN 1370..1431; /note="TSP type-1 18"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00210" |
+| InterPro | IPR051418;IPR000884;IPR036383;IPR044004;IPR056991; |
+| Pfam | PF19030;PF19028;PF23308;PF00090; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000144229-THSD7B/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| AQP6 | Intact | false |
+| ARL13B | Intact | false |
+| CISD2 | Intact | false |
+| DARS2 | Intact | false |
+| FAM209A | Intact | false |
+| FKBP7 | Intact | false |
+| GJA8 | Intact | false |
+| GPR101 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

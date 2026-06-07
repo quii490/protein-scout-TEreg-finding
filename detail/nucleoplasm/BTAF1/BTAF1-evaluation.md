@@ -189,6 +189,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/BTAF1/BTAF1-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O14981 |
+| SMART | SM00487;SM00490; |
+| UniProt Domain [FT] | DOMAIN 1278..1453; /note="Helicase ATP-binding"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00541"; DOMAIN 1636..1790; /note="Helicase C-terminal"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00542" |
+| InterPro | IPR011989;IPR016024;IPR014001;IPR001650;IPR044972;IPR044078;IPR022707;IPR027417;IPR038718;IPR049730;IPR000330; |
+| Pfam | PF12054;PF00271;PF00176; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000095564-BTAF1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| TBP | Biogrid, Opencell | true |
+| APLNR | Bioplex | false |
+| CD70 | Bioplex | false |
+| CLEC2B | Bioplex | false |
+| COMTD1 | Bioplex | false |
+| F2RL1 | Bioplex | false |
+| GPR182 | Bioplex | false |
+| GPR45 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

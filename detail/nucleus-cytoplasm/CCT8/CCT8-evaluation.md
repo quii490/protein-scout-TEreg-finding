@@ -204,3 +204,30 @@ HPA IF 图像可用 (2张)，待下载。
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CCT8
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/P50990
 - STRING: https://string-db.org/cgi/network?identifiers=CCT8&species=9606
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P50990 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR012721;IPR017998;IPR002194;IPR002423;IPR027409;IPR027413;IPR027410; |
+| Pfam | PF00118; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000156261-CCT8/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ACTB | Biogrid, Opencell | true |
+| CAPZB | Biogrid, Opencell | true |
+| CCT2 | Biogrid, Opencell, Bioplex | true |
+| CCT3 | Biogrid, Opencell, Bioplex | true |
+| CCT4 | Biogrid, Opencell | true |
+| CCT5 | Biogrid, Opencell | true |
+| CCT6A | Intact, Biogrid, Opencell | true |
+| CCT7 | Biogrid, Opencell, Bioplex | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -181,6 +181,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nuclear-speckle/ARGLU1/ARGLU1-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9NWB6 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR033371; |
+| Pfam | PF15346; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000134884-ARGLU1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| PUF60 | Intact, Biogrid | true |
+| SRPK2 | Intact, Biogrid | true |
+| AAMP | Opencell | false |
+| CD151 | Opencell | false |
+| CDKN2A | Opencell | false |
+| CENPA | Opencell | false |
+| COMMD1 | Opencell | false |
+| COMMD2 | Opencell | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

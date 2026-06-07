@@ -125,6 +125,29 @@ HPA 免疫荧光（IF）实验数据确认 TTC8 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8TAM2 |
+| SMART | SM00028; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR028796;IPR011990;IPR019734; |
+| Pfam | PF13432;PF13181; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000165533-TTC8/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| BBS1 | Intact, Biogrid | true |
+| BBS5 | Intact, Biogrid | true |
+| BBS7 | Intact, Biogrid | true |
+| LZTFL1 | Intact, Biogrid | true |
+| BBS2 | Intact | false |
+| BBS4 | Intact | false |
+| BBS9 | Intact | false |
+| IQCB1 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

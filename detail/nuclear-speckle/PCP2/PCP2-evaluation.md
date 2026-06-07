@@ -142,6 +142,25 @@ HPA 免疫荧光（IF）实验数据确认 PCP2 定位：
 
 **补充结论**: PPI 评分仍以报告评分表为准；本节用于补齐 IntAct、STRING、GO-CC 三源审计证据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q92729 |
+| SMART | SM00060;SM00137;SM00194;SM00404; |
+| UniProt Domain [FT] | DOMAIN 25..188; /note="MAM"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00128"; DOMAIN 190..275; /note="Ig-like C2-type"; DOMAIN 288..383; /note="Fibronectin type-III 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00316"; DOMAIN 386..484; /note="Fibronectin type-III 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00316"; DOMAIN 485..591; /note="Fibronectin type-III 3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00316"; DOMAIN 592..674; /note="Fibronectin type-III 4"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00316"; DOMAIN 888..1144; /note="Tyrosine-protein phosphatase 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00160"; DOMAIN 1176..1439; /note="Tyrosine-protein phosphatase 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00160" |
+| InterPro | IPR013320;IPR003961;IPR057598;IPR036116;IPR036179;IPR013783;IPR000998;IPR029021;IPR000242;IPR051622;IPR016130;IPR003595;IPR000387; |
+| Pfam | PF00041;PF23144;PF00629;PF00102; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000174788-PCP2/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| GNAI1 | Intact | false |
+| GNAI2 | Intact | false |
+| GNAI3 | Intact | false |
+| MEOX1 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

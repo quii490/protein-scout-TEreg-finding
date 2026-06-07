@@ -221,6 +221,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nuclear-envelope/ANKRD17/ANKRD17-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O75179 |
+| SMART | SM00248;SM00322; |
+| UniProt Domain [FT] | DOMAIN 1725..1789; /note="KH"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00117" |
+| InterPro | IPR051631;IPR002110;IPR036770;IPR047375;IPR004087;IPR004088;IPR036612; |
+| Pfam | PF00023;PF12796;PF13637;PF00013; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000132466-ANKRD17/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ANKHD1 | Biogrid, Opencell | true |
+| HOXB6 | Biogrid, Opencell | true |
+| BAP1 | Biogrid | false |
+| CAPZB | Opencell | false |
+| DDOST | Opencell | false |
+| ECPAS | Biogrid | false |
+| HSPA1A | Biogrid | false |
+| ILF3 | Opencell | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

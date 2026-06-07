@@ -186,3 +186,30 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q9UI30-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9UI30 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 2..119; /note="TRM112" |
+| InterPro | IPR039127;IPR005651; |
+| Pfam | PF03966; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000173113-TRMT112/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| BUD23 | Intact, Biogrid, Bioplex | true |
+| THUMPD3 | Intact, Biogrid | true |
+| ALKBH8 | Intact | false |
+| METTL5 | Intact | false |
+| N6AMT1 | Intact | false |
+| SLX9 | Biogrid | false |
+| THUMPD2 | Intact | false |
+| TRMT11 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -121,6 +121,27 @@ HPA 免疫荧光（IF）实验数据确认 PCTP 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9UKL6 |
+| SMART | SM00234; |
+| UniProt Domain [FT] | DOMAIN 1..212; /note="START"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00197" |
+| InterPro | IPR041950;IPR023393;IPR002913;IPR051213; |
+| Pfam | PF01852; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000141179-PCTP/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ACOT13 | Biogrid | false |
+| AGTRAP | Intact | false |
+| PAX3 | Biogrid | false |
+| RAD23B | Bioplex | false |
+| TPPP | Bioplex | false |
+| UBB | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

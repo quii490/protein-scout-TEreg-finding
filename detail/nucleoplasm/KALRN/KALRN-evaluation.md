@@ -180,3 +180,26 @@ status: scored
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/O60229
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O60229 |
+| SMART | SM00060;SM00409;SM00408;SM00233;SM00325;SM00220;SM00516;SM00326;SM00150; |
+| UniProt Domain [FT] | DOMAIN 35..180; /note="CRAL-TRIO"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00056"; DOMAIN 1281..1456; /note="DH 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00062"; DOMAIN 1468..1580; /note="PH 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00145"; DOMAIN 1646..1711; /note="SH3 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00192"; DOMAIN 1929..2104; /note="DH 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00062"; DOMAIN 2116..2226; /note="PH 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00145"; DOMAIN 2321..2386; /note="SH3 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00192"; DOMAIN 2471..2564; /note="Ig-like C2-type"; DOMAIN 2571..2665; /note="Fibronectin type-III"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00316"; DOMAIN 2684..2938; /note="Protein kinase"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00159" |
+| InterPro | IPR001251;IPR036865;IPR035899;IPR000219;IPR003961;IPR036116;IPR007110;IPR013783;IPR013098;IPR003599;IPR003598;IPR047054;IPR028570;IPR047053;IPR058918;IPR011009;IPR011993;IPR001849;IPR000719;IPR017441;IPR051336;IPR008271;IPR036028;IPR001452;IPR055251;IPR018159;IPR002017; |
+| Pfam | PF13716;PF00041;PF07679;PF00069;PF00621;PF16609;PF23587;PF22697;PF00435;PF23323; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000160145-KALRN/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| DISC1 | Intact | false |
+| NDEL1 | Intact | false |
+| RAC1 | Biogrid | false |
+| SNCAIP | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

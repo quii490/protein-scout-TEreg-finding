@@ -117,3 +117,30 @@ No cross-validation possible. The protein is a non-nuclear ER membrane protein w
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=RUSF1
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q96GQ5
 - Note: Harvest packet not available; data compiled from UniProt, GeneCards, and literature database queries
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96GQ5 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR006968;IPR055412;IPR054549; |
+| Pfam | PF24160;PF04884; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000140688-RUSF1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| HSD3B7 | Intact, Biogrid | true |
+| IFNGR1 | Intact, Biogrid | true |
+| APLNR | Bioplex | false |
+| AQP6 | Intact | false |
+| ARL6IP6 | Intact | false |
+| BIK | Intact | false |
+| C5orf46 | Intact | false |
+| CISD2 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

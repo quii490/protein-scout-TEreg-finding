@@ -185,6 +185,27 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nuclear-body/ENOPH1/ENOPH1-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9UHY7 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR023943;IPR027511;IPR036412;IPR006439;IPR023214; |
+| Pfam | PF00702; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000145293-ENOPH1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| RNF41 | Intact, Biogrid, Bioplex | true |
+| ACTA2 | Bioplex | false |
+| RPS27 | Intact | false |
+| TOR2A | Bioplex | false |
+| VPS52 | Bioplex | false |
+| ZNF280A | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

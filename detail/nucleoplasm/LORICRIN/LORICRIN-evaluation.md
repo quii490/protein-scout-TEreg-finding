@@ -183,3 +183,29 @@ status: rejected
 
 ![](https://alphafold.ebi.ac.uk/files/AF-P23490-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P23490 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR031700; |
+| Pfam | PF15847; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000203782-LORICRIN/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| AMTN | Bioplex | false |
+| CCNF | Biogrid | false |
+| FAM177A1 | Bioplex | false |
+| POLG2 | Bioplex | false |
+| THAP4 | Bioplex | false |
+| YAF2 | Bioplex | false |
+| ZDHHC19 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

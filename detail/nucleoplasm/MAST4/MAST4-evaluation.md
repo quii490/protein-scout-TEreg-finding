@@ -189,6 +189,23 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/MAST4/MAST4-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O15021 |
+| SMART | SM00228;SM00220; |
+| UniProt Domain [FT] | DOMAIN 570..843; /note="Protein kinase"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00159"; DOMAIN 844..916; /note="AGC-kinase C-terminal"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00618"; DOMAIN 1141..1229; /note="PDZ"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00143" |
+| InterPro | IPR000961;IPR011009;IPR037711;IPR015022;IPR023142;IPR001478;IPR041489;IPR036034;IPR000719;IPR008271;IPR050236; |
+| Pfam | PF08926;PF17820;PF00069; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000069020-MAST4/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| YWHAE | Opencell | false |
+| YWHAZ | Opencell | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

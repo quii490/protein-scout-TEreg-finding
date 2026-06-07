@@ -184,4 +184,27 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleolus/N4BP1/N4BP1-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O75113 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 59..143; /note="KH-like"; /evidence="ECO:0000255"; DOMAIN 617..769; /note="RNase NYN"; /evidence="ECO:0000255" |
+| InterPro | IPR056629;IPR056630;IPR021869;IPR056631;IPR056578;IPR051101; |
+| Pfam | PF23050;PF23052;PF11977;PF23053;PF23054; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000102921-N4BP1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ITCH | Intact, Biogrid | true |
+| AZI2 | Biogrid | false |
+| CUL3 | Biogrid | false |
+| LITAF | Intact | false |
+| MID1 | Intact | false |
+| UBC | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

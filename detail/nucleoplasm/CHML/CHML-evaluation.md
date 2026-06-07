@@ -166,4 +166,29 @@ IntAct 有限记录。无 BioGrid 补充数据。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CHML/CHML-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P26374 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR036188;IPR018203;IPR001738;IPR054420; |
+| Pfam | PF00996;PF22603; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000203668-CHML/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| RAB11A | Biogrid, Bioplex | true |
+| RAB35 | Biogrid, Opencell | true |
+| RAB3A | Biogrid, Bioplex | true |
+| RAB4A | Biogrid, Opencell, Bioplex | true |
+| RAB5A | Biogrid, Bioplex | true |
+| RAB5C | Biogrid, Bioplex | true |
+| RAB7A | Biogrid, Opencell | true |
+| RAB9A | Biogrid, Bioplex | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

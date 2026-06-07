@@ -185,6 +185,23 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/FAM102A/FAM102A-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q5T9C2 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 2..145; /note="C2 NT-type"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01186" |
+| InterPro | IPR039931;IPR019448; |
+| Pfam | PF10358; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000167106-FAM102A/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ENKD1 | Intact | false |
+| SKAP1 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

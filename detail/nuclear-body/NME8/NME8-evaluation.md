@@ -187,3 +187,23 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q8N427-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8N427 |
+| SMART | SM00562; |
+| UniProt Domain [FT] | DOMAIN 2..119; /note="Thioredoxin"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00691" |
+| InterPro | IPR034907;IPR036850;IPR036249;IPR017937;IPR013766;IPR051766; |
+| Pfam | PF00334;PF00085; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000086288-NME8/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| BACH1 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -178,6 +178,23 @@ status: rejected
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/rejected/CDCA7/CDCA7-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9BWT1 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR040221;IPR018866; |
+| Pfam | PF10497; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000144354-CDCA7/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| HTT | Intact | false |
+| WFS1 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

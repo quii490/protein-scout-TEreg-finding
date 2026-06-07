@@ -191,3 +191,30 @@ STRING 15 个预测互作，IntAct 15 个实验互作。调控相关配体占比
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q12798-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q12798 |
+| SMART | SM00054; |
+| UniProt Domain [FT] | DOMAIN 28..63; /note="EF-hand 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00448"; DOMAIN 64..99; /note="EF-hand 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00448"; DOMAIN 101..136; /note="EF-hand 3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00448"; DOMAIN 137..172; /note="EF-hand 4"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00448" |
+| InterPro | IPR050145;IPR011992;IPR018247;IPR002048;IPR000629; |
+| Pfam | PF13499; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000177143-CETN1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| POC5 | Intact, Biogrid, Bioplex | true |
+| SGSM1 | Intact, Biogrid | true |
+| CCDC191 | Bioplex | false |
+| CCP110 | Biogrid | false |
+| CETN2 | Bioplex | false |
+| CETN3 | Bioplex | false |
+| EFCAB11 | Bioplex | false |
+| ENY2 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -116,6 +116,22 @@ HPA 免疫荧光（IF）实验数据确认 OPHN1 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O60890 |
+| SMART | SM00233;SM00324; |
+| UniProt Domain [FT] | DOMAIN 265..368; /note="PH"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00145"; DOMAIN 380..564; /note="Rho-GAP"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00172" |
+| InterPro | IPR027267;IPR004148;IPR047234;IPR047267;IPR011993;IPR001849;IPR047225;IPR008936;IPR000198; |
+| Pfam | PF16746;PF00169;PF00620; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000079482-OPHN1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CDC42 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

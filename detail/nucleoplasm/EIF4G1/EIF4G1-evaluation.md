@@ -187,3 +187,30 @@ status: rejected
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q04637-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q04637 |
+| SMART | SM00515;SM00544;SM00543; |
+| UniProt Domain [FT] | DOMAIN 565..792; /note="MIF4G"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00698"; DOMAIN 1241..1363; /note="MI"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00698"; DOMAIN 1433..1599; /note="W2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00695" |
+| InterPro | IPR016024;IPR003891;IPR003890;IPR003307; |
+| Pfam | PF02847;PF02854;PF02020; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000114867-EIF4G1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| DDX3X | Intact, Biogrid | true |
+| DRG1 | Biogrid, Opencell | true |
+| EIF3B | Intact, Biogrid, Opencell | true |
+| EIF3J | Intact, Biogrid | true |
+| EIF4A1 | Intact, Biogrid | true |
+| EIF4A2 | Intact, Biogrid | true |
+| EIF4E | Intact, Biogrid | true |
+| G3BP2 | Biogrid, Opencell | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

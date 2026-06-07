@@ -126,3 +126,30 @@ HPA IF 图像已本地嵌入。
 ![](https://images.proteinatlas.org/51409/781_D4_1_blue_red_green.jpg)
 ![](https://images.proteinatlas.org/51409/781_D4_2_blue_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q14012 |
+| SMART | SM00220; |
+| UniProt Domain [FT] | DOMAIN 20..276; /note="Protein kinase"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00159" |
+| InterPro | IPR011009;IPR000719;IPR017441;IPR008271; |
+| Pfam | PF00069; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000134072-CAMK1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CALM1 | Biogrid, Opencell | true |
+| CAMK1D | Intact, Biogrid | true |
+| ATXN1 | Intact | false |
+| CDKN1B | Biogrid | false |
+| COMTD1 | Bioplex | false |
+| EEF1AKMT3 | Bioplex | false |
+| HTT | Intact | false |
+| IL16 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -144,3 +144,30 @@ SAAL1 has a completely unexplored protein-protein interaction network. No intera
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=SAAL1
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=SAAL1
 - Note: Harvest packet not available; data compiled from UniProt and literature database queries
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96ER3 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR011989;IPR016024;IPR052464; |
+| Pfam | 未检出 |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000166788-SAAL1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| SNW1 | Biogrid, Bioplex | true |
+| B3GAT3 | Bioplex | false |
+| C3orf18 | Bioplex | false |
+| CA14 | Bioplex | false |
+| CD27 | Bioplex | false |
+| CD274 | Bioplex | false |
+| CD40 | Bioplex | false |
+| CD68 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

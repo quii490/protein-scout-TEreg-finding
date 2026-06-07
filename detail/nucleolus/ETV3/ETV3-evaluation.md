@@ -116,6 +116,29 @@ HPA 免疫荧光（IF）实验数据确认 ETV3 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P41162 |
+| SMART | SM00413; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR000418;IPR046328;IPR036388;IPR036390; |
+| Pfam | PF00178; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000117036-ETV3/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ACTL6B | Bioplex | false |
+| ANGPTL7 | Bioplex | false |
+| CIAO2A | Bioplex | false |
+| CIB2 | Bioplex | false |
+| CLEC11A | Bioplex | false |
+| CRYBB3 | Bioplex | false |
+| D2HGDH | Bioplex | false |
+| EEF1AKMT3 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

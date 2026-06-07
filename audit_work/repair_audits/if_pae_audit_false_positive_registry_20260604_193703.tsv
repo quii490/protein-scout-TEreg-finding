@@ -1,4 +1,0 @@
-gene	path	source	old_audit_flag	image_or_evidence_embedded	evidence_path_or_marker	why_false_positive	recommended_future_audit_fix
-ELF2	detail/nuclear-body/ELF2/ELF2-evaluation.md	HPA_IF	MISMATCH	YES	RT-4_1.jpg, NIH-3T3_1.jpg	Images embedded via ![[...IF_images/...]] syntax. Audit hit old TODO checklist item "- [ ] 获取 Protein Atlas IF 图像".	Exclude lines starting with "- [ ]" from audit.
-DHX8	detail/nuclear-body/DHX8/DHX8-evaluation.md	HPA_IF	MISMATCH	YES	A-431_1.jpg, NIH-3T3_1.jpg	Same as ELF2 — images embedded, TODO remnant causes false positive.	Exclude checklist lines.
-ERCC8	detail/nuclear-body/ERCC8/ERCC8-evaluation.md	HPA_IF	MISMATCH	YES	A-549_1.jpg, MCF-7_1.jpg	Same pattern — images embedded, legacy checklist triggers audit.	Exclude checklist lines.

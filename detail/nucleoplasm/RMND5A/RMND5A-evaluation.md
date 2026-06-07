@@ -158,3 +158,30 @@ MODERATE CANDIDATE. RMND5A's E3 ligase activity on transcription factors (HBP1) 
 ![](https://images.proteinatlas.org/60843/1171_H8_3_red_green.jpg)
 ![](https://images.proteinatlas.org/60843/1171_H8_4_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9H871 |
+| SMART | SM00757;SM00668;SM00667; |
+| UniProt Domain [FT] | DOMAIN 114..146; /note="LisH"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00126"; DOMAIN 153..210; /note="CTLH"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00058" |
+| InterPro | IPR013144;IPR024964;IPR006595;IPR045098;IPR006594;IPR037680;IPR044063;IPR027370; |
+| Pfam | PF10607;PF13445; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000153561-RMND5A/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ARMC8 | Intact, Biogrid | true |
+| DDX5 | Intact, Biogrid | true |
+| GID4 | Intact, Biogrid, Bioplex | true |
+| GID8 | Intact, Biogrid, Bioplex | true |
+| MAEA | Intact, Biogrid | true |
+| MKLN1 | Intact, Biogrid, Bioplex | true |
+| RANBP10 | Intact, Biogrid, Opencell, Bioplex | true |
+| RANBP9 | Intact, Biogrid, Opencell | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -152,3 +152,30 @@ TIPIN 是 TIMELESS-TIPIN 复制叉保护复合体的核心组分。chromatin (ID
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q9BVW5-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9BVW5 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR012923;IPR040038; |
+| Pfam | PF07962; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000075131-TIPIN/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| RPA2 | Intact, Biogrid | true |
+| TIMELESS | Intact, Biogrid | true |
+| CLSPN | Biogrid | false |
+| GSC2 | Intact | false |
+| RECQL4 | Biogrid | false |
+| RPA1 | Biogrid | false |
+| SPRED1 | Intact | false |
+| SSRP1 | Opencell | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

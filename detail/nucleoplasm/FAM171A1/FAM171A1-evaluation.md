@@ -184,6 +184,26 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/FAM171A1/FAM171A1-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q5VUB5 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR018890;IPR049175;IPR048530; |
+| Pfam | PF20771;PF10577; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000148468-FAM171A1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| DYNLL1 | Biogrid, Opencell | true |
+| EPHA2 | Biogrid | false |
+| NTRK1 | Biogrid | false |
+| RASSF10 | Intact | false |
+| RHOB | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -125,6 +125,29 @@ HPA 免疫荧光（IF）实验数据确认 PELI2 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9HAT8 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 15..202; /note="FHA; atypical" |
+| InterPro | IPR006800;IPR048334;IPR048335; |
+| Pfam | PF04710;PF20723; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000139946-PELI2/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| IRAK1 | Intact, Biogrid | true |
+| IRAK4 | Intact, Biogrid | true |
+| CCNF | Biogrid | false |
+| CLEC17A | Intact | false |
+| DVL2 | Biogrid | false |
+| HYAL2 | Intact | false |
+| IRS1 | Biogrid | false |
+| LZTFL1 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

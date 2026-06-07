@@ -158,3 +158,26 @@ High-confidence interactors (score >= 0.7): 6. Total STRING interactions: 13. In
 - STRING: https://string-db.org/ (search SCHIP1)
 - IntAct: https://www.ebi.ac.uk/intact/ (search SCHIP1)
 - Harvest packet: SCHIP1.json
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P0DPB3 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR039045;IPR015649; |
+| Pfam | PF10148; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000151967-SCHIP1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| SCOC | Intact, Biogrid | true |
+| NF2 | Biogrid | false |
+| PSMD4 | Intact | false |
+| RAB11A | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

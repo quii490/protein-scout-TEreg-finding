@@ -186,3 +186,30 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q9H7Z7-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9H7Z7 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 90..193; /note="Glutaredoxin"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00686"; DOMAIN 263..377; /note="GST C-terminal" |
+| InterPro | IPR010987;IPR036282;IPR040079;IPR004045;IPR034334;IPR034335;IPR036249; |
+| Pfam | PF13417; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000148334-PTGES2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| UQCRC2 | Biogrid, Bioplex | true |
+| BTF3L4 | Bioplex | false |
+| CFAP141 | Intact | false |
+| CHMP1A | Bioplex | false |
+| COX7A2L | Bioplex | false |
+| CYC1 | Bioplex | false |
+| HEATR6 | Bioplex | false |
+| METTL18 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

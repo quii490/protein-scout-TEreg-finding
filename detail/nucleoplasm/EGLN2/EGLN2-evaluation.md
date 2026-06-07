@@ -116,6 +116,27 @@ HPA 免疫荧光（IF）实验数据确认 EGLN2 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96KS0 |
+| SMART | SM00702; |
+| UniProt Domain [FT] | DOMAIN 278..376; /note="Fe2OG dioxygenase"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00805" |
+| InterPro | IPR051559;IPR005123;IPR006620;IPR044862; |
+| Pfam | PF13640; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000269858-EGLN2/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| HIF1A | Intact, Biogrid | true |
+| ATF4 | Biogrid | false |
+| CDK2 | Biogrid | false |
+| CEP192 | Biogrid | false |
+| EPAS1 | Biogrid | false |
+| SIAH2 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

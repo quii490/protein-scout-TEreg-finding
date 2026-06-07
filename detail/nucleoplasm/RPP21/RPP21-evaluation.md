@@ -167,3 +167,30 @@ RPP21 is 154 amino acids (17.6 kDa), falling in the 100-200 aa range. While belo
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9H633
 - InterPro: https://www.ebi.ac.uk/interpro/protein/Q9H633/
 - Note: Harvest packet not available; data compiled from UniProt and literature database queries
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9H633 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR007175; |
+| Pfam | PF04032; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000241370-RPP21/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| RPP40 | Intact, Biogrid | true |
+| NACC2 | Bioplex | false |
+| OBI1 | Bioplex | false |
+| POP1 | Bioplex | false |
+| POP4 | Bioplex | false |
+| POP5 | Bioplex | false |
+| POP7 | Bioplex | false |
+| PSME3IP1 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

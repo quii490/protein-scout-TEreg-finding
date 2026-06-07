@@ -169,6 +169,29 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/rejected/ARID1B/ARID1B-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8NFD5 |
+| SMART | SM01014;SM00501; |
+| UniProt Domain [FT] | DOMAIN 1136..1227; /note="ARID"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00355" |
+| InterPro | IPR038040;IPR001606;IPR036431;IPR021906;IPR033388; |
+| Pfam | PF01388;PF12031; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000049618-ARID1B/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ACTB | Biogrid, Opencell | true |
+| ACTG1 | Biogrid, Opencell | true |
+| DPF2 | Biogrid, Opencell | true |
+| SMARCA2 | Intact, Biogrid | true |
+| SMARCA4 | Intact, Biogrid, Opencell | true |
+| SMARCB1 | Biogrid, Opencell | true |
+| SMARCC1 | Biogrid, Opencell | true |
+| SMARCC2 | Intact, Biogrid, Opencell | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

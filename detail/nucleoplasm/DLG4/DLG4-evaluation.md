@@ -171,3 +171,30 @@ status: rejected
 
 ![](https://alphafold.ebi.ac.uk/files/AF-P78352-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P78352 |
+| SMART | SM00072;SM01277;SM00228;SM00326; |
+| UniProt Domain [FT] | DOMAIN 65..151; /note="PDZ 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00143"; DOMAIN 160..246; /note="PDZ 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00143"; DOMAIN 313..393; /note="PDZ 3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00143"; DOMAIN 428..498; /note="SH3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00192"; DOMAIN 534..709; /note="Guanylate kinase-like"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00100" |
+| InterPro | IPR019583;IPR016313;IPR019590;IPR008145;IPR008144;IPR020590;IPR027417;IPR001478;IPR036034;IPR036028;IPR001452;IPR050614; |
+| Pfam | PF00625;PF10608;PF00595;PF10600;PF00018; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000132535-DLG4/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CRIPT | Intact, Biogrid | true |
+| DLGAP1 | Intact, Biogrid | true |
+| ERBB4 | Intact, Biogrid | true |
+| GRIN2A | Intact, Biogrid | true |
+| GRIN2B | Intact, Biogrid | true |
+| GRIN2C | Intact, Biogrid | true |
+| KCNA1 | Intact, Biogrid | true |
+| KCNA4 | Intact, Biogrid | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

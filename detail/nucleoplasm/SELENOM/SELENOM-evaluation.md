@@ -161,3 +161,30 @@ High-confidence interactors (score >= 0.7): 15. Total STRING interactions: 15. I
 - STRING: https://string-db.org/ (search SELENOM)
 - IntAct: https://www.ebi.ac.uk/intact/ (search SELENOM)
 - Harvest packet: SELENOM.json
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8WWX9 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR038219;IPR039992;IPR014912;IPR036249; |
+| Pfam | PF08806; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000198832-SELENOM/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| HSPE1 | Intact | false |
+| KRTAP1-3 | Intact | false |
+| KRTAP12-3 | Intact | false |
+| MDFI | Intact | false |
+| MTUS2 | Intact | false |
+| NIPA1 | Intact | false |
+| NOTCH2NLA | Intact | false |
+| REEP4 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

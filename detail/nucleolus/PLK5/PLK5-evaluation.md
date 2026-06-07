@@ -176,3 +176,21 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q496M5-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q496M5 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 1..65; /note="Protein kinase; truncated"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00159"; DOMAIN 255..336; /note="POLO box"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00154" |
+| InterPro | IPR011009;IPR033701;IPR000959;IPR036947;IPR000719; |
+| Pfam | 未检出 |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000185988-PLK5/interaction
+
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

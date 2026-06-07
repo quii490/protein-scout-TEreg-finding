@@ -178,3 +178,30 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-O43633-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O43633 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR005024; |
+| Pfam | PF03357; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000130724-CHMP2A/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CHMP3 | Intact, Biogrid | true |
+| CHMP4B | Intact, Biogrid | true |
+| MITD1 | Intact, Biogrid | true |
+| STAMBP | Intact, Biogrid | true |
+| VPS4A | Intact, Biogrid, Opencell | true |
+| VTA1 | Biogrid, Bioplex | true |
+| CHMP1A | Biogrid | false |
+| CHMP1B | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

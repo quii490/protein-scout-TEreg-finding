@@ -190,6 +190,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/MLLT6/MLLT6-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P55198 |
+| SMART | SM00249; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR049781;IPR034732;IPR050701;IPR019786;IPR011011;IPR001965;IPR019787;IPR013083; |
+| Pfam | PF13831;PF13832; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000275023-MLLT6/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CEBPG | Intact, Biogrid | true |
+| MLLT10 | Biogrid, Bioplex | true |
+| UBQLN4 | Intact, Biogrid | true |
+| ATXN10 | Intact | false |
+| CEBPE | Biogrid | false |
+| CREB5 | Biogrid | false |
+| DOT1L | Biogrid | false |
+| EEF1A1 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

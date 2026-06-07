@@ -179,3 +179,30 @@ RPRD1A is 312 amino acids in length, well within the ideal 200-800 aa range. Thi
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q96P16
 - InterPro: https://www.ebi.ac.uk/interpro/protein/Q96P16/
 - Note: Harvest packet not available; data compiled from UniProt and literature database queries
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96P16 |
+| SMART | SM00582; |
+| UniProt Domain [FT] | DOMAIN 2..133; /note="CID"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00724" |
+| InterPro | IPR006569;IPR008942;IPR032337;IPR047884; |
+| Pfam | PF04818;PF16566; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000141425-RPRD1A/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| KDM1A | Intact, Biogrid | true |
+| RPRD1B | Intact, Biogrid | true |
+| GPN1 | Biogrid | false |
+| KPNA3 | Intact | false |
+| NXF1 | Biogrid | false |
+| POLR2B | Biogrid | false |
+| POLR2D | Biogrid | false |
+| POLR2F | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

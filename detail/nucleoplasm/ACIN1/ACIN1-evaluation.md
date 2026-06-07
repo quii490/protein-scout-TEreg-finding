@@ -271,6 +271,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/ACIN1/ACIN1-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9UKV3 |
+| SMART | SM00513; |
+| UniProt Domain [FT] | DOMAIN 72..106; /note="SAP"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00186" |
+| InterPro | IPR034257;IPR052793;IPR012677;IPR035979;IPR032552;IPR003034;IPR036361; |
+| Pfam | PF16294;PF02037; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000100813-ACIN1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| DDX39B | Biogrid, Opencell | true |
+| LUC7L2 | Biogrid, Bioplex | true |
+| PNN | Intact, Biogrid | true |
+| RBM39 | Biogrid, Opencell | true |
+| RNPS1 | Intact, Biogrid | true |
+| SAP18 | Biogrid, Bioplex | true |
+| SF3A1 | Biogrid, Opencell | true |
+| SF3A2 | Intact, Biogrid, Opencell | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

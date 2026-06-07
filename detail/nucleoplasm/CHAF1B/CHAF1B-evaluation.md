@@ -104,3 +104,30 @@ CHAF1B 是 chromatin assembly factor 1 的核心 p60 亚基，在 DNA 复制耦�
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q13112-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q13112 |
+| SMART | SM00320; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR055410;IPR029129;IPR045145;IPR015943;IPR001632;IPR019775;IPR036322;IPR001680; |
+| Pfam | PF24105;PF15512; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000159259-CHAF1B/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ASF1A | Intact, Biogrid | true |
+| ASF1B | Intact, Biogrid, Bioplex | true |
+| CBX1 | Biogrid, Opencell | true |
+| CBX5 | Biogrid, Bioplex | true |
+| CHAF1A | Biogrid, Bioplex | true |
+| H3C1 | Biogrid, Bioplex | true |
+| H3C2 | Biogrid, Bioplex | true |
+| H3C3 | Biogrid, Bioplex | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

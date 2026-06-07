@@ -162,6 +162,29 @@ _notes: "PubMed=199 (≥100, 无基线调整); HPA Enhanced→核=10; 新降级8
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/rejected/XRN2/XRN2-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9H0D6 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR027073;IPR041412;IPR004859;IPR017151; |
+| Pfam | PF17846;PF03159; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000088930-XRN2/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CDKN2AIP | Intact, Biogrid | true |
+| CDKN2AIPNL | Intact, Biogrid | true |
+| CRY2 | Intact, Biogrid | true |
+| DISC1 | Intact, Biogrid | true |
+| TARDBP | Intact, Biogrid | true |
+| ANLN | Biogrid | false |
+| APP | Intact | false |
+| AR | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

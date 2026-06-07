@@ -116,6 +116,29 @@ HPA 免疫荧光（IF）实验数据确认 PLD3 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8IV08 |
+| SMART | SM00155; |
+| UniProt Domain [FT] | DOMAIN 196..223; /note="PLD phosphodiesterase 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00153"; DOMAIN 411..437; /note="PLD phosphodiesterase 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00153" |
+| InterPro | IPR050874;IPR032803;IPR001736; |
+| Pfam | PF13918; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000105223-PLD3/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| BCAP31 | Biogrid | false |
+| CFTR | Biogrid | false |
+| CLEC4D | Biogrid | false |
+| CLEC4E | Biogrid | false |
+| CNIH3 | Intact | false |
+| CTSS | Biogrid | false |
+| DPP4 | Biogrid | false |
+| FBXO6 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

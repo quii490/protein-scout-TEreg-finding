@@ -116,6 +116,29 @@ HPA 免疫荧光（IF）实验数据确认 OLFM2 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O95897 |
+| SMART | SM00284; |
+| UniProt Domain [FT] | DOMAIN 194..446; /note="Olfactomedin-like"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00446" |
+| InterPro | IPR022082;IPR003112;IPR050605; |
+| Pfam | PF12308;PF02191; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000105088-OLFM2/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ADAMTS4 | Bioplex | false |
+| ALPI | Bioplex | false |
+| C1orf54 | Bioplex | false |
+| CA6 | Bioplex | false |
+| CBLN4 | Bioplex | false |
+| CFC1 | Bioplex | false |
+| CGREF1 | Bioplex | false |
+| CST11 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

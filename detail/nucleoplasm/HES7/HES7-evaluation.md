@@ -152,3 +152,26 @@ HPA IF 图像已本地嵌入。
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q9BYE0-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9BYE0 |
+| SMART | SM00353; |
+| UniProt Domain [FT] | DOMAIN 12..69; /note="bHLH"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00981"; DOMAIN 92..122; /note="Orange"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00380" |
+| InterPro | IPR011598;IPR032644;IPR050370;IPR036638;IPR003650; |
+| Pfam | PF00010; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000179111-HES7/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| PIH1D2 | Intact | false |
+| PRPF31 | Intact | false |
+| QARS1 | Intact | false |
+| TCEA2 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

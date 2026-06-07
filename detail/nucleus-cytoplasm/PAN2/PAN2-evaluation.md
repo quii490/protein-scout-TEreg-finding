@@ -158,3 +158,30 @@ PAN2 是 mRNA deadenylation 的关键催化亚基，与 PAN3 组成 PAN complex�
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q504Q3-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9HBH5 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR036291;IPR002347; |
+| Pfam | PF00106; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000135473-PAN2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| PABPC4 | Biogrid, Opencell | true |
+| PAN3 | Intact, Biogrid | true |
+| CCT7 | Biogrid | false |
+| DDX6 | Opencell | false |
+| GSPT1 | Opencell | false |
+| LZTS2 | Biogrid | false |
+| PABPC1 | Biogrid | false |
+| PLEC | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

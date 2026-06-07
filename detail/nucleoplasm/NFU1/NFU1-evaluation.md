@@ -195,3 +195,30 @@ The protein functions primarily in: Iron-sulfur cluster scaffold protein which c
 The false rejection may have resulted from automated scoring thresholds. 
 The nuclear evidence, while present, is not overwhelming. 
 NFU1 should be reevaluated in the context of broader TE biology hypotheses.
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9UMS0 |
+| SMART | SM00932; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR034904;IPR014824;IPR036498;IPR001075; |
+| Pfam | PF08712;PF01106; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000169599-NFU1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| AGTRAP | Intact | false |
+| APOC1 | Intact | false |
+| APOC4 | Intact | false |
+| CALCOCO2 | Intact | false |
+| CIDEB | Intact | false |
+| CLPP | Biogrid | false |
+| COIL | Intact | false |
+| CS | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

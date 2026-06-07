@@ -116,6 +116,29 @@ HPA 免疫荧光（IF）实验数据确认 PLEKHA7 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q6IQ23 |
+| SMART | SM00233;SM00456; |
+| UniProt Domain [FT] | DOMAIN 9..42; /note="WW 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00224"; DOMAIN 54..87; /note="WW 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00224"; DOMAIN 164..282; /note="PH"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00145" |
+| InterPro | IPR011993;IPR001849;IPR040392;IPR057971;IPR001202;IPR036020; |
+| Pfam | PF00169;PF25541; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000166689-PLEKHA7/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CDH1 | Intact, Biogrid | true |
+| YWHAB | Biogrid, Opencell | true |
+| YWHAE | Intact, Biogrid, Opencell | true |
+| YWHAG | Biogrid, Opencell | true |
+| YWHAZ | Biogrid, Opencell | true |
+| AGO2 | Intact | false |
+| CAMSAP3 | Intact | false |
+| CGN | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

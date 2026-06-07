@@ -181,6 +181,22 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/EIF5AL1/EIF5AL1-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q6IS14 |
+| SMART | SM01376; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR001884;IPR048670;IPR020189;IPR012340;IPR014722;IPR019769;IPR008991; |
+| Pfam | PF01287;PF21485; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000253626-EIF5AL1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| EIF5A | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

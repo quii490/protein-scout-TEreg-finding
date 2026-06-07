@@ -183,6 +183,29 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nuclear-body/DHX8/DHX8-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q14562 |
+| SMART | SM00487;SM00847;SM00490;SM00316; |
+| UniProt Domain [FT] | DOMAIN 265..336; /note="S1 motif"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00180"; DOMAIN 575..738; /note="Helicase ATP-binding"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00541"; DOMAIN 756..936; /note="Helicase C-terminal"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00542" |
+| InterPro | IPR011709;IPR011545;IPR044762;IPR049588;IPR002464;IPR048333;IPR007502;IPR014001;IPR001650;IPR012340;IPR027417;IPR049621;IPR003029; |
+| Pfam | PF00270;PF21010;PF00271;PF07717;PF00575;PF04408; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000067596-DHX8/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CHERP | Intact, Biogrid | true |
+| CPSF6 | Biogrid, Opencell | true |
+| ISY1 | Intact, Biogrid | true |
+| LIN28A | Biogrid, Bioplex | true |
+| NKAP | Intact, Biogrid | true |
+| PRPF19 | Biogrid, Bioplex | true |
+| RPL31 | Biogrid, Bioplex | true |
+| SRPK1 | Intact, Biogrid | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -183,4 +183,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/FUBP3/FUBP3-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96I24 |
+| SMART | SM00322; |
+| UniProt Domain [FT] | DOMAIN 77..141; /note="KH 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00117"; DOMAIN 162..228; /note="KH 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00117"; DOMAIN 253..317; /note="KH 3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00117"; DOMAIN 354..421; /note="KH 4"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00117" |
+| InterPro | IPR004087;IPR004088;IPR036612; |
+| Pfam | PF00013; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000107164-FUBP3/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| PAX9 | Intact, Biogrid | true |
+| QKI | Intact, Biogrid | true |
+| ACE2 | Biogrid | false |
+| AKAP1 | Biogrid | false |
+| CALCOCO2 | Biogrid | false |
+| CAPZB | Opencell | false |
+| DAZAP1 | Biogrid | false |
+| FBL | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

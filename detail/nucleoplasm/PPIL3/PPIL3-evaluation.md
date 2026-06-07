@@ -199,6 +199,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/PPIL3/PPIL3-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9H2H8 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 2..154; /note="PPIase cyclophilin-type"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00156" |
+| InterPro | IPR029000;IPR024936;IPR020892;IPR002130;IPR044666; |
+| Pfam | PF00160; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000240344-PPIL3/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| LMNA | Biogrid, Opencell | true |
+| SLU7 | Intact, Biogrid | true |
+| BAG3 | Biogrid | false |
+| CENATAC | Intact | false |
+| CSNK2A1 | Opencell | false |
+| MAPRE1 | Opencell | false |
+| RNF31 | Biogrid | false |
+| SNX3 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

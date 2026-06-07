@@ -175,3 +175,21 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q6DN12-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q6DN12 |
+| SMART | SM00239; |
+| UniProt Domain [FT] | DOMAIN 177..292; /note="C2 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00041"; DOMAIN 334..452; /note="C2 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00041"; DOMAIN 494..607; /note="C2 3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00041" |
+| InterPro | IPR000008;IPR035892;IPR013583; |
+| Pfam | PF00168;PF08372; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000140563-MCTP2/interaction
+
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

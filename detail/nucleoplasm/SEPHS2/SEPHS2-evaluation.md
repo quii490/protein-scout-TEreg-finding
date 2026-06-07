@@ -159,3 +159,24 @@ High-confidence interactors (score >= 0.7): 15. Total STRING interactions: 15. I
 - STRING: https://string-db.org/ (search SEPHS2)
 - IntAct: https://www.ebi.ac.uk/intact/ (search SEPHS2)
 - Harvest packet: SEPHS2.json
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q99611 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR010918;IPR036676;IPR016188;IPR036921;IPR004536; |
+| Pfam | PF00586;PF02769; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000179918-SEPHS2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| PRDX6 | Biogrid | false |
+| SEPHS1 | Intact, Biogrid, Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

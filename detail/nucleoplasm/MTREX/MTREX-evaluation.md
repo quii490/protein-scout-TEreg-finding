@@ -188,3 +188,30 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 ![](https://images.proteinatlas.org/37379/441_D10_2_red_green.jpg)
 ![](https://images.proteinatlas.org/37379/441_D10_3_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P42285 |
+| SMART | SM00487;SM01142;SM00490; |
+| UniProt Domain [FT] | DOMAIN 148..304; /note="Helicase ATP-binding"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00541"; DOMAIN 405..577; /note="Helicase C-terminal"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00542" |
+| InterPro | IPR025696;IPR011545;IPR014001;IPR001650;IPR048392;IPR027417;IPR050699;IPR016438;IPR012961; |
+| Pfam | PF00270;PF08148;PF00271;PF21408;PF13234; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000039123-MTREX/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| EXOSC2 | Biogrid, Bioplex | true |
+| EXOSC3 | Biogrid, Bioplex | true |
+| EXOSC4 | Biogrid, Bioplex | true |
+| EXOSC5 | Biogrid, Bioplex | true |
+| EXOSC7 | Biogrid, Bioplex | true |
+| MPHOSPH6 | Intact, Biogrid, Bioplex | true |
+| RBM7 | Biogrid, Opencell, Bioplex | true |
+| C1D | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

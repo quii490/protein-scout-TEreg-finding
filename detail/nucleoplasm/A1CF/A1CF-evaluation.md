@@ -133,6 +133,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/A1CF/A1CF-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9NQ94 |
+| SMART | SM00360; |
+| UniProt Domain [FT] | DOMAIN 56..134; /note="RRM 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00176"; DOMAIN 136..218; /note="RRM 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00176"; DOMAIN 231..303; /note="RRM 3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00176" |
+| InterPro | IPR044461;IPR034538;IPR006535;IPR012677;IPR035979;IPR000504; |
+| Pfam | PF14709;PF00076; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000148584-A1CF/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| APOBEC1 | Biogrid | false |
+| C9orf24 | Intact | false |
+| CELF2 | Biogrid | false |
+| CYSRT1 | Intact | false |
+| ECM1 | Intact | false |
+| FHL2 | Intact | false |
+| FHL3 | Intact | false |
+| HSPB2 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

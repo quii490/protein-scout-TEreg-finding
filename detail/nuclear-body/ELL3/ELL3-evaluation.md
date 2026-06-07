@@ -191,6 +191,29 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nuclear-body/ELL3/ELL3-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9HB65 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 285..395; /note="OCEL"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01324" |
+| InterPro | IPR031176;IPR019464;IPR010844; |
+| Pfam | PF10390;PF07303; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000128886-ELL3/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| EAF1 | Intact, Biogrid, Bioplex | true |
+| AFF4 | Bioplex | false |
+| CCNT1 | Bioplex | false |
+| EAF2 | Bioplex | false |
+| ICE1 | Bioplex | false |
+| MLLT1 | Bioplex | false |
+| MLLT3 | Biogrid | false |
+| TP53 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

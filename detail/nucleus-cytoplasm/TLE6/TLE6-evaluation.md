@@ -157,3 +157,24 @@ TLE6 是 SCMC (subcortical maternal complex) 的核心组分，属于 TLE/Grouch
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q9H808-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9H808 |
+| SMART | SM00320; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR009146;IPR015943;IPR036322;IPR001680; |
+| Pfam | PF00400; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000104953-TLE6/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| FOXG1 | Biogrid | false |
+| KLK6 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

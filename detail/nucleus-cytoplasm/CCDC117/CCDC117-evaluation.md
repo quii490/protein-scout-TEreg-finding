@@ -195,3 +195,28 @@ status: scored
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CCDC117
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8IWD4
 - STRING: https://string-db.org/cgi/network?identifiers=CCDC117&species=9606
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8IWD4 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR031630; |
+| Pfam | PF15810; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000159873-CCDC117/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| HSP90AA1 | Intact, Biogrid | true |
+| HSP90AB1 | Biogrid, Bioplex | true |
+| STIP1 | Intact, Biogrid, Opencell, Bioplex | true |
+| HSPA2 | Bioplex | false |
+| HSPA6 | Bioplex | false |
+| HSPA8 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

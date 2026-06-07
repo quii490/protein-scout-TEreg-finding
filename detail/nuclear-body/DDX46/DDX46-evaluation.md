@@ -177,3 +177,30 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-A0A0C4DG89-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q7L014 |
+| SMART | SM00487;SM00490; |
+| UniProt Domain [FT] | DOMAIN 403..581; /note="Helicase ATP-binding"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00541"; DOMAIN 592..753; /note="Helicase C-terminal"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00542" |
+| InterPro | IPR011545;IPR014001;IPR001650;IPR027417;IPR056149;IPR000629;IPR014014; |
+| Pfam | PF00270;PF00271;PF23469; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000145833-DDX46/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| SNRPA1 | Biogrid, Bioplex | true |
+| SRPK2 | Intact, Biogrid | true |
+| CUL3 | Biogrid | false |
+| ERLEC1 | Bioplex | false |
+| HSP90AA1 | Biogrid | false |
+| HSP90AB1 | Biogrid | false |
+| HSPA1A | Biogrid | false |
+| MAPKAPK2 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

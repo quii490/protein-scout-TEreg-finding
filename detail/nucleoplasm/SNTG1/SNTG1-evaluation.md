@@ -151,3 +151,30 @@ Score: 76/180. SNTG1 has essentially no nuclear evidence (UniProt nucleus lacks 
 
 ## Manual Review Note
 CONFIRMED REJECTION. SNTG1 (gamma-1-syntrophin) is the least characterized member of the syntrophin family. Like other syntrophins, its function is adapter/scaffolding in the dystrophin-associated glycoprotein complex. The nuclear annotation in UniProt has NO evidence code, and GO-CC classifies it as electronic (IEA). HPA provides no localization data. The CTBP2 interaction from a high-throughput study is the only hint of a nuclear connection, but this is insufficient to establish a nuclear function. Not suitable for TE investigation.
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9NSN8 |
+| SMART | SM00228;SM00233; |
+| UniProt Domain [FT] | DOMAIN 57..140; /note="PDZ"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00143"; DOMAIN 283..390; /note="PH"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00145" |
+| InterPro | IPR001478;IPR036034;IPR001849;IPR015482;IPR055108; |
+| Pfam | PF00595;PF23012; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000147481-SNTG1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| BCL7B | Bioplex | false |
+| DMD | Biogrid | false |
+| DTNA | Biogrid | false |
+| DTNB | Biogrid | false |
+| PLEKHA1 | Biogrid | false |
+| SNTA1 | Bioplex | false |
+| SNTB1 | Bioplex | false |
+| UTRN | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

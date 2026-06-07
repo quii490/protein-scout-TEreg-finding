@@ -178,3 +178,24 @@ status: rejected
 
 ![](https://alphafold.ebi.ac.uk/files/AF-P20941-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P20941 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 1..244; /note="Phosducin"; /evidence="ECO:0000255" |
+| InterPro | IPR001200;IPR051499;IPR023196;IPR024253;IPR036249; |
+| Pfam | PF02114; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000116703-PDC/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CYRIB | Bioplex | false |
+| PSMC5 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

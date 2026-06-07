@@ -171,6 +171,26 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/NAA38/NAA38-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9BRA0 |
+| SMART | SM00651; |
+| UniProt Domain [FT] | DOMAIN 40..118; /note="Sm"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01346" |
+| InterPro | IPR010920;IPR034110;IPR047575;IPR001163;IPR050914; |
+| Pfam | PF01423; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000183011-NAA38/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| KLK6 | Intact | false |
+| N4BP2L2 | Intact | false |
+| NAA35 | Intact | false |
+| PDE9A | Intact | false |
+| PRR20C | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

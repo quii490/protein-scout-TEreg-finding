@@ -193,3 +193,30 @@ PAE image data not yet available (local image not generated or not reliably fetc
 ![](https://images.proteinatlas.org/1566/2239_B6_24_blue_red_green.jpg)
 ![](https://images.proteinatlas.org/1566/2239_B6_39_blue_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P00387 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 40..152; /note="FAD-binding FR-type"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00716" |
+| InterPro | IPR001834;IPR008333;IPR017927;IPR001709;IPR039261;IPR001433;IPR017938; |
+| Pfam | PF00970;PF00175; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000100243-CYB5R3/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CANX | Intact, Biogrid, Opencell | true |
+| FUNDC2 | Intact, Biogrid | true |
+| RPN2 | Biogrid, Opencell | true |
+| RTN4 | Biogrid, Opencell | true |
+| STOM | Intact, Biogrid | true |
+| TMED10 | Biogrid, Opencell | true |
+| VAPA | Biogrid, Opencell | true |
+| VDAC1 | Biogrid, Opencell | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

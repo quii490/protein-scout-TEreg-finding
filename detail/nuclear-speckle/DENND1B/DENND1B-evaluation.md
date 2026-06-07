@@ -116,6 +116,20 @@ HPA 免疫荧光（IF）实验数据确认 DENND1B 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q6P3S1 |
+| SMART | SM00801;SM00799;SM00800; |
+| UniProt Domain [FT] | DOMAIN 14..143; /note="uDENN"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00304"; DOMAIN 180..316; /note="cDENN"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00304"; DOMAIN 318..395; /note="dDENN"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00304" |
+| InterPro | IPR001194;IPR005112;IPR043153;IPR040032;IPR037516;IPR005113; |
+| Pfam | PF03455;PF02141;PF03456; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000213047-DENND1B/interaction
 
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

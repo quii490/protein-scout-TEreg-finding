@@ -116,6 +116,20 @@ HPA 免疫荧光（IF）实验数据确认 WDFY4 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q6ZS81 |
+| SMART | SM01026;SM00320; |
+| UniProt Domain [FT] | DOMAIN 2385..2510; /note="BEACH-type PH"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01119"; DOMAIN 2527..2821; /note="BEACH"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00026" |
+| InterPro | IPR011989;IPR016024;IPR000409;IPR036372;IPR051944;IPR023362;IPR011993;IPR015943;IPR019775;IPR036322;IPR001680; |
+| Pfam | PF02138;PF00400; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000128815-WDFY4/interaction
 
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

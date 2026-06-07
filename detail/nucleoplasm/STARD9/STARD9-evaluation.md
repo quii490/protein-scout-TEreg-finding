@@ -176,3 +176,25 @@ status: scored
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9P2P6
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9P2P6 |
+| SMART | SM00240;SM00129; |
+| UniProt Domain [FT] | DOMAIN 3..384; /note="Kinesin motor"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00283"; DOMAIN 498..569; /note="FHA"; DOMAIN 4483..4700; /note="START"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00197" |
+| InterPro | IPR000253;IPR019821;IPR001752;IPR036961;IPR027417;IPR008984;IPR023393;IPR002913; |
+| Pfam | PF00498;PF00225;PF01852; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000159433-STARD9/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| HNRNPA3 | Biogrid | false |
+| PPP1CC | Biogrid | false |
+| YWHAZ | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

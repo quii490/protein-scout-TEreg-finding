@@ -195,3 +195,30 @@ status: scored
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CCDC85B
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q15834
 - STRING: https://string-db.org/cgi/network?identifiers=CCDC85B&species=9606
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q15834 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR019359; |
+| Pfam | PF10226; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000175602-CCDC85B/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| C19orf25 | Intact, Biogrid | true |
+| CHCHD3 | Intact, Biogrid | true |
+| KANSL1 | Intact, Biogrid | true |
+| KRT17 | Intact, Biogrid | true |
+| KRT6A | Intact, Biogrid | true |
+| PKN1 | Intact, Biogrid | true |
+| BIRC5 | Intact | false |
+| CENPP | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

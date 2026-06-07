@@ -63,3 +63,21 @@ UniProt 注释近乎空白（无功能、无定位、无 GO-CC），研究极度
 ![](https://images.proteinatlas.org/43287/2142_G1_1_red_green.jpg)
 ![](https://images.proteinatlas.org/43287/2142_G1_2_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9BXX2 |
+| SMART | SM00248; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR050657;IPR002110;IPR036770;IPR039497; |
+| Pfam | PF12796;PF14915; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000180777-ANKRD30B/interaction
+
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -189,3 +189,21 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q12982-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q12982 |
+| SMART | SM00516; |
+| UniProt Domain [FT] | DOMAIN 147..304; /note="CRAL-TRIO"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00056" |
+| InterPro | IPR022181;IPR001251;IPR036865; |
+| Pfam | PF12496;PF13716; |
+
+### humanPPI / HPA Interaction
+Source: 未找到 HPA interaction 页面
+
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

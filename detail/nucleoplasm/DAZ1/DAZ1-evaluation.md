@@ -174,3 +174,27 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q9NQZ3-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9NQZ3 |
+| SMART | SM00360; |
+| UniProt Domain [FT] | DOMAIN 40..115; /note="RRM 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00176"; DOMAIN 205..280; /note="RRM 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00176"; DOMAIN 370..445; /note="RRM 3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00176"; DOMAIN 497..520; /note="DAZ 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01238"; DOMAIN 521..544; /note="DAZ 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01238"; DOMAIN 545..568; /note="DAZ 3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01238"; DOMAIN 569..592; /note="DAZ 4"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01238"; DOMAIN 593..616; /note="DAZ 5"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01238"; DOMAIN 617..640; /note="DAZ 6"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01238"; DOMAIN 641..664; /note="DAZ 7"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01238"; DOMAIN 665..688; /note="DAZ 8"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01238"; DOMAIN 689..712; /note="DAZ 9"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01238" |
+| InterPro | IPR043628;IPR037551;IPR012677;IPR035979;IPR000504; |
+| Pfam | PF18872;PF00076; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000188120-DAZ1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| DAZAP1 | Intact, Biogrid | true |
+| DAZAP2 | Intact, Biogrid | true |
+| DAZL | Intact, Biogrid | true |
+| PUM2 | Intact, Biogrid | true |
+| BOLL | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

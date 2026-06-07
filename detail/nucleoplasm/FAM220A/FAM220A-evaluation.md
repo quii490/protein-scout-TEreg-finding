@@ -176,6 +176,23 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/FAM220A/FAM220A-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q7Z4H9 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR040355;IPR029155; |
+| Pfam | PF15487; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000178397-FAM220A/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| PTPN2 | Biogrid | false |
+| TEKT4 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

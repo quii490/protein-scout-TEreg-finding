@@ -161,3 +161,30 @@ High-confidence interactors (score >= 0.7): 6. Total STRING interactions: 15. In
 - STRING: https://string-db.org/ (search SERF1A)
 - IntAct: https://www.ebi.ac.uk/intact/ (search SERF1A)
 - Harvest packet: SERF1A.json
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O75920 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR007513;IPR040211; |
+| Pfam | PF04419; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000172058-SERF1A/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ABHD16A | Intact | false |
+| AQP6 | Intact | false |
+| CERS4 | Intact | false |
+| ELOVL4 | Intact | false |
+| ELOVL7 | Intact | false |
+| GPR152 | Intact | false |
+| REEP4 | Intact | false |
+| RNASEK | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

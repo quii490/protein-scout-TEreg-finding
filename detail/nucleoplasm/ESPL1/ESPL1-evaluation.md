@@ -116,6 +116,28 @@ HPA 免疫荧光（IF）实验数据确认 ESPL1 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q14674 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 1945..2040; /note="Peptidase C50" |
+| InterPro | IPR005314;IPR030397; |
+| Pfam | PF03568; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000135476-ESPL1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| PPP2CA | Biogrid, Opencell | true |
+| PTTG1 | Intact, Biogrid | true |
+| CCNB1 | Biogrid | false |
+| DNAJC7 | Biogrid | false |
+| FKBP5 | Opencell | false |
+| PPP2CB | Biogrid | false |
+| PPP2R1A | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

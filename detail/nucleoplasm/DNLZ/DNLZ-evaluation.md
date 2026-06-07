@@ -164,3 +164,24 @@ status: scored
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q5SXM8
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q5SXM8 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR024158;IPR007853; |
+| Pfam | PF05180; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000213221-DNLZ/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| HSPA9 | Biogrid | false |
+| SLC25A22 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

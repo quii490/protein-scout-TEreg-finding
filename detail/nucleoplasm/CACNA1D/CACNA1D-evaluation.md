@@ -188,3 +188,21 @@ status: rejected
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q01668-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q01668 |
+| SMART | SM01062; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR031688;IPR031649;IPR005821;IPR005452;IPR014873;IPR050599;IPR005446;IPR002077;IPR027359; |
+| Pfam | PF08763;PF16885;PF16905;PF00520; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000157388-CACNA1D/interaction
+
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

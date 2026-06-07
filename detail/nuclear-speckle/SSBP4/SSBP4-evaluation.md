@@ -176,3 +176,30 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 ![](https://images.proteinatlas.org/71780/1776_G5_1_red_green.jpg)
 ![](https://images.proteinatlas.org/71780/1776_G5_2_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9BWG4 |
+| SMART | SM00667; |
+| UniProt Domain [FT] | DOMAIN 17..49; /note="LisH"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00126" |
+| InterPro | IPR006594;IPR008116; |
+| Pfam | PF04503; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000130511-SSBP4/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ISL1 | Intact, Biogrid, Bioplex | true |
+| LDB1 | Intact, Biogrid | true |
+| LHX2 | Biogrid, Bioplex | true |
+| LHX4 | Biogrid, Bioplex | true |
+| SSBP2 | Biogrid, Bioplex | true |
+| IL36RN | Intact | false |
+| ISL2 | Bioplex | false |
+| LDB2 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

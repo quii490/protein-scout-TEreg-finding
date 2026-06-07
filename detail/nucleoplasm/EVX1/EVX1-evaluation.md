@@ -116,6 +116,20 @@ HPA 免疫荧光（IF）实验数据确认 EVX1 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P49640 |
+| SMART | SM00389; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR052002;IPR001356;IPR020479;IPR017970;IPR009057; |
+| Pfam | PF00046; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000106038-EVX1/interaction
 
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

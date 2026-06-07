@@ -186,6 +186,27 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/ETNK1/ETNK1-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9HBU6 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR011009; |
+| Pfam | PF01633; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000139163-ETNK1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CAMLG | Intact | false |
+| SGTA | Intact | false |
+| SGTB | Intact | false |
+| SLC51B | Intact | false |
+| UBQLN1 | Intact | false |
+| UBQLN2 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -184,6 +184,25 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/FAM177A1/FAM177A1-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8N128 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR028260; |
+| Pfam | PF14774; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000151327-FAM177A1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ALOXE3 | Bioplex | false |
+| LORICRIN | Bioplex | false |
+| TRAF6 | Biogrid | false |
+| TUBB2B | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

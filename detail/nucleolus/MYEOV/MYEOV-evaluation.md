@@ -206,4 +206,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleolus/MYEOV/MYEOV-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96EZ4 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | 未检出 |
+| Pfam | 未检出 |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000172927-MYEOV/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CNN1 | Intact | false |
+| DAZAP2 | Intact | false |
+| GET4 | Bioplex | false |
+| OPTN | Intact | false |
+| PCK1 | Bioplex | false |
+| PYGM | Bioplex | false |
+| SUFU | Bioplex | false |
+| TRIP13 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

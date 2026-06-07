@@ -136,3 +136,30 @@ No. The localization data is conclusive across multiple curated databases. Addit
 - GO: https://www.ebi.ac.uk/QuickGO/annotations?geneProductId=Q6NUK4
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22REEP3%22
 - Note: Harvest packet not available; data compiled from UniProt and literature database queries
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q6NUK4 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR004345; |
+| Pfam | PF03134; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000165476-REEP3/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| YWHAB | Biogrid, Opencell | true |
+| YWHAE | Biogrid, Opencell | true |
+| YWHAG | Biogrid, Opencell | true |
+| YWHAH | Biogrid, Opencell | true |
+| YWHAZ | Biogrid, Opencell | true |
+| C3orf52 | Intact | false |
+| REEP1 | Bioplex | false |
+| REEP4 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

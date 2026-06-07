@@ -186,6 +186,29 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/FAM210A/FAM210A-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96ND0 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 117..229; /note="DUF1279" |
+| InterPro | IPR045866;IPR009688; |
+| Pfam | PF06916; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000177150-FAM210A/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CD63 | Bioplex | false |
+| EIF2B5 | Bioplex | false |
+| GPR182 | Bioplex | false |
+| HLA-DRA | Bioplex | false |
+| IFT52 | Intact | false |
+| LCN6 | Bioplex | false |
+| MGARP | Bioplex | false |
+| RAMP3 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

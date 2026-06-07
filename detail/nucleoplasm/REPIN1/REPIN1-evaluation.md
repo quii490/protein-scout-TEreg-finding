@@ -150,3 +150,30 @@ REPIN1 is 567 amino acids, placing it well within the ideal range for experiment
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9BWE0
 - PhosphoSitePlus: https://www.phosphosite.org/proteinAction?id=23579
 - Note: Harvest packet not available; data compiled from UniProt and literature database queries
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9BWE0 |
+| SMART | SM00355; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR036236;IPR013087; |
+| Pfam | PF00096; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000214022-REPIN1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| IPO8 | Biogrid, Bioplex | true |
+| GMNN | Biogrid | false |
+| HDAC1 | Biogrid | false |
+| IPO7 | Bioplex | false |
+| KCTD5 | Bioplex | false |
+| RPLP0 | Bioplex | false |
+| SET | Biogrid | false |
+| TUBGCP5 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

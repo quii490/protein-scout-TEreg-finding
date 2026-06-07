@@ -172,3 +172,24 @@ This gene was falsely rejected due to data artifacts or threshold miscategorizat
 ![](https://images.proteinatlas.org/54424/984_H1_1_red_green.jpg)
 ![](https://images.proteinatlas.org/54424/984_H1_2_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8IY22 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 54..163; /note="PH" |
+| InterPro | IPR052813;IPR032675;IPR056429; |
+| Pfam | PF23066; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000153815-CMIP/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| FLNA | Biogrid | false |
+| PIK3R1 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

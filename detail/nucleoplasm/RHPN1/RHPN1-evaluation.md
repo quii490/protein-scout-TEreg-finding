@@ -143,3 +143,30 @@ The previous rejection was likely correct. RHPN1 is a cytoplasmic Rho effector p
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22RHPN1%22+OR+%22rhophilin%22
 - COMPARTMENTS: https://compartments.jensenlab.org/
 - Note: Harvest packet not available; data compiled from UniProt and literature database queries
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8TCX5 |
+| SMART | SM01041;SM00742;SM00228; |
+| UniProt Domain [FT] | DOMAIN 23..97; /note="REM-1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01207"; DOMAIN 108..457; /note="BRO1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00526"; DOMAIN 513..592; /note="PDZ"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00143" |
+| InterPro | IPR004328;IPR038499;IPR011072;IPR036274;IPR001478;IPR036034;IPR042715;IPR047138; |
+| Pfam | PF03097;PF02185;PF00595; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000158106-RHPN1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| GOLGA2 | Intact, Biogrid | true |
+| CEP70 | Intact | false |
+| CNKSR1 | Biogrid | false |
+| GFAP | Intact | false |
+| GPRASP2 | Intact | false |
+| GRN | Intact | false |
+| HAP1 | Intact | false |
+| KRT31 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

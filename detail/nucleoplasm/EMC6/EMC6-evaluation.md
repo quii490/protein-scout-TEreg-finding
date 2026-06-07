@@ -109,6 +109,29 @@ HPA 免疫荧光（IF）实验数据确认 EMC6 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9BV81 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR008504;IPR029008; |
+| Pfam | PF07019; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000127774-EMC6/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| EMC2 | Biogrid, Bioplex | true |
+| EMC7 | Biogrid, Bioplex | true |
+| EMC8 | Biogrid, Bioplex | true |
+| MMGT1 | Intact, Biogrid | true |
+| AQP6 | Intact | false |
+| AQP9 | Intact | false |
+| CD79A | Intact | false |
+| EBP | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

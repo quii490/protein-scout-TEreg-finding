@@ -195,3 +195,30 @@ The protein functions primarily in: Component of the SMC5-SMC6 complex, a comple
 The false rejection may have resulted from automated scoring thresholds. 
 The nuclear evidence, while present, is not overwhelming. 
 NSMCE3 should be reevaluated in the context of broader TE biology hypotheses.
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96MG7 |
+| SMART | SM01373; |
+| UniProt Domain [FT] | DOMAIN 85..285; /note="MAGE"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00127" |
+| InterPro | IPR037445;IPR041898;IPR041899;IPR002190; |
+| Pfam | PF01454; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000185115-NSMCE3/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| EID3 | Intact, Biogrid, Bioplex | true |
+| NSMCE1 | Intact, Biogrid, Bioplex | true |
+| NSMCE2 | Biogrid, Bioplex | true |
+| NSMCE4A | Intact, Biogrid, Bioplex | true |
+| PJA1 | Intact, Biogrid | true |
+| SMC5 | Biogrid, Bioplex | true |
+| SMC6 | Intact, Biogrid, Bioplex | true |
+| E2F1 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

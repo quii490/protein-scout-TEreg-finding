@@ -1,0 +1,28 @@
+gene	sources
+ARB2BP	list2.xlsx:Sheet1
+ASDURF	gene candidates.xlsx:PB; gene candidates.xlsx:PX459; gene candidates.xlsx:information; gene candidates.xlsx:summary
+BTG3	list2.xlsx:Sheet1
+C16ORF78	list2.xlsx:Sheet1
+C18ORF25	gene candidates.xlsx:PB; gene candidates.xlsx:PX459; gene candidates.xlsx:Sheet1; gene candidates.xlsx:information; gene candidates.xlsx:summary
+C1ORF122	Candidates-Batch2.xlsx:Sheet1
+C1ORF167	Candidates-Batch2.xlsx:Sheet1
+CNBP	gene candidates.xlsx:PX459; gene candidates.xlsx:information; gene candidates.xlsx:summary
+CUSTOS	list2.xlsx:Sheet1
+IL33	list2.xlsx:Sheet1
+KLKP1	list2.xlsx:Sheet1
+KMT5C	gene candidates.xlsx:information
+METTL10	CandiatesListFrom5000nuclearProteins.xlsx:Sheet1
+MYBBP1A	gene candidates.xlsx:PB; gene candidates.xlsx:PX459; gene candidates.xlsx:information; gene candidates.xlsx:summary
+NKAPD1	Candidates-Batch2.xlsx:Sheet1
+PRR30	Candidates-Batch2.xlsx:Sheet1
+RAD51B	gene candidates.xlsx:PX459; gene candidates.xlsx:information; gene candidates.xlsx:summary
+RSBN1	gene candidates.xlsx:PB; gene candidates.xlsx:PX459; gene candidates.xlsx:dsg+ki; gene candidates.xlsx:information; gene candidates.xlsx:summary
+RSF1	gene candidates.xlsx:PX459; gene candidates.xlsx:information; gene candidates.xlsx:summary
+SARNP	gene candidates.xlsx:PB; gene candidates.xlsx:PX459; gene candidates.xlsx:information; gene candidates.xlsx:summary
+STPG2	CandiatesListFrom5000nuclearProteins.xlsx:Sheet1
+STPG3	CandiatesListFrom5000nuclearProteins.xlsx:Sheet1
+TNRC18	gene candidates.xlsx:PX459; gene candidates.xlsx:summary
+TPGS2	gene candidates.xlsx:PB; gene candidates.xlsx:PX459; gene candidates.xlsx:Sheet1; gene candidates.xlsx:information; gene candidates.xlsx:summary
+YBX1	gene candidates.xlsx:PX459; gene candidates.xlsx:information; gene candidates.xlsx:summary
+ZDBF2	gene candidates.xlsx:PB; gene candidates.xlsx:PX459; gene candidates.xlsx:information; gene candidates.xlsx:summary
+ZGPAT	gene candidates.xlsx:PX459; gene candidates.xlsx:information; gene candidates.xlsx:summary

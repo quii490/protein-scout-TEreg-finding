@@ -173,3 +173,30 @@ status: rejected
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/P51452
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P51452 |
+| SMART | SM00195; |
+| UniProt Domain [FT] | DOMAIN 28..179; /note="Tyrosine-protein phosphatase"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00160" |
+| InterPro | IPR020405;IPR000340;IPR029021;IPR016130;IPR000387;IPR020422; |
+| Pfam | PF00782; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000108861-DUSP3/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ERLIN2 | Biogrid, Bioplex | true |
+| C6orf120 | Bioplex | false |
+| ERLIN1 | Bioplex | false |
+| GNA13 | Bioplex | false |
+| GPX1 | Bioplex | false |
+| MAPK1 | Biogrid | false |
+| MAPK3 | Biogrid | false |
+| MEOX1 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

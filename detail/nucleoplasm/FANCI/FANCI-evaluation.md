@@ -186,3 +186,30 @@ status: rejected
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q9NVI1-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9NVI1 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR026171;IPR029310;IPR029312;IPR029308;IPR029305;IPR029315;IPR029313;IPR029314; |
+| Pfam | PF14679;PF14680;PF14675;PF14674;PF14676;PF14677;PF14678; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000140525-FANCI/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CTDP1 | Intact, Biogrid | true |
+| FANCD2 | Intact, Biogrid | true |
+| ILK | Intact, Biogrid | true |
+| AKT1 | Biogrid | false |
+| CUL3 | Biogrid | false |
+| FAN1 | Biogrid | false |
+| FANCL | Biogrid | false |
+| FKBP5 | Opencell | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

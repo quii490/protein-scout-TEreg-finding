@@ -169,6 +169,20 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nuclear-speckle/ATOH8/ATOH8-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96SQ7 |
+| SMART | SM00353; |
+| UniProt Domain [FT] | DOMAIN 230..282; /note="bHLH"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00981" |
+| InterPro | IPR032660;IPR011598;IPR050359;IPR036638; |
+| Pfam | PF00010; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000168874-ATOH8/interaction
 
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

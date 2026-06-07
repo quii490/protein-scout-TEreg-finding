@@ -189,6 +189,29 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/ELAC2/ELAC2-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9BQ52 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR036866;IPR047151;IPR027794; |
+| Pfam | PF23023;PF13691; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000006744-ELAC2/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| DNAJC7 | Biogrid, Opencell | true |
+| BAG2 | Bioplex | false |
+| BHLHA15 | Bioplex | false |
+| CS | Biogrid | false |
+| GLYATL1 | Bioplex | false |
+| GRSF1 | Biogrid | false |
+| HARS1 | Biogrid | false |
+| HSCB | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

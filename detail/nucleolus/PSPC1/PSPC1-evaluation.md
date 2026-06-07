@@ -101,3 +101,30 @@ PSPC1 是 paraspeckle 核心蛋白，核定位证据极其充分（HPA Enhanced 
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q8WXF1-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8WXF1 |
+| SMART | SM00360; |
+| UniProt Domain [FT] | DOMAIN 82..154; /note="RRM 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00176"; DOMAIN 156..237; /note="RRM 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00176" |
+| InterPro | IPR012975;IPR012677;IPR034522;IPR034523;IPR035979;IPR000504; |
+| Pfam | PF08075;PF00076; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000121390-PSPC1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CCDC22 | Biogrid, Opencell | true |
+| CCNT1 | Biogrid, Opencell | true |
+| CKAP4 | Biogrid, Opencell | true |
+| DISC1 | Intact, Biogrid | true |
+| ELAVL1 | Biogrid, Opencell | true |
+| FXR1 | Intact, Biogrid | true |
+| HDLBP | Biogrid, Opencell | true |
+| LYAR | Biogrid, Opencell | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

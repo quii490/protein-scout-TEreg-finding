@@ -190,3 +190,26 @@ status: scored
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CCDC77
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9BR77
 - STRING: https://string-db.org/cgi/network?identifiers=CCDC77&species=9606
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9BR77 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR037696; |
+| Pfam | 未检出 |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000120647-CCDC77/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CCDC14 | Biogrid | false |
+| CEP135 | Biogrid | false |
+| NINL | Biogrid | false |
+| PCM1 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

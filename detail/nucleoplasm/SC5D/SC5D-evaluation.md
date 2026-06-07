@@ -158,3 +158,24 @@ High-confidence interactors (score >= 0.7): 15. Total STRING interactions: 15. I
 - STRING: https://string-db.org/ (search SC5D)
 - IntAct: https://www.ebi.ac.uk/intact/ (search SC5D)
 - Harvest packet: SC5D.json
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O75845 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 124..252; /note="Fatty acid hydroxylase"; /evidence="ECO:0000255" |
+| InterPro | IPR006694;IPR050307; |
+| Pfam | PF04116; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000109929-SC5D/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| LPAR1 | Bioplex | false |
+| SLC22A9 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

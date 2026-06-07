@@ -172,3 +172,30 @@ High-confidence interactors (score >= 0.7): 9. Total STRING interactions: 15. In
 - STRING: https://string-db.org/ (search SDCBP2)
 - IntAct: https://www.ebi.ac.uk/intact/ (search SDCBP2)
 - Harvest packet: SDCBP2.json
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9H190 |
+| SMART | SM00228; |
+| UniProt Domain [FT] | DOMAIN 108..187; /note="PDZ 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00143"; DOMAIN 192..267; /note="PDZ 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00143" |
+| InterPro | IPR051230;IPR001478;IPR036034; |
+| Pfam | PF00595; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000125775-SDCBP2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| TIFA | Intact, Biogrid | true |
+| ADAP1 | Intact | false |
+| AKAP17A | Intact | false |
+| AP1M1 | Intact | false |
+| ARF4 | Intact | false |
+| C1orf35 | Intact | false |
+| CHCHD1 | Intact | false |
+| CRCT1 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

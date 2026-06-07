@@ -183,3 +183,30 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q5TD97-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q5TD97 |
+| SMART | SM00132; |
+| UniProt Domain [FT] | DOMAIN 39..100; /note="LIM zinc-binding 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00125"; DOMAIN 101..160; /note="LIM zinc-binding 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00125"; DOMAIN 161..220; /note="LIM zinc-binding 3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00125"; DOMAIN 223..283; /note="LIM zinc-binding 4"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00125" |
+| InterPro | IPR042947;IPR056807;IPR001781; |
+| Pfam | PF00412;PF25076; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000112214-FHL5/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| SCNM1 | Intact, Biogrid | true |
+| AGXT | Intact | false |
+| ANKRD55 | Intact | false |
+| ATOSB | Intact | false |
+| BANP | Biogrid | false |
+| BBC3 | Intact | false |
+| CATSPER1 | Intact | false |
+| CFP | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

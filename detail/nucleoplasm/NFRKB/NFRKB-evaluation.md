@@ -182,6 +182,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/NFRKB/NFRKB-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q6P4R8 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 39..156; /note="DEUBAD"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01264" |
+| InterPro | IPR044867;IPR024867;IPR025220;IPR057748;IPR038106; |
+| Pfam | PF14465;PF25793; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000170322-NFRKB/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| INO80 | Biogrid, Opencell | true |
+| RUVBL1 | Biogrid, Opencell | true |
+| RUVBL2 | Biogrid, Opencell | true |
+| UCHL5 | Intact, Biogrid | true |
+| YY1 | Biogrid, Opencell | true |
+| ACTR5 | Biogrid | false |
+| ACTR8 | Biogrid | false |
+| BRD3 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

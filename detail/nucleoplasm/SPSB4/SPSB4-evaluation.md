@@ -116,6 +116,29 @@ HPA 免疫荧光（IF）实验数据确认 SPSB4 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96A44 |
+| SMART | SM00969;SM00449; |
+| UniProt Domain [FT] | DOMAIN 34..233; /note="B30.2/SPRY"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00548"; DOMAIN 234..273; /note="SOCS box"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00194" |
+| InterPro | IPR001870;IPR043136;IPR013320;IPR050672;IPR001496;IPR036036;IPR003877; |
+| Pfam | PF07525;PF00622; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000175093-SPSB4/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ELOB | Biogrid, Bioplex | true |
+| ELOC | Intact, Biogrid | true |
+| NR1D1 | Biogrid, Bioplex | true |
+| PAWR | Intact, Biogrid | true |
+| ACSM3 | Bioplex | false |
+| ANAPC16 | Bioplex | false |
+| ARIH2 | Bioplex | false |
+| BTAF1 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

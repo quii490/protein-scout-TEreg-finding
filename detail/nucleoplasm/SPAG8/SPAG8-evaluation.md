@@ -203,3 +203,26 @@ SPAG8 was likely auto-rejected because:
 *Status: REJECTION CONFIRMED – ciliary structural protein with incidental nuclear detection*
 
 SPAG8 illustrates a common pitfall in automated nuclear scoring: the HPA IF shows nucleoplasm as an "additional" location, which triggers a positive nuclear flag, but the biological context is entirely ciliary. The cryo-EM structures showing SPAG8 embedded in axonemal microtubules are definitive – this is a structural protein that is part of the ciliary cytoskeleton. The CREM/ACT paper (PMID:20488182) is worth noting because it establishes a functional connection to a transcription-related pathway, but the pathway is testis-specific and cytoplasmic. For TE regulation screening, SPAG8 offers nothing beyond superficial nuclear detection. Correctly rejected.
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q99932 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR026124; |
+| Pfam | PF22584; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000137098-SPAG8/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CSTF2 | Intact | false |
+| DTX2 | Intact | false |
+| PITX1 | Biogrid | false |
+| RANBP9 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

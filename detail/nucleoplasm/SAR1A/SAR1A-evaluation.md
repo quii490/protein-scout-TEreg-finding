@@ -148,3 +148,30 @@ PDB + AlphaFold structural cross-validation is robust. The COPII coat interactio
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=SAR1A
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=SAR1A
 - Note: Harvest packet not available; SAR1A is well-characterized; data compiled from public databases
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9NR31 |
+| SMART | SM00177;SM00178; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR027417;IPR005225;IPR006689;IPR006687; |
+| Pfam | PF00025; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000079332-SAR1A/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| SAR1B | Intact, Biogrid, Bioplex | true |
+| ADGRE2 | Intact | false |
+| ALG8 | Intact | false |
+| AQP1 | Intact | false |
+| AQP10 | Intact | false |
+| AQP3 | Intact | false |
+| ASGR1 | Intact | false |
+| ATXN1 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

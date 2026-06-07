@@ -157,3 +157,30 @@ SART3 has a well-defined PPI network centered on spliceosome components, deubiqu
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=SART3
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=SART3
 - Note: Harvest packet not available; data compiled from UniProt and literature database queries
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q15020 |
+| SMART | SM00386;SM00360; |
+| UniProt Domain [FT] | DOMAIN 704..782; /note="RRM 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00176"; DOMAIN 801..878; /note="RRM 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00176" |
+| InterPro | IPR003107;IPR059164;IPR008669;IPR012677;IPR035979;IPR000504;IPR034217;IPR034218;IPR011990; |
+| Pfam | PF23241;PF23240;PF16605;PF05391;PF00076; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000075856-SART3/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| COIL | Intact, Biogrid, Bioplex | true |
+| HNRNPU | Biogrid, Opencell | true |
+| KPNA2 | Intact, Biogrid | true |
+| LSM4 | Intact, Biogrid, Bioplex | true |
+| LSM6 | Intact, Biogrid, Bioplex | true |
+| LSM7 | Biogrid, Bioplex | true |
+| LSM8 | Intact, Biogrid | true |
+| MEPCE | Biogrid, Bioplex | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

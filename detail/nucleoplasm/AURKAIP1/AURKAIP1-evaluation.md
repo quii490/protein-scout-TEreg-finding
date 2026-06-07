@@ -124,3 +124,30 @@ HPA IF 图像已本地嵌入。
 ![](https://images.proteinatlas.org/31821/374_B10_1_red_green.jpg)
 ![](https://images.proteinatlas.org/31821/374_B10_2_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9NWT8 |
+| SMART | SM01155; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR013177; |
+| Pfam | PF08213; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000175756-AURKAIP1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| DAP3 | Biogrid, Bioplex | true |
+| LONP1 | Biogrid, Bioplex | true |
+| MRPS10 | Biogrid, Bioplex | true |
+| MRPS14 | Biogrid, Bioplex | true |
+| MRPS15 | Biogrid, Bioplex | true |
+| MRPS16 | Biogrid, Bioplex | true |
+| MRPS17 | Biogrid, Bioplex | true |
+| MRPS18C | Biogrid, Bioplex | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

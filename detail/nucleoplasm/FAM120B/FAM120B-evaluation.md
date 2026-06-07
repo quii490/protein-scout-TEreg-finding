@@ -183,6 +183,29 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/FAM120B/FAM120B-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96EK7 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR026784;IPR029060; |
+| Pfam | 未检出 |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000112584-FAM120B/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CCNF | Biogrid | false |
+| CUL3 | Biogrid | false |
+| FAM133A | Bioplex | false |
+| FEM1A | Bioplex | false |
+| ING2 | Bioplex | false |
+| LSP1 | Bioplex | false |
+| STN1 | Bioplex | false |
+| SURF6 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

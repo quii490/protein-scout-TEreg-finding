@@ -222,3 +222,30 @@ The nuclear localization and functional profile make it a strong candidate for T
 ![](https://images.proteinatlas.org/28334/1143_A7_1_red_green.jpg)
 ![](https://images.proteinatlas.org/28334/1143_A7_4_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9Y5B8 |
+| SMART | SM00676;SM00562; |
+| UniProt Domain [FT] | DOMAIN 3..91; /note="DM10"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00665" |
+| InterPro | IPR006602;IPR057579;IPR034907;IPR036850;IPR011410;IPR035525;IPR037993;IPR001564; |
+| Pfam | PF00334;PF25364; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000143156-NME7/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CFAP141 | Intact, Biogrid | true |
+| NT5C2 | Intact, Biogrid | true |
+| OFD1 | Intact, Biogrid | true |
+| TCHP | Intact, Biogrid | true |
+| TNIP1 | Intact, Biogrid | true |
+| TUBG1 | Intact, Biogrid, Opencell | true |
+| TUBGCP4 | Intact, Biogrid | true |
+| AMOTL2 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

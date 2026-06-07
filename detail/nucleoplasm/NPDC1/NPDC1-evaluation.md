@@ -116,6 +116,29 @@ HPA 免疫荧光（IF）实验数据确认 NPDC1 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9NQX5 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR009635; |
+| Pfam | PF06809; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000107281-NPDC1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ACY3 | Bioplex | false |
+| AQR | Bioplex | false |
+| ATP11A | Bioplex | false |
+| C3orf52 | Intact | false |
+| CYSRT1 | Intact | false |
+| DAD1 | Bioplex | false |
+| E2F1 | Biogrid | false |
+| EMD | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

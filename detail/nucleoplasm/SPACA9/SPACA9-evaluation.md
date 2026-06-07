@@ -207,3 +207,30 @@ SPACA9 was likely auto-rejected because:
 *Status: REJECTION CONFIRMED – nuclear localization absent*
 
 SPACA9 is a valuable protein for cilia/flagella biology but has no place in a TE-regulatory protein screen. The key evidence against nuclear function is: (1) HPA detects no nucleoplasm signal, (2) the sole nuclear GO annotation is ISS (automated), (3) cryo-EM structures show SPACA9 physically embedded in axonemal microtubules, (4) expression is testis-specific with no suggestion of nuclear function in any publication. The three publications characterize SPACA9 exclusively as a ciliary structural component. While the RIOX2 interaction (histone demethylase) is intriguing, a single co-IP hit among 15 ciliary interactors does not constitute evidence of nuclear function. This gene is correctly rejected and should not be reopened.
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96E40 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR027818; |
+| Pfam | PF15120; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000165698-SPACA9/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| EFEMP2 | Intact | false |
+| EXOC5 | Intact | false |
+| KRTAP1-1 | Intact | false |
+| KRTAP10-5 | Intact | false |
+| KRTAP10-7 | Intact | false |
+| KRTAP10-8 | Intact | false |
+| KRTAP10-9 | Intact | false |
+| TUBB2B | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

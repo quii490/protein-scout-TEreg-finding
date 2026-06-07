@@ -116,3 +116,29 @@ NAP1L5 是一个小型印记核小体组装蛋白，HPA IF Approved 支持核定
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q96NT1-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96NT1 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR037231;IPR002164; |
+| Pfam | PF00956; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000177432-NAP1L5/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| NAP1L1 | Biogrid, Bioplex | true |
+| ATF4 | Intact | false |
+| NAP1L2 | Intact | false |
+| NAP1L4 | Biogrid | false |
+| SNRPB2 | Intact | false |
+| SYCE2 | Intact | false |
+| TSPYL4 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

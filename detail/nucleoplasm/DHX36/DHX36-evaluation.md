@@ -177,6 +177,29 @@ status: rejected
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/rejected/DHX36/DHX36-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9H2U1 |
+| SMART | SM00487;SM00847;SM00490; |
+| UniProt Domain [FT] | DOMAIN 217..387; /note="Helicase ATP-binding"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00541"; DOMAIN 477..647; /note="Helicase C-terminal"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00542" |
+| InterPro | IPR011709;IPR011545;IPR002464;IPR048333;IPR007502;IPR014001;IPR001650;IPR027417;IPR059023; |
+| Pfam | PF00270;PF21010;PF00271;PF07717;PF26026;PF04408; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000174953-DHX36/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ANLN | Biogrid | false |
+| DISC1 | Intact | false |
+| ERCC6 | Biogrid | false |
+| FUBP1 | Biogrid | false |
+| GATA1 | Biogrid | false |
+| HNRNPA1 | Biogrid | false |
+| LARP4B | Biogrid | false |
+| LIN28A | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

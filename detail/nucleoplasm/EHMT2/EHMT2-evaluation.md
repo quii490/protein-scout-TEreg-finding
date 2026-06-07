@@ -173,3 +173,30 @@ status: rejected
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/A0A0G2JK64
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96KQ7 |
+| SMART | SM00248;SM00468;SM00317; |
+| UniProt Domain [FT] | DOMAIN 972..1035; /note="Pre-SET"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00157"; DOMAIN 1038..1155; /note="SET"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00190"; DOMAIN 1164..1180; /note="Post-SET" |
+| InterPro | IPR002110;IPR036770;IPR043550;IPR047762;IPR007728;IPR001214;IPR046341;IPR038034; |
+| Pfam | PF00023;PF12796;PF21533;PF05033;PF00856; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000204371-EHMT2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| H3-3A | Intact, Biogrid | true |
+| H3-3B | Intact, Biogrid | true |
+| HDAC1 | Intact, Biogrid | true |
+| KLF12 | Intact, Biogrid | true |
+| KLF3 | Intact, Biogrid | true |
+| PRRC2B | Intact, Biogrid | true |
+| RERE | Intact, Biogrid | true |
+| XAGE2 | Intact, Biogrid | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

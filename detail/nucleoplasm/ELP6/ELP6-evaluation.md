@@ -186,6 +186,27 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/ELP6/ELP6-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q0PNE2 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR018627;IPR027417; |
+| Pfam | PF09807; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000163832-ELP6/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ELP5 | Intact, Biogrid | true |
+| CIAO1 | Biogrid | false |
+| ELP1 | Biogrid | false |
+| ELP2 | Biogrid | false |
+| ELP3 | Biogrid | false |
+| ELP4 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -190,3 +190,30 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 ![](https://images.proteinatlas.org/29273/297_G6_1_red_green.jpg)
 ![](https://images.proteinatlas.org/29273/297_G6_2_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O00267 |
+| SMART | SM01104;SM00739;SM00738; |
+| UniProt Domain [FT] | DOMAIN 273..306; /note="KOW 1"; DOMAIN 420..451; /note="KOW 2"; DOMAIN 472..503; /note="KOW 3"; DOMAIN 594..627; /note="KOW 4"; DOMAIN 704..737; /note="KOW 5" |
+| InterPro | IPR005824;IPR041973;IPR041975;IPR041976;IPR041977;IPR041978;IPR041980;IPR057934;IPR057936;IPR005100;IPR006645;IPR036735;IPR039385;IPR014722;IPR039659;IPR024945;IPR022581;IPR017071;IPR008991; |
+| Pfam | PF00467;PF23042;PF23284;PF23291;PF23290;PF23288;PF23287;PF23037;PF03439;PF11942; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000196235-SUPT5H/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CDC73 | Biogrid, Opencell | true |
+| CPSF6 | Biogrid, Opencell | true |
+| CRNKL1 | Biogrid, Opencell | true |
+| CSNK2A1 | Biogrid, Opencell | true |
+| CSNK2A2 | Biogrid, Opencell | true |
+| CT45A5 | Biogrid, Opencell | true |
+| CTR9 | Biogrid, Opencell | true |
+| GOLGA2 | Intact, Biogrid | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

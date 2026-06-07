@@ -197,3 +197,29 @@ status: rejected
 
 ![](https://alphafold.ebi.ac.uk/files/AF-P16083-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P16083 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR003680;IPR029039;IPR051545; |
+| Pfam | PF02525; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000124588-NQO2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| DDIT4L | Intact | false |
+| EFHC1 | Intact | false |
+| GORASP2 | Intact | false |
+| HSCB | Intact | false |
+| NSF | Bioplex | false |
+| PARS2 | Bioplex | false |
+| SPG21 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

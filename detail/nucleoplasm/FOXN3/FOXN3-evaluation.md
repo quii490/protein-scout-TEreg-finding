@@ -186,4 +186,23 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/FOXN3/FOXN3-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O00409 |
+| SMART | SM00339; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR047404;IPR001766;IPR047119;IPR018122;IPR030456;IPR036388;IPR036390; |
+| Pfam | PF00250; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000053254-FOXN3/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| MEN1 | Biogrid | false |
+| SNW1 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -154,6 +154,20 @@ status: scored
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96SC8 |
+| SMART | SM00301; |
+| UniProt Domain [FT] | DOMAIN 314..349; /note="DMA"; /evidence="ECO:0000255" |
+| InterPro | IPR001275;IPR036407;IPR005173;IPR026607;IPR046472;IPR009060; |
+| Pfam | PF00751;PF03474;PF20624; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000142700-DMRTA2/interaction
 
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

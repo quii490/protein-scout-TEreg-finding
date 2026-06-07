@@ -233,6 +233,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/chromatin/ALKBH3/ALKBH3-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96Q83 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 172..278; /note="Fe2OG dioxygenase"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00805" |
+| InterPro | IPR027450;IPR037151;IPR032854;IPR005123; |
+| Pfam | PF13532; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000166199-ALKBH3/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ASCC3 | Biogrid, Bioplex | true |
+| GOLGA2 | Intact, Biogrid | true |
+| IKZF1 | Intact, Biogrid | true |
+| AK8 | Intact | false |
+| ASCC2 | Bioplex | false |
+| GLRX3 | Intact | false |
+| LNX1 | Intact | false |
+| OTUD4 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

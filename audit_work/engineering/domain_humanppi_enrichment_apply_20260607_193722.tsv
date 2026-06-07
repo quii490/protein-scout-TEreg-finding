@@ -1,0 +1,14 @@
+gene	report_path	uniprot	smart	domain_ft	interpro	pfam	domain_error	hpa_interaction_url	humanppi_count	humanppi_partners	humanppi_error	changed	applied
+SPRR4	detail/nuclear-envelope/SPRR4/SPRR4-evaluation.md	Q96PI1						https://www.proteinatlas.org/ENSG00000184148-SPRR4/interaction	0			True	True
+FOXL2NB	detail/nucleolus/FOXL2NB/FOXL2NB-evaluation.md	Q6ZUU3						https://www.proteinatlas.org/ENSG00000206262-FOXL2NB/interaction	0			True	True
+KLLN	detail/nucleolus/KLLN/KLLN-evaluation.md	B2CW77						https://www.proteinatlas.org/ENSG00000227268-KLLN/interaction	0			True	True
+PANO1	detail/nucleolus/PANO1/PANO1-evaluation.md	I0J062						https://www.proteinatlas.org/ENSG00000288675-PANO1/interaction	0			True	True
+ATXN8	detail/nucleoplasm/ATXN8/ATXN8-evaluation.md	Q156A1							0		hpa_entry_not_found	True	True
+C17orf100	detail/nucleoplasm/C17orf100/C17orf100-evaluation.md	A8MU93						https://www.proteinatlas.org/ENSG00000256806-C17orf100/interaction	0			True	True
+CCDC122	detail/nucleoplasm/CCDC122/CCDC122-evaluation.md	Q5T0U0						https://www.proteinatlas.org/ENSG00000151773-CCDC122/interaction	0			True	True
+Derpc	detail/nucleoplasm/Derpc/Derpc-evaluation.md	P0CG12						https://www.proteinatlas.org/ENSG00000286140-DERPC/interaction	0			True	True
+Ifi203	detail/nucleoplasm/Ifi203/Ifi203-evaluation.md						uniprot_entry_not_found	https://www.proteinatlas.org/ENSG00000163563-MNDA/interaction	0			True	True
+PBOV1	detail/nucleoplasm/PBOV1/PBOV1-evaluation.md	Q9GZY1						https://www.proteinatlas.org/ENSG00000254440-PBOV1/interaction	0			True	True
+PRAC1	detail/nucleoplasm/PRAC1/PRAC1-evaluation.md	Q96KF2						https://www.proteinatlas.org/ENSG00000159182-PRAC1/interaction	0			True	True
+PRAC2	detail/nucleoplasm/PRAC2/PRAC2-evaluation.md	D3DTV9						https://www.proteinatlas.org/ENSG00000229637-PRAC2/interaction	0			True	True
+SPATA31H1	detail/nucleoplasm/SPATA31H1/SPATA31H1-evaluation.md	Q68DN1							0		hpa_entry_not_found	True	True

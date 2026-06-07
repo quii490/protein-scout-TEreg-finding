@@ -165,3 +165,29 @@ High-confidence interactors (score >= 0.7): 3. Total STRING interactions: 15. In
 - STRING: https://string-db.org/ (search SERGEF)
 - IntAct: https://www.ebi.ac.uk/intact/ (search SERGEF)
 - Harvest packet: SERGEF.json
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9UGK8 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR058923;IPR009091;IPR000408;IPR051625; |
+| Pfam | PF25390; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000129158-SERGEF/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| DPH3 | Intact, Biogrid | true |
+| KDM1A | Intact, Biogrid | true |
+| PRMT6 | Intact, Biogrid | true |
+| EXOC2 | Biogrid | false |
+| FOXH1 | Intact | false |
+| HGS | Intact | false |
+| PITX1 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

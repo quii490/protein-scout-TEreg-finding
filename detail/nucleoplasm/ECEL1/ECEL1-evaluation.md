@@ -175,6 +175,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/ECEL1/ECEL1-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O95672 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 98..775; /note="Peptidase M13"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01233" |
+| InterPro | IPR024079;IPR000718;IPR018497;IPR042089;IPR008753; |
+| Pfam | PF01431;PF05649; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000171551-ECEL1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ADAM10 | Bioplex | false |
+| ADAM17 | Bioplex | false |
+| ADGRF1 | Bioplex | false |
+| C1QL4 | Bioplex | false |
+| CANX | Bioplex | false |
+| CD151 | Bioplex | false |
+| CHST12 | Bioplex | false |
+| CHST14 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

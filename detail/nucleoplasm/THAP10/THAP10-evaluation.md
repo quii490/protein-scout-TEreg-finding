@@ -116,6 +116,29 @@ HPA 免疫荧光（IF）实验数据确认 THAP10 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9P2Z0 |
+| SMART | SM00692;SM00980; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR026516;IPR006612;IPR038441; |
+| Pfam | PF05485; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000129028-THAP10/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| A2ML1 | Bioplex | false |
+| ALOX12B | Bioplex | false |
+| CAPNS2 | Bioplex | false |
+| CCNDBP1 | Intact | false |
+| DYNLL1 | Intact | false |
+| DYNLL2 | Intact | false |
+| GSDMA | Bioplex | false |
+| KRTAP10-5 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

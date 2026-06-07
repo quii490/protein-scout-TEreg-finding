@@ -193,3 +193,30 @@ status: scored
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CCDC59
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9P031
 - STRING: https://string-db.org/cgi/network?identifiers=CCDC59&species=9606
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9P031 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR013730; |
+| Pfam | PF08524; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000133773-CCDC59/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| IPO5 | Biogrid, Opencell | true |
+| NIFK | Biogrid, Bioplex | true |
+| H1-7 | Bioplex | false |
+| HAUS1 | Bioplex | false |
+| HAUS4 | Bioplex | false |
+| KRR1 | Bioplex | false |
+| MAGEA8 | Intact | false |
+| NEIL1 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

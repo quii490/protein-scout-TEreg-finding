@@ -125,6 +125,22 @@ HPA 免疫荧光（IF）实验数据确认 FOXI1 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q12951 |
+| SMART | SM00339; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR001766;IPR050211;IPR018122;IPR030456;IPR036388;IPR036390; |
+| Pfam | PF00250; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000168269-FOXI1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| NFIA | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

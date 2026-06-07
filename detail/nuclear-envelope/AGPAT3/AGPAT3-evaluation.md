@@ -103,3 +103,30 @@ HPA IF 原图未可靠获取（HPA检索页无可用的subcellular IF原图）�
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q9NRZ7-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9NRZ7 |
+| SMART | SM00563; |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR032098;IPR002123; |
+| Pfam | PF16076;PF01553; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000160216-AGPAT3/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ABHD16A | Intact | false |
+| AQP6 | Intact | false |
+| BNIP2 | Intact | false |
+| CREB3L1 | Intact | false |
+| FAM133A | Intact | false |
+| GOLT1A | Intact | false |
+| HSD17B11 | Intact | false |
+| HSD17B13 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

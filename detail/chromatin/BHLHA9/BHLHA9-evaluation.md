@@ -173,3 +173,30 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q7RTU4-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q7RTU4 |
+| SMART | SM00353; |
+| UniProt Domain [FT] | DOMAIN 65..117; /note="bHLH"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00981" |
+| InterPro | IPR011598;IPR050283;IPR036638; |
+| Pfam | PF00010; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000205899-BHLHA9/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| BCL2L2 | Intact | false |
+| BCL2L2-PABPN1 | Intact | false |
+| GOLGA6L9 | Intact | false |
+| KIAA0753 | Intact | false |
+| KRT31 | Intact | false |
+| MCRS1 | Intact | false |
+| NECAB1 | Intact | false |
+| POMC | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

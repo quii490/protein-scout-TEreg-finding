@@ -212,6 +212,29 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/GEMIN4/GEMIN4-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P57678 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR033265; |
+| Pfam | 未检出 |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000179409-GEMIN4/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| DDX20 | Intact, Biogrid | true |
+| GEMIN6 | Biogrid, Bioplex | true |
+| GEMIN7 | Biogrid, Bioplex | true |
+| GEMIN8 | Biogrid, Bioplex | true |
+| SMN1 | Biogrid, Opencell | true |
+| SNRPB | Intact, Biogrid, Opencell | true |
+| SNRPD2 | Biogrid, Opencell | true |
+| SNRPE | Biogrid, Bioplex | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

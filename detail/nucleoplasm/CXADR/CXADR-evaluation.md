@@ -178,3 +178,30 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-P78310-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P78310 |
+| SMART | SM00409;SM00408;SM00406; |
+| UniProt Domain [FT] | DOMAIN 20..134; /note="Ig-like C2-type 1"; DOMAIN 141..228; /note="Ig-like C2-type 2" |
+| InterPro | IPR052307;IPR007110;IPR036179;IPR013783;IPR003599;IPR003598;IPR013106; |
+| Pfam | PF13927;PF07686; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000154639-CXADR/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CANX | Biogrid, Opencell | true |
+| ARF6 | Biogrid | false |
+| ARL13B | Biogrid | false |
+| CCDC8 | Biogrid | false |
+| EPHA2 | Biogrid | false |
+| FAM3C | Intact | false |
+| KRAS | Biogrid | false |
+| MAL | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

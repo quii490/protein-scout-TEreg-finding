@@ -172,3 +172,30 @@ SAMD11 has a moderate PPI network with 15+ Y2H-identified interactions and one c
 ![](https://images.proteinatlas.org/30110/335_G9_2_red_green.jpg)
 ![](https://images.proteinatlas.org/30110/335_G9_3_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96NU1 |
+| SMART | SM00454; |
+| UniProt Domain [FT] | DOMAIN 543..608; /note="SAM"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00184" |
+| InterPro | IPR001660;IPR013761; |
+| Pfam | PF07647; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000187634-SAMD11/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| BPIFA1 | Intact | false |
+| CCNF | Biogrid | false |
+| CT55 | Intact | false |
+| ECM1 | Intact | false |
+| JMJD7 | Intact | false |
+| KRT31 | Intact | false |
+| KRT34 | Intact | false |
+| KRTAP5-7 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -173,3 +173,30 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q96JQ2-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96JQ2 |
+| SMART | SM00033; |
+| UniProt Domain [FT] | DOMAIN 32..139; /note="Calponin-homology (CH) 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00044"; DOMAIN 187..291; /note="Calponin-homology (CH) 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00044" |
+| InterPro | IPR001589;IPR001715;IPR036872;IPR047827;IPR047826;IPR052403; |
+| Pfam | PF00307; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000165959-CLMN/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CTNNB1 | Biogrid, Opencell | true |
+| ANXA9 | Bioplex | false |
+| COPB2 | Opencell | false |
+| CTNNA1 | Biogrid | false |
+| GPR182 | Bioplex | false |
+| RTN4 | Opencell | false |
+| SEC61B | Biogrid | false |
+| SEC62 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

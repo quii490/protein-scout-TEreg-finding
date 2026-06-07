@@ -117,3 +117,30 @@ HPA IF 图像已本地嵌入。
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q9Y5B0-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9Y5B0 |
+| SMART | SM00292;SM00577; |
+| UniProt Domain [FT] | DOMAIN 178..344; /note="FCP1 homology"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00336"; DOMAIN 629..728; /note="BRCT"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00033" |
+| InterPro | IPR001357;IPR036420;IPR058785;IPR039189;IPR015388;IPR004274;IPR011947;IPR036412;IPR023214; |
+| Pfam | PF00533;PF26077;PF09309;PF03031; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000060069-CTDP1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| FANCI | Intact, Biogrid | true |
+| GTF2F1 | Intact, Biogrid | true |
+| POLR2B | Intact, Biogrid | true |
+| PRMT5 | Intact, Biogrid | true |
+| STK38 | Intact, Biogrid | true |
+| CDK8 | Biogrid | false |
+| CDK9 | Biogrid | false |
+| ERH | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

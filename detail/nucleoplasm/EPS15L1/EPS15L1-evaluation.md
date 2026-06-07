@@ -190,6 +190,29 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/EPS15L1/EPS15L1-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9UBC2 |
+| SMART | SM00054;SM00027; |
+| UniProt Domain [FT] | DOMAIN 15..104; /note="EH 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00077"; DOMAIN 48..83; /note="EF-hand 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00448"; DOMAIN 127..215; /note="EH 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00077"; DOMAIN 159..194; /note="EF-hand 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00448"; DOMAIN 274..309; /note="EF-hand 3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00448"; DOMAIN 275..365; /note="EH 3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00077"; DOMAIN 310..343; /note="EF-hand 4"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00448" |
+| InterPro | IPR011992;IPR018247;IPR002048;IPR000261;IPR018159; |
+| Pfam | PF12763; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000127527-EPS15L1/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| AP2B1 | Biogrid, Opencell | true |
+| AP2S1 | Biogrid, Opencell | true |
+| EPS15 | Biogrid, Opencell, Bioplex | true |
+| FCHO2 | Biogrid, Bioplex | true |
+| ITSN1 | Intact, Biogrid, Opencell | true |
+| ITSN2 | Intact, Biogrid, Opencell | true |
+| PLK1 | Intact, Biogrid | true |
+| SGIP1 | Biogrid, Bioplex | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

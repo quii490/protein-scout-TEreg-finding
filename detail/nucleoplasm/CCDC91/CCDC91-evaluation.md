@@ -200,3 +200,23 @@ HPA IF 图像可用 (2张)，待下载。
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CCDC91
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q7Z6B0
 - STRING: https://string-db.org/cgi/network?identifiers=CCDC91&species=9606
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q7Z6B0 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR034592; |
+| Pfam | 未检出 |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000123106-CCDC91/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| GGA1 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

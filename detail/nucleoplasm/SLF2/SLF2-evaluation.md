@@ -161,3 +161,30 @@ STRONG CANDIDATE. SLF2 (FAM178A) is part of the SLF1-SLF2 heterodimer that bridg
 ![](https://images.proteinatlas.org/57568/980_B7_1_red_green.jpg)
 ![](https://images.proteinatlas.org/57568/980_B7_7_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8IX21 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR044276;IPR026161; |
+| Pfam | PF14816; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000119906-SLF2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| SIMC1 | Intact, Biogrid | true |
+| SLF1 | Intact, Biogrid, Bioplex | true |
+| SMC5 | Intact, Biogrid | true |
+| SMC6 | Intact, Biogrid | true |
+| ATRX | Biogrid | false |
+| NSMCE3 | Bioplex | false |
+| PML | Biogrid | false |
+| PSMA1 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

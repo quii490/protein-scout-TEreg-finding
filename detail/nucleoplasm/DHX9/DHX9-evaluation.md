@@ -171,3 +171,30 @@ status: rejected
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q08211-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q08211 |
+| SMART | SM00487;SM00358;SM00847;SM00490; |
+| UniProt Domain [FT] | DOMAIN 3..71; /note="DRBM 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00266, ECO:0000269\|PubMed:23361462, ECO:0000269\|PubMed:9111062"; DOMAIN 180..252; /note="DRBM 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00266, ECO:0000269\|PubMed:23361462, ECO:0000269\|PubMed:9111062"; DOMAIN 398..564; /note="Helicase ATP-binding"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00541, ECO:0000269\|PubMed:20510246"; DOMAIN 636..809; /note="Helicase C-terminal"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00542" |
+| InterPro | IPR011709;IPR011545;IPR044447;IPR044445;IPR044446;IPR002464;IPR014720;IPR048333;IPR007502;IPR014001;IPR001650;IPR027417; |
+| Pfam | PF00270;PF00035;PF21010;PF00271;PF07717;PF04408; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000135829-DHX9/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ADAR | Biogrid, Opencell | true |
+| CTCF | Biogrid, Opencell | true |
+| DDX17 | Biogrid, Opencell | true |
+| DDX21 | Intact, Biogrid, Opencell | true |
+| DDX5 | Intact, Biogrid, Opencell | true |
+| DICER1 | Biogrid, Opencell | true |
+| EIF2AK2 | Intact, Biogrid, Opencell | true |
+| ELAVL1 | Biogrid, Opencell | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -165,3 +165,30 @@ High-confidence interactors (score >= 0.7): 15. Total STRING interactions: 15. I
 - STRING: https://string-db.org/ (search SEPTIN3)
 - IntAct: https://www.ebi.ac.uk/intact/ (search SEPTIN3)
 - Harvest packet: SEPTIN3.json
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9UH03 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | DOMAIN 58..331; /note="Septin-type G"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01056" |
+| InterPro | IPR030379;IPR027417;IPR016491;IPR008114; |
+| Pfam | PF00735; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000100167-SEPTIN3/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| SEPTIN1 | Intact, Biogrid | true |
+| SEPTIN11 | Biogrid, Opencell | true |
+| SEPTIN2 | Biogrid, Opencell | true |
+| SEPTIN6 | Intact, Biogrid | true |
+| SEPTIN7 | Biogrid, Opencell | true |
+| SEPTIN8 | Biogrid, Opencell | true |
+| SEPTIN9 | Biogrid, Opencell | true |
+| CDC37 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

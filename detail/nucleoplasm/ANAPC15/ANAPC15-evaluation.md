@@ -110,4 +110,29 @@ HPA IF 图像已本地嵌入。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/ANAPC15/ANAPC15-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | P60006 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR026182; |
+| Pfam | PF15243; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000110200-ANAPC15/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ANAPC2 | Intact, Biogrid | true |
+| ANAPC1 | Biogrid | false |
+| ANAPC10 | Biogrid | false |
+| ANAPC13 | Biogrid | false |
+| ANAPC16 | Biogrid | false |
+| ANAPC4 | Biogrid | false |
+| ANAPC5 | Biogrid | false |
+| ANAPC7 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

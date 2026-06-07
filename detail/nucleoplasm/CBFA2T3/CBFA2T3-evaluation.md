@@ -183,6 +183,29 @@ status: rejected
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/rejected/CBFA2T3/CBFA2T3-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O75081 |
+| SMART | SM00549; |
+| UniProt Domain [FT] | DOMAIN 171..266; /note="TAFH"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00440" |
+| InterPro | IPR013289;IPR013292;IPR014896;IPR037249;IPR003894;IPR002893; |
+| Pfam | PF08788;PF07531;PF01753; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000129993-CBFA2T3/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CBFA2T2 | Biogrid | false |
+| GFI1B | Biogrid | false |
+| HDAC1 | Biogrid | false |
+| HDAC2 | Biogrid | false |
+| HDAC3 | Biogrid | false |
+| HIF1A | Biogrid | false |
+| IRF2BP2 | Biogrid | false |
+| KDM1A | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

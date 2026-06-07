@@ -180,3 +180,30 @@ status: rejected
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q9H4B4-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9H4B4 |
+| SMART | SM00220; |
+| UniProt Domain [FT] | DOMAIN 62..314; /note="Protein kinase"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00159"; DOMAIN 463..541; /note="POLO box 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00154"; DOMAIN 562..645; /note="POLO box 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00154" |
+| InterPro | IPR011009;IPR042703;IPR033701;IPR033695;IPR000959;IPR036947;IPR000719;IPR017441;IPR008271; |
+| Pfam | PF00069;PF00659; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000173846-PLK3/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| PRNP | Intact, Biogrid | true |
+| BUB1B | Biogrid | false |
+| CDC25C | Biogrid | false |
+| CHEK2 | Biogrid | false |
+| HIF1A | Biogrid | false |
+| LSM5 | Intact | false |
+| POU2F1 | Intact | false |
+| RAD52 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

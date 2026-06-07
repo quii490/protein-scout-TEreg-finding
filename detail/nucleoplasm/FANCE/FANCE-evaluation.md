@@ -190,6 +190,29 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/FANCE/FANCE-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9HB96 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR039685;IPR021025; |
+| Pfam | PF11510; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000112039-FANCE/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| FANCC | Intact, Biogrid, Bioplex | true |
+| FANCD2 | Intact, Biogrid | true |
+| AKT1 | Intact | false |
+| CENPS | Biogrid | false |
+| CENPX | Biogrid | false |
+| FAAP20 | Biogrid | false |
+| FANCA | Biogrid | false |
+| FANCF | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

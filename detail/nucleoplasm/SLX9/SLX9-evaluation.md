@@ -146,3 +146,30 @@ CONFIRMED REJECTION. SLX9 is a conserved ribosome biogenesis factor involved in 
 ![](https://images.proteinatlas.org/36559/820_A9_3_red_green.jpg)
 ![](https://images.proteinatlas.org/36559/820_A9_4_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9NSI2 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR028160; |
+| Pfam | PF15341; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000160256-SLX9/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| BYSL | Biogrid, Opencell | true |
+| DIMT1 | Biogrid, Opencell | true |
+| RPS11 | Biogrid, Opencell | true |
+| TNPO1 | Biogrid, Opencell | true |
+| TSR1 | Biogrid, Opencell | true |
+| ATRX | Biogrid | false |
+| BUD23 | Biogrid | false |
+| CSNK1E | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -189,3 +189,24 @@ HPA IF 图像可用 (12张)，待下载。
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CCDC74A
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q96AQ1
 - STRING: https://string-db.org/cgi/network?identifiers=CCDC74A&species=9606
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96AQ1 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR029422;IPR040370;IPR039496; |
+| Pfam | PF14917;PF14916; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000163040-CCDC74A/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CEP19 | Intact | false |
+| ZNF655 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -223,3 +223,21 @@ HPA IF 图像已本地嵌入。
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q8NAG6-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8NAG6 |
+| SMART | SM00248; |
+| UniProt Domain [FT] | DOMAIN 355..399; /note="LEM"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00313"; DOMAIN 448..566; /note="GIY-YIG"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00977" |
+| InterPro | IPR034998;IPR002110;IPR036770;IPR000305;IPR011015;IPR003887; |
+| Pfam | PF12796;PF22945; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000160117-ANKLE1/interaction
+
+未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

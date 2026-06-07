@@ -176,3 +176,30 @@ status: scored
 ![](https://images.proteinatlas.org/37362/441_G1_1_red_green.jpg)
 ![](https://images.proteinatlas.org/37362/441_G1_2_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8NFC6 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR055264;IPR043244; |
+| Pfam | PF05205; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000038219-BOD1L1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| HCFC2 | Biogrid, Bioplex | true |
+| WDR5 | Intact, Biogrid | true |
+| ASH2L | Biogrid | false |
+| BRD4 | Biogrid | false |
+| CXXC1 | Biogrid | false |
+| EIF4B | Biogrid | false |
+| HCFC1 | Biogrid | false |
+| HNRNPAB | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

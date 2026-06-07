@@ -199,3 +199,30 @@ HPA IF 图像可用 (6张)，待下载。
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CCDC8
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9H0W5
 - STRING: https://string-db.org/cgi/network?identifiers=CCDC8&species=9606
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q9H0W5 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR026526; |
+| Pfam | 未检出 |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000169515-CCDC8/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ANKRA2 | Intact, Biogrid | true |
+| CALM1 | Biogrid, Opencell | true |
+| NPM1 | Biogrid, Opencell | true |
+| CALM2 | Opencell | false |
+| CALM3 | Opencell | false |
+| CAPZA2 | Biogrid | false |
+| CCT2 | Biogrid | false |
+| CDK1 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

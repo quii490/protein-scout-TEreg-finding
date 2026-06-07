@@ -184,3 +184,30 @@ status: scored
 
 ![](https://alphafold.ebi.ac.uk/files/AF-O95502-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O95502 |
+| SMART | SM00159; |
+| UniProt Domain [FT] | DOMAIN 292..494; /note="Pentraxin (PTX)"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01172" |
+| InterPro | IPR013320;IPR051360;IPR001759; |
+| Pfam | PF00354; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000221890-NPTXR/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CORO1A | Bioplex | false |
+| CST9L | Bioplex | false |
+| CYB5D2 | Bioplex | false |
+| ERP44 | Bioplex | false |
+| FBXO2 | Bioplex | false |
+| HSPA5 | Bioplex | false |
+| MFAP4 | Bioplex | false |
+| NPTX1 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

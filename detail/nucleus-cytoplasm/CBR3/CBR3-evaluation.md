@@ -197,3 +197,30 @@ status: scored
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CBR3
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/O75828
 - STRING: https://string-db.org/cgi/network?identifiers=CBR3&species=9606
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O75828 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR045313;IPR036291;IPR020904;IPR002347; |
+| Pfam | PF00106; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000159231-CBR3/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CBR1 | Intact, Biogrid, Bioplex | true |
+| BICD2 | Biogrid | false |
+| CCR1 | Bioplex | false |
+| MBNL1 | Bioplex | false |
+| PINK1 | Bioplex | false |
+| SARAF | Bioplex | false |
+| SDCBP | Intact | false |
+| SSUH2 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

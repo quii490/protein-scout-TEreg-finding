@@ -170,4 +170,29 @@ IntAct 有限记录。无 BioGrid 补充数据。
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CBFA2T2/CBFA2T2-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O43439 |
+| SMART | SM00549; |
+| UniProt Domain [FT] | DOMAIN 113..208; /note="TAFH"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00440" |
+| InterPro | IPR013289;IPR013291;IPR014896;IPR037249;IPR003894;IPR002893; |
+| Pfam | PF08788;PF07531;PF01753; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000078699-CBFA2T2/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| MDFI | Intact, Biogrid | true |
+| PRDM14 | Intact, Biogrid | true |
+| CBFA2T3 | Biogrid | false |
+| CUL3 | Biogrid | false |
+| PDP1 | Intact | false |
+| PRDM6 | Biogrid | false |
+| RUNX1 | Biogrid | false |
+| RUNX1T1 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

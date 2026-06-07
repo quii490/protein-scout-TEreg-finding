@@ -192,3 +192,30 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 ![](https://images.proteinatlas.org/26728/609_G6_1_red_green.jpg)
 ![](https://images.proteinatlas.org/26728/609_G6_2_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q7Z2T5 |
+| SMART | SM00355; |
+| UniProt Domain [FT] | DOMAIN 227..688; /note="Trm1 methyltransferase"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00958" |
+| InterPro | IPR029063;IPR002905;IPR042296;IPR013087; |
+| Pfam | PF02005; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000121486-TRMT1L/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| RPL4 | Biogrid, Opencell | true |
+| RPS16 | Biogrid, Opencell | true |
+| CAPRIN1 | Opencell | false |
+| CCNF | Biogrid | false |
+| CFAP97 | Opencell | false |
+| CRCP | Opencell | false |
+| CSNK2A2 | Opencell | false |
+| DRG1 | Opencell | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -178,3 +178,30 @@ status: rejected
 
 ![](https://alphafold.ebi.ac.uk/files/AF-Q14118-F1-predicted_aligned_error_v6.png)
 <!-- AF_PAE_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q14118 |
+| SMART | SM00736; |
+| UniProt Domain [FT] | DOMAIN 603..712; /note="Peptidase S72" |
+| InterPro | IPR027468;IPR041631;IPR006644;IPR015919;IPR008465;IPR013783;IPR030398; |
+| Pfam | PF18424;PF05454;PF05345; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000173402-DAG1/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| UTRN | Biogrid, Opencell | true |
+| ACTN1 | Biogrid | false |
+| AGR2 | Biogrid | false |
+| ATP6V1D | Opencell | false |
+| CAV1 | Biogrid | false |
+| CAV3 | Biogrid | false |
+| CBLN4 | Bioplex | false |
+| CD70 | Bioplex | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

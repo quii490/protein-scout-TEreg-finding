@@ -191,3 +191,30 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 ![](https://images.proteinatlas.org/35770/393_B6_1_red_green.jpg)
 ![](https://images.proteinatlas.org/35770/393_B6_2_red_green.jpg)
 <!-- HPA_IF_REPAIR_END -->
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-06）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q86TJ2 |
+| SMART | SM00717;SM00291; |
+| UniProt Domain [FT] | DOMAIN 65..118; /note="SANT"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00624" |
+| InterPro | IPR041983;IPR016827;IPR056267;IPR009057;IPR001005;IPR017884;IPR055141;IPR036388;IPR000433;IPR043145; |
+| Pfam | PF00249;PF22941;PF24533;PF25299; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000173011-TADA2B/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| ENY2 | Biogrid, Opencell | true |
+| KPNA1 | Biogrid, Opencell | true |
+| SF3B3 | Biogrid, Opencell | true |
+| SF3B5 | Biogrid, Opencell | true |
+| SGF29 | Biogrid, Bioplex | true |
+| SUPT20H | Biogrid, Bioplex | true |
+| TADA1 | Biogrid, Bioplex | true |
+| TAF12 | Biogrid, Opencell | true |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

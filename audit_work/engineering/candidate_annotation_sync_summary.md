@@ -1,0 +1,141 @@
+# Candidate Annotation Sync Summary
+
+- Candidate dir: /Users/quii/Desktop/projects/TE-regulated proteins finding/candidates
+- Extracted candidate genes: 157
+- Highlighted genes in web index: 130
+- Missing candidate genes from web index: 27
+- Output: data/manual/web_annotations.tsv
+- Missing candidates TSV: audit_work/engineering/candidate_genes_missing_from_web_index.tsv
+
+## Genes
+
+- ALKBH4: gene candidates.xlsx:PX459, gene candidates.xlsx:summary
+- AMMECR1: Candidates-Batch2.xlsx:Sheet1
+- ARL14EP: list2.xlsx:Sheet1
+- BOD1L1: gene candidates.xlsx:PB, gene candidates.xlsx:PX459, gene candidates.xlsx:information, gene candidates.xlsx:summary
+- C10ORF71: list1.xlsx:Sheet1
+- C10ORF90: list1.xlsx:Sheet1
+- C11ORF21: list1.xlsx:Sheet1
+- C11ORF96: list1.xlsx:Sheet1
+- C12ORF57: list1.xlsx:Sheet1
+- C14ORF39: list1.xlsx:Sheet1
+- C16ORF87: Candidates-Batch2.xlsx:Sheet1
+- C17ORF107: list1.xlsx:Sheet1
+- C19ORF47: Candidates-Batch2.xlsx:Sheet1, list2.xlsx:Sheet1
+- C19ORF67: list1.xlsx:Sheet1
+- C1ORF159: list1.xlsx:Sheet1
+- C1ORF174: CandiatesListFrom5000nuclearProteins.xlsx:Sheet1
+- C1ORF216: list1.xlsx:Sheet1
+- C1ORF226: list1.xlsx:Sheet1
+- C1ORF52: Candidates-Batch2.xlsx:Sheet1
+- C1ORF94: list1.xlsx:Sheet1
+- C22ORF23: list1.xlsx:Sheet1
+- C22ORF31: list1.xlsx:Sheet1
+- C2ORF68: list1.xlsx:Sheet1
+- C2ORF72: list1.xlsx:Sheet1
+- C3ORF38: Candidates-Batch2.xlsx:Sheet1
+- C3ORF62: list1.xlsx:Sheet1
+- C5ORF22: list1.xlsx:Sheet1
+- C6ORF163: list1.xlsx:Sheet1
+- C7ORF25: list1.xlsx:Sheet1
+- C8ORF33: Candidates-Batch2.xlsx:Sheet1
+- C8ORF58: list1.xlsx:Sheet1
+- C8ORF76: list1.xlsx:Sheet1
+- C9ORF152: list1.xlsx:Sheet1
+- C9ORF40: Candidates-Batch2.xlsx:Sheet1
+- CARNMT1: gene candidates.xlsx:PX459, gene candidates.xlsx:information, gene candidates.xlsx:summary
+- CCAR2: gene candidates.xlsx:PB, gene candidates.xlsx:PX459, gene candidates.xlsx:Sheet1, gene candidates.xlsx:information, gene candidates.xlsx:summary
+- CCDC89: CandiatesListFrom5000nuclearProteins.xlsx:Sheet1
+- CHTOP: gene candidates.xlsx:PX459, gene candidates.xlsx:information, gene candidates.xlsx:summary
+- CSRNP2: CandiatesListFrom5000nuclearProteins.xlsx:Sheet1
+- CXORF58: list1.xlsx:Sheet1
+- DCANP1: CandiatesListFrom5000nuclearProteins.xlsx:Sheet1
+- DEK: gene candidates.xlsx:information
+- DERPC: CandiatesListFrom5000nuclearProteins.xlsx:Sheet1
+- DMRTC2: CandiatesListFrom5000nuclearProteins.xlsx:Sheet1
+- DPY19L2: list2.xlsx:Sheet1
+- ERFL: CandiatesListFrom5000nuclearProteins.xlsx:Sheet1
+- ERICH1: Candidates-Batch2.xlsx:Sheet1
+- ERICH6: CandiatesListFrom5000nuclearProteins.xlsx:Sheet1
+- FAM124A: list1.xlsx:Sheet1
+- FAM124B: list1.xlsx:Sheet1
+- FAM131A: list1.xlsx:Sheet1
+- FAM133A: Candidates-Batch2.xlsx:Sheet1
+- FAM133B: Candidates-Batch2.xlsx:Sheet1
+- FAM13C: list1.xlsx:Sheet1
+- FAM156A: list2.xlsx:Sheet1
+- FAM169A: gene candidates.xlsx:PB, gene candidates.xlsx:PX459, gene candidates.xlsx:Sheet1, gene candidates.xlsx:information, gene candidates.xlsx:summary
+- FAM171B: list1.xlsx:Sheet1
+- FAM177A1: list1.xlsx:Sheet1
+- FAM178B: list1.xlsx:Sheet1
+- FAM186A: list1.xlsx:Sheet1
+- FAM193B: CandiatesListFrom5000nuclearProteins.xlsx:Sheet1
+- FAM204A: Candidates-Batch2.xlsx:Sheet1
+- FAM209A: CandiatesListFrom5000nuclearProteins.xlsx:Sheet1
+- FAM209B: list2.xlsx:Sheet1
+- FAM217B: Candidates-Batch2.xlsx:Sheet1
+- FAM220A: list1.xlsx:Sheet1
+- FAM222B: list1.xlsx:Sheet1
+- FAM47E: CandiatesListFrom5000nuclearProteins.xlsx:Sheet1
+- FAM53A: list1.xlsx:Sheet1
+- FAM76A: gene candidates.xlsx:PB, gene candidates.xlsx:PX459, gene candidates.xlsx:Sheet1, gene candidates.xlsx:information, gene candidates.xlsx:summary
+- FAM81A: list1.xlsx:Sheet1
+- FAM98B: gene candidates.xlsx:PX459, gene candidates.xlsx:information, gene candidates.xlsx:summary
+- FAM98C: gene candidates.xlsx:PX459, gene candidates.xlsx:information, gene candidates.xlsx:summary
+- FAM9A: CandiatesListFrom5000nuclearProteins.xlsx:Sheet1
+- FAM9C: CandiatesListFrom5000nuclearProteins.xlsx:Sheet1
+- FBL: gene candidates.xlsx:PB, gene candidates.xlsx:PX459, gene candidates.xlsx:Sheet1, gene candidates.xlsx:information, gene candidates.xlsx:summary
+- FUBP1: gene candidates.xlsx:PB, gene candidates.xlsx:PX459, gene candidates.xlsx:Sheet1, gene candidates.xlsx:information, gene candidates.xlsx:summary
+- FYTTD1: CandiatesListFrom5000nuclearProteins.xlsx:Sheet1
+- GARIN3: CandiatesListFrom5000nuclearProteins.xlsx:Sheet1
+- GLYR1: gene candidates.xlsx:PB, gene candidates.xlsx:PX459, gene candidates.xlsx:Sheet1, gene candidates.xlsx:dsg+ki, gene candidates.xlsx:information, gene candidates.xlsx:summary
+- GMCL1: CandiatesListFrom5000nuclearProteins.xlsx:Sheet1
+- GMCL2: CandiatesListFrom5000nuclearProteins.xlsx:Sheet1
+- GON4L: gene candidates.xlsx:PB, gene candidates.xlsx:PX459, gene candidates.xlsx:information, gene candidates.xlsx:summary
+- HCFC1: gene candidates.xlsx:PX459, gene candidates.xlsx:information, gene candidates.xlsx:summary
+- HJURP: gene candidates.xlsx:PX459, gene candidates.xlsx:information, gene candidates.xlsx:summary
+- HROB: gene candidates.xlsx:PX459, gene candidates.xlsx:information, gene candidates.xlsx:summary
+- JRKL: CandiatesListFrom5000nuclearProteins.xlsx:Sheet1
+- KHNYN: list2.xlsx:Sheet1
+- KIAA0408: Candidates-Batch2.xlsx:Sheet1
+- KIAA0930: Candidates-Batch2.xlsx:Sheet1
+- KNOP1: CandiatesListFrom5000nuclearProteins.xlsx:Sheet1, gene candidates.xlsx:PB, gene candidates.xlsx:PX459, gene candidates.xlsx:Sheet1, gene candidates.xlsx:information, gene candidates.xlsx:summary
+- LBHD1: Candidates-Batch2.xlsx:Sheet1
+- LBR: gene candidates.xlsx:PX459, gene candidates.xlsx:information, gene candidates.xlsx:summary
+- LENG1: Candidates-Batch2.xlsx:Sheet1
+- LRRC27: Candidates-Batch2.xlsx:Sheet1
+- LYSMD1: list2.xlsx:Sheet1
+- MAMLD1: list1.xlsx:Sheet1
+- MCRIP1: CandiatesListFrom5000nuclearProteins.xlsx:Sheet1
+- MPG: CandiatesListFrom5000nuclearProteins.xlsx:Sheet1
+- MTF2: gene candidates.xlsx:PX459, gene candidates.xlsx:information, gene candidates.xlsx:summary
+- NACC1: gene candidates.xlsx:PX459, gene candidates.xlsx:information, gene candidates.xlsx:summary
+- NAT10: gene candidates.xlsx:PX459, gene candidates.xlsx:information, gene candidates.xlsx:summary
+- NPM1: gene candidates.xlsx:PB, gene candidates.xlsx:PX459, gene candidates.xlsx:Sheet1, gene candidates.xlsx:information, gene candidates.xlsx:summary
+- PAGR1: list2.xlsx:Sheet1
+- PHF3: gene candidates.xlsx:PX459, gene candidates.xlsx:information, gene candidates.xlsx:summary
+- PIMREG: gene candidates.xlsx:PB, gene candidates.xlsx:PX459, gene candidates.xlsx:Sheet1, gene candidates.xlsx:information, gene candidates.xlsx:summary
+- PQBP1: list2.xlsx:Sheet1
+- RBPJ: gene candidates.xlsx:PB, gene candidates.xlsx:PX459, gene candidates.xlsx:Sheet1, gene candidates.xlsx:information, gene candidates.xlsx:summary
+- RERE: gene candidates.xlsx:PB, gene candidates.xlsx:PX459, gene candidates.xlsx:information, gene candidates.xlsx:summary
+- SETX: gene candidates.xlsx:PX459, gene candidates.xlsx:information, gene candidates.xlsx:summary
+- SNURF: list2.xlsx:Sheet1
+- SPANXB1: list2.xlsx:Sheet1
+- SPATA24: CandiatesListFrom5000nuclearProteins.xlsx:Sheet1
+- SPRYD4: list2.xlsx:Sheet1
+- SPTY2D1: gene candidates.xlsx:PB, gene candidates.xlsx:PX459, gene candidates.xlsx:Sheet1, gene candidates.xlsx:information, gene candidates.xlsx:summary
+- SSUH2: CandiatesListFrom5000nuclearProteins.xlsx:Sheet1
+- SSX3: list2.xlsx:Sheet1
+- STPG1: CandiatesListFrom5000nuclearProteins.xlsx:Sheet1
+- STPG4: CandiatesListFrom5000nuclearProteins.xlsx:Sheet1, list2.xlsx:Sheet1
+- TATDN3: CandiatesListFrom5000nuclearProteins.xlsx:Sheet1
+- TDRD3: gene candidates.xlsx:PX459, gene candidates.xlsx:information, gene candidates.xlsx:summary
+- TDRP: list2.xlsx:Sheet1
+- THYN1: gene candidates.xlsx:PB, gene candidates.xlsx:PX459, gene candidates.xlsx:Sheet1, gene candidates.xlsx:information, gene candidates.xlsx:summary
+- TMPO: gene candidates.xlsx:PX459, gene candidates.xlsx:information, gene candidates.xlsx:summary
+- TTC14: list1.xlsx:Sheet1
+- UBTFL1: CandiatesListFrom5000nuclearProteins.xlsx:Sheet1
+- WDR18: gene candidates.xlsx:PB, gene candidates.xlsx:PX459, gene candidates.xlsx:Sheet1, gene candidates.xlsx:information, gene candidates.xlsx:summary
+- WDR76: gene candidates.xlsx:PB, gene candidates.xlsx:PX459, gene candidates.xlsx:Sheet1, gene candidates.xlsx:information, gene candidates.xlsx:summary
+- WDR77: gene candidates.xlsx:PX459, gene candidates.xlsx:information, gene candidates.xlsx:summary
+- XRCC6: gene candidates.xlsx:PX459, gene candidates.xlsx:information, gene candidates.xlsx:summary

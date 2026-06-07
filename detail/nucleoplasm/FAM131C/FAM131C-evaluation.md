@@ -183,6 +183,26 @@ status: scored
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/FAM131C/FAM131C-PAE.png]]
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q96AQ9 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR026782; |
+| Pfam | PF15010; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000185519-FAM131C/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| GRN | Intact | false |
+| HPCAL4 | Intact | false |
+| LMO3 | Intact | false |
+| NDN | Biogrid | false |
+| VSNL1 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

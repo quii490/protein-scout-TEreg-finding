@@ -116,6 +116,23 @@ HPA 免疫荧光（IF）实验数据确认 TSPAN6 定位：
 
 IntAct 有限记录。无 BioGrid 补充数据。
 
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
 
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O43657 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR018499;IPR000301;IPR018503;IPR008952;IPR048232; |
+| Pfam | PF00335; |
 
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000000003-TSPAN6/interaction
 
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CANX | Opencell | false |
+| RAB14 | Opencell | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

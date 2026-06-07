@@ -178,3 +178,30 @@ status: scored
 
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CELF5/CELF5-PAE.png]]
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | Q8N6W0 |
+| SMART | SM00360; |
+| UniProt Domain [FT] | DOMAIN 45..126; /note="RRM 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00176"; DOMAIN 134..214; /note="RRM 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00176"; DOMAIN 400..478; /note="RRM 3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00176" |
+| InterPro | IPR034648;IPR012677;IPR035979;IPR000504; |
+| Pfam | PF00076; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000161082-CELF5/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CYSRT1 | Intact | false |
+| DAZAP2 | Intact | false |
+| KRTAP1-3 | Intact | false |
+| KRTAP12-3 | Intact | false |
+| KRTAP17-1 | Intact | false |
+| KRTAP19-5 | Intact | false |
+| KRTAP26-1 | Intact | false |
+| KRTAP3-2 | Intact | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->

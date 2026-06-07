@@ -175,3 +175,30 @@ status: rejected
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/EYA4
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
+
+<!-- DOMAIN_HUMANPPI_REPAIR_START -->
+## Domain/SMART 与 humanPPI 补充（2026-06-07）
+
+### SMART / UniProt domain
+| Source | Data |
+|---|---|
+| UniProt | O95677 |
+| SMART | 未在 UniProt xref 中检出 SMART 条目 |
+| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
+| InterPro | IPR028472;IPR006545;IPR042577;IPR038102; |
+| Pfam | PF00702; |
+
+### humanPPI / HPA Interaction
+Source: https://www.proteinatlas.org/ENSG00000112319-EYA4/interaction
+
+| Partner | Datasets | AF3/HPA structure |
+|---|---|:--:|
+| CIC | Biogrid | false |
+| DCTPP1 | Biogrid | false |
+| MAPK1 | Biogrid | false |
+| PLK1 | Biogrid | false |
+| SCO1 | Biogrid | false |
+| SCO2 | Biogrid | false |
+| SIX1 | Biogrid | false |
+| SIX2 | Biogrid | false |
+<!-- DOMAIN_HUMANPPI_REPAIR_END -->
