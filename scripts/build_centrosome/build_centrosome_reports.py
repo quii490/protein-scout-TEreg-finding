@@ -207,6 +207,18 @@ def main():
         r['protein_full_name'] = gene_desc.get(g, '')
         r['uniprot_id'] = ''
 
+    # Enzyme lookup from HPA Protein class
+    enzyme_genes = set()
+    for hpa_file in ['/tmp/hpa_centrosome.json', '/tmp/hpa_satellite.json']:
+        if os.path.exists(hpa_file):
+            with open(hpa_file) as f:
+                for item in json.load(f):
+                    pc = item.get('Protein class', [])
+                    if any('enzyme' in c.lower() for c in pc):
+                        enzyme_genes.add(item.get('Gene', ''))
+    for r in reports:
+        r['is_enzyme'] = r['gene'] in enzyme_genes
+
     # Re-serialize
     json_str = json.dumps(index_data, indent=2, ensure_ascii=False)
 

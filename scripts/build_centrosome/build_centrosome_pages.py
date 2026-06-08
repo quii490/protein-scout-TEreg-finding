@@ -371,7 +371,7 @@ def build_protein_index():
         f'<td>{r.get("novelty_specificity_score", "-")}</td>'
         f'<td>{r.get("ppi_score", "-")}</td>'
         f'<td>{r.get("structure_domain_score", "-")}</td>'
-        f'<td>{src_label(r)}</td>'
+        f'<td>{"✅" if r.get("is_enzyme") else "❌"}</td>'
         f'<td>{"✓" if r.get("has_hpa_seed") else "-"}</td>'
         f'</tr>'
         for r in candidates
@@ -385,7 +385,7 @@ def build_protein_index():
         f'<td class="pubmed-cell">{r.get("pubmed_display_count", "-") if r.get("pubmed_display_count") is not None else "?"}</td>'
         f'<td>PubMed &gt; 100</td>'
         f'<td>{r.get("centrosome_evidence_score", "-")}</td>'
-        f'<td>{src_label(r)}</td>'
+        f'<td>{"✅" if r.get("is_enzyme") else "❌"}</td>'
         f'</tr>'
         for r in eliminated
     )
@@ -455,7 +455,7 @@ a:hover {{ text-decoration: underline; }}
         <thead><tr>
             <th>Gene</th><th>蛋白全名</th><th>状态</th><th>评分</th>
             <th>中心体证据</th><th>PubMed</th><th>新颖性</th>
-            <th>PPI</th><th>结构</th><th>来源</th><th>IF</th>
+            <th>PPI</th><th>结构</th><th>酶</th><th>IF</th>
         </tr></thead>
         <tbody>{cand_rows}</tbody>
     </table>
@@ -467,7 +467,7 @@ a:hover {{ text-decoration: underline; }}
     <table id="eliminatedTable">
         <thead><tr>
             <th>Gene</th><th>蛋白全名</th><th>状态</th><th>PubMed</th>
-            <th>淘汰原因</th><th>中心体证据</th><th>来源</th>
+            <th>淘汰原因</th><th>中心体证据</th><th>酶</th>
         </tr></thead>
         <tbody>{elim_rows}</tbody>
     </table>
