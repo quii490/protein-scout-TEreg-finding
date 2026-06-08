@@ -1,8 +1,15 @@
 gene,status,final_centrosome_score,centrosome_evidence_score,te_relevance_score,pubmed_score,ppi_score,structure_domain_score,novelty_specificity_score,source_centrosome,source_centriolar_satellite,source_both,in_main_atlas,main_status,main_category,report_path,docs_report_path,has_hpa_seed,has_pubmed,has_ppi_humanppi,has_structure_domain,manual_review
-CETN2,centrosome_eliminated,76.0,19.0,16.0,10.0,14.0,10.0,7.0,False,False,False,False,,,centrosome/detail/CETN2/CETN2-centrosome-evaluation.md,docs/centrosome/reports/CETN2.html,True,True,True,True,False
+CEP192,centrosome_eliminated,75.0,20.0,0,0,18.0,5.0,6.0,False,False,False,False,,,centrosome/detail/CEP192/CEP192-centrosome-evaluation.md,docs/centrosome/reports/CEP192.html,False,False,True,True,False
+CETN2,centrosome_eliminated,74.0,19.0,0,0,14.0,10.0,7.0,False,False,False,False,,,centrosome/detail/CETN2/CETN2-centrosome-evaluation.md,docs/centrosome/reports/CETN2.html,False,False,True,True,False
+NEDD1,centrosome_candidate,74.0,19.0,0,0,16.0,7.0,7.0,False,False,False,False,,,centrosome/detail/NEDD1/NEDD1-centrosome-evaluation.md,docs/centrosome/reports/NEDD1.html,False,False,True,True,False
+PLK4,centrosome_eliminated,73.0,20.0,0,0,18.0,9.0,3.0,False,False,False,False,,,centrosome/detail/PLK4/PLK4-centrosome-evaluation.md,docs/centrosome/reports/PLK4.html,False,False,True,True,False
+CCP110,centrosome_candidate,72.0,19.0,0,0,15.0,6.0,7.0,False,False,False,False,,,centrosome/detail/CCP110/CCP110-centrosome-evaluation.md,docs/centrosome/reports/CCP110.html,False,False,True,True,False
+CEP97,centrosome_candidate,72.0,19.0,0,0,15.0,5.0,8.0,False,False,False,False,,,centrosome/detail/CEP97/CEP97-centrosome-evaluation.md,docs/centrosome/reports/CEP97.html,False,False,True,True,False
+AURKA,centrosome_eliminated,71.0,20.0,0,0,20.0,10.0,2.0,False,False,False,False,,,centrosome/detail/AURKA/AURKA-centrosome-evaluation.md,docs/centrosome/reports/AURKA.html,False,False,True,True,False
 ACTRT3,centrosome_candidate,69.0,16.0,0,0,15.0,5.0,10.0,False,False,False,False,,,centrosome/detail/ACTRT3/ACTRT3-centrosome-evaluation.md,docs/centrosome/reports/ACTRT3.html,False,False,True,True,False
 ADCK2,centrosome_candidate,69.0,16.0,0,0,15.0,5.0,10.0,False,False,False,False,,,centrosome/detail/ADCK2/ADCK2-centrosome-evaluation.md,docs/centrosome/reports/ADCK2.html,False,False,True,True,False
 ANKRD45,centrosome_candidate,69.0,16.0,0,0,15.0,5.0,10.0,False,False,False,False,,,centrosome/detail/ANKRD45/ANKRD45-centrosome-evaluation.md,docs/centrosome/reports/ANKRD45.html,False,False,True,True,False
+ANP32D,centrosome_candidate,69.0,16.0,0,0,15.0,5.0,10.0,False,False,False,False,,,centrosome/detail/ANP32D/ANP32D-centrosome-evaluation.md,docs/centrosome/reports/ANP32D.html,False,False,True,True,False
 ARHGAP40,centrosome_candidate,69.0,16.0,0,0,15.0,5.0,10.0,False,False,False,False,,,centrosome/detail/ARHGAP40/ARHGAP40-centrosome-evaluation.md,docs/centrosome/reports/ARHGAP40.html,False,False,True,True,False
 C11orf80,centrosome_candidate,69.0,16.0,0,0,15.0,5.0,10.0,False,False,False,False,,,centrosome/detail/C11orf80/C11orf80-centrosome-evaluation.md,docs/centrosome/reports/C11orf80.html,False,False,True,True,False
 C12orf73,centrosome_candidate,69.0,16.0,0,0,15.0,5.0,10.0,False,False,False,False,,,centrosome/detail/C12orf73/C12orf73-centrosome-evaluation.md,docs/centrosome/reports/C12orf73.html,False,False,True,True,False
@@ -81,6 +88,7 @@ C1orf146,centrosome_candidate,66.0,14.0,0,0,15.0,5.0,10.0,False,False,False,Fals
 C20orf96,centrosome_candidate,66.0,14.0,0,0,15.0,5.0,10.0,False,False,False,False,,,centrosome/detail/C20orf96/C20orf96-centrosome-evaluation.md,docs/centrosome/reports/C20orf96.html,False,False,True,True,False
 C5orf58,centrosome_candidate,66.0,14.0,0,0,15.0,5.0,10.0,False,False,False,False,,,centrosome/detail/C5orf58/C5orf58-centrosome-evaluation.md,docs/centrosome/reports/C5orf58.html,False,False,True,True,False
 CCDC13,centrosome_candidate,66.0,14.0,0,0,15.0,5.0,10.0,False,False,False,False,,,centrosome/detail/CCDC13/CCDC13-centrosome-evaluation.md,docs/centrosome/reports/CCDC13.html,False,False,True,True,False
+CEP72,centrosome_candidate,66.0,18.0,0,0,12.0,5.0,7.0,False,False,False,False,,,centrosome/detail/CEP72/CEP72-centrosome-evaluation.md,docs/centrosome/reports/CEP72.html,False,False,True,True,False
 CEP95,centrosome_candidate,66.0,14.0,0,0,15.0,5.0,10.0,False,False,False,False,,,centrosome/detail/CEP95/CEP95-centrosome-evaluation.md,docs/centrosome/reports/CEP95.html,False,False,True,True,False
 ENSG00000256514,centrosome_candidate,66.0,14.0,0,0,15.0,5.0,10.0,False,False,False,False,,,centrosome/detail/ENSG00000256514/ENSG00000256514-centrosome-evaluation.md,docs/centrosome/reports/ENSG00000256514.html,False,False,True,True,False
 ENSG00000280571,centrosome_candidate,66.0,14.0,0,0,15.0,5.0,10.0,False,False,False,False,,,centrosome/detail/ENSG00000280571/ENSG00000280571-centrosome-evaluation.md,docs/centrosome/reports/ENSG00000280571.html,False,False,True,True,False
@@ -89,6 +97,7 @@ KCTD4,centrosome_candidate,66.0,14.0,0,0,15.0,5.0,10.0,False,False,False,False,,
 KLHL30,centrosome_candidate,66.0,14.0,0,0,15.0,5.0,10.0,False,False,False,False,,,centrosome/detail/KLHL30/KLHL30-centrosome-evaluation.md,docs/centrosome/reports/KLHL30.html,False,False,True,True,False
 MCF2L2,centrosome_candidate,66.0,14.0,0,0,15.0,5.0,10.0,False,False,False,False,,,centrosome/detail/MCF2L2/MCF2L2-centrosome-evaluation.md,docs/centrosome/reports/MCF2L2.html,False,False,True,True,False
 NME9,centrosome_candidate,66.0,14.0,0,0,15.0,5.0,10.0,False,False,False,False,,,centrosome/detail/NME9/NME9-centrosome-evaluation.md,docs/centrosome/reports/NME9.html,False,False,True,True,False
+PCM1,centrosome_eliminated,66.0,18.0,0,0,16.0,4.0,6.0,False,False,False,False,,,centrosome/detail/PCM1/PCM1-centrosome-evaluation.md,docs/centrosome/reports/PCM1.html,False,False,True,True,False
 PTPN20,centrosome_candidate,66.0,14.0,0,0,15.0,5.0,10.0,False,False,False,False,,,centrosome/detail/PTPN20/PTPN20-centrosome-evaluation.md,docs/centrosome/reports/PTPN20.html,False,False,True,True,False
 SNX21,centrosome_candidate,66.0,14.0,0,0,15.0,5.0,10.0,False,False,False,False,,,centrosome/detail/SNX21/SNX21-centrosome-evaluation.md,docs/centrosome/reports/SNX21.html,False,False,True,True,False
 TP53TG3,centrosome_candidate,66.0,14.0,0,0,15.0,5.0,10.0,False,False,False,False,,,centrosome/detail/TP53TG3/TP53TG3-centrosome-evaluation.md,docs/centrosome/reports/TP53TG3.html,False,False,True,True,False
@@ -99,9 +108,6 @@ TRAPPC14,centrosome_candidate,66.0,14.0,0,0,15.0,5.0,10.0,False,False,False,Fals
 ZNF443,centrosome_candidate,66.0,14.0,0,0,15.0,5.0,10.0,False,False,False,False,,,centrosome/detail/ZNF443/ZNF443-centrosome-evaluation.md,docs/centrosome/reports/ZNF443.html,False,False,True,True,False
 ZNF701,centrosome_candidate,66.0,14.0,0,0,15.0,5.0,10.0,False,False,False,False,,,centrosome/detail/ZNF701/ZNF701-centrosome-evaluation.md,docs/centrosome/reports/ZNF701.html,False,False,True,True,False
 ZNF721,centrosome_candidate,66.0,14.0,0,0,15.0,5.0,10.0,False,False,False,False,,,centrosome/detail/ZNF721/ZNF721-centrosome-evaluation.md,docs/centrosome/reports/ZNF721.html,False,False,True,True,False
-AURKA,centrosome_eliminated,65.0,20.0,8.0,5.0,20.0,10.0,2.0,False,False,False,False,,,centrosome/detail/AURKA/AURKA-centrosome-evaluation.md,docs/centrosome/reports/AURKA.html,True,True,True,True,False
-CEP192,centrosome_eliminated,65.0,20.0,6.0,10.0,18.0,5.0,6.0,False,False,False,False,,,centrosome/detail/CEP192/CEP192-centrosome-evaluation.md,docs/centrosome/reports/CEP192.html,True,True,True,True,False
-PLK4,centrosome_eliminated,65.0,20.0,7.0,8.0,18.0,9.0,3.0,False,False,False,False,,,centrosome/detail/PLK4/PLK4-centrosome-evaluation.md,docs/centrosome/reports/PLK4.html,True,True,True,True,False
 ACTR8,centrosome_candidate,64.0,16.0,0,0,15.0,5.0,8.0,False,False,False,False,,,centrosome/detail/ACTR8/ACTR8-centrosome-evaluation.md,docs/centrosome/reports/ACTR8.html,False,False,True,True,False
 ANKRD31,centrosome_candidate,64.0,16.0,0,0,15.0,5.0,8.0,False,False,False,False,,,centrosome/detail/ANKRD31/ANKRD31-centrosome-evaluation.md,docs/centrosome/reports/ANKRD31.html,False,False,True,True,False
 APOBR,centrosome_candidate,64.0,16.0,0,0,15.0,5.0,8.0,False,False,False,False,,,centrosome/detail/APOBR/APOBR-centrosome-evaluation.md,docs/centrosome/reports/APOBR.html,False,False,True,True,False
@@ -194,14 +200,11 @@ UNC5CL,centrosome_candidate,64.0,16.0,0,0,15.0,5.0,8.0,False,False,False,False,,
 USF3,centrosome_candidate,64.0,16.0,0,0,15.0,5.0,8.0,False,False,False,False,,,centrosome/detail/USF3/USF3-centrosome-evaluation.md,docs/centrosome/reports/USF3.html,False,False,True,True,False
 ZFP90,centrosome_candidate,64.0,16.0,0,0,15.0,5.0,8.0,False,False,False,False,,,centrosome/detail/ZFP90/ZFP90-centrosome-evaluation.md,docs/centrosome/reports/ZFP90.html,False,False,True,True,False
 ZNF296,centrosome_candidate,64.0,16.0,0,0,15.0,5.0,8.0,False,False,False,False,,,centrosome/detail/ZNF296/ZNF296-centrosome-evaluation.md,docs/centrosome/reports/ZNF296.html,False,False,True,True,False
+ZNF322,centrosome_candidate,64.0,16.0,0,0,15.0,5.0,8.0,False,False,False,False,,,centrosome/detail/ZNF322/ZNF322-centrosome-evaluation.md,docs/centrosome/reports/ZNF322.html,False,False,True,True,False
 C3orf49,centrosome_candidate,63.0,16.0,0,0,10.0,5.0,10.0,False,False,False,False,,,centrosome/detail/C3orf49/C3orf49-centrosome-evaluation.md,docs/centrosome/reports/C3orf49.html,False,False,True,True,False
 GVQW3,centrosome_candidate,63.0,16.0,0,0,10.0,5.0,10.0,False,False,False,False,,,centrosome/detail/GVQW3/GVQW3-centrosome-evaluation.md,docs/centrosome/reports/GVQW3.html,False,False,True,True,False
 SMIM18,centrosome_candidate,63.0,16.0,0,0,10.0,5.0,10.0,False,False,False,False,,,centrosome/detail/SMIM18/SMIM18-centrosome-evaluation.md,docs/centrosome/reports/SMIM18.html,False,False,True,True,False
 TMEM170B,centrosome_candidate,63.0,16.0,0,0,10.0,5.0,10.0,False,False,False,False,,,centrosome/detail/TMEM170B/TMEM170B-centrosome-evaluation.md,docs/centrosome/reports/TMEM170B.html,False,False,True,True,False
-CCP110,centrosome_candidate,62.0,19.0,7.0,10.0,15.0,6.0,7.0,False,False,False,False,,,centrosome/detail/CCP110/CCP110-centrosome-evaluation.md,docs/centrosome/reports/CCP110.html,True,True,True,True,False
-CEP97,centrosome_candidate,62.0,19.0,7.0,10.0,15.0,5.0,8.0,False,False,False,False,,,centrosome/detail/CEP97/CEP97-centrosome-evaluation.md,docs/centrosome/reports/CEP97.html,True,True,True,True,False
-NEDD1,centrosome_candidate,62.0,19.0,6.0,10.0,16.0,7.0,7.0,False,False,False,False,,,centrosome/detail/NEDD1/NEDD1-centrosome-evaluation.md,docs/centrosome/reports/NEDD1.html,True,True,True,True,False
-PCM1,centrosome_eliminated,62.0,18.0,10.0,8.0,16.0,4.0,6.0,False,False,False,False,,,centrosome/detail/PCM1/PCM1-centrosome-evaluation.md,docs/centrosome/reports/PCM1.html,True,True,True,True,False
 AGBL5,centrosome_candidate,61.0,14.0,0,0,15.0,5.0,8.0,False,False,False,False,,,centrosome/detail/AGBL5/AGBL5-centrosome-evaluation.md,docs/centrosome/reports/AGBL5.html,False,False,True,True,False
 AK6,centrosome_candidate,61.0,16.0,0,0,15.0,5.0,6.0,False,False,False,False,,,centrosome/detail/AK6/AK6-centrosome-evaluation.md,docs/centrosome/reports/AK6.html,False,False,True,True,False
 ALDH8A1,centrosome_candidate,61.0,16.0,0,0,15.0,5.0,6.0,False,False,False,False,,,centrosome/detail/ALDH8A1/ALDH8A1-centrosome-evaluation.md,docs/centrosome/reports/ALDH8A1.html,False,False,True,True,False
@@ -261,6 +264,7 @@ MTMR9,centrosome_candidate,61.0,16.0,0,0,15.0,5.0,6.0,False,False,False,False,,,
 N6AMT1,centrosome_candidate,61.0,16.0,0,0,15.0,5.0,6.0,False,False,False,False,,,centrosome/detail/N6AMT1/N6AMT1-centrosome-evaluation.md,docs/centrosome/reports/N6AMT1.html,False,False,True,True,False
 NAA40,centrosome_candidate,61.0,14.0,0,0,15.0,5.0,8.0,False,False,False,False,,,centrosome/detail/NAA40/NAA40-centrosome-evaluation.md,docs/centrosome/reports/NAA40.html,False,False,True,True,False
 NUBP1,centrosome_candidate,61.0,16.0,0,0,15.0,5.0,6.0,False,False,False,False,,,centrosome/detail/NUBP1/NUBP1-centrosome-evaluation.md,docs/centrosome/reports/NUBP1.html,False,False,True,True,False
+PIK3C2G,centrosome_candidate,61.0,16.0,0,0,15.0,5.0,6.0,False,False,False,False,,,centrosome/detail/PIK3C2G/PIK3C2G-centrosome-evaluation.md,docs/centrosome/reports/PIK3C2G.html,False,False,True,True,False
 PLEKHA4,centrosome_candidate,61.0,14.0,0,0,15.0,5.0,8.0,False,False,False,False,,,centrosome/detail/PLEKHA4/PLEKHA4-centrosome-evaluation.md,docs/centrosome/reports/PLEKHA4.html,False,False,True,True,False
 RAPGEF6,centrosome_candidate,61.0,16.0,0,0,15.0,5.0,6.0,False,False,False,False,,,centrosome/detail/RAPGEF6/RAPGEF6-centrosome-evaluation.md,docs/centrosome/reports/RAPGEF6.html,False,False,True,True,False
 RHEBL1,centrosome_candidate,61.0,16.0,0,0,15.0,5.0,6.0,False,False,False,False,,,centrosome/detail/RHEBL1/RHEBL1-centrosome-evaluation.md,docs/centrosome/reports/RHEBL1.html,False,False,True,True,False
@@ -311,7 +315,6 @@ CEP152,centrosome_candidate,58.0,16.0,0,0,15.0,5.0,4.0,False,False,False,False,,
 CEP170,centrosome_candidate,58.0,16.0,0,0,15.0,5.0,4.0,False,False,False,False,,,centrosome/detail/CEP170/CEP170-centrosome-evaluation.md,docs/centrosome/reports/CEP170.html,False,False,True,True,False
 CEP250,centrosome_candidate,58.0,16.0,0,0,15.0,5.0,4.0,False,False,False,False,,,centrosome/detail/CEP250/CEP250-centrosome-evaluation.md,docs/centrosome/reports/CEP250.html,False,False,True,True,False
 CEP68,centrosome_candidate,58.0,14.0,0,0,15.0,5.0,6.0,False,False,False,False,,,centrosome/detail/CEP68/CEP68-centrosome-evaluation.md,docs/centrosome/reports/CEP68.html,False,False,True,True,False
-CEP72,centrosome_candidate,58.0,18.0,7.0,10.0,12.0,5.0,7.0,False,False,False,False,,,centrosome/detail/CEP72/CEP72-centrosome-evaluation.md,docs/centrosome/reports/CEP72.html,True,True,True,True,False
 CHMP1A,centrosome_candidate,58.0,16.0,0,0,15.0,5.0,4.0,False,False,False,False,,,centrosome/detail/CHMP1A/CHMP1A-centrosome-evaluation.md,docs/centrosome/reports/CHMP1A.html,False,False,True,True,False
 CHST15,centrosome_candidate,58.0,16.0,0,0,15.0,5.0,4.0,False,False,False,False,,,centrosome/detail/CHST15/CHST15-centrosome-evaluation.md,docs/centrosome/reports/CHST15.html,False,False,True,True,False
 CIB2,centrosome_candidate,58.0,16.0,0,0,15.0,5.0,4.0,False,False,False,False,,,centrosome/detail/CIB2/CIB2-centrosome-evaluation.md,docs/centrosome/reports/CIB2.html,False,False,True,True,False
@@ -361,6 +364,7 @@ RASSF7,centrosome_candidate,58.0,14.0,0,0,15.0,5.0,6.0,False,False,False,False,,
 RIOK3,centrosome_candidate,58.0,14.0,0,0,15.0,5.0,6.0,False,False,False,False,,,centrosome/detail/RIOK3/RIOK3-centrosome-evaluation.md,docs/centrosome/reports/RIOK3.html,False,False,True,True,False
 RPP25,centrosome_candidate,58.0,14.0,0,0,15.0,5.0,6.0,False,False,False,False,,,centrosome/detail/RPP25/RPP25-centrosome-evaluation.md,docs/centrosome/reports/RPP25.html,False,False,True,True,False
 RRAGD,centrosome_candidate,58.0,16.0,0,0,15.0,5.0,4.0,False,False,False,False,,,centrosome/detail/RRAGD/RRAGD-centrosome-evaluation.md,docs/centrosome/reports/RRAGD.html,False,False,True,True,False
+SDCCAG8,centrosome_candidate,58.0,16.0,0,0,15.0,5.0,4.0,False,False,False,False,,,centrosome/detail/SDCCAG8/SDCCAG8-centrosome-evaluation.md,docs/centrosome/reports/SDCCAG8.html,False,False,True,True,False
 SENP7,centrosome_candidate,58.0,16.0,0,0,15.0,5.0,4.0,False,False,False,False,,,centrosome/detail/SENP7/SENP7-centrosome-evaluation.md,docs/centrosome/reports/SENP7.html,False,False,True,True,False
 SFR1,centrosome_candidate,58.0,16.0,0,0,15.0,5.0,4.0,False,False,False,False,,,centrosome/detail/SFR1/SFR1-centrosome-evaluation.md,docs/centrosome/reports/SFR1.html,False,False,True,True,False
 SRGAP1,centrosome_candidate,58.0,16.0,0,0,15.0,5.0,4.0,False,False,False,False,,,centrosome/detail/SRGAP1/SRGAP1-centrosome-evaluation.md,docs/centrosome/reports/SRGAP1.html,False,False,True,True,False
@@ -459,7 +463,7 @@ ZBTB24,centrosome_low_priority,47.0,16.0,0,0,5.0,5.0,4.0,False,False,False,False
 ZNF408,centrosome_low_priority,47.0,14.0,0,0,5.0,5.0,6.0,False,False,False,False,,,centrosome/detail/ZNF408/ZNF408-centrosome-evaluation.md,docs/centrosome/reports/ZNF408.html,False,False,True,True,False
 PIK3R5,centrosome_low_priority,43.0,14.0,0,0,5.0,5.0,4.0,False,False,False,False,,,centrosome/detail/PIK3R5/PIK3R5-centrosome-evaluation.md,docs/centrosome/reports/PIK3R5.html,False,False,True,True,False
 PTPN23,centrosome_low_priority,43.0,14.0,0,0,5.0,5.0,4.0,False,False,False,False,,,centrosome/detail/PTPN23/PTPN23-centrosome-evaluation.md,docs/centrosome/reports/PTPN23.html,False,False,True,True,False
-CCDC14,centrosome_manual_review,26.0,6.0,3.0,6.0,2.0,3.0,10.0,False,False,False,False,,,centrosome/detail/CCDC14/CCDC14-centrosome-evaluation.md,docs/centrosome/reports/CCDC14.html,True,True,True,True,False
+CCDC14,centrosome_low_priority,31.0,6.0,0,0,2.0,3.0,10.0,False,False,False,False,,,centrosome/detail/CCDC14/CCDC14-centrosome-evaluation.md,docs/centrosome/reports/CCDC14.html,False,False,True,True,False
 AAAS,centrosome_eliminated,0,0,0,0,0,0,0,False,False,False,False,,,centrosome/detail/AAAS/AAAS-centrosome-evaluation.md,docs/centrosome/reports/AAAS.html,False,False,False,False,False
 ACADS,centrosome_eliminated,0,0,0,0,0,0,0,False,False,False,False,,,centrosome/detail/ACADS/ACADS-centrosome-evaluation.md,docs/centrosome/reports/ACADS.html,False,False,False,False,False
 ADNP,centrosome_eliminated,0,0,0,0,0,0,0,False,False,False,False,,,centrosome/detail/ADNP/ADNP-centrosome-evaluation.md,docs/centrosome/reports/ADNP.html,False,False,False,False,False
@@ -645,6 +649,7 @@ PODXL,centrosome_eliminated,0,0,0,0,0,0,0,False,False,False,False,,,centrosome/d
 POFUT1,centrosome_eliminated,0,0,0,0,0,0,0,False,False,False,False,,,centrosome/detail/POFUT1/POFUT1-centrosome-evaluation.md,docs/centrosome/reports/POFUT1.html,False,False,False,False,False
 PPARA,centrosome_eliminated,0,0,0,0,0,0,0,False,False,False,False,,,centrosome/detail/PPARA/PPARA-centrosome-evaluation.md,docs/centrosome/reports/PPARA.html,False,False,False,False,False
 PRKAR2A,centrosome_eliminated,0,0,0,0,0,0,0,False,False,False,False,,,centrosome/detail/PRKAR2A/PRKAR2A-centrosome-evaluation.md,docs/centrosome/reports/PRKAR2A.html,False,False,False,False,False
+PRKAR2B,centrosome_eliminated,0,0,0,0,0,0,0,False,False,False,False,,,centrosome/detail/PRKAR2B/PRKAR2B-centrosome-evaluation.md,docs/centrosome/reports/PRKAR2B.html,False,False,False,False,False
 PRKCQ,centrosome_eliminated,0,0,0,0,0,0,0,False,False,False,False,,,centrosome/detail/PRKCQ/PRKCQ-centrosome-evaluation.md,docs/centrosome/reports/PRKCQ.html,False,False,False,False,False
 PSMA1,centrosome_eliminated,0,0,0,0,0,0,0,False,False,False,False,,,centrosome/detail/PSMA1/PSMA1-centrosome-evaluation.md,docs/centrosome/reports/PSMA1.html,False,False,False,False,False
 PSMB5,centrosome_eliminated,0,0,0,0,0,0,0,False,False,False,False,,,centrosome/detail/PSMB5/PSMB5-centrosome-evaluation.md,docs/centrosome/reports/PSMB5.html,False,False,False,False,False

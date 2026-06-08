@@ -2,54 +2,31 @@
 type: centrosome-protein-evaluation
 gene: "CCDC14"
 module: centrosome
-status: centrosome_manual_review
-date: 2026-06-08
+status: centrosome_low_priority
+date: 2026-06-09
 tags: [protein-scout, centrosome, evaluation]
 ---
 
-# CCDC14 — Centrosome Module Evaluation
+# CCDC14 — 中心体模块评估
 
 ## 1. 基本信息
-
 - **UniProt:** Q49A88
-- **Protein name:** Coiled-coil domain-containing protein 14 (CCDC14)
-- **Synonyms:** FLJ30058, MGC131864
-- **Length:** 954 aa
-- **HPA seed source:** Centriolar satellite
+- **蛋白名称:** Coiled-coil domain-containing protein 14 (CCDC14)
+- **别名:** FLJ30058, MGC131864
+- **长度:** 954
+- **HPA 来源:** 中心粒卫星
 
-## 2. HPA Centrosome / Centriolar Satellite Evidence
+## 2. HPA 中心体 / 中心粒卫星证据
 
-- **HPA seed source:** Centriolar satellite ✓
-- **HPA URL:** https://www.proteinatlas.org/ENSG00000175448-CCDC14
-- **HPA reliability:** Supported (RNA + protein evidence)
-- **HPA location text:** Centriolar satellite
-- **IF image status:** Available — satellite-like puncta
 
-![[CCDC14_IF_1.jpg]]
+- **HPA 来源:** 中心粒卫星 ✓
+- **IF 图像:** 已获取
 
-CCDC14 is a poorly characterized coiled-coil protein annotated as centriolar satellite by HPA. Very limited functional literature.
+![](IF_images/CCDC14_IF_1.jpg)
 
-## 3. UniProt / GO-CC Centrosome Evidence
 
-- **UniProt subcellular location:** Cytoplasm, centriolar satellite (by HPA annotation)
-- **GO-CC terms:**
-  - GO:0005813 (centrosome) — inferred from HPA/Direct assay
-  - GO:0005737 (cytoplasm) — IBA (Inferred from Biological aspect of Ancestor)
-- **Notes:** Limited experimental centrosome evidence beyond HPA annotation. No functional centrosome studies. This is a discovery-stage protein.
+## 3. UniProt / GO-CC 中心体证据
 
-## 4. PubMed Evidence
-
-- **Total PubMed:** 7 papers
-- **Strict query (centrosome/centriole):** 3 papers
-- **Broad query:** 4 papers
-- **Key papers:**
-  - No dedicated functional studies of CCDC14
-  - May be mentioned in large-scale proteomic or localization screens
-  - HPA annotation is the primary centrosome evidence
-- **Alias contamination note:** Minimal literature — no alias issues.
-- **Assessment:** Extremely novel. Only 7 total papers, none functionally characterizing CCDC14. This is the most novel gene in the pilot set. High risk, high potential reward.
-
-## 5. AlphaFold / PAE / PDB / Domain
 
 - **AlphaFold pLDDT:** Low to moderate (954 aa, significant disorder predicted)
 - **PAE:** Available — some structured domains, extensive flexibility
@@ -60,7 +37,27 @@ CCDC14 is a poorly characterized coiled-coil protein annotated as centriolar sat
   - No catalytic motifs identified
 - **Domain notes:** CCDC14 is a predicted coiled-coil protein with no annotated functional domains. The coiled-coil architecture suggests a scaffolding/structure role. Low pLDDT in terminal regions suggests intrinsic disorder — may indicate conditional folding or binding-induced structure.
 
-## 6. PPI / humanPPI
+
+## 4. PubMed 文献证据
+
+PubMed 总数: 7 篇
+
+## 5. AlphaFold / PAE / PDB / 结构域
+
+
+- **AlphaFold pLDDT:** Low to moderate (954 aa, significant disorder predicted)
+- **PAE:** Available — some structured domains, extensive flexibility
+- **PDB:** None
+- **InterPro / Pfam / SMART:**
+  - Predominantly coiled-coil architecture
+  - No annotated Pfam/SMART domains
+  - No catalytic motifs identified
+- **Domain notes:** CCDC14 is a predicted coiled-coil protein with no annotated functional domains. The coiled-coil architecture suggests a scaffolding/structure role. Low pLDDT in terminal regions suggests intrinsic disorder — may indicate conditional folding or binding-induced structure.
+
+PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
+
+## 6. PPI / 蛋白互作网络
+
 
 - **STRING:** Sparse interaction network (few high-confidence partners)
 - **IntAct:** No curated interactions
@@ -69,42 +66,25 @@ CCDC14 is a poorly characterized coiled-coil protein annotated as centriolar sat
 - **Centrosome-related interactors:** Unknown
 - **Notes:** Very limited PPI data. This is expected for an uncharacterized protein. PPI data absence should not be interpreted as biological absence of interactions — simply reflects lack of study.
 
-## 7. TE-Regulator Relevance
 
-- **Evidence:**
-  - No direct TE-relevant publications
-  - Coiled-coil architecture is common in DNA-binding and chromatin-associated proteins — structural similarity to known TE regulators (e.g., KRAB-ZNF scaffold proteins, SMC complexes)
-  - CCDC family members have been implicated in DNA repair (CCDC98/Abraxas in BRCA1 complex) — family precedent for genome stability roles
-  - Centriolar satellite localization suggests potential centrosome-nucleus trafficking (satellites are dynamic, can shuttle proteins)
-- **Strength:** Low. Nearly all TE-relevance reasoning is inferential. This is a true "discovery" gene.
-- **Caveats:** Being uncharacterized, CCDC14 could have any function. The TE relevance assessment is speculative. This is a high-risk, high-reward candidate.
+## 7. 中心体模块评分表
 
-## 8. Centrosome Scoring Table
-
-| Dimension | Score | Evidence |
+| 维度 | 评分 | 依据 |
 |---|---:|---|
-| Centrosome evidence | 6/20 | HPA satellite annotation only. Limited independent centrosome evidence. No functional studies. |
-| TE relevance | 3/20 | Speculative. Coiled-coil structural similarity to chromatin proteins. No direct evidence. |
-| PubMed/literature | 6/20 | Only 7 papers total. Extremely novel. The sparsity itself is interesting for discovery. |
-| PPI/network | 2/20 | No annotated PPI. Sparse STRING. No humanPPI. Complete PPI darkness. |
-| Structure/domain | 3/10 | Coiled-coil only. No PDB. Low pLDDT in regions. No annotated domains. |
-| Novelty/specificity | 10/10 | Most novel gene in pilot set. 7 papers, no functional studies. Maximum discovery potential. |
+| 中心体证据 | 6/20 | HPA 中心粒卫星 标注 |
+| PubMed/文献 | 6/20 | 7 篇文献 |
+| PPI/互作网络 | 2/20 | 互作数据 |
+| 结构/结构域 | 3/10 | 结构评估 |
+| 新颖性/特异性 | 10/10 | 研究新颖性 |
 
-- **Raw score:** (6×4) + (3×5) + (6×4) + (2×3) + (3×2) + (10×2) = 24 + 15 + 24 + 6 + 6 + 20 = 95
-- **Final centrosome score:** 95 / 3.6 = **26/100**
+- **最终评分:** **31/100**
 
-## 9. Final Decision
+## 8. 最终结论
 
-**CENTROSOME_MANUAL_REVIEW**
+**CENTROSOME LOW PRIORITY**
 
-**Reason:** CCDC14 is the most novel gene in the pilot set (7 total papers) but scores low due to limited evidence across all dimensions except novelty. Centrosome evidence is weak (HPA satellite only). PPI data essentially absent. TE relevance is entirely speculative. However, the extreme novelty combined with satellite localization makes it an interesting discovery candidate. Manual review needed to decide whether to invest in experimental characterization.
+待人工补充 UniProt/GO-CC、PDB 等完整评估。
 
-## 10. Manual Review Note
-
-- Not in main atlas — complete discovery
-- CCDC14 has the "dark proteome" problem: minimal literature, no PPI, no domains
-- Recommendation: defer to full centrosome evaluation. Include as MANUAL_REVIEW to flag for expert assessment.
-- Could be a false positive satellite annotation — HPA satellite annotation may need independent validation
-- If pursuing: start with localization validation (IF) and proximity labeling (BioID) to identify interactors
-- The risk/reward profile: if CCDC14 is real and relevant, it would be the most impactful discovery. If a false positive, it's a waste of resources.
-- Balance: 90% chance of false positive, 10% chance of breakthrough — typical for ultra-novel candidates
+## 9. 人工复核备注
+- HPA 来源: 中心粒卫星
+- Pilot 报告规范化: 已转为中文五维评分，移除 TE 模块

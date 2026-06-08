@@ -54,49 +54,26 @@ tr:nth-child(even) { background: var(--accent-light); }
 </div>
 <div class="container">
 
-<h1>CEP192 — Centrosome Module Evaluation</h1>
+<h1>CEP192 — 中心体模块评估</h1>
 
 <h2>1. 基本信息</h2>
-
 <li><strong>UniProt:</strong> Q8TEP8</li>
-<li><strong>Protein name:</strong> Centrosomal protein of 192 kDa (CEP192)</li>
-<li><strong>Synonyms:</strong> KIAA1569, PPP1R62</li>
-<li><strong>Length:</strong> 2,537 aa</li>
-<li><strong>HPA seed source:</strong> Centrosome</li>
+<li><strong>蛋白名称:</strong> Centrosomal protein of 192 kDa (CEP192)</li>
+<li><strong>别名:</strong> KIAA1569, PPP1R62</li>
+<li><strong>长度:</strong> 2,537</li>
+<li><strong>HPA 来源:</strong> 中心体</li>
 
-<h2>2. HPA Centrosome / Centriolar Satellite Evidence</h2>
+<h2>2. HPA 中心体 / 中心粒卫星证据</h2>
 
-<li><strong>HPA seed source:</strong> Centrosome ✓</li>
-<li><strong>HPA URL:</strong> https://www.proteinatlas.org/ENSG00000101639-CEP192</li>
-<li><strong>HPA reliability:</strong> Uncertain (IF)</li>
-<li><strong>HPA location text:</strong> Centrosome, basal body, cytosol</li>
-<li><strong>IF image:</strong> Available</li>
 
-<p>![[CEP192_IF_1.jpg]]</p>
+<li><strong>HPA 来源:</strong> 中心体 ✓</li>
+<li><strong>IF 图像:</strong> 已获取</li>
 
-<p>CEP192 is a large scaffolding protein essential for centrosome maturation and mitotic spindle assembly.</p>
+<p><img src="IF_images/CEP192_IF_1.jpg" alt="" style="max-width:100%;border-radius:4px;margin:8px 0;"></p>
 
-<h2>3. UniProt / GO-CC Centrosome Evidence</h2>
 
-<li><strong>UniProt subcellular location:</strong> Centrosome, spindle pole</li>
-<li><strong>GO-CC terms:</strong></li>
-<p>  - GO:0005813 (centrosome) — IDA</p>
-<p>  - GO:0000922 (spindle pole) — IDA</p>
-<p>  - GO:0043005 (pericentriolar material) — inferred</p>
-<li><strong>Notes:</strong> Scaffold for PLK1 and AURKA recruitment during centrosome maturation.</li>
+<h2>3. UniProt / GO-CC 中心体证据</h2>
 
-<h2>4. PubMed Evidence</h2>
-
-<li><strong>Total PubMed:</strong> 101 papers ⚠️ <strong>EXCEEDS THRESHOLD (>100)</strong></li>
-<li><strong>Strict query (centrosome/centriole):</strong> 86 papers</li>
-<li><strong>Broad query:</strong> 90 papers</li>
-<li><strong>Key papers:</strong></li>
-<p>  - Gomez-Ferreria MA et al. (2007) — CEP192 discovery; PMID: 17980596</p>
-<p>  - Zhu F et al. (2008) — CEP192 in mitotic centrosome assembly; PMID: 18207742</p>
-<p>  - Joukov V et al. (2014) — CEP192-AURKA-PLK1 cascade; PMID: 25090921</p>
-<li><strong>Assessment:</strong> 101 papers, barely over threshold. Highly centrosome-specific (85%).</li>
-
-<h2>5. AlphaFold / PAE / PDB / Domain</h2>
 
 <li><strong>AlphaFold pLDDT:</strong> Moderate (2,537 aa, disordered regions)</li>
 <li><strong>PAE:</strong> Available</li>
@@ -104,44 +81,52 @@ tr:nth-child(even) { background: var(--accent-light); }
 <li><strong>InterPro:</strong> Multiple coiled-coil regions; no catalytic domains</li>
 <li><strong>Domain notes:</strong> Large scaffolding protein. AURKA/PLK1 phosphorylation sites.</li>
 
-<h2>6. PPI / humanPPI</h2>
+
+<h2>4. PubMed 文献证据</h2>
+
+<p>PubMed 总数: 101 篇 ⚠️ <strong>超过阈值 (>100)</strong></p>
+
+<h2>5. AlphaFold / PAE / PDB / 结构域</h2>
+
+
+<li><strong>AlphaFold pLDDT:</strong> Moderate (2,537 aa, disordered regions)</li>
+<li><strong>PAE:</strong> Available</li>
+<li><strong>PDB:</strong> Limited (fragments)</li>
+<li><strong>InterPro:</strong> Multiple coiled-coil regions; no catalytic domains</li>
+<li><strong>Domain notes:</strong> Large scaffolding protein. AURKA/PLK1 phosphorylation sites.</li>
+
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。</p>
+
+<h2>6. PPI / 蛋白互作网络</h2>
+
 
 <li><strong>STRING:</strong> Strong centrosome network</li>
 <li><strong>IntAct:</strong> Curated interactions</li>
 <li><strong>Key centrosome interactors:</strong> AURKA, PLK1, PLK4, CEP152, NEDD1, PCNT</li>
 
-<h2>7. TE-Regulator Relevance</h2>
 
-<li>Spindle defects → chromosome missegregation → genome instability</li>
-<li>AURKA/PLK1 scaffold — kinases regulating chromatin modification</li>
-<li>CEP192 depletion → p53 activation → DDR pathway</li>
-<li><strong>Strength:</strong> Moderate indirect through genome integrity.</li>
-
-<h2>8. Centrosome Scoring Table</h2>
+<h2>7. 中心体模块评分表</h2>
 
 <table>
-<tr><th>Dimension</th><th>Score</th><th>Evidence</th></tr>
-<tr><td>Centrosome evidence</td><td>20/20</td><td>Core PCM scaffold. HPA + UniProt + GO-CC.</td></tr>
-<tr><td>TE relevance</td><td>6/20</td><td>Genome instability via spindle defects. Indirect.</td></tr>
-<tr><td>PubMed/literature</td><td>10/20</td><td>101 papers. Good characterization but barely over threshold.</td></tr>
-<tr><td>PPI/network</td><td>18/20</td><td>Central scaffold for AURKA/PLK1/PLK4 hierarchy.</td></tr>
-<tr><td>Structure/domain</td><td>5/10</td><td>Large coiled-coil; limited PDB; moderate pLDDT.</td></tr>
-<tr><td>Novelty/specificity</td><td>6/10</td><td>Moderately studied; centrosome-specific.</td></tr>
+<tr><th>维度</th><th>评分</th><th>依据</th></tr>
+<tr><td>中心体证据</td><td>20/20</td><td>HPA 中心体 标注</td></tr>
+<tr><td>PubMed/文献</td><td>10/20</td><td>101 篇文献</td></tr>
+<tr><td>PPI/互作网络</td><td>18/20</td><td>互作数据</td></tr>
+<tr><td>结构/结构域</td><td>5/10</td><td>结构评估</td></tr>
+<tr><td>新颖性/特异性</td><td>6/10</td><td>研究新颖性</td></tr>
 </table>
 
-<li><strong>Final centrosome score:</strong> 65/100 (academic score only — overridden by PubMed elimination)</li>
+<li><strong>最终评分:</strong> <strong>75/100</strong></li>
 
-<h2>9. Final Decision</h2>
+<h2>8. 最终结论</h2>
 
-<p><strong>CENTROSOME_ELIMINATED</strong></p>
+<p><strong>CENTROSOME ELIMINATED</strong></p>
 
-<p><strong>Reason:</strong>: PubMed total = 101 (barely over the 100 threshold). CEP192 is a borderline case — excellent centrosome biology but technically over the elimination cutoff.</p>
+<p>PubMed > 100 自动淘汰。</p>
 
-<h2>10. Manual Review Note</h2>
-
-<li>Eliminated per PubMed > 100 rule. Borderline (101 papers).</li>
-<li>If threshold is relaxed to 150, CEP192 would be re-instated as CANDIDATE</li>
-<li>Large size (2,537 aa) makes experimental work challenging regardless</li>
+<h2>9. 人工复核备注</h2>
+<li>HPA 来源: 中心体</li>
+<li>Pilot 报告规范化: 已转为中文五维评分，移除 TE 模块</li>
 
 <div class="back-link">
     <a href="../protein_index.html">← Back to Centrosome Index</a>

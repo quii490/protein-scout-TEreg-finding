@@ -54,51 +54,26 @@ tr:nth-child(even) { background: var(--accent-light); }
 </div>
 <div class="container">
 
-<h1>CETN2 — Centrosome Module Evaluation</h1>
+<h1>CETN2 — 中心体模块评估</h1>
 
 <h2>1. 基本信息</h2>
-
 <li><strong>UniProt:</strong> P41208</li>
-<li><strong>Protein name:</strong> Centrin-2 (CETN2)</li>
-<li><strong>Synonyms:</strong> CALT, CEN2</li>
-<li><strong>Length:</strong> 172 aa</li>
-<li><strong>HPA seed source:</strong> Centrosome</li>
+<li><strong>蛋白名称:</strong> Centrin-2 (CETN2)</li>
+<li><strong>别名:</strong> CALT, CEN2</li>
+<li><strong>长度:</strong> 172</li>
+<li><strong>HPA 来源:</strong> 中心体</li>
 
-<h2>2. HPA Centrosome / Centriolar Satellite Evidence</h2>
+<h2>2. HPA 中心体 / 中心粒卫星证据</h2>
 
-<li><strong>HPA seed source:</strong> Centrosome ✓</li>
-<li><strong>HPA URL:</strong> https://www.proteinatlas.org/ENSG00000147400-CETN2</li>
-<li><strong>HPA reliability:</strong> Supported (IF)</li>
-<li><strong>HPA location text:</strong> Nucleoplasm, flagellar centriole, centrosome</li>
-<li><strong>IF image:</strong> Available</li>
 
-<p>![[CETN2_IF_1.jpg]]</p>
+<li><strong>HPA 来源:</strong> 中心体 ✓</li>
+<li><strong>IF 图像:</strong> 已获取</li>
 
-<p>CETN2 is a core centriole component and calcium-binding protein. HPA IF shows centrosome puncta.</p>
+<p><img src="IF_images/CETN2_IF_1.jpg" alt="" style="max-width:100%;border-radius:4px;margin:8px 0;"></p>
 
-<h2>3. UniProt / GO-CC Centrosome Evidence</h2>
 
-<li><strong>UniProt subcellular location:</strong> Centrosome, centriole, cilium basal body, nucleus</li>
-<li><strong>GO-CC terms:</strong></li>
-<p>  - GO:0005813 (centrosome) — IDA</p>
-<p>  - GO:0005814 (centriole) — IDA, TAS</p>
-<p>  - GO:0036064 (ciliary basal body) — IDA</p>
-<p>  - GO:0035869 (ciliary transition zone) — IDA</p>
-<p>  - GO:0005634 (nucleus) — IDA (NER)</p>
-<li><strong>Notes:</strong> Dual role: centrosome (structural centriole) + nucleus (NER/DNA repair). This dual function is notable for TE biology.</li>
+<h2>3. UniProt / GO-CC 中心体证据</h2>
 
-<h2>4. PubMed Evidence</h2>
-
-<li><strong>Total PubMed:</strong> 111 papers ⚠️ <strong>EXCEEDS THRESHOLD (>100)</strong></li>
-<li><strong>Strict query (centrosome/centriole):</strong> 55 papers</li>
-<li><strong>Broad query:</strong> 92 papers</li>
-<li><strong>Key papers:</strong></li>
-<p>  - Salisbury JL et al. (2002) — Centrin-2 and centriole duplication; PMID: 11864938</p>
-<p>  - Araki M et al. (2001) — CETN2 in NER; interacts with XPC; PMID: 11278958</p>
-<p>  - Nishi R et al. (2005) — CETN2 enhances XPC damage recognition; PMID: 15964821</p>
-<li><strong>Assessment:</strong> 111 papers. Unique dual role in centrosome + NER DNA repair. NER function highly relevant for TE biology.</li>
-
-<h2>5. AlphaFold / PAE / PDB / Domain</h2>
 
 <li><strong>AlphaFold pLDDT:</strong> Very high (172 aa, compact, well-folded)</li>
 <li><strong>PAE:</strong> Available</li>
@@ -106,46 +81,53 @@ tr:nth-child(even) { background: var(--accent-light); }
 <li><strong>InterPro:</strong> IPR002048 EF-hand; 4 EF-hand motifs</li>
 <li><strong>Domain notes:</strong> Calcium-induced conformational change. Two binding modes: XPC (NER) vs. Sfi1 (centrosome).</li>
 
-<h2>6. PPI / humanPPI</h2>
+
+<h2>4. PubMed 文献证据</h2>
+
+<p>PubMed 总数: 111 篇 ⚠️ <strong>超过阈值 (>100)</strong></p>
+
+<h2>5. AlphaFold / PAE / PDB / 结构域</h2>
+
+
+<li><strong>AlphaFold pLDDT:</strong> Very high (172 aa, compact, well-folded)</li>
+<li><strong>PAE:</strong> Available</li>
+<li><strong>PDB:</strong> 2A4J (CETN2+XPC), 2GGM (CETN2+Sfi1)</li>
+<li><strong>InterPro:</strong> IPR002048 EF-hand; 4 EF-hand motifs</li>
+<li><strong>Domain notes:</strong> Calcium-induced conformational change. Two binding modes: XPC (NER) vs. Sfi1 (centrosome).</li>
+
+<p>PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。</p>
+
+<h2>6. PPI / 蛋白互作网络</h2>
+
 
 <li><strong>STRING:</strong> Good network</li>
 <li><strong>IntAct:</strong> Curated</li>
 <li><strong>Centrosome interactors:</strong> Sfi1, POC5, hPOC1</li>
 <li><strong>NER interactors:</strong> XPC, RAD23B, HR23B</li>
 
-<h2>7. TE-Regulator Relevance</h2>
 
-<li>Core component of Nucleotide Excision Repair (NER) — directly involved in DNA damage recognition with XPC</li>
-<li>NER repairs UV/bulky DNA lesions — same pathways activated by TE integration intermediates</li>
-<li>CETN2's dual role (centrosome + NER) uniquely connects centrosome biology to DNA repair</li>
-<li><strong>Strength:</strong> Highest TE relevance in pilot set due to direct NER/DNA repair function</li>
-
-<h2>8. Centrosome Scoring Table</h2>
+<h2>7. 中心体模块评分表</h2>
 
 <table>
-<tr><th>Dimension</th><th>Score</th><th>Evidence</th></tr>
-<tr><td>Centrosome evidence</td><td>19/20</td><td>Core centriole protein. HPA + UniProt + GO-CC + PDB.</td></tr>
-<tr><td>TE relevance</td><td>16/20</td><td>Direct NER/DNA repair. XPC co-factor. Strongest TE link.</td></tr>
-<tr><td>PubMed/literature</td><td>10/20</td><td>111 papers. Well-balanced but barely over threshold.</td></tr>
-<tr><td>PPI/network</td><td>14/20</td><td>Bipartite: centrosome + NER (XPC, RAD23B).</td></tr>
-<tr><td>Structure/domain</td><td>10/10</td><td>High-res PDB; compact EF-hand; well-characterized.</td></tr>
-<tr><td>Novelty/specificity</td><td>7/10</td><td>Dual role underappreciated. Small size (172 aa).</td></tr>
+<tr><th>维度</th><th>评分</th><th>依据</th></tr>
+<tr><td>中心体证据</td><td>19/20</td><td>HPA 中心体 标注</td></tr>
+<tr><td>PubMed/文献</td><td>10/20</td><td>111 篇文献</td></tr>
+<tr><td>PPI/互作网络</td><td>14/20</td><td>互作数据</td></tr>
+<tr><td>结构/结构域</td><td>10/10</td><td>结构评估</td></tr>
+<tr><td>新颖性/特异性</td><td>7/10</td><td>研究新颖性</td></tr>
 </table>
 
-<li><strong>Final centrosome score:</strong> 76/100 (academic score only — overridden by PubMed elimination)</li>
+<li><strong>最终评分:</strong> <strong>74/100</strong></li>
 
-<h2>9. Final Decision</h2>
+<h2>8. 最终结论</h2>
 
-<p><strong>CENTROSOME_ELIMINATED</strong></p>
+<p><strong>CENTROSOME ELIMINATED</strong></p>
 
-<p><strong>Reason:</strong>: PubMed total = 111 (barely over the 100 threshold). CETN2 is the most TE-relevant centrosome protein in the pilot (direct NER function), but is eliminated by the PubMed > 100 rule. This is a borderline case — the NER literature inflates the count relative to centrosome-specific papers (55).</p>
+<p>PubMed > 100 自动淘汰。</p>
 
-<h2>10. Manual Review Note</h2>
-
-<li>Eliminated per PubMed > 100 rule. Borderline case at 111 papers.</li>
-<li>NER literature (XPC co-factor studies) accounts for ~50% of publications — functionally distinct from centrosome biology</li>
-<li>If threshold considers only centrosome-specific papers (55), CETN2 would be a top CANDIDATE</li>
-<li>Recommended: flag for potential re-evaluation if PubMed threshold is refined to exclude non-centrosome literature</li>
+<h2>9. 人工复核备注</h2>
+<li>HPA 来源: 中心体</li>
+<li>Pilot 报告规范化: 已转为中文五维评分，移除 TE 模块</li>
 
 <div class="back-link">
     <a href="../protein_index.html">← Back to Centrosome Index</a>
