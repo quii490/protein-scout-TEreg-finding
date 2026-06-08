@@ -45,11 +45,14 @@ HPA 定位: Nucleoplasm, Centrosome, Basal body。HPA IF 可靠性: supported。
 
 - **文献总数:** 93 篇
 - **研究量评估:** 较多文献
-- *关键文献待人工调研。*
+- *PubMed 文献待查询*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q86Z02)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q86Z02-F1-model_v6.pdb
+
+*InterPro: Kinase-like_dom_sf, Prot_kinase_dom, Protein_kinase_ATP_BS, Ser/Thr_kinase_AS, Ser_Thr_dual-spec_kinase*
+*Pfam: Pkinase*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

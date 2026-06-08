@@ -45,11 +45,16 @@ HPA 定位: Nucleoplasm, Plasma membrane, Primary cilium。HPA IF 可靠性: app
 
 - **文献总数:** 44 篇
 - **研究量评估:** 中等研究量
-- *关键文献待人工调研。*
+- 1. PMID 39343966: RAB12-LRRK2 complex suppresses primary ciliogenesis and regulates centrosome homeostasis in astrocytes. (2024 Sep 29) *Nat Commun*
+2. PMID 35776681: The LRRK2 signaling network converges on a centriolar phospho-Rab10/RILPL1 complex to cause deficits in centrosome cohesion and cell polarization. (2022 Aug 15) *Biol Open*
+3. PMID 35721463: Pathogenic LRRK2 regulates centrosome cohesion via Rab10/RILPL1-mediated CDK5RAP2 displacement. (2022 Jun 17) *iScience*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q5EBL4)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q5EBL4-F1-model_v6.pdb
+
+*InterPro: DZIP_RILPL, RH1, RH2, RILP_dimer*
+*Pfam: RH1, RILP*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

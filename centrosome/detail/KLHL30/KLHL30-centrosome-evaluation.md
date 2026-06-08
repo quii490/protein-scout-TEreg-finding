@@ -45,11 +45,14 @@ HPA 定位: Centriolar satellite。HPA IF 可靠性: approved。
 
 - **文献总数:** 6 篇
 - **研究量评估:** 极低研究量
-- *关键文献待人工调研。*
+- *PubMed 文献待查询*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q0D2K2)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q0D2K2-F1-model_v6.pdb
+
+*InterPro: BACK, BTB-kelch_protein, BTB/POZ_dom, Kelch-typ_b-propeller, Kelch_1, KLHL30_BACK, SKP1/BTB/POZ_sf*
+*Pfam: BACK, BTB, Kelch_KLHDC2_KLHL20_DRC7*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

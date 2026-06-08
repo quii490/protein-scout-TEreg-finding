@@ -45,11 +45,14 @@ HPA 定位: Vesicles, Primary cilium, Primary cilium tip。HPA IF 可靠性: sup
 
 - **文献总数:** 8 篇
 - **研究量评估:** 极低研究量
-- *关键文献待人工调研。*
+- 1. *PubMed 查询失败: <urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q9C099)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q9C099-F1-model_v6.pdb
+
+*InterPro: Leu-rich_rpt, Leu-rich_rpt_4, LRR_dom_sf*
+*Pfam: LRR_4*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

@@ -45,11 +45,16 @@ HPA 定位: Centrosome, Basal body, Cytosol。HPA IF 可靠性: supported。
 
 - **文献总数:** 31 篇
 - **研究量评估:** 中等研究量
-- *关键文献待人工调研。*
+- 1. PMID 29440264: Centrobin controls primary ciliogenesis in vertebrates. (2018 Apr 2) *J Cell Biol*
+2. PMID 19710508: Rat hd mutation reveals an essential role of centrobin in spermatid head shaping and assembly of the head-tail coupling apparatus. (2009 Dec) *Biol Reprod*
+3. PMID 21407209: Drosophila neuroblasts retain the daughter centrosome. (2011) *Nat Commun*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q8N137)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q8N137-F1-model_v6.pdb
+
+*InterPro: Centrobin*
+*Pfam: *待 Pfam 查询**
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

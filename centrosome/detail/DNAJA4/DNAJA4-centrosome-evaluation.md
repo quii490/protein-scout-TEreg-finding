@@ -45,11 +45,14 @@ HPA 定位: Nuclear membrane, Plasma membrane, Primary cilium。HPA IF 可靠性
 
 - **文献总数:** 52 篇
 - **研究量评估:** 中等研究量
-- *关键文献待人工调研。*
+- *PubMed 文献待查询*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q8WW22)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q8WW22-F1-model_v6.pdb
+
+*InterPro: DnaJ, DnaJ_C, DnaJ_domain, DnaJ_domain_CS, DNJA1/2-like, HSP40/DnaJ_pept-bd, HSP_DnaJ_Cys-rich_dom, HSP_DnaJ_Cys-rich_dom_sf*
+*Pfam: DnaJ, DnaJ_C, DnaJ_CXXCXGXG*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

@@ -45,11 +45,16 @@ HPA 定位: Nucleoplasm, Centrosome, Basal body。HPA IF 可靠性: supported。
 
 - **文献总数:** 66 篇
 - **研究量评估:** 较多文献
-- *关键文献待人工调研。*
+- 1. PMID 39990491: Centrosome-assisted assembly of the Balbiani body. (2025 Feb 12) *bioRxiv*
+2. PMID 32491167: Role of DZIP1-CBY-FAM92 transition zone complex in the basal body to membrane attachment and ciliary budding. (2020 Jun 30) *Biochem Soc Trans*
+3. PMID 33811421: DZIP1 regulates mammalian cardiac valve development through a Cby1-β-catenin mechanism. (2021 Oct) *Dev Dyn*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q86YF9)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q86YF9-F1-model_v6.pdb
+
+*InterPro: DZIP1_dom, DZIP1_N, DZIP_RILPL, Znf_C2H2_type*
+*Pfam: Dzip-like_N, DZIP1*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

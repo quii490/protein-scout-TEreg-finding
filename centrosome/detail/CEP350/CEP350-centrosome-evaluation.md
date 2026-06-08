@@ -45,11 +45,16 @@ HPA 定位: Nucleoplasm, Centrosome, Basal body。HPA IF 可靠性: supported。
 
 - **文献总数:** 32 篇
 - **研究量评估:** 中等研究量
-- *关键文献待人工调研。*
+- 1. PMID 36315013: The central scaffold protein CEP350 coordinates centriole length, stability, and maturation. (2022 Dec 5) *J Cell Biol*
+2. PMID 41929017: Centriolar satellites regulate CEP350 mRNA localization and centrosome amplification. (2026 Mar 26) *bioRxiv*
+3. PMID 39317195: A disease-associated PPP2R3C-MAP3K1 phospho-regulatory module controls centrosome function. (2024 Oct 21) *Curr Biol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+*AlphaFold 查询失败*
+
+*InterPro: CAP-Gly_dom_sf, CAP-Gly_domain, CEP350/CC187, DUF4378*
+*Pfam: CAP_GLY, DUF4378*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

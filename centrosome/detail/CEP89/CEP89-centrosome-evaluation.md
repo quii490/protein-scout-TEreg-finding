@@ -45,11 +45,16 @@ HPA 定位: Primary cilium, Centrosome, Basal body。HPA IF 可靠性: supported
 
 - **文献总数:** 25 篇
 - **研究量评估:** 低研究量
-- *关键文献待人工调研。*
+- 1. PMID 39696441: Distinct roles of centriole distal appendage proteins in ciliary assembly and disassembly. (2024 Dec 18) *Cell Commun Signal*
+2. PMID 39882855: Myristoylated Neuronal Calcium Sensor-1 captures the preciliary vesicle at distal appendages. (2025 Jan 30) *Elife*
+3. PMID 36712037: Myristoylated Neuronal Calcium Sensor-1 captures the ciliary vesicle at distal appendages. (2023 Jan 10) *bioRxiv*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q96ST8)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q96ST8-F1-model_v6.pdb
+
+*InterPro: CEP89*
+*Pfam: *待 Pfam 查询**
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

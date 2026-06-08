@@ -45,11 +45,15 @@ HPA 定位: Vesicles, Centrosome, Basal body。HPA IF 可靠性: supported。
 
 - **文献总数:** 20 篇
 - **研究量评估:** 低研究量
-- *关键文献待人工调研。*
+- 1. PMID 28625565: The CEP19-RABL2 GTPase Complex Binds IFT-B to Initiate Intraflagellar Transport at the Ciliary Base. (2017 Jul 10) *Dev Cell*
+2. PMID 30578315: RABL2 positively controls localization of GPCRs in mammalian primary cilia. (2019 Jan 16) *J Cell Sci*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q9UNT1)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q9UNT1-F1-model_v6.pdb
+
+*InterPro: P-loop_NTPase, RabL2, Small_GTP-bd, Small_GTPase*
+*Pfam: Ras*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

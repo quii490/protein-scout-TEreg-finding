@@ -45,11 +45,16 @@ HPA 定位: Golgi apparatus, Centrosome, Basal body。HPA IF 可靠性: approved
 
 - **文献总数:** 21 篇
 - **研究量评估:** 低研究量
-- *关键文献待人工调研。*
+- 1. PMID 26636390: Panventriculomegaly with a wide foramen of Magendie and large cisterna magna. (2016 Jun) *J Neurosurg*
+2. PMID 35438214: DNAH14 variants are associated with neurodevelopmental disorders. (2022 Jul) *Hum Mutat*
+3. PMID 29323929: Variation in Cilia Protein Genes and Progression of Lung Disease in Cystic Fibrosis. (2018 Apr) *Ann Am Thorac Soc*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q0VDD8)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q0VDD8-3-F1-model_v6.pdb
+
+*InterPro: AAA_6, AAA_9, DHC, Dynein_AAA1S, Dynein_AAA5_ext, Dynein_C, Dynein_C_barrel, Dynein_HC_stalk*
+*Pfam: AAA_6, AAA_7, AAA_8, AAA_9, Dynein_AAA_lid, Dynein_C, MT*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

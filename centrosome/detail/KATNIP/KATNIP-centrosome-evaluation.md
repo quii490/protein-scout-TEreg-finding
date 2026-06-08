@@ -45,11 +45,16 @@ HPA 定位: Nucleoplasm, Primary cilium, Centriolar satellite。HPA IF 可靠性
 
 - **文献总数:** 18 篇
 - **研究量评估:** 低研究量
-- *关键文献待人工调研。*
+- 1. PMID 20301500: Joubert Syndrome. (1993) **
+2. PMID 40621737: Human disease variants of KATNIP fail to support CILK1 activation and control of primary cilia. (2025 Oct 15) *J Cell Sci*
+3. PMID 39120290: An Epilepsy-Associated CILK1 Variant Compromises KATNIP Regulation and Impairs Primary Cilia and Hedgehog Signaling. (2024 Jul 26) *Cells*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: O60303)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-O60303-F1-model_v6.pdb
+
+*InterPro: KATNIP, KATNIP_dom*
+*Pfam: DUF4457*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

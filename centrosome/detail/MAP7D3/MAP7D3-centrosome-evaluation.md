@@ -45,11 +45,15 @@ HPA 定位: Nucleoplasm, Plasma membrane, Primary cilium。HPA IF 可靠性: unc
 
 - **文献总数:** 18 篇
 - **研究量评估:** 低研究量
-- *关键文献待人工调研。*
+- 1. PMID 25161703: Microtubule-associated protein Mdp3 promotes breast cancer growth and metastasis. (2014) *Theranostics*
+2. PMID 36259570: Identification of risk genes in Chinese nonobstructive azoospermia patients based on whole-exome sequencing. (2023 Jan-Feb) *Asian J Androl*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q8IWC1)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q8IWC1-F1-model_v6.pdb
+
+*InterPro: MAP7_domain-containing, MAP7_fam*
+*Pfam: MAP7*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

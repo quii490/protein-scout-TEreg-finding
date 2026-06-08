@@ -45,11 +45,16 @@ HPA 定位: Nucleoplasm, Centrosome, Cytosol。HPA IF 可靠性: uncertain。
 
 - **文献总数:** 80 篇
 - **研究量评估:** 较多文献
-- *关键文献待人工调研。*
+- 1. PMID 38955739: [The diagnostic value of inflammation-related genes in bronchopulmonary dysplasia]. (2024 Jun 6) *Zhonghua Yu Fang Yi Xue Za Zhi*
+2. PMID 17989990: Persistence of DNA threads in human anaphase cells suggests late completion of sister chromatid decatenation. (2008 Apr) *Chromosoma*
+3. PMID 17671160: Use of the novel Plk1 inhibitor ZK-thiazolidinone to elucidate functions of Plk1 in early and late stages of mitosis. (2007 Oct) *Mol Biol Cell*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q2NKX8)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q2NKX8-F1-model_v6.pdb
+
+*InterPro: Helicase_ATP-bd, Helicase_C-like, P-loop_NTPase, SNF2-like_sf, SNF2/RAD54-like_C, SNF2_N, SNF2_RAD54_helicase_repair*
+*Pfam: Helicase_C, SNF2-rel_dom*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

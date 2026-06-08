@@ -45,11 +45,16 @@ HPA 定位: Vesicles, Cytokinetic bridge, Primary cilium。HPA IF 可靠性: sup
 
 - **文献总数:** 53 篇
 - **研究量评估:** 中等研究量
-- *关键文献待人工调研。*
+- 1. PMID 25673879: The Arf and Rab11 effector FIP3 acts synergistically with ASAP1 to direct Rabin8 in ciliary receptor targeting. (2015 Apr 1) *J Cell Sci*
+2. PMID 30404838: An interaction network between the SNARE VAMP7 and Rab GTPases within a ciliary membrane-targeting complex. (2018 Dec 10) *J Cell Sci*
+3. PMID 19327867: Rab11-FIP3 is a Rab11-binding protein that regulates breast cancer cell motility by modulating the actin cytoskeleton. (2009 Jun) *Eur J Cell Biol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: O75154)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-O75154-F1-model_v6.pdb
+
+*InterPro: EF-hand-dom_pair, EF_hand_dom, FIP-RBD_C_sf, Rab-bd_FIP-RBD, Rab11-FIP3/4_dom, Rab11-interacting_regulator*
+*Pfam: EF-hand_7, Rab11-FIP3, RBD-FIP*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

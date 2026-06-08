@@ -45,11 +45,14 @@ HPA 定位: Nucleoplasm, Plasma membrane, Centrosome。HPA IF 可靠性: approve
 
 - **文献总数:** 86 篇
 - **研究量评估:** 较多文献
-- *关键文献待人工调研。*
+- 1. PMID 41709324: Neddylation relieves cytoskeletal tension to permit primary cilia formation during mouse decidualization. (2026 Feb 18) *Cell Commun Signal*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q8TBC4)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q8TBC4-F1-model_v6.pdb
+
+*InterPro: E2-binding, ThiF/MoeB/HesA, ThiF_NAD_FAD-bd, Ub_act_enz_dom_a_sf, Uba3_N, Ubiquitin-activating_enz, UBQ-activ_enz_E1_Cys_AS*
+*Pfam: E2_bind, ThiF*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

@@ -45,11 +45,15 @@ HPA 定位: Nucleoplasm, Nucleoli fibrillar center, Vesicles。HPA IF 可靠性:
 
 - **文献总数:** 7 篇
 - **研究量评估:** 极低研究量
-- *关键文献待人工调研。*
+- 1. PMID 28460059: Insights into Ciliary Genes and Evolution from Multi-Level Phylogenetic Profiling. (2017 Aug 1) *Mol Biol Evol*
+2. PMID 42079374: Insights into Human Ciliopathies: Gene Silencing of ropn1l and tex9 in Schmidtea mediterranea Indicate Association with Ciliary Structure and Motility. (2026) *MicroPubl Biol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q8N6V9)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q8N6V9-F1-model_v6.pdb
+
+*InterPro: *待 InterPro 查询**
+*Pfam: *待 Pfam 查询**
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

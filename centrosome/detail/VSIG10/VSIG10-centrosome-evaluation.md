@@ -45,11 +45,14 @@ HPA 定位: Centriolar satellite, Cytosol。HPA IF 可靠性: approved。
 
 - **文献总数:** 6 篇
 - **研究量评估:** 极低研究量
-- *关键文献待人工调研。*
+- *PubMed 文献待查询*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q8N0Z9)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q8N0Z9-F1-model_v6.pdb
+
+*InterPro: Ig-like_dom, Ig-like_dom_sf, Ig-like_fold, Ig_sub, Ig_sub2, Ig_V-set, Neural/epithelial_adhesion*
+*Pfam: Ig_3, V-set*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

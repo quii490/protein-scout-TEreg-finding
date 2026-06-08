@@ -45,11 +45,16 @@ HPA 定位: Centrosome, Basal body。HPA IF 可靠性: enhanced。
 
 - **文献总数:** 69 篇
 - **研究量评估:** 较多文献
-- *关键文献待人工调研。*
+- 1. PMID 35127699: CEP250 is Required for Maintaining Centrosome Cohesion in the Germline and Fertility in Male Mice. (2021) *Front Cell Dev Biol*
+2. PMID 35599622: Centrosome linker protein C-Nap1 maintains stem cells in mouse testes. (2022 Jul 5) *EMBO Rep*
+3. PMID 38942662: Altered centriolar cohesion by CEP250 and appendages impact outcome of patients with pancreatic cancer. (2024 Sep) *Pancreatology*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q9BV73)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q9BV73-F1-model_v6.pdb
+
+*InterPro: CEP250_CC, Rootletin-like_CC*
+*Pfam: CC_CEP250, Rootletin*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

@@ -45,11 +45,16 @@ HPA 定位: Nucleoplasm, Nucleoli, Centrosome。HPA IF 可靠性: supported。
 
 - **文献总数:** 63 篇
 - **研究量评估:** 较多文献
-- *关键文献待人工调研。*
+- 1. PMID 25103236: Cby1 promotes Ahi1 recruitment to a ring-shaped domain at the centriole-cilium interface and facilitates proper cilium formation and function. (2014 Oct 1) *Mol Biol Cell*
+2. PMID 27528616: BAR Domain-Containing FAM92 Proteins Interact with Chibby1 To Facilitate Ciliogenesis. (2016 Nov 1) *Mol Cell Biol*
+3. PMID 40484380: Dimerization of the BAR domain-containing protein FAM92A modulates lipid binding and interaction with CBY1. (2025 Jul) *J Biol Chem*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q9Y3M2)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q9Y3M2-F1-model_v6.pdb
+
+*InterPro: Chibby_fam*
+*Pfam: Chibby*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

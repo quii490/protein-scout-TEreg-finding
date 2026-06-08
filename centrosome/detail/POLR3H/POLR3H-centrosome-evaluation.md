@@ -45,11 +45,14 @@ HPA 定位: Nucleoplasm, Vesicles, Centrosome。HPA IF 可靠性: supported。
 
 - **文献总数:** 13 篇
 - **研究量评估:** 低研究量
-- *关键文献待人工调研。*
+- *PubMed 文献待查询*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q9Y535)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q9Y535-F1-model_v6.pdb
+
+*InterPro: NA-bd_OB-fold, RNA_pol_III_Rbc25, RNA_pol_Rpb7-like_N_sf, RNAP_E/RPC8, Rpb7-like, Rpb7-like_N*
+*Pfam: RNA_pol_Rbc25, SHS2_Rpb7-N*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

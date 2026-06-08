@@ -45,11 +45,14 @@ HPA 定位: Centrosome, Basal body, Cytosol。HPA IF 可靠性: approved。
 
 - **文献总数:** 74 篇
 - **研究量评估:** 较多文献
-- *关键文献待人工调研。*
+- 1. PMID 26104135: SrGAP3 knockout mice display enlarged lateral ventricles and specific cilia disturbances of ependymal cells in the third ventricle. (2015 Aug) *Cell Tissue Res*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: O43295)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-O43295-F1-model_v6.pdb
+
+*InterPro: AH/BAR_dom_sf, F_BAR_dom, FCH_dom, Rho_GTPase_activation_prot, RhoGAP_dom, SH3-like_dom_sf, SH3_domain, SLIT-ROBO_RhoGAP*
+*Pfam: FCH, RhoGAP, SH3_1*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

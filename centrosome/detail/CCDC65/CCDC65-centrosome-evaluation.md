@@ -45,11 +45,16 @@ HPA 定位: Vesicles, Primary cilium transition zone, Centriolar satellite。HPA
 
 - **文献总数:** 20 篇
 - **研究量评估:** 低研究量
-- *关键文献待人工调研。*
+- 1. PMID 23991085: CCDC65 mutation causes primary ciliary dyskinesia with normal ultrastructure and hyperkinetic cilia. (2013) *PLoS One*
+2. PMID 36533556: Variable phenotypes and penetrance between and within different zebrafish ciliary transition zone mutants. (2022 Dec 1) *Dis Model Mech*
+3. PMID 29467202: Primary ciliary dyskinesia with normal ultrastructure: three-dimensional tomography detects absence of DNAH11. (2018 Feb) *Eur Respir J*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q8IXS2)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q8IXS2-F1-model_v6.pdb
+
+*InterPro: DRC1/2_N, DRC1/DRC2*
+*Pfam: NYD-SP28*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

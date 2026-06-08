@@ -45,11 +45,16 @@ HPA 定位: Nucleoplasm, Centrosome, Cytosol。HPA IF 可靠性: supported。
 
 - **文献总数:** 35 篇
 - **研究量评估:** 中等研究量
-- *关键文献待人工调研。*
+- 1. PMID 38457249: Mechanisms underlying morphological and functional changes of cilia in fibroblasts derived from patients bearing ARL3(T31A) and ARL3(T31A/C118F) mutations. (2024 Mar 15) *FASEB J*
+2. PMID 25673879: The Arf and Rab11 effector FIP3 acts synergistically with ASAP1 to direct Rabin8 in ciliary receptor targeting. (2015 Apr 1) *J Cell Sci*
+3. PMID 30404838: An interaction network between the SNARE VAMP7 and Rab GTPases within a ciliary membrane-targeting complex. (2018 Dec 10) *J Cell Sci*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q96QF0)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q96QF0-F1-model_v6.pdb
+
+*InterPro: RAB3IL/RAB3IP/Sec2, Sec2_N*
+*Pfam: RAB3A-like_C, Sec2p*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

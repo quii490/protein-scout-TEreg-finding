@@ -45,11 +45,16 @@ HPA 定位: Golgi apparatus, Centriolar satellite, Cytosol。HPA IF 可靠性: s
 
 - **文献总数:** 59 篇
 - **研究量评估:** 中等研究量
-- *关键文献待人工调研。*
+- 1. PMID 20152126: Hook3 interacts with PCM1 to regulate pericentriolar material assembly and the timing of neurogenesis. (2010 Jan 28) *Neuron*
+2. PMID 30674580: The dynein adaptor Hook2 plays essential roles in mitotic progression and cytokinesis. (2019 Mar 4) *J Cell Biol*
+3. PMID 26230842: High-Level HOOK3 Expression Is an Independent Predictor of Poor Prognosis Associated with Genomic Instability in Prostate Cancer. (2015) *PLoS One*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q86VS8)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q86VS8-F1-model_v6.pdb
+
+*InterPro: CH_dom, CH_dom_sf, Hook_C, HOOK_N*
+*Pfam: HOOK, HOOK_N*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

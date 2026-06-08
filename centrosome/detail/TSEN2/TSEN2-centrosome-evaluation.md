@@ -45,11 +45,14 @@ HPA 定位: Nucleoplasm, Centrosome, Cytosol。HPA IF 可靠性: supported。
 
 - **文献总数:** 20 篇
 - **研究量评估:** 低研究量
-- *关键文献待人工调研。*
+- *PubMed 文献待查询*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q8NCE0)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q8NCE0-F1-model_v6.pdb
+
+*InterPro: tRNA_endonuc-like_dom_sf, tRNA_intron_Endo_cat-like_sf, tRNA_intron_Endonuc_cat-like, tRNA_intron_Endonuc_N, tRNA_splic, tRNA_splic_SEN2*
+*Pfam: tRNA_int_endo, tRNA_int_endo_N*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

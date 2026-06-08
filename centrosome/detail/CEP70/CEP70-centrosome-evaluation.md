@@ -45,11 +45,16 @@ HPA 定位: Nucleoplasm, Primary cilium, Centrosome。HPA IF 可靠性: approved
 
 - **文献总数:** 26 篇
 - **研究量评估:** 低研究量
-- *关键文献待人工调研。*
+- 1. PMID 26893288: Cep70 overexpression stimulates pancreatic cancer by inducing centrosome abnormality and microtubule disorganization. (2016 Feb 19) *Sci Rep*
+2. PMID 33285087: A role for Cep70 in centriole amplification in multiciliated cells. (2021 Mar) *Dev Biol*
+3. PMID 28632150: Centrosomal Protein 70 Is a Mediator of Paclitaxel Sensitivity. (2017 Jun 20) *Int J Mol Sci*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q8NHQ1)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q8NHQ1-F1-model_v6.pdb
+
+*InterPro: CEP70, TPR_rpt*
+*Pfam: *待 Pfam 查询**
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

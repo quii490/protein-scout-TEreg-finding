@@ -45,11 +45,16 @@ HPA 定位: Nucleoplasm, Golgi apparatus, Centrosome。HPA IF 可靠性: support
 
 - **文献总数:** 72 篇
 - **研究量评估:** 较多文献
-- *关键文献待人工调研。*
+- 1. PMID 20301590: Nonsyndromic Retinitis Pigmentosa Overview. (1993) **
+2. PMID 39543170: An interaction network of inner centriole proteins organised by POC1A-POC1B heterodimer crosslinks ensures centriolar integrity. (2024 Nov 14) *Nat Commun*
+3. PMID 24664697: FAM161A, a novel centrosomal-ciliary protein implicated in autosomal recessive retinitis pigmentosa. (2014) *Adv Exp Med Biol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q3B820)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q3B820-F1-model_v6.pdb
+
+*InterPro: FAM161, FAM161A/B*
+*Pfam: FAM161A_B*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

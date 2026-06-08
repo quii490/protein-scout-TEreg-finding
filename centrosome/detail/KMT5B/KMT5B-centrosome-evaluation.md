@@ -45,11 +45,16 @@ HPA 定位: Nucleoplasm, Nucleoli fibrillar center, Plasma membrane。HPA IF 可
 
 - **文献总数:** 59 篇
 - **研究量评估:** 中等研究量
-- *关键文献待人工调研。*
+- 1. PMID 42080071: KMT5B in Cancerous and Noncancerous Diseases: Clinical and Mechanical Considerations. (2026) *Int J Med Sci*
+2. PMID 41946567: Catalytic activity of KMT5B promotes ciliogenesis without affecting global chromatin accessibility. (2026 Jun) *Life Sci Alliance*
+3. PMID 37116939: The histone H4K20 methyltransferase SUV4-20H1/KMT5B is required for multiciliated cell differentiation in Xenopus. (2023 Jul) *Life Sci Alliance*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q4FZB7)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q4FZB7-F1-model_v6.pdb
+
+*InterPro: Hist-Lys_N-MTase_N, KMT5B_SET, SET_dom, SET_dom_sf, Suv4-20/Set9, Suv4-20_animal*
+*Pfam: SET*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

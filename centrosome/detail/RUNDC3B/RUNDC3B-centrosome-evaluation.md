@@ -45,11 +45,14 @@ HPA 定位: Intermediate filaments, Cytokinetic bridge, Primary cilium。HPA IF 
 
 - **文献总数:** 19 篇
 - **研究量评估:** 低研究量
-- *关键文献待人工调研。*
+- *PubMed 文献待查询*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q96NL0)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q96NL0-F1-model_v6.pdb
+
+*InterPro: Run_dom, Run_dom_sf, RUN_RUNDC3B, RUNDC3A_B*
+*Pfam: RUN*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

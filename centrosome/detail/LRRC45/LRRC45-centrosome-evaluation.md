@@ -45,11 +45,16 @@ HPA 定位: Plasma membrane, Centrosome, Basal body。HPA IF 可靠性: approved
 
 - **文献总数:** 14 篇
 - **研究量评估:** 低研究量
-- *关键文献待人工调研。*
+- 1. PMID 24035387: LRRC45 is a centrosome linker component required for centrosome cohesion. (2013 Sep 26) *Cell Rep*
+2. PMID 39522565: LRRC45 accelerates bladder cancer development and ferroptosis inhibition via stabilizing NRF2 by competitively KEAP1 interaction. (2025 Jan) *Free Radic Biol Med*
+3. PMID 39638757: Biallelic Variants in LRRC45 Impair Ciliogenesis and Cause a Severe Neurological Disorder. (2025 Mar) *Clin Genet*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q96CN5)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q96CN5-F1-model_v6.pdb
+
+*InterPro: Centro_Cilium_Assembly, Leu-rich_rpt, LRR_dom_sf*
+*Pfam: LRR_6*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

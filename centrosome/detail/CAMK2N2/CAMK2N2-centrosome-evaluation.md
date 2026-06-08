@@ -45,11 +45,14 @@ HPA 定位: Nucleoplasm, Centrosome, Basal body。HPA IF 可靠性: approved。
 
 - **文献总数:** 25 篇
 - **研究量评估:** 低研究量
-- *关键文献待人工调研。*
+- *PubMed 文献待查询*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q96S95)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q96S95-F1-model_v6.pdb
+
+*InterPro: Camk2n*
+*Pfam: CaM-KIIN*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

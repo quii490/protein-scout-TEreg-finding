@@ -45,11 +45,14 @@ HPA 定位: Nucleoplasm, Mitotic chromosome, Centrosome。HPA IF 可靠性: appr
 
 - **文献总数:** 9 篇
 - **研究量评估:** 极低研究量
-- *关键文献待人工调研。*
+- 1. PMID 28108655: The novel lysine specific methyltransferase METTL21B affects mRNA translation through inducible and dynamic methylation of Lys-165 in human eukaryotic elongation factor 1 alpha (eEF1A). (2017 May 5) *Nucleic Acids Res*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q96AZ1)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q96AZ1-F1-model_v6.pdb
+
+*InterPro: Methyltransf_16, SAM-dependent_MTases_sf*
+*Pfam: Methyltransf_16*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

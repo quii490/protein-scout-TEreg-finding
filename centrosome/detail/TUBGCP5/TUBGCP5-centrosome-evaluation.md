@@ -45,11 +45,16 @@ HPA 定位: Primary cilium, Primary cilium transition zone, Centrosome。HPA IF 
 
 - **文献总数:** 53 篇
 - **研究量评估:** 中等研究量
-- *关键文献待人工调研。*
+- 1. PMID 30543990: Rare missense TUBGCP5 gene variant in a patient with primary microcephaly. (2019 Dec) *Eur J Med Genet*
+2. PMID 37313686: A germline-specific role for unconventional components of the γ-tubulin complex in Caenorhabditis elegans. (2023 Jul 1) *J Cell Sci*
+3. PMID 11694571: GCP5 and GCP6: two new members of the human gamma-tubulin complex. (2001 Nov) *Mol Biol Cell*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q96RT8)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q96RT8-F1-model_v6.pdb
+
+*InterPro: GCP, GCP5_N_ext, GCP_C, GCP_C_sf, GCP_N*
+*Pfam: GCP_C_terminal, GCP_N_terminal*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

@@ -45,11 +45,14 @@ HPA 定位: Centrosome。HPA IF 可靠性: approved。
 
 - **文献总数:** 17 篇
 - **研究量评估:** 低研究量
-- *关键文献待人工调研。*
+- *PubMed 文献待查询*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q9P1W3)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q9P1W3-F1-model_v6.pdb
+
+*InterPro: Csc1-like, CSC1/OSCA1-like_7TM, CSC1/OSCA1-like_cyt, CSC1/OSCA1-like_N*
+*Pfam: PHM7_cyt, RSN1_7TM, RSN1_TM*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

@@ -45,11 +45,16 @@ HPA 定位: Centriolar satellite。HPA IF 可靠性: supported。
 
 - **文献总数:** 45 篇
 - **研究量评估:** 中等研究量
-- *关键文献待人工调研。*
+- 1. PMID 26569555: Truncated RASSF7 promotes centrosomal defects and cell death. (2016 Jan 15) *Dev Biol*
+2. PMID 20956940: Epigenetic inactivation of the RASSF10 candidate tumor suppressor gene is a frequent and an early event in gliomagenesis. (2011 Feb 24) *Oncogene*
+3. PMID 18272789: RASSF7 is a member of a new family of RAS association domain-containing proteins and is required for completing mitosis. (2008 Apr) *Mol Biol Cell*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q02833)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q02833-F1-model_v6.pdb
+
+*InterPro: N-RASSF, RA_dom, RASSF7_RA, Ubiquitin-like_domsf*
+*Pfam: RA*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

@@ -45,11 +45,15 @@ HPA 定位: Centrosome。HPA IF 可靠性: supported。
 
 - **文献总数:** 25 篇
 - **研究量评估:** 低研究量
-- *关键文献待人工调研。*
+- 1. PMID 26114227: AIBp regulates mitotic entry and mitotic spindle assembly by controlling activation of both Aurora-A and Plk1. (2015) *Cell Cycle*
+2. PMID 20596670: Functional characterization of AIBp, a novel Aurora-A binding protein in centrosome structure and spindle formation. (2010 Aug) *Int J Oncol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q9H7T9)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q9H7T9-F1-model_v6.pdb
+
+*InterPro: AUNIP*
+*Pfam: AIB*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

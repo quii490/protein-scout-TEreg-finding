@@ -45,11 +45,16 @@ HPA 定位: Centrosome, Basal body。HPA IF 可靠性: supported。
 
 - **文献总数:** 10 篇
 - **研究量评估:** 极低研究量
-- *关键文献待人工调研。*
+- 1. PMID 39985078: SPICE1 promotes osteosarcoma growth by enhancing the deubiquitination of FASN mediated by USP10. (2025 Feb 21) *J Transl Med*
+2. PMID 30485161: A rapid computational approach identifies SPICE1 as an Aurora kinase substrate. (2019 Feb 1) *Mol Biol Cell*
+3. PMID 20736305: SPICE--a previously uncharacterized protein required for centriole duplication and mitotic chromosome congression. (2010 Sep 15) *J Cell Sci*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q8N0Z3)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q8N0Z3-F1-model_v6.pdb
+
+*InterPro: SPICE1*
+*Pfam: SPICE*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

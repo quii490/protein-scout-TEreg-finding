@@ -45,11 +45,14 @@ HPA 定位: Nucleoplasm, Golgi apparatus, Centrosome。HPA IF 可靠性: approve
 
 - **文献总数:** 7 篇
 - **研究量评估:** 极低研究量
-- *关键文献待人工调研。*
+- *PubMed 文献待查询*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q6N043)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q6N043-F1-model_v6.pdb
+
+*InterPro: DUF4195, Snail/Krueppel_Znf, zf-C2H2_Z280C_D, Znf_C2H2_sf, Znf_C2H2_type, Znf_POGZ/Z280C-D-like*
+*Pfam: DUF4195, zf-C2H2_Z280C_D, zf-POGZ*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

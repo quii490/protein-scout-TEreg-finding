@@ -1,187 +1,92 @@
 #!/usr/bin/env python3
-"""
-Batch harvest centrosome protein data for full evaluation.
+"""Deep harvest: PubMed key papers, AlphaFold pLDDT, UniProt domains, HPA interactions."""
+import json, os, sys, time, urllib.request, re, xml.etree.ElementTree as ET
 
-Usage:
-    python harvest_centrosome_protein.py --pubmed-only    # Just PubMed pre-screen
-    python harvest_centrosome_protein.py --batch N        # Harvest batch N
-    python harvest_centrosome_protein.py --gene GENE      # Single gene
-"""
-import json
-import os
-import sys
-import time
-import urllib.request
-import urllib.parse
-import xml.etree.ElementTree as ET
-from datetime import datetime
-
-EUTILS_BASE = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
-HPA_BASE = "https://www.proteinatlas.org"
-SLEEP = 0.35  # NCBI rate limit: 3/sec without API key
-
-
-def pubmed_count(gene):
-    """Get total PubMed count for a gene."""
-    url = f"{EUTILS_BASE}/esearch.fcgi?db=pubmed&retmax=0&usehistory=y&term={gene}[Gene]"
+def pubmed_papers(gene):
+    """Get top 3 centrosome-related PMIDs with titles."""
+    query = f"{gene}+AND+(centrosome+OR+centriole+OR+cilia)"
     try:
-        req = urllib.request.Request(url, headers={"User-Agent": "protein-scout/1.0"})
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            xml = resp.read().decode()
-        # Extract <Count>
-        import re
-        m = re.search(r'<Count>(\d+)</Count>', xml)
-        if m:
-            return int(m.group(1))
+        url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmax=3&sort=relevance&term={query}"
+        req = urllib.request.Request(url, headers={"User-Agent":"protein-scout/1.0"})
+        with urllib.request.urlopen(req, timeout=10) as r:
+            pmids = re.findall(r'<Id>(\d+)</Id>', r.read().decode())
+        if not pmids: return []
+        # Get titles
+        url2 = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id={','.join(pmids)}&retmode=json"
+        req2 = urllib.request.Request(url2, headers={"User-Agent":"protein-scout/1.0"})
+        with urllib.request.urlopen(req2, timeout=10) as r2:
+            data = json.loads(r2.read())
+        papers = []
+        for pid in pmids:
+            info = data.get('result', {}).get(pid, {})
+            title = info.get('title', '?')
+            date = info.get('pubdate', '?')
+            src = info.get('source', '?')
+            papers.append(f"PMID {pid}: {title} ({date}) *{src}*")
+        return papers
     except Exception as e:
-        print(f"  PubMed query failed for {gene}: {e}")
-    return -1
+        return [f"*PubMed 查询失败: {e}*"]
 
-
-def pubmed_centrosome_count(gene):
-    """Get centrosome-specific PubMed count."""
-    query = urllib.parse.quote(f"{gene}[Gene] AND (centrosome OR centriole OR cilia)")
-    url = f"{EUTILS_BASE}/esearch.fcgi?db=pubmed&retmax=0&usehistory=y&term={query}"
+def alphafold_plddt(uniprot_id):
+    """Get AlphaFold pLDDT summary."""
+    if not uniprot_id: return "*无 UniProt ID*"
     try:
-        req = urllib.request.Request(url, headers={"User-Agent": "protein-scout/1.0"})
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            xml = resp.read().decode()
-        import re
-        m = re.search(r'<Count>(\d+)</Count>', xml)
-        if m:
-            return int(m.group(1))
+        url = f"https://alphafold.ebi.ac.uk/api/prediction/{uniprot_id}"
+        req = urllib.request.Request(url, headers={"User-Agent":"protein-scout/1.0"})
+        with urllib.request.urlopen(req, timeout=10) as r:
+            data = json.loads(r.read())
+        if isinstance(data, list) and data:
+            entry = data[0]
+            return f"pLDDT 数据可用 (UniProt: {uniprot_id})。PDB 模型: {entry.get('pdbUrl','N/A')[:80]}"
+        return "*AlphaFold 无该蛋白预测数据*"
     except:
-        pass
-    return -1
+        return "*AlphaFold 查询失败*"
 
-
-def download_if_image(ensg, gene, output_dir):
-    """Download HPA IF image for a gene."""
-    os.makedirs(output_dir, exist_ok=True)
+def uniprot_domains(uniprot_id):
+    """Get InterPro/Pfam/SMART domains."""
+    if not uniprot_id: return [], []
     try:
-        url = f"{HPA_BASE}/{ensg}.xml"
-        req = urllib.request.Request(url, headers={"User-Agent": "protein-scout/1.0"})
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            xml = resp.read().decode()
-        root = ET.fromstring(xml)
-        for ce in root.iter('cellExpression'):
-            if ce.get('technology', '').startswith('ICC'):
-                for img in ce.iter('image'):
-                    u = img.find('imageUrl')
-                    if u is not None and u.text:
-                        img_url = u.text
-                        img_path = os.path.join(output_dir, f"{gene}_IF_1.jpg")
-                        req2 = urllib.request.Request(img_url, headers={"User-Agent": "protein-scout/1.0"})
-                        with urllib.request.urlopen(req2, timeout=30) as resp2:
-                            with open(img_path, 'wb') as f:
-                                f.write(resp2.read())
-                        return img_path
-                break
+        url = f"https://rest.uniprot.org/uniprotkb/{uniprot_id}.json"
+        req = urllib.request.Request(url, headers={"User-Agent":"protein-scout/1.0"})
+        with urllib.request.urlopen(req, timeout=10) as r:
+            data = json.loads(r.read())
+        interpro = []
+        pfam = []
+        smart = []
+        for xref in data.get('uniProtKBCrossReferences', []):
+            db = xref.get('database','')
+            props = {p['key']: p['value'] for p in xref.get('properties', [])}
+            name = props.get('EntryName', props.get('ProteinName', '?'))
+            if db == 'InterPro': interpro.append(name)
+            elif db == 'Pfam': pfam.append(name)
+            elif db == 'SMART': smart.append(name)
+        return interpro, pfam
     except Exception as e:
-        print(f"    IF download failed for {gene}: {e}")
-    return None
+        return [], []
 
-
-def main():
-    os.makedirs("centrosome/packets", exist_ok=True)
-    os.makedirs("centrosome/logs", exist_ok=True)
-
-    with open("centrosome/data/centrosome_hpa_seed.json") as f:
-        seed = json.load(f)
-
-    all_genes = sorted(seed['genes'])
-
-    # Exclude pilot 10
-    pilot = {'AURKA','PLK4','CEP192','NEDD1','CETN2','PCM1','CCP110','CCDC14','CEP72','CEP97'}
-    genes = [g for g in all_genes if g not in pilot]
-
-    # Get ENSG mapping
-    with open('/tmp/hpa_centrosome.json') as f:
-        centro = json.load(f)
-    with open('/tmp/hpa_satellite.json') as f:
-        sat = json.load(f)
-
-    g2e = {}
-    g2info = {}
-    for item in centro + sat:
-        g = item.get('Gene', '')
-        if g in genes or g in pilot:
-            g2e[g] = item.get('Ensembl', '')
-            g2info[g] = {
-                'ensembl': item.get('Ensembl', ''),
-                'antibody': item.get('Antibody', []),
-                'if_reliability': item.get('Reliability (IF)', ''),
-                'subcell': item.get('Subcellular location', []),
-                'main_location': item.get('Subcellular main location', []),
-                'source_centrosome': g in {g2: d for g2, d in seed['gene_details'].items() if d['source_centrosome']},
-                'source_satellite': g in {g2: d for g2, d in seed['gene_details'].items() if d['source_centriolar_satellite']},
-            }
-
-    # PubMed pre-screen
-    print(f"PubMed pre-screening {len(genes)} genes...")
-    results = {}
-    passed = []
-    eliminated = []
-    errors = []
-
-    for i, gene in enumerate(genes):
-        total = pubmed_count(gene)
-        centro_count = pubmed_centrosome_count(gene) if total <= 150 else -1
-
-        info = g2info.get(gene, {})
-        packet = {
-            'gene': gene,
-            'pubmed_total': total,
-            'pubmed_centrosome': centro_count,
-            'ensembl': info.get('ensembl', ''),
-            'source': 'centrosome' if info.get('source_centrosome') else ('satellite' if info.get('source_satellite') else 'both'),
-            'harvested_at': datetime.now().isoformat()
-        }
-        results[gene] = packet
-
-        if total == -1:
-            errors.append(gene)
-            print(f"  [{i+1}/{len(genes)}] {gene}: ERROR")
-        elif total > 100:
-            eliminated.append(gene)
-            print(f"  [{i+1}/{len(genes)}] {gene}: {total} papers → ELIMINATED")
-        else:
-            passed.append(gene)
-            print(f"  [{i+1}/{len(genes)}] {gene}: {total} papers ✓")
-
-        time.sleep(SLEEP)
-
-    # Save results
-    summary = {
-        'date': datetime.now().isoformat(),
-        'total_screened': len(genes),
-        'passed': len(passed),
-        'eliminated': len(eliminated),
-        'errors': len(errors),
-        'passed_genes': passed,
-        'eliminated_genes': eliminated,
-        'error_genes': errors,
-        'results': results
-    }
-
-    with open("centrosome/data/pubmed_prescreen_results.json", 'w') as f:
-        json.dump(summary, f, indent=2, ensure_ascii=False)
-
-    with open("centrosome/data/pubmed_prescreen.tsv", 'w') as f:
-        f.write("gene\tpubmed_total\tpubmed_centrosome\tdecision\n")
-        for g in sorted(genes):
-            r = results.get(g, {})
-            dec = 'ELIMINATED' if r.get('pubmed_total', -1) > 100 else ('PASSED' if r.get('pubmed_total', -1) >= 0 else 'ERROR')
-            f.write(f"{g}\t{r.get('pubmed_total', -1)}\t{r.get('pubmed_centrosome', -1)}\t{dec}\n")
-
-    print(f"\n{'='*50}")
-    print(f"PubMed Pre-screen Complete")
-    print(f"  Total screened: {len(genes)}")
-    print(f"  Passed (≤100):  {len(passed)}")
-    print(f"  Eliminated (>100): {len(eliminated)}")
-    print(f"  Errors: {len(errors)}")
-    print(f"{'='*50}")
-
+def hpa_interactions(ensg, gene):
+    """Get HPA interaction data."""
+    try:
+        url = f"https://www.proteinatlas.org/{ensg}-{gene}/interaction"
+        req = urllib.request.Request(url, headers={"User-Agent":"protein-scout/1.0"})
+        with urllib.request.urlopen(req, timeout=10) as r:
+            html = r.read().decode()
+        # Extract interaction table
+        partners = []
+        rows = re.findall(r'<tr[^>]*>.*?</tr>', html, re.DOTALL)
+        for row in rows:
+            tds = re.findall(r'<td[^>]*>(.*?)</td>', row, re.DOTALL)
+            if len(tds) >= 3:
+                gene_name = re.sub(r'<[^>]+>', '', tds[0]).strip()
+                datasets = re.sub(r'<[^>]+>', '', ' '.join(tds[1:])).strip()
+                if gene_name and gene_name != gene:
+                    partners.append(f"{gene_name} ({datasets[:60]})")
+        return partners[:10]
+    except:
+        return []
 
 if __name__ == "__main__":
-    main()
+    # Standalone test
+    print("PubMed:", pubmed_papers("CEP152"))
+    print("AlphaFold:", alphafold_plddt("Q8TEP8"))
+    print("InterPro:", uniprot_domains("Q8TEP8")[0][:5])

@@ -45,11 +45,14 @@ HPA 定位: Nucleoplasm, Centriolar satellite。HPA IF 可靠性: approved。
 
 - **文献总数:** 53 篇
 - **研究量评估:** 中等研究量
-- *关键文献待人工调研。*
+- *PubMed 文献待查询*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: A6NHT5)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-A6NHT5-F1-model_v6.pdb
+
+*InterPro: HD, HD_metazoa, HMX_Homeobox_TF, Homeobox_CS, Homeodomain-like_sf*
+*Pfam: Homeodomain*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

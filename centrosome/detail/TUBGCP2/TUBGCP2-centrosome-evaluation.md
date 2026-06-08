@@ -45,11 +45,16 @@ HPA 定位: Nucleoplasm, Centrosome, Basal body。HPA IF 可靠性: supported。
 
 - **文献总数:** 29 篇
 - **研究量评估:** 低研究量
-- *关键文献待人工调研。*
+- 1. PMID 40073758: Anti-Cancer Potential of a new Derivative of Caffeic Acid Phenethyl Ester targeting the Centrosome. (2025 Apr) *Redox Biol*
+2. PMID 36774386: Epigenetic alterations impede epithelial-mesenchymal transition by modulating centrosome amplification and Myc/RAS axis in triple negative breast cancer cells. (2023 Feb 11) *Sci Rep*
+3. PMID 32846968: Subcellular Localization and Mitotic Interactome Analyses Identify SIRT4 as a Centrosomally Localized and Microtubule Associated Protein. (2020 Aug 24) *Cells*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q9BSJ2)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q9BSJ2-F1-model_v6.pdb
+
+*InterPro: GCP, GCP_C, GCP_C_sf, GCP_N*
+*Pfam: GCP_C_terminal, GCP_N_terminal*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

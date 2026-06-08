@@ -45,11 +45,16 @@ HPA 定位: Nucleoplasm, Centriolar satellite, Basal body。HPA IF 可靠性: ap
 
 - **文献总数:** 16 篇
 - **研究量评估:** 低研究量
-- *关键文献待人工调研。*
+- 1. PMID 40270641: CEP162: A critical regulator of ciliary transition zone assembly and its implications in ciliopathies. (2025 Jun) *J Cell Commun Signal*
+2. PMID 36862503: CEP162 deficiency causes human retinal degeneration and reveals a dual role in ciliogenesis and neurogenesis. (2023 Apr 17) *J Clin Invest*
+3. PMID 38442096: Cep131-Cep162 and Cby-Fam92 complexes cooperatively maintain Cep290 at the basal body and contribute to ciliogenesis initiation. (2024 Mar) *PLoS Biol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q5TB80)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q5TB80-F1-model_v6.pdb
+
+*InterPro: CEP162-like*
+*Pfam: *待 Pfam 查询**
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

@@ -45,11 +45,16 @@ HPA 定位: Cell Junctions, Centriolar satellite, Cytosol。HPA IF 可靠性: su
 
 - **文献总数:** 54 篇
 - **研究量评估:** 中等研究量
-- *关键文献待人工调研。*
+- 1. PMID 32143977: Endocytic membrane trafficking in the control of centrosome function. (2020 Aug) *Curr Opin Cell Biol*
+2. PMID 31615969: MICAL-L1 coordinates ciliogenesis by recruiting EHD1 to the primary cilium. (2019 Nov 14) *J Cell Sci*
+3. PMID 35510564: Differential requirements for the Eps15 homology domain proteins EHD4 and EHD2 in the regulation of mammalian ciliogenesis. (2022 Jul) *Traffic*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q8N3F8)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q8N3F8-F1-model_v6.pdb
+
+*InterPro: bMERB_dom, CH_dom, CH_dom_sf, F-actin_Monoox_Mical, Znf_LIM*
+*Pfam: bMERB_dom, CH, LIM*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

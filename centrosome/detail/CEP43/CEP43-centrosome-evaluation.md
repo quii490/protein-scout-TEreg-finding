@@ -45,11 +45,16 @@ HPA 定位: Centriolar satellite, Centrosome, Basal body。HPA IF 可靠性: sup
 
 - **文献总数:** 26 篇
 - **研究量评估:** 低研究量
-- *关键文献待人工调研。*
+- 1. PMID 38991980: Architecture of RabL2-associated complexes at the ciliary base: A structural modeling perspective: Deciphering the structural organization of ciliary RabL2 complexes. (2024 Sep) *Bioessays*
+2. PMID 23554904: FOP is a centriolar satellite protein involved in ciliogenesis. (2013) *PLoS One*
+3. PMID 26905588: Polymorphisms of the centrosomal gene (FGFR1OP) and lung cancer risk: a meta-analysis of 14,463 cases and 44,188 controls. (2016 Mar) *Carcinogenesis*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: O95684)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-O95684-F1-model_v6.pdb
+
+*InterPro: FOP_dimerisation-dom_N, LisH*
+*Pfam: FOP_dimer*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

@@ -45,11 +45,15 @@ HPA 定位: Nucleoplasm, Centrosome。HPA IF 可靠性: approved。
 
 - **文献总数:** 51 篇
 - **研究量评估:** 中等研究量
-- *关键文献待人工调研。*
+- 1. PMID 29061732: Sld5 Ensures Centrosomal Resistance to Congression Forces by Preserving Centriolar Satellites. (2018 Jan 15) *Mol Cell Biol*
+2. PMID 42182163: SLD5/GINS4 controls dynein-dependent centrosome maturation and exposes a candidate mitotic vulnerability in cancer. (2026 May 11) *bioRxiv*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q9BRT9)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q9BRT9-F1-model_v6.pdb
+
+*InterPro: GINS_A, GINS_bundle-like_dom_sf, GINS_Sld5, SLD5_C, Sld5_GINS_A*
+*Pfam: Sld5, SLD5_C*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

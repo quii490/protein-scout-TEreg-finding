@@ -45,11 +45,16 @@ HPA 定位: Centrosome, Cytosol, Mid piece。HPA IF 可靠性: approved。
 
 - **文献总数:** 21 篇
 - **研究量评估:** 低研究量
-- *关键文献待人工调研。*
+- 1. PMID 41264116: The essential role of cytoskeleton and ciliary abnormalities in the development of congenital pulmonary airway malformations. (2025 Nov 20) *Pediatr Surg Int*
+2. PMID 25412847: Cross-reactivity of the BRAF VE1 antibody with epitopes in axonemal dyneins leads to staining of cilia. (2015 Apr) *Mod Pathol*
+3. PMID 8666668: Mammalian cells express three distinct dynein heavy chains that are localized to different cytoplasmic organelles. (1996 May) *J Cell Biol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q6ZR08)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q6ZR08-4-F1-model_v6.pdb
+
+*InterPro: AAA+_ATPase, AAA_6, AAA_lid_11, AAA_lid_11_sf, DHC, DNAH3_AAA_lid_1, Dynein_2_N, Dynein_AAA1S*
+*Pfam: AAA_6, AAA_7, AAA_8, AAA_lid_1, AAA_lid_11, DHC_N2, Dynein_AAA_lid, Dynein_C*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

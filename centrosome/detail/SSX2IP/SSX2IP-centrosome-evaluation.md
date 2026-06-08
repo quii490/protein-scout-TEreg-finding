@@ -45,11 +45,16 @@ HPA 定位: Centriolar satellite, Centrosome, Basal body。HPA IF 可靠性: sup
 
 - **文献总数:** 49 篇
 - **研究量评估:** 中等研究量
-- *关键文献待人工调研。*
+- 1. PMID 25833712: Centriolar satellite- and hMsd1/SSX2IP-dependent microtubule anchoring is critical for centriole assembly. (2015 Jun 1) *Mol Biol Cell*
+2. PMID 24397932: Msd1/SSX2IP-dependent microtubule anchorage ensures spindle orientation and primary cilia formation. (2014 Feb) *EMBO Rep*
+3. PMID 26545777: The conserved Wdr8-hMsd1/SSX2IP complex localises to the centrosome and ensures proper spindle length and orientation. (2015 Dec 4-11) *Biochem Biophys Res Commun*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q9Y2D8)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q9Y2D8-F1-model_v6.pdb
+
+*InterPro: Adhesion_Centrosome_assoc, Afadin/alpha-actinin-bd*
+*Pfam: ADIP*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

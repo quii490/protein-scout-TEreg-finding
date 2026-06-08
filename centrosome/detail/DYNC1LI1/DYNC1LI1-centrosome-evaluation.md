@@ -45,11 +45,16 @@ HPA 定位: Nucleoplasm, Plasma membrane, Centrosome。HPA IF 可靠性: uncerta
 
 - **文献总数:** 58 篇
 - **研究量评估:** 中等研究量
-- *关键文献待人工调研。*
+- 1. PMID 33223314: Developmental toxicity of the novel PFOS alternative OBS in developing zebrafish: An emphasis on cilia disruption. (2021 May 5) *J Hazard Mater*
+2. PMID 34709360: Phosphorylation and Pin1 binding to the LIC1 subunit selectively regulate mitotic dynein functions. (2021 Dec 6) *J Cell Biol*
+3. PMID 10893222: Light intermediate chain 1 defines a functional subfraction of cytoplasmic dynein which binds to pericentrin. (2000 Oct 20) *J Biol Chem*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q9Y6G9)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q9Y6G9-F1-model_v6.pdb
+
+*InterPro: Dynein1_light_intermed_chain, Dynein_light_int_chain, P-loop_NTPase*
+*Pfam: DLIC*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

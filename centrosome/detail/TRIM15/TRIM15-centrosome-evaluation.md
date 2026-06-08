@@ -45,11 +45,14 @@ HPA 定位: Centriolar satellite, Cytosol。HPA IF 可靠性: approved。
 
 - **文献总数:** 42 篇
 - **研究量评估:** 中等研究量
-- *关键文献待人工调研。*
+- *PubMed 文献待查询*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q9C019)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q9C019-F1-model_v6.pdb
+
+*InterPro: B30.2/SPRY, B30.2/SPRY_sf, Butyrophylin_SPRY, ConA-like_dom_sf, PRY, SPRY_dom, TRIM/RBCC, Znf_B-box*
+*Pfam: PRY, SPRY, zf-B_box, zf-C3HC4*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

@@ -45,11 +45,16 @@ HPA 定位: Nucleoplasm, Centriolar satellite, Centrosome。HPA IF 可靠性: ap
 
 - **文献总数:** 34 篇
 - **研究量评估:** 中等研究量
-- *关键文献待人工调研。*
+- 1. PMID 20301301: Primary Ciliary Dyskinesia. (1993) **
+2. PMID 15845866: Identification and analysis of axonemal dynein light chain 1 in primary ciliary dyskinesia patients. (2005 Jul) *Am J Respir Cell Mol Biol*
+3. PMID 39180133: Characterization of pathogenic genetic variants in Russian patients with primary ciliary dyskinesia using gene panel sequencing and transcript analysis. (2024 Aug 23) *Orphanet J Rare Dis*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q4LDG9)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q4LDG9-F1-model_v6.pdb
+
+*InterPro: Leu-rich_rpt, Leu-rich_rpt_4, LRR_dom_sf*
+*Pfam: LRR_4*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

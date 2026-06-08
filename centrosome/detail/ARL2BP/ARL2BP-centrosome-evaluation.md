@@ -45,11 +45,16 @@ HPA 定位: Nucleoplasm, Centrosome, Basal body。HPA IF 可靠性: supported。
 
 - **文献总数:** 42 篇
 - **研究量评估:** 中等研究量
-- *关键文献待人工调研。*
+- 1. PMID 20301590: Nonsyndromic Retinitis Pigmentosa Overview. (1993) **
+2. PMID 29718757: ARL2BP, a protein linked to retinitis pigmentosa, is needed for normal photoreceptor cilia doublets and outer segment structure. (2018 Jul 1) *Mol Biol Cell*
+3. PMID 23849777: Mutations in ARL2BP, encoding ADP-ribosylation-factor-like 2 binding protein, cause autosomal-recessive retinitis pigmentosa. (2013 Aug 8) *Am J Hum Genet*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q9Y2Y0)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q9Y2Y0-F1-model_v6.pdb
+
+*InterPro: ARL2BP, BART_dom, BART_sf*
+*Pfam: ARL2_Bind_BART*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

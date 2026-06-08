@@ -45,11 +45,14 @@ HPA 定位: Centriolar satellite, Cytosol。HPA IF 可靠性: approved。
 
 - **文献总数:** 41 篇
 - **研究量评估:** 中等研究量
-- *关键文献待人工调研。*
+- *PubMed 文献待查询*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q9Y2G3)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q9Y2G3-F1-model_v6.pdb
+
+*InterPro: ATPase_P-typ_cyto_dom_N, ATPase_P-typ_P_site, ATPase_P-typ_TM_dom_sf, ATPase_P-typ_transduc_dom_A_sf, ATPase_P-type_domA, HAD-like_sf, HAD_sf, P-type_ATPase_IV*
+*Pfam: Cation_ATPase, E1-E2_ATPase, PhoLip_ATPase_C, PhoLip_ATPase_N*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

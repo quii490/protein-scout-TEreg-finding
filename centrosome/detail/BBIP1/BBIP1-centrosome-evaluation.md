@@ -45,11 +45,16 @@ HPA 定位: Nucleoplasm, Vesicles, Centrosome。HPA IF 可靠性: approved。
 
 - **文献总数:** 12 篇
 - **研究量评估:** 低研究量
-- *关键文献待人工调研。*
+- 1. PMID 20301537: Bardet-Biedl Syndrome Overview. (1993) **
+2. PMID 32055034: The morbid genome of ciliopathies: an update. (2020 Jun) *Genet Med*
+3. PMID 24026985: Exome sequencing of Bardet-Biedl syndrome patient identifies a null mutation in the BBSome subunit BBIP1 (BBS18). (2014 Feb) *J Med Genet*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: A8MTZ0)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-A8MTZ0-F1-model_v6.pdb
+
+*InterPro: BBIP10*
+*Pfam: BBIP10*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

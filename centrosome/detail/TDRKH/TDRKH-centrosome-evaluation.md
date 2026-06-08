@@ -45,11 +45,14 @@ HPA 定位: Centrosome, Cytosol。HPA IF 可靠性: approved。
 
 - **文献总数:** 48 篇
 - **研究量评估:** 中等研究量
-- *关键文献待人工调研。*
+- *PubMed 文献待查询*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q9Y2W6)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q9Y2W6-F1-model_v6.pdb
+
+*InterPro: KH-I_TDRKH_rpt1, KH-I_TDRKH_rpt2, KH_dom, KH_dom_type_1, KH_dom_type_1_sf, SNase_OB-fold_sf, TDRD2-like_tudor, Tudor*
+*Pfam: KH_1, TUDOR*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

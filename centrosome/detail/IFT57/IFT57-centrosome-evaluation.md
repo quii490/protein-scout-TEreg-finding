@@ -45,11 +45,16 @@ HPA 定位: Golgi apparatus, Primary cilium, Primary cilium transition zone。HP
 
 - **文献总数:** 67 篇
 - **研究量评估:** 较多文献
-- *关键文献待人工调研。*
+- 1. PMID 19517571: Zebrafish ift57, ift88, and ift172 intraflagellar transport mutants disrupt cilia but do not affect hedgehog signaling. (2009 Jul) *Dev Dyn*
+2. PMID 40273360: Defective IFT57 underlies a novel cause of Bardet-Biedl syndrome. (2025 Jun 18) *Hum Mol Genet*
+3. PMID 40728639: ZO-2 is a scaffold at the centriole and mitotic spindle poles that enhances microtubule stability and supports the proper development of mitotic spindles and cilia. (2025 Oct) *Cell Tissue Res*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q9NWB7)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q9NWB7-F1-model_v6.pdb
+
+*InterPro: Intra-flagellar_transport_57*
+*Pfam: IFT57*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

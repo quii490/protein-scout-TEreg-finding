@@ -45,11 +45,14 @@ HPA 定位: Nucleoplasm, Cytokinetic bridge, Midbody。HPA IF 可靠性: support
 
 - **文献总数:** 73 篇
 - **研究量评估:** 较多文献
-- *关键文献待人工调研。*
+- 1. PMID 10473639: Biparental inheritance of gamma-tubulin during human fertilization: molecular reconstitution of functional zygotic centrosomes in inseminated human oocytes and in cell-free extracts nucleated by human sperm. (1999 Sep) *Mol Biol Cell*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q96Q89)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q96Q89-F1-model_v6.pdb
+
+*InterPro: *待 InterPro 查询**
+*Pfam: *待 Pfam 查询**
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

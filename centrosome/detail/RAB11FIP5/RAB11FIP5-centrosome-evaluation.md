@@ -45,11 +45,15 @@ HPA 定位: Vesicles, Primary cilium, Centriolar satellite。HPA IF 可靠性: a
 
 - **文献总数:** 42 篇
 - **研究量评估:** 中等研究量
-- *关键文献待人工调研。*
+- 1. PMID 41225582: KLC3 regulates axonemal glutamylation via RAB11/FIP5 in polycystic kidney disease. (2025 Nov 12) *Cell Commun Signal*
+2. PMID 34638806: Rab11-FIP1 and Rab11-FIP5 Regulate pIgR/pIgA Transcytosis through TRIM21-Mediated Polyubiquitination. (2021 Sep 28) *Int J Mol Sci*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q9BXF6)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q9BXF6-F1-model_v6.pdb
+
+*InterPro: C2_dom, C2_domain_sf, FIP-RBD_C_sf, FIP_classI, Rab-bd_FIP-RBD*
+*Pfam: C2, RBD-FIP*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

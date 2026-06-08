@@ -45,11 +45,15 @@ HPA 定位: Nucleoplasm, Plasma membrane, Primary cilium。HPA IF 可靠性: sup
 
 - **文献总数:** 83 篇
 - **研究量评估:** 较多文献
-- *关键文献待人工调研。*
+- 1. PMID 23593366: Quantitative peptidomics of Purkinje cell degeneration mice. (2013) *PLoS One*
+2. PMID 23085998: Functional segregation and emerging role of cilia-related cytosolic carboxypeptidases (CCPs). (2013 Feb) *FASEB J*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q9UPW5)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q9UPW5-F1-model_v6.pdb
+
+*InterPro: ARM-like, ARM-type_fold, CBPC1/4, Cytosolic_carboxypeptidase, Pepdidase_M14_N, Peptidase_M14*
+*Pfam: Pepdidase_M14_N, Peptidase_M14, TPR_CCP1_N*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

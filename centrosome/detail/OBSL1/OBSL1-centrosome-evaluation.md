@@ -45,11 +45,16 @@ HPA 定位: Centrosome。HPA IF 可靠性: approved。
 
 - **文献总数:** 89 篇
 - **研究量评估:** 较多文献
-- *关键文献待人工调研。*
+- 1. PMID 27654294: The Cytoskeletal Adaptor Obscurin-Like 1 Interacts with the Human Papillomavirus 16 (HPV16) Capsid Protein L2 and Is Required for HPV16 Endocytosis. (2016 Dec 1) *J Virol*
+2. PMID 31898234: Cullin-RING E3 Ubiquitin Ligase 7 in Growth Control and Cancer. (2020) *Adv Exp Med Biol*
+3. PMID 24793695: The 3M complex maintains microtubule and genome integrity. (2014 Jun 5) *Mol Cell*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: O75147)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-O75147-F1-model_v6.pdb
+
+*InterPro: FN3_dom, FN3_sf, Ig-like_dom, Ig-like_dom_sf, Ig-like_fold, Ig_I-set, Ig_sub, Ig_sub2*
+*Pfam: I-set, Ig_3*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

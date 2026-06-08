@@ -45,11 +45,16 @@ HPA 定位: Nucleoplasm, Centriolar satellite, Basal body。HPA IF 可靠性: ap
 
 - **文献总数:** 9 篇
 - **研究量评估:** 极低研究量
-- *关键文献待人工调研。*
+- 1. PMID 40585997: A subset of evolutionarily conserved centriolar satellite core components is crucial for sperm flagellum biogenesis. (2025) *Theranostics*
+2. PMID 24816561: Ccdc13 is a novel human centriolar satellite protein required for ciliogenesis and genome stability. (2014 Jul 1) *J Cell Sci*
+3. PMID 40492112: Ccdc13 is essential for the assembly of ciliary central microtubules. (2025 Jun) *Natl Sci Rev*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q8IYE1)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q8IYE1-F1-model_v6.pdb
+
+*InterPro: CCDC13*
+*Pfam: *待 Pfam 查询**
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

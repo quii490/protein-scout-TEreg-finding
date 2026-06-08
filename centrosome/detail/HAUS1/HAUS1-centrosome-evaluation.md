@@ -45,11 +45,14 @@ HPA 定位: Centrosome, Cytosol, Mid piece。HPA IF 可靠性: supported。
 
 - **文献总数:** 18 篇
 - **研究量评估:** 低研究量
-- *关键文献待人工调研。*
+- 1. PMID 36379263: Profiling the male germline genome to unravel its reproductive potential. (2023 Feb) *Fertil Steril*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q96CS2)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q96CS2-F1-model_v6.pdb
+
+*InterPro: HAUS1*
+*Pfam: HAUS1*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

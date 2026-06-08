@@ -45,11 +45,16 @@ HPA 定位: Centriolar satellite, Cytosol。HPA IF 可靠性: approved。
 
 - **文献总数:** 62 篇
 - **研究量评估:** 较多文献
-- *关键文献待人工调研。*
+- 1. PMID 39543170: An interaction network of inner centriole proteins organised by POC1A-POC1B heterodimer crosslinks ensures centriolar integrity. (2024 Nov 14) *Nat Commun*
+2. PMID 26337392: MDM1 is a microtubule-binding protein that negatively regulates centriole duplication. (2015 Nov 1) *Mol Biol Cell*
+3. PMID 27658201: Molecular Evolution of MDM1, a "Duplication-Resistant" Gene in Vertebrates. (2016) *PLoS One*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q8TC05)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q8TC05-F1-model_v6.pdb
+
+*InterPro: MDM1*
+*Pfam: MDM1*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

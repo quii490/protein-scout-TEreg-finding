@@ -45,11 +45,16 @@ HPA 定位: Vesicles, Primary cilium, Centriolar satellite。HPA IF 可靠性: a
 
 - **文献总数:** 54 篇
 - **研究量评估:** 中等研究量
-- *关键文献待人工调研。*
+- 1. PMID 20301500: Joubert Syndrome. (1993) **
+2. PMID 36752787: CSPP1 stabilizes growing microtubule ends and damaged lattices from the luminal side. (2023 Apr 3) *J Cell Biol*
+3. PMID 24360808: Mutations in CSPP1 cause primary cilia abnormalities and Joubert syndrome with or without Jeune asphyxiating thoracic dystrophy. (2014 Jan 2) *Am J Hum Genet*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q1MSJ5)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q1MSJ5-F1-model_v6.pdb
+
+*InterPro: CSPP1, CSPP1_C*
+*Pfam: CSPP1_C*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

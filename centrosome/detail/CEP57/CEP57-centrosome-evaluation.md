@@ -45,11 +45,16 @@ HPA 定位: Centriolar satellite, Centrosome, Cytosol。HPA IF 可靠性: suppor
 
 - **文献总数:** 52 篇
 - **研究量评估:** 中等研究量
-- *关键文献待人工调研。*
+- 1. PMID 33492359: Cep57 and Cep57L1 maintain centriole engagement in interphase to ensure centriole duplication cycle. (2021 Mar 1) *J Cell Biol*
+2. PMID 30804344: The Cep57-pericentrin module organizes PCM expansion and centriole engagement. (2019 Feb 25) *Nat Commun*
+3. PMID 32503940: Cep57 and Cep57l1 function redundantly to recruit the Cep63-Cep152 complex for centriole biogenesis. (2020 Jul 3) *J Cell Sci*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q86XR8)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q86XR8-F1-model_v6.pdb
+
+*InterPro: Centrosomal_MT-associated, Cep57_CLD, Cep57_MT-bd_dom*
+*Pfam: Cep57_CLD, Cep57_MT_bd*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

@@ -45,11 +45,16 @@ HPA 定位: Nucleoplasm, Centrosome。HPA IF 可靠性: supported。
 
 - **文献总数:** 67 篇
 - **研究量评估:** 较多文献
-- *关键文献待人工调研。*
+- 1. PMID 26151225: The novel function of JADE1S in cytokinesis of epithelial cells. (2015) *Cell Cycle*
+2. PMID 40079114: Wnt5a regulates the expression of developmental genes in the adult retina following optic nerve crush injury. (2025 Oct) *Histol Histopathol*
+3. PMID 25100726: Casein kinase 1 α phosphorylates the Wnt regulator Jade-1 and modulates its activity. (2014 Sep 19) *J Biol Chem*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q6IE81)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q6IE81-F1-model_v6.pdb
+
+*InterPro: Enhancer_polycomb-like_N, EPHD, Histone_Mod_Regulator, Jade-1_PHD, Zinc_finger_PHD-type_CS, Znf_FYVE_PHD, Znf_PHD, Znf_PHD-finger*
+*Pfam: EPL1, PHD_2, zf-HC5HC2H_2*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

@@ -45,11 +45,16 @@ HPA 定位: Vesicles, Centriolar satellite, Centrosome。HPA IF 可靠性: appro
 
 - **文献总数:** 85 篇
 - **研究量评估:** 较多文献
-- *关键文献待人工调研。*
+- 1. PMID 23966166: ZNF365 promotes stalled replication forks recovery to maintain genome stability. (2013 Sep 1) *Cell Cycle*
+2. PMID 25595671: Molecular basis of major psychiatric diseases such as schizophrenia and depression. (2015 Jun) *Anat Sci Int*
+3. PMID 19191256: Association studies and gene expression analyses of the DISC1-interacting molecules, pericentrin 2 (PCNT2) and DISC1-binding zinc finger protein (DBZ), with schizophrenia and with bipolar disorder. (2009 Oct 5) *Am J Med Genet B Neuropsychiatr Genet*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q70YC5)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q70YC5-F1-model_v6.pdb
+
+*InterPro: FBX41/ZN365_Znf-C2H2, GenomicStab_NeuMorph_Reg*
+*Pfam: zf-C2H2_FBX41*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

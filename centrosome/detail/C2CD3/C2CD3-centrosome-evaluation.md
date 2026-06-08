@@ -45,11 +45,16 @@ HPA 定位: Nucleoplasm, Centrosome, Basal body。HPA IF 可靠性: supported。
 
 - **文献总数:** 42 篇
 - **研究量评估:** 中等研究量
-- *关键文献待人工调研。*
+- 1. PMID 20301500: Joubert Syndrome. (1993) **
+2. PMID 30988386: CEP120 interacts with C2CD3 and Talpid3 and is required for centriole appendage assembly and ciliogenesis. (2019 Apr 15) *Sci Rep*
+3. PMID 41364719: The luminal ring protein C2CD3 acts as a radial in-to-out organizer of the distal centriole and appendages. (2025 Dec) *PLoS Biol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+*AlphaFold 查询失败*
+
+*InterPro: C2_C2CD3, C2_C2CD3_N, C2_dom, C2_domain_sf*
+*Pfam: C2, C2_C2CD3_N*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

@@ -45,11 +45,16 @@ HPA 定位: Nucleoplasm, Centriolar satellite, Cytosol。HPA IF 可靠性: appro
 
 - **文献总数:** 33 篇
 - **研究量评估:** 中等研究量
-- *关键文献待人工调研。*
+- 1. PMID 35961787: KLC3 Regulates Ciliary Trafficking and Cyst Progression in CILK1 Deficiency-Related Polycystic Kidney Disease. (2022 Sep) *J Am Soc Nephrol*
+2. PMID 41225582: KLC3 regulates axonemal glutamylation via RAB11/FIP5 in polycystic kidney disease. (2025 Nov 12) *Cell Commun Signal*
+3. PMID 28003339: LRGUK1 is part of a multiprotein complex required for manchette function and male fertility. (2017 Mar) *FASEB J*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q6P597)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q6P597-F1-model_v6.pdb
+
+*InterPro: Kinesin_light, TPR-like_helical_dom_sf, TPR_rpt*
+*Pfam: TPR_10, TPR_12*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

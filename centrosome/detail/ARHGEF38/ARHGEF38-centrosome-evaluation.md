@@ -45,11 +45,14 @@ HPA 定位: Nucleoplasm, Centrosome。HPA IF 可靠性: approved。
 
 - **文献总数:** 16 篇
 - **研究量评估:** 低研究量
-- *关键文献待人工调研。*
+- *PubMed 文献待查询*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q9NXL2)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q9NXL2-F1-model_v6.pdb
+
+*InterPro: AH/BAR_dom_sf, BAR_dom, DBL_dom_sf, DH_dom, Dynamin-Rho_GEF, SH3-like_dom_sf, SH3_domain*
+*Pfam: BAR, RhoGEF, SH3_2, SH3_9*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

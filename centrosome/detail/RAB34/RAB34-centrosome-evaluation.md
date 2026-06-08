@@ -45,11 +45,16 @@ HPA 定位: Nucleoplasm, Primary cilium, Centrosome。HPA IF 可靠性: approved
 
 - **文献总数:** 86 篇
 - **研究量评估:** 较多文献
-- *关键文献待人工调研。*
+- 1. PMID 38852507: Ciliary and non-ciliary functions of Rab34 during craniofacial bone development. (2024 Sep 10) *Biochem Biophys Res Commun*
+2. PMID 37384395: Pathogenic RAB34 variants impair primary cilium assembly and cause a novel oral-facial-digital syndrome. (2023 Sep 5) *Hum Mol Genet*
+3. PMID 37619988: Compound heterozygous variants in RAB34 in a rare skeletal ciliopathy syndrome. (2024 Jan) *Clin Genet*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: P0DI83)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-P0DI83-F1-model_v6.pdb
+
+*InterPro: *待 InterPro 查询**
+*Pfam: *待 Pfam 查询**
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

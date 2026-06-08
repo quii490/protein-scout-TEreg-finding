@@ -45,11 +45,14 @@ HPA 定位: Vesicles, Centriolar satellite。HPA IF 可靠性: enhanced。
 
 - **文献总数:** 52 篇
 - **研究量评估:** 中等研究量
-- *关键文献待人工调研。*
+- *PubMed 文献待查询*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: O94886)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-O94886-F1-model_v6.pdb
+
+*InterPro: Csc1-like, CSC1/OSCA1-like_7TM, CSC1/OSCA1-like_cyt, CSC1/OSCA1-like_N, Nucleotide-bd_a/b_plait_sf, RBD_domain_sf*
+*Pfam: PHM7_cyt, RSN1_7TM, RSN1_TM*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

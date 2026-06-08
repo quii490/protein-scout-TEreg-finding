@@ -45,11 +45,14 @@ HPA 定位: Centrosome。HPA IF 可靠性: approved。
 
 - **文献总数:** 35 篇
 - **研究量评估:** 中等研究量
-- *关键文献待人工调研。*
+- 1. PMID 36672247: PDE6D Mediates Trafficking of Prenylated Proteins NIM1K and UBL3 to Primary Cilia. (2023 Jan 13) *Cells*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: O95164)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-O95164-F1-model_v6.pdb
+
+*InterPro: MUB, Ubiquitin-like_dom, Ubiquitin-like_domsf, UBL3-like, UBL3-like_ubiquitin_dom, UBL3_Ubl_met*
+*Pfam: Rad60-SLD_2*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

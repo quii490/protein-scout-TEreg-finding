@@ -45,11 +45,15 @@ HPA 定位: Centrosome, Cytosol。HPA IF 可靠性: approved。
 
 - **文献总数:** 14 篇
 - **研究量评估:** 低研究量
-- *关键文献待人工调研。*
+- 1. PMID 20861304: The gammaTuRC revisited: a comparative analysis of interphase and mitotic human gammaTuRC redefines the set of core components and identifies the novel subunit GCP8. (2010 Nov 15) *Mol Biol Cell*
+2. PMID 33754417: MZT2A promotes NSCLC viability and invasion by increasing Akt phosphorylation via the MOZART2 domain. (2021 Jun) *Cancer Sci*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q6P582)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q6P582-F1-model_v6.pdb
+
+*InterPro: MOZART2*
+*Pfam: MOZART2*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

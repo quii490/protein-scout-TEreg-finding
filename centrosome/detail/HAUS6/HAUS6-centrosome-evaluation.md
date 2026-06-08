@@ -45,11 +45,16 @@ HPA 定位: Nuclear speckles, Centriolar satellite, Cytosol。HPA IF 可靠性: 
 
 - **文献总数:** 24 篇
 - **研究量评估:** 低研究量
-- *关键文献待人工调研。*
+- 1. PMID 35883570: Genetic Control of Kinetochore-Driven Microtubule Growth in Drosophila Mitosis. (2022 Jul 6) *Cells*
+2. PMID 30044976: The HAUS Complex Is a Key Regulator of Non-centrosomal Microtubule Organization during Neuronal Development. (2018 Jul 24) *Cell Rep*
+3. PMID 31113824: Augmin accumulation on long-lived microtubules drives amplification and kinetochore-directed growth. (2019 Jul 1) *J Cell Biol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q7Z4H7)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q7Z4H7-F1-model_v6.pdb
+
+*InterPro: HAUS_6, HAUS_6_N*
+*Pfam: HAUS6_N*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

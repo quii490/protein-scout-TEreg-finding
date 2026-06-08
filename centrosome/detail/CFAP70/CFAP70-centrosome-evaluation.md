@@ -45,11 +45,16 @@ HPA 定位: Centrosome, Basal body, Cytosol。HPA IF 可靠性: approved。
 
 - **文献总数:** 17 篇
 - **研究量评估:** 低研究量
-- *关键文献待人工调研。*
+- 1. PMID 41264116: The essential role of cytoskeleton and ciliary abnormalities in the development of congenital pulmonary airway malformations. (2025 Nov 20) *Pediatr Surg Int*
+2. PMID 39853433: CFAP65 is essential for C2a projection integrity in axonemes: implications for organ-specific ciliary dysfunction and infertility. (2025 Jan 24) *Cell Mol Life Sci*
+3. PMID 30158508: CFAP70 Is a Novel Axoneme-Binding Protein That Localizes at the Base of the Outer Dynein Arm and Regulates Ciliary Motility. (2018 Aug 29) *Cells*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+*无 UniProt ID*
+
+*InterPro: *待 InterPro 查询**
+*Pfam: *待 Pfam 查询**
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

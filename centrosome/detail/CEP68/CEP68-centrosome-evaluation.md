@@ -45,11 +45,16 @@ HPA 定位: Nucleoplasm, Cell Junctions, Centriolar satellite。HPA IF 可靠性
 
 - **文献总数:** 32 篇
 - **研究量评估:** 中等研究量
-- *关键文献待人工调研。*
+- 1. PMID 41683918: Atrial Fibrillation and Primary Cilia-Associated Genes: The Role of CEP68. (2026 Feb 3) *Int J Mol Sci*
+2. PMID 18042621: Cep68 and Cep215 (Cdk5rap2) are required for centrosome cohesion. (2007 Dec 15) *J Cell Sci*
+3. PMID 24554434: Centlein mediates an interaction between C-Nap1 and Cep68 to maintain centrosome cohesion. (2014 Apr 15) *J Cell Sci*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q76N32)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q76N32-F1-model_v6.pdb
+
+*InterPro: *待 InterPro 查询**
+*Pfam: *待 Pfam 查询**
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

@@ -45,11 +45,16 @@ HPA 定位: Primary cilium, Centrosome, Basal body。HPA IF 可靠性: supported
 
 - **文献总数:** 74 篇
 - **研究量评估:** 较多文献
-- *关键文献待人工调研。*
+- 1. PMID 37019904: A stress-induced cilium-to-PML-NB route drives senescence initiation. (2023 Apr 3) *Nat Commun*
+2. PMID 39266565: Transiently formed nucleus-to-cilium microtubule arrays mediate senescence initiation in a KIFC3-dependent manner. (2024 Sep 12) *Nat Commun*
+3. PMID 32366837: TALPID3 and ANKRD26 selectively orchestrate FBF1 localization and cilia gating. (2020 May 4) *Nat Commun*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q8TES7)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q8TES7-F1-model_v6.pdb
+
+*InterPro: FBF1, FBF1_C*
+*Pfam: FBF1*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

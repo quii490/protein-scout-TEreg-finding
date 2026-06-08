@@ -37,10 +37,13 @@ HPA 定位: Plasma membrane, Centrosome。来源: https://www.proteinatlas.org/E
 ## 4. PubMed 文献证据
 - **文献总数:** 57 篇
 - **研究量评估:** 中等研究量
-- *关键文献待人工调研。*
+- 1. PMID 30414097: A cancer tissue-specific FAM72 expression profile defines a novel glioblastoma multiform (GBM) gene-mutation signature. (2019 Jan) *J Neurooncol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: O75747)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-O75747-F1-model_v6.pdb
+
+*InterPro: ARM-type_fold, C2_dom, C2_domain_sf, Kinase-like_dom_sf, PI3-kinase_C2_gamma_cat, PI3/4_kinase, PI3/4_kinase_cat_dom, PI3/4_kinase_cat_sf*
+*Pfam: C2, PI3_PI4_kinase, PI3K_C2, PI3K_rbd, PI3Ka, PX*
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 
 ## 6. PPI / 蛋白互作网络

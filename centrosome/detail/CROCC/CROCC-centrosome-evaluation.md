@@ -45,11 +45,16 @@ HPA 定位: Plasma membrane, Primary cilium transition zone, Centrosome。HPA IF
 
 - **文献总数:** 54 篇
 - **研究量评估:** 中等研究量
-- *关键文献待人工调研。*
+- 1. PMID 39964840: Mitochondrial control of ciliary gene expression and structure in striatal neurons. (2025 Feb 18) *J Physiol*
+2. PMID 36334595: CROCCP2 acts as a human-specific modifier of cilia dynamics and mTOR signaling to promote expansion of cortical progenitors. (2023 Jan 4) *Neuron*
+3. PMID 28017616: GAS2L1 Is a Centriole-Associated Protein Required for Centrosome Dynamics and Disjunction. (2017 Jan 9) *Dev Cell*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q5TZA2)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q5TZA2-F1-model_v6.pdb
+
+*InterPro: Rootletin-like_CC*
+*Pfam: Rootletin*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

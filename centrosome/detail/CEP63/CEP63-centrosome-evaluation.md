@@ -39,11 +39,16 @@ tags: [protein-scout, centrosome, evaluation]
 
 - **文献总数:** 54 篇
 - **研究量评估:** 中等研究量
-- *关键文献待人工调研。*
+- 1. PMID 32152252: Requirement of the Cep57-Cep63 Interaction for Proper Cep152 Recruitment and Centriole Duplication. (2020 Apr 28) *Mol Cell Biol*
+2. PMID 23936128: Cep63 and cep152 cooperate to ensure centriole duplication. (2013) *PLoS One*
+3. PMID 32503940: Cep57 and Cep57l1 function redundantly to recruit the Cep63-Cep152 complex for centriole biogenesis. (2020 Jul 3) *J Cell Sci*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q96MT8)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q96MT8-F1-model_v6.pdb
+
+*InterPro: CEP63/Deup1_CC, CEP63/Deup1_N*
+*Pfam: CC_CEP152-bind, CEP63*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

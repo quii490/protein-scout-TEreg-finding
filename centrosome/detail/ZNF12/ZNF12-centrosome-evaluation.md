@@ -45,11 +45,14 @@ HPA 定位: Nucleoplasm, Centrosome。HPA IF 可靠性: supported。
 
 - **文献总数:** 10 篇
 - **研究量评估:** 极低研究量
-- *关键文献待人工调研。*
+- 1. PMID 20544222: Genetic mapping of a novel hypotrichosis locus to chromosome 7p21.3-p22.3 in a Pakistani family and screening of the candidate genes. (2010 Aug) *Hum Genet*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: P17014)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-P17014-F1-model_v6.pdb
+
+*InterPro: Ikaros_C2H2-ZF, KRAB, KRAB_dom_sf, Znf_C2H2_sf, Znf_C2H2_type*
+*Pfam: KRAB, zf-C2H2, zf-H2C2_2*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

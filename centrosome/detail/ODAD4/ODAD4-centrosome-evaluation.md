@@ -45,11 +45,16 @@ HPA 定位: Centrosome, Basal body, Acrosome。HPA IF 可靠性: uncertain。
 
 - **文献总数:** 10 篇
 - **研究量评估:** 极低研究量
-- *关键文献待人工调研。*
+- 1. PMID 20301301: Primary Ciliary Dyskinesia. (1993) **
+2. PMID 39180133: Characterization of pathogenic genetic variants in Russian patients with primary ciliary dyskinesia using gene panel sequencing and transcript analysis. (2024 Aug 23) *Orphanet J Rare Dis*
+3. PMID 36727596: Pathogenic variants in CLXN encoding the outer dynein arm docking-associated calcium-binding protein calaxin cause primary ciliary dyskinesia. (2023 May) *Genet Med*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q96NG3)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q96NG3-F1-model_v6.pdb
+
+*InterPro: ODAD4, TPR-like_helical_dom_sf, TPR_rpt*
+*Pfam: TPR_8*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

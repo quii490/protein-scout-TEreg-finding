@@ -45,11 +45,16 @@ HPA 定位: Microtubules, Centriolar satellite, Cytosol。HPA IF 可靠性: appr
 
 - **文献总数:** 21 篇
 - **研究量评估:** 低研究量
-- *关键文献待人工调研。*
+- 1. PMID 32402286: CCDC57 Cooperates with Microtubules and Microcephaly Protein CEP63 and Regulates Centriole Duplication and Mitotic Progression. (2020 May 12) *Cell Rep*
+2. PMID 39592607: Directional ciliary beats across epithelia require Ccdc57-mediated coupling between axonemal orientation and basal body polarity. (2024 Nov 26) *Nat Commun*
+3. PMID 41758249: Ccdc57 regulates cilia and left-right patterning in Xenopus. (2026 Feb 15) *Biol Open*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q2TAC2)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q2TAC2-F1-model_v6.pdb
+
+*InterPro: CCDC57*
+*Pfam: *待 Pfam 查询**
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

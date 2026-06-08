@@ -45,11 +45,16 @@ HPA 定位: Plasma membrane, Centrosome, Basal body。HPA IF 可靠性: supporte
 
 - **文献总数:** 14 篇
 - **研究量评估:** 低研究量
-- *关键文献待人工调研。*
+- 1. PMID 36315013: The central scaffold protein CEP350 coordinates centriole length, stability, and maturation. (2022 Dec 5) *J Cell Biol*
+2. PMID 28781053: Identification of Chlamydomonas Central Core Centriolar Proteins Reveals a Role for Human WDR90 in Ciliogenesis. (2017 Aug 21) *Curr Biol*
+3. PMID 28596423: Integration of over 9,000 mass spectrometry experiments builds a global map of human protein complexes. (2017 Jun 8) *Mol Syst Biol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q96KV7)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q96KV7-F1-model_v6.pdb
+
+*InterPro: Beta-prop_WDR90_4th, Beta-prop_WDR90_POC16_2nd, CFA20_dom, Quinoprotein_ADH-like_sf, WD40/YVTN_repeat-like_dom_sf, WD40_repeat_CS, WD40_repeat_dom_sf, WD40_rpt*
+*Pfam: Beta-prop_WDR90_POC16_2nd, CFA20_dom, WD40, WDR90_beta-prop_4th*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

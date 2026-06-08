@@ -45,11 +45,16 @@ HPA 定位: Nucleoplasm, Centrosome, Basal body。HPA IF 可靠性: approved。
 
 - **文献总数:** 92 篇
 - **研究量评估:** 较多文献
-- *关键文献待人工调研。*
+- 1. PMID 39158699: Distinct roles of Kif6 and Kif9 in mammalian ciliary trafficking and motility. (2024 Nov 4) *J Cell Biol*
+2. PMID 36824804: Kif6 regulates cilia motility and polarity in brain ependymal cells. (2023 Feb 16) *bioRxiv*
+3. PMID 38235522: Motor protein Kif6 regulates cilia motility and polarity in brain ependymal cells. (2024 Feb 1) *Dis Model Mech*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q6ZMV9)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q6ZMV9-F1-model_v6.pdb
+
+*InterPro: KIF6/9_C, Kinesin-like_fam, Kinesin_motor_CS, Kinesin_motor_dom, Kinesin_motor_dom_sf, P-loop_NTPase*
+*Pfam: KIF9, Kinesin*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

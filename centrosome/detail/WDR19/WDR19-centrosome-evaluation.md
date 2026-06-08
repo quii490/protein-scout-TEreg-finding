@@ -45,11 +45,16 @@ HPA 定位: Nucleoplasm, Centrosome, Basal body。HPA IF 可靠性: uncertain。
 
 - **文献总数:** 73 篇
 - **研究量评估:** 较多文献
-- *关键文献待人工调研。*
+- 1. PMID 27336129: Nephronophthisis-Related Ciliopathies. (1993) **
+2. PMID 23559409: Identification of 99 novel mutations in a worldwide cohort of 1,056 patients with a nephronophthisis-related ciliopathy. (2013 Aug) *Hum Genet*
+3. PMID 32055034: The morbid genome of ciliopathies: an update. (2020 Jun) *Genet Med*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q8NEZ3)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q8NEZ3-F1-model_v6.pdb
+
+*InterPro: Beta-prop_WDR19_1st, TPR-like_helical_dom_sf, TPR_IF140/IFT172/WDR19, WD40/YVTN_repeat-like_dom_sf, WD40_rpt, WDR19/dyf-2, WDR19_WD40_rpt, Znf_IFT121-like*
+*Pfam: Beta-prop_WDR19_1st, Beta-prop_WDR19_2nd, TPR_IF140-IFT172, Zf_2nd_IFT121, Zf_IFT144_1st*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

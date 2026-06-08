@@ -45,11 +45,14 @@ HPA 定位: Cell Junctions, Centrosome。HPA IF 可靠性: supported。
 
 - **文献总数:** 19 篇
 - **研究量评估:** 低研究量
-- *关键文献待人工调研。*
+- 1. PMID 19129481: Centrosome/spindle pole-associated protein regulates cytokinesis via promoting the recruitment of MyoGEF to the central spindle. (2009 Mar) *Mol Biol Cell*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q3KR16)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q3KR16-F1-model_v6.pdb
+
+*InterPro: DBL_dom_sf, DH_dom, PH-like_dom_sf, PH_domain, PLEKHG6*
+*Pfam: RhoGEF*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

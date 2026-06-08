@@ -45,11 +45,16 @@ HPA 定位: Nucleoplasm, Primary cilium, Primary cilium tip。HPA IF 可靠性: 
 
 - **文献总数:** 6 篇
 - **研究量评估:** 极低研究量
-- *关键文献待人工调研。*
+- 1. PMID 35885974: TTC30A and TTC30B Redundancy Protects IFT Complex B Integrity and Its Pivotal Role in Ciliogenesis. (2022 Jul 1) *Genes (Basel)*
+2. PMID 23810713: Interaction of mouse TTC30/DYF-1 with multiple intraflagellar transport complex B proteins and KIF17. (2013 Aug 15) *Exp Cell Res*
+3. PMID 38074101: Paralog-specific TTC30 regulation of Sonic hedgehog signaling. (2023) *Front Mol Biosci*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q8N4P2)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q8N4P2-F1-model_v6.pdb
+
+*InterPro: TPR-like_helical_dom_sf, TPR_rpt, TT30*
+*Pfam: *待 Pfam 查询**
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

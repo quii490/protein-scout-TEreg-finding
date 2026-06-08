@@ -39,11 +39,14 @@ tags: [protein-scout, centrosome, evaluation]
 
 - **文献总数:** 58 篇
 - **研究量评估:** 中等研究量
-- *关键文献待人工调研。*
+- *PubMed 文献待查询*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q8NCM2)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q8NCM2-F1-model_v6.pdb
+
+*InterPro: cNMP-bd_dom, cNMP-bd_dom_sf, Ion_trans_dom, K_chnl_volt-dep_EAG, K_chnl_volt-dep_EAG/ELK/ERG, KCNH_animal-type, PAC, PAS*
+*Pfam: cNMP_binding, Ion_trans, PAS_9*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

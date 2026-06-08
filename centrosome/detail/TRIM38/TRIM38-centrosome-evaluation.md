@@ -45,11 +45,14 @@ HPA 定位: Plasma membrane, Cell Junctions, Centrosome。HPA IF 可靠性: appr
 
 - **文献总数:** 66 篇
 - **研究量评估:** 较多文献
-- *关键文献待人工调研。*
+- 1. PMID 35685361: Integrative RNA profiling of TBEV-infected neurons and astrocytes reveals potential pathogenic effectors. (2022) *Comput Struct Biotechnol J*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: O00635)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-O00635-F1-model_v6.pdb
+
+*InterPro: B30.2/SPRY, B30.2/SPRY_sf, Butyrophylin_SPRY, ConA-like_dom_sf, PRY, SPRY/PRY_TRIM38, SPRY_dom, TRIM/RBCC*
+*Pfam: PRY, SPRY, zf-B_box, zf-C3HC4_4*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

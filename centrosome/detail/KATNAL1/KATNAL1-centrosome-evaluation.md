@@ -45,11 +45,16 @@ HPA 定位: Mitotic spindle, Centrosome, Mitochondria。HPA IF 可靠性: suppor
 
 - **文献总数:** 40 篇
 - **研究量评估:** 中等研究量
-- *关键文献待人工调研。*
+- 1. PMID 28132445: [Role of microtubule severing proteins in cytoskeleton reorganization]. (2016) *Postepy Biochem*
+2. PMID 28132444: [Microtubule severing proteins - structure and activity regulation]. (2016) *Postepy Biochem*
+3. PMID 20519956: KL1 is a novel microtubule severing enzyme that regulates mitotic spindle architecture. (2010 Jun 15) *Cell Cycle*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q9BW62)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q9BW62-F1-model_v6.pdb
+
+*InterPro: AAA+_ATPase, AAA_lid_3, ATPase_AAA_core, ATPase_AAA_CS, KATNA1, KATNA1_MIT, Katnal1_chordates, KTNA1_AAA_dom*
+*Pfam: AAA, AAA_lid_3, KATNA1_MIT, Vps4_C*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

@@ -45,11 +45,16 @@ HPA 定位: Primary cilium, Centrosome, Basal body。HPA IF 可靠性: supported
 
 - **文献总数:** 14 篇
 - **研究量评估:** 低研究量
-- *关键文献待人工调研。*
+- 1. PMID 36632779: Multiple interactions of the dynein-2 complex with the IFT-B complex are required for effective intraflagellar transport. (2023 Mar 1) *J Cell Sci*
+2. PMID 35137044: Sporadic hypothalamic hamartoma is a ciliopathy with somatic and bi-allelic contributions. (2022 Jul 21) *Hum Mol Genet*
+3. PMID 33436552: SRPS associated protein WDR60 regulates the multipolar-to-bipolar transition of migrating neurons during cortical development. (2021 Jan 12) *Cell Death Dis*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q8WVS4)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q8WVS4-F1-model_v6.pdb
+
+*InterPro: DYNC2I1, WD40/YVTN_repeat-like_dom_sf, WD40_repeat_dom_sf, WD40_rpt*
+*Pfam: *待 Pfam 查询**
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

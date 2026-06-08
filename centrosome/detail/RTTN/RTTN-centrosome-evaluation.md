@@ -45,11 +45,16 @@ HPA 定位: Centrosome, Basal body, Cytosol。HPA IF 可靠性: uncertain。
 
 - **文献总数:** 38 篇
 - **研究量评估:** 中等研究量
-- *关键文献待人工调研。*
+- 1. PMID 39680576: A Taybi-Linder syndrome-related RTTN variant impedes neural rosette formation in human cortical organoids. (2024 Dec) *PLoS Genet*
+2. PMID 38796459: 9-fold symmetry is not essential for centriole elongation and formation of new centriole-like structures. (2024 May 25) *Nat Commun*
+3. PMID 30879067: Heterogeneous clinical phenotypes and cerebral malformations reflected by rotatin cellular dynamics. (2019 Apr 1) *Brain*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q86VV8)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q86VV8-F1-model_v6.pdb
+
+*InterPro: ARM-like, ARM-type_fold, Rotatin, Rotatin_N*
+*Pfam: RTTN_N*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 

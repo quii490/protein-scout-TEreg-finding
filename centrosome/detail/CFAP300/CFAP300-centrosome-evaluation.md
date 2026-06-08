@@ -45,11 +45,16 @@ HPA 定位: Primary cilium, Centrosome。HPA IF 可靠性: approved。
 
 - **文献总数:** 16 篇
 - **研究量评估:** 低研究量
-- *关键文献待人工调研。*
+- 1. PMID 20301301: Primary Ciliary Dyskinesia. (1993) **
+2. PMID 39180133: Characterization of pathogenic genetic variants in Russian patients with primary ciliary dyskinesia using gene panel sequencing and transcript analysis. (2024 Aug 23) *Orphanet J Rare Dis*
+3. PMID 40898687: CFAP300 loss-of-function variant causes primary ciliary dyskinesia and male infertility via disrupting sperm flagellar assembly and acrosome formation. (2025 Nov 1) *Asian J Androl*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 
-*待结构数据完整采集。需人工审核。*
+pLDDT 数据可用 (UniProt: Q9BRQ4)。PDB 模型: https://alphafold.ebi.ac.uk/files/AF-Q9BRQ4-F1-model_v6.pdb
+
+*InterPro: CFAP300*
+*Pfam: CFAP300*
 
 PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 
