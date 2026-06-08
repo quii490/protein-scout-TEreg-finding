@@ -184,6 +184,7 @@ tr:nth-child(even) {{ background: var(--accent-light); }}
     <div>
         <a href="../index.html">Centrosome Home</a>
         <a href="../protein_index.html">All Proteins</a>
+        <a href="../../index.html" style="color:#fbbf24;font-weight:700">← 主 Atlas</a>
     </div>
 </div>
 <div class="container">
@@ -268,6 +269,7 @@ a:hover {{ text-decoration: underline; }}
     <strong>🧬 Centrosome Module</strong>
     <div>
         <a href="protein_index.html">All Proteins</a>
+        <a href="../index.html" style="color:#fbbf24;font-weight:700">← 主 Atlas</a>
     </div>
 </div>
 <div class="container">
@@ -433,7 +435,7 @@ a:hover {{ text-decoration: underline; }}
 <body>
 <div class="topbar">
     <strong>🧬 中心体模块 — 蛋白索引</strong>
-    <div><a href="index.html">首页</a></div>
+    <div><a href="index.html">首页</a> <a href="../index.html" style="color:#fbbf24;font-weight:700">← 主 Atlas</a></div>
 </div>
 <div class="container">
     <h1>中心体蛋白索引 <span class="count">({len(records)} 蛋白)</span></h1>
