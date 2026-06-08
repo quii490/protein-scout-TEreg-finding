@@ -1,0 +1,712 @@
+gene	path	lines	is_chinese	has_hpa	has_pubmed	has_structure	has_ppi	has_te_module	has_nuclear_reject	has_ppi_pending	has_hpa_url	has_if_embed	has_pae_explained	qa_pass	reason
+AAAS	centrosome/detail/AAAS/AAAS-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+ABCA13	centrosome/detail/ABCA13/ABCA13-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ACADS	centrosome/detail/ACADS/ACADS-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+ACTR8	centrosome/detail/ACTR8/ACTR8-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ACTRT3	centrosome/detail/ACTRT3/ACTRT3-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ADCK2	centrosome/detail/ADCK2/ADCK2-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ADNP	centrosome/detail/ADNP/ADNP-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+ADPGK	centrosome/detail/ADPGK/ADPGK-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+AGBL5	centrosome/detail/AGBL5/AGBL5-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+AGTPBP1	centrosome/detail/AGTPBP1/AGTPBP1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+AHI1	centrosome/detail/AHI1/AHI1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+AK5	centrosome/detail/AK5/AK5-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+AK6	centrosome/detail/AK6/AK6-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+AKAP9	centrosome/detail/AKAP9/AKAP9-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+AKNA	centrosome/detail/AKNA/AKNA-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ALDH8A1	centrosome/detail/ALDH8A1/ALDH8A1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ALMS1	centrosome/detail/ALMS1/ALMS1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+ALPK1	centrosome/detail/ALPK1/ALPK1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+AMN1	centrosome/detail/AMN1/AMN1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ANKAR	centrosome/detail/ANKAR/ANKAR-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ANKRD31	centrosome/detail/ANKRD31/ANKRD31-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ANKRD45	centrosome/detail/ANKRD45/ANKRD45-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ANP32A	centrosome/detail/ANP32A/ANP32A-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+ANP32B	centrosome/detail/ANP32B/ANP32B-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+ANP32E	centrosome/detail/ANP32E/ANP32E-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+APEX1	centrosome/detail/APEX1/APEX1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+APOBR	centrosome/detail/APOBR/APOBR-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ARHGAP29	centrosome/detail/ARHGAP29/ARHGAP29-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ARHGAP40	centrosome/detail/ARHGAP40/ARHGAP40-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ARHGEF38	centrosome/detail/ARHGEF38/ARHGEF38-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ARL2BP	centrosome/detail/ARL2BP/ARL2BP-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ARL3	centrosome/detail/ARL3/ARL3-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+ARL9	centrosome/detail/ARL9/ARL9-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ASAP1	centrosome/detail/ASAP1/ASAP1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+ATAD5	centrosome/detail/ATAD5/ATAD5-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ATF3	centrosome/detail/ATF3/ATF3-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+ATG5	centrosome/detail/ATG5/ATG5-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+ATP11B	centrosome/detail/ATP11B/ATP11B-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+AUH	centrosome/detail/AUH/AUH-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+AUNIP	centrosome/detail/AUNIP/AUNIP-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+AURKA	centrosome/detail/AURKA/AURKA-centrosome-evaluation.md	100	False	True	False	True	True	True	False	False	False	False	False	False	no PubMed; has TE module
+AVEN	centrosome/detail/AVEN/AVEN-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+B9D2	centrosome/detail/B9D2/B9D2-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+BAG2	centrosome/detail/BAG2/BAG2-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+BAG5	centrosome/detail/BAG5/BAG5-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+BBIP1	centrosome/detail/BBIP1/BBIP1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+BBOF1	centrosome/detail/BBOF1/BBOF1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+BCAR3	centrosome/detail/BCAR3/BCAR3-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+BCAS2	centrosome/detail/BCAS2/BCAS2-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+BCO1	centrosome/detail/BCO1/BCO1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+BEAN1	centrosome/detail/BEAN1/BEAN1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+BHLHE22	centrosome/detail/BHLHE22/BHLHE22-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+BICC1	centrosome/detail/BICC1/BICC1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+BIRC7	centrosome/detail/BIRC7/BIRC7-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+BLTP1	centrosome/detail/BLTP1/BLTP1-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+BRAF	centrosome/detail/BRAF/BRAF-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+BRMS1	centrosome/detail/BRMS1/BRMS1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+BUD31	centrosome/detail/BUD31/BUD31-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+C11orf80	centrosome/detail/C11orf80/C11orf80-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+C12orf73	centrosome/detail/C12orf73/C12orf73-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+C16orf74	centrosome/detail/C16orf74/C16orf74-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+C16orf96	centrosome/detail/C16orf96/C16orf96-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+C19orf54	centrosome/detail/C19orf54/C19orf54-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+C1QTNF2	centrosome/detail/C1QTNF2/C1QTNF2-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+C1orf146	centrosome/detail/C1orf146/C1orf146-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+C20orf96	centrosome/detail/C20orf96/C20orf96-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+C2CD3	centrosome/detail/C2CD3/C2CD3-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+C2CD5	centrosome/detail/C2CD5/C2CD5-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+C2orf74	centrosome/detail/C2orf74/C2orf74-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+C3orf49	centrosome/detail/C3orf49/C3orf49-centrosome-evaluation.md	91	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+C3orf56	centrosome/detail/C3orf56/C3orf56-centrosome-evaluation.md	92	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+C5orf58	centrosome/detail/C5orf58/C5orf58-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+C9orf40	centrosome/detail/C9orf40/C9orf40-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CABCOCO1	centrosome/detail/CABCOCO1/CABCOCO1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CALCR	centrosome/detail/CALCR/CALCR-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+CALML6	centrosome/detail/CALML6/CALML6-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CAMK2N2	centrosome/detail/CAMK2N2/CAMK2N2-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CAPN6	centrosome/detail/CAPN6/CAPN6-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CAPN7	centrosome/detail/CAPN7/CAPN7-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CAPRIN1	centrosome/detail/CAPRIN1/CAPRIN1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+CAPRIN2	centrosome/detail/CAPRIN2/CAPRIN2-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CAPS2	centrosome/detail/CAPS2/CAPS2-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+CASP8	centrosome/detail/CASP8/CASP8-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+CBY1	centrosome/detail/CBY1/CBY1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CCDC13	centrosome/detail/CCDC13/CCDC13-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CCDC14	centrosome/detail/CCDC14/CCDC14-centrosome-evaluation.md	111	False	True	False	True	True	True	False	False	False	False	False	False	not Chinese; no PubMed; has TE module
+CCDC32	centrosome/detail/CCDC32/CCDC32-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CCDC39	centrosome/detail/CCDC39/CCDC39-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CCDC51	centrosome/detail/CCDC51/CCDC51-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CCDC57	centrosome/detail/CCDC57/CCDC57-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CCDC65	centrosome/detail/CCDC65/CCDC65-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CCDC66	centrosome/detail/CCDC66/CCDC66-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CCDC74A	centrosome/detail/CCDC74A/CCDC74A-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CCDC74B	centrosome/detail/CCDC74B/CCDC74B-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CCDC88A	centrosome/detail/CCDC88A/CCDC88A-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+CCDC88B	centrosome/detail/CCDC88B/CCDC88B-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CCDC92	centrosome/detail/CCDC92/CCDC92-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CCNF	centrosome/detail/CCNF/CCNF-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+CCNO	centrosome/detail/CCNO/CCNO-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+CCP110	centrosome/detail/CCP110/CCP110-centrosome-evaluation.md	117	False	True	False	True	True	True	False	False	False	False	False	False	not Chinese; no PubMed; has TE module
+CD163L1	centrosome/detail/CD163L1/CD163L1-centrosome-evaluation.md	96	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CD226	centrosome/detail/CD226/CD226-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+CD2AP	centrosome/detail/CD2AP/CD2AP-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+CD86	centrosome/detail/CD86/CD86-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+CDC45	centrosome/detail/CDC45/CDC45-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+CDIP1	centrosome/detail/CDIP1/CDIP1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CDK2	centrosome/detail/CDK2/CDK2-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+CDK5RAP2	centrosome/detail/CDK5RAP2/CDK5RAP2-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+CDKL2	centrosome/detail/CDKL2/CDKL2-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CDKN1B	centrosome/detail/CDKN1B/CDKN1B-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+CENPJ	centrosome/detail/CENPJ/CENPJ-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+CENPU	centrosome/detail/CENPU/CENPU-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CEP112	centrosome/detail/CEP112/CEP112-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CEP128	centrosome/detail/CEP128/CEP128-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CEP131	centrosome/detail/CEP131/CEP131-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CEP152	centrosome/detail/CEP152/CEP152-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CEP162	centrosome/detail/CEP162/CEP162-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CEP164	centrosome/detail/CEP164/CEP164-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+CEP170	centrosome/detail/CEP170/CEP170-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CEP170B	centrosome/detail/CEP170B/CEP170B-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CEP19	centrosome/detail/CEP19/CEP19-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CEP192	centrosome/detail/CEP192/CEP192-centrosome-evaluation.md	97	False	True	False	True	True	True	False	False	False	False	False	False	no PubMed; has TE module
+CEP20	centrosome/detail/CEP20/CEP20-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CEP250	centrosome/detail/CEP250/CEP250-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CEP290	centrosome/detail/CEP290/CEP290-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+CEP350	centrosome/detail/CEP350/CEP350-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CEP43	centrosome/detail/CEP43/CEP43-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CEP55	centrosome/detail/CEP55/CEP55-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+CEP57	centrosome/detail/CEP57/CEP57-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CEP63	centrosome/detail/CEP63/CEP63-centrosome-evaluation.md	93	True	True	True	True	True	False	False	False	False	False	True	True	PASS
+CEP68	centrosome/detail/CEP68/CEP68-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CEP70	centrosome/detail/CEP70/CEP70-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CEP72	centrosome/detail/CEP72/CEP72-centrosome-evaluation.md	115	False	True	False	True	True	True	False	False	False	False	False	False	not Chinese; no PubMed; has TE module
+CEP85	centrosome/detail/CEP85/CEP85-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CEP89	centrosome/detail/CEP89/CEP89-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CEP95	centrosome/detail/CEP95/CEP95-centrosome-evaluation.md	96	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CEP97	centrosome/detail/CEP97/CEP97-centrosome-evaluation.md	118	False	True	False	True	True	True	False	False	False	False	False	False	not Chinese; no PubMed; has TE module
+CETN2	centrosome/detail/CETN2/CETN2-centrosome-evaluation.md	101	False	True	False	True	True	True	False	False	False	False	False	False	no PubMed; has TE module
+CETN3	centrosome/detail/CETN3/CETN3-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CFAP298	centrosome/detail/CFAP298/CFAP298-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CFAP300	centrosome/detail/CFAP300/CFAP300-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CFAP418	centrosome/detail/CFAP418/CFAP418-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CFAP52	centrosome/detail/CFAP52/CFAP52-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CFAP70	centrosome/detail/CFAP70/CFAP70-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CHD3	centrosome/detail/CHD3/CHD3-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+CHMP1A	centrosome/detail/CHMP1A/CHMP1A-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CHODL	centrosome/detail/CHODL/CHODL-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CHPF	centrosome/detail/CHPF/CHPF-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+CHST15	centrosome/detail/CHST15/CHST15-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CIB2	centrosome/detail/CIB2/CIB2-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CIP2A	centrosome/detail/CIP2A/CIP2A-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+CKAP2	centrosome/detail/CKAP2/CKAP2-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CKAP5	centrosome/detail/CKAP5/CKAP5-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+CLEC11A	centrosome/detail/CLEC11A/CLEC11A-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CLHC1	centrosome/detail/CLHC1/CLHC1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CLIC4	centrosome/detail/CLIC4/CLIC4-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+CLRN1	centrosome/detail/CLRN1/CLRN1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+CLTC	centrosome/detail/CLTC/CLTC-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+CNOT10	centrosome/detail/CNOT10/CNOT10-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CNTLN	centrosome/detail/CNTLN/CNTLN-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CNTRL	centrosome/detail/CNTRL/CNTRL-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CNTROB	centrosome/detail/CNTROB/CNTROB-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CPA4	centrosome/detail/CPA4/CPA4-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CPE	centrosome/detail/CPE/CPE-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+CRACDL	centrosome/detail/CRACDL/CRACDL-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CREB1	centrosome/detail/CREB1/CREB1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+CREB3	centrosome/detail/CREB3/CREB3-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+CRIP1	centrosome/detail/CRIP1/CRIP1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+CRMP1	centrosome/detail/CRMP1/CRMP1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+CROCC	centrosome/detail/CROCC/CROCC-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CSPP1	centrosome/detail/CSPP1/CSPP1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CTNNBL1	centrosome/detail/CTNNBL1/CTNNBL1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CUEDC1	centrosome/detail/CUEDC1/CUEDC1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CYB5B	centrosome/detail/CYB5B/CYB5B-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+CYLD	centrosome/detail/CYLD/CYLD-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+CYTH4	centrosome/detail/CYTH4/CYTH4-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+DAPK1	centrosome/detail/DAPK1/DAPK1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+DCAF13	centrosome/detail/DCAF13/DCAF13-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+DCC	centrosome/detail/DCC/DCC-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+DCDC2	centrosome/detail/DCDC2/DCDC2-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+DCTN2	centrosome/detail/DCTN2/DCTN2-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+DCTN4	centrosome/detail/DCTN4/DCTN4-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+DDHD2	centrosome/detail/DDHD2/DDHD2-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+DDX59	centrosome/detail/DDX59/DDX59-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+DDX60	centrosome/detail/DDX60/DDX60-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+DENND1C	centrosome/detail/DENND1C/DENND1C-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+DHRS1	centrosome/detail/DHRS1/DHRS1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+DHX35	centrosome/detail/DHX35/DHX35-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+DIS3L	centrosome/detail/DIS3L/DIS3L-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+DLG4	centrosome/detail/DLG4/DLG4-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+DMBT1	centrosome/detail/DMBT1/DMBT1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+DMRT2	centrosome/detail/DMRT2/DMRT2-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+DNAH12	centrosome/detail/DNAH12/DNAH12-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+DNAH14	centrosome/detail/DNAH14/DNAH14-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+DNAH6	centrosome/detail/DNAH6/DNAH6-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+DNAJA4	centrosome/detail/DNAJA4/DNAJA4-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+DNAJC28	centrosome/detail/DNAJC28/DNAJC28-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+DNAL1	centrosome/detail/DNAL1/DNAL1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+DNAL4	centrosome/detail/DNAL4/DNAL4-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+DPF2	centrosome/detail/DPF2/DPF2-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+DRD4	centrosome/detail/DRD4/DRD4-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+DUSP21	centrosome/detail/DUSP21/DUSP21-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+DVL3	centrosome/detail/DVL3/DVL3-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+DYNC1H1	centrosome/detail/DYNC1H1/DYNC1H1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+DYNC1I2	centrosome/detail/DYNC1I2/DYNC1I2-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+DYNC1LI1	centrosome/detail/DYNC1LI1/DYNC1LI1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+DYNC1LI2	centrosome/detail/DYNC1LI2/DYNC1LI2-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+DYNC2I1	centrosome/detail/DYNC2I1/DYNC2I1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+DYNC2I2	centrosome/detail/DYNC2I2/DYNC2I2-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+DYRK1A	centrosome/detail/DYRK1A/DYRK1A-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+DYSF	centrosome/detail/DYSF/DYSF-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+DZIP1	centrosome/detail/DZIP1/DZIP1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+E2F1	centrosome/detail/E2F1/E2F1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+EDRF1	centrosome/detail/EDRF1/EDRF1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+EEF1AKMT3	centrosome/detail/EEF1AKMT3/EEF1AKMT3-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+EID2	centrosome/detail/EID2/EID2-centrosome-evaluation.md	93	True	True	True	True	True	False	False	False	False	False	True	True	PASS
+ELP6	centrosome/detail/ELP6/ELP6-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+EMC6	centrosome/detail/EMC6/EMC6-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+EMSY	centrosome/detail/EMSY/EMSY-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+ENGASE	centrosome/detail/ENGASE/ENGASE-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+ENKD1	centrosome/detail/ENKD1/ENKD1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ENSG00000144785	centrosome/detail/ENSG00000144785/ENSG00000144785-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ENSG00000256514	centrosome/detail/ENSG00000256514/ENSG00000256514-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ENSG00000268870	centrosome/detail/ENSG00000268870/ENSG00000268870-centrosome-evaluation.md	91	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ENSG00000272772	centrosome/detail/ENSG00000272772/ENSG00000272772-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ENSG00000272980	centrosome/detail/ENSG00000272980/ENSG00000272980-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ENSG00000273217	centrosome/detail/ENSG00000273217/ENSG00000273217-centrosome-evaluation.md	98	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ENSG00000274175	centrosome/detail/ENSG00000274175/ENSG00000274175-centrosome-evaluation.md	91	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ENSG00000274792	centrosome/detail/ENSG00000274792/ENSG00000274792-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ENSG00000275869	centrosome/detail/ENSG00000275869/ENSG00000275869-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ENSG00000280571	centrosome/detail/ENSG00000280571/ENSG00000280571-centrosome-evaluation.md	95	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ENSG00000285188	centrosome/detail/ENSG00000285188/ENSG00000285188-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ENSG00000285837	centrosome/detail/ENSG00000285837/ENSG00000285837-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ENSG00000288637	centrosome/detail/ENSG00000288637/ENSG00000288637-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+EP300	centrosome/detail/EP300/EP300-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+EPS8L2	centrosome/detail/EPS8L2/EPS8L2-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ERC1	centrosome/detail/ERC1/ERC1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+ERCC6L	centrosome/detail/ERCC6L/ERCC6L-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ERVV-1	centrosome/detail/ERVV-1/ERVV-1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ERVV-2	centrosome/detail/ERVV-2/ERVV-2-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+EXOC6	centrosome/detail/EXOC6/EXOC6-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+EXTL1	centrosome/detail/EXTL1/EXTL1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+EYA3	centrosome/detail/EYA3/EYA3-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+FAM117B	centrosome/detail/FAM117B/FAM117B-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+FAM161A	centrosome/detail/FAM161A/FAM161A-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+FAM184A	centrosome/detail/FAM184A/FAM184A-centrosome-evaluation.md	98	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+FAM186B	centrosome/detail/FAM186B/FAM186B-centrosome-evaluation.md	96	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+FAM241B	centrosome/detail/FAM241B/FAM241B-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+FANCE	centrosome/detail/FANCE/FANCE-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+FBF1	centrosome/detail/FBF1/FBF1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+FBXO21	centrosome/detail/FBXO21/FBXO21-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+FBXO9	centrosome/detail/FBXO9/FBXO9-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+FCHO2	centrosome/detail/FCHO2/FCHO2-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+FCMR	centrosome/detail/FCMR/FCMR-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+FEZF2	centrosome/detail/FEZF2/FEZF2-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+FGF11	centrosome/detail/FGF11/FGF11-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+FGF23	centrosome/detail/FGF23/FGF23-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+FGFR1	centrosome/detail/FGFR1/FGFR1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+FHDC1	centrosome/detail/FHDC1/FHDC1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+FKBP11	centrosome/detail/FKBP11/FKBP11-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+FLII	centrosome/detail/FLII/FLII-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+FLT4	centrosome/detail/FLT4/FLT4-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+FNDC3A	centrosome/detail/FNDC3A/FNDC3A-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+FNIP2	centrosome/detail/FNIP2/FNIP2-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+FNTB	centrosome/detail/FNTB/FNTB-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+FRMD4B	centrosome/detail/FRMD4B/FRMD4B-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+FRMD8	centrosome/detail/FRMD8/FRMD8-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+G6PD	centrosome/detail/G6PD/G6PD-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+GAPDHS	centrosome/detail/GAPDHS/GAPDHS-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+GAS6	centrosome/detail/GAS6/GAS6-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+GATD3	centrosome/detail/GATD3/GATD3-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+GINS4	centrosome/detail/GINS4/GINS4-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+GKAP1	centrosome/detail/GKAP1/GKAP1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+GLI2	centrosome/detail/GLI2/GLI2-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+GLP1R	centrosome/detail/GLP1R/GLP1R-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+GLT8D1	centrosome/detail/GLT8D1/GLT8D1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+GNAI1	centrosome/detail/GNAI1/GNAI1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+GNAI3	centrosome/detail/GNAI3/GNAI3-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+GNB5	centrosome/detail/GNB5/GNB5-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+GOLGA6A	centrosome/detail/GOLGA6A/GOLGA6A-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+GOLGA6B	centrosome/detail/GOLGA6B/GOLGA6B-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+GOLGA6C	centrosome/detail/GOLGA6C/GOLGA6C-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+GOLGA6D	centrosome/detail/GOLGA6D/GOLGA6D-centrosome-evaluation.md	95	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+GPAA1	centrosome/detail/GPAA1/GPAA1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+GPR162	centrosome/detail/GPR162/GPR162-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+GPR174	centrosome/detail/GPR174/GPR174-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+GPSM2	centrosome/detail/GPSM2/GPSM2-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+GRAP	centrosome/detail/GRAP/GRAP-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+GRAPL	centrosome/detail/GRAPL/GRAPL-centrosome-evaluation.md	93	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+GRB2	centrosome/detail/GRB2/GRB2-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+GTSE1	centrosome/detail/GTSE1/GTSE1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+GVQW3	centrosome/detail/GVQW3/GVQW3-centrosome-evaluation.md	91	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+GYG2	centrosome/detail/GYG2/GYG2-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+HAUS1	centrosome/detail/HAUS1/HAUS1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+HAUS2	centrosome/detail/HAUS2/HAUS2-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+HAUS6	centrosome/detail/HAUS6/HAUS6-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+HAUS7	centrosome/detail/HAUS7/HAUS7-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+HDAC6	centrosome/detail/HDAC6/HDAC6-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+HIPK1	centrosome/detail/HIPK1/HIPK1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+HK2	centrosome/detail/HK2/HK2-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+HMMR	centrosome/detail/HMMR/HMMR-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+HMX3	centrosome/detail/HMX3/HMX3-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+HNMT	centrosome/detail/HNMT/HNMT-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+HOOK3	centrosome/detail/HOOK3/HOOK3-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+HORMAD2	centrosome/detail/HORMAD2/HORMAD2-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+HOXB4	centrosome/detail/HOXB4/HOXB4-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+HSPA4L	centrosome/detail/HSPA4L/HSPA4L-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+HSPBP1	centrosome/detail/HSPBP1/HSPBP1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ID2	centrosome/detail/ID2/ID2-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+IFT43	centrosome/detail/IFT43/IFT43-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+IFT57	centrosome/detail/IFT57/IFT57-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+IFT74	centrosome/detail/IFT74/IFT74-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+IFT81	centrosome/detail/IFT81/IFT81-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+IFT88	centrosome/detail/IFT88/IFT88-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+IL1RN	centrosome/detail/IL1RN/IL1RN-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+IL4R	centrosome/detail/IL4R/IL4R-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+ILRUN	centrosome/detail/ILRUN/ILRUN-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+INPP1	centrosome/detail/INPP1/INPP1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+INPP4B	centrosome/detail/INPP4B/INPP4B-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+INSR	centrosome/detail/INSR/INSR-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+INTS6L	centrosome/detail/INTS6L/INTS6L-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+INVS	centrosome/detail/INVS/INVS-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+IQSEC1	centrosome/detail/IQSEC1/IQSEC1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ISM2	centrosome/detail/ISM2/ISM2-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+ITGB6	centrosome/detail/ITGB6/ITGB6-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+ITPRIPL2	centrosome/detail/ITPRIPL2/ITPRIPL2-centrosome-evaluation.md	98	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+IVL	centrosome/detail/IVL/IVL-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+JADE1	centrosome/detail/JADE1/JADE1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+KATNA1	centrosome/detail/KATNA1/KATNA1-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+KATNAL1	centrosome/detail/KATNAL1/KATNAL1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+KATNIP	centrosome/detail/KATNIP/KATNIP-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+KCNH5	centrosome/detail/KCNH5/KCNH5-centrosome-evaluation.md	93	True	True	True	True	True	False	False	False	False	False	True	True	PASS
+KCTD1	centrosome/detail/KCTD1/KCTD1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+KCTD16	centrosome/detail/KCTD16/KCTD16-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+KCTD4	centrosome/detail/KCTD4/KCTD4-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+KEAP1	centrosome/detail/KEAP1/KEAP1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+KIAA0753	centrosome/detail/KIAA0753/KIAA0753-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+KIF19	centrosome/detail/KIF19/KIF19-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+KIF1A	centrosome/detail/KIF1A/KIF1A-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+KIF20B	centrosome/detail/KIF20B/KIF20B-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+KIF2A	centrosome/detail/KIF2A/KIF2A-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+KIF2C	centrosome/detail/KIF2C/KIF2C-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+KIF5B	centrosome/detail/KIF5B/KIF5B-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+KIF6	centrosome/detail/KIF6/KIF6-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+KIFC1	centrosome/detail/KIFC1/KIFC1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+KIRREL2	centrosome/detail/KIRREL2/KIRREL2-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+KLC3	centrosome/detail/KLC3/KLC3-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+KLHL12	centrosome/detail/KLHL12/KLHL12-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+KLHL21	centrosome/detail/KLHL21/KLHL21-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+KLHL30	centrosome/detail/KLHL30/KLHL30-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+KLHL35	centrosome/detail/KLHL35/KLHL35-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+KLHL4	centrosome/detail/KLHL4/KLHL4-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+KLHL6	centrosome/detail/KLHL6/KLHL6-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+KMT5B	centrosome/detail/KMT5B/KMT5B-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+KNSTRN	centrosome/detail/KNSTRN/KNSTRN-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+KXD1	centrosome/detail/KXD1/KXD1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+LAMP5	centrosome/detail/LAMP5/LAMP5-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+LAS1L	centrosome/detail/LAS1L/LAS1L-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+LATS2	centrosome/detail/LATS2/LATS2-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+LCA5	centrosome/detail/LCA5/LCA5-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+LEO1	centrosome/detail/LEO1/LEO1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+LEPROT	centrosome/detail/LEPROT/LEPROT-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+LGI2	centrosome/detail/LGI2/LGI2-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+LGR4	centrosome/detail/LGR4/LGR4-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+LGR5	centrosome/detail/LGR5/LGR5-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+LHCGR	centrosome/detail/LHCGR/LHCGR-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+LINC02203	centrosome/detail/LINC02203/LINC02203-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+LMF2	centrosome/detail/LMF2/LMF2-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+LMNTD1	centrosome/detail/LMNTD1/LMNTD1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+LMTK2	centrosome/detail/LMTK2/LMTK2-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+LONRF1	centrosome/detail/LONRF1/LONRF1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+LRIF1	centrosome/detail/LRIF1/LRIF1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+LRRC45	centrosome/detail/LRRC45/LRRC45-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+LRRC7	centrosome/detail/LRRC7/LRRC7-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+LRRCC1	centrosome/detail/LRRCC1/LRRCC1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+LRRN1	centrosome/detail/LRRN1/LRRN1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+LTB	centrosome/detail/LTB/LTB-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+LUZP1	centrosome/detail/LUZP1/LUZP1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+LY9	centrosome/detail/LY9/LY9-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+LYST	centrosome/detail/LYST/LYST-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+LZTR1	centrosome/detail/LZTR1/LZTR1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+MAGEB16	centrosome/detail/MAGEB16/MAGEB16-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+MAL	centrosome/detail/MAL/MAL-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+MAMLD1	centrosome/detail/MAMLD1/MAMLD1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+MAP3K11	centrosome/detail/MAP3K11/MAP3K11-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+MAP3K13	centrosome/detail/MAP3K13/MAP3K13-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+MAP4K3	centrosome/detail/MAP4K3/MAP4K3-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+MAP7D3	centrosome/detail/MAP7D3/MAP7D3-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+MAP9	centrosome/detail/MAP9/MAP9-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+MAPK8IP3	centrosome/detail/MAPK8IP3/MAPK8IP3-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+MAPKAPK2	centrosome/detail/MAPKAPK2/MAPKAPK2-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+MAPRE1	centrosome/detail/MAPRE1/MAPRE1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+MATK	centrosome/detail/MATK/MATK-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+MCF2L2	centrosome/detail/MCF2L2/MCF2L2-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+MDH1	centrosome/detail/MDH1/MDH1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+MDM1	centrosome/detail/MDM1/MDM1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+MDM2	centrosome/detail/MDM2/MDM2-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+MFAP1	centrosome/detail/MFAP1/MFAP1-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+MGAT4C	centrosome/detail/MGAT4C/MGAT4C-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+MIB1	centrosome/detail/MIB1/MIB1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+MICALL1	centrosome/detail/MICALL1/MICALL1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+MID1	centrosome/detail/MID1/MID1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+MKKS	centrosome/detail/MKKS/MKKS-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+MLF1	centrosome/detail/MLF1/MLF1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+MME	centrosome/detail/MME/MME-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+MPDZ	centrosome/detail/MPDZ/MPDZ-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+MPHOSPH9	centrosome/detail/MPHOSPH9/MPHOSPH9-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+MPP1	centrosome/detail/MPP1/MPP1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+MT-ND4L	centrosome/detail/MT-ND4L/MT-ND4L-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+MTHFR	centrosome/detail/MTHFR/MTHFR-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+MTMR11	centrosome/detail/MTMR11/MTMR11-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+MTMR9	centrosome/detail/MTMR9/MTMR9-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+MYO18B	centrosome/detail/MYO18B/MYO18B-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+MYO5A	centrosome/detail/MYO5A/MYO5A-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+MYOF	centrosome/detail/MYOF/MYOF-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+MZT2A	centrosome/detail/MZT2A/MZT2A-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+MZT2B	centrosome/detail/MZT2B/MZT2B-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+N4BP3	centrosome/detail/N4BP3/N4BP3-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+N6AMT1	centrosome/detail/N6AMT1/N6AMT1-centrosome-evaluation.md	93	True	True	True	True	True	False	False	False	False	False	True	True	PASS
+NAA11	centrosome/detail/NAA11/NAA11-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+NAA40	centrosome/detail/NAA40/NAA40-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+NAE1	centrosome/detail/NAE1/NAE1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+NCAPD2	centrosome/detail/NCAPD2/NCAPD2-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+NDC80	centrosome/detail/NDC80/NDC80-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+NDRG2	centrosome/detail/NDRG2/NDRG2-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+NEDD1	centrosome/detail/NEDD1/NEDD1-centrosome-evaluation.md	113	False	True	False	True	True	True	False	False	False	False	False	False	not Chinese; no PubMed; has TE module
+NEFH	centrosome/detail/NEFH/NEFH-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+NEK1	centrosome/detail/NEK1/NEK1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+NEK2	centrosome/detail/NEK2/NEK2-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+NEK6	centrosome/detail/NEK6/NEK6-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+NEUROD4	centrosome/detail/NEUROD4/NEUROD4-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+NFE2L2	centrosome/detail/NFE2L2/NFE2L2-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+NIN	centrosome/detail/NIN/NIN-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+NIT2	centrosome/detail/NIT2/NIT2-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+NLRC3	centrosome/detail/NLRC3/NLRC3-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+NLRC5	centrosome/detail/NLRC5/NLRC5-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+NME9	centrosome/detail/NME9/NME9-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+NMRK1	centrosome/detail/NMRK1/NMRK1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+NPTX2	centrosome/detail/NPTX2/NPTX2-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+NR0B1	centrosome/detail/NR0B1/NR0B1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+NR6A1	centrosome/detail/NR6A1/NR6A1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+NUBP1	centrosome/detail/NUBP1/NUBP1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+NUDT21	centrosome/detail/NUDT21/NUDT21-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+NUDT5	centrosome/detail/NUDT5/NUDT5-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+NUP107	centrosome/detail/NUP107/NUP107-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+OAS2	centrosome/detail/OAS2/OAS2-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+OAZ1	centrosome/detail/OAZ1/OAZ1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+OBSL1	centrosome/detail/OBSL1/OBSL1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+OCRL	centrosome/detail/OCRL/OCRL-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+ODAD4	centrosome/detail/ODAD4/ODAD4-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ODF2	centrosome/detail/ODF2/ODF2-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+OR4M2-OT1	centrosome/detail/OR4M2-OT1/OR4M2-OT1-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+OR4N4	centrosome/detail/OR4N4/OR4N4-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+OR4N4C	centrosome/detail/OR4N4C/OR4N4C-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+PACSIN2	centrosome/detail/PACSIN2/PACSIN2-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+PAFAH1B1	centrosome/detail/PAFAH1B1/PAFAH1B1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+PAOX	centrosome/detail/PAOX/PAOX-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+PATJ	centrosome/detail/PATJ/PATJ-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+PCDH9	centrosome/detail/PCDH9/PCDH9-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+PCDHB15	centrosome/detail/PCDHB15/PCDHB15-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+PCLAF	centrosome/detail/PCLAF/PCLAF-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+PCM1	centrosome/detail/PCM1/PCM1-centrosome-evaluation.md	98	False	True	False	True	True	True	False	False	False	False	False	False	no PubMed; has TE module
+PCNT	centrosome/detail/PCNT/PCNT-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+PDCD6IP	centrosome/detail/PDCD6IP/PDCD6IP-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+PDCL2	centrosome/detail/PDCL2/PDCL2-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+PDE11A	centrosome/detail/PDE11A/PDE11A-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+PDE4C	centrosome/detail/PDE4C/PDE4C-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+PDIA6	centrosome/detail/PDIA6/PDIA6-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+PEAR1	centrosome/detail/PEAR1/PEAR1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+PELI1	centrosome/detail/PELI1/PELI1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+PELI2	centrosome/detail/PELI2/PELI2-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+PGBD4	centrosome/detail/PGBD4/PGBD4-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+PHLPP2	centrosome/detail/PHLPP2/PHLPP2-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+PIAS4	centrosome/detail/PIAS4/PIAS4-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+PIBF1	centrosome/detail/PIBF1/PIBF1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+PIK3R5	centrosome/detail/PIK3R5/PIK3R5-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+PINLYP	centrosome/detail/PINLYP/PINLYP-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+PKN2	centrosome/detail/PKN2/PKN2-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+PLAG1	centrosome/detail/PLAG1/PLAG1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+PLCB4	centrosome/detail/PLCB4/PLCB4-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+PLEKHA4	centrosome/detail/PLEKHA4/PLEKHA4-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+PLEKHG6	centrosome/detail/PLEKHG6/PLEKHG6-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+PLEKHG7	centrosome/detail/PLEKHG7/PLEKHG7-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+PLEKHH1	centrosome/detail/PLEKHH1/PLEKHH1-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+PLEKHS1	centrosome/detail/PLEKHS1/PLEKHS1-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+PLK4	centrosome/detail/PLK4/PLK4-centrosome-evaluation.md	96	False	True	False	True	True	True	False	False	False	False	False	False	no PubMed; has TE module
+PLVAP	centrosome/detail/PLVAP/PLVAP-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+PLXNA1	centrosome/detail/PLXNA1/PLXNA1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+PNMA5	centrosome/detail/PNMA5/PNMA5-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+PNPLA7	centrosome/detail/PNPLA7/PNPLA7-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+PODXL	centrosome/detail/PODXL/PODXL-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+POFUT1	centrosome/detail/POFUT1/POFUT1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+POLD4	centrosome/detail/POLD4/POLD4-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+POLR3H	centrosome/detail/POLR3H/POLR3H-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+PPARA	centrosome/detail/PPARA/PPARA-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+PPP4R3B	centrosome/detail/PPP4R3B/PPP4R3B-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+PRICKLE4	centrosome/detail/PRICKLE4/PRICKLE4-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+PRKAR2A	centrosome/detail/PRKAR2A/PRKAR2A-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+PRKCQ	centrosome/detail/PRKCQ/PRKCQ-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+PRPF6	centrosome/detail/PRPF6/PRPF6-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+PRR32	centrosome/detail/PRR32/PRR32-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+PSMA1	centrosome/detail/PSMA1/PSMA1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+PSMB5	centrosome/detail/PSMB5/PSMB5-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+PSMD2	centrosome/detail/PSMD2/PSMD2-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+PSMD5	centrosome/detail/PSMD5/PSMD5-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+PTPN20	centrosome/detail/PTPN20/PTPN20-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+PTPN23	centrosome/detail/PTPN23/PTPN23-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+PURG	centrosome/detail/PURG/PURG-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+PXK	centrosome/detail/PXK/PXK-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+PXN	centrosome/detail/PXN/PXN-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+QRSL1	centrosome/detail/QRSL1/QRSL1-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+RAB11A	centrosome/detail/RAB11A/RAB11A-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+RAB11B	centrosome/detail/RAB11B/RAB11B-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+RAB11FIP3	centrosome/detail/RAB11FIP3/RAB11FIP3-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+RAB11FIP5	centrosome/detail/RAB11FIP5/RAB11FIP5-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+RAB15	centrosome/detail/RAB15/RAB15-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+RAB23	centrosome/detail/RAB23/RAB23-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+RAB26	centrosome/detail/RAB26/RAB26-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+RAB34	centrosome/detail/RAB34/RAB34-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+RAB3A	centrosome/detail/RAB3A/RAB3A-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+RAB3IL1	centrosome/detail/RAB3IL1/RAB3IL1-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+RAB3IP	centrosome/detail/RAB3IP/RAB3IP-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+RAB8A	centrosome/detail/RAB8A/RAB8A-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+RABL2A	centrosome/detail/RABL2A/RABL2A-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+RABL2B	centrosome/detail/RABL2B/RABL2B-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+RABL6	centrosome/detail/RABL6/RABL6-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+RAPGEF6	centrosome/detail/RAPGEF6/RAPGEF6-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+RAPSN	centrosome/detail/RAPSN/RAPSN-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+RASSF7	centrosome/detail/RASSF7/RASSF7-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+RBM39	centrosome/detail/RBM39/RBM39-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+RFPL4A	centrosome/detail/RFPL4A/RFPL4A-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+RFPL4AL1	centrosome/detail/RFPL4AL1/RFPL4AL1-centrosome-evaluation.md	92	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+RGL4	centrosome/detail/RGL4/RGL4-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+RHEBL1	centrosome/detail/RHEBL1/RHEBL1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+RILPL1	centrosome/detail/RILPL1/RILPL1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+RIMKLB	centrosome/detail/RIMKLB/RIMKLB-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+RIOK3	centrosome/detail/RIOK3/RIOK3-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+RLBP1	centrosome/detail/RLBP1/RLBP1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+RMDN1	centrosome/detail/RMDN1/RMDN1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+RNF167	centrosome/detail/RNF167/RNF167-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+RNF39	centrosome/detail/RNF39/RNF39-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+RPP25	centrosome/detail/RPP25/RPP25-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+RRAGD	centrosome/detail/RRAGD/RRAGD-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+RRM1	centrosome/detail/RRM1/RRM1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+RSPH1	centrosome/detail/RSPH1/RSPH1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+RTTN	centrosome/detail/RTTN/RTTN-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+RUNDC3B	centrosome/detail/RUNDC3B/RUNDC3B-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+RUVBL2	centrosome/detail/RUVBL2/RUVBL2-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+S100Z	centrosome/detail/S100Z/S100Z-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+SATB2	centrosome/detail/SATB2/SATB2-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+SAXO2	centrosome/detail/SAXO2/SAXO2-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+SEMA4D	centrosome/detail/SEMA4D/SEMA4D-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+SENP7	centrosome/detail/SENP7/SENP7-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+SERINC5	centrosome/detail/SERINC5/SERINC5-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+SERPINB6	centrosome/detail/SERPINB6/SERPINB6-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+SFR1	centrosome/detail/SFR1/SFR1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+SH2B1	centrosome/detail/SH2B1/SH2B1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+SHD	centrosome/detail/SHD/SHD-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+SHTN1	centrosome/detail/SHTN1/SHTN1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+SIRPB1	centrosome/detail/SIRPB1/SIRPB1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+SKA1	centrosome/detail/SKA1/SKA1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+SKA3	centrosome/detail/SKA3/SKA3-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+SKP1	centrosome/detail/SKP1/SKP1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+SLAIN2	centrosome/detail/SLAIN2/SLAIN2-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+SLC18A2	centrosome/detail/SLC18A2/SLC18A2-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+SLC1A4	centrosome/detail/SLC1A4/SLC1A4-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+SLC1A5	centrosome/detail/SLC1A5/SLC1A5-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+SLC2A1	centrosome/detail/SLC2A1/SLC2A1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+SLC35A4	centrosome/detail/SLC35A4/SLC35A4-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+SLC35D3	centrosome/detail/SLC35D3/SLC35D3-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+SLC35F1	centrosome/detail/SLC35F1/SLC35F1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+SLC8A3	centrosome/detail/SLC8A3/SLC8A3-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+SLC9A3R1	centrosome/detail/SLC9A3R1/SLC9A3R1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+SMAD4	centrosome/detail/SMAD4/SMAD4-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+SMAD7	centrosome/detail/SMAD7/SMAD7-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+SMIM18	centrosome/detail/SMIM18/SMIM18-centrosome-evaluation.md	91	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+SNAP29	centrosome/detail/SNAP29/SNAP29-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+SNAP91	centrosome/detail/SNAP91/SNAP91-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+SNCG	centrosome/detail/SNCG/SNCG-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+SNTB2	centrosome/detail/SNTB2/SNTB2-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+SNX21	centrosome/detail/SNX21/SNX21-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+SORBS1	centrosome/detail/SORBS1/SORBS1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+SP6	centrosome/detail/SP6/SP6-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+SPAG9	centrosome/detail/SPAG9/SPAG9-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+SPICE1	centrosome/detail/SPICE1/SPICE1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+SPIN4	centrosome/detail/SPIN4/SPIN4-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+SPPL2B	centrosome/detail/SPPL2B/SPPL2B-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+SRGAP1	centrosome/detail/SRGAP1/SRGAP1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+SRGAP2	centrosome/detail/SRGAP2/SRGAP2-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+SRGAP2B	centrosome/detail/SRGAP2B/SRGAP2B-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+SRGAP2C	centrosome/detail/SRGAP2C/SRGAP2C-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+SRGAP3	centrosome/detail/SRGAP3/SRGAP3-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+SRRM5	centrosome/detail/SRRM5/SRRM5-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+SSRP1	centrosome/detail/SSRP1/SSRP1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+SSX2IP	centrosome/detail/SSX2IP/SSX2IP-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ST7L	centrosome/detail/ST7L/ST7L-centrosome-evaluation.md	95	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+STEEP1	centrosome/detail/STEEP1/STEEP1-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+STIL	centrosome/detail/STIL/STIL-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+STK11	centrosome/detail/STK11/STK11-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+STK26	centrosome/detail/STK26/STK26-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+STK32A	centrosome/detail/STK32A/STK32A-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+SYNJ1	centrosome/detail/SYNJ1/SYNJ1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+TACC3	centrosome/detail/TACC3/TACC3-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+TACR1	centrosome/detail/TACR1/TACR1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+TAF1D	centrosome/detail/TAF1D/TAF1D-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TAP1	centrosome/detail/TAP1/TAP1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+TAPT1	centrosome/detail/TAPT1/TAPT1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TBC1D31	centrosome/detail/TBC1D31/TBC1D31-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TBC1D8	centrosome/detail/TBC1D8/TBC1D8-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TBX15	centrosome/detail/TBX15/TBX15-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+TCEA2	centrosome/detail/TCEA2/TCEA2-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TCHP	centrosome/detail/TCHP/TCHP-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+TDRKH	centrosome/detail/TDRKH/TDRKH-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TECPR2	centrosome/detail/TECPR2/TECPR2-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+TEK	centrosome/detail/TEK/TEK-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+TEX12	centrosome/detail/TEX12/TEX12-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TEX9	centrosome/detail/TEX9/TEX9-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TGFB3	centrosome/detail/TGFB3/TGFB3-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+TGIF2	centrosome/detail/TGIF2/TGIF2-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+THAP6	centrosome/detail/THAP6/THAP6-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+THBS2	centrosome/detail/THBS2/THBS2-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+TLN1	centrosome/detail/TLN1/TLN1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+TMEM132C	centrosome/detail/TMEM132C/TMEM132C-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TMEM170B	centrosome/detail/TMEM170B/TMEM170B-centrosome-evaluation.md	91	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TMEM63A	centrosome/detail/TMEM63A/TMEM63A-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TMEM63C	centrosome/detail/TMEM63C/TMEM63C-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TMEM86B	centrosome/detail/TMEM86B/TMEM86B-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TNFAIP3	centrosome/detail/TNFAIP3/TNFAIP3-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+TP53TG3	centrosome/detail/TP53TG3/TP53TG3-centrosome-evaluation.md	96	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TP53TG3B	centrosome/detail/TP53TG3B/TP53TG3B-centrosome-evaluation.md	94	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TP53TG3C	centrosome/detail/TP53TG3C/TP53TG3C-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TP53TG3D	centrosome/detail/TP53TG3D/TP53TG3D-centrosome-evaluation.md	92	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TP53TG3E	centrosome/detail/TP53TG3E/TP53TG3E-centrosome-evaluation.md	94	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TP53TG3F	centrosome/detail/TP53TG3F/TP53TG3F-centrosome-evaluation.md	91	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TP73	centrosome/detail/TP73/TP73-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+TRAF5	centrosome/detail/TRAF5/TRAF5-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+TRAPPC14	centrosome/detail/TRAPPC14/TRAPPC14-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TRAT1	centrosome/detail/TRAT1/TRAT1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TRIM15	centrosome/detail/TRIM15/TRIM15-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TRIM2	centrosome/detail/TRIM2/TRIM2-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TRIM34	centrosome/detail/TRIM34/TRIM34-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TRIM38	centrosome/detail/TRIM38/TRIM38-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TRIM46	centrosome/detail/TRIM46/TRIM46-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TRIM6-TRIM34	centrosome/detail/TRIM6-TRIM34/TRIM6-TRIM34-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TRPM1	centrosome/detail/TRPM1/TRPM1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+TRPV3	centrosome/detail/TRPV3/TRPV3-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+TSEN2	centrosome/detail/TSEN2/TSEN2-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TSSK1B	centrosome/detail/TSSK1B/TSSK1B-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TTC21B	centrosome/detail/TTC21B/TTC21B-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TTC30A	centrosome/detail/TTC30A/TTC30A-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TTC30B	centrosome/detail/TTC30B/TTC30B-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TTC39A	centrosome/detail/TTC39A/TTC39A-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TTC6	centrosome/detail/TTC6/TTC6-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TTI2	centrosome/detail/TTI2/TTI2-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TUB	centrosome/detail/TUB/TUB-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+TUBG2	centrosome/detail/TUBG2/TUBG2-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TUBGCP2	centrosome/detail/TUBGCP2/TUBGCP2-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TUBGCP4	centrosome/detail/TUBGCP4/TUBGCP4-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TUBGCP5	centrosome/detail/TUBGCP5/TUBGCP5-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TWSG1	centrosome/detail/TWSG1/TWSG1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TXLNA	centrosome/detail/TXLNA/TXLNA-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+TYSND1	centrosome/detail/TYSND1/TYSND1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+UBA3	centrosome/detail/UBA3/UBA3-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+UBE2Q1	centrosome/detail/UBE2Q1/UBE2Q1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+UBL3	centrosome/detail/UBL3/UBL3-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+UBR4	centrosome/detail/UBR4/UBR4-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+UBXN2A	centrosome/detail/UBXN2A/UBXN2A-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+UGP2	centrosome/detail/UGP2/UGP2-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+UNC5CL	centrosome/detail/UNC5CL/UNC5CL-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+USF3	centrosome/detail/USF3/USF3-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+USP38	centrosome/detail/USP38/USP38-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+UXT	centrosome/detail/UXT/UXT-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+VASH1	centrosome/detail/VASH1/VASH1-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+VCPIP1	centrosome/detail/VCPIP1/VCPIP1-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+VLDLR	centrosome/detail/VLDLR/VLDLR-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+VPS37A	centrosome/detail/VPS37A/VPS37A-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+VSIG10	centrosome/detail/VSIG10/VSIG10-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+WAC	centrosome/detail/WAC/WAC-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+WASHC5	centrosome/detail/WASHC5/WASHC5-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+WDR13	centrosome/detail/WDR13/WDR13-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+WDR19	centrosome/detail/WDR19/WDR19-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+WDR54	centrosome/detail/WDR54/WDR54-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+WDR62	centrosome/detail/WDR62/WDR62-centrosome-evaluation.md	31	True	True	True	False	False	False	False	False	False	False	False	False	lines=31; no structure; no PPI
+WDR83	centrosome/detail/WDR83/WDR83-centrosome-evaluation.md	93	True	True	True	True	True	False	False	False	False	False	True	True	PASS
+WDR90	centrosome/detail/WDR90/WDR90-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ZBED1	centrosome/detail/ZBED1/ZBED1-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ZBED6	centrosome/detail/ZBED6/ZBED6-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ZBTB24	centrosome/detail/ZBTB24/ZBTB24-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ZFAND1	centrosome/detail/ZFAND1/ZFAND1-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ZFP90	centrosome/detail/ZFP90/ZFP90-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ZMYM1	centrosome/detail/ZMYM1/ZMYM1-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ZNF12	centrosome/detail/ZNF12/ZNF12-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ZNF121	centrosome/detail/ZNF121/ZNF121-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ZNF274	centrosome/detail/ZNF274/ZNF274-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ZNF280D	centrosome/detail/ZNF280D/ZNF280D-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ZNF296	centrosome/detail/ZNF296/ZNF296-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ZNF330	centrosome/detail/ZNF330/ZNF330-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ZNF365	centrosome/detail/ZNF365/ZNF365-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ZNF408	centrosome/detail/ZNF408/ZNF408-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ZNF443	centrosome/detail/ZNF443/ZNF443-centrosome-evaluation.md	94	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ZNF616	centrosome/detail/ZNF616/ZNF616-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ZNF620	centrosome/detail/ZNF620/ZNF620-centrosome-evaluation.md	93	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ZNF677	centrosome/detail/ZNF677/ZNF677-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ZNF701	centrosome/detail/ZNF701/ZNF701-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ZNF721	centrosome/detail/ZNF721/ZNF721-centrosome-evaluation.md	97	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ZNF747	centrosome/detail/ZNF747/ZNF747-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ZNF766	centrosome/detail/ZNF766/ZNF766-centrosome-evaluation.md	99	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ZNF780A	centrosome/detail/ZNF780A/ZNF780A-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ZNF780B	centrosome/detail/ZNF780B/ZNF780B-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ZNF799	centrosome/detail/ZNF799/ZNF799-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS
+ZSCAN10	centrosome/detail/ZSCAN10/ZSCAN10-centrosome-evaluation.md	90	True	True	True	True	True	False	False	False	True	True	True	True	PASS

@@ -1,0 +1,712 @@
+gene	has_hpa_url	hpa_urls	local_imgs	total_img_tags	broken	broken_srcs
+AAAS	False			0	False	
+ABCA13	True	https://images.proteinatlas.org/63601/1443_H3_1_selected.jpg		1	False	
+ACADS	False			0	False	
+ACTR8	True	https://images.proteinatlas.org/65236/1202_C11_2_selected.jpg		1	False	
+ACTRT3	True	https://images.proteinatlas.org/35817/442_G5_3_selected.jpg		1	False	
+ADCK2	True	https://images.proteinatlas.org/36036/408_E11_2_selected.jpg		1	False	
+ADNP	False			0	False	
+ADPGK	True	https://images.proteinatlas.org/58525/1178_D9_4_selected.jpg		1	False	
+AGBL5	True	https://images.proteinatlas.org/30981/1773_G1_4_selected.jpg		1	False	
+AGTPBP1	True	https://images.proteinatlas.org/71094/1931_B6_1_selected.jpg		1	False	
+AHI1	False			0	False	
+AK5	False			0	False	
+AK6	True	https://images.proteinatlas.org/70217/1893_L15_29_cr5bc333a09d34e_selected.jpg		1	False	
+AKAP9	False			0	False	
+AKNA	True	https://images.proteinatlas.org/52367/1262_B3_3_selected.jpg		1	False	
+ALDH8A1	True	https://images.proteinatlas.org/55414/1405_C9_3_selected.jpg		1	False	
+ALMS1	False			0	False	
+ALPK1	False			0	False	
+AMN1	True	https://images.proteinatlas.org/62290/1170_A5_4_selected.jpg		1	False	
+ANKAR	True	https://images.proteinatlas.org/36168/434_E8_2_selected.jpg		1	False	
+ANKRD31	True	https://images.proteinatlas.org/38028/2058_H3_5_selected.jpg		1	False	
+ANKRD45	True	https://images.proteinatlas.org/31656/1834_F6_1_selected.jpg		1	False	
+ANP32A	False			0	False	
+ANP32B	False			0	False	
+ANP32E	False			0	False	
+APEX1	False			0	False	
+APOBR	True	https://images.proteinatlas.org/79642/2061_E5_6_selected.jpg		1	False	
+ARHGAP29	True	https://images.proteinatlas.org/26534/290_B4_2_selected.jpg		1	False	
+ARHGAP40	True	https://images.proteinatlas.org/42840/571_B12_1_selected.jpg		1	False	
+ARHGEF38	True	https://images.proteinatlas.org/45484/1362_C6_1_selected.jpg		1	False	
+ARL2BP	True	https://images.proteinatlas.org/43066/504_A8_1_selected.jpg		1	False	
+ARL3	False			0	False	
+ARL9	True	https://images.proteinatlas.org/58135/1901_G21_2_selected.jpg		1	False	
+ASAP1	False			0	False	
+ATAD5	True	https://images.proteinatlas.org/66823/1802_B10_2_selected.jpg		1	False	
+ATF3	False			0	False	
+ATG5	False			0	False	
+ATP11B	True	https://images.proteinatlas.org/36237/393_B4_1_selected.jpg		1	False	
+AUH	False			0	False	
+AUNIP	True	https://images.proteinatlas.org/28730/273_H5_2_selected.jpg		1	False	
+AURKA	False			0	False	
+AVEN	False			0	False	
+B9D2	True	https://images.proteinatlas.org/42229/2166_H11_8_selected.jpg		1	False	
+BAG2	False			0	False	
+BAG5	False			0	False	
+BBIP1	True	https://images.proteinatlas.org/75343/2123_G10_6_selected.jpg		1	False	
+BBOF1	True	https://images.proteinatlas.org/3136/39_F8_1_selected.jpg		1	False	
+BCAR3	True	https://images.proteinatlas.org/14858/121_F6_2_selected.jpg		1	False	
+BCAS2	True	https://images.proteinatlas.org/67881/1754_B11_18_cr57f3d18739590_selected.jpg		1	False	
+BCO1	False			0	False	
+BEAN1	True	https://images.proteinatlas.org/53851/1753_E4_13_cr57f3d7855e52e_selected.jpg		1	False	
+BHLHE22	True	https://images.proteinatlas.org/67500/1913_D11_2_selected.jpg		1	False	
+BICC1	False			0	False	
+BIRC7	False			0	False	
+BLTP1	True	https://images.proteinatlas.org/38076/440_G7_1_selected.jpg		1	False	
+BRAF	False			0	False	
+BRMS1	False			0	False	
+BUD31	True	https://images.proteinatlas.org/28943/297_G2_1_selected.jpg		1	False	
+C11orf80	True	https://images.proteinatlas.org/38933/415_C12_1_selected.jpg		1	False	
+C12orf73	True	https://images.proteinatlas.org/38883/448_A1_1_selected.jpg		1	False	
+C16orf74	True	https://images.proteinatlas.org/49367/779_D9_4_selected.jpg		1	False	
+C16orf96	True	https://images.proteinatlas.org/42009/2104_E1_2_selected.jpg		1	False	
+C19orf54	True	https://images.proteinatlas.org/59043/1719_F4_18_cr5804ad8040fb7_selected.jpg		1	False	
+C1QTNF2	True	https://images.proteinatlas.org/61290/1241_F4_6_selected.jpg		1	False	
+C1orf146	True	https://images.proteinatlas.org/74051/1943_A8_1_selected.jpg		1	False	
+C20orf96	True	https://images.proteinatlas.org/48649/864_E9_3_selected.jpg		1	False	
+C2CD3	True	https://images.proteinatlas.org/40433/1177_B4_2_selected.jpg		1	False	
+C2CD5	True	https://images.proteinatlas.org/46194/1177_H9_3_selected.jpg		1	False	
+C2orf74	True	https://images.proteinatlas.org/26826/335_F2_2_selected.jpg		1	False	
+C3orf49	True	https://images.proteinatlas.org/53582/1916_A3_20_cr5c99f1c2712b3_selected.jpg		1	False	
+C3orf56	True	https://images.proteinatlas.org/55395/1970_G10_1_selected.jpg		1	False	
+C5orf58	True	https://images.proteinatlas.org/52795/2144_D1_2_selected.jpg		1	False	
+C9orf40	True	https://images.proteinatlas.org/42167/462_C9_2_selected.jpg		1	False	
+CABCOCO1	True	https://images.proteinatlas.org/41398/1381_A4_5_selected.jpg		1	False	
+CALCR	False			0	False	
+CALML6	True	https://images.proteinatlas.org/5912/72_H9_2_selected.jpg		1	False	
+CAMK2N2	True	https://images.proteinatlas.org/50835/1076_A3_2_selected.jpg		1	False	
+CAPN6	True	https://images.proteinatlas.org/40259/2081_E4_4_selected.jpg		1	False	
+CAPN7	True	https://images.proteinatlas.org/4745/1925_F1_10_cr5cd5395e6ce56_selected.jpg		1	False	
+CAPRIN1	False			0	False	
+CAPRIN2	True	https://images.proteinatlas.org/39746/427_A9_2_selected.jpg		1	False	
+CAPS2	False			0	False	
+CASP8	False			0	False	
+CBY1	True	https://images.proteinatlas.org/20360/1732_H9_22_cr5806123c90e4e_selected.jpg		1	False	
+CCDC13	True	https://images.proteinatlas.org/47429/2161_C3_42_selected.jpg		1	False	
+CCDC14	False			0	False	
+CCDC32	True	https://images.proteinatlas.org/41360/2034_B10_9_cr604752d80da29_selected.jpg		1	False	
+CCDC39	True	https://images.proteinatlas.org/35364/381_D2_2_selected.jpg		1	False	
+CCDC51	True	https://images.proteinatlas.org/10980/87_D5_2_selected.jpg		1	False	
+CCDC57	True	https://images.proteinatlas.org/23315/182_A6_2_selected.jpg		1	False	
+CCDC65	True	https://images.proteinatlas.org/57573/1718_E11_8_cr580cfad16b950_selected.jpg		1	False	
+CCDC66	True	https://images.proteinatlas.org/44185/2121_F3_43_selected.jpg		1	False	
+CCDC74A	True	https://images.proteinatlas.org/46284/765_G5_3_selected.jpg		1	False	
+CCDC74B	True	https://images.proteinatlas.org/46284/765_G5_3_selected.jpg		1	False	
+CCDC88A	False			0	False	
+CCDC88B	True	https://images.proteinatlas.org/26652/249_H4_1_selected.jpg		1	False	
+CCDC92	True	https://images.proteinatlas.org/57580/1592_E4_3_selected.jpg		1	False	
+CCNF	False			0	False	
+CCNO	False			0	False	
+CCP110	False			0	False	
+CD163L1	True	https://images.proteinatlas.org/15663/1183_C10_2_selected.jpg		1	False	
+CD226	False			0	False	
+CD2AP	False			0	False	
+CD86	False			0	False	
+CDC45	False			0	False	
+CDIP1	True	https://images.proteinatlas.org/49352/785_D12_5_selected.jpg		1	False	
+CDK2	False			0	False	
+CDK5RAP2	False			0	False	
+CDKL2	True	https://images.proteinatlas.org/40672/413_D9_2_selected.jpg		1	False	
+CDKN1B	False			0	False	
+CENPJ	False			0	False	
+CENPU	True	https://images.proteinatlas.org/22048/192_E2_1_selected.jpg		1	False	
+CEP112	True	https://images.proteinatlas.org/69724/1806_C6_3_selected.jpg		1	False	
+CEP128	True	https://images.proteinatlas.org/5846/2100_D6_1_selected.jpg		1	False	
+CEP131	True	https://images.proteinatlas.org/24019/2165_B5_54_selected.jpg		1	False	
+CEP152	True	https://images.proteinatlas.org/39408/491_C1_1_selected.jpg		1	False	
+CEP162	True	https://images.proteinatlas.org/30170/270_H6_1_selected.jpg		1	False	
+CEP164	False			0	False	
+CEP170	True	https://images.proteinatlas.org/45597/1000_F7_2_selected.jpg		1	False	
+CEP170B	True	https://images.proteinatlas.org/1773/1891_E2_1_cr5b8d15002f180_selected.jpg		1	False	
+CEP19	True	https://images.proteinatlas.org/71138/1487_D12_1_selected.jpg		1	False	
+CEP192	False			0	False	
+CEP20	True	https://images.proteinatlas.org/40599/494_H10_1_selected.jpg		1	False	
+CEP250	True	https://images.proteinatlas.org/69380/1849_H10_31_selected.jpg		1	False	
+CEP290	False			0	False	
+CEP350	True	https://images.proteinatlas.org/30845/789_B2_5_selected.jpg		1	False	
+CEP43	True	https://images.proteinatlas.org/71876/1406_B3_7_selected.jpg		1	False	
+CEP55	False			0	False	
+CEP57	True	https://images.proteinatlas.org/66403/2034_E1_4_selected.jpg		1	False	
+CEP63	False			0	False	
+CEP68	True	https://images.proteinatlas.org/40493/2165_G3_7_selected.jpg		1	False	
+CEP70	True	https://images.proteinatlas.org/36941/408_D5_2_selected.jpg		1	False	
+CEP72	False			0	False	
+CEP85	True	https://images.proteinatlas.org/28252/281_B3_2_selected.jpg		1	False	
+CEP89	True	https://images.proteinatlas.org/39382/539_C1_1_selected.jpg		1	False	
+CEP95	True	https://images.proteinatlas.org/61371/1171_A3_4_selected.jpg		1	False	
+CEP97	False			0	False	
+CETN2	False			0	False	
+CETN3	True	https://images.proteinatlas.org/63704/1152_B2_1_selected.jpg		1	False	
+CFAP298	True	https://images.proteinatlas.org/18453/2124_D9_66_selected.jpg		1	False	
+CFAP300	True	https://images.proteinatlas.org/38585/2165_H5_45_selected.jpg		1	False	
+CFAP418	True	https://images.proteinatlas.org/24198/263_F6_2_selected.jpg		1	False	
+CFAP52	True	https://images.proteinatlas.org/23247/216_G1_2_selected.jpg		1	False	
+CFAP70	True	https://images.proteinatlas.org/37582/1440_D9_3_selected.jpg		1	False	
+CHD3	False			0	False	
+CHMP1A	True	https://images.proteinatlas.org/6776/8_C3_1_selected.jpg		1	False	
+CHODL	True	https://images.proteinatlas.org/57559/1981_C2_2_selected.jpg		1	False	
+CHPF	False			0	False	
+CHST15	True	https://images.proteinatlas.org/17584/173_C4_1_selected.jpg		1	False	
+CIB2	True	https://images.proteinatlas.org/36697/427_E4_3_selected.jpg		1	False	
+CIP2A	False			0	False	
+CKAP2	True	https://images.proteinatlas.org/8410/2265_B1_35_selected.jpg		1	False	
+CKAP5	False			0	False	
+CLEC11A	True	https://images.proteinatlas.org/42690/487_E9_2_selected.jpg		1	False	
+CLHC1	True	https://images.proteinatlas.org/53557/819_H11_1_selected.jpg		1	False	
+CLIC4	False			0	False	
+CLRN1	False			0	False	
+CLTC	False			0	False	
+CNOT10	True	https://images.proteinatlas.org/41450/723_A2_2_selected.jpg		1	False	
+CNTLN	True	https://images.proteinatlas.org/7201/1595_H11_3_selected.jpg		1	False	
+CNTRL	True	https://images.proteinatlas.org/20468/2055_E1_4_selected.jpg		1	False	
+CNTROB	True	https://images.proteinatlas.org/23321/194_A9_1_selected.jpg		1	False	
+CPA4	True	https://images.proteinatlas.org/21030/246_C2_1_selected.jpg		1	False	
+CPE	False			0	False	
+CRACDL	True	https://images.proteinatlas.org/61678/1178_D4_2_selected.jpg		1	False	
+CREB1	False			0	False	
+CREB3	False			0	False	
+CRIP1	False			0	False	
+CRMP1	False			0	False	
+CROCC	True	https://images.proteinatlas.org/21191/191_A8_1_selected.jpg		1	False	
+CSPP1	True	https://images.proteinatlas.org/56174/1035_C2_1_selected.jpg		1	False	
+CTNNBL1	True	https://images.proteinatlas.org/27906/1832_G6_2_selected.jpg		1	False	
+CUEDC1	True	https://images.proteinatlas.org/24836/232_G8_1_selected.jpg		1	False	
+CYB5B	True	https://images.proteinatlas.org/7893/20_C4_2_selected.jpg		1	False	
+CYLD	False			0	False	
+CYTH4	True	https://images.proteinatlas.org/4065/1926_D3_2_selected.jpg		1	False	
+DAPK1	False			0	False	
+DCAF13	True	https://images.proteinatlas.org/44504/987_F5_2_selected.jpg		1	False	
+DCC	False			0	False	
+DCDC2	False			0	False	
+DCTN2	False			0	False	
+DCTN4	True	https://images.proteinatlas.org/17532/952_C3_3_selected.jpg		1	False	
+DDHD2	True	https://images.proteinatlas.org/23147/194_H6_1_selected.jpg		1	False	
+DDX59	True	https://images.proteinatlas.org/47166/2186_D7_55_selected.jpg		1	False	
+DDX60	False			0	False	
+DENND1C	True	https://images.proteinatlas.org/42758/1825_B1_11_cr5afa870716d27_selected.jpg		1	False	
+DHRS1	True	https://images.proteinatlas.org/599/39_A1_1_selected.jpg		1	False	
+DHX35	True	https://images.proteinatlas.org/62700/1141_E7_1_selected.jpg		1	False	
+DIS3L	True	https://images.proteinatlas.org/41805/418_A5_1_selected.jpg		1	False	
+DLG4	False			0	False	
+DMBT1	False			0	False	
+DMRT2	False			0	False	
+DNAH12	True	https://images.proteinatlas.org/37493/2199_C11_17_selected.jpg		1	False	
+DNAH14	True	https://images.proteinatlas.org/28545/1741_A4_31_selected.jpg		1	False	
+DNAH6	True	https://images.proteinatlas.org/36391/2147_C3_15_selected.jpg		1	False	
+DNAJA4	True	https://images.proteinatlas.org/41790/859_E1_4_selected.jpg		1	False	
+DNAJC28	True	https://images.proteinatlas.org/77153/1953_A12_2_selected.jpg		1	False	
+DNAL1	True	https://images.proteinatlas.org/53129/2161_F8_8_selected.jpg		1	False	
+DNAL4	True	https://images.proteinatlas.org/3647/22_C11_1_selected.jpg		1	False	
+DPF2	True	https://images.proteinatlas.org/56786/919_B9_2_selected.jpg		1	False	
+DRD4	False			0	False	
+DUSP21	True	https://images.proteinatlas.org/59171/2212_B9_30_selected.jpg		1	False	
+DVL3	False			0	False	
+DYNC1H1	False			0	False	
+DYNC1I2	True	https://images.proteinatlas.org/40619/2204_H11_3_selected.jpg		1	False	
+DYNC1LI1	True	https://images.proteinatlas.org/35013/378_C5_2_selected.jpg		1	False	
+DYNC1LI2	True	https://images.proteinatlas.org/49538/2199_F10_14_selected.jpg		1	False	
+DYNC2I1	True	https://images.proteinatlas.org/20607/2075_F9_2_selected.jpg		1	False	
+DYNC2I2	True	https://images.proteinatlas.org/40764/420_A8_1_selected.jpg		1	False	
+DYRK1A	False			0	False	
+DYSF	False			0	False	
+DZIP1	True	https://images.proteinatlas.org/57272/2171_B9_120_selected.jpg		1	False	
+E2F1	False			0	False	
+EDRF1	True	https://images.proteinatlas.org/31820/372_F11_4_selected.jpg		1	False	
+EEF1AKMT3	True	https://images.proteinatlas.org/45492/1806_A5_1_selected.jpg		1	False	
+EID2	False			0	False	
+ELP6	True	https://images.proteinatlas.org/64545/1202_E4_3_selected.jpg		1	False	
+EMC6	True	https://images.proteinatlas.org/62681/1194_F10_4_selected.jpg		1	False	
+EMSY	False			0	False	
+ENGASE	False			0	False	
+ENKD1	True	https://images.proteinatlas.org/41163/534_F8_2_selected.jpg		1	False	
+ENSG00000144785	True	https://images.proteinatlas.org/68007/1842_E9_61_selected.jpg		1	False	
+ENSG00000256514	True	https://images.proteinatlas.org/78008/1872_F12_4_selected.jpg		1	False	
+ENSG00000268870	True	https://images.proteinatlas.org/18683/1055_C9_2_selected.jpg		1	False	
+ENSG00000272772	True	https://images.proteinatlas.org/53745/840_C4_1_selected.jpg		1	False	
+ENSG00000272980	True	https://images.proteinatlas.org/71876/1406_B3_7_selected.jpg		1	False	
+ENSG00000273217	True	https://images.proteinatlas.org/37983/758_D10_2_selected.jpg		1	False	
+ENSG00000274175	True	https://images.proteinatlas.org/47832/1361_A6_9_selected.jpg		1	False	
+ENSG00000274792	True	https://images.proteinatlas.org/57442/1296_D4_5_selected.jpg		1	False	
+ENSG00000275869	True	https://images.proteinatlas.org/60916/1925_C6_19_cr5cd56ad920a45_selected.jpg		1	False	
+ENSG00000280571	True	https://images.proteinatlas.org/47429/2161_C3_42_selected.jpg		1	False	
+ENSG00000285188	True	https://images.proteinatlas.org/54218/1953_B8_6_selected.jpg		1	False	
+ENSG00000285837	True	https://images.proteinatlas.org/52446/1201_D2_6_selected.jpg		1	False	
+ENSG00000288637	True	https://images.proteinatlas.org/35854/569_A5_2_selected.jpg		1	False	
+EP300	False			0	False	
+EPS8L2	True	https://images.proteinatlas.org/41143/557_C12_2_selected.jpg		1	False	
+ERC1	False			0	False	
+ERCC6L	True	https://images.proteinatlas.org/50492/831_B11_3_selected.jpg		1	False	
+ERVV-1	True	https://images.proteinatlas.org/76115/1968_B4_3_selected.jpg		1	False	
+ERVV-2	True	https://images.proteinatlas.org/76115/1968_B4_3_selected.jpg		1	False	
+EXOC6	True	https://images.proteinatlas.org/36285/407_E9_2_selected.jpg		1	False	
+EXTL1	True	https://images.proteinatlas.org/10726/1986_B10_2_cr5e5e293711418_selected.jpg		1	False	
+EYA3	False			0	False	
+FAM117B	True	https://images.proteinatlas.org/28746/1178_F7_1_selected.jpg		1	False	
+FAM161A	True	https://images.proteinatlas.org/64830/1273_G6_3_selected.jpg		1	False	
+FAM184A	True	https://images.proteinatlas.org/34571/1036_A12_2_selected.jpg		1	False	
+FAM186B	True	https://images.proteinatlas.org/39736/539_A10_1_selected.jpg		1	False	
+FAM241B	True	https://images.proteinatlas.org/34591/428_C5_2_selected.jpg		1	False	
+FANCE	False			0	False	
+FBF1	True	https://images.proteinatlas.org/23677/237_G11_2_selected.jpg		1	False	
+FBXO21	True	https://images.proteinatlas.org/71452/1923_D2_32_selected.jpg		1	False	
+FBXO9	True	https://images.proteinatlas.org/64246/1169_D12_2_selected.jpg		1	False	
+FCHO2	True	https://images.proteinatlas.org/77850/1744_C7_12_cr580488e1f2732_selected.jpg		1	False	
+FCMR	True	https://images.proteinatlas.org/3910/78_A3_2_selected.jpg		1	False	
+FEZF2	False			0	False	
+FGF11	True	https://images.proteinatlas.org/66605/1573_C7_1_selected.jpg		1	False	
+FGF23	False			0	False	
+FGFR1	False			0	False	
+FHDC1	True	https://images.proteinatlas.org/8603/2145_F4_74_selected.jpg		1	False	
+FKBP11	True	https://images.proteinatlas.org/41709/472_E6_1_selected.jpg		1	False	
+FLII	False			0	False	
+FLT4	False			0	False	
+FNDC3A	True	https://images.proteinatlas.org/12555/1936_E5_1_selected.jpg		1	False	
+FNIP2	True	https://images.proteinatlas.org/52758/863_G10_3_selected.jpg		1	False	
+FNTB	True	https://images.proteinatlas.org/62743/1246_E5_3_selected.jpg		1	False	
+FRMD4B	True	https://images.proteinatlas.org/9705/2055_C3_2_selected.jpg		1	False	
+FRMD8	True	https://images.proteinatlas.org/2861/93_B11_1_selected.jpg		1	False	
+G6PD	False			0	False	
+GAPDHS	False			0	False	
+GAS6	False			0	False	
+GATD3	True	https://images.proteinatlas.org/18517/1081_C3_1_selected.jpg		1	False	
+GINS4	True	https://images.proteinatlas.org/61075/1138_C9_2_selected.jpg		1	False	
+GKAP1	True	https://images.proteinatlas.org/35118/1834_D6_2_selected.jpg		1	False	
+GLI2	False			0	False	
+GLP1R	False			0	False	
+GLT8D1	True	https://images.proteinatlas.org/8808/1891_E5_24_cr5ba0baf2acf9e_selected.jpg		1	False	
+GNAI1	False			0	False	
+GNAI3	False			0	False	
+GNB5	False			0	False	
+GOLGA6A	True	https://images.proteinatlas.org/72134/1968_G6_6_selected.jpg		1	False	
+GOLGA6B	True	https://images.proteinatlas.org/72134/1968_G6_6_selected.jpg		1	False	
+GOLGA6C	True	https://images.proteinatlas.org/72134/1968_G6_6_selected.jpg		1	False	
+GOLGA6D	True	https://images.proteinatlas.org/72134/1968_G6_6_selected.jpg		1	False	
+GPAA1	True	https://images.proteinatlas.org/77224/1615_D4_7_selected.jpg		1	False	
+GPR162	True	https://images.proteinatlas.org/55135/874_F2_4_selected.jpg		1	False	
+GPR174	True	https://images.proteinatlas.org/58306/2010_D1_4_selected.jpg		1	False	
+GPSM2	False			0	False	
+GRAP	False			0	False	
+GRAPL	True	https://images.proteinatlas.org/66654/1407_C1_5_selected.jpg		1	False	
+GRB2	False			0	False	
+GTSE1	False			0	False	
+GVQW3	True	https://images.proteinatlas.org/57405/1338_F4_1_selected.jpg		1	False	
+GYG2	True	https://images.proteinatlas.org/64686/1269_E9_1_selected.jpg		1	False	
+HAUS1	True	https://images.proteinatlas.org/40601/1773_E4_2_selected.jpg		1	False	
+HAUS2	True	https://images.proteinatlas.org/39965/460_E11_1_selected.jpg		1	False	
+HAUS6	True	https://images.proteinatlas.org/20965/178_C10_1_selected.jpg		1	False	
+HAUS7	True	https://images.proteinatlas.org/3614/57_B7_1_selected.jpg		1	False	
+HDAC6	False			0	False	
+HIPK1	True	https://images.proteinatlas.org/16664/131_E7_2_selected.jpg		1	False	
+HK2	False			0	False	
+HMMR	False			0	False	
+HMX3	True	https://images.proteinatlas.org/69659/1352_A9_6_selected.jpg		1	False	
+HNMT	False			0	False	
+HOOK3	True	https://images.proteinatlas.org/24756/230_A8_1_selected.jpg		1	False	
+HORMAD2	True	https://images.proteinatlas.org/43880/1944_B9_4_selected.jpg		1	False	
+HOXB4	False			0	False	
+HSPA4L	True	https://images.proteinatlas.org/39149/722_H1_2_selected.jpg		1	False	
+HSPBP1	True	https://images.proteinatlas.org/70398/1872_H4_36_selected.jpg		1	False	
+ID2	False			0	False	
+IFT43	True	https://images.proteinatlas.org/3438/2120_D1_18_selected.jpg		1	False	
+IFT57	True	https://images.proteinatlas.org/35515/2201_D8_31_selected.jpg		1	False	
+IFT74	True	https://images.proteinatlas.org/26684/2121_A9_21_selected.jpg		1	False	
+IFT81	True	https://images.proteinatlas.org/20051/183_C10_1_selected.jpg		1	False	
+IFT88	False			0	False	
+IL1RN	False			0	False	
+IL4R	False			0	False	
+ILRUN	True	https://images.proteinatlas.org/34490/601_E3_1_selected.jpg		1	False	
+INPP1	True	https://images.proteinatlas.org/36698/450_F10_2_selected.jpg		1	False	
+INPP4B	False			0	False	
+INSR	False			0	False	
+INTS6L	True	https://images.proteinatlas.org/30747/1001_C12_2_selected.jpg		1	False	
+INVS	False			0	False	
+IQSEC1	True	https://images.proteinatlas.org/69864/1949_H11_3_selected.jpg		1	False	
+ISM2	False			0	False	
+ITGB6	False			0	False	
+ITPRIPL2	True	https://images.proteinatlas.org/42011/1168_H1_1_selected.jpg		1	False	
+IVL	False			0	False	
+JADE1	True	https://images.proteinatlas.org/72897/1968_G8_4_selected.jpg		1	False	
+KATNA1	True	https://images.proteinatlas.org/36207/389_C12_2_selected.jpg		1	False	
+KATNAL1	True	https://images.proteinatlas.org/39759/2173_C10_1_selected.jpg		1	False	
+KATNIP	True	https://images.proteinatlas.org/35090/2201_B8_75_selected.jpg		1	False	
+KCNH5	False			0	False	
+KCTD1	True	https://images.proteinatlas.org/57808/1117_F7_16_selected.jpg		1	False	
+KCTD16	True	https://images.proteinatlas.org/44590/2217_F10_13_selected.jpg		1	False	
+KCTD4	True	https://images.proteinatlas.org/40734/420_C8_5_selected.jpg		1	False	
+KEAP1	False			0	False	
+KIAA0753	True	https://images.proteinatlas.org/23057/222_D10_1_selected.jpg		1	False	
+KIF19	True	https://images.proteinatlas.org/43638/559_D11_3_selected.jpg		1	False	
+KIF1A	False			0	False	
+KIF20B	True	https://images.proteinatlas.org/50214/1833_D10_7_selected.jpg		1	False	
+KIF2A	False			0	False	
+KIF2C	False			0	False	
+KIF5B	False			0	False	
+KIF6	True	https://images.proteinatlas.org/58624/1325_B4_3_selected.jpg		1	False	
+KIFC1	False			0	False	
+KIRREL2	True	https://images.proteinatlas.org/74326/1778_E11_1_selected.jpg		1	False	
+KLC3	True	https://images.proteinatlas.org/52797/838_B12_5_selected.jpg		1	False	
+KLHL12	True	https://images.proteinatlas.org/71324/1487_C7_2_selected.jpg		1	False	
+KLHL21	True	https://images.proteinatlas.org/59307/1017_G5_2_selected.jpg		1	False	
+KLHL30	True	https://images.proteinatlas.org/62095/1416_E11_2_selected.jpg		1	False	
+KLHL35	True	https://images.proteinatlas.org/39864/1179_F9_1_selected.jpg		1	False	
+KLHL4	True	https://images.proteinatlas.org/29192/275_D9_2_selected.jpg		1	False	
+KLHL6	True	https://images.proteinatlas.org/24512/1848_B9_28_cr5bb74d40e4039_selected.jpg		1	False	
+KMT5B	True	https://images.proteinatlas.org/38509/1800_A7_4_selected.jpg		1	False	
+KNSTRN	True	https://images.proteinatlas.org/42027/1899_D5_32_selected.jpg		1	False	
+KXD1	True	https://images.proteinatlas.org/41507/486_H5_1_selected.jpg		1	False	
+LAMP5	True	https://images.proteinatlas.org/70765/1430_C2_1_selected.jpg		1	False	
+LAS1L	True	https://images.proteinatlas.org/44431/516_B9_1_selected.jpg		1	False	
+LATS2	False			0	False	
+LCA5	True	https://images.proteinatlas.org/29054/1500_C1_5_selected.jpg		1	False	
+LEO1	True	https://images.proteinatlas.org/40741/429_G11_1_selected.jpg		1	False	
+LEPROT	True	https://images.proteinatlas.org/69444/1586_B2_2_selected.jpg		1	False	
+LGI2	True	https://images.proteinatlas.org/17140/133_B12_2_selected.jpg		1	False	
+LGR4	False			0	False	
+LGR5	False			0	False	
+LHCGR	False			0	False	
+LINC02203	True	https://images.proteinatlas.org/57442/1296_D4_5_selected.jpg		1	False	
+LMF2	True	https://images.proteinatlas.org/62626/1104_E10_3_selected.jpg		1	False	
+LMNTD1	True	https://images.proteinatlas.org/38640/1541_B1_1_selected.jpg		1	False	
+LMTK2	True	https://images.proteinatlas.org/10657/45_H7_2_selected.jpg		1	False	
+LONRF1	True	https://images.proteinatlas.org/23584/236_E8_2_selected.jpg		1	False	
+LRIF1	True	https://images.proteinatlas.org/44515/1177_H1_3_selected.jpg		1	False	
+LRRC45	True	https://images.proteinatlas.org/23372/369_B10_2_selected.jpg		1	False	
+LRRC7	True	https://images.proteinatlas.org/5625/1813_E8_4_cr59f33fe02e648_selected.jpg		1	False	
+LRRCC1	True	https://images.proteinatlas.org/75880/1813_G3_25_cr5a042b387ce46_selected.jpg		1	False	
+LRRN1	True	https://images.proteinatlas.org/11071/87_H8_1_selected.jpg		1	False	
+LTB	False			0	False	
+LUZP1	True	https://images.proteinatlas.org/28542/257_D9_1_selected.jpg		1	False	
+LY9	False			0	False	
+LYST	False			0	False	
+LZTR1	False			0	False	
+MAGEB16	True	https://images.proteinatlas.org/76456/1854_H5_2_selected.jpg		1	False	
+MAL	False			0	False	
+MAMLD1	True	https://images.proteinatlas.org/3923/1401_A5_6_selected.jpg		1	False	
+MAP3K11	True	https://images.proteinatlas.org/10165/970_H1_3_selected.jpg		1	False	
+MAP3K13	True	https://images.proteinatlas.org/16497/1271_B2_6_selected.jpg		1	False	
+MAP4K3	False			0	False	
+MAP7D3	True	https://images.proteinatlas.org/35598/2121_E1_43_selected.jpg		1	False	
+MAP9	True	https://images.proteinatlas.org/37864/2167_G2_80_selected.jpg		1	False	
+MAPK8IP3	False			0	False	
+MAPKAPK2	False			0	False	
+MAPRE1	False			0	False	
+MATK	False			0	False	
+MCF2L2	True	https://images.proteinatlas.org/61485/2034_G8_22_cr6047760e38fb4_selected.jpg		1	False	
+MDH1	False			0	False	
+MDM1	True	https://images.proteinatlas.org/41594/539_E4_6_selected.jpg		1	False	
+MDM2	False			0	False	
+MFAP1	True	https://images.proteinatlas.org/15583/1858_F5_33_selected.jpg		1	False	
+MGAT4C	True	https://images.proteinatlas.org/16418/1969_D1_5_selected.jpg		1	False	
+MIB1	False			0	False	
+MICALL1	True	https://images.proteinatlas.org/43480/472_H6_1_selected.jpg		1	False	
+MID1	False			0	False	
+MKKS	False			0	False	
+MLF1	False			0	False	
+MME	False			0	False	
+MPDZ	False			0	False	
+MPHOSPH9	True	https://images.proteinatlas.org/37485/440_G12_2_selected.jpg		1	False	
+MPP1	False			0	False	
+MT-ND4L	True	https://images.proteinatlas.org/75648/1732_A6_18_cr5806224e592fb_selected.jpg		1	False	
+MTHFR	False			0	False	
+MTMR11	True	https://images.proteinatlas.org/30351/295_G10_2_selected.jpg		1	False	
+MTMR9	True	https://images.proteinatlas.org/70944/1446_H10_1_selected.jpg		1	False	
+MYO18B	True	https://images.proteinatlas.org/953/1165_G3_2_selected.jpg		1	False	
+MYO5A	False			0	False	
+MYOF	False			0	False	
+MZT2A	True	https://images.proteinatlas.org/51758/987_D8_2_selected.jpg		1	False	
+MZT2B	True	https://images.proteinatlas.org/52623/767_B6_5_selected.jpg		1	False	
+N4BP3	True	https://images.proteinatlas.org/30973/1162_D8_5_selected.jpg		1	False	
+N6AMT1	False			0	False	
+NAA11	True	https://images.proteinatlas.org/35922/1854_F3_5_selected.jpg		1	False	
+NAA40	True	https://images.proteinatlas.org/56142/975_E6_2_selected.jpg		1	False	
+NAE1	False			0	False	
+NCAPD2	True	https://images.proteinatlas.org/37363/540_G6_2_selected.jpg		1	False	
+NDC80	False			0	False	
+NDRG2	False			0	False	
+NEDD1	False			0	False	
+NEFH	False			0	False	
+NEK1	False			0	False	
+NEK2	False			0	False	
+NEK6	False			0	False	
+NEUROD4	True	https://images.proteinatlas.org/55750/2231_C4_2_selected.jpg		1	False	
+NFE2L2	False			0	False	
+NIN	False			0	False	
+NIT2	False			0	False	
+NLRC3	False			0	False	
+NLRC5	False			0	False	
+NME9	True	https://images.proteinatlas.org/43881/1961_H7_5_selected.jpg		1	False	
+NMRK1	True	https://images.proteinatlas.org/49795/1177_D8_1_selected.jpg		1	False	
+NPTX2	False			0	False	
+NR0B1	False			0	False	
+NR6A1	False			0	False	
+NUBP1	True	https://images.proteinatlas.org/41656/571_B1_2_selected.jpg		1	False	
+NUDT21	False			0	False	
+NUDT5	True	https://images.proteinatlas.org/19827/248_F6_2_selected.jpg		1	False	
+NUP107	False			0	False	
+OAS2	False			0	False	
+OAZ1	True	https://images.proteinatlas.org/9291/45_D2_2_selected.jpg		1	False	
+OBSL1	True	https://images.proteinatlas.org/36405/544_B10_2_selected.jpg		1	False	
+OCRL	False			0	False	
+ODAD4	True	https://images.proteinatlas.org/23908/1834_H3_1_selected.jpg		1	False	
+ODF2	False			0	False	
+OR4M2-OT1	True	https://images.proteinatlas.org/57442/1296_D4_5_selected.jpg		1	False	
+OR4N4	True	https://images.proteinatlas.org/57442/1296_D4_5_selected.jpg		1	False	
+OR4N4C	True	https://images.proteinatlas.org/57442/1296_D4_5_selected.jpg		1	False	
+PACSIN2	False			0	False	
+PAFAH1B1	False			0	False	
+PAOX	True	https://images.proteinatlas.org/47782/1011_H2_12_selected.jpg		1	False	
+PATJ	False			0	False	
+PCDH9	False			0	False	
+PCDHB15	True	https://images.proteinatlas.org/7172/1364_E8_3_selected.jpg		1	False	
+PCLAF	False			0	False	
+PCM1	False			0	False	
+PCNT	False			0	False	
+PDCD6IP	False			0	False	
+PDCL2	False			0	False	
+PDE11A	False			0	False	
+PDE4C	False			0	False	
+PDIA6	False			0	False	
+PEAR1	False			0	False	
+PELI1	False			0	False	
+PELI2	True	https://images.proteinatlas.org/53182/802_C3_1_selected.jpg		1	False	
+PGBD4	True	https://images.proteinatlas.org/59823/1411_C3_3_selected.jpg		1	False	
+PHLPP2	False			0	False	
+PIAS4	False			0	False	
+PIBF1	False			0	False	
+PIK3R5	True	https://images.proteinatlas.org/52412/1688_D7_8_cr57f3f0aa6814e_selected.jpg		1	False	
+PINLYP	True	https://images.proteinatlas.org/61218/1336_C5_4_selected.jpg		1	False	
+PKN2	False			0	False	
+PLAG1	False			0	False	
+PLCB4	False			0	False	
+PLEKHA4	True	https://images.proteinatlas.org/48473/1898_H10_31_selected.jpg		1	False	
+PLEKHG6	True	https://images.proteinatlas.org/58230/1251_H6_2_selected.jpg		1	False	
+PLEKHG7	True	https://images.proteinatlas.org/47623/1943_E7_2_selected.jpg		1	False	
+PLEKHH1	True	https://images.proteinatlas.org/47707/1208_H5_4_selected.jpg		1	False	
+PLEKHS1	True	https://images.proteinatlas.org/37583/1396_F12_9_selected.jpg		1	False	
+PLK4	False			0	False	
+PLVAP	False			0	False	
+PLXNA1	False			0	False	
+PNMA5	True	https://images.proteinatlas.org/44690/545_D7_1_selected.jpg		1	False	
+PNPLA7	True	https://images.proteinatlas.org/9130/48_G5_1_selected.jpg		1	False	
+PODXL	False			0	False	
+POFUT1	False			0	False	
+POLD4	True	https://images.proteinatlas.org/78008/1872_F12_4_selected.jpg		1	False	
+POLR3H	True	https://images.proteinatlas.org/46787/812_H6_1_selected.jpg		1	False	
+PPARA	False			0	False	
+PPP4R3B	True	https://images.proteinatlas.org/1233/54_E10_2_selected.jpg		1	False	
+PRICKLE4	True	https://images.proteinatlas.org/31240/1660_E6_2_selected.jpg		1	False	
+PRKAR2A	False			0	False	
+PRKCQ	False			0	False	
+PRPF6	True	https://images.proteinatlas.org/47106/871_E9_2_selected.jpg		1	False	
+PRR32	True	https://images.proteinatlas.org/48386/1944_D2_2_selected.jpg		1	False	
+PSMA1	False			0	False	
+PSMB5	False			0	False	
+PSMD2	False			0	False	
+PSMD5	True	https://images.proteinatlas.org/3216/60_C12_1_selected.jpg		1	False	
+PTPN20	True	https://images.proteinatlas.org/46896/1636_A6_8_cr57bee3538d886_selected.jpg		1	False	
+PTPN23	True	https://images.proteinatlas.org/16845/138_E4_2_selected.jpg		1	False	
+PURG	True	https://images.proteinatlas.org/47746/1372_G11_4_selected.jpg		1	False	
+PXK	True	https://images.proteinatlas.org/24068/261_A3_1_selected.jpg		1	False	
+PXN	False			0	False	
+QRSL1	True	https://images.proteinatlas.org/29585/282_B11_1_selected.jpg		1	False	
+RAB11A	False			0	False	
+RAB11B	False			0	False	
+RAB11FIP3	True	https://images.proteinatlas.org/28631/497_F7_2_selected.jpg		1	False	
+RAB11FIP5	True	https://images.proteinatlas.org/36406/560_E10_1_selected.jpg		1	False	
+RAB15	True	https://images.proteinatlas.org/41177/486_B5_1_selected.jpg		1	False	
+RAB23	False			0	False	
+RAB26	True	https://images.proteinatlas.org/75624/1615_B2_2_selected.jpg		1	False	
+RAB34	True	https://images.proteinatlas.org/21366/146_C6_2_selected.jpg		1	False	
+RAB3A	False			0	False	
+RAB3IL1	True	https://images.proteinatlas.org/39723/1854_A4_6_selected.jpg		1	False	
+RAB3IP	True	https://images.proteinatlas.org/57728/1011_H6_2_selected.jpg		1	False	
+RAB8A	False			0	False	
+RABL2A	True	https://images.proteinatlas.org/42642/640_B12_2_selected.jpg		1	False	
+RABL2B	True	https://images.proteinatlas.org/42642/640_B12_2_selected.jpg		1	False	
+RABL6	True	https://images.proteinatlas.org/44037/568_H8_1_selected.jpg		1	False	
+RAPGEF6	True	https://images.proteinatlas.org/37983/758_D10_2_selected.jpg		1	False	
+RAPSN	False			0	False	
+RASSF7	True	https://images.proteinatlas.org/78015/1703_F5_3_selected.jpg		1	False	
+RBM39	False			0	False	
+RFPL4A	True	https://images.proteinatlas.org/46368/719_G6_3_selected.jpg		1	False	
+RFPL4AL1	True	https://images.proteinatlas.org/46368/719_G6_3_selected.jpg		1	False	
+RGL4	True	https://images.proteinatlas.org/35979/1778_D2_4_selected.jpg		1	False	
+RHEBL1	True	https://images.proteinatlas.org/61001/1269_E3_4_selected.jpg		1	False	
+RILPL1	True	https://images.proteinatlas.org/41314/2152_A6_34_selected.jpg		1	False	
+RIMKLB	True	https://images.proteinatlas.org/59552/1171_B11_2_selected.jpg		1	False	
+RIOK3	True	https://images.proteinatlas.org/24184/369_G10_1_selected.jpg		1	False	
+RLBP1	False			0	False	
+RMDN1	True	https://images.proteinatlas.org/26495/604_A1_2_selected.jpg		1	False	
+RNF167	True	https://images.proteinatlas.org/49810/1908_G4_3_selected.jpg		1	False	
+RNF39	True	https://images.proteinatlas.org/19278/618_D3_4_selected.jpg		1	False	
+RPP25	True	https://images.proteinatlas.org/46900/1179_C6_3_selected.jpg		1	False	
+RRAGD	True	https://images.proteinatlas.org/68664/1364_B4_3_selected.jpg		1	False	
+RRM1	False			0	False	
+RSPH1	True	https://images.proteinatlas.org/16816/1869_A9_31_selected.jpg		1	False	
+RTTN	True	https://images.proteinatlas.org/75089/1914_B4_19_cr5c866b98464b5_selected.jpg		1	False	
+RUNDC3B	True	https://images.proteinatlas.org/56968/1372_C2_10_selected.jpg		1	False	
+RUVBL2	False			0	False	
+S100Z	True	https://images.proteinatlas.org/51929/2069_B8_1_selected.jpg		1	False	
+SATB2	False			0	False	
+SAXO2	True	https://images.proteinatlas.org/40833/1715_C2_28_cr57fd0b8ca69c0_selected.jpg		1	False	
+SEMA4D	False			0	False	
+SENP7	True	https://images.proteinatlas.org/27259/232_H5_2_selected.jpg		1	False	
+SERINC5	False			0	False	
+SERPINB6	True	https://images.proteinatlas.org/9668/43_H6_2_selected.jpg		1	False	
+SFR1	True	https://images.proteinatlas.org/39617/465_H10_1_selected.jpg		1	False	
+SH2B1	False			0	False	
+SHD	False			0	False	
+SHTN1	True	https://images.proteinatlas.org/75224/2088_B2_1_selected.jpg		1	False	
+SIRPB1	True	https://images.proteinatlas.org/47463/1262_E2_1_selected.jpg		1	False	
+SKA1	False			0	False	
+SKA3	False			0	False	
+SKP1	False			0	False	
+SLAIN2	True	https://images.proteinatlas.org/63599/1158_C11_4_selected.jpg		1	False	
+SLC18A2	False			0	False	
+SLC1A4	False			0	False	
+SLC1A5	False			0	False	
+SLC2A1	False			0	False	
+SLC35A4	True	https://images.proteinatlas.org/74521/1872_F6_30_cr5b61c6eb27e8e_selected.jpg		1	False	
+SLC35D3	True	https://images.proteinatlas.org/67497/1696_H4_4_selected.jpg		1	False	
+SLC35F1	True	https://images.proteinatlas.org/19576/183_G6_2_selected.jpg		1	False	
+SLC8A3	False			0	False	
+SLC9A3R1	False			0	False	
+SMAD4	False			0	False	
+SMAD7	False			0	False	
+SMIM18	True	https://images.proteinatlas.org/66648/1374_C8_2_selected.jpg		1	False	
+SNAP29	False			0	False	
+SNAP91	False			0	False	
+SNCG	False			0	False	
+SNTB2	True	https://images.proteinatlas.org/1394/1183_H9_4_selected.jpg		1	False	
+SNX21	True	https://images.proteinatlas.org/46359/619_B6_2_selected.jpg		1	False	
+SORBS1	False			0	False	
+SP6	False			0	False	
+SPAG9	False			0	False	
+SPICE1	True	https://images.proteinatlas.org/64843/1209_B4_3_selected.jpg		1	False	
+SPIN4	True	https://images.proteinatlas.org/1014/2090_G1_5_selected.jpg		1	False	
+SPPL2B	True	https://images.proteinatlas.org/39292/1495_A11_1_selected.jpg		1	False	
+SRGAP1	True	https://images.proteinatlas.org/78079/1978_G5_2_selected.jpg		1	False	
+SRGAP2	False			0	False	
+SRGAP2B	True	https://images.proteinatlas.org/78079/1978_G5_2_selected.jpg		1	False	
+SRGAP2C	True	https://images.proteinatlas.org/78079/1978_G5_2_selected.jpg		1	False	
+SRGAP3	True	https://images.proteinatlas.org/78079/1978_G5_2_selected.jpg		1	False	
+SRRM5	True	https://images.proteinatlas.org/52924/1924_E4_3_selected.jpg		1	False	
+SSRP1	False			0	False	
+SSX2IP	True	https://images.proteinatlas.org/27306/212_G9_2_selected.jpg		1	False	
+ST7L	True	https://images.proteinatlas.org/75418/1595_C4_1_selected.jpg		1	False	
+STEEP1	True	https://images.proteinatlas.org/64831/1174_E7_4_selected.jpg		1	False	
+STIL	False			0	False	
+STK11	False			0	False	
+STK26	True	https://images.proteinatlas.org/59921/1043_F9_4_selected.jpg		1	False	
+STK32A	True	https://images.proteinatlas.org/40236/418_B3_2_selected.jpg		1	False	
+SYNJ1	False			0	False	
+TACC3	False			0	False	
+TACR1	False			0	False	
+TAF1D	True	https://images.proteinatlas.org/55935/985_H5_4_selected.jpg		1	False	
+TAP1	False			0	False	
+TAPT1	True	https://images.proteinatlas.org/42567/2051_F9_4_selected.jpg		1	False	
+TBC1D31	True	https://images.proteinatlas.org/23710/215_B10_2_selected.jpg		1	False	
+TBC1D8	True	https://images.proteinatlas.org/74921/2130_G11_2_selected.jpg		1	False	
+TBX15	False			0	False	
+TCEA2	True	https://images.proteinatlas.org/43836/547_E7_5_selected.jpg		1	False	
+TCHP	False			0	False	
+TDRKH	True	https://images.proteinatlas.org/19625/220_A1_1_selected.jpg		1	False	
+TECPR2	False			0	False	
+TEK	False			0	False	
+TEX12	True	https://images.proteinatlas.org/38289/428_C10_2_selected.jpg		1	False	
+TEX9	True	https://images.proteinatlas.org/42036/1112_E1_3_selected.jpg		1	False	
+TGFB3	False			0	False	
+TGIF2	False			0	False	
+THAP6	True	https://images.proteinatlas.org/35767/396_C8_2_selected.jpg		1	False	
+THBS2	False			0	False	
+TLN1	False			0	False	
+TMEM132C	True	https://images.proteinatlas.org/15633/2231_E6_2_selected.jpg		1	False	
+TMEM170B	True	https://images.proteinatlas.org/55134/1040_E9_1_selected.jpg		1	False	
+TMEM63A	True	https://images.proteinatlas.org/66504/1560_E8_1_selected.jpg		1	False	
+TMEM63C	True	https://images.proteinatlas.org/30657/372_D6_1_selected.jpg		1	False	
+TMEM86B	True	https://images.proteinatlas.org/57689/1039_C3_2_selected.jpg		1	False	
+TNFAIP3	False			0	False	
+TP53TG3	True	https://images.proteinatlas.org/60916/1925_C6_19_cr5cd56ad920a45_selected.jpg		1	False	
+TP53TG3B	True	https://images.proteinatlas.org/60916/1925_C6_19_cr5cd56ad920a45_selected.jpg		1	False	
+TP53TG3C	True	https://images.proteinatlas.org/60916/1925_C6_19_cr5cd56ad920a45_selected.jpg		1	False	
+TP53TG3D	True	https://images.proteinatlas.org/60916/1925_C6_19_cr5cd56ad920a45_selected.jpg		1	False	
+TP53TG3E	True	https://images.proteinatlas.org/60916/1925_C6_19_cr5cd56ad920a45_selected.jpg		1	False	
+TP53TG3F	True	https://images.proteinatlas.org/60916/1925_C6_19_cr5cd56ad920a45_selected.jpg		1	False	
+TP73	False			0	False	
+TRAF5	False			0	False	
+TRAPPC14	True	https://images.proteinatlas.org/19359/183_A1_2_selected.jpg		1	False	
+TRAT1	True	https://images.proteinatlas.org/2356/1970_D4_3_selected.jpg		1	False	
+TRIM15	True	https://images.proteinatlas.org/47527/1848_D3_32_selected.jpg		1	False	
+TRIM2	True	https://images.proteinatlas.org/35854/569_A5_2_selected.jpg		1	False	
+TRIM34	True	https://images.proteinatlas.org/77996/1676_E9_3_selected.jpg		1	False	
+TRIM38	True	https://images.proteinatlas.org/31685/374_E8_1_selected.jpg		1	False	
+TRIM46	True	https://images.proteinatlas.org/30391/1796_E6_5_selected.jpg		1	False	
+TRIM6-TRIM34	True	https://images.proteinatlas.org/77996/1676_E9_3_selected.jpg		1	False	
+TRPM1	False			0	False	
+TRPV3	False			0	False	
+TSEN2	True	https://images.proteinatlas.org/27268/219_C7_2_selected.jpg		1	False	
+TSSK1B	True	https://images.proteinatlas.org/27827/2211_E7_40_selected.jpg		1	False	
+TTC21B	True	https://images.proteinatlas.org/73293/2216_G5_19_selected.jpg		1	False	
+TTC30A	True	https://images.proteinatlas.org/51714/2161_C12_33_selected.jpg		1	False	
+TTC30B	True	https://images.proteinatlas.org/51714/2161_C12_33_selected.jpg		1	False	
+TTC39A	True	https://images.proteinatlas.org/43440/733_A10_4_selected.jpg		1	False	
+TTC6	True	https://images.proteinatlas.org/69293/1384_F8_1_selected.jpg		1	False	
+TTI2	True	https://images.proteinatlas.org/29823/335_H5_3_selected.jpg		1	False	
+TUB	False			0	False	
+TUBG2	True	https://images.proteinatlas.org/11495/638_A3_3_selected.jpg		1	False	
+TUBGCP2	True	https://images.proteinatlas.org/37885/752_C3_2_selected.jpg		1	False	
+TUBGCP4	True	https://images.proteinatlas.org/43212/460_A8_2_selected.jpg		1	False	
+TUBGCP5	True	https://images.proteinatlas.org/40366/754_E4_5_selected.jpg		1	False	
+TWSG1	True	https://images.proteinatlas.org/14898/165_B1_2_selected.jpg		1	False	
+TXLNA	True	https://images.proteinatlas.org/72477/1913_I23_32_selected.jpg		1	False	
+TYSND1	True	https://images.proteinatlas.org/30304/372_C6_2_selected.jpg		1	False	
+UBA3	True	https://images.proteinatlas.org/65335/1164_D12_2_selected.jpg		1	False	
+UBE2Q1	True	https://images.proteinatlas.org/63368/1233_H4_6_selected.jpg		1	False	
+UBL3	True	https://images.proteinatlas.org/53772/833_G11_1_selected.jpg		1	False	
+UBR4	False			0	False	
+UBXN2A	True	https://images.proteinatlas.org/65482/1417_A1_2_selected.jpg		1	False	
+UGP2	True	https://images.proteinatlas.org/64836/1151_F5_2_selected.jpg		1	False	
+UNC5CL	True	https://images.proteinatlas.org/15725/2192_H2_2_selected.jpg		1	False	
+USF3	True	https://images.proteinatlas.org/29243/271_E9_2_selected.jpg		1	False	
+USP38	True	https://images.proteinatlas.org/47948/977_C10_2_selected.jpg		1	False	
+UXT	False			0	False	
+VASH1	False			0	False	
+VCPIP1	True	https://images.proteinatlas.org/23932/1873_C4_2_selected.jpg		1	False	
+VLDLR	False			0	False	
+VPS37A	True	https://images.proteinatlas.org/24781/301_C10_2_selected.jpg		1	False	
+VSIG10	True	https://images.proteinatlas.org/62022/1163_G4_1_selected.jpg		1	False	
+WAC	False			0	False	
+WASHC5	True	https://images.proteinatlas.org/34216/2101_E9_2_selected.jpg		1	False	
+WDR13	True	https://images.proteinatlas.org/913/75_B2_2_selected.jpg		1	False	
+WDR19	True	https://images.proteinatlas.org/39616/2216_F11_4_selected.jpg		1	False	
+WDR54	True	https://images.proteinatlas.org/53558/984_F8_2_selected.jpg		1	False	
+WDR62	False			0	False	
+WDR83	False			0	False	
+WDR90	True	https://images.proteinatlas.org/49362/740_D11_8_selected.jpg		1	False	
+ZBED1	True	https://images.proteinatlas.org/77591/1718_G12_8_cr57f3c647163ea_selected.jpg		1	False	
+ZBED6	True	https://images.proteinatlas.org/68807/1374_C3_2_selected.jpg		1	False	
+ZBTB24	True	https://images.proteinatlas.org/17872/1263_H1_3_selected.jpg		1	False	
+ZFAND1	True	https://images.proteinatlas.org/23383/192_G11_1_selected.jpg		1	False	
+ZFP90	True	https://images.proteinatlas.org/29017/331_D12_2_selected.jpg		1	False	
+ZMYM1	True	https://images.proteinatlas.org/64019/1169_H10_2_selected.jpg		1	False	
+ZNF12	True	https://images.proteinatlas.org/63402/1202_D8_4_selected.jpg		1	False	
+ZNF121	True	https://images.proteinatlas.org/54961/1424_F6_2_selected.jpg		1	False	
+ZNF274	True	https://images.proteinatlas.org/28880/329_F8_1_selected.jpg		1	False	
+ZNF280D	True	https://images.proteinatlas.org/30233/334_H4_3_selected.jpg		1	False	
+ZNF296	True	https://images.proteinatlas.org/49576/1019_A9_2_selected.jpg		1	False	
+ZNF330	True	https://images.proteinatlas.org/56325/2265_H4_89_selected.jpg		1	False	
+ZNF365	True	https://images.proteinatlas.org/52446/1201_D2_6_selected.jpg		1	False	
+ZNF408	True	https://images.proteinatlas.org/17892/157_G5_2_selected.jpg		1	False	
+ZNF443	True	https://images.proteinatlas.org/18683/1055_C9_2_selected.jpg		1	False	
+ZNF616	True	https://images.proteinatlas.org/62639/1104_B11_3_selected.jpg		1	False	
+ZNF620	True	https://images.proteinatlas.org/59383/1748_B11_23_cr5805df8b537d5_selected.jpg		1	False	
+ZNF677	True	https://images.proteinatlas.org/23106/1595_G4_3_selected.jpg		1	False	
+ZNF701	True	https://images.proteinatlas.org/5532/31_A6_1_selected.jpg		1	False	
+ZNF721	True	https://images.proteinatlas.org/65313/1234_H7_3_selected.jpg		1	False	
+ZNF747	True	https://images.proteinatlas.org/69173/1475_D10_2_selected.jpg		1	False	
+ZNF766	True	https://images.proteinatlas.org/44882/545_F7_1_selected.jpg		1	False	
+ZNF780A	True	https://images.proteinatlas.org/3311/1150_D4_2_selected.jpg		1	False	
+ZNF780B	True	https://images.proteinatlas.org/3311/1150_D4_2_selected.jpg		1	False	
+ZNF799	True	https://images.proteinatlas.org/18683/1055_C9_2_selected.jpg		1	False	
+ZSCAN10	True	https://images.proteinatlas.org/76826/1969_E9_5_selected.jpg		1	False	
