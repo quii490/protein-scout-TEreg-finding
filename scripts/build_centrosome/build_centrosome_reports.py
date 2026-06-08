@@ -83,7 +83,7 @@ def parse_evaluation(path):
         'status': status,
         'final_centrosome_score': scores.get('final', 0),
         'centrosome_evidence_score': scores.get('Centrosome evidence', 0) or scores.get('中心体证据', 0),
-        'te_relevance_score': scores.get('TE relevance', 0) or scores.get('TE relevance', 0),
+        'te_relevance_score': 0,  # Deprecated, always 0
         'pubmed_score': scores.get('PubMed/literature', 0) or scores.get('文献/PubMed', 0) or scores.get('PubMed', 0) or 0,
         'ppi_score': scores.get('PPI/network', 0) or scores.get('PPI/互作网络', 0) or scores.get('PPI', 0) or 0,
         'structure_domain_score': scores.get('Structure/domain', 0) or scores.get('结构/结构域', 0) or scores.get('Structure', 0) or 0,
@@ -139,7 +139,8 @@ def main():
         'has_string_ppi', 'ppi_status', 'has_structure_domain',
         'in_main_atlas', 'main_status', 'main_category',
         'report_path', 'docs_report_path', 'has_hpa_seed', 'has_pubmed',
-        'has_ppi_humanppi', 'has_structure_domain', 'manual_review'
+        'has_ppi_humanppi', 'has_structure_domain', 'manual_review',
+        'te_relevance_score'  # deprecated, always 0
     ]
 
     os.makedirs("centrosome/data", exist_ok=True)
