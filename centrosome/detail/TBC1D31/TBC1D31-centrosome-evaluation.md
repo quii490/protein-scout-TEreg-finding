@@ -23,16 +23,10 @@ tags: [protein-scout, centrosome, evaluation]
 - **HPA 来源:** 中心体 ✓
 - **HPA 链接:** https://www.proteinatlas.org/ENSG00000156787-TBC1D31
 - **HPA 定位:** Centrosome, Basal body
-- **IF 图像状态:** 已获取 (1 张, selected)
+- **IF 图像状态:** 未获取（HPA 图片链接失效）
 
 
-<!-- CENTROSOME_HPA_IF_START -->
-**HPA IF 图像（2026-06-08）**: HPA subcellular 页面存在可用 IF 图像。
-HPA 定位: Centrosome, Basal body。HPA IF 可靠性: supported。
-来源: https://www.proteinatlas.org/ENSG00000156787-TBC1D31/subcellular
-
-![](https://images.proteinatlas.org/23710/215_B10_2_selected.jpg)
-<!-- CENTROSOME_HPA_IF_END -->
+*HPA IF 图像链接失效（404）。已查询 https://www.proteinatlas.org/ENSG00000156787-TBC1D31/subcellular，无可用替代图像。*
 
 
 ## 3. UniProt / GO-CC 中心体证据
