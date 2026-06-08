@@ -1,7 +1,7 @@
 {
   "metadata": {
     "module": "centrosome",
-    "generated_at": "2026-06-09T02:18:51.926196",
+    "generated_at": "2026-06-09T02:51:15.419678",
     "total_reports": 716,
     "independent": true,
     "not_in_main_atlas_count": true
@@ -35,7 +35,8 @@
       "pubmed_display_count": 101,
       "protein_full_name": "Centrosomal protein 192",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "local"
     },
     {
       "gene": "CETN2",
@@ -65,7 +66,8 @@
       "pubmed_display_count": 111,
       "protein_full_name": "Centrin 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "local"
     },
     {
       "gene": "ACTRT3",
@@ -95,7 +97,8 @@
       "pubmed_display_count": 8,
       "protein_full_name": "Actin related protein T3",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "ADCK2",
@@ -125,7 +128,8 @@
       "pubmed_display_count": 9,
       "protein_full_name": "AarF domain containing kinase 2",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "broken"
     },
     {
       "gene": "ANKRD45",
@@ -155,7 +159,8 @@
       "pubmed_display_count": 5,
       "protein_full_name": "Ankyrin repeat domain 45",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "C11orf80",
@@ -185,7 +190,8 @@
       "pubmed_display_count": 7,
       "protein_full_name": "Chromosome 11 open reading frame 80",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "CCDC74A",
@@ -215,7 +221,8 @@
       "pubmed_display_count": 3,
       "protein_full_name": "Coiled-coil domain containing 74A",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CCDC74B",
@@ -245,7 +252,8 @@
       "pubmed_display_count": 2,
       "protein_full_name": "Coiled-coil domain containing 74B",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CEP85",
@@ -275,7 +283,8 @@
       "pubmed_display_count": 10,
       "protein_full_name": "Centrosomal protein 85",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CLHC1",
@@ -305,7 +314,8 @@
       "pubmed_display_count": 5,
       "protein_full_name": "Clathrin heavy chain linker domain containing 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "DNAJC28",
@@ -335,7 +345,8 @@
       "pubmed_display_count": 9,
       "protein_full_name": "DnaJ heat shock protein family (Hsp40) member C28",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "DNAL4",
@@ -365,7 +376,8 @@
       "pubmed_display_count": 10,
       "protein_full_name": "Dynein axonemal light chain 4",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "DYNC2I2",
@@ -395,7 +407,8 @@
       "pubmed_display_count": 5,
       "protein_full_name": "Dynein 2 intermediate chain 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "EEF1AKMT3",
@@ -425,7 +438,8 @@
       "pubmed_display_count": 9,
       "protein_full_name": "EEF1A lysine methyltransferase 3",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "ENSG00000272772",
@@ -455,7 +469,8 @@
       "pubmed_display_count": 0,
       "protein_full_name": "Novel protein",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "ENSG00000273217",
@@ -485,7 +500,8 @@
       "pubmed_display_count": 0,
       "protein_full_name": "Novel protein",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "ENSG00000274792",
@@ -515,7 +531,8 @@
       "pubmed_display_count": 0,
       "protein_full_name": "",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "ENSG00000285188",
@@ -545,7 +562,8 @@
       "pubmed_display_count": 0,
       "protein_full_name": "Novel protein",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "FAM117B",
@@ -575,7 +593,8 @@
       "pubmed_display_count": 10,
       "protein_full_name": "Family with sequence similarity 117 member B",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "GATD3",
@@ -605,7 +624,8 @@
       "pubmed_display_count": 2,
       "protein_full_name": "Glutamine amidotransferase class 1 domain containing 3",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "GOLGA6A",
@@ -635,7 +655,8 @@
       "pubmed_display_count": 10,
       "protein_full_name": "Golgin A6 family member A",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "GOLGA6C",
@@ -665,7 +686,8 @@
       "pubmed_display_count": 2,
       "protein_full_name": "Golgin A6 family member C",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "HAUS2",
@@ -695,7 +717,8 @@
       "pubmed_display_count": 3,
       "protein_full_name": "HAUS augmin like complex subunit 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "HAUS7",
@@ -725,7 +748,8 @@
       "pubmed_display_count": 9,
       "protein_full_name": "HAUS augmin like complex subunit 7",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "INTS6L",
@@ -755,7 +779,8 @@
       "pubmed_display_count": 2,
       "protein_full_name": "Integrator complex subunit 6 like",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "KIF19",
@@ -785,7 +810,8 @@
       "pubmed_display_count": 10,
       "protein_full_name": "Kinesin family member 19",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "KXD1",
@@ -815,7 +841,8 @@
       "pubmed_display_count": 10,
       "protein_full_name": "KxDL motif containing 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "MZT2B",
@@ -845,7 +872,8 @@
       "pubmed_display_count": 6,
       "protein_full_name": "Mitotic spindle organizing protein 2B",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "PLK4",
@@ -875,7 +903,8 @@
       "pubmed_display_count": 591,
       "protein_full_name": "Polo like kinase 4",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "local"
     },
     {
       "gene": "PPP4R3B",
@@ -905,7 +934,8 @@
       "pubmed_display_count": 5,
       "protein_full_name": "Protein phosphatase 4 regulatory subunit 3B",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "RFPL4A",
@@ -935,7 +965,8 @@
       "pubmed_display_count": 6,
       "protein_full_name": "Ret finger protein like 4A",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "SPICE1",
@@ -965,7 +996,8 @@
       "pubmed_display_count": 10,
       "protein_full_name": "Spindle and centriole associated protein 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "SRGAP2B",
@@ -995,7 +1027,8 @@
       "pubmed_display_count": 7,
       "protein_full_name": "SLIT-ROBO Rho GTPase activating protein 2B",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "TBC1D31",
@@ -1025,7 +1058,8 @@
       "pubmed_display_count": 6,
       "protein_full_name": "TBC1 domain family member 31",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "TMEM86B",
@@ -1055,7 +1089,8 @@
       "pubmed_display_count": 8,
       "protein_full_name": "Transmembrane protein 86B",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "TRIM6-TRIM34",
@@ -1085,7 +1120,8 @@
       "pubmed_display_count": 0,
       "protein_full_name": "TRIM6-TRIM34 readthrough",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "TTC30A",
@@ -1115,7 +1151,8 @@
       "pubmed_display_count": 4,
       "protein_full_name": "Tetratricopeptide repeat domain 30A",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "TTC30B",
@@ -1145,7 +1182,8 @@
       "pubmed_display_count": 6,
       "protein_full_name": "Tetratricopeptide repeat domain 30B",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "TYSND1",
@@ -1175,7 +1213,8 @@
       "pubmed_display_count": 10,
       "protein_full_name": "Trypsin like peroxisomal matrix peptidase 1",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "broken"
     },
     {
       "gene": "ZFAND1",
@@ -1205,7 +1244,8 @@
       "pubmed_display_count": 4,
       "protein_full_name": "Zinc finger AN1-type containing 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "ZNF766",
@@ -1235,7 +1275,8 @@
       "pubmed_display_count": 1,
       "protein_full_name": "Zinc finger protein 766",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "CEP43",
@@ -1265,7 +1306,8 @@
       "pubmed_display_count": 26,
       "protein_full_name": "Centrosomal protein 43",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "LAS1L",
@@ -1295,7 +1337,8 @@
       "pubmed_display_count": 28,
       "protein_full_name": "LAS1 like ribosome biogenesis factor",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "RABL6",
@@ -1325,7 +1368,8 @@
       "pubmed_display_count": 26,
       "protein_full_name": "RAB, member RAS oncogene family like 6",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "AURKA",
@@ -1355,7 +1399,8 @@
       "pubmed_display_count": 3081,
       "protein_full_name": "Aurora kinase A",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "local"
     },
     {
       "gene": "ARHGAP40",
@@ -1385,7 +1430,8 @@
       "pubmed_display_count": 8,
       "protein_full_name": "Rho GTPase activating protein 40",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "C19orf54",
@@ -1415,7 +1461,8 @@
       "pubmed_display_count": 3,
       "protein_full_name": "Chromosome 19 open reading frame 54",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "C1orf146",
@@ -1445,7 +1492,8 @@
       "pubmed_display_count": 0,
       "protein_full_name": "Chromosome 1 open reading frame 146",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "C20orf96",
@@ -1475,7 +1523,8 @@
       "pubmed_display_count": 2,
       "protein_full_name": "Chromosome 20 open reading frame 96",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CCDC13",
@@ -1505,7 +1554,8 @@
       "pubmed_display_count": 9,
       "protein_full_name": "Coiled-coil domain containing 13",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CEP170B",
@@ -1535,7 +1585,8 @@
       "pubmed_display_count": 3,
       "protein_full_name": "Centrosomal protein 170B",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "DUSP21",
@@ -1565,7 +1616,8 @@
       "pubmed_display_count": 9,
       "protein_full_name": "Dual specificity phosphatase 21",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "ENSG00000256514",
@@ -1595,7 +1647,8 @@
       "pubmed_display_count": 0,
       "protein_full_name": "Novel protein",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "ENSG00000280571",
@@ -1625,7 +1678,8 @@
       "pubmed_display_count": 0,
       "protein_full_name": "Novel protein",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "GOLGA6B",
@@ -1655,7 +1709,8 @@
       "pubmed_display_count": 0,
       "protein_full_name": "Golgin A6 family member B",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "GOLGA6D",
@@ -1685,7 +1740,8 @@
       "pubmed_display_count": 0,
       "protein_full_name": "Golgin A6 family member D",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "ITPRIPL2",
@@ -1715,7 +1771,8 @@
       "pubmed_display_count": 3,
       "protein_full_name": "ITPRIP like 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "LMF2",
@@ -1745,7 +1802,8 @@
       "pubmed_display_count": 8,
       "protein_full_name": "Lipase maturation factor 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "LRRCC1",
@@ -1775,7 +1833,8 @@
       "pubmed_display_count": 8,
       "protein_full_name": "Leucine rich repeat and coiled-coil centrosomal protein 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "NME9",
@@ -1805,7 +1864,8 @@
       "pubmed_display_count": 4,
       "protein_full_name": "NME/NM23 family member 9",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "SAXO2",
@@ -1835,7 +1895,8 @@
       "pubmed_display_count": 6,
       "protein_full_name": "Stabilizer of axonemal microtubules 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "TEX9",
@@ -1865,7 +1926,8 @@
       "pubmed_display_count": 7,
       "protein_full_name": "Testis expressed 9",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "TRAPPC14",
@@ -1895,7 +1957,8 @@
       "pubmed_display_count": 1,
       "protein_full_name": "Trafficking protein particle complex subunit 14",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "ZNF330",
@@ -1925,7 +1988,8 @@
       "pubmed_display_count": 10,
       "protein_full_name": "Zinc finger protein 330",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "ZNF701",
@@ -1955,7 +2019,8 @@
       "pubmed_display_count": 2,
       "protein_full_name": "Zinc finger protein 701",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "ACTR8",
@@ -1985,7 +2050,8 @@
       "pubmed_display_count": 14,
       "protein_full_name": "Actin related protein 8",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "ANKRD31",
@@ -2015,7 +2081,8 @@
       "pubmed_display_count": 21,
       "protein_full_name": "Ankyrin repeat domain 31",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "APOBR",
@@ -2045,7 +2112,8 @@
       "pubmed_display_count": 20,
       "protein_full_name": "Apolipoprotein B receptor",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "ARHGEF38",
@@ -2075,7 +2143,8 @@
       "pubmed_display_count": 16,
       "protein_full_name": "Rho guanine nucleotide exchange factor 38",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "AUNIP",
@@ -2105,7 +2174,8 @@
       "pubmed_display_count": 25,
       "protein_full_name": "Aurora kinase A and ninein interacting protein",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "B9D2",
@@ -2135,7 +2205,8 @@
       "pubmed_display_count": 24,
       "protein_full_name": "B9 domain containing 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "BBIP1",
@@ -2165,7 +2236,8 @@
       "pubmed_display_count": 12,
       "protein_full_name": "BBSome interacting protein 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "BEAN1",
@@ -2195,7 +2267,8 @@
       "pubmed_display_count": 24,
       "protein_full_name": "Brain expressed associated with NEDD4 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "BUD31",
@@ -2225,7 +2298,8 @@
       "pubmed_display_count": 29,
       "protein_full_name": "BUD31 homolog",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "C16orf74",
@@ -2255,7 +2329,8 @@
       "pubmed_display_count": 16,
       "protein_full_name": "Chromosome 16 open reading frame 74",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "CALML6",
@@ -2285,7 +2360,8 @@
       "pubmed_display_count": 18,
       "protein_full_name": "Calmodulin like 6",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "CAMK2N2",
@@ -2315,7 +2391,8 @@
       "pubmed_display_count": 25,
       "protein_full_name": "Calcium/calmodulin dependent protein kinase II inhibitor 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "CAPN7",
@@ -2345,7 +2422,8 @@
       "pubmed_display_count": 24,
       "protein_full_name": "Calpain 7",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "CCDC32",
@@ -2375,7 +2453,8 @@
       "pubmed_display_count": 13,
       "protein_full_name": "Coiled-coil domain containing 32",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CDIP1",
@@ -2405,7 +2484,8 @@
       "pubmed_display_count": 26,
       "protein_full_name": "Cell death inducing p53 target 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "CEP128",
@@ -2435,7 +2515,8 @@
       "pubmed_display_count": 22,
       "protein_full_name": "Centrosomal protein 128",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CEP19",
@@ -2465,7 +2546,8 @@
       "pubmed_display_count": 20,
       "protein_full_name": "Centrosomal protein 19",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CEP57",
@@ -2495,7 +2577,8 @@
       "pubmed_display_count": 52,
       "protein_full_name": "Centrosomal protein 57",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CEP70",
@@ -2525,7 +2608,8 @@
       "pubmed_display_count": 26,
       "protein_full_name": "Centrosomal protein 70",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CEP89",
@@ -2555,7 +2639,8 @@
       "pubmed_display_count": 25,
       "protein_full_name": "Centrosomal protein 89",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CFAP298",
@@ -2585,7 +2670,8 @@
       "pubmed_display_count": 12,
       "protein_full_name": "Cilia and flagella associated protein 298",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CFAP300",
@@ -2615,7 +2701,8 @@
       "pubmed_display_count": 16,
       "protein_full_name": "Cilia and flagella associated protein 300",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CFAP70",
@@ -2645,7 +2732,8 @@
       "pubmed_display_count": 17,
       "protein_full_name": "Cilia and flagella associated protein 70",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CNOT10",
@@ -2675,7 +2763,8 @@
       "pubmed_display_count": 18,
       "protein_full_name": "CCR4-NOT transcription complex subunit 10",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "CNTLN",
@@ -2705,7 +2794,8 @@
       "pubmed_display_count": 20,
       "protein_full_name": "Centlein",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CSPP1",
@@ -2735,7 +2825,8 @@
       "pubmed_display_count": 54,
       "protein_full_name": "Centrosome and spindle pole associated protein 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "DCTN4",
@@ -2765,7 +2856,8 @@
       "pubmed_display_count": 21,
       "protein_full_name": "Dynactin subunit 4",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "DDX59",
@@ -2795,7 +2887,8 @@
       "pubmed_display_count": 16,
       "protein_full_name": "DEAD-box helicase 59",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "DENND1C",
@@ -2825,7 +2918,8 @@
       "pubmed_display_count": 13,
       "protein_full_name": "DENN domain containing 1C",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "DHX35",
@@ -2855,7 +2949,8 @@
       "pubmed_display_count": 26,
       "protein_full_name": "DEAH-box helicase 35",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "DIS3L",
@@ -2885,7 +2980,8 @@
       "pubmed_display_count": 16,
       "protein_full_name": "DIS3 like exosome 3'-5' exoribonuclease",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "DNAH12",
@@ -2915,7 +3011,8 @@
       "pubmed_display_count": 21,
       "protein_full_name": "Dynein axonemal heavy chain 12",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "DNAH14",
@@ -2945,7 +3042,8 @@
       "pubmed_display_count": 21,
       "protein_full_name": "Dynein axonemal heavy chain 14",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "DNAL1",
@@ -2975,7 +3073,8 @@
       "pubmed_display_count": 34,
       "protein_full_name": "Dynein axonemal light chain 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "DYNC1I2",
@@ -3005,7 +3104,8 @@
       "pubmed_display_count": 17,
       "protein_full_name": "Dynein cytoplasmic 1 intermediate chain 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "DYNC1LI2",
@@ -3035,7 +3135,8 @@
       "pubmed_display_count": 22,
       "protein_full_name": "Dynein cytoplasmic 1 light intermediate chain 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "DYNC2I1",
@@ -3065,7 +3166,8 @@
       "pubmed_display_count": 14,
       "protein_full_name": "Dynein 2 intermediate chain 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "EID2",
@@ -3095,7 +3197,8 @@
       "pubmed_display_count": 15,
       "protein_full_name": "EP300 interacting inhibitor of differentiation 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "EMC6",
@@ -3125,7 +3228,8 @@
       "pubmed_display_count": 24,
       "protein_full_name": "ER membrane protein complex subunit 6",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "EPS8L2",
@@ -3155,7 +3259,8 @@
       "pubmed_display_count": 28,
       "protein_full_name": "EPS8 like 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "EXOC6",
@@ -3185,7 +3290,8 @@
       "pubmed_display_count": 23,
       "protein_full_name": "Exocyst complex component 6",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "EXTL1",
@@ -3215,7 +3321,8 @@
       "pubmed_display_count": 30,
       "protein_full_name": "Exostosin like glycosyltransferase 1",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "FBXO21",
@@ -3245,7 +3352,8 @@
       "pubmed_display_count": 26,
       "protein_full_name": "F-box protein 21",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "FHDC1",
@@ -3275,7 +3383,8 @@
       "pubmed_display_count": 18,
       "protein_full_name": "FH2 domain containing 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "HAUS1",
@@ -3305,7 +3414,8 @@
       "pubmed_display_count": 18,
       "protein_full_name": "HAUS augmin like complex subunit 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "KIAA0753",
@@ -3335,7 +3445,8 @@
       "pubmed_display_count": 20,
       "protein_full_name": "KIAA0753",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "KLHL21",
@@ -3365,7 +3476,8 @@
       "pubmed_display_count": 17,
       "protein_full_name": "Kelch like family member 21",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "MPHOSPH9",
@@ -3395,7 +3507,8 @@
       "pubmed_display_count": 26,
       "protein_full_name": "M-phase phosphoprotein 9",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "MZT2A",
@@ -3425,7 +3538,8 @@
       "pubmed_display_count": 14,
       "protein_full_name": "Mitotic spindle organizing protein 2A",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "N4BP3",
@@ -3455,7 +3569,8 @@
       "pubmed_display_count": 14,
       "protein_full_name": "NEDD4 binding protein 3",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "NAA11",
@@ -3485,7 +3600,8 @@
       "pubmed_display_count": 11,
       "protein_full_name": "N-alpha-acetyltransferase 11, NatA catalytic subunit",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "NMRK1",
@@ -3515,7 +3631,8 @@
       "pubmed_display_count": 26,
       "protein_full_name": "Nicotinamide riboside kinase 1",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "POLR3H",
@@ -3545,7 +3662,8 @@
       "pubmed_display_count": 13,
       "protein_full_name": "RNA polymerase III subunit H",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "PSMD5",
@@ -3575,7 +3693,8 @@
       "pubmed_display_count": 18,
       "protein_full_name": "Proteasome 26S subunit, non-ATPase 5",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "RABL2A",
@@ -3605,7 +3724,8 @@
       "pubmed_display_count": 19,
       "protein_full_name": "RAB, member of RAS oncogene family like 2A",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "RGL4",
@@ -3635,7 +3755,8 @@
       "pubmed_display_count": 11,
       "protein_full_name": "Ral guanine nucleotide dissociation stimulator like 4",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "S100Z",
@@ -3665,7 +3786,8 @@
       "pubmed_display_count": 22,
       "protein_full_name": "S100 calcium binding protein Z",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "SHTN1",
@@ -3695,7 +3817,8 @@
       "pubmed_display_count": 30,
       "protein_full_name": "Shootin 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "SLAIN2",
@@ -3725,7 +3848,8 @@
       "pubmed_display_count": 18,
       "protein_full_name": "SLAIN motif family member 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "SLC35A4",
@@ -3755,7 +3879,8 @@
       "pubmed_display_count": 21,
       "protein_full_name": "Solute carrier family 35 member A4",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "SRGAP2C",
@@ -3785,7 +3910,8 @@
       "pubmed_display_count": 20,
       "protein_full_name": "SLIT-ROBO Rho GTPase activating protein 2C",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "SSX2IP",
@@ -3815,7 +3941,8 @@
       "pubmed_display_count": 49,
       "protein_full_name": "SSX family member 2 interacting protein",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "TCEA2",
@@ -3845,7 +3972,8 @@
       "pubmed_display_count": 13,
       "protein_full_name": "Transcription elongation factor A2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "TMEM63C",
@@ -3875,7 +4003,8 @@
       "pubmed_display_count": 17,
       "protein_full_name": "Transmembrane protein 63C",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "TSEN2",
@@ -3905,7 +4034,8 @@
       "pubmed_display_count": 20,
       "protein_full_name": "TRNA splicing endonuclease subunit 2",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "TSSK1B",
@@ -3935,7 +4065,8 @@
       "pubmed_display_count": 17,
       "protein_full_name": "Testis specific serine kinase 1B",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "TUBGCP2",
@@ -3965,7 +4096,8 @@
       "pubmed_display_count": 29,
       "protein_full_name": "Tubulin gamma complex associated protein 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "TUBGCP4",
@@ -3995,7 +4127,8 @@
       "pubmed_display_count": 25,
       "protein_full_name": "Tubulin gamma complex associated protein 4",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "UBXN2A",
@@ -4025,7 +4158,8 @@
       "pubmed_display_count": 19,
       "protein_full_name": "UBX domain protein 2A",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "ARL9",
@@ -4055,7 +4189,8 @@
       "pubmed_display_count": 9,
       "protein_full_name": "ADP ribosylation factor like GTPase 9",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "PTPN20",
@@ -4085,7 +4220,8 @@
       "pubmed_display_count": 9,
       "protein_full_name": "Protein tyrosine phosphatase non-receptor type 20",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "SNX21",
@@ -4115,7 +4251,8 @@
       "pubmed_display_count": 7,
       "protein_full_name": "Sorting nexin family member 21",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "TP53TG3",
@@ -4145,7 +4282,8 @@
       "pubmed_display_count": 4,
       "protein_full_name": "TP53 target 3",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "TP53TG3B",
@@ -4175,7 +4313,8 @@
       "pubmed_display_count": 2,
       "protein_full_name": "TP53 target 3B",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "TP53TG3E",
@@ -4205,7 +4344,8 @@
       "pubmed_display_count": 0,
       "protein_full_name": "TP53 target 3 family member E",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "ANP32D",
@@ -4235,7 +4375,8 @@
       "pubmed_display_count": 7,
       "protein_full_name": "Acidic nuclear phosphoprotein 32 family member D",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "C12orf73",
@@ -4265,7 +4406,8 @@
       "pubmed_display_count": 2,
       "protein_full_name": "Chromosome 12 open reading frame 73",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "C2orf74",
@@ -4295,7 +4437,8 @@
       "pubmed_display_count": 7,
       "protein_full_name": "Chromosome 2 open reading frame 74",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "C3orf49",
@@ -4325,7 +4468,8 @@
       "pubmed_display_count": 0,
       "protein_full_name": "Chromosome 3 open reading frame 49",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "C3orf56",
@@ -4355,7 +4499,8 @@
       "pubmed_display_count": 1,
       "protein_full_name": "Chromosome 3 open reading frame 56",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "C9orf40",
@@ -4385,7 +4530,8 @@
       "pubmed_display_count": 3,
       "protein_full_name": "Chromosome 9 open reading frame 40",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "CABCOCO1",
@@ -4415,7 +4561,8 @@
       "pubmed_display_count": 2,
       "protein_full_name": "Ciliary associated calcium binding coiled-coil 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CCDC51",
@@ -4445,7 +4592,8 @@
       "pubmed_display_count": 9,
       "protein_full_name": "Coiled-coil domain containing 51",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "CRACDL",
@@ -4475,7 +4623,8 @@
       "pubmed_display_count": 0,
       "protein_full_name": "CRACD like",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "ERVV-1",
@@ -4505,7 +4654,8 @@
       "pubmed_display_count": 2,
       "protein_full_name": "Endogenous retrovirus group V member 1, envelope",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "ERVV-2",
@@ -4535,7 +4685,8 @@
       "pubmed_display_count": 2,
       "protein_full_name": "Endogenous retrovirus group V member 2, envelope",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "FAM186B",
@@ -4565,7 +4716,8 @@
       "pubmed_display_count": 2,
       "protein_full_name": "Family with sequence similarity 186 member B",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "FAM241B",
@@ -4595,7 +4747,8 @@
       "pubmed_display_count": 5,
       "protein_full_name": "Family with sequence similarity 241 member B",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "GRAPL",
@@ -4625,7 +4778,8 @@
       "pubmed_display_count": 3,
       "protein_full_name": "GRB2 related adaptor protein like",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "LMNTD1",
@@ -4655,7 +4809,8 @@
       "pubmed_display_count": 3,
       "protein_full_name": "Lamin tail domain containing 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "LONRF1",
@@ -4685,7 +4840,8 @@
       "pubmed_display_count": 8,
       "protein_full_name": "LON peptidase N-terminal domain and ring finger 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "PCM1",
@@ -4715,7 +4871,8 @@
       "pubmed_display_count": 367,
       "protein_full_name": "Pericentriolar material 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "local"
     },
     {
       "gene": "RFPL4AL1",
@@ -4745,7 +4902,8 @@
       "pubmed_display_count": 0,
       "protein_full_name": "Ret finger protein like 4A like 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "RMDN1",
@@ -4775,7 +4933,8 @@
       "pubmed_display_count": 7,
       "protein_full_name": "Regulator of microtubule dynamics 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "SMIM18",
@@ -4805,7 +4964,8 @@
       "pubmed_display_count": 0,
       "protein_full_name": "Small integral membrane protein 18",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "SRRM5",
@@ -4835,7 +4995,8 @@
       "pubmed_display_count": 1,
       "protein_full_name": "Serine/arginine repetitive matrix 5",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "THAP6",
@@ -4865,7 +5026,8 @@
       "pubmed_display_count": 2,
       "protein_full_name": "THAP domain containing 6",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "TMEM170B",
@@ -4895,7 +5057,8 @@
       "pubmed_display_count": 6,
       "protein_full_name": "Transmembrane protein 170B",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "TTC39A",
@@ -4925,7 +5088,8 @@
       "pubmed_display_count": 7,
       "protein_full_name": "Tetratricopeptide repeat domain 39A",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "ZNF620",
@@ -4955,7 +5119,8 @@
       "pubmed_display_count": 1,
       "protein_full_name": "Zinc finger protein 620",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "AK6",
@@ -4985,7 +5150,8 @@
       "pubmed_display_count": 42,
       "protein_full_name": "Adenylate kinase 6",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "ALDH8A1",
@@ -5015,7 +5181,8 @@
       "pubmed_display_count": 32,
       "protein_full_name": "Aldehyde dehydrogenase 8 family member A1",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "ARL2BP",
@@ -5045,7 +5212,8 @@
       "pubmed_display_count": 42,
       "protein_full_name": "ADP ribosylation factor like GTPase 2 binding protein",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "BCAS2",
@@ -5075,7 +5243,8 @@
       "pubmed_display_count": 52,
       "protein_full_name": "BCAS2 pre-mRNA processing factor",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "C2CD3",
@@ -5105,7 +5274,8 @@
       "pubmed_display_count": 42,
       "protein_full_name": "C2 domain containing 3 centriole elongation regulator",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "C2CD5",
@@ -5135,7 +5305,8 @@
       "pubmed_display_count": 11,
       "protein_full_name": "C2 calcium dependent domain containing 5",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "CCDC65",
@@ -5165,7 +5336,8 @@
       "pubmed_display_count": 20,
       "protein_full_name": "Coiled-coil domain containing 65",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CCDC92",
@@ -5195,7 +5367,8 @@
       "pubmed_display_count": 31,
       "protein_full_name": "Coiled-coil domain containing 92",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CEP112",
@@ -5225,7 +5398,8 @@
       "pubmed_display_count": 17,
       "protein_full_name": "Centrosomal protein 112",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CEP162",
@@ -5255,7 +5429,8 @@
       "pubmed_display_count": 16,
       "protein_full_name": "Centrosomal protein 162",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CEP350",
@@ -5285,7 +5460,8 @@
       "pubmed_display_count": 32,
       "protein_full_name": "Centrosomal protein 350",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CEP63",
@@ -5315,7 +5491,8 @@
       "pubmed_display_count": 54,
       "protein_full_name": "Centrosomal protein 63",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "CETN3",
@@ -5345,7 +5522,8 @@
       "pubmed_display_count": 39,
       "protein_full_name": "Centrin 3",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "CFAP52",
@@ -5375,7 +5553,8 @@
       "pubmed_display_count": 17,
       "protein_full_name": "Cilia and flagella associated protein 52",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CNTRL",
@@ -5405,7 +5584,8 @@
       "pubmed_display_count": 88,
       "protein_full_name": "Centriolin",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CNTROB",
@@ -5435,7 +5615,8 @@
       "pubmed_display_count": 31,
       "protein_full_name": "Centrobin, centriole duplication and spindle assembly protein",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CROCC",
@@ -5465,7 +5646,8 @@
       "pubmed_display_count": 54,
       "protein_full_name": "Ciliary rootlet coiled-coil, rootletin",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CTNNBL1",
@@ -5495,7 +5677,8 @@
       "pubmed_display_count": 48,
       "protein_full_name": "Catenin beta like 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CYTH4",
@@ -5525,7 +5708,8 @@
       "pubmed_display_count": 25,
       "protein_full_name": "Cytohesin 4",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "DCAF13",
@@ -5555,7 +5739,8 @@
       "pubmed_display_count": 51,
       "protein_full_name": "DDB1 and CUL4 associated factor 13",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "DYNC1LI1",
@@ -5585,7 +5770,8 @@
       "pubmed_display_count": 58,
       "protein_full_name": "Dynein cytoplasmic 1 light intermediate chain 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "EDRF1",
@@ -5615,7 +5801,8 @@
       "pubmed_display_count": 11,
       "protein_full_name": "Erythroid differentiation regulatory factor 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "ELP6",
@@ -5645,7 +5832,8 @@
       "pubmed_display_count": 45,
       "protein_full_name": "Elongator acetyltransferase complex subunit 6",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "FBXO9",
@@ -5675,7 +5863,8 @@
       "pubmed_display_count": 39,
       "protein_full_name": "F-box protein 9",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "FCHO2",
@@ -5705,7 +5894,8 @@
       "pubmed_display_count": 47,
       "protein_full_name": "FCH and mu domain containing endocytic adaptor 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "FKBP11",
@@ -5735,7 +5925,8 @@
       "pubmed_display_count": 54,
       "protein_full_name": "FKBP prolyl isomerase 11",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "broken"
     },
     {
       "gene": "FNTB",
@@ -5765,7 +5956,8 @@
       "pubmed_display_count": 39,
       "protein_full_name": "Farnesyltransferase, CAAX box, beta",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "FRMD4B",
@@ -5795,7 +5987,8 @@
       "pubmed_display_count": 21,
       "protein_full_name": "FERM domain containing 4B",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "GINS4",
@@ -5825,7 +6018,8 @@
       "pubmed_display_count": 51,
       "protein_full_name": "GINS complex subunit 4",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "GYG2",
@@ -5855,7 +6049,8 @@
       "pubmed_display_count": 31,
       "protein_full_name": "Glycogenin 2",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "broken"
     },
     {
       "gene": "HAUS6",
@@ -5885,7 +6080,8 @@
       "pubmed_display_count": 24,
       "protein_full_name": "HAUS augmin like complex subunit 6",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "HORMAD2",
@@ -5915,7 +6111,8 @@
       "pubmed_display_count": 53,
       "protein_full_name": "HORMA domain containing 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "IFT81",
@@ -5945,7 +6142,8 @@
       "pubmed_display_count": 56,
       "protein_full_name": "Intraflagellar transport 81",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "KATNAL1",
@@ -5975,7 +6173,8 @@
       "pubmed_display_count": 40,
       "protein_full_name": "Katanin catalytic subunit A1 like 1",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "KATNIP",
@@ -6005,7 +6204,8 @@
       "pubmed_display_count": 18,
       "protein_full_name": "Katanin interacting protein",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "KCNH5",
@@ -6035,7 +6235,8 @@
       "pubmed_display_count": 58,
       "protein_full_name": "Potassium voltage-gated channel subfamily H member 5",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "KLHL4",
@@ -6065,7 +6266,8 @@
       "pubmed_display_count": 19,
       "protein_full_name": "Kelch like family member 4",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "KMT5B",
@@ -6095,7 +6297,8 @@
       "pubmed_display_count": 59,
       "protein_full_name": "Lysine methyltransferase 5B",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "LEPROT",
@@ -6125,7 +6328,8 @@
       "pubmed_display_count": 54,
       "protein_full_name": "Leptin receptor overlapping transcript",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "LGI2",
@@ -6155,7 +6359,8 @@
       "pubmed_display_count": 41,
       "protein_full_name": "Leucine rich repeat LGI family member 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "LRIF1",
@@ -6185,7 +6390,8 @@
       "pubmed_display_count": 22,
       "protein_full_name": "Ligand dependent nuclear receptor interacting factor 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "LRRC7",
@@ -6215,7 +6421,8 @@
       "pubmed_display_count": 52,
       "protein_full_name": "Leucine rich repeat containing 7",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "MT-ND4L",
@@ -6245,7 +6452,8 @@
       "pubmed_display_count": 33,
       "protein_full_name": "Mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 4L",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "MTMR9",
@@ -6275,7 +6483,8 @@
       "pubmed_display_count": 31,
       "protein_full_name": "Myotubularin related protein 9",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "N6AMT1",
@@ -6305,7 +6514,8 @@
       "pubmed_display_count": 41,
       "protein_full_name": "N-6 adenine-specific DNA methyltransferase 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "NAA40",
@@ -6335,7 +6545,8 @@
       "pubmed_display_count": 29,
       "protein_full_name": "N-alpha-acetyltransferase 40, NatD catalytic subunit",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "NUBP1",
@@ -6365,7 +6576,8 @@
       "pubmed_display_count": 41,
       "protein_full_name": "NUBP iron-sulfur cluster assembly factor 1, cytosolic",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "PIK3C2G",
@@ -6395,7 +6607,8 @@
       "pubmed_display_count": 57,
       "protein_full_name": "Phosphatidylinositol-4-phosphate 3-kinase catalytic subunit type 2 gamma",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "PLEKHA4",
@@ -6425,7 +6638,8 @@
       "pubmed_display_count": 20,
       "protein_full_name": "Pleckstrin homology domain containing A4",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "RAPGEF6",
@@ -6455,7 +6669,8 @@
       "pubmed_display_count": 36,
       "protein_full_name": "Rap guanine nucleotide exchange factor 6",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "RHEBL1",
@@ -6485,7 +6700,8 @@
       "pubmed_display_count": 33,
       "protein_full_name": "RHEB like 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "RILPL1",
@@ -6515,7 +6731,8 @@
       "pubmed_display_count": 44,
       "protein_full_name": "Rab interacting lysosomal protein like 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "RIMKLB",
@@ -6545,7 +6762,8 @@
       "pubmed_display_count": 22,
       "protein_full_name": "Ribosomal modification protein rimK like family member B",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "broken"
     },
     {
       "gene": "RNF167",
@@ -6575,7 +6793,8 @@
       "pubmed_display_count": 20,
       "protein_full_name": "Ring finger protein 167",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "RNF39",
@@ -6605,7 +6824,8 @@
       "pubmed_display_count": 45,
       "protein_full_name": "Ring finger protein 39",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "RSPH1",
@@ -6635,7 +6855,8 @@
       "pubmed_display_count": 43,
       "protein_full_name": "Radial spoke head component 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "RTTN",
@@ -6665,7 +6886,8 @@
       "pubmed_display_count": 38,
       "protein_full_name": "Rotatin",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "RUNDC3B",
@@ -6695,7 +6917,8 @@
       "pubmed_display_count": 19,
       "protein_full_name": "RUN domain containing 3B",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "SERPINB6",
@@ -6725,7 +6948,8 @@
       "pubmed_display_count": 56,
       "protein_full_name": "Serpin family B member 6",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "SIRPB1",
@@ -6755,7 +6979,8 @@
       "pubmed_display_count": 55,
       "protein_full_name": "Signal regulatory protein beta 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "SLC35D3",
@@ -6785,7 +7010,8 @@
       "pubmed_display_count": 19,
       "protein_full_name": "Solute carrier family 35 member D3",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "SLC35F1",
@@ -6815,7 +7041,8 @@
       "pubmed_display_count": 18,
       "protein_full_name": "Solute carrier family 35 member F1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "SNTB2",
@@ -6845,7 +7072,8 @@
       "pubmed_display_count": 15,
       "protein_full_name": "Syntrophin beta 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "TAF1D",
@@ -6875,7 +7103,8 @@
       "pubmed_display_count": 14,
       "protein_full_name": "TATA-box binding protein associated factor, RNA polymerase I subunit D",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "TAPT1",
@@ -6905,7 +7134,8 @@
       "pubmed_display_count": 22,
       "protein_full_name": "Transmembrane anterior posterior transformation 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "TBC1D8",
@@ -6935,7 +7165,8 @@
       "pubmed_display_count": 15,
       "protein_full_name": "TBC1 domain family member 8",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "TDRKH",
@@ -6965,7 +7196,8 @@
       "pubmed_display_count": 48,
       "protein_full_name": "Tudor and KH domain containing",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "TEX12",
@@ -6995,7 +7227,8 @@
       "pubmed_display_count": 31,
       "protein_full_name": "Testis expressed 12",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "TRIM34",
@@ -7025,7 +7258,8 @@
       "pubmed_display_count": 33,
       "protein_full_name": "Tripartite motif containing 34",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "TTI2",
@@ -7055,7 +7289,8 @@
       "pubmed_display_count": 38,
       "protein_full_name": "TELO2 interacting protein 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "TUBG2",
@@ -7085,7 +7320,8 @@
       "pubmed_display_count": 17,
       "protein_full_name": "Tubulin gamma 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "TUBGCP5",
@@ -7115,7 +7351,8 @@
       "pubmed_display_count": 53,
       "protein_full_name": "Tubulin gamma complex associated protein 5",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "TXLNA",
@@ -7145,7 +7382,8 @@
       "pubmed_display_count": 57,
       "protein_full_name": "Taxilin alpha",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "UBE2Q1",
@@ -7175,7 +7413,8 @@
       "pubmed_display_count": 39,
       "protein_full_name": "Ubiquitin conjugating enzyme E2 Q1",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "broken"
     },
     {
       "gene": "UBL3",
@@ -7205,7 +7444,8 @@
       "pubmed_display_count": 35,
       "protein_full_name": "Ubiquitin like 3",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "UNC5CL",
@@ -7235,7 +7475,8 @@
       "pubmed_display_count": 15,
       "protein_full_name": "Unc-5 family C-terminal like",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "WDR83",
@@ -7265,7 +7506,8 @@
       "pubmed_display_count": 16,
       "protein_full_name": "WD repeat domain 83",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "ZNF296",
@@ -7295,7 +7537,8 @@
       "pubmed_display_count": 11,
       "protein_full_name": "Zinc finger protein 296",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "ZNF322",
@@ -7325,7 +7568,8 @@
       "pubmed_display_count": 15,
       "protein_full_name": "Zinc finger protein 322",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "ZNF365",
@@ -7355,7 +7599,8 @@
       "pubmed_display_count": 85,
       "protein_full_name": "Zinc finger protein 365",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "BBOF1",
@@ -7385,7 +7630,8 @@
       "pubmed_display_count": 4,
       "protein_full_name": "Basal body orientation factor 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "C16orf96",
@@ -7415,7 +7661,8 @@
       "pubmed_display_count": 3,
       "protein_full_name": "Chromosome 16 open reading frame 96",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "C5orf58",
@@ -7445,7 +7692,8 @@
       "pubmed_display_count": 2,
       "protein_full_name": "Chromosome 5 open reading frame 58",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CCP110",
@@ -7475,7 +7723,8 @@
       "pubmed_display_count": 77,
       "protein_full_name": "Centriolar coiled-coil protein 110",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "local"
     },
     {
       "gene": "CEP95",
@@ -7505,7 +7754,8 @@
       "pubmed_display_count": 8,
       "protein_full_name": "Centrosomal protein 95",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "CEP97",
@@ -7535,7 +7785,8 @@
       "pubmed_display_count": 43,
       "protein_full_name": "Centrosomal protein 97",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "local"
     },
     {
       "gene": "ENSG00000274175",
@@ -7565,7 +7816,8 @@
       "pubmed_display_count": 0,
       "protein_full_name": "",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "FAM184A",
@@ -7595,7 +7847,8 @@
       "pubmed_display_count": 6,
       "protein_full_name": "Family with sequence similarity 184 member A",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "KCTD4",
@@ -7625,7 +7878,8 @@
       "pubmed_display_count": 6,
       "protein_full_name": "Potassium channel tetramerization domain containing 4",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "KLHL30",
@@ -7655,7 +7909,8 @@
       "pubmed_display_count": 6,
       "protein_full_name": "Kelch like family member 30",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "LINC02203",
@@ -7685,7 +7940,8 @@
       "pubmed_display_count": 1,
       "protein_full_name": "Long intergenic non-protein coding RNA 2203",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "MCF2L2",
@@ -7715,7 +7971,8 @@
       "pubmed_display_count": 5,
       "protein_full_name": "MCF.2 cell line derived transforming sequence-like 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "TP53TG3D",
@@ -7745,7 +8002,8 @@
       "pubmed_display_count": 0,
       "protein_full_name": "TP53 target 3D",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "TP53TG3F",
@@ -7775,7 +8033,8 @@
       "pubmed_display_count": 0,
       "protein_full_name": "TP53 target 3 family member F",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "ZNF443",
@@ -7805,7 +8064,8 @@
       "pubmed_display_count": 4,
       "protein_full_name": "Zinc finger protein 443",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "ZNF721",
@@ -7835,7 +8095,8 @@
       "pubmed_display_count": 7,
       "protein_full_name": "Zinc finger protein 721",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "ADPGK",
@@ -7865,7 +8126,8 @@
       "pubmed_display_count": 75,
       "protein_full_name": "ADP dependent glucokinase",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "broken"
     },
     {
       "gene": "AGBL5",
@@ -7895,7 +8157,8 @@
       "pubmed_display_count": 24,
       "protein_full_name": "AGBL carboxypeptidase 5",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "AKNA",
@@ -7925,7 +8188,8 @@
       "pubmed_display_count": 65,
       "protein_full_name": "AT-hook transcription factor",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "AMN1",
@@ -7955,7 +8219,8 @@
       "pubmed_display_count": 35,
       "protein_full_name": "Antagonist of mitotic exit network 1 homolog",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "ARHGAP29",
@@ -7985,7 +8250,8 @@
       "pubmed_display_count": 89,
       "protein_full_name": "Rho GTPase activating protein 29",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "ATP11B",
@@ -8015,7 +8281,8 @@
       "pubmed_display_count": 41,
       "protein_full_name": "ATPase phospholipid transporting 11B (putative)",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "broken"
     },
     {
       "gene": "BCAR3",
@@ -8045,7 +8312,8 @@
       "pubmed_display_count": 97,
       "protein_full_name": "BCAR3 adaptor protein, NSP family member",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "C1QTNF2",
@@ -8075,7 +8343,8 @@
       "pubmed_display_count": 12,
       "protein_full_name": "C1q and TNF related 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CAPN6",
@@ -8105,7 +8374,8 @@
       "pubmed_display_count": 44,
       "protein_full_name": "Calpain 6",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "CAPRIN2",
@@ -8135,7 +8405,8 @@
       "pubmed_display_count": 38,
       "protein_full_name": "Caprin family member 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "CBY1",
@@ -8165,7 +8436,8 @@
       "pubmed_display_count": 63,
       "protein_full_name": "Chibby family member 1, beta catenin antagonist",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CCDC39",
@@ -8195,7 +8467,8 @@
       "pubmed_display_count": 93,
       "protein_full_name": "Coiled-coil domain containing 39",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CCDC66",
@@ -8225,7 +8498,8 @@
       "pubmed_display_count": 42,
       "protein_full_name": "Coiled-coil domain containing 66",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CCDC88B",
@@ -8255,7 +8529,8 @@
       "pubmed_display_count": 23,
       "protein_full_name": "Coiled-coil domain containing 88B",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CD163L1",
@@ -8285,7 +8560,8 @@
       "pubmed_display_count": 28,
       "protein_full_name": "CD163 molecule like 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CEP131",
@@ -8315,7 +8591,8 @@
       "pubmed_display_count": 54,
       "protein_full_name": "Centrosomal protein 131",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CEP152",
@@ -8345,7 +8622,8 @@
       "pubmed_display_count": 99,
       "protein_full_name": "Centrosomal protein 152",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "CEP170",
@@ -8375,7 +8653,8 @@
       "pubmed_display_count": 69,
       "protein_full_name": "Centrosomal protein 170",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CEP250",
@@ -8405,7 +8684,8 @@
       "pubmed_display_count": 69,
       "protein_full_name": "Centrosomal protein 250",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CEP68",
@@ -8435,7 +8715,8 @@
       "pubmed_display_count": 32,
       "protein_full_name": "Centrosomal protein 68",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CEP72",
@@ -8465,7 +8746,8 @@
       "pubmed_display_count": 70,
       "protein_full_name": "Centrosomal protein 72",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "local"
     },
     {
       "gene": "CHMP1A",
@@ -8495,7 +8777,8 @@
       "pubmed_display_count": 67,
       "protein_full_name": "Charged multivesicular body protein 1A",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "CHST15",
@@ -8525,7 +8808,8 @@
       "pubmed_display_count": 82,
       "protein_full_name": "Carbohydrate sulfotransferase 15",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "broken"
     },
     {
       "gene": "CIB2",
@@ -8555,7 +8839,8 @@
       "pubmed_display_count": 100,
       "protein_full_name": "Calcium and integrin binding family member 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CKAP2",
@@ -8585,7 +8870,8 @@
       "pubmed_display_count": 94,
       "protein_full_name": "Cytoskeleton associated protein 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CLEC11A",
@@ -8615,7 +8901,8 @@
       "pubmed_display_count": 84,
       "protein_full_name": "C-type lectin domain containing 11A",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "CUEDC1",
@@ -8645,7 +8932,8 @@
       "pubmed_display_count": 14,
       "protein_full_name": "CUE domain containing 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CYB5B",
@@ -8675,7 +8963,8 @@
       "pubmed_display_count": 32,
       "protein_full_name": "Cytochrome b5 type B",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "DHRS1",
@@ -8705,7 +8994,8 @@
       "pubmed_display_count": 13,
       "protein_full_name": "Dehydrogenase/reductase 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "DNAH6",
@@ -8735,7 +9025,8 @@
       "pubmed_display_count": 38,
       "protein_full_name": "Dynein axonemal heavy chain 6",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "DNAJA4",
@@ -8765,7 +9056,8 @@
       "pubmed_display_count": 52,
       "protein_full_name": "DnaJ heat shock protein family (Hsp40) member A4",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "DPF2",
@@ -8795,7 +9087,8 @@
       "pubmed_display_count": 71,
       "protein_full_name": "Double PHD fingers 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "DZIP1",
@@ -8825,7 +9118,8 @@
       "pubmed_display_count": 66,
       "protein_full_name": "DAZ interacting zinc finger protein 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "ENKD1",
@@ -8855,7 +9149,8 @@
       "pubmed_display_count": 12,
       "protein_full_name": "Enkurin domain containing 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "ERCC6L",
@@ -8885,7 +9180,8 @@
       "pubmed_display_count": 80,
       "protein_full_name": "ERCC excision repair 6 like, spindle assembly checkpoint helicase",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "broken"
     },
     {
       "gene": "FAM161A",
@@ -8915,7 +9211,8 @@
       "pubmed_display_count": 72,
       "protein_full_name": "FAM161 centrosomal protein A",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "FBF1",
@@ -8945,7 +9242,8 @@
       "pubmed_display_count": 74,
       "protein_full_name": "Fas binding factor 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "FCMR",
@@ -8975,7 +9273,8 @@
       "pubmed_display_count": 92,
       "protein_full_name": "Fc mu receptor",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "FGF11",
@@ -9005,7 +9304,8 @@
       "pubmed_display_count": 94,
       "protein_full_name": "Fibroblast growth factor 11",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "FNDC3A",
@@ -9035,7 +9335,8 @@
       "pubmed_display_count": 32,
       "protein_full_name": "Fibronectin type III domain containing 3A",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "GKAP1",
@@ -9065,7 +9366,8 @@
       "pubmed_display_count": 12,
       "protein_full_name": "G kinase anchoring protein 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "GPAA1",
@@ -9095,7 +9397,8 @@
       "pubmed_display_count": 73,
       "protein_full_name": "Glycosylphosphatidylinositol anchor attachment 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "GPR174",
@@ -9125,7 +9428,8 @@
       "pubmed_display_count": 52,
       "protein_full_name": "G protein-coupled receptor 174",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "HIPK1",
@@ -9155,7 +9459,8 @@
       "pubmed_display_count": 93,
       "protein_full_name": "Homeodomain interacting protein kinase 1",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "HMX3",
@@ -9185,7 +9490,8 @@
       "pubmed_display_count": 53,
       "protein_full_name": "H6 family homeobox 3",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "HOOK3",
@@ -9215,7 +9521,8 @@
       "pubmed_display_count": 59,
       "protein_full_name": "Hook microtubule tethering protein 3",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "HSPA4L",
@@ -9245,7 +9552,8 @@
       "pubmed_display_count": 79,
       "protein_full_name": "Heat shock protein family A (Hsp70) member 4 like",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "HSPBP1",
@@ -9275,7 +9583,8 @@
       "pubmed_display_count": 86,
       "protein_full_name": "HSPA (Hsp70) binding protein 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "INPP1",
@@ -9305,7 +9614,8 @@
       "pubmed_display_count": 36,
       "protein_full_name": "Inositol polyphosphate-1-phosphatase",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "broken"
     },
     {
       "gene": "IQSEC1",
@@ -9335,7 +9645,8 @@
       "pubmed_display_count": 77,
       "protein_full_name": "IQ motif and Sec7 domain ArfGEF 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "JADE1",
@@ -9365,7 +9676,8 @@
       "pubmed_display_count": 67,
       "protein_full_name": "Jade family PHD finger 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "KCTD1",
@@ -9395,7 +9707,8 @@
       "pubmed_display_count": 53,
       "protein_full_name": "Potassium channel tetramerization domain containing 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "KCTD16",
@@ -9425,7 +9738,8 @@
       "pubmed_display_count": 40,
       "protein_full_name": "Potassium channel tetramerization domain containing 16",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "KIF20B",
@@ -9455,7 +9769,8 @@
       "pubmed_display_count": 73,
       "protein_full_name": "Kinesin family member 20B",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "KIF6",
@@ -9485,7 +9800,8 @@
       "pubmed_display_count": 92,
       "protein_full_name": "Kinesin family member 6",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "KIRREL2",
@@ -9515,7 +9831,8 @@
       "pubmed_display_count": 46,
       "protein_full_name": "Kirre like nephrin family adhesion molecule 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "KLC3",
@@ -9545,7 +9862,8 @@
       "pubmed_display_count": 33,
       "protein_full_name": "Kinesin light chain 3",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "KLHL12",
@@ -9575,7 +9893,8 @@
       "pubmed_display_count": 60,
       "protein_full_name": "Kelch like family member 12",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "KLHL35",
@@ -9605,7 +9924,8 @@
       "pubmed_display_count": 17,
       "protein_full_name": "Kelch like family member 35",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "KNSTRN",
@@ -9635,7 +9955,8 @@
       "pubmed_display_count": 42,
       "protein_full_name": "Kinetochore localized astrin (SPAG5) binding protein",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "LEO1",
@@ -9665,7 +9986,8 @@
       "pubmed_display_count": 93,
       "protein_full_name": "LEO1 homolog, Paf1/RNA polymerase II complex component",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "LUZP1",
@@ -9695,7 +10017,8 @@
       "pubmed_display_count": 35,
       "protein_full_name": "Leucine zipper protein 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "MAMLD1",
@@ -9725,7 +10048,8 @@
       "pubmed_display_count": 98,
       "protein_full_name": "Mastermind like domain containing 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "MAP7D3",
@@ -9755,7 +10079,8 @@
       "pubmed_display_count": 18,
       "protein_full_name": "MAP7 domain containing 3",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "MAP9",
@@ -9785,7 +10110,8 @@
       "pubmed_display_count": 41,
       "protein_full_name": "Microtubule associated protein 9",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "MGAT4C",
@@ -9815,7 +10141,8 @@
       "pubmed_display_count": 18,
       "protein_full_name": "MGAT4 family member C",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "MICALL1",
@@ -9845,7 +10172,8 @@
       "pubmed_display_count": 54,
       "protein_full_name": "MICAL like 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "MTMR11",
@@ -9875,7 +10203,8 @@
       "pubmed_display_count": 12,
       "protein_full_name": "Myotubularin related protein 11",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "MYO18B",
@@ -9905,7 +10234,8 @@
       "pubmed_display_count": 71,
       "protein_full_name": "Myosin XVIIIB",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "NCAPD2",
@@ -9935,7 +10265,8 @@
       "pubmed_display_count": 57,
       "protein_full_name": "Non-SMC condensin I complex subunit D2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "NEUROD4",
@@ -9965,7 +10296,8 @@
       "pubmed_display_count": 94,
       "protein_full_name": "Neuronal differentiation 4",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "NUDT5",
@@ -9995,7 +10327,8 @@
       "pubmed_display_count": 90,
       "protein_full_name": "Nudix hydrolase 5",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "broken"
     },
     {
       "gene": "OBSL1",
@@ -10025,7 +10358,8 @@
       "pubmed_display_count": 89,
       "protein_full_name": "Obscurin like cytoskeletal adaptor 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "PNMA5",
@@ -10055,7 +10389,8 @@
       "pubmed_display_count": 14,
       "protein_full_name": "PNMA family member 5",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "RAB11FIP3",
@@ -10085,7 +10420,8 @@
       "pubmed_display_count": 53,
       "protein_full_name": "RAB11 family interacting protein 3",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "RAB26",
@@ -10115,7 +10451,8 @@
       "pubmed_display_count": 65,
       "protein_full_name": "RAB26, member RAS oncogene family",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "RASSF7",
@@ -10145,7 +10482,8 @@
       "pubmed_display_count": 45,
       "protein_full_name": "Ras association domain family member 7",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "RIOK3",
@@ -10175,7 +10513,8 @@
       "pubmed_display_count": 58,
       "protein_full_name": "RIO kinase 3",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "broken"
     },
     {
       "gene": "RPP25",
@@ -10205,7 +10544,8 @@
       "pubmed_display_count": 41,
       "protein_full_name": "Ribonuclease P and MRP subunit p25",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "RRAGD",
@@ -10235,7 +10575,8 @@
       "pubmed_display_count": 67,
       "protein_full_name": "Ras related GTP binding D",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "SDCCAG8",
@@ -10265,7 +10606,8 @@
       "pubmed_display_count": 73,
       "protein_full_name": "SHH signaling and ciliogenesis regulator SDCCAG8",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "SENP7",
@@ -10295,7 +10637,8 @@
       "pubmed_display_count": 81,
       "protein_full_name": "SUMO specific peptidase 7",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "broken"
     },
     {
       "gene": "SFR1",
@@ -10325,7 +10668,8 @@
       "pubmed_display_count": 67,
       "protein_full_name": "SWI5 dependent homologous recombination repair protein 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "SPIN4",
@@ -10355,7 +10699,8 @@
       "pubmed_display_count": 17,
       "protein_full_name": "Spindlin family member 4",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "SRGAP1",
@@ -10385,7 +10730,8 @@
       "pubmed_display_count": 73,
       "protein_full_name": "SLIT-ROBO Rho GTPase activating protein 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "SRGAP3",
@@ -10415,7 +10761,8 @@
       "pubmed_display_count": 74,
       "protein_full_name": "SLIT-ROBO Rho GTPase activating protein 3",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "ST7L",
@@ -10445,7 +10792,8 @@
       "pubmed_display_count": 27,
       "protein_full_name": "Suppression of tumorigenicity 7 like",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "STK26",
@@ -10475,7 +10823,8 @@
       "pubmed_display_count": 71,
       "protein_full_name": "Serine/threonine kinase 26",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "STK32A",
@@ -10505,7 +10854,8 @@
       "pubmed_display_count": 21,
       "protein_full_name": "Serine/threonine kinase 32A",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "TMEM132C",
@@ -10535,7 +10885,8 @@
       "pubmed_display_count": 24,
       "protein_full_name": "Transmembrane protein 132C",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "TRIM38",
@@ -10565,7 +10916,8 @@
       "pubmed_display_count": 66,
       "protein_full_name": "Tripartite motif containing 38",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "broken"
     },
     {
       "gene": "TRIM46",
@@ -10595,7 +10947,8 @@
       "pubmed_display_count": 73,
       "protein_full_name": "Tripartite motif containing 46",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "TWSG1",
@@ -10625,7 +10978,8 @@
       "pubmed_display_count": 66,
       "protein_full_name": "Twisted gastrulation BMP signaling modulator 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "UBA3",
@@ -10655,7 +11009,8 @@
       "pubmed_display_count": 86,
       "protein_full_name": "Ubiquitin like modifier activating enzyme 3",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "broken"
     },
     {
       "gene": "UGP2",
@@ -10685,7 +11040,8 @@
       "pubmed_display_count": 97,
       "protein_full_name": "UDP-glucose pyrophosphorylase 2",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "broken"
     },
     {
       "gene": "USF3",
@@ -10715,7 +11071,8 @@
       "pubmed_display_count": 11,
       "protein_full_name": "Upstream transcription factor family member 3",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "USP38",
@@ -10745,7 +11102,8 @@
       "pubmed_display_count": 61,
       "protein_full_name": "Ubiquitin specific peptidase 38",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "ZFP90",
@@ -10775,7 +11133,8 @@
       "pubmed_display_count": 28,
       "protein_full_name": "ZFP90 zinc finger protein",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "ENSG00000272980",
@@ -10805,7 +11164,8 @@
       "pubmed_display_count": 0,
       "protein_full_name": "Novel protein",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "ENSG00000285837",
@@ -10835,7 +11195,8 @@
       "pubmed_display_count": 0,
       "protein_full_name": "Novel protein",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "ENSG00000144785",
@@ -10865,7 +11226,8 @@
       "pubmed_display_count": 0,
       "protein_full_name": "Novel protein",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "ENSG00000275869",
@@ -10895,7 +11257,8 @@
       "pubmed_display_count": 0,
       "protein_full_name": "",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "NEDD1",
@@ -10925,7 +11288,8 @@
       "pubmed_display_count": 79,
       "protein_full_name": "NEDD1 gamma-tubulin ring complex targeting factor",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "local"
     },
     {
       "gene": "TP53TG3C",
@@ -10955,7 +11319,8 @@
       "pubmed_display_count": 1,
       "protein_full_name": "TP53 target 3C",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "ANKAR",
@@ -10985,7 +11350,8 @@
       "pubmed_display_count": 59,
       "protein_full_name": "Ankyrin and armadillo repeat containing",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "ATAD5",
@@ -11015,7 +11381,8 @@
       "pubmed_display_count": 68,
       "protein_full_name": "ATPase family AAA domain containing 5",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "BHLHE22",
@@ -11045,7 +11412,8 @@
       "pubmed_display_count": 62,
       "protein_full_name": "Basic helix-loop-helix family member e22",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CENPU",
@@ -11075,7 +11443,8 @@
       "pubmed_display_count": 76,
       "protein_full_name": "Centromere protein U",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "CPA4",
@@ -11105,7 +11474,8 @@
       "pubmed_display_count": 74,
       "protein_full_name": "Carboxypeptidase A4",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "DDHD2",
@@ -11135,7 +11505,8 @@
       "pubmed_display_count": 75,
       "protein_full_name": "DDHD domain containing 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "FNIP2",
@@ -11165,7 +11536,8 @@
       "pubmed_display_count": 62,
       "protein_full_name": "Folliculin interacting protein 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "IFT57",
@@ -11195,7 +11567,8 @@
       "pubmed_display_count": 67,
       "protein_full_name": "Intraflagellar transport 57",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "KLHL6",
@@ -11225,7 +11598,8 @@
       "pubmed_display_count": 57,
       "protein_full_name": "Kelch like family member 6",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "LAMP5",
@@ -11255,7 +11629,8 @@
       "pubmed_display_count": 59,
       "protein_full_name": "Lysosomal associated membrane protein family member 5",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "LCA5",
@@ -11285,7 +11660,8 @@
       "pubmed_display_count": 64,
       "protein_full_name": "Lebercilin LCA5",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "LMTK2",
@@ -11315,7 +11691,8 @@
       "pubmed_display_count": 67,
       "protein_full_name": "Lemur tyrosine kinase 2",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "MAP3K11",
@@ -11345,7 +11722,8 @@
       "pubmed_display_count": 74,
       "protein_full_name": "Mitogen-activated protein kinase kinase kinase 11",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "MAP3K13",
@@ -11375,7 +11753,8 @@
       "pubmed_display_count": 65,
       "protein_full_name": "Mitogen-activated protein kinase kinase kinase 13",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "broken"
     },
     {
       "gene": "OAZ1",
@@ -11405,7 +11784,8 @@
       "pubmed_display_count": 98,
       "protein_full_name": "Ornithine decarboxylase antizyme 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "POLD4",
@@ -11435,7 +11815,8 @@
       "pubmed_display_count": 61,
       "protein_full_name": "DNA polymerase delta 4, accessory subunit",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "TRAT1",
@@ -11465,7 +11846,8 @@
       "pubmed_display_count": 77,
       "protein_full_name": "T cell receptor associated transmembrane adaptor 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "TRIM15",
@@ -11495,7 +11877,8 @@
       "pubmed_display_count": 42,
       "protein_full_name": "Tripartite motif containing 15",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "TRIM2",
@@ -11525,7 +11908,8 @@
       "pubmed_display_count": 93,
       "protein_full_name": "Tripartite motif containing 2",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "broken"
     },
     {
       "gene": "TTC21B",
@@ -11555,7 +11939,8 @@
       "pubmed_display_count": 82,
       "protein_full_name": "Tetratricopeptide repeat domain 21B",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "BLTP1",
@@ -11585,7 +11970,8 @@
       "pubmed_display_count": 8,
       "protein_full_name": "Bridge-like lipid transfer protein family member 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "CCDC57",
@@ -11615,7 +12001,8 @@
       "pubmed_display_count": 21,
       "protein_full_name": "Coiled-coil domain containing 57",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "CDKL2",
@@ -11645,7 +12032,8 @@
       "pubmed_display_count": 38,
       "protein_full_name": "Cyclin dependent kinase like 2",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "CHODL",
@@ -11675,7 +12063,8 @@
       "pubmed_display_count": 34,
       "protein_full_name": "Chondrolectin",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "ENSG00000288637",
@@ -11705,7 +12094,8 @@
       "pubmed_display_count": 0,
       "protein_full_name": "Novel protein",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "FRMD8",
@@ -11735,7 +12125,8 @@
       "pubmed_display_count": 24,
       "protein_full_name": "FERM domain containing 8",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "GLT8D1",
@@ -11765,7 +12156,8 @@
       "pubmed_display_count": 38,
       "protein_full_name": "Glycosyltransferase 8 domain containing 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "GPR162",
@@ -11795,7 +12187,8 @@
       "pubmed_display_count": 19,
       "protein_full_name": "G protein-coupled receptor 162",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "GVQW3",
@@ -11825,7 +12218,8 @@
       "pubmed_display_count": 0,
       "protein_full_name": "GVQW motif containing 3",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "ODAD4",
@@ -11855,7 +12249,8 @@
       "pubmed_display_count": 10,
       "protein_full_name": "Outer dynein arm docking complex subunit 4",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "OR4M2-OT1",
@@ -11885,7 +12280,8 @@
       "pubmed_display_count": 0,
       "protein_full_name": "OR4M2 overlapping transcript 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "OR4N4",
@@ -11915,7 +12311,8 @@
       "pubmed_display_count": 4,
       "protein_full_name": "Olfactory receptor family 4 subfamily N member 4",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "OR4N4C",
@@ -11945,7 +12342,8 @@
       "pubmed_display_count": 0,
       "protein_full_name": "Olfactory receptor family 4 subfamily N member 4C",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "PCDHB15",
@@ -11975,7 +12373,8 @@
       "pubmed_display_count": 5,
       "protein_full_name": "Protocadherin beta 15",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "PGBD4",
@@ -12005,7 +12404,8 @@
       "pubmed_display_count": 4,
       "protein_full_name": "PiggyBac transposable element derived 4",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "PINLYP",
@@ -12035,7 +12435,8 @@
       "pubmed_display_count": 6,
       "protein_full_name": "Phospholipase A2 inhibitor and LY6/PLAUR domain containing",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "PLEKHG7",
@@ -12065,7 +12466,8 @@
       "pubmed_display_count": 3,
       "protein_full_name": "Pleckstrin homology and RhoGEF domain containing G7",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "PLEKHH1",
@@ -12095,7 +12497,8 @@
       "pubmed_display_count": 5,
       "protein_full_name": "Pleckstrin homology, MyTH4 and FERM domain containing H1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "PRR32",
@@ -12125,7 +12528,8 @@
       "pubmed_display_count": 6,
       "protein_full_name": "Proline rich 32",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "SPPL2B",
@@ -12155,7 +12559,8 @@
       "pubmed_display_count": 40,
       "protein_full_name": "Signal peptide peptidase like 2B",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "STEEP1",
@@ -12185,7 +12590,8 @@
       "pubmed_display_count": 7,
       "protein_full_name": "STING1 ER exit protein 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "TTC6",
@@ -12215,7 +12621,8 @@
       "pubmed_display_count": 9,
       "protein_full_name": "Tetratricopeptide repeat domain 6",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "WDR13",
@@ -12245,7 +12652,8 @@
       "pubmed_display_count": 17,
       "protein_full_name": "WD repeat domain 13",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "ZNF12",
@@ -12275,7 +12683,8 @@
       "pubmed_display_count": 10,
       "protein_full_name": "Zinc finger protein 12",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "ZNF121",
@@ -12305,7 +12714,8 @@
       "pubmed_display_count": 9,
       "protein_full_name": "Zinc finger protein 121",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "ZNF280D",
@@ -12335,7 +12745,8 @@
       "pubmed_display_count": 7,
       "protein_full_name": "Zinc finger protein 280D",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "ZNF616",
@@ -12365,7 +12776,8 @@
       "pubmed_display_count": 1,
       "protein_full_name": "Zinc finger protein 616",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "ZNF747",
@@ -12395,7 +12807,8 @@
       "pubmed_display_count": 0,
       "protein_full_name": "Zinc finger protein 747",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "ZNF780A",
@@ -12425,7 +12838,8 @@
       "pubmed_display_count": 4,
       "protein_full_name": "Zinc finger protein 780A",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "ZNF780B",
@@ -12455,7 +12869,8 @@
       "pubmed_display_count": 3,
       "protein_full_name": "Zinc finger protein 780B",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CEP20",
@@ -12485,7 +12900,8 @@
       "pubmed_display_count": 16,
       "protein_full_name": "Centrosomal protein 20",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "PELI2",
@@ -12515,7 +12931,8 @@
       "pubmed_display_count": 30,
       "protein_full_name": "Pellino E3 ubiquitin protein ligase family member 2",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "AGTPBP1",
@@ -12545,7 +12962,8 @@
       "pubmed_display_count": 83,
       "protein_full_name": "ATP/GTP binding carboxypeptidase 1",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "ABCA13",
@@ -12575,7 +12993,8 @@
       "pubmed_display_count": 77,
       "protein_full_name": "ATP binding cassette subfamily A member 13",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CCDC14",
@@ -12605,7 +13024,8 @@
       "pubmed_display_count": 7,
       "protein_full_name": "Coiled-coil domain containing 14",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "local"
     },
     {
       "gene": "ENSG00000268870",
@@ -12635,7 +13055,8 @@
       "pubmed_display_count": 0,
       "protein_full_name": "Novel zinc finger protein",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "LRRN1",
@@ -12665,7 +13086,8 @@
       "pubmed_display_count": 56,
       "protein_full_name": "Leucine rich repeat neuronal 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "PRICKLE4",
@@ -12695,7 +13117,8 @@
       "pubmed_display_count": 6,
       "protein_full_name": "Prickle planar cell polarity protein 4",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "TMEM63A",
@@ -12725,7 +13148,8 @@
       "pubmed_display_count": 52,
       "protein_full_name": "Transmembrane protein 63A",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "VSIG10",
@@ -12755,7 +13179,8 @@
       "pubmed_display_count": 6,
       "protein_full_name": "V-set and immunoglobulin domain containing 10",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "ZMYM1",
@@ -12785,7 +13210,8 @@
       "pubmed_display_count": 7,
       "protein_full_name": "Zinc finger MYM-type containing 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "ZNF799",
@@ -12815,7 +13241,8 @@
       "pubmed_display_count": 0,
       "protein_full_name": "Zinc finger protein 799",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "CFAP418",
@@ -12845,7 +13272,8 @@
       "pubmed_display_count": 16,
       "protein_full_name": "Cilia and flagella associated protein 418",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "ILRUN",
@@ -12875,7 +13303,8 @@
       "pubmed_display_count": 22,
       "protein_full_name": "Inflammation and lipid regulator with UBA-like and NBR1-like domains",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "LRRC45",
@@ -12905,7 +13334,8 @@
       "pubmed_display_count": 14,
       "protein_full_name": "Leucine rich repeat containing 45",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "MAGEB16",
@@ -12935,7 +13365,8 @@
       "pubmed_display_count": 15,
       "protein_full_name": "MAGE family member B16",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "MFAP1",
@@ -12965,7 +13396,8 @@
       "pubmed_display_count": 20,
       "protein_full_name": "Microfibril associated protein 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "PLEKHG6",
@@ -12995,7 +13427,8 @@
       "pubmed_display_count": 19,
       "protein_full_name": "Pleckstrin homology and RhoGEF domain containing G6",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "PLEKHS1",
@@ -13025,7 +13458,8 @@
       "pubmed_display_count": 25,
       "protein_full_name": "Pleckstrin homology domain containing S1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "QRSL1",
@@ -13055,7 +13489,8 @@
       "pubmed_display_count": 12,
       "protein_full_name": "Glutaminyl-tRNA amidotransferase subunit QRSL1",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "broken"
     },
     {
       "gene": "RABL2B",
@@ -13085,7 +13520,8 @@
       "pubmed_display_count": 20,
       "protein_full_name": "RAB, member of RAS oncogene family like 2B",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "WDR90",
@@ -13115,7 +13551,8 @@
       "pubmed_display_count": 14,
       "protein_full_name": "WD repeat domain 90",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "ZBED1",
@@ -13145,7 +13582,8 @@
       "pubmed_display_count": 24,
       "protein_full_name": "Zinc finger BED-type containing 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "ZNF274",
@@ -13175,7 +13613,8 @@
       "pubmed_display_count": 19,
       "protein_full_name": "Zinc finger protein 274",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "ZNF677",
@@ -13205,7 +13644,8 @@
       "pubmed_display_count": 16,
       "protein_full_name": "Zinc finger protein 677",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "MDM1",
@@ -13235,7 +13675,8 @@
       "pubmed_display_count": 62,
       "protein_full_name": "Mdm1 nuclear protein",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "PNPLA7",
@@ -13265,7 +13706,8 @@
       "pubmed_display_count": 29,
       "protein_full_name": "Patatin like phospholipase domain containing 7",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "broken"
     },
     {
       "gene": "PRPF6",
@@ -13295,7 +13737,8 @@
       "pubmed_display_count": 57,
       "protein_full_name": "Pre-mRNA processing factor 6",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "PURG",
@@ -13325,7 +13768,8 @@
       "pubmed_display_count": 60,
       "protein_full_name": "Purine rich element binding protein G",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "RAB3IL1",
@@ -13355,7 +13799,8 @@
       "pubmed_display_count": 17,
       "protein_full_name": "RAB3A interacting protein like 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "RAB3IP",
@@ -13385,7 +13830,8 @@
       "pubmed_display_count": 35,
       "protein_full_name": "RAB3A interacting protein",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "VCPIP1",
@@ -13415,7 +13861,8 @@
       "pubmed_display_count": 38,
       "protein_full_name": "Valosin containing protein interacting protein 1",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "VPS37A",
@@ -13445,7 +13892,8 @@
       "pubmed_display_count": 51,
       "protein_full_name": "VPS37A subunit of ESCRT-I",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "WASHC5",
@@ -13475,7 +13923,8 @@
       "pubmed_display_count": 53,
       "protein_full_name": "WASH complex subunit 5",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "WDR54",
@@ -13505,7 +13954,8 @@
       "pubmed_display_count": 13,
       "protein_full_name": "WD repeat domain 54",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "ZSCAN10",
@@ -13535,7 +13985,8 @@
       "pubmed_display_count": 34,
       "protein_full_name": "Zinc finger and SCAN domain containing 10",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "IFT43",
@@ -13565,7 +14016,8 @@
       "pubmed_display_count": 42,
       "protein_full_name": "Intraflagellar transport 43",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "IFT74",
@@ -13595,7 +14047,8 @@
       "pubmed_display_count": 59,
       "protein_full_name": "Intraflagellar transport 74",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "KATNA1",
@@ -13625,7 +14078,8 @@
       "pubmed_display_count": 40,
       "protein_full_name": "Katanin catalytic subunit A1",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "PAOX",
@@ -13655,7 +14109,8 @@
       "pubmed_display_count": 81,
       "protein_full_name": "Polyamine oxidase",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "PXK",
@@ -13685,7 +14140,8 @@
       "pubmed_display_count": 58,
       "protein_full_name": "PX domain containing serine/threonine kinase like",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "broken"
     },
     {
       "gene": "RAB11FIP5",
@@ -13715,7 +14171,8 @@
       "pubmed_display_count": 42,
       "protein_full_name": "RAB11 family interacting protein 5",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "RAB15",
@@ -13745,7 +14202,8 @@
       "pubmed_display_count": 41,
       "protein_full_name": "RAB15, member RAS oncogene family",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "RAB34",
@@ -13775,7 +14233,8 @@
       "pubmed_display_count": 86,
       "protein_full_name": "RAB34, member RAS oncogene family",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "WDR19",
@@ -13805,7 +14264,8 @@
       "pubmed_display_count": 73,
       "protein_full_name": "WD repeat domain 19",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "ZBED6",
@@ -13835,7 +14295,8 @@
       "pubmed_display_count": 50,
       "protein_full_name": "Zinc finger BED-type containing 6",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "ZBTB24",
@@ -13865,7 +14326,8 @@
       "pubmed_display_count": 61,
       "protein_full_name": "Zinc finger and BTB domain containing 24",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "ZNF408",
@@ -13895,7 +14357,8 @@
       "pubmed_display_count": 40,
       "protein_full_name": "Zinc finger protein 408",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "broken"
     },
     {
       "gene": "PIK3R5",
@@ -13925,7 +14388,8 @@
       "pubmed_display_count": 84,
       "protein_full_name": "Phosphoinositide-3-kinase regulatory subunit 5",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "hpa"
     },
     {
       "gene": "PTPN23",
@@ -13955,7 +14419,8 @@
       "pubmed_display_count": 75,
       "protein_full_name": "Protein tyrosine phosphatase non-receptor type 23",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "hpa"
     },
     {
       "gene": "AAAS",
@@ -13985,7 +14450,8 @@
       "pubmed_display_count": 5691,
       "protein_full_name": "Aladin WD repeat nucleoporin",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "ACADS",
@@ -14015,7 +14481,8 @@
       "pubmed_display_count": 225,
       "protein_full_name": "Acyl-CoA dehydrogenase short chain",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "ADNP",
@@ -14045,7 +14512,8 @@
       "pubmed_display_count": 460,
       "protein_full_name": "Activity dependent neuroprotector homeobox",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "AHI1",
@@ -14075,7 +14543,8 @@
       "pubmed_display_count": 225,
       "protein_full_name": "Abelson helper integration site 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "AK5",
@@ -14105,7 +14574,8 @@
       "pubmed_display_count": 149,
       "protein_full_name": "Adenylate kinase 5",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "AKAP9",
@@ -14135,7 +14605,8 @@
       "pubmed_display_count": 248,
       "protein_full_name": "A-kinase anchoring protein 9",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "ALMS1",
@@ -14165,7 +14636,8 @@
       "pubmed_display_count": 343,
       "protein_full_name": "ALMS1 centrosome and basal body associated protein",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "ALPK1",
@@ -14195,7 +14667,8 @@
       "pubmed_display_count": 154,
       "protein_full_name": "Alpha kinase 1",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "ANP32A",
@@ -14225,7 +14698,8 @@
       "pubmed_display_count": 206,
       "protein_full_name": "Acidic nuclear phosphoprotein 32 family member A",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "ANP32B",
@@ -14255,7 +14729,8 @@
       "pubmed_display_count": 127,
       "protein_full_name": "Acidic nuclear phosphoprotein 32 family member B",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "ANP32E",
@@ -14285,7 +14760,8 @@
       "pubmed_display_count": 137,
       "protein_full_name": "Acidic nuclear phosphoprotein 32 family member E",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "APEX1",
@@ -14315,7 +14791,8 @@
       "pubmed_display_count": 1710,
       "protein_full_name": "Apurinic/apyrimidinic endodeoxyribonuclease 1",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "ARL3",
@@ -14345,7 +14822,8 @@
       "pubmed_display_count": 170,
       "protein_full_name": "ADP ribosylation factor like GTPase 3",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "ASAP1",
@@ -14375,7 +14853,8 @@
       "pubmed_display_count": 263,
       "protein_full_name": "ArfGAP with SH3 domain, ankyrin repeat and PH domain 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "ATF3",
@@ -14405,7 +14884,8 @@
       "pubmed_display_count": 2774,
       "protein_full_name": "Activating transcription factor 3",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "ATG5",
@@ -14435,7 +14915,8 @@
       "pubmed_display_count": 5905,
       "protein_full_name": "Autophagy related 5",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "AUH",
@@ -14465,7 +14946,8 @@
       "pubmed_display_count": 1085,
       "protein_full_name": "AU RNA binding methylglutaconyl-CoA hydratase",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "AVEN",
@@ -14495,7 +14977,8 @@
       "pubmed_display_count": 1093,
       "protein_full_name": "Apoptosis and caspase activation inhibitor",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "BAG2",
@@ -14525,7 +15008,8 @@
       "pubmed_display_count": 300,
       "protein_full_name": "BAG cochaperone 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "BAG5",
@@ -14555,7 +15039,8 @@
       "pubmed_display_count": 102,
       "protein_full_name": "BAG cochaperone 5",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "BCO1",
@@ -14585,7 +15070,8 @@
       "pubmed_display_count": 208,
       "protein_full_name": "Beta-carotene oxygenase 1",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "BICC1",
@@ -14615,7 +15101,8 @@
       "pubmed_display_count": 132,
       "protein_full_name": "BicC family RNA binding protein 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "BIRC7",
@@ -14645,7 +15132,8 @@
       "pubmed_display_count": 286,
       "protein_full_name": "Baculoviral IAP repeat containing 7",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "BRAF",
@@ -14675,7 +15163,8 @@
       "pubmed_display_count": 28140,
       "protein_full_name": "B-Raf proto-oncogene, serine/threonine kinase",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "BRMS1",
@@ -14705,7 +15194,8 @@
       "pubmed_display_count": 227,
       "protein_full_name": "BRMS1 transcriptional repressor and anoikis regulator",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "CALCR",
@@ -14735,7 +15225,8 @@
       "pubmed_display_count": 196,
       "protein_full_name": "Calcitonin receptor",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "CAPRIN1",
@@ -14765,7 +15256,8 @@
       "pubmed_display_count": 203,
       "protein_full_name": "Cell cycle associated protein 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "CAPS2",
@@ -14795,7 +15287,8 @@
       "pubmed_display_count": 990,
       "protein_full_name": "Calcyphosine 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "CASP8",
@@ -14825,7 +15318,8 @@
       "pubmed_display_count": 6012,
       "protein_full_name": "Caspase 8",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "CCDC88A",
@@ -14855,7 +15349,8 @@
       "pubmed_display_count": 212,
       "protein_full_name": "Coiled-coil domain containing 88A",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "CCNF",
@@ -14885,7 +15380,8 @@
       "pubmed_display_count": 239,
       "protein_full_name": "Cyclin F",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "CCNO",
@@ -14915,7 +15411,8 @@
       "pubmed_display_count": 165,
       "protein_full_name": "Cyclin O",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "CD226",
@@ -14945,7 +15442,8 @@
       "pubmed_display_count": 589,
       "protein_full_name": "CD226 molecule",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "CD2AP",
@@ -14975,7 +15473,8 @@
       "pubmed_display_count": 657,
       "protein_full_name": "CD2 associated protein",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "CD86",
@@ -15005,7 +15504,8 @@
       "pubmed_display_count": 13986,
       "protein_full_name": "CD86 molecule",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "CDC45",
@@ -15035,7 +15535,8 @@
       "pubmed_display_count": 696,
       "protein_full_name": "Cell division cycle 45",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "CDK2",
@@ -15065,7 +15566,8 @@
       "pubmed_display_count": 10029,
       "protein_full_name": "Cyclin dependent kinase 2",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "CDK5RAP2",
@@ -15095,7 +15597,8 @@
       "pubmed_display_count": 208,
       "protein_full_name": "CDK5 regulatory subunit associated protein 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "CDKN1B",
@@ -15125,7 +15628,8 @@
       "pubmed_display_count": 3176,
       "protein_full_name": "Cyclin dependent kinase inhibitor 1B",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "CENPJ",
@@ -15155,7 +15659,8 @@
       "pubmed_display_count": 131,
       "protein_full_name": "Centromere protein J",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "CEP164",
@@ -15185,7 +15690,8 @@
       "pubmed_display_count": 106,
       "protein_full_name": "Centrosomal protein 164",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "CEP290",
@@ -15215,7 +15721,8 @@
       "pubmed_display_count": 438,
       "protein_full_name": "Centrosomal protein 290",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "CEP55",
@@ -15245,7 +15752,8 @@
       "pubmed_display_count": 371,
       "protein_full_name": "Centrosomal protein 55",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "CHD3",
@@ -15275,7 +15783,8 @@
       "pubmed_display_count": 295,
       "protein_full_name": "Chromodomain helicase DNA binding protein 3",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "CHPF",
@@ -15305,7 +15814,8 @@
       "pubmed_display_count": 109,
       "protein_full_name": "Chondroitin polymerizing factor",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "CIP2A",
@@ -15335,7 +15845,8 @@
       "pubmed_display_count": 418,
       "protein_full_name": "Cellular inhibitor of PP2A",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "CKAP5",
@@ -15365,7 +15876,8 @@
       "pubmed_display_count": 172,
       "protein_full_name": "Cytoskeleton associated protein 5",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "CLIC4",
@@ -15395,7 +15907,8 @@
       "pubmed_display_count": 213,
       "protein_full_name": "Chloride intracellular channel 4",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "CLRN1",
@@ -15425,7 +15938,8 @@
       "pubmed_display_count": 103,
       "protein_full_name": "Clarin 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "CLTC",
@@ -15455,7 +15969,8 @@
       "pubmed_display_count": 249,
       "protein_full_name": "Clathrin heavy chain",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "CPE",
@@ -15485,7 +16000,8 @@
       "pubmed_display_count": 10097,
       "protein_full_name": "Carboxypeptidase E",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "CREB1",
@@ -15515,7 +16031,8 @@
       "pubmed_display_count": 3673,
       "protein_full_name": "CAMP responsive element binding protein 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "CREB3",
@@ -15545,7 +16062,8 @@
       "pubmed_display_count": 254,
       "protein_full_name": "CAMP responsive element binding protein 3",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "CRIP1",
@@ -15575,7 +16093,8 @@
       "pubmed_display_count": 150,
       "protein_full_name": "Cysteine rich protein 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "CRMP1",
@@ -15605,7 +16124,8 @@
       "pubmed_display_count": 182,
       "protein_full_name": "Collapsin response mediator protein 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "CYLD",
@@ -15635,7 +16155,8 @@
       "pubmed_display_count": 977,
       "protein_full_name": "CYLD lysine 63 deubiquitinase",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "DAPK1",
@@ -15665,7 +16186,8 @@
       "pubmed_display_count": 800,
       "protein_full_name": "Death associated protein kinase 1",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "DCC",
@@ -15695,7 +16217,8 @@
       "pubmed_display_count": 5557,
       "protein_full_name": "DCC netrin 1 receptor",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "DCDC2",
@@ -15725,7 +16248,8 @@
       "pubmed_display_count": 173,
       "protein_full_name": "Doublecortin domain containing 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "DCTN2",
@@ -15755,7 +16279,8 @@
       "pubmed_display_count": 112,
       "protein_full_name": "Dynactin subunit 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "DDX60",
@@ -15785,7 +16310,8 @@
       "pubmed_display_count": 103,
       "protein_full_name": "DExD/H-box helicase 60",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "DLG4",
@@ -15815,7 +16341,8 @@
       "pubmed_display_count": 2026,
       "protein_full_name": "Discs large MAGUK scaffold protein 4",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "DMBT1",
@@ -15845,7 +16372,8 @@
       "pubmed_display_count": 480,
       "protein_full_name": "Deleted in malignant brain tumors 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "DMRT2",
@@ -15875,7 +16403,8 @@
       "pubmed_display_count": 140,
       "protein_full_name": "Doublesex and mab-3 related transcription factor 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "DRD4",
@@ -15905,7 +16434,8 @@
       "pubmed_display_count": 2036,
       "protein_full_name": "Dopamine receptor D4",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "DVL3",
@@ -15935,7 +16465,8 @@
       "pubmed_display_count": 293,
       "protein_full_name": "Dishevelled segment polarity protein 3",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "DYNC1H1",
@@ -15965,7 +16496,8 @@
       "pubmed_display_count": 223,
       "protein_full_name": "Dynein cytoplasmic 1 heavy chain 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "DYRK1A",
@@ -15995,7 +16527,8 @@
       "pubmed_display_count": 1122,
       "protein_full_name": "Dual specificity tyrosine phosphorylation regulated kinase 1A",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "DYSF",
@@ -16025,7 +16558,8 @@
       "pubmed_display_count": 781,
       "protein_full_name": "Dysferlin",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "E2F1",
@@ -16055,7 +16589,8 @@
       "pubmed_display_count": 5751,
       "protein_full_name": "E2F transcription factor 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "EMSY",
@@ -16085,7 +16620,8 @@
       "pubmed_display_count": 124,
       "protein_full_name": "EMSY transcriptional repressor, BRCA2 interacting",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "ENGASE",
@@ -16115,7 +16651,8 @@
       "pubmed_display_count": 118,
       "protein_full_name": "Endo-beta-N-acetylglucosaminidase",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "EP300",
@@ -16145,7 +16682,8 @@
       "pubmed_display_count": 2579,
       "protein_full_name": "E1A binding protein p300",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "ERC1",
@@ -16175,7 +16713,8 @@
       "pubmed_display_count": 158,
       "protein_full_name": "ELKS/RAB6-interacting/CAST family member 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "EYA3",
@@ -16205,7 +16744,8 @@
       "pubmed_display_count": 112,
       "protein_full_name": "EYA transcriptional coactivator and phosphatase 3",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "FANCE",
@@ -16235,7 +16775,8 @@
       "pubmed_display_count": 14094,
       "protein_full_name": "FA complementation group E",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "FEZF2",
@@ -16265,7 +16806,8 @@
       "pubmed_display_count": 168,
       "protein_full_name": "FEZ family zinc finger 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "FGF23",
@@ -16295,7 +16837,8 @@
       "pubmed_display_count": 5543,
       "protein_full_name": "Fibroblast growth factor 23",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "FGFR1",
@@ -16325,7 +16868,8 @@
       "pubmed_display_count": 6275,
       "protein_full_name": "Fibroblast growth factor receptor 1",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "FLII",
@@ -16355,7 +16899,8 @@
       "pubmed_display_count": 366,
       "protein_full_name": "FLII actin remodeling protein",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "FLT4",
@@ -16385,7 +16930,8 @@
       "pubmed_display_count": 805,
       "protein_full_name": "Fms related receptor tyrosine kinase 4",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "G6PD",
@@ -16415,7 +16961,8 @@
       "pubmed_display_count": 7591,
       "protein_full_name": "Glucose-6-phosphate dehydrogenase",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "GAPDHS",
@@ -16445,7 +16992,8 @@
       "pubmed_display_count": 9481,
       "protein_full_name": "Glyceraldehyde-3-phosphate dehydrogenase, spermatogenic",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "GAS6",
@@ -16475,7 +17023,8 @@
       "pubmed_display_count": 1360,
       "protein_full_name": "Growth arrest specific 6",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "GLI2",
@@ -16505,7 +17054,8 @@
       "pubmed_display_count": 1685,
       "protein_full_name": "GLI family zinc finger 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "GLP1R",
@@ -16535,7 +17085,8 @@
       "pubmed_display_count": 4569,
       "protein_full_name": "Glucagon like peptide 1 receptor",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "GNAI1",
@@ -16565,7 +17116,8 @@
       "pubmed_display_count": 178,
       "protein_full_name": "G protein subunit alpha i1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "GNAI3",
@@ -16595,7 +17147,8 @@
       "pubmed_display_count": 197,
       "protein_full_name": "G protein subunit alpha i3",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "GNB5",
@@ -16625,7 +17178,8 @@
       "pubmed_display_count": 161,
       "protein_full_name": "G protein subunit beta 5",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "GPSM2",
@@ -16655,7 +17209,8 @@
       "pubmed_display_count": 156,
       "protein_full_name": "G protein signaling modulator 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "GRAP",
@@ -16685,7 +17240,8 @@
       "pubmed_display_count": 393,
       "protein_full_name": "GRB2 related adaptor protein",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "GRB2",
@@ -16715,7 +17271,8 @@
       "pubmed_display_count": 3894,
       "protein_full_name": "Growth factor receptor bound protein 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "GTSE1",
@@ -16745,7 +17302,8 @@
       "pubmed_display_count": 122,
       "protein_full_name": "G2 and S-phase expressed 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "HDAC6",
@@ -16775,7 +17333,8 @@
       "pubmed_display_count": 3008,
       "protein_full_name": "Histone deacetylase 6",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "HK2",
@@ -16805,7 +17364,8 @@
       "pubmed_display_count": 8271,
       "protein_full_name": "Hexokinase 2",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "HMMR",
@@ -16835,7 +17395,8 @@
       "pubmed_display_count": 336,
       "protein_full_name": "Hyaluronan mediated motility receptor",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "HNMT",
@@ -16865,7 +17426,8 @@
       "pubmed_display_count": 215,
       "protein_full_name": "Histamine N-methyltransferase",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "HOXB4",
@@ -16895,7 +17457,8 @@
       "pubmed_display_count": 450,
       "protein_full_name": "Homeobox B4",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "ID2",
@@ -16925,7 +17488,8 @@
       "pubmed_display_count": 1575,
       "protein_full_name": "Inhibitor of DNA binding 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "IFT88",
@@ -16955,7 +17519,8 @@
       "pubmed_display_count": 473,
       "protein_full_name": "Intraflagellar transport 88",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "IL1RN",
@@ -16985,7 +17550,8 @@
       "pubmed_display_count": 3783,
       "protein_full_name": "Interleukin 1 receptor antagonist",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "IL4R",
@@ -17015,7 +17581,8 @@
       "pubmed_display_count": 1419,
       "protein_full_name": "Interleukin 4 receptor",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "INPP4B",
@@ -17045,7 +17612,8 @@
       "pubmed_display_count": 302,
       "protein_full_name": "Inositol polyphosphate-4-phosphatase type II B",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "INSR",
@@ -17075,7 +17643,8 @@
       "pubmed_display_count": 1927,
       "protein_full_name": "Insulin receptor",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "INVS",
@@ -17105,7 +17674,8 @@
       "pubmed_display_count": 852,
       "protein_full_name": "Inversin",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "ISM2",
@@ -17135,7 +17705,8 @@
       "pubmed_display_count": 795,
       "protein_full_name": "Isthmin 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "ITGB6",
@@ -17165,7 +17736,8 @@
       "pubmed_display_count": 233,
       "protein_full_name": "Integrin subunit beta 6",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "IVL",
@@ -17195,7 +17767,8 @@
       "pubmed_display_count": 1903,
       "protein_full_name": "Involucrin",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "KEAP1",
@@ -17225,7 +17798,8 @@
       "pubmed_display_count": 8849,
       "protein_full_name": "Kelch like ECH associated protein 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "KIF1A",
@@ -17255,7 +17829,8 @@
       "pubmed_display_count": 456,
       "protein_full_name": "Kinesin family member 1A",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "KIF2A",
@@ -17285,7 +17860,8 @@
       "pubmed_display_count": 225,
       "protein_full_name": "Kinesin family member 2A",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "KIF2C",
@@ -17315,7 +17891,8 @@
       "pubmed_display_count": 390,
       "protein_full_name": "Kinesin family member 2C",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "KIF5B",
@@ -17345,7 +17922,8 @@
       "pubmed_display_count": 634,
       "protein_full_name": "Kinesin family member 5B",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "KIFC1",
@@ -17375,7 +17953,8 @@
       "pubmed_display_count": 251,
       "protein_full_name": "Kinesin family member C1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "LATS2",
@@ -17405,7 +17984,8 @@
       "pubmed_display_count": 731,
       "protein_full_name": "Large tumor suppressor kinase 2",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "LGR4",
@@ -17435,7 +18015,8 @@
       "pubmed_display_count": 419,
       "protein_full_name": "Leucine rich repeat containing G protein-coupled receptor 4",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "LGR5",
@@ -17465,7 +18046,8 @@
       "pubmed_display_count": 2512,
       "protein_full_name": "Leucine rich repeat containing G protein-coupled receptor 5",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "LHCGR",
@@ -17495,7 +18077,8 @@
       "pubmed_display_count": 900,
       "protein_full_name": "Luteinizing hormone/choriogonadotropin receptor",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "LTB",
@@ -17525,7 +18108,8 @@
       "pubmed_display_count": 2680,
       "protein_full_name": "Lymphotoxin beta",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "LY9",
@@ -17555,7 +18139,8 @@
       "pubmed_display_count": 165,
       "protein_full_name": "Lymphocyte antigen 9",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "LYST",
@@ -17585,7 +18170,8 @@
       "pubmed_display_count": 371,
       "protein_full_name": "Lysosomal trafficking regulator",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "LZTR1",
@@ -17615,7 +18201,8 @@
       "pubmed_display_count": 295,
       "protein_full_name": "Leucine zipper like transcription regulator 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "MAL",
@@ -17645,7 +18232,8 @@
       "pubmed_display_count": 55018,
       "protein_full_name": "Mal, T cell differentiation protein",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "MAP4K3",
@@ -17675,7 +18263,8 @@
       "pubmed_display_count": 102,
       "protein_full_name": "Mitogen-activated protein kinase kinase kinase kinase 3",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "MAPK8IP3",
@@ -17705,7 +18294,8 @@
       "pubmed_display_count": 130,
       "protein_full_name": "Mitogen-activated protein kinase 8 interacting protein 3",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "MAPKAPK2",
@@ -17735,7 +18325,8 @@
       "pubmed_display_count": 1041,
       "protein_full_name": "MAPK activated protein kinase 2",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "MAPRE1",
@@ -17765,7 +18356,8 @@
       "pubmed_display_count": 233,
       "protein_full_name": "Microtubule associated protein RP/EB family member 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "MATK",
@@ -17795,7 +18387,8 @@
       "pubmed_display_count": 1658,
       "protein_full_name": "Megakaryocyte-associated tyrosine kinase",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "MDH1",
@@ -17825,7 +18418,8 @@
       "pubmed_display_count": 407,
       "protein_full_name": "Malate dehydrogenase 1",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "MDM2",
@@ -17855,7 +18449,8 @@
       "pubmed_display_count": 12970,
       "protein_full_name": "MDM2 proto-oncogene",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "MIB1",
@@ -17885,7 +18480,8 @@
       "pubmed_display_count": 4666,
       "protein_full_name": "MIB E3 ubiquitin protein ligase 1",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "MID1",
@@ -17915,7 +18511,8 @@
       "pubmed_display_count": 488,
       "protein_full_name": "Midline 1",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "MKKS",
@@ -17945,7 +18542,8 @@
       "pubmed_display_count": 335,
       "protein_full_name": "MKKS centrosomal shuttling protein",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "MLF1",
@@ -17975,7 +18573,8 @@
       "pubmed_display_count": 127,
       "protein_full_name": "Myeloid leukemia factor 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "MME",
@@ -18005,7 +18604,8 @@
       "pubmed_display_count": 3507,
       "protein_full_name": "Membrane metalloendopeptidase",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "MPDZ",
@@ -18035,7 +18635,8 @@
       "pubmed_display_count": 164,
       "protein_full_name": "Multiple PDZ domain crumbs cell polarity complex component",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "MPP1",
@@ -18065,7 +18666,8 @@
       "pubmed_display_count": 156,
       "protein_full_name": "MAGUK p55 scaffold protein 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "MTHFR",
@@ -18095,7 +18697,8 @@
       "pubmed_display_count": 9095,
       "protein_full_name": "Methylenetetrahydrofolate reductase",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "MYO5A",
@@ -18125,7 +18728,8 @@
       "pubmed_display_count": 369,
       "protein_full_name": "Myosin VA",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "MYOF",
@@ -18155,7 +18759,8 @@
       "pubmed_display_count": 185,
       "protein_full_name": "Myoferlin",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "NAE1",
@@ -18185,7 +18790,8 @@
       "pubmed_display_count": 103,
       "protein_full_name": "NEDD8 activating enzyme E1 subunit 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "NDC80",
@@ -18215,7 +18821,8 @@
       "pubmed_display_count": 692,
       "protein_full_name": "NDC80 kinetochore complex component",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "NDRG2",
@@ -18245,7 +18852,8 @@
       "pubmed_display_count": 452,
       "protein_full_name": "NDRG family member 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "NEFH",
@@ -18275,7 +18883,8 @@
       "pubmed_display_count": 1171,
       "protein_full_name": "Neurofilament heavy chain",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "NEK1",
@@ -18305,7 +18914,8 @@
       "pubmed_display_count": 256,
       "protein_full_name": "NIMA related kinase 1",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "NEK2",
@@ -18335,7 +18945,8 @@
       "pubmed_display_count": 612,
       "protein_full_name": "NIMA related kinase 2",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "NEK6",
@@ -18365,7 +18976,8 @@
       "pubmed_display_count": 177,
       "protein_full_name": "NIMA related kinase 6",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "NFE2L2",
@@ -18395,7 +19007,8 @@
       "pubmed_display_count": 13764,
       "protein_full_name": "NFE2 like bZIP transcription factor 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "NIN",
@@ -18425,7 +19038,8 @@
       "pubmed_display_count": 3527,
       "protein_full_name": "Ninein",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "NIT2",
@@ -18455,7 +19069,8 @@
       "pubmed_display_count": 212,
       "protein_full_name": "Nitrilase family member 2",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "NLRC3",
@@ -18485,7 +19100,8 @@
       "pubmed_display_count": 184,
       "protein_full_name": "NLR family CARD domain containing 3",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "NLRC5",
@@ -18515,7 +19131,8 @@
       "pubmed_display_count": 401,
       "protein_full_name": "NLR family CARD domain containing 5",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "NPTX2",
@@ -18545,7 +19162,8 @@
       "pubmed_display_count": 230,
       "protein_full_name": "Neuronal pentraxin 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "NR0B1",
@@ -18575,7 +19193,8 @@
       "pubmed_display_count": 691,
       "protein_full_name": "Nuclear receptor subfamily 0 group B member 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "NR6A1",
@@ -18605,7 +19224,8 @@
       "pubmed_display_count": 205,
       "protein_full_name": "Nuclear receptor subfamily 6 group A member 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "NUDT21",
@@ -18635,7 +19255,8 @@
       "pubmed_display_count": 112,
       "protein_full_name": "Nudix hydrolase 21",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "NUP107",
@@ -18665,7 +19286,8 @@
       "pubmed_display_count": 193,
       "protein_full_name": "Nucleoporin 107",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "OAS2",
@@ -18695,7 +19317,8 @@
       "pubmed_display_count": 367,
       "protein_full_name": "2'-5'-oligoadenylate synthetase 2",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "OCRL",
@@ -18725,7 +19348,8 @@
       "pubmed_display_count": 411,
       "protein_full_name": "OCRL inositol polyphosphate-5-phosphatase",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "ODF2",
@@ -18755,7 +19379,8 @@
       "pubmed_display_count": 152,
       "protein_full_name": "Outer dense fiber of sperm tails 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "PACSIN2",
@@ -18785,7 +19410,8 @@
       "pubmed_display_count": 113,
       "protein_full_name": "Protein kinase C and casein kinase substrate in neurons 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "PAFAH1B1",
@@ -18815,7 +19441,8 @@
       "pubmed_display_count": 504,
       "protein_full_name": "Platelet activating factor acetylhydrolase 1b regulatory subunit 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "PATJ",
@@ -18845,7 +19472,8 @@
       "pubmed_display_count": 145,
       "protein_full_name": "PATJ crumbs cell polarity complex component",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "PCDH9",
@@ -18875,7 +19503,8 @@
       "pubmed_display_count": 122,
       "protein_full_name": "Protocadherin 9",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "PCLAF",
@@ -18905,7 +19534,8 @@
       "pubmed_display_count": 132,
       "protein_full_name": "PCNA clamp associated factor",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "PCNT",
@@ -18935,7 +19565,8 @@
       "pubmed_display_count": 259,
       "protein_full_name": "Pericentrin",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "PDCD6IP",
@@ -18965,7 +19596,8 @@
       "pubmed_display_count": 328,
       "protein_full_name": "Programmed cell death 6 interacting protein",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "PDCL2",
@@ -18995,7 +19627,8 @@
       "pubmed_display_count": 1091,
       "protein_full_name": "Phosducin like 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "PDE11A",
@@ -19025,7 +19658,8 @@
       "pubmed_display_count": 215,
       "protein_full_name": "Phosphodiesterase 11A",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "PDE4C",
@@ -19055,7 +19689,8 @@
       "pubmed_display_count": 134,
       "protein_full_name": "Phosphodiesterase 4C",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "PDIA6",
@@ -19085,7 +19720,8 @@
       "pubmed_display_count": 176,
       "protein_full_name": "Protein disulfide isomerase family A member 6",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "PEAR1",
@@ -19115,7 +19751,8 @@
       "pubmed_display_count": 129,
       "protein_full_name": "Platelet endothelial aggregation receptor 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "PELI1",
@@ -19145,7 +19782,8 @@
       "pubmed_display_count": 196,
       "protein_full_name": "Pellino E3 ubiquitin protein ligase 1",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "PHLPP2",
@@ -19175,7 +19813,8 @@
       "pubmed_display_count": 217,
       "protein_full_name": "PH domain and leucine rich repeat protein phosphatase 2",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "PIAS4",
@@ -19205,7 +19844,8 @@
       "pubmed_display_count": 197,
       "protein_full_name": "Protein inhibitor of activated STAT 4",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "PIBF1",
@@ -19235,7 +19875,8 @@
       "pubmed_display_count": 139,
       "protein_full_name": "Progesterone immunomodulatory binding factor 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "PKN2",
@@ -19265,7 +19906,8 @@
       "pubmed_display_count": 118,
       "protein_full_name": "Protein kinase N2",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "PLAG1",
@@ -19295,7 +19937,8 @@
       "pubmed_display_count": 623,
       "protein_full_name": "PLAG1 zinc finger",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "PLCB4",
@@ -19325,7 +19968,8 @@
       "pubmed_display_count": 201,
       "protein_full_name": "Phospholipase C beta 4",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "PLVAP",
@@ -19355,7 +19999,8 @@
       "pubmed_display_count": 207,
       "protein_full_name": "Plasmalemma vesicle associated protein",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "PLXNA1",
@@ -19385,7 +20030,8 @@
       "pubmed_display_count": 199,
       "protein_full_name": "Plexin A1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "PODXL",
@@ -19415,7 +20061,8 @@
       "pubmed_display_count": 872,
       "protein_full_name": "Podocalyxin like",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "POFUT1",
@@ -19445,7 +20092,8 @@
       "pubmed_display_count": 166,
       "protein_full_name": "Protein O-fucosyltransferase 1",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "PPARA",
@@ -19475,7 +20123,8 @@
       "pubmed_display_count": 1702,
       "protein_full_name": "Peroxisome proliferator activated receptor alpha",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "PRKAR2A",
@@ -19505,7 +20154,8 @@
       "pubmed_display_count": 149,
       "protein_full_name": "Protein kinase cAMP-dependent type II regulatory subunit alpha",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "PRKAR2B",
@@ -19535,7 +20185,8 @@
       "pubmed_display_count": 172,
       "protein_full_name": "Protein kinase cAMP-dependent type II regulatory subunit beta",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "PRKCQ",
@@ -19565,7 +20216,8 @@
       "pubmed_display_count": 822,
       "protein_full_name": "Protein kinase C theta",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "PSMA1",
@@ -19595,7 +20247,8 @@
       "pubmed_display_count": 115,
       "protein_full_name": "Proteasome 20S subunit alpha 1",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "PSMB5",
@@ -19625,7 +20278,8 @@
       "pubmed_display_count": 233,
       "protein_full_name": "Proteasome 20S subunit beta 5",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "PSMD2",
@@ -19655,7 +20309,8 @@
       "pubmed_display_count": 178,
       "protein_full_name": "Proteasome 26S subunit ubiquitin receptor, non-ATPase 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "PXN",
@@ -19685,7 +20340,8 @@
       "pubmed_display_count": 1201,
       "protein_full_name": "Paxillin",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "RAB11A",
@@ -19715,7 +20371,8 @@
       "pubmed_display_count": 576,
       "protein_full_name": "RAB11A, member RAS oncogene family",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "RAB11B",
@@ -19745,7 +20402,8 @@
       "pubmed_display_count": 147,
       "protein_full_name": "RAB11B, member RAS oncogene family",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "RAB23",
@@ -19775,7 +20433,8 @@
       "pubmed_display_count": 158,
       "protein_full_name": "RAB23, member RAS oncogene family",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "RAB3A",
@@ -19805,7 +20464,8 @@
       "pubmed_display_count": 715,
       "protein_full_name": "RAB3A, member RAS oncogene family",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "RAB8A",
@@ -19835,7 +20495,8 @@
       "pubmed_display_count": 396,
       "protein_full_name": "RAB8A, member RAS oncogene family",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "RAPSN",
@@ -19865,7 +20526,8 @@
       "pubmed_display_count": 111,
       "protein_full_name": "Receptor associated protein of the synapse",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "RBM39",
@@ -19895,7 +20557,8 @@
       "pubmed_display_count": 144,
       "protein_full_name": "RNA binding motif protein 39",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "RLBP1",
@@ -19925,7 +20588,8 @@
       "pubmed_display_count": 113,
       "protein_full_name": "Retinaldehyde binding protein 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "RRM1",
@@ -19955,7 +20619,8 @@
       "pubmed_display_count": 951,
       "protein_full_name": "Ribonucleotide reductase catalytic subunit M1",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "RUVBL2",
@@ -19985,7 +20650,8 @@
       "pubmed_display_count": 279,
       "protein_full_name": "RuvB like AAA ATPase 2",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "SATB2",
@@ -20015,7 +20681,8 @@
       "pubmed_display_count": 1019,
       "protein_full_name": "SATB homeobox 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "SEMA4D",
@@ -20045,7 +20712,8 @@
       "pubmed_display_count": 539,
       "protein_full_name": "Semaphorin 4D",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "SERINC5",
@@ -20075,7 +20743,8 @@
       "pubmed_display_count": 140,
       "protein_full_name": "Serine incorporator 5",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "SH2B1",
@@ -20105,7 +20774,8 @@
       "pubmed_display_count": 291,
       "protein_full_name": "SH2B adaptor protein 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "SHD",
@@ -20135,7 +20805,8 @@
       "pubmed_display_count": 1145,
       "protein_full_name": "Src homology 2 domain containing transforming protein D",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "SKA1",
@@ -20165,7 +20836,8 @@
       "pubmed_display_count": 128,
       "protein_full_name": "Spindle and kinetochore associated complex subunit 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "SKA3",
@@ -20195,7 +20867,8 @@
       "pubmed_display_count": 139,
       "protein_full_name": "Spindle and kinetochore associated complex subunit 3",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "SKP1",
@@ -20225,7 +20898,8 @@
       "pubmed_display_count": 1787,
       "protein_full_name": "S-phase kinase associated protein 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "SLC18A2",
@@ -20255,7 +20929,8 @@
       "pubmed_display_count": 822,
       "protein_full_name": "Solute carrier family 18 member A2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "SLC1A4",
@@ -20285,7 +20960,8 @@
       "pubmed_display_count": 148,
       "protein_full_name": "Solute carrier family 1 member 4",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "SLC1A5",
@@ -20315,7 +20991,8 @@
       "pubmed_display_count": 759,
       "protein_full_name": "Solute carrier family 1 member 5",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "SLC2A1",
@@ -20345,7 +21022,8 @@
       "pubmed_display_count": 4091,
       "protein_full_name": "Solute carrier family 2 member 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "SLC8A3",
@@ -20375,7 +21053,8 @@
       "pubmed_display_count": 124,
       "protein_full_name": "Solute carrier family 8 member A3",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "SLC9A3R1",
@@ -20405,7 +21084,8 @@
       "pubmed_display_count": 732,
       "protein_full_name": "SLC9A3 regulator 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "SMAD4",
@@ -20435,7 +21115,8 @@
       "pubmed_display_count": 6702,
       "protein_full_name": "SMAD family member 4",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "SMAD7",
@@ -20465,7 +21146,8 @@
       "pubmed_display_count": 3257,
       "protein_full_name": "SMAD family member 7",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "SNAP29",
@@ -20495,7 +21177,8 @@
       "pubmed_display_count": 241,
       "protein_full_name": "Synaptosome associated protein 29",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "SNAP91",
@@ -20525,7 +21208,8 @@
       "pubmed_display_count": 223,
       "protein_full_name": "Synaptosome associated protein 91",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "SNCG",
@@ -20555,7 +21239,8 @@
       "pubmed_display_count": 261,
       "protein_full_name": "Synuclein gamma",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "SORBS1",
@@ -20585,7 +21270,8 @@
       "pubmed_display_count": 116,
       "protein_full_name": "Sorbin and SH3 domain containing 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "SP6",
@@ -20615,7 +21301,8 @@
       "pubmed_display_count": 1839,
       "protein_full_name": "Sp6 transcription factor",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "SPAG9",
@@ -20645,7 +21332,8 @@
       "pubmed_display_count": 157,
       "protein_full_name": "Sperm associated antigen 9",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "SRGAP2",
@@ -20675,7 +21363,8 @@
       "pubmed_display_count": 111,
       "protein_full_name": "SLIT-ROBO Rho GTPase activating protein 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "SSRP1",
@@ -20705,7 +21394,8 @@
       "pubmed_display_count": 283,
       "protein_full_name": "Structure specific recognition protein 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "STIL",
@@ -20735,7 +21425,8 @@
       "pubmed_display_count": 593,
       "protein_full_name": "STIL centriolar assembly protein",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "STK11",
@@ -20765,7 +21456,8 @@
       "pubmed_display_count": 3130,
       "protein_full_name": "Serine/threonine kinase 11",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "SYNJ1",
@@ -20795,7 +21487,8 @@
       "pubmed_display_count": 180,
       "protein_full_name": "Synaptojanin 1",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "TACC3",
@@ -20825,7 +21518,8 @@
       "pubmed_display_count": 475,
       "protein_full_name": "Transforming acidic coiled-coil containing protein 3",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "TACR1",
@@ -20855,7 +21549,8 @@
       "pubmed_display_count": 207,
       "protein_full_name": "Tachykinin receptor 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "TAP1",
@@ -20885,7 +21580,8 @@
       "pubmed_display_count": 1713,
       "protein_full_name": "Transporter 1, ATP binding cassette subfamily B member",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "TBX15",
@@ -20915,7 +21611,8 @@
       "pubmed_display_count": 133,
       "protein_full_name": "T-box transcription factor 15",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "TCHP",
@@ -20945,7 +21642,8 @@
       "pubmed_display_count": 113,
       "protein_full_name": "Trichoplein keratin filament binding",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "TECPR2",
@@ -20975,7 +21673,8 @@
       "pubmed_display_count": 208,
       "protein_full_name": "Tectonin beta-propeller repeat containing 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "TEK",
@@ -21005,7 +21704,8 @@
       "pubmed_display_count": 2507,
       "protein_full_name": "TEK receptor tyrosine kinase",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "TGFB3",
@@ -21035,7 +21735,8 @@
       "pubmed_display_count": 2999,
       "protein_full_name": "Transforming growth factor beta 3",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "TGIF2",
@@ -21065,7 +21766,8 @@
       "pubmed_display_count": 116,
       "protein_full_name": "TGFB induced factor homeobox 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "THBS2",
@@ -21095,7 +21797,8 @@
       "pubmed_display_count": 515,
       "protein_full_name": "Thrombospondin 2",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "TLN1",
@@ -21125,7 +21828,8 @@
       "pubmed_display_count": 404,
       "protein_full_name": "Talin 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "TNFAIP3",
@@ -21155,7 +21859,8 @@
       "pubmed_display_count": 2034,
       "protein_full_name": "TNF alpha induced protein 3",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "TP73",
@@ -21185,7 +21890,8 @@
       "pubmed_display_count": 1646,
       "protein_full_name": "Tumor protein p73",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "TRAF5",
@@ -21215,7 +21921,8 @@
       "pubmed_display_count": 299,
       "protein_full_name": "TNF receptor associated factor 5",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "TRPM1",
@@ -21245,7 +21952,8 @@
       "pubmed_display_count": 362,
       "protein_full_name": "Transient receptor potential cation channel subfamily M member 1",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "TRPV3",
@@ -21275,7 +21983,8 @@
       "pubmed_display_count": 643,
       "protein_full_name": "Transient receptor potential cation channel subfamily V member 3",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "TUB",
@@ -21305,7 +22014,8 @@
       "pubmed_display_count": 2108,
       "protein_full_name": "TUB bipartite transcription factor",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "UBR4",
@@ -21335,7 +22045,8 @@
       "pubmed_display_count": 128,
       "protein_full_name": "Ubiquitin protein ligase E3 component n-recognin 4",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "UXT",
@@ -21365,7 +22076,8 @@
       "pubmed_display_count": 110,
       "protein_full_name": "Ubiquitously expressed prefoldin like chaperone",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "VASH1",
@@ -21395,7 +22107,8 @@
       "pubmed_display_count": 260,
       "protein_full_name": "Vasohibin 1",
       "uniprot_id": "",
-      "is_enzyme": true
+      "is_enzyme": true,
+      "if_status": "none"
     },
     {
       "gene": "VLDLR",
@@ -21425,7 +22138,8 @@
       "pubmed_display_count": 799,
       "protein_full_name": "Very low density lipoprotein receptor",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "WAC",
@@ -21455,7 +22169,8 @@
       "pubmed_display_count": 1073,
       "protein_full_name": "WW domain containing adaptor with coiled-coil",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     },
     {
       "gene": "WDR62",
@@ -21485,7 +22200,8 @@
       "pubmed_display_count": 153,
       "protein_full_name": "WD repeat domain 62",
       "uniprot_id": "",
-      "is_enzyme": false
+      "is_enzyme": false,
+      "if_status": "none"
     }
   ]
 }

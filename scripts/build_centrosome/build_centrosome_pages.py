@@ -353,11 +353,9 @@ def build_protein_index():
         s = r.get('status','').lower()
         return 'eliminated' if 'eliminated' in s else ('candidate' if 'candidate' in s else ('low-priority' if 'low' in s else 'manual-review'))
 
-    def src_label(r):
-        if r.get('source_both'): return '双来源'
-        if r.get('source_centrosome'): return '中心体'
-        if r.get('source_centriolar_satellite'): return '卫星'
-        return '-'
+    def if_label(r):
+        s = r.get('if_status', 'none')
+        return {'hpa': '🟢 HPA', 'local': '🟡 本地', 'broken': '⚪ 失效'}.get(s, '—')
 
     # Candidate rows
     cand_rows = '\n'.join(
@@ -372,7 +370,7 @@ def build_protein_index():
         f'<td>{r.get("ppi_score", "-")}</td>'
         f'<td>{r.get("structure_domain_score", "-")}</td>'
         f'<td>{"✅" if r.get("is_enzyme") else "❌"}</td>'
-        f'<td>{"✓" if r.get("has_hpa_seed") else "-"}</td>'
+        f'<td>{if_label(r)}</td>'
         f'</tr>'
         for r in candidates
     )

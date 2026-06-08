@@ -219,6 +219,23 @@ def main():
     for r in reports:
         r['is_enzyme'] = r['gene'] in enzyme_genes
 
+    # IF image status from markdown reports
+    for r in reports:
+        gene = r['gene']
+        md_path = f"centrosome/detail/{gene}/{gene}-centrosome-evaluation.md"
+        if os.path.exists(md_path):
+            c = open(md_path).read()
+            if 'images.proteinatlas.org' in c and '链接失效' not in c:
+                r['if_status'] = 'hpa'
+            elif '链接失效' in c:
+                r['if_status'] = 'broken'
+            elif '![](' in c and 'IF_images/' in c:
+                r['if_status'] = 'local'
+            else:
+                r['if_status'] = 'none'
+        else:
+            r['if_status'] = 'none'
+
     # Re-serialize
     json_str = json.dumps(index_data, indent=2, ensure_ascii=False)
 
