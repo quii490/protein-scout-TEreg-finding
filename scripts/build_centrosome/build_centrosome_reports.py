@@ -174,6 +174,42 @@ def main():
 
     json_str = json.dumps(index_data, indent=2, ensure_ascii=False)
 
+    # --- Post-processing: enrich with external data ---
+    # Load PubMed prescreen data
+    pubmed_data = {}
+    prescreen_path = "centrosome/data/pubmed_prescreen_results.json"
+    if os.path.exists(prescreen_path):
+        with open(prescreen_path) as f:
+            ps = json.load(f)
+        for g, r in ps.get('results', {}).items():
+            pubmed_data[g] = r.get('pubmed_total', -1)
+    # Pilot PubMed overrides
+    pilot_pubmed = {'AURKA':3081,'PLK4':591,'CEP192':101,'NEDD1':79,'CETN2':111,
+                    'PCM1':367,'CCP110':77,'CCDC14':7,'CEP72':70,'CEP97':43,
+                    'ANP32D':7,'PIK3C2G':57,'PRKAR2B':172,'SDCCAG8':73,'ZNF322':15}
+    pubmed_data.update(pilot_pubmed)
+
+    # Load HPA gene descriptions for protein names
+    gene_desc = {}
+    for hpa_file in ['/tmp/hpa_centrosome.json', '/tmp/hpa_satellite.json']:
+        if os.path.exists(hpa_file):
+            with open(hpa_file) as f:
+                for item in json.load(f):
+                    g = item.get('Gene','')
+                    if g: gene_desc[g] = item.get('Gene description','')
+
+    for r in reports:
+        g = r['gene']
+        pm = pubmed_data.get(g)
+        r['pubmed_strict_count'] = pm if pm is not None and pm >= 0 else None
+        r['pubmed_broad_count'] = pm if pm is not None and pm >= 0 else None
+        r['pubmed_display_count'] = pm if pm is not None and pm >= 0 else None
+        r['protein_full_name'] = gene_desc.get(g, '')
+        r['uniprot_id'] = ''
+
+    # Re-serialize
+    json_str = json.dumps(index_data, indent=2, ensure_ascii=False)
+
     with open("centrosome/data/centrosome_report_index.json", 'w') as f:
         f.write(json_str)
     with open("docs/centrosome/data/centrosome_report_index.json", 'w') as f:

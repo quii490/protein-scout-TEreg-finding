@@ -309,6 +309,20 @@ a:hover {{ text-decoration: underline; }}
         {top_rows}
     </table>
 
+    <h2>评分标准</h2>
+    <div class="note" style="font-size:0.9rem;">
+    <table style="margin:0;font-size:0.85rem;">
+    <tr><th>维度</th><th>权重</th><th>范围</th><th>评分规则</th></tr>
+    <tr><td>中心体证据</td><td>×4</td><td>0–20</td><td>HPA双来源(18) / 中心体(16) / 卫星(14)</td></tr>
+    <tr><td>PubMed/文献</td><td>×4</td><td>0–20</td><td>≤10篇(10) / ≤30(8) / ≤60(7) / ≤100(6) / >100淘汰</td></tr>
+    <tr><td>PPI/互作网络</td><td>×3</td><td>0–20</td><td>≥4 high-conf STRING(18) / ≥5 named partners(15) / ≥3 total(12)</td></tr>
+    <tr><td>结构/结构域</td><td>×2</td><td>0–10</td><td>PDB+domains(9) / AF+≥3 domains(7) / AF only(5)</td></tr>
+    <tr><td>新颖性/特异性</td><td>×2</td><td>0–10</td><td>≤10篇(10) / ≤30(8) / ≤60(6) / >60(4)</td></tr>
+    </table>
+    <p style="margin-top:8px;"><strong>公式:</strong> (中心体×4 + 文献×4 + PPI×3 + 结构×2 + 新颖×2) / 2.6 → 0–100</p>
+    <p><strong>淘汰:</strong> PubMed > 100 → ELIMINATED。不使用核定位评分淘汰。</p>
+    </div>
+
     <p style="margin-top:24px; color: var(--muted);">
         <a href="protein_index.html">→ View full centrosome protein index</a>
     </p>
