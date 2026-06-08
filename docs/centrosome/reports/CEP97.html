@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CEP97 — Centrosome Module | Protein Scout</title>
+<style>
+:root {
+  --bg: #fafafa;
+  --fg: #1a1a1a;
+  --accent: #7c3aed;
+  --accent-light: #ede9fe;
+  --border: #e5e7eb;
+  --muted: #6b7280;
+  --card: #ffffff;
+  --success: #059669;
+  --warn: #d97706;
+  --danger: #dc2626;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.7; }
+.topbar { background: var(--accent); color: #fff; padding: 12px 24px; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 10; }
+.topbar a { color: #fff; text-decoration: none; margin-left: 16px; opacity: 0.9; }
+.topbar a:hover { opacity: 1; }
+.container { max-width: 900px; margin: 0 auto; padding: 24px; }
+h1 { font-size: 1.8rem; margin: 24px 0 16px; color: var(--accent); }
+h2 { font-size: 1.3rem; margin: 20px 0 12px; border-bottom: 1px solid var(--border); padding-bottom: 6px; }
+h3 { font-size: 1.1rem; margin: 16px 0 8px; }
+h4 { font-size: 1rem; margin: 12px 0 6px; color: var(--muted); }
+p { margin: 8px 0; }
+li { margin: 4px 0 4px 20px; }
+strong { color: var(--accent); }
+code { background: var(--accent-light); padding: 2px 6px; border-radius: 4px; font-size: 0.9em; }
+table { width: 100%; border-collapse: collapse; margin: 16px 0; }
+th { background: var(--accent); color: #fff; padding: 10px 12px; text-align: left; font-weight: 600; }
+td { padding: 10px 12px; border-bottom: 1px solid var(--border); }
+tr:nth-child(even) { background: var(--accent-light); }
+.badge { display: inline-block; padding: 3px 10px; border-radius: 12px; font-size: 0.8rem; font-weight: 600; }
+.badge-candidate { background: #d1fae5; color: #065f46; }
+.badge-low-priority { background: #fef3c7; color: #92400e; }
+.badge-manual-review { background: #fee2e2; color: #991b1b; }
+.back-link { margin: 24px 0; }
+.back-link a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="topbar">
+    <strong>🧬 Centrosome Module — CEP97</strong>
+    <div>
+        <a href="../index.html">Centrosome Home</a>
+        <a href="../protein_index.html">All Proteins</a>
+    </div>
+</div>
+<div class="container">
+
+<h1>CEP97 — Centrosome Module Evaluation</h1>
+
+<h2>1. 基本信息</h2>
+
+<li><strong>UniProt:</strong> Q8IW35</li>
+<li><strong>Protein name:</strong> Centrosomal protein of 97 kDa (CEP97)</li>
+<li><strong>Synonyms:</strong> FLJ31735, MGC125823</li>
+<li><strong>Length:</strong> 865 aa</li>
+<li><strong>Main atlas overlap:</strong> No (not in main atlas)</li>
+<li><strong>HPA seed source:</strong> Both (Centrosome + Centriolar satellite)</li>
+
+<h2>2. HPA Centrosome / Centriolar Satellite Evidence</h2>
+
+<li><strong>HPA seed source:</strong> Centrosome ✓ + Centriolar satellite ✓</li>
+<li><strong>HPA URL:</strong> https://www.proteinatlas.org/ENSG00000182504-CEP97</li>
+<li><strong>HPA reliability:</strong> Approved</li>
+<li><strong>HPA location text:</strong> Centrosome, centriolar satellite</li>
+<li><strong>IF image status:</strong> Available</li>
+
+<p>Dual HPA annotation provides strong independent centrosome validation. CEP97 forms a stoichiometric complex with CCP110 (also in pilot set).</p>
+
+<h2>3. UniProt / GO-CC Centrosome Evidence</h2>
+
+<li><strong>UniProt subcellular location:</strong> Centrosome, centriole, centriolar satellite, cilium basal body</li>
+<li><strong>GO-CC terms:</strong></li>
+<p>  - GO:0005813 (centrosome) — IDA</p>
+<p>  - GO:0005814 (centriole) — IDA</p>
+<p>  - GO:0034451 (centriolar satellite) — IDA</p>
+<p>  - GO:0036064 (ciliary basal body) — IDA</p>
+<li><strong>Notes:</strong> CEP97 is the obligate binding partner of CCP110. Together they form the centriole distal-end cap complex that suppresses ciliogenesis.</li>
+
+<h2>4. PubMed Evidence</h2>
+
+<li><strong>Total PubMed:</strong> 43 papers</li>
+<li><strong>Strict query (centrosome/centriole):</strong> 36 papers</li>
+<li><strong>Broad query:</strong> 39 papers</li>
+<li><strong>Key papers:</strong></li>
+<p>  - Spektor A et al. (2007) — CEP97-CP110 complex in centriole capping and ciliogenesis; PMID: 17646409</p>
+<p>  - Tsang WY et al. (2008) — CEP97 in centriole length control; PMID: 18694559</p>
+<p>  - Kobayashi T et al. (2014) — CEP97 degradation in ciliogenesis regulation; PMID: 25232968</p>
+<li><strong>Alias contamination note:</strong> No significant alias contamination. Well-defined gene.</li>
+<li><strong>Assessment:</strong> 43 papers total. Excellent volume — characterized enough to be confident in biology but not over-studied. Very high centrosome specificity (84%).</li>
+
+<h2>5. AlphaFold / PAE / PDB / Domain</h2>
+
+<li><strong>AlphaFold pLDDT:</strong> Moderate (865 aa)</li>
+<li><strong>PAE:</strong> Available — structured domains with flexibility</li>
+<li><strong>PDB:</strong> None (no experimental structures)</li>
+<li><strong>InterPro / Pfam / SMART:</strong></li>
+<p>  - IPR048484: CEP97, C-terminal domain</p>
+<p>  - Leucine-rich repeat (LRR) domains (predicted)</p>
+<p>  - Coiled-coil regions (predicted)</p>
+<li><strong>Domain notes:</strong> CEP97 has an N-terminal LRR-like domain and a conserved C-terminal domain. LRR architecture is shared with CCP110 partner and may mediate protein-protein interactions in the centriole cap complex. No catalytic domains — scaffolding/adaptor function. Limited structural data.</li>
+
+<h2>6. PPI / humanPPI</h2>
+
+<li><strong>STRING:</strong> Good interaction network centered on CCP110 complex</li>
+<li><strong>IntAct:</strong> Curated interactions</li>
+<li><strong>BioGRID:</strong> Physical interactions</li>
+<li><strong>humanPPI:</strong> Available</li>
+<li><strong>Centrosome-related interactors:</strong></li>
+<p>  - CCP110/CP110 (stoichiometric partner, centriole cap)</p>
+<p>  - CEP290 (ciliopathy protein)</p>
+<p>  - KIF24 (centriolar kinesin)</p>
+<p>  - CEP76 (centriole duplication)</p>
+<p>  - TALPID3 (ciliogenesis)</p>
+<p>  - CUL3-RBX1 (E3 ubiquitin ligase — mediates CEP97 degradation during ciliogenesis)</p>
+
+<h2>7. TE-Regulator Relevance</h2>
+
+<li><strong>Evidence:</strong></li>
+<p>  - CEP97-CCP110 complex suppresses ciliogenesis by capping centriole distal ends — removal of this cap triggers ciliogenesis</p>
+<p>  - CEP97 degradation (via CUL3-RBX1 E3 ligase) is required for ciliogenesis initiation — links to ubiquitin-proteasome system, relevant for TE-derived protein degradation</p>
+<p>  - Ciliogenesis couples to cell cycle exit and differentiation — pathways that regulate developmental TE silencing</p>
+<p>  - CEP97 is a PLK1 phosphorylation target — kinase linked to cell cycle and chromatin</p>
+<p>  - CEP97 interacts with CEP290 — CEP290 has nuclear/nucleolar roles in addition to centrosome functions</p>
+<p>  - The ubiquitin-mediated degradation of CEP97 provides a "switch" mechanism — similar regulatory logic to TE silencing (rapid ON/OFF)</p>
+<li><strong>Strength:</strong> Moderate. The ciliogenesis gatekeeper function is well-defined. Ubiquitin regulation and CEP290 connection provide additional TE-relevant links.</li>
+<li><strong>Caveats:</strong> Primarily a structural centrosome protein. TE relevance is through ciliogenesis and degradation pathways.</li>
+
+<h2>8. Centrosome Scoring Table</h2>
+
+<table>
+<tr><th>Dimension</th><th>Score</th><th>Evidence</th></tr>
+<tr><td>Centrosome evidence</td><td>19/20</td><td>Dual HPA source + UniProt + GO-CC. Ciliogenesis gatekeeper. High-confidence centrosome protein.</td></tr>
+<tr><td>TE relevance</td><td>7/20</td><td>Ciliogenesis ↔ differentiation; ubiquitin-mediated degradation switch; CEP290 connection.</td></tr>
+<tr><td>PubMed/literature</td><td>10/20</td><td>43 papers. Ideal for discovery. 84% centrosome-specific. Excellent target volume.</td></tr>
+<tr><td>PPI/network</td><td>15/20</td><td>CCP110 stoichiometric complex; CUL3 ubiquitin ligase; centriole cap interactome.</td></tr>
+<tr><td>Structure/domain</td><td>5/10</td><td>LRR + C-terminal domain. No PDB. Moderate pLDDT.</td></tr>
+<tr><td>Novelty/specificity</td><td>8/10</td><td>Not in main atlas. Dual HPA source. 43 papers. Highest centrosome specificity in pilot.</td></tr>
+</table>
+
+<li><strong>Raw score:</strong> (19×4) + (7×5) + (10×4) + (15×3) + (5×2) + (8×2) = 76 + 35 + 40 + 45 + 10 + 16 = 222</li>
+<li><strong>Final centrosome score:</strong> 222 / 3.6 = <strong>62/100</strong></li>
+
+<h2>9. Final Decision</h2>
+
+<p><strong>CENTROSOME_CANDIDATE</strong></p>
+
+<p><strong>Reason:</strong>: CEP97 is a high-confidence centrosome protein with dual HPA source annotation. Forms a stoichiometric complex with CCP110 (also a pilot candidate). Low publication volume (43 papers) with very high centrosome specificity. The ciliogenesis gatekeeper function and ubiquitin-mediated degradation provide interesting TE-relevant biology. Not in main atlas.</p>
+
+<h2>10. Manual Review Note</h2>
+
+<li>Not in main atlas — new target for centrosome module</li>
+<li>CEP97 + CCP110 form a defined complex — evaluating both together increases confidence</li>
+<li>CUL3-RBX1-mediated degradation is a druggable pathway — potential for chemical biology approaches</li>
+<li>Consider CEP97 as part of a "centriole cap sub-module" with CCP110, CEP290, and KIF24</li>
+<li>The degradation switch mechanism is conceptually similar to TE silencing — rapid ON/OFF via ubiquitination</li>
+
+<div class="back-link">
+    <a href="../protein_index.html">← Back to Centrosome Index</a>
+</div>
+</div>
+</body>
+</html>

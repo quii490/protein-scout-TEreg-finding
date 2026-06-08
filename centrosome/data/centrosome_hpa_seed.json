@@ -1,0 +1,4318 @@
+{
+  "metadata": {
+    "fetched_at": "2026-06-08T19:28:03.622749",
+    "fetch_method": "HPA JSON API (format=json)",
+    "sources": {
+      "centrosome_url": "https://www.proteinatlas.org/search/subcell_location%3ACentrosome?format=json&size=500",
+      "centriolar_satellite_url": "https://www.proteinatlas.org/search/subcell_location%3ACentriolar+satellite?format=json"
+    },
+    "counts": {
+      "centrosome": 513,
+      "centriolar_satellite": 228,
+      "both_sources": 25,
+      "centrosome_only": 488,
+      "satellite_only": 203,
+      "total_unique": 716
+    }
+  },
+  "genes": [
+    "AAAS",
+    "ABCA13",
+    "ACADS",
+    "ACTR8",
+    "ACTRT3",
+    "ADCK2",
+    "ADNP",
+    "ADPGK",
+    "AGBL5",
+    "AGTPBP1",
+    "AHI1",
+    "AK5",
+    "AK6",
+    "AKAP9",
+    "AKNA",
+    "ALDH8A1",
+    "ALMS1",
+    "ALPK1",
+    "AMN1",
+    "ANKAR",
+    "ANKRD31",
+    "ANKRD45",
+    "ANP32A",
+    "ANP32B",
+    "ANP32D",
+    "ANP32E",
+    "APEX1",
+    "APOBR",
+    "ARHGAP29",
+    "ARHGAP40",
+    "ARHGEF38",
+    "ARL2BP",
+    "ARL3",
+    "ARL9",
+    "ASAP1",
+    "ATAD5",
+    "ATF3",
+    "ATG5",
+    "ATP11B",
+    "AUH",
+    "AUNIP",
+    "AURKA",
+    "AVEN",
+    "B9D2",
+    "BAG2",
+    "BAG5",
+    "BBIP1",
+    "BBOF1",
+    "BCAR3",
+    "BCAS2",
+    "BCO1",
+    "BEAN1",
+    "BHLHE22",
+    "BICC1",
+    "BIRC7",
+    "BLTP1",
+    "BRAF",
+    "BRMS1",
+    "BUD31",
+    "C11orf80",
+    "C12orf73",
+    "C16orf74",
+    "C16orf96",
+    "C19orf54",
+    "C1QTNF2",
+    "C1orf146",
+    "C20orf96",
+    "C2CD3",
+    "C2CD5",
+    "C2orf74",
+    "C3orf49",
+    "C3orf56",
+    "C5orf58",
+    "C9orf40",
+    "CABCOCO1",
+    "CALCR",
+    "CALML6",
+    "CAMK2N2",
+    "CAPN6",
+    "CAPN7",
+    "CAPRIN1",
+    "CAPRIN2",
+    "CAPS2",
+    "CASP8",
+    "CBY1",
+    "CCDC13",
+    "CCDC14",
+    "CCDC32",
+    "CCDC39",
+    "CCDC51",
+    "CCDC57",
+    "CCDC65",
+    "CCDC66",
+    "CCDC74A",
+    "CCDC74B",
+    "CCDC88A",
+    "CCDC88B",
+    "CCDC92",
+    "CCNF",
+    "CCNO",
+    "CCP110",
+    "CD163L1",
+    "CD226",
+    "CD2AP",
+    "CD86",
+    "CDC45",
+    "CDIP1",
+    "CDK2",
+    "CDK5RAP2",
+    "CDKL2",
+    "CDKN1B",
+    "CENPJ",
+    "CENPU",
+    "CEP112",
+    "CEP128",
+    "CEP131",
+    "CEP152",
+    "CEP162",
+    "CEP164",
+    "CEP170",
+    "CEP170B",
+    "CEP19",
+    "CEP192",
+    "CEP20",
+    "CEP250",
+    "CEP290",
+    "CEP350",
+    "CEP43",
+    "CEP55",
+    "CEP57",
+    "CEP63",
+    "CEP68",
+    "CEP70",
+    "CEP72",
+    "CEP85",
+    "CEP89",
+    "CEP95",
+    "CEP97",
+    "CETN2",
+    "CETN3",
+    "CFAP298",
+    "CFAP300",
+    "CFAP418",
+    "CFAP52",
+    "CFAP70",
+    "CHD3",
+    "CHMP1A",
+    "CHODL",
+    "CHPF",
+    "CHST15",
+    "CIB2",
+    "CIP2A",
+    "CKAP2",
+    "CKAP5",
+    "CLEC11A",
+    "CLHC1",
+    "CLIC4",
+    "CLRN1",
+    "CLTC",
+    "CNOT10",
+    "CNTLN",
+    "CNTRL",
+    "CNTROB",
+    "CPA4",
+    "CPE",
+    "CRACDL",
+    "CREB1",
+    "CREB3",
+    "CRIP1",
+    "CRMP1",
+    "CROCC",
+    "CSPP1",
+    "CTNNBL1",
+    "CUEDC1",
+    "CYB5B",
+    "CYLD",
+    "CYTH4",
+    "DAPK1",
+    "DCAF13",
+    "DCC",
+    "DCDC2",
+    "DCTN2",
+    "DCTN4",
+    "DDHD2",
+    "DDX59",
+    "DDX60",
+    "DENND1C",
+    "DHRS1",
+    "DHX35",
+    "DIS3L",
+    "DLG4",
+    "DMBT1",
+    "DMRT2",
+    "DNAH12",
+    "DNAH14",
+    "DNAH6",
+    "DNAJA4",
+    "DNAJC28",
+    "DNAL1",
+    "DNAL4",
+    "DPF2",
+    "DRD4",
+    "DUSP21",
+    "DVL3",
+    "DYNC1H1",
+    "DYNC1I2",
+    "DYNC1LI1",
+    "DYNC1LI2",
+    "DYNC2I1",
+    "DYNC2I2",
+    "DYRK1A",
+    "DYSF",
+    "DZIP1",
+    "E2F1",
+    "EDRF1",
+    "EEF1AKMT3",
+    "EID2",
+    "ELP6",
+    "EMC6",
+    "EMSY",
+    "ENGASE",
+    "ENKD1",
+    "ENSG00000144785",
+    "ENSG00000256514",
+    "ENSG00000268870",
+    "ENSG00000272772",
+    "ENSG00000272980",
+    "ENSG00000273217",
+    "ENSG00000274175",
+    "ENSG00000274792",
+    "ENSG00000275869",
+    "ENSG00000280571",
+    "ENSG00000285188",
+    "ENSG00000285837",
+    "ENSG00000288637",
+    "EP300",
+    "EPS8L2",
+    "ERC1",
+    "ERCC6L",
+    "ERVV-1",
+    "ERVV-2",
+    "EXOC6",
+    "EXTL1",
+    "EYA3",
+    "FAM117B",
+    "FAM161A",
+    "FAM184A",
+    "FAM186B",
+    "FAM241B",
+    "FANCE",
+    "FBF1",
+    "FBXO21",
+    "FBXO9",
+    "FCHO2",
+    "FCMR",
+    "FEZF2",
+    "FGF11",
+    "FGF23",
+    "FGFR1",
+    "FHDC1",
+    "FKBP11",
+    "FLII",
+    "FLT4",
+    "FNDC3A",
+    "FNIP2",
+    "FNTB",
+    "FRMD4B",
+    "FRMD8",
+    "G6PD",
+    "GAPDHS",
+    "GAS6",
+    "GATD3",
+    "GINS4",
+    "GKAP1",
+    "GLI2",
+    "GLP1R",
+    "GLT8D1",
+    "GNAI1",
+    "GNAI3",
+    "GNB5",
+    "GOLGA6A",
+    "GOLGA6B",
+    "GOLGA6C",
+    "GOLGA6D",
+    "GPAA1",
+    "GPR162",
+    "GPR174",
+    "GPSM2",
+    "GRAP",
+    "GRAPL",
+    "GRB2",
+    "GTSE1",
+    "GVQW3",
+    "GYG2",
+    "HAUS1",
+    "HAUS2",
+    "HAUS6",
+    "HAUS7",
+    "HDAC6",
+    "HIPK1",
+    "HK2",
+    "HMMR",
+    "HMX3",
+    "HNMT",
+    "HOOK3",
+    "HORMAD2",
+    "HOXB4",
+    "HSPA4L",
+    "HSPBP1",
+    "ID2",
+    "IFT43",
+    "IFT57",
+    "IFT74",
+    "IFT81",
+    "IFT88",
+    "IL1RN",
+    "IL4R",
+    "ILRUN",
+    "INPP1",
+    "INPP4B",
+    "INSR",
+    "INTS6L",
+    "INVS",
+    "IQSEC1",
+    "ISM2",
+    "ITGB6",
+    "ITPRIPL2",
+    "IVL",
+    "JADE1",
+    "KATNA1",
+    "KATNAL1",
+    "KATNIP",
+    "KCNH5",
+    "KCTD1",
+    "KCTD16",
+    "KCTD4",
+    "KEAP1",
+    "KIAA0753",
+    "KIF19",
+    "KIF1A",
+    "KIF20B",
+    "KIF2A",
+    "KIF2C",
+    "KIF5B",
+    "KIF6",
+    "KIFC1",
+    "KIRREL2",
+    "KLC3",
+    "KLHL12",
+    "KLHL21",
+    "KLHL30",
+    "KLHL35",
+    "KLHL4",
+    "KLHL6",
+    "KMT5B",
+    "KNSTRN",
+    "KXD1",
+    "LAMP5",
+    "LAS1L",
+    "LATS2",
+    "LCA5",
+    "LEO1",
+    "LEPROT",
+    "LGI2",
+    "LGR4",
+    "LGR5",
+    "LHCGR",
+    "LINC02203",
+    "LMF2",
+    "LMNTD1",
+    "LMTK2",
+    "LONRF1",
+    "LRIF1",
+    "LRRC45",
+    "LRRC7",
+    "LRRCC1",
+    "LRRN1",
+    "LTB",
+    "LUZP1",
+    "LY9",
+    "LYST",
+    "LZTR1",
+    "MAGEB16",
+    "MAL",
+    "MAMLD1",
+    "MAP3K11",
+    "MAP3K13",
+    "MAP4K3",
+    "MAP7D3",
+    "MAP9",
+    "MAPK8IP3",
+    "MAPKAPK2",
+    "MAPRE1",
+    "MATK",
+    "MCF2L2",
+    "MDH1",
+    "MDM1",
+    "MDM2",
+    "MFAP1",
+    "MGAT4C",
+    "MIB1",
+    "MICALL1",
+    "MID1",
+    "MKKS",
+    "MLF1",
+    "MME",
+    "MPDZ",
+    "MPHOSPH9",
+    "MPP1",
+    "MT-ND4L",
+    "MTHFR",
+    "MTMR11",
+    "MTMR9",
+    "MYO18B",
+    "MYO5A",
+    "MYOF",
+    "MZT2A",
+    "MZT2B",
+    "N4BP3",
+    "N6AMT1",
+    "NAA11",
+    "NAA40",
+    "NAE1",
+    "NCAPD2",
+    "NDC80",
+    "NDRG2",
+    "NEDD1",
+    "NEFH",
+    "NEK1",
+    "NEK2",
+    "NEK6",
+    "NEUROD4",
+    "NFE2L2",
+    "NIN",
+    "NIT2",
+    "NLRC3",
+    "NLRC5",
+    "NME9",
+    "NMRK1",
+    "NPTX2",
+    "NR0B1",
+    "NR6A1",
+    "NUBP1",
+    "NUDT21",
+    "NUDT5",
+    "NUP107",
+    "OAS2",
+    "OAZ1",
+    "OBSL1",
+    "OCRL",
+    "ODAD4",
+    "ODF2",
+    "OR4M2-OT1",
+    "OR4N4",
+    "OR4N4C",
+    "PACSIN2",
+    "PAFAH1B1",
+    "PAOX",
+    "PATJ",
+    "PCDH9",
+    "PCDHB15",
+    "PCLAF",
+    "PCM1",
+    "PCNT",
+    "PDCD6IP",
+    "PDCL2",
+    "PDE11A",
+    "PDE4C",
+    "PDIA6",
+    "PEAR1",
+    "PELI1",
+    "PELI2",
+    "PGBD4",
+    "PHLPP2",
+    "PIAS4",
+    "PIBF1",
+    "PIK3C2G",
+    "PIK3R5",
+    "PINLYP",
+    "PKN2",
+    "PLAG1",
+    "PLCB4",
+    "PLEKHA4",
+    "PLEKHG6",
+    "PLEKHG7",
+    "PLEKHH1",
+    "PLEKHS1",
+    "PLK4",
+    "PLVAP",
+    "PLXNA1",
+    "PNMA5",
+    "PNPLA7",
+    "PODXL",
+    "POFUT1",
+    "POLD4",
+    "POLR3H",
+    "PPARA",
+    "PPP4R3B",
+    "PRICKLE4",
+    "PRKAR2A",
+    "PRKAR2B",
+    "PRKCQ",
+    "PRPF6",
+    "PRR32",
+    "PSMA1",
+    "PSMB5",
+    "PSMD2",
+    "PSMD5",
+    "PTPN20",
+    "PTPN23",
+    "PURG",
+    "PXK",
+    "PXN",
+    "QRSL1",
+    "RAB11A",
+    "RAB11B",
+    "RAB11FIP3",
+    "RAB11FIP5",
+    "RAB15",
+    "RAB23",
+    "RAB26",
+    "RAB34",
+    "RAB3A",
+    "RAB3IL1",
+    "RAB3IP",
+    "RAB8A",
+    "RABL2A",
+    "RABL2B",
+    "RABL6",
+    "RAPGEF6",
+    "RAPSN",
+    "RASSF7",
+    "RBM39",
+    "RFPL4A",
+    "RFPL4AL1",
+    "RGL4",
+    "RHEBL1",
+    "RILPL1",
+    "RIMKLB",
+    "RIOK3",
+    "RLBP1",
+    "RMDN1",
+    "RNF167",
+    "RNF39",
+    "RPP25",
+    "RRAGD",
+    "RRM1",
+    "RSPH1",
+    "RTTN",
+    "RUNDC3B",
+    "RUVBL2",
+    "S100Z",
+    "SATB2",
+    "SAXO2",
+    "SDCCAG8",
+    "SEMA4D",
+    "SENP7",
+    "SERINC5",
+    "SERPINB6",
+    "SFR1",
+    "SH2B1",
+    "SHD",
+    "SHTN1",
+    "SIRPB1",
+    "SKA1",
+    "SKA3",
+    "SKP1",
+    "SLAIN2",
+    "SLC18A2",
+    "SLC1A4",
+    "SLC1A5",
+    "SLC2A1",
+    "SLC35A4",
+    "SLC35D3",
+    "SLC35F1",
+    "SLC8A3",
+    "SLC9A3R1",
+    "SMAD4",
+    "SMAD7",
+    "SMIM18",
+    "SNAP29",
+    "SNAP91",
+    "SNCG",
+    "SNTB2",
+    "SNX21",
+    "SORBS1",
+    "SP6",
+    "SPAG9",
+    "SPICE1",
+    "SPIN4",
+    "SPPL2B",
+    "SRGAP1",
+    "SRGAP2",
+    "SRGAP2B",
+    "SRGAP2C",
+    "SRGAP3",
+    "SRRM5",
+    "SSRP1",
+    "SSX2IP",
+    "ST7L",
+    "STEEP1",
+    "STIL",
+    "STK11",
+    "STK26",
+    "STK32A",
+    "SYNJ1",
+    "TACC3",
+    "TACR1",
+    "TAF1D",
+    "TAP1",
+    "TAPT1",
+    "TBC1D31",
+    "TBC1D8",
+    "TBX15",
+    "TCEA2",
+    "TCHP",
+    "TDRKH",
+    "TECPR2",
+    "TEK",
+    "TEX12",
+    "TEX9",
+    "TGFB3",
+    "TGIF2",
+    "THAP6",
+    "THBS2",
+    "TLN1",
+    "TMEM132C",
+    "TMEM170B",
+    "TMEM63A",
+    "TMEM63C",
+    "TMEM86B",
+    "TNFAIP3",
+    "TP53TG3",
+    "TP53TG3B",
+    "TP53TG3C",
+    "TP53TG3D",
+    "TP53TG3E",
+    "TP53TG3F",
+    "TP73",
+    "TRAF5",
+    "TRAPPC14",
+    "TRAT1",
+    "TRIM15",
+    "TRIM2",
+    "TRIM34",
+    "TRIM38",
+    "TRIM46",
+    "TRIM6-TRIM34",
+    "TRPM1",
+    "TRPV3",
+    "TSEN2",
+    "TSSK1B",
+    "TTC21B",
+    "TTC30A",
+    "TTC30B",
+    "TTC39A",
+    "TTC6",
+    "TTI2",
+    "TUB",
+    "TUBG2",
+    "TUBGCP2",
+    "TUBGCP4",
+    "TUBGCP5",
+    "TWSG1",
+    "TXLNA",
+    "TYSND1",
+    "UBA3",
+    "UBE2Q1",
+    "UBL3",
+    "UBR4",
+    "UBXN2A",
+    "UGP2",
+    "UNC5CL",
+    "USF3",
+    "USP38",
+    "UXT",
+    "VASH1",
+    "VCPIP1",
+    "VLDLR",
+    "VPS37A",
+    "VSIG10",
+    "WAC",
+    "WASHC5",
+    "WDR13",
+    "WDR19",
+    "WDR54",
+    "WDR62",
+    "WDR83",
+    "WDR90",
+    "ZBED1",
+    "ZBED6",
+    "ZBTB24",
+    "ZFAND1",
+    "ZFP90",
+    "ZMYM1",
+    "ZNF12",
+    "ZNF121",
+    "ZNF274",
+    "ZNF280D",
+    "ZNF296",
+    "ZNF322",
+    "ZNF330",
+    "ZNF365",
+    "ZNF408",
+    "ZNF443",
+    "ZNF616",
+    "ZNF620",
+    "ZNF677",
+    "ZNF701",
+    "ZNF721",
+    "ZNF747",
+    "ZNF766",
+    "ZNF780A",
+    "ZNF780B",
+    "ZNF799",
+    "ZSCAN10"
+  ],
+  "gene_details": {
+    "AAAS": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ABCA13": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ACADS": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ACTR8": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ACTRT3": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ADCK2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ADNP": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ADPGK": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "AGBL5": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "AGTPBP1": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "AHI1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "AK5": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "AK6": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "AKAP9": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "AKNA": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ALDH8A1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ALMS1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ALPK1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "AMN1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ANKAR": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "ANKRD31": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ANKRD45": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ANP32A": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ANP32B": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ANP32D": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ANP32E": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "APEX1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "APOBR": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ARHGAP29": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ARHGAP40": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ARHGEF38": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ARL2BP": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ARL3": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ARL9": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "ASAP1": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "ATAD5": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "ATF3": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ATG5": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ATP11B": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "AUH": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "AUNIP": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "AURKA": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "AVEN": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "B9D2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "BAG2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "BAG5": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "BBIP1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "BBOF1": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "BCAR3": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "BCAS2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "BCO1": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "BEAN1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "BHLHE22": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "BICC1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "BIRC7": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "BLTP1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "BRAF": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "BRMS1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "BUD31": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "C11orf80": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "C12orf73": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "C16orf74": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "C16orf96": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "C19orf54": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "C1QTNF2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "C1orf146": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "C20orf96": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "C2CD3": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "C2CD5": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "C2orf74": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "C3orf49": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "C3orf56": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "C5orf58": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "C9orf40": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CABCOCO1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CALCR": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "CALML6": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CAMK2N2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CAPN6": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "CAPN7": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CAPRIN1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": true,
+      "source_both": true
+    },
+    "CAPRIN2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CAPS2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CASP8": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "CBY1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CCDC13": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "CCDC14": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "CCDC32": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CCDC39": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CCDC51": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CCDC57": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "CCDC65": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "CCDC66": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "CCDC74A": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CCDC74B": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CCDC88A": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CCDC88B": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CCDC92": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CCNF": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CCNO": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "CCP110": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "CD163L1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CD226": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "CD2AP": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "CD86": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "CDC45": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CDIP1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CDK2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CDK5RAP2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CDKL2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CDKN1B": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CENPJ": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CENPU": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "CEP112": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CEP128": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CEP131": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "CEP152": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CEP162": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "CEP164": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CEP170": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CEP170B": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CEP19": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CEP192": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CEP20": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": true,
+      "source_both": true
+    },
+    "CEP250": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CEP290": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CEP350": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CEP43": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": true,
+      "source_both": true
+    },
+    "CEP55": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "CEP57": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": true,
+      "source_both": true
+    },
+    "CEP63": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CEP68": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "CEP70": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CEP72": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": true,
+      "source_both": true
+    },
+    "CEP85": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CEP89": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CEP95": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "CEP97": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": true,
+      "source_both": true
+    },
+    "CETN2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CETN3": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CFAP298": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CFAP300": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CFAP418": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CFAP52": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "CFAP70": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CHD3": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "CHMP1A": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CHODL": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CHPF": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CHST15": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CIB2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CIP2A": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CKAP2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CKAP5": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CLEC11A": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CLHC1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CLIC4": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CLRN1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CLTC": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "CNOT10": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CNTLN": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CNTRL": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": true,
+      "source_both": true
+    },
+    "CNTROB": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CPA4": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "CPE": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CRACDL": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CREB1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CREB3": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CRIP1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CRMP1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CROCC": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CSPP1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": true,
+      "source_both": true
+    },
+    "CTNNBL1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CUEDC1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "CYB5B": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "CYLD": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "CYTH4": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "DAPK1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "DCAF13": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "DCC": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": true,
+      "source_both": true
+    },
+    "DCDC2": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "DCTN2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "DCTN4": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "DDHD2": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "DDX59": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "DDX60": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "DENND1C": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "DHRS1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "DHX35": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "DIS3L": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "DLG4": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "DMBT1": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "DMRT2": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "DNAH12": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "DNAH14": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "DNAH6": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "DNAJA4": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "DNAJC28": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "DNAL1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": true,
+      "source_both": true
+    },
+    "DNAL4": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "DPF2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "DRD4": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "DUSP21": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "DVL3": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "DYNC1H1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "DYNC1I2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "DYNC1LI1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "DYNC1LI2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "DYNC2I1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "DYNC2I2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "DYRK1A": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "DYSF": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "DZIP1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "E2F1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "EDRF1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "EEF1AKMT3": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "EID2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ELP6": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "EMC6": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "EMSY": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ENGASE": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ENKD1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ENSG00000144785": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "ENSG00000256514": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "ENSG00000268870": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "ENSG00000272772": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ENSG00000272980": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": true,
+      "source_both": true
+    },
+    "ENSG00000273217": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ENSG00000274175": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "ENSG00000274792": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ENSG00000275869": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "ENSG00000280571": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "ENSG00000285188": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ENSG00000285837": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": true,
+      "source_both": true
+    },
+    "ENSG00000288637": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "EP300": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "EPS8L2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ERC1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ERCC6L": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ERVV-1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ERVV-2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "EXOC6": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "EXTL1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "EYA3": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "FAM117B": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "FAM161A": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "FAM184A": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "FAM186B": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "FAM241B": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "FANCE": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "FBF1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "FBXO21": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "FBXO9": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "FCHO2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "FCMR": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "FEZF2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "FGF11": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "FGF23": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "FGFR1": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "FHDC1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "FKBP11": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "FLII": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "FLT4": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "FNDC3A": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "FNIP2": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "FNTB": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "FRMD4B": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "FRMD8": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "G6PD": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "GAPDHS": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "GAS6": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "GATD3": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "GINS4": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "GKAP1": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "GLI2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "GLP1R": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "GLT8D1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "GNAI1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": true,
+      "source_both": true
+    },
+    "GNAI3": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": true,
+      "source_both": true
+    },
+    "GNB5": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "GOLGA6A": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "GOLGA6B": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "GOLGA6C": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "GOLGA6D": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "GPAA1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "GPR162": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "GPR174": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "GPSM2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "GRAP": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "GRAPL": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "GRB2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "GTSE1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "GVQW3": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "GYG2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "HAUS1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "HAUS2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "HAUS6": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "HAUS7": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "HDAC6": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "HIPK1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "HK2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "HMMR": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "HMX3": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "HNMT": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "HOOK3": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "HORMAD2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "HOXB4": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "HSPA4L": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "HSPBP1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ID2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "IFT43": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "IFT57": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "IFT74": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "IFT81": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "IFT88": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "IL1RN": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "IL4R": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "ILRUN": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "INPP1": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "INPP4B": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "INSR": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "INTS6L": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "INVS": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "IQSEC1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ISM2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ITGB6": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ITPRIPL2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "IVL": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "JADE1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "KATNA1": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "KATNAL1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "KATNIP": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "KCNH5": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "KCTD1": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "KCTD16": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "KCTD4": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "KEAP1": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "KIAA0753": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "KIF19": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "KIF1A": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "KIF20B": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "KIF2A": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "KIF2C": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "KIF5B": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "KIF6": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "KIFC1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "KIRREL2": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "KLC3": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "KLHL12": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "KLHL21": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "KLHL30": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "KLHL35": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "KLHL4": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": true,
+      "source_both": true
+    },
+    "KLHL6": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "KMT5B": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "KNSTRN": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "KXD1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "LAMP5": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "LAS1L": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": true,
+      "source_both": true
+    },
+    "LATS2": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "LCA5": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "LEO1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "LEPROT": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "LGI2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "LGR4": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": true,
+      "source_both": true
+    },
+    "LGR5": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "LHCGR": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "LINC02203": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "LMF2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "LMNTD1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "LMTK2": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "LONRF1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "LRIF1": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "LRRC45": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "LRRC7": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "LRRCC1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "LRRN1": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "LTB": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "LUZP1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "LY9": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "LYST": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "LZTR1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "MAGEB16": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "MAL": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "MAMLD1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "MAP3K11": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "MAP3K13": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "MAP4K3": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "MAP7D3": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "MAP9": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "MAPK8IP3": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "MAPKAPK2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "MAPRE1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "MATK": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "MCF2L2": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "MDH1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "MDM1": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "MDM2": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "MFAP1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "MGAT4C": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "MIB1": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "MICALL1": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "MID1": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "MKKS": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "MLF1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "MME": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "MPDZ": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "MPHOSPH9": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "MPP1": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "MT-ND4L": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "MTHFR": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "MTMR11": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "MTMR9": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "MYO18B": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "MYO5A": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "MYOF": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "MZT2A": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "MZT2B": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "N4BP3": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "N6AMT1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "NAA11": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "NAA40": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "NAE1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "NCAPD2": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "NDC80": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "NDRG2": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "NEDD1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "NEFH": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "NEK1": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "NEK2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "NEK6": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "NEUROD4": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "NFE2L2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "NIN": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "NIT2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "NLRC3": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "NLRC5": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "NME9": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "NMRK1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "NPTX2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "NR0B1": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "NR6A1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "NUBP1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "NUDT21": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "NUDT5": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "NUP107": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "OAS2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "OAZ1": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "OBSL1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "OCRL": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "ODAD4": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ODF2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "OR4M2-OT1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "OR4N4": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "OR4N4C": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "PACSIN2": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "PAFAH1B1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "PAOX": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "PATJ": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "PCDH9": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "PCDHB15": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "PCLAF": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "PCM1": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "PCNT": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": true,
+      "source_both": true
+    },
+    "PDCD6IP": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "PDCL2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "PDE11A": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "PDE4C": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "PDIA6": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "PEAR1": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "PELI1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": true,
+      "source_both": true
+    },
+    "PELI2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": true,
+      "source_both": true
+    },
+    "PGBD4": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "PHLPP2": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "PIAS4": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "PIBF1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": true,
+      "source_both": true
+    },
+    "PIK3C2G": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "PIK3R5": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "PINLYP": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "PKN2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "PLAG1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "PLCB4": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "PLEKHA4": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "PLEKHG6": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "PLEKHG7": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "PLEKHH1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "PLEKHS1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "PLK4": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "PLVAP": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "PLXNA1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "PNMA5": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "PNPLA7": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "PODXL": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "POFUT1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "POLD4": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "POLR3H": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "PPARA": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "PPP4R3B": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "PRICKLE4": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "PRKAR2A": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "PRKAR2B": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "PRKCQ": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "PRPF6": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "PRR32": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "PSMA1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "PSMB5": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "PSMD2": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "PSMD5": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "PTPN20": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "PTPN23": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "PURG": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "PXK": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "PXN": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "QRSL1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "RAB11A": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "RAB11B": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "RAB11FIP3": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "RAB11FIP5": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "RAB15": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "RAB23": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "RAB26": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "RAB34": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "RAB3A": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "RAB3IL1": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "RAB3IP": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "RAB8A": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "RABL2A": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "RABL2B": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "RABL6": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": true,
+      "source_both": true
+    },
+    "RAPGEF6": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "RAPSN": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "RASSF7": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "RBM39": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "RFPL4A": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "RFPL4AL1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "RGL4": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "RHEBL1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "RILPL1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "RIMKLB": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "RIOK3": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "RLBP1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "RMDN1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "RNF167": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "RNF39": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "RPP25": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "RRAGD": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "RRM1": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "RSPH1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "RTTN": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "RUNDC3B": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "RUVBL2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "S100Z": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "SATB2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "SAXO2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "SDCCAG8": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "SEMA4D": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "SENP7": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "SERINC5": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "SERPINB6": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "SFR1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "SH2B1": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "SHD": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "SHTN1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "SIRPB1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "SKA1": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "SKA3": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "SKP1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "SLAIN2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "SLC18A2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "SLC1A4": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "SLC1A5": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "SLC2A1": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "SLC35A4": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "SLC35D3": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "SLC35F1": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "SLC8A3": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "SLC9A3R1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": true,
+      "source_both": true
+    },
+    "SMAD4": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "SMAD7": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "SMIM18": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "SNAP29": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "SNAP91": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "SNCG": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "SNTB2": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "SNX21": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "SORBS1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "SP6": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "SPAG9": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "SPICE1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "SPIN4": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "SPPL2B": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "SRGAP1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "SRGAP2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "SRGAP2B": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "SRGAP2C": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "SRGAP3": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "SRRM5": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "SSRP1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "SSX2IP": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": true,
+      "source_both": true
+    },
+    "ST7L": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "STEEP1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "STIL": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "STK11": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "STK26": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "STK32A": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "SYNJ1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TACC3": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "TACR1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TAF1D": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "TAP1": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "TAPT1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TBC1D31": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TBC1D8": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TBX15": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TCEA2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TCHP": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TDRKH": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TECPR2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TEK": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TEX12": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TEX9": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TGFB3": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "TGIF2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "THAP6": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "THBS2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TLN1": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "TMEM132C": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TMEM170B": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TMEM63A": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "TMEM63C": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TMEM86B": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TNFAIP3": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TP53TG3": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "TP53TG3B": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "TP53TG3C": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "TP53TG3D": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "TP53TG3E": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "TP53TG3F": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "TP73": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TRAF5": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TRAPPC14": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "TRAT1": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "TRIM15": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "TRIM2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TRIM34": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TRIM38": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TRIM46": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TRIM6-TRIM34": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TRPM1": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "TRPV3": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TSEN2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TSSK1B": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TTC21B": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "TTC30A": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TTC30B": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TTC39A": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TTC6": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TTI2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TUB": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "TUBG2": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "TUBGCP2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TUBGCP4": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TUBGCP5": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TWSG1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TXLNA": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "TYSND1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "UBA3": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "UBE2Q1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "UBL3": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "UBR4": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "UBXN2A": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "UGP2": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "UNC5CL": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "USF3": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "USP38": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "UXT": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "VASH1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "VCPIP1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "VLDLR": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "VPS37A": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "VSIG10": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "WAC": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "WASHC5": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "WDR13": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "WDR19": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "WDR54": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "WDR62": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "WDR83": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "WDR90": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ZBED1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ZBED6": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "ZBTB24": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ZFAND1": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ZFP90": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ZMYM1": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "ZNF12": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ZNF121": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ZNF274": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ZNF280D": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ZNF296": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ZNF322": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ZNF330": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ZNF365": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": true,
+      "source_both": true
+    },
+    "ZNF408": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "ZNF443": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "ZNF616": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ZNF620": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ZNF677": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ZNF701": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "ZNF721": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "ZNF747": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ZNF766": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ZNF780A": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ZNF780B": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    },
+    "ZNF799": {
+      "source_centrosome": false,
+      "source_centriolar_satellite": true,
+      "source_both": false
+    },
+    "ZSCAN10": {
+      "source_centrosome": true,
+      "source_centriolar_satellite": false,
+      "source_both": false
+    }
+  }
+}

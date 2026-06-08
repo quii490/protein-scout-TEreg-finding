@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Centrosome Module | Protein Scout</title>
+<style>
+:root {
+  --bg: #fafafa; --fg: #1a1a1a; --accent: #7c3aed;
+  --accent-light: #ede9fe; --border: #e5e7eb; --muted: #6b7280; --card: #ffffff;
+  --success: #059669; --warn: #d97706; --danger: #dc2626;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.7; }
+.topbar { background: var(--accent); color: #fff; padding: 12px 24px; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 10; }
+.topbar a { color: #fff; text-decoration: none; margin-left: 16px; opacity: 0.9; }
+.topbar a:hover { opacity: 1; }
+.container { max-width: 960px; margin: 0 auto; padding: 24px; }
+h1 { font-size: 2rem; margin: 24px 0 8px; }
+h2 { font-size: 1.3rem; margin: 32px 0 12px; border-bottom: 1px solid var(--border); padding-bottom: 6px; }
+.note { background: var(--accent-light); border-left: 4px solid var(--accent); padding: 16px; margin: 24px 0; border-radius: 4px; }
+.note strong { color: var(--accent); }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin: 24px 0; }
+.stat-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 16px; text-align: center; }
+.stat-card .num { font-size: 2rem; font-weight: 700; color: var(--accent); }
+.stat-card .label { font-size: 0.85rem; color: var(--muted); margin-top: 4px; }
+table { width: 100%; border-collapse: collapse; margin: 16px 0; background: var(--card); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+th { background: var(--accent); color: #fff; padding: 10px 14px; text-align: left; font-weight: 600; }
+td { padding: 10px 14px; border-bottom: 1px solid var(--border); }
+tr:hover { background: var(--accent-light); }
+.badge { display: inline-block; padding: 3px 10px; border-radius: 12px; font-size: 0.75rem; font-weight: 600; }
+.badge-candidate { background: #d1fae5; color: #065f46; }
+.badge-low-priority { background: #fef3c7; color: #92400e; }
+.badge-manual-review { background: #fee2e2; color: #991b1b; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<div class="topbar">
+    <strong>🧬 Centrosome Module</strong>
+    <div>
+        <a href="protein_index.html">All Proteins</a>
+    </div>
+</div>
+<div class="container">
+    <h1>🧬 Centrosome Module</h1>
+    <div class="note">
+        <strong>Independent Extension</strong> — This centrosome module is a separate
+        evaluation pipeline from the main protein-scout TEreg-finding atlas.
+        Centrosome proteins are evaluated using centrosome-specific criteria.
+        <strong>Not counted in main atlas statistics.</strong>
+    </div>
+
+    <h2>Pilot Statistics</h2>
+    <div class="stats">
+        <div class="stat-card">
+            <div class="num">10</div>
+            <div class="label">Pilot Genes Evaluated</div>
+        </div>
+        <div class="stat-card">
+            <div class="num">0</div>
+            <div class="label">CENTROSOME_CANDIDATE</div>
+        </div>
+        <div class="stat-card">
+            <div class="num">0</div>
+            <div class="label">LOW_PRIORITY</div>
+        </div>
+        <div class="stat-card">
+            <div class="num">0</div>
+            <div class="label">MANUAL_REVIEW</div>
+        </div>
+    </div>
+
+    <h2>Top Ranked Proteins</h2>
+    <table>
+        <tr><th>Gene</th><th>Status</th><th>Score</th></tr>
+        <tr><td><a href="reports/CETN2.html">CETN2</a></td><td><span class="badge badge-manual-review">centrosome_candidate</span></td><td>76.0</td></tr>
+<tr><td><a href="reports/CEP192.html">CEP192</a></td><td><span class="badge badge-manual-review">centrosome_candidate</span></td><td>63.0</td></tr>
+<tr><td><a href="reports/PLK4.html">PLK4</a></td><td><span class="badge badge-manual-review">centrosome_candidate</span></td><td>63.0</td></tr>
+<tr><td><a href="reports/AURKA.html">AURKA</a></td><td><span class="badge badge-manual-review">centrosome_low_priority</span></td><td>62.0</td></tr>
+<tr><td><a href="reports/CCP110.html">CCP110</a></td><td><span class="badge badge-manual-review">centrosome_candidate</span></td><td>62.0</td></tr>
+<tr><td><a href="reports/CEP97.html">CEP97</a></td><td><span class="badge badge-manual-review">centrosome_candidate</span></td><td>62.0</td></tr>
+<tr><td><a href="reports/NEDD1.html">NEDD1</a></td><td><span class="badge badge-manual-review">centrosome_candidate</span></td><td>62.0</td></tr>
+<tr><td><a href="reports/PCM1.html">PCM1</a></td><td><span class="badge badge-manual-review">centrosome_candidate</span></td><td>62.0</td></tr>
+<tr><td><a href="reports/CEP72.html">CEP72</a></td><td><span class="badge badge-manual-review">centrosome_candidate</span></td><td>58.0</td></tr>
+<tr><td><a href="reports/CCDC14.html">CCDC14</a></td><td><span class="badge badge-manual-review">centrosome_candidate</span></td><td>26.0</td></tr>
+    </table>
+
+    <p style="margin-top:24px; color: var(--muted);">
+        <a href="protein_index.html">→ View full centrosome protein index</a>
+    </p>
+    <p style="margin-top:8px; color: var(--muted);">
+        Pilot built: 2026-06-08 ·
+        HPA seed: 10 genes evaluated
+    </p>
+</div>
+</body>
+</html>

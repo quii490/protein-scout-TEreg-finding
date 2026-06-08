@@ -1,0 +1,11 @@
+gene	source_centrosome	source_centriolar_satellite	source_both	in_main_atlas	main_status	main_category	reason_selected
+AURKA	True	False	False	True	rejected	rejected	Well-characterized centrosome protein, key for centrosome biology
+PLK4	True	False	False	True	scored	nucleoplasm	Well-characterized centrosome protein, key for centrosome biology
+CEP192	True	False	False	False			Well-characterized centrosome protein, key for centrosome biology
+NEDD1	True	False	False	True	scored	nucleolus	Well-characterized centrosome protein, key for centrosome biology
+CETN2	True	False	False	True	scored	nuclear-envelope	Well-characterized centrosome protein, key for centrosome biology
+PCM1	False	True	False	False			Well-characterized satellite protein, key for centrosome biology
+CCP110	False	True	False	True	rejected	rejected	Well-characterized satellite protein, key for centrosome biology
+CCDC14	False	True	False	False			Well-characterized satellite protein, key for centrosome biology
+CEP72	True	True	True	False			Well-characterized both protein, key for centrosome biology
+CEP97	True	True	True	False			Well-characterized both protein, key for centrosome biology

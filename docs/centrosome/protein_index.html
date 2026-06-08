@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Centrosome Protein Index | Protein Scout</title>
+<style>
+:root {
+  --bg: #fafafa; --fg: #1a1a1a; --accent: #7c3aed;
+  --accent-light: #ede9fe; --border: #e5e7eb; --muted: #6b7280; --card: #ffffff;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.7; }
+.topbar { background: var(--accent); color: #fff; padding: 12px 24px; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 10; }
+.topbar a { color: #fff; text-decoration: none; margin-left: 16px; opacity: 0.9; }
+.topbar a:hover { opacity: 1; }
+.container { max-width: 1200px; margin: 0 auto; padding: 24px; }
+h1 { font-size: 1.5rem; margin: 16px 0; }
+.controls { display: flex; gap: 12px; margin: 16px 0; flex-wrap: wrap; }
+.controls input, .controls select { padding: 8px 12px; border: 1px solid var(--border); border-radius: 6px; font-size: 0.9rem; }
+.controls input { flex: 1; min-width: 200px; }
+table { width: 100%; border-collapse: collapse; margin: 16px 0; background: var(--card); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; font-size: 0.9rem; }
+th { background: var(--accent); color: #fff; padding: 8px 10px; text-align: left; font-weight: 600; cursor: pointer; white-space: nowrap; }
+th:hover { opacity: 0.9; }
+td { padding: 8px 10px; border-bottom: 1px solid var(--border); }
+tr:hover { background: var(--accent-light); }
+.badge { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 0.7rem; font-weight: 600; }
+.badge-candidate { background: #d1fae5; color: #065f46; }
+.badge-low-priority { background: #fef3c7; color: #92400e; }
+.badge-manual-review { background: #fee2e2; color: #991b1b; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.count { color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<div class="topbar">
+    <strong>🧬 Centrosome Module — Protein Index</strong>
+    <div>
+        <a href="index.html">Home</a>
+    </div>
+</div>
+<div class="container">
+    <h1>Centrosome Protein Index <span class="count">(10 proteins)</span></h1>
+    <div class="controls">
+        <input type="text" id="search" placeholder="Search gene..." oninput="filterTable()">
+        <select id="statusFilter" onchange="filterTable()">
+            <option value="">All Statuses</option>
+            <option value="CANDIDATE">CENTROSOME_CANDIDATE</option>
+            <option value="LOW_PRIORITY">LOW_PRIORITY</option>
+            <option value="MANUAL_REVIEW">MANUAL_REVIEW</option>
+        </select>
+    </div>
+    <table id="proteinTable">
+        <thead>
+            <tr>
+                <th onclick="sortTable(0)">Gene</th>
+                <th onclick="sortTable(1)">Status</th>
+                <th onclick="sortTable(2)">Score</th>
+                <th onclick="sortTable(3)">Centrosome</th>
+                <th onclick="sortTable(4)">TE</th>
+                <th onclick="sortTable(5)">PubMed</th>
+                <th onclick="sortTable(6)">PPI</th>
+                <th onclick="sortTable(7)">Structure</th>
+                <th onclick="sortTable(8)">Novelty</th>
+            </tr>
+        </thead>
+        <tbody>
+<tr><td><a href="reports/CETN2.html">CETN2</a></td><td><span class="badge badge-manual-review">centrosome_candidate</span></td><td>76.0</td><td>19.0</td><td>16.0</td><td>10.0</td><td>14.0</td><td>10.0</td><td>7.0</td></tr>
+<tr><td><a href="reports/CEP192.html">CEP192</a></td><td><span class="badge badge-manual-review">centrosome_candidate</span></td><td>63.0</td><td>20.0</td><td>6.0</td><td>10.0</td><td>18.0</td><td>5.0</td><td>6.0</td></tr>
+<tr><td><a href="reports/PLK4.html">PLK4</a></td><td><span class="badge badge-manual-review">centrosome_candidate</span></td><td>63.0</td><td>20.0</td><td>7.0</td><td>8.0</td><td>18.0</td><td>9.0</td><td>3.0</td></tr>
+<tr><td><a href="reports/AURKA.html">AURKA</a></td><td><span class="badge badge-manual-review">centrosome_low_priority</span></td><td>62.0</td><td>20.0</td><td>8.0</td><td>5.0</td><td>20.0</td><td>10.0</td><td>2.0</td></tr>
+<tr><td><a href="reports/CCP110.html">CCP110</a></td><td><span class="badge badge-manual-review">centrosome_candidate</span></td><td>62.0</td><td>19.0</td><td>7.0</td><td>10.0</td><td>15.0</td><td>6.0</td><td>7.0</td></tr>
+<tr><td><a href="reports/CEP97.html">CEP97</a></td><td><span class="badge badge-manual-review">centrosome_candidate</span></td><td>62.0</td><td>19.0</td><td>7.0</td><td>10.0</td><td>15.0</td><td>5.0</td><td>8.0</td></tr>
+<tr><td><a href="reports/NEDD1.html">NEDD1</a></td><td><span class="badge badge-manual-review">centrosome_candidate</span></td><td>62.0</td><td>19.0</td><td>6.0</td><td>10.0</td><td>16.0</td><td>7.0</td><td>7.0</td></tr>
+<tr><td><a href="reports/PCM1.html">PCM1</a></td><td><span class="badge badge-manual-review">centrosome_candidate</span></td><td>62.0</td><td>18.0</td><td>10.0</td><td>8.0</td><td>16.0</td><td>4.0</td><td>6.0</td></tr>
+<tr><td><a href="reports/CEP72.html">CEP72</a></td><td><span class="badge badge-manual-review">centrosome_candidate</span></td><td>58.0</td><td>18.0</td><td>7.0</td><td>10.0</td><td>12.0</td><td>5.0</td><td>7.0</td></tr>
+<tr><td><a href="reports/CCDC14.html">CCDC14</a></td><td><span class="badge badge-manual-review">centrosome_candidate</span></td><td>26.0</td><td>6.0</td><td>3.0</td><td>6.0</td><td>2.0</td><td>3.0</td><td>10.0</td></tr>
+        </tbody>
+    </table>
+</div>
+<script>
+function filterTable() {
+    const search = document.getElementById('search').value.toLowerCase();
+    const status = document.getElementById('statusFilter').value;
+    const rows = document.querySelectorAll('#proteinTable tbody tr');
+    rows.forEach(row => {
+        const gene = row.cells[0].textContent.toLowerCase();
+        const st = row.cells[1].textContent;
+        const matchSearch = gene.includes(search);
+        const matchStatus = !status || st.includes(status);
+        row.style.display = (matchSearch && matchStatus) ? '' : 'none';
+    });
+}
+
+function sortTable(col) {
+    const tbody = document.querySelector('#proteinTable tbody');
+    const rows = Array.from(tbody.querySelectorAll('tr'));
+    const sorted = rows.sort((a, b) => {
+        let va = a.cells[col].textContent.trim();
+        let vb = b.cells[col].textContent.trim();
+        let na = parseFloat(va), nb = parseFloat(vb);
+        if (!isNaN(na) && !isNaN(nb)) return nb - na;
+        return va.localeCompare(vb);
+    });
+    sorted.forEach(r => tbody.appendChild(r));
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+gene	report_path	lines	has_yaml	has_hpa_centrosome_evidence	has_uniprot_go	has_pubmed	has_structure_domain	has_ppi_humanppi	has_te_relevance	has_centrosome_scoring_table	has_final_decision	contains_nuclear_rejection_language	qa_pass	reason
+AURKA	centrosome/detail/AURKA/AURKA-centrosome-evaluation.md	117	True	True	True	True	True	True	True	True	True	True	False	prohibited: nuclear.*score.*reject
+PLK4	centrosome/detail/PLK4/PLK4-centrosome-evaluation.md	116	True	True	True	True	True	True	True	True	True	False	True	ALL CHECKS PASSED
+CEP192	centrosome/detail/CEP192/CEP192-centrosome-evaluation.md	113	True	True	True	True	True	True	True	True	True	False	True	ALL CHECKS PASSED
+NEDD1	centrosome/detail/NEDD1/NEDD1-centrosome-evaluation.md	113	True	True	True	True	True	True	True	True	True	False	True	ALL CHECKS PASSED
+CETN2	centrosome/detail/CETN2/CETN2-centrosome-evaluation.md	123	True	True	True	True	True	True	True	True	True	False	True	ALL CHECKS PASSED
+PCM1	centrosome/detail/PCM1/PCM1-centrosome-evaluation.md	122	True	True	True	True	True	True	True	True	True	False	True	ALL CHECKS PASSED
+CCP110	centrosome/detail/CCP110/CCP110-centrosome-evaluation.md	117	True	True	True	True	True	True	True	True	True	True	False	prohibited: REJECTED.*nuclear
+CCDC14	centrosome/detail/CCDC14/CCDC14-centrosome-evaluation.md	110	True	True	True	True	True	True	True	True	True	False	True	ALL CHECKS PASSED
+CEP72	centrosome/detail/CEP72/CEP72-centrosome-evaluation.md	114	True	True	True	True	True	True	True	True	True	False	True	ALL CHECKS PASSED
+CEP97	centrosome/detail/CEP97/CEP97-centrosome-evaluation.md	117	True	True	True	True	True	True	True	True	True	False	True	ALL CHECKS PASSED

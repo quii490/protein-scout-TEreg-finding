@@ -1,0 +1,717 @@
+gene	in_centrosome_seed	in_main_atlas	main_status	main_category	main_score	main_report_path	main_docs_report_path	centrosome_action	reason
+AAAS	TRUE	TRUE	scored	nucleoplasm	54.1	detail/nucleoplasm/AAAS/AAAS-evaluation.md	reports/AAAS.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+ABCA13	TRUE	TRUE	rejected	rejected	None	detail/rejected/ABCA13/ABCA13-evaluation.md	reports/ABCA13.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+ACADS	TRUE	TRUE	rejected	rejected	None	detail/rejected/ACADS/ACADS-evaluation.md	reports/ACADS.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+ACTR8	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ACTRT3	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ADCK2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ADNP	TRUE	TRUE	rejected	rejected	None	detail/rejected/ADNP/ADNP-evaluation.md	reports/ADNP.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+ADPGK	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+AGBL5	TRUE	TRUE	scored	nucleus-cytoplasm	63.4	detail/nucleus-cytoplasm/AGBL5/AGBL5-evaluation.md	reports/AGBL5.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+AGTPBP1	TRUE	TRUE	rejected	rejected	None	detail/rejected/AGTPBP1/AGTPBP1-evaluation.md	reports/AGTPBP1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+AHI1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+AK5	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+AK6	TRUE	TRUE	rejected	rejected	None	detail/rejected/AK6/AK6-evaluation.md	reports/AK6.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+AKAP9	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+AKNA	TRUE	TRUE	scored	nucleolus	55.7	detail/nucleolus/AKNA/AKNA-evaluation.md	reports/AKNA.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+ALDH8A1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ALMS1	TRUE	TRUE	rejected	rejected	None	detail/rejected/ALMS1/ALMS1-evaluation.md	reports/ALMS1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+ALPK1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+AMN1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ANKAR	TRUE	TRUE	scored	nucleoplasm	65.8	detail/nucleoplasm/ANKAR/ANKAR-evaluation.md	reports/ANKAR.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+ANKRD31	TRUE	TRUE	scored	nucleoplasm	76	detail/nucleoplasm/ANKRD31/ANKRD31-evaluation.md	reports/ANKRD31.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+ANKRD45	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ANP32A	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ANP32B	TRUE	TRUE	scored	nucleoplasm	73.8	detail/nucleoplasm/ANP32B/ANP32B-evaluation.md	reports/ANP32B.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+ANP32D	TRUE	TRUE	scored	nucleoplasm	58.5	detail/nucleoplasm/ANP32D/ANP32D-evaluation.md	reports/ANP32D.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+ANP32E	TRUE	TRUE	scored	nucleoplasm	70.5	detail/nucleoplasm/ANP32E/ANP32E-evaluation.md	reports/ANP32E.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+APEX1	TRUE	TRUE	scored	nucleoplasm	53.1	detail/nucleoplasm/APEX1/APEX1-evaluation.md	reports/APEX1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+APOBR	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ARHGAP29	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ARHGAP40	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ARHGEF38	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ARL2BP	TRUE	TRUE	scored	nucleoplasm	84.4	detail/nucleoplasm/ARL2BP/ARL2BP-evaluation.md	reports/ARL2BP.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+ARL3	TRUE	TRUE	scored	nucleoplasm	48.1	detail/nucleoplasm/ARL3/ARL3-evaluation.md	reports/ARL3.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+ARL9	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ASAP1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ATAD5	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ATF3	TRUE	TRUE	scored	nucleoplasm	45	detail/nucleoplasm/ATF3/ATF3-evaluation.md	reports/ATF3.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+ATG5	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ATP11B	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+AUH	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+AUNIP	TRUE	TRUE	scored	chromatin	63.9	detail/chromatin/AUNIP/AUNIP-evaluation.md	reports/AUNIP.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+AURKA	TRUE	TRUE	rejected	rejected	None	detail/rejected/AURKA/AURKA-evaluation.md	reports/AURKA.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+AVEN	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+B9D2	TRUE	TRUE	scored	nucleoplasm	75.8	detail/nucleoplasm/B9D2/B9D2-evaluation.md	reports/B9D2.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+BAG2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+BAG5	TRUE	TRUE	scored	nucleus-cytoplasm	54.6	detail/nucleus-cytoplasm/BAG5/BAG5-evaluation.md	reports/BAG5.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+BBIP1	TRUE	TRUE	rejected	rejected	None	detail/rejected/BBIP1/BBIP1-evaluation.md	reports/BBIP1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+BBOF1	TRUE	TRUE	rejected	rejected	None	detail/rejected/BBOF1/BBOF1-evaluation.md	reports/BBOF1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+BCAR3	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+BCAS2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+BCO1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+BEAN1	TRUE	TRUE	scored	nucleus-cytoplasm	76.8	detail/nucleus-cytoplasm/BEAN1/BEAN1-evaluation.md	reports/BEAN1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+BHLHE22	TRUE	TRUE	scored	nuclear-speckle	69.2	detail/nuclear-speckle/BHLHE22/BHLHE22-evaluation.md	reports/BHLHE22.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+BICC1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+BIRC7	TRUE	TRUE	scored	nucleus-cytoplasm	73	detail/nucleus-cytoplasm/BIRC7/BIRC7-evaluation.md	reports/BIRC7.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+BLTP1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+BRAF	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+BRMS1	TRUE	TRUE	scored	nucleoplasm	49.7	detail/nucleoplasm/BRMS1/BRMS1-evaluation.md	reports/BRMS1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+BUD31	TRUE	TRUE	scored	nucleoplasm	93.4	detail/nucleoplasm/BUD31/BUD31-evaluation.md	reports/BUD31.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+C11orf80	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+C12orf73	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+C16orf74	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+C16orf96	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+C19orf54	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+C1QTNF2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+C1orf146	TRUE	TRUE	rejected	rejected	None	detail/rejected/C1orf146/C1orf146-evaluation.md	reports/C1orf146.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+C20orf96	TRUE	TRUE	rejected	rejected	None	detail/rejected/C20orf96/C20orf96-evaluation.md	reports/C20orf96.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+C2CD3	TRUE	TRUE	scored	nucleoplasm	55.6	detail/nucleoplasm/C2CD3/C2CD3-evaluation.md	reports/C2CD3.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+C2CD5	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+C2orf74	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+C3orf49	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+C3orf56	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+C5orf58	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+C9orf40	TRUE	TRUE	scored	nucleoplasm	63.9	detail/nucleoplasm/C9orf40/C9orf40-evaluation.md	reports/C9orf40.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CABCOCO1	TRUE	TRUE	scored	nucleoplasm	67.5	detail/nucleoplasm/CABCOCO1/CABCOCO1-evaluation.md	reports/CABCOCO1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CALCR	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CALML6	TRUE	TRUE	scored	nucleus-cytoplasm	67.8	detail/nucleus-cytoplasm/CALML6/CALML6-evaluation.md	reports/CALML6.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CAMK2N2	TRUE	TRUE	scored	nucleoplasm	69.4	detail/nucleoplasm/CAMK2N2/CAMK2N2-evaluation.md	reports/CAMK2N2.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CAPN6	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CAPN7	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CAPRIN1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CAPRIN2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CAPS2	TRUE	TRUE	scored	nucleolus	59	detail/nucleolus/CAPS2/CAPS2-evaluation.md	reports/CAPS2.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CASP8	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CBY1	TRUE	TRUE	scored	nuclear-speckle	70.6	detail/nuclear-speckle/CBY1/CBY1-evaluation.md	reports/CBY1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CCDC13	TRUE	TRUE	scored	nucleoplasm	67.2	detail/nucleoplasm/CCDC13/CCDC13-evaluation.md	reports/CCDC13.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CCDC14	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CCDC32	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CCDC39	TRUE	TRUE	scored	nucleus-cytoplasm	64.2	detail/nucleus-cytoplasm/CCDC39/CCDC39-evaluation.md	reports/CCDC39.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CCDC51	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CCDC57	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CCDC65	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CCDC66	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CCDC74A	TRUE	TRUE	scored	nucleus-cytoplasm	69.4	detail/nucleus-cytoplasm/CCDC74A/CCDC74A-evaluation.md	reports/CCDC74A.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CCDC74B	TRUE	TRUE	scored	nucleoplasm	65.3	detail/nucleoplasm/CCDC74B/CCDC74B-evaluation.md	reports/CCDC74B.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CCDC88A	TRUE	TRUE	scored	nucleoplasm	60.7	detail/nucleoplasm/CCDC88A/CCDC88A-evaluation.md	reports/CCDC88A.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CCDC88B	TRUE	TRUE	scored	nucleus-cytoplasm	63.1	detail/nucleus-cytoplasm/CCDC88B/CCDC88B-evaluation.md	reports/CCDC88B.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CCDC92	TRUE	TRUE	scored	nucleoplasm	68.9	detail/nucleoplasm/CCDC92/CCDC92-evaluation.md	reports/CCDC92.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CCNF	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CCNO	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CCP110	TRUE	TRUE	rejected	rejected	None	detail/rejected/CCP110/CCP110-evaluation.md	reports/CCP110.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CD163L1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CD226	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CD2AP	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CD86	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CDC45	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CDIP1	TRUE	TRUE	scored	nucleus-cytoplasm	58.5	detail/nucleus-cytoplasm/CDIP1/CDIP1-evaluation.md	reports/CDIP1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CDK2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CDK5RAP2	TRUE	TRUE	rejected	rejected	None	detail/rejected/CDK5RAP2/CDK5RAP2-evaluation.md	reports/CDK5RAP2.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CDKL2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CDKN1B	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CENPJ	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CENPU	TRUE	TRUE	scored	nucleoplasm	59	detail/nucleoplasm/CENPU/CENPU-evaluation.md	reports/CENPU.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CEP112	TRUE	TRUE	scored	nucleoplasm	73.1	detail/nucleoplasm/CEP112/CEP112-evaluation.md	reports/CEP112.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CEP128	TRUE	TRUE	rejected	rejected	None	detail/rejected/CEP128/CEP128-evaluation.md	reports/CEP128.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CEP131	TRUE	TRUE	rejected	rejected	None	detail/rejected/CEP131/CEP131-evaluation.md	reports/CEP131.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CEP152	TRUE	TRUE	scored	nucleoplasm	49.7	detail/nucleoplasm/CEP152/CEP152-evaluation.md	reports/CEP152.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CEP162	TRUE	TRUE	scored	nucleus-cytoplasm	66.1	detail/nucleus-cytoplasm/CEP162/CEP162-evaluation.md	reports/CEP162.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CEP164	TRUE	TRUE	scored	nucleoplasm	53.6	detail/nucleoplasm/CEP164/CEP164-evaluation.md	reports/CEP164.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CEP170	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CEP170B	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CEP19	TRUE	TRUE	scored	nucleoplasm	69.4	detail/nucleoplasm/CEP19/CEP19-evaluation.md	reports/CEP19.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CEP192	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CEP20	TRUE	TRUE	scored	nucleoplasm	67.2	detail/nucleoplasm/CEP20/CEP20-evaluation.md	reports/CEP20.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CEP250	TRUE	TRUE	rejected	rejected	None	detail/rejected/CEP250/CEP250-evaluation.md	reports/CEP250.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CEP290	TRUE	TRUE	scored	nucleoplasm	38.1	detail/nucleoplasm/CEP290/CEP290-evaluation.md	reports/CEP290.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CEP350	TRUE	TRUE	scored	nucleoplasm	63.3	detail/nucleoplasm/CEP350/CEP350-evaluation.md	reports/CEP350.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CEP43	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CEP55	TRUE	TRUE	rejected	rejected	None	detail/rejected/CEP55/CEP55-evaluation.md	reports/CEP55.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CEP57	TRUE	TRUE	scored	nucleus-cytoplasm	77.2	detail/nucleus-cytoplasm/CEP57/CEP57-evaluation.md	reports/CEP57.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CEP63	TRUE	TRUE	scored	nucleoplasm	63.9	detail/nucleoplasm/CEP63/CEP63-evaluation.md	reports/CEP63.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CEP68	TRUE	TRUE	scored	nucleoplasm	57.9	detail/nucleoplasm/CEP68/CEP68-evaluation.md	reports/CEP68.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CEP70	TRUE	TRUE	scored	nucleoplasm	78.1	detail/nucleoplasm/CEP70/CEP70-evaluation.md	reports/CEP70.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CEP72	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CEP85	TRUE	TRUE	scored	nucleolus	72.1	detail/nucleolus/CEP85/CEP85-evaluation.md	reports/CEP85.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CEP89	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CEP95	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CEP97	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CETN2	TRUE	TRUE	scored	nuclear-envelope	74.4	detail/nuclear-envelope/CETN2/CETN2-evaluation.md	reports/CETN2.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CETN3	TRUE	TRUE	scored	nucleus-cytoplasm	77.2	detail/nucleus-cytoplasm/CETN3/CETN3-evaluation.md	reports/CETN3.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CFAP298	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CFAP300	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CFAP418	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CFAP52	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CFAP70	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CHD3	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CHMP1A	TRUE	TRUE	scored	nucleoplasm	53	detail/nucleoplasm/CHMP1A/CHMP1A-evaluation.md	reports/CHMP1A.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CHODL	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CHPF	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CHST15	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CIB2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CIP2A	TRUE	TRUE	rejected	rejected	None	detail/rejected/CIP2A/CIP2A-evaluation.md	reports/CIP2A.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CKAP2	TRUE	TRUE	scored	nucleolus	48.9	detail/nucleolus/CKAP2/CKAP2-evaluation.md	reports/CKAP2.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CKAP5	TRUE	TRUE	scored	chromatin	45.3	detail/chromatin/CKAP5/CKAP5-evaluation.md	reports/CKAP5.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CLEC11A	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CLHC1	TRUE	TRUE	scored	nucleolus	66.4	detail/nucleolus/CLHC1/CLHC1-evaluation.md	reports/CLHC1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CLIC4	TRUE	TRUE	scored	nucleoplasm	51.7	detail/nucleoplasm/CLIC4/CLIC4-evaluation.md	reports/CLIC4.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CLRN1	TRUE	TRUE	rejected	rejected	None	detail/rejected/CLRN1/CLRN1-evaluation.md	reports/CLRN1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CLTC	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CNOT10	TRUE	TRUE	scored	nucleoplasm	73.1	detail/nucleoplasm/CNOT10/CNOT10-evaluation.md	reports/CNOT10.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CNTLN	TRUE	TRUE	scored	nucleoplasm	57.9	detail/nucleoplasm/CNTLN/CNTLN-evaluation.md	reports/CNTLN.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CNTRL	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CNTROB	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CPA4	TRUE	TRUE	scored	nucleoplasm	51.4	detail/nucleoplasm/CPA4/CPA4-evaluation.md	reports/CPA4.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CPE	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CRACDL	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CREB1	TRUE	TRUE	scored	nucleoplasm	45.3	detail/nucleoplasm/CREB1/CREB1-evaluation.md	reports/CREB1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CREB3	TRUE	TRUE	scored	nucleoplasm	44.4	detail/nucleoplasm/CREB3/CREB3-evaluation.md	reports/CREB3.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CRIP1	TRUE	TRUE	scored	nuclear-speckle	43.6	detail/nuclear-speckle/CRIP1/CRIP1-evaluation.md	reports/CRIP1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CRMP1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CROCC	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CSPP1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CTNNBL1	TRUE	TRUE	scored	nucleoplasm	73.6	detail/nucleoplasm/CTNNBL1/CTNNBL1-evaluation.md	reports/CTNNBL1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CUEDC1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CYB5B	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+CYLD	TRUE	TRUE	scored	nucleoplasm	51.1	detail/nucleoplasm/CYLD/CYLD-evaluation.md	reports/CYLD.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+CYTH4	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+DAPK1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+DCAF13	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+DCC	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+DCDC2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+DCTN2	TRUE	TRUE	rejected	rejected	None	detail/rejected/DCTN2/DCTN2-evaluation.md	reports/DCTN2.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+DCTN4	TRUE	TRUE	scored	nucleoplasm	78.9	detail/nucleoplasm/DCTN4/DCTN4-evaluation.md	reports/DCTN4.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+DDHD2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+DDX59	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+DDX60	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+DENND1C	TRUE	TRUE	scored	nucleoplasm	71.1	detail/nucleoplasm/DENND1C/DENND1C-evaluation.md	reports/DENND1C.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+DHRS1	TRUE	TRUE	scored	nucleoplasm	68.6	detail/nucleoplasm/DHRS1/DHRS1-evaluation.md	reports/DHRS1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+DHX35	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+DIS3L	TRUE	TRUE	rejected	rejected	None	detail/rejected/DIS3L/DIS3L-evaluation.md	reports/DIS3L.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+DLG4	TRUE	TRUE	scored	nucleoplasm	43.6	detail/nucleoplasm/DLG4/DLG4-evaluation.md	reports/DLG4.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+DMBT1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+DMRT2	TRUE	TRUE	scored	nucleoplasm	60	detail/nucleoplasm/DMRT2/DMRT2-evaluation.md	reports/DMRT2.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+DNAH12	TRUE	TRUE	rejected	rejected	None	detail/rejected/DNAH12/DNAH12-evaluation.md	reports/DNAH12.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+DNAH14	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+DNAH6	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+DNAJA4	TRUE	TRUE	scored	nuclear-envelope	55.3	detail/nuclear-envelope/DNAJA4/DNAJA4-evaluation.md	reports/DNAJA4.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+DNAJC28	TRUE	TRUE	scored	nuclear-body	74.4	detail/nuclear-body/DNAJC28/DNAJC28-evaluation.md	reports/DNAJC28.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+DNAL1	TRUE	TRUE	scored	nucleoplasm	81.1	detail/nucleoplasm/DNAL1/DNAL1-evaluation.md	reports/DNAL1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+DNAL4	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+DPF2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+DRD4	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+DUSP21	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+DVL3	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+DYNC1H1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+DYNC1I2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+DYNC1LI1	TRUE	TRUE	scored	nucleoplasm	60.8	detail/nucleoplasm/DYNC1LI1/DYNC1LI1-evaluation.md	reports/DYNC1LI1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+DYNC1LI2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+DYNC2I1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+DYNC2I2	TRUE	TRUE	scored	nuclear-speckle	79.4	detail/nuclear-speckle/DYNC2I2/DYNC2I2-evaluation.md	reports/DYNC2I2.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+DYRK1A	TRUE	TRUE	scored	nucleoplasm	45.3	detail/nucleoplasm/DYRK1A/DYRK1A-evaluation.md	reports/DYRK1A.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+DYSF	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+DZIP1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+E2F1	TRUE	TRUE	scored	nucleoplasm	45.3	detail/nucleoplasm/E2F1/E2F1-evaluation.md	reports/E2F1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+EDRF1	TRUE	TRUE	scored	nucleoplasm	75.8	detail/nucleoplasm/EDRF1/EDRF1-evaluation.md	reports/EDRF1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+EEF1AKMT3	TRUE	TRUE	scored	nucleoplasm	77.2	detail/nucleoplasm/EEF1AKMT3/EEF1AKMT3-evaluation.md	reports/EEF1AKMT3.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+EID2	TRUE	TRUE	scored	nucleoplasm	76.7	detail/nucleoplasm/EID2/EID2-evaluation.md	reports/EID2.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+ELP6	TRUE	TRUE	scored	nucleoplasm	71.4	detail/nucleoplasm/ELP6/ELP6-evaluation.md	reports/ELP6.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+EMC6	TRUE	TRUE	scored	nucleoplasm	69.4	detail/nucleoplasm/EMC6/EMC6-evaluation.md	reports/EMC6.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+EMSY	TRUE	TRUE	rejected	rejected	None	detail/rejected/EMSY/EMSY-evaluation.md	reports/EMSY.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+ENGASE	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ENKD1	TRUE	TRUE	rejected	rejected	None	detail/rejected/ENKD1/ENKD1-evaluation.md	reports/ENKD1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+ENSG00000144785	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ENSG00000256514	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ENSG00000268870	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ENSG00000272772	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ENSG00000272980	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ENSG00000273217	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ENSG00000274175	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ENSG00000274792	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ENSG00000275869	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ENSG00000280571	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ENSG00000285188	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ENSG00000285837	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ENSG00000288637	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+EP300	TRUE	TRUE	scored	nucleoplasm	40.8	detail/nucleoplasm/EP300/EP300-evaluation.md	reports/EP300.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+EPS8L2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ERC1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ERCC6L	TRUE	TRUE	scored	nucleoplasm	73.8	detail/nucleoplasm/ERCC6L/ERCC6L-evaluation.md	reports/ERCC6L.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+ERVV-1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ERVV-2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+EXOC6	TRUE	TRUE	scored	nucleoplasm	74.2	detail/nucleoplasm/EXOC6/EXOC6-evaluation.md	reports/EXOC6.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+EXTL1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+EYA3	TRUE	TRUE	scored	nucleoplasm	55.8	detail/nucleoplasm/EYA3/EYA3-evaluation.md	reports/EYA3.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+FAM117B	TRUE	TRUE	scored	nucleoplasm	71.9	detail/nucleoplasm/FAM117B/FAM117B-evaluation.md	reports/FAM117B.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+FAM161A	TRUE	TRUE	scored	nucleoplasm	61.1	detail/nucleoplasm/FAM161A/FAM161A-evaluation.md	reports/FAM161A.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+FAM184A	TRUE	TRUE	rejected	rejected	None	detail/rejected/FAM184A/FAM184A-evaluation.md	reports/FAM184A.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+FAM186B	TRUE	TRUE	scored	nucleoplasm	64.4	detail/nucleoplasm/FAM186B/FAM186B-evaluation.md	reports/FAM186B.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+FAM241B	TRUE	TRUE	scored	nucleoplasm	64.4	detail/nucleoplasm/FAM241B/FAM241B-evaluation.md	reports/FAM241B.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+FANCE	TRUE	TRUE	scored	nucleoplasm	63.3	detail/nucleoplasm/FANCE/FANCE-evaluation.md	reports/FANCE.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+FBF1	TRUE	TRUE	rejected	rejected	None	detail/rejected/FBF1/FBF1-evaluation.md	reports/FBF1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+FBXO21	TRUE	TRUE	rejected	rejected	None	detail/rejected/FBXO21/FBXO21-evaluation.md	reports/FBXO21.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+FBXO9	TRUE	TRUE	rejected	rejected	None	detail/rejected/FBXO9/FBXO9-evaluation.md	reports/FBXO9.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+FCHO2	TRUE	TRUE	rejected	rejected	None	detail/rejected/FCHO2/FCHO2-evaluation.md	reports/FCHO2.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+FCMR	TRUE	TRUE	scored	nucleoplasm	73.1	detail/nucleoplasm/FCMR/FCMR-evaluation.md	reports/FCMR.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+FEZF2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+FGF11	TRUE	TRUE	scored	nucleoplasm	57.5	detail/nucleoplasm/FGF11/FGF11-evaluation.md	reports/FGF11.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+FGF23	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+FGFR1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+FHDC1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+FKBP11	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+FLII	TRUE	TRUE	scored	nucleoplasm	44.7	detail/nucleoplasm/FLII/FLII-evaluation.md	reports/FLII.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+FLT4	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+FNDC3A	TRUE	TRUE	scored	nucleoplasm	66.7	detail/nucleoplasm/FNDC3A/FNDC3A-evaluation.md	reports/FNDC3A.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+FNIP2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+FNTB	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+FRMD4B	TRUE	TRUE	scored	nucleoplasm	64.4	detail/nucleoplasm/FRMD4B/FRMD4B-evaluation.md	reports/FRMD4B.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+FRMD8	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+G6PD	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+GAPDHS	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+GAS6	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+GATD3	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+GINS4	TRUE	TRUE	scored	chromatin	82.5	detail/chromatin/GINS4/GINS4-evaluation.md	reports/GINS4.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+GKAP1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+GLI2	TRUE	TRUE	scored	nucleolus	69.4	detail/nucleolus/GLI2/GLI2-evaluation.md	reports/GLI2.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+GLP1R	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+GLT8D1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+GNAI1	TRUE	TRUE	scored	nucleoplasm	53.3	detail/nucleoplasm/GNAI1/GNAI1-evaluation.md	reports/GNAI1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+GNAI3	TRUE	TRUE	scored	nucleolus	58.9	detail/nucleolus/GNAI3/GNAI3-evaluation.md	reports/GNAI3.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+GNB5	TRUE	TRUE	scored	nuclear-speckle	64.4	detail/nuclear-speckle/GNB5/GNB5-evaluation.md	reports/GNB5.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+GOLGA6A	TRUE	TRUE	scored	nucleoplasm	67.5	detail/nucleoplasm/GOLGA6A/GOLGA6A-evaluation.md	reports/GOLGA6A.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+GOLGA6B	TRUE	TRUE	scored	nucleoplasm	67.5	detail/nucleoplasm/GOLGA6B/GOLGA6B-evaluation.md	reports/GOLGA6B.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+GOLGA6C	TRUE	TRUE	scored	nucleoplasm	67.5	detail/nucleoplasm/GOLGA6C/GOLGA6C-evaluation.md	reports/GOLGA6C.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+GOLGA6D	TRUE	TRUE	scored	nucleoplasm	67.5	detail/nucleoplasm/GOLGA6D/GOLGA6D-evaluation.md	reports/GOLGA6D.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+GPAA1	TRUE	TRUE	rejected	rejected	None	detail/rejected/GPAA1/GPAA1-evaluation.md	reports/GPAA1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+GPR162	TRUE	TRUE	rejected	rejected	None	detail/rejected/GPR162/GPR162-evaluation.md	reports/GPR162.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+GPR174	TRUE	TRUE	rejected	rejected	None	detail/rejected/GPR174/GPR174-evaluation.md	reports/GPR174.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+GPSM2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+GRAP	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+GRAPL	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+GRB2	TRUE	TRUE	scored	nucleoplasm	53.3	detail/nucleoplasm/GRB2/GRB2-evaluation.md	reports/GRB2.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+GTSE1	TRUE	TRUE	scored	nucleoplasm	39.9	detail/nucleoplasm/GTSE1/GTSE1-evaluation.md	reports/GTSE1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+GVQW3	TRUE	TRUE	scored	nucleoplasm	63.3	detail/nucleoplasm/GVQW3/GVQW3-evaluation.md	reports/GVQW3.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+GYG2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+HAUS1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+HAUS2	TRUE	TRUE	scored	nucleoplasm	70.6	detail/nucleoplasm/HAUS2/HAUS2-evaluation.md	reports/HAUS2.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+HAUS6	TRUE	TRUE	scored	nuclear-speckle	64.7	detail/nuclear-speckle/HAUS6/HAUS6-evaluation.md	reports/HAUS6.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+HAUS7	TRUE	TRUE	scored	nucleolus	76.1	detail/nucleolus/HAUS7/HAUS7-evaluation.md	reports/HAUS7.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+HDAC6	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+HIPK1	TRUE	TRUE	scored	nuclear-speckle	52.8	detail/nuclear-speckle/HIPK1/HIPK1-evaluation.md	reports/HIPK1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+HK2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+HMMR	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+HMX3	TRUE	TRUE	scored	nucleolus	66.4	detail/nucleolus/HMX3/HMX3-evaluation.md	reports/HMX3.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+HNMT	TRUE	TRUE	rejected	rejected	None	detail/rejected/HNMT/HNMT-evaluation.md	reports/HNMT.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+HOOK3	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+HORMAD2	TRUE	TRUE	scored	nucleoplasm	68.6	detail/nucleoplasm/HORMAD2/HORMAD2-evaluation.md	reports/HORMAD2.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+HOXB4	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+HSPA4L	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+HSPBP1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ID2	TRUE	TRUE	scored	nucleoplasm	43.6	detail/nucleoplasm/ID2/ID2-evaluation.md	reports/ID2.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+IFT43	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+IFT57	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+IFT74	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+IFT81	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+IFT88	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+IL1RN	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+IL4R	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ILRUN	TRUE	TRUE	scored	nuclear-speckle	76.1	detail/nuclear-speckle/ILRUN/ILRUN-evaluation.md	reports/ILRUN.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+INPP1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+INPP4B	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+INSR	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+INTS6L	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+INVS	TRUE	TRUE	rejected	rejected	None	detail/rejected/INVS/INVS-evaluation.md	reports/INVS.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+IQSEC1	TRUE	TRUE	scored	nucleoplasm	64.4	detail/nucleoplasm/IQSEC1/IQSEC1-evaluation.md	reports/IQSEC1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+ISM2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ITGB6	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ITPRIPL2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+IVL	TRUE	TRUE	rejected	rejected	None	detail/rejected/IVL/IVL-evaluation.md	reports/IVL.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+JADE1	TRUE	TRUE	scored	chromatin	67.8	detail/chromatin/JADE1/JADE1-evaluation.md	reports/JADE1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+KATNA1	TRUE	TRUE	scored	nucleoplasm	71.1	detail/nucleoplasm/KATNA1/KATNA1-evaluation.md	reports/KATNA1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+KATNAL1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+KATNIP	TRUE	TRUE	scored	nucleoplasm	69.4	detail/nucleoplasm/KATNIP/KATNIP-evaluation.md	reports/KATNIP.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+KCNH5	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+KCTD1	TRUE	TRUE	scored	nucleoplasm	71	detail/nucleoplasm/KCTD1/KCTD1-evaluation.md	reports/KCTD1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+KCTD16	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+KCTD4	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+KEAP1	TRUE	TRUE	scored	nucleoplasm	33.6	detail/nucleoplasm/KEAP1/KEAP1-evaluation.md	reports/KEAP1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+KIAA0753	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+KIF19	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+KIF1A	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+KIF20B	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+KIF2A	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+KIF2C	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+KIF5B	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+KIF6	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+KIFC1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+KIRREL2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+KLC3	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+KLHL12	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+KLHL21	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+KLHL30	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+KLHL35	TRUE	TRUE	scored	nucleolus	59.2	detail/nucleolus/KLHL35/KLHL35-evaluation.md	reports/KLHL35.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+KLHL4	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+KLHL6	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+KMT5B	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+KNSTRN	TRUE	TRUE	scored	chromatin	72.2	detail/chromatin/KNSTRN/KNSTRN-evaluation.md	reports/KNSTRN.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+KXD1	TRUE	TRUE	scored	nucleolus	66.4	detail/nucleolus/KXD1/KXD1-evaluation.md	reports/KXD1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+LAMP5	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+LAS1L	TRUE	TRUE	scored	nucleolus	73.1	detail/nucleolus/LAS1L/LAS1L-evaluation.md	reports/LAS1L.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+LATS2	TRUE	TRUE	scored	nucleoplasm	43.6	detail/nucleoplasm/LATS2/LATS2-evaluation.md	reports/LATS2.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+LCA5	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+LEO1	TRUE	TRUE	scored	nucleolus	56.4	detail/nucleolus/LEO1/LEO1-evaluation.md	reports/LEO1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+LEPROT	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+LGI2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+LGR4	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+LGR5	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+LHCGR	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+LINC02203	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+LMF2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+LMNTD1	TRUE	TRUE	scored	nuclear-envelope	72.2	detail/nuclear-envelope/LMNTD1/LMNTD1-evaluation.md	reports/LMNTD1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+LMTK2	TRUE	TRUE	scored	nuclear-speckle	58.3	detail/nuclear-speckle/LMTK2/LMTK2-evaluation.md	reports/LMTK2.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+LONRF1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+LRIF1	TRUE	TRUE	scored	nucleoplasm	73.3	detail/nucleoplasm/LRIF1/LRIF1-evaluation.md	reports/LRIF1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+LRRC45	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+LRRC7	TRUE	TRUE	rejected	rejected	None	detail/rejected/LRRC7/LRRC7-evaluation.md	reports/LRRC7.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+LRRCC1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+LRRN1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+LTB	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+LUZP1	TRUE	TRUE	scored	chromatin	58.9	detail/chromatin/LUZP1/LUZP1-evaluation.md	reports/LUZP1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+LY9	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+LYST	TRUE	TRUE	scored	nucleoplasm	32.2	detail/nucleoplasm/LYST/LYST-evaluation.md	reports/LYST.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+LZTR1	TRUE	TRUE	rejected	rejected	None	detail/rejected/LZTR1/LZTR1-evaluation.md	reports/LZTR1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+MAGEB16	TRUE	TRUE	scored	nucleoplasm	68.6	detail/nucleoplasm/MAGEB16/MAGEB16-evaluation.md	reports/MAGEB16.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+MAL	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+MAMLD1	TRUE	TRUE	scored	nucleoplasm	54.6	detail/nucleoplasm/MAMLD1/MAMLD1-evaluation.md	reports/MAMLD1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+MAP3K11	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+MAP3K13	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+MAP4K3	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+MAP7D3	TRUE	TRUE	scored	nucleoplasm	64.4	detail/nucleoplasm/MAP7D3/MAP7D3-evaluation.md	reports/MAP7D3.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+MAP9	TRUE	TRUE	scored	nuclear-speckle	60	detail/nuclear-speckle/MAP9/MAP9-evaluation.md	reports/MAP9.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+MAPK8IP3	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+MAPKAPK2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+MAPRE1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+MATK	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+MCF2L2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+MDH1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+MDM1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+MDM2	TRUE	TRUE	scored	nucleoplasm	45.3	detail/nucleoplasm/MDM2/MDM2-evaluation.md	reports/MDM2.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+MFAP1	TRUE	TRUE	scored	nucleolus	81.4	detail/nucleolus/MFAP1/MFAP1-evaluation.md	reports/MFAP1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+MGAT4C	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+MIB1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+MICALL1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+MID1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+MKKS	TRUE	TRUE	scored	nucleoplasm	36.7	detail/nucleoplasm/MKKS/MKKS-evaluation.md	reports/MKKS.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+MLF1	TRUE	TRUE	scored	nucleoplasm	50.8	detail/nucleoplasm/MLF1/MLF1-evaluation.md	reports/MLF1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+MME	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+MPDZ	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+MPHOSPH9	TRUE	TRUE	scored	nucleoplasm	64.4	detail/nucleoplasm/MPHOSPH9/MPHOSPH9-evaluation.md	reports/MPHOSPH9.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+MPP1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+MT-ND4L	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+MTHFR	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+MTMR11	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+MTMR9	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+MYO18B	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+MYO5A	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+MYOF	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+MZT2A	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+MZT2B	TRUE	TRUE	scored	nucleoplasm	71.4	detail/nucleoplasm/MZT2B/MZT2B-evaluation.md	reports/MZT2B.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+N4BP3	TRUE	TRUE	rejected	rejected	None	detail/rejected/N4BP3/N4BP3-evaluation.md	reports/N4BP3.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+N6AMT1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+NAA11	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+NAA40	TRUE	TRUE	scored	nucleoplasm	73.9	detail/nucleoplasm/NAA40/NAA40-evaluation.md	reports/NAA40.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+NAE1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+NCAPD2	TRUE	TRUE	scored	chromatin	69.4	detail/chromatin/NCAPD2/NCAPD2-evaluation.md	reports/NCAPD2.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+NDC80	TRUE	TRUE	rejected	rejected	None	detail/rejected/NDC80/NDC80-evaluation.md	reports/NDC80.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+NDRG2	TRUE	TRUE	scored	nucleoplasm	51.7	detail/nucleoplasm/NDRG2/NDRG2-evaluation.md	reports/NDRG2.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+NEDD1	TRUE	TRUE	scored	nucleolus	61.4	detail/nucleolus/NEDD1/NEDD1-evaluation.md	reports/NEDD1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+NEFH	TRUE	TRUE	rejected	rejected	None	detail/rejected/NEFH/NEFH-evaluation.md	reports/NEFH.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+NEK1	TRUE	TRUE	scored	nucleoplasm	41.9	detail/nucleoplasm/NEK1/NEK1-evaluation.md	reports/NEK1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+NEK2	TRUE	TRUE	rejected	rejected	None	detail/rejected/NEK2/NEK2-evaluation.md	reports/NEK2.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+NEK6	TRUE	TRUE	scored	nucleoplasm	47.5	detail/nucleoplasm/NEK6/NEK6-evaluation.md	reports/NEK6.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+NEUROD4	TRUE	TRUE	scored	nucleoplasm	65.6	detail/nucleoplasm/NEUROD4/NEUROD4-evaluation.md	reports/NEUROD4.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+NFE2L2	TRUE	TRUE	scored	nucleoplasm	45.3	detail/nucleoplasm/NFE2L2/NFE2L2-evaluation.md	reports/NFE2L2.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+NIN	TRUE	TRUE	rejected	rejected	None	detail/rejected/NIN/NIN-evaluation.md	reports/NIN.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+NIT2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+NLRC3	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+NLRC5	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+NME9	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+NMRK1	TRUE	TRUE	scored	nucleoplasm	73.3	detail/nucleoplasm/NMRK1/NMRK1-evaluation.md	reports/NMRK1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+NPTX2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+NR0B1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+NR6A1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+NUBP1	TRUE	TRUE	scored	nucleoplasm	76.9	detail/nucleoplasm/NUBP1/NUBP1-evaluation.md	reports/NUBP1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+NUDT21	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+NUDT5	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+NUP107	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+OAS2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+OAZ1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+OBSL1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+OCRL	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ODAD4	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ODF2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+OR4M2-OT1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+OR4N4	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+OR4N4C	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PACSIN2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PAFAH1B1	TRUE	TRUE	rejected	rejected	None	detail/rejected/PAFAH1B1/PAFAH1B1-evaluation.md	reports/PAFAH1B1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+PAOX	TRUE	TRUE	scored	nucleoplasm	64.7	detail/nucleoplasm/PAOX/PAOX-evaluation.md	reports/PAOX.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+PATJ	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PCDH9	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PCDHB15	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PCLAF	TRUE	TRUE	scored	nucleoplasm	66.4	detail/nucleoplasm/PCLAF/PCLAF-evaluation.md	reports/PCLAF.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+PCM1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PCNT	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PDCD6IP	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PDCL2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PDE11A	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PDE4C	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PDIA6	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PEAR1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PELI1	TRUE	TRUE	scored	nucleoplasm	55	detail/nucleoplasm/PELI1/PELI1-evaluation.md	reports/PELI1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+PELI2	TRUE	TRUE	scored	nucleolus	74.3	detail/nucleolus/PELI2/PELI2-evaluation.md	reports/PELI2.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+PGBD4	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PHLPP2	TRUE	TRUE	rejected	rejected	None	detail/rejected/PHLPP2/PHLPP2-evaluation.md	reports/PHLPP2.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+PIAS4	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PIBF1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PIK3C2G	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PIK3R5	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PINLYP	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PKN2	TRUE	TRUE	scored	nucleoplasm	49.2	detail/nucleoplasm/PKN2/PKN2-evaluation.md	reports/PKN2.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+PLAG1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PLCB4	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PLEKHA4	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PLEKHG6	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PLEKHG7	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PLEKHH1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PLEKHS1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PLK4	TRUE	TRUE	scored	nucleoplasm	44.2	detail/nucleoplasm/PLK4/PLK4-evaluation.md	reports/PLK4.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+PLVAP	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PLXNA1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PNMA5	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PNPLA7	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PODXL	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+POFUT1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+POLD4	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+POLR3H	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PPARA	TRUE	TRUE	scored	nucleoplasm	57.8	detail/nucleoplasm/PPARA/PPARA-evaluation.md	reports/PPARA.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+PPP4R3B	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PRICKLE4	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PRKAR2A	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PRKAR2B	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PRKCQ	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PRPF6	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PRR32	TRUE	TRUE	scored	nuclear-speckle	65.3	detail/nuclear-speckle/PRR32/PRR32-evaluation.md	reports/PRR32.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+PSMA1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PSMB5	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PSMD2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PSMD5	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PTPN20	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PTPN23	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PURG	TRUE	TRUE	scored	nucleoplasm	74.2	detail/nucleoplasm/PURG/PURG-evaluation.md	reports/PURG.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+PXK	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+PXN	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+QRSL1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+RAB11A	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+RAB11B	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+RAB11FIP3	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+RAB11FIP5	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+RAB15	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+RAB23	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+RAB26	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+RAB34	TRUE	TRUE	scored	nucleolus	61.1	detail/nucleolus/RAB34/RAB34-evaluation.md	reports/RAB34.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+RAB3A	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+RAB3IL1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+RAB3IP	TRUE	TRUE	scored	nucleoplasm	74.4	detail/nucleoplasm/RAB3IP/RAB3IP-evaluation.md	reports/RAB3IP.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+RAB8A	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+RABL2A	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+RABL2B	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+RABL6	TRUE	TRUE	scored	nucleoplasm	72.2	detail/nucleoplasm/RABL6/RABL6-evaluation.md	reports/RABL6.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+RAPGEF6	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+RAPSN	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+RASSF7	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+RBM39	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+RFPL4A	TRUE	TRUE	scored	nucleoplasm	77.2	detail/nucleoplasm/RFPL4A/RFPL4A-evaluation.md	reports/RFPL4A.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+RFPL4AL1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+RGL4	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+RHEBL1	TRUE	TRUE	scored	nucleoplasm	63.9	detail/nucleoplasm/RHEBL1/RHEBL1-evaluation.md	reports/RHEBL1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+RILPL1	TRUE	TRUE	scored	nucleoplasm	35	detail/nucleoplasm/RILPL1/RILPL1-evaluation.md	reports/RILPL1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+RIMKLB	TRUE	TRUE	scored	nucleoplasm	68.6	detail/nucleoplasm/RIMKLB/RIMKLB-evaluation.md	reports/RIMKLB.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+RIOK3	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+RLBP1	TRUE	TRUE	rejected	rejected	None	detail/rejected/RLBP1/RLBP1-evaluation.md	reports/RLBP1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+RMDN1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+RNF167	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+RNF39	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+RPP25	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+RRAGD	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+RRM1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+RSPH1	TRUE	TRUE	rejected	rejected	None	detail/rejected/RSPH1/RSPH1-evaluation.md	reports/RSPH1__rejected.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+RTTN	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+RUNDC3B	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+RUVBL2	TRUE	TRUE	rejected	rejected	None	detail/rejected/RUVBL2/RUVBL2-evaluation.md	reports/RUVBL2.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+S100Z	TRUE	TRUE	scored	nucleoplasm	67.2	detail/nucleoplasm/S100Z/S100Z-evaluation.md	reports/S100Z.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+SATB2	TRUE	TRUE	scored	nucleoplasm	49.4	detail/nucleoplasm/SATB2/SATB2-evaluation.md	reports/SATB2.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+SAXO2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+SDCCAG8	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+SEMA4D	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+SENP7	TRUE	TRUE	scored	nucleoplasm	35	detail/nucleoplasm/SENP7/SENP7-evaluation.md	reports/SENP7.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+SERINC5	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+SERPINB6	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+SFR1	TRUE	TRUE	scored	nucleus-cytoplasm	64.5	detail/nucleus-cytoplasm/SFR1/SFR1-evaluation.md	reports/SFR1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+SH2B1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+SHD	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+SHTN1	TRUE	TRUE	scored	nucleoplasm	74.2	detail/nucleoplasm/SHTN1/SHTN1-evaluation.md	reports/SHTN1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+SIRPB1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+SKA1	TRUE	TRUE	rejected	rejected	None	detail/rejected/SKA1/SKA1-evaluation.md	reports/SKA1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+SKA3	TRUE	TRUE	rejected	rejected	None	detail/rejected/SKA3/SKA3-evaluation.md	reports/SKA3.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+SKP1	TRUE	TRUE	rejected	rejected	None	detail/rejected/SKP1/SKP1-evaluation.md	reports/SKP1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+SLAIN2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+SLC18A2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+SLC1A4	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+SLC1A5	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+SLC2A1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+SLC35A4	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+SLC35D3	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+SLC35F1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+SLC8A3	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+SLC9A3R1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+SMAD4	TRUE	TRUE	scored	nucleoplasm	52.2	detail/nucleoplasm/SMAD4/SMAD4-evaluation.md	reports/SMAD4.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+SMAD7	TRUE	TRUE	scored	nucleoplasm	31.4	detail/nucleoplasm/SMAD7/SMAD7-evaluation.md	reports/SMAD7.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+SMIM18	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+SNAP29	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+SNAP91	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+SNCG	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+SNTB2	TRUE	TRUE	rejected	rejected	None	detail/rejected/SNTB2/SNTB2-evaluation.md	reports/SNTB2__rejected.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+SNX21	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+SORBS1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+SP6	TRUE	TRUE	rejected	rejected	None	detail/rejected/SP6/SP6-evaluation.md	reports/SP6.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+SPAG9	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+SPICE1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+SPIN4	TRUE	TRUE	scored	nucleoplasm	77.2	detail/nucleoplasm/SPIN4/SPIN4-evaluation.md	reports/SPIN4.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+SPPL2B	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+SRGAP1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+SRGAP2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+SRGAP2B	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+SRGAP2C	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+SRGAP3	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+SRRM5	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+SSRP1	TRUE	TRUE	scored	nucleoplasm	56.4	detail/nucleoplasm/SSRP1/SSRP1-evaluation.md	reports/SSRP1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+SSX2IP	TRUE	TRUE	scored	nucleoplasm	66.7	detail/nucleoplasm/SSX2IP/SSX2IP-evaluation.md	reports/SSX2IP.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+ST7L	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+STEEP1	TRUE	TRUE	scored	nucleoplasm	75.8	detail/nucleoplasm/STEEP1/STEEP1-evaluation.md	reports/STEEP1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+STIL	TRUE	TRUE	rejected	rejected	None	detail/rejected/STIL/STIL-evaluation.md	reports/STIL.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+STK11	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+STK26	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+STK32A	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+SYNJ1	TRUE	TRUE	scored	nucleoplasm	42.5	detail/nucleoplasm/SYNJ1/SYNJ1-evaluation.md	reports/SYNJ1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+TACC3	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TACR1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TAF1D	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TAP1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TAPT1	TRUE	TRUE	scored	nucleoplasm	68.9	detail/nucleoplasm/TAPT1/TAPT1-evaluation.md	reports/TAPT1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+TBC1D31	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TBC1D8	TRUE	TRUE	scored	nucleoplasm	69.4	detail/nucleoplasm/TBC1D8/TBC1D8-evaluation.md	reports/TBC1D8.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+TBX15	TRUE	TRUE	rejected	rejected	None	detail/rejected/TBX15/TBX15-evaluation.md	reports/TBX15.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+TCEA2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TCHP	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TDRKH	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TECPR2	TRUE	TRUE	scored	nucleoplasm	57.2	detail/nucleoplasm/TECPR2/TECPR2-evaluation.md	reports/TECPR2.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+TEK	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TEX12	TRUE	TRUE	rejected	rejected	None	detail/rejected/TEX12/TEX12-evaluation.md	reports/TEX12.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+TEX9	TRUE	TRUE	scored	nucleolus	66.4	detail/nucleolus/TEX9/TEX9-evaluation.md	reports/TEX9.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+TGFB3	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TGIF2	TRUE	TRUE	rejected	rejected	None	detail/rejected/TGIF2/TGIF2-evaluation.md	reports/TGIF2.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+THAP6	TRUE	TRUE	scored	nucleoplasm	65.6	detail/nucleoplasm/THAP6/THAP6-evaluation.md	reports/THAP6.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+THBS2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TLN1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TMEM132C	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TMEM170B	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TMEM63A	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TMEM63C	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TMEM86B	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TNFAIP3	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TP53TG3	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TP53TG3B	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TP53TG3C	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TP53TG3D	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TP53TG3E	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TP53TG3F	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TP73	TRUE	TRUE	rejected	rejected	None	detail/rejected/TP73/TP73-evaluation.md	reports/TP73.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+TRAF5	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TRAPPC14	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TRAT1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TRIM15	TRUE	TRUE	scored	nucleoplasm	56.3	detail/nucleoplasm/TRIM15/TRIM15-evaluation.md	reports/TRIM15.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+TRIM2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TRIM34	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TRIM38	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TRIM46	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TRIM6-TRIM34	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TRPM1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TRPV3	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TSEN2	TRUE	TRUE	scored	nucleolus	80	detail/nucleolus/TSEN2/TSEN2-evaluation.md	reports/TSEN2.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+TSSK1B	TRUE	TRUE	scored	nuclear-speckle	66.7	detail/nuclear-speckle/TSSK1B/TSSK1B-evaluation.md	reports/TSSK1B.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+TTC21B	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TTC30A	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TTC30B	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TTC39A	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TTC6	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TTI2	TRUE	TRUE	scored	nucleoplasm	71.7	detail/nucleoplasm/TTI2/TTI2-evaluation.md	reports/TTI2.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+TUB	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TUBG2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TUBGCP2	TRUE	TRUE	scored	nucleoplasm	78.9	detail/nucleoplasm/TUBGCP2/TUBGCP2-evaluation.md	reports/TUBGCP2.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+TUBGCP4	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TUBGCP5	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TWSG1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+TXLNA	TRUE	TRUE	scored	nucleoplasm	67.5	detail/nucleoplasm/TXLNA/TXLNA-evaluation.md	reports/TXLNA.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+TYSND1	TRUE	TRUE	scored	nucleoplasm	68.6	detail/nucleoplasm/TYSND1/TYSND1-evaluation.md	reports/TYSND1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+UBA3	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+UBE2Q1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+UBL3	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+UBR4	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+UBXN2A	TRUE	TRUE	scored	nucleoplasm	74.2	detail/nucleoplasm/UBXN2A/UBXN2A-evaluation.md	reports/UBXN2A.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+UGP2	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+UNC5CL	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+USF3	TRUE	TRUE	scored	nucleoplasm	70.5	detail/nucleoplasm/USF3/USF3-evaluation.md	reports/USF3.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+USP38	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+UXT	TRUE	TRUE	rejected	rejected	None	detail/rejected/UXT/UXT-evaluation.md	reports/UXT.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+VASH1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+VCPIP1	TRUE	TRUE	scored	nucleoplasm	64.7	detail/nucleoplasm/VCPIP1/VCPIP1-evaluation.md	reports/VCPIP1.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+VLDLR	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+VPS37A	TRUE	TRUE	scored	nucleoplasm	70.6	detail/nucleoplasm/VPS37A/VPS37A-evaluation.md	reports/VPS37A.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+VSIG10	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+WAC	TRUE	TRUE	rejected	rejected	None	detail/rejected/WAC/WAC-evaluation.md	reports/WAC.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+WASHC5	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+WDR13	TRUE	TRUE	scored	nucleoplasm	75.3	detail/nucleoplasm/WDR13/WDR13-evaluation.md	reports/WDR13.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+WDR19	TRUE	TRUE	scored	nucleoplasm	58.9	detail/nucleoplasm/WDR19/WDR19-evaluation.md	reports/WDR19.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+WDR54	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+WDR62	TRUE	TRUE	rejected	rejected	None	detail/rejected/WDR62/WDR62-evaluation.md	reports/WDR62.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+WDR83	TRUE	TRUE	scored	nucleoplasm	76.9	detail/nucleoplasm/WDR83/WDR83-evaluation.md	reports/WDR83.html	EVALUATE_INDEPENDENTLY	Gene in main atlas; will generate independent centrosome evaluation with also_in_main_atlas=True
+WDR90	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ZBED1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ZBED6	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ZBTB24	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ZFAND1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ZFP90	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ZMYM1	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ZNF12	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ZNF121	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ZNF274	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ZNF280D	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ZNF296	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ZNF322	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ZNF330	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ZNF365	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ZNF408	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ZNF443	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ZNF616	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ZNF620	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ZNF677	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ZNF701	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ZNF721	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ZNF747	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ZNF766	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ZNF780A	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ZNF780B	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ZNF799	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
+ZSCAN10	TRUE	FALSE						EVALUATE_NEW	Gene not in main atlas; centrosome-only evaluation
