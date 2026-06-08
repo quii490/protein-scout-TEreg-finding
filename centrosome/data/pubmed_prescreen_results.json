@@ -1,0 +1,6369 @@
+{
+  "date": "2026-06-08T20:28:47.792515",
+  "total_screened": 706,
+  "passed": 451,
+  "eliminated": 250,
+  "errors": 5,
+  "passed_genes": [
+    "ABCA13",
+    "ACTR8",
+    "ACTRT3",
+    "ADCK2",
+    "ADPGK",
+    "AGBL5",
+    "AGTPBP1",
+    "AK6",
+    "AKNA",
+    "ALDH8A1",
+    "AMN1",
+    "ANKAR",
+    "ANKRD31",
+    "ANKRD45",
+    "APOBR",
+    "ARHGAP29",
+    "ARHGAP40",
+    "ARHGEF38",
+    "ARL2BP",
+    "ARL9",
+    "ATAD5",
+    "ATP11B",
+    "AUNIP",
+    "B9D2",
+    "BBIP1",
+    "BBOF1",
+    "BCAR3",
+    "BCAS2",
+    "BEAN1",
+    "BHLHE22",
+    "BLTP1",
+    "BUD31",
+    "C11orf80",
+    "C12orf73",
+    "C16orf74",
+    "C16orf96",
+    "C19orf54",
+    "C1QTNF2",
+    "C1orf146",
+    "C20orf96",
+    "C2CD3",
+    "C2CD5",
+    "C2orf74",
+    "C3orf49",
+    "C3orf56",
+    "C5orf58",
+    "C9orf40",
+    "CABCOCO1",
+    "CALML6",
+    "CAMK2N2",
+    "CAPN6",
+    "CAPN7",
+    "CAPRIN2",
+    "CBY1",
+    "CCDC13",
+    "CCDC32",
+    "CCDC39",
+    "CCDC51",
+    "CCDC57",
+    "CCDC65",
+    "CCDC66",
+    "CCDC74A",
+    "CCDC74B",
+    "CCDC88B",
+    "CCDC92",
+    "CD163L1",
+    "CDIP1",
+    "CDKL2",
+    "CENPU",
+    "CEP112",
+    "CEP128",
+    "CEP131",
+    "CEP152",
+    "CEP162",
+    "CEP170",
+    "CEP170B",
+    "CEP19",
+    "CEP20",
+    "CEP250",
+    "CEP350",
+    "CEP43",
+    "CEP57",
+    "CEP63",
+    "CEP68",
+    "CEP70",
+    "CEP85",
+    "CEP89",
+    "CEP95",
+    "CETN3",
+    "CFAP298",
+    "CFAP300",
+    "CFAP418",
+    "CFAP52",
+    "CFAP70",
+    "CHMP1A",
+    "CHODL",
+    "CHST15",
+    "CIB2",
+    "CKAP2",
+    "CLEC11A",
+    "CLHC1",
+    "CNOT10",
+    "CNTLN",
+    "CNTRL",
+    "CNTROB",
+    "CPA4",
+    "CRACDL",
+    "CROCC",
+    "CSPP1",
+    "CTNNBL1",
+    "CUEDC1",
+    "CYB5B",
+    "CYTH4",
+    "DCAF13",
+    "DCTN4",
+    "DDHD2",
+    "DDX59",
+    "DENND1C",
+    "DHRS1",
+    "DHX35",
+    "DIS3L",
+    "DNAH12",
+    "DNAH14",
+    "DNAH6",
+    "DNAJA4",
+    "DNAJC28",
+    "DNAL1",
+    "DNAL4",
+    "DPF2",
+    "DUSP21",
+    "DYNC1I2",
+    "DYNC1LI1",
+    "DYNC1LI2",
+    "DYNC2I1",
+    "DYNC2I2",
+    "DZIP1",
+    "EDRF1",
+    "EEF1AKMT3",
+    "EID2",
+    "ELP6",
+    "EMC6",
+    "ENKD1",
+    "ENSG00000144785",
+    "ENSG00000256514",
+    "ENSG00000268870",
+    "ENSG00000272772",
+    "ENSG00000272980",
+    "ENSG00000273217",
+    "ENSG00000274175",
+    "ENSG00000274792",
+    "ENSG00000275869",
+    "ENSG00000280571",
+    "ENSG00000285188",
+    "ENSG00000285837",
+    "ENSG00000288637",
+    "EPS8L2",
+    "ERCC6L",
+    "ERVV-1",
+    "ERVV-2",
+    "EXOC6",
+    "EXTL1",
+    "FAM117B",
+    "FAM161A",
+    "FAM184A",
+    "FAM186B",
+    "FAM241B",
+    "FBF1",
+    "FBXO21",
+    "FBXO9",
+    "FCHO2",
+    "FCMR",
+    "FGF11",
+    "FHDC1",
+    "FKBP11",
+    "FNDC3A",
+    "FNIP2",
+    "FNTB",
+    "FRMD4B",
+    "FRMD8",
+    "GATD3",
+    "GINS4",
+    "GKAP1",
+    "GLT8D1",
+    "GOLGA6A",
+    "GOLGA6B",
+    "GOLGA6C",
+    "GOLGA6D",
+    "GPAA1",
+    "GPR162",
+    "GPR174",
+    "GRAPL",
+    "GVQW3",
+    "GYG2",
+    "HAUS1",
+    "HAUS2",
+    "HAUS6",
+    "HAUS7",
+    "HIPK1",
+    "HMX3",
+    "HOOK3",
+    "HORMAD2",
+    "HSPA4L",
+    "HSPBP1",
+    "IFT43",
+    "IFT57",
+    "IFT74",
+    "IFT81",
+    "ILRUN",
+    "INPP1",
+    "INTS6L",
+    "IQSEC1",
+    "ITPRIPL2",
+    "JADE1",
+    "KATNA1",
+    "KATNAL1",
+    "KATNIP",
+    "KCNH5",
+    "KCTD1",
+    "KCTD16",
+    "KCTD4",
+    "KIAA0753",
+    "KIF19",
+    "KIF20B",
+    "KIF6",
+    "KIRREL2",
+    "KLC3",
+    "KLHL12",
+    "KLHL21",
+    "KLHL30",
+    "KLHL35",
+    "KLHL4",
+    "KLHL6",
+    "KMT5B",
+    "KNSTRN",
+    "KXD1",
+    "LAMP5",
+    "LAS1L",
+    "LCA5",
+    "LEO1",
+    "LEPROT",
+    "LGI2",
+    "LINC02203",
+    "LMF2",
+    "LMNTD1",
+    "LMTK2",
+    "LONRF1",
+    "LRIF1",
+    "LRRC45",
+    "LRRC7",
+    "LRRCC1",
+    "LRRN1",
+    "LUZP1",
+    "MAGEB16",
+    "MAMLD1",
+    "MAP3K11",
+    "MAP3K13",
+    "MAP7D3",
+    "MAP9",
+    "MCF2L2",
+    "MDM1",
+    "MFAP1",
+    "MGAT4C",
+    "MICALL1",
+    "MPHOSPH9",
+    "MT-ND4L",
+    "MTMR11",
+    "MTMR9",
+    "MYO18B",
+    "MZT2A",
+    "MZT2B",
+    "N4BP3",
+    "N6AMT1",
+    "NAA11",
+    "NAA40",
+    "NCAPD2",
+    "NEUROD4",
+    "NME9",
+    "NMRK1",
+    "NUBP1",
+    "NUDT5",
+    "OAZ1",
+    "OBSL1",
+    "ODAD4",
+    "OR4M2-OT1",
+    "OR4N4",
+    "OR4N4C",
+    "PAOX",
+    "PCDHB15",
+    "PELI2",
+    "PGBD4",
+    "PIK3R5",
+    "PINLYP",
+    "PLEKHA4",
+    "PLEKHG6",
+    "PLEKHG7",
+    "PLEKHH1",
+    "PLEKHS1",
+    "PNMA5",
+    "PNPLA7",
+    "POLD4",
+    "POLR3H",
+    "PPP4R3B",
+    "PRICKLE4",
+    "PRPF6",
+    "PRR32",
+    "PSMD5",
+    "PTPN20",
+    "PTPN23",
+    "PURG",
+    "PXK",
+    "QRSL1",
+    "RAB11FIP3",
+    "RAB11FIP5",
+    "RAB15",
+    "RAB26",
+    "RAB34",
+    "RAB3IL1",
+    "RAB3IP",
+    "RABL2A",
+    "RABL2B",
+    "RABL6",
+    "RAPGEF6",
+    "RASSF7",
+    "RFPL4A",
+    "RFPL4AL1",
+    "RGL4",
+    "RHEBL1",
+    "RILPL1",
+    "RIMKLB",
+    "RIOK3",
+    "RMDN1",
+    "RNF167",
+    "RNF39",
+    "RPP25",
+    "RRAGD",
+    "RSPH1",
+    "RTTN",
+    "RUNDC3B",
+    "S100Z",
+    "SAXO2",
+    "SENP7",
+    "SERPINB6",
+    "SFR1",
+    "SHTN1",
+    "SIRPB1",
+    "SLAIN2",
+    "SLC35A4",
+    "SLC35D3",
+    "SLC35F1",
+    "SMIM18",
+    "SNTB2",
+    "SNX21",
+    "SPICE1",
+    "SPIN4",
+    "SPPL2B",
+    "SRGAP1",
+    "SRGAP2B",
+    "SRGAP2C",
+    "SRGAP3",
+    "SRRM5",
+    "SSX2IP",
+    "ST7L",
+    "STEEP1",
+    "STK26",
+    "STK32A",
+    "TAF1D",
+    "TAPT1",
+    "TBC1D31",
+    "TBC1D8",
+    "TCEA2",
+    "TDRKH",
+    "TEX12",
+    "TEX9",
+    "THAP6",
+    "TMEM132C",
+    "TMEM170B",
+    "TMEM63A",
+    "TMEM63C",
+    "TMEM86B",
+    "TP53TG3",
+    "TP53TG3B",
+    "TP53TG3C",
+    "TP53TG3D",
+    "TP53TG3E",
+    "TP53TG3F",
+    "TRAPPC14",
+    "TRAT1",
+    "TRIM15",
+    "TRIM2",
+    "TRIM34",
+    "TRIM38",
+    "TRIM46",
+    "TRIM6-TRIM34",
+    "TSEN2",
+    "TSSK1B",
+    "TTC21B",
+    "TTC30A",
+    "TTC30B",
+    "TTC39A",
+    "TTC6",
+    "TTI2",
+    "TUBG2",
+    "TUBGCP2",
+    "TUBGCP4",
+    "TUBGCP5",
+    "TWSG1",
+    "TXLNA",
+    "TYSND1",
+    "UBA3",
+    "UBE2Q1",
+    "UBL3",
+    "UBXN2A",
+    "UGP2",
+    "UNC5CL",
+    "USF3",
+    "USP38",
+    "VCPIP1",
+    "VPS37A",
+    "VSIG10",
+    "WASHC5",
+    "WDR13",
+    "WDR19",
+    "WDR54",
+    "WDR83",
+    "WDR90",
+    "ZBED1",
+    "ZBED6",
+    "ZBTB24",
+    "ZFAND1",
+    "ZFP90",
+    "ZMYM1",
+    "ZNF12",
+    "ZNF121",
+    "ZNF274",
+    "ZNF280D",
+    "ZNF296",
+    "ZNF330",
+    "ZNF365",
+    "ZNF408",
+    "ZNF443",
+    "ZNF616",
+    "ZNF620",
+    "ZNF677",
+    "ZNF701",
+    "ZNF721",
+    "ZNF747",
+    "ZNF766",
+    "ZNF780A",
+    "ZNF780B",
+    "ZNF799",
+    "ZSCAN10"
+  ],
+  "eliminated_genes": [
+    "AAAS",
+    "ACADS",
+    "ADNP",
+    "AHI1",
+    "AK5",
+    "AKAP9",
+    "ALMS1",
+    "ALPK1",
+    "ANP32A",
+    "ANP32B",
+    "ANP32E",
+    "APEX1",
+    "ARL3",
+    "ASAP1",
+    "ATF3",
+    "ATG5",
+    "AUH",
+    "AVEN",
+    "BAG2",
+    "BAG5",
+    "BCO1",
+    "BICC1",
+    "BIRC7",
+    "BRAF",
+    "BRMS1",
+    "CALCR",
+    "CAPRIN1",
+    "CAPS2",
+    "CASP8",
+    "CCDC88A",
+    "CCNF",
+    "CCNO",
+    "CD226",
+    "CD2AP",
+    "CD86",
+    "CDC45",
+    "CDK2",
+    "CDK5RAP2",
+    "CDKN1B",
+    "CENPJ",
+    "CEP164",
+    "CEP290",
+    "CEP55",
+    "CHD3",
+    "CHPF",
+    "CIP2A",
+    "CKAP5",
+    "CLIC4",
+    "CLRN1",
+    "CLTC",
+    "CPE",
+    "CREB1",
+    "CREB3",
+    "CRIP1",
+    "CRMP1",
+    "CYLD",
+    "DAPK1",
+    "DCC",
+    "DCDC2",
+    "DCTN2",
+    "DDX60",
+    "DLG4",
+    "DMBT1",
+    "DMRT2",
+    "DRD4",
+    "DVL3",
+    "DYNC1H1",
+    "DYRK1A",
+    "DYSF",
+    "E2F1",
+    "EMSY",
+    "ENGASE",
+    "EP300",
+    "ERC1",
+    "EYA3",
+    "FANCE",
+    "FEZF2",
+    "FGF23",
+    "FGFR1",
+    "FLII",
+    "FLT4",
+    "G6PD",
+    "GAPDHS",
+    "GAS6",
+    "GLI2",
+    "GLP1R",
+    "GNAI1",
+    "GNAI3",
+    "GNB5",
+    "GPSM2",
+    "GRAP",
+    "GRB2",
+    "GTSE1",
+    "HDAC6",
+    "HK2",
+    "HMMR",
+    "HNMT",
+    "HOXB4",
+    "ID2",
+    "IFT88",
+    "IL1RN",
+    "IL4R",
+    "INPP4B",
+    "INSR",
+    "INVS",
+    "ISM2",
+    "ITGB6",
+    "IVL",
+    "KEAP1",
+    "KIF1A",
+    "KIF2A",
+    "KIF2C",
+    "KIF5B",
+    "KIFC1",
+    "LATS2",
+    "LGR4",
+    "LGR5",
+    "LHCGR",
+    "LTB",
+    "LY9",
+    "LYST",
+    "LZTR1",
+    "MAL",
+    "MAP4K3",
+    "MAPK8IP3",
+    "MAPKAPK2",
+    "MAPRE1",
+    "MATK",
+    "MDH1",
+    "MDM2",
+    "MIB1",
+    "MID1",
+    "MKKS",
+    "MLF1",
+    "MME",
+    "MPDZ",
+    "MPP1",
+    "MTHFR",
+    "MYO5A",
+    "MYOF",
+    "NAE1",
+    "NDC80",
+    "NDRG2",
+    "NEFH",
+    "NEK1",
+    "NEK2",
+    "NEK6",
+    "NFE2L2",
+    "NIN",
+    "NIT2",
+    "NLRC3",
+    "NLRC5",
+    "NPTX2",
+    "NR0B1",
+    "NR6A1",
+    "NUDT21",
+    "NUP107",
+    "OAS2",
+    "OCRL",
+    "ODF2",
+    "PACSIN2",
+    "PAFAH1B1",
+    "PATJ",
+    "PCDH9",
+    "PCLAF",
+    "PCNT",
+    "PDCD6IP",
+    "PDCL2",
+    "PDE11A",
+    "PDE4C",
+    "PDIA6",
+    "PEAR1",
+    "PELI1",
+    "PHLPP2",
+    "PIAS4",
+    "PIBF1",
+    "PKN2",
+    "PLAG1",
+    "PLCB4",
+    "PLVAP",
+    "PLXNA1",
+    "PODXL",
+    "POFUT1",
+    "PPARA",
+    "PRKAR2A",
+    "PRKCQ",
+    "PSMA1",
+    "PSMB5",
+    "PSMD2",
+    "PXN",
+    "RAB11A",
+    "RAB11B",
+    "RAB23",
+    "RAB3A",
+    "RAB8A",
+    "RAPSN",
+    "RBM39",
+    "RLBP1",
+    "RRM1",
+    "RUVBL2",
+    "SATB2",
+    "SEMA4D",
+    "SERINC5",
+    "SH2B1",
+    "SHD",
+    "SKA1",
+    "SKA3",
+    "SKP1",
+    "SLC18A2",
+    "SLC1A4",
+    "SLC1A5",
+    "SLC2A1",
+    "SLC8A3",
+    "SLC9A3R1",
+    "SMAD4",
+    "SMAD7",
+    "SNAP29",
+    "SNAP91",
+    "SNCG",
+    "SORBS1",
+    "SP6",
+    "SPAG9",
+    "SRGAP2",
+    "SSRP1",
+    "STIL",
+    "STK11",
+    "SYNJ1",
+    "TACC3",
+    "TACR1",
+    "TAP1",
+    "TBX15",
+    "TCHP",
+    "TECPR2",
+    "TEK",
+    "TGFB3",
+    "TGIF2",
+    "THBS2",
+    "TLN1",
+    "TNFAIP3",
+    "TP73",
+    "TRAF5",
+    "TRPM1",
+    "TRPV3",
+    "TUB",
+    "UBR4",
+    "UXT",
+    "VASH1",
+    "VLDLR",
+    "WAC",
+    "WDR62"
+  ],
+  "error_genes": [
+    "ANP32D",
+    "PIK3C2G",
+    "PRKAR2B",
+    "SDCCAG8",
+    "ZNF322"
+  ],
+  "results": {
+    "AAAS": {
+      "gene": "AAAS",
+      "pubmed_total": 5691,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000094914",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T19:59:18.005831"
+    },
+    "ABCA13": {
+      "gene": "ABCA13",
+      "pubmed_total": 77,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000179869",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T19:59:20.599039"
+    },
+    "ACADS": {
+      "gene": "ACADS",
+      "pubmed_total": 225,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000122971",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T19:59:22.367011"
+    },
+    "ACTR8": {
+      "gene": "ACTR8",
+      "pubmed_total": 14,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000113812",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T19:59:26.025928"
+    },
+    "ACTRT3": {
+      "gene": "ACTRT3",
+      "pubmed_total": 8,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000184378",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T19:59:28.766210"
+    },
+    "ADCK2": {
+      "gene": "ADCK2",
+      "pubmed_total": 9,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000133597",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T19:59:32.445768"
+    },
+    "ADNP": {
+      "gene": "ADNP",
+      "pubmed_total": 460,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000101126",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T19:59:34.214591"
+    },
+    "ADPGK": {
+      "gene": "ADPGK",
+      "pubmed_total": 75,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000159322",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T19:59:37.055087"
+    },
+    "AGBL5": {
+      "gene": "AGBL5",
+      "pubmed_total": 24,
+      "pubmed_centrosome": 8,
+      "ensembl": "ENSG00000084693",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T19:59:40.461201"
+    },
+    "AGTPBP1": {
+      "gene": "AGTPBP1",
+      "pubmed_total": 83,
+      "pubmed_centrosome": 2,
+      "ensembl": "ENSG00000135049",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T19:59:43.938120"
+    },
+    "AHI1": {
+      "gene": "AHI1",
+      "pubmed_total": 225,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000135541",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T19:59:45.658307"
+    },
+    "AK5": {
+      "gene": "AK5",
+      "pubmed_total": 149,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000154027",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T19:59:49.124398"
+    },
+    "AK6": {
+      "gene": "AK6",
+      "pubmed_total": 42,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000085231",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T19:59:51.529537"
+    },
+    "AKAP9": {
+      "gene": "AKAP9",
+      "pubmed_total": 248,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000127914",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T19:59:52.555021"
+    },
+    "AKNA": {
+      "gene": "AKNA",
+      "pubmed_total": 65,
+      "pubmed_centrosome": 6,
+      "ensembl": "ENSG00000106948",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T19:59:54.385285"
+    },
+    "ALDH8A1": {
+      "gene": "ALDH8A1",
+      "pubmed_total": 32,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000118514",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T19:59:56.397819"
+    },
+    "ALMS1": {
+      "gene": "ALMS1",
+      "pubmed_total": 343,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000116127",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T19:59:57.741589"
+    },
+    "ALPK1": {
+      "gene": "ALPK1",
+      "pubmed_total": 154,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000073331",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T19:59:59.076743"
+    },
+    "AMN1": {
+      "gene": "AMN1",
+      "pubmed_total": 35,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000151743",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:00:03.090785"
+    },
+    "ANKAR": {
+      "gene": "ANKAR",
+      "pubmed_total": 59,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000151687",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:00:06.763274"
+    },
+    "ANKRD31": {
+      "gene": "ANKRD31",
+      "pubmed_total": 21,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000145700",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:00:08.794424"
+    },
+    "ANKRD45": {
+      "gene": "ANKRD45",
+      "pubmed_total": 5,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000183831",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:00:10.620075"
+    },
+    "ANP32A": {
+      "gene": "ANP32A",
+      "pubmed_total": 206,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000140350",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:00:12.599458"
+    },
+    "ANP32B": {
+      "gene": "ANP32B",
+      "pubmed_total": 127,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000136938",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:00:15.536431"
+    },
+    "ANP32D": {
+      "gene": "ANP32D",
+      "pubmed_total": -1,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000139223",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:00:17.294525"
+    },
+    "ANP32E": {
+      "gene": "ANP32E",
+      "pubmed_total": 137,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000143401",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:00:20.153471"
+    },
+    "APEX1": {
+      "gene": "APEX1",
+      "pubmed_total": 1710,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000100823",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:00:21.975236"
+    },
+    "APOBR": {
+      "gene": "APOBR",
+      "pubmed_total": 20,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000184730",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:00:25.229468"
+    },
+    "ARHGAP29": {
+      "gene": "ARHGAP29",
+      "pubmed_total": 89,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000137962",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:00:27.721325"
+    },
+    "ARHGAP40": {
+      "gene": "ARHGAP40",
+      "pubmed_total": 8,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000124143",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:00:30.624150"
+    },
+    "ARHGEF38": {
+      "gene": "ARHGEF38",
+      "pubmed_total": 16,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000236699",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:00:34.196718"
+    },
+    "ARL2BP": {
+      "gene": "ARL2BP",
+      "pubmed_total": 42,
+      "pubmed_centrosome": 8,
+      "ensembl": "ENSG00000102931",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:00:37.764130"
+    },
+    "ARL3": {
+      "gene": "ARL3",
+      "pubmed_total": 170,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000138175",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:00:39.336411"
+    },
+    "ARL9": {
+      "gene": "ARL9",
+      "pubmed_total": 9,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000196503",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:00:42.279292"
+    },
+    "ASAP1": {
+      "gene": "ASAP1",
+      "pubmed_total": 263,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000153317",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:00:44.249495"
+    },
+    "ATAD5": {
+      "gene": "ATAD5",
+      "pubmed_total": 68,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000176208",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:00:46.752323"
+    },
+    "ATF3": {
+      "gene": "ATF3",
+      "pubmed_total": 2774,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000162772",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:00:48.104252"
+    },
+    "ATG5": {
+      "gene": "ATG5",
+      "pubmed_total": 5905,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000057663",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:00:49.922354"
+    },
+    "ATP11B": {
+      "gene": "ATP11B",
+      "pubmed_total": 41,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000058063",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:00:51.856602"
+    },
+    "AUH": {
+      "gene": "AUH",
+      "pubmed_total": 1085,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000148090",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:00:53.867424"
+    },
+    "AUNIP": {
+      "gene": "AUNIP",
+      "pubmed_total": 25,
+      "pubmed_centrosome": 2,
+      "ensembl": "ENSG00000127423",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:00:57.263032"
+    },
+    "AVEN": {
+      "gene": "AVEN",
+      "pubmed_total": 1093,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000169857",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:00:59.201963"
+    },
+    "B9D2": {
+      "gene": "B9D2",
+      "pubmed_total": 24,
+      "pubmed_centrosome": 15,
+      "ensembl": "ENSG00000123810",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:01:02.059523"
+    },
+    "BAG2": {
+      "gene": "BAG2",
+      "pubmed_total": 300,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000112208",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:01:03.144050"
+    },
+    "BAG5": {
+      "gene": "BAG5",
+      "pubmed_total": 102,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000166170",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:01:05.658878"
+    },
+    "BBIP1": {
+      "gene": "BBIP1",
+      "pubmed_total": 12,
+      "pubmed_centrosome": 6,
+      "ensembl": "ENSG00000214413",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:01:08.096992"
+    },
+    "BBOF1": {
+      "gene": "BBOF1",
+      "pubmed_total": 4,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000119636",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:01:10.653563"
+    },
+    "BCAR3": {
+      "gene": "BCAR3",
+      "pubmed_total": 97,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000137936",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:01:13.303276"
+    },
+    "BCAS2": {
+      "gene": "BCAS2",
+      "pubmed_total": 52,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000116752",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:01:15.334226"
+    },
+    "BCO1": {
+      "gene": "BCO1",
+      "pubmed_total": 208,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000135697",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:01:16.689936"
+    },
+    "BEAN1": {
+      "gene": "BEAN1",
+      "pubmed_total": 24,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000166546",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:01:19.097101"
+    },
+    "BHLHE22": {
+      "gene": "BHLHE22",
+      "pubmed_total": 62,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000180828",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:01:21.337383"
+    },
+    "BICC1": {
+      "gene": "BICC1",
+      "pubmed_total": 132,
+      "pubmed_centrosome": 14,
+      "ensembl": "ENSG00000122870",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:01:25.028451"
+    },
+    "BIRC7": {
+      "gene": "BIRC7",
+      "pubmed_total": 286,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000101197",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:01:26.906400"
+    },
+    "BLTP1": {
+      "gene": "BLTP1",
+      "pubmed_total": 8,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000138688",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:01:29.409726"
+    },
+    "BRAF": {
+      "gene": "BRAF",
+      "pubmed_total": 28140,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000157764",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:01:30.844864"
+    },
+    "BRMS1": {
+      "gene": "BRMS1",
+      "pubmed_total": 227,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000174744",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:01:32.017029"
+    },
+    "BUD31": {
+      "gene": "BUD31",
+      "pubmed_total": 29,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000106245",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:01:35.124464"
+    },
+    "C11orf80": {
+      "gene": "C11orf80",
+      "pubmed_total": 7,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000173715",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:01:38.028049"
+    },
+    "C12orf73": {
+      "gene": "C12orf73",
+      "pubmed_total": 2,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000204954",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:01:40.788372"
+    },
+    "C16orf74": {
+      "gene": "C16orf74",
+      "pubmed_total": 16,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000154102",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:01:43.438653"
+    },
+    "C16orf96": {
+      "gene": "C16orf96",
+      "pubmed_total": 3,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000205832",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:01:45.713572"
+    },
+    "C19orf54": {
+      "gene": "C19orf54",
+      "pubmed_total": 3,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000188493",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:01:48.505051"
+    },
+    "C1QTNF2": {
+      "gene": "C1QTNF2",
+      "pubmed_total": 12,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000145861",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:01:51.440172"
+    },
+    "C1orf146": {
+      "gene": "C1orf146",
+      "pubmed_total": 0,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000203910",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:01:54.003843"
+    },
+    "C20orf96": {
+      "gene": "C20orf96",
+      "pubmed_total": 2,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000196476",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:01:56.510775"
+    },
+    "C2CD3": {
+      "gene": "C2CD3",
+      "pubmed_total": 42,
+      "pubmed_centrosome": 32,
+      "ensembl": "ENSG00000168014",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:01:59.540442"
+    },
+    "C2CD5": {
+      "gene": "C2CD5",
+      "pubmed_total": 11,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000111731",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:02:02.433509"
+    },
+    "C2orf74": {
+      "gene": "C2orf74",
+      "pubmed_total": 7,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000237651",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:02:05.313031"
+    },
+    "C3orf49": {
+      "gene": "C3orf49",
+      "pubmed_total": 0,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000163632",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:02:07.927950"
+    },
+    "C3orf56": {
+      "gene": "C3orf56",
+      "pubmed_total": 1,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000214324",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:02:10.928725"
+    },
+    "C5orf58": {
+      "gene": "C5orf58",
+      "pubmed_total": 2,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000234511",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:02:14.085195"
+    },
+    "C9orf40": {
+      "gene": "C9orf40",
+      "pubmed_total": 3,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000135045",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:02:16.656243"
+    },
+    "CABCOCO1": {
+      "gene": "CABCOCO1",
+      "pubmed_total": 2,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000183346",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:02:19.229497"
+    },
+    "CALCR": {
+      "gene": "CALCR",
+      "pubmed_total": 196,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000004948",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:02:20.696498"
+    },
+    "CALML6": {
+      "gene": "CALML6",
+      "pubmed_total": 18,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000169885",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:02:23.027394"
+    },
+    "CAMK2N2": {
+      "gene": "CAMK2N2",
+      "pubmed_total": 25,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000163888",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:02:25.191068"
+    },
+    "CAPN6": {
+      "gene": "CAPN6",
+      "pubmed_total": 44,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000077274",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:02:27.740245"
+    },
+    "CAPN7": {
+      "gene": "CAPN7",
+      "pubmed_total": 24,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000131375",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:02:29.540509"
+    },
+    "CAPRIN1": {
+      "gene": "CAPRIN1",
+      "pubmed_total": 203,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000135387",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:02:30.949504"
+    },
+    "CAPRIN2": {
+      "gene": "CAPRIN2",
+      "pubmed_total": 38,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000110888",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:02:34.082980"
+    },
+    "CAPS2": {
+      "gene": "CAPS2",
+      "pubmed_total": 990,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000180881",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:02:36.938062"
+    },
+    "CASP8": {
+      "gene": "CASP8",
+      "pubmed_total": 6012,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000064012",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:02:38.467713"
+    },
+    "CBY1": {
+      "gene": "CBY1",
+      "pubmed_total": 63,
+      "pubmed_centrosome": 14,
+      "ensembl": "ENSG00000100211",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:02:41.444996"
+    },
+    "CCDC13": {
+      "gene": "CCDC13",
+      "pubmed_total": 9,
+      "pubmed_centrosome": 3,
+      "ensembl": "ENSG00000244607",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:02:45.049156"
+    },
+    "CCDC32": {
+      "gene": "CCDC32",
+      "pubmed_total": 13,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000128891",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:02:48.183147"
+    },
+    "CCDC39": {
+      "gene": "CCDC39",
+      "pubmed_total": 93,
+      "pubmed_centrosome": 53,
+      "ensembl": "ENSG00000284862",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:02:50.954968"
+    },
+    "CCDC51": {
+      "gene": "CCDC51",
+      "pubmed_total": 9,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000164051",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:02:53.618115"
+    },
+    "CCDC57": {
+      "gene": "CCDC57",
+      "pubmed_total": 21,
+      "pubmed_centrosome": 5,
+      "ensembl": "ENSG00000176155",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:02:57.897915"
+    },
+    "CCDC65": {
+      "gene": "CCDC65",
+      "pubmed_total": 20,
+      "pubmed_centrosome": 11,
+      "ensembl": "ENSG00000139537",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:03:01.141264"
+    },
+    "CCDC66": {
+      "gene": "CCDC66",
+      "pubmed_total": 42,
+      "pubmed_centrosome": 8,
+      "ensembl": "ENSG00000180376",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:03:05.313937"
+    },
+    "CCDC74A": {
+      "gene": "CCDC74A",
+      "pubmed_total": 3,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000163040",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:03:08.119104"
+    },
+    "CCDC74B": {
+      "gene": "CCDC74B",
+      "pubmed_total": 2,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000152076",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:03:11.257669"
+    },
+    "CCDC88A": {
+      "gene": "CCDC88A",
+      "pubmed_total": 212,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000115355",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:03:12.686884"
+    },
+    "CCDC88B": {
+      "gene": "CCDC88B",
+      "pubmed_total": 23,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000168071",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:03:16.375688"
+    },
+    "CCDC92": {
+      "gene": "CCDC92",
+      "pubmed_total": 31,
+      "pubmed_centrosome": 2,
+      "ensembl": "ENSG00000119242",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:03:21.292891"
+    },
+    "CCNF": {
+      "gene": "CCNF",
+      "pubmed_total": 239,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000162063",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:03:22.867035"
+    },
+    "CCNO": {
+      "gene": "CCNO",
+      "pubmed_total": 165,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000152669",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:03:24.904100"
+    },
+    "CD163L1": {
+      "gene": "CD163L1",
+      "pubmed_total": 28,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000177675",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:03:28.571936"
+    },
+    "CD226": {
+      "gene": "CD226",
+      "pubmed_total": 589,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000150637",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:03:30.431295"
+    },
+    "CD2AP": {
+      "gene": "CD2AP",
+      "pubmed_total": 657,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000198087",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:03:31.925398"
+    },
+    "CD86": {
+      "gene": "CD86",
+      "pubmed_total": 13986,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000114013",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:03:33.306898"
+    },
+    "CDC45": {
+      "gene": "CDC45",
+      "pubmed_total": 696,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000093009",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:03:34.331514"
+    },
+    "CDIP1": {
+      "gene": "CDIP1",
+      "pubmed_total": 26,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000089486",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:03:36.822107"
+    },
+    "CDK2": {
+      "gene": "CDK2",
+      "pubmed_total": 10029,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000123374",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:03:38.223641"
+    },
+    "CDK5RAP2": {
+      "gene": "CDK5RAP2",
+      "pubmed_total": 208,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000136861",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:03:39.737710"
+    },
+    "CDKL2": {
+      "gene": "CDKL2",
+      "pubmed_total": 38,
+      "pubmed_centrosome": 3,
+      "ensembl": "ENSG00000138769",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:03:42.709897"
+    },
+    "CDKN1B": {
+      "gene": "CDKN1B",
+      "pubmed_total": 3176,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000111276",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:03:44.523519"
+    },
+    "CENPJ": {
+      "gene": "CENPJ",
+      "pubmed_total": 131,
+      "pubmed_centrosome": 90,
+      "ensembl": "ENSG00000151849",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:03:48.040867"
+    },
+    "CENPU": {
+      "gene": "CENPU",
+      "pubmed_total": 76,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000151725",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:03:51.695289"
+    },
+    "CEP112": {
+      "gene": "CEP112",
+      "pubmed_total": 17,
+      "pubmed_centrosome": 5,
+      "ensembl": "ENSG00000154240",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:03:54.782903"
+    },
+    "CEP128": {
+      "gene": "CEP128",
+      "pubmed_total": 22,
+      "pubmed_centrosome": 7,
+      "ensembl": "ENSG00000100629",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:03:58.520224"
+    },
+    "CEP131": {
+      "gene": "CEP131",
+      "pubmed_total": 54,
+      "pubmed_centrosome": 41,
+      "ensembl": "ENSG00000141577",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:04:02.295620"
+    },
+    "CEP152": {
+      "gene": "CEP152",
+      "pubmed_total": 99,
+      "pubmed_centrosome": 76,
+      "ensembl": "ENSG00000103995",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:04:05.414006"
+    },
+    "CEP162": {
+      "gene": "CEP162",
+      "pubmed_total": 16,
+      "pubmed_centrosome": 9,
+      "ensembl": "ENSG00000135315",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:04:08.924672"
+    },
+    "CEP164": {
+      "gene": "CEP164",
+      "pubmed_total": 106,
+      "pubmed_centrosome": 88,
+      "ensembl": "ENSG00000110274",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:04:12.963018"
+    },
+    "CEP170": {
+      "gene": "CEP170",
+      "pubmed_total": 69,
+      "pubmed_centrosome": 37,
+      "ensembl": "ENSG00000143702",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:04:17.946275"
+    },
+    "CEP170B": {
+      "gene": "CEP170B",
+      "pubmed_total": 3,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000099814",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:04:21.631164"
+    },
+    "CEP19": {
+      "gene": "CEP19",
+      "pubmed_total": 20,
+      "pubmed_centrosome": 13,
+      "ensembl": "ENSG00000174007",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:04:25.827954"
+    },
+    "CEP20": {
+      "gene": "CEP20",
+      "pubmed_total": 16,
+      "pubmed_centrosome": 9,
+      "ensembl": "ENSG00000133393",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:04:28.741571"
+    },
+    "CEP250": {
+      "gene": "CEP250",
+      "pubmed_total": 69,
+      "pubmed_centrosome": 44,
+      "ensembl": "ENSG00000126001",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:04:32.152790"
+    },
+    "CEP290": {
+      "gene": "CEP290",
+      "pubmed_total": 438,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000198707",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:04:33.819857"
+    },
+    "CEP350": {
+      "gene": "CEP350",
+      "pubmed_total": 32,
+      "pubmed_centrosome": 22,
+      "ensembl": "ENSG00000135837",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:04:37.430660"
+    },
+    "CEP43": {
+      "gene": "CEP43",
+      "pubmed_total": 26,
+      "pubmed_centrosome": 6,
+      "ensembl": "ENSG00000213066",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:04:40.393031"
+    },
+    "CEP55": {
+      "gene": "CEP55",
+      "pubmed_total": 371,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000138180",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:04:41.476789"
+    },
+    "CEP57": {
+      "gene": "CEP57",
+      "pubmed_total": 52,
+      "pubmed_centrosome": 23,
+      "ensembl": "ENSG00000166037",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:04:43.287221"
+    },
+    "CEP63": {
+      "gene": "CEP63",
+      "pubmed_total": 54,
+      "pubmed_centrosome": 45,
+      "ensembl": "ENSG00000182923",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:04:45.303599"
+    },
+    "CEP68": {
+      "gene": "CEP68",
+      "pubmed_total": 32,
+      "pubmed_centrosome": 18,
+      "ensembl": "ENSG00000011523",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:04:47.423313"
+    },
+    "CEP70": {
+      "gene": "CEP70",
+      "pubmed_total": 26,
+      "pubmed_centrosome": 18,
+      "ensembl": "ENSG00000114107",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:04:49.306374"
+    },
+    "CEP85": {
+      "gene": "CEP85",
+      "pubmed_total": 10,
+      "pubmed_centrosome": 6,
+      "ensembl": "ENSG00000130695",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:04:51.918172"
+    },
+    "CEP89": {
+      "gene": "CEP89",
+      "pubmed_total": 25,
+      "pubmed_centrosome": 17,
+      "ensembl": "ENSG00000121289",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:04:54.081184"
+    },
+    "CEP95": {
+      "gene": "CEP95",
+      "pubmed_total": 8,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000258890",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:04:56.911372"
+    },
+    "CETN3": {
+      "gene": "CETN3",
+      "pubmed_total": 39,
+      "pubmed_centrosome": 16,
+      "ensembl": "ENSG00000153140",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:05:00.046492"
+    },
+    "CFAP298": {
+      "gene": "CFAP298",
+      "pubmed_total": 12,
+      "pubmed_centrosome": 9,
+      "ensembl": "ENSG00000159079",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:05:03.466002"
+    },
+    "CFAP300": {
+      "gene": "CFAP300",
+      "pubmed_total": 16,
+      "pubmed_centrosome": 10,
+      "ensembl": "ENSG00000137691",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:05:06.849015"
+    },
+    "CFAP418": {
+      "gene": "CFAP418",
+      "pubmed_total": 16,
+      "pubmed_centrosome": 5,
+      "ensembl": "ENSG00000156172",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:05:10.838525"
+    },
+    "CFAP52": {
+      "gene": "CFAP52",
+      "pubmed_total": 17,
+      "pubmed_centrosome": 11,
+      "ensembl": "ENSG00000166596",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:05:13.667740"
+    },
+    "CFAP70": {
+      "gene": "CFAP70",
+      "pubmed_total": 17,
+      "pubmed_centrosome": 8,
+      "ensembl": "ENSG00000156042",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:05:18.003672"
+    },
+    "CHD3": {
+      "gene": "CHD3",
+      "pubmed_total": 295,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000170004",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:05:20.256919"
+    },
+    "CHMP1A": {
+      "gene": "CHMP1A",
+      "pubmed_total": 67,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000131165",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:05:23.132857"
+    },
+    "CHODL": {
+      "gene": "CHODL",
+      "pubmed_total": 34,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000154645",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:05:27.181202"
+    },
+    "CHPF": {
+      "gene": "CHPF",
+      "pubmed_total": 109,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000123989",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:05:28.907133"
+    },
+    "CHST15": {
+      "gene": "CHST15",
+      "pubmed_total": 82,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000182022",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:05:32.641750"
+    },
+    "CIB2": {
+      "gene": "CIB2",
+      "pubmed_total": 100,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000136425",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:05:36.025026"
+    },
+    "CIP2A": {
+      "gene": "CIP2A",
+      "pubmed_total": 418,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000163507",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:05:37.761255"
+    },
+    "CKAP2": {
+      "gene": "CKAP2",
+      "pubmed_total": 94,
+      "pubmed_centrosome": 8,
+      "ensembl": "ENSG00000136108",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:05:41.333376"
+    },
+    "CKAP5": {
+      "gene": "CKAP5",
+      "pubmed_total": 172,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000175216",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:05:43.825648"
+    },
+    "CLEC11A": {
+      "gene": "CLEC11A",
+      "pubmed_total": 84,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000105472",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:05:46.969161"
+    },
+    "CLHC1": {
+      "gene": "CLHC1",
+      "pubmed_total": 5,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000162994",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:05:49.951106"
+    },
+    "CLIC4": {
+      "gene": "CLIC4",
+      "pubmed_total": 213,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000169504",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:05:51.479725"
+    },
+    "CLRN1": {
+      "gene": "CLRN1",
+      "pubmed_total": 103,
+      "pubmed_centrosome": 3,
+      "ensembl": "ENSG00000163646",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:05:53.886199"
+    },
+    "CLTC": {
+      "gene": "CLTC",
+      "pubmed_total": 249,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000141367",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:05:54.903242"
+    },
+    "CNOT10": {
+      "gene": "CNOT10",
+      "pubmed_total": 18,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000182973",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:05:56.629717"
+    },
+    "CNTLN": {
+      "gene": "CNTLN",
+      "pubmed_total": 20,
+      "pubmed_centrosome": 5,
+      "ensembl": "ENSG00000044459",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:05:59.053676"
+    },
+    "CNTRL": {
+      "gene": "CNTRL",
+      "pubmed_total": 88,
+      "pubmed_centrosome": 11,
+      "ensembl": "ENSG00000119397",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:06:01.133266"
+    },
+    "CNTROB": {
+      "gene": "CNTROB",
+      "pubmed_total": 31,
+      "pubmed_centrosome": 22,
+      "ensembl": "ENSG00000170037",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:06:03.744159"
+    },
+    "CPA4": {
+      "gene": "CPA4",
+      "pubmed_total": 74,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000128510",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:06:07.084182"
+    },
+    "CPE": {
+      "gene": "CPE",
+      "pubmed_total": 10097,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000109472",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:06:08.632752"
+    },
+    "CRACDL": {
+      "gene": "CRACDL",
+      "pubmed_total": 0,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000196872",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:06:11.178495"
+    },
+    "CREB1": {
+      "gene": "CREB1",
+      "pubmed_total": 3673,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000118260",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:06:12.709488"
+    },
+    "CREB3": {
+      "gene": "CREB3",
+      "pubmed_total": 254,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000107175",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:06:14.259679"
+    },
+    "CRIP1": {
+      "gene": "CRIP1",
+      "pubmed_total": 150,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000213145",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:06:17.377990"
+    },
+    "CRMP1": {
+      "gene": "CRMP1",
+      "pubmed_total": 182,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000072832",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:06:19.166680"
+    },
+    "CROCC": {
+      "gene": "CROCC",
+      "pubmed_total": 54,
+      "pubmed_centrosome": 38,
+      "ensembl": "ENSG00000058453",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:06:21.936035"
+    },
+    "CSPP1": {
+      "gene": "CSPP1",
+      "pubmed_total": 54,
+      "pubmed_centrosome": 22,
+      "ensembl": "ENSG00000104218",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:06:24.468137"
+    },
+    "CTNNBL1": {
+      "gene": "CTNNBL1",
+      "pubmed_total": 48,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000132792",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:06:27.346557"
+    },
+    "CUEDC1": {
+      "gene": "CUEDC1",
+      "pubmed_total": 14,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000180891",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:06:29.581753"
+    },
+    "CYB5B": {
+      "gene": "CYB5B",
+      "pubmed_total": 32,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000103018",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:06:32.754234"
+    },
+    "CYLD": {
+      "gene": "CYLD",
+      "pubmed_total": 977,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000083799",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:06:34.005905"
+    },
+    "CYTH4": {
+      "gene": "CYTH4",
+      "pubmed_total": 25,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000100055",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:06:37.121057"
+    },
+    "DAPK1": {
+      "gene": "DAPK1",
+      "pubmed_total": 800,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000196730",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:06:38.592395"
+    },
+    "DCAF13": {
+      "gene": "DCAF13",
+      "pubmed_total": 51,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000164934",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:06:42.120903"
+    },
+    "DCC": {
+      "gene": "DCC",
+      "pubmed_total": 5557,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000187323",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:06:43.740564"
+    },
+    "DCDC2": {
+      "gene": "DCDC2",
+      "pubmed_total": 173,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000146038",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:06:44.920276"
+    },
+    "DCTN2": {
+      "gene": "DCTN2",
+      "pubmed_total": 112,
+      "pubmed_centrosome": 12,
+      "ensembl": "ENSG00000175203",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:06:47.400991"
+    },
+    "DCTN4": {
+      "gene": "DCTN4",
+      "pubmed_total": 21,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000132912",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:06:49.883313"
+    },
+    "DDHD2": {
+      "gene": "DDHD2",
+      "pubmed_total": 75,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000085788",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:06:53.080623"
+    },
+    "DDX59": {
+      "gene": "DDX59",
+      "pubmed_total": 16,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000118197",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:06:55.125247"
+    },
+    "DDX60": {
+      "gene": "DDX60",
+      "pubmed_total": 103,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000137628",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:06:58.884108"
+    },
+    "DENND1C": {
+      "gene": "DENND1C",
+      "pubmed_total": 13,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000205744",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:07:01.419522"
+    },
+    "DHRS1": {
+      "gene": "DHRS1",
+      "pubmed_total": 13,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000157379",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:07:03.908360"
+    },
+    "DHX35": {
+      "gene": "DHX35",
+      "pubmed_total": 26,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000101452",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:07:06.004506"
+    },
+    "DIS3L": {
+      "gene": "DIS3L",
+      "pubmed_total": 16,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000166938",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:07:08.453092"
+    },
+    "DLG4": {
+      "gene": "DLG4",
+      "pubmed_total": 2026,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000132535",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:07:09.805494"
+    },
+    "DMBT1": {
+      "gene": "DMBT1",
+      "pubmed_total": 480,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000187908",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:07:11.735792"
+    },
+    "DMRT2": {
+      "gene": "DMRT2",
+      "pubmed_total": 140,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000173253",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:07:13.901149"
+    },
+    "DNAH12": {
+      "gene": "DNAH12",
+      "pubmed_total": 21,
+      "pubmed_centrosome": 5,
+      "ensembl": "ENSG00000174844",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:07:18.196694"
+    },
+    "DNAH14": {
+      "gene": "DNAH14",
+      "pubmed_total": 21,
+      "pubmed_centrosome": 3,
+      "ensembl": "ENSG00000185842",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:07:21.491688"
+    },
+    "DNAH6": {
+      "gene": "DNAH6",
+      "pubmed_total": 38,
+      "pubmed_centrosome": 8,
+      "ensembl": "ENSG00000115423",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:07:24.600811"
+    },
+    "DNAJA4": {
+      "gene": "DNAJA4",
+      "pubmed_total": 52,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000140403",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:07:28.016305"
+    },
+    "DNAJC28": {
+      "gene": "DNAJC28",
+      "pubmed_total": 9,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000177692",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:07:31.021540"
+    },
+    "DNAL1": {
+      "gene": "DNAL1",
+      "pubmed_total": 34,
+      "pubmed_centrosome": 9,
+      "ensembl": "ENSG00000119661",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:07:34.270836"
+    },
+    "DNAL4": {
+      "gene": "DNAL4",
+      "pubmed_total": 10,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000100246",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:07:37.225099"
+    },
+    "DPF2": {
+      "gene": "DPF2",
+      "pubmed_total": 71,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000133884",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:07:39.943689"
+    },
+    "DRD4": {
+      "gene": "DRD4",
+      "pubmed_total": 2036,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000069696",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:07:41.839236"
+    },
+    "DUSP21": {
+      "gene": "DUSP21",
+      "pubmed_total": 9,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000189037",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:07:45.194570"
+    },
+    "DVL3": {
+      "gene": "DVL3",
+      "pubmed_total": 293,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000161202",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:07:46.898687"
+    },
+    "DYNC1H1": {
+      "gene": "DYNC1H1",
+      "pubmed_total": 223,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000197102",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:07:48.647396"
+    },
+    "DYNC1I2": {
+      "gene": "DYNC1I2",
+      "pubmed_total": 17,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000077380",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:07:51.963625"
+    },
+    "DYNC1LI1": {
+      "gene": "DYNC1LI1",
+      "pubmed_total": 58,
+      "pubmed_centrosome": 6,
+      "ensembl": "ENSG00000144635",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:07:55.653822"
+    },
+    "DYNC1LI2": {
+      "gene": "DYNC1LI2",
+      "pubmed_total": 22,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000135720",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:07:58.664550"
+    },
+    "DYNC2I1": {
+      "gene": "DYNC2I1",
+      "pubmed_total": 14,
+      "pubmed_centrosome": 11,
+      "ensembl": "ENSG00000126870",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:08:01.335979"
+    },
+    "DYNC2I2": {
+      "gene": "DYNC2I2",
+      "pubmed_total": 5,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000119333",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:08:04.569791"
+    },
+    "DYRK1A": {
+      "gene": "DYRK1A",
+      "pubmed_total": 1122,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000157540",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:08:05.904594"
+    },
+    "DYSF": {
+      "gene": "DYSF",
+      "pubmed_total": 781,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000135636",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:08:07.778131"
+    },
+    "DZIP1": {
+      "gene": "DZIP1",
+      "pubmed_total": 66,
+      "pubmed_centrosome": 19,
+      "ensembl": "ENSG00000134874",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:08:09.815471"
+    },
+    "E2F1": {
+      "gene": "E2F1",
+      "pubmed_total": 5751,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000101412",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:08:11.239486"
+    },
+    "EDRF1": {
+      "gene": "EDRF1",
+      "pubmed_total": 11,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000107938",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:08:13.290163"
+    },
+    "EEF1AKMT3": {
+      "gene": "EEF1AKMT3",
+      "pubmed_total": 9,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000123427",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:08:15.343552"
+    },
+    "EID2": {
+      "gene": "EID2",
+      "pubmed_total": 15,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000176396",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:08:17.503513"
+    },
+    "ELP6": {
+      "gene": "ELP6",
+      "pubmed_total": 45,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000163832",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:08:19.716767"
+    },
+    "EMC6": {
+      "gene": "EMC6",
+      "pubmed_total": 24,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000127774",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:08:21.866311"
+    },
+    "EMSY": {
+      "gene": "EMSY",
+      "pubmed_total": 124,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000158636",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:08:24.367243"
+    },
+    "ENGASE": {
+      "gene": "ENGASE",
+      "pubmed_total": 118,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000167280",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:08:29.090285"
+    },
+    "ENKD1": {
+      "gene": "ENKD1",
+      "pubmed_total": 12,
+      "pubmed_centrosome": 5,
+      "ensembl": "ENSG00000124074",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:08:34.895785"
+    },
+    "ENSG00000144785": {
+      "gene": "ENSG00000144785",
+      "pubmed_total": 0,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000144785",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:08:39.232345"
+    },
+    "ENSG00000256514": {
+      "gene": "ENSG00000256514",
+      "pubmed_total": 0,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000256514",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:08:44.706361"
+    },
+    "ENSG00000268870": {
+      "gene": "ENSG00000268870",
+      "pubmed_total": 0,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000268870",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:08:49.006596"
+    },
+    "ENSG00000272772": {
+      "gene": "ENSG00000272772",
+      "pubmed_total": 0,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000272772",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:08:54.672403"
+    },
+    "ENSG00000272980": {
+      "gene": "ENSG00000272980",
+      "pubmed_total": 0,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000272980",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:09:01.544478"
+    },
+    "ENSG00000273217": {
+      "gene": "ENSG00000273217",
+      "pubmed_total": 0,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000273217",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:09:08.114318"
+    },
+    "ENSG00000274175": {
+      "gene": "ENSG00000274175",
+      "pubmed_total": 0,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000274175",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:09:14.586136"
+    },
+    "ENSG00000274792": {
+      "gene": "ENSG00000274792",
+      "pubmed_total": 0,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000274792",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:09:16.332127"
+    },
+    "ENSG00000275869": {
+      "gene": "ENSG00000275869",
+      "pubmed_total": 0,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000275869",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:09:18.016339"
+    },
+    "ENSG00000280571": {
+      "gene": "ENSG00000280571",
+      "pubmed_total": 0,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000280571",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:09:20.547008"
+    },
+    "ENSG00000285188": {
+      "gene": "ENSG00000285188",
+      "pubmed_total": 0,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000285188",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:09:22.979033"
+    },
+    "ENSG00000285837": {
+      "gene": "ENSG00000285837",
+      "pubmed_total": 0,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000285837",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:09:25.459133"
+    },
+    "ENSG00000288637": {
+      "gene": "ENSG00000288637",
+      "pubmed_total": 0,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000288637",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:09:27.909066"
+    },
+    "EP300": {
+      "gene": "EP300",
+      "pubmed_total": 2579,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000100393",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:09:29.272119"
+    },
+    "EPS8L2": {
+      "gene": "EPS8L2",
+      "pubmed_total": 28,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000177106",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:09:31.896179"
+    },
+    "ERC1": {
+      "gene": "ERC1",
+      "pubmed_total": 158,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000082805",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:09:33.327730"
+    },
+    "ERCC6L": {
+      "gene": "ERCC6L",
+      "pubmed_total": 80,
+      "pubmed_centrosome": 3,
+      "ensembl": "ENSG00000186871",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:09:38.275146"
+    },
+    "ERVV-1": {
+      "gene": "ERVV-1",
+      "pubmed_total": 2,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000269526",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:09:42.707730"
+    },
+    "ERVV-2": {
+      "gene": "ERVV-2",
+      "pubmed_total": 2,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000268964",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:09:47.231510"
+    },
+    "EXOC6": {
+      "gene": "EXOC6",
+      "pubmed_total": 23,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000138190",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:09:50.236802"
+    },
+    "EXTL1": {
+      "gene": "EXTL1",
+      "pubmed_total": 30,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000158008",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:09:55.507491"
+    },
+    "EYA3": {
+      "gene": "EYA3",
+      "pubmed_total": 112,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000158161",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:10:01.419319"
+    },
+    "FAM117B": {
+      "gene": "FAM117B",
+      "pubmed_total": 10,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000138439",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:10:06.785427"
+    },
+    "FAM161A": {
+      "gene": "FAM161A",
+      "pubmed_total": 72,
+      "pubmed_centrosome": 20,
+      "ensembl": "ENSG00000170264",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:10:12.836569"
+    },
+    "FAM184A": {
+      "gene": "FAM184A",
+      "pubmed_total": 6,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000111879",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:10:18.699148"
+    },
+    "FAM186B": {
+      "gene": "FAM186B",
+      "pubmed_total": 2,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000135436",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:10:23.379858"
+    },
+    "FAM241B": {
+      "gene": "FAM241B",
+      "pubmed_total": 5,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000171224",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:10:25.891155"
+    },
+    "FANCE": {
+      "gene": "FANCE",
+      "pubmed_total": 14094,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000112039",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:10:26.946259"
+    },
+    "FBF1": {
+      "gene": "FBF1",
+      "pubmed_total": 74,
+      "pubmed_centrosome": 22,
+      "ensembl": "ENSG00000188878",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:10:29.298261"
+    },
+    "FBXO21": {
+      "gene": "FBXO21",
+      "pubmed_total": 26,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000135108",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:10:31.341218"
+    },
+    "FBXO9": {
+      "gene": "FBXO9",
+      "pubmed_total": 39,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000112146",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:10:33.344268"
+    },
+    "FCHO2": {
+      "gene": "FCHO2",
+      "pubmed_total": 47,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000157107",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:10:34.961017"
+    },
+    "FCMR": {
+      "gene": "FCMR",
+      "pubmed_total": 92,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000162894",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:10:36.948421"
+    },
+    "FEZF2": {
+      "gene": "FEZF2",
+      "pubmed_total": 168,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000153266",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:10:37.952901"
+    },
+    "FGF11": {
+      "gene": "FGF11",
+      "pubmed_total": 94,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000161958",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:10:40.945837"
+    },
+    "FGF23": {
+      "gene": "FGF23",
+      "pubmed_total": 5543,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000118972",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:10:44.251311"
+    },
+    "FGFR1": {
+      "gene": "FGFR1",
+      "pubmed_total": 6275,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000077782",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:10:46.635519"
+    },
+    "FHDC1": {
+      "gene": "FHDC1",
+      "pubmed_total": 18,
+      "pubmed_centrosome": 3,
+      "ensembl": "ENSG00000137460",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:10:53.269220"
+    },
+    "FKBP11": {
+      "gene": "FKBP11",
+      "pubmed_total": 54,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000134285",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:10:58.527494"
+    },
+    "FLII": {
+      "gene": "FLII",
+      "pubmed_total": 366,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000177731",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:11:00.843691"
+    },
+    "FLT4": {
+      "gene": "FLT4",
+      "pubmed_total": 805,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000037280",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:11:05.948835"
+    },
+    "FNDC3A": {
+      "gene": "FNDC3A",
+      "pubmed_total": 32,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000102531",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:11:13.314110"
+    },
+    "FNIP2": {
+      "gene": "FNIP2",
+      "pubmed_total": 62,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000052795",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:11:18.518522"
+    },
+    "FNTB": {
+      "gene": "FNTB",
+      "pubmed_total": 39,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000257365",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:11:22.831515"
+    },
+    "FRMD4B": {
+      "gene": "FRMD4B",
+      "pubmed_total": 21,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000114541",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:11:28.897623"
+    },
+    "FRMD8": {
+      "gene": "FRMD8",
+      "pubmed_total": 24,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000126391",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:11:31.435647"
+    },
+    "G6PD": {
+      "gene": "G6PD",
+      "pubmed_total": 7591,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000160211",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:11:32.474503"
+    },
+    "GAPDHS": {
+      "gene": "GAPDHS",
+      "pubmed_total": 9481,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000105679",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:11:33.921912"
+    },
+    "GAS6": {
+      "gene": "GAS6",
+      "pubmed_total": 1360,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000183087",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:11:35.346377"
+    },
+    "GATD3": {
+      "gene": "GATD3",
+      "pubmed_total": 2,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000160221",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:11:37.718356"
+    },
+    "GINS4": {
+      "gene": "GINS4",
+      "pubmed_total": 51,
+      "pubmed_centrosome": 2,
+      "ensembl": "ENSG00000147536",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:11:40.181950"
+    },
+    "GKAP1": {
+      "gene": "GKAP1",
+      "pubmed_total": 12,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000165113",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:11:41.916079"
+    },
+    "GLI2": {
+      "gene": "GLI2",
+      "pubmed_total": 1685,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000074047",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:11:42.993067"
+    },
+    "GLP1R": {
+      "gene": "GLP1R",
+      "pubmed_total": 4569,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000112164",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:11:44.763979"
+    },
+    "GLT8D1": {
+      "gene": "GLT8D1",
+      "pubmed_total": 38,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000016864",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:11:48.088402"
+    },
+    "GNAI1": {
+      "gene": "GNAI1",
+      "pubmed_total": 178,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000127955",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:11:49.777931"
+    },
+    "GNAI3": {
+      "gene": "GNAI3",
+      "pubmed_total": 197,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000065135",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:11:51.452793"
+    },
+    "GNB5": {
+      "gene": "GNB5",
+      "pubmed_total": 161,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000069966",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:11:53.454856"
+    },
+    "GOLGA6A": {
+      "gene": "GOLGA6A",
+      "pubmed_total": 10,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000159289",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:11:56.263586"
+    },
+    "GOLGA6B": {
+      "gene": "GOLGA6B",
+      "pubmed_total": 0,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000215186",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:11:59.418188"
+    },
+    "GOLGA6C": {
+      "gene": "GOLGA6C",
+      "pubmed_total": 2,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000167195",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:12:02.507279"
+    },
+    "GOLGA6D": {
+      "gene": "GOLGA6D",
+      "pubmed_total": 0,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000140478",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:12:05.329981"
+    },
+    "GPAA1": {
+      "gene": "GPAA1",
+      "pubmed_total": 73,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000197858",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:12:08.701652"
+    },
+    "GPR162": {
+      "gene": "GPR162",
+      "pubmed_total": 19,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000250510",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:12:12.096730"
+    },
+    "GPR174": {
+      "gene": "GPR174",
+      "pubmed_total": 52,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000147138",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:12:14.582763"
+    },
+    "GPSM2": {
+      "gene": "GPSM2",
+      "pubmed_total": 156,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000121957",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:12:15.998855"
+    },
+    "GRAP": {
+      "gene": "GRAP",
+      "pubmed_total": 393,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000154016",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:12:17.836605"
+    },
+    "GRAPL": {
+      "gene": "GRAPL",
+      "pubmed_total": 3,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000189152",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:12:20.536924"
+    },
+    "GRB2": {
+      "gene": "GRB2",
+      "pubmed_total": 3894,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000177885",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:12:22.462205"
+    },
+    "GTSE1": {
+      "gene": "GTSE1",
+      "pubmed_total": 122,
+      "pubmed_centrosome": 2,
+      "ensembl": "ENSG00000075218",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:12:25.301557"
+    },
+    "GVQW3": {
+      "gene": "GVQW3",
+      "pubmed_total": 0,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000179240",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:12:28.971296"
+    },
+    "GYG2": {
+      "gene": "GYG2",
+      "pubmed_total": 31,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000056998",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:12:31.859287"
+    },
+    "HAUS1": {
+      "gene": "HAUS1",
+      "pubmed_total": 18,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000152240",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:12:34.620953"
+    },
+    "HAUS2": {
+      "gene": "HAUS2",
+      "pubmed_total": 3,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000137814",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:12:37.579699"
+    },
+    "HAUS6": {
+      "gene": "HAUS6",
+      "pubmed_total": 24,
+      "pubmed_centrosome": 7,
+      "ensembl": "ENSG00000147874",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:12:40.165400"
+    },
+    "HAUS7": {
+      "gene": "HAUS7",
+      "pubmed_total": 9,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000213397",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:12:42.732116"
+    },
+    "HDAC6": {
+      "gene": "HDAC6",
+      "pubmed_total": 3008,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000094631",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:12:44.184496"
+    },
+    "HIPK1": {
+      "gene": "HIPK1",
+      "pubmed_total": 93,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000163349",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:12:46.010856"
+    },
+    "HK2": {
+      "gene": "HK2",
+      "pubmed_total": 8271,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000159399",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:12:47.449296"
+    },
+    "HMMR": {
+      "gene": "HMMR",
+      "pubmed_total": 336,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000072571",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:12:48.694527"
+    },
+    "HMX3": {
+      "gene": "HMX3",
+      "pubmed_total": 53,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000188620",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:12:50.705135"
+    },
+    "HNMT": {
+      "gene": "HNMT",
+      "pubmed_total": 215,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000150540",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:12:52.171869"
+    },
+    "HOOK3": {
+      "gene": "HOOK3",
+      "pubmed_total": 59,
+      "pubmed_centrosome": 3,
+      "ensembl": "ENSG00000168172",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:12:53.908554"
+    },
+    "HORMAD2": {
+      "gene": "HORMAD2",
+      "pubmed_total": 53,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000176635",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:12:57.647397"
+    },
+    "HOXB4": {
+      "gene": "HOXB4",
+      "pubmed_total": 450,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000182742",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:12:59.507496"
+    },
+    "HSPA4L": {
+      "gene": "HSPA4L",
+      "pubmed_total": 79,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000164070",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:13:02.524457"
+    },
+    "HSPBP1": {
+      "gene": "HSPBP1",
+      "pubmed_total": 86,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000133265",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:13:05.850864"
+    },
+    "ID2": {
+      "gene": "ID2",
+      "pubmed_total": 1575,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000115738",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:13:07.028581"
+    },
+    "IFT43": {
+      "gene": "IFT43",
+      "pubmed_total": 42,
+      "pubmed_centrosome": 26,
+      "ensembl": "ENSG00000119650",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:13:09.350461"
+    },
+    "IFT57": {
+      "gene": "IFT57",
+      "pubmed_total": 67,
+      "pubmed_centrosome": 33,
+      "ensembl": "ENSG00000114446",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:13:12.096049"
+    },
+    "IFT74": {
+      "gene": "IFT74",
+      "pubmed_total": 59,
+      "pubmed_centrosome": 39,
+      "ensembl": "ENSG00000096872",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:13:16.636417"
+    },
+    "IFT81": {
+      "gene": "IFT81",
+      "pubmed_total": 56,
+      "pubmed_centrosome": 36,
+      "ensembl": "ENSG00000122970",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:13:20.618291"
+    },
+    "IFT88": {
+      "gene": "IFT88",
+      "pubmed_total": 473,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000032742",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:13:22.152892"
+    },
+    "IL1RN": {
+      "gene": "IL1RN",
+      "pubmed_total": 3783,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000136689",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:13:23.710995"
+    },
+    "IL4R": {
+      "gene": "IL4R",
+      "pubmed_total": 1419,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000077238",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:13:25.459861"
+    },
+    "ILRUN": {
+      "gene": "ILRUN",
+      "pubmed_total": 22,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000196821",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:13:28.100253"
+    },
+    "INPP1": {
+      "gene": "INPP1",
+      "pubmed_total": 36,
+      "pubmed_centrosome": 2,
+      "ensembl": "ENSG00000151689",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:13:31.614064"
+    },
+    "INPP4B": {
+      "gene": "INPP4B",
+      "pubmed_total": 302,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000109452",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:13:33.066178"
+    },
+    "INSR": {
+      "gene": "INSR",
+      "pubmed_total": 1927,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000171105",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:13:34.953341"
+    },
+    "INTS6L": {
+      "gene": "INTS6L",
+      "pubmed_total": 2,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000165359",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:13:37.792400"
+    },
+    "INVS": {
+      "gene": "INVS",
+      "pubmed_total": 852,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000119509",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:13:39.435324"
+    },
+    "IQSEC1": {
+      "gene": "IQSEC1",
+      "pubmed_total": 77,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000144711",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:13:42.318848"
+    },
+    "ISM2": {
+      "gene": "ISM2",
+      "pubmed_total": 795,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000100593",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:13:43.619678"
+    },
+    "ITGB6": {
+      "gene": "ITGB6",
+      "pubmed_total": 233,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000115221",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:13:45.128574"
+    },
+    "ITPRIPL2": {
+      "gene": "ITPRIPL2",
+      "pubmed_total": 3,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000205730",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:13:47.375029"
+    },
+    "IVL": {
+      "gene": "IVL",
+      "pubmed_total": 1903,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000163207",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:13:48.793269"
+    },
+    "JADE1": {
+      "gene": "JADE1",
+      "pubmed_total": 67,
+      "pubmed_centrosome": 4,
+      "ensembl": "ENSG00000077684",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:13:50.890575"
+    },
+    "KATNA1": {
+      "gene": "KATNA1",
+      "pubmed_total": 40,
+      "pubmed_centrosome": 7,
+      "ensembl": "ENSG00000186625",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:13:53.094819"
+    },
+    "KATNAL1": {
+      "gene": "KATNAL1",
+      "pubmed_total": 40,
+      "pubmed_centrosome": 4,
+      "ensembl": "ENSG00000102781",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:13:54.860717"
+    },
+    "KATNIP": {
+      "gene": "KATNIP",
+      "pubmed_total": 18,
+      "pubmed_centrosome": 11,
+      "ensembl": "ENSG00000047578",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:13:57.463274"
+    },
+    "KCNH5": {
+      "gene": "KCNH5",
+      "pubmed_total": 58,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000140015",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:13:59.802463"
+    },
+    "KCTD1": {
+      "gene": "KCTD1",
+      "pubmed_total": 53,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000134504",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:14:02.474589"
+    },
+    "KCTD16": {
+      "gene": "KCTD16",
+      "pubmed_total": 40,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000183775",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:14:05.256619"
+    },
+    "KCTD4": {
+      "gene": "KCTD4",
+      "pubmed_total": 6,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000180332",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:14:07.983477"
+    },
+    "KEAP1": {
+      "gene": "KEAP1",
+      "pubmed_total": 8849,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000079999",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:14:09.002085"
+    },
+    "KIAA0753": {
+      "gene": "KIAA0753",
+      "pubmed_total": 20,
+      "pubmed_centrosome": 11,
+      "ensembl": "ENSG00000198920",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:14:11.451189"
+    },
+    "KIF19": {
+      "gene": "KIF19",
+      "pubmed_total": 10,
+      "pubmed_centrosome": 2,
+      "ensembl": "ENSG00000196169",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:14:13.856896"
+    },
+    "KIF1A": {
+      "gene": "KIF1A",
+      "pubmed_total": 456,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000130294",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:14:15.532874"
+    },
+    "KIF20B": {
+      "gene": "KIF20B",
+      "pubmed_total": 73,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000138182",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:14:17.853441"
+    },
+    "KIF2A": {
+      "gene": "KIF2A",
+      "pubmed_total": 225,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000068796",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:14:19.727534"
+    },
+    "KIF2C": {
+      "gene": "KIF2C",
+      "pubmed_total": 390,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000142945",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:14:21.440265"
+    },
+    "KIF5B": {
+      "gene": "KIF5B",
+      "pubmed_total": 634,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000170759",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:14:24.327530"
+    },
+    "KIF6": {
+      "gene": "KIF6",
+      "pubmed_total": 92,
+      "pubmed_centrosome": 11,
+      "ensembl": "ENSG00000164627",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:14:27.094256"
+    },
+    "KIFC1": {
+      "gene": "KIFC1",
+      "pubmed_total": 251,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000237649",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:14:28.643737"
+    },
+    "KIRREL2": {
+      "gene": "KIRREL2",
+      "pubmed_total": 46,
+      "pubmed_centrosome": 2,
+      "ensembl": "ENSG00000126259",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:14:31.019144"
+    },
+    "KLC3": {
+      "gene": "KLC3",
+      "pubmed_total": 33,
+      "pubmed_centrosome": 3,
+      "ensembl": "ENSG00000104892",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:14:33.716616"
+    },
+    "KLHL12": {
+      "gene": "KLHL12",
+      "pubmed_total": 60,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000117153",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:14:36.141093"
+    },
+    "KLHL21": {
+      "gene": "KLHL21",
+      "pubmed_total": 17,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000162413",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:14:39.233852"
+    },
+    "KLHL30": {
+      "gene": "KLHL30",
+      "pubmed_total": 6,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000168427",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:14:41.909950"
+    },
+    "KLHL35": {
+      "gene": "KLHL35",
+      "pubmed_total": 17,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000149243",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:14:43.846078"
+    },
+    "KLHL4": {
+      "gene": "KLHL4",
+      "pubmed_total": 19,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000102271",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:14:46.469088"
+    },
+    "KLHL6": {
+      "gene": "KLHL6",
+      "pubmed_total": 57,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000172578",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:14:48.441457"
+    },
+    "KMT5B": {
+      "gene": "KMT5B",
+      "pubmed_total": 59,
+      "pubmed_centrosome": 4,
+      "ensembl": "ENSG00000110066",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:14:50.886154"
+    },
+    "KNSTRN": {
+      "gene": "KNSTRN",
+      "pubmed_total": 42,
+      "pubmed_centrosome": 2,
+      "ensembl": "ENSG00000128944",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:14:53.285187"
+    },
+    "KXD1": {
+      "gene": "KXD1",
+      "pubmed_total": 10,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000105700",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:14:55.379789"
+    },
+    "LAMP5": {
+      "gene": "LAMP5",
+      "pubmed_total": 59,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000125869",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:14:57.503477"
+    },
+    "LAS1L": {
+      "gene": "LAS1L",
+      "pubmed_total": 28,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000001497",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:14:59.584403"
+    },
+    "LATS2": {
+      "gene": "LATS2",
+      "pubmed_total": 731,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000150457",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:15:02.200974"
+    },
+    "LCA5": {
+      "gene": "LCA5",
+      "pubmed_total": 64,
+      "pubmed_centrosome": 13,
+      "ensembl": "ENSG00000135338",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:15:04.904881"
+    },
+    "LEO1": {
+      "gene": "LEO1",
+      "pubmed_total": 93,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000166477",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:15:07.570668"
+    },
+    "LEPROT": {
+      "gene": "LEPROT",
+      "pubmed_total": 54,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000213625",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:15:09.789262"
+    },
+    "LGI2": {
+      "gene": "LGI2",
+      "pubmed_total": 41,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000153012",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:15:12.169178"
+    },
+    "LGR4": {
+      "gene": "LGR4",
+      "pubmed_total": 419,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000205213",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:15:13.806936"
+    },
+    "LGR5": {
+      "gene": "LGR5",
+      "pubmed_total": 2512,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000139292",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:15:14.971195"
+    },
+    "LHCGR": {
+      "gene": "LHCGR",
+      "pubmed_total": 900,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000138039",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:15:16.878718"
+    },
+    "LINC02203": {
+      "gene": "LINC02203",
+      "pubmed_total": 1,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000280709",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:15:19.504888"
+    },
+    "LMF2": {
+      "gene": "LMF2",
+      "pubmed_total": 8,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000100258",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:15:22.009678"
+    },
+    "LMNTD1": {
+      "gene": "LMNTD1",
+      "pubmed_total": 3,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000152936",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:15:24.285145"
+    },
+    "LMTK2": {
+      "gene": "LMTK2",
+      "pubmed_total": 67,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000164715",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:15:27.033264"
+    },
+    "LONRF1": {
+      "gene": "LONRF1",
+      "pubmed_total": 8,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000154359",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:15:30.052095"
+    },
+    "LRIF1": {
+      "gene": "LRIF1",
+      "pubmed_total": 22,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000121931",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:15:32.625426"
+    },
+    "LRRC45": {
+      "gene": "LRRC45",
+      "pubmed_total": 14,
+      "pubmed_centrosome": 8,
+      "ensembl": "ENSG00000169683",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:15:34.925015"
+    },
+    "LRRC7": {
+      "gene": "LRRC7",
+      "pubmed_total": 52,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000033122",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:15:38.030936"
+    },
+    "LRRCC1": {
+      "gene": "LRRCC1",
+      "pubmed_total": 8,
+      "pubmed_centrosome": 4,
+      "ensembl": "ENSG00000133739",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:15:40.555949"
+    },
+    "LRRN1": {
+      "gene": "LRRN1",
+      "pubmed_total": 56,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000175928",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:15:43.615633"
+    },
+    "LTB": {
+      "gene": "LTB",
+      "pubmed_total": 2680,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000227507",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:15:45.479297"
+    },
+    "LUZP1": {
+      "gene": "LUZP1",
+      "pubmed_total": 35,
+      "pubmed_centrosome": 5,
+      "ensembl": "ENSG00000169641",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:15:48.465385"
+    },
+    "LY9": {
+      "gene": "LY9",
+      "pubmed_total": 165,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000122224",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:15:50.196903"
+    },
+    "LYST": {
+      "gene": "LYST",
+      "pubmed_total": 371,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000143669",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:15:52.530191"
+    },
+    "LZTR1": {
+      "gene": "LZTR1",
+      "pubmed_total": 295,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000099949",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:15:54.356361"
+    },
+    "MAGEB16": {
+      "gene": "MAGEB16",
+      "pubmed_total": 15,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000189023",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:15:57.020783"
+    },
+    "MAL": {
+      "gene": "MAL",
+      "pubmed_total": 55018,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000172005",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:15:58.489708"
+    },
+    "MAMLD1": {
+      "gene": "MAMLD1",
+      "pubmed_total": 98,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000013619",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:16:00.451634"
+    },
+    "MAP3K11": {
+      "gene": "MAP3K11",
+      "pubmed_total": 74,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000173327",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:16:02.720975"
+    },
+    "MAP3K13": {
+      "gene": "MAP3K13",
+      "pubmed_total": 65,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000073803",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:16:05.156116"
+    },
+    "MAP4K3": {
+      "gene": "MAP4K3",
+      "pubmed_total": 102,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000011566",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:16:07.889388"
+    },
+    "MAP7D3": {
+      "gene": "MAP7D3",
+      "pubmed_total": 18,
+      "pubmed_centrosome": 2,
+      "ensembl": "ENSG00000129680",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:16:10.354524"
+    },
+    "MAP9": {
+      "gene": "MAP9",
+      "pubmed_total": 41,
+      "pubmed_centrosome": 11,
+      "ensembl": "ENSG00000164114",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:16:12.252037"
+    },
+    "MAPK8IP3": {
+      "gene": "MAPK8IP3",
+      "pubmed_total": 130,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000138834",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:16:14.556272"
+    },
+    "MAPKAPK2": {
+      "gene": "MAPKAPK2",
+      "pubmed_total": 1041,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000162889",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:16:16.024010"
+    },
+    "MAPRE1": {
+      "gene": "MAPRE1",
+      "pubmed_total": 233,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000101367",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:16:17.172614"
+    },
+    "MATK": {
+      "gene": "MATK",
+      "pubmed_total": 1658,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000007264",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:16:18.413011"
+    },
+    "MCF2L2": {
+      "gene": "MCF2L2",
+      "pubmed_total": 5,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000053524",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:16:21.185345"
+    },
+    "MDH1": {
+      "gene": "MDH1",
+      "pubmed_total": 407,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000014641",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:16:22.835501"
+    },
+    "MDM1": {
+      "gene": "MDM1",
+      "pubmed_total": 62,
+      "pubmed_centrosome": 6,
+      "ensembl": "ENSG00000111554",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:16:26.456711"
+    },
+    "MDM2": {
+      "gene": "MDM2",
+      "pubmed_total": 12970,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000135679",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:16:28.364614"
+    },
+    "MFAP1": {
+      "gene": "MFAP1",
+      "pubmed_total": 20,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000140259",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:16:31.696142"
+    },
+    "MGAT4C": {
+      "gene": "MGAT4C",
+      "pubmed_total": 18,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000182050",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:16:34.630710"
+    },
+    "MIB1": {
+      "gene": "MIB1",
+      "pubmed_total": 4666,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000101752",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:16:36.315737"
+    },
+    "MICALL1": {
+      "gene": "MICALL1",
+      "pubmed_total": 54,
+      "pubmed_centrosome": 5,
+      "ensembl": "ENSG00000100139",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:16:39.752483"
+    },
+    "MID1": {
+      "gene": "MID1",
+      "pubmed_total": 488,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000101871",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:16:41.591368"
+    },
+    "MKKS": {
+      "gene": "MKKS",
+      "pubmed_total": 335,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000125863",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:16:43.386608"
+    },
+    "MLF1": {
+      "gene": "MLF1",
+      "pubmed_total": 127,
+      "pubmed_centrosome": 2,
+      "ensembl": "ENSG00000178053",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:16:46.261252"
+    },
+    "MME": {
+      "gene": "MME",
+      "pubmed_total": 3507,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000196549",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:16:48.186169"
+    },
+    "MPDZ": {
+      "gene": "MPDZ",
+      "pubmed_total": 164,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000107186",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:16:49.676321"
+    },
+    "MPHOSPH9": {
+      "gene": "MPHOSPH9",
+      "pubmed_total": 26,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000051825",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:16:52.079471"
+    },
+    "MPP1": {
+      "gene": "MPP1",
+      "pubmed_total": 156,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000130830",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:16:54.159494"
+    },
+    "MT-ND4L": {
+      "gene": "MT-ND4L",
+      "pubmed_total": 33,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000212907",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:16:57.588186"
+    },
+    "MTHFR": {
+      "gene": "MTHFR",
+      "pubmed_total": 9095,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000177000",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:16:59.644619"
+    },
+    "MTMR11": {
+      "gene": "MTMR11",
+      "pubmed_total": 12,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000014914",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:17:02.878248"
+    },
+    "MTMR9": {
+      "gene": "MTMR9",
+      "pubmed_total": 31,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000104643",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:17:05.592269"
+    },
+    "MYO18B": {
+      "gene": "MYO18B",
+      "pubmed_total": 71,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000133454",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:17:08.752330"
+    },
+    "MYO5A": {
+      "gene": "MYO5A",
+      "pubmed_total": 369,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000197535",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:17:09.722410"
+    },
+    "MYOF": {
+      "gene": "MYOF",
+      "pubmed_total": 185,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000138119",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:17:11.175022"
+    },
+    "MZT2A": {
+      "gene": "MZT2A",
+      "pubmed_total": 14,
+      "pubmed_centrosome": 2,
+      "ensembl": "ENSG00000173272",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:17:14.168904"
+    },
+    "MZT2B": {
+      "gene": "MZT2B",
+      "pubmed_total": 6,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000152082",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:17:16.419843"
+    },
+    "N4BP3": {
+      "gene": "N4BP3",
+      "pubmed_total": 14,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000145911",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:17:18.153749"
+    },
+    "N6AMT1": {
+      "gene": "N6AMT1",
+      "pubmed_total": 41,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000156239",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:17:21.143271"
+    },
+    "NAA11": {
+      "gene": "NAA11",
+      "pubmed_total": 11,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000156269",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:17:24.806098"
+    },
+    "NAA40": {
+      "gene": "NAA40",
+      "pubmed_total": 29,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000110583",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:17:27.300081"
+    },
+    "NAE1": {
+      "gene": "NAE1",
+      "pubmed_total": 103,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000159593",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:17:30.087277"
+    },
+    "NCAPD2": {
+      "gene": "NCAPD2",
+      "pubmed_total": 57,
+      "pubmed_centrosome": 4,
+      "ensembl": "ENSG00000010292",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:17:32.338247"
+    },
+    "NDC80": {
+      "gene": "NDC80",
+      "pubmed_total": 692,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000080986",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:17:33.756391"
+    },
+    "NDRG2": {
+      "gene": "NDRG2",
+      "pubmed_total": 452,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000165795",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:17:35.288906"
+    },
+    "NEFH": {
+      "gene": "NEFH",
+      "pubmed_total": 1171,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000100285",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:17:37.206544"
+    },
+    "NEK1": {
+      "gene": "NEK1",
+      "pubmed_total": 256,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000137601",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:17:38.435796"
+    },
+    "NEK2": {
+      "gene": "NEK2",
+      "pubmed_total": 612,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000117650",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:17:39.896683"
+    },
+    "NEK6": {
+      "gene": "NEK6",
+      "pubmed_total": 177,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000119408",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:17:40.886754"
+    },
+    "NEUROD4": {
+      "gene": "NEUROD4",
+      "pubmed_total": 94,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000123307",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:17:42.689217"
+    },
+    "NFE2L2": {
+      "gene": "NFE2L2",
+      "pubmed_total": 13764,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000116044",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:17:44.079385"
+    },
+    "NIN": {
+      "gene": "NIN",
+      "pubmed_total": 3527,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000100503",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:17:45.667818"
+    },
+    "NIT2": {
+      "gene": "NIT2",
+      "pubmed_total": 212,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000114021",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:17:46.825564"
+    },
+    "NLRC3": {
+      "gene": "NLRC3",
+      "pubmed_total": 184,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000167984",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:17:48.645932"
+    },
+    "NLRC5": {
+      "gene": "NLRC5",
+      "pubmed_total": 401,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000140853",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:17:50.496441"
+    },
+    "NME9": {
+      "gene": "NME9",
+      "pubmed_total": 4,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000181322",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:17:53.661133"
+    },
+    "NMRK1": {
+      "gene": "NMRK1",
+      "pubmed_total": 26,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000106733",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:17:56.269577"
+    },
+    "NPTX2": {
+      "gene": "NPTX2",
+      "pubmed_total": 230,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000106236",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:17:57.692265"
+    },
+    "NR0B1": {
+      "gene": "NR0B1",
+      "pubmed_total": 691,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000169297",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:17:58.723921"
+    },
+    "NR6A1": {
+      "gene": "NR6A1",
+      "pubmed_total": 205,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000148200",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:18:00.138366"
+    },
+    "NUBP1": {
+      "gene": "NUBP1",
+      "pubmed_total": 41,
+      "pubmed_centrosome": 6,
+      "ensembl": "ENSG00000103274",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:18:02.422214"
+    },
+    "NUDT21": {
+      "gene": "NUDT21",
+      "pubmed_total": 112,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000167005",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:18:04.488341"
+    },
+    "NUDT5": {
+      "gene": "NUDT5",
+      "pubmed_total": 90,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000165609",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:18:07.283691"
+    },
+    "NUP107": {
+      "gene": "NUP107",
+      "pubmed_total": 193,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000111581",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:18:08.330007"
+    },
+    "OAS2": {
+      "gene": "OAS2",
+      "pubmed_total": 367,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000111335",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:18:09.781623"
+    },
+    "OAZ1": {
+      "gene": "OAZ1",
+      "pubmed_total": 98,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000104904",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:18:12.863848"
+    },
+    "OBSL1": {
+      "gene": "OBSL1",
+      "pubmed_total": 89,
+      "pubmed_centrosome": 4,
+      "ensembl": "ENSG00000124006",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:18:15.268898"
+    },
+    "OCRL": {
+      "gene": "OCRL",
+      "pubmed_total": 411,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000122126",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:18:16.712018"
+    },
+    "ODAD4": {
+      "gene": "ODAD4",
+      "pubmed_total": 10,
+      "pubmed_centrosome": 8,
+      "ensembl": "ENSG00000204815",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:18:19.736766"
+    },
+    "ODF2": {
+      "gene": "ODF2",
+      "pubmed_total": 152,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000136811",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:18:20.749608"
+    },
+    "OR4M2-OT1": {
+      "gene": "OR4M2-OT1",
+      "pubmed_total": 0,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000285472",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:18:23.616118"
+    },
+    "OR4N4": {
+      "gene": "OR4N4",
+      "pubmed_total": 4,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000183706",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:18:25.700255"
+    },
+    "OR4N4C": {
+      "gene": "OR4N4C",
+      "pubmed_total": 0,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000279408",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:18:28.087905"
+    },
+    "PACSIN2": {
+      "gene": "PACSIN2",
+      "pubmed_total": 113,
+      "pubmed_centrosome": 3,
+      "ensembl": "ENSG00000100266",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:18:29.884689"
+    },
+    "PAFAH1B1": {
+      "gene": "PAFAH1B1",
+      "pubmed_total": 504,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000007168",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:18:31.608840"
+    },
+    "PAOX": {
+      "gene": "PAOX",
+      "pubmed_total": 81,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000148832",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:18:34.166787"
+    },
+    "PATJ": {
+      "gene": "PATJ",
+      "pubmed_total": 145,
+      "pubmed_centrosome": 5,
+      "ensembl": "ENSG00000132849",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:18:37.549407"
+    },
+    "PCDH9": {
+      "gene": "PCDH9",
+      "pubmed_total": 122,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000184226",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:18:40.162916"
+    },
+    "PCDHB15": {
+      "gene": "PCDHB15",
+      "pubmed_total": 5,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000113248",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:18:42.954065"
+    },
+    "PCLAF": {
+      "gene": "PCLAF",
+      "pubmed_total": 132,
+      "pubmed_centrosome": 2,
+      "ensembl": "ENSG00000166803",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:18:46.072757"
+    },
+    "PCNT": {
+      "gene": "PCNT",
+      "pubmed_total": 259,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000160299",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:18:48.321758"
+    },
+    "PDCD6IP": {
+      "gene": "PDCD6IP",
+      "pubmed_total": 328,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000170248",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:18:49.967942"
+    },
+    "PDCL2": {
+      "gene": "PDCL2",
+      "pubmed_total": 1091,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000163440",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:18:51.335071"
+    },
+    "PDE11A": {
+      "gene": "PDE11A",
+      "pubmed_total": 215,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000128655",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:18:53.064420"
+    },
+    "PDE4C": {
+      "gene": "PDE4C",
+      "pubmed_total": 134,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000105650",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:18:55.586145"
+    },
+    "PDIA6": {
+      "gene": "PDIA6",
+      "pubmed_total": 176,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000143870",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:18:57.456341"
+    },
+    "PEAR1": {
+      "gene": "PEAR1",
+      "pubmed_total": 129,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000187800",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:19:00.289821"
+    },
+    "PELI1": {
+      "gene": "PELI1",
+      "pubmed_total": 196,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000197329",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:19:02.326178"
+    },
+    "PELI2": {
+      "gene": "PELI2",
+      "pubmed_total": 30,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000139946",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:19:05.338046"
+    },
+    "PGBD4": {
+      "gene": "PGBD4",
+      "pubmed_total": 4,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000182405",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:19:07.861917"
+    },
+    "PHLPP2": {
+      "gene": "PHLPP2",
+      "pubmed_total": 217,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000040199",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:19:09.159784"
+    },
+    "PIAS4": {
+      "gene": "PIAS4",
+      "pubmed_total": 197,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000105229",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:19:11.043506"
+    },
+    "PIBF1": {
+      "gene": "PIBF1",
+      "pubmed_total": 139,
+      "pubmed_centrosome": 6,
+      "ensembl": "ENSG00000083535",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:19:13.708750"
+    },
+    "PIK3C2G": {
+      "gene": "PIK3C2G",
+      "pubmed_total": -1,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000139144",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:19:16.160115"
+    },
+    "PIK3R5": {
+      "gene": "PIK3R5",
+      "pubmed_total": 84,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000141506",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:19:20.048149"
+    },
+    "PINLYP": {
+      "gene": "PINLYP",
+      "pubmed_total": 6,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000234465",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:19:22.819416"
+    },
+    "PKN2": {
+      "gene": "PKN2",
+      "pubmed_total": 118,
+      "pubmed_centrosome": 2,
+      "ensembl": "ENSG00000065243",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:19:26.162898"
+    },
+    "PLAG1": {
+      "gene": "PLAG1",
+      "pubmed_total": 623,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000181690",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:19:27.317587"
+    },
+    "PLCB4": {
+      "gene": "PLCB4",
+      "pubmed_total": 201,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000101333",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:19:28.774873"
+    },
+    "PLEKHA4": {
+      "gene": "PLEKHA4",
+      "pubmed_total": 20,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000105559",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:19:30.739889"
+    },
+    "PLEKHG6": {
+      "gene": "PLEKHG6",
+      "pubmed_total": 19,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000008323",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:19:33.260267"
+    },
+    "PLEKHG7": {
+      "gene": "PLEKHG7",
+      "pubmed_total": 3,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000187510",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:19:35.723935"
+    },
+    "PLEKHH1": {
+      "gene": "PLEKHH1",
+      "pubmed_total": 5,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000054690",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:19:37.349525"
+    },
+    "PLEKHS1": {
+      "gene": "PLEKHS1",
+      "pubmed_total": 25,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000148735",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:19:39.757024"
+    },
+    "PLVAP": {
+      "gene": "PLVAP",
+      "pubmed_total": 207,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000130300",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:19:41.138469"
+    },
+    "PLXNA1": {
+      "gene": "PLXNA1",
+      "pubmed_total": 199,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000114554",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:19:42.695538"
+    },
+    "PNMA5": {
+      "gene": "PNMA5",
+      "pubmed_total": 14,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000198883",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:19:45.319311"
+    },
+    "PNPLA7": {
+      "gene": "PNPLA7",
+      "pubmed_total": 29,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000130653",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:19:49.408334"
+    },
+    "PODXL": {
+      "gene": "PODXL",
+      "pubmed_total": 872,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000128567",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:19:50.781086"
+    },
+    "POFUT1": {
+      "gene": "POFUT1",
+      "pubmed_total": 166,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000101346",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:19:52.370021"
+    },
+    "POLD4": {
+      "gene": "POLD4",
+      "pubmed_total": 61,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000175482",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:19:54.989272"
+    },
+    "POLR3H": {
+      "gene": "POLR3H",
+      "pubmed_total": 13,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000100413",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:19:57.900334"
+    },
+    "PPARA": {
+      "gene": "PPARA",
+      "pubmed_total": 1702,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000186951",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:20:00.010645"
+    },
+    "PPP4R3B": {
+      "gene": "PPP4R3B",
+      "pubmed_total": 5,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000275052",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:20:02.338048"
+    },
+    "PRICKLE4": {
+      "gene": "PRICKLE4",
+      "pubmed_total": 6,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000278224",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:20:05.624634"
+    },
+    "PRKAR2A": {
+      "gene": "PRKAR2A",
+      "pubmed_total": 149,
+      "pubmed_centrosome": 7,
+      "ensembl": "ENSG00000114302",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:20:09.101855"
+    },
+    "PRKAR2B": {
+      "gene": "PRKAR2B",
+      "pubmed_total": -1,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000005249",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:20:10.483954"
+    },
+    "PRKCQ": {
+      "gene": "PRKCQ",
+      "pubmed_total": 822,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000065675",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:20:12.062234"
+    },
+    "PRPF6": {
+      "gene": "PRPF6",
+      "pubmed_total": 57,
+      "pubmed_centrosome": 5,
+      "ensembl": "ENSG00000101161",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:20:15.106448"
+    },
+    "PRR32": {
+      "gene": "PRR32",
+      "pubmed_total": 6,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000183631",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:20:17.555985"
+    },
+    "PSMA1": {
+      "gene": "PSMA1",
+      "pubmed_total": 115,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000129084",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:20:19.968876"
+    },
+    "PSMB5": {
+      "gene": "PSMB5",
+      "pubmed_total": 233,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000100804",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:20:22.049532"
+    },
+    "PSMD2": {
+      "gene": "PSMD2",
+      "pubmed_total": 178,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000175166",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:20:23.427861"
+    },
+    "PSMD5": {
+      "gene": "PSMD5",
+      "pubmed_total": 18,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000095261",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:20:26.217758"
+    },
+    "PTPN20": {
+      "gene": "PTPN20",
+      "pubmed_total": 9,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000204179",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:20:29.370020"
+    },
+    "PTPN23": {
+      "gene": "PTPN23",
+      "pubmed_total": 75,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000076201",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:20:32.665840"
+    },
+    "PURG": {
+      "gene": "PURG",
+      "pubmed_total": 60,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000172733",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:20:34.709544"
+    },
+    "PXK": {
+      "gene": "PXK",
+      "pubmed_total": 58,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000168297",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:20:36.903975"
+    },
+    "PXN": {
+      "gene": "PXN",
+      "pubmed_total": 1201,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000089159",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:20:38.600479"
+    },
+    "QRSL1": {
+      "gene": "QRSL1",
+      "pubmed_total": 12,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000130348",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:20:40.898660"
+    },
+    "RAB11A": {
+      "gene": "RAB11A",
+      "pubmed_total": 576,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000103769",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:20:41.941518"
+    },
+    "RAB11B": {
+      "gene": "RAB11B",
+      "pubmed_total": 147,
+      "pubmed_centrosome": 3,
+      "ensembl": "ENSG00000185236",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:20:44.762746"
+    },
+    "RAB11FIP3": {
+      "gene": "RAB11FIP3",
+      "pubmed_total": 53,
+      "pubmed_centrosome": 7,
+      "ensembl": "ENSG00000090565",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:20:47.711368"
+    },
+    "RAB11FIP5": {
+      "gene": "RAB11FIP5",
+      "pubmed_total": 42,
+      "pubmed_centrosome": 2,
+      "ensembl": "ENSG00000135631",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:20:50.135478"
+    },
+    "RAB15": {
+      "gene": "RAB15",
+      "pubmed_total": 41,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000139998",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:20:54.002618"
+    },
+    "RAB23": {
+      "gene": "RAB23",
+      "pubmed_total": 158,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000112210",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:20:56.213838"
+    },
+    "RAB26": {
+      "gene": "RAB26",
+      "pubmed_total": 65,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000167964",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:20:59.401828"
+    },
+    "RAB34": {
+      "gene": "RAB34",
+      "pubmed_total": 86,
+      "pubmed_centrosome": 14,
+      "ensembl": "ENSG00000109113",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:21:02.918091"
+    },
+    "RAB3A": {
+      "gene": "RAB3A",
+      "pubmed_total": 715,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000105649",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:21:04.693027"
+    },
+    "RAB3IL1": {
+      "gene": "RAB3IL1",
+      "pubmed_total": 17,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000167994",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:21:07.109660"
+    },
+    "RAB3IP": {
+      "gene": "RAB3IP",
+      "pubmed_total": 35,
+      "pubmed_centrosome": 7,
+      "ensembl": "ENSG00000127328",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:21:10.398825"
+    },
+    "RAB8A": {
+      "gene": "RAB8A",
+      "pubmed_total": 396,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000167461",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:21:12.047190"
+    },
+    "RABL2A": {
+      "gene": "RABL2A",
+      "pubmed_total": 19,
+      "pubmed_centrosome": 5,
+      "ensembl": "ENSG00000144134",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:21:14.974876"
+    },
+    "RABL2B": {
+      "gene": "RABL2B",
+      "pubmed_total": 20,
+      "pubmed_centrosome": 2,
+      "ensembl": "ENSG00000079974",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:21:17.768244"
+    },
+    "RABL6": {
+      "gene": "RABL6",
+      "pubmed_total": 26,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000196642",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:21:21.267182"
+    },
+    "RAPGEF6": {
+      "gene": "RAPGEF6",
+      "pubmed_total": 36,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000158987",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:21:24.830040"
+    },
+    "RAPSN": {
+      "gene": "RAPSN",
+      "pubmed_total": 111,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000165917",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:21:27.727853"
+    },
+    "RASSF7": {
+      "gene": "RASSF7",
+      "pubmed_total": 45,
+      "pubmed_centrosome": 4,
+      "ensembl": "ENSG00000099849",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:21:30.934186"
+    },
+    "RBM39": {
+      "gene": "RBM39",
+      "pubmed_total": 144,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000131051",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:21:34.274584"
+    },
+    "RFPL4A": {
+      "gene": "RFPL4A",
+      "pubmed_total": 6,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000223638",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:21:37.916894"
+    },
+    "RFPL4AL1": {
+      "gene": "RFPL4AL1",
+      "pubmed_total": 0,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000229292",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:21:40.666155"
+    },
+    "RGL4": {
+      "gene": "RGL4",
+      "pubmed_total": 11,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000159496",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:21:43.285807"
+    },
+    "RHEBL1": {
+      "gene": "RHEBL1",
+      "pubmed_total": 33,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000167550",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:21:45.780598"
+    },
+    "RILPL1": {
+      "gene": "RILPL1",
+      "pubmed_total": 44,
+      "pubmed_centrosome": 9,
+      "ensembl": "ENSG00000188026",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:21:47.892479"
+    },
+    "RIMKLB": {
+      "gene": "RIMKLB",
+      "pubmed_total": 22,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000166532",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:21:50.324366"
+    },
+    "RIOK3": {
+      "gene": "RIOK3",
+      "pubmed_total": 58,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000101782",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:21:52.721444"
+    },
+    "RLBP1": {
+      "gene": "RLBP1",
+      "pubmed_total": 113,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000140522",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:21:55.349632"
+    },
+    "RMDN1": {
+      "gene": "RMDN1",
+      "pubmed_total": 7,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000176623",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:21:57.580215"
+    },
+    "RNF167": {
+      "gene": "RNF167",
+      "pubmed_total": 20,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000108523",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:22:00.070958"
+    },
+    "RNF39": {
+      "gene": "RNF39",
+      "pubmed_total": 45,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000204618",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:22:02.739752"
+    },
+    "RPP25": {
+      "gene": "RPP25",
+      "pubmed_total": 41,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000178718",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:22:05.833688"
+    },
+    "RRAGD": {
+      "gene": "RRAGD",
+      "pubmed_total": 67,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000025039",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:22:09.815551"
+    },
+    "RRM1": {
+      "gene": "RRM1",
+      "pubmed_total": 951,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000167325",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:22:11.140839"
+    },
+    "RSPH1": {
+      "gene": "RSPH1",
+      "pubmed_total": 43,
+      "pubmed_centrosome": 23,
+      "ensembl": "ENSG00000160188",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:22:14.745320"
+    },
+    "RTTN": {
+      "gene": "RTTN",
+      "pubmed_total": 38,
+      "pubmed_centrosome": 19,
+      "ensembl": "ENSG00000176225",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:22:18.414784"
+    },
+    "RUNDC3B": {
+      "gene": "RUNDC3B",
+      "pubmed_total": 19,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000105784",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:22:21.233609"
+    },
+    "RUVBL2": {
+      "gene": "RUVBL2",
+      "pubmed_total": 279,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000183207",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:22:22.914559"
+    },
+    "S100Z": {
+      "gene": "S100Z",
+      "pubmed_total": 22,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000171643",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:22:26.281498"
+    },
+    "SATB2": {
+      "gene": "SATB2",
+      "pubmed_total": 1019,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000119042",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:22:28.203445"
+    },
+    "SAXO2": {
+      "gene": "SAXO2",
+      "pubmed_total": 6,
+      "pubmed_centrosome": 3,
+      "ensembl": "ENSG00000188659",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:22:31.373921"
+    },
+    "SDCCAG8": {
+      "gene": "SDCCAG8",
+      "pubmed_total": -1,
+      "pubmed_centrosome": 21,
+      "ensembl": "ENSG00000054282",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:22:32.880612"
+    },
+    "SEMA4D": {
+      "gene": "SEMA4D",
+      "pubmed_total": 539,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000187764",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:22:34.522066"
+    },
+    "SENP7": {
+      "gene": "SENP7",
+      "pubmed_total": 81,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000138468",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:22:38.012388"
+    },
+    "SERINC5": {
+      "gene": "SERINC5",
+      "pubmed_total": 140,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000164300",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:22:41.519647"
+    },
+    "SERPINB6": {
+      "gene": "SERPINB6",
+      "pubmed_total": 56,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000124570",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:22:44.388432"
+    },
+    "SFR1": {
+      "gene": "SFR1",
+      "pubmed_total": 67,
+      "pubmed_centrosome": 3,
+      "ensembl": "ENSG00000156384",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:22:47.259540"
+    },
+    "SH2B1": {
+      "gene": "SH2B1",
+      "pubmed_total": 291,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000178188",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:22:49.245943"
+    },
+    "SHD": {
+      "gene": "SHD",
+      "pubmed_total": 1145,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000105251",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:22:51.239892"
+    },
+    "SHTN1": {
+      "gene": "SHTN1",
+      "pubmed_total": 30,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000187164",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:22:53.938299"
+    },
+    "SIRPB1": {
+      "gene": "SIRPB1",
+      "pubmed_total": 55,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000101307",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:22:56.395919"
+    },
+    "SKA1": {
+      "gene": "SKA1",
+      "pubmed_total": 128,
+      "pubmed_centrosome": 5,
+      "ensembl": "ENSG00000154839",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:22:58.783568"
+    },
+    "SKA3": {
+      "gene": "SKA3",
+      "pubmed_total": 139,
+      "pubmed_centrosome": 6,
+      "ensembl": "ENSG00000165480",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:23:00.485410"
+    },
+    "SKP1": {
+      "gene": "SKP1",
+      "pubmed_total": 1787,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000113558",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:23:01.945490"
+    },
+    "SLAIN2": {
+      "gene": "SLAIN2",
+      "pubmed_total": 18,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000109171",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:23:04.055939"
+    },
+    "SLC18A2": {
+      "gene": "SLC18A2",
+      "pubmed_total": 822,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000165646",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:23:05.658741"
+    },
+    "SLC1A4": {
+      "gene": "SLC1A4",
+      "pubmed_total": 148,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000115902",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:23:07.347910"
+    },
+    "SLC1A5": {
+      "gene": "SLC1A5",
+      "pubmed_total": 759,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000105281",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:23:09.025038"
+    },
+    "SLC2A1": {
+      "gene": "SLC2A1",
+      "pubmed_total": 4091,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000117394",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:23:10.390867"
+    },
+    "SLC35A4": {
+      "gene": "SLC35A4",
+      "pubmed_total": 21,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000176087",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:23:12.964354"
+    },
+    "SLC35D3": {
+      "gene": "SLC35D3",
+      "pubmed_total": 19,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000182747",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:23:15.107337"
+    },
+    "SLC35F1": {
+      "gene": "SLC35F1",
+      "pubmed_total": 18,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000196376",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:23:17.020989"
+    },
+    "SLC8A3": {
+      "gene": "SLC8A3",
+      "pubmed_total": 124,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000100678",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:23:18.810015"
+    },
+    "SLC9A3R1": {
+      "gene": "SLC9A3R1",
+      "pubmed_total": 732,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000109062",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:23:19.914127"
+    },
+    "SMAD4": {
+      "gene": "SMAD4",
+      "pubmed_total": 6702,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000141646",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:23:21.468773"
+    },
+    "SMAD7": {
+      "gene": "SMAD7",
+      "pubmed_total": 3257,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000101665",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:23:22.981777"
+    },
+    "SMIM18": {
+      "gene": "SMIM18",
+      "pubmed_total": 0,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000253457",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:23:25.636491"
+    },
+    "SNAP29": {
+      "gene": "SNAP29",
+      "pubmed_total": 241,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000099940",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:23:26.827934"
+    },
+    "SNAP91": {
+      "gene": "SNAP91",
+      "pubmed_total": 223,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000065609",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:23:27.898297"
+    },
+    "SNCG": {
+      "gene": "SNCG",
+      "pubmed_total": 261,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000173267",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:23:29.572474"
+    },
+    "SNTB2": {
+      "gene": "SNTB2",
+      "pubmed_total": 15,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000168807",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:23:32.342906"
+    },
+    "SNX21": {
+      "gene": "SNX21",
+      "pubmed_total": 7,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000124104",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:23:35.607427"
+    },
+    "SORBS1": {
+      "gene": "SORBS1",
+      "pubmed_total": 116,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000095637",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:23:37.705781"
+    },
+    "SP6": {
+      "gene": "SP6",
+      "pubmed_total": 1839,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000189120",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:23:39.171493"
+    },
+    "SPAG9": {
+      "gene": "SPAG9",
+      "pubmed_total": 157,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000008294",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:23:40.337140"
+    },
+    "SPICE1": {
+      "gene": "SPICE1",
+      "pubmed_total": 10,
+      "pubmed_centrosome": 5,
+      "ensembl": "ENSG00000163611",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:23:42.828552"
+    },
+    "SPIN4": {
+      "gene": "SPIN4",
+      "pubmed_total": 17,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000186767",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:23:45.553939"
+    },
+    "SPPL2B": {
+      "gene": "SPPL2B",
+      "pubmed_total": 40,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000005206",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:23:48.687818"
+    },
+    "SRGAP1": {
+      "gene": "SRGAP1",
+      "pubmed_total": 73,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000196935",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:23:51.215678"
+    },
+    "SRGAP2": {
+      "gene": "SRGAP2",
+      "pubmed_total": 111,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000266028",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:23:53.949370"
+    },
+    "SRGAP2B": {
+      "gene": "SRGAP2B",
+      "pubmed_total": 7,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000196369",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:23:56.619058"
+    },
+    "SRGAP2C": {
+      "gene": "SRGAP2C",
+      "pubmed_total": 20,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000171943",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:23:59.084916"
+    },
+    "SRGAP3": {
+      "gene": "SRGAP3",
+      "pubmed_total": 74,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000196220",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:24:01.194378"
+    },
+    "SRRM5": {
+      "gene": "SRRM5",
+      "pubmed_total": 1,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000226763",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:24:03.845411"
+    },
+    "SSRP1": {
+      "gene": "SSRP1",
+      "pubmed_total": 283,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000149136",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:24:04.866860"
+    },
+    "SSX2IP": {
+      "gene": "SSX2IP",
+      "pubmed_total": 49,
+      "pubmed_centrosome": 16,
+      "ensembl": "ENSG00000117155",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:24:07.357429"
+    },
+    "ST7L": {
+      "gene": "ST7L",
+      "pubmed_total": 27,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000007341",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:24:09.044587"
+    },
+    "STEEP1": {
+      "gene": "STEEP1",
+      "pubmed_total": 7,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000018610",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:24:11.726006"
+    },
+    "STIL": {
+      "gene": "STIL",
+      "pubmed_total": 593,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000123473",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:24:13.239302"
+    },
+    "STK11": {
+      "gene": "STK11",
+      "pubmed_total": 3130,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000118046",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:24:15.330780"
+    },
+    "STK26": {
+      "gene": "STK26",
+      "pubmed_total": 71,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000134602",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:24:18.010061"
+    },
+    "STK32A": {
+      "gene": "STK32A",
+      "pubmed_total": 21,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000169302",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:24:21.300307"
+    },
+    "SYNJ1": {
+      "gene": "SYNJ1",
+      "pubmed_total": 180,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000159082",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:24:23.476162"
+    },
+    "TACC3": {
+      "gene": "TACC3",
+      "pubmed_total": 475,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000013810",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:24:25.314800"
+    },
+    "TACR1": {
+      "gene": "TACR1",
+      "pubmed_total": 207,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000115353",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:24:26.944584"
+    },
+    "TAF1D": {
+      "gene": "TAF1D",
+      "pubmed_total": 14,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000166012",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:24:29.874160"
+    },
+    "TAP1": {
+      "gene": "TAP1",
+      "pubmed_total": 1713,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000168394",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:24:31.375723"
+    },
+    "TAPT1": {
+      "gene": "TAPT1",
+      "pubmed_total": 22,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000169762",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:24:34.427105"
+    },
+    "TBC1D31": {
+      "gene": "TBC1D31",
+      "pubmed_total": 6,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000156787",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:24:37.170255"
+    },
+    "TBC1D8": {
+      "gene": "TBC1D8",
+      "pubmed_total": 15,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000204634",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:24:39.505758"
+    },
+    "TBX15": {
+      "gene": "TBX15",
+      "pubmed_total": 133,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000092607",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:24:42.094507"
+    },
+    "TCEA2": {
+      "gene": "TCEA2",
+      "pubmed_total": 13,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000171703",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:24:43.712773"
+    },
+    "TCHP": {
+      "gene": "TCHP",
+      "pubmed_total": 113,
+      "pubmed_centrosome": 9,
+      "ensembl": "ENSG00000139437",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:24:47.100447"
+    },
+    "TDRKH": {
+      "gene": "TDRKH",
+      "pubmed_total": 48,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000182134",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:24:50.080968"
+    },
+    "TECPR2": {
+      "gene": "TECPR2",
+      "pubmed_total": 208,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000196663",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:24:51.911198"
+    },
+    "TEK": {
+      "gene": "TEK",
+      "pubmed_total": 2507,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000120156",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:24:53.730717"
+    },
+    "TEX12": {
+      "gene": "TEX12",
+      "pubmed_total": 31,
+      "pubmed_centrosome": 2,
+      "ensembl": "ENSG00000150783",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:24:55.786986"
+    },
+    "TEX9": {
+      "gene": "TEX9",
+      "pubmed_total": 7,
+      "pubmed_centrosome": 2,
+      "ensembl": "ENSG00000151575",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:24:59.371122"
+    },
+    "TGFB3": {
+      "gene": "TGFB3",
+      "pubmed_total": 2999,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000119699",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:25:01.475880"
+    },
+    "TGIF2": {
+      "gene": "TGIF2",
+      "pubmed_total": 116,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000118707",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:25:04.968088"
+    },
+    "THAP6": {
+      "gene": "THAP6",
+      "pubmed_total": 2,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000174796",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:25:07.517088"
+    },
+    "THBS2": {
+      "gene": "THBS2",
+      "pubmed_total": 515,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000186340",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:25:08.866427"
+    },
+    "TLN1": {
+      "gene": "TLN1",
+      "pubmed_total": 404,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000137076",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:25:10.216059"
+    },
+    "TMEM132C": {
+      "gene": "TMEM132C",
+      "pubmed_total": 24,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000181234",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:25:12.762618"
+    },
+    "TMEM170B": {
+      "gene": "TMEM170B",
+      "pubmed_total": 6,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000205269",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:25:15.103714"
+    },
+    "TMEM63A": {
+      "gene": "TMEM63A",
+      "pubmed_total": 52,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000196187",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:25:16.757684"
+    },
+    "TMEM63C": {
+      "gene": "TMEM63C",
+      "pubmed_total": 17,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000165548",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:25:18.851230"
+    },
+    "TMEM86B": {
+      "gene": "TMEM86B",
+      "pubmed_total": 8,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000180089",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:25:20.466708"
+    },
+    "TNFAIP3": {
+      "gene": "TNFAIP3",
+      "pubmed_total": 2034,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000118503",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:25:21.916950"
+    },
+    "TP53TG3": {
+      "gene": "TP53TG3",
+      "pubmed_total": 4,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000183632",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:25:24.178552"
+    },
+    "TP53TG3B": {
+      "gene": "TP53TG3B",
+      "pubmed_total": 2,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000261509",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:25:27.195445"
+    },
+    "TP53TG3C": {
+      "gene": "TP53TG3C",
+      "pubmed_total": 1,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000205457",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:25:30.016944"
+    },
+    "TP53TG3D": {
+      "gene": "TP53TG3D",
+      "pubmed_total": 0,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000205456",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:25:33.454689"
+    },
+    "TP53TG3E": {
+      "gene": "TP53TG3E",
+      "pubmed_total": 0,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000275034",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:25:37.185098"
+    },
+    "TP53TG3F": {
+      "gene": "TP53TG3F",
+      "pubmed_total": 0,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000278848",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:25:40.399917"
+    },
+    "TP73": {
+      "gene": "TP73",
+      "pubmed_total": 1646,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000078900",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:25:42.067715"
+    },
+    "TRAF5": {
+      "gene": "TRAF5",
+      "pubmed_total": 299,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000082512",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:25:43.745833"
+    },
+    "TRAPPC14": {
+      "gene": "TRAPPC14",
+      "pubmed_total": 1,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000146826",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:25:46.966604"
+    },
+    "TRAT1": {
+      "gene": "TRAT1",
+      "pubmed_total": 77,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000163519",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:25:49.703218"
+    },
+    "TRIM15": {
+      "gene": "TRIM15",
+      "pubmed_total": 42,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000204610",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:25:52.743373"
+    },
+    "TRIM2": {
+      "gene": "TRIM2",
+      "pubmed_total": 93,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000109654",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:25:55.688625"
+    },
+    "TRIM34": {
+      "gene": "TRIM34",
+      "pubmed_total": 33,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000258659",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:25:58.330683"
+    },
+    "TRIM38": {
+      "gene": "TRIM38",
+      "pubmed_total": 66,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000112343",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:26:01.238758"
+    },
+    "TRIM46": {
+      "gene": "TRIM46",
+      "pubmed_total": 73,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000163462",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:26:04.021086"
+    },
+    "TRIM6-TRIM34": {
+      "gene": "TRIM6-TRIM34",
+      "pubmed_total": 0,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000258588",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:26:07.413693"
+    },
+    "TRPM1": {
+      "gene": "TRPM1",
+      "pubmed_total": 362,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000134160",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:26:09.133305"
+    },
+    "TRPV3": {
+      "gene": "TRPV3",
+      "pubmed_total": 643,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000167723",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:26:10.915985"
+    },
+    "TSEN2": {
+      "gene": "TSEN2",
+      "pubmed_total": 20,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000154743",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:26:12.953213"
+    },
+    "TSSK1B": {
+      "gene": "TSSK1B",
+      "pubmed_total": 17,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000212122",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:26:14.552548"
+    },
+    "TTC21B": {
+      "gene": "TTC21B",
+      "pubmed_total": 82,
+      "pubmed_centrosome": 41,
+      "ensembl": "ENSG00000123607",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:26:16.971301"
+    },
+    "TTC30A": {
+      "gene": "TTC30A",
+      "pubmed_total": 4,
+      "pubmed_centrosome": 4,
+      "ensembl": "ENSG00000197557",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:26:18.687661"
+    },
+    "TTC30B": {
+      "gene": "TTC30B",
+      "pubmed_total": 6,
+      "pubmed_centrosome": 3,
+      "ensembl": "ENSG00000196659",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:26:21.161240"
+    },
+    "TTC39A": {
+      "gene": "TTC39A",
+      "pubmed_total": 7,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000085831",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:26:23.481082"
+    },
+    "TTC6": {
+      "gene": "TTC6",
+      "pubmed_total": 9,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000139865",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:26:25.522204"
+    },
+    "TTI2": {
+      "gene": "TTI2",
+      "pubmed_total": 38,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000129696",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:26:28.078486"
+    },
+    "TUB": {
+      "gene": "TUB",
+      "pubmed_total": 2108,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000166402",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:26:29.212611"
+    },
+    "TUBG2": {
+      "gene": "TUBG2",
+      "pubmed_total": 17,
+      "pubmed_centrosome": 3,
+      "ensembl": "ENSG00000037042",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:26:31.458796"
+    },
+    "TUBGCP2": {
+      "gene": "TUBGCP2",
+      "pubmed_total": 29,
+      "pubmed_centrosome": 12,
+      "ensembl": "ENSG00000130640",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:26:34.092500"
+    },
+    "TUBGCP4": {
+      "gene": "TUBGCP4",
+      "pubmed_total": 25,
+      "pubmed_centrosome": 5,
+      "ensembl": "ENSG00000137822",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:26:37.696215"
+    },
+    "TUBGCP5": {
+      "gene": "TUBGCP5",
+      "pubmed_total": 53,
+      "pubmed_centrosome": 5,
+      "ensembl": "ENSG00000275835",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:26:41.104545"
+    },
+    "TWSG1": {
+      "gene": "TWSG1",
+      "pubmed_total": 66,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000128791",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:26:45.014603"
+    },
+    "TXLNA": {
+      "gene": "TXLNA",
+      "pubmed_total": 57,
+      "pubmed_centrosome": 2,
+      "ensembl": "ENSG00000084652",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:26:48.081716"
+    },
+    "TYSND1": {
+      "gene": "TYSND1",
+      "pubmed_total": 10,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000156521",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:26:51.091852"
+    },
+    "UBA3": {
+      "gene": "UBA3",
+      "pubmed_total": 86,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000144744",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:26:54.724212"
+    },
+    "UBE2Q1": {
+      "gene": "UBE2Q1",
+      "pubmed_total": 39,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000160714",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:26:57.666360"
+    },
+    "UBL3": {
+      "gene": "UBL3",
+      "pubmed_total": 35,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000122042",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:27:00.541188"
+    },
+    "UBR4": {
+      "gene": "UBR4",
+      "pubmed_total": 128,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000127481",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:27:02.908248"
+    },
+    "UBXN2A": {
+      "gene": "UBXN2A",
+      "pubmed_total": 19,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000173960",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:27:05.725617"
+    },
+    "UGP2": {
+      "gene": "UGP2",
+      "pubmed_total": 97,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000169764",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:27:08.877813"
+    },
+    "UNC5CL": {
+      "gene": "UNC5CL",
+      "pubmed_total": 15,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000124602",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:27:11.633497"
+    },
+    "USF3": {
+      "gene": "USF3",
+      "pubmed_total": 11,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000176542",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:27:14.497607"
+    },
+    "USP38": {
+      "gene": "USP38",
+      "pubmed_total": 61,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000170185",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:27:17.891310"
+    },
+    "UXT": {
+      "gene": "UXT",
+      "pubmed_total": 110,
+      "pubmed_centrosome": 2,
+      "ensembl": "ENSG00000126756",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:27:20.406586"
+    },
+    "VASH1": {
+      "gene": "VASH1",
+      "pubmed_total": 260,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000071246",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:27:21.854985"
+    },
+    "VCPIP1": {
+      "gene": "VCPIP1",
+      "pubmed_total": 38,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000175073",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:27:24.279672"
+    },
+    "VLDLR": {
+      "gene": "VLDLR",
+      "pubmed_total": 799,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000147852",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:27:25.327899"
+    },
+    "VPS37A": {
+      "gene": "VPS37A",
+      "pubmed_total": 51,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000155975",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:27:27.457396"
+    },
+    "VSIG10": {
+      "gene": "VSIG10",
+      "pubmed_total": 6,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000176834",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:27:29.429764"
+    },
+    "WAC": {
+      "gene": "WAC",
+      "pubmed_total": 1073,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000095787",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:27:30.992358"
+    },
+    "WASHC5": {
+      "gene": "WASHC5",
+      "pubmed_total": 53,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000164961",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:27:33.524081"
+    },
+    "WDR13": {
+      "gene": "WDR13",
+      "pubmed_total": 17,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000101940",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:27:36.306725"
+    },
+    "WDR19": {
+      "gene": "WDR19",
+      "pubmed_total": 73,
+      "pubmed_centrosome": 27,
+      "ensembl": "ENSG00000157796",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:27:38.418933"
+    },
+    "WDR54": {
+      "gene": "WDR54",
+      "pubmed_total": 13,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000005448",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:27:40.553182"
+    },
+    "WDR62": {
+      "gene": "WDR62",
+      "pubmed_total": 153,
+      "pubmed_centrosome": -1,
+      "ensembl": "ENSG00000075702",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:27:42.059842"
+    },
+    "WDR83": {
+      "gene": "WDR83",
+      "pubmed_total": 16,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000123154",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:27:44.120315"
+    },
+    "WDR90": {
+      "gene": "WDR90",
+      "pubmed_total": 14,
+      "pubmed_centrosome": 4,
+      "ensembl": "ENSG00000161996",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:27:46.347475"
+    },
+    "ZBED1": {
+      "gene": "ZBED1",
+      "pubmed_total": 24,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000214717",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:27:48.322308"
+    },
+    "ZBED6": {
+      "gene": "ZBED6",
+      "pubmed_total": 50,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000257315",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:27:50.303771"
+    },
+    "ZBTB24": {
+      "gene": "ZBTB24",
+      "pubmed_total": 61,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000112365",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:27:51.963034"
+    },
+    "ZFAND1": {
+      "gene": "ZFAND1",
+      "pubmed_total": 4,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000104231",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:27:53.960214"
+    },
+    "ZFP90": {
+      "gene": "ZFP90",
+      "pubmed_total": 28,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000184939",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:27:56.767268"
+    },
+    "ZMYM1": {
+      "gene": "ZMYM1",
+      "pubmed_total": 7,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000197056",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:27:59.203573"
+    },
+    "ZNF12": {
+      "gene": "ZNF12",
+      "pubmed_total": 10,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000164631",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:28:01.824234"
+    },
+    "ZNF121": {
+      "gene": "ZNF121",
+      "pubmed_total": 9,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000197961",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:28:04.448417"
+    },
+    "ZNF274": {
+      "gene": "ZNF274",
+      "pubmed_total": 19,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000171606",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:28:06.718114"
+    },
+    "ZNF280D": {
+      "gene": "ZNF280D",
+      "pubmed_total": 7,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000137871",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:28:08.705125"
+    },
+    "ZNF296": {
+      "gene": "ZNF296",
+      "pubmed_total": 11,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000170684",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:28:10.938452"
+    },
+    "ZNF322": {
+      "gene": "ZNF322",
+      "pubmed_total": -1,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000181315",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:28:12.155995"
+    },
+    "ZNF330": {
+      "gene": "ZNF330",
+      "pubmed_total": 10,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000109445",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:28:14.930247"
+    },
+    "ZNF365": {
+      "gene": "ZNF365",
+      "pubmed_total": 85,
+      "pubmed_centrosome": 4,
+      "ensembl": "ENSG00000138311",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:28:17.740368"
+    },
+    "ZNF408": {
+      "gene": "ZNF408",
+      "pubmed_total": 40,
+      "pubmed_centrosome": 1,
+      "ensembl": "ENSG00000175213",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:28:20.512413"
+    },
+    "ZNF443": {
+      "gene": "ZNF443",
+      "pubmed_total": 4,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000180855",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:28:23.324267"
+    },
+    "ZNF616": {
+      "gene": "ZNF616",
+      "pubmed_total": 1,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000204611",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:28:25.419694"
+    },
+    "ZNF620": {
+      "gene": "ZNF620",
+      "pubmed_total": 1,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000177842",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:28:27.206998"
+    },
+    "ZNF677": {
+      "gene": "ZNF677",
+      "pubmed_total": 16,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000197928",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:28:29.645696"
+    },
+    "ZNF701": {
+      "gene": "ZNF701",
+      "pubmed_total": 2,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000167562",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:28:31.712640"
+    },
+    "ZNF721": {
+      "gene": "ZNF721",
+      "pubmed_total": 7,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000182903",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:28:33.375293"
+    },
+    "ZNF747": {
+      "gene": "ZNF747",
+      "pubmed_total": 0,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000169955",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:28:35.902478"
+    },
+    "ZNF766": {
+      "gene": "ZNF766",
+      "pubmed_total": 1,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000196214",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:28:38.013663"
+    },
+    "ZNF780A": {
+      "gene": "ZNF780A",
+      "pubmed_total": 4,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000197782",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:28:39.722277"
+    },
+    "ZNF780B": {
+      "gene": "ZNF780B",
+      "pubmed_total": 3,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000128000",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:28:42.746417"
+    },
+    "ZNF799": {
+      "gene": "ZNF799",
+      "pubmed_total": 0,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000196466",
+      "source": "satellite",
+      "harvested_at": "2026-06-08T20:28:44.891451"
+    },
+    "ZSCAN10": {
+      "gene": "ZSCAN10",
+      "pubmed_total": 34,
+      "pubmed_centrosome": 0,
+      "ensembl": "ENSG00000130182",
+      "source": "centrosome",
+      "harvested_at": "2026-06-08T20:28:47.437852"
+    }
+  }
+}

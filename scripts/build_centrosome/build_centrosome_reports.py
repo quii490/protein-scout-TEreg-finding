@@ -59,7 +59,7 @@ def parse_evaluation(path):
 
     # Parse final score (may be outside table)
     for line in lines:
-        if 'Final centrosome score' in line or 'Final score' in line:
+        if 'Final centrosome score' in line or 'Final score' in line or 'final score' in line.lower():
             score_match = re.search(r'\*{0,2}(\d+)\s*/\s*100\*{0,2}', line)
             if score_match:
                 scores['final'] = float(score_match.group(1))
