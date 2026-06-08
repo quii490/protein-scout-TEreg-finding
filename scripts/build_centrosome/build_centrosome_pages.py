@@ -283,7 +283,7 @@ a:hover {{ text-decoration: underline; }}
     <div class="stats">
         <div class="stat-card">
             <div class="num">{len(records)}</div>
-            <div class="label">Pilot Genes Evaluated</div>
+            <div class="label">HPA 种子基因</div>
         </div>
         <div class="stat-card">
             <div class="num">{len(candidates)}</div>
@@ -313,8 +313,7 @@ a:hover {{ text-decoration: underline; }}
         <a href="protein_index.html">→ View full centrosome protein index</a>
     </p>
     <p style="margin-top:8px; color: var(--muted);">
-        Pilot built: {datetime.now().strftime('%Y-%m-%d')} ·
-        HPA seed: {len(records)} genes evaluated
+        Built: {datetime.now().strftime('%Y-%m-%d')} · HPA seed: {len(records)} genes evaluated
     </p>
 </div>
 </body>
@@ -326,33 +325,63 @@ a:hover {{ text-decoration: underline; }}
 
 
 def build_protein_index():
-    """Build the full centrosome protein table page."""
+    """Build the full centrosome protein table page with separated candidate/eliminated tables."""
     with open("centrosome/data/centrosome_report_index.json") as f:
         index = json.load(f)
 
-    records = sorted(index['records'], key=lambda r: r.get('final_centrosome_score', 0), reverse=True)
+    records = index['records']
+    candidates = sorted([r for r in records if 'eliminated' not in r.get('status','').lower()],
+                       key=lambda r: r.get('final_centrosome_score', 0), reverse=True)
+    eliminated = sorted([r for r in records if 'eliminated' in r.get('status','').lower()],
+                       key=lambda r: r.get('pubmed_display_count') or 0, reverse=True)
 
-    rows = '\n'.join(
+    def badge(r):
+        s = r.get('status','').lower()
+        return 'eliminated' if 'eliminated' in s else ('candidate' if 'candidate' in s else ('low-priority' if 'low' in s else 'manual-review'))
+
+    def src_label(r):
+        if r.get('source_both'): return '双来源'
+        if r.get('source_centrosome'): return '中心体'
+        if r.get('source_centriolar_satellite'): return '卫星'
+        return '-'
+
+    # Candidate rows
+    cand_rows = '\n'.join(
         f'<tr>'
         f'<td><a href="reports/{r["gene"]}.html">{r["gene"]}</a></td>'
-        f'<td><span class="badge badge-{"eliminated" if "eliminated" in r.get("status","").lower() else "candidate" if "candidate" in r.get("status","").lower() else "low-priority" if "low" in r.get("status","").lower() else "manual-review"}">{r["status"]}</span></td>'
-        f'<td>{r.get("final_centrosome_score", "-")}</td>'
+        f'<td class="name-cell">{r.get("protein_full_name","")[:60]}</td>'
+        f'<td><span class="badge badge-{badge(r)}">{r["status"]}</span></td>'
+        f'<td class="score-cell">{r.get("final_centrosome_score", "-")}</td>'
         f'<td>{r.get("centrosome_evidence_score", "-")}</td>'
-        f'<td>{r.get("te_relevance_score", "-")}</td>'
-        f'<td>{r.get("pubmed_score", "-")}</td>'
+        f'<td class="pubmed-cell">{r.get("pubmed_display_count", "-") if r.get("pubmed_display_count") is not None else "?"}</td>'
+        f'<td>{r.get("novelty_specificity_score", "-")}</td>'
         f'<td>{r.get("ppi_score", "-")}</td>'
         f'<td>{r.get("structure_domain_score", "-")}</td>'
-        f'<td>{r.get("novelty_specificity_score", "-")}</td>'
+        f'<td>{src_label(r)}</td>'
+        f'<td>{"✓" if r.get("has_hpa_seed") else "-"}</td>'
         f'</tr>'
-        for r in records
+        for r in candidates
+    )
+
+    elim_rows = '\n'.join(
+        f'<tr>'
+        f'<td><a href="reports/{r["gene"]}.html">{r["gene"]}</a></td>'
+        f'<td class="name-cell">{r.get("protein_full_name","")[:60]}</td>'
+        f'<td><span class="badge badge-eliminated">ELIMINATED</span></td>'
+        f'<td class="pubmed-cell">{r.get("pubmed_display_count", "-") if r.get("pubmed_display_count") is not None else "?"}</td>'
+        f'<td>PubMed &gt; 100</td>'
+        f'<td>{r.get("centrosome_evidence_score", "-")}</td>'
+        f'<td>{src_label(r)}</td>'
+        f'</tr>'
+        for r in eliminated
     )
 
     html = f"""<!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Centrosome Protein Index | Protein Scout</title>
+<title>中心体蛋白索引 | Protein Scout</title>
 <style>
 :root {{
   --bg: #fafafa; --fg: #1a1a1a; --accent: #7c3aed;
@@ -363,14 +392,16 @@ body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans
 .topbar {{ background: var(--accent); color: #fff; padding: 12px 24px; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 10; }}
 .topbar a {{ color: #fff; text-decoration: none; margin-left: 16px; opacity: 0.9; }}
 .topbar a:hover {{ opacity: 1; }}
-.container {{ max-width: 1200px; margin: 0 auto; padding: 24px; }}
+.container {{ max-width: 1300px; margin: 0 auto; padding: 24px; }}
 h1 {{ font-size: 1.5rem; margin: 16px 0; }}
+h2 {{ font-size: 1.2rem; margin: 24px 0 12px; border-bottom: 1px solid var(--border); padding-bottom: 6px; }}
 .controls {{ display: flex; gap: 12px; margin: 16px 0; flex-wrap: wrap; }}
-.controls input, .controls select {{ padding: 8px 12px; border: 1px solid var(--border); border-radius: 6px; font-size: 0.9rem; }}
-.controls input {{ flex: 1; min-width: 200px; }}
-table {{ width: 100%; border-collapse: collapse; margin: 16px 0; background: var(--card); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; font-size: 0.9rem; }}
-th {{ background: var(--accent); color: #fff; padding: 8px 10px; text-align: left; font-weight: 600; cursor: pointer; white-space: nowrap; }}
-th:hover {{ opacity: 0.9; }}
+.controls input {{ padding: 8px 12px; border: 1px solid var(--border); border-radius: 6px; font-size: 0.9rem; flex: 1; min-width: 200px; }}
+.tabs {{ display: flex; gap: 0; margin: 24px 0 0; }}
+.tab {{ padding: 10px 20px; border: 1px solid var(--border); border-bottom: none; background: var(--bg); cursor: pointer; font-weight: 600; border-radius: 6px 6px 0 0; }}
+.tab.active {{ background: var(--accent); color: #fff; border-color: var(--accent); }}
+table {{ width: 100%; border-collapse: collapse; margin: 0; background: var(--card); border: 1px solid var(--border); border-radius: 0 8px 8px 8px; overflow: hidden; font-size: 0.85rem; }}
+th {{ background: var(--accent); color: #fff; padding: 8px 10px; text-align: left; font-weight: 600; white-space: nowrap; }}
 td {{ padding: 8px 10px; border-bottom: 1px solid var(--border); }}
 tr:hover {{ background: var(--accent-light); }}
 .badge {{ display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 0.7rem; font-weight: 600; }}
@@ -381,70 +412,70 @@ tr:hover {{ background: var(--accent-light); }}
 a {{ color: var(--accent); text-decoration: none; }}
 a:hover {{ text-decoration: underline; }}
 .count {{ color: var(--muted); font-size: 0.9rem; }}
+.name-cell {{ max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--muted); font-size: 0.8rem; }}
+.score-cell {{ font-weight: 700; color: var(--accent); }}
+.pubmed-cell {{ text-align: center; }}
+.note {{ background: var(--accent-light); border-left: 4px solid var(--accent); padding: 12px 16px; margin: 12px 0; border-radius: 4px; font-size: 0.85rem; }}
 </style>
 </head>
 <body>
 <div class="topbar">
-    <strong>🧬 Centrosome Module — Protein Index</strong>
-    <div>
-        <a href="index.html">Home</a>
-    </div>
+    <strong>🧬 中心体模块 — 蛋白索引</strong>
+    <div><a href="index.html">首页</a></div>
 </div>
 <div class="container">
-    <h1>Centrosome Protein Index <span class="count">({len(records)} proteins)</span></h1>
-    <div class="controls">
-        <input type="text" id="search" placeholder="Search gene..." oninput="filterTable()">
-        <select id="statusFilter" onchange="filterTable()">
-            <option value="">All Statuses</option>
-            <option value="CANDIDATE">CENTROSOME_CANDIDATE</option>
-            <option value="LOW_PRIORITY">LOW_PRIORITY</option>
-            <option value="MANUAL_REVIEW">MANUAL_REVIEW</option>
-        </select>
+    <h1>中心体蛋白索引 <span class="count">({len(records)} 蛋白)</span></h1>
+
+    <div class="tabs">
+        <div class="tab active" onclick="showTab('candidates')">候选蛋白 ({len(candidates)})</div>
+        <div class="tab" onclick="showTab('eliminated')">已淘汰 ({len(eliminated)})</div>
     </div>
-    <table id="proteinTable">
-        <thead>
-            <tr>
-                <th onclick="sortTable(0)">Gene</th>
-                <th onclick="sortTable(1)">Status</th>
-                <th onclick="sortTable(2)">Score</th>
-                <th onclick="sortTable(3)">Centrosome</th>
-                <th onclick="sortTable(4)">TE</th>
-                <th onclick="sortTable(5)">PubMed</th>
-                <th onclick="sortTable(6)">PPI</th>
-                <th onclick="sortTable(7)">Structure</th>
-                <th onclick="sortTable(8)">Novelty</th>
-            </tr>
-        </thead>
-        <tbody>
-{rows}
-        </tbody>
+
+    <div class="controls">
+        <input type="text" id="search" placeholder="搜索基因名..." oninput="filterCurrentTable()">
+    </div>
+
+    <!-- CANDIDATES TABLE -->
+    <div id="tab-candidates">
+    <table id="candidateTable">
+        <thead><tr>
+            <th>Gene</th><th>蛋白全名</th><th>状态</th><th>评分</th>
+            <th>中心体证据</th><th>PubMed</th><th>新颖性</th>
+            <th>PPI</th><th>结构</th><th>来源</th><th>IF</th>
+        </tr></thead>
+        <tbody>{cand_rows}</tbody>
     </table>
+    </div>
+
+    <!-- ELIMINATED TABLE -->
+    <div id="tab-eliminated" style="display:none">
+    <div class="note">⚠️ ELIMINATED 仅表示 PubMed&gt;100 或不适合当前中心体候选优先级，不代表生物学无关。</div>
+    <table id="eliminatedTable">
+        <thead><tr>
+            <th>Gene</th><th>蛋白全名</th><th>状态</th><th>PubMed</th>
+            <th>淘汰原因</th><th>中心体证据</th><th>来源</th>
+        </tr></thead>
+        <tbody>{elim_rows}</tbody>
+    </table>
+    </div>
 </div>
 <script>
-function filterTable() {{
-    const search = document.getElementById('search').value.toLowerCase();
-    const status = document.getElementById('statusFilter').value;
-    const rows = document.querySelectorAll('#proteinTable tbody tr');
-    rows.forEach(row => {{
-        const gene = row.cells[0].textContent.toLowerCase();
-        const st = row.cells[1].textContent;
-        const matchSearch = gene.includes(search);
-        const matchStatus = !status || st.includes(status);
-        row.style.display = (matchSearch && matchStatus) ? '' : 'none';
-    }});
+let activeTab = 'candidates';
+function showTab(tab) {{
+    activeTab = tab;
+    document.getElementById('tab-candidates').style.display = tab === 'candidates' ? '' : 'none';
+    document.getElementById('tab-eliminated').style.display = tab === 'eliminated' ? '' : 'none';
+    document.querySelectorAll('.tab').forEach(function(t) {{ t.classList.remove('active'); }});
+    if (tab === 'candidates') document.querySelectorAll('.tab')[0].classList.add('active');
+    else document.querySelectorAll('.tab')[1].classList.add('active');
 }}
-
-function sortTable(col) {{
-    const tbody = document.querySelector('#proteinTable tbody');
-    const rows = Array.from(tbody.querySelectorAll('tr'));
-    const sorted = rows.sort((a, b) => {{
-        let va = a.cells[col].textContent.trim();
-        let vb = b.cells[col].textContent.trim();
-        let na = parseFloat(va), nb = parseFloat(vb);
-        if (!isNaN(na) && !isNaN(nb)) return nb - na;
-        return va.localeCompare(vb);
+function filterCurrentTable() {{
+    const q = document.getElementById('search').value.toLowerCase();
+    const table = document.getElementById(activeTab === 'candidates' ? 'candidateTable' : 'eliminatedTable');
+    const rows = table.querySelectorAll('tbody tr');
+    rows.forEach(function(row) {{
+        row.style.display = row.cells[0].textContent.toLowerCase().includes(q) ? '' : 'none';
     }});
-    sorted.forEach(r => tbody.appendChild(r));
 }}
 </script>
 </body>

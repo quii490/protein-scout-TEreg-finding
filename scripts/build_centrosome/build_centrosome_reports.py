@@ -130,10 +130,14 @@ def main():
 
     # Write TSV
     fields = [
-        'gene', 'status', 'final_centrosome_score', 'centrosome_evidence_score',
-        'te_relevance_score', 'pubmed_score', 'ppi_score', 'structure_domain_score',
-        'novelty_specificity_score', 'source_centrosome', 'source_centriolar_satellite',
-        'source_both', 'in_main_atlas', 'main_status', 'main_category',
+        'gene', 'protein_full_name', 'uniprot_id', 'status', 'final_centrosome_score',
+        'centrosome_evidence_score', 'pubmed_score', 'ppi_score',
+        'structure_domain_score', 'novelty_specificity_score',
+        'pubmed_strict_count', 'pubmed_broad_count', 'pubmed_display_count',
+        'source_centrosome', 'source_centriolar_satellite', 'source_both',
+        'hpa_location_text', 'has_if_image', 'has_hpa_image_url',
+        'has_string_ppi', 'ppi_status', 'has_structure_domain',
+        'in_main_atlas', 'main_status', 'main_category',
         'report_path', 'docs_report_path', 'has_hpa_seed', 'has_pubmed',
         'has_ppi_humanppi', 'has_structure_domain', 'manual_review'
     ]
