@@ -37,6 +37,7 @@ td { padding: 10px 12px; border-bottom: 1px solid var(--border); }
 tr:nth-child(even) { background: var(--accent-light); }
 .badge { display: inline-block; padding: 3px 10px; border-radius: 12px; font-size: 0.8rem; font-weight: 600; }
 .badge-candidate { background: #d1fae5; color: #065f46; }
+.badge-eliminated { background: #e5e7eb; color: #6b7280; }
 .badge-low-priority { background: #fef3c7; color: #92400e; }
 .badge-manual-review { background: #fee2e2; color: #991b1b; }
 .back-link { margin: 24px 0; }
@@ -61,7 +62,6 @@ tr:nth-child(even) { background: var(--accent-light); }
 <li><strong>Protein name:</strong> Neural precursor cell expressed developmentally down-regulated protein 1 (NEDD1)</li>
 <li><strong>Synonyms:</strong> GCP-WD, TUBGCP7</li>
 <li><strong>Length:</strong> 660 aa</li>
-<li><strong>Main atlas overlap:</strong> Yes (status: scored, category: nucleolus)</li>
 <li><strong>HPA seed source:</strong> Centrosome</li>
 
 <h2>2. HPA Centrosome / Centriolar Satellite Evidence</h2>
@@ -71,6 +71,8 @@ tr:nth-child(even) { background: var(--accent-light); }
 <li><strong>HPA reliability:</strong> Approved</li>
 <li><strong>HPA location text:</strong> Centrosome</li>
 <li><strong>IF image status:</strong> Available — centrosome puncta</li>
+
+<p>![[NEDD1_IF_1.jpg]]</p>
 
 <p>NEDD1 is a WD-repeat protein that targets γ-tubulin ring complex (γ-TuRC) to centrosomes and spindle microtubules. HPA IF shows clear centrosome localization.</p>
 
@@ -153,7 +155,6 @@ tr:nth-child(even) { background: var(--accent-light); }
 
 <h2>10. Manual Review Note</h2>
 
-<li>Main atlas status: scored (nucleolus) — NEDD1 may have nucleolar localization in addition to centrosome</li>
 <li>660 aa is experimentally tractable for cloning and biochemical characterization</li>
 <li>WD40 domain could be used for structural studies or as a drug target</li>
 <li>Consider screening NEDD1 interactors for uncharacterized centrosome-TE connections</li>

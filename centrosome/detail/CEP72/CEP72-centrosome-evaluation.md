@@ -15,7 +15,6 @@ tags: [protein-scout, centrosome, evaluation]
 - **Protein name:** Centrosomal protein of 72 kDa (CEP72)
 - **Synonyms:** KIAA1519, FLJ10565
 - **Length:** 647 aa
-- **Main atlas overlap:** No (not in main atlas)
 - **HPA seed source:** Both (Centrosome + Centriolar satellite)
 
 ## 2. HPA Centrosome / Centriolar Satellite Evidence
@@ -25,6 +24,8 @@ tags: [protein-scout, centrosome, evaluation]
 - **HPA reliability:** Approved
 - **HPA location text:** Centrosome, centriolar satellite
 - **IF image status:** Available
+
+![[CEP72_IF_1.jpg]]
 
 Dual HPA annotation (centrosome + centriolar satellite) provides strong independent validation of centrosome localization.
 

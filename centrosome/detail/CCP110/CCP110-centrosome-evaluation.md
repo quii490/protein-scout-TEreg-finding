@@ -15,7 +15,6 @@ tags: [protein-scout, centrosome, evaluation]
 - **Protein name:** Centriolar coiled-coil protein of 110 kDa (CCP110)
 - **Synonyms:** CP110, CEP110, KIAA0419
 - **Length:** 1,012 aa
-- **Main atlas overlap:** Yes (status: rejected, category: rejected)
 - **HPA seed source:** Centriolar satellite
 
 ## 2. HPA Centrosome / Centriolar Satellite Evidence
@@ -25,6 +24,8 @@ tags: [protein-scout, centrosome, evaluation]
 - **HPA reliability:** Approved
 - **HPA location text:** Centriolar satellite, centriole
 - **IF image status:** Available — centrosome/satellite puncta
+
+![[CCP110_IF_1.jpg]]
 
 CCP110 (CP110) caps the distal end of centrioles and regulates centriole length. HPA IF shows centrosome puncta. It also localizes to centriolar satellites.
 
@@ -111,6 +112,5 @@ CCP110 (CP110) caps the distal end of centrioles and regulates centriole length.
 
 ## 10. Manual Review Note
 
-- Main atlas status: not a candidate — likely due to predominantly cytoplasmic/centrosome localization. Centrosome module evaluates independently.
 - CCP110-CEP97 complex is a key regulatory node for ciliogenesis — tool compounds targeting this complex may be useful
 - Consider: does CCP110 removal during ciliogenesis trigger DNA damage signaling relevant to TE activation?

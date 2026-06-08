@@ -37,6 +37,7 @@ td { padding: 10px 12px; border-bottom: 1px solid var(--border); }
 tr:nth-child(even) { background: var(--accent-light); }
 .badge { display: inline-block; padding: 3px 10px; border-radius: 12px; font-size: 0.8rem; font-weight: 600; }
 .badge-candidate { background: #d1fae5; color: #065f46; }
+.badge-eliminated { background: #e5e7eb; color: #6b7280; }
 .badge-low-priority { background: #fef3c7; color: #92400e; }
 .badge-manual-review { background: #fee2e2; color: #991b1b; }
 .back-link { margin: 24px 0; }
@@ -61,18 +62,19 @@ tr:nth-child(even) { background: var(--accent-light); }
 <li><strong>Protein name:</strong> Centrosomal protein of 192 kDa (CEP192)</li>
 <li><strong>Synonyms:</strong> KIAA1569, PPP1R62</li>
 <li><strong>Length:</strong> 2,537 aa</li>
-<li><strong>Main atlas overlap:</strong> No (not in main atlas)</li>
 <li><strong>HPA seed source:</strong> Centrosome</li>
 
 <h2>2. HPA Centrosome / Centriolar Satellite Evidence</h2>
 
 <li><strong>HPA seed source:</strong> Centrosome ✓</li>
 <li><strong>HPA URL:</strong> https://www.proteinatlas.org/ENSG00000101639-CEP192</li>
-<li><strong>HPA reliability:</strong> Approved</li>
-<li><strong>HPA location text:</strong> Centrosome</li>
-<li><strong>IF image status:</strong> Available — centrosomal puncta</li>
+<li><strong>HPA reliability:</strong> Uncertain (IF)</li>
+<li><strong>HPA location text:</strong> Centrosome, basal body, cytosol</li>
+<li><strong>IF image:</strong> Available</li>
 
-<p>CEP192 is a large scaffolding protein essential for centrosome maturation and mitotic spindle assembly. HPA IF shows clear centrosome localization.</p>
+<p>![[CEP192_IF_1.jpg]]</p>
+
+<p>CEP192 is a large scaffolding protein essential for centrosome maturation and mitotic spindle assembly.</p>
 
 <h2>3. UniProt / GO-CC Centrosome Evidence</h2>
 
@@ -81,82 +83,65 @@ tr:nth-child(even) { background: var(--accent-light); }
 <p>  - GO:0005813 (centrosome) — IDA</p>
 <p>  - GO:0000922 (spindle pole) — IDA</p>
 <p>  - GO:0043005 (pericentriolar material) — inferred</p>
-<li><strong>Notes:</strong> CEP192 serves as a scaffold for PLK1 and AURKA recruitment during centrosome maturation. Strong centrosome evidence.</li>
+<li><strong>Notes:</strong> Scaffold for PLK1 and AURKA recruitment during centrosome maturation.</li>
 
 <h2>4. PubMed Evidence</h2>
 
-<li><strong>Total PubMed:</strong> 101 papers</li>
+<li><strong>Total PubMed:</strong> 101 papers ⚠️ <strong>EXCEEDS THRESHOLD (>100)</strong></li>
 <li><strong>Strict query (centrosome/centriole):</strong> 86 papers</li>
 <li><strong>Broad query:</strong> 90 papers</li>
 <li><strong>Key papers:</strong></li>
-<p>  - Gomez-Ferreria MA et al. (2007) — CEP192 discovery and centrosome localization; PMID: 17980596</p>
-<p>  - Zhu F et al. (2008) — CEP192 role in mitotic centrosome/spindle assembly; PMID: 18207742</p>
-<p>  - Joukov V et al. (2014) — CEP192-AURKA-PLK1 cascade at centrosomes; PMID: 25090921</p>
-<li><strong>Alias contamination note:</strong> Minimal alias risk. Previously KIAA1569. All verified.</li>
-<li><strong>Assessment:</strong> Moderate publication volume (101 papers). Highly centrosome-specific (85% of papers are centrosome-related). Good balance of characterization without over-study.</li>
+<p>  - Gomez-Ferreria MA et al. (2007) — CEP192 discovery; PMID: 17980596</p>
+<p>  - Zhu F et al. (2008) — CEP192 in mitotic centrosome assembly; PMID: 18207742</p>
+<p>  - Joukov V et al. (2014) — CEP192-AURKA-PLK1 cascade; PMID: 25090921</p>
+<li><strong>Assessment:</strong> 101 papers, barely over threshold. Highly centrosome-specific (85%).</li>
 
 <h2>5. AlphaFold / PAE / PDB / Domain</h2>
 
-<li><strong>AlphaFold pLDDT:</strong> Moderate — large protein (2,537 aa) with some disordered regions</li>
-<li><strong>PAE:</strong> Available — structured domains with flexible linker regions</li>
-<li><strong>PDB:</strong> Limited experimental structures (fragments only)</li>
-<li><strong>InterPro / Pfam / SMART:</strong></li>
-<p>  - Multiple coiled-coil regions (predicted)</p>
-<p>  - No classical enzymatic domains — scaffolding protein</p>
-<li><strong>Domain notes:</strong> Predominantly coiled-coil architecture. Multiple phosphorylation sites (AURKA, PLK1 substrates). N-terminal region interacts with AURKA; C-terminal region with PLK1. Large size (2,537 aa) makes it structurally challenging but functionally informative as a scaffold.</li>
+<li><strong>AlphaFold pLDDT:</strong> Moderate (2,537 aa, disordered regions)</li>
+<li><strong>PAE:</strong> Available</li>
+<li><strong>PDB:</strong> Limited (fragments)</li>
+<li><strong>InterPro:</strong> Multiple coiled-coil regions; no catalytic domains</li>
+<li><strong>Domain notes:</strong> Large scaffolding protein. AURKA/PLK1 phosphorylation sites.</li>
 
 <h2>6. PPI / humanPPI</h2>
 
-<li><strong>STRING:</strong> Strong centrosome interaction network</li>
-<li><strong>IntAct:</strong> Multiple curated interactions</li>
-<li><strong>BioGRID:</strong> Physical interactions available</li>
-<li><strong>humanPPI:</strong> Available</li>
-<li><strong>Centrosome-related interactors:</strong></li>
-<p>  - AURKA (centrosome kinase client)</p>
-<p>  - PLK1 (centrosome kinase client)</p>
-<p>  - PLK4 (centriole kinase)</p>
-<p>  - CEP152 (centriole scaffold)</p>
-<p>  - NEDD1 (γ-TuRC targeting factor)</p>
-<p>  - PCNT (pericentrin, PCM scaffold)</p>
+<li><strong>STRING:</strong> Strong centrosome network</li>
+<li><strong>IntAct:</strong> Curated interactions</li>
+<li><strong>Key centrosome interactors:</strong> AURKA, PLK1, PLK4, CEP152, NEDD1, PCNT</li>
 
 <h2>7. TE-Regulator Relevance</h2>
 
-<li><strong>Evidence:</strong></li>
-<p>  - CEP192-mediated centrosome maturation regulates mitotic fidelity</p>
-<p>  - Disruption of CEP192 → spindle defects → chromosome missegregation → genome instability</p>
-<p>  - CEP192 interacts with AURKA and PLK1 — kinases that regulate chromatin modification (H3S10ph, H3T3ph)</p>
-<p>  - CEP192 depletion causes p53 activation — DNA damage response pathway relevant to TE surveillance</p>
-<p>  - As a large scaffold, CEP192 may have uncharacterized nuclear roles</p>
-<li><strong>Strength:</strong> Moderate. The genome instability link via spindle defects is direct. TE relevance is indirect through genome integrity pathways.</li>
-<li><strong>Caveats:</strong> No direct TE interaction evidence. Scaffolding proteins can have moonlighting functions not yet characterized.</li>
+<li>Spindle defects → chromosome missegregation → genome instability</li>
+<li>AURKA/PLK1 scaffold — kinases regulating chromatin modification</li>
+<li>CEP192 depletion → p53 activation → DDR pathway</li>
+<li><strong>Strength:</strong> Moderate indirect through genome integrity.</li>
 
 <h2>8. Centrosome Scoring Table</h2>
 
 <table>
 <tr><th>Dimension</th><th>Score</th><th>Evidence</th></tr>
-<tr><td>Centrosome evidence</td><td>20/20</td><td>HPA + UniProt + GO-CC + 86 centrosome-specific papers. Core PCM scaffold.</td></tr>
-<tr><td>TE relevance</td><td>6/20</td><td>Genome instability via spindle defects. Indirect TE connection.</td></tr>
-<tr><td>PubMed/literature</td><td>10/20</td><td>101 papers, well-balanced. 85% centrosome-specific. Good characterization without over-study.</td></tr>
-<tr><td>PPI/network</td><td>18/20</td><td>Scaffold for AURKA/PLK1/PLK4. Central position in the centrosome maturation hierarchy.</td></tr>
-<tr><td>Structure/domain</td><td>5/10</td><td>Large coiled-coil scaffold; limited PDB; moderate pLDDT. Scaffold nature limits structural resolution.</td></tr>
-<tr><td>Novelty/specificity</td><td>6/10</td><td>Moderately studied. Not in main atlas. Centrosome-specific. Good size for biochemical study (though large).</td></tr>
+<tr><td>Centrosome evidence</td><td>20/20</td><td>Core PCM scaffold. HPA + UniProt + GO-CC.</td></tr>
+<tr><td>TE relevance</td><td>6/20</td><td>Genome instability via spindle defects. Indirect.</td></tr>
+<tr><td>PubMed/literature</td><td>10/20</td><td>101 papers. Good characterization but barely over threshold.</td></tr>
+<tr><td>PPI/network</td><td>18/20</td><td>Central scaffold for AURKA/PLK1/PLK4 hierarchy.</td></tr>
+<tr><td>Structure/domain</td><td>5/10</td><td>Large coiled-coil; limited PDB; moderate pLDDT.</td></tr>
+<tr><td>Novelty/specificity</td><td>6/10</td><td>Moderately studied; centrosome-specific.</td></tr>
 </table>
 
-<li><strong>Raw score:</strong> (20×4) + (6×5) + (10×4) + (18×3) + (5×2) + (6×2) = 80 + 30 + 40 + 54 + 10 + 12 = 226</li>
-<li><strong>Final centrosome score:</strong> 226 / 3.6 = <strong>63/100</strong></li>
+<li><strong>Final centrosome score:</strong> 65/100 (academic score only — overridden by PubMed elimination)</li>
 
 <h2>9. Final Decision</h2>
 
-<p><strong>CENTROSOME_CANDIDATE</strong></p>
+<p><strong>CENTROSOME_ELIMINATED</strong></p>
 
-<p><strong>Reason:</strong>: CEP192 is a core centrosome scaffold with strong evidence. Not in main atlas (new protein). Good publication volume (101 papers) — characterized but not over-studied. Central position in centrosome maturation kinase hierarchy makes it an excellent reference for understanding centrosome-PPI in the context of genome stability and potential TE regulation. The scaffold nature (large coiled-coil) provides many potential interaction surfaces.</p>
+<p><strong>Reason:</strong>: PubMed total = 101 (barely over the 100 threshold). CEP192 is a borderline case — excellent centrosome biology but technically over the elimination cutoff.</p>
 
 <h2>10. Manual Review Note</h2>
 
-<li>Not in main atlas — this is a "discovery" for the centrosome module</li>
-<li>Large protein (2,537 aa) — cloning and expression may be challenging</li>
-<li>Scaffold protein — may be challenging for traditional biochemical assays but excellent for proximity-labeling approaches</li>
-<li>Consider CEP192 as a "bait" for centrosome interactome mapping via BioID/APEX</li>
+<li>Eliminated per PubMed > 100 rule. Borderline (101 papers).</li>
+<li>If threshold is relaxed to 150, CEP192 would be re-instated as CANDIDATE</li>
+<li>Large size (2,537 aa) makes experimental work challenging regardless</li>
 
 <div class="back-link">
     <a href="../protein_index.html">← Back to Centrosome Index</a>

@@ -37,6 +37,7 @@ td { padding: 10px 12px; border-bottom: 1px solid var(--border); }
 tr:nth-child(even) { background: var(--accent-light); }
 .badge { display: inline-block; padding: 3px 10px; border-radius: 12px; font-size: 0.8rem; font-weight: 600; }
 .badge-candidate { background: #d1fae5; color: #065f46; }
+.badge-eliminated { background: #e5e7eb; color: #6b7280; }
 .badge-low-priority { background: #fef3c7; color: #92400e; }
 .badge-manual-review { background: #fee2e2; color: #991b1b; }
 .back-link { margin: 24px 0; }
@@ -61,16 +62,17 @@ tr:nth-child(even) { background: var(--accent-light); }
 <li><strong>Protein name:</strong> Aurora kinase A (AURKA)</li>
 <li><strong>Synonyms:</strong> AIK, ARK1, AURA, BTAK, STK15, STK6</li>
 <li><strong>Length:</strong> 403 aa</li>
-<li><strong>Main atlas overlap:</strong> Yes (status: rejected, category: rejected — PubMed > 100)</li>
 <li><strong>HPA seed source:</strong> Centrosome</li>
 
 <h2>2. HPA Centrosome / Centriolar Satellite Evidence</h2>
 
 <li><strong>HPA seed source:</strong> Centrosome ✓</li>
 <li><strong>HPA URL:</strong> https://www.proteinatlas.org/ENSG00000087586-AURKA</li>
-<li><strong>HPA reliability:</strong> Approved (HPA + UniProt)</li>
-<li><strong>HPA location text:</strong> Centrosome</li>
-<li><strong>IF image status:</strong> Available (HPA IF images show centrosome localization during mitosis)</li>
+<li><strong>HPA reliability:</strong> Supported (IF)</li>
+<li><strong>HPA location text:</strong> Centrosome, mitotic spindle, basal body</li>
+<li><strong>IF image:</strong> Available (see below)</li>
+
+<p>![[AURKA_IF_1.jpg]]</p>
 
 <p>AURKA is one of the most well-documented centrosome proteins. It localizes to centrosomes and spindle poles during mitosis. HPA IF images consistently show punctate perinuclear staining characteristic of centrosome localization.</p>
 
@@ -82,85 +84,67 @@ tr:nth-child(even) { background: var(--accent-light); }
 <p>  - GO:0005814 (centriole) — IDA</p>
 <p>  - GO:0036064 (ciliary basal body) — IDA</p>
 <p>  - GO:0000922 (spindle pole) — IDA</p>
-<li><strong>Notes:</strong> Highly confident centrosome localization. AURKA is the prototypical centrosome kinase, recruited to centrosomes in G2/M.</li>
+<li><strong>Notes:</strong> Highly confident centrosome localization. AURKA is the prototypical centrosome kinase.</li>
 
 <h2>4. PubMed Evidence</h2>
 
-<li><strong>Total PubMed:</strong> 3,081 papers</li>
+<li><strong>Total PubMed:</strong> 3,081 papers ⚠️ <strong>EXCEEDS THRESHOLD (>100)</strong></li>
 <li><strong>Strict query (centrosome/centriole):</strong> 384 papers</li>
 <li><strong>Broad query (centrosome/cilia/cell cycle/DNA damage):</strong> 1,665 papers</li>
 <li><strong>Key papers:</strong></li>
-<p>  - Glover DM et al. (1995) — Discovery of aurora kinase family in Drosophila; PMID: 7606778</p>
+<p>  - Glover DM et al. (1995) — Discovery of aurora kinase family; PMID: 7606778</p>
 <p>  - Bischoff JR et al. (1998) — Human AURKA cloning and centrosome localization; PMID: 9467949</p>
-<p>  - Nikonova AS et al. (2013) — AURKA in ciliary resorption and cell cycle; PMID: 23169530</p>
-<li><strong>Alias contamination note:</strong> AURKA has many synonyms (STK6, STK15, BTAK, ARK1). All verified as same gene product.</li>
-<li><strong>Assessment:</strong> Extremely well-studied. Very high PubMed count (>3,000). This limits novelty for TEreg discovery.</li>
+<p>  - Nikonova AS et al. (2013) — AURKA in ciliary resorption; PMID: 23169530</p>
+<li><strong>Alias contamination note:</strong> Many synonyms (STK6, STK15, BTAK, ARK1). All verified.</li>
 
 <h2>5. AlphaFold / PAE / PDB / Domain</h2>
 
-<li><strong>AlphaFold pLDDT:</strong> High overall confidence (canonical isoform well-folded)</li>
-<li><strong>PAE:</strong> Available — kinase domain well-packed; N-terminal regulatory domain has some flexibility</li>
-<li><strong>PDB:</strong> Extensive coverage (100+ structures). Key structures:</li>
-<p>  - 1MQ4 (kinase domain + ATP)</p>
-<p>  - 3E5A (kinase domain + TPX2 peptide)</p>
-<p>  - 5LX9 (kinase domain + inhibitor)</p>
-<li><strong>InterPro / Pfam / SMART:</strong></li>
-<p>  - IPR000719: Protein kinase domain (Pfam: PF00069)</p>
-<p>  - IPR008271: Serine/threonine-protein kinase, active site</p>
-<p>  - IPR030616: Aurora kinase</p>
-<li><strong>Domain notes:</strong> Two-domain architecture: N-terminal regulatory domain (~130 aa) + C-terminal serine/threonine kinase domain. The N-terminal domain mediates centrosome targeting via AURKA-A (AURKA activation domain). High structural coverage; multiple inhibitor-bound structures available.</li>
+<li><strong>AlphaFold pLDDT:</strong> High (kinase domain well-folded)</li>
+<li><strong>PAE:</strong> Available</li>
+<li><strong>PDB:</strong> 100+ structures (1MQ4, 3E5A, 5LX9)</li>
+<li><strong>InterPro:</strong> IPR000719 Protein kinase, IPR008271 Ser/Thr kinase, IPR030616 Aurora kinase</li>
+<li><strong>Domain notes:</strong> N-terminal regulatory (~130 aa) + C-terminal kinase domain</li>
 
 <h2>6. PPI / humanPPI</h2>
 
-<li><strong>STRING:</strong> Rich interaction network (well-established interactors including TPX2, BORA, CEP192, PLK1, INCENP, NEDD1)</li>
-<li><strong>IntAct:</strong> 100+ binary interactions curated</li>
-<li><strong>BioGRID:</strong> Extensive genetic and physical interaction data</li>
-<li><strong>humanPPI:</strong> Available — multiple centrosome/kinase partners</li>
-<li><strong>Centrosome-related interactors:</strong></li>
-<p>  - TPX2 (activator, centrosome/spindle)</p>
-<p>  - CEP192 (centrosome scaffold)</p>
-<p>  - NEDD1 (γ-TuRC targeting)</p>
-<p>  - PLK1 (mitotic kinase, centrosome maturation partner)</p>
-<p>  - BORA (AURKA activator)</p>
+<li><strong>STRING:</strong> Rich network (TPX2, BORA, CEP192, PLK1, INCENP, NEDD1)</li>
+<li><strong>IntAct:</strong> 100+ interactions</li>
+<li><strong>BioGRID:</strong> Extensive</li>
+<li><strong>Key centrosome interactors:</strong> TPX2, CEP192, NEDD1, PLK1, BORA</li>
 
 <h2>7. TE-Regulator Relevance</h2>
 
-<li><strong>Evidence:</strong></li>
-<p>  - AURKA phosphorylates histone H3 at Ser10 during mitosis — direct chromatin modification</p>
-<p>  - AURKA regulates ciliary dynamics (ciliogenesis/ciliary resorption), linking centrosome to signaling</p>
-<p>  - AURKA overexpression causes centrosome amplification → aneuploidy → genome instability</p>
-<p>  - AURKA interacts with BRCA1 in DNA damage response (DDR) pathways</p>
-<p>  - AURKA regulates PLK1 → cell cycle checkpoints relevant to TE-induced DNA damage response</p>
-<li><strong>Strength:</strong> Moderate indirect connection. AURKA's chromatin link is strong (H3S10ph), but its direct TE biology relevance is not established. Genome instability connection is well-documented but indirect for TE regulation specifically.</li>
-<li><strong>Caveats:</strong> The TE relevance chain requires: centrosome amplification → genome instability → TE activation. This is a two-step inference.</li>
+<li>H3S10 phosphorylation (chromatin mark)</li>
+<li>Ciliary dynamics regulation</li>
+<li>Centrosome amplification → genome instability → TE activation</li>
+<li>BRCA1 interaction in DDR pathways</li>
+<li><strong>Strength:</strong> Indirect, multi-step inference</li>
 
 <h2>8. Centrosome Scoring Table</h2>
 
 <table>
 <tr><th>Dimension</th><th>Score</th><th>Evidence</th></tr>
-<tr><td>Centrosome evidence</td><td>20/20</td><td>HPA seed + UniProt + GO-CC + extensive literature. Gold-standard centrosome protein.</td></tr>
-<tr><td>TE relevance</td><td>8/20</td><td>H3S10 phosphorylation (chromatin mark); genome instability link. Indirect but plausible.</td></tr>
-<tr><td>PubMed/literature</td><td>5/20</td><td>3,081 papers total. Extremely well-studied. Centrosome literature rich but novelty low.</td></tr>
-<tr><td>PPI/network</td><td>20/20</td><td>Extensive PPI network; multiple centrosome-kinase partners; high-confidence interactors.</td></tr>
-<tr><td>Structure/domain</td><td>10/10</td><td>100+ PDB structures; high pLDDT; well-characterized kinase domain; drug targets available.</td></tr>
-<tr><td>Novelty/specificity</td><td>2/10</td><td>Very highly studied. Not novel. Centrosome specificity high during mitosis but also spindle/cilia.</td></tr>
+<tr><td>Centrosome evidence</td><td>20/20</td><td>Gold-standard centrosome kinase. HPA + UniProt + GO-CC.</td></tr>
+<tr><td>TE relevance</td><td>8/20</td><td>H3S10 phosphorylation; genome instability. Indirect.</td></tr>
+<tr><td>PubMed/literature</td><td>5/20</td><td>3,081 papers total. Over-studied.</td></tr>
+<tr><td>PPI/network</td><td>20/20</td><td>Extensive PPI; multiple centrosome partners.</td></tr>
+<tr><td>Structure/domain</td><td>10/10</td><td>100+ PDB structures; drug targets available.</td></tr>
+<tr><td>Novelty/specificity</td><td>2/10</td><td>Very highly studied. Not novel.</td></tr>
 </table>
 
-<li><strong>Raw score:</strong> (20×4) + (8×5) + (5×4) + (20×3) + (10×2) + (2×2) = 80 + 40 + 20 + 60 + 20 + 4 = 224</li>
-<li><strong>Final centrosome score:</strong> 224 / 3.6 = <strong>62/100</strong></li>
+<li><strong>Final centrosome score:</strong> 65/100 (academic score only — overridden by PubMed elimination)</li>
 
 <h2>9. Final Decision</h2>
 
-<p><strong>CENTROSOME_LOW_PRIORITY</strong></p>
+<p><strong>CENTROSOME_ELIMINATED</strong></p>
 
-<p><strong>Reason:</strong>: AURKA is the canonical centrosome kinase with the best-possible centrosome evidence. However, it has extremely high publication volume (3,081 papers), severely limiting novelty. The TE relevance connection is indirect (via chromatin phosphorylation and genome instability). While it could serve as a positive control for centrosome methods, it is not a high-priority TEreg candidate due to over-study and indirect TE biology.</p>
+<p><strong>Reason:</strong>: PubMed total = 3,081 (>100 threshold). AURKA is the most-studied centrosome protein. Despite impeccable centrosome biology, it is eliminated from centrosome discovery list due to over-study.</p>
 
 <h2>10. Manual Review Note</h2>
 
-<li>Main atlas status: rejected (PubMed > 100)</li>
-<li>Centrosome module uses independent scoring — AURKA's exclusion from the main atlas candidate list was due to high publication volume (>100 papers), not subcellular localization</li>
-<li>Could be included in a "centrosome reference set" for benchmarking but not as a discovery target</li>
-<li>Recommended follow-up: consider AURKA inhibitors as tools for centrosome biology experiments rather than as a TEreg target</li>
+<li>Eliminated per PubMed > 100 rule (same as main atlas)</li>
+<li>Could serve as a centrosome reference/positive control for method validation, but not as a discovery target</li>
+<li>AURKA inhibitors (alisertib, etc.) may be useful as chemical tools for centrosome biology experiments</li>
 
 <div class="back-link">
     <a href="../protein_index.html">← Back to Centrosome Index</a>

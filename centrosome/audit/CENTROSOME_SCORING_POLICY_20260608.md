@@ -10,8 +10,8 @@ The centrosome module is an **independent extension** to the main protein-scout 
 ## Rejection Rules
 
 ### Automatic rejection:
+- **PubMed total > 100:** Protein is over-studied; eliminated from centrosome discovery list. Same rule as main atlas.
 - **NONE based on nuclear score.** Nuclear score is irrelevant for centrosome module.
-- **PubMed > 100:** Still applies (over-studied proteins are lower priority for TEreg discovery).
 
 ### No automatic rejection for:
 - Nuclear score <= 3 (IRRELEVANT - centrosome proteins may have low nuclear scores)
@@ -90,9 +90,10 @@ Normalized = 360/2.0 = 180 → capped at 100
 
 | Status | Criteria |
 |--------|----------|
-| **CENTROSOME_CANDIDATE** | Score ≥ 50, all dimensions have evidence |
-| **CENTROSOME_LOW_PRIORITY** | Score 25–49, or missing key evidence dimensions |
-| **CENTROSOME_MANUAL_REVIEW** | Score < 25, or conflicting evidence, or unusual gene |
+| **CENTROSOME_ELIMINATED** | PubMed total > 100 (over-studied) |
+| **CENTROSOME_CANDIDATE** | Score ≥ 50, all dimensions have evidence, PubMed ≤ 100 |
+| **CENTROSOME_LOW_PRIORITY** | Score 25–49, or missing key evidence dimensions, PubMed ≤ 100 |
+| **CENTROSOME_MANUAL_REVIEW** | Score < 25, or conflicting evidence, or unusual gene, PubMed ≤ 100 |
 
 ## Prohibited Logic
 

@@ -2,7 +2,7 @@
 type: centrosome-protein-evaluation
 gene: "CCDC14"
 module: centrosome
-status: centrosome_candidate
+status: centrosome_manual_review
 date: 2026-06-08
 tags: [protein-scout, centrosome, evaluation]
 ---
@@ -15,7 +15,6 @@ tags: [protein-scout, centrosome, evaluation]
 - **Protein name:** Coiled-coil domain-containing protein 14 (CCDC14)
 - **Synonyms:** FLJ30058, MGC131864
 - **Length:** 954 aa
-- **Main atlas overlap:** No (not in main atlas)
 - **HPA seed source:** Centriolar satellite
 
 ## 2. HPA Centrosome / Centriolar Satellite Evidence
@@ -25,6 +24,8 @@ tags: [protein-scout, centrosome, evaluation]
 - **HPA reliability:** Supported (RNA + protein evidence)
 - **HPA location text:** Centriolar satellite
 - **IF image status:** Available — satellite-like puncta
+
+![[CCDC14_IF_1.jpg]]
 
 CCDC14 is a poorly characterized coiled-coil protein annotated as centriolar satellite by HPA. Very limited functional literature.
 

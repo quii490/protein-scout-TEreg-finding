@@ -163,6 +163,7 @@ td {{ padding: 10px 12px; border-bottom: 1px solid var(--border); }}
 tr:nth-child(even) {{ background: var(--accent-light); }}
 .badge {{ display: inline-block; padding: 3px 10px; border-radius: 12px; font-size: 0.8rem; font-weight: 600; }}
 .badge-candidate {{ background: #d1fae5; color: #065f46; }}
+.badge-eliminated {{ background: #e5e7eb; color: #6b7280; }}
 .badge-low-priority {{ background: #fef3c7; color: #92400e; }}
 .badge-manual-review {{ background: #fee2e2; color: #991b1b; }}
 .back-link {{ margin: 24px 0; }}
@@ -200,16 +201,17 @@ def build_index_page():
         index = json.load(f)
 
     records = index['records']
-    candidates = [r for r in records if 'CANDIDATE' in r.get('status', '') and 'LOW' not in r.get('status', '')]
-    low_priority = [r for r in records if 'LOW_PRIORITY' in r.get('status', '')]
-    manual_review = [r for r in records if 'MANUAL_REVIEW' in r.get('status', '')]
+    candidates = [r for r in records if 'candidate' in r.get('status', '').lower() and 'low' not in r.get('status', '').lower() and 'eliminated' not in r.get('status', '').lower() and 'manual' not in r.get('status', '').lower()]
+    eliminated = [r for r in records if 'eliminated' in r.get('status', '').lower()]
+    low_priority = [r for r in records if 'low_priority' in r.get('status', '').lower()]
+    manual_review = [r for r in records if 'manual_review' in r.get('status', '').lower()]
 
     # Top 10 by score
     top10 = sorted(records, key=lambda r: r.get('final_centrosome_score', 0), reverse=True)[:10]
 
     top_rows = '\n'.join(
         f'<tr><td><a href="reports/{r["gene"]}.html">{r["gene"]}</a></td>'
-        f'<td><span class="badge badge-{"candidate" if "CANDIDATE" in r.get("status","") else "low-priority" if "LOW" in r.get("status","") else "manual-review"}">{r["status"]}</span></td>'
+        f'<td><span class="badge badge-{"eliminated" if "eliminated" in r.get("status","").lower() else "candidate" if "candidate" in r.get("status","").lower() else "low-priority" if "low" in r.get("status","").lower() else "manual-review"}">{r["status"]}</span></td>'
         f'<td>{r.get("final_centrosome_score", "-")}</td></tr>'
         for r in top10
     )
@@ -246,6 +248,7 @@ td {{ padding: 10px 14px; border-bottom: 1px solid var(--border); }}
 tr:hover {{ background: var(--accent-light); }}
 .badge {{ display: inline-block; padding: 3px 10px; border-radius: 12px; font-size: 0.75rem; font-weight: 600; }}
 .badge-candidate {{ background: #d1fae5; color: #065f46; }}
+.badge-eliminated {{ background: #e5e7eb; color: #6b7280; }}
 .badge-low-priority {{ background: #fef3c7; color: #92400e; }}
 .badge-manual-review {{ background: #fee2e2; color: #991b1b; }}
 a {{ color: var(--accent); text-decoration: none; }}
@@ -277,6 +280,10 @@ a:hover {{ text-decoration: underline; }}
         <div class="stat-card">
             <div class="num">{len(candidates)}</div>
             <div class="label">CENTROSOME_CANDIDATE</div>
+        </div>
+        <div class="stat-card">
+            <div class="num">{len(eliminated)}</div>
+            <div class="label">ELIMINATED</div>
         </div>
         <div class="stat-card">
             <div class="num">{len(low_priority)}</div>
@@ -320,7 +327,7 @@ def build_protein_index():
     rows = '\n'.join(
         f'<tr>'
         f'<td><a href="reports/{r["gene"]}.html">{r["gene"]}</a></td>'
-        f'<td><span class="badge badge-{"candidate" if "CANDIDATE" in r.get("status","") else "low-priority" if "LOW" in r.get("status","") else "manual-review"}">{r["status"]}</span></td>'
+        f'<td><span class="badge badge-{"eliminated" if "eliminated" in r.get("status","").lower() else "candidate" if "candidate" in r.get("status","").lower() else "low-priority" if "low" in r.get("status","").lower() else "manual-review"}">{r["status"]}</span></td>'
         f'<td>{r.get("final_centrosome_score", "-")}</td>'
         f'<td>{r.get("centrosome_evidence_score", "-")}</td>'
         f'<td>{r.get("te_relevance_score", "-")}</td>'
@@ -360,6 +367,7 @@ td {{ padding: 8px 10px; border-bottom: 1px solid var(--border); }}
 tr:hover {{ background: var(--accent-light); }}
 .badge {{ display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 0.7rem; font-weight: 600; }}
 .badge-candidate {{ background: #d1fae5; color: #065f46; }}
+.badge-eliminated {{ background: #e5e7eb; color: #6b7280; }}
 .badge-low-priority {{ background: #fef3c7; color: #92400e; }}
 .badge-manual-review {{ background: #fee2e2; color: #991b1b; }}
 a {{ color: var(--accent); text-decoration: none; }}

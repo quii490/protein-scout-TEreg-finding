@@ -15,7 +15,6 @@ tags: [protein-scout, centrosome, evaluation]
 - **Protein name:** Neural precursor cell expressed developmentally down-regulated protein 1 (NEDD1)
 - **Synonyms:** GCP-WD, TUBGCP7
 - **Length:** 660 aa
-- **Main atlas overlap:** Yes (status: scored, category: nucleolus)
 - **HPA seed source:** Centrosome
 
 ## 2. HPA Centrosome / Centriolar Satellite Evidence
@@ -25,6 +24,8 @@ tags: [protein-scout, centrosome, evaluation]
 - **HPA reliability:** Approved
 - **HPA location text:** Centrosome
 - **IF image status:** Available — centrosome puncta
+
+![[NEDD1_IF_1.jpg]]
 
 NEDD1 is a WD-repeat protein that targets γ-tubulin ring complex (γ-TuRC) to centrosomes and spindle microtubules. HPA IF shows clear centrosome localization.
 
@@ -106,7 +107,6 @@ NEDD1 is a WD-repeat protein that targets γ-tubulin ring complex (γ-TuRC) to c
 
 ## 10. Manual Review Note
 
-- Main atlas status: scored (nucleolus) — NEDD1 may have nucleolar localization in addition to centrosome
 - 660 aa is experimentally tractable for cloning and biochemical characterization
 - WD40 domain could be used for structural studies or as a drug target
 - Consider screening NEDD1 interactors for uncharacterized centrosome-TE connections

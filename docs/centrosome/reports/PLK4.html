@@ -37,6 +37,7 @@ td { padding: 10px 12px; border-bottom: 1px solid var(--border); }
 tr:nth-child(even) { background: var(--accent-light); }
 .badge { display: inline-block; padding: 3px 10px; border-radius: 12px; font-size: 0.8rem; font-weight: 600; }
 .badge-candidate { background: #d1fae5; color: #065f46; }
+.badge-eliminated { background: #e5e7eb; color: #6b7280; }
 .badge-low-priority { background: #fef3c7; color: #92400e; }
 .badge-manual-review { background: #fee2e2; color: #991b1b; }
 .back-link { margin: 24px 0; }
@@ -61,18 +62,19 @@ tr:nth-child(even) { background: var(--accent-light); }
 <li><strong>Protein name:</strong> Serine/threonine-protein kinase PLK4 (Polo-like kinase 4)</li>
 <li><strong>Synonyms:</strong> SAK, STK18</li>
 <li><strong>Length:</strong> 970 aa</li>
-<li><strong>Main atlas overlap:</strong> Yes (status: scored, category: nucleoplasm)</li>
 <li><strong>HPA seed source:</strong> Centrosome</li>
 
 <h2>2. HPA Centrosome / Centriolar Satellite Evidence</h2>
 
 <li><strong>HPA seed source:</strong> Centrosome ✓</li>
 <li><strong>HPA URL:</strong> https://www.proteinatlas.org/ENSG00000142731-PLK4</li>
-<li><strong>HPA reliability:</strong> Approved</li>
-<li><strong>HPA location text:</strong> Centrosome, centriole</li>
-<li><strong>IF image status:</strong> Available — punctate centrosome staining</li>
+<li><strong>HPA reliability:</strong> Supported (IF)</li>
+<li><strong>HPA location text:</strong> Centrosome, cytosol</li>
+<li><strong>IF image:</strong> Available</li>
 
-<p>PLK4 is the master regulator of centriole biogenesis. HPA IF shows characteristic 1-2 puncta per cell in G1, duplicating to 2-4 in G2/M. This is diagnostic of centriole localization.</p>
+<p>![[PLK4_IF_1.jpg]]</p>
+
+<p>PLK4 is the master regulator of centriole biogenesis. HPA IF shows characteristic 1-2 puncta per cell in G1.</p>
 
 <h2>3. UniProt / GO-CC Centrosome Evidence</h2>
 
@@ -81,85 +83,64 @@ tr:nth-child(even) { background: var(--accent-light); }
 <p>  - GO:0005813 (centrosome) — IDA</p>
 <p>  - GO:0005814 (centriole) — IDA</p>
 <p>  - GO:0036064 (ciliary basal body) — IDA</p>
-<li><strong>Notes:</strong> PLK4 is the kinase that initiates procentriole assembly. Essential for centriole duplication. One of the most specific centrosome proteins.</li>
+<li><strong>Notes:</strong> Essential for centriole duplication. One of the most specific centrosome proteins.</li>
 
 <h2>4. PubMed Evidence</h2>
 
-<li><strong>Total PubMed:</strong> 591 papers</li>
+<li><strong>Total PubMed:</strong> 591 papers ⚠️ <strong>EXCEEDS THRESHOLD (>100)</strong></li>
 <li><strong>Strict query (centrosome/centriole):</strong> 383 papers</li>
 <li><strong>Broad query:</strong> 488 papers</li>
 <li><strong>Key papers:</strong></li>
-<p>  - Bettencourt-Dias M et al. (2005) — PLK4 as master regulator of centriole biogenesis; PMID: 16244668</p>
+<p>  - Bettencourt-Dias M et al. (2005) — PLK4 master regulator; PMID: 16244668</p>
 <p>  - Habedanck R et al. (2005) — PLK4 controls centriole duplication; PMID: 16244669</p>
-<p>  - Kleylein-Sohn J et al. (2007) — PLK4-induced centriole biogenesis in human cells; PMID: 17785410</p>
-<p>  - Holland AJ et al. (2010) — PLK4 autophosphorylation and centriole number control; PMID: 20852615</p>
-<li><strong>Alias contamination note:</strong> Also known as SAK (Snk/Plk-akin kinase), STK18. All confirmed as PLK4.</li>
-<li><strong>Assessment:</strong> Moderately well-studied (591 papers) but highly centrosome-focused (65% centrosome-specific). Some papers may be aliased from Drosophila Sak studies.</li>
+<p>  - Holland AJ et al. (2010) — PLK4 autophosphorylation; PMID: 20852615</p>
+<li><strong>Alias contamination note:</strong> Also SAK, STK18. All confirmed.</li>
 
 <h2>5. AlphaFold / PAE / PDB / Domain</h2>
 
-<li><strong>AlphaFold pLDDT:</strong> High confidence for kinase domain; N-terminal region lower confidence</li>
-<li><strong>PAE:</strong> Available — kinase domain compact; PB1-PB3 polo-box domains have moderate inter-domain confidence</li>
-<li><strong>PDB:</strong> Available. Key structures:</li>
-<p>  - 4Y7J (kinase domain)</p>
-<p>  - 4N9J (PB3 polo-box domain)</p>
-<li><strong>InterPro / Pfam / SMART:</strong></li>
-<p>  - IPR000719: Protein kinase domain (Pfam: PF00069)</p>
-<p>  - IPR000959: POLO box domain (Pfam: PF00659)</p>
-<p>  - IPR033703: PLK4, POLO box 1-2 (cryptic polo boxes)</p>
-<li><strong>Domain notes:</strong> Unique architecture: N-terminal kinase domain + 3 polo-box domains (PB1-PB3). PB1-PB2 form a cryptic polo-box that mediates centriole targeting. Cryptic polo-box is unique to PLK4.</li>
+<li><strong>AlphaFold pLDDT:</strong> High for kinase domain</li>
+<li><strong>PAE:</strong> Available</li>
+<li><strong>PDB:</strong> 4Y7J (kinase), 4N9J (PB3 polo-box)</li>
+<li><strong>InterPro:</strong> IPR000719 Protein kinase, IPR000959 POLO box, IPR033703 PLK4 polo box</li>
+<li><strong>Domain notes:</strong> N-term kinase + 3 polo-box domains (PB1-PB3). Cryptic polo-box unique to PLK4.</li>
 
 <h2>6. PPI / humanPPI</h2>
 
-<li><strong>STRING:</strong> Rich centrosome interaction network</li>
+<li><strong>STRING:</strong> Rich centrosome network</li>
 <li><strong>IntAct:</strong> Multiple curated interactions</li>
-<li><strong>BioGRID:</strong> Extensive physical interactions</li>
-<li><strong>humanPPI:</strong> Available</li>
-<li><strong>Centrosome-related interactors:</strong></li>
-<p>  - CEP152 (centriole receptor/scaffold)</p>
-<p>  - CEP192 (centrosome scaffold)</p>
-<p>  - STIL (centriole assembly protein)</p>
-<p>  - CEP85 (centriole assembly)</p>
-<p>  - TUBG1 (γ-tubulin, centriole component)</p>
+<li><strong>Key centrosome interactors:</strong> CEP152, CEP192, STIL, CEP85, TUBG1</li>
 
 <h2>7. TE-Regulator Relevance</h2>
 
-<li><strong>Evidence:</strong></li>
-<p>  - PLK4 overexpression → centriole amplification → centrosome amplification → genome instability — a known cancer mechanism</p>
-<p>  - Centrosome amplification can drive TE activation via DNA damage response (DDR) signaling</p>
-<p>  - PLK4 interacts with p53 pathway (p53 restricts centriole overduplication)</p>
-<p>  - PLK4 loss induces p53-dependent cell cycle arrest → potential TE activation context</p>
-<p>  - PLK4 is a target of viral oncoproteins (HPV E7) — hints at pathogen-TE parallel mechanisms</p>
-<li><strong>Strength:</strong> Moderate. The centrosome amplification → genome instability → TE activation chain is biologically plausible but multi-step.</li>
-<li><strong>Caveats:</strong> No direct evidence of PLK4-TE interaction. The connection is via genome integrity pathways.</li>
+<li>PLK4 overexpression → centriole amplification → genome instability</li>
+<li>PLK4 interacts with p53 pathway</li>
+<li>Target of HPV E7 oncoprotein — pathogen-TE parallel</li>
+<li><strong>Strength:</strong> Moderate. Indirect through genome integrity.</li>
 
 <h2>8. Centrosome Scoring Table</h2>
 
 <table>
 <tr><th>Dimension</th><th>Score</th><th>Evidence</th></tr>
-<tr><td>Centrosome evidence</td><td>20/20</td><td>Master centriole kinase. HPA + UniProt + GO-CC + extensive functional literature.</td></tr>
-<tr><td>TE relevance</td><td>7/20</td><td>Centrosome amplification → genome instability → potential TE activation. Plausible chain but no direct evidence.</td></tr>
-<tr><td>PubMed/literature</td><td>8/20</td><td>591 papers total. Centrosome-rich but high volume limits novelty.</td></tr>
-<tr><td>PPI/network</td><td>18/20</td><td>Well-characterized PPI with CEP152, STIL, CEP192; γ-tubulin connection to MT cytoskeleton.</td></tr>
-<tr><td>Structure/domain</td><td>9/10</td><td>PDB available; unique cryptic polo-box; kinase domain well-structured. N-term flexibility minor.</td></tr>
-<tr><td>Novelty/specificity</td><td>3/10</td><td>Well-studied (centriole field). Very centrosome-specific but not novel.</td></tr>
+<tr><td>Centrosome evidence</td><td>20/20</td><td>Master centriole kinase. Extensive functional validation.</td></tr>
+<tr><td>TE relevance</td><td>7/20</td><td>Centrosome amplification → genome instability. Indirect.</td></tr>
+<tr><td>PubMed/literature</td><td>8/20</td><td>591 papers. Centrosome-rich (65%) but over-studied.</td></tr>
+<tr><td>PPI/network</td><td>18/20</td><td>CEP152-STIL-CEP192 hub; γ-tubulin connection.</td></tr>
+<tr><td>Structure/domain</td><td>9/10</td><td>PDB available; unique cryptic polo-box; kinase well-structured.</td></tr>
+<tr><td>Novelty/specificity</td><td>3/10</td><td>Well-studied centriole field. High specificity but low novelty.</td></tr>
 </table>
 
-<li><strong>Raw score:</strong> (20×4) + (7×5) + (8×4) + (18×3) + (9×2) + (3×2) = 80 + 35 + 32 + 54 + 18 + 6 = 225</li>
-<li><strong>Final centrosome score:</strong> 225 / 3.6 = <strong>63/100</strong></li>
+<li><strong>Final centrosome score:</strong> 65/100 (academic score only — overridden by PubMed elimination)</li>
 
 <h2>9. Final Decision</h2>
 
-<p><strong>CENTROSOME_CANDIDATE</strong></p>
+<p><strong>CENTROSOME_ELIMINATED</strong></p>
 
-<p><strong>Reason:</strong>: PLK4 is the master regulator of centriole biogenesis with impeccable centrosome evidence. Despite moderate publication volume, it qualifies as CANDIDATE because: (1) its centrality to centrosome biology makes it a key reference point for the module; (2) the centrosome amplification → TE activation connection is mechanistically interesting; (3) PLK4 inhibitors exist as chemical tools. However, novelty is limited.</p>
+<p><strong>Reason:</strong>: PubMed total = 591 (>100 threshold). PLK4 is the master centriole kinase with excellent biology, but 591 publications put it in the over-studied category for TEreg discovery.</p>
 
 <h2>10. Manual Review Note</h2>
 
-<li>Main atlas status: scored (nucleoplasm)</li>
-<li>PLK4 is auto-rejected in main atlas due to PubMed > 100 but centrosome module uses different criteria</li>
-<li>Worth including as a "module anchor" — provides context for interpreting less-studied centrosome proteins</li>
-<li>Consider: PLK4 inhibitor centrinone as a tool compound for centrosome-TE experiments</li>
+<li>Eliminated per PubMed > 100 rule</li>
+<li>PLK4 inhibitor centrinone may be useful as a tool compound for centrosome-depletion experiments</li>
 
 <div class="back-link">
     <a href="../protein_index.html">← Back to Centrosome Index</a>

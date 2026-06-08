@@ -15,7 +15,6 @@ tags: [protein-scout, centrosome, evaluation]
 - **Protein name:** Centrosomal protein of 97 kDa (CEP97)
 - **Synonyms:** FLJ31735, MGC125823
 - **Length:** 865 aa
-- **Main atlas overlap:** No (not in main atlas)
 - **HPA seed source:** Both (Centrosome + Centriolar satellite)
 
 ## 2. HPA Centrosome / Centriolar Satellite Evidence
@@ -25,6 +24,8 @@ tags: [protein-scout, centrosome, evaluation]
 - **HPA reliability:** Approved
 - **HPA location text:** Centrosome, centriolar satellite
 - **IF image status:** Available
+
+![[CEP97_IF_1.jpg]]
 
 Dual HPA annotation provides strong independent centrosome validation. CEP97 forms a stoichiometric complex with CCP110 (also in pilot set).
 

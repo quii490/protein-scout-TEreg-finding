@@ -37,6 +37,7 @@ td { padding: 10px 12px; border-bottom: 1px solid var(--border); }
 tr:nth-child(even) { background: var(--accent-light); }
 .badge { display: inline-block; padding: 3px 10px; border-radius: 12px; font-size: 0.8rem; font-weight: 600; }
 .badge-candidate { background: #d1fae5; color: #065f46; }
+.badge-eliminated { background: #e5e7eb; color: #6b7280; }
 .badge-low-priority { background: #fef3c7; color: #92400e; }
 .badge-manual-review { background: #fee2e2; color: #991b1b; }
 .back-link { margin: 24px 0; }
@@ -61,111 +62,87 @@ tr:nth-child(even) { background: var(--accent-light); }
 <li><strong>Protein name:</strong> Pericentriolar material 1 protein (PCM1)</li>
 <li><strong>Synonyms:</strong> hPCM1, PTC4</li>
 <li><strong>Length:</strong> 2,024 aa</li>
-<li><strong>Main atlas overlap:</strong> No (not in main atlas)</li>
 <li><strong>HPA seed source:</strong> Centriolar satellite</li>
 
 <h2>2. HPA Centrosome / Centriolar Satellite Evidence</h2>
 
 <li><strong>HPA seed source:</strong> Centriolar satellite ✓</li>
 <li><strong>HPA URL:</strong> https://www.proteinatlas.org/ENSG00000078674-PCM1</li>
-<li><strong>HPA reliability:</strong> Approved</li>
-<li><strong>HPA location text:</strong> Centriolar satellite</li>
-<li><strong>IF image status:</strong> Available — punctate cytoplasmic foci near centrosome (satellite pattern)</li>
+<li><strong>HPA reliability:</strong> Supported (IF)</li>
+<li><strong>HPA location text:</strong> Microtubules, primary cilium, centriolar satellite, basal body</li>
+<li><strong>IF image:</strong> Available</li>
 
-<p>PCM1 is the defining marker protein of centriolar satellites — granular structures surrounding the centrosome. HPA IF shows the characteristic dispersed punctate satellite pattern. Centriolar satellites are dynamic protein granules involved in centrosome protein trafficking.</p>
+<p>![[PCM1_IF_1.jpg]]</p>
+
+<p>PCM1 is the defining marker protein of centriolar satellites — dynamic protein granules surrounding the centrosome.</p>
 
 <h2>3. UniProt / GO-CC Centrosome Evidence</h2>
 
-<li><strong>UniProt subcellular location:</strong> Centriolar satellite, centrosome, cilium basal body, cytoplasm</li>
+<li><strong>UniProt subcellular location:</strong> Centriolar satellite, centrosome, cilium basal body</li>
 <li><strong>GO-CC terms:</strong></li>
 <p>  - GO:0034451 (centriolar satellite) — IDA</p>
 <p>  - GO:0005813 (centrosome) — IDA</p>
 <p>  - GO:0005814 (centriole) — IDA</p>
 <p>  - GO:0036064 (ciliary basal body) — IDA</p>
-<li><strong>Notes:</strong> PCM1 is the scaffold protein for centriolar satellite assembly. Required for ciliogenesis. Not a static centrosome component — satellites are dynamic trafficking intermediates.</li>
+<li><strong>Notes:</strong> Scaffold for centriolar satellite assembly. Required for ciliogenesis.</li>
 
 <h2>4. PubMed Evidence</h2>
 
-<li><strong>Total PubMed:</strong> 367 papers</li>
+<li><strong>Total PubMed:</strong> 367 papers ⚠️ <strong>EXCEEDS THRESHOLD (>100)</strong></li>
 <li><strong>Strict query (centrosome/centriole):</strong> 142 papers</li>
 <li><strong>Broad query:</strong> 206 papers</li>
 <li><strong>Key papers:</strong></li>
-<p>  - Kubo A et al. (1999) — Centriolar satellites: PCM1-containing granules; PMID: 10533096</p>
-<p>  - Dammermann A & Merdes A (2002) — PCM1 and dynein-dependent centrosome protein targeting; PMID: 12163438</p>
-<p>  - Hori A & Toda T (2017) — Centriolar satellite dynamics and ciliogenesis; PMID: 27565691</p>
+<p>  - Kubo A et al. (1999) — PCM1 centriolar satellites; PMID: 10533096</p>
+<p>  - Dammermann A & Merdes A (2002) — PCM1 dynein-dependent targeting; PMID: 12163438</p>
 <p>  - Villumsen BH et al. (2013) — PCM1 in DNA damage response; PMID: 23922942</p>
-<li><strong>Alias contamination note:</strong> PCM1 also found in some cancer fusion genes (PCM1-JAK2, PCM1-RET). Distinguish from hematological malignancy literature.</li>
-<li><strong>Assessment:</strong> 367 papers total. About 142 centrosome-specific. Satellite field moderate but active. Cancer fusion gene literature adds volume but is distinct.</li>
+<li><strong>Alias contamination note:</strong> PCM1-JAK2 and PCM1-RET cancer fusions inflate PubMed count — distinct biology from centrosome function.</li>
 
 <h2>5. AlphaFold / PAE / PDB / Domain</h2>
 
-<li><strong>AlphaFold pLDDT:</strong> Moderate — large protein (2,024 aa), significant disordered regions</li>
-<li><strong>PAE:</strong> Available — structured domains separated by long linkers</li>
-<li><strong>PDB:</strong> Limited (fragments only)</li>
-<li><strong>InterPro / Pfam / SMART:</strong></li>
-<p>  - Predominantly coiled-coil architecture</p>
-<p>  - Multiple putative protein interaction motifs</p>
-<p>  - No catalytic domains — scaffolding protein</p>
-<li><strong>Domain notes:</strong> PCM1 is a large coiled-coil scaffold. Contains multiple centrosome-targeting motifs. Disordered regions may mediate liquid-liquid phase separation (LLPS) — a property of many satellite proteins. No resolved PDB structure for full-length protein.</li>
+<li><strong>AlphaFold pLDDT:</strong> Moderate (2,024 aa, significant disorder)</li>
+<li><strong>PAE:</strong> Available</li>
+<li><strong>PDB:</strong> Limited (fragments)</li>
+<li><strong>InterPro:</strong> Predominantly coiled-coil; no catalytic domains</li>
+<li><strong>Domain notes:</strong> Large coiled-coil scaffold. LLPS potential. No resolved full-length structure.</li>
 
 <h2>6. PPI / humanPPI</h2>
 
-<li><strong>STRING:</strong> Extensive satellite interaction network</li>
-<li><strong>IntAct:</strong> Curated interactions</li>
-<li><strong>BioGRID:</strong> Physical interactions</li>
-<li><strong>humanPPI:</strong> Available</li>
-<li><strong>Centrosome-related interactors:</strong></li>
-<p>  - CEP290 (satellite/centriole, ciliopathy protein)</p>
-<p>  - BBS4 (BBSome, satellite component)</p>
-<p>  - OFD1 (satellite, ciliopathy protein)</p>
-<p>  - CEP131 (satellite, centriole)</p>
-<p>  - SSX2IP (satellite protein)</p>
-<p>  - DCTN1 (dynactin, dynein-mediated transport)</p>
-<p>  - PLK4 (centriole kinase — recruitment via satellites?)</p>
-<li><strong>Cancer fusion partners:</strong></li>
-<p>  - JAK2 (PCM1-JAK2 in leukemia — caution: distinct biology)</p>
-<p>  - RET (PCM1-RET in thyroid cancer)</p>
+<li><strong>STRING:</strong> Extensive satellite network</li>
+<li><strong>Centrosome interactors:</strong> CEP290, BBS4, OFD1, CEP131, SSX2IP, DCTN1, PLK4</li>
+<li><strong>Cancer fusion partners:</strong> JAK2, RET (distinct biology)</li>
 
 <h2>7. TE-Regulator Relevance</h2>
 
-<li><strong>Evidence:</strong></li>
-<p>  - PCM1 localizes to DNA damage foci upon UV/IR treatment (Villumsen et al., 2013)</p>
-<p>  - Centriolar satellites regulate centrosomal protein trafficking — may affect cell cycle regulation of TE silencing</p>
-<p>  - PCM1 depletion causes ciliogenesis defects → loss of Hedgehog signaling → developmental pathway relevant to TE silencing during differentiation</p>
-<p>  - PCM1 interacts with CEP290, which also has nuclear/nucleolar localization</p>
-<p>  - Satellite disassembly in mitosis releases PCM1 to cytoplasm — may have uncharacterized cytoplasmic DNA sensing functions</p>
-<p>  - PCM1's DNA damage localization is independent of its centrosome role — suggests moonlighting function</p>
-<li><strong>Strength:</strong> Moderate. The DNA damage localization is directly relevant but the TE connection is not established. Ciliogenesis link connects to developmental TE silencing pathways.</li>
-<li><strong>Caveats:</strong> Most PCM1 literature is on satellite biology and cancer fusions. DNA damage function is less studied.</li>
+<li>PCM1 localizes to DNA damage foci upon UV/IR (Villumsen et al., 2013)</li>
+<li>Ciliogenesis defects → loss of Hedgehog signaling → relevant to developmental TE silencing</li>
+<li>Satellite disassembly in mitosis — potential uncharacterized DNA sensing functions</li>
+<li><strong>Strength:</strong> Moderate. DNA damage localization directly relevant.</li>
 
 <h2>8. Centrosome Scoring Table</h2>
 
 <table>
 <tr><th>Dimension</th><th>Score</th><th>Evidence</th></tr>
-<tr><td>Centrosome evidence</td><td>18/20</td><td>Defining satellite marker. HPA + UniProt + GO-CC. Satellite-specific biology unique.</td></tr>
-<tr><td>TE relevance</td><td>10/20</td><td>DNA damage foci localization. Ciliogenesis/signaling link. Two independent TE-relevant connections.</td></tr>
-<tr><td>PubMed/literature</td><td>8/20</td><td>367 papers total. Cancer fusion literature inflates count. Centrosome component well-characterized.</td></tr>
-<tr><td>PPI/network</td><td>16/20</td><td>Satellite hub. Interacts with BBSome, CEP290, OFD1, CEP131, dynein. Rich interaction network.</td></tr>
-<tr><td>Structure/domain</td><td>4/10</td><td>Large coiled-coil scaffold. No PDB. Moderate pLDDT. LLPS potential interesting but unresolved.</td></tr>
-<tr><td>Novelty/specificity</td><td>6/10</td><td>Active satellite field. DNA damage function is novel/under-studied aspect. Not in main atlas.</td></tr>
+<tr><td>Centrosome evidence</td><td>18/20</td><td>Defining satellite marker. HPA + UniProt + GO-CC.</td></tr>
+<tr><td>TE relevance</td><td>10/20</td><td>DNA damage foci; ciliogenesis/signaling.</td></tr>
+<tr><td>PubMed/literature</td><td>8/20</td><td>367 papers. Cancer fusion literature inflates count.</td></tr>
+<tr><td>PPI/network</td><td>16/20</td><td>Satellite hub. BBSome-CEP290-OFD1 network.</td></tr>
+<tr><td>Structure/domain</td><td>4/10</td><td>Large coiled-coil; no PDB; LLPS potential.</td></tr>
+<tr><td>Novelty/specificity</td><td>6/10</td><td>DNA damage function under-studied.</td></tr>
 </table>
 
-<li><strong>Raw score:</strong> (18×4) + (10×5) + (8×4) + (16×3) + (4×2) + (6×2) = 72 + 50 + 32 + 48 + 8 + 12 = 222</li>
-<li><strong>Final centrosome score:</strong> 222 / 3.6 = <strong>62/100</strong></li>
+<li><strong>Final centrosome score:</strong> 62/100 (academic score only — overridden by PubMed elimination)</li>
 
 <h2>9. Final Decision</h2>
 
-<p><strong>CENTROSOME_CANDIDATE</strong></p>
+<p><strong>CENTROSOME_ELIMINATED</strong></p>
 
-<p><strong>Reason:</strong>: PCM1 is the defining centriolar satellite protein with unique satellite biology. Its DNA damage foci localization provides an unexpected TE-relevant function. Not in main atlas (new protein). Moderate-high publication volume but satellite DNA damage function is under-studied. Large size (2,024 aa) is a practical concern but manageable as a scaffold.</p>
+<p><strong>Reason:</strong>: PubMed total = 367 (>100 threshold). PCM1 cancer fusion literature (JAK2, RET) inflates count. Core satellite biology is well-characterized but over-studied for TEreg discovery.</p>
 
 <h2>10. Manual Review Note</h2>
 
-<li>Not in main atlas — "discovery" for centrosome module</li>
-<li>PCM1 DNA damage localization should be further investigated for TE biology relevance</li>
-<li>Consider PCM1 as a satellite-biology anchor for the centrosome module</li>
-<li>PCM1-JAK2 fusion is a leukemia driver — confirms PCM1's role in cellular transformation but is a distinct mechanism from TE regulation</li>
-<li>2,024 aa is large for recombinant expression; consider domain-based approaches</li>
+<li>Eliminated per PubMed > 100 rule</li>
+<li>Cancer fusion literature (JAK2/RET) accounts for ~40% of publications — distinct from centrosome biology</li>
+<li>DNA damage foci localization (2013) is an under-explored function worth noting</li>
 
 <div class="back-link">
     <a href="../protein_index.html">← Back to Centrosome Index</a>

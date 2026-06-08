@@ -37,6 +37,7 @@ td { padding: 10px 12px; border-bottom: 1px solid var(--border); }
 tr:nth-child(even) { background: var(--accent-light); }
 .badge { display: inline-block; padding: 3px 10px; border-radius: 12px; font-size: 0.8rem; font-weight: 600; }
 .badge-candidate { background: #d1fae5; color: #065f46; }
+.badge-eliminated { background: #e5e7eb; color: #6b7280; }
 .badge-low-priority { background: #fef3c7; color: #92400e; }
 .badge-manual-review { background: #fee2e2; color: #991b1b; }
 .back-link { margin: 24px 0; }
@@ -61,18 +62,19 @@ tr:nth-child(even) { background: var(--accent-light); }
 <li><strong>Protein name:</strong> Centrin-2 (CETN2)</li>
 <li><strong>Synonyms:</strong> CALT, CEN2</li>
 <li><strong>Length:</strong> 172 aa</li>
-<li><strong>Main atlas overlap:</strong> Yes (status: scored, category: nuclear-envelope)</li>
 <li><strong>HPA seed source:</strong> Centrosome</li>
 
 <h2>2. HPA Centrosome / Centriolar Satellite Evidence</h2>
 
 <li><strong>HPA seed source:</strong> Centrosome ✓</li>
 <li><strong>HPA URL:</strong> https://www.proteinatlas.org/ENSG00000147400-CETN2</li>
-<li><strong>HPA reliability:</strong> Approved</li>
-<li><strong>HPA location text:</strong> Centrosome, centriole</li>
-<li><strong>IF image status:</strong> Available — punctate centrosome staining</li>
+<li><strong>HPA reliability:</strong> Supported (IF)</li>
+<li><strong>HPA location text:</strong> Nucleoplasm, flagellar centriole, centrosome</li>
+<li><strong>IF image:</strong> Available</li>
 
-<p>CETN2 is a core centriole component and a member of the centrin family of calcium-binding proteins. HPA IF shows characteristic centrosome puncta.</p>
+<p>![[CETN2_IF_1.jpg]]</p>
+
+<p>CETN2 is a core centriole component and calcium-binding protein. HPA IF shows centrosome puncta.</p>
 
 <h2>3. UniProt / GO-CC Centrosome Evidence</h2>
 
@@ -82,91 +84,68 @@ tr:nth-child(even) { background: var(--accent-light); }
 <p>  - GO:0005814 (centriole) — IDA, TAS</p>
 <p>  - GO:0036064 (ciliary basal body) — IDA</p>
 <p>  - GO:0035869 (ciliary transition zone) — IDA</p>
-<p>  - GO:0005634 (nucleus) — IDA (nucleotide excision repair)</p>
-<li><strong>Notes:</strong> CETN2 has dual localization: centrosome (structural centriole component) and nucleus (NER/DNA repair). This dual role is notable for TE biology.</li>
+<p>  - GO:0005634 (nucleus) — IDA (NER)</p>
+<li><strong>Notes:</strong> Dual role: centrosome (structural centriole) + nucleus (NER/DNA repair). This dual function is notable for TE biology.</li>
 
 <h2>4. PubMed Evidence</h2>
 
-<li><strong>Total PubMed:</strong> 111 papers</li>
+<li><strong>Total PubMed:</strong> 111 papers ⚠️ <strong>EXCEEDS THRESHOLD (>100)</strong></li>
 <li><strong>Strict query (centrosome/centriole):</strong> 55 papers</li>
 <li><strong>Broad query:</strong> 92 papers</li>
 <li><strong>Key papers:</strong></li>
 <p>  - Salisbury JL et al. (2002) — Centrin-2 and centriole duplication; PMID: 11864938</p>
-<p>  - Araki M et al. (2001) — Centrin-2 in NER; interacts with XPC; PMID: 11278958</p>
-<p>  - Nishi R et al. (2005) — CETN2 enhances XPC damage recognition in NER; PMID: 15964821</p>
-<p>  - Yang CH et al. (2006) — Dual role: centriole and DNA repair; PMID: 16713576</p>
-<li><strong>Alias contamination note:</strong> Also known as CALT (caltractin). Minimal contamination.</li>
-<li><strong>Assessment:</strong> 111 papers total. Unique dual role in centrosome + DNA repair. NER function (40+ papers) separate from centrosome literature. This dual function is highly relevant for TE biology.</li>
+<p>  - Araki M et al. (2001) — CETN2 in NER; interacts with XPC; PMID: 11278958</p>
+<p>  - Nishi R et al. (2005) — CETN2 enhances XPC damage recognition; PMID: 15964821</p>
+<li><strong>Assessment:</strong> 111 papers. Unique dual role in centrosome + NER DNA repair. NER function highly relevant for TE biology.</li>
 
 <h2>5. AlphaFold / PAE / PDB / Domain</h2>
 
-<li><strong>AlphaFold pLDDT:</strong> Very high (172 aa, small protein, well-folded)</li>
-<li><strong>PAE:</strong> Available — compact EF-hand domain, excellent confidence</li>
-<li><strong>PDB:</strong> Available. Key structures:</li>
-<p>  - 2A4J (CETN2 + XPC peptide, NER complex)</p>
-<p>  - 2GGM (CETN2 + Sfi1 peptide, centrosome)</p>
-<p>  - Multiple EF-hand conformations (Ca²⁺-bound vs. apo)</p>
-<li><strong>InterPro / Pfam / SMART:</strong></li>
-<p>  - IPR002048: EF-hand domain (Pfam: PF13499)</p>
-<p>  - IPR011992: EF-hand domain pair</p>
-<p>  - 4 EF-hand motifs</p>
-<li><strong>Domain notes:</strong> Small (172 aa), compact EF-hand protein. Calcium binding induces conformational change. Two distinct binding modes: XPC peptide (NER) vs. Sfi1 peptide (centrosome). Well-characterized structurally.</li>
+<li><strong>AlphaFold pLDDT:</strong> Very high (172 aa, compact, well-folded)</li>
+<li><strong>PAE:</strong> Available</li>
+<li><strong>PDB:</strong> 2A4J (CETN2+XPC), 2GGM (CETN2+Sfi1)</li>
+<li><strong>InterPro:</strong> IPR002048 EF-hand; 4 EF-hand motifs</li>
+<li><strong>Domain notes:</strong> Calcium-induced conformational change. Two binding modes: XPC (NER) vs. Sfi1 (centrosome).</li>
 
 <h2>6. PPI / humanPPI</h2>
 
-<li><strong>STRING:</strong> Good interaction network</li>
-<li><strong>IntAct:</strong> Curated interactions</li>
-<li><strong>BioGRID:</strong> Physical interactions</li>
-<li><strong>humanPPI:</strong> Available</li>
-<li><strong>Centrosome-related interactors:</strong></li>
-<p>  - Sfi1 (centrin-binding scaffold, centriole)</p>
-<p>  - POC5 (centriole protein)</p>
-<p>  - hPOC1 (centriole)</p>
-<li><strong>NER-related interactors:</strong></li>
-<p>  - XPC (DNA damage recognition, NER)</p>
-<p>  - RAD23B (NER co-factor)</p>
-<p>  - HR23B (NER)</p>
+<li><strong>STRING:</strong> Good network</li>
+<li><strong>IntAct:</strong> Curated</li>
+<li><strong>Centrosome interactors:</strong> Sfi1, POC5, hPOC1</li>
+<li><strong>NER interactors:</strong> XPC, RAD23B, HR23B</li>
 
 <h2>7. TE-Regulator Relevance</h2>
 
-<li><strong>Evidence:</strong></li>
-<p>  - CETN2 is a core component of Nucleotide Excision Repair (NER) — directly involved in DNA damage recognition with XPC</p>
-<p>  - NER repairs UV-induced and bulky DNA lesions — same repair pathways activated by TE integration intermediates</p>
-<p>  - CETN2 enhances XPC binding to damaged DNA — may recognize TE-induced DNA structures</p>
-<p>  - CETN2's dual role (centrosome + NER) is unique: it physically connects centrosome biology to DNA repair</p>
-<p>  - TE integration and excision can generate DNA intermediates recognized by NER machinery</p>
-<p>  - Recent evidence: centriolar CETN2 pool may regulate ciliary signaling relevant to developmental TE silencing</p>
-<li><strong>Strength:</strong> High. CETN2's NER function provides a direct molecular link between a "centrosome protein" and DNA repair/TE biology. This is one of the strongest TE-relevance connections in the centrosome seed list.</li>
-<li><strong>Caveats:</strong> The NER connection is well-established but the specific TE-related DNA damage context needs experimental validation.</li>
+<li>Core component of Nucleotide Excision Repair (NER) — directly involved in DNA damage recognition with XPC</li>
+<li>NER repairs UV/bulky DNA lesions — same pathways activated by TE integration intermediates</li>
+<li>CETN2's dual role (centrosome + NER) uniquely connects centrosome biology to DNA repair</li>
+<li><strong>Strength:</strong> Highest TE relevance in pilot set due to direct NER/DNA repair function</li>
 
 <h2>8. Centrosome Scoring Table</h2>
 
 <table>
 <tr><th>Dimension</th><th>Score</th><th>Evidence</th></tr>
-<tr><td>Centrosome evidence</td><td>19/20</td><td>Core centriole protein. HPA + UniProt + GO-CC + PDB. Well-validated.</td></tr>
-<tr><td>TE relevance</td><td>16/20</td><td>Direct NER/DNA repair role. XPC co-factor. Dual centrosome-DNA repair protein. Strongest TE link in pilot set.</td></tr>
-<tr><td>PubMed/literature</td><td>10/20</td><td>111 papers; well-balanced between centrosome and NER literature.</td></tr>
-<tr><td>PPI/network</td><td>14/20</td><td>Bipartite network: centrosome (Sfi1, POC5) + NER (XPC, RAD23B). Unique dual interactome.</td></tr>
-<tr><td>Structure/domain</td><td>10/10</td><td>High-res PDB available; EF-hand conformations characterized; compact, well-folded.</td></tr>
-<tr><td>Novelty/specificity</td><td>7/10</td><td>Dual role is underappreciated. Centrosome + NER combination is unique. Small size (172 aa) ideal for biochemistry.</td></tr>
+<tr><td>Centrosome evidence</td><td>19/20</td><td>Core centriole protein. HPA + UniProt + GO-CC + PDB.</td></tr>
+<tr><td>TE relevance</td><td>16/20</td><td>Direct NER/DNA repair. XPC co-factor. Strongest TE link.</td></tr>
+<tr><td>PubMed/literature</td><td>10/20</td><td>111 papers. Well-balanced but barely over threshold.</td></tr>
+<tr><td>PPI/network</td><td>14/20</td><td>Bipartite: centrosome + NER (XPC, RAD23B).</td></tr>
+<tr><td>Structure/domain</td><td>10/10</td><td>High-res PDB; compact EF-hand; well-characterized.</td></tr>
+<tr><td>Novelty/specificity</td><td>7/10</td><td>Dual role underappreciated. Small size (172 aa).</td></tr>
 </table>
 
-<li><strong>Raw score:</strong> (19×4) + (16×5) + (10×4) + (14×3) + (10×2) + (7×2) = 76 + 80 + 40 + 42 + 20 + 14 = 272</li>
-<li><strong>Final centrosome score:</strong> 272 / 3.6 = <strong>76/100</strong></li>
+<li><strong>Final centrosome score:</strong> 76/100 (academic score only — overridden by PubMed elimination)</li>
 
 <h2>9. Final Decision</h2>
 
-<p><strong>CENTROSOME_CANDIDATE</strong></p>
+<p><strong>CENTROSOME_ELIMINATED</strong></p>
 
-<p><strong>Reason:</strong>: CETN2 stands out from the pilot set due to its unique dual role: core centriole protein + NER DNA repair co-factor. The NER function provides a direct molecular bridge between centrosome biology and DNA repair — highly relevant for TE biology. Well-characterized structurally, moderate publication volume, small protein size ideal for experiments. Highest TE relevance score in the pilot set.</p>
+<p><strong>Reason:</strong>: PubMed total = 111 (barely over the 100 threshold). CETN2 is the most TE-relevant centrosome protein in the pilot (direct NER function), but is eliminated by the PubMed > 100 rule. This is a borderline case — the NER literature inflates the count relative to centrosome-specific papers (55).</p>
 
 <h2>10. Manual Review Note</h2>
 
-<li>Main atlas status: scored (nuclear-envelope) — also has nuclear localization consistent with NER function</li>
-<li>Strongest candidate for experimental follow-up in the pilot set</li>
-<li>CETN2's NER function with XPC could be tested for TE DNA intermediate recognition</li>
-<li>Small size (172 aa) makes it ideal for recombinant expression and in vitro reconstitution</li>
-<li>Consider: does centriolar CETN2 recognize DNA damage at the centrosome? Open question.</li>
+<li>Eliminated per PubMed > 100 rule. Borderline case at 111 papers.</li>
+<li>NER literature (XPC co-factor studies) accounts for ~50% of publications — functionally distinct from centrosome biology</li>
+<li>If threshold considers only centrosome-specific papers (55), CETN2 would be a top CANDIDATE</li>
+<li>Recommended: flag for potential re-evaluation if PubMed threshold is refined to exclude non-centrosome literature</li>
 
 <div class="back-link">
     <a href="../protein_index.html">← Back to Centrosome Index</a>

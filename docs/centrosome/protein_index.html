@@ -26,6 +26,7 @@ td { padding: 8px 10px; border-bottom: 1px solid var(--border); }
 tr:hover { background: var(--accent-light); }
 .badge { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 0.7rem; font-weight: 600; }
 .badge-candidate { background: #d1fae5; color: #065f46; }
+.badge-eliminated { background: #e5e7eb; color: #6b7280; }
 .badge-low-priority { background: #fef3c7; color: #92400e; }
 .badge-manual-review { background: #fee2e2; color: #991b1b; }
 a { color: var(--accent); text-decoration: none; }
@@ -66,16 +67,16 @@ a:hover { text-decoration: underline; }
             </tr>
         </thead>
         <tbody>
-<tr><td><a href="reports/CETN2.html">CETN2</a></td><td><span class="badge badge-manual-review">centrosome_candidate</span></td><td>76.0</td><td>19.0</td><td>16.0</td><td>10.0</td><td>14.0</td><td>10.0</td><td>7.0</td></tr>
-<tr><td><a href="reports/CEP192.html">CEP192</a></td><td><span class="badge badge-manual-review">centrosome_candidate</span></td><td>63.0</td><td>20.0</td><td>6.0</td><td>10.0</td><td>18.0</td><td>5.0</td><td>6.0</td></tr>
-<tr><td><a href="reports/PLK4.html">PLK4</a></td><td><span class="badge badge-manual-review">centrosome_candidate</span></td><td>63.0</td><td>20.0</td><td>7.0</td><td>8.0</td><td>18.0</td><td>9.0</td><td>3.0</td></tr>
-<tr><td><a href="reports/AURKA.html">AURKA</a></td><td><span class="badge badge-manual-review">centrosome_low_priority</span></td><td>62.0</td><td>20.0</td><td>8.0</td><td>5.0</td><td>20.0</td><td>10.0</td><td>2.0</td></tr>
-<tr><td><a href="reports/CCP110.html">CCP110</a></td><td><span class="badge badge-manual-review">centrosome_candidate</span></td><td>62.0</td><td>19.0</td><td>7.0</td><td>10.0</td><td>15.0</td><td>6.0</td><td>7.0</td></tr>
-<tr><td><a href="reports/CEP97.html">CEP97</a></td><td><span class="badge badge-manual-review">centrosome_candidate</span></td><td>62.0</td><td>19.0</td><td>7.0</td><td>10.0</td><td>15.0</td><td>5.0</td><td>8.0</td></tr>
-<tr><td><a href="reports/NEDD1.html">NEDD1</a></td><td><span class="badge badge-manual-review">centrosome_candidate</span></td><td>62.0</td><td>19.0</td><td>6.0</td><td>10.0</td><td>16.0</td><td>7.0</td><td>7.0</td></tr>
-<tr><td><a href="reports/PCM1.html">PCM1</a></td><td><span class="badge badge-manual-review">centrosome_candidate</span></td><td>62.0</td><td>18.0</td><td>10.0</td><td>8.0</td><td>16.0</td><td>4.0</td><td>6.0</td></tr>
-<tr><td><a href="reports/CEP72.html">CEP72</a></td><td><span class="badge badge-manual-review">centrosome_candidate</span></td><td>58.0</td><td>18.0</td><td>7.0</td><td>10.0</td><td>12.0</td><td>5.0</td><td>7.0</td></tr>
-<tr><td><a href="reports/CCDC14.html">CCDC14</a></td><td><span class="badge badge-manual-review">centrosome_candidate</span></td><td>26.0</td><td>6.0</td><td>3.0</td><td>6.0</td><td>2.0</td><td>3.0</td><td>10.0</td></tr>
+<tr><td><a href="reports/CETN2.html">CETN2</a></td><td><span class="badge badge-eliminated">centrosome_eliminated</span></td><td>76.0</td><td>19.0</td><td>16.0</td><td>10.0</td><td>14.0</td><td>10.0</td><td>7.0</td></tr>
+<tr><td><a href="reports/AURKA.html">AURKA</a></td><td><span class="badge badge-eliminated">centrosome_eliminated</span></td><td>65.0</td><td>20.0</td><td>8.0</td><td>5.0</td><td>20.0</td><td>10.0</td><td>2.0</td></tr>
+<tr><td><a href="reports/CEP192.html">CEP192</a></td><td><span class="badge badge-eliminated">centrosome_eliminated</span></td><td>65.0</td><td>20.0</td><td>6.0</td><td>10.0</td><td>18.0</td><td>5.0</td><td>6.0</td></tr>
+<tr><td><a href="reports/PLK4.html">PLK4</a></td><td><span class="badge badge-eliminated">centrosome_eliminated</span></td><td>65.0</td><td>20.0</td><td>7.0</td><td>8.0</td><td>18.0</td><td>9.0</td><td>3.0</td></tr>
+<tr><td><a href="reports/CCP110.html">CCP110</a></td><td><span class="badge badge-candidate">centrosome_candidate</span></td><td>62.0</td><td>19.0</td><td>7.0</td><td>10.0</td><td>15.0</td><td>6.0</td><td>7.0</td></tr>
+<tr><td><a href="reports/CEP97.html">CEP97</a></td><td><span class="badge badge-candidate">centrosome_candidate</span></td><td>62.0</td><td>19.0</td><td>7.0</td><td>10.0</td><td>15.0</td><td>5.0</td><td>8.0</td></tr>
+<tr><td><a href="reports/NEDD1.html">NEDD1</a></td><td><span class="badge badge-candidate">centrosome_candidate</span></td><td>62.0</td><td>19.0</td><td>6.0</td><td>10.0</td><td>16.0</td><td>7.0</td><td>7.0</td></tr>
+<tr><td><a href="reports/PCM1.html">PCM1</a></td><td><span class="badge badge-eliminated">centrosome_eliminated</span></td><td>62.0</td><td>18.0</td><td>10.0</td><td>8.0</td><td>16.0</td><td>4.0</td><td>6.0</td></tr>
+<tr><td><a href="reports/CEP72.html">CEP72</a></td><td><span class="badge badge-candidate">centrosome_candidate</span></td><td>58.0</td><td>18.0</td><td>7.0</td><td>10.0</td><td>12.0</td><td>5.0</td><td>7.0</td></tr>
+<tr><td><a href="reports/CCDC14.html">CCDC14</a></td><td><span class="badge badge-manual-review">centrosome_manual_review</span></td><td>26.0</td><td>6.0</td><td>3.0</td><td>6.0</td><td>2.0</td><td>3.0</td><td>10.0</td></tr>
         </tbody>
     </table>
 </div>
