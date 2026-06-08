@@ -7,27 +7,24 @@ date: 2026-06-08
 tags: [protein-scout, centrosome, evaluation, eliminated]
 ---
 
-# LGR4 — Centrosome Module Evaluation (ELIMINATED)
+# LGR4 — 中心体模块评估（已淘汰）
 
 ## 1. 基本信息
 
-- **Gene:** LGR4
+- **基因:** LGR4
 - **Ensembl:** ENSG00000205213
-- **HPA seed source:** both
-- **PubMed total:** 419 papers ⚠️ **EXCEEDS THRESHOLD (>100)**
+- **HPA 来源:** 中心体+中心粒卫星
+- **PubMed 总数:** 419 篇 ⚠️ **超过阈值 (>100)**
 
-## 2. ELIMINATED
+## 2. 淘汰原因
 
-**Reason:** PubMed total = 419 (>100 threshold). Eliminated per centrosome module PubMed > 100 rule.
+PubMed 总文献数 = 419 (>100 篇)。按中心体模块 PubMed 淘汰规则自动淘汰。
 
-**Centrosome-specific papers:** N/A
+## 3. HPA 种子证据
 
-## 3. HPA Seed Evidence
+- HPA 来源: 中心体+中心粒卫星
+- HPA 链接: https://www.proteinatlas.org/ENSG00000205213-LGR4
 
-- HPA source: both
-- HPA URL: https://www.proteinatlas.org/ENSG00000205213-LGR4
+## 4. 备注
 
-## 4. Notes
-
-- No detailed evaluation performed (auto-eliminated by PubMed count).
-- To re-evaluate, manually review whether PubMed count is inflated by aliases or non-centrosome literature.
+- 因 PubMed 文献量超阈值自动淘汰，未进行详细评估。

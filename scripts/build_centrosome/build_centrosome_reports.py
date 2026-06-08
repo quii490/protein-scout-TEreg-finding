@@ -41,7 +41,7 @@ def parse_evaluation(path):
     scores = {}
     in_table = False
     for line in lines:
-        if '| Dimension | Score' in line:
+        if '| Dimension | Score' in line or '| 维度 | 评分' in line or '| 维度 | Score' in line:
             in_table = True
             continue
         if in_table and line.startswith('|') and '---' not in line and line.count('|') >= 3:
@@ -59,7 +59,7 @@ def parse_evaluation(path):
 
     # Parse final score (may be outside table)
     for line in lines:
-        if 'Final centrosome score' in line or 'Final score' in line or 'final score' in line.lower():
+        if 'Final centrosome score' in line or 'Final score' in line or 'final score' in line.lower() or '最终评分' in line:
             score_match = re.search(r'\*{0,2}(\d+)\s*/\s*100\*{0,2}', line)
             if score_match:
                 scores['final'] = float(score_match.group(1))
@@ -82,12 +82,12 @@ def parse_evaluation(path):
         'gene': gene,
         'status': status,
         'final_centrosome_score': scores.get('final', 0),
-        'centrosome_evidence_score': scores.get('Centrosome evidence', 0),
-        'te_relevance_score': scores.get('TE relevance', 0),
-        'pubmed_score': scores.get('PubMed/literature', 0) or scores.get('PubMed', 0) or 0,
-        'ppi_score': scores.get('PPI/network', 0) or scores.get('PPI', 0) or 0,
-        'structure_domain_score': scores.get('Structure/domain', 0) or scores.get('Structure', 0) or 0,
-        'novelty_specificity_score': scores.get('Novelty/specificity', 0) or scores.get('Novelty', 0) or 0,
+        'centrosome_evidence_score': scores.get('Centrosome evidence', 0) or scores.get('中心体证据', 0),
+        'te_relevance_score': scores.get('TE relevance', 0) or scores.get('TE relevance', 0),
+        'pubmed_score': scores.get('PubMed/literature', 0) or scores.get('文献/PubMed', 0) or scores.get('PubMed', 0) or 0,
+        'ppi_score': scores.get('PPI/network', 0) or scores.get('PPI/互作网络', 0) or scores.get('PPI', 0) or 0,
+        'structure_domain_score': scores.get('Structure/domain', 0) or scores.get('结构/结构域', 0) or scores.get('Structure', 0) or 0,
+        'novelty_specificity_score': scores.get('Novelty/specificity', 0) or scores.get('新颖性/特异性', 0) or scores.get('Novelty', 0) or 0,
         'source_centrosome': '$centro' in content,
         'source_centriolar_satellite': False,
         'source_both': False,

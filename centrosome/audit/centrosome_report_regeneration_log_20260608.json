@@ -1,0 +1,3513 @@
+{
+  "date": "2026-06-08T22:20:20.593372",
+  "total": 701,
+  "eliminated": 250,
+  "candidate": 451,
+  "genes": [
+    {
+      "gene": "AAAS",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "ACADS",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "ADNP",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "AHI1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "AK5",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "AKAP9",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "ALMS1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "ALPK1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "ANP32A",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "ANP32B",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "ANP32E",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "APEX1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "ARL3",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "ASAP1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "ATF3",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "ATG5",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "AUH",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "AVEN",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "BAG2",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "BAG5",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "BCO1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "BICC1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "BIRC7",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "BRAF",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "BRMS1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "CALCR",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "CAPRIN1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "CAPS2",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "CASP8",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "CCDC88A",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "CCNF",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "CCNO",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "CD226",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "CD2AP",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "CD86",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "CDC45",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "CDK2",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "CDK5RAP2",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "CDKN1B",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "CENPJ",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "CEP164",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "CEP290",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "CEP55",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "CHD3",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "CHPF",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "CIP2A",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "CKAP5",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "CLIC4",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "CLRN1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "CLTC",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "CPE",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "CREB1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "CREB3",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "CRIP1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "CRMP1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "CYLD",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "DAPK1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "DCC",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "DCDC2",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "DCTN2",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "DDX60",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "DLG4",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "DMBT1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "DMRT2",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "DRD4",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "DVL3",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "DYNC1H1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "DYRK1A",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "DYSF",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "E2F1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "EMSY",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "ENGASE",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "EP300",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "ERC1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "EYA3",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "FANCE",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "FEZF2",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "FGF23",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "FGFR1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "FLII",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "FLT4",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "G6PD",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "GAPDHS",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "GAS6",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "GLI2",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "GLP1R",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "GNAI1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "GNAI3",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "GNB5",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "GPSM2",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "GRAP",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "GRB2",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "GTSE1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "HDAC6",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "HK2",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "HMMR",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "HNMT",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "HOXB4",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "ID2",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "IFT88",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "IL1RN",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "IL4R",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "INPP4B",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "INSR",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "INVS",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "ISM2",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "ITGB6",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "IVL",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "KEAP1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "KIF1A",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "KIF2A",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "KIF2C",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "KIF5B",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "KIFC1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "LATS2",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "LGR4",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "LGR5",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "LHCGR",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "LTB",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "LY9",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "LYST",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "LZTR1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "MAL",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "MAP4K3",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "MAPK8IP3",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "MAPKAPK2",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "MAPRE1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "MATK",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "MDH1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "MDM2",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "MIB1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "MID1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "MKKS",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "MLF1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "MME",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "MPDZ",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "MPP1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "MTHFR",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "MYO5A",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "MYOF",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "NAE1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "NDC80",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "NDRG2",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "NEFH",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "NEK1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "NEK2",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "NEK6",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "NFE2L2",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "NIN",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "NIT2",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "NLRC3",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "NLRC5",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "NPTX2",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "NR0B1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "NR6A1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "NUDT21",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "NUP107",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "OAS2",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "OCRL",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "ODF2",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "PACSIN2",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "PAFAH1B1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "PATJ",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "PCDH9",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "PCLAF",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "PCNT",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "PDCD6IP",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "PDCL2",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "PDE11A",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "PDE4C",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "PDIA6",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "PEAR1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "PELI1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "PHLPP2",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "PIAS4",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "PIBF1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "PKN2",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "PLAG1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "PLCB4",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "PLVAP",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "PLXNA1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "PODXL",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "POFUT1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "PPARA",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "PRKAR2A",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "PRKCQ",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "PSMA1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "PSMB5",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "PSMD2",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "PXN",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "RAB11A",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "RAB11B",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "RAB23",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "RAB3A",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "RAB8A",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "RAPSN",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "RBM39",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "RLBP1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "RRM1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "RUVBL2",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "SATB2",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "SEMA4D",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "SERINC5",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "SH2B1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "SHD",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "SKA1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "SKA3",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "SKP1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "SLC18A2",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "SLC1A4",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "SLC1A5",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "SLC2A1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "SLC8A3",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "SLC9A3R1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "SMAD4",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "SMAD7",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "SNAP29",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "SNAP91",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "SNCG",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "SORBS1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "SP6",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "SPAG9",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "SRGAP2",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "SSRP1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "STIL",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "STK11",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "SYNJ1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "TACC3",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "TACR1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "TAP1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "TBX15",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "TCHP",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "TECPR2",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "TEK",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "TGFB3",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "TGIF2",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "THBS2",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "TLN1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "TNFAIP3",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "TP73",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "TRAF5",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "TRPM1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "TRPV3",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "TUB",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "UBR4",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "UXT",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "VASH1",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "VLDLR",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "WAC",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "WDR62",
+      "status": "ELIMINATED",
+      "lines": 30
+    },
+    {
+      "gene": "ABCA13",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "ACTR8",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "ACTRT3",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "ADCK2",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "ADPGK",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "AGBL5",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "AGTPBP1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "AK6",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "AKNA",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "ALDH8A1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "AMN1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "ANKAR",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "ANKRD31",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "ANKRD45",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "APOBR",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "ARHGAP29",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "ARHGAP40",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "ARHGEF38",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "ARL2BP",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "ARL9",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "ATAD5",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "ATP11B",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "AUNIP",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "B9D2",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "BBIP1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "BBOF1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "BCAR3",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "BCAS2",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "BEAN1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "BHLHE22",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "BLTP1",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "BUD31",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "C11orf80",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "C12orf73",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "C16orf74",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "C16orf96",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "C19orf54",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "C1QTNF2",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "C1orf146",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "C20orf96",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "C2CD3",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "C2CD5",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "C2orf74",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "C3orf49",
+      "status": "CANDIDATE",
+      "lines": 90
+    },
+    {
+      "gene": "C3orf56",
+      "status": "CANDIDATE",
+      "lines": 91
+    },
+    {
+      "gene": "C5orf58",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "C9orf40",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CABCOCO1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CALML6",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CAMK2N2",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CAPN6",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CAPN7",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CAPRIN2",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CBY1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CCDC13",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CCDC32",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CCDC39",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CCDC51",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CCDC57",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CCDC65",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CCDC66",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CCDC74A",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CCDC74B",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CCDC88B",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CCDC92",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CD163L1",
+      "status": "CANDIDATE",
+      "lines": 95
+    },
+    {
+      "gene": "CDIP1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CDKL2",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CENPU",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CEP112",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CEP128",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CEP131",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CEP152",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CEP162",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CEP170",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CEP170B",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CEP19",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CEP20",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "CEP250",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CEP350",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CEP43",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CEP57",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CEP63",
+      "status": "CANDIDATE",
+      "lines": 92
+    },
+    {
+      "gene": "CEP68",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CEP70",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CEP85",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CEP89",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CEP95",
+      "status": "CANDIDATE",
+      "lines": 95
+    },
+    {
+      "gene": "CETN3",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CFAP298",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CFAP300",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CFAP418",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "CFAP52",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CFAP70",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CHMP1A",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CHODL",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CHST15",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CIB2",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CKAP2",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CLEC11A",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CLHC1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CNOT10",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CNTLN",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CNTRL",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CNTROB",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CPA4",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CRACDL",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CROCC",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CSPP1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CTNNBL1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CUEDC1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CYB5B",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "CYTH4",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "DCAF13",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "DCTN4",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "DDHD2",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "DDX59",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "DENND1C",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "DHRS1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "DHX35",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "DIS3L",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "DNAH12",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "DNAH14",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "DNAH6",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "DNAJA4",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "DNAJC28",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "DNAL1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "DNAL4",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "DPF2",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "DUSP21",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "DYNC1I2",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "DYNC1LI1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "DYNC1LI2",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "DYNC2I1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "DYNC2I2",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "DZIP1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "EDRF1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "EEF1AKMT3",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "EID2",
+      "status": "CANDIDATE",
+      "lines": 92
+    },
+    {
+      "gene": "ELP6",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "EMC6",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "ENKD1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "ENSG00000144785",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "ENSG00000256514",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "ENSG00000268870",
+      "status": "CANDIDATE",
+      "lines": 90
+    },
+    {
+      "gene": "ENSG00000272772",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "ENSG00000272980",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "ENSG00000273217",
+      "status": "CANDIDATE",
+      "lines": 97
+    },
+    {
+      "gene": "ENSG00000274175",
+      "status": "CANDIDATE",
+      "lines": 90
+    },
+    {
+      "gene": "ENSG00000274792",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "ENSG00000275869",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "ENSG00000280571",
+      "status": "CANDIDATE",
+      "lines": 94
+    },
+    {
+      "gene": "ENSG00000285188",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "ENSG00000285837",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "ENSG00000288637",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "EPS8L2",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "ERCC6L",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "ERVV-1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "ERVV-2",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "EXOC6",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "EXTL1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "FAM117B",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "FAM161A",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "FAM184A",
+      "status": "CANDIDATE",
+      "lines": 97
+    },
+    {
+      "gene": "FAM186B",
+      "status": "CANDIDATE",
+      "lines": 95
+    },
+    {
+      "gene": "FAM241B",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "FBF1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "FBXO21",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "FBXO9",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "FCHO2",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "FCMR",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "FGF11",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "FHDC1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "FKBP11",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "FNDC3A",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "FNIP2",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "FNTB",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "FRMD4B",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "FRMD8",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "GATD3",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "GINS4",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "GKAP1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "GLT8D1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "GOLGA6A",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "GOLGA6B",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "GOLGA6C",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "GOLGA6D",
+      "status": "CANDIDATE",
+      "lines": 94
+    },
+    {
+      "gene": "GPAA1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "GPR162",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "GPR174",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "GRAPL",
+      "status": "CANDIDATE",
+      "lines": 92
+    },
+    {
+      "gene": "GVQW3",
+      "status": "CANDIDATE",
+      "lines": 90
+    },
+    {
+      "gene": "GYG2",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "HAUS1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "HAUS2",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "HAUS6",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "HAUS7",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "HIPK1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "HMX3",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "HOOK3",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "HORMAD2",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "HSPA4L",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "HSPBP1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "IFT43",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "IFT57",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "IFT74",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "IFT81",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "ILRUN",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "INPP1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "INTS6L",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "IQSEC1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "ITPRIPL2",
+      "status": "CANDIDATE",
+      "lines": 97
+    },
+    {
+      "gene": "JADE1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "KATNA1",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "KATNAL1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "KATNIP",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "KCNH5",
+      "status": "CANDIDATE",
+      "lines": 92
+    },
+    {
+      "gene": "KCTD1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "KCTD16",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "KCTD4",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "KIAA0753",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "KIF19",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "KIF20B",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "KIF6",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "KIRREL2",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "KLC3",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "KLHL12",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "KLHL21",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "KLHL30",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "KLHL35",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "KLHL4",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "KLHL6",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "KMT5B",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "KNSTRN",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "KXD1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "LAMP5",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "LAS1L",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "LCA5",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "LEO1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "LEPROT",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "LGI2",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "LINC02203",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "LMF2",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "LMNTD1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "LMTK2",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "LONRF1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "LRIF1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "LRRC45",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "LRRC7",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "LRRCC1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "LRRN1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "LUZP1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "MAGEB16",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "MAMLD1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "MAP3K11",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "MAP3K13",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "MAP7D3",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "MAP9",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "MCF2L2",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "MDM1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "MFAP1",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "MGAT4C",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "MICALL1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "MPHOSPH9",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "MT-ND4L",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "MTMR11",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "MTMR9",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "MYO18B",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "MZT2A",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "MZT2B",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "N4BP3",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "N6AMT1",
+      "status": "CANDIDATE",
+      "lines": 92
+    },
+    {
+      "gene": "NAA11",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "NAA40",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "NCAPD2",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "NEUROD4",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "NME9",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "NMRK1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "NUBP1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "NUDT5",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "OAZ1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "OBSL1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "ODAD4",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "OR4M2-OT1",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "OR4N4",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "OR4N4C",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "PAOX",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "PCDHB15",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "PELI2",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "PGBD4",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "PIK3R5",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "PINLYP",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "PLEKHA4",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "PLEKHG6",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "PLEKHG7",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "PLEKHH1",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "PLEKHS1",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "PNMA5",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "PNPLA7",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "POLD4",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "POLR3H",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "PPP4R3B",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "PRICKLE4",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "PRPF6",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "PRR32",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "PSMD5",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "PTPN20",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "PTPN23",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "PURG",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "PXK",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "QRSL1",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "RAB11FIP3",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "RAB11FIP5",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "RAB15",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "RAB26",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "RAB34",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "RAB3IL1",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "RAB3IP",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "RABL2A",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "RABL2B",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "RABL6",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "RAPGEF6",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "RASSF7",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "RFPL4A",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "RFPL4AL1",
+      "status": "CANDIDATE",
+      "lines": 91
+    },
+    {
+      "gene": "RGL4",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "RHEBL1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "RILPL1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "RIMKLB",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "RIOK3",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "RMDN1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "RNF167",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "RNF39",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "RPP25",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "RRAGD",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "RSPH1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "RTTN",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "RUNDC3B",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "S100Z",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "SAXO2",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "SENP7",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "SERPINB6",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "SFR1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "SHTN1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "SIRPB1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "SLAIN2",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "SLC35A4",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "SLC35D3",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "SLC35F1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "SMIM18",
+      "status": "CANDIDATE",
+      "lines": 90
+    },
+    {
+      "gene": "SNTB2",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "SNX21",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "SPICE1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "SPIN4",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "SPPL2B",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "SRGAP1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "SRGAP2B",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "SRGAP2C",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "SRGAP3",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "SRRM5",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "SSX2IP",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "ST7L",
+      "status": "CANDIDATE",
+      "lines": 94
+    },
+    {
+      "gene": "STEEP1",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "STK26",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "STK32A",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "TAF1D",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "TAPT1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "TBC1D31",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "TBC1D8",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "TCEA2",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "TDRKH",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "TEX12",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "TEX9",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "THAP6",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "TMEM132C",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "TMEM170B",
+      "status": "CANDIDATE",
+      "lines": 90
+    },
+    {
+      "gene": "TMEM63A",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "TMEM63C",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "TMEM86B",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "TP53TG3",
+      "status": "CANDIDATE",
+      "lines": 95
+    },
+    {
+      "gene": "TP53TG3B",
+      "status": "CANDIDATE",
+      "lines": 93
+    },
+    {
+      "gene": "TP53TG3C",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "TP53TG3D",
+      "status": "CANDIDATE",
+      "lines": 91
+    },
+    {
+      "gene": "TP53TG3E",
+      "status": "CANDIDATE",
+      "lines": 93
+    },
+    {
+      "gene": "TP53TG3F",
+      "status": "CANDIDATE",
+      "lines": 90
+    },
+    {
+      "gene": "TRAPPC14",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "TRAT1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "TRIM15",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "TRIM2",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "TRIM34",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "TRIM38",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "TRIM46",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "TRIM6-TRIM34",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "TSEN2",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "TSSK1B",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "TTC21B",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "TTC30A",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "TTC30B",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "TTC39A",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "TTC6",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "TTI2",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "TUBG2",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "TUBGCP2",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "TUBGCP4",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "TUBGCP5",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "TWSG1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "TXLNA",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "TYSND1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "UBA3",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "UBE2Q1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "UBL3",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "UBXN2A",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "UGP2",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "UNC5CL",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "USF3",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "USP38",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "VCPIP1",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "VPS37A",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "VSIG10",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "WASHC5",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "WDR13",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "WDR19",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "WDR54",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "WDR83",
+      "status": "CANDIDATE",
+      "lines": 92
+    },
+    {
+      "gene": "WDR90",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "ZBED1",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "ZBED6",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "ZBTB24",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "ZFAND1",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "ZFP90",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "ZMYM1",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "ZNF12",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "ZNF121",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "ZNF274",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "ZNF280D",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "ZNF296",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "ZNF330",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "ZNF365",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "ZNF408",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "ZNF443",
+      "status": "CANDIDATE",
+      "lines": 93
+    },
+    {
+      "gene": "ZNF616",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "ZNF620",
+      "status": "CANDIDATE",
+      "lines": 92
+    },
+    {
+      "gene": "ZNF677",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "ZNF701",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "ZNF721",
+      "status": "CANDIDATE",
+      "lines": 96
+    },
+    {
+      "gene": "ZNF747",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "ZNF766",
+      "status": "CANDIDATE",
+      "lines": 98
+    },
+    {
+      "gene": "ZNF780A",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "ZNF780B",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "ZNF799",
+      "status": "CANDIDATE",
+      "lines": 89
+    },
+    {
+      "gene": "ZSCAN10",
+      "status": "CANDIDATE",
+      "lines": 89
+    }
+  ]
+}

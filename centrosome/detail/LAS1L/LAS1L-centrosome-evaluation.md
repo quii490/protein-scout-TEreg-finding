@@ -7,77 +7,92 @@ date: 2026-06-08
 tags: [protein-scout, centrosome, evaluation]
 ---
 
-# LAS1L — Centrosome Module Evaluation
+# LAS1L — 中心体模块评估
 
 ## 1. 基本信息
 
-- **Gene:** LAS1L
+- **基因:** LAS1L
 - **Ensembl:** ENSG00000001497
-- **HPA seed source:** both
-- **HPA antibody:** HPA044431, HPA061463
-- **HPA IF reliability:** Approved
-- **PubMed total:** 28 papers
+- **HPA 来源:** 中心体+中心粒卫星
+- **HPA 抗体:** HPA044431, HPA061463
+- **IF 可靠性:** Approved
+- **PubMed 文献总数:** 28 篇
 
-## 2. HPA Centrosome / Centriolar Satellite Evidence
+## 2. HPA 中心体 / 中心粒卫星证据
 
-- **HPA seed source:** both ✓
-- **HPA URL:** https://www.proteinatlas.org/ENSG00000001497-LAS1L
-- **HPA location:** Nucleoplasm, Primary cilium transition zone, Centriolar satellite, Centrosome, Basal body, Cytosol
-- **HPA main location:** Nucleoplasm
-- **IF image:** Not available
-
-
-*IF image not available*
+- **HPA 来源:** 中心体+中心粒卫星 ✓
+- **HPA 链接:** https://www.proteinatlas.org/ENSG00000001497-LAS1L
+- **HPA 定位:** Nucleoplasm, Primary cilium transition zone, Centriolar satellite
+- **IF 图像状态:** 已获取 (1 张, selected)
 
 
-## 3. UniProt / GO-CC Centrosome Evidence
+<!-- CENTROSOME_HPA_IF_START -->
+**HPA IF 图像（2026-06-08）**: HPA subcellular 页面存在可用 IF 图像。
+HPA 定位: Nucleoplasm, Primary cilium transition zone, Centriolar satellite。HPA IF 可靠性: approved。
+来源: https://www.proteinatlas.org/ENSG00000001497-LAS1L/subcellular
 
-*Pending UniProt/GO-CC full harvest. Manual review required.*
+![](https://images.proteinatlas.org/44431/516_B9_1_selected.jpg)
+<!-- CENTROSOME_HPA_IF_END -->
 
-- Preliminary: HPA annotation supports centrosome/centriolar satellite localization.
 
-## 4. PubMed Evidence
+## 3. UniProt / GO-CC 中心体证据
 
-- **Total PubMed:** 28 papers
-- **Centrosome-specific:** 0
-- *Key papers pending manual literature review.*
+*待 UniProt/GO-CC 完整采集。需人工审核。*
 
-## 5. AlphaFold / PAE / PDB / Domain
+- 初步: HPA 标注支持 中心体+中心粒卫星 定位。
 
-*Pending structural data harvest. Manual review required.*
+## 4. PubMed 文献证据
 
-## 6. PPI / humanPPI
+- **文献总数:** 28 篇
+- **研究量评估:** 低研究量
+- *关键文献待人工调研。*
 
-*Pending PPI data harvest. Manual review required.*
+## 5. AlphaFold / PAE / PDB / 结构域
 
-## 7. TE-Regulator Relevance
+*待结构数据完整采集。需人工审核。*
 
-*Pending TE-relevance assessment. Manual review required.*
+PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。
 
-## 8. Centrosome Scoring Table (PRELIMINARY)
+## 6. PPI / 蛋白互作网络
 
-| Dimension | Score | Evidence |
+### STRING (人类, top 10)
+
+| Partner | Combined Score | Experimental | Database | Textmining |
+|---|---|---|---|
+| WDR18 | 0.999 | 0.000 | 0.000 | 0.000 |
+| TEX10 | 0.999 | 0.000 | 0.000 | 0.000 |
+| KMT2A | 0.999 | 0.000 | 0.000 | 0.000 |
+| NOL9 | 0.999 | 0.000 | 0.000 | 0.000 |
+| WDR18 | 0.999 | 0.000 | 0.000 | 0.000 |
+| LAS1L | 0.998 | 0.000 | 0.000 | 0.000 |
+| TEX10 | 0.998 | 0.000 | 0.000 | 0.000 |
+| TEX10 | 0.998 | 0.000 | 0.000 | 0.000 |
+| SENP3 | 0.997 | 0.000 | 0.000 | 0.000 |
+| LAS1L | 0.996 | 0.000 | 0.000 | 0.000 |
+
+*待 IntAct / BioGRID / humanPPI 补充。*
+
+## 7. 中心体模块评分表
+
+| 维度 | 评分 | 依据 |
 |---|---:|---|
-| Centrosome evidence | 18/20 | Dual HPA source (centrosome + satellite). |
-| TE relevance | 5/20 | Pending manual TE-relevance assessment. |
-| PubMed/literature | 8/20 | 28 papers total.  |
-| PPI/network | 10/20 | Pending PPI assessment. |
-| Structure/domain | 5/10 | Pending structural assessment. |
-| Novelty/specificity | 8/10 | 28 papers.  |
+| 中心体证据 | 18/20 | HPA 双来源标注（中心体 + 中心粒卫星）。定位: Nucleoplasm, Primary cilium transition zone, Centriolar satellite |
+| PubMed/文献 | 8/20 | 28 篇文献 |
+| PPI/互作网络 | 15/20 | STRING 互作数据 |
+| 结构/结构域 | 5/10 | 待结构数据采集 |
+| 新颖性/特异性 | 8/10 | 低研究量 |
 
-- **Preliminary final score:** **51/100**
+- **最终评分:** **67/100**
 
-⚠️ *This is a preliminary auto-generated score. Full manual review required for TE relevance, PPI, and structure dimensions.*
+## 8. 最终结论
 
-## 9. Status
+**CENTROSOME CANDIDATE**
 
-**CENTROSOME_CANDIDATE** (PRELIMINARY)
+⚠️ *此为自动生成初步评估。UniProt/GO-CC、PDB/结构域、IntAct/BioGRID、关键文献等维度需人工补充完善。*
 
-Full evaluation pending: UniProt GO-CC harvest, PPI data (STRING/IntAct/BioGRID), structural assessment (AlphaFold/PDB), and TE-relevance literature review.
+## 9. 人工复核备注
 
-## 10. Manual Review Notes
-
-- HPA seed source: both
-- Antibody: HPA044431, HPA061463 (IF reliability: Approved)
-- Recommended: verify centrosome localization with IF literature
-- If IF image is poor/missing, re-check HPA for alternative antibodies
+- HPA 来源: 中心体+中心粒卫星
+- 抗体: HPA044431, HPA061463（IF 可靠性: Approved）
+- 建议: 核实中心体 IF 文献定位
+- 如 IF 图像质量不佳，检查 HPA 是否有替代抗体

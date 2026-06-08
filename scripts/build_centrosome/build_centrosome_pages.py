@@ -64,6 +64,14 @@ def md_to_html_simple(md_content):
         if '|---' in line:
             continue
 
+        # Images
+        img_match = re.match(r'!\[(.*?)\]\((.*?)\)', line)
+        if img_match:
+            alt = img_match.group(1)
+            src = img_match.group(2)
+            html.append(f'<p><img src="{src}" alt="{alt}" style="max-width:100%;border-radius:4px;margin:8px 0;"></p>')
+            continue
+
         # Skip empty lines
         if not line.strip():
             html.append('')

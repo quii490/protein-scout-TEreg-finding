@@ -7,27 +7,24 @@ date: 2026-06-08
 tags: [protein-scout, centrosome, evaluation, eliminated]
 ---
 
-# GTSE1 — Centrosome Module Evaluation (ELIMINATED)
+# GTSE1 — 中心体模块评估（已淘汰）
 
 ## 1. 基本信息
 
-- **Gene:** GTSE1
+- **基因:** GTSE1
 - **Ensembl:** ENSG00000075218
-- **HPA seed source:** centrosome
-- **PubMed total:** 122 papers ⚠️ **EXCEEDS THRESHOLD (>100)**
+- **HPA 来源:** 中心体
+- **PubMed 总数:** 122 篇 ⚠️ **超过阈值 (>100)**
 
-## 2. ELIMINATED
+## 2. 淘汰原因
 
-**Reason:** PubMed total = 122 (>100 threshold). Eliminated per centrosome module PubMed > 100 rule.
+PubMed 总文献数 = 122 (>100 篇)。按中心体模块 PubMed 淘汰规则自动淘汰。
 
-**Centrosome-specific papers:** 2
+## 3. HPA 种子证据
 
-## 3. HPA Seed Evidence
+- HPA 来源: 中心体
+- HPA 链接: https://www.proteinatlas.org/ENSG00000075218-GTSE1
 
-- HPA source: centrosome
-- HPA URL: https://www.proteinatlas.org/ENSG00000075218-GTSE1
+## 4. 备注
 
-## 4. Notes
-
-- No detailed evaluation performed (auto-eliminated by PubMed count).
-- To re-evaluate, manually review whether PubMed count is inflated by aliases or non-centrosome literature.
+- 因 PubMed 文献量超阈值自动淘汰，未进行详细评估。

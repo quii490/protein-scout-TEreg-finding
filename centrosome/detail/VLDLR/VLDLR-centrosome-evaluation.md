@@ -7,27 +7,24 @@ date: 2026-06-08
 tags: [protein-scout, centrosome, evaluation, eliminated]
 ---
 
-# VLDLR — Centrosome Module Evaluation (ELIMINATED)
+# VLDLR — 中心体模块评估（已淘汰）
 
 ## 1. 基本信息
 
-- **Gene:** VLDLR
+- **基因:** VLDLR
 - **Ensembl:** ENSG00000147852
-- **HPA seed source:** satellite
-- **PubMed total:** 799 papers ⚠️ **EXCEEDS THRESHOLD (>100)**
+- **HPA 来源:** 中心粒卫星
+- **PubMed 总数:** 799 篇 ⚠️ **超过阈值 (>100)**
 
-## 2. ELIMINATED
+## 2. 淘汰原因
 
-**Reason:** PubMed total = 799 (>100 threshold). Eliminated per centrosome module PubMed > 100 rule.
+PubMed 总文献数 = 799 (>100 篇)。按中心体模块 PubMed 淘汰规则自动淘汰。
 
-**Centrosome-specific papers:** N/A
+## 3. HPA 种子证据
 
-## 3. HPA Seed Evidence
+- HPA 来源: 中心粒卫星
+- HPA 链接: https://www.proteinatlas.org/ENSG00000147852-VLDLR
 
-- HPA source: satellite
-- HPA URL: https://www.proteinatlas.org/ENSG00000147852-VLDLR
+## 4. 备注
 
-## 4. Notes
-
-- No detailed evaluation performed (auto-eliminated by PubMed count).
-- To re-evaluate, manually review whether PubMed count is inflated by aliases or non-centrosome literature.
+- 因 PubMed 文献量超阈值自动淘汰，未进行详细评估。
