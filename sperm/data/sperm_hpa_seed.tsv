@@ -1,0 +1,629 @@
+gene	source_count	sources
+AAAS	1	End piece
+ABCB6	2	Mid piece|Principal piece
+ABCC8	1	Principal piece
+ABHD2	2	Connecting piece|Flagellar centriole
+ABLIM1	2	Connecting piece|Mid piece
+ACADM	3	Calyx|Perinuclear theca|Principal piece
+ACADS	3	End piece|Mid piece|Principal piece
+ACLY	1	Principal piece
+ACRV1	1	Acrosome
+ACTL7A	1	Perinuclear theca
+ACTL9	2	Acrosome|Equatorial segment
+ACTR10	5	Connecting piece|Flagellar centriole|Mid piece|Perinuclear theca|Principal piece
+ACTRT3	1	Acrosome
+ADAM30	1	Mid piece
+ADAM32	1	Principal piece
+ADGB	1	Mid piece
+AFG3L2	5	Calyx|Connecting piece|Mid piece|Perinuclear theca|Principal piece
+AGBL2	4	End piece|Flagellar centriole|Mid piece|Principal piece
+AIFM1	1	Connecting piece
+AK1	1	Annulus
+AK7	1	Principal piece
+AK8	4	End piece|Flagellar centriole|Mid piece|Principal piece
+AK9	1	Calyx
+AKAP3	1	Principal piece
+AKAP4	1	Principal piece
+AKT1	4	Calyx|End piece|Perinuclear theca|Principal piece
+ALMS1	3	End piece|Flagellar centriole|Mid piece
+ANK2	1	Acrosome
+AQP9	1	Mid piece
+ARL13A	4	Acrosome|Connecting piece|Mid piece|Principal piece
+ARL13B	5	Acrosome|End piece|Equatorial segment|Mid piece|Principal piece
+ARL2	3	Equatorial segment|Flagellar centriole|Mid piece
+ARMC9	3	Annulus|Flagellar centriole|Mid piece
+ARMS2	2	End piece|Principal piece
+ARSA	1	Mid piece
+ART3	2	End piece|Principal piece
+ASIP	2	Flagellar centriole|Mid piece
+ATAD3A	1	Acrosome
+ATAD3B	1	Acrosome
+ATG16L1	3	Equatorial segment|Mid piece|Principal piece
+ATG7	3	Connecting piece|Flagellar centriole|Mid piece
+ATOH7	2	Flagellar centriole|Mid piece
+ATP2A2	3	End piece|Mid piece|Perinuclear theca
+ATP5F1A	1	End piece
+ATP5F1D	3	Connecting piece|Flagellar centriole|Principal piece
+ATP5MG	1	Principal piece
+ATP5MGL	1	Principal piece
+ATP5PF	2	End piece|Flagellar centriole
+ATP6V0A2	4	Connecting piece|End piece|Mid piece|Principal piece
+ATP8A2	3	Acrosome|Annulus|Mid piece
+B9D1	5	Acrosome|End piece|Equatorial segment|Mid piece|Principal piece
+BAD	2	End piece|Principal piece
+BAG2	2	Mid piece|Principal piece
+BBS4	5	Acrosome|Annulus|Flagellar centriole|Perinuclear theca|Principal piece
+BBS5	2	Acrosome|Perinuclear theca
+BBS9	5	Acrosome|Equatorial segment|Flagellar centriole|Mid piece|Principal piece
+BCL2L1	1	Acrosome
+BCS1L	1	Mid piece
+BEST2	3	End piece|Flagellar centriole|Principal piece
+BOLL	4	Annulus|End piece|Mid piece|Principal piece
+BRAF	3	End piece|Mid piece|Principal piece
+BSG	3	End piece|Mid piece|Principal piece
+C16orf78	4	Connecting piece|End piece|Mid piece|Principal piece
+C1orf100	1	Calyx
+C20orf85	1	Mid piece
+C2CD3	3	Acrosome|Equatorial segment|Principal piece
+C2CD6	3	Acrosome|Equatorial segment|Principal piece
+C4orf17	1	Mid piece
+C4orf45	2	Mid piece|Principal piece
+C4orf47	2	End piece|Principal piece
+C7orf33	2	Acrosome|Equatorial segment
+C9orf24	2	Equatorial segment|Principal piece
+CABYR	1	Principal piece
+CACNA1B	2	Acrosome|Equatorial segment
+CACNA1G	3	Acrosome|Equatorial segment|Perinuclear theca
+CACNA1I	1	Acrosome
+CACNA1S	2	Acrosome|Equatorial segment
+CACNA2D2	2	Flagellar centriole|Mid piece
+CACNA2D3	1	Principal piece
+CACNA2D4	2	Mid piece|Principal piece
+CAMK2A	5	Calyx|Connecting piece|End piece|Perinuclear theca|Principal piece
+CAMK2B	5	Calyx|Connecting piece|End piece|Perinuclear theca|Principal piece
+CAMK2D	5	Calyx|Connecting piece|End piece|Perinuclear theca|Principal piece
+CAMK2G	5	Calyx|Connecting piece|End piece|Perinuclear theca|Principal piece
+CAPN11	5	Acrosome|End piece|Equatorial segment|Mid piece|Principal piece
+CAPN2	3	Connecting piece|Mid piece|Principal piece
+CAPZA3	1	Calyx
+CASP8	3	Connecting piece|Mid piece|Principal piece
+CATIP	2	Connecting piece|Mid piece
+CATSPER1	1	Principal piece
+CATSPER2	2	End piece|Principal piece
+CATSPER3	2	Mid piece|Principal piece
+CATSPERB	1	Mid piece
+CATSPERD	1	Mid piece
+CATSPERE	4	Annulus|End piece|Mid piece|Principal piece
+CATSPERG	2	Mid piece|Principal piece
+CATSPERZ	2	Mid piece|Principal piece
+CAV1	3	Connecting piece|Perinuclear theca|Principal piece
+CBL	1	End piece
+CBLN1	5	Calyx|Flagellar centriole|Mid piece|Perinuclear theca|Principal piece
+CBLN2	5	Calyx|Flagellar centriole|Mid piece|Perinuclear theca|Principal piece
+CBLN4	5	Calyx|Flagellar centriole|Mid piece|Perinuclear theca|Principal piece
+CBY2	6	Annulus|Calyx|Connecting piece|End piece|Mid piece|Principal piece
+CC2D2A	4	Connecting piece|Mid piece|Perinuclear theca|Principal piece
+CCDC103	2	Connecting piece|Mid piece
+CCDC136	1	Mid piece
+CCDC181	3	Acrosome|Mid piece|Principal piece
+CCDC183	1	Mid piece
+CCDC188	1	Flagellar centriole
+CCDC34	5	Calyx|Connecting piece|End piece|Mid piece|Principal piece
+CCDC39	1	Acrosome
+CCDC40	1	Mid piece
+CCDC63	1	Principal piece
+CCDC65	3	Annulus|Mid piece|Principal piece
+CCDC66	2	End piece|Perinuclear theca
+CCDC91	3	Acrosome|Equatorial segment|Flagellar centriole
+CCIN	2	Calyx|Perinuclear theca
+CCT2	3	Connecting piece|Mid piece|Principal piece
+CCT5	3	Annulus|Mid piece|Principal piece
+CCT8	4	Connecting piece|End piece|Mid piece|Principal piece
+CD300LG	1	Calyx
+CDK1	4	Acrosome|Connecting piece|Flagellar centriole|Perinuclear theca
+CDK2	1	Calyx
+CDK20	4	Connecting piece|End piece|Mid piece|Principal piece
+CDK5RAP2	3	Equatorial segment|Mid piece|Principal piece
+CDKL1	2	Flagellar centriole|Mid piece
+CENPJ	1	Acrosome
+CEP120	4	Annulus|Flagellar centriole|Mid piece|Perinuclear theca
+CEP131	1	Flagellar centriole
+CEP135	4	Acrosome|Annulus|Mid piece|Principal piece
+CEP162	3	Connecting piece|Mid piece|Principal piece
+CEP164	2	Equatorial segment|Principal piece
+CEP290	2	Mid piece|Principal piece
+CEP350	1	End piece
+CEP55	2	Connecting piece|Principal piece
+CEP76	2	Flagellar centriole|Perinuclear theca
+CETN1	3	Flagellar centriole|Mid piece|Principal piece
+CETN2	3	Flagellar centriole|Mid piece|Principal piece
+CFAP100	2	Mid piece|Principal piece
+CFAP119	3	End piece|Mid piece|Principal piece
+CFAP126	2	Mid piece|Principal piece
+CFAP20	2	Equatorial segment|Principal piece
+CFAP221	2	Connecting piece|Flagellar centriole
+CFAP251	2	End piece|Mid piece
+CFAP276	3	End piece|Mid piece|Principal piece
+CFAP298	1	Principal piece
+CFAP43	3	Flagellar centriole|Mid piece|Principal piece
+CFAP45	3	End piece|Mid piece|Principal piece
+CFAP46	3	Annulus|Mid piece|Principal piece
+CFAP58	2	Calyx|Principal piece
+CFAP61	1	Principal piece
+CFAP70	3	End piece|Mid piece|Principal piece
+CFAP95	2	Mid piece|Principal piece
+CFAP99	3	End piece|Mid piece|Principal piece
+CKLF	2	Mid piece|Principal piece
+CLGN	2	Equatorial segment|Mid piece
+CLIC4	3	Calyx|Connecting piece|Principal piece
+CLIP1	2	Mid piece|Principal piece
+CLNS1A	3	Connecting piece|Mid piece|Principal piece
+CLPX	2	Equatorial segment|Perinuclear theca
+CLTC	1	Mid piece
+CLXN	2	Mid piece|Principal piece
+CNBD2	1	Mid piece
+CNGA1	2	Mid piece|Principal piece
+CNGA3	3	End piece|Mid piece|Principal piece
+CNTRL	1	Flagellar centriole
+CNTROB	1	Flagellar centriole
+COASY	1	Connecting piece
+COX5B	1	Acrosome
+COX6A1	1	Principal piece
+COX6B1	1	Principal piece
+CPLANE1	2	Mid piece|Principal piece
+CPS1	2	Mid piece|Principal piece
+CPTP	3	Flagellar centriole|Mid piece|Perinuclear theca
+CROCC	1	Mid piece
+CSNK1D	2	End piece|Principal piece
+CSNK2B	3	Calyx|Mid piece|Perinuclear theca
+CTNNA1	3	Connecting piece|Mid piece|Principal piece
+CTXN3	2	End piece|Principal piece
+CXorf66	6	Annulus|Calyx|End piece|Mid piece|Perinuclear theca|Principal piece
+CYB5R3	5	Calyx|Connecting piece|Mid piece|Perinuclear theca|Principal piece
+CYC1	1	Equatorial segment
+CYLC1	2	Calyx|Perinuclear theca
+CYLC2	2	Calyx|Perinuclear theca
+CYLD	1	Principal piece
+DAW1	3	End piece|Mid piece|Principal piece
+DBNDD1	4	End piece|Equatorial segment|Mid piece|Principal piece
+DCDC2	3	Acrosome|Equatorial segment|Principal piece
+DCDC2C	1	End piece
+DCST1	3	Acrosome|Equatorial segment|Principal piece
+DCTN1	2	Acrosome|Perinuclear theca
+DCTN2	4	Connecting piece|End piece|Mid piece|Principal piece
+DCTN3	4	Calyx|Mid piece|Perinuclear theca|Principal piece
+DCTN4	1	Calyx
+DDB1	3	End piece|Mid piece|Principal piece
+DIABLO	4	End piece|Flagellar centriole|Mid piece|Principal piece
+DKKL1	3	Acrosome|Equatorial segment|Mid piece
+DLAT	1	Connecting piece
+DLD	1	Principal piece
+DNAAF11	2	Mid piece|Principal piece
+DNAAF4	3	Connecting piece|Mid piece|Principal piece
+DNAAF6	2	Acrosome|Equatorial segment
+DNAH10	1	Principal piece
+DNAH12	2	Mid piece|Principal piece
+DNAH17	3	End piece|Mid piece|Principal piece
+DNAH2	2	End piece|Flagellar centriole
+DNAH3	4	Equatorial segment|Flagellar centriole|Mid piece|Principal piece
+DNAH6	3	Calyx|Connecting piece|Mid piece
+DNAH7	2	Annulus|Mid piece
+DNAH8	2	Mid piece|Principal piece
+DNAH9	2	End piece|Flagellar centriole
+DNAI1	3	End piece|Mid piece|Principal piece
+DNAI2	3	Calyx|Connecting piece|Mid piece
+DNAI3	4	Calyx|Connecting piece|Mid piece|Perinuclear theca
+DNAI4	3	Flagellar centriole|Mid piece|Principal piece
+DNAJB13	3	End piece|Mid piece|Principal piece
+DNAJC5	3	End piece|Perinuclear theca|Principal piece
+DNAL1	4	Acrosome|End piece|Mid piece|Principal piece
+DNAL4	5	Acrosome|Calyx|Equatorial segment|Perinuclear theca|Principal piece
+DNALI1	3	End piece|Mid piece|Principal piece
+DNHD1	2	Annulus|Mid piece
+DRC3	3	End piece|Mid piece|Principal piece
+DUSP21	3	Connecting piece|Mid piece|Principal piece
+DYDC1	3	End piece|Mid piece|Principal piece
+DYDC2	1	Principal piece
+DYNC1H1	3	Annulus|Flagellar centriole|Mid piece
+DYNC1I2	4	End piece|Flagellar centriole|Mid piece|Principal piece
+DYNC1LI2	1	End piece
+DYNC2H1	2	Mid piece|Principal piece
+DYNC2LI1	5	Annulus|Equatorial segment|Mid piece|Perinuclear theca|Principal piece
+DYNLL1	2	Mid piece|Principal piece
+DYNLL2	2	Mid piece|Principal piece
+DYNLT1	1	Acrosome
+DYSF	1	Mid piece
+EFCAB2	1	Mid piece
+EFCAB6	2	Mid piece|Principal piece
+EFHB	1	Connecting piece
+EFHC1	4	End piece|Equatorial segment|Mid piece|Principal piece
+EGFR	3	End piece|Mid piece|Principal piece
+EML4	4	Annulus|Calyx|Perinuclear theca|Principal piece
+ENKUR	2	Mid piece|Principal piece
+ENSG00000111780	1	Principal piece
+ENSG00000198211	3	End piece|Flagellar centriole|Principal piece
+ENSG00000251569	2	Acrosome|Perinuclear theca
+ENSG00000256500	2	Acrosome|Equatorial segment
+ENSG00000267740	3	End piece|Perinuclear theca|Principal piece
+ENSG00000271254	3	End piece|Mid piece|Principal piece
+ENSG00000282218	4	Calyx|Connecting piece|Mid piece|Principal piece
+ENSG00000285827	1	Principal piece
+ENSG00000286185	3	End piece|Mid piece|Principal piece
+EPHA6	1	Mid piece
+EPHA7	1	Principal piece
+EPRS1	1	Mid piece
+EXOC3L2	1	Mid piece
+EYS	1	Flagellar centriole
+FAF1	3	Acrosome|Equatorial segment|Perinuclear theca
+FAM161A	1	Flagellar centriole
+FAM166A	3	End piece|Mid piece|Principal piece
+FAM177B	1	Mid piece
+FAM183A	1	Mid piece
+FAM187A	1	Acrosome
+FAM205A	3	Acrosome|Mid piece|Principal piece
+FAM9A	1	Mid piece
+FLACC1	3	Annulus|Connecting piece|Mid piece
+FLAD1	3	End piece|Mid piece|Principal piece
+FMR1NB	1	Acrosome
+FSCB	4	End piece|Flagellar centriole|Mid piece|Principal piece
+FSIP1	2	Annulus|Flagellar centriole
+FSIP2	1	Mid piece
+FYB2	3	Mid piece|Perinuclear theca|Principal piece
+G6PC1	1	Mid piece
+GAPDHS	1	Principal piece
+GAS8	3	End piece|Mid piece|Principal piece
+GLG1	3	End piece|Mid piece|Principal piece
+GLUL	1	Connecting piece
+GNAI1	1	Principal piece
+GNAI3	1	Principal piece
+GNAT1	3	End piece|Mid piece|Principal piece
+GOPC	4	Calyx|Connecting piece|Mid piece|Principal piece
+GPIHBP1	2	End piece|Principal piece
+GRK1	1	Principal piece
+GRK4	1	Calyx
+GZMB	1	Calyx
+H1-7	5	Connecting piece|End piece|Mid piece|Perinuclear theca|Principal piece
+HADHB	2	Equatorial segment|Principal piece
+HAUS1	2	End piece|Mid piece
+HAUS6	4	Acrosome|Connecting piece|Mid piece|Principal piece
+HAUS7	2	Mid piece|Principal piece
+HIP1	3	Acrosome|Mid piece|Principal piece
+HMGB2	2	Annulus|Principal piece
+HPRT1	4	Annulus|End piece|Mid piece|Principal piece
+HSPA1A	4	Annulus|Calyx|Flagellar centriole|Perinuclear theca
+HSPA1B	4	Annulus|Calyx|Flagellar centriole|Perinuclear theca
+HSPA1L	4	Annulus|Calyx|Flagellar centriole|Perinuclear theca
+HSPA2	4	Annulus|Calyx|Flagellar centriole|Perinuclear theca
+HSPA4L	2	Calyx|Perinuclear theca
+HSPA5	4	Annulus|End piece|Mid piece|Principal piece
+HSPA6	4	Annulus|Calyx|Flagellar centriole|Perinuclear theca
+HSPA8	4	Annulus|Calyx|Flagellar centriole|Perinuclear theca
+HSPB11	3	End piece|Mid piece|Principal piece
+HUWE1	3	End piece|Mid piece|Principal piece
+HYDIN	1	Equatorial segment
+IFT122	2	Mid piece|Principal piece
+IFT20	4	End piece|Flagellar centriole|Mid piece|Principal piece
+IFT22	4	End piece|Flagellar centriole|Mid piece|Principal piece
+IFT43	3	End piece|Perinuclear theca|Principal piece
+IFT46	1	Principal piece
+IFT57	1	Mid piece
+IFT88	4	Connecting piece|End piece|Mid piece|Principal piece
+IL4I1	1	Acrosome
+IMMP2L	3	End piece|Flagellar centriole|Principal piece
+IMPG1	3	End piece|Mid piece|Principal piece
+IPO8	1	End piece
+IQCA1	1	Flagellar centriole
+IQCD	3	End piece|Mid piece|Principal piece
+IQCH	1	Mid piece
+IQCN	2	Acrosome|Equatorial segment
+IQUB	3	End piece|Mid piece|Principal piece
+ITGB6	5	Acrosome|Connecting piece|End piece|Mid piece|Principal piece
+ITLN1	4	Acrosome|Equatorial segment|Mid piece|Principal piece
+ITPR2	3	End piece|Mid piece|Principal piece
+IZUMO2	2	Acrosome|Mid piece
+IZUMO3	2	Acrosome|Equatorial segment
+IZUMO4	3	Calyx|Connecting piece|Equatorial segment
+KCNU1	1	Principal piece
+KCTD16	3	End piece|Mid piece|Principal piece
+KDR	3	Connecting piece|Mid piece|Principal piece
+KIF11	3	End piece|Mid piece|Principal piece
+KIF12	2	Mid piece|Principal piece
+KIF13A	2	Mid piece|Principal piece
+KIF14	5	Calyx|Connecting piece|End piece|Mid piece|Principal piece
+KIF17	2	Acrosome|Principal piece
+KIF1B	3	End piece|Mid piece|Principal piece
+KIF1C	1	Principal piece
+KIF20B	1	Perinuclear theca
+KIF21B	1	Mid piece
+KIF23	3	Annulus|Mid piece|Principal piece
+KIF26A	2	Connecting piece|Flagellar centriole
+KIF2A	3	Annulus|Mid piece|Principal piece
+KIF2B	3	End piece|Mid piece|Principal piece
+KIF3B	2	Connecting piece|Flagellar centriole
+KIF4A	4	Acrosome|Equatorial segment|Mid piece|Principal piece
+KIF4B	4	Acrosome|Equatorial segment|Mid piece|Principal piece
+KIF5A	2	Mid piece|Principal piece
+KIF5B	1	End piece
+KIF5C	2	Connecting piece|Equatorial segment
+KIF9	1	Mid piece
+KLB	2	Mid piece|Principal piece
+KLC1	2	Acrosome|Equatorial segment
+KLHL10	1	Mid piece
+KRT31	4	End piece|Equatorial segment|Mid piece|Principal piece
+KRT33A	4	End piece|Equatorial segment|Mid piece|Principal piece
+KRT33B	4	End piece|Equatorial segment|Mid piece|Principal piece
+KRT34	4	End piece|Equatorial segment|Mid piece|Principal piece
+KRT39	3	Annulus|Mid piece|Principal piece
+LANCL1	2	End piece|Flagellar centriole
+LAP3	3	Calyx|Mid piece|Principal piece
+LCA5L	4	End piece|Flagellar centriole|Mid piece|Principal piece
+LDHC	3	End piece|Mid piece|Principal piece
+LNPK	4	Connecting piece|End piece|Mid piece|Principal piece
+LRIT1	1	Flagellar centriole
+LRPPRC	3	Acrosome|End piece|Mid piece
+LRRC45	2	Mid piece|Principal piece
+LY6K	3	Acrosome|Equatorial segment|Mid piece
+LYZL4	2	End piece|Principal piece
+MAG	2	Equatorial segment|Perinuclear theca
+MAK	3	Connecting piece|End piece|Principal piece
+MAP1A	2	Mid piece|Principal piece
+MAP1B	1	Equatorial segment
+MAP1S	1	Principal piece
+MAP2K2	3	End piece|Mid piece|Principal piece
+MAP4	2	Acrosome|Equatorial segment
+MAPT	1	End piece
+MARS1	3	End piece|Mid piece|Principal piece
+MDM2	3	End piece|Mid piece|Principal piece
+MERTK	3	Acrosome|Mid piece|Principal piece
+MFF	1	Principal piece
+MLF1	3	End piece|Mid piece|Principal piece
+MNS1	3	End piece|Flagellar centriole|Perinuclear theca
+MOK	3	End piece|Mid piece|Principal piece
+MPC1	1	Principal piece
+MROH2B	2	Acrosome|Mid piece
+MRPS35	1	Connecting piece
+MSGN1	3	Acrosome|Equatorial segment|Mid piece
+MSH4	3	Equatorial segment|Flagellar centriole|Mid piece
+MT-CO1	1	End piece
+MYO5A	1	Calyx
+NBPF1	3	End piece|Mid piece|Principal piece
+NBPF10	3	End piece|Mid piece|Principal piece
+NBPF11	3	End piece|Mid piece|Principal piece
+NBPF12	3	End piece|Mid piece|Principal piece
+NBPF14	3	End piece|Mid piece|Principal piece
+NBPF15	3	End piece|Mid piece|Principal piece
+NBPF19	3	End piece|Mid piece|Principal piece
+NBPF20	3	End piece|Mid piece|Principal piece
+NBPF26	3	End piece|Mid piece|Principal piece
+NBPF8	3	End piece|Mid piece|Principal piece
+NBPF9	3	End piece|Mid piece|Principal piece
+NDRG1	5	Calyx|Connecting piece|End piece|Mid piece|Principal piece
+NDUFA11	3	End piece|Perinuclear theca|Principal piece
+NDUFA6	2	End piece|Mid piece
+NDUFA8	3	End piece|Mid piece|Principal piece
+NDUFB11	5	Acrosome|Connecting piece|Equatorial segment|Mid piece|Principal piece
+NDUFB4	1	Principal piece
+NDUFS2	2	Calyx|Connecting piece
+NDUFS3	1	Principal piece
+NDUFS4	3	Calyx|Equatorial segment|Perinuclear theca
+NSF	5	Acrosome|End piece|Equatorial segment|Mid piece|Principal piece
+NT5C1B	2	Connecting piece|Mid piece
+NT5C1B-RDH14	2	Connecting piece|Mid piece
+NUBP1	3	End piece|Mid piece|Principal piece
+NUDCD3	1	Principal piece
+NUDT5	1	Mid piece
+OAZ3	2	Mid piece|Principal piece
+ODAD1	3	Connecting piece|Mid piece|Principal piece
+ODAD2	3	Acrosome|End piece|Principal piece
+ODAD3	1	Principal piece
+ODAD4	4	Acrosome|End piece|Mid piece|Principal piece
+ODF1	3	Connecting piece|Flagellar centriole|Mid piece
+ODF2	4	Calyx|Connecting piece|Mid piece|Principal piece
+ODF3	3	End piece|Mid piece|Principal piece
+ODF3L2	3	Flagellar centriole|Mid piece|Principal piece
+ODF4	1	Principal piece
+OFD1	1	End piece
+OR10Q1	1	Mid piece
+OR6P1	2	Mid piece|Principal piece
+P3R3URF-PIK3R3	4	Connecting piece|End piece|Mid piece|Principal piece
+PACRG	3	End piece|Mid piece|Principal piece
+PAFAH1B1	1	Mid piece
+PARK7	2	Flagellar centriole|Mid piece
+PCNT	2	Flagellar centriole|Mid piece
+PFKM	1	Principal piece
+PGAM1	1	Mid piece
+PGAM4	1	Mid piece
+PGK1	3	End piece|Mid piece|Principal piece
+PGK2	3	End piece|Mid piece|Principal piece
+PGPEP1L	1	Equatorial segment
+PGRMC1	2	Mid piece|Principal piece
+PGS1	1	Mid piece
+PHC1	1	Mid piece
+PIERCE1	1	Mid piece
+PIK3R3	4	Connecting piece|End piece|Mid piece|Principal piece
+PKHD1L1	3	Flagellar centriole|Mid piece|Principal piece
+PKM	1	Principal piece
+PLCB4	5	Acrosome|End piece|Equatorial segment|Mid piece|Principal piece
+PLPP3	2	Mid piece|Principal piece
+PMFBP1	5	Acrosome|Connecting piece|Flagellar centriole|Mid piece|Principal piece
+PNPLA5	2	Annulus|Mid piece
+POC1A	3	Flagellar centriole|Mid piece|Principal piece
+POC1B	1	Flagellar centriole
+PPP1CA	3	End piece|Flagellar centriole|Mid piece
+PPP1R32	3	End piece|Mid piece|Principal piece
+PPP1R3D	5	Calyx|Connecting piece|Flagellar centriole|Mid piece|Principal piece
+PPP2R3A	2	Flagellar centriole|Mid piece
+PPP2R5E	2	Mid piece|Principal piece
+PPP3CA	1	Calyx
+PPP3CB	1	Calyx
+PPP3CC	1	Calyx
+PPP4R1	5	Calyx|End piece|Mid piece|Perinuclear theca|Principal piece
+PRKAR2A	1	Mid piece
+PRKCZ	3	End piece|Flagellar centriole|Mid piece
+PROM2	4	Annulus|End piece|Mid piece|Principal piece
+PRSS21	2	Mid piece|Principal piece
+PRSS55	1	Acrosome
+PSD3	4	Calyx|End piece|Mid piece|Principal piece
+PSMA4	3	Connecting piece|Flagellar centriole|Mid piece
+PSMA6	6	Calyx|Connecting piece|End piece|Flagellar centriole|Mid piece|Perinuclear theca
+PSMA7	1	Principal piece
+PSMA8	1	Principal piece
+PSMB5	2	Mid piece|Principal piece
+PSMC4	2	Mid piece|Principal piece
+PSMD10	4	Calyx|Mid piece|Perinuclear theca|Principal piece
+PSMD11	2	Perinuclear theca|Principal piece
+PSMD2	1	Flagellar centriole
+PSMD5	2	Connecting piece|Mid piece
+PSMD7	4	Acrosome|Equatorial segment|Mid piece|Principal piece
+PTEN	2	Mid piece|Principal piece
+PTPN23	2	Calyx|Mid piece
+PTPRK	2	Connecting piece|Flagellar centriole
+RAB11A	3	Equatorial segment|Mid piece|Principal piece
+RAB11FIP4	3	Connecting piece|Mid piece|Principal piece
+RAB11FIP5	4	Acrosome|Annulus|End piece|Principal piece
+RAB27A	2	Mid piece|Principal piece
+RALGAPA1	2	Mid piece|Principal piece
+RANGAP1	1	Flagellar centriole
+RAP1GAP2	3	Flagellar centriole|Perinuclear theca|Principal piece
+RAPGEF4	1	Mid piece
+RBM5	5	End piece|Flagellar centriole|Mid piece|Perinuclear theca|Principal piece
+RCVRN	2	Mid piece|Principal piece
+REEP6	1	Acrosome
+RGS9BP	3	End piece|Mid piece|Principal piece
+RIBC2	6	Calyx|Connecting piece|End piece|Mid piece|Perinuclear theca|Principal piece
+RNPEP	2	End piece|Principal piece
+ROPN1	1	Principal piece
+ROPN1B	1	Principal piece
+ROPN1L	3	End piece|Mid piece|Principal piece
+RP1	1	Mid piece
+RP2	4	Acrosome|End piece|Mid piece|Principal piece
+RPAP3	1	Acrosome
+RPGR	3	End piece|Mid piece|Principal piece
+RPS27A	2	Acrosome|Equatorial segment
+RRAD	1	Flagellar centriole
+RSPH1	2	Acrosome|Mid piece
+RSPH3	3	Annulus|Flagellar centriole|Mid piece
+RSPH4A	3	Annulus|Connecting piece|Flagellar centriole
+RSPH9	5	Acrosome|End piece|Equatorial segment|Mid piece|Principal piece
+SAXO1	3	End piece|Flagellar centriole|Mid piece
+SAXO2	2	Connecting piece|Mid piece
+SCAMP2	2	Mid piece|Principal piece
+SCN10A	2	Connecting piece|Flagellar centriole
+SCNN1A	2	Acrosome|Annulus
+SELENOP	1	Connecting piece
+SEPTIN10	1	Annulus
+SEPTIN11	3	Annulus|Mid piece|Principal piece
+SEPTIN12	1	Annulus
+SEPTIN2	2	Annulus|Principal piece
+SEPTIN4	1	Annulus
+SEPTIN6	2	Mid piece|Principal piece
+SEPTIN8	3	Annulus|Mid piece|Principal piece
+SFN	1	Mid piece
+SLC22A14	4	Connecting piece|Mid piece|Perinuclear theca|Principal piece
+SLC26A3	1	Acrosome
+SLC26A7	2	Mid piece|Perinuclear theca
+SLC26A8	2	Acrosome|Annulus
+SLC2A2	2	Mid piece|Principal piece
+SLC2A5	2	Mid piece|Principal piece
+SLC8A3	2	Acrosome|End piece
+SLC9A3R1	1	Calyx
+SLC9B1	2	Acrosome|Principal piece
+SORD	2	Acrosome|Equatorial segment
+SPA17	1	Principal piece
+SPACA1	1	Acrosome
+SPACA3	1	Acrosome
+SPACA4	1	Acrosome
+SPACA7	4	Acrosome|End piece|Equatorial segment|Principal piece
+SPACA9	1	End piece
+SPACDR	1	Acrosome
+SPAG1	1	Principal piece
+SPAG16	2	Acrosome|Equatorial segment
+SPAG17	3	Equatorial segment|Mid piece|Principal piece
+SPAG6	4	Calyx|End piece|Mid piece|Principal piece
+SPAG8	4	Acrosome|End piece|Equatorial segment|Principal piece
+SPATA20	1	Principal piece
+SPATA31A1	2	Acrosome|Equatorial segment
+SPATA31A3	2	Acrosome|Equatorial segment
+SPATA31A5	2	Acrosome|Equatorial segment
+SPATA31A6	2	Acrosome|Equatorial segment
+SPATA31A7	2	Acrosome|Equatorial segment
+SPATA48	3	Connecting piece|Mid piece|Principal piece
+SPATA7	1	Mid piece
+SPEF2	2	Flagellar centriole|Mid piece
+SPEM1	1	Calyx
+SPESP1	2	Acrosome|Equatorial segment
+SPINK2	2	Acrosome|Equatorial segment
+SPZ1	1	Mid piece
+SRPK2	2	Acrosome|End piece
+SSBP1	2	Calyx|Principal piece
+SSX2IP	3	Acrosome|Equatorial segment|Principal piece
+STAT2	2	Mid piece|Principal piece
+STAT4	1	Flagellar centriole
+STAT6	1	Connecting piece
+STK33	2	Flagellar centriole|Mid piece
+STPG2	1	Principal piece
+SUGT1	5	Acrosome|End piece|Flagellar centriole|Mid piece|Principal piece
+SUMO2	3	Calyx|Connecting piece|Flagellar centriole
+SUMO3	3	Calyx|Connecting piece|Flagellar centriole
+SUMO4	3	Calyx|Connecting piece|Flagellar centriole
+TAF8	1	Mid piece
+TBC1D21	2	Calyx|Mid piece
+TBC1D30	2	Mid piece|Principal piece
+TCHP	2	Mid piece|Principal piece
+TCTE1	1	Mid piece
+TEKT2	4	Connecting piece|Flagellar centriole|Mid piece|Principal piece
+TEKT3	5	Calyx|End piece|Equatorial segment|Mid piece|Principal piece
+TEKT4	6	Annulus|Connecting piece|End piece|Flagellar centriole|Perinuclear theca|Principal piece
+TEX37	4	Connecting piece|End piece|Mid piece|Principal piece
+TEX43	1	Mid piece
+TEX45	3	End piece|Mid piece|Principal piece
+THEG	3	Annulus|Equatorial segment|Principal piece
+THEGL	1	Principal piece
+TMEM231	1	Mid piece
+TMEM89	1	Perinuclear theca
+TOPAZ1	2	Acrosome|Mid piece
+TP53I11	2	Acrosome|Principal piece
+TPPP2	3	Connecting piece|Mid piece|Principal piece
+TRIP13	3	Acrosome|Equatorial segment|Principal piece
+TSGA10	1	Flagellar centriole
+TSGA10IP	1	Mid piece
+TSSK1B	4	Annulus|End piece|Perinuclear theca|Principal piece
+TTC21B	4	Connecting piece|End piece|Mid piece|Principal piece
+TTC29	1	Principal piece
+TTC8	2	Flagellar centriole|Perinuclear theca
+TTLL6	4	End piece|Flagellar centriole|Mid piece|Principal piece
+TTLL9	3	End piece|Mid piece|Principal piece
+TUBB	3	End piece|Flagellar centriole|Principal piece
+TUBB1	3	End piece|Flagellar centriole|Principal piece
+TUBB2A	3	End piece|Flagellar centriole|Principal piece
+TUBB2B	3	End piece|Flagellar centriole|Principal piece
+TUBB3	3	End piece|Flagellar centriole|Principal piece
+TUBB4A	3	End piece|Flagellar centriole|Principal piece
+TUBB4B	3	End piece|Flagellar centriole|Principal piece
+TUBB6	3	End piece|Flagellar centriole|Principal piece
+TUBB8	3	End piece|Flagellar centriole|Principal piece
+TUBB8B	3	End piece|Flagellar centriole|Principal piece
+TUBG1	1	Principal piece
+TUBG2	1	Principal piece
+TULP4	2	Acrosome|Principal piece
+UBA52	2	Acrosome|Equatorial segment
+UBB	2	Acrosome|Equatorial segment
+UBC	2	Acrosome|Equatorial segment
+UBE2A	3	Flagellar centriole|Mid piece|Principal piece
+UBE2B	3	Flagellar centriole|Mid piece|Principal piece
+UBR4	4	Acrosome|Flagellar centriole|Perinuclear theca|Principal piece
+ULK3	1	Acrosome
+UNC119B	5	Annulus|End piece|Flagellar centriole|Mid piece|Principal piece
+USH2A	5	Acrosome|End piece|Equatorial segment|Mid piece|Principal piece
+VARS1	3	End piece|Mid piece|Principal piece
+VCAN	3	End piece|Mid piece|Principal piece
+VPS37A	7	Acrosome|End piece|Equatorial segment|Flagellar centriole|Mid piece|Perinuclear theca|Principal piece
+VPS50	3	End piece|Mid piece|Principal piece
+WBP11	3	Acrosome|End piece|Principal piece
+WDPCP	1	Flagellar centriole
+WDR11	3	End piece|Flagellar centriole|Principal piece
+WDR19	2	Mid piece|Principal piece
+WDR5	1	Principal piece
+WDR54	4	Acrosome|Flagellar centriole|Mid piece|Principal piece
+WRAP73	2	Mid piece|Principal piece
+ZG16	3	Annulus|Mid piece|Principal piece

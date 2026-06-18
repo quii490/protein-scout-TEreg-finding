@@ -1,0 +1,71 @@
+---
+type: sperm-protein-evaluation
+gene: "TMEM89"
+module: sperm
+status: sperm_candidate
+date: 2026-06-18
+tags: [protein-scout, sperm, evaluation]
+---
+
+# TMEM89 — 精子模块评估
+
+## 1. 基本信息
+- **基因:** TMEM89
+- **Ensembl:** 
+- **抗体:** 未获取
+- **IF 可靠性:** 未获取
+- **PubMed:** 0 篇
+- **精子定位部位:** Perinuclear theca (1 个)
+
+## 2. HPA 精子定位证据
+- **来源:** Perinuclear theca ✓
+- **链接:** https://www.proteinatlas.org/-TMEM89
+- **IF 图像:** 未获取
+
+*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+
+## 3. UniProt / GO-CC 精子定位证据
+*待 UniProt/GO-CC 采集。*
+
+## 4. PubMed 文献证据
+- **文献数:** 0 篇 (极低研究量)
+- *关键文献待人工调研。*
+
+## 5. AlphaFold / PAE / PDB / 结构域
+*待结构数据采集。*
+PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold pLDDT 统计。
+
+## 6. PPI / 蛋白互作网络
+### STRING (人类, top 10)
+| Partner | Combined | Exp | DB | Text |
+|---|---|---|---|---|
+| IQCF5 | 0.712 | 0.000 | 0.000 | 0.000 |
+| LRRCC1 | 0.667 | 0.000 | 0.000 | 0.000 |
+| FAM71E1 | 0.608 | 0.000 | 0.000 | 0.000 |
+| C4A | 0.591 | 0.000 | 0.000 | 0.000 |
+| FAM205A | 0.583 | 0.000 | 0.000 | 0.000 |
+| FAM205A | 0.581 | 0.000 | 0.000 | 0.000 |
+| EFCC1 | 0.580 | 0.000 | 0.000 | 0.000 |
+| IQCF5 | 0.556 | 0.000 | 0.000 | 0.000 |
+| TMEM89 | 0.507 | 0.000 | 0.000 | 0.000 |
+| TMEM89 | 0.507 | 0.000 | 0.000 | 0.000 |
+*待 IntAct/BioGRID/humanPPI 补充。*
+
+## 7. 评分表
+| 维度 | 评分 | 依据 |
+|---|---:|---|
+| 精子定位 | 14/20 | 单部位: Perinuclear theca |
+| PubMed | 10/20 | 0 篇 |
+| PPI | 18/20 | STRING |
+| 结构 | 5/10 | 待采集 |
+| 新颖性 | 10/10 | 极低 |
+
+- **评分:** **69/100**
+
+## 8. 结论
+**SPERM CANDIDATE**
+
+## 9. 人工复核备注
+- 精子部位: Perinuclear theca
+- 建议验证精子 IF 文献定位

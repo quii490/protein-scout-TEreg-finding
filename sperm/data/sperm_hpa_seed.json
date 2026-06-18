@@ -1,0 +1,5300 @@
+{
+  "metadata": {
+    "module": "sperm",
+    "locations": [
+      "Acrosome",
+      "Annulus",
+      "Calyx",
+      "Connecting piece",
+      "End piece",
+      "Equatorial segment",
+      "Flagellar centriole",
+      "Mid piece",
+      "Perinuclear theca",
+      "Principal piece"
+    ],
+    "total_unique_genes": 628
+  },
+  "genes": [
+    "AAAS",
+    "ABCB6",
+    "ABCC8",
+    "ABHD2",
+    "ABLIM1",
+    "ACADM",
+    "ACADS",
+    "ACLY",
+    "ACRV1",
+    "ACTL7A",
+    "ACTL9",
+    "ACTR10",
+    "ACTRT3",
+    "ADAM30",
+    "ADAM32",
+    "ADGB",
+    "AFG3L2",
+    "AGBL2",
+    "AIFM1",
+    "AK1",
+    "AK7",
+    "AK8",
+    "AK9",
+    "AKAP3",
+    "AKAP4",
+    "AKT1",
+    "ALMS1",
+    "ANK2",
+    "AQP9",
+    "ARL13A",
+    "ARL13B",
+    "ARL2",
+    "ARMC9",
+    "ARMS2",
+    "ARSA",
+    "ART3",
+    "ASIP",
+    "ATAD3A",
+    "ATAD3B",
+    "ATG16L1",
+    "ATG7",
+    "ATOH7",
+    "ATP2A2",
+    "ATP5F1A",
+    "ATP5F1D",
+    "ATP5MG",
+    "ATP5MGL",
+    "ATP5PF",
+    "ATP6V0A2",
+    "ATP8A2",
+    "B9D1",
+    "BAD",
+    "BAG2",
+    "BBS4",
+    "BBS5",
+    "BBS9",
+    "BCL2L1",
+    "BCS1L",
+    "BEST2",
+    "BOLL",
+    "BRAF",
+    "BSG",
+    "C16orf78",
+    "C1orf100",
+    "C20orf85",
+    "C2CD3",
+    "C2CD6",
+    "C4orf17",
+    "C4orf45",
+    "C4orf47",
+    "C7orf33",
+    "C9orf24",
+    "CABYR",
+    "CACNA1B",
+    "CACNA1G",
+    "CACNA1I",
+    "CACNA1S",
+    "CACNA2D2",
+    "CACNA2D3",
+    "CACNA2D4",
+    "CAMK2A",
+    "CAMK2B",
+    "CAMK2D",
+    "CAMK2G",
+    "CAPN11",
+    "CAPN2",
+    "CAPZA3",
+    "CASP8",
+    "CATIP",
+    "CATSPER1",
+    "CATSPER2",
+    "CATSPER3",
+    "CATSPERB",
+    "CATSPERD",
+    "CATSPERE",
+    "CATSPERG",
+    "CATSPERZ",
+    "CAV1",
+    "CBL",
+    "CBLN1",
+    "CBLN2",
+    "CBLN4",
+    "CBY2",
+    "CC2D2A",
+    "CCDC103",
+    "CCDC136",
+    "CCDC181",
+    "CCDC183",
+    "CCDC188",
+    "CCDC34",
+    "CCDC39",
+    "CCDC40",
+    "CCDC63",
+    "CCDC65",
+    "CCDC66",
+    "CCDC91",
+    "CCIN",
+    "CCT2",
+    "CCT5",
+    "CCT8",
+    "CD300LG",
+    "CDK1",
+    "CDK2",
+    "CDK20",
+    "CDK5RAP2",
+    "CDKL1",
+    "CENPJ",
+    "CEP120",
+    "CEP131",
+    "CEP135",
+    "CEP162",
+    "CEP164",
+    "CEP290",
+    "CEP350",
+    "CEP55",
+    "CEP76",
+    "CETN1",
+    "CETN2",
+    "CFAP100",
+    "CFAP119",
+    "CFAP126",
+    "CFAP20",
+    "CFAP221",
+    "CFAP251",
+    "CFAP276",
+    "CFAP298",
+    "CFAP43",
+    "CFAP45",
+    "CFAP46",
+    "CFAP58",
+    "CFAP61",
+    "CFAP70",
+    "CFAP95",
+    "CFAP99",
+    "CKLF",
+    "CLGN",
+    "CLIC4",
+    "CLIP1",
+    "CLNS1A",
+    "CLPX",
+    "CLTC",
+    "CLXN",
+    "CNBD2",
+    "CNGA1",
+    "CNGA3",
+    "CNTRL",
+    "CNTROB",
+    "COASY",
+    "COX5B",
+    "COX6A1",
+    "COX6B1",
+    "CPLANE1",
+    "CPS1",
+    "CPTP",
+    "CROCC",
+    "CSNK1D",
+    "CSNK2B",
+    "CTNNA1",
+    "CTXN3",
+    "CXorf66",
+    "CYB5R3",
+    "CYC1",
+    "CYLC1",
+    "CYLC2",
+    "CYLD",
+    "DAW1",
+    "DBNDD1",
+    "DCDC2",
+    "DCDC2C",
+    "DCST1",
+    "DCTN1",
+    "DCTN2",
+    "DCTN3",
+    "DCTN4",
+    "DDB1",
+    "DIABLO",
+    "DKKL1",
+    "DLAT",
+    "DLD",
+    "DNAAF11",
+    "DNAAF4",
+    "DNAAF6",
+    "DNAH10",
+    "DNAH12",
+    "DNAH17",
+    "DNAH2",
+    "DNAH3",
+    "DNAH6",
+    "DNAH7",
+    "DNAH8",
+    "DNAH9",
+    "DNAI1",
+    "DNAI2",
+    "DNAI3",
+    "DNAI4",
+    "DNAJB13",
+    "DNAJC5",
+    "DNAL1",
+    "DNAL4",
+    "DNALI1",
+    "DNHD1",
+    "DRC3",
+    "DUSP21",
+    "DYDC1",
+    "DYDC2",
+    "DYNC1H1",
+    "DYNC1I2",
+    "DYNC1LI2",
+    "DYNC2H1",
+    "DYNC2LI1",
+    "DYNLL1",
+    "DYNLL2",
+    "DYNLT1",
+    "DYSF",
+    "EFCAB2",
+    "EFCAB6",
+    "EFHB",
+    "EFHC1",
+    "EGFR",
+    "EML4",
+    "ENKUR",
+    "ENSG00000111780",
+    "ENSG00000198211",
+    "ENSG00000251569",
+    "ENSG00000256500",
+    "ENSG00000267740",
+    "ENSG00000271254",
+    "ENSG00000282218",
+    "ENSG00000285827",
+    "ENSG00000286185",
+    "EPHA6",
+    "EPHA7",
+    "EPRS1",
+    "EXOC3L2",
+    "EYS",
+    "FAF1",
+    "FAM161A",
+    "FAM166A",
+    "FAM177B",
+    "FAM183A",
+    "FAM187A",
+    "FAM205A",
+    "FAM9A",
+    "FLACC1",
+    "FLAD1",
+    "FMR1NB",
+    "FSCB",
+    "FSIP1",
+    "FSIP2",
+    "FYB2",
+    "G6PC1",
+    "GAPDHS",
+    "GAS8",
+    "GLG1",
+    "GLUL",
+    "GNAI1",
+    "GNAI3",
+    "GNAT1",
+    "GOPC",
+    "GPIHBP1",
+    "GRK1",
+    "GRK4",
+    "GZMB",
+    "H1-7",
+    "HADHB",
+    "HAUS1",
+    "HAUS6",
+    "HAUS7",
+    "HIP1",
+    "HMGB2",
+    "HPRT1",
+    "HSPA1A",
+    "HSPA1B",
+    "HSPA1L",
+    "HSPA2",
+    "HSPA4L",
+    "HSPA5",
+    "HSPA6",
+    "HSPA8",
+    "HSPB11",
+    "HUWE1",
+    "HYDIN",
+    "IFT122",
+    "IFT20",
+    "IFT22",
+    "IFT43",
+    "IFT46",
+    "IFT57",
+    "IFT88",
+    "IL4I1",
+    "IMMP2L",
+    "IMPG1",
+    "IPO8",
+    "IQCA1",
+    "IQCD",
+    "IQCH",
+    "IQCN",
+    "IQUB",
+    "ITGB6",
+    "ITLN1",
+    "ITPR2",
+    "IZUMO2",
+    "IZUMO3",
+    "IZUMO4",
+    "KCNU1",
+    "KCTD16",
+    "KDR",
+    "KIF11",
+    "KIF12",
+    "KIF13A",
+    "KIF14",
+    "KIF17",
+    "KIF1B",
+    "KIF1C",
+    "KIF20B",
+    "KIF21B",
+    "KIF23",
+    "KIF26A",
+    "KIF2A",
+    "KIF2B",
+    "KIF3B",
+    "KIF4A",
+    "KIF4B",
+    "KIF5A",
+    "KIF5B",
+    "KIF5C",
+    "KIF9",
+    "KLB",
+    "KLC1",
+    "KLHL10",
+    "KRT31",
+    "KRT33A",
+    "KRT33B",
+    "KRT34",
+    "KRT39",
+    "LANCL1",
+    "LAP3",
+    "LCA5L",
+    "LDHC",
+    "LNPK",
+    "LRIT1",
+    "LRPPRC",
+    "LRRC45",
+    "LY6K",
+    "LYZL4",
+    "MAG",
+    "MAK",
+    "MAP1A",
+    "MAP1B",
+    "MAP1S",
+    "MAP2K2",
+    "MAP4",
+    "MAPT",
+    "MARS1",
+    "MDM2",
+    "MERTK",
+    "MFF",
+    "MLF1",
+    "MNS1",
+    "MOK",
+    "MPC1",
+    "MROH2B",
+    "MRPS35",
+    "MSGN1",
+    "MSH4",
+    "MT-CO1",
+    "MYO5A",
+    "NBPF1",
+    "NBPF10",
+    "NBPF11",
+    "NBPF12",
+    "NBPF14",
+    "NBPF15",
+    "NBPF19",
+    "NBPF20",
+    "NBPF26",
+    "NBPF8",
+    "NBPF9",
+    "NDRG1",
+    "NDUFA11",
+    "NDUFA6",
+    "NDUFA8",
+    "NDUFB11",
+    "NDUFB4",
+    "NDUFS2",
+    "NDUFS3",
+    "NDUFS4",
+    "NSF",
+    "NT5C1B",
+    "NT5C1B-RDH14",
+    "NUBP1",
+    "NUDCD3",
+    "NUDT5",
+    "OAZ3",
+    "ODAD1",
+    "ODAD2",
+    "ODAD3",
+    "ODAD4",
+    "ODF1",
+    "ODF2",
+    "ODF3",
+    "ODF3L2",
+    "ODF4",
+    "OFD1",
+    "OR10Q1",
+    "OR6P1",
+    "P3R3URF-PIK3R3",
+    "PACRG",
+    "PAFAH1B1",
+    "PARK7",
+    "PCNT",
+    "PFKM",
+    "PGAM1",
+    "PGAM4",
+    "PGK1",
+    "PGK2",
+    "PGPEP1L",
+    "PGRMC1",
+    "PGS1",
+    "PHC1",
+    "PIERCE1",
+    "PIK3R3",
+    "PKHD1L1",
+    "PKM",
+    "PLCB4",
+    "PLPP3",
+    "PMFBP1",
+    "PNPLA5",
+    "POC1A",
+    "POC1B",
+    "PPP1CA",
+    "PPP1R32",
+    "PPP1R3D",
+    "PPP2R3A",
+    "PPP2R5E",
+    "PPP3CA",
+    "PPP3CB",
+    "PPP3CC",
+    "PPP4R1",
+    "PRKAR2A",
+    "PRKCZ",
+    "PROM2",
+    "PRSS21",
+    "PRSS55",
+    "PSD3",
+    "PSMA4",
+    "PSMA6",
+    "PSMA7",
+    "PSMA8",
+    "PSMB5",
+    "PSMC4",
+    "PSMD10",
+    "PSMD11",
+    "PSMD2",
+    "PSMD5",
+    "PSMD7",
+    "PTEN",
+    "PTPN23",
+    "PTPRK",
+    "RAB11A",
+    "RAB11FIP4",
+    "RAB11FIP5",
+    "RAB27A",
+    "RALGAPA1",
+    "RANGAP1",
+    "RAP1GAP2",
+    "RAPGEF4",
+    "RBM5",
+    "RCVRN",
+    "REEP6",
+    "RGS9BP",
+    "RIBC2",
+    "RNPEP",
+    "ROPN1",
+    "ROPN1B",
+    "ROPN1L",
+    "RP1",
+    "RP2",
+    "RPAP3",
+    "RPGR",
+    "RPS27A",
+    "RRAD",
+    "RSPH1",
+    "RSPH3",
+    "RSPH4A",
+    "RSPH9",
+    "SAXO1",
+    "SAXO2",
+    "SCAMP2",
+    "SCN10A",
+    "SCNN1A",
+    "SELENOP",
+    "SEPTIN10",
+    "SEPTIN11",
+    "SEPTIN12",
+    "SEPTIN2",
+    "SEPTIN4",
+    "SEPTIN6",
+    "SEPTIN8",
+    "SFN",
+    "SLC22A14",
+    "SLC26A3",
+    "SLC26A7",
+    "SLC26A8",
+    "SLC2A2",
+    "SLC2A5",
+    "SLC8A3",
+    "SLC9A3R1",
+    "SLC9B1",
+    "SORD",
+    "SPA17",
+    "SPACA1",
+    "SPACA3",
+    "SPACA4",
+    "SPACA7",
+    "SPACA9",
+    "SPACDR",
+    "SPAG1",
+    "SPAG16",
+    "SPAG17",
+    "SPAG6",
+    "SPAG8",
+    "SPATA20",
+    "SPATA31A1",
+    "SPATA31A3",
+    "SPATA31A5",
+    "SPATA31A6",
+    "SPATA31A7",
+    "SPATA48",
+    "SPATA7",
+    "SPEF2",
+    "SPEM1",
+    "SPESP1",
+    "SPINK2",
+    "SPZ1",
+    "SRPK2",
+    "SSBP1",
+    "SSX2IP",
+    "STAT2",
+    "STAT4",
+    "STAT6",
+    "STK33",
+    "STPG2",
+    "SUGT1",
+    "SUMO2",
+    "SUMO3",
+    "SUMO4",
+    "TAF8",
+    "TBC1D21",
+    "TBC1D30",
+    "TCHP",
+    "TCTE1",
+    "TEKT2",
+    "TEKT3",
+    "TEKT4",
+    "TEX37",
+    "TEX43",
+    "TEX45",
+    "THEG",
+    "THEGL",
+    "TMEM231",
+    "TMEM89",
+    "TOPAZ1",
+    "TP53I11",
+    "TPPP2",
+    "TRIP13",
+    "TSGA10",
+    "TSGA10IP",
+    "TSSK1B",
+    "TTC21B",
+    "TTC29",
+    "TTC8",
+    "TTLL6",
+    "TTLL9",
+    "TUBB",
+    "TUBB1",
+    "TUBB2A",
+    "TUBB2B",
+    "TUBB3",
+    "TUBB4A",
+    "TUBB4B",
+    "TUBB6",
+    "TUBB8",
+    "TUBB8B",
+    "TUBG1",
+    "TUBG2",
+    "TULP4",
+    "UBA52",
+    "UBB",
+    "UBC",
+    "UBE2A",
+    "UBE2B",
+    "UBR4",
+    "ULK3",
+    "UNC119B",
+    "USH2A",
+    "VARS1",
+    "VCAN",
+    "VPS37A",
+    "VPS50",
+    "WBP11",
+    "WDPCP",
+    "WDR11",
+    "WDR19",
+    "WDR5",
+    "WDR54",
+    "WRAP73",
+    "ZG16"
+  ],
+  "gene_details": {
+    "ACRV1": {
+      "source_count": 1,
+      "sources": [
+        "Acrosome"
+      ]
+    },
+    "ACTL9": {
+      "source_count": 2,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment"
+      ]
+    },
+    "ACTRT3": {
+      "source_count": 1,
+      "sources": [
+        "Acrosome"
+      ]
+    },
+    "ANK2": {
+      "source_count": 1,
+      "sources": [
+        "Acrosome"
+      ]
+    },
+    "ARL13A": {
+      "source_count": 4,
+      "sources": [
+        "Acrosome",
+        "Connecting piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "ARL13B": {
+      "source_count": 5,
+      "sources": [
+        "Acrosome",
+        "End piece",
+        "Equatorial segment",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "ATAD3A": {
+      "source_count": 1,
+      "sources": [
+        "Acrosome"
+      ]
+    },
+    "ATAD3B": {
+      "source_count": 1,
+      "sources": [
+        "Acrosome"
+      ]
+    },
+    "ATP8A2": {
+      "source_count": 3,
+      "sources": [
+        "Acrosome",
+        "Annulus",
+        "Mid piece"
+      ]
+    },
+    "B9D1": {
+      "source_count": 5,
+      "sources": [
+        "Acrosome",
+        "End piece",
+        "Equatorial segment",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "BBS4": {
+      "source_count": 5,
+      "sources": [
+        "Acrosome",
+        "Annulus",
+        "Flagellar centriole",
+        "Perinuclear theca",
+        "Principal piece"
+      ]
+    },
+    "BBS5": {
+      "source_count": 2,
+      "sources": [
+        "Acrosome",
+        "Perinuclear theca"
+      ]
+    },
+    "BBS9": {
+      "source_count": 5,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment",
+        "Flagellar centriole",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "BCL2L1": {
+      "source_count": 1,
+      "sources": [
+        "Acrosome"
+      ]
+    },
+    "C2CD3": {
+      "source_count": 3,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment",
+        "Principal piece"
+      ]
+    },
+    "C2CD6": {
+      "source_count": 3,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment",
+        "Principal piece"
+      ]
+    },
+    "C7orf33": {
+      "source_count": 2,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment"
+      ]
+    },
+    "CACNA1B": {
+      "source_count": 2,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment"
+      ]
+    },
+    "CACNA1G": {
+      "source_count": 3,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment",
+        "Perinuclear theca"
+      ]
+    },
+    "CACNA1I": {
+      "source_count": 1,
+      "sources": [
+        "Acrosome"
+      ]
+    },
+    "CACNA1S": {
+      "source_count": 2,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment"
+      ]
+    },
+    "CAPN11": {
+      "source_count": 5,
+      "sources": [
+        "Acrosome",
+        "End piece",
+        "Equatorial segment",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CCDC181": {
+      "source_count": 3,
+      "sources": [
+        "Acrosome",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CCDC39": {
+      "source_count": 1,
+      "sources": [
+        "Acrosome"
+      ]
+    },
+    "CCDC91": {
+      "source_count": 3,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment",
+        "Flagellar centriole"
+      ]
+    },
+    "CDK1": {
+      "source_count": 4,
+      "sources": [
+        "Acrosome",
+        "Connecting piece",
+        "Flagellar centriole",
+        "Perinuclear theca"
+      ]
+    },
+    "CENPJ": {
+      "source_count": 1,
+      "sources": [
+        "Acrosome"
+      ]
+    },
+    "CEP135": {
+      "source_count": 4,
+      "sources": [
+        "Acrosome",
+        "Annulus",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "COX5B": {
+      "source_count": 1,
+      "sources": [
+        "Acrosome"
+      ]
+    },
+    "DCDC2": {
+      "source_count": 3,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment",
+        "Principal piece"
+      ]
+    },
+    "DCST1": {
+      "source_count": 3,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment",
+        "Principal piece"
+      ]
+    },
+    "DCTN1": {
+      "source_count": 2,
+      "sources": [
+        "Acrosome",
+        "Perinuclear theca"
+      ]
+    },
+    "DKKL1": {
+      "source_count": 3,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment",
+        "Mid piece"
+      ]
+    },
+    "DNAAF6": {
+      "source_count": 2,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment"
+      ]
+    },
+    "DNAL1": {
+      "source_count": 4,
+      "sources": [
+        "Acrosome",
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "DNAL4": {
+      "source_count": 5,
+      "sources": [
+        "Acrosome",
+        "Calyx",
+        "Equatorial segment",
+        "Perinuclear theca",
+        "Principal piece"
+      ]
+    },
+    "DYNLT1": {
+      "source_count": 1,
+      "sources": [
+        "Acrosome"
+      ]
+    },
+    "ENSG00000251569": {
+      "source_count": 2,
+      "sources": [
+        "Acrosome",
+        "Perinuclear theca"
+      ]
+    },
+    "ENSG00000256500": {
+      "source_count": 2,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment"
+      ]
+    },
+    "FAF1": {
+      "source_count": 3,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment",
+        "Perinuclear theca"
+      ]
+    },
+    "FAM187A": {
+      "source_count": 1,
+      "sources": [
+        "Acrosome"
+      ]
+    },
+    "FAM205A": {
+      "source_count": 3,
+      "sources": [
+        "Acrosome",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "FMR1NB": {
+      "source_count": 1,
+      "sources": [
+        "Acrosome"
+      ]
+    },
+    "HAUS6": {
+      "source_count": 4,
+      "sources": [
+        "Acrosome",
+        "Connecting piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "HIP1": {
+      "source_count": 3,
+      "sources": [
+        "Acrosome",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "IL4I1": {
+      "source_count": 1,
+      "sources": [
+        "Acrosome"
+      ]
+    },
+    "IQCN": {
+      "source_count": 2,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment"
+      ]
+    },
+    "ITGB6": {
+      "source_count": 5,
+      "sources": [
+        "Acrosome",
+        "Connecting piece",
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "ITLN1": {
+      "source_count": 4,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "IZUMO2": {
+      "source_count": 2,
+      "sources": [
+        "Acrosome",
+        "Mid piece"
+      ]
+    },
+    "IZUMO3": {
+      "source_count": 2,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment"
+      ]
+    },
+    "KIF17": {
+      "source_count": 2,
+      "sources": [
+        "Acrosome",
+        "Principal piece"
+      ]
+    },
+    "KIF4A": {
+      "source_count": 4,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "KIF4B": {
+      "source_count": 4,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "KLC1": {
+      "source_count": 2,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment"
+      ]
+    },
+    "LRPPRC": {
+      "source_count": 3,
+      "sources": [
+        "Acrosome",
+        "End piece",
+        "Mid piece"
+      ]
+    },
+    "LY6K": {
+      "source_count": 3,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment",
+        "Mid piece"
+      ]
+    },
+    "MAP4": {
+      "source_count": 2,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment"
+      ]
+    },
+    "MERTK": {
+      "source_count": 3,
+      "sources": [
+        "Acrosome",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "MROH2B": {
+      "source_count": 2,
+      "sources": [
+        "Acrosome",
+        "Mid piece"
+      ]
+    },
+    "MSGN1": {
+      "source_count": 3,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment",
+        "Mid piece"
+      ]
+    },
+    "NDUFB11": {
+      "source_count": 5,
+      "sources": [
+        "Acrosome",
+        "Connecting piece",
+        "Equatorial segment",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "NSF": {
+      "source_count": 5,
+      "sources": [
+        "Acrosome",
+        "End piece",
+        "Equatorial segment",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "ODAD2": {
+      "source_count": 3,
+      "sources": [
+        "Acrosome",
+        "End piece",
+        "Principal piece"
+      ]
+    },
+    "ODAD4": {
+      "source_count": 4,
+      "sources": [
+        "Acrosome",
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "PLCB4": {
+      "source_count": 5,
+      "sources": [
+        "Acrosome",
+        "End piece",
+        "Equatorial segment",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "PMFBP1": {
+      "source_count": 5,
+      "sources": [
+        "Acrosome",
+        "Connecting piece",
+        "Flagellar centriole",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "PRSS55": {
+      "source_count": 1,
+      "sources": [
+        "Acrosome"
+      ]
+    },
+    "PSMD7": {
+      "source_count": 4,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "RAB11FIP5": {
+      "source_count": 4,
+      "sources": [
+        "Acrosome",
+        "Annulus",
+        "End piece",
+        "Principal piece"
+      ]
+    },
+    "REEP6": {
+      "source_count": 1,
+      "sources": [
+        "Acrosome"
+      ]
+    },
+    "RP2": {
+      "source_count": 4,
+      "sources": [
+        "Acrosome",
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "RPAP3": {
+      "source_count": 1,
+      "sources": [
+        "Acrosome"
+      ]
+    },
+    "RPS27A": {
+      "source_count": 2,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment"
+      ]
+    },
+    "RSPH1": {
+      "source_count": 2,
+      "sources": [
+        "Acrosome",
+        "Mid piece"
+      ]
+    },
+    "RSPH9": {
+      "source_count": 5,
+      "sources": [
+        "Acrosome",
+        "End piece",
+        "Equatorial segment",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "SCNN1A": {
+      "source_count": 2,
+      "sources": [
+        "Acrosome",
+        "Annulus"
+      ]
+    },
+    "SLC26A3": {
+      "source_count": 1,
+      "sources": [
+        "Acrosome"
+      ]
+    },
+    "SLC26A8": {
+      "source_count": 2,
+      "sources": [
+        "Acrosome",
+        "Annulus"
+      ]
+    },
+    "SLC8A3": {
+      "source_count": 2,
+      "sources": [
+        "Acrosome",
+        "End piece"
+      ]
+    },
+    "SLC9B1": {
+      "source_count": 2,
+      "sources": [
+        "Acrosome",
+        "Principal piece"
+      ]
+    },
+    "SORD": {
+      "source_count": 2,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment"
+      ]
+    },
+    "SPACA1": {
+      "source_count": 1,
+      "sources": [
+        "Acrosome"
+      ]
+    },
+    "SPACA3": {
+      "source_count": 1,
+      "sources": [
+        "Acrosome"
+      ]
+    },
+    "SPACA4": {
+      "source_count": 1,
+      "sources": [
+        "Acrosome"
+      ]
+    },
+    "SPACA7": {
+      "source_count": 4,
+      "sources": [
+        "Acrosome",
+        "End piece",
+        "Equatorial segment",
+        "Principal piece"
+      ]
+    },
+    "SPACDR": {
+      "source_count": 1,
+      "sources": [
+        "Acrosome"
+      ]
+    },
+    "SPAG16": {
+      "source_count": 2,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment"
+      ]
+    },
+    "SPAG8": {
+      "source_count": 4,
+      "sources": [
+        "Acrosome",
+        "End piece",
+        "Equatorial segment",
+        "Principal piece"
+      ]
+    },
+    "SPATA31A1": {
+      "source_count": 2,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment"
+      ]
+    },
+    "SPATA31A3": {
+      "source_count": 2,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment"
+      ]
+    },
+    "SPATA31A5": {
+      "source_count": 2,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment"
+      ]
+    },
+    "SPATA31A6": {
+      "source_count": 2,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment"
+      ]
+    },
+    "SPATA31A7": {
+      "source_count": 2,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment"
+      ]
+    },
+    "SPESP1": {
+      "source_count": 2,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment"
+      ]
+    },
+    "SPINK2": {
+      "source_count": 2,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment"
+      ]
+    },
+    "SRPK2": {
+      "source_count": 2,
+      "sources": [
+        "Acrosome",
+        "End piece"
+      ]
+    },
+    "SSX2IP": {
+      "source_count": 3,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment",
+        "Principal piece"
+      ]
+    },
+    "SUGT1": {
+      "source_count": 5,
+      "sources": [
+        "Acrosome",
+        "End piece",
+        "Flagellar centriole",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "TOPAZ1": {
+      "source_count": 2,
+      "sources": [
+        "Acrosome",
+        "Mid piece"
+      ]
+    },
+    "TP53I11": {
+      "source_count": 2,
+      "sources": [
+        "Acrosome",
+        "Principal piece"
+      ]
+    },
+    "TRIP13": {
+      "source_count": 3,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment",
+        "Principal piece"
+      ]
+    },
+    "TULP4": {
+      "source_count": 2,
+      "sources": [
+        "Acrosome",
+        "Principal piece"
+      ]
+    },
+    "UBA52": {
+      "source_count": 2,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment"
+      ]
+    },
+    "UBB": {
+      "source_count": 2,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment"
+      ]
+    },
+    "UBC": {
+      "source_count": 2,
+      "sources": [
+        "Acrosome",
+        "Equatorial segment"
+      ]
+    },
+    "UBR4": {
+      "source_count": 4,
+      "sources": [
+        "Acrosome",
+        "Flagellar centriole",
+        "Perinuclear theca",
+        "Principal piece"
+      ]
+    },
+    "ULK3": {
+      "source_count": 1,
+      "sources": [
+        "Acrosome"
+      ]
+    },
+    "USH2A": {
+      "source_count": 5,
+      "sources": [
+        "Acrosome",
+        "End piece",
+        "Equatorial segment",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "VPS37A": {
+      "source_count": 7,
+      "sources": [
+        "Acrosome",
+        "End piece",
+        "Equatorial segment",
+        "Flagellar centriole",
+        "Mid piece",
+        "Perinuclear theca",
+        "Principal piece"
+      ]
+    },
+    "WBP11": {
+      "source_count": 3,
+      "sources": [
+        "Acrosome",
+        "End piece",
+        "Principal piece"
+      ]
+    },
+    "WDR54": {
+      "source_count": 4,
+      "sources": [
+        "Acrosome",
+        "Flagellar centriole",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "AK1": {
+      "source_count": 1,
+      "sources": [
+        "Annulus"
+      ]
+    },
+    "ARMC9": {
+      "source_count": 3,
+      "sources": [
+        "Annulus",
+        "Flagellar centriole",
+        "Mid piece"
+      ]
+    },
+    "BOLL": {
+      "source_count": 4,
+      "sources": [
+        "Annulus",
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CATSPERE": {
+      "source_count": 4,
+      "sources": [
+        "Annulus",
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CBY2": {
+      "source_count": 6,
+      "sources": [
+        "Annulus",
+        "Calyx",
+        "Connecting piece",
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CCDC65": {
+      "source_count": 3,
+      "sources": [
+        "Annulus",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CCT5": {
+      "source_count": 3,
+      "sources": [
+        "Annulus",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CEP120": {
+      "source_count": 4,
+      "sources": [
+        "Annulus",
+        "Flagellar centriole",
+        "Mid piece",
+        "Perinuclear theca"
+      ]
+    },
+    "CFAP46": {
+      "source_count": 3,
+      "sources": [
+        "Annulus",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CXorf66": {
+      "source_count": 6,
+      "sources": [
+        "Annulus",
+        "Calyx",
+        "End piece",
+        "Mid piece",
+        "Perinuclear theca",
+        "Principal piece"
+      ]
+    },
+    "DNAH7": {
+      "source_count": 2,
+      "sources": [
+        "Annulus",
+        "Mid piece"
+      ]
+    },
+    "DNHD1": {
+      "source_count": 2,
+      "sources": [
+        "Annulus",
+        "Mid piece"
+      ]
+    },
+    "DYNC1H1": {
+      "source_count": 3,
+      "sources": [
+        "Annulus",
+        "Flagellar centriole",
+        "Mid piece"
+      ]
+    },
+    "DYNC2LI1": {
+      "source_count": 5,
+      "sources": [
+        "Annulus",
+        "Equatorial segment",
+        "Mid piece",
+        "Perinuclear theca",
+        "Principal piece"
+      ]
+    },
+    "EML4": {
+      "source_count": 4,
+      "sources": [
+        "Annulus",
+        "Calyx",
+        "Perinuclear theca",
+        "Principal piece"
+      ]
+    },
+    "FLACC1": {
+      "source_count": 3,
+      "sources": [
+        "Annulus",
+        "Connecting piece",
+        "Mid piece"
+      ]
+    },
+    "FSIP1": {
+      "source_count": 2,
+      "sources": [
+        "Annulus",
+        "Flagellar centriole"
+      ]
+    },
+    "HMGB2": {
+      "source_count": 2,
+      "sources": [
+        "Annulus",
+        "Principal piece"
+      ]
+    },
+    "HPRT1": {
+      "source_count": 4,
+      "sources": [
+        "Annulus",
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "HSPA1A": {
+      "source_count": 4,
+      "sources": [
+        "Annulus",
+        "Calyx",
+        "Flagellar centriole",
+        "Perinuclear theca"
+      ]
+    },
+    "HSPA1B": {
+      "source_count": 4,
+      "sources": [
+        "Annulus",
+        "Calyx",
+        "Flagellar centriole",
+        "Perinuclear theca"
+      ]
+    },
+    "HSPA1L": {
+      "source_count": 4,
+      "sources": [
+        "Annulus",
+        "Calyx",
+        "Flagellar centriole",
+        "Perinuclear theca"
+      ]
+    },
+    "HSPA2": {
+      "source_count": 4,
+      "sources": [
+        "Annulus",
+        "Calyx",
+        "Flagellar centriole",
+        "Perinuclear theca"
+      ]
+    },
+    "HSPA5": {
+      "source_count": 4,
+      "sources": [
+        "Annulus",
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "HSPA6": {
+      "source_count": 4,
+      "sources": [
+        "Annulus",
+        "Calyx",
+        "Flagellar centriole",
+        "Perinuclear theca"
+      ]
+    },
+    "HSPA8": {
+      "source_count": 4,
+      "sources": [
+        "Annulus",
+        "Calyx",
+        "Flagellar centriole",
+        "Perinuclear theca"
+      ]
+    },
+    "KIF23": {
+      "source_count": 3,
+      "sources": [
+        "Annulus",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "KIF2A": {
+      "source_count": 3,
+      "sources": [
+        "Annulus",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "KRT39": {
+      "source_count": 3,
+      "sources": [
+        "Annulus",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "PNPLA5": {
+      "source_count": 2,
+      "sources": [
+        "Annulus",
+        "Mid piece"
+      ]
+    },
+    "PROM2": {
+      "source_count": 4,
+      "sources": [
+        "Annulus",
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "RSPH3": {
+      "source_count": 3,
+      "sources": [
+        "Annulus",
+        "Flagellar centriole",
+        "Mid piece"
+      ]
+    },
+    "RSPH4A": {
+      "source_count": 3,
+      "sources": [
+        "Annulus",
+        "Connecting piece",
+        "Flagellar centriole"
+      ]
+    },
+    "SEPTIN10": {
+      "source_count": 1,
+      "sources": [
+        "Annulus"
+      ]
+    },
+    "SEPTIN11": {
+      "source_count": 3,
+      "sources": [
+        "Annulus",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "SEPTIN12": {
+      "source_count": 1,
+      "sources": [
+        "Annulus"
+      ]
+    },
+    "SEPTIN2": {
+      "source_count": 2,
+      "sources": [
+        "Annulus",
+        "Principal piece"
+      ]
+    },
+    "SEPTIN4": {
+      "source_count": 1,
+      "sources": [
+        "Annulus"
+      ]
+    },
+    "SEPTIN8": {
+      "source_count": 3,
+      "sources": [
+        "Annulus",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "TEKT4": {
+      "source_count": 6,
+      "sources": [
+        "Annulus",
+        "Connecting piece",
+        "End piece",
+        "Flagellar centriole",
+        "Perinuclear theca",
+        "Principal piece"
+      ]
+    },
+    "THEG": {
+      "source_count": 3,
+      "sources": [
+        "Annulus",
+        "Equatorial segment",
+        "Principal piece"
+      ]
+    },
+    "TSSK1B": {
+      "source_count": 4,
+      "sources": [
+        "Annulus",
+        "End piece",
+        "Perinuclear theca",
+        "Principal piece"
+      ]
+    },
+    "UNC119B": {
+      "source_count": 5,
+      "sources": [
+        "Annulus",
+        "End piece",
+        "Flagellar centriole",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "ZG16": {
+      "source_count": 3,
+      "sources": [
+        "Annulus",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "ACADM": {
+      "source_count": 3,
+      "sources": [
+        "Calyx",
+        "Perinuclear theca",
+        "Principal piece"
+      ]
+    },
+    "AFG3L2": {
+      "source_count": 5,
+      "sources": [
+        "Calyx",
+        "Connecting piece",
+        "Mid piece",
+        "Perinuclear theca",
+        "Principal piece"
+      ]
+    },
+    "AK9": {
+      "source_count": 1,
+      "sources": [
+        "Calyx"
+      ]
+    },
+    "AKT1": {
+      "source_count": 4,
+      "sources": [
+        "Calyx",
+        "End piece",
+        "Perinuclear theca",
+        "Principal piece"
+      ]
+    },
+    "C1orf100": {
+      "source_count": 1,
+      "sources": [
+        "Calyx"
+      ]
+    },
+    "CAMK2A": {
+      "source_count": 5,
+      "sources": [
+        "Calyx",
+        "Connecting piece",
+        "End piece",
+        "Perinuclear theca",
+        "Principal piece"
+      ]
+    },
+    "CAMK2B": {
+      "source_count": 5,
+      "sources": [
+        "Calyx",
+        "Connecting piece",
+        "End piece",
+        "Perinuclear theca",
+        "Principal piece"
+      ]
+    },
+    "CAMK2D": {
+      "source_count": 5,
+      "sources": [
+        "Calyx",
+        "Connecting piece",
+        "End piece",
+        "Perinuclear theca",
+        "Principal piece"
+      ]
+    },
+    "CAMK2G": {
+      "source_count": 5,
+      "sources": [
+        "Calyx",
+        "Connecting piece",
+        "End piece",
+        "Perinuclear theca",
+        "Principal piece"
+      ]
+    },
+    "CAPZA3": {
+      "source_count": 1,
+      "sources": [
+        "Calyx"
+      ]
+    },
+    "CBLN1": {
+      "source_count": 5,
+      "sources": [
+        "Calyx",
+        "Flagellar centriole",
+        "Mid piece",
+        "Perinuclear theca",
+        "Principal piece"
+      ]
+    },
+    "CBLN2": {
+      "source_count": 5,
+      "sources": [
+        "Calyx",
+        "Flagellar centriole",
+        "Mid piece",
+        "Perinuclear theca",
+        "Principal piece"
+      ]
+    },
+    "CBLN4": {
+      "source_count": 5,
+      "sources": [
+        "Calyx",
+        "Flagellar centriole",
+        "Mid piece",
+        "Perinuclear theca",
+        "Principal piece"
+      ]
+    },
+    "CCDC34": {
+      "source_count": 5,
+      "sources": [
+        "Calyx",
+        "Connecting piece",
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CCIN": {
+      "source_count": 2,
+      "sources": [
+        "Calyx",
+        "Perinuclear theca"
+      ]
+    },
+    "CD300LG": {
+      "source_count": 1,
+      "sources": [
+        "Calyx"
+      ]
+    },
+    "CDK2": {
+      "source_count": 1,
+      "sources": [
+        "Calyx"
+      ]
+    },
+    "CFAP58": {
+      "source_count": 2,
+      "sources": [
+        "Calyx",
+        "Principal piece"
+      ]
+    },
+    "CLIC4": {
+      "source_count": 3,
+      "sources": [
+        "Calyx",
+        "Connecting piece",
+        "Principal piece"
+      ]
+    },
+    "CSNK2B": {
+      "source_count": 3,
+      "sources": [
+        "Calyx",
+        "Mid piece",
+        "Perinuclear theca"
+      ]
+    },
+    "CYB5R3": {
+      "source_count": 5,
+      "sources": [
+        "Calyx",
+        "Connecting piece",
+        "Mid piece",
+        "Perinuclear theca",
+        "Principal piece"
+      ]
+    },
+    "CYLC1": {
+      "source_count": 2,
+      "sources": [
+        "Calyx",
+        "Perinuclear theca"
+      ]
+    },
+    "CYLC2": {
+      "source_count": 2,
+      "sources": [
+        "Calyx",
+        "Perinuclear theca"
+      ]
+    },
+    "DCTN3": {
+      "source_count": 4,
+      "sources": [
+        "Calyx",
+        "Mid piece",
+        "Perinuclear theca",
+        "Principal piece"
+      ]
+    },
+    "DCTN4": {
+      "source_count": 1,
+      "sources": [
+        "Calyx"
+      ]
+    },
+    "DNAH6": {
+      "source_count": 3,
+      "sources": [
+        "Calyx",
+        "Connecting piece",
+        "Mid piece"
+      ]
+    },
+    "DNAI2": {
+      "source_count": 3,
+      "sources": [
+        "Calyx",
+        "Connecting piece",
+        "Mid piece"
+      ]
+    },
+    "DNAI3": {
+      "source_count": 4,
+      "sources": [
+        "Calyx",
+        "Connecting piece",
+        "Mid piece",
+        "Perinuclear theca"
+      ]
+    },
+    "ENSG00000282218": {
+      "source_count": 4,
+      "sources": [
+        "Calyx",
+        "Connecting piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "GOPC": {
+      "source_count": 4,
+      "sources": [
+        "Calyx",
+        "Connecting piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "GRK4": {
+      "source_count": 1,
+      "sources": [
+        "Calyx"
+      ]
+    },
+    "GZMB": {
+      "source_count": 1,
+      "sources": [
+        "Calyx"
+      ]
+    },
+    "HSPA4L": {
+      "source_count": 2,
+      "sources": [
+        "Calyx",
+        "Perinuclear theca"
+      ]
+    },
+    "IZUMO4": {
+      "source_count": 3,
+      "sources": [
+        "Calyx",
+        "Connecting piece",
+        "Equatorial segment"
+      ]
+    },
+    "KIF14": {
+      "source_count": 5,
+      "sources": [
+        "Calyx",
+        "Connecting piece",
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "LAP3": {
+      "source_count": 3,
+      "sources": [
+        "Calyx",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "MYO5A": {
+      "source_count": 1,
+      "sources": [
+        "Calyx"
+      ]
+    },
+    "NDRG1": {
+      "source_count": 5,
+      "sources": [
+        "Calyx",
+        "Connecting piece",
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "NDUFS2": {
+      "source_count": 2,
+      "sources": [
+        "Calyx",
+        "Connecting piece"
+      ]
+    },
+    "NDUFS4": {
+      "source_count": 3,
+      "sources": [
+        "Calyx",
+        "Equatorial segment",
+        "Perinuclear theca"
+      ]
+    },
+    "ODF2": {
+      "source_count": 4,
+      "sources": [
+        "Calyx",
+        "Connecting piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "PPP1R3D": {
+      "source_count": 5,
+      "sources": [
+        "Calyx",
+        "Connecting piece",
+        "Flagellar centriole",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "PPP3CA": {
+      "source_count": 1,
+      "sources": [
+        "Calyx"
+      ]
+    },
+    "PPP3CB": {
+      "source_count": 1,
+      "sources": [
+        "Calyx"
+      ]
+    },
+    "PPP3CC": {
+      "source_count": 1,
+      "sources": [
+        "Calyx"
+      ]
+    },
+    "PPP4R1": {
+      "source_count": 5,
+      "sources": [
+        "Calyx",
+        "End piece",
+        "Mid piece",
+        "Perinuclear theca",
+        "Principal piece"
+      ]
+    },
+    "PSD3": {
+      "source_count": 4,
+      "sources": [
+        "Calyx",
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "PSMA6": {
+      "source_count": 6,
+      "sources": [
+        "Calyx",
+        "Connecting piece",
+        "End piece",
+        "Flagellar centriole",
+        "Mid piece",
+        "Perinuclear theca"
+      ]
+    },
+    "PSMD10": {
+      "source_count": 4,
+      "sources": [
+        "Calyx",
+        "Mid piece",
+        "Perinuclear theca",
+        "Principal piece"
+      ]
+    },
+    "PTPN23": {
+      "source_count": 2,
+      "sources": [
+        "Calyx",
+        "Mid piece"
+      ]
+    },
+    "RIBC2": {
+      "source_count": 6,
+      "sources": [
+        "Calyx",
+        "Connecting piece",
+        "End piece",
+        "Mid piece",
+        "Perinuclear theca",
+        "Principal piece"
+      ]
+    },
+    "SLC9A3R1": {
+      "source_count": 1,
+      "sources": [
+        "Calyx"
+      ]
+    },
+    "SPAG6": {
+      "source_count": 4,
+      "sources": [
+        "Calyx",
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "SPEM1": {
+      "source_count": 1,
+      "sources": [
+        "Calyx"
+      ]
+    },
+    "SSBP1": {
+      "source_count": 2,
+      "sources": [
+        "Calyx",
+        "Principal piece"
+      ]
+    },
+    "SUMO2": {
+      "source_count": 3,
+      "sources": [
+        "Calyx",
+        "Connecting piece",
+        "Flagellar centriole"
+      ]
+    },
+    "SUMO3": {
+      "source_count": 3,
+      "sources": [
+        "Calyx",
+        "Connecting piece",
+        "Flagellar centriole"
+      ]
+    },
+    "SUMO4": {
+      "source_count": 3,
+      "sources": [
+        "Calyx",
+        "Connecting piece",
+        "Flagellar centriole"
+      ]
+    },
+    "TBC1D21": {
+      "source_count": 2,
+      "sources": [
+        "Calyx",
+        "Mid piece"
+      ]
+    },
+    "TEKT3": {
+      "source_count": 5,
+      "sources": [
+        "Calyx",
+        "End piece",
+        "Equatorial segment",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "ABHD2": {
+      "source_count": 2,
+      "sources": [
+        "Connecting piece",
+        "Flagellar centriole"
+      ]
+    },
+    "ABLIM1": {
+      "source_count": 2,
+      "sources": [
+        "Connecting piece",
+        "Mid piece"
+      ]
+    },
+    "ACTR10": {
+      "source_count": 5,
+      "sources": [
+        "Connecting piece",
+        "Flagellar centriole",
+        "Mid piece",
+        "Perinuclear theca",
+        "Principal piece"
+      ]
+    },
+    "AIFM1": {
+      "source_count": 1,
+      "sources": [
+        "Connecting piece"
+      ]
+    },
+    "ATG7": {
+      "source_count": 3,
+      "sources": [
+        "Connecting piece",
+        "Flagellar centriole",
+        "Mid piece"
+      ]
+    },
+    "ATP5F1D": {
+      "source_count": 3,
+      "sources": [
+        "Connecting piece",
+        "Flagellar centriole",
+        "Principal piece"
+      ]
+    },
+    "ATP6V0A2": {
+      "source_count": 4,
+      "sources": [
+        "Connecting piece",
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "C16orf78": {
+      "source_count": 4,
+      "sources": [
+        "Connecting piece",
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CAPN2": {
+      "source_count": 3,
+      "sources": [
+        "Connecting piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CASP8": {
+      "source_count": 3,
+      "sources": [
+        "Connecting piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CATIP": {
+      "source_count": 2,
+      "sources": [
+        "Connecting piece",
+        "Mid piece"
+      ]
+    },
+    "CAV1": {
+      "source_count": 3,
+      "sources": [
+        "Connecting piece",
+        "Perinuclear theca",
+        "Principal piece"
+      ]
+    },
+    "CC2D2A": {
+      "source_count": 4,
+      "sources": [
+        "Connecting piece",
+        "Mid piece",
+        "Perinuclear theca",
+        "Principal piece"
+      ]
+    },
+    "CCDC103": {
+      "source_count": 2,
+      "sources": [
+        "Connecting piece",
+        "Mid piece"
+      ]
+    },
+    "CCT2": {
+      "source_count": 3,
+      "sources": [
+        "Connecting piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CCT8": {
+      "source_count": 4,
+      "sources": [
+        "Connecting piece",
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CDK20": {
+      "source_count": 4,
+      "sources": [
+        "Connecting piece",
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CEP162": {
+      "source_count": 3,
+      "sources": [
+        "Connecting piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CEP55": {
+      "source_count": 2,
+      "sources": [
+        "Connecting piece",
+        "Principal piece"
+      ]
+    },
+    "CFAP221": {
+      "source_count": 2,
+      "sources": [
+        "Connecting piece",
+        "Flagellar centriole"
+      ]
+    },
+    "CLNS1A": {
+      "source_count": 3,
+      "sources": [
+        "Connecting piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "COASY": {
+      "source_count": 1,
+      "sources": [
+        "Connecting piece"
+      ]
+    },
+    "CTNNA1": {
+      "source_count": 3,
+      "sources": [
+        "Connecting piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "DCTN2": {
+      "source_count": 4,
+      "sources": [
+        "Connecting piece",
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "DLAT": {
+      "source_count": 1,
+      "sources": [
+        "Connecting piece"
+      ]
+    },
+    "DNAAF4": {
+      "source_count": 3,
+      "sources": [
+        "Connecting piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "DUSP21": {
+      "source_count": 3,
+      "sources": [
+        "Connecting piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "EFHB": {
+      "source_count": 1,
+      "sources": [
+        "Connecting piece"
+      ]
+    },
+    "GLUL": {
+      "source_count": 1,
+      "sources": [
+        "Connecting piece"
+      ]
+    },
+    "H1-7": {
+      "source_count": 5,
+      "sources": [
+        "Connecting piece",
+        "End piece",
+        "Mid piece",
+        "Perinuclear theca",
+        "Principal piece"
+      ]
+    },
+    "IFT88": {
+      "source_count": 4,
+      "sources": [
+        "Connecting piece",
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "KDR": {
+      "source_count": 3,
+      "sources": [
+        "Connecting piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "KIF26A": {
+      "source_count": 2,
+      "sources": [
+        "Connecting piece",
+        "Flagellar centriole"
+      ]
+    },
+    "KIF3B": {
+      "source_count": 2,
+      "sources": [
+        "Connecting piece",
+        "Flagellar centriole"
+      ]
+    },
+    "KIF5C": {
+      "source_count": 2,
+      "sources": [
+        "Connecting piece",
+        "Equatorial segment"
+      ]
+    },
+    "LNPK": {
+      "source_count": 4,
+      "sources": [
+        "Connecting piece",
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "MAK": {
+      "source_count": 3,
+      "sources": [
+        "Connecting piece",
+        "End piece",
+        "Principal piece"
+      ]
+    },
+    "MRPS35": {
+      "source_count": 1,
+      "sources": [
+        "Connecting piece"
+      ]
+    },
+    "NT5C1B": {
+      "source_count": 2,
+      "sources": [
+        "Connecting piece",
+        "Mid piece"
+      ]
+    },
+    "NT5C1B-RDH14": {
+      "source_count": 2,
+      "sources": [
+        "Connecting piece",
+        "Mid piece"
+      ]
+    },
+    "ODAD1": {
+      "source_count": 3,
+      "sources": [
+        "Connecting piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "ODF1": {
+      "source_count": 3,
+      "sources": [
+        "Connecting piece",
+        "Flagellar centriole",
+        "Mid piece"
+      ]
+    },
+    "P3R3URF-PIK3R3": {
+      "source_count": 4,
+      "sources": [
+        "Connecting piece",
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "PIK3R3": {
+      "source_count": 4,
+      "sources": [
+        "Connecting piece",
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "PSMA4": {
+      "source_count": 3,
+      "sources": [
+        "Connecting piece",
+        "Flagellar centriole",
+        "Mid piece"
+      ]
+    },
+    "PSMD5": {
+      "source_count": 2,
+      "sources": [
+        "Connecting piece",
+        "Mid piece"
+      ]
+    },
+    "PTPRK": {
+      "source_count": 2,
+      "sources": [
+        "Connecting piece",
+        "Flagellar centriole"
+      ]
+    },
+    "RAB11FIP4": {
+      "source_count": 3,
+      "sources": [
+        "Connecting piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "SAXO2": {
+      "source_count": 2,
+      "sources": [
+        "Connecting piece",
+        "Mid piece"
+      ]
+    },
+    "SCN10A": {
+      "source_count": 2,
+      "sources": [
+        "Connecting piece",
+        "Flagellar centriole"
+      ]
+    },
+    "SELENOP": {
+      "source_count": 1,
+      "sources": [
+        "Connecting piece"
+      ]
+    },
+    "SLC22A14": {
+      "source_count": 4,
+      "sources": [
+        "Connecting piece",
+        "Mid piece",
+        "Perinuclear theca",
+        "Principal piece"
+      ]
+    },
+    "SPATA48": {
+      "source_count": 3,
+      "sources": [
+        "Connecting piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "STAT6": {
+      "source_count": 1,
+      "sources": [
+        "Connecting piece"
+      ]
+    },
+    "TEKT2": {
+      "source_count": 4,
+      "sources": [
+        "Connecting piece",
+        "Flagellar centriole",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "TEX37": {
+      "source_count": 4,
+      "sources": [
+        "Connecting piece",
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "TPPP2": {
+      "source_count": 3,
+      "sources": [
+        "Connecting piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "TTC21B": {
+      "source_count": 4,
+      "sources": [
+        "Connecting piece",
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "AAAS": {
+      "source_count": 1,
+      "sources": [
+        "End piece"
+      ]
+    },
+    "ACADS": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "AGBL2": {
+      "source_count": 4,
+      "sources": [
+        "End piece",
+        "Flagellar centriole",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "AK8": {
+      "source_count": 4,
+      "sources": [
+        "End piece",
+        "Flagellar centriole",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "ALMS1": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Flagellar centriole",
+        "Mid piece"
+      ]
+    },
+    "ARMS2": {
+      "source_count": 2,
+      "sources": [
+        "End piece",
+        "Principal piece"
+      ]
+    },
+    "ART3": {
+      "source_count": 2,
+      "sources": [
+        "End piece",
+        "Principal piece"
+      ]
+    },
+    "ATP2A2": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Perinuclear theca"
+      ]
+    },
+    "ATP5F1A": {
+      "source_count": 1,
+      "sources": [
+        "End piece"
+      ]
+    },
+    "ATP5PF": {
+      "source_count": 2,
+      "sources": [
+        "End piece",
+        "Flagellar centriole"
+      ]
+    },
+    "BAD": {
+      "source_count": 2,
+      "sources": [
+        "End piece",
+        "Principal piece"
+      ]
+    },
+    "BEST2": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Flagellar centriole",
+        "Principal piece"
+      ]
+    },
+    "BRAF": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "BSG": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "C4orf47": {
+      "source_count": 2,
+      "sources": [
+        "End piece",
+        "Principal piece"
+      ]
+    },
+    "CATSPER2": {
+      "source_count": 2,
+      "sources": [
+        "End piece",
+        "Principal piece"
+      ]
+    },
+    "CBL": {
+      "source_count": 1,
+      "sources": [
+        "End piece"
+      ]
+    },
+    "CCDC66": {
+      "source_count": 2,
+      "sources": [
+        "End piece",
+        "Perinuclear theca"
+      ]
+    },
+    "CEP350": {
+      "source_count": 1,
+      "sources": [
+        "End piece"
+      ]
+    },
+    "CFAP119": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CFAP251": {
+      "source_count": 2,
+      "sources": [
+        "End piece",
+        "Mid piece"
+      ]
+    },
+    "CFAP276": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CFAP45": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CFAP70": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CFAP99": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CNGA3": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CSNK1D": {
+      "source_count": 2,
+      "sources": [
+        "End piece",
+        "Principal piece"
+      ]
+    },
+    "CTXN3": {
+      "source_count": 2,
+      "sources": [
+        "End piece",
+        "Principal piece"
+      ]
+    },
+    "DAW1": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "DBNDD1": {
+      "source_count": 4,
+      "sources": [
+        "End piece",
+        "Equatorial segment",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "DCDC2C": {
+      "source_count": 1,
+      "sources": [
+        "End piece"
+      ]
+    },
+    "DDB1": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "DIABLO": {
+      "source_count": 4,
+      "sources": [
+        "End piece",
+        "Flagellar centriole",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "DNAH17": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "DNAH2": {
+      "source_count": 2,
+      "sources": [
+        "End piece",
+        "Flagellar centriole"
+      ]
+    },
+    "DNAH9": {
+      "source_count": 2,
+      "sources": [
+        "End piece",
+        "Flagellar centriole"
+      ]
+    },
+    "DNAI1": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "DNAJB13": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "DNAJC5": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Perinuclear theca",
+        "Principal piece"
+      ]
+    },
+    "DNALI1": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "DRC3": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "DYDC1": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "DYNC1I2": {
+      "source_count": 4,
+      "sources": [
+        "End piece",
+        "Flagellar centriole",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "DYNC1LI2": {
+      "source_count": 1,
+      "sources": [
+        "End piece"
+      ]
+    },
+    "EFHC1": {
+      "source_count": 4,
+      "sources": [
+        "End piece",
+        "Equatorial segment",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "EGFR": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "ENSG00000198211": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Flagellar centriole",
+        "Principal piece"
+      ]
+    },
+    "ENSG00000267740": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Perinuclear theca",
+        "Principal piece"
+      ]
+    },
+    "ENSG00000271254": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "ENSG00000286185": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "FAM166A": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "FLAD1": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "FSCB": {
+      "source_count": 4,
+      "sources": [
+        "End piece",
+        "Flagellar centriole",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "GAS8": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "GLG1": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "GNAT1": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "GPIHBP1": {
+      "source_count": 2,
+      "sources": [
+        "End piece",
+        "Principal piece"
+      ]
+    },
+    "HAUS1": {
+      "source_count": 2,
+      "sources": [
+        "End piece",
+        "Mid piece"
+      ]
+    },
+    "HSPB11": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "HUWE1": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "IFT20": {
+      "source_count": 4,
+      "sources": [
+        "End piece",
+        "Flagellar centriole",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "IFT22": {
+      "source_count": 4,
+      "sources": [
+        "End piece",
+        "Flagellar centriole",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "IFT43": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Perinuclear theca",
+        "Principal piece"
+      ]
+    },
+    "IMMP2L": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Flagellar centriole",
+        "Principal piece"
+      ]
+    },
+    "IMPG1": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "IPO8": {
+      "source_count": 1,
+      "sources": [
+        "End piece"
+      ]
+    },
+    "IQCD": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "IQUB": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "ITPR2": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "KCTD16": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "KIF11": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "KIF1B": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "KIF2B": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "KIF5B": {
+      "source_count": 1,
+      "sources": [
+        "End piece"
+      ]
+    },
+    "KRT31": {
+      "source_count": 4,
+      "sources": [
+        "End piece",
+        "Equatorial segment",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "KRT33A": {
+      "source_count": 4,
+      "sources": [
+        "End piece",
+        "Equatorial segment",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "KRT33B": {
+      "source_count": 4,
+      "sources": [
+        "End piece",
+        "Equatorial segment",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "KRT34": {
+      "source_count": 4,
+      "sources": [
+        "End piece",
+        "Equatorial segment",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "LANCL1": {
+      "source_count": 2,
+      "sources": [
+        "End piece",
+        "Flagellar centriole"
+      ]
+    },
+    "LCA5L": {
+      "source_count": 4,
+      "sources": [
+        "End piece",
+        "Flagellar centriole",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "LDHC": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "LYZL4": {
+      "source_count": 2,
+      "sources": [
+        "End piece",
+        "Principal piece"
+      ]
+    },
+    "MAP2K2": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "MAPT": {
+      "source_count": 1,
+      "sources": [
+        "End piece"
+      ]
+    },
+    "MARS1": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "MDM2": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "MLF1": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "MNS1": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Flagellar centriole",
+        "Perinuclear theca"
+      ]
+    },
+    "MOK": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "MT-CO1": {
+      "source_count": 1,
+      "sources": [
+        "End piece"
+      ]
+    },
+    "NBPF1": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "NBPF10": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "NBPF11": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "NBPF12": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "NBPF14": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "NBPF15": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "NBPF19": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "NBPF20": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "NBPF26": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "NBPF8": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "NBPF9": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "NDUFA11": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Perinuclear theca",
+        "Principal piece"
+      ]
+    },
+    "NDUFA6": {
+      "source_count": 2,
+      "sources": [
+        "End piece",
+        "Mid piece"
+      ]
+    },
+    "NDUFA8": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "NUBP1": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "ODF3": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "OFD1": {
+      "source_count": 1,
+      "sources": [
+        "End piece"
+      ]
+    },
+    "PACRG": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "PGK1": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "PGK2": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "PPP1CA": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Flagellar centriole",
+        "Mid piece"
+      ]
+    },
+    "PPP1R32": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "PRKCZ": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Flagellar centriole",
+        "Mid piece"
+      ]
+    },
+    "RBM5": {
+      "source_count": 5,
+      "sources": [
+        "End piece",
+        "Flagellar centriole",
+        "Mid piece",
+        "Perinuclear theca",
+        "Principal piece"
+      ]
+    },
+    "RGS9BP": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "RNPEP": {
+      "source_count": 2,
+      "sources": [
+        "End piece",
+        "Principal piece"
+      ]
+    },
+    "ROPN1L": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "RPGR": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "SAXO1": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Flagellar centriole",
+        "Mid piece"
+      ]
+    },
+    "SPACA9": {
+      "source_count": 1,
+      "sources": [
+        "End piece"
+      ]
+    },
+    "TEX45": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "TTLL6": {
+      "source_count": 4,
+      "sources": [
+        "End piece",
+        "Flagellar centriole",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "TTLL9": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "TUBB": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Flagellar centriole",
+        "Principal piece"
+      ]
+    },
+    "TUBB1": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Flagellar centriole",
+        "Principal piece"
+      ]
+    },
+    "TUBB2A": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Flagellar centriole",
+        "Principal piece"
+      ]
+    },
+    "TUBB2B": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Flagellar centriole",
+        "Principal piece"
+      ]
+    },
+    "TUBB3": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Flagellar centriole",
+        "Principal piece"
+      ]
+    },
+    "TUBB4A": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Flagellar centriole",
+        "Principal piece"
+      ]
+    },
+    "TUBB4B": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Flagellar centriole",
+        "Principal piece"
+      ]
+    },
+    "TUBB6": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Flagellar centriole",
+        "Principal piece"
+      ]
+    },
+    "TUBB8": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Flagellar centriole",
+        "Principal piece"
+      ]
+    },
+    "TUBB8B": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Flagellar centriole",
+        "Principal piece"
+      ]
+    },
+    "VARS1": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "VCAN": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "VPS50": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "WDR11": {
+      "source_count": 3,
+      "sources": [
+        "End piece",
+        "Flagellar centriole",
+        "Principal piece"
+      ]
+    },
+    "ARL2": {
+      "source_count": 3,
+      "sources": [
+        "Equatorial segment",
+        "Flagellar centriole",
+        "Mid piece"
+      ]
+    },
+    "ATG16L1": {
+      "source_count": 3,
+      "sources": [
+        "Equatorial segment",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "C9orf24": {
+      "source_count": 2,
+      "sources": [
+        "Equatorial segment",
+        "Principal piece"
+      ]
+    },
+    "CDK5RAP2": {
+      "source_count": 3,
+      "sources": [
+        "Equatorial segment",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CEP164": {
+      "source_count": 2,
+      "sources": [
+        "Equatorial segment",
+        "Principal piece"
+      ]
+    },
+    "CFAP20": {
+      "source_count": 2,
+      "sources": [
+        "Equatorial segment",
+        "Principal piece"
+      ]
+    },
+    "CLGN": {
+      "source_count": 2,
+      "sources": [
+        "Equatorial segment",
+        "Mid piece"
+      ]
+    },
+    "CLPX": {
+      "source_count": 2,
+      "sources": [
+        "Equatorial segment",
+        "Perinuclear theca"
+      ]
+    },
+    "CYC1": {
+      "source_count": 1,
+      "sources": [
+        "Equatorial segment"
+      ]
+    },
+    "DNAH3": {
+      "source_count": 4,
+      "sources": [
+        "Equatorial segment",
+        "Flagellar centriole",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "HADHB": {
+      "source_count": 2,
+      "sources": [
+        "Equatorial segment",
+        "Principal piece"
+      ]
+    },
+    "HYDIN": {
+      "source_count": 1,
+      "sources": [
+        "Equatorial segment"
+      ]
+    },
+    "MAG": {
+      "source_count": 2,
+      "sources": [
+        "Equatorial segment",
+        "Perinuclear theca"
+      ]
+    },
+    "MAP1B": {
+      "source_count": 1,
+      "sources": [
+        "Equatorial segment"
+      ]
+    },
+    "MSH4": {
+      "source_count": 3,
+      "sources": [
+        "Equatorial segment",
+        "Flagellar centriole",
+        "Mid piece"
+      ]
+    },
+    "PGPEP1L": {
+      "source_count": 1,
+      "sources": [
+        "Equatorial segment"
+      ]
+    },
+    "RAB11A": {
+      "source_count": 3,
+      "sources": [
+        "Equatorial segment",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "SPAG17": {
+      "source_count": 3,
+      "sources": [
+        "Equatorial segment",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "ASIP": {
+      "source_count": 2,
+      "sources": [
+        "Flagellar centriole",
+        "Mid piece"
+      ]
+    },
+    "ATOH7": {
+      "source_count": 2,
+      "sources": [
+        "Flagellar centriole",
+        "Mid piece"
+      ]
+    },
+    "CACNA2D2": {
+      "source_count": 2,
+      "sources": [
+        "Flagellar centriole",
+        "Mid piece"
+      ]
+    },
+    "CCDC188": {
+      "source_count": 1,
+      "sources": [
+        "Flagellar centriole"
+      ]
+    },
+    "CDKL1": {
+      "source_count": 2,
+      "sources": [
+        "Flagellar centriole",
+        "Mid piece"
+      ]
+    },
+    "CEP131": {
+      "source_count": 1,
+      "sources": [
+        "Flagellar centriole"
+      ]
+    },
+    "CEP76": {
+      "source_count": 2,
+      "sources": [
+        "Flagellar centriole",
+        "Perinuclear theca"
+      ]
+    },
+    "CETN1": {
+      "source_count": 3,
+      "sources": [
+        "Flagellar centriole",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CETN2": {
+      "source_count": 3,
+      "sources": [
+        "Flagellar centriole",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CFAP43": {
+      "source_count": 3,
+      "sources": [
+        "Flagellar centriole",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CNTRL": {
+      "source_count": 1,
+      "sources": [
+        "Flagellar centriole"
+      ]
+    },
+    "CNTROB": {
+      "source_count": 1,
+      "sources": [
+        "Flagellar centriole"
+      ]
+    },
+    "CPTP": {
+      "source_count": 3,
+      "sources": [
+        "Flagellar centriole",
+        "Mid piece",
+        "Perinuclear theca"
+      ]
+    },
+    "DNAI4": {
+      "source_count": 3,
+      "sources": [
+        "Flagellar centriole",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "EYS": {
+      "source_count": 1,
+      "sources": [
+        "Flagellar centriole"
+      ]
+    },
+    "FAM161A": {
+      "source_count": 1,
+      "sources": [
+        "Flagellar centriole"
+      ]
+    },
+    "IQCA1": {
+      "source_count": 1,
+      "sources": [
+        "Flagellar centriole"
+      ]
+    },
+    "LRIT1": {
+      "source_count": 1,
+      "sources": [
+        "Flagellar centriole"
+      ]
+    },
+    "ODF3L2": {
+      "source_count": 3,
+      "sources": [
+        "Flagellar centriole",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "PARK7": {
+      "source_count": 2,
+      "sources": [
+        "Flagellar centriole",
+        "Mid piece"
+      ]
+    },
+    "PCNT": {
+      "source_count": 2,
+      "sources": [
+        "Flagellar centriole",
+        "Mid piece"
+      ]
+    },
+    "PKHD1L1": {
+      "source_count": 3,
+      "sources": [
+        "Flagellar centriole",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "POC1A": {
+      "source_count": 3,
+      "sources": [
+        "Flagellar centriole",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "POC1B": {
+      "source_count": 1,
+      "sources": [
+        "Flagellar centriole"
+      ]
+    },
+    "PPP2R3A": {
+      "source_count": 2,
+      "sources": [
+        "Flagellar centriole",
+        "Mid piece"
+      ]
+    },
+    "PSMD2": {
+      "source_count": 1,
+      "sources": [
+        "Flagellar centriole"
+      ]
+    },
+    "RANGAP1": {
+      "source_count": 1,
+      "sources": [
+        "Flagellar centriole"
+      ]
+    },
+    "RAP1GAP2": {
+      "source_count": 3,
+      "sources": [
+        "Flagellar centriole",
+        "Perinuclear theca",
+        "Principal piece"
+      ]
+    },
+    "RRAD": {
+      "source_count": 1,
+      "sources": [
+        "Flagellar centriole"
+      ]
+    },
+    "SPEF2": {
+      "source_count": 2,
+      "sources": [
+        "Flagellar centriole",
+        "Mid piece"
+      ]
+    },
+    "STAT4": {
+      "source_count": 1,
+      "sources": [
+        "Flagellar centriole"
+      ]
+    },
+    "STK33": {
+      "source_count": 2,
+      "sources": [
+        "Flagellar centriole",
+        "Mid piece"
+      ]
+    },
+    "TSGA10": {
+      "source_count": 1,
+      "sources": [
+        "Flagellar centriole"
+      ]
+    },
+    "TTC8": {
+      "source_count": 2,
+      "sources": [
+        "Flagellar centriole",
+        "Perinuclear theca"
+      ]
+    },
+    "UBE2A": {
+      "source_count": 3,
+      "sources": [
+        "Flagellar centriole",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "UBE2B": {
+      "source_count": 3,
+      "sources": [
+        "Flagellar centriole",
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "WDPCP": {
+      "source_count": 1,
+      "sources": [
+        "Flagellar centriole"
+      ]
+    },
+    "ABCB6": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "ADAM30": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "ADGB": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "AQP9": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "ARSA": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "BAG2": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "BCS1L": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "C20orf85": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "C4orf17": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "C4orf45": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CACNA2D4": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CATSPER3": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CATSPERB": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "CATSPERD": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "CATSPERG": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CATSPERZ": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CCDC136": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "CCDC183": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "CCDC40": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "CEP290": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CFAP100": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CFAP126": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CFAP95": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CKLF": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CLIP1": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CLTC": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "CLXN": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CNBD2": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "CNGA1": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CPLANE1": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CPS1": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "CROCC": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "DNAAF11": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "DNAH12": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "DNAH8": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "DYNC2H1": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "DYNLL1": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "DYNLL2": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "DYSF": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "EFCAB2": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "EFCAB6": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "ENKUR": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "EPHA6": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "EPRS1": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "EXOC3L2": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "FAM177B": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "FAM183A": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "FAM9A": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "FSIP2": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "FYB2": {
+      "source_count": 3,
+      "sources": [
+        "Mid piece",
+        "Perinuclear theca",
+        "Principal piece"
+      ]
+    },
+    "G6PC1": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "HAUS7": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "IFT122": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "IFT57": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "IQCH": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "KIF12": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "KIF13A": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "KIF21B": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "KIF5A": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "KIF9": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "KLB": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "KLHL10": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "LRRC45": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "MAP1A": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "NUDT5": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "OAZ3": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "OR10Q1": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "OR6P1": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "PAFAH1B1": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "PGAM1": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "PGAM4": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "PGRMC1": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "PGS1": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "PHC1": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "PIERCE1": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "PLPP3": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "PPP2R5E": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "PRKAR2A": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "PRSS21": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "PSMB5": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "PSMC4": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "PTEN": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "RAB27A": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "RALGAPA1": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "RAPGEF4": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "RCVRN": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "RP1": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "SCAMP2": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "SEPTIN6": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "SFN": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "SLC26A7": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Perinuclear theca"
+      ]
+    },
+    "SLC2A2": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "SLC2A5": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "SPATA7": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "SPZ1": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "STAT2": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "TAF8": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "TBC1D30": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "TCHP": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "TCTE1": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "TEX43": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "TMEM231": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "TSGA10IP": {
+      "source_count": 1,
+      "sources": [
+        "Mid piece"
+      ]
+    },
+    "WDR19": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "WRAP73": {
+      "source_count": 2,
+      "sources": [
+        "Mid piece",
+        "Principal piece"
+      ]
+    },
+    "ACTL7A": {
+      "source_count": 1,
+      "sources": [
+        "Perinuclear theca"
+      ]
+    },
+    "KIF20B": {
+      "source_count": 1,
+      "sources": [
+        "Perinuclear theca"
+      ]
+    },
+    "PSMD11": {
+      "source_count": 2,
+      "sources": [
+        "Perinuclear theca",
+        "Principal piece"
+      ]
+    },
+    "TMEM89": {
+      "source_count": 1,
+      "sources": [
+        "Perinuclear theca"
+      ]
+    },
+    "ABCC8": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "ACLY": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "ADAM32": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "AK7": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "AKAP3": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "AKAP4": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "ATP5MG": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "ATP5MGL": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "CABYR": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "CACNA2D3": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "CATSPER1": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "CCDC63": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "CFAP298": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "CFAP61": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "COX6A1": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "COX6B1": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "CYLD": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "DLD": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "DNAH10": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "DYDC2": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "ENSG00000111780": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "ENSG00000285827": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "EPHA7": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "GAPDHS": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "GNAI1": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "GNAI3": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "GRK1": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "IFT46": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "KCNU1": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "KIF1C": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "MAP1S": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "MFF": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "MPC1": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "NDUFB4": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "NDUFS3": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "NUDCD3": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "ODAD3": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "ODF4": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "PFKM": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "PKM": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "PSMA7": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "PSMA8": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "ROPN1": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "ROPN1B": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "SPA17": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "SPAG1": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "SPATA20": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "STPG2": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "THEGL": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "TTC29": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "TUBG1": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "TUBG2": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    },
+    "WDR5": {
+      "source_count": 1,
+      "sources": [
+        "Principal piece"
+      ]
+    }
+  }
+}

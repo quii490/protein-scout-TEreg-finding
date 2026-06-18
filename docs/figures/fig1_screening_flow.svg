@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="293.4pt" height="319.32pt" viewBox="0 0 293.4 319.32" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-06-13T16:42:55.212993</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 319.32 
+L 293.4 319.32 
+L 293.4 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 76.95 289.55592 
+L 216.45 289.55592 
+Q 218.124 289.55592 218.124 287.7264 
+L 218.124 245.0376 
+Q 218.124 243.20808 216.45 243.20808 
+L 76.95 243.20808 
+Q 75.276 243.20808 75.276 245.0376 
+L 75.276 287.7264 
+Q 75.276 289.55592 76.95 289.55592 
+z
+" clip-path="url(#pcdb7e6c9eb)" style="fill: #1e3a5f; opacity: 0.92"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 76.95 228.57192 
+L 216.45 228.57192 
+Q 218.124 228.57192 218.124 226.7424 
+L 218.124 190.152 
+Q 218.124 188.32248 216.45 188.32248 
+L 76.95 188.32248 
+Q 75.276 188.32248 75.276 190.152 
+L 75.276 226.7424 
+Q 75.276 228.57192 76.95 228.57192 
+z
+" clip-path="url(#pcdb7e6c9eb)" style="fill: #2563eb; opacity: 0.92"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 43.47 156.91572 
+L 116.01 156.91572 
+Q 117.684 156.91572 117.684 155.0862 
+L 117.684 130.6926 
+Q 117.684 128.86308 116.01 128.86308 
+L 43.47 128.86308 
+Q 41.796 128.86308 41.796 130.6926 
+L 41.796 155.0862 
+Q 41.796 156.91572 43.47 156.91572 
+z
+" clip-path="url(#pcdb7e6c9eb)" style="fill: #c0392b; opacity: 0.92"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 177.39 156.91572 
+L 249.93 156.91572 
+Q 251.604 156.91572 251.604 155.0862 
+L 251.604 130.6926 
+Q 251.604 128.86308 249.93 128.86308 
+L 177.39 128.86308 
+Q 175.716 128.86308 175.716 130.6926 
+L 175.716 155.0862 
+Q 175.716 156.91572 177.39 156.91572 
+z
+" clip-path="url(#pcdb7e6c9eb)" style="fill: #e67e22; opacity: 0.92"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 76.95 111.17772 
+L 216.45 111.17772 
+Q 218.124 111.17772 218.124 109.3482 
+L 218.124 72.7578 
+Q 218.124 70.92828 216.45 70.92828 
+L 76.95 70.92828 
+Q 75.276 70.92828 75.276 72.7578 
+L 75.276 109.3482 
+Q 75.276 111.17772 76.95 111.17772 
+z
+" clip-path="url(#pcdb7e6c9eb)" style="fill: #1b7a3d; opacity: 0.92"/>
+   </g>
+   <g id="text_1">
+    <text style="fill: #ffffff; font: 700 7px 'Arial', sans-serif; text-anchor: middle" x="146.7" y="258.292354" transform="rotate(-0 146.7 258.292354)">Input</text>
+   </g>
+   <g id="text_2">
+    <text style="fill: #ffffff; font: 700 9px 'Arial', sans-serif; text-anchor: middle" x="146.7" y="274.157826" transform="rotate(-0 146.7 274.157826)">4,756 genes</text>
+   </g>
+   <g id="text_3">
+    <text style="fill: #ffffff; opacity: 0.85; font: 5px 'Arial', sans-serif; text-anchor: middle" x="146.7" y="287.707204" transform="rotate(-0 146.7 287.707204)">Final_TE_finding.xlsx</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 146.7 243.041029 
+Q 146.7 235.892473 146.7 229.86195 
+" style="fill: none; stroke: #6b7280; stroke-linecap: round"/>
+    <path d="M 145.3 232.66195 
+L 146.7 229.86195 
+L 148.1 232.66195 
+" style="fill: none; stroke: #6b7280; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <text style="fill: #ffffff; font: 700 7px 'Arial', sans-serif; text-anchor: middle" x="146.7" y="200.357554" transform="rotate(-0 146.7 200.357554)">Evaluation reports</text>
+   </g>
+   <g id="text_5">
+    <text style="fill: #ffffff; font: 700 9px 'Arial', sans-serif; text-anchor: middle" x="146.7" y="216.282088" transform="rotate(-0 146.7 216.282088)">5,647 reports</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #ffffff; opacity: 0.85; font: 5px 'Arial', sans-serif; text-anchor: middle" x="146.7" y="229.72631" transform="rotate(-0 146.7 229.72631)">86 duplicates across categories</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 146.7 188.153568 
+Q 146.7 180.24142 146.7 173.447306 
+" style="fill: none; stroke: #6b7280; stroke-linecap: round"/>
+    <path d="M 145.3 176.247306 
+L 146.7 173.447306 
+L 148.1 176.247306 
+" style="fill: none; stroke: #6b7280; stroke-linecap: round"/>
+   </g>
+   <g id="text_7">
+    <text style="fill: #c0392b; font: italic 700 5.5px 'Arial', sans-serif; text-anchor: start" x="155.07" y="181.666514" transform="rotate(-0 155.07 181.666514)">Gate</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 106.811378 169.91997 
+Q 141.12067 162.709059 174.773484 155.636123 
+" style="fill: none; stroke: #d1d5db; stroke-width: 0.6; stroke-linecap: round"/>
+    <path d="M 171.745398 154.84196 
+L 174.773484 155.636123 
+L 172.321302 157.582094 
+" style="fill: none; stroke: #d1d5db; stroke-width: 0.6; stroke-linecap: round"/>
+   </g>
+   <g id="text_8">
+    <text style="fill: #ffffff; font: 700 7px 'Arial', sans-serif; text-anchor: middle" x="79.74" y="134.799754" transform="rotate(-0 79.74 134.799754)">Nuclear score &lt;= 3</text>
+   </g>
+   <g id="text_9">
+    <text style="fill: #ffffff; font: 700 9px 'Arial', sans-serif; text-anchor: middle" x="79.74" y="150.710929" transform="rotate(-0 79.74 150.710929)">760 eliminated</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: #6b7280; font: 4.5px 'Arial', sans-serif" transform="translate(52.228828 130.864416)">Non-nuclear: mitochondrial,</text>
+    <text style="fill: #6b7280; font: 4.5px 'Arial', sans-serif" transform="translate(48.979688 135.689822)">Golgi, ER, lysosomal, secreted</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 190.494349 169.849249 
+Q 219.241775 162.708759 247.338162 155.729979 
+" style="fill: none; stroke: #d1d5db; stroke-width: 0.6; stroke-linecap: round"/>
+    <path d="M 244.283248 155.046239 
+L 247.338162 155.729979 
+L 244.958222 157.763667 
+" style="fill: none; stroke: #d1d5db; stroke-width: 0.6; stroke-linecap: round"/>
+   </g>
+   <g id="text_11">
+    <text style="fill: #ffffff; font: 700 7px 'Arial', sans-serif; text-anchor: middle" x="213.66" y="134.799754" transform="rotate(-0 213.66 134.799754)">PubMed &gt; 100</text>
+   </g>
+   <g id="text_12">
+    <text style="fill: #ffffff; font: 700 9px 'Arial', sans-serif; text-anchor: middle" x="213.66" y="150.710929" transform="rotate(-0 213.66 150.710929)">710 eliminated</text>
+   </g>
+   <g id="text_13">
+    <text style="fill: #6b7280; font: 4.5px 'Arial', sans-serif" transform="translate(189.773789 130.864416)">Heavily studied proteins</text>
+    <text style="fill: #6b7280; font: 4.5px 'Arial', sans-serif" transform="translate(191.653594 135.742556)">(low research novelty)</text>
+   </g>
+   <g id="patch_11">
+    <path d="M 146.7 71.707032 
+Q 146.7 89.528232 146.7 106.231398 
+" style="fill: none; stroke: #6b7280; stroke-linecap: round"/>
+    <path d="M 148.1 103.431398 
+L 146.7 106.231398 
+L 145.3 103.431398 
+" style="fill: none; stroke: #6b7280; stroke-linecap: round"/>
+   </g>
+   <g id="text_14">
+    <text style="fill: #ffffff; font: 700 7px 'Arial', sans-serif; text-anchor: middle" x="146.7" y="82.871479" transform="rotate(-0 146.7 82.871479)">Passed screening</text>
+   </g>
+   <g id="text_15">
+    <text style="fill: #ffffff; font: 700 9px 'Arial', sans-serif; text-anchor: middle" x="146.7" y="98.887888" transform="rotate(-0 146.7 98.887888)">4,128 proteins</text>
+   </g>
+   <g id="text_16">
+    <text style="fill: #ffffff; opacity: 0.85; font: 5px 'Arial', sans-serif; text-anchor: middle" x="146.7" y="112.317266" transform="rotate(-0 146.7 112.317266)">7 subcellular categories</text>
+   </g>
+   <g id="text_17">
+    <text style="fill: #111111; font: 700 9px 'Arial', sans-serif" transform="translate(69.196641 28.997719)">Screening pipeline for TE-regulation</text>
+    <text style="fill: #111111; font: 700 9px 'Arial', sans-serif" transform="translate(89.439609 38.622375)">nuclear protein candidates</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pcdb7e6c9eb">
+   <rect x="7.2" y="7.2" width="279" height="304.92"/>
+  </clipPath>
+ </defs>
+</svg>

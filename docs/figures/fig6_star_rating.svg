@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="269.892128pt" height="118.70574pt" viewBox="0 0 269.892128 118.70574" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-06-13T16:42:56.284246</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 118.70574 
+L 269.892128 118.70574 
+L 269.892128 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 7.2 32.1711 
+L 219.24 32.1711 
+L 219.24 21.19398 
+L 7.2 21.19398 
+z
+" clip-path="url(#pf2b9796d01)" style="fill: #f3f4f6; opacity: 0.5"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 7.2 46.14198 
+L 219.24 46.14198 
+L 219.24 35.16486 
+L 7.2 35.16486 
+z
+" clip-path="url(#pf2b9796d01)" style="fill: #ffffff; opacity: 0.5"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 7.2 60.11286 
+L 219.24 60.11286 
+L 219.24 49.13574 
+L 7.2 49.13574 
+z
+" clip-path="url(#pf2b9796d01)" style="fill: #f3f4f6; opacity: 0.5"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 7.2 74.08374 
+L 219.24 74.08374 
+L 219.24 63.10662 
+L 7.2 63.10662 
+z
+" clip-path="url(#pf2b9796d01)" style="fill: #ffffff; opacity: 0.5"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 7.2 88.05462 
+L 219.24 88.05462 
+L 219.24 77.0775 
+L 7.2 77.0775 
+z
+" clip-path="url(#pf2b9796d01)" style="fill: #f3f4f6; opacity: 0.5"/>
+   </g>
+   <g id="text_1">
+    <text style="fill: #111111; font: 700 7.5px 'Arial', sans-serif; text-anchor: start" x="28.404" y="28.626681" transform="rotate(-0 28.404 28.626681)">85-100</text>
+   </g>
+   <g id="text_2">
+    <text style="fill: #2563eb; font: 11px 'Arial', sans-serif; text-anchor: middle" x="66.5712" y="29.526212" transform="rotate(-0 66.5712 29.526212)">5 stars</text>
+   </g>
+   <g id="text_3">
+    <text style="fill: #6b7280; font: 6.5px 'Arial', sans-serif; text-anchor: start" x="117.4608" y="28.364415" transform="rotate(-0 117.4608 28.364415)">Exceptional: top priority for experimental validation</text>
+   </g>
+   <g id="text_4">
+    <text style="fill: #111111; font: 700 7.5px 'Arial', sans-serif; text-anchor: start" x="28.404" y="42.597561" transform="rotate(-0 28.404 42.597561)">75-84</text>
+   </g>
+   <g id="text_5">
+    <text style="fill: #2563eb; font: 11px 'Arial', sans-serif; text-anchor: middle" x="66.5712" y="43.497092" transform="rotate(-0 66.5712 43.497092)">4 stars</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #6b7280; font: 6.5px 'Arial', sans-serif; text-anchor: start" x="117.4608" y="42.335295" transform="rotate(-0 117.4608 42.335295)">Strong: well-supported across most dimensions</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: #111111; font: 700 7.5px 'Arial', sans-serif; text-anchor: start" x="28.404" y="56.568441" transform="rotate(-0 28.404 56.568441)">65-74</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #6b7280; font: 11px 'Arial', sans-serif; text-anchor: middle" x="66.5712" y="57.467972" transform="rotate(-0 66.5712 57.467972)">3 stars</text>
+   </g>
+   <g id="text_9">
+    <text style="fill: #6b7280; font: 6.5px 'Arial', sans-serif; text-anchor: start" x="117.4608" y="56.306175" transform="rotate(-0 117.4608 56.306175)">Good: solid scores, some dimension gaps</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: #111111; font: 700 7.5px 'Arial', sans-serif; text-anchor: start" x="28.404" y="70.539321" transform="rotate(-0 28.404 70.539321)">55-64</text>
+   </g>
+   <g id="text_11">
+    <text style="fill: #6b7280; font: 11px 'Arial', sans-serif; text-anchor: middle" x="66.5712" y="71.438852" transform="rotate(-0 66.5712 71.438852)">2 stars</text>
+   </g>
+   <g id="text_12">
+    <text style="fill: #6b7280; font: 6.5px 'Arial', sans-serif; text-anchor: start" x="117.4608" y="70.277055" transform="rotate(-0 117.4608 70.277055)">Moderate: merits further investigation</text>
+   </g>
+   <g id="text_13">
+    <text style="fill: #111111; font: 700 7.5px 'Arial', sans-serif; text-anchor: start" x="28.404" y="84.510201" transform="rotate(-0 28.404 84.510201)">&lt; 55</text>
+   </g>
+   <g id="text_14">
+    <text style="fill: #6b7280; font: 11px 'Arial', sans-serif; text-anchor: middle" x="66.5712" y="85.409732" transform="rotate(-0 66.5712 85.409732)">1 star</text>
+   </g>
+   <g id="text_15">
+    <text style="fill: #6b7280; font: 6.5px 'Arial', sans-serif; text-anchor: start" x="117.4608" y="84.286021" transform="rotate(-0 117.4608 84.286021)">Baseline: review before prioritization</text>
+   </g>
+   <g id="text_16">
+    <text style="fill: #111111; font: 700 8px 'Arial', sans-serif; text-anchor: middle" x="113.22" y="13.02375" transform="rotate(-0 113.22 13.02375)">Candidate prioritization: star rating key</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pf2b9796d01">
+   <rect x="7.2" y="11.71374" width="212.04" height="99.792"/>
+  </clipPath>
+ </defs>
+</svg>

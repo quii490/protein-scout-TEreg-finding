@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="405pt" height="185.421938pt" viewBox="0 0 405 185.421938" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-06-13T16:42:56.159253</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 185.421938 
+L 405 185.421938 
+L 405 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 7.2 50.205938 
+L 397.8 50.205938 
+L 397.8 30.045938 
+L 7.2 30.045938 
+z
+" clip-path="url(#p07886b9340)" style="fill: #f3f4f6; opacity: 0.6"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 7.2 70.365938 
+L 397.8 70.365938 
+L 397.8 50.205938 
+L 7.2 50.205938 
+z
+" clip-path="url(#p07886b9340)" style="fill: #ffffff; opacity: 0.6"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 7.2 90.525938 
+L 397.8 90.525938 
+L 397.8 70.365938 
+L 7.2 70.365938 
+z
+" clip-path="url(#p07886b9340)" style="fill: #f3f4f6; opacity: 0.6"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 7.2 110.685938 
+L 397.8 110.685938 
+L 397.8 90.525938 
+L 7.2 90.525938 
+z
+" clip-path="url(#p07886b9340)" style="fill: #ffffff; opacity: 0.6"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 7.2 130.845938 
+L 397.8 130.845938 
+L 397.8 110.685938 
+L 7.2 110.685938 
+z
+" clip-path="url(#p07886b9340)" style="fill: #f3f4f6; opacity: 0.6"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 7.2 151.005938 
+L 397.8 151.005938 
+L 397.8 130.845938 
+L 7.2 130.845938 
+z
+" clip-path="url(#p07886b9340)" style="fill: #ffffff; opacity: 0.6"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 7.2 171.165938 
+L 397.8 171.165938 
+L 397.8 151.005938 
+L 7.2 151.005938 
+z
+" clip-path="url(#p07886b9340)" style="fill: #f3f4f6; opacity: 0.6"/>
+   </g>
+   <g id="text_1">
+    <text style="fill: #111111; font: 700 9px 'Arial', sans-serif; text-anchor: middle" x="202.5" y="13.751719" transform="rotate(-0 202.5 13.751719)">Scoring dimensions: definitions and data sources</text>
+   </g>
+   <g id="text_2">
+    <g id="patch_9">
+     <path d="M 22.824 23.583594 
+L 56.049156 23.583594 
+Q 56.699156 23.583594 56.699156 22.933594 
+L 56.699156 16.998281 
+Q 56.699156 16.348281 56.049156 16.348281 
+L 22.824 16.348281 
+Q 22.174 16.348281 22.174 16.998281 
+L 22.174 22.933594 
+Q 22.174 23.583594 22.824 23.583594 
+z
+" style="fill: #1e3a5f"/>
+    </g>
+    <text style="fill: #ffffff; font: 700 6.5px 'Arial', sans-serif; text-anchor: start" x="22.824" y="21.650859" transform="rotate(-0 22.824 21.650859)">Dimension</text>
+   </g>
+   <g id="text_3">
+    <g id="patch_10">
+     <path d="M 116.568 23.62625 
+L 138.114484 23.62625 
+Q 138.764484 23.62625 138.764484 22.97625 
+L 138.764484 16.955625 
+Q 138.764484 16.305625 138.114484 16.305625 
+L 116.568 16.305625 
+Q 115.918 16.305625 115.918 16.955625 
+L 115.918 22.97625 
+Q 115.918 23.62625 116.568 23.62625 
+z
+" style="fill: #1e3a5f"/>
+    </g>
+    <text style="fill: #ffffff; font: 700 6.5px 'Arial', sans-serif; text-anchor: start" x="116.568" y="21.608203" transform="rotate(-0 116.568 21.608203)">Weight</text>
+   </g>
+   <g id="text_4">
+    <g id="patch_11">
+     <path d="M 155.628 23.623203 
+L 239.785734 23.623203 
+Q 240.435734 23.623203 240.435734 22.973203 
+L 240.435734 16.958672 
+Q 240.435734 16.308672 239.785734 16.308672 
+L 155.628 16.308672 
+Q 154.978 16.308672 154.978 16.958672 
+L 154.978 22.973203 
+Q 154.978 23.623203 155.628 23.623203 
+z
+" style="fill: #1e3a5f"/>
+    </g>
+    <text style="fill: #ffffff; font: 700 6.5px 'Arial', sans-serif; text-anchor: start" x="155.628" y="21.690469" transform="rotate(-0 155.628 21.690469)">Description &amp; data sources</text>
+   </g>
+   <g id="text_5">
+    <text style="fill: #111111; font: 700 6.5px 'Arial', sans-serif; text-anchor: start" x="26.73" y="41.810859" transform="rotate(-0 26.73 41.810859)">Nuclear localization</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #1e3a5f; font: 700 7.5px 'Arial', sans-serif; text-anchor: start" x="120.474" y="42.070078" transform="rotate(-0 120.474 42.070078)">x4</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: #6b7280; font: 5.5px 'Arial', sans-serif" transform="translate(159.534 38.369504)">UniProt subcellular location, HPA IF images, GO-CC</text>
+    <text style="fill: #6b7280; font: 5.5px 'Arial', sans-serif" transform="translate(159.534 44.732059)">(IDA/IMP evidence). Nucleus + chromatin specificity.</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #111111; font: 700 6.5px 'Arial', sans-serif; text-anchor: start" x="26.73" y="61.970859" transform="rotate(-0 26.73 61.970859)">Protein size</text>
+   </g>
+   <g id="text_9">
+    <text style="fill: #1e3a5f; font: 700 7.5px 'Arial', sans-serif; text-anchor: start" x="120.474" y="62.230078" transform="rotate(-0 120.474 62.230078)">x1</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: #6b7280; font: 5.5px 'Arial', sans-serif" transform="translate(159.534 58.529504)">Amino acid length from UniProt. Optimal range</text>
+    <text style="fill: #6b7280; font: 5.5px 'Arial', sans-serif" transform="translate(159.534 64.892059)">300-800 aa scored highest (experimental tractability).</text>
+   </g>
+   <g id="text_11">
+    <text style="fill: #111111; font: 700 6.5px 'Arial', sans-serif; text-anchor: start" x="26.73" y="82.088203" transform="rotate(-0 26.73 82.088203)">Research novelty</text>
+   </g>
+   <g id="text_12">
+    <text style="fill: #1e3a5f; font: 700 7.5px 'Arial', sans-serif; text-anchor: start" x="120.474" y="82.390078" transform="rotate(-0 120.474 82.390078)">x5</text>
+   </g>
+   <g id="text_13">
+    <text style="fill: #6b7280; font: 5.5px 'Arial', sans-serif" transform="translate(159.534 78.73823)">PubMed publication count. &lt; 50 papers = high novelty.</text>
+    <text style="fill: #6b7280; font: 5.5px 'Arial', sans-serif" transform="translate(159.534 85.013645)">Prioritizes under-studied candidates.</text>
+   </g>
+   <g id="text_14">
+    <text style="fill: #111111; font: 700 6.5px 'Arial', sans-serif; text-anchor: start" x="26.73" y="102.290859" transform="rotate(-0 26.73 102.290859)">3D structure</text>
+   </g>
+   <g id="text_15">
+    <text style="fill: #1e3a5f; font: 700 7.5px 'Arial', sans-serif; text-anchor: start" x="120.474" y="102.550078" transform="rotate(-0 120.474 102.550078)">x3</text>
+   </g>
+   <g id="text_16">
+    <text style="fill: #6b7280; font: 5.5px 'Arial', sans-serif" transform="translate(159.534 98.923582)">AlphaFold pLDDT confidence, PDB entries,</text>
+    <text style="fill: #6b7280; font: 5.5px 'Arial', sans-serif" transform="translate(159.534 105.134543)">domain-level structural quality assessment.</text>
+   </g>
+   <g id="text_17">
+    <text style="fill: #111111; font: 700 6.5px 'Arial', sans-serif; text-anchor: start" x="26.73" y="122.408203" transform="rotate(-0 26.73 122.408203)">Regulatory domains</text>
+   </g>
+   <g id="text_18">
+    <text style="fill: #1e3a5f; font: 700 7.5px 'Arial', sans-serif; text-anchor: start" x="120.474" y="122.710078" transform="rotate(-0 120.474 122.710078)">x2</text>
+   </g>
+   <g id="text_19">
+    <text style="fill: #6b7280; font: 5.5px 'Arial', sans-serif" transform="translate(159.534 119.051355)">InterPro / SMART / Pfam annotation. Chromatin-binding,</text>
+    <text style="fill: #6b7280; font: 5.5px 'Arial', sans-serif" transform="translate(159.534 125.32677)">DNA-binding, and enzymatic domains scored highest.</text>
+   </g>
+   <g id="text_20">
+    <text style="fill: #111111; font: 700 6.5px 'Arial', sans-serif; text-anchor: start" x="26.73" y="142.610859" transform="rotate(-0 26.73 142.610859)">PPI network</text>
+   </g>
+   <g id="text_21">
+    <text style="fill: #1e3a5f; font: 700 7.5px 'Arial', sans-serif; text-anchor: start" x="120.474" y="142.870078" transform="rotate(-0 120.474 142.870078)">x3</text>
+   </g>
+   <g id="text_22">
+    <text style="fill: #6b7280; font: 5.5px 'Arial', sans-serif" transform="translate(159.534 139.167785)">IntAct / STRING / BioGRID interaction data. Weighted</text>
+    <text style="fill: #6b7280; font: 5.5px 'Arial', sans-serif" transform="translate(159.534 145.53034)">by regulatory partner enrichment in chromatin/RNA.</text>
+   </g>
+   <g id="text_23">
+    <text style="fill: #111111; font: 700 6.5px 'Arial', sans-serif; text-anchor: start" x="26.73" y="162.770859" transform="rotate(-0 26.73 162.770859)">Cross-validation</text>
+   </g>
+   <g id="text_24">
+    <text style="fill: #e67e22; font: 700 7.5px 'Arial', sans-serif; text-anchor: start" x="120.474" y="163.030078" transform="rotate(-0 120.474 163.030078)">bonus</text>
+   </g>
+   <g id="text_25">
+    <text style="fill: #6b7280; font: 5.5px 'Arial', sans-serif" transform="translate(159.534 159.325551)">0 to +3 concordance bonus for multi-source agreement</text>
+    <text style="fill: #6b7280; font: 5.5px 'Arial', sans-serif" transform="translate(159.534 165.692574)">across all databases (UniProt, HPA, GO, PDB).</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p07886b9340">
+   <rect x="7.2" y="22.989938" width="390.6" height="155.232"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,2527 @@
+{
+  "date": "2026-06-18T17:18:40.948432",
+  "total_screened": 628,
+  "passed": 330,
+  "eliminated": 216,
+  "errors": 82,
+  "passed_genes": [
+    "ABHD2",
+    "ABLIM1",
+    "ACRV1",
+    "ACTL7A",
+    "ACTL9",
+    "ACTR10",
+    "ACTRT3",
+    "ADAM30",
+    "ADAM32",
+    "ADGB",
+    "AGBL2",
+    "AK8",
+    "AKAP3",
+    "ARL13A",
+    "ARMC9",
+    "ART3",
+    "ATAD3B",
+    "ATP5F1A",
+    "ATP5F1D",
+    "ATP5MG",
+    "ATP5MGL",
+    "ATP5PF",
+    "ATP8A2",
+    "B9D1",
+    "BBS5",
+    "C16orf78",
+    "C1orf100",
+    "C20orf85",
+    "C4orf17",
+    "C4orf45",
+    "C4orf47",
+    "C7orf33",
+    "C9orf24",
+    "CABYR",
+    "CACNA2D4",
+    "CAPN11",
+    "CATIP",
+    "CATSPER2",
+    "CATSPER3",
+    "CATSPERD",
+    "CATSPERE",
+    "CATSPERG",
+    "CATSPERZ",
+    "CBLN2",
+    "CBLN4",
+    "CBY2",
+    "CCDC103",
+    "CCDC136",
+    "CCDC181",
+    "CCDC63",
+    "CCDC65",
+    "CCDC66",
+    "CCDC91",
+    "CCIN",
+    "CCT8",
+    "CD300LG",
+    "CDK20",
+    "CDKL1",
+    "CEP120",
+    "CEP131",
+    "CEP135",
+    "CEP350",
+    "CEP76",
+    "CETN1",
+    "CFAP100",
+    "CFAP119",
+    "CFAP126",
+    "CFAP20",
+    "CFAP221",
+    "CFAP251",
+    "CFAP276",
+    "CFAP298",
+    "CFAP43",
+    "CFAP45",
+    "CFAP46",
+    "CFAP58",
+    "CFAP61",
+    "CFAP70",
+    "CFAP95",
+    "CFAP99",
+    "CLGN",
+    "CLIP1",
+    "CLNS1A",
+    "CLXN",
+    "CNBD2",
+    "CNTRL",
+    "CNTROB",
+    "COASY",
+    "CPLANE1",
+    "CROCC",
+    "CTXN3",
+    "CXorf66",
+    "CYLC1",
+    "CYLC2",
+    "DAW1",
+    "DBNDD1",
+    "DCDC2C",
+    "DCST1",
+    "DCTN3",
+    "DCTN4",
+    "DKKL1",
+    "DNAAF11",
+    "DNAAF4",
+    "DNAAF6",
+    "DNAH10",
+    "DNAH12",
+    "DNAH17",
+    "DNAH2",
+    "DNAI2",
+    "DNAI4",
+    "DNAJB13",
+    "DNAJC5",
+    "DNAL1",
+    "DNAL4",
+    "DRC3",
+    "DUSP21",
+    "DYDC1",
+    "DYDC2",
+    "DYNC1I2",
+    "DYNC1LI2",
+    "DYNC2LI1",
+    "DYNLL2",
+    "DYNLT1",
+    "EFCAB2",
+    "EFCAB6",
+    "EFHB",
+    "EFHC1",
+    "ENKUR",
+    "ENSG00000198211",
+    "ENSG00000251569",
+    "ENSG00000256500",
+    "ENSG00000267740",
+    "ENSG00000271254",
+    "ENSG00000282218",
+    "ENSG00000285827",
+    "EPRS1",
+    "EXOC3L2",
+    "FAM161A",
+    "FAM166A",
+    "FAM177B",
+    "FAM183A",
+    "FAM187A",
+    "FAM205A",
+    "FAM9A",
+    "FLACC1",
+    "FLAD1",
+    "FMR1NB",
+    "FSCB",
+    "FSIP1",
+    "FSIP2",
+    "FYB2",
+    "G6PC1",
+    "GAS8",
+    "GLG1",
+    "H1-7",
+    "HAUS1",
+    "HAUS6",
+    "HAUS7",
+    "HSPA4L",
+    "HSPB11",
+    "IFT122",
+    "IFT22",
+    "IFT46",
+    "IFT57",
+    "IPO8",
+    "IQCA1",
+    "IQCD",
+    "IZUMO2",
+    "IZUMO3",
+    "IZUMO4",
+    "KCNU1",
+    "KCTD16",
+    "KIF12",
+    "KIF13A",
+    "KIF1C",
+    "KIF20B",
+    "KIF21B",
+    "KIF26A",
+    "KIF2B",
+    "KIF4B",
+    "KIF9",
+    "KLHL10",
+    "KRT31",
+    "KRT33A",
+    "KRT33B",
+    "KRT34",
+    "KRT39",
+    "LCA5L",
+    "LNPK",
+    "LRIT1",
+    "LRRC45",
+    "LY6K",
+    "LYZL4",
+    "MARS1",
+    "MNS1",
+    "MROH2B",
+    "MRPS35",
+    "NBPF1",
+    "NBPF10",
+    "NBPF12",
+    "NBPF14",
+    "NBPF15",
+    "NBPF19",
+    "NBPF20",
+    "NBPF26",
+    "NBPF8",
+    "NBPF9",
+    "NDUFA11",
+    "NDUFA6",
+    "NDUFB11",
+    "NDUFB4",
+    "NT5C1B",
+    "NT5C1B-RDH14",
+    "NUBP1",
+    "NUDCD3",
+    "NUDT5",
+    "OAZ3",
+    "ODAD1",
+    "ODAD3",
+    "ODF3",
+    "ODF3L2",
+    "ODF4",
+    "OR6P1",
+    "P3R3URF-PIK3R3",
+    "PGAM4",
+    "PGPEP1L",
+    "PIERCE1",
+    "PKHD1L1",
+    "PLPP3",
+    "PNPLA5",
+    "POC1A",
+    "POC1B",
+    "PPP1R32",
+    "PPP1R3D",
+    "PPP2R3A",
+    "PPP2R5E",
+    "PPP3CB",
+    "PPP3CC",
+    "PPP4R1",
+    "PROM2",
+    "PRSS21",
+    "PRSS55",
+    "PSD3",
+    "PSMA4",
+    "PSMA8",
+    "PSMC4",
+    "PSMD11",
+    "PSMD5",
+    "PSMD7",
+    "PTPN23",
+    "RAB11FIP4",
+    "RAB11FIP5",
+    "RALGAPA1",
+    "RAP1GAP2",
+    "REEP6",
+    "RGS9BP",
+    "RIBC2",
+    "RNPEP",
+    "ROPN1",
+    "ROPN1B",
+    "ROPN1L",
+    "RPAP3",
+    "RSPH1",
+    "RSPH3",
+    "RSPH4A",
+    "RSPH9",
+    "SAXO1",
+    "SAXO2",
+    "SCAMP2",
+    "SEPTIN10",
+    "SEPTIN11",
+    "SEPTIN12",
+    "SEPTIN6",
+    "SEPTIN8",
+    "SLC22A14",
+    "SLC26A7",
+    "SLC26A8",
+    "SLC9B1",
+    "SPACA1",
+    "SPACA3",
+    "SPACA4",
+    "SPACA7",
+    "SPACA9",
+    "SPACDR",
+    "SPAG1",
+    "SPAG16",
+    "SPAG17",
+    "SPAG8",
+    "SPATA20",
+    "SPATA31A5",
+    "SPATA31A6",
+    "SPATA31A7",
+    "SPATA48",
+    "SPATA7",
+    "SPEF2",
+    "SPEM1",
+    "SPESP1",
+    "SPINK2",
+    "SSX2IP",
+    "STK33",
+    "STPG2",
+    "SUGT1",
+    "TBC1D21",
+    "TBC1D30",
+    "TEKT2",
+    "TEKT4",
+    "TEX45",
+    "THEGL",
+    "TMEM231",
+    "TMEM89",
+    "TOPAZ1",
+    "TP53I11",
+    "TPPP2",
+    "TSGA10",
+    "TTC21B",
+    "TTLL6",
+    "TUBB8",
+    "TUBB8B",
+    "TUBG1",
+    "TUBG2",
+    "ULK3",
+    "UNC119B",
+    "VARS1",
+    "VPS37A",
+    "VPS50",
+    "WBP11",
+    "WDPCP",
+    "WDR11",
+    "WDR19",
+    "WRAP73"
+  ],
+  "eliminated_genes": [
+    "AAAS",
+    "ABCB6",
+    "ABCC8",
+    "ACADS",
+    "ACLY",
+    "AFG3L2",
+    "AIFM1",
+    "AK7",
+    "AKAP4",
+    "ALMS1",
+    "ANK2",
+    "AQP9",
+    "ARL13B",
+    "ARL2",
+    "ARMS2",
+    "ARSA",
+    "ASIP",
+    "ATAD3A",
+    "ATG16L1",
+    "ATG7",
+    "ATOH7",
+    "BAD",
+    "BAG2",
+    "BBS9",
+    "BCL2L1",
+    "BCS1L",
+    "BEST2",
+    "BOLL",
+    "BRAF",
+    "CACNA1B",
+    "CACNA1G",
+    "CACNA1S",
+    "CACNA2D2",
+    "CACNA2D3",
+    "CAMK2A",
+    "CAMK2B",
+    "CAMK2D",
+    "CAMK2G",
+    "CAPN2",
+    "CATSPER1",
+    "CAV1",
+    "CBL",
+    "CBLN1",
+    "CC2D2A",
+    "CCT2",
+    "CCT5",
+    "CDK1",
+    "CDK2",
+    "CDK5RAP2",
+    "CENPJ",
+    "CEP164",
+    "CEP290",
+    "CEP55",
+    "CETN2",
+    "CKLF",
+    "CLIC4",
+    "CLPX",
+    "CLTC",
+    "CNGA1",
+    "CNGA3",
+    "CPS1",
+    "CPTP",
+    "CSNK1D",
+    "CSNK2B",
+    "CTNNA1",
+    "CYB5R3",
+    "CYC1",
+    "CYLD",
+    "DCDC2",
+    "DCTN1",
+    "DCTN2",
+    "DDB1",
+    "DIABLO",
+    "DLAT",
+    "DLD",
+    "DYNC1H1",
+    "DYNC2H1",
+    "DYNLL1",
+    "EGFR",
+    "EML4",
+    "EYS",
+    "FAF1",
+    "GAPDHS",
+    "GLUL",
+    "GNAI1",
+    "GNAI3",
+    "GNAT1",
+    "GOPC",
+    "GPIHBP1",
+    "GRK1",
+    "GRK4",
+    "GZMB",
+    "HADHB",
+    "HIP1",
+    "HMGB2",
+    "HPRT1",
+    "HSPA1A",
+    "HSPA1B",
+    "HSPA1L",
+    "HSPA2",
+    "HSPA5",
+    "HSPA6",
+    "HSPA8",
+    "HUWE1",
+    "HYDIN",
+    "IFT20",
+    "IL4I1",
+    "ITGB6",
+    "KDR",
+    "KIF11",
+    "KIF14",
+    "KIF17",
+    "KIF1B",
+    "KIF23",
+    "KIF2A",
+    "KIF3B",
+    "KIF4A",
+    "KIF5A",
+    "KIF5B",
+    "KIF5C",
+    "KLB",
+    "KLC1",
+    "LAP3",
+    "LDHC",
+    "MAG",
+    "MAK",
+    "MAP1A",
+    "MAP1B",
+    "MAP2K2",
+    "MAP4",
+    "MAPT",
+    "MDM2",
+    "MERTK",
+    "MFF",
+    "MLF1",
+    "MOK",
+    "NDRG1",
+    "NDUFS3",
+    "NDUFS4",
+    "NSF",
+    "ODF1",
+    "ODF2",
+    "OFD1",
+    "PACRG",
+    "PAFAH1B1",
+    "PARK7",
+    "PCNT",
+    "PFKM",
+    "PGAM1",
+    "PGK1",
+    "PGK2",
+    "PGRMC1",
+    "PGS1",
+    "PHC1",
+    "PIK3R3",
+    "PKM",
+    "PLCB4",
+    "PPP1CA",
+    "PPP3CA",
+    "PRKAR2A",
+    "PRKCZ",
+    "PSMA6",
+    "PSMA7",
+    "PSMB5",
+    "PSMD10",
+    "PSMD2",
+    "PTEN",
+    "PTPRK",
+    "RAB11A",
+    "RAB27A",
+    "RANGAP1",
+    "RAPGEF4",
+    "RBM5",
+    "RCVRN",
+    "RP1",
+    "RP2",
+    "RPS27A",
+    "RRAD",
+    "SCN10A",
+    "SCNN1A",
+    "SELENOP",
+    "SEPTIN2",
+    "SEPTIN4",
+    "SFN",
+    "SLC26A3",
+    "SLC2A2",
+    "SLC2A5",
+    "SLC8A3",
+    "SLC9A3R1",
+    "SORD",
+    "SPA17",
+    "SPAG6",
+    "SPZ1",
+    "SRPK2",
+    "SSBP1",
+    "STAT2",
+    "STAT4",
+    "STAT6",
+    "SUMO2",
+    "SUMO4",
+    "TCHP",
+    "THEG",
+    "TRIP13",
+    "TUBB",
+    "TUBB1",
+    "TUBB2A",
+    "TUBB2B",
+    "TUBB3",
+    "TUBB4A",
+    "UBB",
+    "UBE2A",
+    "UBE2B",
+    "UBR4",
+    "USH2A",
+    "VCAN",
+    "WDR5"
+  ],
+  "error_genes": [
+    "ACADM",
+    "AK1",
+    "AK9",
+    "AKT1",
+    "ATP2A2",
+    "ATP6V0A2",
+    "BBS4",
+    "BSG",
+    "C2CD3",
+    "C2CD6",
+    "CACNA1I",
+    "CAPZA3",
+    "CASP8",
+    "CATSPERB",
+    "CCDC183",
+    "CCDC188",
+    "CCDC34",
+    "CCDC39",
+    "CCDC40",
+    "CEP162",
+    "COX5B",
+    "COX6A1",
+    "COX6B1",
+    "DNAH3",
+    "DNAH6",
+    "DNAH7",
+    "DNAH8",
+    "DNAH9",
+    "DNAI1",
+    "DNAI3",
+    "DNALI1",
+    "DNHD1",
+    "DYSF",
+    "ENSG00000111780",
+    "ENSG00000286185",
+    "EPHA6",
+    "EPHA7",
+    "IFT43",
+    "IFT88",
+    "IMMP2L",
+    "IMPG1",
+    "IQCH",
+    "IQCN",
+    "IQUB",
+    "ITLN1",
+    "ITPR2",
+    "LANCL1",
+    "LRPPRC",
+    "MAP1S",
+    "MPC1",
+    "MSGN1",
+    "MSH4",
+    "MT-CO1",
+    "MYO5A",
+    "NBPF11",
+    "NDUFA8",
+    "NDUFS2",
+    "ODAD2",
+    "ODAD4",
+    "OR10Q1",
+    "PMFBP1",
+    "RPGR",
+    "SPATA31A1",
+    "SPATA31A3",
+    "SUMO3",
+    "TAF8",
+    "TCTE1",
+    "TEKT3",
+    "TEX37",
+    "TEX43",
+    "TSGA10IP",
+    "TSSK1B",
+    "TTC29",
+    "TTC8",
+    "TTLL9",
+    "TUBB4B",
+    "TUBB6",
+    "TULP4",
+    "UBA52",
+    "UBC",
+    "WDR54",
+    "ZG16"
+  ],
+  "results": {
+    "AAAS": {
+      "pubmed_total": 5699
+    },
+    "ABCB6": {
+      "pubmed_total": 216
+    },
+    "ABCC8": {
+      "pubmed_total": 1462
+    },
+    "ABHD2": {
+      "pubmed_total": 66
+    },
+    "ABLIM1": {
+      "pubmed_total": 69
+    },
+    "ACADM": {
+      "pubmed_total": -1
+    },
+    "ACADS": {
+      "pubmed_total": 227
+    },
+    "ACLY": {
+      "pubmed_total": 851
+    },
+    "ACRV1": {
+      "pubmed_total": 78
+    },
+    "ACTL7A": {
+      "pubmed_total": 45
+    },
+    "ACTL9": {
+      "pubmed_total": 25
+    },
+    "ACTR10": {
+      "pubmed_total": 10
+    },
+    "ACTRT3": {
+      "pubmed_total": 8
+    },
+    "ADAM30": {
+      "pubmed_total": 17
+    },
+    "ADAM32": {
+      "pubmed_total": 28
+    },
+    "ADGB": {
+      "pubmed_total": 44
+    },
+    "AFG3L2": {
+      "pubmed_total": 148
+    },
+    "AGBL2": {
+      "pubmed_total": 21
+    },
+    "AIFM1": {
+      "pubmed_total": 891
+    },
+    "AK1": {
+      "pubmed_total": -1
+    },
+    "AK7": {
+      "pubmed_total": 109
+    },
+    "AK8": {
+      "pubmed_total": 25
+    },
+    "AK9": {
+      "pubmed_total": -1
+    },
+    "AKAP3": {
+      "pubmed_total": 100
+    },
+    "AKAP4": {
+      "pubmed_total": 174
+    },
+    "AKT1": {
+      "pubmed_total": -1
+    },
+    "ALMS1": {
+      "pubmed_total": 343
+    },
+    "ANK2": {
+      "pubmed_total": 314
+    },
+    "AQP9": {
+      "pubmed_total": 757
+    },
+    "ARL13A": {
+      "pubmed_total": 3
+    },
+    "ARL13B": {
+      "pubmed_total": 277
+    },
+    "ARL2": {
+      "pubmed_total": 167
+    },
+    "ARMC9": {
+      "pubmed_total": 16
+    },
+    "ARMS2": {
+      "pubmed_total": 634
+    },
+    "ARSA": {
+      "pubmed_total": 1170
+    },
+    "ART3": {
+      "pubmed_total": 63
+    },
+    "ASIP": {
+      "pubmed_total": 717
+    },
+    "ATAD3A": {
+      "pubmed_total": 162
+    },
+    "ATAD3B": {
+      "pubmed_total": 38
+    },
+    "ATG16L1": {
+      "pubmed_total": 1195
+    },
+    "ATG7": {
+      "pubmed_total": 3643
+    },
+    "ATOH7": {
+      "pubmed_total": 236
+    },
+    "ATP2A2": {
+      "pubmed_total": -1
+    },
+    "ATP5F1A": {
+      "pubmed_total": 76
+    },
+    "ATP5F1D": {
+      "pubmed_total": 18
+    },
+    "ATP5MG": {
+      "pubmed_total": 7
+    },
+    "ATP5MGL": {
+      "pubmed_total": 1
+    },
+    "ATP5PF": {
+      "pubmed_total": 11
+    },
+    "ATP6V0A2": {
+      "pubmed_total": -1
+    },
+    "ATP8A2": {
+      "pubmed_total": 95
+    },
+    "B9D1": {
+      "pubmed_total": 27
+    },
+    "BAD": {
+      "pubmed_total": 70125
+    },
+    "BAG2": {
+      "pubmed_total": 300
+    },
+    "BBS4": {
+      "pubmed_total": -1
+    },
+    "BBS5": {
+      "pubmed_total": 80
+    },
+    "BBS9": {
+      "pubmed_total": 102
+    },
+    "BCL2L1": {
+      "pubmed_total": 8935
+    },
+    "BCS1L": {
+      "pubmed_total": 106
+    },
+    "BEST2": {
+      "pubmed_total": 103
+    },
+    "BOLL": {
+      "pubmed_total": 36371
+    },
+    "BRAF": {
+      "pubmed_total": 28218
+    },
+    "BSG": {
+      "pubmed_total": -1
+    },
+    "C16orf78": {
+      "pubmed_total": 1
+    },
+    "C1orf100": {
+      "pubmed_total": 2
+    },
+    "C20orf85": {
+      "pubmed_total": 5
+    },
+    "C2CD3": {
+      "pubmed_total": -1
+    },
+    "C2CD6": {
+      "pubmed_total": -1
+    },
+    "C4orf17": {
+      "pubmed_total": 1
+    },
+    "C4orf45": {
+      "pubmed_total": 1
+    },
+    "C4orf47": {
+      "pubmed_total": 3
+    },
+    "C7orf33": {
+      "pubmed_total": 0
+    },
+    "C9orf24": {
+      "pubmed_total": 4
+    },
+    "CABYR": {
+      "pubmed_total": 54
+    },
+    "CACNA1B": {
+      "pubmed_total": 381
+    },
+    "CACNA1G": {
+      "pubmed_total": 489
+    },
+    "CACNA1I": {
+      "pubmed_total": -1
+    },
+    "CACNA1S": {
+      "pubmed_total": 694
+    },
+    "CACNA2D2": {
+      "pubmed_total": 153
+    },
+    "CACNA2D3": {
+      "pubmed_total": 121
+    },
+    "CACNA2D4": {
+      "pubmed_total": 44
+    },
+    "CAMK2A": {
+      "pubmed_total": 586
+    },
+    "CAMK2B": {
+      "pubmed_total": 193
+    },
+    "CAMK2D": {
+      "pubmed_total": 247
+    },
+    "CAMK2G": {
+      "pubmed_total": 133
+    },
+    "CAPN11": {
+      "pubmed_total": 16
+    },
+    "CAPN2": {
+      "pubmed_total": 366
+    },
+    "CAPZA3": {
+      "pubmed_total": -1
+    },
+    "CASP8": {
+      "pubmed_total": -1
+    },
+    "CATIP": {
+      "pubmed_total": 11
+    },
+    "CATSPER1": {
+      "pubmed_total": 235
+    },
+    "CATSPER2": {
+      "pubmed_total": 85
+    },
+    "CATSPER3": {
+      "pubmed_total": 29
+    },
+    "CATSPERB": {
+      "pubmed_total": -1
+    },
+    "CATSPERD": {
+      "pubmed_total": 8
+    },
+    "CATSPERE": {
+      "pubmed_total": 4
+    },
+    "CATSPERG": {
+      "pubmed_total": 4
+    },
+    "CATSPERZ": {
+      "pubmed_total": 4
+    },
+    "CAV1": {
+      "pubmed_total": 7656
+    },
+    "CBL": {
+      "pubmed_total": 6356
+    },
+    "CBLN1": {
+      "pubmed_total": 146
+    },
+    "CBLN2": {
+      "pubmed_total": 69
+    },
+    "CBLN4": {
+      "pubmed_total": 52
+    },
+    "CBY2": {
+      "pubmed_total": 6
+    },
+    "CC2D2A": {
+      "pubmed_total": 105
+    },
+    "CCDC103": {
+      "pubmed_total": 28
+    },
+    "CCDC136": {
+      "pubmed_total": 13
+    },
+    "CCDC181": {
+      "pubmed_total": 22
+    },
+    "CCDC183": {
+      "pubmed_total": -1
+    },
+    "CCDC188": {
+      "pubmed_total": -1
+    },
+    "CCDC34": {
+      "pubmed_total": -1
+    },
+    "CCDC39": {
+      "pubmed_total": -1
+    },
+    "CCDC40": {
+      "pubmed_total": -1
+    },
+    "CCDC63": {
+      "pubmed_total": 12
+    },
+    "CCDC65": {
+      "pubmed_total": 20
+    },
+    "CCDC66": {
+      "pubmed_total": 42
+    },
+    "CCDC91": {
+      "pubmed_total": 24
+    },
+    "CCIN": {
+      "pubmed_total": 50
+    },
+    "CCT2": {
+      "pubmed_total": 181
+    },
+    "CCT5": {
+      "pubmed_total": 139
+    },
+    "CCT8": {
+      "pubmed_total": 79
+    },
+    "CD300LG": {
+      "pubmed_total": 37
+    },
+    "CDK1": {
+      "pubmed_total": 7261
+    },
+    "CDK2": {
+      "pubmed_total": 10041
+    },
+    "CDK20": {
+      "pubmed_total": 27
+    },
+    "CDK5RAP2": {
+      "pubmed_total": 208
+    },
+    "CDKL1": {
+      "pubmed_total": 35
+    },
+    "CENPJ": {
+      "pubmed_total": 132
+    },
+    "CEP120": {
+      "pubmed_total": 52
+    },
+    "CEP131": {
+      "pubmed_total": 56
+    },
+    "CEP135": {
+      "pubmed_total": 91
+    },
+    "CEP162": {
+      "pubmed_total": -1
+    },
+    "CEP164": {
+      "pubmed_total": 107
+    },
+    "CEP290": {
+      "pubmed_total": 440
+    },
+    "CEP350": {
+      "pubmed_total": 32
+    },
+    "CEP55": {
+      "pubmed_total": 373
+    },
+    "CEP76": {
+      "pubmed_total": 13
+    },
+    "CETN1": {
+      "pubmed_total": 30
+    },
+    "CETN2": {
+      "pubmed_total": 111
+    },
+    "CFAP100": {
+      "pubmed_total": 3
+    },
+    "CFAP119": {
+      "pubmed_total": 3
+    },
+    "CFAP126": {
+      "pubmed_total": 6
+    },
+    "CFAP20": {
+      "pubmed_total": 8
+    },
+    "CFAP221": {
+      "pubmed_total": 14
+    },
+    "CFAP251": {
+      "pubmed_total": 24
+    },
+    "CFAP276": {
+      "pubmed_total": 2
+    },
+    "CFAP298": {
+      "pubmed_total": 12
+    },
+    "CFAP43": {
+      "pubmed_total": 48
+    },
+    "CFAP45": {
+      "pubmed_total": 22
+    },
+    "CFAP46": {
+      "pubmed_total": 15
+    },
+    "CFAP58": {
+      "pubmed_total": 14
+    },
+    "CFAP61": {
+      "pubmed_total": 17
+    },
+    "CFAP70": {
+      "pubmed_total": 17
+    },
+    "CFAP95": {
+      "pubmed_total": 2
+    },
+    "CFAP99": {
+      "pubmed_total": 1
+    },
+    "CKLF": {
+      "pubmed_total": 252
+    },
+    "CLGN": {
+      "pubmed_total": 43
+    },
+    "CLIC4": {
+      "pubmed_total": 213
+    },
+    "CLIP1": {
+      "pubmed_total": 76
+    },
+    "CLNS1A": {
+      "pubmed_total": 74
+    },
+    "CLPX": {
+      "pubmed_total": 654
+    },
+    "CLTC": {
+      "pubmed_total": 251
+    },
+    "CLXN": {
+      "pubmed_total": 5
+    },
+    "CNBD2": {
+      "pubmed_total": 1
+    },
+    "CNGA1": {
+      "pubmed_total": 143
+    },
+    "CNGA3": {
+      "pubmed_total": 334
+    },
+    "CNTRL": {
+      "pubmed_total": 88
+    },
+    "CNTROB": {
+      "pubmed_total": 33
+    },
+    "COASY": {
+      "pubmed_total": 81
+    },
+    "COX5B": {
+      "pubmed_total": -1
+    },
+    "COX6A1": {
+      "pubmed_total": -1
+    },
+    "COX6B1": {
+      "pubmed_total": -1
+    },
+    "CPLANE1": {
+      "pubmed_total": 66
+    },
+    "CPS1": {
+      "pubmed_total": 618
+    },
+    "CPTP": {
+      "pubmed_total": 472
+    },
+    "CROCC": {
+      "pubmed_total": 54
+    },
+    "CSNK1D": {
+      "pubmed_total": 102
+    },
+    "CSNK2B": {
+      "pubmed_total": 104
+    },
+    "CTNNA1": {
+      "pubmed_total": 769
+    },
+    "CTXN3": {
+      "pubmed_total": 12
+    },
+    "CXorf66": {
+      "pubmed_total": 2
+    },
+    "CYB5R3": {
+      "pubmed_total": 154
+    },
+    "CYC1": {
+      "pubmed_total": 930
+    },
+    "CYLC1": {
+      "pubmed_total": 8
+    },
+    "CYLC2": {
+      "pubmed_total": 15
+    },
+    "CYLD": {
+      "pubmed_total": 981
+    },
+    "DAW1": {
+      "pubmed_total": 15
+    },
+    "DBNDD1": {
+      "pubmed_total": 11
+    },
+    "DCDC2": {
+      "pubmed_total": 173
+    },
+    "DCDC2C": {
+      "pubmed_total": 7
+    },
+    "DCST1": {
+      "pubmed_total": 41
+    },
+    "DCTN1": {
+      "pubmed_total": 376
+    },
+    "DCTN2": {
+      "pubmed_total": 112
+    },
+    "DCTN3": {
+      "pubmed_total": 23
+    },
+    "DCTN4": {
+      "pubmed_total": 21
+    },
+    "DDB1": {
+      "pubmed_total": 968
+    },
+    "DIABLO": {
+      "pubmed_total": 1751
+    },
+    "DKKL1": {
+      "pubmed_total": 35
+    },
+    "DLAT": {
+      "pubmed_total": 551
+    },
+    "DLD": {
+      "pubmed_total": 4380
+    },
+    "DNAAF11": {
+      "pubmed_total": 17
+    },
+    "DNAAF4": {
+      "pubmed_total": 83
+    },
+    "DNAAF6": {
+      "pubmed_total": 19
+    },
+    "DNAH10": {
+      "pubmed_total": 40
+    },
+    "DNAH12": {
+      "pubmed_total": 21
+    },
+    "DNAH17": {
+      "pubmed_total": 73
+    },
+    "DNAH2": {
+      "pubmed_total": 40
+    },
+    "DNAH3": {
+      "pubmed_total": -1
+    },
+    "DNAH6": {
+      "pubmed_total": -1
+    },
+    "DNAH7": {
+      "pubmed_total": -1
+    },
+    "DNAH8": {
+      "pubmed_total": -1
+    },
+    "DNAH9": {
+      "pubmed_total": -1
+    },
+    "DNAI1": {
+      "pubmed_total": -1
+    },
+    "DNAI2": {
+      "pubmed_total": 55
+    },
+    "DNAI3": {
+      "pubmed_total": -1
+    },
+    "DNAI4": {
+      "pubmed_total": 3
+    },
+    "DNAJB13": {
+      "pubmed_total": 42
+    },
+    "DNAJC5": {
+      "pubmed_total": 82
+    },
+    "DNAL1": {
+      "pubmed_total": 34
+    },
+    "DNAL4": {
+      "pubmed_total": 10
+    },
+    "DNALI1": {
+      "pubmed_total": -1
+    },
+    "DNHD1": {
+      "pubmed_total": -1
+    },
+    "DRC3": {
+      "pubmed_total": 26
+    },
+    "DUSP21": {
+      "pubmed_total": 9
+    },
+    "DYDC1": {
+      "pubmed_total": 6
+    },
+    "DYDC2": {
+      "pubmed_total": 8
+    },
+    "DYNC1H1": {
+      "pubmed_total": 224
+    },
+    "DYNC1I2": {
+      "pubmed_total": 17
+    },
+    "DYNC1LI2": {
+      "pubmed_total": 22
+    },
+    "DYNC2H1": {
+      "pubmed_total": 141
+    },
+    "DYNC2LI1": {
+      "pubmed_total": 26
+    },
+    "DYNLL1": {
+      "pubmed_total": 191
+    },
+    "DYNLL2": {
+      "pubmed_total": 43
+    },
+    "DYNLT1": {
+      "pubmed_total": 80
+    },
+    "DYSF": {
+      "pubmed_total": -1
+    },
+    "EFCAB2": {
+      "pubmed_total": 12
+    },
+    "EFCAB6": {
+      "pubmed_total": 14
+    },
+    "EFHB": {
+      "pubmed_total": 12
+    },
+    "EFHC1": {
+      "pubmed_total": 78
+    },
+    "EGFR": {
+      "pubmed_total": 150500
+    },
+    "EML4": {
+      "pubmed_total": 1671
+    },
+    "ENKUR": {
+      "pubmed_total": 16
+    },
+    "ENSG00000111780": {
+      "pubmed_total": -1
+    },
+    "ENSG00000198211": {
+      "pubmed_total": 0
+    },
+    "ENSG00000251569": {
+      "pubmed_total": 0
+    },
+    "ENSG00000256500": {
+      "pubmed_total": 0
+    },
+    "ENSG00000267740": {
+      "pubmed_total": 0
+    },
+    "ENSG00000271254": {
+      "pubmed_total": 0
+    },
+    "ENSG00000282218": {
+      "pubmed_total": 0
+    },
+    "ENSG00000285827": {
+      "pubmed_total": 0
+    },
+    "ENSG00000286185": {
+      "pubmed_total": -1
+    },
+    "EPHA6": {
+      "pubmed_total": -1
+    },
+    "EPHA7": {
+      "pubmed_total": -1
+    },
+    "EPRS1": {
+      "pubmed_total": 27
+    },
+    "EXOC3L2": {
+      "pubmed_total": 27
+    },
+    "EYS": {
+      "pubmed_total": 648
+    },
+    "FAF1": {
+      "pubmed_total": 206
+    },
+    "FAM161A": {
+      "pubmed_total": 71
+    },
+    "FAM166A": {
+      "pubmed_total": 2
+    },
+    "FAM177B": {
+      "pubmed_total": 3
+    },
+    "FAM183A": {
+      "pubmed_total": 4
+    },
+    "FAM187A": {
+      "pubmed_total": 2
+    },
+    "FAM205A": {
+      "pubmed_total": 4
+    },
+    "FAM9A": {
+      "pubmed_total": 8
+    },
+    "FLACC1": {
+      "pubmed_total": 6
+    },
+    "FLAD1": {
+      "pubmed_total": 55
+    },
+    "FMR1NB": {
+      "pubmed_total": 9
+    },
+    "FSCB": {
+      "pubmed_total": 15
+    },
+    "FSIP1": {
+      "pubmed_total": 28
+    },
+    "FSIP2": {
+      "pubmed_total": 58
+    },
+    "FYB2": {
+      "pubmed_total": 3
+    },
+    "G6PC1": {
+      "pubmed_total": 85
+    },
+    "GAPDHS": {
+      "pubmed_total": 9505
+    },
+    "GAS8": {
+      "pubmed_total": 80
+    },
+    "GLG1": {
+      "pubmed_total": 51
+    },
+    "GLUL": {
+      "pubmed_total": 334
+    },
+    "GNAI1": {
+      "pubmed_total": 178
+    },
+    "GNAI3": {
+      "pubmed_total": 197
+    },
+    "GNAT1": {
+      "pubmed_total": 213
+    },
+    "GOPC": {
+      "pubmed_total": 258
+    },
+    "GPIHBP1": {
+      "pubmed_total": 338
+    },
+    "GRK1": {
+      "pubmed_total": 324
+    },
+    "GRK4": {
+      "pubmed_total": 221
+    },
+    "GZMB": {
+      "pubmed_total": 3229
+    },
+    "H1-7": {
+      "pubmed_total": 41
+    },
+    "HADHB": {
+      "pubmed_total": 171
+    },
+    "HAUS1": {
+      "pubmed_total": 18
+    },
+    "HAUS6": {
+      "pubmed_total": 24
+    },
+    "HAUS7": {
+      "pubmed_total": 9
+    },
+    "HIP1": {
+      "pubmed_total": 371
+    },
+    "HMGB2": {
+      "pubmed_total": 720
+    },
+    "HPRT1": {
+      "pubmed_total": 707
+    },
+    "HSPA1A": {
+      "pubmed_total": 853
+    },
+    "HSPA1B": {
+      "pubmed_total": 440
+    },
+    "HSPA1L": {
+      "pubmed_total": 157
+    },
+    "HSPA2": {
+      "pubmed_total": 341
+    },
+    "HSPA4L": {
+      "pubmed_total": 79
+    },
+    "HSPA5": {
+      "pubmed_total": 7624
+    },
+    "HSPA6": {
+      "pubmed_total": 251
+    },
+    "HSPA8": {
+      "pubmed_total": 1395
+    },
+    "HSPB11": {
+      "pubmed_total": 41
+    },
+    "HUWE1": {
+      "pubmed_total": 413
+    },
+    "HYDIN": {
+      "pubmed_total": 116
+    },
+    "IFT122": {
+      "pubmed_total": 59
+    },
+    "IFT20": {
+      "pubmed_total": 142
+    },
+    "IFT22": {
+      "pubmed_total": 12
+    },
+    "IFT43": {
+      "pubmed_total": -1
+    },
+    "IFT46": {
+      "pubmed_total": 41
+    },
+    "IFT57": {
+      "pubmed_total": 67
+    },
+    "IFT88": {
+      "pubmed_total": -1
+    },
+    "IL4I1": {
+      "pubmed_total": 214
+    },
+    "IMMP2L": {
+      "pubmed_total": -1
+    },
+    "IMPG1": {
+      "pubmed_total": -1
+    },
+    "IPO8": {
+      "pubmed_total": 78
+    },
+    "IQCA1": {
+      "pubmed_total": 7
+    },
+    "IQCD": {
+      "pubmed_total": 20
+    },
+    "IQCH": {
+      "pubmed_total": -1
+    },
+    "IQCN": {
+      "pubmed_total": -1
+    },
+    "IQUB": {
+      "pubmed_total": -1
+    },
+    "ITGB6": {
+      "pubmed_total": 233
+    },
+    "ITLN1": {
+      "pubmed_total": -1
+    },
+    "ITPR2": {
+      "pubmed_total": -1
+    },
+    "IZUMO2": {
+      "pubmed_total": 7
+    },
+    "IZUMO3": {
+      "pubmed_total": 5
+    },
+    "IZUMO4": {
+      "pubmed_total": 11
+    },
+    "KCNU1": {
+      "pubmed_total": 50
+    },
+    "KCTD16": {
+      "pubmed_total": 40
+    },
+    "KDR": {
+      "pubmed_total": 7255
+    },
+    "KIF11": {
+      "pubmed_total": 1026
+    },
+    "KIF12": {
+      "pubmed_total": 39
+    },
+    "KIF13A": {
+      "pubmed_total": 81
+    },
+    "KIF14": {
+      "pubmed_total": 209
+    },
+    "KIF17": {
+      "pubmed_total": 137
+    },
+    "KIF1B": {
+      "pubmed_total": 217
+    },
+    "KIF1C": {
+      "pubmed_total": 91
+    },
+    "KIF20B": {
+      "pubmed_total": 73
+    },
+    "KIF21B": {
+      "pubmed_total": 69
+    },
+    "KIF23": {
+      "pubmed_total": 291
+    },
+    "KIF26A": {
+      "pubmed_total": 30
+    },
+    "KIF2A": {
+      "pubmed_total": 226
+    },
+    "KIF2B": {
+      "pubmed_total": 28
+    },
+    "KIF3B": {
+      "pubmed_total": 137
+    },
+    "KIF4A": {
+      "pubmed_total": 301
+    },
+    "KIF4B": {
+      "pubmed_total": 12
+    },
+    "KIF5A": {
+      "pubmed_total": 310
+    },
+    "KIF5B": {
+      "pubmed_total": 635
+    },
+    "KIF5C": {
+      "pubmed_total": 121
+    },
+    "KIF9": {
+      "pubmed_total": 44
+    },
+    "KLB": {
+      "pubmed_total": 710
+    },
+    "KLC1": {
+      "pubmed_total": 150
+    },
+    "KLHL10": {
+      "pubmed_total": 31
+    },
+    "KRT31": {
+      "pubmed_total": 19
+    },
+    "KRT33A": {
+      "pubmed_total": 8
+    },
+    "KRT33B": {
+      "pubmed_total": 7
+    },
+    "KRT34": {
+      "pubmed_total": 14
+    },
+    "KRT39": {
+      "pubmed_total": 9
+    },
+    "LANCL1": {
+      "pubmed_total": -1
+    },
+    "LAP3": {
+      "pubmed_total": 761
+    },
+    "LCA5L": {
+      "pubmed_total": 3
+    },
+    "LDHC": {
+      "pubmed_total": 205
+    },
+    "LNPK": {
+      "pubmed_total": 25
+    },
+    "LRIT1": {
+      "pubmed_total": 7
+    },
+    "LRPPRC": {
+      "pubmed_total": -1
+    },
+    "LRRC45": {
+      "pubmed_total": 14
+    },
+    "LY6K": {
+      "pubmed_total": 71
+    },
+    "LYZL4": {
+      "pubmed_total": 15
+    },
+    "MAG": {
+      "pubmed_total": 15446
+    },
+    "MAK": {
+      "pubmed_total": 17181
+    },
+    "MAP1A": {
+      "pubmed_total": 235
+    },
+    "MAP1B": {
+      "pubmed_total": 898
+    },
+    "MAP1S": {
+      "pubmed_total": -1
+    },
+    "MAP2K2": {
+      "pubmed_total": 891
+    },
+    "MAP4": {
+      "pubmed_total": 73033
+    },
+    "MAPT": {
+      "pubmed_total": 6074
+    },
+    "MARS1": {
+      "pubmed_total": 74
+    },
+    "MDM2": {
+      "pubmed_total": 12989
+    },
+    "MERTK": {
+      "pubmed_total": 1564
+    },
+    "MFF": {
+      "pubmed_total": 1377
+    },
+    "MLF1": {
+      "pubmed_total": 127
+    },
+    "MNS1": {
+      "pubmed_total": 80
+    },
+    "MOK": {
+      "pubmed_total": 7965
+    },
+    "MPC1": {
+      "pubmed_total": -1
+    },
+    "MROH2B": {
+      "pubmed_total": 2
+    },
+    "MRPS35": {
+      "pubmed_total": 15
+    },
+    "MSGN1": {
+      "pubmed_total": -1
+    },
+    "MSH4": {
+      "pubmed_total": -1
+    },
+    "MT-CO1": {
+      "pubmed_total": -1
+    },
+    "MYO5A": {
+      "pubmed_total": -1
+    },
+    "NBPF1": {
+      "pubmed_total": 35
+    },
+    "NBPF10": {
+      "pubmed_total": 9
+    },
+    "NBPF11": {
+      "pubmed_total": -1
+    },
+    "NBPF12": {
+      "pubmed_total": 4
+    },
+    "NBPF14": {
+      "pubmed_total": 6
+    },
+    "NBPF15": {
+      "pubmed_total": 6
+    },
+    "NBPF19": {
+      "pubmed_total": 1
+    },
+    "NBPF20": {
+      "pubmed_total": 7
+    },
+    "NBPF26": {
+      "pubmed_total": 3
+    },
+    "NBPF8": {
+      "pubmed_total": 4
+    },
+    "NBPF9": {
+      "pubmed_total": 4
+    },
+    "NDRG1": {
+      "pubmed_total": 909
+    },
+    "NDUFA11": {
+      "pubmed_total": 57
+    },
+    "NDUFA6": {
+      "pubmed_total": 58
+    },
+    "NDUFA8": {
+      "pubmed_total": -1
+    },
+    "NDUFB11": {
+      "pubmed_total": 52
+    },
+    "NDUFB4": {
+      "pubmed_total": 32
+    },
+    "NDUFS2": {
+      "pubmed_total": -1
+    },
+    "NDUFS3": {
+      "pubmed_total": 172
+    },
+    "NDUFS4": {
+      "pubmed_total": 346
+    },
+    "NSF": {
+      "pubmed_total": 24104
+    },
+    "NT5C1B": {
+      "pubmed_total": 9
+    },
+    "NT5C1B-RDH14": {
+      "pubmed_total": 0
+    },
+    "NUBP1": {
+      "pubmed_total": 41
+    },
+    "NUDCD3": {
+      "pubmed_total": 12
+    },
+    "NUDT5": {
+      "pubmed_total": 91
+    },
+    "OAZ3": {
+      "pubmed_total": 24
+    },
+    "ODAD1": {
+      "pubmed_total": 17
+    },
+    "ODAD2": {
+      "pubmed_total": -1
+    },
+    "ODAD3": {
+      "pubmed_total": 13
+    },
+    "ODAD4": {
+      "pubmed_total": -1
+    },
+    "ODF1": {
+      "pubmed_total": 110
+    },
+    "ODF2": {
+      "pubmed_total": 152
+    },
+    "ODF3": {
+      "pubmed_total": 17
+    },
+    "ODF3L2": {
+      "pubmed_total": 3
+    },
+    "ODF4": {
+      "pubmed_total": 17
+    },
+    "OFD1": {
+      "pubmed_total": 258
+    },
+    "OR10Q1": {
+      "pubmed_total": -1
+    },
+    "OR6P1": {
+      "pubmed_total": 0
+    },
+    "P3R3URF-PIK3R3": {
+      "pubmed_total": 0
+    },
+    "PACRG": {
+      "pubmed_total": 101
+    },
+    "PAFAH1B1": {
+      "pubmed_total": 506
+    },
+    "PARK7": {
+      "pubmed_total": 1521
+    },
+    "PCNT": {
+      "pubmed_total": 259
+    },
+    "PFKM": {
+      "pubmed_total": 265
+    },
+    "PGAM1": {
+      "pubmed_total": 264
+    },
+    "PGAM4": {
+      "pubmed_total": 9
+    },
+    "PGK1": {
+      "pubmed_total": 1485
+    },
+    "PGK2": {
+      "pubmed_total": 171
+    },
+    "PGPEP1L": {
+      "pubmed_total": 3
+    },
+    "PGRMC1": {
+      "pubmed_total": 498
+    },
+    "PGS1": {
+      "pubmed_total": 115
+    },
+    "PHC1": {
+      "pubmed_total": 105
+    },
+    "PIERCE1": {
+      "pubmed_total": 6
+    },
+    "PIK3R3": {
+      "pubmed_total": 260
+    },
+    "PKHD1L1": {
+      "pubmed_total": 41
+    },
+    "PKM": {
+      "pubmed_total": 1485
+    },
+    "PLCB4": {
+      "pubmed_total": 201
+    },
+    "PLPP3": {
+      "pubmed_total": 85
+    },
+    "PMFBP1": {
+      "pubmed_total": -1
+    },
+    "PNPLA5": {
+      "pubmed_total": 15
+    },
+    "POC1A": {
+      "pubmed_total": 44
+    },
+    "POC1B": {
+      "pubmed_total": 49
+    },
+    "PPP1CA": {
+      "pubmed_total": 129
+    },
+    "PPP1R32": {
+      "pubmed_total": 5
+    },
+    "PPP1R3D": {
+      "pubmed_total": 15
+    },
+    "PPP2R3A": {
+      "pubmed_total": 48
+    },
+    "PPP2R5E": {
+      "pubmed_total": 48
+    },
+    "PPP3CA": {
+      "pubmed_total": 201
+    },
+    "PPP3CB": {
+      "pubmed_total": 90
+    },
+    "PPP3CC": {
+      "pubmed_total": 77
+    },
+    "PPP4R1": {
+      "pubmed_total": 6
+    },
+    "PRKAR2A": {
+      "pubmed_total": 151
+    },
+    "PRKCZ": {
+      "pubmed_total": 167
+    },
+    "PROM2": {
+      "pubmed_total": 96
+    },
+    "PRSS21": {
+      "pubmed_total": 49
+    },
+    "PRSS55": {
+      "pubmed_total": 17
+    },
+    "PSD3": {
+      "pubmed_total": 71
+    },
+    "PSMA4": {
+      "pubmed_total": 92
+    },
+    "PSMA6": {
+      "pubmed_total": 109
+    },
+    "PSMA7": {
+      "pubmed_total": 121
+    },
+    "PSMA8": {
+      "pubmed_total": 15
+    },
+    "PSMB5": {
+      "pubmed_total": 235
+    },
+    "PSMC4": {
+      "pubmed_total": 76
+    },
+    "PSMD10": {
+      "pubmed_total": 192
+    },
+    "PSMD11": {
+      "pubmed_total": 74
+    },
+    "PSMD2": {
+      "pubmed_total": 179
+    },
+    "PSMD5": {
+      "pubmed_total": 19
+    },
+    "PSMD7": {
+      "pubmed_total": 57
+    },
+    "PTEN": {
+      "pubmed_total": 28116
+    },
+    "PTPN23": {
+      "pubmed_total": 75
+    },
+    "PTPRK": {
+      "pubmed_total": 143
+    },
+    "RAB11A": {
+      "pubmed_total": 576
+    },
+    "RAB11FIP4": {
+      "pubmed_total": 31
+    },
+    "RAB11FIP5": {
+      "pubmed_total": 42
+    },
+    "RAB27A": {
+      "pubmed_total": 1023
+    },
+    "RALGAPA1": {
+      "pubmed_total": 24
+    },
+    "RANGAP1": {
+      "pubmed_total": 266
+    },
+    "RAP1GAP2": {
+      "pubmed_total": 18
+    },
+    "RAPGEF4": {
+      "pubmed_total": 237
+    },
+    "RBM5": {
+      "pubmed_total": 171
+    },
+    "RCVRN": {
+      "pubmed_total": 256
+    },
+    "REEP6": {
+      "pubmed_total": 35
+    },
+    "RGS9BP": {
+      "pubmed_total": 30
+    },
+    "RIBC2": {
+      "pubmed_total": 14
+    },
+    "RNPEP": {
+      "pubmed_total": 12
+    },
+    "ROPN1": {
+      "pubmed_total": 33
+    },
+    "ROPN1B": {
+      "pubmed_total": 7
+    },
+    "ROPN1L": {
+      "pubmed_total": 37
+    },
+    "RP1": {
+      "pubmed_total": 1193
+    },
+    "RP2": {
+      "pubmed_total": 1145
+    },
+    "RPAP3": {
+      "pubmed_total": 60
+    },
+    "RPGR": {
+      "pubmed_total": -1
+    },
+    "RPS27A": {
+      "pubmed_total": 173
+    },
+    "RRAD": {
+      "pubmed_total": 179
+    },
+    "RSPH1": {
+      "pubmed_total": 43
+    },
+    "RSPH3": {
+      "pubmed_total": 19
+    },
+    "RSPH4A": {
+      "pubmed_total": 65
+    },
+    "RSPH9": {
+      "pubmed_total": 48
+    },
+    "SAXO1": {
+      "pubmed_total": 5
+    },
+    "SAXO2": {
+      "pubmed_total": 6
+    },
+    "SCAMP2": {
+      "pubmed_total": 43
+    },
+    "SCN10A": {
+      "pubmed_total": 663
+    },
+    "SCNN1A": {
+      "pubmed_total": 345
+    },
+    "SELENOP": {
+      "pubmed_total": 312
+    },
+    "SEPTIN10": {
+      "pubmed_total": 12
+    },
+    "SEPTIN11": {
+      "pubmed_total": 30
+    },
+    "SEPTIN12": {
+      "pubmed_total": 34
+    },
+    "SEPTIN2": {
+      "pubmed_total": 102
+    },
+    "SEPTIN4": {
+      "pubmed_total": 106
+    },
+    "SEPTIN6": {
+      "pubmed_total": 59
+    },
+    "SEPTIN8": {
+      "pubmed_total": 25
+    },
+    "SFN": {
+      "pubmed_total": 3148
+    },
+    "SLC22A14": {
+      "pubmed_total": 11
+    },
+    "SLC26A3": {
+      "pubmed_total": 396
+    },
+    "SLC26A7": {
+      "pubmed_total": 93
+    },
+    "SLC26A8": {
+      "pubmed_total": 56
+    },
+    "SLC2A2": {
+      "pubmed_total": 864
+    },
+    "SLC2A5": {
+      "pubmed_total": 239
+    },
+    "SLC8A3": {
+      "pubmed_total": 124
+    },
+    "SLC9A3R1": {
+      "pubmed_total": 733
+    },
+    "SLC9B1": {
+      "pubmed_total": 16
+    },
+    "SORD": {
+      "pubmed_total": 196
+    },
+    "SPA17": {
+      "pubmed_total": 109
+    },
+    "SPACA1": {
+      "pubmed_total": 46
+    },
+    "SPACA3": {
+      "pubmed_total": 33
+    },
+    "SPACA4": {
+      "pubmed_total": 12
+    },
+    "SPACA7": {
+      "pubmed_total": 5
+    },
+    "SPACA9": {
+      "pubmed_total": 7
+    },
+    "SPACDR": {
+      "pubmed_total": 10
+    },
+    "SPAG1": {
+      "pubmed_total": 71
+    },
+    "SPAG16": {
+      "pubmed_total": 57
+    },
+    "SPAG17": {
+      "pubmed_total": 37
+    },
+    "SPAG6": {
+      "pubmed_total": 123
+    },
+    "SPAG8": {
+      "pubmed_total": 26
+    },
+    "SPATA20": {
+      "pubmed_total": 21
+    },
+    "SPATA31A1": {
+      "pubmed_total": -1
+    },
+    "SPATA31A3": {
+      "pubmed_total": -1
+    },
+    "SPATA31A5": {
+      "pubmed_total": 1
+    },
+    "SPATA31A6": {
+      "pubmed_total": 1
+    },
+    "SPATA31A7": {
+      "pubmed_total": 4
+    },
+    "SPATA48": {
+      "pubmed_total": 2
+    },
+    "SPATA7": {
+      "pubmed_total": 53
+    },
+    "SPEF2": {
+      "pubmed_total": 75
+    },
+    "SPEM1": {
+      "pubmed_total": 18
+    },
+    "SPESP1": {
+      "pubmed_total": 30
+    },
+    "SPINK2": {
+      "pubmed_total": 57
+    },
+    "SPZ1": {
+      "pubmed_total": 116
+    },
+    "SRPK2": {
+      "pubmed_total": 106
+    },
+    "SSBP1": {
+      "pubmed_total": 190
+    },
+    "SSX2IP": {
+      "pubmed_total": 49
+    },
+    "STAT2": {
+      "pubmed_total": 1811
+    },
+    "STAT4": {
+      "pubmed_total": 2132
+    },
+    "STAT6": {
+      "pubmed_total": 5145
+    },
+    "STK33": {
+      "pubmed_total": 89
+    },
+    "STPG2": {
+      "pubmed_total": 5
+    },
+    "SUGT1": {
+      "pubmed_total": 73
+    },
+    "SUMO2": {
+      "pubmed_total": 916
+    },
+    "SUMO3": {
+      "pubmed_total": -1
+    },
+    "SUMO4": {
+      "pubmed_total": 112
+    },
+    "TAF8": {
+      "pubmed_total": -1
+    },
+    "TBC1D21": {
+      "pubmed_total": 13
+    },
+    "TBC1D30": {
+      "pubmed_total": 10
+    },
+    "TCHP": {
+      "pubmed_total": 114
+    },
+    "TCTE1": {
+      "pubmed_total": -1
+    },
+    "TEKT2": {
+      "pubmed_total": 21
+    },
+    "TEKT3": {
+      "pubmed_total": -1
+    },
+    "TEKT4": {
+      "pubmed_total": 19
+    },
+    "TEX37": {
+      "pubmed_total": -1
+    },
+    "TEX43": {
+      "pubmed_total": -1
+    },
+    "TEX45": {
+      "pubmed_total": 3
+    },
+    "THEG": {
+      "pubmed_total": 131
+    },
+    "THEGL": {
+      "pubmed_total": 2
+    },
+    "TMEM231": {
+      "pubmed_total": 22
+    },
+    "TMEM89": {
+      "pubmed_total": 0
+    },
+    "TOPAZ1": {
+      "pubmed_total": 83
+    },
+    "TP53I11": {
+      "pubmed_total": 24
+    },
+    "TPPP2": {
+      "pubmed_total": 18
+    },
+    "TRIP13": {
+      "pubmed_total": 290
+    },
+    "TSGA10": {
+      "pubmed_total": 65
+    },
+    "TSGA10IP": {
+      "pubmed_total": -1
+    },
+    "TSSK1B": {
+      "pubmed_total": -1
+    },
+    "TTC21B": {
+      "pubmed_total": 82
+    },
+    "TTC29": {
+      "pubmed_total": -1
+    },
+    "TTC8": {
+      "pubmed_total": -1
+    },
+    "TTLL6": {
+      "pubmed_total": 28
+    },
+    "TTLL9": {
+      "pubmed_total": -1
+    },
+    "TUBB": {
+      "pubmed_total": 472
+    },
+    "TUBB1": {
+      "pubmed_total": 140
+    },
+    "TUBB2A": {
+      "pubmed_total": 112
+    },
+    "TUBB2B": {
+      "pubmed_total": 152
+    },
+    "TUBB3": {
+      "pubmed_total": 1098
+    },
+    "TUBB4A": {
+      "pubmed_total": 156
+    },
+    "TUBB4B": {
+      "pubmed_total": -1
+    },
+    "TUBB6": {
+      "pubmed_total": -1
+    },
+    "TUBB8": {
+      "pubmed_total": 76
+    },
+    "TUBB8B": {
+      "pubmed_total": 0
+    },
+    "TUBG1": {
+      "pubmed_total": 81
+    },
+    "TUBG2": {
+      "pubmed_total": 18
+    },
+    "TULP4": {
+      "pubmed_total": -1
+    },
+    "UBA52": {
+      "pubmed_total": -1
+    },
+    "UBB": {
+      "pubmed_total": 578
+    },
+    "UBC": {
+      "pubmed_total": -1
+    },
+    "UBE2A": {
+      "pubmed_total": 134
+    },
+    "UBE2B": {
+      "pubmed_total": 114
+    },
+    "UBR4": {
+      "pubmed_total": 128
+    },
+    "ULK3": {
+      "pubmed_total": 86
+    },
+    "UNC119B": {
+      "pubmed_total": 19
+    },
+    "USH2A": {
+      "pubmed_total": 685
+    },
+    "VARS1": {
+      "pubmed_total": 12
+    },
+    "VCAN": {
+      "pubmed_total": 1226
+    },
+    "VPS37A": {
+      "pubmed_total": 51
+    },
+    "VPS50": {
+      "pubmed_total": 12
+    },
+    "WBP11": {
+      "pubmed_total": 37
+    },
+    "WDPCP": {
+      "pubmed_total": 38
+    },
+    "WDR11": {
+      "pubmed_total": 73
+    },
+    "WDR19": {
+      "pubmed_total": 73
+    },
+    "WDR5": {
+      "pubmed_total": 604
+    },
+    "WDR54": {
+      "pubmed_total": -1
+    },
+    "WRAP73": {
+      "pubmed_total": 13
+    },
+    "ZG16": {
+      "pubmed_total": -1
+    }
+  }
+}
