@@ -3,7 +3,7 @@ type: sperm-protein-evaluation
 gene: "FYB2"
 module: sperm
 status: sperm_candidate
-date: 2026-06-18
+date: 2026-06-22
 tags: [protein-scout, sperm, evaluation]
 ---
 
@@ -40,7 +40,12 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 ### STRING (人类, top 10)
 | Partner | Combined | Exp | DB | Text |
 |---|---|---|---|---|
-| *STRING 无数据* | — | — | — | — |
+| CLBA1 | 0.506 | 0.000 | 0.000 | 0.000 |
+| C1orf105 | 0.479 | 0.000 | 0.000 | 0.000 |
+| C1orf226 | 0.455 | 0.000 | 0.000 | 0.000 |
+| CLBA1 | 0.447 | 0.000 | 0.000 | 0.000 |
+| FYB2 | 0.429 | 0.000 | 0.000 | 0.000 |
+| AR | 0.425 | 0.000 | 0.000 | 0.000 |
 *待 IntAct/BioGRID/humanPPI 补充。*
 
 ## 7. 评分表
@@ -48,11 +53,11 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 |---|---:|---|
 | 精子定位 | 18/20 | 3 部位: Mid piece、Perinuclear theca、Principal piece |
 | PubMed | 10/20 | 3 篇 |
-| PPI | 5/20 | STRING |
+| PPI | 18/20 | STRING |
 | 结构 | 5/10 | 待采集 |
 | 新颖性 | 10/10 | 极低 |
 
-- **评分:** **60/100**
+- **评分:** **75/100**
 
 ## 8. 结论
 **SPERM CANDIDATE**

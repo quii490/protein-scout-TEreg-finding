@@ -2,8 +2,8 @@
 type: sperm-protein-evaluation
 gene: "CD300LG"
 module: sperm
-status: sperm_low_priority
-date: 2026-06-18
+status: sperm_candidate
+date: 2026-06-22
 tags: [protein-scout, sperm, evaluation]
 ---
 
@@ -40,7 +40,16 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 ### STRING (人类, top 10)
 | Partner | Combined | Exp | DB | Text |
 |---|---|---|---|---|
-| *STRING 无数据* | — | — | — | — |
+| SELL | 0.920 | 0.000 | 0.000 | 0.000 |
+| SELL | 0.813 | 0.000 | 0.000 | 0.000 |
+| CWC25 | 0.788 | 0.000 | 0.000 | 0.000 |
+| C1orf109 | 0.788 | 0.000 | 0.000 | 0.000 |
+| CWC25 | 0.788 | 0.000 | 0.000 | 0.000 |
+| RUBCNL | 0.788 | 0.000 | 0.000 | 0.000 |
+| CWC25 | 0.788 | 0.000 | 0.000 | 0.000 |
+| RUBCNL | 0.772 | 0.000 | 0.000 | 0.000 |
+| SELL | 0.763 | 0.000 | 0.000 | 0.000 |
+| PODXL | 0.724 | 0.000 | 0.000 | 0.000 |
 *待 IntAct/BioGRID/humanPPI 补充。*
 
 ## 7. 评分表
@@ -48,14 +57,14 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 |---|---:|---|
 | 精子定位 | 14/20 | 单部位: Calyx |
 | PubMed | 7/20 | 37 篇 |
-| PPI | 5/20 | STRING |
+| PPI | 18/20 | STRING |
 | 结构 | 5/10 | 待采集 |
 | 新颖性 | 6/10 | 中等 |
 
-- **评分:** **47/100**
+- **评分:** **62/100**
 
 ## 8. 结论
-**SPERM LOW PRIORITY**
+**SPERM CANDIDATE**
 
 ## 9. 人工复核备注
 - 精子部位: Calyx

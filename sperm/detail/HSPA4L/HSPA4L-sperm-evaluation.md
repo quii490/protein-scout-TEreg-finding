@@ -2,8 +2,8 @@
 type: sperm-protein-evaluation
 gene: "HSPA4L"
 module: sperm
-status: sperm_low_priority
-date: 2026-06-18
+status: sperm_candidate
+date: 2026-06-22
 tags: [protein-scout, sperm, evaluation]
 ---
 
@@ -40,7 +40,16 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 ### STRING (人类, top 10)
 | Partner | Combined | Exp | DB | Text |
 |---|---|---|---|---|
-| *STRING 无数据* | — | — | — | — |
+| HSPA8 | 0.999 | 0.000 | 0.000 | 0.000 |
+| HSP90AA1 | 0.999 | 0.000 | 0.000 | 0.000 |
+| HSP90AB1 | 0.999 | 0.000 | 0.000 | 0.000 |
+| HSPA8 | 0.999 | 0.000 | 0.000 | 0.000 |
+| HSPA8 | 0.999 | 0.000 | 0.000 | 0.000 |
+| HSPA8 | 0.999 | 0.000 | 0.000 | 0.000 |
+| BAG1 | 0.999 | 0.000 | 0.000 | 0.000 |
+| HSPA8 | 0.998 | 0.000 | 0.000 | 0.000 |
+| HSPH1 | 0.998 | 0.000 | 0.000 | 0.000 |
+| HSP90AB1 | 0.997 | 0.000 | 0.000 | 0.000 |
 *待 IntAct/BioGRID/humanPPI 补充。*
 
 ## 7. 评分表
@@ -48,14 +57,14 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 |---|---:|---|
 | 精子定位 | 16/20 | 双部位: Calyx、Perinuclear theca |
 | PubMed | 6/20 | 79 篇 |
-| PPI | 5/20 | STRING |
+| PPI | 18/20 | STRING |
 | 结构 | 5/10 | 待采集 |
 | 新颖性 | 4/10 | 较多 |
 
-- **评分:** **47/100**
+- **评分:** **62/100**
 
 ## 8. 结论
-**SPERM LOW PRIORITY**
+**SPERM CANDIDATE**
 
 ## 9. 人工复核备注
 - 精子部位: Calyx、Perinuclear theca

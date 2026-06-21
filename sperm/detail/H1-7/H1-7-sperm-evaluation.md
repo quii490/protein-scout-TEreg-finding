@@ -3,7 +3,7 @@ type: sperm-protein-evaluation
 gene: "H1-7"
 module: sperm
 status: sperm_candidate
-date: 2026-06-18
+date: 2026-06-22
 tags: [protein-scout, sperm, evaluation]
 ---
 
@@ -40,7 +40,16 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 ### STRING (人类, top 10)
 | Partner | Combined | Exp | DB | Text |
 |---|---|---|---|---|
-| *STRING 无数据* | — | — | — | — |
+| H1-6 | 0.979 | 0.000 | 0.000 | 0.000 |
+| H1-6 | 0.955 | 0.000 | 0.000 | 0.000 |
+| H1-7 | 0.952 | 0.000 | 0.000 | 0.000 |
+| H1-4 | 0.950 | 0.000 | 0.000 | 0.000 |
+| H1-10 | 0.947 | 0.000 | 0.000 | 0.000 |
+| H1-7 | 0.946 | 0.000 | 0.000 | 0.000 |
+| H1-5 | 0.945 | 0.000 | 0.000 | 0.000 |
+| H1-7 | 0.923 | 0.000 | 0.000 | 0.000 |
+| H1-5 | 0.911 | 0.000 | 0.000 | 0.000 |
+| H1-6 | 0.904 | 0.000 | 0.000 | 0.000 |
 *待 IntAct/BioGRID/humanPPI 补充。*
 
 ## 7. 评分表
@@ -48,11 +57,11 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 |---|---:|---|
 | 精子定位 | 19/20 | 5 部位: Connecting piece、End piece、Mid piece、Perinuclear theca、Principal piece |
 | PubMed | 7/20 | 41 篇 |
-| PPI | 5/20 | STRING |
+| PPI | 18/20 | STRING |
 | 结构 | 5/10 | 待采集 |
 | 新颖性 | 6/10 | 中等 |
 
-- **评分:** **54/100**
+- **评分:** **69/100**
 
 ## 8. 结论
 **SPERM CANDIDATE**

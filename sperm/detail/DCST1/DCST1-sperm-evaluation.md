@@ -3,7 +3,7 @@ type: sperm-protein-evaluation
 gene: "DCST1"
 module: sperm
 status: sperm_candidate
-date: 2026-06-18
+date: 2026-06-22
 tags: [protein-scout, sperm, evaluation]
 ---
 
@@ -40,7 +40,16 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 ### STRING (人类, top 10)
 | Partner | Combined | Exp | DB | Text |
 |---|---|---|---|---|
-| *STRING 无数据* | — | — | — | — |
+| SPACA6 | 0.909 | 0.000 | 0.000 | 0.000 |
+| TMEM95 | 0.872 | 0.000 | 0.000 | 0.000 |
+| SPACA6 | 0.811 | 0.000 | 0.000 | 0.000 |
+| SPACA6 | 0.748 | 0.000 | 0.000 | 0.000 |
+| TMEM95 | 0.745 | 0.000 | 0.000 | 0.000 |
+| SPACA6 | 0.692 | 0.000 | 0.000 | 0.000 |
+| TMEM95 | 0.692 | 0.000 | 0.000 | 0.000 |
+| DCST2 | 0.616 | 0.000 | 0.000 | 0.000 |
+| PTGDR | 0.600 | 0.000 | 0.000 | 0.000 |
+| IZUMO1 | 0.583 | 0.000 | 0.000 | 0.000 |
 *待 IntAct/BioGRID/humanPPI 补充。*
 
 ## 7. 评分表
@@ -48,11 +57,11 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 |---|---:|---|
 | 精子定位 | 18/20 | 3 部位: Acrosome、Equatorial segment、Principal piece |
 | PubMed | 7/20 | 41 篇 |
-| PPI | 5/20 | STRING |
+| PPI | 18/20 | STRING |
 | 结构 | 5/10 | 待采集 |
 | 新颖性 | 6/10 | 中等 |
 
-- **评分:** **53/100**
+- **评分:** **68/100**
 
 ## 8. 结论
 **SPERM CANDIDATE**

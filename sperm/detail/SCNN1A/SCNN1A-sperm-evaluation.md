@@ -3,7 +3,7 @@ type: sperm-protein-evaluation
 gene: "SCNN1A"
 module: sperm
 status: sperm_eliminated
-date: 2026-06-18
+date: 2026-06-22
 tags: [protein-scout, sperm, evaluation, eliminated]
 ---
 

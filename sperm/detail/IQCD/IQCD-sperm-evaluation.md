@@ -3,7 +3,7 @@ type: sperm-protein-evaluation
 gene: "IQCD"
 module: sperm
 status: sperm_candidate
-date: 2026-06-18
+date: 2026-06-22
 tags: [protein-scout, sperm, evaluation]
 ---
 
@@ -40,7 +40,16 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 ### STRING (人类, top 10)
 | Partner | Combined | Exp | DB | Text |
 |---|---|---|---|---|
-| *STRING 无数据* | — | — | — | — |
+| TCTE1 | 0.838 | 0.000 | 0.000 | 0.000 |
+| IQCD | 0.686 | 0.000 | 0.000 | 0.000 |
+| IQUB | 0.678 | 0.000 | 0.000 | 0.000 |
+| TCTE1 | 0.618 | 0.000 | 0.000 | 0.000 |
+| MYCBPAP | 0.610 | 0.000 | 0.000 | 0.000 |
+| IQCD | 0.606 | 0.000 | 0.000 | 0.000 |
+| IQUB | 0.597 | 0.000 | 0.000 | 0.000 |
+| IQCD | 0.594 | 0.000 | 0.000 | 0.000 |
+| EFCAB2 | 0.585 | 0.000 | 0.000 | 0.000 |
+| VWA3A | 0.584 | 0.000 | 0.000 | 0.000 |
 *待 IntAct/BioGRID/humanPPI 补充。*
 
 ## 7. 评分表
@@ -48,11 +57,11 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 |---|---:|---|
 | 精子定位 | 18/20 | 3 部位: End piece、Mid piece、Principal piece |
 | PubMed | 8/20 | 20 篇 |
-| PPI | 5/20 | STRING |
+| PPI | 18/20 | STRING |
 | 结构 | 5/10 | 待采集 |
 | 新颖性 | 8/10 | 低 |
 
-- **评分:** **56/100**
+- **评分:** **71/100**
 
 ## 8. 结论
 **SPERM CANDIDATE**

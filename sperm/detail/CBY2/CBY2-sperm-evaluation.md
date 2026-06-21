@@ -3,7 +3,7 @@ type: sperm-protein-evaluation
 gene: "CBY2"
 module: sperm
 status: sperm_candidate
-date: 2026-06-18
+date: 2026-06-22
 tags: [protein-scout, sperm, evaluation]
 ---
 
@@ -40,7 +40,16 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 ### STRING (人类, top 10)
 | Partner | Combined | Exp | DB | Text |
 |---|---|---|---|---|
-| *STRING 无数据* | — | — | — | — |
+| FAM187B | 0.751 | 0.000 | 0.000 | 0.000 |
+| CBY2 | 0.712 | 0.000 | 0.000 | 0.000 |
+| CBY3 | 0.708 | 0.000 | 0.000 | 0.000 |
+| FAM187B | 0.650 | 0.000 | 0.000 | 0.000 |
+| SPATA3 | 0.610 | 0.000 | 0.000 | 0.000 |
+| KCTD4 | 0.605 | 0.000 | 0.000 | 0.000 |
+| SPATA3 | 0.602 | 0.000 | 0.000 | 0.000 |
+| CBY2 | 0.601 | 0.000 | 0.000 | 0.000 |
+| SPEM1 | 0.588 | 0.000 | 0.000 | 0.000 |
+| GTF2F2 | 0.572 | 0.000 | 0.000 | 0.000 |
 *待 IntAct/BioGRID/humanPPI 补充。*
 
 ## 7. 评分表
@@ -48,11 +57,11 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 |---|---:|---|
 | 精子定位 | 19/20 | 6 部位: Annulus、Calyx、Connecting piece、End piece、Mid piece、Principal piece |
 | PubMed | 10/20 | 6 篇 |
-| PPI | 5/20 | STRING |
+| PPI | 18/20 | STRING |
 | 结构 | 5/10 | 待采集 |
 | 新颖性 | 10/10 | 极低 |
 
-- **评分:** **62/100**
+- **评分:** **77/100**
 
 ## 8. 结论
 **SPERM CANDIDATE**

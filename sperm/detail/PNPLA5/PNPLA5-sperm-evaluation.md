@@ -3,7 +3,7 @@ type: sperm-protein-evaluation
 gene: "PNPLA5"
 module: sperm
 status: sperm_candidate
-date: 2026-06-18
+date: 2026-06-22
 tags: [protein-scout, sperm, evaluation]
 ---
 
@@ -40,16 +40,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 ### STRING (人类, top 10)
 | Partner | Combined | Exp | DB | Text |
 |---|---|---|---|---|
-| PLIN1 | 0.999 | 0.000 | 0.000 | 0.000 |
-| ABHD5 | 0.999 | 0.000 | 0.000 | 0.000 |
-| ABHD5 | 0.919 | 0.000 | 0.000 | 0.000 |
-| ABHD5 | 0.817 | 0.000 | 0.000 | 0.000 |
-| ABHD5 | 0.817 | 0.000 | 0.000 | 0.000 |
-| LIPE | 0.793 | 0.000 | 0.000 | 0.000 |
-| PNPLA6 | 0.747 | 0.000 | 0.000 | 0.000 |
-| ABHD5 | 0.737 | 0.000 | 0.000 | 0.000 |
-| PNPLA8 | 0.686 | 0.000 | 0.000 | 0.000 |
-| LIPA | 0.623 | 0.000 | 0.000 | 0.000 |
+| *STRING 无数据* | — | — | — | — |
 *待 IntAct/BioGRID/humanPPI 补充。*
 
 ## 7. 评分表
@@ -57,11 +48,11 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 |---|---:|---|
 | 精子定位 | 16/20 | 双部位: Annulus、Mid piece |
 | PubMed | 8/20 | 15 篇 |
-| PPI | 18/20 | STRING |
+| PPI | 5/20 | STRING |
 | 结构 | 5/10 | 待采集 |
 | 新颖性 | 8/10 | 低 |
 
-- **评分:** **68/100**
+- **评分:** **53/100**
 
 ## 8. 结论
 **SPERM CANDIDATE**

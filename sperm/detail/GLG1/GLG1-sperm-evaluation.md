@@ -3,7 +3,7 @@ type: sperm-protein-evaluation
 gene: "GLG1"
 module: sperm
 status: sperm_candidate
-date: 2026-06-18
+date: 2026-06-22
 tags: [protein-scout, sperm, evaluation]
 ---
 
@@ -40,7 +40,16 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 ### STRING (人类, top 10)
 | Partner | Combined | Exp | DB | Text |
 |---|---|---|---|---|
-| *STRING 无数据* | — | — | — | — |
+| SELE | 0.999 | 0.000 | 0.000 | 0.000 |
+| SELE | 0.999 | 0.000 | 0.000 | 0.000 |
+| SELP | 0.999 | 0.000 | 0.000 | 0.000 |
+| SELL | 0.998 | 0.000 | 0.000 | 0.000 |
+| SELL | 0.998 | 0.000 | 0.000 | 0.000 |
+| CD44 | 0.997 | 0.000 | 0.000 | 0.000 |
+| CD44 | 0.994 | 0.000 | 0.000 | 0.000 |
+| CD44 | 0.993 | 0.000 | 0.000 | 0.000 |
+| CD44 | 0.993 | 0.000 | 0.000 | 0.000 |
+| VCAM1 | 0.990 | 0.000 | 0.000 | 0.000 |
 *待 IntAct/BioGRID/humanPPI 补充。*
 
 ## 7. 评分表
@@ -48,11 +57,11 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 |---|---:|---|
 | 精子定位 | 18/20 | 3 部位: End piece、Mid piece、Principal piece |
 | PubMed | 7/20 | 51 篇 |
-| PPI | 5/20 | STRING |
+| PPI | 18/20 | STRING |
 | 结构 | 5/10 | 待采集 |
 | 新颖性 | 6/10 | 中等 |
 
-- **评分:** **53/100**
+- **评分:** **68/100**
 
 ## 8. 结论
 **SPERM CANDIDATE**

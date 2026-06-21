@@ -3,7 +3,7 @@ type: sperm-protein-evaluation
 gene: "DNAL1"
 module: sperm
 status: sperm_candidate
-date: 2026-06-18
+date: 2026-06-22
 tags: [protein-scout, sperm, evaluation]
 ---
 
@@ -40,7 +40,16 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 ### STRING (人类, top 10)
 | Partner | Combined | Exp | DB | Text |
 |---|---|---|---|---|
-| *STRING 无数据* | — | — | — | — |
+| DNAI2 | 0.997 | 0.000 | 0.000 | 0.000 |
+| DNAL1 | 0.979 | 0.000 | 0.000 | 0.000 |
+| DNAL1 | 0.968 | 0.000 | 0.000 | 0.000 |
+| CCDC114 | 0.965 | 0.000 | 0.000 | 0.000 |
+| DNAI2 | 0.963 | 0.000 | 0.000 | 0.000 |
+| DNAH2 | 0.960 | 0.000 | 0.000 | 0.000 |
+| DNAH2 | 0.920 | 0.000 | 0.000 | 0.000 |
+| MAP1LC3A | 0.914 | 0.000 | 0.000 | 0.000 |
+| DNAH7 | 0.909 | 0.000 | 0.000 | 0.000 |
+| DNAI2 | 0.903 | 0.000 | 0.000 | 0.000 |
 *待 IntAct/BioGRID/humanPPI 补充。*
 
 ## 7. 评分表
@@ -48,11 +57,11 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 |---|---:|---|
 | 精子定位 | 19/20 | 4 部位: Acrosome、End piece、Mid piece、Principal piece |
 | PubMed | 7/20 | 34 篇 |
-| PPI | 5/20 | STRING |
+| PPI | 18/20 | STRING |
 | 结构 | 5/10 | 待采集 |
 | 新颖性 | 6/10 | 中等 |
 
-- **评分:** **54/100**
+- **评分:** **69/100**
 
 ## 8. 结论
 **SPERM CANDIDATE**

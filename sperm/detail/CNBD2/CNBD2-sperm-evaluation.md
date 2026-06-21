@@ -3,7 +3,7 @@ type: sperm-protein-evaluation
 gene: "CNBD2"
 module: sperm
 status: sperm_candidate
-date: 2026-06-18
+date: 2026-06-22
 tags: [protein-scout, sperm, evaluation]
 ---
 
@@ -40,7 +40,16 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 ### STRING (人类, top 10)
 | Partner | Combined | Exp | DB | Text |
 |---|---|---|---|---|
-| *STRING 无数据* | — | — | — | — |
+| IQCF1 | 0.674 | 0.000 | 0.000 | 0.000 |
+| CNBD2 | 0.585 | 0.000 | 0.000 | 0.000 |
+| CNBD1 | 0.549 | 0.000 | 0.000 | 0.000 |
+| CNBD2 | 0.539 | 0.000 | 0.000 | 0.000 |
+| CNBD2 | 0.528 | 0.000 | 0.000 | 0.000 |
+| EXOSC8 | 0.493 | 0.000 | 0.000 | 0.000 |
+| TERB1 | 0.478 | 0.000 | 0.000 | 0.000 |
+| CNBD2 | 0.467 | 0.000 | 0.000 | 0.000 |
+| CNBD2 | 0.461 | 0.000 | 0.000 | 0.000 |
+| POLR2F | 0.456 | 0.000 | 0.000 | 0.000 |
 *待 IntAct/BioGRID/humanPPI 补充。*
 
 ## 7. 评分表
@@ -48,11 +57,11 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 |---|---:|---|
 | 精子定位 | 14/20 | 单部位: Mid piece |
 | PubMed | 10/20 | 1 篇 |
-| PPI | 5/20 | STRING |
+| PPI | 18/20 | STRING |
 | 结构 | 5/10 | 待采集 |
 | 新颖性 | 10/10 | 极低 |
 
-- **评分:** **54/100**
+- **评分:** **69/100**
 
 ## 8. 结论
 **SPERM CANDIDATE**

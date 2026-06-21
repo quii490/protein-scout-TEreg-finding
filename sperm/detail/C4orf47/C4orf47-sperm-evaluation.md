@@ -3,7 +3,7 @@ type: sperm-protein-evaluation
 gene: "C4orf47"
 module: sperm
 status: sperm_candidate
-date: 2026-06-18
+date: 2026-06-22
 tags: [protein-scout, sperm, evaluation]
 ---
 
@@ -40,7 +40,16 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 ### STRING (人类, top 10)
 | Partner | Combined | Exp | DB | Text |
 |---|---|---|---|---|
-| *STRING 无数据* | — | — | — | — |
+| C9orf116 | 0.947 | 0.000 | 0.000 | 0.000 |
+| C9orf116 | 0.795 | 0.000 | 0.000 | 0.000 |
+| ARMC3 | 0.781 | 0.000 | 0.000 | 0.000 |
+| C4orf47 | 0.776 | 0.000 | 0.000 | 0.000 |
+| C9orf116 | 0.734 | 0.000 | 0.000 | 0.000 |
+| CFAP299 | 0.707 | 0.000 | 0.000 | 0.000 |
+| C4orf47 | 0.694 | 0.000 | 0.000 | 0.000 |
+| IQUB | 0.678 | 0.000 | 0.000 | 0.000 |
+| C5orf49 | 0.677 | 0.000 | 0.000 | 0.000 |
+| CFAP299 | 0.670 | 0.000 | 0.000 | 0.000 |
 *待 IntAct/BioGRID/humanPPI 补充。*
 
 ## 7. 评分表
@@ -48,11 +57,11 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 |---|---:|---|
 | 精子定位 | 16/20 | 双部位: End piece、Principal piece |
 | PubMed | 10/20 | 3 篇 |
-| PPI | 5/20 | STRING |
+| PPI | 18/20 | STRING |
 | 结构 | 5/10 | 待采集 |
 | 新颖性 | 10/10 | 极低 |
 
-- **评分:** **57/100**
+- **评分:** **72/100**
 
 ## 8. 结论
 **SPERM CANDIDATE**

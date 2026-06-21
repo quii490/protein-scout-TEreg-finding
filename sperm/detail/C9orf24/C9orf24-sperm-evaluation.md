@@ -3,7 +3,7 @@ type: sperm-protein-evaluation
 gene: "C9orf24"
 module: sperm
 status: sperm_candidate
-date: 2026-06-18
+date: 2026-06-22
 tags: [protein-scout, sperm, evaluation]
 ---
 
@@ -40,16 +40,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 ### STRING (人类, top 10)
 | Partner | Combined | Exp | DB | Text |
 |---|---|---|---|---|
-| DYNLRB2 | 0.680 | 0.000 | 0.000 | 0.000 |
-| FAM219A | 0.664 | 0.000 | 0.000 | 0.000 |
-| MYORG | 0.647 | 0.000 | 0.000 | 0.000 |
-| PRKCSH | 0.595 | 0.000 | 0.000 | 0.000 |
-| FAM219A | 0.566 | 0.000 | 0.000 | 0.000 |
-| DYNLRB2 | 0.543 | 0.000 | 0.000 | 0.000 |
-| PRKCSH | 0.537 | 0.000 | 0.000 | 0.000 |
-| C9orf24 | 0.536 | 0.000 | 0.000 | 0.000 |
-| MYORG | 0.535 | 0.000 | 0.000 | 0.000 |
-| PIFO | 0.476 | 0.000 | 0.000 | 0.000 |
+| *STRING 无数据* | — | — | — | — |
 *待 IntAct/BioGRID/humanPPI 补充。*
 
 ## 7. 评分表
@@ -57,11 +48,11 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 |---|---:|---|
 | 精子定位 | 16/20 | 双部位: Equatorial segment、Principal piece |
 | PubMed | 10/20 | 4 篇 |
-| PPI | 18/20 | STRING |
+| PPI | 5/20 | STRING |
 | 结构 | 5/10 | 待采集 |
 | 新颖性 | 10/10 | 极低 |
 
-- **评分:** **72/100**
+- **评分:** **57/100**
 
 ## 8. 结论
 **SPERM CANDIDATE**

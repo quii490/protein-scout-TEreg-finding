@@ -3,7 +3,7 @@ type: sperm-protein-evaluation
 gene: "CYLC2"
 module: sperm
 status: sperm_candidate
-date: 2026-06-18
+date: 2026-06-22
 tags: [protein-scout, sperm, evaluation]
 ---
 
@@ -40,7 +40,16 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 ### STRING (人类, top 10)
 | Partner | Combined | Exp | DB | Text |
 |---|---|---|---|---|
-| *STRING 无数据* | — | — | — | — |
+| CYLC2 | 0.989 | 0.000 | 0.000 | 0.000 |
+| CCIN | 0.982 | 0.000 | 0.000 | 0.000 |
+| CYLC2 | 0.663 | 0.000 | 0.000 | 0.000 |
+| CSNKA2IP | 0.574 | 0.000 | 0.000 | 0.000 |
+| CYLC2 | 0.564 | 0.000 | 0.000 | 0.000 |
+| CYLC2 | 0.553 | 0.000 | 0.000 | 0.000 |
+| CYLC2 | 0.522 | 0.000 | 0.000 | 0.000 |
+| CYLC2 | 0.521 | 0.000 | 0.000 | 0.000 |
+| CYLC2 | 0.517 | 0.000 | 0.000 | 0.000 |
+| OR2T10 | 0.505 | 0.000 | 0.000 | 0.000 |
 *待 IntAct/BioGRID/humanPPI 补充。*
 
 ## 7. 评分表
@@ -48,11 +57,11 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 |---|---:|---|
 | 精子定位 | 16/20 | 双部位: Calyx、Perinuclear theca |
 | PubMed | 8/20 | 15 篇 |
-| PPI | 5/20 | STRING |
+| PPI | 18/20 | STRING |
 | 结构 | 5/10 | 待采集 |
 | 新颖性 | 8/10 | 低 |
 
-- **评分:** **53/100**
+- **评分:** **68/100**
 
 ## 8. 结论
 **SPERM CANDIDATE**

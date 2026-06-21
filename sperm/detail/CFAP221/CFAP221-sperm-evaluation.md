@@ -3,7 +3,7 @@ type: sperm-protein-evaluation
 gene: "CFAP221"
 module: sperm
 status: sperm_candidate
-date: 2026-06-18
+date: 2026-06-22
 tags: [protein-scout, sperm, evaluation]
 ---
 
@@ -40,7 +40,16 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 ### STRING (人类, top 10)
 | Partner | Combined | Exp | DB | Text |
 |---|---|---|---|---|
-| *STRING 无数据* | — | — | — | — |
+| CALML4 | 0.996 | 0.000 | 0.000 | 0.000 |
+| CALML5 | 0.996 | 0.000 | 0.000 | 0.000 |
+| CALML3 | 0.996 | 0.000 | 0.000 | 0.000 |
+| CALML6 | 0.996 | 0.000 | 0.000 | 0.000 |
+| CALML5 | 0.967 | 0.000 | 0.000 | 0.000 |
+| CALML4 | 0.964 | 0.000 | 0.000 | 0.000 |
+| CALML5 | 0.963 | 0.000 | 0.000 | 0.000 |
+| CALML4 | 0.963 | 0.000 | 0.000 | 0.000 |
+| CALML3 | 0.962 | 0.000 | 0.000 | 0.000 |
+| CALML4 | 0.961 | 0.000 | 0.000 | 0.000 |
 *待 IntAct/BioGRID/humanPPI 补充。*
 
 ## 7. 评分表
@@ -48,11 +57,11 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 |---|---:|---|
 | 精子定位 | 16/20 | 双部位: Connecting piece、Flagellar centriole |
 | PubMed | 8/20 | 14 篇 |
-| PPI | 5/20 | STRING |
+| PPI | 18/20 | STRING |
 | 结构 | 5/10 | 待采集 |
 | 新颖性 | 8/10 | 低 |
 
-- **评分:** **53/100**
+- **评分:** **68/100**
 
 ## 8. 结论
 **SPERM CANDIDATE**

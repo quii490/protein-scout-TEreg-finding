@@ -2,8 +2,8 @@
 type: sperm-protein-evaluation
 gene: "ABHD2"
 module: sperm
-status: sperm_candidate
-date: 2026-06-18
+status: sperm_low_priority
+date: 2026-06-22
 tags: [protein-scout, sperm, evaluation]
 ---
 
@@ -40,16 +40,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 ### STRING (人类, top 10)
 | Partner | Combined | Exp | DB | Text |
 |---|---|---|---|---|
-| SPA17 | 0.863 | 0.000 | 0.000 | 0.000 |
-| SPA17 | 0.829 | 0.000 | 0.000 | 0.000 |
-| SPA17 | 0.737 | 0.000 | 0.000 | 0.000 |
-| ABHD2 | 0.689 | 0.000 | 0.000 | 0.000 |
-| ABHD16B | 0.637 | 0.000 | 0.000 | 0.000 |
-| ABHD2 | 0.600 | 0.000 | 0.000 | 0.000 |
-| CATSPER1 | 0.588 | 0.000 | 0.000 | 0.000 |
-| ABHD16A | 0.571 | 0.000 | 0.000 | 0.000 |
-| ABHD4 | 0.568 | 0.000 | 0.000 | 0.000 |
-| ABHD16B | 0.553 | 0.000 | 0.000 | 0.000 |
+| *STRING 无数据* | — | — | — | — |
 *待 IntAct/BioGRID/humanPPI 补充。*
 
 ## 7. 评分表
@@ -57,14 +48,14 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 |---|---:|---|
 | 精子定位 | 16/20 | 双部位: Connecting piece、Flagellar centriole |
 | PubMed | 6/20 | 66 篇 |
-| PPI | 18/20 | STRING |
+| PPI | 5/20 | STRING |
 | 结构 | 5/10 | 待采集 |
 | 新颖性 | 4/10 | 较多 |
 
-- **评分:** **62/100**
+- **评分:** **47/100**
 
 ## 8. 结论
-**SPERM CANDIDATE**
+**SPERM LOW PRIORITY**
 
 ## 9. 人工复核备注
 - 精子部位: Connecting piece、Flagellar centriole

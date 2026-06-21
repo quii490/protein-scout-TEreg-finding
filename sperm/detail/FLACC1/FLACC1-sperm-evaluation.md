@@ -3,7 +3,7 @@ type: sperm-protein-evaluation
 gene: "FLACC1"
 module: sperm
 status: sperm_candidate
-date: 2026-06-18
+date: 2026-06-22
 tags: [protein-scout, sperm, evaluation]
 ---
 
@@ -40,7 +40,16 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 ### STRING (人类, top 10)
 | Partner | Combined | Exp | DB | Text |
 |---|---|---|---|---|
-| *STRING 无数据* | — | — | — | — |
+| FLACC1 | 0.864 | 0.000 | 0.000 | 0.000 |
+| WDR38 | 0.634 | 0.000 | 0.000 | 0.000 |
+| WDR38 | 0.633 | 0.000 | 0.000 | 0.000 |
+| FLACC1 | 0.604 | 0.000 | 0.000 | 0.000 |
+| ECT2L | 0.594 | 0.000 | 0.000 | 0.000 |
+| C2CD6 | 0.517 | 0.000 | 0.000 | 0.000 |
+| FLACC1 | 0.506 | 0.000 | 0.000 | 0.000 |
+| ZNF404 | 0.480 | 0.000 | 0.000 | 0.000 |
+| ZNF404 | 0.480 | 0.000 | 0.000 | 0.000 |
+| ATP6AP1L | 0.476 | 0.000 | 0.000 | 0.000 |
 *待 IntAct/BioGRID/humanPPI 补充。*
 
 ## 7. 评分表
@@ -48,11 +57,11 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 |---|---:|---|
 | 精子定位 | 18/20 | 3 部位: Annulus、Connecting piece、Mid piece |
 | PubMed | 10/20 | 6 篇 |
-| PPI | 5/20 | STRING |
+| PPI | 18/20 | STRING |
 | 结构 | 5/10 | 待采集 |
 | 新颖性 | 10/10 | 极低 |
 
-- **评分:** **60/100**
+- **评分:** **75/100**
 
 ## 8. 结论
 **SPERM CANDIDATE**

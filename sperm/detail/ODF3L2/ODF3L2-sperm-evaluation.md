@@ -3,7 +3,7 @@ type: sperm-protein-evaluation
 gene: "ODF3L2"
 module: sperm
 status: sperm_candidate
-date: 2026-06-18
+date: 2026-06-22
 tags: [protein-scout, sperm, evaluation]
 ---
 
@@ -40,16 +40,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 ### STRING (人类, top 10)
 | Partner | Combined | Exp | DB | Text |
 |---|---|---|---|---|
-| ODF3L2 | 0.591 | 0.000 | 0.000 | 0.000 |
-| ODF3L2 | 0.582 | 0.000 | 0.000 | 0.000 |
-| SMIM7 | 0.582 | 0.000 | 0.000 | 0.000 |
-| ERICH3 | 0.566 | 0.000 | 0.000 | 0.000 |
-| ERICH3 | 0.541 | 0.000 | 0.000 | 0.000 |
-| TPGS1 | 0.522 | 0.000 | 0.000 | 0.000 |
-| ODF3L2 | 0.521 | 0.000 | 0.000 | 0.000 |
-| KLHL26 | 0.517 | 0.000 | 0.000 | 0.000 |
-| EML6 | 0.514 | 0.000 | 0.000 | 0.000 |
-| NHLRC4 | 0.508 | 0.000 | 0.000 | 0.000 |
+| *STRING 无数据* | — | — | — | — |
 *待 IntAct/BioGRID/humanPPI 补充。*
 
 ## 7. 评分表
@@ -57,11 +48,11 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 |---|---:|---|
 | 精子定位 | 18/20 | 3 部位: Flagellar centriole、Mid piece、Principal piece |
 | PubMed | 10/20 | 3 篇 |
-| PPI | 18/20 | STRING |
+| PPI | 5/20 | STRING |
 | 结构 | 5/10 | 待采集 |
 | 新颖性 | 10/10 | 极低 |
 
-- **评分:** **75/100**
+- **评分:** **60/100**
 
 ## 8. 结论
 **SPERM CANDIDATE**

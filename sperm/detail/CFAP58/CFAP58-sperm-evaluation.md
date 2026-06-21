@@ -3,7 +3,7 @@ type: sperm-protein-evaluation
 gene: "CFAP58"
 module: sperm
 status: sperm_candidate
-date: 2026-06-18
+date: 2026-06-22
 tags: [protein-scout, sperm, evaluation]
 ---
 
@@ -40,7 +40,16 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 ### STRING (人类, top 10)
 | Partner | Combined | Exp | DB | Text |
 |---|---|---|---|---|
-| *STRING 无数据* | — | — | — | — |
+| TTC29 | 0.826 | 0.000 | 0.000 | 0.000 |
+| CFAP44 | 0.808 | 0.000 | 0.000 | 0.000 |
+| CFAP43 | 0.807 | 0.000 | 0.000 | 0.000 |
+| CFAP69 | 0.806 | 0.000 | 0.000 | 0.000 |
+| CFAP44 | 0.800 | 0.000 | 0.000 | 0.000 |
+| WDR66 | 0.795 | 0.000 | 0.000 | 0.000 |
+| CFAP43 | 0.794 | 0.000 | 0.000 | 0.000 |
+| CFAP43 | 0.788 | 0.000 | 0.000 | 0.000 |
+| TTC21A | 0.741 | 0.000 | 0.000 | 0.000 |
+| CFAP69 | 0.732 | 0.000 | 0.000 | 0.000 |
 *待 IntAct/BioGRID/humanPPI 补充。*
 
 ## 7. 评分表
@@ -48,11 +57,11 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 |---|---:|---|
 | 精子定位 | 16/20 | 双部位: Calyx、Principal piece |
 | PubMed | 8/20 | 14 篇 |
-| PPI | 5/20 | STRING |
+| PPI | 18/20 | STRING |
 | 结构 | 5/10 | 待采集 |
 | 新颖性 | 8/10 | 低 |
 
-- **评分:** **53/100**
+- **评分:** **68/100**
 
 ## 8. 结论
 **SPERM CANDIDATE**

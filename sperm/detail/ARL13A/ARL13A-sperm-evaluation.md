@@ -3,7 +3,7 @@ type: sperm-protein-evaluation
 gene: "ARL13A"
 module: sperm
 status: sperm_candidate
-date: 2026-06-18
+date: 2026-06-22
 tags: [protein-scout, sperm, evaluation]
 ---
 
@@ -40,16 +40,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 ### STRING (人类, top 10)
 | Partner | Combined | Exp | DB | Text |
 |---|---|---|---|---|
-| IFT27 | 0.999 | 0.000 | 0.000 | 0.000 |
-| ARL16 | 0.782 | 0.000 | 0.000 | 0.000 |
-| IFT88 | 0.769 | 0.000 | 0.000 | 0.000 |
-| ARL13A | 0.741 | 0.000 | 0.000 | 0.000 |
-| NPHP4 | 0.716 | 0.000 | 0.000 | 0.000 |
-| ARL13A | 0.684 | 0.000 | 0.000 | 0.000 |
-| ARL16 | 0.659 | 0.000 | 0.000 | 0.000 |
-| NPHP4 | 0.647 | 0.000 | 0.000 | 0.000 |
-| RAB23 | 0.606 | 0.000 | 0.000 | 0.000 |
-| ARL13A | 0.559 | 0.000 | 0.000 | 0.000 |
+| *STRING 无数据* | — | — | — | — |
 *待 IntAct/BioGRID/humanPPI 补充。*
 
 ## 7. 评分表
@@ -57,11 +48,11 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 |---|---:|---|
 | 精子定位 | 19/20 | 4 部位: Acrosome、Connecting piece、Mid piece、Principal piece |
 | PubMed | 10/20 | 3 篇 |
-| PPI | 18/20 | STRING |
+| PPI | 5/20 | STRING |
 | 结构 | 5/10 | 待采集 |
 | 新颖性 | 10/10 | 极低 |
 
-- **评分:** **77/100**
+- **评分:** **62/100**
 
 ## 8. 结论
 **SPERM CANDIDATE**

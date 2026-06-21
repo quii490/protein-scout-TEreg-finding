@@ -3,7 +3,7 @@ type: sperm-protein-evaluation
 gene: "CTXN3"
 module: sperm
 status: sperm_candidate
-date: 2026-06-18
+date: 2026-06-22
 tags: [protein-scout, sperm, evaluation]
 ---
 
@@ -40,7 +40,16 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 ### STRING (人类, top 10)
 | Partner | Combined | Exp | DB | Text |
 |---|---|---|---|---|
-| *STRING 无数据* | — | — | — | — |
+| WWC1 | 0.998 | 0.000 | 0.000 | 0.000 |
+| WWC1 | 0.996 | 0.000 | 0.000 | 0.000 |
+| WWC1 | 0.764 | 0.000 | 0.000 | 0.000 |
+| CTXN3 | 0.670 | 0.000 | 0.000 | 0.000 |
+| DDN | 0.648 | 0.000 | 0.000 | 0.000 |
+| CTXN3 | 0.577 | 0.000 | 0.000 | 0.000 |
+| RSRC1 | 0.448 | 0.000 | 0.000 | 0.000 |
+| MINAR2 | 0.445 | 0.000 | 0.000 | 0.000 |
+| TEKT3 | 0.443 | 0.000 | 0.000 | 0.000 |
+| SCN4B | 0.441 | 0.000 | 0.000 | 0.000 |
 *待 IntAct/BioGRID/humanPPI 补充。*
 
 ## 7. 评分表
@@ -48,11 +57,11 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 |---|---:|---|
 | 精子定位 | 16/20 | 双部位: End piece、Principal piece |
 | PubMed | 8/20 | 12 篇 |
-| PPI | 5/20 | STRING |
+| PPI | 18/20 | STRING |
 | 结构 | 5/10 | 待采集 |
 | 新颖性 | 8/10 | 低 |
 
-- **评分:** **53/100**
+- **评分:** **68/100**
 
 ## 8. 结论
 **SPERM CANDIDATE**

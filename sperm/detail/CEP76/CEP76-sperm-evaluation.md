@@ -3,7 +3,7 @@ type: sperm-protein-evaluation
 gene: "CEP76"
 module: sperm
 status: sperm_candidate
-date: 2026-06-18
+date: 2026-06-22
 tags: [protein-scout, sperm, evaluation]
 ---
 
@@ -40,7 +40,16 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 ### STRING (人类, top 10)
 | Partner | Combined | Exp | DB | Text |
 |---|---|---|---|---|
-| *STRING 无数据* | — | — | — | — |
+| SASS6 | 0.999 | 0.000 | 0.000 | 0.000 |
+| CCP110 | 0.999 | 0.000 | 0.000 | 0.000 |
+| SASS6 | 0.997 | 0.000 | 0.000 | 0.000 |
+| CEP290 | 0.997 | 0.000 | 0.000 | 0.000 |
+| PLK4 | 0.988 | 0.000 | 0.000 | 0.000 |
+| CCP110 | 0.964 | 0.000 | 0.000 | 0.000 |
+| CCP110 | 0.964 | 0.000 | 0.000 | 0.000 |
+| CCP110 | 0.961 | 0.000 | 0.000 | 0.000 |
+| PLK1 | 0.956 | 0.000 | 0.000 | 0.000 |
+| CCP110 | 0.937 | 0.000 | 0.000 | 0.000 |
 *待 IntAct/BioGRID/humanPPI 补充。*
 
 ## 7. 评分表
@@ -48,11 +57,11 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 |---|---:|---|
 | 精子定位 | 16/20 | 双部位: Flagellar centriole、Perinuclear theca |
 | PubMed | 8/20 | 13 篇 |
-| PPI | 5/20 | STRING |
+| PPI | 18/20 | STRING |
 | 结构 | 5/10 | 待采集 |
 | 新颖性 | 8/10 | 低 |
 
-- **评分:** **53/100**
+- **评分:** **68/100**
 
 ## 8. 结论
 **SPERM CANDIDATE**

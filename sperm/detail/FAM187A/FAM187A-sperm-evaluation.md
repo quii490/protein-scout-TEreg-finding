@@ -3,7 +3,7 @@ type: sperm-protein-evaluation
 gene: "FAM187A"
 module: sperm
 status: sperm_candidate
-date: 2026-06-18
+date: 2026-06-22
 tags: [protein-scout, sperm, evaluation]
 ---
 
@@ -40,7 +40,10 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 ### STRING (人类, top 10)
 | Partner | Combined | Exp | DB | Text |
 |---|---|---|---|---|
-| *STRING 无数据* | — | — | — | — |
+| INSYN1 | 0.600 | 0.000 | 0.000 | 0.000 |
+| FAM187A | 0.516 | 0.000 | 0.000 | 0.000 |
+| RHBG | 0.466 | 0.000 | 0.000 | 0.000 |
+| FAM187A | 0.454 | 0.000 | 0.000 | 0.000 |
 *待 IntAct/BioGRID/humanPPI 补充。*
 
 ## 7. 评分表
@@ -48,11 +51,11 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 |---|---:|---|
 | 精子定位 | 14/20 | 单部位: Acrosome |
 | PubMed | 10/20 | 2 篇 |
-| PPI | 5/20 | STRING |
+| PPI | 15/20 | STRING |
 | 结构 | 5/10 | 待采集 |
 | 新颖性 | 10/10 | 极低 |
 
-- **评分:** **54/100**
+- **评分:** **66/100**
 
 ## 8. 结论
 **SPERM CANDIDATE**

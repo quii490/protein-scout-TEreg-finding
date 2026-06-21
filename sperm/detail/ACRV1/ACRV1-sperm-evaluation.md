@@ -2,8 +2,8 @@
 type: sperm-protein-evaluation
 gene: "ACRV1"
 module: sperm
-status: sperm_candidate
-date: 2026-06-18
+status: sperm_low_priority
+date: 2026-06-22
 tags: [protein-scout, sperm, evaluation]
 ---
 
@@ -40,16 +40,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 ### STRING (人类, top 10)
 | Partner | Combined | Exp | DB | Text |
 |---|---|---|---|---|
-| PCSK5 | 0.892 | 0.000 | 0.000 | 0.000 |
-| ACRV1 | 0.889 | 0.000 | 0.000 | 0.000 |
-| SP6 | 0.880 | 0.000 | 0.000 | 0.000 |
-| LIPN | 0.872 | 0.000 | 0.000 | 0.000 |
-| ACRV1 | 0.816 | 0.000 | 0.000 | 0.000 |
-| ACRV1 | 0.805 | 0.000 | 0.000 | 0.000 |
-| LIPN | 0.795 | 0.000 | 0.000 | 0.000 |
-| SP6 | 0.786 | 0.000 | 0.000 | 0.000 |
-| ACRV1 | 0.777 | 0.000 | 0.000 | 0.000 |
-| PCSK5 | 0.724 | 0.000 | 0.000 | 0.000 |
+| *STRING 无数据* | — | — | — | — |
 *待 IntAct/BioGRID/humanPPI 补充。*
 
 ## 7. 评分表
@@ -57,14 +48,14 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 |---|---:|---|
 | 精子定位 | 14/20 | 单部位: Acrosome |
 | PubMed | 6/20 | 78 篇 |
-| PPI | 18/20 | STRING |
+| PPI | 5/20 | STRING |
 | 结构 | 5/10 | 待采集 |
 | 新颖性 | 4/10 | 较多 |
 
-- **评分:** **58/100**
+- **评分:** **43/100**
 
 ## 8. 结论
-**SPERM CANDIDATE**
+**SPERM LOW PRIORITY**
 
 ## 9. 人工复核备注
 - 精子部位: Acrosome

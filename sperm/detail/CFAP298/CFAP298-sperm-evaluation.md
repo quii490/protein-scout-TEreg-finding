@@ -3,7 +3,7 @@ type: sperm-protein-evaluation
 gene: "CFAP298"
 module: sperm
 status: sperm_candidate
-date: 2026-06-18
+date: 2026-06-22
 tags: [protein-scout, sperm, evaluation]
 ---
 
@@ -40,7 +40,16 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 ### STRING (人类, top 10)
 | Partner | Combined | Exp | DB | Text |
 |---|---|---|---|---|
-| *STRING 无数据* | — | — | — | — |
+| LRRC6 | 0.938 | 0.000 | 0.000 | 0.000 |
+| DNAAF3 | 0.901 | 0.000 | 0.000 | 0.000 |
+| DNAAF3 | 0.886 | 0.000 | 0.000 | 0.000 |
+| DNAAF3 | 0.873 | 0.000 | 0.000 | 0.000 |
+| DNAAF1 | 0.870 | 0.000 | 0.000 | 0.000 |
+| DNAAF1 | 0.861 | 0.000 | 0.000 | 0.000 |
+| DNAAF3 | 0.858 | 0.000 | 0.000 | 0.000 |
+| LRRC6 | 0.856 | 0.000 | 0.000 | 0.000 |
+| DNAAF5 | 0.852 | 0.000 | 0.000 | 0.000 |
+| DNAAF1 | 0.844 | 0.000 | 0.000 | 0.000 |
 *待 IntAct/BioGRID/humanPPI 补充。*
 
 ## 7. 评分表
@@ -48,11 +57,11 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 |---|---:|---|
 | 精子定位 | 14/20 | 单部位: Principal piece |
 | PubMed | 8/20 | 12 篇 |
-| PPI | 5/20 | STRING |
+| PPI | 18/20 | STRING |
 | 结构 | 5/10 | 待采集 |
 | 新颖性 | 8/10 | 低 |
 
-- **评分:** **50/100**
+- **评分:** **65/100**
 
 ## 8. 结论
 **SPERM CANDIDATE**

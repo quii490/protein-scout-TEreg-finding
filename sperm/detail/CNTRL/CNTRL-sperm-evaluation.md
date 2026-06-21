@@ -2,8 +2,8 @@
 type: sperm-protein-evaluation
 gene: "CNTRL"
 module: sperm
-status: sperm_low_priority
-date: 2026-06-18
+status: sperm_candidate
+date: 2026-06-22
 tags: [protein-scout, sperm, evaluation]
 ---
 
@@ -40,7 +40,16 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 ### STRING (人类, top 10)
 | Partner | Combined | Exp | DB | Text |
 |---|---|---|---|---|
-| *STRING 无数据* | — | — | — | — |
+| CEP128 | 0.992 | 0.000 | 0.000 | 0.000 |
+| NIN | 0.992 | 0.000 | 0.000 | 0.000 |
+| CNTRL | 0.984 | 0.000 | 0.000 | 0.000 |
+| ODF2 | 0.983 | 0.000 | 0.000 | 0.000 |
+| CCDC68 | 0.979 | 0.000 | 0.000 | 0.000 |
+| NIN | 0.978 | 0.000 | 0.000 | 0.000 |
+| CCDC120 | 0.976 | 0.000 | 0.000 | 0.000 |
+| CCDC68 | 0.974 | 0.000 | 0.000 | 0.000 |
+| CCDC120 | 0.972 | 0.000 | 0.000 | 0.000 |
+| CCDC120 | 0.970 | 0.000 | 0.000 | 0.000 |
 *待 IntAct/BioGRID/humanPPI 补充。*
 
 ## 7. 评分表
@@ -48,14 +57,14 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 |---|---:|---|
 | 精子定位 | 14/20 | 单部位: Flagellar centriole |
 | PubMed | 6/20 | 88 篇 |
-| PPI | 5/20 | STRING |
+| PPI | 18/20 | STRING |
 | 结构 | 5/10 | 待采集 |
 | 新颖性 | 4/10 | 较多 |
 
-- **评分:** **43/100**
+- **评分:** **58/100**
 
 ## 8. 结论
-**SPERM LOW PRIORITY**
+**SPERM CANDIDATE**
 
 ## 9. 人工复核备注
 - 精子部位: Flagellar centriole
