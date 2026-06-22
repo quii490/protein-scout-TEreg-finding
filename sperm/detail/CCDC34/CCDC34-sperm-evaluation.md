@@ -30,7 +30,8 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 20 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 34348960: Homozygous mutations in CCDC34 cause male infertility with oligoasthenoteratozoospermia in humans and mice. (2022 Jul) *J Med Genet*
+2. PMID 38856307: A novel missense mutation of CCDC34 causes male infertility with oligoasthenoteratozoospermia in a consanguineous Pakistani family. (2024 Nov 1) *Asian J Androl*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

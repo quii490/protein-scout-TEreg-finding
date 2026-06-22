@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 24 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 39506588: Identification of Potential Biomarkers Associated with Spermatogenesis in Azoospermia. (2024 Nov 1) *Clin Lab*
+2. PMID 19893612: OAZ-t/OAZ3 is essential for rigid connection of sperm tails to heads in mouse. (2009 Nov) *PLoS Genet*
+3. PMID 21712390: Ornithine decarboxylase antizyme Oaz3 modulates protein phosphatase activity. (2011 Aug 19) *J Biol Chem*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

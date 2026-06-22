@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 19 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 20301301: Primary Ciliary Dyskinesia. (1993) **
+2. PMID 33635866: Defects in the cytoplasmic assembly of axonemal dynein arms cause morphological abnormalities and dysmotility in sperm cells leading to male infertility. (2021 Feb) *PLoS Genet*
+3. PMID 32170493: Novel DNAAF6 variants identified by whole-exome sequencing cause male infertility and primary ciliary dyskinesia. (2020 Apr) *J Assist Reprod Genet*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

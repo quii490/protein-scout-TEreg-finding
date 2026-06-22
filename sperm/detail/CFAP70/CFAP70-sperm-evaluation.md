@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 17 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 39704931: Homozygous deleterious variants in MYCBPAP induce asthenoteratozoospermia involving abnormal acrosome biogenesis, manchette structure and sperm tail assembly in humans and mice. (2025 Mar) *Sci China Life Sci*
+2. PMID 37458246: Experimental and molecular support for Cfap70 as a causative gene of 'multiple morphological abnormalities of the flagella' with male infertility†. (2023 Oct 13) *Biol Reprod*
+3. PMID 31621862: CFAP70 mutations lead to male infertility due to severe astheno-teratozoospermia. A case report. (2019 Oct 2) *Hum Reprod*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

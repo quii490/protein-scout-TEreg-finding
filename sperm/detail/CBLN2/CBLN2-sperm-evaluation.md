@@ -30,7 +30,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 69 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 19082514: Precerebellin-related genes and precerebellin 1 peptide in endocrine glands of the rat - pattern of their expression. (2009 Jan) *Int J Mol Med*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

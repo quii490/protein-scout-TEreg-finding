@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 18 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 34231842: CFAP65 is required in the acrosome biogenesis and mitochondrial sheath assembly during spermiogenesis. (2021 Nov 16) *Hum Mol Genet*
+2. PMID 37782577: Bull Sperm SWATH-MS-Based Proteomics Reveals Link between High Fertility and Energy Production, Motility Structures, and Sperm-Oocyte Interaction. (2023 Nov 3) *J Proteome Res*
+3. PMID 39000129: The Role of Tubulin Polymerization-Promoting Protein2 (TPPP2) in Spermatogenesis: A Narrative Review. (2024 Jun 27) *Int J Mol Sci*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

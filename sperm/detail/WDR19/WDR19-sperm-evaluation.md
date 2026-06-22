@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 73 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 32323121: A novel homozygous mutation in WDR19 induces disorganization of microtubules in sperm flagella and nonsyndromic asthenoteratospermia. (2020 Jun) *J Assist Reprod Genet*
+2. PMID 38253538: Molecular quantitative trait loci in reproductive tissues impact male fertility in cattle. (2024 Jan 22) *Nat Commun*
+3. PMID 32407316: Activation of cryptic splicing in bovine WDR19 is associated with reduced semen quality and male fertility. (2020 May) *PLoS Genet*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

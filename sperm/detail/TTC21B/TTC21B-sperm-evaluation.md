@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 82 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 41099179: IFT139 regulates Hedgehog signaling and cilia structure through ciliary protein localization. (2025 Oct 15) *Biol Open*
+2. PMID 32167205: Genetic interaction of mammalian IFT-A paralogs regulates cilia disassembly, ciliary entry of membrane protein, Hedgehog signaling, and embryogenesis. (2020 May) *FASEB J*
+3. PMID 29727692: C11orf70 Mutations Disrupting the Intraflagellar Transport-Dependent Assembly of Multiple Axonemal Dyneins Cause Primary Ciliary Dyskinesia. (2018 May 3) *Am J Hum Genet*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

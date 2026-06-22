@@ -30,7 +30,8 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 2 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 24709545: A novel transmembrane glycoprotein cancer biomarker present in the X chromosome. (2014 Mar-Apr) *Cancer Genomics Proteomics*
+2. PMID 35164824: Identification of an SRY-negative 46,XX infertility male with a heterozygous deletion downstream of SOX3 gene. (2022 Feb 14) *Mol Cytogenet*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 15 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 39358131: Effect of body mass index on semen quality, sperm chromatin integrity and sperm DNA methylation. (2024 Sep-Oct) *Obes Res Clin Pract*
+2. PMID 31754096: The DNA methylome in panic disorder: a case-control and longitudinal psychotherapy-epigenetic study. (2019 Nov 21) *Transl Psychiatry*
+3. PMID 34604380: Molecular Profiling of Spermatozoa Reveals Correlations between Morphology and Gene Expression: A Novel Biomarker Panel for Male Infertility. (2021) *Biomed Res Int*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

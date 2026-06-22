@@ -30,7 +30,8 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 25 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 15870280: The nuclear import of TAF10 is regulated by one of its three histone fold domain-containing interaction partners. (2005 May) *Mol Cell Biol*
+2. PMID 40763999: Paralog-Dependent Specialization of Paf1C Subunit, Ctr9, for Sex Chromosome Gene Regulation and Male Germline Differentiation in Drosophila. (2025 Sep) *Genes Cells*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

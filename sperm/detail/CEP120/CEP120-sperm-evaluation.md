@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 52 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 23810536: CEP120 and SPICE1 cooperate with CPAP in centriole elongation. (2013 Jul 22) *Curr Biol*
+2. PMID 33170803: Meiosis interrupted: the genetics of female infertility via meiotic failure. (2021 Feb) *Reproduction*
+3. PMID 39030352: Predicting Infertility: How Genetic Variants in Oocyte Spindle Genes Affect Egg Quality. (2024) *Adv Anat Embryol Cell Biol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

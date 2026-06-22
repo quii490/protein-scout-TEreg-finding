@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 93 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 11834742: Functional characterization of three novel tissue-specific anion exchangers SLC26A7, -A8, and -A9. (2002 Apr 19) *J Biol Chem*
+2. PMID 38978040: Dietary restriction promote sperm remodeling in aged roosters based on transcriptome analysis. (2024 Jul 8) *BMC Genomics*
+3. PMID 17504921: Expression of ion transport-associated proteins in human efferent and epididymal ducts. (2007 Apr) *Reproduction*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

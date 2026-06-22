@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 11 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 36714547: High-throughput proteomic characterization of seminal plasma from bulls with contrasting semen quality. (2023 Feb) *3 Biotech*
+2. PMID 40760720: Uncovering the Role of IZUMO Family Members in Human Fertilization. (2025 Aug) *Mol Reprod Dev*
+3. PMID 40572022: Mouse genome engineering uncovers 18 genes dispensable for male reproduction. (2026 Mar) *Andrology*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

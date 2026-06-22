@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 9 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 41764189: Doublet microtubule-associated tektins and enzymes differentially regulate sperm flagellar integrity and motility. (2026 Feb 28) *Nat Commun*
+2. PMID 23929653: RNA interference against cancer/testis genes identifies dual specificity phosphatase 21 as a potential therapeutic target in human hepatocellular carcinoma. (2014 Feb) *Hepatology*
+3. PMID 12408986: Identification and characterization of two novel low-molecular-weight dual specificity phosphatases. (2002 Nov 8) *Biochem Biophys Res Commun*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

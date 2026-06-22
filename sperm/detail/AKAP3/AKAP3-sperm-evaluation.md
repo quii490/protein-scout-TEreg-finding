@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 100 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 38145487: AKAP3-mediated type I PKA signaling is required for mouse sperm hyperactivation and fertility†. (2024 Apr 11) *Biol Reprod*
+2. PMID 31074059: Differential expression of TLRs and AKAP3 in cigarette smoked mice testis. (2019 Aug) *Andrologia*
+3. PMID 12672126: Fibrous sheath of mammalian spermatozoa. (2003 May 1) *Microsc Res Tech*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

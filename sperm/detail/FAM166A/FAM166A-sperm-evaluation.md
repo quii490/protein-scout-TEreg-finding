@@ -30,7 +30,8 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 2 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 37549510: Integrated molecular-network analysis reveals infertility-associated key genes and transcription factors in the non-obstructive azoospermia. (2023 Sep) *Eur J Obstet Gynecol Reprod Biol*
+2. PMID 39937672: A ternary complex of MIPs in the A-tubule of basal bodies and axonemes depends on RIB22 and the EF-hand domain of RIB72A in Tetrahymena cilia. (2025 Apr 1) *Mol Biol Cell*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

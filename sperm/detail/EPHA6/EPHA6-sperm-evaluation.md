@@ -30,7 +30,8 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 92 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 14726470: Differential gene expression of Eph receptors and ephrins in benign human tissues and cancers. (2004 Mar) *Clin Chem*
+2. PMID 8892754: Cloning of m-ehk2 from the murine inner ear, an eph family receptor tyrosine kinase expressed in the developing and adult cochlea. (1996 Oct) *DNA Cell Biol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

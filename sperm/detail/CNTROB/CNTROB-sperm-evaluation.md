@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 33 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 40711600: A missense mutation in TCFL5 is associated with male infertility due to oligoasthenoteratozoospermia. (2025 Jul 25) *Mol Genet Genomics*
+2. PMID 24432614: [Molecular genetic mechanisms of teratozoospermia]. (2013 Dec) *Zhonghua Nan Ke Xue*
+3. PMID 31589365: The dynamics of gene expression during and post meiosis sets the sperm agenda. (2019 Dec) *Mol Reprod Dev*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

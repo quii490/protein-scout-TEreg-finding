@@ -30,7 +30,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 24 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 36292606: A Comparative Cross-Platform Analysis to Identify Potential Biomarker Genes for Evaluation of Teratozoospermia and Azoospermia. (2022 Sep 25) *Genes (Basel)*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

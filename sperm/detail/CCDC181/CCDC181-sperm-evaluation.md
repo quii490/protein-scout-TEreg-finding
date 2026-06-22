@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 22 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 39245650: CCDC181 is required for sperm flagellum biogenesis and male fertility in mice. (2024 Sep 18) *Zool Res*
+2. PMID 35015293: Histone Methylation Regulates Gene Expression in the Round Spermatids to Set the RNA Payloads of Sperm. (2022 Mar) *Reprod Sci*
+3. PMID 28283191: Ccdc181 is a microtubule-binding protein that interacts with Hook1 in haploid male germ cells and localizes to the sperm tail and motile cilia. (2017 May) *Eur J Cell Biol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

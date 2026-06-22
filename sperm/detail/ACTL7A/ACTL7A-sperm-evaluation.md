@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 45 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 39417902: Genetic etiological spectrum of sperm morphological abnormalities. (2024 Nov) *J Assist Reprod Genet*
+2. PMID 36593593: Novel variants in ACTL7A and PLCZ1 are associated with male infertility and total fertilization failure. (2023 May) *Clin Genet*
+3. PMID 37667331: Loss of ACTL7A causes small head sperm by defective acrosome-acroplaxome-manchette complex. (2023 Sep 4) *Reprod Biol Endocrinol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

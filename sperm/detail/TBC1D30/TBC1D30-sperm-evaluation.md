@@ -30,7 +30,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 10 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 35685361: Integrative RNA profiling of TBEV-infected neurons and astrocytes reveals potential pathogenic effectors. (2022) *Comput Struct Biotechnol J*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

@@ -30,7 +30,8 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 17 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 39201790: Comprehensive Analysis of Methylome and Transcriptome to Identify Potential Genes Regulating Porcine Testis Development. (2024 Aug 22) *Int J Mol Sci*
+2. PMID 10512762: Isolation of two novel metalloproteinase-disintegrin (ADAM) cDNAs that show testis-specific gene expression. (1999 Oct 5) *Biochem Biophys Res Commun*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

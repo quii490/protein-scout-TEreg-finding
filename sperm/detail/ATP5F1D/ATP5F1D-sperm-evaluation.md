@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 18 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 38674457: Effects of Long-Term Cryopreservation on the Transcriptomes of Giant Grouper Sperm. (2024 Apr 22) *Genes (Basel)*
+2. PMID 23374786: Study of sperm protein profile in men with and without varicocele using two-dimensional gel electrophoresis. (2013 Feb) *Urology*
+3. PMID 33615715: Altered mitochondrial function in spermatozoa from patients with repetitive fertilization failure after ICSI revealed by proteomics. (2021 Jul) *Andrology*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

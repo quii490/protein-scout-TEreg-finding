@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 29 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 34225353: Structure of a mammalian sperm cation channel complex. (2021 Jul) *Nature*
+2. PMID 17344468: Catsper3 and Catsper4 are essential for sperm hyperactivated motility and male fertility in the mouse. (2007 Jul) *Biol Reprod*
+3. PMID 16107607: Catsper3 and catsper4 encode two cation channel-like proteins exclusively expressed in the testis. (2005 Dec) *Biol Reprod*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 37 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 37766963: SPAG17 mediates nuclear translocation of protamines during spermiogenesis. (2023) *Front Cell Dev Biol*
+2. PMID 32820682: Detection of InDel and CNV of SPAG17 gene and their associations with bovine growth traits. (2022 Jun) *Anim Biotechnol*
+3. PMID 29690537: SPAG17 Is Required for Male Germ Cell Differentiation and Fertility. (2018 Apr 21) *Int J Mol Sci*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

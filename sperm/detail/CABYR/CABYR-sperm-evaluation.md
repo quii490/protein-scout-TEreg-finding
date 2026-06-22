@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 54 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 21240291: CABYR binds to AKAP3 and Ropporin in the human sperm fibrous sheath. (2011 Mar) *Asian J Androl*
+2. PMID 29247344: Molecular study of human sperm RNA: Ropporin and CABYR in asthenozoospermia. (2018 Jul) *J Endocrinol Invest*
+3. PMID 36142535: cAMP and the Fibrous Sheath Protein CABYR (Ca(2+)-Binding Tyrosine-Phosphorylation-Regulated Protein) Is Required for 4D Sperm Movement. (2022 Sep 13) *Int J Mol Sci*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

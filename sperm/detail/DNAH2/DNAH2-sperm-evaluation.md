@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 40 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 39417902: Genetic etiological spectrum of sperm morphological abnormalities. (2024 Nov) *J Assist Reprod Genet*
+2. PMID 40592014: Patients with mutations in DNAH2, DNAH6 and DNAH10 causing multiple morphological abnormalities of human sperm flagella achieve good ICSI outcomes. (2025 Aug) *Reprod Biomed Online*
+3. PMID 33968937: Genetic Defects in DNAH2 Underlie Male Infertility With Multiple Morphological Abnormalities of the Sperm Flagella in Humans and Mice. (2021) *Front Cell Dev Biol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 76 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 31518731: Proteome of cat semen obtained after urethral catheterization. (2020 Jan 1) *Theriogenology*
+2. PMID 39185048: Conserving goat sperm post-thawed gene expression and cellular characteristics using the antioxidant coenzyme Q10 supplementation. (2024 Jul) *Vet World*
+3. PMID 37013810: Molecular and physiochemical evaluation of buck semen cryopreserved with antioxidants. (2023 Jun) *Reprod Domest Anim*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

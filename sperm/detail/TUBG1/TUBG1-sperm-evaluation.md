@@ -30,7 +30,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 81 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 36064611: Protein profiling of testicular tissue from boars with different levels of hyperactive sperm motility. (2022 Sep 5) *Acta Vet Scand*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

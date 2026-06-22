@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 15 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 36672807: Identification of Circular RNAs of Testis and Caput Epididymis and Prediction of Their Potential Functional Roles in Donkeys. (2022 Dec 25) *Genes (Basel)*
+2. PMID 30936599: Inhibition of CatSper and Hv1 Channels and NOX5 Enzyme Affect Progesterone-Induced Increase of Intracellular Calcium Concentration and ROS Generation in Human Sperm. (2019 Mar) *Iran J Med Sci*
+3. PMID 39210919: Prochloraz induced alterations in the expression of mRNA in the reproductive system of male offspring mice. (2024) *PeerJ*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

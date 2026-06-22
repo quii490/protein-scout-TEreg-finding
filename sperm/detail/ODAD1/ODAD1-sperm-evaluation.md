@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 17 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 20301301: Primary Ciliary Dyskinesia. (1993) **
+2. PMID 23261303: Splice-site mutations in the axonemal outer dynein arm docking complex gene CCDC114 cause primary ciliary dyskinesia. (2013 Jan 10) *Am J Hum Genet*
+3. PMID 38874855: Identification of high-risk non-synonymous SNPs (nsSNPs) in DNAH1 and DNAH17 genes associated with male infertility: a bioinformatics analysis. (2025 May) *J Appl Genet*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

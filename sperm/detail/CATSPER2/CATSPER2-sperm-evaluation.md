@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 85 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 34225353: Structure of a mammalian sperm cation channel complex. (2021 Jul) *Nature*
+2. PMID 38109326: STRC-Related Autosomal Recessive Hearing Loss. (1993) **
+3. PMID 39312031: CATSPER2 and SPEF2 are potential molecular markers for boar sperm quality: a population association study. (2024 Nov) *J Assist Reprod Genet*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

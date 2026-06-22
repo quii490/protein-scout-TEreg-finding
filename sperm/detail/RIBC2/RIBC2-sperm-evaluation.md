@@ -30,7 +30,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 14 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 40265983: The absence of both RIBC1 and RIBC2 induces decreased sperm motility and litter size in male mice. (2026 Feb) *Andrology*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

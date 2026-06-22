@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 46 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 41613942: Exploring the effect of skim milk on the membrane stability of frozen-thawed Inner Mongolia cashmere goat sperm based on proteomics. (2025) *Front Cell Dev Biol*
+2. PMID 37914523: Characterization of long-term ex vivo expansion of tree shrew spermatogonial stem cells. (2023 Nov 18) *Zool Res*
+3. PMID 35393054: Single-nucleotide polymorphisms in genes related to oxidative stress and ion channels in chickens are associated with semen quality and hormonal responses to thermal stress. (2022 Apr) *J Therm Biol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

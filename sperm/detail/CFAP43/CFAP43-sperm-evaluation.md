@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 48 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 39417902: Genetic etiological spectrum of sperm morphological abnormalities. (2024 Nov) *J Assist Reprod Genet*
+2. PMID 33046149: CFAP43-mediated intra-manchette transport is required for sperm head shaping and flagella formation. (2021 Feb) *Zygote*
+3. PMID 29277146: Novel Mutations in CFAP44 and CFAP43 Cause Multiple Morphological Abnormalities of the Sperm Flagella (MMAF). (2019 Jan) *Reprod Sci*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

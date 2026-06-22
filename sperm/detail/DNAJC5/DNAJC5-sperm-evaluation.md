@@ -30,7 +30,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 82 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 38403745: Tissue distribution of cysteine string protein/DNAJC5 in C. elegans analysed by CRISPR/Cas9-mediated tagging of endogenous DNJ-14. (2024 Apr) *Cell Tissue Res*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 95 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 24413176: Phospholipid flippase ATP8A2 is required for normal visual and auditory function and photoreceptor and spiral ganglion cell survival. (2014 Mar 1) *J Cell Sci*
+2. PMID 19778899: Localization, purification, and functional reconstitution of the P4-ATPase Atp8a2, a phosphatidylserine flippase in photoreceptor disc membranes. (2009 Nov 20) *J Biol Chem*
+3. PMID 22307598: Critical role of a transmembrane lysine in aminophospholipid transport by mammalian photoreceptor P4-ATPase ATP8A2. (2012 Jan 31) *Proc Natl Acad Sci U S A*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

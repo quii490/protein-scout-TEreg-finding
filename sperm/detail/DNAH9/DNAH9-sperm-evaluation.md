@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 100 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 20301301: Primary Ciliary Dyskinesia. (1993) **
+2. PMID 39267058: Whole exome sequencing analysis of 167 men with primary infertility. (2024 Sep 12) *BMC Med Genomics*
+3. PMID 33610189: Novel variants in DNAH9 lead to nonsyndromic severe asthenozoospermia. (2021 Feb 20) *Reprod Biol Endocrinol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

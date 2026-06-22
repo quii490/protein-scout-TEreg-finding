@@ -30,7 +30,8 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 76 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 33181482: Analysis of long non-coding RNAs in epididymis of cattleyak associated with male infertility. (2021 Jan 15) *Theriogenology*
+2. PMID 19462288: Sperm-surface ATP in boar spermatozoa is required for fertilization: relevance to sperm proteasomal function. (2009 Mar-Apr) *Syst Biol Reprod Med*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 44 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 37039991: CRISPR Activator Approaches to Study Endogenous Androglobin Gene Regulation. (2023) *Methods Mol Biol*
+2. PMID 35700329: Androglobin, a chimeric mammalian globin, is required for male fertility. (2022 Jun 14) *Elife*
+3. PMID 33453283: Androglobin gene expression patterns and FOXJ1-dependent regulation indicate its functional association with ciliogenesis. (2021 Jan-Jun) *J Biol Chem*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

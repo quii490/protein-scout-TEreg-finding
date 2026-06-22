@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 9 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 23235247: Re: A single nucleotide polymorphism within the novel sex-linked testis-specific retrotransposed PGAM4 gene influences human male fertility. (2013 Jan) *J Urol*
+2. PMID 23631659: The PGAM4 gene in non-obstructive azoospermia. (2013 Aug) *Syst Biol Reprod Med*
+3. PMID 22590500: A single nucleotide polymorphism within the novel sex-linked testis-specific retrotransposed PGAM4 gene influences human male fertility. (2012) *PLoS One*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

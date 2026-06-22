@@ -30,7 +30,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 32 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 11595174: Molecular cloning and characterization of the mouse and human TUSP gene, a novel member of the tubby superfamily. (2001 Aug 8) *Gene*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

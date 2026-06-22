@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 80 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 20301537: Bardet-Biedl Syndrome Overview. (1993) **
+2. PMID 26867008: A Splice Variant of Bardet-Biedl Syndrome 5 (BBS5) Protein that Is Selectively Expressed in Retina. (2016) *PLoS One*
+3. PMID 15137946: Comparative genomics identifies a flagellar and basal body proteome that includes the BBS5 human disease gene. (2004 May 14) *Cell*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

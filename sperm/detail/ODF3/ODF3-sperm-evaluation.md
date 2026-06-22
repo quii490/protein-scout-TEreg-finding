@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 17 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 20682177: Expression of two testis-specific genes, SPATA19 and LEMD1, in prostate cancer. (2010 Apr) *Arch Med Res*
+2. PMID 23396665: Expression of Testis Specific Genes TSGA10, TEX101 and ODF3 in Breast Cancer. (2012 Nov) *Iran Red Crescent Med J*
+3. PMID 35015293: Histone Methylation Regulates Gene Expression in the Round Spermatids to Set the RNA Payloads of Sperm. (2022 Mar) *Reprod Sci*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

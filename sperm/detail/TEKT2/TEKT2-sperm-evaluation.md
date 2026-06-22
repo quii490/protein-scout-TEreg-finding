@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 21 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 34591790: Downregulation of KIF2C and TEKT2 is associated with male infertility and testicular carcinoma. (2021 Sep 30) *Aging (Albany NY)*
+2. PMID 31463202: Influence of cryopreservation on the CATSPER2 and TEKT2 expression levels and protein levels in human spermatozoa. (2019) *Toxicol Rep*
+3. PMID 37891374: Identification of hub genes associated with spermatogenesis by bioinformatics analysis. (2023 Oct 27) *Sci Rep*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 30 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 24252580: CETN1 is a cancer testis antigen with expression in prostate and pancreatic cancers. (2013 Jun 13) *Biomark Res*
+2. PMID 23641067: Germline deletion of Cetn1 causes infertility in male mice. (2013 Jul 15) *J Cell Sci*
+3. PMID 31651332: Proteomic alterations underlie an association with teratozoospermia in obese mice sperm. (2019 Oct 24) *Reprod Biol Endocrinol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

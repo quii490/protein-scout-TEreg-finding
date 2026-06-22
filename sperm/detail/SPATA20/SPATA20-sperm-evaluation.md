@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 21 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 39417902: Genetic etiological spectrum of sperm morphological abnormalities. (2024 Nov) *J Assist Reprod Genet*
+2. PMID 40268954: UBL7 is indispensable for spermiogenesis through protecting critical factors from excessive degradation by proteasomes. (2025 Apr 23) *Nat Commun*
+3. PMID 28582417: Genome-wide alteration in DNA hydroxymethylation in the sperm from bisphenol A-exposed men. (2017) *PLoS One*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

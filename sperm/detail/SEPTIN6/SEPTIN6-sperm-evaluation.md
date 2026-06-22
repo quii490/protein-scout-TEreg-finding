@@ -30,7 +30,8 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 59 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 36553452: A Comprehensive Sequencing Analysis of Testis-Born miRNAs in Immature and Mature Indigenous Wandong Cattle (Bos taurus). (2022 Nov 23) *Genes (Basel)*
+2. PMID 19221096: Absence of annulus in human asthenozoospermia: case report. (2009 Jun) *Hum Reprod*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

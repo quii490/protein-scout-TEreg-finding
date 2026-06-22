@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 49 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 22362218: Functional characterization of double-knockout mouse sperm lacking SPAM1 and ACR or SPAM1 and PRSS21 in fertilization. (2012) *J Reprod Dev*
+2. PMID 18754795: Reduced fertility of mouse epididymal sperm lacking Prss21/Tesp5 is rescued by sperm exposure to uterine microenvironment. (2008 Oct) *Genes Cells*
+3. PMID 19571264: The glycosylphosphatidylinositol-anchored serine protease PRSS21 (testisin) imparts murine epididymal sperm cell maturation and fertilizing ability. (2009 Nov) *Biol Reprod*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

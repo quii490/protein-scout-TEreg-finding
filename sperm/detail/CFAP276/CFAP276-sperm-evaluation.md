@@ -30,7 +30,8 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 2 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 38697008: Individual disruption of 12 testis-enriched genes via the CRISPR/Cas9 system does not affect the fertility of male mice. (2024 Jun) *J Reprod Immunol*
+2. PMID 37118964: Differential Proteomic Analysis of Human Sperm: A Systematic Review to Identify Candidate Targets to Monitor Sperm Quality. (2024 Jan) *World J Mens Health*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

@@ -30,7 +30,8 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 62 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 39765576: Proteomic and Metabolomic Profiling Reveals Alterations in Boar X and Y Sperm. (2024 Dec 19) *Animals (Basel)*
+2. PMID 36961412: Switching ubiquitous and muscle-specific isoforms of mitochondrial respiratory complex IV in skeletal muscle fine-tunes complex IV activity. (2023 Apr) *FASEB J*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

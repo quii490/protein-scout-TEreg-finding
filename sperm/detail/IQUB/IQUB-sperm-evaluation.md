@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 18 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 37732581: [Preparation and application of rabbit polyclonal antibody against mouse IQ and ubiquitin-like domain-containing protein (IQUB)]. (2023 Sep) *Xi Bao Yu Fen Zi Mian Yi Xue Za Zhi*
+2. PMID 36417862: Differential requirements of IQUB for the assembly of radial spoke 1 and the motility of mouse cilia and flagella. (2022 Nov 22) *Cell Rep*
+3. PMID 36355624: IQUB deficiency causes male infertility by affecting the activity of p-ERK1/2/RSPH3. (2023 Jan 5) *Hum Reprod*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

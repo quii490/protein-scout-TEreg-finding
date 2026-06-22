@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 56 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 17517695: The testis anion transporter 1 (Slc26a8) is required for sperm terminal differentiation and male fertility in the mouse. (2007 Aug 1) *Hum Mol Genet*
+2. PMID 22121115: The testis anion transporter TAT1 (SLC26A8) physically and functionally interacts with the cystic fibrosis transmembrane conductance regulator channel: a potential role during sperm capacitation. (2012 Mar 15) *Hum Mol Genet*
+3. PMID 24530837: Functional interaction of the cystic fibrosis transmembrane conductance regulator with members of the SLC26 family of anion transporters (SLC26A8 and SLC26A9): physiological and pathophysiological relevance. (2014 Jul) *Int J Biochem Cell Biol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

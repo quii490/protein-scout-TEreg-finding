@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 8 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 37594251: Scrutinizing the human TEX genes in the context of human male infertility. (2024 Mar) *Andrology*
+2. PMID 29789566: Transcriptome analysis of the adult human Klinefelter testis and cellularity-matched controls reveals disturbed differentiation of Sertoli- and Leydig cells. (2018 May 22) *Cell Death Dis*
+3. PMID 12213195: A new gene family (FAM9) of low-copy repeats in Xp22.3 expressed exclusively in testis: implications for recombinations in this region. (2002 Sep) *Genomics*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

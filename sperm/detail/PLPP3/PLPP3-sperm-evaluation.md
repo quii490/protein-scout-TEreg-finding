@@ -30,7 +30,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 85 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 9558726: Effects of retinoids on gene expression in different epithelial models in vivo and in vitro. (1998) *Z Ernahrungswiss*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

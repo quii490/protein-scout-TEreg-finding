@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 12 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 26501274: CRISPR/Cas9-Mediated Rapid Generation of Multiple Mouse Lines Identified Ccdc63 as Essential for Spermiogenesis. (2015 Oct 16) *Int J Mol Sci*
+2. PMID 35015293: Histone Methylation Regulates Gene Expression in the Round Spermatids to Set the RNA Payloads of Sperm. (2022 Mar) *Reprod Sci*
+3. PMID 35122574: Sex-Specific Genomic Region Identification and Molecular Sex Marker Development of Rock Bream (Oplegnathus fasciatus). (2022 Mar) *Mar Biotechnol (NY)*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

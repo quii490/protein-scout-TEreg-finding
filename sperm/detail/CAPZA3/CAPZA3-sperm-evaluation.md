@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 17 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 26700242: Phospholipase C zeta (PLCζ) and male infertility: Clinical update and topical developments. (2016 May) *Adv Biol Regul*
+2. PMID 38027210: RNA sequencing profiles reveals progressively reduced spermatogenesis with progression in adult cryptorchidism. (2023) *Front Endocrinol (Lausanne)*
+3. PMID 35207567: Omics and Male Infertility: Highlighting the Application of Transcriptomic Data. (2022 Feb 14) *Life (Basel)*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

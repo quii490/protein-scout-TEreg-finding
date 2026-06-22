@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 47 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 39267058: Whole exome sequencing analysis of 167 men with primary infertility. (2024 Sep 12) *BMC Med Genomics*
+2. PMID 32619401: Bi-allelic DNAH8 Variants Lead to Multiple Morphological Abnormalities of the Sperm Flagella and Primary Male Infertility. (2020 Aug 6) *Am J Hum Genet*
+3. PMID 32681648: Loss-of-function mutation in DNAH8 induces asthenoteratospermia associated with multiple morphological abnormalities of the sperm flagella. (2020 Oct) *Clin Genet*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

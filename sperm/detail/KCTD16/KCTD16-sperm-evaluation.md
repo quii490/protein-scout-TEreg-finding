@@ -30,7 +30,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 40 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 33121685: A dual enhancer-silencer element, DES-K16, in mouse spermatocyte-derived GC-2spd(ts) cells. (2021 Jan 1) *Biochem Biophys Res Commun*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

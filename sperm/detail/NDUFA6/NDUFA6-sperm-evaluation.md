@@ -30,7 +30,8 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 58 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 34330296: iTRAQ-based proteomic analysis of sperm reveals candidate proteins that affect the quality of spermatozoa from boars on plateaus. (2021 Jul 30) *Proteome Sci*
+2. PMID 36108438: Benzo[a]pyrene inhibits testosterone biosynthesis via NDUFA10-mediated mitochondrial compromise in mouse Leydig cells: Integrating experimental and in silico toxicological approaches. (2022 Oct 1) *Ecotoxicol Environ Saf*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

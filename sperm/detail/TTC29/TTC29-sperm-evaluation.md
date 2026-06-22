@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 15 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 37934199: Novel axonemal protein ZMYND12 interacts with TTC29 and DNAH1, and is required for male fertility and flagellum function. (2023 Nov 7) *Elife*
+2. PMID 31735292: Mutations in TTC29, Encoding an Evolutionarily Conserved Axonemal Protein, Result in Asthenozoospermia and Male Infertility. (2019 Dec 5) *Am J Hum Genet*
+3. PMID 22878202: Regulation of rat tetratricopeptide repeat domain 29 gene expression by follicle-stimulating hormone. (2012) *Biosci Biotechnol Biochem*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

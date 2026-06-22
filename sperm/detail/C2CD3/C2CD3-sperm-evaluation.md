@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 42 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 38892227: SMYD3 Controls Ciliogenesis by Regulating Distinct Centrosomal Proteins and Intraflagellar Transport Trafficking. (2024 May 30) *Int J Mol Sci*
+2. PMID 25412110: SAS-1 is a C2 domain protein critical for centriole integrity in C. elegans. (2014 Nov) *PLoS Genet*
+3. PMID 23769972: Discovering regulators of centriole biogenesis through siRNA-based functional genomics in human cells. (2013 Jun 24) *Dev Cell*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

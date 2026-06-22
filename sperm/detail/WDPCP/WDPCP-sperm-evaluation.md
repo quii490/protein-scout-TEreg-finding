@@ -30,7 +30,8 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 38 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 20301537: Bardet-Biedl Syndrome Overview. (1993) **
+2. PMID 27158779: The ciliopathy-associated CPLANE proteins direct basal body recruitment of intraflagellar transport machinery. (2016 Jun) *Nat Genet*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 25 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 38761355: Adenylate kinase phosphate energy shuttle underlies energetic communication in flagellar axonemes. (2024 Aug) *Sci China Life Sci*
+2. PMID 41055978: EFCAB10 anchors AK8 to the radial spoke for proper ciliary motility. (2025 Oct 14) *Proc Natl Acad Sci U S A*
+3. PMID 24740601: Adenine nucleotide metabolism and a role for AMP in modulating flagellar waveforms in mouse sperm. (2014 Jun) *Biol Reprod*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

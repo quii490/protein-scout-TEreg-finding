@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 24 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 40931011: Proximity labeling of axonemal protein CFAP91 identifies EFCAB5 that regulates sperm motility. (2025 Sep 10) *Nat Commun*
+2. PMID 36896575: The human sperm proteome-Toward a panel for male fertility testing. (2023 Oct) *Andrology*
+3. PMID 30310178: Biallelic mutations of CFAP251 cause sperm flagellar defects and human male infertility. (2019 Jan) *J Hum Genet*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

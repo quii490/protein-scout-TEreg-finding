@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 11 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 27811987: A critical role of solute carrier 22a14 in sperm motility and male fertility in mice. (2016 Nov 4) *Sci Rep*
+2. PMID 33882315: SLC22A14 is a mitochondrial riboflavin transporter required for sperm oxidative phosphorylation and male fertility. (2021 Apr 20) *Cell Rep*
+3. PMID 34704967: Dysregulation of intracellular pH is a cause of impaired capacitation in Slc22a14-deficient mice. (2021 Dec 13) *Reproduction*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

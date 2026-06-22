@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 63 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 18266473: Genome-wide expression of azoospermia testes demonstrates a specific profile and implicates ART3 in genetic susceptibility. (2008 Feb) *PLoS Genet*
+2. PMID 16934346: Genomic organization and expression of the human mono-ADP-ribosyltransferase ART3 gene. (2006 Jun) *Biochim Biophys Acta*
+3. PMID 9119374: Two novel human members of an emerging mammalian gene family related to mono-ADP-ribosylating bacterial toxins. (1997 Feb 1) *Genomics*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

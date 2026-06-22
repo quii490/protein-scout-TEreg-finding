@@ -30,7 +30,8 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 15 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 39752991: Proteomic analysis of wanxi white goose testicles in different reproductive stages by data-independent acquisition (DIA) strategy. (2025 Mar 1) *Theriogenology*
+2. PMID 12660824: Expression profile of genes from 12p in testicular germ cell tumors of adolescents and adults associated with i(12p) and amplification at 12p11.2-p12.1. (2003 Mar 27) *Oncogene*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

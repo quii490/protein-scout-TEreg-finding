@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 12 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 27257088: Ttll9-/- mice sperm flagella show shortening of doublet 7, reduction of doublet 5 polyglutamylation and a stall in beating. (2016 Jul 15) *J Cell Sci*
+2. PMID 34028060: Targeted sequencing reveals candidate causal variants for dairy bull subfertility. (2021 Aug) *Anim Genet*
+3. PMID 24196831: A conserved flagella-associated protein in Chlamydomonas, FAP234, is essential for axonemal localization of tubulin polyglutamylase TTLL9. (2014 Jan) *Mol Biol Cell*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 55 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 20301301: Primary Ciliary Dyskinesia. (1993) **
+2. PMID 39256880: Association of novel DNAH11 variants with asthenoteratozoospermia lead to male infertility. (2024 Sep 11) *Hum Genomics*
+3. PMID 18950741: DNAI2 mutations cause primary ciliary dyskinesia with defects in the outer dynein arm. (2008 Nov) *Am J Hum Genet*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

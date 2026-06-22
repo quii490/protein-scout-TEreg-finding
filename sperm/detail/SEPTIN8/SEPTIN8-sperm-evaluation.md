@@ -30,7 +30,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 25 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 39863862: Identification of novel cytoskeleton protein involved in spermatogenic cells and sertoli cells of non-obstructive azoospermia based on microarray and bioinformatics analysis. (2025 Jan 25) *BMC Med Genomics*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

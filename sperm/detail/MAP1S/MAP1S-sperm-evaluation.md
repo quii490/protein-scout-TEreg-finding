@@ -30,7 +30,8 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 69 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 36379263: Profiling the male germline genome to unravel its reproductive potential. (2023 Feb) *Fertil Steril*
+2. PMID 14627543: Identification and characterization of human VCY2-interacting protein: VCY2IP-1, a microtubule-associated protein-like protein. (2004 Mar) *Biol Reprod*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

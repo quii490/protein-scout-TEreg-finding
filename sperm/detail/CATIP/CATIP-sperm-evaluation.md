@@ -30,7 +30,8 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 11 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 32503832: Mutation in CATIP (C2orf62) causes oligoteratoasthenozoospermia by affecting actin dynamics. (2020 Jun 5) *J Med Genet*
+2. PMID 24475127: C2orf62 and TTC17 are involved in actin organization and ciliogenesis in zebrafish and human. (2014) *PLoS One*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

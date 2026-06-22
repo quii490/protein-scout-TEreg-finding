@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 22 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 37236356: The cilia and flagella associated protein CFAP52 orchestrated with CFAP45 is required for sperm motility in mice. (2023 Jul) *J Biol Chem*
+2. PMID 33139725: CFAP45 deficiency causes situs abnormalities and asthenospermia by disrupting an axonemal adenine nucleotide homeostasis module. (2020 Nov 2) *Nat Commun*
+3. PMID 38847481: Male infertility and perfluoroalkyl and poly-fluoroalkyl substances: evidence for alterations in phosphorylation of proteins and fertility-related functional attributes in bull spermatozoa†. (2024 Sep 14) *Biol Reprod*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

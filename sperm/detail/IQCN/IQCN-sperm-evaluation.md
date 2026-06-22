@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 10 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 39872118: Biallelic mutations in IQCN, encoding a novel acroplaxome protein, lead to fertilization failure and male infertility with defects in the acrosome and shaping of the spermatid head in humans and mice. (2023 Apr) *Life Med*
+2. PMID 41602861: IQ motif family genes in male infertility: pathogenesis, mechanisms, and clinical perspectives. (2025) *Front Reprod Health*
+3. PMID 37140151: Biallelic variants in IQCN cause sperm flagellar assembly defects and male infertility. (2023 Jul 5) *Hum Reprod*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

@@ -30,7 +30,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 4 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 35207567: Omics and Male Infertility: Highlighting the Application of Transcriptomic Data. (2022 Feb 14) *Life (Basel)*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

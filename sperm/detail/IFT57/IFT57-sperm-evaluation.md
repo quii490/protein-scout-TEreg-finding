@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 67 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 28104816: IFT57 stabilizes the assembled intraflagellar transport complex and mediates transport of motility-related flagellar cargo. (2017 Mar 1) *J Cell Sci*
+2. PMID 40728639: ZO-2 is a scaffold at the centriole and mitotic spindle poles that enhances microtubule stability and supports the proper development of mitotic spindles and cilia. (2025 Oct) *Cell Tissue Res*
+3. PMID 32233951: The essential role of intraflagellar transport protein IFT81 in male mice spermiogenesis and fertility. (2020 Jun 1) *Am J Physiol Cell Physiol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

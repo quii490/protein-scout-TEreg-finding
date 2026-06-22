@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 33 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 26748928: Acrosome markers of human sperm. (2016 Mar) *Anat Sci Int*
+2. PMID 37230456: Effects of cryopreservation in the presence of Natural Deep Eutectic Solvents (NADESs) on sperm parameters. (2023 Sep) *Cryobiology*
+3. PMID 37657147: Comparing ovarian expression of sperm acrosome associated 3 protein in young and adult queens. (2023 Nov) *Theriogenology*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

@@ -30,7 +30,8 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 8 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 41668650: Actin-related protein T3 is required for acrosome biogenesis and sperm function in mice. (2026 Feb 1) *Development*
+2. PMID 18692047: Nuclear localization of profilin III-ArpM1 complex in mouse spermiogenesis. (2008 Sep 3) *FEBS Lett*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

@@ -30,7 +30,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 3 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 25074808: Proteomic analysis of mammalian sperm cells identifies new components of the centrosome. (2014 Oct 1) *J Cell Sci*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

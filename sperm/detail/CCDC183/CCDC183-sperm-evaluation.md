@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 14 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 37882665: CCDC183 is essential for cytoplasmic invagination around the flagellum during spermiogenesis and male fertility. (2023 Nov 1) *Development*
+2. PMID 37038005: Multimodal immunogenomic biomarker analysis of tumors from pediatric patients enrolled to a phase 1-2 study of single-agent atezolizumab. (2023 Apr) *Nat Cancer*
+3. PMID 36446526: Transcriptome analyses in infertile men reveal germ cell-specific expression and splicing patterns. (2023 Feb) *Life Sci Alliance*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 19 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 35547812: Hdh-Tektin-4 Regulates Motility of Fresh and Cryopreserved Sperm in Pacific Abalone, Haliotis discus hannai. (2022) *Front Cell Dev Biol*
+2. PMID 18951373: Tektin 3 is required for progressive sperm motility in mice. (2009 May) *Mol Reprod Dev*
+3. PMID 17244819: Absence of tektin 4 causes asthenozoospermia and subfertility in male mice. (2007 Apr) *FASEB J*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

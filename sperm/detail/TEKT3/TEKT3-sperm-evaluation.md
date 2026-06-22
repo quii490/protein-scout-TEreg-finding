@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 27 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 40649876: Age-Associated Proteomic Changes in Human Spermatozoa. (2025 Jun 25) *Int J Mol Sci*
+2. PMID 36708031: Bi-allelic human TEKT3 mutations cause male infertility with oligoasthenoteratozoospermia owing to acrosomal hypoplasia and reduced progressive motility. (2023 May 5) *Hum Mol Genet*
+3. PMID 38799722: Sperm long non-coding RNAs as markers for ram fertility. (2024) *Front Vet Sci*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

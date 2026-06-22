@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 41 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 26153462: A novel family of katanin-like 2 protein isoforms (KATNAL2), interacting with nucleotide-binding proteins Nubp1 and Nubp2, are key regulators of different MT-based processes in mammalian cells. (2016 Jan) *Cell Mol Life Sci*
+2. PMID 23807208: The nucleotide-binding proteins Nubp1 and Nubp2 are negative regulators of ciliogenesis. (2014 Feb) *Cell Mol Life Sci*
+3. PMID 7926816: Cloning of a human cDNA encoding a putative nucleotide-binding protein related to Escherichia coli MinD. (1994 Sep 30) *Gene*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

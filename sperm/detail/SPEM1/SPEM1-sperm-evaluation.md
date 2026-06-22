@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 18 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 36896575: The human sperm proteome-Toward a panel for male fertility testing. (2023 Oct) *Andrology*
+2. PMID 17426145: Lack of Spem1 causes aberrant cytoplasm removal, sperm deformation, and male infertility. (2007 Apr 17) *Proc Natl Acad Sci U S A*
+3. PMID 20558241: UBQLN1 interacts with SPEM1 and participates in spermiogenesis. (2010 Oct 7) *Mol Cell Endocrinol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

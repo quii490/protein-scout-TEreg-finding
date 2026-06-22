@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 42 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 28207750: Functional exploration of the IFT-A complex in intraflagellar transport and ciliogenesis. (2017 Feb) *PLoS Genet*
+2. PMID 21378380: C14ORF179 encoding IFT43 is mutated in Sensenbrenner syndrome. (2011 Jun) *J Med Genet*
+3. PMID 22170070: Subunit interactions and organization of the Chlamydomonas reinhardtii intraflagellar transport complex A proteins. (2012 Apr 6) *J Biol Chem*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

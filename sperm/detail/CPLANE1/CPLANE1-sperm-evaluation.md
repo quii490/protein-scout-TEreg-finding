@@ -30,7 +30,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 66 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 33573944: Genome-wide association studies for sperm traits in Assaf sheep breed. (2021 Feb) *Animal*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

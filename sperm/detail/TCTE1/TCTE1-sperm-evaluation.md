@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 19 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 38650655: Effects of Tcte1 knockout on energy chain transportation and spermatogenesis: implications for male infertility. (2024) *Hum Reprod Open*
+2. PMID 35388187: Bi-allelic variants in human TCTE1/DRC5 cause asthenospermia and male infertility. (2022 Jun) *Eur J Hum Genet*
+3. PMID 28630322: TCTE1 is a conserved component of the dynein regulatory complex and is required for motility and metabolism in mouse spermatozoa. (2017 Jul 3) *Proc Natl Acad Sci U S A*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 19 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 20301301: Primary Ciliary Dyskinesia. (1993) **
+2. PMID 39849482: IQUB mutation induces radial spoke 1 deficiency causing asthenozoospermia with normal sperm morphology in humans and mice. (2025 Jan 23) *Cell Commun Signal*
+3. PMID 37670815: Transcriptomic signatures for human male infertility. (2023) *Front Mol Biosci*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

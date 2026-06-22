@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 12 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 41527940: SPACA4 regulates the structure and molecular basis of spermatid maturation and ultimately affects sperm quality in mice. (2026 May 1) *Asian J Androl*
+2. PMID 37377732: Spermatogenic cell-specific SPACA4 is essential for efficient sperm-zona pellucida binding in vitro. (2023) *Front Cell Dev Biol*
+3. PMID 34556579: The conserved fertility factor SPACA4/Bouncer has divergent modes of action in vertebrate fertilization. (2021 Sep 28) *Proc Natl Acad Sci U S A*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

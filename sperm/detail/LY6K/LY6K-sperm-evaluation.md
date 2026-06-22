@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 71 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 36805500: Lymphocyte antigen 6K signaling to aurora kinase promotes advancement of the cell cycle and the growth of cancer cells, which is inhibited by LY6K-NSC243928 interaction. (2023 Apr 1) *Cancer Lett*
+2. PMID 37628960: Experimental and Computational Studies Reveal Novel Interaction of Lymphocytes Antigen 6K to TGF-β Receptor Complex. (2023 Aug 14) *Int J Mol Sci*
+3. PMID 33860139: Prognostic impact of LY6K and CDCA1 expression for patients with esophageal squamous cell carcinoma. (2021 Mar) *Ann Gastroenterol Surg*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

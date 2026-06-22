@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 5 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 33238277: Fertility Relevance Probability Analysis Shortlists Genetic Markers for Male Fertility Impairment. (2020) *Cytogenet Genome Res*
+2. PMID 29563520: The evolutionarily conserved genes: Tex37, Ccdc73, Prss55 and Nxt2 are dispensable for fertility in mice. (2018 Mar 21) *Sci Rep*
+3. PMID 35709667: Mixed model-based eQTL analysis reveals lncRNAs associated with regulation of genes involved in sex determination and spermatogenesis: The key to understanding human gender imbalance. (2022 Aug) *Comput Biol Chem*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

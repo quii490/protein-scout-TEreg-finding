@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 6 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 34290169: CRISPR/Cas9-mediated genome editing reveals 12 testis-enriched genes dispensable for male fertility in mice. (2022 May-Jun) *Asian J Androl*
+2. PMID 38733656: Identification of a novel mutation in chibby family member 2 in a non-obstructive azoospermic patient. (2024 Jun) *Reprod Biol*
+3. PMID 39961484: Comparative proteomics and phosphoproteomics analysis reveals differential sperm motility in Mediterranean buffalo semen. (2025 May 15) *J Proteomics*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

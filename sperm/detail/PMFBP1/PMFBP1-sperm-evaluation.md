@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 30 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 39417902: Genetic etiological spectrum of sperm morphological abnormalities. (2024 Nov) *J Assist Reprod Genet*
+2. PMID 34389728: The missing linker between SUN5 and PMFBP1 in sperm head-tail coupling apparatus. (2021 Aug 13) *Nat Commun*
+3. PMID 39726222: A homozygous loss-of-function mutation in CEP250 is associated with acephalic spermatozoa syndrome in humans. (2025 Jul) *Andrology*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

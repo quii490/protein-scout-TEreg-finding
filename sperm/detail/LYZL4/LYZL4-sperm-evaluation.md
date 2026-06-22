@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 15 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 22110709: Characterization of a novel lysozyme-like 4 gene in the rat. (2011) *PLoS One*
+2. PMID 38669244: Age-dependent changes in the expression and localization of LYZL4, LYZL6 and PCNA during testicular development in the Ashidan yak. (2024 Nov) *Anim Biotechnol*
+3. PMID 29658230: [Preparation of a polyclonal antibody against human LYZL4 and its expression in the testis]. (2017 Jan) *Zhonghua Nan Ke Xue*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

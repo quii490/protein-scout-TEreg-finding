@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 15 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 26771610: Optimizing a Male Reproductive Aging Mouse Model by D-Galactose Injection. (2016 Jan 13) *Int J Mol Sci*
+2. PMID 33285124: Comparison of spermatozoal RNA extraction methods in goats. (2021 Feb 1) *Anal Biochem*
+3. PMID 31134708: Proteomic markers of low and high fertility bovine spermatozoa separated by Percoll gradient. (2019 Aug) *Mol Reprod Dev*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

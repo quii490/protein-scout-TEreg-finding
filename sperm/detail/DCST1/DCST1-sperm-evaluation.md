@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 41 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 40138310: Noncanonical phagocytosis-like SEAL establishes mammalian fertilization. (2025 Apr 22) *Cell Rep*
+2. PMID 35393517: Sperm membrane proteins DCST1 and DCST2 are required for sperm-egg interaction in mice and fish. (2022 Apr 7) *Commun Biol*
+3. PMID 40058809: Molecular mechanisms leading to gamete fusion. (2025 Jul 3) *Fukushima J Med Sci*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

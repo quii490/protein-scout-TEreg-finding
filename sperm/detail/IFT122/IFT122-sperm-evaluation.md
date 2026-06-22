@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 59 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 11242542: Cloning and characterization of human WDR10, a novel gene located at 3q21 encoding a WD-repeat protein that is highly expressed in pituitary and testis. (2001 Jan) *DNA Cell Biol*
+2. PMID 36593121: Biallelic mutations in CFAP54 cause male infertility with severe MMAF and NOA. (2023 Aug) *J Med Genet*
+3. PMID 36945534: Label-free proteomic comparison reveals ciliary and non-ciliary phenotypes of IFT-A mutants. (2023 Mar 9) *bioRxiv*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

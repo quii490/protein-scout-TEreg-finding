@@ -30,7 +30,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 16 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 15385169: Enkurin is a novel calmodulin and TRPC channel binding protein in sperm. (2004 Oct 15) *Dev Biol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

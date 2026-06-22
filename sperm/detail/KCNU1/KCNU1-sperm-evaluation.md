@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 50 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 22441763: Ion channels in sperm physiology and male fertility and infertility. (2012 Sep-Oct) *J Androl*
+2. PMID 35551387: Bi-allelic variants in KCNU1 cause impaired acrosome reactions and male infertility. (2022 Jun 30) *Hum Reprod*
+3. PMID 27194351: Sperm Capacitation and Acrosome Reaction in Mammalian Sperm. (2016) *Adv Anat Embryol Cell Biol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

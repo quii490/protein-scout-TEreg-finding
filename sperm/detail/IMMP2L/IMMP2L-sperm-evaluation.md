@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 95 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 32141651: Lycium barbarum polysaccharide protects against ethanol-induced spermiotoxicity and testicular degeneration in Immp2l(+/-) mice. (2020 May) *Andrologia*
+2. PMID 35095490: Guilingji Protects Against Spermatogenesis Dysfunction From Oxidative Stress via Regulation of MAPK and Apoptotic Signaling Pathways in Immp2l Mutant Mice. (2021) *Front Pharmacol*
+3. PMID 22569411: Oxidative stress is involved in age-dependent spermatogenic damage of Immp2l mutant mice. (2012 Jun 1-15) *Free Radic Biol Med*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

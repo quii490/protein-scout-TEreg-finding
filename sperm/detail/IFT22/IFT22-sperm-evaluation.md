@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 12 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 31953262: Intraflagellar transport protein RABL5/IFT22 recruits the BBSome to the basal body through the GTPase ARL6/BBS3. (2020 Feb 4) *Proc Natl Acad Sci U S A*
+2. PMID 30940671: Binding of IFT22 to the intraflagellar transport complex is essential for flagellum assembly. (2019 May 2) *EMBO J*
+3. PMID 22076686: The RABL5 homolog IFT22 regulates the cellular pool size and the amount of IFT particles partitioned to the flagellar compartment in Chlamydomonas reinhardtii. (2012 Jan) *Cytoskeleton (Hoboken)*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

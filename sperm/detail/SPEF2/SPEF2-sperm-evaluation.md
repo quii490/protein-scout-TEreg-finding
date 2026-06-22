@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 75 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 20301301: Primary Ciliary Dyskinesia. (1993) **
+2. PMID 34932939: Bi-allelic variants in DNHD1 cause flagellar axoneme defects and asthenoteratozoospermia in humans and mice. (2022 Jan 6) *Am J Hum Genet*
+3. PMID 34755699: Sperm flagellar 2 (SPEF2) is essential for sperm flagellar assembly in humans. (2022 Jul-Aug) *Asian J Androl*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

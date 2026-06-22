@@ -30,7 +30,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 1 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 20850414: The testis-specific VAD1.3/AEP1 interacts with β-actin and syntaxin 1 and directs peri-nuclear/Golgi expression with bipartite nucleus localization (BNL) sequence. (2010 Oct 15) *Biochem Biophys Res Commun*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

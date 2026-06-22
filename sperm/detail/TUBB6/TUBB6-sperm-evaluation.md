@@ -30,7 +30,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 72 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 36538967: Changes on proteomic and metabolomic profiling of cryopreserved sperm effected by melatonin. (2023 Feb 20) *J Proteomics*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

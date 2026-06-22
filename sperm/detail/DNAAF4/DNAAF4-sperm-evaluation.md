@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 83 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 20301301: Primary Ciliary Dyskinesia. (1993) **
+2. PMID 35903363: Case Report: DNAAF4 Variants Cause Primary Ciliary Dyskinesia and Infertility in Two Han Chinese Families. (2022) *Front Genet*
+3. PMID 35873488: Strongly Truncated Dnaaf4 Plays a Conserved Role in Drosophila Ciliary Dynein Assembly as Part of an R2TP-Like Co-Chaperone Complex With Dnaaf6. (2022) *Front Genet*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

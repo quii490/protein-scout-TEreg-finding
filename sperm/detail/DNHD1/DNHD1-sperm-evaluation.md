@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 16 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 34932939: Bi-allelic variants in DNHD1 cause flagellar axoneme defects and asthenoteratozoospermia in humans and mice. (2022 Jan 6) *Am J Hum Genet*
+2. PMID 36270636: Chromosome 17 translocation affects sperm morphology: Two case studies and literature review. (2022 Dec) *Andrologia*
+3. PMID 36768883: New Mutations in DNHD1 Cause Multiple Morphological Abnormalities of the Sperm Flagella. (2023 Jan 29) *Int J Mol Sci*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

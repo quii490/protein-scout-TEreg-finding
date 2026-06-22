@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 69 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 36552898: Single-Cell RNAseq Resolve the Potential Effects of LanCL1 Gene in the Mouse Testis. (2022 Dec 19) *Cells*
+2. PMID 35469022: Animal models of male subfertility targeted on LanCL1-regulated spermatogenic redox homeostasis. (2022 May) *Lab Anim (NY)*
+3. PMID 11376939: Characterization of rat LANCL1, a novel member of the lanthionine synthetase C-like protein family, highly expressed in testis and brain. (2001 May 16) *Gene*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

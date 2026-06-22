@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 15 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 40068345: Comparative proteomic and transcriptomic analysis of testicular tissue of yaks with or without cryptorchidism. (2025 Jun) *Theriogenology*
+2. PMID 35736136: H3K36me2 methyltransferase NSD2 orchestrates epigenetic reprogramming during spermatogenesis. (2022 Jul 8) *Nucleic Acids Res*
+3. PMID 31437213: The PSMA8 subunit of the spermatoproteasome is essential for proper meiotic exit and mouse fertility. (2019 Aug) *PLoS Genet*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

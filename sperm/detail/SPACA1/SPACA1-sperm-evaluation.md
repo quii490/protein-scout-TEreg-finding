@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 46 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 26748928: Acrosome markers of human sperm. (2016 Mar) *Anat Sci Int*
+2. PMID 35654582: FSIP2 plays a role in the acrosome development during spermiogenesis. (2023 Mar) *J Med Genet*
+3. PMID 39613497: Sperm acrosome-associated 1 (SPACA1) mRNA and protein molecules deficiency indicate low fertility and semen quality of Bali bulls (Bos sondaicus). (2025 Feb) *Theriogenology*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

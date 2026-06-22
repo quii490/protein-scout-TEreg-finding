@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 77 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 27831554: The control of male fertility by spermatid-specific factors: searching for contraceptive targets from spermatozoon's head to tail. (2016 Nov 10) *Cell Death Dis*
+2. PMID 41428164: FK506 binding protein 12.6-mediated inhibition of sperm-specific calcineurin is essential for FK506-induced male infertility by disturbing the homeostasis of calcium and mitochondria. (2025 Dec 22) *Mol Biomed*
+3. PMID 26429887: Sperm calcineurin inhibition prevents mouse fertility with implications for male contraceptive. (2015 Oct 23) *Science*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

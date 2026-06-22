@@ -30,7 +30,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 2 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 42182320: The SPARK complex forms the molecular basis of vertebrate fertilization. (2026 May 15) *bioRxiv*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

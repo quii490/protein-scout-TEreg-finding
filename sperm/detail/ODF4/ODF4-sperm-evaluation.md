@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 17 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 36804949: The association of ODF4 with AK1 and AK2 in mice is essential for fertility through its contribution to flagellar shape. (2023 Feb 20) *Sci Rep*
+2. PMID 22588436: Expression of testis-specific genes, TEX101 and ODF4, in chronic myeloid leukemia and evaluation of TEX101 immunogenicity. (2012 May-Jun) *Ann Saudi Med*
+3. PMID 28865418: ODF4, MAGEA3, and MAGEB4: Potential Biomarkers in Patients with Transitional Cell Carcinoma. (2018 May 1) *Iran Biomed J*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

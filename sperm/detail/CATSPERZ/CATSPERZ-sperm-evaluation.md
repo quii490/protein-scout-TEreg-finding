@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 4 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 37874861: Integrated single cell transcriptome sequencing analysis reveals species-specific genes and molecular pathways for pig spermiogenesis. (2023 Dec) *Reprod Domest Anim*
+2. PMID 28226241: CatSperζ regulates the structural continuity of sperm Ca(2+) signaling domains and is required for normal fertility. (2017 Feb 23) *Elife*
+3. PMID 30239785: Homozygous in-frame deletion in CATSPERE in a man producing spermatozoa with loss of CatSper function and compromised fertilizing capacity. (2018 Oct 1) *Hum Reprod*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 26 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 25564608: In situ localization of N and C termini of subunits of the flagellar nexin-dynein regulatory complex (N-DRC) using SNAP tag and cryo-electron tomography. (2015 Feb 27) *J Biol Chem*
+2. PMID 38769386: Homozygous variant in DRC3 (LRRC48) gene causes asthenozoospermia and male infertility. (2024 Aug) *J Hum Genet*
+3. PMID 38650655: Effects of Tcte1 knockout on energy chain transportation and spermatogenesis: implications for male infertility. (2024) *Hum Reprod Open*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

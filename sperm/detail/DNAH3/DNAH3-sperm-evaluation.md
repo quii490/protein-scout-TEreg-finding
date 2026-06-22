@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 33 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 41731497: DNAH3 interacts with DNALI1 and is required for sperm flagellum function and male fertility. (2026 Feb 23) *Reprod Biol Endocrinol*
+2. PMID 38312775: Bi-allelic variants in DNAH3 cause male infertility with asthenoteratozoospermia in humans and mice. (2024) *Hum Reprod Open*
+3. PMID 39503742: DNAH3 deficiency causes flagellar inner dynein arm loss and male infertility in humans and mice. (2024 Nov 6) *Elife*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

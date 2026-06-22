@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 10 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 20301301: Primary Ciliary Dyskinesia. (1993) **
+2. PMID 39180133: Characterization of pathogenic genetic variants in Russian patients with primary ciliary dyskinesia using gene panel sequencing and transcript analysis. (2024 Aug 23) *Orphanet J Rare Dis*
+3. PMID 28513607: Variants in TTC25 affect autistic trait in patients with autism spectrum disorder and general population. (2017 Aug) *Eur J Hum Genet*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

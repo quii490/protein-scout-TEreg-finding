@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 78 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 26748928: Acrosome markers of human sperm. (2016 Mar) *Anat Sci Int*
+2. PMID 41338461: ZNF280A and ACRV1 enhance aerobic glycolysis and drive ovarian cancer progression via the PI3K/AKT signaling pathway. (2026 Jan) *J Biol Chem*
+3. PMID 37239343: Generation and Characterization of a Transgenic Mouse That Specifically Expresses the Cre Recombinase in Spermatids. (2023 Apr 27) *Genes (Basel)*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

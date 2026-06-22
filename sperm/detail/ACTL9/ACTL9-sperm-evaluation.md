@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 25 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 37212058: Exonic genetic variants associated with unexpected fertilization failure and zygotic arrest after ICSI: a systematic review. (2023 Aug) *Zygote*
+2. PMID 36306217: Testis-specific serine kinase 3 is required for sperm morphogenesis and male fertility. (2023 Jul) *Andrology*
+3. PMID 38414365: Deletion of ACTRT1 is associated with male infertility as sperm acrosomal ultrastructural defects and fertilization failure in human. (2024 May 2) *Hum Reprod*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

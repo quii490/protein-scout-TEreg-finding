@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 35 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 22817830: Developmental expression and function of DKKL1/Dkkl1 in humans and mice. (2012 Jul 21) *Reprod Biol Endocrinol*
+2. PMID 41913266: Testis-specific lncRNA Teshl regulates acrosome biogenesis to maintain sperm structure and function. (2026 Mar 30) *Cell Biosci*
+3. PMID 15892050: DkkL1 (Soggy), a Dickkopf family member, localizes to the acrosome during mammalian spermatogenesis. (2005 Aug) *Mol Reprod Dev*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

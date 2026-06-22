@@ -30,7 +30,8 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 72 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 35401545: Flagella at the Host-Microbe Interface: Key Functions Intersect With Redundant Responses. (2022) *Front Immunol*
+2. PMID 25568322: Discovery, primary, and crystal structures and capacitation-related properties of a prostate-derived heparin-binding protein WGA16 from boar sperm. (2015 Feb 27) *J Biol Chem*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

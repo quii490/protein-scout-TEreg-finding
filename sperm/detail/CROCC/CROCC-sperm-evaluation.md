@@ -30,7 +30,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 54 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 17971504: Tissue expression patterns identify mouse cilia genes. (2008 Jan 17) *Physiol Genomics*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

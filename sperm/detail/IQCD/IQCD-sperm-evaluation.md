@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 20 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 41602861: IQ motif family genes in male infertility: pathogenesis, mechanisms, and clinical perspectives. (2025) *Front Reprod Health*
+2. PMID 30712531: IQ motif containing D (IQCD), a new acrosomal protein involved in the acrosome reaction and fertilisation. (2019 Apr) *Reprod Fertil Dev*
+3. PMID 31039996: Corrigendum to: IQ motif containing D (IQCD), a new acrosomal protein involved in the acrosome reaction and fertilisation. (2019 Apr) *Reprod Fertil Dev*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

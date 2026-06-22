@@ -30,7 +30,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 41 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 16533358: Expression profiles and single-nucleotide polymorphism analysis of human HANP1/H1T2 encoding a histone H1-like protein. (2006 Apr) *Int J Androl*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

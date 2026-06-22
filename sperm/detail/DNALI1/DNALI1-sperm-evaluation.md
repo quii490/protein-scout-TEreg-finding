@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 51 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 41731497: DNAH3 interacts with DNALI1 and is required for sperm flagellum function and male fertility. (2026 Feb 23) *Reprod Biol Endocrinol*
+2. PMID 37083624: DNALI1 interacts with the MEIG1/PACRG complex within the manchette and is required for proper sperm flagellum assembly in mice. (2023 Apr 21) *Elife*
+3. PMID 37993789: Dnali1 is required for sperm motility and male fertility in mice. (2023 Nov 23) *Basic Clin Androl*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

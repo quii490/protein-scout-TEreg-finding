@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 16 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 28868326: Evolution of Vertebrate Solute Carrier Family 9B Genes and Proteins (SLC9B): Evidence for a Marsupial Origin for Testis Specific SLC9B1 from an Ancestral Vertebrate SLC9B2 Gene. (2016 Aug) *J Phylogenetics Evol Biol*
+2. PMID 35694410: The Less Well-Known Little Brothers: The SLC9B/NHA Sodium Proton Exchanger Subfamily-Structure, Function, Regulation and Potential Drug-Target Approaches. (2022) *Front Physiol*
+3. PMID 24337822: Traditional and emerging roles for the SLC9 Na+/H+ exchangers. (2014 Jan) *Pflugers Arch*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

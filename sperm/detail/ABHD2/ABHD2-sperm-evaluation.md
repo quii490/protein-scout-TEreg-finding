@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 66 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 32645906: Semen Modulates the Expression of NGF, ABHD2, VCAN, and CTEN in the Reproductive Tract of Female Rabbits. (2020 Jul 7) *Genes (Basel)*
+2. PMID 31525885: ABHD2 Inhibitor Identified by Activity-Based Protein Profiling Reduces Acrosome Reaction. (2019 Oct 18) *ACS Chem Biol*
+3. PMID 37298205: Membrane Cholesterol Inhibits Progesterone-Mediated Sperm Function through the Possible Involvement of ABHD2. (2023 May 25) *Int J Mol Sci*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

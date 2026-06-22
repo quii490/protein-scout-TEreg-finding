@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 21 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 39267058: Whole exome sequencing analysis of 167 men with primary infertility. (2024 Sep 12) *BMC Med Genomics*
+2. PMID 40146200: Deficiency in DNAH12 causes male infertility by impairing DNAH1 and DNALI1 recruitment in humans and mice. (2025 Mar 27) *Elife*
+3. PMID 39849482: IQUB mutation induces radial spoke 1 deficiency causing asthenozoospermia with normal sperm morphology in humans and mice. (2025 Jan 23) *Cell Commun Signal*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

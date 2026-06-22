@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 7 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 37865089: De novo protein identification in mammalian sperm using in situ cryoelectron tomography and AlphaFold2 docking. (2023 Nov 9) *Cell*
+2. PMID 42286192: SPACA9 and MNMIP1 bridge the seam of spermatid manchette microtubules. (2026 Jun 12) *EMBO J*
+3. PMID 36191189: SPACA9 is a lumenal protein of human ciliary singlet and doublet microtubules. (2022 Oct 11) *Proc Natl Acad Sci U S A*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

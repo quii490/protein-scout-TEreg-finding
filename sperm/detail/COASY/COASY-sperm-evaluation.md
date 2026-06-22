@@ -30,7 +30,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 81 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 42193221: Levels of Protein CoAlation Regulate Redox Signaling Events of Human Sperm Capacitation. (2026 May 9) *Antioxidants (Basel)*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

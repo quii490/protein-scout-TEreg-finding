@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 80 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 37950557: A splice donor variant of GAS8 induces structural disorganization of the axoneme in sperm flagella and leads to nonsyndromic male infertility. (2024 Feb) *Clin Genet*
+2. PMID 41460250: ANKEF1 is a key axonemal component essential for murine sperm motility and male fertility. (2025 Dec 29) *Elife*
+3. PMID 27120127: Mutations in GAS8, a Gene Encoding a Nexin-Dynein Regulatory Complex Subunit, Cause Primary Ciliary Dyskinesia with Axonemal Disorganization. (2016 Aug) *Hum Mutat*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 28 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 33901807: Bi-allelic mutation in Fsip1 impairs acrosome vesicle formation and attenuates flagellogenesis in mice. (2021 Jul) *Redox Biol*
+2. PMID 12606363: A-kinase anchoring protein 4 binding proteins in the fibrous sheath of the sperm flagellum. (2003 Jun) *Biol Reprod*
+3. PMID 41097635: The FSIP Family: Roles in Health and Cancer. (2025 Sep 24) *Cancers (Basel)*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

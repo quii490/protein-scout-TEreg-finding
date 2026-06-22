@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 28 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 35207567: Omics and Male Infertility: Highlighting the Application of Transcriptomic Data. (2022 Feb 14) *Life (Basel)*
+2. PMID 30362892: Expression analysis of a panel of cancer-testis antigens in bladder cancer. (2018 Nov) *Per Med*
+3. PMID 40501626: Kinesin drive meiotic chromosome dynamics via interaction with the KASH5-LINC complex. (2025 May 29) *bioRxiv*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

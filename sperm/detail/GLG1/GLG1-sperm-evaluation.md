@@ -30,7 +30,8 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 51 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 15223842: Gene expression in the spermatogenically inactive "dark" and maturing "light" testicular tissues of the prepubertal colt. (2004 Jul-Aug) *J Androl*
+2. PMID 28218624: Loss of microRNA-7a2 induces hypogonadotropic hypogonadism and infertility. (2017 Mar 1) *J Clin Invest*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

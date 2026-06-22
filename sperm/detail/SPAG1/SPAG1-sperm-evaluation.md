@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 71 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 20301301: Primary Ciliary Dyskinesia. (1993) **
+2. PMID 33888993: Expression and Prognosis of Sperm-Associated Antigen 1 in Human Breast Cancer. (2021) *Onco Targets Ther*
+3. PMID 35951456: SPAG1 promotes the development of AML by activating the ERK/MAPK signaling pathway and affects the chemotherapy sensitivity of venetoclax. (2022 Sep) *Neoplasma*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

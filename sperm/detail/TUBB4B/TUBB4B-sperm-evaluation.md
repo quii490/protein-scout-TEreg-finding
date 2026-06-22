@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 93 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 20301301: Primary Ciliary Dyskinesia. (1993) **
+2. PMID 41943837: CFAP251 Deficiency Induces Male Infertility and PCD-like Ciliary Defects by Disrupting TUBB4B and SLC25A4 Recruitment in Humans and Mice. (2026) *Int J Biol Sci*
+3. PMID 35741845: Tubulin TUBB4B Is Involved in Spermatogonia Proliferation and Cell Cycle Processes. (2022 Jun 17) *Genes (Basel)*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

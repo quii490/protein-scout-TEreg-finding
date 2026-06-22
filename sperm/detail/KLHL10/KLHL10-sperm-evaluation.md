@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 31 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 34433733: The I510V mutation in KLHL10 in a patient with oligoasthenoteratozoospermia. (2021 Oct 29) *J Reprod Dev*
+2. PMID 41198842: The use of environmental RNA for inferring fish spawning behavior. (2025 Nov 6) *Sci Rep*
+3. PMID 15136734: Haploinsufficiency of kelch-like protein homolog 10 causes infertility in male mice. (2004 May 18) *Proc Natl Acad Sci U S A*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 9 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 41091706: A survey of human cancer-germline genes: Linking X chromosome localization, DNA methylation and sex-biased expression in early embryos. (2025 Oct) *PLoS Genet*
+2. PMID 35819657: FMR1NB Involved in Glioma Tumorigenesis Is a Promising Target for Prognosis and Therapy. (2022 Aug) *Curr Med Sci*
+3. PMID 38214607: Efficacy against Lung Cancer Is Augmented by Combining Aberrantly N-Glycosylated T Cells with a Chimeric Antigen Receptor Targeting Fragile X Mental Retardation 1 Neighbor. (2024 Mar 1) *J Immunol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

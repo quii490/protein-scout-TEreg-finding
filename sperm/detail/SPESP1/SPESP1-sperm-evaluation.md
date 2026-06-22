@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 30 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 38764260: Downregulated SPESP1-driven fibroblast senescence decreases wound healing in aged mice. (2024 May) *Clin Transl Med*
+2. PMID 26748928: Acrosome markers of human sperm. (2016 Mar) *Anat Sci Int*
+3. PMID 40649876: Age-Associated Proteomic Changes in Human Spermatozoa. (2025 Jun 25) *Int J Mol Sci*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

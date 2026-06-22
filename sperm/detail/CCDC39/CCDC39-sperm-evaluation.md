@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 93 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 20301301: Primary Ciliary Dyskinesia. (1993) **
+2. PMID 33005176: Ultrastructural Sperm Flagellum Defects in a Patient With CCDC39 Compound Heterozygous Mutations and Primary Ciliary Dyskinesia/Situs Viscerum Inversus. (2020) *Front Genet*
+3. PMID 36873931: Pathogenic gene variants in CCDC39, CCDC40, RSPH1, RSPH9, HYDIN, and SPEF2 cause defects of sperm flagella composition and male infertility. (2023) *Front Genet*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

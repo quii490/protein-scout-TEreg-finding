@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 83 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 22069478: TOPAZ1, a novel germ cell-specific expressed gene conserved during evolution across vertebrates. (2011) *PLoS One*
+2. PMID 26358182: TOPAZ1, a germ cell specific factor, is essential for male meiotic progression. (2015 Oct 15) *Dev Biol*
+3. PMID 34277642: Structural and Functional Characterization of a Testicular Long Non-coding RNA (4930463O16Rik) Identified in the Meiotic Arrest of the Mouse Topaz1 (-/-) Testes. (2021) *Front Cell Dev Biol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

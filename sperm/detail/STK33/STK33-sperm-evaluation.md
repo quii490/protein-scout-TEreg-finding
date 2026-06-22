@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 89 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 38781365: Reversible male contraception by targeted inhibition of serine/threonine kinase 33. (2024 May 24) *Science*
+2. PMID 39422082: Novel Genes of the Male Reproductive System: Potential Roles in Male Reproduction and as Non-hormonal Male Contraceptive Targets. (2024 Oct) *Mol Reprod Dev*
+3. PMID 37146716: STK33 Phosphorylates Fibrous Sheath Protein AKAP3/4 to Regulate Sperm Flagella Assembly in Spermiogenesis. (2023 Jun) *Mol Cell Proteomics*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

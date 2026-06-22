@@ -30,7 +30,8 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 48 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 36109576: Interphotoreceptor matrix proteoglycans IMPG1 and IMPG2 proteolyze in the SEA domain and reveal localization mutual dependency. (2022 Sep 15) *Sci Rep*
+2. PMID 39930241: Critical Roles of SEA Domains. (2025) *Adv Exp Med Biol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

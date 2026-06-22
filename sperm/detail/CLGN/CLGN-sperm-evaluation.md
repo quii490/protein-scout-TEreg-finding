@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 43 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 40783453: Disruption of TEX38 impairs sperm morphogenesis and the migration of sperm into the oviduct. (2025 Aug 9) *Commun Biol*
+2. PMID 16870943: Aberrant distribution of ADAM3 in sperm from both angiotensin-converting enzyme (Ace)- and calmegin (Clgn)-deficient mice. (2006 Nov) *Biol Reprod*
+3. PMID 34028541: Dissecting the PRSS37 interactome and potential mechanisms leading to ADAM3 loss in PRSS37-null sperm. (2021 May 15) *J Cell Sci*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

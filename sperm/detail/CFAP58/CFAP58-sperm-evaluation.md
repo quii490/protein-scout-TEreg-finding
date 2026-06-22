@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 14 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 38837026: Whole exome sequencing analyses reveal novel genes in telomere length and their biomedical implications. (2024 Oct) *Geroscience*
+2. PMID 31904090: The novel testicular enrichment protein Cfap58 is required for Notch-associated ciliogenesis. (2020 Jan 31) *Biosci Rep*
+3. PMID 38602507: CFAP58 is involved in the sperm head shaping and flagellogenesis of cattle and mice. (2024 Apr 1) *Development*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

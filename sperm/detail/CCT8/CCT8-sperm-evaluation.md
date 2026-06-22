@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 79 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 40613306: TUB-like protein 2, a substrate of CCT8, is essential for the intraflagellar transport during spermiogenesis in mice†. (2025 Nov 14) *Biol Reprod*
+2. PMID 21529916: Association of CRISP2, CCT8, PEBP1 mRNA abundance in sperm and sire conception rate in Holstein bulls. (2011 Aug) *Theriogenology*
+3. PMID 29095551: Genetic expansion of chaperonin-containing TCP-1 (CCT/TRiC) complex subunits yields testis-specific isoforms required for spermatogenesis in planarian flatworms. (2017 Dec) *Mol Reprod Dev*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

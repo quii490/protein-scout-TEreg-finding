@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 28 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 34028558: Ccdc103 promotes myeloid cell proliferation and migration independent of motile cilia. (2021 May 1) *Dis Model Mech*
+2. PMID 36777727: Case report: The CCDC103 variant causes ultrastructural sperm axonemal defects and total sperm immotility in a professional athlete without primary ciliary diskinesia. (2023) *Front Genet*
+3. PMID 31858719: The outer dynein arm assembly factor CCDC103 forms molecular scaffolds through multiple self-interaction sites. (2020 Jan) *Cytoskeleton (Hoboken)*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

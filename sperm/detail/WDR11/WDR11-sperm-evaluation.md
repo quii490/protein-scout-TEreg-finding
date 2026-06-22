@@ -30,7 +30,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 73 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 26199944: Novel FGFR1 and KISS1R Mutations in Chinese Kallmann Syndrome Males with Cleft Lip/Palate. (2015) *Biomed Res Int*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

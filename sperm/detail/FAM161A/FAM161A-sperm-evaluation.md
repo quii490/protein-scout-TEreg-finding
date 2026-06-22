@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 71 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 38351906: CP110 and CEP135 Localize Near the Proximal Centriolar Remnants of Mice Spermatozoa. (2024) *MicroPubl Biol*
+2. PMID 36896575: The human sperm proteome-Toward a panel for male fertility testing. (2023 Oct) *Andrology*
+3. PMID 20705279: Homozygosity mapping reveals null mutations in FAM161A as a cause of autosomal-recessive retinitis pigmentosa. (2010 Sep 10) *Am J Hum Genet*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

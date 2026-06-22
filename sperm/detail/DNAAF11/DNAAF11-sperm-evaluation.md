@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 17 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 20301301: Primary Ciliary Dyskinesia. (1993) **
+2. PMID 40694934: Gonadal sex differentiation in Eleutheronema tetradactylum: Histological features and transcriptomic insights from mature gonads. (2025 Dec) *Comp Biochem Physiol Part D Genomics Proteomics*
+3. PMID 35768906: Polymorphisms in the HSF2, LRRC6, MEIG1 and PTIP genes correlate with sperm motility in idiopathic infertility. (2022 Oct) *Andrologia*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

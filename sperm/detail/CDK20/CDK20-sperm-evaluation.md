@@ -30,7 +30,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 27 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 41385589: Activation of the ciliary kinase CDKL5 is mediated by the cyclin-dependent kinase CDK20/LF2 to control flagellar length. (2025 Dec) *PLoS Biol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

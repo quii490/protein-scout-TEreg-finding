@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 41 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 30709917: IFT25 is required for the construction of the trypanosome flagellum. (2019 Feb 22) *J Cell Sci*
+2. PMID 34888642: Impaired cooperation between IFT74/BBS22-IFT81 and IFT25-IFT27/BBS19 causes Bardet-Biedl syndrome. (2022 May 19) *Hum Mol Genet*
+3. PMID 19253336: Characterization of mouse IFT complex B. (2009 Aug) *Cell Motil Cytoskeleton*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

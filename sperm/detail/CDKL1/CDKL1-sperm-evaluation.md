@@ -30,7 +30,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 35 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 21747697: Zebrafish cyclin-dependent protein kinase-like 1 (zcdkl1): identification and functional characterization. (2011) *Int J Mol Sci*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

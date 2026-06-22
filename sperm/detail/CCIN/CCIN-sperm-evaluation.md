@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 50 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 39417902: Genetic etiological spectrum of sperm morphological abnormalities. (2024 Nov) *J Assist Reprod Genet*
+2. PMID 36546111: Mutations in CCIN cause teratozoospermia and male infertility. (2022 Oct 31) *Sci Bull (Beijing)*
+3. PMID 35654582: FSIP2 plays a role in the acrosome development during spermiogenesis. (2023 Mar) *J Med Genet*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

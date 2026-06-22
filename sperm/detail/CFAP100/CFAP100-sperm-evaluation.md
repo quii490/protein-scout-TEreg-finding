@@ -30,7 +30,8 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 3 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 40593606: CFAP100 couples microtubule glutamylation to spindle pole integrity in keratinocytes to promote epidermal development. (2025 Jul 1) *Nat Commun*
+2. PMID 37192300: The Bacillus cereus toxin alveolysin disrupts the intestinal epithelial barrier by inducing microtubule disorganization through CFAP100. (2023 May 16) *Sci Signal*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

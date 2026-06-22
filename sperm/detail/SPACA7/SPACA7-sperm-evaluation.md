@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 5 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 36462395: Characterization of SPINK2, SPACA7 and PDCL2: Effect of immunization on fecundity, sperm function and testicular transcriptome. (2023 Mar) *Reprod Biol*
+2. PMID 40295237: Causal relationships between gut microbiota and male reproductive inflammation and infertility: Insights from Mendelian randomization. (2025 Apr 25) *Medicine (Baltimore)*
+3. PMID 24307706: SPACA7 is a novel male germ cell-specific protein localized to the sperm acrosome that is involved in fertilization in mice. (2014 Jan) *Biol Reprod*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

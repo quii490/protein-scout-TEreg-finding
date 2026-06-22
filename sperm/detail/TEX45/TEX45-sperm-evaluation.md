@@ -30,7 +30,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 3 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 40649876: Age-Associated Proteomic Changes in Human Spermatozoa. (2025 Jun 25) *Int J Mol Sci*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

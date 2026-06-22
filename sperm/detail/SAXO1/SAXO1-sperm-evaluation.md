@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 5 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 40421755: SAXO proteins mediate tubulin turnover in axonemal microtubules of Chlamydomonas. (2025 Oct 15) *J Cell Sci*
+2. PMID 32814578: Large-scale discovery of male reproductive tract-specific genes through analysis of RNA-seq datasets. (2020 Aug 19) *BMC Biol*
+3. PMID 33200789: Acetylation/deacetylation and microtubule associated proteins influence flagellar axonemal stability and sperm motility. (2020 Dec 23) *Biosci Rep*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

@@ -30,7 +30,8 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 15 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 39472682: Alteration of the metabolite interconversion enzyme in sperm and Sertoli cell of non-obstructive azoospermia: a microarray data and in-silico analysis. (2024 Oct 29) *Sci Rep*
+2. PMID 35962316: Pnpla5-knockout rats exhibit reduced expression levels of proteins involved in steroid metabolism and wound healing compared to wild-type rats. (2022 Aug 12) *BMC Genomics*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

@@ -30,7 +30,8 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 28 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 23897886: Tubulin glycylases and glutamylases have distinct functions in stabilization and motility of ependymal cilia. (2013 Aug 5) *J Cell Biol*
+2. PMID 16443334: The testis-specific apoptosis related gene TTL.6 underwent adaptive evolution in the lineage leading to humans. (2006 Mar 29) *Gene*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

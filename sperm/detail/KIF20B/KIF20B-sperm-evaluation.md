@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 73 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 31260385: A Monoclonal Antibody to M-Phase Phosphoprotein 1/Kinesin-Like Protein KIF20B. (2019 Aug) *Monoclon Antib Immunodiagn Immunother*
+2. PMID 10473639: Biparental inheritance of gamma-tubulin during human fertilization: molecular reconstitution of functional zygotic centrosomes in inseminated human oocytes and in cell-free extracts nucleated by human sperm. (1999 Sep) *Mol Biol Cell*
+3. PMID 34065612: Cancer Testis Antigen, NOL4, Is an Immunogenic Antigen Specifically Expressed in Small-Cell Lung Cancer. (2021 May 20) *Curr Oncol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 17 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 35207567: Omics and Male Infertility: Highlighting the Application of Transcriptomic Data. (2022 Feb 14) *Life (Basel)*
+2. PMID 35485285: Role of testis‑specific serine kinase 1B in undiagnosed male infertility. (2022 Jun) *Mol Med Rep*
+3. PMID 23258646: Evolution of testis-specific kinases TSSK1B and TSSK2 in primates. (2013 Jan) *Andrology*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

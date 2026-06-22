@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 17 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 39349455: CEP112 coordinates translational regulation of essential fertility genes during spermiogenesis through phase separation in humans and mice. (2024 Sep 30) *Nat Commun*
+2. PMID 35685361: Integrative RNA profiling of TBEV-infected neurons and astrocytes reveals potential pathogenic effectors. (2022) *Comput Struct Biotechnol J*
+3. PMID 34792097: CFAP61 is required for sperm flagellum formation and male fertility in human and mouse. (2021 Dec 1) *Development*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

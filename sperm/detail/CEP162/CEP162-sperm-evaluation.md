@@ -30,7 +30,8 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 17 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 40270641: CEP162: A critical regulator of ciliary transition zone assembly and its implications in ciliopathies. (2025 Jun) *J Cell Commun Signal*
+2. PMID 41782374: Chronic Hypoxia Disrupts Spermatogenesis Through ASXL2-EZH2-Mediated Microtubule Destabilization. (2026 May) *Adv Sci (Weinh)*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

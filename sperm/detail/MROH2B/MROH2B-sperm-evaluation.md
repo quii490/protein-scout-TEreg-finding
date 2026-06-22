@@ -30,7 +30,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 2 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 39651266: An updated reference genome sequence and annotation reveals gene losses and gains underlying naked mole-rat biology. (2024 Nov 28) *bioRxiv*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

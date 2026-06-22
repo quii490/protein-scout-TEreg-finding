@@ -30,7 +30,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 8 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 38874855: Identification of high-risk non-synonymous SNPs (nsSNPs) in DNAH1 and DNAH17 genes associated with male infertility: a bioinformatics analysis. (2025 May) *J Appl Genet*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

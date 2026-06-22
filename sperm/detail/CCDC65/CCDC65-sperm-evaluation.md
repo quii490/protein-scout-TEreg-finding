@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 20 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 24152136: Methylation of structural components of the axoneme occurs during flagellar disassembly. (2013 Nov 26) *Biochemistry*
+2. PMID 37975235: CCDC65, encoding a component of the axonemal Nexin-Dynein regulatory complex, is required for sperm flagellum structure in humans. (2024 Mar) *Clin Genet*
+3. PMID 17089017: Cloning and characterization of a novel sperm tail protein, NYD-SP28. (2006 Dec) *Int J Mol Med*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

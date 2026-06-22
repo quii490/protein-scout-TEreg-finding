@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 28 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 12568724: Identification and characterization of ADAM32 with testis-predominant gene expression. (2003 Jan 30) *Gene*
+2. PMID 41042295: scRNA-seq deciphers molecular mechanisms of endocrine disruptor 4-nonylphenol impairing spermatogenesis in mice. (2025 Oct 3) *Cell Biol Toxicol*
+3. PMID 32972883: Normal fertility in male mice lacking ADAM32 with testis-specific expression. (2020 Dec) *Reprod Biol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

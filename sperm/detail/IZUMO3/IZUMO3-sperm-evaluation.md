@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 5 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 28975488: Association of TUSC1 and DPF3 gene polymorphisms with male infertility. (2018 Feb) *J Assist Reprod Genet*
+2. PMID 22957301: Positive Selection and the Evolution of izumo Genes in Mammals. (2012) *Int J Evol Biol*
+3. PMID 34114279: IZUMO family member 3, IZUMO3, is involved in male fertility through the acrosome formation. (2021 Jul) *Mol Reprod Dev*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

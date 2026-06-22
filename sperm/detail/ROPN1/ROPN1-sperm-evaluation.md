@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 33 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 23303679: Loss of R2D2 proteins ROPN1 and ROPN1L causes defects in murine sperm motility, phosphorylation, and fibrous sheath integrity. (2013 Feb) *Biol Reprod*
+2. PMID 38799722: Sperm long non-coding RNAs as markers for ram fertility. (2024) *Front Vet Sci*
+3. PMID 29247344: Molecular study of human sperm RNA: Ropporin and CABYR in asthenozoospermia. (2018 Jul) *J Endocrinol Invest*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

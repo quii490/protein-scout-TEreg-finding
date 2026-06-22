@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 4 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 39292630: Loss of CCDC188 causes male infertility with defects in the sperm head-neck connection in mice†. (2025 Jan 14) *Biol Reprod*
+2. PMID 41004021: Novel CCDC188 variants cause acephalic spermatozoa syndrome with poor intracytoplasmic sperm injection outcome. (2025 Nov) *J Assist Reprod Genet*
+3. PMID 38616611: Discovery of CCDC188 gene as a novel genetic target for human acephalic spermatozoa syndrome. (2024 Sep 1) *Protein Cell*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

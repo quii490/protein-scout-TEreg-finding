@@ -30,7 +30,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 5 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 15018803: A novel mRNA expressed along brain ventricles. (2002 Jan) *Brain Res Gene Expr Patterns*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

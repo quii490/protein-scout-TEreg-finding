@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 80 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 39233552: Expanding MNS1 Heterotaxy Phenotype. (2025 Jan) *Am J Med Genet A*
+2. PMID 31534215: MNS1 variant associated with situs inversus and male infertility. (2020 Jan) *Eur J Hum Genet*
+3. PMID 33037173: A novel homozygous frameshift mutation in MNS1 associated with severe oligoasthenoteratozoospermia in humans. (2021 Mar-Apr) *Asian J Androl*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 42 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 20301301: Primary Ciliary Dyskinesia. (1993) **
+2. PMID 19298648: Spatiotemporal association of DNAJB13 with the annulus during mouse sperm flagellum development. (2009 Mar 19) *BMC Dev Biol*
+3. PMID 35166991: A novel homozygous mutation in DNAJB13-a gene associated with the sperm axoneme-leads to teratozoospermia. (2022 Mar) *J Assist Reprod Genet*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

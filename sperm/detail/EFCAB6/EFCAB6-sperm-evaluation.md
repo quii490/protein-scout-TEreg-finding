@@ -30,7 +30,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 14 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 12612053: DJBP: a novel DJ-1-binding protein, negatively regulates the androgen receptor by recruiting histone deacetylase complex, and DJ-1 antagonizes this inhibition by abrogation of this complex. (2003 Feb) *Mol Cancer Res*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

@@ -30,7 +30,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 13 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 37951137: Participation of WD repeat-containing protein 54 (WDR54) in rat sperm-oocyte fusion through interaction with both IZUMO1 and JUNO. (2024 Jan 15) *Theriogenology*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 32 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 27965440: CFAP157 is a murine downstream effector of FOXJ1 that is specifically required for flagellum morphogenesis and sperm motility. (2016 Dec 15) *Development*
+2. PMID 28625565: The CEP19-RABL2 GTPase Complex Binds IFT-B to Initiate Intraflagellar Transport at the Ciliary Base. (2017 Jul 10) *Dev Cell*
+3. PMID 41882697: SIRT1 haploinsufficiency recapitulates age-associated subfertility through sperm α-tubulin hyperacetylation. (2026 Mar 25) *Biol Direct*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

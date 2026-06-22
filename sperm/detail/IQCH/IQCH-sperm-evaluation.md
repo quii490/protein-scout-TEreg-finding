@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 21 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 37520705: Identification of IQCH as a calmodulin-associated protein required for sperm motility in humans. (2023 Aug 18) *iScience*
+2. PMID 41602861: IQ motif family genes in male infertility: pathogenesis, mechanisms, and clinical perspectives. (2025) *Front Reprod Health*
+3. PMID 36975404: An ancient testis-specific IQ motif-containing H gene regulates specific transcript isoform expression during spermatogenesis. (2023 Apr 1) *Development*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

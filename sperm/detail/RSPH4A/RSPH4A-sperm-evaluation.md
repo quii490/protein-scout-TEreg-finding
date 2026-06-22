@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 65 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 20301301: Primary Ciliary Dyskinesia. (1993) **
+2. PMID 33852348: Structural insights into the cause of human RSPH4A primary ciliary dyskinesia. (2021 Jun 1) *Mol Biol Cell*
+3. PMID 35812741: Novel RSPH4A Variants Associated With Primary Ciliary Dyskinesia-Related Infertility in Three Chinese Families. (2022) *Front Genet*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

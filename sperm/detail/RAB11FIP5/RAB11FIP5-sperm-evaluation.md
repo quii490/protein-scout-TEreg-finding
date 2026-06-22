@@ -30,7 +30,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 42 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 28965411: Next Generation Proteomic Pipeline for Chromosome-Based Proteomic Research Using NeXtProt and GENCODE Databases. (2017 Dec 1) *J Proteome Res*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

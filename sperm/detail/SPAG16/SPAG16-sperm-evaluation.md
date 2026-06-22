@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 57 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 30911868: Distribution of sperm antigen 6 (SPAG6) and 16 (SPAG16) in mouse ciliated and non-ciliated tissues. (2019 Jun) *J Mol Histol*
+2. PMID 22963137: Genetic variation in SPAG16 regions encoding the WD40 repeats is not associated with reduced sperm motility and axonemal defects in a population of infertile males. (2012 Sep 10) *BMC Urol*
+3. PMID 32460071: Chronic arsenic exposure lowered sperm motility via impairing ultra-microstructure and key proteins expressions of sperm acrosome and flagellum formation during spermiogenesis in male mice. (2020 Sep 10) *Sci Total Environ*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

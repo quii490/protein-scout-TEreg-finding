@@ -30,7 +30,8 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 10 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 25098561: Identification of a homozygous splice site mutation in the dynein axonemal light chain 4 gene on 22q13.1 in a large consanguineous family from Pakistan with congenital mirror movement disorder. (2014 Nov) *Hum Genet*
+2. PMID 29235179: SNP g.1007A>G within the porcine DNAL4 gene affects sperm motility traits and percentage of midpiece abnormalities. (2018 Apr) *Reprod Domest Anim*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

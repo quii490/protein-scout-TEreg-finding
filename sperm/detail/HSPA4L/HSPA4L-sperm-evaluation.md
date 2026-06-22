@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 79 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 36012584: Expression of TXNRD1, HSPA4L and ATP1B1 Genes Associated with the Freezability of Boar Sperm. (2022 Aug 18) *Int J Mol Sci*
+2. PMID 16923965: Hspa4l-deficient mice display increased incidence of male infertility and hydronephrosis development. (2006 Nov) *Mol Cell Biol*
+3. PMID 38912589: Protein disulfide isomerase is essential for spermatogenesis in mice. (2024 Jun 24) *JCI Insight*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 65 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 39417902: Genetic etiological spectrum of sperm morphological abnormalities. (2024 Nov) *J Assist Reprod Genet*
+2. PMID 37505071: The constructive and destructive impact of autophagy on both genders' reproducibility, a comprehensive review. (2023 Dec) *Autophagy*
+3. PMID 32149372: Identification and expression analysis of zebrafish testis-specific gene 10 (tsga10). (2019) *Int J Dev Biol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

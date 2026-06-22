@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 35 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 36306217: Testis-specific serine kinase 3 is required for sperm morphogenesis and male fertility. (2023 Jul) *Andrology*
+2. PMID 32101290: Knockout of mouse receptor accessory protein 6 leads to sperm function and morphology defects†. (2020 May 26) *Biol Reprod*
+3. PMID 37118964: Differential Proteomic Analysis of Human Sperm: A Systematic Review to Identify Candidate Targets to Monitor Sperm Quality. (2024 Jan) *World J Mens Health*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

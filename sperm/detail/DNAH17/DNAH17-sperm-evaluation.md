@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 73 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 39417902: Genetic etiological spectrum of sperm morphological abnormalities. (2024 Nov) *J Assist Reprod Genet*
+2. PMID 37574497: Novel mutations in DNAH17 cause sperm flagellum defects and their influence on ICSI outcome. (2023 Oct) *J Assist Reprod Genet*
+3. PMID 39267058: Whole exome sequencing analysis of 167 men with primary infertility. (2024 Sep 12) *BMC Med Genomics*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

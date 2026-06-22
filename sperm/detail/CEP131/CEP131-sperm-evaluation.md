@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 56 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 21750193: Dilatory is a Drosophila protein related to AZI1 (CEP131) that is located at the ciliary base and required for cilium formation. (2011 Aug 1) *J Cell Sci*
+2. PMID 40270641: CEP162: A critical regulator of ciliary transition zone assembly and its implications in ciliopathies. (2025 Jun) *J Cell Commun Signal*
+3. PMID 42299473: CEP131 Deficiency Leads to Multiple Morphological Abnormalities of the Sperm Flagellum-Associated Male Infertility via Impaired CEP290 Interaction. (2026 Jun 16) *Andrology*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

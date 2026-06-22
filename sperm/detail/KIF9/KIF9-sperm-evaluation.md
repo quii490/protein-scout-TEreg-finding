@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 44 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 39158699: Distinct roles of Kif6 and Kif9 in mammalian ciliary trafficking and motility. (2024 Nov 4) *J Cell Biol*
+2. PMID 32072696: Testis-enriched kinesin KIF9 is important for progressive motility in mouse spermatozoa. (2020 Apr) *FASEB J*
+3. PMID 34526446: The motor domain of testis-enriched kinesin KIF9 is essential for its localization in the mouse flagellum. (2022 Feb 9) *Exp Anim*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

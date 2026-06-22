@@ -30,7 +30,8 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 57 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 38065351: Comparative studies on the chemical composition and pharmacological effects of vinegar-processed antler glue modified from Lei Gong Pao Zhi Lun and traditional water-processed antler glue. (2024 Mar 1) *J Ethnopharmacol*
+2. PMID 32990599: Sperm-specific COX6B2 enhances oxidative phosphorylation, proliferation, and survival in human lung adenocarcinoma. (2020 Sep 29) *Elife*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

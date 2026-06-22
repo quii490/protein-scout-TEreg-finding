@@ -30,7 +30,8 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 13 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 20301301: Primary Ciliary Dyskinesia. (1993) **
+2. PMID 38920681: The Odad3 Gene Is Necessary for Spermatozoa Development and Male Fertility in Mice. (2024 Jun 18) *Cells*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

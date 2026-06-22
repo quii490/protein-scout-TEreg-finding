@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 7 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 40760720: Uncovering the Role of IZUMO Family Members in Human Fertilization. (2025 Aug) *Mol Reprod Dev*
+2. PMID 40409516: Deciphering the regulatory networks of human male germline development from embryo to adulthood. (2025 Oct) *Biochim Biophys Acta Mol Basis Dis*
+3. PMID 32553959: Identification of new protein biomarkers associated with the boar fertility using iTRAQ-based quantitative proteomic analysis. (2020 Nov 1) *Int J Biol Macromol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

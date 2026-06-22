@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 15 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 23303679: Loss of R2D2 proteins ROPN1 and ROPN1L causes defects in murine sperm motility, phosphorylation, and fibrous sheath integrity. (2013 Feb) *Biol Reprod*
+2. PMID 39651266: An updated reference genome sequence and annotation reveals gene losses and gains underlying naked mole-rat biology. (2024 Nov 28) *bioRxiv*
+3. PMID 17855365: FSCB, a novel protein kinase A-phosphorylated calcium-binding protein, is a CABYR-binding partner involved in late steps of fibrous sheath biogenesis. (2007 Nov 23) *J Biol Chem*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

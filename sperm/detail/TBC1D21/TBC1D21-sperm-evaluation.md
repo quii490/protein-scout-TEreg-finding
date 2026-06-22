@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 13 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 33536340: ARMC12 regulates spatiotemporal mitochondrial dynamics during spermiogenesis and is required for male fertility. (2021 Feb 9) *Proc Natl Acad Sci U S A*
+2. PMID 32976492: Deficiency of the Tbc1d21 gene causes male infertility with morphological abnormalities of the sperm mitochondria and flagellum in mice. (2020 Sep) *PLoS Genet*
+3. PMID 35403672: TBC1D21 is an essential factor for sperm mitochondrial sheath assembly and male fertility‡. (2022 Aug 9) *Biol Reprod*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

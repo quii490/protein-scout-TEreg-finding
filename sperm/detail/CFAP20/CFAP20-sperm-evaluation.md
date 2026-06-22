@@ -30,7 +30,8 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 8 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 36329026: The inner junction protein CFAP20 functions in motile and non-motile cilia and is critical for vision. (2022 Nov 3) *Nat Commun*
+2. PMID 37463209: Modulation of inner junction proteins contributes to axoneme differentiation. (2023 Jul 25) *Proc Natl Acad Sci U S A*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

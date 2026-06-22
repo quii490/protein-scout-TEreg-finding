@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 41 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 28302912: Intraflagellar transport protein IFT52 recruits IFT46 to the basal body and flagella. (2017 May 1) *J Cell Sci*
+2. PMID 27320864: IFT46 plays crucial roles in craniofacial and cilia development. (2016 Aug 26) *Biochem Biophys Res Commun*
+3. PMID 20435895: Direct interactions of intraflagellar transport complex B proteins IFT88, IFT52, and IFT46. (2010 Jul 9) *J Biol Chem*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

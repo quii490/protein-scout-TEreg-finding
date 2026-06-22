@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 8 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 38573307: Disruption in CYLC1 leads to acrosome detachment, sperm head deformity, and male in/subfertility in humans and mice. (2024 Apr 4) *Elife*
+2. PMID 41075067: Novel CYLC1 variants are associated with male infertility due to sperm head deformity. (2025 Nov) *J Assist Reprod Genet*
+3. PMID 36896575: The human sperm proteome-Toward a panel for male fertility testing. (2023 Oct) *Andrology*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

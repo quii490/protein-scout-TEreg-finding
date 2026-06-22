@@ -30,7 +30,8 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 2 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 41118442: The core outer junction protein CFAP77 connects A- and B-tubules within doublet microtubules of cilia and flagella. (2025 Oct) *PLoS Biol*
+2. PMID 42174372: TEX43, a testis-enriched microtubule-associated gene, exerts minimal impact on spermatogenesis and fertility in mice and humans. (2026 May 23) *J Assist Reprod Genet*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

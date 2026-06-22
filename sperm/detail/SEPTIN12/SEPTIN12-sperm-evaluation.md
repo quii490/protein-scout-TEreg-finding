@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 34 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 38870534: SUN5 interacts with nuclear membrane LaminB1 and cytoskeletal GTPase Septin12 mediating the sperm head-and-tail junction. (2024 Jun 26) *Mol Hum Reprod*
+2. PMID 30160375: Regulation of septin phosphorylation: SEPT12 phosphorylation in sperm septin assembly. (2019 Jan) *Cytoskeleton (Hoboken)*
+3. PMID 30189608: CDC42 Negatively Regulates Testis-Specific SEPT12 Polymerization. (2018 Sep 5) *Int J Mol Sci*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

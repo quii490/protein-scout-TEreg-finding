@@ -30,7 +30,8 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 69 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 33784440: Effect and in silico characterization of genetic variants associated with severe spermatogenic disorders in a large Iberian cohort. (2021 Jul) *Andrology*
+2. PMID 26668583: A susceptibility locus rs7099208 is associated with non-obstructive azoospermia via reduction in the expression of FAM160B1. (2015 Nov) *J Biomed Res*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

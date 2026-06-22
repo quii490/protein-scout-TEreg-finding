@@ -59,7 +59,7 @@ def parse_evaluation(path):
 
     # Parse final score (may be outside table)
     for line in lines:
-        if 'Final sperm score' in line or 'Final score' in line or 'final score' in line.lower() or '最终评分' in line:
+        if 'Final sperm score' in line or 'Final score' in line or 'final score' in line.lower() or '最终评分' in line or '评分:' in line or '评分：' in line:
             score_match = re.search(r'\*{0,2}(\d+)\s*/\s*100\*{0,2}', line)
             if score_match:
                 scores['final'] = float(score_match.group(1))
@@ -82,12 +82,12 @@ def parse_evaluation(path):
         'gene': gene,
         'status': status,
         'final_sperm_score': scores.get('final', 0),
-        'sperm_evidence_score': scores.get('Sperm evidence', 0) or scores.get('精子证据', 0),
+        'sperm_evidence_score': scores.get('Sperm evidence', 0) or scores.get('精子证据', 0) or scores.get('精子定位', 0) or scores.get('Sperm Localization', 0),
         'te_relevance_score': 0,  # Deprecated, always 0
         'pubmed_score': scores.get('PubMed/literature', 0) or scores.get('文献/PubMed', 0) or scores.get('PubMed', 0) or 0,
         'ppi_score': scores.get('PPI/network', 0) or scores.get('PPI/互作网络', 0) or scores.get('PPI', 0) or 0,
-        'structure_domain_score': scores.get('Structure/domain', 0) or scores.get('结构/结构域', 0) or scores.get('Structure', 0) or 0,
-        'novelty_specificity_score': scores.get('Novelty/specificity', 0) or scores.get('新颖性/特异性', 0) or scores.get('Novelty', 0) or 0,
+        'structure_domain_score': scores.get('Structure/domain', 0) or scores.get('结构/结构域', 0) or scores.get('结构', 0) or scores.get('Structure', 0) or 0,
+        'novelty_specificity_score': scores.get('Novelty/specificity', 0) or scores.get('新颖性/特异性', 0) or scores.get('新颖性', 0) or scores.get('Novelty', 0) or 0,
         'source_sperm': '$centro' in content,
         'source_centriolar_satellite': False,
         'source_both': False,

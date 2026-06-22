@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 33 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 37713809: Deficiency in AK9 causes asthenozoospermia and male infertility by destabilising sperm nucleotide homeostasis. (2023 Oct) *EBioMedicine*
+2. PMID 38761355: Adenylate kinase phosphate energy shuttle underlies energetic communication in flagellar axonemes. (2024 Aug) *Sci China Life Sci*
+3. PMID 37812723: Adenylate kinase 9 is essential for sperm function and male fertility in mammals. (2023 Oct 17) *Proc Natl Acad Sci U S A*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

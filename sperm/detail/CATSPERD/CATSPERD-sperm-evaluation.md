@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 8 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 36672807: Identification of Circular RNAs of Testis and Caput Epididymis and Prediction of Their Potential Functional Roles in Donkeys. (2022 Dec 25) *Genes (Basel)*
+2. PMID 25481096: Identification of a novel isoform of the leukemia-associated MLLT1 (ENL/LTG19) protein. (2015 Jan) *Gene Expr Patterns*
+3. PMID 41100162: Cross-species insemination reveals mouse sperm ability to enter and cross the fish micropyle. (2025 Oct 16) *Elife*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 57 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 31146259: The sperm-associated antigen 6 interactome and its role in spermatogenesis. (2019 Aug) *Reproduction*
+2. PMID 36462395: Characterization of SPINK2, SPACA7 and PDCL2: Effect of immunization on fecundity, sperm function and testicular transcriptome. (2023 Mar) *Reprod Biol*
+3. PMID 28554943: SPINK2 deficiency causes infertility by inducing sperm defects in heterozygotes and azoospermia in homozygotes. (2017 Aug) *EMBO Mol Med*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

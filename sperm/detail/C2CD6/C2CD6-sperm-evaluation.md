@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 6 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 34919125: C2CD6 regulates targeting and organization of the CatSper calcium channel complex in sperm flagella. (2022 Jan 15) *Development*
+2. PMID 36047070: Globozoospermia: A Case Report and Systematic Review of Literature. (2023 Jan) *World J Mens Health*
+3. PMID 34998468: C2cd6-encoded CatSperτ targets sperm calcium channel to Ca(2+) signaling domains in the flagellar membrane. (2022 Jan 18) *Cell Rep*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

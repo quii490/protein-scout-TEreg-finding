@@ -30,7 +30,8 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 2 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 36896575: The human sperm proteome-Toward a panel for male fertility testing. (2023 Oct) *Andrology*
+2. PMID 29700843: Spermatogenesis-associated 48 is essential for spermatogenesis in mice. (2018 Aug) *Andrologia*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

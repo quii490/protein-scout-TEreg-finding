@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 9 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 31589365: The dynamics of gene expression during and post meiosis sets the sperm agenda. (2019 Dec) *Mol Reprod Dev*
+2. PMID 34552771: Current updates and future perspectives in the evaluation of azoospermia: A systematic review. (2021) *Arab J Urol*
+3. PMID 29017965: A novel mutation in HAUS7 results in severe oligozoospermia in two brothers. (2018 Jan 10) *Gene*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

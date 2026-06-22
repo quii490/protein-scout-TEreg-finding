@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 26 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 17187156: Inhibition of mouse acrosome reaction and sperm-zona pellucida binding by anti-human sperm membrane protein 1 antibody. (2007 Jan) *Asian J Androl*
+2. PMID 33333720: Association of TMEM8B and SPAG8 with Mature Weight in Sheep. (2020 Dec 15) *Animals (Basel)*
+3. PMID 20488182: Sperm associated antigen 8 (SPAG8), a novel regulator of activator of CREM in testis during spermatogenesis. (2010 Jul 2) *FEBS Lett*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

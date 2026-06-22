@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 4 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 39506588: Identification of Potential Biomarkers Associated with Spermatogenesis in Azoospermia. (2024 Nov 1) *Clin Lab*
+2. PMID 33285124: Comparison of spermatozoal RNA extraction methods in goats. (2021 Feb 1) *Anal Biochem*
+3. PMID 19516020: A novel, single, transmembrane protein CATSPERG is associated with CATSPER1 channel protein. (2009 Sep) *Biol Reprod*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

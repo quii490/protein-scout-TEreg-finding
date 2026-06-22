@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 49 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 17904521: SSX2IP: an emerging role in cancer. (2007 Nov 23) *Biochem Biophys Res Commun*
+2. PMID 12007189: The cancer-related protein SSX2 interacts with the human homologue of a Ras-like GTPase interactor, RAB3IP, and a novel nuclear protein, SSX2IP. (2002 Jul) *Genes Chromosomes Cancer*
+3. PMID 16112646: Humoral detection of leukaemia-associated antigens in presentation acute myeloid leukaemia. (2005 Oct 7) *Biochem Biophys Res Commun*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 76 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 26789871: Mutations in TUBB8 and Human Oocyte Meiotic Arrest. (2016 Jan 21) *N Engl J Med*
+2. PMID 36977357: Total fertilization failure after ICSI: insights into pathophysiology, diagnosis, and management through artificial oocyte activation. (2023 Jul 5) *Hum Reprod Update*
+3. PMID 37212058: Exonic genetic variants associated with unexpected fertilization failure and zygotic arrest after ICSI: a systematic review. (2023 Aug) *Zygote*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

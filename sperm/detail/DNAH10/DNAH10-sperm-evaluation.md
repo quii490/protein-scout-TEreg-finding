@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 40 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 20301301: Primary Ciliary Dyskinesia. (1993) **
+2. PMID 40373254: Novel homozygous missense variants in SUN5 and DNAH10 associated with male infertility and oligoasthenoteratozoospermia. (2025 Dec) *Syst Biol Reprod Med*
+3. PMID 41058558: DNAH10 interacts with UCHL3-PACRG complex to coordinate sperm head and flagella development during spermiogenesis. (2025 Nov 1) *Development*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

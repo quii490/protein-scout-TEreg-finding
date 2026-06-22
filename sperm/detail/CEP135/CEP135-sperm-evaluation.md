@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 91 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 40095067: Loss of Cep135 causes oligoasthenoteratozoospermia and male infertility in mice. (2025 Mar 17) *Cell Mol Life Sci*
+2. PMID 37822686: CP110 and CEP135 localize near the proximal and distal centrioles of cattle and human spermatozoa. (2023) *MicroPubl Biol*
+3. PMID 38351906: CP110 and CEP135 Localize Near the Proximal Centriolar Remnants of Mice Spermatozoa. (2024) *MicroPubl Biol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 26 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 26077881: Mutations in DYNC2LI1 disrupt cilia function and cause short rib polydactyly syndrome. (2015 Jun 16) *Nat Commun*
+2. PMID 37769382: Comparative transcriptome analysis reveals key genes and pathways related to gonad development in the sea cucumber Apostichopus japonicus. (2023 Dec) *Comp Biochem Physiol Part D Genomics Proteomics*
+3. PMID 36632779: Multiple interactions of the dynein-2 complex with the IFT-B complex are required for effective intraflagellar transport. (2023 Mar 1) *J Cell Sci*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

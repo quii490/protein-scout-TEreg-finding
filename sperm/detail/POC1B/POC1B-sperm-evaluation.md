@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 49 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 31387336: Poc1B and Sas-6 Function Together during the Atypical Centriole Formation in Drosophila melanogaster. (2019 Aug 5) *Cells*
+2. PMID 38351906: CP110 and CEP135 Localize Near the Proximal Centriolar Remnants of Mice Spermatozoa. (2024) *MicroPubl Biol*
+3. PMID 37070736: Homozygous frameshift variant in POC1B causes male infertility with oligoasthenoteratozoospermia in human and mice. (2023 Jul 4) *Hum Mol Genet*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

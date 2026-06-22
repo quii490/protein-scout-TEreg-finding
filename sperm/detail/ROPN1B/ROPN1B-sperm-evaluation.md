@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 7 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 35663320: The Role of Testosterone in Spermatogenesis: Lessons From Proteome Profiling of Human Spermatozoa in Testosterone Deficiency. (2022) *Front Endocrinol (Lausanne)*
+2. PMID 39406274: Investigating the effects of COVID-19 on sperm in male smokers: A prospective integrated proteomic and metabolomic study. (2024 Dec) *Reprod Toxicol*
+3. PMID 37118964: Differential Proteomic Analysis of Human Sperm: A Systematic Review to Identify Candidate Targets to Monitor Sperm Quality. (2024 Jan) *World J Mens Health*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

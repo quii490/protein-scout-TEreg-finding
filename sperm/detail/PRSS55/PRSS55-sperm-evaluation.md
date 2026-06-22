@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 17 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 41444608: PRSS55 regulates BCAA metabolism and interacts with BCKDK and BCKDHA in mouse testes and sperm. (2025 Dec 24) *Cell Biosci*
+2. PMID 40764777: Rescue of male infertility by human PRSS55 in transgenic mice establishes a contraceptive research model. (2025 Aug 5) *Sci Rep*
+3. PMID 33417308: PRSS55 plays an important role in the structural differentiation and energy metabolism of sperm and is required for male fertility in mice. (2021 Feb) *J Cell Mol Med*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

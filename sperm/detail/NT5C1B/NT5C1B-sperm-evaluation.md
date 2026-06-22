@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 9 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 40359694: Cancer-testis antigen expression in canine melanoma and healthy tissues. (2025 Jun) *Vet Immunol Immunopathol*
+2. PMID 31168966: NT5C1B and FH are closely associated with cryoprotectant tolerance in spermatozoa. (2020 Jan) *Andrology*
+3. PMID 30854786: Cancer-testis antigens in canine histiocytic sarcoma and other malignancies. (2019 Sep) *Vet Comp Oncol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

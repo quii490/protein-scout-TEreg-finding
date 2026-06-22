@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 13 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 27076447: A Novel Testis-Specific Gene, Ccdc136, Is Required for Acrosome Formation and Fertilization in Mice. (2016 Oct) *Reprod Sci*
+2. PMID 40276155: Proteomic analysis of Toraya buffalo seminal plasma and sperm: uncovering insights to optimize reproductive success. (2025) *Front Vet Sci*
+3. PMID 41806660: Proteomic insights into the effects of cryopreservation on sperm of endangered Eld's deer (Rucervus eldii). (2026 Jun) *Reprod Biol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 80 篇 (较多研究量)
-- *关键文献待人工调研。*
+- 1. PMID 36040837: Varicocoele-associated male infertility: Cellular and molecular perspectives of pathophysiology. (2022 Nov) *Andrology*
+2. PMID 38454159: BAG5 regulates HSPA8-mediated protein folding required for sperm head-tail coupling apparatus assembly. (2024 Apr) *EMBO Rep*
+3. PMID 31382319: Relationship between DYNLT1 and Beclin1 expression and the fertilising potential of human spermatozoa. (2019 Nov) *Andrologia*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

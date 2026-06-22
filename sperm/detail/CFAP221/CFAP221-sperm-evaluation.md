@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 14 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 20301301: Primary Ciliary Dyskinesia. (1993) **
+2. PMID 40759592: Identification of a Novel Biallelic CFAP119 Variant in an Infertile Man with Asthenoteratozoospermia. (2026 Jan) *World J Mens Health*
+3. PMID 40250778: A novel pathogenic variant of CFAP221 is a cause of a mild form of primary ciliary dyskinesia. (2025 Aug) *Biochim Biophys Acta Mol Basis Dis*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

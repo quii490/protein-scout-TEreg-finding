@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 60 篇 (中等研究量)
-- *关键文献待人工调研。*
+- 1. PMID 29844425: The RPAP3-Cterminal domain identifies R2TP-like quaternary chaperones. (2018 May 29) *Nat Commun*
+2. PMID 30428028: Chlamydomonas WDR92 in association with R2TP-like complex and multiple DNAAFs to regulate ciliary dynein preassembly. (2019 Sep 19) *J Mol Cell Biol*
+3. PMID 31858719: The outer dynein arm assembly factor CCDC103 forms molecular scaffolds through multiple self-interaction sites. (2020 Jan) *Cytoskeleton (Hoboken)*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

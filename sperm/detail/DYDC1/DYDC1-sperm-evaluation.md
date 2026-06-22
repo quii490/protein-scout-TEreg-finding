@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 6 篇 (极低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 19545932: Interaction of SH3P13 and DYDC1 protein: a germ cell component that regulates acrosome biogenesis during spermiogenesis. (2009 Sep) *Eur J Cell Biol*
+2. PMID 39849482: IQUB mutation induces radial spoke 1 deficiency causing asthenozoospermia with normal sperm morphology in humans and mice. (2025 Jan 23) *Cell Commun Signal*
+3. PMID 30497823: Corrigendum to "Interaction of SH3P13 and DYDC1 protein: a germ cell component that regulates acrosome biogenesis during spermiogenesis" [Eur. J. Cell Biol. 88 (2009) 509-520]. (2019 Jan) *Eur J Cell Biol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*

@@ -30,7 +30,9 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 4. PubMed 文献证据
 - **文献数:** 16 篇 (低研究量)
-- *关键文献待人工调研。*
+- 1. PMID 20223856: A newly classified vertebrate calpain protease, directly ancestral to CAPN1 and 2, episodically evolved a restricted physiological function in placental mammals. (2010 Aug) *Mol Biol Evol*
+2. PMID 10559499: Diverse mRNA expression patterns of the mouse calpain genes Capn5, Capn6 and Capn11 during development. (1999 Dec) *Mech Dev*
+3. PMID 10409436: CAPN11: A calpain with high mRNA levels in testis and located on chromosome 6. (1999 Jul 15) *Genomics*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
 *待结构数据采集。*
