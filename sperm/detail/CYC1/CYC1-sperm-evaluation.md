@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** CYC1
-- **Ensembl:** 
+- **Ensembl:** ENSG00000179091
 - **精子部位:** Equatorial segment
 - **PubMed 总数:** 930 篇 ⚠️ **>100**
 

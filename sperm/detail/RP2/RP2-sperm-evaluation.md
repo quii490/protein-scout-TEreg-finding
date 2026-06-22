@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** RP2
-- **Ensembl:** 
+- **Ensembl:** ENSG00000102218
 - **精子部位:** Acrosome、End piece、Mid piece、Principal piece
 - **PubMed 总数:** 1145 篇 ⚠️ **>100**
 

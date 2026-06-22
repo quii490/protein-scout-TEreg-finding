@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** DNAH8
-- **Ensembl:** 
+- **Ensembl:** ENSG00000124721
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 47 篇
@@ -19,14 +19,25 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** Mid piece、Principal piece ✓
-- **链接:** https://www.proteinatlas.org/-DNAH8
-- **IF 图像:** 未获取
+- **链接:** https://www.proteinatlas.org/ENSG00000124721-DNAH8
+- **IF 图像:** 已获取 (4 张)
 
-*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+<!-- SPERM_HPA_IF_START -->
+**HPA IF 图像（2026-06-22）**: HPA subcellular 页面有 IF 图像 (4 张 blue_red_green)。
+![](https://images.proteinatlas.org/30109/2229_B3_26_blue_red_green.jpg)
+![](https://images.proteinatlas.org/30108/2238_G5_8_blue_red_green.jpg)
+![](https://images.proteinatlas.org/30108/2238_G5_57_blue_red_green.jpg)
+![](https://images.proteinatlas.org/30109/2229_B3_31_blue_red_green.jpg)
+<!-- SPERM_HPA_IF_END -->
+
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-*待 UniProt/GO-CC 采集。*
+UniProt: A0A075B6F3 — .
+GO-CC 精子相关: 待进一步查询 UniProt subcellular location。
+InterPro: AAA+_ATPase, AAA_6, AAA_9, AAA_lid_11, AAA_lid_11_sf。
+Pfam: AAA_6, AAA_7, AAA_8, AAA_9, AAA_lid_1。
 
 ## 4. PubMed 文献证据
 - **文献数:** 47 篇 (中等研究量)
@@ -35,7 +46,7 @@ tags: [protein-scout, sperm, evaluation]
 3. PMID 32681648: Loss-of-function mutation in DNAH8 induces asthenoteratospermia associated with multiple morphological abnormalities of the sperm flagella. (2020 Oct) *Clin Genet*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
-*待结构数据采集。*
+AlphaFold 数据可用 (UniProt: A0A075B6F3)。参见 https://alphafold.ebi.ac.uk/entry/A0A075B6F3
 PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold pLDDT 统计。
 
 ## 6. PPI / 蛋白互作网络
@@ -60,7 +71,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | 精子定位 | 16/20 | 双部位: Mid piece、Principal piece |
 | PubMed | 7/20 | 47 篇 |
 | PPI | 18/20 | STRING |
-| 结构 | 5/10 | 待采集 |
+| 结构 | 5/10 | AF available |
 | 新颖性 | 6/10 | 中等 |
 
 - **评分:** **65/100**

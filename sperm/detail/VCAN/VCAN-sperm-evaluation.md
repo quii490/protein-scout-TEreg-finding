@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** VCAN
-- **Ensembl:** 
+- **Ensembl:** ENSG00000038427
 - **精子部位:** End piece、Mid piece、Principal piece
 - **PubMed 总数:** 1226 篇 ⚠️ **>100**
 

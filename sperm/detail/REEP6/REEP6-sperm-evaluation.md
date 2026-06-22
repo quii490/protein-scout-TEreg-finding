@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** REEP6
-- **Ensembl:** 
+- **Ensembl:** ENSG00000115255
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 35 篇
@@ -19,14 +19,27 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** Acrosome ✓
-- **链接:** https://www.proteinatlas.org/-REEP6
-- **IF 图像:** 未获取
+- **链接:** https://www.proteinatlas.org/ENSG00000115255-REEP6
+- **IF 图像:** 已获取 (6 张)
 
-*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+<!-- SPERM_HPA_IF_START -->
+**HPA IF 图像（2026-06-22）**: HPA subcellular 页面有 IF 图像 (6 张 blue_red_green)。
+![](https://images.proteinatlas.org/48015/1334_G7_6_blue_red_green.jpg)
+![](https://images.proteinatlas.org/48015/2204_G5_36_blue_red_green.jpg)
+![](https://images.proteinatlas.org/48015/846_A11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/48015/1334_G7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/48015/846_A11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/48015/807_A11_2_blue_red_green.jpg)
+<!-- SPERM_HPA_IF_END -->
+
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-*待 UniProt/GO-CC 采集。*
+UniProt: A0A1L5BXV2 — Receptor expression-enhancing protein.
+GO-CC 精子相关: 待进一步查询 UniProt subcellular location。
+InterPro: TB2_DP1_HVA22。
+Pfam: TB2_DP1_HVA22。
 
 ## 4. PubMed 文献证据
 - **文献数:** 35 篇 (中等研究量)
@@ -35,7 +48,7 @@ tags: [protein-scout, sperm, evaluation]
 3. PMID 37118964: Differential Proteomic Analysis of Human Sperm: A Systematic Review to Identify Candidate Targets to Monitor Sperm Quality. (2024 Jan) *World J Mens Health*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
-*待结构数据采集。*
+AlphaFold 数据可用 (UniProt: A0A1L5BXV2)。参见 https://alphafold.ebi.ac.uk/entry/A0A1L5BXV2
 PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold pLDDT 统计。
 
 ## 6. PPI / 蛋白互作网络
@@ -60,7 +73,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | 精子定位 | 14/20 | 单部位: Acrosome |
 | PubMed | 7/20 | 35 篇 |
 | PPI | 18/20 | STRING |
-| 结构 | 5/10 | 待采集 |
+| 结构 | 5/10 | AF available |
 | 新颖性 | 6/10 | 中等 |
 
 - **评分:** **62/100**

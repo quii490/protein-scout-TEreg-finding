@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** ARL13B
-- **Ensembl:** 
+- **Ensembl:** ENSG00000169379
 - **精子部位:** Acrosome、End piece、Equatorial segment、Mid piece、Principal piece
 - **PubMed 总数:** 277 篇 ⚠️ **>100**
 

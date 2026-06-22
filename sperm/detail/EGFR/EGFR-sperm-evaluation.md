@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** EGFR
-- **Ensembl:** 
+- **Ensembl:** ENSG00000146648
 - **精子部位:** End piece、Mid piece、Principal piece
 - **PubMed 总数:** 150500 篇 ⚠️ **>100**
 

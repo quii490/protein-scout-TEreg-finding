@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** SPAG16
-- **Ensembl:** 
+- **Ensembl:** ENSG00000144451
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 57 篇
@@ -19,14 +19,27 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** Acrosome、Equatorial segment ✓
-- **链接:** https://www.proteinatlas.org/-SPAG16
-- **IF 图像:** 未获取
+- **链接:** https://www.proteinatlas.org/ENSG00000144451-SPAG16
+- **IF 图像:** 已获取 (6 张)
 
-*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+<!-- SPERM_HPA_IF_START -->
+**HPA IF 图像（2026-06-22）**: HPA subcellular 页面有 IF 图像 (6 张 blue_red_green)。
+![](https://images.proteinatlas.org/37542/521_F6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/37542/436_F6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/37542/442_F6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/37542/436_F6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/37542/521_F6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/37542/2153_G8_24_blue_red_green.jpg)
+<!-- SPERM_HPA_IF_END -->
+
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-*待 UniProt/GO-CC 采集。*
+UniProt: H0Y811 — .
+GO-CC 精子相关: 待进一步查询 UniProt subcellular location。
+InterPro: WD-F-box_domain-protein, WD40/YVTN_repeat-like_dom_sf, WD40_repeat_CS, WD40_repeat_dom_sf, WD40_rpt。
+Pfam: WD40。
 
 ## 4. PubMed 文献证据
 - **文献数:** 57 篇 (中等研究量)
@@ -35,7 +48,7 @@ tags: [protein-scout, sperm, evaluation]
 3. PMID 32460071: Chronic arsenic exposure lowered sperm motility via impairing ultra-microstructure and key proteins expressions of sperm acrosome and flagellum formation during spermiogenesis in male mice. (2020 Sep 10) *Sci Total Environ*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
-*待结构数据采集。*
+AlphaFold 数据可用 (UniProt: H0Y811)。参见 https://alphafold.ebi.ac.uk/entry/H0Y811
 PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold pLDDT 统计。
 
 ## 6. PPI / 蛋白互作网络
@@ -60,7 +73,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | 精子定位 | 16/20 | 双部位: Acrosome、Equatorial segment |
 | PubMed | 7/20 | 57 篇 |
 | PPI | 18/20 | STRING |
-| 结构 | 5/10 | 待采集 |
+| 结构 | 5/10 | AF available |
 | 新颖性 | 6/10 | 中等 |
 
 - **评分:** **65/100**

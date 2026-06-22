@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** SRPK2
-- **Ensembl:** 
+- **Ensembl:** ENSG00000135250
 - **精子部位:** Acrosome、End piece
 - **PubMed 总数:** 106 篇 ⚠️ **>100**
 

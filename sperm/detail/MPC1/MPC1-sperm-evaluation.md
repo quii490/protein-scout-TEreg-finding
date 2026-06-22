@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** MPC1
-- **Ensembl:** 
+- **Ensembl:** ENSG00000060762
 - **精子部位:** Principal piece
 - **PubMed 总数:** 413 篇 ⚠️ **>100**
 

@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** ATP5MGL
-- **Ensembl:** 
+- **Ensembl:** ENSG00000249222
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 1 篇
@@ -19,14 +19,27 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** Principal piece ✓
-- **链接:** https://www.proteinatlas.org/-ATP5MGL
-- **IF 图像:** 未获取
+- **链接:** https://www.proteinatlas.org/ENSG00000249222-ATP5MGL
+- **IF 图像:** 已获取 (6 张)
 
-*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+<!-- SPERM_HPA_IF_START -->
+**HPA IF 图像（2026-06-22）**: HPA subcellular 页面有 IF 图像 (6 张 blue_red_green)。
+![](https://images.proteinatlas.org/44629/884_C1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44629/2212_H5_26_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44629/978_C1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44629/2212_H5_31_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44629/884_C1_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44629/824_C1_3_blue_red_green.jpg)
+<!-- SPERM_HPA_IF_END -->
+
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-*待 UniProt/GO-CC 采集。*
+UniProt: Q7Z4Y8 — ATP synthase subunit g 2, mitochondrial.
+GO-CC 精子相关: 待进一步查询 UniProt subcellular location。
+InterPro: ATP5MG_metazoa, ATP_synth_F0_gsu_mt。
+Pfam: ATP-synt_G。
 
 ## 4. PubMed 文献证据
 - **文献数:** 1 篇 (极低研究量)

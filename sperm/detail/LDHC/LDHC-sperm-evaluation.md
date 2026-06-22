@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** LDHC
-- **Ensembl:** 
+- **Ensembl:** ENSG00000166796
 - **精子部位:** End piece、Mid piece、Principal piece
 - **PubMed 总数:** 205 篇 ⚠️ **>100**
 

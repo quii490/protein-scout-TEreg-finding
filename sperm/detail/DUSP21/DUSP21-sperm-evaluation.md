@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** DUSP21
-- **Ensembl:** 
+- **Ensembl:** ENSG00000189037
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 9 篇
@@ -19,14 +19,27 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** Connecting piece、Mid piece、Principal piece ✓
-- **链接:** https://www.proteinatlas.org/-DUSP21
-- **IF 图像:** 未获取
+- **链接:** https://www.proteinatlas.org/ENSG00000189037-DUSP21
+- **IF 图像:** 已获取 (6 张)
 
-*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+<!-- SPERM_HPA_IF_START -->
+**HPA IF 图像（2026-06-22）**: HPA subcellular 页面有 IF 图像 (6 张 blue_red_green)。
+![](https://images.proteinatlas.org/59171/1993_D4_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/59171/2047_G6_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/59171/2047_G6_8_blue_red_green.jpg)
+![](https://images.proteinatlas.org/59171/2212_B9_26_blue_red_green.jpg)
+![](https://images.proteinatlas.org/59171/1993_D4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/59171/2017_E11_32_blue_red_green.jpg)
+<!-- SPERM_HPA_IF_END -->
+
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-*待 UniProt/GO-CC 采集。*
+UniProt: Q9H596 — Dual specificity protein phosphatase 21.
+GO-CC 精子相关: 待进一步查询 UniProt subcellular location。
+InterPro: Atypical_DUSP_subfamB, Dual-sp_phosphatase_cat-dom, Prot-tyrosine_phosphatase-like, Tyr_Pase_AS, Tyr_Pase_dom。
+Pfam: DSPc。
 
 ## 4. PubMed 文献证据
 - **文献数:** 9 篇 (极低研究量)

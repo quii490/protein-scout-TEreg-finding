@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** CSNK1D
-- **Ensembl:** 
+- **Ensembl:** ENSG00000141551
 - **精子部位:** End piece、Principal piece
 - **PubMed 总数:** 102 篇 ⚠️ **>100**
 

@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** ARMS2
-- **Ensembl:** 
+- **Ensembl:** ENSG00000254636
 - **精子部位:** End piece、Principal piece
 - **PubMed 总数:** 634 篇 ⚠️ **>100**
 

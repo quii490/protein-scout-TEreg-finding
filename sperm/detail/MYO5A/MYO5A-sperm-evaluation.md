@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** MYO5A
-- **Ensembl:** 
+- **Ensembl:** ENSG00000197535
 - **精子部位:** Calyx
 - **PubMed 总数:** 371 篇 ⚠️ **>100**
 

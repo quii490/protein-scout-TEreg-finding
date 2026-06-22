@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** CSNK2B
-- **Ensembl:** 
+- **Ensembl:** ENSG00000204435
 - **精子部位:** Calyx、Mid piece、Perinuclear theca
 - **PubMed 总数:** 104 篇 ⚠️ **>100**
 

@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** RCVRN
-- **Ensembl:** 
+- **Ensembl:** ENSG00000109047
 - **精子部位:** Mid piece、Principal piece
 - **PubMed 总数:** 256 篇 ⚠️ **>100**
 

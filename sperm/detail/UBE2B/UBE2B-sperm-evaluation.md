@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** UBE2B
-- **Ensembl:** 
+- **Ensembl:** ENSG00000119048
 - **精子部位:** Flagellar centriole、Mid piece、Principal piece
 - **PubMed 总数:** 114 篇 ⚠️ **>100**
 

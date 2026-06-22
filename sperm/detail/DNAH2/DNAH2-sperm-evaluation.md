@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** DNAH2
-- **Ensembl:** 
+- **Ensembl:** ENSG00000183914
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 40 篇
@@ -19,14 +19,27 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** End piece、Flagellar centriole ✓
-- **链接:** https://www.proteinatlas.org/-DNAH2
-- **IF 图像:** 未获取
+- **链接:** https://www.proteinatlas.org/ENSG00000183914-DNAH2
+- **IF 图像:** 已获取 (6 张)
 
-*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+<!-- SPERM_HPA_IF_START -->
+**HPA IF 图像（2026-06-22）**: HPA subcellular 页面有 IF 图像 (6 张 blue_red_green)。
+![](https://images.proteinatlas.org/67103/1335_G9_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/67103/2146_D11_63_blue_red_green.jpg)
+![](https://images.proteinatlas.org/67103/2175_G12_28_blue_red_green.jpg)
+![](https://images.proteinatlas.org/67103/2160_A4_12_blue_red_green.jpg)
+![](https://images.proteinatlas.org/67103/2238_D7_50_blue_red_green.jpg)
+![](https://images.proteinatlas.org/67103/1519_H7_1_blue_red_green.jpg)
+<!-- SPERM_HPA_IF_END -->
+
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-*待 UniProt/GO-CC 采集。*
+UniProt: I3L4H9 — .
+GO-CC 精子相关: 待进一步查询 UniProt subcellular location。
+InterPro: DHC, DYH2-5-8_CC。
+Pfam: DYH2-5-8_CC。
 
 ## 4. PubMed 文献证据
 - **文献数:** 40 篇 (中等研究量)
@@ -35,7 +48,7 @@ tags: [protein-scout, sperm, evaluation]
 3. PMID 33968937: Genetic Defects in DNAH2 Underlie Male Infertility With Multiple Morphological Abnormalities of the Sperm Flagella in Humans and Mice. (2021) *Front Cell Dev Biol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
-*待结构数据采集。*
+AlphaFold 数据可用 (UniProt: I3L4H9)。参见 https://alphafold.ebi.ac.uk/entry/I3L4H9
 PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold pLDDT 统计。
 
 ## 6. PPI / 蛋白互作网络
@@ -60,7 +73,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | 精子定位 | 16/20 | 双部位: End piece、Flagellar centriole |
 | PubMed | 7/20 | 40 篇 |
 | PPI | 18/20 | STRING |
-| 结构 | 5/10 | 待采集 |
+| 结构 | 5/10 | AF available |
 | 新颖性 | 6/10 | 中等 |
 
 - **评分:** **65/100**

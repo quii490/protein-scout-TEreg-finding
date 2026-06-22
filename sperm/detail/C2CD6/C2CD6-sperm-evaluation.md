@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** C2CD6
-- **Ensembl:** 
+- **Ensembl:** ENSG00000155754
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 6 篇
@@ -19,14 +19,23 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** Acrosome、Equatorial segment、Principal piece ✓
-- **链接:** https://www.proteinatlas.org/-C2CD6
-- **IF 图像:** 未获取
+- **链接:** https://www.proteinatlas.org/ENSG00000155754-C2CD6
+- **IF 图像:** 已获取 (2 张)
 
-*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+<!-- SPERM_HPA_IF_START -->
+**HPA IF 图像（2026-06-22）**: HPA subcellular 页面有 IF 图像 (2 张 blue_red_green)。
+![](https://images.proteinatlas.org/45406/2239_E11_8_blue_red_green.jpg)
+![](https://images.proteinatlas.org/45406/2239_E11_22_blue_red_green.jpg)
+<!-- SPERM_HPA_IF_END -->
+
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-*待 UniProt/GO-CC 采集。*
+UniProt: Q53TS8 — Cation channel sperm-associated targeting subunit tau.
+GO-CC 精子相关: 待进一步查询 UniProt subcellular location。
+InterPro: C2_dom, CTSRT, CTSRT_C2。
+Pfam: CTSRT。
 
 ## 4. PubMed 文献证据
 - **文献数:** 6 篇 (极低研究量)
@@ -35,7 +44,7 @@ tags: [protein-scout, sperm, evaluation]
 3. PMID 34998468: C2cd6-encoded CatSperτ targets sperm calcium channel to Ca(2+) signaling domains in the flagellar membrane. (2022 Jan 18) *Cell Rep*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
-*待结构数据采集。*
+AlphaFold 数据可用 (UniProt: Q53TS8)。参见 https://alphafold.ebi.ac.uk/entry/Q53TS8
 PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold pLDDT 统计。
 
 ## 6. PPI / 蛋白互作网络
@@ -60,7 +69,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | 精子定位 | 18/20 | 3 部位: Acrosome、Equatorial segment、Principal piece |
 | PubMed | 10/20 | 6 篇 |
 | PPI | 18/20 | STRING |
-| 结构 | 5/10 | 待采集 |
+| 结构 | 5/10 | AF available |
 | 新颖性 | 10/10 | 极低 |
 
 - **评分:** **75/100**

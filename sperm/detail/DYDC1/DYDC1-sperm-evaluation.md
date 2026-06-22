@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** DYDC1
-- **Ensembl:** 
+- **Ensembl:** ENSG00000170788
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 6 篇
@@ -19,10 +19,16 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** End piece、Mid piece、Principal piece ✓
-- **链接:** https://www.proteinatlas.org/-DYDC1
-- **IF 图像:** 未获取
+- **链接:** https://www.proteinatlas.org/ENSG00000170788-DYDC1
+- **IF 图像:** 已获取 (2 张)
 
-*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+<!-- SPERM_HPA_IF_START -->
+**HPA IF 图像（2026-06-22）**: HPA subcellular 页面有 IF 图像 (2 张 blue_red_green)。
+![](https://images.proteinatlas.org/37790/2237_C10_57_blue_red_green.jpg)
+![](https://images.proteinatlas.org/37790/2237_C10_22_blue_red_green.jpg)
+<!-- SPERM_HPA_IF_END -->
+
 
 
 ## 3. UniProt / GO-CC 精子定位证据
@@ -35,7 +41,7 @@ tags: [protein-scout, sperm, evaluation]
 3. PMID 30497823: Corrigendum to "Interaction of SH3P13 and DYDC1 protein: a germ cell component that regulates acrosome biogenesis during spermiogenesis" [Eur. J. Cell Biol. 88 (2009) 509-520]. (2019 Jan) *Eur J Cell Biol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
-*待结构数据采集。*
+AlphaFold 数据可用 (UniProt: A0A0A0MSH3)。参见 https://alphafold.ebi.ac.uk/entry/A0A0A0MSH3
 PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold pLDDT 统计。
 
 ## 6. PPI / 蛋白互作网络
@@ -51,7 +57,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | 精子定位 | 18/20 | 3 部位: End piece、Mid piece、Principal piece |
 | PubMed | 10/20 | 6 篇 |
 | PPI | 5/20 | STRING |
-| 结构 | 5/10 | 待采集 |
+| 结构 | 5/10 | AF available |
 | 新颖性 | 10/10 | 极低 |
 
 - **评分:** **60/100**

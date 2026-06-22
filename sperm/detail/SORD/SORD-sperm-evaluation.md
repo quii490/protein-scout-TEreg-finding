@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** SORD
-- **Ensembl:** 
+- **Ensembl:** ENSG00000140263
 - **精子部位:** Acrosome、Equatorial segment
 - **PubMed 总数:** 196 篇 ⚠️ **>100**
 

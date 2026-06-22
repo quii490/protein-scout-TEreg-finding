@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** FAF1
-- **Ensembl:** 
+- **Ensembl:** ENSG00000185104
 - **精子部位:** Acrosome、Equatorial segment、Perinuclear theca
 - **PubMed 总数:** 206 篇 ⚠️ **>100**
 

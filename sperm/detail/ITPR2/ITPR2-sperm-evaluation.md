@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** ITPR2
-- **Ensembl:** 
+- **Ensembl:** ENSG00000123104
 - **精子部位:** End piece、Mid piece、Principal piece
 - **PubMed 总数:** 190 篇 ⚠️ **>100**
 

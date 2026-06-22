@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** ITLN1
-- **Ensembl:** 
+- **Ensembl:** ENSG00000179914
 - **精子部位:** Acrosome、Equatorial segment、Mid piece、Principal piece
 - **PubMed 总数:** 571 篇 ⚠️ **>100**
 

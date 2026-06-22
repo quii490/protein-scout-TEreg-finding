@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** UBC
-- **Ensembl:** 
+- **Ensembl:** ENSG00000150991
 - **精子部位:** Acrosome、Equatorial segment
 - **PubMed 总数:** 25072 篇 ⚠️ **>100**
 

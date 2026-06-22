@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** KIF1B
-- **Ensembl:** 
+- **Ensembl:** ENSG00000054523
 - **精子部位:** End piece、Mid piece、Principal piece
 - **PubMed 总数:** 217 篇 ⚠️ **>100**
 

@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** GRK1
-- **Ensembl:** 
+- **Ensembl:** ENSG00000185974
 - **精子部位:** Principal piece
 - **PubMed 总数:** 324 篇 ⚠️ **>100**
 

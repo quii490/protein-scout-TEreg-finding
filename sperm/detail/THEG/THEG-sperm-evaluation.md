@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** THEG
-- **Ensembl:** 
+- **Ensembl:** ENSG00000105549
 - **精子部位:** Annulus、Equatorial segment、Principal piece
 - **PubMed 总数:** 131 篇 ⚠️ **>100**
 

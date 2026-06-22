@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** AIFM1
-- **Ensembl:** 
+- **Ensembl:** ENSG00000156709
 - **精子部位:** Connecting piece
 - **PubMed 总数:** 891 篇 ⚠️ **>100**
 

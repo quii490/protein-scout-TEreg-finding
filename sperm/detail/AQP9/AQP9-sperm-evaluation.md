@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** AQP9
-- **Ensembl:** 
+- **Ensembl:** ENSG00000103569
 - **精子部位:** Mid piece
 - **PubMed 总数:** 757 篇 ⚠️ **>100**
 

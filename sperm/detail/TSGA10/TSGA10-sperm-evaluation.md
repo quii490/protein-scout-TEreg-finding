@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** TSGA10
-- **Ensembl:** 
+- **Ensembl:** ENSG00000135951
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 65 篇
@@ -19,14 +19,25 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** Flagellar centriole ✓
-- **链接:** https://www.proteinatlas.org/-TSGA10
-- **IF 图像:** 未获取
+- **链接:** https://www.proteinatlas.org/ENSG00000135951-TSGA10
+- **IF 图像:** 已获取 (4 张)
 
-*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+<!-- SPERM_HPA_IF_START -->
+**HPA IF 图像（2026-06-22）**: HPA subcellular 页面有 IF 图像 (4 张 blue_red_green)。
+![](https://images.proteinatlas.org/36879/2148_F11_84_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36879/2239_B7_15_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36879/2148_F11_63_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36879/2239_B7_29_blue_red_green.jpg)
+<!-- SPERM_HPA_IF_END -->
+
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-*待 UniProt/GO-CC 采集。*
+UniProt: A0A669KBL0 — .
+GO-CC 精子相关: 待进一步查询 UniProt subcellular location。
+InterPro: Centriole_BasalBody_StrucProt。
+Pfam: 无注释。
 
 ## 4. PubMed 文献证据
 - **文献数:** 65 篇 (较多研究量)
@@ -35,7 +46,7 @@ tags: [protein-scout, sperm, evaluation]
 3. PMID 32149372: Identification and expression analysis of zebrafish testis-specific gene 10 (tsga10). (2019) *Int J Dev Biol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
-*待结构数据采集。*
+AlphaFold 数据可用 (UniProt: A0A669KBL0)。参见 https://alphafold.ebi.ac.uk/entry/A0A669KBL0
 PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold pLDDT 统计。
 
 ## 6. PPI / 蛋白互作网络
@@ -60,7 +71,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | 精子定位 | 14/20 | 单部位: Flagellar centriole |
 | PubMed | 6/20 | 65 篇 |
 | PPI | 18/20 | STRING |
-| 结构 | 5/10 | 待采集 |
+| 结构 | 5/10 | AF available |
 | 新颖性 | 4/10 | 较多 |
 
 - **评分:** **58/100**

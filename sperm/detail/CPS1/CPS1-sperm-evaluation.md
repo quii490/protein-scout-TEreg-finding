@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** CPS1
-- **Ensembl:** 
+- **Ensembl:** ENSG00000021826
 - **精子部位:** Mid piece、Principal piece
 - **PubMed 总数:** 618 篇 ⚠️ **>100**
 

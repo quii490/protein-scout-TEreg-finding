@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** KIF5C
-- **Ensembl:** 
+- **Ensembl:** ENSG00000168280
 - **精子部位:** Connecting piece、Equatorial segment
 - **PubMed 总数:** 121 篇 ⚠️ **>100**
 

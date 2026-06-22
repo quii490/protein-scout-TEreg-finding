@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** GNAI3
-- **Ensembl:** 
+- **Ensembl:** ENSG00000065135
 - **精子部位:** Principal piece
 - **PubMed 总数:** 197 篇 ⚠️ **>100**
 

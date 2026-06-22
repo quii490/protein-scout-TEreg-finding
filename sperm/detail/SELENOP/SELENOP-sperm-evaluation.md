@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** SELENOP
-- **Ensembl:** 
+- **Ensembl:** ENSG00000250722
 - **精子部位:** Connecting piece
 - **PubMed 总数:** 312 篇 ⚠️ **>100**
 

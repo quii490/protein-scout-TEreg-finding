@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** FLACC1
-- **Ensembl:** 
+- **Ensembl:** ENSG00000155749
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 6 篇
@@ -19,21 +19,34 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** Annulus、Connecting piece、Mid piece ✓
-- **链接:** https://www.proteinatlas.org/-FLACC1
-- **IF 图像:** 未获取
+- **链接:** https://www.proteinatlas.org/ENSG00000155749-FLACC1
+- **IF 图像:** 已获取 (6 张)
 
-*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+<!-- SPERM_HPA_IF_START -->
+**HPA IF 图像（2026-06-22）**: HPA subcellular 页面有 IF 图像 (6 张 blue_red_green)。
+![](https://images.proteinatlas.org/35793/2199_C5_6_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35793/2199_C5_41_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35793/390_B1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35793/390_B1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35793/1844_A7_32_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35793/377_B1_1_blue_red_green.jpg)
+<!-- SPERM_HPA_IF_END -->
+
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-*待 UniProt/GO-CC 采集。*
+UniProt: H7C1T5 — .
+GO-CC 精子相关: 待进一步查询 UniProt subcellular location。
+InterPro: FLACC1。
+Pfam: 无注释。
 
 ## 4. PubMed 文献证据
 - **文献数:** 6 篇 (极低研究量)
 - *关键文献待人工调研。*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
-*待结构数据采集。*
+AlphaFold 数据可用 (UniProt: H7C1T5)。参见 https://alphafold.ebi.ac.uk/entry/H7C1T5
 PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold pLDDT 统计。
 
 ## 6. PPI / 蛋白互作网络
@@ -58,7 +71,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | 精子定位 | 18/20 | 3 部位: Annulus、Connecting piece、Mid piece |
 | PubMed | 10/20 | 6 篇 |
 | PPI | 18/20 | STRING |
-| 结构 | 5/10 | 待采集 |
+| 结构 | 5/10 | AF available |
 | 新颖性 | 10/10 | 极低 |
 
 - **评分:** **75/100**

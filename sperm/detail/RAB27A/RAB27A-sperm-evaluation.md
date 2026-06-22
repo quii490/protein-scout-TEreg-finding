@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** RAB27A
-- **Ensembl:** 
+- **Ensembl:** ENSG00000069974
 - **精子部位:** Mid piece、Principal piece
 - **PubMed 总数:** 1023 篇 ⚠️ **>100**
 

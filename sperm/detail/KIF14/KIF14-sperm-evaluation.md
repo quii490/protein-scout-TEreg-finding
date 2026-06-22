@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** KIF14
-- **Ensembl:** 
+- **Ensembl:** ENSG00000118193
 - **精子部位:** Calyx、Connecting piece、End piece、Mid piece、Principal piece
 - **PubMed 总数:** 209 篇 ⚠️ **>100**
 

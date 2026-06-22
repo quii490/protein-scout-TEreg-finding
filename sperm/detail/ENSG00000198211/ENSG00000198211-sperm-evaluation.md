@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** ENSG00000198211
-- **Ensembl:** 
+- **Ensembl:** ENSG00000198211
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 0 篇
@@ -19,10 +19,20 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** End piece、Flagellar centriole、Principal piece ✓
-- **链接:** https://www.proteinatlas.org/-ENSG00000198211
-- **IF 图像:** 未获取
+- **链接:** https://www.proteinatlas.org/ENSG00000198211-ENSG00000198211
+- **IF 图像:** 已获取 (6 张)
 
-*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+<!-- SPERM_HPA_IF_START -->
+**HPA IF 图像（2026-06-22）**: HPA subcellular 页面有 IF 图像 (6 张 blue_red_green)。
+![](https://images.proteinatlas.org/11512/642_E2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/46280/2070_F2_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43640/2209_F4_31_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43640/2152_D8_36_blue_red_green.jpg)
+![](https://images.proteinatlas.org/46280/2030_C3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43640/1825_F6_54_cr5ac349f6d4297_blue_red_green.jpg)
+<!-- SPERM_HPA_IF_END -->
+
 
 
 ## 3. UniProt / GO-CC 精子定位证据

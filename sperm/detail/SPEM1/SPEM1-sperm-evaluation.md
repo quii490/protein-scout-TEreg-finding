@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** SPEM1
-- **Ensembl:** 
+- **Ensembl:** ENSG00000181323
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 18 篇
@@ -19,14 +19,27 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** Calyx ✓
-- **链接:** https://www.proteinatlas.org/-SPEM1
-- **IF 图像:** 未获取
+- **链接:** https://www.proteinatlas.org/ENSG00000181323-SPEM1
+- **IF 图像:** 已获取 (6 张)
 
-*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+<!-- SPERM_HPA_IF_START -->
+**HPA IF 图像（2026-06-22）**: HPA subcellular 页面有 IF 图像 (6 张 blue_red_green)。
+![](https://images.proteinatlas.org/77535/2070_B8_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/17723/140_H8_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/77535/1947_H11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/77535/2204_C5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/17723/2237_E10_29_blue_red_green.jpg)
+![](https://images.proteinatlas.org/77535/1947_H11_1_blue_red_green.jpg)
+<!-- SPERM_HPA_IF_END -->
+
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-*待 UniProt/GO-CC 采集。*
+UniProt: Q8N4L4 — Spermatid maturation protein 1.
+GO-CC 精子相关: 待进一步查询 UniProt subcellular location。
+InterPro: SPEM1_N。
+Pfam: Spem1。
 
 ## 4. PubMed 文献证据
 - **文献数:** 18 篇 (低研究量)
@@ -35,7 +48,7 @@ tags: [protein-scout, sperm, evaluation]
 3. PMID 20558241: UBQLN1 interacts with SPEM1 and participates in spermiogenesis. (2010 Oct 7) *Mol Cell Endocrinol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
-*待结构数据采集。*
+AlphaFold 数据可用 (UniProt: Q8N4L4)。参见 https://alphafold.ebi.ac.uk/entry/Q8N4L4
 PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold pLDDT 统计。
 
 ## 6. PPI / 蛋白互作网络
@@ -60,7 +73,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | 精子定位 | 14/20 | 单部位: Calyx |
 | PubMed | 8/20 | 18 篇 |
 | PPI | 18/20 | STRING |
-| 结构 | 5/10 | 待采集 |
+| 结构 | 5/10 | AF available |
 | 新颖性 | 8/10 | 低 |
 
 - **评分:** **65/100**

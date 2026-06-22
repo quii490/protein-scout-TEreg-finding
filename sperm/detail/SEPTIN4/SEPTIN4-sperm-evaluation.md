@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** SEPTIN4
-- **Ensembl:** 
+- **Ensembl:** ENSG00000108387
 - **精子部位:** Annulus
 - **PubMed 总数:** 106 篇 ⚠️ **>100**
 

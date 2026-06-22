@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** RP1
-- **Ensembl:** 
+- **Ensembl:** ENSG00000104237
 - **精子部位:** Mid piece
 - **PubMed 总数:** 1193 篇 ⚠️ **>100**
 

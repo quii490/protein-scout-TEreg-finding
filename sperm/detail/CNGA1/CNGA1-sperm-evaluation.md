@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** CNGA1
-- **Ensembl:** 
+- **Ensembl:** ENSG00000198515
 - **精子部位:** Mid piece、Principal piece
 - **PubMed 总数:** 143 篇 ⚠️ **>100**
 

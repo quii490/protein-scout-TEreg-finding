@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** CAMK2A
-- **Ensembl:** 
+- **Ensembl:** ENSG00000070808
 - **精子部位:** Calyx、Connecting piece、End piece、Perinuclear theca、Principal piece
 - **PubMed 总数:** 586 篇 ⚠️ **>100**
 

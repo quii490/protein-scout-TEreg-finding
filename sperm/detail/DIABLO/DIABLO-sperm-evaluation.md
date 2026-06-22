@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** DIABLO
-- **Ensembl:** 
+- **Ensembl:** ENSG00000184047
 - **精子部位:** End piece、Flagellar centriole、Mid piece、Principal piece
 - **PubMed 总数:** 1751 篇 ⚠️ **>100**
 

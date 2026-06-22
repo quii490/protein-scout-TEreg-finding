@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** GAPDHS
-- **Ensembl:** 
+- **Ensembl:** ENSG00000105679
 - **精子部位:** Principal piece
 - **PubMed 总数:** 9505 篇 ⚠️ **>100**
 

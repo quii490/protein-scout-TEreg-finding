@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** PPP3CA
-- **Ensembl:** 
+- **Ensembl:** ENSG00000138814
 - **精子部位:** Calyx
 - **PubMed 总数:** 201 篇 ⚠️ **>100**
 

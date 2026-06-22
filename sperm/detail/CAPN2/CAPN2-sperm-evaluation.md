@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** CAPN2
-- **Ensembl:** 
+- **Ensembl:** ENSG00000162909
 - **精子部位:** Connecting piece、Mid piece、Principal piece
 - **PubMed 总数:** 366 篇 ⚠️ **>100**
 

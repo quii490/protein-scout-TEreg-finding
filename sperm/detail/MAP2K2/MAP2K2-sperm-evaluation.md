@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** MAP2K2
-- **Ensembl:** 
+- **Ensembl:** ENSG00000126934
 - **精子部位:** End piece、Mid piece、Principal piece
 - **PubMed 总数:** 891 篇 ⚠️ **>100**
 

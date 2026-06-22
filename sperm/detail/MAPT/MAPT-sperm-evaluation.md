@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** MAPT
-- **Ensembl:** 
+- **Ensembl:** ENSG00000186868
 - **精子部位:** End piece
 - **PubMed 总数:** 6074 篇 ⚠️ **>100**
 

@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** BOLL
-- **Ensembl:** 
+- **Ensembl:** ENSG00000152430
 - **精子部位:** Annulus、End piece、Mid piece、Principal piece
 - **PubMed 总数:** 36371 篇 ⚠️ **>100**
 

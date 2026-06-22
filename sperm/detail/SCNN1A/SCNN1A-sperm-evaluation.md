@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** SCNN1A
-- **Ensembl:** 
+- **Ensembl:** ENSG00000111319
 - **精子部位:** Acrosome、Annulus
 - **PubMed 总数:** 345 篇 ⚠️ **>100**
 

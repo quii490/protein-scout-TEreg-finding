@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** CFAP46
-- **Ensembl:** 
+- **Ensembl:** ENSG00000171811
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 15 篇
@@ -19,14 +19,23 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** Annulus、Mid piece、Principal piece ✓
-- **链接:** https://www.proteinatlas.org/-CFAP46
-- **IF 图像:** 未获取
+- **链接:** https://www.proteinatlas.org/ENSG00000171811-CFAP46
+- **IF 图像:** 已获取 (2 张)
 
-*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+<!-- SPERM_HPA_IF_START -->
+**HPA IF 图像（2026-06-22）**: HPA subcellular 页面有 IF 图像 (2 张 blue_red_green)。
+![](https://images.proteinatlas.org/37786/2211_C7_11_blue_red_green.jpg)
+![](https://images.proteinatlas.org/37786/2211_C7_6_blue_red_green.jpg)
+<!-- SPERM_HPA_IF_END -->
+
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-*待 UniProt/GO-CC 采集。*
+UniProt: A0A1W2PQB9 — .
+GO-CC 精子相关: 待进一步查询 UniProt subcellular location。
+InterPro: CFAP46, CFAP46_TPR。
+Pfam: TPR_CFAP46_N。
 
 ## 4. PubMed 文献证据
 - **文献数:** 15 篇 (低研究量)
@@ -35,7 +44,7 @@ tags: [protein-scout, sperm, evaluation]
 3. PMID 34604380: Molecular Profiling of Spermatozoa Reveals Correlations between Morphology and Gene Expression: A Novel Biomarker Panel for Male Infertility. (2021) *Biomed Res Int*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
-*待结构数据采集。*
+AlphaFold 数据可用 (UniProt: A0A1W2PQB9)。参见 https://alphafold.ebi.ac.uk/entry/A0A1W2PQB9
 PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold pLDDT 统计。
 
 ## 6. PPI / 蛋白互作网络
@@ -60,7 +69,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | 精子定位 | 18/20 | 3 部位: Annulus、Mid piece、Principal piece |
 | PubMed | 8/20 | 15 篇 |
 | PPI | 18/20 | STRING |
-| 结构 | 5/10 | 待采集 |
+| 结构 | 5/10 | AF available |
 | 新颖性 | 8/10 | 低 |
 
 - **评分:** **71/100**

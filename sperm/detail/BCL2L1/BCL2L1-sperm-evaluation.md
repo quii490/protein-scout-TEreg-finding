@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** BCL2L1
-- **Ensembl:** 
+- **Ensembl:** ENSG00000171552
 - **精子部位:** Acrosome
 - **PubMed 总数:** 8935 篇 ⚠️ **>100**
 

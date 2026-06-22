@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** RPGR
-- **Ensembl:** 
+- **Ensembl:** ENSG00000156313
 - **精子部位:** End piece、Mid piece、Principal piece
 - **PubMed 总数:** 682 篇 ⚠️ **>100**
 

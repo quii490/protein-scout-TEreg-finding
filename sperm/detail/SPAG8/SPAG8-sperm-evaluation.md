@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** SPAG8
-- **Ensembl:** 
+- **Ensembl:** ENSG00000137098
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 26 篇
@@ -19,14 +19,27 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** Acrosome、End piece、Equatorial segment、Principal piece ✓
-- **链接:** https://www.proteinatlas.org/-SPAG8
-- **IF 图像:** 未获取
+- **链接:** https://www.proteinatlas.org/ENSG00000137098-SPAG8
+- **IF 图像:** 已获取 (6 张)
 
-*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+<!-- SPERM_HPA_IF_START -->
+**HPA IF 图像（2026-06-22）**: HPA subcellular 页面有 IF 图像 (6 张 blue_red_green)。
+![](https://images.proteinatlas.org/68012/2210_D4_154_blue_red_green.jpg)
+![](https://images.proteinatlas.org/68012/2178_A4_37_blue_red_green.jpg)
+![](https://images.proteinatlas.org/68012/2216_B7_11_blue_red_green.jpg)
+![](https://images.proteinatlas.org/68012/2216_B7_26_blue_red_green.jpg)
+![](https://images.proteinatlas.org/68012/2178_A4_12_blue_red_green.jpg)
+![](https://images.proteinatlas.org/68012/2206_H5_41_blue_red_green.jpg)
+<!-- SPERM_HPA_IF_END -->
+
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-*待 UniProt/GO-CC 采集。*
+UniProt: A0ACI8R094 — .
+GO-CC 精子相关: 待进一步查询 UniProt subcellular location。
+InterPro: 无注释。
+Pfam: 无注释。
 
 ## 4. PubMed 文献证据
 - **文献数:** 26 篇 (低研究量)
@@ -35,7 +48,7 @@ tags: [protein-scout, sperm, evaluation]
 3. PMID 20488182: Sperm associated antigen 8 (SPAG8), a novel regulator of activator of CREM in testis during spermatogenesis. (2010 Jul 2) *FEBS Lett*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
-*待结构数据采集。*
+AlphaFold 数据可用 (UniProt: A0ACI8R094)。参见 https://alphafold.ebi.ac.uk/entry/A0ACI8R094
 PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold pLDDT 统计。
 
 ## 6. PPI / 蛋白互作网络
@@ -60,7 +73,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | 精子定位 | 19/20 | 4 部位: Acrosome、End piece、Equatorial segment、Principal piece |
 | PubMed | 8/20 | 26 篇 |
 | PPI | 18/20 | STRING |
-| 结构 | 5/10 | 待采集 |
+| 结构 | 5/10 | AF available |
 | 新颖性 | 8/10 | 低 |
 
 - **评分:** **72/100**

@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** PARK7
-- **Ensembl:** 
+- **Ensembl:** ENSG00000116288
 - **精子部位:** Flagellar centriole、Mid piece
 - **PubMed 总数:** 1521 篇 ⚠️ **>100**
 

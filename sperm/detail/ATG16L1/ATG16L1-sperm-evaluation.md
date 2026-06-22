@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** ATG16L1
-- **Ensembl:** 
+- **Ensembl:** ENSG00000085978
 - **精子部位:** Equatorial segment、Mid piece、Principal piece
 - **PubMed 总数:** 1195 篇 ⚠️ **>100**
 

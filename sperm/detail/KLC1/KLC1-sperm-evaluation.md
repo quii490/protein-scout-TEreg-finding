@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** KLC1
-- **Ensembl:** 
+- **Ensembl:** ENSG00000126214
 - **精子部位:** Acrosome、Equatorial segment
 - **PubMed 总数:** 150 篇 ⚠️ **>100**
 

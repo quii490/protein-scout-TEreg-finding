@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** SPACA4
-- **Ensembl:** 
+- **Ensembl:** ENSG00000177202
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 12 篇
@@ -19,14 +19,25 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** Acrosome ✓
-- **链接:** https://www.proteinatlas.org/-SPACA4
-- **IF 图像:** 未获取
+- **链接:** https://www.proteinatlas.org/ENSG00000177202-SPACA4
+- **IF 图像:** 已获取 (4 张)
 
-*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+<!-- SPERM_HPA_IF_START -->
+**HPA IF 图像（2026-06-22）**: HPA subcellular 页面有 IF 图像 (4 张 blue_red_green)。
+![](https://images.proteinatlas.org/61302/2204_E1_6_blue_red_green.jpg)
+![](https://images.proteinatlas.org/61302/2204_E1_26_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41927/2195_H5_26_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41927/2195_H5_41_blue_red_green.jpg)
+<!-- SPERM_HPA_IF_END -->
+
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-*待 UniProt/GO-CC 采集。*
+UniProt: A0A140VJU1 — .
+GO-CC 精子相关: 待进一步查询 UniProt subcellular location。
+InterPro: LY6_UPA_recep-like, Snake_toxin-like_sf, SPACA4/Bouncer。
+Pfam: UPAR_LY6。
 
 ## 4. PubMed 文献证据
 - **文献数:** 12 篇 (低研究量)
@@ -35,7 +46,7 @@ tags: [protein-scout, sperm, evaluation]
 3. PMID 34556579: The conserved fertility factor SPACA4/Bouncer has divergent modes of action in vertebrate fertilization. (2021 Sep 28) *Proc Natl Acad Sci U S A*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
-*待结构数据采集。*
+AlphaFold 数据可用 (UniProt: A0A140VJU1)。参见 https://alphafold.ebi.ac.uk/entry/A0A140VJU1
 PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold pLDDT 统计。
 
 ## 6. PPI / 蛋白互作网络
@@ -60,7 +71,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | 精子定位 | 14/20 | 单部位: Acrosome |
 | PubMed | 8/20 | 12 篇 |
 | PPI | 18/20 | STRING |
-| 结构 | 5/10 | 待采集 |
+| 结构 | 5/10 | AF available |
 | 新颖性 | 8/10 | 低 |
 
 - **评分:** **65/100**

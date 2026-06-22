@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** IL4I1
-- **Ensembl:** 
+- **Ensembl:** ENSG00000104951
 - **精子部位:** Acrosome
 - **PubMed 总数:** 214 篇 ⚠️ **>100**
 

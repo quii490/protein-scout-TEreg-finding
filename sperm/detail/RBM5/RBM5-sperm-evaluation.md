@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** RBM5
-- **Ensembl:** 
+- **Ensembl:** ENSG00000003756
 - **精子部位:** End piece、Flagellar centriole、Mid piece、Perinuclear theca、Principal piece
 - **PubMed 总数:** 171 篇 ⚠️ **>100**
 

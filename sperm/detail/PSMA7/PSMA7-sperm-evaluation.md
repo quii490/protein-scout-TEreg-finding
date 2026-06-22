@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** PSMA7
-- **Ensembl:** 
+- **Ensembl:** ENSG00000101182
 - **精子部位:** Principal piece
 - **PubMed 总数:** 121 篇 ⚠️ **>100**
 

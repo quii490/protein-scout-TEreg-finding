@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** LY6K
-- **Ensembl:** 
+- **Ensembl:** ENSG00000160886
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 71 篇
@@ -19,14 +19,27 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** Acrosome、Equatorial segment、Mid piece ✓
-- **链接:** https://www.proteinatlas.org/-LY6K
-- **IF 图像:** 未获取
+- **链接:** https://www.proteinatlas.org/ENSG00000160886-LY6K
+- **IF 图像:** 已获取 (6 张)
 
-*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+<!-- SPERM_HPA_IF_START -->
+**HPA IF 图像（2026-06-22）**: HPA subcellular 页面有 IF 图像 (6 张 blue_red_green)。
+![](https://images.proteinatlas.org/17770/2195_B10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/80500/2219_B7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/17770/1659_C1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/80500/2219_B4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/17770/1611_E1_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/80500/2219_B1_3_blue_red_green.jpg)
+<!-- SPERM_HPA_IF_END -->
+
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-*待 UniProt/GO-CC 采集。*
+UniProt: E5RGJ8 — .
+GO-CC 精子相关: 待进一步查询 UniProt subcellular location。
+InterPro: Snake_toxin-like_sf, Sperm-ZP_regulatory, Toxin/TOLIP。
+Pfam: Toxin_TOLIP。
 
 ## 4. PubMed 文献证据
 - **文献数:** 71 篇 (较多研究量)
@@ -35,7 +48,7 @@ tags: [protein-scout, sperm, evaluation]
 3. PMID 33860139: Prognostic impact of LY6K and CDCA1 expression for patients with esophageal squamous cell carcinoma. (2021 Mar) *Ann Gastroenterol Surg*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
-*待结构数据采集。*
+AlphaFold 数据可用 (UniProt: E5RGJ8)。参见 https://alphafold.ebi.ac.uk/entry/E5RGJ8
 PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold pLDDT 统计。
 
 ## 6. PPI / 蛋白互作网络
@@ -60,7 +73,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | 精子定位 | 18/20 | 3 部位: Acrosome、Equatorial segment、Mid piece |
 | PubMed | 6/20 | 71 篇 |
 | PPI | 18/20 | STRING |
-| 结构 | 5/10 | 待采集 |
+| 结构 | 5/10 | AF available |
 | 新颖性 | 4/10 | 较多 |
 
 - **评分:** **65/100**

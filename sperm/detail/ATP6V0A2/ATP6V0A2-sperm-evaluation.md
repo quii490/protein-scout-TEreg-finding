@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** ATP6V0A2
-- **Ensembl:** 
+- **Ensembl:** ENSG00000185344
 - **精子部位:** Connecting piece、End piece、Mid piece、Principal piece
 - **PubMed 总数:** 109 篇 ⚠️ **>100**
 

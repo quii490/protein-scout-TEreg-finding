@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** ODF3
-- **Ensembl:** 
+- **Ensembl:** ENSG00000177947
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 17 篇
@@ -19,14 +19,27 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** End piece、Mid piece、Principal piece ✓
-- **链接:** https://www.proteinatlas.org/-ODF3
-- **IF 图像:** 未获取
+- **链接:** https://www.proteinatlas.org/ENSG00000177947-ODF3
+- **IF 图像:** 已获取 (6 张)
 
-*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+<!-- SPERM_HPA_IF_START -->
+**HPA IF 图像（2026-06-22）**: HPA subcellular 页面有 IF 图像 (6 张 blue_red_green)。
+![](https://images.proteinatlas.org/38919/2199_G3_41_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38919/608_G3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38919/605_G3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38919/2199_G3_21_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38919/605_G3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38919/608_G3_4_blue_red_green.jpg)
+<!-- SPERM_HPA_IF_END -->
+
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-*待 UniProt/GO-CC 采集。*
+UniProt: C3U2T1 — .
+GO-CC 精子相关: 待进一步查询 UniProt subcellular location。
+InterPro: 无注释。
+Pfam: 无注释。
 
 ## 4. PubMed 文献证据
 - **文献数:** 17 篇 (低研究量)
@@ -35,7 +48,7 @@ tags: [protein-scout, sperm, evaluation]
 3. PMID 35015293: Histone Methylation Regulates Gene Expression in the Round Spermatids to Set the RNA Payloads of Sperm. (2022 Mar) *Reprod Sci*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
-*待结构数据采集。*
+AlphaFold 数据可用 (UniProt: C3U2T1)。参见 https://alphafold.ebi.ac.uk/entry/C3U2T1
 PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold pLDDT 统计。
 
 ## 6. PPI / 蛋白互作网络
@@ -60,7 +73,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | 精子定位 | 18/20 | 3 部位: End piece、Mid piece、Principal piece |
 | PubMed | 8/20 | 17 篇 |
 | PPI | 18/20 | STRING |
-| 结构 | 5/10 | 待采集 |
+| 结构 | 5/10 | AF available |
 | 新颖性 | 8/10 | 低 |
 
 - **评分:** **71/100**

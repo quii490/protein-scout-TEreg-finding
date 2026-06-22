@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** KIF4A
-- **Ensembl:** 
+- **Ensembl:** ENSG00000090889
 - **精子部位:** Acrosome、Equatorial segment、Mid piece、Principal piece
 - **PubMed 总数:** 301 篇 ⚠️ **>100**
 

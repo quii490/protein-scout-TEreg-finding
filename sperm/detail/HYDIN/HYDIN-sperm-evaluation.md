@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** HYDIN
-- **Ensembl:** 
+- **Ensembl:** ENSG00000157423
 - **精子部位:** Equatorial segment
 - **PubMed 总数:** 116 篇 ⚠️ **>100**
 

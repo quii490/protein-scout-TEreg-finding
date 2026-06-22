@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** CBLN1
-- **Ensembl:** 
+- **Ensembl:** ENSG00000102924
 - **精子部位:** Calyx、Flagellar centriole、Mid piece、Perinuclear theca、Principal piece
 - **PubMed 总数:** 146 篇 ⚠️ **>100**
 

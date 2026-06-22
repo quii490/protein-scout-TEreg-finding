@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** DCDC2
-- **Ensembl:** 
+- **Ensembl:** ENSG00000146038
 - **精子部位:** Acrosome、Equatorial segment、Principal piece
 - **PubMed 总数:** 173 篇 ⚠️ **>100**
 

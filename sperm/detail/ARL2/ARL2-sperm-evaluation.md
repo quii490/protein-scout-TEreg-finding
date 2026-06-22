@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** ARL2
-- **Ensembl:** 
+- **Ensembl:** ENSG00000213465
 - **精子部位:** Equatorial segment、Flagellar centriole、Mid piece
 - **PubMed 总数:** 167 篇 ⚠️ **>100**
 

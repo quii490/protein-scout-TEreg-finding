@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** SLC2A2
-- **Ensembl:** 
+- **Ensembl:** ENSG00000163581
 - **精子部位:** Mid piece、Principal piece
 - **PubMed 总数:** 864 篇 ⚠️ **>100**
 

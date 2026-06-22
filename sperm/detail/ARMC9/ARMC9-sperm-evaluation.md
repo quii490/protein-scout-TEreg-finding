@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** ARMC9
-- **Ensembl:** 
+- **Ensembl:** ENSG00000135931
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 16 篇
@@ -19,10 +19,16 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** Annulus、Flagellar centriole、Mid piece ✓
-- **链接:** https://www.proteinatlas.org/-ARMC9
-- **IF 图像:** 未获取
+- **链接:** https://www.proteinatlas.org/ENSG00000135931-ARMC9
+- **IF 图像:** 已获取 (2 张)
 
-*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+<!-- SPERM_HPA_IF_START -->
+**HPA IF 图像（2026-06-22）**: HPA subcellular 页面有 IF 图像 (2 张 blue_red_green)。
+![](https://images.proteinatlas.org/19041/2200_D2_26_blue_red_green.jpg)
+![](https://images.proteinatlas.org/19041/2200_D2_21_blue_red_green.jpg)
+<!-- SPERM_HPA_IF_END -->
+
 
 
 ## 3. UniProt / GO-CC 精子定位证据
@@ -33,7 +39,7 @@ tags: [protein-scout, sperm, evaluation]
 - *关键文献待人工调研。*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
-*待结构数据采集。*
+AlphaFold 数据可用 (UniProt: A0A804HK42)。参见 https://alphafold.ebi.ac.uk/entry/A0A804HK42
 PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold pLDDT 统计。
 
 ## 6. PPI / 蛋白互作网络
@@ -49,7 +55,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | 精子定位 | 18/20 | 3 部位: Annulus、Flagellar centriole、Mid piece |
 | PubMed | 8/20 | 16 篇 |
 | PPI | 5/20 | STRING |
-| 结构 | 5/10 | 待采集 |
+| 结构 | 5/10 | AF available |
 | 新颖性 | 8/10 | 低 |
 
 - **评分:** **56/100**

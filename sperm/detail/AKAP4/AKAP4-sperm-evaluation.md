@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** AKAP4
-- **Ensembl:** 
+- **Ensembl:** ENSG00000147081
 - **精子部位:** Principal piece
 - **PubMed 总数:** 174 篇 ⚠️ **>100**
 

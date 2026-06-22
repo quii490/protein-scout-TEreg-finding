@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** CPTP
-- **Ensembl:** 
+- **Ensembl:** ENSG00000224051
 - **精子部位:** Flagellar centriole、Mid piece、Perinuclear theca
 - **PubMed 总数:** 472 篇 ⚠️ **>100**
 

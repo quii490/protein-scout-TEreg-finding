@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** MT-CO1
-- **Ensembl:** 
+- **Ensembl:** ENSG00000198804
 - **精子部位:** End piece
 - **PubMed 总数:** 259 篇 ⚠️ **>100**
 

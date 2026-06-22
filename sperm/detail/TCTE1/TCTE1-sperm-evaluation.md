@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** TCTE1
-- **Ensembl:** 
+- **Ensembl:** ENSG00000146221
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 19 篇
@@ -19,14 +19,27 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** Mid piece ✓
-- **链接:** https://www.proteinatlas.org/-TCTE1
-- **IF 图像:** 未获取
+- **链接:** https://www.proteinatlas.org/ENSG00000146221-TCTE1
+- **IF 图像:** 已获取 (6 张)
 
-*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+<!-- SPERM_HPA_IF_START -->
+**HPA IF 图像（2026-06-22）**: HPA subcellular 页面有 IF 图像 (6 张 blue_red_green)。
+![](https://images.proteinatlas.org/31739/333_A9_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/31739/333_A9_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/31739/2195_H9_26_blue_red_green.jpg)
+![](https://images.proteinatlas.org/31739/331_A9_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/31739/2195_H9_6_blue_red_green.jpg)
+![](https://images.proteinatlas.org/31739/330_A9_2_blue_red_green.jpg)
+<!-- SPERM_HPA_IF_END -->
+
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-*待 UniProt/GO-CC 采集。*
+UniProt: Q5JU00 — Dynein regulatory complex subunit 5.
+GO-CC 精子相关: 待进一步查询 UniProt subcellular location。
+InterPro: DRC5, Leu-rich_rpt, LRR_dom_sf。
+Pfam: LRR_6。
 
 ## 4. PubMed 文献证据
 - **文献数:** 19 篇 (低研究量)
@@ -35,7 +48,7 @@ tags: [protein-scout, sperm, evaluation]
 3. PMID 28630322: TCTE1 is a conserved component of the dynein regulatory complex and is required for motility and metabolism in mouse spermatozoa. (2017 Jul 3) *Proc Natl Acad Sci U S A*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
-*待结构数据采集。*
+AlphaFold 数据可用 (UniProt: Q5JU00)。参见 https://alphafold.ebi.ac.uk/entry/Q5JU00
 PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold pLDDT 统计。
 
 ## 6. PPI / 蛋白互作网络
@@ -60,7 +73,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | 精子定位 | 14/20 | 单部位: Mid piece |
 | PubMed | 8/20 | 19 篇 |
 | PPI | 18/20 | STRING |
-| 结构 | 5/10 | 待采集 |
+| 结构 | 5/10 | AF available |
 | 新颖性 | 8/10 | 低 |
 
 - **评分:** **65/100**

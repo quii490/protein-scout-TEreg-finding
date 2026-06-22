@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** DCTN2
-- **Ensembl:** 
+- **Ensembl:** ENSG00000175203
 - **精子部位:** Connecting piece、End piece、Mid piece、Principal piece
 - **PubMed 总数:** 112 篇 ⚠️ **>100**
 

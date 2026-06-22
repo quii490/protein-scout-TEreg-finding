@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** TUBB3
-- **Ensembl:** 
+- **Ensembl:** ENSG00000258947
 - **精子部位:** End piece、Flagellar centriole、Principal piece
 - **PubMed 总数:** 1098 篇 ⚠️ **>100**
 

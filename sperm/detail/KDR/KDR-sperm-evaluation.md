@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** KDR
-- **Ensembl:** 
+- **Ensembl:** ENSG00000128052
 - **精子部位:** Connecting piece、Mid piece、Principal piece
 - **PubMed 总数:** 7255 篇 ⚠️ **>100**
 

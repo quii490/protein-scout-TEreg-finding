@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** SUMO3
-- **Ensembl:** 
+- **Ensembl:** ENSG00000184900
 - **精子部位:** Calyx、Connecting piece、Flagellar centriole
 - **PubMed 总数:** 399 篇 ⚠️ **>100**
 

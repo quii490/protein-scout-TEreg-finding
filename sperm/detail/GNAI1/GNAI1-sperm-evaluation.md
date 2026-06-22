@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** GNAI1
-- **Ensembl:** 
+- **Ensembl:** ENSG00000127955
 - **精子部位:** Principal piece
 - **PubMed 总数:** 178 篇 ⚠️ **>100**
 

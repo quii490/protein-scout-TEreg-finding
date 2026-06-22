@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** SCN10A
-- **Ensembl:** 
+- **Ensembl:** ENSG00000185313
 - **精子部位:** Connecting piece、Flagellar centriole
 - **PubMed 总数:** 663 篇 ⚠️ **>100**
 

@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** SLC9A3R1
-- **Ensembl:** 
+- **Ensembl:** ENSG00000109062
 - **精子部位:** Calyx
 - **PubMed 总数:** 733 篇 ⚠️ **>100**
 

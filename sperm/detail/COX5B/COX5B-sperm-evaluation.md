@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** COX5B
-- **Ensembl:** 
+- **Ensembl:** ENSG00000135940
 - **精子部位:** Acrosome
 - **PubMed 总数:** 170 篇 ⚠️ **>100**
 

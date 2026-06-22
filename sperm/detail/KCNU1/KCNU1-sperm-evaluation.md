@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** KCNU1
-- **Ensembl:** 
+- **Ensembl:** ENSG00000215262
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 50 篇
@@ -19,14 +19,25 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** Principal piece ✓
-- **链接:** https://www.proteinatlas.org/-KCNU1
-- **IF 图像:** 未获取
+- **链接:** https://www.proteinatlas.org/ENSG00000215262-KCNU1
+- **IF 图像:** 已获取 (4 张)
 
-*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+<!-- SPERM_HPA_IF_START -->
+**HPA IF 图像（2026-06-22）**: HPA subcellular 页面有 IF 图像 (4 张 blue_red_green)。
+![](https://images.proteinatlas.org/63317/2205_C10_31_blue_red_green.jpg)
+![](https://images.proteinatlas.org/63317/2205_C10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/63317/1781_D1_33_blue_red_green.jpg)
+![](https://images.proteinatlas.org/63317/1781_D1_32_blue_red_green.jpg)
+<!-- SPERM_HPA_IF_END -->
+
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-*待 UniProt/GO-CC 采集。*
+UniProt: E5RGP7 — .
+GO-CC 精子相关: 待进一步查询 UniProt subcellular location。
+InterPro: Ion_trans_dom, K_chnl_Slo-like。
+Pfam: Ion_trans。
 
 ## 4. PubMed 文献证据
 - **文献数:** 50 篇 (中等研究量)
@@ -35,7 +46,7 @@ tags: [protein-scout, sperm, evaluation]
 3. PMID 27194351: Sperm Capacitation and Acrosome Reaction in Mammalian Sperm. (2016) *Adv Anat Embryol Cell Biol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
-*待结构数据采集。*
+AlphaFold 数据可用 (UniProt: E5RGP7)。参见 https://alphafold.ebi.ac.uk/entry/E5RGP7
 PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold pLDDT 统计。
 
 ## 6. PPI / 蛋白互作网络
@@ -60,7 +71,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | 精子定位 | 14/20 | 单部位: Principal piece |
 | PubMed | 7/20 | 50 篇 |
 | PPI | 18/20 | STRING |
-| 结构 | 5/10 | 待采集 |
+| 结构 | 5/10 | AF available |
 | 新颖性 | 6/10 | 中等 |
 
 - **评分:** **62/100**

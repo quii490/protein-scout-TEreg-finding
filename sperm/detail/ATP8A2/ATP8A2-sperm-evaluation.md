@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** ATP8A2
-- **Ensembl:** 
+- **Ensembl:** ENSG00000132932
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 95 篇
@@ -19,14 +19,27 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** Acrosome、Annulus、Mid piece ✓
-- **链接:** https://www.proteinatlas.org/-ATP8A2
-- **IF 图像:** 未获取
+- **链接:** https://www.proteinatlas.org/ENSG00000132932-ATP8A2
+- **IF 图像:** 已获取 (6 张)
 
-*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+<!-- SPERM_HPA_IF_START -->
+**HPA IF 图像（2026-06-22）**: HPA subcellular 页面有 IF 图像 (6 张 blue_red_green)。
+![](https://images.proteinatlas.org/40033/2216_C10_11_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40033/1505_F5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40033/1505_F5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40033/1500_F5_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40033/2216_C10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40033/1589_B7_3_blue_red_green.jpg)
+<!-- SPERM_HPA_IF_END -->
+
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-*待 UniProt/GO-CC 采集。*
+UniProt: A0A804HKW9 — Phospholipid-transporting ATPase.
+GO-CC 精子相关: 待进一步查询 UniProt subcellular location。
+InterPro: ATPase_P-typ_cyto_dom_N, ATPase_P-typ_P_site, ATPase_P-typ_TM_dom_sf, ATPase_P-typ_transduc_dom_A_sf, ATPase_P-type_domA。
+Pfam: Cation_ATPase, E1-E2_ATPase, PhoLip_ATPase_C, PhoLip_ATPase_N。
 
 ## 4. PubMed 文献证据
 - **文献数:** 95 篇 (较多研究量)
@@ -35,7 +48,7 @@ tags: [protein-scout, sperm, evaluation]
 3. PMID 22307598: Critical role of a transmembrane lysine in aminophospholipid transport by mammalian photoreceptor P4-ATPase ATP8A2. (2012 Jan 31) *Proc Natl Acad Sci U S A*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
-*待结构数据采集。*
+AlphaFold 数据可用 (UniProt: A0A804HKW9)。参见 https://alphafold.ebi.ac.uk/entry/A0A804HKW9
 PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold pLDDT 统计。
 
 ## 6. PPI / 蛋白互作网络
@@ -51,7 +64,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | 精子定位 | 18/20 | 3 部位: Acrosome、Annulus、Mid piece |
 | PubMed | 6/20 | 95 篇 |
 | PPI | 5/20 | STRING |
-| 结构 | 5/10 | 待采集 |
+| 结构 | 5/10 | AF available |
 | 新颖性 | 4/10 | 较多 |
 
 - **评分:** **50/100**

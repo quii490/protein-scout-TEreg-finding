@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** KIF20B
-- **Ensembl:** 
+- **Ensembl:** ENSG00000138182
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 73 篇
@@ -19,14 +19,27 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** Perinuclear theca ✓
-- **链接:** https://www.proteinatlas.org/-KIF20B
-- **IF 图像:** 未获取
+- **链接:** https://www.proteinatlas.org/ENSG00000138182-KIF20B
+- **IF 图像:** 已获取 (6 张)
 
-*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+<!-- SPERM_HPA_IF_START -->
+**HPA IF 图像（2026-06-22）**: HPA subcellular 页面有 IF 图像 (6 张 blue_red_green)。
+![](https://images.proteinatlas.org/50214/2212_H8_21_blue_red_green.jpg)
+![](https://images.proteinatlas.org/50214/2201_C5_22_blue_red_green.jpg)
+![](https://images.proteinatlas.org/50214/2178_C6_36_blue_red_green.jpg)
+![](https://images.proteinatlas.org/50214/fp15_B3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/50214/2175_B12_14_blue_red_green.jpg)
+![](https://images.proteinatlas.org/50214/1773_A9_4_blue_red_green.jpg)
+<!-- SPERM_HPA_IF_END -->
+
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-*待 UniProt/GO-CC 采集。*
+UniProt: A0A0A0MSJ5 — .
+GO-CC 精子相关: 待进一步查询 UniProt subcellular location。
+InterPro: KIF11-like, Kinesin_motor_dom, Kinesin_motor_dom_sf, P-loop_NTPase。
+Pfam: Kinesin。
 
 ## 4. PubMed 文献证据
 - **文献数:** 73 篇 (较多研究量)
@@ -35,7 +48,7 @@ tags: [protein-scout, sperm, evaluation]
 3. PMID 34065612: Cancer Testis Antigen, NOL4, Is an Immunogenic Antigen Specifically Expressed in Small-Cell Lung Cancer. (2021 May 20) *Curr Oncol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
-*待结构数据采集。*
+AlphaFold 数据可用 (UniProt: A0A0A0MSJ5)。参见 https://alphafold.ebi.ac.uk/entry/A0A0A0MSJ5
 PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold pLDDT 统计。
 
 ## 6. PPI / 蛋白互作网络
@@ -60,7 +73,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | 精子定位 | 14/20 | 单部位: Perinuclear theca |
 | PubMed | 6/20 | 73 篇 |
 | PPI | 18/20 | STRING |
-| 结构 | 5/10 | 待采集 |
+| 结构 | 5/10 | AF available |
 | 新颖性 | 4/10 | 较多 |
 
 - **评分:** **58/100**

@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** DYNC2H1
-- **Ensembl:** 
+- **Ensembl:** ENSG00000187240
 - **精子部位:** Mid piece、Principal piece
 - **PubMed 总数:** 141 篇 ⚠️ **>100**
 

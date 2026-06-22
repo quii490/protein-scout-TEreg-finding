@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** ATP2A2
-- **Ensembl:** 
+- **Ensembl:** ENSG00000174437
 - **精子部位:** End piece、Mid piece、Perinuclear theca
 - **PubMed 总数:** 1118 篇 ⚠️ **>100**
 

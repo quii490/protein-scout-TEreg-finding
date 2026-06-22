@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** RAPGEF4
-- **Ensembl:** 
+- **Ensembl:** ENSG00000091428
 - **精子部位:** Mid piece
 - **PubMed 总数:** 237 篇 ⚠️ **>100**
 

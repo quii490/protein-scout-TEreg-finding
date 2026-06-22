@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** CATSPER1
-- **Ensembl:** 
+- **Ensembl:** ENSG00000175294
 - **精子部位:** Principal piece
 - **PubMed 总数:** 235 篇 ⚠️ **>100**
 

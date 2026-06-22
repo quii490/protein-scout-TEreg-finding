@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** DCDC2C
-- **Ensembl:** 
+- **Ensembl:** ENSG00000214866
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 7 篇
@@ -19,14 +19,23 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** End piece ✓
-- **链接:** https://www.proteinatlas.org/-DCDC2C
-- **IF 图像:** 未获取
+- **链接:** https://www.proteinatlas.org/ENSG00000214866-DCDC2C
+- **IF 图像:** 已获取 (2 张)
 
-*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+<!-- SPERM_HPA_IF_START -->
+**HPA IF 图像（2026-06-22）**: HPA subcellular 页面有 IF 图像 (2 张 blue_red_green)。
+![](https://images.proteinatlas.org/45848/2237_B10_22_blue_red_green.jpg)
+![](https://images.proteinatlas.org/45848/2237_B10_50_blue_red_green.jpg)
+<!-- SPERM_HPA_IF_END -->
+
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-*待 UniProt/GO-CC 采集。*
+UniProt: A8MYV0 — Doublecortin domain-containing protein 2C.
+GO-CC 精子相关: 待进一步查询 UniProt subcellular location。
+InterPro: Doublecortin_dom, Doublecortin_dom_sf。
+Pfam: DCX。
 
 ## 4. PubMed 文献证据
 - **文献数:** 7 篇 (极低研究量)
@@ -34,7 +43,7 @@ tags: [protein-scout, sperm, evaluation]
 2. PMID 28395323: Defining the human sperm microtubulome: an integrated genomics approach. (2017 Jan 1) *Biol Reprod*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
-*待结构数据采集。*
+AlphaFold 数据可用 (UniProt: A8MYV0)。参见 https://alphafold.ebi.ac.uk/entry/A8MYV0
 PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold pLDDT 统计。
 
 ## 6. PPI / 蛋白互作网络
@@ -59,7 +68,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | 精子定位 | 14/20 | 单部位: End piece |
 | PubMed | 10/20 | 7 篇 |
 | PPI | 18/20 | STRING |
-| 结构 | 5/10 | 待采集 |
+| 结构 | 5/10 | AF available |
 | 新颖性 | 10/10 | 极低 |
 
 - **评分:** **69/100**

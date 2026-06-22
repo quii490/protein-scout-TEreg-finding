@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** ACLY
-- **Ensembl:** 
+- **Ensembl:** ENSG00000131473
 - **精子部位:** Principal piece
 - **PubMed 总数:** 851 篇 ⚠️ **>100**
 

@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** KIF2A
-- **Ensembl:** 
+- **Ensembl:** ENSG00000068796
 - **精子部位:** Annulus、Mid piece、Principal piece
 - **PubMed 总数:** 226 篇 ⚠️ **>100**
 

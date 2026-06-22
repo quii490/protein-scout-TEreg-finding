@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** GOPC
-- **Ensembl:** 
+- **Ensembl:** ENSG00000047932
 - **精子部位:** Calyx、Connecting piece、Mid piece、Principal piece
 - **PubMed 总数:** 258 篇 ⚠️ **>100**
 

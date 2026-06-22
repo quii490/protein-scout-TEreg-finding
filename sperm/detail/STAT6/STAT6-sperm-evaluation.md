@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** STAT6
-- **Ensembl:** 
+- **Ensembl:** ENSG00000166888
 - **精子部位:** Connecting piece
 - **PubMed 总数:** 5145 篇 ⚠️ **>100**
 

@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** ATAD3A
-- **Ensembl:** 
+- **Ensembl:** ENSG00000197785
 - **精子部位:** Acrosome
 - **PubMed 总数:** 162 篇 ⚠️ **>100**
 

@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** CLIC4
-- **Ensembl:** 
+- **Ensembl:** ENSG00000169504
 - **精子部位:** Calyx、Connecting piece、Principal piece
 - **PubMed 总数:** 213 篇 ⚠️ **>100**
 

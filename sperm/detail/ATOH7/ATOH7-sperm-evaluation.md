@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** ATOH7
-- **Ensembl:** 
+- **Ensembl:** ENSG00000179774
 - **精子部位:** Flagellar centriole、Mid piece
 - **PubMed 总数:** 236 篇 ⚠️ **>100**
 

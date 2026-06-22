@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** BSG
-- **Ensembl:** 
+- **Ensembl:** ENSG00000172270
 - **精子部位:** End piece、Mid piece、Principal piece
 - **PubMed 总数:** 2656 篇 ⚠️ **>100**
 

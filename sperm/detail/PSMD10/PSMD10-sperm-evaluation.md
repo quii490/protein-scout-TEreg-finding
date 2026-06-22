@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** PSMD10
-- **Ensembl:** 
+- **Ensembl:** ENSG00000101843
 - **精子部位:** Calyx、Mid piece、Perinuclear theca、Principal piece
 - **PubMed 总数:** 192 篇 ⚠️ **>100**
 

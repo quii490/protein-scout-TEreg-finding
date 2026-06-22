@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** DKKL1
-- **Ensembl:** 
+- **Ensembl:** ENSG00000104901
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 35 篇
@@ -19,14 +19,27 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** Acrosome、Equatorial segment、Mid piece ✓
-- **链接:** https://www.proteinatlas.org/-DKKL1
-- **IF 图像:** 未获取
+- **链接:** https://www.proteinatlas.org/ENSG00000104901-DKKL1
+- **IF 图像:** 已获取 (6 张)
 
-*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+<!-- SPERM_HPA_IF_START -->
+**HPA IF 图像（2026-06-22）**: HPA subcellular 页面有 IF 图像 (6 张 blue_red_green)。
+![](https://images.proteinatlas.org/47194/2216_C11_11_blue_red_green.jpg)
+![](https://images.proteinatlas.org/47194/1595_E12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/47194/1566_D1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/47194/1595_E12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/47194/1568_D1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/47194/1566_D1_3_blue_red_green.jpg)
+<!-- SPERM_HPA_IF_END -->
+
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-*待 UniProt/GO-CC 采集。*
+UniProt: M0R2X7 — .
+GO-CC 精子相关: 待进一步查询 UniProt subcellular location。
+InterPro: DKKL1。
+Pfam: 无注释。
 
 ## 4. PubMed 文献证据
 - **文献数:** 35 篇 (中等研究量)
@@ -35,7 +48,7 @@ tags: [protein-scout, sperm, evaluation]
 3. PMID 15892050: DkkL1 (Soggy), a Dickkopf family member, localizes to the acrosome during mammalian spermatogenesis. (2005 Aug) *Mol Reprod Dev*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
-*待结构数据采集。*
+AlphaFold 数据可用 (UniProt: M0R2X7)。参见 https://alphafold.ebi.ac.uk/entry/M0R2X7
 PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold pLDDT 统计。
 
 ## 6. PPI / 蛋白互作网络
@@ -60,7 +73,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | 精子定位 | 18/20 | 3 部位: Acrosome、Equatorial segment、Mid piece |
 | PubMed | 7/20 | 35 篇 |
 | PPI | 18/20 | STRING |
-| 结构 | 5/10 | 待采集 |
+| 结构 | 5/10 | AF available |
 | 新颖性 | 6/10 | 中等 |
 
 - **评分:** **68/100**

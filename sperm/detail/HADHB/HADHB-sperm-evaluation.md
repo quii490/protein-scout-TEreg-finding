@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** HADHB
-- **Ensembl:** 
+- **Ensembl:** ENSG00000138029
 - **精子部位:** Equatorial segment、Principal piece
 - **PubMed 总数:** 171 篇 ⚠️ **>100**
 

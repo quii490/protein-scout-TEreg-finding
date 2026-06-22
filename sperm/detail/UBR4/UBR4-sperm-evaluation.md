@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** UBR4
-- **Ensembl:** 
+- **Ensembl:** ENSG00000127481
 - **精子部位:** Acrosome、Flagellar centriole、Perinuclear theca、Principal piece
 - **PubMed 总数:** 128 篇 ⚠️ **>100**
 

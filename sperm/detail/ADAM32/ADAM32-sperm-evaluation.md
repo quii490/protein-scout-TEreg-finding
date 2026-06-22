@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** ADAM32
-- **Ensembl:** 
+- **Ensembl:** ENSG00000197140
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 28 篇
@@ -19,14 +19,27 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** Principal piece ✓
-- **链接:** https://www.proteinatlas.org/-ADAM32
-- **IF 图像:** 未获取
+- **链接:** https://www.proteinatlas.org/ENSG00000197140-ADAM32
+- **IF 图像:** 已获取 (6 张)
 
-*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+<!-- SPERM_HPA_IF_START -->
+**HPA IF 图像（2026-06-22）**: HPA subcellular 页面有 IF 图像 (6 张 blue_red_green)。
+![](https://images.proteinatlas.org/44156/2211_H7_41_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44156/516_E8_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44156/516_E8_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44156/519_E8_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44156/519_E8_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44156/2211_H7_26_blue_red_green.jpg)
+<!-- SPERM_HPA_IF_END -->
+
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-*待 UniProt/GO-CC 采集。*
+UniProt: E7EPX8 — .
+GO-CC 精子相关: 待进一步查询 UniProt subcellular location。
+InterPro: ADAM_Cys-rich, Disintegrin_CS, Disintegrin_dom, Disintegrin_dom_sf, EGF。
+Pfam: ADAM_CR, EGF_Teneurin, Pep_M12B_propep, Reprolysin。
 
 ## 4. PubMed 文献证据
 - **文献数:** 28 篇 (低研究量)

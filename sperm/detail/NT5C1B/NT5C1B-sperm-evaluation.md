@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** NT5C1B
-- **Ensembl:** 
+- **Ensembl:** ENSG00000185013
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 9 篇
@@ -19,14 +19,27 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** Connecting piece、Mid piece ✓
-- **链接:** https://www.proteinatlas.org/-NT5C1B
-- **IF 图像:** 未获取
+- **链接:** https://www.proteinatlas.org/ENSG00000185013-NT5C1B
+- **IF 图像:** 已获取 (6 张)
 
-*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+<!-- SPERM_HPA_IF_START -->
+**HPA IF 图像（2026-06-22）**: HPA subcellular 页面有 IF 图像 (6 张 blue_red_green)。
+![](https://images.proteinatlas.org/56683/2017_G8_29_cr5fca2941c0e19_blue_red_green.jpg)
+![](https://images.proteinatlas.org/56683/2049_H3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/56683/2049_H3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/56683/1924_G2_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/56683/2017_G8_5_cr5fca2941c056b_blue_red_green.jpg)
+![](https://images.proteinatlas.org/56683/1924_G2_1_blue_red_green.jpg)
+<!-- SPERM_HPA_IF_END -->
+
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-*待 UniProt/GO-CC 采集。*
+UniProt: H7BZQ4 — .
+GO-CC 精子相关: 待进一步查询 UniProt subcellular location。
+InterPro: 5-nucleotidase。
+Pfam: 5-nucleotidase。
 
 ## 4. PubMed 文献证据
 - **文献数:** 9 篇 (极低研究量)
@@ -35,7 +48,7 @@ tags: [protein-scout, sperm, evaluation]
 3. PMID 30854786: Cancer-testis antigens in canine histiocytic sarcoma and other malignancies. (2019 Sep) *Vet Comp Oncol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
-*待结构数据采集。*
+AlphaFold 数据可用 (UniProt: H7BZQ4)。参见 https://alphafold.ebi.ac.uk/entry/H7BZQ4
 PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold pLDDT 统计。
 
 ## 6. PPI / 蛋白互作网络
@@ -60,7 +73,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | 精子定位 | 16/20 | 双部位: Connecting piece、Mid piece |
 | PubMed | 10/20 | 9 篇 |
 | PPI | 18/20 | STRING |
-| 结构 | 5/10 | 待采集 |
+| 结构 | 5/10 | AF available |
 | 新颖性 | 10/10 | 极低 |
 
 - **评分:** **72/100**

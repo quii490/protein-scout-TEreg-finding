@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** PFKM
-- **Ensembl:** 
+- **Ensembl:** ENSG00000152556
 - **精子部位:** Principal piece
 - **PubMed 总数:** 265 篇 ⚠️ **>100**
 

@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** DCTN1
-- **Ensembl:** 
+- **Ensembl:** ENSG00000204843
 - **精子部位:** Acrosome、Perinuclear theca
 - **PubMed 总数:** 376 篇 ⚠️ **>100**
 

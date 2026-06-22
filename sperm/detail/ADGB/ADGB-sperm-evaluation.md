@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** ADGB
-- **Ensembl:** 
+- **Ensembl:** ENSG00000118492
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 44 篇
@@ -19,14 +19,23 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** Mid piece ✓
-- **链接:** https://www.proteinatlas.org/-ADGB
-- **IF 图像:** 未获取
+- **链接:** https://www.proteinatlas.org/ENSG00000118492-ADGB
+- **IF 图像:** 已获取 (2 张)
 
-*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+<!-- SPERM_HPA_IF_START -->
+**HPA IF 图像（2026-06-22）**: HPA subcellular 页面有 IF 图像 (2 张 blue_red_green)。
+![](https://images.proteinatlas.org/36340/2229_G11_26_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36340/2229_G11_11_blue_red_green.jpg)
+<!-- SPERM_HPA_IF_END -->
+
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-*待 UniProt/GO-CC 采集。*
+UniProt: E5RGD1 — .
+GO-CC 精子相关: 待进一步查询 UniProt subcellular location。
+InterPro: Androglobin-like, Papain-like_cys_pep_sf。
+Pfam: 无注释。
 
 ## 4. PubMed 文献证据
 - **文献数:** 44 篇 (中等研究量)

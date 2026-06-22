@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** BBS4
-- **Ensembl:** 
+- **Ensembl:** ENSG00000140463
 - **精子部位:** Acrosome、Annulus、Flagellar centriole、Perinuclear theca、Principal piece
 - **PubMed 总数:** 168 篇 ⚠️ **>100**
 

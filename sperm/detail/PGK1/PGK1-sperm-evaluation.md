@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** PGK1
-- **Ensembl:** 
+- **Ensembl:** ENSG00000102144
 - **精子部位:** End piece、Mid piece、Principal piece
 - **PubMed 总数:** 1485 篇 ⚠️ **>100**
 

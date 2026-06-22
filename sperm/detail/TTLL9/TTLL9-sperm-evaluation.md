@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** TTLL9
-- **Ensembl:** 
+- **Ensembl:** ENSG00000131044
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 12 篇
@@ -19,14 +19,27 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** End piece、Mid piece、Principal piece ✓
-- **链接:** https://www.proteinatlas.org/-TTLL9
-- **IF 图像:** 未获取
+- **链接:** https://www.proteinatlas.org/ENSG00000131044-TTLL9
+- **IF 图像:** 已获取 (6 张)
 
-*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+<!-- SPERM_HPA_IF_START -->
+**HPA IF 图像（2026-06-22）**: HPA subcellular 页面有 IF 图像 (6 张 blue_red_green)。
+![](https://images.proteinatlas.org/41772/2168_A8_56_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41772/2209_H8_16_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41772/2121_B10_36_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41772/490_D11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41772/486_D11_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41772/2131_C3_63_blue_red_green.jpg)
+<!-- SPERM_HPA_IF_END -->
+
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-*待 UniProt/GO-CC 采集。*
+UniProt: A0A087WWB8 — .
+GO-CC 精子相关: 待进一步查询 UniProt subcellular location。
+InterPro: 无注释。
+Pfam: 无注释。
 
 ## 4. PubMed 文献证据
 - **文献数:** 12 篇 (低研究量)
@@ -35,7 +48,7 @@ tags: [protein-scout, sperm, evaluation]
 3. PMID 24196831: A conserved flagella-associated protein in Chlamydomonas, FAP234, is essential for axonemal localization of tubulin polyglutamylase TTLL9. (2014 Jan) *Mol Biol Cell*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
-*待结构数据采集。*
+AlphaFold 数据可用 (UniProt: A0A087WWB8)。参见 https://alphafold.ebi.ac.uk/entry/A0A087WWB8
 PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold pLDDT 统计。
 
 ## 6. PPI / 蛋白互作网络
@@ -60,7 +73,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | 精子定位 | 18/20 | 3 部位: End piece、Mid piece、Principal piece |
 | PubMed | 8/20 | 12 篇 |
 | PPI | 18/20 | STRING |
-| 结构 | 5/10 | 待采集 |
+| 结构 | 5/10 | AF available |
 | 新颖性 | 8/10 | 低 |
 
 - **评分:** **71/100**

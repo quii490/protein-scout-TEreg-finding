@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** IFT20
-- **Ensembl:** 
+- **Ensembl:** ENSG00000109083
 - **精子部位:** End piece、Flagellar centriole、Mid piece、Principal piece
 - **PubMed 总数:** 142 篇 ⚠️ **>100**
 

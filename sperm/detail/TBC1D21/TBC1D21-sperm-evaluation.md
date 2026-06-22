@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** TBC1D21
-- **Ensembl:** 
+- **Ensembl:** ENSG00000167139
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 13 篇
@@ -19,14 +19,25 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** Calyx、Mid piece ✓
-- **链接:** https://www.proteinatlas.org/-TBC1D21
-- **IF 图像:** 未获取
+- **链接:** https://www.proteinatlas.org/ENSG00000167139-TBC1D21
+- **IF 图像:** 已获取 (4 张)
 
-*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+<!-- SPERM_HPA_IF_START -->
+**HPA IF 图像（2026-06-22）**: HPA subcellular 页面有 IF 图像 (4 张 blue_red_green)。
+![](https://images.proteinatlas.org/43319/2195_A2_26_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43319/2195_A2_16_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43319/469_E7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43319/469_E7_1_blue_red_green.jpg)
+<!-- SPERM_HPA_IF_END -->
+
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-*待 UniProt/GO-CC 采集。*
+UniProt: H3BTA9 — .
+GO-CC 精子相关: 待进一步查询 UniProt subcellular location。
+InterPro: Rab-GAP-TBC_dom, Rab-GAP_TBC_sf。
+Pfam: RabGAP-TBC。
 
 ## 4. PubMed 文献证据
 - **文献数:** 13 篇 (低研究量)
@@ -35,7 +46,7 @@ tags: [protein-scout, sperm, evaluation]
 3. PMID 35403672: TBC1D21 is an essential factor for sperm mitochondrial sheath assembly and male fertility‡. (2022 Aug 9) *Biol Reprod*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
-*待结构数据采集。*
+AlphaFold 数据可用 (UniProt: H3BTA9)。参见 https://alphafold.ebi.ac.uk/entry/H3BTA9
 PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold pLDDT 统计。
 
 ## 6. PPI / 蛋白互作网络
@@ -60,7 +71,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | 精子定位 | 16/20 | 双部位: Calyx、Mid piece |
 | PubMed | 8/20 | 13 篇 |
 | PPI | 18/20 | STRING |
-| 结构 | 5/10 | 待采集 |
+| 结构 | 5/10 | AF available |
 | 新颖性 | 8/10 | 低 |
 
 - **评分:** **68/100**

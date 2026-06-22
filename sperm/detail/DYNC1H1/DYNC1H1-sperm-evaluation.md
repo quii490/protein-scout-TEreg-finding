@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** DYNC1H1
-- **Ensembl:** 
+- **Ensembl:** ENSG00000197102
 - **精子部位:** Annulus、Flagellar centriole、Mid piece
 - **PubMed 总数:** 224 篇 ⚠️ **>100**
 

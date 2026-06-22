@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** BBS9
-- **Ensembl:** 
+- **Ensembl:** ENSG00000122507
 - **精子部位:** Acrosome、Equatorial segment、Flagellar centriole、Mid piece、Principal piece
 - **PubMed 总数:** 102 篇 ⚠️ **>100**
 

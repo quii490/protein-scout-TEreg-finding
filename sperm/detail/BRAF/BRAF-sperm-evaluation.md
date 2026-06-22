@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** BRAF
-- **Ensembl:** 
+- **Ensembl:** ENSG00000157764
 - **精子部位:** End piece、Mid piece、Principal piece
 - **PubMed 总数:** 28218 篇 ⚠️ **>100**
 

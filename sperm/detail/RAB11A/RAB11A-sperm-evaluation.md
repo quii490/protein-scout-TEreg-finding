@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** RAB11A
-- **Ensembl:** 
+- **Ensembl:** ENSG00000103769
 - **精子部位:** Equatorial segment、Mid piece、Principal piece
 - **PubMed 总数:** 576 篇 ⚠️ **>100**
 

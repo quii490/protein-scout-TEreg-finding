@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** PPP1CA
-- **Ensembl:** 
+- **Ensembl:** ENSG00000172531
 - **精子部位:** End piece、Flagellar centriole、Mid piece
 - **PubMed 总数:** 129 篇 ⚠️ **>100**
 

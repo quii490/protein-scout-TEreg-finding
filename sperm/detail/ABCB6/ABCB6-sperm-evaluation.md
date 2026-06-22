@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** ABCB6
-- **Ensembl:** 
+- **Ensembl:** ENSG00000115657
 - **精子部位:** Mid piece、Principal piece
 - **PubMed 总数:** 216 篇 ⚠️ **>100**
 

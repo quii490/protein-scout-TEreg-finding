@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** LAP3
-- **Ensembl:** 
+- **Ensembl:** ENSG00000002549
 - **精子部位:** Calyx、Mid piece、Principal piece
 - **PubMed 总数:** 761 篇 ⚠️ **>100**
 

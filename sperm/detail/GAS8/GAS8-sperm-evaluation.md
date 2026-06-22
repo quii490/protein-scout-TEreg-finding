@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** GAS8
-- **Ensembl:** 
+- **Ensembl:** ENSG00000141013
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 80 篇
@@ -19,14 +19,27 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** End piece、Mid piece、Principal piece ✓
-- **链接:** https://www.proteinatlas.org/-GAS8
-- **IF 图像:** 未获取
+- **链接:** https://www.proteinatlas.org/ENSG00000141013-GAS8
+- **IF 图像:** 已获取 (6 张)
 
-*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+<!-- SPERM_HPA_IF_START -->
+**HPA IF 图像（2026-06-22）**: HPA subcellular 页面有 IF 图像 (6 张 blue_red_green)。
+![](https://images.proteinatlas.org/41311/473_F11_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41311/2132_B4_21_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41311/2185_B9_14_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41311/468_F11_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41311/2185_B9_43_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41311/2121_C12_48_blue_red_green.jpg)
+<!-- SPERM_HPA_IF_END -->
+
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-*待 UniProt/GO-CC 采集。*
+UniProt: O95995 — Dynein regulatory complex subunit 4.
+GO-CC 精子相关: 待进一步查询 UniProt subcellular location。
+InterPro: GAS8, GAS8_dom。
+Pfam: GAS。
 
 ## 4. PubMed 文献证据
 - **文献数:** 80 篇 (较多研究量)
@@ -35,7 +48,7 @@ tags: [protein-scout, sperm, evaluation]
 3. PMID 27120127: Mutations in GAS8, a Gene Encoding a Nexin-Dynein Regulatory Complex Subunit, Cause Primary Ciliary Dyskinesia with Axonemal Disorganization. (2016 Aug) *Hum Mutat*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
-*待结构数据采集。*
+AlphaFold 数据可用 (UniProt: O95995)。参见 https://alphafold.ebi.ac.uk/entry/O95995
 PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold pLDDT 统计。
 
 ## 6. PPI / 蛋白互作网络
@@ -60,7 +73,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | 精子定位 | 18/20 | 3 部位: End piece、Mid piece、Principal piece |
 | PubMed | 6/20 | 80 篇 |
 | PPI | 18/20 | STRING |
-| 结构 | 5/10 | 待采集 |
+| 结构 | 5/10 | AF available |
 | 新颖性 | 4/10 | 较多 |
 
 - **评分:** **65/100**

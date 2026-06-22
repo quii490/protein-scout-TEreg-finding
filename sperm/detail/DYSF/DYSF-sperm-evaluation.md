@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** DYSF
-- **Ensembl:** 
+- **Ensembl:** ENSG00000135636
 - **精子部位:** Mid piece
 - **PubMed 总数:** 782 篇 ⚠️ **>100**
 

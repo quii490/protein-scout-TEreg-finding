@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** HSPA1A
-- **Ensembl:** 
+- **Ensembl:** ENSG00000204389
 - **精子部位:** Annulus、Calyx、Flagellar centriole、Perinuclear theca
 - **PubMed 总数:** 853 篇 ⚠️ **>100**
 

@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** ALMS1
-- **Ensembl:** 
+- **Ensembl:** ENSG00000116127
 - **精子部位:** End piece、Flagellar centriole、Mid piece
 - **PubMed 总数:** 343 篇 ⚠️ **>100**
 

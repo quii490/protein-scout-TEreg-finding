@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** PIK3R3
-- **Ensembl:** 
+- **Ensembl:** ENSG00000117461
 - **精子部位:** Connecting piece、End piece、Mid piece、Principal piece
 - **PubMed 总数:** 260 篇 ⚠️ **>100**
 

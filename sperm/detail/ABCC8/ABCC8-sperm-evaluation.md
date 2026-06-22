@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** ABCC8
-- **Ensembl:** 
+- **Ensembl:** ENSG00000006071
 - **精子部位:** Principal piece
 - **PubMed 总数:** 1462 篇 ⚠️ **>100**
 

@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** KIF5B
-- **Ensembl:** 
+- **Ensembl:** ENSG00000170759
 - **精子部位:** End piece
 - **PubMed 总数:** 635 篇 ⚠️ **>100**
 

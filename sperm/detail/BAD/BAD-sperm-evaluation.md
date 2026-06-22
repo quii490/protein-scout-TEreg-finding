@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** BAD
-- **Ensembl:** 
+- **Ensembl:** ENSG00000002330
 - **精子部位:** End piece、Principal piece
 - **PubMed 总数:** 70125 篇 ⚠️ **>100**
 

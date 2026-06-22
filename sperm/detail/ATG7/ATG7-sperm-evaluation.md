@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** ATG7
-- **Ensembl:** 
+- **Ensembl:** ENSG00000197548
 - **精子部位:** Connecting piece、Flagellar centriole、Mid piece
 - **PubMed 总数:** 3643 篇 ⚠️ **>100**
 

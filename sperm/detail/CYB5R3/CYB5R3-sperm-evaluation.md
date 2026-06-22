@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** CYB5R3
-- **Ensembl:** 
+- **Ensembl:** ENSG00000100243
 - **精子部位:** Calyx、Connecting piece、Mid piece、Perinuclear theca、Principal piece
 - **PubMed 总数:** 154 篇 ⚠️ **>100**
 

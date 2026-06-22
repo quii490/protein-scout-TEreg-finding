@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** AK1
-- **Ensembl:** 
+- **Ensembl:** ENSG00000106992
 - **精子部位:** Annulus
 - **PubMed 总数:** 488 篇 ⚠️ **>100**
 

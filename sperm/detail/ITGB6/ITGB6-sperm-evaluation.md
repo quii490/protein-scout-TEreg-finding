@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** ITGB6
-- **Ensembl:** 
+- **Ensembl:** ENSG00000115221
 - **精子部位:** Acrosome、Connecting piece、End piece、Mid piece、Principal piece
 - **PubMed 总数:** 233 篇 ⚠️ **>100**
 

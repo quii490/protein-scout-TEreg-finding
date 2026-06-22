@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** AFG3L2
-- **Ensembl:** 
+- **Ensembl:** ENSG00000141385
 - **精子部位:** Calyx、Connecting piece、Mid piece、Perinuclear theca、Principal piece
 - **PubMed 总数:** 148 篇 ⚠️ **>100**
 

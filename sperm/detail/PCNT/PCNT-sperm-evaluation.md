@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** PCNT
-- **Ensembl:** 
+- **Ensembl:** ENSG00000160299
 - **精子部位:** Flagellar centriole、Mid piece
 - **PubMed 总数:** 259 篇 ⚠️ **>100**
 

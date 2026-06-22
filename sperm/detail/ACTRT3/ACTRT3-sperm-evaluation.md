@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** ACTRT3
-- **Ensembl:** 
+- **Ensembl:** ENSG00000184378
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 8 篇
@@ -19,10 +19,20 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** Acrosome ✓
-- **链接:** https://www.proteinatlas.org/-ACTRT3
-- **IF 图像:** 未获取
+- **链接:** https://www.proteinatlas.org/ENSG00000184378-ACTRT3
+- **IF 图像:** 已获取 (6 张)
 
-*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+<!-- SPERM_HPA_IF_START -->
+**HPA IF 图像（2026-06-22）**: HPA subcellular 页面有 IF 图像 (6 张 blue_red_green)。
+![](https://images.proteinatlas.org/35817/436_G5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35818/2229_D11_11_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35818/2229_D11_16_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35817/442_G5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35817/521_G5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35818/1345_B1_1_blue_red_green.jpg)
+<!-- SPERM_HPA_IF_END -->
+
 
 
 ## 3. UniProt / GO-CC 精子定位证据
@@ -34,7 +44,7 @@ tags: [protein-scout, sperm, evaluation]
 2. PMID 18692047: Nuclear localization of profilin III-ArpM1 complex in mouse spermiogenesis. (2008 Sep 3) *FEBS Lett*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
-*待结构数据采集。*
+AlphaFold 数据可用 (UniProt: Q9BYD9)。参见 https://alphafold.ebi.ac.uk/entry/Q9BYD9
 PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold pLDDT 统计。
 
 ## 6. PPI / 蛋白互作网络
@@ -50,7 +60,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | 精子定位 | 14/20 | 单部位: Acrosome |
 | PubMed | 10/20 | 8 篇 |
 | PPI | 5/20 | STRING |
-| 结构 | 5/10 | 待采集 |
+| 结构 | 5/10 | AF available |
 | 新颖性 | 10/10 | 极低 |
 
 - **评分:** **54/100**

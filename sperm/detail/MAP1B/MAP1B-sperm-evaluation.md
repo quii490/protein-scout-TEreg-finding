@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** MAP1B
-- **Ensembl:** 
+- **Ensembl:** ENSG00000131711
 - **精子部位:** Equatorial segment
 - **PubMed 总数:** 898 篇 ⚠️ **>100**
 

@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** GZMB
-- **Ensembl:** 
+- **Ensembl:** ENSG00000100453
 - **精子部位:** Calyx
 - **PubMed 总数:** 3229 篇 ⚠️ **>100**
 

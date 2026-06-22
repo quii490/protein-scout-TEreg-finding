@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** KIF13A
-- **Ensembl:** 
+- **Ensembl:** ENSG00000137177
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 81 篇
@@ -19,21 +19,30 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** Mid piece、Principal piece ✓
-- **链接:** https://www.proteinatlas.org/-KIF13A
-- **IF 图像:** 未获取
+- **链接:** https://www.proteinatlas.org/ENSG00000137177-KIF13A
+- **IF 图像:** 已获取 (2 张)
 
-*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+<!-- SPERM_HPA_IF_START -->
+**HPA IF 图像（2026-06-22）**: HPA subcellular 页面有 IF 图像 (2 张 blue_red_green)。
+![](https://images.proteinatlas.org/29254/2233_D6_57_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29254/2233_D6_50_blue_red_green.jpg)
+<!-- SPERM_HPA_IF_END -->
+
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-*待 UniProt/GO-CC 采集。*
+UniProt: A0A1B0GUA8 — .
+GO-CC 精子相关: 待进一步查询 UniProt subcellular location。
+InterPro: FHA_dom, Kinesin-like, Kinesin-like_KIF1-typ, Kinesin_assoc, Kinesin_motor_CS。
+Pfam: DUF3694, FHA, KIF1B, Kinesin, Kinesin_assoc。
 
 ## 4. PubMed 文献证据
 - **文献数:** 81 篇 (较多研究量)
 - *关键文献待人工调研。*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
-*待结构数据采集。*
+AlphaFold 数据可用 (UniProt: A0A1B0GUA8)。参见 https://alphafold.ebi.ac.uk/entry/A0A1B0GUA8
 PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold pLDDT 统计。
 
 ## 6. PPI / 蛋白互作网络
@@ -58,7 +67,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | 精子定位 | 16/20 | 双部位: Mid piece、Principal piece |
 | PubMed | 6/20 | 81 篇 |
 | PPI | 18/20 | STRING |
-| 结构 | 5/10 | 待采集 |
+| 结构 | 5/10 | AF available |
 | 新颖性 | 4/10 | 较多 |
 
 - **评分:** **62/100**

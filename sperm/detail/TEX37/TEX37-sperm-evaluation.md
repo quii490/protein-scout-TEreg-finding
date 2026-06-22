@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** TEX37
-- **Ensembl:** 
+- **Ensembl:** ENSG00000172073
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 5 篇
@@ -19,14 +19,27 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** Connecting piece、End piece、Mid piece、Principal piece ✓
-- **链接:** https://www.proteinatlas.org/-TEX37
-- **IF 图像:** 未获取
+- **链接:** https://www.proteinatlas.org/ENSG00000172073-TEX37
+- **IF 图像:** 已获取 (6 张)
 
-*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+<!-- SPERM_HPA_IF_START -->
+**HPA IF 图像（2026-06-22）**: HPA subcellular 页面有 IF 图像 (6 张 blue_red_green)。
+![](https://images.proteinatlas.org/43987/2218_F7_41_blue_red_green.jpg)
+![](https://images.proteinatlas.org/70239/1969_A10_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43987/2218_F7_26_blue_red_green.jpg)
+![](https://images.proteinatlas.org/70239/1977_G12_55_cr5e53c8d6721a5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/70239/1977_G12_59_cr5e53c8d6726e9_blue_red_green.jpg)
+![](https://images.proteinatlas.org/70239/1969_A10_1_blue_red_green.jpg)
+<!-- SPERM_HPA_IF_END -->
+
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-*待 UniProt/GO-CC 采集。*
+UniProt: Q96LM6 — Protein SPMIP9.
+GO-CC 精子相关: 待进一步查询 UniProt subcellular location。
+InterPro: SPMIP9。
+Pfam: TSC21。
 
 ## 4. PubMed 文献证据
 - **文献数:** 5 篇 (极低研究量)
@@ -35,7 +48,7 @@ tags: [protein-scout, sperm, evaluation]
 3. PMID 35709667: Mixed model-based eQTL analysis reveals lncRNAs associated with regulation of genes involved in sex determination and spermatogenesis: The key to understanding human gender imbalance. (2022 Aug) *Comput Biol Chem*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
-*待结构数据采集。*
+AlphaFold 数据可用 (UniProt: Q96LM6)。参见 https://alphafold.ebi.ac.uk/entry/Q96LM6
 PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold pLDDT 统计。
 
 ## 6. PPI / 蛋白互作网络
@@ -60,7 +73,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | 精子定位 | 19/20 | 4 部位: Connecting piece、End piece、Mid piece、Principal piece |
 | PubMed | 10/20 | 5 篇 |
 | PPI | 18/20 | STRING |
-| 结构 | 5/10 | 待采集 |
+| 结构 | 5/10 | AF available |
 | 新颖性 | 10/10 | 极低 |
 
 - **评分:** **77/100**

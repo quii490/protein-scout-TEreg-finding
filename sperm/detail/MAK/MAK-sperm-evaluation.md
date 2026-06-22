@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** MAK
-- **Ensembl:** 
+- **Ensembl:** ENSG00000111837
 - **精子部位:** Connecting piece、End piece、Principal piece
 - **PubMed 总数:** 17181 篇 ⚠️ **>100**
 

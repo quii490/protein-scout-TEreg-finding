@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** TRIP13
-- **Ensembl:** 
+- **Ensembl:** ENSG00000071539
 - **精子部位:** Acrosome、Equatorial segment、Principal piece
 - **PubMed 总数:** 290 篇 ⚠️ **>100**
 

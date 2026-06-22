@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** EML4
-- **Ensembl:** 
+- **Ensembl:** ENSG00000143924
 - **精子部位:** Annulus、Calyx、Perinuclear theca、Principal piece
 - **PubMed 总数:** 1671 篇 ⚠️ **>100**
 

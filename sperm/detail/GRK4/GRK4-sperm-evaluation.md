@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** GRK4
-- **Ensembl:** 
+- **Ensembl:** ENSG00000125388
 - **精子部位:** Calyx
 - **PubMed 总数:** 221 篇 ⚠️ **>100**
 

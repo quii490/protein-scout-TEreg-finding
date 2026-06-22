@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** AAAS
-- **Ensembl:** 
+- **Ensembl:** ENSG00000094914
 - **精子部位:** End piece
 - **PubMed 总数:** 5699 篇 ⚠️ **>100**
 

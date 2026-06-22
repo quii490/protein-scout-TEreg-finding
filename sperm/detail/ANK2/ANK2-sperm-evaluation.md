@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** ANK2
-- **Ensembl:** 
+- **Ensembl:** ENSG00000145362
 - **精子部位:** Acrosome
 - **PubMed 总数:** 314 篇 ⚠️ **>100**
 

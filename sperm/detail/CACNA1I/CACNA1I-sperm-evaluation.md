@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** CACNA1I
-- **Ensembl:** 
+- **Ensembl:** ENSG00000100346
 - **精子部位:** Acrosome
 - **PubMed 总数:** 137 篇 ⚠️ **>100**
 

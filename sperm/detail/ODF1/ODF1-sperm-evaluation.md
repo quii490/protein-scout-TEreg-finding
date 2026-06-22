@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** ODF1
-- **Ensembl:** 
+- **Ensembl:** ENSG00000155087
 - **精子部位:** Connecting piece、Flagellar centriole、Mid piece
 - **PubMed 总数:** 110 篇 ⚠️ **>100**
 

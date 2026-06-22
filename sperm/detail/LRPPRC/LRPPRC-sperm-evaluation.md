@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** LRPPRC
-- **Ensembl:** 
+- **Ensembl:** ENSG00000138095
 - **精子部位:** Acrosome、End piece、Mid piece
 - **PubMed 总数:** 345 篇 ⚠️ **>100**
 

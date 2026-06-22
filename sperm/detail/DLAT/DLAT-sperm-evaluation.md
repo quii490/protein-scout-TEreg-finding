@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** DLAT
-- **Ensembl:** 
+- **Ensembl:** ENSG00000150768
 - **精子部位:** Connecting piece
 - **PubMed 总数:** 551 篇 ⚠️ **>100**
 

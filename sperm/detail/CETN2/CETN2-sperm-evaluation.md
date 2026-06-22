@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** CETN2
-- **Ensembl:** 
+- **Ensembl:** ENSG00000147400
 - **精子部位:** Flagellar centriole、Mid piece、Principal piece
 - **PubMed 总数:** 111 篇 ⚠️ **>100**
 

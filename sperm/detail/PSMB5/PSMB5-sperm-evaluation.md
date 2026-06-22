@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** PSMB5
-- **Ensembl:** 
+- **Ensembl:** ENSG00000100804
 - **精子部位:** Mid piece、Principal piece
 - **PubMed 总数:** 235 篇 ⚠️ **>100**
 

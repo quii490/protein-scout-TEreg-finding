@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** PTEN
-- **Ensembl:** 
+- **Ensembl:** ENSG00000171862
 - **精子部位:** Mid piece、Principal piece
 - **PubMed 总数:** 28116 篇 ⚠️ **>100**
 

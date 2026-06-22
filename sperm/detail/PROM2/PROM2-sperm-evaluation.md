@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** PROM2
-- **Ensembl:** 
+- **Ensembl:** ENSG00000155066
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 96 篇
@@ -19,14 +19,27 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** Annulus、End piece、Mid piece、Principal piece ✓
-- **链接:** https://www.proteinatlas.org/-PROM2
-- **IF 图像:** 未获取
+- **链接:** https://www.proteinatlas.org/ENSG00000155066-PROM2
+- **IF 图像:** 已获取 (6 张)
 
-*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+<!-- SPERM_HPA_IF_START -->
+**HPA IF 图像（2026-06-22）**: HPA subcellular 页面有 IF 图像 (6 张 blue_red_green)。
+![](https://images.proteinatlas.org/63728/1232_E11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/63728/1199_E11_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/63728/2204_E8_11_blue_red_green.jpg)
+![](https://images.proteinatlas.org/63728/1573_C9_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/63728/1573_C9_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/63728/1232_E11_1_blue_red_green.jpg)
+<!-- SPERM_HPA_IF_END -->
+
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-*待 UniProt/GO-CC 采集。*
+UniProt: F8WDW5 — .
+GO-CC 精子相关: 待进一步查询 UniProt subcellular location。
+InterPro: Prominin。
+Pfam: Prominin。
 
 ## 4. PubMed 文献证据
 - **文献数:** 96 篇 (较多研究量)
@@ -34,7 +47,7 @@ tags: [protein-scout, sperm, evaluation]
 2. PMID 18536929: Robust expression of Prominin-2 all along the adult male reproductive system and urinary bladder. (2008 Oct) *Histochem Cell Biol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
-*待结构数据采集。*
+AlphaFold 数据可用 (UniProt: F8WDW5)。参见 https://alphafold.ebi.ac.uk/entry/F8WDW5
 PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold pLDDT 统计。
 
 ## 6. PPI / 蛋白互作网络
@@ -59,7 +72,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | 精子定位 | 19/20 | 4 部位: Annulus、End piece、Mid piece、Principal piece |
 | PubMed | 6/20 | 96 篇 |
 | PPI | 18/20 | STRING |
-| 结构 | 5/10 | 待采集 |
+| 结构 | 5/10 | AF available |
 | 新颖性 | 4/10 | 较多 |
 
 - **评分:** **66/100**

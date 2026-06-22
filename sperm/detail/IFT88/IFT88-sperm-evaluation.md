@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** IFT88
-- **Ensembl:** 
+- **Ensembl:** ENSG00000032742
 - **精子部位:** Connecting piece、End piece、Mid piece、Principal piece
 - **PubMed 总数:** 474 篇 ⚠️ **>100**
 

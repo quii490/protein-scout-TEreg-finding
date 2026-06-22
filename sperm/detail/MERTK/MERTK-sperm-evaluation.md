@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** MERTK
-- **Ensembl:** 
+- **Ensembl:** ENSG00000153208
 - **精子部位:** Acrosome、Mid piece、Principal piece
 - **PubMed 总数:** 1564 篇 ⚠️ **>100**
 

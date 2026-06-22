@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** SLC8A3
-- **Ensembl:** 
+- **Ensembl:** ENSG00000100678
 - **精子部位:** Acrosome、End piece
 - **PubMed 总数:** 124 篇 ⚠️ **>100**
 

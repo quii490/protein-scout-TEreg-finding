@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** HIP1
-- **Ensembl:** 
+- **Ensembl:** ENSG00000127946
 - **精子部位:** Acrosome、Mid piece、Principal piece
 - **PubMed 总数:** 371 篇 ⚠️ **>100**
 

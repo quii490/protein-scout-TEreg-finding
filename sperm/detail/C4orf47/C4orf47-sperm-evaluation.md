@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** C4orf47
-- **Ensembl:** 
+- **Ensembl:** ENSG00000205129
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 3 篇
@@ -19,21 +19,24 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** End piece、Principal piece ✓
-- **链接:** https://www.proteinatlas.org/-C4orf47
+- **链接:** https://www.proteinatlas.org/ENSG00000205129-C4orf47
 - **IF 图像:** 未获取
 
 *HPA IF 图像未获取。已查询 HPA subcellular 页面。*
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-*待 UniProt/GO-CC 采集。*
+UniProt: A7E2U8 — Cilia-and flagella-associated protein 96.
+GO-CC 精子相关: 待进一步查询 UniProt subcellular location。
+InterPro: CFAP96。
+Pfam: CFAP96-like。
 
 ## 4. PubMed 文献证据
 - **文献数:** 3 篇 (极低研究量)
 - 1. PMID 25074808: Proteomic analysis of mammalian sperm cells identifies new components of the centrosome. (2014 Oct 1) *J Cell Sci*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
-*待结构数据采集。*
+AlphaFold 数据可用 (UniProt: A7E2U8)。参见 https://alphafold.ebi.ac.uk/entry/A7E2U8
 PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold pLDDT 统计。
 
 ## 6. PPI / 蛋白互作网络
@@ -58,7 +61,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | 精子定位 | 16/20 | 双部位: End piece、Principal piece |
 | PubMed | 10/20 | 3 篇 |
 | PPI | 18/20 | STRING |
-| 结构 | 5/10 | 待采集 |
+| 结构 | 5/10 | AF available |
 | 新颖性 | 10/10 | 极低 |
 
 - **评分:** **72/100**

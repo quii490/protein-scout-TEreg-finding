@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** WDR5
-- **Ensembl:** 
+- **Ensembl:** ENSG00000196363
 - **精子部位:** Principal piece
 - **PubMed 总数:** 604 篇 ⚠️ **>100**
 

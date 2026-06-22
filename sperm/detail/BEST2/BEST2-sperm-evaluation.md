@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** BEST2
-- **Ensembl:** 
+- **Ensembl:** ENSG00000039987
 - **精子部位:** End piece、Flagellar centriole、Principal piece
 - **PubMed 总数:** 103 篇 ⚠️ **>100**
 

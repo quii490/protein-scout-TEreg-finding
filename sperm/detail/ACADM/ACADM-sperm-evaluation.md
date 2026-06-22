@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** ACADM
-- **Ensembl:** 
+- **Ensembl:** ENSG00000117054
 - **精子部位:** Calyx、Perinuclear theca、Principal piece
 - **PubMed 总数:** 318 篇 ⚠️ **>100**
 

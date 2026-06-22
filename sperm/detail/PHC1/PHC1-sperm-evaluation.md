@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** PHC1
-- **Ensembl:** 
+- **Ensembl:** ENSG00000111752
 - **精子部位:** Mid piece
 - **PubMed 总数:** 105 篇 ⚠️ **>100**
 

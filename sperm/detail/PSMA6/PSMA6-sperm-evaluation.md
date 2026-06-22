@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** PSMA6
-- **Ensembl:** 
+- **Ensembl:** ENSG00000100902
 - **精子部位:** Calyx、Connecting piece、End piece、Flagellar centriole、Mid piece、Perinuclear theca
 - **PubMed 总数:** 109 篇 ⚠️ **>100**
 

@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** EYS
-- **Ensembl:** 
+- **Ensembl:** ENSG00000188107
 - **精子部位:** Flagellar centriole
 - **PubMed 总数:** 648 篇 ⚠️ **>100**
 

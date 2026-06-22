@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** DCST1
-- **Ensembl:** 
+- **Ensembl:** ENSG00000163357
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 41 篇
@@ -19,14 +19,23 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** Acrosome、Equatorial segment、Principal piece ✓
-- **链接:** https://www.proteinatlas.org/-DCST1
-- **IF 图像:** 未获取
+- **链接:** https://www.proteinatlas.org/ENSG00000163357-DCST1
+- **IF 图像:** 已获取 (2 张)
 
-*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+<!-- SPERM_HPA_IF_START -->
+**HPA IF 图像（2026-06-22）**: HPA subcellular 页面有 IF 图像 (2 张 blue_red_green)。
+![](https://images.proteinatlas.org/60314/2204_C1_6_blue_red_green.jpg)
+![](https://images.proteinatlas.org/60314/2204_C1_11_blue_red_green.jpg)
+<!-- SPERM_HPA_IF_END -->
+
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-*待 UniProt/GO-CC 采集。*
+UniProt: Q5T197 — E3 ubiquitin-protein ligase DCST1.
+GO-CC 精子相关: 待进一步查询 UniProt subcellular location。
+InterPro: CSR-E3_Ligase_Protein, DC_STAMP-like, DCST1_C, Znf_RING。
+Pfam: DC_STAMP, Dcst2, zf-RING_DCST1_C。
 
 ## 4. PubMed 文献证据
 - **文献数:** 41 篇 (中等研究量)
@@ -35,7 +44,7 @@ tags: [protein-scout, sperm, evaluation]
 3. PMID 40058809: Molecular mechanisms leading to gamete fusion. (2025 Jul 3) *Fukushima J Med Sci*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
-*待结构数据采集。*
+AlphaFold 数据可用 (UniProt: Q5T197)。参见 https://alphafold.ebi.ac.uk/entry/Q5T197
 PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold pLDDT 统计。
 
 ## 6. PPI / 蛋白互作网络
@@ -60,7 +69,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | 精子定位 | 18/20 | 3 部位: Acrosome、Equatorial segment、Principal piece |
 | PubMed | 7/20 | 41 篇 |
 | PPI | 18/20 | STRING |
-| 结构 | 5/10 | 待采集 |
+| 结构 | 5/10 | AF available |
 | 新颖性 | 6/10 | 中等 |
 
 - **评分:** **68/100**

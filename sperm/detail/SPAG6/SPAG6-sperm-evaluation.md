@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** SPAG6
-- **Ensembl:** 
+- **Ensembl:** ENSG00000077327
 - **精子部位:** Calyx、End piece、Mid piece、Principal piece
 - **PubMed 总数:** 123 篇 ⚠️ **>100**
 

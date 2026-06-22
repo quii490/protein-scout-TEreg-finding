@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** AKT1
-- **Ensembl:** 
+- **Ensembl:** ENSG00000142208
 - **精子部位:** Calyx、End piece、Perinuclear theca、Principal piece
 - **PubMed 总数:** 14144 篇 ⚠️ **>100**
 

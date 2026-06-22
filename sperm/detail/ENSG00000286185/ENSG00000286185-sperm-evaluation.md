@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** ENSG00000286185
-- **Ensembl:** 
+- **Ensembl:** ENSG00000286185
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 0 篇
@@ -19,10 +19,20 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** End piece、Mid piece、Principal piece ✓
-- **链接:** https://www.proteinatlas.org/-ENSG00000286185
-- **IF 图像:** 未获取
+- **链接:** https://www.proteinatlas.org/ENSG00000286185-ENSG00000286185
+- **IF 图像:** 已获取 (6 张)
 
-*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+<!-- SPERM_HPA_IF_START -->
+**HPA IF 图像（2026-06-22）**: HPA subcellular 页面有 IF 图像 (6 张 blue_red_green)。
+![](https://images.proteinatlas.org/43105/2178_B12_24_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43105/2199_E11_26_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43105/2234_B10_231_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43105/759_E6_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43105/814_E6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43105/2171_E9_70_blue_red_green.jpg)
+<!-- SPERM_HPA_IF_END -->
+
 
 
 ## 3. UniProt / GO-CC 精子定位证据

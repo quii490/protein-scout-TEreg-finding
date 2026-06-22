@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** CC2D2A
-- **Ensembl:** 
+- **Ensembl:** ENSG00000048342
 - **精子部位:** Connecting piece、Mid piece、Perinuclear theca、Principal piece
 - **PubMed 总数:** 105 篇 ⚠️ **>100**
 

@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** KIF17
-- **Ensembl:** 
+- **Ensembl:** ENSG00000117245
 - **精子部位:** Acrosome、Principal piece
 - **PubMed 总数:** 137 篇 ⚠️ **>100**
 

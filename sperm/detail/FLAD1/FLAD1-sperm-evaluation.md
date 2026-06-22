@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** FLAD1
-- **Ensembl:** 
+- **Ensembl:** ENSG00000160688
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 55 篇
@@ -19,21 +19,34 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** End piece、Mid piece、Principal piece ✓
-- **链接:** https://www.proteinatlas.org/-FLAD1
-- **IF 图像:** 未获取
+- **链接:** https://www.proteinatlas.org/ENSG00000160688-FLAD1
+- **IF 图像:** 已获取 (6 张)
 
-*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+<!-- SPERM_HPA_IF_START -->
+**HPA IF 图像（2026-06-22）**: HPA subcellular 页面有 IF 图像 (6 张 blue_red_green)。
+![](https://images.proteinatlas.org/28486/290_H8_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/28486/249_H8_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/28486/2265_F6_76_blue_red_green.jpg)
+![](https://images.proteinatlas.org/28486/251_H8_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/28486/251_H8_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/28486/2265_F6_51_blue_red_green.jpg)
+<!-- SPERM_HPA_IF_END -->
+
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-*待 UniProt/GO-CC 采集。*
+UniProt: Q5T190 — FAD synthase.
+GO-CC 精子相关: 待进一步查询 UniProt subcellular location。
+InterPro: PAPS_reduct_dom, Rossmann-like_a/b/a_fold。
+Pfam: PAPS_reduct。
 
 ## 4. PubMed 文献证据
 - **文献数:** 55 篇 (中等研究量)
 - 1. PMID 8045886: Coupling of flagellin gene transcription to flagellar assembly in Bacillus subtilis. (1994 Aug) *J Bacteriol*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
-*待结构数据采集。*
+AlphaFold 数据可用 (UniProt: Q5T190)。参见 https://alphafold.ebi.ac.uk/entry/Q5T190
 PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold pLDDT 统计。
 
 ## 6. PPI / 蛋白互作网络
@@ -58,7 +71,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | 精子定位 | 18/20 | 3 部位: End piece、Mid piece、Principal piece |
 | PubMed | 7/20 | 55 篇 |
 | PPI | 18/20 | STRING |
-| 结构 | 5/10 | 待采集 |
+| 结构 | 5/10 | AF available |
 | 新颖性 | 6/10 | 中等 |
 
 - **评分:** **68/100**

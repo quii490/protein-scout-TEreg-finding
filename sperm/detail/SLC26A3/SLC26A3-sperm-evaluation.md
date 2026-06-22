@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** SLC26A3
-- **Ensembl:** 
+- **Ensembl:** ENSG00000091138
 - **精子部位:** Acrosome
 - **PubMed 总数:** 396 篇 ⚠️ **>100**
 

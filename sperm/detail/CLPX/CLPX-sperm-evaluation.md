@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** CLPX
-- **Ensembl:** 
+- **Ensembl:** ENSG00000166855
 - **精子部位:** Equatorial segment、Perinuclear theca
 - **PubMed 总数:** 654 篇 ⚠️ **>100**
 

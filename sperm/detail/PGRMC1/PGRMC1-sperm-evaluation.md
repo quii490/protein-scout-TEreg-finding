@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** PGRMC1
-- **Ensembl:** 
+- **Ensembl:** ENSG00000101856
 - **精子部位:** Mid piece、Principal piece
 - **PubMed 总数:** 498 篇 ⚠️ **>100**
 

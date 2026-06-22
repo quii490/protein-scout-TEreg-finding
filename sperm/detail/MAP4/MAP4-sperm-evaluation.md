@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** MAP4
-- **Ensembl:** 
+- **Ensembl:** ENSG00000047849
 - **精子部位:** Acrosome、Equatorial segment
 - **PubMed 总数:** 73033 篇 ⚠️ **>100**
 

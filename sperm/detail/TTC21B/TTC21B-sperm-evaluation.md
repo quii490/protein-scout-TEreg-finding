@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** TTC21B
-- **Ensembl:** 
+- **Ensembl:** ENSG00000123607
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
 - **PubMed:** 82 篇
@@ -19,14 +19,27 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 2. HPA 精子定位证据
 - **来源:** Connecting piece、End piece、Mid piece、Principal piece ✓
-- **链接:** https://www.proteinatlas.org/-TTC21B
-- **IF 图像:** 未获取
+- **链接:** https://www.proteinatlas.org/ENSG00000123607-TTC21B
+- **IF 图像:** 已获取 (6 张)
 
-*HPA IF 图像未获取。已查询 HPA subcellular 页面。*
+
+<!-- SPERM_HPA_IF_START -->
+**HPA IF 图像（2026-06-22）**: HPA subcellular 页面有 IF 图像 (6 张 blue_red_green)。
+![](https://images.proteinatlas.org/73293/1494_E8_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/73293/2191_A12_12_blue_red_green.jpg)
+![](https://images.proteinatlas.org/73293/2206_E11_18_blue_red_green.jpg)
+![](https://images.proteinatlas.org/73293/2210_F10_28_blue_red_green.jpg)
+![](https://images.proteinatlas.org/73293/1494_E8_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/73293/2102_A4_1_blue_red_green.jpg)
+<!-- SPERM_HPA_IF_END -->
+
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-*待 UniProt/GO-CC 采集。*
+UniProt: A0A7P0T968 — .
+GO-CC 精子相关: 待进一步查询 UniProt subcellular location。
+InterPro: ARM_TT21_2nd, ARM_TT21_4th, ARM_TT21_5th, ARM_TT21_N, TPR-like_helical_dom_sf。
+Pfam: ARM_TT21, ARM_TT21_2nd, ARM_TT21_4th, ARM_TT21_5th, ARM_TT21_N。
 
 ## 4. PubMed 文献证据
 - **文献数:** 82 篇 (较多研究量)
@@ -35,7 +48,7 @@ tags: [protein-scout, sperm, evaluation]
 3. PMID 29727692: C11orf70 Mutations Disrupting the Intraflagellar Transport-Dependent Assembly of Multiple Axonemal Dyneins Cause Primary Ciliary Dyskinesia. (2018 May 3) *Am J Hum Genet*
 
 ## 5. AlphaFold / PAE / PDB / 结构域
-*待结构数据采集。*
+AlphaFold 数据可用 (UniProt: A0A7P0T968)。参见 https://alphafold.ebi.ac.uk/entry/A0A7P0T968
 PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold pLDDT 统计。
 
 ## 6. PPI / 蛋白互作网络
@@ -60,7 +73,7 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | 精子定位 | 19/20 | 4 部位: Connecting piece、End piece、Mid piece、Principal piece |
 | PubMed | 6/20 | 82 篇 |
 | PPI | 18/20 | STRING |
-| 结构 | 5/10 | 待采集 |
+| 结构 | 5/10 | AF available |
 | 新颖性 | 4/10 | 较多 |
 
 - **评分:** **66/100**

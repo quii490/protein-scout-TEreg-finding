@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** HUWE1
-- **Ensembl:** 
+- **Ensembl:** ENSG00000086758
 - **精子部位:** End piece、Mid piece、Principal piece
 - **PubMed 总数:** 413 篇 ⚠️ **>100**
 

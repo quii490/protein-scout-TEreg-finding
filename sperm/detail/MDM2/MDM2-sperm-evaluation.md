@@ -11,7 +11,7 @@ tags: [protein-scout, sperm, evaluation, eliminated]
 
 ## 1. 基本信息
 - **基因:** MDM2
-- **Ensembl:** 
+- **Ensembl:** ENSG00000135679
 - **精子部位:** End piece、Mid piece、Principal piece
 - **PubMed 总数:** 12989 篇 ⚠️ **>100**
 
