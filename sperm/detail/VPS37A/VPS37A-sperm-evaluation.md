@@ -64,7 +64,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | CHMP6 | 0.999 | 0.000 | 0.000 | 0.000 |
 | CHMP2A | 0.999 | 0.000 | 0.000 | 0.000 |
 | CHMP2A | 0.999 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| PDLIM7 | anti tag coimmunoprecipitation | 28514442 |
+| UBAP1 | anti tag coimmunoprecipitation | 28514442 |
+| VPS28 | anti tag coimmunoprecipitation | 28514442 |
+| TNIP2 | virotrap | 30561431 |
+| TRIM42 | two hybrid array | 25416956 |
+| ARRDC1 | anti tag coimmunoprecipitation | 28514442 |
+| HCRP1 | validated two hybrid | 32296183 |
+| TSG101 | two hybrid prey pooling approach | 32296183 |
+| PDLIM7 | anti tag coimmunoprecipitation | 28514442 |
+| PDLIM7 | anti tag coimmunoprecipitation | 28514442 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

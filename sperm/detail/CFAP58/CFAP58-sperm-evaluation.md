@@ -62,7 +62,17 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | CFAP43 | 0.788 | 0.000 | 0.000 | 0.000 |
 | TTC21A | 0.741 | 0.000 | 0.000 | 0.000 |
 | CFAP69 | 0.732 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| TRAF3IP1 | two hybrid fragment pooling approach | 31413325 |
+| RIPPLY1 | validated two hybrid | 32296183 |
+| RIPPLY1 | two hybrid array | 32296183 |
+| RIPPLY1 | two hybrid prey pooling approach | 32296183 |
+| MCC | validated two hybrid | 32296183 |
+| NAV2 | two hybrid array | 25416956 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

@@ -65,7 +65,19 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | CC2D2A | 0.997 | 0.000 | 0.000 | 0.000 |
 | TCTN1 | 0.997 | 0.000 | 0.000 | 0.000 |
 | TMEM67 | 0.997 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| HTR3C | anti tag coimmunoprecipitation | 28514442 |
+| NOTCH2NLA | two hybrid prey pooling approach | 25416956 |
+| UPK1A | anti tag coimmunoprecipitation | 28514442 |
+| CHRNA3 | anti tag coimmunoprecipitation | 28514442 |
+| SYNE4 | anti tag coimmunoprecipitation | 28514442 |
+| ACCN4 | anti tag coimmunoprecipitation | 28514442 |
+| BTNL8 | anti tag coimmunoprecipitation | 28514442 |
+| NCEH1 | anti tag coimmunoprecipitation | 28514442 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

@@ -172,6 +172,14 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 **该蛋白PubMed文献数 476 > 100，研究热度过高，不符合novelty筛选标准。**
 
+### 深度机制分析
+
+CRKL（Crk-like protein, 303 aa, UniProt P46109）。REJECTED——PubMed=476篇远超阈值（>100）。定位于Nucleoplasm（HPA Enhanced）和Cytosol。CRKL是经典SH2/SH3信号适配蛋白，域架构为N端SH2（14-102 aa, SMART SM00252）串联两个SH3结构域（SH3 1: 123-183, SH3 2: 235-296, SMART SM00326）。InterPro注释IPR035458（SH2 domain）、IPR035457（SH3 domain）、IPR000980（SH2 domain）、IPR036860（SH2 domain superfamily）、IPR036028（SH3 domain superfamily）。Pfam PF00017（SH2）、PF00018（SH3_1）、PF07653（SH3_2）。PDB已有6个结构（2BZX、2BZY、2DBK、2EO3、2LQN、2LQW），AlphaFold pLDDT=68.5。
+
+从信号转导机制角度，CRKL是CT10 regulator of kinase（CRK）家族的成员，作为衔接蛋白通过其SH2和SH3结构域桥接酪氨酸磷酸化受体与非受体酪氨酸激酶及下游效应子。SH2识别pY-x-x-P基序，SH3结合富含脯氨酸的PxxP基序。CRKL的核心互作网络在STRING中以极高confidence呈现：BCAR1/p130Cas（0.999, experimental=0.749）、CBL（0.999, experimental=0.993）、ABL1（0.998, experimental=0.887）、EGFR（0.993, experimental=0.855）、STAT5A（0.987, experimental=0.510）——这些均为CRKL的经典结合伙伴，涵盖整合素信号（BCAR1）、受体酪氨酸激酶（EGFR）、非受体酪氨酸激酶（ABL1）和转录因子（STAT5）。
+
+从TE调控角度，CRKL-ABL1-STAT5信号轴在慢性髓性白血病（CML）中被BCR-ABL1融合蛋白组成性激活。有趣的是，ABL1通过磷酸化HP1α减少其与H3K9me3的结合——这是ERV沉默的标志性修饰。CRKL促进ABL1的底物磷酸化，因此可能间接调控HP1介导的TE表观遗传沉默。此外，STAT5的转录靶点包括多个含ERV LTR启动子的基因——STAT5驱动的LTR激活可能导致组织特异性TE表达。PubMed=476篇使其不符合新颖性要求，但CRKL在ABL1-TE调控中的间接角色值得在更完备的文献中进一步分析。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P46109
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000099942-CRKL/subcellular

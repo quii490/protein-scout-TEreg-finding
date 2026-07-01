@@ -66,7 +66,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | DNAAF3 | 0.901 | 0.000 | 0.000 | 0.000 |
 | DNAAF3 | 0.886 | 0.000 | 0.000 | 0.000 |
 | DNAAF4 | 0.883 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| MM46 | anti tag coimmunoprecipitation | 20562859 |
+| GABARAPL1 | pull down | 20562859 |
+| GABARAPL2 | pull down | 20562859 |
+| MAP1LC3B | pull down | 20562859 |
+| MAP1LC3C | pull down | 20562859 |
+| MM46 | anti tag coimmunoprecipitation | 20562859 |
+| GABARAPL1 | anti tag coimmunoprecipitation | 20562859 |
+| MM46 | anti tag coimmunoprecipitation | 20562859 |
+| CALM1 | inference by socio-affinity scoring |  |
+| DNAAF2 | inference by socio-affinity scoring |  |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

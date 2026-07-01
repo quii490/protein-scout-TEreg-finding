@@ -67,7 +67,14 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | POC5 | 0.940 | 0.000 | 0.000 | 0.000 |
 | CCT2 | 0.894 | 0.000 | 0.000 | 0.000 |
 | CCT5 | 0.875 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| PPFIA1 | two hybrid array | 29892012 |
+| DHX32 | two hybrid array | 31515488 |
+| TFIP11 | two hybrid array | 31515488 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

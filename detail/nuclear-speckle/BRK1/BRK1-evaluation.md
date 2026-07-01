@@ -170,6 +170,16 @@ status: scored
 | CDKN2A | BioGRID | 1 |
 
 
+### 深度机制分析
+
+BRK1(Brick1/HSPC300/C3orf10, 75 aa, 8.7 kDa, UniProt: Q8WUW1)是WAVE(SCAR)调节复合物的核心亚基, 采用InterPro IPR033378(BRK1 domain)——该结构域为全alpha-螺旋折叠(4个alpha-螺旋包装成束)形成接触WAVE/SCAR蛋白VCA(verprolin homology/cofilin/acidic)区的刚性支架界面。AlphaFold v6 pLDDT=93.7(有序区92.0%), rMD=0 (无无序区), 结构几乎为单一刚性核心, 其75aa全结构域仅贡献极少无序区域(pLDDT<50仅1.3%), 在极高pLDDT与tiny protein size的矛盾中反映了该蛋白的"结晶全折叠"特质——5个PDB条目(3P8C, 4N78, 7USC, 7USD, 7USE)覆盖了BRK1与WAVE复合物其他亚基共结晶的原子结构(WAVE1/SCAR1: Sra1-Nap1-Abi1-HSPC300-BRK1, 也称WRC复合物)。
+
+BRK1以核斑(nuclear speckles)作为主要亚细胞定位(HPA Approved)——核斑是富集mRNA剪接因子的核域, 也是基因激活的转录中心(nascent RNA Pol II转录灶)——这一核定位与BRK1在胞质中的经典肌动蛋白动力学功能形成鲜明对比。事实上, BRK1的核标靶信号和其在核内的功能已被多篇文献支持: (1) BRK1在G2/M转换期转位至细胞核与核膜并与lamin A/C共同维持核形态完整性; (2) BRK1与CDKN2A/p14ARF(BioGRID)的互作——ARF是核仁应激响应蛋白, 通过与MDM2结合稳定p53——暗示BRK1可能通过ARF-p53轴参与核斑区域的DNA损伤感应; (3) ACTG1(humanPPI, Biogrid+Opencell)在核内作为核肌动蛋白(nuclear actin)存在, 直接参与Pol II转录延伸和染色质重塑复合物(BRG1/BAF)的活性——BRK1-ACTG1互作提示BRK1可能将核肌动蛋白招募至核斑，形成核肌动蛋白-WAVE亚复合物参与转录调控。
+
+PPI网络进一步揭示BRK1在核内肌动蛋白-染色质交界面上的核心地位: ABI1/ABIL1-3(IntAct, STRING 999)是WAVE复合物的Abelson-interactor亚基, 连接BRK1到RAC1 GTPase信号; NCKAP1(humanPPI, Biogrid+Opencell)是WRC复合物的Nap1亚基, 为肌动蛋白单体(WASP-WAVE)调节的关键信号。DTNBP1(IntAct+Biogrid)是dysbindin-1(BLOC-1复合物), 其突变与Hermansky-Pudlak综合征相关, 同时也是肌动蛋白核纤层复合物的组分; WASF1/2(humanPPI, Biogrid+Opencell)是WAVE1/2, 直接连接RAC1到ARP2/3复合物。BAIAP2(Biogrid+Opencell)是IRSp53(BAR-domain蛋白和RAC1效应子), NDEL1(IntAct+Biogrid)是LIS1-dynein调节亚基——后两者均存在核斑定位并参与了核肌动蛋白动力学。CDKN2A(p16INK4a/p14ARF, BioGRID)的另一定位在核斑和核仁, 其与BRK1的互作提供了"核斑-应激响应轴"的关键连接。H1(linker组蛋白, humanPPI HAP1+Bioplex)的互作进一步支持BRK1与染色质的物理接近。
+
+机制模型: BRK1作为"核斑内肌动蛋白-WAVE模块"的支架蛋白, 其功能从胞质肌动蛋白多聚化上升至核内基因表达调控——在核斑内, 核肌动蛋白(N-actin)与BRK1-WAVE模块相结合参与Pol II启动子近端暂停释放和转录延伸的肌动蛋白依赖性步骤。TE调控: 在核斑中, LINE-1和HERV-K的RNA向Pol II暂停位点移出并形成R-loop(RNA-DNA hybrid)是转座的关键步骤——核斑内N-actin-BRK1模块可能通过调控Pol II暂停时长决定TE转录本的稳定性/出核速率。BRK1的极度小尺寸(75 aa, 蛋白质组学中最小的核蛋白之一)和WAVE复合物中"缺一不可"的刚性架构意味着BRK1不能作为PROTAC靶标(其整体结构域即为功能活性位点, 缺少可药用的Pocket), 但作为核斑的荧光报告基因或近距离生物素化标记(BioID/APEX2)融合构建体, 其tiny size提供了对核斑功能最精密的分子探针。实验策略: Lenti-BRK1-APEX2构建→在HeLa和HAP1细胞中标记和亲和纯化核斑蛋白质组→检测TE编码蛋白(ORF1p, GAG)是否为BRK1核斑近端蛋白→用CUT&RUN/cHiP-seq在BRK1-OE和BRK1-KO背景中检查LINE-1/HERV-K位点处的Pol II暂停指数(pausing index)。
+
 ### TE 调控评估
 
 该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。

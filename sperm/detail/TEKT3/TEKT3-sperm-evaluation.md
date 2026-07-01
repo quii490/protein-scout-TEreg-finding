@@ -63,7 +63,16 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | RIBC2 | 0.905 | 0.000 | 0.000 | 0.000 |
 | TEKT3 | 0.900 | 0.000 | 0.000 | 0.000 |
 | EFHC1 | 0.900 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| CALCOCO2 | two hybrid array | 31515488 |
+| TNS2 | two hybrid array | 32296183 |
+| METTL27 | validated two hybrid | 32296183 |
+| SINK | validated two hybrid | 32296183 |
+| KRTAP8 | validated two hybrid | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

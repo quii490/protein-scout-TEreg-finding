@@ -66,7 +66,16 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | DNAH1 | 0.784 | 0.000 | 0.000 | 0.000 |
 | TTC21A | 0.741 | 0.000 | 0.000 | 0.000 |
 | CFAP43 | 0.735 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| BMI1 | anti bait coimmunoprecipitation | 34316702 |
+| YWHAZ | anti tag coimmunoprecipitation | 36931259 |
+| MAPT | anti tag coimmunoprecipitation | 35063084 |
+| MAPT | anti tag coimmunoprecipitation | 35063084 |
+| NXT2 | anti bait coimmunoprecipitation | 40624043 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

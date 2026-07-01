@@ -65,6 +65,18 @@ TE candidate: Cupredoxin; PAD; PAD_C
 ---
 
 
+### 深度机制分析
+
+**结构域架构**：PADI2（Q9Y2J8, Protein-arginine deiminase type-2, 665 aa / 75.6 kDa）的主要结构域注释为Cupredoxin, PAD, PAD_C。Pfam数据库进一步识别到PAD、PAD_M、PAD_N等保守域。AlphaFold pLDDT=94.3（极高质量）——该蛋白整体折叠高度可信，结构性表征良好。该蛋白已有24个实验PDB结构条目，为机械性研究提供直接的结构基础。PubMed=97，该蛋白处于早期研究阶段，深入的机制解析仍属空白。
+
+**PPI互作网络解读**：PPI network（degree=9）——BioGRID数据库记录的互作伙伴包括MTMR14、TRIM24、CSK、CSH1、KLK10、RIPK4。其中TRIM24等具有染色质调控或转录相关功能——提示PADI2可能通过protein-protein interaction平台间接参与核内转录调控网络。
+
+**结构解读**：AlphaFold预测（pLDDT=94.3）显示该蛋白具有明确的折叠结构域，其中Cupredoxin为保守的催化/结合模块。Pfam域PAD、PAD_M的保守性暗示了该蛋白可能执行特定的分子功能（如催化、识别或支架）。有序区域占比是衡量该蛋白是否适合structural biology研究的关键指标。pLDDT=94.3的整体质量表明大部分残基（pLDDT>70）处于有序构象，适合X射线晶体学或冷冻电镜（cryo-EM）解析。
+
+**机制模型**：PADI2为protein-arginine deiminase（PAD）家族成员——催化arginine→citrulline的翻译后修饰（citrullination/deimination）。这种不可逆修饰改变target protein的电荷状态、折叠和互作能力。Histone citrullination（尤其H3Cit26）已被报道与transcriptional activation和NETosis相关——PADI2可能通过citrullinate histone tail或chromatin-associated protein→modulate chromatin compaction around TE loci。
+
+**TE调控展望**：该蛋白被标注为TE_REG_CANDIDATE——含Cupredoxin; PAD; PAD_C结构域。TE调控关联性取决于以下几个方面：（1）PADI2是否physical association with chromatin remodeling complex（如SWI/SNF, NuRD, PRC1/2）或transcription factor machinery；（2）PADI2是否能够通过其结构域识别TE-derived DNA/RNA element；（3）PADI2的knockout/knockdown是否改变LINE-1或ERV family的expression level。PAD-mediated citrullination在chromatin decompaction和NETosis中有明确功能——PADI2可能通过histone citrullination remodel TE chromatin landscape。建议citrullinomics profiling（anti-citrulline antibody enrichment + MS）检测其在histone tail上的modification site。
+
 ### PPI 互作网络
 
 | 互作伙伴 | 来源 | 评分 |

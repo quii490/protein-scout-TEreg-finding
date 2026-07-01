@@ -65,7 +65,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | UQCR10 | 0.999 | 0.000 | 0.000 | 0.000 |
 | COX6B1 | 0.999 | 0.000 | 0.000 | 0.000 |
 | MT-CO3 | 0.999 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| ? | anti bait coimmunoprecipitation | 17353931 |
+| COII | blue native page | 19688755 |
+| COII | blue native page | 19688755 |
+| COII | blue native page | 23260140 |
+| COX14 | proximity-dependent biotin identification | 29568061 |
+| AIFM1 | proximity-dependent biotin identification | 29568061 |
+| PLGRKT | proximity-dependent biotin identification | 29568061 |
+| COX4I1 | proximity-dependent biotin identification | 29568061 |
+| AIFM1 | pull down | 29568061 |
+| SCO1 | proximity-dependent biotin identification | 29568061 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

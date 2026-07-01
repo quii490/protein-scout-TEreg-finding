@@ -65,7 +65,20 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | SYT1 | 0.978 | 0.000 | 0.000 | 0.000 |
 | VAMP2 | 0.978 | 0.000 | 0.000 | 0.000 |
 | SYN1 | 0.973 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| ATP6V1A | anti bait coimmunoprecipitation | 21674799 |
+| PSTPIP2 | luminescence based mammalian interactome mapping | 29997244 |
+| TRAF6 | luminescence based mammalian interactome mapping | 29997244 |
+| TU15B | luminescence based mammalian interactome mapping | 29997244 |
+| FANCC | luminescence based mammalian interactome mapping | 29997244 |
+| NECTIN2 | luminescence based mammalian interactome mapping | 29997244 |
+| L3MBTL2 | luminescence based mammalian interactome mapping | 29997244 |
+| p45skp2 | luminescence based mammalian interactome mapping | 29997244 |
+| GABATR | luminescence based mammalian interactome mapping | 29997244 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

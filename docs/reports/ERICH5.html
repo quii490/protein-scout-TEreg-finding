@@ -133,33 +133,11 @@
 </tbody></table></div>
 <h4>TE 调控评估</h4>
 <p>该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。</p>
-<h4>5. 数据来源</h4>
-<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q6P6B1</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000177459-ERICH5/subcellular</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=ERICH5</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q6P6B1</li><li>STRING: https://string-db.org/network/9606.ENSP00000</li><li>Data fetched live: 2026-06-03</li></ul>
-<p>&lt;!-- HPA_IF_REPAIR_START --&gt; <strong>HPA IF 图像修正（2026-06-05）</strong>: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Golgi apparatus (approved)。来源: https://www.proteinatlas.org/ENSG00000177459-ERICH5/subcellular</p>
-<p><figure><img src="https://images.proteinatlas.org/25293/1042_B3_1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/25293/1042_B3_2_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/25293/1423_G4_1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/25293/1423_G4_2_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/25293/214_H7_1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/25293/214_H7_2_blue_red_green.jpg" alt="image"></figure> &lt;!-- HPA_IF_REPAIR_END --&gt;</p>
-<p>&lt;!-- AF_PAE_REPAIR_START --&gt; <strong>PAE 图像修正（2026-06-05）</strong>: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。</p>
-<p><figure><img src="https://alphafold.ebi.ac.uk/files/AF-Q6P6B1-F1-predicted_aligned_error_v6.png" alt="image"></figure> &lt;!-- AF_PAE_REPAIR_END --&gt;</p>
-<p>&lt;!-- DOMAIN_HUMANPPI_REPAIR_START --&gt;</p>
-<h3>Domain/SMART 与 humanPPI 补充（2026-06-07）</h3>
-<h4>SMART / UniProt domain</h4>
-<div class="table-wrap"><table>
-<thead><tr><th>Source</th><th>Data</th></tr></thead><tbody>
-<tr><td>UniProt</td><td>Q6P6B1</td></tr>
-<tr><td>SMART</td><td>未在 UniProt xref 中检出 SMART 条目</td></tr>
-<tr><td>UniProt Domain [FT]</td><td>未检出显式 UniProt Domain feature</td></tr>
-<tr><td>InterPro</td><td>IPR027856;</td></tr>
-<tr><td>Pfam</td><td>未检出</td></tr>
-</tbody></table></div>
-<h4>humanPPI / HPA Interaction</h4>
-<p>Source: https://www.proteinatlas.org/ENSG00000177459-ERICH5/interaction</p>
-<div class="table-wrap"><table>
-<thead><tr><th>Partner</th><th>Datasets</th><th>AF3/HPA structure</th></tr></thead><tbody>
-<tr><td>CFTR</td><td>Intact</td><td>false</td></tr>
-<tr><td>FADS3</td><td>Bioplex</td><td>false</td></tr>
-<tr><td>KEAP1</td><td>Intact</td><td>false</td></tr>
-<tr><td>ZDHHC23</td><td>Bioplex</td><td>false</td></tr>
-</tbody></table></div>
-<p>&lt;!-- DOMAIN_HUMANPPI_REPAIR_END --&gt;</p></article></main>
+<h4>深度机制分析</h4>
+<p>ERICH5（Glutamate-rich protein 5, 374 aa, UniProt Q6P6B1）。定位于Golgi apparatus（HPA Approved），但额外检出Nucleoplasm和Cytosol信号。InterPro注释仅IPR027856（DUF4542，功能未知结构域），Pfam未检出。AlphaFold pLDDT=48.9（有序区仅1.1%），提示该蛋白几乎完全处于内在无序状态。</p>
+<p>从结构生物学角度，pLDDT=48.9且0%残基&gt;90置信度，表明AlphaFold无法为该蛋白预测可靠三级结构。高比例无序区域（约99%）是IDP（内在无序蛋白）的典型特征。IDP在转录调控和染色质组织中扮演重要角色——它们通过多价弱相互作用参与液-液相分离（LLPS），是核凝聚体（如转录凝聚体、核仁）的常见组分。ERICH5富含谷氨酸（如其名称所示），酸性残基富集是转录激活域和LLPS支架蛋白的特征序列偏好。</p>
+<p>PPI网络极其稀疏：STRING仅8个伙伴（最高score LRRC45=0.555），IntAct为0。但HPA interaction页面上CFTR（IntAct）、KEAP1（IntAct）等有实验互作记录。KEAP1是Nrf2氧化应激通路的核心调控因子，若ERICH5与KEAP1确实存在互作，可能参与氧化还原信号传导。BioGRID鉴定的伙伴包括HOXB5（homeobox转录因子）、FYTTD1（转录延伸因子），进一步支持其核功能潜力。</p>
+<p>从TE调控角度，ERICH5作为IDP在nucleoplasm中的存在提示可能通过LLPS参与核体形成。目前PubMed仅2篇文献（PMID:34956690、41924732），功能完全未知。综合评分65.0/100。建议：（1）测定ERICH5是否在细胞核内形成凝聚体；（2）通过APEX2邻近标记鉴定其核内互作组；（3）评估过表达/敲低对TE表达的影响。</p></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

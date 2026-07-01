@@ -187,49 +187,12 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 
 该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q96A61
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000183718-TRIM52/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=TRIM52
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q96A61
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### 深度机制分析
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoli (approved)。来源: https://www.proteinatlas.org/ENSG00000183718-TRIM52/subcellular
+TRIM52（E3 ubiquitin-protein ligase TRIM52, 297 aa, UniProt Q96A61）。定位于Nucleoli（HPA Approved），同时有Cytoplasm/Nucleus注释。该蛋白属TRIM（Tripartite motif）家族，具有经典RBCC结构域架构：RING finger（IPR001841/PF15227）+ B-box锌指（SM00336）+ coiled-coil（SM00184）。InterPro注释IPR050143、IPR000315、IPR013083、IPR017907。AlphaFold pLDDT=67.8（有序区49.5%），无PDB实验结构。
 
-![](https://images.proteinatlas.org/54565/867_E11_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/54565/867_E11_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/54565/870_B1_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/54565/870_B1_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/54565/872_B1_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/54565/872_B1_2_blue_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
+从酶学机制角度，TRIM52的RING finger域赋予E3泛素连接酶活性。IntAct实验证实其与泛素系统核心酶互作：UBE2V1（ubiquitinase assay）、UBA1（E1泛素激活酶）、UBE2N（E2泛素结合酶）（PMID:25260751），直接确证其泛素连接酶功能。功能上，TRIM52正向调控NF-κB信号通路，通过促进IκBα泛素化导致其降解，释放NF-κB入核（PMID:28073078, PMID:33122622）。PPM1A是效果最好的互作伙伴（STRING combined=0.698, experimental=0.512），PPM1A-Smad2/3通路介导TRIM52的促纤维化效应（PMID:31329338）。
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+从TE调控角度，TRIM52在nucleoli的定位和泛素连接酶活性提供了两条潜在联系：（1）TRIM蛋白家族成员（如TRIM28/KAP1）是经典TE沉默因子，通过招募SETDB1和HP1蛋白建立H3K9me3修饰抑制TE表达。TRIM52虽尚未被描述为TE抑制因子，但其家族背景提示功能保守性可能性；（2）NF-κB通路的激活可间接影响内源性逆转录病毒（如HERV-K、HERV-W）的LTR启动子活性，TRIM52通过IκBα降解调控NF-κB活性，可能间接调控TE转录。
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q96A61-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
-
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-07）
-
-### SMART / UniProt domain
-| Source | Data |
-|---|---|
-| UniProt | Q96A61 |
-| SMART | SM00336;SM00184; |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR050143;IPR000315;IPR001841;IPR013083;IPR017907; |
-| Pfam | PF00643;PF15227; |
-
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000183718-TRIM52/interaction
-
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| TRIM41 | Intact, Biogrid | true |
-| NEDD4 | Biogrid | false |
-| PPM1A | Biogrid | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->
+PubMed 28篇，综合评分66.7/100。建议：（1）TRIM52 ChIP-seq检测基因组结合位点；（2）评估TRIM52敲除对HERV-K/HERV-W类TE表达的影响；（3）测试TRIM52是否与KAP1/HP1在nucleoli中共定位或互作。

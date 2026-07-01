@@ -64,7 +64,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | SH3BGRL | 0.568 | 0.000 | 0.000 | 0.000 |
 | LCA5L | 0.541 | 0.000 | 0.000 | 0.000 |
 | LCA5L | 0.541 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| GBP5 | cross-linking study | 30021884 |
+| TPM3 | two hybrid array | 31515488 |
+| TFIP11 | two hybrid array | 31515488 |
+| IKBIP | two hybrid prey pooling approach | 32296183 |
+| FCHSD2 | two hybrid prey pooling approach | 32296183 |
+| FCHSD2 | two hybrid array | 32296183 |
+| KRT75 | two hybrid array | 32296183 |
+| KRT80 | two hybrid prey pooling approach | 32296183 |
+| PRPH | two hybrid prey pooling approach | 32296183 |
+| FCHSD2 | validated two hybrid | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

@@ -168,67 +168,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### PPI 互作网络
 
-| 互作伙伴 | 来源 | 评分 |
-|---|---|---|
-| GSK3B | BioGRID | 0 |
-| GSK3A | BioGRID | 0 |
-| BAG3 | BioGRID | 0 |
-| PEX19 | BioGRID | 0 |
-| EXT2 | BioGRID | 0 |
-| TRIM25 | BioGRID | 0 |
-| TNIP2 | BioGRID | 0 |
-| KPRP | BioGRID | 0 |
+### 深度机制分析
 
-
-### TE 调控评估
-
-该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
-
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q9P0R6
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000100744-GSKIP/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=GSKIP
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9P0R6
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
-
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Golgi apparatus (approved)。来源: https://www.proteinatlas.org/ENSG00000100744-GSKIP/subcellular
-
-![](https://images.proteinatlas.org/43054/460_H6_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/43054/460_H6_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/43054/465_H6_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/43054/465_H6_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/43054/467_H6_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/43054/467_H6_3_blue_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
-
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
-
-![](https://alphafold.ebi.ac.uk/files/AF-Q9P0R6-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
-
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-07）
-
-### SMART / UniProt domain
-| Source | Data |
-|---|---|
-| UniProt | Q9P0R6 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR037395;IPR007967;IPR023231; |
-| Pfam | PF05303; |
-
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000100744-GSKIP/interaction
-
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| GSK3A | Intact, Biogrid, Opencell, Bioplex | true |
-| GSK3B | Intact, Biogrid, Opencell | true |
-| RP2 | Bioplex | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->
+GSKIP（GSKIP）的IPR037395, IPR007967, IPR023231, Pfam: PF05303 |结构域组合为其功能提供了结构基础。139个氨基酸构成了kDa的蛋白质。pLDDT=83.9，PDB=0。

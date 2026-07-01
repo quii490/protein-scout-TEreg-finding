@@ -82,6 +82,18 @@ TE candidate: ATP-dep_Helicase_C; DinG/Rad3-like; Helic_SF1/SF2_ATP-bd_DinG/Rad3
 
 HPA 检索: https://www.proteinatlas.org/search/DDX12P
 
+### 深度机制分析
+
+**结构域架构**：DDX12P（Putative ATP-dependent DNA helicase DDX12, 950 aa / 106.0 kDa）的主要结构域注释为IPR006555（ATP-dependent helicase, C-terminal）、IPR045028（DinG/Rad3-like helicase）、IPR014013（Helicase superfamily 1/2, ATP-binding domain, DinG/Rad3-type）、IPR006554（Helicase-like, DEXD box c2 type）、IPR027417（P-loop containing nucleoside triphosphate hydrolase）。Pfam识别到PF06733（DEAD_2）和PF13307（Helicase_C_2）。该蛋白的pLDDT=76.2（高置信度），结构预测质量良好。无实验PDB结构，但同源蛋白DDX11（Warsaw breakage syndrome-associated）有丰富结构信息。PubMed=1（极低文献量），唯一相关文献为DDX11的G-quadruplex resolution研究——DDX12P作为DDX11 pseudogene/paralog，其功能注释几乎完全依赖sequence similarity inference。
+
+**PPI互作网络解读**：PPI network（degree=5）——BioGRID记录的互作伙伴包括LRP1（LDL receptor related protein 1）、CUL3（Cullin-3, E3 ubiquitin ligase scaffold）、RBBP5（Retinoblastoma binding protein 5, MLL/COMPASS complex member, H3K4 methyltransferase cofactor）、SH2D3C（adaptor protein）和C9orf72（ALS/FTD-associated protein）。RBBP5是MLL/COMPASS H3K4 methyltransferase complex的核心亚基——该互作直接暗示DDX12P可能通过RBBP5参与H3K4me3-dependent transcriptional activation。CUL3互作则连接DDX12P到ubiquitin-proteasome system。这些互作提示DDX12P在chromatin-level transcriptional regulation中的potential moonlighting role。
+
+**结构解读**：DDX12P属于SF2 helicase超家族（DinG/Rad3 subfamily）。该家族特征为3'-5' DNA helicase activity, ATP-dependent DNA unwinding requiring ssDNA loading。IPR006555（ATP-dependent helicase C-terminal domain）provide processivity；IPR014013（ATP-binding domain）包含Walker A/B motifs用于ATP hydrolysis。IPR010614（DEAD_2 domain, 新见于InterPro）提供可能的novel regulatory function。与DDX11的结构保守性提示DDX12P可能同样具有G-quadruplex resolution activity——G-quadruplex structures enriched at TE promoter regions。
+
+**机制模型**：基于structural homology with DDX11 and PPI data：(1) DDX12P作为ATP-dependent DNA helicase识别并unwind specific DNA structures（可能包括G-quadruplex、R-loop）；(2) DNA unwinding activity可能facilitate transcription machinery access to chromatinized loci；(3) 与RBBP5的互作暗示DDX12P可能被recruit到MLL/COMPASS-targeted genomic regions，couple DNA unwinding with H3K4me3 deposition；(4) CUL3 interaction可能介导DDX12P自身的ubiquitination-dependent turnover或其他substrate的泛素化。但这些mechanisms均基于sequence homology和PPI network inference，需要experimental validation。
+
+**TE调控展望**：DDX12P的TE regulation潜力具有interesting inferential basis。TE调控关联性取决于：(1) DDX12P的helicase activity能否resolve TE promoter处富集的G-quadruplex或其他non-B DNA structures——DDX11已知resolve G4 structures at cohesin binding sites；(2) RBBP5 interaction能否将DDX12P-targeted loci mark with H3K4me3，从而促进TE-embedded transcriptional units的激活；(3) DNA helicase activity could facilitate endogenous retroelement replication intermediates processing。建议通过in vitro helicase assay确认DDX12P的DNA substrate preference（尤其是G4 DNA vs dsDNA vs forked DNA），ChIP-seq鉴定其genomic binding sites和在TE loci上的富集，以及knockdown RNA-seq评估对TE subfamily expression的影响。
+
 ### PubMed
 
 **Count: 1**

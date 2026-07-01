@@ -63,7 +63,12 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | FNDC3A | 0.418 | 0.000 | 0.000 | 0.000 |
 | PSD3 | 0.403 | 0.000 | 0.000 | 0.000 |
 | FUT10 | 0.402 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| YWHAH | anti tag coimmunoprecipitation | 28514442 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

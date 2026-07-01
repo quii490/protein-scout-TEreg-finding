@@ -58,7 +58,14 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | Partner | Combined | Exp | DB | Text |
 |---|---|---|---|---|
 | *STRING 无数据* | — | — | — | — |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| BBS4 | tandem affinity purification | 17574030 |
+| BBS1 | cosedimentation through density gradient | 17574030 |
+| PTHB1 | anti tag coimmunoprecipitation | 17574030 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

@@ -66,7 +66,17 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | CABYR | 0.956 | 0.000 | 0.000 | 0.000 |
 | CABYR | 0.953 | 0.000 | 0.000 | 0.000 |
 | SPA17 | 0.953 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| GSK3B | two hybrid | 15752768 |
+| GSK3B | two hybrid | 15752768 |
+| GSK3B | two hybrid | 15752768 |
+| GSK3B | pull down | 15752768 |
+| GSK3B | pull down | 15752768 |
+| GSK3B | protein kinase assay | 15752768 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

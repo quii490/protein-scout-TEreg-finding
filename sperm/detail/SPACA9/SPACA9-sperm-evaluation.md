@@ -66,7 +66,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | C5orf49 | 0.875 | 0.000 | 0.000 | 0.000 |
 | EFHC2 | 0.875 | 0.000 | 0.000 | 0.000 |
 | EFHC2 | 0.872 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| DDX24 | two hybrid pooling approach | 16169070 |
+| SEPHS1 | two hybrid pooling approach | 16169070 |
+| B2A | validated two hybrid | 32296183 |
+| EFEMP2 | validated two hybrid | 32296183 |
+| ? | two hybrid array | 25416956 |
+| KRTAP10 | two hybrid array | 25416956 |
+| KRTAP10 | two hybrid array | 25416956 |
+| KRTAP10 | two hybrid array | 25416956 |
+| EXOC5 | two hybrid array | 25416956 |
+| ? | validated two hybrid | 25416956 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

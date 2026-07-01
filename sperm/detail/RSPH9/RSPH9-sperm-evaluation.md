@@ -55,7 +55,15 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | DNAI1 | 0.982 | 0.000 | 0.000 | 0.000 |
 | RSPH9 | 0.982 | 0.000 | 0.000 | 0.000 |
 | DNAI2 | 0.981 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| HMG20A | two hybrid array | 25416956 |
+| HMG20A | validated two hybrid | 25416956 |
+| HMG20A | two hybrid prey pooling approach | 25416956 |
+| KLK10 | anti tag coimmunoprecipitation | 33961781 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

@@ -64,7 +64,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | DYDC1 | 0.805 | 0.000 | 0.000 | 0.000 |
 | WDR5B | 0.771 | 0.000 | 0.000 | 0.000 |
 | DPY30 | 0.766 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| NME5 | two hybrid pooling approach | 16189514 |
+| NME5 | two hybrid array | 31515488 |
+| UBXN2A | validated two hybrid | 32296183 |
+| TENT5D | validated two hybrid | 32296183 |
+| POLR1A | validated two hybrid | 32296183 |
+| POLR1A | two hybrid array | 32296183 |
+| TENT5D | two hybrid array | 32296183 |
+| UBXN2A | two hybrid array | 32296183 |
+| DPY30 | two hybrid array | 32296183 |
+| TENT5D | two hybrid prey pooling approach | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

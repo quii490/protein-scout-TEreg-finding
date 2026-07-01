@@ -61,7 +61,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | H1-7 | 0.923 | 0.000 | 0.000 | 0.000 |
 | H1-5 | 0.911 | 0.000 | 0.000 | 0.000 |
 | H1-6 | 0.904 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| MBLAC1 | anti tag coimmunoprecipitation | 28514442 |
+| H2BC15 | two hybrid prey pooling approach | 32296183 |
+| H1FNT | validated two hybrid | 32296183 |
+| RNF217 | anti tag coimmunoprecipitation | 28514442 |
+| H2BC15 | two hybrid array | 32296183 |
+| MEOX2 | validated two hybrid | 32296183 |
+| H1FNT | two hybrid prey pooling approach | 32296183 |
+| H1FNT | two hybrid array | 32296183 |
+| IGFBP1 | anti tag coimmunoprecipitation | 33961781 |
+| MBLAC1 | anti tag coimmunoprecipitation | 33961781 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

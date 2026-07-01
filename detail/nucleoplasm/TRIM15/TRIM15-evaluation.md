@@ -82,6 +82,18 @@ PPI 网络以 Y2H 互作为主，涵盖 Wnt/Axin1、细胞周期、免疫及黏�
 ### 4. 总体评价
 TRIM15 为近年关注度上升的 TRIM 家族 E3 ligase（RING + B-box + SPRY），PubMed=29 属中低文献量。HPA IF 不确认核定位为其主要弱点（仅 Cytosol/Centriolar satellite），虽 UniProt IDA 支持核定位，定位证据矛盾需补内源 IF。结构预测中等（AF pLDDT 83.9），SPRY domain 已有晶体结构。建议优先补 IF 确认核定位后再决定是否深入。
 
+### 深度机制分析
+
+**结构域架构**：TRIM15（Q9C019, E3 ubiquitin-protein ligase TRIM15, 465 aa / 52.1 kDa）的主要结构域注释为IPR001870, IPR003877, IPR001841, IPR000315。Pfam数据库进一步识别到PF13765、PF00622、PF00643等保守域。AlphaFold pLDDT=83.9（优质）——大部分区域折叠可信，个别loop区域可能为柔性无序。该蛋白暂无实验PDB结构（PDB=0），当前结构信息依赖AlphaFold预测。PubMed=29（低文献量），该蛋白处于早期研究阶段。
+
+**PPI互作网络解读**：PPI network（degree=N/A）——BioGRID数据库记录的关键互作伙伴包括UBE2U、GTF2E1、IRF5、MYBL2、MED7、SNW1。其中IRF5、MYBL2、MED7等具有染色质调控或转录相关功能——提示TRIM15可能通过PPI平台间接参与核内转录调控网络。
+
+**结构解读**：AlphaFold预测（pLDDT=83.9）整体折叠可信。IPR001870为保守的功能性结构模块。Pfam域PF13765、PF00622的保守性进一步验证了该蛋白特定的进化约束。pLDDT=83.9反映的有序区域（pLDDT>70）占比高，适合X射线晶体学或冷冻电镜解析。
+
+**机制模型**：TRIM15可能通过其E3 ubiquitin ligase活性（RING domain）对靶蛋白进行泛素化修饰——影响底物的稳定性、定位或活性。这种翻译后修饰调控在TE silencing、chromatin remodeling和transcriptional regulation中发挥核心作用。
+
+**TE调控展望**：TRIM15的TE regulation潜力目前缺乏直接的实验证据。TE调控关联性取决于：（1）TRIM15与chromatin remodeling complex（SWI/SNF, NuRD, PRC1/2）的physical association；（2）TRIM15能否通过其结构域识别TE-derived element；（3）TRIM15的depletion是否改变LINE-1或ERV family的expression level。TRIM家族E3 ligase通过泛素化调控innate immunity和TE silencing——建议ubiquitination assay + substrate identification。
+
 ### PPI 互作网络
 
 | 互作伙伴 | 来源 | 评分 |

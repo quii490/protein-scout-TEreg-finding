@@ -50,7 +50,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | Partner | Combined | Exp | DB | Text |
 |---|---|---|---|---|
 | *STRING 无数据* | — | — | — | — |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| LONRF1 | two hybrid array | 32296183 |
+| Proepithelin | validated two hybrid | 32296183 |
+| LONRF1 | validated two hybrid | 32296183 |
+| HOMER3 | two hybrid array | 32296183 |
+| ZNF417 | two hybrid array | 32296183 |
+| ABI2 | two hybrid array | 32296183 |
+| Proepithelin | two hybrid array | 32296183 |
+| NCK2 | validated two hybrid | 32296183 |
+| NCK2 | two hybrid array | 32296183 |
+| ZNF417 | two hybrid prey pooling approach | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

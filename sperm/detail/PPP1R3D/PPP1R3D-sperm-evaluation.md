@@ -65,7 +65,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | PPP1CC | 0.990 | 0.000 | 0.000 | 0.000 |
 | PPP1CB | 0.990 | 0.000 | 0.000 | 0.000 |
 | GYS1 | 0.987 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| YWHAZ | anti bait coimmunoprecipitation | 17353931 |
+| YWHAG | anti bait coimmunoprecipitation | 17353931 |
+| YWHAH | anti tag coimmunoprecipitation | 28514442 |
+| YWHAQ | anti tag coimmunoprecipitation | 28514442 |
+| YWHAB | anti tag coimmunoprecipitation | 28514442 |
+| PPP1CC | proximity-dependent biotin identification | 28330616 |
+| PPP1CC | pull down | 28330616 |
+| PPP1CA | pull down | 28330616 |
+| PPP1CA | anti tag coimmunoprecipitation | 28514442 |
+| STBD1 | anti tag coimmunoprecipitation | 28514442 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

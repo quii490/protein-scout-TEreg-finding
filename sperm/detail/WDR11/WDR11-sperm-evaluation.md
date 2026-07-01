@@ -64,7 +64,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | NAA40 | 0.840 | 0.000 | 0.000 | 0.000 |
 | NAA40 | 0.791 | 0.000 | 0.000 | 0.000 |
 | TOR1A | 0.785 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| TUBB4A | two hybrid pooling approach | 16169070 |
+| STMN4 | two hybrid pooling approach | 16169070 |
+| GFRP1 | display technology | 20195357 |
+| GABARAPL1 | anti tag coimmunoprecipitation | 20562859 |
+| UBXD7 | anti tag coimmunoprecipitation | 18775313 |
+| UBXD7 | anti tag coimmunoprecipitation | 18775313 |
+| GABARAPL1 | anti tag coimmunoprecipitation | 20562859 |
+| GABARAPL1 | anti tag coimmunoprecipitation | 20562859 |
+| HDAC11 | anti tag coimmunoprecipitation | 23752268 |
+| CUL4B | tandem affinity purification | 21145461 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

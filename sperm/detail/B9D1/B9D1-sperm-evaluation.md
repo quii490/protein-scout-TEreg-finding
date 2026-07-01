@@ -64,7 +64,18 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | CC2D2A | 0.997 | 0.000 | 0.000 | 0.000 |
 | TCTN1 | 0.997 | 0.000 | 0.000 | 0.000 |
 | TMEM67 | 0.997 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| TMEM231 | inference by socio-affinity scoring |  |
+| B9D2 | inference by socio-affinity scoring |  |
+| POSTN | inference by socio-affinity scoring |  |
+| PMSCL2 | two hybrid | 15231747 |
+| TMEM231 | anti tag coimmunoprecipitation | 28514442 |
+| B9D2 | proximity-dependent biotin identification | 26638075 |
+| MKS1 | proximity-dependent biotin identification | 26638075 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

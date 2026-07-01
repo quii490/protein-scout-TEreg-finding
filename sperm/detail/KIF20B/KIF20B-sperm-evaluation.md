@@ -66,7 +66,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | KIF15 | 0.983 | 0.000 | 0.000 | 0.000 |
 | ASPM | 0.981 | 0.000 | 0.000 | 0.000 |
 | ASPM | 0.980 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| RUVBL1 | anti bait coimmunoprecipitation | 17353931 |
+| YWHAB | anti bait coimmunoprecipitation | 17353931 |
+| BHLHE39 | tandem affinity purification | 21150319 |
+| MPHOSPH1 | cross-linking study | 30021884 |
+| MPHOSPH1 | cross-linking study | 30021884 |
+| MPHOSPH1 | cross-linking study | 30021884 |
+| MPHOSPH1 | cross-linking study | 30021884 |
+| ESR1 | tandem affinity purification | 31527615 |
+| ESR1 | tandem affinity purification | 31527615 |
+| NDEL1 | anti tag coimmunoprecipitation | 28514442 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

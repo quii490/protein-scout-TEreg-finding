@@ -53,7 +53,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | CCDC14 | 0.751 | 0.000 | 0.000 | 0.000 |
 | CCDC66 | 0.705 | 0.000 | 0.000 | 0.000 |
 | CCDC66 | 0.657 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| PCM1 | proximity-dependent biotin identification | 26638075 |
+| CEP162 | proximity-dependent biotin identification | 26638075 |
+| CEP135 | proximity-dependent biotin identification | 26638075 |
+| C14orf145 | proximity-dependent biotin identification | 26638075 |
+| PCM1 | proximity-dependent biotin identification | 26638075 |
+| CEP63 | proximity-dependent biotin identification | 26638075 |
+| CCDC123 | proximity-dependent biotin identification | 26638075 |
+| ODF2 | proximity-dependent biotin identification | 26638075 |
+| CCDC52 | proximity-dependent biotin identification | 26638075 |
+| CCDC100 | proximity-dependent biotin identification | 26638075 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

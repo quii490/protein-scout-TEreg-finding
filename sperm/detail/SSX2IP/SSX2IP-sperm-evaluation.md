@@ -66,7 +66,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | SSX2IP | 0.864 | 0.000 | 0.000 | 0.000 |
 | SSX2IP | 0.832 | 0.000 | 0.000 | 0.000 |
 | SSX2B | 0.815 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| ? | barcode fusion genetics two hybrid | 27107012 |
+| ? | validated two hybrid | 27107012 |
+| YWHAQ | two hybrid | 21988832 |
+| IKBKG | two hybrid | 21988832 |
+| SSX2 | pull down | 12007189 |
+| SSX2 | two hybrid | 12007189 |
+| SSX2 | two hybrid | 12007189 |
+| SSX2 | fluorescence microscopy | 12007189 |
+| USP11 | anti tag coimmunoprecipitation | 19615732 |
+| YWHAB | anti tag coimmunoprecipitation | 28514442 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

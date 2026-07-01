@@ -55,7 +55,17 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | SAXO1 | 0.587 | 0.000 | 0.000 | 0.000 |
 | LYPD4 | 0.584 | 0.000 | 0.000 | 0.000 |
 | C5orf47 | 0.569 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| FHL3 | two hybrid array | 31515488 |
+| LMO2 | validated two hybrid | 32296183 |
+| FHL2 | two hybrid array | 31515488 |
+| ACTN2 | validated two hybrid | 25910212 |
+| ACTN2 | two hybrid bait and prey pooling approach | 25910212 |
+| ACTN2 | two hybrid array | 25910212 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

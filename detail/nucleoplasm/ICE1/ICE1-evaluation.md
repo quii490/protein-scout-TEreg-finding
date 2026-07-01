@@ -172,6 +172,18 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 
 该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
 
+### 深度机制分析
+
+ICE1（Little elongation complex subunit 1, 2266 aa, UniProt Q9Y2F5）。定位于Nucleoplasm（HPA Supported），GO注释涵盖Cajal body、euchromatin、histone locus body、nuclear body、transcription elongation factor complex等多个核亚结构。InterPro注释IPR057881（ICE1_C结构域），Pfam PF25817。AlphaFold pLDDT=44.34（有序区仅23%），提示大量内在无序区域——对于2266 aa的巨型支架蛋白而言，这是预期特征。
+
+从功能复合体角度，ICE1是Little Elongation Complex（LEC）的核心亚基，与ICE2（STRING score=0.998）形成异源二聚体。LEC由ICE1、ICE2、ELL3和ZC3H8组成，专一性调控RNA聚合酶II（Pol II）在small nuclear RNA（snRNA）基因上的转录延伸（PMID:22195968）。人类HPA interaction页面确证ICE1与EAF1、ELL、ICE2的直接互作（均为Biogrid/Bioplex实验数据）。SUPT5H/SPT5（STRING=0.936）是转录延伸因子DSIF的核心组分，进一步支持转录延伸功能。
+
+从结构-功能整合角度，ICE1的巨大尺寸和高度无序性提示其为分子支架蛋白——通过IDR介导的多价弱相互作用将LEC复合体的各个亚基组装为功能性转录延伸机器。这一架构类似MED1/Mediator复合体中IDR介导的相分离凝聚体形成原理。ICE1定位于Cajal body和histone locus body——这两个核体是snRNP生物合成和组蛋白mRNA加工的枢纽，与LEC的snRNA转录功能高度吻合。
+
+从TE调控角度，ICE1通过调控Pol II转录延伸直接影响基因组转录活性。转座子转录受Pol II延伸效率的动态调节——在TE区域，转录延伸阻滞促进异染色质形成和TE沉默。LEC/ICE1在snRNA基因上的活性如果被"劫持"至TE启动子区域，可能解除转录延伸阻滞促进TE表达。或者，ICE1在euchromatin区域的富集暗示其可能标记活跃转录的常染色质区域，间接排除TE所在的异染色质区域。但无直接证据。
+
+PubMed 18篇，综合评分64.5/100。建议：（1）ICE1 ChIP-seq精确定位全基因组结合谱，特别关注与重复元件的重叠程度；（2）siICE1后RNA-seq检测TE家族表达变化。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/

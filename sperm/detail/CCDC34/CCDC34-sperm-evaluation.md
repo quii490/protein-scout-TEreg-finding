@@ -65,7 +65,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | CCDC150 | 0.548 | 0.000 | 0.000 | 0.000 |
 | DEPDC1B | 0.546 | 0.000 | 0.000 | 0.000 |
 | GSTCD | 0.545 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| TMEM86B | validated two hybrid | 32296183 |
+| COQ8A | validated two hybrid | 32296183 |
+| COQ8A | two hybrid array | 32296183 |
+| TMEM86B | two hybrid array | 32296183 |
+| TMEM86B | two hybrid prey pooling approach | 32296183 |
+| COQ8A | two hybrid prey pooling approach | 32296183 |
+| KAT5 | two hybrid array | 32814053 |
+| LMO3 | two hybrid array | 32814053 |
+| KAT5 | validated two hybrid | 32814053 |
+| LMO3 | validated two hybrid | 32814053 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

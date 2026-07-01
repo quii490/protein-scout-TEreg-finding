@@ -154,6 +154,18 @@ status: scored
 - [ ] 通过 co-IP/MS 验证 PPI 网络
 - [ ] ChIP-seq 检查 FGGY 在 TE 区域的 occupancy
 
+### 深度机制分析
+
+**结构域架构**：FGGY（Q96C11, FGGY carbohydrate kinase domain-containing protein, 551 aa）的主要结构域注释为IPR043129, IPR000577, IPR018485, IPR018484。Pfam数据库进一步识别到PF02782、PF00370等保守域。AlphaFold pLDDT=96.0（极高质量）——该蛋白整体折叠高度可信，结构性表征良好。该蛋白暂无实验PDB结构（PDB=0），当前结构信息依赖AlphaFold预测。PubMed=18（极度新颖），该蛋白处于早期研究阶段。
+
+**PPI互作网络解读**：PPI network（degree=N/A）——BioGRID/STRING数据库记录的关键互作伙伴包括ELP3、EAF1、NSFL1C、HNRNPL、MRPS22。其中ELP3、EAF1、HNRNPL等具有染色质调控或转录相关功能——提示FGGY可能通过PPI平台间接参与核内转录调控网络。
+
+**结构解读**：AlphaFold预测（pLDDT=96.0）显示该蛋白具有明确折叠结构域，IPR043129构成结构核心——保守的globular fold为其功能执行提供结构基础。Pfam域PF02782、PF00370的保守性进一步验证了该蛋白特定的进化约束。pLDDT=96.0反映的有序区域（pLDDT>70）占比高，适合X射线晶体学或冷冻电镜解析。
+
+**机制模型**：FGGY包含FGGY carbohydrate kinase domain——催化pentulose/ribulokinase反应。PMID:35842613报道LINE-1促进NSCLC tumorigenesis via metabolism reprogramming——FGGY作为糖代谢酶在nucleoplasm中的定位暗示moonlighting function。
+
+**TE调控展望**：FGGY的TE regulation潜力目前缺乏直接的实验证据。TE调控关联性取决于：（1）FGGY与chromatin remodeling complex（SWI/SNF, NuRD, PRC1/2）的physical association；（2）FGGY能否通过其结构域识别TE-derived element；（3）FGGY的depletion是否改变LINE-1或ERV family的expression level。建议proximity labeling（BioID/APEX2）+ MS鉴定FGGY在核内的完整interactome。
+
 ### PPI 互作网络
 
 | 互作伙伴 | 来源 | 评分 |

@@ -66,7 +66,18 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | RUVBL2 | 0.999 | 0.000 | 0.000 | 0.000 |
 | PFDN6 | 0.999 | 0.000 | 0.000 | 0.000 |
 | UXT | 0.998 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| MAP3K3 | tandem affinity purification | 14743216 |
+| STK11 | anti tag coimmunoprecipitation | 14676191 |
+| PARD6A | anti tag coimmunoprecipitation | 14676191 |
+| IKBKG | protein array | 20098747 |
+| HSP90AA1 | tandem affinity purification | 19875381 |
+| HSP90AA1 | anti tag coimmunoprecipitation | 21360678 |
+| CUL3 | tandem affinity purification | 21145461 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

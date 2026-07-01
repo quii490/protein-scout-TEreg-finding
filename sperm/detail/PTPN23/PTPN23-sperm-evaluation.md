@@ -65,7 +65,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | CHMP4A | 0.984 | 0.000 | 0.000 | 0.000 |
 | STAM2 | 0.982 | 0.000 | 0.000 | 0.000 |
 | UBAP1 | 0.971 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| DDX24 | two hybrid pooling approach | 16169070 |
+| VCAM1 | cross-linking study | 22623428 |
+| VCAM1 | cross-linking study | 22623428 |
+| VCAM1 | cross-linking study | 22623428 |
+| GRB2 | two hybrid pooling approach | 20936779 |
+| ESR2 | cosedimentation through density gradient | 21182203 |
+| EEA1 | proximity-dependent biotin identification | 29568061 |
+| TGOLN2 | proximity-dependent biotin identification | 29568061 |
+| NOTCH2NLA | two hybrid array | 31515488 |
+| CEP19 | two hybrid array | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

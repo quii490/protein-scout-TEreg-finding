@@ -57,7 +57,17 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | Partner | Combined | Exp | DB | Text |
 |---|---|---|---|---|
 | *STRING 无数据* | — | — | — | — |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| SNAI1 | anti bait coimmunoprecipitation | 17353931 |
+| MKRN3 | validated two hybrid | 25416956 |
+| CCDC85B | validated two hybrid | 25416956 |
+| CEP70 | validated two hybrid | 25416956 |
+| MEOX2 | two hybrid prey pooling approach | 25416956 |
+| EFCBP2 | two hybrid prey pooling approach | 25416956 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

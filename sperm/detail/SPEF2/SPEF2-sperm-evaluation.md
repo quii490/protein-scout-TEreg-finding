@@ -66,7 +66,16 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | CFAP43 | 0.735 | 0.000 | 0.000 | 0.000 |
 | DNAI1 | 0.724 | 0.000 | 0.000 | 0.000 |
 | ARMC2 | 0.723 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| APOA1 | anti bait coimmunoprecipitation | 15174051 |
+| IGHA1 | anti bait coimmunoprecipitation | 15174051 |
+| KATNAL1 | tandem affinity purification | 26929214 |
+| DISC1 | two hybrid fragment pooling approach | 31413325 |
+| CLU | two hybrid fragment pooling approach | 31413325 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

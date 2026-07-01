@@ -65,7 +65,20 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | PSMA2 | 0.999 | 0.000 | 0.000 | 0.000 |
 | PSMC4 | 0.999 | 0.000 | 0.000 | 0.000 |
 | PSMD11 | 0.999 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| PSMA2 | two hybrid | 14733938 |
+| PSMA3 | two hybrid | 14733938 |
+| PSMA7 | two hybrid | 14733938 |
+| TRAF6 | tandem affinity purification | 14743216 |
+| PSMA2 | anti bait coimmunoprecipitation | 15887188 |
+| PSMA2 | anti bait coimmunoprecipitation | 15887188 |
+| KIAA0036 | anti tag coimmunoprecipitation | 21565611 |
+| VCAM1 | cross-linking study | 22623428 |
+| VCAM1 | cross-linking study | 22623428 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

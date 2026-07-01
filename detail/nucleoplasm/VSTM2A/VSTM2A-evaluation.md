@@ -77,6 +77,7 @@ Nuclear protein
 
 
 
-### HPA IF 图像
 
-HPA 检索: https://www.proteinatlas.org/search/VSTM2A
+### 深度机制分析
+
+VSTM2A（UniProt API）具有免疫球蛋白样（Ig-like）结构域和MHC I类α链特征折叠（Ig-like_dom, Ig-like_dom_sf, Ig-like_fold）。MHC I类分子的胞外区由α1、α2和α3三个结构域组成，其中α1和α2形成远端肽结合沟——由两个反向平行的α螺旋构成侧壁、八条β片层构成底面，容纳8-10个氨基酸的抗原肽。α3结构域采用Ig恒定区（C1型）折叠，与β2微球蛋白非共价结合以稳定整体构象。pLDDT=71.1。

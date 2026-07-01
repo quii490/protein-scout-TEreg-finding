@@ -66,7 +66,12 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | DNAI2 | 0.942 | 0.000 | 0.000 | 0.000 |
 | CCDC114 | 0.940 | 0.000 | 0.000 | 0.000 |
 | DNAI1 | 0.938 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| BCL6 | anti bait coimmunoprecipitation | 16147992 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

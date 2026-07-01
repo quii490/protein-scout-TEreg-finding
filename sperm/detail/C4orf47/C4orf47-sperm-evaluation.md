@@ -55,7 +55,13 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | IQUB | 0.678 | 0.000 | 0.000 | 0.000 |
 | C5orf49 | 0.677 | 0.000 | 0.000 | 0.000 |
 | CFAP299 | 0.670 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| CFAP96 | cross-linking study | 30021884 |
+| CFAP96 | anti tag coimmunoprecipitation | 33961781 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

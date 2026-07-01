@@ -165,6 +165,16 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 **该蛋白PubMed文献数 250 > 100，研究热度过高，不符合novelty筛选标准。**
 
+### 深度机制分析
+
+MAK（Serine/threonine-protein kinase MAK, 623 aa, UniProt P20794）。定位于Nucleoplasm（HPA Supported），同时有Basal body/Centrosome/Cytosol等细胞骨架相关定位。属MAPK/MAK/MRK overlapping kinase家族，InterPro注释IPR011009（kinase-like domain superfamily）、IPR050117（MAK subfamily）、IPR000719（protein kinase domain）、IPR017441（protein kinase ATP binding site）、IPR008271（serine/threonine-protein kinase active site）。Pfam PF00069（Pkinase），SMART SM00220（S_TKc）。UniProt FT标注DOMAIN 4-284为Protein kinase域。AlphaFold pLDDT=62.1（有序区44.2%），无PDB实验结构。
+
+从激酶结构域与信号通路角度，MAK的激酶结构域（4-284 aa）催化丝氨酸/苏氨酸磷酸化。STRING预测的互作伙伴几乎全为DNA复制许可因子——MCM3（0.801, experimental=0.801）、CDC6（0.787）、MCM2-MCM7（0.782-0.787）、ORC2-ORC4（0.782-0.783）、CDT1（0.782）——均为高置信度co-expression实验数据。这一模式极为异常：MAK是cilia/centrosome相关激酶（PMID:39293864, PMID:41231942），却与核DNA复制因子关联，提示非经典核功能。HPA interaction页面显示FZR1（泛素连接酶共激活因子，Intact+Biogrid）和AR（雄激素受体，Intact）实验互作。
+
+从TE调控角度，MAK研究集中于纤毛发生和视网膜光感受器存活（PMID:20301590, PMID:39293864），PubMed=250篇文献中未检索到与TE/转座子调控直接相关的报道。然而，nucleoplasm定位和MCM/ORC复制起始复合体的关联提示可能参与S期染色质调控——TE的转录爆发常发生在S期复制叉通过富集TE的区域时。激酶活性可通过磷酸化染色质结合蛋白（如HP1、KAP1）调节异染色质稳定性。
+
+但PubMed 250篇超出新颖性阈值（>100），不符合本筛查的优先研究目标标准。综合评分44.2/100。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P20794
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000111837-MAK/subcellular

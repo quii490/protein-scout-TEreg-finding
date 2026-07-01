@@ -148,6 +148,18 @@ status: scored
 - [ ] SMART 结构域分析评估调控潜力
 - [ ] 深入文献检索确认已知功能
 
+### 深度机制分析
+
+**结构域架构**：CENPP（Q6IPU0, Centromere protein P, 288 aa / 31.7 kDa）的主要结构域注释为IPR027801。Pfam数据库进一步识别到PF13096等保守域。AlphaFold pLDDT=85.0（优质）——大部分区域折叠可信，个别loop区域可能为柔性无序。该蛋白已有9个PDB实验结构条目，为机制性研究提供直接的结构基础。PubMed=16（极度新颖），该蛋白处于早期研究阶段。
+
+**PPI互作网络解读**：PPI network（degree=N/A）——STRING数据库记录的关键互作伙伴包括MLF1IP、CENPU、CENPH、CENPQ、ITGB3BP、CENPI。其中CENPU、CENPH、ITGB3BP等具有染色质调控或转录相关功能——提示CENPP可能通过PPI平台间接参与核内转录调控网络。
+
+**结构解读**：AlphaFold预测（pLDDT=85.0）显示该蛋白具有明确折叠结构域，IPR027801构成结构核心——保守的globular fold为其功能执行提供结构基础。Pfam域PF13096的保守性进一步验证了该蛋白特定的进化约束。pLDDT=85.0反映的有序区域（pLDDT>70）占比高，适合X射线晶体学或冷冻电镜解析。
+
+**机制模型**：CENPP为centromere/kinetochore constitutive component（CCAN）——直接参与centromere specification和kinetochore assembly。Pericentromeric region富集satellite repeat和retrotransposon——该蛋白在centromeric chromatin maintenance中的功能可能indirectly influence pericentromeric TE stability。
+
+**TE调控展望**：CENPP的TE regulation潜力目前缺乏直接的实验证据。TE调控关联性取决于：（1）CENPP与chromatin remodeling complex（SWI/SNF, NuRD, PRC1/2）的physical association；（2）CENPP能否通过其结构域识别TE-derived element；（3）CENPP的depletion是否改变LINE-1或ERV family的expression level。建议ChIP-seq检测CENPP在centromeric/pericentromeric region上的occupancy——结合RNA-seq评估pericentromeric TE的expression变化。
+
 ### PPI 互作网络
 
 | 互作伙伴 | 来源 | 评分 |

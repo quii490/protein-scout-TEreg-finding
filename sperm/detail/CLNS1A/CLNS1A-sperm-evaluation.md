@@ -66,7 +66,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | PRMT5 | 0.999 | 0.000 | 0.000 | 0.000 |
 | SNRPB | 0.999 | 0.000 | 0.000 | 0.000 |
 | SNRPE | 0.999 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| EIF4A2 | two hybrid pooling approach | 16169070 |
+| SNRPD3 | two hybrid | 21988832 |
+| PRMT5 | molecular sieving | 18984161 |
+| G3BP1 | anti tag coimmunoprecipitation | 19615732 |
+| AGO3 | anti tag coimmunoprecipitation | 19167051 |
+| ULK2 | anti tag coimmunoprecipitation | 20562859 |
+| FN1 | cross-linking study | 19738201 |
+| EPB41L3 | anti tag coimmunoprecipitation | 24366813 |
+| DOK2 | anti tag coimmunoprecipitation | 31980649 |
+| ELK4 | anti tag coimmunoprecipitation | 31980649 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

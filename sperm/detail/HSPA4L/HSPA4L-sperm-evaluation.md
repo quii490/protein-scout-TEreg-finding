@@ -55,7 +55,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | HSPA8 | 0.998 | 0.000 | 0.000 | 0.000 |
 | HSPH1 | 0.998 | 0.000 | 0.000 | 0.000 |
 | HSP90AB1 | 0.997 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| TAB1 | tandem affinity purification | 14743216 |
+| EIF6 | anti bait coimmunoprecipitation | 17353931 |
+| MCC | anti bait coimmunoprecipitation | 17353931 |
+| ? | anti bait coimmunoprecipitation | 17353931 |
+| TRAF6 | anti bait coimmunoprecipitation | 17353931 |
+| TIMP2 | anti bait coimmunoprecipitation | 17353931 |
+| PRKAB1 | anti bait coimmunoprecipitation | 17353931 |
+| DOK2 | anti bait coimmunoprecipitation | 17353931 |
+| HLAB | anti bait coimmunoprecipitation | 17353931 |
+| ARF6 | anti bait coimmunoprecipitation | 17353931 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

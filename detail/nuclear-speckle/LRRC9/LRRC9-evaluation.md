@@ -171,7 +171,17 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 
 该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
-### 5. 数据来源
+### 深度机制分析
+
+LRRC9（1453 aa, 166.9 kDa, UniProt Q6ZRR7）是典型的富亮氨酸重复（LRR）超家族蛋白，域架构极度扩展——约1453 aa由大量LRR重复单元（InterPro:IPR001611, IPR003591, IPR032675; SMART:SM00364, SM00365, SM00369; Pfam:PF12799/leucine-rich repeat, PF13855/LRR_8, PF14580/LRR_9）填充。每个LRR单元含22-24个残基——"LxxLxLxxN/C"保守序列基序——通过α-螺旋/β-折叠交替排列形成马蹄形螺线管结构。1453 aa可容纳超过50个LRR单元，使LRRC9成为极为延伸的马蹄形螺线管（长度约150-180 A），提供巨大的互作结合界面。AlphaFold v6 pLDDT=80.6（82.8%有序区）确认LRR螺线管主链以高置信度折叠，但多个插入环和连接区段降低了全局pLDDT。
+
+HPA将LRRC9主要定位于Plasma membrane和Cell Junctions（Approved），额外的Nucleoplasm和Nuclear bodies信号可能反映次要核内池。GO-CC仅含cytoplasm（GO:0005737）——与Plasma membrane注释一致。LRRC9的核质/Nuclear bodies注释存在不确定性——可能是抗体交叉反应或反映少量核内LRRC9的被动扩散。
+
+STRING互作图谱（仅预测，无实验验证——IntAct为空）的top partners指向转录因子和G蛋白偶联受体：ZFP36L2（zinc finger protein 36 like 2, score=0.683）是AU-rich element（ARE）结合蛋白，调控mRNA稳定性——提示LRRC9可能与转录后调控复合体结合。ADGRL1/2/3（latrophilin, adhesion GPCR, 实验=0.514）的关联暗示LRRC9可能参与细胞黏附和G蛋白信号。SAMD12（sterile alpha motif domain containing 12, score=0.528）含SAM域——该域在中枢神经系统蛋白中参与同源/异源聚合，与Polycomb沉默机制相关联的Polyhomeotic（Ph）蛋白的SAM域同源。
+
+humanPPI数据中BioGRID互作ZFP36L2（score=1）和STIP1（stress-induced phosphoprotein 1, Hsp70/Hsp90共伴侣蛋白, score=1）提供LRRC9的初步功能锚点：STIP1连接Hsp70和Hsp90蛋白折叠系统→LRRC9-STIP1互作可能反映LRRC9在ER/膜相关蛋白折叠质量控制中的角色。HSPD1（Hsp60, mitochondrial chaperonin, BioGRID score=0）和TRIM67（E3 ubiquitin ligase, BioGRID score=0）进一步延伸至蛋白稳态调控。
+
+LRRC9的TE调控潜力极低。PubMed=3篇的极度新颖性（50/50分）和AlphaFold高质量结构（80.6）使其在结构维度得分较高，但主要定位于Plasma membrane/Cell Junctions和PPI网络全部为预测（无实验验证）——缺乏将LRRC9可靠地锚定于核内功能的直接证据。TRIM67-BioGRID互作若真实存在（TRIM67是E3连接酶，可能靶向染色质蛋白降解），是LRRC9-TE关联的唯一微弱线索。总体65.6/100归因于新颖性+结构质量，但作为TE调控候选的前景有限——更适合膜受体/细胞黏附生物学。
 - UniProt: https://www.uniprot.org/uniprotkb/Q6ZRR7
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000131951-LRRC9/subcellular
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=LRRC9

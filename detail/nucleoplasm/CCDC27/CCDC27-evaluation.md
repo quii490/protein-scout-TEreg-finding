@@ -160,63 +160,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### PPI 互作网络
 
-| 互作伙伴 | 来源 | 评分 |
-|---|---|---|
-| PTF1A | BioGRID | 1 |
-| MAGEA11 | BioGRID | 1 |
-| DDX24 | BioGRID | 1 |
-| CLTCL1 | BioGRID | 0 |
-| ALOXE3 | BioGRID | 0 |
-| HAL | BioGRID | 0 |
-| ALOX12B | BioGRID | 0 |
-| WASF2 | BioGRID | 0 |
+### 深度机制分析
 
-
-### TE 调控评估
-
-该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
-
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q2M243
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000162592-CCDC27/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CCDC27
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q2M243
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
-
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Cytosol (approved)。来源: https://www.proteinatlas.org/ENSG00000162592-CCDC27/subcellular
-
-![](https://images.proteinatlas.org/44395/2005_C3_1_red_green.jpg)
-![](https://images.proteinatlas.org/44395/2005_C3_2_red_green.jpg)
-![](https://images.proteinatlas.org/44395/516_B7_5_red_green.jpg)
-![](https://images.proteinatlas.org/44395/516_B7_6_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
-
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
-
-![](https://alphafold.ebi.ac.uk/files/AF-Q2M243-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
-
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-07）
-
-### SMART / UniProt domain
-| Source | Data |
-|---|---|
-| UniProt | Q2M243 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR052642; |
-| Pfam | 未检出 |
-
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000162592-CCDC27/interaction
-
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| MAGEA11 | Intact | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->
+CCDC27（CCDC27）的IPR052642 |结构域组合为其功能提供了结构基础。656个氨基酸构成了kDa的蛋白质。pLDDT=65.7，PDB=0。

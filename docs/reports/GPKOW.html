@@ -144,6 +144,11 @@
 </tbody></table></div>
 <h4>TE 调控评估</h4>
 <p>该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。</p>
+<h4>深度机制分析</h4>
+<p>GPKOW（UniProt Q92917）是剪接体中一个多功能RNA结合蛋白，其结构域架构包含一个N端G-patch结构域（SMART:SM00443，残基164-210）和两个C端KOW基序（KOW1: 240-267, KOW2: 415-442），中间由一段低置信度连接区隔开。G-patch结构域是RNA解旋酶激活模块，已知通过与DHX16等DEAH-box RNA解旋酶的相互作用促进剪接体重塑（PMID:25296192）；KOW基序则是古老的核糖体蛋白折叠，在真核生物中进化出核酸结合功能。AlphaFold v6预测的pLDDT平均值仅为69.7，有序区域仅占54.8%，高置信区域（pLDDT&gt;90）仅23.5%——这种中等置信度结构特征与其天然折叠/无序动态平衡一致，反映GPKOW作为剪接体脚手架蛋白需要构象灵活性来适应多种互作伙伴。</p>
+<p>STRING-PPI网络强烈支持GPKOW是剪接体功能核心蛋白：DHX16（0.999, experimental=0.998）、DHX38（0.998, 0.994）、RBM10（0.996, 0.994）、BUD13（0.983, 0.965）、PRPF8（0.957, 0.936）均为剪接体A/B/C复合体的核心组分。PDB结构（7DVQ、7QTT、8CH6）捕获了GPKOW片段在剪接体组装不同阶段的构象，确证其直接参与pre-mRNA剪接催化。IntAct实验也捕捉到GPKOW与核纤层蛋白LMNA（PMID:29568061，proximity-dependent biotin identification）和hnRNPC（PMID:30021884，cross-linking）的互作，暗示其与核基质及RNA加工网络的更广泛关联。</p>
+<p>HPA免疫荧光将GPKOW定位于核质（nucleoplasm, enhanced），与UniProt的nucleus注释完全一致，GO进一步指向nucleoplasm（GO:0005654）和spliceosomal complex（GO:0005681），核定位证据极其充分。放射自显影和激酶实验确认GPKOW是PKA的直接磷酸化底物（PMID:21880142），磷酸化修饰调控其RNA结合活性。</p>
+<p>与TE调控最相关的线索是：GPKOW为X连锁基因，其C端移码突变被新近发现导致多系统X连锁疾病，包括小头畸形和宫内生长受限（PMID:28612833, PMID:40221893）。这些神经发育表型与许多染色质重塑因子和TE调控蛋白的突变表型高度重叠。考虑到GPKOW在剪接体中的核心地位，其功能缺失可能通过pre-mRNA剪接异常影响TE衍生外显子和转座元件的正确剪接加工，间接调控TE表达。G-patch/KOW双模块结构赋予GPKOW作为剪接体RNA解旋酶活化和RNA底物识别的双重分子机制，但其对TE衍生序列的选择性结合能力有待CLIP-seq实验验证。</p>
 <h4>5. 数据来源</h4>
 <ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q92917</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000068394-GPKOW/subcellular</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=GPKOW</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q92917</li><li>STRING: https://string-db.org/network/9606.ENSP00000</li><li>Data fetched live: 2026-06-03</li></ul>
 <p>&lt;!-- HPA_IF_REPAIR_START --&gt; <strong>HPA IF 图像修正（2026-06-05）</strong>: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (enhanced)。来源: https://www.proteinatlas.org/ENSG00000068394-GPKOW/subcellular</p>

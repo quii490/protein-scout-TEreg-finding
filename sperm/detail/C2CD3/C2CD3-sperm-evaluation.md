@@ -67,7 +67,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | FBF1 | 0.990 | 0.000 | 0.000 | 0.000 |
 | FBF1 | 0.983 | 0.000 | 0.000 | 0.000 |
 | CEP89 | 0.979 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| PLEC | cross-linking study | 30021884 |
+| CXorf5 | anti tag coimmunoprecipitation | 26496610 |
+| BBS1 | anti tag coimmunoprecipitation | 24997988 |
+| BBS2 | anti tag coimmunoprecipitation | 24997988 |
+| BBS4 | anti tag coimmunoprecipitation | 24997988 |
+| TTC8 | anti tag coimmunoprecipitation | 24997988 |
+| BBS5 | anti tag coimmunoprecipitation | 24997988 |
+| PTHB1 | anti tag coimmunoprecipitation | 24997988 |
+| PCM1 | proximity-dependent biotin identification | 26638075 |
+| CEP135 | proximity-dependent biotin identification | 26638075 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

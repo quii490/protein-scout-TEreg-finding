@@ -170,6 +170,18 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### 深度机制分析
+
+**结构域架构**：KBTBD6（674 aa, Q86V97, pLDDT=81.2）是CUL3-RING E3 ubiquitin ligase复合体的substrate adaptor——N端为BTB domain（63-138 aa, SMART: SM00225/InterPro: IPR000210, POZ/BTB fold）——BTB以homodimer形式识别CUL3 N-terminal domain——每条BTB单体结合一个CUL3——形成(CUL3-RBX1-BTB)2 heterotetrameric E3 core。C端为Kelch repeat domain（SMART: SM00612/InterPro: IPR011705/IPR015915, Kelch β-propeller fold）——6个Kelch motif形成6-blade β-propeller（每个blade为4-strand antiparallel β-sheet）——β-propeller顶面的variable loops构成substrate recognition pocket——以sequence-specific方式识别degron motif（典型的phosphodegron或post-translational modification-dependent degron）。PDB 4XC2为KBTBD6 Kelch domain晶体结构——确证β-propeller折叠的保守性。Pfam PF07707（BTB fold）, PF00651（BTB/POZ）, PF20165（Kelch_6）, PF01344（Kelch_1）提供domain domain的详细边界信息。
+
+**PPI互作网络解读**：PPI网络高度富集于autophagy/membrane trafficking通路与CUL3 ubiquitin ligase machinery。GABARAP（STRING 0.995, 实验分0.809, IntAct co-IP PMID:20562859）、GABARAPL1、GABARAPL2、MAP1LC3B、MAP1LC3C均为Atg8-family泛素样蛋白——通过C-terminal glycine共价连接phosphatidylethanolamine锚定autophagosome membrane——KBTBD6作为CUL3 adaptor可能通过识别LC3/GABARAP的LIR（LC3-interacting region）motif-dependent conformation——介导autophagy receptor/cargo的K48-linked polyubiquitination→proteasome/autophagy降解。KBTBD7（STRING 0.995, IntAct co-IP PMID:20562859）为其heterodimeric partner——KBTBD6/7 heterodimer formation通过Kelch-Kelch domain swapping调控底物特异性。CUL3（STRING 0.991, 实验分0.649, TAP PMID:21145461）和RBX1（STRING 0.940）构成E3 ligase catalytic core——COPS5（IntAct TAP PMID:21145461）为CSN（COP9 signalosome）deneddylase——调节CUL3 neddylation状态→控制E3活性。
+
+**结构解读**：AlphaFold v6 pLDDT=81.2——BTB domain pLDDT>90（高置信度fold）——Kelch β-propeller pLDDT 70-90（置信区）——部分loops（13.6%残基）pLDDT<50——可能对应substrate-binding loops的conformational flexibility。有序区77.8%——整体为双域球状蛋白——BTB与Kelch通过约50 aa linker连接。
+
+**机制模型**：CUL3-KBTBD6在nucleus+cytoplasm双定位（GO: nucleus GO:0005634 + cytosol GO:0005829）提示其核内功能——CUL3-based E3 ligase是核内protein quality control和chromatin-associated protein turnover的主要通路——KBTBD6可能作为nuclear CUL3 adaptor识别并泛素化修饰的chromatin modifier/transcription factor→调控TE区域的chromatin landscape。GABARAP/LC3 interaction further suggests crosstalk with nuclear autophagy（nucleophagy）——受损核膜或异染色质区域的autophagic degradation可能影响TE loci的chromatin stability。
+
+**TE调控展望**：BTB-Kelch protein（如KEAP1-CUL3-NRF2, KLHL family）的substrate recognition机制已在stress response和ubiquitin signaling中充分验证——KBTBD6的核内substrate若为TE-associated chromatin protein（如KRAB-ZFP, KAP1/TRIM28）——其E3 ligase活性可直接调控TE silencing complex的turnover rate。PubMed仅8篇（极度新颖）——核内BTB-Kelch E3 adaptor在TE silencing中的功能为完全未探索领域。
+
 ### PPI 互作网络
 
 | 互作伙伴 | 来源 | 评分 |

@@ -164,6 +164,14 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 - [ ] **该蛋白核定位证据不足（≤3/10），不建议作为核蛋白研究目标。**
 
+### 深度机制分析
+
+GLOD4（Glyoxalase domain-containing protein 4, 313 aa, UniProt Q9HC38）。REJECTED——核定位得分2/10（HPA: Cytosol, UniProt: Mitochondrion）。该蛋白是glyoxalase/bleomycin抗药蛋白超家族成员，InterPro注释IPR043193、IPR043194、IPR059155、IPR029068、IPR037523（vicinal oxygen chelate superfamily），Pfam PF21701和PF21207。PDB实验结构3ZI1和9CSJ已解析，AlphaFold pLDDT=89.4（有序区88.8%），结构可信度极高。
+
+从结构-酶学机制角度，glyoxalase结构域催化甲基乙二醛等活性羰基化合物的解毒反应——通过谷胱甘肽依赖或非依赖机制将其转化为无毒产物。PDB 3ZI1（resolution 1.7A）和9CSJ（resolution 1.5A）提供原子级结构信息，确证金属结合位点和底物结合口袋的保守构型。STRING预测伙伴主要涉及线粒体代谢酶：NDUFS8（0.782，线粒体呼吸链复合体I）、ESD（0.720，酯酶D/甲硫氨酸挽救通路）、PCCB（0.664，丙酰辅酶A羧化酶），与线粒体/胞质定位一致。
+
+从TE调控角度，作为代谢酶（glyoxalase），GLOD4无核定位、无染色质结合功能的任何证据。但代谢酶的非经典功能（"moonlighting"）值得关注——某些glyoxalase的同源物具有核酸结合活性，且甲基乙二醛通过糖化组蛋白影响染色质结构。然而，GLOD4的PDB结构和明确的酶活位点不支持DNA/RNA结合。综合评分67.8/100。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9HC38
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000167699-GLOD4/subcellular

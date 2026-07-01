@@ -63,7 +63,20 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | ULK3 | 0.977 | 0.000 | 0.000 | 0.000 |
 | ATG5 | 0.972 | 0.000 | 0.000 | 0.000 |
 | ATG12 | 0.969 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| TRAF2 | virotrap | 30561431 |
+| TRADD | virotrap | 30561431 |
+| BIRC2 | virotrap | 30561431 |
+| FADD | virotrap | 30561431 |
+| RBCK1 | virotrap | 30561431 |
+| SHARPIN | virotrap | 30561431 |
+| TANK | virotrap | 30561431 |
+| TNIP1 | virotrap | 30561431 |
+| TNIP2 | virotrap | 30561431 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

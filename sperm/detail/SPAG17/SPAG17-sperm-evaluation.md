@@ -63,7 +63,12 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | CFAP221 | 0.801 | 0.000 | 0.000 | 0.000 |
 | SPAG6 | 0.786 | 0.000 | 0.000 | 0.000 |
 | DNAI1 | 0.733 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| PRKCSH | cross-linking study | 30021884 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

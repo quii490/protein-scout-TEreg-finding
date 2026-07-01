@@ -65,7 +65,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | PPP2R1A | 0.999 | 0.000 | 0.000 | 0.000 |
 | PPP2R2A | 0.999 | 0.000 | 0.000 | 0.000 |
 | PPP2CA | 0.999 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| ? | anti bait coimmunoprecipitation | 14968112 |
+| PPP2R1B | anti tag coimmunoprecipitation | 17540176 |
+| PPP2R1B | anti tag coimmunoprecipitation | 17540176 |
+| CHEK2 | two hybrid | 15380617 |
+| CHEK2 | two hybrid | 15380617 |
+| PPP2CA | anti tag coimmunoprecipitation | 19156129 |
+| PPP2CB | anti tag coimmunoprecipitation | 19156129 |
+| PPP2R1A | anti tag coimmunoprecipitation | 19156129 |
+| PPP2CA | tandem affinity purification | 18782753 |
+| PPP2R1A | anti tag coimmunoprecipitation | 18782753 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

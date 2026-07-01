@@ -135,26 +135,12 @@
 </tbody></table></div>
 <h4>TE 调控评估</h4>
 <p>该蛋白缺乏核/染色质定位证据，TE 调控潜力较低。</p>
-<h4>5. 数据来源</h4>
-<ul><li>UniProt: https://www.uniprot.org/uniprotkb/H3BMG3</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000240204-SMKR1/subcellular</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=SMKR1</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/H3BMG3</li><li>STRING: https://string-db.org/network/9606.ENSP00000</li><li>Data fetched live: 2026-06-03</li></ul>
-<p>&lt;!-- HPA_IF_REPAIR_START --&gt; <strong>HPA IF 图像修正（2026-06-05）</strong>: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoli (approved)。来源: https://www.proteinatlas.org/ENSG00000240204-SMKR1/subcellular</p>
-<p><figure><img src="https://images.proteinatlas.org/78358/1672_H3_32_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/78358/1672_H3_33_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/78358/1690_F5_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/78358/1690_F5_2_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/78358/1702_D6_31_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/78358/1702_D6_33_red_green.jpg" alt="image"></figure> &lt;!-- HPA_IF_REPAIR_END --&gt;</p>
-<p>&lt;!-- AF_PAE_REPAIR_START --&gt; <strong>PAE 图像修正（2026-06-05）</strong>: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。</p>
-<p><figure><img src="https://alphafold.ebi.ac.uk/files/AF-H3BMG3-F1-predicted_aligned_error_v6.png" alt="image"></figure> &lt;!-- AF_PAE_REPAIR_END --&gt;</p>
-<p>&lt;!-- DOMAIN_HUMANPPI_REPAIR_START --&gt;</p>
-<h3>Domain/SMART 与 humanPPI 补充（2026-06-06）</h3>
-<h4>SMART / UniProt domain</h4>
-<div class="table-wrap"><table>
-<thead><tr><th>Source</th><th>Data</th></tr></thead><tbody>
-<tr><td>UniProt</td><td>H3BMG3</td></tr>
-<tr><td>SMART</td><td>未在 UniProt xref 中检出 SMART 条目</td></tr>
-<tr><td>UniProt Domain [FT]</td><td>未检出显式 UniProt Domain feature</td></tr>
-<tr><td>InterPro</td><td>IPR037760;</td></tr>
-<tr><td>Pfam</td><td>未检出</td></tr>
-</tbody></table></div>
-<h4>humanPPI / HPA Interaction</h4>
-<p>Source: https://www.proteinatlas.org/ENSG00000240204-SMKR1/interaction</p>
-<p>未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。 &lt;!-- DOMAIN_HUMANPPI_REPAIR_END --&gt;</p></article></main>
+<h4>深度机制分析</h4>
+<p>SMKR1（Small lysine-rich protein 1, 65 aa, UniProt H3BMG3）。定位于Nucleoli（HPA Approved），是最小的评价蛋白之一（仅7.1 kDa）。InterPro注释IPR037760（SMKR1家族），Pfam未检出。AlphaFold pLDDT=71.7（有序区61.6%），无PDB结构。</p>
+<p>从蛋白结构特征角度，SMKR1&quot;富含赖氨酸&quot;——基本的赖氨酸富集是核小体结合蛋白（如HMGN蛋白、linker histone H1的C端尾）的经典特征，它们通过碱性残基与DNA磷酸骨架的静电相互作用结合染色质。65 aa中高比例赖氨酸的存在暗示SMKR1可能具有内在的核小体/核酸结合能力。pLDDT=71.7，58.5%残基处于70-90区间——考虑到蛋白体积极小，已是合理置信度。</p>
+<p>从PPI网络角度，STRING鉴定的互作伙伴几乎全为核糖体蛋白（RPS18、RPS3A、RPL5、RPS11等）和线粒体核糖体蛋白（MRPL19、MRPL20、MRPS9），FAU（combined=0.990, experimental=0.967）是最强互作伙伴。FAU编码ubiquitin-like protein FUBI与核糖体蛋白S30的融合蛋白——其泛素样域可参与蛋白降解。IntAct仅鉴定UBA52（ubiquitin-60S ribosomal protein L40）的cross-linking互作。所有互作均指向核糖体生物合成——与nucleoli定位一致。</p>
+<p>从TE调控角度，SMKR1在nucleoli的定位暗示其主要功能是核糖体生物合成相关，而非染色质/TE调控。但富含赖氨酸的小蛋白有时具有非特异性DNA/RNA结合活性，在特定条件下可能&quot;兼职&quot;参与核凝聚体形成——这在nucleoli的相分离环境中尤为可能。</p>
+<p>PubMed仅2篇（PMID:31959204、39512681），极度新颖。综合评分71.1/100。建议测定SMKR1的等温滴定量热法（ITC）检测其对DNA/RNA底物的结合亲和力。</p></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

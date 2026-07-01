@@ -156,6 +156,18 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 - [ ] **该蛋白核定位证据不足（≤3/10），不建议作为核蛋白研究目标。**
 
+### 深度机制分析
+
+**结构域架构**：GJC2（Gap junction gamma-2 protein / Connexin-46.6, UniProt: Q5T442, 439 aa / 47.0 kDa）属于Connexin family——其结构域架构包含四个跨膜domain（TM1-TM4）、两个胞外loop（E1, E2）、一个胞内loop（CL）和胞内的N端与C端。InterPro注释为IPR000500（Connexin）、IPR019570（Connexin, conserved site）、IPR017990（Connexin, cysteine-rich domain）、IPR013092（Connexin, N-terminal）和IPR038359（Connexin, N-terminal domain superfamily），Pfam识别为PF00029（Connexin）。AlphaFold pLDDT=67.1（中等偏弱）——有序残基占比47.2%，高置信残基仅26.9%，低置信残基占33.5%。
+
+**PPI互作网络解读**：STRING PPI network（15 partners, combined score >0.4）包含FAM126A、PNPLA6、AP5Z1、SPG21、GJB2、GJA1、SPG7、FOXC2、SPG11、GJB6等——其中GJB2（Connexin-26）和GJA1（Connexin-43）是canonical connexin partner，形成heteromeric gap junction channel。值得注意的是FOXC2（forkhead box transcription factor）的出现——该TF参与epithelial-mesenchymal transition（EMT）regulatory network。IntAct记录了一个实验验证互作（ALB, anti bait coimmunoprecipitation, PMID: 15174051）。
+
+**结构解读**：AlphaFold预测（pLDDT=67.1）的四个跨膜helix区域信心中等，而胞外loop（E1, E2）受限于disulfide bond-mediated stabilization——connexin的extracellular loop含有conserved cysteine pattern，在docking of two hemichannels from adjacent cells时形成intercellular channel。C端胞内区域（CL, CT）置信度极低（pLDDT<50），这是connexin family的共性特征——C端作为regulatory hub容纳多种post-translational modification site（phosphorylation, ubiquitination, sumoylation）和protein-protein interaction motif。
+
+**机制模型**：GJC2作为gap junction protein的经典功能是形成hexameric connexon（hemichannel）——六个connexin subunit组装成connexon，两个connexon从相邻细胞docking形成完整的gap junction channel（dodecamer），允许small molecule（<1 kDa）和ion的intercellular diffusion。Connexin磷酸化（C端serine/threonine/tyrosine）调控channel gating和connexon trafficking——phosphorylation by PKA, PKC, CK1, MAPK等fine-tune gap junctional communication（GJIC）。GJIC在tissue homeostasis、development和disease（尤其是demyelinating disorder如Pelizaeus-Merzbacher-like disease, PMLD1）中至关重要。
+
+**TE调控展望**：GJC2的TE regulation关联主要体现在以下几个方面：（1）Gap junctional intercellular communication（GJIC）的disruption与genomic instability的报告——GJIC loss可能通过deregulated cell cycle和defective DNA damage response增加LINE-1 retrotransposition；（2）Connexin-mediated metabolite exchange（包括cAMP, IP3, ATP）通过G-protein coupled receptor signaling→second messenger cascade间接影响chromatin landscape和TE silencing；（3）GJC2的rejected status（核定位得分2/10）意味着其TE调控评估必须通过cytoplasmic/membrane-based secondary signaling间接实现——而非直接的核内chromatin interaction。考虑到该蛋白定位在plasma membrane和gap junction（一致性跨UProt/HPA），将其作为TE regulation的直接靶标缺乏rationale支持。建议仅在gap junction biology的特定context中评估其TE调控的indirect effect。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q5T442
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000198835-GJC2/subcellular

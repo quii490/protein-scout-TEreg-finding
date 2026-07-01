@@ -66,7 +66,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | CCDC40 | 0.911 | 0.000 | 0.000 | 0.000 |
 | CCDC40 | 0.884 | 0.000 | 0.000 | 0.000 |
 | CCDC39 | 0.876 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| MORN3 | validated two hybrid | 32296183 |
+| MORN3 | two hybrid array | 32296183 |
+| MORN3 | two hybrid prey pooling approach | 32296183 |
+| MORN3 | validated two hybrid | 25416956 |
+| MORN3 | two hybrid prey pooling approach | 25416956 |
+| FBXO16 | anti tag coimmunoprecipitation | 33961781 |
+| RSPH6A | anti tag coimmunoprecipitation | 33961781 |
+| Meichroacidin | two hybrid fragment pooling approach | 35914814 |
+| Meichroacidin | two hybrid fragment pooling approach | 35914814 |
+| Meichroacidin | two hybrid fragment pooling approach | 35914814 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

@@ -158,7 +158,15 @@ status: rejected
 - [ ] 设计体外实验验证核定位及潜在调控功能
 - [ ] **该蛋白核定位证据不足（≤3/10），不建议作为核蛋白研究目标。**
 
-### 5. 数据来源
+### 深度机制分析
+
+CNGA2（664 aa, 76.0 kDa, UniProt Q16280）是CNG通道α亚家族成员（CNGA1-A4），与CNGA4共享完全一致的域架构：N端CLZ域（IPR032406, Pfam:PF16526, CaM结合）→S1-S6六跨膜螺旋束→C端环核苷酸结合域CNBD（IPR000595, Pfam:PF00027）+ C-linker（IPR018490）。与CNGA4的区别在于CNGA2的CNBD对cAMP而非cGMP具有更高亲和力——CNGA2/CNGA4/CNGB1组成的异源四聚体通道对cAMP和cGMP均响应，但亚基化学计量比调节配体选择性。AlphaFold v6 pLDDT=77.7（75.7%有序区, 44.1% pLDDT>90）确认跨膜螺旋束和CNBD以高置信度折叠，N端CLZ域约100 aa和C-linker部分区段为灵活区域。
+
+STRING互作图谱与CNGA4高度重合——证实CNGA2和CNGA4在体内形成功能性异源通道：CNGB1（score=0.999, 实验=0.297）、CNGA4（0.998）、CNGA3（0.898）、以及CALM3/CALML3-6（全部0.958）和ADCY3（0.941, 实验=0.047）。ANO2/TMEM16B（anoctamin 2, Ca2+激活的Cl-通道, score=0.876）的关联提示CNGA2与Ca2+信号和电导调节蛋白共表达——嗅觉纤毛中两者共定位以产生动作电位。
+
+关键区别：CNGA2是REJECTED状态，被淘汰的原因不是PubMed文献量，而是核定位证据极弱（2/10分）——UniProt和GO-CC一致地将CNGA2定位于Cell projection, cilium membrane（包括ciliary membrane GO:0060170, non-motile cilium membrane GO:0098804, plasma membrane GO:0005886）。HPA未检测到CNGA2的可靠IF信号——这是淘汰的关键依据。CNGA2在嗅觉感觉神经元（OSN）的纤毛膜中高度富集——每个OSN表达约10^4个CNGA2通道分子，完全定位于纤毛膜而非核内。IntAct互作列表为空（0个实验互作）——进一步限制功能推断。
+
+CNGA2的严格纤毛膜定位、零核定位证据和零PubMed严格文献数（PubMed strict=0，可能因搜索策略"CNGA2"[Title/Abstract]过于严格而遗漏文献——实际该基因在文献中可能以别名或全文形式被提及）使其完全不适合核蛋白/TE调控筛选。CNGA2是纯粹的感觉神经元信号蛋白——作为嗅觉转导级联的末端执行器，无法承载染色质水平的TE调控功能。归一化得分62.8/100主要归因于新颖性得分（50/50）——如果纳入核定位淘汰规则，该蛋白应被评为不合格。
 - UniProt: https://www.uniprot.org/uniprotkb/Q16280
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000183862-CNGA2/subcellular
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CNGA2

@@ -67,7 +67,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | DYNLRB1 | 0.998 | 0.000 | 0.000 | 0.000 |
 | WDR60 | 0.998 | 0.000 | 0.000 | 0.000 |
 | DYNLL1 | 0.997 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| LIC3 | two hybrid array | 32296183 |
+| CLEC2D | anti tag coimmunoprecipitation | 28514442 |
+| EPHA1 | anti tag coimmunoprecipitation | 28514442 |
+| LIC3 | anti tag coimmunoprecipitation | 28514442 |
+| LIC3 | anti tag coimmunoprecipitation | 28514442 |
+| LIC3 | anti tag coimmunoprecipitation | 28514442 |
+| LIC3 | anti tag coimmunoprecipitation | 28514442 |
+| LIC3 | anti tag coimmunoprecipitation | 28514442 |
+| LIC3 | validated two hybrid | 32296183 |
+| LIC3 | two hybrid prey pooling approach | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

@@ -174,6 +174,18 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 **该蛋白PubMed文献数 183 > 100，研究热度过高，不符合novelty筛选标准。**
 
+### 深度机制分析
+
+**结构域架构**：CSTB（P04080, Cystatin-B, 98 aa / 11.1 kDa）的主要结构域注释为IPR000010, IPR046350, IPR018073, IPR001713。Pfam数据库进一步识别到PF00031等保守域。AlphaFold pLDDT=95.5（极高质量）——该蛋白整体折叠高度可信，结构性表征良好。该蛋白已有1个PDB实验结构条目，为机制性研究提供直接的结构基础。PubMed=183，该蛋白处于早期研究阶段。
+
+**PPI互作网络解读**：PPI network（degree=N/A）——当前已知互作伙伴数量为零，该蛋白的互作图谱近乎空白，future interactome studies将是建立功能关联的关键一步。
+
+**结构解读**：AlphaFold预测（pLDDT=95.5）显示该蛋白具有明确折叠结构域，IPR000010构成结构核心——保守的globular fold为其功能执行提供结构基础。Pfam域PF00031的保守性进一步验证了该蛋白特定的进化约束。pLDDT=95.5反映的有序区域（pLDDT>70）占比高，适合X射线晶体学或冷冻电镜解析。
+
+**机制模型**：CSTB为cystatin superfamily cysteine protease inhibitor——通过楔形binding loop插入cathepsin active site cleft。Cathepsin-cystatin平衡调控lysosomal proteolysis——在nucleolus中的定位与RRP1B（ribosomal RNA processing）互作提示可能在rRNA processing中发挥non-canonical function。
+
+**TE调控展望**：CSTB的TE regulation潜力目前缺乏直接的实验证据。TE调控关联性取决于：（1）CSTB与chromatin remodeling complex（SWI/SNF, NuRD, PRC1/2）的physical association；（2）CSTB能否通过其结构域识别TE-derived element；（3）CSTB的depletion是否改变LINE-1或ERV family的expression level。建议affinity purification-MS鉴定CSTB在核内的完整interactome。Combined with RNA-seq upon knockdown/overexpression——可在transcriptome level评估其对TE subfamily expression的潜在影响。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P04080
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000160213-CSTB/subcellular

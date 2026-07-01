@@ -64,7 +64,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | ZNF404 | 0.480 | 0.000 | 0.000 | 0.000 |
 | ZNF404 | 0.480 | 0.000 | 0.000 | 0.000 |
 | ATP6AP1L | 0.476 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| SULT2B1 | two hybrid pooling approach | 16189514 |
+| SULT2B1 | two hybrid array | 19060904 |
+| SULT2B1 | two hybrid pooling approach | 19060904 |
+| INO80B | two hybrid prey pooling approach | 32296183 |
+| LONRF1 | two hybrid array | 32296183 |
+| INO80B | two hybrid array | 32296183 |
+| SULT2B1 | two hybrid array | 32296183 |
+| TEPSIN | validated two hybrid | 32296183 |
+| SSX4 | validated two hybrid | 32296183 |
+| LONRF1 | validated two hybrid | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

@@ -66,7 +66,13 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | DYNLRB1 | 0.998 | 0.000 | 0.000 | 0.000 |
 | DYNC1I2 | 0.998 | 0.000 | 0.000 | 0.000 |
 | WDR60 | 0.998 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| HSPB9 | two hybrid | 15503857 |
+| HSPB9 | two hybrid | 15503857 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

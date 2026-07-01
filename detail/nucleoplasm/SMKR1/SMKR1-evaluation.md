@@ -173,45 +173,14 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 
 该蛋白缺乏核/染色质定位证据，TE 调控潜力较低。
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/H3BMG3
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000240204-SMKR1/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=SMKR1
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/H3BMG3
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### 深度机制分析
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoli (approved)。来源: https://www.proteinatlas.org/ENSG00000240204-SMKR1/subcellular
+SMKR1（Small lysine-rich protein 1, 65 aa, UniProt H3BMG3）。定位于Nucleoli（HPA Approved），是最小的评价蛋白之一（仅7.1 kDa）。InterPro注释IPR037760（SMKR1家族），Pfam未检出。AlphaFold pLDDT=71.7（有序区61.6%），无PDB结构。
 
-![](https://images.proteinatlas.org/78358/1672_H3_32_red_green.jpg)
-![](https://images.proteinatlas.org/78358/1672_H3_33_red_green.jpg)
-![](https://images.proteinatlas.org/78358/1690_F5_1_red_green.jpg)
-![](https://images.proteinatlas.org/78358/1690_F5_2_red_green.jpg)
-![](https://images.proteinatlas.org/78358/1702_D6_31_red_green.jpg)
-![](https://images.proteinatlas.org/78358/1702_D6_33_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
+从蛋白结构特征角度，SMKR1"富含赖氨酸"——基本的赖氨酸富集是核小体结合蛋白（如HMGN蛋白、linker histone H1的C端尾）的经典特征，它们通过碱性残基与DNA磷酸骨架的静电相互作用结合染色质。65 aa中高比例赖氨酸的存在暗示SMKR1可能具有内在的核小体/核酸结合能力。pLDDT=71.7，58.5%残基处于70-90区间——考虑到蛋白体积极小，已是合理置信度。
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+从PPI网络角度，STRING鉴定的互作伙伴几乎全为核糖体蛋白（RPS18、RPS3A、RPL5、RPS11等）和线粒体核糖体蛋白（MRPL19、MRPL20、MRPS9），FAU（combined=0.990, experimental=0.967）是最强互作伙伴。FAU编码ubiquitin-like protein FUBI与核糖体蛋白S30的融合蛋白——其泛素样域可参与蛋白降解。IntAct仅鉴定UBA52（ubiquitin-60S ribosomal protein L40）的cross-linking互作。所有互作均指向核糖体生物合成——与nucleoli定位一致。
 
-![](https://alphafold.ebi.ac.uk/files/AF-H3BMG3-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+从TE调控角度，SMKR1在nucleoli的定位暗示其主要功能是核糖体生物合成相关，而非染色质/TE调控。但富含赖氨酸的小蛋白有时具有非特异性DNA/RNA结合活性，在特定条件下可能"兼职"参与核凝聚体形成——这在nucleoli的相分离环境中尤为可能。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
-
-### SMART / UniProt domain
-| Source | Data |
-|---|---|
-| UniProt | H3BMG3 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR037760; |
-| Pfam | 未检出 |
-
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000240204-SMKR1/interaction
-
-未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->
+PubMed仅2篇（PMID:31959204、39512681），极度新颖。综合评分71.1/100。建议测定SMKR1的等温滴定量热法（ITC）检测其对DNA/RNA底物的结合亲和力。

@@ -65,7 +65,13 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | ASPM | 0.987 | 0.000 | 0.000 | 0.000 |
 | KIF18B | 0.983 | 0.000 | 0.000 | 0.000 |
 | RACGAP1 | 0.978 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| HDAC2 | cross-linking study | 30021884 |
+| SF3B1 | anti bait coimmunoprecipitation | 31474574 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

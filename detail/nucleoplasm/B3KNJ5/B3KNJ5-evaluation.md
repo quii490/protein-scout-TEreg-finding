@@ -64,6 +64,18 @@ no known nuclear annotation
 
 HPA 检索: https://www.proteinatlas.org/search/B3KNJ5
 
+### 深度机制分析
+
+**结构域架构**：B3KNJ5（cDNA FLJ14691, LIM/homeobox protein Lhx2-like, 406 aa / 44.7 kDa）的主要结构域注释为IPR001356（Homeobox domain）、IPR017970（Homeobox, conserved site）、IPR009057（Homeobox-like domain superfamily）、IPR050453（LIM/homeobox protein）、IPR001781（Zinc finger, LIM-type）。Pfam进一步识别到PF00046（Homeobox domain）和PF00412（LIM domain）。AlphaFold pLDDT可用但无具体均值——结构预测显示典型LIM-homeobox折叠模式。该蛋白为TrEMBL未审核条目，无实验PDB结构。PubMed=0，处于极早期研究阶段。
+
+**PPI互作网络解读**：PPI数据极为有限——当前无BioGRID或STRING记录的可靠互作伙伴。LIM-homeobox家族蛋白（如LHX2）通常与其他转录因子形成复合物，但其protein interactome尚未建立。
+
+**结构解读**：InterPro注释到5个保守结构域——IPR001356（Homeobox）赋予DNA结合能力，IPR001781（LIM domain）参与protein-protein interaction且常介导转录调控复合体的assembly。LIM-homeobox双domain架构为典型的发育转录因子signature。结构预测置信度中等，需实验结构解析确证。
+
+**机制模型**：B3KNJ5作为LIM/homeobox蛋白，其标准机制应涉及(1)通过Homeobox domain直接结合DNA调控下游基因转录；(2)通过LIM domain募集转录共激活/共抑制因子形成调控复合体。该蛋白在核内的精确定位虽未实验验证，但LIM/homeobox家族在发育调控和细胞命运决定中的核心地位暗示其潜在的chromatin-level调控功能。
+
+**TE调控展望**：B3KNJ5的TE regulation潜力目前缺乏直接实验证据。TE调控关联性取决于：(1) B3KNJ5是否通过homeobox domain识别TE内部含有的AT-rich或homeobox结合motif；(2) 该蛋白能否与已知的TE silencing complex（如KRAB-ZFP/KAP1体系）发生physical association；(3) B3KNJ5的depletion或overexpression是否改变LINE-1或特定ERV subfamily的表达水平。建议通过ChIP-seq鉴定其全基因组结合位点，结合RNA-seq评估对TE expression的影响。
+
 ### 5. 数据来源
 
 - UniProt: https://www.uniprot.org/uniprotkb/B3KNJ5

@@ -60,7 +60,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | PPCS | 0.977 | 0.000 | 0.000 | 0.000 |
 | PPCS | 0.976 | 0.000 | 0.000 | 0.000 |
 | PPCDC | 0.976 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| KIAA1958 | validated two hybrid | 25416956 |
+| NBP | anti tag coimmunoprecipitation | 28514442 |
+| NBP | anti tag coimmunoprecipitation | 28514442 |
+| NBP | anti tag coimmunoprecipitation | 28514442 |
+| NBP | anti tag coimmunoprecipitation | 28514442 |
+| NBP | anti tag coimmunoprecipitation | 28514442 |
+| NBP | anti tag coimmunoprecipitation | 28514442 |
+| NBP | anti tag coimmunoprecipitation | 28514442 |
+| NBP | anti tag coimmunoprecipitation | 28514442 |
+| NBP | anti tag coimmunoprecipitation | 28514442 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

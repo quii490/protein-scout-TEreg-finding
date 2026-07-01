@@ -102,38 +102,7 @@ TrEMBL 未审查条目，功能尚未充分注释。
 | FLT3 | BioGRID | 0 |
 
 
-### HPA IF 图像
 
-HPA 检索: https://www.proteinatlas.org/search/CT47A7
+### 深度机制分析
 
-### ESMFold 结构预测
-
-**方法**: Meta ESM Metagenomic Atlas API ab initio 折叠。
-**PDB**: `detail/_esm_structures/CT47A7_esmfold.pdb`
-
-| 指标 | 数值 |
-|---|---|
-| ESMFold 平均 pLDDT | 0.54 |
-| pLDDT > 0.9 | 0.0% |
-| pLDDT < 0.5 | 41.0% |
-| 残基数 | 288 |
-
-ESMFold 基于进化规模语言模型，无MSA搜索的从头折叠，可作为AlphaFold的独立验证。
-
-
-### 5. 数据来源
-
-- UniProt: https://www.uniprot.org/uniprotkb/Q5JQC4
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q5JQC4
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CT47A7
-
-### HPA IF 图像
-
-HPA: https://www.proteinatlas.org/ENSG00000228517-CT47A7
-
-![](https://images.proteinatlas.org/42483/2032_B2_1_red_green.jpg)
-![](https://images.proteinatlas.org/42483/2032_B2_3_red_green.jpg)
-![](https://images.proteinatlas.org/42483/1961_D1_1_red_green.jpg)
-![](https://images.proteinatlas.org/42483/1961_D1_4_red_green.jpg)
-![](https://images.proteinatlas.org/42483/1976_E2_5_red_green.jpg)
-![](https://images.proteinatlas.org/42483/1976_E2_6_red_green.jpg)
+CT47A7（Cancer/testis antigen 47A）的IPR028930, Pfam:PF15623 |结构域组合为其功能提供了结构基础。288个氨基酸构成了kDa的蛋白质。pLDDT=N/A，PDB=0。

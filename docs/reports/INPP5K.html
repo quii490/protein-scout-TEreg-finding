@@ -144,6 +144,11 @@
 </tbody></table></div>
 <h4>TE 调控评估</h4>
 <p>该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。</p>
+<h4>深度机制分析</h4>
+<p>INPP5K（UniProt Q9BT40）的域架构以5-磷酸酶催化域（IPR000300, SMART SM00128）为核心，负责水解磷脂酰肌醇(4,5)-二磷酸（PIP2）和肌醇(1,4,5)-三磷酸（IP3）的5-磷酸基团，从而终止PI3K信号传导。PF22669和PF17751构成SKIP羧基同源域（IPR046985），该域在人类5-磷酸酶家族中为INPP5K所独有，可能介导底物识别或亚细胞定位。IPR036691（核酸内切酶样折叠超家族）暗示催化域与核酸酶共享祖先折叠拓扑。AlphaFold v6平均pLDDT=88.4，有序区域占比88.4%，催化域和SKIP C端域的置信度均极高，为无PDB结构情况下的功能研究提供了可靠的分子模型。</p>
+<p>PPI网络涵盖磷酸肌醇代谢和细胞信号转导两大层面。STRING预测INPP5A（combined score=0.957）、ITPKC（0.925）、ITPKB（0.925）、MINPP1（0.923）、IPMK（0.921）等构成肌醇磷酸代谢互作簇，均基于基因组共现而非实验证据。IntAct实验验证的互作则揭示了截然不同的功能面：RIPK3（抗标签免疫共沉淀, PMID:21903422）将INPP5K连接至程序性坏死通路；NCOR2（BioGRID）是核受体辅抑制因子，作为HDAC3复合体的核心组分直接参与染色质重塑和转录抑制；CDKN1A（p21, BioGRID）是经典的细胞周期依赖性激酶抑制因子。RIPK3互作表明INPP5K参与坏死体组装，NCOR2和CDKN1A则将INPP5K锚定于核转录调控网络。</p>
+<p>INPP5K定位于内质网和细胞质（UniProt），但GO-CC明确列出nucleus（GO:0005634）和perinuclear region of cytoplasm（GO:0048471），暗示可能存在细胞周期或应激依赖性的核质穿梭。其与NCOR2的互作尤为值得关注——NCOR2是HDAC3/SMRT/N-CoR辅抑制复合体的骨架蛋白，直接参与转录抑制和染色质去乙酰化。INPP5K通过水解核内PIP2/IP3，可能调节含PH域或碱性氨基酸簇的核蛋白的染色质结合，从而间接调控NCOR2/HDAC3复合体的染色质靶向。N2A细胞分化被INPP5K敲低所损害（PMID:38559586），证实其在细胞命运决定中的功能性角色。肿瘤抑制候选基因的定位（PMID:26170120）以及CDKN1A互作进一步支持其核内细胞周期调控功能。</p>
+<p>INPP5K是磷酸肌醇磷酸酶中核受体辅抑制（NCOR2）和细胞周期（CDKN1A）双连接的罕见范例。其极高新颖性（PubMed=16篇）、出色结构置信度（pLDDT=88.4）和坏死凋亡（RIPK3）+转录抑制（NCOR2）+细胞周期（CDKN1A）的多维功能线索使其成为多方向功能研究的理想候选蛋白。SKIP C端域的特异性和核NCOR2/HDAC3通路的连接为其提供了独特的药物开发可能性。</p>
 <h4>5. 数据来源</h4>
 <ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9BT40</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000132376-INPP5K/subcellular</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=INPP5K</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9BT40</li><li>STRING: https://string-db.org/network/9606.ENSP00000</li><li>Data fetched live: 2026-06-03</li></ul>
 <p>&lt;!-- AF_PAE_REPAIR_START --&gt; <strong>PAE 图像修正（2026-06-05）</strong>: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。</p>

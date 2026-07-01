@@ -66,7 +66,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | AIPL1 | 0.921 | 0.000 | 0.000 | 0.000 |
 | RPE65 | 0.918 | 0.000 | 0.000 | 0.000 |
 | RDH12 | 0.916 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| HSD3 | reverse ras recruitment system | 25277244 |
+| RAF1 | inference by socio-affinity scoring |  |
+| CFAP410 | inference by socio-affinity scoring |  |
+| RPGRIP1L | inference by socio-affinity scoring |  |
+| NEK1 | inference by socio-affinity scoring |  |
+| OGT | tandem affinity purification | 27705803 |
+| CBX2 | tandem affinity purification | 27705803 |
+| HSD3 | anti tag coimmunoprecipitation | 33961781 |
+| HSD3 | anti tag coimmunoprecipitation | 33961781 |
+| HSD3 | anti tag coimmunoprecipitation | 33961781 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

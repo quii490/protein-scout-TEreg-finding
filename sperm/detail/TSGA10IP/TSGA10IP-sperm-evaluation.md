@@ -60,7 +60,12 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | TSGA10IP | 0.720 | 0.000 | 0.000 | 0.000 |
 | TSGA10IP | 0.611 | 0.000 | 0.000 | 0.000 |
 | TSGA10IP | 0.601 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| MTUS2 | two hybrid array | 31515488 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

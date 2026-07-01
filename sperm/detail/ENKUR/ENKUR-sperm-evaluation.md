@@ -64,7 +64,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | EFHC2 | 0.926 | 0.000 | 0.000 | 0.000 |
 | ENKUR | 0.922 | 0.000 | 0.000 | 0.000 |
 | EFHC1 | 0.921 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| CFAP45 | two hybrid array | 32296183 |
+| CFAP45 | two hybrid prey pooling approach | 32296183 |
+| SNCA | two hybrid array | 32814053 |
+| SOD1 | two hybrid array | 32814053 |
+| HTT | two hybrid array | 32814053 |
+| HTT | two hybrid array | 32814053 |
+| SOD1 | two hybrid pooling approach | 32814053 |
+| ATXN1 | two hybrid pooling approach | 32814053 |
+| ATXN1 | two hybrid pooling approach | 32814053 |
+| TARDBP | two hybrid pooling approach | 32814053 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

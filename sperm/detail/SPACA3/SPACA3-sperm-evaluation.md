@@ -56,7 +56,15 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | SPESP1 | 0.591 | 0.000 | 0.000 | 0.000 |
 | IZUMO1 | 0.583 | 0.000 | 0.000 | 0.000 |
 | IZUMO1 | 0.581 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| ZP3 | two hybrid | 19945174 |
+| ZP3 | gal4 vp16 complementation | 19945174 |
+| GDAP1 | two hybrid array | 32814053 |
+| GDAP1 | validated two hybrid | 32814053 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

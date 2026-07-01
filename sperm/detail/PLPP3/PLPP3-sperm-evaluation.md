@@ -64,7 +64,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | PLPP2 | 0.971 | 0.000 | 0.000 | 0.000 |
 | AGPAT2 | 0.967 | 0.000 | 0.000 | 0.000 |
 | LPIN3 | 0.966 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| BCL6 | anti bait coimmunoprecipitation | 16147992 |
+| IRK1 | proximity-dependent biotin identification | 32541000 |
+| DCR1 | anti tag coimmunoprecipitation | 33961781 |
+| PLPP2 | anti tag coimmunoprecipitation | 33961781 |
+| DCR1 | anti tag coimmunoprecipitation | 33961781 |
+| MAPT | anti tag coimmunoprecipitation | 35063084 |
+| MAPT | anti tag coimmunoprecipitation | 35063084 |
+| MAPT | anti tag coimmunoprecipitation | 35063084 |
+| ATF3 | anti tag coimmunoprecipitation | 38884001 |
+| FOS | anti tag coimmunoprecipitation | 38884001 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

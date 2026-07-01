@@ -60,7 +60,18 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | TUBGCP4 | 0.999 | 0.000 | 0.000 | 0.000 |
 | TUBGCP3 | 0.999 | 0.000 | 0.000 | 0.000 |
 | TUBGCP2 | 0.999 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| MARK4 | tandem affinity purification | 14594945 |
+| MARK4 | anti tag coimmunoprecipitation | 14594945 |
+| YWHAH | anti tag coimmunoprecipitation | 14676191 |
+| MARK4 | anti tag coimmunoprecipitation | 14676191 |
+| YWHAZ | anti tag coimmunoprecipitation | 14676191 |
+| DISC1 | cosedimentation | 12812986 |
+| BHLHE39 | tandem affinity purification | 17314511 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

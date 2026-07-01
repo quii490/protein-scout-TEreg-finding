@@ -64,7 +64,19 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | RANBP1 | 0.960 | 0.000 | 0.000 | 0.000 |
 | TNPO1 | 0.937 | 0.000 | 0.000 | 0.000 |
 | FAU | 0.931 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| TNFRSF1A | tandem affinity purification | 14743216 |
+| TNFRSF1B | tandem affinity purification | 14743216 |
+| TRADD | tandem affinity purification | 14743216 |
+| ATXN1 | two hybrid | 16713569 |
+| AGO3 | anti tag coimmunoprecipitation | 19167051 |
+| AGO4 | anti tag coimmunoprecipitation | 19167051 |
+| AGO3 | pull down | 19167051 |
+| AGO2 | anti tag coimmunoprecipitation | 19167051 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

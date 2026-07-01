@@ -65,7 +65,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | RAB11FIP4 | 0.990 | 0.000 | 0.000 | 0.000 |
 | RAB11B | 0.990 | 0.000 | 0.000 | 0.000 |
 | RAB11FIP2 | 0.989 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| BHLHE39 | tandem affinity purification | 21150319 |
+| BHLHE39 | tandem affinity purification | 21150319 |
+| SMAD3 | tandem affinity purification | 18729074 |
+| GABARAPL2 | anti tag coimmunoprecipitation | 20562859 |
+| ARRB2 | anti tag coimmunoprecipitation | 17620599 |
+| ARRB1 | anti tag coimmunoprecipitation | 17620599 |
+| YL8 | proximity-dependent biotin identification | 29568061 |
+| YL8 | anti tag coimmunoprecipitation | 28514442 |
+| RAB11B | anti tag coimmunoprecipitation | 28514442 |
+| ARRB2 | anti tag coimmunoprecipitation | 17620599 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

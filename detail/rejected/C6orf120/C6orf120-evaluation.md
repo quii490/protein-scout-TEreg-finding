@@ -168,6 +168,16 @@ status: rejected
 - [ ] 设计体外实验验证核定位及潜在调控功能
 - [ ] **该蛋白核定位证据不足（≤3/10），不建议作为核蛋白研究目标。**
 
+### 深度机制分析
+
+C6orf120（UPF0669 protein C6orf120, 191 aa, UniProt Q7Z4R8）。REJECTED——核定位得分2/10（HPA: 无IF数据, UniProt: Secreted）。InterPro注释IPR031420（DUF4520，功能未知），Pfam PF17065。AlphaFold pLDDT=79.8（有序区65.4%），无PDB实验结构。
+
+从研究现状角度，尽管核定位缺失，C6orf120的功能研究取得了一定进展。大鼠C6orf120基因敲除可减轻ConA诱导的自身免疫性肝炎，机制涉及NKT细胞和巨噬细胞极化调控（PMID:34896761, PMID:29748000, PMID:38988110）。C6orf120通过PI3K/Akt/mTOR通路激活肝星状细胞促进肝纤维化（PMID:38523410）。STRING预测伙伴ERLIN1（0.757, experimental=0.574）——ER脂筏蛋白参与ERAD途径——可能解释其分泌途径相关功能。IntAct鉴定的ERLIN1直接互作支持此功能关联。
+
+从结构生物学角度，pLDDT=79.8表明蛋白有较好的折叠核心（58.1%残基>90），DUF4520结构域可能形成稳定的球状折叠。UniProt注释Secreted提示通过经典分泌途径（ER-Golgi）运输至胞外，但其GO-CC注释包含azurophil granule lumen（溶酶体相关细胞器），暗示可能在免疫细胞分泌颗粒中储存和释放。
+
+从TE调控角度，分泌蛋白通常不参与核内过程。但肝脏作为主要代谢器官，其免疫微环境的变化可影响肝细胞中TE的表达模式——特别是HERV和LINE-1在肝炎和肝纤维化中常被激活。C6orf120通过调节肝内免疫环境（NKT细胞/巨噬细胞）可能间接影响肝脏TE表达全景。但这种效应是系统性的、间接的。建议优先关注肝脏疾病中的TE去抑制与C6orf120表达的相关性。PubMed 13篇，综合评分61.9/100。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q7Z4R8
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000185127-C6orf120/subcellular

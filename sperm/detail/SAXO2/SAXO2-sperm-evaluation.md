@@ -53,7 +53,16 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | CFAP161 | 0.590 | 0.000 | 0.000 | 0.000 |
 | SAXO2 | 0.586 | 0.000 | 0.000 | 0.000 |
 | TSNAXIP1 | 0.580 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| FHL2 | two hybrid array | 32296183 |
+| FHL2 | validated two hybrid | 32296183 |
+| FBXO17 | two hybrid array | 32296183 |
+| FHL2 | two hybrid prey pooling approach | 32296183 |
+| FBXO17 | two hybrid prey pooling approach | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

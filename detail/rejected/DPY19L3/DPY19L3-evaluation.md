@@ -162,6 +162,16 @@ status: rejected
 - [ ] 设计体外实验验证核定位及潜在调控功能
 - [ ] **该蛋白核定位证据不足（≤3/10），不建议作为核蛋白研究目标。**
 
+### 深度机制分析
+
+DPY19L3（Protein C-mannosyl-transferase DPY19L3, 716 aa, UniProt Q6ZPD9）。REJECTED——核定位得分2/10（HPA: Microtubules, UniProt: Endoplasmic reticulum membrane）。InterPro注释IPR018732（DPY19 domain）和IPR047465（DPY19L3 subfamily），Pfam PF10034。AlphaFold pLDDT=88.7（有序区91.9%），无PDB实验结构，但预测质量极高。
+
+从酶学机制角度，DPY19L3是C-甘露糖基转移酶，催化色氨酸残基C2位的α-C-甘露糖基化——一种罕见的翻译后修饰。其催化底物包括R-spondin1（Wnt信号激动剂），通过Rspo1的TSR（thrombospondin type 1 repeat）结构域中特定Trp残基的C-甘露糖基化调控其分泌和信号活性（PMID:26764097）。αFold预测出极高pLDDT（73.3%残基>90），表明DPY19结构域形成高度有序的膜嵌入折叠。STRING预测伙伴RSPO3（0.514, experimental=0.454）确认底物关系，TSR1-TSR3（0.576-0.615）可能参与含TSR蛋白的协同修饰。
+
+从膜拓扑学角度，DPY19L3是多次跨膜蛋白，定位于ER膜（PMID:29405629），拓扑分析已确定其膜取向。ER管腔中的活性位点催化新生蛋白的C-甘露糖基化。Microtubules的HPA定位可能是与ER-微管接触位点相关的间接信号。
+
+从TE调控角度，作为ER膜蛋白和糖基转移酶，DPY19L3无核定位。但通过修饰Rspo1/Wnt信号通路，可能间接影响干细胞维持和分化——而干细胞中ERV的去抑制是已知现象。此外，C-甘露糖基化的底物谱正在扩大（PMID:33975020，人iPSC C-甘露糖基化组），若核蛋白被鉴定为底物，则存在间接影响核功能的可能。总之，不建议作为TE调控的候选靶点。综合评分65.6/100。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q6ZPD9
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000178904-DPY19L3/subcellular

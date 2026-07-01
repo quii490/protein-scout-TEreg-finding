@@ -55,7 +55,18 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | HSP90B1 | 0.947 | 0.000 | 0.000 | 0.000 |
 | CLGN | 0.905 | 0.000 | 0.000 | 0.000 |
 | HSPA5 | 0.898 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| TLR9 | anti tag coimmunoprecipitation | 21903422 |
+| CANX | pull down | 29568061 |
+| P2RY6 | pull down | 30833792 |
+| P2RY6 | pull down | 30833792 |
+| SLC15A3 | pull down | 30833792 |
+| HSCB | anti bait coimmunoprecipitation | 28380382 |
+| TCTN3 | proximity-dependent biotin identification | 26638075 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

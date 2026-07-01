@@ -159,6 +159,18 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### 深度机制分析
+
+**结构域架构**：EFHB（EF-hand domain-containing family member B, UniProt: Q8N7U6, 833 aa / 93.8 kDa）的主要结构域特征为两个EF-hand钙结合基序（aa 561-596, aa 597-632）及PF13499、PF25325等Pfam保守域。EF-hand domain是最经典的钙离子感应模块——通过helix-loop-helix构象在Ca²⁺binding后发生构象重排，介导下游信号转导。AlphaFold pLDDT=62.5（中等偏弱）——有序残基占比49.6%，提示该蛋白含有大量的固有无序区域（IDR），IDR在phase separation（液-液相分离）和nuclear body formation中具有重要功能。该蛋白已有PDB实验结构（7UNG, 8J07），来自cryo-EM解析的axonemal complex，为EFHB在cilia/flagella中的结构组织提供了直接证据。
+
+**PPI互作网络解读**：STRING PPI network（15 partners, combined score >0.4）记录的互作伙伴包括WDR90、PACRG、ENKUR、EFHC2、EFHC1、CFAP20、CFAP45、TUBA1A、TUBB4B、C1orf158——这些蛋白几乎全部富集于cilia/axoneme assembly和microtubule-based movement通路。值得注意的是BioGRID记录的互作伙伴包括MEPCE（7SK snRNP complex scaffold，参与RNA Pol II elongation regulation）和UPF1（nonsense-mediated mRNA decay核心因子）——这两个互作超出了cilia功能范畴，暗示EFHB可能参与nuclear RNA metabolism。
+
+**结构解读**：AlphaFold预测（pLDDT=62.5）中的有序区域（49.6%）主要对应EF-hand domain区段，而33.3%的残基pLDDT<50——集中分布在N端和C端区域。这种结构特征（结构化domain + 大量IDR）常见于nuclear body scaffold蛋白，如coilin（Cajal body）或SRSF2（nuclear speckle marker）——这些蛋白通过IDR介导的weak multivalent interaction形成动态的biomolecular condensate。
+
+**机制模型**：EFHB作为EF-hand family member的核心功能是通过EF-hand motif感应钙信号——Ca²⁺-bound EF-hand构象暴露疏水口袋，recruit下游effector protein。在cilia context中，EFHB可能通过其cryo-EM解析的axonemal localization调控microtubule sliding和ciliary beating。而在nuclear context中，MEPCE互作（BioGRID）暗示EFHB可能参与7SK snRNP-mediated transcriptional pausing——7SK snRNP通过sequestering P-TEFb（CDK9/Cyclin T1）调控RNA Pol II elongation。
+
+**TE调控展望**：EFHB的TE regulation潜力通过以下间接途径体现：（1）7SK snRNP-MEPCE axis与LINE-1/L1 retrotransposon expression调控存在交叉——P-TEFb活性影响L1 promoter驱动的transcription elongation；（2）Ca²⁺-calmodulin signaling reported与endogenous retrovirus（ERV）activation相关——钙信号通过CaMK和calcineurin-NFAT通路影响chromatin state；（3）EFHB的高IDR含量（50.4%）使其具备参与nuclear condensate formation的潜力——许多TE silencing factor（如HP1alpha, KAP1/TRIM28）通过condensate-mediated机制形成repressive compartment。建议首先验证EFHB与MEPCE-7SK complex的生化互作，再通过EFHB knockdown/overexpression的RNA-seq评估其对TE subfamily expression的影响。
+
 ### PPI 互作网络
 
 | 互作伙伴 | 来源 | 评分 |

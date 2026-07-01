@@ -65,7 +65,13 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | RSPH9 | 0.982 | 0.000 | 0.000 | 0.000 |
 | DNAI2 | 0.981 | 0.000 | 0.000 | 0.000 |
 | DNAH11 | 0.979 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| RSPH1 | anti tag coimmunoprecipitation | 33961781 |
+| NEDD4 | phage display | 39009827 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

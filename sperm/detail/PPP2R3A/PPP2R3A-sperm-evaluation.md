@@ -64,7 +64,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | PPP2CA | 0.999 | 0.000 | 0.000 | 0.000 |
 | PPP2R5C | 0.999 | 0.000 | 0.000 | 0.000 |
 | PPP2R2A | 0.999 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| ATXN7L2 | two hybrid | 16713569 |
+| PPP2R1A | molecular sieving | 17055435 |
+| PPP2R1A | tandem affinity purification | 19293187 |
+| SLX4 | anti tag coimmunoprecipitation | 19596235 |
+| ZFC3H1 | anti tag coimmunoprecipitation | 28514442 |
+| PPP2R1A | pull down | 28330616 |
+| ZNF785 | anti tag coimmunoprecipitation | 28514442 |
+| CDK17 | anti tag coimmunoprecipitation | 28514442 |
+| SFRP4 | anti tag coimmunoprecipitation | 28514442 |
+| PPP2R1A | proximity-dependent biotin identification | 28330616 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

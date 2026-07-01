@@ -62,7 +62,15 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | IQCN | 0.599 | 0.000 | 0.000 | 0.000 |
 | IQCN | 0.595 | 0.000 | 0.000 | 0.000 |
 | STMP1 | 0.594 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| TRIP6 | two hybrid pooling approach | 16189514 |
+| CALML3 | two hybrid pooling approach | 16189514 |
+| PLSCR1 | two hybrid pooling approach | 16189514 |
+| CALM1 | two hybrid pooling approach | 16189514 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

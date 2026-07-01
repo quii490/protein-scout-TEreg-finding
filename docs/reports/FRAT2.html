@@ -144,6 +144,11 @@
 </tbody></table></div>
 <h4>TE 调控评估</h4>
 <p>该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。</p>
+<h4>深度机制分析</h4>
+<p>FRAT2（UniProt O75474）属于FRAT（Frequently Rearranged in Advanced T-cell lymphomas）家族，其唯一注释的结构域为FRAT结构域（IPR008014/PF05350），这是一个约180残基的蛋白结合模块，专门识别GSK3B（糖原合成酶激酶3 beta）的催化结构域。FRAT结构域通过占据GSK3B的底物识别位点发挥竞争性抑制作用——其结合模式与AXIN/APC支架蛋白的GSK3B结合基序高度重叠，但FRAT缺乏AXIN的beta-catenin磷酸化促进活性，因此GSK3B-FRAT复合物无法有效磷酸化beta-catenin，导致beta-catenin稳定化和Wnt信号通路持续性激活。AlphaFold v6预测的pLDDT均值仅为62.1，有序区域仅29.2%，表明FRAT2在溶液中主要以固有无序蛋白（IDP）状态存在，仅在结合GSK3B后才发生显著的折叠-耦合-结合（folding-coupled-binding）构象转变——这一IDP特性与许多Wnt信号支架蛋白（如DVL、AXIN）的结构生物学特征一致。</p>
+<p>STRING-PPI网络强烈支持FRAT2在Wnt/beta-catenin信号轴中的核心定位：GSK3B（0.987, experimental=0.608）为直接结合靶标，FRAT1（0.951）为同家族旁系同源物，DVL3/DVL1/DVL2（0.924/0.920/0.904）为上游Wnt信号转导蛋白，CTNNB1（0.729）为下游效应子beta-catenin。IntAct实验数据支持GSK3B与FRAT2的直接物理互作（tandem affinity purification, PMID:23455922），此外还检测到XPO1（exportin-1, PMID:26673895）和GSK3A（PMID:33961781）的互作，暗示FRAT2-GSK3B复合物受核质穿梭调控。</p>
+<p>HPA IF将FRAT2定位于核质（nucleoplasm, approved）并额外检测到线粒体信号，GO注释包含nucleus（GO:0005634）和cytoplasm（GO:0005737），与UniProt无亚细胞注释形成对比。FRAT2的核定位尤为引人注目——Wnt/beta-catenin通路的核心转录事件发生在细胞核内（beta-catenin-TCF/LEF转录复合物），FRAT2在核质中存在提示其可能直接调控核内GSK3B活性，影响beta-catenin在染色质上的转录输出。</p>
+<p>从TE调控角度出发，Wnt/beta-catenin通路直接调控多种转座元件的转录（如LINE-1在结直肠癌中受TCF4激活）。FRAT2作为Wnt通路的上游正调控因子，通过拮抗GSK3B介导的beta-catenin降解来维持Wnt信号的活化状态。FRAT2在基底样乳腺癌中促进肿瘤发生（PMID:32802426），在MLL融合白血病中介导Rac致癌激活（PMID:23074275），这些表型与异常TE表达相关癌症类型高度重叠。FRAT2的IDP特性和低pLDDT（62.1）为冷冻电镜结构解析带来挑战，但NMR和化学交联质谱（XL-MS）可有效表征FRAT2-GSK3B复合物的动态构象系综，进而为靶向FRAT-GSK3B界面的Wnt通路抑制剂设计提供结构基础。</p>
 <h4>5. 数据来源</h4>
 <ul><li>UniProt: https://www.uniprot.org/uniprotkb/O75474</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000181274-FRAT2/subcellular</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=FRAT2</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/O75474</li><li>STRING: https://string-db.org/network/9606.ENSP00000</li><li>Data fetched live: 2026-06-03</li></ul>
 <p>&lt;!-- HPA_IF_REPAIR_START --&gt; <strong>HPA IF 图像修正（2026-06-05）</strong>: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000181274-FRAT2/subcellular</p>

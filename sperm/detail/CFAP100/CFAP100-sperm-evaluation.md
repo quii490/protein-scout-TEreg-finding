@@ -61,7 +61,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | CFAP100 | 0.831 | 0.000 | 0.000 | 0.000 |
 | PODXL2 | 0.831 | 0.000 | 0.000 | 0.000 |
 | PLXNA1 | 0.793 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| CCDC37 | validated two hybrid | 32296183 |
+| CCDC37 | two hybrid prey pooling approach | 32296183 |
+| CCDC37 | two hybrid array | 32296183 |
+| CCDC37 | two hybrid array | 32814053 |
+| CCDC37 | two hybrid array | 32814053 |
+| NUPR1 | two hybrid array | 32814053 |
+| CCDC37 | two hybrid array | 32814053 |
+| CCDC37 | two hybrid array | 32814053 |
+| UBQLN1 | two hybrid array | 32814053 |
+| PRPF40A | two hybrid array | 32814053 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

@@ -65,6 +65,18 @@ Nuclear protein
 ---
 
 
+### 深度机制分析
+
+**结构域架构**：RGL2（O15211, Ral guanine nucleotide dissociation stimulator-like 2, 777 aa / 83.5 kDa）的主要结构域注释为RA_dom, Ras-like_GEF, Ras-like_Gua-exchang_fac_N。Pfam数据库进一步识别到RA、RasGEF、RasGEF_N等保守域。AlphaFold pLDDT=71.4（中等）——折叠域基本可信，但部分区域置信度较低，建议实验解析。该蛋白已有2个实验PDB结构条目，为机械性研究提供直接的结构基础。PubMed=91，该蛋白处于早期研究阶段，深入的机制解析仍属空白。
+
+**PPI互作网络解读**：PPI network（degree=41）——STRING数据库记录的互作伙伴包括HRAS、RPS18、KIFC1、SLC39A7、RXRB、RING1。其中RXRB、RING1、KAT5等具有染色质调控或转录相关功能——提示RGL2可能通过protein-protein interaction平台间接参与核内转录调控网络。
+
+**结构解读**：AlphaFold预测（pLDDT=71.4）整体折叠可信，RA_dom构成结构核心。Pfam域RA、RasGEF的保守性暗示了该蛋白可能执行特定的分子功能（如催化、识别或支架）。有序区域占比是衡量该蛋白是否适合structural biology研究的关键指标。pLDDT=71.4提示存在显著的柔性区段，可能需要在蛋白互作伴侣存在的条件下才能完全折叠。
+
+**机制模型**：RGL2含有Ras-association（RA）domain和RasGEF domain——属于Ras/Rap GTPase signaling cascade的guanylyl nucleotide exchange factor（GEF）。Ras-MAPK signaling pathway已被报道与ERV activation相关——RGL2可能作为Ras signal transducer间接modulate TE expression through downstream transcription factor activation。
+
+**TE调控展望**：RGL2的TE regulation潜力目前缺乏直接的实验证据。TE调控关联性取决于以下几个方面：（1）RGL2是否physical association with chromatin remodeling complex（如SWI/SNF, NuRD, PRC1/2）或transcription factor machinery；（2）RGL2是否能够通过其结构域识别TE-derived DNA/RNA element；（3）RGL2的knockout/knockdown是否改变LINE-1或ERV family的expression level。建议通过affinity purification-MS鉴定RGL2在核内的完整interactome——尤其是chromatin reader/writer/eraser复合体的成员。Combined with RNA-seq upon knockdown/overexpression——可在transcriptome level评估其对TE subfamily expression的潜在影响。
+
 ### PPI 互作网络
 
 | 互作伙伴 | 来源 | 评分 |

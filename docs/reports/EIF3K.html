@@ -143,6 +143,11 @@
 <tr><td>RPS15</td><td>STRING</td><td>994</td></tr>
 <tr><td>RPS8</td><td>STRING</td><td>990</td></tr>
 </tbody></table></div>
+<h4>深度机制分析</h4>
+<p><strong>PCI结构域与eIF3复合物组装的分子基础</strong>：EIF3K（218 aa, 25.1 kDa, UniProt Q9UBQ5）的单一结构特征为PCI结构域（IPR000717，Pfam PF10075，UniProt FT: DOMAIN 42-204），属于PCI/PINT超家族（IPR016024/IPR036388/IPR036390）的经典成员。PCI结构域是约160 aa的α-螺旋支架模块，以六螺旋束折叠形式存在，其功能是作为大型多蛋白复合物（蛋白酶体调控颗粒RPN、COP9信号体CSN和eIF3翻译起始复合物）的组装支架。PDB条目1RZ4解析了人类EIF3K的PCI域晶体结构（PMID:15180986），证实其中7个α-螺旋以右手超螺旋排列，提供与eIF3复合物其他亚基的对接界面。AlphaFold pLDDT=87.1确认了PCI折叠的高置信度，其中91.8%残基处于有序区域（pLDDT&gt;70），提示EIF3K是一个非常紧凑的刚性模块蛋白。</p>
+<p><strong>eIF3复合物的非翻译功能与核定位悖论</strong>：EIF3K的STRING互作图谱以极高置信度覆盖eIF3所有核心亚基：EIF3A至EIF3M（全部combined score=0.999）。这种全部核心亚基皆为最高置信度互作的模式在STRING数据库中极少见，反映了EIF3K与eIF3复合物的物理嵌入程度。然而，eIF3是胞质翻译起始复合物，其经典功能在细胞质核糖体上执行——而HPA显示EIF3K定位于Cytosol，UniProt同时注释Nucleus和Cytoplasm，GO-CC列出nucleus（GO:0005634）。这一核/质双重定位暗示EIF3K可能具有独立的核内功能，与eIF3翻译起始活性解耦。事实上，一些eIF3亚基已被报道参与核内过程，如eIF3e/Int6影响蛋白降解和转录调控。</p>
+<p><strong>核内&quot;游离&quot;EIF3K的潜在染色质功能</strong>：PCI域作为蛋白质互作支架的通用性允许EIF3K在核内与不同于eIF3复合物的伙伴组装配体。IntAct实验互作数据揭示了潜在的非eIF3互作：ACTB（β-actin, PMID:15047060）和TRAF6（E3泛素连接酶, PMID:17353931）——两者都与核内调控过程有关。TRAF6是NF-κB通路的核心泛素连接酶，可在核内泛素化组蛋白和转录因子，EIF3K-TRAF6互作暗示EIF3K可能作为TRAF6的核内底物招募适配子。HumanPPI补充数据中CCND3（cyclin D3）和CSNK2A1（CK2α）的互作进一步支持核内调控功能：CCND3参与转录调控复合物，CSNK2A1是广谱核内激酶。</p>
+<p><strong>TE调控的间接机制假说</strong>：尽管EIF3K本身缺乏DNA或组蛋白结合结构域，但其PCI域异源互作能力使其可能通过&quot;锚定-招募&quot;机制间接参与TE调控——即EIF3K作为连接核内调控因子（TRAF6、CCND3、CSNK2A1）的适配蛋白，将它们定位至特定染色质位点。PDB条目多重覆盖（1RZ4结构+多个冷冻电镜复合物3J8B/3J8C/6FEC/6YBD/6ZMW/6ZON等）为药物/探针设计提供了高质量结构模板。归一化得分75.6/100为本批次最高——核定位7/10（28分）、结构10/10（30分）、新颖性8/10（40分）共同推动。TE调控优先级为中等，建议通过EIF3K-IP/MS核提取物互作组学鉴定其核内特异伙伴以明确功能方向。</p>
 <h4>TE 调控评估</h4>
 <p>该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。</p>
 <h4>HPA IF 图像</h4>

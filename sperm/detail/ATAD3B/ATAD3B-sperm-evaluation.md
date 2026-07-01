@@ -55,7 +55,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | Partner | Combined | Exp | DB | Text |
 |---|---|---|---|---|
 | *STRING 无数据* | — | — | — | — |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| BHLHE39 | tandem affinity purification | 21150319 |
+| USP11 | anti tag coimmunoprecipitation | 19615732 |
+| USP20 | anti tag coimmunoprecipitation | 19615732 |
+| AGO3 | anti tag coimmunoprecipitation | 19167051 |
+| CUL3 | tandem affinity purification | 21145461 |
+| CUL5 | tandem affinity purification | 21145461 |
+| ALS2CR7 | tandem affinity purification | 23602568 |
+| DYRK1B | tandem affinity purification | 23602568 |
+| HSPD1 | proximity-dependent biotin identification | 29568061 |
+| COX14 | proximity-dependent biotin identification | 29568061 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

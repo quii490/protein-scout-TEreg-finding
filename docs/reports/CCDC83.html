@@ -129,6 +129,11 @@
 <p><strong>风险/不确定性</strong>: 1. PubMed 3 篇，研究基础极有限，功能注释不完整 2. 结构数据质量可接受</p>
 <p><strong>下一步建议</strong>:</p>
 <ul><li>[ ] 查阅最新关键文献补充研究背景</li><li>[ ] 获取 Protein Atlas IF 图像确认亚细胞定位</li><li>[ ] 设计体外实验验证核定位及潜在调控功能</li></ul>
+<h4>深度机制分析</h4>
+<p><strong>CCDC83的coiled-coil结构域架构与无序区域功能</strong>：CCDC83（413 aa, 48.9 kDa, UniProt Q8IWF9）包含IPR026702——一个特征性的coiled-coil结构域，预测形成约200-300 aa的α-螺旋超螺旋支架。Coiled-coil结构域通过七肽重复序列（a-b-c-d-e-f-g）n形成疏水核心的左手双股或多股螺旋束，其核心功能是介导蛋白-蛋白互作和寡聚化。UniProt未检出SMART条目，Pfam也未注释，表明CCDC83属于功能注释极少的&quot;暗蛋白&quot;范畴。AlphaFold pLDDT=73.0（有序区58.6%，高置信区45.5%）表明coiled-coil核心折叠良好，但两端和约25.7%的低置信区域（pLDDT&lt;50）提示大段内在无序区（IDR）——这种&quot;coiled-coil+IDR&quot;的架构在转录共激活因子和染色质重塑辅助因子中常见。</p>
+<p><strong>癌症/睾丸抗原身份与免疫调控关联</strong>：CCDC83被鉴定为新型免疫原性癌症/睾丸抗原（CTA），在结肠癌和肺癌中特异性表达（PMID:22923163, PMID:34065612）。CTA在正常体细胞中通常被表观遗传沉默（通过DNA甲基化和H3K9me3），仅在生殖细胞和癌细胞中重新激活——这一表达模式的调控机制与内源性逆转录病毒（ERV）的表观遗传抑制高度共享。HPA定位Nucleoplasm（Approved）确认了核区室定位，但GO-CC完全无注释，暗示其泛素连接酶复合物（Cul2-RING）关联可能来自其互作伙伴而非直接参与。</p>
+<p><strong>PPI网络中的TE调控线索</strong>：STRING互作仅基于text-mining（全部score&lt;0.7），但IntAct显示9个实验互作伙伴，其中ASP（异常纺锤体样小头畸形相关蛋白）、CHMP2A（带电多泡体蛋白2A/ESCRT-III组分）和KLC1（驱动蛋白轻链1）最为关键（PMID:28514442, PMID:33961781）。ESCRT-III系统的CHMP2A参与膜出芽和核膜修复过程——但ESCRT系统也参与异染色质形成和TE沉默，特别是在裂殖酵母中ESCRT-III组分直接参与着丝粒异染色质的建立。KLC1与CCDC83的互作可能介导CCDC83沿细胞骨架的空间定位。</p>
+<p><strong>TE调控的实验假设与优先级</strong>：PubMed仅3篇的极度新颖性与Nucleoplasm定位使CCDC83成为TE调控研究的高优先级&quot;暗蛋白&quot;候选。结构域-无序混合架构暗示其可能通过coiled-coil介导的多聚化形成类似转录因子复合物的支架，IDR区域参与液-液相分离（LLPS）形成核内凝聚体。实验策略：（1）Cut&amp;Run或DamID确定CCDC83的全基因组染色质结合图谱，特别关注ERV/HERV/LINE-1位点富集；（2）Co-IP/MS鉴定核内互作组，判断是否包含组蛋白修饰酶（HDAC、HMT）或染色质重塑因子；（3）CCDC83敲除细胞系的TE家族特异性RNA-seq表达谱。归一化得分73.9/100中调控结构域7/10（14/30分）是本蛋白的主要优势维度。</p>
 <h4>PPI 互作网络</h4>
 <div class="table-wrap"><table>
 <thead><tr><th>互作伙伴</th><th>来源</th><th>评分</th></tr></thead><tbody>

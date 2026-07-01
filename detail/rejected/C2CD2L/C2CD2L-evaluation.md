@@ -170,6 +170,16 @@ status: rejected
 - [ ] 设计体外实验验证核定位及潜在调控功能
 - [ ] **该蛋白核定位证据不足（≤3/10），不建议作为核蛋白研究目标。**
 
+### 深度机制分析
+
+C2CD2L（Phospholipid transfer protein C2CD2L, 706 aa, UniProt O14523）。REJECTED——核定位得分2/10（HPA: Plasma membrane, UniProt: Endoplasmic reticulum membrane; Cell membrane）。该蛋白定位于ER-质膜接触位点，是TMEM24家族磷脂转移蛋白，包含C2结构域（IPR000008/PF00168, C2 domain, Ca2+-dependent phospholipid binding）和SMP结构域（IPR039934, synaptotagmin-like mitochondrial-lipid-binding protein）。AlphaFold pLDDT=63.9（有序区44.4%），PDB 5TOD提供部分实验结构。
+
+从结构-功能机制角度，C2CD2L通过N端跨膜螺旋锚定于ER膜，C2结构域以Ca2+依赖方式结合质膜，SMP结构域形成疏水隧道介导ER与质膜间的磷脂转运（PMID:34821358）。这是ER-PM接触位点脂质转移蛋白的经典架构（同源于ESYT1-2和VAPA/OSBP家族）。STRING预测伙伴ESYT1（0.622）、ESYT2（0.586）、VAPA（0.500）、OSBP（0.452）完全符合此功能模式。IntAct鉴定的互作主要是蛋白质组规模筛选实验产生的（H2BC21、ESR1、PDGFRB等），可能与真实生物学功能无直接关联。
+
+从TE调控角度，C2CD2L的非核定位和明确的脂质转运功能不支持其直接参与TE调控。但值得注意的是，lncRNA AC112721.1通过miR-491-5p/C2CD2L轴促进三阴性乳腺癌进展（PMID:39738500），提示C2CD2L的失调可通过信号转导级联间接影响基因组转录全景——但这是间接、非特异性的效应。
+
+PubMed 8篇，极度新颖但核定位不满足标准。不建议作为TE调控的直接候选靶点。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O14523
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000172375-C2CD2L/subcellular

@@ -67,7 +67,13 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | DNAH12 | 0.947 | 0.000 | 0.000 | 0.000 |
 | DNAH14 | 0.946 | 0.000 | 0.000 | 0.000 |
 | DNAI2 | 0.942 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| MAK | pull down | 32707033 |
+| COQ8B | pull down | 32707033 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

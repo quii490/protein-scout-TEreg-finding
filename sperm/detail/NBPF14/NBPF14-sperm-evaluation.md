@@ -65,7 +65,12 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | PPIAL4F | 0.418 | 0.000 | 0.000 | 0.000 |
 | NBPF14 | 0.417 | 0.000 | 0.000 | 0.000 |
 | PPIAL4D | 0.416 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| MYB | display technology | 20195357 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

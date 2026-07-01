@@ -169,6 +169,16 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 - [ ] **该蛋白核定位证据不足（≤3/10），不建议作为核蛋白研究目标。**
 
+### 深度机制分析
+
+**F-box/WD40双重结构域的泛素连接酶适配架构**：FBXW4（412 aa, 46.3 kDa, UniProt P57775）是SCF（SKP1-CUL1-F-box）E3泛素连接酶复合物的F-box适配亚基——N端约40 aa的F-box基序（IPR001810, Pfam:PF12937, aa 3-35）识别并锚定于SKP1-CUL1-RBX1 E3核心支架，C端约360 aa由7个WD40 β-propeller叶片组成（IPR015943, IPR036322, Pfam:PF00400），以7叶螺旋桨折叠提供底物蛋白识别表面。WD40叶片间的可变环区决定底物选择性——FBXW4属Fbw亚家族（WD40型F-box蛋白），与FBXW7（经典肿瘤抑制因子，识别磷酸化degron）共享域架构但底物偏好不同。AlphaFold pLDDT=90.5（77.9%>90, 92.9%有序）确认全蛋白的高质量折叠——F-box基序可能采用α-螺旋构象嵌入SKP1的C端凹槽，而WD40域的7叶β-propeller以高刚性维持底物识别口袋。
+
+**SCF E3复合物组装与CCT/伴侣蛋白的折叠质量控制**：STRING互作数据完美再现SCF核心复合物：SKP1（combined score=0.933, 实验=0.782）为衔接蛋白桥接F-box与CUL1；CUL1（0.911, 实验=0.818）为cullin支架蛋白，其N端结合SKP1、C端招募RBX1-泛素偶联酶（E2），构成完整泛素转移级联。IntAct实验验证了SKP1的共免疫沉淀（PMID:22632967）和COPS6/CSN6的串联纯化（PMID:21145461）——COPS6是COP9信号体（CSN）的亚基，CSN通过CUL1的去neddylation动态调控SCF复合物组装。最为独特的是CCT/TRiC伴侣蛋白系统的全面互作：CCT5（0.885, 实验=0.775）、CCT3（0.863, 实验=0.730）、CCT4（0.861, 实验=0.676）、CCT8（0.859, 实验=0.730）、CCT7（0.843, 实验=0.692）——双环型ATP驱动的蛋白折叠室——与FBXW4的极高置信互作（全部有实验证据）暗示CCT/TRiC可能是FBXW4 WD40域的专属折叠伴侣。TXNDC9（0.819, 实验=0.814）是硫氧还蛋白域含蛋白，参与氧化还原调控的蛋白折叠——在氧化应激条件下可能调节FBXW4的底物识别构象。
+
+**高尔基体定位的SCF E3与非核功能特征**：FBXW4的HPA可靠定位为Golgi apparatus（Approved），GO-CC列出SCF ubiquitin ligase complex（GO:0019005）和ubiquitin ligase complex（GO:0000151），但无任何核定位注释（UniProt亦无）。这一细胞区室定位强烈暗示FBXW4的底物识别和泛素化功能完全在高尔基体/内质网-高尔基中间区室（ERGIC）中执行——可能靶向高尔基体驻留蛋白的降解以维持高尔基体结构完整性和膜运输。SLX4IP（IntAct co-IP, PMID:19596235）为端粒替代延长（ALT）通路蛋白——若此互作在高尔基体发生，暗示FBXW4参与端粒维持的膜相关机制。
+
+**TE调控——不推荐**：FBXW4因核定位证据极弱（2/10, 8/40分）已被REJECTED标签拒绝。WD40域虽理论上可进化出DNA/RNA结合表面，但目前无证据显示FBXW4的WD40域结合核酸。SCF E3对TE沉默的贡献通常通过核内F-box蛋白实现——如FBXO44直接识别H3K9me2标记促进TE抑制。FBXW4定位于高尔基体并缺乏任何核区室注释，使其参与TE调控的可能性可忽略。尽管如此，其极高结构质量（pLDDT=90.5）和完善的PPI网络使FBXW4成为研究SCF-CCT/TRiC组装和WD40底物识别的优秀生化和结构生物学模型。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P57775
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000107829-FBXW4/subcellular

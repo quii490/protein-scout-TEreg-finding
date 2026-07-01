@@ -128,6 +128,11 @@
 <tr><td>SIGLEC12</td><td>BioGRID</td><td>0</td></tr>
 <tr><td>DDX58</td><td>BioGRID</td><td>0</td></tr>
 </tbody></table></div>
+<h4>深度机制分析</h4>
+<p>TEX261（Protein TEX261, 196 aa, 22.5 kDa, UniProt Q6UWH6）是一个功能注释极少的膜蛋白，InterPro唯一注释为TEX261超家族（IPR007277），Pfam归属为COPIIcoated_ERV（PF04148），SMART未检出条目，UniProt无显式结构域特征。AlphaFold v6 pLDDT=82.4（高置信54.1%, 有序区77.6%）预测全α-螺旋折叠——包含4-5个跨膜或膜关联螺旋，整体呈螺旋束状紧凑折叠。PDB无实验结构（PDB=0），同源建模数据匮乏。HPA IF显示Nucleoplasm+Cytosol混合分布（Uncertain），但UniProt注释为Membrane，GO-CC仅列出COPII-coated ER to Golgi transport vesicle（GO:0030134）、endoplasmic reticulum membrane（GO:0005789）和Golgi membrane（GO:0000139）——缺少核定位注释。这一定位矛盾（HPA nuclear信号 vs UniProt/GO膜系统信号）可能是由于：(1) HPA抗体在IF中的核信号为非特异性结合产生的假象；(2) TEX261在特定细胞类型或条件下可在ER/高尔基体和核被膜之间动态分配。</p>
+<p>PPI互作网络的稀疏性反映了TEX261的研究不足。STRING预测14个伙伴，其中SIGLEC12（combined score=0.469, 实验=0.469, BioGRID验证）是唯一有实验支持的互作——SIGLEC12是唾液酸结合性免疫球蛋白样凝集素，在髓系免疫细胞中表达，TEX261-SIGLEC12互作（抗标签co-IP, PMID:28514442）提供了TEX261与免疫相关膜蛋白的物理关联证据。IntAct的2个互作中，ENST00000272438（通过CLASH技术, Crossref:IRES-mediated RNA-RNA互作, PMID:23622248）提示TEX261可能与特定RNA种类存在物理接触——CLASH（Crosslinking, Ligation, and Sequencing of Hybrids）方法检测RNA-RNA和RNA-蛋白杂交体的高置信方法。SNAPC5（STRING score=0.436, snRNA activating protein complex 5）是snRNA基因转录的必需因子——SNAPC5与TEX261的预测关联可能暗示TEX261参与小的非编码RNA的转录或加工。SPAG7（STRING score=0.439）是精子发生相关蛋白，在鞭毛轴丝组装中发挥作用。</p>
+<p>TEX261的GO注释（COPII囊泡+ER膜+高尔基体膜）明确定位该蛋白为内膜系统的ER→高尔基体运输参与者。COPII-coated transport vesicle是ER出口位点（ERES）上的COPII复合物包裹的运输小泡——负责将新合成的蛋白质从ER运输至高尔基体。TEX261的COPII关联（Pfam:PF04148=COPIIcoated_ERV）暗示其可能作为COPII囊泡的货物受体、囊泡涂层辅助因子或囊泡融合调控因子。GO-CC中缺乏nucleus注释强烈提示HPA的核信号为假象——TEX261的真正功能位置在ER-高尔基体界面而非核内。</p>
+<p>从TE调控视角，TEX261的ER/Golgi定位使其不太可能直接参与核内TE转录沉默。然而COPII囊泡运输与自噬途径交叉——自噬是清除逆转录转座子编码的病毒样颗粒（VLP）和TE衍生RNA的重要细胞防御机制。TEX261在ER输出的功能理论上可能通过影响自噬体膜的ER供应间接调节自噬介导的TE清除。PubMed仅5篇（新颖性10/10）使TEX261极度新颖，但核定位证据的矛盾性和膜系统定位使其作为核TE调控候选的价值有限。</p>
 <h4>TE 调控评估</h4>
 <p>该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。</p>
 <h4>5. 数据来源</h4>

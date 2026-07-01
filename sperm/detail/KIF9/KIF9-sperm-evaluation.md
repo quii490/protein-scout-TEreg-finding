@@ -66,7 +66,13 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | KIF21A | 0.757 | 0.000 | 0.000 | 0.000 |
 | KIFAP3 | 0.737 | 0.000 | 0.000 | 0.000 |
 | KIF21A | 0.723 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| IHO1 | validated two hybrid | 32296183 |
+| HSF2BP | validated two hybrid | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

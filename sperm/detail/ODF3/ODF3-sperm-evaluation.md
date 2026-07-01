@@ -66,7 +66,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | ODF1 | 0.577 | 0.000 | 0.000 | 0.000 |
 | ROPN1 | 0.551 | 0.000 | 0.000 | 0.000 |
 | ODF3 | 0.543 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| HOGA1 | validated two hybrid | 32296183 |
+| CIMAP1A | two hybrid array | 32296183 |
+| DYNLL1 | validated two hybrid | 32296183 |
+| CIMAP1A | two hybrid prey pooling approach | 32296183 |
+| CIMAP1A | two hybrid prey pooling approach | 32296183 |
+| CIMAP1A | two hybrid array | 32296183 |
+| CIMAP1A | anti tag coimmunoprecipitation | 33961781 |
+| CIMAP1A | anti tag coimmunoprecipitation | 33961781 |
+| CIMAP1A | anti tag coimmunoprecipitation | 33961781 |
+| CIMAP1A | anti tag coimmunoprecipitation | 33961781 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

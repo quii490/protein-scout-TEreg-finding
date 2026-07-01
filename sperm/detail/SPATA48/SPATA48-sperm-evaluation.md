@@ -64,7 +64,14 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | KBTBD12 | 0.583 | 0.000 | 0.000 | 0.000 |
 | PRR35 | 0.581 | 0.000 | 0.000 | 0.000 |
 | KBTBD12 | 0.557 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| SPMIP7 | cross-linking study | 30021884 |
+| SPMIP7 | cross-linking study | 30021884 |
+| SPMIP7 | cross-linking study | 30021884 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

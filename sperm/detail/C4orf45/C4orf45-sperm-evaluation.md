@@ -58,7 +58,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | C4orf45 | 0.482 | 0.000 | 0.000 | 0.000 |
 | C4orf45 | 0.437 | 0.000 | 0.000 | 0.000 |
 | C4orf45 | 0.417 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| SPMIP2 | two hybrid array | 32296183 |
+| RP3 | two hybrid prey pooling approach | 32296183 |
+| SPMIP2 | two hybrid array | 32296183 |
+| CCDC57 | two hybrid array | 32296183 |
+| KLHL41 | validated two hybrid | 32296183 |
+| ZBTB24 | validated two hybrid | 32296183 |
+| SPMIP2 | validated two hybrid | 32296183 |
+| NFKBID | validated two hybrid | 32296183 |
+| KRT40 | validated two hybrid | 32296183 |
+| RPC40 | validated two hybrid | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

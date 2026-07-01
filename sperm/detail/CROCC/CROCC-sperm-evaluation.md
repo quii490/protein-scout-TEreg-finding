@@ -54,7 +54,17 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | CEP250 | 0.908 | 0.000 | 0.000 | 0.000 |
 | CNTLN | 0.887 | 0.000 | 0.000 | 0.000 |
 | CROCC | 0.886 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| BHLHE39 | tandem affinity purification | 21150319 |
+| RNF152 | two hybrid array | 21988832 |
+| HDAC8 | anti tag coimmunoprecipitation | 23752268 |
+| TPM1 | anti tag coimmunoprecipitation | 28514442 |
+| ESR1 | tandem affinity purification | 31527615 |
+| ESR1 | tandem affinity purification | 31527615 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

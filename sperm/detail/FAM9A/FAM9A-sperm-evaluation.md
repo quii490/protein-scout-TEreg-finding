@@ -63,7 +63,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | FAM9A | 0.480 | 0.000 | 0.000 | 0.000 |
 | FAM9A | 0.474 | 0.000 | 0.000 | 0.000 |
 | FAM9A | 0.456 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| ? | two hybrid prey pooling approach | 32296183 |
+| THAP1 | two hybrid prey pooling approach | 32296183 |
+| TRIM41 | two hybrid prey pooling approach | 32296183 |
+| FAM9B | two hybrid array | 32296183 |
+| HOMER1 | validated two hybrid | 32296183 |
+| PICK1 | two hybrid array | 32296183 |
+| RNF151 | two hybrid array | 32296183 |
+| HOMER1 | two hybrid array | 32296183 |
+| LCE1E | two hybrid array | 32296183 |
+| PHC1 | two hybrid array | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

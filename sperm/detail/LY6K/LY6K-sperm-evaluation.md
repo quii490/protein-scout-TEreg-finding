@@ -66,7 +66,12 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | LYPD2 | 0.794 | 0.000 | 0.000 | 0.000 |
 | LYNX1 | 0.777 | 0.000 | 0.000 | 0.000 |
 | LYNX1 | 0.776 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| AFG2A | tandem affinity purification | 38554706 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

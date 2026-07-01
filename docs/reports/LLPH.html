@@ -162,7 +162,12 @@
 </tbody></table></div>
 <h4>HPA IF 图像</h4>
 <p><figure><img src="https://images.proteinatlas.org/48920/749_C10_1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/48920/749_C10_2_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/48920/1392_B5_1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/48920/1392_B5_2_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/48920/735_C10_2_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/48920/735_C10_3_blue_red_green.jpg" alt="image"></figure></p>
-<h4>ESMFold 结构预测</h4>
+<h4>深度机制分析</h4>
+<p>LLPH（Protein LLP homolog, 129 aa, UniProt Q9BRT6）是LLP同源蛋白——LLP（lupus La protein）最初在系统性红斑狼疮（SLE）中被鉴定为自身抗原。LLPH是极小蛋白（129 aa），域架构为单拷贝LLP同源域（IPR018784/LLP homolog-like, Pfam:PF10169/DUF2376）。AlphaFold v6 pLDDT=74.4和ESMFold从头折叠验证（平均pLDDT=0.62）确认LLPH以中等置信度折叠，约20%残基处于无序状态。129 aa的尺寸允许被动扩散通过核孔复合物——符合核仁富集蛋白的典型特征。</p>
+<p>UniProt将LLPH定位于Nucleus, nucleolus（ECO:0000250, 序列同源推断）和Chromosome（ECO:0000269, 实验证据——直接来自GO注释: GO:0005694, IDA:HPA）——这是关键的实验线索：LLPH在染色体上有直接定位的实验证据（IDA=inferred from direct assay），暗示其可能在有丝分裂染色体上执行支架功能。GO-CC中chromosome（GO:0005694, IDA:UniProtKB）和nucleolus（GO:0005730, IDA:HPA）的双重注释提示LLPH在间期定位于核仁、在有丝分裂期重新分配至浓缩染色体——这类动态重新定位模式常见于核仁蛋白（如nucleophosmin/NPM1, nucleolin/C23）。</p>
+<p>STRING互作图谱以核糖体生物发生因子为主导：RPL30、ZNF593、RSL24D1、NMD3、GNL2、EIF6——所有伙伴的功能指向60S核糖体大亚基的组装和核仁-细胞质转运。GNL2（nucleostemin）是三磷酸鸟苷酶，定位于核仁并参与pre-rRNA加工和核糖体组装。DDX21（humanPPI: Biogrid/Opencell, AF3结构可用）是RNA解旋酶——该互作最为关键，因为DDX21直接参与核仁rRNA转录、处理和修饰，且在先天免疫中感知胞质dsRNA。KRR1（Kri1同源物, Bioplex）是90S前核糖体/SSU processome组分。</p>
+<p>IntAct实验互作中LYAR（Ly-1 antibody reactive clone, PMID:17353931）是锌指蛋白，在pre-rRNA切割和细胞生长调控中发挥作用。Ctcf（CCCTC结合因子, PMID:20360068）的互作最为突出——CTCF是绝缘子结合蛋白，通过与cohesin协同形成染色质环域（TADs），直接影响TE（尤其是内源性逆转录病毒）与邻近基因的物理隔绝。若LLPH-CTCF互作在核仁/核质中真实存在，LLPH可能参与CTCF介导的染色质环锚定和绝缘子功能——而CTCF结合位点的DNA甲基化丧失是TE激活的早期标志。RPS6（40S核糖体蛋白S6）的邻近标记数据（BioID, PMID:29568061）确认LLPH在核仁前核糖体颗粒中的物理邻近定位。</p>
+<p>LLPH极度新颖（PubMed=16篇, 50/50分），染色体定位+核仁富集+DDX21/CTCF互作的组合构成有吸引力的TE调控探索靶标——特别是核仁作为rDNA转录+TE抑制区室的双重身份。但实验数据全部为高通量方法（Y2H, TAP, BioID）产生——无低通量功能验证。实验优先级：LLPH-ChIP-seq（检测占据的基因组位点——关注rDNA和重复序列）；LLPH-CTCF的co-IP验证；LLPH敲除后rDNA表观基因组和CTCF ChIP-seq的变化。归一化得分81.4/100归因于核定位满分（10/10）+新颖性满分（10/10），但蛋白尺寸极小（8/10）和结构/PPI的中等水平限制了其作为全面TE调控因子的潜力。</p>
 <div class="table-wrap"><table>
 <thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
 <tr><td>平均 pLDDT</td><td>0.62</td></tr>

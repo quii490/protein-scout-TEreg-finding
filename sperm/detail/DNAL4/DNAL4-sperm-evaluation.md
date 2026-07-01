@@ -66,7 +66,20 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | DYNLL2 | 0.954 | 0.000 | 0.000 | 0.000 |
 | DYNLL2 | 0.946 | 0.000 | 0.000 | 0.000 |
 | DNAI1 | 0.920 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| FHL5 | two hybrid pooling approach | 16189514 |
+| SCTR | two hybrid array | 21988832 |
+| GPBP1 | two hybrid array | 21988832 |
+| FHL5 | two hybrid array | 31515488 |
+| DYNLL2 | two hybrid array | 31515488 |
+| CAMK2D | two hybrid array | 31515488 |
+| CHIC2 | two hybrid prey pooling approach | 32296183 |
+| Keratin | two hybrid prey pooling approach | 32296183 |
+| NTAQ1 | two hybrid prey pooling approach | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

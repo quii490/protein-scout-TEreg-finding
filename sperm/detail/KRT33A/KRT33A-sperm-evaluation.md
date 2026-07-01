@@ -63,7 +63,17 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | KRT4 | 0.666 | 0.000 | 0.000 | 0.000 |
 | KRT35 | 0.656 | 0.000 | 0.000 | 0.000 |
 | KRT35 | 0.655 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| CDC20 | anti bait coimmunoprecipitation | 17353931 |
+| ? | anti bait coimmunoprecipitation | 17353931 |
+| ASPEP | anti bait coimmunoprecipitation | 17353931 |
+| GRB2 | tandem affinity purification | 19380743 |
+| EPS15 | tandem affinity purification | 19380743 |
+| APG16L | anti tag coimmunoprecipitation | 31015422 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

@@ -66,7 +66,20 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | DNAH10 | 0.794 | 0.000 | 0.000 | 0.000 |
 | DNAI1 | 0.733 | 0.000 | 0.000 | 0.000 |
 | DNAI1 | 0.724 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| CANX | proximity-dependent biotin identification | 29568061 |
+| DISC1 | two hybrid fragment pooling approach | 31413325 |
+| CSX | affinity chromatography technology | 35140242 |
+| EPHA1 | proximity-dependent biotin identification | 35384245 |
+| MST1R | proximity-dependent biotin identification | 35384245 |
+| GATA4 | affinity chromatography technology | 35140242 |
+| IGF1R | affinity chromatography technology | 35384245 |
+| EPHA1 | affinity chromatography technology | 35384245 |
+| EPHB2 | affinity chromatography technology | 35384245 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

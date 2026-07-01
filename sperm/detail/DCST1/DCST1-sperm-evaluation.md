@@ -63,7 +63,13 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | DCST2 | 0.616 | 0.000 | 0.000 | 0.000 |
 | PTGDR | 0.600 | 0.000 | 0.000 | 0.000 |
 | IZUMO1 | 0.583 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| CUL4A | tandem affinity purification | 21145461 |
+| p113 | anti bait coimmunoprecipitation | 27782195 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

@@ -53,7 +53,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | CCDC91 | 0.489 | 0.000 | 0.000 | 0.000 |
 | CCDC91 | 0.483 | 0.000 | 0.000 | 0.000 |
 | OR4K13 | 0.477 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| EWSR1 | two hybrid pooling approach | 16189514 |
+| TESC | two hybrid pooling approach | 16189514 |
+| MVK | anti tag coimmunoprecipitation | 28514442 |
+| ANGPTL3 | anti tag coimmunoprecipitation | 28514442 |
+| PROTOR2 | two hybrid array | 32296183 |
+| DAPK2 | two hybrid array | 32296183 |
+| PES1 | anti tag coimmunoprecipitation | 28514442 |
+| GGA1 | anti tag coimmunoprecipitation | 28514442 |
+| PROTOR2 | validated two hybrid | 32296183 |
+| CDC37 | validated two hybrid | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

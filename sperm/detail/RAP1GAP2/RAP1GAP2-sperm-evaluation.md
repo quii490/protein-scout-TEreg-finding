@@ -64,7 +64,16 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | RAPGEF4 | 0.983 | 0.000 | 0.000 | 0.000 |
 | RAPGEF3 | 0.982 | 0.000 | 0.000 | 0.000 |
 | PRKACG | 0.965 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| WNK1 | two hybrid pooling approach | 20936779 |
+| KIAA0474 | anti tag coimmunoprecipitation | 33961781 |
+| KIAA0474 | anti tag coimmunoprecipitation | 33961781 |
+| VPS26C | two hybrid fragment pooling approach | 35914814 |
+| GABARAPL2 | proximity-dependent biotin identification | 34524948 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

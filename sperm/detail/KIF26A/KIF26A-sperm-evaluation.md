@@ -64,7 +64,18 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | KIFAP3 | 0.791 | 0.000 | 0.000 | 0.000 |
 | KIF26A | 0.779 | 0.000 | 0.000 | 0.000 |
 | KIF3A | 0.776 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| ARRB1 | anti tag coimmunoprecipitation | 17620599 |
+| MAPK10 | two hybrid pooling approach | 20936779 |
+| MGCRABGAP | validated two hybrid | 32296183 |
+| MGCRABGAP | validated two hybrid | 32296183 |
+| MGCRABGAP | two hybrid array | 32296183 |
+| CTAG1A | validated two hybrid | 32296183 |
+| MGCRABGAP | two hybrid prey pooling approach | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

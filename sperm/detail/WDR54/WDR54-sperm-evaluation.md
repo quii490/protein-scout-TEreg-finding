@@ -65,7 +65,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | C2orf81 | 0.471 | 0.000 | 0.000 | 0.000 |
 | WDR53 | 0.469 | 0.000 | 0.000 | 0.000 |
 | CCDC140 | 0.449 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| MTMR14 | anti tag coimmunoprecipitation | 28514442 |
+| BOC | anti tag coimmunoprecipitation | 28514442 |
+| MEMO1 | anti tag coimmunoprecipitation | 28514442 |
+| NAGPA | anti tag coimmunoprecipitation | 28514442 |
+| DOK3 | anti tag coimmunoprecipitation | 28514442 |
+| NUDT22 | validated two hybrid | 32296183 |
+| JIP3 | anti tag coimmunoprecipitation | 28514442 |
+| CLEC3A | anti tag coimmunoprecipitation | 28514442 |
+| TKT | anti tag coimmunoprecipitation | 28514442 |
+| LCN15 | anti tag coimmunoprecipitation | 28514442 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

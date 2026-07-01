@@ -189,7 +189,15 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 
 该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
-### 5. 数据来源
+### 深度机制分析
+
+CNGA4（575 aa, 66.0 kDa, UniProt Q8IV77）是环核苷酸门控（CNG）阳离子通道A亚家族成员，域架构为经典的6次跨膜螺旋（S1-S6）+ C端环核苷酸结合域（CNBD, IPR000595, SMART:SM00100, Pfam:PF00027）。N端约80 aa含CLZ域（cyclic nucleotide-gated channel, calmodulin-binding like, IPR032406, Pfam:PF16526），C端含CNBD和下游的C-linker螺旋束（IPR018490）。S5-S6之间的P-loop形成离子选择性过滤器——对Ca2+和Na+具有通透性，但生理配体（cAMP/cGMP）的结合是通道开放的必要条件。AlphaFold v6 pLDDT=83.5（87.5%有序区）确认整个结构以较高置信度折叠，仅CLZ域部分区段和N端约30个残基为低置信区——这在已知Cryo-EM结构中为灵活暴露片段。
+
+STRING互作图谱以CNG通道异源四聚体组装为核心：CNGB1（combined score=0.999, 实验=0.297）是必需的辅助β亚基——CNGA4与CNGB1以2:2或3:1化学计量比组装成功能性异源通道；CNGA2（0.998）为另一个α亚基同工型。钙调蛋白（CALM3, score=0.970）及其类似物（CALML3-6, 均为0.969）的极高STRING score指向CNGA4通道被Ca2+/CaM直接调控——这是嗅觉适应（odor adaptation）的分子基础：嗅觉信号引发的Ca2+内流激活CaM→CaM结合CNGA4的N端IQ样基序→降低通道对cAMP的亲和力→负反馈关闭通道（PMID:11739959, 12649326）。ADCY3（腺苷酸环化酶3, score=0.815, 实验=0.047）的互作提示CNGA4与cAMP信号产生酶可能形成信号小体。
+
+HPA将CNGA4标记为Nucleoplasm和Plasma membrane（均为Uncertain），UniProt和GO-CC一致地定位于纤毛膜（ciliary membrane GO:0060170, non-motile cilium membrane GO:0098804）。核质定位信号很可能为HPA抗体在固定透化样品中的假象——跨膜通道蛋白在核质中无已知功能。纤毛膜定位排除了CNGA4作为TE直接调控候选的可能性——纤毛区室缺乏基因组DNA，无法承载染色质水平的TE调控。IntAct co-IP实验（PMID:33961781）揭示了与COMMD2、CCDC22、CORO1A、ITPR3等的非典型互作——这可能反映内质网/高尔基体运输过程中的瞬时接触，而非功能复合体。
+
+总体而言，CNGA4归一化得分68.6/100受益于极高新颖性（PubMed=14篇）和高质量AlphaFold结构（pLDDT=83.5），但核质定位信号（Uncertain）和纤毛膜的主要定位使其TE调控潜力极低。CNGA4更适合作为嗅觉神经生物学或纤毛病的候选靶标，而非TE沉默研究目标。
 - UniProt: https://www.uniprot.org/uniprotkb/Q8IV77
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000132259-CNGA4/subcellular
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CNGA4

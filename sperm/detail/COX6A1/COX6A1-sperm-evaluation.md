@@ -65,7 +65,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | MT-CO1 | 0.999 | 0.000 | 0.000 | 0.000 |
 | COX5A | 0.999 | 0.000 | 0.000 | 0.000 |
 | COX7C | 0.999 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| NDUFS3 | anti tag coimmunoprecipitation | 27499296 |
+| NMES1 | anti tag coimmunoprecipitation | 27499296 |
+| CHCHD2 | anti tag coimmunoprecipitation | 27499296 |
+| CHCHD10 | anti tag coimmunoprecipitation | 27499296 |
+| COQ9 | anti tag coimmunoprecipitation | 27499296 |
+| NDUFA4 | anti tag coimmunoprecipitation | 27499296 |
+| CHCHD10 | anti tag coimmunoprecipitation | 27499296 |
+| CISD3 | anti tag coimmunoprecipitation | 27499296 |
+| NDUFS3 | anti tag coimmunoprecipitation | 27499296 |
+| NMES1 | anti tag coimmunoprecipitation | 27499296 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

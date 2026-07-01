@@ -55,7 +55,16 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | LCN12 | 0.559 | 0.000 | 0.000 | 0.000 |
 | MAMDC4 | 0.556 | 0.000 | 0.000 | 0.000 |
 | CCDC183 | 0.539 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| ZMYND19 | anti tag coimmunoprecipitation | 28514442 |
+| TESSP5 | anti tag coimmunoprecipitation | 28514442 |
+| FCHSD2 | two hybrid prey pooling approach | 32296183 |
+| CTNNA3 | two hybrid array | 32296183 |
+| RASSF10 | validated two hybrid | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

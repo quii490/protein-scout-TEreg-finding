@@ -53,7 +53,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | RUBCNL | 0.772 | 0.000 | 0.000 | 0.000 |
 | SELL | 0.763 | 0.000 | 0.000 | 0.000 |
 | PODXL | 0.724 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| MAL | validated two hybrid | 32296183 |
+| TMBIM6 | validated two hybrid | 32296183 |
+| TMBIM6 | two hybrid array | 32296183 |
+| MAL | two hybrid array | 32296183 |
+| TMBIM6 | two hybrid prey pooling approach | 32296183 |
+| B2A | validated two hybrid | 32296183 |
+| CYSRT1 | validated two hybrid | 32296183 |
+| KRTAP5 | validated two hybrid | 32296183 |
+| MAL | two hybrid prey pooling approach | 32296183 |
+| KRTAP10 | validated two hybrid | 25416956 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

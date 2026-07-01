@@ -60,7 +60,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | KRT40 | 0.554 | 0.000 | 0.000 | 0.000 |
 | KRTAP9-2 | 0.545 | 0.000 | 0.000 | 0.000 |
 | KRT39 | 0.514 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| KRT86 | two hybrid array | 32296183 |
+| SCNM1 | two hybrid array | 32296183 |
+| NSHC | two hybrid array | 32296183 |
+| FAM110A | two hybrid prey pooling approach | 32296183 |
+| UBASH3A | two hybrid prey pooling approach | 32296183 |
+| ANKS1A | validated two hybrid | 32296183 |
+| TGM7 | two hybrid array | 32296183 |
+| GFAP | two hybrid array | 32296183 |
+| GFAP | validated two hybrid | 32296183 |
+| KRT86 | protein complementation assay | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

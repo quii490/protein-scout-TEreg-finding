@@ -66,7 +66,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | SPEF1 | 0.699 | 0.000 | 0.000 | 0.000 |
 | SPAG17 | 0.675 | 0.000 | 0.000 | 0.000 |
 | SPAG8 | 0.666 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| AP3M1 | two hybrid prey pooling approach | 32296183 |
+| AP3M1 | validated two hybrid | 32296183 |
+| VEZF1 | two hybrid array | 32296183 |
+| VEZF1 | two hybrid prey pooling approach | 32296183 |
+| VEZF1 | validated two hybrid | 32296183 |
+| PF20 | inference by socio-affinity scoring |  |
+| PF20 | inference by socio-affinity scoring |  |
+| PF20 | inference by socio-affinity scoring |  |
+| AP3M1 | two hybrid array | 32296183 |
+| MRPL1 | two hybrid array | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

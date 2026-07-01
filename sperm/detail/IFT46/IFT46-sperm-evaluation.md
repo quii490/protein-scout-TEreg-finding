@@ -67,7 +67,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | IFT88 | 0.999 | 0.000 | 0.000 | 0.000 |
 | IFT74 | 0.999 | 0.000 | 0.000 | 0.000 |
 | IFT22 | 0.999 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| ARL13B | anti tag coimmunoprecipitation | 28514442 |
+| IFT56 | inference by socio-affinity scoring |  |
+| IFT57 | inference by socio-affinity scoring |  |
+| IFT70A | inference by socio-affinity scoring |  |
+| PRPF31 | inference by socio-affinity scoring |  |
+| CLUAP1 | inference by socio-affinity scoring |  |
+| IFT25 | inference by socio-affinity scoring |  |
+| IFT88 | inference by socio-affinity scoring |  |
+| IFT27 | inference by socio-affinity scoring |  |
+| DGKE | inference by socio-affinity scoring |  |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

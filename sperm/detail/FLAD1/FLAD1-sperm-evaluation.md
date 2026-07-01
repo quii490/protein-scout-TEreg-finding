@@ -65,7 +65,18 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | ENPP1 | 0.913 | 0.000 | 0.000 | 0.000 |
 | ENPP3 | 0.912 | 0.000 | 0.000 | 0.000 |
 | ENPP1 | 0.909 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| TRIM23 | two hybrid pooling approach | 16189514 |
+| PRTFDC1 | two hybrid pooling approach | 16189514 |
+| GEMIN4 | two hybrid | 21988832 |
+| HSPD1 | proximity-dependent biotin identification | 29568061 |
+| FSCN3 | anti tag coimmunoprecipitation | 28514442 |
+| MGST3 | proximity-dependent biotin identification | 29568061 |
+| KLHL14 | anti tag coimmunoprecipitation | 28514442 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

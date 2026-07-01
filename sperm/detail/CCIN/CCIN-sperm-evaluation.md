@@ -56,7 +56,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | SPATA16 | 0.541 | 0.000 | 0.000 | 0.000 |
 | DPY19L2 | 0.536 | 0.000 | 0.000 | 0.000 |
 | CCIN | 0.495 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| HTT | two hybrid array | 32814053 |
+| TARDBP | two hybrid pooling approach | 32814053 |
+| HTT | two hybrid pooling approach | 32814053 |
+| PRKN | two hybrid array | 32814053 |
+| TARDBP | two hybrid array | 32814053 |
+| pVHL | two hybrid pooling approach | 32814053 |
+| TARDBP | validated two hybrid | 32814053 |
+| HTT | validated two hybrid | 32814053 |
+| PRKN | validated two hybrid | 32814053 |
+| pVHL | validated two hybrid | 32814053 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

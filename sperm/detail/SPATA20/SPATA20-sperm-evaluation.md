@@ -62,7 +62,15 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | ABAT | 0.567 | 0.000 | 0.000 | 0.000 |
 | SPATA4 | 0.532 | 0.000 | 0.000 | 0.000 |
 | SPATA46 | 0.527 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| XRN1 | two hybrid | 15231747 |
+| CORO1A | two hybrid array | 21988832 |
+| CCL25 | anti tag coimmunoprecipitation | 28514442 |
+| TRUB2 | anti tag coimmunoprecipitation | 27499296 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

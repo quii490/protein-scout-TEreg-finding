@@ -65,7 +65,12 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | C1orf159 | 0.506 | 0.000 | 0.000 | 0.000 |
 | PTCD2 | 0.489 | 0.000 | 0.000 | 0.000 |
 | ZNHIT2 | 0.488 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| AMIGO1 | validated two hybrid | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

@@ -66,7 +66,19 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | DNAI1 | 0.972 | 0.000 | 0.000 | 0.000 |
 | DNAAF1 | 0.968 | 0.000 | 0.000 | 0.000 |
 | DNAH5 | 0.964 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| MED19 | anti tag coimmunoprecipitation | 15175163 |
+| MED29 | anti tag coimmunoprecipitation | 15175163 |
+| HTT | two hybrid | 15383276 |
+| ABCF3 | two hybrid pooling approach | 16169070 |
+| EPS8 | two hybrid pooling approach | 16169070 |
+| MSGN1 | validated two hybrid | 32296183 |
+| MSGN1 | two hybrid array | 32296183 |
+| MSGN1 | two hybrid prey pooling approach | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

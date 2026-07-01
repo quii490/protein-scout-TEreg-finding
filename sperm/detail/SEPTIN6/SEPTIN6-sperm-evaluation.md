@@ -65,7 +65,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | SEPTIN2 | 0.999 | 0.000 | 0.000 | 0.000 |
 | SEPTIN7 | 0.998 | 0.000 | 0.000 | 0.000 |
 | SEPTIN11 | 0.998 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| SEPTIN2 | two hybrid pooling approach | 16189514 |
+| SEPTIN1 | two hybrid pooling approach | 16189514 |
+| 2HOR0202 | anti bait coimmunoprecipitation | 17353931 |
+| SOCS7 | anti bait coimmunoprecipitation | 17803907 |
+| SEPTIN12 | fluorescence microscopy | 18047794 |
+| EZR | proximity-dependent biotin identification | 29568061 |
+| EZR | proximity-dependent biotin identification | 29568061 |
+| SEPTIN9 | two hybrid | 19145258 |
+| SEPTIN7 | cross-linking study | 30021884 |
+| MORN4 | two hybrid prey pooling approach | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

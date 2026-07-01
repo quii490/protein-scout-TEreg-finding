@@ -65,7 +65,19 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | GABARAPL1 | 0.999 | 0.000 | 0.000 | 0.000 |
 | ATG12 | 0.999 | 0.000 | 0.000 | 0.000 |
 | MAP1LC3A | 0.998 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| MAP1LC3A | anti tag coimmunoprecipitation | 20562859 |
+| MAP1LC3B | anti tag coimmunoprecipitation | 20562859 |
+| MAP1LC3A | anti tag coimmunoprecipitation | 20562859 |
+| MAP1LC3B | anti tag coimmunoprecipitation | 20562859 |
+| BPY2C | two hybrid | 14627543 |
+| RAPL | anti tag coimmunoprecipitation | 20562859 |
+| STK4 | tandem affinity purification | 23455922 |
+| STK3 | tandem affinity purification | 23455922 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

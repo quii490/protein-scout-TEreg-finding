@@ -55,7 +55,19 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | WDR19 | 0.999 | 0.000 | 0.000 | 0.000 |
 | IFT140 | 0.999 | 0.000 | 0.000 | 0.000 |
 | IFT80 | 0.999 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| SPG | anti tag coimmunoprecipitation | 28514442 |
+| NEK7 | inference by socio-affinity scoring |  |
+| ACSL3 | inference by socio-affinity scoring |  |
+| NIPSNAP1 | inference by socio-affinity scoring |  |
+| PISD | inference by socio-affinity scoring |  |
+| NTPCR | inference by socio-affinity scoring |  |
+| IFT140 | inference by socio-affinity scoring |  |
+| TULP3 | inference by socio-affinity scoring |  |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

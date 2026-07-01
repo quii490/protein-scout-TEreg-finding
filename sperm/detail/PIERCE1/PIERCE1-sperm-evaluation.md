@@ -64,7 +64,14 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | C15orf65 | 0.886 | 0.000 | 0.000 | 0.000 |
 | CFAP126 | 0.885 | 0.000 | 0.000 | 0.000 |
 | CFAP53 | 0.885 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| FHL3 | validated two hybrid | 32296183 |
+| FHL3 | two hybrid array | 25416956 |
+| FHL3 | validated two hybrid | 25416956 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

@@ -185,6 +185,16 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 
 该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
+### 深度机制分析
+
+CCDC183（UniProt Q5T5S1）属于含卷曲螺旋结构域蛋白超家族，仅注释有一个InterPro条目IPR043247（CCDC183 coiled-coil domain-containing protein）。卷曲螺旋（coiled-coil）结构由两股或多股alpha螺旋以左手超螺旋方式缠绕而成，经典七肽重复序列（abcdefg）的a和d位点为疏水残基，驱动螺旋间的疏水界面形成。Pfam未检出已知结构域，SMART同样无匹配，表明CCDC183的卷曲螺旋区域可能为新型折叠或采用了偏离经典七肽重复的变体模式。AlphaFold v6预测pLDDT=82.0，有序区域77.1%，高置信残基（pLDDT>90）48.1%，提示该蛋白具有稳定的折叠结构，且其卷曲螺旋区域（预估占蛋白的40-60%）折叠可靠，具备结构生物学研究的可行性。
+
+STRING-PPI网络规模有限且缺乏实验验证：RABL6（0.658）和TMEM141（0.631）为纯计算预测，所有互作的experimental分值均为0，提示CCDC183的PPI网络尚未在实验层面被系统鉴定。然而，IntAct实验数据提供了更为关键的视角：酵母双杂交验证捕捉到CCDC183与染色质调控蛋白SMARCE1（SWI/SNF复合体的BAF57亚基，PMID:32296183）、甲基化DNA结合蛋白MBD3（NuRD复合体亚基，PMID:32296183）以及核RNA降解因子NRDE2（PMID:32296183）的直接互作。这些互作伙伴的染色质/转录调控功能高度一致：SMARCE1是ATP依赖的染色质重塑核心组分，MBD3识别甲基化CpG并通过NuRD复合体介导转录抑制，NRDE2参与核内RNA监视和降解。
+
+CCDC183与SMARCE1和MBD3的互作暗示该蛋白可能通过SWI/SNF和NuRD两类关键染色质重塑复合物参与基因表达调控。SWI/SNF（BAF）复合体利用ATP水解能量滑动或移除核小体以激活转录，而NuRD复合体兼具组蛋白去乙酰化酶（HDAC1/2）和ATP酶（CHD3/4）活性，执行转录抑制。CCDC183若同时与这两类功能拮抗的复合体互作，可能作为染色质状态的切换因子（switch factor），在基因激活与沉默之间提供调控灵活性。
+
+HPA IF定位于核质和胞质溶胶（Nucleoplasm, Cytosol），额外定位于初级纤毛尖端和中段暗示CCDC183具有多亚细胞定位特征。在精子发生过程中，CCDC183被鉴定为鞭毛周围细胞质内陷的关键因子（PMID:37882665），其敲除导致雄性不育。这一动态膜重塑功能需要精确的微管-膜协调，而卷曲螺旋结构域是实现这一机械功能的理想结构模块——它可以形成延伸的刚性杆状结构来桥接细胞骨架与膜。对于TE调控假说，CCDC183在核质中与SMARCE1/MBD3的互作是最具提示性的线索，但缺乏ChIP-seq或ATAC-seq数据，其染色质结合位点和靶基因谱尚待实验确定。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q5T5S1
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000213213-CCDC183/subcellular

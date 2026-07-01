@@ -62,7 +62,18 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | TMPRSS12 | 0.507 | 0.000 | 0.000 | 0.000 |
 | TPPP2 | 0.483 | 0.000 | 0.000 | 0.000 |
 | RSPH1 | 0.471 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| NDP | anti tag coimmunoprecipitation | 33961781 |
+| CST9L | anti tag coimmunoprecipitation | 33961781 |
+| CMTM8 | anti tag coimmunoprecipitation | 33961781 |
+| MT1M | anti tag coimmunoprecipitation | 33961781 |
+| ENSA | anti tag coimmunoprecipitation | 33961781 |
+| C11orf71 | anti tag coimmunoprecipitation | 33961781 |
+| MYL6 | anti tag coimmunoprecipitation | 33961781 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

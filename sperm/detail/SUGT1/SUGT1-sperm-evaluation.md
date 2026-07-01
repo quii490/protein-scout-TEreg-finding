@@ -66,7 +66,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | DNAJC7 | 0.970 | 0.000 | 0.000 | 0.000 |
 | SUGT1 | 0.958 | 0.000 | 0.000 | 0.000 |
 | HSP90AB1 | 0.953 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| MAP3K3 | tandem affinity purification | 14743216 |
+| PARD6A | anti tag coimmunoprecipitation | 14676191 |
+| GFRP1 | two hybrid | 21988832 |
+| PHLPP1 | anti tag coimmunoprecipitation | 19615732 |
+| HSP90AA1 | tandem affinity purification | 19875381 |
+| HSP90AA1 | tandem affinity purification | 19875381 |
+| HSP90AA1 | tandem affinity purification | 19875381 |
+| HSP90AA1 | tandem affinity purification | 19875381 |
+| HSP90AA1 | tandem affinity purification | 19875381 |
+| HDAC11 | anti tag coimmunoprecipitation | 23752268 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

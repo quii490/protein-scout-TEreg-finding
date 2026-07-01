@@ -60,7 +60,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | KLC1 | 0.863 | 0.000 | 0.000 | 0.000 |
 | KIFC3 | 0.814 | 0.000 | 0.000 | 0.000 |
 | KIFC3 | 0.812 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| GRB2 | peptide array | 17474147 |
+| DISC1 | two hybrid fragment pooling approach | 31413325 |
+| AP1B1 | validated two hybrid | 32296183 |
+| AP2M1 | anti tag coimmunoprecipitation | 28514442 |
+| KBP | anti tag coimmunoprecipitation | 28514442 |
+| ASB7 | anti tag coimmunoprecipitation | 28514442 |
+| HUWE1 | anti tag coimmunoprecipitation | 26496610 |
+| DNAAF6 | two hybrid prey pooling approach | 25416956 |
+| HM145 | anti tag coimmunoprecipitation | 33961781 |
+| AP1S3 | anti tag coimmunoprecipitation | 33961781 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

@@ -55,7 +55,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | RSPH3 | 0.916 | 0.000 | 0.000 | 0.000 |
 | RSPH9 | 0.870 | 0.000 | 0.000 | 0.000 |
 | DTNB | 0.841 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| HSPB1 | reverse ras recruitment system | 25277244 |
+| RSHL2 | two hybrid array | 31515488 |
+| RSPH14 | two hybrid array | 32296183 |
+| DPY30 | two hybrid prey pooling approach | 32296183 |
+| PRKAR1A | two hybrid array | 32296183 |
+| RSHL2 | validated two hybrid | 25416956 |
+| RSHL2 | validated two hybrid | 32296183 |
+| MLH1 | validated two hybrid | 32296183 |
+| PRKAR1A | validated two hybrid | 32296183 |
+| RSHL2 | validated two hybrid | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

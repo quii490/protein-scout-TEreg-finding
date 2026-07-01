@@ -65,7 +65,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | IQCD | 0.594 | 0.000 | 0.000 | 0.000 |
 | EFCAB2 | 0.585 | 0.000 | 0.000 | 0.000 |
 | IQCA1 | 0.580 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| DRC8 | two hybrid prey pooling approach | 32296183 |
+| DRC8 | two hybrid array | 32296183 |
+| DRC8 | two hybrid array | 32296183 |
+| DRC8 | two hybrid array | 32296183 |
+| TCL1 | validated two hybrid | 32296183 |
+| TNNI2 | validated two hybrid | 32296183 |
+| TCL1 | two hybrid prey pooling approach | 32296183 |
+| DRC8 | two hybrid prey pooling approach | 32296183 |
+| TNNI1 | validated two hybrid | 32296183 |
+| MRPL12 | validated two hybrid | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

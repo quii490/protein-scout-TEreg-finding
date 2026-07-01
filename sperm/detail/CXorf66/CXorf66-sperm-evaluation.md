@@ -62,7 +62,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | RPL11 | 0.999 | 0.000 | 0.000 | 0.000 |
 | RPL5 | 0.999 | 0.000 | 0.000 | 0.000 |
 | RPL5 | 0.999 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| ASPH | two hybrid array | 32296183 |
+| POMGNT1 | two hybrid array | 32296183 |
+| LAT | validated two hybrid | 32296183 |
+| STX10 | validated two hybrid | 32296183 |
+| ASPH | validated two hybrid | 32296183 |
+| AQP6 | validated two hybrid | 32296183 |
+| POMGNT1 | two hybrid prey pooling approach | 32296183 |
+| ? | validated two hybrid | 32296183 |
+| EDMD | validated two hybrid | 32296183 |
+| RPRM | two hybrid array | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

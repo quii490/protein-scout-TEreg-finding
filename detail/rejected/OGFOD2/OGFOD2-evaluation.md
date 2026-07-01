@@ -172,7 +172,15 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
 
+### 深度机制分析
 
+OGFOD2(350 aa, 39.0 kDa, UniProt: Q6N063)是2-酮戊二酸与铁离子依赖型双加氧酶超家族成员，其催化核心由2OG-Fe(II)氧合酶结构域(IPR005123/PF25238)与脯氨酸羟化酶催化功能域(IPR006620)构成典型的双链beta-螺旋(double-stranded beta-helix, DSBH)折叠。AlphaFold v6预测pLDDT高达93.7(有序区93.8%, pLDDT>90占比90.9%), 表明其结构域折叠高度有序，即使在缺乏PDB实验结构的情况下亦具备晶体学或冷冻电镜解析的极高可行性。DSBH折叠在2OG加氧酶家族中保守, 其核心由8条反平行beta链形成桶状结构, 活性位点位于桶状开口一侧, 由Fe(II)离子与2OG底物的cis-配位桥联稳定——该催化机制类似脯氨酸羟化酶和HIF-1alpha羟化酶(PHD1/2/3), 提示OGFOD2可能催化底物蛋白特定残基的翻译后羟化修饰。
+
+尽管HPA原始数据采集期显示"暂无HPA定位数据", 但IF修复已从HPA subcellular页面获取实际图像(6个细胞系), HPA定位为Nucleoplasm(supported), 这与此前REJECTED判定的核心逻辑(核定位得分3/10)完全矛盾——OGFOD2实际上是核质定位的蛋白, 应重新审慎评估其作为核蛋白候选的资格。极端新颖性(PubMed strict=3)与其结构高置信度(pLDDT=93.7)的组合尤其引人关注: 绝大多数2OG加氧酶在表观遗传调控中具有明确功能, 如H3K9去甲基化酶JMJD2家族、H3K27去甲基化酶UTX/KDM6A及TET家族DNA去甲基化酶(5mC→5hmC)均采用同一DSBH折叠和2OG-Fe(II)催化机制, 而OGFOD2的底物谱和功能完全未被探索。
+
+PPI网络提供关键线索引向翻译与转录后调控的交界面: OGFOD1(STRING 561)作为同家族蛋白是核糖体蛋白RPS23的专用脯氨酸羟化酶(羟化RPS23 Pro62促进翻译终止精密度)——OGFOD2极有可能是另一个核糖体蛋白或翻译因子的特异性羟化酶; RAN(IntAct, PMID 32814053)是Ran GTPase核质转运循环的核心组分; PRPF40A(IntAct, PMID 32814053)作为U1 snRNP相关剪接因子暗示OGFOD2可能参与pre-mRNA剪接体的羟化修饰; KAT5(Tip60, IntAct, PMID 16169070)是NuA4组蛋白乙酰转移酶复合物的催化亚基, 直接乙酰化H4和H2A.Z并参与DNA损伤应答——OGFOD2-KAT5互作提示羟化酶-乙酰转移酶交叉修饰调控; TRMT2A(STRING 805)是tRNA(U54)甲基转移酶; JMJD4(STRING 685)本身作为2OG加氧酶家族成员(翻译终止因子eRF1的羟化酶)构成同家族候选伙伴; EEF1G(IntAct, PMID 16169070)是翻译延伸因子1复合物的gamma亚基; TRIM55(IntAct, PMID 31391242)是E3泛素连接酶的TRIM家族成员; CASP6(caspase-6, IntAct, PMID 32814053)是凋亡效应半胱天冬酶。
+
+OGFOD2作为"孤儿化羟化酶"——已知该折叠已知该催化机制但底物未知——的假说具有重要的TE调控意义: (1) TE编码蛋白(特别是LINE-1 ORF2p)富含脯氨酸和赖氨酸残基, ORF2p的逆转录酶活性和内切酶活性均受磷酸化和泛素化调控——羟化作为一种稳定的翻译后修饰可能类似地调节ORF2p功能; (2) 2OG加氧酶家族成员(如TET2, KDM5)在TE位点活跃, 通过控制DNA/组蛋白甲基化决定了TE元件的表达状态——OGFOD2可能通过羟化TE位点处染色质相关蛋白影响其可接近性; (3) EEF1G-RAN-PRPF40A构成的PPl三角连接翻译延伸(RAN-GTP依赖的出核与翻译起始)与剪接体组装, 暗示OGFOD2可能羟化某个穿梭于核质、翻译和剪接机制的桥梁因子, 进而影响TE衍生转录本的加工与输出。实验策略: 在体外用纯化的OGFOD2与Fe(II)、2OG和候选底物肽段进行羟化活性检测(LC-MS/MS检测+16 Da位移); 利用cryo-EM或X射线晶体学解析OGFOD2-Fe(II)-2OG-底物三元复合物以确定底物识别基序; 在siRNA敲低OGFOD2的细胞中进行定量羟化蛋白组学(silac-based hydroxyproline enrichment)以发现底物网络。
 
 <!-- HPA_IF_REPAIR_START -->
 **HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (supported)。来源: https://www.proteinatlas.org/ENSG00000111325-OGFOD2/subcellular

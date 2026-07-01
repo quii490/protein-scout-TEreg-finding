@@ -61,7 +61,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | RIBC2 | 0.905 | 0.000 | 0.000 | 0.000 |
 | TEKT3 | 0.900 | 0.000 | 0.000 | 0.000 |
 | EFHC1 | 0.900 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| KRT15 | two hybrid pooling approach | 16189514 |
+| RAD54B | two hybrid pooling approach | 16189514 |
+| ATRIP | two hybrid pooling approach | 16189514 |
+| JUP | two hybrid pooling approach | 16189514 |
+| TRAF2 | two hybrid pooling approach | 16189514 |
+| TRIM37 | two hybrid pooling approach | 16189514 |
+| CCDC85B | two hybrid pooling approach | 16189514 |
+| NINL | two hybrid pooling approach | 16189514 |
+| GFAP | two hybrid pooling approach | 16189514 |
+| VIM | two hybrid pooling approach | 16189514 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

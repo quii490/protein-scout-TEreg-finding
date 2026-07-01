@@ -65,7 +65,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | ARHGAP1 | 0.584 | 0.000 | 0.000 | 0.000 |
 | PLD1 | 0.563 | 0.000 | 0.000 | 0.000 |
 | RAB5A | 0.538 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| ARIH2 | two hybrid pooling approach | 16169070 |
+| ST3GAL3 | two hybrid pooling approach | 16169070 |
+| CXCR2 | anti bait coimmunoprecipitation | 21876773 |
+| LPAR1 | anti tag coimmunoprecipitation | 28514442 |
+| SLC41A1 | two hybrid array | 32296183 |
+| SLC41A1 | two hybrid prey pooling approach | 32296183 |
+| NCAPH | anti tag coimmunoprecipitation | 26496610 |
+| REEP5 | anti tag coimmunoprecipitation | 26496610 |
+| TMEM17 | proximity-dependent biotin identification | 26638075 |
+| TCTN3 | proximity-dependent biotin identification | 26638075 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

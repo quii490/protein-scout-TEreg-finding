@@ -63,7 +63,20 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | CBY2 | 0.601 | 0.000 | 0.000 | 0.000 |
 | SPEM1 | 0.588 | 0.000 | 0.000 | 0.000 |
 | GTF2F2 | 0.572 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| TUBGCP4 | two hybrid pooling approach | 16189514 |
+| CEP44 | two hybrid pooling approach | 16189514 |
+| ZNF647 | two hybrid array | 32296183 |
+| MLH1 | two hybrid array | 32296183 |
+| CCDC185 | two hybrid array | 32296183 |
+| AIRIM | two hybrid array | 32296183 |
+| CDK18 | two hybrid array | 32296183 |
+| C6orf18 | two hybrid array | 32296183 |
+| C19orf44 | two hybrid array | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

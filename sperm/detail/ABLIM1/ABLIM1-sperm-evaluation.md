@@ -56,7 +56,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | Partner | Combined | Exp | DB | Text |
 |---|---|---|---|---|
 | *STRING 无数据* | — | — | — | — |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| Limatin | two hybrid pooling approach | 16189514 |
+| GOLGA2 | two hybrid pooling approach | 16189514 |
+| Limatin | two hybrid pooling approach | 16189514 |
+| Limatin | two hybrid pooling approach | 16189514 |
+| GRB2 | pull down | 12577067 |
+| Limatin | two hybrid pooling approach | 16189514 |
+| Limatin | two hybrid pooling approach | 16189514 |
+| Limatin | two hybrid pooling approach | 16189514 |
+| KRT15 | two hybrid pooling approach | 16189514 |
+| Limatin | pull down | 16189514 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

@@ -167,6 +167,18 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### 深度机制分析
+
+**结构域架构**：TBC1D10C（Carabin, UniProt: Q8IV04, 446 aa / 49.7 kDa）的核心结构域为Rab-GAP TBC domain（aa 92-280），属于TBC/RabGAP family（IPR000195, IPR035969, IPR050302）。TBC domain负责catalyze Rab GTPase的GTP hydrolysis——Rab proteins作为vesicular trafficking和organelle identity的主调节因子，其活性受到精确的GTP-GDP cycling调控。AlphaFold pLDDT=81.6（中等偏高）——高置信残基占比67.9%，有序区域（pLDDT>70）占比74.0%，表明TBC domain区域折叠优良，结构可信度较高。Pfam注释为PF00566（Rab-GTPase-TBC domain），SMART识别为SM00164。暂无实验PDB结构（PDB=0）。
+
+**PPI互作网络解读**：STRING PPI network（15 partners, combined score >0.4）包含RASAL3、ARHGAP9、RAB35、TRAF3IP3、PTPRCAP、RASA1、ACAP1等——RAB35是TBC domain的底物Rab GTPase，该互作获得弱实验支持（experimental score=0.075）。BioGRID记录的关键互作包括METTL3（m6A methyltransferase catalytic subunit，参与RNA methylation和TE silencing）、DOT1L（H3K79 methyltransferase，参与telomeric silencing和MLL fusion-driven leukemogenesis）、HOXA1（homeobox transcription factor）和CUL4A（CRL4 E3 ubiquitin ligase scaffold）。这些互作将TBC1D10C与chromatin modification、transcriptional regulation和protein degradation machinery直接关联。IntAct验证互作包括SHANK1、HOXA1、KLHL12、KRTAP5-9和NOTCH2NLA。
+
+**结构解读**：AlphaFold预测（pLDDT=81.6）显示TBC1D10C的核心折叠由TBC domain（aa 92-280）构成——该domain采用典型的alpha-helical bundle架构，含有conserved catalytic arginine/glutamine finger motif用于stabilize GTP hydrolysis transition state。18.4%的低置信残基（pLDDT<50）主要分布在N端（aa 1-91）和C端区域（aa 281-446），这些区域的功能注释缺失——它们可能包含regulatory motif、protein-protein interaction site或degradation signal（如degron）。HPA定位为Nuclear bodies（Approved）。
+
+**机制模型**：TBC1D10C作为Rab-GAP的双重功能模式：一方面通过TBC domain催化Rab35（或其他Rab）的GTP hydrolysis，调控endosomal trafficking和plasma membrane recycling；另一方面通过nuclear body localization参与核内功能。Rab GTPase signaling与autophagy、mTOR pathway、integrin trafficking密切相关——这些pathway均已报道与TE silencing的调控关联。DOT1L介导的H3K79 methylation在MLL-rearranged leukemia中维持aberrant gene expression program，同时也与telomeric/subtelomeric chromatin状态的维持相关——许多endogenous retrovirus（ERV）插入位点位于subtelomeric region。
+
+**TE调控展望**：TBC1D10C的TE regulation潜力通过多重机制体现：（1）METTL3（BioGRID互作）是m6A writer complex的核心催化亚基——m6A modification on nascent RNA包括LINE-1和Alu element transcript的m6A修饰，m6A reader YTHDC1通过recognizing m6A标记促进TE transcript degradation；（2）DOT1L（BioGRID互作）的H3K79 methyltransferase活性影响chromatin state at ERV loci——H3K79me2/3通常mark active chromatin，DOT1L inhibition可能导致ERV的epigenetic silencing；（3）CUL4A（BioGRID互作）作为CRL4 ubiquitin ligase的scaffold，通过ubiquitination-mediated degradation of chromatin-associated factor间接影响TE的transcriptional status。建议通过TBC1D10C的co-immunoprecipitation验证METTL3和DOT1L互作，再通过knockdown/overexpression RNA-seq评估其对TE expression的影响——特别关注LINE-1、Alu和HERV-K等major TE family。
+
 ### PPI 互作网络
 
 | 互作伙伴 | 来源 | 评分 |
@@ -184,48 +196,3 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 ### TE 调控评估
 
 该蛋白缺乏核/染色质定位证据，TE 调控潜力较低。
-
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q8IV04
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000175463-TBC1D10C/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=TBC1D10C
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8IV04
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
-
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nuclear bodies (approved)。来源: https://www.proteinatlas.org/ENSG00000175463-TBC1D10C/subcellular
-
-![](https://images.proteinatlas.org/69743/1325_A1_1_red_green.jpg)
-![](https://images.proteinatlas.org/69743/1325_A1_2_red_green.jpg)
-![](https://images.proteinatlas.org/69743/1414_A7_1_red_green.jpg)
-![](https://images.proteinatlas.org/69743/1414_A7_2_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
-
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
-
-![](https://alphafold.ebi.ac.uk/files/AF-Q8IV04-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
-
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-07）
-
-### SMART / UniProt domain
-| Source | Data |
-|---|---|
-| UniProt | Q8IV04 |
-| SMART | SM00164; |
-| UniProt Domain [FT] | DOMAIN 92..280; /note="Rab-GAP TBC"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00163" |
-| InterPro | IPR000195;IPR035969;IPR050302; |
-| Pfam | PF00566; |
-
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000175463-TBC1D10C/interaction
-
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| KLHL12 | Intact | false |
-| KRTAP5-9 | Intact | false |
-| NOTCH2NLA | Intact | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

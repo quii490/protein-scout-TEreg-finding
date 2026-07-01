@@ -53,7 +53,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | VPS53 | 0.999 | 0.000 | 0.000 | 0.000 |
 | VPS52 | 0.999 | 0.000 | 0.000 | 0.000 |
 | VPS52 | 0.998 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| OIP5 | inference by socio-affinity scoring |  |
+| PSMD9 | inference by socio-affinity scoring |  |
+| KDM1A | inference by socio-affinity scoring |  |
+| RABGAP1L | inference by socio-affinity scoring |  |
+| YEATS4 | inference by socio-affinity scoring |  |
+| CLOCK | inference by socio-affinity scoring |  |
+| BMAL1 | inference by socio-affinity scoring |  |
+| NCKAP5L | inference by socio-affinity scoring |  |
+| GIT2 | inference by socio-affinity scoring |  |
+| DZIP3 | inference by socio-affinity scoring |  |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

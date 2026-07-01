@@ -64,7 +64,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | RAB25 | 0.981 | 0.000 | 0.000 | 0.000 |
 | RAB25 | 0.966 | 0.000 | 0.000 | 0.000 |
 | RAB11FIP2 | 0.965 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| GFI1B | two hybrid | 16713569 |
+| C5orf37 | anti tag coimmunoprecipitation | 30845169 |
+| C5orf37 | anti tag coimmunoprecipitation | 30845169 |
+| MAD2L2 | two hybrid array | 32296183 |
+| MAD2L2 | two hybrid prey pooling approach | 32296183 |
+| ELFN2 | anti tag coimmunoprecipitation | 33961781 |
+| RAB11B | anti tag coimmunoprecipitation | 33961781 |
+| FGF4 | anti tag coimmunoprecipitation | 33961781 |
+| C10orf94 | anti tag coimmunoprecipitation | 33961781 |
+| KXD1 | anti tag coimmunoprecipitation | 33961781 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

@@ -53,7 +53,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | Partner | Combined | Exp | DB | Text |
 |---|---|---|---|---|
 | *STRING 无数据* | — | — | — | — |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| TTC23L | validated two hybrid | 32296183 |
+| LSM2 | two hybrid array | 32296183 |
+| LRCH3 | two hybrid array | 32296183 |
+| PODN | validated two hybrid | 32296183 |
+| SSX7 | validated two hybrid | 32296183 |
+| TERF1 | validated two hybrid | 32296183 |
+| LRCH3 | two hybrid prey pooling approach | 32296183 |
+| PPP1R7 | inference by socio-affinity scoring |  |
+| DDX6 | validated two hybrid | 32296183 |
+| DDX6 | two hybrid array | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

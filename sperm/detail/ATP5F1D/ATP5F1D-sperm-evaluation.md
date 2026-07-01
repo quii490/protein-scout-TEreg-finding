@@ -57,7 +57,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | Partner | Combined | Exp | DB | Text |
 |---|---|---|---|---|
 | *STRING 无数据* | — | — | — | — |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| RIPK2 | anti bait coimmunoprecipitation | 17353931 |
+| SGK1 | anti bait coimmunoprecipitation | 17353931 |
+| EIF1B | anti bait coimmunoprecipitation | 17353931 |
+| PSMD6 | anti bait coimmunoprecipitation | 17353931 |
+| ATG5 | anti bait coimmunoprecipitation | 17353931 |
+| TTN | two hybrid fragment pooling approach | 23414517 |
+| ATP5PB | blue native page | 19688755 |
+| ATP5PB | blue native page | 19688755 |
+| ACAD9 | blue native page | 23260140 |
+| EPB41L4O | anti tag coimmunoprecipitation | 24366813 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

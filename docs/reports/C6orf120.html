@@ -130,6 +130,11 @@
 <p><strong>风险/不确定性</strong>: 1. PubMed 13 篇，研究基础极有限，功能注释不完整 2. 结构数据质量可接受</p>
 <p><strong>下一步建议</strong>:</p>
 <ul><li>[ ] 查阅最新关键文献补充研究背景</li><li>[ ] 获取 Protein Atlas IF 图像确认亚细胞定位</li><li>[ ] 设计体外实验验证核定位及潜在调控功能</li><li>[ ] <strong>该蛋白核定位证据不足（≤3/10），不建议作为核蛋白研究目标。</strong></li></ul>
+<h4>深度机制分析</h4>
+<p>C6orf120（UPF0669 protein C6orf120, 191 aa, UniProt Q7Z4R8）。REJECTED——核定位得分2/10（HPA: 无IF数据, UniProt: Secreted）。InterPro注释IPR031420（DUF4520，功能未知），Pfam PF17065。AlphaFold pLDDT=79.8（有序区65.4%），无PDB实验结构。</p>
+<p>从研究现状角度，尽管核定位缺失，C6orf120的功能研究取得了一定进展。大鼠C6orf120基因敲除可减轻ConA诱导的自身免疫性肝炎，机制涉及NKT细胞和巨噬细胞极化调控（PMID:34896761, PMID:29748000, PMID:38988110）。C6orf120通过PI3K/Akt/mTOR通路激活肝星状细胞促进肝纤维化（PMID:38523410）。STRING预测伙伴ERLIN1（0.757, experimental=0.574）——ER脂筏蛋白参与ERAD途径——可能解释其分泌途径相关功能。IntAct鉴定的ERLIN1直接互作支持此功能关联。</p>
+<p>从结构生物学角度，pLDDT=79.8表明蛋白有较好的折叠核心（58.1%残基&gt;90），DUF4520结构域可能形成稳定的球状折叠。UniProt注释Secreted提示通过经典分泌途径（ER-Golgi）运输至胞外，但其GO-CC注释包含azurophil granule lumen（溶酶体相关细胞器），暗示可能在免疫细胞分泌颗粒中储存和释放。</p>
+<p>从TE调控角度，分泌蛋白通常不参与核内过程。但肝脏作为主要代谢器官，其免疫微环境的变化可影响肝细胞中TE的表达模式——特别是HERV和LINE-1在肝炎和肝纤维化中常被激活。C6orf120通过调节肝内免疫环境（NKT细胞/巨噬细胞）可能间接影响肝脏TE表达全景。但这种效应是系统性的、间接的。建议优先关注肝脏疾病中的TE去抑制与C6orf120表达的相关性。PubMed 13篇，综合评分61.9/100。</p>
 <h4>5. 数据来源</h4>
 <ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q7Z4R8</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000185127-C6orf120/subcellular</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=C6orf120</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q7Z4R8</li><li>STRING: https://string-db.org/network/9606.ENSP00000</li><li>Data fetched live: 2026-06-03</li></ul>
 <p>&lt;!-- AF_PAE_REPAIR_START --&gt; <strong>PAE 图像修正（2026-06-05）</strong>: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。</p>

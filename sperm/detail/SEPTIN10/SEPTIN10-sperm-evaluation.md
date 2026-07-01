@@ -65,7 +65,19 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | SEPTIN2 | 0.999 | 0.000 | 0.000 | 0.000 |
 | SEPTIN7 | 0.998 | 0.000 | 0.000 | 0.000 |
 | SEPTIN11 | 0.998 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| YTHDC1 | two hybrid | 21988832 |
+| RALBP1 | anti tag coimmunoprecipitation | 31980649 |
+| TRIM11 | anti tag coimmunoprecipitation | 28514442 |
+| SEPTIN6 | anti tag coimmunoprecipitation | 28514442 |
+| SEPTIN7 | anti tag coimmunoprecipitation | 28514442 |
+| SEPTIN2 | anti tag coimmunoprecipitation | 28514442 |
+| SEPTIN12 | anti tag coimmunoprecipitation | 28514442 |
+| SEPTIN3 | anti tag coimmunoprecipitation | 28514442 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

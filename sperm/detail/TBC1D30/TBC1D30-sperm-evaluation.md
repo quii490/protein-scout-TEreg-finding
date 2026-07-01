@@ -64,7 +64,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | TBC1D30 | 0.532 | 0.000 | 0.000 | 0.000 |
 | TBC1D30 | 0.515 | 0.000 | 0.000 | 0.000 |
 | TBC1D30 | 0.512 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| ESR1 | tandem affinity purification | 31527615 |
+| ESR1 | tandem affinity purification | 31527615 |
+| TFIP11 | validated two hybrid | 32296183 |
+| SCOC | anti tag coimmunoprecipitation | 28514442 |
+| GOLGA2 | validated two hybrid | 32296183 |
+| ZRANB1 | validated two hybrid | 32296183 |
+| GRIPAP1 | validated two hybrid | 32296183 |
+| HOOK2 | validated two hybrid | 32296183 |
+| HSF2BP | validated two hybrid | 32296183 |
+| CEP70 | validated two hybrid | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

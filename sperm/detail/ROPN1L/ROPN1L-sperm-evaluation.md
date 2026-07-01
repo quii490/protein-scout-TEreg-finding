@@ -67,7 +67,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | ROPN1L | 0.860 | 0.000 | 0.000 | 0.000 |
 | RHPN1 | 0.825 | 0.000 | 0.000 | 0.000 |
 | ROPN1L | 0.785 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| RSPH11 | two hybrid prey pooling approach | 32296183 |
+| RSPH11 | two hybrid array | 32296183 |
+| RSPH11 | validated two hybrid | 32296183 |
+| RSPH11 | anti tag coimmunoprecipitation | 28514442 |
+| RSPH11 | anti tag coimmunoprecipitation | 28514442 |
+| RSHL2 | two hybrid array | 31515488 |
+| AKAP14 | two hybrid array | 32296183 |
+| AKAP14 | two hybrid prey pooling approach | 32296183 |
+| RSHL2 | validated two hybrid | 25416956 |
+| H21 | validated two hybrid | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

@@ -55,7 +55,16 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | FGFR1OP | 0.859 | 0.000 | 0.000 | 0.000 |
 | PCNT | 0.852 | 0.000 | 0.000 | 0.000 |
 | CYLD | 0.825 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| APTX | two hybrid | 16713569 |
+| PLEKHA5 | two hybrid pooling approach | 20936779 |
+| CEP43 | tandem affinity purification | 20360068 |
+| MAPK1 | tandem affinity purification | 23602568 |
+| NEURL4 | anti tag coimmunoprecipitation | 29426014 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

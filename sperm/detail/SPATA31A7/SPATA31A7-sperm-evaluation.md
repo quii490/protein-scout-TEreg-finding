@@ -62,7 +62,14 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | C2orf83 | 0.479 | 0.000 | 0.000 | 0.000 |
 | SPATA31A7 | 0.478 | 0.000 | 0.000 | 0.000 |
 | C2orf83 | 0.455 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| ALB | anti bait coimmunoprecipitation | 15174051 |
+| DEFB103A | validated two hybrid | 32296183 |
+| ODAM | validated two hybrid | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

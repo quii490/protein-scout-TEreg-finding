@@ -62,7 +62,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | CABYR | 0.950 | 0.000 | 0.000 | 0.000 |
 | ROPN1B | 0.884 | 0.000 | 0.000 | 0.000 |
 | RHPN1 | 0.825 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| ROPN1A | two hybrid array | 32296183 |
+| ROPN1A | validated two hybrid | 32296183 |
+| ROPN1A | two hybrid prey pooling approach | 32296183 |
+| ROPN1A | two hybrid array | 25416956 |
+| ROPN1A | validated two hybrid | 27107012 |
+| ROPN1A | barcode fusion genetics two hybrid | 27107012 |
+| SPA17 | two hybrid | 17551920 |
+| ROPN1A | two hybrid array | 29892012 |
+| LNX1 | two hybrid array | 29892012 |
+| CNST | two hybrid array | 31515488 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

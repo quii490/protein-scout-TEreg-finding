@@ -76,6 +76,18 @@ TE candidate: Homeobox_regulator; Homeodomain-like_sf
 
 ![PAE](https://alphafold.ebi.ac.uk/files/AF-Q14559-F1-predicted_aligned_error_v6.png)
 
+### 深度机制分析
+
+**结构域架构**：HPX-2（Q14559, HPX-2 protein, 39 aa / 4.6 kDa）的主要结构域注释为Homeobox_regulator, Homeodomain-like_sf。Pfam数据库进一步识别到- PPI degree=0 ChIP: None等保守域。AlphaFold pLDDT=82.1（优质）——大部分区域折叠可信，个别loop区域可能为柔性无序。该蛋白暂无实验PDB结构（PDB=0），当前结构信息完全依赖AlphaFold预测。PubMed=1（极度新颖），该蛋白处于早期研究阶段，深入的机制解析仍属空白。
+
+**PPI互作网络解读**：PPI network（degree=0）——当前已知互作伙伴数量有限。该蛋白的互作图谱近乎空白，future interactome studies will be critical for linking this protein to specific pathway context.
+
+**结构解读**：AlphaFold预测（pLDDT=82.1）整体折叠可信，Homeobox_regulator构成结构核心。Pfam域- PPI degree=0 ChIP: None的保守性暗示了该蛋白可能执行特定的分子功能（如催化、识别或支架）。有序区域占比是衡量该蛋白是否适合structural biology研究的关键指标。pLDDT=82.1的整体质量表明大部分残基（pLDDT>70）处于有序构象，适合X射线晶体学或冷冻电镜（cryo-EM）解析。
+
+**机制模型**：HPX-2含homeobox/homeodomain——该domain为conserved helix-turn-helix DNA-binding motif。Homeodomain蛋白常作为developmental transcription factor——调控cell fate determination和body plan。某些homeodomain蛋白已被报道与TE-derived cis-regulatory elements相互作用，可能modulate chromatin accessibility around TE loci。
+
+**TE调控展望**：该蛋白被标注为TE_REG_CANDIDATE——含Homeobox_regulator; Homeodomain-like_sf结构域。TE调控关联性取决于以下几个方面：（1）HPX-2是否physical association with chromatin remodeling complex（如SWI/SNF, NuRD, PRC1/2）或transcription factor machinery；（2）HPX-2是否能够通过其结构域识别TE-derived DNA/RNA element；（3）HPX-2的knockout/knockdown是否改变LINE-1或ERV family的expression level。Homeodomain蛋白的DNA binding specificity已在多个TF family中详细表征——HPX-2可能识别TE-derived promoter中的AT-rich或TAAT motif。建议EMSA+DNase I footprinting验证其DNA binding specificity。
+
 ### HPA IF 图像
 
 HPA 检索: https://www.proteinatlas.org/search/HPX-2

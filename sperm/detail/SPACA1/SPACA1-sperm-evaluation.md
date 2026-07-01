@@ -63,7 +63,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | SPACA3 | 0.706 | 0.000 | 0.000 | 0.000 |
 | SPATA46 | 0.694 | 0.000 | 0.000 | 0.000 |
 | SPATA16 | 0.688 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| TMEM47 | two hybrid prey pooling approach | 32296183 |
+| CD72 | two hybrid prey pooling approach | 32296183 |
+| TMEM47 | two hybrid array | 32296183 |
+| ATP6V0C | two hybrid array | 32296183 |
+| SMAGP | two hybrid array | 32296183 |
+| EMP3 | validated two hybrid | 32296183 |
+| LSMEM2 | validated two hybrid | 32296183 |
+| SMIM3 | two hybrid array | 32296183 |
+| SERTM1 | validated two hybrid | 32296183 |
+| TMEM47 | validated two hybrid | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

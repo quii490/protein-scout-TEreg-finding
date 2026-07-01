@@ -56,7 +56,17 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | CLBA1 | 0.447 | 0.000 | 0.000 | 0.000 |
 | FYB2 | 0.429 | 0.000 | 0.000 | 0.000 |
 | AR | 0.425 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| IRF2BP1 | inference by socio-affinity scoring |  |
+| DNAJC13 | inference by socio-affinity scoring |  |
+| EDRF1 | inference by socio-affinity scoring |  |
+| TBCE | inference by socio-affinity scoring |  |
+| NMT1 | inference by socio-affinity scoring |  |
+| MLF1 | inference by socio-affinity scoring |  |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

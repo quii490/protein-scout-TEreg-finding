@@ -120,6 +120,11 @@
 <tr><td>TRIM25</td><td>BioGRID</td><td>0</td></tr>
 <tr><td>CANX</td><td>BioGRID</td><td>0</td></tr>
 </tbody></table></div>
+<h4>深度机制分析</h4>
+<p><strong>SMP-LTD脂质转移域的膜接触位点架构</strong>：TEX2（1127 aa, Q8IWB9）是哺乳动物Synaptotagmin-like Mitochondrial-lipid binding Protein（SMP）家族成员，其核心结构域为单拷贝SMP-LTD（Lipid Transfer Domain, IPR031468, PROSITE:PRU01194, UniProt FT: DOMAIN 816-1101），采用管状疏水腔折叠——长约20-25 Å的β-sandwich腔道可容纳单分子磷脂穿梭于供体和受体膜之间。SMP域在进化上属于TULIP超家族（管状脂质结合蛋白），其脂质转移活性不依赖ATP或膜融合——仅通过浓度梯度驱动的被动扩散在两种膜之间运送甘油磷脂和鞘脂。TEX2的1127 aa尺寸中，SMP域仅占约286 aa（816-1101），暗示N端约800 aa区域含非催化结构域——可能介导亚细胞定位、膜锚定或蛋白互作。</p>
+<p><strong>内质网-溶酶体MCS与核膜外脂质稳态</strong>：UniProt注释TEX2定位于Endoplasmic reticulum membrane和Nucleus membrane，GO-CC亦含endoplasmic reticulum membrane。Du等人（2023, PMID:36705603）的功能研究揭示TEX2在TMEM55依赖的ER-溶酶体膜接触位点（MCS）上发挥功能——TMEM55为溶酶体PI(4,5)P2 4-磷酸酶，其催化产生的PI(4)P被TEX2识别并促进ER向溶酶体的脂质转移。HumanPPI互作数据进一步确认ER定位：VAPA（VAMP-associated protein A, Biogrid/Opencell）是标志性ER MCS系留蛋白，通过FFAT基序识别含SMP域的脂质转移蛋白；RTN4（reticulon 4, Biogrid/Opencell）和BCAP31（B-cell receptor-associated protein 31, Biogrid）均属ER膜蛋白，参与ER形态维持和蛋白转运。NUP155（核孔蛋白155 kDa, Biogrid互作）和EMD（emerin, Biogrid互作）则直接指向内核膜——NUP155是核孔复合物Y-complex的亚基，EMD是内核膜LEM域蛋白，两者共同参与核膜结构和核-质运输。</p>
+<p><strong>核膜定位与TE调控的间接可能</strong>：TEX2的HPA IF重新定位（HPA IF 图像修正块）确认为Nucleoplasm（Approved）——这与UniProt的&quot;Nucleus membrane&quot;注释结合暗示TEX2可能在内核膜处执行脂质转移功能，但也可能在核质中（以不依赖膜的可溶性形式）发挥替代功能。若TEX2确实定位于内核膜，其脂质转移活性可能影响核膜的脂质组成和流动性——继而通过改变核膜相关异染色质（LADs, lamina-associated domains）的物理性质间接影响TE沉默。LADs富集LINE-1和LTR元件，其转录沉默依赖于核膜lamina蛋白（lamin A/C, lamin B1）和EMD——TEX2-EMD互作（Biogrid）暗示TEX2可能与EMD/LEM-Domains-含蛋白的核膜染色质锚定功能耦合。</p>
+<p><strong>实验前景与PPI数据的空洞</strong>：极度新颖（PubMed=14篇, 50/50分）、明确核膜/核质定位和SMP脂质转移的确定生化功能使TEX2成为有吸引力的跨学科候选。然而，PPI数据极为稀少（6/30分）——STRING互作列表为空，humanPPI仅有Biogrid互作（全部score=0），表明TEX2在标准高通量PPI方法（酵母双杂交、AP-MS）中系统性失检。这可能因为TEX2是整合膜蛋白（含跨膜螺旋，UniProt标注&quot;Endoplasmic reticulum membrane&quot;），而整合膜蛋白在标准PPI方法的裂解条件下倾向于聚集和沉淀。实验优先级：（1）TEX2-NUP155和TEX2-EMD的co-IP验证其核膜定位；（2）体外脂质转移实验确定TEX2 SMP域对PI(4)P和其他磷脂的底物选择性；（3）TEX2敲除后核膜脂质组学分析；（4）若核膜脂质变化，检测LAD区TE去抑制。归一化得分65.6/100，鉴于TEX2的极端新颖性和独特功能域，可作为跨学科TE-膜脂信号的双功能探索靶标。</p>
 <h4>TE 调控评估</h4>
 <p>该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。</p>
 <h4>5. 数据来源</h4>

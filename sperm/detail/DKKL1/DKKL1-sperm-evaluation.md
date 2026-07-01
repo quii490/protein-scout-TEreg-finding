@@ -66,7 +66,14 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | WNT2B | 0.937 | 0.000 | 0.000 | 0.000 |
 | DKK1 | 0.927 | 0.000 | 0.000 | 0.000 |
 | CCDC155 | 0.917 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| C11orf71 | two hybrid array | 21988832 |
+| FYN | peptide array | 17474147 |
+| CRK | peptide array | 17474147 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

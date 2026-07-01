@@ -57,7 +57,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | Partner | Combined | Exp | DB | Text |
 |---|---|---|---|---|
 | *STRING 无数据* | — | — | — | — |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| MAP3K3 | tandem affinity purification | 14743216 |
+| MAP3K14 | tandem affinity purification | 14743216 |
+| ACTB | molecular sieving | 15047060 |
+| RELA | tandem affinity purification | 14743216 |
+| GRB2 | pull down | 12577067 |
+| TBK1 | tandem affinity purification | 14743216 |
+| TNFRSF1A | tandem affinity purification | 14743216 |
+| TNFRSF1B | tandem affinity purification | 14743216 |
+| KIAA0036 | anti tag coimmunoprecipitation | 21565611 |
+| RPS6KB2 | two hybrid array | 21988832 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

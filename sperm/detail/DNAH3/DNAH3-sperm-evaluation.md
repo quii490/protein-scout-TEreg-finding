@@ -65,7 +65,13 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | DNAH8 | 0.937 | 0.000 | 0.000 | 0.000 |
 | DNAH1 | 0.931 | 0.000 | 0.000 | 0.000 |
 | DNAH2 | 0.929 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| ARRB1 | anti tag coimmunoprecipitation | 17620599 |
+| MKI67 | anti tag coimmunoprecipitation | 26949251 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

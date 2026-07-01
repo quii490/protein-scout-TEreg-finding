@@ -66,7 +66,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | HAUS6 | 0.999 | 0.000 | 0.000 | 0.000 |
 | HAUS8 | 0.999 | 0.000 | 0.000 | 0.000 |
 | HAUS2 | 0.999 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| CREB2 | two hybrid pooling approach | 16189514 |
+| MED29 | anti tag coimmunoprecipitation | 15175163 |
+| CREB2 | two hybrid pooling approach | 19447967 |
+| HAUS2 | tandem affinity purification | 20360068 |
+| HAUS6 | tandem affinity purification | 20360068 |
+| HAUS4 | tandem affinity purification | 20360068 |
+| HAUS1 | tandem affinity purification | 20360068 |
+| ACOX3 | anti tag coimmunoprecipitation | 28514442 |
+| HSCB | anti bait coimmunoprecipitation | 28380382 |
+| DPPA3 | validated two hybrid | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

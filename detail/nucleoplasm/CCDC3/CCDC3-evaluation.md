@@ -88,6 +88,18 @@ HPA: https://www.proteinatlas.org/ENSG00000151468-CCDC3
 ![](https://images.proteinatlas.org/62425/1159_H10_4_red_green.jpg)
 ![](https://images.proteinatlas.org/62425/1159_H10_10_red_green.jpg)
 
+### 深度机制分析
+
+**结构域架构**：CCDC3（Coiled-coil domain-containing protein 3, 270 aa / 30.7 kDa）的主要结构域注释为IPR040311（CCDC3 family）——此为较新的InterPro entry, 反映出该家族的功能保守性尚未在classical domain databases中充分体现。Pfam识别到PF28297（CCDC3_C, C-terminal conserved region）。该蛋白的pLDDT=75.4（高置信度），结构预测显示全蛋白主要为coiled-coil fold, 无实验PDB结构。PubMed=25（低文献量），研究集中于adipose biology, endothelial inflammation和cancer。
+
+**PPI互作网络解读**：PPI network（degree=4）——BioGRID记录的关键互作伙伴包括TOP3B（DNA topoisomerase III beta, RNA/DNA topoisomerase）、TP53（p53 tumor suppressor）、MDM2（p53 E3 ubiquitin ligase）和PSMC4（26S proteasome regulatory subunit）。TP53和MDM2的互作直接将CCDC3连接到p53 tumor suppressor pathway——CCDC3可能作为p53-MDM2 regulatory loop的modulator。TOP3B的互作提示CCDC3可能参与RNA processing——TOP3B functions in mRNA metabolism as RNA topoisomerase。
+
+**结构解读**：CCDC3的coiled-coil domain是该蛋白唯一被注释的structural feature。Coiled-coil motif是protein-protein interaction的经典scaffold, 常见于oligomerization（如leucine zipper transcription factors, cytoskeletal proteins）。CCDC3_C domain (PF28297) 为新近定义的conserved region, 其specific function未明确, 但positional conservation暗示其参与specific protein-protein recognition。pLDDT=75.4且全长均一性良好——提示该蛋白主要fold为single domain with coiled-coil architecture, 无disordered region。
+
+**机制模型**：CCDC3的机制推演：(1) Canonical function——negatively regulates TNF-induced NF-kappaB activation in endothelial cells. CC domain可能介导CCDC3与NF-kappaB pathway component的direct binding, 从而interfere with signal transduction. 文献PMID:25193116提供该功能的实验基础。(2) Nuclear function——CCDC3在Nucleoplasm中的定位(Uncertain)提示可能具有尚未被experimentally validated的核内功能。Coiled-coil domain可能使其作为transcription factor co-activator or co-repressor的adaptor protein。(3) p53 pathway interaction——CCDC3-TP53-MDM2三角互作暗示CCDC3可能通过modulating p53 protein stability（compete with MDM2 for p53 binding）间接调控p53-dependent transcriptional programs。
+
+**TE调控展望**：CCDC3的TE regulation潜力为indirect inference。TE调控关联性取决于：(1) CCDC3-p53 interaction是否影响p53-mediated TE silencing——p53已知通过与DAXX/ATRX complex协作调控pericentromeric repetitive elements的H3K9me3 deposition；(2) NF-kappaB pathway modulation是否indirectly affect inflammatory signaling-driven TE expression——LINE-1 expression known to be upregulated under inflammatory conditions；(3) CCDC3的coiled-coil domain能否被co-opted为chromatin-associated complex的assembly scaffold。建议通过co-IP验证CCDC3-TP53 endogenous interaction, 在p53-wildtype vs p53-null cell line中比较CCDC3 loss对TE expression的影响, 以及luciferase reporter assay评估CCDC3对NF-kappaB-responsive TE promoter（如LTR-driven promoter）的transcriptional effect。
+
 ### PubMed
 
 **Count: 31**

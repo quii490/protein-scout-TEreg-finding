@@ -64,7 +64,12 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | SLC26A9 | 0.910 | 0.000 | 0.000 | 0.000 |
 | SLC26A3 | 0.888 | 0.000 | 0.000 | 0.000 |
 | SLC26A4 | 0.767 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| RACGAP1 | pull down | 11278976 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

@@ -55,7 +55,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | Partner | Combined | Exp | DB | Text |
 |---|---|---|---|---|
 | *STRING 无数据* | — | — | — | — |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| ATP5PB | blue native page | 19688755 |
+| ATP5PB | blue native page | 19688755 |
+| HSPD1 | proximity-dependent biotin identification | 29568061 |
+| PLGRKT | proximity-dependent biotin identification | 29568061 |
+| MGST3 | proximity-dependent biotin identification | 29568061 |
+| MGST3 | proximity-dependent biotin identification | 29568061 |
+| TOMM22 | proximity-dependent biotin identification | 29568061 |
+| TRMT61B | proximity-dependent biotin identification | 29568061 |
+| SCO1 | proximity-dependent biotin identification | 29568061 |
+| SFXN1 | proximity-dependent biotin identification | 29568061 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

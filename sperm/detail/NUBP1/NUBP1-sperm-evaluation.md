@@ -66,7 +66,12 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | CIAO1 | 0.969 | 0.000 | 0.000 | 0.000 |
 | CIAPIN1 | 0.967 | 0.000 | 0.000 | 0.000 |
 | NUBP1 | 0.959 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| QPCT | anti tag coimmunoprecipitation | 28514442 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

@@ -65,7 +65,20 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | SEPTIN2 | 0.999 | 0.000 | 0.000 | 0.000 |
 | SEPTIN7 | 0.998 | 0.000 | 0.000 | 0.000 |
 | SEPTIN11 | 0.998 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| SEPTIN5 | two hybrid | 16767699 |
+| SEPTIN5 | two hybrid | 16767699 |
+| SEPTIN5 | affinity technology | 16767699 |
+| TRAF6 | anti bait coimmunoprecipitation | 17353931 |
+| SEPTIN2 | anti bait coimmunoprecipitation | 17353931 |
+| VCAM1 | cross-linking study | 19738201 |
+| RRP1B | anti tag coimmunoprecipitation | 20926688 |
+| LRRK2 | anti tag coimmunoprecipitation | 31046837 |
+| LRRK2 | anti tag coimmunoprecipitation | 31046837 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

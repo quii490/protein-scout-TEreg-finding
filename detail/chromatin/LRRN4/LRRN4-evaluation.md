@@ -174,6 +174,16 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 
 该蛋白缺乏核/染色质定位证据，TE 调控潜力较低。
 
+### 深度机制分析
+
+LRRN4（Leucine-rich repeat and calponin homology domain-containing protein 4, 683 aa, UniProt O75427）。定位于Nucleoli/Nucleoli rim/Mitotic chromosome（HPA Uncertain），但同时有Cell membrane注释。InterPro注释IPR001715（Calponin homology domain）、IPR036872（CH domain superfamily）、IPR001611（LRR domain）、IPR003591（LRR typical subtype）、IPR032675。Pfam PF00307（CH domain）和PF13855（LRR_8）。SMART SM00033（CH）、SM00364（LRR_TYP）、SM00369（LRRCT）。UniProt FT标注DOMAIN 534-647为calponin-homology结构域。AlphaFold pLDDT=64.2（有序区51.8%），无PDB结构。
+
+该蛋白的独特之处在于其N端LRR结构域与C端CH结构域的组合——这种LRR+CH的域架构在人类蛋白质组中极少见。CH结构域通常作为肌动蛋白结合域（在spectrin、fimbrin、filamin等中），而LRR域介导蛋白-蛋白互作。因此LRRN4可能作为肌动蛋白细胞骨架与LRR介导的信号复合体之间的连接器。STRING预测伙伴包括ADGRL1-3（latrophilin adhesion GPCRs，0.514, experimental=0.514）——这些突触粘附GPCR可能通过LRRN4的LRR连接至actin细胞骨架。
+
+从TE调控角度，Nucleoli/Mitotic chromosome的定位（虽为Uncertain）提示存在细胞周期依赖的核定位——有丝分裂染色体的结合暗示LRRN4可能随染色体分离分布至子细胞。GO注释包含PML body（GO:0016605）——PML核体是TE限制和抗病毒应答的平台。BioGRID鉴定的MDFI（MyoD family inhibitor）、DZIP1L（纤毛zone）、HSF2BP（热休克因子2结合蛋白）互作提示发育调控功能。
+
+综合评分65.3/100。作为核定位不确定的蛋白，不建议作为TE调控的优先候选。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O75427
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000125872-LRRN4/subcellular

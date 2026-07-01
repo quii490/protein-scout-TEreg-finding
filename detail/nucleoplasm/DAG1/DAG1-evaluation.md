@@ -165,6 +165,16 @@ status: rejected
 - [ ] 设计体外实验验证核定位及潜在调控功能
 **该蛋白PubMed文献数 107 > 100，研究热度过高，不符合novelty筛选标准。**
 
+### 深度机制分析
+
+DAG1（UniProt Q14118）编码dystroglycan前体蛋白，翻译后经自催化切割产生alpha-和beta-dystroglycan两个功能亚基。Alpha-dystroglycan（N端胞外亚基，约653残基）包含两个钙离子结合cadherin-like结构域（IPR015919）和一个核心的黏多糖（matriglycan）修饰区域，通过广泛的O-甘露糖糖基化（由LARGE1/LARGE2催化）与层粘连蛋白G结构域和基底膜聚糖（agrin/perlecan）建立高亲和力的胞外基质连接。Beta-dystroglycan（C端跨膜亚基，约242残基）含有一个S72肽酶结构域（SM00736, 603-712 aa），其胞质尾部通过PPxY基序和SH3结合位点与dystrophin/utrophin的WW结构域结合，完成"胞外基质→质膜→细胞骨架"的力学信号传递轴。AlphaFold v6预测pLDDT仅为68.2，有序区域仅52.1%，低置信区域占38%——这些无序段主要集中在alpha亚基的黏多糖密集区和两亚基之间的自切割连接区，反映了dystroglycan在力学传感中所需的构象柔性。
+
+STRING-PPI网络呈现极端的高置信度互作图谱：UTRN（0.999, exp=0.768）、LAMA2（0.999, exp=0.311）、AGRN（0.999, exp=0.428）、DMD（0.999, exp=0.783）、SGCA（0.999, exp=0.193）、SGCD（0.999, exp=0.311）、HSPG2（0.999, exp=0.241）和SSPN（0.999）共同构成dystrophin-糖蛋白复合体（DGC）的完整成员图谱。这种极端高score值反映了DGC作为一个被充分研究的超分子组装体的进化保守性和功能重要性。PDB结构中，1EG4为beta-dystroglycan胞质尾与dystrophin WW结构域的NMR复合物，5GGP/5LLK/6JJY/7E9K等为alpha-dystroglycan的不同糖基化状态与层粘连蛋白/LARGE的复合物结构，这些实验数据已完整解析了dystroglycan的胞外/胞内识别机制。
+
+HPA IF给DAG1标注为Vesicles和Plasma membrane（支持和批准级别），同时检测到Nucleoplasm的额外信号。这一核质信号可能与文献中报道的dystroglycan核定位有关——某些研究表明beta-dystroglycan的胞质尾在特定条件下可被核输入途径识别并转运至细胞核，在核内与核膜蛋白emerin和lamin A/C互作，参与核骨架的组织和机械信号感知。然而，IntAct无人类实验互作记录，可能反映了DAG1互作研究主要集中在DGC复合体的经典生化框架内，核内互作组未被系统探索。
+
+从TE调控视角，DAG1的核存在缺乏明确的功能验证。虽然核骨架蛋白（lamin）和核膜蛋白（emerin/SUN/KASH）已被证明参与异染色质锚定和LINE-1沉默（通过lamin A/C与L1 ORF1蛋白的互作），但DAG1作为DGC复合体的一员，其在核内的浓度和占据时间远低于质膜，很可能代表一种非经典的"兼职"定位。DAG1 107篇PubMed文献（broad 569篇）使其成为高度竞争的蛋白质研究领域，其作为肌肉萎缩症的核心致病基因已被彻底研究，不适合作为新颖的TE调控靶标。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q14118
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000173402-DAG1/subcellular

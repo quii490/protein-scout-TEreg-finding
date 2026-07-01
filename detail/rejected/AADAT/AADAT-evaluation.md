@@ -159,6 +159,14 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 - [ ] **该蛋白核定位证据不足（≤3/10），不建议作为核蛋白研究目标。**
 
+### 深度机制分析
+
+AADAT（Kynurenine/alpha-aminoadipate aminotransferase, mitochondrial, 425 aa, UniProt Q8N5Z0）。REJECTED——核定位得分2/10（HPA: Plasma membrane/Vesicles, UniProt: Mitochondrion）。该蛋白是吡哆醛磷酸（PLP）依赖的氨基转移酶，催化犬尿氨酸（kynurenine）向犬尿喹啉酸（kynurenic acid）的转氨反应——色氨酸降解通路的限速步骤之一。InterPro注释IPR004839（aminotransferase class I/II）、IPR050859（AADAT subfamily）、IPR015424（PLP-dependent transferase）、IPR015421（PLP-dependent transferase major domain）。Pfam PF00155（Aminotran_1_2）。PDB已有7个实验结构（2QLR、2R2N、2VGZ、2XH1、3DC1、3UE8、4GDY等），AlphaFold pLDDT=97.3（有序区100%），结构数据极为充分。
+
+从酶学机制角度，AADAT以PLP为辅因子，通过典型的transaldimination机制将犬尿氨酸的α-氨基转移至α-酮戊二酸，生成犬尿喹啉酸。犬尿喹啉酸是广谱NMDA和α7-nACh受体拮抗剂，对神经保护和炎症调节至关重要（PMID:2803240）。STRING预测伙伴完美再现犬尿氨酸通路：KYAT1（0.999，犬尿氨酸氨基转移酶1）、KMO（0.983，犬尿氨酸3-单加氧酶）、KYNU（0.980，犬尿氨酸酶）、KYAT3（0.960）、AFMID（0.955，犬尿氨酸甲酰胺酶），显示完整的代谢通路互作网络。
+
+从TE调控角度，AADAT的线粒体定位和代谢酶功能不支持直接参与TE调控。但犬尿喹啉酸作为神经递质受体拮抗剂，其浓度变化可影响全局基因表达——尤其是涉及神经发育的转录程序（PMID:1953654）。间接通过表观遗传和信号转导影响染色质状态的场景不可能完全排除，但缺乏实验支撑。PubMed 32篇，综合评分64.4/100。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8N5Z0
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000109576-AADAT/subcellular

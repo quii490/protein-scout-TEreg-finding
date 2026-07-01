@@ -62,7 +62,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | KRTAP3-1 | 0.752 | 0.000 | 0.000 | 0.000 |
 | KRT34 | 0.717 | 0.000 | 0.000 | 0.000 |
 | KRT33B | 0.711 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| DLG3 | anti bait coimmunoprecipitation | 17353931 |
+| ? | anti bait coimmunoprecipitation | 17353931 |
+| PLEKHB2 | anti bait coimmunoprecipitation | 17353931 |
+| YWHAG | anti bait coimmunoprecipitation | 17353931 |
+| Unph4 | anti tag coimmunoprecipitation | 19615732 |
+| DISC1 | two hybrid fragment pooling approach | 31413325 |
+| ASMTL | two hybrid array | 32296183 |
+| ? | two hybrid array | 32296183 |
+| RAB33A | two hybrid array | 32296183 |
+| NPBWR2 | two hybrid array | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

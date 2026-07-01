@@ -65,7 +65,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | TUBGCP4 | 0.999 | 0.000 | 0.000 | 0.000 |
 | TUBGCP3 | 0.999 | 0.000 | 0.000 | 0.000 |
 | TUBGCP2 | 0.999 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| ? | anti bait coimmunoprecipitation | 17353931 |
+| CIAO1 | anti bait coimmunoprecipitation | 17353931 |
+| PTP4A3 | anti bait coimmunoprecipitation | 17353931 |
+| PEX14 | pull down | 21525035 |
+| PEX14 | pull down | 21525035 |
+| TUBG1 | proximity-dependent biotin identification | 29568061 |
+| DISC1 | two hybrid fragment pooling approach | 31413325 |
+| MAPK1 | anti tag coimmunoprecipitation | 31980649 |
+| RAF1 | anti tag coimmunoprecipitation | 31980649 |
+| RAF1 | anti tag coimmunoprecipitation | 31980649 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

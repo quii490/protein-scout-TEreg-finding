@@ -65,7 +65,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | SDHC | 0.527 | 0.000 | 0.000 | 0.000 |
 | FAM222A | 0.460 | 0.000 | 0.000 | 0.000 |
 | FAM222A | 0.455 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| PPP1CC | far western blotting | 21382349 |
+| SAXO4 | two hybrid | 21382349 |
+| PPP1CC | two hybrid | 21382349 |
+| SAXO4 | two hybrid | 21382349 |
+| SAXO4 | two hybrid | 21382349 |
+| SAXO4 | two hybrid | 21382349 |
+| SAXO4 | cross-linking study | 30021884 |
+| SAXO4 | two hybrid array | 32296183 |
+| SAXO4 | two hybrid array | 32296183 |
+| SAXO4 | two hybrid array | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

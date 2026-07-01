@@ -64,7 +64,13 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | NBPF26 | 0.456 | 0.000 | 0.000 | 0.000 |
 | ELOA3 | 0.447 | 0.000 | 0.000 | 0.000 |
 | NBPF26 | 0.408 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| ESR1 | tandem affinity purification | 31527615 |
+| ESR1 | tandem affinity purification | 31527615 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

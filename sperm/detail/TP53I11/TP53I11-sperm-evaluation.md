@@ -64,7 +64,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | ZNF573 | 0.475 | 0.000 | 0.000 | 0.000 |
 | UNC80 | 0.458 | 0.000 | 0.000 | 0.000 |
 | TP53I11 | 0.441 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| PIG11 | two hybrid prey pooling approach | 23275563 |
+| ESR1 | tandem affinity purification | 31527615 |
+| ESR1 | tandem affinity purification | 31527615 |
+| YIPF3 | anti tag coimmunoprecipitation | 28514442 |
+| MANSC1 | anti tag coimmunoprecipitation | 28514442 |
+| TCTN2 | proximity-dependent biotin identification | 26638075 |
+| TCTN3 | proximity-dependent biotin identification | 26638075 |
+| MANSC1 | anti tag coimmunoprecipitation | 33961781 |
+| TSPAN8 | anti tag coimmunoprecipitation | 33961781 |
+| NIPAL1 | anti tag coimmunoprecipitation | 33961781 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

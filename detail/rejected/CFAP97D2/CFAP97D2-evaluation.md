@@ -145,6 +145,16 @@ status: rejected
 - [ ] 设计体外实验验证核定位及潜在调控功能
 - [ ] **该蛋白核定位证据不足（≤3/10），不建议作为核蛋白研究目标。**
 
+### 深度机制分析
+
+**结构域架构**：CFAP97D2（98 aa, 11.7 kDa, A0A1B0GU71, pLDDT=85.7）是一个未被功能注释的极小蛋白（uncharacterized protein）。结构域注释仅含IPR038792（CFAP97 domain superfamily, 序列同源性指向cilia and flagella associated protein家族）和IPR029488/Pfam PF13879（DUF4632, domain of unknown function）——IPR029488为CFAP97 family protein的conserved C-terminal domain——在所有真核生物CFAP97 ortholog中高度保守。DUF4632的特征为~90 aa compact fold——predicted为all-α-helical or α/β mixed fold——但缺乏PDB实验结构确认。
+
+**PPI互作网络解读**：唯一STRING预测互作为CFAP97（cilia and flagella associated protein 97, STRING 0.592）——CFAP97是运动纤毛和精子鞭毛的关键axoneme assembly factor——localized to axonemal microtubule doublet和radial spoke complex——参与dynein arm docking和ciliary beat frequency regulation。CFAP97D2-CFAP97 interaction（STRING score 0.592, 无实验分）提示CFAP97D2可能作为CFAP97的small regulatory subunit或chaperone——但不排除其为pseudogene-derived annotation artifact——因为98 aa的极短编码区域常对应退化基因片段。IntAct 0 interactions和PubMed 0篇文献进一步佐证该蛋白缺乏独立的功能研究。
+
+**结构解读**：AlphaFold v6 pLDDT=85.7——有秩序区74.5%——高置信残基56.1%、置信残基18.4%——提示该小蛋白折叠为单一globular domain（约~75 aa folded core + flexible termini）——无显著IDR——高pLDDT compact fold暗示该domain为functional protein module——而非random coil or unstructured polypeptide。但缺乏PDB实验结构限制了原子分辨率的机制推断。
+
+**TE调控展望**：CFAP97D2作为cilia/flagella-associated protein family member——与nuclear TE silencing无任何已知功能关联。其极小蛋白大小（98 aa）、无DNA/RNA/chromatin-binding domain、无GO-CC核定位注释——使得CFAP97D2极不可能作为独立TE调控因子。即便通过CFAP97间接参与某些nuclear process——目前无实验证据支持CFAP97的nuclear shuttling或chromatin-associated function。CFAP97D2维持REJECTED状态（核定位得分3/10, ≤3）。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/A0A1B0GU71
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000283361-CFAP97D2/subcellular

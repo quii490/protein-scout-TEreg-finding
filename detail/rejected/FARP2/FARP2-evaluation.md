@@ -169,6 +169,18 @@ status: rejected
 - [ ] 设计体外实验验证核定位及潜在调控功能
 - [ ] **该蛋白核定位证据不足（≤3/10），不建议作为核蛋白研究目标。**
 
+### 深度机制分析
+
+FARP2（UniProt O94887）属于含有FERM超家族的多结构域RhoGEF蛋白，其结构域架构从N端到C端依次为：（1）FERM结构域（B41, IPR019749），一个由F1（泛素样折叠）、F2（酰基辅酶A结合蛋白样折叠）和F3（磷酸酪氨酸结合样折叠）三叶草形模块组成，介导与磷脂酰肌醇脂质和跨膜受体的膜定位；（2）DH（Dbl homology, IPR000219）结构域，典型的RhoGEF催化核心，采用约180残基的细长螺旋束折叠，通过直接接触Rho GTPase的switch I/II区域催化GDP/GTP交换；（3）PH（pleckstrin homology, IPR000798）结构域，紧随DH结构域之后，通过结合PI(4,5)P2/PI(3,4,5)P3磷酸肌醇将DH-PH串联模块锚定至质膜，协同RhoGEF活性的膜定位；（4）C端FERM相邻结构域（IPR014847），功能未完全注释但可能参与自身抑制或额外互作。
+
+AlphaFold v6预测pLDDT=74.6，有序区域67.8%，高置信残基53.3%——这一中等置信度反映了FARP2作为大型多结构域蛋白（1054 aa/119.9 kDa）的模块化架构特征：各结构域（FERM/DH/PH）内部折叠置信度高，而结构域间连接区（linker）因缺乏有序二级结构而呈低置信度。无实验PDB结构，但FARP1的同源FERM结构域晶体结构（PMID:29992992）提供了FERM模块膜定位机制的可靠模型。
+
+STRING-PPI网络将FARP2置于semaphorin/plexin信号轴：CDC42（0.925）、SRC（0.910）、RAC1（0.773）为经典Rho GTPase信号节点，PLXNA1（0.875）和PLXNA4（0.829）为semaphorin受体，SEMA3A（0.827）为信号配体。IntAct实验数据提供了人类蛋白互作的直接证据：CHN1（alpha-chimaerin, RacGAP, PMID:32203420）、VAV1（Rac1 GEF, PMID:32203420）、PRKCZ（atypical PKCzeta, PMID:31980649）和CSNK1E（casein kinase 1 epsilon, PMID:23455922）均为信号转导核心因子。RAP1A/RAP1B（0.907）参与integrin-mediated cell adhesion，PIP5K1C（0.907）生成PI(4,5)P2，整条通路描绘了一个从"semaphorin→plexin→FARP2→RhoGTPase→细胞骨架/黏附"的完整信号传递链。
+
+HPA IF仅定位到Cytosol（胞质溶胶, approved），核定位得分2/10，GO注释仅限于cytoplasm和cytosol。这一结果与FARP2的FERM-DH-PH膜靶向机制一致——FERM结构域和PH结构域对质膜磷酸肌醇的亲和力将蛋白招募至胞质膜近端，而非细胞核。FARP2的功能完全限定在细胞骨架调控和RhoGTPase信号范畴，缺乏任何核定位信号（NLS）、DNA/染色质结合结构域或核蛋白互作证据。在semaphorin 3A诱导牙髓干细胞成牙本质分化（PMID:27302880）和HDL胆固醇代谢调控（PMID:18988887）中的功能均通过胞质信号通路介导。
+
+从TE调控筛选角度，FARP2的淘汰理由充分：核定位=2/10，远低于3分的最低阈值。其FARP2-FERM-DH-PH三模块GEF架构已被FARP1的结构研究（PMID:29992992）深入阐述，蛋白的功能范式明确限定在胞质信号转导范畴。虽然RhoGTPase信号通路间接影响染色质状态（通过SRF/MRTF转录因子和actin dynamics），但这种远端关联不符合新TE调控候选蛋白的直接靶向标准。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O94887
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000006607-FARP2/subcellular

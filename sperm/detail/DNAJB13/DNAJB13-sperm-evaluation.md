@@ -66,7 +66,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | HSPA8 | 0.939 | 0.000 | 0.000 | 0.000 |
 | HSPA6 | 0.925 | 0.000 | 0.000 | 0.000 |
 | HSPA5 | 0.915 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| TSARG3 | two hybrid array | 32296183 |
+| TSARG3 | two hybrid array | 32296183 |
+| TSARG3 | two hybrid array | 32296183 |
+| TSARG3 | validated two hybrid | 32296183 |
+| SEPTIN1 | two hybrid prey pooling approach | 32296183 |
+| TSARG3 | validated two hybrid | 32296183 |
+| TSARG3 | validated two hybrid | 32296183 |
+| TOM1L1 | validated two hybrid | 32296183 |
+| TSARG3 | validated two hybrid | 32296183 |
+| TSARG3 | two hybrid array | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

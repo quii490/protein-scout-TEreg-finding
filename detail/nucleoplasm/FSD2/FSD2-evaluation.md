@@ -187,6 +187,14 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 
 该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
+### 深度机制分析
+
+FSD2（Fibronectin type III and SPRY domain-containing protein 2, 749 aa, 85.4 kDa, UniProt A1L4K1, 别名SPRYD1）的域架构为两个串联的纤连蛋白III型域（FN3-1: aa375-470, FN3-2: aa471-564, SMART:SM00060, Pfam:PF00041, PROSITE:PRU00316）后接C端B30.2/SPRY域（aa546-744, SMART:SM00449, Pfam:PF00622, PROSITE:PRU00548）。InterPro补充注释了TNFR/NGFR半胱氨酸富集区信号（IPR001870, IPR043136, IPR003879）、B30.2/SPRY折叠（IPR013320, IPR050617）和Ig样域（IPR003961, IPR036116, IPR013783）。FN3域由约90个残基组成——折叠为7条β链的免疫球蛋白样sandwich，在细胞黏附分子、细胞因子受体和ECM蛋白中用作通用互作支架。B30.2/SPRY域由约200个残基构成——N端PRY亚域+C端SPRY亚域形成扭曲的β-sandwich，其凹面提供蛋白互作平台。SPRY域在TRIM家族E3泛素连接酶（如TRIM5α, TRIM21, TRIM28/KAP1）和butyrophilin家族中高度保守——其中TRIM28/KAP1的SPRY域直接"阅读"N端组蛋白尾部并招募异染色质蛋白。AlphaFold v6 pLDDT=73.5（高置信34.6%, 有序区67.0%）预测FN3和SPRY域以中等置信度折叠，而N端约370 aa区域贡献了全局pLDDT的主要下降（21.6%低置信区），PDB无实验结构（PDB=0）。
+
+PPI网络揭示了FSD2的转录调控潜力。STRING高分伙伴ESD/酯酶D（combined score=0.688, 实验=0.688, humanPPI: Intact+Biogrid）催化S-甲酰谷胱甘肽水解——参与甲醛解毒和谷胱甘肽代谢，已知ESD定位于核内并与核基质结合。MTERF3（STRING score=0.455, 线粒体转录终止因子3）和POLL/DNA聚合酶lambda（STRING score=0.444, 实验=0.444, X家族DNA pol, 参与碱基切除修复BER和NHEJ）的关联拓展了功能范围。BioGRID互作中FMR1/FMRP（脆性X智力低下蛋白, 含RGG-box RNA结合域的翻译抑制因子——与RISC和microRNA通路直接相关）和NDN/Necdin（MAGE家族, 细胞周期阻滞和神经元分化, 转录共抑制因子）和AES/Amino-terminal enhancer of split（Groucho/TLE转录共抑制家族）均为核质转录/RNA调控蛋白。最为关键的是humanPPI中CBX8/PC3（Intact互作, AF3结构可用）——CBX8是多梳抑制复合体1（PRC1）的chromodomain亚基，负责识别H3K27me3修饰并维持基因沉默。FSD2-SPRY域与CBX8的结合若在体内证实，将直接建立FSD2→PRC1→H2AK119ub→H3K27me3→转录沉默的信号链。
+
+UniProt注释FSD2定位于Nucleus、Sarcoplasmic reticulum和Cytoplasm perinuclear region（Swiss-Prot/TrEMBL），GO-CC支持Nucleus（GO:0005634）和Perinuclear region（GO:0048471），HPA显示Cytosol（Approved）——三源定位可能反映条件依赖的核-质穿梭。FSD2的SPRY域（与TRIM家族共享）+核定位+CBX8（PRC1组分）/FMR1（RISC相关）/AES（TLE共抑制子）的多重转录抑制相关互作，构成被严重低估的染色质调控潜力。TRIM28/KAP1通过SPRY域识别H3K9me3并招募SETDB1和HP1——如果FSD2通过其SPRY域执行类似功能，可能构成PRC1非依赖的H3K27me3/H3K9me3修饰阅读和异染色质扩散机制。PubMed仅29篇（新颖性8/10）使FSD2成为高度新颖且机制潜力丰富的候选。实验优先级：co-IP验证FSD2-CBX8和FSD2-FMR1互作；ChIP-seq检测FSD2占据位点（特别关注H3K27me3标记的TE区域）；SPRY域-GST-pulldown检测组蛋白肽结合特异性。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/A1L4K1
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000186628-FSD2/subcellular

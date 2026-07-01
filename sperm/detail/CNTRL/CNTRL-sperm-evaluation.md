@@ -64,7 +64,14 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | CCDC68 | 0.974 | 0.000 | 0.000 | 0.000 |
 | CCDC120 | 0.972 | 0.000 | 0.000 | 0.000 |
 | CCDC120 | 0.970 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| CEP1 | two hybrid pooling approach | 20936779 |
+| CEP1 | two hybrid pooling approach | 20936779 |
+| ESR2 | cosedimentation through density gradient | 21182203 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

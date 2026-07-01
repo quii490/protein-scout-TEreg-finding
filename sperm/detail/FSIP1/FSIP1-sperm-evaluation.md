@@ -66,7 +66,13 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | HADH | 0.858 | 0.000 | 0.000 | 0.000 |
 | ELAC2 | 0.853 | 0.000 | 0.000 | 0.000 |
 | TRMT10C | 0.836 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| POLR2A | cross-linking study | 30021884 |
+| S100P | anti tag coimmunoprecipitation | 33961781 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

@@ -65,7 +65,20 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | TRIM3 | 0.765 | 0.000 | 0.000 | 0.000 |
 | KIF21A | 0.757 | 0.000 | 0.000 | 0.000 |
 | KIF21A | 0.723 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| YWHAH | anti tag coimmunoprecipitation | 28514442 |
+| YWHAQ | anti tag coimmunoprecipitation | 28514442 |
+| YWHAB | anti tag coimmunoprecipitation | 28514442 |
+| YWHAG | anti tag coimmunoprecipitation | 28514442 |
+| TRAF3IP1 | two hybrid fragment pooling approach | 31413325 |
+| CDC5L | two hybrid fragment pooling approach | 31413325 |
+| NTAQ1 | two hybrid prey pooling approach | 32296183 |
+| PMF1 | anti tag coimmunoprecipitation | 28514442 |
+| NTAQ1 | two hybrid array | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

@@ -64,7 +64,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | WDR60 | 0.997 | 0.000 | 0.000 | 0.000 |
 | DYNC2LI1 | 0.997 | 0.000 | 0.000 | 0.000 |
 | DYNLL1 | 0.997 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| UBE2I | two hybrid pooling approach | 16189514 |
+| KLHL13 | anti tag coimmunoprecipitation | 19615732 |
+| HSP90AA1 | tandem affinity purification | 19875381 |
+| HSP90AA1 | tandem affinity purification | 19875381 |
+| KLHDC10 | anti tag coimmunoprecipitation | 20562859 |
+| CUL3 | tandem affinity purification | 21145461 |
+| DCUN1D1 | tandem affinity purification | 21145461 |
+| GAN | anti tag coimmunoprecipitation | 28514442 |
+| KLHL29 | anti tag coimmunoprecipitation | 28514442 |
+| KLHL6 | anti tag coimmunoprecipitation | 28514442 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

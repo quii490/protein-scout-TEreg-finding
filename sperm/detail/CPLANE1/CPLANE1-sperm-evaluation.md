@@ -64,7 +64,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | TMEM216 | 0.987 | 0.000 | 0.000 | 0.000 |
 | TCTN3 | 0.984 | 0.000 | 0.000 | 0.000 |
 | WDR70 | 0.944 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| C5orf42 | two hybrid pooling approach | 20936779 |
+| KIAA0829 | tandem affinity purification | 21145461 |
+| AUH | cross-linking study | 30021884 |
+| C5orf42 | cross-linking study | 30021884 |
+| C5orf42 | cross-linking study | 30021884 |
+| DISC1 | two hybrid fragment pooling approach | 31413325 |
+| BRAP | two hybrid | 25820252 |
+| TUBGCP4 | anti tag coimmunoprecipitation | 26496610 |
+| S100B | anti tag coimmunoprecipitation | 33961781 |
+| TESK2 | pull down | 32707033 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

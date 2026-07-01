@@ -67,7 +67,19 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | TSSK1B | 0.716 | 0.000 | 0.000 | 0.000 |
 | GAPVD1 | 0.698 | 0.000 | 0.000 | 0.000 |
 | TSSK1B | 0.652 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| HSP90AB1 | luminescence based mammalian interactome mapping | 22939624 |
+| FAM229B | validated two hybrid | 32296183 |
+| FOXN1 | validated two hybrid | 32296183 |
+| FOXN1 | mammalian protein protein interaction trap | 32296183 |
+| TSKS | two hybrid array | 32296183 |
+| TSKS | two hybrid prey pooling approach | 32296183 |
+| CASS3 | validated two hybrid | 32296183 |
+| MEOX2 | validated two hybrid | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

@@ -154,45 +154,14 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 
 该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q8NAA5
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000181350-LRRC75A/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=LRRC75A
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8NAA5
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### 深度机制分析
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000181350-LRRC75A/subcellular
+LRRC75A（Leucine-rich repeat-containing protein 75A, 344 aa, UniProt Q8NAA5）。定位于Nucleoplasm（HPA Approved），额外Nucleoli和Cytosol。InterPro注释IPR032675（LRR_NTF结构域，富含亮氨酸重复序列的N端帽结构域），Pfam未检出。AlphaFold pLDDT=74.5（有序区61.6%），无PDB实验结构。
 
-![](https://images.proteinatlas.org/28528/255_A9_1_red_green.jpg)
-![](https://images.proteinatlas.org/28528/255_A9_2_red_green.jpg)
-![](https://images.proteinatlas.org/28528/256_A9_1_red_green.jpg)
-![](https://images.proteinatlas.org/28528/256_A9_2_red_green.jpg)
-![](https://images.proteinatlas.org/28528/257_A9_1_red_green.jpg)
-![](https://images.proteinatlas.org/28528/257_A9_2_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
+从结构域架构角度，LRR（富含亮氨酸重复序列）结构域形成马蹄形螺旋结构，在先天免疫中作为模式识别受体（如TLR蛋白）发挥作用，但也可介导蛋白-蛋白互作和核酸结合。LRRC75A的LRR_NTF结构域提示可能折叠为经典LRR折叠。但pLDDT=74.5中等置信度，28.5%残基低于50，表明蛋白存在显著无序区域——可能位于LRR域间的linker或未被注释的低复杂度区域。
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+从PPI网络角度，数据极其匮乏——STRING 0个预测互作，IntAct 0个实验互作。HPA interaction页面也未解析到任何伙伴。GO注释的Cul2-RING ubiquitin ligase complex (GO:0031462)提示LRRC75A可能与Cullin2泛素连接酶复合体相关，但无直接证据。值得注意的是，文献研究几乎完全集中在lncRNA LRRC75A-AS1上（作为ceRNA竞争miRNA），而非LRRC75A蛋白本身（PMID:38180377, PMID:40858914, PMID:31505952），蛋白功能的文献盲区极为显著。
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q8NAA5-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+从TE调控角度，LRRC75A在nucleoplasm的定位、LRR结构域（可能参与核酸结合）和Cul2-RING连接酶的潜在关联形成推理性框架：CRL2（Cullin2-RING ligase）复合体参与多个染色质相关底物的泛素化降解，若LRRC75A作为CRL2底物识别亚基，可能调控TE区域组蛋白修饰相关蛋白的周转。但这是完全推理性的模型。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-07）
-
-### SMART / UniProt domain
-| Source | Data |
-|---|---|
-| UniProt | Q8NAA5 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR032675; |
-| Pfam | 未检出 |
-
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000181350-LRRC75A/interaction
-
-未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->
+PubMed 16篇，综合评分65.6/100。强烈建议开展LRRC75A蛋白（非其lncRNA）的首次功能表征。

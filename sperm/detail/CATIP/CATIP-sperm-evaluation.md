@@ -52,7 +52,17 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | Partner | Combined | Exp | DB | Text |
 |---|---|---|---|---|
 | *STRING 无数据* | — | — | — | — |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| DDIT4L | two hybrid array | 32296183 |
+| CYSRT1 | validated two hybrid | 32296183 |
+| B2A | validated two hybrid | 32296183 |
+| MEDAG | validated two hybrid | 32296183 |
+| KRT31 | validated two hybrid | 32296183 |
+| GOLGA6L9 | validated two hybrid | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

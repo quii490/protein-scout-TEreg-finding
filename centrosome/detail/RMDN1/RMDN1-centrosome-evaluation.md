@@ -91,6 +91,14 @@ PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判�
 
 **CENTROSOME CANDIDATE**
 
+### 深度机制分析
+
+RMDN1（Regulator of microtubule dynamics 1, UniProt Q96DB5, 别名PTPIP51/RMD1/C1orf187）是微管动力学调控蛋白，域架构为N端RMD1-3串联重复域（InterPro:RMD1-3_a_helical_rpt, Pfam:RMD1-3/DUF2665）——该域由约三个α-螺旋repeat单元组成，形成TPR样（TetratricoPeptide Repeat-like）超螺旋束折叠（IPR011990/TPR-like_helical_dom_sf）。TPR样折叠通过α-螺旋堆积形成疏水沟槽——介导蛋白-蛋白互作，特别是识别Hsp90和Hsp70分子伴侣的C端EEVD基序。RMDN1是蛋白酪氨酸磷酸酶PTPIP51（Protein tyrosine phosphatase interacting protein 51）的互作蛋白——得名于此。
+
+HPA IF确认RMDN1定位于Actin filaments和Centrosome（Supported）——支持的中心体定位（HPA抗体HPA026495, 可靠性Supported）是筛选为CENTROSOME CANDIDATE的关键依据。STRING互作图谱以ELOC/Elongin C（combined score=0.908）为核心——ELOC是转录延伸因子复合体（Elongin BC, 与RNA Pol II结合）和CRL E3泛素连接酶复合物（Cullin2/5-RING）的共享亚基。ELOC作为枢纽蛋白间接联系RMDN1与转录调控和蛋白降解。MRPL13（线粒体核糖体蛋白L13, score=0.607）和RRS1（核糖体生物发生因子, score=0.583）的关联提示RMDN1与翻译机器的潜在互作。FAM91A1（score=0.549）是高尔基体/内膜相关蛋白。
+
+RMDN1在中心体的功能尚未被实验解析。RMD1-3域的TPR样折叠提示它可能作为分子伴侣平台——在中心体处协助微管蛋白（tubulin）二聚体组装至微管正端/+TIP复合物或协助中心粒复制/延伸因子的蛋白折叠。ELOC-STRT互作将RMDN1与CRL2 E3连接酶通路联系——从而可能参与中心体蛋白的泛素化降解。PubMed仅7篇——极度低研究量。Score=66/100（中心体模块）。RMDN1在TE调控中的潜力为零——作为微管/中心体蛋白，其功能完全定位于胞质微管网络组织。
+
 ⚠️ *此为自动生成初步评估。UniProt/GO-CC、PDB/结构域、IntAct/BioGRID、关键文献等维度需人工补充完善。*
 
 ## 9. 人工复核备注

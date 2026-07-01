@@ -63,7 +63,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | IFT88 | 0.999 | 0.000 | 0.000 | 0.000 |
 | IFT74 | 0.999 | 0.000 | 0.000 | 0.000 |
 | IFT22 | 0.999 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| IFT25 | pull down | 27173435 |
+| IFT25 | pull down | 27173435 |
+| IFT25 | pull down | 27173435 |
+| IFT27 | two hybrid pooling approach | 16189514 |
+| VHL | anti bait coimmunoprecipitation | 17353931 |
+| IFT25 | two hybrid array | 31515488 |
+| IFT25 | two hybrid array | 32296183 |
+| IFT27 | validated two hybrid | 32296183 |
+| GORASP2 | validated two hybrid | 32296183 |
+| IFT25 | inference by socio-affinity scoring |  |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

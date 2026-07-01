@@ -67,7 +67,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | TUBB8 | 0.966 | 0.000 | 0.000 | 0.000 |
 | TUBB8 | 0.963 | 0.000 | 0.000 | 0.000 |
 | TUBB8 | 0.963 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| MAP3K1 | tandem affinity purification | 14743216 |
+| KIAA0036 | anti tag coimmunoprecipitation | 21565611 |
+| PEX14 | pull down | 21525035 |
+| PEX14 | pull down | 21525035 |
+| MME | anti bait coimmunoprecipitation | 17342744 |
+| KATNBL1 | tandem affinity purification | 26929214 |
+| KATNB1 | tandem affinity purification | 26929214 |
+| TAF5L | anti tag coimmunoprecipitation | 28514442 |
+| KATNAL1 | tandem affinity purification | 26929214 |
+| KATNA1 | tandem affinity purification | 26929214 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

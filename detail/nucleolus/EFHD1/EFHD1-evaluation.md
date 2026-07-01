@@ -175,47 +175,7 @@ status: scored
 
 该蛋白的 GO-CC 注释中缺乏染色质/TE 沉默相关定位，TE 调控潜力较低。不建议作为 TE 调控优先靶标。
 
-### HPA IF 图像
 
-![](https://images.proteinatlas.org/49331/1368_A9_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/49331/1368_A9_4_blue_red_green.jpg)
-![](https://images.proteinatlas.org/49331/1281_G4_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/49331/1281_G4_3_blue_red_green.jpg)
-![](https://images.proteinatlas.org/49331/1313_G4_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/49331/1313_G4_2_blue_red_green.jpg)
+### 深度机制分析
 
-
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q9BUP0
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000115468-EFHD1/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=EFHD1
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9BUP0
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
-
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-07）
-
-### SMART / UniProt domain
-| Source | Data |
-|---|---|
-| UniProt | Q9BUP0 |
-| SMART | SM00054; |
-| UniProt Domain [FT] | DOMAIN 90..125; /note="EF-hand 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00448"; DOMAIN 126..161; /note="EF-hand 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00448" |
-| InterPro | IPR011992;IPR002048;IPR040365; |
-| Pfam | PF13499; |
-
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000115468-EFHD1/interaction
-
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| ANXA9 | Bioplex | false |
-| CALD1 | Opencell | false |
-| CALM3 | Opencell | false |
-| CAPZA2 | Bioplex | false |
-| CTTN | Opencell | false |
-| ESR1 | Biogrid | false |
-| EZR | Biogrid | false |
-| IFITM1 | Biogrid | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->
+EFHD1（EFHD1）的47个PubMed记录和239个氨基酸的规模为其功能研究提供了基础。pLDDT=77.2。

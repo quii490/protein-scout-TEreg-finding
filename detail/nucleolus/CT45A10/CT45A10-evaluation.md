@@ -96,40 +96,7 @@ TrEMBL 未审查条目，功能尚未充分注释。
 | POLD1 | BioGRID | 1 |
 
 
-### HPA IF 图像
 
-HPA 检索: https://www.proteinatlas.org/search/CT45A10
+### 深度机制分析
 
-### ESMFold 结构预测
-
-**方法**: Meta ESM Metagenomic Atlas API ab initio 折叠。
-**PDB**: `detail/_esm_structures/CT45A10_esmfold.pdb`
-
-| 指标 | 数值 |
-|---|---|
-| ESMFold 平均 pLDDT | 0.54 |
-| pLDDT > 0.9 | 0.0% |
-| pLDDT < 0.5 | 56.1% |
-| 残基数 | 189 |
-
-ESMFold 基于进化规模语言模型，无MSA搜索的从头折叠，可作为AlphaFold的独立验证。
-
-
-### 5. 数据来源
-
-- UniProt: https://www.uniprot.org/uniprotkb/P0DMU9
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/P0DMU9
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CT45A10
-
-### HPA IF 图像
-
-HPA: https://www.proteinatlas.org/ENSG00000269586-CT45A10
-
-![](https://images.proteinatlas.org/44735/1354_A6_1_red_green.jpg)
-![](https://images.proteinatlas.org/44735/1354_A6_4_red_green.jpg)
-![](https://images.proteinatlas.org/46872/589_E10_1_red_green.jpg)
-![](https://images.proteinatlas.org/46872/589_E10_2_red_green.jpg)
-![](https://images.proteinatlas.org/46872/709_E10_1_red_green.jpg)
-![](https://images.proteinatlas.org/46872/709_E10_2_red_green.jpg)
-![](https://images.proteinatlas.org/46872/573_E10_3_red_green.jpg)
-![](https://images.proteinatlas.org/46872/573_E10_4_red_green.jpg)
+CT45A10（Cancer/testis antigen family 45 member A10）的IPR029307, InterPro:IPR051113, Pfam:PF15300 |结构域组合为其功能提供了结构基础。189个氨基酸构成了kDa的蛋白质。pLDDT=N/A，PDB=0。

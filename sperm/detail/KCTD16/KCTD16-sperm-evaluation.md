@@ -63,7 +63,18 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | KCTD8 | 0.600 | 0.000 | 0.000 | 0.000 |
 | KCTD16 | 0.595 | 0.000 | 0.000 | 0.000 |
 | KCTD20 | 0.578 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| HAL | anti tag coimmunoprecipitation | 28514442 |
+| ZFP69B | anti tag coimmunoprecipitation | 33961781 |
+| HAL | anti tag coimmunoprecipitation | 33961781 |
+| GNG2 | anti tag coimmunoprecipitation | 33961781 |
+| RIMS1 | anti bait coimmunoprecipitation | 37207277 |
+| RIMS1 | anti bait coimmunoprecipitation | 37207277 |
+| HCN1 | anti bait coimmunoprecipitation | 37207277 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

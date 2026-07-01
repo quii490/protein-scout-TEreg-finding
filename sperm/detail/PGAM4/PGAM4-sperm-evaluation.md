@@ -67,7 +67,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | ENO1 | 0.994 | 0.000 | 0.000 | 0.000 |
 | ENO1 | 0.992 | 0.000 | 0.000 | 0.000 |
 | ENO3 | 0.989 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| PGAM2 | anti tag coimmunoprecipitation | 28514442 |
+| PGAM2 | anti tag coimmunoprecipitation | 33961781 |
+| IL2RA | anti tag coimmunoprecipitation | 33961781 |
+| CCSER1 | anti tag coimmunoprecipitation | 33961781 |
+| EPB41L4B | anti tag coimmunoprecipitation | 33961781 |
+| HEY2 | anti tag coimmunoprecipitation | 33961781 |
+| PPM1B | anti tag coimmunoprecipitation | 33961781 |
+| SPAST | anti tag coimmunoprecipitation | 33961781 |
+| CCNL1 | anti tag coimmunoprecipitation | 33961781 |
+| RYK | anti tag coimmunoprecipitation | 33961781 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

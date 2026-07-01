@@ -66,7 +66,13 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | NME6 | 0.959 | 0.000 | 0.000 | 0.000 |
 | AK9 | 0.957 | 0.000 | 0.000 | 0.000 |
 | RRM1 | 0.954 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| CUL4A | tandem affinity purification | 21145461 |
+| APG16L | anti tag coimmunoprecipitation | 31015422 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

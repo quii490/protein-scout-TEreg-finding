@@ -66,7 +66,16 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | C9orf116 | 0.734 | 0.000 | 0.000 | 0.000 |
 | C9orf116 | 0.710 | 0.000 | 0.000 | 0.000 |
 | IQUB | 0.692 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| IHO1 | two hybrid array | 31515488 |
+| TRIM23 | two hybrid array | 31515488 |
+| TRIM54 | two hybrid array | 31515488 |
+| EYA2 | validated two hybrid | 32296183 |
+| RHOH | validated two hybrid | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

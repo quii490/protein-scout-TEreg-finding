@@ -64,7 +64,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | TCERG1 | 0.995 | 0.000 | 0.000 | 0.000 |
 | PQBP1 | 0.994 | 0.000 | 0.000 | 0.000 |
 | UBL5 | 0.993 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| NCK2 | two hybrid pooling approach | 16189514 |
+| RUNX1T1 | two hybrid pooling approach | 16189514 |
+| DDX17 | two hybrid pooling approach | 16189514 |
+| MCRS1 | two hybrid pooling approach | 16189514 |
+| TRIP10 | two hybrid pooling approach | 16189514 |
+| ARF1 | two hybrid pooling approach | 16169070 |
+| PQBP1 | two hybrid array | 16713569 |
+| PCBP1 | two hybrid | 16713569 |
+| PCBP1 | pull down | 16713569 |
+| SH3P17 | two hybrid | 18654987 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

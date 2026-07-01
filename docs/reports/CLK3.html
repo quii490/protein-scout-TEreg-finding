@@ -144,6 +144,11 @@
 </tbody></table></div>
 <h4>TE 调控评估</h4>
 <p>该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。</p>
+<h4>深度机制分析</h4>
+<p>CLK3（UniProt P49761）的域架构几乎完全由蛋白激酶催化域（aa 156-472, PROSITE PRU00159, SMART SM00220, PF00069）构成，属于CDC2样激酶（CLK）家族，具有丝氨酸/苏氨酸和酪氨酸双特异性磷酸化活性。CLK3拥有所有候选蛋白中最丰富的PDB实验结构覆盖——2EU9和2EXE（apo催化域）、2WU6和2WU7（抑制剂复合物）、3RAW（ATP竞争性抑制剂）、6FT7/6FYP/6FYR/6KHF/6RCT（多样化抑制剂结合态），共10个条目，为药物设计提供了丰富的构象信息。AlphaFold v6平均pLDDT=79.0，有序区域占比70.9%，催化域折叠置信度极高，而N端前激酶区域和C端尾巴呈无序状态（pLDDT&lt;50占比28.2%），后者可能含有调控磷酸化位点和蛋白互作线性基序。</p>
+<p>PPI网络以剪接体SR蛋白激酶体系为中心。STRING中TRA2B（combined score=0.855, experimental=0.773）、CLK2（0.846, exp=0.836）、TRA2A（0.837, exp=0.787）、RSRP1（0.835, exp=0.786）、SRSF10（0.833, exp=0.742）、SRSF8（0.831, exp=0.797）和SRSF1（0.782, exp=0.592）构成SR蛋白磷酸化调控网络。IntAct实验验证：TRA2A（串联亲和纯化, PMID:23602568）、CLK2（酵母双杂交）、RSRP1（酵母双杂交）、HSP90AB1（荧光素酶哺乳动物互作, PMID:22939624）、SUMO3（亲和层析, PMID:17000644）。SNIP1（HPA AF3结构支持）通过HPA互作将CLK3连接至转录调控。COQ7（combined score=0.893，无实验验证）是罕见的线粒体-核散斑交叉互作，暗示代谢状态可能通过CLK3-COQ7轴影响剪接调控。</p>
+<p>CLK3磷酸化SR蛋白（SRSF1、SRSF10等）RS结构域中的丝氨酸/精氨酸二肽重复序列，调控其在核散斑中的亚核定位和可变剪接活性。CLK3与CLK2和SRPK2组成激酶级联，在不同阶段调控剪接因子功能：SRPK2在细胞质中磷酸化SR蛋白促进其核输入，CLK3/CLK2在核散斑中进一步磷酸化以释放SR蛋白结合pre-mRNA。CLK3定位于核散斑（GO:0016607, UniProt）和核质，是pre-mRNA加工场所的常驻组分。在结直肠癌中CLK3通过IL-6/STAT3信号通路促进增殖（PMID:38885806），在胆管癌中通过重编程核苷酸代谢驱动肿瘤进展（PMID:32453420），MFAP2/m1A甲基化调控CLK3表达（PMID:36583532）揭示了表观转录组层面的上游控制。CLK3对非洲爪蟾神经发育至关重要（PMID:34146908），具有保守的发育生物学功能。</p>
+<p>CLK3是结构表征最为彻底的（10个PDB结构）双特异性激酶，其SR蛋白底物谱、核散斑定位和SUMO修饰连接使其与共转录pre-mRNA处理和TE抑制密切相关——许多TE转录本需通过剪接体加工和SR蛋白调控来决定其RNA命运。CLK3-COQ7互作将剪接激酶活性与线粒体CoQ代谢桥接，具有核-线粒体交叉通讯的潜在意义。丰富的抑制剂结合晶体结构为靶向CLK3的药物开发提供了得天独厚的结构基础。</p>
 <h4>5. 数据来源</h4>
 <ul><li>UniProt: https://www.uniprot.org/uniprotkb/P49761</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000179335-CLK3/subcellular</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CLK3</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/P49761</li><li>STRING: https://string-db.org/network/9606.ENSP00000</li><li>Data fetched live: 2026-06-03</li></ul>
 <p>&lt;!-- HPA_IF_REPAIR_START --&gt; <strong>HPA IF 图像修正（2026-06-05）</strong>: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (supported)。来源: https://www.proteinatlas.org/ENSG00000179335-CLK3/subcellular</p>

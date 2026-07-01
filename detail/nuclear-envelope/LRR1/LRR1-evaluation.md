@@ -186,7 +186,17 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 
 该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
-### 5. 数据来源
+### 深度机制分析
+
+LRR1（414 aa, 46.7 kDa, UniProt Q96L50）的域架构相对紧凑——N端为富亮氨酸重复域（LRR domain, InterPro:IPR001611, IPR032675, SMART:SM00369, Pfam:PF00560, PF12799），包含约14个LRR重复单元（每个22-24 aa，富含亮氨酸，形成马蹄形螺线管折叠），C端为LRR-CT（IPR025875, Pfam:PF25344）。LRR域是蛋白质互作的通用平台——马蹄形螺线管的凹面形成延展的β-折叠结合界面。AlphaFold v6 pLDDT=88.2（90.6%有序区, 63.3% pLDDT>90）确认LRR1结构中LRR域以最高置信度折叠为典型的马蹄形螺线管——这是极高的预测质量。PDB 7PLO是LRR1与CUL2-RBX1-ELOB/C复合物的Cryo-EM结构（分辨率约3.0 A）——提供了LRR1作为Cullin-RING E3泛素连接酶底物识别亚基的直接结构证据。
+
+LRR1是CRL2（Cullin2-RING Ligase）E3泛素连接酶复合物的底物识别受体——STRING互作图谱的极高置信度且全实验验证的核心互作定义了此复合体的完整组成：CUL2（combined score=0.996, 实验=0.971）→ELOC/Elongin C（0.989, 实验=0.928）+ ELOB/Elongin B（0.984, 实验=0.914）→RBX1/ROC1（0.990, 实验=0.931）。CRL2-LRR1复合体的泛素化底物未知——PDB 7PLO捕获了LRR1-CUL2-RBX1-ELOB/C的无底物态构象，但其与MCM3/5/7和CDC45（STRT score=0.905-0.947, 实验=0.800-0.852）的极高实验互作分数揭示了最可能的底物方向。MCM2-7异六聚体是DNA复制解旋酶的核心组分，CDC45和GINS4（0.895）是CMG（Cdc45-MCM-GINS）复制解旋酶复合物的另外两个必需亚基。LRR1可能以CRL2-LRR1 E3连接酶形式泛素化并降解CMG组分——参与复制解旋酶的解组装和复制终止。WDHD1（0.935, 实验=0.800）是DNA复制叉的AND-1/Ctf4同源物——进一步支持此方向。
+
+HPA确认LRR1定位于Nucleoplasm和Nuclear membrane（Approved），GO-CC含Nucleus（GO:0005634）。核膜定位（核内膜信号）与DNA复制解旋酶调控的功能逻辑吻合——复制起始发生在核内。IntAct co-IP验证了CRL2核心组分（CUL2, ELOB, RBX1, ELOC, CUL5, PMID:15601820, 21145461）和COP9信号小体亚基（COPS2, COPS5, COPS6, COPS8, PMID:19615732, 28514442）的互作——COP9信号小体是CRL E3连接酶的通用去NEDD8化酶，调控CRL活性周期。
+
+LRR1的TF/TE调控潜力来自其与CMG复制解旋酶的互作。停滞的复制叉在重复序列（包括LINE-1和卫星DNA）处优先发生——CRL2-LRR1参与的复制解旋酶加工可能影响重复区域的复制叉稳定性。此外，CRL2-LRR1可能泛素化并降解复制叉上的染色质组装因子——影响复制偶联的核小体组装和表观遗传信息的传递。但PubMed=45篇（30/50分）且无直接实验证据将LRR1与TE区域联系——其TE调控潜力为间接的"复制叉管理"假说。
+
+实验优先级：LRR1-CMG复合物泛素化底物的鉴定（体外泛素化实验+TMT-MS定量检测）；LRR1 ChIP-seq检测其基因组占据模式——重点关注重复序列区域；LRR1敲除后复制叉进程的纤维分析（DNA fiber assay）和重复序列不稳定检测。
 - UniProt: https://www.uniprot.org/uniprotkb/Q96L50
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000165501-LRR1/subcellular
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=LRR1

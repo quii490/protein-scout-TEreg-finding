@@ -63,7 +63,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | SPATA16 | 0.581 | 0.000 | 0.000 | 0.000 |
 | C2CD6 | 0.568 | 0.000 | 0.000 | 0.000 |
 | C2CD6 | 0.540 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| TEX11 | two hybrid pooling approach | 16189514 |
+| MCM6 | two hybrid pooling approach | 16189514 |
+| VIM | two hybrid pooling approach | 16189514 |
+| CCDC85B | two hybrid pooling approach | 16189514 |
+| ZNRD2 | two hybrid pooling approach | 16189514 |
+| CATSPERT | two hybrid array | 32296183 |
+| CATSPERT | two hybrid array | 32296183 |
+| CATSPERT | two hybrid array | 32296183 |
+| CATSPERT | two hybrid array | 32296183 |
+| CATSPERT | two hybrid array | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

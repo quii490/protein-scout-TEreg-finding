@@ -66,7 +66,12 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | CETN2 | 0.842 | 0.000 | 0.000 | 0.000 |
 | CEP295 | 0.831 | 0.000 | 0.000 | 0.000 |
 | POC1B | 0.823 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| CUL4B | anti bait coimmunoprecipitation | 17041588 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

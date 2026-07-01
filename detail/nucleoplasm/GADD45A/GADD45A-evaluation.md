@@ -161,7 +161,15 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 **该蛋白PubMed文献数 717 > 100，研究热度过高，不符合novelty筛选标准。**
 
-### 5. 数据来源
+### 深度机制分析
+
+GADD45A（165 aa, 18.3 kDa, UniProt P24522）属于GADD45家族（InterPro:IPR024824, IPR029064, IPR004038; Pfam:PF01248），核心结构是L7Ae/L30e样折叠——在核糖体蛋白和核小RNA结合蛋白中保守的α/β sandwich折叠（50-70 aa）。AlphaFold v6 pLDDT=81.2（78.2%有序区）确认GADD45A整体以高置信度折叠为紧凑的globular结构，无长无序区。PDB条目2KG4（NMR溶液结构）揭示了GADD45A的核心折叠，但N端约20个残基和C端约15个残基呈动态无序——这些柔性区域可能介导构象选择性的蛋白互作。
+
+GADD45A是应激传感器蛋白，不具酶活性——其功能完全通过蛋白-蛋白互作实现。IntAct实验互作网络的核心节点MAP3K4/MTK1（酵母双杂交, PMID:12052864）和MAP2K6（PMID:12052864）定义了GADD45A最经典的信号通路：GADD45A与MAP3K4/MTK1结合→解除MTK1的自抑制→MTK1磷酸化→激活MKK4/MAP2K4和MKK6/MAP2K6→最终激活p38和JNK MAPK级联。GADD45GIP1（Intact/Biogrid互作）是线粒体基质蛋白（CRIF1），参与线粒体核糖体大亚基组装和氧化磷酸化——GADD45A-GADD45GIP1互作暗示GADD45A可能桥接核内应激信号与线粒体功能。PCNA（增殖细胞核抗原, Intact/Biogrid）的互作直接指向DNA复制和修复——GADD45A通过与PCNA结合被招募至DNA损伤位点。
+
+GADD45A在HPA中定位于Nuclear speckles和Nucleoplasm（GO:0005654）。核散斑（nuclear speckles）是mRNA剪接因子的储存/组装区室——GADD45A的存在提示其可能参与剪接调控或mRNA加工应激响应。但GADD45A本身不含RNA结合域（无RRM、KH、ZnF等），其核散斑定位可能通过间接互作（如与剪接因子结合）实现。作为应激响应枢纽，GADD45A通过p38/JNK通路调控AP-1和其他应激转录因子→间接影响基因组稳定性和染色质状态。但其对TE沉默的直接调控证据为零。
+
+PubMed严格717篇（新颖性0/50分）使GADD45A直接不符合本筛选的新颖性标准。但其作为DNA损伤-染色质-应激信号交叉口的经典模型蛋白，为评估其他低PubMed候选蛋白是否落入类似功能逻辑提供参考。后续候选蛋白若具备应激响应特征+GADD45样互作偏好（MAP3K, PCNA）+核散斑定位，但又极度新颖（PubMed<20），可能代表未被发现的应激→染色质/TE调控平行通路。
 - UniProt: https://www.uniprot.org/uniprotkb/P24522
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000116717-GADD45A/subcellular
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=GADD45A

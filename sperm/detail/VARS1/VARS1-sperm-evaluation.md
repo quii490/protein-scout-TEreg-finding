@@ -53,7 +53,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | RARS2 | 0.998 | 0.000 | 0.000 | 0.000 |
 | EEF1D | 0.997 | 0.000 | 0.000 | 0.000 |
 | LARS1 | 0.990 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| IKBKG | tandem affinity purification | 14743216 |
+| TNFRSF10D | anti bait coimmunoprecipitation | 17353931 |
+| TFE3 | anti bait coimmunoprecipitation | 17353931 |
+| EEF1A2 | anti bait coimmunoprecipitation | 17353931 |
+| MCC | anti bait coimmunoprecipitation | 17353931 |
+| EPB41 | anti bait coimmunoprecipitation | 17353931 |
+| SGK1 | anti bait coimmunoprecipitation | 17353931 |
+| TRAF6 | anti bait coimmunoprecipitation | 17353931 |
+| HLAB | anti bait coimmunoprecipitation | 17353931 |
+| VHL | anti bait coimmunoprecipitation | 17353931 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

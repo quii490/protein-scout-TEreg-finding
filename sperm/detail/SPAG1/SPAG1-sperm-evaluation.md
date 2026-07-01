@@ -66,7 +66,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | DNAAF3 | 0.873 | 0.000 | 0.000 | 0.000 |
 | PIH1D3 | 0.866 | 0.000 | 0.000 | 0.000 |
 | DNAAF3 | 0.858 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| BBX | inference by socio-affinity scoring |  |
+| MAGEA1 | anti tag coimmunoprecipitation | 28514442 |
+| ATL3 | anti tag coimmunoprecipitation | 26496610 |
+| LDHD | anti tag coimmunoprecipitation | 26496610 |
+| RDX | anti tag coimmunoprecipitation | 33961781 |
+| S100A6 | anti tag coimmunoprecipitation | 33961781 |
+| hspa1a_hspa1b_human | anti tag coimmunoprecipitation | 33961781 |
+| MAGEA1 | anti tag coimmunoprecipitation | 33961781 |
+| WDR72 | anti tag coimmunoprecipitation | 33961781 |
+| HSPA2 | anti tag coimmunoprecipitation | 33961781 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

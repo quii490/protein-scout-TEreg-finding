@@ -55,7 +55,19 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | OFD1 | 0.929 | 0.000 | 0.000 | 0.000 |
 | PCM1 | 0.924 | 0.000 | 0.000 | 0.000 |
 | PCM1 | 0.909 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| TANK | virotrap | 30561431 |
+| TANK | virotrap | 30561431 |
+| ESR1 | tandem affinity purification | 31527615 |
+| ESR1 | tandem affinity purification | 31527615 |
+| GSK3B | proximity-dependent biotin identification | 29568061 |
+| REIC | anti tag coimmunoprecipitation | 28514442 |
+| SIRT6 | anti tag coimmunoprecipitation | 28514442 |
+| LRRCC1 | anti tag coimmunoprecipitation | 28514442 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

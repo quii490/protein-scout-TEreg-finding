@@ -56,7 +56,18 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | OAZ3 | 0.678 | 0.000 | 0.000 | 0.000 |
 | SPATA19 | 0.677 | 0.000 | 0.000 | 0.000 |
 | OAZ3 | 0.651 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| AZIN1 | two hybrid array | 31515488 |
+| ODC1 | two hybrid array | 31515488 |
+| ODC1 | two hybrid array | 32296183 |
+| TEPSIN | validated two hybrid | 32296183 |
+| ZBTB42 | validated two hybrid | 32296183 |
+| ZNF620 | validated two hybrid | 32296183 |
+| POMC | validated two hybrid | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

@@ -43,6 +43,16 @@ status: shortlisted
 Nuclear protein
 
 
+### 深度机制分析
+
+**PiggyBac转座酶驯化与DNA结合架构**：PGBD3（593 aa, 67.6 kDa, UniProt Q8N328）属于piggyBac转座酶衍生物家族，这一谱系在脊椎动物中经历了反复的真核生物驯化（PMID:32742312）。其核心结构域包括PGBD特有域（IPR029526）、PiggyBac TE衍生域（IPR052638），以及Pfam DDE_Tnp_1_7（PF13843）——后者属于DDE转座酶/整合酶超家族，具有特征性的RNase H-like催化折叠。该蛋白的域架构清楚地反映了其转座酶祖先：DDE催化核心负责DNA链转移，而PGBD特异域提供MER85型转座元件的末端反向重复（TIR）识别。MEROPS数据库注释其为MER85非自主转座子，TIR约17-19 bp，缺少内部ORF。AlphaFold pLDDT=83.8表明整体折叠良好，但催化中心的DDE残基位置和活性状态需要生化验证。
+
+**CSB-PGBD3融合的病理与功能启示**：PGBD3与CSB（Cockayne syndrome B蛋白，ERCC6）形成嵌合融合转录本，是反式剪接医学中的独特案例（PMID:29625109, PMID:26218421）。CSB属于SWI/SNF家族染色质重塑因子，参与转录偶联核苷酸切除修复（TC-NER）。CSB-PGBD3融合蛋白在原发性卵巢早衰（POF）中被报道有突变（PMID:26218421），其致病机制可能与PGBD3的DNA结合域将CSB的ATP酶/染色质重塑活性重新导向至MER85元件的基因组位点有关。STRING互作数据显示PGBD3与TC-NER核心因子ERCC8（CSA, score=999）、ERCC5（XPG, score=999）、POLR2B（RNA Pol II, score=997）、XPA（score=990）、DDB1（score=988）和UVSSA（score=986）皆以极高置信度互作——这不是独立转座酶的互作模式，而是完全嵌入TC-NER染色质修复机制的信号。
+
+**MER85元件靶向与TE调控假说**：PGBD3体外结合含其TIR的MER85元件，这些约140 bp的非自主元件散布于人类基因组。若PGBD3的功能不仅是结合DNA，还包括通过TC-NER偶联因子招募染色质重塑活性，那么CSB-PGBD3融合复合物在MER85位点的定位可能影响局部表观遗传状态。MER85属hAT超家族，部分拷贝位于基因调控区附近。PGBD3-DDB1互作（score=988）暗示CUL4-DDB1 E3泛素连接酶可能也被招募至这些位点，介导组蛋白H2A/H3泛素化——这是一种已知的转录沉默机制。PGBD3因而可能是MER85元件表观遗传调控的关键适配蛋白。
+
+**TE抑制实验的优先靶标**：PubMed严格计数仅10篇，多为CSB融合的临床病例报告，PGBD3本身的生化机制几乎无文献探讨。PPI degree=6虽低却在功能上高度富集——全部指向TC-NER和DNA损伤应答网络，暗示PGBD3通过NER损伤感知通路间接监控基因组TE位点。实验优先级：（1）ChIP-seq确定PGBD3在MER85及相关TE亚家族上的全基因组结合图谱；（2）CRISPR敲除PGBD3后RNA-seq检测MER85邻近基因表达变化；（3）体外TIR结合凝胶迁移实验（EMSA）量化亲和力；（4）DDB1/CSA/CSB免疫共沉淀验证复合物组装。作为进化保守的驯化转座酶，PGBD3代表了基因组防御蛋白从"移动元件工具"转变为"表观遗传调控者"的典范案例。
+
 ### 补充分析 (UniProt API)
 
 **蛋白全称**: PiggyBac transposable element-derived protein 3

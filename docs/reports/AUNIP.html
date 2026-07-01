@@ -72,6 +72,11 @@
 </tbody></table></div>
 <h4>TE 调控评估</h4>
 <p>该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。</p>
+<h4>深度机制分析</h4>
+<p>AUNIP（Aurora kinase A- and ninein-interacting protein, 357 aa, UniProt Q9H7T9）。定位于Centrosome（HPA Supported），但UniProt和GO注释包含Nucleus/Chromosome——这是DSB修复后DNA末端切除相关的核功能所需。InterPro注释IPR029286（AUNIP domain），Pfam PF15334。AlphaFold pLDDT仅51.5（有序区11.8%），60.8%残基&lt;50，表明该蛋白含大量无序区域。</p>
+<p>从DNA损伤修复机制角度，AUNIP是DNA双链断裂（DSB）应答蛋白，在DNA损伤后积累于DSB位点，促进DNA末端切除和同源重组（HR）修复（PMID:29042561）。AUNIP作为DNA损伤传感器——优先结合模拟停滞复制叉结构的DNA底物，并将CtIP（RBBP8）锚定至DSB位点以启动末端切除。STRING互作网络以细胞周期/复制蛋白为主：AURKA（0.757, experimental=0.617，其命名来源）、DTL（0.739）、MCM10（0.674）、UHRF1（0.543）。BioGRID确证AURKA、NIN、ELAVL1、PRMT6等互作。</p>
+<p>从TE调控角度，AUNIP与UHRF1（score=0.543）和PRMT6（BioGRID）的潜在关联尤其值得关注。UHRF1是维持DNA甲基化的关键因子——通过识别半甲基化CpG位点招募DNMT1实现复制后DNA甲基化维持。TE区域的DNA甲基化维持高度依赖UHRF1-DNMT1轴。PRMT6催化H3R2me2a修饰抑制H3K4me3，在ERV沉默中发挥作用。若AUNIP通过DSB修复路径与UHRF1/PRMT6交联，其DNA损伤应答可能影响TE区域的表观遗传稳定性——特别是TE重组位点形成的DSB修复过程中。</p>
+<p>极度新颖（PubMed=10），但pLDDT极低（51.5）限制了结构导向的功能预测。综合评分63.9/100。建议：γ-H2AX/AUNIP共定位和ChIP检测TE邻近DSB热点处的AUNIP富集。</p>
 <h4>5. AlphaFold 结构预测</h4>
 <div class="table-wrap"><table>
 <tbody>

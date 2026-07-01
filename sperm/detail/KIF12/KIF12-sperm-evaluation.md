@@ -64,7 +64,12 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | KIF2A | 0.774 | 0.000 | 0.000 | 0.000 |
 | KIF1A | 0.762 | 0.000 | 0.000 | 0.000 |
 | KIF5A | 0.753 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| BHLHE39 | tandem affinity purification | 21150319 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

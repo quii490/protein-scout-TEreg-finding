@@ -55,7 +55,17 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | CCP110 | 0.843 | 0.000 | 0.000 | 0.000 |
 | TUBG1 | 0.840 | 0.000 | 0.000 | 0.000 |
 | CEP290 | 0.829 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| LXN | anti bait coimmunoprecipitation | 17353931 |
+| DISC1 | two hybrid fragment pooling approach | 31413325 |
+| CAPN6 | anti tag coimmunoprecipitation | 28514442 |
+| SYBU | anti tag coimmunoprecipitation | 28514442 |
+| FLNA | anti tag coimmunoprecipitation | 26496610 |
+| ANKRD28 | proximity-dependent biotin identification | 24255178 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

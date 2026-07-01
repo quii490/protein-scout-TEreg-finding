@@ -64,7 +64,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | CD44 | 0.993 | 0.000 | 0.000 | 0.000 |
 | CD44 | 0.993 | 0.000 | 0.000 | 0.000 |
 | VCAM1 | 0.990 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| NFKB2 | tandem affinity purification | 14743216 |
+| SQSTM1 | anti tag coimmunoprecipitation | 20562859 |
+| ESR1 | tandem affinity purification | 31527615 |
+| ESR1 | tandem affinity purification | 31527615 |
+| MAPK7 | anti tag coimmunoprecipitation | 31980649 |
+| PDPK1 | anti tag coimmunoprecipitation | 31980649 |
+| BAD | anti tag coimmunoprecipitation | 31980649 |
+| PDPK1 | anti tag coimmunoprecipitation | 31980649 |
+| PRKCZ | anti tag coimmunoprecipitation | 31980649 |
+| PRKCZ | anti tag coimmunoprecipitation | 31980649 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

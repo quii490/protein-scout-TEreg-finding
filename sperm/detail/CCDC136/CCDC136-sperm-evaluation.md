@@ -66,7 +66,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | AP2M1 | 0.576 | 0.000 | 0.000 | 0.000 |
 | CCDC136 | 0.572 | 0.000 | 0.000 | 0.000 |
 | FAM90A7P | 0.570 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| ZNF408 | two hybrid | 15231747 |
+| UBQLN4 | two hybrid | 16713569 |
+| COIL | two hybrid | 16713569 |
+| GFI1B | two hybrid | 16713569 |
+| DISC1 | two hybrid fragment pooling approach | 31413325 |
+| CDC5L | two hybrid fragment pooling approach | 31413325 |
+| TXLNA | two hybrid array | 31515488 |
+| PDLIM5 | two hybrid array | 31515488 |
+| FAM107A | two hybrid array | 31515488 |
+| ZNF581 | two hybrid prey pooling approach | 25416956 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

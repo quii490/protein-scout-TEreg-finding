@@ -64,7 +64,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | MEA1 | 0.650 | 0.000 | 0.000 | 0.000 |
 | RALGAPA1 | 0.646 | 0.000 | 0.000 | 0.000 |
 | RALGAPA1 | 0.622 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| BHLHE39 | tandem affinity purification | 21150319 |
+| RRP1B | tandem affinity purification | 19710015 |
+| NEURL4 | anti tag coimmunoprecipitation | 29426014 |
+| NEURL4 | anti tag coimmunoprecipitation | 29426014 |
+| YL8 | proximity-dependent biotin identification | 29568061 |
+| LAMP1 | proximity-dependent biotin identification | 29568061 |
+| CLU | two hybrid fragment pooling approach | 31413325 |
+| ERBB3 | ubiquitin reconstruction | 31980649 |
+| AP2M1 | anti tag coimmunoprecipitation | 28514442 |
+| C6orf114 | anti tag coimmunoprecipitation | 28514442 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

@@ -60,7 +60,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | CDC20 | 0.721 | 0.000 | 0.000 | 0.000 |
 | CDC20 | 0.720 | 0.000 | 0.000 | 0.000 |
 | POC1A | 0.690 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| MDM1 | anti tag coimmunoprecipitation | 28514442 |
+| NELL2 | anti tag coimmunoprecipitation | 28514442 |
+| YSG2 | anti tag coimmunoprecipitation | 28514442 |
+| IFT57 | anti tag coimmunoprecipitation | 28514442 |
+| TSKS | anti tag coimmunoprecipitation | 28514442 |
+| COG6 | anti tag coimmunoprecipitation | 28514442 |
+| WDR51A | anti tag coimmunoprecipitation | 28514442 |
+| WDR51A | anti tag coimmunoprecipitation | 28514442 |
+| WDR51A | anti tag coimmunoprecipitation | 28514442 |
+| WDR51A | anti tag coimmunoprecipitation | 28514442 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

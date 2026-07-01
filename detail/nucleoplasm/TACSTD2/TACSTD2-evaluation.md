@@ -173,6 +173,16 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 **该蛋白PubMed文献数 133 > 100，研究热度过高，不符合novelty筛选标准。**
 
+### 深度机制分析
+
+**结构域架构与胞外-核内双重身份**：TACSTD2/TROP2（323 aa, 35.7 kDa, UniProt P09758）的核心折叠架构包含N端胞外区、单次跨膜螺旋和短胞内尾，属于GA733蛋白家族。其胞外区含有一个Thyroglobulin type-1结构域（IPR000716，PROSITE-ProRule:PRU00500，UniProt FT: DOMAIN 70-145，SMART: SM00211），采用α/β折叠形成紧凑的球状模块，此结构域在甲状腺球蛋白和多种蛋白酶抑制剂中广泛存在，通常介导蛋白-蛋白识别或半胱氨酸蛋白酶抑制功能。此外，IPR049420、IPR043406和IPR041630注释指向胞外区中的额外折叠模块，构成类似细胞黏附分子的串联排列。AlphaFold v6预测整体pLDDT=82.7（59.1%残基>90，74.9%有序），胞外区折叠质量高，跨膜区（约aa 275-295）和胞内短尾（~28 aa）置信度较低——后者在溶液态可能呈内在无序。PDB条目2MAE和2MVK/L提供了胞外域的NMR溶液结构（PMID:未在评估中列出），7E5M/N和7PEE为抗体-抗原复合物晶体结构，确认胞外域的独立折叠单元特性。
+
+**PPI网络与膜信号传导图谱**：STRING互作图谱清晰显示TACSTD2嵌入上皮黏附和生长因子信号网络：CLDN7（combined score=0.966, 实验=0.411）和CLDN1（0.899, 实验=0.292）为紧密连接蛋白，与TACSTD2的膜定位一致，可能通过维持顶端-基底极性的方式协调上皮完整性。生长因子信号轴上，IGF1（0.815）、ERBB2（0.732）、EGFR（0.644）和CCND1（0.628）的关联暗示TACSTD2参与PI3K-AKT和MAPK级联的信号输入的膜近端整合。IntAct实验数据提供了额外的调控层：CLDN1（co-IP, PMID:20651236）验证了膜复合物的物理结合，ATP6V1A（co-IP, PMID:21674799，V-ATPase催化亚基）和ESR1（TAP, PMID:31527615，雌激素受体α）的互作暗示TACSTD2与囊泡运输和核受体信号转导存在联系。HumanPPI补充数据中MBNL1（Bioplex）的互作最引人关注——MBNL1是RNA结合蛋白，调节选择性剪接并定位于核散斑——为TACSTD2在HPA中偶见的Nucleoli附加信号提供了潜在桥接。
+
+**结构与胞内信号假说**：TACSTD2的胞内域（约28 aa, S303→Q323）被HPA重新定位数据报告为经由胞吞和膜内蛋白水解（RIP）后可释放入核。其胞内尾含有一个保守的PXXP基序和一个C端疏水簇，理论上可作为SH3域结合位点和核定位信号的潜在锚点。HNRNPAB（cross-linking, PMID:30021884）的IntAct互作——hnRNP A/B蛋白本身为核质穿梭RNA结合蛋白——进一步支持TACSTD2胞内域被γ-分泌酶切割后可能进入核内，与RNA结合蛋白和染色质调控因子相互作用。EGFR-TACSTD2共表达在多种上皮癌中的报道（PubMed=133篇, 含133 strict和526 broad），加上CCND1（cyclin D1）的STRING关联，暗示肿瘤中TACSTD2-EGFR共激活可经由β-catenin/TCF通路驱动CCND1转录，形成正反馈环。
+
+**TE调控意义的限度**：TACSTD2缺乏DNA/组蛋白结合结构域、无核定位序列（NLS）信号且主要定位于质膜，其核仁信号仅为HPA附加注释（非主要定位）。TE调控机制只能设想为极间接的二级效应：若其胞内域确实发生膜内蛋白水解后入核，可能竞争核内蛋白互作网络而影响全局转录状态——但这种机制极其罕见且缺乏任何实验证据。HPA重新定位为Plasma membrane且HPA IF图像显示清晰膜染色模式，所以核内功能目前为推测性。鉴于PubMed=133篇的高研究热度，TACSTD2本身已不具新颖性优势，不适合作为TE调控发现靶标。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P09758
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000184292-TACSTD2/subcellular

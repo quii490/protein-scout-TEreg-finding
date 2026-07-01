@@ -66,7 +66,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | NDUFA10 | 0.999 | 0.000 | 0.000 | 0.000 |
 | NDUFA2 | 0.999 | 0.000 | 0.000 | 0.000 |
 | NDUFB10 | 0.999 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| ATP5MF | two hybrid pooling approach | 16169070 |
+| LYRM6 | two hybrid pooling approach | 16169070 |
+| PHLDA3 | anti bait coimmunoprecipitation | 17353931 |
+| NDUFA2 | blue native page | 19688755 |
+| NDUFA2 | blue native page | 19688755 |
+| HSPD1 | proximity-dependent biotin identification | 29568061 |
+| COX14 | proximity-dependent biotin identification | 29568061 |
+| MGST3 | proximity-dependent biotin identification | 29568061 |
+| TRMT61B | proximity-dependent biotin identification | 29568061 |
+| NDUFS3 | anti tag coimmunoprecipitation | 27499296 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

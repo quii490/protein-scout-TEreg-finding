@@ -62,7 +62,12 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | CFAP43 | 0.794 | 0.000 | 0.000 | 0.000 |
 | DNAH1 | 0.790 | 0.000 | 0.000 | 0.000 |
 | CFAP43 | 0.788 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| HSPB1 | reverse ras recruitment system | 25277244 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

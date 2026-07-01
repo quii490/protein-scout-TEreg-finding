@@ -186,6 +186,16 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 
 该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
 
+### 深度机制分析
+
+NEUROD4（UniProt Q9HD90）的域架构以bHLH结构域（aa 87-139, PROSITE PRU00981, SMART SM00353）为核心，该域由N端碱性DNA结合区（螺旋-转角-螺旋, PF00010）和C端螺旋-环-螺旋二聚化基序组成。C端NeuroD特异性域（IPR022575）和PF12533（Neuro_bHLH）介导转录激活功能。AlphaFold v6平均pLDDT仅62.7，有序残基占比31.1%，是固有内在无序区域占主导的经典转录因子——bHLH域折叠良好而N端和C端转录激活域以IDR形式存在，通过"飞轮铸模"（fly-casting）机制捕获异源二聚化伙伴和转录共激活因子。无PDB实验结构。
+
+PPI网络以神经源性bHLH转录因子层级为核心。STRING预测FOXN4（combined score=0.944）、ASCL1（0.801, experimental=0.094）、ISL1（0.771, exp=0.048）、LHX3（0.721）和PAX6（0.644, exp=0.045）构成前神经转录调控网络。IntAct实验验证揭示了NEUROD4的E蛋白异源二聚化体系：TCF4（酵母双杂交, PMID:32296183）、TCF3（抗标签免疫共沉淀, PMID:33961781）和TCF12（抗标签免疫共沉淀, PMID:33961781）——这些广泛表达的bHLH蛋白是NEUROD4与E-box增强子元件（CANNTG）结合所必需的强制性二聚化伴侣。PIN1（脯氨酸顺反异构酶, 酵母双杂交PMID:32296183）的特异互作具有深刻的调控意义。
+
+NEUROD4的功能机制受多层次调控：多激酶位点磷酸化（脯氨酸导向激酶）调节其转录活性，PIN1特异性识别磷酸化Ser/Thr-Pro基序并催化其顺反异构，通过构象开关控制NEUROD4的蛋白稳定性、DNA结合亲和力和泛素化降解速率（PMID:26084567）。FOXO1直接结合NEUROD4启动子驱动其在垂体的表达（PMID:38142853），而miR-137通过下调NEUROD4减弱脊髓损伤中的炎症和氧化应激（PMID:29687839）。HPA免疫荧光将NEUROD4定位于核质（nucleoplasm, approved级），附加定位包括中心体和细胞质，提示有丝分裂期间可能存在NEUROD4的亚细胞重新分布。GO-CC明确列出chromatin（GO:0000785），证实NEUROD4是真正的染色质结合转录因子。
+
+NEUROD4是经典bHLH转录因子通过E蛋白异源二聚化结合染色质的范例。其连接PIN1介导的磷酸化构象开关、FOXO1上游转录调控和miR-137下游靶向的多层级调控网络，使NEUROD4成为整合信号转导与谱系特异性转录输出的分子节点。TE沉默相关性源于其直接的染色质结合（GO:0000785）、bHLH介导的转录激活/抑制双重功能和神经发育中的关键调控地位——神经分化过程中TE的表观遗传沉默与NEUROD4等前神经因子的时序表达密切相关。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9HD90
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000123307-NEUROD4/subcellular

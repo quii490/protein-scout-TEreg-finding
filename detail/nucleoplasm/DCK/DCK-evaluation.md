@@ -170,6 +170,18 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 **该蛋白PubMed文献数 324 > 100，研究热度过高，不符合novelty筛选标准。**
 
+### 深度机制分析
+
+DCK（Deoxycytidine kinase, 260 aa, 30.5 kDa, UniProt P27707）属于脱氧核苷激酶家族（dNK），InterPro注释涵盖Deoxynucleoside kinase domain（IPR002624）、dNK超家族（IPR050566）和P-loop NTPase折叠（IPR027417, IPR031314），Pfam归属为dNK（PF01712），SMART未检出条目。AlphaFold v6 pLDDT=88.4（高置信残基71.9%, 有序区87.3%）预测高质量全原子结构，且已有10个PDB实验结构支持（1P5Z, 1P60, 1P61, 1P62, 2A2Z, 2A30, 2A7Q, 2NO0, 2NO1, 2NO6），提供了无配体状态、底物类似物结合态和产物结合态的多种构象。DCK采用典型的5股平行β-sheet夹层α-螺旋的Rossmann折叠——P-loop（GXXXXGKT/S磷酸结合环）位于β1-α1连接处，催化关键Asp/Glu残基位于loop区域，共同构成核苷/NTP结合和磷酸转移的活性中心。HPA确认Nucleoplasm定位（Supported），UniProt和GO-CC均支持细胞核分布（nucleoplasm GO:0005654, nucleus GO:0005634）。
+
+PPI互作网络以核苷酸代谢酶为核心。STRING高分伙伴包括CDA/胞苷脱氨酶（combined score=0.996）、DCTD/dCMP脱氨酶（0.985）、NT5C2/5'-核苷酸酶（0.967）、CMPK2/UMP-CMP激酶（0.956）、PNP/嘌呤核苷磷酸化酶（0.951）和ADA/腺苷脱氨酶（0.950）——形成一个完整的核苷酸补救合成和分解互作网络。这种酶-酶共进化关联反映了核苷酸代谢酶在系统中通过底物通道（substrate channeling）进行代谢物高效传递的进化策略。IntAct互作包括ANKRD13A（Bioplex, 泛素化调控蛋白）、CDK1（Biogrid, 细胞周期依赖性激酶）、DGUOK（Intact/Bioplex, 脱氧鸟苷激酶——DCK的线粒体同系物），提示DCK的功能关联超越了单纯的核苷酸代谢。
+
+DCK的生化机制是核苷酸补救合成途径的限速步骤：催化dCyd（脱氧胞苷）+ ATP/NTP → dCMP（脱氧胞苷酸）+ ADP/NDP的磷酸转移反应。该反应为DNA复制和修复提供dNTP前体，特别是在非分裂细胞中——此时核糖核苷酸还原酶（RNR）的从头合成途径被下调，补救合成成为dNTP的主要来源。DCK同时可以磷酸化多种核苷类似物前药（如吉西他滨dFdC、阿糖胞苷ara-C、克拉屈滨CdA），使其活化为细胞毒性代谢物，因此DCK是多种抗癌和抗病毒化疗药物的关键代谢激活酶。
+
+核定位（HPA Nucleoplasm supported）提示DCK在核内直接为DNA聚合酶（Pol δ, Pol ε）提供局部dNTP供应——这被称为"dNTP的核内合成假说"。该模型预言DCK在DNA复制叉和损伤位点附近局部富集以提供按需的dCTP前体供应。然而DCK本身不含任何DNA/RNA结合域（无ZnF、HMG、AT-hook等）、染色质结合域（无chromo、bromo、PHD、SANT等）或转录调控域，且PPI网络中无转录因子、染色质重塑因子或组蛋白修饰酶的直接互作。这意味着DCK对基因表达——包括TE表达——的影响完全通过其核苷酸代谢产物（dCTP/dNTP池）的间接效应实现：dNTP池失调可影响复制叉稳定性→基因组不稳定性→应激性TE去抑制。但DCK作为TE直接调控因子的证据不足，且PubMed 324篇的研究热度过高（>100，REJECTED），不符合本筛选的新颖性标准。
+
+DCK的结构-功能映射极为清晰——PDB 1P60（dCK-dCyd-ADP三元复合物）精确揭示了底物识别模式（Gln97和Arg128与胞嘧啶碱基的H键网络）+磷酸供体ATP/ADP结合（P-loop, Mg2+配位Asp133/Glu53）→催化反应。这一高度结构解析的酶提供了基于结构药物设计的模板——但在TE调控领域，DCK的间接性和非特异性使其不适合作为靶向的TE调控工具蛋白。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P27707
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000156136-DCK/subcellular

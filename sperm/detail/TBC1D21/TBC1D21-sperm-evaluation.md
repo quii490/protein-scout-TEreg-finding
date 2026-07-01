@@ -64,7 +64,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | TBC1D10C | 0.620 | 0.000 | 0.000 | 0.000 |
 | TBC1D20 | 0.600 | 0.000 | 0.000 | 0.000 |
 | TBC1D22B | 0.594 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| MGCRABGAP | two hybrid array | 32296183 |
+| MGCRABGAP | two hybrid array | 32296183 |
+| MGCRABGAP | two hybrid array | 32296183 |
+| GFAP | validated two hybrid | 32296183 |
+| MGCRABGAP | validated two hybrid | 32296183 |
+| TIMM10 | validated two hybrid | 32296183 |
+| MGCRABGAP | validated two hybrid | 32296183 |
+| MGCRABGAP | two hybrid array | 32296183 |
+| PMF1 | validated two hybrid | 32296183 |
+| MGCRABGAP | two hybrid prey pooling approach | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

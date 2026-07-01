@@ -77,6 +77,18 @@ HPA: https://www.proteinatlas.org/ENSG00000175711-B3GNTL1
 | UniProt Domain | 未检出 |
 
 
+### 深度机制分析
+
+**结构域架构**：B3GNTL1（Q67FW5, Queuosine-tRNA galactosyltransferase, 346 aa / 38.1 kDa）的主要结构域注释为IPR001173, IPR029044。Pfam数据库进一步识别到PF00535等保守域。AlphaFold pLDDT=0.82（中低置信度）——结构预测显示较大无序区域，可能含IDR或需要结合伴侣才能有序折叠。该蛋白暂无实验PDB结构（PDB=0），当前结构信息依赖AlphaFold预测。PubMed=0，TrEMBL未审查条目，机制解析尚未起步。
+
+**PPI互作网络解读**：PPI network（degree=N/A）——BioGRID数据库记录的关键互作伙伴包括IMPDH1、HNRNPL、FTL。其中HNRNPL等具有染色质调控或转录相关功能——提示B3GNTL1可能通过PPI平台间接参与核内转录调控网络。
+
+**结构解读**：InterPro注释到2个保守结构域：IPR001173、IPR029044——这些domain signature暗示了该蛋白的功能类别。Pfam域PF00535的保守性进一步验证了该蛋白特定的进化约束。结构预测置信度有限，需实验结构解析确证。
+
+**机制模型**：B3GNTL1为queuosine-tRNA galactosyltransferase——GT-B fold glycosyltransferase，使用UDP-galactose作为donor substrate。tRNA modification（Q34 galactosylation）影响translation speed——在nucleoplasm中tRNA modification enzyme可能具有non-canonical nuclear function。
+
+**TE调控展望**：B3GNTL1的TE regulation潜力目前缺乏直接的实验证据。TE调控关联性取决于：（1）B3GNTL1与chromatin remodeling complex（SWI/SNF, NuRD, PRC1/2）的physical association；（2）B3GNTL1能否通过其结构域识别TE-derived element；（3）B3GNTL1的depletion是否改变LINE-1或ERV family的expression level。建议affinity purification-MS鉴定B3GNTL1在核内的完整interactome。Combined with RNA-seq upon knockdown/overexpression——可在transcriptome level评估其对TE subfamily expression的潜在影响。
+
 ### PPI 互作网络
 
 | 互作伙伴 | 来源 | 评分 |

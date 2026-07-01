@@ -64,7 +64,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | LNPK | 0.661 | 0.000 | 0.000 | 0.000 |
 | HOXD1 | 0.659 | 0.000 | 0.000 | 0.000 |
 | LNPK | 0.593 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| CHMP1A | anti bait coimmunoprecipitation | 17353931 |
+| SYNPR | anti tag coimmunoprecipitation | 28514442 |
+| TMED3 | anti tag coimmunoprecipitation | 28514442 |
+| UNC93B1 | pull down | 30833792 |
+| LPAR1 | anti tag coimmunoprecipitation | 28514442 |
+| SLC5A8 | anti tag coimmunoprecipitation | 28514442 |
+| LMO3 | two hybrid array | 32296183 |
+| KLHL12 | validated two hybrid | 32296183 |
+| SLC15A3 | pull down | 30833792 |
+| SLC7A1 | anti tag coimmunoprecipitation | 28514442 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

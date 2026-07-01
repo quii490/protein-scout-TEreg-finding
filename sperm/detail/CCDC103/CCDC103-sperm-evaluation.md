@@ -67,7 +67,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | CCDC65 | 0.940 | 0.000 | 0.000 | 0.000 |
 | DNAI1 | 0.938 | 0.000 | 0.000 | 0.000 |
 | DNAI1 | 0.920 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| DNAAF19 | two hybrid array | 29892012 |
+| VAC14 | two hybrid array | 31515488 |
+| Hrs | two hybrid array | 31515488 |
+| DNAAF19 | two hybrid array | 32296183 |
+| DNAAF19 | two hybrid array | 32296183 |
+| DNAAF19 | two hybrid array | 32296183 |
+| DNAAF19 | two hybrid array | 32296183 |
+| DNAAF19 | two hybrid prey pooling approach | 32296183 |
+| DNAAF19 | validated two hybrid | 32296183 |
+| DNAAF19 | two hybrid array | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

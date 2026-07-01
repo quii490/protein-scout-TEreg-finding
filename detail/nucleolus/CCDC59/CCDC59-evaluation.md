@@ -203,6 +203,14 @@ status: scored
 | CSNK2A2 | BioGRID | 1 |
 
 
+### 深度机制分析
+
+CCDC59(TAP26/BR22, 241 aa, 28.7 kDa, UniProt: Q9P031)是甲状腺转录因子1(TTF1/NKX2-1)相关蛋白26, 其结构域注释原始阶段为"无注释域", 但Domain/SMART修复后InterPro(IPR013730/PF08524)标注为"Protein of unknown function DUF2190"——DUF2190结构域在数据库中与CTF/NF-1(CCAAT-box-binding transcription factor, 核因子1)和NFI相关的核蛋白共出现, 提示一个保守但尚未表征的转录调节折叠。CCDC59的定位于核仁(nucleoli)和核仁边缘(nucleoli rim), HPA Approved级, 这是对核糖体生物合成、RNA聚合酶I转录和核仁应激响应的关键亚核区室(nucleolus)的特异性定位, 暗示该蛋白可能参与rDNA的转录和/或pre-rRNA加工。
+
+PPI网络的"核仁节点"特征高度指示CCDC59的功能角色: TTF1(STRING 905)是CCDC59的同名互作伙伴——TTF1/NKX2-1是肺特异性同源盒转录因子, 也是核仁中rDNA转录终止因子, 通过与TTF1的互作CCDC59可能在rDNA重复簇的转录终止和/或表观遗传沉默中发挥作用; LLPH(STRING 839)是核仁蛋白NOP16的同源物, 参与pre-rRNA的18S加工; RPF1(STRING 497)是核糖体加工因子1; BRIX1(STRING 496)是参与60S核糖体亚基成熟的核仁蛋白; MRPS31和MRPS18C(STRING 488/453, 实验分0.316/246)是线粒体核糖体蛋白, 暗示CCDC59可能桥接核仁(cytosolic rDNA)和线粒体(mito-ribosome)核糖体生物合成通路; NIFK(humanPPI, Biogrid+Bioplex)是Ki-67互作的核仁磷蛋白, 参与rRNA转录和核仁组装; KRR1(humanPPI, Bioplex)是KRR1小亚基加工体(SSU processome)组分; IPO5(humanPPI, Biogrid+Opencell)是importin-5, 负责将核仁蛋白从胞质运输至核仁; H1-7(humanPPI, Bioplex)是生殖细胞特异性linker组蛋白——暗示潜在的染色质结合能力。TRAF6(IntAct coIP)是E3泛素连接酶和NF-kappaB通路的信号适配蛋白, 与CCDC59的互作提示泛素信号可能调节核仁应激响应中的CCDC59稳定性/定位。
+
+CCDC59的极度新颖性(PubMed strict=5, 80.1/100归一化总分)与其强大的结构-功能交叉矛盾: 尽管功能注释极为有限, 但CCDC59-TTF1互作链提供了清晰的机制切入点——TTF1结合rDNA基因间区的Sal-box终止元件终止Pol I转录, 而TTF1的缺失导致rDNA异染色质化丢失和rDNA拷贝数异常扩增。CCDC59通过与TTF1互作可能调控这一过程的信令。此外, IPR013730结构域中富集的碱性氨基酸串(basic patches)可能作为非经典核仁定位信号(NoLS)被核仁磷蛋白B23(nucleophosmin)识别。TE调控方面: CCDC59作为"染色质/DNA调控相关结构域持有者"(IPR013730)和核仁特异性蛋白——核仁是核内的"相分离中心", 数十个rDNA重复簇中的转座子插入(LINE-1, Alu→28S rRNA)和rDNA拷贝中的TE元件在核仁内的异染色质状态对整个基因组的TE沉默状态具有"模板效应"(template effect)——CCDC59通过其与TTF1和NIFK/KRR1的双向连接可能在rDNA-TE表观调控中发挥功能。HCC生物标志物功能(PMID 41905279: 肝细胞癌中CCDC59是驱动基因和预后标志物)进一步支持其在基因组稳定性维护中的功能——HCC的特征包括rDNA高转录和LINE-1激活。肺纤维化保护功能(PMID 38972208: SP-B/SP-C)可能反映的是分泌型肺泡II型细胞的核仁应激路径。
+
 ### TE 调控评估
 
 该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。

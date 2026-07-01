@@ -62,7 +62,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | CAND1 | 0.856 | 0.000 | 0.000 | 0.000 |
 | CAND1 | 0.855 | 0.000 | 0.000 | 0.000 |
 | CUL5 | 0.824 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| SRC | peptide array | 17474147 |
+| ABL1 | peptide array | 17474147 |
+| CUL5 | tandem affinity purification | 21145461 |
+| MAGI1 | anti tag coimmunoprecipitation | 28514442 |
+| CUL5 | anti tag coimmunoprecipitation | 28514442 |
+| MAGI1 | anti tag coimmunoprecipitation | 28514442 |
+| CUL5 | anti tag coimmunoprecipitation | 33961781 |
+| RNF7 | anti tag coimmunoprecipitation | 33961781 |
+| WWP2 | anti tag coimmunoprecipitation | 33961781 |
+| FAM168A | anti tag coimmunoprecipitation | 33961781 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

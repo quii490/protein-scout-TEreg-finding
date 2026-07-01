@@ -56,7 +56,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | Partner | Combined | Exp | DB | Text |
 |---|---|---|---|---|
 | *STRING 无数据* | — | — | — | — |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| SRPK1 | protein kinase assay | 23602568 |
+| CIMAP1D | two hybrid array | 32296183 |
+| CIMAP1D | anti tag coimmunoprecipitation | 28514442 |
+| CIMAP1D | anti tag coimmunoprecipitation | 28514442 |
+| CIMAP1D | anti tag coimmunoprecipitation | 28514442 |
+| CIMAP1D | anti tag coimmunoprecipitation | 28514442 |
+| CIMAP1D | anti tag coimmunoprecipitation | 28514442 |
+| HSF2BP | validated two hybrid | 32296183 |
+| CIMAP1D | two hybrid prey pooling approach | 32296183 |
+| CIMAP1D | anti tag coimmunoprecipitation | 33961781 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

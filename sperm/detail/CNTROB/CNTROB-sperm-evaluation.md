@@ -66,7 +66,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | NIN | 0.898 | 0.000 | 0.000 | 0.000 |
 | NIN | 0.894 | 0.000 | 0.000 | 0.000 |
 | CETN2 | 0.892 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| APTX | two hybrid | 16713569 |
+| MCRS1 | two hybrid array | 32296183 |
+| RAD23A | validated two hybrid | 32296183 |
+| PNKP | two hybrid array | 32296183 |
+| CWF19L2 | validated two hybrid | 32296183 |
+| ELOA | validated two hybrid | 32296183 |
+| SYT6 | two hybrid array | 32296183 |
+| TSHZ2 | two hybrid array | 32296183 |
+| EPM2AIP1 | two hybrid array | 32296183 |
+| SYT6 | validated two hybrid | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

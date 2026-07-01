@@ -118,6 +118,11 @@
 <tr><td>SNRPB</td><td>STRING</td><td>797</td></tr>
 <tr><td>EP300</td><td>STRING</td><td>794</td></tr>
 </tbody></table></div>
+<h4>深度机制分析</h4>
+<p><strong>RNA帽甲基转移酶的域架构与催化机制</strong>：TGS1/PIMT（853 aa, UniProt Q96RS0）的核心催化模块由RNA cap Gua-N2甲基转移酶域（IPR019012, Pfam:PF09445）和SAM依赖甲基转移酶超家族折叠（IPR029063）构成。该酶催化snRNA和snoRNA的5&#x27;-m7G帽结构超甲基化为2,2,7-三甲基鸟苷（TMG）帽——从单甲基化m7G到TMG的逐步二甲基化是其标志活性。该反应依赖S-腺苷甲硫氨酸（SAM）作为甲基供体，在m7G的N2位置连续添加两个甲基。AlphaFold预测质量极高（PDB条数=2），晶体结构确认了经典的Rossmann-fold SAM结合域和帽结合沟——后者通过芳香残基堆积识别m7G碱基。853 aa的较大尺寸暗示TGS1除催化核心外含有额外的非催化结构域，可能参与蛋白互作、亚核定位或底物识别。HPA重新定位为Cytosol（supported），而UniProt同时注释Cytoplasm、Nucleus、Cajal body和nucleolus——这种核/质双定位符合RNA加工酶的特征：在核内Cajal body完成snRNA/snoRNA的帽超甲基化后，可被export至胞质。</p>
+<p><strong>剪接体与染色质调控因子的互作网络</strong>：STRING互作图谱以剪接体snRNP核心成员为主导：SNRPF（combined score=988）、SNRPE（985）、SNRPD2（982）、SNRPD1（982）、SNRPG（980）和SNRPB（797）均属Sm蛋白家族，构成剪接体snRNP的共用核心环。这一互作模式与TGS1在snRNA（U1、U2、U4、U5）组装前对其帽结构进行修饰的功能完全一致——STGS1在Cajal body中对新生snRNA的TMG帽化是SMN复合物识别和Sm核心组装的前置修饰步骤。最为引人关注的是EP300（p300 histone acetyltransferase, score=794）和NCOA6（核受体辅激活因子6, score=986）的关联：NCOA6是Trithorax/MLL组蛋白甲基转移酶复合物的辅因子，直接参与活性转录标记H3K4me3的建立；EP300乙酰化组蛋白H3K27和多种转录因子，是增强子活性的核心调控因子。</p>
+<p><strong>TGS1-EP300轴与ATM依赖的DNA损伤应答</strong>：Li等人（2026, PMID:41183146）揭示了TGS1在胰腺癌中对基因毒性应激的全新响应机制——ATM激酶磷酸化TGS1，磷酸化的TGS1与BRCA1形成复合物，促进DNA双链断裂的同源重组修复。这一发现将TGS1从传统snRNA帽修饰角色扩展至DNA损伤应答领域。EP300（STRING 794）在这一通路中可能作为桥接因子：EP300乙酰化ATM和BRCA1调控其活性，而TGS1-TMG帽化活性则可能影响损伤应答相关的非编码RNA的生物合成。CREBBP（BioGRID互作，与EP300同源的乙酰转移酶）和EED（Polycomb PRC2复合物的核心亚基，BioGRID互作）进一步支持TGS1与染色质修饰网络的广泛联系——EED识别并结合H3K27me3，PRC2负责将H3K27三甲基化以维持基因沉默。</p>
+<p><strong>TE调控假设与实验可行性</strong>：TGS1的TE调控潜力建立在三个逻辑链上：（1）EP300/NCOA6/EED互作暗示TGS1可通过影响染色质修饰复合物的组装间接调控TE区域的表观遗传状态；（2）TMG帽修饰不仅限于剪接体snRNA——某些piRNA前体（piRNA pathway是生殖细胞TE沉默的核心机制）也可能携带TMG帽，TGS1可能参与其加工；（3）ATM-BRCA1通路的TGS1参与暗示基因组不稳定性应激可能通过TGS1-TMG帽化信号间接激活TE监控。然而，PubMed=63篇的中等热度使TGS1新颖性受限（20/50），且核定位偏弱（Cytosol为主, 16/40分），PPI数据极其稀少（6/30分），归一化得分仅48.4/100。实验优先级较低——除非获得TGS1与piRNA通路因子直接互作的实验证据（如PIWIL1/MILI、TDRD1等），否则其TE调控假设需更多验证步骤。</p>
 <h4>TE 调控评估</h4>
 <p>该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。</p>
 <h4>5. 数据来源</h4>

@@ -63,6 +63,16 @@ status: rejected
 4. 如果确认该基因无数据库记录，将其标记为不适合当前研究目标
 5. 对于已知功能定位于膜/胞质的基因（如AMER家族），可基于文献知识直接判定为不符合核蛋白标准
 
+### 深度机制分析
+
+**结构域架构**：AMER3（APC membrane recruitment protein 3/FAM123C）属于AMER（APC membrane recruitment）蛋白家族——该家族包含AMER1（WTX/FAM123A）、AMER2（FAM123B）和AMER3（FAM123C）。结构域架构基于家族保守性推断：N端为phosphatidylinositol-binding domain（PI-binding motif）——通过electrostatic interaction和疏水插入结合phosphatidylinositol (4,5)-bisphosphate（PI(4,5)P2）在质膜内叶（plasma membrane inner leaflet）——此PI-binding domain为AMER家族膜锚定的核心决定因子——中段为APC-binding domain——通过Armadillo repeat region识别adenomatous polyposis coli（APC）蛋白——C端含PDZ-binding motif（可能为-D/E-T/S-X-V/I/L-COOH）。APC是Wnt pathway β-catenin destruction complex的核心scaffold——AMER3通过APC-binding domain将APC招募至质膜——促进β-catenin destruction complex（Axin/GSK3β/CK1α/APC）在膜近端的组装——增强β-catenin phosphorylation（Ser33/Ser37/Thr41/Ser45 by CK1α and GSK3β）→β-TrCP recognition→K48 ubiquitination→proteasome degradation→Wnt pathway OFF state。
+
+**PPI互作网络解读**：当前harvest packet缺失导致PPI数据完全不可用——STRING和IntAct数据无法获取。基于AMER1/WTX的已知PPI——WTX interactors包括APC、AXIN1、β-catenin（CTNNB1）、CRMP1（collapsin response mediator protein 1）、Scribble（SCRIB, cell polarity protein）——WTX-SCRIB interaction将Wnt pathway regulation与apical-basal cell polarity耦合。如AMER3保留类似PPI网络——其膜锚定-APC recruitment功能将整合cell adhesion/cell polarity signal与Wnt pathway activity。
+
+**结构解读**：harvest packet缺失导致AlphaFold pLDDT数据和PDB结构数据不可用。基于AMER1已知结构信息——WTX的PI(4,5)P2-binding domain（N-terminal ~200 aa）为predicted disordered region——通过electrostatic interaction（basic residue clustering: Lys/Arg-rich patches）结合酸性phospholipid——无明确定义的三级结构fold。APC-binding domain（central ~500 aa）可能形成extended coiled-coil或solenoid fold——提供长程的multiple APC-interaction interface。
+
+**TE调控展望**：AMER家族蛋白的TE调控关联主要通过APC-β-catenin-Wnt pathway轴间接实现。APC通过β-catenin nuclear translocation调控TCF/LEF-dependent transcription——TCF/LEF consensus motif（5'-CTTTGA/TA-3'）与多种retrotransposon LTR中的enhancer element有显著序列同源性——AMER3-mediated Wnt pathway suppression可能间接抑制TCF/LEF-driven TE transcription。WTX（AMER1）已知具有nuclear pool——参与β-catenin nuclear export——但AMER3是否具有类似核功能完全未知。当前数据缺失状态无法完成有意义的机制分析——等待harvest packet重新生成后进行完整六维评估和深度机制分析。
+
 ### 7. 评估结论
 
 AMER3 因harvest packet数据缺失，无法完成标准六维蛋白评估。在获得完整数据之前，**维持拒绝状态**。如后续补充packet数据或确认该基因的数据库记录状态，可重新进行完整评估。

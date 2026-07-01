@@ -82,6 +82,15 @@ PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判�
 
 **CENTROSOME CANDIDATE**
 
+### 深度机制分析
+
+PCDHB15（Protocadherin beta 15, UniProt Q9Y5E8）是聚集型原钙黏蛋白β簇（Pcdh-β）成员——位于染色体5q31.3的Pcdh基因簇，包含15个串联排列的Pcdh-β基因（PCDHB1-B16, 其中B15最靠近3'端）。域架构为N端信号肽→6个钙黏蛋白重复域（Cadherin repeats, EC1-EC6, InterPro:Cadherin-like_dom/Cadherin-like_sf/Cadherin_C/Cadherin_CS/Cadherin_N, Pfam:Cadherin/Cadherin_2/Cadherin_C_2, SMART:cadherin domains）→单跨膜螺旋→短胞质尾（约30-40 aa）。每个黏蛋白重复域约110个残基——折叠为Greek-key β-sandwich，Ca2+离子桥接相邻重复域的连接区，维持刚性直线排列——使全长胞外域（约360 A）可延伸至细胞间隙。
+
+HPA IF确认PCDHB15定位于Nucleoplasm、Centrosome和Basal body——这是极不典型的定位组合。经典原钙黏蛋白被认为定位于细胞表面/细胞连接，而PCDHB15的核质和中心体信号提示存在非细胞表面的PCDHB15功能池。Basal body定位暗示PCDHB15可能与纤毛发生（ciliogenesis）相关——原钙黏蛋白在纤毛膜中有表达先例（PCDH15在耳蜗毛细胞立体纤毛中）。HPA IF可靠性为Uncertain——使用的两个抗体（HPA007172, CAB026471）可能均存在脱靶结合问题。
+
+Protein Atlas IF image: selected image for PCDHB15 shows Nucleoplasm signal.
+STRING互作查询在评估时失败（SSL错误），PPI网络完全未知。PubMed仅5篇文献——极度低研究量。PCDHB15在TE调控中的潜力极为间接——作为细胞黏附分子，其核质/中心体的非经典定位若在体内被证实，可能暗示PCDHB15以ICD（intracellular domain）的可溶性裂解产物形式进入核内——类似Notch、cadherin和protocadherin的γ-分泌酶裂解产生转录活性ICD。但此假说完全未经检验。得分58/100主要受限于PPI数据完全缺失和HPA可靠性Uncertain。
+
 ⚠️ *此为自动生成初步评估。UniProt/GO-CC、PDB/结构域、IntAct/BioGRID、关键文献等维度需人工补充完善。*
 
 ## 9. 人工复核备注

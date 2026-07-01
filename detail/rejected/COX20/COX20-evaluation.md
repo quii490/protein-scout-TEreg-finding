@@ -155,6 +155,14 @@ status: rejected
 - [ ] 设计体外实验验证核定位及潜在调控功能
 - [ ] **该蛋白核定位证据不足（≤3/10），不建议作为核蛋白研究目标。**
 
+### 深度机制分析
+
+COX20（Cytochrome c oxidase assembly protein COX20, 118 aa, UniProt Q5RI15）。REJECTED——核定位得分2/10（HPA: Mitochondria, UniProt: Mitochondrion inner membrane）。该蛋白是线粒体呼吸链复合体IV（细胞色素c氧化酶）组装的必需因子，InterPro注释IPR022533（COX20 domain），Pfam PF12597。AlphaFold pLDDT=65.9（有序区46.6%），无PDB实验结构。
+
+从分子机制角度，COX20定位于线粒体内膜，参与MT-CO2（线粒体编码的细胞色素c氧化酶亚基2）的成熟和组装。STRING数据强有力地支持此功能：UQCC2（0.887, experimental=0.810）、COX18（0.810）、TMEM177（0.775）、MT-CO2（0.767）、COA6（0.711）、SCO1（0.687）等均为已知的线粒体呼吸链组装因子或复合体IV组分。COX20与这些蛋白的互作网络呈现线粒体翻译后组装通路的典型特征。PubMed=0篇严格文献（基因名COX20在PubMed中无检索结果）——真核生物中此蛋白研究极少，大多数文献使用酵母或细菌同源物。
+
+从TE调控角度，COX20无核定位证据、无线粒体外功能报道、无染色质/核酸结合结构域，TE调控潜力极低。但极度新颖性（PubMed=0）使得该蛋白在线粒体生物合成研究中仍有价值。综合评分59.7/100。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q5RI15
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000203667-COX20/subcellular

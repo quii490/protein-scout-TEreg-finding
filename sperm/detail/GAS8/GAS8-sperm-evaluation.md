@@ -67,7 +67,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | DRC7 | 0.860 | 0.000 | 0.000 | 0.000 |
 | DNAI2 | 0.852 | 0.000 | 0.000 | 0.000 |
 | DRC7 | 0.849 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| DRC4 | anti bait coimmunoprecipitation | 17353931 |
+| KIAA0036 | anti tag coimmunoprecipitation | 21565611 |
+| DRC4 | two hybrid array | 32296183 |
+| DRC4 | two hybrid array | 32296183 |
+| DRC4 | two hybrid array | 32296183 |
+| DRC4 | two hybrid array | 32296183 |
+| CCDC125 | two hybrid array | 32296183 |
+| DRC4 | two hybrid array | 32296183 |
+| DRC4 | two hybrid array | 32296183 |
+| DRC4 | two hybrid array | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

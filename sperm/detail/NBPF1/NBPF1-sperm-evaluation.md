@@ -64,7 +64,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | SRGAP3 | 0.850 | 0.000 | 0.000 | 0.000 |
 | NBPF1 | 0.847 | 0.000 | 0.000 | 0.000 |
 | NBPF1 | 0.841 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| NBPF3 | anti tag coimmunoprecipitation | 28514442 |
+| KDM1A | two hybrid array | 32296183 |
+| ESR1 | chromatin immunoprecipitation assay | 26153859 |
+| KDM1A | validated two hybrid | 32296183 |
+| KDM1A | two hybrid prey pooling approach | 32296183 |
+| KDM1A | two hybrid prey pooling approach | 32296183 |
+| KDM1A | two hybrid array | 32296183 |
+| NBPF3 | anti tag coimmunoprecipitation | 33961781 |
+| RPL27A | anti tag coimmunoprecipitation | 33961781 |
+| TSGA10IP | anti tag coimmunoprecipitation | 33961781 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

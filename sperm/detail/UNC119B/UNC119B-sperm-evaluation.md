@@ -53,7 +53,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | UNC119B | 0.927 | 0.000 | 0.000 | 0.000 |
 | NPHP3 | 0.901 | 0.000 | 0.000 | 0.000 |
 | CYS1 | 0.877 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| ARL3 | inference by socio-affinity scoring |  |
+| NPHP3 | anti tag coimmunoprecipitation | 28514442 |
+| RNF34 | anti tag coimmunoprecipitation | 28514442 |
+| UNC119 | anti tag coimmunoprecipitation | 28514442 |
+| PSKH2 | anti tag coimmunoprecipitation | 28514442 |
+| PAPD5 | anti tag coimmunoprecipitation | 26496610 |
+| ZFC3H1 | anti tag coimmunoprecipitation | 26496610 |
+| ARL3 | tandem affinity purification | 27173435 |
+| LZTS2 | anti tag coimmunoprecipitation | 33961781 |
+| RNF34 | anti tag coimmunoprecipitation | 33961781 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

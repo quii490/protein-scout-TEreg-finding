@@ -65,7 +65,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | DCTN2 | 0.999 | 0.000 | 0.000 | 0.000 |
 | DCTN1 | 0.999 | 0.000 | 0.000 | 0.000 |
 | DCTN5 | 0.999 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| YL8 | proximity-dependent biotin identification | 29568061 |
+| LRRK2 | anti tag coimmunoprecipitation | 31046837 |
+| LRRK2 | anti tag coimmunoprecipitation | 31046837 |
+| RAB5A | anti tag coimmunoprecipitation | 31980649 |
+| CFTR | pull down | 29924966 |
+| CFTR | pull down | 29924966 |
+| CFTR | pull down | 29924966 |
+| UQCRH | anti tag coimmunoprecipitation | 28514442 |
+| DCTN1 | inference by socio-affinity scoring |  |
+| DCTN2 | inference by socio-affinity scoring |  |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

@@ -173,34 +173,12 @@ status: scored
 
 该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q8N3H0
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000198673-TAFA2/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=TAFA2
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8N3H0
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### 深度机制分析
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+TAFA2（Chemokine-like protein TAFA-2, 131 aa, UniProt Q8N3H0）。TAFA家族（FAM19A亚家族）是一组保守的分泌性趋化因子样蛋白，UniProt注释定位为Cytoplasm和Nucleus，HPA无IF数据。InterPro注释IPR020350（TAFA家族）和IPR051743（TAFA超家族），Pfam PF12020（TAFA domain）。AlphaFold pLDDT=88.3（有序区83.2%），无PDB结构，但预测质量极高。
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q8N3H0-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+从结构生物学角度，TAFA2的131 aa小蛋白在AlphaFold中展现出高置信度折叠——64.9%残基pLDDT>90，说明折叠完整性良好。IntAct鉴定的互作伙伴主要涉及分泌通路蛋白和内质网伴侣（ERN1、LRP6、HSPA5、IGF2R、LDLR、INSR），与注释的趋化因子样分泌功能一致。STRING预测伙伴包括FAM155A（score=0.537）、NAALADL2（0.525）等功能未知蛋白。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+从核定位与TE调控角度，TAFA2的UniProt注释包含Nucleus（GO:0005634），但其功能研究局限于分泌通路和神经发育领域（PMID:40058705, PMID:30485583）。作为趋化因子样蛋白，核定位可能是"兼职蛋白"效应——部分分泌蛋白可被转运至细胞核发挥非经典功能（如HMGB1）。然而，目前没有证据支持TAFA2参与染色质调控或TE沉默。
 
-### SMART / UniProt domain
-| Source | Data |
-|---|---|
-| UniProt | Q8N3H0 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR020350;IPR051743; |
-| Pfam | PF12020; |
-
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000198673-TAFA2/interaction
-
-未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->
+PubMed仅5篇，极度新颖。综合评分75.8/100。建议：（1）通过IF验证TAFA2是否确实定位于细胞核；（2）若核定位确证，测定其DNA/染色质结合能力；（3）核质穿梭机制研究——是否存在NLS/CRM1依赖的核转运。

@@ -55,7 +55,18 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | STIL | 0.996 | 0.000 | 0.000 | 0.000 |
 | CENPJ | 0.995 | 0.000 | 0.000 | 0.000 |
 | CENPJ | 0.994 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| WRAP73 | anti bait coimmunoprecipitation | 17353931 |
+| WRAP73 | anti bait coimmunoprecipitation | 17353931 |
+| CARD9 | anti tag coimmunoprecipitation | 28514442 |
+| TANK | virotrap | 30561431 |
+| NDEL1 | two hybrid fragment pooling approach | 31413325 |
+| NDEL1 | anti tag coimmunoprecipitation | 28514442 |
+| MIS18A | anti tag coimmunoprecipitation | 28514442 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

@@ -55,7 +55,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | Partner | Combined | Exp | DB | Text |
 |---|---|---|---|---|
 | *STRING 无数据* | — | — | — | — |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| MCM7 | two hybrid array | 31515488 |
+| SMG9 | two hybrid array | 32296183 |
+| CDK18 | validated two hybrid | 32296183 |
+| C21orf7 | two hybrid array | 32296183 |
+| C21orf7 | validated two hybrid | 32296183 |
+| CNTF | validated two hybrid | 32296183 |
+| SYT17 | two hybrid array | 32296183 |
+| CDK18 | two hybrid array | 32296183 |
+| C21orf7 | two hybrid prey pooling approach | 32296183 |
+| SMG9 | two hybrid prey pooling approach | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

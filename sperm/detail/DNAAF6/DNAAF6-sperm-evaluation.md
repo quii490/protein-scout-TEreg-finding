@@ -66,7 +66,21 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | DNAAF3 | 0.886 | 0.000 | 0.000 | 0.000 |
 | DNAAF4 | 0.883 | 0.000 | 0.000 | 0.000 |
 | DNAAF3 | 0.873 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| YAF2 | two hybrid array | 32296183 |
+| TSEN15 | two hybrid array | 32296183 |
+| ARID4B | validated two hybrid | 32296183 |
+| YAF2 | validated two hybrid | 32296183 |
+| TSEN15 | validated two hybrid | 32296183 |
+| GAS2L2 | validated two hybrid | 32296183 |
+| RNF39 | validated two hybrid | 32296183 |
+| KAT5 | two hybrid array | 32296183 |
+| QRICH1 | validated two hybrid | 32296183 |
+| PID1 | validated two hybrid | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

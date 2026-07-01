@@ -124,7 +124,11 @@
 <p><strong>风险/不确定性</strong>: 1. PubMed 62 篇，已有一定研究基础 2. 结构数据质量可接受</p>
 <p><strong>下一步建议</strong>:</p>
 <ul><li>[ ] 查阅最新关键文献补充研究背景</li><li>[ ] 获取 Protein Atlas IF 图像确认亚细胞定位</li><li>[ ] 设计体外实验验证核定位及潜在调控功能</li></ul>
-<h4>PPI 互作网络</h4>
+<h4>深度机制分析</h4>
+<p>DHX37（1157 aa, 129.5 kDa, UniProt Q8IY37）是DEAH-box RNA解旋酶家族成员（与DEAD-box家族区分在于保守基序II的序列差异：DEAH vs DEAD）。域架构为N端RecA1（aa 262-429, Helicase ATP-binding, SMART:SM00487, Pfam:PF00270, PROSITE:PRU00541）和C端RecA2（aa 459-716, Helicase C-terminal, SMART:SM00490, Pfam:PF00271, PROSITE:PRU00542）双RecA折叠核心——ATP结合和水解驱动RecA域的相对旋转，沿RNA底物进行3&#x27;→5&#x27;解旋酶步进。HA2域（SMART:SM00847, Pfam:PF23362, IPR048333）位于RecA2 C端，作为RNA结合辅助域。N端约260 aa和C端约300 aa含额外的辅助域——包括DUF1605（IPR011709, Pfam:PF07717）和OB-fold核酸结合域（Pfam:PF04408, IPR007502）。AlphaFold v6 pLDDT=75.9（71.4%有序区）预测双RecA核心以中等-高置信度折叠，但N端和C端延伸区段贡献了主要无序（22.9%低置信区）。</p>
+<p>STRING互作图谱以SSU processome（小亚基加工体）为核心——该大型核仁RNP负责18S rRNA的加工和核糖体小亚基组装：UTP14A（组合score最高）、UTP3、WDR46/UTP7、FCF1/UTP24、NOC4L/UTP19、EMG1/NEP1、NOL6/UTP22、NOP14/UTP2、UTP20、UTP11——全部为SSU processome和核仁U3 snoRNA颗粒（90S pre-ribosome）的保守组分。BYSL/bystin（humanPPI: Opencell, AF3结构可用）是pre-rRNA加工和胚胎着床必需的因子。DHX37在SSU processome中的解旋酶活性涉及U3 snoRNA与pre-rRNA 5&#x27; ETS的碱基配对解旋——这是rRNA加工的关键RNA解旋步骤。</p>
+<p>HPA IF确认DHX37定位于Nuclear membrane（Approved），UniProt增加Nucleus, nucleolus和Cytoplasm注释——核仁定位吻合其SSU processome组分的功能逻辑，核膜信号可能反映前核糖体颗粒穿过核膜核孔复合物(POM152/NUP155/NDC1)转运过程中的短暂滞留。humanPPI中CBX6（chromobox 6, Bioplex, AF3结构可用）是PRC1的另一个chromodomain亚基——其互作与LLPH和FSD2的CBX8互作串联，提示DHX37可能非特异地与PRC1组分在核仁中瞬时接触。H1-4（组蛋白H1.4, Bioplex）和MYC（c-Myc, Biogrid）的互作进一步指向染色质调控潜能。</p>
+<p>DHX37在性别发育障碍（46,XY DSD, PMID:42057034）和癌症预后（乳腺/卵巢癌, PMID:42151440; 黑色素瘤, PMID:42045937）中的遗传关联确认其临床相关性。但PubMed=62篇（新颖性4/10, 20/50分）和缺乏直接TE调控数据使其在本筛选中的排名中等偏后。DEAH-box RNA解旋酶在TE生物学中有明确先例——Mtr4（SKIV2L2/MTREX, TRAMP复合物的核外切体相关RNA解旋酶）直接参与rDNA和LINE-1的核外切体降解。DHX37作为SSU processome的解旋酶，可能在核仁rDNA转录后加工中影响rDNA低甲基化区域的非编码RNA产物——间接影响着丝粒周异染色质和TE表观遗传状态。但此假说完全未经验证。实验优先级：DHX37 RIP-seq（RNA结合靶标——关注rRNA前体和重复来源的非编码RNA）；DHX37敲除后rDNA区域的DNA甲基化和H3K9me3 ChIP-seq。归一化得分55.3/100受限于中等PubMed文献量和无实验PDB结构。</p>
 <div class="table-wrap"><table>
 <thead><tr><th>互作伙伴</th><th>来源</th><th>评分</th></tr></thead><tbody>
 <tr><td>UTP14A</td><td>STRING</td><td>990</td></tr>

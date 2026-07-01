@@ -66,7 +66,19 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | TUBB4B | 0.991 | 0.000 | 0.000 | 0.000 |
 | TUBA1C | 0.990 | 0.000 | 0.000 | 0.000 |
 | TUBB4B | 0.986 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| GRB2 | pull down | 12577067 |
+| KIAA0036 | anti tag coimmunoprecipitation | 21565611 |
+| GABARAPL2 | anti tag coimmunoprecipitation | 20562859 |
+| MM46 | anti tag coimmunoprecipitation | 20562859 |
+| MAP1LC3B | anti tag coimmunoprecipitation | 20562859 |
+| MAP1LC3A | anti tag coimmunoprecipitation | 20562859 |
+| GABARAPL1 | anti tag coimmunoprecipitation | 20562859 |
+| PEX14 | pull down | 21525035 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

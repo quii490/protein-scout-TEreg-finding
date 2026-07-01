@@ -62,7 +62,14 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | EFHC1 | 0.909 | 0.000 | 0.000 | 0.000 |
 | EFHC2 | 0.909 | 0.000 | 0.000 | 0.000 |
 | CFAP45 | 0.905 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| EXOC1 | two hybrid fragment pooling approach | 31413325 |
+| TRAF3IP1 | two hybrid fragment pooling approach | 31413325 |
+| MRPL39 | inference by socio-affinity scoring |  |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |

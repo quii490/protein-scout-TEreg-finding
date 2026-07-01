@@ -54,7 +54,18 @@ PAE 图像暂无数据（未生成本地图片），结构判断基于 AlphaFold
 | SYCN | 0.747 | 0.000 | 0.000 | 0.000 |
 | ZG16 | 0.731 | 0.000 | 0.000 | 0.000 |
 | GUCA2A | 0.716 | 0.000 | 0.000 | 0.000 |
-*待 IntAct/BioGRID/humanPPI 补充。*
+
+### IntAct 实验验证 PPI (Detection 方法)
+| Partner | Detection | PMID |
+|---|---|---|
+| SGTA | two hybrid pooling approach | 16189514 |
+| SGTA | two hybrid array | 32296183 |
+| CTNNA3 | two hybrid prey pooling approach | 32296183 |
+| CTNNA3 | two hybrid array | 32296183 |
+| SGTA | validated two hybrid | 32296183 |
+| SGTA | two hybrid array | 32296183 |
+| UBQLN1 | two hybrid array | 32296183 |
+
 
 ## 7. 评分表
 | 维度 | 评分 | 依据 |
