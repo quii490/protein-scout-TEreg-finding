@@ -16,7 +16,7 @@ tags: [protein-scout, sperm, evaluation]
 - **IF 可靠性:** 未获取
 - **PubMed:** 19 篇
 - **精子定位部位:** Annulus、End piece、Flagellar centriole、Mid piece、Principal piece (5 个)
-- **UniProt Subcellular Location:** No subcellular location annotated
+- **UniProt Subcellular Location:** GO: ciliary transition zone; cilium; cytosol; sperm end piece; sperm midpiece
 
 ## 2. HPA 精子定位证据
 - **来源:** Annulus、End piece、Flagellar centriole、Mid piece、Principal piece ✓
@@ -27,7 +27,7 @@ tags: [protein-scout, sperm, evaluation]
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-**UniProt Subcellular Location:** No subcellular location annotated
+**UniProt Subcellular Location:** GO: ciliary transition zone; cilium; cytosol; sperm end piece; sperm midpiece
 
 *GO-CC 精子相关条目待进一步查询。*
 

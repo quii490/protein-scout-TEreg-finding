@@ -17,7 +17,7 @@ tags: [protein-scout, sperm, evaluation]
 - **IF 可靠性:** 未获取
 - **PubMed:** 89 篇
 - **精子定位部位:** Flagellar centriole、Mid piece (2 个)
-- **UniProt Subcellular Location:** No subcellular location annotated
+- **UniProt Subcellular Location:** GO: cytoplasm; manchette; nucleus; perinuclear region of cytoplasm
 
 ## 2. HPA 精子定位证据
 - **来源:** Flagellar centriole、Mid piece ✓

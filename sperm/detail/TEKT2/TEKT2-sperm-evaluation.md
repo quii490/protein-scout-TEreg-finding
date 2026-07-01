@@ -16,7 +16,7 @@ tags: [protein-scout, sperm, evaluation]
 - **IF 可靠性:** 未获取
 - **PubMed:** 21 篇
 - **精子定位部位:** Connecting piece、Flagellar centriole、Mid piece、Principal piece (4 个)
-- **UniProt Subcellular Location:** No subcellular location annotated
+- **UniProt Subcellular Location:** GO: axonemal A tubule inner sheath; axonemal microtubule; centriole; microtubule cytoskeleton; microtubule organizing center
 
 ## 2. HPA 精子定位证据
 - **来源:** Connecting piece、Flagellar centriole、Mid piece、Principal piece ✓

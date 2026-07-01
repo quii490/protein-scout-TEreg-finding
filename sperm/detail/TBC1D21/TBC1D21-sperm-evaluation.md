@@ -16,7 +16,7 @@ tags: [protein-scout, sperm, evaluation]
 - **IF 可靠性:** 未获取
 - **PubMed:** 13 篇
 - **精子定位部位:** Calyx、Mid piece (2 个)
-- **UniProt Subcellular Location:** No subcellular location annotated
+- **UniProt Subcellular Location:** GO: acrosomal vesicle; cytoplasmic vesicle; cytoskeleton; extracellular exosome; sperm midpiece
 
 ## 2. HPA 精子定位证据
 - **来源:** Calyx、Mid piece ✓

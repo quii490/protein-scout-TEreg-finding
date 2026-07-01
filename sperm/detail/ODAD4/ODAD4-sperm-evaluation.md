@@ -16,7 +16,7 @@ tags: [protein-scout, sperm, evaluation]
 - **IF 可靠性:** 未获取
 - **PubMed:** 10 篇
 - **精子定位部位:** Acrosome、End piece、Mid piece、Principal piece (4 个)
-- **UniProt Subcellular Location:** No subcellular location annotated
+- **UniProt Subcellular Location:** GO: 9+0 motile cilium; 9+2 motile cilium; axoneme; cilium; cytoplasm
 
 ## 2. HPA 精子定位证据
 - **来源:** Acrosome、End piece、Mid piece、Principal piece ✓

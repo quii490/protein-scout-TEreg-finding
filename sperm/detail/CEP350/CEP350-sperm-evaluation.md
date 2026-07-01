@@ -16,7 +16,7 @@ tags: [protein-scout, sperm, evaluation]
 - **IF 可靠性:** 未获取
 - **PubMed:** 32 篇
 - **精子定位部位:** End piece (1 个)
-- **UniProt Subcellular Location:** No subcellular location annotated
+- **UniProt Subcellular Location:** GO: centriole; centrosome; ciliary basal body; membrane; nucleoplasm
 
 ## 2. HPA 精子定位证据
 - **来源:** End piece ✓
@@ -27,7 +27,7 @@ tags: [protein-scout, sperm, evaluation]
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-**UniProt Subcellular Location:** No subcellular location annotated
+**UniProt Subcellular Location:** GO: centriole; centrosome; ciliary basal body; membrane; nucleoplasm
 
 *GO-CC 精子相关条目待进一步查询。*
 

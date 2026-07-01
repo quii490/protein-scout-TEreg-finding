@@ -16,7 +16,7 @@ tags: [protein-scout, sperm, evaluation]
 - **IF 可靠性:** 未获取
 - **PubMed:** 6 篇
 - **精子定位部位:** Annulus、Connecting piece、Mid piece (3 个)
-- **UniProt Subcellular Location:** No subcellular location annotated
+- **UniProt Subcellular Location:** GO: cytoplasm; cytoplasmic vesicle; outer dense fiber; sperm flagellum
 
 ## 2. HPA 精子定位证据
 - **来源:** Annulus、Connecting piece、Mid piece ✓

@@ -16,7 +16,7 @@ tags: [protein-scout, sperm, evaluation]
 - **IF 可靠性:** 未获取
 - **PubMed:** 8 篇
 - **精子定位部位:** Equatorial segment、Principal piece (2 个)
-- **UniProt Subcellular Location:** No subcellular location annotated
+- **UniProt Subcellular Location:** GO: axonemal B tubule inner sheath; axonemal microtubule; centriole; ciliary basal body; cilium
 
 ## 2. HPA 精子定位证据
 - **来源:** Equatorial segment、Principal piece ✓

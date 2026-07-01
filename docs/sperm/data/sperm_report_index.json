@@ -37,7 +37,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: nucleus"
     },
     {
       "gene": "CATSPERE",
@@ -101,7 +101,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytoplasmic vesicle"
     },
     {
       "gene": "CXorf66",
@@ -165,7 +165,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: axonemal dynein complex; cytoplasm; inner dynein arm"
     },
     {
       "gene": "DNAL4",
@@ -293,7 +293,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: axoneme"
     },
     {
       "gene": "P3R3URF-PIK3R3",
@@ -357,7 +357,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytoplasm; protein phosphatase 4 complex"
     },
     {
       "gene": "SPACA7",
@@ -517,7 +517,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: axonemal dynein complex; axoneme; dynein axonemal particle; motile cilium"
     },
     {
       "gene": "DUSP21",
@@ -773,7 +773,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytoplasm; cytoplasmic vesicle; outer dense fiber; sperm flagellum"
     },
     {
       "gene": "FYB2",
@@ -805,7 +805,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: immunological synapse; membrane raft; plasma membrane"
     },
     {
       "gene": "KRT39",
@@ -997,7 +997,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytoplasm"
     },
     {
       "gene": "NBPF19",
@@ -1093,7 +1093,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytoplasm; extracellular region"
     },
     {
       "gene": "PPP1R32",
@@ -1477,7 +1477,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: sperm end piece; sperm head-tail coupling apparatus; sperm midpiece; sperm principal piece"
     },
     {
       "gene": "CDK20",
@@ -1541,7 +1541,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: axonemal doublet microtubule; ciliary basal body; motile cilium"
     },
     {
       "gene": "CFAP126",
@@ -1573,7 +1573,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: apical plasma membrane; axonemal B tubule inner sheath; axonemal microtubule; ciliary basal body; cilium"
     },
     {
       "gene": "CFAP20",
@@ -1605,7 +1605,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: axonemal B tubule inner sheath; axonemal microtubule; centriole; ciliary basal body; cilium"
     },
     {
       "gene": "CYLC1",
@@ -1637,7 +1637,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: acrosomal matrix; cytoskeletal calyx; nucleus; perinuclear theca; sperm glycocalyx"
     },
     {
       "gene": "DBNDD1",
@@ -1701,7 +1701,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: centrosome; cleavage furrow; cytosol; dynactin complex; kinetochore"
     },
     {
       "gene": "DYNC1I2",
@@ -1733,7 +1733,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: centrosome; cytoplasm; cytoplasmic dynein complex; cytosol; male germ cell nucleus"
     },
     {
       "gene": "DYNC2LI1",
@@ -1957,7 +1957,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: centrosome; ciliary tip; cilium; endomembrane system; intraciliary transport particle A"
     },
     {
       "gene": "IQCN",
@@ -1989,7 +1989,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: mitochondrion; nucleus"
     },
     {
       "gene": "IZUMO2",
@@ -2021,7 +2021,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: membrane"
     },
     {
       "gene": "IZUMO3",
@@ -2053,7 +2053,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: inner acrosomal membrane; plasma membrane"
     },
     {
       "gene": "KIF4B",
@@ -2181,7 +2181,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: endoplasmic reticulum; endoplasmic reticulum membrane; endoplasmic reticulum tubular network; endoplasmic reticulum tubular network membrane; membrane"
     },
     {
       "gene": "MROH2B",
@@ -2213,7 +2213,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: acrosomal vesicle; cytoplasm; sperm flagellum; sperm midpiece"
     },
     {
       "gene": "NBPF9",
@@ -2405,7 +2405,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: glycogen granule; protein phosphatase type 1 complex"
     },
     {
       "gene": "RIBC2",
@@ -2469,7 +2469,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: axonemal microtubule; centriole; ciliary basal body; cytoskeleton; sperm flagellum"
     },
     {
       "gene": "SLC22A14",
@@ -2533,7 +2533,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: acrosomal vesicle; axonemal A tubule inner sheath; axonemal microtubule; cilium; cytoplasm"
     },
     {
       "gene": "SPATA31A1",
@@ -2693,7 +2693,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: axonemal A tubule inner sheath; axonemal microtubule; centriole; microtubule cytoskeleton; microtubule organizing center"
     },
     {
       "gene": "TEKT3",
@@ -2757,7 +2757,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: axonemal A tubule inner sheath; axonemal microtubule; microtubule cytoskeleton; nucleus; sperm end piece"
     },
     {
       "gene": "TSSK1B",
@@ -2821,7 +2821,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: 9+0 non-motile cilium; axoneme; ciliary basal body; cilium; cytosol"
     },
     {
       "gene": "UNC119B",
@@ -2853,7 +2853,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: ciliary transition zone; cilium; cytosol; sperm end piece; sperm midpiece"
     },
     {
       "gene": "WDR54",
@@ -2917,7 +2917,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: axoneme; cilium; manchette; microtubule; sperm flagellum"
     },
     {
       "gene": "CCDC65",
@@ -2981,7 +2981,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytosol; Golgi apparatus; membrane; trans-Golgi network"
     },
     {
       "gene": "CEP162",
@@ -3109,7 +3109,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: axoneme"
     },
     {
       "gene": "CFAP70",
@@ -3141,7 +3141,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: axoneme; ciliary basal body; extracellular exosome; motile cilium; outer dynein arm"
     },
     {
       "gene": "DAW1",
@@ -3173,7 +3173,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: ciliary basal body; cilium; SCF ubiquitin ligase complex"
     },
     {
       "gene": "DRC3",
@@ -3205,7 +3205,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: axonemal doublet microtubule; axoneme; cilium; cytoplasm; sperm flagellum"
     },
     {
       "gene": "IQCD",
@@ -3269,7 +3269,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: 9+2 motile cilium; acrosomal vesicle; motile cilium; radial spoke; sperm flagellum"
     },
     {
       "gene": "IZUMO4",
@@ -3301,7 +3301,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: extracellular region; nucleus"
     },
     {
       "gene": "KIF2B",
@@ -3365,7 +3365,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytoplasm; cytoskeleton; outer dense fiber"
     },
     {
       "gene": "RAP1GAP2",
@@ -3589,7 +3589,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: ciliary basal body; microtubule"
     },
     {
       "gene": "VARS1",
@@ -3621,7 +3621,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytosol"
     },
     {
       "gene": "VPS50",
@@ -3653,7 +3653,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: EARP complex; extracellular exosome; membrane; perinuclear region of cytoplasm; recycling endosome"
     },
     {
       "gene": "ATP5MGL",
@@ -3941,7 +3941,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: microtubule; outer dynein arm"
     },
     {
       "gene": "DYDC2",
@@ -3973,7 +3973,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: axoneme; Set1C/COMPASS complex"
     },
     {
       "gene": "ENSG00000111780",
@@ -4389,7 +4389,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: axonemal A tubule inner sheath; axonemal microtubule; cytoplasm; nucleus; sperm flagellum"
     },
     {
       "gene": "PSMD7",
@@ -4517,7 +4517,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: 9+2 motile cilium; axoneme; cilium; kinocilium; motile cilium"
     },
     {
       "gene": "SPACA9",
@@ -4549,7 +4549,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": ""
+      "uniprot_subcellular_location": "GO: acrosomal vesicle; axonemal microtubule; axonemal microtubule doublet inner sheath; axoneme; ciliary basal body"
     },
     {
       "gene": "STPG2",
@@ -4709,7 +4709,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytoskeleton; photoreceptor connecting cilium"
     },
     {
       "gene": "VPS37A",
@@ -4741,7 +4741,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: endosome membrane; ESCRT I complex; late endosome membrane; nucleoplasm"
     },
     {
       "gene": "ACTL9",
@@ -4965,7 +4965,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: axoneme; motile cilium; sperm end piece; sperm flagellum; sperm midpiece"
     },
     {
       "gene": "CFAP43",
@@ -5157,7 +5157,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: acrosomal vesicle; extracellular space"
     },
     {
       "gene": "DNAAF6",
@@ -5189,7 +5189,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytoplasm; Golgi apparatus; trans-Golgi network"
     },
     {
       "gene": "DNAH12",
@@ -5317,7 +5317,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: 9+2 motile cilium; axoneme; ciliary base; cilium; cytoplasm"
     },
     {
       "gene": "DNHD1",
@@ -5381,7 +5381,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: axonemal A tubule inner sheath; nucleoplasm; sperm flagellum"
     },
     {
       "gene": "ENKUR",
@@ -5509,7 +5509,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: extracellular exosome; extracellular matrix; Golgi apparatus; Golgi membrane; membrane"
     },
     {
       "gene": "HAUS1",
@@ -5605,7 +5605,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: centriole; ciliary tip; cilium; intercellular bridge; intraciliary transport particle A"
     },
     {
       "gene": "IMPG1",
@@ -5733,7 +5733,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: centriole; centrosome; ciliary basal body; plasma membrane"
     },
     {
       "gene": "LYZL4",
@@ -5893,7 +5893,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: mitochondrial inner membrane; mitochondrial intermembrane space; mitochondrion; respiratory chain complex I"
     },
     {
       "gene": "NUBP1",
@@ -5925,7 +5925,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: axoneme; centriole; centrosome; cytoplasm; cytosol"
     },
     {
       "gene": "OAZ3",
@@ -6021,7 +6021,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: centriole; centrosome; ciliary basal body; cytoplasm; spindle pole"
     },
     {
       "gene": "PSMD5",
@@ -6053,7 +6053,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytosol; proteasome accessory complex; proteasome complex"
     },
     {
       "gene": "RAB11FIP4",
@@ -6085,7 +6085,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: centrosome; cleavage furrow; endocytic vesicle; endosome; extracellular space"
     },
     {
       "gene": "RALGAPA1",
@@ -6149,7 +6149,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: extracellular exosome; extracellular region; extracellular space; plasma membrane"
     },
     {
       "gene": "ROPN1L",
@@ -6213,7 +6213,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytosol; plasma membrane; sperm principal piece"
     },
     {
       "gene": "SPAG17",
@@ -6277,7 +6277,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: acrosomal vesicle"
     },
     {
       "gene": "SSX2IP",
@@ -6309,7 +6309,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: adherens junction; cell leading edge; centriolar satellite; centrosome; ciliary basal body"
     },
     {
       "gene": "TBC1D21",
@@ -6341,7 +6341,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: acrosomal vesicle; cytoplasmic vesicle; cytoskeleton; extracellular exosome; sperm midpiece"
     },
     {
       "gene": "TP53I11",
@@ -6373,7 +6373,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: membrane"
     },
     {
       "gene": "WBP11",
@@ -6437,7 +6437,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: centriolar satellite; centriole; centrosome; ciliary basal body; cytoplasm"
     },
     {
       "gene": "ENSG00000282218",
@@ -6533,7 +6533,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: azurophil granule lumen; cell body; centrosome; chaperonin-containing T-complex; cytoplasm"
     },
     {
       "gene": "CEP135",
@@ -6565,7 +6565,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: centriole; centrosome; cytosol"
     },
     {
       "gene": "EFHC1",
@@ -6725,7 +6725,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: postsynaptic density; ruffle membrane"
     },
     {
       "gene": "SUGT1",
@@ -6789,7 +6789,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: axoneme; ciliary tip; cilium; intraciliary transport particle A"
     },
     {
       "gene": "ADAM32",
@@ -6917,7 +6917,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: acrosomal membrane"
     },
     {
       "gene": "CCDC183",
@@ -7013,7 +7013,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: axoneme; centriolar satellite; centrosome; ciliary basal body; cilium"
     },
     {
       "gene": "CCIN",
@@ -7109,7 +7109,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytosol; nucleus"
     },
     {
       "gene": "CFAP61",
@@ -7141,7 +7141,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: axoneme; motile cilium; sperm flagellum"
     },
     {
       "gene": "CLGN",
@@ -7205,7 +7205,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytosol; methylosome; microtubule cytoskeleton; nucleoplasm; nucleus"
     },
     {
       "gene": "DCTN4",
@@ -7269,7 +7269,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytoplasm; cytosol; dynein axonemal particle; extracellular region; neuron projection"
     },
     {
       "gene": "DNAH2",
@@ -7429,7 +7429,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: centrosome; cytoplasmic dynein complex; cytosol; kinetochore; late endosome"
     },
     {
       "gene": "DYNLL2",
@@ -7557,7 +7557,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: aminoacyl-tRNA synthetase multienzyme complex; cytoplasm; cytosol; GAIT complex; membrane"
     },
     {
       "gene": "EXOC3L2",
@@ -7589,7 +7589,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: exocyst"
     },
     {
       "gene": "GAS8",
@@ -7717,7 +7717,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cilium; cytoplasm; extracellular exosome; kinesin complex; microtubule"
     },
     {
       "gene": "LY6K",
@@ -7781,7 +7781,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: aminoacyl-tRNA synthetase multienzyme complex; cytoplasm; cytosol; extracellular exosome; membrane"
     },
     {
       "gene": "MNS1",
@@ -7909,7 +7909,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytoplasm; cytoplasmic dynein complex"
     },
     {
       "gene": "ODF4",
@@ -7941,7 +7941,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: membrane"
     },
     {
       "gene": "PPP2R3A",
@@ -7973,7 +7973,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: protein phosphatase type 2A complex"
     },
     {
       "gene": "PPP2R5E",
@@ -8037,7 +8037,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytoplasm; extracellular region; extracellular space; membrane; plasma membrane"
     },
     {
       "gene": "PRSS55",
@@ -8069,7 +8069,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: acrosomal vesicle; cytosol; plasma membrane; side of membrane"
     },
     {
       "gene": "PSMA4",
@@ -8165,7 +8165,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: 9+2 motile cilium; axoneme; cilium; condensed nuclear chromosome; cytosol"
     },
     {
       "gene": "RSPH4A",
@@ -8293,7 +8293,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: axon terminus; cell division site; cleavage furrow; kinetochore; microtubule cytoskeleton"
     },
     {
       "gene": "SLC26A8",
@@ -8325,7 +8325,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: plasma membrane; sperm annulus"
     },
     {
       "gene": "SPACA4",
@@ -8389,7 +8389,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: axonemal central apparatus; axoneme; sperm flagellum"
     },
     {
       "gene": "SPATA20",
@@ -8421,7 +8421,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: extracellular region; mitochondrion"
     },
     {
       "gene": "SPEM1",
@@ -8613,7 +8613,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: sperm flagellum; sperm principal piece"
     },
     {
       "gene": "TTC8",
@@ -8677,7 +8677,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: axonemal microtubule; azurophil granule lumen; cytoplasm; cytoskeleton; cytosol"
     },
     {
       "gene": "TUBB6",
@@ -8805,7 +8805,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytoplasm; cytosol"
     },
     {
       "gene": "WDR11",
@@ -8837,7 +8837,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: nucleus"
     },
     {
       "gene": "ZG16",
@@ -8869,7 +8869,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: extracellular space; Golgi lumen; mucus layer; zymogen granule membrane"
     },
     {
       "gene": "ACTR10",
@@ -8901,7 +8901,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: axon cytoplasm; azurophil granule lumen; cytosol; dynactin complex; extracellular region"
     },
     {
       "gene": "AK9",
@@ -8965,7 +8965,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: ciliary membrane; motile cilium; non-motile cilium"
     },
     {
       "gene": "CABYR",
@@ -9029,7 +9029,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: apical plasma membrane; basolateral plasma membrane; multivesicular body membrane; plasma membrane"
     },
     {
       "gene": "CEP131",
@@ -9061,7 +9061,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: acrosomal vesicle; centriolar satellite; centriole; centrosome; ciliary basal body"
     },
     {
       "gene": "CEP350",
@@ -9093,7 +9093,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: centriole; centrosome; ciliary basal body; membrane; nucleoplasm"
     },
     {
       "gene": "CLIP1",
@@ -9157,7 +9157,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: centriole; centrosome; ciliary basal body"
     },
     {
       "gene": "COX6B1",
@@ -9189,7 +9189,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: mitochondrial inner membrane; mitochondrial membrane; mitochondrion; respiratory chain complex IV"
     },
     {
       "gene": "CPLANE1",
@@ -9221,7 +9221,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: ciliary transition zone; membrane"
     },
     {
       "gene": "CROCC",
@@ -9349,7 +9349,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: sperm end piece; sperm head-tail coupling apparatus; sperm midpiece; sperm principal piece"
     },
     {
       "gene": "HSPA4L",
@@ -9381,7 +9381,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytoplasm; cytosol; nucleus"
     },
     {
       "gene": "IFT46",
@@ -9509,7 +9509,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: axonemal microtubule; cytoplasm; kinesin complex; microtubule; podosome"
     },
     {
       "gene": "KLHL10",
@@ -9541,7 +9541,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: Cul3-RING ubiquitin ligase complex; cytoplasm"
     },
     {
       "gene": "LANCL1",
@@ -9605,7 +9605,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: 9+0 motile cilium; 9+2 motile cilium; axoneme; cilium; cytoplasm"
     },
     {
       "gene": "PLPP3",
@@ -9637,7 +9637,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: adherens junction; basolateral plasma membrane; endoplasmic reticulum exit site; endoplasmic reticulum membrane; endoplasmic reticulum-Golgi intermediate compartment membrane"
     },
     {
       "gene": "POC1B",
@@ -9669,7 +9669,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: centriole; centrosome; ciliary basal body; spindle pole"
     },
     {
       "gene": "PSMC4",
@@ -9701,7 +9701,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytosol; membrane; nucleoplasm; nucleus; proteasome accessory complex"
     },
     {
       "gene": "PSMD11",
@@ -9733,7 +9733,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytosol; extracellular region; ficolin-1-rich granule lumen; membrane; nucleoplasm"
     },
     {
       "gene": "PTPN23",
@@ -9861,7 +9861,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytosol; R2TP complex"
     },
     {
       "gene": "SEPTIN12",
@@ -9893,7 +9893,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cell division site; cleavage furrow; microtubule cytoskeleton; midbody; nucleus"
     },
     {
       "gene": "SLC26A7",
@@ -9925,7 +9925,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: apical plasma membrane; basolateral plasma membrane; cytoplasm; endosome; lateral plasma membrane"
     },
     {
       "gene": "SPACA1",
@@ -10117,7 +10117,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cilium; cytoplasm; extracellular region; Golgi apparatus; manchette"
     },
     {
       "gene": "STK33",
@@ -10149,7 +10149,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytoplasm; manchette; nucleus; perinuclear region of cytoplasm"
     },
     {
       "gene": "TOPAZ1",
@@ -10213,7 +10213,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: axonemal basal plate; axoneme; cilium; plasma membrane"
     },
     {
       "gene": "WDR19",
@@ -10245,7 +10245,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: ciliary tip; cilium; intraciliary transport particle A; motile cilium; non-motile cilium"
     },
     {
       "gene": "IQCH",
@@ -10277,7 +10277,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: nuclear speck"
     },
     {
       "gene": "CFAP119",
@@ -10309,7 +10309,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: acrosomal vesicle; cytoplasm; radial spoke; sperm principal piece"
     },
     {
       "gene": "CFAP276",
@@ -10341,7 +10341,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: axonemal B tubule inner sheath; axonemal microtubule; cytoplasm; cytoskeleton; sperm flagellum"
     },
     {
       "gene": "DYDC1",
@@ -10501,7 +10501,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: axoneme; cilium; cytoplasm; extracellular region; motile cilium"
     },
     {
       "gene": "CNTRL",
@@ -10533,7 +10533,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: centriolar subdistal appendage; centrosome; cytosol; Flemming body; meiotic spindle pole"
     },
     {
       "gene": "COASY",
@@ -10597,7 +10597,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: mitochondrial inner membrane; mitochondrial membrane; mitochondrion; respiratory chain complex IV"
     },
     {
       "gene": "DYNLT1",
@@ -10629,7 +10629,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cilium; cytoplasm; cytoplasmic dynein complex; cytoplasmic microtubule; extracellular region"
     },
     {
       "gene": "EPHA6",
@@ -10757,7 +10757,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: axoneme; centrosome; ciliary basal body; ciliary base; ciliary tip"
     },
     {
       "gene": "IPO8",
@@ -10789,7 +10789,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytosol; nuclear envelope; nucleoplasm"
     },
     {
       "gene": "KIF1C",
@@ -10821,7 +10821,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: axon; axon cytoplasm; cytoplasm; dendrite; endoplasmic reticulum"
     },
     {
       "gene": "KIF20B",
@@ -10949,7 +10949,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytosol; extracellular exosome; nucleus"
     },
     {
       "gene": "PPP3CB",
@@ -10981,7 +10981,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: calcineurin complex; cytoplasm; cytosol; glutamatergic synapse; nucleoplasm"
     },
     {
       "gene": "PPP3CC",
@@ -11013,7 +11013,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: calcineurin complex; cytoplasm; cytosol; glutamatergic synapse; mitochondrion"
     },
     {
       "gene": "SPAG1",
@@ -11045,7 +11045,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytoplasm; cytosol; dynein axonemal particle"
     },
     {
       "gene": "TSGA10",
@@ -11109,7 +11109,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: apical part of cell; cell leading edge; centriole; centrosome; ciliary basal body"
     },
     {
       "gene": "ULK3",
@@ -11141,7 +11141,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: autophagosome; ciliary tip; cytoplasm; cytosol; phagophore assembly site"
     },
     {
       "gene": "AK8",
@@ -11173,7 +11173,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: 9+2 motile cilium; axoneme; cytoplasm; cytosol; sperm flagellum"
     },
     {
       "gene": "C7orf33",
@@ -11269,7 +11269,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: acrosomal vesicle; cytoplasm"
     },
     {
       "gene": "CFAP95",
@@ -11301,7 +11301,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: axonemal A tubule inner sheath; axonemal microtubule; cytoplasm; plasma membrane; sperm flagellum"
     },
     {
       "gene": "CLXN",
@@ -11333,7 +11333,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: axoneme; cilium; sperm flagellum"
     },
     {
       "gene": "ARMC9",
@@ -11397,7 +11397,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: mitochondrial inner membrane; mitochondrial matrix; mitochondrion; proton-transporting ATP synthase complex"
     },
     {
       "gene": "ODAD1",
@@ -11429,7 +11429,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: axoneme; cilium; outer dynein arm; outer dynein arm docking complex; sperm midpiece"
     },
     {
       "gene": "ODAD2",
@@ -11461,7 +11461,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: axoneme; ciliary base; cilium"
     },
     {
       "gene": "ACTRT3",
@@ -11685,7 +11685,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: mitochondrial inner membrane; mitochondrion; proton-transporting ATP synthase complex"
     },
     {
       "gene": "CATIP",
@@ -11717,7 +11717,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: actin cytoskeleton; cytoplasm; nucleus; plasma membrane"
     },
     {
       "gene": "DNAAF11",
@@ -11749,7 +11749,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: apical cytoplasm; cilium; cytoplasm; cytosol; dynein axonemal particle"
     },
     {
       "gene": "DNAI2",
@@ -11813,7 +11813,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytoplasm; cytosol; lipid droplet; membrane"
     },
     {
       "gene": "ADAM30",
@@ -11909,7 +11909,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: voltage-gated calcium channel complex"
     },
     {
       "gene": "DNAH17",
@@ -11973,7 +11973,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: axoneme; centriole; ciliary basal body; ciliary rootlet; ciliary tip"
     },
     {
       "gene": "ABHD2",
@@ -12005,7 +12005,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: acrosomal vesicle; sperm flagellum; sperm plasma membrane"
     },
     {
       "gene": "ABLIM1",
@@ -12101,7 +12101,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: sperm annulus; sperm midpiece"
     },
     {
       "gene": "ART3",
@@ -12165,7 +12165,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: ficolin-1-rich granule membrane; mitochondrial inner membrane; mitochondrion; plasma membrane; secretory granule membrane"
     },
     {
       "gene": "BBS5",
@@ -12293,7 +12293,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: acrosomal vesicle; cytoplasm; vesicle"
     },
     {
       "gene": "AKAP3",
@@ -12325,7 +12325,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: acrosomal vesicle; cytoplasm; nucleus; sperm fibrous sheath; sperm midpiece"
     },
     {
       "gene": "ATP5F1A",
@@ -12357,7 +12357,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cell surface; extracellular exosome; membrane; membrane raft; mitochondrial inner membrane"
     },
     {
       "gene": "AAAS",

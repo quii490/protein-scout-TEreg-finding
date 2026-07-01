@@ -16,7 +16,7 @@ tags: [protein-scout, sperm, evaluation]
 - **IF 可靠性:** 未获取
 - **PubMed:** 74 篇
 - **精子定位部位:** Perinuclear theca、Principal piece (2 个)
-- **UniProt Subcellular Location:** No subcellular location annotated
+- **UniProt Subcellular Location:** GO: cytosol; extracellular region; ficolin-1-rich granule lumen; membrane; nucleoplasm
 
 ## 2. HPA 精子定位证据
 - **来源:** Perinuclear theca、Principal piece ✓

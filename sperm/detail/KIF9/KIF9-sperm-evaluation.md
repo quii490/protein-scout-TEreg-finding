@@ -16,7 +16,7 @@ tags: [protein-scout, sperm, evaluation]
 - **IF 可靠性:** 未获取
 - **PubMed:** 44 篇
 - **精子定位部位:** Mid piece (1 个)
-- **UniProt Subcellular Location:** No subcellular location annotated
+- **UniProt Subcellular Location:** GO: axonemal microtubule; cytoplasm; kinesin complex; microtubule; podosome
 
 ## 2. HPA 精子定位证据
 - **来源:** Mid piece ✓

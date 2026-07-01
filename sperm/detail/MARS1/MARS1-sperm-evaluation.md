@@ -16,7 +16,7 @@ tags: [protein-scout, sperm, evaluation]
 - **IF 可靠性:** 未获取
 - **PubMed:** 74 篇
 - **精子定位部位:** End piece、Mid piece、Principal piece (3 个)
-- **UniProt Subcellular Location:** No subcellular location annotated
+- **UniProt Subcellular Location:** GO: aminoacyl-tRNA synthetase multienzyme complex; cytoplasm; cytosol; extracellular exosome; membrane
 
 ## 2. HPA 精子定位证据
 - **来源:** End piece、Mid piece、Principal piece ✓

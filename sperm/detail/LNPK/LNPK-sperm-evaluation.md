@@ -16,7 +16,7 @@ tags: [protein-scout, sperm, evaluation]
 - **IF 可靠性:** 未获取
 - **PubMed:** 25 篇
 - **精子定位部位:** Connecting piece、End piece、Mid piece、Principal piece (4 个)
-- **UniProt Subcellular Location:** No subcellular location annotated
+- **UniProt Subcellular Location:** GO: endoplasmic reticulum; endoplasmic reticulum membrane; endoplasmic reticulum tubular network; endoplasmic reticulum tubular network membrane; membrane
 
 ## 2. HPA 精子定位证据
 - **来源:** Connecting piece、End piece、Mid piece、Principal piece ✓
