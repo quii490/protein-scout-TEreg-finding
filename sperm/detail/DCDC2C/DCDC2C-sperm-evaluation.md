@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** DCDC2C
+- **蛋白名称:** Doublecortin domain-containing protein 2C
 - **Ensembl:** ENSG00000214866
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

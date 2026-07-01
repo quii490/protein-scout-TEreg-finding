@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** LRIT1
+- **蛋白名称:** Leucine-rich repeat, immunoglobulin-like domain and transmembrane domain-containing protein 1
 - **Ensembl:** ENSG00000148602
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

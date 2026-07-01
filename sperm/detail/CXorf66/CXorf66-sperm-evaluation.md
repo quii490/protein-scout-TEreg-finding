@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** CXorf66
+- **蛋白名称:** Uncharacterized protein CXorf66
 - **Ensembl:** ENSG00000203933
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

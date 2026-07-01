@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** PPP3CC
+- **蛋白名称:** Serine/threonine-protein phosphatase
 - **Ensembl:** ENSG00000120910
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

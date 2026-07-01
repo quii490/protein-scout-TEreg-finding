@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** C2CD6
+- **蛋白名称:** Cation channel sperm-associated targeting subunit tau
 - **Ensembl:** ENSG00000155754
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

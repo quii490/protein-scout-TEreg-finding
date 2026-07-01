@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** C2CD3
+- **蛋白名称:** C2 domain-containing protein 3
 - **Ensembl:** ENSG00000168014
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

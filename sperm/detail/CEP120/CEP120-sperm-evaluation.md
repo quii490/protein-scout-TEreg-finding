@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** CEP120
+- **蛋白名称:** Centrosomal protein of 120 kDa
 - **Ensembl:** 
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** RIBC2
+- **蛋白名称:** RIB43A-like with coiled-coils protein 2
 - **Ensembl:** ENSG00000128408
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

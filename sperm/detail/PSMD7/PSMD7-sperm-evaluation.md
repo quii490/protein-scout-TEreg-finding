@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** PSMD7
+- **蛋白名称:** 26S proteasome non-ATPase regulatory subunit 7
 - **Ensembl:** ENSG00000103035
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

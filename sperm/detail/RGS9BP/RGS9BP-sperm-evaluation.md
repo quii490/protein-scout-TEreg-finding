@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** RGS9BP
+- **蛋白名称:** Regulator of G protein signaling 9-binding protein
 - **Ensembl:** ENSG00000186326
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

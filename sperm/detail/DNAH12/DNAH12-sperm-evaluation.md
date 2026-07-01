@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** DNAH12
+- **蛋白名称:** Dynein axonemal heavy chain 12
 - **Ensembl:** ENSG00000174844
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** KRT31
+- **蛋白名称:** Keratin, type I cuticular Ha1
 - **Ensembl:** ENSG00000094796
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

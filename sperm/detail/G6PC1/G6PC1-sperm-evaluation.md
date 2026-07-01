@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** G6PC1
+- **蛋白名称:** glucose-6-phosphatase
 - **Ensembl:** ENSG00000131482
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

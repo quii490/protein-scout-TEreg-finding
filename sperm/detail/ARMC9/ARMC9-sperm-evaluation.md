@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** ARMC9
+- **蛋白名称:** LisH domain-containing protein ARMC9
 - **Ensembl:** ENSG00000135931
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

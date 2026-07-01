@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** TEKT3
+- **蛋白名称:** Tektin
 - **Ensembl:** ENSG00000125409
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

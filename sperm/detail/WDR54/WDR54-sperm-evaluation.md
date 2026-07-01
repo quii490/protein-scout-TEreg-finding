@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** WDR54
+- **蛋白名称:** WD repeat-containing protein 54
 - **Ensembl:** ENSG00000005448
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

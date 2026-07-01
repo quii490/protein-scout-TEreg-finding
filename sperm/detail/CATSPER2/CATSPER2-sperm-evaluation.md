@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** CATSPER2
+- **蛋白名称:** Cation channel sperm-associated protein 2
 - **Ensembl:** ENSG00000166762
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

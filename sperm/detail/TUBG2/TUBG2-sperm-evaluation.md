@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** TUBG2
+- **蛋白名称:** Tubulin gamma-2 chain
 - **Ensembl:** ENSG00000037042
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

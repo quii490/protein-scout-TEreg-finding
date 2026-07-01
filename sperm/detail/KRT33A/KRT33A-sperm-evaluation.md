@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** KRT33A
+- **蛋白名称:** Keratin, type I cuticular Ha3-I
 - **Ensembl:** ENSG00000006059
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

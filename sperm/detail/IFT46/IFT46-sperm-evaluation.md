@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** IFT46
+- **蛋白名称:** Intraflagellar transport protein 46 homolog
 - **Ensembl:** ENSG00000118096
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

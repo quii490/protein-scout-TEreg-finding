@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** PSMA4
+- **蛋白名称:** Proteasome subunit alpha type-4
 - **Ensembl:** ENSG00000041357
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

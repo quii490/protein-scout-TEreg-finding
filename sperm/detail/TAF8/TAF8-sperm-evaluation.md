@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** TAF8
+- **蛋白名称:** Transcription initiation factor TFIID subunit 8
 - **Ensembl:** ENSG00000137413
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

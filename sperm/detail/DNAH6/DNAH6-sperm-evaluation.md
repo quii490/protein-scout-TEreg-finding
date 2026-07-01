@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** DNAH6
+- **蛋白名称:** Dynein axonemal heavy chain 6
 - **Ensembl:** ENSG00000115423
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

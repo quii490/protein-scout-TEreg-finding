@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** FAM166A
+- **蛋白名称:** Ciliary microtubule inner protein 2A
 - **Ensembl:** ENSG00000188163
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

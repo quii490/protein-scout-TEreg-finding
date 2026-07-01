@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** PPP2R5E
+- **蛋白名称:** Serine/threonine-protein phosphatase 2A 56 kDa regulatory subunit
 - **Ensembl:** ENSG00000154001
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

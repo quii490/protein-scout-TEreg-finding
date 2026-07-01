@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** CAPZA3
+- **蛋白名称:** F-actin-capping protein subunit alpha-3
 - **Ensembl:** ENSG00000177938
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

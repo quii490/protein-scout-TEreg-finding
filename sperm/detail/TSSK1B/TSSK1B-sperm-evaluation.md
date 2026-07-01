@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** TSSK1B
+- **蛋白名称:** Testis-specific serine/threonine-protein kinase 1
 - **Ensembl:** ENSG00000212122
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

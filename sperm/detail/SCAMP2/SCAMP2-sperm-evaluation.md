@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** SCAMP2
+- **蛋白名称:** Secretory carrier-associated membrane protein
 - **Ensembl:** ENSG00000140497
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

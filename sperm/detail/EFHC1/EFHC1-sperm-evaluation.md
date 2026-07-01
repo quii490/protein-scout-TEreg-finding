@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** EFHC1
+- **蛋白名称:** EF-hand domain-containing protein 1
 - **Ensembl:** ENSG00000096093
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

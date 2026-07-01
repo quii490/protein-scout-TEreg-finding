@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** ULK3
+- **蛋白名称:** non-specific serine/threonine protein kinase
 - **Ensembl:** ENSG00000140474
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

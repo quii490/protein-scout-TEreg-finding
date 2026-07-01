@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** KCTD16
+- **蛋白名称:** BTB/POZ domain-containing protein KCTD16
 - **Ensembl:** ENSG00000183775
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

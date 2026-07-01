@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** OR10Q1
+- **蛋白名称:** Olfactory receptor 10Q1
 - **Ensembl:** ENSG00000180475
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

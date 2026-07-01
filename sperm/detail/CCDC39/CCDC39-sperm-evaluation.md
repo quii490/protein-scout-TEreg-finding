@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** CCDC39
+- **蛋白名称:** Coiled-coil domain-containing protein 39
 - **Ensembl:** ENSG00000284862
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

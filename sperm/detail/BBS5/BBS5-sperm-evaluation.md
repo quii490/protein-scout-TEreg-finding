@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** BBS5
+- **蛋白名称:** BBSome complex member BBS5
 - **Ensembl:** ENSG00000163093
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

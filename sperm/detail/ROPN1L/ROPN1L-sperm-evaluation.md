@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** ROPN1L
+- **蛋白名称:** Ropporin-1-like protein
 - **Ensembl:** ENSG00000145491
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

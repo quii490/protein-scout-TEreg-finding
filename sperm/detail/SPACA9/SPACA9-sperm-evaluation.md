@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** SPACA9
+- **蛋白名称:** Sperm acrosome-associated protein 9
 - **Ensembl:** ENSG00000165698
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

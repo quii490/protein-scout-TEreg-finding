@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** C16orf78
+- **蛋白名称:** Uncharacterized protein C16orf78
 - **Ensembl:** ENSG00000166152
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

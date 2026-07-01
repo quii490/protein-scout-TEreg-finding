@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** TMEM231
+- **蛋白名称:** Transmembrane protein 231
 - **Ensembl:** ENSG00000205084
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

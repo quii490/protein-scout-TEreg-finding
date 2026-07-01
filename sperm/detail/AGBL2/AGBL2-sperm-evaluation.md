@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** AGBL2
+- **蛋白名称:** Cytosolic carboxypeptidase 2
 - **Ensembl:** ENSG00000165923
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

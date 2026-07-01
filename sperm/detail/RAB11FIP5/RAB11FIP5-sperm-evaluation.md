@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** RAB11FIP5
+- **蛋白名称:** Rab11 family-interacting protein 5
 - **Ensembl:** ENSG00000135631
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** NBPF19
+- **蛋白名称:** NBPF family member NBPF19
 - **Ensembl:** ENSG00000271383
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

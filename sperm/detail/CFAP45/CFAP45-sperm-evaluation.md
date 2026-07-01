@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** CFAP45
+- **蛋白名称:** Cilia- and flagella-associated protein 45
 - **Ensembl:** ENSG00000213085
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

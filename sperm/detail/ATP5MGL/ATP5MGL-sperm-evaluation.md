@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** ATP5MGL
+- **蛋白名称:** ATP synthase subunit g 2, mitochondrial
 - **Ensembl:** ENSG00000249222
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** P3R3URF-PIK3R3
+- **蛋白名称:** Phosphatidylinositol 3-kinase regulatory subunit gamma
 - **Ensembl:** ENSG00000278139
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

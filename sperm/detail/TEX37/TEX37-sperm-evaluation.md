@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** TEX37
+- **蛋白名称:** Protein SPMIP9
 - **Ensembl:** ENSG00000172073
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

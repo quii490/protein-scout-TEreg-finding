@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** FMR1NB
+- **蛋白名称:** FMR1 neighbor protein
 - **Ensembl:** ENSG00000176988
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

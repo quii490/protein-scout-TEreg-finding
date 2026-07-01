@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** TUBB8
+- **蛋白名称:** Tubulin beta-8 chain
 - **Ensembl:** ENSG00000261456
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

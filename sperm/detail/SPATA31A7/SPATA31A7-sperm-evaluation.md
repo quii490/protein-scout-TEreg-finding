@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** SPATA31A7
+- **蛋白名称:** Spermatogenesis-associated protein 31A7
 - **Ensembl:** ENSG00000276040
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

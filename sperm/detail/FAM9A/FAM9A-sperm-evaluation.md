@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** FAM9A
+- **蛋白名称:** Protein FAM9A
 - **Ensembl:** ENSG00000183304
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

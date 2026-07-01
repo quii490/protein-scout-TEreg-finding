@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** FLAD1
+- **蛋白名称:** FAD synthase
 - **Ensembl:** ENSG00000160688
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

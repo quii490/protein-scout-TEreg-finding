@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** IFT122
+- **蛋白名称:** Intraflagellar transport protein 122 homolog
 - **Ensembl:** ENSG00000163913
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** PKHD1L1
+- **蛋白名称:** Fibrocystin-L
 - **Ensembl:** ENSG00000205038
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

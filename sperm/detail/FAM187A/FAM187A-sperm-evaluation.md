@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** FAM187A
+- **蛋白名称:** Ig-like V-type domain-containing protein FAM187A
 - **Ensembl:** ENSG00000214447
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

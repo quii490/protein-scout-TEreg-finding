@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** DNAI2
+- **蛋白名称:** Dynein axonemal intermediate chain 2
 - **Ensembl:** ENSG00000171595
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

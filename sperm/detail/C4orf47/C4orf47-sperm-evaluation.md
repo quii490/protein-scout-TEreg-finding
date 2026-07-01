@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** C4orf47
+- **蛋白名称:** Cilia-and flagella-associated protein 96
 - **Ensembl:** ENSG00000205129
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

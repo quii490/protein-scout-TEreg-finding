@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** CDK20
+- **蛋白名称:** Cyclin-dependent kinase 20
 - **Ensembl:** 
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

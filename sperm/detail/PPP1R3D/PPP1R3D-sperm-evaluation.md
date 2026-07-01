@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** PPP1R3D
+- **蛋白名称:** Protein phosphatase 1 regulatory subunit
 - **Ensembl:** ENSG00000132825
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

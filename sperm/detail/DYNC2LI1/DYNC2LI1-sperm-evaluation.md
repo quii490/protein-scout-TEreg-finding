@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** DYNC2LI1
+- **蛋白名称:** Cytoplasmic dynein 2 light intermediate chain 1
 - **Ensembl:** ENSG00000138036
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

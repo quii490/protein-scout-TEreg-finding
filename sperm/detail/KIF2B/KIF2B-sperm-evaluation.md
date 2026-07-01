@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** KIF2B
+- **蛋白名称:** Kinesin-like protein KIF2B
 - **Ensembl:** ENSG00000141200
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** TCTE1
+- **蛋白名称:** Dynein regulatory complex subunit 5
 - **Ensembl:** ENSG00000146221
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取

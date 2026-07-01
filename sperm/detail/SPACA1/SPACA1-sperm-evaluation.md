@@ -11,6 +11,7 @@ tags: [protein-scout, sperm, evaluation]
 
 ## 1. 基本信息
 - **基因:** SPACA1
+- **蛋白名称:** Sperm acrosome membrane-associated protein 1
 - **Ensembl:** ENSG00000118434
 - **抗体:** 未获取
 - **IF 可靠性:** 未获取
