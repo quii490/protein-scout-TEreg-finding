@@ -171,6 +171,16 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 
 该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
+### 深度机制分析
+
+ERICH5（Glutamate-rich protein 5, 374 aa, UniProt Q6P6B1）。定位于Golgi apparatus（HPA Approved），但额外检出Nucleoplasm和Cytosol信号。InterPro注释仅IPR027856（DUF4542，功能未知结构域），Pfam未检出。AlphaFold pLDDT=48.9（有序区仅1.1%），提示该蛋白几乎完全处于内在无序状态。
+
+从结构生物学角度，pLDDT=48.9且0%残基>90置信度，表明AlphaFold无法为该蛋白预测可靠三级结构。高比例无序区域（约99%）是IDP（内在无序蛋白）的典型特征。IDP在转录调控和染色质组织中扮演重要角色——它们通过多价弱相互作用参与液-液相分离（LLPS），是核凝聚体（如转录凝聚体、核仁）的常见组分。ERICH5富含谷氨酸（如其名称所示），酸性残基富集是转录激活域和LLPS支架蛋白的特征序列偏好。
+
+PPI网络极其稀疏：STRING仅8个伙伴（最高score LRRC45=0.555），IntAct为0。但HPA interaction页面上CFTR（IntAct）、KEAP1（IntAct）等有实验互作记录。KEAP1是Nrf2氧化应激通路的核心调控因子，若ERICH5与KEAP1确实存在互作，可能参与氧化还原信号传导。BioGRID鉴定的伙伴包括HOXB5（homeobox转录因子）、FYTTD1（转录延伸因子），进一步支持其核功能潜力。
+
+从TE调控角度，ERICH5作为IDP在nucleoplasm中的存在提示可能通过LLPS参与核体形成。目前PubMed仅2篇文献（PMID:34956690、41924732），功能完全未知。综合评分65.0/100。建议：（1）测定ERICH5是否在细胞核内形成凝聚体；（2）通过APEX2邻近标记鉴定其核内互作组；（3）评估过表达/敲低对TE表达的影响。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q6P6B1
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000177459-ERICH5/subcellular

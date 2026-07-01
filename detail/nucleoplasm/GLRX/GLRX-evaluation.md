@@ -187,6 +187,16 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 
 该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
+### 深度机制分析
+
+GLRX（Glutaredoxin-1, 106 aa, UniProt P35754）。定位于胞质为主，但GO注释包含nucleus（GO:0005634），HPA为Plasma membrane/Cytosol。其InterPro结构域组成为IPR011767、IPR047185、IPR002109、IPR011899、IPR014025，Pfam PF00462（Glutaredoxin结构域），UniProt FT标注DOMAIN 3-106为Glutaredoxin催化域。PDB已有实验结构（1B4Q、1JHB、4RQR），AlphaFold pLDDT=97.1（有序区100%），结构可信度极高。
+
+从功能机制角度，GLRX是硫氧还蛋白超家族的氧化还原酶，催化蛋白质谷胱甘肽化/去谷胱甘肽化（S-glutathionylation）的可逆修饰。此翻译后修饰调控蛋白功能、定位和稳定性，已成为细胞氧化还原信号的主要机制（PMID:29988126）。GLRX的核心互作网络包括GSR（combined score=0.980）、TXN（0.966）、TXNRD1（0.923）等氧化还原系统核心成员。
+
+从TE调控角度，GLRX在细胞核中的存在（GO:0005634）使其具备接触染色质的空间条件。氧化还原状态通过影响DNA甲基转移酶（DNMT）和组蛋白去乙酰化酶（HDAC）活性间接调控表观遗传修饰——GLRX通过调节DNMT的谷胱甘肽化状态可能影响DNA甲基化模式，进而影响TE区域的表观遗传沉默。此外，GLRX可通过调节PRC2复合体亚基的硫醇氧化还原态影响H3K27me3修饰沉积。但这些均为推理性联系，无直接实验证据。
+
+PubMed 97篇，研究基础较多但新颖性一般。综合评分49.4/100，核定位信号较弱，不建议作为TE调控的主要候选。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P35754
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000173221-GLRX/subcellular

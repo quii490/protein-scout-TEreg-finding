@@ -138,6 +138,14 @@ status: scored
 
 **总分**: +2.0 / max +3
 
+### 深度机制分析
+
+BAHCC1（BAH and coiled-coil domain-containing protein 1）的域架构以C端BAH结构域（Bromo-Adjacent Homology，Pfam PF01426、SMART SM00439、InterPro IPR001025）和中部coiled-coil区域为核心。BAH结构域是进化保守的表观遗传读码模块，BAHCC1的特异性在于其偏好识别H3K27me3（Polycomb抑制标记），这是由其芳香笼残基对K27me3三甲基化铵基团的几何匹配决定的。2639 aa的极大分子量（290.3 kDa）意味着全长蛋白在A至BAH结构域之间的大部分区域（约2400 aa）由内在无序区域组成（AlphaFold pLDDT仅39.9，85.6%无序），提示该蛋白可能以"液-液相分离"（LLPS）支架蛋白的角色运作，coiled-coil区域形成寡聚化界面。
+
+BAHCC1的PPI网络（STRING评分SINHCAF 780、ING2 774、SAP30 750）与BioGRID实验数据（HDAC1、RBBP7、GATAD1）高度一致地指向SIN3A/HDAC共抑制复合物。SAP30（Sin3A-associated protein 30）和SAP30BP是该复合物的核心亚基，负责招募HDAC1/2进行局部组蛋白去乙酰化，而ING2作为PHD锌指蛋白可识别H3K4me3以对抗激活染色质状态。BAHCC1通过BAH域结合H3K27me3标记，通过coiled-coil寡聚化形成抑制性染色质scaffold，并通过SAP30/SAP30BP将HDAC招募至Polycomb靶向的基因区域，三者协同维持Polycomb域内基因的转录沉默状态（PMID:33139953、33208729）。
+
+TE调控相关性基于Polycomb通路在ERV/LINE-1沉默中的核心角色：（1）BAHCC1-BAH对H3K27me3的识别直接参与PRC2（EZH2/EED/SUZ12）催化的H3K27me3标记的读取和维持，而ERV-K和LINE-1家族在胚胎干细胞中的沉默高度依赖PRC2的H3K27me3沉积；（2）BAHCC1-HDAC1/2介导的组蛋白去乙酰化与H3K9甲基转移酶（SETDB1）协同，在LINE-1的5'UTR区域形成H3K9me3-H3K27me3双标记沉默域；（3）BAHCC1最近被报道也可结合H4K20me1（PMID:40592879），而H4K20me1是复制叉上的标记，这暗示BAHCC1可能在DNA复制过程中参与新生染色质的表观遗传状态建立，包括在S期将TE区域建立为异染色质。归一化评分77.6/100，Polycomb直接参与使该蛋白的TE调控潜力高于其数值评分。
+
 ### 4. 总体评价
 
 **推荐等级**: ⭐⭐⭐⭐ (4.0/5/5)

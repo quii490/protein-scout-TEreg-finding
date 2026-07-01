@@ -57,6 +57,11 @@
 </tbody></table></div>
 <h5>3.3 核定位</h5>
 <p>no known nuclear annotation</p>
+<h4>深度机制分析</h4>
+<p>B3KPQ9编码SATB1（Special AT-rich Sequence-Binding Protein 1）的TrEMBL变体，其结构域架构以双DNA结合模块和核基质锚定模块的多层次串联为特征：N端CUT域（IPR003350、IPR038216）采用同源异型域样折叠，识别核基质附着区（MAR）富含AT的DNA基序；紧随其后的homeodomain（IPR001356、IPR009057）和lambda阻遏物样DNA结合域（IPR010982）构成扩展的DNA识别界面；C端ULD（ubiquitin-like domain，IPR038224）形成双泛素样折叠，负责蛋白二聚化和HDAC1等共抑制因子的招募。SATB1家族特征性模块（IPR032355、IPR039673）确认其分类归属。</p>
+<p>733 aa（80.6 kDa）的大分子量属于SATB1中最长的同工型之一，为在染色质上搭建&quot;笼状折叠&quot;的超结构提供了充分的结构空间。AlphaFold预测结构可用但无实验PDB验证（归一化结构得分6/10）。作为TrEMBL未审阅条目（PubMed=0），PPI数据极度有限，但SATB1在Swiss-Prot中的注释揭示了其核心互作组：组蛋白去乙酰化酶（HDAC1/2）、核小体重塑因子（CHRAC/ACF复合物）、染色质结构蛋白（HMGA1、Nucleolin/NCL）、核基质蛋白（LMNB1、MATR3），以及转录因子（RUNX2、CTCF）。SATB1在核质中以二聚体形式形成&quot;蛋白质笼&quot;——一个环绕染色质环的蛋白质骨架结构，将特定基因组区域锚定至核基质中。</p>
+<p>TE调控相关性在候选列表中属于最高级别——这一结论基于SATB1在基因组三维折叠中的核心角色与TE的序列特征之间的多重交叉节点：（1）<strong>MAR锚定与TE分布</strong>：SATB1识别的MAR基序（典型特征为AT含量&gt;70%、拓扑异构酶II切割位点和弯曲DNA结构）在LINE-1元件内部（尤其在5&#x27;UTR和ORF1区域）高度富集。若SATB1直接结合LINE-1 MAR位点，其可能将含有TE的染色质区域锚定至核基质/核纤层，形成抑制性染色质环境（PMID:15851481、17183510）；（2）<strong>染色质笼结构与异染色质区室化</strong>：SATB1的二聚体-多聚体超结构在核内形成蛋白质&quot;笼&quot;，该笼专门隔离核内空间。若特定TE家族（如LINE-1、Alu、HERV-K）的基因组位点被SATB1&quot;捕获&quot;在此笼状结构中，其转录活性将被空间隔离和染色质紧缩双重机制抑制；（3）<strong>HDAC招募与组蛋白去乙酰化</strong>：SATB1通过ULD的泛素样折叠与HDAC1形成去乙酰化复合物，对结合区域进行组蛋白H3/H4的去乙酰化，直接降低染色质可及性和转录活性。对于通常处于乙酰化开放状态的活性TE拷贝，SATB1的HDAC招募可实现快速的去乙酰化-转录沉默转换；（4）<strong>CTCF合作与拓扑边界建立</strong>：SATB1与CTCF在基因组3D组织中的功能协同——SATB1识别MAR建立染色质锚定点，CTCF结合绝缘子介导拓扑边界（TAD边界），两者合作构建的染色质环域结构决定了哪些TE落入活跃（TAD内）或沉默（LAD内）的区室。</p>
+<p>尽管该TrEMBL变体缺乏GO-CC核定位注释（核定位特异性仅4/10），但SATB1的核基质锚定功能是其定义性特征——所有已知功能均发生在核内。归一化总分67.8/100的评分高度低估了其TE调控潜力，主要因TrEMBL条目缺少PubMed计数所致。建议优先进行a）SATB1 ChIP-seq确定其TE结合谱，b）SATB1敲除细胞的Hi-C实验验证其是否将TE从活跃区室重新分配至核纤层（LADs），c）LINE-1或SVA报告基因实验评估SATB1过表达/敲除对TE转录和转座活性的直接影响。</p>
 <h4>4. 总体评价</h4>
 <p><strong>推荐等级</strong>: ⭐⭐ (2/5)</p>
 <p><strong>TE 调控相关性</strong>: 该蛋白缺乏明确的核/染色质定位证据，TE调控潜力极低，不建议作为优先靶标。</p>

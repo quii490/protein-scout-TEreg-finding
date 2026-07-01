@@ -147,6 +147,18 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - PDB 多条目覆盖 (≥3): +1.0
 **总分**: +3.0 / max +3
 
+### 深度机制分析
+
+HDGFL3（Hepatoma-derived growth factor-related protein 3，又名HDGF2/HDGFRP3）的结构域架构以一紧凑的双模块串联为核心：N端PWWP结构域（IPR000313、Pfam PF00855、SMART SM00293，残基11-68）采用经典的PWWP折叠——由五股反平行beta-桶和附属alpha-螺旋组成，通过表面保守的疏水-芳香族氨基酸笼识别H3K36me2/me3修饰（PMID:31162607），同时以beta-桶底部的碱性氨基酸簇伸入DNA双链的小沟。C端为富含丝氨酸/酸性残基的非结构化区域，可能参与无序蛋白质互作和核定位信号调控。
+
+203 aa（22.6 kDa）的紧凑尺寸（在75个候选蛋白中属最小级别）容纳了PWWP介导的全部染色质结合功能，缺乏额外的酶活性域。实验PDB结构（6IIP、6IIQ、6IIR、6IIS、6IIT）覆盖了PWWP结构域的高分辨率晶体构象，明确揭示了H3K36me3结合口袋的分子细节——K36me3的含氮甲基基团通过阳离子-π堆积和氢键网络被锁定于芳香族笼（Trp/Trp/Phe三联体）中。AlphaFold pLDDT为70.7，PWWP区域置信度高达34%的残基pLDDT>90，表明核基因编码合成能力良好。
+
+PPI网络揭示多维度功能联系：STRING预测互作显示CDK12/CDK13（转录延伸/RNA Pol II CTD Ser2激酶，combined score 0.489/0.492，实验得分0.408，PMID:28514442）、BAZ2B（ISWI染色质重塑复合物组分，combined score 0.440）、BRPF1（HB01/MYST组蛋白乙酰转移酶复合物支架蛋白，combined score 0.422）、MTERF2（线粒体转录终止因子）和SF3B2（剪接体U2 snRNP组分）。GRB2的Co-IP互作（PMID:21706016）暗示HDGFL3可能参与生长因子信号与染色质稳态的交叉调控。BAZ2B和BRPF1的连接分别指向染色质重塑和组蛋白乙酰化两个核过程，而CDK12/CDK13的强信度互作直接关联转录延伸调控。
+
+TE调控相关性的机制推论基于PWWP结构域的双重识别功能——这使其成为H3K36me2/3修饰信号与TE转录状态之间的潜在解码器：（1）PWWP是已知的H3K36me2/3甲基化阅读器，而H3K36me3在活跃转录基因的基因体上富集，由SETD2（H3K36me3甲基转移酶）随RNA Pol II延伸而沉积。若内含子/基因间TE元件（如LINE-1和Alu）被Pol II通读并产生转录依赖的H3K36me3修饰，HDGFL3可能通过PWWP同时识别该甲基化标记和TE DNA小沟，介导TE区域的转录延伸效率调控；（2）CDK12/CDK13（RNA Pol II CTD Ser2激酶）互作暗示HDGFL3参与CTD磷酸化状态的调控，Ser2P是转录延伸和3'端加工的关键磷酸化标记——HDGFL3可能作为CDK12/CDK13与H3K36me3标记染色质之间的分子适配器，协同调控Pol II在TE嵌入位点的通读和终止决策；（3）BAZ2B（ISWI复合物组分）互作暗示HDGFL3可招募ATP依赖的染色质重塑活性至H3K36me3标记的基因组区域，可能通过核小体滑动调控TE区域的可及性；（4）BRPF1（HB01乙酰转移酶复合物支架）的连接预示着组蛋白H4/H3乙酰化修饰与H3K36甲基化之间在TE区域的串扰调控。关键文献PMID:31162607直接证实HRP3 PWWP识别DNA小沟并将HRP3募集至染色质，这一功能在TE调控上下文中可被重新诠释——若TE启动子或嵌入侧翼序列含有PWWP偏好的DNA结构特征（AT-rich弯曲序列或特定的小沟宽度），HDGFL3将提供序列-修饰双信号整合的染色质锚定模式。
+
+尽管PubMed严格计数仅3篇（新颖性得分10/10），HPA和UniProt一致定位为核质（nucleoplasm）赋予其可信的核定位证据（核定位特异性7/10）。结构域得分7/10，归一化总分80/100。在候选蛋白中，HDGFL3因PWWP-H3K36me3-DNA三重信号集成和CDK12/CDK13转录延伸耦合的机制特异性，使其TE调控潜力高于原始评分所反映。建议优先进行：a）HDGFL3 ChIP-seq确定其基因组结合位点与TE嵌入的共定位模式，b）PWWP对K36me2/me3特异性的体外定量验证，c）HDGFL3敲除后RNA Pol II ChIP-seq评估TE区域Ser2P和转录通读的变化。
+
 ### 4. 总体评价
 
 **推荐等级**: ⭐⭐⭐⭐

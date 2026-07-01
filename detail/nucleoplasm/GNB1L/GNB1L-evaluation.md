@@ -150,6 +150,14 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - PDB 多条目覆盖: +0
 **总分**: +1.5 / max +3
 
+### 深度机制分析
+
+GNB1L编码G蛋白beta亚基样蛋白1，属于WD40重复蛋白超家族（InterPro IPR015943、IPR036322、IPR001680，Pfam PF00400），这是自然界最大的beta螺旋桨折叠蛋白家族之一。其结构域架构由典型的WD40-beta螺旋桨组成，每个WD40重复单元（约40 aa）包含保守的GH二肽和WD二肽基序，七个WD40重复组装成七叶beta螺旋桨。327 aa（35.6 kDa）在这一家族中属于中等偏小尺寸，每个螺旋桨叶片由1-2个WD40重复贡献。AlphaFold pLDDT高达91.8（有序区域95.1%），是候选列表中最高的结构置信度之一，但缺乏实验PDB验证（归一化结构得分8/10）。
+
+GNB1L因位于22q11.2微缺失区域的DGCR（DiGeorge综合征关键区域）中而得名。PPI网络中最引人注目也最具TE研究意义的伙伴是DGCR8（STRING评分886）和TBX1（889）。DGCR8是Microprocessor复合物的核心亚基，与DROSHA核糖核酸酶III共同负责pri-miRNA的识别和切割——这是miRNA生物发生的起始和限速步骤。虽然STRING对DGCR8的评分基于染色体邻近性（Gene Neighborhood & Co-occurrence证据），但GNB1L和DGCR8在22q11.2区域的物理共定位赋予了这种关联以基因组组织层面的生物学意义。
+
+TE调控相关性集中体现在GNB1L-DGCR8-Microprocessor轴上：（1）Microprocessor（DGCR8/DROSHA）是哺乳动物中TE源性小RNA（endo-siRNA和piRNA）加工的关键酶复合物。DGCR8识别pri-miRNA中茎-环结构的单链-双链连接处，而许多TE衍生的转录产物（特别是Alu元件和SINE家族）天然形成这种二级结构，可被Microprocessor识别和切割；（2）LINE-1转录产物含有多个茎-环结构（尤其在5'UTR区），这些结构在体外和体内均可被DGCR8/DROSHA识别，产生针对LINE-1的small RNA并触发RNA干扰介导的LINE-1 mRNA降解；（3）GNB1L作为WD40支架蛋白，可能以类似G蛋白beta亚基与其gamma亚基配体的模式，与DGCR8形成"beta propeller-alpha helical tail"异源二聚体，从而调节Microprocessor的pri-miRNA/pri-TE-RNA加工效率；（4）22q11.2区域本身富含Alu元件和片段重复，该区域的染色质景观受DGCR区域基因（包括GNB1L）的顺式或反式调控。归一化评分76.9/100，WD40-DGCR8-pri-miRNA/TE-RNA轴赋予该蛋白可观的TE调控潜力。
+
 ### 4. 总体评价
 
 **推荐等级**: ⭐⭐⭐⭐

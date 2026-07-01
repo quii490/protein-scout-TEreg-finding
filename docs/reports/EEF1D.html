@@ -124,6 +124,10 @@
 <p><strong>互证加分明细</strong>:</p>
 <ul><li>PDB + AlphaFold 双源验证: +0.5</li><li>多库定位一致 (3源): +0.5</li><li>STRING + IntAct 双源验证: +0.5</li><li>结构域 + AlphaFold 质量: +0.5</li><li>PDB 多条目覆盖 (≥3): +1.0</li></ul>
 <p><strong>总分</strong>: +3.0 / max +3</p>
+<h4>深度机制分析</h4>
+<p>EEF1D（真核翻译延伸因子1δ）的域架构采用N端富含亮氨酸拉链（Leucine zipper-like，InterPro IPR049720）和C端GST样EF1Bgamma结合域（Pfam PF10587、InterPro IPR036219/IPR018940）的模块化组织。N端区域（约1-120 aa）通过亮氨酸拉链介导与EF1Balpha（EEF1B2）和EF1G（EEF1G）的异源二聚化/多聚化。C端GST样域（约150-280 aa）属于硫氧还蛋白折叠超家族（IPR036219），在结构上与谷胱甘肽S-转移酶同源但缺乏催化活性，其作用是为EF1复合物的组装提供结构骨架。281 aa（31.1 kDa）的紧凑分子量和PDB实验结构（2MVM、2MVN、2N51、5JPO）使其成为结构研究最完善的候选蛋白之一。AlphaFold pLDDT 73.0，60.9%有序区域，与NMR/X-ray实验数据高度一致（归一化结构得分9/10）。</p>
+<p>PPI网络以翻译延伸因子复合物为核心（STRING评分EEF1G 999、EEF1B2 999、EEF1A1 997），实验互作也同样以EF1亚基为主（EEF1G、EEF1A2通过酵母双杂交和co-IP确认）。核糖体蛋白（RPS19 952、RPS11 951、RPL35 945）和翻译调节因子（TPT1 950）通过间接基因组学证据关联。值得注意的是IntAct检测到RIPK3（受体互作丝氨酸/苏氨酸蛋白激酶3）和IKBKE（IKK-epsilon）的互作，这两者均为先天免疫信号通路（特别是坏死性凋亡/necroptosis和抗病毒IFN响应）中的关键激酶。GO-CC包含了eukaryotic translation elongation factor 1 complex（GO:0005853）、nucleoplasm（GO:0005654）和fibrillar center（GO:0001650），确认了其同时存在于翻译活跃的细胞质和核质/核仁的环境。</p>
+<p>TE调控相关性通过EEF1D在翻译中的核心角色实现：（1）作为EF1复合物的关键组装因子，EEF1D间接调控所有mRNA（包括TE衍生的mRNA）的翻译延伸速率。TE mRNA因其高GC含量、复杂的RNA二级结构（如LINE-1的Alu-like茎环），往往对翻译延伸速率高度敏感——延伸停顿可能导致核糖体碰撞并触发no-go decay（NGD）介导的mRNA降解，因此EEF1D的表达水平可影响TE翻译效率与mRNA半衰期之间的平衡；（2）EEF1D-IKBKE互作连接翻译调控与先天免疫——IKBKE/IKK-epsilon是MAVS-IRF3/7信号通路的核心激酶，响应胞质dsRNA（包括来自LINE-1反向重复序列的dsRNA或ERV的转录产物）并激活IFN响应。EEF1D对IKBKE的调节可能影响TE RNA引发的IFN信号强度，形成翻译-免疫反馈环；（3）EEF1D在核质/核仁的定位（HPA Fibrillar center + Nucleoplasm）暗示其可能存在非经典的非翻译相关核功能。核仁原纤维中心是rRNA转录和初始加工的场所，EEF1D在此的定位可能与核仁应激响应和p53信号通路产生交叉效应，而p53通路的激活是已知的LINE-1表达上调的触发因子。归一化评分67.2/100，翻译-免疫信号交叉赋予其温和的TE调控潜力。</p>
 <h4>4. 总体评价</h4>
 <p><strong>推荐等级</strong>: ⭐⭐⭐</p>
 <p><strong>核心优势</strong>: 1. EEF1D — Elongation factor 1-delta，较新颖，有一定研究但存在未探索领域。 2. 蛋白大小281 aa，大小适中（200-800 aa），适合常规生化实验和结构解析。</p>

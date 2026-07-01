@@ -177,6 +177,16 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 
 该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
+### 深度机制分析
+
+CCDC106（Coiled-coil domain-containing protein 106, 280 aa, UniProt Q9BWC9）。定位于nucleoplasm，包含一个Pfam PF15794/InterPro IPR031591 coiled-coil结构域。AlphaFold v6预测结构pLDDT=72.8（有序区56.1%），无实验PDB结构。coiled-coil结构域通常介导蛋白-蛋白互作及同源/异源寡聚化，提示CCDC106可能通过卷曲螺旋界面参与多蛋白复合体组装。
+
+从PPI网络角度，STRING预测15个互作伙伴，其中最关键的是TP53（combined score=0.751, experimental=0.517），已有文献报道CCDC106与p53直接互作并促进p53降解（PMID:20159018, PMID:38081879）。BioGRID额外鉴定ATF4、COPS6、KAT5、SETDB1等伙伴。CCDC106-p53-Mdm2/MdmX轴是核心机制：CCDC106作为p53负调控因子，通过促进p53泛素化降解维持p53稳态（PMID:38081879）。在宫颈癌中，HPV整合至CCDC106位点改变局部染色质三维结构并劫持增强子活性（PMID:33023834），提示其在基因组结构调控中的非经典角色。
+
+从TE调控角度，CCDC106与SETDB1（H3K9me3甲基转移酶，经典TE沉默因子）的BioGRID互作极具启示性。SETDB1催化转座子区域的H3K9me3修饰以维持TE转录沉默。若CCDC106通过coiled-coil结构域与SETDB1形成复合体，可能间接参与TE表观遗传沉默的调控——这一假说尚无文献报道，值得实验验证。
+
+从研究新颖性角度，PubMed仅8篇严格文献，p53-CCDC106相互作用机制刚被阐明（PMID:38081879, 2023），其基因组调控功能完全未被探索。结构质量中等（pLDDT=72.8），综合评分73.9/100，推荐开展CCDC106-SETDB1互作的Co-IP验证及ChIP-seq分析，探索其在TE区域的作用。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9BWC9
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000173581-CCDC106/subcellular
