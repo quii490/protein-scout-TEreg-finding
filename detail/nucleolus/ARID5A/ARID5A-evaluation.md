@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | ARID5A / MRF1; AT-rich interactive domain-containing protein 5A; Modulator recognition factor 1 |
+| 蛋白名称 | AT-rich interactive domain-containing protein 5A |
 | 蛋白大小 | 594 aa / ~64.5 kDa |
 | UniProt ID | Q03989 (ARI5A_HUMAN) |
 | 评估日期 | 2026-05-29 |
@@ -201,6 +202,34 @@ status: scored
 - [ ] 表达 ARID 域 (55-147) 用于 DNA 结合实验（EMSA/SELEX）
 - [ ] ChIP-seq 确定全基因组结合谱
 - [ ] 与 HDAC7 的共调控机制深入研究
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ESR1 | BioGRID | 1 |
+| THRA | BioGRID | 1 |
+| RXRA | BioGRID | 1 |
+| AR | BioGRID | 1 |
+| ESR2 | BioGRID | 1 |
+| RARA | BioGRID | 1 |
+| ATXN1 | BioGRID | 1 |
+| CKS1B | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 实验数据，可能在基因组水平参与 TE 调控。建议分析 ChIP 峰在 TE 区域的富集情况。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/2860/80_D5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/2860/80_D5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/2860/79_D5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/2860/79_D5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/2860/81_D5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/2860/81_D5_2_blue_red_green.jpg)
+
 
 ### 5. 数据来源
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22ARID5A%22%5BTitle%2FAbstract%5D

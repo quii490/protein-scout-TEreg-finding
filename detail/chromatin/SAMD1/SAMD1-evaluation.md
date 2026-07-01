@@ -189,6 +189,20 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] TE 调控: SAMD1 是否结合 TE 来源序列（WH domain 常见于 TE 结合蛋白）
 - [ ] ATAC 复合体功能: SAMD1 在组蛋白乙酰化中的具体角色
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| L3MBTL3 | STRING | 854 |
+| ELAVL1 | BioGRID | 1 |
+| DPPA4 | BioGRID | 1 |
+| CBWD1 | BioGRID | 1 |
+| PRMT2 | BioGRID | 1 |
+| XIAP | BioGRID | 1 |
+| ECT2 | BioGRID | 1 |
+| UPF1 | BioGRID | 1 |
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q6SPF0
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q6SPF0
@@ -199,9 +213,9 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[SAMD1-PAE.png]]
 

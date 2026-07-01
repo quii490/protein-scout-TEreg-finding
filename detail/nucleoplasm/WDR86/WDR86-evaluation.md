@@ -165,6 +165,32 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CCT4 | BioGRID | 1 |
+| PDCL | BioGRID | 1 |
+| PPP2CA | BioGRID | 1 |
+| NR3C1 | BioGRID | 1 |
+| PRAME | BioGRID | 1 |
+| HSPA8 | BioGRID | 1 |
+| HSPA2 | BioGRID | 1 |
+| PDCL3 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### 深度机制分析
+
+WDR86是一个典型的WD40重复蛋白（PF00400，SMART SM00320），其AlphaFold v6预测的平均pLDDT高达90.3，有序区域占比87.8%，结构质量在核蛋白中属极优水平。WD40结构域通常折叠为7叶β-螺旋桨（beta-propeller），形成一个高度稳定的环状支架平台，多个叶片表面可同时接合不同的蛋白配体。WDR86的pLDDT极高且有序区域接近90%，说明其β-螺旋桨折叠高度完整，为结构导向的功能研究和药物设计提供了坚实基础。
+
+IntAct实验验证的PPI数据显示，WDR86与CCT/TRiC伴侣蛋白复合体的几乎全部亚基（CCT2、CCT3、CCT4、CCT5、CCT6A、TCP1）存在co-IP验证的物理互作。TRiC/CCT是真核细胞中负责约10%胞质蛋白（包括肌动蛋白、微管蛋白及多种信号蛋白）折叠的关键伴侣蛋白系统，其功能异常与癌症、神经退行性疾病密切相关。WDR86同时与PDCL（phosducin-like protein，一种CCT共伴侣蛋白）互作，进一步支持其作为TRiC系统成员的定位。值得注意的是，STRING还检测到WDR86与RBX1（RING box蛋白1，SCF E3泛素连接酶复合体的催化核心）和SKP1的互作，RBX1的combined score达0.553且含实验证据。
+
+综合结构域架构和PPI网络，WDR86可能作为TRiC/CCT伴侣蛋白系统的底物识别适配器（substrate adaptor）发挥作用：其WD40 β-螺旋桨用于识别和接合特定客户蛋白，并将其呈递给TRiC折叠腔。同时，与RBX1/SKP1 E3连接酶及PPP2CA磷酸酶（IntAct验证）的互作暗示WDR86可能参与蛋白质折叠质控——正确折叠的客户蛋白被释放，而错误折叠的底物则被泛素化标记递送至蛋白酶体降解。这一"折叠-泛素化"耦合模型将蛋白质折叠质控与泛素-蛋白酶体系统直接联系起来，对理解核内蛋白稳态维持机制具有重要意义。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q86TI4
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000187260-WDR86/subcellular

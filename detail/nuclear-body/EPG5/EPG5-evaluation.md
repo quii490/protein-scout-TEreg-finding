@@ -175,6 +175,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PLEKHM1 | STRING | 753 |
+| TP53 | BioGRID | 1 |
+| APEX1 | BioGRID | 1 |
+| CREBBP | BioGRID | 1 |
+| BTNL9 | BioGRID | 1 |
+| ZDHHC15 | BioGRID | 1 |
+| AGR2 | BioGRID | 0 |
+| KIAA1429 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/31689/326_D10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/31689/326_D10_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/31689/323_D10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/31689/323_D10_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/31689/321_D10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/31689/321_D10_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9HCE0
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000152223-EPG5/subcellular

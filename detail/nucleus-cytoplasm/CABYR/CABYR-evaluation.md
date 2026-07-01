@@ -11,6 +11,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 | CABYR |
+| 蛋白名称 | Calcium-binding tyrosine phosphorylation-regulated protein |
 | UniProt ID | O75952 |
 
 | 维度 | 得分 | 权重 | 加权 | 摘要 |
@@ -98,3 +99,38 @@ Source: https://www.proteinatlas.org/ENSG00000154040-CABYR/interaction
 | GSK3B | Biogrid | false |
 | PAXIP1 | Biogrid | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### 功能描述
+
+May function as a regulator of both motility- and head-associated functions such as capacitation and the acrosome reaction. Isoform 1 binds calcium in vitro. Isoform 2 and isoform 6 probably bind calcium. Isoform 3 and isoform 5 do not bind calcium in vitro. Isoform 4 probably does not bind calcium
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| BRCA1 | BioGRID | 0 |
+| PAXIP1 | BioGRID | 0 |
+| GSK3B | BioGRID | 0 |
+| CS | BioGRID | 0 |
+| PDHA1 | BioGRID | 0 |
+| DNAJB12 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### PubMed
+
+**Count: 54**
+
+| PMID | Title |
+|---|---|
+| 41724469 | Multi-omics integration deciphers the metabolic-genetic regulatory network underlying milk composition in dairy goats. |
+| 41386752 | Advancing Understanding of the Protein Composition of Human Seminal Extracellular Vesicles. |
+| 38694506 | Predictive value of a stemness-based classifier for prognosis and immunotherapy response of hepatocellular carcinoma based on bioinformatics and machi |
+| 38497118 | A first complete catalog of highly expressed genes in eight chicken tissues reveals uncharacterized gene families specific for the chicken testis. |
+| 38438079 | Quantitative phosphoproteomics explain cryopreservation-induced reductions in ram sperm motility. |

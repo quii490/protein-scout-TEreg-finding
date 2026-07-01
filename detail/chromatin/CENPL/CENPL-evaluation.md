@@ -95,6 +95,24 @@ STRING PPI 网络极度强大：top 15 全部是 CENP 家族成员（CENPN/C/M/O
 ### 4. 总体评价
 CENPL 是一个定位明确、结构已知、PPI 网络强大的着丝粒蛋白。核定位/染色质定位有充分实验证据。归一化总分 73.2/100，在 chromatin 类别中表现优异。主要局限是作为 CENP family 成员，功能相对明确（着丝粒组装），研究新颖性因近年肿瘤生物标志物研究大量涌现而略降。建议作为高优先级 chromatin 候选保留。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CENPM | STRING | 999 |
+| CENPH | STRING | 999 |
+| CENPQ | STRING | 999 |
+| CENPN | STRING | 999 |
+| CENPI | STRING | 999 |
+| CENPO | STRING | 999 |
+| CENPK | STRING | 999 |
+| CENPC | STRING | 998 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8N0S6
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8N0S6

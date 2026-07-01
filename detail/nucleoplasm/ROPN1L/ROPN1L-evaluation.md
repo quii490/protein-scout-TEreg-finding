@@ -164,3 +164,33 @@ Source: https://www.proteinatlas.org/ENSG00000145491-ROPN1L/interaction
 | AKAP5 | Intact | false |
 | BEX2 | Intact | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| AKAP3 | BioGRID | 0 |
+| APP | BioGRID | 0 |
+| RSPH3 | BioGRID | 0 |
+| AKAP9 | BioGRID | 0 |
+| SPA17 | BioGRID | 0 |
+| RSPH14 | BioGRID | 0 |
+| AKAP7 | BioGRID | 0 |
+| BEX2 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/41830/2210_D3_56_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41830/2210_D3_55_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41830/2210_D3_54_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41830/2210_D3_53_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41830/2210_D3_52_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41830/2210_D3_51_blue_red_green.jpg)
+

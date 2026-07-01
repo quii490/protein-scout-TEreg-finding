@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | CCDC86 / CCDC86 |
+| 蛋白名称 | Coiled-coil domain-containing protein 86 |
 | 蛋白大小 | 360 aa / ~39.6 kDa |
 | UniProt ID | Q9H6F5 |
 | 评估日期 | 2026-05-29 |
@@ -146,6 +147,34 @@ status: scored
 - [ ] SMART 结构域分析评估调控潜力
 - [ ] 深入文献检索确认已知功能
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MRTO4 | STRING | 777 |
+| CDK105 | STRING | 769 |
+| NSA2 | STRING | 769 |
+| SIRT7 | BioGRID | 1 |
+| RPL8 | BioGRID | 1 |
+| FBL | BioGRID | 1 |
+| PRR11 | BioGRID | 1 |
+| NOP56 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/41117/475_G12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41117/475_G12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41117/477_G12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41117/477_G12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41117/1888_E12_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41117/1888_E12_6_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9H6F5
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9H6F5
@@ -157,9 +186,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CCDC86/CCDC86-PAE.png]]

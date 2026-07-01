@@ -166,6 +166,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CNOT1 | STRING | 999 |
+| CNOT3 | STRING | 999 |
+| CNOT7 | STRING | 999 |
+| TOB1 | STRING | 978 |
+| EXOSC4 | STRING | 891 |
+| PATL1 | STRING | 878 |
+| MTREX | STRING | 875 |
+| EXOSC7 | STRING | 870 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9NZN8
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000111596-CNOT2/subcellular

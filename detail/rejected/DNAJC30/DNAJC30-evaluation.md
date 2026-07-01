@@ -168,7 +168,13 @@ status: rejected
 - [ ] 设计体外实验验证核定位及潜在调控功能
 - [ ] **该蛋白核定位证据不足（≤3/10），不建议作为核蛋白研究目标。**
 
-### 5. 数据来源
+### 深度机制分析
+
+DNAJC30编码DnaJ（Hsp40）同源物亚家族C成员30，其UniProt注释将之锚定于线粒体内膜（Q96LL9）。尽管缺乏InterPro/Pfam注释结构域，AlphaFold v6预测（pLDDT=71.4，有序区58.9%）提示该蛋白含有一个可辨识的J-domain折叠——这是DnaJ/Hsp40家族的标志性模块，负责与Hsp70伴侣蛋白的ATP酶结构域相互作用并刺激其水解活性。然而，pLDDT仅有25.7%的残基超过90置信阈值，且27.9%的残基低于50，表明该蛋白存在显著的构象无序区域。这些无序区可能构成线粒体导入信号、膜锚定序列或底物识别环，但缺乏实验结构（PDB=0）使得域边界无法精确界定。
+
+PPI网络的拓扑结构极为集中：STRING预测的10个高置信度互作伙伴（NDUFA7、NDUFV3、NDUFB11、NDUFS2、NDUFS6、NDUFS4、MT-ATP6、NDUFS8、NDUFB10、NDUFS3）均为线粒体呼吸链复合物I（NADH:泛醌氧化还原酶）亚基或ATP合酶组分。这一互作图谱强烈提示DNAJC30直接参与呼吸链复合物I的组装、稳定或质量监控——这与致病突变导致Leber遗传性视神经病变（LHON，PMID:41009939）和多发性硬化症重叠表型（Harding综合征，PMID:40182509）的临床表现高度一致。LHON中复合物I功能缺陷引发视网膜神经节细胞凋亡的病理机制已被充分证实，而DNAJC30作为复合物I特异性共伴侣蛋白的角色将这些临床观察与分子机制联系起来。
+
+尽管该蛋白在蛋白质组学规模上仅积累了40篇文献，但其功能范畴限定于线粒体呼吸链，TE调控潜力几乎不存在。核定位得分仅2/10（HPA无IF信号，UniProt明确定位于线粒体内膜）从根本上排除了DNAJC30直接参与染色质或转座元件沉默的可能性。其作为线粒体复合物I伴侣蛋白的机制角色虽有研究价值，但不属于TE调控的范畴。
 - UniProt: https://www.uniprot.org/uniprotkb/Q96LL9
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000176410-DNAJC30/subcellular
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=DNAJC30

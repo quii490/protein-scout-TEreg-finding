@@ -172,6 +172,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RMND5A | STRING | 999 |
+| ARMC8 | STRING | 999 |
+| WDR26 | STRING | 999 |
+| RANBP9 | STRING | 995 |
+| RANBP10 | STRING | 990 |
+| MAEA | STRING | 960 |
+| RMND5B | STRING | 959 |
+| YPEL5 | STRING | 885 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9NWU2
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000101193-GID8/subcellular

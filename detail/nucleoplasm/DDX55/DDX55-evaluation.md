@@ -65,6 +65,24 @@ HPA IF images not reliably obtained (no subcellular IF images available on HPA s
 
 **Research Volume Assessment**: Very low (<10 papers), nearly unstudied, excellent candidate for exploring novel nuclear protein function
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| FTSJ3 | STRING | 984 |
+| BOP1 | STRING | 984 |
+| WDR12 | STRING | 977 |
+| GTPBP4 | STRING | 972 |
+| NOL12 | STRING | 962 |
+| NOC3L | STRING | 962 |
+| NOC2L | STRING | 957 |
+| NOP2 | STRING | 951 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. AlphaFold / PAE / PDB
 
 #### AlphaFold

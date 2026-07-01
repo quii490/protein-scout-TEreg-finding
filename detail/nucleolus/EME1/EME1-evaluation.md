@@ -179,6 +179,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SLX4 | STRING | 999 |
+| MUS81 | STRING | 999 |
+| SLX1A | STRING | 997 |
+| EME2 | STRING | 985 |
+| RAD1 | STRING | 960 |
+| ERCC4 | STRING | 960 |
+| ERCC1 | STRING | 931 |
+| GEN1 | STRING | 931 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/21202/1851_H10_24_cr5b1111605c000_blue_red_green.jpg)
+![](https://images.proteinatlas.org/21202/1851_H10_29_cr5b1111605c26a_blue_red_green.jpg)
+![](https://images.proteinatlas.org/21202/2088_G5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/21202/2088_G5_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/21202/1957_H2_33_blue_red_green.jpg)
+![](https://images.proteinatlas.org/21202/1957_H2_34_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96AY2
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000154920-EME1/subcellular

@@ -147,50 +147,20 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q5VV16
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000204779-FOXD4L5/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=FOXD4L5
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q5VV16
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### TE 调控评估
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/FOXD4L5/IF_images/A-431_1.jpg]]
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/FOXD4L5/IF_images/U-251MG_1.jpg]]
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
 
+### HPA IF 图像
 
+HPA 检索: https://www.proteinatlas.org/search/FOXD4L5
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000204779-FOXD4L5/subcellular
+### PubMed
 
-![](https://images.proteinatlas.org/12836/136_F8_1_red_green.jpg)
-![](https://images.proteinatlas.org/12836/136_F8_2_red_green.jpg)
-![](https://images.proteinatlas.org/12836/97_F8_1_red_green.jpg)
-![](https://images.proteinatlas.org/12836/97_F8_2_red_green.jpg)
-![](https://images.proteinatlas.org/12836/99_F8_1_red_green.jpg)
-![](https://images.proteinatlas.org/12836/99_F8_2_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
+**Count: 1**
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
-
-![](https://alphafold.ebi.ac.uk/files/AF-Q5VV16-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
-
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
-
-### SMART / UniProt domain
-| Source | Data |
+| PMID | Title |
 |---|---|
-| UniProt | Q5VV16 |
-| SMART | SM00339; |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR001766;IPR050211;IPR018122;IPR030456;IPR036388;IPR036390; |
-| Pfam | PF00250; |
+| 29054765 | Characterization of germline mutations in familial lung cancer from the Chinese population. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000204779-FOXD4L5/interaction
 
-未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

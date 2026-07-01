@@ -160,6 +160,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PPP1CC | BioGRID | 1 |
+| HNRNPL | BioGRID | 1 |
+| ESR2 | BioGRID | 1 |
+| SYVN1 | BioGRID | 1 |
+| FHL1 | BioGRID | 1 |
+| ACTB | BioGRID | 1 |
+| ACTR3 | BioGRID | 1 |
+| CTNNB1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白的 GO-CC 注释中缺乏染色质/TE 沉默相关定位，TE 调控潜力较低。不建议作为 TE 调控优先靶标。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/12634/95_G4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/12634/95_G4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/12634/94_G4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/12634/94_G4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/12634/96_G4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/12634/96_G4_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96JQ2
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000165959-CLMN/subcellular

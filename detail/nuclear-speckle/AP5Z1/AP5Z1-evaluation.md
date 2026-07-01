@@ -91,6 +91,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 ### 4. 总体评价
 AP5Z1 经 HPA 重新评估后确认为核散斑蛋白（HPA Supported: Nuclear speckles (main) + Nucleoplasm (additional)）。GO-CC 在 nuclear speck 和 nucleoplasm 均有 IDA 级别证据，UniProt 实验级注释支持 Nucleus。其主要功能背景为 AP-5 adaptor complex/endosomal transport，但 UniProt 功能注释提及可能参与 homologous recombination DNA DSB repair (PMID:20613862)，NUP93 核孔互作也提示核内功能。保留为中等置信度 nuclear-speckle 候选。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| AP2A2 | STRING | 906 |
+| TECPR2 | STRING | 726 |
+| IRF2 | BioGRID | 1 |
+| FOXK1 | BioGRID | 1 |
+| NUP93 | BioGRID | 1 |
+| STUB1 | BioGRID | 1 |
+| BAG3 | BioGRID | 1 |
+| HSPA4 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O43299
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/O43299

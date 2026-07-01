@@ -165,6 +165,30 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ALOX5 | BioGRID | 0 |
+| ACTA1 | BioGRID | 0 |
+| ELAVL1 | BioGRID | 0 |
+| TERF2IP | BioGRID | 0 |
+| CD2BP2 | BioGRID | 0 |
+| ACTG1 | BioGRID | 0 |
+| ACTB | BioGRID | 0 |
+| PDE6H | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/8918/1865_A8_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/8918/1865_A8_3_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q14019
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000103187-COTL1/subcellular

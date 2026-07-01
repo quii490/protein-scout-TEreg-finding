@@ -88,6 +88,24 @@ STRING 互作网络以 U5 snRNP/剪接体组分为主，实验分数极高（0.8
 ### 4. 总体评价
 CD2BP2 是一个低文献量（strict=32）的 U5 snRNP 核心组分，核定位证据扎实（HPA Enhanced + GO 多 IDA），结构数据丰富（10 个 PDB，含全长 spliceosome cryo-EM），PPI 以剪接体蛋白为主导、实验验证度高。主要不足是 GYF domain 不直接参与染色质调控或转录，且 pLDDT 均值仅 69.0（N 端含较多无序区）。适合作为剪接体/核 speckle 功能的低研究热度候选跟踪。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SNRNP200 | BioGRID | 0 |
+| PRPF8 | BioGRID | 0 |
+| EFTUD2 | BioGRID | 0 |
+| DDX23 | BioGRID | 0 |
+| PRPF6 | BioGRID | 0 |
+| USP39 | BioGRID | 0 |
+| SNRNP40 | BioGRID | 0 |
+| PUF60 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O95400
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/O95400

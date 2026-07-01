@@ -164,6 +164,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MEOX2 | BioGRID | 1 |
+| ERBB2 | BioGRID | 1 |
+| TRIM28 | BioGRID | 1 |
+| EGFR | BioGRID | 1 |
+| ZRANB1 | BioGRID | 1 |
+| RPA2 | BioGRID | 1 |
+| RBM27 | BioGRID | 1 |
+| BCAR1 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9P2T1
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000100938-GMPR2/subcellular

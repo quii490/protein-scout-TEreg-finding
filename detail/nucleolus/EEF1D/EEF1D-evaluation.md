@@ -172,6 +172,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| EEF1G | STRING | 999 |
+| EEF1A1 | STRING | 997 |
+| RPS19 | STRING | 952 |
+| RPS11 | STRING | 951 |
+| TPT1 | STRING | 950 |
+| RPL35 | STRING | 945 |
+| RPS18 | STRING | 945 |
+| RPS24 | STRING | 944 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P29692
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000104529-EEF1D/subcellular

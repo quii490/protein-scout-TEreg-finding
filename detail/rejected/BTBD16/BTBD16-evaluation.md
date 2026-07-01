@@ -1,18 +1,18 @@
 ---
 type: protein-evaluation
-gene: "BTBD16"
+gene: "B暂无数据16"
 date: 2026-06-03
 tags: [protein-scout, rejected, evaluation]
 status: rejected
 ---
 
-## BTBD16 — REJECTED (核定位证据不足 (核定位得分 3/10 ≤ 3))
+## B暂无数据16 — REJECTED (核定位证据不足 (核定位得分 3/10 ≤ 3))
 
 ### 1. 基本信息
 
 | 项目 | 内容 |
 |------|------|
-| 基因名 / 别名 | BTBD16 / C10orf87 |
+| 基因名 / 别名 | B暂无数据16 / C10orf87 |
 | 蛋白名称 | BTB/POZ domain-containing protein 16 |
 | 蛋白大小 | 506 aa / 58.5 kDa |
 | UniProt ID | Q32M84 |
@@ -142,7 +142,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 **推荐等级**: ⭐⭐⭐ (REJECTED)
 
 **核心优势**:
-1. BTBD16 — BTB/POZ domain-containing protein 16，极度新颖，几乎未被系统研究（PubMed ≤20篇）。
+1. B暂无数据16 — BTB/POZ domain-containing protein 16，极度新颖，几乎未被系统研究（PubMed ≤20篇）。
 2. 蛋白大小506 aa，大小适中（200-800 aa），适合常规生化实验和结构解析。
 
 **风险/不确定性**:
@@ -157,8 +157,8 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q32M84
-- Protein Atlas: https://www.proteinatlas.org/search/BTBD16
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=BTBD16
+- Protein Atlas: https://www.proteinatlas.org/search/B暂无数据16
+- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=B暂无数据16
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q32M84
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
@@ -166,7 +166,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 
 
 <!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoli (uncertain)。来源: https://www.proteinatlas.org/ENSG00000138152-BTBD16/subcellular
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoli (uncertain)。来源: https://www.proteinatlas.org/ENSG00000138152-B暂无数据16/subcellular
 
 ![](https://images.proteinatlas.org/57638/1101_G4_3_blue_red_green.jpg)
 ![](https://images.proteinatlas.org/57638/1101_G4_4_blue_red_green.jpg)

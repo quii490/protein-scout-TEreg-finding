@@ -165,6 +165,37 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| AMDHD2 | STRING | 994 |
+| GPI | STRING | 970 |
+| GFPT1 | STRING | 962 |
+| NLK | STRING | 958 |
+| TMEM18 | STRING | 957 |
+| KCTD15 | STRING | 955 |
+| SH2B1 | STRING | 903 |
+| FTO | STRING | 880 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### PubMed
+
+**Count: 106**
+
+| PMID | Title |
+|---|---|
+| 42256164 | Putative Genomic Signatures of Local Adaptation in Five Local Indonesian Sheep Reveal Selection on Immunity, Reproduction, and Production Traits. |
+| 41310427 | Selection signature analysis in chickens divergently selected for growth rate reveals novel candidate genes regulating fat deposition. |
+| 40195065 | Uncovering the Causal Link Between Obesity-Associated Genes and Multiple Sclerosis: A Systematic Literature Review. |
+| 39976858 | Identification of Glycolysis-Related Signature and Molecular Subtypes in Child Sepsis Through Machine Learning and Consensus Clustering: Implications  |
+| 38672412 | Involvement of Glucosamine 6 Phosphate Isomerase 2 (GNPDA2) Overproduction in β-Amyloid- and Tau P301L-Driven Pathomechanisms. |
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8TDQ7
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000163281-GNPDA2/subcellular

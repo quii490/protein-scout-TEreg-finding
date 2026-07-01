@@ -87,6 +87,24 @@ PPI 网络围绕 SUMO 信号通路 (SUMO1/2/3, UBE2I, SAE1, UBA2)，含有较多
 ### 4. 总体评价
 SENP6 是 poly-SUMO 链特异性蛋白酶，PPI 网络以 SUMO 通路为核心，在染色体排列/纺锤体组装中发挥关键功能。主要不足：分子量极大 (126.1 kDa)，AlphaFold 预测不可靠 (pLDDT 54.7, 61% <50)，无 PDB 实验结构，核定位特异性仅中等 (核-质双分布)。研究热度中等 (PM=58)，SUMO 通路的普遍性降低了该靶标的区分度。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SUMO2 | STRING | 967 |
+| SUMO1 | STRING | 950 |
+| RANGAP1 | STRING | 850 |
+| PRPF19 | STRING | 837 |
+| ZDBF2 | STRING | 785 |
+| UBE2I | STRING | 749 |
+| SUMO3 | STRING | 740 |
+| UBA2 | STRING | 705 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9GZR1
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9GZR1

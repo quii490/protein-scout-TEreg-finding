@@ -149,49 +149,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q86V87
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000158863-FHIP2B/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=FHIP2B
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q86V87
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### TE 调控评估
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000158863-FHIP2B/subcellular
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
-![](https://images.proteinatlas.org/25040/212_C8_1_red_green.jpg)
-![](https://images.proteinatlas.org/25040/212_C8_2_red_green.jpg)
-![](https://images.proteinatlas.org/25040/213_C8_1_red_green.jpg)
-![](https://images.proteinatlas.org/25040/213_C8_2_red_green.jpg)
-![](https://images.proteinatlas.org/25040/214_C8_1_red_green.jpg)
-![](https://images.proteinatlas.org/25040/214_C8_2_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
+### HPA IF 图像
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+HPA 检索: https://www.proteinatlas.org/search/FHIP2B
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q86V87-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+### PubMed
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+**Count: 7**
 
-### SMART / UniProt domain
-| Source | Data |
+| PMID | Title |
 |---|---|
-| UniProt | Q86V87 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR019384;IPR045669;IPR045668; |
-| Pfam | PF19314;PF19311;PF10257; |
+| 32289885 | Retinoic acid induced 16 deficiency exacerbates high-fat diet-induced steatohepatitis in mice. |
+| 32014455 | Identification of retinoid acid induced 16 as a novel androgen receptor target in prostate cancer cells. |
+| 31862898 | Retinoid acid induced 16 deficiency aggravates colitis and colitis-associated tumorigenesis in mice. |
+| 31353455 | FAM160B1 deficit associated with microcephaly, severe intellectual disability, ataxia, behavioral abnormalities and speech problems. |
+| 25900241 | Anchoring of both PKA-RIIα and 14-3-3θ regulates retinoic acid induced 16 mediated phosphorylation of heat shock protein 70. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000158863-FHIP2B/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| HOOK1 | Biogrid | false |
-| HOOK2 | Biogrid | false |
-| HOOK3 | Biogrid | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

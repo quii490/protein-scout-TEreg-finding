@@ -179,6 +179,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| FANCM | STRING | 999 |
+| FANCB | STRING | 999 |
+| FANCC | STRING | 999 |
+| CENPX | STRING | 999 |
+| CENPS | STRING | 999 |
+| FANCF | STRING | 999 |
+| FAAP100 | STRING | 999 |
+| FANCG | STRING | 999 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9HB96
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000112039-FANCE/subcellular

@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LSG1 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">总表</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a><a href="../category/nucleus-cytoplasm.html">Nucleus-cytoplasm</a><a href="../category/nuclear-speckle.html">Nuclear speckle</a><a href="../category/nuclear-body.html">Nuclear body</a><a href="../category/nucleolus.html">Nucleolus</a><a href="../category/nuclear-envelope.html">Nuclear envelope</a><a href="../category/chromatin.html">Chromatin</a><a href="../category/rejected.html">Rejected</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>LSG1</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nuclear-body</span><span class="badge">总分: 72.7</span><span class="badge">核定位: 7</span><a class="button small" href="../protein_index.html">蛋白总表</a><a class="button small" href="../category/nuclear-body.html">分类页</a></div><p class="source-path">原始 detail 路径: detail/nuclear-body/LSG1/LSG1-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;LSG1&quot; date: 2026-06-27 tags: [protein-scout, nuclear-protein, evaluation, shortlisted] status: shortlisted ---</p>
+<h3>LSG1 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名 / 别名</td><td>LSG1 (Large subunit GTPase 1 homolog)</td></tr>
+<tr><td>蛋白大小</td><td>658 aa / 75.2 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q9H089</td></tr>
+<tr><td>评估日期</td><td>2026-06-27</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览 (新权重)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>新权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>🔴 核定位特异性</td><td>7/10</td><td>×4</td><td>28.0</td><td>HPA Supported: Nuclear bodies+Nucleoplasm+Cytosol; UniProt IDA: Cajal body+Nucleus; 但经典功能为细胞质核糖体成熟</td></tr>
+<tr><td>📏 蛋白大小</td><td>9/10</td><td>×1</td><td>9.0</td><td>658 aa, 75.2 kDa, 理想实验区间</td></tr>
+<tr><td>🆕 研究新颖性</td><td>9/10</td><td>×5</td><td>45.0</td><td>PubMed 26篇, 极度新颖 (&lt;50)</td></tr>
+<tr><td>🏗️ 三维结构</td><td>7/10</td><td>×3</td><td>21.0</td><td>1个cryo-EM结构(6LSR 3.13Å); AF pLDDT=69.4, 中等</td></tr>
+<tr><td>🧬 调控结构域</td><td>5/10</td><td>×2</td><td>10.0</td><td>GTPase domain (MMR_HSR1, G_CP_dom, GTP-bd); 核糖体生成GTPase, 非调控域</td></tr>
+<tr><td>🔗 PPI</td><td>6/10</td><td>×3</td><td>18.0</td><td>FP80: 2个互作(ZNF622, NMD3); 功能一致的核糖体组装伙伴; BioGRID稀疏</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>131/180</strong></td><td></td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>72.7/100</strong></td><td>互证: +2 (HPA+UniProt定位一致; PPI+GO+文献功能一致)</td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>Protein Atlas (IF)</td><td>Nuclear bodies; Cytosol; Nucleoplasm</td><td>Supported</td></tr>
+<tr><td>UniProt</td><td>Nucleus, Cajal body</td><td>IDA (PubMed:16209721)</td></tr>
+<tr><td>GO-CC</td><td>GO:0016604 nuclear body</td><td>IDA:HPA</td></tr>
+<tr><td>GO-CC</td><td>GO:0005654 nucleoplasm</td><td>IDA:HPA</td></tr>
+<tr><td>GO-CC</td><td>GO:0015030 Cajal body</td><td>IDA:UniProtKB</td></tr>
+<tr><td>GO-CC</td><td>GO:0005829 cytosol</td><td>IDA:HPA</td></tr>
+</tbody></table></div>
+<p><strong>HPA IF 图像</strong>: 请参见 <a href="https://www.proteinatlas.org/ENSG00000041802-LSG1/subcellular">Protein Atlas subcellular page</a></p>
+<p><strong>PAE 图</strong>: <figure><img src="https://alphafold.ebi.ac.uk/files/AF-Q9H089-F1-predicted_aligned_error_v6.png" alt="image"></figure></p>
+<p><strong>SUBCELLULAR LOCATION</strong> (UniProt): Cytoplasm, endoplasmic reticulum. Nucleus, Cajal body. Note: shuttles between the cytosol and Cajal bodies via a XPO1/CRM1-dependent export mechanism. {ECO:0000269|PubMed:16209721}.</p>
+<p><strong>结论</strong>: HPA Supported + UniProt IDA 确认 LSG1 定位于 Nuclear bodies 和 Cajal body。但需要注意的是，LSG1 的<strong>经典功能</strong>是在细胞质中执行 pre-60S 核糖体亚基的最终成熟步骤——它是晚期核糖体组装因子，通过 XPO1/CRM1 在核质之间穿梭。HPA 也检测到了 Cytosol 和 ER 定位。核定位信号可能反映其在 Cajal body/NPC 附近的转运中间态，而非核内功能驻留。<strong>评分: 7/10</strong>（有核定位证据但功能主要在胞质）。</p>
+<h5>3.2 蛋白大小评估</h5>
+<p>658 aa / 75.2 kDa，完美落在 300-800 aa 实验优势区间。作为 GTPase 家族蛋白，其大小适中，结构域紧凑——G domain 清晰可辨。<strong>评分: 9/10</strong>。</p>
+<h5>3.3 研究现状</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>PubMed strict (Title/Abstract)</td><td>26</td></tr>
+<tr><td>PubMed broad</td><td>42</td></tr>
+<tr><td>核心文献</td><td>Nature Struct Mol Biol 2017, MCB 2024</td></tr>
+</tbody></table></div>
+<p><strong>主要研究方向</strong>:</p>
+<ul><li><strong>核糖体大亚基细胞质成熟</strong> — LSG1 是 pre-60S 最后成熟步骤的关键 GTPase，介导 Nmd3 和 Tif6 从 60S 亚基释放</li><li><strong>NPC 穿梭机制</strong> — LSG1 受 XPO1/CRM1 介导在细胞质和 Cajal body 之间穿梭 (PMID 16209721)</li><li><strong>结构快照</strong> — 2017 年 Nature Struct Mol Biol 揭示了 LSG1-Nmd3-Tif6-pre-60S 复合体结构</li><li><strong>lnc-LSG1</strong> — METTL14 介导的 lnc-LSG1 m6A 修饰抑制肾癌转移 (PMID 35036065) — 注意这是 lncRNA 而非蛋白质</li></ul>
+<p><strong>关键文献</strong>: 1. Malyutin AG et al. (2017). &quot;Structural snapshot of cytoplasmic pre-60S ribosomal particles bound by Nmd3, Lsg1, Tif6 and Reh1.&quot; *Nature structural &amp; molecular biology*. PMID: 28112732 ⭐ 核心结构文献 2. Kiniry SJ et al. (2024). &quot;The Ribosome Assembly Factor LSG1 Interacts with Vesicle-Associated Membrane Protein-Associated Proteins.&quot; *Molecular and cellular biology*. PMID: 39133101 3. Reynaud E et al. (2005). &quot;Human Lsg1 defines a family of essential GTPases that correlates with the evolution of compartmentalization.&quot; *BMC biology*. PMID: 16209721 4. Lo KY et al. (2010). &quot;Defining the pathway of cytoplasmic maturation of the 60S ribosomal subunit.&quot; *Molecular cell*. PMID: 20670856</p>
+<p><strong>评价</strong>: 26 篇文献，极度新颖。核心结构工作已在 2017 年发表 (Nature Struct Mol Biol)，但功能机制仍在被揭示——2024 年 MCB 发现了 LSG1 与 VAP 蛋白的新互作。研究焦点是核糖体生成而非 TE 调控。<strong>评分: 9/10</strong> (26 篇，&lt;50)。</p>
+<h5>3.4 三维结构分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AlphaFold 平均 pLDDT</td><td>69.4</td></tr>
+<tr><td>&gt;90%</td><td>28.3%</td></tr>
+<tr><td>70-90%</td><td>30.5%</td></tr>
+<tr><td>50-70%</td><td>11.9%</td></tr>
+<tr><td>&lt;50%</td><td>29.3%</td></tr>
+</tbody></table></div>
+<p><strong>PDB 实验结构</strong>:</p>
+<ul><li>6LSR: EM, 3.13 Å — LSG1-Nmd3-Tif6-human pre-60S ribosome complex (2017, Nature Struct Mol Biol)</li></ul>
+<p><strong>评价</strong>: 1 个 cryo-EM 结构，LSG1 在 pre-60S 复合体中的构象已被解析。AlphaFold pLDDT=69.4 接近中等水平，&gt;90% 区域仅 28.3%，反映 GTPase 域外有较大无序区域（可能是 regulatory loops）。<strong>评分: 7/10</strong>。</p>
+<h5>3.5 结构域分析</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>结构域</th></tr></thead><tbody>
+<tr><td>InterPro</td><td>IPR030378 G_CP_dom (circularly permuted GTPase)</td></tr>
+<tr><td>InterPro</td><td>IPR043358 GNL1-like</td></tr>
+<tr><td>InterPro</td><td>IPR006073 GTP binding domain</td></tr>
+<tr><td>InterPro</td><td>IPR027417 P-loop NTPase</td></tr>
+<tr><td>Pfam</td><td>PF01926 MMR_HSR1 (50S ribosome-binding GTPase)</td></tr>
+</tbody></table></div>
+<p><strong>评估</strong>: LSG1 的核心结构域是 GTPase (MMR_HSR1 家族)。这是一个核糖体结合 GTPase，在 pre-60S 成熟中提供 GTP 水解驱动的构象变化能量。<strong>非转录调控、非染色质结合、非DNA修复相关域</strong>。GTPase 域在信号转导中常见，但 LSG1 的 GTPase 活性专用于核糖体组装。<strong>评分: 5/10</strong>（GTPase 域有调控潜力但不是染色质/TE 调控直接相关）。</p>
+<h5>3.6 PPI 互作网络</h5>
+<p><strong>FP80 AP2 预测互作</strong>:</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Partner</th><th>AP2</th><th>STRING</th><th>Combined</th><th>来源</th><th>功能分类</th></tr></thead><tbody>
+<tr><td>ZNF622</td><td>0.233</td><td>0.880</td><td>0.848</td><td>P</td><td>Ribosome biogenesis — 核仁锌指蛋白</td></tr>
+<tr><td>NMD3</td><td>0.311</td><td>0.237</td><td>0.759</td><td>P</td><td>Protein transport — 60S export adaptor</td></tr>
+</tbody></table></div>
+<p><strong>BioGRID</strong>:</p>
+<ul><li>仅 1 条目（Li et al. 2014，大规模互作组数据），质量不高</li></ul>
+<p><strong>已知复合体中的互作</strong> (来自文献):</p>
+<ul><li><strong>Nmd3</strong> — 60S 核输出适配蛋白，LSG1 的直接底物</li><li><strong>Tif6</strong> — 60S 反结合因子，与 LSG1 协同作用</li><li><strong>Reh1</strong> — pre-60S 成熟因子</li></ul>
+<p><strong>评价</strong>: PPI 网络非常稀疏。FP80 仅 2 个预测，BioGRID 几乎空。但这反映了 LSG1 的生物学特性——它是<strong>晚期细胞质核糖体成熟因子</strong>，其互作伙伴主要是 pre-60S 的 transient 组装因子 (Nmd3, Tif6)，而非稳定的蛋白复合体。Excel 中 Combined PPI degree=291 可能来自 STRING 的 broader 网络（包括间接互作）。实际直接互作数据有限但功能主题一致。<strong>评分: 6/10</strong>（稀疏但功能一致；互作数据少反映了其作为 transient assembly factor 的生物学特性）。</p>
+<h5>3.7 多库互证</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>来源</th><th>结论</th><th>一致性</th></tr></thead><tbody>
+<tr><td>核定位</td><td>HPA(Supported, Nuclear bodies) + UniProt(IDA, Cajal body+Nucleus) + GO-CC(IDA, nuclear body+nucleoplasm)</td><td>核定位;Cajal body</td><td>✅ 双源一致;但经典功能为胞质</td></tr>
+<tr><td>三维结构</td><td>1 cryo-EM(6LSR 3.13Å) + AlphaFold(pLDDT 69.4) + InterPro(GTPase/P-loop)</td><td>核糖体结合GTPase</td><td>✅ 结构+domain吻合</td></tr>
+<tr><td>PPI+功能</td><td>Nmd3(pre-60S adaptor) + PubMed(ribosome maturation) + GO(ribosome binding)</td><td>核糖体成熟</td><td>✅ PPI→功能→文献一致</td></tr>
+<tr><td>TE调控相关性</td><td>Domain(GTPase,非调控) + PPI(核糖体) + ChIP(无) + ENCODE(0)</td><td>核糖体生成</td><td>⚠️ 非TE调控蛋白</td></tr>
+</tbody></table></div>
+<p><strong>互证加分</strong>: +2/3</p>
+<ul><li>+1: HPA + UniProt 定位一致 (Nuclear bodies/Cajal body)</li><li>+1: 结构 (cryo-EM pre-60S) ↹ PPI (Nmd3) ↹ 文献 (ribosome maturation) 三元互洽</li><li>+0: 非染色质/转录调控，与 TE 调控无直接关联</li></ul>
+<h4>4. 总体评价</h4>
+<p><strong>推荐等级</strong>: ⭐⭐⭐ (3/5)</p>
+<p><strong>归一化总分</strong>: 72.7/100</p>
+<p><strong>定位分类</strong>: nucleoplasm</p>
+<p><strong>核心优势</strong>: 1. <strong>核糖体成熟的关键酶</strong>: LSG1 是 pre-60S 最后一步 GTPase，在核糖体生成通路中占据独特位置 2. <strong>结构已解析</strong>: Nature Struct Mol Biol 2017 的 cryo-EM 结构提供了 LSG1 在功能状态下的高分辨率快照 3. <strong>极度新颖</strong>: 26 篇文献，功能机制研究窗口仍在开放</p>
+<p><strong>核心局限</strong>: 1. <strong>功能在细胞质</strong>: LSG1 的经典功能是细胞质 pre-60S 成熟，核定位(Cajal body)可能反映的是 NPC 转运中间态而非核内功能 2. <strong>非 TE 调控蛋白</strong>: LSG1 是核糖体组装 GTPase，与染色质调控/TE 沉默无关 3. <strong>PPI 网络极稀疏</strong>: 作为 transient assembly factor，缺乏稳定的蛋白互作网络——这是生物学特性但也是筛选维度上的劣势 4. <strong>无调控结构域</strong>: MMR_HSR1 是核糖体结合 GTPase，非经典调控域</p>
+<p><strong>综合判断</strong>: LSG1 是核糖体生物学的&quot;精细工具&quot;——它在 pre-60S 成熟的最后一个检查点起作用。但它<strong>不是 TE 调控候选蛋白</strong>。虽然 HPA 检测到了核定位信号 (Nuclear bodies, Cajal body)，但其功能本质是细胞质的核糖体组装。nucleoplasm 分类是比较合理的归属（考虑到 HPA 信号），但人工筛选 TE 调控候选时优先级低。</p>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt REST API (Q9H089)</li><li>AlphaFold Protein Structure Database</li><li>PubMed E-utilities</li><li>BioGRID human PPI (local: biogrid_human_ppi.tab3.txt)</li><li>STRING nuclear PPI (local: nuclear_ppi_human.tsv)</li><li>FP80 AP2 predictions (local: final_predictions_80.tsv)</li><li>Human Protein Atlas (HPA) — IF images at subcellular page</li></ul></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

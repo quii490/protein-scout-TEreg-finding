@@ -167,6 +167,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MINOS1 | BioGRID | 0 |
+| RPS6KA5 | BioGRID | 0 |
+| FBXO6 | BioGRID | 0 |
+| LATS1 | BioGRID | 0 |
+| PPP6R3 | BioGRID | 0 |
+| EGFR | BioGRID | 0 |
+| RIC3 | BioGRID | 0 |
+| ARMC1 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/23707/1973_G12_3_cr5de780793939f_blue_red_green.jpg)
+![](https://images.proteinatlas.org/23707/1973_G12_13_cr5de78079399f5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/23707/1891_K9_12_cr5bbdbf2dd0d75_blue_red_green.jpg)
+![](https://images.proteinatlas.org/23707/1891_K9_24_cr5bbdbf2dd16e4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/23707/1948_C6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/23707/1948_C6_3_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9NVH1
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000007923-DNAJC11/subcellular

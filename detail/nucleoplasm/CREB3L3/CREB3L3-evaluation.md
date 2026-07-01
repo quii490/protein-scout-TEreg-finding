@@ -174,6 +174,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CREB1 | STRING | 972 |
+| MBTPS2 | STRING | 953 |
+| CREB3L1 | STRING | 950 |
+| PPARGC1A | STRING | 950 |
+| CRTC2 | STRING | 942 |
+| CREB3L2 | STRING | 940 |
+| GSK3B | STRING | 935 |
+| ATF4 | STRING | 935 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q68CJ9
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000060566-CREB3L3/subcellular

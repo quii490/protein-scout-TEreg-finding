@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 | CEP63 |
+| 蛋白名称 | Centrosomal protein of 63 kDa |
 | 蛋白全名 | Centrosomal protein of 63 kDa |
 | 蛋白大小 | 703 aa / 63 kDa |
 | UniProt ID | Q96MT8 |
@@ -54,6 +55,24 @@ PubMed strict: 36
 | CEP152 | IntAct | two hybrid (PMID:32296183) |
 
 IntAct 5 条。PPI 为 centrosome biogenesis 网络（CEP152/CDK5RAP2/CENPJ），不特指核功能。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CEP152 | STRING | 998 |
+| CEP57 | STRING | 956 |
+| PLK4 | STRING | 902 |
+| WDR62 | STRING | 888 |
+| PLK1 | STRING | 874 |
+| STIL | STRING | 796 |
+| ASPM | STRING | 765 |
+| PIBF1 | STRING | 717 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
 ### 5. 总体评价
 CEP63 是 centrosome 复制关键调控因子。GO nucleoplasm IDA:HPA 提供核质定位实验证据。3 个 PDB 结构支持结构域折叠。中等置信度 nucleoplasm 候选。

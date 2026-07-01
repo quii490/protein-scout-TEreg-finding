@@ -180,6 +180,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| EXOSC5 | STRING | 999 |
+| MPHOSPH6 | STRING | 999 |
+| EXOSC7 | STRING | 999 |
+| EXOSC3 | STRING | 999 |
+| EXOSC2 | STRING | 999 |
+| EXOSC1 | STRING | 999 |
+| DIS3 | STRING | 999 |
+| EXOSC10 | STRING | 999 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/65103/1230_G4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/65103/1230_G4_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/65103/1186_D7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/65103/1186_D7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/65103/1200_D7_10_blue_red_green.jpg)
+![](https://images.proteinatlas.org/65103/1200_D7_13_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9NPD3
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000178896-EXOSC4/subcellular

@@ -151,6 +151,24 @@ status: scored
 - [ ] 确认哺乳动物 Elongator 在 TE 转录中的角色
 - [ ] 纯化重组 Elongator 复合体用于功能实验
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ELP3 | STRING | 999 |
+| ELP5 | STRING | 999 |
+| ELP4 | STRING | 999 |
+| ELP2 | STRING | 998 |
+| ELP6 | STRING | 990 |
+| CHUK | STRING | 876 |
+| ESF1 | STRING | 823 |
+| DPH3 | STRING | 798 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: O95163 (https://www.uniprot.org/uniprotkb/O95163)
 - AlphaFold: AF-O95163-F1 v6 (https://alphafold.ebi.ac.uk/entry/O95163)
@@ -163,9 +181,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[ELP1-PAE.png]]
 

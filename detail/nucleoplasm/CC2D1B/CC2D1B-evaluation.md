@@ -193,6 +193,24 @@ status: scored
 - [ ] 查阅最新关键文献补充功能细节
 - [ ] 设计体外 DNA/染色质结合实验
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SPP1 | BioGRID | 0 |
+| TLN1 | BioGRID | 0 |
+| UGP2 | BioGRID | 0 |
+| KLHL40 | BioGRID | 0 |
+| MDFI | BioGRID | 0 |
+| DCTN1 | BioGRID | 0 |
+| KIFC3 | BioGRID | 0 |
+| TSNAX | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q5T0F9
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CC2D1B

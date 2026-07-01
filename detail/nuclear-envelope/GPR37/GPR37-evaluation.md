@@ -170,6 +170,37 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PRKN | STRING | 995 |
+| SNCAIP | STRING | 797 |
+| STUB1 | STRING | 773 |
+| HSPA1A | BioGRID | 1 |
+| HSPA8 | BioGRID | 1 |
+| SYVN1 | BioGRID | 1 |
+| HSPA4 | BioGRID | 1 |
+| PACRG | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白的 GO-CC 注释中缺乏染色质/TE 沉默相关定位，TE 调控潜力较低。不建议作为 TE 调控优先靶标。
+
+### PubMed
+
+**Count: 205**
+
+| PMID | Title |
+|---|---|
+| 42303574 | GPR37 modulates remyelination following demyelinating injury. |
+| 42260317 | Dietary tryptophan supplementation prevents sepsis by enhancing macrophage bacterial defense through GPR37 activation. |
+| 42221844 | Integrated Transcriptomics and Experimental Validation Reveal Müller Cell-Driven PANoptosis in Diabetic Retinopathy via PSAP-GPR37 Signaling. |
+| 42214766 | Analyses of orphan GPCRs' function in the pathogenesis of sepsis and their small-molecule therapeutics. |
+| 42207848 | GPR37 modulates body weight and insulin sensitivity in a sex-biased manner. |
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O15354
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000170775-GPR37/subcellular

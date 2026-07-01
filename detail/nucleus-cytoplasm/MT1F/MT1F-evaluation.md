@@ -74,6 +74,24 @@ HPA IF 原图可获取。MT1F displays the standard metallothionein staining: di
 
 **Aliases observed**: MT1
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MT1X | STRING | 995 |
+| MT1H | STRING | 992 |
+| MT1G | STRING | 911 |
+| MT1M | STRING | 858 |
+| MT1E | STRING | 797 |
+| MT1 | STRING | 797 |
+| MT2A | STRING | 772 |
+| MT2 | STRING | 772 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
 ## 5. AlphaFold / PAE / PDB
 
 ### AlphaFold

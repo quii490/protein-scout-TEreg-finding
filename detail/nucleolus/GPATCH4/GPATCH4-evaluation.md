@@ -163,54 +163,38 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q5T3I0
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000160818-GPATCH4/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=GPATCH4
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q5T3I0
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoli (enhanced)。来源: https://www.proteinatlas.org/ENSG00000160818-GPATCH4/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| C6ORF11 | STRING | 907 |
+| WDR46 | STRING | 907 |
+| BYSL | STRING | 896 |
+| NOM1 | STRING | 873 |
+| EIF4A3 | STRING | 864 |
+| MAK16 | STRING | 863 |
+| FBL | STRING | 837 |
+| SURF6 | STRING | 819 |
 
-![](https://images.proteinatlas.org/28323/255_E6_1_red_green.jpg)
-![](https://images.proteinatlas.org/28323/255_E6_2_red_green.jpg)
-![](https://images.proteinatlas.org/28323/256_E6_1_red_green.jpg)
-![](https://images.proteinatlas.org/28323/256_E6_2_red_green.jpg)
-![](https://images.proteinatlas.org/28323/257_E6_1_red_green.jpg)
-![](https://images.proteinatlas.org/28323/257_E6_2_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q5T3I0-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/GPATCH4
+
+### PubMed
+
+**Count: 11**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q5T3I0 |
-| SMART | SM00443; |
-| UniProt Domain [FT] | DOMAIN 11..57; /note="G-patch"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00092" |
-| InterPro | IPR000467;IPR050656; |
-| Pfam | PF01585; |
+| 41615750 | Intronic polyadenylation-derived long noncoding RNA modulates nucleolar integrity and function. |
+| 41261954 | Exploring Contraindicated Medications and Corresponding Targeted Genes for Migraine Through Integrated Genetic Approaches. |
+| 40401559 | GPATCH4 functions as a regulator of nucleolar R-loops in hepatocellular carcinoma cells. |
+| 38113722 | GPATCH4 contributes to nucleolus morphology and its dysfunction impairs cell viability. |
+| 38113271 | GPATCH4 regulates rRNA and snRNA 2'-O-methylation in both DHX15-dependent and DHX15-independent manners. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000160818-GPATCH4/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| APEX1 | Biogrid | false |
-| FBL | Biogrid | false |
-| FBXL6 | Biogrid | false |
-| KLF16 | Biogrid | false |
-| MYC | Biogrid | false |
-| NIFK | Biogrid | false |
-| NLE1 | Biogrid | false |
-| NOP56 | Biogrid | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

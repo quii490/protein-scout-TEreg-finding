@@ -175,31 +175,36 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q8IX21
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000119906-SLF2/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=FAM178A
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8IX21
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CALM1 | BioGRID | 0 |
+| ELAVL1 | BioGRID | 0 |
+| OPTN | BioGRID | 0 |
+| NSMCE1 | BioGRID | 0 |
+| ITGA1 | BioGRID | 0 |
+| GCFC2 | BioGRID | 0 |
+| RAD18 | BioGRID | 0 |
+| SMC6 | BioGRID | 0 |
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/FAM178A/FAM178A-PAE.png]]
+### TE 调控评估
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
 
-### SMART / UniProt domain
-| Source | Data |
+### HPA IF 图像
+
+HPA 检索: https://www.proteinatlas.org/search/FAM178A
+
+### PubMed
+
+**Count: 3**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q8IX21 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR044276;IPR026161; |
-| Pfam | PF14816; |
+| 28339086 | Identification of novel mutations in endometrial cancer patients by whole-exome sequencing. |
+| 25926378 | mRNAs and miRNAs in whole blood associated with lung hyperplasia, fibrosis, and bronchiolo-alveolar adenoma and adenocarcinoma after multi-walled carb |
+| 21756782 | [A genome-wide screen for promoter-specific sites of differential DNA methylation during human cell malignant transformation in vitro]. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000119906-SLF2/interaction
 
-未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

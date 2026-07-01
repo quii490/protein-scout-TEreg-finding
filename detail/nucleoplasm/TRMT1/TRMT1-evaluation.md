@@ -170,6 +170,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TRMT11 | STRING | 885 |
+| RTF2 | STRING | 836 |
+| TRUB1 | STRING | 824 |
+| METTL1 | STRING | 807 |
+| NSUN2 | STRING | 804 |
+| FTSJ1 | STRING | 799 |
+| TARBP1 | STRING | 793 |
+| NOP2 | STRING | 768 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9NXH9
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000104907-TRMT1/subcellular

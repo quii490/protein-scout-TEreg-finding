@@ -160,6 +160,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| LEUTX | STRING | 746 |
+| TPRX1 | STRING | 730 |
+| ARGFX | STRING | 724 |
+| SMARCA5 | BioGRID | 1 |
+| TOP2A | BioGRID | 1 |
+| SMARCA1 | BioGRID | 1 |
+| MKI67 | BioGRID | 1 |
+| BPTF | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/A6NLW8
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000258873-DUXA/subcellular

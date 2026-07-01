@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | BUD13 / Cwc26 |
+| 蛋白名称 | BUD13 homolog |
 | 蛋白大小 | 619 aa / 68.1 kDa |
 | UniProt ID | Q9BRD0 |
 | 评估日期 | 2026-05-29 |
@@ -154,6 +155,34 @@ status: scored
 - [ ] 鉴定 BUD13 是否与染色质修饰酶互作
 - [ ] 中等推荐
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SNIP1 | STRING | 999 |
+| SNRNP200 | STRING | 999 |
+| MFAP1 | STRING | 999 |
+| RBMX2 | STRING | 999 |
+| SF3A2 | STRING | 998 |
+| SF3B2 | STRING | 998 |
+| SF3B1 | STRING | 998 |
+| CWC22 | STRING | 998 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/38340/563_A8_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38340/563_A8_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38340/569_A8_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38340/569_A8_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38340/566_A8_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38340/566_A8_2_blue_red_green.jpg)
+
+
 ### 5. 关键文献
 
 1. Fabrizio P et al. (2009). 'The evolutionarily conserved core design of the catalytic activation step of the yeast spliceosome.' Mol Cell. PMID: 19917228
@@ -171,9 +200,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[BUD13-PAE.png]]
 

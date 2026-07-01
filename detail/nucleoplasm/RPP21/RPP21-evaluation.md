@@ -62,6 +62,37 @@ status: scored
 
 RPP21 is 154 amino acids (17.6 kDa), falling in the 100-200 aa range. While below the ideal 200-800 aa range, proteins of this size are tractable and have been successfully characterized structurally (PDB structures exist for the ribonuclease P complex containing RPP21). Score 8/10 reflects the slightly small size category (100-200 aa).
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| POP5 | STRING | 999 |
+| POP1 | STRING | 999 |
+| RPP30 | STRING | 999 |
+| POP4 | STRING | 999 |
+| RPP14 | STRING | 999 |
+| RPP38 | STRING | 999 |
+| RPP40 | STRING | 998 |
+| RPP25 | STRING | 997 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### PubMed
+
+**Count: 48**
+
+| PMID | Title |
+|---|---|
+| 41136609 | RNase MRP subunit composition and role in 40S ribosome biogenesis. |
+| 40633141 | GWAS meta-analysis identifies five susceptibility loci for endometrial cancer. |
+| 40517827 | Ribonuclease P/MRP subunit RPP40 coordinates the transcription of pre-rRNA and ribosomal protein genes to promote Hepatocellular carcinoma malignancy. |
+| 39974906 | Molecular determinants of RNase MRP specificity and function. |
+| 39095590 | Exploring prognostic DNA methylation genes in bladder cancer: a comprehensive analysis. |
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

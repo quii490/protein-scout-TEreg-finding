@@ -88,3 +88,22 @@ Source: https://www.proteinatlas.org/ENSG00000135976-ANKRD36/interaction
 | SEM1 | Opencell | false |
 | UBE2L3 | Biogrid | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| GAPDH | BioGRID | 0 |
+| PER3 | BioGRID | 0 |
+| GAN | BioGRID | 0 |
+| TSC22D2 | BioGRID | 0 |
+| KIAA1429 | BioGRID | 0 |
+| CEP76 | BioGRID | 0 |
+| EVI5L | BioGRID | 0 |
+| HMBOX1 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。

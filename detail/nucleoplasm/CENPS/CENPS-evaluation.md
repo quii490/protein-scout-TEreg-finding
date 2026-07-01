@@ -170,43 +170,38 @@ STRING 15 个预测互作，IntAct 15 个实验互作。调控相关配体占比
 - [ ] 设计 ChIP-seq/CUT&RUN 验证染色质结合
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q8N2Z9
-- Protein Atlas: https://www.proteinatlas.org/search/CENPS
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CENPS
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8N2Z9
-- STRING: https://string-db.org/network/9606.CENPS
-- Packet data timestamp: 2026-06-03 04:47:29
+### PPI 互作网络
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| FANCE | STRING | 999 |
+| FANCM | STRING | 999 |
+| CENPC | STRING | 999 |
+| CENPC1 | STRING | 999 |
+| FANCC | STRING | 999 |
+| CENPT | STRING | 999 |
+| FANCF | STRING | 999 |
+| CENPX | STRING | 999 |
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q8N2Z9-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### TE 调控评估
 
-### SMART / UniProt domain
-| Source | Data |
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
+### HPA IF 图像
+
+HPA 检索: https://www.proteinatlas.org/search/CENPS
+
+### PubMed
+
+**Count: 217**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q8N2Z9 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR029003;IPR009072; |
-| Pfam | PF15630; |
+| 42343878 | CeO(2)-Loaded Shear-Thinning Hydrogel Combined with Dental Pulp Stem Cells Modulates the Oxidative-Inflammatory Microenvironment To Enhance Facial Ner |
+| 42337560 | Application of cerium dioxide nanoparticles in the treatment of intervertebral disc degeneration induced by oxidative stress. |
+| 42100458 | Sustainable green synthesis of CeO(2)-ZnO nanocomposites using Rhazya stricta: enhanced synergistic solutions for biomedical challenges and environmen |
+| 42080449 | Dysregulation of microRNAs and Centromere Protein Genes in Prostate Cancer and Metastatic Progression. |
+| 41972905 | Disrupting Neutrophil Extracellular Traps with Targeted Cerium Oxide Nanoparticles Ameliorates Diabetic Periodontitis. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000175279-CENPS/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| CENPX | Intact, Biogrid, Bioplex | true |
-| FANCM | Intact, Biogrid, Bioplex | true |
-| BLM | Biogrid | false |
-| CENPK | Biogrid | false |
-| CENPT | Biogrid | false |
-| FAAP100 | Biogrid | false |
-| FAAP24 | Biogrid | false |
-| FANCA | Biogrid | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

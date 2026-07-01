@@ -161,6 +161,34 @@ status: scored
 - [ ] CRISPR 敲除/敲低表型分析
 - [ ] AlphaFold-Multimer 预测潜在复合体结构
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MYOZ2 | BioGRID | 0 |
+| C19orf66 | BioGRID | 0 |
+| PLK1 | BioGRID | 0 |
+| RPL36AL | BioGRID | 0 |
+| SRP14 | BioGRID | 0 |
+| CSNK1E | BioGRID | 0 |
+| CSNK1D | BioGRID | 0 |
+| ZNF852 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/20446/1525_C1_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/20446/1525_C1_6_blue_red_green.jpg)
+![](https://images.proteinatlas.org/20446/218_H2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/20446/218_H2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/20446/220_H2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/20446/220_H2_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=DRICH1
@@ -174,9 +202,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[DRICH1-PAE.png]]
 

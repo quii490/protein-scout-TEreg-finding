@@ -43,7 +43,7 @@ status: scored
 | 来源 | 定位 | 可信度 |
 |------|------|--------|
 | GeneCards | Tier1_保守_高置信度 | 高置信度保守 |
-| HPA IF | 暂无数据（待细胞分析），核定位基于 UniProt + GO 注释 | -- |
+| Protein Atlas (IF) | HPA subcellular IF 图像可用（见下方 HPA IF 图像修正块） | 需人工复核 |
 | UniProt | Chromosome | 实验证据/预测 |
 | GO-CC | N/A | N/A |
 
@@ -111,7 +111,7 @@ status: scored
 
 
 **PPI 互证分析**:
-- （待补充：综合 STRING、IntAct 和 GO 数据库的互作信息，分析 PPI 网络的一致性）
+- （暂无数据：综合 STRING、IntAct 和 GO 数据库的互作信息，分析 PPI 网络的一致性）
 **评价**: PPI 数据极为稀少
 
 #### 3.7 多库互证
@@ -144,6 +144,18 @@ status: scored
 - [ ] 基于 PPI 网络开展功能研究
 - [ ] 结构分析: 基于 AlphaFold 的突变设计
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TRMT1 | STRING | 836 |
+| RTF1 | STRING | 768 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=RTF2
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000022277-RTF2
@@ -156,9 +168,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[RTF2-PAE.png]]
 
@@ -193,3 +205,14 @@ Source: https://www.proteinatlas.org/ENSG00000022277-RTF2/interaction
 | KIFBP | Bioplex | false |
 | MILR1 | Bioplex | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+<!-- HPA_IF_REPAIR_START -->
+**HPA IF 图像修正（2026-07-01）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (supported)。来源: https://www.proteinatlas.org/ENSG00000022277-RTF2/subcellular
+
+![](https://images.proteinatlas.org/53986/849_D10_1_red_green.jpg)
+![](https://images.proteinatlas.org/53986/849_D10_2_red_green.jpg)
+![](https://images.proteinatlas.org/53986/869_D10_3_red_green.jpg)
+![](https://images.proteinatlas.org/53986/869_D10_4_red_green.jpg)
+![](https://images.proteinatlas.org/53986/885_D10_1_red_green.jpg)
+![](https://images.proteinatlas.org/53986/885_D10_2_red_green.jpg)
+<!-- HPA_IF_REPAIR_END -->

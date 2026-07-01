@@ -165,54 +165,38 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q13823
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000134697-GNL2/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=GNL2
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q13823
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoli (supported)。来源: https://www.proteinatlas.org/ENSG00000134697-GNL2/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RSL24D1 | STRING | 999 |
+| GTPBP4 | STRING | 999 |
+| RPF2 | STRING | 999 |
+| CDK105 | STRING | 999 |
+| NSA2 | STRING | 999 |
+| GNL3L | STRING | 997 |
+| GNL3 | STRING | 997 |
+| ZNF593 | STRING | 997 |
 
-![](https://images.proteinatlas.org/27163/212_H6_1_red_green.jpg)
-![](https://images.proteinatlas.org/27163/212_H6_2_red_green.jpg)
-![](https://images.proteinatlas.org/27163/213_H6_1_red_green.jpg)
-![](https://images.proteinatlas.org/27163/213_H6_2_red_green.jpg)
-![](https://images.proteinatlas.org/27163/214_H6_1_red_green.jpg)
-![](https://images.proteinatlas.org/27163/214_H6_2_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q13823-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/GNL2
+
+### PubMed
+
+**Count: 30**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q13823 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | DOMAIN 207..368; /note="CP-type G"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01058" |
-| InterPro | IPR030378;IPR024929;IPR006073;IPR023179;IPR012971;IPR027417;IPR050755; |
-| Pfam | PF01926;PF08153; |
+| 42135716 | Multi-omics integration identifies ribosome biogenesis-active macrophage subpopulation and its key gene GNL2 in driving liver hepatocellular carcinoma |
+| 41755636 | Distinct steps of nuclear maturation of human pre-60S complexes require the activity of GTPases including GNL3L. |
+| 41681977 | Epigenome-Wide Association Studies of Proteasome Inhibitor-Related Cardiotoxicity in Patients with Multiple Myeloma. |
+| 40725951 | Deubiquitinase-associated mRNA signature model predicts prognosis and influences the immune microenvironment in patients with hepatocellular carcinoma |
+| 40605042 | Metabolic, transcriptomic, and proteomic adaptations in pancreatic ductal adenocarcinoma-patient derived xenograft models across serial passages. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000134697-GNL2/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| G3BP2 | Biogrid, Opencell | true |
-| KRR1 | Biogrid, Bioplex | true |
-| LYAR | Intact, Biogrid, Bioplex | true |
-| NIFK | Biogrid, Bioplex | true |
-| NPM1 | Biogrid, Opencell | true |
-| RPL11 | Biogrid, Opencell | true |
-| RPL31 | Biogrid, Bioplex | true |
-| RPL35 | Biogrid, Opencell, Bioplex | true |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

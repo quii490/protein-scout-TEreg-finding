@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | ASB18 / Ankyrin repeat and SOCS box protein 18 |
+| 蛋白名称 | Ankyrin repeat and SOCS box protein 18 |
 | 蛋白大小 | 466 aa / 50.8 kDa |
 | UniProt ID | Q6ZVZ8 |
 | 评估日期 | 2026-05-29 |
@@ -142,6 +143,34 @@ status: scored
 - [ ] 独立验证核仁定位
 - [ ] ASB18 在 E3 ligase 之后是否有独特功能
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TCEB2 | BioGRID | 0 |
+| TCEB1 | BioGRID | 0 |
+| CUL5 | BioGRID | 0 |
+| NME1 | BioGRID | 0 |
+| PRPSAP1 | BioGRID | 0 |
+| PGAM5 | BioGRID | 0 |
+| PRPS1 | BioGRID | 0 |
+| ERH | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/68447/2054_G2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/68447/2054_G2_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/68447/1983_G10_6_cr5e58e1f98be4a_blue_red_green.jpg)
+![](https://images.proteinatlas.org/68447/1983_G10_26_cr5e58e1f98cb39_blue_red_green.jpg)
+![](https://images.proteinatlas.org/68447/1967_G2_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/68447/1967_G2_4_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q6ZVZ8
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000182177-ASB18/subcellular
@@ -152,9 +181,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[ASB18-PAE.png]]
 

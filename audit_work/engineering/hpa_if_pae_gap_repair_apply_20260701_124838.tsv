@@ -1,0 +1,101 @@
+gene	report_path	if_candidate	hpa_images_found	hpa_location	hpa_subcell_url	hpa_image_urls	hpa_error	pae_candidate	pae_url	pae_error	changed	applied
+ASXL3	detail/chromatin/ASXL3/ASXL3-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000141431-ASXL3/subcellular			False			False	False
+AURKC	detail/chromatin/AURKC/AURKC-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000105146-AURKC/subcellular			False			False	False
+BANF2	detail/chromatin/BANF2/BANF2-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000125888-BANF2/subcellular			False			False	False
+BARHL2	detail/chromatin/BARHL2/BARHL2-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000143032-BARHL2/subcellular			False			False	False
+BHLHA9	detail/chromatin/BHLHA9/BHLHA9-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000205899-BHLHA9/subcellular			False			False	False
+BHLHE23	detail/chromatin/BHLHE23/BHLHE23-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000125533-BHLHE23/subcellular			False			False	False
+BOD1L2	detail/chromatin/BOD1L2/BOD1L2-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000228075-BOD1L2/subcellular			False			False	False
+BSX	detail/chromatin/BSX/BSX-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000188909-BSX/subcellular			False			False	False
+CENPK	detail/chromatin/CENPK/CENPK-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000123219-CENPK/subcellular			False			False	False
+CENPL	detail/chromatin/CENPL/CENPL-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000120334-CENPL/subcellular			False			False	False
+CENPX	detail/chromatin/CENPX/CENPX-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000169689-CENPX/subcellular			False			False	False
+CUX2	detail/chromatin/CUX2/CUX2-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000111249-CUX2/subcellular			False			False	False
+CYREN	detail/chromatin/CYREN/CYREN-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000122783-CYREN/subcellular			False			False	False
+DBX1	detail/chromatin/DBX1/DBX1-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000109851-DBX1/subcellular			False			False	False
+DMBX1	detail/chromatin/DMBX1/DMBX1-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000197587-DMBX1/subcellular			False			False	False
+DMRT3	detail/chromatin/DMRT3/DMRT3-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000064218-DMRT3/subcellular			False			False	False
+DMRTB1	detail/chromatin/DMRTB1/DMRTB1-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000143006-DMRTB1/subcellular			False			False	False
+DMRTC2	detail/chromatin/DMRTC2/DMRTC2-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000142025-DMRTC2/subcellular			False			False	False
+DPRX	detail/chromatin/DPRX/DPRX-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000204595-DPRX/subcellular			False			False	False
+DYNC1I1	detail/chromatin/DYNC1I1/DYNC1I1-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000158560-DYNC1I1/subcellular			False			False	False
+DYNLT3	detail/chromatin/DYNLT3/DYNLT3-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000165169-DYNLT3/subcellular			False			False	False
+EME2	detail/chromatin/EME2/EME2-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000197774-EME2/subcellular			False			False	False
+FBH1	detail/chromatin/FBH1/FBH1-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000134452-FBH1/subcellular			False			False	False
+FBXO18	detail/chromatin/FBXO18/FBXO18-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000134452-FBH1/subcellular			False			False	False
+FERD3L	detail/chromatin/FERD3L/FERD3L-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000146618-FERD3L/subcellular			False			False	False
+FOXB2	detail/chromatin/FOXB2/FOXB2-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000204612-FOXB2/subcellular			False			False	False
+FOXI2	detail/chromatin/FOXI2/FOXI2-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000186766-FOXI2/subcellular			False			False	False
+GBX1	detail/chromatin/GBX1/GBX1-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000164900-GBX1/subcellular			False			False	False
+GSC2	detail/chromatin/GSC2/GSC2-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000063515-GSC2/subcellular			False			False	False
+H4C7	detail/chromatin/H4C7/H4C7-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000275663-H4C7/subcellular			False			False	False
+HES2	detail/chromatin/HES2/HES2-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000069812-HES2/subcellular			False			False	False
+HMGB4	detail/chromatin/HMGB4/HMGB4-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000176256-HMGB4/subcellular			False			False	False
+MEIOB	detail/chromatin/MEIOB/MEIOB-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000162039-MEIOB/subcellular			False			False	False
+MESP2	detail/chromatin/MESP2/MESP2-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000188095-MESP2/subcellular			False			False	False
+NAP1L1	detail/chromatin/NAP1L1/NAP1L1-evaluation.md	True	0	Microtubules (uncertain)	https://www.proteinatlas.org/ENSG00000187109-NAP1L1/subcellular			False			False	False
+NEUROD6	detail/chromatin/NEUROD6/NEUROD6-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000164600-NEUROD6/subcellular			False			False	False
+POU6F2	detail/chromatin/POU6F2/POU6F2-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000106536-POU6F2/subcellular			False			False	False
+PRM3	detail/chromatin/PRM3/PRM3-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000178257-PRM3/subcellular			False			False	False
+PROX2	detail/chromatin/PROX2/PROX2-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000119608-PROX2/subcellular			False			False	False
+PRRC2A	detail/chromatin/PRRC2A/PRRC2A-evaluation.md	True	0	Cytosol (supported)	https://www.proteinatlas.org/ENSG00000204469-PRRC2A/subcellular			False			False	False
+RBPJL	detail/chromatin/RBPJL/RBPJL-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000124232-RBPJL/subcellular			False			False	False
+RTF2	detail/chromatin/RTF2/RTF2-evaluation.md	True	6	Nucleoplasm (supported)	https://www.proteinatlas.org/ENSG00000022277-RTF2/subcellular	https://images.proteinatlas.org/53986/849_D10_1_red_green.jpg;https://images.proteinatlas.org/53986/849_D10_2_red_green.jpg;https://images.proteinatlas.org/53986/869_D10_3_red_green.jpg;https://images.proteinatlas.org/53986/869_D10_4_red_green.jpg;https://images.proteinatlas.org/53986/885_D10_1_red_green.jpg;https://images.proteinatlas.org/53986/885_D10_2_red_green.jpg		False			True	True
+SOX14	detail/chromatin/SOX14/SOX14-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000168875-SOX14/subcellular			False			False	False
+TBX22	detail/chromatin/TBX22/TBX22-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000122145-TBX22/subcellular			False			False	False
+TFAP2E	detail/chromatin/TFAP2E/TFAP2E-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000116819-TFAP2E/subcellular			False			False	False
+TRIOBP	detail/chromatin/TRIOBP/TRIOBP-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000100106-TRIOBP/subcellular			False			False	False
+TRNP1	detail/chromatin/TRNP1/TRNP1-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000253368-TRNP1/subcellular			False			False	False
+UFL1	detail/chromatin/UFL1/UFL1-evaluation.md	True	0	Endoplasmic reticulum (supported)	https://www.proteinatlas.org/ENSG00000014123-UFL1/subcellular			False			False	False
+VSX2	detail/chromatin/VSX2/VSX2-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000119614-VSX2/subcellular			False			False	False
+CIRSR	detail/nuclear-body/CIRSR/CIRSR-evaluation.md	True	0				hpa_entry_not_found	False			False	False
+AGPAT3	detail/nuclear-envelope/AGPAT3/AGPAT3-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000160216-AGPAT3/subcellular			False			False	False
+CHMP2A	detail/nuclear-envelope/CHMP2A/CHMP2A-evaluation.md	True	0	Cytosol (approved)	https://www.proteinatlas.org/ENSG00000130724-CHMP2A/subcellular			False			False	False
+FAM156A	detail/nuclear-envelope/FAM156A/FAM156A-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000268350-FAM156A/subcellular			False			False	False
+FAM156B	detail/nuclear-envelope/FAM156B/FAM156B-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000179304-FAM156B/subcellular			False			False	False
+GHDC	detail/nuclear-envelope/GHDC/GHDC-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000167925-GHDC/subcellular			False			False	False
+KASH5	detail/nuclear-envelope/KASH5/KASH5-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000161609-KASH5/subcellular			False			False	False
+MAJIN	detail/nuclear-envelope/MAJIN/MAJIN-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000168070-MAJIN/subcellular			False			False	False
+MTMR8	detail/nuclear-envelope/MTMR8/MTMR8-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000102043-MTMR8/subcellular			False			False	False
+SHISA5	detail/nuclear-envelope/SHISA5/SHISA5-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000164054-SHISA5/subcellular			False			False	False
+SPATA46	detail/nuclear-envelope/SPATA46/SPATA46-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000171722-SPATA46/subcellular			False			False	False
+SUN5	detail/nuclear-envelope/SUN5/SUN5-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000167098-SUN5/subcellular			False			False	False
+SYNE4	detail/nuclear-envelope/SYNE4/SYNE4-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000181392-SYNE4/subcellular			False			False	False
+TMC6	detail/nuclear-envelope/TMC6/TMC6-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000141524-TMC6/subcellular			False			False	False
+TXLNG	detail/nuclear-envelope/TXLNG/TXLNG-evaluation.md	True	0	Cytosol (approved)	https://www.proteinatlas.org/ENSG00000086712-TXLNG/subcellular			False			False	False
+UBXN4	detail/nuclear-envelope/UBXN4/UBXN4-evaluation.md	True	0	Endoplasmic reticulum (supported)	https://www.proteinatlas.org/ENSG00000144224-UBXN4/subcellular			False			False	False
+AFF2	detail/nuclear-speckle/AFF2/AFF2-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000155966-AFF2/subcellular			False			False	False
+BKGD	detail/nuclear-speckle/BKGD/BKGD-evaluation.md	True	0				hpa_entry_not_found	False			False	False
+F8A2	detail/nuclear-speckle/F8A2/F8A2-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000288709-F8A2/subcellular			False			False	False
+KCTD20	detail/nuclear-speckle/KCTD20/KCTD20-evaluation.md	True	0	Endoplasmic reticulum (approved)	https://www.proteinatlas.org/ENSG00000112078-KCTD20/subcellular			False			False	False
+LNP1	detail/nuclear-speckle/LNP1/LNP1-evaluation.md	True	0	Vesicles (approved)	https://www.proteinatlas.org/ENSG00000206535-LNP1/subcellular			False			False	False
+PRR23A	detail/nuclear-speckle/PRR23A/PRR23A-evaluation.md	True	0	Nucleoplasm (approved)	https://www.proteinatlas.org/ENSG00000206260-PRR23A/subcellular			False			False	False
+PRR23B	detail/nuclear-speckle/PRR23B/PRR23B-evaluation.md	True	0	Nucleoplasm (uncertain)	https://www.proteinatlas.org/ENSG00000184814-PRR23B/subcellular			False			False	False
+PRR23C	detail/nuclear-speckle/PRR23C/PRR23C-evaluation.md	True	0	Nucleoplasm (approved)	https://www.proteinatlas.org/ENSG00000233701-PRR23C/subcellular			False			False	False
+SEL1L2	detail/nuclear-speckle/SEL1L2/SEL1L2-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000101251-SEL1L2/subcellular			False			False	False
+TRIM69	detail/nuclear-speckle/TRIM69/TRIM69-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000185880-TRIM69/subcellular			False			False	False
+ALKBH4	detail/nucleolus/ALKBH4/ALKBH4-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000160993-ALKBH4/subcellular			False			False	False
+C6orf89	detail/nucleolus/C6orf89/C6orf89-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000198663-C6orf89/subcellular			False			False	False
+CRADD	detail/nucleolus/CRADD/CRADD-evaluation.md	True	0	Cytosol (approved)	https://www.proteinatlas.org/ENSG00000169372-CRADD/subcellular			False			False	False
+DIEXF	detail/nucleolus/DIEXF/DIEXF-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000117597-DIEXF/subcellular			False			False	False
+ENDOV	detail/nucleolus/ENDOV/ENDOV-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000173818-ENDOV/subcellular			False			False	False
+FIRRM	detail/nucleolus/FIRRM/FIRRM-evaluation.md	True	0				hpa_entry_not_found	False			False	False
+FOXO6	detail/nucleolus/FOXO6/FOXO6-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000204060-FOXO6/subcellular			False			False	False
+FRG1	detail/nucleolus/FRG1/FRG1-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000109536-FRG1/subcellular			False			False	False
+FSAF1	detail/nucleolus/FSAF1/FSAF1-evaluation.md	True	0				hpa_entry_not_found	False			False	False
+GET4	detail/nucleolus/GET4/GET4-evaluation.md	True	0	Nucleoli (uncertain)	https://www.proteinatlas.org/ENSG00000239857-GET4/subcellular			False			False	False
+GINM1	detail/nucleolus/GINM1/GINM1-evaluation.md	True	0	Nucleoli fibrillar center (approved)	https://www.proteinatlas.org/ENSG00000055211-GINM1/subcellular			False			False	False
+PANK1	detail/nucleolus/PANK1/PANK1-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000152782-PANK1/subcellular			False			False	False
+PANO1	detail/nucleolus/PANO1/PANO1-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000288675-PANO1/subcellular			False			False	False
+PLCZ1	detail/nucleolus/PLCZ1/PLCZ1-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000139151-PLCZ1/subcellular			False			False	False
+PLK5	detail/nucleolus/PLK5/PLK5-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000185988-PLK5/subcellular			False			False	False
+PPM1B	detail/nucleolus/PPM1B/PPM1B-evaluation.md	True	0	Nucleoli (uncertain)	https://www.proteinatlas.org/ENSG00000138032-PPM1B/subcellular			False			False	False
+Ppan	detail/nucleolus/Ppan/Ppan-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000130810-PPAN/subcellular			False			False	False
+TBCA	detail/nucleolus/TBCA/TBCA-evaluation.md	True	0	Microtubules (supported)	https://www.proteinatlas.org/ENSG00000171530-TBCA/subcellular			False			False	False
+WDR75	detail/nucleolus/WDR75/WDR75-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000115368-WDR75/subcellular			False			False	False
+YPEL2	detail/nucleolus/YPEL2/YPEL2-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000175155-YPEL2/subcellular			False			False	False
+YPEL3	detail/nucleolus/YPEL3/YPEL3-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000090238-YPEL3/subcellular			False			False	False
+YPEL4	detail/nucleolus/YPEL4/YPEL4-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000166793-YPEL4/subcellular			False			False	False
+ADAM33	detail/nucleoplasm/ADAM33/ADAM33-evaluation.md	True	0	Plasma membrane (approved)	https://www.proteinatlas.org/ENSG00000149451-ADAM33/subcellular			False			False	False
+AIRE	detail/nucleoplasm/AIRE/AIRE-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000160224-AIRE/subcellular			False			False	False
+ANAPC4	detail/nucleoplasm/ANAPC4/ANAPC4-evaluation.md	True	0		https://www.proteinatlas.org/ENSG00000053900-ANAPC4/subcellular			False			False	False

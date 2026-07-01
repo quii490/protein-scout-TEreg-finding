@@ -165,6 +165,34 @@ status: scored
 - [ ] 构建表达载体进行功能研究
 - [ ] Co-IP/MS 鉴定互作蛋白
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| KMT2A | STRING | 859 |
+| CUL3 | BioGRID | 1 |
+| AGO2 | BioGRID | 1 |
+| PTPN18 | BioGRID | 1 |
+| CYLD | BioGRID | 1 |
+| EGLN3 | BioGRID | 1 |
+| HSPA8 | BioGRID | 1 |
+| MAD2L2 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/540/1595_A2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/540/1595_A2_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/540/1219_H7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/540/1219_H7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/540/1189_H7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/540/1189_H7_3_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=MLLT11
 - Protein Atlas: https://www.proteinatlas.org/MLLT11
@@ -179,9 +207,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[MLLT11-PAE.png]]
 

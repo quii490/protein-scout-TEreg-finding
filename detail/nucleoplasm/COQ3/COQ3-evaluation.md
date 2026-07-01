@@ -166,6 +166,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TGDS | STRING | 845 |
+| ADCK1 | STRING | 834 |
+| NDUFA9 | STRING | 731 |
+| TRAP1 | BioGRID | 1 |
+| NOVA1 | BioGRID | 1 |
+| COQ3 | BioGRID | 1 |
+| NFS1 | BioGRID | 1 |
+| C1QBP | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/31274/405_F7_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/31274/405_F7_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/31274/409_F7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/31274/409_F7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/31274/402_F7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/31274/402_F7_3_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9NZJ6
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000132423-COQ3/subcellular

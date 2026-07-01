@@ -133,6 +133,34 @@ HES7 是经典的 Notch 下游 bHLH 转录抑制因子，核定位明确（HPA A
 2. PPI 以 Y2H 为主，缺少功能验证互作
 3. 无 PDB 结构
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PRPF31 | BioGRID | 1 |
+| PIH1D2 | BioGRID | 1 |
+| TCEA2 | BioGRID | 1 |
+| TCEANC | BioGRID | 1 |
+| HNRNPH1 | BioGRID | 1 |
+| HIST1H4A | BioGRID | 0 |
+| OSTF1 | BioGRID | 0 |
+| QARS | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/72105/1685_F3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/72105/1685_F3_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/72105/1645_B4_32_blue_red_green.jpg)
+![](https://images.proteinatlas.org/72105/1645_B4_33_blue_red_green.jpg)
+![](https://images.proteinatlas.org/72105/1637_F12_2_cr57a1bad737a85_blue_red_green.jpg)
+![](https://images.proteinatlas.org/72105/1637_F12_13_cr57a1bae4eca71_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9BYE0
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9BYE0

@@ -171,6 +171,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CASP2 | STRING | 999 |
+| PIDD1 | STRING | 999 |
+| TRADD | STRING | 980 |
+| CYFIP2 | STRING | 934 |
+| APAF1 | STRING | 745 |
+| MINDY3 | STRING | 728 |
+| EEF1A1 | BioGRID | 1 |
+| LRIF1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/5337/956_B1_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5337/956_B1_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5337/990_A1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5337/990_A1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5337/954_B1_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5337/954_B1_4_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P78560
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000169372-CRADD/subcellular

@@ -55,6 +55,40 @@ status: scored
 
 RNF187 is 235 amino acids in length, well within the ideal 200-800 aa range. This compact size is advantageous for recombinant production, purification, and structural characterization. Size score: 10/10.
 
+### 功能描述
+
+E3 ubiquitin-protein ligase that acts as a coactivator of JUN-mediated gene activation in response to growth factor signaling via the MAP3K1 pathway, independently from MAPK8
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| JUN | BioGRID | 0 |
+| CUL2 | BioGRID | 0 |
+| NEDD8 | BioGRID | 0 |
+| RNF187 | BioGRID | 0 |
+| PRMT1 | BioGRID | 0 |
+| XRN1 | BioGRID | 0 |
+| MOV10 | BioGRID | 0 |
+| NXF1 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/30098/274_B11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/30098/274_B11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/30098/273_B11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/30098/273_B11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/30098/275_B11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/30098/275_B11_2_blue_red_green.jpg)
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

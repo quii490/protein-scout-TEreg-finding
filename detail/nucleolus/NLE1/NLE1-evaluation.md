@@ -160,6 +160,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CDK105 | STRING | 992 |
+| NSA2 | STRING | 992 |
+| SDAD1 | STRING | 987 |
+| GNL2 | STRING | 987 |
+| WDR18 | STRING | 986 |
+| NOP53 | STRING | 985 |
+| GLTSCR2 | STRING | 985 |
+| GTPBP4 | STRING | 983 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9NVX2
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000073536-NLE1/subcellular

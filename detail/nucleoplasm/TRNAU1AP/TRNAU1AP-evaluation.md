@@ -168,6 +168,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PRPF39 | STRING | 947 |
+| SEPSECS | STRING | 925 |
+| SECISBP2 | STRING | 922 |
+| EEFSEC | STRING | 913 |
+| SEPHS2 | STRING | 858 |
+| RBM25 | STRING | 838 |
+| SNRPC | STRING | 828 |
+| U2AF2 | STRING | 809 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9NX07
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000180098-TRNAU1AP/subcellular

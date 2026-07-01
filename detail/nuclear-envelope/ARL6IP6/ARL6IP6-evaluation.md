@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | ARL6IP6 / PFAAP1 |
+| 蛋白名称 | ADP-ribosylation factor-like protein 6-interacting protein 6 |
 | 蛋白全名 | ADP-ribosylation factor-like protein 6-interacting protein 6 |
 | 蛋白大小 | 226 aa / 24.7 kDa |
 | UniProt ID | Q8N6S5 |
@@ -99,6 +100,24 @@ STRING 网络以 textmining 驱动为主，分数均偏低：FMNL2 (0.65), RFTN2
 
 ### 4. 总体评价
 ARL6IP6 的核膜定位证据在补充 HPA Approved IF 数据后显著增强：UniProt nuclear inner membrane (ECO:0000250) + GO nuclear inner membrane (ISS) + HPA Approved Nuclear membrane 三源一致。AlphaFold 预测高度无序（mean pLDDT 56.7），结构域单一且未表征。PPI 网络偏向膜/跨膜蛋白，与核膜定位一致。研究新颖性极高（strict=7）。归一化 60.1/100。建议作为 nuclear-envelope 候选保留，HPA Approved 核膜定位和 IF 图像为关键定性提升。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ARL6 | BioGRID | 0 |
+| APP | BioGRID | 0 |
+| YKT6 | BioGRID | 0 |
+| DUSP3 | BioGRID | 0 |
+| PNPO | BioGRID | 0 |
+| BLVRB | BioGRID | 0 |
+| GSTM1 | BioGRID | 0 |
+| CBFB | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8N6S5

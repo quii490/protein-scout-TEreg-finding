@@ -152,6 +152,24 @@ status: scored
 - [ ] Co-IP 验证 PPI
 - [ ] 功能实验验证染色质调控角色
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TRMT112 | STRING | 999 |
+| ZCCHC4 | STRING | 969 |
+| METTL16 | STRING | 951 |
+| ZC3H13 | STRING | 924 |
+| VIRMA | STRING | 895 |
+| METTL3 | STRING | 824 |
+| WTAP | STRING | 815 |
+| HDDC2 | STRING | 792 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprot/Q9NRN9
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9NRN9
@@ -162,9 +180,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[METTL5-PAE.png]]
 

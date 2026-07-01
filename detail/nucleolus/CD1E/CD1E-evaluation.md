@@ -171,45 +171,38 @@ STRING 15 个预测互作，IntAct 15 个实验互作。调控相关配体占比
 - [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/P15812
-- Protein Atlas: https://www.proteinatlas.org/search/CD1E
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CD1E
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/P15812
-- STRING: https://string-db.org/network/9606.CD1E
-- Packet data timestamp: 2026-06-03 04:44:41
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Golgi apparatus (supported)。来源: https://www.proteinatlas.org/ENSG00000158488-CD1E/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CD34 | STRING | 724 |
+| NUP107 | BioGRID | 1 |
+| FCGRT | BioGRID | 0 |
+| SUSD5 | BioGRID | 0 |
+| FNDC3A | BioGRID | 0 |
+| C1QL1 | BioGRID | 0 |
+| TMEM59L | BioGRID | 0 |
+| CANX | BioGRID | 0 |
 
-![](https://images.proteinatlas.org/57769/1970_G9_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/57769/1970_G9_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/70634/1970_A10_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/70634/1970_A10_3_blue_red_green.jpg)
-![](https://images.proteinatlas.org/70634/2027_E1_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/70634/2027_E1_6_blue_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-P15812-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白的 GO-CC 注释中缺乏染色质/TE 沉默相关定位，TE 调控潜力较低。不建议作为 TE 调控优先靶标。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-07）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/CD1E
+
+### PubMed
+
+**Count: 88**
+
+| PMID | Title |
 |---|---|
-| UniProt | P15812 |
-| SMART | SM00407; |
-| UniProt Domain [FT] | DOMAIN 191..301; /note="Ig-like" |
-| InterPro | IPR007110;IPR036179;IPR013783;IPR003597;IPR050208;IPR011161;IPR037055;IPR011162; |
-| Pfam | PF07654;PF16497; |
+| 41844944 | Peripheral blood mononuclear cell gene expression signatures predict long-term survivorship in canine DLBCL. |
+| 41747960 | Integrative bioinformatics and machine learning combined with experimental validation in a doxorubicin-induced model identify BACH2, NXPH4, CD1E, and  |
+| 41069085 | Exploring the Influence of Heat Stress on Gene Expression in Bovine Myeloid Cells In Vitro. |
+| 40954153 | Comprehensive analysis of the tumor immune microenvironment in gastric cancer and peritoneal metastasis based on single-cell RNA sequencing analysis. |
+| 40759816 | Development and validation of a hypoxia-immune-based microenvironment gene signature for predicting survival in non-small cell lung cancer. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000158488-CD1E/interaction
 
-未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

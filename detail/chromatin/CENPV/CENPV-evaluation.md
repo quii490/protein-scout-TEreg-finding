@@ -101,6 +101,24 @@ STRING 为 textmining 主导（SPI1, CEBPE 等转录因子）。IntAct 记录 MY
 ### 4. 总体评价
 CENPV 是着丝粒/kinetochore 蛋白，定位证据极大丰富（UniProt 三处 ECO:0000269 + GO 八处实验赋值）。PPI 网络包含 SETDB1（H3K9 甲基转移酶）、KAT5（组蛋白乙酰转移酶）和 HTT（Huntingtin），提示其参与着丝粒周围异染色质组织。归一化总分 76.0/100，为当前评估最高。研究新颖性极高（PubMed strict=9）。建议作为高优先级 chromatin 候选保留，后续重点验证其与 SETDB1/KAT5 的染色质调控互作及 TE 沉默功能。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SPI1 | STRING | 880 |
+| CEBPE | STRING | 785 |
+| HBZ | STRING | 731 |
+| LYN | BioGRID | 1 |
+| EED | BioGRID | 1 |
+| NPM1 | BioGRID | 1 |
+| IFI16 | BioGRID | 1 |
+| EZH2 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q7Z7K6
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q7Z7K6

@@ -99,6 +99,24 @@ PPI 网络以 co-IP 为主，包含核蛋白 SETX、剪接因子 YJU2、PAF1 复
 ### 4. 总体评价
 SETMAR 是本批次最高分候选。灵长类特有的 SET-转座酶融合蛋白，兼具组蛋白甲基转移酶和 DNA 修复功能。核定位四源一致、结构数据优秀（5 PDB + 高置信度 AlphaFold）、PPI 涉及转录/RNA 加工。研究量适中（strict=50），处于表观遗传学与 DNA 修复交叉领域，niche 空间充足。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PRPF19 | STRING | 993 |
+| BANP | STRING | 896 |
+| CAMKMT | STRING | 747 |
+| H3F3A | STRING | 732 |
+| H3F3B | STRING | 732 |
+| SETD3 | STRING | 723 |
+| SETMAR | BioGRID | 1 |
+| TOP2A | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q53H47
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q53H47

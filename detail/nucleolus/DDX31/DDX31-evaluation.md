@@ -159,6 +159,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| FTSJ3 | STRING | 936 |
+| PUM3 | STRING | 918 |
+| NOC2L | STRING | 916 |
+| RBM19 | STRING | 903 |
+| DDX56 | STRING | 901 |
+| DDX24 | STRING | 898 |
+| DDX10 | STRING | 891 |
+| RBM34 | STRING | 891 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/20891/1139_H4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/20891/1139_H4_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/20891/1178_C1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/20891/1178_C1_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/20891/1132_H4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/20891/1132_H4_5_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9H8H2
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000125485-DDX31/subcellular

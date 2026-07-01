@@ -112,7 +112,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 | GYS1 | 0.965 | 0.324 | — |
 | EPM2AIP1 | 0.932 | 0.067 | — |
 | NFU1 | 0.916 | 0.292 | — |
-| STBD1 | 0.912 | 0.788 | — |
+| S暂无数据1 | 0.912 | 0.788 | — |
 | AGL | 0.876 | 0.000 | — |
 | GSK3B | 0.805 | 0.329 | — |
 | GYG1 | 0.773 | 0.000 | — |
@@ -128,7 +128,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 | PPP1R3C | psi-mi:"MI:0018"(two hybrid) | pubmed:14532330|imex:IM-20410 |
 | GYS1 | psi-mi:"MI:0051"(fluorescence technology) | pubmed:14532330|imex:IM-20410 |
 | EBI-2507162 | psi-mi:"MI:0071"(molecular sieving) | pubmed:14532330|imex:IM-20410 |
-| STBD1 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
+| S暂无数据1 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
 | PRKAB2 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
 | OTUB1 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | imex:IM-23897|pubmed:26752685 |
 | RPL10 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:26496610|imex:IM-24272 |

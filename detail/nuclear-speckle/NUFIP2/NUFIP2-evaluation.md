@@ -174,6 +174,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| FMR1 | STRING | 993 |
+| NUFIP1 | STRING | 939 |
+| G3BP1 | STRING | 934 |
+| G3BP | STRING | 934 |
+| FAM98A | STRING | 916 |
+| ATXN2L | STRING | 906 |
+| FXR2 | STRING | 904 |
+| DDX6 | STRING | 898 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q7Z417
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000108256-NUFIP2/subcellular

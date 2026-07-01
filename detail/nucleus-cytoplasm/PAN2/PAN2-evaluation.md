@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | PAN2 / KIAA0710, USP52 |
+| 蛋白名称 | PAN2-PAN3 deadenylation complex catalytic subunit PAN2 |
 | 蛋白全名 | PAN2-PAN3 deadenylation complex catalytic subunit PAN2 |
 | 蛋白大小 | 1202 aa / 135.4 kDa |
 | UniProt ID | Q504Q3 |
@@ -125,6 +126,30 @@ status: scored
 PAN2 是 mRNA deadenylation 的关键催化亚基，与 PAN3 组成 PAN complex。蛋白较大(1202 aa)，含 USP (去泛素化) 和 RNase 双催化域。核定位有实验证据但以胞质 P-body 为主。研究热度偏高(>80篇)，新颖性不足。无PDB实验结构，AF pLDDT 79.0。PPI 网络明确但限于 mRNA metabolism，缺乏染色质调控关联。
 
 **推荐**: 低优先级。核定位存在但非主导，研究热度高，与染色质调控关联弱。
+
+### 功能描述
+
+Catalytic subunit of the poly(A)-nuclease (PAN) deadenylation complex, one of two cytoplasmic mRNA deadenylases involved in general and miRNA-mediated mRNA turnover. PAN specifically shortens poly(A) tails of RNA and the activity is stimulated by poly(A)-binding protein (PABP). PAN deadenylation is followed by rapid degradation of the shortened mRNA tails by the CCR4-NOT complex. Deadenylated mRNAs are then degraded by two alternative mechanisms, namely exosome-mediated 3'-5' exonucleolytic degr
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PAN3 | STRING | 999 |
+| BECN1 | STRING | 986 |
+| PYCARD | STRING | 973 |
+| CASP1 | STRING | 970 |
+| PABPC2 | STRING | 957 |
+| PABPC1 | STRING | 957 |
+| TBK1 | STRING | 904 |
+| AIM2 | STRING | 862 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprot/Q504Q3

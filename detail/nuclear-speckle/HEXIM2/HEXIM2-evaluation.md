@@ -171,6 +171,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MEPCE | STRING | 998 |
+| LARP7 | STRING | 998 |
+| HEXIM1 | STRING | 995 |
+| CDK9 | STRING | 979 |
+| CCNT1 | STRING | 942 |
+| CCNT2 | STRING | 882 |
+| FERD3L | STRING | 755 |
+| BRD4 | STRING | 707 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96MH2
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000168517-HEXIM2/subcellular

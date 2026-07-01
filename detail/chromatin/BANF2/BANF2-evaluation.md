@@ -160,6 +160,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| EMD | STRING | 996 |
+| LEMD2 | STRING | 848 |
+| H3F3A | STRING | 839 |
+| H3F3B | STRING | 839 |
+| LMNA | STRING | 834 |
+| VRK1 | STRING | 810 |
+| TMPO | STRING | 809 |
+| LMNB1 | STRING | 808 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9H503
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000125888-BANF2/subcellular

@@ -85,7 +85,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 | 有序区域 (pLDDT>70) 占比 | 20.4% |
 | 可用 PDB 条目 | 5O9B, 6ZFV |
 
-**PAE**: PAE 图像未生成本地文件（standard evaluation），结构判断基于 AlphaFold pLDDT 统计。
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 **评价**: AlphaFold 预测质量有限（pLDDT=56.4），有序残基占 20.4%。
 
@@ -206,3 +206,9 @@ Source: https://www.proteinatlas.org/ENSG00000179348-GATA2/interaction
 | CREBBP | Intact | false |
 | CYSRT1 | Intact | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-07-01）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-P23769-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

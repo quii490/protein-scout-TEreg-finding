@@ -89,3 +89,30 @@ Source: https://www.proteinatlas.org/ENSG00000189127-ANKRD34B/interaction
 |---|---|:--:|
 | YWHAZ | Opencell | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| HRAS | BioGRID | 1 |
+| DDX39A | BioGRID | 1 |
+| YWHAZ | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+
+### PubMed
+
+**Count: 7**
+
+| PMID | Title |
+|---|---|
+| 39336722 | Genetic Foundations of Nellore Traits: A Gene Prioritization and Functional Analyses of Genome-Wide Association Study Results. |
+| 35628134 | Age-Related DNA Methylation in Normal Kidney Tissue Identifies Epigenetic Cancer Risk Susceptibility Loci in the ANKRD34B and ZIC1 Genes. |
+| 35110962 | Screening of Important Markers in Peripheral Blood Mononuclear Cells to Predict Female Osteoporosis Risk Using LASSO Regression Algorithm and SVM Meth |
+| 32309439 | Identification of Methylated Gene Biomarkers in Patients with Alzheimer's Disease Based on Machine Learning. |
+| 28380430 | Novel RNA biomarkers of prostate cancer revealed by RNA-seq analysis of formalin-fixed samples obtained from Russian patients. |

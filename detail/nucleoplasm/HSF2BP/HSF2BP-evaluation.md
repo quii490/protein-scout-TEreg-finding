@@ -156,6 +156,34 @@ HSF2BP 极度新颖 (PM=15)，结构质量极高 (pLDDT=91.0 + 4 PDB entries)。
 - ChIP-seq 确定染色质结合位点
 - 功能获得/缺失实验，检测 H3K27me3/H3K9me3 等组蛋白修饰变化
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| BRCA2 | STRING | 951 |
+| C19ORF57 | STRING | 793 |
+| SPATA22 | STRING | 791 |
+| CDC73 | BioGRID | 1 |
+| HSF2BP | BioGRID | 1 |
+| UBE2I | BioGRID | 1 |
+| UPF2 | BioGRID | 1 |
+| PSMD14 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/31724/373_D4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/31724/373_D4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/31724/370_D4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/31724/370_D4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/31724/366_D4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/31724/366_D4_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O75031
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/O75031

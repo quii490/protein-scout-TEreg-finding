@@ -178,6 +178,20 @@ status: scored
 - [ ] 基于 Leucine zipper (pLDDT 97.27) 做 CREBRF-CREB3 互作界面的结构生物学研究
 - [ ] 探索 CREBRF 在 TE 调控中的潜在角色（bZIP 家族可能识别 TE 衍生序列）
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CREB3 | STRING | 752 |
+| CREB3L4 | STRING | 752 |
+| CREBL2 | STRING | 720 |
+| BTRC | BioGRID | 1 |
+| ATF1 | BioGRID | 1 |
+| NAA10 | BioGRID | 1 |
+| NAA11 | BioGRID | 1 |
+| HSPA8 | BioGRID | 1 |
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8IUR6
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000164463-CREBRF/subcellular

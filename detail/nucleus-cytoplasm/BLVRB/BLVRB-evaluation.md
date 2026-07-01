@@ -175,6 +175,24 @@ status: scored
 - [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| BLVRA | STRING | 993 |
+| GNB5 | STRING | 728 |
+| ACP1 | STRING | 707 |
+| RPL31 | BioGRID | 1 |
+| UFM1 | BioGRID | 1 |
+| SNRNP27 | BioGRID | 1 |
+| GTF2E2 | BioGRID | 1 |
+| NR2C2 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 
 - UniProt: https://www.uniprot.org/uniprotkb/P30043

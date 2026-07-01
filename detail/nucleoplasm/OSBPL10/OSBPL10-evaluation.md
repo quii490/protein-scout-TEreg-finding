@@ -161,6 +161,34 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| AP2B1 | BioGRID | 0 |
+| ALDOA | BioGRID | 0 |
+| BBS1 | BioGRID | 0 |
+| GBAS | BioGRID | 0 |
+| MMP2 | BioGRID | 0 |
+| CUL1 | BioGRID | 0 |
+| CLINT1 | BioGRID | 0 |
+| KEAP1 | BioGRID | 0 |
+
+
+### 深度机制分析
+
+**结构域架构**：OSBPL10（764 aa / 84.0 kDa, UniProt Q9BXB5）是多结构域脂质转运蛋白，具有模块化架构：N端PH结构域（SM00233, IPR018494, PF15409, UniProt FT: DOMAIN 74-171）和C端OSBP相关结构域（ORD, IPR041680, IPR000648, PF01237，覆盖~200-764区域）。PH结构域通过磷酸肌醇识别介导膜靶向，ORD结构域包含氧化固醇结合口袋。AlphaFold v6中等置信度（pLDDT=73.3，44.9%残基>90，有序区66.4%）预测PH和ORD为独立折叠模块，通过长柔性linker连接——OSBP家族典型排列。较低pLDDT归因于域间柔性（~100残基linker区域）和部分未折叠区段，而各独立结构域可能折叠良好。IPR037239（OSBP超家族）和IPR011993（PH-like超家族）表明OSBPL10属于具有共同结构架构的大型脂质转运蛋白家族。
+
+**PPI网络分析**：PPI画像独特：尽管存在15个IntAct互作，STRING预测伙伴为0（combined score阈值>0.4）。IntAct伙伴功能多样：IKBKG（NF-kappa-B必需调节因子，PMID:21988832）连接OSBPL10至炎症信号；USP11（去泛素酶）和MMP2（基质金属蛋白酶）暗示蛋白周转和细胞外基质重塑关联；SAP18（Sin3A相关蛋白18）是SIN3-HDAC辅抑制复合物和ASAP（凋亡/剪接相关蛋白）复合物的关键组分；SRRM2（丝氨酸/精氨酸重复基质蛋白2）为剪接体组分和核散斑marker；CLINT1（网格蛋白互作因子）与膜运输关联；PGAM5（线粒体磷酸酶）和ALDOA（糖酵解酶）扩展代谢-信号互作面。humanPPI数据（VAPA, VAPB, Biogrid/Opencell）确认OSBPL10与VAP蛋白的膜接触位点功能。SAP18互作最具机制意义——SAP18将SIN3复合物直接桥接至HDAC1/2，可能将OSBPL10的脂质转运活性招募至染色质调控复合物。
+
+**结构解读与机制模型**：OSBPL10的主要机制围绕膜接触位点的非囊泡脂质转运。PH结构域靶向高尔基体（HPA: Golgi apparatus, approved）和质膜，ORD结构域在膜间转运氧化固醇（如25-羟基胆固醇）。氧化固醇是调控LXR转录因子、SREBP加工和炎症通路的强效信号脂质。OSBPL10的核质注释（HPA: Nucleoplasm, 非approved）可反映以下两种可能：要么是参与核脂质信号的真实核池，要么是高尔基体染色的污染/背景。SAP18和SRRM2互作（IntAct, PMID:19615732）提供分子桥梁至细胞核：若OSBPL10-SAP18共定位于核散斑，OSBPL10可将氧化固醇配体局部递送至核受体（LXRα/β），在特定亚核域调控转录。PH结构域的磷酸肌醇结合特异性（PIP种类偏好）决定了OSBPL10的亚细胞靶向，可能响应PI3K等信号通路动态调控。
+
+**TE调控意义与实验建议**：OSBPL10与TE调控的关联为外围间接关系。LXR介导的氧化固醇信号与炎症基因调控关联，炎症是TE去抑制的已知触发因素。OSBPL10可能通过调节核氧化固醇浓度间接影响LXR依赖的转录程序，进而影响TE表达。最有希望的研究方向是SAP18互作：若OSBPL10通过SAP18与SIN3-HDAC复合物功能互作，可将脂质信号栓系至TE位点的组蛋白去乙酰化。然而，鉴于核定位信号弱（高尔基体>核质）和间接机制特征，OSBPL10应视为较低优先级的TE候选。验证优先级：（1）western blot确认核分级的OSBPL10定位；（2）co-IP SAP18并评估SIN3复合物招募；（3）氧化固醇处理对TE RNA表达的影响测试；（4）OSBPL10敲低后重复元件家族的RNA-seq扰动检测。
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9BXB5
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000144645-OSBPL10/subcellular

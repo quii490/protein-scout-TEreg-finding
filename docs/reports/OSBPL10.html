@@ -12,6 +12,8 @@
   <nav>
     <a href="../protein_index.html">总表</a>
     <a href="../category/nucleoplasm.html">Nucleoplasm</a><a href="../category/nucleus-cytoplasm.html">Nucleus-cytoplasm</a><a href="../category/nuclear-speckle.html">Nuclear speckle</a><a href="../category/nuclear-body.html">Nuclear body</a><a href="../category/nucleolus.html">Nucleolus</a><a href="../category/nuclear-envelope.html">Nuclear envelope</a><a href="../category/chromatin.html">Chromatin</a><a href="../category/rejected.html">Rejected</a>
+    <a href="../centrosome/index.html">Centrosome</a>
+    <a href="../sperm/index.html">Sperm</a>
   </nav>
 </header><main class="container report-shell"><section class="panel"><h1>OSBPL10</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">总分: 60</span><span class="badge">核定位: 4</span><a class="button small" href="../protein_index.html">蛋白总表</a><a class="button small" href="../category/nucleoplasm.html">分类页</a></div><p class="source-path">原始 detail 路径: detail/nucleoplasm/OSBPL10/OSBPL10-evaluation.md</p></section><article class="report-body"><hr>
 <p>type: protein-evaluation gene: &quot;OSBPL10&quot; date: 2026-06-03 tags: [protein-scout, nuclear-protein, evaluation] status: scored ---</p>
@@ -119,6 +121,25 @@
 <p><strong>风险/不确定性</strong>: 1. PubMed 34 篇，已有一定研究基础 2. 结构数据质量可接受</p>
 <p><strong>下一步建议</strong>:</p>
 <ul><li>[ ] 查阅最新关键文献补充研究背景</li><li>[ ] 获取 Protein Atlas IF 图像确认亚细胞定位</li><li>[ ] 设计体外实验验证核定位及潜在调控功能</li></ul>
+<h4>PPI 互作网络</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>互作伙伴</th><th>来源</th><th>评分</th></tr></thead><tbody>
+<tr><td>AP2B1</td><td>BioGRID</td><td>0</td></tr>
+<tr><td>ALDOA</td><td>BioGRID</td><td>0</td></tr>
+<tr><td>BBS1</td><td>BioGRID</td><td>0</td></tr>
+<tr><td>GBAS</td><td>BioGRID</td><td>0</td></tr>
+<tr><td>MMP2</td><td>BioGRID</td><td>0</td></tr>
+<tr><td>CUL1</td><td>BioGRID</td><td>0</td></tr>
+<tr><td>CLINT1</td><td>BioGRID</td><td>0</td></tr>
+<tr><td>KEAP1</td><td>BioGRID</td><td>0</td></tr>
+</tbody></table></div>
+<h4>深度机制分析</h4>
+<p><strong>结构域架构</strong>：OSBPL10（764 aa / 84.0 kDa, UniProt Q9BXB5）是多结构域脂质转运蛋白，具有模块化架构：N端PH结构域（SM00233, IPR018494, PF15409, UniProt FT: DOMAIN 74-171）和C端OSBP相关结构域（ORD, IPR041680, IPR000648, PF01237，覆盖~200-764区域）。PH结构域通过磷酸肌醇识别介导膜靶向，ORD结构域包含氧化固醇结合口袋。AlphaFold v6中等置信度（pLDDT=73.3，44.9%残基&gt;90，有序区66.4%）预测PH和ORD为独立折叠模块，通过长柔性linker连接——OSBP家族典型排列。较低pLDDT归因于域间柔性（~100残基linker区域）和部分未折叠区段，而各独立结构域可能折叠良好。IPR037239（OSBP超家族）和IPR011993（PH-like超家族）表明OSBPL10属于具有共同结构架构的大型脂质转运蛋白家族。</p>
+<p><strong>PPI网络分析</strong>：PPI画像独特：尽管存在15个IntAct互作，STRING预测伙伴为0（combined score阈值&gt;0.4）。IntAct伙伴功能多样：IKBKG（NF-kappa-B必需调节因子，PMID:21988832）连接OSBPL10至炎症信号；USP11（去泛素酶）和MMP2（基质金属蛋白酶）暗示蛋白周转和细胞外基质重塑关联；SAP18（Sin3A相关蛋白18）是SIN3-HDAC辅抑制复合物和ASAP（凋亡/剪接相关蛋白）复合物的关键组分；SRRM2（丝氨酸/精氨酸重复基质蛋白2）为剪接体组分和核散斑marker；CLINT1（网格蛋白互作因子）与膜运输关联；PGAM5（线粒体磷酸酶）和ALDOA（糖酵解酶）扩展代谢-信号互作面。humanPPI数据（VAPA, VAPB, Biogrid/Opencell）确认OSBPL10与VAP蛋白的膜接触位点功能。SAP18互作最具机制意义——SAP18将SIN3复合物直接桥接至HDAC1/2，可能将OSBPL10的脂质转运活性招募至染色质调控复合物。</p>
+<p><strong>结构解读与机制模型</strong>：OSBPL10的主要机制围绕膜接触位点的非囊泡脂质转运。PH结构域靶向高尔基体（HPA: Golgi apparatus, approved）和质膜，ORD结构域在膜间转运氧化固醇（如25-羟基胆固醇）。氧化固醇是调控LXR转录因子、SREBP加工和炎症通路的强效信号脂质。OSBPL10的核质注释（HPA: Nucleoplasm, 非approved）可反映以下两种可能：要么是参与核脂质信号的真实核池，要么是高尔基体染色的污染/背景。SAP18和SRRM2互作（IntAct, PMID:19615732）提供分子桥梁至细胞核：若OSBPL10-SAP18共定位于核散斑，OSBPL10可将氧化固醇配体局部递送至核受体（LXRα/β），在特定亚核域调控转录。PH结构域的磷酸肌醇结合特异性（PIP种类偏好）决定了OSBPL10的亚细胞靶向，可能响应PI3K等信号通路动态调控。</p>
+<p><strong>TE调控意义与实验建议</strong>：OSBPL10与TE调控的关联为外围间接关系。LXR介导的氧化固醇信号与炎症基因调控关联，炎症是TE去抑制的已知触发因素。OSBPL10可能通过调节核氧化固醇浓度间接影响LXR依赖的转录程序，进而影响TE表达。最有希望的研究方向是SAP18互作：若OSBPL10通过SAP18与SIN3-HDAC复合物功能互作，可将脂质信号栓系至TE位点的组蛋白去乙酰化。然而，鉴于核定位信号弱（高尔基体&gt;核质）和间接机制特征，OSBPL10应视为较低优先级的TE候选。验证优先级：（1）western blot确认核分级的OSBPL10定位；（2）co-IP SAP18并评估SIN3复合物招募；（3）氧化固醇处理对TE RNA表达的影响测试；（4）OSBPL10敲低后重复元件家族的RNA-seq扰动检测。</p>
+<h4>TE 调控评估</h4>
+<p>该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。</p>
 <h4>5. 数据来源</h4>
 <ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9BXB5</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000144645-OSBPL10/subcellular</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=OSBPL10</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9BXB5</li><li>STRING: https://string-db.org/network/9606.ENSP00000</li><li>Data fetched live: 2026-06-03</li></ul>
 <p>&lt;!-- HPA_IF_REPAIR_START --&gt; <strong>HPA IF 图像修正（2026-06-05）</strong>: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Golgi apparatus (approved)。来源: https://www.proteinatlas.org/ENSG00000144645-OSBPL10/subcellular</p>

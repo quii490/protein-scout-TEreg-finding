@@ -231,3 +231,22 @@ Source: https://www.proteinatlas.org/ENSG00000101189-MRGBP/interaction
 | MORF4L1 | Intact, Biogrid | true |
 | MORF4L2 | Intact, Biogrid, Bioplex | true |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MORF4L1 | STRING | 999 |
+| TRRAP | STRING | 999 |
+| MORF4L2 | STRING | 999 |
+| DMAP1 | STRING | 999 |
+| EAF2 | STRING | 999 |
+| YEATS4 | STRING | 998 |
+| KAT5 | STRING | 997 |
+| MEAF6 | STRING | 997 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。

@@ -160,6 +160,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NUDT15 | STRING | 859 |
+| ISOC2 | STRING | 742 |
+| XPO1 | BioGRID | 1 |
+| HRAS | BioGRID | 1 |
+| TOP3B | BioGRID | 1 |
+| IQGAP1 | BioGRID | 0 |
+| C12orf74 | BioGRID | 0 |
+| FTL | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/A6NGR9
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000204839-MROH6/subcellular

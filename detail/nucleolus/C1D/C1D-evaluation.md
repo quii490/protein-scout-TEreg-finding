@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | C1D / 核核酸结合蛋白C1D |
+| 蛋白名称 | Nuclear nucleic acid-binding protein C1D |
 | 蛋白大小 | 141 aa / 16.0 kDa |
 | UniProt ID | Q13901 |
 | 评估日期 | 2026-05-29 |
@@ -124,13 +125,41 @@ Nucleolar localization + exosome complex PPI consistent.
 2. 蛋白功能独特
 
 **风险/不确定性**:
-1. IF图像数据待补充
+1. IF图像数据暂无数据
 2. 研究已有一定基础
 
 **下一步建议**:
 - [ ] 获取 Protein Atlas IF 图像确认核定位
 - [ ] 查阅最新5篇关键文献
 - [ ] 设计体外DNA/染色质结合实验
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| EXOSC5 | STRING | 999 |
+| MTREX | STRING | 999 |
+| EXOSC3 | STRING | 999 |
+| EXOSC10 | STRING | 999 |
+| EXOSC9 | STRING | 999 |
+| EXOSC1 | STRING | 999 |
+| EXOSC2 | STRING | 999 |
+| EXOSC8 | STRING | 999 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/37413/608_F3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/37413/608_F3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/37413/605_F3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/37413/605_F3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/37413/606_F3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/37413/606_F3_2_blue_red_green.jpg)
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q13901
@@ -140,9 +169,9 @@ Nucleolar localization + exosome complex PPI consistent.
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[C1D-PAE.png]]
 

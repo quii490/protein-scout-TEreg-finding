@@ -156,6 +156,24 @@ IntAct 实验互作: 0 条
 - [ ] 功能研究: 基于 PPI 网络设计功能实验
 - [ ] 结构分析: AlphaFold 预测为基础，设计突变实验
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| BEX1 | STRING | 840 |
+| BEX2 | STRING | 839 |
+| LDB2 | STRING | 774 |
+| LDB1 | STRING | 774 |
+| LMO2 | STRING | 747 |
+| TCF3 | BioGRID | 1 |
+| HES1 | BioGRID | 1 |
+| LMO3 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=NHLH2
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000177551-NHLH2
@@ -168,9 +186,9 @@ IntAct 实验互作: 0 条
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[NHLH2-PAE.png]]
 

@@ -160,6 +160,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CDC40 | STRING | 999 |
+| SNRNP200 | STRING | 999 |
+| GPKOW | STRING | 998 |
+| SYF2 | STRING | 998 |
+| YJU2 | STRING | 998 |
+| CWC25 | STRING | 998 |
+| SLU7 | STRING | 998 |
+| CWC22 | STRING | 998 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/41347/557_C8_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41347/557_C8_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41347/502_C8_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41347/502_C8_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41347/493_C8_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41347/493_C8_4_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q92620
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000140829-DHX38/subcellular

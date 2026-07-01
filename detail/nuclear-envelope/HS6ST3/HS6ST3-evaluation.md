@@ -164,6 +164,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| DDX39A | BioGRID | 0 |
+| NOS1 | BioGRID | 0 |
+| IDE | BioGRID | 0 |
+| DOCK3 | BioGRID | 0 |
+| HS6ST1 | BioGRID | 0 |
+| DEFB116 | BioGRID | 0 |
+| SPPL3 | BioGRID | 0 |
+| METTL14 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8IZP7
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000185352-HS6ST3/subcellular

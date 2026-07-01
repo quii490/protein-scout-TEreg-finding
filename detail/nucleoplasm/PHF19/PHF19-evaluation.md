@@ -98,6 +98,24 @@ PPI 网络以 PRC2 复合体为核心，STRING 显示与 SUZ12/EZH2/EED/RBBP4 �
 ### 4. 总体评价
 PHF19 是 PRC2 复合体的关键辅助因子，介导 H3K36me3 识别到 H3K27me3 沉积的组蛋白修饰转换。核定位有 UniProt curated 支持但缺 HPA IF 验证。结构域覆盖良好（PHD + Tudor），PPI 网络以 PRC2 为核心极为稳固。研究热度中等偏高 (strict=62)，在 Polycomb/染色质调控领域 niche 明确。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SUZ12 | STRING | 998 |
+| EPOP | STRING | 997 |
+| JARID2 | STRING | 995 |
+| RBBP4 | STRING | 991 |
+| EZH1 | STRING | 989 |
+| EZH2 | STRING | 989 |
+| MTF2 | STRING | 975 |
+| EED | STRING | 972 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q5T6S3
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q5T6S3

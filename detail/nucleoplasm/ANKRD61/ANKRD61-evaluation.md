@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 | ANKRD61 |
+| 蛋白名称 | Ankyrin repeat domain-containing protein 61 |
 | 蛋白全名 | Ankyrin repeat domain-containing protein 61 |
 | 蛋白大小 | 418 aa / 46.1 kDa |
 | UniProt ID | A6NGH8 |
@@ -90,39 +91,26 @@ STRING 网络较弱，以 textmining 为主（RSPH10B 0.713, AIMP2 0.634 等 10 
 ANKRD61 是少数几个具有双源 IDA 级核定位实验证据的 ankyrin repeat 蛋白。GO nucleoplasm IDA:HPA 与 HPA Enhanced 核质定位相互印证，核定位证据坚实。AlphaFold 结构质量优秀（pLDDT 84.9）。研究极度新颖（strict=0），功能完全未知。主要弱项为 PPI 网络稀疏（仅 weak STRING textmining 互作）和蛋白较大（418 aa）。归一化 69.1/100。建议作为中等优先级 nucleoplasm 候选，高新颖性和强核定位证据可弥补 PPI 和尺寸的不足。
 ![[ANKRD61-PAE.png]]
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/A6NGH8
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/A6NGH8
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=ANKRD61
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000157999-ANKRD61
-- HPA Subcellular: https://www.proteinatlas.org/ENSG00000157999-ANKRD61/subcellular
+### TE 调控评估
 
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/ANKRD61/ANKRD61-PAE.png]]
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/ANKRD61/IF_images/ANKRD61_IF_291_D12_1_red_green.jpg]]
+### HPA IF 图像
 
-HPA IF 图像已本地嵌入。
-
-
+![](https://images.proteinatlas.org/29511/291_D12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29511/291_D12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29511/1276_G2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29511/1276_G2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29511/254_D12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29511/254_D12_2_blue_red_green.jpg)
 
 
+### PubMed
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/ANKRD61/ANKRD61-PAE.png]]
+**Count: 1**
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-07）
-
-### SMART / UniProt domain
-| Source | Data |
+| PMID | Title |
 |---|---|
-| UniProt | A6NGH8 |
-| SMART | SM00248; |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR050663;IPR002110;IPR036770; |
-| Pfam | PF12796;PF13637; |
+| 37628680 | Advanced Skeletal Ossification Is Associated with Genetic Variants in Chronologically Young Beef Heifers. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000157999-ANKRD61/interaction
 
-未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

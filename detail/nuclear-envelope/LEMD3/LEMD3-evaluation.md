@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 | LEMD3 |
+| 蛋白名称 | Inner nuclear membrane protein Man1 |
 | 蛋白大小 | 911 aa |
 | UniProt ID | Q9Y2U8 (Inner nuclear membrane protein Man1) |
 | 子定位分类 | nuclear-envelope |
@@ -58,7 +59,7 @@ status: scored
 
 
 **已知复合体成员** (GO Cellular Component):
-- （待补充：通过 GO 数据库查询该蛋白所属的已知复合体）
+- （暂无数据：通过 GO 数据库查询该蛋白所属的已知复合体）
 **关键文献**:
 1. Li et al. (2025). "The inner nuclear membrane protein LEMD3 organizes the 3D chromatin architecture to maintain vascular smooth muscle cell identity.". *Nat Commun*. PMID: 41044070
 2. Zhang et al. (2016). "Identification of a novel LEMD3 Y871X mutation in a three-generation family with osteopoikilosis and review of the literature.". *J Endocrinol Invest*. PMID: 26694706
@@ -151,6 +152,30 @@ status: scored
 - [ ] 在 TEreg 相关细胞系中检测 LEMD3 表达水平
 - [ ] 通过 co-IP/MS 鉴定 LEMD3 的染色质调控相关互作伙伴
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SMAD2 | BioGRID | 0 |
+| SMAD3 | BioGRID | 0 |
+| CDV3 | BioGRID | 0 |
+| DUT | BioGRID | 0 |
+| SMAD9 | BioGRID | 0 |
+| SMAD1 | BioGRID | 0 |
+| LMNA | BioGRID | 0 |
+| PYCARD | BioGRID | 0 |
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/76986/1744_H5_14_cr5804830a67c2e_blue_red_green.jpg)
+![](https://images.proteinatlas.org/76986/1744_H5_18_cr5804831453ef7_blue_red_green.jpg)
+![](https://images.proteinatlas.org/76986/1611_C4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/76986/1611_C4_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/76986/1740_H5_31_blue_red_green.jpg)
+![](https://images.proteinatlas.org/76986/1740_H5_32_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9Y2U8
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=LEMD3%5BTitle/Abstract%5D
@@ -163,9 +188,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[LEMD3-PAE.png]]
 

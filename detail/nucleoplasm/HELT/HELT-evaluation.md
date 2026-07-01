@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 | HELT |
+| 蛋白名称 | Hairy and enhancer of split-related protein HELT |
 | 蛋白全名 | Hairy and enhancer of split-related protein HELT |
 | 蛋白大小 | 242 aa / 26.9 kDa |
 | UniProt ID | A6NFD8 |
@@ -82,6 +83,24 @@ TLE5 是最重要的生物学 partner（STRING exp 0.534, IntAct validated Y2H�
 
 ### 4. 总体评价
 HELT 是本批中评分最高的候选之一（74.9/100）。核心优势：蛋白极小（26.9 kDa）、极高新颖性（PM=16）、bHLH-Orange 结构域明确指向转录调控、神经发育中的 GABAergic 命运决定功能独特。主要劣势：HPA 无 IF 数据（核定位依赖预测）、PDB 缺失、PPI 网络以 Y2H 为主。TLE5 作为共抑制因子的实验验证增强了功能可信度。建议作为中高优先级核质候选保留。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TADA2A | BioGRID | 1 |
+| TRAF1 | BioGRID | 1 |
+| LMO4 | BioGRID | 1 |
+| BAG3 | BioGRID | 1 |
+| MAGEA12 | BioGRID | 1 |
+| FZR1 | BioGRID | 1 |
+| AES | BioGRID | 0 |
+| VPS37C | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/A6NFD8

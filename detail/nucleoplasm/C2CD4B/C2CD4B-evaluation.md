@@ -167,6 +167,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TCF25 | BioGRID | 0 |
+| ZSWIM8 | BioGRID | 0 |
+| ZNF496 | BioGRID | 0 |
+| ARMCX3 | BioGRID | 0 |
+| DICER1 | BioGRID | 0 |
+| SETD2 | BioGRID | 0 |
+| FREM2 | BioGRID | 0 |
+| PCDH7 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/A6NLJ0
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000205502-C2CD4B/subcellular

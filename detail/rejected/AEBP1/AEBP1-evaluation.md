@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | AEBP1 / ACLP, AE-binding protein 1 |
+| 蛋白名称 | Adipocyte enhancer-binding protein 1 |
 | 蛋白大小 | 1158 aa / 130.9 kDa |
 | UniProt ID | Q8IUX7 (canonical); Q8IUX7-2 (nuclear isoform) |
 | 评估日期 | 2026-05-28 |
@@ -177,3 +178,37 @@ status: scored
 
 
 
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| GRB2 | BioGRID | 1 |
+| HERC2 | BioGRID | 1 |
+| HIST1H2BC | BioGRID | 1 |
+| PRKD2 | BioGRID | 0 |
+| VASP | BioGRID | 0 |
+| HIST1H2BK | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+
+### HPA IF 图像
+
+HPA 检索: https://www.proteinatlas.org/search/AEBP1
+
+### PubMed
+
+**Count: 225**
+
+| PMID | Title |
+|---|---|
+| 42245802 | Adipocyte Enhancer Binding Protein 1 (AEBP1) Inhibition as a Potential Anti-Fibrotic Therapy in Heart Failure. |
+| 42191857 | Gastrointestinal involvement in Ehlers-Danlos syndrome classical-like type 2 associated with a novel AEBP1 splice-site variant. |
+| 42149287 | Single-cell profiling and machine learning identify cuproptosis-related fibroblast subpopulations and fibrogenesis modulator AEBP1 in endometriosis. |
+| 42104523 | Key role of transcription factors network in proliferative vitreoretinal diseases development. |
+| 42060917 | Bioinformatics analysis implicates ferroptosis and key hub genes in the pathogenesis of endometriosis. |

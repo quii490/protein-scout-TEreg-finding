@@ -149,6 +149,34 @@ GSK3A 是 Wnt 信号核心激酶，PPI 网络极其丰富（AXIN1/CTNNB1/GSK3B/A
 - ChIP-seq 鉴定 GSK3A 下游靶基因
 - 条件性核定位信号突变体
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| AXIN1 | STRING | 999 |
+| APC | STRING | 997 |
+| CTNNB1 | STRING | 996 |
+| AKT1 | STRING | 993 |
+| CSNK1A1 | STRING | 991 |
+| GSK3B | STRING | 980 |
+| AXIN2 | STRING | 962 |
+| AKT3 | STRING | 937 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/6495/2064_E12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/6495/2064_E12_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/6495/2101_F4_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/6495/2101_F4_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/6495/1948_F5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/6495/1948_F5_3_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P49840
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/P49840

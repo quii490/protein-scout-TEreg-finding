@@ -143,6 +143,30 @@ status: scored
 - [ ] AlphaFold 结构预测分析
 - [ ] Co-IP/MS 验证PPI网络
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| HSP90AA1 | BioGRID | 1 |
+| ORC5 | BioGRID | 1 |
+| STAT5B | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q5VZB9-F1-predicted_aligned_error_v6.png)
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/62253/1337_B6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/62253/1337_B6_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/62253/1579_F1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/62253/1579_F1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/62253/1338_B6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/62253/1338_B6_3_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q5VZB9
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=DMRTA1
@@ -153,9 +177,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 <!-- DOMAIN_HUMANPPI_REPAIR_START -->
 ## Domain/SMART 与 humanPPI 补充（2026-06-06）

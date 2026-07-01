@@ -16,6 +16,7 @@ tags: [protein-scout, sperm, evaluation]
 - **IF 可靠性:** 未获取
 - **PubMed:** 25 篇
 - **精子定位部位:** Acrosome、Equatorial segment (2 个)
+- **UniProt Subcellular Location:** Cytoplasmic vesicle, secretory vesicle, acrosome; Cytoplasm, cytoskeleton, perinuclear theca
 
 ## 2. HPA 精子定位证据
 - **来源:** Acrosome、Equatorial segment ✓
@@ -32,7 +33,9 @@ tags: [protein-scout, sperm, evaluation]
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-*待 UniProt/GO-CC 采集。*
+**UniProt Subcellular Location:** Cytoplasmic vesicle, secretory vesicle, acrosome; Cytoplasm, cytoskeleton, perinuclear theca
+
+*GO-CC 精子相关条目待进一步查询。*
 
 ## 4. PubMed 文献证据
 - **文献数:** 25 篇 (低研究量)

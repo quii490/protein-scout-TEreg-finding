@@ -166,6 +166,24 @@ status: scored
 - [ ] 构建表达载体进行功能研究
 - [ ] Co-IP/MS 鉴定互作蛋白
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MEAF6 | STRING | 995 |
+| KAT5 | STRING | 994 |
+| MORF4L1 | STRING | 992 |
+| BRD8 | STRING | 990 |
+| YEATS4 | STRING | 985 |
+| RUVBL2 | STRING | 982 |
+| DMAP1 | STRING | 979 |
+| EAF2 | STRING | 979 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=MBTD1
 - Protein Atlas: https://www.proteinatlas.org/MBTD1
@@ -180,9 +198,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[MBTD1-PAE.png]]
 

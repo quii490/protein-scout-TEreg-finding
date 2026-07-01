@@ -143,6 +143,24 @@ UniProt + GO 核定位互证 (+1)
 - [ ] 基于 PPI 网络开展功能研究
 - [ ] 结构分析: 基于 AlphaFold 的突变设计
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SAP30 | STRING | 999 |
+| RBBP4 | STRING | 999 |
+| HDAC1 | STRING | 999 |
+| SIN3B | STRING | 999 |
+| RBBP7 | STRING | 999 |
+| SIN3A | STRING | 999 |
+| HDAC2 | STRING | 999 |
+| SAP18 | STRING | 998 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=SUDS3
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000111707-SUDS3
@@ -155,9 +173,9 @@ UniProt + GO 核定位互证 (+1)
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[SUDS3-PAE.png]]
 

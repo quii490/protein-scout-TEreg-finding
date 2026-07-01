@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | ABI2 / AblBP3, ArgBPIA, SSH3BP2, ABI-2, AIP-1, ArgBP1 |
+| 蛋白名称 | Abl interactor 2 |
 | 蛋白大小 | 513 aa / 55663 Da |
 | UniProt ID | Q9NYB9 |
 | 评估日期 | 2026-05-28 |
@@ -173,6 +174,47 @@ Top 15 partners:
 - [ ] ChIP-seq / CUT&RUN 检测 ABI2 是否与染色质结合
 - [ ] 核 interactome (BioID/APEX) 鉴定 ABI2 的核内互作伙伴
 - [ ] 调查 ABI2 核定位的生物学条件（细胞周期依赖性？应激响应？）
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| VCL | BioGRID | 0 |
+| KRT19 | BioGRID | 0 |
+| SNAP23 | BioGRID | 0 |
+| NCK2 | BioGRID | 0 |
+| KRT20 | BioGRID | 0 |
+| PCM1 | BioGRID | 0 |
+| CCDC53 | BioGRID | 0 |
+| IFT20 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 实验数据，可能在基因组水平参与 TE 调控。建议分析 ChIP 峰在 TE 区域的富集情况。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/70567/1845_B4_61_blue_red_green.jpg)
+![](https://images.proteinatlas.org/70567/1845_B4_63_blue_red_green.jpg)
+![](https://images.proteinatlas.org/70567/1795_A2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/70567/1795_A2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/70567/1933_H11_7_cr5d10c7e6ccd8a_blue_red_green.jpg)
+![](https://images.proteinatlas.org/70567/1933_H11_17_cr5d10c7e6cd561_blue_red_green.jpg)
+
+
+### PubMed
+
+**Count: 331**
+
+| PMID | Title |
+|---|---|
+| 42350656 | TRIM32-mediated ABI2 downregulation promotes anoikis resistance and metastasis by regulating EMT in lung adenocarcinoma. |
+| 42288720 | Transcriptomic and metabolomic analyses of systemic resistance against tomato bacterial wilt induced by lipopeptide from Bacillus pumilus LP-823. |
+| 42249761 | Uncovering the role of ABI2 as a key regulator of flowering time in Arabidopsis. |
+| 42090565 | StWRKY46 promotes stomatal closure and enhances potato drought tolerance by mediating the PYL1-ABI2-OST1/SnRK2.5/SnRK2.6 pathway. |
+| 41977687 | AtAUGs Suppress the Expression of PP2C Genes to Redundantly Regulate ABA Responses in Arabidopsis. |
+
 
 ### 5. 数据来源
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000138443-ABI2/subcellular

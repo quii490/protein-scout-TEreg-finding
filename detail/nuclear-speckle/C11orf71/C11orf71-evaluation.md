@@ -160,45 +160,33 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q6IPW1
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000180425-C11orf71/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=C11orf71
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q6IPW1
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000180425-C11orf71/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| APP | BioGRID | 1 |
+| GPRC5B | BioGRID | 1 |
+| NACC2 | BioGRID | 1 |
+| USP34 | BioGRID | 1 |
+| MNAT1 | BioGRID | 1 |
+| MDM2 | BioGRID | 1 |
+| C11orf71 | BioGRID | 0 |
 
-![](https://images.proteinatlas.org/63943/1257_E12_3_red_green.jpg)
-![](https://images.proteinatlas.org/63943/1257_E12_5_red_green.jpg)
-![](https://images.proteinatlas.org/63943/1573_A6_2_red_green.jpg)
-![](https://images.proteinatlas.org/63943/1573_A6_3_red_green.jpg)
-![](https://images.proteinatlas.org/74787/1615_F7_1_red_green.jpg)
-![](https://images.proteinatlas.org/74787/1615_F7_2_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q6IPW1-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-07）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/C11orf71
+
+### PubMed
+
+**Count: 1**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q6IPW1 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR031487; |
-| Pfam | PF15747; |
+| 34465742 | Genome-wide association study of COVID-19 severity among the Chinese population. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000180425-C11orf71/interaction
 
-未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

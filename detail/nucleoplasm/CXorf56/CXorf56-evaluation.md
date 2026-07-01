@@ -68,6 +68,24 @@ HPA IF images not reliably obtained (no subcellular IF images available on HPA s
 
 **Research Volume Assessment**: Very low (<10 papers), nearly unstudied, excellent candidate for exploring novel nuclear protein function
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PPIL1 | STRING | 853 |
+| UPF3B | STRING | 821 |
+| CDC40 | STRING | 817 |
+| SLU7 | STRING | 814 |
+| SRRM1 | STRING | 814 |
+| ALYREF | STRING | 810 |
+| SYF2 | STRING | 807 |
+| DDX39B | STRING | 803 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. AlphaFold / PAE / PDB
 
 #### AlphaFold

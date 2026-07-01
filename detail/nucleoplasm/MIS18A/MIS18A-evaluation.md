@@ -230,3 +230,24 @@ Source: https://www.proteinatlas.org/ENSG00000159055-MIS18A/interaction
 | AIMP2 | Intact | false |
 | ATG14 | Intact | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| OIP5 | STRING | 999 |
+| MIS18BP1 | STRING | 999 |
+| HJURP | STRING | 964 |
+| CENPA | STRING | 956 |
+| CENPC | STRING | 895 |
+| CENPC1 | STRING | 895 |
+| RBBP7 | STRING | 874 |
+| CENPI | STRING | 854 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q9NYP9-F1-predicted_aligned_error_v6.png)

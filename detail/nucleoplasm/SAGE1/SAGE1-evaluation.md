@@ -166,3 +166,21 @@ Source: https://www.proteinatlas.org/ENSG00000181433-SAGE1/interaction
 
 未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MAGEA1 | STRING | 727 |
+| TP53BP1 | BioGRID | 1 |
+| BRCA1 | BioGRID | 1 |
+| PRKAG1 | BioGRID | 1 |
+| SNRNP40 | BioGRID | 1 |
+| TLE3 | BioGRID | 1 |
+| HIST2H2BE | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。

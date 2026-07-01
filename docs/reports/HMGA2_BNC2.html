@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HMGA2/BNC2 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">总表</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a><a href="../category/nucleus-cytoplasm.html">Nucleus-cytoplasm</a><a href="../category/nuclear-speckle.html">Nuclear speckle</a><a href="../category/nuclear-body.html">Nuclear body</a><a href="../category/nucleolus.html">Nucleolus</a><a href="../category/nuclear-envelope.html">Nuclear envelope</a><a href="../category/chromatin.html">Chromatin</a><a href="../category/rejected.html">Rejected</a>
+    <a href="../centrosome/index.html">Centrosome</a>
+    <a href="../sperm/index.html">Sperm</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>HMGA2/BNC2</h1><div class="report-meta"><span class="badge muted">rejected</span><span class="badge">rejected</span><span class="badge">总分: NA</span><span class="badge">核定位: 0</span><a class="button small" href="../protein_index.html">蛋白总表</a><a class="button small" href="../category/rejected.html">分类页</a></div><p class="source-path">原始 detail 路径: detail/rejected/HMGA2_BNC2/HMGA2_BNC2-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;HMGA2/BNC2&quot; uniprot: &quot;N/A (chimeric fusion, not a normal gene)&quot; date: 2026-06-28 tags: [protein-scout, rejected, somatic-fusion, readthrough-artifact, not-a-normal-protein] status: rejected ---</p>
+<h3>HMGA2/BNC2 — 拒绝报告: 体细胞融合假象</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>标识符</td><td>HMGA2/BNC2 (亦标注为 HMGA2-BNC2 fusion)</td></tr>
+<tr><td>原始 Excel 分类</td><td>Tier 3; HPA nuclear=True; PPI=0; Hotness=0</td></tr>
+<tr><td>基因座</td><td>HMGA2 (chr12q14.3) + BNC2 (chr9p22.2) — <strong>不同染色体</strong></td></tr>
+<tr><td>UniProt 条目</td><td>A0A9E7V733 (TrEMBL, unreviewed, added 2023-05-03)</td></tr>
+<tr><td>UniProt 证据等级</td><td>2: Evidence at transcript level only (无蛋白水平证据)</td></tr>
+<tr><td>UniProt 注释得分</td><td>1.0 / 5.0</td></tr>
+<tr><td>声明蛋白长度</td><td>42 aa</td></tr>
+<tr><td>Ensembl 注释</td><td><strong>未收录</strong> (ENSG 查询无结果)</td></tr>
+</tbody></table></div>
+<h4>2. 拒绝原因</h4>
+<h5>2.1 非基因通读事件 — 体细胞染色体易位</h5>
+<p>HMGA2 位于 <strong>chr12</strong> (65.8 Mb)，BNC2 位于 <strong>chr9</strong> (16.4 Mb)。两个基因位点不在同一染色体上，<strong>物理上不可能发生顺式通读转录</strong>。该融合来自 Panagopoulos et al. (2022, PMID: 36309352) 在一例 <strong>子宫肌瘤 (uterine leiomyoma)</strong> 中检测到的获得性 t(9;12)(p22;q14) 体细胞易位，是<strong>单个体细胞肿瘤事件</strong>，而非正常人类基因组编码的产物。</p>
+<h5>2.2 不产生融合蛋白</h5>
+<p>UniProt 条目声称的 42-aa &quot;蛋白&quot; 序列 <code>AEATGEKRPRGRPRKWPQQVVQKKPAQEETEETSSQESAEED</code> 与<strong>野生型 HMGA2 第 68-109 位残基完全一致</strong>——这仅是 HMGA2 蛋白的 C 端片段，不含任何 BNC2 来源的氨基酸序列。</p>
+<p>融合的分子结构为: <strong>HMGA2 3&#x27;-UTR (终止密码子后核苷酸 1035) 与 BNC2 3&#x27;-UTR (外显子 7 核苷酸 9284) 融合</strong>。两个融合伙伴均贡献非翻译区。GenBank 提交 (ON989351) 中的 CDS 注释为提交流程假象 — &quot;partial cds&quot; 标签和 <code>codon_start=2</code> 表明其为正常 HMGA2 ORF 的片段，而非新型融合蛋白。</p>
+<p><strong>UniProt 条目 A0A9E7V733 不应该标注为独立的蛋白产物。</strong> 条目以 TrEMBL 自动注释方式添加，flag 为 &quot;Fragment&quot;，不存在独立证据支持该序列代表一个稳定的体内蛋白。</p>
+<h5>2.3 生物学机制: HMGA2 转录上调，非新蛋白</h5>
+<p>Panagopoulos et al. 论文的明确结论: 致瘤机制为<strong>野生型 HMGA2 的转录上调</strong>，通过缺失 3&#x27;-UTR 中的 Let-7 miRNA 结合位点实现。引用原文: *&quot;Regardless of the exact mechanism, transcriptional upregulation of HMGA2 seems to be the important result.&quot;* 该融合不产生嵌合蛋白。</p>
+<h5>2.4 无独立验证</h5>
+<ul><li>仅一篇文献 (2022)，无后续独立复制</li><li>无蛋白水平证据 (PE=2; 无质谱, 无 western blot, 无免疫组化)</li><li>Ensembl 未收录 (不是真实基因)</li><li>AlphaFold 预测模型 (AF-A0A9E7V733-F1, mean pLDDT=63.34) 为自动生成的无意义片段</li></ul>
+<h4>3. 综合判断</h4>
+<p>HMGA2/BNC2 <strong>不符合蛋白评估标准</strong>，在任何核蛋白筛选中都应被排除:</p>
+<div class="table-wrap"><table>
+<thead><tr><th>标准</th><th>判定</th></tr></thead><tbody>
+<tr><td>是否为正常人类基因产物?</td><td><strong>否</strong> — 体细胞肿瘤特异性易位</td></tr>
+<tr><td>是否产生嵌合蛋白?</td><td><strong>否</strong> — UTR-UTR 融合, 不产生新蛋白</td></tr>
+<tr><td>是否有蛋白水平证据?</td><td><strong>否</strong> — PE=2, 无质谱/抗体证据</td></tr>
+<tr><td>是否被 Ensembl 收录?</td><td><strong>否</strong> — 人参考基因组中不存在</td></tr>
+<tr><td>是否符合核蛋白筛选条件?</td><td><strong>否</strong> — 无蛋白产物可评估</td></tr>
+<tr><td>原始 Excel 中的 Nucleoplasm 标注</td><td>误标 — 该条目不应出现在筛选中</td></tr>
+</tbody></table></div>
+<h4>4. 处置建议</h4>
+<p><strong>完全拒绝，从候选清单中移除。</strong> HMGA2/BNC2 不适用于:</p>
+<ul><li>核蛋白候选筛选</li><li>TE 调控蛋白评估</li><li>任何基于正常人类蛋白质组的分析</li></ul>
+<p>该条目在来源 Excel sheet 中的存在本身即为错误，需在数据清洗阶段去除。</p>
+<h4>5. 数据来源</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>查询</th><th>结论</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>A0A9E7V733, P52926 (HMGA2), Q6ZN30 (BNC2)</td><td>TrEMBL 条目, PE=2, Fragment</td></tr>
+<tr><td>PubMed</td><td>PMID:36309352 (Panagopoulos 2022)</td><td>子宫肌瘤体细胞易位, 单病例</td></tr>
+<tr><td>Ensembl</td><td>HMGA2-BNC2 / ON989351</td><td>未收录</td></tr>
+<tr><td>AlphaFold DB</td><td>AF-A0A9E7V733-F1</td><td>自动生成片段, pLDDT=63.34</td></tr>
+<tr><td>染色体定位</td><td>HMGA2: chr12; BNC2: chr9</td><td>通读不可能 (需同染色体)</td></tr>
+</tbody></table></div></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

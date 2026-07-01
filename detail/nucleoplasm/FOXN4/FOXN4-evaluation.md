@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | FOXN4 |
+| 蛋白名称 | Forkhead box protein N4 |
 | 蛋白大小 | 517 aa |
 | UniProt ID | Q96NZ1 (Forkhead box protein N4) |
 | 评估日期 | 2026-05-30 |
@@ -162,6 +163,24 @@ status: scored
 - [ ] 通过 co-IP/MS 验证 PPI 网络
 - [ ] ChIP-seq 检查 FOXN4 在 TE 区域的 occupancy
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NEUROD4 | STRING | 944 |
+| NEUROD1 | STRING | 868 |
+| PROX1 | STRING | 808 |
+| PTF1A | STRING | 754 |
+| EGLN3 | BioGRID | 1 |
+| FHL3 | BioGRID | 1 |
+| RFX2 | BioGRID | 1 |
+| ATXN1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96NZ1
 - Protein Atlas: https://www.proteinatlas.org/search/FOXN4
@@ -173,9 +192,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[FOXN4-PAE.png]]
 

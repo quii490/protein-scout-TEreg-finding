@@ -119,7 +119,7 @@ status: scored
 | Partner | 方法 | PMID |
 |---------|------|------|
 | ENSP00000261714.6 | two hybrid pooling approach | pubmed:16189514|imex:IM-16520|mint:MINT-5217968 |
-| KBTBD7 | two hybrid pooling approach | pubmed:16189514|imex:IM-16520|mint:MINT-5217968 |
+| KB暂无数据7 | two hybrid pooling approach | pubmed:16189514|imex:IM-16520|mint:MINT-5217968 |
 | TRIO | two hybrid pooling approach | pubmed:16169070|imex:IM-16517|mint:MINT-5217955 |
 | Slc2a4 | anti tag coimmunoprecipitation | pubmed:16396496|mint:MINT-5218203 |
 | APP | pull down | pubmed:11350084|imex:IM-20356 |
@@ -168,6 +168,24 @@ status: scored
 - [ ] 查阅最新关键文献补充研究背景
 - [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
 - [ ] 设计体外实验验证核定位及潜在调控功能
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CASP14 | STRING | 817 |
+| UBE2I | BioGRID | 1 |
+| KB暂无数据7 | BioGRID | 1 |
+| BLMH | BioGRID | 1 |
+| APP | BioGRID | 1 |
+| RPL11 | BioGRID | 1 |
+| CUL4B | BioGRID | 1 |
+| COPS5 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
 ### 5. 数据来源
 

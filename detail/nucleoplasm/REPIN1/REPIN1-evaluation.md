@@ -53,6 +53,34 @@ status: scored
 
 REPIN1 is 567 amino acids, placing it well within the ideal range for experimental characterization. Size score: 10/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NFYB | STRING | 983 |
+| NFYC | STRING | 927 |
+| LRWD1 | STRING | 746 |
+| ORC4 | STRING | 737 |
+| ORC4L | STRING | 737 |
+| ORC2 | STRING | 727 |
+| ORC3 | STRING | 727 |
+| ORC5 | STRING | 725 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 实验数据，可能在基因组水平参与 TE 调控。建议分析 ChIP 峰在 TE 区域的富集情况。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/36022/380_E11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36022/380_E11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36022/397_E11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36022/397_E11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36022/382_E11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36022/382_E11_2_blue_red_green.jpg)
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

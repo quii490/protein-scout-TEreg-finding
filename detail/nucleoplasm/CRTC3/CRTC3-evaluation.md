@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | CRTC3 / CREB-regulated transcription coactivator 3 |
+| 蛋白名称 | CREB-regulated transcription coactivator 3 |
 | 蛋白大小 | 619 aa / 67.0 kDa |
 | UniProt ID | Q6UUV7 |
 | 评估日期 | 2026-05-30 |
@@ -54,7 +55,7 @@ status: scored
 | 指标 | 数值 |
 |------|------|
 | PubMed 总数 | 100 |
-| 研究方向 | 待补充关键文献摘要 |
+| 研究方向 | 暂无数据关键文献摘要 |
 
 **评价**: 有一定研究基础，但仍存在未探索的niche空间。
 
@@ -160,6 +161,34 @@ status: scored
 - [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
 - [ ] 设计体外 DNA/染色质结合实验
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CRTC2 | STRING | 952 |
+| CRTC1 | STRING | 949 |
+| CREB1 | STRING | 907 |
+| PPARGC1A | STRING | 774 |
+| YWHAG | BioGRID | 1 |
+| YWHAB | BioGRID | 1 |
+| NEDD1 | BioGRID | 1 |
+| MAGEA10 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/43735/487_B7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43735/487_B7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43735/481_B7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43735/481_B7_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43735/491_B7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43735/491_B7_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q6UUV7
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CRTC3
@@ -169,9 +198,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[CRTC3-PAE.png]]
 

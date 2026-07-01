@@ -167,6 +167,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CUL3 | STRING | 906 |
+| UBE2M | STRING | 896 |
+| CUL1 | STRING | 848 |
+| CUL2 | STRING | 845 |
+| UBE2F | STRING | 743 |
+| CUL4B | STRING | 715 |
+| RBX1 | STRING | 713 |
+| DCUN1D1 | STRING | 704 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q92564
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000109184-DCUN1D4/subcellular

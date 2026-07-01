@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | OARD1 / C6orf130, TARG1 |
+| 蛋白名称 | ADP-ribose glycohydrolase OARD1 |
 | 蛋白全名 | ADP-ribose glycohydrolase OARD1 |
 | 蛋白大小 | 152 aa / 17.0 kDa |
 | UniProt ID | Q9Y530 |
@@ -83,6 +84,34 @@ STRING 数据无法获取 (502)，IntAct 互作以 Y2H/Co-IP 为主但缺乏高�
 
 ### 4. 总体评价
 OARD1 是一个文献量极低（strict=4）、结构验证极其充分（pLDDT 93.5 + 6 PDB 实验结构）的小型核仁/核质蛋白。核心优势在于核定位证据多源且高置信度（UniProt 实验注释 + GO-CC IDA + HPA IF），蛋白极小（17 kDa）便于实验操作，ADP-ribose glycohydrolase 功能与 DNA damage/chromatin 直接相关。主要不足是 PPI 数据薄弱（STRING 不可用，IntAct 互作缺乏深度验证），影响对核内功能网络的置信度。综合评分在 nucleolus 类别中具有竞争力。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MACROD1 | STRING | 850 |
+| MACROD2 | STRING | 811 |
+| PARG | STRING | 779 |
+| PARP10 | STRING | 710 |
+| APP | BioGRID | 1 |
+| EEF1D | BioGRID | 1 |
+| TNKS | BioGRID | 1 |
+| ZC3H7B | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/29036/373_A3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29036/373_A3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29036/370_A3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29036/370_A3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29036/366_A3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29036/366_A3_3_blue_red_green.jpg)
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9Y530

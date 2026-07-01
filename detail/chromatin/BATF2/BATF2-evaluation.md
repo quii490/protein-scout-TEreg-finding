@@ -169,6 +169,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| BATF3 | STRING | 922 |
+| BATF | STRING | 921 |
+| JUN | STRING | 881 |
+| ETV7 | STRING | 866 |
+| IRF1 | STRING | 730 |
+| ANKRD22 | STRING | 710 |
+| DAZAP2 | BioGRID | 1 |
+| ATXN1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8N1L9
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000168062-BATF2/subcellular

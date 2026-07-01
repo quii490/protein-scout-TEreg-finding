@@ -176,6 +176,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| FGFR1OP | STRING | 977 |
+| CEP19 | STRING | 877 |
+| CYLD | STRING | 825 |
+| PHF3 | STRING | 784 |
+| PPP2CB | STRING | 766 |
+| PPP2R3C | STRING | 736 |
+| PLEKHA5 | BioGRID | 1 |
+| PPP2CA | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/28357/282_E3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/28357/282_E3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/28357/281_E3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/28357/281_E3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/28357/283_E3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/28357/283_E3_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q5VT06
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000135837-CEP350/subcellular

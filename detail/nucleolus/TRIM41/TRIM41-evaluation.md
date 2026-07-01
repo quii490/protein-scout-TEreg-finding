@@ -84,7 +84,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 | 有序区域 (pLDDT>70) 占比 | 66.7% |
 | 可用 PDB 条目 | 2EGM |
 
-**PAE**: PAE 图像未生成本地文件（standard evaluation），结构判断基于 AlphaFold pLDDT 统计。
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 **评价**: AlphaFold 高质量预测（pLDDT=72.7，有序区 66.7%），结构可靠。
 
@@ -169,6 +169,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TOP3B | STRING | 875 |
+| TRIM45 | STRING | 777 |
+| ZNF263 | BioGRID | 1 |
+| ZNF473 | BioGRID | 1 |
+| ZBTB8A | BioGRID | 1 |
+| IKBKG | BioGRID | 1 |
+| UBE2I | BioGRID | 1 |
+| PRKCB | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8WV44
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000146063-TRIM41/subcellular
@@ -214,3 +232,9 @@ Source: https://www.proteinatlas.org/ENSG00000146063-TRIM41/interaction
 | ZNF408 | Intact, Biogrid | true |
 | ZNF460 | Intact, Biogrid | true |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-07-01）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-Q8WV44-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

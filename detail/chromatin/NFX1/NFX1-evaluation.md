@@ -163,6 +163,24 @@ IntAct 实验互作: 0 条
 - [ ] 功能研究: 基于 PPI 网络设计功能实验
 - [ ] 结构分析: AlphaFold 预测为基础，设计突变实验
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| UBE3A | STRING | 972 |
+| PABPC2 | STRING | 867 |
+| PABPC1 | STRING | 867 |
+| RPL22 | STRING | 796 |
+| SYNCRIP | STRING | 786 |
+| RPS19 | STRING | 703 |
+| SIN3A | STRING | 700 |
+| UBE2N | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=NFX1
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000086102-NFX1
@@ -175,9 +193,9 @@ IntAct 实验互作: 0 条
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[NFX1-PAE.png]]
 

@@ -168,3 +168,33 @@ Source: https://www.proteinatlas.org/ENSG00000170468-RIOX1/interaction
 |---|---|:--:|
 | MYC | Biogrid | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RPL8 | STRING | 986 |
+| PHF19 | STRING | 940 |
+| SP7 | STRING | 920 |
+| RIOK1 | STRING | 807 |
+| SBNO1 | STRING | 796 |
+| TRAP1 | STRING | 782 |
+| JMJD4 | STRING | 737 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q9H6W3-F1-predicted_aligned_error_v6.png)
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/3730/1601_C2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3730/1601_C2_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3730/1723_A3_12_cr57ea9b2f88939_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3730/1723_A3_23_cr57ea9b36cdf2f_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3730/1732_C2_3_cr58060a8227111_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3730/1732_C2_18_cr58060a8b728d6_blue_red_green.jpg)
+

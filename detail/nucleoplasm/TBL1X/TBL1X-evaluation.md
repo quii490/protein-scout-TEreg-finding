@@ -167,6 +167,24 @@ PDB + AlphaFold 结构互证 (+0.5)
 - [ ] 基于 PPI 网络开展功能研究
 - [ ] 结构分析: 基于 PDB 的功能位点设计
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NCOR1 | STRING | 999 |
+| HDAC3 | STRING | 999 |
+| GPS2 | STRING | 999 |
+| TBL1XR1 | STRING | 999 |
+| NCOR2 | STRING | 998 |
+| CTNNB1 | STRING | 998 |
+| SKP1 | STRING | 969 |
+| SKP1A | STRING | 969 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=TBL1X
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000101849-TBL1X
@@ -179,9 +197,9 @@ PDB + AlphaFold 结构互证 (+0.5)
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[TBL1X-PAE.png]]
 

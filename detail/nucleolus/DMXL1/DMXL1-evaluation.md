@@ -167,6 +167,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CALM1 | BioGRID | 0 |
+| ROGDI | BioGRID | 0 |
+| ATP6V1C2 | BioGRID | 0 |
+| ATP6V1B1 | BioGRID | 0 |
+| RAP1B | BioGRID | 0 |
+| RNASEH2A | BioGRID | 0 |
+| ATOH1 | BioGRID | 0 |
+| TRIM25 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白的 GO-CC 注释中缺乏染色质/TE 沉默相关定位，TE 调控潜力较低。不建议作为 TE 调控优先靶标。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/36431/471_H6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36431/471_H6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36431/419_H6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36431/419_H6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36431/412_H6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36431/412_H6_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9Y485
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000172869-DMXL1/subcellular

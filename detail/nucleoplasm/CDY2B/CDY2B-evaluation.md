@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | CDY2B / Testis-specific chromodomain protein Y 2 / CDY2 |
+| 蛋白名称 | Testis-specific chromodomain protein Y 2 |
 | 蛋白大小 | 541 aa / 60.5 kDa |
 | UniProt ID | Q9Y6F7 |
 | 评估日期 | 2026-06-01 |
@@ -148,3 +149,21 @@ Source: https://www.proteinatlas.org/ENSG00000129873-CDY2B/interaction
 
 未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CUL4A | BioGRID | 1 |
+| ZNF644 | BioGRID | 1 |
+| EHMT2 | BioGRID | 1 |
+| SETDB1 | BioGRID | 1 |
+| MECOM | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q9Y6F7-F1-predicted_aligned_error_v6.png)

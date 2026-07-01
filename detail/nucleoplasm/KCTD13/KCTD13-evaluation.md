@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 | KCTD13 |
+| 蛋白名称 | BTB/POZ domain-containing adapter for CUL3-mediated RhoA degradation protein 1 |
 | 蛋白大小 | 329 aa |
 | UniProt ID | Q8WZ19 (BTB/POZ domain-containing adapter for CUL3-mediated RhoA degradation protein 1) |
 | 子定位分类 | nucleoplasm |
@@ -146,6 +147,31 @@ PPI 互证分析**:
 - [ ] 在 TEreg 相关细胞系中检测 KCTD13 表达水平
 - [ ] 通过 co-IP/MS 鉴定 KCTD13 的染色质调控相关互作伙伴
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CUL3 | STRING | 996 |
+| UBXN7 | STRING | 995 |
+| FAF1 | STRING | 994 |
+| TNFAIP1 | STRING | 989 |
+| KCTD10 | STRING | 979 |
+| KLHL22 | STRING | 920 |
+| RBX1 | STRING | 910 |
+| KB暂无数据7 | STRING | 904 |
+
+
+### ESMFold 结构预测
+
+| 指标 | 数值 |
+|---|---|
+| 平均 pLDDT | 0.72 |
+| >0.9 | 28.0% |
+| <0.5 | 19.1% |
+| 残基数 | 329 |
+
+ESMFold 从头折叠验证。PDB: `detail/_esm_structures/KCTD13_esmfold.pdb`
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8WZ19
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=KCTD13%5BTitle/Abstract%5D
@@ -158,9 +184,9 @@ PPI 互证分析**:
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[KCTD13-PAE.png]]
 

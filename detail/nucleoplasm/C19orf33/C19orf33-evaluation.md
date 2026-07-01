@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 | C19orf33 |
+| 蛋白名称 | Immortalization up-regulated protein |
 | 蛋白全名 | Immortalization up-regulated protein |
 | 蛋白大小 | 106 aa / 10.9 kDa |
 | UniProt ID | Q9GZP8 |
@@ -60,6 +61,24 @@ C19orf33 具有双源实验级核定位证据：UniProt 实验级 Nucleus 注释
 ### 4. 蛋白大小
 
 106 aa / 10.9 kDa。极小型蛋白，适合作为研究靶标。无信号肽或跨膜结构域预测。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| C19orf33 | BioGRID | 0 |
+| XIAP | BioGRID | 0 |
+| DVL2 | BioGRID | 0 |
+| KIF20A | BioGRID | 0 |
+| DEK | BioGRID | 0 |
+| DR1 | BioGRID | 0 |
+| SRSF1 | BioGRID | 0 |
+| HDAC1 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
 ### 5. 研究现状
 

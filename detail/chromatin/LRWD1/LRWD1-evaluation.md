@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 | LRWD1 |
+| 蛋白名称 | Leucine-rich repeat and WD repeat-containing protein 1 |
 | 蛋白大小 | 647 aa |
 | UniProt ID | Q9UFC0 (Leucine-rich repeat and WD repeat-containing protein 1) |
 | 子定位分类 | chromatin |
@@ -58,7 +59,7 @@ status: scored
 
 
 **已知复合体成员** (GO Cellular Component):
-- （待补充：通过 GO 数据库查询该蛋白所属的已知复合体）
+- （暂无数据：通过 GO 数据库查询该蛋白所属的已知复合体）
 **关键文献**:
 1. Samare-Najaf et al. (2023). "The constructive and destructive impact of autophagy on both genders' reproducibility, a comprehensive review.". *Autophagy*. PMID: 37505071
 2. Kang et al. (2022). "Lrwd1 impacts cell proliferation and the silencing of repetitive DNA elements.". *Genesis*. PMID: 35451548
@@ -185,6 +186,20 @@ status: scored
 - [ ] 使用 HPA/IF 确认 LRWD1 的核定位
 - [ ] 在 TEreg 相关细胞系中检测 LRWD1 表达水平
 - [ ] 通过 co-IP/MS 鉴定 LRWD1 的染色质调控相关互作伙伴
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ORC3 | STRING | 995 |
+| ORC5 | STRING | 994 |
+| ORC5L | STRING | 994 |
+| ORC2 | STRING | 993 |
+| ORC4 | STRING | 987 |
+| ORC4L | STRING | 987 |
+| ORC1 | STRING | 974 |
+| ORC1L | STRING | 974 |
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9UFC0

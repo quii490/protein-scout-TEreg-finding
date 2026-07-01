@@ -174,6 +174,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RASSF1 | STRING | 989 |
+| SQSTM1 | STRING | 974 |
+| BECN1 | STRING | 910 |
+| GABARAPL2 | STRING | 856 |
+| CECR2 | STRING | 834 |
+| NBR1 | STRING | 765 |
+| UXT | STRING | 761 |
+| CALCOCO2 | STRING | 727 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q66K74
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000130479-MAP1S/subcellular

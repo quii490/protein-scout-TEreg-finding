@@ -54,6 +54,37 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 4. PMID 38474353: Frachon N, Demaretz S, Seaayfan E (2024 Feb 24). "AUP1 Regulates the Endoplasmic Reticulum-Associated Degradation and Polyubiquitination of NKCC2.." *Cells*.
 5. PMID 29902443: Zhang J, Lan Y, Li MY (2018 Jun 13). "Flaviviruses Exploit the Lipid Droplet Protein AUP1 to Trigger Lipophagy and Drive Virus Production.." *Cell host & microbe*.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NDN | BioGRID | 0 |
+| ILK | BioGRID | 0 |
+| ATG12 | BioGRID | 0 |
+| UBE2G2 | BioGRID | 0 |
+| KPTN | BioGRID | 0 |
+| ITGA2B | BioGRID | 0 |
+| ITGA1 | BioGRID | 0 |
+| ITGA2 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### PubMed
+
+**Count: 50**
+
+| PMID | Title |
+|---|---|
+| 41989348 | A Novel Role of the Ubiquitin Conjugating Enzyme, UBE2G2, in Regulation of Cell Shape and Movement. |
+| 41897862 | Transcriptomic Analysis of High and Low Lipid Droplet Deposition Subpopulations of Chicken Preadipocytes Based on SSC Sorting. |
+| 41178343 | Cyclometalated Gold(III)-Mediated Cysteine Arylation: A Bioorthogonal Platform for Covalent Targeting of Intrinsically Disordered Proteins. |
+| 40632914 | Gold-Dithiocarbamato Glycoconjugates as Potential Anticancer Agents: Design, Physico-Chemical Characterization, and In Vitro Biological Activity. |
+| 40534859 | Integrated machine learning and single-cell analysis reveal the prognostic and therapeutic potential of SUMOylation-related genes in ovarian cancer. |
+
+
 ### 5. AlphaFold 结构预测
 
 | 平均 pLDDT | 79.5 |

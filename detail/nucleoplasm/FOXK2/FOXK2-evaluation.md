@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | FOXK2 |
+| 蛋白名称 | Forkhead box protein K2 |
 | 蛋白大小 | 660 aa |
 | UniProt ID | Q01167 (Forkhead box protein K2) |
 | 评估日期 | 2026-05-30 |
@@ -166,6 +167,34 @@ status: scored
 - [ ] 通过 co-IP/MS 验证 PPI 网络
 - [ ] ChIP-seq 检查 FOXK2 在 TE 区域的 occupancy
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ASXL2 | STRING | 968 |
+| SIN3A | STRING | 947 |
+| ASXL1 | STRING | 942 |
+| BAP1 | STRING | 941 |
+| HCFC1 | STRING | 930 |
+| KDM1B | STRING | 832 |
+| OGT | STRING | 782 |
+| RBBP7 | STRING | 731 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/27523/219_C12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/27523/219_C12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/27523/218_C12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/27523/218_C12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/27523/220_C12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/27523/220_C12_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q01167
 - Protein Atlas: https://www.proteinatlas.org/search/FOXK2
@@ -177,9 +206,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[FOXK2-PAE.png]]
 

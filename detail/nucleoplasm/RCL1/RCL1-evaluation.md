@@ -51,6 +51,24 @@ status: scored
 
 RCL1 is 373 amino acids, well within the ideal range for experimental characterization. Size score: 10/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| UTP18 | STRING | 999 |
+| BYSL | STRING | 999 |
+| IMP4 | STRING | 999 |
+| UTP4 | STRING | 999 |
+| BMS1 | STRING | 999 |
+| WDR43 | STRING | 999 |
+| UTP20 | STRING | 998 |
+| UTP6 | STRING | 998 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

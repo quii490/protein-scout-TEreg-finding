@@ -184,6 +184,20 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] SRP68-NCL 相互作用的实验验证
 - [ ] 探索核仁 SRP68 是否协调 rRNA 转录与蛋白质转位
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SRP14 | STRING | 999 |
+| SRP54 | STRING | 999 |
+| SRP72 | STRING | 999 |
+| SRP19 | STRING | 999 |
+| RPL3 | STRING | 959 |
+| RPL23A | STRING | 953 |
+| RPL18A | STRING | 935 |
+| RPL8 | STRING | 930 |
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9UHB9
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9UHB9
@@ -194,9 +208,9 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[SRP68-PAE.png]]
 

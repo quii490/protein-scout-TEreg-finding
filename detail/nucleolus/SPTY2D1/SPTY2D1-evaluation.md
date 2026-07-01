@@ -121,7 +121,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 | RRP8 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
 | RPL18 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
 | PLEKHO1 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
-| KBTBD7 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
+| KB暂无数据7 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
 | MAGEB10 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
 | RPS14 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
 | NIFK | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
@@ -167,6 +167,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| HIST1H4H | STRING | 935 |
+| HIST2H4 | STRING | 904 |
+| HIST1H4L | STRING | 904 |
+| SCAF4 | BioGRID | 1 |
+| NPM1 | BioGRID | 1 |
+| ZBTB38 | BioGRID | 1 |
+| SNIP1 | BioGRID | 1 |
+| ZRSR2 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q68D10

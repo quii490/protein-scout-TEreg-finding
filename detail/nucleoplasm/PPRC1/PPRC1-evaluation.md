@@ -148,6 +148,24 @@ UniProt + GO 核定位互证 (+1)
 - [ ] 基于 PPI 网络开展功能研究
 - [ ] 结构分析: 基于 AlphaFold 的突变设计
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NRF1 | STRING | 937 |
+| HCFC1 | STRING | 899 |
+| TFAM | STRING | 872 |
+| CRNKL1 | STRING | 844 |
+| CRN | STRING | 844 |
+| CDC5L | STRING | 836 |
+| PRPF19 | STRING | 834 |
+| XAB2 | STRING | 831 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=PPRC1
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000148840-PPRC1
@@ -160,9 +178,9 @@ UniProt + GO 核定位互证 (+1)
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[PPRC1-PAE.png]]
 

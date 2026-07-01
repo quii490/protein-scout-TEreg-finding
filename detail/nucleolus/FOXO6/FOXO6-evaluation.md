@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | FOXO6 / — |
+| 蛋白名称 | Forkhead box protein O6 |
 | 蛋白全名 | Forkhead box protein O6 |
 | 蛋白大小 | 492 aa / 50.6 kDa |
 | UniProt ID | A8MYZ6 |
@@ -85,6 +86,24 @@ PPI 网络中等，以 AKT 信号通路和 FOXO 家族成员为主。IntAct 确�
 
 ### 4. 总体评价
 FOXO6 是本批次评分最低的候选（36.1/100）。核心弱点：核定位证据为纯计算推断（无实验验证，且无 nucleolus 注释）、AF 置信度极低（mean pLDDT 56.7，近 50% 残基 <50）、文献量偏高（PM=84）、无 PDB 实验结构。少数优势：Forkhead 转录因子结构域功能明确、AKT-14-3-3 调控通路清晰、FOXO 家族功能框架成熟可借鉴。然而，缺少实验定位验证、结构预测差、文献热度高，综合不建议优先研究。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| AKT1 | STRING | 861 |
+| FOXO4 | STRING | 716 |
+| FOXO3 | BioGRID | 1 |
+| EPC1 | BioGRID | 1 |
+| FOXR2 | BioGRID | 1 |
+| DMAP1 | BioGRID | 1 |
+| ACTL6A | BioGRID | 1 |
+| YEATS4 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/A8MYZ6

@@ -157,6 +157,26 @@ status: scored
 - [ ] 分析 EBF4 在 TE 调控中的可能角色
 - [ ] 检查是否有已发表的 ChIP-seq 数据
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| APP | BioGRID | 1 |
+| CDK6 | BioGRID | 1 |
+| LNX1 | BioGRID | 0 |
+| DDX58 | BioGRID | 0 |
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/40265/456_D2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40265/456_D2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40265/454_D2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40265/454_D2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40265/451_D2_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40265/451_D2_4_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: Q9BQW3 (https://www.uniprot.org/uniprotkb/Q9BQW3)
 - AlphaFold: AF-Q9BQW3-F1 v6 (https://alphafold.ebi.ac.uk/entry/Q9BQW3)
@@ -170,9 +190,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[EBF4-PAE.png]]
 

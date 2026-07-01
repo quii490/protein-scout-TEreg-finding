@@ -86,6 +86,24 @@ PPI 网络以基础转录机器（GTF2B/GTF2A1/GTF2A2/TBP/TAFs）为核心，实
 ### 4. 总体评价
 TBPL1 是一个文献量极低（strict=16）、结构预测可靠（pLDDT 95.0）、蛋白小型（20.9 kDa）的转录因子候选。作为 TBP 家族中独立于 TATA box 的 ribosomal protein gene 特异转录因子，其功能新颖且有区分度。优势：极高结构预测置信度、PPI 网络丰富且实验验证充分（GTF2A1/GTF2B 等）。主要不足：无 PDB 实验结构，核定位 UniProt/GO-CC 证据偏弱（依赖同源推断），但 HPA Supported 定位 + 功能逻辑强烈支持核定位。综合评分在 nucleoplasm 类别中具有竞争力。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| GTF2B | STRING | 996 |
+| GTF2A1 | STRING | 993 |
+| GTF2A2 | STRING | 976 |
+| TBP | STRING | 941 |
+| TBPL2 | STRING | 938 |
+| NFYA | STRING | 917 |
+| XBP1 | STRING | 912 |
+| KBF2 | STRING | 908 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P62380
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/P62380

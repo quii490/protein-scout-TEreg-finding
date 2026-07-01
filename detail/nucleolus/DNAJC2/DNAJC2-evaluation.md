@@ -163,6 +163,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| HSPA14 | STRING | 998 |
+| HSPA4 | STRING | 986 |
+| HSPA8 | STRING | 951 |
+| DNAJB4 | STRING | 865 |
+| ZC3H15 | STRING | 844 |
+| RPL31 | STRING | 820 |
+| HSPA1L | STRING | 812 |
+| HSPA1A | STRING | 806 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q99543
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000105821-DNAJC2/subcellular

@@ -173,6 +173,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| GSC | STRING | 954 |
+| CACTIN | STRING | 922 |
+| XAB2 | STRING | 903 |
+| CDC5L | STRING | 902 |
+| PRPF8 | STRING | 901 |
+| FAM32A | STRING | 867 |
+| DHX8 | STRING | 837 |
+| SLU7 | STRING | 833 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/54382/885_C10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/54382/885_C10_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/54382/869_C10_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/54382/869_C10_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/54382/849_C10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/54382/849_C10_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9GZU8
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000172775-PSME3IP1/subcellular

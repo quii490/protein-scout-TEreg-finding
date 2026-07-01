@@ -163,52 +163,38 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q9UKJ3
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000186566-GPATCH8/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=GPATCH8
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9UKJ3
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nuclear speckles (approved)。来源: https://www.proteinatlas.org/ENSG00000186566-GPATCH8/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TERF2 | BioGRID | 0 |
+| ATXN1 | BioGRID | 0 |
+| ATXN1L | BioGRID | 0 |
+| APH1A | BioGRID | 0 |
+| NUMBL | BioGRID | 0 |
+| CLK3 | BioGRID | 0 |
+| TP53 | BioGRID | 0 |
+| BMI1 | BioGRID | 0 |
 
-![](https://images.proteinatlas.org/44380/605_D10_2_red_green.jpg)
-![](https://images.proteinatlas.org/44380/605_D10_3_red_green.jpg)
-![](https://images.proteinatlas.org/44380/606_D10_1_red_green.jpg)
-![](https://images.proteinatlas.org/44380/606_D10_2_red_green.jpg)
-![](https://images.proteinatlas.org/44380/608_D10_1_red_green.jpg)
-![](https://images.proteinatlas.org/44380/608_D10_2_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q9UKJ3-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/GPATCH8
+
+### PubMed
+
+**Count: 9**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q9UKJ3 |
-| SMART | SM00443; |
-| UniProt Domain [FT] | DOMAIN 40..86; /note="G-patch"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00092" |
-| InterPro | IPR000467;IPR052445;IPR036236;IPR013087; |
-| Pfam | PF01585; |
+| 40694934 | Gonadal sex differentiation in Eleutheronema tetradactylum: Histological features and transcriptomic insights from mature gonads. |
+| 39062728 | Hepatopancreas Transcriptome Analysis of Spinibarbus sinensis to Reveal Different Growth-Related Genes. |
+| 38762373 | (G)Patching up mis-splicing in cancer. |
+| 38688280 | GPATCH8 modulates mutant SF3B1 mis-splicing and pathogenicity in hematologic malignancies. |
+| 37474895 | Identification of the susceptible genes and mechanism underlying the comorbid presence of coronary artery disease and rheumatoid arthritis: a network  |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000186566-GPATCH8/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| RNPS1 | Intact, Biogrid | true |
-| BRD4 | Biogrid | false |
-| CAMKV | Biogrid | false |
-| CLK3 | Biogrid | false |
-| EPB41L3 | Biogrid | false |
-| MYC | Biogrid | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -168,6 +168,20 @@ AKIRIN1属于Akirin家族，无已知Pfam功能域。作为分子adaptor，其�
 
 PPI网络高度集中于蛋白酶体(PSMA5/PSMB3/PSMB9/PSMA2)和核转运(RAN)，与Akirin家族保守的蛋白酶体调控功能一致。但值得注意的是，文献明确指出AKIRIN1(不同于AKIRIN2)不参与蛋白酶体核转运(PubMed:34711951)，暗示其蛋白酶体互作可能服务于不同功能——如在染色质上介导特定底物的泛素化降解。USP7(deubiquitinase)的直接互作进一步支持其泛素信号调控角色。**评分: 6/10** (PPI集中于蛋白酶体但实验证据扎实)。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| AKIRIN2 | STRING | 849 |
+| ELAVL1 | BioGRID | 1 |
+| RAN | BioGRID | 1 |
+| TRIM25 | BioGRID | 1 |
+| HNRNPL | BioGRID | 1 |
+| HNRNPF | BioGRID | 1 |
+| CSNK1A1 | BioGRID | 1 |
+| ZBTB2 | BioGRID | 1 |
+
+
 ### 5. Rescue Decision
 
 **决策: RESCUED TO SCORED**
@@ -182,6 +196,25 @@ PPI网络高度集中于蛋白酶体(PSMA5/PSMB3/PSMB9/PSMA2)和核转运(RAN)�
 **修正后加权总分**: 121/180 (67.2/100)。
 
 **AKIRIN1应进入scored蛋白列表**。尽管蛋白大小和结构质量偏弱，但其纯核定位(Approved HPA) + chromatin GO注释 + 极度新颖 + 实验PPI集中于核功能蛋白的组合使其成为TE调控研究的有趣候选——特别是如果其chromatin注释反映了在特定基因组区域(如TE位点)的富集。
+
+### ESM 结构预测补充 (ESMFold Analysis)
+
+**方法**: 使用 Meta ESM Metagenomic Atlas API 对全长蛋白序列进行 ab initio 折叠预测。
+**PDB 文件**: `detail/_esm_structures/AKIRIN1_esmfold.pdb`
+
+| 指标 | 数值 |
+|---|---|
+| ESMFold 平均 pLDDT | 0.62 |
+| pLDDT > 0.9 占比 | 0.5% |
+| pLDDT < 0.5 占比 | 23.4% |
+| 建模残基数 | 192 |
+
+**与 AlphaFold 对比**:
+
+无 AlphaFold 数据可对比。ESMFold 提供独立的从头折叠验证。
+
+ESMFold 基于进化规模语言模型，对序列空间进行无 MSA 搜索的从头折叠，可作为 AlphaFold 的独立验证和补充。
+
 
 ### 6. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9H9L7

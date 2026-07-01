@@ -177,6 +177,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| FANCD2 | STRING | 999 |
+| MLH1 | STRING | 997 |
+| FANCI | STRING | 995 |
+| PMS2 | STRING | 992 |
+| PMS1 | STRING | 961 |
+| SLX4 | STRING | 865 |
+| SLX1A | STRING | 850 |
+| DCLRE1A | STRING | 830 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9Y2M0
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000198690-FAN1/subcellular

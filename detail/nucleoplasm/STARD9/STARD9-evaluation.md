@@ -169,6 +169,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SVIL | BioGRID | 1 |
+| PPP1CC | BioGRID | 1 |
+| MCL1 | BioGRID | 1 |
+| TRIM25 | BioGRID | 1 |
+| BIRC3 | BioGRID | 1 |
+| HNRNPA1L2 | BioGRID | 1 |
+| HNRNPA2B1 | BioGRID | 1 |
+| HNRNPA3 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9P2P6
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000159433-STARD9/subcellular

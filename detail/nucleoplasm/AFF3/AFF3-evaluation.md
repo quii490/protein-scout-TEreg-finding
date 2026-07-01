@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | AFF3 / LAF4 (Lymphoid nuclear protein related to AF4) |
+| 蛋白名称 | AF4/FMR2 family member 3 |
 | 蛋白大小 | 1226 aa / ~135 kDa |
 | UniProt ID | P51826 |
 | 全称 | AF4/FMR2 family member 3 (ALF transcription elongation factor 3) |
@@ -211,6 +212,34 @@ AF-4 域在 AlphaFold 中预测为无序状态，可能具有条件性折叠（c
 - [ ] ChIP-seq 确定 AFF3 在基因组上的结合位点，验证直接染色质结合
 - [ ] 通过 IDR 截短实验研究无序区域在 DNA 结合和 SEC 组装中的角色
 - [ ] 研究 AFF3 核体定位的功能（与其他核体蛋白如 PML/SP100 的共定位）
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MLLT3 | STRING | 964 |
+| MLLT1 | STRING | 959 |
+| CDK9 | STRING | 947 |
+| EAF1 | STRING | 900 |
+| AFF4 | STRING | 835 |
+| ELL | STRING | 834 |
+| MEN | STRING | 834 |
+| ELL2 | STRING | 782 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 实验数据，可能在基因组水平参与 TE 调控。建议分析 ChIP 峰在 TE 区域的富集情况。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/53379/826_C3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/53379/826_C3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/53379/819_C3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/53379/819_C3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/53379/809_C3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/53379/809_C3_2_blue_red_green.jpg)
+
 
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=AFF3

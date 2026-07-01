@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | BAG5 / KIAA0873 |
+| 蛋白名称 | BAG family molecular chaperone regulator 5 |
 | 蛋白全名 | BAG family molecular chaperone regulator 5 |
 | 蛋白大小 | 447 aa / 51.2 kDa |
 | UniProt ID | Q9UL15 (BAG5_HUMAN) |
@@ -53,6 +54,37 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 3. PMID 39788499: Pan Q, Hu X, Guo K (2024 Jul 28). "Beta-amyloid protein regulates miR-15a and activates Bag5 to influence neuronal apoptosis in Alzheimer's disease.." *Zhong nan da xue xue bao. Yi xue ban = Journal of Central South University. Medical sciences*.
 4. PMID 35821856: Gupta MK, Randhawa PK, Masternak MM (2022). "Role of BAG5 in Protein Quality Control: Double-Edged Sword?." *Frontiers in aging*.
 5. PMID 33137395: Zou Z, Zheng Q, Cai J (2021 Mar). "Identification of BAG5 from orange-spotted grouper (Epinephelus coioides) involved in viral infection.." *Developmental and comparative immunology*.
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| HSPA8 | STRING | 979 |
+| HSPA4 | STRING | 960 |
+| HSPA1B | STRING | 956 |
+| HSPA1A | STRING | 956 |
+| STUB1 | STRING | 919 |
+| BAG1 | STRING | 918 |
+| HSPA2 | STRING | 893 |
+| PRKN | STRING | 859 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### PubMed
+
+**Count: 103**
+
+| PMID | Title |
+|---|---|
+| 42324593 | ADAR1-circRAB5A-BIP axis governs radiotherapy resistance in colorectal cancer through coordinating protective autophagy and apoptosis. |
+| 42164124 | Identification of integrated stress response-related prognostic genes in high-grade serous ovarian cancer using Mendelian randomization, single-cell R |
+| 41910470 | Aerobic exercise intervention in Alzheimer's disease: Proteomic insights into peripheral T cell-mediated immune pathways. |
+| 41864562 | Comprehensive S-acylation profiling of the porcine epididymis and exosomes reveals a role in cargo sorting and long-distance trafficking. |
+| 41558067 | HSPA1A-BAG5 chaperone complex promotes spermatogenesis by driving ubiquitination-mediated degradation of ATF2. |
+
 
 ### 5. AlphaFold 结构预测
 

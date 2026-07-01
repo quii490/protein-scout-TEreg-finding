@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | ANHX / Anomalous homeobox protein |
+| 蛋白名称 | Anomalous homeobox protein |
 | 蛋白大小 | 379 aa / ~41.1 kDa |
 | UniProt ID | E9PGG2 |
 | 评估日期 | 2026-05-29 |
@@ -183,6 +184,29 @@ status: scored
 - [ ] 生成特异性抗体，验证核定位和表达模式
 - [ ] ChIP-seq 鉴定 DNA 结合 motif 和靶基因
 - [ ] 探索在早期发育中的功能角色
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
+### ESM 结构预测补充 (ESMFold Analysis)
+
+**方法**: 使用 Meta ESM Metagenomic Atlas API 对全长蛋白序列进行 ab initio 折叠预测。
+**PDB 文件**: `detail/_esm_structures/ANHX_esmfold.pdb`
+
+| 指标 | 数值 |
+|---|---|
+| ESMFold 平均 pLDDT | 0.76 |
+| pLDDT > 0.9 占比 | 41.4% |
+| pLDDT < 0.5 占比 | 4.2% |
+| 建模残基数 | 379 |
+
+**与 AlphaFold 对比**:
+
+无 AlphaFold 数据可对比。ESMFold 提供独立的从头折叠验证。
+
+ESMFold 基于进化规模语言模型，对序列空间进行无 MSA 搜索的从头折叠，可作为 AlphaFold 的独立验证和补充。
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/E9PGG2

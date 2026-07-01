@@ -61,6 +61,24 @@ status: accepted
 
 1050 aa -- large protein, still workable but may require specialized approaches for full-length studies. Score: 7/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SUMO2 | STRING | 959 |
+| SUMO1 | STRING | 931 |
+| RANGAP1 | STRING | 901 |
+| HEL25 | STRING | 855 |
+| CBX5 | STRING | 855 |
+| SUMO3 | STRING | 770 |
+| UBE2I | STRING | 725 |
+| BCL6 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

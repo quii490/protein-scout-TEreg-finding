@@ -171,6 +171,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| FDPS | STRING | 996 |
+| PRPF18 | STRING | 876 |
+| SREBF2 | STRING | 780 |
+| HMGA1 | STRING | 773 |
+| NFYC | STRING | 719 |
+| SREBF1 | STRING | 703 |
+| ACAT2 | STRING | 703 |
+| ATOX1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O95749
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000152904-GGPS1/subcellular

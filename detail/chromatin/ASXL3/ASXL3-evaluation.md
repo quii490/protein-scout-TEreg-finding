@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | ASXL3 / KIAA1713; Putative Polycomb group protein ASXL3; Additional sex combs-like protein 3 |
+| 蛋白名称 | Putative Polycomb group protein ASXL3 |
 | 蛋白大小 | 2248 aa / ~243.7 kDa |
 | UniProt ID | Q9C0F0 (ASXL3_HUMAN) |
 | 评估日期 | 2026-05-29 |
@@ -39,7 +40,7 @@ status: scored
 | Protein Atlas (IF) | 暂无数据（Pending cell analysis） | — |
 | UniProt | Nucleus (ECO:0000305) | Sequence analysis |
 
-**结论**: ASXL3 的 UniProt 标注为 Nucleus，通过序列分析（ECO:0000305）。作为 PR-DUB (Polycomb repressive deubiquitinase) 复合体的核心成员，与 BAP1 形成染色质调控复合体。GO chromatin binding (IBA)。核定位功能推理确凿，但直接 IF 实验证据待补充。
+**结论**: ASXL3 的 UniProt 标注为 Nucleus，通过序列分析（ECO:0000305）。作为 PR-DUB (Polycomb repressive deubiquitinase) 复合体的核心成员，与 BAP1 形成染色质调控复合体。GO chromatin binding (IBA)。核定位功能推理确凿，但直接 IF 实验证据暂无数据。
 
 #### 3.2 蛋白大小评估
 **评价**: 2248 aa，极大蛋白。>2000 aa 导致表达、纯化、结构解析的难度显著增加。但可考虑截短构建（如仅 ASXH 域区域）。
@@ -154,6 +155,24 @@ status: scored
 - [ ] 利用 IDR 区域探索相分离/凝聚体形成能力
 - [ ] ChIP-seq 确认染色质结合谱
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| EZH1 | STRING | 810 |
+| EZH2 | STRING | 810 |
+| ASXL2 | STRING | 786 |
+| BRD4 | STRING | 773 |
+| ASXL1 | STRING | 770 |
+| BAP1 | STRING | 759 |
+| RNF2 | STRING | 759 |
+| CLK1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
 ### 5. 
 ### IF图像状态
 
@@ -177,9 +196,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[ASXL3-PAE.png]]
 

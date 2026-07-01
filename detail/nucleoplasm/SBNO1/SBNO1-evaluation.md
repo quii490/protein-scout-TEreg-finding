@@ -57,6 +57,34 @@ status: accepted
 
 1393 aa -- very large protein, may present challenges for recombinant expression and structural biology. Score: 4/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RIOK1 | STRING | 810 |
+| RIOX1 | STRING | 796 |
+| TRAP1 | STRING | 790 |
+| PBDC1 | BioGRID | 1 |
+| SSRP1 | BioGRID | 1 |
+| RBM25 | BioGRID | 1 |
+| PRMT5 | BioGRID | 1 |
+| SRSF2 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/42388/900_B4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/42388/900_B4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/42388/857_G6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/42388/857_G6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/42388/847_G6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/42388/847_G6_2_blue_red_green.jpg)
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

@@ -176,6 +176,34 @@ status: scored
 - [ ] CRISPR 敲除/敲低表型分析
 - [ ] AlphaFold-Multimer 预测潜在复合体结构
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ELAVL1 | BioGRID | 0 |
+| MMS19 | BioGRID | 0 |
+| LYN | BioGRID | 0 |
+| FAM96B | BioGRID | 0 |
+| CIAO1 | BioGRID | 0 |
+| SPINT2 | BioGRID | 0 |
+| TMEM59 | BioGRID | 0 |
+| TSPAN17 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/52097/855_G6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/52097/855_G6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/52097/822_E1_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/52097/822_E1_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/52097/808_G6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/52097/808_G6_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=TYW1
@@ -189,9 +217,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[TYW1-PAE.png]]
 

@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | API5 / AAC-11, FIF, MIG8, XAGL |
+| 蛋白名称 | Apoptosis inhibitor 5 |
 | 蛋白大小 | 524 aa / ~59.4 kDa |
 | UniProt ID | Q9BZZ5 (API5_HUMAN) |
 | 评估日期 | 2026-05-28 |
@@ -96,6 +97,24 @@ status: scored
 - [ ] 分析 nuclear speckles 定位是否参与 transcription-coupled RNA processing
 - [ ] AlphaFold 折叠域与已知核酸结合域做三维结构比对，寻找潜在 homology
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| POLR2B | STRING | 999 |
+| ACIN1 | STRING | 794 |
+| ZNF146 | STRING | 774 |
+| DHX15 | STRING | 706 |
+| CHD1L | BioGRID | 1 |
+| RAD21 | BioGRID | 1 |
+| ELAVL1 | BioGRID | 1 |
+| DCUN1D1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9BZZ5
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=API5
@@ -109,9 +128,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[API5-PAE.png]]
 

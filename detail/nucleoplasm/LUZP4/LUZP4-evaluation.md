@@ -168,6 +168,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| DDX39B | STRING | 868 |
+| NXF1 | STRING | 790 |
+| DKFZP667O0311 | STRING | 790 |
+| CHTOP | STRING | 787 |
+| SFRS2 | STRING | 763 |
+| SRSF2 | STRING | 763 |
+| THOC5 | STRING | 759 |
+| THOC2 | STRING | 720 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9P127
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000102021-LUZP4/subcellular

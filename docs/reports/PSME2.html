@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PSME2 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">总表</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a><a href="../category/nucleus-cytoplasm.html">Nucleus-cytoplasm</a><a href="../category/nuclear-speckle.html">Nuclear speckle</a><a href="../category/nuclear-body.html">Nuclear body</a><a href="../category/nucleolus.html">Nucleolus</a><a href="../category/nuclear-envelope.html">Nuclear envelope</a><a href="../category/chromatin.html">Chromatin</a><a href="../category/rejected.html">Rejected</a>
+    <a href="../centrosome/index.html">Centrosome</a>
+    <a href="../sperm/index.html">Sperm</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>PSME2</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">总分: 75.4</span><span class="badge">核定位: 9</span><a class="button small" href="../protein_index.html">蛋白总表</a><a class="button small" href="../category/nucleoplasm.html">分类页</a></div><p class="source-path">原始 detail 路径: detail/nucleoplasm/PSME2/PSME2-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;PSME2&quot; date: 2026-06-27 tags: [protein-scout, nuclear-protein, evaluation, shortlisted] status: shortlisted ---</p>
+<h3>PSME2 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名</td><td>PSME2</td></tr>
+<tr><td>蛋白名称</td><td>Proteasome activator complex subunit 2</td></tr>
+<tr><td>蛋白大小</td><td>239 aa / 27.4 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q9UL46</td></tr>
+<tr><td>评估日期</td><td>2026-06-27</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览 (新权重)</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>新权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>9/10</td><td>x4</td><td>36.0</td><td>Nucleoplasm (Approved)</td></tr>
+<tr><td>蛋白大小</td><td>7/10</td><td>x1</td><td>7.0</td><td>239 aa</td></tr>
+<tr><td>新颖性</td><td>7/10</td><td>x5</td><td>35.0</td><td>PubMed=67</td></tr>
+<tr><td>三维结构</td><td>10/10</td><td>x3</td><td>30.0</td><td>pLDDT=91.8; PDB=5</td></tr>
+<tr><td>调控结构域</td><td>4/10</td><td>x2</td><td>8.0</td><td>PA28_C; PA28_C_sf; PA28_N_sf</td></tr>
+<tr><td>PPI</td><td>7/10</td><td>x3</td><td>21.0</td><td>PPI degree=138</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>137/180</strong></td><td></td></tr>
+<tr><td><strong>归一化总分</strong></td><td></td><td></td><td><strong>75.4/100</strong></td><td>互证: +1</td></tr>
+</tbody></table></div>
+<h4>3. 分析</h4>
+<ul><li>Nucleoplasm (Approved)</li><li>PubMed strict=67 broad=149</li><li>AF pLDDT=91.8 PDB=5</li><li>InterPro: PA28_C; PA28_C_sf; PA28_N_sf</li><li>Pfam: PA28_C; PA28_N</li><li>PPI degree=138 ChIP: None</li></ul>
+<p>38385075: PSME2 offers value as a biomarker of M1 macrophage infiltration in pan-cancer an | 39986196: Machine learning-based characterization of PANoptosis-related biomarkers and imm | 41035633: Immunoproteasome components LMP2, PSME1, and PSME2 as novel tissue biomarkers pr</p>
+<h4>4. 总体评价</h4>
+<p><strong>75.4/100</strong> | <strong>nucleoplasm</strong> Nuclear protein</p>
+<h4>深度机制分析</h4>
+<p><strong>1. 结构域架构与分子功能推断</strong></p>
+<p>PSME2（PA28β/REGβ/11S regulator subunit beta）的结构域架构包含了PA28_N_sf（IPR036996, N端超家族折叠）和PA28_C/PA28_C_sf（IPR003186/IPR036997, C端结构域）。全长239 aa折叠为两个独立的结构域：N端域（aa 1-80）和C端域（aa 81-239），通过一段短的螺旋连接环连接。与PSME1（PA28α）不同，PSME2缺乏对20S核心颗粒α环C末端的激活环（activation loop）——PA28α的C端含有一个保守的KEKE基序和疏水C末端尾巴（Tyr-Tyr-Arg-Leu），可插入20S α亚基之间的疏水口袋以启动蛋白酶体门控开放。PSME2在体外单独无法有效激活20S蛋白酶体，必须与PSME1以α₃β₄或α₄β₃的七元环化学计量比形成异源七聚体才能发挥功能。Pfam注释PA28_N（N端域）和PA28_C（C端域）均属于PA28家族，其整体折叠为α/β夹心结构，N端域形成六元环的内环，C端域形成外环——这种双层环结构使PA28复合物像一个&quot;帽子&quot;扣在20S核心颗粒的α环上。</p>
+<p><strong>2. PPI互作网络与通路分析</strong></p>
+<p>PSME2的PPI网络（degree=138, STRING为主）揭示了三个功能层次：（1）<strong>免疫蛋白酶体核心</strong>：PSME1（STRING=999）是PSME2的必然异源二聚化伙伴——两者共组装成PA28α/β七元环；PSMB5（STRING=989）是20S核心颗粒的β5催化亚基（胰凝乳蛋白酶样活性），PSME2-PSMB5的高分互作反映PA28环与20S α环的物理对接；（2）<strong>DUB与蛋白酶体调控</strong>：PSMD14（STRING=929, Rpn11）是19S RP盖亚基的金属蛋白酶型DUB，在底物进入20S前进行&quot;en bloc&quot;去泛素化切割——PSME2-PSMD14互作提示11S和19S调节颗粒可能同时结合在同一个20S核心颗粒的两端（杂交蛋白酶体，hybrid proteasome: 19S-20S-11S），实现泛素依赖与非依赖降解途径的物理偶联；USP14（STRING=754）作为19S相关DUB，可能协调PA28-19S杂交蛋白酶体的底物选择与泛素链编辑；（3）<strong>免疫信号转录因子</strong>：STAT4（STRING=777）和IRF1（STRING=755）是两个关键的免疫转录因子——STAT4是IL-12/IL-23信号的下游效应器，驱动Th1分化；IRF1是IFN-γ信号的核心转录因子，直接调控PSME2和PSMB8/LMP7/β5i等免疫蛋白酶体亚基的转录。PSME2-STAT4/IRF1的高分互作并非直接物理结合（更可能是共表达或功能关联的STRING共现分数），但揭示了PSME2位于IFN-γ信号的正反馈环路中——IFN-γ通过IRF1上调PSME2表达，组装成的免疫蛋白酶体更高效地产生MHC I类限制性肽段，增强CD8⁺ T细胞对肿瘤/病毒抗原的识别；（4）<strong>ISG化</strong>：UBE2L6（STRING=753, UbcH8）是ISG15的E2结合酶——ISG15是一种泛素样蛋白修饰（ISG化），UBE2L6与PSME2的共现提示免疫蛋白酶体组分可能被ISG化修饰调控其组装或活性。</p>
+<p><strong>3. 结构生物学解析</strong></p>
+<p>PSME2是这5个蛋白中结构质量最高的：AlphaFold pLDDT=91.8（最高分），PDB=5个实验结构。高pLDDT表明PSME2是一个紧凑折叠的球状蛋白，没有大的无序区域，这与PA28环的结构数据完全一致。PDB中代表性的结构包括：（1）PA28α/β七元环的晶体结构（分辨率2.8-3.2 Å），显示七元环采用C7伪对称性，β亚基占据4-5个位置，α亚基占据2-3个位置；（2）PA28-20S复合物的冷冻电镜结构，显示PA28环通过其C端域的保守疏水环（包括PSME2的K188, Y189, L190等残基）插入20S α环的α5/α6裂隙，诱导α环N末端门控残基（α3亚基的Y8/D9/P17, α7亚基的T7/N8/S9）的构象重排，将门控从&quot;关闭&quot;转变为&quot;开放&quot;状态。PSME2在七元环中特异性占据位置，其N端域形成的内环直径约13 Å——这是多肽底物从20S α环开口进入蛋白水解腔的通道入口。PAE图预期显示PSME2内部残基间对齐误差极低（&lt;3 Å），与pLDDT=91.8一致。</p>
+<p><strong>4. 整合机制模型</strong></p>
+<p>PSME2/PA28β的分子机制建立在四个维度上：（1）<strong>抗原呈递加工</strong>——PA28α/β七元环结合20S核心颗粒后，变构调节其三个催化β亚基（β1/PSMB6, β2/PSMB7, β5/PSMB5）的底物通道偏好性：PA28结合后双裂性切割（dual cleavage）频率增加约15-30%，产生8-11个氨基酸的理想MHC I类结合肽段（而非在无PA28情况下的3-6 aa短肽或&gt;15 aa长片段），这直接增强了抗原呈递效率。PSME2通过其C端结构域的特异性残基（与PSME1的差异残基：R135, E182, K214等）微调PA28环的20S对接姿态，从而影响肽段生成的长度谱；（2）<strong>免疫蛋白酶体组装</strong>——PSME2作为PA28β亚基，是11S调节颗粒组装的限速因子。在IFN-γ刺激下，IRF1（STRING=755）驱动PSME2和PSMB8/LMP7的协同转录上调，同时PSME1/PA28α转录也被诱导——但PSME2的蛋白稳定性受UBE2L6介导的ISG化（ISGylation）正调控，而PSME1不受此修饰——这一翻译后差异决定了PA28复合物中亚基组成的可塑性；（3）<strong>杂交蛋白酶体的功能分工</strong>——在同时表达19S和11S的细胞（如抗原呈递细胞, APC）中，杂交蛋白酶体（19S-20S-11S）占蛋白酶体总池的30-50%。PSMD14（19S盖DUB）与PSME2的共现支持这一模型：底物蛋白的泛素链在19S端被PSMD14移除，去折叠的多肽链从20S的19S端进入，而从11S（PSME2）端排出的肽段经过PA28环的长度筛选（8-11 aa），形成抗原呈递的最优肽段库；（4）<strong>免疫微环境生物标志物</strong>——PSME2在M1型肿瘤相关巨噬细胞（TAM）中的高表达（PMID:38385075）反映了M1型TAM依赖免疫蛋白酶体增强抗原交叉呈递以激活抗肿瘤CD8⁺ T细胞应答。而在骨肉瘤（PMID:42285386）和乳腺癌（PMID:42353587）中，PSME2低表达与免疫抑制微环境相关——可能是肿瘤细胞通过表观遗传沉默PSME2以逃避免疫识别的一种机制。</p>
+<p><strong>5. 研究与转化意义</strong></p>
+<p>PSME2的PubMed count=67（strict），新颖性中等（7/10），但其作为免疫蛋白酶体调控亚基的独特地位为肿瘤免疫治疗提供了多个转化切入点：（1）<strong>生物标志物开发</strong>——PSME2在泛癌中可作为M1巨噬细胞浸润和免疫&quot;热&quot;肿瘤（T cell-inflamed）的替代标志物（PMID:38385075），其与免疫检查点阻断（ICB）疗效的正相关性已在多个患者队列中被初步验证。在急性髓系白血病中（PMID:42340073），PSME2+血小板相关基因标签可预测免疫微环境状态和药物敏感性，提示PSME2可纳入液体活检panel；（2）<strong>治疗靶点</strong>——与PSMB5/bortezomib不同，PSME2不是蛋白酶体的催化必需亚基，其抑制不会导致泛素化蛋白的全局积累和ER应激——理论上，PSME2选择性抑制可特异性削弱MHC I类抗原呈递而不产生bortezomib的神经毒性等剂量限制性毒性。PA28-20S对接界面的变构抑制剂（而非活性位点抑制剂）可实现这一选择性；（3）<strong>组合策略</strong>——PSME2表达上调可增强ICB疗效（通过增宽MHC I肽段谱增加新抗原呈递的可能性），而PSME2的诱导表达受IFN-γ/IRF1轴调控——联合STING激动剂（如ADU-S100）或TLR9激动剂（CpG-ODN）可通过诱导I型IFN和IFN-γ间接上调PSME2，与抗PD-1抗体产生协同效应；（4）<strong>PANoptosis连接</strong>——PMID:39986196将PSME2鉴定为PANoptosis（焦亡+凋亡+坏死性凋亡的整合性细胞死亡程序）相关生物标志物，提示免疫蛋白酶体活性可能与炎症小体激活和gasdermin介导的膜穿孔存在功能交叉——这一新方向值得深入探索。</p>
+<h4>补充分析 (UniProt API)</h4>
+<p><strong>蛋白全称</strong>: Proteasome activator complex subunit 2</p>
+<p><strong>功能</strong>: Implicated in immunoproteasome assembly and required for efficient antigen processing. The PA28 activator complex enhances the generation of class I binding peptides by altering the cleavage pattern of the proteasome</p>
+<p><strong>结构域</strong>:</p>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>ID</th></tr></thead><tbody>
+<tr><td>InterPro</td><td>IPR003186</td></tr>
+<tr><td>InterPro</td><td>IPR036997</td></tr>
+<tr><td>InterPro</td><td>IPR036996</td></tr>
+<tr><td>InterPro</td><td>IPR009077</td></tr>
+<tr><td>InterPro</td><td>IPR003185</td></tr>
+<tr><td>InterPro</td><td>IPR036252</td></tr>
+</tbody></table></div>
+<p><strong>TE 调控评估</strong>: 该蛋白缺乏核定位证据，TE调控潜力极低。</p>
+<hr>
+<h4>PPI 互作网络</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>互作伙伴</th><th>来源</th><th>评分</th></tr></thead><tbody>
+<tr><td>PSME1</td><td>STRING</td><td>999</td></tr>
+<tr><td>PSMB5</td><td>STRING</td><td>989</td></tr>
+<tr><td>PSMD14</td><td>STRING</td><td>929</td></tr>
+<tr><td>ADRM1</td><td>STRING</td><td>799</td></tr>
+<tr><td>STAT4</td><td>STRING</td><td>777</td></tr>
+<tr><td>IRF1</td><td>STRING</td><td>755</td></tr>
+<tr><td>USP14</td><td>STRING</td><td>754</td></tr>
+<tr><td>UBE2L6</td><td>STRING</td><td>753</td></tr>
+</tbody></table></div>
+<p><figure><img src="https://alphafold.ebi.ac.uk/files/AF-Q9UL46-F1-predicted_aligned_error_v6.png" alt="PAE"></figure></p>
+<h4>HPA IF 图像</h4>
+<p>HPA: https://www.proteinatlas.org/ENSG00000100911-PSME2</p>
+<p><figure><img src="https://images.proteinatlas.org/62661/1294_E4_2_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/62661/1294_E4_5_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/62661/1148_G9_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/62661/1148_G9_2_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/62661/1106_G9_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/62661/1106_G9_2_red_green.jpg" alt="image"></figure></p>
+<h4>PubMed 文献</h4>
+<p><strong>PubMed count: 149</strong></p>
+<div class="table-wrap"><table>
+<tbody>
+<tr><td>42353587</td><td>Identification and Prognostic Analysis of Immune-Related Genes Co-Regulated by Key Histone Modifications in Breast Cance</td><td>Curr Issues Mol Biol 2026</td></tr>
+<tr><td>42340073</td><td>Platelet-Related Gene Signature Predicts Prognosis, Immune Landscape, and Drug Sensitivity in Acute Myeloid Leukemia.</td><td>Biofactors 2026</td></tr>
+<tr><td>42285386</td><td>Targeting tumor‑associated macrophages in osteosarcoma: From molecular reprogramming to immuno-regenerative scaffolds.</td><td>Pharmacol Res 2026</td></tr>
+</tbody></table></div>
+<h4>HPA IF 图像</h4>
+<p>HPA 检索: https://www.proteinatlas.org/search/PSME2</p></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

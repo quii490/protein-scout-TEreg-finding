@@ -176,6 +176,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SIX1 | STRING | 996 |
+| SIX4 | STRING | 946 |
+| AREC3 | STRING | 946 |
+| SIX2 | STRING | 940 |
+| PAX3 | STRING | 877 |
+| DACH2 | STRING | 800 |
+| DACH1 | STRING | 798 |
+| MYF4 | STRING | 761 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/59291/2064_C8_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/59291/2064_C8_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/59291/1147_F11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/59291/1147_F11_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/59291/1100_B8_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/59291/1100_B8_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O00167
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000064655-EYA2/subcellular

@@ -173,6 +173,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NHP2 | STRING | 999 |
+| TERT | STRING | 999 |
+| NOP10 | STRING | 999 |
+| DKC1 | STRING | 999 |
+| GAR1 | STRING | 998 |
+| TEP1 | STRING | 942 |
+| PTGES3 | STRING | 920 |
+| RTEL1 | STRING | 908 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9BUR4
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000141499-WRAP53/subcellular

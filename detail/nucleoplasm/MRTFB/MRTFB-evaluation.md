@@ -154,6 +154,19 @@ status: scored
 - [ ] Co-IP 验证 PPI
 - [ ] 功能实验验证染色质调控角色
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SRF | STRING | 978 |
+| RHOA | STRING | 806 |
+| RBM15 | STRING | 749 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprot/Q9ULH7
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9ULH7
@@ -164,9 +177,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[MRTFB-PAE.png]]
 

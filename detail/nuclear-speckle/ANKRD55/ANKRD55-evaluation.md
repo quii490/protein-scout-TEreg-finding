@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | ANKRD55 / Ankyrin repeat domain-containing protein 55 |
+| 蛋白名称 | Ankyrin repeat domain-containing protein 55 |
 | 蛋白大小 | 614 aa / 68.4 kDa |
 | UniProt ID | Q3KP44 |
 | 评估日期 | 2026-05-29 |
@@ -153,6 +154,24 @@ status: scored
 - [ ] Co-IP/MS 鉴定核内互作伙伴
 - [ ] 在 T 细胞分化模型中敲低/过表达测转录组
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ZSCAN1 | BioGRID | 0 |
+| IFT46 | BioGRID | 0 |
+| TTC30B | BioGRID | 0 |
+| TTC30A | BioGRID | 0 |
+| IFT74 | BioGRID | 0 |
+| IFT52 | BioGRID | 0 |
+| HIF1AN | BioGRID | 0 |
+| TRIP6 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
 ### 5. 数据来源
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000164512-ANKRD55
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=ANKRD55
@@ -163,9 +182,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[ANKRD55-PAE.png]]
 

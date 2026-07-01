@@ -171,6 +171,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| EXOSC5 | STRING | 999 |
+| EXOSC4 | STRING | 999 |
+| EXOSC7 | STRING | 999 |
+| EXOSC8 | STRING | 999 |
+| EXOSC6 | STRING | 999 |
+| EXOSC1 | STRING | 999 |
+| EXOSC3 | STRING | 999 |
+| EXOSC10 | STRING | 998 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q99547
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000135698-MPHOSPH6/subcellular

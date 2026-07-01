@@ -149,3 +149,13 @@ Source: 未找到 HPA interaction 页面
 
 未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+
+### HPA IF 图像
+
+HPA 检索: https://www.proteinatlas.org/search/RMP64

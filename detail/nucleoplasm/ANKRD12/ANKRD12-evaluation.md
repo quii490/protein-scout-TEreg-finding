@@ -85,3 +85,18 @@ Source: https://www.proteinatlas.org/ENSG00000101745-ANKRD12/interaction
 | HIF1AN | Biogrid | false |
 | TADA3 | Biogrid | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TADA3 | BioGRID | 0 |
+| HDAC3 | BioGRID | 0 |
+| COPS5 | BioGRID | 0 |
+| CDK4 | BioGRID | 0 |
+| CDK6 | BioGRID | 0 |
+| SGPL1 | BioGRID | 0 |
+| GLIPR2 | BioGRID | 0 |
+| PHYHIP | BioGRID | 0 |
+

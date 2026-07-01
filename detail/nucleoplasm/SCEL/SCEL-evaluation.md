@@ -59,6 +59,24 @@ status: accepted
 
 688 aa -- within the ideal range for biochemical, structural, and cell-based approaches. Score: 10/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TXNIP | BioGRID | 0 |
+| APP | BioGRID | 0 |
+| GOLGA2 | BioGRID | 0 |
+| KIFC3 | BioGRID | 0 |
+| NMI | BioGRID | 0 |
+| FXR2 | BioGRID | 0 |
+| MTUS2 | BioGRID | 0 |
+| TSGA10 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

@@ -153,6 +153,10 @@ status: scored
 - [ ] Co-IP 验证 PPI
 - [ ] 功能实验验证染色质调控角色
 
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprot/A0A087WXM9
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/A0A087WXM9
@@ -163,9 +167,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[MEIKIN-PAE.png]]
 

@@ -22,7 +22,7 @@ nuclear_score: 6
 |------|-----|
 | **UniProt ID** | A6QL63 |
 | **Protein Name** | Ankyrin repeat- and BTB/POZ domain-containing protein 3 |
-| **Aliases** | BTBD11 |
+| **Aliases** | B暂无数据11 |
 | **Length** | 1104 aa |
 | **Mass** | 120.9 kDa |
 | **AlphaFold mean pLDDT** | 71.9 |
@@ -30,7 +30,7 @@ nuclear_score: 6
 | **AlphaFold pLDDT <50** | 25.7% |
 | **PubMed (strict)** | 1 |
 | **PubMed (broad)** | 2 |
-| **Function** | Cortical and hippocampal inhibitory interneuron-specific protein localized at glutamatergic (excitatory) synapses, where it supports cell type-specific synaptic function. Known primarily under the alias BTBD11. |
+| **Function** | Cortical and hippocampal inhibitory interneuron-specific protein localized at glutamatergic (excitatory) synapses, where it supports cell type-specific synaptic function. Known primarily under the alias B暂无数据11. |
 
 ## 2. 核定位证据
 
@@ -76,11 +76,11 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 **Key Papers (under ABTB3):**
 - PMID:40564278 -- "Genome-Wide Association Analysis of Flavor Precursor Traits in Chengkou Mountain Chicken" (Animals, 2025). GWAS study -- ABTB3 appears as a locus, not functionally studied.
 
-**Note on alias**: ABTB3 is also known as **BTBD11**. Searching under BTBD11 would likely recover additional literature, including the synaptic function characterization. The BTBD11 alias was not searched in this harvest.
+**Note on alias**: ABTB3 is also known as **B暂无数据11**. Searching under B暂无数据11 would likely recover additional literature, including the synaptic function characterization. The B暂无数据11 alias was not searched in this harvest.
 
-**Research Volume Assessment**: Essentially no literature under the ABTB3 name (1-2 papers, neither functionally characterizing the protein). The alias BTBD11 is the more established name. This gene symbol change (BTBD11 to ABTB3) is recent and has fragmented the literature. The known function (interneuron-specific synaptic protein) comes from BTBD11 studies.
+**Research Volume Assessment**: Essentially no literature under the ABTB3 name (1-2 papers, neither functionally characterizing the protein). The alias B暂无数据11 is the more established name. This gene symbol change (B暂无数据11 to ABTB3) is recent and has fragmented the literature. The known function (interneuron-specific synaptic protein) comes from B暂无数据11 studies.
 
-**Aliases observed**: BTBD11
+**Aliases observed**: B暂无数据11
 
 ## 5. AlphaFold / PAE / PDB
 
@@ -115,7 +115,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 | PF00651 | BTB/POZ domain |
 | PF26281 | - |
 
-**Domain Assessment**: ABTB3 has the same domain architecture as ABTB2: BTB/POZ + ankyrin repeats. The domains are nearly identical (same Pfam and InterPro entries). As with ABTB2, the BTB/POZ domain is mechanistically compatible with CUL3 adaptor function and potential nuclear roles. However, the known synaptic function (from BTBD11 literature) suggests a primarily membrane/synaptic role for this paralog.
+**Domain Assessment**: ABTB3 has the same domain architecture as ABTB2: BTB/POZ + ankyrin repeats. The domains are nearly identical (same Pfam and InterPro entries). As with ABTB2, the BTB/POZ domain is mechanistically compatible with CUL3 adaptor function and potential nuclear roles. However, the known synaptic function (from B暂无数据11 literature) suggests a primarily membrane/synaptic role for this paralog.
 
 Note that ABTB3 has an additional ABTB3-specific InterPro entry (IPR047824), distinguishing it from ABTB2 at the domain level.
 
@@ -164,7 +164,7 @@ Packet data analysis (fresh harvest) vs report claims:
 | HPA main | Nucleoplasm (Supported) | (empty — no HPA data in packet) | ❌ |
 | UniProt | Not specified | Membrane (ECO:0000305) | ❌ |
 | GO-CC | Not specified | 0 nuclear terms | ❌ |
-| Known function | BTBD11 synaptic protein | Synaptic/interneuron | ❌ |
+| Known function | B暂无数据11 synaptic protein | Synaptic/interneuron | ❌ |
 | PubMed | 1 paper | 0 (packet strict) | ❌ |
 
 **Conclusion**: ABTB3 packet data provides ZERO nuclear evidence. The report's claim of HPA Nucleoplasm with Supported reliability is not reproducible from the harvest packet. UniProt annotates Membrane, GO-CC has no nuclear terms, and known function is synaptic. The nuclear=3 score from the report overestimates the actual evidence.
@@ -185,7 +185,7 @@ Packet data analysis (fresh harvest) vs report claims:
 | HPA main | Nucleoplasm (Supported) | (empty — no HPA data in packet) | ❌ |
 | UniProt | Not specified | Membrane (ECO:0000305) | ❌ |
 | GO-CC | Not specified | 0 nuclear terms | ❌ |
-| Known function | BTBD11 synaptic protein | Synaptic/interneuron | ❌ |
+| Known function | B暂无数据11 synaptic protein | Synaptic/interneuron | ❌ |
 | PubMed | 1 paper | 0 (packet strict) | ❌ |
 
 **Conclusion**: ABTB3 packet data provides ZERO nuclear evidence. The report's claim of HPA Nucleoplasm with Supported reliability is not reproducible from the harvest packet. UniProt annotates Membrane, GO-CC has no nuclear terms, and known function is synaptic. The nuclear=3 score from the report overestimates the actual evidence.
@@ -199,7 +199,7 @@ Packet data analysis (fresh harvest) vs report claims:
 
 **SCORED: 34/100 -- WEAK CANDIDATE, LOW CONFIDENCE**
 
-ABTB3 has the lowest score in this re-evaluation set. The case for nuclear localization is thin: HPA says Nucleoplasm (Supported) but is directly contradicted by UniProt (Membrane) and the known synaptic function. The protein is a characterized interneuron-specific synaptic protein under the alias BTBD11. While the BTB/POZ domain is compatible with nuclear function (CUL3 adaptor), the experimental evidence strongly points to a synaptic membrane role.
+ABTB3 has the lowest score in this re-evaluation set. The case for nuclear localization is thin: HPA says Nucleoplasm (Supported) but is directly contradicted by UniProt (Membrane) and the known synaptic function. The protein is a characterized interneuron-specific synaptic protein under the alias B暂无数据11. While the BTB/POZ domain is compatible with nuclear function (CUL3 adaptor), the experimental evidence strongly points to a synaptic membrane role.
 
 **Strengths**:
 - HPA Supported nucleoplasmic localization
@@ -215,13 +215,13 @@ ABTB3 has the lowest score in this re-evaluation set. The case for nuclear local
 - Essentially zero literature under ABTB3 name
 - No IF display images
 - No PDB structures
-- Known function (BTBD11) is synaptic, not nuclear
+- Known function (B暂无数据11) is synaptic, not nuclear
 
 **Recommendation**: This is the weakest candidate in the set and the closest to being a legitimate rejection. The HPA nuclear annotation contradicts both the UniProt annotation and the established functional characterization. However, other BTB proteins are known to have dual cytoplasmic/nuclear functions, and the protein has not been specifically studied for nuclear localization. Retain at lowest priority with a strong recommendation for validation before any functional follow-up.
 
 ## 10. Manual Review Note
 
-The original Excel classified ABTB3 as HPA="Nucleoli|Nucleoplasm" with nuclear_score=6. The actual HPA data shows only "Nucleoplasm" (no Nucleoli). More critically, ABTB3 is a known synaptic protein (BTBD11) characterized as "cortical and hippocampal inhibitory interneuron-specific" with localization at glutamatergic synapses. The HPA nuclear annotation may reflect the antibody detecting the protein in the cell body (where the nucleus resides) rather than true nuclear enrichment.
+The original Excel classified ABTB3 as HPA="Nucleoli|Nucleoplasm" with nuclear_score=6. The actual HPA data shows only "Nucleoplasm" (no Nucleoli). More critically, ABTB3 is a known synaptic protein (B暂无数据11) characterized as "cortical and hippocampal inhibitory interneuron-specific" with localization at glutamatergic synapses. The HPA nuclear annotation may reflect the antibody detecting the protein in the cell body (where the nucleus resides) rather than true nuclear enrichment.
 
 **Re-evaluator's note**: If the project's goal is to identify genuine nuclear proteins, ABTB3 is probably a false positive from the HPA screen. The protein's established function and interaction network are exclusively synaptic/cytoplasmic. The HPA nuclear annotation, while "Supported," is the only source claiming nuclear localization and is contradicted by functional data. This gene may have been correctly rejected in the original screen, or at minimum should be deprioritized below all other candidates in this set. If retained, manual verification of the HPA IF raw images is essential to determine whether the nucleoplasmic signal is real or represents cell body/perinuclear staining.
 

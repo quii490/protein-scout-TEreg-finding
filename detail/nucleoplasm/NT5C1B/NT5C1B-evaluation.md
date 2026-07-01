@@ -161,6 +161,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NT5C | STRING | 958 |
+| POMP | STRING | 947 |
+| NT5C3 | STRING | 947 |
+| DCK | STRING | 933 |
+| ITPA | STRING | 928 |
+| ADK | STRING | 919 |
+| CMPK2 | STRING | 918 |
+| UMPS | STRING | 915 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/56683/1924_G2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/56683/1924_G2_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/56683/2049_H3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/56683/2049_H3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/56683/2017_G8_5_cr5fca2941c056b_blue_red_green.jpg)
+![](https://images.proteinatlas.org/56683/2017_G8_29_cr5fca2941c0e19_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96P26
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000185013-NT5C1B/subcellular

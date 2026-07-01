@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | CEP162 / C6orf84, KIAA1009, QN1 |
+| 蛋白名称 | Centrosomal protein of 162 kDa |
 | 蛋白大小 | 1403 aa / 161.9 kDa |
 | UniProt ID | Q5TB80 (CE162_HUMAN) |
 | 评估日期 | 2026-06-01 |
@@ -183,6 +184,30 @@ status: scored
 - [ ] 考虑 ChIP-seq 预处理实验以探测可能的染色质结合, 但预期收益较低 (PPI 网络不支持)
 - [ ] 如核定位被确认非特异性, 建议降级为 rejected
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CEP290 | STRING | 885 |
+| TUBG1 | STRING | 778 |
+| YEATS4 | BioGRID | 1 |
+| KDM1A | BioGRID | 1 |
+| PRMT1 | BioGRID | 1 |
+| MED4 | BioGRID | 1 |
+| PCM1 | BioGRID | 1 |
+| CEP97 | BioGRID | 1 |
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/59552/1045_A10_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/59552/1045_A10_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/59552/1171_B11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/59552/1171_B11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/59552/1049_A10_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/59552/1049_A10_4_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q5TB80
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000166532-CEP162
@@ -205,7 +230,7 @@ status: scored
 | ctp | IntAct | psi-mi:"MI:0018"(two hybrid) PMID:pubmed:14605208|imex:IM-16524| |
 | LXN | IntAct | psi-mi:"MI:0006"(anti bait coimmunopreci PMID:pubmed:17353931 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 
 PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。

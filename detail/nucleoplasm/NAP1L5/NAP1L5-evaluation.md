@@ -100,6 +100,34 @@ PPI 网络以 NAP 家族同源互作为主，同时 KAT5 (Tip60 组蛋白乙酰�
 ### 4. 总体评价
 NAP1L5 是一个小型印记核小体组装蛋白，HPA IF Approved 支持核定位。NAP domain 直接参与染色质组装。研究热度低 (strict=24)，新颖性良好。不足之处：UniProt 定位证据薄弱（仅 ECO:0000305），结构数据中等偏下，NAP 家族染色质组装功能需实验验证。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NAP1L1 | STRING | 793 |
+| NAP1L4 | STRING | 746 |
+| NOL6 | STRING | 736 |
+| TSPYL4 | STRING | 712 |
+| DFFA | BioGRID | 1 |
+| LUC7L2 | BioGRID | 1 |
+| MAGEH1 | BioGRID | 1 |
+| KAT5 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/58227/1599_B11_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/58227/1599_B11_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/58227/1223_F7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/58227/1223_F7_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/58227/1193_F7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/58227/1193_F7_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96NT1
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q96NT1

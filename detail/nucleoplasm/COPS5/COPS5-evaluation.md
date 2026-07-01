@@ -192,8 +192,8 @@ Source: https://www.proteinatlas.org/ENSG00000121022-COPS5/interaction
 | ASB6 | Biogrid, Bioplex | true |
 | BRSK2 | Intact, Biogrid | true |
 | BRWD1 | Intact, Biogrid | true |
-| BTBD1 | Biogrid, Bioplex | true |
-| BTBD2 | Biogrid, Bioplex | true |
+| B暂无数据1 | Biogrid, Bioplex | true |
+| B暂无数据2 | Biogrid, Bioplex | true |
 | CCNDBP1 | Intact, Biogrid | true |
 | CDKN1B | Intact, Biogrid | true |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->

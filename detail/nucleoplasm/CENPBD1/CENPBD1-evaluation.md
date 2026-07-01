@@ -156,6 +156,28 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| KIAA1429 | BioGRID | 0 |
+| DDX58 | BioGRID | 0 |
+
+
+### 深度机制分析
+
+**结构域架构**：CENPBD1（187 aa, UniProt B2RD01）具有双DNA结合结构域架构，包括N端HTH psq型结构域（IPR007889, PF03221, UniProt FT: DOMAIN 13-64, PROSITE:PRU00320）和C端HTH CENPB型结构域（IPR006600, PF04218, UniProt FT: DOMAIN 78-155, PROSITE:PRU00583），两者均属于homeodomain-like超家族（IPR009057）和winged helix-like DNA结合域超家族（IPR036388）。此串联HTH排列直接同源于着丝粒蛋白B（CENPB）的DNA结合域——CENPB识别着丝粒α-卫星DNA中的CENP-B box。然而，AlphaFold v6预测质量较差（pLDDT=63.8，仅12.3%残基>90，有序区39.6%），表明显著的结构无序。低pLDDT可能反映域间linker区域的真实柔性，以及一个或两个HTH结构域在无DNA环境下的熔球态行为——DNA结合结构域常在靶标识别时展现折叠，暗示CENPBD1可能在DNA结合时发生实质性的induced-fit构象变化。
+
+**PPI网络与进化信号**：PPI画像极其稀疏：STRING列出17个伙伴（TIGD6、TIGD7、HARBI1、SMLR1、HUS1B、NAIF1等），但所有combined score=0.000——表明仅为text-mining或基因组邻近关联，无实验或共表达证据。IntAct互作=0，HPA interaction页面亦无数据。然而，伙伴列表本身具有深刻的进化含义：TIGD6和TIGD7是tigger DNA转座酶来源蛋白，含有CENPB型结构域；HARBI1是Harbinger转座酶来源核酸酶；JRK和POGK均属pogo超家族转座酶衍生物。CENPBD1的STRING邻域由其他驯化转座酶来源蛋白填充——这是有意义的进化信号，即使无物理互作存在。
+
+**结构解读与机制模型**：CENPBD1最合理的模型为：通过串联HTH结构域识别类似CENP-B box的特定DNA基序的序列特异性DNA结合蛋白。CENPB本身以纳摩尔亲和力结合17bp CENP-B box（TTCGTTGGAAACGGGA），CENPBD1可能识别相关但可能分化的序列。进化来源清晰：CENPBD1源自pogo/Tc1-mariner转座酶超家族（PMID:32742312），其中串联HTH-psq + HTH-CENPB排列起源于类pogo转座子的DNA结合域。此驯化事件将转座酶转化为宿主DNA结合蛋白——哺乳动物基因组中的重复主题（如RAG1/RAG2源自Transib转座子，CENPB本身源自pogo转座酶）。低pLDDT（63.8）反常地支持DNA诱导折叠模型：HTH结构域仅在靶标DNA结合时才结构化——本质无序DNA结合域的经典特征，通过大熵罚实现高特异性。
+
+**TE调控意义与实验建议**：CENPBD1可能是本评价集中TE调控最有吸引力的候选蛋白。一个被驯化的转座酶，带有双HTH结构域并保留在细胞核中，正是预期中参与TE识别和沉默的蛋白类型。CENPB先例极具启示性：CENPB结合着丝粒重复序列，但也识别嵌入LTR反转录转座子（如HERV-K）中的CENP-B box基序，促进其转录抑制。CENPBD1可能对不同TE亚家族执行类似监控功能。与TIGD6、TIGD7和HARBI1（全为转座酶来源蛋白）的关联（即使是text-mining）暗示参与驯化转座酶网络。极度新颖性（PubMed=2篇）意味着CENPBD1在TE生物学中的角色完全未被探索。实验优先级：（1）SELEX或ChIP-seq确定DNA结合特异性；（2）测试CENPBD1是否抑制携带CENP-B box样基序的报告基因；（3）CENPBD1过表达/敲低后TE家族特异性表达变化评估；（4）cryo-EM/X-ray解析CENPBD1与其同源DNA复合结构，确认induced-fit模型并揭示特异性决定因素。
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/B2RD01
 - Protein Atlas: https://www.proteinatlas.org/search/CENPBD1

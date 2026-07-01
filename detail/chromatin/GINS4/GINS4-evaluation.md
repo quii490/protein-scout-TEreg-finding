@@ -100,6 +100,24 @@ GINS4 的 PPI 网络是本批次最强的之一。与 CMG 解旋酶全部成员�
 ### 4. 总体评价
 GINS4 是本批次评分最高的蛋白（83.1/100）。核心优势：极小蛋白（223 aa/26 kDa）、极低文献量（PubMed strict=23）、10 个 PDB 高分辨率实验结构（含 X-ray 和 Cryo-EM）、AlphaFold pLDDT 90.4、PPI 网络极强（CMG 全复合体 0.999+）、HPA 可靠性 Approved。作为 CMG 解旋酶核心亚基，与染色质/DNA 复制直接相关，是优异的结构生物学和功能研究候选。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MCM5 | STRING | 999 |
+| GINS2 | STRING | 999 |
+| MCM4 | STRING | 999 |
+| GINS1 | STRING | 999 |
+| MCM6 | STRING | 999 |
+| CCNL1 | STRING | 999 |
+| MCM2 | STRING | 999 |
+| WDHD1 | STRING | 999 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9BRT9
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9BRT9

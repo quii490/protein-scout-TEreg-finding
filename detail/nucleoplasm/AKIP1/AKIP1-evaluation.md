@@ -158,6 +158,20 @@ AlphaFold低质量预测，31%残基无序。作为adaptor蛋白，高比例无�
 
 PPI以PRKACA(0.51实验)和RELA(0.51实验)为核心，直接关联cAMP-PKA-NF-kB信号轴。LNX1(ligand of numb-protein X1, E3泛素连接酶)的直接互作(holdup assay)尤其有趣——LNX1通过泛素化调控NOTCH和NUMB信号，可能在核内通过降解AKIP1调控NF-kB活性。**评分: 6/10** (因PRKACA+RELA双实验确认且生物学功能明确)。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PRKACA | BioGRID | 0 |
+| RELA | BioGRID | 0 |
+| SIRT1 | BioGRID | 0 |
+| SENP8 | BioGRID | 0 |
+| MAPK13 | BioGRID | 0 |
+| ELAVL1 | BioGRID | 0 |
+| BARD1 | BioGRID | 0 |
+| POC5 | BioGRID | 0 |
+
+
 ### 5. Rescue Decision
 
 **决策: RESCUED TO SCORED**
@@ -172,6 +186,25 @@ PPI以PRKACA(0.51实验)和RELA(0.51实验)为核心，直接关联cAMP-PKA-NF-k
 **修正后加权总分**: 97/180 (53.9/100)。总分相对较低(主要因为PubMed热度+低AF质量)，但这反映了各维度独立评分的原则——核定位评分应在其自身维度公正评估。
 
 **AKIP1应进入scored蛋白列表，但需注意其局限性**: 蛋白小(210aa)、高度无序(31% pLDDT<50)、PubMed热度中等(61篇)。其核心吸引力在于: (1) 纯核定位; (2) NF-kB信号通路的直接核调控因子; (3) NF-kB-ERV激活的潜在交叉点。在scored列表中，可根据实验优先级综合考虑。
+
+### ESM 结构预测补充 (ESMFold Analysis)
+
+**方法**: 使用 Meta ESM Metagenomic Atlas API 对全长蛋白序列进行 ab initio 折叠预测。
+**PDB 文件**: `detail/_esm_structures/AKIP1_esmfold.pdb`
+
+| 指标 | 数值 |
+|---|---|
+| ESMFold 平均 pLDDT | 0.54 |
+| pLDDT > 0.9 占比 | 0.0% |
+| pLDDT < 0.5 占比 | 51.9% |
+| 建模残基数 | 210 |
+
+**与 AlphaFold 对比**:
+
+无 AlphaFold 数据可对比。ESMFold 提供独立的从头折叠验证。
+
+ESMFold 基于进化规模语言模型，对序列空间进行无 MSA 搜索的从头折叠，可作为 AlphaFold 的独立验证和补充。
+
 
 ### 6. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9NQ31

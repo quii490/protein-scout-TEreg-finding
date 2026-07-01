@@ -222,3 +222,33 @@ Source: https://www.proteinatlas.org/ENSG00000141279-NPEPPS/interaction
 | HSPA8 | Biogrid | false |
 | LRRC8E | Bioplex | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| GTF2I | STRING | 771 |
+| EIF6 | BioGRID | 1 |
+| OTUD4 | BioGRID | 1 |
+| DMWD | BioGRID | 1 |
+| RYK | BioGRID | 1 |
+| HDAC5 | BioGRID | 1 |
+| SIRT7 | BioGRID | 1 |
+| FBXO25 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/21453/1248_B6_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/21453/1248_B6_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/21453/1139_E1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/21453/1139_E1_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/21453/1132_E1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/21453/1132_E1_2_blue_red_green.jpg)
+

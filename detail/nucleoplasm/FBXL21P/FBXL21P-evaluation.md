@@ -148,6 +148,23 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### PubMed
+
+**Count: 5**
+
+| PMID | Title |
+|---|---|
+| 37951306 | Functional characterization of the CRY2 circadian clock component variant p.Ser420Phe revealed a new degradation pathway for CRY2. |
+| 33462083 | Exome Chip Analyses and Genetic Risk for IgA Nephropathy among Han Chinese. |
+| 28226265 | Alterations of ubiquitin related proteins in the pathology and development of schizophrenia: Evidence from human and animal studies. |
+| 25578144 | Investigation of genetic variants in ubiquitin enzyme genes involved in the modulation of neurodevelopmental processes: a role in schizophrenia suscep |
+| 18404645 | FBXL21 association with schizophrenia in Irish family and case-control samples. |
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9UKT6
 - Protein Atlas: https://www.proteinatlas.org/search/FBXL21P

@@ -16,6 +16,7 @@ tags: [protein-scout, sperm, evaluation]
 - **IF 可靠性:** 未获取
 - **PubMed:** 20 篇
 - **精子定位部位:** Calyx、Connecting piece、End piece、Mid piece、Principal piece (5 个)
+- **UniProt Subcellular Location:** No subcellular location annotated
 
 ## 2. HPA 精子定位证据
 - **来源:** Calyx、Connecting piece、End piece、Mid piece、Principal piece ✓

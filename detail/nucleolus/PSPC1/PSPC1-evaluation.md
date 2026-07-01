@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | PSPC1 / PSP1 |
+| 蛋白名称 | Paraspeckle component 1 |
 | 蛋白全名 | Paraspeckle component 1 |
 | 蛋白大小 | 523 aa / 58.7 kDa |
 | UniProt ID | Q8WXF1 |
@@ -84,6 +85,34 @@ STRING 不可用 (502)。UniProt 记录的实验互作丰富 (NONO 17 次实验)
 
 ### 4. 总体评价
 PSPC1 是 paraspeckle 核心蛋白，核定位证据极其充分（HPA Enhanced + GO-CC IDA），PPI 网络以实验互作为主（NONO-SFPQ-PSPC1 核心复合体）。主要不足是文献量较高（strict=81），研究新颖性仅 2/10，且 AlphaFold 结构预测置信度中等（pLDDT 72.8, 35.6% <50）。作为已知的 paraspeckle 组分，其功能已被广泛研究，新颖性有限。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NONO | STRING | 999 |
+| SFPQ | STRING | 999 |
+| RBM14 | STRING | 991 |
+| RBM14-RBM4 | STRING | 990 |
+| MATR3 | STRING | 923 |
+| FUS | STRING | 863 |
+| CPSF6 | STRING | 748 |
+| TARDBP | STRING | 740 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/38904/471_A12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38904/471_A12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38904/419_A12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38904/419_A12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38904/412_A12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38904/412_A12_2_blue_red_green.jpg)
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8WXF1

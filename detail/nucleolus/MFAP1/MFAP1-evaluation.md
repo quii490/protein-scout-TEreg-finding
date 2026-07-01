@@ -157,6 +157,34 @@ status: scored
 - [ ] Co-IP 验证 PPI
 - [ ] 功能实验验证染色质调控角色
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SF3A1 | STRING | 999 |
+| SNRPA1 | STRING | 999 |
+| PRPF38A | STRING | 999 |
+| BUD13 | STRING | 999 |
+| PRPF6 | STRING | 999 |
+| SF3B1 | STRING | 999 |
+| SF3A3 | STRING | 999 |
+| EFTUD2 | STRING | 999 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/15583/1877_F11_8_cr5b7412e216be0_blue_red_green.jpg)
+![](https://images.proteinatlas.org/15583/1877_F11_26_cr5b7412e217ca6_blue_red_green.jpg)
+![](https://images.proteinatlas.org/15583/1858_F5_31_blue_red_green.jpg)
+![](https://images.proteinatlas.org/15583/1858_F5_33_blue_red_green.jpg)
+![](https://images.proteinatlas.org/15583/1893_K3_13_cr5bbdc8e48fc35_blue_red_green.jpg)
+![](https://images.proteinatlas.org/15583/1893_K3_18_cr5bbdc8e49015b_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprot/P55081
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/P55081
@@ -167,9 +195,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[MFAP1-PAE.png]]
 

@@ -146,6 +146,24 @@ PDB + AlphaFold 结构互证 (+0.5)
 - [ ] 基于 PPI 网络开展功能研究
 - [ ] 结构分析: 基于 PDB 的功能位点设计
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| WDR76 | STRING | 766 |
+| CYCS | STRING | 746 |
+| TFAP4 | BioGRID | 1 |
+| THOC2 | BioGRID | 1 |
+| PRKDC | BioGRID | 1 |
+| ARIH1 | BioGRID | 1 |
+| BBS9 | BioGRID | 1 |
+| MYC | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=THYN1
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000151500-THYN1
@@ -158,9 +176,9 @@ PDB + AlphaFold 结构互证 (+0.5)
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[THYN1-PAE.png]]
 

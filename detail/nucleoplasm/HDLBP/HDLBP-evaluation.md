@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | HDLBP / Vigilin |
+| 蛋白名称 | Vigilin |
 | 蛋白大小 | 1268 aa / 141.4 kDa |
 | UniProt ID | Q00341 |
 | 评估日期 | 2026-05-28 |
@@ -197,6 +198,34 @@ KH domain 是经典的 RNA 结合模块 (type I hnRNP K homology domain), 识别
 1. **核定位特异性低**: 主要胞质蛋白, 核功能与 mRNA 运输/代谢相关, 非染色质/DNA 调控
 2. **PPI , 可考虑从 RNA biology 角度切入
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| APOC3 | STRING | 845 |
+| RACK1 | STRING | 774 |
+| DHX9 | STRING | 738 |
+| XPOT | BioGRID | 1 |
+| XRCC5 | BioGRID | 1 |
+| PRKDC | BioGRID | 1 |
+| ADAR | BioGRID | 1 |
+| SUV39H1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/26457/639_G1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/26457/639_G1_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/26457/634_G1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/26457/634_G1_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/26457/635_G1_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/26457/635_G1_5_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - GeneCards: - Protein Atlas: - UniProt: https://www.uniprot.org/uniprotkb/Q00341
 - SMART: - humanPPI: - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q00341
@@ -208,9 +237,9 @@ KH domain 是经典的 RNA 结合模块 (type I hnRNP K homology domain), 识别
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[HDLBP-PAE.png]]
 

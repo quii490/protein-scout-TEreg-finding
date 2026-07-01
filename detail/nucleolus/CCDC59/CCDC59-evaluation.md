@@ -12,7 +12,8 @@ status: scored
 
 | 项目 | 内容 |
 |------|------|
-| 基因名 / 别名 | CCDC59 / BR22 | TAP26 |
+| 基因名 / 别名 | CCDC59 / BR22 |
+| 蛋白名称 | Thyroid transcription factor 1-associated protein 26 | TAP26 |
 | 蛋白全名 | Thyroid transcription factor 1-associated protein 26 |
 | 蛋白大小 | 241 aa / 28.7 kDa |
 | UniProt ID | Q9P031 |
@@ -187,6 +188,45 @@ status: scored
 - [ ] 获取 HPA IF 图像确认核定位
 - [ ] 查阅最新关键文献补充功能细节
 - [ ] 设计体外 DNA/染色质结合实验
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TTF1 | STRING | 905 |
+| LLPH | STRING | 839 |
+| CDC20 | BioGRID | 1 |
+| DEDD | BioGRID | 1 |
+| VHL | BioGRID | 1 |
+| PAK7 | BioGRID | 1 |
+| APP | BioGRID | 1 |
+| CSNK2A2 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/38555/437_A12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38555/437_A12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38555/431_A12_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38555/431_A12_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38555/443_A12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38555/443_A12_3_blue_red_green.jpg)
+
+
+### ESMFold 结构预测
+
+| 指标 | 数值 |
+|---|---|
+| 平均 pLDDT | 0.75 |
+| >0.9 | 29.0% |
+| <0.5 | 2.9% |
+| 残基数 | 241 |
+
+ESMFold 从头折叠验证。PDB: `detail/_esm_structures/CCDC59_esmfold.pdb`
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9P031

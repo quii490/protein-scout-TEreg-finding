@@ -55,6 +55,38 @@ status: scored
 
 SNF8 is 258 amino acids in length (~28.9 kDa). Ideal size (258 aa), suitable for standard biochemical experiments. Score 10/10.
 
+### 功能描述
+
+Component of the endosomal sorting complex required for transport II (ESCRT-II), which is required for multivesicular body (MVB) formation and sorting of endosomal cargo proteins into MVBs, and plays a role in autophagy (PubMed:38423010). The MVB pathway mediates delivery of transmembrane proteins into the lumen of the lysosome for degradation. The ESCRT-II complex is probably involved in the recruitment of the ESCRT-III complex. The ESCRT-II complex may also play a role in transcription regulat
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| VPS25 | BioGRID | 0 |
+| DVL2 | BioGRID | 0 |
+| NIF3L1 | BioGRID | 0 |
+| ELL | BioGRID | 0 |
+| SNF8 | BioGRID | 0 |
+| VPS36 | BioGRID | 0 |
+| CHMP6 | BioGRID | 0 |
+| VPS28 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/59320/1239_B11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/59320/1239_B11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/59320/1016_B11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/59320/1016_B11_5_blue_red_green.jpg)
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

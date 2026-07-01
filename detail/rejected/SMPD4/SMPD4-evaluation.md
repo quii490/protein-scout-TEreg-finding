@@ -54,6 +54,53 @@ status: scored
 
 SMPD4 is 866 amino acids in length (~97.8 kDa). Acceptable size (866 aa), suitable for routine experiments. Score 8/10.
 
+### 功能描述
+
+Catalyzes the hydrolysis of membrane sphingomyelin to form phosphorylcholine and ceramide (PubMed:16517606, PubMed:25180167). It has a relevant role in the homeostasis of membrane sphingolipids, thereby influencing membrane integrity, and endoplasmic reticulum organization and function (PubMed:31495489). May sensitize cells to DNA damage-induced apoptosis (PubMed:18505924). In skeletal muscle, mediates TNF-stimulated oxidant production (By similarity)
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| BRF2 | BioGRID | 0 |
+| CUL2 | BioGRID | 0 |
+| EXOSC4 | BioGRID | 0 |
+| EED | BioGRID | 0 |
+| NTRK1 | BioGRID | 0 |
+| TCTN3 | BioGRID | 0 |
+| EVC2 | BioGRID | 0 |
+| TMEM17 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/49426/732_E3_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/49426/732_E3_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/49426/722_E3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/49426/722_E3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/49426/726_E3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/49426/726_E3_2_blue_red_green.jpg)
+
+
+### PubMed
+
+**Count: 39**
+
+| PMID | Title |
+|---|---|
+| 41548865 | Multiomics analyses prioritize disease genes and pathways in hidradenitis suppurativa. |
+| 41179327 | Disulfidptosis-linked Gene Signatures Constituted of Prognostic Prediction Models in Prostate Cancer. |
+| 41099382 | Impact of Neutral Sphingomyelinase Inhibition on Small Extracellular Vesicle Production by Mural Granulosa Cells and In Vitro Folliculogenesis in Mice |
+| 40633321 | Elucidating the genetic basis of earlobe color in Qingyuan partridge chickens through genomics and metabolomics. |
+| 40211349 | High expression of SMPD4 promotes liver cancer and is associated with poor prognosis. |
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

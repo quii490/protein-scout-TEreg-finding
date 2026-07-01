@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | BEND2 / BEN domain-containing protein 2 |
+| 蛋白名称 | BEN domain-containing protein 2 |
 | 蛋白大小 | 799 aa / 87.9 kDa |
 | UniProt ID | Q8NDZ0 |
 | 评估日期 | 2026-05-29 |
@@ -153,6 +154,24 @@ status: scored
 - [ ] ChIP-seq 全基因组定位
 - [ ] 推荐作为 BEN 域染色质生物学研究
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ATXN1 | BioGRID | 1 |
+| APP | BioGRID | 1 |
+| SF3A2 | BioGRID | 1 |
+| LHX2 | BioGRID | 1 |
+| ANAPC11 | BioGRID | 1 |
+| ZMYM6 | BioGRID | 1 |
+| PRR20B | BioGRID | 0 |
+| PRR20A | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
 ### 5. 关键文献
 
 1. Dai Q et al. (2013). 'BEN domain proteins in transcriptional regulation.' Nucleic Acids Res. PMID: 23268447
@@ -170,9 +189,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[BEND2-PAE.png]]
 

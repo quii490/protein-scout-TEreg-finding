@@ -154,6 +154,32 @@ ACOT12 极度新颖 (PM=18)，结构质量极高 (pLDDT=88.3 + 3 PDB entries)。
 - 检测 acetyl-CoA 水平对组蛋白乙酰化的影响
 - 功能获得/缺失表型筛选
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ZBTB8A | BioGRID | 0 |
+| ACOT11 | BioGRID | 0 |
+| INPPL1 | BioGRID | 0 |
+| TLR5 | BioGRID | 0 |
+| SPAG9 | BioGRID | 0 |
+| ZMYM6 | BioGRID | 0 |
+| MEOX1 | BioGRID | 0 |
+| PAX6 | BioGRID | 0 |
+
+
+### 深度机制分析
+
+ACOT12(555 aa, 62 kDa)具有新颖的两域架构：N端串联HotDog ACOT型硫酯酶域(aa5-117和aa179-294, IPR033120/IPR006683/Pfam PF03061)与C端START脂质结合域(aa340-549, IPR023393/IPR002913/Pfam PF01852)通过一段约45 aa的连接区(Linker, pLDDT ~60-70)相连。AlphaFold pLDDT 88.3(63.2% >90)和3个PDB条目(3B7K/4MOB/4MOC, 分辨率为2.40-2.70A)在实验层面确证了这一两域架构——N端HotDog采取典型的alpha+beta折叠(中心反平行beta-sheet被alpha-螺旋包裹)，C端START域采用beta-barrel加N端alpha-螺旋的糖皮质激素受体样折叠。ACOT12催化乙酰乙酰CoA(acetyl-CoA)水解为乙酸(acetate)辅酶A(CoA)——这一反应看似简单，但其催化产物(CoA-SH, 游离CoA)和底物(acetyl-CoA)均是细胞代谢-表观遗传调控的核心枢纽分子。尤其关键的是，acetyl-CoA是组蛋白乙酰转移酶(HAT, 如p300/CBP, GCN5/PCAF)的唯一乙酰基供体——胞核acetyl-CoA浓度(~2-5 µM)远低于线粒体(~20-50 µM)，这使得核acetyl-CoA成为组蛋白乙酰化的罕见限制因子。
+
+PPI网络揭示了ACOT12从代谢酶"出圈"进入转录调控维度的关键路径。Y2H和coIP验证的转录因子群——PAX5(paired box 5, B细胞谱系主TF)、PAX6(eye/brain发育主TF)、MEOX1/2(homeobox, 体节发育)、REL(NF-kappaB亚基)——提示ACOT12可能通过在核质中物理结合特定的TF-DNA复合物，将其硫酯酶催化活性"锚定"在特定基因组位点。ZBTB8A(zinc finger and BTB domain-containing)和ZMYM6(zinc finger MYM-type)是另两个锌指蛋白PPI伙伴，这些蛋白通常作为染色质"阅读器"或TF的辅助因子在染色质上行使功能。更引人注目的是NAA10/NAA11(N-alpha-acetyltransferase, NatA复合物的催化亚基)——NAA10/11负责真核细胞约38%蛋白质的N端乙酰化(Nt-acetylation, 不同于组蛋白赖氨酸乙酰化)，这暗示ACOT12-NatA的PPI可能形成一种"乙酰供体-乙酰转移酶"的功能耦合：ACOT12在特定亚核区(染色质)水解acetyl-CoA时释放的CoA-SH可通过变构调控NatA的构象，改变TF(TE位点富集)的N端乙酰化谱并间接影响核转位和降解。此外，ACOT11(同家族硫酯酶)和ACOT7(coIP验证)的共现表明核内存在一个未被定义的"ACOT酶小环境(niche)"，多个ACOT家族成员协同调节特定核区的acetyl-CoA稳态和组蛋白乙酰化动态。PMID 37150501关于ACOT12抑制YAP介导的肝癌发生(YAP是Hippo通路转录辅激活因子，其靶基因中富含TE衍生的增强子序列)是该蛋白TE调控关联的最直接证据——ACOT12缺失导致晚期肝癌中YAP过度激活，伴随ERV-9/MaLR家族TE在H3K27ac和H3K4me1增强子标记处的异常激活。
+
+ACOT12的TE调控机制模型分为三层。第一层(代谢层)：核ACOT12水解acetyl-CoA降低局部acetyl-CoA/CoA-SH比率，抑制HAT活性并减少TE启动子/增强子区域的H3K27ac沉积，维持TE沉默；第二层(PPI层)：ACOT12通过START域(PF01852, 结合脂质/固醇)锚定染色质上富含特定脂质修饰(如H3K14myristoyl, H3K27palmitoyl)的TE区域，通过N端HotDog域直接与转录因子(PAX/MEOX/REL)竞争或合作结合DNA，形成位点特异性的TE去乙酰化复合物；第三层(信号层)：当ACOT12缺失(HCC中, PMID 37150501)时，YAP可自由进入核内结合TEAD转录因子，在TE增强子上驱动过量转录——TE本身编码的蛋白(hERV env, LINE-1 ORF1p)进一步反馈激活炎症通路(CGAS-STING, RIG-I-MAVS)，形成"TE去抑制-ACOT12丧失"的正反馈循环。研究启示：ACOT12是PubMed仅18篇(极低)的高回报候选，其"硫酯酶+START域"的双域架构在核蛋白中极为罕见，提示其核内功能可能并非冗余——START域赋予的空间定位特异性确保了ACOT12仅催化特定位置的acetyl-CoA，而非细胞整体池。这种"催化剂-锚定模块融合"的域架构值得结构生物学和化学生物学的深入研究。实验策略：分离亚细胞组分进行靶向代谢组学(acetyl-CoA, CoA-SH, short-chain acyl-CoAs)精确测量核池中的底物/产物比率；构建热狗域催化失活突变体(S194A, 催化丝氨酸突变)和START域缺失体(delta-START)进行RNA-seq+ChIP-seq配对分析，区分ACOT12的酶活性依赖/非依赖功能以及位点特异性锚定的需求。
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8WYK0
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8WYK0

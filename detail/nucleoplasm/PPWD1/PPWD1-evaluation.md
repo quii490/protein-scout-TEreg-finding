@@ -153,6 +153,24 @@ PDB + AlphaFold 结构互证 (+0.5)
 - [ ] 基于 PPI 网络开展功能研究
 - [ ] 结构分析: 基于 PDB 的功能位点设计
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CDC40 | STRING | 976 |
+| SYF2 | STRING | 970 |
+| PPIL1 | STRING | 968 |
+| DHX38 | STRING | 964 |
+| PRPF8 | STRING | 943 |
+| PPIG | STRING | 912 |
+| CRNKL1 | STRING | 911 |
+| CRN | STRING | 911 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=PPWD1
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000113593-PPWD1
@@ -165,9 +183,9 @@ PDB + AlphaFold 结构互证 (+0.5)
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[PPWD1-PAE.png]]
 

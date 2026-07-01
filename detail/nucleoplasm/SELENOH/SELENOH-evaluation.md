@@ -53,6 +53,20 @@ status: accepted
 
 122 aa -- small protein, at the lower boundary of the workable range. Score: 4/10.
 
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/48362/804_D5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/48362/804_D5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/48362/1137_A8_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/48362/1137_A8_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/48362/712_D5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/48362/712_D5_4_blue_red_green.jpg)
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

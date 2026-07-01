@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | CCDC137 / Coiled-coil domain-containing protein 137 |
+| 蛋白名称 | Coiled-coil domain-containing protein 137 |
 | 蛋白大小 | 289 aa / 33.2 kDa |
 | UniProt ID | Q6PK04 |
 | 评估日期 | 2026-05-30 |
@@ -58,7 +59,7 @@ status: scored
 | 指标 | 数值 |
 |------|------|
 | PubMed 总数 | 40 |
-| 研究方向 | 待补充关键文献摘要 |
+| 研究方向 | 暂无数据关键文献摘要 |
 
 **评价**: 非常新颖，仅有少数基础研究。
 
@@ -164,6 +165,34 @@ status: scored
 - [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
 - [ ] 设计体外 DNA/染色质结合实验
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NOL12 | STRING | 742 |
+| TERF2 | BioGRID | 1 |
+| RPL8 | BioGRID | 1 |
+| NPM1 | BioGRID | 1 |
+| IFI16 | BioGRID | 1 |
+| HNRNPU | BioGRID | 1 |
+| NOP56 | BioGRID | 1 |
+| RBM34 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/53914/823_H4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/53914/823_H4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/53914/986_E11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/53914/986_E11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/53914/1888_D6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/53914/1888_D6_4_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q6PK04
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CCDC137
@@ -173,9 +202,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[CCDC137-PAE.png]]
 

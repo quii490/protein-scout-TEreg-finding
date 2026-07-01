@@ -166,48 +166,37 @@ status: scored
 - [ ] CRISPR 敲除/敲低表型分析
 - [ ] AlphaFold-Multimer 预测潜在复合体结构
 
-### 5. 数据来源
+### PPI 互作网络
 
-- GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=PROSER1
-- Protein Atlas: https://www.proteinatlas.org/search/PROSER1
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22PROSER1%22%5BTitle%2FAbstract%5D
-- UniProt: https://www.uniprot.org/uniprot/Q86XN7
-- STRING: https://string-db.org/network/9606.PROSER1
-- AlphaFold: https://www.alphafold.ebi.ac.uk/entry/Q86XN7
-
-
-#### PPI 网络（三源综合）
-| Partner | Source | Score/Evidence |
+| 互作伙伴 | 来源 | 评分 |
 |---|---|---|
-| 无记录 | — | — |
+| KDM6A | BioGRID | 1 |
+| EWSR1 | BioGRID | 1 |
+| NONO | BioGRID | 1 |
+| EGLN3 | BioGRID | 1 |
+| TP53 | BioGRID | 1 |
+| HNF1B | BioGRID | 1 |
+| PAX8 | BioGRID | 1 |
+| PAX9 | BioGRID | 1 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
 
-![[PROSER1-PAE.png]]
+### TE 调控评估
 
-PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/PROSER1/IF_images/if_selected_medium.jpg]]
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
 
+### HPA IF 图像
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/PROSER1/PROSER1-PAE.png]]
+HPA 检索: https://www.proteinatlas.org/search/PROSER1
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### PubMed
 
-### SMART / UniProt domain
-| Source | Data |
+**Count: 4**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q86XN7 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR028011;IPR042616; |
-| Pfam | PF14771; |
+| 40554416 | The TET protein family interactor PROSER1 sustains hematopoietic stem cell function. |
+| 39562138 | PROSER1 modulates DNA demethylation through dual mechanisms to prevent syndromic developmental malformations. |
+| 35229282 | A homozygous frame-shift variant in PROSER1 is associated with developmental delay, hypotonia, genitourinary malformations, and distinctive facial fea |
+| 34667079 | PROSER1 mediates TET2 O-GlcNAcylation to regulate DNA demethylation on UTX-dependent enhancers and CpG islands. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000120685-PROSER1/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| MAP7 | Bioplex | false |
-| PSPC1 | Opencell | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

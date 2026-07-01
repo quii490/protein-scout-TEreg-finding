@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | CWC27 / CWC27 |
+| 蛋白名称 | Spliceosome-associated protein CWC27 homolog |
 | 蛋白大小 | 472 aa / ~51.9 kDa |
 | UniProt ID | Q6UX04 |
 | 评估日期 | 2026-05-29 |
@@ -147,6 +148,24 @@ status: scored
 - [ ] SMART 结构域分析评估调控潜力
 - [ ] 深入文献检索确认已知功能
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SNRNP200 | STRING | 999 |
+| RNF113A | STRING | 999 |
+| CWC22 | STRING | 999 |
+| DHX16 | STRING | 998 |
+| SNRPA1 | STRING | 997 |
+| BUD13 | STRING | 997 |
+| SNIP1 | STRING | 997 |
+| RBMX2 | STRING | 997 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q6UX04
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q6UX04
@@ -158,9 +177,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CWC27/CWC27-PAE.png]]

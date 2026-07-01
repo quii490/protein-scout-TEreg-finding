@@ -154,6 +154,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] Co-IP/MS 鉴定互作伙伴
 - [ ] ChIP-seq 分析基因组结合位点（如为 TF/染色质蛋白）
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| USP36 | BioGRID | 0 |
+| G3BP1 | BioGRID | 0 |
+| OAS3 | BioGRID | 0 |
+| NEDD4L | BioGRID | 0 |
+| POT1 | BioGRID | 0 |
+| APP | BioGRID | 0 |
+| ADARB1 | BioGRID | 0 |
+| PRKRA | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/
@@ -165,9 +183,9 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[IFRD2-PAE.png]]
 

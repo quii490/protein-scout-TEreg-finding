@@ -186,6 +186,43 @@ status: scored
 - [ ] 查阅最新关键文献补充功能细节
 - [ ] 设计体外 DNA/染色质结合实验
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TNFSF15 | STRING | 779 |
+| LRRK2 | STRING | 720 |
+| PKN3 | BioGRID | 1 |
+| TFPT | BioGRID | 1 |
+| C17orf59 | BioGRID | 0 |
+| CCDC172 | BioGRID | 0 |
+| FAM167A | BioGRID | 0 |
+| EXOC1 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/54995/1586_G5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/54995/1586_G5_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/54995/1345_H3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/54995/1345_H3_2_blue_red_green.jpg)
+
+
+### ESMFold 结构预测
+
+| 指标 | 数值 |
+|---|---|
+| 平均 pLDDT | 0.84 |
+| >0.9 | 21.2% |
+| <0.5 | 0.0% |
+| 残基数 | 273 |
+
+ESMFold 从头折叠验证。PDB: `detail/_esm_structures/CCDC122_esmfold.pdb`
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q5T0U0
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CCDC122

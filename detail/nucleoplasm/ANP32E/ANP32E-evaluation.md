@@ -59,114 +59,34 @@ ANP32E 是 ANP32 (acidic nuclear phosphoprotein) 家族成员。作为 H2A.Z 组
 
 **关键文献**: ANP32E 是 H2A.Z 特异的组蛋白伴侣，催化 H2A.Z-H2B 在染色质上的沉积和移除，调控转录、DNA repair、染色体分离。与 EP400 (SWR1/SRCAP ATPase) 和 KAT5 (Tip60 乙酰转移酶) 形成染色质重塑复合体。文献涵盖 H2A.Z 生物学、癌症表观遗传学和胚胎发育。
 
-### 5. 三维结构
+### PPI 互作网络
 
-| 指标 | 数值 |
-|---|---|
-| AlphaFold pLDDT | 76.4 (mean) |
-| pLDDT >90 | 53.7% |
-| pLDDT 70-90 | 22.8% |
-| pLDDT 50-70 | 8.9% |
-| pLDDT <50 | 14.6% |
-| PDB | 2 structures (X-ray, ~3.0 Å, C-terminal domain) |
-| Domain | ANP32 family leucine-rich repeat; H2A.Z binding |
-
-
-**PAE**: PAE 图像已获取。
-
-### 6. PPI 网络
-
-#### Chromatin remodeling complex
-
-| Partner | 来源 | Score/Evidence | 功能 |
-|---|---|---|---|
-| H2AZ1 | STRING | 0.996 | Histone H2A.Z (SWR1 substrate) |
-| EP400 | STRING | 0.992 | SWR1/SRCAP ATPase subunit |
-| KAT5 | STRING | 0.984 | Tip60 acetyltransferase |
-| RUVBL1 | STRING | 0.980 | Pontin, INO80/SWR1 AAA+ ATPase |
-| RUVBL2 | STRING | 0.980 | Reptin, INO80/SWR1 AAA+ ATPase |
-| ACTL6A | STRING | 0.971 | Actin-like, SWR1 subunit |
-| DMAP1 | STRING | 0.968 | SWR1 subunit |
-| YEATS4 | STRING | 0.967 | SWR1 subunit |
-| SRCAP | STRING | 0.953 | SWR1 ATPase (alternative to EP400) |
-
-**IntAct**: 15 条记录 (含 ANP32B, SET, HMGA1 等核蛋白)。**UniProt curated**: Swr1 complex IDA。
-
-**PPI 评述**: ANP32E 的 PPI 网络极其强大且功能明确，完全围绕 H2A.Z 组蛋白沉积的 SWR1/SRCAP 染色质重塑复合体。9 个 STRING partners 分数 >0.95，全部为已知 SWR1 亚基或直接功能伙伴。该网络明确支持染色质/nucleoplasm 定位和 TE 调控潜力。
-
-### 7. 总体评价
-
-ANP32E 是 H2A.Z 组蛋白伴侣和 SWR1/SRCAP 染色质重塑复合体核心组分。核定位证据充分 (ANP32 nuclear phosphoprotein 家族 + GO nucleus IDA:LIFEdb + HPA IF 图像)。PPI 网络极为强大（9 个 >0.95 partners，全部为 SWR1 染色质重塑亚基）。H2A.Z 沉积直接调控染色质结构和转录，与 TE 沉默高度相关。归一化 71.6/100。建议作为中-高优先级 nucleoplasm/chromatin 候选。PubMed strict=52 接近新颖性上限 (≤60=6分)，但仍有进一步机制研究空间。
-
-### 8. 数据来源
-
-- UniProt: https://www.uniprot.org/uniprotkb/Q9BTT0
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9BTT0
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=ANP32E
-- HPA: https://www.proteinatlas.org/search/ANP32E
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/ANP32E/IF_images/1231_C8_1_blue_red_green.jpg]]
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/ANP32E/IF_images/1231_C8_2_blue_red_green.jpg]]
-
-
-#### PPI 网络
-| Partner | Source | Score/Evidence |
+| 互作伙伴 | 来源 | 评分 |
 |---|---|---|
-| H2AZ1 | STRING | 0.996 |
-| EP400 | STRING | 0.992 |
-| KAT5 | STRING | 0.984 |
-| TRRAP | STRING | 0.953 |
-| BRD8 | STRING | 0.95 |
-| EBI-2797317 | IntAct | psi-mi:"MI:0398"(two hybrid po |
-| SMAD2 | IntAct | psi-mi:"MI:0034"(display techn |
-| NR4A2 | IntAct | psi-mi:"MI:0034"(display techn |
+| EP400 | STRING | 992 |
+| KAT5 | STRING | 984 |
+| TRRAP | STRING | 953 |
+| BRD8 | STRING | 950 |
+| RUVBL1 | STRING | 949 |
+| HIST1H2BJ | STRING | 947 |
+| ING3 | STRING | 941 |
+| RUVBL2 | STRING | 939 |
 
 
-#### 关键文献
-| PMID | 标题 |
+### HPA IF 图像
+
+HPA 检索: https://www.proteinatlas.org/search/ANP32E
+
+### PubMed
+
+**Count: 138**
+
+| PMID | Title |
 |---|---|
-| 37816720 | Creating resistance to avian influenza infection through genome editing of the ANP32 gene family. |
-| 14964690 | Anp32e (Cpd1) and related protein phosphatase 2 inhibitors. |
-| 39365860 | Cell type-specific epigenetic priming of gene expression in nucleus accumbens by cocaine. |
-| 38482865 | ANP32e Binds Histone H2A.Z in a Cell Cycle-Dependent Manner and Regulates Its Protein Stability in t |
-| 33033242 | Genome-wide chromatin accessibility is restricted by ANP32E. |
-
-HPA IF 图像已本地嵌入。
+| 42333064 | In silico analysis suggests ELL2 as a survival-associated cross-tissue biomarker in gastric cancer. |
+| 42185655 | Single-cell eQTL-based Mendelian randomization identifies immune cell subtype-specific regulators of epigenetic aging and prioritizes candidate therap |
+| 42075256 | Historical Pandemic and Contemporary Influenza A Viruses Reveal PB2 M631L as a Convergent Adaptation to Human ANP32. |
+| 41989318 | From Initiation to Elongation: eIF3 as a Dual-Phase Guardian of Mitochondrial Integrity and Protein Homeostasis in Skeletal Muscle. |
+| 41980942 | ANP32E drives lung adenocarcinoma progression via GSK3β-mediated glycolytic reprogramming. |
 
 
-
-**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
-
-
-
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
-
-![](https://alphafold.ebi.ac.uk/files/AF-Q9BTT0-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
-
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
-
-### SMART / UniProt domain
-| Source | Data |
-|---|---|
-| UniProt | Q9BTT0 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | DOMAIN 123..161; /note="LRRCT" |
-| InterPro | IPR045081;IPR001611;IPR032675; |
-| Pfam | PF14580; |
-
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000143401-ANP32E/interaction
-
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| H2AZ1 | Intact, Biogrid, Bioplex | true |
-| KPNA1 | Biogrid, Bioplex | true |
-| KPNA6 | Biogrid, Bioplex | true |
-| BRD7 | Biogrid | false |
-| DMAP1 | Intact | false |
-| EPC2 | Intact | false |
-| H2AC11 | Bioplex | false |
-| H2AC13 | Bioplex | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

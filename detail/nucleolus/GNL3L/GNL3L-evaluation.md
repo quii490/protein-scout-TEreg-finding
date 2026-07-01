@@ -167,54 +167,38 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q9NVN8
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000130119-GNL3L/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=GNL3L
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9NVN8
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoli (supported)。来源: https://www.proteinatlas.org/ENSG00000130119-GNL3L/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| GNL2 | STRING | 997 |
+| GTPBP4 | STRING | 991 |
+| PES1 | STRING | 987 |
+| MRTO4 | STRING | 983 |
+| RSL1D1 | STRING | 982 |
+| BOP1 | STRING | 981 |
+| NOC2L | STRING | 979 |
+| SDAD1 | STRING | 978 |
 
-![](https://images.proteinatlas.org/36315/563_H4_1_red_green.jpg)
-![](https://images.proteinatlas.org/36315/563_H4_2_red_green.jpg)
-![](https://images.proteinatlas.org/36315/566_H4_1_red_green.jpg)
-![](https://images.proteinatlas.org/36315/566_H4_2_red_green.jpg)
-![](https://images.proteinatlas.org/36315/569_H4_1_red_green.jpg)
-![](https://images.proteinatlas.org/36315/569_H4_2_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q9NVN8-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/GNL3L
+
+### PubMed
+
+**Count: 37**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q9NVN8 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | DOMAIN 125..310; /note="CP-type G"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01058" |
-| InterPro | IPR030378;IPR006073;IPR023179;IPR027417;IPR050755; |
-| Pfam | PF01926; |
+| 41801977 | Integrating machine learning with SHAP to uncover multi-tissue molecular signatures in Osteoarthritis progression. |
+| 41755636 | Distinct steps of nuclear maturation of human pre-60S complexes require the activity of GTPases including GNL3L. |
+| 40856423 | The GNL3L-MDM2 Interaction Drives Esophageal Squamous Cell Carcinoma Progression. |
+| 40466800 | Role of GNL3L in lung cancer: Mediating proliferation and progression through NF-κB pathway activation and upregulation of Slug, MMP2, and MMP9. |
+| 39940052 | Unveiling the prognostic significance of RNA editing-related genes in colon cancer: evidence from bioinformatics and experiment. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000130119-GNL3L/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| MDM2 | Intact, Biogrid | true |
-| ALAS1 | Intact | false |
-| CD70 | Bioplex | false |
-| DCDC2 | Intact | false |
-| DYNLL1 | Intact | false |
-| FTSJ1 | Biogrid | false |
-| GOLGA2 | Intact | false |
-| H2BC8 | Biogrid | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

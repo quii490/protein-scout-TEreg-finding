@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | CCDC85C / Coiled-coil domain-containing protein 85C |
+| 蛋白名称 | Coiled-coil domain-containing protein 85C |
 | 蛋白大小 | 419 aa / 45.2 kDa |
 | UniProt ID | A6NKD9 |
 | 评估日期 | 2026-06-01 |
@@ -187,3 +188,24 @@ Source: https://www.proteinatlas.org/ENSG00000205476-CCDC85C/interaction
 | PPP1R7 | Intact | false |
 | WWP2 | Biogrid | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| YAP1 | STRING | 758 |
+| LATS2 | BioGRID | 1 |
+| GGPS1 | BioGRID | 1 |
+| PPP1CC | BioGRID | 1 |
+| PPP1CA | BioGRID | 1 |
+| MBIP | BioGRID | 1 |
+| SETDB1 | BioGRID | 1 |
+| PPP1R13B | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+![PAE](https://alphafold.ebi.ac.uk/files/AF-A6NKD9-F1-predicted_aligned_error_v6.png)

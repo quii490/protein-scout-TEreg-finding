@@ -203,6 +203,34 @@ status: scored
 - [ ] 构建表达载体进行功能研究
 - [ ] Co-IP/MS 鉴定互作蛋白
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| KAT2B | STRING | 985 |
+| H2A | STRING | 920 |
+| PB1 | STRING | 914 |
+| PBRM1 | STRING | 914 |
+| SMARCB1 | STRING | 851 |
+| EP300 | STRING | 839 |
+| PSMD4 | STRING | 809 |
+| FAU | STRING | 793 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/57306/972_D12_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/57306/972_D12_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/57306/942_D12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/57306/942_D12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/57306/955_D12_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/57306/955_D12_7_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=MYSM1
 - Protein Atlas: https://www.proteinatlas.org/MYSM1

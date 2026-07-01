@@ -1,18 +1,18 @@
 ---
 type: protein-evaluation
-gene: "KBTBD7"
+gene: "KB暂无数据7"
 date: 2026-06-03
 tags: [protein-scout, nuclear-protein, evaluation]
 status: scored
 ---
 
-## KBTBD7 核蛋白评估报告 (Full Re-evaluation)
+## KB暂无数据7 核蛋白评估报告 (Full Re-evaluation)
 
 ### 1. 基本信息
 
 | 项目 | 内容 |
 |------|------|
-| 基因名 / 别名 | KBTBD7 |
+| 基因名 / 别名 | KB暂无数据7 |
 | 蛋白名称 | Kelch repeat and BTB domain-containing protein 7 |
 | 蛋白大小 | 684 aa / 77.2 kDa |
 | UniProt ID | Q8WVZ9 |
@@ -65,10 +65,10 @@ status: scored
 
 **关键文献**:
 1. Linear ubiquitination at damaged lysosomes induces local NFKB activation and controls cell survival.. *Autophagy*. PMID: 39744815
-2. The KBTBD6/7-DRD2 axis regulates pituitary adenoma sensitivity to dopamine agonist treatment.. *Acta neuropathologica*. PMID: 32572597
-3. KBTBD7, a novel human BTB-kelch protein, activates transcriptional activities of SRE and AP-1.. *BMB reports*. PMID: 20132730
+2. The KB暂无数据6/7-DRD2 axis regulates pituitary adenoma sensitivity to dopamine agonist treatment.. *Acta neuropathologica*. PMID: 32572597
+3. KB暂无数据7, a novel human BTB-kelch protein, activates transcriptional activities of SRE and AP-1.. *BMB reports*. PMID: 20132730
 4. New TFII-I family target genes involved in embryonic development.. *Biochemical and biophysical research communications*. PMID: 19527686
-5. Crocin inhibits KBTBD7 to prevent excessive inflammation and cardiac dysfunction following myocardial infarction.. *Molecular medicine reports*. PMID: 36484363
+5. Crocin inhibits KB暂无数据7 to prevent excessive inflammation and cardiac dysfunction following myocardial infarction.. *Molecular medicine reports*. PMID: 36484363
 
 **评价**: 极度新颖，几乎未被系统研究（PubMed ≤20篇）。
 
@@ -104,8 +104,8 @@ status: scored
 | Partner | Combined Score | Experimental | 功能类别 |
 |---------|---------------|--------------|---------|
 | CUL3 | 0.998 | 0.835 | — |
-| KBTBD6 | 0.995 | 0.809 | — |
-| KBTBD8 | 0.949 | 0.448 | — |
+| KB暂无数据6 | 0.995 | 0.809 | — |
+| KB暂无数据8 | 0.949 | 0.448 | — |
 | RBX1 | 0.941 | 0.322 | — |
 | SPOPL | 0.921 | 0.084 | — |
 | KCTD17 | 0.914 | 0.069 | — |
@@ -157,7 +157,7 @@ status: scored
 **推荐等级**: ⭐⭐⭐⭐
 
 **核心优势**:
-1. KBTBD7 — Kelch repeat and BTB domain-containing protein 7，极度新颖，几乎未被系统研究（PubMed ≤20篇）。
+1. KB暂无数据7 — Kelch repeat and BTB domain-containing protein 7，极度新颖，几乎未被系统研究（PubMed ≤20篇）。
 2. 蛋白大小684 aa，大小适中（200-800 aa），适合常规生化实验和结构解析。
 
 **风险/不确定性**:
@@ -170,10 +170,28 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CUL3 | STRING | 998 |
+| KB暂无数据6 | STRING | 995 |
+| RBX1 | STRING | 941 |
+| SPOPL | STRING | 921 |
+| KLHL8 | STRING | 910 |
+| SPOP | STRING | 907 |
+| KCTD13 | STRING | 904 |
+| TNFAIP1 | STRING | 903 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8WVZ9
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000120696-KBTBD7/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=KBTBD7
+- Protein Atlas: https://www.proteinatlas.org/ENSG00000120696-KB暂无数据7/subcellular
+- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=KB暂无数据7
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8WVZ9
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
@@ -197,7 +215,7 @@ status: scored
 | Pfam | PF07707;PF00651;PF20165;PF01344; |
 
 ### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000120696-KBTBD7/interaction
+Source: https://www.proteinatlas.org/ENSG00000120696-KB暂无数据7/interaction
 
 | Partner | Datasets | AF3/HPA structure |
 |---|---|:--:|
@@ -205,8 +223,8 @@ Source: https://www.proteinatlas.org/ENSG00000120696-KBTBD7/interaction
 | GABARAP | Intact, Biogrid | true |
 | GABARAPL1 | Intact, Biogrid | true |
 | GABARAPL2 | Intact, Biogrid | true |
-| KBTBD6 | Intact, Biogrid, Bioplex | true |
-| KBTBD8 | Intact, Biogrid | true |
+| KB暂无数据6 | Intact, Biogrid, Bioplex | true |
+| KB暂无数据8 | Intact, Biogrid | true |
 | LLGL1 | Biogrid, Bioplex | true |
 | MAP1LC3B | Intact, Biogrid | true |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->

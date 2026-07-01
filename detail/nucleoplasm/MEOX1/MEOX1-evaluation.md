@@ -155,6 +155,24 @@ status: scored
 - [ ] Co-IP 验证 PPI
 - [ ] 功能实验验证染色质调控角色
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PAX1 | STRING | 859 |
+| MEOX2 | STRING | 830 |
+| TBX6 | STRING | 774 |
+| EYA2 | STRING | 751 |
+| EAB1 | STRING | 751 |
+| SIX1 | STRING | 714 |
+| PAX3 | BioGRID | 1 |
+| APP | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprot/P50221
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/P50221
@@ -165,9 +183,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[MEOX1-PAE.png]]
 

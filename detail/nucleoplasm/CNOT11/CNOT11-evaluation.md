@@ -64,6 +64,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 
 **Research Volume Assessment**: 非常低（<10篇），几乎未被研究，是探索新型核蛋白功能的绝佳候选
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ELAVL1 | BioGRID | 0 |
+| NLK | BioGRID | 0 |
+| CT55 | BioGRID | 0 |
+| MMP7 | BioGRID | 0 |
+| CAPZA2 | BioGRID | 0 |
+| CNOT7 | BioGRID | 0 |
+| BTRC | BioGRID | 0 |
+| MED4 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. AlphaFold / PAE / PDB
 
 #### AlphaFold

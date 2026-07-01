@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | ATOH8 / ATH6 / BHLHA21; Transcription factor ATOH8; Class A basic helix-loop-helix protein 21; Protein atonal homolog 8 |
+| 蛋白名称 | Transcription factor ATOH8 |
 | 蛋白大小 | 321 aa / ~34.7 kDa |
 | UniProt ID | Q96SQ7 (ATOH8_HUMAN) |
 | 评估日期 | 2026-05-29 |
@@ -149,6 +150,19 @@ status: scored
 - [ ] 基于 bHLH 序列进行酵母双杂交筛选互作 partner
 - [ ] 确认 IF 核斑共定位（SC35/SRSF2 共染）
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TCF3 | BioGRID | 1 |
+| CYP3A5 | BioGRID | 0 |
+| SPPL3 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22ATOH8%22%5BTitle%2FAbstract%5D
 - UniProt: https://www.uniprot.org/uniprotkb/Q96SQ7
@@ -158,9 +172,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[ATOH8-PAE.png]]
 

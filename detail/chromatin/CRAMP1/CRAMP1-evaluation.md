@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | CRAMP1 / CRAMP1 |
+| 蛋白名称 | Protein cramped-like |
 | 蛋白大小 | 1269 aa / ~139.6 kDa |
 | UniProt ID | Q96RY5 |
 | 评估日期 | 2026-05-29 |
@@ -146,6 +147,19 @@ status: scored
 - [ ] SMART 结构域分析评估调控潜力
 - [ ] 深入文献检索确认已知功能
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| GON4L | STRING | 872 |
+| NPAT | STRING | 730 |
+| SS18L2 | STRING | 701 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96RY5
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q96RY5
@@ -157,9 +171,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[CRAMP1-PAE.png]]
 

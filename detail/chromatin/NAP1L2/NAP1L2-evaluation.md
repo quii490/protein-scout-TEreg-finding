@@ -96,6 +96,24 @@ NAP1L2 的 PPI 网络以 NAP1 家族内部互作为主（NAP1L1/L3/L5）。与 H
 ### 4. 总体评价
 NAP1L2 是本批次中需要特别谨慎的候选。**最大风险是 HPA IF 定位为 Plasma membrane + Cytosol，与 UniProt/GO-CC 的核定位推断矛盾**。优势包括：极低文献量（PubMed strict=14，新颖性 10/10）、NAP domain 家族功能明确（核小体组装）、460 aa 适中大小。劣势包括：核定位证据弱且存在冲突、无 PDB 结构、AF pLDDT 仅 67.0（35% 低置信区）、PPI 网络偏弱。建议在进一步评估前通过独立 IF 实验验证核定位。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CDX4 | STRING | 868 |
+| NAP1L3 | STRING | 817 |
+| SP110 | BioGRID | 1 |
+| CUL1 | BioGRID | 1 |
+| PPP3R1 | BioGRID | 1 |
+| FBL | BioGRID | 1 |
+| PPP1R13B | BioGRID | 1 |
+| KLHL2 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9ULW6
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9ULW6

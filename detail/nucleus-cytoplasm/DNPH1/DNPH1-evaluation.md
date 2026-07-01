@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | DNPH1 / C6orf108, RCL |
+| 蛋白名称 | 5-hydroxymethyl-dUMP N-hydrolase |
 | 蛋白大小 | 174 aa / 19.1 kDa |
 | UniProt ID | O43598 |
 | 评估日期 | 2026-05-31 |
@@ -208,6 +209,24 @@ IPR007710/PF05014 属于 Nucleoside 2-deoxyribosyltransferase 超家族，为核
 - [ ] 验证 DNPH1-SETDB1/KAT5 内源互作及功能意义
 - [ ] 探索 DNPH1 核定位是否受 DNA 损伤/细胞周期调控
 - [ ] 分析 DNPH1 底物 hmdCMP/hmdUMP 在 TE 区域的分布
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| DNPH1 | BioGRID | 1 |
+| TERF1 | BioGRID | 1 |
+| POT1 | BioGRID | 1 |
+| PRDX1 | BioGRID | 1 |
+| SSU72 | BioGRID | 1 |
+| ZNF593 | BioGRID | 1 |
+| CCNF | BioGRID | 1 |
+| ZRANB1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
 ### 5. 关键文献
 

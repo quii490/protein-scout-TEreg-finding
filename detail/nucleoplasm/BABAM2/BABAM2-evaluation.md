@@ -54,129 +54,39 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 4. PMID 41349746: Yao X, Liu Y, Kadira HI (2026 Jan). "Identification and evolution analysis of the fos gene family: highlighting the role of fosab in muscle growth of mandarin fish Siniperca chuatsi.." *International journal of biological macromolecules*.
 5. PMID 40775720: Yaman Y, Aymaz R, Keleş M (2025 Aug 8). "Investigation of growth traits in Turkish Merino lambs using multi-locus GWAS approaches: Karacabey Merino.." *BMC veterinary research*.
 
-### 5. AlphaFold 结构预测
+### PPI 互作网络
 
-| 平均 pLDDT | 92.5 |
-| pLDDT >90 | 76.5% |
-| pLDDT 70-90 | 22.2% |
-| pLDDT 50-70 | 1.3% |
-| pLDDT <50 | 0.0% |
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| BARD1 | STRING | 999 |
+| ABRAXAS2 | STRING | 999 |
+| BRCC3 | STRING | 999 |
+| BABAM1 | STRING | 999 |
+| BRCA1 | STRING | 999 |
+| ABRAXAS1 | STRING | 999 |
+| UIMC1 | STRING | 999 |
+| RAD51 | STRING | 975 |
 
-**评价**: AlphaFold 预测整体置信度极高（mean pLDDT 92.5，76% 残基 >90），蛋白折叠预测可靠。
 
+### TE 调控评估
 
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q9NXR7-F1-predicted_aligned_error_v6.png)
 
-### 6. PDB 条目
+### HPA IF 图像
 
-| PDB ID | Method | Resolution | Chains |
-|---|---|---|---|
-| 6H3C | EM | 3.90 A | C/H=1-383 |
-| 6R8F | EM | 3.80 A | E/G=1-133 |
-| 8PVY | EM | 3.02 A | E/F/K/L=1-383 |
-| 8PY2 | EM | 3.32 A | E/F/K/L=1-383 |
+HPA 检索: https://www.proteinatlas.org/search/BABAM2
 
-### 7. InterPro/Pfam 结构域
+### PubMed
 
-| InterPro | IPR010358 | IPR entry IPR010358 |
-| Pfam | PF06113 | Pfam entry PF06113 |
+**Count: 55**
 
-**评价**: BRISC complex 亚基，参与去泛素化 (K63-specific)。该复合体与BRCA1-A complex共享多个亚基，在DNA损伤应答和炎症信号中发挥作用。
-
-### 8. PPI 网络
-
-#### STRING Top 10
-
-| Partner | Combined Score | Experimental | Database | Textmining |
-|---|---|---|---|---|
-| BRCC3 | 0.999 | 0.999 | 0.900 | 0.998 |
-| ABRAXAS2 | 0.999 | 0.987 | 0.900 | 0.993 |
-| BABAM1 | 0.999 | 0.999 | 0.900 | 0.998 |
-| BRCA1 | 0.999 | 0.783 | 0.900 | 0.995 |
-| ABRAXAS1 | 0.999 | 0.994 | 0.900 | 0.997 |
-| BARD1 | 0.999 | 0.334 | 0.900 | 0.995 |
-| UIMC1 | 0.999 | 0.994 | 0.900 | 0.997 |
-| SHMT2 | 0.998 | 0.983 | 0.900 | 0.192 |
-| RAD51 | 0.975 | 0.573 | 0.720 | 0.814 |
-| BRCA2 | 0.960 | 0.566 | 0.720 | 0.704 |
-
-#### IntAct Top 10
-
-| Partner | Method | PMID | Interaction |
-|---|---|---|---|
-| BABAM1 | psi-mi:"MI:0398"(two hybrid pooling approach) | pubmed:16189514|imex:IM-16520|mint:MINT-5217968 | psi-mi:"MI:0915"(physical association) |
-| GFI1B | psi-mi:"MI:0018"(two hybrid) | pubmed:16713569|imex:IM-11827|mint:MINT-5218676 | psi-mi:"MI:0915"(physical association) |
-| ABRAXAS2 | psi-mi:"MI:0006"(anti bait coimmunoprecipitation) | pubmed:17353931 | psi-mi:"MI:0915"(physical association) |
-| BRCC3 | psi-mi:"MI:0006"(anti bait coimmunoprecipitation) | pubmed:17353931 | psi-mi:"MI:0915"(physical association) |
-| PHB1 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | imex:IM-12079|pubmed:19615732 | psi-mi:"MI:0914"(association) |
-| TMX3 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | imex:IM-12079|pubmed:19615732 | psi-mi:"MI:0914"(association) |
-| MMS19 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | imex:IM-12079|pubmed:19615732 | psi-mi:"MI:0914"(association) |
-| RPN2 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | imex:IM-12079|pubmed:19615732 | psi-mi:"MI:0914"(association) |
-| FKBP8 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | imex:IM-12079|pubmed:19615732 | psi-mi:"MI:0914"(association) |
-| ATG2A | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | imex:IM-12079|pubmed:19615732 | psi-mi:"MI:0914"(association) |
-
-#### UniProt 互作
-
-| Partner | Experiments |
+| PMID | Title |
 |---|---|
-| ABRAXAS2 | 3 |
-| BABAM1 | 17 |
-| BRCC3 | 4 |
-| SMAD4 | 5 |
+| 41349746 | Identification and evolution analysis of the fos gene family: highlighting the role of fosab in muscle growth of mandarin fish Siniperca chuatsi. |
+| 40783310 | Coexistence of a Novel BABAM2-ALK and EML4-ALK Double-Fusion in a Lung Adenocarcinoma Patient and Response to Alectinib: The First Case Report. |
+| 40775720 | Investigation of growth traits in Turkish Merino lambs using multi-locus GWAS approaches: Karacabey Merino. |
+| 40151001 | New insights into tumor microenvironment and HPV integrations in cervical cancer pathogenesis revealed by single-cell transcriptome data. |
+| 39468152 | LncRNA BRE-AS1 regulates the JAK2/STAT3-mediated inflammatory activation via the miR-30b-5p/SOC3 axis in THP-1 cells. |
 
-### 9. 总体评价
 
-**推荐等级**: ⭐⭐⭐⭐⭐ (5/5)
-
-**核心优势**:
-1. 核定位证据较为充分（得分 7/10）
-2. 研究新颖性极高：仅 6 篇严格文献，chromatin/epigenetics 方向几乎空白，属于真正的'未被开垦领域'
-3. 蛋白大小适中（383 aa），适合重组表达和结构研究
-
-**风险/不确定性**:
-
-**分类**: nucleoplasm
-**综合评分**: 75/100
-
----
-
-**数据来源**: UniProt Q9NXR7, HPA ENSG00000158019, AlphaFold AF-Q9NXR7-F1, STRING, IntAct
-
-PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。
-
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Cytosol (supported)。来源: https://www.proteinatlas.org/ENSG00000158019-BABAM2/subcellular
-
-![](https://images.proteinatlas.org/17926/143_C2_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/17926/143_C2_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/17926/144_C2_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/17926/144_C2_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/17926/145_C2_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/17926/145_C2_2_blue_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
-
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
-
-### SMART / UniProt domain
-| Source | Data |
-|---|---|
-| UniProt | Q9NXR7 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR010358; |
-| Pfam | PF06113; |
-
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000158019-BABAM2/interaction
-
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| ABRAXAS2 | Intact, Biogrid, Bioplex | true |
-| BABAM1 | Intact, Biogrid | true |
-| BRCC3 | Intact, Biogrid | true |
-| SHMT2 | Biogrid, Bioplex | true |
-| ABRAXAS1 | Biogrid | false |
-| BARD1 | Biogrid | false |
-| BRAF | Intact | false |
-| BRCA1 | Biogrid | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

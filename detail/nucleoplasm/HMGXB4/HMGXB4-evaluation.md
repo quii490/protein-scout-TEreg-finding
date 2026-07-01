@@ -89,6 +89,28 @@ PPI 网络是本批最亮眼的发现。STRING 中 NURF/chromatin remodeling 复
 ### 4. 总体评价
 HMGXB4 是本批中评分最高的候选（79.2/100）。核心优势：NURF 染色质重塑复合体实验确认的核蛋白、极高新颖性（PM=6）、PPI 网络指向 NURF/ISWI/NCOR1/BRD3 等多条染色质调控通路、Wnt/β-catenin 负调控功能。唯一短板是 AlphaFold 结构置信度偏低（pLDDT 55.7），但 HMG box domain 的存在部分弥补了结构不足。强烈建议作为高优先级核质候选。其与 TE 调控的潜在联系（NURF 复合体作为 ISWI 染色质重塑因子，可直接参与 TE 区域的染色质状态调控）值得进一步探索。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| C17ORF49 | STRING | 983 |
+| BPTF | STRING | 970 |
+| SMARCA1 | STRING | 969 |
+| SMARCA5 | STRING | 960 |
+| RBBP4 | STRING | 956 |
+| CECR2 | STRING | 922 |
+| BAZ1A | STRING | 903 |
+| MCM5 | STRING | 866 |
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/76681/1784_B4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/76681/1784_B4_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/76681/1767_A8_13_cr594a8d38d36f4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/76681/1767_A8_30_cr594ba204ccd7d_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9UGU5
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9UGU5

@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | ALKBH8 / ABH8 |
+| 蛋白名称 | tRNA (carboxymethyluridine(34)-5-O)-methyltransferase ALKBH8 |
 | 蛋白大小 | 664 aa / ~75.2 kDa |
 | UniProt ID | Q96BT7 |
 | 评估日期 | 2026-05-29 |
@@ -204,6 +205,34 @@ status: scored
 **下一步建议**:
 - [ ] 探究 DNA damage response 中的核功能
 - [ ] 利用现有 PDB 结构进行小分子探针设计
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TRMT112 | STRING | 995 |
+| ALKBH1 | STRING | 953 |
+| ALKBH2 | STRING | 835 |
+| ALKBH3 | STRING | 770 |
+| TRMT11 | STRING | 769 |
+| ALKBH4 | STRING | 763 |
+| ELP3 | STRING | 751 |
+| FTO | STRING | 742 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/38725/455_A11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38725/455_A11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38725/449_A11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38725/449_A11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38725/452_A11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38725/452_A11_2_blue_red_green.jpg)
+
 
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=ALKBH8

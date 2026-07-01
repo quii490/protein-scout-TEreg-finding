@@ -171,6 +171,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RAD1 | STRING | 989 |
+| HUS1 | STRING | 985 |
+| TOPBP1 | STRING | 982 |
+| RAD9A | STRING | 970 |
+| CLSPN | STRING | 867 |
+| CHEK1 | STRING | 866 |
+| BACH1 | STRING | 822 |
+| BRIP1 | STRING | 822 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9BSD3
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000171792-RHNO1/subcellular

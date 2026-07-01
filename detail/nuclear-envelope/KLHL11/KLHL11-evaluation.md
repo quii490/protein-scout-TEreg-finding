@@ -106,7 +106,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 | RBX1 | 0.629 | 0.000 | — |
 | NAE1 | 0.620 | 0.000 | — |
 | NEDD8 | 0.606 | 0.000 | — |
-| KBTBD13 | 0.604 | 0.000 | — |
+| KB暂无数据13 | 0.604 | 0.000 | — |
 | CUL1 | 0.587 | 0.105 | — |
 | IGLON5 | 0.586 | 0.000 | — |
 | LUZP4 | 0.581 | 0.000 | — |
@@ -168,6 +168,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CUL3 | STRING | 995 |
+| RHPN1 | BioGRID | 1 |
+| TRIM35 | BioGRID | 1 |
+| POU6F2 | BioGRID | 1 |
+| CCDC36 | BioGRID | 1 |
+| NUP155 | BioGRID | 1 |
+| ACPP | BioGRID | 1 |
+| ANXA3 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9NVR0

@@ -157,6 +157,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PPP2CA | STRING | 998 |
+| PPP2R2A | STRING | 980 |
+| PPME1 | STRING | 920 |
+| PPP4C | STRING | 870 |
+| PTPA | STRING | 843 |
+| PPP2R1A | STRING | 786 |
+| PPP4R2 | STRING | 748 |
+| PPP2R3B | STRING | 741 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9UIC8
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000205629-LCMT1/subcellular

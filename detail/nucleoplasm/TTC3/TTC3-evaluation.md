@@ -85,6 +85,34 @@ PPI 以 Akt 家族 (AKT1/2/3) 为核心 — TTC3 的 E3 ligase 活性需要 Akt 
 ### 4. 总体评价
 TTC3 是超大 RING-type E3 泛素连接酶（2025 aa），拥有良好的核定位证据（HPA nucleoplasm+nucleoli IDA）。其主要优势在于 Akt 通路终末负反馈调控的独特角色和中等文献量（PM=52）。严重劣势为蛋白极大（230 kDa）、无任何 PDB 结构、AF 预测质量差（>40% 残基无序），实验可操作性极低。不建议作为优先靶点，除非能聚焦于特定功能结构域。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| AKT1 | BioGRID | 0 |
+| AKT2 | BioGRID | 0 |
+| AKT3 | BioGRID | 0 |
+| UBE3A | BioGRID | 0 |
+| UBC | BioGRID | 0 |
+| UBE2D2 | BioGRID | 0 |
+| HSPB1 | BioGRID | 0 |
+| CSNK2A2 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/36304/1011_E2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36304/1011_E2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36304/1509_H1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36304/1509_H1_6_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36304/1006_E2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36304/1006_E2_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P53804
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/P53804

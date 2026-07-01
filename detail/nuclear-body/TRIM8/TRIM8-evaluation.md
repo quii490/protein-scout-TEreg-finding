@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | TRIM8 / GERP, RNF27 |
+| 蛋白名称 | E3 ubiquitin-protein ligase TRIM8 |
 | 蛋白全名 | E3 ubiquitin-protein ligase TRIM8 |
 | 蛋白大小 | 551 aa / 61.5 kDa |
 | UniProt ID | Q9BZR9 |
@@ -57,6 +58,47 @@ PubMed strict: 89
 **核心发现**: TRIM8 的 PPI 网络围绕 SOCS1 和 PIAS3 两个关键调控节点。SOCS1 是 JAK/STAT 信号抑制因子 -- TRIM8 通过 K63-linked poly-Ub 促进其降解以激活 IFN-gamma 信号。PIAS3 是 STAT3 的 SUMO E3 连接酶抑制剂 -- TRIM8 通过降解或核排出 PIAS3 来调控 STAT3 活性。
 
 IntAct 15 条记录（含多个 UBE2 泛素结合酶互作）。UniProt 记录 23 个互作 partner（含 LNX1, TARDBP, RNF168 等）。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SOCS1 | STRING | 946 |
+| PIAS3 | STRING | 764 |
+| TRIM8 | BioGRID | 1 |
+| UBE2D1 | BioGRID | 1 |
+| UBE2D2 | BioGRID | 1 |
+| UBE2D3 | BioGRID | 1 |
+| UBE2D4 | BioGRID | 1 |
+| UBE2V1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/23560/274_C2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/23560/274_C2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/23560/273_C2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/23560/273_C2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/23560/275_C2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/23560/275_C2_1_blue_red_green.jpg)
+
+
+### PubMed
+
+**Count: 122**
+
+| PMID | Title |
+|---|---|
+| 42343301 | A microprotein encoded by FERMT3 modulates endothelial cell protein catabolism and induces cell cycle arrest and senescence. |
+| 42336529 | Machine learning models decipher environmental pollutant-driven core genes in glioblastoma: Biomarkers for diagnosis, recurrence, and prognosis. |
+| 42229233 | CHK1 activates mitophagy to attenuate cardiac aging via inhibiting AHSA1-ubiquitination. |
+| 42228571 | SIRT5-mediated FDX1 desuccinylation confers cuproptosis resistance in lung adenocarcinoma. |
+| 42055487 | Integrative multi-omics analysis identifies key ubiquitination regulators in prostate cancer. |
+
 
 ### 5. 结构域与染色质调控潜力
 | 来源 | 结构域 |

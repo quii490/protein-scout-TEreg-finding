@@ -166,6 +166,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RIOK1 | STRING | 977 |
+| LRRC47 | STRING | 926 |
+| FAU | STRING | 920 |
+| RPS15 | STRING | 902 |
+| RPS18 | STRING | 900 |
+| NOB1 | STRING | 873 |
+| RPS23 | STRING | 854 |
+| RPS21 | STRING | 851 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8N9N8
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000175376-EIF1AD/subcellular

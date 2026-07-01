@@ -55,6 +55,53 @@ status: scored
 
 SLF2 is 1173 amino acids in length (~131.9 kDa). Acceptable size (1173 aa), suitable for routine experiments. Score 8/10.
 
+### 功能描述
+
+Plays a role in the DNA damage response (DDR) pathway by regulating postreplication repair of UV-damaged DNA and genomic stability maintenance (PubMed:25931565). The SLF1-SLF2 complex acts to link RAD18 with the SMC5-SMC6 complex at replication-coupled interstrand cross-links (ICL) and DNA double-strand breaks (DSBs) sites on chromatin during DNA repair in response to stalled replication forks (PubMed:25931565). Promotes the recruitment of the SMC5-SMC6 complex to DNA lesions (PubMed:25931565). 
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SLF1 | STRING | 999 |
+| SMC5 | STRING | 967 |
+| SMC6 | STRING | 955 |
+| NSMCE1 | STRING | 927 |
+| RAD18 | STRING | 924 |
+| NSMCE3 | STRING | 904 |
+| NSMCE2 | STRING | 883 |
+| NSMCE4A | STRING | 866 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/57568/975_B7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/57568/975_B7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/57568/976_B7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/57568/976_B7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/57568/980_B7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/57568/980_B7_7_blue_red_green.jpg)
+
+
+### PubMed
+
+**Count: 30**
+
+| PMID | Title |
+|---|---|
+| 41714759 | Structural integrity of the anterior thalamic radiation predicts alpha oscillations and inattention during visual encoding. |
+| 41294034 | SMC5/6-mediated plasmid silencing is directed by SIMC1-SLF2 and antagonized by the SV40 large T antigen. |
+| 40883817 | Integrative single-cell and bulk transcriptomic analysis reveals the landscape of T cell mitotic catastrophe associated genes in esophageal squamous c |
+| 40196500 | SMC5/6-Mediated Plasmid Silencing is Directed by SIMC1-SLF2 and Antagonized by LT. |
+| 40040952 | Transgenerational inheritance of hepatic steatosis in mice: sperm methylome is largely reprogrammed and inherited but does not globally influence live |
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

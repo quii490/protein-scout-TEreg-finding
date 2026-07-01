@@ -49,6 +49,53 @@ status: scored
 
 RTKN is 563 amino acids in length (~62.7 kDa). 563 aa, ideal range. Score 10/10.
 
+### 功能描述
+
+Mediates Rho signaling to activate NF-kappa-B and may confer increased resistance to apoptosis to cells in gastric tumorigenesis. May play a novel role in the organization of septin structures
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RHOA | STRING | 999 |
+| RHPN1 | STRING | 877 |
+| PAK1 | STRING | 872 |
+| SEPTIN4 | STRING | 750 |
+| APP | BioGRID | 1 |
+| YWHAB | BioGRID | 1 |
+| XPO1 | BioGRID | 1 |
+| ANAPC15 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/30259/296_H9_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/30259/296_H9_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/30259/295_H9_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/30259/295_H9_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/30259/297_H9_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/30259/297_H9_1_blue_red_green.jpg)
+
+
+### PubMed
+
+**Count: 77**
+
+| PMID | Title |
+|---|---|
+| 42230945 | Learning curve of a robotic knee system in total knee arthroplasty. |
+| 41963591 | Integrative phosphoproteomic analysis reveals co-regulatory phosphorylation networks of rhotekin in cancer progression. |
+| 41535254 | PSMD1 inhibition suppresses tumor progression and enhances antitumor immunity by modulating the RTKN/β-catenin/PD-L1 axis in hepatocellular carcinoma. |
+| 40776756 | [Retracted] MicroRNA-152 inhibits tumor cell growth by directly targeting RTKN in hepatocellular carcinoma. |
+| 40025790 | Rhotekin-1 is a novel interacting protein and regulator of TRPC6 activity. |
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

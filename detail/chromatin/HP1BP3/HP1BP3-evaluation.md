@@ -12,6 +12,7 @@ status: shortlisted
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | HP1BP3 / Heterochromatin protein 1-binding protein 3 / HP1-BP74 |
+| 蛋白名称 | Heterochromatin protein 1-binding protein 3 |
 | 蛋白大小 | 553 aa / 61.2 kDa |
 | UniProt ID | Q5SSJ5 |
 | 评估日期 | 2026-05-28 |
@@ -211,6 +212,20 @@ HP1BP3 的核心结构域 H15 是 **linker histone H1/H5 型结构域** (IPR0058
 - [ ] Co-IP/MS 验证 BRD4 和 CHD4 内源互作, 确认 HP1BP3 是否桥接 heterochromatin (HP1/H3K9me3) 和 active chromatin regulation (BRD4)
 - [ ] 纯化 HP1BP3 蛋白 (H15 domain region 157–413), 尝试 nucleosome binding 和 chromatin condensation 体外重建实验
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| HDGF | BioGRID | 1 |
+| SIRT7 | BioGRID | 1 |
+| CUL3 | BioGRID | 1 |
+| CUL5 | BioGRID | 1 |
+| CUL1 | BioGRID | 1 |
+| APP | BioGRID | 1 |
+| LMNB1 | BioGRID | 1 |
+| NOP16 | BioGRID | 1 |
+
+
 ### 5. 关键文献
 
 1. Hisaoka M et al. (2025). "Function of HP1BP3 as a linker histone is regulated by linker histone chaperones, NPM1 and TAF-I". *Epigenetics Chromatin*, 18(1):14. PMID: 40140990
@@ -230,9 +245,9 @@ HP1BP3 的核心结构域 H15 是 **linker histone H1/H5 型结构域** (IPR0058
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 
 PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。

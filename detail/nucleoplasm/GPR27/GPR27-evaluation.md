@@ -160,43 +160,35 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q9NS67
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000170837-GPR27/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=GPR27
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9NS67
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000170837-GPR27/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| REV3L | BioGRID | 0 |
+| ANKRD13C | BioGRID | 0 |
+| TTYH3 | BioGRID | 0 |
+| CHRNA4 | BioGRID | 0 |
+| TMEM259 | BioGRID | 0 |
 
-![](https://images.proteinatlas.org/29395/1386_F2_1_red_green.jpg)
-![](https://images.proteinatlas.org/29395/1386_F2_2_red_green.jpg)
-![](https://images.proteinatlas.org/29395/264_F10_1_red_green.jpg)
-![](https://images.proteinatlas.org/29395/264_F10_2_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q9NS67-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-07）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/GPR27
+
+### PubMed
+
+**Count: 36**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q9NS67 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR051509;IPR000276;IPR017452; |
-| Pfam | PF00001; |
+| 42269381 | International Union of Basic and Clinical Pharmacology. CXXII. Applying an objective evaluation to the status of class A orphan G protein-coupled rece |
+| 40270229 | Expression Significance and Prognostic Value of GPR27 in Ovarian Cancer. |
+| 39536984 | Spatial and quantitative gene expression analysis of SREB receptors in the gonads of green-spotted pufferfish (Dichotomyctere nigroviridis). |
+| 38638156 | GPR27 expression correlates with prognosis and tumor progression in gliomas. |
+| 38060818 | Development of Ligands for the Super Conserved Orphan G Protein-Coupled Receptor GPR27 with Improved Efficacy and Potency. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000170837-GPR27/interaction
 
-未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

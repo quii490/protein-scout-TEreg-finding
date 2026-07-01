@@ -102,7 +102,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 | TPGS1 | 0.574 | 0.000 | — |
 | CDC42EP5 | 0.518 | 0.000 | — |
 | FAM122B | 0.496 | 0.000 | — |
-| BTBD17 | 0.491 | 0.107 | — |
+| B暂无数据17 | 0.491 | 0.107 | — |
 | LEO1 | 0.475 | 0.398 | — |
 | MT-ND4 | 0.472 | 0.398 | — |
 | NXPH1 | 0.470 | 0.000 | — |
@@ -164,6 +164,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| EGLN3 | BioGRID | 1 |
+| PPP1CC | BioGRID | 1 |
+| RMDN3 | BioGRID | 1 |
+| GABRA3 | BioGRID | 1 |
+| DNASE1L1 | BioGRID | 1 |
+| ECEL1 | BioGRID | 1 |
+| GGH | BioGRID | 1 |
+| TM2D3 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8NBP0

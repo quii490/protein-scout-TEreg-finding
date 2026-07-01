@@ -117,7 +117,7 @@ status: scored
 
 
 **PPI 互证分析**:
-- （待补充：综合 STRING、IntAct 和 GO 数据库的互作信息，分析 PPI 网络的一致性）
+- （暂无数据：综合 STRING、IntAct 和 GO 数据库的互作信息，分析 PPI 网络的一致性）
 **评价**: PPI 数据极为稀少
 
 #### 3.7 多库互证
@@ -150,6 +150,24 @@ status: scored
 - [ ] 基于 PPI 网络开展功能研究
 - [ ] 结构分析: 基于 AlphaFold 的突变设计
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| YWHAE | STRING | 810 |
+| NOS1 | STRING | 800 |
+| SAMD4 | STRING | 794 |
+| YWHAB | BioGRID | 1 |
+| YWHAZ | BioGRID | 1 |
+| YWHAG | BioGRID | 1 |
+| ELAVL1 | BioGRID | 1 |
+| PTPN6 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=SAMD4B
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000179134-SAMD4B
@@ -162,9 +180,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[SAMD4B-PAE.png]]
 

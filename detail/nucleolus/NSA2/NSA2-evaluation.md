@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | NSA2 / TINP1 |
+| 蛋白名称 | Ribosome biogenesis protein NSA2 homolog |
 | 蛋白全名 | Ribosome biogenesis protein NSA2 homolog |
 | 蛋白大小 | 260 aa / 30.1 kDa |
 | UniProt ID | O95478 |
@@ -85,6 +86,34 @@ PPI 网络集中在核糖体 60S 亚基组装通路，STRING 中有 15+ 个 part
 
 ### 4. 总体评价
 NSA2 是一个文献量极低（strict=14）、结构验证充分（PDB 28 个 pre-60S Cryo-EM + pLDDT 87.7）、蛋白小型（30.1 kDa）的核仁蛋白候选。作为 60S 核糖体亚基组装因子，HPA Enhanced 确认 Nucleoplasm+Nucleoli 定位，PPI 网络极其密集且以高置信度实验互作为主（RPF2, GTPBP4 等 exp >0.98）。主要不足：功能域单一（仅为 ribosomal protein S8e domain），调控结构域得分偏低；UniProt 无实验互作记录需补强。综合评分高。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RSL24D1 | STRING | 999 |
+| PES1 | STRING | 999 |
+| GTPBP4 | STRING | 999 |
+| GNL2 | STRING | 999 |
+| MRTO4 | STRING | 999 |
+| RPF2 | STRING | 999 |
+| NIP7 | STRING | 997 |
+| WDR12 | STRING | 997 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/43487/1253_F4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43487/1253_F4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43487/510_H9_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43487/510_H9_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43487/860_F4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43487/860_F4_2_blue_red_green.jpg)
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O95478

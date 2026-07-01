@@ -97,6 +97,34 @@ ASF1B 的 PPI 网络高度集中于组蛋白伴侣/染色质组装体系。NASP�
 ### 4. 总体评价
 ASF1B 是核心组蛋白伴侣，与 CAF-1 协同完成复制偶联核小体组装。主要劣势是 PubMed 81 篇（新颖性仅 2/10）。优势包括：极小蛋白（202 aa）、HPA Enhanced 纯核质定位、4 个 PDB 结构（与 CDAN1 复合体）、ASF1 域直接结合 H3/H4、PPI 网络以组蛋白伴侣体系为核心（CAF-1/TLK/CDAN1）。是染色质组装领域的关键靶点，但需注意 ASF1A 的高度同源性（需区分功能）。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NASP | STRING | 999 |
+| H3F3A | STRING | 998 |
+| H3F3B | STRING | 998 |
+| CCNL1 | STRING | 996 |
+| MCM2 | STRING | 996 |
+| HIST1H4H | STRING | 993 |
+| MPP7 | STRING | 993 |
+| CHAF1B | STRING | 993 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/54036/885_F8_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/54036/885_F8_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/54036/869_F8_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/54036/869_F8_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/54036/849_F8_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/54036/849_F8_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9NVP2
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9NVP2

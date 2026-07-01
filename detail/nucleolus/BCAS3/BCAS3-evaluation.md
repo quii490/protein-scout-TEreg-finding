@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | BCAS3 / 无 |
+| 蛋白名称 | BCAS3 microtubule associated cell migration factor |
 | 蛋白全名 | BCAS3 microtubule associated cell migration factor |
 | 蛋白大小 | 928 aa / 101.2 kDa |
 | UniProt ID | Q9H6U6 (BCAS3_HUMAN) |
@@ -53,6 +54,37 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 3. PMID 40481608: Liu H, Sun N, Liu Z (2025 Jun 6). "Knockout of bcas3 gene causes neurodevelopment defects in zebrafish.." *Biological research*.
 4. PMID 32116088: Yamada Y, Schaap P (2021 Mar). "The proppin Bcas3 and its interactor KinkyA localize to the early phagophore and regulate autophagy.." *Autophagy*.
 5. PMID 33499712: Kojima W, Yamano K, Kosako H (2021 Aug). "Mammalian BCAS3 and C16orf70 associate with the phagophore assembly site in response to selective and non-selective autophagy.." *Autophagy*.
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CTBP1 | BioGRID | 0 |
+| CTBP2 | BioGRID | 0 |
+| CDC23 | BioGRID | 0 |
+| C16orf70 | BioGRID | 0 |
+| ZDHHC17 | BioGRID | 0 |
+| ESR1 | BioGRID | 0 |
+| PELP1 | BioGRID | 0 |
+| HIST1H3A | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### PubMed
+
+**Count: 70**
+
+| PMID | Title |
+|---|---|
+| 42325579 | BCAS-3 is required for the progression of autophagosome formation to degrade paternal mitochondria in Caenorhabditis elegans. |
+| 41993270 | FM-GPT: Bayesian fine mapping for phenome-wide transcriptome-wide association studies. |
+| 41868793 | CAMK1D as a potential therapeutic target for gut microbiota-driven promotion of lung adenocarcinoma development. |
+| 41045450 | TET2 Deficiency Exacerbates Podocyte Injury and Mitophagy Disorder in Diabetic Nephropathy by Regulating M5C Methylation of Bcas3. |
+| 40636370 | Primary extraskeletal osteosarcoma of the esophagus with PPM1D-BCAS3 fusion: a case report and literature review. |
+
 
 ### 5. AlphaFold 结构预测
 

@@ -167,6 +167,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MUC1 | STRING | 995 |
+| TRIM16 | STRING | 993 |
+| EGFR | STRING | 964 |
+| GEMIN4 | STRING | 945 |
+| ANXA7 | STRING | 931 |
+| BCL2 | STRING | 915 |
+| BCL-2 | STRING | 915 |
+| KDR | STRING | 911 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/3536/21_A11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3536/21_A11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3536/1030_D12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3536/1030_D12_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3536/20_A11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3536/20_A11_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P05162
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000100079-LGALS2/subcellular

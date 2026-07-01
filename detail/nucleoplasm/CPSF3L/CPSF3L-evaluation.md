@@ -163,6 +163,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| INTS6 | STRING | 999 |
+| INTS3 | STRING | 999 |
+| INTS5 | STRING | 999 |
+| INTS1 | STRING | 999 |
+| INTS9 | STRING | 999 |
+| INTS4 | STRING | 999 |
+| INTS7 | STRING | 998 |
+| INTS10 | STRING | 997 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/28379/256_C5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/28379/256_C5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/28379/255_C5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/28379/255_C5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/28379/257_C5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/28379/257_C5_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q5TA45
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000127054-CPSF3L/subcellular

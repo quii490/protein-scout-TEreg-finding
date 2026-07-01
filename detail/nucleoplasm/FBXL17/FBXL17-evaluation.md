@@ -122,7 +122,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 | CUL1 | psi-mi:"MI:0676"(tandem affinity purification) | pubmed:21145461|imex:IM-18651| |
 | KLHL14 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
 | KLHL2 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
-| KBTBD7 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
+| KB暂无数据7 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
 | ZBTB46 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
 | KLHL10 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
 | BACH1 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
@@ -170,6 +170,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CUL1 | STRING | 999 |
+| SKP1 | STRING | 998 |
+| SKP1A | STRING | 998 |
+| BACH1 | STRING | 980 |
+| KEAP1 | STRING | 955 |
+| RBX1 | STRING | 897 |
+| SUFU | STRING | 783 |
+| CUL3 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9UF56
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000145743-FBXL17/subcellular
@@ -213,8 +231,8 @@ Source: https://www.proteinatlas.org/ENSG00000145743-FBXL17/interaction
 | Partner | Datasets | AF3/HPA structure |
 |---|---|:--:|
 | BACH1 | Biogrid, Bioplex | true |
-| KBTBD7 | Biogrid, Bioplex | true |
-| KBTBD8 | Intact, Biogrid | true |
+| KB暂无数据7 | Biogrid, Bioplex | true |
+| KB暂无数据8 | Intact, Biogrid | true |
 | KLHL12 | Intact, Biogrid | true |
 | SKP1 | Intact, Biogrid, Bioplex | true |
 | SPAST | Intact, Biogrid | true |

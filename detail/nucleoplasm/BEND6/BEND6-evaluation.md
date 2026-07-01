@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | BEND6 / BEN domain-containing protein 6 / C6orf65 |
+| 蛋白名称 | BEN domain-containing protein 6 |
 | 蛋白大小 | 279 aa / 31.2 kDa |
 | UniProt ID | Q5SZJ8 |
 | 评估日期 | 2026-06-01 |
@@ -158,3 +159,32 @@ Source: https://www.proteinatlas.org/ENSG00000151917-BEND6/interaction
 
 未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ZNF451 | STRING | 777 |
+| SREBF2 | BioGRID | 1 |
+| MED29 | BioGRID | 1 |
+| TFAM | BioGRID | 1 |
+| OR13G1 | BioGRID | 0 |
+| ORAOV1 | BioGRID | 0 |
+| ATP5C1 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/52973/1876_G8_35_blue_red_green.jpg)
+![](https://images.proteinatlas.org/52973/1876_G8_38_blue_red_green.jpg)
+![](https://images.proteinatlas.org/52973/1184_C8_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/52973/1184_C8_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/52973/1055_D3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/52973/1055_D3_3_blue_red_green.jpg)
+

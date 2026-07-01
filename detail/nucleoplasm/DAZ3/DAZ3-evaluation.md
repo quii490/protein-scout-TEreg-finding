@@ -169,6 +169,23 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CDY1 | STRING | 946 |
+| CDY2A | STRING | 898 |
+| BPY2 | STRING | 892 |
+| USP9Y | STRING | 758 |
+| DDX3Y | STRING | 757 |
+| UTY | STRING | 715 |
+| CFTR | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9NR90
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000187191-DAZ3/subcellular

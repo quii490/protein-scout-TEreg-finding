@@ -236,3 +236,24 @@ Source: https://www.proteinatlas.org/ENSG00000037757-MRI1/interaction
 | PRKN | Biogrid | false |
 | SH3GLB1 | Intact | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| APIP | STRING | 992 |
+| MTAP | STRING | 991 |
+| ENOPH1 | STRING | 975 |
+| CYREN | STRING | 890 |
+| ADD1 | STRING | 796 |
+| MRI1 | BioGRID | 1 |
+| PPP3CA | BioGRID | 1 |
+| LRRC40 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q9BV20-F1-predicted_aligned_error_v6.png)

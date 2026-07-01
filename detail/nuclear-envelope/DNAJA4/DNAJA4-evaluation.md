@@ -172,6 +172,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| UBC | BioGRID | 0 |
+| SH3BP4 | BioGRID | 0 |
+| ERG | BioGRID | 0 |
+| ENDOG | BioGRID | 0 |
+| DNAJA2 | BioGRID | 0 |
+| DNAJA1 | BioGRID | 0 |
+| TUBA1A | BioGRID | 0 |
+| TUBB6 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白的 GO-CC 注释中缺乏染色质/TE 沉默相关定位，TE 调控潜力较低。不建议作为 TE 调控优先靶标。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/41790/862_E1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41790/862_E1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41790/859_E1_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41790/859_E1_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41790/2210_D12_14_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41790/2210_D12_13_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8WW22
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000140403-DNAJA4/subcellular

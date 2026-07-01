@@ -73,10 +73,10 @@ status: scored
 
 
 **已知复合体成员** (GO Cellular Component):
-- （待补充：通过 GO 数据库查询该蛋白所属的已知复合体）
+- （暂无数据：通过 GO 数据库查询该蛋白所属的已知复合体）
 
 **PPI 互证分析**:
-- （待补充：综合 STRING、IntAct 和 GO 数据库的互作信息，分析 PPI 网络的一致性）
+- （暂无数据：综合 STRING、IntAct 和 GO 数据库的互作信息，分析 PPI 网络的一致性）
 **关键文献**:
 1. Chen et al. (2023). "A+T rich interaction domain protein 3a (Arid3a) impairs Mertk-mediated efferocytosis in cholestasis.". *J Hepatol*. PMID: 37659731
 2. Mao et al. (2024). "ARID3A enhances chemoresistance of pancreatic cancer via inhibiting PTEN-induced ferroptosis.". *Redox Biol*. PMID: 38781729
@@ -202,6 +202,24 @@ status: scored
 - [ ] 研究 SWI/SNF 复合体协同 ARID3A 调控的分子机制
 - [ ] **高优先级推荐** — 得分 **89.2/100** (原79.1), 核定位升至9分(HPA Supported), 结构+PDB升至8分
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TP53 | STRING | 929 |
+| BTK | STRING | 835 |
+| ARID3B | STRING | 814 |
+| ARID3C | STRING | 716 |
+| E2F1 | BioGRID | 1 |
+| ELAVL1 | BioGRID | 1 |
+| SP100 | BioGRID | 1 |
+| UBE2E3 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q99856
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000116017-ARID3A/subcellular
@@ -215,9 +233,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[ARID3A-PAE.png]]
 

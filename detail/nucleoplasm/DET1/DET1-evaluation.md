@@ -148,6 +148,25 @@ status: scored
 - [ ] AlphaFold 结构预测分析
 - [ ] Co-IP/MS 验证PPI网络
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| DDB1 | STRING | 999 |
+| RFWD2 | STRING | 997 |
+| COP1 | STRING | 997 |
+| CUL4A | STRING | 980 |
+| CRBN | STRING | 965 |
+| RBX1 | STRING | 963 |
+| DCAF16 | STRING | 936 |
+| DDA1 | STRING | 934 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q7L5Y6-F1-predicted_aligned_error_v6.png)
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q7L5Y6
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=DET1
@@ -158,9 +177,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 <!-- DOMAIN_HUMANPPI_REPAIR_START -->
 ## Domain/SMART 与 humanPPI 补充（2026-06-07）

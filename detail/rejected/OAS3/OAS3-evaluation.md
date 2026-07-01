@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | OAS3 / 2'-5'-oligoadenylate synthetase 3 / p100 |
+| 蛋白名称 | 2'-5'-oligoadenylate synthase 3 |
 | 蛋白大小 | 1087 aa / ~121 kDa |
 | UniProt ID | Q9Y6K5 |
 | 评估日期 | 2026-05-28 |
@@ -119,6 +120,47 @@ status: scored
 **风险/不确定性**: 功能完全定位于先天免疫/抗病毒，与 TEreg/chromatin 核心关注点完全不重合。
 
 **结论**: 不推荐作为染色质/转录调控实验室的研究目标。OAS3 是重要的先天免疫蛋白，但与核蛋白筛选目标不符。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MAVS | BioGRID | 0 |
+| EIF6 | BioGRID | 0 |
+| LYAR | BioGRID | 0 |
+| FTSJ3 | BioGRID | 0 |
+| DHX30 | BioGRID | 0 |
+| GNL3 | BioGRID | 0 |
+| GTPBP4 | BioGRID | 0 |
+| HIST1H1C | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/41253/836_F2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41253/836_F2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41253/857_E10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41253/857_E10_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41253/847_E10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41253/847_E10_2_blue_red_green.jpg)
+
+
+### PubMed
+
+**Count: 281**
+
+| PMID | Title |
+|---|---|
+| 42358738 | Stage-specific disruption of erythropoiesis leads to anemia in newly diagnosed multiple myeloma patients. |
+| 42322860 | Proteomics-based characterization of apigenin-mediated anti-inflammatory effects in TNF-α-stimulated ARPE-19 cells. |
+| 42306510 | Genetic variations on influenza virus infection outcomes in Moroccan patients. |
+| 42305505 | Parimifasor elicits broad-spectrum antitumor effects by suppressing the expression of oncogenic genes. |
+| 42286429 | Identification of Genetic Diagnostic Markers for Systemic Lupus Erythematosus. |
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9Y6K5

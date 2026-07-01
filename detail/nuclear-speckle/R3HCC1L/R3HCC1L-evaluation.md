@@ -163,6 +163,35 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CCDC103 | BioGRID | 0 |
+| MOV10 | BioGRID | 0 |
+| PABPC1 | BioGRID | 0 |
+| MAGOH | BioGRID | 0 |
+| RBM8A | BioGRID | 0 |
+| LRRIQ3 | BioGRID | 0 |
+| SARS | BioGRID | 0 |
+| MKS1 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### PubMed
+
+**Count: 3**
+
+| PMID | Title |
+|---|---|
+| 38200094 | Strong selection signatures for Aleutian disease tolerance acting on novel candidate genes linked to immune and cellular responses in American mink (N |
+| 37140987 | Identification of long noncoding RNAs with aberrant expression in prostate cancer metastases. |
+| 33357513 | Host genetic effects in pneumonia. |
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q7Z5L2
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000166024-R3HCC1L/subcellular

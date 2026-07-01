@@ -60,6 +60,24 @@ IntAct 15 条记录（含 SAT1, MAGEA11 two-hybrid, LRRK2/PDPK1 co-IP 等）。U
 
 **核功能线索**: TCF25 的 RQC 功能主要发生于胞质核糖体，但其 Nucleus 定位提示可能参与核内核糖体质量控制或转录/剪接偶联的质量控制通路。2025 年文献报道 TCF25 作为 nutrient sensor 调控溶酶体酸化 (Cell Rep, PMID:40844875)，暗示非 RQC 的额外核功能。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| GPRASP2 | STRING | 994 |
+| NEMF | STRING | 956 |
+| VCP | STRING | 826 |
+| ANKZF1 | STRING | 796 |
+| MAGEA11 | BioGRID | 1 |
+| NEK2 | BioGRID | 1 |
+| RPS10 | BioGRID | 1 |
+| XIAP | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 结构域与染色质调控潜力
 | 来源 | 结构域 |
 |---|---|

@@ -218,6 +218,34 @@ _notes: "PubMed=45 (<100) → 基线提升: 域3→6; 核=6 (双定位); PDB查�
 - [ ] FIBP knockdown/knockout RNA-seq — 是否影响 splicing 或 gene expression？
 - [ ] 鉴于 TROFAS 疾病涉及过度生长和发育缺陷，可考虑 ChIP-seq 探索 FIBP 是否间接影响染色质状态
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CDK5 | STRING | 875 |
+| CABLES1 | STRING | 836 |
+| CABLES2 | STRING | 829 |
+| TMEM94 | STRING | 810 |
+| OGT | BioGRID | 1 |
+| EIF6 | BioGRID | 1 |
+| GEMIN4 | BioGRID | 1 |
+| MIF | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/11729/1207_B12_6_blue_red_green.jpg)
+![](https://images.proteinatlas.org/11729/1207_B12_7_blue_red_green.jpg)
+![](https://images.proteinatlas.org/11729/1034_D5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/11729/1034_D5_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/11729/90_G4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/11729/90_G4_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O43427
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/O43427
@@ -231,9 +259,9 @@ _notes: "PubMed=45 (<100) → 基线提升: 域3→6; 核=6 (双定位); PDB查�
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[FIBP-PAE.png]]
 

@@ -169,6 +169,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SIX3 | STRING | 867 |
+| ATOH7 | STRING | 820 |
+| POU4F2 | STRING | 792 |
+| POU4F1 | STRING | 754 |
+| SIX6 | STRING | 729 |
+| ISL1 | STRING | 712 |
+| PAX6 | BioGRID | 1 |
+| WDR20 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P58304
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000119614-VSX2/subcellular

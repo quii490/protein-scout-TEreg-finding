@@ -193,6 +193,20 @@ ALKBH2属于AlkB家族，利用Fe(II)/2OG辅因子催化烷基化DNA碱基的氧
 
 PPI网络主要依赖ALKBH家族的文本挖掘共现，实验互作伙伴较少且多为高通量筛选。SLX4是结构特异性核酸酶支架蛋白，参与DNA修复; LCN15 (Lipocalin-15) 功能未知，但与ALKBH2的co-IP来自系统性互作组研究。PPI网络薄弱。**评分: 4/10**。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ALKBH1 | STRING | 986 |
+| JMJD4 | STRING | 862 |
+| ALKBH6 | STRING | 840 |
+| ALKBH8 | STRING | 835 |
+| ALKBH4 | STRING | 769 |
+| FTO | STRING | 719 |
+| GTF2B | BioGRID | 1 |
+| DHX16 | BioGRID | 1 |
+
+
 ### 5. Rescue Decision
 
 **决策: RESCUED TO SCORED**

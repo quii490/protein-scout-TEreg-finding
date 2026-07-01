@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | CCDC9B / C15orf52 |
+| 蛋白名称 | Coiled-coil domain-containing protein 9B |
 | 蛋白全名 | Coiled-coil domain-containing protein 9B |
 | 蛋白大小 | 534 aa / 57.3 kDa |
 | UniProt ID | Q6ZUT6 |
@@ -179,6 +180,20 @@ HPA IF 图像可用 (8张)，待下载。
 - [ ] 获取 HPA IF 图像确认核定位
 - [ ] 查阅最新关键文献补充功能细节
 - [ ] 设计体外 DNA/染色质结合实验
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/40484/517_D7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40484/517_D7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41834/570_G6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41834/570_G6_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41834/584_G6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41834/584_G6_2_blue_red_green.jpg)
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q6ZUT6

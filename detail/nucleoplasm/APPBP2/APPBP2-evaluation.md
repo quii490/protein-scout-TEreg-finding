@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | APPBP2 / KIAA0228, PAT1 |
+| 蛋白名称 | Amyloid protein-binding protein 2 |
 | 蛋白大小 | 585 aa / 66.9 kDa |
 | UniProt ID | Q92624 |
 | 评估日期 | 2026-05-29 |
@@ -161,6 +162,24 @@ APPBP2 的 UniProt 注释列出了与多种蛋白的交互 (3-8 experiments each
 - [ ] 进一步评估 APPBP2 核质穿梭的生理意义
 - [ ] 验证其 Cul2-RING 泛素连接酶功能是否影响核蛋白降解
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| APP | BioGRID | 0 |
+| CNTFR | BioGRID | 0 |
+| MUL1 | BioGRID | 0 |
+| EID3 | BioGRID | 0 |
+| MFSD3 | BioGRID | 0 |
+| CREB3 | BioGRID | 0 |
+| WDR24 | BioGRID | 0 |
+| ZCCHC12 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=APPBP2
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000010539-APPBP2
@@ -172,9 +191,9 @@ APPBP2 的 UniProt 注释列出了与多种蛋白的交互 (3-8 experiments each
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[APPBP2-PAE.png]]
 

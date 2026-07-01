@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | AP5S1 / C20orf29 |
+| 蛋白名称 | AP-5 complex subunit sigma-1 |
 | 蛋白全名 | AP-5 complex subunit sigma-1 |
 | 蛋白大小 | 200 aa / 22.5 kDa |
 | UniProt ID | Q9NUS5 |
@@ -81,6 +82,24 @@ STRING 强支持 AP5M1, AP5B1, AP5Z1, SPG11 等 AP-5/膜运输网络。IntAct �
 
 ### 4. 总体评价
 AP5S1 不是经典核蛋白；主定位和 PPI 网络都偏 endosome/lysosome/adaptor complex。但 GO nucleoplasm IDA:HPA 和 DNA repair 注释使其不能简单丢弃。保留为低-中置信度 nucleus-cytoplasm 候选，后续应优先核查 HPA 原图或做内源 IF。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| LDLR | BioGRID | 0 |
+| ZFYVE26 | BioGRID | 0 |
+| MORF4L1 | BioGRID | 0 |
+| ACBD6 | BioGRID | 0 |
+| PRAME | BioGRID | 0 |
+| AP5B1 | BioGRID | 0 |
+| MRGBP | BioGRID | 0 |
+| SPG11 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9NUS5

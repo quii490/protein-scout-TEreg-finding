@@ -162,6 +162,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| GSK3B | STRING | 850 |
+| IRX3 | STRING | 731 |
+| IRX4 | STRING | 729 |
+| SMYD2 | BioGRID | 1 |
+| PPP1CA | BioGRID | 1 |
+| PPP1CB | BioGRID | 1 |
+| PPP1CC | BioGRID | 1 |
+| CUL3 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白的 GO-CC 注释中缺乏染色质/TE 沉默相关定位，TE 调控潜力较低。不建议作为 TE 调控优先靶标。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9UKA4
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000023516-AKAP11/subcellular

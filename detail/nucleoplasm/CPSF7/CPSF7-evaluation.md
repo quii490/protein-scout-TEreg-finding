@@ -67,6 +67,24 @@ HPA IF images not reliably obtained (no subcellular IF images available on HPA s
 
 **Research Volume Assessment**: Low (<50 papers), ample research space
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NUDT21 | STRING | 999 |
+| CPSF6 | STRING | 996 |
+| CPSF1 | STRING | 991 |
+| CSTF2 | STRING | 986 |
+| CPSF2 | STRING | 985 |
+| CPSF3 | STRING | 983 |
+| U2AF2 | STRING | 980 |
+| CPSF4 | STRING | 979 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. AlphaFold / PAE / PDB
 
 #### AlphaFold

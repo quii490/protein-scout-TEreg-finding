@@ -12,6 +12,8 @@
   <nav>
     <a href="../protein_index.html">总表</a>
     <a href="../category/nucleoplasm.html">Nucleoplasm</a><a href="../category/nucleus-cytoplasm.html">Nucleus-cytoplasm</a><a href="../category/nuclear-speckle.html">Nuclear speckle</a><a href="../category/nuclear-body.html">Nuclear body</a><a href="../category/nucleolus.html">Nucleolus</a><a href="../category/nuclear-envelope.html">Nuclear envelope</a><a href="../category/chromatin.html">Chromatin</a><a href="../category/rejected.html">Rejected</a>
+    <a href="../centrosome/index.html">Centrosome</a>
+    <a href="../sperm/index.html">Sperm</a>
   </nav>
 </header><main class="container report-shell"><section class="panel"><h1>DGCR6</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">总分: 71.4</span><span class="badge">核定位: 7</span><a class="button small" href="../protein_index.html">蛋白总表</a><a class="button small" href="../category/nucleoplasm.html">分类页</a></div><p class="source-path">原始 detail 路径: detail/nucleoplasm/DGCR6/DGCR6-evaluation.md</p></section><article class="report-body"><hr>
 <p>type: protein-evaluation gene: &quot;DGCR6&quot; date: 2026-06-03 tags: [protein-scout, nuclear-protein, evaluation] status: scored ---</p>
@@ -128,6 +130,25 @@
 <p><strong>风险/不确定性</strong>: 1. PubMed 26 篇，已有一定研究基础 2. 结构数据质量可接受</p>
 <p><strong>下一步建议</strong>:</p>
 <ul><li>[ ] 查阅最新关键文献补充研究背景</li><li>[ ] 获取 Protein Atlas IF 图像确认亚细胞定位</li><li>[ ] 设计体外实验验证核定位及潜在调控功能</li></ul>
+<h4>PPI 互作网络</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>互作伙伴</th><th>来源</th><th>评分</th></tr></thead><tbody>
+<tr><td>PRODH2</td><td>STRING</td><td>891</td></tr>
+<tr><td>PRODH</td><td>STRING</td><td>891</td></tr>
+<tr><td>ZNF74</td><td>STRING</td><td>842</td></tr>
+<tr><td>HIRA</td><td>STRING</td><td>744</td></tr>
+<tr><td>TBX1</td><td>STRING</td><td>707</td></tr>
+<tr><td>APP</td><td>BioGRID</td><td>1</td></tr>
+<tr><td>ARNT2</td><td>BioGRID</td><td>1</td></tr>
+<tr><td>CTBP1</td><td>BioGRID</td><td>1</td></tr>
+</tbody></table></div>
+<h4>深度机制分析</h4>
+<p><strong>结构域架构</strong>：DGCR6（220 aa, UniProt Q14129）位于22q11.2 DiGeorge综合征关键区域，该位点以低拷贝重复序列介导的基因组重排易感性著称。蛋白包含单一注释结构域（IPR010849/PF07324, DGCR6 domain），几乎覆盖全长（残基~10-210）。AlphaFold v6预测高度有序的全α-螺旋束结构（pLDDT=85.9，70.0%残基&gt;90，有序区81.4%），疏水核心包装致密。PAE显示单一紧凑球状结构域，无多域装配特征。预测结构表明DGCR6为稳定折叠的单体核蛋白，与其UniProt核定位注释一致。无可用PDB实验结构，但pLDDT=85.9使该预测模型高度可信，可直接用于突变设计和功能分析。</p>
+<p><strong>PPI网络分析</strong>：STRING互作网络将DGCR6置于22q11.2缺失综合征基因簇核心。主要伙伴包括PRODH（0.891, 脯氨酸脱氢酶）、DGCR2（0.846, 黏附受体）和ZNF74（0.842, 锌指蛋白）——三者均在22q11.2物理连续排列，在综合征中共同缺失。HIRA（0.762）是H3.3组蛋白伴侣，在染色质组装和转录调控中作用明确。TBX1（0.707）是DiGeorge表型的主要剂量敏感性驱动因子。关键提示：所有STRING互作的实验评分均为0，表明这些关联源自基因组邻近/共表达相关性而非直接物理结合。IntAct（PMID:32296183, PMID:24722188）提供了物理互作证据：INIP（INTS3互作蛋白，参与DNA损伤应答）、ESS2（剪接体组分）、FH（延胡索酸水合酶）、AKAP8L（核定位A激酶锚定蛋白）和ARNT2（bHLH转录因子），极大地扩展了DGCR6的功能可能性。</p>
+<p><strong>结构解读与机制模型</strong>：DGCR6可能参与22q11.2位点的染色质组织。其核定位和HIRA互作（STRING score=0.762，基因邻近）至关重要：HIRA介导不依赖复制的H3.3染色质组装，而DGCR6可能辅助HIRA将H3.3沉积到22q11.2区域。INIP互作（Bioplex, IntAct）暗示参与Integrator-PP2A复合体——Integrator控制RNA聚合酶II持续合成能力和snRNA 3&#x27;端加工，表明DGCR6可能参与转录调控。DGCR6总体功能模型为：在22q11.2区域作为染色质架构因子，一方面维持基因组稳定性（防止异常同源重组），另一方面协调区域基因的转录输出。α-螺旋束折叠可能作为蛋白-蛋白互作支架，介导染色质修饰复合物的招募。</p>
+<p><strong>TE调控意义与实验建议</strong>：DGCR6与HIRA介导的H3.3沉积关联具有TE生物学重要性。H3.3富集是活性转录区域和特定重复元件（包括ERV/LTR反转录转座子）的标志特征。DGCR6可能调控HIRA依赖的H3.3在TE位点的掺入，从而影响TE转录活性。此外，22q11.2区域本身就是片段重复和反转录序列的热点区域，使DGCR6成为研究基因组结构变异与TE调控相互作用的理想候选。实验优先级：（1）ChIP-seq确定DGCR6全基因组结合图谱，特别关注重复序列；（2）co-IP验证与HIRA的功能关联；（3）DGCR6过表达/敲低后TE家族特异性RNA-seq；（4）4C/Hi-C分析DGCR6结合的染色质构象变化。</p>
+<h4>TE 调控评估</h4>
+<p>该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。</p>
 <h4>5. 数据来源</h4>
 <ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q14129</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000183628-DGCR6/subcellular</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=DGCR6</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q14129</li><li>STRING: https://string-db.org/network/9606.ENSP00000</li><li>Data fetched live: 2026-06-03</li></ul>
 <p>&lt;!-- AF_PAE_REPAIR_START --&gt; <strong>PAE 图像修正（2026-06-05）</strong>: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。</p>

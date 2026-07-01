@@ -19,7 +19,7 @@
 | 3. Research Novelty | 10 | 10 | PubMed strict: 18. Novelty rule: 1-50=10. |
 | 4. 3D Structure | 30 | 8 | AlphaFold mean pLDDT: 54.1 (18.3% >90, 9.3% 70-90, 7.9% 50-70, 64.5% <50). PDB: None. VERY low confidence. Majority of protein is low-confidence. |
 | 5. Regulatory Domains | 50 | 40 | IPR014890, IPR009061, IPR010919, IPR003380, IPR037000, IPR023216. PF08782, PF02437. FUNCTION: Acts as transcriptional corepressor of LBX1. Inhibits BMP signaling. SKI family transcriptional corepressor -- SKI family proteins are well-established transcriptional repressors involved in TGF-beta/BMP and other signaling pathways. Transcriptional corepressor with direct regulatory function. |
-| 6. PPI Network | 50 | 25 | STRING: 15 partners. MAP2K5 (0.974), LBX1 (0.887), BTBD9 (0.884), MEIS1 (0.844), TLE1 (0.746, experimental), SMAD3 (0.613, experimental), CTBP1 (0.532, experimental). IntAct: 10 interactors. HDAC1 (Co-IP), TLE1 (Co-IP), CTBP1 (Co-IP), LBX1 (cross-link), HIPK2, TRIM27, PRKAA1, HDAC6, DYRK1B. |
+| 6. PPI Network | 50 | 25 | STRING: 15 partners. MAP2K5 (0.974), LBX1 (0.887), B暂无数据9 (0.884), MEIS1 (0.844), TLE1 (0.746, experimental), SMAD3 (0.613, experimental), CTBP1 (0.532, experimental). IntAct: 10 interactors. HDAC1 (Co-IP), TLE1 (Co-IP), CTBP1 (Co-IP), LBX1 (cross-link), HIPK2, TRIM27, PRKAA1, HDAC6, DYRK1B. |
 | **TOTAL** | **180** | **113** | |
 
 ---
@@ -92,7 +92,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 |---------|-------|-------------|----------|
 | MAP2K5 | 0.974 | 0 | MEK5 kinase |
 | LBX1 | 0.887 | 0 | Transcription factor (SKOR1 targets) |
-| BTBD9 | 0.884 | 0 | RLS-associated |
+| B暂无数据9 | 0.884 | 0 | RLS-associated |
 | MEIS1 | 0.844 | 0 | Homeobox TF |
 | TLE1 | 0.746 | 0.095 | Transcriptional corepressor |
 | SMAD3 | 0.613 | 0.071 | TGF-beta/BMP signaling |
@@ -178,3 +178,24 @@ Source: https://www.proteinatlas.org/ENSG00000188779-SKOR1/interaction
 
 未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| LBX1 | STRING | 887 |
+| B暂无数据9 | STRING | 884 |
+| MEIS1 | STRING | 844 |
+| TLE1 | STRING | 746 |
+| HDAC6 | BioGRID | 1 |
+| DYRK1B | BioGRID | 1 |
+| TRIM27 | BioGRID | 1 |
+| PRKAA1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+![PAE](https://alphafold.ebi.ac.uk/files/AF-P84550-F1-predicted_aligned_error_v6.png)

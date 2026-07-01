@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | CFDP1 / 异染色质稳定蛋白CFDP1 |
+| 蛋白名称 | Heterochromatin-stabilizing protein CFDP1 |
 | 蛋白大小 | 299 aa / 33.6 kDa |
 | UniProt ID | Q9UEE9 |
 | 评估日期 | 2026-05-29 |
@@ -122,13 +123,32 @@ STRONG: UniProt chromatin location + STRING SRCAP/SWR1 complex + IntAct histone 
 2. 新颖研究领域
 
 **风险/不确定性**:
-1. IF图像数据待补充
+1. IF图像数据暂无数据
 2. 功能研究较浅，缺乏机制阐明
 
 **下一步建议**:
 - [ ] 获取 Protein Atlas IF 图像确认核定位
 - [ ] 查阅最新5篇关键文献
 - [ ] 设计体外DNA/染色质结合实验
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| DMAP1 | STRING | 989 |
+| EAF2 | STRING | 989 |
+| VPS72 | STRING | 980 |
+| RUVBL1 | STRING | 980 |
+| EAF1 | STRING | 970 |
+| SRCAP | STRING | 970 |
+| RUVBL2 | STRING | 969 |
+| YEATS4 | STRING | 960 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q9UEE9-F1-predicted_aligned_error_v6.png)
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9UEE9
@@ -138,9 +158,9 @@ STRONG: UniProt chromatin location + STRING SRCAP/SWR1 complex + IntAct histone 
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[CFDP1-PAE.png]]
 

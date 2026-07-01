@@ -180,6 +180,32 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CUL4A | STRING | 999 |
+| ERCC6 | STRING | 999 |
+| PGBD3 | STRING | 999 |
+| DDB1 | STRING | 999 |
+| UVSSA | STRING | 998 |
+| RBX1 | STRING | 994 |
+| ERCC5 | STRING | 990 |
+| CUL4B | STRING | 984 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/29328/1476_D3_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29328/1476_D3_6_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29328/1483_C8_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29328/1483_C8_3_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q13216
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000049167-ERCC8/subcellular

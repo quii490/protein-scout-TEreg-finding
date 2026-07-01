@@ -36,7 +36,7 @@ status: scored
 | 🏗️ 三维结构 | 7/10 | ×3 | 21 | AlphaFold pLDDT: 78.8 |
 | 🧬 调控结构域 | 6/10 | ×2 | 12 | UniProt domains: None identified |
 | 🔗 PPI | 4/10 | ×3 | 12 | 待细化（默认基线） |
-| ➕ 互证加分 | — | — | **+0** | 待补充 |
+| ➕ 互证加分 | — | — | **+0** | 暂无数据 |
 | **原始总分** |  |  | **129/183** |  |
 | **归一化总分** |  |  | **70.5/100** |  |
 
@@ -103,6 +103,34 @@ HPA 免疫荧光（IF）实验数据确认 MRPL40 定位：
 **评价**: 基于 IntAct + UniProt GO-CC 综合分析。
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MRPL46 | STRING | 999 |
+| MRPL36 | STRING | 998 |
+| BRIP1 | STRING | 998 |
+| RPL13 | STRING | 997 |
+| MRPL19 | STRING | 997 |
+| MRPL23 | STRING | 996 |
+| DAP3 | STRING | 995 |
+| MRPL44 | STRING | 994 |
+
+
+### TE 调控评估
+
+该蛋白的 GO-CC 注释中缺乏染色质/TE 沉默相关定位，TE 调控潜力较低。不建议作为 TE 调控优先靶标。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/6181/5_D5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/6181/5_D5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/6181/6_D5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/6181/6_D5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/6181/4_D5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/6181/4_D5_2_blue_red_green.jpg)
+
+
 ### 5. 总体评价
 
 **推荐等级**: ⭐⭐⭐
@@ -122,9 +150,9 @@ HPA 免疫荧光（IF）实验数据确认 MRPL40 定位：
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[MRPL40-PAE.png]]
 

@@ -165,6 +165,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PROCR | BioGRID | 0 |
+| PTOV1 | BioGRID | 0 |
+| DYNC1LI2 | BioGRID | 0 |
+| SNCA | BioGRID | 0 |
+| NEDD4L | BioGRID | 0 |
+| APP | BioGRID | 0 |
+| YWHAB | BioGRID | 0 |
+| GOLGA2 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白缺乏核/染色质定位证据，TE 调控潜力较低。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q08495
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000158856-DMTN/subcellular

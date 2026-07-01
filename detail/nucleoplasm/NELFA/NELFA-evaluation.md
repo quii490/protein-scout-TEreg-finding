@@ -156,6 +156,24 @@ IntAct 实验互作: 0 条
 - [ ] 功能研究: 基于 PPI 网络设计功能实验
 - [ ] 结构分析: 基于 PDB 结构设计功能实验
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NELFE | STRING | 999 |
+| RDBP | STRING | 999 |
+| NELF-E | STRING | 999 |
+| SUPT5H | STRING | 999 |
+| NELFCD | STRING | 999 |
+| SUPT4H1 | STRING | 993 |
+| SUPT4A | STRING | 993 |
+| POLR2B | STRING | 957 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=NELFA
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000185049-NELFA
@@ -168,9 +186,9 @@ IntAct 实验互作: 0 条
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[NELFA-PAE.png]]
 

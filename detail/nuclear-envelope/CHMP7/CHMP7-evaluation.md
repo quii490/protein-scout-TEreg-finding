@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | CHMP7 / CHMP7 |
+| 蛋白名称 | Charged multivesicular body protein 7 |
 | 蛋白大小 | 453 aa / ~49.8 kDa |
 | UniProt ID | Q8WUX9 |
 | 评估日期 | 2026-05-29 |
@@ -148,6 +149,34 @@ status: scored
 - [ ] SMART 结构域分析评估调控潜力
 - [ ] 深入文献检索确认已知功能
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| LEMD2 | STRING | 996 |
+| CHMP3 | STRING | 989 |
+| CHMP4A | STRING | 984 |
+| CHMP1B | STRING | 983 |
+| CHMP4C | STRING | 980 |
+| CHMP2B | STRING | 973 |
+| CHMP6 | STRING | 969 |
+| IST1 | STRING | 949 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/36119/393_C1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36119/393_C1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36119/396_C1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36119/396_C1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36119/392_C1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36119/392_C1_3_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8WUX9
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8WUX9
@@ -159,9 +188,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[CHMP7-PAE.png]]
 

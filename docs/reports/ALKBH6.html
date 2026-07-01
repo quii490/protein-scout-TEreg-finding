@@ -12,6 +12,8 @@
   <nav>
     <a href="../protein_index.html">总表</a>
     <a href="../category/nucleoplasm.html">Nucleoplasm</a><a href="../category/nucleus-cytoplasm.html">Nucleus-cytoplasm</a><a href="../category/nuclear-speckle.html">Nuclear speckle</a><a href="../category/nuclear-body.html">Nuclear body</a><a href="../category/nucleolus.html">Nucleolus</a><a href="../category/nuclear-envelope.html">Nuclear envelope</a><a href="../category/chromatin.html">Chromatin</a><a href="../category/rejected.html">Rejected</a>
+    <a href="../centrosome/index.html">Centrosome</a>
+    <a href="../sperm/index.html">Sperm</a>
   </nav>
 </header><main class="container report-shell"><section class="panel"><h1>ALKBH6</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">总分: 73.9</span><span class="badge">核定位: 7</span><a class="button small" href="../protein_index.html">蛋白总表</a><a class="button small" href="../category/nucleoplasm.html">分类页</a></div><p class="source-path">原始 detail 路径: detail/nucleoplasm/ALKBH6/ALKBH6-evaluation.md</p></section><article class="report-body"><hr>
 <p>type: protein-evaluation gene: &quot;ALKBH6&quot; date: 2026-06-04 tags: [protein-scout, rescored, rescued-to-scored, critical-false-rejection] status: rescored-to-scored previous_status: scored previous_rejection_reason: nuclear_score ≤ 3 rescue_reason: &quot;HPA Nucleoplasm(Approved) + UniProt Nucleus(IDA) + GO-CC nucleoplasm(IDA:HPA); 2高分辨率PDB结构; 极度新颖(7篇); nuclear_score=3显著低估&quot; revised_nuclear_score: 7 ---</p>
@@ -121,6 +123,19 @@
 <tr><td>MED6</td><td>0.439</td><td>0.094</td><td>textmining为主</td></tr>
 </tbody></table></div>
 <p>MED29实验证据强(score 0.84)，该蛋白为Mediator复合物亚基，直接参与RNA Pol II转录调控。这暗示ALKBH6可能在转录调控中发挥功能，与核酸去甲基化酶活性一致。此外RUNX1(转录因子核心结合因子)通过Y2H与ALKBH6互作(IntAct PMID:35914814)。<strong>评分: 4/10</strong>。(因实验证据偏少，但MED29/RUNX1的转录调控关联具生物学意义)</p>
+<h4>PPI 互作网络</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>互作伙伴</th><th>来源</th><th>评分</th></tr></thead><tbody>
+<tr><td>ALKBH1</td><td>STRING</td><td>954</td></tr>
+<tr><td>MED29</td><td>STRING</td><td>892</td></tr>
+<tr><td>JMJD4</td><td>STRING</td><td>875</td></tr>
+<tr><td>ALKBH4</td><td>STRING</td><td>860</td></tr>
+<tr><td>ALKBH2</td><td>STRING</td><td>840</td></tr>
+<tr><td>TOP3B</td><td>BioGRID</td><td>1</td></tr>
+<tr><td>RUNX1</td><td>BioGRID</td><td>1</td></tr>
+</tbody></table></div>
+<h4>HPA IF 图像</h4>
+<p><figure><img src="https://images.proteinatlas.org/74340/1434_E3_1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/74340/1434_E3_2_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/74340/1516_H11_2_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/74340/1516_H11_4_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/74340/1436_E3_3_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/74340/1436_E3_4_blue_red_green.jpg" alt="image"></figure></p>
 <h4>5. Rescue Decision</h4>
 <p><strong>决策: RESCUED TO SCORED</strong></p>
 <p><strong>核定位评分修正</strong>: 从3/10 → 7/10。修正依据: 1. HPA Nucleoplasm主定位 + Approved最高可信度 2. UniProt Nucleus (ECO:0000269, IDA实验验证) 3. GO-CC nucleoplasm (IDA:HPA, 实验验证) 4. 两个全长高分辨率PDB结构间接支持功能核定位 5. MED29实验互作 (Mediator复合物=转录调控=核功能)</p>

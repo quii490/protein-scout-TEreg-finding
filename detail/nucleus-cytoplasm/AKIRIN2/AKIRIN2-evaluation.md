@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | AKIRIN2 / C6orf166 |
+| 蛋白名称 | Akirin-2 |
 | 蛋白大小 | 203 aa / 22.5 kDa |
 | UniProt ID | Q53H80 (AKIR2_HUMAN) |
 | 评估日期 | 2026-05-28 |
@@ -188,6 +189,30 @@ status: scored
 - [ ] 利用其C端有序域（142–195）进行结构解析和互作mapping
 - [ ] 探索 AKIRIN2 是否在 TE 调控中发挥作用（TE通常受SWI/SNF调控）
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NFKBIZ | STRING | 928 |
+| PSMB5 | STRING | 855 |
+| AKIRIN1 | STRING | 849 |
+| RAN | STRING | 779 |
+| TC4 | STRING | 779 |
+| CCDC85B | BioGRID | 1 |
+| ELAVL1 | BioGRID | 1 |
+| SIRT1 | BioGRID | 1 |
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/64239/1418_F6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/64239/1418_F6_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/64239/1223_C7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/64239/1223_C7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/64239/1193_C7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/64239/1193_C7_3_blue_red_green.jpg)
+
+
 ### 5. 关键文献
 
 1. Tartey S et al. (2014). "Akirin2 is critical for inducing inflammatory genes by bridging IκB-ζ and the SWI/SNF complex". *EMBO J*, 33(20):2332-48. PMID: 25107474
@@ -207,9 +232,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 
 PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。

@@ -169,6 +169,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| HDC | STRING | 952 |
+| CARNMT1 | STRING | 935 |
+| PGC | STRING | 794 |
+| ASS1 | STRING | 763 |
+| PEPD | STRING | 720 |
+| NDRG1 | BioGRID | 1 |
+| CASP7 | BioGRID | 1 |
+| CSE1L | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96KP4
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000133313-CNDP2/subcellular

@@ -161,6 +161,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MAPK1 | STRING | 812 |
+| ERK2 | STRING | 812 |
+| FOS | STRING | 791 |
+| MAPK14 | STRING | 783 |
+| MRTO4 | STRING | 779 |
+| JUN | STRING | 763 |
+| MAPK8 | STRING | 760 |
+| ATF3 | STRING | 751 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9UNI6
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000081721-DUSP12/subcellular

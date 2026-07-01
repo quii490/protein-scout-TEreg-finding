@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | GEMIN5 / — |
+| 蛋白名称 | Gem-associated protein 5 |
 | 蛋白全名 | Gem-associated protein 5 |
 | 蛋白大小 | 1508 aa / 168.6 kDa |
 | UniProt ID | Q8TEQ6 |
@@ -84,6 +85,34 @@ PPI 网络强大且实验验证充分，以 SMN 复合物和 spliceosomal Sm 蛋
 
 ### 4. 总体评价
 GEMIN5 是 SMN 复合物中结构覆盖最为全面的成员（64.5/100）。核心优势：三源核定位确认（UniProt/GO-CC/HPA Enhanced 一致）、极丰富的实验结构数据（16 PDB，近乎全长覆盖）、WD40 + TPR 多结构域 RNA 结合蛋白功能明确、PPI 网络强大（SMN 复合物 + Sm 蛋白）。核心弱点：蛋白极大（1508 aa, 168.6 kDa）、文献量偏高（PM=80）、AF 置信度中等但实验结构弥补了这一不足。**注意：GEMIN5 定位于 nuclear body (Gemini of Cajal bodies) 和 nucleoplasm，非 nucleolus，与目录分类存在差异。** 建议重新评估分类归属。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| GEMIN6 | STRING | 999 |
+| GEMIN2 | STRING | 999 |
+| DDX20 | STRING | 999 |
+| GEMIN4 | STRING | 999 |
+| GEMIN7 | STRING | 997 |
+| GEMIN8 | STRING | 996 |
+| STRAP | STRING | 995 |
+| SNRPB | STRING | 981 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/37392/1625_G6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/37392/1625_G6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/37392/fp13_G6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/37392/fp13_G6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/37392/fp13_D6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/37392/fp13_D6_3_blue_red_green.jpg)
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8TEQ6

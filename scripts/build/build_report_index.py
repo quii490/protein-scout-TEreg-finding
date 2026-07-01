@@ -20,6 +20,7 @@ DOCS_DATA.mkdir(parents=True, exist_ok=True)
 
 FIELDNAMES = [
     "gene", "protein_full_name", "status", "category", "score", "nuclear_score",
+        "is_new", "mtime",
     "size_score", "novelty_score", "structure_score", "domain_score", "ppi_score", "corroboration_score",
     "recommendation", "pubmed_count", "localization", "rejection_reason",
     "source_table_status", "source_table_category", "report_path", "docs_report_path", "category_page", "lines",
@@ -232,7 +233,10 @@ def parse_pubmed_count(text: str) -> str | None:
 
 def parse_protein_full_name(text: str) -> str | None:
     patterns = [
-        r"\|\s*\*{0,2}蛋白全(?:名|称)\*{0,2}\s*\|\s*([^|]+?)\s*\|",
+        r"\|\s*\*{0,2}蛋白全(?:名|称)(?:\s*/\s*Full\s*Name)?\*{0,2}\s*\|\s*([^|]+?)\s*\|",
+        r"\|\s*\*{0,2}(?:Protein full name|Protein Name)\*{0,2}\s*\|\s*([^|]+?)\s*\|",
+        r"\|\s*\*{0,2}蛋白(?:全称|全名|名称)\*{0,2}\s*\|\s*([^|]+?)\s*\|",
+        r"\|\s*\*{0,2}蛋白名称\*{0,2}\s*\|\s*([^|]+?)\s*\|",
         r"\*\*Protein Name:\*\*\s*([^\n]+)",
         r"\*\*Protein full name:\*\*\s*([^\n]+)",
         r"\|\s*\*{0,2}Protein Name\*{0,2}\s*\|\s*([^|]+?)\s*\|",
@@ -446,6 +450,7 @@ def build_records() -> list[dict[str, Any]]:
             backlog.append("manual_review")
         records.append({
             "gene": gene, "protein_full_name": protein_full_name, "status": status, "category": category, "score": score, "nuclear_score": nuclear_score,
+            "is_new": False, "mtime": "",
             "size_score": size_score,
             "novelty_score": novelty_score,
             "structure_score": structure_score,

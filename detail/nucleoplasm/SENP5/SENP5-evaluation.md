@@ -58,6 +58,24 @@ status: accepted
 
 755 aa -- within the ideal range for biochemical, structural, and cell-based approaches. Score: 10/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SUMO2 | STRING | 963 |
+| SUMO1 | STRING | 955 |
+| SUMO3 | STRING | 898 |
+| NPM1 | STRING | 871 |
+| GNL2 | STRING | 862 |
+| RPL37A | STRING | 845 |
+| SAE1 | STRING | 761 |
+| UBE2I | STRING | 758 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

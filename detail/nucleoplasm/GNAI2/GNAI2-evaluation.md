@@ -170,54 +170,38 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/P04899
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000114353-GNAI2/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=GNAI2
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/P04899
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Cytosol (supported)。来源: https://www.proteinatlas.org/ENSG00000114353-GNAI2/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| GNAI3 | STRING | 992 |
+| GNAI1 | STRING | 975 |
+| GPSM1 | STRING | 969 |
+| RGS9 | STRING | 942 |
+| MAPK3 | STRING | 937 |
+| SSTR2 | STRING | 937 |
+| MAPK1 | STRING | 934 |
+| ERK2 | STRING | 934 |
 
-![](https://images.proteinatlas.org/7704/2131_G3_13_blue_red_green.jpg)
-![](https://images.proteinatlas.org/7704/2131_G3_80_blue_red_green.jpg)
-![](https://images.proteinatlas.org/7704/2151_B4_29_blue_red_green.jpg)
-![](https://images.proteinatlas.org/7704/2151_B4_44_blue_red_green.jpg)
-![](https://images.proteinatlas.org/7704/2168_D8_22_blue_red_green.jpg)
-![](https://images.proteinatlas.org/7704/2168_D8_7_blue_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-P04899-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/GNAI2
+
+### PubMed
+
+**Count: 390**
+
+| PMID | Title |
 |---|---|
-| UniProt | P04899 |
-| SMART | SM00275; |
-| UniProt Domain [FT] | DOMAIN 32..355; /note="G-alpha"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01230" |
-| InterPro | IPR001408;IPR001019;IPR011025;IPR027417; |
-| Pfam | PF00503; |
+| 42310673 | Microglial IRF7-induced lipophagy impairment aggravates lipid droplet overload and impedes neurological recovery after ischemic stroke. |
+| 42304923 | Exploring the Toxicological Impact and Mechanisms of DEHP Exposure on Prostate Cancer Through Network Toxicology and Machine Learning Algorithms. |
+| 42178167 | Potential circadian rhythm-related pathogenic genes in diabetic nephropathy: a multi-omics Mendelian randomization study. |
+| 41866035 | Mesothelin promotes acute myeloid leukemia progression through LYN-dependent signaling. |
+| 41827672 | Tumor Mutational Burden as a Prognostic Biomarker in Follicular Lymphoma. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000114353-GNAI2/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| CXCR5 | Intact, Biogrid | true |
-| GNB1 | Intact, Biogrid | true |
-| MDFI | Intact, Biogrid | true |
-| ANLN | Biogrid | false |
-| C5AR1 | Biogrid | false |
-| CXCR1 | Biogrid | false |
-| EYA2 | Biogrid | false |
-| GNAI1 | Biogrid | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

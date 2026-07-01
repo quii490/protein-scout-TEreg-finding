@@ -51,6 +51,43 @@ status: scored
 
 SNTG1 is 517 amino acids in length (~58.0 kDa). Ideal size (517 aa), suitable for standard biochemical experiments. Score 10/10.
 
+### 功能描述
+
+Adapter protein that binds to and probably organizes the subcellular localization of a variety of proteins. May link various receptors to the actin cytoskeleton and the dystrophin glycoprotein complex (By similarity). May participate in regulating the subcellular location of diacylglycerol kinase-zeta to ensure that diacylglycerol is rapidly inactivated following receptor activation
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SNAP23 | BioGRID | 0 |
+| STXBP3 | BioGRID | 0 |
+| VPS45 | BioGRID | 0 |
+| UBC | BioGRID | 0 |
+| FGF2 | BioGRID | 0 |
+| VTN | BioGRID | 0 |
+| PLEKHA2 | BioGRID | 0 |
+| PLEKHA1 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### PubMed
+
+**Count: 24**
+
+| PMID | Title |
+|---|---|
+| 40000390 | Mapping the landscape of childhood obesity: genomic insights and socioeconomic status in Indian school-going children. |
+| 39738056 | SEAD reference panel with 22,134 haplotypes boosts rare variant imputation and genome-wide association analysis in Asian populations. |
+| 38537933 | Serum Fusion Transcripts to Assess the Risk of Hepatocellular Carcinoma and the Impact of Cancer Treatment through Machine Learning. |
+| 37982029 | Extracellular vesicle treatment partially reverts epigenetic alterations in chronically ischemic porcine myocardium. |
+| 35987623 | Abnormal TNS3 gene methylation in patients with congenital scoliosis. |
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

@@ -95,6 +95,24 @@ PIWIL4 的 PPI 网络以 piRNA 通路为核心，TDRD9/TDRKH/TDRD1 构成 Tudor 
 ### 4. 总体评价
 PIWIL4 是 piRNA 通路核内效应器，直接参与转座子沉默和表观遗传调控。主要限制是 PubMed 91 篇（新颖性 2/10），研究热度中等偏高。优势包括：核定位明确、PIWI+PAZ 双域完整、AlphaFold 结构预测质量高、PPI 网络以 piRNA 通路为核心且有多条实验验证互作。但其 852 aa 偏大，无 PDB 实验结构。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TDRD9 | STRING | 995 |
+| PIR | STRING | 981 |
+| MAEL | STRING | 957 |
+| DICER1 | STRING | 956 |
+| TNRC6A | STRING | 932 |
+| HSP90AA1 | STRING | 889 |
+| HENMT1 | STRING | 889 |
+| GTSF1 | STRING | 856 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q7Z3Z4
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q7Z3Z4

@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | AKAP8L / HA95 / HAP95 / NAKAP95 |
+| 蛋白名称 | A-kinase anchor protein 8-like |
 | 蛋白大小 | 646 aa / 71.6 kDa |
 | UniProt ID | Q9ULX6 (AKP8L_HUMAN) |
 | 评估日期 | 2026-05-28 |
@@ -117,6 +118,34 @@ status: scored
 3. **高度新颖**: PubMed仅20篇，大多数功能仅为初步探索
 4. **丰富的chromatin调控PPI尝试结晶或cryo-EM
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| DHX9 | STRING | 940 |
+| PRPF40A | STRING | 828 |
+| EMD | STRING | 824 |
+| HTT | STRING | 761 |
+| RELA | BioGRID | 1 |
+| TMPO | BioGRID | 1 |
+| CDC6 | BioGRID | 1 |
+| MYC | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/42485/866_E2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/42485/866_E2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/42485/723_E2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/42485/723_E2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/42485/711_E2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/42485/711_E2_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9ULX6
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000011243-AKAP8L
@@ -130,9 +159,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[AKAP8L-PAE.png]]
 

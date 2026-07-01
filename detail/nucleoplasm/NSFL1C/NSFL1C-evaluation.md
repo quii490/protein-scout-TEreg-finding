@@ -238,3 +238,22 @@ Source: https://www.proteinatlas.org/ENSG00000088833-NSFL1C/interaction
 | IDE | Biogrid | false |
 | IKBKG | Biogrid | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| UBXN6 | STRING | 999 |
+| VCP | STRING | 999 |
+| UFD1 | STRING | 998 |
+| UBXN7 | STRING | 997 |
+| ASPSCR1 | STRING | 997 |
+| FAF1 | STRING | 997 |
+| UBXN1 | STRING | 981 |
+| UBXN8 | STRING | 950 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。

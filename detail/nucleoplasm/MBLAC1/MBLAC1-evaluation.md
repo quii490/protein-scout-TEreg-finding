@@ -164,6 +164,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CLP1 | BioGRID | 1 |
+| TRIP13 | BioGRID | 1 |
+| TRAF2 | BioGRID | 1 |
+| POGZ | BioGRID | 1 |
+| INCA1 | BioGRID | 1 |
+| DDX39A | BioGRID | 1 |
+| H1FNT | BioGRID | 0 |
+| NDUFAB1 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/A4D2B0
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000214309-MBLAC1/subcellular

@@ -152,6 +152,24 @@ PDB + AlphaFold 结构互证 (+0.5)
 - [ ] 基于 PPI 网络开展功能研究
 - [ ] 结构分析: 基于 PDB 的功能位点设计
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NFKB1 | STRING | 995 |
+| REL | STRING | 899 |
+| IKBKB | STRING | 846 |
+| IKBKG | STRING | 839 |
+| RELA | STRING | 836 |
+| NAF1 | STRING | 821 |
+| NFKB2 | STRING | 789 |
+| CHUK | STRING | 775 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=TNIP2
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000168884-TNIP2
@@ -164,9 +182,9 @@ PDB + AlphaFold 结构互证 (+0.5)
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[TNIP2-PAE.png]]
 

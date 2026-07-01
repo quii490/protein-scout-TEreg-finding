@@ -66,6 +66,20 @@ PubMed strict: 1
 
 **评价**: PPI 数据极不完整，缺乏置信互作。这是蛋白功能未阐明蛋白的典型特征。
 
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/52722/1028_E7_6_blue_red_green.jpg)
+![](https://images.proteinatlas.org/52722/1028_E7_8_blue_red_green.jpg)
+![](https://images.proteinatlas.org/52722/840_C6_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/52722/840_C6_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/52722/802_E7_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/52722/802_E7_7_blue_red_green.jpg)
+
+
 ### 5. 结构域与染色质调控潜力
 | 来源 | 结构域 |
 |---|---|

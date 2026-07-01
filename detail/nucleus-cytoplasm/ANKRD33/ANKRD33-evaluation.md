@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 | ANKRD33 |
+| 蛋白名称 | Photoreceptor ankyrin repeat protein |
 | 蛋白全名 | Photoreceptor ankyrin repeat protein |
 | 蛋白大小 | 452 aa / 49.4 kDa |
 | UniProt ID | Q7Z3H0 |
@@ -85,6 +86,24 @@ PPI 中含多个核蛋白（MBD3/NuRD, ANKRD11, POLR2F, Rela），但互作分�
 
 ### 4. 总体评价
 ANKRD33 是低置信度核-胞质候选。UniProt + GO 双源一致的核 + 胞质注释均为最低证据级别（序列推断/电子注释）。AlphaFold 置信度低（mean pLDDT 60.5），PPI 网络含多个核蛋白但分数弱。功能注释为 CRX 转录抑制因子（支持核功能），但无实验验证。保留仅因双源一致的核注释 + 转录因子功能暗示。置信度低。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MBD3 | BioGRID | 0 |
+| KLHL42 | BioGRID | 0 |
+| HPCAL4 | BioGRID | 0 |
+| USHBP1 | BioGRID | 0 |
+| SDCBP | BioGRID | 0 |
+| TLX3 | BioGRID | 0 |
+| ANKRD11 | BioGRID | 0 |
+| BFSP2 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q7Z3H0

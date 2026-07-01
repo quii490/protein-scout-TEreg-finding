@@ -169,6 +169,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| H3F3A | STRING | 964 |
+| H3F3B | STRING | 964 |
+| HIST1H3I | STRING | 932 |
+| HIST1H3E | STRING | 932 |
+| ASH2L | STRING | 900 |
+| RBBP5 | STRING | 886 |
+| DPY30 | STRING | 867 |
+| UBE2I | STRING | 810 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9BTC0
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000101191-DIDO1/subcellular

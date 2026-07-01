@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 | LEMD2 |
+| 蛋白名称 | LEM domain-containing protein 2 |
 | 蛋白大小 | 503 aa |
 | UniProt ID | Q8NC56 (LEM domain-containing protein 2) |
 | 子定位分类 | nuclear-envelope |
@@ -111,7 +112,7 @@ status: scored
 
 **
 **已知复合体成员** (GO Cellular Component):
-- （待补充：通过 GO 数据库查询该蛋白所属的已知复合体）
+- （暂无数据：通过 GO 数据库查询该蛋白所属的已知复合体）
 PPI 互证分析**:
 - STRING top partner: CHMP7 (score: 0.996)
 - IntAct interactions: 15 total
@@ -146,6 +147,30 @@ PPI 互证分析**:
 - [ ] 在 TEreg 相关细胞系中检测 LEMD2 表达水平
 - [ ] 通过 co-IP/MS 鉴定 LEMD2 的染色质调控相关互作伙伴
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CHMP7 | STRING | 996 |
+| IST1 | STRING | 901 |
+| BANF1 | STRING | 901 |
+| EMD | STRING | 900 |
+| BANF2 | STRING | 848 |
+| LMNA | STRING | 834 |
+| FZR1 | STRING | 792 |
+| LMNB1 | STRING | 744 |
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/17340/138_D12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/17340/138_D12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/17340/166_D12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/17340/166_D12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/17340/139_D12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/17340/139_D12_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8NC56
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=LEMD2%5BTitle/Abstract%5D
@@ -158,9 +183,9 @@ PPI 互证分析**:
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[LEMD2-PAE.png]]
 

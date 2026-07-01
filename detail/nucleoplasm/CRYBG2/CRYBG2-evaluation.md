@@ -58,6 +58,10 @@ HPA IF images not reliably obtained (no subcellular IF images available on HPA s
 
 **Research Volume Assessment**: Very low (<10 papers), nearly unstudied, excellent candidate for exploring novel nuclear protein function
 
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. AlphaFold / PAE / PDB
 
 #### AlphaFold

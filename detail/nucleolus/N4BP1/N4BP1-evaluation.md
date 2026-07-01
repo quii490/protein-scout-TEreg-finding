@@ -161,6 +161,34 @@ IntAct 实验互作: 0 条
 - [ ] 功能研究: 基于 PPI 网络设计功能实验
 - [ ] 结构分析: 基于 PDB 结构设计功能实验
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| IKBKG | STRING | 901 |
+| CASP8 | STRING | 790 |
+| NEDD4 | STRING | 775 |
+| RPF1 | STRING | 775 |
+| LSM1 | BioGRID | 1 |
+| ITCH | BioGRID | 1 |
+| CUL3 | BioGRID | 1 |
+| CDK6 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/40849/461_A2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40849/461_A2_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40849/462_A2_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40849/462_A2_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40849/464_A2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40849/464_A2_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=N4BP1
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000102921-N4BP1
@@ -173,9 +201,9 @@ IntAct 实验互作: 0 条
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[N4BP1-PAE.png]]
 

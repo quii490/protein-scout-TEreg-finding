@@ -170,6 +170,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| GCNT1 | STRING | 925 |
+| ST6GALNAC1 | STRING | 923 |
+| MAPK6 | BioGRID | 1 |
+| SLC9A1 | BioGRID | 1 |
+| MPPE1 | BioGRID | 1 |
+| MME | BioGRID | 1 |
+| HNRNPL | BioGRID | 1 |
+| RNF4 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q86SF2
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000109586-GALNT7/subcellular

@@ -169,7 +169,13 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 - [ ] **该蛋白核定位证据不足（≤3/10），不建议作为核蛋白研究目标。**
 
-### 5. 数据来源
+### 深度机制分析
+
+GPAM编码甘油-3-磷酸酰基转移酶1（GPAT1），是甘油磷脂和三酰甘油生物合成的第一个限速酶。其UniProt（Q9HCL2）域架构由两个功能独立的结构模块串联构成：N端的IPR022284（GPAT_N）含甘油-3-磷酸结合口袋，催化酰基辅酶A的脂肪酰基转移到甘油-3-磷酸的sn-1位，生成溶血磷脂酸（LPA）；C端的IPR045520（Acyltrans_C）和IPR041728（LPLAT_MGAT-like）定义了磷酸甘油酰基转移酶家族的特征性保守折叠。Pfam的PF01553（Acyltransferase）和PF19277（PlsB）进一步验证了催化核心的保守性。PDB实验结构（8E4Y、8E50）与AlphaFold v6预测（pLDDT=80.1，有序区79.5%）高度一致，证实了该蛋白的单体催化单元折叠。
+
+GPAM的PPI网络呈现强烈的代谢通路聚类特征。STRING最高分互作伙伴（GPAT3=0.995、GPAT4=0.992、GPD1=0.972、AGPAT1=0.932、AGPAT2=0.926、GK/ GK2=0.931/0.930）共同构成甘油酯合成核心网络的每个连续酶促步骤——从甘油激酶（GK）磷酸化甘油生成甘油-3-磷酸，到GPAM催化第一次酰基化生成LPA，再到AGPAT催化第二次酰基化生成磷脂酸（PA）。IntAct实验数据（PMID:27499296、PMID:30021884）进一步捕获了GPAM与IDE（胰岛素降解酶）、HNRNPC（不均一核核糖核蛋白C）和SIRT2（NAD依赖去乙酰化酶）的共免疫沉淀互作——HNRNPC出现在交联质谱实验提示GPAM可能与人核糖核蛋白颗粒存在间接物理邻近，但该信号更可能源于生物素连接酶的交联半径效应而非直接功能偶联。
+
+GPAM的核定位得分为2/10（HPA定位于线粒体，UniProt确认线粒体外膜），GO-CC注释也完全排除核区室（线粒体外膜GO:0005741、线粒体GO:0005739、质膜GO:0005886）。尽管PubMed文献达146篇（包括GWAS鉴定的NAFLD风险位点，PMID:37709864），其已知功能严格限定于肝脏脂质代谢。即使存在与HNRNPC的非特异性交联信号，GPAM的生理学定位和功能范式均不支持任何转录调控或TE沉默角色。作为代谢酶的典范，GPAM的机制补充价值在于揭示线粒体外膜定位的甘油酯合成如何影响NAFLD进展（PMID:33190588、PMID:41046275），而非核内调控。
 - UniProt: https://www.uniprot.org/uniprotkb/Q9HCL2
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000119927-GPAM/subcellular
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=GPAM

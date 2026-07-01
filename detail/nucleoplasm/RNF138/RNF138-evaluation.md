@@ -61,6 +61,24 @@ status: scored
 
 RNF138 is 245 amino acids in length, placing it within the ideal 200-800 aa range for biochemical characterization. This compact size is excellent for recombinant expression, structural studies, and functional assays. The small size combined with the DNA-binding function makes RNF138 attractive for domain mapping and structural biology. Size score: 10/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| C6orf165 | BioGRID | 0 |
+| UBE2D4 | BioGRID | 0 |
+| UBE2K | BioGRID | 0 |
+| UBE2D2 | BioGRID | 0 |
+| UBE2W | BioGRID | 0 |
+| ELAVL1 | BioGRID | 0 |
+| COPS5 | BioGRID | 0 |
+| COPS6 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

@@ -64,6 +64,24 @@ HPA IF images not reliably obtained (no subcellular IF images available on HPA s
 
 **Research Volume Assessment**: Low (<50 papers), ample research space
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MINOS1 | BioGRID | 0 |
+| TXNDC17 | BioGRID | 0 |
+| SDHAF2 | BioGRID | 0 |
+| FKBP10 | BioGRID | 0 |
+| IGF2R | BioGRID | 0 |
+| WDHD1 | BioGRID | 0 |
+| SCAF4 | BioGRID | 0 |
+| SVIL | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. AlphaFold / PAE / PDB
 
 #### AlphaFold

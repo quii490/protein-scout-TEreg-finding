@@ -160,6 +160,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SPATA22 | STRING | 967 |
+| FANCM | STRING | 963 |
+| RAD52 | STRING | 870 |
+| ATR | STRING | 842 |
+| TERT | STRING | 803 |
+| DNA2 | STRING | 764 |
+| MCM9 | STRING | 715 |
+| RAD51 | STRING | 711 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8N635
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000162039-MEIOB/subcellular

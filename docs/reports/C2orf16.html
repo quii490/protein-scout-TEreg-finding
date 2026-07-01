@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>C2orf16 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">总表</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a><a href="../category/nucleus-cytoplasm.html">Nucleus-cytoplasm</a><a href="../category/nuclear-speckle.html">Nuclear speckle</a><a href="../category/nuclear-body.html">Nuclear body</a><a href="../category/nucleolus.html">Nucleolus</a><a href="../category/nuclear-envelope.html">Nuclear envelope</a><a href="../category/chromatin.html">Chromatin</a><a href="../category/rejected.html">Rejected</a>
+    <a href="../centrosome/index.html">Centrosome</a>
+    <a href="../sperm/index.html">Sperm</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>C2orf16</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">总分: 37.2</span><span class="badge">核定位: 4</span><a class="button small" href="../protein_index.html">蛋白总表</a><a class="button small" href="../category/nucleoplasm.html">分类页</a></div><p class="source-path">原始 detail 路径: detail/nucleoplasm/C2orf16/C2orf16-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;C2orf16&quot; uniprot: &quot;Q68DN1&quot; synonyms: [&quot;SPATA31H1&quot;, &quot;FAM75A-like&quot;] date: 2026-06-28 tags: [protein-scout, nucleoplasm, nuclear-bodies, evaluation, rejected] status: rejected ---</p>
+<h3>C2orf16 / SPATA31H1 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名</td><td>SPATA31H1 (旧名 C2orf16)</td></tr>
+<tr><td>蛋白全称</td><td>Spermatogenesis-associated protein 31H1</td></tr>
+<tr><td>UniProt ID</td><td>Q68DN1 (S31H1_HUMAN, Swiss-Prot reviewed)</td></tr>
+<tr><td>蛋白大小</td><td>1,984 aa; ~224.3 kDa</td></tr>
+<tr><td>UniProt 证据等级</td><td>1: Evidence at protein level</td></tr>
+<tr><td>UniProt 注释得分</td><td>4.0 / 5.0</td></tr>
+<tr><td>亚细胞定位</td><td>Nucleoplasm; Nuclear bodies; Cytosol (HPA: Uncertain reliability)</td></tr>
+<tr><td>染色体位置</td><td>2p23.3</td></tr>
+<tr><td>Pharos 开发等级</td><td>Tdark (极度未知)</td></tr>
+<tr><td>Excel 分类</td><td>Tier 3; HPA nuclear=True; PPI degree=6; Hotness=0 (冷门)</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>4/10</td><td>×4</td><td>16.0</td><td>HPA: Nucleoplasm+Nuclear bodies+Cytosol, Uncertain; GO-CC HDA only</td></tr>
+<tr><td>蛋白大小</td><td>0/10</td><td>×1</td><td>0.0</td><td>1,984 aa — 超大蛋白 (~224 kDa)，含 342 aa 串联重复区</td></tr>
+<tr><td>新颖性</td><td>9/10</td><td>×5</td><td>45.0</td><td>PubMed~8 篇总文献，仅 2 篇直接研究; Pharos Tdark</td></tr>
+<tr><td>三维结构</td><td>0/10</td><td>×3</td><td>0.0</td><td>pLDDT=34.94; 93.6% 残基 pLDDT&lt;50; 无折叠结构域</td></tr>
+<tr><td>调控结构域</td><td>0/10</td><td>×2</td><td>0.0</td><td>无 Pfam/InterPro 结构域; 无 DNA 结合域; 无酶活性域</td></tr>
+<tr><td>PPI</td><td>2/10</td><td>×3</td><td>6.0</td><td>PPI degree=6 (BioGRID: NCL, PRC1, DDX39A, ZRANB1 + STRING ~15)</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>67.0/180</strong></td><td></td></tr>
+<tr><td><strong>归一化总分</strong></td><td></td><td></td><td><strong>37.2/100</strong></td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位评估</h5>
+<p><strong>核定位证据质量低。</strong> HPA 免疫荧光检测到 Nucleoplasm + Nuclear bodies + Cytosol 的三重定位模式，但两个抗体 (HPA052136, HPA056962) 均被标记为 &quot;Uncertain&quot; 可靠性。Gene Ontology 核定位注释 (GO:0005634) 仅来源于高通量直接测定 (HDA, PMID:21630459)，无低通量实验验证。Bekpen et al. (2017) 对 SPATA31 基因家族的细胞学研究表明其定位于<strong>核仁</strong>，UV 照射后重新分布至全核——但这些实验针对的是染色体 9 上的 SPATA31 拷贝，并不能直接外推到染色体 2 上的 SPATA31H1。</p>
+<p>GO 条目同时包括 extracellular exosome (GO:0070062, HDA)、extracellular space (GO:0005615, HDA) 和 vesicle (GO:0031982, HDA)，均为高通量证据。<strong>不支持明确的核驻留功能。</strong></p>
+<p><strong>核定位得分: 4/10</strong> — HPA Uncertain + 无低通量验证 + 胞质/外泌体混杂定位。</p>
+<h5>3.2 蛋白大小与序列特征</h5>
+<p>SPATA31H1 长度为 <strong>1,984 个氨基酸</strong>，分子量约 224 kDa，在所有人类蛋白中属于特大型。蛋白质的 C 端 ~342 个残基 (1593-1935) 由 <strong>27 个 P-S-E-R-S-H-H-S 基序的串联重复</strong>构成。UniProt 注释称该重复区 &quot;形成反平行 β-结构&quot;，但在 AlphaFold 中该区域完全无序。</p>
+<p><strong>序列组成:</strong></p>
+<ul><li>高度碱性 (pI ~10.09)</li><li>极端富含丝氨酸和组氨酸 (重复区)</li><li>20 个组成偏倚区域 (polar residues, basic residues, low-complexity)</li></ul>
+<p><strong>蛋白大小得分: 0/10</strong> — 1,984 aa 过大，不适合常规结构生物学和生化分析。</p>
+<h5>3.3 新颖性与文献覆盖</h5>
+<p><strong>极度冷门。</strong> PubMed 检索 &quot;C2orf16 OR SPATA31H1&quot; 仅返回 8 篇文献。其中仅 2 篇直接聚焦该蛋白: 1. Wang W et al. (2026, BMC Oral Health) — SPATA31H1 罕见错义变异与遗传性牙龈纤维瘤病 2. Greither T et al. (2023, Andrology) — 人类精子蛋白质组 panel</p>
+<p>其余 6 篇为 GWAS/组学关联研究 (NAFLD-MASLD, 代谢综合征, 心血管疾病, BCAA 水平, IBS-NAFLD, 家族性低β脂蛋白血症)，SPATA31H1 仅作为关联位点出现。<strong>Pharos 分类为 Tdark</strong>，代表开发等级最低、最未知的蛋白类别。</p>
+<p>SPATA31 基因家族整体比单体蛋白更受关注: Bekpen et al. (2017, BMC Genomics, PMID:28264649) 发现该家族在类人猿中经历强烈正向选择，在人类中经历了大量片段重复 (二倍体基因组平均 7.5 个拷贝)，且灵长类拷贝获得了隐花色素/光裂合酶结构域和 PCNA 互作结构域——但这些功能结构域<strong>不存在于 SPATA31H1</strong>。</p>
+<p><strong>新颖性得分: 9/10</strong> — 文献极少，但高新颖性在此情境中为负面信号 (缺乏功能表征)。</p>
+<h5>3.4 三维结构质量</h5>
+<p><strong>结构预测极差。</strong> AlphaFold 预测:</p>
+<div class="table-wrap"><table>
+<thead><tr><th>pLDDT 区间</th><th>残基比例</th></tr></thead><tbody>
+<tr><td>&gt;90 (very high)</td><td>0.0%</td></tr>
+<tr><td>70-90 (confident)</td><td>1.6%</td></tr>
+<tr><td>50-70 (low)</td><td>4.8%</td></tr>
+<tr><td>&lt;50 (very low)</td><td><strong>93.6%</strong></td></tr>
+</tbody></table></div>
+<p><strong>SPATA31H1 是近乎完全的内在无序蛋白 (IDP)。</strong> 序列中不存在任何可识别的折叠结构域:</p>
+<ul><li>无 Pfam 结构域 (Pfam 数据库中无条目)</li><li>无 InterPro 功能结构域 (PANTHER PTHR33888 除外，为未表征的 RIKEN cDNA 条目)</li><li>UniProt 标注 5 个大型无序区，其中最长的 C 端区域跨越残基 1439-1984 (546 个残基)</li><li>无信号肽、无跨膜螺旋、无酶活性位点</li></ul>
+<p>作为 IDP，SPATA31H1 可能通过与结合伙伴相互作用后折叠，或以前折叠状态存在。这与 Bekpen et al. 提出的支架/调控蛋白功能假说一致，但缺乏直接实验证据。</p>
+<p><strong>结构得分: 0/10</strong> — 93.6% 无序，无可鉴定折叠结构域。</p>
+<h5>3.5 调控结构域分析</h5>
+<p><strong>无任何已知调控结构域。</strong></p>
+<ul><li>DNA 结合域: 无 (无 bZIP, bHLH, zf-C2H2, homeobox, AT-hook, HMG-box 等)</li><li>染色质结合域: 无 (无 bromodomain, chromodomain, PHD finger, PWWP, MBT 等)</li><li>组蛋白修饰域: 无 (无 SET, MYND, DOT1, JmjC 等)</li><li>酶活性域: 无</li><li>蛋白相互作用结构域: 无 (无 SH2, SH3, WW, PDZ, WD40 等标注)</li><li>唯一的序列特征: P-S-E-R-S-H-H-S 串联重复区 (功能未知)</li></ul>
+<p><strong>调控结构域得分: 0/10</strong> — 不存在任何已知调控结构域。P-S-E-R-S-H-H-S 重复区可能参与蛋白互作或 RNA 结合，但无任何实验证据。</p>
+<h5>3.6 PPI 网络</h5>
+<p><strong>PPI 网络小而杂。</strong> BioGRID 物理相互作用:</p>
+<div class="table-wrap"><table>
+<thead><tr><th>互作伙伴</th><th>功能</th><th>证据</th></tr></thead><tbody>
+<tr><td>NCL (Nucleolin)</td><td>核仁蛋白, rRNA 转录/加工</td><td>物理互作 (Jiao 2024)</td></tr>
+<tr><td>PRC1</td><td>细胞分裂调控</td><td>物理互作 (Capalbo 2019)</td></tr>
+<tr><td>DDX39A</td><td>DEAD-box RNA 解旋酶</td><td>物理互作 (Shi 2020)</td></tr>
+<tr><td>ZRANB1</td><td>去泛素化酶, DNA 损伤应答</td><td>物理互作 (Chen 2022)</td></tr>
+</tbody></table></div>
+<p>STRING 扩展网络 (~15 个互作伙伴) 包括核糖体蛋白 (RPL23, MRPL21/43/46)、转录相关因子 (GTF3C2, NRBP1)、和锌指蛋白 (ZNF512, ZSWIM9)。GraphTEBind 预测模型给出 PRR30 的高置信度互作 (score=0.531)。</p>
+<p>NCL (核仁素) 互作与核仁定位一致，但其他互作伙伴功能分散，缺乏指向特定通路的网络聚集。</p>
+<p><strong>PPI 得分: 2/10</strong> — 互作伙伴少 (degree=4 物理互作)，无通路富集，功能信息有限。</p>
+<h5>3.7 TE 调控相关性</h5>
+<p><strong>无任何 TE 调控证据。</strong></p>
+<div class="table-wrap"><table>
+<thead><tr><th>TE 调控维度</th><th>评估</th></tr></thead><tbody>
+<tr><td>直接 TE 结合</td><td>无证据 — 无 DNA 结合域</td></tr>
+<tr><td>间接 TE 调控通路</td><td>无证据 — 无染色质/表观遗传功能域</td></tr>
+<tr><td>生殖细胞特异性表达</td><td>是 (睾丸富集, 早期精细胞 476.0 TPM)</td></tr>
+<tr><td>转座子表达调控</td><td>无证据</td></tr>
+<tr><td>piRNA 通路</td><td>无关联</td></tr>
+<tr><td>染色质重塑</td><td>无证据</td></tr>
+</tbody></table></div>
+<p>SPATA31H1 的睾丸/精子特异性表达是唯一可能与生殖细胞 TE 沉默间接关联的属性。但该蛋白不含任何可支持染色质调控、转录调控或表观遗传修饰的功能结构域。作为高度无序蛋白，其可能的功能模式 (支架、相分离、信号整合) 均与 TE 调控无直接联系。</p>
+<p>染色体 9 上的 SPATA31 家族成员在 UV 响应和 DNA 损伤修复中有功能 (Bekpen 2017)，但该表型与 TE 调控的关联性极弱。</p>
+<h4>4. 总体评价</h4>
+<p><strong>37.2/100</strong> | <strong>Nucleoplasm (Uncertain)</strong> | <strong>REJECTED</strong></p>
+<p><strong>拒绝理由:</strong> 1. <strong>蛋白过大 (1,984 aa, 224 kDa)</strong> — 不适合系统生化分析 2. <strong>93.6% 无序</strong> — 近乎完全的内在无序蛋白，缺乏可操作的结构域 3. <strong>无功能注释</strong> — 无 Pfam/InterPro 结构域, 无分子功能, 无通路归属 4. <strong>无 TE 调控相关性</strong> — 不含 DNA 结合域, 染色质结构域, 或表观遗传修饰域 5. <strong>核定位证据不可靠</strong> — HPA Uncertain, 胞质/外泌体混杂定位 6. <strong>文献极度匮乏</strong> — PubMed 仅 8 篇, 2 篇直接相关 7. <strong>Tdark</strong> — Pharos 最低开发等级</p>
+<p>SPATA31H1 是一个有趣的进化生物学研究对象 (灵长类特异性扩增、强烈正向选择)，但完全不适合 TE 调控蛋白筛选。其巨型体积、极度无序和零功能表征使其无法在候选蛋白 pipeline 中产生价值。</p>
+<h4>5. 数据来源</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>数据库</th><th>访问内容</th><th>关键数据</th></tr></thead><tbody>
+<tr><td>UniProt</td><td>Q68DN1 完整条目</td><td>序列, 定位, 无序区, 变异</td></tr>
+<tr><td>AlphaFold DB</td><td>AF-Q68DN1-F1</td><td>pLDDT 分布, 预测结构</td></tr>
+<tr><td>InterPro / Pfam</td><td>Q68DN1 结构域检索</td><td>无结构域 (Pfam 无条目)</td></tr>
+<tr><td>PubMed</td><td>&quot;C2orf16 OR SPATA31H1&quot;</td><td>8 篇文献</td></tr>
+<tr><td>HPA</td><td>SPATA31H1</td><td>组织表达, 亚细胞定位</td></tr>
+<tr><td>GraphTEBind PPI</td><td>grep SPATA31H1 / C2orf16 / Q68DN1</td><td>BioGRID + STRING 互作</td></tr>
+<tr><td>Pharos / TCRD</td><td>SPATA31H1</td><td>Tdark 分类</td></tr>
+<tr><td>Bekpen et al. 2017</td><td>SPATA31 基因家族</td><td>进化, 片段重复, UV 响应</td></tr>
+</tbody></table></div></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

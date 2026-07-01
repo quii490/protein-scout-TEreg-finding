@@ -154,34 +154,20 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q96QU4
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000225899-FRG2B/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=FRG2B
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q96QU4
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### TE 调控评估
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q96QU4-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+### HPA IF 图像
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+HPA 检索: https://www.proteinatlas.org/search/FRG2B
 
-### SMART / UniProt domain
-| Source | Data |
+### PubMed
+
+**Count: 1**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q96QU4 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR026245; |
-| Pfam | PF15315; |
+| 31397435 | [Novel Genes Associated with the Development of Carotid Paragangliomas]. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000225899-FRG2B/interaction
 
-未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

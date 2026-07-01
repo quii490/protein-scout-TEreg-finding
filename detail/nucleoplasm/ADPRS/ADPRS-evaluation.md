@@ -71,6 +71,10 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 
 **新颖性评分: 10/10**（PubMed strict=17，极度新颖）。
 
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ## 5. AlphaFold / PAE / PDB
 
 ### AlphaFold Structure

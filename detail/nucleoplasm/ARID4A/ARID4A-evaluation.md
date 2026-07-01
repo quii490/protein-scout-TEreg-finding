@@ -171,6 +171,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| DKFZP564A063 | STRING | 999 |
+| BRMS1L | STRING | 997 |
+| BRMS1 | STRING | 997 |
+| SIN3A | STRING | 995 |
+| SAP30 | STRING | 992 |
+| SIN3B | STRING | 990 |
+| SUDS3 | STRING | 987 |
+| ING2 | STRING | 986 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P29374
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000032219-ARID4A/subcellular

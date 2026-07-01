@@ -171,6 +171,24 @@ status: scored
 - [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CASP9 | STRING | 998 |
+| CASP7 | STRING | 993 |
+| CASP3 | STRING | 992 |
+| UBE2D2 | STRING | 989 |
+| RPS27A | STRING | 944 |
+| BIRC6 | STRING | 922 |
+| UBA52 | STRING | 900 |
+| BIRC2 | STRING | 850 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 
 - UniProt: https://www.uniprot.org/uniprotkb/Q96CA5

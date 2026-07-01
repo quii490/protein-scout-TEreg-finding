@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | ADAT2 / DEADC1, tRNA-specific adenosine-34 deaminase catalytic subunit |
+| 蛋白名称 | tRNA-specific adenosine-34 deaminase catalytic subunit ADAT2 |
 | 蛋白大小 | 191 aa / ~22 kDa |
 | UniProt ID | Q7Z6V5 |
 | 评估日期 | 2026-05-29 |
@@ -188,6 +189,24 @@ status: scored
 - [ ] 探索 ADAT2 是否通过 tRNA wobble 编辑间接影响染色质调控因子的翻译效率
 - [ ] 若有条件，解析 ADAT2-SMARCD1 复合体的 Cryo-EM 结构
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ADAT3 | STRING | 999 |
+| ADAT1 | STRING | 931 |
+| RPSA | STRING | 779 |
+| RP11-311P8.3 | STRING | 772 |
+| UPRT | STRING | 772 |
+| GTF2H1 | STRING | 771 |
+| EP300 | STRING | 720 |
+| APP | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q7Z6V5
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000189007-ADAT2/subcellular
@@ -199,9 +218,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[ADAT2-PAE.png]]
 

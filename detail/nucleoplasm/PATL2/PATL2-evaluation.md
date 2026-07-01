@@ -162,6 +162,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| LSM1 | STRING | 999 |
+| LSM4 | STRING | 999 |
+| DDX6 | STRING | 950 |
+| LSM7 | STRING | 901 |
+| LSM2 | STRING | 890 |
+| CNOT3 | STRING | 874 |
+| LSM5 | STRING | 846 |
+| LSM6 | STRING | 842 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/C9JE40
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000229474-PATL2/subcellular

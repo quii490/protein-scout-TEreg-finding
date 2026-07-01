@@ -55,6 +55,39 @@ status: scored
 
 SPACA9 is 222 amino acids in length (~25.2 kDa). Ideal size (222 aa), suitable for standard biochemical experiments. Score 10/10.
 
+### 功能描述
+
+Microtubule inner protein (MIP) part of the dynein-decorated doublet microtubules (DMTs) of multiciliated respiratory cells and the distal singlet microtubules of monoflagellated spermatozoa (PubMed:36191189). Forms an extensive interaction network cross-linking the lumen of axonemal doublet microtubules (By similarity)
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/22243/2200_A11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/22243/2200_A11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/22243/2200_A11_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/22243/2200_A11_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/22243/2200_A11_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/22243/2200_A11_11_blue_red_green.jpg)
+
+
+### PubMed
+
+**Count: 7**
+
+| PMID | Title |
+|---|---|
+| 42286192 | SPACA9 and MNMIP1 bridge the seam of spermatid manchette microtubules. |
+| 40453182 | Development of a procedure for isolation, identification and quality assessment of bovine spermatids and evaluation of their fertilizing ability in vi |
+| 37865089 | De novo protein identification in mammalian sperm using in situ cryoelectron tomography and AlphaFold2 docking. |
+| 36191189 | SPACA9 is a lumenal protein of human ciliary singlet and doublet microtubules. |
+| 21771883 | SHOC1 and PTD form an XPF-ERCC1-like complex that is required for formation of class I crossovers. |
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

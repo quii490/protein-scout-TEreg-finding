@@ -165,6 +165,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| DLC1 | STRING | 990 |
+| DYNLL1 | STRING | 990 |
+| DNCL1 | STRING | 990 |
+| DNCI1 | STRING | 989 |
+| DYNC1I1 | STRING | 989 |
+| DYNC1H1 | STRING | 983 |
+| DYNC2LI1 | STRING | 978 |
+| DYNC1LI2 | STRING | 973 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96FJ2
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000264364-DYNLL2/subcellular

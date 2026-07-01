@@ -163,6 +163,23 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SKAP2 | STRING | 981 |
+| FYN | STRING | 977 |
+| GRB2 | STRING | 841 |
+| LAT | STRING | 811 |
+| BCL10 | STRING | 803 |
+| ITK | STRING | 776 |
+| GRAP | STRING | 772 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O15117
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000082074-FYB1/subcellular

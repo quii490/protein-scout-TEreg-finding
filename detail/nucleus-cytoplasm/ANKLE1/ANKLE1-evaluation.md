@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | ANKLE1 / ANKRD41 / LEM3 |
+| 蛋白名称 | Structure-specific endonuclease ANKLE1 |
 | 蛋白大小 | 615 aa / 66.9 kDa |
 | UniProt ID | Q8NAG6 (Swiss-Prot) |
 | 评估日期 | 2026-05-28 |
@@ -183,6 +184,24 @@ status: scored
 - [ ] 深入阅读 2023 年 chromatin bridge 机制文章（PMID: 36825683）
 - [ ] 评估 TE 调控中染色质桥加工与基因组稳定性关系的研究切入点
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ABHD8 | STRING | 737 |
+| EGFR | BioGRID | 1 |
+| TOP3B | BioGRID | 1 |
+| SPPL3 | BioGRID | 0 |
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/26789/1276_B2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/26789/1276_B2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/26789/280_G10_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/26789/280_G10_1_blue_red_green.jpg)
+
+
 ### 5. 关键文献
 
 1. Jiang H et al. (2023). "Human endonuclease ANKLE1 localizes at the midbody and processes chromatin bridges to prevent DNA damage and cGAS-STING activation". *Mol Cell*, 83(5):770-86. PMID: 36825683
@@ -203,9 +222,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 
 PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。

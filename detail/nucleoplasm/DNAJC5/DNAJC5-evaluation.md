@@ -167,6 +167,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CFTR | BioGRID | 0 |
+| STUB1 | BioGRID | 0 |
+| HSPA4 | BioGRID | 0 |
+| ATP6V1B1 | BioGRID | 0 |
+| VCL | BioGRID | 0 |
+| ECE1 | BioGRID | 0 |
+| PTGFR | BioGRID | 0 |
+| TRIM25 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白缺乏核/染色质定位证据，TE 调控潜力较低。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/12737/136_B3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/12737/136_B3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/12737/97_B3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/12737/97_B3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/12737/2209_F6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/12737/2209_F6_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9H3Z4
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000101152-DNAJC5/subcellular

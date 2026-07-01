@@ -158,54 +158,35 @@ STRING 5 个预测互作，IntAct 15 个实验互作。调控相关配体占比 
 - [ ] 设计体外实验验证核定位及潜在调控功能
 - [ ] Co-IP/MS 实验鉴定互作伙伴
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q6NVV7
-- Protein Atlas: https://www.proteinatlas.org/search/CDPF1
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CDPF1
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q6NVV7
-- STRING: https://string-db.org/network/9606.CDPF1
-- Packet data timestamp: 2026-06-03 04:45:27
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Cytosol (approved)。来源: https://www.proteinatlas.org/ENSG00000205643-CDPF1/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| APP | BioGRID | 1 |
+| BHLHE40 | BioGRID | 1 |
+| ZSCAN26 | BioGRID | 1 |
+| TFAP2D | BioGRID | 1 |
+| HDAC4 | BioGRID | 1 |
+| HOXA1 | BioGRID | 1 |
+| PHLDA1 | BioGRID | 1 |
+| CREB5 | BioGRID | 1 |
 
-![](https://images.proteinatlas.org/18823/149_E6_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/18823/149_E6_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/18823/150_E6_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/18823/150_E6_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/18823/151_E6_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/18823/151_E6_2_blue_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q6NVV7-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/CDPF1
+
+### PubMed
+
+**Count: 2**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q6NVV7 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR042426;IPR018785; |
-| Pfam | PF10170; |
+| 41933095 | A diagnostic model based on pulmonary microbiota and host gene expression to distinguish colonization from pneumonia. |
+| 33427359 | The Effect of Auxiliary Nitrogenated Linkers on the Design of New Cadmium-Based Coordination Polymers as Sensors for the Detection of Explosive Materi |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000205643-CDPF1/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| BHLHE40 | Intact | false |
-| CATSPER1 | Intact | false |
-| DDIT4L | Intact | false |
-| DHX34 | Intact, Bioplex | false |
-| EFEMP2 | Intact | false |
-| ENKD1 | Intact | false |
-| FAM221A | Intact | false |
-| FRS3 | Intact | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

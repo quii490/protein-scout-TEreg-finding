@@ -49,6 +49,33 @@ status: scored
 
 RTL5 is 569 amino acids in length (~64.7 kDa). 569 aa, ideal range. Score 10/10.
 
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/3652/57_F7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3652/57_F7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3652/2122_A1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3652/2122_A1_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3652/56_F7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3652/56_F7_2_blue_red_green.jpg)
+
+
+### PubMed
+
+**Count: 4**
+
+| PMID | Title |
+|---|---|
+| 37892118 | Retrovirus-Derived RTL/SIRH: Their Diverse Roles in the Current Eutherian Developmental System and Contribution to Eutherian Evolution. |
+| 37834332 | Retrovirus-Derived RTL9 Plays an Important Role in Innate Antifungal Immunity in the Eutherian Brain. |
+| 36162816 | Retrovirus-derived RTL5 and RTL6 genes are novel constituents of the innate immune system in the eutherian brain. |
+| 28919299 | The retrotransposon gag domain containing protein Rgag4 is an Ikaros target in the pituitary. |
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

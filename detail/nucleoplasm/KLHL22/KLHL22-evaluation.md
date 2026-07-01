@@ -174,6 +174,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CUL3 | STRING | 995 |
+| RBX1 | STRING | 955 |
+| LZTR1 | STRING | 949 |
+| SPOP | STRING | 921 |
+| KCTD13 | STRING | 920 |
+| KEAP1 | STRING | 914 |
+| KLHL41 | STRING | 913 |
+| KLHL7 | STRING | 912 |
+
+
+### TE 调控评估
+
+该蛋白缺乏核/染色质定位证据，TE 调控潜力较低。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q53GT1
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000099910-KLHL22/subcellular

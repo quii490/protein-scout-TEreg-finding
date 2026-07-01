@@ -37,7 +37,7 @@ status: scored
 | 🏗️ 三维结构 | 8/10 | ×3 | 24 | AlphaFold pLDDT: 88.3 |
 | 🧬 调控结构域 | 6/10 | ×2 | 12 | UniProt domains: None identified |
 | 🔗 PPI | 4/10 | ×3 | 12 | 待细化（默认基线） |
-| ➕ 互证加分 | — | — | **+0** | 待补充 |
+| ➕ 互证加分 | — | — | **+0** | 暂无数据 |
 | **原始总分** |  |  | **122/183** |  |
 | **归一化总分** |  |  | **66.7/100** |  |
 
@@ -90,7 +90,35 @@ HPA 免疫荧光（IF）实验数据确认 TSPAN6 定位：
 
 **IntAct 查询记录**: IntAct: 未检索到实验验证互作
 
-**评价**: 待补充 IntAct/STRING/GO-CC 数据。
+**评价**: 暂无数据 IntAct/STRING/GO-CC 数据。
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SDCBP | STRING | 741 |
+| CHD3 | BioGRID | 1 |
+| LRIF1 | BioGRID | 1 |
+| IFIH1 | BioGRID | 1 |
+| TMEM173 | BioGRID | 1 |
+| TP53 | BioGRID | 1 |
+| S100A7A | BioGRID | 1 |
+| AZGP1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白的 GO-CC 注释中缺乏染色质/TE 沉默相关定位，TE 调控潜力较低。不建议作为 TE 调控优先靶标。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/4109/1832_C1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/4109/1832_C1_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/4109/1843_B2_17_cr5af971a263864_blue_red_green.jpg)
+![](https://images.proteinatlas.org/4109/1843_B2_30_cr5af971a2648d6_blue_red_green.jpg)
+![](https://images.proteinatlas.org/4109/23_H11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/4109/23_H11_2_blue_red_green.jpg)
 
 
 ### 5. 总体评价
@@ -112,9 +140,9 @@ HPA 免疫荧光（IF）实验数据确认 TSPAN6 定位：
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 <!-- DOMAIN_HUMANPPI_REPAIR_START -->
 ## Domain/SMART 与 humanPPI 补充（2026-06-07）

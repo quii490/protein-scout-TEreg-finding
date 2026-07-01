@@ -131,7 +131,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 | ZHX1 | psi-mi:"MI:0018"(two hybrid) | pubmed:15383276|mint:MINT-5217 |
 | ELP1 | psi-mi:"MI:0018"(two hybrid) | pubmed:15383276|mint:MINT-5217 |
 | BRD7 | psi-mi:"MI:0018"(two hybrid) | pubmed:15383276|mint:MINT-5217 |
-| KBTBD7 | psi-mi:"MI:0018"(two hybrid) | pubmed:15383276|mint:MINT-5217 |
+| KB暂无数据7 | psi-mi:"MI:0018"(two hybrid) | pubmed:15383276|mint:MINT-5217 |
 
 **PPI 互证分析**:
 - STRING + IntAct 均有数据

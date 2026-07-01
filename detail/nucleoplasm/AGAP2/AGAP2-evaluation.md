@@ -76,6 +76,20 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 
 **新颖性评分: 2/10**（PubMed strict=81，81-100 区间，接近但未触发 PubMed>100 拒绝）。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| LGMN | STRING | 732 |
+| PIK3R1 | BioGRID | 1 |
+| RAC1 | BioGRID | 1 |
+| RHOA | BioGRID | 1 |
+| AKT1 | BioGRID | 1 |
+| PRKAA1 | BioGRID | 1 |
+| CDK4 | BioGRID | 1 |
+| YWHAB | BioGRID | 1 |
+
+
 ## 5. AlphaFold / PAE / PDB
 
 ### AlphaFold Structure

@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | FAM50A |
+| 蛋白名称 | Protein FAM50A |
 | 蛋白大小 | 339 aa |
 | UniProt ID | Q14320 (Protein FAM50A) |
 | 评估日期 | 2026-05-30 |
@@ -150,6 +151,24 @@ status: scored
 - [ ] 通过 co-IP/MS 验证 PPI 网络
 - [ ] ChIP-seq 检查 FAM50A 在 TE 区域的 occupancy
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ALYREF | STRING | 833 |
+| UPF3B | STRING | 829 |
+| SLU7 | STRING | 825 |
+| CDC40 | STRING | 807 |
+| SRRM1 | STRING | 802 |
+| DDX39B | STRING | 802 |
+| SYF2 | STRING | 801 |
+| PPIL1 | STRING | 801 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q14320
 - Protein Atlas: https://www.proteinatlas.org/search/FAM50A
@@ -161,9 +180,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[FAM50A-PAE.png]]
 

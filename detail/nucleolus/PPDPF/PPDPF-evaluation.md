@@ -37,7 +37,7 @@ status: scored
 | 🏗️ 三维结构 | 5/10 | ×3 | 15 | AlphaFold pLDDT: 59.8 |
 | 🧬 调控结构域 | 6/10 | ×2 | 12 | UniProt domains: None identified |
 | 🔗 PPI | 4/10 | ×3 | 12 | 待细化（默认基线） |
-| ➕ 互证加分 | — | — | **+0** | 待补充 |
+| ➕ 互证加分 | — | — | **+0** | 暂无数据 |
 | **原始总分** |  |  | **115/183** |  |
 | **归一化总分** |  |  | **62.8/100** |  |
 
@@ -93,6 +93,34 @@ HPA 免疫荧光（IF）实验数据确认 PPDPF 定位：
 **评价**: 基于 IntAct + UniProt GO-CC 综合分析。
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RPTOR | BioGRID | 1 |
+| DDB1 | BioGRID | 1 |
+| CTSC | BioGRID | 1 |
+| PRMT1 | BioGRID | 1 |
+| PLSCR1 | BioGRID | 1 |
+| MT2A | BioGRID | 1 |
+| TRIM21 | BioGRID | 1 |
+| DNAJB1 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/40929/424_C5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40929/424_C5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40929/429_C5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40929/429_C5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40929/418_C5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40929/418_C5_2_blue_red_green.jpg)
+
+
 ### 5. 总体评价
 
 **推荐等级**: ⭐⭐
@@ -112,9 +140,9 @@ HPA 免疫荧光（IF）实验数据确认 PPDPF 定位：
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 <!-- DOMAIN_HUMANPPI_REPAIR_START -->
 ## Domain/SMART 与 humanPPI 补充（2026-06-07）

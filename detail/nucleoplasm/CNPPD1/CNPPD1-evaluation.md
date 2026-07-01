@@ -61,6 +61,24 @@ HPA IF 原图未可靠获取（HPA 检索页无可用的 subcellular IF 原图�
 
 **Research Volume Assessment**: 非常低（<10篇），几乎未被研究，是探索新型核蛋白功能的绝佳候选
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CDK5 | BioGRID | 1 |
+| TNNC2 | BioGRID | 1 |
+| TOP3B | BioGRID | 1 |
+| RSPH1 | BioGRID | 1 |
+| UBB | BioGRID | 0 |
+| OMA1 | BioGRID | 0 |
+| SLC27A2 | BioGRID | 0 |
+| PLS1 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. AlphaFold / PAE / PDB
 
 #### AlphaFold

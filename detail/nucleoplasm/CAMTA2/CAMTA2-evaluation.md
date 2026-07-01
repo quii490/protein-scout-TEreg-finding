@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | CAMTA2 / CAMTA2 |
+| 蛋白名称 | Calmodulin-binding transcription activator 2 |
 | 蛋白大小 | 1202 aa / ~132.2 kDa |
 | UniProt ID | O94983 |
 | 评估日期 | 2026-05-29 |
@@ -147,6 +148,34 @@ status: scored
 - [ ] SMART 结构域分析评估调控潜力
 - [ ] 深入文献检索确认已知功能
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| FAM192A | STRING | 826 |
+| CALM3 | STRING | 724 |
+| HEL-S-72 | STRING | 724 |
+| CALM1 | STRING | 724 |
+| NKX2-5 | BioGRID | 1 |
+| HDAC5 | BioGRID | 1 |
+| CALM2 | BioGRID | 1 |
+| MEMO1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/27835/1873_A1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/27835/1873_A1_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/27835/1909_C11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/27835/1909_C11_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/27835/1901_F24_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/27835/1901_F24_4_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O94983
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/O94983
@@ -158,9 +187,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CAMTA2/CAMTA2-PAE.png]]

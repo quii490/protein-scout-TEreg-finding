@@ -169,6 +169,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| YAP1 | STRING | 998 |
+| WWTR1 | STRING | 994 |
+| VGLL4 | STRING | 941 |
+| VGLL1 | STRING | 840 |
+| TCF4 | STRING | 839 |
+| TCF7L2 | STRING | 839 |
+| TCF7 | STRING | 822 |
+| TCF7L1 | STRING | 817 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q99594
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000007866-TEAD3/subcellular

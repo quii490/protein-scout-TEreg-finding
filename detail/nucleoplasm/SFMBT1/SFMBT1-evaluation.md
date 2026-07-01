@@ -159,6 +159,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RCOR1 | STRING | 869 |
+| YY1 | STRING | 796 |
+| KDM1A | STRING | 762 |
+| HMG20A | STRING | 751 |
+| PHC1 | BioGRID | 1 |
+| ACP1 | BioGRID | 1 |
+| PHC2 | BioGRID | 1 |
+| SRPK1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9UHJ3
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000163935-SFMBT1/subcellular

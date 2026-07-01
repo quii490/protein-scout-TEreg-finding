@@ -12,7 +12,7 @@ status: scored
 
 | 项目 | 内容 |
 |------|------|
-| 基因名 / 别名 | GMCL1 / BTBD13, GCL, SPATA29 |
+| 基因名 / 别名 | GMCL1 / B暂无数据13, GCL, SPATA29 |
 | 蛋白名称 | Germ cell-less protein-like 1 |
 | 蛋白大小 | 515 aa / 58.7 kDa |
 | UniProt ID | Q96IK5 |
@@ -164,43 +164,38 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q96IK5
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000087338-GMCL1/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=GMCL1
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q96IK5
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| EMD | BioGRID | 1 |
+| ELAVL1 | BioGRID | 1 |
+| CUL3 | BioGRID | 1 |
+| BYSL | BioGRID | 1 |
+| CLK2 | BioGRID | 1 |
+| FOSL2 | BioGRID | 1 |
+| KPNA2 | BioGRID | 1 |
+| NUMA1 | BioGRID | 1 |
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q96IK5-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### TE 调控评估
 
-### SMART / UniProt domain
-| Source | Data |
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+HPA 检索: https://www.proteinatlas.org/search/GMCL1
+
+### PubMed
+
+**Count: 14**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q96IK5 |
-| SMART | SM00875;SM00225; |
-| UniProt Domain [FT] | DOMAIN 108..178; /note="BTB"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00037" |
-| InterPro | IPR011705;IPR000210;IPR043380;IPR011333; |
-| Pfam | PF07707;PF00651; |
+| 41887696 | [Analysis of potential association of alcohol exposure with femoral head osteonecrosis and construction of a diagnostic model using machine learning]. |
+| 41553759 | GMCL1 controls 53BP1 stability and modulates taxane sensitivity. |
+| 40166203 | GMCL1 Controls 53BP1 Stability and Modulates Paclitaxel Sensitivity in Cancer. |
+| 36048845 | Exome sequencing and functional analyses revealed CETN1 variants leads to impaired cell division and male fertility. |
+| 35395503 | Epigenome-wide association analyses of active injection drug use. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000087338-GMCL1/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| CUL3 | Intact, Biogrid | true |
-| FAM167A | Intact, Biogrid, Bioplex | true |
-| PBXIP1 | Intact, Biogrid | true |
-| XAGE2 | Intact, Biogrid, Bioplex | true |
-| XAGE3 | Intact, Biogrid | true |
-| APOL6 | Intact | false |
-| BEGAIN | Intact | false |
-| BSCL2 | Biogrid | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

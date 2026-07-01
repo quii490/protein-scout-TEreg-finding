@@ -152,6 +152,28 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TSSK2 | BioGRID | 0 |
+| TSSK1B | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/36068/389_A7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36068/389_A7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36068/398_A7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36068/398_A7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36068/381_A7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36068/381_A7_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q4G0N7
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000203778-FAM229B/subcellular

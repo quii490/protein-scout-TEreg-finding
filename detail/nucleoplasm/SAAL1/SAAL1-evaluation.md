@@ -52,6 +52,35 @@ status: scored
 
 SAAL1 is 474 amino acids, well within the ideal range for experimental characterization. Size score: 10/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NEDD4 | BioGRID | 1 |
+| EGFR | BioGRID | 1 |
+| EFNB2 | BioGRID | 1 |
+| CD274 | BioGRID | 1 |
+| SCCPDH | BioGRID | 1 |
+| PTPRE | BioGRID | 1 |
+| FZD10 | BioGRID | 1 |
+| PTPRA | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/39003/1240_D4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39003/1240_D4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39003/1000_A5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39003/1000_A5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39003/1003_A5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39003/1003_A5_2_blue_red_green.jpg)
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

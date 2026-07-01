@@ -77,6 +77,24 @@ status: accepted
 
 437 aa -- within the ideal range for biochemical, structural, and cell-based approaches. Score: 10/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SEPT2 | STRING | 999 |
+| SEPTIN2 | STRING | 999 |
+| SEPTIN4 | STRING | 998 |
+| SEPTIN12 | STRING | 992 |
+| SEPTIN10 | STRING | 979 |
+| MAPK6 | STRING | 906 |
+| HDAC6 | STRING | 902 |
+| MAPKAPK5 | STRING | 826 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

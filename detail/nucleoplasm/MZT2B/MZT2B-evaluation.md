@@ -171,6 +171,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NEDD1 | STRING | 999 |
+| TUBG1 | STRING | 991 |
+| TUBGCP2 | STRING | 976 |
+| NME7 | STRING | 963 |
+| BRCA1 | STRING | 900 |
+| MZT2A | STRING | 870 |
+| TUBG2 | STRING | 854 |
+| TOPORS | STRING | 720 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q6NZ67
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000152082-MZT2B/subcellular

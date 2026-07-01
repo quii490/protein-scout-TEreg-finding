@@ -175,6 +175,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| HNRNPM | STRING | 914 |
+| ESRP1 | STRING | 903 |
+| RBFOX2 | STRING | 833 |
+| RRM1 | STRING | 820 |
+| RPA3 | BioGRID | 1 |
+| RPA2 | BioGRID | 1 |
+| RPA1 | BioGRID | 1 |
+| FOXP3 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/40751/1004_G7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40751/1004_G7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40751/1208_D2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40751/1208_D2_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40751/1002_G7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40751/1002_G7_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9H6T0
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000103067-ESRP2/subcellular

@@ -164,52 +164,22 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/A2RTX5
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000185418-TARS3/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=TARS3
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/A2RTX5
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### TE 调控评估
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Cytosol (approved)。来源: https://www.proteinatlas.org/ENSG00000185418-TARS3/subcellular
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
-![](https://images.proteinatlas.org/66697/1285_G6_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/66697/1285_G6_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/66697/1288_G6_3_blue_red_green.jpg)
-![](https://images.proteinatlas.org/66697/1288_G6_4_blue_red_green.jpg)
-![](https://images.proteinatlas.org/66697/1416_G2_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/66697/1416_G2_2_blue_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
+### HPA IF 图像
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+HPA 检索: https://www.proteinatlas.org/search/TARS3
 
-![](https://alphafold.ebi.ac.uk/files/AF-A2RTX5-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+### PubMed
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+**Count: 3**
 
-### SMART / UniProt domain
-| Source | Data |
+| PMID | Title |
 |---|---|
-| UniProt | A2RTX5 |
-| SMART | SM00863; |
-| UniProt Domain [FT] | DOMAIN 157..222; /note="TGS"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01228" |
-| InterPro | IPR002314;IPR006195;IPR045864;IPR004154;IPR036621;IPR012675;IPR004095;IPR012676;IPR002320;IPR018163;IPR047246;IPR033728;IPR012947; |
-| Pfam | PF03129;PF02824;PF00587;PF07973; |
+| 34024034 | miR-720 is a key regulator of glioma migration and invasion by controlling TARSL2 expression. |
+| 29579307 | A threonyl-tRNA synthetase-like protein has tRNA aminoacylation and editing activities. |
+| 24312579 | Reinvestigation of aminoacyl-tRNA synthetase core complex by affinity purification-mass spectrometry reveals TARSL2 as a potential member of the compl |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000185418-TARS3/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| ARPC3 | Intact | false |
-| ATF4 | Intact | false |
-| ECSIT | Intact | false |
-| LGALS14 | Intact | false |
-| TARS1 | Intact, Biogrid | false |
-| TARS2 | Intact | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

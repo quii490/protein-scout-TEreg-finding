@@ -216,3 +216,22 @@ Source: https://www.proteinatlas.org/ENSG00000164172-MOCS2/interaction
 | IPO13 | Opencell | false |
 | MAP2K7 | Opencell | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SGF29 | STRING | 957 |
+| AOX1 | STRING | 945 |
+| NAE1 | STRING | 725 |
+| UBA3 | STRING | 725 |
+| UBA2 | STRING | 720 |
+| SAE1 | STRING | 718 |
+| UBA6 | STRING | 716 |
+| UBA7 | STRING | 716 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。

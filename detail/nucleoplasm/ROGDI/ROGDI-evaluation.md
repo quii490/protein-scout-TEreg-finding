@@ -170,3 +170,22 @@ Source: https://www.proteinatlas.org/ENSG00000067836-ROGDI/interaction
 | DMXL2 | Bioplex | false |
 | NUDT3 | Bioplex | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| COPS6 | BioGRID | 0 |
+| KIAA1377 | BioGRID | 0 |
+| DISC1 | BioGRID | 0 |
+| ATP1A2 | BioGRID | 0 |
+| ATP2A1 | BioGRID | 0 |
+| DMXL1 | BioGRID | 0 |
+| DMXL2 | BioGRID | 0 |
+| WDR7 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。

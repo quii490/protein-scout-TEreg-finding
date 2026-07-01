@@ -53,6 +53,34 @@ status: scored
 
 SAGE1 is 904 amino acids in length (~99.2 kDa). 904 aa, challenging. Score 5/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MAGEA1 | STRING | 727 |
+| TP53BP1 | BioGRID | 1 |
+| BRCA1 | BioGRID | 1 |
+| PRKAG1 | BioGRID | 1 |
+| SNRNP40 | BioGRID | 1 |
+| TLE3 | BioGRID | 1 |
+| HIST2H2BE | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/3033/5_H6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3033/5_H6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3033/1854_G8_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3033/1854_G8_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3033/4_H6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3033/4_H6_2_blue_red_green.jpg)
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

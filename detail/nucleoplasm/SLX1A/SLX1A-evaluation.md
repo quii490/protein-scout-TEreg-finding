@@ -165,6 +165,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MUS81 | STRING | 999 |
+| SLX4 | STRING | 999 |
+| RAD1 | STRING | 998 |
+| ERCC4 | STRING | 998 |
+| EME1 | STRING | 997 |
+| SLX1B | STRING | 935 |
+| SLX1A | STRING | 935 |
+| FANCD2 | STRING | 916 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9BQ83
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000132207-SLX1A/subcellular

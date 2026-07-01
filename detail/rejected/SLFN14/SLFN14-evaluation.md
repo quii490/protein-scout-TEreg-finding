@@ -50,6 +50,37 @@ status: scored
 
 SLFN14 is 912 amino acids in length (~103.9 kDa). Acceptable size (912 aa), suitable for routine experiments. Score 8/10.
 
+### 功能描述
+
+Shows no ribosome-associated and endoribonuclease activities
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| S100A10 | BioGRID | 1 |
+| EEF2 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### PubMed
+
+**Count: 32**
+
+| PMID | Title |
+|---|---|
+| 42213791 | Type II tRNA cleavage by SLFN14 endoribonuclease variants linked to inherited thrombocytopenia drives global translational repression. |
+| 41801809 | Rapid Production of Recombinant Human SLFN14 Ribonuclease and Stoichiometric Analysis by Mass Photometry. |
+| 41406233 | SLFN14 functions as a P-TEFb inhibitor to modulate the transcription of HIV-1 and cellular genes. |
+| 40794453 | Platelet-specific SLFN14 deletion causes macrothrombocytopenia and platelet dysfunction through dysregulated megakaryocyte and platelet gene expressio |
+| 40642785 | Human Schlafen 14 Cleavage of Short Double-Stranded RNAs Underpins its Antiviral Activity. |
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

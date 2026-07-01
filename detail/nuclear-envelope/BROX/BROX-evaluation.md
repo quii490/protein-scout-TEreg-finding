@@ -174,6 +174,33 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CHMP5 | STRING | 974 |
+| CHMP4C | STRING | 736 |
+| CHMP4A | STRING | 731 |
+| TCEA1 | BioGRID | 1 |
+| IPO9 | BioGRID | 1 |
+| HNRNPCL2 | BioGRID | 1 |
+| BRD4 | BioGRID | 1 |
+| COPS5 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/31445/334_H5_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/31445/334_H5_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/31445/329_H5_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/31445/332_H5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/31445/332_H5_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q5VW32
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000162819-BROX/subcellular

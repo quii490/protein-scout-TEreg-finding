@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | PKN2 / PRK2, PRKCL2 |
+| 蛋白名称 | Serine/threonine-protein kinase N2 |
 | 蛋白全名 | Serine/threonine-protein kinase N2 |
 | 蛋白大小 | 984 aa / 112.0 kDa |
 | UniProt ID | Q16513 (PKN2_HUMAN) |
@@ -145,6 +146,24 @@ status: scored
 **下一步建议**:
 - [ ] 验证PKN2在核内的底物谱(除HDAC5外还有哪些核蛋白被磷酸化)
 - [ ] 评估PKN2-HDAC5磷酸化轴在染色质调控中的功能意义
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PTPN13 | BioGRID | 0 |
+| NCK1 | BioGRID | 0 |
+| PLCG1 | BioGRID | 0 |
+| RHOA | BioGRID | 0 |
+| PDPK1 | BioGRID | 0 |
+| PDK1 | BioGRID | 0 |
+| AKT1 | BioGRID | 0 |
+| NCK2 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q16513

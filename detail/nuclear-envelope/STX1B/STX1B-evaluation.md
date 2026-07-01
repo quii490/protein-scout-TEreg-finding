@@ -174,6 +174,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| STXBP1 | STRING | 999 |
+| VAMP8 | STRING | 960 |
+| STX6 | STRING | 930 |
+| SYT | STRING | 882 |
+| STXBP3 | STRING | 827 |
+| STX1A | STRING | 814 |
+| STX2 | STRING | 765 |
+| UNC13A | STRING | 744 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P61266
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000099365-STX1B/subcellular

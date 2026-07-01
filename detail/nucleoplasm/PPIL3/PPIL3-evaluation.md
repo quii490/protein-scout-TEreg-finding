@@ -174,6 +174,24 @@ status: scored
 - [ ] CRISPR 敲除/敲低表型分析
 - [ ] AlphaFold-Multimer 预测潜在复合体结构
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SLU7 | STRING | 977 |
+| PPIL1 | STRING | 914 |
+| SYF2 | STRING | 875 |
+| CDC40 | STRING | 872 |
+| CWC27 | STRING | 850 |
+| RNF113A | STRING | 847 |
+| EIF4A3 | STRING | 841 |
+| CCDC12 | STRING | 841 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
 ### 5. 数据来源
 
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=PPIL3
@@ -187,9 +205,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[PPIL3-PAE.png]]
 

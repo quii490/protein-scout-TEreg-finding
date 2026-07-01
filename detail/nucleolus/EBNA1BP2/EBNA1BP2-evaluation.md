@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | EBNA1BP2 / EBP2 / NOBP / P40 |
+| 蛋白名称 | Probable rRNA-processing protein EBP2 |
 | 蛋白大小 | 306 aa / ~35.5 kDa |
 | UniProt ID | Q99848 (EBP2_HUMAN) |
 | 染色体定位 | 1p35.3 |
@@ -246,6 +247,34 @@ EBNA1BP2 在 Pfam/InterPro/SMART 中均无注释的结构化功能域（仅有�
 
 **推荐等级**: ⭐⭐⭐⭐⭐ (5/5)
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NIP7 | STRING | 999 |
+| BXDC2 | STRING | 999 |
+| BRIX1 | STRING | 999 |
+| PES1 | STRING | 999 |
+| MAK16 | STRING | 999 |
+| FTSJ3 | STRING | 999 |
+| RPF2 | STRING | 999 |
+| WDR12 | STRING | 998 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 实验数据，可能在基因组水平参与 TE 调控。建议分析 ChIP 峰在 TE 区域的富集情况。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/26512/279_A8_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/26512/279_A8_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/26512/278_A8_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/26512/278_A8_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/26512/1888_A9_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/26512/1888_A9_5_blue_red_green.jpg)
+
+
 ### 5. 关键文献
 
 1. Huber MD et al. (2000). "The budding yeast homolog of the human EBNA1-binding protein 2 (Ebp2p) is an essential nucleolar protein required for pre-rRNA processing". *J Biol Chem*, 275(37):28764-73. PMID: 10849420
@@ -269,9 +298,9 @@ EBNA1BP2 在 Pfam/InterPro/SMART 中均无注释的结构化功能域（仅有�
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 
 PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。

@@ -170,6 +170,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| FAU | STRING | 985 |
+| RPS3 | STRING | 966 |
+| RPS11 | STRING | 965 |
+| RPL17 | STRING | 964 |
+| RPL23 | STRING | 964 |
+| RPL35 | STRING | 963 |
+| RPS18 | STRING | 962 |
+| RPS15 | STRING | 960 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/74052/2064_G10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/74052/2064_G10_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/74052/1909_F5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/74052/1909_F5_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/74052/1840_G4_35_cr5b15418802863_blue_red_green.jpg)
+![](https://images.proteinatlas.org/74052/1840_G4_48_cr5b1541880333f_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q6IS14
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000253626-EIF5AL1/subcellular

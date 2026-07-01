@@ -172,6 +172,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TSEN34 | STRING | 999 |
+| TSEN54 | STRING | 999 |
+| C1ORF19 | STRING | 999 |
+| TSEN15 | STRING | 999 |
+| CLP1 | STRING | 990 |
+| TRIP10 | STRING | 822 |
+| CSTF2 | STRING | 812 |
+| CPSF4 | STRING | 809 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8NCE0
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000154743-TSEN2/subcellular

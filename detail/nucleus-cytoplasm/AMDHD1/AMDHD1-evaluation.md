@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | AMDHD1 |
+| 蛋白名称 | Probable imidazolonepropionase |
 | 蛋白大小 | 426 aa / 46.7 kDa |
 | UniProt ID | Q96NU7 |
 | 蛋白全名 | Probable imidazolonepropionase |
@@ -131,6 +132,21 @@ PPI 网络完全集中于代谢通路 (组氨酸、维生素D、核苷酸)。无
 - [ ] 验证甲状腺激素调控下 AMDHD1 的核定位变化
 - [ ] 确定核内 AMDHD1 是否具有非酶功能
 - [ ] 在干细胞模型中探索 AMDHD1 的发育功能
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| KLHL23 | BioGRID | 0 |
+| EIF1AX | BioGRID | 0 |
+| GDA | BioGRID | 0 |
+| SYT11 | BioGRID | 0 |
+| MYCN | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96NU7

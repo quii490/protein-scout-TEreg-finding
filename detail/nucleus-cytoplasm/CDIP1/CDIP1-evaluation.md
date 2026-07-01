@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | CDIP1 / C16orf5, CDIP, LITAFL |
+| 蛋白名称 | Cell death-inducing p53-target protein 1 |
 | 蛋白全名 | Cell death-inducing p53-target protein 1 |
 | 蛋白大小 | 208 aa / 21.9 kDa |
 | UniProt ID | Q9H305 |
@@ -101,6 +102,24 @@ PPI 网络丰富：STRING 连接 BCAP31（凋亡）、DESI1（去泛素化酶）
 
 ### 4. 总体评价
 CDIP1 是一个 p53 靶基因编码的小型内体/溶酶体膜蛋白，功能明确指向凋亡和内体分选。核定位证据薄弱（仅 GO IDA:MGI 鼠源推断，UniProt Subcellular Location 完全不支持核定位）。PPI 网络丰富但均为内体/泛素通路相关。归一化总分 58.5/100。不建议作为核-胞质蛋白候选——其功能定位在膜系统，核定位可能为假阳性或间接现象。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ATXN1 | BioGRID | 1 |
+| TRIM25 | BioGRID | 1 |
+| DCUN1D1 | BioGRID | 1 |
+| OTUB2 | BioGRID | 1 |
+| DESI1 | BioGRID | 1 |
+| LAT | BioGRID | 1 |
+| OTUD7B | BioGRID | 1 |
+| LITAF | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9H305

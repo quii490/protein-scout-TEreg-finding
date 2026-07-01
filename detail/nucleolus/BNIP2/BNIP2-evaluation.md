@@ -175,6 +175,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 - [ ] 考虑通过AlphaFold预测 + MD模拟获取结构信息
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| BCL2 | STRING | 982 |
+| BCL-2 | STRING | 982 |
+| BNIP3 | STRING | 892 |
+| BNIP1 | STRING | 889 |
+| FRK | STRING | 798 |
+| CREB3 | BioGRID | 1 |
+| BNIPL | BioGRID | 1 |
+| BNIP2 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白的 GO-CC 注释中缺乏染色质/TE 沉默相关定位，TE 调控潜力较低。不建议作为 TE 调控优先靶标。
+
 ### 5. 数据来源
 
 - UniProt: https://www.uniprot.org/uniprotkb/Q12982

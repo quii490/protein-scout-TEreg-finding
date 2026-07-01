@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | ARID1B / BAF250B, OSA2, KIAA1235, DAN15, p250R, hOsa2 |
+| 蛋白名称 | AT-rich interactive domain-containing protein 1B |
 | 蛋白大小 | 2319 aa / 243.9 kDa |
 | UniProt ID | Q8NFD5 |
 | 评估日期 | 2026-05-28 |
@@ -156,6 +157,20 @@ status: scored
 2. **PPI - [ ] 利用 Coffin-Siris 综合征患者细胞系研究 ARID1B 缺失对 TE 表达的影响
 - [ ] 比较 ARID1A vs ARID1B 在 TE 调控中的功能差异（mutual exclusive 复合体）
 - [ ] 考虑 ARID1B 在神经元特异性 SWI/SNF (nBAF) 复合体中的独特角色
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| DPF2 | STRING | 999 |
+| SMARCC1 | STRING | 999 |
+| ARID1A | STRING | 999 |
+| SMARCE1 | STRING | 999 |
+| SMARCB1 | STRING | 999 |
+| SMARCA4 | STRING | 999 |
+| SMARCA2 | STRING | 999 |
+| SMARCC2 | STRING | 999 |
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8NFD5

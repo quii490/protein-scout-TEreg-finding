@@ -170,47 +170,24 @@ status: scored
 - [ ] CRISPR 敲除/敲低表型分析
 - [ ] AlphaFold-Multimer 预测潜在复合体结构
 
-### 5. 数据来源
+### TE 调控评估
 
-- GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=TLNRD1
-- Protein Atlas: https://www.proteinatlas.org/search/TLNRD1
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22TLNRD1%22%5BTitle%2FAbstract%5D
-- UniProt: https://www.uniprot.org/uniprot/Q9H1K6
-- STRING: https://string-db.org/network/9606.TLNRD1
-- AlphaFold: https://www.alphafold.ebi.ac.uk/entry/Q9H1K6
+该蛋白有 ChIP-Seq 实验数据，可能在基因组水平参与 TE 调控。建议分析 ChIP 峰在 TE 区域的富集情况。
 
+### HPA IF 图像
 
-#### PPI 网络（三源综合）
-| Partner | Source | Score/Evidence |
-|---|---|---|
-| 无记录 | — | — |
+HPA 检索: https://www.proteinatlas.org/search/TLNRD1
 
-IntAct 有限记录。无 BioGrid 补充数据。
+### PubMed
 
-![[TLNRD1-PAE.png]]
+**Count: 9**
 
-PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
-
-
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/TLNRD1/TLNRD1-PAE.png]]
-
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
-
-### SMART / UniProt domain
-| Source | Data |
+| PMID | Title |
 |---|---|
-| UniProt | Q9H1K6 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR054082;IPR042799; |
-| Pfam | PF21896; |
+| 39013281 | TLNRD1 is a CCM complex component and regulates endothelial barrier integrity. |
+| 38656311 | Structural insights into the molecular mechanism of phytoplasma immunodominant membrane protein. |
+| 38326615 | Convergence of coronary artery disease genes onto endothelial cell programs. |
+| 34620733 | Ribosome profiling reveals translatome remodeling in cancer cells in response to zinc oxide nanoparticles. |
+| 34264272 | Talin rod domain-containing protein 1 (TLNRD1) is a novel actin-bundling protein which promotes filopodia formation. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000140406-TLNRD1/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| CCM2 | Intact, Biogrid | true |
-| PICK1 | Intact | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

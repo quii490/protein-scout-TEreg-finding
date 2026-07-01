@@ -170,6 +170,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SLC3A1 | STRING | 968 |
+| ISG15 | STRING | 962 |
+| CAMKMT | STRING | 953 |
+| CHUK | STRING | 831 |
+| PPP2CB | STRING | 794 |
+| PPM1A | STRING | 791 |
+| YEATS4 | STRING | 751 |
+| ARIH1 | STRING | 726 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/16745/131_D6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/16745/131_D6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/16745/164_D6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/16745/164_D6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/16745/132_D6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/16745/132_D6_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O75688
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000138032-PPM1B/subcellular

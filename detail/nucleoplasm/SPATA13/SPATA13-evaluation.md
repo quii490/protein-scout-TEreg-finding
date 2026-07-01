@@ -185,3 +185,22 @@ Source: https://www.proteinatlas.org/ENSG00000182957-SPATA13/interaction
 | APC | Intact | false |
 | YWHAE | Intact | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| APC | STRING | 983 |
+| YWHAE | STRING | 772 |
+| RAC1 | STRING | 709 |
+| KHDRBS1 | BioGRID | 1 |
+| YWHAZ | BioGRID | 1 |
+| YWHAG | BioGRID | 1 |
+| YWHAB | BioGRID | 1 |
+| GLDC | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。

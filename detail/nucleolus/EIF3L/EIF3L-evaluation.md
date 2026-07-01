@@ -180,6 +180,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| EIF3E | STRING | 999 |
+| EIF3K | STRING | 999 |
+| EIF3G | STRING | 999 |
+| EIF3B | STRING | 999 |
+| EIF3A | STRING | 999 |
+| FAU | STRING | 995 |
+| RPS3 | STRING | 980 |
+| EIF2S1 | STRING | 973 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/3028/54_G12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3028/54_G12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3028/55_G12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3028/55_G12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3028/53_G12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3028/53_G12_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9Y262
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000100129-EIF3L/subcellular

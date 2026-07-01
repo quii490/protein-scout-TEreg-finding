@@ -62,6 +62,24 @@ status: scored
 
 RPAP1 is 1393 amino acids (152.8 kDa), placing it in the 1200-2000 aa range. This is larger than the ideal 200-800 aa range, but proteins of this size have been successfully studied. The RNA polymerase II complex includes several large subunits, and large size is typical for scaffold proteins within transcription complexes. Score 5/10 reflects the large size category (1200-2000 aa). While not ideal for some biochemical approaches, the protein's transcription complex membership provides structural context through its interacting partners.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MBDIN | STRING | 987 |
+| GPN1 | STRING | 987 |
+| POLR2J1 | STRING | 947 |
+| POLR2J | STRING | 947 |
+| RPAP2 | STRING | 932 |
+| GCOM1 | STRING | 874 |
+| POLR2M | STRING | 874 |
+| RUVBL1 | STRING | 854 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

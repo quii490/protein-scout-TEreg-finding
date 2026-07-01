@@ -165,6 +165,34 @@ status: scored
 - [ ] 构建表达载体进行功能研究
 - [ ] Co-IP/MS 鉴定互作蛋白
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MLLT10 | STRING | 982 |
+| MLLT3 | STRING | 980 |
+| MLLT1 | STRING | 974 |
+| DOT1L | STRING | 971 |
+| AFF1 | STRING | 862 |
+| AF-4 | STRING | 862 |
+| ELL | STRING | 831 |
+| MEN | STRING | 831 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/4021/72_F4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/4021/72_F4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/4021/71_F4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/4021/71_F4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/4021/73_F4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/4021/73_F4_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=MLLT6
 - Protein Atlas: https://www.proteinatlas.org/MLLT6
@@ -179,9 +207,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[MLLT6-PAE.png]]
 

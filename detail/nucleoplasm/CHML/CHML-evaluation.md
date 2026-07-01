@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | CHML / CHML |
+| 蛋白名称 | Rab proteins geranylgeranyltransferase component A 2 |
 | 蛋白大小 | 656 aa / ~72.2 kDa |
 | UniProt ID | P26374 |
 | 评估日期 | 2026-05-29 |
@@ -148,6 +149,34 @@ status: scored
 - [ ] SMART 结构域分析评估调控潜力
 - [ ] 深入文献检索确认已知功能
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RAB3A | STRING | 830 |
+| CHM | STRING | 736 |
+| RAB8A | STRING | 720 |
+| RAB9A | STRING | 702 |
+| TRIM25 | BioGRID | 1 |
+| EMD | BioGRID | 1 |
+| LMO1 | BioGRID | 1 |
+| RPA1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/29627/1060_B6_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29627/1060_B6_6_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29627/1210_B12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29627/1210_B12_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/62967/1185_B1_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/62967/1185_B1_5_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P26374
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/P26374
@@ -159,9 +188,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CHML/CHML-PAE.png]]

@@ -1,18 +1,18 @@
 ---
 type: protein-evaluation
-gene: "BTBD9"
+gene: "B暂无数据9"
 date: 2026-06-03
 tags: [protein-scout, rejected, evaluation]
 status: rejected
 ---
 
-## BTBD9 — REJECTED (核定位证据不足 (核定位得分 2/10 ≤ 3))
+## B暂无数据9 — REJECTED (核定位证据不足 (核定位得分 2/10 ≤ 3))
 
 ### 1. 基本信息
 
 | 项目 | 内容 |
 |------|------|
-| 基因名 / 别名 | BTBD9 / KIAA1880 |
+| 基因名 / 别名 | B暂无数据9 / KIAA1880 |
 | 蛋白名称 | BTB/POZ domain-containing protein 9 |
 | 蛋白大小 | 612 aa / 69.2 kDa |
 | UniProt ID | Q96Q07 |
@@ -63,10 +63,10 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 
 **关键文献**:
 1. Animal models of RLS phenotypes.. *Sleep medicine*. PMID: 27839945
-2. Probe the relationship between BTBD9 and MEIS1 in C. elegans and mouse.. *Experimental results*. PMID: 34268480
-3. BTBD9 attenuates manganese-induced oxidative stress and neurotoxicity by regulating insulin growth factor signaling pathway.. *Human molecular genetics*. PMID: 35134179
-4. BTBD9 and dopaminergic dysfunction in the pathogenesis of restless legs syndrome.. *Brain structure & function*. PMID: 32468214
-5. Integrative Proteome and Ubiquitinome Analyses Reveal the Substrates of BTBD9 and Its Underlying Mechanism in Sleep Regulation.. *ACS omega*. PMID: 35449961
+2. Probe the relationship between B暂无数据9 and MEIS1 in C. elegans and mouse.. *Experimental results*. PMID: 34268480
+3. B暂无数据9 attenuates manganese-induced oxidative stress and neurotoxicity by regulating insulin growth factor signaling pathway.. *Human molecular genetics*. PMID: 35134179
+4. B暂无数据9 and dopaminergic dysfunction in the pathogenesis of restless legs syndrome.. *Brain structure & function*. PMID: 32468214
+5. Integrative Proteome and Ubiquitinome Analyses Reveal the Substrates of B暂无数据9 and Its Underlying Mechanism in Sleep Regulation.. *ACS omega*. PMID: 35449961
 
 **评价**: 较新颖，有一定研究但存在未探索领域。
 
@@ -155,7 +155,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 **推荐等级**: ⭐⭐⭐ (REJECTED)
 
 **核心优势**:
-1. BTBD9 — BTB/POZ domain-containing protein 9，较新颖，有一定研究但存在未探索领域。
+1. B暂无数据9 — BTB/POZ domain-containing protein 9，较新颖，有一定研究但存在未探索领域。
 2. 蛋白大小612 aa，大小适中（200-800 aa），适合常规生化实验和结构解析。
 
 **风险/不确定性**:
@@ -170,18 +170,18 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96Q07
-- Protein Atlas: https://www.proteinatlas.org/search/BTBD9
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=BTBD9
+- Protein Atlas: https://www.proteinatlas.org/search/B暂无数据9
+- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=B暂无数据9
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q96Q07
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/rejected/BTBD9/IF_images/BTBD9_IF_if_selected_60x60.jpg]]
+![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/rejected/B暂无数据9/IF_images/B暂无数据9_IF_if_selected_60x60.jpg]]
 
 
 
 <!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000183826-BTBD9/subcellular
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000183826-B暂无数据9/subcellular
 
 ![](https://images.proteinatlas.org/41930/484_A1_1_red_green.jpg)
 ![](https://images.proteinatlas.org/41930/484_A1_2_red_green.jpg)

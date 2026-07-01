@@ -171,6 +171,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ANAPC5 | STRING | 999 |
+| UBE2S | STRING | 999 |
+| ANAPC2 | STRING | 999 |
+| ANAPC1 | STRING | 999 |
+| CDC16 | STRING | 999 |
+| UBE2C | STRING | 999 |
+| ANAPC4 | STRING | 999 |
+| CDC20 | STRING | 999 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9NYG5
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000141552-ANAPC11/subcellular

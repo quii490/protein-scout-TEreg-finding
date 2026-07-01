@@ -96,6 +96,24 @@ STRING 网络极强，top 15 全为线粒体核糖体蛋白（mitoribosomal smal
 ### 4. 总体评价
 AURKAIP1 是一个双重定位（线粒体 + 核）的小型蛋白，核定位有充分实验证据。作为线粒体核糖体 bS22 亚基，拥有 55 个 PDB EM 结构（全蛋白覆盖）；作为 Aurora-A 负调控因子参与蛋白酶体降解。PubMed strict=9，研究量低，新颖性高。主要局限是初级定位为线粒体，核功能尚未独立研究，需谨慎判断其核定位是否仅反映新生肽链的核转运阶段。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MRPS15 | STRING | 996 |
+| MRPS31 | STRING | 994 |
+| DAP3 | STRING | 990 |
+| MRPS5 | STRING | 989 |
+| CHCHD1 | STRING | 989 |
+| MRPS27 | STRING | 989 |
+| MRPS26 | STRING | 987 |
+| MRPS9 | STRING | 986 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9NWT8
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9NWT8

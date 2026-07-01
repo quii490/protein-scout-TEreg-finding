@@ -174,6 +174,30 @@ ATF4-CEBPG 异源二聚体 UniProt (16 experiments) + IntAct + STRING (0.977) �
 - [ ] 在应激条件下研究 CEBPG 对 TE 转录的调控
 - [ ] 利用丰富的 PPI 网络筛选协同调控 TE 的 bZIP 二聚体伙伴
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ATF4 | STRING | 977 |
+| CEBPB | STRING | 971 |
+| ATF5 | STRING | 955 |
+| DDIT3 | STRING | 949 |
+| MHC2TA | STRING | 903 |
+| CIITA | STRING | 903 |
+| ATF3 | STRING | 834 |
+| JUN | STRING | 823 |
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/12024/95_E9_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/12024/95_E9_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/12024/94_E9_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/12024/94_E9_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/12024/96_E9_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/12024/96_E9_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=CEBPG
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000153879-CEBPG

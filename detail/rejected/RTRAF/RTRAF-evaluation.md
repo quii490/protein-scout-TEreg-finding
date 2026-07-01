@@ -58,6 +58,53 @@ status: scored
 
 RTRAF is 244 amino acids in length (~28.1 kDa). 244 aa, ideal range. Score 10/10.
 
+### 功能描述
+
+Accessory subunit of the tRNA-splicing ligase complex that acts by directly joining spliced tRNA halves to mature-sized tRNAs by incorporating the precursor-derived splice junction phosphate into the mature tRNA as a canonical 3',5'-phosphodiester (PubMed:21311021, PubMed:24870230). RNA-binding protein involved in modulation of mRNA transcription by Polymerase II (PubMed:16950395). Could also play a role in RNA transport (PubMed:24608264)
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RTCB | STRING | 999 |
+| DDX1 | STRING | 999 |
+| FAM98B | STRING | 999 |
+| C2ORF49 | STRING | 997 |
+| FAM98A | STRING | 985 |
+| ZBTB8OS | STRING | 959 |
+| NIN | STRING | 931 |
+| TAF15 | STRING | 764 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/39824/486_A2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39824/486_A2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39824/509_A2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39824/509_A2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39824/490_A2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39824/490_A2_2_blue_red_green.jpg)
+
+
+### PubMed
+
+**Count: 22**
+
+| PMID | Title |
+|---|---|
+| 38503217 | ER-tethered RNA-binding protein controls NADPH oxidase translation for hydrogen peroxide homeostasis. |
+| 37265372 | An in silico prediction of interaction models of influenza A virus PA and human C14orf166 protein from yeast-two-hybrid screening data. |
+| 34854379 | Molecular architecture of the human tRNA ligase complex. |
+| 33786620 | Role of C14orf166 in viral infection and RNA metabolism and its relationship with cancer (Review). |
+| 30833903 | hCLE/RTRAF-HSPC117-DDX1-FAM98B: A New Cap-Binding Complex That Activates mRNA Translation. |
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

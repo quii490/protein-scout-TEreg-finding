@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 | CEP19 |
+| 蛋白名称 | Centrosomal protein of 19 kDa |
 | 蛋白全名 | Centrosomal protein of 19 kDa |
 | 蛋白大小 | 170 aa / 19 kDa |
 | UniProt ID | Q96LK0 |
@@ -55,60 +56,51 @@ PubMed strict: 15
 
 IntAct 6 条记录。UniProt 无 interaction 记录。PPI 方向为 centrosome/ciliogenesis 网络，不特异地支持核功能。
 
-### 5. 总体评价
-CEP19 是小型 centrosome 蛋白。GO nucleoplasm IDA:HPA 提供核质定位实验证据，但 UniProt 亚细胞定位仅覆盖 centrosome/centriole/cilium。核定位证据来自 HPA 抗体染色注释（非经典核蛋白）。低-中置信度 nucleoplasm 候选。
+### PPI 互作网络
 
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CEP19/CEP19-PAE.png]]
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| FGFR1OP | STRING | 952 |
+| CEP350 | STRING | 877 |
+| KXD1 | BioGRID | 1 |
+| CREB3L2 | BioGRID | 1 |
+| REL | BioGRID | 1 |
+| VCP | BioGRID | 1 |
+| ZBTB14 | BioGRID | 1 |
+| CALCOCO1 | BioGRID | 1 |
 
 
-#### 关键文献
-| PMID | 标题 |
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q96LK0-F1-predicted_aligned_error_v6.png)
+
+### HPA IF 图像
+
+HPA 检索: https://www.proteinatlas.org/search/CEP19
+
+### PubMed
+
+**Count: 20**
+
+| PMID | Title |
 |---|---|
-| 28428259 | RABL2 interacts with the intraflagellar transport-B complex and CEP19 and participates in ciliary as |
-| 24268657 | Morbid obesity resulting from inactivation of the ciliary protein CEP19 in humans and mice. |
-| 38585545 | Severe Early-Onset Obesity and Diabetic Ketoacidosis due to a Novel Homozygous c.169C>T p.Arg57* Var |
-| 36074075 | CEP19-RABL2-IFT-B axis controls BBSome-mediated ciliary GPCR export. |
-| 37606072 | The IFT81-IFT74 complex acts as an unconventional RabL2 GTPase-activating protein during intraflagel |
-
-PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于AlphaFold pLDDT统计。
+| 41582264 | Does Cognitive Behavior Therapy Change Socially Anxious Adolescents' Behavior during a Public Speaking Task? |
+| 41218617 | Prognostic Significance of Actinin-4 Protein Expression and Gene Amplification in Endometrial Carcinoma. |
+| 39712340 | Whole exome sequencing revealed new variants and haplotypes associated with monogenic obesity. |
+| 38991980 | Architecture of RabL2-associated complexes at the ciliary base: A structural modeling perspective: Deciphering the structural organization of ciliary  |
+| 38585545 | Severe Early-Onset Obesity and Diabetic Ketoacidosis due to a Novel Homozygous c.169C>T p.Arg57* Variant in CEP19 Gene. |
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CEP19/CEP19-PAE.png]]
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Centrosome (supported)。来源: https://www.proteinatlas.org/ENSG00000174007-CEP19/subcellular
 
-![](https://images.proteinatlas.org/71138/1433_G4_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/71138/1433_G4_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/71138/1487_D12_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/71138/1487_D12_8_blue_red_green.jpg)
-![](https://images.proteinatlas.org/71138/1772_A3_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/71138/1772_A3_4_blue_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
+### ESMFold 结构预测
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-07）
-
-### SMART / UniProt domain
-| Source | Data |
+| 指标 | 数值 |
 |---|---|
-| UniProt | Q96LK0 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR029412; |
-| Pfam | PF14933; |
+| 平均 pLDDT | 0.76 |
+| >0.9 | 0.0% |
+| <0.5 | 6.7% |
+| 残基数 | 163 |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000174007-CEP19/interaction
-
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| CEP350 | Biogrid, Bioplex | true |
-| CEP43 | Intact, Biogrid | true |
-| GNL3 | Intact, Biogrid | true |
-| PIK3R3 | Intact, Biogrid | true |
-| RABL2A | Intact, Biogrid | true |
-| RABL2B | Intact, Biogrid | true |
-| SLTM | Biogrid, Bioplex | true |
-| ANAPC15 | Intact | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->
+ESMFold 从头折叠验证。PDB: `detail/_esm_structures/CEP19_esmfold.pdb`

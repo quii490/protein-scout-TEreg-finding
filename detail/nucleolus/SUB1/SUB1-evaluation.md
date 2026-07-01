@@ -167,54 +167,38 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/P53999
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000113387-SUB1/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=SUB1
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/P53999
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (supported)。来源: https://www.proteinatlas.org/ENSG00000113387-SUB1/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| GTF2B | STRING | 845 |
+| CSTF2 | STRING | 809 |
+| TBP | STRING | 770 |
+| TOP1 | STRING | 714 |
+| SUPT5H | STRING | 703 |
+| EP300 | BioGRID | 1 |
+| SUB1 | BioGRID | 1 |
+| SP1 | BioGRID | 1 |
 
-![](https://images.proteinatlas.org/1311/26_G5_1_red_green.jpg)
-![](https://images.proteinatlas.org/1311/26_G5_2_red_green.jpg)
-![](https://images.proteinatlas.org/1311/27_G5_1_red_green.jpg)
-![](https://images.proteinatlas.org/1311/27_G5_2_red_green.jpg)
-![](https://images.proteinatlas.org/1311/28_G5_1_red_green.jpg)
-![](https://images.proteinatlas.org/1311/28_G5_2_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-P53999-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/SUB1
+
+### PubMed
+
+**Count: 688**
+
+| PMID | Title |
 |---|---|
-| UniProt | P53999 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR003173;IPR009044;IPR045125; |
-| Pfam | PF02229; |
+| 42366691 | Gene expression and microsecond scale conformational dynamics suggest potential regulatory mechanisms for the expanded subtilase family of T. rubrum. |
+| 42281838 | Recent efforts of vapour-phase strategies for EUV resist toward high- and hyper-NA extreme ultraviolet lithography. |
+| 42280671 | Photosynthetic Microorganisms in Plant Growth Promotion and Stress Response: Proposed Organisms with In Silico Validation. |
+| 42271679 | Dual-color single-molecule localization microscopy with a sub-nanometer channel misalignment and sub-1% color crosstalk. |
+| 42250022 | Lineage-specific variation and molecular evolution in the rice landrace Thavalakannan: an in silico framework for identifying candidate flood resilien |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000113387-SUB1/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| RPL11 | Biogrid, Opencell | true |
-| AAMP | Opencell | false |
-| ATG3 | Opencell | false |
-| CCNF | Biogrid | false |
-| CDK2 | Biogrid | false |
-| CDKN2A | Opencell | false |
-| CHD4 | Biogrid | false |
-| COMMD1 | Opencell | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

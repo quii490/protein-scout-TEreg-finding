@@ -177,6 +177,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RUNX1 | STRING | 875 |
+| ZBTB32 | BioGRID | 1 |
+| BAP1 | BioGRID | 1 |
+| ELAVL1 | BioGRID | 1 |
+| APP | BioGRID | 1 |
+| IKZF5 | BioGRID | 1 |
+| TRIM25 | BioGRID | 1 |
+| ESR2 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/6057/33_G2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/6057/33_G2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/6057/34_G2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/6057/34_G2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/6057/32_G2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/6057/32_G2_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q15723
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000109381-ELF2/subcellular

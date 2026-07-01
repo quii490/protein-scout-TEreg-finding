@@ -168,52 +168,38 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q8NFJ5
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000013588-GPRC5A/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=GPRC5A
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8NFJ5
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Vesicles (supported)。来源: https://www.proteinatlas.org/ENSG00000013588-GPRC5A/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| GTF2F2 | BioGRID | 0 |
+| HSPA9 | BioGRID | 0 |
+| MPV17 | BioGRID | 0 |
+| NOLC1 | BioGRID | 0 |
+| EIF4A1 | BioGRID | 0 |
+| SLC25A3 | BioGRID | 0 |
+| TMEM17 | BioGRID | 0 |
+| DBN1 | BioGRID | 0 |
 
-![](https://images.proteinatlas.org/46526/2242_F7_11_blue_red_green.jpg)
-![](https://images.proteinatlas.org/46526/2242_F7_71_blue_red_green.jpg)
-![](https://images.proteinatlas.org/46526/2243_C6_33_blue_red_green.jpg)
-![](https://images.proteinatlas.org/46526/2243_C6_9_blue_red_green.jpg)
-![](https://images.proteinatlas.org/46526/2244_E8_17_blue_red_green.jpg)
-![](https://images.proteinatlas.org/46526/2244_E8_41_blue_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q8NFJ5-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白的 GO-CC 注释中缺乏染色质/TE 沉默相关定位，TE 调控潜力较低。不建议作为 TE 调控优先靶标。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-07）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/GPRC5A
+
+### PubMed
+
+**Count: 189**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q8NFJ5 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR017978;IPR051753; |
-| Pfam | PF00003; |
+| 42277459 | Down-regulation of GPRC5A Confers Protection Against Periodontitis. |
+| 42266697 | Tracing the stemness and malignant transition in a heritable colorectal cancer Lynch Syndrome by single-cell RNA-seq analysis. |
+| 42009151 | Acetylation of GPRC5A at Lys348 facilitates cisplatin resistance and promotes the recurrence and poor prognosis in ovarian cancer. |
+| 41916296 | Robust transcriptomic hallmarks targeting intratumor heterogeneity in intrahepatic cholangiocarcinoma. |
+| 41903466 | Identification of tumor initiating cells and early marker genes in histologically normal colonic mucosa that lead to neoplastic transformation. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000013588-GPRC5A/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| ANLN | Biogrid | false |
-| CFTR | Biogrid | false |
-| KRAS | Biogrid | false |
-| LAMTOR1 | Bioplex | false |
-| RHOB | Biogrid | false |
-| TRIM25 | Biogrid | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

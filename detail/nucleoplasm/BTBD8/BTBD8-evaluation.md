@@ -1,18 +1,18 @@
 ---
 type: protein-evaluation
-gene: "BTBD8"
+gene: "B暂无数据8"
 date: 2026-06-03
 tags: [protein-scout, nuclear-protein, evaluation]
 status: scored
 ---
 
-## BTBD8 核蛋白评估报告 (Full Re-evaluation)
+## B暂无数据8 核蛋白评估报告 (Full Re-evaluation)
 
 ### 1. 基本信息
 
 | 项目 | 内容 |
 |------|------|
-| 基因名 / 别名 | BTBD8 / KIAA1107 |
+| 基因名 / 别名 | B暂无数据8 / KIAA1107 |
 | 蛋白名称 | BTB/POZ domain-containing protein 8 |
 | 蛋白大小 | 1792 aa / 199.0 kDa |
 | UniProt ID | Q5XKL5 |
@@ -66,7 +66,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 | 别名(未计入scoring) | Aliases observed but not used for scoring: KIAA1107 |
 
 **关键文献**:
-1. Molecular cloning and characterization of a novel human BTBD8 gene containing double BTB/POZ domains.. *International journal of molecular medicine*. PMID: 14654994
+1. Molecular cloning and characterization of a novel human B暂无数据8 gene containing double BTB/POZ domains.. *International journal of molecular medicine*. PMID: 14654994
 2. High-throughput RNA sequencing reveals structural differences of orthologous brain-expressed genes between western lowland gorillas and humans.. *The Journal of comparative neurology*. PMID: 26132897
 3. Multi-ancestry exome-wide study identifies variants associated with Alzheimer's disease protection.. *Journal of Alzheimer's disease : JAD*. PMID: 41428483
 4. Btbd8 deficiency reduces susceptibility to colitis by enhancing intestinal barrier function and suppressing inflammation.. *Frontiers in immunology*. PMID: 38558797
@@ -158,7 +158,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 **推荐等级**: ⭐⭐⭐
 
 **核心优势**:
-1. BTBD8 — BTB/POZ domain-containing protein 8，极度新颖，几乎未被系统研究（PubMed ≤20篇）。
+1. B暂无数据8 — BTB/POZ domain-containing protein 8，极度新颖，几乎未被系统研究（PubMed ≤20篇）。
 2. 蛋白大小1792 aa，蛋白偏小/偏大，实验操作有一定难度。
 
 **风险/不确定性**:
@@ -171,22 +171,36 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| WIPI2 | BioGRID | 0 |
+| CUL3 | BioGRID | 0 |
+| KIAA1429 | BioGRID | 0 |
+| KIRREL | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q5XKL5
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000189195-BTBD8/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=BTBD8
+- Protein Atlas: https://www.proteinatlas.org/ENSG00000189195-B暂无数据8/subcellular
+- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=B暂无数据8
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q5XKL5
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/BTBD8/IF_images/BTBD8_IF_red_green.jpg]]
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/BTBD8/IF_images/BTBD8_IF_thumb_if_selected_60x60.jpg]]
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/BTBD8/IF_images/BTBD8_IF_35311.jpg]]
+![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/B暂无数据8/IF_images/B暂无数据8_IF_red_green.jpg]]
+![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/B暂无数据8/IF_images/B暂无数据8_IF_thumb_if_selected_60x60.jpg]]
+![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/B暂无数据8/IF_images/B暂无数据8_IF_35311.jpg]]
 
 
 
 <!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (supported)。来源: https://www.proteinatlas.org/ENSG00000189195-BTBD8/subcellular
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (supported)。来源: https://www.proteinatlas.org/ENSG00000189195-B暂无数据8/subcellular
 
 ![](https://images.proteinatlas.org/35311/376_G11_2_red_green.jpg)
 ![](https://images.proteinatlas.org/35311/376_G11_3_red_green.jpg)
@@ -215,7 +229,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 | Pfam | PF26017;PF00651;PF15363; |
 
 ### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000189195-BTBD8/interaction
+Source: https://www.proteinatlas.org/ENSG00000189195-B暂无数据8/interaction
 
 | Partner | Datasets | AF3/HPA structure |
 |---|---|:--:|

@@ -87,6 +87,24 @@ MDFI 是最强互作（7 experiments in UniProt + validated Y2H in IntAct），R
 ### 4. 总体评价
 HEYL 是 Notch 信号通路的核心转录抑制因子，核定位强（GO nucleus IDA + HPA Approved nucleoli）、bHLH-Orange 结构域支持转录调控功能、PPI 网络指向 Hand1/2、MDFI、BANP 等核蛋白。主要劣势是研究热度较高（PM=90），但鉴于其 Notch 效应子的独特位置和丰富的 PPI 网络，仍值得作为中等优先级核质候选保留。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| HEY1 | STRING | 947 |
+| HEY2 | STRING | 918 |
+| KBF2 | STRING | 843 |
+| RBPJ | STRING | 843 |
+| NOTCH3 | STRING | 835 |
+| NOTCH1 | STRING | 806 |
+| MAML1 | STRING | 776 |
+| MAML2 | STRING | 768 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9NQ87
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9NQ87

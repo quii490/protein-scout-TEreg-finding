@@ -146,45 +146,20 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q6ZNB5
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000254469-XNDC1N/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=XNDC1N
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q6ZNB5
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### TE 调控评估
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoli (enhanced)。来源: https://www.proteinatlas.org/ENSG00000254469-XNDC1N/subcellular
+该蛋白的 GO-CC 注释中缺乏染色质/TE 沉默相关定位，TE 调控潜力较低。不建议作为 TE 调控优先靶标。
 
-![](https://images.proteinatlas.org/51121/1130_F3_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/51121/1130_F3_3_blue_red_green.jpg)
-![](https://images.proteinatlas.org/51121/1143_F3_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/51121/1143_F3_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/51121/1320_F1_3_blue_red_green.jpg)
-![](https://images.proteinatlas.org/51121/1320_F1_5_blue_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
+### HPA IF 图像
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+HPA 检索: https://www.proteinatlas.org/search/XNDC1N
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q6ZNB5-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+### PubMed
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+**Count: 1**
 
-### SMART / UniProt domain
-| Source | Data |
+| PMID | Title |
 |---|---|
-| UniProt | Q6ZNB5 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR008979;IPR002706; |
-| Pfam | PF01834; |
+| 37333357 | Trans-ancestral genetic study of diabetes mellitus risk in survivors of childhood cancer: a report from the St. Jude Lifetime Cohort and the Childhood |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000254469-XNDC1N/interaction
 
-未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

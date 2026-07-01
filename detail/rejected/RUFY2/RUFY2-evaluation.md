@@ -51,6 +51,48 @@ status: scored
 
 RUFY2 is 606 amino acids in length (~70.0 kDa). 606 aa, acceptable range. Score 8/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| EPHA3 | STRING | 884 |
+| DUSP23 | BioGRID | 1 |
+| SF3B3 | BioGRID | 1 |
+| PURB | BioGRID | 1 |
+| PMF1 | BioGRID | 1 |
+| CD70 | BioGRID | 1 |
+| PEX14 | BioGRID | 1 |
+| RAB9A | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/39792/523_H1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39792/523_H1_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39792/520_H1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39792/520_H1_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39792/517_H1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39792/517_H1_2_blue_red_green.jpg)
+
+
+### PubMed
+
+**Count: 13**
+
+| PMID | Title |
+|---|---|
+| 37415806 | Transcriptome-wide association study identifies novel candidate susceptibility genes for migraine. |
+| 35429411 | Integrated analysis of single-cell RNA-seq dataset and bulk RNA-seq dataset constructs a prognostic model for predicting survival in human glioblastom |
+| 32211330 | LncRNAs Predicted to Interfere With the Gene Regulation Activity of miR-637 and miR-196a-5p in GBM. |
+| 30904593 | Identification of miR-146a and miR-196a-2 single nucleotide polymorphisms at patients with high-grade serous ovarian cancer. |
+| 30466862 | Novel rearrangements involving the RET gene in papillary thyroid carcinoma. |
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

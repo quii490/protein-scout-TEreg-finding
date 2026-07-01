@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 | ANKRD50 |
+| 蛋白名称 | Ankyrin repeat domain-containing protein 50 |
 | 蛋白全名 | Ankyrin repeat domain-containing protein 50 |
 | 蛋白大小 | 1429 aa / ~162 kDa |
 | UniProt ID | Q9ULJ7 |
@@ -58,122 +59,38 @@ PubMed strict: 5
 
 **关键文献**: ANKRD50 的研究极度匮乏。5 篇 strict 文献主要为 GWAS/转录组关联分析中的基因提及（骨密度、神经系统发育），无独立功能研究。蛋白功能完全未知。PubMed strict=5 为本项目最新颖的蛋白之一。
 
-### 5. 三维结构
+### PPI 互作网络
 
-| 指标 | 数值 |
-|---|---|
-| AlphaFold pLDDT | 73.9 (mean) |
-| pLDDT >90 | 44.9% |
-| pLDDT 70-90 | 12.3% |
-| pLDDT 50-70 | 16.3% |
-| pLDDT <50 | 26.5% |
-| PDB | 无实验结构 |
-| Domain | Ankyrin repeat (IPR002110, multiple copies) |
-
-
-**PAE**: PAE 图像已获取。pLDDT 73.9，蛋白存在显著无序区域 (26.5% <50)，与大尺寸 (1429 aa) 一致。44.9% 残基 >90 置信度，提示存在明确折叠的 ankyrin repeat 结构域。
-
-### 6. PPI 网络
-
-#### STRING 互作
-
-| Partner | Score | Experimental | 功能 |
-|---|---|---|---|
-| C12orf57 | 0.994 | 0 | Uncharacterized (textmining) |
-| VPS29 | 0.851 | 0.415 | Retromer complex subunit |
-| SNX27 | 0.811 | 0.150 | Sorting nexin, endosomal trafficking |
-| GRB2 | 0.784 | 0.332 | Growth factor receptor binding |
-| EGFR | 0.769 | 0.261 | EGF receptor signaling |
-| VPS35 | 0.729 | 0.150 | Retromer cargo recognition |
-| SNX1 | 0.712 | 0.059 | Sorting nexin |
-| ANKRD13A | 0.671 | 0 | Ankyrin repeat (textmining) |
-| RAB7A | 0.661 | 0.112 | Late endosome GTPase |
-
-#### IntAct 互作
-
-| Partner | 方法 | PMID | 功能 |
-|---|---|---|---|
-| EIF4ENIF1 | coIP | 26496610 | Translation regulator |
-| PSMD12 | coIP | 26496610 | 26S proteasome subunit |
-| CSNK2A1 | coIP | 26496610 | CK2 kinase (核/胞质) |
-
-UniProt curated interactions: 0。
-
-**PPI 评述**: PPI 网络呈现双面性——retromer/endosomal trafficking 网络 (VPS29, SNX27, VPS35) 与 UniProt 记录的 endosome 定位一致；同时 GRB2/EGFR 信号网络和 CSNK2A1 (CK2 激酶) 提示核/胞质信号功能。C12orf57 (0.994) 为极强 textmining 关联但功能未知。PPI 支持 ANKRD50 参与内吞运输的同时可能具有核功能。
-
-### 7. 总体评价
-
-ANKRD50 是极大型 (1429 aa) 的新型蛋白。核定位证据主要来自 HPA Approved IF 实验 (Nucleoplasm main + Cytosol main)，但 UniProt 仅注释 Endosome 且 GO-CC 滞后。PPI 网络呈现 retromer/endosomal 和信号转导双面性。
-
-归一化总分 68.3/100。建议作为中置信度 nucleoplasm 候选。主要优势为 HPA Approved 核质定位 + 极新颖性 (strict=5)。主要弱项为蛋白极大 (1429 aa) 和 UniProt/HPA 定位不一致。后续应优先用内源 IF 验证核定位，排除抗体交叉反应等假阳性。
-
-### 8. 数据来源
-
-- UniProt: https://www.uniprot.org/uniprotkb/Q9ULJ7
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9ULJ7
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=ANKRD50
-- HPA: https://www.proteinatlas.org/search/ANKRD50
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/ANKRD50/IF_images/ANKRD50_IF_44008.jpg]]
-
-
-#### PPI 网络
-| Partner | Source | Score/Evidence |
+| 互作伙伴 | 来源 | 评分 |
 |---|---|---|
-| C12orf57 | STRING | 0.994 |
-| VPS29 | STRING | 0.851 |
-| SNX27 | STRING | 0.811 |
-| VPS35 | STRING | 0.781 |
-| ENTR1 | STRING | 0.57 |
-| ANKRD28 | IntAct | psi-mi:"MI:0399"(two hybrid fr |
-| ENSP00000425658.1 | IntAct | psi-mi:"MI:0018"(two hybrid) |
-| ARL13B | IntAct | psi-mi:"MI:0007"(anti tag coim |
+| APP | BioGRID | 0 |
+| ZDHHC17 | BioGRID | 0 |
+| ARL13B | BioGRID | 0 |
+| CLNK | BioGRID | 0 |
+| XPO1 | BioGRID | 0 |
+| SMURF1 | BioGRID | 0 |
+| ZNF414 | BioGRID | 0 |
+| DDX41 | BioGRID | 0 |
 
 
-#### 关键文献
-| PMID | 标题 |
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+HPA 检索: https://www.proteinatlas.org/search/ANKRD50
+
+### PubMed
+
+**Count: 7**
+
+| PMID | Title |
 |---|---|
-| 40494419 | ANKK1, ANKRD50, GRK5, PACSIN1 and VPS8 are novel candidate genes associated with late onset Parkinso |
-| 26509176 | Detecting Genetic Associations between ATG5 and Lupus Nephritis by trans-eQTL. |
-| 32411801 | Genome-Wide Profiling of Human Papillomavirus DNA Integration into Human Genome and Its Influence on |
-| 27909246 | Retromer- and WASH-dependent sorting of nutrient transporters requires a multivalent interaction net |
-| 25278552 | Identification of molecular heterogeneity in SNX27-retromer-mediated endosome-to-plasma-membrane rec |
-
-HPA IF 图像已本地嵌入。
+| 41259427 | High-Resolution Genomic Resources for Trait Mapping and Precision Breeding for Adzuki Bean (Vigna angularis). |
+| 40494419 | ANKK1, ANKRD50, GRK5, PACSIN1 and VPS8 are novel candidate genes associated with late onset Parkinson's disease: Definition of a novel predictive prot |
+| 37209533 | Dissecting the genetic heterogeneity of gastric cancer. |
+| 32411801 | Genome-Wide Profiling of Human Papillomavirus DNA Integration into Human Genome and Its Influence on PD-L1 Expression in Chinese Uygur Cervical Cancer |
+| 27909246 | Retromer- and WASH-dependent sorting of nutrient transporters requires a multivalent interaction network with ANKRD50. |
 
 
-
-**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
-
-
-
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
-
-![](https://alphafold.ebi.ac.uk/files/AF-Q9ULJ7-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
-
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-07）
-
-### SMART / UniProt domain
-| Source | Data |
-|---|---|
-| UniProt | Q9ULJ7 |
-| SMART | SM00248; |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR058018;IPR002110;IPR036770;IPR056884;IPR058056; |
-| Pfam | PF25520;PF00023;PF12796;PF24883;PF25521; |
-
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000151458-ANKRD50/interaction
-
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| ARL13B | Biogrid | false |
-| CAPZB | Opencell | false |
-| HIF1AN | Biogrid | false |
-| KRAS | Biogrid | false |
-| VIRMA | Biogrid | false |
-| VPS29 | Opencell | false |
-| VPS35 | Opencell | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | HNF1A / HNF1 homeobox A / TCF1 / MODY3 / Hepatocyte nuclear factor 1-alpha |
+| 蛋白名称 | Hepatocyte nuclear factor 1-alpha |
 | 蛋白大小 | 631 aa / 67.4 kDa |
 | UniProt ID | P20823 |
 | 评估日期 | 2026-05-28 |
@@ -173,6 +174,37 @@ status: scored
 - [ ] 不建议作为优先 target (新颖性评分 0)
 - 若特别关注 HNF1A, 可考虑 TE 调控相关方向 (HBV ENII 增强子中的角色, NR5A2 协同)
 - 与其他 ARID/HP1 类蛋白相比, 新颖性劣势过大
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PCBD | STRING | 995 |
+| PCBD1 | STRING | 995 |
+| HNF4A | STRING | 988 |
+| NR2A1 | STRING | 988 |
+| HNF1B | STRING | 961 |
+| TCF2 | STRING | 961 |
+| PCBD2 | STRING | 944 |
+| NR2A2 | STRING | 943 |
+
+
+### HPA IF 图像
+
+HPA 检索: https://www.proteinatlas.org/search/HNF1A
+
+### PubMed
+
+**Count: 2361**
+
+| PMID | Title |
+|---|---|
+| 42346031 | Low Depth Epigenetic Mapping of Maturation Versus Retrodifferentiation in HepaRG Cells. |
+| 42330953 | Individuals who deviate from polygenic expectation are enriched for damaging variants in genes linked to rare disease. |
+| 42329282 | Maturity onset diabetes of the young in pregnancy: management, treatment and neonatal outcomes-a systematic review. |
+| 42310870 | A case of maturity-onset diabetes of the young with a pathogenic HNF1A variant and a coexisting NEUROD1 variant. |
+| 42308298 | Control of naive T cell reactivity and peripheral tolerance by ascorbate and TET activity. |
+
 
 ### 5. 数据来源
 - GeneCards: - Protein Atlas: - UniProt: https://www.uniprot.org/uniprotkb/P20823

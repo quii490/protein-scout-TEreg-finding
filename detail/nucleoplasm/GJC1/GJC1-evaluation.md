@@ -170,49 +170,38 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/P36383
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000182963-GJC1/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=GJC1
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/P36383
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Plasma membrane (supported)。来源: https://www.proteinatlas.org/ENSG00000182963-GJC1/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CNST | BioGRID | 0 |
+| FAM189A2 | BioGRID | 0 |
+| EXTL2 | BioGRID | 0 |
+| ZACN | BioGRID | 0 |
+| LPAR1 | BioGRID | 0 |
+| UBQLN4 | BioGRID | 0 |
+| PSMD2 | BioGRID | 0 |
+| GPR114 | BioGRID | 0 |
 
-![](https://images.proteinatlas.org/14005/2034_H7_31_blue_red_green.jpg)
-![](https://images.proteinatlas.org/14005/2034_H7_32_blue_red_green.jpg)
-![](https://images.proteinatlas.org/14005/2088_C9_7_blue_red_green.jpg)
-![](https://images.proteinatlas.org/14005/2088_C9_8_blue_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-P36383-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/GJC1
+
+### PubMed
+
+**Count: 45**
+
+| PMID | Title |
 |---|---|
-| UniProt | P36383 |
-| SMART | SM00037;SM01089; |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR000500;IPR002265;IPR019570;IPR017990;IPR013092;IPR038359; |
-| Pfam | PF00029; |
+| 42368294 | Current Topics of Progressive Cardiac Conduction Disease. |
+| 42160806 | Dietary supplementation of endo-1,4-ß-D-mannanase improves turkey growth through enhancement of immune response and jejunal barrier integrity. |
+| 41418531 | Effect of heat stress on jejunal epithelial barrier integrity in broilers divergently selected for high- and low-water efficiency. |
+| 41063451 | Novel Strategy for Acquiring Metabolically-Tagged Nascent Extracellular Vesicles: Implications for Identifying Surface Protein Markers of Extracellula |
+| 40720769 | Hierarchical Requirement for Endothelial Cell Connexins Cx37, Cx47, Cx43, and Cx45 in Lymphatic Valve Function. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000182963-GJC1/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| GJA3 | Bioplex | false |
-| MAPK12 | Bioplex | false |
-| NRAS | Biogrid | false |
-| TMEM86A | Intact | false |
-| UBQLN4 | Biogrid | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

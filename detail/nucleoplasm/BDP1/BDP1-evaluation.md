@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | BDP1 / TFIIIB B'' subunit, TFNR |
+| 蛋白名称 | Transcription factor TFIIIB component B'' homolog |
 | 蛋白大小 | 2624 aa / 288.6 kDa |
 | UniProt ID | A6H8Y1 |
 | 评估日期 | 2026-05-29 |
@@ -159,6 +160,20 @@ status: scored
 - [ ] 探索 BDP1-SANT 域的非 Pol III 功能
 - [ ] 推荐作为 Pol III 转录调控研究方向
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| BRF2 | STRING | 999 |
+| TBP | STRING | 999 |
+| GTF3C1 | STRING | 999 |
+| HEL-S-76P | STRING | 998 |
+| BRF1 | STRING | 998 |
+| POLR3A | STRING | 994 |
+| POLR3F | STRING | 985 |
+| POLR3E | STRING | 983 |
+
+
 ### 5. 关键文献
 
 1. Schramm L, Hernandez N. (2002). 'Recruitment of RNA polymerase III to its target promoters.' Genes Dev. PMID: 12381659
@@ -176,9 +191,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[BDP1-PAE.png]]
 

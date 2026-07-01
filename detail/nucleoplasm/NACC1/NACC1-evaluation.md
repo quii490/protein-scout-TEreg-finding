@@ -12,7 +12,7 @@ status: scored
 
 | 项目 | 内容 |
 |------|------|
-| 基因名 / 别名 | NACC1 / BTBD14B, NAC1 |
+| 基因名 / 别名 | NACC1 / B暂无数据14B, NAC1 |
 | 蛋白名称 | Nucleus accumbens-associated protein 1 |
 | 蛋白大小 | 527 aa / 57.3 kDa |
 | UniProt ID | Q96RE7 |
@@ -61,7 +61,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 |------|------|
 | PubMed strict count | 51 |
 | PubMed broad count | 130 |
-| 别名(未计入scoring) | Aliases observed but not used for scoring: BTBD14B, NAC1 |
+| 别名(未计入scoring) | Aliases observed but not used for scoring: B暂无数据14B, NAC1 |
 
 **关键文献**:
 1. An overview of the co-transcription factor NACC1: Beyond its pro-tumor effects.. *Life sciences*. PMID: 38030057
@@ -169,6 +169,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| GADD45GIP1 | STRING | 913 |
+| HDAC4 | STRING | 874 |
+| SCAF1 | STRING | 787 |
+| FBXL19 | STRING | 778 |
+| NANOG | STRING | 777 |
+| POU5F1 | STRING | 743 |
+| SOX2 | STRING | 702 |
+| CUL3 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96RE7

@@ -195,44 +195,34 @@ STRING + IntAct 高度一致 — Top 3 partner 全部在两个数据库中确认
 - [ ] 探索 ARNT 的非经典 partner (SMART 中 NCOA7/NCOR2 互作数据较少)
 - [ ] **中等优先级** — 得分 75.3/100, 除非有独特的 TE 调控 hypothesis, 否则建议优先考虑 ARID3A/ARID3B
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/P27540
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000143437-ARNT/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22ARNT%22%5BTitle/Abstract%5D
-- InterPro: https://www.ebi.ac.uk/interpro/protein/UniProt/P27540/
-- STRING: https://string-db.org/network/9606.ENSP00000351407
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/P27540
-- PDB 3F1P: https://www.rcsb.org/structure/3F1P
-- PDB 8XSB: https://www.rcsb.org/structure/8XSB
+### PPI 互作网络
 
-![[Projects/TEreg-finding/protein-interested/detail/rejected/ARNT/ARNT-PAE.png]]
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| AHR | STRING | 999 |
+| EP300 | STRING | 999 |
+| HLF | STRING | 999 |
+| EPAS1 | STRING | 999 |
+| HIF3A | STRING | 999 |
+| HIF1A | STRING | 999 |
+| NPAS4 | STRING | 992 |
+| CREBBP | STRING | 968 |
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/rejected/ARNT/ARNT-PAE.png]]
+### HPA IF 图像
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+HPA 检索: https://www.proteinatlas.org/search/ARNT
 
-### SMART / UniProt domain
-| Source | Data |
+### PubMed
+
+**Count: 3137**
+
+| PMID | Title |
 |---|---|
-| UniProt | P27540 |
-| SMART | SM00353;SM00086;SM00091; |
-| UniProt Domain [FT] | DOMAIN 89..142; /note="bHLH"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00981"; DOMAIN 161..235; /note="PAS 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00140"; DOMAIN 349..419; /note="PAS 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00140"; DOMAIN 424..467; /note="PAC" |
-| InterPro | IPR011598;IPR050933;IPR036638;IPR001067;IPR001610;IPR000014;IPR035965;IPR013767; |
-| Pfam | PF00010;PF00989;PF14598; |
+| 42340357 | The developmental pattern of calcium mobilisation during embryogenesis in Muscovy ducks. |
+| 42337297 | Intermittent hypoxia induces reversible epigenetic age acceleration in old mice. |
+| 42329576 | Investigating the interaction between aryl hydrocarbon receptor and methotrexate: implications for treatment resistance in rheumatoid arthritis patien |
+| 42308317 | NPAS3-regulated astrocyte mitochondrial bioenergetics is required for cognition. |
+| 42302427 | Liquiritigenin ameliorates circadian rhythm-mediated osteoblast differentiation through Rorα and Nr1d1 signaling pathways. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000143437-ARNT/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| AHR | Intact, Biogrid | true |
-| EPAS1 | Intact, Biogrid | true |
-| HIF1A | Intact, Biogrid | true |
-| AHRR | Biogrid | false |
-| AKT1 | Intact, Biogrid | false |
-| BRCA1 | Biogrid | false |
-| CALCOCO1 | Biogrid | false |
-| CALM1 | Biogrid | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

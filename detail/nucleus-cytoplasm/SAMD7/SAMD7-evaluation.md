@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | SAMD7 |
+| 蛋白名称 | Sterile alpha motif domain-containing protein 7 |
 | 蛋白全名 | Sterile alpha motif domain-containing protein 7 |
 | 蛋白大小 | 446 aa / 49.1 kDa |
 | UniProt ID | Q7Z3H4 |
@@ -124,6 +125,24 @@ status: scored
 SAMD7 是极具吸引力的候选蛋白。作为细胞类型特异性 PRC1 component，直接参与 Polycomb 介导的染色质沉默和 H3K27me3/H2AK119ub 表观遗传标记建立。极度新颖(strict=10, 90%以上文献为2017年后)。缺点是AF结构预测置信度低(大量无序区域)且无PDB结构。PRC1 复合体中的 SAM domain 介导蛋白互作。视网膜疾病 (macular dystrophy) 的致病基因，但 PUblic health relevance 可能不直接。
 
 **推荐**: 高优先级。PRC1 component + 极度新颖 + 染色质调控核心功能。无序区域缺点可接受(SAM domain 本身有序)。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| GAPDHS | BioGRID | 1 |
+| SON | BioGRID | 1 |
+| KLHL15 | BioGRID | 1 |
+| SAMD11 | BioGRID | 1 |
+| TP53 | BioGRID | 1 |
+| FBP1 | BioGRID | 1 |
+| OIP5 | BioGRID | 1 |
+| TSC1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprot/Q7Z3H4

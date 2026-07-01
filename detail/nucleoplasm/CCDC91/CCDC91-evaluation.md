@@ -195,6 +195,24 @@ HPA IF 图像可用 (2张)，待下载。
 - [ ] 查阅最新关键文献补充功能细节
 - [ ] 设计体外 DNA/染色质结合实验
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| GGA1 | STRING | 989 |
+| EWSR1 | BioGRID | 1 |
+| CCDC91 | BioGRID | 1 |
+| ECT2 | BioGRID | 1 |
+| CCDC102A | BioGRID | 1 |
+| PES1 | BioGRID | 1 |
+| DAPK2 | BioGRID | 1 |
+| RSL1D1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q7Z6B0
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CCDC91

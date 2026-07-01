@@ -151,6 +151,24 @@ status: scored
 - [ ] AlphaFold 结构预测分析
 - [ ] Co-IP/MS 验证PPI网络
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TTK | STRING | 931 |
+| TPX2 | STRING | 903 |
+| HCTP4 | STRING | 903 |
+| KIF20A | STRING | 900 |
+| NUF2 | STRING | 898 |
+| CCNA2 | STRING | 894 |
+| DLGAP5 | STRING | 881 |
+| KIF14 | STRING | 873 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q5TB30
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=DEPDC1
@@ -161,9 +179,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 <!-- DOMAIN_HUMANPPI_REPAIR_START -->
 ## Domain/SMART 与 humanPPI 补充（2026-06-07）

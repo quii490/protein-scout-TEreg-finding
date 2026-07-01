@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | CSRNP3 / CSRNP3 |
+| 蛋白名称 | Cysteine/serine-rich nuclear protein 3 |
 | 蛋白大小 | 585 aa / ~64.3 kDa |
 | UniProt ID | Q8WYN3 |
 | 评估日期 | 2026-05-29 |
@@ -133,6 +134,28 @@ status: scored
 - [ ] SMART 结构域分析评估调控潜力
 - [ ] 深入文献检索确认已知功能
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RBX1 | BioGRID | 1 |
+| PARK2 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/17905/2122_E2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/17905/2122_E2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/17905/149_E9_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/17905/149_E9_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/17905/151_E9_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/17905/151_E9_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8WYN3
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8WYN3
@@ -144,9 +167,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CSRNP3/CSRNP3-PAE.png]]

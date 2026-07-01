@@ -64,6 +64,24 @@ HPA IF display images available, reliability: Supported.
 
 **Research Volume Assessment**: Low (<50 papers), ample research space
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| COA1 | BioGRID | 0 |
+| ATP5J | BioGRID | 0 |
+| STYX | BioGRID | 0 |
+| SCO2 | BioGRID | 0 |
+| COX2 | BioGRID | 0 |
+| AIFM1 | BioGRID | 0 |
+| SCO1 | BioGRID | 0 |
+| COX14 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. AlphaFold / PAE / PDB
 
 #### AlphaFold

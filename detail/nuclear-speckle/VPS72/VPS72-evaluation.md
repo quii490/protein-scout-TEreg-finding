@@ -87,7 +87,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 | 有序区域 (pLDDT>70) 占比 | 58.0% |
 | 可用 PDB 条目 | 5FUG, 8QR1, 8X15, 8X19, 8X1C, 8XVG, 8XVT, 9C57, 9C62, 9CA7 |
 
-**PAE**: PAE 图像未生成本地文件（standard evaluation），结构判断基于 AlphaFold pLDDT 统计。
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 **评价**: PDB实验结构（5FUG, 8QR1, 8X15, 8X19, 8X1C, 8XVG, 8XVT, 9C57, 9C62, 9CA7）+ AlphaFold极高置信度预测（pLDDT=73.0），结构可信度极高。
 
@@ -172,6 +172,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RUVBL1 | STRING | 999 |
+| DMAP1 | STRING | 999 |
+| EAF2 | STRING | 999 |
+| YEATS4 | STRING | 998 |
+| RUVBL2 | STRING | 998 |
+| EAF1 | STRING | 997 |
+| SRCAP | STRING | 997 |
+| KAT5 | STRING | 996 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q15906
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000163159-VPS72/subcellular
@@ -217,3 +235,9 @@ Source: https://www.proteinatlas.org/ENSG00000163159-VPS72/interaction
 | RUVBL2 | Biogrid, Opencell, Bioplex | true |
 | TRRAP | Biogrid, Opencell | true |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-07-01）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-Q15906-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

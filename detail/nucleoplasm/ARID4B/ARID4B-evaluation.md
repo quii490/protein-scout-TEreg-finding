@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | ARID4B / BRCAA1 / RBBP1L1 / RBP1L1 / SAP180 |
+| 蛋白名称 | AT-rich interactive domain-containing protein 4B |
 | 蛋白大小 | 1312 aa / 147.8 kDa |
 | UniProt ID | Q4LE39 |
 | 评估日期 | 2026-05-29 |
@@ -155,6 +156,30 @@ STRING 预测互作数据不可用（查询失败或数据库覆盖不足）。I
 - [ ] Co-IP/MS 鉴定 Sin3 复合体中 ARID4B 互作组
 - [ ] 在 TE 调控系统中测试 ARID4B 敲低/过表达
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SUDS3 | STRING | 997 |
+| SAP30 | STRING | 997 |
+| SIN3A | STRING | 997 |
+| SIN3B | STRING | 993 |
+| HDAC1 | STRING | 990 |
+| HDAC2 | STRING | 988 |
+| RBBP4 | STRING | 987 |
+| PHF12 | STRING | 981 |
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/27205/1469_B6_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/27205/1469_B6_10_blue_red_green.jpg)
+![](https://images.proteinatlas.org/27205/1487_E11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/27205/1487_E11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/27205/1478_B6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/27205/1478_B6_3_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000054267-ARID4B
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=ARID4B
@@ -165,9 +190,9 @@ STRING 预测互作数据不可用（查询失败或数据库覆盖不足）。I
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[ARID4B-PAE.png]]
 

@@ -159,6 +159,24 @@ IntAct 实验互作: 0 条
 - [ ] 功能研究: 基于 PPI 网络设计功能实验
 - [ ] 结构分析: 基于 PDB 结构设计功能实验
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NCBP1 | STRING | 999 |
+| SRRT | STRING | 999 |
+| RBM8 | STRING | 997 |
+| RBM8A | STRING | 997 |
+| SMG1 | STRING | 997 |
+| SNRPD2 | STRING | 995 |
+| PHAX | STRING | 994 |
+| NELFE | STRING | 994 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=NCBP2
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000114503-NCBP2
@@ -171,9 +189,9 @@ IntAct 实验互作: 0 条
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[NCBP2-PAE.png]]
 

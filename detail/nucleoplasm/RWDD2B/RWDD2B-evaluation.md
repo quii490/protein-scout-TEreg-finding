@@ -53,6 +53,30 @@ status: scored
 
 RWDD2B is 319 amino acids (~36.3 kDa), well within the ideal range for biochemical and structural studies. Size score: 10/10.
 
+### 功能描述
+
+Precursors of the cornified envelope of the stratum corneum
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| GADD45G | BioGRID | 0 |
+| DNM2 | BioGRID | 0 |
+| APP | BioGRID | 0 |
+| SRPK2 | BioGRID | 0 |
+| DVL3 | BioGRID | 0 |
+| PHC2 | BioGRID | 0 |
+| EPB41 | BioGRID | 0 |
+| IKZF1 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

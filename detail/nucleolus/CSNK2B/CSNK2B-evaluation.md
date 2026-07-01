@@ -174,6 +174,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CSNK2A2 | STRING | 999 |
+| NFKBIA | STRING | 964 |
+| RYBP | STRING | 964 |
+| PCGF5 | STRING | 961 |
+| CTNNB1 | STRING | 955 |
+| CSNK2A1 | STRING | 944 |
+| RRP7A | STRING | 944 |
+| SSRP1 | STRING | 943 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P67870
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000204435-CSNK2B/subcellular

@@ -166,6 +166,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PTH1R | STRING | 997 |
+| ADCY1 | STRING | 979 |
+| GNB5 | STRING | 959 |
+| ADCY8 | STRING | 949 |
+| ADCY3 | STRING | 949 |
+| SRC | STRING | 942 |
+| HTR2B | STRING | 928 |
+| LPAR4 | STRING | 924 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P84996
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000087460-GNAS/subcellular

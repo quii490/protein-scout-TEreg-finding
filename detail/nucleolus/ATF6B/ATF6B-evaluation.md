@@ -174,6 +174,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ATF4 | STRING | 962 |
+| ATF6 | STRING | 961 |
+| CREB1 | STRING | 953 |
+| DDIT3 | STRING | 950 |
+| CREB3L2 | STRING | 932 |
+| CREB3L3 | STRING | 931 |
+| CREB3L1 | STRING | 931 |
+| CREB3 | STRING | 929 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q99941
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000213676-ATF6B/subcellular

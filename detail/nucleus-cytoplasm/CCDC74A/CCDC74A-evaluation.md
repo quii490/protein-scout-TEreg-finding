@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | CCDC74A / CCDC74A |
+| 蛋白名称 | Coiled-coil domain-containing protein 74A |
 | 蛋白全名 | Coiled-coil domain-containing protein 74A |
 | 蛋白大小 | 378 aa / 41.6 kDa |
 | UniProt ID | Q96AQ1 |
@@ -183,6 +184,34 @@ HPA IF 图像可用 (12张)，待下载。
 - [ ] 获取 HPA IF 图像确认核定位
 - [ ] 查阅最新关键文献补充功能细节
 - [ ] 设计体外 DNA/染色质结合实验
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| KDM1A | BioGRID | 0 |
+| SH2D1A | BioGRID | 0 |
+| CEP19 | BioGRID | 0 |
+| ZNF655 | BioGRID | 0 |
+| MAN2B2 | BioGRID | 0 |
+| THNSL1 | BioGRID | 0 |
+| CEP76 | BioGRID | 0 |
+| LIN9 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/46284/765_G5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/46284/765_G5_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/46284/871_B7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/46284/871_B7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/46284/771_G5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/46284/771_G5_2_blue_red_green.jpg)
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96AQ1

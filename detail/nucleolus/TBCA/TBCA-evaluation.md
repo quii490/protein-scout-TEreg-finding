@@ -170,6 +170,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TUBB2A | STRING | 871 |
+| TUBB4B | STRING | 790 |
+| TUBB2B | STRING | 763 |
+| TUBB4A | STRING | 749 |
+| TUBB3 | STRING | 749 |
+| TUBB6 | STRING | 723 |
+| TUBB5 | STRING | 723 |
+| TUBB | STRING | 723 |
+
+
+### TE 调控评估
+
+该蛋白的 GO-CC 注释中缺乏染色质/TE 沉默相关定位，TE 调控潜力较低。不建议作为 TE 调控优先靶标。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/36487/405_B12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36487/405_B12_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36487/409_B12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36487/409_B12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36487/402_B12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36487/402_B12_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O75347
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000171530-TBCA/subcellular

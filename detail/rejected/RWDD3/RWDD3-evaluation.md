@@ -52,6 +52,43 @@ status: scored
 
 RWDD3 is 267 amino acids in length (~30.5 kDa). 267 aa, ideal range. Score 10/10.
 
+### 功能描述
+
+Enhancer of SUMO conjugation. Via its interaction with UBE2I/UBC9, increases SUMO conjugation to proteins by promoting the binding of E1 and E2 enzymes, thioester linkage between SUMO and UBE2I/UBC9 and transfer of SUMO to specific target proteins which include HIF1A, PIAS, NFKBIA, NR3C1 and TOP1. Isoform 1 and isoform 2 positively regulate the NF-kappa-B signaling pathway by enhancing the sumoylation of NF-kappa-B inhibitor alpha (NFKBIA), promoting its stabilization which consequently leads to
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| UBE2I | STRING | 991 |
+| SUMO1 | STRING | 753 |
+| NFKBIA | BioGRID | 1 |
+| HIF1A | BioGRID | 1 |
+| NXF1 | BioGRID | 1 |
+| VHL | BioGRID | 1 |
+| KIF20A | BioGRID | 1 |
+| PRC1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### PubMed
+
+**Count: 35**
+
+| PMID | Title |
+|---|---|
+| 40646785 | LncRNA RWDD3 Facilitates Leydig Cell Steroidogenesis by Regulating the miR-1388-5p/NPY1R/cAMP Pathway in Yanshan Cashmere Goats. |
+| 40143670 | Differential methylation in blood pressure control genes is associated to essential hypertension in African Brazilian populations. |
+| 37925421 | SUMOylation-triggered ALIX activation modulates extracellular vesicles circTLCD4-RWDD3 to promote lymphatic metastasis of non-small cell lung cancer. |
+| 37330465 | Construction and verification of atopic dermatitis diagnostic model based on pyroptosis related biological markers using machine learning methods. |
+| 37059686 | Expression of RSUME is Associated With Poor Prognosis in Clear Cell Renal Carcinoma: Involvement of ROS Related Metabolism. |
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

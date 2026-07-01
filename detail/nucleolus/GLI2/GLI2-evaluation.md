@@ -170,54 +170,38 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/P10070
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000074047-GLI2/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=GLI2
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/P10070
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoli (supported)。来源: https://www.proteinatlas.org/ENSG00000074047-GLI2/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SUFU | STRING | 999 |
+| KIF7 | STRING | 997 |
+| THOC2 | STRING | 992 |
+| SPOP | STRING | 991 |
+| CYLD | STRING | 988 |
+| THOC3 | STRING | 986 |
+| BTRC | STRING | 984 |
+| THOC1 | STRING | 960 |
 
-![](https://images.proteinatlas.org/74275/2211_B10_12_blue_red_green.jpg)
-![](https://images.proteinatlas.org/74275/2211_B10_28_blue_red_green.jpg)
-![](https://images.proteinatlas.org/74275/1501_E6_3_red_green.jpg)
-![](https://images.proteinatlas.org/74275/1501_E6_4_red_green.jpg)
-![](https://images.proteinatlas.org/74275/1522_E6_3_red_green.jpg)
-![](https://images.proteinatlas.org/74275/1522_E6_4_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-P10070-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-07）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/GLI2
+
+### PubMed
+
+**Count: 1686**
+
+| PMID | Title |
 |---|---|
-| UniProt | P10070 |
-| SMART | SM00355; |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR043359;IPR056436;IPR036236;IPR013087; |
-| Pfam | PF00096;PF23561; |
+| 42295123 | Epithelial and Interstitial Gli2 Activation Correlates With Renal Tubulointerstitial Fibrosis and Facilitates FoxM1-Associated Myofibroblast Phenotypi |
+| 20301702 | Holoprosencephaly Overview. |
+| 42250720 | Pituitary Developmental Gene Defects and Their Contribution to Growth Hormone Deficiency. |
+| 42229575 | A narrow time-window for WNT, EDA, and SHH signaling during postnatal sweat gland development. |
+| 42228139 | A novel compound heterozygous variant in DNAH2: preliminary evidence of a potential genetic modifier for persistent cloaca in a Chinese family. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000074047-GLI2/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| AR | Biogrid | false |
-| BTRC | Intact | false |
-| CUL3 | Biogrid | false |
-| KIF7 | Biogrid | false |
-| OTUB2 | Biogrid | false |
-| SKI | Biogrid | false |
-| SMAD3 | Intact | false |
-| SPOP | Biogrid | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

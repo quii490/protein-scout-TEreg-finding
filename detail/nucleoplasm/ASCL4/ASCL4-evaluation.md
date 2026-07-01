@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | ASCL4 / BHLHA44 / HASH4 / Achaete-scute homolog 4 |
+| 蛋白名称 | Achaete-scute homolog 4 |
 | 蛋白大小 | 172 aa / 19.3 kDa |
 | UniProt ID | Q6XD76 |
 | 评估日期 | 2026-05-29 |
@@ -151,6 +152,20 @@ status: scored
 - [ ] ChIP-seq 鉴定全基因组结合位点（确认是否结合 TE/重复序列）
 - [ ] RNA-seq 鉴定敲低/过表达后转录变化
 - [ ] 比较 ASCL4 与 ASCL1/2/3 靶基因差异
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TCF12 | BioGRID | 1 |
+| TCF4 | BioGRID | 1 |
+| CRK | BioGRID | 1 |
+| MBD3 | BioGRID | 1 |
+| ID2 | BioGRID | 1 |
+| FHL3 | BioGRID | 1 |
+| ID1 | BioGRID | 1 |
+| TCF3 | BioGRID | 1 |
+
 
 ### 5. 数据来源
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000187855-ASCL4

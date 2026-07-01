@@ -178,6 +178,30 @@ ALX1是教科书级别的转录因子, 拥有经典的paired-class homeobox蛋�
 - [ ] 分析ALX1在全基因组中的结合位点是否富集于TE区域(ChIP-seq/CUT&RUN数据分析)
 - [ ] 检查ALX1是否与其他homeobox蛋白(ALX3/ALX4)形成调控网络
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| IPO13 | BioGRID | 1 |
+| ZBTB38 | BioGRID | 1 |
+| EEF1D | BioGRID | 1 |
+| RARA | BioGRID | 1 |
+| APCS | BioGRID | 1 |
+| ZNF300 | BioGRID | 1 |
+| RBM45 | BioGRID | 1 |
+| KAT5 | BioGRID | 1 |
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/1598/1124_B10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1598/1124_B10_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1598/93_D2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1598/93_D2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1598/62_D2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1598/62_D2_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=ALX1
 - Protein Atlas: https://www.proteinatlas.org/search/ALX1

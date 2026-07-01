@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | ATRNL1 / Attractin-like protein 1 |
+| 蛋白名称 | Attractin-like protein 1 |
 | 蛋白大小 | 1379 aa / 152.6 kDa |
 | UniProt ID | Q5VV63 |
 | 评估日期 | 2026-05-29 |
@@ -144,6 +145,34 @@ status: scored
 - [ ] 独立验证核定位 (排除膜蛋白污染)
 - [ ] 确认是否存在核定位信号 (NLS)
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MC4R | BioGRID | 0 |
+| HNRNPU | BioGRID | 0 |
+| DEFB135 | BioGRID | 0 |
+| FAM19A2 | BioGRID | 0 |
+| ANKRD46 | BioGRID | 0 |
+| RNF157 | BioGRID | 0 |
+| HYOU1 | BioGRID | 0 |
+| ZDHHC15 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/38070/423_H1_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38070/423_H1_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38070/426_H1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38070/426_H1_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38070/422_H1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38070/422_H1_3_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q5VV63
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000107518-ATRNL1/subcellular
@@ -154,9 +183,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[ATRNL1-PAE.png]]
 

@@ -151,6 +151,24 @@ PDB + AlphaFold 结构互证 (+0.5)
 - [ ] 基于 PPI 网络开展功能研究
 - [ ] 结构分析: 基于 PDB 的功能位点设计
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TSEN2 | STRING | 999 |
+| C1ORF19 | STRING | 999 |
+| TSEN15 | STRING | 999 |
+| TSEN34 | STRING | 999 |
+| CLP1 | STRING | 974 |
+| CPSF1 | STRING | 853 |
+| CPSF4 | STRING | 810 |
+| CSTF2 | STRING | 801 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=TSEN54
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000182173-TSEN54
@@ -163,9 +181,9 @@ PDB + AlphaFold 结构互证 (+0.5)
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[TSEN54-PAE.png]]
 

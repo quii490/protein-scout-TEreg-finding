@@ -138,6 +138,22 @@ HMX2 是 Homeobox 转录因子，PubMed 仅 37 篇，非常新颖。但 HPA 无�
 - Co-IP/MS 鉴定互作伙伴
 - 功能获得/缺失实验（肾脏或内耳方向）
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| LHPP | BioGRID | 1 |
+| PIAS1 | BioGRID | 1 |
+| HIST1H1E | BioGRID | 1 |
+| CALB2 | BioGRID | 0 |
+| HIST1H2AG | BioGRID | 0 |
+| HIST1H1C | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/A2RU54
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/A2RU54

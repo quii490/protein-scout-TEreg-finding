@@ -146,6 +146,32 @@ UniProt + GO 核定位互证 (+1)
 - [ ] 基于 PPI 网络开展功能研究
 - [ ] 结构分析: 基于 AlphaFold 的突变设计
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ZNF24 | STRING | 857 |
+| PGBD1 | STRING | 837 |
+| ZNF397 | STRING | 837 |
+| ZSCAN32 | STRING | 834 |
+| ZKSCAN4 | STRING | 831 |
+| ZNF396 | STRING | 831 |
+| ZSCAN22 | STRING | 820 |
+| ZSCAN20 | STRING | 813 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### 深度机制分析
+
+SCAND1（SCAN domain-containing protein 1，PF02023，IPR050916）属于SCAN-box锌指蛋白家族。其核心结构域架构包含一个N端的SCAN二聚化结构域（108-166 aa，PROSITE: SCAN_BOX）以及预测的C2H2锌指DNA结合模块。SCAN结构域被定义为介导选择性同源和异源二聚化的蛋白-蛋白互作模块，在C2H2-ZF转录因子亚家族中高度保守，其寡聚化特异性决定了SCAN-ZF蛋白的功能组合。值得注意的是，SCAND1缺乏KRAB（Kruppel-associated box）转录抑制结构域，而KRAB是大多数SCAN-ZF蛋白（如ZNF24、ZKSCAN4）发挥转录沉默功能的关键效应模块。这种KRAB缺失使SCAND1成为一个天然的功能截短体。
+
+HPA免疫荧光将SCAND1定位于nuclear speckles（核斑点）。核斑点是富含pre-mRNA剪接因子和转录调控因子的亚核结构，其定位提示SCAND1可能在活跃转录区域附近发挥作用。humanPPI数据（HPA Interaction）揭示SCAND1的互作组高度集中于SCAN-ZF家族成员：MZF1、PGBD1、ZKSCAN4、ZNF24、ZNF213、ZNF263、ZNF394、ZNF397——全部为含SCAN结构域的锌指转录因子。这种家族特异性的互作模式强烈支持SCAN结构域驱动的同源识别机制。
+
+综合以上，SCAND1的最可能作用模型为"显性负调控"（dominant-negative regulation）：SCAND1通过其SCAN结构域与KRAB-ZF转录因子形成异源二聚体，但因自身缺乏KRAB抑制结构域，所形成的复合体丧失转录抑制功能，从而解除靶基因的沉默。已有文献支持SCAND1具有逆转上皮-间质转化（EMT）和抑制前列腺癌生长的功能（Eguchi et al., 2022; Sheta et al., 2023），这与解除KRAB-ZF介导的基因沉默从而激活抑癌基因的假说高度一致。此外，在PGBD1的互作中，PGBD1本身含有piggyBac转座酶结构域，暗示SCAND1可能也间接影响转座子相关转录调控。SCAND1作为SCAN-ZF网络中缺乏效应模块的调节节点，是研究SCAN-KRAB-ZF转录因子组合调控逻辑的理想切入点。
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=SCAND1
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000171222-SCAND1
@@ -158,9 +184,9 @@ UniProt + GO 核定位互证 (+1)
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[SCAND1-PAE.png]]
 

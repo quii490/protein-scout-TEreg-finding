@@ -58,6 +58,34 @@ status: scored
 
 RNF113B is 322 amino acids in length, placing it well within the ideal 200-800 aa range for biochemical characterization. Proteins of this size are amenable to recombinant expression, purification, and most structural and functional assays. Size score: 10/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| UBE2U | BioGRID | 1 |
+| UBE2L3 | BioGRID | 1 |
+| UBE2H | BioGRID | 1 |
+| PRPF19 | BioGRID | 1 |
+| HIST1H1E | BioGRID | 1 |
+| RNF113A | BioGRID | 1 |
+| UBE2R2 | BioGRID | 0 |
+| GIT1 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### PubMed
+
+**Count: 2**
+
+| PMID | Title |
+|---|---|
+| 22045297 | Novel mutation and three other sequence variants segregating with phenotype at keratoconus 13q32 susceptibility locus. |
+| 20889727 | Primate and rodent specific intron gains and the origin of retrogenes with splice variants. |
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

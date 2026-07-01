@@ -165,54 +165,38 @@ STRING 15 个预测互作，IntAct 15 个实验互作。调控相关配体占比
 - [ ] 设计 ChIP-seq/CUT&RUN 验证染色质结合
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q9NRG0
-- Protein Atlas: https://www.proteinatlas.org/search/CHRAC1
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CHRAC1
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9NRG0
-- STRING: https://string-db.org/network/9606.CHRAC1
-- Packet data timestamp: 2026-06-03 08:04:19
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000104472-CHRAC1/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| POLE3 | STRING | 999 |
+| BAZ1A | STRING | 998 |
+| SMARCA5 | STRING | 997 |
+| SMARCA1 | STRING | 982 |
+| POLE2 | STRING | 963 |
+| POLE1 | STRING | 957 |
+| POLE | STRING | 957 |
+| NFYB | STRING | 924 |
 
-![](https://images.proteinatlas.org/59008/1020_H9_1_red_green.jpg)
-![](https://images.proteinatlas.org/59008/1020_H9_4_red_green.jpg)
-![](https://images.proteinatlas.org/59008/993_H9_1_red_green.jpg)
-![](https://images.proteinatlas.org/59008/993_H9_3_red_green.jpg)
-![](https://images.proteinatlas.org/59008/997_A11_1_red_green.jpg)
-![](https://images.proteinatlas.org/59008/997_A11_2_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q9NRG0-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/CHRAC1
+
+### PubMed
+
+**Count: 19**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q9NRG0 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR003958;IPR009072;IPR050568; |
-| Pfam | PF00808; |
+| 41436687 | Construction of a hepatocellular carcinoma prognostic model based on the long non-coding RNA RHPN1-AS1. |
+| 41325875 | Chromatin remodeling factor CHRAC1 regulates doxorubicin-induced cardiotoxicity via IRF9/GSDMD/CASP-1. |
+| 39932052 | Development and Validation of Prognostic Characteristics Associated With Chromatin Remodeling-Related Genes in Ovarian Cancer. |
+| 39526719 | Association of overexpression of PLD6, CHRAC1 and PDCD5 with type 2 diabetes mellitus. |
+| 38223760 | Chromatin accessibility complex subunit 1 enhances tumor growth by regulating the oncogenic transcription of YAP in breast and cervical cancer. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000104472-CHRAC1/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| BAZ1A | Biogrid, Opencell | true |
-| POLE3 | Intact, Biogrid, Bioplex | true |
-| SMARCA5 | Biogrid, Opencell | true |
-| FAM9B | Intact | false |
-| HMGA1 | Opencell | false |
-| HMGN5 | Opencell | false |
-| MECP2 | Opencell | false |
-| NUCKS1 | Opencell | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -133,6 +133,17 @@ status: scored
 - [ ] 鉴定HMX1的转录共调节因子(co-repressor/co-activator)
 - [ ] 评估HMX1在发育过程中对靶基因位点染色质可及性的影响
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TP53 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9NP08
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000215612-HMX1

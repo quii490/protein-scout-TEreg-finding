@@ -37,7 +37,7 @@ status: scored
 | 🏗️ 三维结构 | 6/10 | ×3 | 18 | AlphaFold pLDDT: 62.1 |
 | 🧬 调控结构域 | 6/10 | ×2 | 12 | UniProt domains: None identified |
 | 🔗 PPI | 4/10 | ×3 | 12 | 待细化（默认基线） |
-| ➕ 互证加分 | — | — | **+0** | 待补充 |
+| ➕ 互证加分 | — | — | **+0** | 暂无数据 |
 | **原始总分** |  |  | **126/183** |  |
 | **归一化总分** |  |  | **68.9/100** |  |
 
@@ -90,7 +90,35 @@ HPA 免疫荧光（IF）实验数据确认 SMAP2 定位：
 
 **IntAct 查询记录**: IntAct: 未检索到实验验证互作
 
-**评价**: 待补充 IntAct/STRING/GO-CC 数据。
+**评价**: 暂无数据 IntAct/STRING/GO-CC 数据。
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| FN1 | BioGRID | 0 |
+| VCAM1 | BioGRID | 0 |
+| DAB1 | BioGRID | 0 |
+| MAGED1 | BioGRID | 0 |
+| DAZAP2 | BioGRID | 0 |
+| FAM168A | BioGRID | 0 |
+| C1orf94 | BioGRID | 0 |
+| SLC25A11 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/24424/2060_C5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/24424/2060_C5_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/24424/2005_F2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/24424/2005_F2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/24424/1989_E1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/24424/1989_E1_2_blue_red_green.jpg)
 
 
 ### 5. 总体评价
@@ -112,9 +140,9 @@ HPA 免疫荧光（IF）实验数据确认 SMAP2 定位：
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 <!-- DOMAIN_HUMANPPI_REPAIR_START -->
 ## Domain/SMART 与 humanPPI 补充（2026-06-07）

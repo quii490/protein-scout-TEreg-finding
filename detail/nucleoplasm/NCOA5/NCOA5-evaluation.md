@@ -151,6 +151,34 @@ IntAct 实验互作: 0 条
 - [ ] 功能研究: 基于 PPI 网络设计功能实验
 - [ ] 结构分析: 基于 PDB 结构设计功能实验
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NR3A2 | STRING | 924 |
+| ESR2 | STRING | 924 |
+| RANBP2 | STRING | 866 |
+| NUP205 | STRING | 839 |
+| NUP93 | STRING | 825 |
+| NUP155 | STRING | 769 |
+| NUP54 | STRING | 739 |
+| NUP214 | STRING | 730 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/50231/837_C1_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/50231/837_C1_8_blue_red_green.jpg)
+![](https://images.proteinatlas.org/50231/766_F1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/50231/766_F1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/50231/778_F1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/50231/778_F1_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=NCOA5
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000124160-NCOA5
@@ -163,9 +191,9 @@ IntAct 实验互作: 0 条
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[NCOA5-PAE.png]]
 

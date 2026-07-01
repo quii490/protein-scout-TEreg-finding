@@ -165,6 +165,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| BTD | STRING | 812 |
+| PRC1 | BioGRID | 1 |
+| CEP63 | BioGRID | 1 |
+| KRT15 | BioGRID | 1 |
+| CCNK | BioGRID | 1 |
+| FBF1 | BioGRID | 1 |
+| SMARCD1 | BioGRID | 1 |
+| COPS4 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白的 GO-CC 注释中缺乏染色质/TE 沉默相关定位，TE 调控潜力较低。不建议作为 TE 调控优先靶标。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8N6Y0
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000130307-USHBP1/subcellular

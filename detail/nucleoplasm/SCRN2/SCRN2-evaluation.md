@@ -53,6 +53,34 @@ status: accepted
 
 425 aa -- within the ideal range for biochemical, structural, and cell-based approaches. Score: 10/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TERF2IP | BioGRID | 0 |
+| TINF2 | BioGRID | 0 |
+| NFKBIA | BioGRID | 0 |
+| TAS2R41 | BioGRID | 0 |
+| CAMK2D | BioGRID | 0 |
+| CCS | BioGRID | 0 |
+| XRN1 | BioGRID | 0 |
+| FAM122B | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/22934/190_C2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/22934/190_C2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/22934/189_C2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/22934/189_C2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/22934/191_C2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/22934/191_C2_2_blue_red_green.jpg)
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

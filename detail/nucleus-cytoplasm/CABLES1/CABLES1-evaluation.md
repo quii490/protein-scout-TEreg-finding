@@ -95,3 +95,40 @@ Source: https://www.proteinatlas.org/ENSG00000134508-CABLES1/interaction
 | CDK5 | Intact, Biogrid | true |
 | TP53 | Intact | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### 功能描述
+
+Cyclin-dependent kinase binding protein. Enhances cyclin-dependent kinase tyrosine phosphorylation by nonreceptor tyrosine kinases, such as that of CDK5 by activated ABL1, which leads to increased CDK5 activity and is critical for neuronal development, and that of CDK2 by WEE1, which leads to decreased CDK2 activity and growth inhibition. Positively affects neuronal outgrowth. Plays a role as a regulator for p53/p73-induced cell death (By similarity)
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CDK5 | STRING | 969 |
+| CDK3 | STRING | 945 |
+| WEE1 | STRING | 936 |
+| CDK2 | STRING | 899 |
+| TDRD7 | STRING | 898 |
+| CDK17 | STRING | 885 |
+| TP53 | STRING | 864 |
+| FIBP | STRING | 836 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### PubMed
+
+**Count: 77**
+
+| PMID | Title |
+|---|---|
+| 42141904 | The germline landscape of pituitary adenomas: established and emerging predisposition genes. |
+| 42103895 | m(6)A-mediated CABLES1 translation potentiates tumor radioresistance via facilitating nonhomologous end-joining repair. |
+| 42045809 | Prevalence of germline variants in USP8, USP48, CABLES1 and PAM in patients with pituitary adenomas. |
+| 40738119 | A Novel Gene Expression Profile and Combined Effects in the Pathogenesis of Adrenocorticotropic Hormone-Secreting Pituitary Neuroendocrine Tumors. |
+| 40449756 | The interaction of HT-2 toxin and Akt1 on gene expression regulation in Kashin-Beck disease pathogenesis. |

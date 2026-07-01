@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | CCDC8 / CCDC8 |
+| 蛋白名称 | Coiled-coil domain-containing protein 8 |
 | 蛋白全名 | Coiled-coil domain-containing protein 8 |
 | 蛋白大小 | 538 aa / 59.4 kDa |
 | UniProt ID | Q9H0W5 |
@@ -193,6 +194,34 @@ HPA IF 图像可用 (6张)，待下载。
 - [ ] 获取 HPA IF 图像确认核定位
 - [ ] 查阅最新关键文献补充功能细节
 - [ ] 设计体外 DNA/染色质结合实验
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CUL7 | STRING | 997 |
+| TP53 | STRING | 808 |
+| KAT5 | BioGRID | 1 |
+| MAPK14 | BioGRID | 1 |
+| DYRK1A | BioGRID | 1 |
+| MAPK11 | BioGRID | 1 |
+| GPRASP2 | BioGRID | 1 |
+| CEP57 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/41993/489_D11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41993/489_D11_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41993/484_D11_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41993/484_D11_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41993/492_D11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41993/492_D11_2_blue_red_green.jpg)
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9H0W5

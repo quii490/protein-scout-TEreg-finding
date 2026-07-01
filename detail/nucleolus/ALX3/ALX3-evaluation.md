@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | ALX3 / Homeobox protein aristaless-like 3 |
+| 蛋白名称 | Homeobox protein aristaless-like 3 |
 | 蛋白大小 | 343 aa / 36.9 kDa |
 | UniProt ID | O95076 |
 | 评估日期 | 2026-05-29 |
@@ -152,6 +153,30 @@ status: scored
 - [ ] 鉴定核仁内互作蛋白（NoDS/MS）
 - [ ] 探索 ALX3 在 TE 调控中的潜在角色
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MRTO4 | STRING | 827 |
+| RBM15 | STRING | 728 |
+| KB暂无数据7 | BioGRID | 1 |
+| IKBIP | BioGRID | 1 |
+| SUPT16H | BioGRID | 1 |
+| C18ORF25 | BioGRID | 1 |
+| UBN2 | BioGRID | 1 |
+| P3H1 | BioGRID | 1 |
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/74290/1777_G2_6_cr5967622147b64_blue_red_green.jpg)
+![](https://images.proteinatlas.org/74290/1777_G2_10_cr5967622149430_blue_red_green.jpg)
+![](https://images.proteinatlas.org/74290/1776_D9_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/74290/1776_D9_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/74290/1822_C7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/74290/1822_C7_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000156150-ALX3
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=ALX3
@@ -162,9 +187,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[ALX3-PAE.png]]
 

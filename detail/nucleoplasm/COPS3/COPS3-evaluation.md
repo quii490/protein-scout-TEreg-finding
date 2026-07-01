@@ -159,43 +159,38 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q9UNS2
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000141030-COPS3/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=COPS3
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9UNS2
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| GPS1 | STRING | 999 |
+| COPS6 | STRING | 999 |
+| COPS7A | STRING | 999 |
+| COPS2 | STRING | 999 |
+| COPS4 | STRING | 999 |
+| COPS8 | STRING | 999 |
+| COPS7B | STRING | 999 |
+| COPS5 | STRING | 999 |
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q9UNS2-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### TE 调控评估
 
-### SMART / UniProt domain
-| Source | Data |
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+HPA 检索: https://www.proteinatlas.org/search/COPS3
+
+### PubMed
+
+**Count: 64**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q9UNS2 |
-| SMART | SM00088; |
-| UniProt Domain [FT] | DOMAIN 197..365; /note="PCI"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01185" |
-| InterPro | IPR055089;IPR050756;IPR048621;IPR000717;IPR036390; |
-| Pfam | PF22788;PF21215;PF01399; |
+| 41873939 | Electronic Structure Reorganization in MPS(3) via d-Shell-Selective Alkali Metal Doping. |
+| 41824786 | The ITGB2-COPS3-SOX2 Axis and SOX2 Liquid-Liquid Phase Separation: Dual Mechanisms Governing Osteosarcoma Stemness. |
+| 41596005 | Circulating Tenascin-C/-miR-155-5p Identified as Promising Prognostic Candidates of Intervertebral Disc Herniation. |
+| 40825663 | Gut Microbiota and White Matter Integrity: A Two-Sample Mendelian Randomization Analysis. |
+| 40359962 | Interplanar magnetic exchange in CoPS(3). |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000141030-COPS3/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| BTBD1 | Biogrid, Bioplex | true |
-| BTBD2 | Biogrid, Bioplex | true |
-| COPS2 | Intact, Biogrid | true |
-| COPS4 | Biogrid, Bioplex | true |
-| COPS5 | Intact, Biogrid, Bioplex | true |
-| COPS6 | Intact, Biogrid, Bioplex | true |
-| COPS7A | Intact, Biogrid, Bioplex | true |
-| COPS7B | Biogrid, Bioplex | true |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

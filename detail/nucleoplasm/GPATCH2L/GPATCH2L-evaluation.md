@@ -163,54 +163,37 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q9NWQ4
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000089916-GPATCH2L/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=GPATCH2L
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9NWQ4
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000089916-GPATCH2L/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| DHX15 | STRING | 892 |
+| PINX1 | STRING | 854 |
+| NOL6 | STRING | 852 |
+| UTP6 | STRING | 850 |
+| KRR1 | STRING | 849 |
+| DDX10 | STRING | 848 |
+| NOM1 | STRING | 845 |
+| DDX18 | STRING | 844 |
 
-![](https://images.proteinatlas.org/18856/149_E10_1_red_green.jpg)
-![](https://images.proteinatlas.org/18856/149_E10_2_red_green.jpg)
-![](https://images.proteinatlas.org/18856/150_E10_1_red_green.jpg)
-![](https://images.proteinatlas.org/18856/150_E10_2_red_green.jpg)
-![](https://images.proteinatlas.org/18856/151_E10_1_red_green.jpg)
-![](https://images.proteinatlas.org/18856/151_E10_2_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q9NWQ4-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/GPATCH2L
+
+### PubMed
+
+**Count: 4**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q9NWQ4 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR051189; |
-| Pfam | 未检出 |
+| 40004524 | Maternal and Parent-of-Origin Gene-Environment Effects on the Etiology of Orofacial Clefting. |
+| 38902823 | Genome-Wide Association Study Identifies Genes for Hair Growth and Patterning are Associated With Pilonidal Disease. |
+| 32173657 | Analysis of Anti-RNA Polymerase III Antibody-positive Systemic Sclerosis and Altered GPATCH2L and CTNND2 Expression in Scleroderma Renal Crisis. |
+| 28137300 | Discovery and functional prioritization of Parkinson's disease candidate genes from large-scale whole exome sequencing. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000089916-GPATCH2L/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| CSNK2A1 | Biogrid, Opencell | true |
-| CSNK2A2 | Biogrid, Opencell | true |
-| CSNK2B | Biogrid, Opencell | true |
-| SUV39H1 | Intact, Biogrid | true |
-| CEP70 | Intact | false |
-| DIP2A | Intact | false |
-| KRT40 | Intact | false |
-| KRTAP10-9 | Intact | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

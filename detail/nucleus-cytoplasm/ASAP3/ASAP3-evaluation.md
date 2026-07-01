@@ -160,6 +160,24 @@ status: scored
 - [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CRK | BioGRID | 0 |
+| REL | BioGRID | 0 |
+| TFCP2 | BioGRID | 0 |
+| UBE3A | BioGRID | 0 |
+| PDZD3 | BioGRID | 0 |
+| RAB11FIP3 | BioGRID | 0 |
+| XRCC5 | BioGRID | 0 |
+| ASAP1 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 
 - UniProt: https://www.uniprot.org/uniprotkb/Q8TDY4

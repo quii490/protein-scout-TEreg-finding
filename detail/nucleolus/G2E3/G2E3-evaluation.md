@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | G2E3 / KIAA1333 |
+| 蛋白名称 | G2/M phase-specific E3 ubiquitin-protein ligase |
 | 蛋白全名 | G2/M phase-specific E3 ubiquitin-protein ligase |
 | 蛋白大小 | 706 aa / 80.5 kDa |
 | UniProt ID | Q7L622 |
@@ -84,6 +85,34 @@ PPI 网络强度中等偏低。STRING 主要依赖 textmining 关联（SCFD1 最
 
 ### 4. 总体评价
 G2E3 是一个具有有趣功能特征但核定位存在矛盾的候选（58.5/100）。核心优势：低文献量（PM=22）、HECT 结构域 E3 泛素连接酶功能明确且调控重要（胚胎发育、DNA 损伤响应）、结构域注释丰富（多个 zinc finger + HECT）、AF 置信度良好。核心弱点：HPA IF 不支持核仁定位（检测到 Cytosol/Golgi，而非 nucleolus）、UniProt nucleolus 注释可能依赖单一/条件性文献、GO-CC nucleolus 仅为 IEA、PPI 以 textmining 为主。核定位需要条件性验证（DNA 损伤诱导核仁易位？）。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| HSP90AA1 | BioGRID | 1 |
+| RPS15 | BioGRID | 1 |
+| HNRNPL | BioGRID | 1 |
+| TPT1 | BioGRID | 1 |
+| HMGN2 | BioGRID | 1 |
+| SGTA | BioGRID | 1 |
+| RPL31 | BioGRID | 1 |
+| RPL23A | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/1601/1833_D8_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1601/1833_D8_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1601/1801_A1_6_cr59c262a36d8ff_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1601/1801_A1_30_cr59c2517b9e043_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1601/38_B6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1601/38_B6_2_blue_red_green.jpg)
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q7L622

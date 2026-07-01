@@ -12,6 +12,8 @@
   <nav>
     <a href="../protein_index.html">总表</a>
     <a href="../category/nucleoplasm.html">Nucleoplasm</a><a href="../category/nucleus-cytoplasm.html">Nucleus-cytoplasm</a><a href="../category/nuclear-speckle.html">Nuclear speckle</a><a href="../category/nuclear-body.html">Nuclear body</a><a href="../category/nucleolus.html">Nucleolus</a><a href="../category/nuclear-envelope.html">Nuclear envelope</a><a href="../category/chromatin.html">Chromatin</a><a href="../category/rejected.html">Rejected</a>
+    <a href="../centrosome/index.html">Centrosome</a>
+    <a href="../sperm/index.html">Sperm</a>
   </nav>
 </header><main class="container report-shell"><section class="panel"><h1>ADIRF</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">总分: 61.7</span><span class="badge">核定位: 6</span><a class="button small" href="../protein_index.html">蛋白总表</a><a class="button small" href="../category/nucleoplasm.html">分类页</a></div><p class="source-path">原始 detail 路径: detail/nucleoplasm/ADIRF/ADIRF-evaluation.md</p></section><article class="report-body"><hr>
 <p>type: protein-evaluation gene: &quot;ADIRF&quot; date: 2026-05-29 tags: [protein-scout, nuclear-protein, evaluation] status: scored ---</p>
@@ -20,6 +22,7 @@
 <div class="table-wrap"><table>
 <thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
 <tr><td>基因名 / 别名</td><td>ADIRF / AFRO, APM2, C10orf116, Adipogenesis regulatory factor</td></tr>
+<tr><td>蛋白名称</td><td>Adipogenesis regulatory factor</td></tr>
 <tr><td>蛋白大小</td><td>76 aa / ~8.5 kDa</td></tr>
 <tr><td>UniProt ID</td><td>Q15847</td></tr>
 <tr><td>评估日期</td><td>2026-05-29</td></tr>
@@ -118,14 +121,30 @@
 <p><strong>风险/不确定性</strong>: 1. 蛋白极小（76 aa, 8.5 kDa），生化实验操作难度高（标签/突变体构建空间有限） 2. 结构质量中等（pLDDT 74.7, 64% 有序），小蛋白结构预测不确定度大 3. PPI 网络极为稀疏，难以评估染色质调控 landscape 4. 无注释结构域，序列中是否存在转录激活域需实验验证 5. 功能主要与脂肪生成相关，染色质调控的直接证据不足</p>
 <p><strong>下一步建议</strong>:</p>
 <ul><li>[ ] 获取 ADIRF 内源性表达的细胞系（脂肪前体细胞最相关），验证核定位</li><li>[ ] 构建 N/C 端标签的 ADIRF 过表达系统，进行 ChIP-seq 或 CUT&amp;RUN</li><li>[ ] 探究 ADIRF 是否通过 PPARG 间接影响染色质状态</li><li>[ ] 研究 ADIRF-AS1 lncRNA 与 PBAF 复合体的相互作用是否与 ADIRF 蛋白功能耦合</li></ul>
+<h4>PPI 互作网络</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>互作伙伴</th><th>来源</th><th>评分</th></tr></thead><tbody>
+<tr><td>PPARG</td><td>STRING</td><td>789</td></tr>
+<tr><td>NR1C3</td><td>STRING</td><td>789</td></tr>
+<tr><td>GSK3B</td><td>BioGRID</td><td>1</td></tr>
+<tr><td>RPS6KA6</td><td>BioGRID</td><td>1</td></tr>
+<tr><td>MIF</td><td>BioGRID</td><td>1</td></tr>
+<tr><td>TOP3B</td><td>BioGRID</td><td>1</td></tr>
+<tr><td>USP4</td><td>BioGRID</td><td>1</td></tr>
+<tr><td>IL18</td><td>BioGRID</td><td>0</td></tr>
+</tbody></table></div>
+<h4>TE 调控评估</h4>
+<p>该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。</p>
+<h4>HPA IF 图像</h4>
+<p><figure><img src="https://images.proteinatlas.org/26810/259_G8_1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/26810/259_G8_2_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/26810/1033_H2_1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/26810/1033_H2_4_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/26810/260_G8_1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/26810/260_G8_2_blue_red_green.jpg" alt="image"></figure></p>
 <h4>5. 数据来源</h4>
 <ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q15847</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000148671-ADIRF/subcellular</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22ADIRF%22%5BTitle/Abstract%5D</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q15847</li></ul>
 <h5>PPI 网络（三源综合）</h5>
 <div class="table-wrap"><table>
 <thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th></tr></thead><tbody>
-<tr><td>无记录</td><td>—</td><td>—</td></tr>
+<tr><td>暂无互作数据</td></tr>
 </tbody></table></div>
-<p>IntAct 有限记录。无 BioGrid 补充数据。</p>
+<p>暂无实验验证互作。无 BioGrid 补充数据。</p>
 <p><figure><img src="../../detail/nucleoplasm/ADIRF/ADIRF-PAE.png" alt="ADIRF-PAE.png"></figure></p>
 <p>PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。</p>
 <p><figure><img src="../../detail/nucleoplasm/ADIRF/ADIRF-PAE.png" alt="ADIRF-PAE.png"></figure></p>

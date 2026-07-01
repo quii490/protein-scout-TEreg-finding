@@ -161,6 +161,10 @@ status: scored
 - [ ] 构建表达载体进行功能研究
 - [ ] Co-IP/MS 鉴定互作蛋白
 
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=MIX23
 - Protein Atlas: https://www.proteinatlas.org/MIX23
@@ -175,9 +179,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[MIX23-PAE.png]]
 

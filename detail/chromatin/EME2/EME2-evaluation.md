@@ -165,6 +165,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MUS81 | STRING | 999 |
+| EME1 | STRING | 985 |
+| RAD1 | STRING | 905 |
+| ERCC4 | STRING | 905 |
+| C19ORF40 | STRING | 825 |
+| FAAP24 | STRING | 825 |
+| FANCM | STRING | 807 |
+| SLX4 | STRING | 733 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/A4GXA9
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000197774-EME2/subcellular

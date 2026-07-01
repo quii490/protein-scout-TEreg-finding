@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | FTSJ3 |
+| 蛋白名称 | pre-rRNA 2'-O-ribose RNA methyltransferase FTSJ3 |
 | 蛋白大小 | 847 aa |
 | UniProt ID | Q8IY81 (pre-rRNA 2'-O-ribose RNA methyltransfera) |
 | 评估日期 | 2026-05-30 |
@@ -156,6 +157,24 @@ status: scored
 - [ ] 通过 co-IP/MS 验证 PPI 网络
 - [ ] ChIP-seq 检查 FTSJ3 在 TE 区域的 occupancy
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| EBNA1BP2 | STRING | 999 |
+| NOC2L | STRING | 998 |
+| PES1 | STRING | 998 |
+| BOP1 | STRING | 998 |
+| NOP53 | STRING | 997 |
+| GLTSCR2 | STRING | 997 |
+| NOP58 | STRING | 997 |
+| MAK16 | STRING | 997 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8IY81
 - Protein Atlas: https://www.proteinatlas.org/search/FTSJ3
@@ -167,9 +186,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[FTSJ3-PAE.png]]
 

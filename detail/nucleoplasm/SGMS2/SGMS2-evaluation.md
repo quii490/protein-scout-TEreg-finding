@@ -1,0 +1,130 @@
+---
+type: protein-evaluation
+gene: "SGMS2"
+date: 2026-06-28
+tags: [protein-scout, nuclear-protein, evaluation, shortlisted]
+status: shortlisted
+---
+
+## SGMS2 核蛋白评估报告
+
+### 1. 基本信息
+| 项目 | 内容 |
+|---|---|
+| 基因名 | SGMS2 |
+| 蛋白名称 | Phosphatidylcholine:ceramide cholinephosphotransferase 2 |
+| 蛋白大小 | 365 aa / 42.3 kDa |
+| UniProt ID | Q8NHU3 |
+| 评估日期 | 2026-06-28 |
+
+### 2. 评分总览
+| 维度 | 得分 | 新权重 | 加权后 | 关键证据摘要 |
+|---|---|---|---|---|
+| 核定位特异性 | 8/10 | ×4 | 32.0 | Golgi apparatus; Nucleoplasm (Supported) |
+| 蛋白大小 | 9/10 | ×1 | 9.0 | 365 aa |
+| 新颖性 | 8/10 | ×5 | 40.0 | PubMed=44 |
+| 三维结构 | 6/10 | ×3 | 18.0 | pLDDT=76.8; PDB=0 |
+| 调控结构域 | 4/10 | ×2 | 8.0 | Sphingomyelin_synth-like; Sphingomyelin_synth-like_dom |
+| PPI | 5/10 | ×3 | 15.0 | PPI degree=40 |
+| **加权总分** | | | **122/180** | |
+| **归一化总分** | | | **67.8/100** | 互证: +2 |
+
+### 3. 分析
+- Golgi apparatus; Nucleoplasm (Supported)
+- PubMed strict=44 broad=115
+- AF pLDDT=76.8 PDB=0
+- InterPro: Sphingomyelin_synth-like; Sphingomyelin_synth-like_dom
+- Pfam: PAP2_C
+- PPI degree=40 ChIP: None
+34236445: Early-Onset Osteoporosis. | 37668887: Bone fragility and osteoporosis in children and young adults. | 40158738: Stromal Stiffness-Regulated IGF2BP2 in Pancreatic Cancer Drives Immune Evasion v
+
+### 4. 总体评价
+**67.8/100** | **nucleoplasm**
+Nuclear protein
+
+
+### 补充分析 (UniProt API)
+
+**蛋白全称**: Phosphatidylcholine:ceramide cholinephosphotransferase 2
+
+**功能**: Sphingomyelin synthase that primarily contributes to sphingomyelin synthesis and homeostasis at the plasma membrane. Catalyzes the reversible transfer of phosphocholine moiety in sphingomyelin biosynthesis: in the forward reaction transfers phosphocholine head group of phosphatidylcholine (PC) on to ceramide (CER) to form ceramide phosphocholine (sphingomyelin, SM) and diacylglycerol (DAG) as by-product, and in the reverse reaction transfers phosphocholine from SM to DAG to form PC and CER (PubM
+
+**结构域**:
+
+| 来源 | ID |
+|---|---|
+| InterPro | IPR045221 |
+| InterPro | IPR025749 |
+| Pfam | PF14360 |
+
+**TE 调控评估**: 该蛋白缺乏核定位证据，TE调控潜力极低。
+
+---
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CERS6 | STRING | 960 |
+| ASAH1 | STRING | 955 |
+| SGPP1 | STRING | 942 |
+| SGMS1 | STRING | 909 |
+| TMPO | BioGRID | 1 |
+| KIF2C | BioGRID | 1 |
+| CENPO | BioGRID | 1 |
+| LMNA | BioGRID | 1 |
+
+
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q8NHU3-F1-predicted_aligned_error_v6.png)
+
+### HPA IF 图像
+
+HPA 检索: https://www.proteinatlas.org/search/SGMS2
+
+### HPA IF 图像
+
+HPA: https://www.proteinatlas.org/ENSG00000164023-SGMS2
+
+![](https://images.proteinatlas.org/15541/2075_B7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/15541/2075_B7_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/15541/1913_B5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/15541/1913_B5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/15541/2049_G1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/15541/2049_G1_2_blue_red_green.jpg)
+
+### HPA IF 图像
+
+HPA: https://www.proteinatlas.org/ENSG00000164023-SGMS2
+
+![](https://images.proteinatlas.org/15541/2075_B7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/15541/2075_B7_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/15541/1913_B5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/15541/1913_B5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/15541/2049_G1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/15541/2049_G1_2_blue_red_green.jpg)
+
+### HPA IF 图像
+
+HPA: https://www.proteinatlas.org/ENSG00000164023-SGMS2
+
+![](https://images.proteinatlas.org/15541/2075_B7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/15541/2075_B7_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/15541/1913_B5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/15541/1913_B5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/15541/2049_G1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/15541/2049_G1_2_blue_red_green.jpg)
+
+### PubMed
+
+**Count: 115**
+
+| PMID | Title |
+|---|---|
+| 41877782 | Identification of plasma biomarkers in a PTZ-induced Sudden Unexpected Death-like model through integrated proteomics and metabolomics methods. |
+| 41821748 | Pathogenic SGMS2 variants are not a common cause of early-onset osteoporosis among Finnish patients. |
+| 41707846 | Ceramide metabolism in oxidative and glycolytic muscle: Significance for lipid-induced insulin resistance. |
+| 41517371 | Spectrum of Osteoporosis Etiologies with Associated Vertebral Compression Fractures in Children: Analysis of 11 Cases. |
+| 41463320 | Integrative Single-Cell and Machine Learning Analysis Develops a Glutamine Metabolism-Based Prognostic Model and Identifies MSMO1 as a Therapeutic Tar |
+
+

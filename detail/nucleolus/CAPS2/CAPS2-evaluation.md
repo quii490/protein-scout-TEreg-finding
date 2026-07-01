@@ -12,7 +12,8 @@ status: scored
 
 | 项目 | 内容 |
 |------|------|
-| 基因名 / 别名 | CAPS2 / CAPS2 | KIAA1591 |
+| 基因名 / 别名 | CAPS2 / CAPS2 |
+| 蛋白名称 | Calcium-dependent secretion activator 2 | KIAA1591 |
 | 蛋白全名 | Calcium-dependent secretion activator 2 |
 | 蛋白大小 | 1296 aa / 147.7 kDa |
 | UniProt ID | Q86UW7 |
@@ -187,6 +188,28 @@ HPA IF 图像可用 (12张)，待下载。
 - [ ] 获取 HPA IF 图像确认核定位
 - [ ] 查阅最新关键文献补充功能细节
 - [ ] 设计体外 DNA/染色质结合实验
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| AUTS2 | STRING | 871 |
+| DYRK1A | STRING | 811 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/39542/1874_A5_36_cr5b7160878a43d_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39542/1874_A5_46_cr5b7160878a061_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39542/1925_A9_6_cr5cd5643c622a4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39542/1925_A9_28_cr5cd5643c63c74_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39542/1946_B8_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39542/1946_B8_4_blue_red_green.jpg)
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q86UW7

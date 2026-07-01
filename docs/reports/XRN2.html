@@ -12,6 +12,8 @@
   <nav>
     <a href="../protein_index.html">总表</a>
     <a href="../category/nucleoplasm.html">Nucleoplasm</a><a href="../category/nucleus-cytoplasm.html">Nucleus-cytoplasm</a><a href="../category/nuclear-speckle.html">Nuclear speckle</a><a href="../category/nuclear-body.html">Nuclear body</a><a href="../category/nucleolus.html">Nucleolus</a><a href="../category/nuclear-envelope.html">Nuclear envelope</a><a href="../category/chromatin.html">Chromatin</a><a href="../category/rejected.html">Rejected</a>
+    <a href="../centrosome/index.html">Centrosome</a>
+    <a href="../sperm/index.html">Sperm</a>
   </nav>
 </header><main class="container report-shell"><section class="panel"><h1>XRN2</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">总分: 69</span><span class="badge">核定位: 10</span><a class="button small" href="../protein_index.html">蛋白总表</a><a class="button small" href="../category/nucleoplasm.html">分类页</a></div><p class="source-path">原始 detail 路径: detail/nucleoplasm/XRN2/XRN2-evaluation.md</p></section><article class="report-body"><hr>
 <p>type: protein-evaluation gene: &quot;XRN2&quot; date: 2026-05-28 tags: [protein-scout, nuclear-protein, evaluation, scored] status: scored _date: 2026-05-29 _notes: &quot;PubMed=199 (≥100, 无基线调整); HPA Enhanced→核=10; 新降级8→7; PDB查无人类结构(仅酵母Rat1同源)&quot; ---</p>
@@ -20,6 +22,7 @@
 <div class="table-wrap"><table>
 <thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
 <tr><td>基因名 / 别名</td><td>XRN2 / 5&#x27;-3&#x27; exoribonuclease 2 / Rat1 homolog</td></tr>
+<tr><td>蛋白名称</td><td>5&#x27;-3&#x27; exoribonuclease 2</td></tr>
 <tr><td>蛋白大小</td><td>950 aa / ~108 kDa</td></tr>
 <tr><td>UniProt ID</td><td>Q9H0D6</td></tr>
 <tr><td>评估日期</td><td>2026-05-28 () / 2026-05-29</td></tr>
@@ -118,35 +121,32 @@
 <p><strong>风险/不确定性</strong>: 1. <strong>研究较多</strong> (199篇): 但 chromatin 方向极少，需要找到差异化的切入角度 2. <strong>PPI : 全长表达和纯化有一定挑战 4. </strong>功能定位于RNA而非chromatin**: 与 TEreg/chromatin 的核心关注点距离较远</p>
 <p><strong>下一步建议</strong>:</p>
 <ul><li>[ ] 探索 XRN2 在特定基因组位点（如 TE 富集区域）的 R-loop 调控角色</li><li>[ ] ChIP-seq 分析 XRN2 是否存在非转录终止位点的染色质结合</li><li>[ ] 与 cohesin/CTCF 等染色质架构蛋白的关系</li></ul>
-<h4>5. 数据来源</h4>
-<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9H0D6</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000088930-XRN2</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22XRN2%22</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9H0D6</li><li>STRING: https://string-db.org/network/9606.ENSP00000366396</li></ul>
-<p><figure><img src="../../detail/rejected/XRN2/XRN2-PAE.png" alt="XRN2-PAE.png"></figure></p>
-<p><figure><img src="../../detail/rejected/XRN2/XRN2-PAE.png" alt="XRN2-PAE.png"></figure></p>
-<p>&lt;!-- DOMAIN_HUMANPPI_REPAIR_START --&gt;</p>
-<h3>Domain/SMART 与 humanPPI 补充（2026-06-07）</h3>
-<h4>SMART / UniProt domain</h4>
+<h4>PPI 互作网络</h4>
 <div class="table-wrap"><table>
-<thead><tr><th>Source</th><th>Data</th></tr></thead><tbody>
-<tr><td>UniProt</td><td>Q9H0D6</td></tr>
-<tr><td>SMART</td><td>未在 UniProt xref 中检出 SMART 条目</td></tr>
-<tr><td>UniProt Domain [FT]</td><td>未检出显式 UniProt Domain feature</td></tr>
-<tr><td>InterPro</td><td>IPR027073;IPR041412;IPR004859;IPR017151;</td></tr>
-<tr><td>Pfam</td><td>PF17846;PF03159;</td></tr>
+<thead><tr><th>互作伙伴</th><th>来源</th><th>评分</th></tr></thead><tbody>
+<tr><td>DXO</td><td>STRING</td><td>999</td></tr>
+<tr><td>CARF</td><td>STRING</td><td>933</td></tr>
+<tr><td>CDKN2AIP</td><td>STRING</td><td>933</td></tr>
+<tr><td>DCP2</td><td>STRING</td><td>901</td></tr>
+<tr><td>RPRD1A</td><td>STRING</td><td>883</td></tr>
+<tr><td>RPRD1B</td><td>STRING</td><td>881</td></tr>
+<tr><td>SETX</td><td>STRING</td><td>874</td></tr>
+<tr><td>SKIV2L</td><td>STRING</td><td>871</td></tr>
 </tbody></table></div>
-<h4>humanPPI / HPA Interaction</h4>
-<p>Source: https://www.proteinatlas.org/ENSG00000088930-XRN2/interaction</p>
+<h4>TE 调控评估</h4>
+<p>该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。</p>
+<h4>HPA IF 图像</h4>
+<p>HPA 检索: https://www.proteinatlas.org/search/XRN2</p>
+<h4>PubMed</h4>
+<p><strong>Count: 208</strong></p>
 <div class="table-wrap"><table>
-<thead><tr><th>Partner</th><th>Datasets</th><th>AF3/HPA structure</th></tr></thead><tbody>
-<tr><td>CDKN2AIP</td><td>Intact, Biogrid</td><td>true</td></tr>
-<tr><td>CDKN2AIPNL</td><td>Intact, Biogrid</td><td>true</td></tr>
-<tr><td>CRY2</td><td>Intact, Biogrid</td><td>true</td></tr>
-<tr><td>DISC1</td><td>Intact, Biogrid</td><td>true</td></tr>
-<tr><td>TARDBP</td><td>Intact, Biogrid</td><td>true</td></tr>
-<tr><td>ANLN</td><td>Biogrid</td><td>false</td></tr>
-<tr><td>APP</td><td>Intact</td><td>false</td></tr>
-<tr><td>AR</td><td>Biogrid</td><td>false</td></tr>
-</tbody></table></div>
-<p>&lt;!-- DOMAIN_HUMANPPI_REPAIR_END --&gt;</p></article></main>
+<thead><tr><th>PMID</th><th>Title</th></tr></thead><tbody>
+<tr><td>42291182</td><td>A mechanism of target mRNA selection and activity regulation in meiosis-related RBM46-MEIOC-YTHDC2 complex.</td></tr>
+<tr><td>42239164</td><td>TRMT6/61A-mediated m (1) A methylation facilitates human pre-tRNA maturation and prevents surveillance by XRN2.</td></tr>
+<tr><td>42110338</td><td>Clinicopathological significance of 5&#x27;-3&#x27; exoribonuclease 2 expression in small cell lung cancer tissues.</td></tr>
+<tr><td>41999910</td><td>The human DBR1 interactome reveals coupling between intron lariat turnover, pre-mRNA splicing, and RNA quality control pathways.</td></tr>
+<tr><td>41991508</td><td>m(1)A-mediated regulation of BIRC2 mRNA stability drives apoptosis evasion and tumor progression in liver cancer.</td></tr>
+</tbody></table></div></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

@@ -142,6 +142,20 @@ status: scored
 - [ ] 解析GATAD2B-MTCP1融合蛋白的chromatin靶向机制
 - [ ] 鉴定核内MTCP1结合蛋白(IP-MS)
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| FYN | STRING | 999 |
+| AKT1 | STRING | 970 |
+| TCL1 | STRING | 911 |
+| AKT3 | STRING | 900 |
+| ITK | STRING | 866 |
+| XIAP | STRING | 773 |
+| PTPN11 | STRING | 712 |
+| EWSR1 | BioGRID | 1 |
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P56278
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000214827-MTCP1

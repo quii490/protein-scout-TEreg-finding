@@ -49,6 +49,40 @@ status: scored
 
 RTL6 is 239 amino acids in length (~26.2 kDa). 239 aa, ideal range. Score 10/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RTL3 | STRING | 747 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/5697/5_A5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5697/5_A5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5697/6_A5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5697/6_A5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5697/4_A5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5697/4_A5_2_blue_red_green.jpg)
+
+
+### PubMed
+
+**Count: 4**
+
+| PMID | Title |
+|---|---|
+| 38428498 | Genetic background of hematological parameters in Holstein cattle based on genome-wide association and RNA sequencing analyses. |
+| 37892118 | Retrovirus-Derived RTL/SIRH: Their Diverse Roles in the Current Eutherian Developmental System and Contribution to Eutherian Evolution. |
+| 37834332 | Retrovirus-Derived RTL9 Plays an Important Role in Innate Antifungal Immunity in the Eutherian Brain. |
+| 36162816 | Retrovirus-derived RTL5 and RTL6 genes are novel constituents of the innate immune system in the eutherian brain. |
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

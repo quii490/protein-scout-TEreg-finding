@@ -159,6 +159,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 - [ ] 考虑通过AlphaFold预测 + MD模拟获取结构信息
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| BRD9 | STRING | 999 |
+| SMARCD1 | STRING | 994 |
+| BCL7C | STRING | 988 |
+| BCL7A | STRING | 983 |
+| ACTL6A | STRING | 975 |
+| SMARCC1 | STRING | 974 |
+| BICRA | STRING | 974 |
+| SMARCA4 | STRING | 974 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
 ### 5. 数据来源
 
 - UniProt: https://www.uniprot.org/uniprotkb/Q6AI39

@@ -173,3 +173,24 @@ Source: https://www.proteinatlas.org/ENSG00000181625-SLX1B/interaction
 | ERCC1 | Biogrid | false |
 | ERCC4 | Intact | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SLX4 | STRING | 981 |
+| SLX1A | STRING | 935 |
+| ERCC1 | STRING | 710 |
+| PAGR1 | BioGRID | 1 |
+| GEMIN4 | BioGRID | 1 |
+| SLIRP | BioGRID | 1 |
+| ERCC4 | BioGRID | 1 |
+| GEMIN6 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q9BQ83-F1-predicted_aligned_error_v6.png)

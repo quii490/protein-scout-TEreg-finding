@@ -171,6 +171,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TERF2 | STRING | 999 |
+| TINF2 | STRING | 951 |
+| TERF1 | STRING | 950 |
+| SLX4 | STRING | 944 |
+| TERF2IP | STRING | 934 |
+| POT1 | STRING | 904 |
+| MUS81 | STRING | 890 |
+| FANCD2 | STRING | 849 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9H816
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000118655-DCLRE1B/subcellular

@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | ARNT2 / bHLHe1, KIAA0307 |
+| 蛋白名称 | Aryl hydrocarbon receptor nuclear translocator 2 |
 | 蛋白大小 | 717 aa / 78.7 kDa |
 | UniProt ID | Q9HBZ2 (ARNT2_HUMAN) |
 | 评估日期 | 2026-05-28 |
@@ -178,6 +179,34 @@ status: scored
 4. **PPI，STRING显示进行结构解析
 - [ ] ChIP-seq/MS分析ARNT2在低氧/非低氧条件下的基因组占有率
 - [ ] 比较ARNT2 vs ARNT在全基因组chromatin结合位点的差异
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| HIF1A | STRING | 999 |
+| HLF | STRING | 998 |
+| EPAS1 | STRING | 998 |
+| NPAS4 | STRING | 998 |
+| SIM1 | STRING | 979 |
+| HIF3A | STRING | 977 |
+| ARNT | STRING | 968 |
+| AHR | STRING | 940 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 实验数据，可能在基因组水平参与 TE 调控。建议分析 ChIP 峰在 TE 区域的富集情况。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/1056/1766_G1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1056/1766_G1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1056/2267_H4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1056/2267_H4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1056/2267_H4_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1056/2267_H4_4_blue_red_green.jpg)
+
 
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=ARNT2

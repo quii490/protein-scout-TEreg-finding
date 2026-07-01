@@ -159,6 +159,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RNASEH2A | STRING | 951 |
+| TWNK | STRING | 869 |
+| NADK | STRING | 825 |
+| GAPDH | STRING | 810 |
+| SETX | STRING | 788 |
+| GAPDHS | STRING | 761 |
+| PGK2 | STRING | 712 |
+| PIF1 | STRING | 708 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 实验数据，可能在基因组水平参与 TE 调控。建议分析 ChIP 峰在 TE 区域的富集情况。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O60930
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000171865-RNASEH1/subcellular

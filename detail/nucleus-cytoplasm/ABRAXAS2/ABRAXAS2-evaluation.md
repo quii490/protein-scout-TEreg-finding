@@ -94,6 +94,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 
 **Aliases observed**: ABRO1, FAM175B, KIAA0157
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| BRCC3 | STRING | 999 |
+| BABAM2 | STRING | 999 |
+| BABAM1 | STRING | 999 |
+| UIMC1 | STRING | 891 |
+| USP7 | STRING | 844 |
+| BRCA1 | STRING | 814 |
+| TP53 | STRING | 790 |
+| PSMD14 | STRING | 736 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ## 5. AlphaFold / PAE / PDB
 
 **PAE 状态**: PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判断基于 AlphaFold pLDDT 统计。

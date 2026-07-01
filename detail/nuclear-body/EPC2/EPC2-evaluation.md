@@ -176,6 +176,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MEAF6 | STRING | 998 |
+| TRRAP | STRING | 997 |
+| DMAP1 | STRING | 997 |
+| EAF2 | STRING | 997 |
+| YEATS4 | STRING | 993 |
+| ING3 | STRING | 993 |
+| MORF4L1 | STRING | 991 |
+| MRGBP | STRING | 991 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/36759/440_D5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36759/440_D5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36759/428_D5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36759/428_D5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36759/433_D5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36759/433_D5_3_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q52LR7
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000135999-EPC2/subcellular

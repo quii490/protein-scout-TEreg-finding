@@ -144,6 +144,24 @@ status: scored
 - [ ] 基于 PPI 网络开展功能研究
 - [ ] 结构分析: 基于 AlphaFold 的突变设计
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MMS22L | STRING | 999 |
+| HIST1H4H | STRING | 986 |
+| CCNL1 | STRING | 964 |
+| MCM2 | STRING | 964 |
+| ASF1B | STRING | 929 |
+| H3F3A | STRING | 926 |
+| H3F3B | STRING | 926 |
+| HIST1H4L | STRING | 924 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=TONSL
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000160949-TONSL
@@ -156,9 +174,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[TONSL-PAE.png]]
 

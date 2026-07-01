@@ -166,6 +166,27 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| OBSL1 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白的 GO-CC 注释中缺乏染色质/TE 沉默相关定位，TE 调控潜力较低。不建议作为 TE 调控优先靶标。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/35347/378_F7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35347/378_F7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35347/1875_H10_31_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35347/1875_H10_32_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35347/376_F7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35347/376_F7_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O94769
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000106823-ECM2/subcellular

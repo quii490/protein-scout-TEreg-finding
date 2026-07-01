@@ -159,6 +159,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CSTF2 | STRING | 999 |
+| CSTF3 | STRING | 999 |
+| CPSF2 | STRING | 998 |
+| BARD1 | STRING | 997 |
+| CSTF2T | STRING | 996 |
+| CPSF3 | STRING | 982 |
+| BRCA1 | STRING | 974 |
+| CPSF4 | STRING | 974 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q05048
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000101138-CSTF1/subcellular

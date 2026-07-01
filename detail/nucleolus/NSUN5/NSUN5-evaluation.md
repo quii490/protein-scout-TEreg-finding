@@ -159,6 +159,34 @@ IntAct 实验互作: 0 条
 - [ ] 功能研究: 基于 PPI 网络设计功能实验
 - [ ] 结构分析: 基于 PDB 结构设计功能实验
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NSUN4 | STRING | 924 |
+| DNMT2 | STRING | 820 |
+| TRDMT1 | STRING | 820 |
+| NOC4L | STRING | 778 |
+| BUD23 | STRING | 767 |
+| WBSCR22 | STRING | 767 |
+| FBL | STRING | 759 |
+| WDR74 | STRING | 751 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/20536/219_B3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/20536/219_B3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/20536/218_B3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/20536/218_B3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/20536/220_B3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/20536/220_B3_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=NSUN5
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000130305-NSUN5
@@ -171,9 +199,9 @@ IntAct 实验互作: 0 条
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[NSUN5-PAE.png]]
 

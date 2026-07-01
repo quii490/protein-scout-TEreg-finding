@@ -145,35 +145,21 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 - [ ] 考虑通过AlphaFold预测 + MD模拟获取结构信息
 
-### 5. 数据来源
+### TE 调控评估
 
-- UniProt: https://www.uniprot.org/uniprotkb/Q8IXM2
-- Protein Atlas: https://www.proteinatlas.org/search/BACC1
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=BACC1
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8IXM2
-- STRING: https://string-db.org/network/9606.BACC1
-- Packet data timestamp: 2026-06-03 03:30:08
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### HPA IF 图像
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q8IXM2-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+HPA 检索: https://www.proteinatlas.org/search/BACC1
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-07）
+### PubMed
 
-### SMART / UniProt domain
-| Source | Data |
+**Count: 2**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q8IXM2 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | DOMAIN 38..86; /note="SANT" |
-| InterPro | IPR009057;IPR001005; |
-| Pfam | 未检出 |
+| 34973330 | Interaction of heavy metals and biocide/herbicide from stormwater runoff of buildings with dissolved organic matter. |
+| 26004828 | Isolation and mode of action of bacteriocin BacC1 produced by nonpathogenic Enterococcus faecium C1. |
 
-### humanPPI / HPA Interaction
-Source: 未找到 HPA interaction 页面
 
-未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | CCDC97 / CCDC97 |
+| 蛋白名称 | Coiled-coil domain-containing protein 97 |
 | 蛋白全名 | Coiled-coil domain-containing protein 97 |
 | 蛋白大小 | 343 aa / 38.9 kDa |
 | UniProt ID | Q96F63 |
@@ -185,6 +186,34 @@ status: scored
 - [ ] 获取 HPA IF 图像确认核定位
 - [ ] 查阅最新关键文献补充功能细节
 - [ ] 设计体外 DNA/染色质结合实验
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SF3B6 | STRING | 907 |
+| SF3B5 | STRING | 896 |
+| SF3B1 | STRING | 843 |
+| SF3B3 | STRING | 806 |
+| SAP130 | STRING | 806 |
+| SF3A1 | STRING | 799 |
+| SF3A2 | STRING | 799 |
+| SF3B4 | STRING | 788 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/43320/558_B10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43320/558_B10_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43320/518_B10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43320/518_B10_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43320/530_B10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43320/530_B10_2_blue_red_green.jpg)
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96F63

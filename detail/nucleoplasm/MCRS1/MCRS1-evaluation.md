@@ -154,6 +154,24 @@ status: scored
 - [ ] Co-IP 验证 PPI
 - [ ] 功能实验验证染色质调控角色
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| KANSL3 | STRING | 999 |
+| KANSL2 | STRING | 999 |
+| PHF20 | STRING | 998 |
+| KANSL1 | STRING | 996 |
+| NSL1 | STRING | 996 |
+| WDR5 | STRING | 993 |
+| OGT | STRING | 990 |
+| INO80 | STRING | 989 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprot/Q96EZ8
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q96EZ8
@@ -164,9 +182,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[MCRS1-PAE.png]]
 

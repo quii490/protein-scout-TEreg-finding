@@ -49,6 +49,53 @@ status: scored
 
 SMTN is 917 amino acids in length (~99.1 kDa). Acceptable size (917 aa), suitable for routine experiments. Score 8/10.
 
+### 功能描述
+
+Structural protein of the cytoskeleton
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| HIRA | STRING | 763 |
+| MYOCD | STRING | 715 |
+| ZWINT | BioGRID | 1 |
+| PTEN | BioGRID | 1 |
+| BRMS1 | BioGRID | 1 |
+| MYC | BioGRID | 1 |
+| MOV10 | BioGRID | 1 |
+| EWSR1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/51778/769_C1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/51778/769_C1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/51778/757_C1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/51778/757_C1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/51778/761_C1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/51778/761_C1_3_blue_red_green.jpg)
+
+
+### PubMed
+
+**Count: 159**
+
+| PMID | Title |
+|---|---|
+| 42350862 | Experiences of Discrimination and DNA Methylation Among Black Nulliparous Women. |
+| 42180185 | The role of Smoothelin-B in abdominal aortic aneurysm formation. |
+| 41936043 | Association of Smoothelin, a Cytoskeletal Component of Smooth Muscle Cells, With the Proliferative Features of Uterine Smooth Muscle Tumors. |
+| 41477349 | The cytoskeletal protein smoothelin maintains homologous recombination repair by stabilizing RAD51 in an HUWE1-dependent manner in colorectal cancer. |
+| 40609214 | Differential expression of lncRNAs and mRNAs in bone marrow-derived mesenchymal stem cells under continuous and intermittent teriparatide treatment. |
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

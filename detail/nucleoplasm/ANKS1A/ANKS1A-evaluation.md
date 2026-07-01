@@ -52,7 +52,7 @@ STRING: RIN1 (0.790, exp 0.773)、DAB2IP (0.771, exp 0.756)、EGFR (0.752, exp 0
 - PMID 27802842: Defective Anks1a disrupts export of RTKs from ER (BMB Rep, 2016)
 
 ### 人工复核建议
-**重要提醒**：该蛋白的 UniProt 和 AlphaFold 数据均未能获取。这是 15 个基因中唯一双缺失的情况，评估可靠性受限制。建议：(1) 重新尝试 UniProt API 获取 Q92625 数据；(2) 在 AlphaFold DB 中通过 accession Q92625 手动搜索；(3) 14-3-3 蛋白家族互作（YWHAG/YWAHZ/YWHAQ/YWHAB）是潜在的调控机制入口。若结构数据补全后，该蛋白的 SAM + PTB 信号适配架构在纤毛生物学和受体转运中具有研究价值。
+**重要提醒**：该蛋白的 UniProt 和 AlphaFold 数据均暂无数据。这是 15 个基因中唯一双缺失的情况，评估可靠性受限制。建议：(1) 重新尝试 UniProt API 获取 Q92625 数据；(2) 在 AlphaFold DB 中通过 accession Q92625 手动搜索；(3) 14-3-3 蛋白家族互作（YWHAG/YWAHZ/YWHAQ/YWHAB）是潜在的调控机制入口。若结构数据补全后，该蛋白的 SAM + PTB 信号适配架构在纤毛生物学和受体转运中具有研究价值。
 
 <!-- HPA_IF_REPAIR_START -->
 **HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000064999-ANKS1A/subcellular
@@ -91,3 +91,27 @@ Source: https://www.proteinatlas.org/ENSG00000064999-ANKS1A/interaction
 | DAB2IP | Biogrid | false |
 | DOK3 | Biogrid | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### 功能描述
+
+Regulator of different signaling pathways. Regulates EPHA8 receptor tyrosine kinase signaling to control cell migration and neurite retraction (By similarity)
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| YWHAG | BioGRID | 0 |
+| SFN | BioGRID | 0 |
+| UBC | BioGRID | 0 |
+| EPHA8 | BioGRID | 0 |
+| EGFR | BioGRID | 0 |
+| ERBB2 | BioGRID | 0 |
+| ERBB4 | BioGRID | 0 |
+| BAG3 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。

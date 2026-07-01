@@ -147,6 +147,24 @@ status: scored
 - [ ] 设计 Co-IP/MS 实验验证 PPI 网络
 - [ ] 进行结构域功能验证实验
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TASOR | STRING | 998 |
+| DNMT3A | STRING | 993 |
+| PPHLN1 | STRING | 991 |
+| H3F3A | STRING | 981 |
+| H3F3B | STRING | 981 |
+| RANBP9 | STRING | 943 |
+| HIST1H3E | STRING | 934 |
+| HIST1H3I | STRING | 932 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprot/Q3TYA6
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q3TYA6
@@ -157,9 +175,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[MPHOSPH8-PAE.png]]
 

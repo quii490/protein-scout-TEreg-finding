@@ -98,6 +98,24 @@ ASF1A 的 PPI 网络以 HIRA 复合体（UBN1 + HIRA + CABIN1）为核心，介�
 ### 4. 总体评价
 ASF1A 是组蛋白伴侣家族的旗舰蛋白。核心优势：纯核质定位（HPA Enhanced）、极小蛋白（204 aa）、20 个 PDB 结构（X-ray/NMR/EM，最高 1.80A）、STRONG PPI（HIRA 复合体 + TLK 通路）、直接的染色质组装功能。主要劣势是 PubMed 62（新颖性 4/10），研究热度中等偏高。与 ASF1B 高度同源但功能分工清晰（ASF1A = RI 染色质组装 + DSB 修复 + SAHF；ASF1B = 复制偶联染色质组装）。作为染色质组装和衰老调控的关键因子，是优秀的结构功能研究靶点。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| UBN1 | STRING | 999 |
+| HIRA | STRING | 999 |
+| H3F3A | STRING | 999 |
+| H3F3B | STRING | 999 |
+| CABIN1 | STRING | 998 |
+| NASP | STRING | 995 |
+| CCNL1 | STRING | 992 |
+| MCM2 | STRING | 992 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9Y294
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9Y294

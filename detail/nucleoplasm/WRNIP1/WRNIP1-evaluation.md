@@ -100,6 +100,20 @@ WRNIP1 的 PPI 网络跨 DNA 复制/修复和先天免疫两条不相交通路�
 ### 4. 总体评价
 WRNIP1 是 DNA 复制应激和基因组稳定性的多功能 ATPase，评分中等（64.5/100）。优势包括：HPA Approved 纯核质定位、与 WRN 解旋酶强互作（0.998）、功能涉及 R-loop/转录相关基因组不稳定性（与 TE 调控间接相关）、多域结构（AAA+ ATPase + Zn-finger）。劣势包括：PubMed 54（新颖性 6/10）、蛋白偏大（665 aa）、AF 预测质量中等（pLDDT 71.6，31% <50）、PDB 仅 N 端小片段、无直接染色质修饰活性。KDM4A 互作为潜在桥梁至组蛋白去甲基化/染色质调控通路。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| WRN | STRING | 998 |
+| RAD18 | STRING | 893 |
+| POLD2 | STRING | 722 |
+| USP25 | BioGRID | 1 |
+| USP11 | BioGRID | 1 |
+| NUP107 | BioGRID | 1 |
+| FGFR1OP | BioGRID | 1 |
+| ABL1 | BioGRID | 1 |
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96S55
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q96S55

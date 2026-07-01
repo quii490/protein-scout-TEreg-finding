@@ -64,6 +64,34 @@ status: scored
 
 RNF111 is 994 amino acids, placing it at the upper end of the 800-1200 aa range. Score 8/10. While slightly larger than the ideal 200-800 aa range for some biochemical assays, the protein has successful experimental structures (multiple PDB entries including NMR and crystallography), demonstrating its tractability for structural and biochemical studies.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SMAD3 | BioGRID | 0 |
+| SMAD6 | BioGRID | 0 |
+| SMAD7 | BioGRID | 0 |
+| SKIL | BioGRID | 0 |
+| SMAD2 | BioGRID | 0 |
+| UBE2D1 | BioGRID | 0 |
+| UBE2D2 | BioGRID | 0 |
+| UBE2D3 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/38576/406_B1_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38576/406_B1_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38576/408_B1_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38576/408_B1_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38576/403_B1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38576/403_B1_3_blue_red_green.jpg)
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

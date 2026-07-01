@@ -16,6 +16,7 @@ tags: [protein-scout, sperm, evaluation]
 - **IF 可靠性:** 未获取
 - **PubMed:** 8 篇
 - **精子定位部位:** Acrosome (1 个)
+- **UniProt Subcellular Location:** Cytoplasm, cytoskeleton; Cytoplasm; Nucleus
 
 ## 2. HPA 精子定位证据
 - **来源:** Acrosome ✓
@@ -36,7 +37,9 @@ tags: [protein-scout, sperm, evaluation]
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-*待 UniProt/GO-CC 采集。*
+**UniProt Subcellular Location:** Cytoplasm, cytoskeleton; Cytoplasm; Nucleus
+
+*GO-CC 精子相关条目待进一步查询。*
 
 ## 4. PubMed 文献证据
 - **文献数:** 8 篇 (极低研究量)

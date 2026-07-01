@@ -168,6 +168,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MRPS15 | STRING | 833 |
+| MRPS31 | STRING | 830 |
+| MRPS18B | STRING | 807 |
+| MRPS27 | STRING | 795 |
+| MRPS14 | STRING | 785 |
+| MRPS23 | STRING | 780 |
+| MRPS26 | STRING | 775 |
+| TRMT5 | STRING | 758 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q6PF06
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000165275-TRMT10B/subcellular

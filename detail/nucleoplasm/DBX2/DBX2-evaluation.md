@@ -142,6 +142,34 @@ status: scored
 - [ ] AlphaFold 结构预测分析
 - [ ] Co-IP/MS 验证PPI网络
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| KIF14 | BioGRID | 1 |
+| PPP1R10 | BioGRID | 1 |
+| ZC3H4 | BioGRID | 1 |
+| STT3B | BioGRID | 0 |
+| ANKRD17 | BioGRID | 0 |
+| ANKHD1 | BioGRID | 0 |
+| ANKHD1-EIF4EBP3 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q6ZNG2-F1-predicted_aligned_error_v6.png)
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/65045/2028_E9_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/65045/2028_E9_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/65045/1955_G3_6_cr5dd25515dea62_blue_red_green.jpg)
+![](https://images.proteinatlas.org/65045/1955_G3_16_cr5dd25515df26a_blue_red_green.jpg)
+![](https://images.proteinatlas.org/65045/1978_H10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/65045/1978_H10_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q6ZNG2
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=DBX2
@@ -152,9 +180,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 <!-- DOMAIN_HUMANPPI_REPAIR_START -->
 ## Domain/SMART 与 humanPPI 补充（2026-06-06）

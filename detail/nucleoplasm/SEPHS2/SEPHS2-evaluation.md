@@ -54,6 +54,24 @@ status: accepted
 
 448 aa -- within the ideal range for biochemical, structural, and cell-based approaches. Score: 10/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SEPSECS | STRING | 993 |
+| TXNRD3NB | STRING | 979 |
+| TXNRD1 | STRING | 973 |
+| TRNAU1AP | STRING | 858 |
+| EEFSEC | STRING | 857 |
+| SECISBP2 | STRING | 789 |
+| GPX4 | STRING | 735 |
+| SARS | STRING | 706 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

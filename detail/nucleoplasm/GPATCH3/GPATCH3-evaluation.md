@@ -161,6 +161,33 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ZNF408 | STRING | 999 |
+| DHX15 | BioGRID | 1 |
+| PAXBP1 | BioGRID | 1 |
+| HSPA5 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### PubMed
+
+**Count: 7**
+
+| PMID | Title |
+|---|---|
+| 40861452 | GPATCH3, a splicing regulator that facilitates tumor immune evasion via the modulation of ATPase activity of DHX15. |
+| 33476923 | Comparative profiling of the resistance of different genotypes of mannose-binding lectin to Mycoplasma pneumoniae infection in Chinese Merino sheep ba |
+| 33259306 | An Enhanced Random Forests Approach to Predict Heart Failure From Small Imbalanced Gene Expression Data. |
+| 32645337 | Grass carp (Ctenopharyngodon idella) GPATCH3 initiates IFN 1 expression via the activation of STING-IRF7 signal axis. |
+| 28414768 | GPATCH3 negatively regulates RLR-mediated innate antiviral responses by disrupting the assembly of VISA signalosome. |
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96I76
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000198746-GPATCH3/subcellular

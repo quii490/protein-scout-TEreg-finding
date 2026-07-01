@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | CSRNP2 / CSRNP2 |
+| 蛋白名称 | Cysteine/serine-rich nuclear protein 2 |
 | 蛋白大小 | 543 aa / ~59.7 kDa |
 | UniProt ID | Q9H175 |
 | 评估日期 | 2026-05-29 |
@@ -128,6 +129,30 @@ status: scored
 - [ ] SMART 结构域分析评估调控潜力
 - [ ] 深入文献检索确认已知功能
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PPP1CA | STRING | 832 |
+| PPP1CC | STRING | 828 |
+| PPP1CB | BioGRID | 1 |
+| HNRNPH1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/19914/1687_F9_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/19914/1687_F9_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/19914/1606_G7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/19914/1606_G7_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/19914/1614_G7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/19914/1614_G7_3_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9H175
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9H175
@@ -139,9 +164,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CSRNP2/CSRNP2-PAE.png]]

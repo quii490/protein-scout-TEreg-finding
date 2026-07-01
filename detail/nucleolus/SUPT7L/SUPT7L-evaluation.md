@@ -145,6 +145,24 @@ PDB + AlphaFold 结构互证 (+0.5)
 - [ ] 基于 PPI 网络开展功能研究
 - [ ] 结构分析: 基于 PDB 的功能位点设计
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TAF6L | STRING | 999 |
+| TAF10 | STRING | 999 |
+| TADA1 | STRING | 999 |
+| TAF9 | STRING | 999 |
+| TRRAP | STRING | 999 |
+| SUPT3H | STRING | 999 |
+| SUPT20H | STRING | 999 |
+| TAF5L | STRING | 998 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=SUPT7L
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000119760-SUPT7L
@@ -157,9 +175,9 @@ PDB + AlphaFold 结构互证 (+0.5)
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[SUPT7L-PAE.png]]
 

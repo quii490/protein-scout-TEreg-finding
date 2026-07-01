@@ -170,31 +170,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q9H8M7
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000148481-MINDY3/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=FAM188A
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9H8M7
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| COPS5 | BioGRID | 0 |
+| RAD23A | BioGRID | 0 |
+| MAP3K1 | BioGRID | 0 |
+| UBB | BioGRID | 0 |
+| RNF25 | BioGRID | 0 |
+| LIN7A | BioGRID | 0 |
+| MPP6 | BioGRID | 0 |
+| MCM3 | BioGRID | 0 |
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nuclear-envelope/FAM188A/FAM188A-PAE.png]]
+### TE 调控评估
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
-### SMART / UniProt domain
-| Source | Data |
+### HPA IF 图像
+
+HPA 检索: https://www.proteinatlas.org/search/FAM188A
+
+### PubMed
+
+**Count: 1**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q9H8M7 |
-| SMART | SM01174; |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR011992;IPR025257;IPR039785; |
-| Pfam | PF13898; |
+| 39229655 | CircFAM188A Regulates Autophagy via miR-670-3p and ULK1 in Epithelial Ovarian Carcinoma. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000148481-MINDY3/interaction
 
-未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

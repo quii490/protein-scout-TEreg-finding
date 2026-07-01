@@ -88,6 +88,20 @@ IntAct 仅 3 条实验互作记录，其中 CLOCK 为核蛋白（昼夜节律转
 ### 4. 总体评价
 TDRD9 是一个 piRNA 通路相关的核效应因子，直接参与转座子沉默。UniProt+GO-CC 双重 IDA 支持核定位，但缺乏 HPA IF 独立验证。PPI 数据和结构数据均不理想 (PDB=0, IntAct=3)。推荐作为低优先级候选，主要在 piRNA/TE 调控方向上具有独特价值。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PIWIL4 | STRING | 995 |
+| MAEL | STRING | 969 |
+| PIWIL2 | STRING | 963 |
+| PIWIL1 | STRING | 927 |
+| ASZ1 | STRING | 839 |
+| DDX4 | STRING | 827 |
+| TDRD7 | STRING | 809 |
+| HENMT1 | STRING | 796 |
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8NDG6
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8NDG6

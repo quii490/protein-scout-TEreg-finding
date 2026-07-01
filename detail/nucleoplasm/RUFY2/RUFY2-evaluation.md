@@ -173,3 +173,22 @@ Source: https://www.proteinatlas.org/ENSG00000204130-RUFY2/interaction
 |---|---|:--:|
 | RUFY1 | Biogrid | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| EPHA3 | STRING | 884 |
+| DUSP23 | BioGRID | 1 |
+| SF3B3 | BioGRID | 1 |
+| PURB | BioGRID | 1 |
+| PMF1 | BioGRID | 1 |
+| CD70 | BioGRID | 1 |
+| PEX14 | BioGRID | 1 |
+| RAB9A | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。

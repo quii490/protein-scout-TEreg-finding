@@ -1,18 +1,18 @@
 ---
 type: protein-evaluation
-gene: "BTBD6"
+gene: "B暂无数据6"
 date: 2026-06-03
 tags: [protein-scout, rejected, evaluation]
 status: rejected
 ---
 
-## BTBD6 — REJECTED (核定位证据不足 (核定位得分 2/10 ≤ 3))
+## B暂无数据6 — REJECTED (核定位证据不足 (核定位得分 2/10 ≤ 3))
 
 ### 1. 基本信息
 
 | 项目 | 内容 |
 |------|------|
-| 基因名 / 别名 | BTBD6 / BDPL |
+| 基因名 / 别名 | B暂无数据6 / BDPL |
 | 蛋白名称 | BTB/POZ domain-containing protein 6 |
 | 蛋白大小 | 538 aa / 58.8 kDa |
 | UniProt ID | Q96KE9 |
@@ -62,7 +62,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 
 **关键文献**:
 1. EAT-Lancet Diet Modifies the Risk of Rheumatoid Arthritis Through Metabolomic Signature.. *Arthritis & rheumatology (Hoboken, N.J.)*. PMID: 40546003
-2. Xenopus BTBD6 and its Drosophila homologue lute are required for neuronal development.. *Developmental dynamics : an official publication of the American Association of Anatomists*. PMID: 18855900
+2. Xenopus B暂无数据6 and its Drosophila homologue lute are required for neuronal development.. *Developmental dynamics : an official publication of the American Association of Anatomists*. PMID: 18855900
 3. A Transcriptome-Wide Association Study Identifies Novel Candidate Susceptibility Genes for Pancreatic Cancer.. *Journal of the National Cancer Institute*. PMID: 31917448
 4. Identification of potential key genes related to idiopathic male infertility using RNA-sequencing data: an in-silico approach.. *Human fertility (Cambridge, England)*. PMID: 36369953
 5. A Comprehensive Prognostic and Immunological Analysis of a Six-Gene Signature Associated With Glycolysis and Immune Response in Uveal Melanoma.. *Frontiers in immunology*. PMID: 34630418
@@ -103,7 +103,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 | CUL3 | 0.806 | 0.374 | — |
 | CAND1 | 0.612 | 0.000 | — |
 | KCTD6 | 0.576 | 0.000 | — |
-| KBTBD13 | 0.562 | 0.062 | — |
+| KB暂无数据13 | 0.562 | 0.062 | — |
 | KLHL9 | 0.554 | 0.000 | — |
 | GAN | 0.524 | 0.000 | — |
 | UBE2M | 0.517 | 0.000 | — |
@@ -121,7 +121,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 | NME7 | psi-mi:"MI:1356"(validated two hybrid) | pubmed:32296183|imex:IM-25472 |
 | UBB | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
 | PPP2R5D | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
-| BTBD3 | psi-mi:"MI:0397"(two hybrid array) | pubmed:32296183|imex:IM-25472 |
+| B暂无数据3 | psi-mi:"MI:0397"(two hybrid array) | pubmed:32296183|imex:IM-25472 |
 | TCEA2 | psi-mi:"MI:1356"(validated two hybrid) | pubmed:32296183|imex:IM-25472 |
 | CUL3 | psi-mi:"MI:1356"(validated two hybrid) | pubmed:32296183|imex:IM-25472 |
 | MINDY1 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:33961781|imex:IM-29278| |
@@ -154,7 +154,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 **推荐等级**: ⭐⭐⭐ (REJECTED)
 
 **核心优势**:
-1. BTBD6 — BTB/POZ domain-containing protein 6，极度新颖，几乎未被系统研究（PubMed ≤20篇）。
+1. B暂无数据6 — BTB/POZ domain-containing protein 6，极度新颖，几乎未被系统研究（PubMed ≤20篇）。
 2. 蛋白大小538 aa，大小适中（200-800 aa），适合常规生化实验和结构解析。
 
 **风险/不确定性**:
@@ -169,18 +169,18 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96KE9
-- Protein Atlas: https://www.proteinatlas.org/search/BTBD6
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=BTBD6
+- Protein Atlas: https://www.proteinatlas.org/search/B暂无数据6
+- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=B暂无数据6
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q96KE9
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/rejected/BTBD6/IF_images/BTBD6_IF_if_selected_60x60.jpg]]
+![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/rejected/B暂无数据6/IF_images/B暂无数据6_IF_if_selected_60x60.jpg]]
 
 
 
 <!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000184887-BTBD6/subcellular
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000184887-B暂无数据6/subcellular
 
 ![](https://images.proteinatlas.org/31355/319_C10_1_red_green.jpg)
 ![](https://images.proteinatlas.org/31355/319_C10_2_red_green.jpg)

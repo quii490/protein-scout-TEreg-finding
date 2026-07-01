@@ -193,3 +193,22 @@ Source: https://www.proteinatlas.org/ENSG00000153815-CMIP/interaction
 | FLNA | Biogrid | false |
 | PIK3R1 | Intact | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RELA | STRING | 836 |
+| PIK3R1 | BioGRID | 1 |
+| FBXW7 | BioGRID | 1 |
+| TRIM25 | BioGRID | 1 |
+| HNRNPL | BioGRID | 1 |
+| ZC4H2 | BioGRID | 1 |
+| TSR2 | BioGRID | 1 |
+| INPPL1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。

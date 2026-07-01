@@ -147,6 +147,35 @@ status: scored
 - [ ] AlphaFold 结构预测分析
 - [ ] Co-IP/MS 验证PPI网络
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| DKFZP666G145 | STRING | 999 |
+| DR1 | STRING | 999 |
+| FOXH1 | STRING | 994 |
+| TBP | STRING | 991 |
+| BTAF1 | STRING | 956 |
+| TBPL2 | STRING | 890 |
+| GTF2B | STRING | 880 |
+| CFAP20 | STRING | 807 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+![PAE](https://alphafold.ebi.ac.uk/files/AF-C9JCC6-F1-predicted_aligned_error_v6.png)
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/6790/8_D9_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/6790/8_D9_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/6790/9_D9_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/6790/9_D9_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/6790/7_D9_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/6790/7_D9_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/C9JCC6
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=DRAP1
@@ -157,9 +186,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 <!-- DOMAIN_HUMANPPI_REPAIR_START -->
 ## Domain/SMART 与 humanPPI 补充（2026-06-07）

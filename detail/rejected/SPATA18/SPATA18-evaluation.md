@@ -56,6 +56,53 @@ status: scored
 
 SPATA18 is 538 amino acids in length (~61.1 kDa). Ideal size (538 aa), suitable for standard biochemical experiments. Score 10/10.
 
+### 功能描述
+
+Key regulator of mitochondrial quality that mediates the repairing or degradation of unhealthy mitochondria in response to mitochondrial damage (PubMed:21264221, PubMed:21264228, PubMed:22292033, PubMed:22532927). Mediator of mitochondrial protein catabolic process (also named MALM) by mediating the degradation of damaged proteins inside mitochondria by promoting the accumulation in the mitochondrial matrix of hydrolases that are characteristic of the lysosomal lumen (PubMed:21264221, PubMed:212
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PAXIP1 | BioGRID | 0 |
+| CEP128 | BioGRID | 0 |
+| ODF2 | BioGRID | 0 |
+| PTEN | BioGRID | 0 |
+| PLK1 | BioGRID | 0 |
+| STAU1 | BioGRID | 0 |
+| MAD1L1 | BioGRID | 0 |
+| TACC3 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/36854/1761_E12_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36854/1761_E12_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36854/2175_B1_42_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36854/2175_B1_41_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36854/2175_B1_40_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36854/2175_B1_39_blue_red_green.jpg)
+
+
+### PubMed
+
+**Count: 53**
+
+| PMID | Title |
+|---|---|
+| 41907204 | Integrated Machine Learning and Multi-Omics Analysis Identifies Mitophagy-Related Core Genes and Mechanisms in Non-Alcoholic Fatty Liver Disease. |
+| 40420521 | Newborn blood DNA methylation and childhood asthma: findings from the ECHO program. |
+| 40395519 | Combining doxorubicin and miR-218-5p: a new strategy to fight breast cancer? |
+| 40157598 | Landscape of sex differences in obesity and type 2 diabetes in subcutaneous adipose tissue: a systematic review and meta-analysis of transcriptomics s |
+| 39897930 | Bioinformatics combining machine learning and single-cell sequencing analysis to identify common mechanisms and biomarkers of rheumatoid arthritis and |
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

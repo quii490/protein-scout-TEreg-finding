@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | AUTS2 / KIAA0442 |
+| 蛋白名称 | Autism susceptibility gene 2 protein |
 | 蛋白大小 | 1259 aa / 139.0 kDa |
 | UniProt ID | Q8WXX7 (AUTS2_HUMAN, Swiss-Prot reviewed) |
 | Ensembl Gene ID | ENSG00000158321 |
@@ -172,6 +173,34 @@ AUTS2 是一个经典的内在无序蛋白 (IDP)。UniProt 标注了 5 段大范
 - [ ] Co-IP 验证内源 PCGF5/RNF2/EP300 互作
 - [ ] AUTS2 KD 后检测 H2Aub 水平和 PRC1 靶基因表达变化
 - [ ] 考虑用 IDP 专用方法 (NMR, SAXS, smFRET) 研究构象动态
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PCGF5 | STRING | 994 |
+| RYBP | STRING | 961 |
+| YAF2 | STRING | 958 |
+| CSNK2A2 | STRING | 927 |
+| PCGF6 | STRING | 901 |
+| PCGF3 | STRING | 888 |
+| CAPS2 | STRING | 871 |
+| BAP1 | STRING | 870 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/390/80_C1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/390/80_C1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/390/79_C1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/390/79_C1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/390/81_C1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/390/81_C1_2_blue_red_green.jpg)
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8WXX7

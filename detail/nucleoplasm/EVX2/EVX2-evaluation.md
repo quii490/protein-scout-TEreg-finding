@@ -185,6 +185,20 @@ status: scored
 - [ ] TE 调控: EVX2 是否结合重复元件（Homeodomain 结合 TAAT 核心序列）
 - [ ] 在特定发育模型中系统验证 EVX2 靶基因
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MTX2 | STRING | 837 |
+| ZMYND12 | BioGRID | 1 |
+| LASP1 | BioGRID | 0 |
+| ITIH6 | BioGRID | 0 |
+| CNFN | BioGRID | 0 |
+| ATP5S | BioGRID | 0 |
+| KRTAP6-1 | BioGRID | 0 |
+| BPIFB3 | BioGRID | 0 |
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q03828
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q03828
@@ -196,9 +210,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[EVX2-PAE.png]]
 

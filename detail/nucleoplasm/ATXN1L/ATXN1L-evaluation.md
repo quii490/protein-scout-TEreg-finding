@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | ATXN1L / BOAT, BOAT1 |
+| 蛋白名称 | Ataxin-1-like |
 | 蛋白大小 | 689 aa / 73.3 kDa |
 | UniProt ID | P0C7T5 (ATX1L_HUMAN, Swiss-Prot reviewed) |
 | Ensembl ID | ENSG00000224470 |
@@ -245,6 +246,34 @@ status: scored
 - [ ] Luciferase reporter 验证 Notch/RBPJ 报告系统的 repression 活性
 - [ ] 与 ATXN1 KO 对比, 确定功能冗余 vs 独特
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ATXN1 | STRING | 970 |
+| KBF2 | STRING | 964 |
+| RBPJ | STRING | 964 |
+| KAT5 | STRING | 944 |
+| PUM2 | STRING | 904 |
+| RBPJL | STRING | 900 |
+| CIC | STRING | 863 |
+| NCOR2 | STRING | 775 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/62596/1148_G12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/62596/1148_G12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/62596/1169_H8_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/62596/1169_H8_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/62596/1106_G12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/62596/1106_G12_3_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=ATXN1L
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000224470-ATXN1L/subcellular
@@ -258,9 +287,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[ATXN1L-PAE.png]]
 

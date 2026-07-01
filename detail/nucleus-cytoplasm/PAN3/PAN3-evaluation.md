@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | PAN3 |
+| 蛋白名称 | PAN2-PAN3 deadenylation complex subunit PAN3 |
 | 蛋白全名 | PAN2-PAN3 deadenylation complex subunit PAN3 |
 | 蛋白大小 | 887 aa / 95.6 kDa |
 | UniProt ID | Q58A45 |
@@ -120,6 +121,24 @@ status: scored
 PAN3 是 PAN deadenylation complex 的调控亚基，负责招募 PAN2 催化亚基至 mRNA。含 CCCH-type zinc finger (RNA binding) 和 kinase-like domain。核定位有实验证据但以胞质 P-body 为主。AF结构预测置信度偏低(62.7)，存在大量无序区域。PPI 网络以 PAN2-PABPC1-TNRC6 为核心，NIPBL 互作提供有限染色质调控链接。研究热度中等，新颖性尚可。
 
 **推荐**: 中等优先级。PAN2/PAN3 复合体功能明确但染色质调控关联有限。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| AIM2 | STRING | 999 |
+| CASP1 | STRING | 999 |
+| PAN2 | STRING | 999 |
+| NLRP3 | STRING | 998 |
+| PYCARD | STRING | 994 |
+| PABPC2 | STRING | 960 |
+| PABPC1 | STRING | 960 |
+| CARD8 | STRING | 944 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprot/Q58A45

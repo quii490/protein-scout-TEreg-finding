@@ -95,3 +95,35 @@ Source: https://www.proteinatlas.org/ENSG00000168734-PKIG/interaction
 | DYNLL2 | Intact | false |
 | PRKACB | Biogrid | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PKIA | STRING | 982 |
+| RPA3 | BioGRID | 1 |
+| MEOX2 | BioGRID | 1 |
+| DYNLL1 | BioGRID | 1 |
+| DYNLL2 | BioGRID | 1 |
+| RAB25 | BioGRID | 0 |
+| KPTN | BioGRID | 0 |
+| PRKACA | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### PubMed
+
+**Count: 19**
+
+| PMID | Title |
+|---|---|
+| 40395612 | Assessment of molecular and morphological dynamics during long-time in vitro cultivation of cryopreserved human ovarian tissue: risk of genetic altera |
+| 39548579 | Blood mir-331-3p is a potential diagnostic marker for giant panda (Ailuropoda melanoleuca) testicular tumor. |
+| 37653016 | [Exploration of the Perturbation of PKIG in Lung Squamous Cell Carcinoma and the Role in Tumor Microenvironment Based on Bioinformatics Method]. |
+| 33885249 | Glucose deprivation affects the expression of genes encoding cAMP-activated protein kinase and related proteins in U87 glioma cells in ERN1 dependent  |
+| 29420626 | Integrated micro/messenger RNA regulatory networks in essential thrombocytosis. |

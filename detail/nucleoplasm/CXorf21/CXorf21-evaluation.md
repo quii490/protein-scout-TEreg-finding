@@ -153,6 +153,31 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| HSPA2 | BioGRID | 1 |
+| ACTB | BioGRID | 1 |
+| CRYAA | BioGRID | 1 |
+| CFTR | BioGRID | 1 |
+| CXorf21 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/1185/1778_G2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1185/1778_G2_6_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1185/2214_D1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1185/2214_D1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1185/53_D10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1185/53_D10_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9HAI6
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000120280-CXorf21/subcellular

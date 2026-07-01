@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | ARK2C / RNF165 |
+| 蛋白名称 | E3 ubiquitin-protein ligase ARK2C |
 | 蛋白全名 | E3 ubiquitin-protein ligase ARK2C |
 | 蛋白大小 | 346 aa / 39.5 kDa |
 | UniProt ID | Q6ZSG1 |
@@ -92,6 +93,10 @@ STRING 查询失败（502 Bad Gateway）。IntAct 记录 8 个 UBE2 家族 E2 �
 
 ### 4. 总体评价
 ARK2C 是一个文献量极低（PubMed strict=3）的 E3 泛素连接酶，在 BMP-Smad 信号中调控运动神经元轴突延伸。核定位仅有序列类比/IBA 预测证据，未达到实验确认水平。8 个 PDB 结构仅覆盖 C 端 RING domain（255-346），N 端无序区 pLDDT 较低。作为 nucleoplasm 候选置信度低，建议补内源 IF 确认核定位后重新评估。
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q6ZSG1

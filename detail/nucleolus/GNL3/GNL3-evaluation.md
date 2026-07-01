@@ -155,6 +155,30 @@ HPA IF (Enhanced) + UniProt 实验级 + GO IDA 三源核仁定位一致 (+0.5)
 - [ ] 研究 GNL3 在核仁应激下的 TE 调控功能
 - [ ] 探索 GNL3-MYC/STAT3 轴在 TE 激活中的作用
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| EBNA1BP2 | STRING | 998 |
+| PES1 | STRING | 997 |
+| GNL2 | STRING | 997 |
+| BOP1 | STRING | 995 |
+| GTPBP4 | STRING | 992 |
+| RSL1D1 | STRING | 991 |
+| WDR12 | STRING | 988 |
+| DDX18 | STRING | 984 |
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/20770/621_A8_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/20770/621_A8_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/20770/612_A8_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/20770/612_A8_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/20770/615_A8_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/20770/615_A8_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=GNL3
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000163938-GNL3

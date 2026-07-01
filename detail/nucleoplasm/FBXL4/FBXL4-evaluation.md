@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | FBXL4 |
+| 蛋白名称 | F-box/LRR-repeat protein 4 |
 | 蛋白大小 | 621 aa |
 | UniProt ID | Q9UKA2 (F-box/LRR-repeat protein 4) |
 | 评估日期 | 2026-05-30 |
@@ -153,6 +154,24 @@ status: scored
 - [ ] 通过 co-IP/MS 验证 PPI 网络
 - [ ] ChIP-seq 检查 FBXL4 在 TE 区域的 occupancy
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SKP1 | BioGRID | 0 |
+| KDM4A | BioGRID | 0 |
+| ERLEC1 | BioGRID | 0 |
+| CLGN | BioGRID | 0 |
+| CCDC151 | BioGRID | 0 |
+| XPO1 | BioGRID | 0 |
+| EXOSC2 | BioGRID | 0 |
+| ATG9B | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9UKA2
 - Protein Atlas: https://www.proteinatlas.org/search/FBXL4
@@ -164,9 +183,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[FBXL4-PAE.png]]
 

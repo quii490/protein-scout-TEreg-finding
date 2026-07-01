@@ -179,6 +179,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RALA | BioGRID | 0 |
+| EXOC2 | BioGRID | 0 |
+| KRT20 | BioGRID | 0 |
+| TADA2A | BioGRID | 0 |
+| KRT15 | BioGRID | 0 |
+| HGS | BioGRID | 0 |
+| BLOC1S6 | BioGRID | 0 |
+| KRT19 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8IYI6
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000116903-EXOC8/subcellular

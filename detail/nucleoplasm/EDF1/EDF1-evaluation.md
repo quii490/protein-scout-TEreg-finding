@@ -161,6 +161,30 @@ status: scored
 - [ ] 研究其在 TE 调控中的共激活角色
 - [ ] 利用 PDB 结构进行虚拟筛选
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| FAU | STRING | 997 |
+| RPS3 | STRING | 994 |
+| RPS9 | STRING | 981 |
+| RACK1 | STRING | 977 |
+| RPS20 | STRING | 976 |
+| RPS10 | STRING | 969 |
+| RPS2 | STRING | 968 |
+| RPS15 | STRING | 967 |
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/35642/378_F10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35642/378_F10_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35642/383_F10_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35642/383_F10_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35642/376_F10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35642/376_F10_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: O60869 (https://www.uniprot.org/uniprotkb/O60869)
 - AlphaFold: AF-O60869-F1 v6 (https://alphafold.ebi.ac.uk/entry/O60869)
@@ -173,9 +197,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[EDF1-PAE.png]]
 

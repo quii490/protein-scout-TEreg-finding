@@ -165,6 +165,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| FAU | STRING | 995 |
+| RPS24 | STRING | 980 |
+| RPS7 | STRING | 980 |
+| RPS3 | STRING | 979 |
+| RPS6 | STRING | 979 |
+| RPL18 | STRING | 979 |
+| RPS11 | STRING | 978 |
+| RPS3A | STRING | 978 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8N1I0
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000128512-DOCK4/subcellular

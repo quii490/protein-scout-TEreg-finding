@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 | KCTD1 |
+| 蛋白名称 | BTB/POZ domain-containing protein KCTD1 |
 | 蛋白大小 | 257 aa |
 | UniProt ID | Q719H9 (BTB/POZ domain-containing protein KCTD1) |
 | 子定位分类 | nucleoplasm |
@@ -146,6 +147,31 @@ PPI 互证分析**:
 - [ ] 在 TEreg 相关细胞系中检测 KCTD1 表达水平
 - [ ] 通过 co-IP/MS 鉴定 KCTD1 的染色质调控相关互作伙伴
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TFAP2A | STRING | 971 |
+| TFAP2C | STRING | 936 |
+| TFAP2B | STRING | 929 |
+| UBE2I | STRING | 879 |
+| CTNNB1 | BioGRID | 1 |
+| APC | BioGRID | 1 |
+| PRKAA2 | BioGRID | 1 |
+| SDCBP | BioGRID | 1 |
+
+
+### ESMFold 结构预测
+
+| 指标 | 数值 |
+|---|---|
+| 平均 pLDDT | 0.87 |
+| >0.9 | 52.5% |
+| <0.5 | 2.7% |
+| 残基数 | 257 |
+
+ESMFold 从头折叠验证。PDB: `detail/_esm_structures/KCTD1_esmfold.pdb`
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q719H9
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=KCTD1%5BTitle/Abstract%5D
@@ -158,9 +184,9 @@ PPI 互证分析**:
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[KCTD1-PAE.png]]
 

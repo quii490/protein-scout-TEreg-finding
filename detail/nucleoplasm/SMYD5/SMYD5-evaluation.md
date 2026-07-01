@@ -37,7 +37,7 @@ status: scored
 | 🏗️ 三维结构 | 8/10 | ×3 | 24 | AlphaFold pLDDT: 88.6 |
 | 🧬 调控结构域 | 7/10 | ×2 | 14 | UniProt domains: None identified |
 | 🔗 PPI | 4/10 | ×3 | 12 | 待细化（默认基线） |
-| ➕ 互证加分 | — | — | **+0** | 待补充 |
+| ➕ 互证加分 | — | — | **+0** | 暂无数据 |
 | **原始总分** |  |  | **124/183** |  |
 | **归一化总分** |  |  | **67.8/100** |  |
 
@@ -90,8 +90,26 @@ HPA 免疫荧光（IF）实验数据确认 SMYD5 定位：
 
 **IntAct 查询记录**: IntAct: 未检索到实验验证互作
 
-**评价**: 待补充 IntAct/STRING/GO-CC 数据。
+**评价**: 暂无数据 IntAct/STRING/GO-CC 数据。
 
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SMYD4 | STRING | 845 |
+| SMYD1 | STRING | 769 |
+| MOV10 | BioGRID | 1 |
+| NXF1 | BioGRID | 1 |
+| XRCC5 | BioGRID | 1 |
+| TRIM25 | BioGRID | 1 |
+| ZNF417 | BioGRID | 1 |
+| ZNF587 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
 
 ### 5. 总体评价
 
@@ -112,9 +130,9 @@ HPA 免疫荧光（IF）实验数据确认 SMYD5 定位：
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 <!-- DOMAIN_HUMANPPI_REPAIR_START -->
 ## Domain/SMART 与 humanPPI 补充（2026-06-07）

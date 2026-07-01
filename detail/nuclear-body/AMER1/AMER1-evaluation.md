@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | AMER1 / FAM123B / WTX |
+| 蛋白名称 | APC membrane recruitment protein 1 |
 | 蛋白大小 | 1135 aa / 124.0 kDa |
 | UniProt ID | Q5JTC6 |
 | 蛋白全名 | APC membrane recruitment protein 1 |
@@ -134,6 +135,24 @@ AMER1 为 WTX/AMER1 家族成员，含多个短线性基序 (SLiMs) 介导特定
 - [ ] 利用已解析的短肽-β-catenin/Axin 结构设计截短体
 - [ ] 探索 AMER1 的液-液相分离行为（IDR占主导）
 - [ ] 在 TEreg 背景下验证 AMER1 的 Wnt 信号调控功能
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| AXIN1 | STRING | 999 |
+| APC | STRING | 998 |
+| GSK3B | STRING | 993 |
+| CTNNB1 | STRING | 992 |
+| KEAP1 | STRING | 978 |
+| CSNK1A1 | STRING | 960 |
+| BTRC | STRING | 952 |
+| WT1 | STRING | 849 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q5JTC6

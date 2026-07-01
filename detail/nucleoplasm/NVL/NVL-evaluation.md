@@ -239,3 +239,22 @@ Source: https://www.proteinatlas.org/ENSG00000143748-NVL/interaction
 | NPM1 | Biogrid | false |
 | PARP1 | Biogrid | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MTREX | STRING | 983 |
+| TERT | STRING | 944 |
+| GNL3L | STRING | 938 |
+| DKC1 | STRING | 934 |
+| NHP2 | STRING | 920 |
+| GAR1 | STRING | 917 |
+| NOP10 | STRING | 914 |
+| TEP1 | STRING | 910 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。

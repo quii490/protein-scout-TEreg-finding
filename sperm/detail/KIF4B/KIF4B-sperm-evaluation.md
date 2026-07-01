@@ -16,6 +16,7 @@ tags: [protein-scout, sperm, evaluation]
 - **IF 可靠性:** 未获取
 - **PubMed:** 12 篇
 - **精子定位部位:** Acrosome、Equatorial segment、Mid piece、Principal piece (4 个)
+- **UniProt Subcellular Location:** Nucleus matrix; Cytoplasm, cytoskeleton
 
 ## 2. HPA 精子定位证据
 - **来源:** Acrosome、Equatorial segment、Mid piece、Principal piece ✓

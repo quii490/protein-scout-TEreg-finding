@@ -54,6 +54,53 @@ status: scored
 
 RCBTB1 is 531 amino acids in length, placing it well within the ideal range for biochemical characterization. Proteins of this size are amenable to recombinant expression, purification, and most structural and functional assays. Size score: 10/10.
 
+### 功能描述
+
+May be involved in cell cycle regulation by chromatin remodeling
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CUL3 | STRING | 808 |
+| CUL5 | BioGRID | 1 |
+| CUL2 | BioGRID | 1 |
+| CUL1 | BioGRID | 1 |
+| COPS5 | BioGRID | 1 |
+| UBE2E3 | BioGRID | 1 |
+| APP | BioGRID | 1 |
+| HSP90AA1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/56783/1044_A10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/56783/1044_A10_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/56783/1301_F1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/56783/1301_F1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/56783/994_F1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/56783/994_F1_2_blue_red_green.jpg)
+
+
+### PubMed
+
+**Count: 39**
+
+| PMID | Title |
+|---|---|
+| 42360046 | Clinical manifestations of dual-gene variants in retinitis pigmentosa. |
+| 41339365 | Whole-exome sequencing and burden analysis identify six novel candidate risk genes and expand the genetic landscape of Parkinson's disease. |
+| 41216235 | Regulator of chromosome condensation 1 and broad-complex, tramtrack and bric a brac domain-containing protein is involved in ovarian cancer growth and |
+| 41162190 | Multimodal imaging of RCBTB1-associated retinal dystrophy. |
+| 39778364 | Identification of quantitative trait loci and candidate genes associated with growth curve parameters in chinese wenshang barred chickens. |
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

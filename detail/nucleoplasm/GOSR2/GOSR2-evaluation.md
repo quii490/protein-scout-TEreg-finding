@@ -170,54 +170,38 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/O14653
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000108433-GOSR2/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=GOSR2
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/O14653
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000108433-GOSR2/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| STX5 | BioGRID | 0 |
+| USO1 | BioGRID | 0 |
+| APP | BioGRID | 0 |
+| STX4 | BioGRID | 0 |
+| STX6 | BioGRID | 0 |
+| CCDC155 | BioGRID | 0 |
+| GOLGA8EP | BioGRID | 0 |
+| GOLGA8F | BioGRID | 0 |
 
-![](https://images.proteinatlas.org/48956/757_G8_1_red_green.jpg)
-![](https://images.proteinatlas.org/48956/757_G8_2_red_green.jpg)
-![](https://images.proteinatlas.org/48956/761_G8_1_red_green.jpg)
-![](https://images.proteinatlas.org/48956/761_G8_2_red_green.jpg)
-![](https://images.proteinatlas.org/48956/769_G8_1_red_green.jpg)
-![](https://images.proteinatlas.org/48956/769_G8_2_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-O14653-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/GOSR2
+
+### PubMed
+
+**Count: 72**
+
+| PMID | Title |
 |---|---|
-| UniProt | O14653 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR027027;IPR010989;IPR038407; |
-| Pfam | PF12352; |
+| 42001613 | Proteomic profiling and molecular reclassification of high-grade serous ovarian cancer identifies prognostic subtypes and immunotherapy biomarkers. |
+| 41261947 | The Genotypic and Phenotypic Spectrum of GOSR2 Mutations: Clinical and Pathophysiological Insights. |
+| 41252154 | The lactate sensor NDRG3 decelerates ER-to-Golgi transport through interaction with the long isoform of syntaxin-5. |
+| 41208742 | Dysregulation of Glial Gap Junction Protein Innexin2 Mediates Seizures and Disrupted Sleep in a Drosophila Model for North Sea Progressive Myoclonus E |
+| 39730871 | Identification of shared genetic etiology of cardiovascular and cerebrovascular diseases through common cardiometabolic risk factors. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000108433-GOSR2/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| BET1 | Intact, Biogrid, Opencell | true |
-| MMGT1 | Intact, Biogrid | true |
-| NAPA | Biogrid, Opencell | true |
-| SEC22B | Biogrid, Opencell | true |
-| STX5 | Intact, Biogrid, Opencell | true |
-| STX6 | Intact, Biogrid | true |
-| AQP6 | Intact | false |
-| ARL13B | Intact | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

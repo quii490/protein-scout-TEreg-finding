@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 | KLHDC4 |
+| 蛋白名称 | Kelch domain-containing protein 4 |
 | 蛋白大小 | 520 aa |
 | UniProt ID | Q8TBB5 (Kelch domain-containing protein 4) |
 | 子定位分类 | nucleoplasm |
@@ -146,6 +147,30 @@ PPI 互证分析**:
 - [ ] 在 TEreg 相关细胞系中检测 KLHDC4 表达水平
 - [ ] 通过 co-IP/MS 鉴定 KLHDC4 的染色质调控相关互作伙伴
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TERF1 | BioGRID | 1 |
+| KDM1A | BioGRID | 1 |
+| SUV39H1 | BioGRID | 1 |
+| SUV39H2 | BioGRID | 1 |
+| MOV10 | BioGRID | 1 |
+| NXF1 | BioGRID | 1 |
+| RPS19 | BioGRID | 1 |
+| MFHAS1 | BioGRID | 1 |
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/41665/555_C3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41665/555_C3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41665/506_C3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41665/506_C3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41665/504_C3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41665/504_C3_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8TBB5
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=KLHDC4%5BTitle/Abstract%5D
@@ -158,9 +183,9 @@ PPI 互证分析**:
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[KLHDC4-PAE.png]]
 

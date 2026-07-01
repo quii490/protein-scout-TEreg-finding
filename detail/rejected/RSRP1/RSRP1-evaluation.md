@@ -51,6 +51,34 @@ status: scored
 
 RSRP1 is 290 amino acids in length (~33.6 kDa). 290 aa, ideal range. Score 10/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CLK2 | STRING | 849 |
+| CLK3 | STRING | 835 |
+| APP | BioGRID | 1 |
+| SRPK2 | BioGRID | 1 |
+| SRPK1 | BioGRID | 1 |
+| PRMT5 | BioGRID | 1 |
+| C1QBP | BioGRID | 1 |
+| TNPO3 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/67651/1368_C3_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/67651/1368_C3_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/67651/1283_F7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/67651/1283_F7_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/67651/1286_F7_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/67651/1286_F7_9_blue_red_green.jpg)
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

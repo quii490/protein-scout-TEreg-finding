@@ -139,6 +139,24 @@ status: scored
 - [ ] 基于 PPI 网络开展功能研究
 - [ ] 结构分析: 基于 AlphaFold 的突变设计
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| HINFP | BioGRID | 0 |
+| RNMTL1 | BioGRID | 0 |
+| SYNCRIP | BioGRID | 0 |
+| CYC1 | BioGRID | 0 |
+| IKBIP | BioGRID | 0 |
+| MOV10 | BioGRID | 0 |
+| NXF1 | BioGRID | 0 |
+| MRPL4 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=RPUSD4
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000165526-RPUSD4
@@ -151,9 +169,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[RPUSD4-PAE.png]]
 

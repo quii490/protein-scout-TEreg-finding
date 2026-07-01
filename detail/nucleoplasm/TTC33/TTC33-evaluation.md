@@ -163,54 +163,34 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q6PID6
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000113638-TTC33/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=TTC33
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q6PID6
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000113638-TTC33/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ELAVL1 | BioGRID | 0 |
+| KDM1A | BioGRID | 0 |
+| SMYD1 | BioGRID | 0 |
+| TCL1A | BioGRID | 0 |
+| RBM11 | BioGRID | 0 |
+| LPPR1 | BioGRID | 0 |
+| E2F8 | BioGRID | 0 |
+| ZRSR2 | BioGRID | 0 |
 
-![](https://images.proteinatlas.org/38252/431_B10_1_red_green.jpg)
-![](https://images.proteinatlas.org/38252/431_B10_2_red_green.jpg)
-![](https://images.proteinatlas.org/38252/437_B10_1_red_green.jpg)
-![](https://images.proteinatlas.org/38252/437_B10_2_red_green.jpg)
-![](https://images.proteinatlas.org/38252/443_B10_1_red_green.jpg)
-![](https://images.proteinatlas.org/38252/443_B10_2_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q6PID6-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/TTC33
+
+### PubMed
+
+**Count: 1**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q6PID6 |
-| SMART | SM00028; |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR052658;IPR011990;IPR019734; |
-| Pfam | 未检出 |
+| 33883344 | Detection of novel and recurrent conjoined genes in non-Hodgkin B-cell lymphoma. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000113638-TTC33/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| PHF5A | Biogrid, Bioplex | true |
-| SF3B1 | Biogrid, Opencell | true |
-| SF3B2 | Biogrid, Opencell | true |
-| SF3B5 | Biogrid, Opencell | true |
-| SF3B6 | Biogrid, Opencell | true |
-| SKIC8 | Biogrid, Bioplex | true |
-| APOE | Intact | false |
-| CCDC97 | Bioplex | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

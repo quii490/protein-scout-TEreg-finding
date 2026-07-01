@@ -12,6 +12,8 @@
   <nav>
     <a href="../protein_index.html">总表</a>
     <a href="../category/nucleoplasm.html">Nucleoplasm</a><a href="../category/nucleus-cytoplasm.html">Nucleus-cytoplasm</a><a href="../category/nuclear-speckle.html">Nuclear speckle</a><a href="../category/nuclear-body.html">Nuclear body</a><a href="../category/nucleolus.html">Nucleolus</a><a href="../category/nuclear-envelope.html">Nuclear envelope</a><a href="../category/chromatin.html">Chromatin</a><a href="../category/rejected.html">Rejected</a>
+    <a href="../centrosome/index.html">Centrosome</a>
+    <a href="../sperm/index.html">Sperm</a>
   </nav>
 </header><main class="container report-shell"><section class="panel"><h1>NFKBIE</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleolus</span><span class="badge">总分: 54.6</span><span class="badge">核定位: 7</span><a class="button small" href="../protein_index.html">蛋白总表</a><a class="button small" href="../category/nucleolus.html">分类页</a></div><p class="source-path">原始 detail 路径: detail/nucleolus/NFKBIE/NFKBIE-evaluation.md</p></section><article class="report-body"><hr>
 <p>type: protein-evaluation gene: &quot;NFKBIE&quot; date: 2026-05-30 tags: [protein-scout, nuclear-protein, evaluation, rescued] status: scored ---</p>
@@ -40,7 +42,7 @@
 <tr><td>🏗️ 三维结构</td><td>6/10</td><td>×3</td><td>18</td><td>AlphaFold pLDDT: 61.7</td></tr>
 <tr><td>🧬 调控结构域</td><td>6/10</td><td>×2</td><td>12</td><td>UniProt domains: None identified</td></tr>
 <tr><td>🔗 PPI</td><td>4/10</td><td>×3</td><td>12</td><td>待细化（默认基线）</td></tr>
-<tr><td>➕ 互证加分</td><td>—</td><td>—</td><td><strong>+0</strong></td><td>待补充</td></tr>
+<tr><td>➕ 互证加分</td><td>—</td><td>—</td><td><strong>+0</strong></td><td>暂无数据</td></tr>
 <tr><td><strong>原始总分</strong></td><td></td><td></td><td><strong>100/183</strong></td><td></td></tr>
 <tr><td><strong>归一化总分</strong></td><td></td><td></td><td><strong>54.6/100</strong></td><td></td></tr>
 </tbody></table></div>
@@ -80,6 +82,22 @@
 <ul><li>暂无 GO-CC 数据</li></ul>
 <p><strong>IntAct 查询记录</strong>: IntAct: 15 实验验证互作</p>
 <p><strong>评价</strong>: 基于 IntAct + UniProt GO-CC 综合分析。</p>
+<h4>PPI 互作网络</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>互作伙伴</th><th>来源</th><th>评分</th></tr></thead><tbody>
+<tr><td>REL</td><td>STRING</td><td>999</td></tr>
+<tr><td>RELA</td><td>STRING</td><td>999</td></tr>
+<tr><td>RELB</td><td>STRING</td><td>996</td></tr>
+<tr><td>NFKB1</td><td>STRING</td><td>995</td></tr>
+<tr><td>NFKBIB</td><td>STRING</td><td>993</td></tr>
+<tr><td>NFKBIA</td><td>STRING</td><td>987</td></tr>
+<tr><td>IKBKB</td><td>STRING</td><td>978</td></tr>
+<tr><td>CHUK</td><td>STRING</td><td>978</td></tr>
+</tbody></table></div>
+<h4>TE 调控评估</h4>
+<p>该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。</p>
+<h4>HPA IF 图像</h4>
+<p><figure><img src="https://images.proteinatlas.org/5941/30_B5_1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/5941/30_B5_2_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/5941/31_B5_1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/5941/31_B5_2_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/5941/29_B5_1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/5941/29_B5_2_blue_red_green.jpg" alt="image"></figure></p>
 <h4>5. 总体评价</h4>
 <p><strong>推荐等级</strong>: ⭐</p>
 <p><strong>核心发现</strong>: 1. <strong>HPA IF 确认为核蛋白</strong>: 原始&quot;核定位≤3&quot;淘汰为误判，HPA实验数据确认为Nucleoli fibrillar center; Nucleoplasm 2. <strong>研究新颖性</strong>: PubMed仅65篇文献，属于低研究热度靶点 3. <strong>结构质量</strong>: AlphaFold pLDDT = 61.7</p>
@@ -88,9 +106,9 @@
 <h5>PPI 网络（三源综合）</h5>
 <div class="table-wrap"><table>
 <thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th></tr></thead><tbody>
-<tr><td>无记录</td><td>—</td><td>—</td></tr>
+<tr><td>暂无互作数据</td></tr>
 </tbody></table></div>
-<p>IntAct 有限记录。无 BioGrid 补充数据。</p>
+<p>暂无实验验证互作。无 BioGrid 补充数据。</p>
 <p>&lt;!-- DOMAIN_HUMANPPI_REPAIR_START --&gt;</p>
 <h3>Domain/SMART 与 humanPPI 补充（2026-06-07）</h3>
 <h4>SMART / UniProt domain</h4>

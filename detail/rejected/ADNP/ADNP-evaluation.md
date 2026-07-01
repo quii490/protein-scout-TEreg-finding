@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | ADNP / ADNP1, KIAA0784 |
+| 蛋白名称 | Activity-dependent neuroprotector homeobox protein |
 | 蛋白大小 | 1102 aa / 123.6 kDa |
 | UniProt ID | Q9H2P0 |
 | 评估日期 | 2026-05-28 |
@@ -195,6 +196,41 @@ status: scored
 - [ ] 利用 ChIP-seq/CUT&RUN 确定 ADNP 全基因组结合谱
 - [ ] 通过 co-IP/MS 验证与 SWI/SNF 和 NuRD 复合体的内源互作
 - [ ] 有序区域 (72-130, 445-536, 751-820) 可作为结构解析的切入点
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CHD4 | STRING | 991 |
+| CBX3 | STRING | 856 |
+| CBX1 | STRING | 848 |
+| CHD8 | STRING | 835 |
+| HEL25 | STRING | 819 |
+| CBX5 | STRING | 819 |
+| ZBTB14 | STRING | 778 |
+| ARID1A | STRING | 754 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 实验数据，可能在基因组水平参与 TE 调控。建议分析 ChIP 峰在 TE 区域的富集情况。
+
+### HPA IF 图像
+
+HPA 检索: https://www.proteinatlas.org/search/ADNP
+
+### PubMed
+
+**Count: 465**
+
+| PMID | Title |
+|---|---|
+| 42368563 | Astragalus-derived nano-agonist potentiates chemotherapy by reducing tumor-suppressive macrophages. |
+| 42361864 | Aging ADNP syndrome mice exhibit mutation/sex-dependent disruption of motor behavior and circadian rhythmicity. |
+| 42338150 | Sleep profiles in individuals with rare neurogenetic syndromes. |
+| 42208149 | An Adnp frameshift variant disrupts Wnt signalling inducing chromatocytoskeletal defects and autism-related behaviour in male mice. |
+| 42199422 | Fc effector functions in RNA viral infections: mechanisms of antiviral immunity and implications for vaccine design. |
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9H2P0

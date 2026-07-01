@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | CCDC141 / CAMDI |
+| 蛋白名称 | Coiled-coil domain-containing protein 141 |
 | 蛋白全名 | Coiled-coil domain-containing protein 141 |
 | 蛋白大小 | 1530 aa / 175.1 kDa |
 | UniProt ID | Q6ZP82 |
@@ -188,6 +189,34 @@ status: scored
 - [ ] 获取 HPA IF 图像确认核定位
 - [ ] 查阅最新关键文献补充功能细节
 - [ ] 设计体外 DNA/染色质结合实验
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| EZH2 | BioGRID | 1 |
+| SUZ12 | BioGRID | 1 |
+| USP7 | BioGRID | 1 |
+| DISC1 | BioGRID | 0 |
+| TSC22D2 | BioGRID | 0 |
+| HOMER3 | BioGRID | 0 |
+| DHRS2 | BioGRID | 0 |
+| RRAD | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/12718/136_H2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/12718/136_H2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/12718/1253_G1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/12718/1253_G1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/12718/99_H2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/12718/99_H2_2_blue_red_green.jpg)
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q6ZP82

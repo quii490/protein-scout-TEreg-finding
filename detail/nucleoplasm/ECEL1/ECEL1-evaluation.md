@@ -152,6 +152,24 @@ status: scored
 - [ ] 独立验证核定位（IF/细胞组分分离）
 - [ ] 确认核定位是否为其真实功能定位
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MPPE1 | BioGRID | 1 |
+| CLEC2D | BioGRID | 1 |
+| KIF14 | BioGRID | 1 |
+| SREBF2 | BioGRID | 1 |
+| ERF | BioGRID | 1 |
+| SENP1 | BioGRID | 1 |
+| ZDHHC12 | BioGRID | 1 |
+| LRIG2 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: O95672 (https://www.uniprot.org/uniprotkb/O95672)
 - AlphaFold: AF-O95672-F1 v6 (https://alphafold.ebi.ac.uk/entry/O95672)
@@ -164,9 +182,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[ECEL1-PAE.png]]
 

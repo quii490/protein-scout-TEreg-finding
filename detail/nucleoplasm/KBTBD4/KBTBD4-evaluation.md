@@ -1,18 +1,18 @@
 ---
 type: protein-evaluation
-gene: "KBTBD4"
+gene: "KB暂无数据4"
 date: 2026-06-03
 tags: [protein-scout, nuclear-protein, evaluation]
 status: scored
 ---
 
-## KBTBD4 核蛋白评估报告 (Full Re-evaluation)
+## KB暂无数据4 核蛋白评估报告 (Full Re-evaluation)
 
 ### 1. 基本信息
 
 | 项目 | 内容 |
 |------|------|
-| 基因名 / 别名 | KBTBD4 / BKLHD4 |
+| 基因名 / 别名 | KB暂无数据4 / BKLHD4 |
 | 蛋白名称 | Kelch repeat and BTB domain-containing protein 4 |
 | 蛋白大小 | 534 aa / 59.9 kDa |
 | UniProt ID | Q9NVX7 |
@@ -61,11 +61,11 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 | 别名(未计入scoring) | Aliases observed but not used for scoring: BKLHD4 |
 
 **关键文献**:
-1. Disease-associated KBTBD4 mutations in medulloblastoma elicit neomorphic ubiquitylation activity to promote CoREST degradation.. *Cell death and differentiation*. PMID: 35379950
+1. Disease-associated KB暂无数据4 mutations in medulloblastoma elicit neomorphic ubiquitylation activity to promote CoREST degradation.. *Cell death and differentiation*. PMID: 35379950
 2. Histopathology and molecular pathology of pediatric pineal parenchymal tumors.. *Child's nervous system : ChNS : official journal of the International Society for Pediatric Neurosurgery*. PMID: 35972537
 3. Molecular Stratification of Medulloblastoma: Clinical Outcomes and Therapeutic Interventions.. *Anticancer research*. PMID: 35489737
-4. KBTBD4 Cancer Hotspot Mutations Drive Neomorphic Degradation of HDAC1/2 Corepressor Complexes.. *bioRxiv : the preprint server for biology*. PMID: 38798357
-5. KBTBD4-mediated reduction of MYC is critical for hematopoietic stem cell expansion upon UM171 treatment.. *Blood*. PMID: 38207291
+4. KB暂无数据4 Cancer Hotspot Mutations Drive Neomorphic Degradation of HDAC1/2 Corepressor Complexes.. *bioRxiv : the preprint server for biology*. PMID: 38798357
+5. KB暂无数据4-mediated reduction of MYC is critical for hematopoietic stem cell expansion upon UM171 treatment.. *Blood*. PMID: 38207291
 
 **评价**: 极度新颖，几乎未被系统研究（PubMed ≤20篇）。
 
@@ -154,7 +154,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 **推荐等级**: ⭐⭐⭐⭐
 
 **核心优势**:
-1. KBTBD4 — Kelch repeat and BTB domain-containing protein 4，极度新颖，几乎未被系统研究（PubMed ≤20篇）。
+1. KB暂无数据4 — Kelch repeat and BTB domain-containing protein 4，极度新颖，几乎未被系统研究（PubMed ≤20篇）。
 2. 蛋白大小534 aa，大小适中（200-800 aa），适合常规生化实验和结构解析。
 
 **风险/不确定性**:
@@ -167,16 +167,34 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CUL3 | STRING | 851 |
+| COPS5 | BioGRID | 1 |
+| HSP90AA1 | BioGRID | 1 |
+| PTEN | BioGRID | 1 |
+| CACUL1 | BioGRID | 1 |
+| DDX11 | BioGRID | 1 |
+| KPNA6 | BioGRID | 1 |
+| KPNA5 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9NVX7
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000123444-KBTBD4/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=KBTBD4
+- Protein Atlas: https://www.proteinatlas.org/ENSG00000123444-KB暂无数据4/subcellular
+- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=KB暂无数据4
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9NVX7
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
 
 <!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000123444-KBTBD4/subcellular
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000123444-KB暂无数据4/subcellular
 
 ![](https://images.proteinatlas.org/37792/422_F10_1_red_green.jpg)
 ![](https://images.proteinatlas.org/37792/422_F10_2_red_green.jpg)
@@ -205,7 +223,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 | Pfam | PF07707;PF00651;PF07646; |
 
 ### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000123444-KBTBD4/interaction
+Source: https://www.proteinatlas.org/ENSG00000123444-KB暂无数据4/interaction
 
 | Partner | Datasets | AF3/HPA structure |
 |---|---|:--:|

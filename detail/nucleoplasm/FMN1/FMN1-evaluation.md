@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | FMN1 |
+| 蛋白名称 | Formin-1 |
 | 蛋白大小 | 1419 aa |
 | UniProt ID | Q68DA7 (Formin-1) |
 | 评估日期 | 2026-05-30 |
@@ -160,6 +161,34 @@ status: scored
 - [ ] 通过 co-IP/MS 验证 PPI 网络
 - [ ] ChIP-seq 检查 FMN1 在 TE 区域的 occupancy
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PRPF40A | BioGRID | 0 |
+| NUP85 | BioGRID | 0 |
+| LLGL2 | BioGRID | 0 |
+| CDH1 | BioGRID | 0 |
+| CYP2S1 | BioGRID | 0 |
+| NAPG | BioGRID | 0 |
+| PSMD14 | BioGRID | 0 |
+| NONO | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/46786/1162_B1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/46786/1162_B1_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/46786/616_F11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/46786/616_F11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/46786/619_F11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/46786/619_F11_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q68DA7
 - Protein Atlas: https://www.proteinatlas.org/search/FMN1
@@ -171,9 +200,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[FMN1-PAE.png]]
 

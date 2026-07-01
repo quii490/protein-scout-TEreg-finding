@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | BBS9 / PTHB1 |
+| 蛋白名称 | Protein PTHB1 |
 | 蛋白全名 | Protein PTHB1 |
 | 蛋白大小 | 887 aa / 99.3 kDa |
 | UniProt ID | Q3SYG4 (BBS9_HUMAN) |
@@ -53,6 +54,37 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 3. PMID 39327728: Tinh NH, Hop NV, Phuong PT (2024 Nov). "Novel genotyping assay for a 212-kb deletion from the BBS9 gene, and frequency of the allele in pig populations in Vietnam.." *Journal of veterinary diagnostic investigation : official publication of the American Association of Veterinary Laboratory Diagnosticians, Inc*.
 4. PMID 16380913: Nishimura DY, Swiderski RE, Searby CC (2005 Dec). "Comparative genomics and gene expression analysis identifies BBS9, a new Bardet-Biedl syndrome gene.." *American journal of human genetics*.
 5. PMID 32256100: Perez-Garcia J, Espuela-Ortiz A, Lorenzo-Diaz F (2020). "Pharmacogenetics of Pediatric Asthma: Current Perspectives.." *Pharmacogenomics and personalized medicine*.
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TTC8 | STRING | 999 |
+| BBS7 | STRING | 999 |
+| CEP290 | STRING | 845 |
+| RAB8A | STRING | 828 |
+| TUBA1C | BioGRID | 1 |
+| THYN1 | BioGRID | 1 |
+| POLR3H | BioGRID | 1 |
+| LZTFL1 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### PubMed
+
+**Count: 102**
+
+| PMID | Title |
+|---|---|
+| 41915029 | Harnessing AlphaFold3 to elucidate BBSome structure and protein partners. |
+| 41766136 | Bardet-Biedl Syndrome in India: Genotypic Spectrum and Clinical Features From a Single-Centre Cohort. |
+| 41333852 | Resolution of chronic idiopathic urticaria with setmelanotide in a patient with Bardet-Biedl Syndrome: A case report. |
+| 41331888 | [Relationship between high expression of circular RNA Bardet-Biedl syndrome 9 and low expression of circRNA catenin beta 1 in peripheral blood and wea |
+| 41219488 | Comprehensive clinical and genetic characterization of Bardet-Biedl Syndrome: insights from the largest Turkish cohort. |
+
 
 ### 5. AlphaFold 结构预测
 

@@ -233,3 +233,22 @@ Source: https://www.proteinatlas.org/ENSG00000129460-NGDN/interaction
 | RPL31 | Biogrid | false |
 | RPS24 | Biogrid | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| UTP18 | STRING | 999 |
+| KRR1 | STRING | 999 |
+| UTP3 | STRING | 999 |
+| UTP6 | STRING | 999 |
+| UTP4 | STRING | 999 |
+| NOC4L | STRING | 999 |
+| UTP11 | STRING | 999 |
+| C6ORF11 | STRING | 999 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。

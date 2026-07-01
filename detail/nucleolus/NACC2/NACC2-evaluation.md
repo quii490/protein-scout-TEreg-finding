@@ -12,7 +12,7 @@ status: scored
 
 | 项目 | 内容 |
 |------|------|
-| 基因名 / 别名 | NACC2 / BTBD14A, NAC2, RBB |
+| 基因名 / 别名 | NACC2 / B暂无数据14A, NAC2, RBB |
 | 蛋白名称 | Nucleus accumbens-associated protein 2 |
 | 蛋白大小 | 587 aa / 62.8 kDa |
 | UniProt ID | Q96BF6 |
@@ -61,7 +61,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 |------|------|
 | PubMed strict count | 10 |
 | PubMed broad count | 15 |
-| 别名(未计入scoring) | Aliases observed but not used for scoring: BTBD14A, NAC2, RBB |
+| 别名(未计入scoring) | Aliases observed but not used for scoring: B暂无数据14A, NAC2, RBB |
 
 **关键文献**:
 1. Development of small-molecule tropomyosin receptor kinase (TRK) inhibitors for NTRK fusion cancers.. *Acta pharmaceutica Sinica. B*. PMID: 33643817
@@ -169,6 +169,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NACC2 | BioGRID | 1 |
+| HDAC1 | BioGRID | 1 |
+| HDAC2 | BioGRID | 1 |
+| MTA1 | BioGRID | 1 |
+| MTA2 | BioGRID | 1 |
+| RBBP7 | BioGRID | 1 |
+| RBBP4 | BioGRID | 1 |
+| CHD4 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96BF6

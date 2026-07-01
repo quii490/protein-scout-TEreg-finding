@@ -167,54 +167,38 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q9BZE0
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000126603-GLIS2/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=GLIS2
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9BZE0
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000126603-GLIS2/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CBFA2T3 | STRING | 798 |
+| CTNNB1 | BioGRID | 1 |
+| RBFOX2 | BioGRID | 1 |
+| CPSF1 | BioGRID | 1 |
+| U2AF2 | BioGRID | 1 |
+| WNK1 | BioGRID | 1 |
+| XAB2 | BioGRID | 1 |
+| PML | BioGRID | 1 |
 
-![](https://images.proteinatlas.org/62755/1113_H9_1_red_green.jpg)
-![](https://images.proteinatlas.org/62755/1113_H9_2_red_green.jpg)
-![](https://images.proteinatlas.org/62755/1123_H9_1_red_green.jpg)
-![](https://images.proteinatlas.org/62755/1123_H9_2_red_green.jpg)
-![](https://images.proteinatlas.org/62755/1231_A8_1_red_green.jpg)
-![](https://images.proteinatlas.org/62755/1231_A8_2_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q9BZE0-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/GLIS2
+
+### PubMed
+
+**Count: 162**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q9BZE0 |
-| SMART | SM00355; |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR043359;IPR056436;IPR036236;IPR013087; |
-| Pfam | PF00096;PF23561; |
+| 42255261 | Fully human anti-FOLR1 T-cell engager demonstrates potent activity in CBFA2T3::GLIS2 acute megakaryoblastic leukemia. |
+| 41991315 | [Acute megakaryoblastic leukemia with CBFA2T3::GLIS2 fusion gene: 3 cases report and literature review]. |
+| 41960216 | Identification of an Elusive CBFA2T3::GLIS2 Fusion Variant in Acute Megakaryoblastic Leukemia by Whole Genome Sequencing. |
+| 41872170 | SARS-CoV-2 nonspike structural proteins hijack mucosa epithelial cell fate. |
+| 41677345 | Correction to "Identification of a Crosstalk Among TGR5, GLIS2, and TP53 Signaling Pathways in the Control of Undifferentiated Germ Cell Homeostasis a |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000126603-GLIS2/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| BCAR1 | Intact, Biogrid | true |
-| CTNNB1 | Intact, Biogrid | true |
-| ACTN3 | Intact | false |
-| ARID5A | Intact | false |
-| CRX | Intact | false |
-| CSNK2B | Intact | false |
-| FOSB | Intact | false |
-| GMNN | Intact | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -166,6 +166,37 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SCARF1 | BioGRID | 0 |
+| FXYD3 | BioGRID | 0 |
+| TMEM147 | BioGRID | 0 |
+| TSPAN12 | BioGRID | 0 |
+| TMEM248 | BioGRID | 0 |
+| TMEM97 | BioGRID | 0 |
+| UNC93B1 | BioGRID | 0 |
+| UPK1B | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### PubMed
+
+**Count: 74**
+
+| PMID | Title |
+|---|---|
+| 42077587 | Beyond Symptom Suppression: The Multitargeted Reversal of Chronic Pain by Maresin1. |
+| 41790623 | Prognostic, chemotherapy and immunotherapy roles of GPR37/GPR37L1 in pan-cancer. |
+| 40614042 | GPR37L1 in Spinal Astrocytes: A Potential Target for Neuropathic Pain Management. |
+| 40563324 | Dynamic Transcriptomic and Cellular Remodeling Underlie Cuprizone-Induced Demyelination and Endogenous Repair in the CNS. |
+| 40540843 | Glial cell crosstalk in the local microenvironment following spinal cord injury. |
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O60883
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000170075-GPR37L1/subcellular

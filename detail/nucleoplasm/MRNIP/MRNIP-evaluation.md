@@ -168,6 +168,20 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/43975/555_A10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43975/555_A10_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43975/506_A10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43975/506_A10_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43975/504_A10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43975/504_A10_3_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q6NTE8
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000161010-MRNIP/subcellular

@@ -153,6 +153,24 @@ UniProt + GO 核定位互证 (+1)
 - [ ] 基于 PPI 网络开展功能研究
 - [ ] 结构分析: 基于 AlphaFold 的突变设计
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TAL1 | BioGRID | 0 |
+| HCLS1 | BioGRID | 0 |
+| LMX1B | BioGRID | 0 |
+| RFC1 | BioGRID | 0 |
+| SUPT5H | BioGRID | 0 |
+| ZNF226 | BioGRID | 0 |
+| ANKEF1 | BioGRID | 0 |
+| TRIM33 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=SSBP3
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000157216-SSBP3
@@ -165,9 +183,9 @@ UniProt + GO 核定位互证 (+1)
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[SSBP3-PAE.png]]
 

@@ -158,47 +158,32 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q92527
-- Protein Atlas: https://www.proteinatlas.org/search/ANKRD7
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=ANKRD7
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q92527
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| HSPB1 | BioGRID | 0 |
+| INF2 | BioGRID | 0 |
 
 
+### TE 调控评估
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (enhanced)。来源: https://www.proteinatlas.org/ENSG00000106013-ANKRD7/subcellular
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
-![](https://images.proteinatlas.org/43489/516_E5_1_red_green.jpg)
-![](https://images.proteinatlas.org/43489/516_E5_2_red_green.jpg)
-![](https://images.proteinatlas.org/43489/519_E5_1_red_green.jpg)
-![](https://images.proteinatlas.org/43489/519_E5_4_red_green.jpg)
-![](https://images.proteinatlas.org/43489/556_E5_1_red_green.jpg)
-![](https://images.proteinatlas.org/43489/556_E5_2_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
+### HPA IF 图像
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+HPA 检索: https://www.proteinatlas.org/search/ANKRD7
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q92527-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+### PubMed
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-07）
+**Count: 10**
 
-### SMART / UniProt domain
-| Source | Data |
+| PMID | Title |
 |---|---|
-| UniProt | Q92527 |
-| SMART | SM00248; |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR050657;IPR002110;IPR036770; |
-| Pfam | PF12796; |
+| 40681857 | Expression of marker genes to assess the spermatogenic capacity in patients with idiopathic non-obstructive azoospermia. |
+| 37040927 | Genome-wide association study reveals candidate genes for pollution excreta traits in pigs. |
+| 30956903 | Transcriptional factor regulation network and competitive endogenous RNA (ceRNA) network determining response of esophageal squamous cell carcinomas t |
+| 30926877 | Genome-wide association analysis suggests novel loci underlying thyroid antibodies in Hashimoto's thyroiditis. |
+| 30581036 | Genomic characterization of cervical cancer based on human papillomavirus status. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000106013-ANKRD7/interaction
 
-未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

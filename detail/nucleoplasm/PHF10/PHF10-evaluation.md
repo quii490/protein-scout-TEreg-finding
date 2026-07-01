@@ -89,6 +89,34 @@ PHF10 的 PPI 网络极其强大：与完整 PBAF/SWI-SNF 复合体的所有成�
 ### 4. 总体评价
 PHF10 是本批次评分最高的蛋白（70.5/100）。优势显著：低文献量（strict=39）、纯核质定位（HPA 单一 Nucleoplasm）、PBAF 染色质重塑复合体特异性亚基（含 PHD finger 染色质 reader）、PPI 网络极强（PBAF 全复合体 0.999+）、有全长 EM 结构。作为染色质重塑复合体的 PHD finger 亚基，与 MYC 转录调控直接相关，是优秀的低研究热度染色质调控候选。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SMARCE1 | STRING | 999 |
+| ARID2 | STRING | 999 |
+| SMARCB1 | STRING | 999 |
+| BRD7 | STRING | 999 |
+| SMARCD1 | STRING | 999 |
+| ACTL6A | STRING | 999 |
+| SMARCC2 | STRING | 999 |
+| SMARCA4 | STRING | 999 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/55649/886_C12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/55649/886_C12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/55649/881_B10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/55649/881_B10_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/55649/874_B10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/55649/874_B10_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8WUB8
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8WUB8

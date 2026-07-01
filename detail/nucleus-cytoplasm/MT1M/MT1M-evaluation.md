@@ -74,6 +74,24 @@ HPA IF 原图可获取。MT1M displays the characteristic metallothionein immuno
 
 **Aliases observed**: MT1K
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MT1G | STRING | 904 |
+| MT1H | STRING | 869 |
+| MT1X | STRING | 866 |
+| MT1F | STRING | 858 |
+| MT1E | STRING | 853 |
+| MT1 | STRING | 853 |
+| PAN2 | BioGRID | 1 |
+| RELB | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 实验数据，可能在基因组水平参与 TE 调控。建议分析 ChIP 峰在 TE 区域的富集情况。
+
 ## 5. AlphaFold / PAE / PDB
 
 ### AlphaFold

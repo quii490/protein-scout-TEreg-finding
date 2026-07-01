@@ -88,6 +88,40 @@ status: scored
 ### 4. 总体评价
 TOPORS 是 p53 和 TOP1 的 E3/SUMO 连接酶，核定位明确（PML body + nucleoplasm），文献量适中（strict=67）。主要劣势是 AlphaFold 预测极差（pLDDT 49.0, <50 占 75.6%）、无 PDB 实验结构、蛋白偏大（119 kDa）。与染色质调控的关联主要通过 p53 和 SUMO 通路，缺乏直接的染色质结合结构域。总分较低，适合作为低优先级候补。
 
+### 功能描述
+
+Functions as an E3 ubiquitin-protein ligase and as an E3 SUMO1-protein ligase. Probable tumor suppressor involved in cell growth, cell proliferation and apoptosis that regulates p53/TP53 stability through ubiquitin-dependent degradation. May regulate chromatin modification through sumoylation of several chromatin modification-associated proteins. May be involved in DNA damage-induced cell death through IKBKE sumoylation
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TP53 | STRING | 952 |
+| TOP1 | STRING | 939 |
+| UBE2I | STRING | 900 |
+| SUMO1 | STRING | 869 |
+| UBE2D1 | STRING | 829 |
+| KLHL7 | STRING | 811 |
+| PRPF3 | STRING | 806 |
+| PRPF31 | STRING | 800 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/60640/1523_A8_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/60640/1523_A8_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/60640/1486_D10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/60640/1486_D10_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/60640/1496_D10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/60640/1496_D10_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9NS56
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9NS56

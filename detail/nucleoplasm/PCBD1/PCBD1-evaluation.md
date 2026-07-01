@@ -169,6 +169,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| HNF1A | STRING | 995 |
+| PCBD2 | STRING | 959 |
+| HNF1B | STRING | 892 |
+| TCF2 | STRING | 892 |
+| SPR | STRING | 852 |
+| GCH1 | STRING | 850 |
+| DYRK1B | STRING | 782 |
+| AFMID | STRING | 755 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P61457
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000166228-PCBD1/subcellular

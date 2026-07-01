@@ -54,6 +54,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 4. PMID 29042561: Lou J, Chen H, Han J (2017 Oct 17). "AUNIP/C1orf135 directs DNA double-strand breaks towards the homologous recombination repair pathway.." *Nature communications*.
 5. PMID 39148731: Luo D, Wang H, Zeng Z (2024). "Integrated bioinformatics analysis of nucleotide metabolism based molecular subtyping and biomarkers in lung adenocarcinoma.." *Frontiers in immunology*.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| AURKA | STRING | 757 |
+| DTL | STRING | 739 |
+| ELAVL1 | BioGRID | 1 |
+| PRMT6 | BioGRID | 1 |
+| GRB2 | BioGRID | 1 |
+| NIN | BioGRID | 1 |
+| PRKAB2 | BioGRID | 1 |
+| NXF1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. AlphaFold 结构预测
 
 | 平均 pLDDT | 51.5 |

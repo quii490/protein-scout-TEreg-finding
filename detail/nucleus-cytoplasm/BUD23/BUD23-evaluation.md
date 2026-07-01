@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | BUD23 / WBSCR22、MERM1、WBMT、PP3381、HASJ4442 |
+| 蛋白名称 | 18S rRNA (guanine-N(7))-methyltransferase |
 | 蛋白大小 | 281 aa / 30.9 kDa |
 | UniProt ID | O43709 (BUD23_HUMAN) |
 | 评估日期 | 2026-05-28 |
@@ -162,6 +163,32 @@ BUD23 全长 281 aa (30.9 kDa)，位于 200-300 aa 区间。尺寸偏小但仍�
 
 **推荐等级**: ⭐⭐⭐⭐ (4/5)
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TRMT112 | STRING | 999 |
+| LTV1 | STRING | 989 |
+| RPS2 | STRING | 987 |
+| DIMT1 | STRING | 985 |
+| BYSL | STRING | 985 |
+| TSR1 | STRING | 984 |
+| NOB1 | STRING | 976 |
+| RPS13 | STRING | 971 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/52185/766_C5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/52185/766_C5_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/52185/987_E6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/52185/987_E6_2_blue_red_green.jpg)
+
+
 ### 5. 关键文献
 
 1. Zorbas C et al. (2015). "The human 18S rRNA base methyltransferases DIMT1L and WBSCR22-TRMT112 but not rRNA modification are required for ribosome biogenesis". *Mol Biol Cell*, 26(11):2080-95. PMID: 25851604
@@ -183,9 +210,9 @@ BUD23 全长 281 aa (30.9 kDa)，位于 200-300 aa 区间。尺寸偏小但仍�
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 
 PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。

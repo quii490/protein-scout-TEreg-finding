@@ -168,54 +168,38 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/P50995
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000122359-ANXA11/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=ANXA11
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/P50995
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Packet data timestamp: 2026-06-03 02:53:32
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (supported)。来源: https://www.proteinatlas.org/ENSG00000122359-ANXA11/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ANXA7 | STRING | 920 |
+| PLSCR1 | BioGRID | 1 |
+| HNRNPH3 | BioGRID | 1 |
+| SIRT7 | BioGRID | 1 |
+| CUL5 | BioGRID | 1 |
+| ANXA3 | BioGRID | 1 |
+| RPS21 | BioGRID | 1 |
+| BAG3 | BioGRID | 1 |
 
-![](https://images.proteinatlas.org/27545/2121_F10_19_red_green.jpg)
-![](https://images.proteinatlas.org/27545/2121_F10_8_red_green.jpg)
-![](https://images.proteinatlas.org/27545/2132_B11_13_red_green.jpg)
-![](https://images.proteinatlas.org/27545/2132_B11_36_red_green.jpg)
-![](https://images.proteinatlas.org/27545/218_E10_1_red_green.jpg)
-![](https://images.proteinatlas.org/27545/218_E10_2_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-P50995-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/ANXA11
+
+### PubMed
+
+**Count: 148**
+
+| PMID | Title |
 |---|---|
-| UniProt | P50995 |
-| SMART | SM00335; |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR001464;IPR018502;IPR018252;IPR037104;IPR008157; |
-| Pfam | PF00191; |
+| 42365390 | Lysophagy protects against ANXA11 amyloid fibril toxicity and propagation in FTLD. |
+| 42364743 | Annexin A11 C-terminal domain reveals calcium-dependent co-binding to RNA and lipid vesicles. |
+| 42349418 | The ALS- and FTD-associated proteins annexin A11 and CHMP2B act sequentially in plasma membrane repair. |
+| 42255490 | Integrative Analysis of Genetic Risk Factors for Acute Myeloid Leukemia Using Mendelian Randomization and Single-Cell RNA Sequencing Validation. |
+| 42098143 | ANXA11 suppression restores muscular function in the mdx mouse model of Duchenne muscular dystrophy (DMD). |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000122359-ANXA11/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| PDCD6 | Intact, Biogrid | true |
-| ALG2 | Biogrid | false |
-| ARSA | Intact | false |
-| BAG3 | Biogrid | false |
-| CALD1 | Opencell | false |
-| CEP55 | Intact | false |
-| FUBP1 | Biogrid | false |
-| HSPBP1 | Opencell | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

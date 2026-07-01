@@ -58,6 +58,10 @@ status: accepted
 
 145 aa -- small protein, at the lower boundary of the workable range. Score: 4/10.
 
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

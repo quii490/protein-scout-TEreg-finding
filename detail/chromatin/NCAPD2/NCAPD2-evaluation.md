@@ -60,6 +60,38 @@ PubMed strict: 25
 
 IntAct 15 条记录（含 CSNK2A1 磷酸化实验、ESR1/RRP1B co-IP 等）。UniProt 记录 NCAPG/NCAPH 两个互作 partner。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NCAPH | STRING | 999 |
+| NCAPG | STRING | 999 |
+| SMC2 | STRING | 999 |
+| SMC4 | STRING | 999 |
+| NCAPG2 | STRING | 988 |
+| NCAPD3 | STRING | 984 |
+| NCAPH2 | STRING | 977 |
+| POLA1 | STRING | 900 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q15021-F1-predicted_aligned_error_v6.png)
+
+### PubMed
+
+**Count: 57**
+
+| PMID | Title |
+|---|---|
+| 42206911 | Stage-specific biomarkers in triple-negative breast cancer: Preliminary findings from bioinformatics approaches. |
+| 41878416 | AI-derived prognostic model identifies high-risk gene signatures in pediatric gliomas. |
+| 41735991 | A KLF5's domino effect drives metastatic pancreatic cancer. |
+| 41668133 | CRISPR screen of human pancreatic cancer xenografts identifies a KLF5 proliferation vulnerability through epigenetic modifiers NCAPD2 and MTHFD1. |
+| 41319185 | NCAPD2 promotes the progression of lung adenocarcinoma through an AKT/MDM2/E2F1 positive feedback loop. |
+
+
 ### 5. 结构域与染色质调控潜力
 | 来源 | 结构域 |
 |---|---|

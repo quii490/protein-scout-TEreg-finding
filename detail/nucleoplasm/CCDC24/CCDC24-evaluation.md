@@ -155,6 +155,32 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| DISC1 | BioGRID | 0 |
+| GATA1 | BioGRID | 0 |
+| CDC23 | BioGRID | 0 |
+| RNF31 | BioGRID | 0 |
+| USHBP1 | BioGRID | 0 |
+| REN | BioGRID | 0 |
+| BRCA2 | BioGRID | 0 |
+| NDUFAB1 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白缺乏核/染色质定位证据，TE 调控潜力较低。
+
+### 深度机制分析
+
+CCDC24（PF15669/IPR031367，DUF4595家族）是一个功能完全未知的coiled-coil蛋白，其结构域注释仍停留在DUF（Domain of Unknown Function）级别。AlphaFold v6预测的整体pLDDT仅为66.1，有序区域占比仅48.2%，提示该蛋白含有大量内在无序区域（IDR）。在真核蛋白中，IDR常介导液-液相分离（LLPS）及多价弱相互作用，CCDC24的低结构有序性暗示其可能通过IDR参与动态的无膜细胞器组装。其coiled-coil区域（CC结构域）已知介导蛋白-蛋白相互作用，可能在此作为二聚化或寡聚化的界面。
+
+PPI网络分析显示，CCDC24的STRING预测互作伙伴中存在ZNF644（锌指转录因子，可能参与染色质调控）、RNF220（RING finger E3泛素连接酶）及TIGD5（piggyBac衍生转座酶结构域蛋白，具有DNA结合能力）。ZNF644与染色质修饰的潜在联系，RNF220的泛素化活性，以及TIGD5的DNA结合特性，共同指向CCDC24可能作为支架蛋白参与染色质附近的泛素化调控过程。此外，ERI3（外切核糖核酸酶）的互作提示其可能与RNA代谢存在交叉。
+
+HPA免疫荧光定位显示CCDC24主要定位于质膜，但同时也在核仁和细胞质中被检出。这种质膜-核仁双重定位较为罕见，推测CCDC24可能通过某种信号依赖的穿梭机制在亚细胞区室间动态分布。核仁作为核糖体生物合成和多种应激反应的中枢，加上质膜定位，暗示CCDC24可能在细胞外信号到核内应答的传递中扮演接头角色。总体而言，CCDC24作为一个极度新颖（PubMed仅2篇）且含大量无序区域的coiled-coil蛋白，其机制研究应聚焦于IDR介导的分子凝聚体形成、coiled-coil介导的互作网络组装、以及亚细胞穿梭调控三个方面。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8N4L8
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000159214-CCDC24/subcellular

@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | AHDC1 / Transcription factor Gibbin |
+| 蛋白名称 | Transcription factor Gibbin |
 | 蛋白大小 | 1603 aa / 168.3 kDa |
 | UniProt ID | Q5TGY3 |
 | 评估日期 | 2026-05-29 |
@@ -153,6 +154,20 @@ status: scored
 - [ ] HiChIP / ChIA-PET 鉴定基因组结合位点
 - [ ] 寻找 AHDC1 在 TE 调控中的潜在作用
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ATXN1 | BioGRID | 1 |
+| APP | BioGRID | 1 |
+| CBX5 | BioGRID | 1 |
+| CBX6 | BioGRID | 1 |
+| CBX1 | BioGRID | 1 |
+| FBL | BioGRID | 1 |
+| IKZF5 | BioGRID | 1 |
+| ZNF324B | BioGRID | 1 |
+
+
 ### 5. 数据来源
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000126705-AHDC1
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=AHDC1
@@ -163,9 +178,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[AHDC1-PAE.png]]
 

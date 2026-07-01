@@ -168,6 +168,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| HEATR1 | BioGRID | 1 |
+| TSPYL2 | BioGRID | 1 |
+| USP46 | BioGRID | 1 |
+| WDR20 | BioGRID | 1 |
+| KDM5B | BioGRID | 1 |
+| DDX24 | BioGRID | 1 |
+| AMER1 | BioGRID | 1 |
+| KB暂无数据7 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8N831
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000178021-TSPYL6/subcellular

@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | ANKRD52（无别名） |
+| 蛋白名称 | Serine/threonine-protein phosphatase 6 regulatory ankyrin repeat subunit C |
 | 蛋白大小 | 1076 aa / 115.1 kDa |
 | UniProt ID | Q8NB46 (Swiss-Prot) |
 | 评估日期 | 2026-05-28 |
@@ -102,6 +103,20 @@ status: scored
 - [ ] 评估 ANKRD52 在 TE 调控相关的磷酸酶底物中是否出现
 - [ ] 尝试获取 humanPPI 数据完善互证
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| USP36 | BioGRID | 0 |
+| USP49 | BioGRID | 0 |
+| PLK1 | BioGRID | 0 |
+| PPP6C | BioGRID | 0 |
+| SIRT7 | BioGRID | 0 |
+| MOB1A | BioGRID | 0 |
+| MOB1B | BioGRID | 0 |
+| PPP6R1 | BioGRID | 0 |
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8NB46
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000139645-ANKRD52
@@ -114,9 +129,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[ANKRD52-PAE.png]]
 

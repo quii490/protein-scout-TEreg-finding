@@ -166,6 +166,36 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CCNB1 | STRING | 999 |
+| ANAPC5 | STRING | 999 |
+| BUB1B | STRING | 999 |
+| MAD2L1 | STRING | 999 |
+| ANAPC2 | STRING | 999 |
+| ANAPC1 | STRING | 999 |
+| CDC16 | STRING | 999 |
+| ANAPC11 | STRING | 999 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### 深度机制分析
+
+**结构域架构与分子功能推断。** ANAPC10的DOC结构域（IPR004939, Pfam PF03256, SMART SM01337, 残基2-185）是Anaphase-Promoting Complex/Cyclosome (APC/C) APC10/DOC1亚基的特征性模块。该结构域采用jelly-roll beta-sandwich拓扑折叠，属于galactose-binding domain-like超家族（IPR008979），但其生物学功能已从糖结合演化为泛素化底物识别。IPR016901（ANAPC10家族）提供了分子功能层面的补充注释。UniProt已精确注释了Domain[FT]（2..185, PROSITE:PRU00614），且Q9UM13记录确认该蛋白为"Anaphase-promoting complex subunit 10"。SMART SM01337条目的检出进一步提供了独立的结构域验证。尽管报告中AlphaFold pLDDT=0为采集异常（v?版本参数缺失），基于DOC结构域在进化上的高度保守性（酵母Apc10/Doc1与人ANAPC10的DOC域序列一致性>40%），可预期DOC域的pLDDT应>85——类似jelly-roll折叠蛋白的典型AF2预测置信度。
+
+**PPI网络的生物学意义。** PPI网络精确反映了ANAPC10在APC/C复合体中的组装位置与功能环境。STRING和IntAct中几乎全部APC/C核心亚基均以999最高置信度出现：ANAPC1（~200kDa最大支架亚基，提供复合体结构性平台）、ANAPC2（cullin样支架，与APC11/RING形成催化核心）、ANAPC4、ANAPC5、ANAPC7、ANAPC11（RING-finger E3连接酶催化亚基）、CDC16、CDC23、CDC27。CDC20和CCNB1（Cyclin B1）的999互作尤为关键——CDC20是APC/C的有丝分裂共激活因子，通过其C-box和IR-tail基序分别结合APC/C催化核心和底物D-box/KEN-box degron，将底物呈递给活性位点。CCNB1是APC/C-CDC20在有丝分裂中期-后期转变中的关键底物——APC/C催化Cyclin B1的K48-linked多聚泛素化使其被26S蛋白酶体降解，释放Cdk1活性抑制以推动有丝分裂退出。MAD2L1（0.999）和BUB1B（0.999）是纺锤体组装检查点（SAC）的核心组分，通过抑制CDC20延迟APC/C激活。IntAct实验验证（tandem affinity purification, PMID:20360068）为这些互作提供了蛋白组学级别的确证。
+
+**三维结构的功能解释。** DOC结构域（jelly-roll beta-sandwich）在已解析的APC/C全复合体冷冻电镜结构（以酵母Apc10为类比，因human ANAPC10尚无独立PDB）中位于APC/C的"底物识别平台"。DOC域与共激活因子CDC20（或减数分裂同源物CDH1）紧密相邻，其beta-sandwich的凹面构成了D-box degron识别沟的一部分。更具体的机制是：DOC域的C端环区（C-terminal loop）与CDC20共同形成可与底物D-box（RXXLXXXXN/D/E）发生多齿（multidentate）结合的界面——DOC域识别D-box的RXXL核心基序，CDC20则贡献对延伸残基的额外接触。这种"共识别"（co-recognition）机制确保底物特异性——并非所有含有D-box的蛋白都被APC/C泛素化，有效底物需同时满足DOC域和CDC20/CDH1的接触要求。ANAPC10的N端部分可能在APC/C内延伸以接触APC2 cullin亚基的WHB结构域，协助催化模块的空间定向。无PDB条目的现状为后续human ANAPC10的结构解析提供了明确的研究方向。
+
+**综合分子机制模型。** ANAPC10在APC/C中执行"底物适配器"（substrate adaptor）和"催化核心-底物平台桥接器"双重功能。在间期，当CDH1替代CDC20作为共激活因子时，APC/C-CDH1通过ANAPC10-底物识别界面持续靶向有丝分裂cyclins和DNA复制因子以维持基因组稳定性。在有丝分裂前中期，SAC信号（MAD2L1-BUBR1/BUB1B-BUB3复合体）通过结合并抑制CDC20阻遏APC/C活性——ANAPC10在此充当检查点效应器的间接停泊位点。当SAC被满足后，CDC20被释放，CDC20-ANAPC10-底物三元复合体形成——DOC域识别底物D-box RXXL基序，CDC20提供额外的底物接触和定向，使底物赖氨酸残基进入APC11/RING-E2~Ubiquitin活性位点的空间范围内，启动泛素链合成。泛素化底物被26S蛋白酶体降解，驱动姐妹染色单体分离和有丝分裂退出。在癌症中，ANAPC10在口腔鳞状细胞癌（OSCC）中作为诊断/预后生物标志物的发现（PMID:40408783）提示APC/C活性的异常可能通过破坏有丝分裂保真性（mitotic fidelity）导致染色体不稳定（CIN）——APC/C功能不足导致Cyclin B1/Securin延迟降解可产生lagging chromosomes和aneuploidy。
+
+**研究与转化启示。** 尽管ANAPC10的PubMed计数仅10篇（极度新颖），其作为APC/C核心组分在细胞周期调控中的保守性已通过APC/C全复合体解析得到间接确认。该蛋白代表了一个有趣的"paradox"——生化功能已有深入间接认知（通过APC/C研究），但针对性研究极少。未来方向包括：(1) 求解human ANAPC10-ANAPC2-APC11催化模块的结构以明确催化-底物接口的精确空间关系；(2) 探索ANAPC10本身是否受到细胞周期依赖性降解的调控；(3) 在CIN肿瘤中检测ANAPC10的突变、表达异常和剪接变异——作为APC/C底物识别门户，ANAPC10的改变可能以"底物特异性"方式（而非全局失活）改变特定底物（如Cyclin B1 vs Securin）的降解时序。OSCC中的ANAPC10预后信号（PMID:40408783）是探索该假设的临床切入点。需注意ANAPC10的HPA IF显示额外的Golgi apparatus定位（非核质），这可能提示APC/C某些亚群具有非有丝分裂/非核内功能。PCOS和重度抑郁症中PTTG1-ANAPC10共表达信号的发现（PMID:40925190）以及男性不育中FBXO43功能缺失突变的鉴定（PMID:34595750）进一步扩展了ANAPC10相关疾病谱，暗示APC/C底物识别失调可影响生殖内分泌和精神健康。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/ANAPC10
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000164162-ANAPC10/subcellular

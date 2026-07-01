@@ -124,7 +124,7 @@ status: scored
 | GLE1 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
 | DTL | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
 | CDK5RAP1 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
-| BTBD1 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
+| B暂无数据1 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
 | ZBTB2 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
 
 **PPI 互证分析**:
@@ -168,6 +168,17 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CNDP2 | STRING | 935 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8N4J0
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000156017-CARNMT1/subcellular
@@ -201,7 +212,7 @@ Source: https://www.proteinatlas.org/ENSG00000156017-CARNMT1/interaction
 |---|---|:--:|
 | RNF113A | Biogrid, Bioplex | true |
 | U2AF1 | Intact, Biogrid | true |
-| BTBD1 | Bioplex | false |
+| B暂无数据1 | Bioplex | false |
 | CA6 | Bioplex | false |
 | DCANP1 | Bioplex | false |
 | DTL | Bioplex | false |

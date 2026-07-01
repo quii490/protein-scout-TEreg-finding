@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | FUBP3 |
+| 蛋白名称 | Far upstream element-binding protein 3 |
 | 蛋白大小 | 572 aa |
 | UniProt ID | Q96I24 (Far upstream element-binding protein 3) |
 | 评估日期 | 2026-05-30 |
@@ -161,6 +162,34 @@ status: scored
 - [ ] 通过 co-IP/MS 验证 PPI 网络
 - [ ] ChIP-seq 检查 FUBP3 在 TE 区域的 occupancy
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| FBP1 | STRING | 889 |
+| HNRNPF | STRING | 844 |
+| QKI | STRING | 843 |
+| PUF60 | STRING | 813 |
+| FUBP1 | STRING | 756 |
+| PAX9 | BioGRID | 1 |
+| XBP1 | BioGRID | 1 |
+| SMARCAD1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/47658/696_H11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/47658/696_H11_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/58392/1045_F4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/58392/1045_F4_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/58392/1147_E6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/58392/1147_E6_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96I24
 - Protein Atlas: https://www.proteinatlas.org/search/FUBP3
@@ -172,9 +201,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[FUBP3-PAE.png]]
 

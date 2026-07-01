@@ -36,7 +36,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "CATSPERE",
@@ -67,7 +68,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell projection, cilium, flagellum membrane"
     },
     {
       "gene": "CBY2",
@@ -98,7 +100,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "CXorf66",
@@ -129,7 +132,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Membrane"
     },
     {
       "gene": "DNAI3",
@@ -160,7 +164,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "DNAL4",
@@ -191,7 +196,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton, cilium axoneme"
     },
     {
       "gene": "KRT33A",
@@ -222,7 +228,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "KRT33B",
@@ -253,7 +260,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "LCA5L",
@@ -284,7 +292,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "P3R3URF-PIK3R3",
@@ -315,7 +324,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "PPP4R1",
@@ -346,7 +356,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "SPACA7",
@@ -377,7 +388,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "TEX37",
@@ -408,7 +420,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Nucleus; Cytoplasm; Cytoplasm, cytoskeleton, flagellum axoneme"
     },
     {
       "gene": "C2CD6",
@@ -439,7 +452,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell projection, cilium, flagellum membrane"
     },
     {
       "gene": "CFAP99",
@@ -470,7 +484,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell projection, cilium, flagellum"
     },
     {
       "gene": "DNAI4",
@@ -501,7 +516,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "DUSP21",
@@ -532,7 +548,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm; Nucleus; Mitochondrion inner membrane; Cytoplasm, cytoskeleton, flagellum axoneme"
     },
     {
       "gene": "ENSG00000198211",
@@ -563,7 +580,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "ENSG00000267740",
@@ -594,7 +612,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "ENSG00000271254",
@@ -625,7 +644,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "ENSG00000286185",
@@ -656,7 +676,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "FAM166A",
@@ -687,7 +708,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton, flagellum axoneme"
     },
     {
       "gene": "FAM205A",
@@ -718,7 +740,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Membrane"
     },
     {
       "gene": "FLACC1",
@@ -749,7 +772,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "FYB2",
@@ -780,7 +804,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "KRT39",
@@ -811,7 +836,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "NBPF10",
@@ -842,7 +868,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm"
     },
     {
       "gene": "NBPF11",
@@ -873,7 +900,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm"
     },
     {
       "gene": "NBPF12",
@@ -904,7 +932,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm"
     },
     {
       "gene": "NBPF14",
@@ -935,7 +964,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm"
     },
     {
       "gene": "NBPF15",
@@ -966,7 +996,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "NBPF19",
@@ -997,7 +1028,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm"
     },
     {
       "gene": "NBPF20",
@@ -1028,7 +1060,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm"
     },
     {
       "gene": "NBPF26",
@@ -1059,7 +1092,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "PPP1R32",
@@ -1090,7 +1124,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell projection, cilium; Cytoplasm; Cytoplasm, cytoskeleton, flagellum axoneme"
     },
     {
       "gene": "SAXO1",
@@ -1121,7 +1156,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "SPATA48",
@@ -1152,7 +1188,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "TEX45",
@@ -1183,7 +1220,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "TUBB8B",
@@ -1214,7 +1252,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton"
     },
     {
       "gene": "AGBL2",
@@ -1245,7 +1284,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton, cilium basal body; Cytoplasm, cytoskeleton, microtubule organizing center, centrosome, centriole; Cytoplasm, cytosol"
     },
     {
       "gene": "B9D1",
@@ -1276,7 +1316,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "C4orf45",
@@ -1307,7 +1348,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "C4orf47",
@@ -1338,7 +1380,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton, microtubule organizing center, centrosome"
     },
     {
       "gene": "CATSPERG",
@@ -1369,7 +1412,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "CATSPERZ",
@@ -1400,7 +1444,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "CCDC34",
@@ -1431,7 +1476,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "CDK20",
@@ -1462,7 +1508,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell projection, cilium; Cytoplasm; Nucleus"
     },
     {
       "gene": "CFAP100",
@@ -1493,7 +1540,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "CFAP126",
@@ -1524,7 +1572,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "CFAP20",
@@ -1555,7 +1604,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "CYLC1",
@@ -1586,7 +1636,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "DBNDD1",
@@ -1617,7 +1668,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "DCTN3",
@@ -1648,7 +1700,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "DYNC1I2",
@@ -1679,7 +1732,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "DYNC2LI1",
@@ -1710,7 +1764,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton, cilium axoneme; Cytoplasm, cytoskeleton, cilium basal body; Cytoplasm, cytoskeleton, microtubule organizing center, centrosome"
     },
     {
       "gene": "ENSG00000251569",
@@ -1741,7 +1796,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "ENSG00000256500",
@@ -1772,7 +1828,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "FSCB",
@@ -1803,7 +1860,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell projection, cilium, flagellum"
     },
     {
       "gene": "HAUS6",
@@ -1834,7 +1892,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "HAUS7",
@@ -1865,7 +1924,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "IFT22",
@@ -1896,7 +1956,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "IQCN",
@@ -1927,7 +1988,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "IZUMO2",
@@ -1958,7 +2020,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "IZUMO3",
@@ -1989,7 +2052,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "KIF4B",
@@ -2020,7 +2084,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Nucleus matrix; Cytoplasm, cytoskeleton"
     },
     {
       "gene": "KRT31",
@@ -2051,7 +2116,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "KRT34",
@@ -2082,7 +2148,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "LNPK",
@@ -2113,7 +2180,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "MROH2B",
@@ -2144,7 +2212,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "NBPF9",
@@ -2175,7 +2244,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm"
     },
     {
       "gene": "NT5C1B",
@@ -2206,7 +2276,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "NT5C1B-RDH14",
@@ -2237,7 +2308,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "OR6P1",
@@ -2268,7 +2340,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell membrane"
     },
     {
       "gene": "PMFBP1",
@@ -2299,7 +2372,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "PPP1R3D",
@@ -2330,7 +2404,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "RIBC2",
@@ -2361,7 +2436,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton, cilium axoneme; Cytoplasm, cytoskeleton, flagellum axoneme"
     },
     {
       "gene": "SAXO2",
@@ -2392,7 +2468,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "SLC22A14",
@@ -2423,7 +2500,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Membrane"
     },
     {
       "gene": "SPAG8",
@@ -2454,7 +2532,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "SPATA31A1",
@@ -2485,7 +2564,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Membrane"
     },
     {
       "gene": "SPATA31A6",
@@ -2516,7 +2596,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Membrane"
     },
     {
       "gene": "SPATA31A7",
@@ -2547,7 +2628,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Membrane"
     },
     {
       "gene": "TBC1D30",
@@ -2578,7 +2660,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "TEKT2",
@@ -2609,7 +2692,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "TEKT3",
@@ -2640,7 +2724,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton, cilium axoneme; Cytoplasm, cytoskeleton, flagellum axoneme"
     },
     {
       "gene": "TEKT4",
@@ -2671,7 +2756,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "TSSK1B",
@@ -2702,7 +2788,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm; Cytoplasmic vesicle, secretory vesicle, acrosome; Cell projection, cilium, flagellum"
     },
     {
       "gene": "TTLL6",
@@ -2733,7 +2820,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "UNC119B",
@@ -2764,7 +2852,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "WDR54",
@@ -2795,7 +2884,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Vesicle; Cytoplasm; Cell membrane"
     },
     {
       "gene": "CCDC181",
@@ -2826,7 +2916,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "CCDC65",
@@ -2857,7 +2948,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton, flagellum basal body; Cell projection, cilium, flagellum; Cytoplasm, cytoskeleton, flagellum axoneme"
     },
     {
       "gene": "CCDC91",
@@ -2888,7 +2980,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "CEP162",
@@ -2919,7 +3012,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton, microtubule organizing center, centrosome, centriole"
     },
     {
       "gene": "CETN1",
@@ -2950,7 +3044,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton, microtubule organizing center, centrosome; Cell projection, cilium"
     },
     {
       "gene": "CFAP45",
@@ -2981,7 +3076,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell projection, cilium, flagellum"
     },
     {
       "gene": "CFAP46",
@@ -3012,7 +3108,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "CFAP70",
@@ -3043,7 +3140,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "DAW1",
@@ -3074,7 +3172,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "DRC3",
@@ -3105,7 +3204,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "IQCD",
@@ -3136,7 +3236,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton, flagellum axoneme"
     },
     {
       "gene": "IQUB",
@@ -3167,7 +3268,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "IZUMO4",
@@ -3198,7 +3300,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "KIF2B",
@@ -3229,7 +3332,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton, microtubule organizing center, centrosome; Cytoplasm, cytoskeleton, spindle; Chromosome, centromere, kinetochore"
     },
     {
       "gene": "ODF3",
@@ -3260,7 +3364,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "RAP1GAP2",
@@ -3291,7 +3396,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "RGS9BP",
@@ -3322,7 +3428,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Membrane"
     },
     {
       "gene": "RSPH3",
@@ -3353,7 +3460,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton, flagellum axoneme"
     },
     {
       "gene": "SEPTIN11",
@@ -3384,7 +3492,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell projection; Cytoplasm, cytoskeleton"
     },
     {
       "gene": "SEPTIN8",
@@ -3415,7 +3524,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell projection; Cytoplasm, cytoskeleton"
     },
     {
       "gene": "TPPP2",
@@ -3446,7 +3556,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm"
     },
     {
       "gene": "TTLL9",
@@ -3477,7 +3588,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "VARS1",
@@ -3508,7 +3620,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "VPS50",
@@ -3539,7 +3652,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "ATP5MGL",
@@ -3570,7 +3684,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Mitochondrion membrane"
     },
     {
       "gene": "CATSPERD",
@@ -3601,7 +3716,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell projection, cilium, flagellum membrane"
     },
     {
       "gene": "CBLN4",
@@ -3632,7 +3748,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Secreted; Synapse"
     },
     {
       "gene": "CCDC188",
@@ -3663,7 +3780,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Membrane"
     },
     {
       "gene": "CEP120",
@@ -3694,7 +3812,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton, microtubule organizing center, centrosome"
     },
     {
       "gene": "CNBD2",
@@ -3725,7 +3844,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "DCDC2C",
@@ -3756,7 +3876,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell projection, cilium, flagellum; Cytoplasm"
     },
     {
       "gene": "DNAH3",
@@ -3787,7 +3908,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell projection, cilium, flagellum; Cytoplasm, cytoskeleton, cilium axoneme"
     },
     {
       "gene": "DNAL1",
@@ -3818,7 +3940,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "DYDC2",
@@ -3849,7 +3972,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "ENSG00000111780",
@@ -3880,7 +4004,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "ENSG00000285827",
@@ -3911,7 +4036,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "FAM183A",
@@ -3942,7 +4068,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton, cilium axoneme; Cytoplasm, cytoskeleton, flagellum axoneme"
     },
     {
       "gene": "FAM9A",
@@ -3973,7 +4100,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Nucleus, nucleolus"
     },
     {
       "gene": "FMR1NB",
@@ -4004,7 +4132,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Membrane"
     },
     {
       "gene": "H1-7",
@@ -4035,7 +4164,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Nucleus; Chromosome"
     },
     {
       "gene": "IQCA1",
@@ -4066,7 +4196,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton, flagellum axoneme"
     },
     {
       "gene": "LRIT1",
@@ -4097,7 +4228,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Endoplasmic reticulum membrane; Cell projection, dendrite"
     },
     {
       "gene": "NDUFB11",
@@ -4128,7 +4260,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Mitochondrion inner membrane"
     },
     {
       "gene": "OR10Q1",
@@ -4159,7 +4292,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell membrane"
     },
     {
       "gene": "PGAM4",
@@ -4190,7 +4324,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "PGPEP1L",
@@ -4221,7 +4356,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "PIERCE1",
@@ -4252,7 +4388,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "PSMD7",
@@ -4283,7 +4420,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "RAB11FIP5",
@@ -4314,7 +4452,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasmic vesicle, secretory vesicle membrane; Early endosome membrane; Golgi apparatus membrane; Mitochondrion membrane; Recycling endosome membrane"
     },
     {
       "gene": "ROPN1B",
@@ -4345,7 +4484,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell projection, cilium, flagellum"
     },
     {
       "gene": "RSPH9",
@@ -4376,7 +4516,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "SPACA9",
@@ -4407,7 +4548,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "STPG2",
@@ -4438,7 +4580,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "TEX43",
@@ -4469,7 +4612,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton, flagellum axoneme"
     },
     {
       "gene": "THEGL",
@@ -4500,7 +4644,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "TMEM89",
@@ -4531,7 +4676,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Membrane"
     },
     {
       "gene": "TSGA10IP",
@@ -4562,7 +4708,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "VPS37A",
@@ -4593,7 +4740,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "ACTL9",
@@ -4624,7 +4772,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasmic vesicle, secretory vesicle, acrosome; Cytoplasm, cytoskeleton, perinuclear theca"
     },
     {
       "gene": "C2CD3",
@@ -4655,7 +4804,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton, cilium basal body; Cytoplasm, cytoskeleton, microtubule organizing center, centrosome, centriole"
     },
     {
       "gene": "CATSPER3",
@@ -4686,7 +4836,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell projection, cilium, flagellum membrane"
     },
     {
       "gene": "CCDC103",
@@ -4717,7 +4868,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm; Cell projection, cilium, flagellum"
     },
     {
       "gene": "CEP76",
@@ -4748,7 +4900,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton, microtubule organizing center, centrosome, centriole"
     },
     {
       "gene": "CFAP221",
@@ -4779,7 +4932,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell projection, cilium; Cytoplasm"
     },
     {
       "gene": "CFAP251",
@@ -4810,7 +4964,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "CFAP43",
@@ -4841,7 +4996,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell projection, cilium; Cytoplasm, cytoskeleton"
     },
     {
       "gene": "CFAP58",
@@ -4872,7 +5028,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "CTXN3",
@@ -4903,7 +5060,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Membrane"
     },
     {
       "gene": "CYLC2",
@@ -4934,7 +5092,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton, perinuclear theca, calyx"
     },
     {
       "gene": "DCST1",
@@ -4965,7 +5124,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell membrane; Cytoplasmic vesicle, secretory vesicle, acrosome membrane"
     },
     {
       "gene": "DKKL1",
@@ -4996,7 +5156,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "DNAAF6",
@@ -5027,7 +5188,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "DNAH12",
@@ -5058,7 +5220,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell projection, cilium, flagellum; Cytoplasm, cytoskeleton, cilium axoneme"
     },
     {
       "gene": "DNAH6",
@@ -5089,7 +5252,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton, cilium axoneme; Cell projection, cilium, flagellum"
     },
     {
       "gene": "DNAJB13",
@@ -5120,7 +5284,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "DNALI1",
@@ -5151,7 +5316,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "DNHD1",
@@ -5182,7 +5348,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "EFCAB6",
@@ -5213,7 +5380,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "ENKUR",
@@ -5244,7 +5412,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton, cilium axoneme"
     },
     {
       "gene": "FLAD1",
@@ -5275,7 +5444,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "FSIP1",
@@ -5306,7 +5476,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "GLG1",
@@ -5337,7 +5508,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "HAUS1",
@@ -5368,7 +5540,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton, spindle"
     },
     {
       "gene": "HSPB11",
@@ -5399,7 +5572,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell projection, cilium"
     },
     {
       "gene": "IFT43",
@@ -5430,7 +5604,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "IMPG1",
@@ -5461,7 +5636,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell projection, cilium, photoreceptor outer segment; Photoreceptor inner segment; Secreted, extracellular space, extracellular matrix, interphotoreceptor matrix"
     },
     {
       "gene": "KCTD16",
@@ -5492,7 +5668,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Presynaptic cell membrane; Postsynaptic cell membrane"
     },
     {
       "gene": "KIF26A",
@@ -5523,7 +5700,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton"
     },
     {
       "gene": "LRRC45",
@@ -5554,7 +5732,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "LYZL4",
@@ -5585,7 +5764,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Secreted; Cytoplasmic vesicle, secretory vesicle, acrosome; Cell projection, cilium, flagellum"
     },
     {
       "gene": "MSGN1",
@@ -5616,7 +5796,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Nucleus"
     },
     {
       "gene": "NBPF1",
@@ -5647,7 +5828,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm"
     },
     {
       "gene": "NDUFA11",
@@ -5678,7 +5860,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Mitochondrion inner membrane"
     },
     {
       "gene": "NDUFA8",
@@ -5709,7 +5892,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "NUBP1",
@@ -5740,7 +5924,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "OAZ3",
@@ -5771,7 +5956,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm; Nucleus"
     },
     {
       "gene": "PKHD1L1",
@@ -5802,7 +5988,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Membrane; Cell projection, stereocilium membrane"
     },
     {
       "gene": "POC1A",
@@ -5833,7 +6020,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "PSMD5",
@@ -5864,7 +6052,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "RAB11FIP4",
@@ -5895,7 +6084,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "RALGAPA1",
@@ -5926,7 +6116,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "RNPEP",
@@ -5957,7 +6148,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "ROPN1L",
@@ -5988,7 +6180,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell projection, cilium, flagellum; Cell projection, cilium"
     },
     {
       "gene": "SLC9B1",
@@ -6019,7 +6212,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "SPAG17",
@@ -6050,7 +6244,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm; Cytoplasm, cytoskeleton, flagellum axoneme; Cytoplasmic vesicle, secretory vesicle, acrosome; Golgi apparatus; Cytoplasm, cytoskeleton"
     },
     {
       "gene": "SPESP1",
@@ -6081,7 +6276,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "SSX2IP",
@@ -6112,7 +6308,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "TBC1D21",
@@ -6143,7 +6340,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "TP53I11",
@@ -6174,7 +6372,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "WBP11",
@@ -6205,7 +6404,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Nucleus"
     },
     {
       "gene": "WRAP73",
@@ -6236,7 +6436,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "ENSG00000282218",
@@ -6267,7 +6468,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CBLN2",
@@ -6298,7 +6500,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Secreted"
     },
     {
       "gene": "CCT8",
@@ -6329,7 +6532,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "CEP135",
@@ -6360,7 +6564,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "EFHC1",
@@ -6391,7 +6596,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton, flagellum axoneme; Cytoplasm, cytoskeleton, microtubule organizing center, centrosome; Cytoplasm, cytoskeleton, spindle pole"
     },
     {
       "gene": "FAM177B",
@@ -6422,7 +6628,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "FAM187A",
@@ -6453,7 +6660,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Membrane"
     },
     {
       "gene": "PROM2",
@@ -6484,7 +6692,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell projection, microvillus membrane"
     },
     {
       "gene": "PSD3",
@@ -6515,7 +6724,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "SUGT1",
@@ -6546,7 +6756,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm; Nucleus"
     },
     {
       "gene": "TTC21B",
@@ -6577,7 +6788,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "ADAM32",
@@ -6608,7 +6820,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Membrane"
     },
     {
       "gene": "CAPZA3",
@@ -6639,7 +6852,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton"
     },
     {
       "gene": "CATSPERB",
@@ -6670,7 +6884,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "CCDC136",
@@ -6701,7 +6916,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "CCDC183",
@@ -6732,7 +6948,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "CCDC63",
@@ -6763,7 +6980,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "CCDC66",
@@ -6794,7 +7012,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "CCIN",
@@ -6825,7 +7044,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton, perinuclear theca, calyx"
     },
     {
       "gene": "CDKL1",
@@ -6856,7 +7076,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm"
     },
     {
       "gene": "CFAP298",
@@ -6887,7 +7108,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "CFAP61",
@@ -6918,7 +7140,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "CLGN",
@@ -6949,7 +7172,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Endoplasmic reticulum"
     },
     {
       "gene": "CLNS1A",
@@ -6980,7 +7204,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "DCTN4",
@@ -7011,7 +7236,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cell cortex; Cytoplasm, cytoskeleton, microtubule organizing center, centrosome; Cytoplasm, cytoskeleton, stress fiber; Cytoplasm, myofibril, sarcomere"
     },
     {
       "gene": "DNAAF4",
@@ -7042,7 +7268,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "DNAH2",
@@ -7073,7 +7300,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "DNAH7",
@@ -7104,7 +7332,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "DNAH8",
@@ -7135,7 +7364,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell projection, cilium, flagellum; Cytoplasm, cytoskeleton, cilium axoneme"
     },
     {
       "gene": "DNAJC5",
@@ -7166,7 +7396,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytosol; Membrane; Cytoplasmic vesicle, secretory vesicle, chromaffin granule membrane; Melanosome; Cell membrane"
     },
     {
       "gene": "DYNC1LI2",
@@ -7197,7 +7428,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "DYNLL2",
@@ -7228,7 +7460,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton"
     },
     {
       "gene": "EFCAB2",
@@ -7259,7 +7492,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton, flagellum axoneme"
     },
     {
       "gene": "EFHB",
@@ -7290,7 +7524,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton"
     },
     {
       "gene": "EPRS1",
@@ -7321,7 +7556,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "EXOC3L2",
@@ -7352,7 +7588,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "GAS8",
@@ -7383,7 +7620,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm; Cytoplasm, cytoskeleton; Cell projection, cilium, flagellum; Cytoplasm, cytoskeleton, cilium axoneme; Cytoplasm, cytoskeleton, cilium basal body; Golgi apparatus; Cell projection, cilium; Cytoplasm, cytoskeleton, flagellum axoneme"
     },
     {
       "gene": "IFT122",
@@ -7414,7 +7652,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton, cilium basal body"
     },
     {
       "gene": "IMMP2L",
@@ -7445,7 +7684,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Membrane"
     },
     {
       "gene": "KIF12",
@@ -7476,7 +7716,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "LY6K",
@@ -7507,7 +7748,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell membrane"
     },
     {
       "gene": "MARS1",
@@ -7538,7 +7780,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "MNS1",
@@ -7569,7 +7812,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Nucleus; Cytoplasm, cytoskeleton, cilium axoneme; Cytoplasm, cytoskeleton, flagellum axoneme"
     },
     {
       "gene": "MRPS35",
@@ -7600,7 +7844,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "NDUFA6",
@@ -7631,7 +7876,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "NUDCD3",
@@ -7662,7 +7908,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "ODF4",
@@ -7693,7 +7940,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "PPP2R3A",
@@ -7724,7 +7972,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "PPP2R5E",
@@ -7755,7 +8004,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "PRSS21",
@@ -7786,7 +8036,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "PRSS55",
@@ -7817,7 +8068,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "PSMA4",
@@ -7848,7 +8100,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm; Nucleus"
     },
     {
       "gene": "PSMA8",
@@ -7879,7 +8132,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "RSPH1",
@@ -7910,7 +8164,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "RSPH4A",
@@ -7941,7 +8196,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton, cilium axoneme; Cell projection, cilium"
     },
     {
       "gene": "SCAMP2",
@@ -7972,7 +8228,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Membrane"
     },
     {
       "gene": "SEPTIN10",
@@ -8003,7 +8260,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell projection; Cytoplasm, cytoskeleton"
     },
     {
       "gene": "SEPTIN6",
@@ -8034,7 +8292,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "SLC26A8",
@@ -8065,7 +8324,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "SPACA4",
@@ -8096,7 +8356,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell membrane"
     },
     {
       "gene": "SPAG16",
@@ -8127,7 +8388,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "SPATA20",
@@ -8158,7 +8420,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "SPEM1",
@@ -8189,7 +8452,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Membrane; Cytoplasm"
     },
     {
       "gene": "SPINK2",
@@ -8220,7 +8484,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Secreted"
     },
     {
       "gene": "TAF8",
@@ -8251,7 +8516,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm; Nucleus"
     },
     {
       "gene": "TCTE1",
@@ -8282,7 +8548,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell projection, cilium, flagellum; Cytoplasm, cytoskeleton, flagellum axoneme"
     },
     {
       "gene": "TMEM231",
@@ -8313,7 +8580,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell projection, cilium membrane"
     },
     {
       "gene": "TTC29",
@@ -8344,7 +8612,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "TTC8",
@@ -8375,7 +8644,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "TUBB4B",
@@ -8406,7 +8676,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "TUBB6",
@@ -8437,7 +8708,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton"
     },
     {
       "gene": "TUBB8",
@@ -8468,7 +8740,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton; Cytoplasm, cytoskeleton, spindle"
     },
     {
       "gene": "TUBG2",
@@ -8499,7 +8772,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton, microtubule organizing center, centrosome"
     },
     {
       "gene": "TULP4",
@@ -8530,7 +8804,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "WDR11",
@@ -8561,7 +8836,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "ZG16",
@@ -8592,7 +8868,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "ACTR10",
@@ -8623,7 +8900,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "AK9",
@@ -8654,7 +8932,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "ARL13A",
@@ -8685,7 +8964,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "CABYR",
@@ -8716,7 +8996,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "CD300LG",
@@ -8747,7 +9028,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "CEP131",
@@ -8778,7 +9060,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "CEP350",
@@ -8809,7 +9092,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "CLIP1",
@@ -8840,7 +9124,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "CNTROB",
@@ -8871,7 +9156,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "COX6B1",
@@ -8902,7 +9188,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "CPLANE1",
@@ -8933,7 +9220,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "CROCC",
@@ -8964,7 +9252,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "DNAH10",
@@ -8995,7 +9284,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "DNAH9",
@@ -9026,7 +9316,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell projection, cilium, flagellum; Cytoplasm, cytoskeleton, cilium axoneme"
     },
     {
       "gene": "FSIP2",
@@ -9057,7 +9348,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "HSPA4L",
@@ -9088,7 +9380,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "IFT46",
@@ -9119,7 +9412,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton, cilium basal body"
     },
     {
       "gene": "KCNU1",
@@ -9150,7 +9444,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Membrane"
     },
     {
       "gene": "KIF13A",
@@ -9181,7 +9476,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton"
     },
     {
       "gene": "KIF9",
@@ -9212,7 +9508,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "KLHL10",
@@ -9243,7 +9540,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "LANCL1",
@@ -9274,7 +9572,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell membrane; Cytoplasm"
     },
     {
       "gene": "ODAD4",
@@ -9305,7 +9604,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "PLPP3",
@@ -9336,7 +9636,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "POC1B",
@@ -9367,7 +9668,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "PSMC4",
@@ -9398,7 +9700,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "PSMD11",
@@ -9429,7 +9732,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "PTPN23",
@@ -9460,7 +9764,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "REEP6",
@@ -9491,7 +9796,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasmic vesicle, clathrin-coated vesicle membrane; Endoplasmic reticulum membrane; Membrane"
     },
     {
       "gene": "ROPN1",
@@ -9522,7 +9828,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell projection, cilium, flagellum"
     },
     {
       "gene": "RPAP3",
@@ -9553,7 +9860,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "SEPTIN12",
@@ -9584,7 +9892,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "SLC26A7",
@@ -9615,7 +9924,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "SPACA1",
@@ -9646,7 +9956,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasmic vesicle, secretory vesicle, acrosome inner membrane"
     },
     {
       "gene": "SPACA3",
@@ -9677,7 +9988,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasmic vesicle, secretory vesicle, acrosome membrane"
     },
     {
       "gene": "SPATA31A3",
@@ -9708,7 +10020,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Membrane"
     },
     {
       "gene": "SPATA31A5",
@@ -9739,7 +10052,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Membrane"
     },
     {
       "gene": "SPATA7",
@@ -9770,7 +10084,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "SPEF2",
@@ -9801,7 +10116,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "STK33",
@@ -9832,7 +10148,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "TOPAZ1",
@@ -9863,7 +10180,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytosol"
     },
     {
       "gene": "WDPCP",
@@ -9894,7 +10212,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "WDR19",
@@ -9925,7 +10244,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "IQCH",
@@ -9956,7 +10276,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "CFAP119",
@@ -9987,7 +10308,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "CFAP276",
@@ -10018,7 +10340,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "DYDC1",
@@ -10049,7 +10372,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton, flagellum axoneme"
     },
     {
       "gene": "NBPF8",
@@ -10080,7 +10404,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm"
     },
     {
       "gene": "ODF3L2",
@@ -10111,7 +10436,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "CCDC39",
@@ -10142,7 +10468,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "CCDC40",
@@ -10173,7 +10500,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "CNTRL",
@@ -10204,7 +10532,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "COASY",
@@ -10235,7 +10564,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "COX6A1",
@@ -10266,7 +10596,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "DYNLT1",
@@ -10297,7 +10628,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "EPHA6",
@@ -10328,7 +10660,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Membrane"
     },
     {
       "gene": "FAM161A",
@@ -10359,7 +10692,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton, cilium basal body; Cytoplasm, cytoskeleton, microtubule organizing center, centrosome, centriole"
     },
     {
       "gene": "G6PC1",
@@ -10390,7 +10724,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Endoplasmic reticulum membrane"
     },
     {
       "gene": "IFT57",
@@ -10421,7 +10756,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "IPO8",
@@ -10452,7 +10788,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "KIF1C",
@@ -10483,7 +10820,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "KIF20B",
@@ -10514,7 +10852,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton, spindle"
     },
     {
       "gene": "KIF21B",
@@ -10545,7 +10884,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell projection, axon; Cell projection, dendrite; Cell projection, growth cone; Cytoplasm, cytoskeleton; Cytoplasmic vesicle"
     },
     {
       "gene": "MAP1S",
@@ -10576,7 +10916,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "NUDT5",
@@ -10607,7 +10948,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "PPP3CB",
@@ -10638,7 +10980,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "PPP3CC",
@@ -10669,7 +11012,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "SPAG1",
@@ -10700,7 +11044,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "TSGA10",
@@ -10731,7 +11076,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton, microtubule organizing center, centrosome, centriole"
     },
     {
       "gene": "TUBG1",
@@ -10762,7 +11108,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "ULK3",
@@ -10793,7 +11140,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "AK8",
@@ -10824,7 +11172,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "C7orf33",
@@ -10855,7 +11204,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "C9orf24",
@@ -10886,7 +11236,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton; Nucleus; Cytoplasm; Mitochondrion; Cytoplasm, cytoskeleton, flagellum axoneme"
     },
     {
       "gene": "CAPN11",
@@ -10917,7 +11268,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "CFAP95",
@@ -10948,7 +11300,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "CLXN",
@@ -10979,7 +11332,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "ARMC9",
@@ -11010,7 +11364,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton, cilium basal body; Cytoplasm, cytoskeleton, microtubule organizing center, centrosome, centriole"
     },
     {
       "gene": "ATP5F1D",
@@ -11041,7 +11396,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "ODAD1",
@@ -11072,7 +11428,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "ODAD2",
@@ -11103,7 +11460,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "ACTRT3",
@@ -11134,7 +11492,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton; Cytoplasm; Nucleus"
     },
     {
       "gene": "ATP5MG",
@@ -11165,7 +11524,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Mitochondrion membrane"
     },
     {
       "gene": "C1orf100",
@@ -11196,7 +11556,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "C20orf85",
@@ -11227,7 +11588,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell projection, cilium"
     },
     {
       "gene": "C4orf17",
@@ -11258,7 +11620,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "SPACDR",
@@ -11289,7 +11652,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "ATP5PF",
@@ -11320,7 +11684,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "CATIP",
@@ -11351,7 +11716,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "DNAAF11",
@@ -11382,7 +11748,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "DNAI2",
@@ -11413,7 +11780,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton, cilium axoneme; Dynein axonemal particle"
     },
     {
       "gene": "PNPLA5",
@@ -11444,7 +11812,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "ADAM30",
@@ -11475,7 +11844,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Membrane"
     },
     {
       "gene": "ATP8A2",
@@ -11506,7 +11876,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell membrane; Golgi apparatus; Membrane; Photoreceptor inner segment membrane; Photoreceptor outer segment membrane"
     },
     {
       "gene": "CACNA2D4",
@@ -11537,7 +11908,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "DNAH17",
@@ -11568,7 +11940,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton, cilium axoneme"
     },
     {
       "gene": "ODAD3",
@@ -11599,7 +11972,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "ABHD2",
@@ -11630,7 +12004,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "ABLIM1",
@@ -11661,7 +12036,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm"
     },
     {
       "gene": "ACTL7A",
@@ -11692,7 +12068,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cytoplasm, cytoskeleton; Golgi apparatus; Cytoplasm; Nucleus; Cytoplasmic vesicle, secretory vesicle, acrosome"
     },
     {
       "gene": "ADGB",
@@ -11723,7 +12100,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "ART3",
@@ -11754,7 +12132,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell membrane"
     },
     {
       "gene": "ATAD3B",
@@ -11785,7 +12164,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "BBS5",
@@ -11816,7 +12196,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell projection, cilium membrane; Cytoplasm; Cytoplasm, cytoskeleton, cilium basal body; Cytoplasm, cytoskeleton, microtubule organizing center, centrosome, centriolar satellite"
     },
     {
       "gene": "CATSPER2",
@@ -11847,7 +12228,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Cell projection, cilium, flagellum membrane"
     },
     {
       "gene": "NDUFB4",
@@ -11878,7 +12260,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "Mitochondrion inner membrane"
     },
     {
       "gene": "ACRV1",
@@ -11909,7 +12292,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "AKAP3",
@@ -11940,7 +12324,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "ATP5F1A",
@@ -11971,7 +12356,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": "No subcellular location annotated"
     },
     {
       "gene": "AAAS",
@@ -12002,7 +12388,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "ABCB6",
@@ -12033,7 +12420,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "ABCC8",
@@ -12064,7 +12452,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "ACADM",
@@ -12095,7 +12484,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "ACADS",
@@ -12126,7 +12516,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "ACLY",
@@ -12157,7 +12548,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "AFG3L2",
@@ -12188,7 +12580,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "AIFM1",
@@ -12219,7 +12612,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "AK1",
@@ -12250,7 +12644,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "AK7",
@@ -12281,7 +12676,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "AKAP4",
@@ -12312,7 +12708,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "AKT1",
@@ -12343,7 +12740,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "ALMS1",
@@ -12374,7 +12772,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "ANK2",
@@ -12405,7 +12804,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "AQP9",
@@ -12436,7 +12836,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "ARL13B",
@@ -12467,7 +12868,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "ARL2",
@@ -12498,7 +12900,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "ARMS2",
@@ -12529,7 +12932,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "ARSA",
@@ -12560,7 +12964,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "ASIP",
@@ -12591,7 +12996,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "ATAD3A",
@@ -12622,7 +13028,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "ATG16L1",
@@ -12653,7 +13060,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "ATG7",
@@ -12684,7 +13092,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "ATOH7",
@@ -12715,7 +13124,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "ATP2A2",
@@ -12746,7 +13156,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "ATP6V0A2",
@@ -12777,7 +13188,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "BAD",
@@ -12808,7 +13220,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "BAG2",
@@ -12839,7 +13252,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "BBS4",
@@ -12870,7 +13284,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "BBS9",
@@ -12901,7 +13316,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "BCL2L1",
@@ -12932,7 +13348,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "BCS1L",
@@ -12963,7 +13380,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "BEST2",
@@ -12994,7 +13412,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "BOLL",
@@ -13025,7 +13444,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "BRAF",
@@ -13056,7 +13476,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "BSG",
@@ -13087,7 +13508,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CACNA1B",
@@ -13118,7 +13540,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CACNA1G",
@@ -13149,7 +13572,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CACNA1I",
@@ -13180,7 +13604,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CACNA1S",
@@ -13211,7 +13636,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CACNA2D2",
@@ -13242,7 +13668,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CACNA2D3",
@@ -13273,7 +13700,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CAMK2A",
@@ -13304,7 +13732,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CAMK2B",
@@ -13335,7 +13764,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CAMK2D",
@@ -13366,7 +13796,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CAMK2G",
@@ -13397,7 +13828,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CAPN2",
@@ -13428,7 +13860,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CASP8",
@@ -13459,7 +13892,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CATSPER1",
@@ -13490,7 +13924,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CAV1",
@@ -13521,7 +13956,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CBL",
@@ -13552,7 +13988,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CBLN1",
@@ -13583,7 +14020,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CC2D2A",
@@ -13614,7 +14052,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CCT2",
@@ -13645,7 +14084,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CCT5",
@@ -13676,7 +14116,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CDK1",
@@ -13707,7 +14148,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CDK2",
@@ -13738,7 +14180,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CDK5RAP2",
@@ -13769,7 +14212,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CENPJ",
@@ -13800,7 +14244,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CEP164",
@@ -13831,7 +14276,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CEP290",
@@ -13862,7 +14308,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CEP55",
@@ -13893,7 +14340,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CETN2",
@@ -13924,7 +14372,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CKLF",
@@ -13955,7 +14404,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CLIC4",
@@ -13986,7 +14436,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CLPX",
@@ -14017,7 +14468,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CLTC",
@@ -14048,7 +14500,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CNGA1",
@@ -14079,7 +14532,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CNGA3",
@@ -14110,7 +14564,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "COX5B",
@@ -14141,7 +14596,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CPS1",
@@ -14172,7 +14628,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CPTP",
@@ -14203,7 +14660,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CSNK1D",
@@ -14234,7 +14692,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CSNK2B",
@@ -14265,7 +14724,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CTNNA1",
@@ -14296,7 +14756,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CYB5R3",
@@ -14327,7 +14788,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CYC1",
@@ -14358,7 +14820,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "CYLD",
@@ -14389,7 +14852,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "DCDC2",
@@ -14420,7 +14884,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "DCTN1",
@@ -14451,7 +14916,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "DCTN2",
@@ -14482,7 +14948,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "DDB1",
@@ -14513,7 +14980,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "DIABLO",
@@ -14544,7 +15012,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "DLAT",
@@ -14575,7 +15044,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "DLD",
@@ -14606,7 +15076,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "DNAI1",
@@ -14637,7 +15108,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "DYNC1H1",
@@ -14668,7 +15140,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "DYNC2H1",
@@ -14699,7 +15172,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "DYNLL1",
@@ -14730,7 +15204,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "DYSF",
@@ -14761,7 +15236,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "EGFR",
@@ -14792,7 +15268,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "EML4",
@@ -14823,7 +15300,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "EPHA7",
@@ -14854,7 +15332,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "EYS",
@@ -14885,7 +15364,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "FAF1",
@@ -14916,7 +15396,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "GAPDHS",
@@ -14947,7 +15428,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "GLUL",
@@ -14978,7 +15460,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "GNAI1",
@@ -15009,7 +15492,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "GNAI3",
@@ -15040,7 +15524,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "GNAT1",
@@ -15071,7 +15556,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "GOPC",
@@ -15102,7 +15588,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "GPIHBP1",
@@ -15133,7 +15620,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "GRK1",
@@ -15164,7 +15652,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "GRK4",
@@ -15195,7 +15684,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "GZMB",
@@ -15226,7 +15716,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "HADHB",
@@ -15257,7 +15748,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "HIP1",
@@ -15288,7 +15780,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "HMGB2",
@@ -15319,7 +15812,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "HPRT1",
@@ -15350,7 +15844,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "HSPA1A",
@@ -15381,7 +15876,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "HSPA1B",
@@ -15412,7 +15908,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "HSPA1L",
@@ -15443,7 +15940,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "HSPA2",
@@ -15474,7 +15972,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "HSPA5",
@@ -15505,7 +16004,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "HSPA6",
@@ -15536,7 +16036,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "HSPA8",
@@ -15567,7 +16068,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "HUWE1",
@@ -15598,7 +16100,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "HYDIN",
@@ -15629,7 +16132,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "IFT20",
@@ -15660,7 +16164,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "IFT88",
@@ -15691,7 +16196,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "IL4I1",
@@ -15722,7 +16228,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "ITGB6",
@@ -15753,7 +16260,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "ITLN1",
@@ -15784,7 +16292,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "ITPR2",
@@ -15815,7 +16324,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "KDR",
@@ -15846,7 +16356,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "KIF11",
@@ -15877,7 +16388,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "KIF14",
@@ -15908,7 +16420,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "KIF17",
@@ -15939,7 +16452,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "KIF1B",
@@ -15970,7 +16484,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "KIF23",
@@ -16001,7 +16516,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "KIF2A",
@@ -16032,7 +16548,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "KIF3B",
@@ -16063,7 +16580,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "KIF4A",
@@ -16094,7 +16612,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "KIF5A",
@@ -16125,7 +16644,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "KIF5B",
@@ -16156,7 +16676,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "KIF5C",
@@ -16187,7 +16708,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "KLB",
@@ -16218,7 +16740,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "KLC1",
@@ -16249,7 +16772,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "LAP3",
@@ -16280,7 +16804,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "LDHC",
@@ -16311,7 +16836,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "LRPPRC",
@@ -16342,7 +16868,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "MAG",
@@ -16373,7 +16900,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "MAK",
@@ -16404,7 +16932,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "MAP1A",
@@ -16435,7 +16964,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "MAP1B",
@@ -16466,7 +16996,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "MAP2K2",
@@ -16497,7 +17028,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "MAP4",
@@ -16528,7 +17060,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "MAPT",
@@ -16559,7 +17092,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "MDM2",
@@ -16590,7 +17124,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "MERTK",
@@ -16621,7 +17156,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "MFF",
@@ -16652,7 +17188,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "MLF1",
@@ -16683,7 +17220,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "MOK",
@@ -16714,7 +17252,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "MPC1",
@@ -16745,7 +17284,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "MSH4",
@@ -16776,7 +17316,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "MT-CO1",
@@ -16807,7 +17348,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "MYO5A",
@@ -16838,7 +17380,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "NDRG1",
@@ -16869,7 +17412,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "NDUFS2",
@@ -16900,7 +17444,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "NDUFS3",
@@ -16931,7 +17476,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "NDUFS4",
@@ -16962,7 +17508,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "NSF",
@@ -16993,7 +17540,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "ODF1",
@@ -17024,7 +17572,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "ODF2",
@@ -17055,7 +17604,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "OFD1",
@@ -17086,7 +17636,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "PACRG",
@@ -17117,7 +17668,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "PAFAH1B1",
@@ -17148,7 +17700,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "PARK7",
@@ -17179,7 +17732,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "PCNT",
@@ -17210,7 +17764,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "PFKM",
@@ -17241,7 +17796,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "PGAM1",
@@ -17272,7 +17828,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "PGK1",
@@ -17303,7 +17860,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "PGK2",
@@ -17334,7 +17892,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "PGRMC1",
@@ -17365,7 +17924,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "PGS1",
@@ -17396,7 +17956,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "PHC1",
@@ -17427,7 +17988,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "PIK3R3",
@@ -17458,7 +18020,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "PKM",
@@ -17489,7 +18052,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "PLCB4",
@@ -17520,7 +18084,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "PPP1CA",
@@ -17551,7 +18116,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "PPP3CA",
@@ -17582,7 +18148,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "PRKAR2A",
@@ -17613,7 +18180,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "PRKCZ",
@@ -17644,7 +18212,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "PSMA6",
@@ -17675,7 +18244,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "PSMA7",
@@ -17706,7 +18276,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "PSMB5",
@@ -17737,7 +18308,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "PSMD10",
@@ -17768,7 +18340,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "PSMD2",
@@ -17799,7 +18372,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "PTEN",
@@ -17830,7 +18404,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "PTPRK",
@@ -17861,7 +18436,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "RAB11A",
@@ -17892,7 +18468,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "RAB27A",
@@ -17923,7 +18500,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "RANGAP1",
@@ -17954,7 +18532,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "RAPGEF4",
@@ -17985,7 +18564,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "RBM5",
@@ -18016,7 +18596,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "RCVRN",
@@ -18047,7 +18628,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "RP1",
@@ -18078,7 +18660,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "RP2",
@@ -18109,7 +18692,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "RPGR",
@@ -18140,7 +18724,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "RPS27A",
@@ -18171,7 +18756,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "RRAD",
@@ -18202,7 +18788,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "SCN10A",
@@ -18233,7 +18820,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "SCNN1A",
@@ -18264,7 +18852,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "SELENOP",
@@ -18295,7 +18884,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "SEPTIN2",
@@ -18326,7 +18916,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "SEPTIN4",
@@ -18357,7 +18948,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "SFN",
@@ -18388,7 +18980,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "SLC26A3",
@@ -18419,7 +19012,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "SLC2A2",
@@ -18450,7 +19044,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "SLC2A5",
@@ -18481,7 +19076,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "SLC8A3",
@@ -18512,7 +19108,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "SLC9A3R1",
@@ -18543,7 +19140,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "SORD",
@@ -18574,7 +19172,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "SPA17",
@@ -18605,7 +19204,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "SPAG6",
@@ -18636,7 +19236,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "SPZ1",
@@ -18667,7 +19268,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "SRPK2",
@@ -18698,7 +19300,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "SSBP1",
@@ -18729,7 +19332,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "STAT2",
@@ -18760,7 +19364,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "STAT4",
@@ -18791,7 +19396,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "STAT6",
@@ -18822,7 +19428,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "SUMO2",
@@ -18853,7 +19460,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "SUMO3",
@@ -18884,7 +19492,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "SUMO4",
@@ -18915,7 +19524,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "TCHP",
@@ -18946,7 +19556,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "THEG",
@@ -18977,7 +19588,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "TRIP13",
@@ -19008,7 +19620,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "TUBB",
@@ -19039,7 +19652,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "TUBB1",
@@ -19070,7 +19684,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "TUBB2A",
@@ -19101,7 +19716,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "TUBB2B",
@@ -19132,7 +19748,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "TUBB3",
@@ -19163,7 +19780,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "TUBB4A",
@@ -19194,7 +19812,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "UBA52",
@@ -19225,7 +19844,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "UBB",
@@ -19256,7 +19876,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "UBC",
@@ -19287,7 +19908,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "UBE2A",
@@ -19318,7 +19940,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "UBE2B",
@@ -19349,7 +19972,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "UBR4",
@@ -19380,7 +20004,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "USH2A",
@@ -19411,7 +20036,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "VCAN",
@@ -19442,7 +20068,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     },
     {
       "gene": "WDR5",
@@ -19473,7 +20100,8 @@
       "protein_full_name": "",
       "uniprot_id": "",
       "is_enzyme": false,
-      "if_status": "none"
+      "if_status": "none",
+      "uniprot_subcellular_location": ""
     }
   ]
 }

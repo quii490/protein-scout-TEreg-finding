@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 | NPEPL1 |
+| 蛋白名称 | Probable aminopeptidase NPEPL1 |
 | 别名 | KIAA1974 |
 | 蛋白全名 | Probable aminopeptidase NPEPL1 |
 | 蛋白大小 | 523 aa / 55.9 kDa |
@@ -89,6 +90,34 @@ PPI 网络中含多个核定位伙伴：THYN1 (database), ATRIP (DNA damage resp
 
 ### 4. 总体评价
 NPEPL1 是基于 HPA Approved Nucleoplasm + GO nucleus HDA 双源互证重新分类的核-胞质蛋白。此前因仅 GO HDA 单源核证据被拒绝，现 HPA 提供独立的 Approved 实验级核定位确认。蛋白功能为推测的氨基肽酶（Peptidase M17 family），结构预测优秀（pLDDT 94.3）。PPI 网络含多个核功能伙伴（ATRIP, MCMBP, PRPF19, TFCP2），与核定位一致。研究新颖性高（strict=12）。推荐为中等优先级 nucleus-cytoplasm 候选。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TFCP2 | BioGRID | 1 |
+| HMBS | BioGRID | 1 |
+| ATRIP | BioGRID | 1 |
+| COMMD4 | BioGRID | 1 |
+| CSTF1 | BioGRID | 1 |
+| GDA | BioGRID | 1 |
+| MCMBP | BioGRID | 1 |
+| NIF3L1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/17025/621_A5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/17025/621_A5_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/17025/612_A5_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/17025/612_A5_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/17025/615_A5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/17025/615_A5_2_blue_red_green.jpg)
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8NDH3

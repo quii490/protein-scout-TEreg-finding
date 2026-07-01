@@ -165,43 +165,38 @@ STRING 15 个预测互作，IntAct 15 个实验互作。调控相关配体占比
 - [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q9Y6K0
-- Protein Atlas: https://www.proteinatlas.org/search/CEPT1
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CEPT1
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9Y6K0
-- STRING: https://string-db.org/network/9606.CEPT1
-- Packet data timestamp: 2026-06-03 04:50:34
+### PPI 互作网络
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PCYT2 | STRING | 991 |
+| PISD | STRING | 972 |
+| PTDSS1 | STRING | 956 |
+| LPIN3 | STRING | 933 |
+| LCAT | STRING | 930 |
+| PLPP4 | STRING | 919 |
+| PLD3 | STRING | 919 |
+| TMEM189-UBE2V1 | STRING | 904 |
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q9Y6K0-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### TE 调控评估
 
-### SMART / UniProt domain
-| Source | Data |
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+HPA 检索: https://www.proteinatlas.org/search/CEPT1
+
+### PubMed
+
+**Count: 62**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q9Y6K0 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR000462;IPR043130;IPR048254;IPR014472; |
-| Pfam | PF01066; |
+| 42176270 | FOXA1-mediated CEPT1 deficiency in airway epithelium drives asthma via an ER stress-mitochondrial dysfunction axis. |
+| 42155267 | Integrated lipidomics and transcriptomics reveal different lipid profiles and metabolic pathways in cultured fats from porcine subcutaneous adipocytes |
+| 42059576 | Novel Carboline-Based Ferroptosis Inhibitor Ameliorates Acute Liver Injury by Remodeling Phosphatidylcholine. |
+| 41865720 | CTPS1 modulates mitophagy to propel diffuse large B-cell lymphoma via reshaping CEPT1-mediated phospholipid metabolism. |
+| 41693942 | Integrating transcriptome and proteome profiles to compare carcass and meat quality traits between Songliao and Songlei black pigs. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000134255-CEPT1/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| CAPZB | Opencell | false |
-| DCP1B | Opencell | false |
-| KLRB1 | Bioplex | false |
-| PGRMC1 | Opencell | false |
-| RPL5 | Opencell | false |
-| SPG21 | Intact | false |
-| TMEM14B | Intact | false |
-| TMEM263 | Bioplex | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

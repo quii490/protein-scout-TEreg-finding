@@ -1,18 +1,19 @@
 ---
 type: protein-evaluation
-gene: "BTBD7"
+gene: "B暂无数据7"
 date: 2026-05-29
 tags: [protein-scout, nuclear-protein, evaluation]
 status: scored
 ---
 
-## BTBD7 核蛋白评估报告
+## B暂无数据7 核蛋白评估报告
 
 ### 1. 基本信息
 
 | 项目 | 内容 |
 |------|------|
-| 基因名 / 别名 | BTBD7 / KIAA1340 |
+| 基因名 / 别名 | B暂无数据7 / KIAA1340 |
+| 蛋白名称 | BTB/POZ domain-containing protein 7 |
 | 蛋白大小 | 1132 aa / 124.5 kDa |
 | UniProt ID | Q9P203 |
 | 评估日期 | 2026-05-29 |
@@ -41,10 +42,10 @@ status: scored
 | Protein Atlas (IF) | Nucleoplasm (HPA Approved, RT-4) | Approved |
 | UniProt | Nucleus | 实验/GO注释 |
 
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/BTBD7/IF_images/RT4_1.jpg|RT-4]]
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/BTBD7/IF_images/RT4_2.jpg|RT-4]]
+![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/B暂无数据7/IF_images/RT4_1.jpg|RT-4]]
+![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/B暂无数据7/IF_images/RT4_2.jpg|RT-4]]
 
-**结论**: BTBD7 在 UniProt 中标注 Nucleus。含 BTB/POZ 结构域，该域常介导转录抑制因子的二聚化和共抑制因子招募。核定位评分 8。
+**结论**: B暂无数据7 在 UniProt 中标注 Nucleus。含 BTB/POZ 结构域，该域常介导转录抑制因子的二聚化和共抑制因子招募。核定位评分 8。
 
 #### 3.2 蛋白大小评估
 **评价**: 1132 aa (124.5 kDa)，位于 800-1200 aa 区间。蛋白偏大但仍在可操作范围。评分 8。
@@ -66,11 +67,11 @@ status: scored
 **评价**: 非常新颖 (PubMed 23 篇)。BTB/POZ 结构域与转录抑制密切相关，但在染色质调控方向的研究极少。评分 8。
 
 **关键文献**:
-1. Liu Y et al. (2023). "The Role of BTBD7 in Normal Development and Tumor Progression". *Technol Cancer Res Treat*. PMID: 37050886
+1. Liu Y et al. (2023). "The Role of B暂无数据7 in Normal Development and Tumor Progression". *Technol Cancer Res Treat*. PMID: 37050886
 2. Liu Y et al. (2018). "BTB/POZ domain-containing protein 7 is inversely associated with fibronectin expression in salivary adenoid cystic carcinoma". *Oral Surg Oral Med Oral Pathol Oral Radiol*. PMID: 29366608
 3. Chen J et al. (2020). "BTB domain-containing 7 predicts low recurrence and suppresses tumor progression by deactivating Notch1 signaling in breast cancer". *Breast Cancer Res Treat*. PMID: 32772271
 4. Tao YM et al. (2013). "BTB/POZ domain-containing protein 7: epithelial-mesenchymal transition promoter and prognostic biomarker of hepatocellular carcinoma". *Hepatology*. PMID: 23325674
-5. Chen B et al. (2021). "BTBD7 accelerates the epithelial-mesenchymal transition, proliferation and invasion of prostate cancer cells". *J BUON*. PMID: 34761624
+5. Chen B et al. (2021). "B暂无数据7 accelerates the epithelial-mesenchymal transition, proliferation and invasion of prostate cancer cells". *J BUON*. PMID: 34761624
 #### 3.4 三维结构分析
 
 | 指标 | 数值 |
@@ -81,7 +82,7 @@ status: scored
 | 可用 PDB 条目 | 无实验结构 |
 
 **PAE 图**:
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/BTBD7/BTBD7-PAE.png]]
+![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/B暂无数据7/B暂无数据7-PAE.png]]
 
 **评价**: AlphaFold pLDDT 60.6，43.6% >70。BTB 域区域可能有较好折叠。新颖基线 6。
 
@@ -147,9 +148,37 @@ status: scored
 
 **下一步建议**:
 - [ ] 表达 BTB 域
-- [ ] 确认 BTBD7 的转录抑制功能
+- [ ] 确认 B暂无数据7 的转录抑制功能
 - [ ] ChIP-seq 鉴定基因组靶点
 - [ ] 中等推荐
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SNAI2 | STRING | 773 |
+| CUL3 | BioGRID | 1 |
+| XPO1 | BioGRID | 1 |
+| RECQL4 | BioGRID | 1 |
+| NCL | BioGRID | 1 |
+| FASN | BioGRID | 1 |
+| YTHDC1 | BioGRID | 1 |
+| TOP3B | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/49926/1587_G2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/49926/1587_G2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/49926/1396_F2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/49926/1396_F2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/49926/808_D7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/49926/808_D7_2_blue_red_green.jpg)
+
 
 ### 5. 关键文献
 
@@ -157,9 +186,9 @@ status: scored
 2. Stogios PJ et al. (2005). 'Sequence and structural analysis of BTB domain proteins.' Genome Biol. PMID: 16207353
 
 ### 6. 数据来源
-- GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=BTBD7
-- Protein Atlas: https://www.proteinatlas.org/search/BTBD7
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22BTBD7%22
+- GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=B暂无数据7
+- Protein Atlas: https://www.proteinatlas.org/search/B暂无数据7
+- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22B暂无数据7%22
 - UniProt: https://www.uniprot.org/uniprotkb/Q9P203
 - STRING: https://string-db.org/
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9P203
@@ -168,16 +197,16 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
-![[BTBD7-PAE.png]]
+![[B暂无数据7-PAE.png]]
 
 PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/BTBD7/BTBD7-PAE.png]]
+![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/B暂无数据7/B暂无数据7-PAE.png]]
 
 <!-- DOMAIN_HUMANPPI_REPAIR_START -->
 ## Domain/SMART 与 humanPPI 补充（2026-06-07）
@@ -192,7 +221,7 @@ PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
 | Pfam | PF07707;PF00651; |
 
 ### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000011114-BTBD7/interaction
+Source: https://www.proteinatlas.org/ENSG00000011114-B暂无数据7/interaction
 
 | Partner | Datasets | AF3/HPA structure |
 |---|---|:--:|

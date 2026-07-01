@@ -171,6 +171,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NUBP1 | STRING | 922 |
+| CIAO1 | STRING | 885 |
+| NSFL1C | STRING | 830 |
+| RHOA | STRING | 722 |
+| CIAO2B | STRING | 717 |
+| MMS19 | STRING | 705 |
+| VBP1 | BioGRID | 1 |
+| RBBP6 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9Y5Y2
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000095906-NUBP2/subcellular

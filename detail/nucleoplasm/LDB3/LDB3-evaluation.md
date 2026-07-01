@@ -173,6 +173,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| BAG3 | STRING | 824 |
+| MBNL1 | STRING | 802 |
+| HSPA1A | BioGRID | 1 |
+| RHOA | BioGRID | 1 |
+| TFCP2 | BioGRID | 1 |
+| TP53 | BioGRID | 1 |
+| ACTN2 | BioGRID | 0 |
+| ALB | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白缺乏核/染色质定位证据，TE 调控潜力较低。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O75112
 - Protein Atlas: https://www.proteinatlas.org/search/LDB3

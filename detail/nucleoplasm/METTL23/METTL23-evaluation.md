@@ -167,6 +167,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| GABPA | STRING | 789 |
+| METTL22 | STRING | 716 |
+| BCL2L1 | BioGRID | 1 |
+| BAG6 | BioGRID | 1 |
+| CASP14 | BioGRID | 1 |
+| CSTA | BioGRID | 1 |
+| HSP90B1 | BioGRID | 1 |
+| CCAR2 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q86XA0
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000181038-METTL23/subcellular

@@ -180,6 +180,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| AFF4 | STRING | 998 |
+| AFF1 | STRING | 998 |
+| AF-4 | STRING | 998 |
+| MLLT1 | STRING | 997 |
+| MLLT3 | STRING | 997 |
+| CCNT1 | STRING | 992 |
+| ELL | STRING | 992 |
+| MEN | STRING | 992 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/28938/424_A1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/28938/424_A1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/28938/429_A1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/28938/429_A1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/28938/418_A1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/28938/418_A1_3_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9HB65
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000128886-ELL3/subcellular

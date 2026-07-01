@@ -310,6 +310,8 @@ def nav(prefix: str = "") -> str:
   <nav>
     <a href="{prefix}protein_index.html">总表</a>
     {category_links}
+    <a href="{prefix}centrosome/index.html">Centrosome</a>
+    <a href="{prefix}sperm/index.html">Sperm</a>
   </nav>
 </header>'''
 
@@ -359,8 +361,8 @@ def protein_rows(records: list[dict], prefix: str = "", annotations: dict[tuple[
         detail = detail_href(rec, prefix)
         if row_note:
             recommendation = f"{row_note}; {recommendation}" if recommendation else row_note
-        rows.append(f'''<tr class="{html.escape('row-' + row_class if row_class else '')}" title="{html.escape(row_note)}" data-gene="{html.escape(rec['gene'].lower())}" data-status="{html.escape(rec['status'])}" data-category="{html.escape(rec['category'])}" data-score="{score or ''}" data-nuclear-score="{nuclear or ''}">
-<td><a class="gene-link" href="{html.escape(detail)}">{html.escape(rec['gene'])}</a></td>
+        rows.append(f'''<tr class="{html.escape('row-' + row_class if row_class else '')}" title="{html.escape(row_note)}" data-gene="{html.escape(rec['gene'].lower())}" data-status="{html.escape(rec['status'])}" data-category="{html.escape(rec['category'])}" data-score="{score or ''}" data-nuclear-score="{nuclear or ''}" data-is-new="{'true' if rec.get('is_new') else 'false'}">
+<td><a class="gene-link" href="{html.escape(detail)}">{html.escape(rec['gene'])}</a>{' <span class="badge new-badge">NEW</span>' if rec.get('is_new') else ''}</td>
 <td>{badge(rec['status'], rec['status'] == 'scored')}</td>
 <td class="protein-name">{html.escape(protein_full_name)}</td>
 <td class="num">{html.escape(str(nuclear or ''))}</td>
@@ -384,6 +386,7 @@ def table_block(records: list[dict], prefix: str = "", annotations: dict[tuple[s
     <input type="search" data-search placeholder="搜索 Gene symbol" aria-label="搜索 Gene symbol">
     <select data-status-filter aria-label="按状态筛选"><option value="">全部状态</option><option value="scored">Scored</option><option value="rejected">Rejected</option></select>
     <select data-category-filter aria-label="按定位分类筛选"><option value="">全部定位分类</option></select>
+	    <select data-new-filter aria-label="按NEW筛选"><option value="">全部</option><option value="true">NEW</option></select>
     <button class="button" type="button" data-sort-score>按总分排序</button>
     <button class="button" type="button" data-sort-nuclear>按核定位排序</button>
     <button class="button ghost" type="button" data-clear>清除筛选</button>
@@ -428,6 +431,7 @@ input, select { min-height: 36px; border: 1px solid var(--line); border-radius: 
 table { width: 100%; border-collapse: separate; border-spacing: 0; font-size: 14px; } th, td { padding: 9px 10px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
 thead th { position: sticky; top: 0; background: #f3f5f8; color: #344054; font-size: 12px; text-transform: uppercase; letter-spacing: .04em; z-index: 2; }
 tr:hover td { background: #f8fbff; } .num { text-align: right; font-variant-numeric: tabular-nums; } .gene-link { font-weight: 760; } .protein-name { min-width: 220px; max-width: 380px; color: #344054; }
+.badge.new-badge { background: #dcfce7; color: #16a34a; font-size: 10px; margin-left: 4px; vertical-align: middle; }
 tr.row-danger td { background: #fff1f2; } tr.row-warning td { background: #fffbeb; } tr.row-highlight td { background: #eff6ff; } tr.row-muted td { color: #667085; background: #f8fafc; }
 tr.row-danger:hover td { background: #ffe4e6; } tr.row-warning:hover td { background: #fef3c7; } tr.row-highlight:hover td { background: #dbeafe; }
 .badges { display: flex; flex-wrap: wrap; gap: 5px; } .badge { display: inline-flex; align-items: center; min-height: 22px; padding: 2px 7px; border-radius: 999px; background: var(--chip); color: #344054; font-size: 12px; font-weight: 650; white-space: nowrap; } .badge.good { background: #dff6ed; color: var(--good); } .badge.muted { background: #f1f3f5; color: #98a2b3; }
@@ -451,6 +455,7 @@ def write_js() -> None:
     const search = panel.querySelector('[data-search]');
     const statusFilter = panel.querySelector('[data-status-filter]');
     const categoryFilter = panel.querySelector('[data-category-filter]');
+    const newFilter = panel.querySelector('[data-new-filter]');
     const clear = panel.querySelector('[data-clear]');
     const sortScore = panel.querySelector('[data-sort-score]');
     const sortNuclear = panel.querySelector('[data-sort-nuclear]');
@@ -465,9 +470,13 @@ def write_js() -> None:
       const q = (search?.value || '').trim().toLowerCase();
       const status = statusFilter?.value || '';
       const category = categoryFilter?.value || '';
+      const showNew = newFilter?.value || '';
       let shown = 0;
       rows.forEach((row) => {
-        const ok = (!q || row.dataset.gene.includes(q)) && (!status || row.dataset.status === status) && (!category || row.dataset.category === category);
+        const ok = (!q || row.dataset.gene.includes(q))
+          && (!status || row.dataset.status === status)
+          && (!category || row.dataset.category === category)
+          && (!showNew || row.dataset.isNew === showNew);
         row.hidden = !ok; if (ok) shown += 1;
       });
       if (visibleCount) visibleCount.textContent = String(shown);
@@ -480,8 +489,11 @@ def write_js() -> None:
       });
       sorted.forEach((row) => tbody.appendChild(row));
     }
-    search?.addEventListener('input', apply); statusFilter?.addEventListener('change', apply); categoryFilter?.addEventListener('change', apply);
-    clear?.addEventListener('click', () => { if (search) search.value = ''; if (statusFilter) statusFilter.value = ''; if (categoryFilter) categoryFilter.value = ''; apply(); });
+    search?.addEventListener('input', apply);
+    statusFilter?.addEventListener('change', apply);
+    categoryFilter?.addEventListener('change', apply);
+    newFilter?.addEventListener('change', apply);
+    clear?.addEventListener('click', () => { if (search) search.value = ''; if (statusFilter) statusFilter.value = ''; if (categoryFilter) categoryFilter.value = ''; if (newFilter) newFilter.value = ''; apply(); });
     sortScore?.addEventListener('click', () => sortBy('score'));
     sortNuclear?.addEventListener('click', () => sortBy('nuclearScore'));
     apply();
@@ -511,7 +523,7 @@ def build_home(meta: dict, records: list[dict], annotations: dict[tuple[str, str
   <section class="hero"><div><h1>Protein Scout / TEreg Finding Atlas</h1><p class="lede">基于现有总表和 detail 报告生成的静态网页，用于浏览 TE regulation 候选蛋白的评分、定位分类、PubMed 数量和完整评估报告。</p></div><div class="panel"><h2>筛选重点</h2><p>综合核定位、蛋白大小、研究新颖性、三维结构、调控结构域、PPI 网络和互证加分；表格默认按总分降序。</p></div></section>
   <section class="stats-grid">{stat_cards}</section>
   <section class="panel"><h2>当前数据状态</h2><p>Excel coverage: 4,756/4,756。已知非阻塞 backlog: 832 need reharvest、43 duplicate conflicts、pre-existing gate errors。</p></section>
-  <section class="panel"><h2>浏览</h2><div class="nav-grid"><a class="button primary" href="protein_index.html">全部蛋白</a>{nav_buttons}</div></section>
+  <section class="panel"><h2>浏览</h2><div class="nav-grid"><a class="button primary" href="protein_index.html">全部蛋白</a>{nav_buttons}<a class="button" href="centrosome/index.html">Centrosome 模块</a><a class="button" href="sperm/index.html">Sperm 模块</a></div></section>
   <h2>高分候选预览</h2>{table_block(preview, '', annotations)}
 </main>'''
     (DOCS / "index.html").write_text(html_page("首页", body, 0, "home"), encoding="utf-8")

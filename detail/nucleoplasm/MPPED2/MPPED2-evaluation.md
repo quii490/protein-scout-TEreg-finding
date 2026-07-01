@@ -164,6 +164,34 @@ status: scored
 - [ ] 构建表达载体进行功能研究
 - [ ] Co-IP/MS 鉴定互作蛋白
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TRIP13 | BioGRID | 0 |
+| RXRG | BioGRID | 0 |
+| VAC14 | BioGRID | 0 |
+| CAGE1 | BioGRID | 0 |
+| FAM72A | BioGRID | 0 |
+| NOTCH3 | BioGRID | 0 |
+| NR2F6 | BioGRID | 0 |
+| MPPED1 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/62575/1576_D2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/62575/1576_D2_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/62575/1393_A3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/62575/1393_A3_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/62575/1287_D5_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/62575/1287_D5_5_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=MPPED2
 - Protein Atlas: https://www.proteinatlas.org/MPPED2
@@ -178,9 +206,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[MPPED2-PAE.png]]
 

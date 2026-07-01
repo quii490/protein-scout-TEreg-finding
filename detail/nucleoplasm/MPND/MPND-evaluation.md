@@ -167,6 +167,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PSMD4 | STRING | 821 |
+| FAU | STRING | 785 |
+| PSMD13 | STRING | 752 |
+| ADRM1 | STRING | 751 |
+| PSMD3 | STRING | 723 |
+| USP30 | BioGRID | 1 |
+| USP36 | BioGRID | 1 |
+| CD3EAP | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8N594
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000008382-MPND/subcellular

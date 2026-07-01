@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 | ACBD6 |
+| 蛋白名称 | Acyl-CoA-binding domain-containing protein 6 |
 | 蛋白全名 | Acyl-CoA-binding domain-containing protein 6 |
 | 蛋白大小 | 282 aa / 31.2 kDa |
 | UniProt ID | Q9BR61 |
@@ -80,6 +81,24 @@ UniProt 记录 NMT1(7 experiments) 与 NMT2(18 experiments)。STRING 对 NMT2(sc
 
 ### 4. 总体评价
 ACBD6 是有实验证据的核-胞质蛋白，主要功能偏脂质/蛋白 acylation 与 myristoylation 调控。它不是典型染色质因子，但核定位证据足够，不应 rejected。建议作为中等优先级核-胞质候选保留。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| IKBKG | BioGRID | 1 |
+| APP | BioGRID | 1 |
+| HSPB1 | BioGRID | 1 |
+| URM1 | BioGRID | 1 |
+| HOXC8 | BioGRID | 1 |
+| HIF1AN | BioGRID | 1 |
+| HES6 | BioGRID | 1 |
+| FAS | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9BR61

@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | BAHD1 / KIAA0945 |
+| 蛋白名称 | Bromo adjacent homology domain-containing 1 protein |
 | 蛋白大小 | 780 aa / 85.8 kDa |
 | UniProt ID | Q8TBE0 |
 | 评估日期 | 2026-05-29 |
@@ -118,7 +119,7 @@ status: scored
 
 
 **已知复合体成员** (GO Cellular Component):
-- （待补充：通过 GO 数据库查询该蛋白所属的已知复合体）
+- （暂无数据：通过 GO 数据库查询该蛋白所属的已知复合体）
 **评价**: PPI 显著富集转录抑制/染色质调控因子 (HDAC1/2, SIN3A)。与 BAH 结构域介导的 Polycomb 抑制功能一致。评分 6 (中等调控富集)。
 
 #### 3.7 多库互证
@@ -160,6 +161,20 @@ status: scored
 - [ ] 探究 BAHD1-HDAC 复合体的染色质调控机制
 - [ ] 强烈推荐作为染色质调控研究靶标
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SUV39H1 | STRING | 924 |
+| SIRT1 | STRING | 906 |
+| SIRT2 | STRING | 904 |
+| RRP8 | STRING | 900 |
+| ZNF282 | STRING | 810 |
+| HDAC1 | STRING | 801 |
+| MIER3 | STRING | 796 |
+| ATXN7L3 | STRING | 772 |
+
+
 ### 5. 关键文献
 
 1. Bierne H et al. (2009). 'Human BAHD1 promotes heterochromatic gene silencing.' PNAS. PMID: 19666538
@@ -177,9 +192,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[BAHD1-PAE.png]]
 

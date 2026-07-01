@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | FOXB1 |
+| 蛋白名称 | Forkhead box protein B1 |
 | 蛋白大小 | 325 aa |
 | UniProt ID | Q99853 (Forkhead box protein B1) |
 | 评估日期 | 2026-05-30 |
@@ -164,6 +165,24 @@ status: scored
 - [ ] 通过 co-IP/MS 验证 PPI 网络
 - [ ] ChIP-seq 检查 FOXB1 在 TE 区域的 occupancy
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PHF5A | BioGRID | 1 |
+| TRIM27 | BioGRID | 1 |
+| YARS | BioGRID | 1 |
+| DDX39A | BioGRID | 1 |
+| SCRIB | BioGRID | 1 |
+| TLE3 | BioGRID | 1 |
+| ARID3A | BioGRID | 1 |
+| GTF3C1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q99853
 - Protein Atlas: https://www.proteinatlas.org/search/FOXB1
@@ -175,9 +194,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[FOXB1-PAE.png]]
 

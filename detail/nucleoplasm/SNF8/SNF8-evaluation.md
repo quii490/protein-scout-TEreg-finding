@@ -174,3 +174,32 @@ Source: https://www.proteinatlas.org/ENSG00000159210-SNF8/interaction
 | VPS25 | Intact, Biogrid, Opencell, Bioplex | true |
 | VPS36 | Intact, Biogrid, Opencell | true |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| VPS25 | BioGRID | 0 |
+| DVL2 | BioGRID | 0 |
+| NIF3L1 | BioGRID | 0 |
+| ELL | BioGRID | 0 |
+| SNF8 | BioGRID | 0 |
+| VPS36 | BioGRID | 0 |
+| CHMP6 | BioGRID | 0 |
+| VPS28 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q96H20-F1-predicted_aligned_error_v6.png)
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/59320/1239_B11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/59320/1239_B11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/59320/1016_B11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/59320/1016_B11_5_blue_red_green.jpg)
+

@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | CCDC110 / KMHN1 |
+| 蛋白名称 | Coiled-coil domain-containing protein 110 |
 | 蛋白全名 | Coiled-coil domain-containing protein 110 |
 | 蛋白大小 | 833 aa / 96.7 kDa |
 | UniProt ID | Q8TBZ0 |
@@ -184,6 +185,34 @@ status: scored
 - [ ] 获取 HPA IF 图像确认核定位
 - [ ] 查阅最新关键文献补充功能细节
 - [ ] 设计体外 DNA/染色质结合实验
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CUL3 | BioGRID | 1 |
+| XDH | BioGRID | 1 |
+| SF3B2 | BioGRID | 1 |
+| CFTR | BioGRID | 1 |
+| RLF | BioGRID | 1 |
+| CAND1 | BioGRID | 0 |
+| DEPTOR | BioGRID | 0 |
+| FADS2 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/71931/2058_F5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/71931/2058_F5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/71931/2118_H5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/71931/2118_H5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/71931/2118_G9_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/71931/2118_G9_3_blue_red_green.jpg)
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8TBZ0

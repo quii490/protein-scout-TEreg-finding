@@ -185,6 +185,16 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] TE 调控: SHLD1-53BP1 通路是否影响 TE 来源的 DNA 损伤
 - [ ] SHLD1 在非 DSB 条件下的染色质功能探索
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SHLD2 | STRING | 998 |
+| MAD2L2 | STRING | 997 |
+| TP53BP1 | STRING | 802 |
+| CTC1 | STRING | 785 |
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8IYI0
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8IYI0
@@ -195,9 +205,9 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[SHLD1-PAE.png]]
 

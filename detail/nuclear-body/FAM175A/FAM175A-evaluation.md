@@ -167,6 +167,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| BRCC3 | BioGRID | 0 |
+| BRE | BioGRID | 0 |
+| BABAM1 | BioGRID | 0 |
+| UIMC1 | BioGRID | 0 |
+| UBC | BioGRID | 0 |
+| BRCA1 | BioGRID | 0 |
+| BARD1 | BioGRID | 0 |
+| HSPA4 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/37654/750_D2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/37654/750_D2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/37654/822_H7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/37654/822_H7_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/37654/738_D2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/37654/738_D2_3_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q6UWZ7
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000163322-ABRAXAS1/subcellular

@@ -1,26 +1,26 @@
 ---
 type: protein-evaluation
-gene: "BTBD3"
+gene: "B暂无数据3"
 date: 2026-06-03
 tags: [protein-scout, nuclear-protein, evaluation]
 status: scored
 ---
 
-## BTBD3 核蛋白评估报告 (Full Re-evaluation)
+## B暂无数据3 核蛋白评估报告 (Full Re-evaluation)
 
 ### 1. 基本信息
 
 | 项目 | 内容 |
 |------|------|
-| 基因名 / 别名 | BTBD3 / KIAA0952 |
+| 基因名 / 别名 | B暂无数据3 / KIAA0952 |
 | 蛋白名称 | BTB/POZ domain-containing protein 3 |
 | 蛋白大小 | 522 aa / 58.4 kDa |
 | UniProt ID | Q9Y2F9 |
 | 评估日期 | 2026-06-03 |
 
 **IF 图像**:
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/BTBD3/IF_images/A-431_1.jpg|A-431]]
-![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/BTBD3/IF_images/U-251MG_1.jpg|U-251MG]]
+![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/B暂无数据3/IF_images/A-431_1.jpg|A-431]]
+![[Projects/TEreg-finding/protein-interested/detail/nucleoplasm/B暂无数据3/IF_images/U-251MG_1.jpg|U-251MG]]
 
 ### 2. 评分总览
 
@@ -68,7 +68,7 @@ status: scored
 **关键文献**:
 1. Btbd3 expression regulates compulsive-like and exploratory behaviors in mice.. *Translational psychiatry*. PMID: 31501410
 2. [Whole-transcriptome sequencing analysis of placental differential miRNA expression profile in Down syndrome].. *Nan fang yi ke da xue xue bao = Journal of Southern Medical University*. PMID: 35426807
-3. E3 ubiquitin ligase BTBD3 inhibits tumorigenesis of colorectal cancer by regulating the TYRO3/Wnt/β-catenin signaling axis.. *Cancer cell international*. PMID: 39227913
+3. E3 ubiquitin ligase B暂无数据3 inhibits tumorigenesis of colorectal cancer by regulating the TYRO3/Wnt/β-catenin signaling axis.. *Cancer cell international*. PMID: 39227913
 4. Typing characteristics of metabolism-related genes in osteoporosis.. *Frontiers in pharmacology*. PMID: 36188607
 5. Genetic Dissection of Temperament Personality Traits in Italian Isolates.. *Genes*. PMID: 35052345
 
@@ -111,7 +111,7 @@ status: scored
 | CUL3 | 0.491 | 0.456 | — |
 | TASP1 | 0.485 | 0.000 | — |
 | GMEB2 | 0.462 | 0.000 | — |
-| BTBD6 | 0.449 | 0.437 | — |
+| B暂无数据6 | 0.449 | 0.437 | — |
 | KIF16B | 0.443 | 0.000 | — |
 | SYT1 | 0.432 | 0.000 | — |
 | NAA25 | 0.421 | 0.000 | — |
@@ -129,7 +129,7 @@ status: scored
 | MEOX2 | psi-mi:"MI:1356"(validated two hybrid) | pubmed:32296183|imex:IM-25472 |
 | SUMO1 | psi-mi:"MI:1356"(validated two hybrid) | pubmed:32296183|imex:IM-25472 |
 | RNF4 | psi-mi:"MI:1356"(validated two hybrid) | pubmed:32296183|imex:IM-25472 |
-| BTBD6 | psi-mi:"MI:0397"(two hybrid array) | pubmed:32296183|imex:IM-25472 |
+| B暂无数据6 | psi-mi:"MI:0397"(two hybrid array) | pubmed:32296183|imex:IM-25472 |
 | CUL3 | psi-mi:"MI:1356"(validated two hybrid) | pubmed:32296183|imex:IM-25472 |
 
 **PPI 互证分析**:
@@ -159,7 +159,7 @@ status: scored
 **推荐等级**: ⭐⭐⭐⭐
 
 **核心优势**:
-1. BTBD3 — BTB/POZ domain-containing protein 3，极度新颖，几乎未被系统研究（PubMed ≤20篇）。
+1. B暂无数据3 — BTB/POZ domain-containing protein 3，极度新颖，几乎未被系统研究（PubMed ≤20篇）。
 2. 蛋白大小522 aa，大小适中（200-800 aa），适合常规生化实验和结构解析。
 
 **风险/不确定性**:
@@ -172,10 +172,28 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ELAVL1 | BioGRID | 1 |
+| TRIM25 | BioGRID | 1 |
+| CUL3 | BioGRID | 1 |
+| RNF4 | BioGRID | 1 |
+| UBE2I | BioGRID | 1 |
+| MEOX2 | BioGRID | 1 |
+| SUMO1 | BioGRID | 1 |
+| B暂无数据3 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9Y2F9
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000132640-BTBD3/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=BTBD3
+- Protein Atlas: https://www.proteinatlas.org/ENSG00000132640-B暂无数据3/subcellular
+- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=B暂无数据3
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9Y2F9
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Packet data timestamp: 2026-06-03 04:18:12
@@ -199,7 +217,7 @@ status: scored
 | Pfam | PF07707;PF00651;PF08005; |
 
 ### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000132640-BTBD3/interaction
+Source: https://www.proteinatlas.org/ENSG00000132640-B暂无数据3/interaction
 
 | Partner | Datasets | AF3/HPA structure |
 |---|---|:--:|

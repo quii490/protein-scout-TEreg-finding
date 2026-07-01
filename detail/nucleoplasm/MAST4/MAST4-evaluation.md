@@ -164,6 +164,34 @@ status: scored
 - [ ] 构建表达载体进行功能研究
 - [ ] Co-IP/MS 鉴定互作蛋白
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SMAD1 | BioGRID | 0 |
+| NINL | BioGRID | 0 |
+| BICD2 | BioGRID | 0 |
+| ANKFY1 | BioGRID | 0 |
+| CLIP1 | BioGRID | 0 |
+| CLTA | BioGRID | 0 |
+| MAPRE1 | BioGRID | 0 |
+| MAPRE3 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/544/60_A1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/544/60_A1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/544/61_A1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/544/61_A1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/544/59_A1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/544/59_A1_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=MAST4
 - Protein Atlas: https://www.proteinatlas.org/MAST4
@@ -178,9 +206,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[MAST4-PAE.png]]
 

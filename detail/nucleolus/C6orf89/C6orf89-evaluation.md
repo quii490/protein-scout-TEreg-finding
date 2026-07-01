@@ -161,6 +161,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PTRHD1 | BioGRID | 1 |
+| RNF4 | BioGRID | 1 |
+| YTHDC1 | BioGRID | 1 |
+| FBXO6 | BioGRID | 0 |
+| C6orf89 | BioGRID | 0 |
+| HTR3A | BioGRID | 0 |
+| TUSC5 | BioGRID | 0 |
+| DDX58 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白的 GO-CC 注释中缺乏染色质/TE 沉默相关定位，TE 调控潜力较低。不建议作为 TE 调控优先靶标。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q6UWU4
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000198663-C6orf89/subcellular

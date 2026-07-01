@@ -72,6 +72,10 @@ status: accepted
 
 434 aa -- within the ideal range for biochemical, structural, and cell-based approaches. Score: 10/10.
 
+### TE 调控评估
+
+该蛋白缺乏核/染色质定位证据，TE 调控潜力较低。
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

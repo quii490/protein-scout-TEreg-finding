@@ -199,3 +199,22 @@ Source: https://www.proteinatlas.org/ENSG00000111144-LTA4H/interaction
 | SAR1B | Opencell | false |
 | TINF2 | Intact | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ALOX5 | STRING | 992 |
+| LTB4R2 | STRING | 892 |
+| NOP9 | STRING | 892 |
+| TRIT1 | STRING | 886 |
+| DDA1 | BioGRID | 1 |
+| HDAC5 | BioGRID | 1 |
+| ELAVL1 | BioGRID | 1 |
+| SIRT7 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。

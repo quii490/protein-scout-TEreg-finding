@@ -16,6 +16,16 @@ status: scored
 ## 基本信息
 
 | 属性 | 值 |
+
+### 基本信息
+
+| 项目 | 内容 |
+|---|---|
+| 基因名 | ADAT3 |
+| 蛋白名称 | tRNA-specific adenosine-34 deaminase regulatory subunit ADAT3 |
+| UniProt ID | Q96EY9 |
+| 蛋白大小 | 367 aa |
+
 |------|-----|
 | UniProt ID | Q96EY9 |
 | 蛋白质名称 | tRNA-specific adenosine-34 deaminase regulatory subunit ADAT3 |
@@ -196,3 +206,20 @@ Source: https://www.proteinatlas.org/ENSG00000213638-ADAT3/interaction
 
 未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ADAT2 | STRING | 999 |
+| ADAT1 | STRING | 953 |
+| SMUG1 | STRING | 846 |
+| RP11-311P8.3 | STRING | 770 |
+| UPRT | STRING | 770 |
+| WDR4 | STRING | 760 |
+| FTSJ1 | STRING | 729 |
+| ADAR | STRING | 706 |
+
+
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q96EY9-F1-predicted_aligned_error_v6.png)

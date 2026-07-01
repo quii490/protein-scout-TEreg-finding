@@ -162,6 +162,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| BOP1 | STRING | 978 |
+| WDR12 | STRING | 963 |
+| FTSJ3 | STRING | 959 |
+| PES1 | STRING | 958 |
+| NOC2L | STRING | 945 |
+| MRTO4 | STRING | 941 |
+| GTPBP4 | STRING | 938 |
+| NIP7 | STRING | 932 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q17RG1
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000168676-KCTD19/subcellular

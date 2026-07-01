@@ -185,6 +185,24 @@ _notes: "PubMed=2 (<100) → 基线提升: 结3→5, 域5→6; HPA Supported→�
 - [ ] 尝试 Alphafold-multimer 预测 FYTTD1-TREX 复合体结构
 - [ ] 在 MCF-7 细胞中做 IF 验证 nuclear speckle 定位
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SHBG | BioGRID | 0 |
+| DDX39B | BioGRID | 0 |
+| NXF1 | BioGRID | 0 |
+| HTATSF1 | BioGRID | 0 |
+| NCL | BioGRID | 0 |
+| SSRP1 | BioGRID | 0 |
+| FYTTD1 | BioGRID | 0 |
+| TUBB | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
 ### 5. 关键文献
 
 1. Hautbergue GM et al. (2009). "UIF, a New mRNA export adaptor that works together with REF/ALY, requires FACT for recruitment to mRNA". *Curr Biol*, 19(22):1918-24. PMID: 19836239
@@ -205,9 +223,9 @@ _notes: "PubMed=2 (<100) → 基线提升: 结3→5, 域5→6; HPA Supported→�
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 
 PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。

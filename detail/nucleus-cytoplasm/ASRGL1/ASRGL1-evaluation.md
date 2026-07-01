@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | ASRGL1 / ALP, CRASH |
+| 蛋白名称 | Isoaspartyl peptidase/L-asparaginase |
 | 蛋白全名 | Isoaspartyl peptidase/L-asparaginase |
 | 蛋白大小 | 308 aa / 32.1 kDa |
 | UniProt ID | Q7L266 (ASRGL1_HUMAN) |
@@ -53,6 +54,47 @@ status: scored
 3. PMID 40320045: Pei Y, Li C, Zhang B (2025 Aug). "Single-cell transcriptomics and metabolomics reveal the potential role of ASRGL1 in metabolic reprogramming and invasion of nasopharyngeal carcinoma cells.." *The international journal of biochemistry & cell biology*.
 4. PMID 38972163: Loukovaara MJ, Huvila JK, Pasanen AM (2024 Sep). "Asparaginase-like protein 1 as a prognostic tissue biomarker in clinicopathologically and molecularly characterized endometrial cancer.." *European journal of obstetrics, gynecology, and reproductive biology*.
 5. PMID 36572570: Wang X, Wang Y, Yang L (2023 Jul). "ASRGL1 downregulation suppresses hepatocellular carcinoma tumorigenesis in a CDK1-dependent manner.." *Digestive and liver disease : official journal of the Italian Society of Gastroenterology and the Italian Association for the Study of the Liver*.
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| GOT1 | STRING | 927 |
+| ASS1 | STRING | 906 |
+| ASPA | STRING | 905 |
+| CAD | STRING | 904 |
+| ASPDH | STRING | 800 |
+| GSK3B | BioGRID | 1 |
+| NMI | BioGRID | 1 |
+| MDM4 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/29725/274_D12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29725/274_D12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29725/273_D12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29725/273_D12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29725/275_D12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29725/275_D12_1_blue_red_green.jpg)
+
+
+### PubMed
+
+**Count: 59**
+
+| PMID | Title |
+|---|---|
+| 41976117 | In Vitro Cytotoxic Activity of Coleus hadiensis Methanolic Extract: Metabolic and Transcriptomic Effects in Lung Cancer Cell Line. |
+| 41959564 | Asparaginase-like protein 1 and human endogenous retroviruses link immune and gene dysregulation in dementia. |
+| 41327383 | Integrative bioinformatics and machine learning approach unveils potential biomarkers linking coronary atherosclerosis and glutamine metabolism-associ |
+| 40783914 | [Immunological mechanism of non-obstructive azoospermia: An exploration based on bioinformatics and machine learning]. |
+| 40320045 | Single-cell transcriptomics and metabolomics reveal the potential role of ASRGL1 in metabolic reprogramming and invasion of nasopharyngeal carcinoma c |
+
 
 ### 5. AlphaFold 结构预测
 

@@ -165,6 +165,34 @@ status: scored
 - [ ] 构建表达载体进行功能研究
 - [ ] Co-IP/MS 鉴定互作蛋白
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RPL3 | STRING | 800 |
+| METTL21A | STRING | 743 |
+| METTL22 | STRING | 716 |
+| YAE1D1 | BioGRID | 1 |
+| HSP90AA1 | BioGRID | 1 |
+| HSPA4 | BioGRID | 1 |
+| GRWD1 | BioGRID | 1 |
+| ANXA6 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/35314/378_C6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35314/378_C6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35314/383_C6_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35314/383_C6_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35314/376_C6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35314/376_C6_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=METTL18
 - Protein Atlas: https://www.proteinatlas.org/METTL18
@@ -179,9 +207,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[METTL18-PAE.png]]
 

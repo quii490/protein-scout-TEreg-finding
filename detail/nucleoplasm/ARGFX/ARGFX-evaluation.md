@@ -14,6 +14,7 @@ _notes: "PubMed=16 (<100) → 基线提升: 结4→5; 域10已超基线6; 无HPA
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | ARGFX / Arginine-fifty homeobox |
+| 蛋白名称 | Arginine-fifty homeobox |
 | 蛋白大小 | 315 aa / 35.6 kDa |
 | UniProt ID | A6NJG6 |
 | 评估日期 | 2026-05-28 () / 2026-05-29 |
@@ -97,6 +98,24 @@ _notes: "PubMed=16 (<100) → 基线提升: 结4→5; 域10已超基线6; 无HPA
 - [ ] 在胚胎干细胞中建立诱导表达系统，检测转录组变化
 - [ ] 通过 IP-MS 鉴定真正的相互作用蛋白
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TPRX1 | STRING | 808 |
+| DUXB | STRING | 738 |
+| DUXA | STRING | 724 |
+| EP300 | BioGRID | 1 |
+| NUP43 | BioGRID | 1 |
+| CREBBP | BioGRID | 1 |
+| MLST8 | BioGRID | 1 |
+| DTL | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/A6NJG6
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000186103-ARGFX
@@ -109,9 +128,9 @@ _notes: "PubMed=16 (<100) → 基线提升: 结4→5; 域10已超基线6; 无HPA
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[ARGFX-PAE.png]]
 

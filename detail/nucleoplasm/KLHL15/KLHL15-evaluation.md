@@ -108,7 +108,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 | APOO | 0.605 | 0.000 | — |
 | ELP5 | 0.591 | 0.591 | — |
 | IL1RAPL1 | 0.537 | 0.091 | — |
-| KBTBD8 | 0.524 | 0.000 | — |
+| KB暂无数据8 | 0.524 | 0.000 | — |
 | ZBTB2 | 0.513 | 0.059 | — |
 | ACOT9 | 0.500 | 0.000 | — |
 
@@ -167,6 +167,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CUL3 | STRING | 915 |
+| RBBP8 | STRING | 855 |
+| COPS5 | BioGRID | 1 |
+| COPS6 | BioGRID | 1 |
+| CUL5 | BioGRID | 1 |
+| DCUN1D1 | BioGRID | 1 |
+| NEDD8 | BioGRID | 1 |
+| KLHL15 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96M94

@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | TSPYL2 / CDA1, DENTT, TSPX, SE20-4, HRIHFB2216, CTCL, CINAP |
+| 蛋白名称 | Testis-specific Y-encoded-like protein 2 |
 | 蛋白全名 | Testis-specific Y-encoded-like protein 2 |
 | 蛋白大小 | 693 aa / 79.4 kDa |
 | UniProt ID | Q9H2G4 |
@@ -129,6 +130,24 @@ status: scored
 TSPYL2 是极具吸引力的候选蛋白。NAP (Nucleosome Assembly Protein) 家族成员，具有 histone chaperone 功能。核定位证据强(Nucleus + Nucleolus + Nucleoplasm)，chromatin binding (IBA)。PPI 网络极其丰富: INO80B (chromatin remodeler)、KMT5B (H4K20me)、PHF19/AEBP2 (PRC2)、KDM5C (H3K4me3 demethylase)、ZMYND8 (chromatin reader/DNA damage)。CASK/TBR1/TSPYL2 转录调控复合体已在神经元中定义。DNA damage response 和 TGF-beta signaling 中的功能已被报道。缺点是无实验结构，AF pLDDT 偏低。
 
 **推荐**: 高优先级。NAP/histone chaperone + chromatin PPI 网络强大 + CASK/TBR1 转录复合体 + DNA damage response。虽然 AF 结构质量欠佳，但功能证据和 PPI 网络充分弥补。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TSPYL1 | STRING | 786 |
+| ZMYND8 | STRING | 783 |
+| ZNF687 | STRING | 774 |
+| TBR1 | STRING | 768 |
+| XBP1 | STRING | 754 |
+| JARID1C | STRING | 715 |
+| KDM5C | STRING | 715 |
+| CDC2 | STRING | 715 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprot/Q9H2G4

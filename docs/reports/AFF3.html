@@ -12,6 +12,8 @@
   <nav>
     <a href="../protein_index.html">总表</a>
     <a href="../category/nucleoplasm.html">Nucleoplasm</a><a href="../category/nucleus-cytoplasm.html">Nucleus-cytoplasm</a><a href="../category/nuclear-speckle.html">Nuclear speckle</a><a href="../category/nuclear-body.html">Nuclear body</a><a href="../category/nucleolus.html">Nucleolus</a><a href="../category/nuclear-envelope.html">Nuclear envelope</a><a href="../category/chromatin.html">Chromatin</a><a href="../category/rejected.html">Rejected</a>
+    <a href="../centrosome/index.html">Centrosome</a>
+    <a href="../sperm/index.html">Sperm</a>
   </nav>
 </header><main class="container report-shell"><section class="panel"><h1>AFF3</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">总分: 64.5</span><span class="badge">核定位: 7</span><a class="button small" href="../protein_index.html">蛋白总表</a><a class="button small" href="../category/nucleoplasm.html">分类页</a></div><p class="source-path">原始 detail 路径: detail/nucleoplasm/AFF3/AFF3-evaluation.md</p></section><article class="report-body"><hr>
 <p>type: protein-evaluation gene: &quot;AFF3&quot; date: 2026-05-29 tags: [protein-scout, nuclear-protein, evaluation] status: scored ---</p>
@@ -20,6 +22,7 @@
 <div class="table-wrap"><table>
 <thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
 <tr><td>基因名 / 别名</td><td>AFF3 / LAF4 (Lymphoid nuclear protein related to AF4)</td></tr>
+<tr><td>蛋白名称</td><td>AF4/FMR2 family member 3</td></tr>
 <tr><td>蛋白大小</td><td>1226 aa / ~135 kDa</td></tr>
 <tr><td>UniProt ID</td><td>P51826</td></tr>
 <tr><td>全称</td><td>AF4/FMR2 family member 3 (ALF transcription elongation factor 3)</td></tr>
@@ -146,6 +149,22 @@
 <p><strong>风险/不确定性</strong>: 1. <strong>高度无序、结构差</strong>：69.5% 残基 pLDDT &lt; 50，仅 C 端 245 aa 可折叠。无 PDB 实验结构。IDR 区域的生化表征困难但也是新机制（conditional folding, fuzzy binding）的潜力空间 2. <strong>缺乏经典 DNA 结合域</strong>：虽标注&quot;in vitro binds dsDNA&quot;，但 AF4/FMR2 家族域主要介导蛋白互作而非 DNA 结合，具体 DNA 识别机制不清 3. <strong>核体定位功能未知</strong>：U-251MG 中观察到核体定位（可能与 PML body 或其他核体相关），但该定位的功能意义完全未被研究</p>
 <p><strong>下一步建议</strong>:</p>
 <ul><li>[ ] 克隆并表达 C 端折叠域（976-1220 aa）用于结构生物学研究</li><li>[ ] ChIP-seq 确定 AFF3 在基因组上的结合位点，验证直接染色质结合</li><li>[ ] 通过 IDR 截短实验研究无序区域在 DNA 结合和 SEC 组装中的角色</li><li>[ ] 研究 AFF3 核体定位的功能（与其他核体蛋白如 PML/SP100 的共定位）</li></ul>
+<h4>PPI 互作网络</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>互作伙伴</th><th>来源</th><th>评分</th></tr></thead><tbody>
+<tr><td>MLLT3</td><td>STRING</td><td>964</td></tr>
+<tr><td>MLLT1</td><td>STRING</td><td>959</td></tr>
+<tr><td>CDK9</td><td>STRING</td><td>947</td></tr>
+<tr><td>EAF1</td><td>STRING</td><td>900</td></tr>
+<tr><td>AFF4</td><td>STRING</td><td>835</td></tr>
+<tr><td>ELL</td><td>STRING</td><td>834</td></tr>
+<tr><td>MEN</td><td>STRING</td><td>834</td></tr>
+<tr><td>ELL2</td><td>STRING</td><td>782</td></tr>
+</tbody></table></div>
+<h4>TE 调控评估</h4>
+<p>该蛋白有 ChIP-Seq 实验数据，可能在基因组水平参与 TE 调控。建议分析 ChIP 峰在 TE 区域的富集情况。</p>
+<h4>HPA IF 图像</h4>
+<p><figure><img src="https://images.proteinatlas.org/53379/826_C3_1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/53379/826_C3_2_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/53379/819_C3_1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/53379/819_C3_2_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/53379/809_C3_1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/53379/809_C3_2_blue_red_green.jpg" alt="image"></figure></p>
 <h4>5. 数据来源</h4>
 <ul><li>GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=AFF3</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000144218-AFF3/subcellular</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22AFF3%22%5BTitle/Abstract%5D</li><li>UniProt: https://www.uniprot.org/uniprotkb/P51826</li><li>Pfam/InterPro: https://www.ebi.ac.uk/interpro/protein/UniProt/P51826/</li><li>STRING: https://string-db.org/network/9606.ENSP00000386834</li><li>IntAct: https://www.ebi.ac.uk/intact/search?query=AFF3</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/P51826</li></ul>
 <p><figure><img src="../../detail/nucleoplasm/AFF3/AFF3-PAE.png" alt="AFF3-PAE.png"></figure></p>

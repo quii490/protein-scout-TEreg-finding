@@ -172,54 +172,38 @@ STRING 15 个预测互作，IntAct 15 个实验互作。调控相关配体占比
 - [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/O15182
-- Protein Atlas: https://www.proteinatlas.org/search/CETN3
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CETN3
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/O15182
-- STRING: https://string-db.org/network/9606.CETN3
-- Packet data timestamp: 2026-06-03 04:53:27
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Centrosome (supported)。来源: https://www.proteinatlas.org/ENSG00000153140-CETN3/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MCM3AP | STRING | 999 |
+| ENY2 | STRING | 999 |
+| PCID2 | STRING | 992 |
+| PISD | STRING | 982 |
+| CETN2 | STRING | 967 |
+| NUP153 | STRING | 949 |
+| TPR | STRING | 945 |
+| POC5 | STRING | 942 |
 
-![](https://images.proteinatlas.org/63704/1152_B2_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/63704/1152_B2_3_blue_red_green.jpg)
-![](https://images.proteinatlas.org/63704/1156_B2_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/63704/1156_B2_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/63704/1178_A11_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/63704/1178_A11_5_blue_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-O15182-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/CETN3
+
+### PubMed
+
+**Count: 39**
+
+| PMID | Title |
 |---|---|
-| UniProt | O15182 |
-| SMART | SM00054; |
-| UniProt Domain [FT] | DOMAIN 25..60; /note="EF-hand 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00448"; DOMAIN 61..96; /note="EF-hand 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00448"; DOMAIN 98..133; /note="EF-hand 3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00448"; DOMAIN 134..167; /note="EF-hand 4"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00448" |
-| InterPro | IPR050230;IPR011992;IPR018247;IPR002048; |
-| Pfam | PF13499; |
+| 40926052 | CETN3 deficiency induces microcephaly by disrupting neural stem/progenitor cell fate through impaired centrosome assembly and RNA splicing. |
+| 40696606 | Associations of 2923 plasma proteins with incident atopic dermatitis in a prospective cohort study and genetic analysis. |
+| 39694081 | Single-cell RNA sequencing unveils dynamic transcriptional profiles during the process of donkey spermatogenesis and maturation. |
+| 39310900 | Unraveling Shared Diagnostic Biomarkers of Fibromyalgia in Ankylosing Spondylitis: Evidence from Comprehensive Bioinformatic Analysis and Experimental |
+| 39220737 | Identification and Mendelian randomization validation of pathogenic gene biomarkers in obstructive sleep apnea. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000153140-CETN3/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| POC5 | Intact, Biogrid, Opencell, Bioplex | true |
-| XPC | Biogrid, Bioplex | true |
-| AGR2 | Intact | false |
-| ANKS6 | Opencell | false |
-| BCKDK | Biogrid | false |
-| CALM1 | Opencell | false |
-| CALM2 | Opencell | false |
-| CALM3 | Opencell | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

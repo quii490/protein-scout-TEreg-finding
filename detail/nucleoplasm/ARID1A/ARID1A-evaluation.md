@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | ARID1A / BAF250, BAF250A, SMARCF1, OSA1, C1orf4, hOSA1, p270, hELD |
+| 蛋白名称 | AT-rich interactive domain-containing protein 1A |
 | 蛋白大小 | 2285 aa / 242.0 kDa |
 | UniProt ID | O14497 |
 | 评估日期 | 2026-05-28 |
@@ -157,6 +158,30 @@ status: scored
 1. **SWI/SNF 核心亚基**：染色质重塑领域最重要的蛋白之一，功能机制深入阐明
 2. **PPI ，可设计针对性验证
 - [ ] 考虑研究 ARID1A 的相互作用伙伴或同家族的较小蛋白
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| DPF2 | STRING | 999 |
+| SMARCC1 | STRING | 999 |
+| SMARCD3 | STRING | 999 |
+| ARID1B | STRING | 999 |
+| ACTL6A | STRING | 999 |
+| SMARCD1 | STRING | 999 |
+| SMARCA4 | STRING | 999 |
+| SMARCE1 | STRING | 999 |
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/5456/5_F12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5456/5_F12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5456/6_F12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5456/6_F12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5456/4_F12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5456/4_F12_2_blue_red_green.jpg)
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O14497

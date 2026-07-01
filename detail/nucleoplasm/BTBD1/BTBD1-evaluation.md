@@ -1,18 +1,18 @@
 ---
 type: protein-evaluation
-gene: "BTBD1"
+gene: "B暂无数据1"
 date: 2026-06-03
 tags: [protein-scout, nuclear-protein, evaluation]
 status: scored
 ---
 
-## BTBD1 核蛋白评估报告 (Full Re-evaluation)
+## B暂无数据1 核蛋白评估报告 (Full Re-evaluation)
 
 ### 1. 基本信息
 
 | 项目 | 内容 |
 |------|------|
-| 基因名 / 别名 | BTBD1 / C15orf1, NS5ATP8 |
+| 基因名 / 别名 | B暂无数据1 / C15orf1, NS5ATP8 |
 | 蛋白名称 | BTB/POZ domain-containing protein 1 |
 | 蛋白大小 | 482 aa / 52.8 kDa |
 | UniProt ID | Q9H0C5 |
@@ -66,10 +66,10 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 
 **关键文献**:
 1. Development of small-molecule tropomyosin receptor kinase (TRK) inhibitors for NTRK fusion cancers.. *Acta pharmaceutica Sinica. B*. PMID: 33643817
-2. Identification and characterization of BTBD1, a novel BTB domain containing gene on human chromosome 15q24.. *Gene*. PMID: 11179693
-3. BTBD1 and BTBD2 colocalize to cytoplasmic bodies with the RBCC/tripartite motif protein, TRIM5delta.. *Experimental cell research*. PMID: 12878161
-4. Involvement of BTBD1 in mesenchymal differentiation.. *Experimental cell research*. PMID: 17462629
-5. The topoisomerase 1-interacting protein BTBD1 is essential for muscle cell differentiation.. *Cell death and differentiation*. PMID: 15486563
+2. Identification and characterization of B暂无数据1, a novel BTB domain containing gene on human chromosome 15q24.. *Gene*. PMID: 11179693
+3. B暂无数据1 and B暂无数据2 colocalize to cytoplasmic bodies with the RBCC/tripartite motif protein, TRIM5delta.. *Experimental cell research*. PMID: 12878161
+4. Involvement of B暂无数据1 in mesenchymal differentiation.. *Experimental cell research*. PMID: 17462629
+5. The topoisomerase 1-interacting protein B暂无数据1 is essential for muscle cell differentiation.. *Cell death and differentiation*. PMID: 15486563
 
 **评价**: 极度新颖，几乎未被系统研究（PubMed ≤20篇）。
 
@@ -114,14 +114,14 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 | COPS3 | 0.756 | 0.731 | — |
 | COPS2 | 0.750 | 0.688 | — |
 | COPS6 | 0.745 | 0.741 | — |
-| BTBD2 | 0.743 | 0.735 | — |
+| B暂无数据2 | 0.743 | 0.735 | — |
 
 **实验验证互作** (IntAct):
 
 | Partner | 方法 | PMID |
 |---------|------|------|
 | ENSP00000261721.4 | psi-mi:"MI:1356"(validated two hybrid) | pubmed:32296183|imex:IM-25472 |
-| BTBD2 | psi-mi:"MI:0416"(fluorescence microscopy) | pubmed:12878161|imex:IM-19632 |
+| B暂无数据2 | psi-mi:"MI:0416"(fluorescence microscopy) | pubmed:12878161|imex:IM-19632 |
 | TULP3 | psi-mi:"MI:0399"(two hybrid fragment pooling appro | pubmed:23414517|imex:IM-16425 |
 | COPS6 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | imex:IM-12079|pubmed:19615732 |
 | E2 | psi-mi:"MI:0018"(two hybrid) | pubmed:18305892|imex:IM-19324 |
@@ -158,7 +158,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 **推荐等级**: ⭐⭐⭐⭐
 
 **核心优势**:
-1. BTBD1 — BTB/POZ domain-containing protein 1，极度新颖，几乎未被系统研究（PubMed ≤20篇）。
+1. B暂无数据1 — BTB/POZ domain-containing protein 1，极度新颖，几乎未被系统研究（PubMed ≤20篇）。
 2. 蛋白大小482 aa，大小适中（200-800 aa），适合常规生化实验和结构解析。
 
 **风险/不确定性**:
@@ -171,16 +171,34 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CUL3 | STRING | 925 |
+| TOP1 | STRING | 911 |
+| TRIM5 | STRING | 903 |
+| UBE2M | STRING | 799 |
+| COPS5 | STRING | 781 |
+| LRR1 | STRING | 761 |
+| COPS3 | STRING | 756 |
+| COPS2 | STRING | 750 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9H0C5
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000064726-BTBD1/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=BTBD1
+- Protein Atlas: https://www.proteinatlas.org/ENSG00000064726-B暂无数据1/subcellular
+- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=B暂无数据1
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9H0C5
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Packet data timestamp: 2026-06-03 04:17:21
 
 <!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Cytoplasmic bodies (supported)。来源: https://www.proteinatlas.org/ENSG00000064726-BTBD1/subcellular
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Cytoplasmic bodies (supported)。来源: https://www.proteinatlas.org/ENSG00000064726-B暂无数据1/subcellular
 
 ![](https://images.proteinatlas.org/24263/1858_B7_28_cr5acdf3b1b578d_red_green.jpg)
 ![](https://images.proteinatlas.org/24263/1858_B7_6_cr5acdf3b1b2e70_red_green.jpg)
@@ -209,7 +227,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 | Pfam | PF07707;PF00651;PF08005; |
 
 ### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000064726-BTBD1/interaction
+Source: https://www.proteinatlas.org/ENSG00000064726-B暂无数据1/interaction
 
 | Partner | Datasets | AF3/HPA structure |
 |---|---|:--:|

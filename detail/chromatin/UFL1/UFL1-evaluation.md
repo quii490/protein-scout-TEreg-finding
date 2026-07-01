@@ -82,6 +82,24 @@ PPI 网络以 UFM1 通路为核心，CDK5RAP3-DDRGK1-UFL1 三聚体复合物实�
 ### 4. 总体评价
 UFL1 是 ufmylation 通路的核心 E3 连接酶，在 ER-phagy、核糖体回收和 DNA 损伤应答中发挥关键功能。优势在于 PDB 结构解析充分（9 个结构，包括全蛋白 Cryo-EM），PPI 网络以高置信度实验互作为主（CDK5RAP3-DDRGK1-UFL1 复合体）。主要不足：文献量高 (PM=92)，核定位仅为条件性/次要定位（主要是 ER 膜蛋白），HPA 无 IF 数据，核定位特异性低。考虑到其 DNA 损伤时被招募至染色质/DSB 的功能，归类为 chromatin 候选但信心较低。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CASP4 | BioGRID | 0 |
+| CDK5RAP3 | BioGRID | 0 |
+| ZNF622 | BioGRID | 0 |
+| FUS | BioGRID | 0 |
+| CCDC8 | BioGRID | 0 |
+| EGFR | BioGRID | 0 |
+| ABCE1 | BioGRID | 0 |
+| BSG | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O94874
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/O94874

@@ -167,34 +167,31 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q8WWB7
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000198715-GLMP/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=GLMP
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8WWB7
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PMAIP1 | STRING | 750 |
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q8WWB7-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-07）
+### TE 调控评估
 
-### SMART / UniProt domain
-| Source | Data |
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+HPA 检索: https://www.proteinatlas.org/search/GLMP
+
+### PubMed
+
+**Count: 27**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q8WWB7 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR029382; |
-| Pfam | PF15065; |
+| 42014657 | Development of a metabolic subtype classifier for low-grade glioma to guide precision therapy. |
+| 41976457 | Glucosamine Yield Improvement in Engineered Saccharomyces cerevisiae with Ethanol Yield Reduction by Carbon Flux Redistribution. |
+| 41298761 | GLMP promotes EGFR-TKI resistance by activating autophagy and RhoA pathway in non-small cell lung cancer. |
+| 40870696 | Engineered Saccharomyces cerevisiae for the Enhancement of Glucosamine Accumulation by the Consumption of Glucose and Ammonium Based on Synthetic Biol |
+| 40591496 | Multiomics analyses of the complex interplay between genetic variants, DNA methylation, and gene expression in COVID-19. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000198715-GLMP/interaction
 
-未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

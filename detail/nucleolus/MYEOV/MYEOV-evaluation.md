@@ -193,6 +193,34 @@ status: scored
 - [ ] Co-IP 验证 PPI
 - [ ] 功能实验验证染色质调控角色
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CCND1 | STRING | 792 |
+| TRIP13 | BioGRID | 1 |
+| DAZAP2 | BioGRID | 1 |
+| SUFU | BioGRID | 1 |
+| BAG6 | BioGRID | 1 |
+| UBL4A | BioGRID | 1 |
+| PCBP3 | BioGRID | 1 |
+| CFTR | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/12949/103_H2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/12949/103_H2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/12949/102_H2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/12949/102_H2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/12949/104_H2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/12949/104_H2_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprot/Q96EZ4
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q96EZ4

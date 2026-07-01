@@ -164,3 +164,24 @@ Source: https://www.proteinatlas.org/ENSG00000122481-RWDD3/interaction
 | HIF1A | Biogrid | false |
 | VHL | Biogrid | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| UBE2I | STRING | 991 |
+| SUMO1 | STRING | 753 |
+| NFKBIA | BioGRID | 1 |
+| HIF1A | BioGRID | 1 |
+| NXF1 | BioGRID | 1 |
+| VHL | BioGRID | 1 |
+| KIF20A | BioGRID | 1 |
+| PRC1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q9Y3V2-F1-predicted_aligned_error_v6.png)

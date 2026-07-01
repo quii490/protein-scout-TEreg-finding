@@ -164,6 +164,34 @@ HPA IF (Supported) + UniProt 实验级 (ECO:0000269) + GO IDA 三源核定位一
 - [ ] 探索 SFR1 在核仁的功能是否涉及 rDNA/TE 重复序列
 - [ ] ChIP-seq 检测 SFR1 在基因组上的结合位点
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SWI5 | STRING | 999 |
+| RAD51D | STRING | 923 |
+| RAD51C | STRING | 918 |
+| XRCC3 | STRING | 917 |
+| RAD51B | STRING | 916 |
+| RAD51L1 | STRING | 916 |
+| XRCC2 | STRING | 911 |
+| RAD51 | STRING | 802 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 实验数据，可能在基因组水平参与 TE 调控。建议分析 ChIP 峰在 TE 区域的富集情况。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/39617/460_H10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39617/460_H10_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39617/467_H10_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39617/467_H10_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39617/465_H10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39617/465_H10_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=SFR1
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000156384-SFR1

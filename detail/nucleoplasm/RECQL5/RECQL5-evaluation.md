@@ -84,6 +84,30 @@ PPI 网络极为丰富：以 RNA Pol II 全酶（POLR2A/G/D/M 强实验互作）
 ### 4. 总体评价
 RECQL5 为 RecQ 家族 DNA 解旋酶，核定位证据坚实（三源一致），结构数据极其丰富（25 个 PDB，含全长 cryo-EM），PPI 网络在 DNA 修复+转录领域广泛而深入。主要限制为 PubMed=70 文献量偏高（仍可接受）和蛋白较大（991 aa）。作为 RNA Pol II 转录延伸的直接结合伙伴和基因组稳定性关键因子，在 TE 调控与转录偶联的 DNA 损伤修复方面有潜在的交叉角色，值得进一步评估 TE 调控相关的可能功能。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| FANCM | STRING | 991 |
+| RAD51 | STRING | 947 |
+| TOP3A | STRING | 946 |
+| FBH1 | STRING | 938 |
+| FBXO18 | STRING | 938 |
+| RPRD1B | STRING | 930 |
+| POLR2G | STRING | 895 |
+| POLR2D | STRING | 892 |
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/29971/326_F5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29971/326_F5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29971/323_F5_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29971/323_F5_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29971/321_F5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29971/321_F5_3_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O94762
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/O94762

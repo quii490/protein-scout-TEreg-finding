@@ -170,6 +170,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SYF2 | STRING | 970 |
+| TFPT | STRING | 844 |
+| CCND1 | STRING | 769 |
+| ZNF334 | BioGRID | 1 |
+| DAPK1 | BioGRID | 1 |
+| SIRT6 | BioGRID | 1 |
+| COPS5 | BioGRID | 1 |
+| PAXIP1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/20664/1877_C7_1_cr5b76d518dc1f6_blue_red_green.jpg)
+![](https://images.proteinatlas.org/20664/1877_C7_26_cr5b76d518dcc5d_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41065/715_D2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41065/715_D2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41065/1848_D12_17_cr5abb7d925ad76_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41065/1848_D12_25_cr5abb7d925b5a9_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O95273
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000166946-CCNDBP1/subcellular

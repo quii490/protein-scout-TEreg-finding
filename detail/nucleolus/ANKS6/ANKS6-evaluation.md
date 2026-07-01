@@ -168,6 +168,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| APP | BioGRID | 0 |
+| NEK8 | BioGRID | 0 |
+| XPO1 | BioGRID | 0 |
+| ETS2 | BioGRID | 0 |
+| KIF11 | BioGRID | 0 |
+| ANKS3 | BioGRID | 0 |
+| NEK7 | BioGRID | 0 |
+| DDX1 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白的 GO-CC 注释中缺乏染色质/TE 沉默相关定位，TE 调控潜力较低。不建议作为 TE 调控优先靶标。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q68DC2
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000165138-ANKS6/subcellular

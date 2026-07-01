@@ -160,6 +160,34 @@ status: scored
 - [ ] 构建表达载体进行功能研究
 - [ ] Co-IP/MS 鉴定互作蛋白
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TBX6 | STRING | 936 |
+| TRAF1 | BioGRID | 1 |
+| ZMYND12 | BioGRID | 1 |
+| BRAT1 | BioGRID | 1 |
+| MYF5 | BioGRID | 1 |
+| ID2 | BioGRID | 1 |
+| ID3 | BioGRID | 1 |
+| ZWINT | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/67516/2205_G3_21_blue_red_green.jpg)
+![](https://images.proteinatlas.org/67516/2205_G3_22_blue_red_green.jpg)
+![](https://images.proteinatlas.org/67516/2205_G3_23_blue_red_green.jpg)
+![](https://images.proteinatlas.org/67516/2205_G3_24_blue_red_green.jpg)
+![](https://images.proteinatlas.org/67516/2205_G3_25_blue_red_green.jpg)
+![](https://images.proteinatlas.org/67516/2205_G3_31_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=MSGN1
 - Protein Atlas: https://www.proteinatlas.org/MSGN1
@@ -174,9 +202,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[MSGN1-PAE.png]]
 

@@ -113,7 +113,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 | BAG6 | 0.995 | 0.994 | — |
 | KCTD10 | 0.995 | 0.994 | — |
 | MAGED1 | 0.994 | 0.994 | — |
-| BTBD9 | 0.994 | 0.994 | — |
+| B暂无数据9 | 0.994 | 0.994 | — |
 | NSFL1C | 0.981 | 0.397 | — |
 
 **实验验证互作** (IntAct):
@@ -172,6 +172,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| UBXN7 | STRING | 999 |
+| VCP | STRING | 999 |
+| FAF1 | STRING | 999 |
+| TNFAIP1 | STRING | 995 |
+| KCTD10 | STRING | 995 |
+| BAG6 | STRING | 995 |
+| B暂无数据9 | STRING | 994 |
+| NSFL1C | STRING | 981 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q04323
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000162191-UBXN1/subcellular
@@ -221,5 +239,5 @@ Source: https://www.proteinatlas.org/ENSG00000162191-UBXN1/interaction
 | BARD1 | Biogrid | false |
 | BIRC3 | Biogrid | false |
 | BRCA1 | Biogrid | false |
-| BTBD9 | Biogrid | false |
+| B暂无数据9 | Biogrid | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->

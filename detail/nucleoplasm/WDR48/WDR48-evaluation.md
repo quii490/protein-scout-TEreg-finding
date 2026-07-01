@@ -163,6 +163,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| USP46 | STRING | 999 |
+| WDR20 | STRING | 999 |
+| USP1 | STRING | 999 |
+| FANCI | STRING | 998 |
+| RAD51AP1 | STRING | 995 |
+| FANCD2 | STRING | 978 |
+| FANCL | STRING | 957 |
+| RPS27A | STRING | 955 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8TAF3
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000114742-WDR48/subcellular

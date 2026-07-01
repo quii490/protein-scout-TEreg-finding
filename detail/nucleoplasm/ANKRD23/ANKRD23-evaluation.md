@@ -90,3 +90,36 @@ Source: https://www.proteinatlas.org/ENSG00000163126-ANKRD23/interaction
 | FAM90A1 | Intact | false |
 | GRB2 | Intact | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MYPN | BioGRID | 0 |
+| TTN | BioGRID | 0 |
+| HRAS | BioGRID | 0 |
+| KDM1A | BioGRID | 0 |
+| SMARCD1 | BioGRID | 0 |
+| PIBF1 | BioGRID | 0 |
+| ENKD1 | BioGRID | 0 |
+| HOOK1 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q86SG2-F1-predicted_aligned_error_v6.png)
+
+### PubMed
+
+**Count: 30**
+
+| PMID | Title |
+|---|---|
+| 42074286 | From Local Tissue Repair to Fibrosis: Deciphering Gene Co-Expression Networks in Benign Pulmonary Nodules and Idiopathic Pulmonary Fibrosis Comorbidit |
+| 41607670 | Shared and Sex-Specific Genetic Risk for Parkinson's Disease Risk Across European Populations. |
+| 39383190 | Interleukin 11 therapy causes acute left ventricular dysfunction. |
+| 35454655 | Preliminary Results about Lamb Meat Tenderness Based on the Study of Novel Isoforms and Alternative Splicing Regulation Pathways Using Iso-seq, RNA-se |
+| 34732131 | Weighted gene co-expression network-based approach to identify key genes associated with anthracycline-induced cardiotoxicity and construction of miRN |

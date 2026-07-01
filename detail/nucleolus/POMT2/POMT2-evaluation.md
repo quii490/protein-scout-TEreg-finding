@@ -171,7 +171,33 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| FKRP | STRING | 987 |
+| RXYLT1 | STRING | 862 |
+| CRPPA | STRING | 758 |
+| ANGEL1 | STRING | 754 |
+| TMEM92 | BioGRID | 1 |
+| MPPE1 | BioGRID | 1 |
+| HEXIM1 | BioGRID | 1 |
+| APEX1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### 深度机制分析
+
+POMT2编码蛋白O-甘露糖基转移酶2，是催化α-dystroglycan（α-DG）O-甘露糖基化的异源二聚体复合物POMT1-POMT2的核心催化亚基。其域架构由三个串联的MIR（蛋白O-甘露糖基转移酶中甘露糖基转移酶IP3R/RyR）结构域组成：MIR1（334-390位残基）、MIR2（403-459）和MIR3（464-521），均通过PROSITE-ProRule PRU00131鉴定。MIR结构域最初在IP3受体和ryanodine受体中发现，介导蛋白-蛋白相互作用和配体结合——在POMT2中，这些结构域可能参与底物识别、POMT1二聚化界面或内质网腔面的拓扑维持。IPR003342（MIR_dom_sf）和IPR036300（MIR_dom_sf）进一步确认这些结构域采用典型的α-β夹心折叠（SMART SM00472）。AlphaFold v6以极高置信度（pLDDT=87.5，有序区90.8%，高置信残基占66.8%）验证了这一多结构域架构，但PDB尚无实验结构覆盖。
+
+PPI网络呈现清晰的α-dystroglycan糖基化级联：STRING最高分互作（POMGNT1=0.998、POMT1=0.997、DAG1=0.992、FKRP=0.987、FKTN=0.986、POMGNT2=0.986）完美重述了从POMT1/2催化的初始O-甘露糖基化（核心M1/M2/M3结构）到POMGNT2添加GlcNAc、B3GALNT2添加GalNAc、再到FKRP/FKTN延伸磷酸核糖醇链的逐步修饰过程。这一级联的完整性对α-DG结合细胞外基质配体（laminin、agrin、perlecan）至关重要——POMT2突变导致Walker-Warburg综合征（PMID:16887026）和肢带型肌营养不良症R14（LGMD-R14，PMID:40102912、PMID:38357257）等严重先天性肌营养不良症。
+
+HPA IF图像将POMT2定位于核质（approved级别）并附加核仁、胞质信号，而UniProt将之锚定于内质网膜——这一表面矛盾需要机制层面予以调和。一种可能的解释是：POMT2在内质网中合成后，通过核膜（外层与粗面内质网连续）的非经典运输途径进入核质/核仁。核仁作为核糖体生物发生的枢纽，其高密度核糖核蛋白环境可能为POMT2提供了不同于ER的底物池——核仁中的新生蛋白是否需要O-甘露糖基化修饰目前尚无直接证据，但这是一个值得探索的课题。GO-CC注释中同时包含胞质（GO:0005829）、内质网（GO:0005783）和核质（GO:0005654）确认为其多区室分布提供了数据库支持。
+
+90篇文献奠定了较为扎实的功能基础，但POMT2在核质/核仁中的底物与功能几乎未被探索。若POMT2以核内新生蛋白或核糖核蛋白颗粒（RNPs）为底物，其介导的O-甘露糖基化可能构成一种全新的核内糖基化信号——类似于O-GlcNAc修饰在核质调控中的广泛作用。然而，目前缺乏任何实验证据支持这一假说，TE调控中转座子编码蛋白作为糖基化底物的可能性属于高度推测。
 - UniProt: https://www.uniprot.org/uniprotkb/Q9UKY4
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000009830-POMT2/subcellular
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=POMT2

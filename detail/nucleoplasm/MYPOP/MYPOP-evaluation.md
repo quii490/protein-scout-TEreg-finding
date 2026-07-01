@@ -165,6 +165,34 @@ status: scored
 - [ ] 构建表达载体进行功能研究
 - [ ] Co-IP/MS 鉴定互作蛋白
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| POU5F1 | BioGRID | 0 |
+| HIST1H4A | BioGRID | 0 |
+| AKAP8L | BioGRID | 0 |
+| NCK2 | BioGRID | 0 |
+| KIFAP3 | BioGRID | 0 |
+| TGM1 | BioGRID | 0 |
+| CARD10 | BioGRID | 0 |
+| RBM3 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/65307/1318_H7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/65307/1318_H7_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/65307/1265_G7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/65307/1265_G7_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/65307/1274_G7_6_blue_red_green.jpg)
+![](https://images.proteinatlas.org/65307/1274_G7_7_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=MYPOP
 - Protein Atlas: https://www.proteinatlas.org/MYPOP
@@ -179,9 +207,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[MYPOP-PAE.png]]
 

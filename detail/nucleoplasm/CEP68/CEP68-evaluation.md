@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 | CEP68 |
+| 蛋白名称 | Centrosomal protein of 68 kDa |
 | 蛋白全名 | Centrosomal protein of 68 kDa |
 | 蛋白大小 | 757 aa / 68 kDa |
 | UniProt ID | Q76N32 |
@@ -53,6 +54,30 @@ PubMed strict: 22
 | CNTRL | IntAct | two hybrid |
 
 IntAct 6 条。centrosome linker 网络。
+
+### 功能描述
+
+Involved in maintenance of centrosome cohesion, probably as part of a linker structure which prevents centrosome splitting (PubMed:18042621). Required for localization of CDK5RAP2 to the centrosome during interphase (PubMed:24554434, PubMed:25503564). Contributes to CROCC/rootletin filament formation (PubMed:30404835)
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| USO1 | BioGRID | 1 |
+| CTBP1 | BioGRID | 1 |
+| USHBP1 | BioGRID | 1 |
+| BTRC | BioGRID | 1 |
+| VHL | BioGRID | 1 |
+| MCM7 | BioGRID | 1 |
+| CTBP2 | BioGRID | 1 |
+| PRKAB1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
 
 ### 5. 总体评价
 CEP68 是 centrosome/centriolar satellite 蛋白。GO nucleoplasm IDA:HPA 提供核质证据。pLDDT 极低提示高度无序。低置信度 nucleoplasm。

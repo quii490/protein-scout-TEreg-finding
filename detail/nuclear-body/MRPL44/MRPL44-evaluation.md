@@ -172,6 +172,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RPL13 | STRING | 999 |
+| MRPL46 | STRING | 998 |
+| MRPL23 | STRING | 998 |
+| MRPL19 | STRING | 998 |
+| MRPS9 | STRING | 996 |
+| MRPS14 | STRING | 996 |
+| DAP3 | STRING | 995 |
+| RPS12 | STRING | 994 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9H9J2
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000135900-MRPL44/subcellular

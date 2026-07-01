@@ -58,6 +58,53 @@ status: scored
 
 SPAG8 is 485 amino acids in length (~51.1 kDa). Ideal size (485 aa), suitable for standard biochemical experiments. Score 10/10.
 
+### 功能描述
+
+Microtubule inner protein (MIP) part of the dynein-decorated doublet microtubules (DMTs) in cilia axoneme, which is required for motile cilia beating (PubMed:36191189). Plays a role in spermatogenesis by enhancing the binding of CREM isoform tau to its coactivator FHL5 and increasing the FHL5-regulated transcriptional activation of CREM isoform tau (By similarity). Involved in the acrosome reaction and in binding of sperm to the zona pellucida (By similarity). Plays a role in regulation of the c
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TEKT3 | STRING | 913 |
+| PACRG | STRING | 842 |
+| TEKT2 | STRING | 838 |
+| PIERCE1 | STRING | 831 |
+| C9ORF116 | STRING | 831 |
+| CFAP20 | STRING | 823 |
+| TUBB4B | STRING | 823 |
+| TUBA1A | STRING | 822 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/68012/2210_D4_126_blue_red_green.jpg)
+![](https://images.proteinatlas.org/68012/2210_D4_125_blue_red_green.jpg)
+![](https://images.proteinatlas.org/68012/2210_D4_124_blue_red_green.jpg)
+![](https://images.proteinatlas.org/68012/2210_D4_123_blue_red_green.jpg)
+![](https://images.proteinatlas.org/68012/2210_D4_122_blue_red_green.jpg)
+![](https://images.proteinatlas.org/68012/2210_D4_121_blue_red_green.jpg)
+
+
+### PubMed
+
+**Count: 26**
+
+| PMID | Title |
+|---|---|
+| 41896730 | Genetic analysis of cold tolerance and high-altitude adaptation in Gannan indigenous Tibetan sheep through genome-wide scans. |
+| 38847481 | Male infertility and perfluoroalkyl and poly-fluoroalkyl substances: evidence for alterations in phosphorylation of proteins and fertility-related fun |
+| 38137330 | Study on Potential Differentially Expressed Genes in Idiopathic Pulmonary Fibrosis by Bioinformatics and Next-Generation Sequencing Data Analysis. |
+| 33333720 | Association of TMEM8B and SPAG8 with Mature Weight in Sheep. |
+| 30883840 | Detecting selection signatures in three Iranian sheep breeds. |
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

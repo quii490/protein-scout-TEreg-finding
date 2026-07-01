@@ -88,6 +88,24 @@ PPI 网络以 CAF-1 染色质组装复合体（CHAF1A-RBBP4-ASF1A/B）为核心�
 ### 4. 总体评价
 CHAF1B 是 chromatin assembly factor 1 的核心 p60 亚基，在 DNA 复制耦联核小体组装中发挥基础性染色质功能。优势：染色质定位高度特异（GO chromatin IDA + HPA Nucleoplasm sole），调控结构域与染色质直接相关（WD40 repeats + histone chaperone），PPI 网络丰富且三源一致（CHAF1A-RBBP4-ASF1A/B 核心复合体），文献量中低（strict=36）。主要不足：分子量中等偏大 (61.5 kDa)，AlphaFold pLDDT 中等 (74.7)，28.4% 无序区域。综合评分在 nucleoplasm 类别中具有较强的竞争力。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CHAF1A | STRING | 999 |
+| RBBP4 | STRING | 999 |
+| ASF1B | STRING | 993 |
+| ASF1A | STRING | 988 |
+| PCNA | STRING | 933 |
+| HIST1H4H | STRING | 929 |
+| HEL25 | STRING | 911 |
+| CBX5 | STRING | 911 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q13112
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q13112

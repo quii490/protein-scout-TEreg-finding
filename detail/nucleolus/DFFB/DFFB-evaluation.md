@@ -172,6 +172,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| DFFA | STRING | 999 |
+| CASP3 | STRING | 978 |
+| H1F0 | STRING | 928 |
+| ACIN1 | STRING | 875 |
+| H1F1 | STRING | 785 |
+| H1F3 | STRING | 781 |
+| H1F5 | STRING | 781 |
+| MAGOH | STRING | 753 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O76075
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000169598-DFFB/subcellular

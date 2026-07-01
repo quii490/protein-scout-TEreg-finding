@@ -171,6 +171,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| GLRX3 | BioGRID | 0 |
+| CHCHD4 | BioGRID | 0 |
+| OSGEP | BioGRID | 0 |
+| RBM8A | BioGRID | 0 |
+| ENY2 | BioGRID | 0 |
+| HSPB8 | BioGRID | 0 |
+| IKBKG | BioGRID | 0 |
+| RAB5B | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/41350/539_C4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41350/539_C4_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41350/552_C4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41350/552_C4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41350/534_C4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41350/534_C4_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q6FI81
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000005194-CIAPIN1/subcellular

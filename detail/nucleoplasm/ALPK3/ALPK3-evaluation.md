@@ -99,6 +99,30 @@ status: scored
 - [ ] 评估Alpha-kinase structure domain能否作为结构探针
 - [ ] 如研究方向不匹配TE调控, 可考虑移出shortlist
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| EIF2AK3 | STRING | 791 |
+| PAX4 | STRING | 710 |
+| PSMD1 | BioGRID | 1 |
+| HMGN2 | BioGRID | 1 |
+| H1F0 | BioGRID | 1 |
+| HNRNPA1 | BioGRID | 1 |
+| RPS11 | BioGRID | 1 |
+| RPA1 | BioGRID | 1 |
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/26558/609_A2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/26558/609_A2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/26558/1161_C7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/26558/1161_C7_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/26558/607_A2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/26558/607_A2_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96L96
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000136383-ALPK3/subcellular
@@ -112,9 +136,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[ALPK3-PAE.png]]
 

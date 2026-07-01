@@ -156,45 +156,21 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q8NBV4
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000160539-PLPP7/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=PLPP7
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8NBV4
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### TE 调控评估
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (uncertain)。来源: https://www.proteinatlas.org/ENSG00000160539-PLPP7/subcellular
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
-![](https://images.proteinatlas.org/70252/1374_E4_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/70252/1374_E4_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/70252/1376_E4_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/70252/1376_E4_3_blue_red_green.jpg)
-![](https://images.proteinatlas.org/70252/1418_B1_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/70252/1418_B1_5_blue_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
+### HPA IF 图像
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+HPA 检索: https://www.proteinatlas.org/search/PLPP7
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q8NBV4-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+### PubMed
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+**Count: 2**
 
-### SMART / UniProt domain
-| Source | Data |
+| PMID | Title |
 |---|---|
-| UniProt | Q8NBV4 |
-| SMART | SM00014; |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR000326;IPR036938; |
-| Pfam | PF01569; |
+| 34269122 | Histopathology is required to identify and characterize myopathies in high-throughput phenotype screening of genetically engineered mice. |
+| 33514739 | The nuclear envelope protein Net39 is essential for muscle nuclear integrity and chromatin organization. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000160539-PLPP7/interaction
 
-未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

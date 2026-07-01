@@ -148,6 +148,16 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/68082/1854_G4_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/68082/1854_G4_4_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/I3L1E1
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000262874-C19orf84/subcellular

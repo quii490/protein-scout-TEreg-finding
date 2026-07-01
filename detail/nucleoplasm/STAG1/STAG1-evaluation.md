@@ -171,6 +171,18 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 **该蛋白PubMed文献数 102 > 100，研究热度过高，不符合novelty筛选标准。**
 
+### 深度机制分析
+
+**结构域架构与分子功能推断。** STAG1的核心结构域为IPR043445（STAG/stromal antigen domain），该结构域是cohesin复合体STAG亚基的特征性标志。SMART和Pfam均未检出额外结构域注释，提示STAG1的结构域架构相对简洁——其功能主要依赖与cohesin环中其他亚基的蛋白-蛋白互作界面而非独立的酶活性中心。AlphaFold预测的整体pLDDT仅为56.7，有序区域占比仅19.2%，这强烈提示STAG1在孤立状态下大部分区域处于内在无序状态（intrinsic disorder），其稳定折叠需要整合入cohesin复合体后才得以实现——这是典型的"折叠-结合耦合"（folding-upon-binding）机制。值得注意的是，UniProt Domain[FT]未在Q969W9中检出显式DOMAIN注释，但IPR043445的范围应覆盖STAG1的核心功能段。
+
+**PPI网络的生物学意义。** PPI网络分析揭示了STAG1在cohesin复合体中的核心组织地位。STRING评分高达999的互作伙伴构成了完整的cohesin环组装路径：SMC1A/SMC3异二聚体形成环的"骨架"（hinge + head domains），RAD21/kleisin亚基通过其N端和C端分别结合SMC3 head和SMC1A head以闭合环状结构，而STAG1则通过与RAD21中央区域的直接结合锚定在环的内部。WAPL（0.999）负责在有丝分裂前期从染色质上释放cohesin，PDS5A/PDS5B（0.999/0.990）作为WAPL的辅助因子调节cohesin-DNA结合的稳定性，NIPBL（0.997）是cohesin装载到DNA上的loader蛋白。IntAct实验验证的co-IP互作（smc1a/smc3/rad21，PMID:10931856）证实了这些互作在体内的真实性。PPI互作中调控相关配体占比20%（3/15），表明STAG1的互作网络高度集中于cohesin结构功能而非信号转导。
+
+**三维结构的功能解释。** pLDDT=56.7的全局低置信度与cohesin亚基的典型折叠行为一致——cohesin各亚基在体外通常表现为部分折叠或disordered，仅在全复合体重组后才展示紧凑的三级结构。PAE图若显示SMC蛋白结合区域存在块状低误差区（predicted aligned error<10A），则可作为STAG1与cohesin环之间折叠耦合的直接计算证据。无PDB实验结构的现状使得AF2预测中19.2%的有序区（主要对应STAG domain核心）成为唯一高置信参考——该有序区大概率包含了与RAD21结合的界面残基。若后续获得冷冻电镜或晶体结构，STAG1的折叠耦合界面将成为理解cohesin组装动态性和cohesinopathy致病机制的关键。
+
+**综合分子机制模型。** STAG1作为cohesin复合体的STAG/stromal antigen亚基，通过其IPR043445结构域与RAD21 kleisin亚基直接结合，参与维持cohesin环的结构完整性和拓扑活性。STAG1在cohesin复合体中的核心功能是在DNA被捕获入环后，与STAG2共同赋予cohesin环特定的染色质环挤出（chromatin loop extrusion）特性——STAG1-cohesin和STAG2-cohesin在基因组上具有部分重叠但非完全等同的结合位点偏好和功能分工。STAG1的disordered区域（占全蛋白80.8%）在cohesin复合体外部可能作为招募其他调控因子的柔性平台，如参与转录激活因子或绝缘子蛋白CTCF的功能耦合。STAG1突变导致的新型cohesinopathy（PMID:28119487）的分子病理机制可能涉及这些柔性区域中关键残基的改变，破坏了STAG1-RAD21或STAG1-WAPL相互作用界面的折叠耦合动力学，导致cohesin的DNA retention或release时序异常——这与STAG2在急性髓系白血病中的体细胞突变模式（PMID:39084219）形成了发育障碍vs.肿瘤发生的表型分化。
+
+**研究与治疗启示。** 尽管STAG1因PubMed=102被标记为REJECTED（超过100篇阈值），其作为cohesinopathy致病基因的临床重要性日益凸显。STAG1与STAG2在体细胞突变谱上的差异——STAG2在AML中高频突变（PMID:39084219）而STAG1主要与发育性cohesinopathy关联（PMID:28119487）——表明两种paralog在发育与肿瘤发生中驱动不同的染色质结构调控程序。针对STAG1特异性cohesin复合体的结构生物学研究（特别是STAG1-RAD21界面与STAG2-RAD21界面的结构差异比较）将是理解两种paralog功能分化的关键。此外，精神分裂症全外显子组研究中STAG1风险变异的鉴定（PMID:40753099）提示cohesin介导的染色质拓扑在神经精神疾病中可能具有尚未被充分探索的贡献。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q969W9
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000118007-STAG1/subcellular

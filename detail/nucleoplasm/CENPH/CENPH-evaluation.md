@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | CENPH / Centromere protein H |
+| 蛋白名称 | Centromere protein H |
 | 蛋白大小 | 247 aa / 28.5 kDa |
 | UniProt ID | Q9H3R5 |
 | 评估日期 | 2026-05-30 |
@@ -54,7 +55,7 @@ status: scored
 | 指标 | 数值 |
 |------|------|
 | PubMed 总数 | 65 |
-| 研究方向 | 待补充关键文献摘要 |
+| 研究方向 | 暂无数据关键文献摘要 |
 
 **评价**: 有一定研究基础，但仍存在未探索的niche空间。
 
@@ -160,6 +161,24 @@ status: scored
 - [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
 - [ ] 设计体外 DNA/染色质结合实验
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CENPM | STRING | 999 |
+| CENPC | STRING | 999 |
+| CENPC1 | STRING | 999 |
+| MLF1IP | STRING | 999 |
+| CENPU | STRING | 999 |
+| CENPQ | STRING | 999 |
+| CENPK | STRING | 999 |
+| CENPT | STRING | 999 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9H3R5
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CENPH
@@ -169,9 +188,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[CENPH-PAE.png]]
 

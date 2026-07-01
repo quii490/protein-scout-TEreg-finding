@@ -83,6 +83,24 @@ PPI 网络以 PARP9-DTX3L 为绝对核心（score 0.999），延展至 PARP 家�
 ### 4. 总体评价
 DTX3L 为 Deltex 家族 E3 泛素连接酶，总评分 48.6/100。主要优点：PARP9-DTX3L 轴功能明确（DNA repair + antiviral）、HPA IF 证实核质双定位且有 6 张原图、PPI 网络集中于 PARP 和 interferon 通路（机制链清晰）。主要限制：PubMed=62（偏高，近 >80 阈值）、蛋白较大（740 aa，83.6 kDa）、AF 结构数据缺失。与 PARP9 的协作中涉及组蛋白泛素化和染色质调控，可能在 TE 相关的染色质重塑中有交叉角色。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PARP9 | STRING | 999 |
+| PARP14 | STRING | 975 |
+| PARP15 | STRING | 954 |
+| STAT1 | STRING | 926 |
+| NOTCH2 | STRING | 862 |
+| UBE2D1 | STRING | 848 |
+| DTX1 | STRING | 806 |
+| NOTCH1 | STRING | 735 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8TDB6
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8TDB6

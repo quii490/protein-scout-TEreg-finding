@@ -172,6 +172,24 @@ nuclear_score: 7
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| LMNA | BioGRID | 1 |
+| REL | BioGRID | 1 |
+| MAPK9 | BioGRID | 1 |
+| KIF20A | BioGRID | 1 |
+| PRC1 | BioGRID | 1 |
+| SEPT7 | BioGRID | 1 |
+| ABLIM2 | BioGRID | 0 |
+| CHMP4B | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q5VWP3
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000146147-MLIP

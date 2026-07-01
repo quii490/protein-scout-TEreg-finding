@@ -151,6 +151,20 @@ pm: 26
 - [ ] 通过 RIP-seq 鉴定 DAZ2 结合的 RNA，关注 TE 衍生转录本
 - [ ] 探索 BMI1/ATXN1 互作的核内功能意义
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| DAZ1 | STRING | 999 |
+| CDY1 | STRING | 946 |
+| CDY2A | STRING | 901 |
+| BPY2 | STRING | 897 |
+| USP9Y | STRING | 780 |
+| DDX3Y | STRING | 779 |
+| UTY | STRING | 733 |
+| ATXN1 | BioGRID | 1 |
+
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=DAZ2
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000205944-DAZ2

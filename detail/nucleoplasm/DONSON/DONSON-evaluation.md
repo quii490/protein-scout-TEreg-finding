@@ -143,6 +143,24 @@ status: scored
 - [ ] AlphaFold 结构预测分析
 - [ ] Co-IP/MS 验证PPI网络
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PRIM2 | STRING | 970 |
+| POLD2 | STRING | 952 |
+| POLA2 | STRING | 946 |
+| POLD1 | STRING | 938 |
+| CDC2 | STRING | 938 |
+| POLA1 | STRING | 938 |
+| PRIM1 | STRING | 928 |
+| RPA1 | STRING | 917 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9NYP3
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=DONSON
@@ -153,9 +171,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 <!-- DOMAIN_HUMANPPI_REPAIR_START -->
 ## Domain/SMART 与 humanPPI 补充（2026-06-07）

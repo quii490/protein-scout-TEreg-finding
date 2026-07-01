@@ -12,6 +12,8 @@
   <nav>
     <a href="../protein_index.html">总表</a>
     <a href="../category/nucleoplasm.html">Nucleoplasm</a><a href="../category/nucleus-cytoplasm.html">Nucleus-cytoplasm</a><a href="../category/nuclear-speckle.html">Nuclear speckle</a><a href="../category/nuclear-body.html">Nuclear body</a><a href="../category/nucleolus.html">Nucleolus</a><a href="../category/nuclear-envelope.html">Nuclear envelope</a><a href="../category/chromatin.html">Chromatin</a><a href="../category/rejected.html">Rejected</a>
+    <a href="../centrosome/index.html">Centrosome</a>
+    <a href="../sperm/index.html">Sperm</a>
   </nav>
 </header><main class="container report-shell"><section class="panel"><h1>WDR86</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">总分: 76.7</span><span class="badge">核定位: 7</span><a class="button small" href="../protein_index.html">蛋白总表</a><a class="button small" href="../category/nucleoplasm.html">分类页</a></div><p class="source-path">原始 detail 路径: detail/nucleoplasm/WDR86/WDR86-evaluation.md</p></section><article class="report-body"><hr>
 <p>type: protein-evaluation gene: &quot;WDR86&quot; date: 2026-06-03 tags: [protein-scout, nuclear-protein, evaluation] status: scored ---</p>
@@ -128,6 +130,24 @@
 <p><strong>风险/不确定性</strong>: 1. PubMed 3 篇，研究基础极有限，功能注释不完整 2. 结构数据质量可接受</p>
 <p><strong>下一步建议</strong>:</p>
 <ul><li>[ ] 查阅最新关键文献补充研究背景</li><li>[ ] 获取 Protein Atlas IF 图像确认亚细胞定位</li><li>[ ] 设计体外实验验证核定位及潜在调控功能</li></ul>
+<h4>PPI 互作网络</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>互作伙伴</th><th>来源</th><th>评分</th></tr></thead><tbody>
+<tr><td>CCT4</td><td>BioGRID</td><td>1</td></tr>
+<tr><td>PDCL</td><td>BioGRID</td><td>1</td></tr>
+<tr><td>PPP2CA</td><td>BioGRID</td><td>1</td></tr>
+<tr><td>NR3C1</td><td>BioGRID</td><td>1</td></tr>
+<tr><td>PRAME</td><td>BioGRID</td><td>1</td></tr>
+<tr><td>HSPA8</td><td>BioGRID</td><td>1</td></tr>
+<tr><td>HSPA2</td><td>BioGRID</td><td>1</td></tr>
+<tr><td>PDCL3</td><td>BioGRID</td><td>1</td></tr>
+</tbody></table></div>
+<h4>TE 调控评估</h4>
+<p>该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。</p>
+<h4>深度机制分析</h4>
+<p>WDR86是一个典型的WD40重复蛋白（PF00400，SMART SM00320），其AlphaFold v6预测的平均pLDDT高达90.3，有序区域占比87.8%，结构质量在核蛋白中属极优水平。WD40结构域通常折叠为7叶β-螺旋桨（beta-propeller），形成一个高度稳定的环状支架平台，多个叶片表面可同时接合不同的蛋白配体。WDR86的pLDDT极高且有序区域接近90%，说明其β-螺旋桨折叠高度完整，为结构导向的功能研究和药物设计提供了坚实基础。</p>
+<p>IntAct实验验证的PPI数据显示，WDR86与CCT/TRiC伴侣蛋白复合体的几乎全部亚基（CCT2、CCT3、CCT4、CCT5、CCT6A、TCP1）存在co-IP验证的物理互作。TRiC/CCT是真核细胞中负责约10%胞质蛋白（包括肌动蛋白、微管蛋白及多种信号蛋白）折叠的关键伴侣蛋白系统，其功能异常与癌症、神经退行性疾病密切相关。WDR86同时与PDCL（phosducin-like protein，一种CCT共伴侣蛋白）互作，进一步支持其作为TRiC系统成员的定位。值得注意的是，STRING还检测到WDR86与RBX1（RING box蛋白1，SCF E3泛素连接酶复合体的催化核心）和SKP1的互作，RBX1的combined score达0.553且含实验证据。</p>
+<p>综合结构域架构和PPI网络，WDR86可能作为TRiC/CCT伴侣蛋白系统的底物识别适配器（substrate adaptor）发挥作用：其WD40 β-螺旋桨用于识别和接合特定客户蛋白，并将其呈递给TRiC折叠腔。同时，与RBX1/SKP1 E3连接酶及PPP2CA磷酸酶（IntAct验证）的互作暗示WDR86可能参与蛋白质折叠质控——正确折叠的客户蛋白被释放，而错误折叠的底物则被泛素化标记递送至蛋白酶体降解。这一&quot;折叠-泛素化&quot;耦合模型将蛋白质折叠质控与泛素-蛋白酶体系统直接联系起来，对理解核内蛋白稳态维持机制具有重要意义。</p>
 <h4>5. 数据来源</h4>
 <ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q86TI4</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000187260-WDR86/subcellular</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=WDR86</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q86TI4</li><li>STRING: https://string-db.org/network/9606.ENSP00000</li><li>Data fetched live: 2026-06-03</li></ul>
 <p>&lt;!-- HPA_IF_REPAIR_START --&gt; <strong>HPA IF 图像修正（2026-06-05）</strong>: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000187260-WDR86/subcellular</p>

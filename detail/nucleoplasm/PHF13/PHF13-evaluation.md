@@ -164,6 +164,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| DNASE1L2 | STRING | 824 |
+| TBX20 | STRING | 814 |
+| RCOR1 | BioGRID | 1 |
+| KDM1A | BioGRID | 1 |
+| RCOR3 | BioGRID | 1 |
+| SIN3A | BioGRID | 1 |
+| BLVRA | BioGRID | 1 |
+| TRIM28 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q86YI8
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000116273-PHF13/subcellular

@@ -155,6 +155,24 @@ PAE 图片未获取
 - [ ] Co-IP 验证 PPI
 - [ ] 功能实验验证染色质调控角色
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MCM3 | STRING | 998 |
+| MCM4 | STRING | 997 |
+| MCM7 | STRING | 996 |
+| MCM5 | STRING | 995 |
+| MCM6 | STRING | 988 |
+| CCNL1 | STRING | 932 |
+| MCM2 | STRING | 932 |
+| MCM8 | STRING | 899 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprot/Q9BTE3
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9BTE3
@@ -165,9 +183,9 @@ PAE 图片未获取
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 <!-- HPA_IF_REPAIR_START -->
 **HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (supported)。来源: https://www.proteinatlas.org/ENSG00000197771-MCMBP/subcellular

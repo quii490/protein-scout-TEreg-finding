@@ -173,6 +173,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ITPR1 | STRING | 950 |
+| IPMK | STRING | 915 |
+| PRKCG | STRING | 908 |
+| PRKCB | STRING | 908 |
+| PTEN | STRING | 902 |
+| TEP1 | STRING | 902 |
+| PIP5K1C | STRING | 740 |
+| PIP5K1B | STRING | 734 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q86YW0
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000139151-PLCZ1/subcellular

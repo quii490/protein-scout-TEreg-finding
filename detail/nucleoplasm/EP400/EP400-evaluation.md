@@ -213,6 +213,31 @@ status: scored
 - [ ] 研究 EP400 在 TE 调控中的角色 — NuA4 复合体是否参与转座元件沉默？
 - [ ] CRISPR 筛选 EP400 domain-specific mutations 对染色质状态的影响
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| YEATS4 | STRING | 999 |
+| BRD8 | STRING | 999 |
+| RUVBL1 | STRING | 999 |
+| KAT5 | STRING | 999 |
+| TRRAP | STRING | 999 |
+| DMAP1 | STRING | 999 |
+| EAF2 | STRING | 999 |
+| ACTL6A | STRING | 999 |
+
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q96L91-F1-predicted_aligned_error_v6.png)
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/16704/138_G4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/16704/138_G4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/16704/166_G4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/16704/166_G4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/16704/139_G4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/16704/139_G4_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96L91
 - AlphaFold: 不可用 (蛋白 >2500 aa)
@@ -227,9 +252,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/EP400/EP400-PAE.png]]

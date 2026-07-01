@@ -162,6 +162,24 @@ status: scored
 - [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| WIPI1 | STRING | 998 |
+| WIPI2 | STRING | 995 |
+| RB1CC1 | STRING | 758 |
+| ATG10 | STRING | 715 |
+| GABARAPL2 | STRING | 708 |
+| SMC1A | BioGRID | 1 |
+| MAGED2 | BioGRID | 1 |
+| PHB2 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 
 - UniProt: https://www.uniprot.org/uniprotkb/Q2TAZ0

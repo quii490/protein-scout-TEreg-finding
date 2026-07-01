@@ -8,6 +8,16 @@ status: scored
 
 ## CCDC88A 核质蛋白 (Girdin)
 
+### 基本信息
+
+| 项目 | 内容 |
+|---|---|
+| 基因名 | CCDC88A |
+| 蛋白名称 | Girdin |
+| UniProt ID | Q3V6T2 |
+| 蛋白大小 | 1871 aa |
+
+
 UniProt: Q3V6T2.
 
 | 维度 | 得分 | 权重 | 加权 | 摘要 |
@@ -108,3 +118,27 @@ Source: https://www.proteinatlas.org/ENSG00000115355-CCDC88A/interaction
 | INSR | Biogrid | false |
 | KRAS | Biogrid | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### 功能描述
+
+Bifunctional modulator of guanine nucleotide-binding proteins (G proteins) (PubMed:19211784, PubMed:27621449). Acts as a non-receptor guanine nucleotide exchange factor which binds to and activates guanine nucleotide-binding protein G(i) alpha subunits (PubMed:19211784, PubMed:21954290, PubMed:23509302, PubMed:25187647). Also acts as a guanine nucleotide dissociation inhibitor for guanine nucleotide-binding protein G(s) subunit alpha GNAS (PubMed:27621449). Essential for cell migration (PubMed:1
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| GNAI3 | STRING | 918 |
+| AKT1 | STRING | 826 |
+| NDEL1 | STRING | 738 |
+| BARD1 | BioGRID | 1 |
+| PAXIP1 | BioGRID | 1 |
+| SMURF1 | BioGRID | 1 |
+| METTL21A | BioGRID | 1 |
+| METTL21C | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。

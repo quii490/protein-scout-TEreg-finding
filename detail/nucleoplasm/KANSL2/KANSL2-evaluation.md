@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 | KANSL2 |
+| 蛋白名称 | KAT8 regulatory NSL complex subunit 2 |
 | 蛋白大小 | 492 aa |
 | UniProt ID | Q9H9L4 (KAT8 regulatory NSL complex subunit 2) |
 | 子定位分类 | nucleoplasm |
@@ -147,6 +148,30 @@ PPI 互证分析**:
 - [ ] 在 TEreg 相关细胞系中检测 KANSL2 表达水平
 - [ ] 通过 co-IP/MS 鉴定 KANSL2 的染色质调控相关互作伙伴
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MCRS1 | STRING | 999 |
+| WDR5 | STRING | 999 |
+| KANSL1 | STRING | 999 |
+| NSL1 | STRING | 999 |
+| KANSL3 | STRING | 999 |
+| PHF20 | STRING | 998 |
+| OGT | STRING | 978 |
+| KAT8 | STRING | 967 |
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/38497/455_F2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38497/455_F2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38497/449_F2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38497/449_F2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38497/452_F2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38497/452_F2_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9H9L4
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=KANSL2%5BTitle/Abstract%5D
@@ -159,9 +184,9 @@ PPI 互证分析**:
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[KANSL2-PAE.png]]
 

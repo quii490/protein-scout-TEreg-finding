@@ -14,6 +14,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | ARL4A / ARL4 |
+| 蛋白名称 | ADP-ribosylation factor-like protein 4A |
 | 蛋白全名 | ADP-ribosylation factor-like protein 4A |
 | 蛋白大小 | 200 aa / 22.6 kDa |
 | UniProt ID | P40617 |
@@ -99,6 +100,24 @@ status: scored
 
 ### 4. 总体评价
 ARL4A 是具有强核仁定位证据的小 GTPase。UniProt 明确注释 "Nucleus, nucleolus"，GO-CC 有 nucleolus IDA:UniProtKB 和 nucleoplasm IDA:HPA。KPNA2 importin 互作为其核输入提供了分子机制线索。HPA Approved IF 显示 nucleoplasm + cytosol 而未标记 nucleolus，提示可能存在条件依赖的亚核定位差异。尽管主要文献焦点在胞质/膜功能（细胞迁移、EGFR 信号），核仁定位注释和 importin 互作使其成为较强核仁候选。建议保留为较高优先级 nucleolus 候选，同时人工复核 HPA IF 图像确认核仁富集。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| KPNA2 | BioGRID | 0 |
+| GOLGA2 | BioGRID | 0 |
+| CCDC102B | BioGRID | 0 |
+| SPATC1L | BioGRID | 0 |
+| CCDC57 | BioGRID | 0 |
+| KRAS | BioGRID | 0 |
+| ELMO1 | BioGRID | 0 |
+| ELMO2 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P40617

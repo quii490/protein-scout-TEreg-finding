@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | BOLA2B / BolA-like protein 2 / BOLA2A |
+| 蛋白名称 | BolA-like protein 2 |
 | 蛋白大小 | 86 aa / 10.1 kDa |
 | UniProt ID | Q9H3K6 |
 | 评估日期 | 2026-06-01 |
@@ -172,6 +173,16 @@ PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判�
 | Pfam | PF01722; |
 
 ### humanPPI / HPA Interaction
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/45380/1061_H3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/45380/1061_H3_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/45380/962_H11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/45380/962_H11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/45380/970_H11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/45380/970_H11_6_blue_red_green.jpg)
+
+
 Source: https://www.proteinatlas.org/ENSG00000169627-BOLA2B/interaction
 
 | Partner | Datasets | AF3/HPA structure |
@@ -180,3 +191,24 @@ Source: https://www.proteinatlas.org/ENSG00000169627-BOLA2B/interaction
 | CAPZB | Opencell | false |
 | CIAPIN1 | Intact | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| BOLA3 | STRING | 994 |
+| ISCU | STRING | 764 |
+| STAT4 | STRING | 750 |
+| NFS1 | STRING | 739 |
+| ARRB2 | BioGRID | 1 |
+| CUL3 | BioGRID | 1 |
+| CUL2 | BioGRID | 1 |
+| CDK1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q9H3K6-F1-predicted_aligned_error_v6.png)

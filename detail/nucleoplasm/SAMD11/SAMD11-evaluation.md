@@ -52,6 +52,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 
 SAMD11 is 681 amino acids (72.7 kDa), within the ideal 200-800 aa range. This size is amenable to standard biochemical approaches including recombinant expression, purification, and functional assays. Size score: 10/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SAMD7 | BioGRID | 1 |
+| L3MBTL1 | BioGRID | 1 |
+| HNRNPLL | BioGRID | 1 |
+| NCAPH2 | BioGRID | 1 |
+| SIRT6 | BioGRID | 1 |
+| TRIM25 | BioGRID | 1 |
+| TRAF1 | BioGRID | 1 |
+| ZMYND12 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

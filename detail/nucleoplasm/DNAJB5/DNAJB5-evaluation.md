@@ -158,6 +158,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TBPL2 | BioGRID | 0 |
+| HDAC4 | BioGRID | 0 |
+| CACNA1A | BioGRID | 0 |
+| SKP2 | BioGRID | 0 |
+| ASB4 | BioGRID | 0 |
+| HSPA1A | BioGRID | 0 |
+| HSPA6 | BioGRID | 0 |
+| DNAJB4 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/A0A7I2RN43
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000137094-DNAJB5/subcellular

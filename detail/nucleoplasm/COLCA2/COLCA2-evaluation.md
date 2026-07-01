@@ -65,6 +65,18 @@ HPA IF images not reliably obtained (no subcellular IF images available on HPA s
 
 **Research Volume Assessment**: Low (<50 papers), ample research space
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| C11ORF53 | STRING | 914 |
+| KRAS | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. AlphaFold / PAE / PDB
 
 #### AlphaFold

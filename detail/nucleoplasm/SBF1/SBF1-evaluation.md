@@ -63,6 +63,24 @@ status: accepted
 
 1868 aa -- very large protein, may present challenges for recombinant expression and structural biology. Score: 4/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| FZR1 | STRING | 841 |
+| KMT2A | STRING | 755 |
+| SUV39H1 | BioGRID | 1 |
+| PMS1 | BioGRID | 1 |
+| SIRT3 | BioGRID | 1 |
+| SIRT7 | BioGRID | 1 |
+| CDKN1A | BioGRID | 1 |
+| EFNB2 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | ANKRD35 / Ankyrin repeat domain-containing protein 35 |
+| 蛋白名称 | Ankyrin repeat domain-containing protein 35 |
 | 蛋白大小 | 1001 aa / 109.9 kDa |
 | UniProt ID | Q8N283 |
 | 评估日期 | 2026-05-29 |
@@ -146,6 +147,34 @@ status: scored
 - [ ] 鉴定核质内互作 partners
 - [ ] 探索 4 个未注释折叠域的功能
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| VIM | BioGRID | 0 |
+| SRPK2 | BioGRID | 0 |
+| CTNNB1 | BioGRID | 0 |
+| CIT | BioGRID | 0 |
+| KIF20A | BioGRID | 0 |
+| PRC1 | BioGRID | 0 |
+| CACNA1C | BioGRID | 0 |
+| SHANK3 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/35453/1876_G10_30_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35453/1876_G10_31_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35453/1612_A12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35453/1612_A12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35453/2175_E11_14_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35453/2175_E11_13_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8N283
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000198483-ANKRD35/subcellular
@@ -156,9 +185,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[ANKRD35-PAE.png]]
 

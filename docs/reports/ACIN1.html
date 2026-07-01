@@ -12,6 +12,8 @@
   <nav>
     <a href="../protein_index.html">总表</a>
     <a href="../category/nucleoplasm.html">Nucleoplasm</a><a href="../category/nucleus-cytoplasm.html">Nucleus-cytoplasm</a><a href="../category/nuclear-speckle.html">Nuclear speckle</a><a href="../category/nuclear-body.html">Nuclear body</a><a href="../category/nucleolus.html">Nucleolus</a><a href="../category/nuclear-envelope.html">Nuclear envelope</a><a href="../category/chromatin.html">Chromatin</a><a href="../category/rejected.html">Rejected</a>
+    <a href="../centrosome/index.html">Centrosome</a>
+    <a href="../sperm/index.html">Sperm</a>
   </nav>
 </header><main class="container report-shell"><section class="panel"><h1>ACIN1</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">总分: 72.7</span><span class="badge">核定位: 9</span><a class="button small" href="../protein_index.html">蛋白总表</a><a class="button small" href="../category/nucleoplasm.html">分类页</a></div><p class="source-path">原始 detail 路径: detail/nucleoplasm/ACIN1/ACIN1-evaluation.md</p></section><article class="report-body"><hr>
 <p>type: protein-evaluation gene: &quot;ACIN1&quot; date: 2026-05-29 tags: [protein-scout, nuclear-protein, evaluation, scored] status: scored _date: 2026-05-29 _notes: &quot;PubMed=37 (&lt;100) → 基线提升: 结3→5; 域7已超基线6; HPA validated→核=9; PDB查无结构&quot; ---</p>
@@ -123,7 +125,7 @@
 <tr><td>PAFAH1B2</td><td>Y2H</td><td>16169070</td><td>Platelet-activating factor</td><td>❌</td></tr>
 <tr><td>AKR1C3</td><td>Y2H</td><td>16169070</td><td>Aldo-keto reductase</td><td>❌</td></tr>
 <tr><td>KLHL26</td><td>Y2H</td><td>16169070</td><td>Kelch-like protein</td><td>❌</td></tr>
-<tr><td>BTBD10</td><td>Y2H</td><td>16169070</td><td>BTB domain protein</td><td>❌</td></tr>
+<tr><td>B暂无数据10</td><td>Y2H</td><td>16169070</td><td>BTB domain protein</td><td>❌</td></tr>
 </tbody></table></div>
 <p>&gt; <strong>关键发现</strong>: PNN (Pinin) 通过 cross-linking 实验验证 (PMID:30021884)，是 PSAP/ASAP 复合体的核心组分，与 ACIN1 功能高度吻合。但 SAP18 和 RNPS1 (ASAP 复合体成员) 在 IntAct physical association 中未收录。</p>
 <p><strong>STRING 预测互作</strong> (combined score &gt;0.4):</p>
@@ -184,14 +186,26 @@
 <p><strong>风险/不确定性</strong>: 1. <strong>三维结构质量较差</strong>: 平均 pLDDT 仅 50.62，整体无序化程度高，结构解析困难；不会有&quot;漂亮的 PAE 图&quot; 2. <strong>蛋白偏大</strong>: 1341 aa，超出最佳实验操作范围，表达和生化实验挑战较大 3. <strong>主要研究方向为剪接而非传统 chromatin</strong>: 现有文献集中于 mRNA splicing 和 apoptosis，chromatin 层面的独立研究极少，研究方向的 pivot 需要论证 4. <strong>RRM 域而非经典 chromatin reader</strong>: 缺乏 bromodomain、chromodomain、PHD 等经典染色质调控结构域，需要论证 SAP domain 的染色体组织功能</p>
 <p><strong>下一步建议</strong>:</p>
 <ul><li>[ ] 文献深挖：SAP domain 在染色体组织中的具体机制，是否有未探索的 chromatin binding 功能</li><li>[ ] 验证 CHD4 互作：Co-IP 确认 ACIN1 与 NuRD complex 的物理相互作用</li><li>[ ] 相位分离潜力分析：IDR-rich 序列是否具有 LLPS 能力</li><li>[ ] TE 调控连接：ACIN1 是否参与 TE 来源 RNA 的剪接或染色质沉默</li></ul>
+<h4>PPI 互作网络</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>互作伙伴</th><th>来源</th><th>评分</th></tr></thead><tbody>
+<tr><td>SAP18</td><td>STRING</td><td>999</td></tr>
+<tr><td>RNPS1</td><td>STRING</td><td>999</td></tr>
+<tr><td>PNN</td><td>STRING</td><td>978</td></tr>
+<tr><td>EIF4A3</td><td>STRING</td><td>959</td></tr>
+<tr><td>MAGOH</td><td>STRING</td><td>950</td></tr>
+<tr><td>SRRM2</td><td>STRING</td><td>942</td></tr>
+<tr><td>ALYREF</td><td>STRING</td><td>920</td></tr>
+<tr><td>SRRM1</td><td>STRING</td><td>894</td></tr>
+</tbody></table></div>
 <h4>5. 数据来源</h4>
 <ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9UKV3</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9UKV3</li><li>STRING: https://string-db.org/network/9606.ENSP00000262710</li><li>InterPro: https://www.ebi.ac.uk/interpro/protein/reviewed/Q9UKV3/</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000100813-ACIN1</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=ACIN1[Title/Abstract]</li><li>SMART: https://smart.embl.de/smart/show_motifs.pl?ID=Q9UKV3</li></ul>
 <h5>PPI 网络（三源综合）</h5>
 <div class="table-wrap"><table>
 <thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th></tr></thead><tbody>
-<tr><td>无记录</td><td>—</td><td>—</td></tr>
+<tr><td>暂无互作数据</td></tr>
 </tbody></table></div>
-<p>IntAct 有限记录。无 BioGrid 补充数据。</p>
+<p>暂无实验验证互作。无 BioGrid 补充数据。</p>
 <p><figure><img src="../../detail/nucleoplasm/ACIN1/ACIN1-PAE.png" alt="ACIN1-PAE.png"></figure></p>
 <p>PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。</p>
 <p><figure><img src="../../detail/nucleoplasm/ACIN1/ACIN1-PAE.png" alt="ACIN1-PAE.png"></figure></p>

@@ -162,51 +162,24 @@ STRING 0 个预测互作，IntAct 15 个实验互作。调控相关配体占比 
 - [ ] 设计体外实验验证核定位及潜在调控功能
 - [ ] Co-IP/MS 实验鉴定互作伙伴
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q96NB1
-- Protein Atlas: https://www.proteinatlas.org/search/CEP20
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CEP20
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q96NB1
-- STRING: https://string-db.org/network/9606.CEP20
-- Packet data timestamp: 2026-06-03 04:48:40
+### TE 调控评估
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Centriolar satellite (supported)。来源: https://www.proteinatlas.org/ENSG00000133393-CEP20/subcellular
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
-![](https://images.proteinatlas.org/40599/2121_A12_102_blue_red_green.jpg)
-![](https://images.proteinatlas.org/40599/2121_A12_91_blue_red_green.jpg)
-![](https://images.proteinatlas.org/40599/2127_B2_32_blue_red_green.jpg)
-![](https://images.proteinatlas.org/40599/2127_B2_50_blue_red_green.jpg)
-![](https://images.proteinatlas.org/40599/2175_C9_10_blue_red_green.jpg)
-![](https://images.proteinatlas.org/40599/2175_C9_65_blue_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
+### HPA IF 图像
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+HPA 检索: https://www.proteinatlas.org/search/CEP20
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q96NB1-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+### PubMed
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-07）
+**Count: 16**
 
-### SMART / UniProt domain
-| Source | Data |
+| PMID | Title |
 |---|---|
-| UniProt | Q96NB1 |
-| SMART | SM00667; |
-| UniProt Domain [FT] | DOMAIN 49..81; /note="LisH"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00126" |
-| InterPro | IPR018993;IPR006594; |
-| Pfam | PF09398; |
+| 41401801 | Nε-Carboxymethyl-Lysine Drives Centrosome Amplification and Hepatocarcinogenesis via Pathological Dysregulation of the PLK1-CEP20-CCDC116 Axis. |
+| 40534548 | Prenatal Diagnosis, Ultrasound Findings, and Follow-Up Evaluation of 16p13.11 Deletion and Duplication Syndromes: Preliminary Assessment of Fetal Geno |
+| 39085968 | Optimal prenatal genetic diagnostic approach for posterior fossa malformation: karyotyping, copy number variant testing, or whole-exome sequencing? |
+| 37838783 | CEP20 promotes invasion and metastasis of non-small cell lung cancer cells by depolymerizing microtubules. |
+| 31363079 | Sequence variation at the MTHFD1L-AKAP12 and FOPNL loci does not influence multiple myeloma survival in Sweden. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000133393-CEP20/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| CCDC116 | Intact | false |
-| CEP135 | Biogrid | false |
-| KIAA0753 | Biogrid | false |
-| OFD1 | Biogrid | false |
-| PCM1 | Biogrid | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

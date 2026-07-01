@@ -61,6 +61,24 @@ status: scored
 
 RNF114 is 228 amino acids in length, well within the ideal 200-800 aa range for biochemical characterization. This size is excellent for recombinant expression, purification, crystallization trials, and functional assays. Size score: 10/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PARP11 | STRING | 804 |
+| DCAF16 | STRING | 791 |
+| XAF1 | STRING | 784 |
+| UBE2D1 | STRING | 784 |
+| UBE2D2 | STRING | 734 |
+| SNURF | STRING | 728 |
+| RNF4 | STRING | 728 |
+| UBE2U | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

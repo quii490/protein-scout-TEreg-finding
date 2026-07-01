@@ -81,3 +81,22 @@ Source: https://www.proteinatlas.org/ENSG00000180777-ANKRD30B/interaction
 
 未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TRIM44 | BioGRID | 0 |
+| RECQL4 | BioGRID | 0 |
+| C4orf22 | BioGRID | 0 |
+| ANKRD30A | BioGRID | 0 |
+| PARK2 | BioGRID | 0 |
+| NUDC | BioGRID | 0 |
+| ABCE1 | BioGRID | 0 |
+| HSP90B1 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。

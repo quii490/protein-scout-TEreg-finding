@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | BAHCC1 / BAH and coiled-coil domain-containing protein 1 |
+| 蛋白名称 | BAH and coiled-coil domain-containing protein 1 |
 | 蛋白大小 | 2639 aa / 290.3 kDa |
 | UniProt ID | Q9P281 |
 | 评估日期 | 2026-05-29 |
@@ -118,7 +119,7 @@ status: scored
 
 
 **已知复合体成员** (GO Cellular Component):
-- （待补充：通过 GO 数据库查询该蛋白所属的已知复合体）
+- （暂无数据：通过 GO 数据库查询该蛋白所属的已知复合体）
 **评价**: PPI 100% 转录抑制/染色质调控因子 (HDAC1/2, SIN3A, SAP30)。高度一致于 BAHCC1 的 H3K27me3 读码功能。评分 6。
 
 #### 3.7 多库互证
@@ -157,6 +158,34 @@ status: scored
 - [ ] ChIP-seq 验证 H3K27me3 共定位
 - [ ] 强烈推荐作为 Polycomb 靶标
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SINHCAF | STRING | 780 |
+| ING2 | STRING | 774 |
+| SAP30 | STRING | 750 |
+| CLSTN1 | BioGRID | 1 |
+| COMMD1 | BioGRID | 1 |
+| RBBP7 | BioGRID | 1 |
+| HDAC1 | BioGRID | 1 |
+| GATAD1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 实验数据，可能在基因组水平参与 TE 调控。建议分析 ChIP 峰在 TE 区域的富集情况。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/76910/1719_D3_8_cr5808d46fd2aa9_blue_red_green.jpg)
+![](https://images.proteinatlas.org/76910/1719_D3_18_cr5804a6101fcfb_blue_red_green.jpg)
+![](https://images.proteinatlas.org/76910/1758_C8_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/76910/1758_C8_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/76910/1756_C8_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/76910/1756_C8_2_blue_red_green.jpg)
+
+
 ### 5. 关键文献
 
 1. Fan H et al. (2020). 'BAHCC1 binds H3K27me3 via BAH domain.' Nat Commun. PMID: 33208729
@@ -174,9 +203,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[BAHCC1-PAE.png]]
 

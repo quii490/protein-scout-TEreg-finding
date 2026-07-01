@@ -16,6 +16,7 @@ tags: [protein-scout, sperm, evaluation]
 - **IF 可靠性:** 未获取
 - **PubMed:** 80 篇
 - **精子定位部位:** Acrosome、Perinuclear theca (2 个)
+- **UniProt Subcellular Location:** Cell projection, cilium membrane; Cytoplasm; Cytoplasm, cytoskeleton, cilium basal body; Cytoplasm, cytoskeleton, microtubule organizing center, centrosome, centriolar satellite
 
 ## 2. HPA 精子定位证据
 - **来源:** Acrosome、Perinuclear theca ✓

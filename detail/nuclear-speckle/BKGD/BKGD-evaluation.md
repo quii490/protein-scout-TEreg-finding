@@ -149,6 +149,23 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### PubMed
+
+**Count: 6**
+
+| PMID | Title |
+|---|---|
+| 35243518 | Comparison of the diagnostic efficacy of (68) Ga-FAPI-04 PET/MR and (18)F-FDG PET/CT in patients with pancreatic cancer. |
+| 24879761 | Incidence, prevalence, severity, and risk factors for ruminal acidosis in feedlot steers during backgrounding, diet transition, and finishing. |
+| 20237858 | Effective reduction of brown fat FDG uptake by controlling environmental temperature prior to PET scan: an expanded case series. |
+| 12835499 | Effects of boric acid supplementation on bone histomorphometry, metabolism, and biomechanical properties in aged female F-344 rats. |
+| 10050930 | Developmental effects of boric acid in rats related to maternal blood boron concentrations. |
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9H0W9
 - Protein Atlas: https://www.proteinatlas.org/search/BKGD

@@ -167,6 +167,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PER2 | STRING | 999 |
+| ARNTL | STRING | 989 |
+| BMAL1 | STRING | 989 |
+| NFIL3 | STRING | 989 |
+| CRY1 | STRING | 978 |
+| BHLHE40 | STRING | 971 |
+| BHLHB2 | STRING | 971 |
+| CLOCK | STRING | 969 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/BHLHE41
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000123095-BHLHE41/subcellular

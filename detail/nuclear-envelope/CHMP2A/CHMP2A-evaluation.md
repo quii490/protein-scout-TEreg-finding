@@ -165,6 +165,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| STAMBP | BioGRID | 0 |
+| CHMP3 | BioGRID | 0 |
+| VTA1 | BioGRID | 0 |
+| VPS4B | BioGRID | 0 |
+| VPS4A | BioGRID | 0 |
+| USP8 | BioGRID | 0 |
+| USP54 | BioGRID | 0 |
+| CHMP2A | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/41153/591_E1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41153/591_E1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41153/579_E1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41153/579_E1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41153/581_E1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41153/581_E1_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O43633
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000130724-CHMP2A/subcellular

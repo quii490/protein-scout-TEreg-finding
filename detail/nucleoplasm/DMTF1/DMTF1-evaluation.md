@@ -162,6 +162,33 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CCND2 | STRING | 844 |
+| TP53 | STRING | 768 |
+| DNMT3L | BioGRID | 1 |
+| TRIM25 | BioGRID | 1 |
+| KPNA4 | BioGRID | 1 |
+| SRA1 | BioGRID | 0 |
+| MTDH | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/23846/216_H10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/23846/216_H10_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/23846/215_H10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/23846/215_H10_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/23846/217_H10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/23846/217_H10_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9Y222
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000135164-DMTF1/subcellular

@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | ATXN8 / Ataxin-8 |
+| 蛋白名称 | Ataxin-8 |
 | 蛋白大小 | 80 aa / 10.3 kDa |
 | UniProt ID | Q156A1 |
 | 评估日期 | 2026-06-01 |
@@ -138,3 +139,13 @@ Source: 未找到 HPA interaction 页面
 
 未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+
+### HPA IF 图像
+
+HPA 检索: https://www.proteinatlas.org/search/ATXN8

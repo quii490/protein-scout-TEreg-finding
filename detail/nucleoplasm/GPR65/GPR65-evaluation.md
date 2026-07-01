@@ -157,47 +157,31 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q8IYL9
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000140030-GPR65/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=GPR65
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8IYL9
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Vesicles (approved)。来源: https://www.proteinatlas.org/ENSG00000140030-GPR65/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CYGB | BioGRID | 0 |
 
-![](https://images.proteinatlas.org/77397/1806_G7_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/77397/1806_G7_5_blue_red_green.jpg)
-![](https://images.proteinatlas.org/77397/1846_A6_61_blue_red_green.jpg)
-![](https://images.proteinatlas.org/77397/1846_A6_62_blue_red_green.jpg)
-![](https://images.proteinatlas.org/77397/1870_E1_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/77397/1870_E1_4_blue_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q8IYL9-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白缺乏核/染色质定位证据，TE 调控潜力较低。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/GPR65
+
+### PubMed
+
+**Count: 203**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q8IYL9 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR000276;IPR017452;IPR005464; |
-| Pfam | PF00001; |
+| 42269381 | International Union of Basic and Clinical Pharmacology. CXXII. Applying an objective evaluation to the status of class A orphan G protein-coupled rece |
+| 42265884 | Loss of proton-sensing TDAG8 increases tumor progression in mouse models of colon cancer. |
+| 42244688 | Modulating proton sensing by the adenosine receptor A2. |
+| 42145976 | Single-Cell and Mendelian Randomization Analyses Identify Macrophage Polarization and Efferocytosis Biomarkers in Osteoarthritis and Reveal Their Regu |
+| 42135291 | Solid tumors exploit proton-sensing GPR65 for orchestration of an immunosuppressive tumor microenvironment. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000140030-GPR65/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| CYGB | Bioplex | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

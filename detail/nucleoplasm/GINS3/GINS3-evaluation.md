@@ -157,54 +157,38 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q9BRX5
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000181938-GINS3/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=GINS3
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9BRX5
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (enhanced)。来源: https://www.proteinatlas.org/ENSG00000181938-GINS3/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MCM5 | STRING | 999 |
+| GINS2 | STRING | 999 |
+| MCM4 | STRING | 999 |
+| GINS1 | STRING | 999 |
+| MCM6 | STRING | 999 |
+| CCNL1 | STRING | 999 |
+| MCM2 | STRING | 999 |
+| GINS4 | STRING | 999 |
 
-![](https://images.proteinatlas.org/41216/493_H8_1_red_green.jpg)
-![](https://images.proteinatlas.org/41216/493_H8_2_red_green.jpg)
-![](https://images.proteinatlas.org/41216/502_H8_1_red_green.jpg)
-![](https://images.proteinatlas.org/41216/502_H8_2_red_green.jpg)
-![](https://images.proteinatlas.org/41216/557_H8_1_red_green.jpg)
-![](https://images.proteinatlas.org/41216/557_H8_2_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q9BRX5-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/GINS3
+
+### PubMed
+
+**Count: 34**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q9BRX5 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR021151;IPR036224;IPR010492;IPR038437;IPR055221; |
-| Pfam | PF22466;PF05916; |
+| 42011624 | [Shared mechanisms of obesity and male infertility and prediction of natural therapeutics based on machine learning and single-cell sequencing]. |
+| 41870649 | FTO-CHRM3 axis regulates multiple myeloma progression: a machine learning-based identification. |
+| 39021049 | METTL14 promotes lipid metabolism reprogramming and sustains nasopharyngeal carcinoma progression via enhancing m(6)A modification of ANKRD22 mRNA. |
+| 38773883 | Functional studies in yeast confirm the pathogenicity of a new GINS3 Meier-Gorlin syndrome variant. |
+| 38555285 | The CHK1 inhibitor prexasertib in BRCA wild-type platinum-resistant recurrent high-grade serous ovarian carcinoma: a phase 2 trial. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000181938-GINS3/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| CDC45 | Biogrid, Bioplex | true |
-| GINS1 | Intact, Biogrid, Bioplex | true |
-| GINS2 | Biogrid, Bioplex | true |
-| SSRP1 | Biogrid, Opencell | true |
-| VAC14 | Intact, Biogrid | true |
-| DNALI1 | Intact | false |
-| GINS4 | Biogrid | false |
-| ICAM5 | Intact | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

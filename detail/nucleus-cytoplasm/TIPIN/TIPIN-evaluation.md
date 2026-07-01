@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | TIPIN / FLJ20516 |
+| 蛋白名称 | TIMELESS-interacting protein |
 | 蛋白全名 | TIMELESS-interacting protein |
 | 蛋白大小 | 301 aa / 34.6 kDa |
 | UniProt ID | Q9BVW5 |
@@ -124,6 +125,24 @@ status: scored
 TIPIN 是 TIMELESS-TIPIN 复制叉保护复合体的核心组分。chromatin (IDA) 和 nucleus (IDA) 定位有强实验证据。3个 EM 实验结构在 human replisome 中解析，结构信息充分。PPI 网络以 replisome (MCM3, GINS1/4) 和 FACT chromatin remodeler (SUPT16H) 为核心，直接参与 DNA replication-chromatin interface。研究热度中等(59 strict)，但近年来 Nature/EMBO J 高影响力论文持续出现。蛋白小(301 aa)适合实验操作。
 
 **推荐**: 高优先级。Chromatin/replication fork 双定位 + 实验结构 + replisome PPI + SUPT16H (FACT) 互作。TE 与 replication stress 之间的调控关系值得探究。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TIMELESS | BioGRID | 0 |
+| RPA1 | BioGRID | 0 |
+| TCEAL1 | BioGRID | 0 |
+| APP | BioGRID | 0 |
+| PRDX1 | BioGRID | 0 |
+| TEX11 | BioGRID | 0 |
+| GINS3 | BioGRID | 0 |
+| SUPT16H | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprot/Q9BVW5

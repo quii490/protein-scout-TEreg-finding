@@ -151,6 +151,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 - [ ] 考虑通过AlphaFold预测 + MD模拟获取结构信息
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ENY2 | STRING | 846 |
+| USP22 | BioGRID | 1 |
+| EGFR | BioGRID | 1 |
+| CDC25A | BioGRID | 1 |
+| PTPN5 | BioGRID | 1 |
+| TRIM25 | BioGRID | 1 |
+| TAF6L | BioGRID | 1 |
+| TAF10 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 
 - UniProt: https://www.uniprot.org/uniprotkb/Q96GX2

@@ -162,6 +162,34 @@ IntAct 实验互作: 0 条
 - [ ] 功能研究: 基于 PPI 网络设计功能实验
 - [ ] 结构分析: AlphaFold 预测为基础，设计突变实验
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ARNT | STRING | 878 |
+| ARNT2 | STRING | 767 |
+| SMG7 | BioGRID | 1 |
+| TUBB3 | BioGRID | 1 |
+| HSPA8 | BioGRID | 1 |
+| PPP6R1 | BioGRID | 1 |
+| ADAR | BioGRID | 1 |
+| HELZ | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/72259/1599_E6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/72259/1599_E6_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/72259/1569_H5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/72259/1569_H5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/72259/1565_H5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/72259/1565_H5_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=NPAS1
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000130751-NPAS1
@@ -174,9 +202,9 @@ IntAct 实验互作: 0 条
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[NPAS1-PAE.png]]
 

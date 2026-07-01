@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | BUD31 / G10, EDG-2, Cwc14 |
+| 蛋白名称 | Protein BUD31 homolog |
 | 蛋白大小 | 144 aa / 15.8 kDa |
 | UniProt ID | P41223 |
 | 评估日期 | 2026-05-29 |
@@ -160,6 +161,34 @@ status: scored
 - [ ] 鉴定 BUD31 是否介导染色质相关剪接事件
 - [ ] 强烈推荐作为剪接/转录研究方向
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RBM22 | STRING | 999 |
+| SNRPD3 | STRING | 999 |
+| PRPF19 | STRING | 999 |
+| SYF2 | STRING | 999 |
+| SNRPA1 | STRING | 999 |
+| SNRPF | STRING | 999 |
+| SNRPD1 | STRING | 999 |
+| SNRPD2 | STRING | 999 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/28943/296_G2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/28943/296_G2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/28943/295_G2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/28943/295_G2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/28943/297_G2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/28943/297_G2_1_blue_red_green.jpg)
+
+
 ### 5. 关键文献
 
 1. Hogg R et al. (2010). 'The spliceosome: the ultimate RNA chaperone.' Trends Biochem Sci. PMID: 20156703
@@ -177,9 +206,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[BUD31-PAE.png]]
 

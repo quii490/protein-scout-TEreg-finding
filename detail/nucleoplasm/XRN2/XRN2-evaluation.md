@@ -14,6 +14,7 @@ _notes: "PubMed=199 (≥100, 无基线调整); HPA Enhanced→核=10; 新降级8
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | XRN2 / 5'-3' exoribonuclease 2 / Rat1 homolog |
+| 蛋白名称 | 5'-3' exoribonuclease 2 |
 | 蛋白大小 | 950 aa / ~108 kDa |
 | UniProt ID | Q9H0D6 |
 | 评估日期 | 2026-05-28 () / 2026-05-29 |
@@ -150,41 +151,38 @@ _notes: "PubMed=199 (≥100, 无基线调整); HPA Enhanced→核=10; 新降级8
 - [ ] ChIP-seq 分析 XRN2 是否存在非转录终止位点的染色质结合
 - [ ] 与 cohesin/CTCF 等染色质架构蛋白的关系
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q9H0D6
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000088930-XRN2
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22XRN2%22
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9H0D6
-- STRING: https://string-db.org/network/9606.ENSP00000366396
+### PPI 互作网络
 
-![[Projects/TEreg-finding/protein-interested/detail/rejected/XRN2/XRN2-PAE.png]]
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| DXO | STRING | 999 |
+| CARF | STRING | 933 |
+| CDKN2AIP | STRING | 933 |
+| DCP2 | STRING | 901 |
+| RPRD1A | STRING | 883 |
+| RPRD1B | STRING | 881 |
+| SETX | STRING | 874 |
+| SKIV2L | STRING | 871 |
 
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/rejected/XRN2/XRN2-PAE.png]]
+### TE 调控评估
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-07）
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
 
-### SMART / UniProt domain
-| Source | Data |
+### HPA IF 图像
+
+HPA 检索: https://www.proteinatlas.org/search/XRN2
+
+### PubMed
+
+**Count: 208**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q9H0D6 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR027073;IPR041412;IPR004859;IPR017151; |
-| Pfam | PF17846;PF03159; |
+| 42291182 | A mechanism of target mRNA selection and activity regulation in meiosis-related RBM46-MEIOC-YTHDC2 complex. |
+| 42239164 | TRMT6/61A-mediated m (1) A methylation facilitates human pre-tRNA maturation and prevents surveillance by XRN2. |
+| 42110338 | Clinicopathological significance of 5'-3' exoribonuclease 2 expression in small cell lung cancer tissues. |
+| 41999910 | The human DBR1 interactome reveals coupling between intron lariat turnover, pre-mRNA splicing, and RNA quality control pathways. |
+| 41991508 | m(1)A-mediated regulation of BIRC2 mRNA stability drives apoptosis evasion and tumor progression in liver cancer. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000088930-XRN2/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| CDKN2AIP | Intact, Biogrid | true |
-| CDKN2AIPNL | Intact, Biogrid | true |
-| CRY2 | Intact, Biogrid | true |
-| DISC1 | Intact, Biogrid | true |
-| TARDBP | Intact, Biogrid | true |
-| ANLN | Biogrid | false |
-| APP | Intact | false |
-| AR | Biogrid | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

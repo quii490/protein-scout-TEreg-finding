@@ -155,48 +155,38 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q9NYJ1
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000181924-COA4/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=COA4
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9NYJ1
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000181924-COA4/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CDC42 | BioGRID | 0 |
+| MSRB2 | BioGRID | 0 |
+| TXNDC12 | BioGRID | 0 |
+| CYB5R3 | BioGRID | 0 |
+| NDUFAF3 | BioGRID | 0 |
+| HCCS | BioGRID | 0 |
+| PEBP1 | BioGRID | 0 |
+| COX17 | BioGRID | 0 |
 
-![](https://images.proteinatlas.org/40126/412_E11_1_red_green.jpg)
-![](https://images.proteinatlas.org/40126/412_E11_2_red_green.jpg)
-![](https://images.proteinatlas.org/40126/419_E11_1_red_green.jpg)
-![](https://images.proteinatlas.org/40126/419_E11_2_red_green.jpg)
-![](https://images.proteinatlas.org/40126/471_E11_1_red_green.jpg)
-![](https://images.proteinatlas.org/40126/471_E11_2_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q9NYJ1-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-07）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/COA4
+
+### PubMed
+
+**Count: 16**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q9NYJ1 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | DOMAIN 31..72; /note="CHCH"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01150" |
-| InterPro | IPR010625;IPR039870; |
-| Pfam | PF06747; |
+| 42041938 | Transcriptomic Analysis of Bovine Oocytes at GV and MII Stages and Dynamic Changes in Key Gene Expression Patterns. |
+| 40936169 | Novel Evolutionarily Conserved Oncogene COA4 is Driven by KRAS Mutant and Promotes Cancer Metastasis Through Dual Mitochondrial Metabolism-Dependent a |
+| 40742620 | Evaluating the transferability of low-cost sensor calibration using ANFIS: a field study in Putrajaya, Malaysia. |
+| 37082114 | Non-coding regions of nuclear-DNA-encoded mitochondrial genes and intergenic sequences are targeted by autoantibodies in breast cancer. |
+| 36463827 | Melatonin inhibits ferroptosis and delays age-related cataract by regulating SIRT6/p-Nrf2/GPX4 and SIRT6/NCOA4/FTH1 pathways. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000181924-COA4/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| ATG4B | Opencell | false |
-| COX11 | Intact | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

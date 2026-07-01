@@ -50,6 +50,53 @@ status: scored
 
 RTKN2 is 609 amino acids in length (~69.3 kDa). 609 aa, acceptable range. Score 8/10.
 
+### 功能描述
+
+May play an important role in lymphopoiesis
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PACSIN1 | BioGRID | 0 |
+| BRCA1 | BioGRID | 0 |
+| SH3KBP1 | BioGRID | 0 |
+| RHOC | BioGRID | 0 |
+| AGR2 | BioGRID | 0 |
+| SMG6 | BioGRID | 0 |
+| SREBF2 | BioGRID | 0 |
+| RHOB | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/37946/437_E6_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/37946/437_E6_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/37946/431_E6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/37946/431_E6_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/37946/443_E6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/37946/443_E6_2_blue_red_green.jpg)
+
+
+### PubMed
+
+**Count: 46**
+
+| PMID | Title |
+|---|---|
+| 42260994 | Multi-Omics Integration Reveals Incomplete Reactivation of Developmental Cell-Cycle Programs in Adult Human Infarcted Hearts. |
+| 42045202 | Accurate profiling of single-cell alternative transcript start sites by correcting RNA degradation. |
+| 41859046 | Integrated transcriptomic and molecular docking analysis identifies Rhotekin 2 as a promising therapeutic target for overcoming gemcitabine resistance |
+| 41783072 | Single vs dual genetic disease in children with congenital anomalies and solid tumors. |
+| 41160086 | Decoding Dendritic Cell Subtypes via Integrated Radiogenomics: A Stacked Ensemble Model for Predicting Immunotherapy Response in NSCLC. |
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

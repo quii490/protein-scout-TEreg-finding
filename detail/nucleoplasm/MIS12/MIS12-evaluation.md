@@ -170,6 +170,24 @@ status: scored
 - [ ] 构建表达载体进行功能研究
 - [ ] Co-IP/MS 鉴定互作蛋白
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NSL1 | STRING | 999 |
+| PMF1 | STRING | 999 |
+| DSN1 | STRING | 999 |
+| KNL1 | STRING | 998 |
+| CENPC | STRING | 997 |
+| CENPC1 | STRING | 997 |
+| SPC24 | STRING | 993 |
+| KNTC2 | STRING | 991 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=MIS12
 - Protein Atlas: https://www.proteinatlas.org/MIS12
@@ -184,9 +202,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[MIS12-PAE.png]]
 

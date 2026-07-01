@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 | CEP85 |
+| 蛋白名称 | Centrosomal protein of 85 kDa |
 | 蛋白全名 | Centrosomal protein of 85 kDa |
 | 蛋白大小 | 760 aa / 85 kDa |
 | UniProt ID | Q6P2H3 |
@@ -56,6 +57,25 @@ PubMed strict: 6
 | NINL | IntAct | two hybrid |
 
 IntAct 9 条。centrosome linker 网络为主。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SOX13 | STRING | 881 |
+| STIL | STRING | 845 |
+| SOX5 | STRING | 800 |
+| PLK4 | STRING | 733 |
+| TERF1 | BioGRID | 1 |
+| LATS2 | BioGRID | 1 |
+| SAV1 | BioGRID | 1 |
+| MOV10 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q6P2H3-F1-predicted_aligned_error_v6.png)
 
 ### 5. 总体评价
 CEP85 是当前评估区间中核定位证据最强的 centrosome-nucleolus 双定位蛋白。UniProt 实验级 Nucleus/nucleolus 注释 + GO nucleolus IDA:HPA 双源互证。centrosome/nucleolus 双定位为其在细胞周期中的功能提供了有趣的生物学背景。建议作为较高优先级 nucleolus 候选。PubMed strict=6 极为新颖。

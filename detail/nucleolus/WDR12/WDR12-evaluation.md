@@ -170,6 +170,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NIP7 | STRING | 999 |
+| PES1 | STRING | 999 |
+| BOP1 | STRING | 999 |
+| RSL24D1 | STRING | 998 |
+| WDR74 | STRING | 998 |
+| BXDC2 | STRING | 998 |
+| BRIX1 | STRING | 998 |
+| EBNA1BP2 | STRING | 998 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9GZL7
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000138442-WDR12/subcellular

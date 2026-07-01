@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 | LYAR |
+| 蛋白名称 | Cell growth-regulating nucleolar protein |
 | 蛋白大小 | 379 aa |
 | UniProt ID | Q9NX58 (Cell growth-regulating nucleolar protein) |
 | 子定位分类 | nucleolus |
@@ -58,7 +59,7 @@ status: scored
 
 
 **已知复合体成员** (GO Cellular Component):
-- （待补充：通过 GO 数据库查询该蛋白所属的已知复合体）
+- （暂无数据：通过 GO 数据库查询该蛋白所属的已知复合体）
 **关键文献**:
 1. Zhang et al. (2025). "Snora54 negatively regulates self-renewal of intestinal stem cells and gut regeneration via suppression of Notch2 signaling.". *Sci Adv*. PMID: 40408479
 2. Chen et al. (2021). "Analysis of the role of Ly-1 antibody reactive in different cancer types.". *Bioengineered*. PMID: 34696677
@@ -146,6 +147,41 @@ status: scored
 - [ ] 在 TEreg 相关细胞系中检测 LYAR 表达水平
 - [ ] 通过 co-IP/MS 鉴定 LYAR 的染色质调控相关互作伙伴
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RPL23A | BioGRID | 0 |
+| MYBBP1A | BioGRID | 0 |
+| TWF2 | BioGRID | 0 |
+| KRT85 | BioGRID | 0 |
+| DHX57 | BioGRID | 0 |
+| RPL3 | BioGRID | 0 |
+| TSR1 | BioGRID | 0 |
+| BRIX1 | BioGRID | 0 |
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/35880/1849_A5_33_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35880/1849_A5_35_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35880/1819_B3_4_cr59f3301ba00a9_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35880/1819_B3_16_cr59f3301ba00a1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35880/1056_A6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35880/1056_A6_2_blue_red_green.jpg)
+
+
+### ESMFold 结构预测
+
+| 指标 | 数值 |
+|---|---|
+| 平均 pLDDT | 0.82 |
+| >0.9 | 37.7% |
+| <0.5 | 0.0% |
+| 残基数 | 379 |
+
+ESMFold 从头折叠验证。PDB: `detail/_esm_structures/LYAR_esmfold.pdb`
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9NX58
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=LYAR%5BTitle/Abstract%5D
@@ -158,9 +194,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[LYAR-PAE.png]]
 

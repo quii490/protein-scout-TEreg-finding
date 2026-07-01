@@ -168,6 +168,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| GNB1L | STRING | 807 |
+| TBX1 | STRING | 751 |
+| MAPK9 | BioGRID | 1 |
+| PACSIN2 | BioGRID | 1 |
+| CSNK2A1 | BioGRID | 1 |
+| DYRK1B | BioGRID | 1 |
+| TNPO2 | BioGRID | 1 |
+| MAD2L2 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O15499
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000063515-GSC2/subcellular

@@ -169,6 +169,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PKNOX1 | STRING | 972 |
+| MEIS2 | STRING | 964 |
+| HOXA10 | STRING | 848 |
+| HOXA9 | STRING | 829 |
+| HOXB7 | STRING | 814 |
+| MAB21L1 | STRING | 811 |
+| HOXC9 | STRING | 791 |
+| PKNOX2 | STRING | 775 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P40425
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000204304-PBX2/subcellular

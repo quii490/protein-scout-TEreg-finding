@@ -122,7 +122,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 | H3-4 | psi-mi:"MI:0030"(cross-linking study) | pubmed:30021884|imex:IM-26653| |
 | HNRNPU | psi-mi:"MI:0030"(cross-linking study) | pubmed:30021884|imex:IM-26653| |
 | GALC | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
-| BTBD1 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
+| B暂无数据1 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
 | LIMCH1 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
 | Kif13b | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:26496610|imex:IM-24272 |
 
@@ -167,6 +167,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ASCC3 | BioGRID | 0 |
+| OTUB1 | BioGRID | 0 |
+| RPF2 | BioGRID | 0 |
+| MTDH | BioGRID | 0 |
+| ELAVL1 | BioGRID | 0 |
+| CORO1B | BioGRID | 0 |
+| MYH9 | BioGRID | 0 |
+| CRMP1 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8N6M0
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000155100-OTUD6B/subcellular
@@ -210,8 +228,8 @@ Source: https://www.proteinatlas.org/ENSG00000155100-OTUD6B/interaction
 | Partner | Datasets | AF3/HPA structure |
 |---|---|:--:|
 | OTUB1 | Intact, Biogrid | true |
-| BTBD1 | Intact, Bioplex | false |
-| BTBD2 | Bioplex | false |
+| B暂无数据1 | Intact, Bioplex | false |
+| B暂无数据2 | Bioplex | false |
 | CASC3 | Biogrid | false |
 | DHX29 | Biogrid | false |
 | DHX57 | Biogrid | false |

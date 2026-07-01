@@ -147,7 +147,7 @@ _notes: "PubMed=37 (<100) → 基线提升: 结3→5; 域7已超基线6; HPA val
 | PAFAH1B2 | Y2H | 16169070 | Platelet-activating factor | ❌ |
 | AKR1C3 | Y2H | 16169070 | Aldo-keto reductase | ❌ |
 | KLHL26 | Y2H | 16169070 | Kelch-like protein | ❌ |
-| BTBD10 | Y2H | 16169070 | BTB domain protein | ❌ |
+| B暂无数据10 | Y2H | 16169070 | BTB domain protein | ❌ |
 
 > **关键发现**: PNN (Pinin) 通过 cross-linking 实验验证 (PMID:30021884)，是 PSAP/ASAP 复合体的核心组分，与 ACIN1 功能高度吻合。但 SAP18 和 RNPS1 (ASAP 复合体成员) 在 IntAct physical association 中未收录。
 
@@ -247,6 +247,20 @@ _notes: "PubMed=37 (<100) → 基线提升: 结3→5; 域7已超基线6; HPA val
 - [ ] 相位分离潜力分析：IDR-rich 序列是否具有 LLPS 能力
 - [ ] TE 调控连接：ACIN1 是否参与 TE 来源 RNA 的剪接或染色质沉默
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SAP18 | STRING | 999 |
+| RNPS1 | STRING | 999 |
+| PNN | STRING | 978 |
+| EIF4A3 | STRING | 959 |
+| MAGOH | STRING | 950 |
+| SRRM2 | STRING | 942 |
+| ALYREF | STRING | 920 |
+| SRRM1 | STRING | 894 |
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9UKV3
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9UKV3
@@ -260,9 +274,9 @@ _notes: "PubMed=37 (<100) → 基线提升: 结3→5; 域7已超基线6; HPA val
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[ACIN1-PAE.png]]
 

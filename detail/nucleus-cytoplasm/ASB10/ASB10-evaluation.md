@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 | ASB10 |
+| 蛋白名称 | Ankyrin repeat and SOCS box protein 10 |
 | 蛋白全名 | Ankyrin repeat and SOCS box protein 10 |
 | 蛋白大小 | 467 aa / 50.9 kDa |
 | UniProt ID | Q8WXI3 |
@@ -84,6 +85,24 @@ PPI 功能方向明确指向 E3 ubiquitin ligase 系统（CUL5/ELOB/ELOC/RNF7 �
 
 ### 4. 总体评价
 ASB10 是有实验级双定位证据（nucleus + cytoplasm IDA）的 SOCS box E3 ubiquitin ligase 底物识别亚基。UniProt 和 GO 双源互证核-胞质定位。主要功能为泛素化介导的蛋白降解（通过 CUL5/ELOB/RNF7 ECS 复合体），在青光眼遗传学中有疾病关联。非经典核蛋白但定位证据充分，保留为中等优先级 nucleus-cytoplasm 候选。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PSMA4 | BioGRID | 0 |
+| HSPA1A | BioGRID | 0 |
+| AGR3 | BioGRID | 0 |
+| ARFGAP1 | BioGRID | 0 |
+| MRPL23 | BioGRID | 0 |
+| KDM1A | BioGRID | 0 |
+| CUL5 | BioGRID | 0 |
+| RNF7 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8WXI3

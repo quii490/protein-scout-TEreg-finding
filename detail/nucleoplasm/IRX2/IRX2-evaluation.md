@@ -152,6 +152,22 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] Co-IP/MS 鉴定互作伙伴
 - [ ] ChIP-seq 分析基因组结合位点（如为 TF/染色质蛋白）
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PFDN5 | BioGRID | 1 |
+| PLAGL2 | BioGRID | 1 |
+| BRD2 | BioGRID | 1 |
+| BRD4 | BioGRID | 1 |
+| CSK | BioGRID | 0 |
+| AES | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/
@@ -163,9 +179,9 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[IRX2-PAE.png]]
 

@@ -50,6 +50,39 @@ status: scored
 
 SLX9 is 230 amino acids in length (~25.5 kDa). Ideal size (230 aa), suitable for standard biochemical experiments. Score 10/10.
 
+### 功能描述
+
+May be involved in ribosome biogenesis
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/36559/767_C11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36559/767_C11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36559/820_A9_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36559/820_A9_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36559/779_C11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36559/779_C11_2_blue_red_green.jpg)
+
+
+### PubMed
+
+**Count: 7**
+
+| PMID | Title |
+|---|---|
+| 36321656 | The nucleoplasmic phase of pre-40S formation prior to nuclear export. |
+| 31067825 | A Novel G-Quadruplex Binding Protein in Yeast-Slx9. |
+| 30653518 | Impact of two neighbouring ribosomal protein clusters on biogenesis factor binding and assembly of yeast late small ribosomal subunit precursors. |
+| 25895666 | A non-canonical mechanism for Crm1-export cargo complex assembly. |
+| 22956913 | Role of Mex67-Mtr2 in the nuclear export of 40S pre-ribosomes. |
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

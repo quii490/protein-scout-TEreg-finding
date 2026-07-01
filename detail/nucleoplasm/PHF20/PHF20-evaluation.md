@@ -89,6 +89,34 @@ PHF20 的 PPI 网络横跨两个关键染色质调控复合体：NSL HAT complex
 ### 4. 总体评价
 PHF20 是一个文献量适中（strict=42）的核蛋白，最大的亮点在于**调控结构域极强**：同时具备 PHD finger 和 Tudor domain（均为甲基化组蛋白 reader），直接参与 NSL HAT 和 MLL1 两种染色质修饰复合体，且是 p53 双甲基化的 effector。PDB 有 7 个 domain 结构（含 methyl-lysine 共晶）。主要劣势是 AlphaFold 全长的 pLDDT 低（54.5）和蛋白偏大（115 kDa）。适合作为染色质 reader/组蛋白修饰复合体亚基方向的高质量候选。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| KANSL1 | STRING | 999 |
+| NSL1 | STRING | 999 |
+| MCRS1 | STRING | 998 |
+| KANSL2 | STRING | 998 |
+| KANSL3 | STRING | 998 |
+| WDR5 | STRING | 993 |
+| KAT8 | STRING | 992 |
+| TP53 | STRING | 970 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/29620/369_D3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29620/369_D3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29620/364_D3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29620/364_D3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29620/365_D3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29620/365_D3_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9BVI0
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9BVI0

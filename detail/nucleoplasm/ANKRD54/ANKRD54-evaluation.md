@@ -97,3 +97,22 @@ Source: https://www.proteinatlas.org/ENSG00000100124-ANKRD54/interaction
 | HNRNPUL2 | Opencell | false |
 | KPNA2 | Opencell | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| LYN | BioGRID | 0 |
+| TULP3 | BioGRID | 0 |
+| BLK | BioGRID | 0 |
+| XPO1 | BioGRID | 0 |
+| BTK | BioGRID | 0 |
+| DOCK5 | BioGRID | 0 |
+| EGLN3 | BioGRID | 0 |
+| SMARCA2 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。

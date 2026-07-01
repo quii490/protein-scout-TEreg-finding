@@ -172,6 +172,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PPP2R1A | STRING | 856 |
+| PPP2R2A | STRING | 840 |
+| RCAN1 | STRING | 794 |
+| PPP3CA | STRING | 751 |
+| TERF2IP | BioGRID | 1 |
+| APP | BioGRID | 1 |
+| FHL3 | BioGRID | 1 |
+| KLHL15 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/56646/1472_G11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/56646/1472_G11_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/56646/1020_D4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/56646/1020_D4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/56646/993_D4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/56646/993_D4_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/FAM122A
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000187866-PABIR1/subcellular

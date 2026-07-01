@@ -166,48 +166,38 @@ STRING 15 个预测互作，IntAct 5 个实验互作。调控相关配体占比 
 - [ ] 设计 ChIP-seq/CUT&RUN 验证染色质结合
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q5EE01
-- Protein Atlas: https://www.proteinatlas.org/search/CENPW
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CENPW
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q5EE01
-- STRING: https://string-db.org/network/9606.CENPW
-- Packet data timestamp: 2026-06-03 04:47:54
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (supported)。来源: https://www.proteinatlas.org/ENSG00000203760-CENPW/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CENPS | STRING | 999 |
+| CENPT | STRING | 999 |
+| CENPN | STRING | 999 |
+| CENPX | STRING | 999 |
+| CENPC | STRING | 997 |
+| CENPC1 | STRING | 997 |
+| MLF1IP | STRING | 997 |
+| CENPU | STRING | 997 |
 
-![](https://images.proteinatlas.org/67285/1237_E5_1_red_green.jpg)
-![](https://images.proteinatlas.org/67285/1237_E5_3_red_green.jpg)
-![](https://images.proteinatlas.org/67285/1284_G9_1_red_green.jpg)
-![](https://images.proteinatlas.org/67285/1284_G9_2_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q5EE01-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/CENPW
+
+### PubMed
+
+**Count: 78**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q5EE01 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR028847;IPR052484;IPR009072; |
-| Pfam | PF15510; |
+| 41775141 | Explainable machine learning framework for the molecular classification of triple negative breast cancer. |
+| 41162737 | Insects evolved a monomeric histone-fold domain in the CENP-T protein family. |
+| 41084495 | Immune-molecular nexus in reproductive disorders: mechanisms linking POI and RSA. |
+| 41077212 | Integrative multi-omics analysis and experimental validation reveal centromere protein W as a potential therapeutic target and predictive biomarker in |
+| 40823175 | Impact of genetic variants linked to liver fat and liver volume on MRI-mapped body composition. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000203760-CENPW/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| CENPT | Intact, Biogrid | true |
-| BTRC | Biogrid | false |
-| COPS5 | Biogrid | false |
-| CUL1 | Biogrid | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

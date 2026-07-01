@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | FTSJ1 |
+| 蛋白名称 | tRNA (cytidine(32)/guanosine(34)-2'-O)-methyltransferase |
 | 蛋白大小 | 329 aa |
 | UniProt ID | Q9UET6 (tRNA (cytidine(32)/guanosine(34)-2'-O)-m) |
 | 评估日期 | 2026-05-30 |
@@ -171,6 +172,34 @@ status: scored
 - [ ] 通过 co-IP/MS 验证 PPI 网络
 - [ ] ChIP-seq 检查 FTSJ1 在 TE 区域的 occupancy
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RSL24D1 | STRING | 921 |
+| WDR74 | STRING | 910 |
+| GTPBP4 | STRING | 907 |
+| CDK105 | STRING | 889 |
+| NSA2 | STRING | 889 |
+| NIP7 | STRING | 886 |
+| PES1 | STRING | 871 |
+| BOP1 | STRING | 869 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 实验数据，可能在基因组水平参与 TE 调控。建议分析 ChIP 峰在 TE 区域的富集情况。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/2718/57_H1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/2718/57_H1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/2718/58_H1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/2718/58_H1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/2718/56_H1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/2718/56_H1_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9UET6
 - Protein Atlas: https://www.proteinatlas.org/search/FTSJ1
@@ -182,9 +211,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[FTSJ1-PAE.png]]
 

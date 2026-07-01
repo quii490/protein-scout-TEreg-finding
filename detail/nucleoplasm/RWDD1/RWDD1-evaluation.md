@@ -54,6 +54,37 @@ status: scored
 
 RWDD1 is 243 amino acids (isoform a), well within the ideal 200-800 aa range. Given its classification as an intrinsically unstructured protein (IUP), its small size is advantageous -- smaller IDPs are easier to characterize than large ones. Size score: 10/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| DRG2 | STRING | 999 |
+| ZC3H15 | STRING | 917 |
+| XPO1 | BioGRID | 1 |
+| EGFR | BioGRID | 1 |
+| CD74 | BioGRID | 1 |
+| MAP3K14 | BioGRID | 1 |
+| DNAJC2 | BioGRID | 1 |
+| HSPA14 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### PubMed
+
+**Count: 11**
+
+| PMID | Title |
+|---|---|
+| 42156840 | Genetic determinants of drug-induced gingival overgrowth. |
+| 40232348 | German longevity study reveals novel rare pro-longevity alleles clustering in mTOR signaling pathway. |
+| 38664915 | Identification of key mRNAs and signaling pathways in obsessive compulsive disorder based on weighted gene co-expression network analysis and cytoHubb |
+| 36824437 | Integrated genomic analysis defines molecular subgroups in dilated cardiomyopathy and identifies novel biomarkers based on machine learning methods. |
+| 34320404 | Dose-dependent transcriptional effects of lithium and adverse effect burden in a psychiatric cohort. |
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

@@ -142,6 +142,10 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 体外甲基转移酶活性验证
 - [ ] 底物筛选（是否有组蛋白或 TE 相关底物）
 
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
 ### 5. 数据来源
 - UniProt: P0DPD7 (https://www.uniprot.org/uniprotkb/P0DPD7)
 - AlphaFold: AF-P0DPD7-F1 v6 (https://alphafold.ebi.ac.uk/entry/P0DPD7)
@@ -154,9 +158,9 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[EEF1AKMT4-PAE.png]]
 

@@ -167,54 +167,38 @@ STRING 15 个预测互作，IntAct 15 个实验互作。调控相关配体占比
 - [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q86XR8
-- Protein Atlas: https://www.proteinatlas.org/search/CEP57
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CEP57
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q86XR8
-- STRING: https://string-db.org/network/9606.CEP57
-- Packet data timestamp: 2026-06-03 04:49:41
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Centrosome (supported)。来源: https://www.proteinatlas.org/ENSG00000166037-CEP57/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CEP63 | STRING | 956 |
+| PLK1 | STRING | 834 |
+| CEP152 | STRING | 784 |
+| ELAVL1 | BioGRID | 1 |
+| APP | BioGRID | 1 |
+| HDAC6 | BioGRID | 1 |
+| MYC | BioGRID | 1 |
+| ABR | BioGRID | 1 |
 
-![](https://images.proteinatlas.org/66403/1827_G2_17_cr5ac377d830d0c_blue_red_green.jpg)
-![](https://images.proteinatlas.org/66403/1827_G2_1_cr5ac377d83031d_blue_red_green.jpg)
-![](https://images.proteinatlas.org/66403/2034_E1_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/66403/2034_E1_4_blue_red_green.jpg)
-![](https://images.proteinatlas.org/66403/2086_B11_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/66403/2086_B11_2_blue_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q86XR8-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/CEP57
+
+### PubMed
+
+**Count: 52**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q86XR8 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR051756;IPR025913;IPR024957; |
-| Pfam | PF14073;PF06657; |
+| 41700350 | A novel CEP57 gene mutation in mosaic variegated aneuploidy syndrome 2: case report. |
+| 41616107 | NuSAP Safeguards Centriole Integrity to Mediate CEP57-CEP152 Torus Recruitment for Proper Engagement. |
+| 41015547 | A multi-omics investigation of sarcopenia and frailty: Integrating genomic, epigenomic and telomere length data. |
+| 39883377 | Genetic diversity and selection signatures in sheep breeds. |
+| 39653367 | Detection of Genetic Variations in Children with Tetralogy of Fallot Using Whole Exome Sequencing Technology Integrated Bioinformatics Analysis. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000166037-CEP57/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| CEP63 | Intact, Biogrid | true |
-| DISC1 | Biogrid | false |
-| FGFR3 | Intact | false |
-| FTL | Biogrid | false |
-| GCC1 | Intact | false |
-| HRAS | Intact | false |
-| KRT15 | Intact | false |
-| KRT31 | Intact | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

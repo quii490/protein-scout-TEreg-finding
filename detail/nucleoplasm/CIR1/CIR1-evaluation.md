@@ -65,6 +65,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 
 **Research Volume Assessment**: 较低（<50篇），研究空间充足
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| KBF2 | STRING | 989 |
+| RBPJ | STRING | 989 |
+| SAP30 | STRING | 965 |
+| SNW1 | STRING | 954 |
+| RBPJL | STRING | 937 |
+| NCOR2 | STRING | 936 |
+| HDAC2 | STRING | 927 |
+| HDAC1 | STRING | 921 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. AlphaFold / PAE / PDB
 
 #### AlphaFold

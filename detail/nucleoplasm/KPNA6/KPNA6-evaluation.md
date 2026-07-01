@@ -172,6 +172,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| KPNB1 | STRING | 995 |
+| KPNA1 | STRING | 887 |
+| RCC1 | STRING | 865 |
+| NUP50 | STRING | 860 |
+| RAN | STRING | 845 |
+| TC4 | STRING | 845 |
+| RNMT | STRING | 807 |
+| NCBP2 | STRING | 801 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O60684
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000025800-KPNA6/subcellular
@@ -219,7 +237,7 @@ Source: https://www.proteinatlas.org/ENSG00000025800-KPNA6/interaction
 | ANP32E | Biogrid, Bioplex | true |
 | CHD8 | Biogrid, Opencell | true |
 | HDAC1 | Biogrid, Opencell | true |
-| KBTBD4 | Biogrid, Bioplex | true |
+| KB暂无数据4 | Biogrid, Bioplex | true |
 | KPNA1 | Biogrid, Opencell | true |
 | KPNB1 | Intact, Biogrid, Opencell | true |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->

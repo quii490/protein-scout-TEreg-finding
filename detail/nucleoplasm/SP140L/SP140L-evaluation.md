@@ -154,6 +154,24 @@ status: scored
 - [ ] 基于 PPI 网络开展功能研究
 - [ ] 结构分析: 基于 AlphaFold 的突变设计
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SP140 | STRING | 903 |
+| NEDD4 | BioGRID | 1 |
+| APP | BioGRID | 1 |
+| MAGEA1 | BioGRID | 1 |
+| RNF4 | BioGRID | 1 |
+| RAPGEF2 | BioGRID | 0 |
+| TM9SF4 | BioGRID | 0 |
+| LDHD | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=SP140L
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000185404-SP140L
@@ -166,9 +184,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[SP140L-PAE.png]]
 

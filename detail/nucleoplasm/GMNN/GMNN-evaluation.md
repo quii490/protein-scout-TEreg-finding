@@ -171,6 +171,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CDT1 | STRING | 999 |
+| MCM6 | STRING | 951 |
+| SPOP | STRING | 946 |
+| CDC6 | STRING | 905 |
+| ORC6 | STRING | 894 |
+| CDC20 | STRING | 889 |
+| CCNA2 | STRING | 882 |
+| ORC4 | STRING | 880 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O75496
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000112312-GMNN/subcellular

@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | CREB3L4 / CREB3L4 |
+| 蛋白名称 | Cyclic AMP-responsive element-binding protein 3-like protein 4 |
 | 蛋白大小 | 395 aa / ~43.5 kDa |
 | UniProt ID | Q8TEY5 |
 | 评估日期 | 2026-05-29 |
@@ -148,6 +149,35 @@ status: scored
 - [ ] SMART 结构域分析评估调控潜力
 - [ ] 深入文献检索确认已知功能
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CREB3 | STRING | 960 |
+| CREB1 | STRING | 955 |
+| CREB5 | STRING | 941 |
+| CREM | STRING | 933 |
+| CRTC2 | STRING | 931 |
+| CREB3L3 | STRING | 930 |
+| ATF6B | STRING | 929 |
+| ATF4 | STRING | 929 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### ESMFold 结构预测
+
+| 指标 | 数值 |
+|---|---|
+| 平均 pLDDT | 0.62 |
+| >0.9 | 9.6% |
+| <0.5 | 29.4% |
+| 残基数 | 395 |
+
+ESMFold 从头折叠验证。PDB: `detail/_esm_structures/CREB3L4_esmfold.pdb`
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8TEY5
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8TEY5
@@ -159,9 +189,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[CREB3L4-PAE.png]]
 

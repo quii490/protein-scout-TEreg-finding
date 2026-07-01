@@ -114,7 +114,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 | EFEMP1 | 0.625 | 0.087 | — |
 | MPDZ | 0.593 | 0.510 | — |
 | C2 | 0.587 | 0.000 | — |
-| BTBD16 | 0.576 | 0.000 | — |
+| B暂无数据16 | 0.576 | 0.000 | — |
 
 **实验验证互作** (IntAct):
 
@@ -171,6 +171,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PLEKHA2 | BioGRID | 0 |
+| MPDZ | BioGRID | 0 |
+| SH3BP4 | BioGRID | 0 |
+| CRKL | BioGRID | 0 |
+| ELAVL1 | BioGRID | 0 |
+| LATS2 | BioGRID | 0 |
+| SCLT1 | BioGRID | 0 |
+| CEP19 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9HB21

@@ -158,6 +158,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NOL8 | STRING | 789 |
+| RRP8 | STRING | 769 |
+| NOP58 | STRING | 735 |
+| RBM34 | STRING | 733 |
+| GTPBP4 | STRING | 721 |
+| SIRT7 | BioGRID | 1 |
+| TERT | BioGRID | 1 |
+| RNF2 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/39503/475_A12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39503/475_A12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39503/477_A12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39503/477_A12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39503/479_A12_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39503/479_A12_4_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8N8A6
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000185163-DDX51/subcellular

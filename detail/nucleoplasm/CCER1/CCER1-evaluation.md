@@ -187,6 +187,24 @@ status: scored
 - [ ] 查阅最新关键文献补充功能细节
 - [ ] 设计体外 DNA/染色质结合实验
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RBPMS | BioGRID | 1 |
+| PLSCR1 | BioGRID | 1 |
+| CYSRT1 | BioGRID | 1 |
+| MDFI | BioGRID | 0 |
+| KRT31 | BioGRID | 0 |
+| KRT40 | BioGRID | 0 |
+| KRTAP10-3 | BioGRID | 0 |
+| NOTCH2NL | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8TC90
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CCER1

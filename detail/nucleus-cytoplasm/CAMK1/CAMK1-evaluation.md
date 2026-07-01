@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 | CAMK1 |
+| 蛋白名称 | Calcium/calmodulin-dependent protein kinase type 1 |
 | 蛋白全名 | Calcium/calmodulin-dependent protein kinase type 1 |
 | 蛋白大小 | 370 aa / 41.3 kDa |
 | UniProt ID | Q14012 |
@@ -96,6 +97,24 @@ STRING 网络以 CaM/calmodulin 家族为核心（CALM1-3, CALML3-6），其中 
 
 ### 4. 总体评价
 CAMK1 是经典 CaM 激酶，功能广泛覆盖转录调控、细胞分化和神经发育。核定位仅有预测证据，但底物网络（CREB1, ATF1, HDAC5）强烈指向核-胞质功能。研究量中等，作为已知激酶新颖性有限。建议作为中等优先级核-胞质候选，若需提升置信度需补内源 IF 核定位。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CALM3 | STRING | 998 |
+| HEL-S-72 | STRING | 998 |
+| CALM1 | STRING | 998 |
+| CALM2 | STRING | 969 |
+| CALML6 | STRING | 946 |
+| CREB1 | STRING | 863 |
+| PPM1F | STRING | 813 |
+| CAMKK2 | STRING | 748 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q14012

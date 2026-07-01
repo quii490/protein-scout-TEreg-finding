@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | CUTC / Copper homeostasis protein cutC homolog |
+| 蛋白名称 | Copper homeostasis protein cutC homolog |
 | 蛋白大小 | 273 aa / 29.3 kDa |
 | UniProt ID | Q9NTM9 |
 | 评估日期 | 2026-05-30 |
@@ -54,7 +55,7 @@ status: scored
 | 指标 | 数值 |
 |------|------|
 | PubMed 总数 | 62 |
-| 研究方向 | 待补充关键文献摘要 |
+| 研究方向 | 暂无数据关键文献摘要 |
 
 **评价**: 有一定研究基础，但仍存在未探索的niche空间。
 
@@ -160,6 +161,34 @@ status: scored
 - [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
 - [ ] 设计体外 DNA/染色质结合实验
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CUTC | BioGRID | 1 |
+| NIF3L1 | BioGRID | 1 |
+| ASCC2 | BioGRID | 1 |
+| SLC27A6 | BioGRID | 1 |
+| GABPA | BioGRID | 1 |
+| IRF2BP2 | BioGRID | 1 |
+| BCL6 | BioGRID | 1 |
+| SDCBP | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/38619/455_F6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38619/455_F6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38619/449_F6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38619/449_F6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38619/452_F6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38619/452_F6_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9NTM9
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CUTC
@@ -169,9 +198,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[CUTC-PAE.png]]
 

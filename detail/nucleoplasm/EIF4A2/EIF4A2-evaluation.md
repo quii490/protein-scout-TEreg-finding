@@ -175,6 +175,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| EIF4G1 | BioGRID | 0 |
+| EIF3A | BioGRID | 0 |
+| PDCD4 | BioGRID | 0 |
+| P4HB | BioGRID | 0 |
+| EIF3L | BioGRID | 0 |
+| EIF3D | BioGRID | 0 |
+| EIF3H | BioGRID | 0 |
+| MYO1B | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/68286/1254_A12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/68286/1254_A12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/68286/1237_D9_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/68286/1237_D9_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/68286/1754_D9_8_cr57f3db2907217_blue_red_green.jpg)
+![](https://images.proteinatlas.org/68286/1754_D9_13_cr57f3db32859db_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q14240
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000156976-EIF4A2/subcellular

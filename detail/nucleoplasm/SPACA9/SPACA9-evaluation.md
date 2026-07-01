@@ -234,3 +234,19 @@ Source: https://www.proteinatlas.org/ENSG00000165698-SPACA9/interaction
 | KRTAP10-9 | Intact | false |
 | TUBB2B | Bioplex | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/22243/2200_A11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/22243/2200_A11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/22243/2200_A11_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/22243/2200_A11_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/22243/2200_A11_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/22243/2200_A11_11_blue_red_green.jpg)
+

@@ -171,39 +171,19 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 - [ ] 考虑通过AlphaFold预测 + MD模拟获取结构信息
 
-### 5. 数据来源
+### TE 调控评估
 
-- UniProt: https://www.uniprot.org/uniprotkb/Q9NX62
-- Protein Atlas: https://www.proteinatlas.org/search/BPNT2
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=BPNT2
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9NX62
-- STRING: https://string-db.org/network/9606.BPNT2
-- Packet data timestamp: 2026-06-03 03:43:29
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### PubMed
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q9NX62-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+**Count: 4**
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
-
-### SMART / UniProt domain
-| Source | Data |
+| PMID | Title |
 |---|---|
-| UniProt | Q9NX62 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR050725;IPR000760;IPR020550; |
-| Pfam | PF00459; |
+| 41057762 | Selective sweeps for mutations increasing height impede identification of causative mutations for fertility and other correlated traits in cattle. |
+| 40595590 | Mammalian tRNA acetylation determines translation efficiency and tRNA quality control. |
+| 34920982 | Bisphosphate nucleotidase 2 (BPNT2), a molecular target of lithium, regulates chondroitin sulfation patterns in the cerebral cortex and hippocampus. |
+| 34634304 | Sulfation of glycosaminoglycans depends on the catalytic activity of lithium-inhibited phosphatase BPNT2 in vitro. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000104331-BPNT2/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| MAN1A1 | Bioplex | false |
-| PTPRN | Bioplex | false |
-| SOAT1 | Bioplex | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

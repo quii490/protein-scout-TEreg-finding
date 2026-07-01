@@ -161,6 +161,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| G7 | STRING | 764 |
+| MSH5-SAPCD1 | STRING | 764 |
+| MSH5 | STRING | 764 |
+| SPO11 | STRING | 762 |
+| MSH4 | STRING | 721 |
+| NOTCH3 | BioGRID | 1 |
+| TP53 | BioGRID | 1 |
+| PARK2 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8N815
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000176563-CNTD1/subcellular

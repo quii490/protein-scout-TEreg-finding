@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | ALKBH4 / ABH4 |
+| 蛋白名称 | Alpha-ketoglutarate-dependent dioxygenase alkB homolog 4 |
 | 蛋白大小 | 302 aa / ~33.8 kDa |
 | UniProt ID | Q9NXW9 |
 | 评估日期 | 2026-05-29 |
@@ -193,6 +194,24 @@ status: scored
 **下一步建议**:
 - [ ] 实验验证核仁定位和潜在的组蛋白/染色质去甲基化活性
 - [ ] 通过 co-IP 验证与 EP300 的相互作用
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ALKBH1 | STRING | 955 |
+| JMJD4 | STRING | 896 |
+| ALKBH6 | STRING | 860 |
+| ALKBH2 | STRING | 769 |
+| ALKBH8 | STRING | 763 |
+| TRAF4 | BioGRID | 1 |
+| DTX2 | BioGRID | 1 |
+| ZFHX3 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
 
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=ALKBH4

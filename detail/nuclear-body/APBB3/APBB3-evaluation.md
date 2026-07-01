@@ -172,6 +172,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| APP | STRING | 984 |
+| APLP1 | STRING | 796 |
+| RHOBTB1 | STRING | 716 |
+| COPS4 | STRING | 702 |
+| EGFR | BioGRID | 1 |
+| ERBB2 | BioGRID | 1 |
+| MOV10 | BioGRID | 1 |
+| COPS2 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O95704
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000113108-APBB3/subcellular

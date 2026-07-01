@@ -185,3 +185,24 @@ Source: https://www.proteinatlas.org/ENSG00000153561-RMND5A/interaction
 | RANBP10 | Intact, Biogrid, Opencell, Bioplex | true |
 | RANBP9 | Intact, Biogrid, Opencell | true |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| GID8 | STRING | 999 |
+| RANBP9 | STRING | 997 |
+| WDR26 | STRING | 997 |
+| ARMC8 | STRING | 996 |
+| RANBP10 | STRING | 977 |
+| MAEA | STRING | 969 |
+| YPEL5 | STRING | 943 |
+| RMND5B | STRING | 901 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q9H871-F1-predicted_aligned_error_v6.png)

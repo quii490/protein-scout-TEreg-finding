@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | A1CF / ACF, ACF64, ACF65, APOBEC1CF, ASP |
+| 蛋白名称 | APOBEC1 complementation factor |
 | 蛋白大小 | 594 aa / ~65 kDa |
 | UniProt ID | Q9NQ94 (A1CF_HUMAN) |
 | 评估日期 | 2026-05-28 |
@@ -110,6 +111,34 @@ status: scored
 1. **PPI- [ ] 构建RRM结构域缺失突变体，验证哪个RRM负责chromatin association
 - [ ] 在TEreg相关细胞系中检测A1CF表达水平和定位
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| APOBEC1 | STRING | 998 |
+| APOBEC3F | STRING | 843 |
+| APOBEC3G | STRING | 823 |
+| SYNCRIP | STRING | 779 |
+| APOBEC2 | STRING | 748 |
+| APOBEC3H | STRING | 713 |
+| APOBEC3A | STRING | 713 |
+| CDA | STRING | 706 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/44079/807_D9_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44079/807_D9_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44079/762_F2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44079/762_F2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44079/846_D9_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44079/846_D9_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9NQ94
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000148584-A1CF
@@ -122,9 +151,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[A1CF-PAE.png]]
 

@@ -60,6 +60,24 @@ status: accepted
 
 110 aa -- small protein, at the lower boundary of the workable range. Score: 4/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SMN1 | STRING | 843 |
+| SMN2 | STRING | 843 |
+| GPKOW | STRING | 724 |
+| C1S | STRING | 720 |
+| AQP6 | BioGRID | 0 |
+| CERS4 | BioGRID | 0 |
+| TIMMDC1 | BioGRID | 0 |
+| ELOVL4 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

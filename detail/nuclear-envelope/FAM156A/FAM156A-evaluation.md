@@ -160,6 +160,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MAGEA11 | BioGRID | 1 |
+| ATRIP | BioGRID | 1 |
+| GADD45G | BioGRID | 1 |
+| HNRNPH1 | BioGRID | 1 |
+| SAT1 | BioGRID | 0 |
+| TFIP11 | BioGRID | 0 |
+| TEX11 | BioGRID | 0 |
+| CRACR2A | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白的 GO-CC 注释中缺乏染色质/TE 沉默相关定位，TE 调控潜力较低。不建议作为 TE 调控优先靶标。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8NDB6
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000268350-FAM156A/subcellular

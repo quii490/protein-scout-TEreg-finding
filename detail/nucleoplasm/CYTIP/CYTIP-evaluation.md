@@ -171,6 +171,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CYTH1 | BioGRID | 0 |
+| SOCS1 | BioGRID | 0 |
+| CYTH3 | BioGRID | 0 |
+| CYTH2 | BioGRID | 0 |
+| BLK | BioGRID | 0 |
+| FAM175B | BioGRID | 0 |
+| EDEM2 | BioGRID | 0 |
+| HBB | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/7191/2172_F2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/7191/2172_F2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/7191/2117_D1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/7191/2117_D1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/7191/76_G2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/7191/76_G2_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O60759
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000115165-CYTIP/subcellular

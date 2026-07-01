@@ -95,6 +95,24 @@ PPI 数据以 Y2H 筛选和 co-IP 为主，CALM1 是唯一有生化证据的经�
 ### 4. 总体评价
 CAMK1D 是一个 Ca2+/CaM 信号通路激酶，结构数据极优秀（7 PDB 含 1.48A 全蛋白），HPA IF Approved 支持核质双定位。但作为信号激酶而非染色质调控蛋白，结构域评分偏低。研究热度中等偏高 (strict=78)，不太符合高度新颖的筛选需求。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CALM3 | STRING | 961 |
+| HEL-S-72 | STRING | 961 |
+| CALM1 | STRING | 961 |
+| CALML6 | STRING | 925 |
+| CREB1 | STRING | 841 |
+| NEDD4 | BioGRID | 1 |
+| NEDD4L | BioGRID | 1 |
+| POT1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8IU85
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8IU85

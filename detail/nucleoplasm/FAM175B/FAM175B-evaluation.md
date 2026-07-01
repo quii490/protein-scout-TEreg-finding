@@ -171,6 +171,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| BRE | BioGRID | 0 |
+| BRCC3 | BioGRID | 0 |
+| USP7 | BioGRID | 0 |
+| BABAM1 | BioGRID | 0 |
+| UIMC1 | BioGRID | 0 |
+| THAP5 | BioGRID | 0 |
+| UBC | BioGRID | 0 |
+| ELAVL1 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q15018
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000165660-ABRAXAS2/subcellular

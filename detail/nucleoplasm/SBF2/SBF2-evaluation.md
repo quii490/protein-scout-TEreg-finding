@@ -65,6 +65,34 @@ status: accepted
 
 1849 aa -- very large protein, may present challenges for recombinant expression and structural biology. Score: 4/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| GDAP1 | STRING | 741 |
+| PMS1 | BioGRID | 1 |
+| RBPMS | BioGRID | 1 |
+| FBXW11 | BioGRID | 1 |
+| TP53 | BioGRID | 1 |
+| XPO1 | BioGRID | 1 |
+| HNRNPD | BioGRID | 1 |
+| SYNCRIP | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/50933/855_C12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/50933/855_C12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/50933/864_C4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/50933/864_C4_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/50933/808_C12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/50933/808_C12_2_blue_red_green.jpg)
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

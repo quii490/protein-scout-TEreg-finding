@@ -88,6 +88,40 @@ STRING 互作网络以泛素化系统蛋白为主（UBR1/UBR2 N-end rule 通路�
 ### 4. 总体评价
 TRIP12 是核 speckle 定位的 HECT E3 连接酶，核定位证据扎实且 HPA 定位单一（仅 Nuclear speckles）。主要劣势为蛋白极大（228 kDa）和 PubMed 文献量偏高（92）。其与染色质/DNA 损伤通路的连接（RNF168, beta-catenin/SWI-SNF）提供了一定的转录调控关联，但总体更适合作为核 E3 连接酶而非染色质直接调控因子。
 
+### 功能描述
+
+E3 ubiquitin-protein ligase involved in ubiquitin fusion degradation (UFD) pathway and regulation of DNA repair (PubMed:19028681, PubMed:22884692, PubMed:40419785). Part of the ubiquitin fusion degradation (UFD) pathway, a process that mediates ubiquitination of protein at their N-terminus, regardless of the presence of lysine residues in target proteins (PubMed:19028681). Acts as a key regulator of DNA damage response by acting as a suppressor of RNF168, an E3 ubiquitin-protein ligase that prom
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| UBR2 | STRING | 964 |
+| USP7 | STRING | 963 |
+| UBR5 | STRING | 934 |
+| UBE2D1 | STRING | 910 |
+| P16 | STRING | 894 |
+| CDKN2A | STRING | 894 |
+| UBE2L3 | STRING | 874 |
+| SETD2 | STRING | 806 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/36835/1492_E3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36835/1492_E3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36835/1383_F12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36835/1383_F12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36835/1056_E10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36835/1056_E10_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q14669
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q14669

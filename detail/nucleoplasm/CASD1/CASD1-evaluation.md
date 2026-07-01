@@ -179,6 +179,33 @@ status: scored
 - [ ] 查阅最新关键文献补充功能细节
 - [ ] 设计体外 DNA/染色质结合实验
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ELAVL1 | BioGRID | 1 |
+| PGAM1 | BioGRID | 1 |
+| PGAM2 | BioGRID | 1 |
+| PCAT1 | BioGRID | 0 |
+| NDUFB3 | BioGRID | 0 |
+| COX6B1 | BioGRID | 0 |
+| PGAM4 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/44404/622_B1_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44404/622_B1_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44404/616_B1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44404/616_B1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44404/619_B1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44404/619_B1_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96PB1
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CASD1

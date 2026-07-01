@@ -171,6 +171,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RPAP2 | STRING | 995 |
+| GPN3 | STRING | 987 |
+| RPAP1 | STRING | 987 |
+| POLR2B | STRING | 975 |
+| POLR2J1 | STRING | 962 |
+| POLR2J | STRING | 962 |
+| POLR2C | STRING | 950 |
+| XPA | STRING | 932 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9HCN4
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000198522-GPN1/subcellular

@@ -49,6 +49,48 @@ status: scored
 
 RSRC2 is 434 amino acids in length (~50.6 kDa). 434 aa, ideal range. Score 10/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RBM25 | STRING | 869 |
+| ARID4B | STRING | 750 |
+| JMJD6 | BioGRID | 1 |
+| APP | BioGRID | 1 |
+| UPF2 | BioGRID | 1 |
+| SRPK2 | BioGRID | 1 |
+| SRPK1 | BioGRID | 1 |
+| TRIM23 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/40070/415_G10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40070/415_G10_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40070/416_G10_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40070/416_G10_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40070/411_G10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40070/411_G10_2_blue_red_green.jpg)
+
+
+### PubMed
+
+**Count: 10**
+
+| PMID | Title |
+|---|---|
+| 41841495 | RSRC2 is a novel RNA-binding protein that safeguards mitotic fidelity by interacting with the lncRNA C1QTNF1-AS1. |
+| 38201443 | RSRC2 Expression Inhibits Malignant Progression of Triple-Negative Breast Cancer by Transcriptionally Regulating SCIN Expression. |
+| 35669517 | Differential Degradation of TRA2A and PYCR2 Mediated by Ubiquitin E3 Ligase E4B. |
+| 30013183 | High-throughput identification of noncoding functional SNPs via type IIS enzyme restriction. |
+| 29608557 | A high throughput, functional screen of human Body Mass Index GWAS loci using tissue-specific RNAi Drosophila melanogaster crosses. |
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

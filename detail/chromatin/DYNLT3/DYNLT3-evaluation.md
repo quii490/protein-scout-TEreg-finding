@@ -171,6 +171,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| DYNC1LI1 | STRING | 993 |
+| DNCI1 | STRING | 982 |
+| DYNC1I1 | STRING | 982 |
+| WDR34 | STRING | 978 |
+| DLC1 | STRING | 976 |
+| DYNLL1 | STRING | 976 |
+| DNCL1 | STRING | 976 |
+| DYNC2LI1 | STRING | 965 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P51808
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000165169-DYNLT3/subcellular

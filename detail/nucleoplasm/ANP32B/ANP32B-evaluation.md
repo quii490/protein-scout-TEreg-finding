@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | ANP32B / APRIL, PHAPI2, SSP29 |
+| 蛋白名称 | Acidic leucine-rich nuclear phosphoprotein 32 family member B |
 | 蛋白大小 | 251 aa / ~28.8 kDa |
 | UniProt ID | Q92688 (AN32B_HUMAN) |
 | 评估日期 | 2026-05-28 |
@@ -194,6 +195,34 @@ status: scored
 - [ ] 利用 ChIP-seq 鉴定 ANP32B 的全基因组结合位点
 - [ ] 构建 C 端截短突变体，分离 histone chaperone 活性与其他功能
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| XPO1 | STRING | 835 |
+| KPNA5 | STRING | 777 |
+| ELAVL1 | STRING | 720 |
+| MEPCE | BioGRID | 1 |
+| CHAF1A | BioGRID | 1 |
+| UCHL5 | BioGRID | 1 |
+| PIDD1 | BioGRID | 1 |
+| APP | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/1656/30_C11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1656/30_C11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1656/31_C11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1656/31_C11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1656/29_C11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1656/29_C11_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q92688
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=ANP32B
@@ -207,9 +236,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[ANP32B-PAE.png]]
 

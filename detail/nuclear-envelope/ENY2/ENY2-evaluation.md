@@ -179,6 +179,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| USP22 | STRING | 999 |
+| MCM3AP | STRING | 999 |
+| SGF29 | STRING | 999 |
+| CETN2 | STRING | 999 |
+| ATXN7L3 | STRING | 999 |
+| CETN3 | STRING | 999 |
+| PCID2 | STRING | 999 |
+| TAF10 | STRING | 998 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/24648/240_F10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/24648/240_F10_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/24648/239_F10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/24648/239_F10_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/24648/241_F10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/24648/241_F10_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9NPA8
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000120533-ENY2/subcellular

@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | CCDC39 / CCDC39 |
+| 蛋白名称 | Coiled-coil domain-containing protein 39 |
 | 蛋白全名 | Coiled-coil domain-containing protein 39 |
 | 蛋白大小 | 941 aa / 109.9 kDa |
 | UniProt ID | Q9UFE4 |
@@ -191,6 +192,34 @@ HPA IF 图像可用 (8张)，待下载。
 - [ ] 获取 HPA IF 图像确认核定位
 - [ ] 查阅最新关键文献补充功能细节
 - [ ] 设计体外 DNA/染色质结合实验
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CUL3 | BioGRID | 0 |
+| SHFM1 | BioGRID | 0 |
+| RNF123 | BioGRID | 0 |
+| HYOU1 | BioGRID | 0 |
+| DYNC1LI1 | BioGRID | 0 |
+| YWHAH | BioGRID | 0 |
+| TRRAP | BioGRID | 0 |
+| TRO | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/35364/1889_G5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35364/1889_G5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35364/398_D2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35364/398_D2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35364/381_D2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35364/381_D2_2_blue_red_green.jpg)
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9UFE4

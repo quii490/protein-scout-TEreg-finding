@@ -12,6 +12,8 @@
   <nav>
     <a href="../protein_index.html">总表</a>
     <a href="../category/nucleoplasm.html">Nucleoplasm</a><a href="../category/nucleus-cytoplasm.html">Nucleus-cytoplasm</a><a href="../category/nuclear-speckle.html">Nuclear speckle</a><a href="../category/nuclear-body.html">Nuclear body</a><a href="../category/nucleolus.html">Nucleolus</a><a href="../category/nuclear-envelope.html">Nuclear envelope</a><a href="../category/chromatin.html">Chromatin</a><a href="../category/rejected.html">Rejected</a>
+    <a href="../centrosome/index.html">Centrosome</a>
+    <a href="../sperm/index.html">Sperm</a>
   </nav>
 </header><main class="container report-shell"><section class="panel"><h1>OARD1</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleolus</span><span class="badge">总分: 76</span><span class="badge">核定位: 9</span><a class="button small" href="../protein_index.html">蛋白总表</a><a class="button small" href="../category/nucleolus.html">分类页</a></div><p class="source-path">原始 detail 路径: detail/nucleolus/OARD1/OARD1-evaluation.md</p></section><article class="report-body"><hr>
 <p>type: protein-evaluation gene: &quot;OARD1&quot; date: 2026-06-01 tags: [protein-scout, nucleolus, evaluation] status: scored ---</p>
@@ -20,6 +22,7 @@
 <div class="table-wrap"><table>
 <thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
 <tr><td>基因名 / 别名</td><td>OARD1 / C6orf130, TARG1</td></tr>
+<tr><td>蛋白名称</td><td>ADP-ribose glycohydrolase OARD1</td></tr>
 <tr><td>蛋白全名</td><td>ADP-ribose glycohydrolase OARD1</td></tr>
 <tr><td>蛋白大小</td><td>152 aa / 17.0 kDa</td></tr>
 <tr><td>UniProt ID</td><td>Q9Y530</td></tr>
@@ -86,6 +89,22 @@
 <p>STRING 数据无法获取 (502)，IntAct 互作以 Y2H/Co-IP 为主但缺乏高置信度重复验证。PPI 对核定位和调控功能支持较弱。UniProt 无记录互作。</p>
 <h4>4. 总体评价</h4>
 <p>OARD1 是一个文献量极低（strict=4）、结构验证极其充分（pLDDT 93.5 + 6 PDB 实验结构）的小型核仁/核质蛋白。核心优势在于核定位证据多源且高置信度（UniProt 实验注释 + GO-CC IDA + HPA IF），蛋白极小（17 kDa）便于实验操作，ADP-ribose glycohydrolase 功能与 DNA damage/chromatin 直接相关。主要不足是 PPI 数据薄弱（STRING 不可用，IntAct 互作缺乏深度验证），影响对核内功能网络的置信度。综合评分在 nucleolus 类别中具有竞争力。</p>
+<h4>PPI 互作网络</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>互作伙伴</th><th>来源</th><th>评分</th></tr></thead><tbody>
+<tr><td>MACROD1</td><td>STRING</td><td>850</td></tr>
+<tr><td>MACROD2</td><td>STRING</td><td>811</td></tr>
+<tr><td>PARG</td><td>STRING</td><td>779</td></tr>
+<tr><td>PARP10</td><td>STRING</td><td>710</td></tr>
+<tr><td>APP</td><td>BioGRID</td><td>1</td></tr>
+<tr><td>EEF1D</td><td>BioGRID</td><td>1</td></tr>
+<tr><td>TNKS</td><td>BioGRID</td><td>1</td></tr>
+<tr><td>ZC3H7B</td><td>BioGRID</td><td>1</td></tr>
+</tbody></table></div>
+<h4>TE 调控评估</h4>
+<p>该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。</p>
+<h4>HPA IF 图像</h4>
+<p><figure><img src="https://images.proteinatlas.org/29036/373_A3_1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/29036/373_A3_2_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/29036/370_A3_1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/29036/370_A3_2_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/29036/366_A3_1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/29036/366_A3_3_blue_red_green.jpg" alt="image"></figure></p>
 <h4>5. 数据来源</h4>
 <ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9Y530</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9Y530</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=OARD1</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000124596-OARD1</li></ul>
 <p><strong>HPA IF 状态</strong>: HPA IF 图像已本地嵌入。</p>

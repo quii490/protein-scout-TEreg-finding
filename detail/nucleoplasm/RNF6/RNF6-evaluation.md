@@ -65,6 +65,34 @@ status: scored
 
 RNF6 is 685 amino acids in length, placing it within the ideal 200-800 aa range. This size is amenable to recombinant expression and most biochemical assays. Size score: 10/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| DLC1 | STRING | 756 |
+| TLE3 | STRING | 733 |
+| UBE2H | BioGRID | 1 |
+| AR | BioGRID | 1 |
+| LDB1 | BioGRID | 1 |
+| UBE2D1 | BioGRID | 1 |
+| ALOX5 | BioGRID | 1 |
+| ASAH1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/39343/540_G2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39343/540_G2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39343/553_G2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39343/553_G2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39343/537_G2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39343/537_G2_2_blue_red_green.jpg)
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

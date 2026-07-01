@@ -171,6 +171,29 @@ ALKBH6与ALKBH2共享相同的AlkB家族催化结构域架构。偏好ssDNA/ssRN
 
 MED29实验证据强(score 0.84)，该蛋白为Mediator复合物亚基，直接参与RNA Pol II转录调控。这暗示ALKBH6可能在转录调控中发挥功能，与核酸去甲基化酶活性一致。此外RUNX1(转录因子核心结合因子)通过Y2H与ALKBH6互作(IntAct PMID:35914814)。**评分: 4/10**。(因实验证据偏少，但MED29/RUNX1的转录调控关联具生物学意义)
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ALKBH1 | STRING | 954 |
+| MED29 | STRING | 892 |
+| JMJD4 | STRING | 875 |
+| ALKBH4 | STRING | 860 |
+| ALKBH2 | STRING | 840 |
+| TOP3B | BioGRID | 1 |
+| RUNX1 | BioGRID | 1 |
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/74340/1434_E3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/74340/1434_E3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/74340/1516_H11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/74340/1516_H11_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/74340/1436_E3_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/74340/1436_E3_4_blue_red_green.jpg)
+
+
 ### 5. Rescue Decision
 
 **决策: RESCUED TO SCORED**

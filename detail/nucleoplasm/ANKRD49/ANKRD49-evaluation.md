@@ -98,6 +98,24 @@ STRING 网络: TRIT1 (0.925, textmining), FKBPL (0.889, exp 0.842), CSNK1E (0.81
 ANKRD49 具有三源一致的核定位证据（UniProt + GO + HPA Approved）。HPA Approved 核质+核仁定位为实验级 IF 注释，显著增强定位可信度。AlphaFold 结构质量良好（pLDDT 81.6）。PPI 网络含 RAN（核质转运 GTPase）和 SMARCD1（SWI/SNF 染色质重塑）等核蛋白互作伙伴。研究高度新颖（strict=10），功能集中在癌症生物学和 NF-kB 通路。归一化 73.5/100。建议作为中等优先级 nucleoplasm 候选保留。
 ![[ANKRD49-PAE.png]]
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| FKBPL | BioGRID | 0 |
+| SHMT2 | BioGRID | 0 |
+| MOV10 | BioGRID | 0 |
+| NXF1 | BioGRID | 0 |
+| HIF1AN | BioGRID | 0 |
+| CSNK1D | BioGRID | 0 |
+| CSNK1E | BioGRID | 0 |
+| CPSF4 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8WVL7
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8WVL7

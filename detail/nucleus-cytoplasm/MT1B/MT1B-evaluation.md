@@ -74,6 +74,21 @@ HPA IF 原图可获取。Immunofluorescence shows the characteristic metallothio
 
 **Aliases observed**: MT1
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SMCP | BioGRID | 0 |
+| KRTAP17-1 | BioGRID | 0 |
+| KRTAP10-6 | BioGRID | 0 |
+| KRTAP1-1 | BioGRID | 0 |
+| KRTAP5-2 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
 ## 5. AlphaFold / PAE / PDB
 
 ### AlphaFold

@@ -163,6 +163,19 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ESPL1 | STRING | 851 |
+| PPP4C | STRING | 763 |
+| PLK4 | STRING | 761 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q496M5
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000185988-PLK5/subcellular

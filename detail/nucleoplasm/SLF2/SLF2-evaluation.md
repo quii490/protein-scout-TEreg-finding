@@ -188,3 +188,24 @@ Source: https://www.proteinatlas.org/ENSG00000119906-SLF2/interaction
 | PML | Biogrid | false |
 | PSMA1 | Intact | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SLF1 | STRING | 999 |
+| SMC5 | STRING | 967 |
+| SMC6 | STRING | 955 |
+| NSMCE1 | STRING | 927 |
+| RAD18 | STRING | 924 |
+| NSMCE3 | STRING | 904 |
+| NSMCE2 | STRING | 883 |
+| NSMCE4A | STRING | 866 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q8IX21-F1-predicted_aligned_error_v6.png)

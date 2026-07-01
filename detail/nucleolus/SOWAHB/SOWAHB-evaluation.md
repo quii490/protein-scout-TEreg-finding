@@ -166,6 +166,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| LINC00839 | BioGRID | 0 |
+| EMD | BioGRID | 0 |
+| FASN | BioGRID | 0 |
+| PDZD11 | BioGRID | 0 |
+| HSPA8 | BioGRID | 0 |
+| DIAPH2 | BioGRID | 0 |
+| TJP1 | BioGRID | 0 |
+| RAPGEF6 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白的 GO-CC 注释中缺乏染色质/TE 沉默相关定位，TE 调控潜力较低。不建议作为 TE 调控优先靶标。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/A6NEL2
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000186212-SOWAHB/subcellular

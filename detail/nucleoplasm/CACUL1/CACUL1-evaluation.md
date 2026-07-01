@@ -106,7 +106,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 | RNF7 | 0.667 | 0.573 | — |
 | E5RI56_HUMAN | 0.660 | 0.563 | — |
 | CAND1 | 0.631 | 0.434 | — |
-| KBTBD4 | 0.616 | 0.589 | — |
+| KB暂无数据4 | 0.616 | 0.589 | — |
 | SPOP | 0.606 | 0.489 | — |
 | SPOPL | 0.597 | 0.470 | — |
 | CAND2 | 0.563 | 0.434 | — |
@@ -116,7 +116,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 
 | Partner | 方法 | PMID |
 |---------|------|------|
-| KBTBD4 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
+| KB暂无数据4 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:28514442|doi:10.1038/na |
 | H2BC17 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:33961781|imex:IM-29278| |
 | RAP1A | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:33961781|imex:IM-29278| |
 | HBB | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:33961781|imex:IM-29278| |
@@ -167,6 +167,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| AR | BioGRID | 1 |
+| KB暂无数据4 | BioGRID | 1 |
+| PML | BioGRID | 1 |
+| UBE2I | BioGRID | 1 |
+| SPOP | BioGRID | 1 |
+| NUP50 | BioGRID | 1 |
+| CSNK1G3 | BioGRID | 1 |
+| MICAL1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q86Y37
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000151893-CACUL1/subcellular
@@ -211,7 +229,7 @@ Source: https://www.proteinatlas.org/ENSG00000151893-CACUL1/interaction
 |---|---|:--:|
 | AR | Biogrid | false |
 | ESR1 | Intact | false |
-| KBTBD4 | Biogrid | false |
+| KB暂无数据4 | Biogrid | false |
 | KPNA6 | Opencell | false |
 | PML | Biogrid | false |
 | PSMA2 | Opencell | false |

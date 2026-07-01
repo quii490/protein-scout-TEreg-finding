@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | ANKRD17 / GTAR, KIAA0697, MASK2, NY-BR-16 |
+| 蛋白名称 | Ankyrin repeat domain-containing protein 17 |
 | 蛋白大小 | 2603 aa / ~288.9 kDa |
 | UniProt ID | O75179 |
 | 评估日期 | 2026-05-29 |
@@ -206,6 +207,34 @@ status: scored
 - [ ] 截短体设计：聚焦 ANK 重复区染色质结合片段
 - [ ] ChIP-seq 鉴定基因组结合位点
 - [ ] 条件性敲除细胞系用于 DNA 复制调控表型分析
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| BAP1 | BioGRID | 0 |
+| APC | BioGRID | 0 |
+| ITSN2 | BioGRID | 0 |
+| SIRT7 | BioGRID | 0 |
+| KIAA0368 | BioGRID | 0 |
+| ITGA4 | BioGRID | 0 |
+| ADH6 | BioGRID | 0 |
+| MDM2 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 实验数据，可能在基因组水平参与 TE 调控。建议分析 ChIP 峰在 TE 区域的富集情况。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/63731/1254_D5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/63731/1254_D5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/63731/1152_G4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/63731/1152_G4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/63731/1156_G4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/63731/1156_G4_4_blue_red_green.jpg)
+
 
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=ANKRD17

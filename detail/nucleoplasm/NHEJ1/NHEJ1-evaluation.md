@@ -227,3 +227,22 @@ Source: https://www.proteinatlas.org/ENSG00000187736-NHEJ1/interaction
 | LIG4 | Intact | false |
 | PRKDC | Biogrid | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PRKDC | STRING | 999 |
+| XRCC6 | STRING | 999 |
+| XRCC5 | STRING | 999 |
+| XRCC4 | STRING | 999 |
+| LIG4 | STRING | 999 |
+| PAXX | STRING | 999 |
+| DCLRE1C | STRING | 992 |
+| ATM | STRING | 982 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。

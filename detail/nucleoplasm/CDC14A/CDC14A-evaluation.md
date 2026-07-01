@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | CDC14A / Dual specificity protein phosphatase CDC14A |
+| 蛋白名称 | Dual specificity protein phosphatase CDC14A |
 | 蛋白大小 | 594 aa / 66.6 kDa |
 | UniProt ID | Q9UNH5 |
 | 评估日期 | 2026-05-30 |
@@ -54,7 +55,7 @@ status: scored
 | 指标 | 数值 |
 |------|------|
 | PubMed 总数 | 84 |
-| 研究方向 | 待补充关键文献摘要 |
+| 研究方向 | 暂无数据关键文献摘要 |
 
 **评价**: 有一定研究基础，但仍存在未探索的niche空间。
 
@@ -160,6 +161,24 @@ status: scored
 - [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
 - [ ] 设计体外 DNA/染色质结合实验
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SIRT1 | STRING | 992 |
+| SIRT2 | STRING | 991 |
+| ESPL1 | STRING | 947 |
+| FZR1 | STRING | 928 |
+| CDC2 | STRING | 914 |
+| CDK1 | STRING | 914 |
+| CDC14B | STRING | 905 |
+| INCENP | STRING | 847 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9UNH5
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CDC14A
@@ -169,9 +188,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[CDC14A-PAE.png]]
 

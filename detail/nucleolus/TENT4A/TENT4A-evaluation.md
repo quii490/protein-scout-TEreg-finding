@@ -166,6 +166,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MTREX | STRING | 999 |
+| ZCCHC7 | STRING | 999 |
+| POLL | STRING | 959 |
+| POLM | STRING | 948 |
+| EXOSC10 | STRING | 875 |
+| PAPOLB | STRING | 828 |
+| PAPOLA | STRING | 827 |
+| PAPOLG | STRING | 826 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q5XG87
 - Protein Atlas: https://www.proteinatlas.org/search/TENT4A

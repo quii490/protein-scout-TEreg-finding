@@ -75,6 +75,20 @@ AGBL5 的核定位证据存在来源分歧。UniProt 明确列出 Nucleus (ECO:0
 
 **新颖性评分: 10/10**（PubMed strict=14，极度新颖）。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TPCN2 | BioGRID | 1 |
+| HAVCR2 | BioGRID | 1 |
+| TRIM25 | BioGRID | 1 |
+| TUBG1 | BioGRID | 1 |
+| RYBP | BioGRID | 1 |
+| FBRS | BioGRID | 1 |
+| PCGF3 | BioGRID | 1 |
+| PCGF5 | BioGRID | 1 |
+
+
 ## 5. AlphaFold / PAE / PDB
 
 ### AlphaFold Structure

@@ -12,6 +12,8 @@
   <nav>
     <a href="../protein_index.html">总表</a>
     <a href="../category/nucleoplasm.html">Nucleoplasm</a><a href="../category/nucleus-cytoplasm.html">Nucleus-cytoplasm</a><a href="../category/nuclear-speckle.html">Nuclear speckle</a><a href="../category/nuclear-body.html">Nuclear body</a><a href="../category/nucleolus.html">Nucleolus</a><a href="../category/nuclear-envelope.html">Nuclear envelope</a><a href="../category/chromatin.html">Chromatin</a><a href="../category/rejected.html">Rejected</a>
+    <a href="../centrosome/index.html">Centrosome</a>
+    <a href="../sperm/index.html">Sperm</a>
   </nav>
 </header><main class="container report-shell"><section class="panel"><h1>AFF4</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleolus</span><span class="badge">总分: 61.7</span><span class="badge">核定位: 9</span><a class="button small" href="../protein_index.html">蛋白总表</a><a class="button small" href="../category/nucleolus.html">分类页</a></div><p class="source-path">原始 detail 路径: detail/nucleolus/AFF4/AFF4-evaluation.md</p></section><article class="report-body"><hr>
 <p>type: protein-evaluation gene: &quot;AFF4&quot; date: 2026-05-28 tags: [protein-scout, nuclear-protein, evaluation] status: scored ---</p>
@@ -20,6 +22,7 @@
 <div class="table-wrap"><table>
 <thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
 <tr><td>基因名 / 别名</td><td>AFF4 / AF5Q31, MCEF, CHOPS syndrome protein</td></tr>
+<tr><td>蛋白名称</td><td>AF4/FMR2 family member 4</td></tr>
 <tr><td>蛋白大小</td><td>1163 aa / 127.5 kDa</td></tr>
 <tr><td>UniProt ID</td><td>Q9UHB7</td></tr>
 <tr><td>评估日期</td><td>2026-05-28</td></tr>
@@ -113,9 +116,9 @@
 <p><strong>PPI 互证</strong>:</p>
 <ul><li>无法获取 humanPPI 数据 - </li></ul>
 <p><strong>实验验证互作</strong> (BioGRID / IntAct):</p>
-<ul><li>（待补充：通过 BioGRID 或 IntAct 数据库查询实验验证的蛋白-蛋白互作）</li></ul>
+<ul><li>（暂无数据：通过 BioGRID 或 IntAct 数据库查询实验验证的蛋白-蛋白互作）</li></ul>
 <p>STRING 和 UniProt 均确认 SEC <strong>已知复合体成员</strong> (GO Cellular Component):</p>
-<ul><li>（待补充：通过 GO 数据库查询该蛋白所属的已知复合体）</li></ul>
+<ul><li>（暂无数据：通过 GO 数据库查询该蛋白所属的已知复合体）</li></ul>
 <p><strong>评价</strong>: AFF4 的 PPI , IWS1 (偶联转录延伸与 H3K36 甲基化), CTDP1 (RNA Pol II CTD 磷酸酶)，以及与 MeCP2 (DNA 甲基化阅读器) 的直接互作。这些连接将 AFF4 置于转录延伸、组蛋白修饰和 DNA 甲基化三者的交叉路口，PPI + GO (euchromatin, nucleoplasm, nuclear body) + Protein Atlas (nucleoplasm, Supported) → <strong>+0.5</strong></p>
 <ul><li>三维结构互证: AlphaFold高置信度C端CHD域(pLDDT&gt;90)在PDB中有X-ray实验结构吻合(6K7P/6KN5/6R80, 2.0-2.4A) → <strong>+0.5</strong>; 实验结构fold与AF预测一致 → <strong>+0.5</strong></li><li>结构域: 未达到 3 独立来源 → 0</li><li>PPI 互证: 无法获取 humanPPI → 0</li><li>进化保守性: 未评估 → 0</li></ul>
 <p><strong>总分</strong>: +1.5 / max +3</p>
@@ -133,14 +136,30 @@
 <p><strong>风险/不确定性</strong>: 1. 与 AFF1 相同，~68% 无序，传统结构生物学方法不适用 2. IDP 的生化研究具有技术挑战性 3. AFF1/AFF4 功能冗余性需要在实验设计中仔细控制 4. CHOPS 综合征的分子机制尚不完全清楚，疾病模型可能存在复杂性</p>
 <p><strong>下一步建议</strong>:</p>
 <ul><li>[ ] 重点方向: AFF4-MeCP2-SEC 轴在 DNA 甲基化依赖性转录调控中的作用</li><li>[ ] 利用 CHOPS 综合征突变体作为功能探针，研究 AFF4 结构域功能</li><li>[ ] 探索 AFF4 与 AFF1 在 SEC 中功能分工的组织特异性</li><li>[ ] IDP 介导的 LLPS 在 SEC 组装中的角色</li><li>[ ] AFF4 在神经发育中的独立功能 (通过 MeCP2/CHOPS 角度切入)</li></ul>
+<h4>PPI 互作网络</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>互作伙伴</th><th>来源</th><th>评分</th></tr></thead><tbody>
+<tr><td>ELL2</td><td>STRING</td><td>999</td></tr>
+<tr><td>MLLT1</td><td>STRING</td><td>999</td></tr>
+<tr><td>CCNT1</td><td>STRING</td><td>999</td></tr>
+<tr><td>ELL</td><td>STRING</td><td>999</td></tr>
+<tr><td>MEN</td><td>STRING</td><td>999</td></tr>
+<tr><td>CCNT2</td><td>STRING</td><td>999</td></tr>
+<tr><td>AFF1</td><td>STRING</td><td>999</td></tr>
+<tr><td>AF-4</td><td>STRING</td><td>999</td></tr>
+</tbody></table></div>
+<h4>TE 调控评估</h4>
+<p>该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。</p>
+<h4>HPA IF 图像</h4>
+<p><figure><img src="https://images.proteinatlas.org/29634/1261_A12_1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/29634/1261_A12_6_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/29634/1184_G9_1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/29634/1184_G9_8_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/29634/1055_F8_2_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/29634/1055_F8_4_blue_red_green.jpg" alt="image"></figure></p>
 <h4>5. 数据来源</h4>
 <ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9UHB7</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000072364-AFF4/subcellular</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22AFF4%22 (E-utils API)</li><li>STRING: https://string-db.org (API)</li><li>InterPro: https://www.ebi.ac.uk/interpro/protein/uniprot/Q9UHB7/ (API)</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9UHB7</li><li>- humanPPI: 无法访问 </li></ul>
 <h5>PPI 网络（三源综合）</h5>
 <div class="table-wrap"><table>
 <thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th></tr></thead><tbody>
-<tr><td>无记录</td><td>—</td><td>—</td></tr>
+<tr><td>暂无互作数据</td></tr>
 </tbody></table></div>
-<p>IntAct 有限记录。无 BioGrid 补充数据。</p>
+<p>暂无实验验证互作。无 BioGrid 补充数据。</p>
 <p><figure><img src="../../detail/nucleolus/AFF4/AFF4-PAE.png" alt="AFF4-PAE.png"></figure></p>
 <p>PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。</p>
 <p><figure><img src="../../detail/nucleolus/AFF4/AFF4-PAE.png" alt="AFF4-PAE.png"></figure></p>

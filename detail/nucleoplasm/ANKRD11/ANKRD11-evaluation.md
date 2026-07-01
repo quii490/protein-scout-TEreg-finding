@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | ANKRD11 / ANCO1 |
+| 蛋白名称 | Ankyrin repeat domain-containing protein 11 |
 | 蛋白大小 | 2663 aa / 297.9 kDa |
 | UniProt ID | Q6UB99 (Swiss-Prot) |
 | 评估日期 | 2026-05-28 |
@@ -168,6 +169,43 @@ status: scored
 - [ ] 考虑 N 端 ANK 重复区（aa 167-292）分段表达和结构研究
 - [ ] 评估 TE 调控中 ANKRD11 是否参与转座子区域的组蛋白修饰调控
 - [ ] 检索 humanPPI 完善 PPI 互证
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NCOA3 | BioGRID | 0 |
+| NCOA2 | BioGRID | 0 |
+| HDAC3 | BioGRID | 0 |
+| BZRAP1 | BioGRID | 0 |
+| CDCA7L | BioGRID | 0 |
+| GOLGA2 | BioGRID | 0 |
+| HOOK2 | BioGRID | 0 |
+| IKZF1 | BioGRID | 0 |
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/19288/618_C4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/19288/618_C4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/19288/611_C4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/19288/611_C4_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/19288/614_C4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/19288/614_C4_2_blue_red_green.jpg)
+
+
+### PubMed
+
+**Count: 244**
+
+| PMID | Title |
+|---|---|
+| 42322264 | Insights into ANKRD11-related epilepsy from 163 people. |
+| 29565525 | ANKRD11-Related KBG Syndrome. |
+| 42143056 | Dysfunction of a SET3-like complex underlies a family of related neurological disorders. |
+| 42006789 | Epigenetic Signatures in Monozygotic and Dizygotic Twins Discordant for Orofacial Clefts. |
+| 41957673 | Chromatinopathies: clinically overlapping disorders, revealing novel variants and their DNA methylation signatures. |
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q6UB99

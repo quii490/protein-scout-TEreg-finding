@@ -155,6 +155,34 @@ pm: 55
 - [ ] 研究 CCAR1 在 alternative splicing 中是否影响 TE 衍生外显子
 - [ ] ChIP-seq 鉴定全基因组（含 TE）结合位点
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PRPF40A | STRING | 935 |
+| TCERG1 | STRING | 920 |
+| RBM5 | STRING | 910 |
+| RBM25 | STRING | 882 |
+| RBM39 | STRING | 875 |
+| SRRT | STRING | 857 |
+| DHX9 | STRING | 851 |
+| DDX5 | STRING | 836 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 实验数据，可能在基因组水平参与 TE 调控。建议分析 ChIP 峰在 TE 区域的富集情况。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/7856/21_B5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/7856/21_B5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/7856/22_B5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/7856/22_B5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/7856/20_B5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/7856/20_B5_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=CCAR1
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000060339-CCAR1

@@ -16,6 +16,7 @@ tags: [protein-scout, sperm, evaluation]
 - **IF 可靠性:** 未获取
 - **PubMed:** 50 篇
 - **精子定位部位:** Calyx、Perinuclear theca (2 个)
+- **UniProt Subcellular Location:** Cytoplasm, cytoskeleton, perinuclear theca, calyx
 
 ## 2. HPA 精子定位证据
 - **来源:** Calyx、Perinuclear theca ✓
@@ -26,7 +27,9 @@ tags: [protein-scout, sperm, evaluation]
 
 
 ## 3. UniProt / GO-CC 精子定位证据
-*待 UniProt/GO-CC 采集。*
+**UniProt Subcellular Location:** Cytoplasm, cytoskeleton, perinuclear theca, calyx
+
+*GO-CC 精子相关条目待进一步查询。*
 
 ## 4. PubMed 文献证据
 - **文献数:** 50 篇 (中等研究量)

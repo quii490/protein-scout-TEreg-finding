@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | TLE6 / GRG6 |
+| 蛋白名称 | Transducin-like enhancer protein 6 |
 | 蛋白全名 | Transducin-like enhancer protein 6 |
 | 蛋白大小 | 572 aa / 63.5 kDa |
 | UniProt ID | Q9H808 |
@@ -124,6 +125,24 @@ status: scored
 TLE6 是 SCMC (subcortical maternal complex) 的核心组分，属于 TLE/Groucho 转录辅抑制因子家族。SCMC 功能明确(early embryonic development)，且是 human infertility 致病基因。TLE 家族本身是经典转录 repressor，但 TLE6 的核定位证据较弱(by similarity)。WD40 结构域有实验结构。PPI 以 SCMC 为核心，TCF3/TLE5 互作提供转录调控潜力。
 
 **推荐**: 中等优先级。TLE/Groucho 家族背景暗示转录调控潜力，但核定位证据不足，以 cytoplasmic lattice/SCMC 功能为主。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| OOEP | STRING | 999 |
+| PADI6 | STRING | 950 |
+| NLRP2 | STRING | 813 |
+| NBS1 | STRING | 813 |
+| HLF | STRING | 788 |
+| TLE5 | STRING | 781 |
+| FOXG1 | BioGRID | 1 |
+| TLE6 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprot/Q9H808

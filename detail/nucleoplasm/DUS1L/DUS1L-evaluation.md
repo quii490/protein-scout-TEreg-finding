@@ -164,6 +164,34 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TRMT11 | STRING | 821 |
+| WDR36 | STRING | 819 |
+| BYSL | STRING | 735 |
+| TRMT61A | STRING | 732 |
+| NOC4L | STRING | 708 |
+| NAT10 | STRING | 706 |
+| HJURP | BioGRID | 1 |
+| DAPK1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### PubMed
+
+**Count: 2**
+
+| PMID | Title |
+|---|---|
+| 39354220 | Human DUS1L catalyzes dihydrouridine modification at tRNA positions 16/17, and DUS1L overexpression perturbs translation. |
+| 35443089 | Parallel-reaction monitoring revealed altered expression of a number of epitranscriptomic reader, writer, and eraser proteins accompanied with colorec |
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q6P1R4
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000169718-DUS1L/subcellular

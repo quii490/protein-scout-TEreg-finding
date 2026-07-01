@@ -174,6 +174,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RPGRIP1L | STRING | 999 |
+| CEP290 | STRING | 976 |
+| INVS | STRING | 959 |
+| LATS1 | STRING | 923 |
+| SDCCAG8 | STRING | 875 |
+| CEP164 | STRING | 748 |
+| JADE1 | STRING | 729 |
+| LATS2 | STRING | 701 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O75161
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000131697-NPHP4/subcellular

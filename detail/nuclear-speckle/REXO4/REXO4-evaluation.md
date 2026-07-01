@@ -170,6 +170,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TRMT61A | STRING | 819 |
+| DDX55 | STRING | 811 |
+| RBM34 | STRING | 805 |
+| PPAN | STRING | 793 |
+| IMP4 | STRING | 784 |
+| NIP7 | STRING | 772 |
+| CALCOCO2 | STRING | 757 |
+| ABT1 | STRING | 742 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9GZR2
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000148300-REXO4/subcellular

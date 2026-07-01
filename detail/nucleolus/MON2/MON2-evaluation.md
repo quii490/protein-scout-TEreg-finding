@@ -181,6 +181,24 @@ nuclear_score: 4
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| GGA1 | BioGRID | 0 |
+| GGA3 | BioGRID | 0 |
+| MMS19 | BioGRID | 0 |
+| EGFR | BioGRID | 0 |
+| ANKFY1 | BioGRID | 0 |
+| ROCK1 | BioGRID | 0 |
+| PAAF1 | BioGRID | 0 |
+| TNFSF13B | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q7Z3U7
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000061987-MON2

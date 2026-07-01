@@ -54,6 +54,53 @@ status: scored
 
 SPATA13 is 652 amino acids in length (~74.8 kDa). Ideal size (652 aa), suitable for standard biochemical experiments. Score 10/10.
 
+### 功能描述
+
+Acts as a guanine nucleotide exchange factor (GEF) for RHOA, RAC1 and CDC42 GTPases. Regulates cell migration and adhesion assembly and disassembly through a RAC1, PI3K, RHOA and AKT1-dependent mechanism. Increases both RAC1 and CDC42 activity, but decreases the amount of active RHOA. Required for MMP9 up-regulation via the JNK signaling pathway in colorectal tumor cells. Involved in tumor angiogenesis and may play a role in intestinal adenoma formation and tumor progression
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| APC | STRING | 983 |
+| YWHAE | STRING | 772 |
+| RAC1 | STRING | 709 |
+| KHDRBS1 | BioGRID | 1 |
+| YWHAZ | BioGRID | 1 |
+| YWHAG | BioGRID | 1 |
+| YWHAB | BioGRID | 1 |
+| GLDC | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/40185/461_C3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40185/461_C3_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40185/462_C3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40185/462_C3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40185/464_C3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40185/464_C3_2_blue_red_green.jpg)
+
+
+### PubMed
+
+**Count: 41**
+
+| PMID | Title |
+|---|---|
+| 42261590 | Targeting the Spata13-TGFβRI interaction inhibits infection-driven capsular contracture via suppression of fibroblast activation. |
+| 41711658 | Single-Cell Sequencing Combined with RNA Sequencing Reveals the Role of Natural Killer Cells in Prognosis and Immunotherapy Response in Cervical Squam |
+| 41366292 | Genome-wide association study reveals novel loci associated with body size and carcass yields in Shaoxing ducks. |
+| 41358093 | Identification of Neurotrophic Factor Related Biomarkers and Mechanistic Insights into Neuropathic Pain via Integrated Bioinformatics Analysis. |
+| 41299718 | Overexpression of Hspa1b in the mouse hippocampus may be associated with major depressive disorder. |
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

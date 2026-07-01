@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | BCDIN3D / 无 |
+| 蛋白名称 | RNA 5'-monophosphate methyltransferase |
 | 蛋白全名 | RNA 5'-monophosphate methyltransferase |
 | 蛋白大小 | 292 aa / 33.2 kDa |
 | UniProt ID | Q7Z5W3 (BCDIN3D_HUMAN) |
@@ -53,6 +54,37 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 3. PMID 33664453: Reinsborough CW, Ipas H, Abell NS (2021 Apr). "BCDIN3D RNA methyltransferase stimulates Aldolase C expression and glycolysis through let-7 microRNA in breast cancer cells.." *Oncogene*.
 4. PMID 36102151: Soto-Pedre E, Newey PJ, Srinivasan S (2022 Nov 25). "Identification of 4 New Loci Associated With Primary Hyperparathyroidism (PHPT) and a Polygenic Risk Score for PHPT.." *The Journal of clinical endocrinology and metabolism*.
 5. PMID 33157501: Jin M, Wang L, Zheng T (2021 Feb). "MiR-195-3p inhibits cell proliferation in cervical cancer by targeting BCDIN3D.." *Journal of reproductive immunology*.
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ELAVL1 | BioGRID | 0 |
+| CUL3 | BioGRID | 0 |
+| ZFP2 | BioGRID | 0 |
+| SIX2 | BioGRID | 0 |
+| DDX39A | BioGRID | 0 |
+| RELL2 | BioGRID | 0 |
+| ACACB | BioGRID | 0 |
+| SOX2 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### PubMed
+
+**Count: 21**
+
+| PMID | Title |
+|---|---|
+| 38263329 | ChemRAP uncovers specific mRNA translation regulation via RNA 5' phospho-methylation. |
+| 36345912 | Obesity-Related Single-Nucleotide Polymorphisms and Weight Gain Following First-Line Antiretroviral Therapy. |
+| 36102151 | Identification of 4 New Loci Associated With Primary Hyperparathyroidism (PHPT) and a Polygenic Risk Score for PHPT. |
+| 34517959 | Facile detection of RNA phospho-methylation in cells and tissues. |
+| 33664453 | BCDIN3D RNA methyltransferase stimulates Aldolase C expression and glycolysis through let-7 microRNA in breast cancer cells. |
+
 
 ### 5. AlphaFold 结构预测
 

@@ -83,3 +83,22 @@ Source: https://www.proteinatlas.org/ENSG00000196912-ANKRD36B/interaction
 |---|---|:--:|
 | FAM9B | Intact | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| FAM9B | BioGRID | 0 |
+| GAN | BioGRID | 0 |
+| KIAA1429 | BioGRID | 0 |
+| NDUFB7 | BioGRID | 0 |
+| TXN2 | BioGRID | 0 |
+| EHHADH | BioGRID | 0 |
+| EXOC8 | BioGRID | 0 |
+| GLIS2 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。

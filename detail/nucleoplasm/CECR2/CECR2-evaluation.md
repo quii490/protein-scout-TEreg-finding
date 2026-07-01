@@ -84,6 +84,24 @@ PPI 网络核心为 ISWI 染色质重塑家族（SMARCA1/SNF2L, SMARCA5/SNF2H）
 ### 4. 总体评价
 CECR2 是 ISWI 染色质重塑 CERF 复合体的调控亚基，核定位证据极度坚实（功能即染色质），含 bromodomain 为可靶向结构域。主要劣势为蛋白巨大（1484 aa / 164 kDa）、AF 全长预测质量差（71.5%无序）、PDB 仅覆盖 bromodomain。PubMed=45 属中低文献量，发育生物学为主导方向，癌症角色为新探索方向。bromodomain 为可药靶结构域（已有抑制剂 NVS-CECR2-1），值得关注。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SMARCA1 | STRING | 999 |
+| SMARCA5 | STRING | 997 |
+| BAZ1A | STRING | 941 |
+| BPTF | STRING | 925 |
+| HMGXB4 | STRING | 922 |
+| RBBP4 | STRING | 914 |
+| C17ORF49 | STRING | 900 |
+| BAZ1B | STRING | 874 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9BXF3
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9BXF3

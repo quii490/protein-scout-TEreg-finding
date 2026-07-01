@@ -152,6 +152,24 @@ UniProt + GO 核定位互证 (+1)
 - [ ] 基于 PPI 网络开展功能研究
 - [ ] 结构分析: 基于 AlphaFold 的突变设计
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TLE3 | STRING | 917 |
+| TLE4 | STRING | 900 |
+| TLE1 | STRING | 865 |
+| TLE5 | STRING | 858 |
+| RIPPLY2 | STRING | 824 |
+| HES1 | STRING | 820 |
+| LEF1 | STRING | 805 |
+| RIPPLY1 | STRING | 803 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=TLE2
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000065717-TLE2
@@ -164,9 +182,9 @@ UniProt + GO 核定位互证 (+1)
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[TLE2-PAE.png]]
 

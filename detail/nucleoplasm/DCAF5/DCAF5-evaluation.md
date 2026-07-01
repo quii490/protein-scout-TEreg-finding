@@ -160,6 +160,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| DDB1 | STRING | 998 |
+| CUL4A | STRING | 970 |
+| DCAF4 | STRING | 958 |
+| CUL4B | STRING | 955 |
+| DCAF12 | STRING | 954 |
+| DCAF10 | STRING | 952 |
+| DDB2 | STRING | 945 |
+| DCAF6 | STRING | 942 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/41575/474_D1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41575/474_D1_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41575/510_D1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41575/510_D1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41575/480_D1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41575/480_D1_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96JK2
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000139990-DCAF5/subcellular

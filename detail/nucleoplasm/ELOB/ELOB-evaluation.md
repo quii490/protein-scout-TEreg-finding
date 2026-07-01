@@ -172,6 +172,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RBX1 | STRING | 999 |
+| VHL | STRING | 999 |
+| ELOA | STRING | 999 |
+| CUL2 | STRING | 999 |
+| RNF7 | STRING | 999 |
+| ELOC | STRING | 999 |
+| HIF1A | STRING | 999 |
+| CBFB | STRING | 999 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q15370
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000103363-ELOB/subcellular

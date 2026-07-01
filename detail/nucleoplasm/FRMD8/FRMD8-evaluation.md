@@ -1,0 +1,107 @@
+---
+type: protein-evaluation
+gene: "FRMD8"
+date: 2026-06-27
+tags: [protein-scout, nuclear-protein, evaluation, shortlisted]
+status: shortlisted
+---
+
+## FRMD8 核蛋白评估报告
+
+### 1. 基本信息
+| 项目 | 内容 |
+|---|---|
+| 基因名 | FRMD8 |
+| 蛋白名称 | FERM domain-containing protein 8 |
+| 蛋白大小 | 464 aa / 51.2 kDa |
+| UniProt ID | Q9BZ67 |
+| 评估日期 | 2026-06-27 |
+
+### 2. 评分总览 (新权重)
+
+| 维度 | 得分 | 新权重 | 加权后 | 关键证据摘要 |
+|---|---|---|---|---|
+| 核定位特异性 | 9/10 | x4 | 36.0 | Centriolar satellite; Cytosol; Nucleoplasm; Plasma (Approved) |
+| 蛋白大小 | 9/10 | x1 | 9.0 | 464 aa |
+| 新颖性 | 9/10 | x5 | 45.0 | PubMed=22 |
+| 三维结构 | 6/10 | x3 | 18.0 | pLDDT=79.4; PDB=0 |
+| 调控结构域 | 4/10 | x2 | 8.0 | Band_41_domain; FERM/acyl-CoA-bd_prot_sf; FERM_2 |
+| PPI | 5/10 | x3 | 15.0 | PPI degree=19 |
+| **加权总分** | | | **131/180** | |
+| **归一化总分** | | | **72.7/100** | 互证: +2 |
+
+### 3. 分析
+- Centriolar satellite; Cytosol; Nucleoplasm; Plasma membrane (Approved)
+- PubMed strict=22 broad=24
+- AF pLDDT=79.4 PDB=0
+- InterPro: Band_41_domain; FERM/acyl-CoA-bd_prot_sf; FERM_2
+- Pfam: FERM_M; KRIT1_FRMD8_FERM_C
+- PPI degree=19 ChIP: None
+39129223: Whole exome sequencing analyses identified novel genes for Alzheimer's disease a | 36171622: Long non-coding RNA NEAT1 mediated RPRD1B stability facilitates fatty acid metab | 40619383: FRMD8 inhibits tumor metastasis in BRCA1-associated TNBC by negatively regulatin
+
+### 4. 总体评价
+**72.7/100** | **nucleoplasm**
+Nuclear protein
+
+
+### 补充分析 (UniProt API)
+
+**蛋白全称**: FERM domain-containing protein 8
+
+**功能**: Promotes the cell surface stability of iRhom1/RHBDF1 and iRhom2/RHBDF2 and prevents their degradation via the endolysosomal pathway. By acting on iRhoms, involved in ADAM17-mediated shedding of TNF, amphiregulin/AREG, HBEGF and TGFA from the cell surface (PubMed:29897333, PubMed:29897336). Negatively regulates Wnt signaling, possibly by antagonizing the recruitment of AXIN1 to LRP6 (PubMed:19572019)
+
+**结构域**:
+
+| 来源 | ID |
+|---|---|
+| InterPro | IPR019749 |
+| InterPro | IPR014352 |
+| InterPro | IPR035963 |
+| InterPro | IPR019748 |
+| InterPro | IPR000299 |
+| InterPro | IPR051594 |
+
+**TE 调控评估**: 该蛋白缺乏核定位证据，TE调控潜力极低。
+
+---
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| IKBKG | BioGRID | 1 |
+| ELAVL1 | BioGRID | 1 |
+| APP | BioGRID | 1 |
+| RPS14 | BioGRID | 1 |
+| ZNF446 | BioGRID | 1 |
+| ZNF474 | BioGRID | 1 |
+| HIST1H1E | BioGRID | 1 |
+| ZNF423 | BioGRID | 1 |
+
+
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q9BZ67-F1-predicted_aligned_error_v6.png)
+
+### HPA IF 图像
+
+HPA: https://www.proteinatlas.org/ENSG00000126391-FRMD8
+
+![](https://images.proteinatlas.org/2861/63_B11_1_red_green.jpg)
+![](https://images.proteinatlas.org/2861/63_B11_2_red_green.jpg)
+![](https://images.proteinatlas.org/2861/93_B11_1_red_green.jpg)
+![](https://images.proteinatlas.org/2861/93_B11_2_red_green.jpg)
+![](https://images.proteinatlas.org/2861/62_B11_1_red_green.jpg)
+![](https://images.proteinatlas.org/2861/62_B11_2_red_green.jpg)
+
+### PubMed 文献
+
+**PubMed count: 24**
+
+| 41985336 | Connecting chromatin to cell invasion: MALAT1-PRC2 complex epigenetically controls trophoblast activity via FRMD8-ADAM17 | Eur J Cell Biol 2026 |
+| 41898689 | A Cytokine-Related Gene Signature for Pan-Cancer Prognostic Stratification and Malignant Phenotype Characterization. | Int J Mol Sci 2026 |
+| 41498149 | Circulating MALAT1 in Preeclampsia and Association With Cardiometabolic Risk. | Hypertension 2026 |
+
+### HPA IF 图像
+
+HPA 检索: https://www.proteinatlas.org/search/FRMD8
+

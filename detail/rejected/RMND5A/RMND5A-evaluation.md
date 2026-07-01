@@ -53,6 +53,51 @@ status: scored
 
 RMND5A is 391 amino acids in length (~44.0 kDa). 391 aa, ideal range. Score 10/10.
 
+### 功能描述
+
+Core component of the CTLH E3 ubiquitin-protein ligase complex that selectively accepts ubiquitin from UBE2H and mediates ubiquitination and subsequent proteasomal degradation of the transcription factor HBP1. MAEA and RMND5A are both required for catalytic activity of the CTLH E3 ubiquitin-protein ligase complex (PubMed:29911972). Catalytic activity of the complex is required for normal cell proliferation (PubMed:29911972). The CTLH E3 ubiquitin-protein ligase complex is not required for the de
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| GID8 | STRING | 999 |
+| RANBP9 | STRING | 997 |
+| WDR26 | STRING | 997 |
+| ARMC8 | STRING | 996 |
+| RANBP10 | STRING | 977 |
+| MAEA | STRING | 969 |
+| YPEL5 | STRING | 943 |
+| RMND5B | STRING | 901 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/60843/1171_H8_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/60843/1171_H8_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/60843/1104_A6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/60843/1104_A6_3_blue_red_green.jpg)
+
+
+### PubMed
+
+**Count: 26**
+
+| PMID | Title |
+|---|---|
+| 41284154 | RMND5A upregulation via IGF2BP3-mediated m(6)A RNA modification enhances malignant traits and immune evasion in laryngeal squamous cell carcinoma cell |
+| 41258755 | GSK3β Regulates a Novel β-Catenin Degradation Pathway via the GID Complex in Wnt Signaling. |
+| 41050213 | Identification of novel high-risk genes in gastric cancer through single-cell RNA sequencing, eQTL Mendelian randomization, and in vitro validation. |
+| 40883813 | RANBP9 and RANBP10 cooperate in regulating non-small cell lung cancer proliferation. |
+| 40377017 | E3 ubiquitin ligase RMND5A maintains the self-renewal state of human neural stem/precursor cells by regulating Wnt and mTOR signaling pathways. |
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

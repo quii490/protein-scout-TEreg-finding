@@ -65,7 +65,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 
 **关键文献**:
 1. MIER2/PGC1A elicits sunitinib resistance via lipid metabolism in renal cell carcinoma.. *Journal of advanced research*. PMID: 38702028
-2. The stem cell-supporting small molecule UM171 triggers Cul3-KBTBD4-mediated degradation of ELM2 domain-harboring proteins.. *The Journal of biological chemistry*. PMID: 36997086
+2. The stem cell-supporting small molecule UM171 triggers Cul3-KB暂无数据4-mediated degradation of ELM2 domain-harboring proteins.. *The Journal of biological chemistry*. PMID: 36997086
 3. Hsa_circ_0002005 aggravates osteosarcoma by increasing cell proliferation, migration, and invasion.. *Gene*. PMID: 39761802
 4. Integrative Structural Modeling of Intrinsically Disordered Regions in a Human HDAC2 Chromatin Remodeling Complex.. *bioRxiv : the preprint server for biology*. PMID: 41928988
 5. Potential prognostic biomarker MIER2 in colon adenocarcinoma: from data mining to validation.. *Clinical and experimental medicine*. PMID: 41137984
@@ -169,6 +169,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| HDAC2 | STRING | 791 |
+| CDYL | STRING | 749 |
+| TFDP1 | STRING | 744 |
+| E2F6 | STRING | 717 |
+| L3MBTL2 | STRING | 705 |
+| HDAC1 | BioGRID | 1 |
+| NDN | BioGRID | 1 |
+| SIN3A | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8N344

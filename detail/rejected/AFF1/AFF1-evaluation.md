@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | AFF1 / AF4, MLLT2, PBM1, proto-oncogene AF4 |
+| 蛋白名称 | AF4/FMR2 family member 1 |
 | 蛋白大小 | 1210 aa / 131.4 kDa |
 | UniProt ID | P51825 |
 | 评估日期 | 2026-05-28 |
@@ -158,6 +159,47 @@ status: scored
 - [ ] 利用 IDP 特征，探索 LLPS 和转录凝聚体形成
 - [ ] 关注 AFF1 与 KMT2A/DOT1L 的互作如何协调转录延伸与组蛋白修饰
 - [ ] 考虑冷冻电镜 (cryo-EM) 研究 SEC 全复合体结构 (而非单独 AFF1)
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ELL2 | STRING | 999 |
+| MLLT1 | STRING | 999 |
+| CCNT1 | STRING | 999 |
+| ELL | STRING | 999 |
+| MEN | STRING | 999 |
+| AFF4 | STRING | 999 |
+| CDK9 | STRING | 999 |
+| MLLT3 | STRING | 999 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/69947/1523_E3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/69947/1523_E3_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/69947/1486_A4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/69947/1486_A4_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/69947/1496_A4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/69947/1496_A4_11_blue_red_green.jpg)
+
+
+### PubMed
+
+**Count: 362**
+
+| PMID | Title |
+|---|---|
+| 42296977 | Inotuzumab ozogamicin in paediatric very high risk first B-cell acute lymphoblastic leukaemia relapse (ITCC-059): a multicentre, single-arm, phase 2 t |
+| 42245927 | FusionTarget: Computational framework for drug repurposing against modeled fusion protein structures from genomic breakpoints. |
+| 42242459 | Inhibition of MLLT1 Limits Growth of KMT2A::AFF1 Leukemias Without Killing Healthy Hematopoietic Stem Cells. |
+| 42223251 | Central nervous system involvement and relapse in adult acute lymphoblastic leukaemia-a population-based analysis in 2007-2022. |
+| 42217088 | An integrated multi-omics analysis reveals a core epigenetically-activated transcriptional network driving oncogenic signaling in acute myeloid leukem |
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P51825

@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | CLNS1A / Methylosome subunit pICln |
+| 蛋白名称 | Methylosome subunit pICln |
 | 蛋白大小 | 237 aa / 26.2 kDa |
 | UniProt ID | P54105 |
 | 评估日期 | 2026-05-30 |
@@ -54,7 +55,7 @@ status: scored
 | 指标 | 数值 |
 |------|------|
 | PubMed 总数 | 64 |
-| 研究方向 | 待补充关键文献摘要 |
+| 研究方向 | 暂无数据关键文献摘要 |
 
 **评价**: 有一定研究基础，但仍存在未探索的niche空间。
 
@@ -160,6 +161,34 @@ status: scored
 - [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
 - [ ] 设计体外 DNA/染色质结合实验
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PRMT5 | BioGRID | 0 |
+| ITGA2B | BioGRID | 0 |
+| SNRPD3 | BioGRID | 0 |
+| SNRPD1 | BioGRID | 0 |
+| SNRPB | BioGRID | 0 |
+| SNRPD2 | BioGRID | 0 |
+| SNRPE | BioGRID | 0 |
+| WDR77 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/17840/623_B11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/17840/623_B11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/17840/627_B11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/17840/627_B11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/17840/620_B11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/17840/620_B11_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P54105
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CLNS1A
@@ -169,9 +198,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[CLNS1A-PAE.png]]
 

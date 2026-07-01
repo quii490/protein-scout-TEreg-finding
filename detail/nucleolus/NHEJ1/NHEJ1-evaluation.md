@@ -160,6 +160,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PRKDC | STRING | 999 |
+| XRCC6 | STRING | 999 |
+| XRCC5 | STRING | 999 |
+| XRCC4 | STRING | 999 |
+| LIG4 | STRING | 999 |
+| PAXX | STRING | 999 |
+| DCLRE1C | STRING | 992 |
+| ATM | STRING | 982 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9H9Q4
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000187736-NHEJ1/subcellular

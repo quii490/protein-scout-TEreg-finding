@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | CENPP / CENPP |
+| 蛋白名称 | Centromere protein P |
 | 蛋白大小 | 288 aa / ~31.7 kDa |
 | UniProt ID | Q6IPU0 |
 | 评估日期 | 2026-05-29 |
@@ -147,6 +148,34 @@ status: scored
 - [ ] SMART 结构域分析评估调控潜力
 - [ ] 深入文献检索确认已知功能
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MLF1IP | STRING | 999 |
+| CENPU | STRING | 999 |
+| CENPH | STRING | 999 |
+| CENPQ | STRING | 999 |
+| ITGB3BP | STRING | 999 |
+| CENPI | STRING | 999 |
+| CENPO | STRING | 999 |
+| CENPN | STRING | 999 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/58945/1416_B1_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/58945/1416_B1_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/58945/1375_G12_12_blue_red_green.jpg)
+![](https://images.proteinatlas.org/58945/1375_G12_13_blue_red_green.jpg)
+![](https://images.proteinatlas.org/58945/1384_G12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/58945/1384_G12_3_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q6IPU0
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q6IPU0
@@ -158,9 +187,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CENPP/CENPP-PAE.png]]

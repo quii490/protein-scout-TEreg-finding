@@ -161,7 +161,26 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PFDN5 | BioGRID | 0 |
+| LDLRAP1 | BioGRID | 0 |
+| SERTAD2 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### 深度机制分析
+
+ESPNL编码Espin样蛋白（Q6ZVH7），属于Espin/ankyrin重复蛋白家族的actin捆绑因子。其域架构由三个功能模块串联构成：（1）N端的IPR002110/IPR036770（ANK/ANK重复结构域）形成了典型的ankyrin重复螺旋束——这一模块通常介导蛋白-蛋白相互作用，在Espin家族中负责将actin捆绑蛋白锚定于静纤毛的根部；（2）C端的IPR052420定义了Espin样蛋白特有的actin捆绑序列，含有多个WH2（WASP同源结构域2）样actin单体结合基序，可直接结合G-actin并以高亲和力交联F-actin丝；（3）SMART SM00248进一步确认了ankyrin重复的规范折叠特征。然而，AlphaFold v6预测质量有限（pLDDT=64.7，有序区仅50.6%，低置信区占37.3%）——这一中等质量的预测反映了大尺寸蛋白（1005 aa）中约500个残基可能处于固有无序状态，这些无序区可能作为柔性间隔区连接actin结合模块或参与机械感应。
+
+PPI网络极致集中在内耳毛细胞静纤毛的actin动力学通路。STRING最高分互作（MYO3B=0.962/实验分数=0.412、MYO3A=0.958）指向ESPNL作为非典型myosin-III（Myo3a/3b）的货物适配器——Myo3在静纤毛尖端向顶端的定向运输中携带Espin和其他actin捆绑蛋白到达actin filament的加端，使用其N端激酶结构域而非马达结构域进行尖端定位。EPS8（0.885/实验分数0.045）和EPS8L2（0.912/实验分数0.045）——表皮生长因子受体通路底物8及其同源物——是actin重塑的多价信号接头，含有SH3和PPIase结构域，它们与Espin/ESPNL形成尖端复合体（tip complex）核心组件。WHRL（0.908）、MYO15A（0.910）和TWF2（0.888）进一步扩展了静纤毛尖端力学感应和actin动态周转的功能网络。IntAct实验互作（LDLRAP1、PFDN5、SERTAD2，均来自PMID:32296183的验证酵母双杂交）提供了ESPNL在更广泛蛋白网络中低置信度附加互作。
+
+仅5篇PubMed文献使ESPNL成为极度新颖的研究靶点，但其核定位得分仅4/10（HPA主要定位于胞质，核质和核小体仅为附加信号）且所有已知生物学功能严格限定于细胞质actin细胞骨架组织。核质/核小体的HPA附加信号可能代表抗体的非特异性交叉反应或ESPNL在核孔复合体附近的瞬时存在——actin及其捆绑蛋白近年来被发现在核质中参与染色质重塑复合体（INO80、SWR1、SWI/SNF）和RNA聚合酶II转录延伸的功能调控。若ESPNL确实以低丰度存在于核质，其actin捆绑活性理论上可能影响核actin聚合动力学，间接调节依赖核actin的转录机器。但这一假说目前缺乏任何实验数据支持——ESPNL的内耳病学研究（PMID:33151556）和肿瘤甲基化研究（PMID:30898391、PMID:33188484）均未涉及核功能。TE调控潜力评估为极低概率。
 - UniProt: https://www.uniprot.org/uniprotkb/Q6ZVH7
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000144488-ESPNL/subcellular
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=ESPNL

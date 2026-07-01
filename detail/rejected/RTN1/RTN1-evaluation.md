@@ -52,6 +52,53 @@ status: scored
 
 RTN1 is 776 amino acids in length (~83.6 kDa). 776 aa, workable range. Score 7/10.
 
+### 功能描述
+
+Inhibits amyloid precursor protein processing, probably by blocking BACE1 activity
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SPAST | STRING | 904 |
+| ATL1 | STRING | 848 |
+| BCL2L1 | BioGRID | 1 |
+| HDAC8 | BioGRID | 1 |
+| SDCBP | BioGRID | 1 |
+| FGFR1 | BioGRID | 1 |
+| DYRK2 | BioGRID | 1 |
+| PLSCR1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/40945/1035_F1_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40945/1035_F1_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40945/992_G1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40945/992_G1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40945/1001_G1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40945/1001_G1_3_blue_red_green.jpg)
+
+
+### PubMed
+
+**Count: 163**
+
+| PMID | Title |
+|---|---|
+| 42186460 | Identification and validation of a seven-gene metastasis-associated prognostic model in breast cancer. |
+| 41952686 | Novel transcriptomic alterations in poorly differentiated endometrial carcinomas: evidence from South African women. |
+| 41940502 | Toxoplasma gondii effector GRA35 mediates neuronal damage via ER stress and mitochondria-associated apoptosis. |
+| 41751001 | Genomic Insights into the Origins, Population Structure, and Local Adaptation of Philippine Visayan Native Cattle. |
+| 41439979 | Psychosomatic Disorders, Epigenome, and Gut Microbiota. |
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

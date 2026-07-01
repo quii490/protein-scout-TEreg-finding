@@ -164,6 +164,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| GTF2H3 | BioGRID | 1 |
+| GTF2H2C | BioGRID | 1 |
+| ERCC3 | BioGRID | 1 |
+| GTF2F1 | BioGRID | 1 |
+| GTF2H1 | BioGRID | 1 |
+| GTF2H4 | BioGRID | 1 |
+| PRMT2 | BioGRID | 1 |
+| ACP1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9NQV5
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000019485-PRDM11/subcellular

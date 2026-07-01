@@ -176,6 +176,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ATRIP | STRING | 913 |
+| RPA2 | STRING | 862 |
+| TOPBP1 | STRING | 834 |
+| RPA1 | STRING | 770 |
+| ATR | STRING | 747 |
+| BRCA1 | STRING | 735 |
+| HERC2 | BioGRID | 1 |
+| ZBTB48 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/35048/378_B9_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35048/378_B9_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35048/383_B9_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35048/383_B9_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35048/376_B9_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35048/376_B9_4_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9NY74
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000143971-ETAA1/subcellular

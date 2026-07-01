@@ -152,6 +152,34 @@ HORMAD1 是明确的 meiotic chromosome axis 蛋白，HPA Approved 核定位。H
 - 鉴定 soma 中的 HORMAD1 互作伙伴
 - 条件性表达/敲除实验
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SYCP3 | STRING | 973 |
+| CCDC36 | STRING | 948 |
+| MSH4 | STRING | 942 |
+| SPO11 | STRING | 901 |
+| SYCP1 | STRING | 878 |
+| REC8 | STRING | 852 |
+| TRIP13 | STRING | 781 |
+| MAD2L2 | STRING | 781 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/28346/1470_E7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/28346/1470_E7_6_blue_red_green.jpg)
+![](https://images.proteinatlas.org/28346/1790_H6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/28346/1790_H6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/28346/1468_E7_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/28346/1468_E7_5_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q86X24
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q86X24

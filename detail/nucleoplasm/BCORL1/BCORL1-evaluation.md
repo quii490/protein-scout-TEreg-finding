@@ -169,6 +169,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PCGF1 | STRING | 996 |
+| KDM2B | STRING | 988 |
+| FBXL10 | STRING | 988 |
+| SKP1 | STRING | 966 |
+| SKP1A | STRING | 966 |
+| RYBP | STRING | 920 |
+| YAF2 | STRING | 908 |
+| CTBP1 | STRING | 901 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q5H9F3
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000085185-BCORL1/subcellular

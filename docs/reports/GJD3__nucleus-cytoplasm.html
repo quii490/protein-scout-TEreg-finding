@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GJD3 · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">总表</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a><a href="../category/nucleus-cytoplasm.html">Nucleus-cytoplasm</a><a href="../category/nuclear-speckle.html">Nuclear speckle</a><a href="../category/nuclear-body.html">Nuclear body</a><a href="../category/nucleolus.html">Nucleolus</a><a href="../category/nuclear-envelope.html">Nuclear envelope</a><a href="../category/chromatin.html">Chromatin</a><a href="../category/rejected.html">Rejected</a>
+    <a href="../centrosome/index.html">Centrosome</a>
+    <a href="../sperm/index.html">Sperm</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>GJD3</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleus-cytoplasm</span><span class="badge">总分: 27.2</span><span class="badge">核定位: 0</span><a class="button small" href="../protein_index.html">蛋白总表</a><a class="button small" href="../category/nucleus-cytoplasm.html">分类页</a></div><p class="source-path">原始 detail 路径: detail/nucleus-cytoplasm/GJD3/GJD3-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;GJD3&quot; uniprot: &quot;Q8N144&quot; date: 2026-06-28 tags: [protein-scout, nucleus-cytoplasm, evaluation, rejected] status: rejected ---</p>
+<h3>GJD3 / Gap Junction Delta-3 评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名</td><td>GJD3 (别名: GJA11, GJC1)</td></tr>
+<tr><td>蛋白全称</td><td>Gap junction delta-3 protein / Connexin-31.9 / Cx31.9</td></tr>
+<tr><td>UniProt ID</td><td>Q8N144 (Swiss-Prot, reviewed)</td></tr>
+<tr><td>蛋白大小</td><td>294 aa</td></tr>
+<tr><td>UniProt 证据等级</td><td>1: Evidence at protein level</td></tr>
+<tr><td>亚细胞定位</td><td><strong>Cell membrane; Cell junction, gap junction</strong> (多次跨膜蛋白)</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>0/10</td><td>x4</td><td>0.0</td><td>细胞膜间隙连接蛋白; 非核</td></tr>
+<tr><td>蛋白大小</td><td>5/10</td><td>x1</td><td>5.0</td><td>294 aa</td></tr>
+<tr><td>新颖性</td><td>4/10</td><td>x5</td><td>20.0</td><td>PubMed=38; PPI=459 (间隙连接网络)</td></tr>
+<tr><td>三维结构</td><td>2/10</td><td>x3</td><td>6.0</td><td>4次跨膜螺旋; 无高置信 AlphaFold</td></tr>
+<tr><td>调控结构域</td><td>0/10</td><td>x2</td><td>0.0</td><td>Connexin domain; 无染色质/DNA结合域</td></tr>
+<tr><td>PPI</td><td>6/10</td><td>x3</td><td>18.0</td><td>PPI degree=459 (经BioGRID确认)</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>49.0/180</strong></td><td></td></tr>
+<tr><td><strong>归一化总分</strong></td><td></td><td></td><td><strong>27.2/100</strong></td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<p><strong>核定位: 完全不成立 (FAIL)</strong>。GJD3 是一个<strong>间隙连接蛋白</strong> (Connexin family)，定位在细胞膜上，形成跨膜通道 (connexon) 使相邻细胞间进行小分子物质交换。蛋白为 4 次跨膜蛋白 (transmembrane helices at 25-45, 77-97, 137-157, 189-209)，N 端和 C 端均位于胞质侧。<strong>该蛋白不可能进入细胞核</strong>，HPA 标注 &quot;Nucleoplasm; Cell Junctions&quot; 中核质信号是明确的假阳性 (抗体交叉反应或过表达伪影)。</p>
+<p><strong>功能</strong>: 间隙连接通道的核心组件。在血管平滑肌细胞、心脏、结肠、动脉、大脑皮层、肝脏、肺、肾脏、脾脏和睾丸中表达。与 TJP1 (zona occludens protein-1) 相互作用。</p>
+<p><strong>PPI 网络</strong>: PPI degree=459 虽然看起来很可观，但这是在 BioGRID 中经过实验验证的相互作用。这些相互作用主要反映了间隙连接蛋白在膜上的物理复合体形成，而非核内调控网络。高 PPI 数不代表该蛋白参与染色质或转录调控。</p>
+<p><strong>TE 调控潜力</strong>: <strong>零</strong>。间隙连接蛋白的生物学功能是细胞间通讯，与转座元件沉默、染色质重塑或转录调控完全无关。蛋白不含任何 DNA 结合域、组蛋白修饰域或染色质相关模块。</p>
+<h4>4. 总体评价</h4>
+<p><strong>27.2/100</strong> | <strong>REJECTED</strong></p>
+<p><strong>拒绝理由</strong>: GJD3 是一个<strong>细胞膜间隙连接跨膜蛋白</strong>，功能为细胞间通道形成。HPA 标注的核定位为明确假阳性。蛋白不含任何与染色质、转录或 TE 调控相关的结构域。高 PPI 度 (459) 反映的是膜蛋白复合体，而非核调控网络。虽然在筛选数据中因 PPI 高和 hotness=38 获得了 tier=2 的高分，但在生物学本质上完全不符合 TE 调控因子筛选目标。</p>
+<p><strong>关键文献</strong>:</p>
+<ul><li>GJD3/Connexin-31.9 文献主要集中在间隙连接生理学和心血管疾病领域，无 TE 或染色质相关研究。</li></ul></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

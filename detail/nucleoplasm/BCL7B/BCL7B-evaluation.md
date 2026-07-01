@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | BCL7B /  |
+| 蛋白名称 | B-cell CLL/lymphoma 7 protein family member B |
 | 蛋白大小 | 202 aa / 22.2 kDa |
 | UniProt ID | Q9BQE9 |
 | 评估日期 | 2026-05-29 |
@@ -163,6 +164,30 @@ status: scored
 - [ ] 探究 BCL7B 是否具有独立于 BAF 的染色质结合活性
 - [ ] 强烈推荐作为染色质重塑研究方向
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SMARCD1 | STRING | 994 |
+| SMARCA4 | STRING | 993 |
+| ARID1A | STRING | 992 |
+| BCL7C | STRING | 991 |
+| SMARCE1 | STRING | 989 |
+| SMARCB1 | STRING | 989 |
+| SYT | STRING | 987 |
+| SS18 | STRING | 987 |
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/49943/747_E9_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/49943/747_E9_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/49943/714_E9_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/49943/714_E9_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/49943/713_E9_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/49943/713_E9_3_blue_red_green.jpg)
+
+
 ### 5. 关键文献
 
 1. Kadoch C et al. (2013). 'Proteomic and bioinformatic analysis of mammalian SWI/SNF complexes.' Cell. PMID: 23706738
@@ -180,9 +205,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[BCL7B-PAE.png]]
 

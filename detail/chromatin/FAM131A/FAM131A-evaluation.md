@@ -163,6 +163,22 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ELAVL1 | BioGRID | 1 |
+| TRIM25 | BioGRID | 1 |
+| HNRNPH1 | BioGRID | 1 |
+| MEX3A | BioGRID | 1 |
+| PHYHIP | BioGRID | 0 |
+| IDH1 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q6UXB0
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000175182-FAM131A/subcellular

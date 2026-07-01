@@ -50,6 +50,24 @@ status: scored
 
 At 551 amino acids (60.3 kDa), RCBTB2 falls within the ideal range for biochemical characterization. Proteins in this size range are amenable to recombinant expression, purification, crystallography, and most functional assays. Size score: 10/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| COPS4 | BioGRID | 0 |
+| RCBTB2 | BioGRID | 0 |
+| CUL3 | BioGRID | 0 |
+| UBE2E3 | BioGRID | 0 |
+| HSP90AA1 | BioGRID | 0 |
+| PDE4B | BioGRID | 0 |
+| UBE2I | BioGRID | 0 |
+| FARS2 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

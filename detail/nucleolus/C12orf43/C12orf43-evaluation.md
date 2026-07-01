@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | C12orf43 / CUSTOS |
+| 蛋白名称 | Protein CUSTOS |
 | 蛋白大小 | 262 aa / ~28.8 kDa |
 | UniProt ID | Q96C57 |
 | 评估日期 | 2026-05-29 |
@@ -144,6 +145,45 @@ status: scored
 - [ ] SMART 结构域分析评估调控潜力
 - [ ] 深入文献检索确认已知功能
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CINP | STRING | 774 |
+| TERF1 | BioGRID | 1 |
+| AURKC | BioGRID | 1 |
+| FAM177A1 | BioGRID | 1 |
+| SPC25 | BioGRID | 1 |
+| YEATS4 | BioGRID | 1 |
+| CDK11A | BioGRID | 1 |
+| CDK17 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/46148/608_G1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/46148/608_G1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/46148/605_G1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/46148/605_G1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/46148/606_G1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/46148/606_G1_2_blue_red_green.jpg)
+
+
+### ESMFold 结构预测
+
+| 指标 | 数值 |
+|---|---|
+| 平均 pLDDT | 0.62 |
+| >0.9 | 0.0% |
+| <0.5 | 5.7% |
+| 残基数 | 262 |
+
+ESMFold 从头折叠验证。PDB: `detail/_esm_structures/C12orf43_esmfold.pdb`
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96C57
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q96C57
@@ -155,9 +195,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[C12orf43-PAE.png]]
 

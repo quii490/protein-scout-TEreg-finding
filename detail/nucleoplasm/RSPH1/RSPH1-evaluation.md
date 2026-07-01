@@ -19,7 +19,7 @@
 | 3. Research Novelty | 10 | 10 | PubMed strict: 27. Novelty rule: 1-50=10. |
 | 4. 3D Structure | 30 | 18 | AlphaFold mean pLDDT: 74.2 (56.3% >90, 6.5% 70-90, 5.2% 50-70, 32.0% <50). PDB: 8J07 (EM, 4.10A, full length 1-309). Moderate AF confidence with significant disordered regions. |
 | 5. Regulatory Domains | 50 | 0 | IPR003409. PF02493. Function: Part of axonemal radial spoke complexes for sperm/cilia motility. No chromatin, transcriptional, or epigenetic regulatory function. |
-| 6. PPI Network | 50 | 20 | STRING: 15 partners. RSPH4A (0.990), RSPH9 (0.982), RSPH6A (0.861), ZMYND10 (0.844), RSPH3 (0.832). All radial spoke and ciliary partners. IntAct: 15 interactors including MORN3, TSPY2, METAP2, RSPH4A, RSPH6A, FBXO16, CCN2, EZR, FRMD4B, SH3GLB2, SF1, PDE4DIP, UBC, BTBD1, TUBB3. UniProt: MORN3 (7 experiments). All ciliary/cytoskeletal. |
+| 6. PPI Network | 50 | 20 | STRING: 15 partners. RSPH4A (0.990), RSPH9 (0.982), RSPH6A (0.861), ZMYND10 (0.844), RSPH3 (0.832). All radial spoke and ciliary partners. IntAct: 15 interactors including MORN3, TSPY2, METAP2, RSPH4A, RSPH6A, FBXO16, CCN2, EZR, FRMD4B, SH3GLB2, SF1, PDE4DIP, UBC, B暂无数据1, TUBB3. UniProt: MORN3 (7 experiments). All ciliary/cytoskeletal. |
 | **TOTAL** | **180** | **68** | |
 
 ---
@@ -160,3 +160,33 @@ Source: https://www.proteinatlas.org/ENSG00000160188-RSPH1/interaction
 |---|---|:--:|
 | MORN3 | Intact | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| DNALI1 | STRING | 752 |
+| SPAG1 | STRING | 731 |
+| DYX1C1 | STRING | 718 |
+| DNAAF4 | STRING | 718 |
+| TSPY2 | BioGRID | 1 |
+| MAPK8IP1 | BioGRID | 1 |
+| B暂无数据1 | BioGRID | 1 |
+| TUBB | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/16816/1824_B3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/16816/1824_B3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/16816/1787_F3_6_cr5968c01a731b8_blue_red_green.jpg)
+![](https://images.proteinatlas.org/16816/1787_F3_14_cr5968c01a7348a_blue_red_green.jpg)
+![](https://images.proteinatlas.org/16816/1869_A9_31_blue_red_green.jpg)
+![](https://images.proteinatlas.org/16816/1869_A9_32_blue_red_green.jpg)
+

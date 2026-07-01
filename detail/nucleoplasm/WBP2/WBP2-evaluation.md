@@ -171,6 +171,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| YAP1 | STRING | 970 |
+| WWP2 | STRING | 917 |
+| NEDD4 | STRING | 882 |
+| RPF1 | STRING | 882 |
+| NEDD4L | STRING | 872 |
+| WWP1 | STRING | 824 |
+| ITCH | STRING | 820 |
+| WWTR1 | STRING | 809 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q969T9
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000132471-WBP2/subcellular

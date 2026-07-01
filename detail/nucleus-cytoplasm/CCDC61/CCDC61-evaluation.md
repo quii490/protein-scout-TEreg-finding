@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | CCDC61 / CCDC61 |
+| 蛋白名称 | Centrosomal protein CCDC61 |
 | 蛋白全名 | Centrosomal protein CCDC61 |
 | 蛋白大小 | 512 aa / 57.4 kDa |
 | UniProt ID | Q9Y6R9 |
@@ -191,6 +192,34 @@ status: scored
 - [ ] 获取 HPA IF 图像确认核定位
 - [ ] 查阅最新关键文献补充功能细节
 - [ ] 设计体外 DNA/染色质结合实验
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NIN | STRING | 763 |
+| CEP128 | STRING | 734 |
+| KIF2A | STRING | 733 |
+| ODF2 | STRING | 729 |
+| DCTN1 | STRING | 725 |
+| MED4 | BioGRID | 1 |
+| CEP162 | BioGRID | 1 |
+| CEP290 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/61548/1248_G12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/61548/1248_G12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/61548/1168_C10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/61548/1168_C10_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/61548/1257_C10_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/61548/1257_C10_4_blue_red_green.jpg)
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9Y6R9

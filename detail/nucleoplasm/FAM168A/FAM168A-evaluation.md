@@ -173,6 +173,35 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| WWP2 | STRING | 795 |
+| BAG3 | BioGRID | 1 |
+| RBFOX1 | BioGRID | 1 |
+| SNRPC | BioGRID | 1 |
+| UBE2V1 | BioGRID | 1 |
+| SF1 | BioGRID | 1 |
+| TAX1BP1 | BioGRID | 1 |
+| DAZAP2 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### ESMFold 结构预测
+
+| 指标 | 数值 |
+|---|---|
+| 平均 pLDDT | 0.29 |
+| >0.9 | 0.0% |
+| <0.5 | 100.0% |
+| 残基数 | 244 |
+
+ESMFold 从头折叠验证。PDB: `detail/_esm_structures/FAM168A_esmfold.pdb`
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q92567
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000054965-FAM168A/subcellular

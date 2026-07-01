@@ -205,6 +205,30 @@ status: scored
 - [ ] 结构解析 ARID3B-RB1 复合物 — 揭示 pocket protein-ARID 互作新模式
 - [ ] **强烈推荐入选 shortlist** — 得分 **84.2/100** (原88.0), 结构升至6分(基线5+ARID域pLDDT=93.9)
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ARID3A | STRING | 814 |
+| SOX2 | STRING | 725 |
+| RB1 | BioGRID | 1 |
+| MEPCE | BioGRID | 1 |
+| CDK9 | BioGRID | 1 |
+| IRF9 | BioGRID | 1 |
+| TINF2 | BioGRID | 1 |
+| POT1 | BioGRID | 1 |
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/50320/837_A2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/50320/837_A2_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/50320/807_H11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/50320/807_H11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/50320/846_H11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/50320/846_H11_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8IVW6
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000179361-ARID3B/subcellular
@@ -217,9 +241,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[ARID3B-PAE.png]]
 

@@ -155,50 +155,22 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q8IUF1
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000136682-ZNG1B/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=ZNG1B
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8IUF1
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### TE 调控评估
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Plasma membrane (approved)。来源: https://www.proteinatlas.org/ENSG00000136682-ZNG1B/subcellular
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
-![](https://images.proteinatlas.org/42759/575_B4_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/42759/575_B4_2_blue_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
+### HPA IF 图像
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+HPA 检索: https://www.proteinatlas.org/search/ZNG1B
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q8IUF1-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+### PubMed
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+**Count: 3**
 
-### SMART / UniProt domain
-| Source | Data |
+| PMID | Title |
 |---|---|
-| UniProt | Q8IUF1 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | DOMAIN 274..377; /note="CobW C-terminal" |
-| InterPro | IPR036627;IPR011629;IPR003495;IPR027417;IPR051316; |
-| Pfam | PF02492;PF07683; |
+| 35584675 | Zng1 is a GTP-dependent zinc transferase needed for activation of methionine aminopeptidase. |
+| 31862704 | Deletion in the Cobalamin Synthetase W Domain-Containing Protein 1 Gene Is associated with Congenital Anomalies of the Kidney and Urinary Tract. |
+| 12421752 | Gene content and function of the ancestral chromosome fusion site in human chromosome 2q13-2q14.1 and paralogous regions. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000136682-ZNG1B/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| ADAMTS4 | Bioplex | false |
-| AGO2 | Biogrid | false |
-| DKKL1 | Bioplex | false |
-| FAM174A | Bioplex | false |
-| FBXO7 | Bioplex | false |
-| GZMH | Bioplex | false |
-| KLK5 | Bioplex | false |
-| METAP1 | Bioplex | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

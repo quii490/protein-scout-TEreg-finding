@@ -147,46 +147,20 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 - [ ] 考虑通过AlphaFold预测 + MD模拟获取结构信息
 
-### 5. 数据来源
+### TE 调控评估
 
-- UniProt: https://www.uniprot.org/uniprotkb/A2AJT9
-- Protein Atlas: https://www.proteinatlas.org/search/BCLAF3
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=BCLAF3
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/A2AJT9
-- STRING: https://string-db.org/network/9606.BCLAF3
-- Packet data timestamp: 2026-06-03 03:32:59
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000173681-BCLAF3/subcellular
+### HPA IF 图像
 
-![](https://images.proteinatlas.org/27215/218_F6_1_red_green.jpg)
-![](https://images.proteinatlas.org/27215/218_F6_2_red_green.jpg)
-![](https://images.proteinatlas.org/27215/219_F6_1_red_green.jpg)
-![](https://images.proteinatlas.org/27215/219_F6_2_red_green.jpg)
-![](https://images.proteinatlas.org/27215/220_F6_1_red_green.jpg)
-![](https://images.proteinatlas.org/27215/220_F6_2_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
+HPA 检索: https://www.proteinatlas.org/search/BCLAF3
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### PubMed
 
-![](https://alphafold.ebi.ac.uk/files/AF-A2AJT9-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+**Count: 1**
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
-
-### SMART / UniProt domain
-| Source | Data |
+| PMID | Title |
 |---|---|
-| UniProt | A2AJT9 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR029199; |
-| Pfam | PF15440; |
+| 33479180 | A genome-scale CRISPR screen reveals factors regulating Wnt-dependent renewal of mouse gastric epithelial cells. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000173681-BCLAF3/interaction
 
-未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

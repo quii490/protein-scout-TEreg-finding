@@ -168,6 +168,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CEBPD | STRING | 831 |
+| CELF3 | BioGRID | 1 |
+| PUM2 | BioGRID | 1 |
+| TNKS | BioGRID | 1 |
+| PUM1 | BioGRID | 1 |
+| TNKS2 | BioGRID | 1 |
+| ELAVL2 | BioGRID | 1 |
+| CASC3 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8N6W0
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000161082-CELF5/subcellular

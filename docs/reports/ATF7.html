@@ -12,6 +12,8 @@
   <nav>
     <a href="../protein_index.html">总表</a>
     <a href="../category/nucleoplasm.html">Nucleoplasm</a><a href="../category/nucleus-cytoplasm.html">Nucleus-cytoplasm</a><a href="../category/nuclear-speckle.html">Nuclear speckle</a><a href="../category/nuclear-body.html">Nuclear body</a><a href="../category/nucleolus.html">Nucleolus</a><a href="../category/nuclear-envelope.html">Nuclear envelope</a><a href="../category/chromatin.html">Chromatin</a><a href="../category/rejected.html">Rejected</a>
+    <a href="../centrosome/index.html">Centrosome</a>
+    <a href="../sperm/index.html">Sperm</a>
   </nav>
 </header><main class="container report-shell"><section class="panel"><h1>ATF7</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">总分: 68.6</span><span class="badge">核定位: 8</span><a class="button small" href="../protein_index.html">蛋白总表</a><a class="button small" href="../category/nucleoplasm.html">分类页</a></div><p class="source-path">原始 detail 路径: detail/nucleoplasm/ATF7/ATF7-evaluation.md</p></section><article class="report-body"><hr>
 <p>type: protein-evaluation gene: &quot;ATF7&quot; date: 2026-05-29 tags: [protein-scout, nuclear-protein, evaluation] status: scored ---</p>
@@ -20,6 +22,7 @@
 <div class="table-wrap"><table>
 <thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
 <tr><td>基因名 / 别名</td><td>ATF7 / ATFA; Activating transcription factor 7; Transcription factor ATF-A</td></tr>
+<tr><td>蛋白名称</td><td>Cyclic AMP-dependent transcription factor ATF-7</td></tr>
 <tr><td>蛋白大小</td><td>483 aa / ~53.7 kDa</td></tr>
 <tr><td>UniProt ID</td><td>P17544 (ATF7_HUMAN)</td></tr>
 <tr><td>评估日期</td><td>2026-05-29</td></tr>
@@ -129,14 +132,28 @@
 <p><strong>风险/不确定性</strong>: 1. AlphaFold 结构低置信度 (avg=60.09, 44% 低置信度)，可能存在大量无序区 2. 无实验 PDB 结构，结构域折叠状态仅取决于预测 3. 定位证据中 isoform 5 为胞质，可能混淆 IF 结果</p>
 <p><strong>下一步建议</strong>:</p>
 <ul><li>[ ] 确认 Protein Atlas IF 图像（已有 HPA 核定位数据：nucleoplasm IDA:HPA）</li><li>[ ] HPA 行 STRING API 获取完整 PPI 数据</li><li>[ ] 表达克隆 bZIP 域 (332-395) 用于 EMSA / ITC / 晶体学</li></ul>
+<h4>PPI 互作网络</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>互作伙伴</th><th>来源</th><th>评分</th></tr></thead><tbody>
+<tr><td>FOS</td><td>STRING</td><td>983</td></tr>
+<tr><td>JUN</td><td>STRING</td><td>974</td></tr>
+<tr><td>PTP4A1</td><td>STRING</td><td>923</td></tr>
+<tr><td>FOSL2</td><td>STRING</td><td>918</td></tr>
+<tr><td>JUNB</td><td>STRING</td><td>918</td></tr>
+<tr><td>JUND</td><td>STRING</td><td>912</td></tr>
+<tr><td>CREB5</td><td>STRING</td><td>844</td></tr>
+<tr><td>SETDB1</td><td>STRING</td><td>832</td></tr>
+</tbody></table></div>
+<h4>TE 调控评估</h4>
+<p>该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。</p>
 <h4>5. 数据来源</h4>
 <ul><li>GeneCards: https://www.genecards.org/</li><li>Protein Atlas: https://www.proteinatlas.org/</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22ATF7%22%5BTitle%2FAbstract%5D</li><li>UniProt: https://www.uniprot.org/uniprotkb/P17544</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/P17544</li></ul>
 <h5>PPI 网络（三源综合）</h5>
 <div class="table-wrap"><table>
 <thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th></tr></thead><tbody>
-<tr><td>无记录</td><td>—</td><td>—</td></tr>
+<tr><td>暂无互作数据</td></tr>
 </tbody></table></div>
-<p>IntAct 有限记录。无 BioGrid 补充数据。</p>
+<p>暂无实验验证互作。无 BioGrid 补充数据。</p>
 <p><figure><img src="../../detail/nucleoplasm/ATF7/ATF7-PAE.png" alt="ATF7-PAE.png"></figure></p>
 <p>PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。</p>
 <p><figure><img src="../../detail/nucleoplasm/ATF7/ATF7-PAE.png" alt="ATF7-PAE.png"></figure></p>

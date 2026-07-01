@@ -173,6 +173,32 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RAC1 | STRING | 959 |
+| DAPK3 | STRING | 873 |
+| DAPK2 | STRING | 859 |
+| MAPKAPK5 | STRING | 818 |
+| MAPK6 | STRING | 808 |
+| RHOA | STRING | 738 |
+| STK17A | STRING | 737 |
+| CDC5L | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/11913/95_D11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/11913/95_D11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/11913/94_D11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/11913/94_D11_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O60229
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000160145-KALRN/subcellular

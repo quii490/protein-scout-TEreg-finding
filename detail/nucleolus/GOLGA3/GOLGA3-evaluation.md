@@ -169,54 +169,38 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q08378
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000090615-GOLGA3/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=GOLGA3
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q08378
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Golgi apparatus (enhanced)。来源: https://www.proteinatlas.org/ENSG00000090615-GOLGA3/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| USO1 | STRING | 734 |
+| GOLGA3 | BioGRID | 1 |
+| TAF10 | BioGRID | 1 |
+| TRAF2 | BioGRID | 1 |
+| UBE3A | BioGRID | 1 |
+| ELAVL1 | BioGRID | 1 |
+| SMURF1 | BioGRID | 1 |
+| NPM1 | BioGRID | 1 |
 
-![](https://images.proteinatlas.org/39809/534_C3_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/39809/534_C3_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/39809/539_C3_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/39809/539_C3_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/39809/552_C3_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/39809/552_C3_2_blue_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q08378-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-07）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/GOLGA3
+
+### PubMed
+
+**Count: 53**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q08378 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR051841; |
-| Pfam | 未检出 |
+| 41815151 | A risk score model based on glycosylation-related genes for predicting radioresistance and prognosis of lung adenocarcinoma. |
+| 40220918 | ATXN2L primarily interacts with NUFIP2, the absence of ATXN2L results in NUFIP2 depletion, and the ATXN2-polyQ expansion triggers NUFIP2 accumulation. |
+| 39260552 | Golgi apparatus regulated pyroptosis through the miR-32-5p/Golga7/NLRP3 axis in chicken splenic lymphocytes exposure to ammonia. |
+| 37417469 | B cell receptor-induced protein dynamics and the emerging role of SUMOylation revealed by proximity proteomics. |
+| 37090114 | Mutation of S461, in the GOLGA3 phosphorylation site, does not affect mouse spermatogenesis. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000090615-GOLGA3/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| CIAO1 | Biogrid | false |
-| EPHA2 | Biogrid | false |
-| GOLGA2 | Biogrid | false |
-| GOLGA7 | Biogrid | false |
-| HDAC1 | Biogrid | false |
-| LAMP1 | Biogrid | false |
-| RNF31 | Biogrid | false |
-| SRR | Biogrid | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

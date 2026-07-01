@@ -53,6 +53,53 @@ status: scored
 
 RIT2 is 217 amino acids in length (~24.7 kDa). 217 aa, ideal range. Score 10/10.
 
+### 功能描述
+
+Binds and exchanges GTP and GDP. Binds and modulates the activation of POU4F1 as gene expression regulator
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| POU4F1 | BioGRID | 0 |
+| CALM1 | BioGRID | 0 |
+| RAB5A | BioGRID | 0 |
+| RLF | BioGRID | 0 |
+| SOS1 | BioGRID | 0 |
+| APP | BioGRID | 0 |
+| SRPK2 | BioGRID | 0 |
+| LZTR1 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/72526/2018_B6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/72526/2018_B6_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/72526/2033_G9_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/72526/2033_G9_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/72526/2042_B8_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/72526/2042_B8_4_blue_red_green.jpg)
+
+
+### PubMed
+
+**Count: 67**
+
+| PMID | Title |
+|---|---|
+| 42078358 | Genetic and Proteomic Investigation of the Smoking-Parkinson's Disease Association. |
+| 42051272 | The Genetic Landscape of Autism in Iran: A Systematic Review. |
+| 41300786 | Chromothriptic Translocation t(1;18): A Paradigm of Genomic Complexity in a Child with Normal Intellectual Development and Pyridoxine-Dependent Epilep |
+| 41213763 | Prenatal diagnosis of a directly transmitted familial 18q12.2q12.3 deletion encompassing PIK3C3, RIT2 and SYT4 with apparently normal phenotype in the |
+| 41026459 | Elucidate biomarkers and the molecular pathways associated with genetic variants that contribute to the etiology of Parkinson's disease. |
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

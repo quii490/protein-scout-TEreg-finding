@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | CCDC174 / CCDC174 |
+| 蛋白名称 | Coiled-coil domain-containing protein 174 |
 | 蛋白大小 | 467 aa / ~51.4 kDa |
 | UniProt ID | Q6PII3 |
 | 评估日期 | 2026-05-29 |
@@ -137,6 +138,24 @@ status: scored
 - [ ] SMART 结构域分析评估调控潜力
 - [ ] 深入文献检索确认已知功能
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| EIF4A3 | STRING | 795 |
+| ZNF830 | STRING | 794 |
+| XPO1 | BioGRID | 1 |
+| ZWINT | BioGRID | 1 |
+| SMC6 | BioGRID | 1 |
+| KLC3 | BioGRID | 1 |
+| TRIM25 | BioGRID | 1 |
+| MYC | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q6PII3
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q6PII3
@@ -148,9 +167,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CCDC174/CCDC174-PAE.png]]

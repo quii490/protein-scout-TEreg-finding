@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | FOXJ3 |
+| 蛋白名称 | Forkhead box protein J3 |
 | 蛋白大小 | 622 aa |
 | UniProt ID | Q9UPW0 (Forkhead box protein J3) |
 | 评估日期 | 2026-05-30 |
@@ -198,6 +199,24 @@ status: scored
 - [ ] 在 TEreg 系统中检测 FOXJ3 表达及定位
 - [ ] 通过 co-IP/MS 验证 PPI 网络
 - [ ] ChIP-seq 检查 FOXJ3 在 TE 区域的 occupancy
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TERF1 | BioGRID | 1 |
+| TERF2 | BioGRID | 1 |
+| MED4 | BioGRID | 1 |
+| ELAVL1 | BioGRID | 1 |
+| DDX42 | BioGRID | 1 |
+| TP53 | BioGRID | 1 |
+| RANGAP1 | BioGRID | 1 |
+| SMARCA5 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9UPW0

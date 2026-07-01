@@ -12,6 +12,8 @@
   <nav>
     <a href="../protein_index.html">总表</a>
     <a href="../category/nucleoplasm.html">Nucleoplasm</a><a href="../category/nucleus-cytoplasm.html">Nucleus-cytoplasm</a><a href="../category/nuclear-speckle.html">Nuclear speckle</a><a href="../category/nuclear-body.html">Nuclear body</a><a href="../category/nucleolus.html">Nucleolus</a><a href="../category/nuclear-envelope.html">Nuclear envelope</a><a href="../category/chromatin.html">Chromatin</a><a href="../category/rejected.html">Rejected</a>
+    <a href="../centrosome/index.html">Centrosome</a>
+    <a href="../sperm/index.html">Sperm</a>
   </nav>
 </header><main class="container report-shell"><section class="panel"><h1>ABT1</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleolus</span><span class="badge">总分: 66.1</span><span class="badge">核定位: 6</span><a class="button small" href="../protein_index.html">蛋白总表</a><a class="button small" href="../category/nucleolus.html">分类页</a></div><p class="source-path">原始 detail 路径: detail/nucleolus/ABT1/ABT1-evaluation.md</p></section><article class="report-body"><hr>
 <p>type: protein-evaluation gene: &quot;ABT1&quot; date: 2026-05-29 tags: [protein-scout, nuclear-protein, evaluation, ] status: scored ---</p>
@@ -20,6 +22,7 @@
 <div class="table-wrap"><table>
 <thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
 <tr><td>基因名 / 别名</td><td>ABT1 / hABT1 (Activator of Basal Transcription 1)</td></tr>
+<tr><td>蛋白名称</td><td>Activator of basal transcription 1</td></tr>
 <tr><td>蛋白大小</td><td>272 aa / 31.1 kDa</td></tr>
 <tr><td>UniProt ID</td><td>Q9ULW3 (ABT1_HUMAN)</td></tr>
 <tr><td>评估日期</td><td>2026-05-28</td></tr>
@@ -175,6 +178,22 @@
 <p><strong>风险/不确定性</strong>: 1. <strong>🔴 Protein Atlas IF矛盾</strong>: 唯一抗体(HPA077039)在三个细胞系中均显示Vesicles而非核定位。这是最重大的风险——若内源ABT1主要分布于非核区室，则核蛋白假设需重新评估。需要通过GFP-ABT1融合蛋白或独立抗体进行验证 2. <strong>PPI以核仁/核糖体生成为主</strong>: 可能提示ABT1的主要生理功能是rRNA加工而非Pol II转录调控，与&quot;基础转录激活因子&quot;的命名不完全一致 3. <strong>无实验结构</strong>: 完全依赖AlphaFold预测，且12.5%残基无序，N端(1-38)几乎完全无序 4. <strong>缺少经典chromatin-binding结构域</strong>: RRM是RNA结合域，主要与pre-rRNA互作已被2023年论文证实；ABT1与染色质/DNA的直接互作缺乏实验证据</p>
 <p><strong>下一步建议</strong>:</p>
 <ul><li>[ ] <strong>优先解决IF矛盾</strong>: 构建GFP-ABT1进行活细胞定位，或使用不同商业抗体进行IF验证</li><li>[ ] <strong>ChIP-seq / CUT&amp;RUN</strong>: 验证ABT1在基因组上的结合位点，确认其是否直接结合启动子DNA（如原始论文推测）或通过rDNA参与核仁功能</li><li>[ ] <strong>ABT1 interactome</strong>: 使用BioID/APEX2邻近标记或IP-MS鉴定核内互作组，补充STRING/humanPPI中缺失的核调控伙伴</li><li>[ ] <strong>SMARD1机制延展</strong>: 利用已有的IGHMBP2-ABT1复合体知识，探索ABT1在运动神经元疾病中的核仁应激/转录调控角色</li><li>[ ] <strong>结构域功能验证</strong>: 通过截短体和点突变解析RRM、coiled-coil、C端保守域的各自功能</li></ul>
+<h4>PPI 互作网络</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>互作伙伴</th><th>来源</th><th>评分</th></tr></thead><tbody>
+<tr><td>DDX49</td><td>STRING</td><td>998</td></tr>
+<tr><td>ESF1</td><td>STRING</td><td>995</td></tr>
+<tr><td>RRP36</td><td>STRING</td><td>995</td></tr>
+<tr><td>DDX10</td><td>STRING</td><td>992</td></tr>
+<tr><td>BYSL</td><td>STRING</td><td>991</td></tr>
+<tr><td>KRR1</td><td>STRING</td><td>988</td></tr>
+<tr><td>DHX15</td><td>STRING</td><td>984</td></tr>
+<tr><td>NOP14</td><td>STRING</td><td>983</td></tr>
+</tbody></table></div>
+<h4>TE 调控评估</h4>
+<p>该蛋白有 ChIP-Seq 实验数据，可能在基因组水平参与 TE 调控。建议分析 ChIP 峰在 TE 区域的富集情况。</p>
+<h4>HPA IF 图像</h4>
+<p><figure><img src="https://images.proteinatlas.org/77039/1662_F3_1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/77039/1662_F3_3_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/77039/1758_C7_1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/77039/1758_C7_2_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/77039/1756_C7_2_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/77039/1756_C7_3_blue_red_green.jpg" alt="image"></figure></p>
 <h4>5. 关键文献</h4>
 <p>1. Oda T et al. (2000). &quot;A novel TATA-binding protein-binding protein, ABT1, activates basal transcription and has a yeast homolog that is essential for growth&quot;. *Mol Cell Biol*, 20(4):1407-18. PMID: 10648625 2. Oda T et al. (2004). &quot;ABT1-associated protein (ABTAP), a novel nuclear protein conserved from yeast to mammals, represses transcriptional activation by ABT1&quot;. *J Cell Biochem*, 93(4):788-806. PMID: 15372600 3. de Planell-Saguer M et al. (2009). &quot;Biochemical and genetic evidence for interaction between IGHMBP2 and ABT1&quot;. *Hum Mol Genet*, 18(11):2116-25. PMID: 19299493 4. Ricard N et al. (2023). &quot;ABT1 serves as a disease modifier of SMARD1 by enhancing IGHMBP2 activities&quot;. *JCI Insight*, 8(3):e165381. PMID: 36480289 5. Tafforeau L et al. (2013). &quot;The complexity of human ribosome biogenesis revealed by systematic nucleolar screening of Pre-rRNA processing factors&quot;. *Mol Cell*, 51(4):539-51. PMID: 21873635</p>
 <h4>6. 数据来源</h4>
@@ -182,9 +201,9 @@
 <h5>PPI 网络（三源综合）</h5>
 <div class="table-wrap"><table>
 <thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th></tr></thead><tbody>
-<tr><td>无记录</td><td>—</td><td>—</td></tr>
+<tr><td>暂无互作数据</td></tr>
 </tbody></table></div>
-<p>IntAct 有限记录。无 BioGrid 补充数据。</p>
+<p>暂无实验验证互作。无 BioGrid 补充数据。</p>
 <p>PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。</p>
 <p>HPA IF 图像已本地嵌入。</p>
 <p><strong>PAE 图像说明</strong>: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。</p>

@@ -37,7 +37,7 @@ status: scored
 | 🏗️ 三维结构 | 5/10 | ×3 | 15 | AlphaFold pLDDT: 46.8 |
 | 🧬 调控结构域 | 6/10 | ×2 | 12 | UniProt domains: None identified |
 | 🔗 PPI | 4/10 | ×3 | 12 | 待细化（默认基线） |
-| ➕ 互证加分 | — | — | **+0** | 待补充 |
+| ➕ 互证加分 | — | — | **+0** | 暂无数据 |
 | **原始总分** |  |  | **102/183** |  |
 | **归一化总分** |  |  | **55.7/100** |  |
 
@@ -98,6 +98,32 @@ HPA 免疫荧光（IF）实验数据确认 AKNA 定位：
 **评价**: —
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| LMO1 | BioGRID | 1 |
+| TOP3B | BioGRID | 1 |
+| TRIM21 | BioGRID | 1 |
+| CD2BP2 | BioGRID | 0 |
+| RNF31 | BioGRID | 0 |
+| KIAA1429 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/52367/1320_B7_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/52367/1320_B7_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/52367/1262_B3_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/52367/1262_B3_6_blue_red_green.jpg)
+![](https://images.proteinatlas.org/52367/1264_B3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/52367/1264_B3_4_blue_red_green.jpg)
+
+
 ### 5. 总体评价
 
 **推荐等级**: ⭐⭐
@@ -117,9 +143,9 @@ HPA 免疫荧光（IF）实验数据确认 AKNA 定位：
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[AKNA-PAE.png]]
 

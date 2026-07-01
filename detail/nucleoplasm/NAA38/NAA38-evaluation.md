@@ -148,6 +148,24 @@ IntAct 实验互作: 63 条
 - [ ] 功能研究: 基于 PPI 网络设计功能实验
 - [ ] 结构分析: 基于 PDB 结构设计功能实验
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NAA30 | STRING | 999 |
+| NAA10 | STRING | 938 |
+| LSM4 | STRING | 917 |
+| LSM5 | STRING | 913 |
+| NAA11 | STRING | 910 |
+| NAA16 | STRING | 909 |
+| LSM7 | STRING | 896 |
+| LSM3 | STRING | 875 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=NAA38
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000183011-NAA38
@@ -160,9 +178,9 @@ IntAct 实验互作: 63 条
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[NAA38-PAE.png]]
 

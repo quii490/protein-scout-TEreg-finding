@@ -156,50 +156,38 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/O75911
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000162496-DHRS3/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=DHRS3
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/O75911
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Mitochondria (approved)。来源: https://www.proteinatlas.org/ENSG00000162496-DHRS3/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ALDH1A3 | STRING | 961 |
+| DHRS4 | STRING | 934 |
+| AOX1 | STRING | 910 |
+| ELAVL1 | BioGRID | 1 |
+| MED21 | BioGRID | 1 |
+| HNRNPL | BioGRID | 1 |
+| SRC | BioGRID | 1 |
+| PTCH2 | BioGRID | 1 |
 
-![](https://images.proteinatlas.org/10844/108_H4_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/10844/108_H4_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/10844/1128_E1_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/10844/1128_E1_4_blue_red_green.jpg)
-![](https://images.proteinatlas.org/10844/2179_H5_43_blue_red_green.jpg)
-![](https://images.proteinatlas.org/10844/2179_H5_54_blue_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-O75911-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白缺乏核/染色质定位证据，TE 调控潜力较低。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-07）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/DHRS3
+
+### PubMed
+
+**Count: 96**
+
+| PMID | Title |
 |---|---|
-| UniProt | O75911 |
-| SMART | SM00822; |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR057326;IPR036291;IPR002347; |
-| Pfam | PF00106; |
+| 42142584 | The retinol-metabolizing enzyme DHRS3 coordinates antigen presentation, endothelial stability, and cholesterol metabolism to suppress hepatocellular c |
+| 42102993 | Emerging roles of dehydrogenase/reductase (DHRS) in cancer. |
+| 42055722 | Mechanical Overload-Induced Retinoid Metabolism Is Involved in Protein Synthesis in Skeletal Muscle of Female Mice. |
+| 41993611 | Discovery of a novel Nrf2 activator that modulates mitochondrial function in neurons by regulating DHRS3-Nrf2 interaction after ischemic stroke. |
+| 41876016 | Impact of poly(rC)-binding protein 2 (PCBP2) on the malignant phenotype of cholangiocarcinoma. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000162496-DHRS3/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| COPB2 | Opencell | false |
-| FEM1A | Bioplex | false |
-| PIGH | Bioplex | false |
-| POLDIP2 | Bioplex | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

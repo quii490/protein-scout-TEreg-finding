@@ -158,6 +158,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CRK | STRING | 999 |
+| CRKL | STRING | 995 |
+| SRC | STRING | 984 |
+| PTK2 | STRING | 979 |
+| RAC1 | STRING | 975 |
+| DHX37 | STRING | 942 |
+| AKT1 | STRING | 930 |
+| DHX8 | STRING | 929 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/DOCK1
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000150760-DOCK1/subcellular

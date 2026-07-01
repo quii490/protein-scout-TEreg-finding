@@ -166,47 +166,38 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/O60234
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000130755-GMFG/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=GMFG
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/O60234
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000130755-GMFG/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ACTR2 | STRING | 975 |
+| ACTR3 | STRING | 884 |
+| CAMK1D | BioGRID | 1 |
+| U2AF2 | BioGRID | 1 |
+| HSPA14 | BioGRID | 1 |
+| EP300 | BioGRID | 1 |
+| GMFB | BioGRID | 1 |
+| CLSTN1 | BioGRID | 1 |
 
-![](https://images.proteinatlas.org/2954/17_H3_1_red_green.jpg)
-![](https://images.proteinatlas.org/2954/17_H3_2_red_green.jpg)
-![](https://images.proteinatlas.org/2954/18_H3_1_red_green.jpg)
-![](https://images.proteinatlas.org/2954/18_H3_2_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-O60234-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-07）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/GMFG
+
+### PubMed
+
+**Count: 43**
+
+| PMID | Title |
 |---|---|
-| UniProt | O60234 |
-| SMART | SM00102; |
-| UniProt Domain [FT] | DOMAIN 4..139; /note="ADF-H"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00599" |
-| InterPro | IPR002108;IPR029006;IPR011171; |
-| Pfam | PF00241; |
+| 42314060 | Stiffness-Activated Stellate Cells Drive Pancreatic Cancer Liver Colonization via GMFG-TNS4 Signaling. |
+| 41965872 | Immune and stromal signaling networks in chordoma: an evidence-weighted review of ligand-receptor interactions and therapeutic implications. |
+| 40299531 | Immune Regulation and Disulfidptosis in Atherosclerosis Influence Disease Progression and Therapy. |
+| 39925932 | Shared Genes and Pathways in Ulcerative Colitis and Ankylosing Spondylitis: Functional Validation and Implications for Diagnosis. |
+| 39243388 | Glia maturation factor-γ regulates amyloid-β42 phagocytosis through scavenger receptor class A type I in murine macrophages. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000130755-GMFG/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| FN3K | Bioplex | false |
-| GMFB | Bioplex | false |
-| KLK10 | Bioplex | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

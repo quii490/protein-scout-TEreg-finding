@@ -168,6 +168,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| HDAC2 | STRING | 832 |
+| HDAC1 | STRING | 802 |
+| BAHD1 | STRING | 796 |
+| C16ORF87 | STRING | 790 |
+| WIZ | BioGRID | 1 |
+| STK16 | BioGRID | 1 |
+| MCRS1 | BioGRID | 1 |
+| MICAL1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q7Z3K6
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000155545-MIER3/subcellular

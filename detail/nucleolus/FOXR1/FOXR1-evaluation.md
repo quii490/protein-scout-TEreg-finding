@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | FOXR1 |
+| 蛋白名称 | Forkhead box protein R1 |
 | 蛋白大小 | 292 aa |
 | UniProt ID | Q6PIV2 (Forkhead box protein R1) |
 | 评估日期 | 2026-05-30 |
@@ -161,6 +162,34 @@ status: scored
 - [ ] 通过 co-IP/MS 验证 PPI 网络
 - [ ] ChIP-seq 检查 FOXR1 在 TE 区域的 occupancy
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| C-MYC | STRING | 847 |
+| MYC | STRING | 847 |
+| KAT5 | STRING | 844 |
+| EP400 | STRING | 843 |
+| MRGBP | STRING | 842 |
+| BRD8 | STRING | 837 |
+| EPC2 | STRING | 836 |
+| DKFZP566F2124 | STRING | 836 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 实验数据，可能在基因组水平参与 TE 调控。建议分析 ChIP 峰在 TE 区域的富集情况。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/38124/2030_F11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38124/2030_F11_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38124/1943_C4_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38124/1943_C4_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38124/2042_H7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38124/2042_H7_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q6PIV2
 - Protein Atlas: https://www.proteinatlas.org/search/FOXR1
@@ -172,9 +201,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[FOXR1-PAE.png]]
 

@@ -51,6 +51,48 @@ status: scored
 
 SPANXA1 is 97 amino acids in length (~11.0 kDa). Small/large (97 aa), presents moderate experimental challenges. Score 5/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SPANXC | STRING | 999 |
+| SPANXA1 | STRING | 999 |
+| SPANXB1 | STRING | 999 |
+| AKAP4 | STRING | 745 |
+| TSN | STRING | 711 |
+| SETBP1 | BioGRID | 1 |
+| SPANXA2 | BioGRID | 1 |
+| GTF2F1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/46423/918_G10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/46423/918_G10_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/46423/984_B5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/46423/984_B5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/46423/981_B5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/46423/981_B5_4_blue_red_green.jpg)
+
+
+### PubMed
+
+**Count: 35**
+
+| PMID | Title |
+|---|---|
+| 38464196 | A Genome Wide CRISPR Profiling Approach Identifies Mechanisms of Cisplatin Resistance in Head and Neck Squamous Cell Carcinoma. |
+| 33574425 | The multifunctional role of SPANX-A/D protein subfamily in the promotion of pro-tumoural processes in human melanoma. |
+| 33290900 | Biological features of tissue and bone sarcomas investigated using an in vitro model of clonal selection. |
+| 33175201 | Hypomethylated SPANXA1/A2 promotes the metastasis of head and neck squamous cell carcinoma. |
+| 32684427 | Kappa- opioid receptor regulates human sperm functions via SPANX-A/D protein family. |
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

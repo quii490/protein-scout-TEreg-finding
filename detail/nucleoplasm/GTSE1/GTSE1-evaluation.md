@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 | GTSE1 |
+| 蛋白名称 | G2 and S phase-expressed protein 1 |
 | 蛋白全名 | G2 and S phase-expressed protein 1 |
 | 蛋白大小 | 739 aa / 78.5 kDa |
 | UniProt ID | Q9NYZ3 |
@@ -81,6 +82,24 @@ PLK1 是最强互作（UniProt 6 experiments），与 GTSE1 的细胞周期 G2/M
 
 ### 4. 总体评价
 GTSE1 在本批中评分最低（40.4/100）。主要问题：核定位仅为 HPA additional（非主定位）、蛋白较大（78.5 kDa）、研究热度高（PM=95）、结构置信度极低。核质定位可能为其在细胞周期特定阶段（G2/S）的瞬时核转运。PLK1 强互作和 condensin II 关联有一定意义，但总体核定位支持不足。建议谨慎保留为低优先级候选。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| USP11 | BioGRID | 0 |
+| SH3KBP1 | BioGRID | 0 |
+| BARD1 | BioGRID | 0 |
+| HNRNPD | BioGRID | 0 |
+| CCDC8 | BioGRID | 0 |
+| KPTN | BioGRID | 0 |
+| KIAA0753 | BioGRID | 0 |
+| CEP170 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9NYZ3

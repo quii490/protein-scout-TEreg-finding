@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | C12orf57 / C10 |
+| 蛋白名称 | Protein C10 |
 | 蛋白大小 | 126 aa / 13.2 kDa |
 | UniProt ID | Q99622 |
 | 评估日期 | 2026-06-01 |
@@ -175,6 +176,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 验证核斑定位的功能意义（是否参与 pre-mRNA 剪接调控）
 - [ ] 研究与核斑 marker（SC35/SRSF2）的共定位
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PLAC8 | STRING | 769 |
+| TACC1 | BioGRID | 1 |
+| PPP1CA | BioGRID | 1 |
+| SRI | BioGRID | 1 |
+| TRIM25 | BioGRID | 1 |
+| EGLN3 | BioGRID | 1 |
+| ESR2 | BioGRID | 1 |
+| PPP1CC | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q99622
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000111678-C12orf57
@@ -185,9 +204,9 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nuclear-speckle/C12orf57/C12orf57-PAE.png]]

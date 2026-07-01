@@ -161,6 +161,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SNRPE | STRING | 851 |
+| XAB2 | STRING | 831 |
+| EFTUD2 | STRING | 831 |
+| U5-116KD | STRING | 831 |
+| SNRP116 | STRING | 831 |
+| SNRPD3 | STRING | 826 |
+| SNRPD2 | STRING | 823 |
+| SNRPD1 | STRING | 823 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9H2I8
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000148655-LRMDA/subcellular

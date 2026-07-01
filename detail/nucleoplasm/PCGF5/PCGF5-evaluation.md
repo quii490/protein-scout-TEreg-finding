@@ -96,6 +96,24 @@ PCGF5 的 PPI 网络以 PRC1 复合体为中心。RING1 (0.999) 和 RNF2 (0.998)
 ### 4. 总体评价
 PCGF5 是本批次第二高分的蛋白（82.0/100）。核心优势：纯核质定位（HPA 单一 Nucleoplasm）、极小蛋白（256 aa）、低文献量（PubMed strict=31）、PRC1 核心 E3 泛素连接酶（直接催化 H2AK119ub1）、RING finger 域结构明确（PDB 2.00A）、PPI 网络极强（PRC1 全复合体 0.999+）、与 Polycomb 染色质调控直接相关。作为 Polycomb 体系中有待深入研究的 PCGF 成员，具有优秀的染色质调控研究潜力。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RING1 | STRING | 999 |
+| BAP1 | STRING | 998 |
+| RNF2 | STRING | 998 |
+| RYBP | STRING | 996 |
+| AUTS2 | STRING | 994 |
+| PCGF3 | STRING | 993 |
+| YAF2 | STRING | 989 |
+| PCGF1 | STRING | 986 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q86SE9
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q86SE9

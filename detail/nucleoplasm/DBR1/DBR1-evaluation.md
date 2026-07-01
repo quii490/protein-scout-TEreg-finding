@@ -147,6 +147,34 @@ status: scored
 - [ ] AlphaFold 结构预测分析
 - [ ] Co-IP/MS 验证PPI网络
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| DHX38 | STRING | 905 |
+| CWF19L1 | STRING | 771 |
+| BAG3 | BioGRID | 1 |
+| CSNK1A1 | BioGRID | 1 |
+| CLK1 | BioGRID | 1 |
+| XPO1 | BioGRID | 1 |
+| EGFR | BioGRID | 1 |
+| MPLKIP | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/35365/378_F6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35365/378_F6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35365/383_F6_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35365/383_F6_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35365/376_F6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35365/376_F6_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9UK59
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=DBR1
@@ -157,9 +185,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 <!-- DOMAIN_HUMANPPI_REPAIR_START -->
 ## Domain/SMART 与 humanPPI 补充（2026-06-07）

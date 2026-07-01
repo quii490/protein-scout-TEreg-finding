@@ -153,6 +153,34 @@ IntAct 实验互作: 0 条
 - [ ] 功能研究: 基于 PPI 网络设计功能实验
 - [ ] 结构分析: AlphaFold 预测为基础，设计突变实验
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NPM1 | STRING | 953 |
+| NPM2 | STRING | 871 |
+| OGA | STRING | 739 |
+| NCL | STRING | 715 |
+| WT1 | BioGRID | 1 |
+| BARD1 | BioGRID | 1 |
+| IRF2BPL | BioGRID | 1 |
+| EED | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/36295/563_B4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36295/563_B4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36295/569_B4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36295/569_B4_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36295/566_B4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36295/566_B4_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=NPM3
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000107833-NPM3
@@ -165,9 +193,9 @@ IntAct 实验互作: 0 条
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[NPM3-PAE.png]]
 

@@ -158,6 +158,24 @@ IntAct 实验互作: 0 条
 - [ ] 功能研究: 基于 PPI 网络设计功能实验
 - [ ] 结构分析: 基于 PDB 结构设计功能实验
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| EGR1 | STRING | 993 |
+| ZNF225 | STRING | 993 |
+| EGR2 | STRING | 978 |
+| EGR3 | STRING | 952 |
+| EGR4 | STRING | 886 |
+| POU2AF1 | BioGRID | 1 |
+| CHD4 | BioGRID | 1 |
+| ELAVL1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=NAB1
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000138386-NAB1
@@ -170,9 +188,9 @@ IntAct 实验互作: 0 条
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[NAB1-PAE.png]]
 

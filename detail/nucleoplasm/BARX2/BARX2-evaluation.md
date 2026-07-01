@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | BARX2 / BarH-like homeobox 2 |
+| 蛋白名称 | Homeobox protein BarH-like 2 |
 | 蛋白大小 | 279 aa / 30.7 kDa |
 | UniProt ID | Q9UMQ3 |
 | 评估日期 | 2026-05-29 |
@@ -153,6 +154,25 @@ status: scored
 - [ ] 鉴定转录调控网络
 - [ ] 推荐作为发育 TF 研究
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| FBXW7 | BioGRID | 1 |
+| FHL3 | BioGRID | 1 |
+| FHL2 | BioGRID | 0 |
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/64966/1227_C11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/64966/1227_C11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/64966/1320_E7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/64966/1320_E7_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/64966/1271_C11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/64966/1271_C11_3_blue_red_green.jpg)
+
+
 ### 5. 关键文献
 
 1. Jones FS et al. (1997). 'Barx2 in smooth muscle development.' Dev Biol. PMID: 9118817
@@ -170,9 +190,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[BARX2-PAE.png]]
 

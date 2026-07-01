@@ -167,6 +167,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| APP | BioGRID | 1 |
+| HOXA1 | BioGRID | 1 |
+| METTL3 | BioGRID | 1 |
+| CUL4A | BioGRID | 1 |
+| DOT1L | BioGRID | 1 |
+| BTRC | BioGRID | 1 |
+| TRIM21 | BioGRID | 1 |
+| KRTAP5-9 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白缺乏核/染色质定位证据，TE 调控潜力较低。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8IV04
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000175463-TBC1D10C/subcellular

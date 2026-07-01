@@ -12,6 +12,8 @@
   <nav>
     <a href="../protein_index.html">总表</a>
     <a href="../category/nucleoplasm.html">Nucleoplasm</a><a href="../category/nucleus-cytoplasm.html">Nucleus-cytoplasm</a><a href="../category/nuclear-speckle.html">Nuclear speckle</a><a href="../category/nuclear-body.html">Nuclear body</a><a href="../category/nucleolus.html">Nucleolus</a><a href="../category/nuclear-envelope.html">Nuclear envelope</a><a href="../category/chromatin.html">Chromatin</a><a href="../category/rejected.html">Rejected</a>
+    <a href="../centrosome/index.html">Centrosome</a>
+    <a href="../sperm/index.html">Sperm</a>
   </nav>
 </header><main class="container report-shell"><section class="panel"><h1>ATXN1L</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">总分: 82.5</span><span class="badge">核定位: 9</span><a class="button small" href="../protein_index.html">蛋白总表</a><a class="button small" href="../category/nucleoplasm.html">分类页</a></div><p class="source-path">原始 detail 路径: detail/nucleoplasm/ATXN1L/ATXN1L-evaluation.md</p></section><article class="report-body"><hr>
 <p>type: protein-evaluation gene: &quot;ATXN1L&quot; date: 2026-05-29 tags: [protein-scout, nuclear-protein, evaluation] status: scored ---</p>
@@ -20,6 +22,7 @@
 <div class="table-wrap"><table>
 <thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
 <tr><td>基因名 / 别名</td><td>ATXN1L / BOAT, BOAT1</td></tr>
+<tr><td>蛋白名称</td><td>Ataxin-1-like</td></tr>
 <tr><td>蛋白大小</td><td>689 aa / 73.3 kDa</td></tr>
 <tr><td>UniProt ID</td><td>P0C7T5 (ATX1L_HUMAN, Swiss-Prot reviewed)</td></tr>
 <tr><td>Ensembl ID</td><td>ENSG00000224470</td></tr>
@@ -175,14 +178,30 @@
 <p><strong>核心优势</strong>: 1. <strong>极度新颖</strong> (17篇论文): 几乎完全未被探索的核蛋白, 发表即有新意 2. <strong>大小完美</strong> (689 aa, 73 kDa): recombinant 表达和生化实验理想 3. <strong>AXH 域结构极好</strong> (pLDDT 94.3): 可立刻进行 X-ray 结晶学或 cryo-EM, 发结构论文确定性高 4. <strong>功能定位清晰但未深入</strong>: chromatin-binding + Notch corepressor, 但具体机制不明 5. <strong>疾病关联</strong>: SCA1, CIC-rearranged sarcoma, 潜在临床转化价值</p>
 <p><strong>风险/不确定性</strong>: 1. <strong>73% 无序区域</strong>: 全长蛋白体外行为可能不理想 2. <strong>功能高度依赖 CIC</strong>: 独立功能未知; 可能与 ATXN1 功能重叠 3. <strong>DNA-binding 证据较弱</strong> (仅 IEA/KW): 是否能直接结合 DNA 待验证 4. **PPI 截短体表达纯化 + 结晶筛选</p>
 <ul><li>[ ] ChIP-seq (需先确认是否有直接 DNA binding, 可能需要通过 CIC 间接结合)</li><li>[ ] Co-IP/MS 验证 KAT5, PHF8, BRPF3 互作</li><li>[ ] Luciferase reporter 验证 Notch/RBPJ 报告系统的 repression 活性</li><li>[ ] 与 ATXN1 KO 对比, 确定功能冗余 vs 独特</li></ul>
+<h4>PPI 互作网络</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>互作伙伴</th><th>来源</th><th>评分</th></tr></thead><tbody>
+<tr><td>ATXN1</td><td>STRING</td><td>970</td></tr>
+<tr><td>KBF2</td><td>STRING</td><td>964</td></tr>
+<tr><td>RBPJ</td><td>STRING</td><td>964</td></tr>
+<tr><td>KAT5</td><td>STRING</td><td>944</td></tr>
+<tr><td>PUM2</td><td>STRING</td><td>904</td></tr>
+<tr><td>RBPJL</td><td>STRING</td><td>900</td></tr>
+<tr><td>CIC</td><td>STRING</td><td>863</td></tr>
+<tr><td>NCOR2</td><td>STRING</td><td>775</td></tr>
+</tbody></table></div>
+<h4>TE 调控评估</h4>
+<p>该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。</p>
+<h4>HPA IF 图像</h4>
+<p><figure><img src="https://images.proteinatlas.org/62596/1148_G12_1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/62596/1148_G12_2_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/62596/1169_H8_1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/62596/1169_H8_3_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/62596/1106_G12_2_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/62596/1106_G12_3_blue_red_green.jpg" alt="image"></figure></p>
 <h4>5. 数据来源</h4>
 <ul><li>GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=ATXN1L</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000224470-ATXN1L/subcellular</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22ATXN1L%22</li><li>UniProt: https://www.uniprot.org/uniprotkb/P0C7T5</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/P0C7T5</li><li>STRING: https://string-db.org/network/9606.ENSP00000412655</li><li>InterPro: https://www.ebi.ac.uk/interpro/protein/uniprot/P0C7T5</li></ul>
 <h5>PPI 网络（三源综合）</h5>
 <div class="table-wrap"><table>
 <thead><tr><th>Partner</th><th>Source</th><th>Score/Evidence</th></tr></thead><tbody>
-<tr><td>无记录</td><td>—</td><td>—</td></tr>
+<tr><td>暂无互作数据</td></tr>
 </tbody></table></div>
-<p>IntAct 有限记录。无 BioGrid 补充数据。</p>
+<p>暂无实验验证互作。无 BioGrid 补充数据。</p>
 <p><figure><img src="../../detail/nucleoplasm/ATXN1L/ATXN1L-PAE.png" alt="ATXN1L-PAE.png"></figure></p>
 <p>PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。</p>
 <p><figure><img src="../../detail/nucleoplasm/ATXN1L/ATXN1L-PAE.png" alt="ATXN1L-PAE.png"></figure></p>

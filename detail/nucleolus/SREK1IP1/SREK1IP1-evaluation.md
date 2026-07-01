@@ -37,7 +37,7 @@ status: scored
 | 🏗️ 三维结构 | 6/10 | ×3 | 18 | AlphaFold pLDDT: 63.7 |
 | 🧬 调控结构域 | 6/10 | ×2 | 12 | UniProt domains: None identified |
 | 🔗 PPI | 4/10 | ×3 | 12 | 待细化（默认基线） |
-| ➕ 互证加分 | — | — | **+0** | 待补充 |
+| ➕ 互证加分 | — | — | **+0** | 暂无数据 |
 | **原始总分** |  |  | **128/183** |  |
 | **归一化总分** |  |  | **69.9/100** |  |
 
@@ -102,6 +102,34 @@ HPA 免疫荧光（IF）实验数据确认 SREK1IP1 定位：
 **评价**: —
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NME1 | BioGRID | 0 |
+| SDCBP | BioGRID | 0 |
+| RBM39 | BioGRID | 0 |
+| SDCBP2 | BioGRID | 0 |
+| HSD17B14 | BioGRID | 0 |
+| PPCDC | BioGRID | 0 |
+| STAC3 | BioGRID | 0 |
+| RP9P | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/62853/1261_C12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/62853/1261_C12_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/62853/1241_E10_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/62853/1241_E10_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/62853/1245_E10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/62853/1245_E10_2_blue_red_green.jpg)
+
+
 ### 5. 总体评价
 
 **推荐等级**: ⭐⭐⭐
@@ -121,9 +149,9 @@ HPA 免疫荧光（IF）实验数据确认 SREK1IP1 定位：
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 <!-- DOMAIN_HUMANPPI_REPAIR_START -->
 ## Domain/SMART 与 humanPPI 补充（2026-06-07）

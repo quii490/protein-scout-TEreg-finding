@@ -145,6 +145,34 @@ IntAct 实验互作: 17 条
 - [ ] 功能研究: 基于 PPI 网络设计功能实验
 - [ ] 结构分析: 基于 PDB 结构设计功能实验
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| IKBKB | BioGRID | 0 |
+| NAA25 | BioGRID | 0 |
+| NHEJ1 | BioGRID | 0 |
+| SMAD5 | BioGRID | 0 |
+| ADIPOR1 | BioGRID | 0 |
+| CACYBP | BioGRID | 0 |
+| CIRBP | BioGRID | 0 |
+| MARS | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/63344/1187_B10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/63344/1187_B10_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/63344/1170_B12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/63344/1170_B12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/63344/1141_B12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/63344/1141_B12_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=NAA20
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000173418-NAA20
@@ -157,9 +185,9 @@ IntAct 实验互作: 17 条
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[NAA20-PAE.png]]
 

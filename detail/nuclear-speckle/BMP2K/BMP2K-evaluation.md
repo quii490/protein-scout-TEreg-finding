@@ -169,6 +169,24 @@ status: scored
 - [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| REPS1 | STRING | 877 |
+| NUMB | STRING | 824 |
+| RALBP1 | STRING | 731 |
+| KDM5B | BioGRID | 1 |
+| TERF1 | BioGRID | 1 |
+| TERF2 | BioGRID | 1 |
+| ABL1 | BioGRID | 1 |
+| XPO1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 
 - UniProt: https://www.uniprot.org/uniprotkb/Q9NSY1

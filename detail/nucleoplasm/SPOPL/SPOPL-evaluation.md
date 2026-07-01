@@ -109,9 +109,9 @@ status: scored
 | GLI2 | 0.949 | 0.296 | — |
 | RBX1 | 0.947 | 0.091 | — |
 | SUFU | 0.940 | 0.000 | — |
-| KBTBD7 | 0.921 | 0.084 | — |
+| KB暂无数据7 | 0.921 | 0.084 | — |
 | KLHL20 | 0.916 | 0.091 | — |
-| KBTBD8 | 0.914 | 0.099 | — |
+| KB暂无数据8 | 0.914 | 0.099 | — |
 
 **实验验证互作** (IntAct):
 
@@ -167,6 +167,34 @@ status: scored
 - [ ] 查阅最新关键文献补充研究背景
 - [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
 - [ ] 设计体外实验验证核定位及潜在调控功能
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CUL3 | STRING | 999 |
+| SPOP | STRING | 966 |
+| GLI1 | STRING | 952 |
+| GLI3 | STRING | 951 |
+| GLI2 | STRING | 949 |
+| RBX1 | STRING | 947 |
+| SUFU | STRING | 940 |
+| KB暂无数据7 | STRING | 921 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/34687/440_E3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/34687/440_E3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/34687/428_E3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/34687/428_E3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/34687/433_E3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/34687/433_E3_2_blue_red_green.jpg)
 
 
 ### 5. 数据来源

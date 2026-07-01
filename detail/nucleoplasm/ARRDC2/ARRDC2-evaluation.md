@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | ARRDC2 / Arrestin domain-containing protein 2 |
+| 蛋白名称 | Arrestin domain-containing protein 2 |
 | 蛋白大小 | 407 aa / 44.4 kDa |
 | UniProt ID | Q8TBH0 |
 | 评估日期 | 2026-05-29 |
@@ -147,6 +148,34 @@ status: scored
 - [ ] 需要独立验证核定位
 - [ ] 鉴定核内互作 partners
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| WWP1 | BioGRID | 1 |
+| ZRANB1 | BioGRID | 1 |
+| IMPDH1 | BioGRID | 1 |
+| EGFR | BioGRID | 1 |
+| TOP3B | BioGRID | 1 |
+| PSMD13 | BioGRID | 1 |
+| BAG6 | BioGRID | 1 |
+| UBR4 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/53788/840_E4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/53788/840_E4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/53788/986_B3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/53788/986_B3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/53788/832_B3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/53788/832_B3_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8TBH0
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000105643-ARRDC2/subcellular
@@ -157,9 +186,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[ARRDC2-PAE.png]]
 

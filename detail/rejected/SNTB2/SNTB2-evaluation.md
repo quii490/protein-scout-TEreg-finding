@@ -53,6 +53,35 @@ status: scored
 
 SNTB2 is 540 amino acids in length (~58.0 kDa). Ideal size (540 aa), suitable for standard biochemical experiments. Score 10/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ERBB4 | BioGRID | 0 |
+| KCNJ12 | BioGRID | 0 |
+| DMD | BioGRID | 0 |
+| UTRN | BioGRID | 0 |
+| DGKZ | BioGRID | 0 |
+| MAST2 | BioGRID | 0 |
+| MAST1 | BioGRID | 0 |
+| SCN5A | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/1394/1183_H9_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1394/1183_H9_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1394/61_B2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1394/61_B2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1394/1989_D2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1394/1989_D2_3_blue_red_green.jpg)
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

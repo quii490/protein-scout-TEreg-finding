@@ -140,6 +140,21 @@ status: scored
 - [ ] AlphaFold 结构预测分析
 - [ ] Co-IP/MS 验证PPI网络
 
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q96SC8-F1-predicted_aligned_error_v6.png)
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/62958/1767_H11_1_cr594bac8e62e83_blue_red_green.jpg)
+![](https://images.proteinatlas.org/62958/1767_H11_14_cr594bac8e63603_blue_red_green.jpg)
+![](https://images.proteinatlas.org/62958/1681_C9_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/62958/1681_C9_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/62958/1675_C9_31_blue_red_green.jpg)
+![](https://images.proteinatlas.org/62958/1675_C9_32_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96SC8
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=DMRTA2
@@ -150,9 +165,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 <!-- DOMAIN_HUMANPPI_REPAIR_START -->
 ## Domain/SMART 与 humanPPI 补充（2026-06-06）

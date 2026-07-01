@@ -16,6 +16,7 @@ tags: [protein-scout, sperm, evaluation]
 - **IF 可靠性:** 未获取
 - **PubMed:** 15 篇
 - **精子定位部位:** End piece、Principal piece (2 个)
+- **UniProt Subcellular Location:** Secreted; Cytoplasmic vesicle, secretory vesicle, acrosome; Cell projection, cilium, flagellum
 
 ## 2. HPA 精子定位证据
 - **来源:** End piece、Principal piece ✓

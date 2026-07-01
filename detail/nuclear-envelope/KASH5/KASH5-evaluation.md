@@ -171,6 +171,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| UNC84A | STRING | 999 |
+| SUN1 | STRING | 999 |
+| UNC84B | STRING | 998 |
+| SYNE4 | STRING | 919 |
+| TERB1 | STRING | 890 |
+| MAJIN | STRING | 861 |
+| LRMP | STRING | 846 |
+| TERB2 | STRING | 839 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8N6L0
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000161609-KASH5/subcellular

@@ -174,6 +174,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SLF2 | STRING | 999 |
+| SMC5 | STRING | 959 |
+| RAD18 | STRING | 956 |
+| CDC45 | STRING | 947 |
+| TP53BP1 | STRING | 921 |
+| MCM3 | STRING | 916 |
+| MCM5 | STRING | 894 |
+| SMC6 | STRING | 867 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9BQI6
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000133302-SLF1/subcellular

@@ -160,6 +160,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MAPK14 | STRING | 927 |
+| MAPK8 | STRING | 927 |
+| MAPK9 | STRING | 920 |
+| MAPK1 | STRING | 916 |
+| ERK2 | STRING | 916 |
+| DUSP9 | STRING | 900 |
+| MAPK3 | STRING | 830 |
+| MAPK11 | STRING | 751 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q16829
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000164086-DUSP7/subcellular

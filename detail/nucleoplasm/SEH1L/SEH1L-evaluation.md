@@ -172,3 +172,24 @@ Source: https://www.proteinatlas.org/ENSG00000085415-SEH1L/interaction
 | MTMR14 | Biogrid | false |
 | MYC | Biogrid | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NUP107 | STRING | 999 |
+| NUP155 | STRING | 999 |
+| NPR2 | STRING | 999 |
+| NUP85 | STRING | 999 |
+| NUP133 | STRING | 999 |
+| NUP205 | STRING | 999 |
+| NUP93 | STRING | 999 |
+| NUP98 | STRING | 999 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q96EE3-F1-predicted_aligned_error_v6.png)

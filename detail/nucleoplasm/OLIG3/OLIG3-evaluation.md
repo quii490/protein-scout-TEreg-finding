@@ -161,6 +161,20 @@ pm: 24
 - [ ] ChIP-seq 鉴定靶基因和 E-box 结合位点
 - [ ] 在 TE 调控体系中筛选其靶向 TE 亚家族
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TCF12 | BioGRID | 1 |
+| BYSL | BioGRID | 1 |
+| TRAF1 | BioGRID | 1 |
+| ATN1 | BioGRID | 1 |
+| PLAGL2 | BioGRID | 1 |
+| MFAP1 | BioGRID | 1 |
+| HMG20A | BioGRID | 1 |
+| RUNX1 | BioGRID | 1 |
+
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=OLIG3
 - Protein Atlas: https://www.proteinatlas.org/search/OLIG3

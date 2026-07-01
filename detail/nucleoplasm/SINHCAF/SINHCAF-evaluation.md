@@ -167,6 +167,34 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SIN3A | STRING | 990 |
+| ING2 | STRING | 988 |
+| HDAC2 | STRING | 976 |
+| SAP30 | STRING | 974 |
+| HDAC1 | STRING | 967 |
+| SUDS3 | STRING | 963 |
+| SAP30L | STRING | 958 |
+| DKFZP564A063 | STRING | 958 |
+
+
+### 深度机制分析
+
+**结构域架构**：SINHCAF（221 aa, UniProt Q9NP50）是SIN3-HDAC转录辅抑制复合物的确证亚基。蛋白由单一结构域家族（IPR026065/PF15396, FAM60A domain, 残基~1-221）定义。虽然AlphaFold v6整体预测置信度中等偏低（pLDDT=72.7，仅40.3%残基>90），但PAE图揭示单一紧凑球状结构域，域间误差低，表明较低的pLDDT源于N端部分无序区段（残基~1-40）而非整体结构不确定性。折叠核心（残基~40-200）可能采用α-β混合折叠，作为SIN3复合物装配的蛋白-蛋白互作模块。无PDB实验结构，pLDDT=72.7使得结构可用于初步建模，但对细粒度结构解读需谨慎，尤其是涉及特异性互作界面的预测。
+
+**PPI网络分析**：PPI网络极具信息量和机制内聚性。STRING top伙伴构成完整SIN3-HDAC核心复合物：SIN3A（0.990, 实验=0.724）、ING2（0.988, 实验=0.781）、HDAC2（0.976, 实验=0.713）、SAP30（0.974, 实验=0.819）、HDAC1（0.967, 实验=0.778）、SUDS3（0.963, 实验=0.742）、BRMS1（0.958, 实验=0.733）、BRMS1L（0.954, 实验=0.736）、SAP30L（0.958, 实验=0.760）、ING1（0.952, 实验=0.782）。所有核心亚基实验评分>0.7，提供高度置信度。IntAct确认HDAC1、SIN3B和SAP30的co-IP（PMID:28514442），并扩展至ZMYM6、TNRC18、GTPBP3、GOLGA2等因子，暗示SINHCAF将SIN3核心与额外调控组件桥接。HPA humanPPI数据（ARID4A、ARID4B、RBBP7、BAHCC1 -- 均含AF3/HPA结构预测）将SINHCAF进一步锚定至染色质重塑领域。值得注意的是，STRING实验证据来源于大规模AP-MS研究（PMID:28514442），提供了稳定的物理互作确证。
+
+**结构解读与机制模型**：SINHCAF作为SIN3-HDAC复合物内的特异性因子，指导组蛋白去乙酰化酶活性到特定基因组位点。关键文献（PMID:29784889）确立了SINHCAF特异性地抑制HIF-2α表达，表明该亚基赋予广泛作用的SIN3-HDAC去乙酰化机器的靶基因选择性。机制上，SIN3复合物以多种变体组装形式存在（SIN3A vs SIN3B核心、HDAC1 vs HDAC2催化亚基，加上ING1/2、BRMS1/BRMS1L、SAP30/SAP30L等辅因子）。SINHCAF在某些亚复合物中存在而在另一些中缺失，实现了通过组合装配从有限核心组件生成功能多样性。FAM60A结构域可能直接结合SIN3A的PAH（paired amphipathic helix）结构域。pLDDT=72.7虽然中等，但仍可解读为折叠互作模块，其有序区（53.9%）足以维持稳定的蛋白-蛋白界面。
+
+**TE调控意义与实验建议**：SINHCAF是TE沉默研究的高优先级候选。SIN3-HDAC复合物是主要的I类组蛋白去乙酰化酶效应器，HDAC1/2介导的H3K27ac和H4K16ac去乙酰化是维持重复元件处抑制性染色质的公认机制。SINHCAF可能赋予SIN3-HDAC对特定TE亚家族（尤其是ERV/LTR元件，已知的HDAC靶点）的位点特异性靶向能力。极少发表量（PubMed=4）意味着其TE特异性功能完全未被探索，提供了干净的发现空间。关键实验：（1）相关细胞类型中SINHCAF ChIP-seq，聚焦repeat-masked reads；（2）SINHCAF敲低/degradation后TE家族RNA-seq；（3）重组SINHCAF-SIN3复合物体外去乙酰化酶活性定量；（4）cryo-EM解析SINHCAF-SIN3界面以指导功能突变实验。
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9NP50
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000139146-SINHCAF/subcellular

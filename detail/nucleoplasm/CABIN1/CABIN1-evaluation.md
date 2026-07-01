@@ -170,6 +170,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| UBN1 | STRING | 999 |
+| HIRA | STRING | 999 |
+| ASF1A | STRING | 998 |
+| MEF2B | STRING | 996 |
+| MEF2D | STRING | 940 |
+| UBN2 | STRING | 872 |
+| ASF1B | STRING | 850 |
+| CALM3 | STRING | 849 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9Y6J0
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000099991-CABIN1/subcellular

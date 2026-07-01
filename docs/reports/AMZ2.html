@@ -12,6 +12,8 @@
   <nav>
     <a href="../protein_index.html">总表</a>
     <a href="../category/nucleoplasm.html">Nucleoplasm</a><a href="../category/nucleus-cytoplasm.html">Nucleus-cytoplasm</a><a href="../category/nuclear-speckle.html">Nuclear speckle</a><a href="../category/nuclear-body.html">Nuclear body</a><a href="../category/nucleolus.html">Nucleolus</a><a href="../category/nuclear-envelope.html">Nuclear envelope</a><a href="../category/chromatin.html">Chromatin</a><a href="../category/rejected.html">Rejected</a>
+    <a href="../centrosome/index.html">Centrosome</a>
+    <a href="../sperm/index.html">Sperm</a>
   </nav>
 </header><main class="container report-shell"><section class="panel"><h1>AMZ2</h1><div class="report-meta"><span class="badge muted">rejected</span><span class="badge">rejected</span><span class="badge">总分: NA</span><span class="badge">核定位: 3</span><a class="button small" href="../protein_index.html">蛋白总表</a><a class="button small" href="../category/rejected.html">分类页</a></div><p class="source-path">原始 detail 路径: detail/rejected/AMZ2/AMZ2-evaluation.md</p></section><article class="report-body"><hr>
 <p>type: protein-evaluation gene: &quot;AMZ2&quot; date: 2026-06-03 tags: [protein-scout, rejected, evaluation] status: rejected ---</p>
@@ -125,7 +127,11 @@
 <p><strong>风险/不确定性</strong>: 1. PubMed 6 篇，研究基础极有限，功能注释不完整 2. 结构数据质量可接受</p>
 <p><strong>下一步建议</strong>:</p>
 <ul><li>[ ] 查阅最新关键文献补充研究背景</li><li>[ ] 获取 Protein Atlas IF 图像确认亚细胞定位</li><li>[ ] 设计体外实验验证核定位及潜在调控功能</li><li>[ ] <strong>该蛋白核定位证据不足（≤3/10），不建议作为核蛋白研究目标。</strong></li></ul>
-<h4>5. 数据来源</h4>
+<h4>深度机制分析</h4>
+<p>AMZ2编码古菌金属蛋白酶-2（archaemetzincin-2），属于M54家族金属内肽酶。其UniProt（Q86W34）域架构以IPR012962（Archaemetzincin）和IPR024079（Metallopeptidase_cat_dom）为核心——后者定义了锌依赖性金属蛋白酶的催化结构域特征性折叠。IPR052009是非催化辅助结构域，可能参与底物识别或酶原激活调控。Pfam的PF07998（Archaemetzincin）与InterPro注释高度一致。AlphaFold v6以极高置信度（pLDDT=90.2，有序区93.3%，高置信残基192/360=74.4%）预测了该蛋白的三维折叠，表明其结构高度有序，催化裂隙清晰可辨。</p>
+<p>然而，该蛋白的功能注释近乎空白：PubMed仅6篇文献，且大多来自转录组关联研究而非直接功能验证。仅有一篇生物化学表征（PMID:15972818）确认了AMZ1和AMZ2作为古菌M54家族的哺乳动物同源物，其催化残基保守但内源性底物完全未知。在生殖生物学领域，AMZ2的突变与严重畸形精子症（PMID:37459044、PMID:39417902）相关——精子头部的空泡化表型提示AMZ2可能在精子顶体形成或精子头部重塑中发挥蛋白水解加工功能。但这一假说缺乏任何机制层面的实验证据。</p>
+<p>PPI网络稀疏但包含一条引人注目的数据：NDE1（核分布蛋白E同源物1，PMID:26496610的共免疫沉淀实验）是中心体/纺锤体极的关键支架蛋白，与Lis1和动力蛋白形成复合体调控有丝分裂纺锤体定向。AMZ2-NDE1互作如果属实，可能暗示AMZ2参与有丝分裂细胞骨架重塑——这可能与精子发生中的减数分裂纺锤体功能相关——但IntAct实验中该互作的单一性（仅1次捕获，无正反交互补）使其生物学意义存疑。</p>
+<p>尽管HPA修复后IF图像显示核质定位（supported级别），AMZ2的催化功能应发生于胞质或细胞外环境。金属蛋白酶通常以前体酶原形式合成，经蛋白水解加工后才暴露活性位点——若AMZ2确实在核质中执行功能，其核定位信号和核输入机制将是未来研究的关键切入点。但鉴于仅6篇文献且无结构域提示核酸或染色质结合能力，AMZ2的TE调控潜力评估为低概率。</p>
 <ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q86W34</li><li>Protein Atlas: https://www.proteinatlas.org/search/AMZ2</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=AMZ2</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q86W34</li><li>STRING: https://string-db.org/network/9606.ENSP00000</li><li>Data fetched live: 2026-06-03</li></ul>
 <p>&lt;!-- HPA_IF_REPAIR_START --&gt; <strong>HPA IF 图像修正（2026-06-05）</strong>: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (supported)。来源: https://www.proteinatlas.org/ENSG00000196704-AMZ2/subcellular</p>
 <p><figure><img src="https://images.proteinatlas.org/23299/263_H4_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/23299/263_H4_2_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/23299/277_H4_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/23299/277_H4_2_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/52406/767_E4_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/52406/767_E4_2_red_green.jpg" alt="image"></figure> &lt;!-- HPA_IF_REPAIR_END --&gt;</p>

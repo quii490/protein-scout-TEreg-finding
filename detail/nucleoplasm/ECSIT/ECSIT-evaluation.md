@@ -169,6 +169,34 @@ status: scored
 - [ ] CRISPR 敲除/敲低表型分析
 - [ ] AlphaFold-Multimer 预测潜在复合体结构
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| STRN4 | BioGRID | 0 |
+| IMMT | BioGRID | 0 |
+| SETDB1 | BioGRID | 0 |
+| TLR4 | BioGRID | 0 |
+| TRIM59 | BioGRID | 0 |
+| MAVS | BioGRID | 0 |
+| A2M | BioGRID | 0 |
+| CDC37 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 实验数据，可能在基因组水平参与 TE 调控。建议分析 ChIP 峰在 TE 区域的富集情况。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/42979/558_G6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/42979/558_G6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/42979/518_G6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/42979/518_G6_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/42979/530_G6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/42979/530_G6_4_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=ECSIT
@@ -182,9 +210,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[ECSIT-PAE.png]]
 

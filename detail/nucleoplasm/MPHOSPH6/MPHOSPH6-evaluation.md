@@ -237,3 +237,22 @@ Source: https://www.proteinatlas.org/ENSG00000135698-MPHOSPH6/interaction
 | EXOSC5 | Biogrid, Bioplex | true |
 | EXOSC6 | Biogrid, Bioplex | true |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| EXOSC5 | STRING | 999 |
+| EXOSC4 | STRING | 999 |
+| EXOSC7 | STRING | 999 |
+| EXOSC8 | STRING | 999 |
+| EXOSC6 | STRING | 999 |
+| EXOSC1 | STRING | 999 |
+| EXOSC3 | STRING | 999 |
+| EXOSC10 | STRING | 998 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 实验数据，可能在基因组水平参与 TE 调控。建议分析 ChIP 峰在 TE 区域的富集情况。

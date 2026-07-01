@@ -12,6 +12,8 @@
   <nav>
     <a href="../protein_index.html">总表</a>
     <a href="../category/nucleoplasm.html">Nucleoplasm</a><a href="../category/nucleus-cytoplasm.html">Nucleus-cytoplasm</a><a href="../category/nuclear-speckle.html">Nuclear speckle</a><a href="../category/nuclear-body.html">Nuclear body</a><a href="../category/nucleolus.html">Nucleolus</a><a href="../category/nuclear-envelope.html">Nuclear envelope</a><a href="../category/chromatin.html">Chromatin</a><a href="../category/rejected.html">Rejected</a>
+    <a href="../centrosome/index.html">Centrosome</a>
+    <a href="../sperm/index.html">Sperm</a>
   </nav>
 </header><main class="container report-shell"><section class="panel"><h1>ESPNL</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nuclear-speckle</span><span class="badge">总分: 64.4</span><span class="badge">核定位: 4</span><a class="button small" href="../protein_index.html">蛋白总表</a><a class="button small" href="../category/nuclear-speckle.html">分类页</a></div><p class="source-path">原始 detail 路径: detail/nuclear-speckle/ESPNL/ESPNL-evaluation.md</p></section><article class="report-body"><hr>
 <p>type: protein-evaluation gene: &quot;ESPNL&quot; date: 2026-06-03 tags: [protein-scout, nuclear-protein, evaluation] status: scored ---</p>
@@ -121,7 +123,19 @@
 <p><strong>风险/不确定性</strong>: 1. PubMed 5 篇，研究基础极有限，功能注释不完整 2. AlphaFold 预测质量一般（pLDDT=64.7），需要更多实验结构验证</p>
 <p><strong>下一步建议</strong>:</p>
 <ul><li>[ ] 查阅最新关键文献补充研究背景</li><li>[ ] 获取 Protein Atlas IF 图像确认亚细胞定位</li><li>[ ] 设计体外实验验证核定位及潜在调控功能</li></ul>
-<h4>5. 数据来源</h4>
+<h4>PPI 互作网络</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>互作伙伴</th><th>来源</th><th>评分</th></tr></thead><tbody>
+<tr><td>PFDN5</td><td>BioGRID</td><td>0</td></tr>
+<tr><td>LDLRAP1</td><td>BioGRID</td><td>0</td></tr>
+<tr><td>SERTAD2</td><td>BioGRID</td><td>0</td></tr>
+</tbody></table></div>
+<h4>TE 调控评估</h4>
+<p>该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。</p>
+<h4>深度机制分析</h4>
+<p>ESPNL编码Espin样蛋白（Q6ZVH7），属于Espin/ankyrin重复蛋白家族的actin捆绑因子。其域架构由三个功能模块串联构成：（1）N端的IPR002110/IPR036770（ANK/ANK重复结构域）形成了典型的ankyrin重复螺旋束——这一模块通常介导蛋白-蛋白相互作用，在Espin家族中负责将actin捆绑蛋白锚定于静纤毛的根部；（2）C端的IPR052420定义了Espin样蛋白特有的actin捆绑序列，含有多个WH2（WASP同源结构域2）样actin单体结合基序，可直接结合G-actin并以高亲和力交联F-actin丝；（3）SMART SM00248进一步确认了ankyrin重复的规范折叠特征。然而，AlphaFold v6预测质量有限（pLDDT=64.7，有序区仅50.6%，低置信区占37.3%）——这一中等质量的预测反映了大尺寸蛋白（1005 aa）中约500个残基可能处于固有无序状态，这些无序区可能作为柔性间隔区连接actin结合模块或参与机械感应。</p>
+<p>PPI网络极致集中在内耳毛细胞静纤毛的actin动力学通路。STRING最高分互作（MYO3B=0.962/实验分数=0.412、MYO3A=0.958）指向ESPNL作为非典型myosin-III（Myo3a/3b）的货物适配器——Myo3在静纤毛尖端向顶端的定向运输中携带Espin和其他actin捆绑蛋白到达actin filament的加端，使用其N端激酶结构域而非马达结构域进行尖端定位。EPS8（0.885/实验分数0.045）和EPS8L2（0.912/实验分数0.045）——表皮生长因子受体通路底物8及其同源物——是actin重塑的多价信号接头，含有SH3和PPIase结构域，它们与Espin/ESPNL形成尖端复合体（tip complex）核心组件。WHRL（0.908）、MYO15A（0.910）和TWF2（0.888）进一步扩展了静纤毛尖端力学感应和actin动态周转的功能网络。IntAct实验互作（LDLRAP1、PFDN5、SERTAD2，均来自PMID:32296183的验证酵母双杂交）提供了ESPNL在更广泛蛋白网络中低置信度附加互作。</p>
+<p>仅5篇PubMed文献使ESPNL成为极度新颖的研究靶点，但其核定位得分仅4/10（HPA主要定位于胞质，核质和核小体仅为附加信号）且所有已知生物学功能严格限定于细胞质actin细胞骨架组织。核质/核小体的HPA附加信号可能代表抗体的非特异性交叉反应或ESPNL在核孔复合体附近的瞬时存在——actin及其捆绑蛋白近年来被发现在核质中参与染色质重塑复合体（INO80、SWR1、SWI/SNF）和RNA聚合酶II转录延伸的功能调控。若ESPNL确实以低丰度存在于核质，其actin捆绑活性理论上可能影响核actin聚合动力学，间接调节依赖核actin的转录机器。但这一假说目前缺乏任何实验数据支持——ESPNL的内耳病学研究（PMID:33151556）和肿瘤甲基化研究（PMID:30898391、PMID:33188484）均未涉及核功能。TE调控潜力评估为极低概率。</p>
 <ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q6ZVH7</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000144488-ESPNL/subcellular</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=ESPNL</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q6ZVH7</li><li>STRING: https://string-db.org/network/9606.ENSP00000</li><li>Data fetched live: 2026-06-03</li></ul>
 <p>&lt;!-- HPA_IF_REPAIR_START --&gt; <strong>HPA IF 图像修正（2026-06-05）</strong>: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Cytosol (approved)。来源: https://www.proteinatlas.org/ENSG00000144488-ESPNL/subcellular</p>
 <p><figure><img src="https://images.proteinatlas.org/55103/2117_H1_2_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/55103/2117_H1_3_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/55103/2275_E10_41_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/55103/2275_E10_64_blue_red_green.jpg" alt="image"></figure> &lt;!-- HPA_IF_REPAIR_END --&gt;</p>

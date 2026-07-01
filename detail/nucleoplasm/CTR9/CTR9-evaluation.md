@@ -65,6 +65,24 @@ HPA IF images not reliably obtained (no subcellular IF images available on HPA s
 
 **Research Volume Assessment**: Moderate (<100 papers), some research foundation but unexplored niches remain
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PAF1 | STRING | 999 |
+| LEO1 | STRING | 999 |
+| WDR61 | STRING | 999 |
+| SUPT5H | STRING | 999 |
+| CDC73 | STRING | 999 |
+| RTF1 | STRING | 999 |
+| SUPT16H | STRING | 997 |
+| SUPT4H1 | STRING | 996 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. AlphaFold / PAE / PDB
 
 #### AlphaFold

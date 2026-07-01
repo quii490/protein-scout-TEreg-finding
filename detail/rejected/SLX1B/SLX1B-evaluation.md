@@ -50,6 +50,52 @@ status: scored
 
 SLX1B is 275 amino acids in length (~30.8 kDa). Ideal size (275 aa), suitable for standard biochemical experiments. Score 10/10.
 
+### 功能描述
+
+Catalytic subunit of the SLX1-SLX4 structure-specific endonuclease that resolves DNA secondary structures generated during DNA repair and recombination. Has endonuclease activity towards branched DNA substrates, introducing single-strand cuts in duplex DNA close to junctions with ss-DNA. Has a preference for 5'-flap structures, and promotes symmetrical cleavage of static and migrating Holliday junctions (HJs). Resolves HJs by generating two pairs of ligatable, nicked duplex products
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SLX4 | STRING | 981 |
+| SLX1A | STRING | 935 |
+| ERCC1 | STRING | 710 |
+| PAGR1 | BioGRID | 1 |
+| GEMIN4 | BioGRID | 1 |
+| SLIRP | BioGRID | 1 |
+| ERCC4 | BioGRID | 1 |
+| GEMIN6 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/47038/864_E6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/47038/864_E6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/47038/753_B7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/47038/753_B7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/47038/739_B7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/47038/739_B7_2_blue_red_green.jpg)
+
+
+### PubMed
+
+**Count: 4**
+
+| PMID | Title |
+|---|---|
+| 37968726 | Dissecting the autism-associated 16p11.2 locus identifies multiple drivers in neuroanatomical phenotypes and unveils a male-specific role for the majo |
+| 37178509 | Differential alternative polyadenylation response to high-fat diet between polygenic obese and healthy lean mice. |
+| 34715901 | Integration of genetic, transcriptomic, and clinical data provides insight into 16p11.2 and 22q11.2 CNV genes. |
+| 33531372 | Premalignant Oligodendrocyte Precursor Cells Stall in a Heterogeneous State of Replication Stress Prior to Gliomagenesis. |
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

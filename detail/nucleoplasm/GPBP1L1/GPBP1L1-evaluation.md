@@ -163,59 +163,36 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q9HC44
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000159592-GPBP1L1/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=GPBP1L1
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9HC44
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/GPBP1L1/IF_images/546_E9_1_red_green.jpg]]
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/GPBP1L1/IF_images/291_E9_2_red_green.jpg]]
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TMEM69 | STRING | 746 |
+| CNOT1 | STRING | 731 |
+| EIF3E | BioGRID | 1 |
+| EWSR1 | BioGRID | 1 |
+| ELAVL1 | BioGRID | 1 |
+| NXF1 | BioGRID | 1 |
+| XPO1 | BioGRID | 1 |
+| KANSL2 | BioGRID | 1 |
 
 
+### TE 调控评估
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000159592-GPBP1L1/subcellular
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
-![](https://images.proteinatlas.org/28593/254_E9_5_red_green.jpg)
-![](https://images.proteinatlas.org/28593/254_E9_6_red_green.jpg)
-![](https://images.proteinatlas.org/28593/291_E9_2_red_green.jpg)
-![](https://images.proteinatlas.org/28593/291_E9_5_red_green.jpg)
-![](https://images.proteinatlas.org/28593/546_E9_1_red_green.jpg)
-![](https://images.proteinatlas.org/28593/546_E9_2_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
+### HPA IF 图像
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+HPA 检索: https://www.proteinatlas.org/search/GPBP1L1
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q9HC44-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+### PubMed
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+**Count: 3**
 
-### SMART / UniProt domain
-| Source | Data |
+| PMID | Title |
 |---|---|
-| UniProt | Q9HC44 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR028128; |
-| Pfam | PF15337; |
+| 42349107 | Fusion gene heterogeneity and kinase enrichment in high-grade serous carcinomas. |
+| 38812741 | Integration of Multi-Omics Data for the Classification of Glioma Types and Identification of Novel Biomarkers. |
+| 29765130 | Copy number variants implicate cardiac function and development pathways in earthquake-induced stress cardiomyopathy. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000159592-GPBP1L1/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| CNOT11 | Intact, Biogrid, Bioplex | true |
-| CNOT2 | Biogrid, Bioplex | true |
-| CNOT6L | Biogrid, Bioplex | true |
-| CNOT7 | Biogrid, Bioplex | true |
-| EIF3E | Intact, Biogrid | true |
-| YWHAG | Biogrid, Opencell | true |
-| CAPZB | Opencell | false |
-| CNOT1 | Biogrid | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

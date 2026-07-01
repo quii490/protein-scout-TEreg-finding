@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | AZIN1 / OAZI, OAZIN, AZI, AZI1 |
+| 蛋白名称 | Antizyme inhibitor 1 |
 | 蛋白大小 | 448 aa / 49.5 kDa |
 | UniProt ID | O14977 (AZIN1_HUMAN, Swiss-Prot reviewed) |
 | Ensembl Gene ID | ENSG00000155096 |
@@ -204,6 +205,24 @@ AZIN1 的所有结构域均属于鸟氨酸脱羧酶家族和 PLP (磷酸吡哆�
 - [ ] 如展开研究, 需首先验证 AZIN1 核仁定位是否与 rRNA 转录或核仁染色质相关
 - [ ] 探究 AZIN1 编辑 (A-to-I RNA editing) 是否影响其核仁定位和功能
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| OAZ1 | STRING | 999 |
+| OAZ3 | STRING | 994 |
+| OAZ2 | STRING | 992 |
+| AASS | STRING | 794 |
+| SMS | STRING | 788 |
+| SRM | STRING | 782 |
+| FANCA | BioGRID | 1 |
+| FANCC | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O14977
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000155096-AZIN1/subcellular
@@ -219,9 +238,9 @@ AZIN1 的所有结构域均属于鸟氨酸脱羧酶家族和 PLP (磷酸吡哆�
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[AZIN1-PAE.png]]
 

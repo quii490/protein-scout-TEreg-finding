@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 | ANKRD16 |
+| 蛋白名称 | Ankyrin repeat domain-containing protein 16 |
 | 蛋白全名 | Ankyrin repeat domain-containing protein 16 |
 | 蛋白大小 | 361 aa / 39.3 kDa |
 | UniProt ID | Q6P6B7 |
@@ -83,6 +84,21 @@ UniProt interactions: 无记录。PPI 整体弱，AARS1 为已知功能伙伴（
 
 ### 4. 总体评价
 ANKRD16 是低置信度核-胞质候选。UniProt + GO 双源一致的核 + 胞质注释均为序列相似性推断（ECO:0000250 / ISS），HPA Approved IF 实验数据显示单一 ER 定位，与核注释不一致。蛋白功能为 tRNA 翻译保真度（Nature 2018），但定位证据薄弱。保留仅因双源一致的注释框架，置信度低。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| HRAS | BioGRID | 0 |
+| CD19 | BioGRID | 0 |
+| GAMT | BioGRID | 0 |
+| RHOA | BioGRID | 0 |
+| TOP3B | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q6P6B7

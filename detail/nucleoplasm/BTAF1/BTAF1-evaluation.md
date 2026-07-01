@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | BTAF1 / TAF172, TAFII170, MOT1 |
+| 蛋白名称 | TATA-binding protein-associated factor 172 |
 | 蛋白大小 | 1849 aa / 203.4 kDa |
 | UniProt ID | O14981 |
 | 评估日期 | 2026-05-29 |
@@ -160,6 +161,24 @@ status: scored
 - [ ] ChIP-seq 定位全基因组结合谱
 - [ ] 强烈推荐作为新颖转录调控靶标
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TBP | STRING | 999 |
+| TAF2 | STRING | 968 |
+| DRAP1 | STRING | 956 |
+| DKFZP666G145 | STRING | 955 |
+| DR1 | STRING | 955 |
+| TBPL2 | STRING | 929 |
+| TBPL1 | STRING | 870 |
+| GTF2B | STRING | 769 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
 ### 5. 关键文献
 
 1. Auble DT et al. (1994). 'Mot1, a global repressor of RNA polymerase II transcription, inhibits TBP binding to DNA by an ATP-dependent mechanism.' Genes Dev. PMID: 7926740
@@ -178,9 +197,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[BTAF1-PAE.png]]
 

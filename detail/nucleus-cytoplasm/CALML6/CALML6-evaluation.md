@@ -98,3 +98,38 @@ Source: https://www.proteinatlas.org/ENSG00000169885-CALML6/interaction
 | MAP3K7 | Biogrid | false |
 | PCP4 | Intact | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NOS1 | STRING | 999 |
+| CAMK2A | STRING | 999 |
+| RYR2 | STRING | 999 |
+| CAMK4 | STRING | 998 |
+| CAMKK2 | STRING | 997 |
+| PPP3CA | STRING | 997 |
+| CALM3 | STRING | 996 |
+| HEL-S-72 | STRING | 996 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### PubMed
+
+**Count: 18**
+
+| PMID | Title |
+|---|---|
+| 42191939 | Investigation of CALML6 expression and its clinical relevance across pan-cancer. |
+| 40754836 | Early-life vitamin A supplementation modulates the skeletal muscle transcriptome and intramuscular fat deposition in feedlot-finished beef steers. |
+| 39833449 | HDAC9-mediated deacetylation of CALML6 promotes excessive proliferation of glomerular mesangial cells in IgA nephropathy. |
+| 39571661 | CALML6 as a potential diagnostic marker for thyroid cancer promotes thyroid cancer cell proliferation via modulating the immune microenvironment. |
+| 39523364 | Analyzing immune cell infiltrates in skeletal muscle of infantile-onset Pompe disease using bioinformatics and machine learning. |
+
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q8TD86-F1-predicted_aligned_error_v6.png)
+

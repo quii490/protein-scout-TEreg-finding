@@ -69,6 +69,24 @@ HPA IF display images available, reliability: Supported.
 
 **Research Volume Assessment**: Moderate (<100 papers), some research foundation but unexplored niches remain
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| UBC | BioGRID | 0 |
+| SPP1 | BioGRID | 0 |
+| CDK2 | BioGRID | 0 |
+| SDHA | BioGRID | 0 |
+| HSPA1L | BioGRID | 0 |
+| RPS7 | BioGRID | 0 |
+| SLC1A5 | BioGRID | 0 |
+| PARK2 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白的 GO-CC 注释中缺乏染色质/TE 沉默相关定位，TE 调控潜力较低。不建议作为 TE 调控优先靶标。
+
 ### 5. AlphaFold / PAE / PDB
 
 #### AlphaFold

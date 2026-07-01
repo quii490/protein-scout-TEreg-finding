@@ -163,6 +163,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CTPS2 | STRING | 983 |
+| NME2 | STRING | 951 |
+| NME7 | STRING | 940 |
+| NUDT2 | STRING | 936 |
+| IMPDH | STRING | 927 |
+| IMPDH2 | STRING | 927 |
+| ITPA | STRING | 797 |
+| TIGD3 | STRING | 788 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P17812
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000171793-CTPS1/subcellular

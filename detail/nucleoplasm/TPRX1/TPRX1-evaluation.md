@@ -14,6 +14,7 @@ _notes: "PubMed=12 (<100) → 基线提升: 结2→5, 域5→6; 无HPA IF→核=
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | TPRX1 / Tetra-peptide repeat homeobox 1 / TPRX |
+| 蛋白名称 | Tetra-peptide repeat homeobox protein 1 |
 | 蛋白大小 | 411 aa / ~46 kDa |
 | UniProt ID | Q8N7U7 |
 | 评估日期 | 2026-05-28 () / 2026-05-29 |
@@ -121,6 +122,24 @@ _notes: "PubMed=12 (<100) → 基线提升: 结2→5, 域5→6; 无HPA IF→核=
 - [ ] 如表达受限，可考虑异位表达实验
 - [ ] IDR 区域的相分离预测（如 catGRANULE, PLAAC 等工具）
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CRX | STRING | 885 |
+| DPRX | STRING | 823 |
+| ARGFX | STRING | 808 |
+| DUXB | STRING | 780 |
+| LEUTX | STRING | 758 |
+| DUXA | STRING | 730 |
+| OIP5 | BioGRID | 1 |
+| ATXN1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8N7U7
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000178928-TPRX1
@@ -132,9 +151,9 @@ _notes: "PubMed=12 (<100) → 基线提升: 结2→5, 域5→6; 无HPA IF→核=
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[TPRX1-PAE.png]]
 

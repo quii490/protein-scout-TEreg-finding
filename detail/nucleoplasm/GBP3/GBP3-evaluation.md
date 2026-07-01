@@ -171,6 +171,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MAP4K4 | BioGRID | 0 |
+| GBP2 | BioGRID | 0 |
+| GBP1 | BioGRID | 0 |
+| AGR2 | BioGRID | 0 |
+| HIST1H1C | BioGRID | 0 |
+| S100A10 | BioGRID | 0 |
+| ACTL6B | BioGRID | 0 |
+| DECR2 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白缺乏核/染色质定位证据，TE 调控潜力较低。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9H0R5
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000117226-GBP3/subcellular

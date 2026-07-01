@@ -161,6 +161,35 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NOP56 | BioGRID | 1 |
+| FBXO11 | BioGRID | 1 |
+| AURKA | BioGRID | 1 |
+| STRADA | BioGRID | 1 |
+| RAF1 | BioGRID | 1 |
+| CTU2 | BioGRID | 0 |
+| FNTB | BioGRID | 0 |
+| OBSL1 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### ESMFold 结构预测
+
+| 指标 | 数值 |
+|---|---|
+| 平均 pLDDT | 0.33 |
+| >0.9 | 0.0% |
+| <0.5 | 93.8% |
+| 残基数 | 289 |
+
+ESMFold 从头折叠验证。PDB: `detail/_esm_structures/LBHD1_esmfold.pdb`
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9BQE6
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000162194-LBHD1/subcellular

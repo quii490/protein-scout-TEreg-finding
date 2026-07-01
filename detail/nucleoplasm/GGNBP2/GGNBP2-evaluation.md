@@ -160,6 +160,37 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| OAZ3 | STRING | 778 |
+| FBXW11 | BioGRID | 1 |
+| BTRC | BioGRID | 1 |
+| ZNF331 | BioGRID | 1 |
+| ESR1 | BioGRID | 1 |
+| FASN | BioGRID | 1 |
+| NR3C1 | BioGRID | 1 |
+| CUL3 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### PubMed
+
+**Count: 40**
+
+| PMID | Title |
+|---|---|
+| 41291841 | Identification and validation of PANoptosis-related biomarkers in Alzheimer's disease via single-cell RNA sequencing and machine learning. |
+| 40944974 | Circ(-)0008536 inhibits doxorubicin resistance in triple-negative breast cancer via the miR-382-5p/GGNBP2 axis. |
+| 39705338 | Erratum for the Research Article "GGNBP2 regulates MDA5 sensing triggered by self double-stranded RNA following loss of ADAR1 editing" by J. E. Heraud |
+| 39576872 | GGNBP2 regulates MDA5 sensing triggered by self double-stranded RNA following loss of ADAR1 editing. |
+| 39221224 | HNF1β, LHX1, and GGNBP2 deletion contributed to kidney and reproductive dysfunction in 17q12 deletion syndrome: evidence from a case report. |
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9H3C7
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000278311-GGNBP2/subcellular

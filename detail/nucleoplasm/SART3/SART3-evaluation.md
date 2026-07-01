@@ -53,6 +53,32 @@ status: scored
 
 SART3 is 963 amino acids (~110 kDa), which is above the ideal 200-800 aa experimental range. Large proteins of this size present challenges for recombinant expression, purification, and structural characterization. However, as a splicing factor with defined functional domains (U6-binding region, deubiquitinase recruitment motifs), domain-level studies are feasible. The size may also reflect the multi-functional nature of the protein (RNA binding, protein interaction, ubiquitin-related functions). Size score: 7/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| USP4 | STRING | 998 |
+| LSM2 | STRING | 998 |
+| LSM8 | STRING | 996 |
+| LSM7 | STRING | 995 |
+| LSM4 | STRING | 995 |
+| LSM6 | STRING | 993 |
+| LSM5 | STRING | 990 |
+| MEPCE | STRING | 976 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/28840/1851_H4_23_cr5b113a642fc85_blue_red_green.jpg)
+![](https://images.proteinatlas.org/28840/1851_H4_27_cr5b113a642ffa9_blue_red_green.jpg)
+![](https://images.proteinatlas.org/28840/1813_A7_5_cr59f62ec88c401_blue_red_green.jpg)
+![](https://images.proteinatlas.org/28840/1813_A7_26_cr59f62ec88c40b_blue_red_green.jpg)
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

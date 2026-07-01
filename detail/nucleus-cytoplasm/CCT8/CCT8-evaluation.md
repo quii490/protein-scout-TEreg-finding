@@ -12,7 +12,8 @@ status: scored
 
 | 项目 | 内容 |
 |------|------|
-| 基因名 / 别名 | CCT8 / C21orf112 | CCTQ | KIAA0002 |
+| 基因名 / 别名 | CCT8 / C21orf112 |
+| 蛋白名称 | T-complex protein 1 subunit theta | CCTQ | KIAA0002 |
 | 蛋白全名 | T-complex protein 1 subunit theta |
 | 蛋白大小 | 548 aa / 59.6 kDa |
 | UniProt ID | P50990 |
@@ -198,6 +199,34 @@ HPA IF 图像可用 (2张)，待下载。
 - [ ] 获取 HPA IF 图像确认核定位
 - [ ] 查阅最新关键文献补充功能细节
 - [ ] 设计体外 DNA/染色质结合实验
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CTTNBP2 | BioGRID | 0 |
+| MOB4 | BioGRID | 0 |
+| PPP2CA | BioGRID | 0 |
+| STK24 | BioGRID | 0 |
+| STRN | BioGRID | 0 |
+| STRN3 | BioGRID | 0 |
+| TRAF3IP3 | BioGRID | 0 |
+| PPP2CB | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/18520/150_B4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/18520/150_B4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/18520/149_B4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/18520/149_B4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/18520/151_B4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/18520/151_B4_2_blue_red_green.jpg)
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P50990

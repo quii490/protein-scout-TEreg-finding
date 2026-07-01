@@ -157,6 +157,34 @@ status: scored
 - [ ] 体外验证 ELP3 对组蛋白的 HAT 活性
 - [ ] 通过 ChIP-seq 检测 ELP3 在 TE 区域的结合
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ELP4 | STRING | 999 |
+| ELP5 | STRING | 999 |
+| ELP1 | STRING | 999 |
+| IKBKAP | STRING | 999 |
+| ELP2 | STRING | 999 |
+| ELP6 | STRING | 996 |
+| DPH3 | STRING | 927 |
+| KAT2A | STRING | 843 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/25297/1537_H6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/25297/1537_H6_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/25297/1468_C1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/25297/1468_C1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/25812/609_E7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/25812/609_E7_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: Q9H9T3 (https://www.uniprot.org/uniprotkb/Q9H9T3)
 - AlphaFold: AF-Q9H9T3-F1 v6 (https://alphafold.ebi.ac.uk/entry/Q9H9T3)
@@ -169,9 +197,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[ELP3-PAE.png]]
 

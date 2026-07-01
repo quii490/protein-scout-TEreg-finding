@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | ATF7IP / MCAF, MCAF1 |
+| 蛋白名称 | Activating transcription factor 7-interacting protein 1 |
 | 蛋白大小 | 1270 aa / 136.4 kDa |
 | UniProt ID | Q6VMQ6 (MCAF1_HUMAN, Swiss-Prot reviewed) |
 | Ensembl ID | ENSG00000171681 |
@@ -233,6 +234,24 @@ Fn3 域作为蛋白-蛋白互作支架，在此蛋白中可能介导与 MBD1 的
 4. **仅 TrEMBL 有部分交互数据, humanPPI 和 coiled-coil (591-662) 截短体用于结构研究
 - [ ] 利用 STRING 数据设计 Co-IP/MS 验证 PPI - [ ] 寻找 ATF7IP 独立于 SETDB1 的功能
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SETDB1 | STRING | 999 |
+| SUMO2 | STRING | 979 |
+| ARL14EP | STRING | 942 |
+| PCM1 | STRING | 905 |
+| MBD1 | STRING | 905 |
+| ATF7 | STRING | 823 |
+| SP1 | STRING | 799 |
+| DMRT1 | STRING | 776 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=ATF7IP
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000171681-ATF7IP/subcellular
@@ -246,9 +265,9 @@ Fn3 域作为蛋白-蛋白互作支架，在此蛋白中可能介导与 MBD1 的
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[ATF7IP-PAE.png]]
 

@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | CASKIN1 / KIAA1306 |
+| 蛋白名称 | Caskin-1 |
 | 蛋白全名 | Caskin-1 |
 | 蛋白大小 | 1431 aa / 149.8 kDa |
 | UniProt ID | Q8WXD9 |
@@ -191,6 +192,31 @@ status: scored
 - [ ] 获取 HPA IF 图像确认核定位
 - [ ] 查阅最新关键文献补充功能细节
 - [ ] 设计体外 DNA/染色质结合实验
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NPM1 | BioGRID | 0 |
+| HIF1AN | BioGRID | 0 |
+| PTPN2 | BioGRID | 0 |
+| TOP3B | BioGRID | 0 |
+| EZH2 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/55990/1327_C2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/55990/1327_C2_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/55990/1070_F2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/55990/1070_F2_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/55990/1076_F2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/55990/1076_F2_3_blue_red_green.jpg)
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8WXD9

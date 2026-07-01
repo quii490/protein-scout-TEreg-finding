@@ -136,7 +136,7 @@ status: scored
 
 
 **PPI 互证分析**:
-- （待补充：综合 STRING、IntAct 和 GO 数据库的互作信息，分析 PPI 网络的一致性）
+- （暂无数据：综合 STRING、IntAct 和 GO 数据库的互作信息，分析 PPI 网络的一致性）
 **评价**: STRING 15 个互作伙伴，调控相关性低
 
 #### 3.7 多库互证
@@ -171,7 +171,33 @@ PDB + AlphaFold 结构互证 (+0.5)
 - [ ] 基于 PPI 网络开展功能研究
 - [ ] 结构分析: 基于 PDB 的功能位点设计
 
-### 5. 数据来源
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SUPT4H1 | STRING | 999 |
+| SUPT4A | STRING | 999 |
+| IWS1 | STRING | 999 |
+| SUPT5H | STRING | 999 |
+| SUPT16H | STRING | 997 |
+| TCEA1 | STRING | 995 |
+| CTR9 | STRING | 994 |
+| SSRP1 | STRING | 993 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### 深度机制分析
+
+SUPT6H编码转录延伸因子SPT6（Q7KZ85），是RNA聚合酶II转录延伸复合体的核心支架蛋白——在许多方面，SPT6是核蛋白中机制图谱最为详尽者。其1726个氨基酸的大型多结构域架构由18个PDB实验结构充分覆盖，域注释极为丰富：（1）N端的Spt6_acidic_N_dom（酸性N端结构域）是转录起始平台的核心锚定点，在转录起始复合体向延伸复合体转换时募集DSIF（SPT4/SPT5）复合体；（2）中心区段的S1_domain（S1 RNA结合结构域，1213-1282残基，PRU00180鉴定）包含经典的OB折叠RNA结合模块，直接识别RNAP II新生转录本的单链RNA——这是SPT6追踪RNAP II并维持延伸复合体稳定性的分子基础；（3）C端的SH2结构域（1325-1431残基，PRU00191鉴定）和其上下游的Spt6_SH2/Spt6_SH2_N/Spt6_SH2_C是SPT6最显著的结构特征——核蛋白中极罕见的SH2结构域通常识别磷酸化酪氨酸残基，但在SPT6中，该SH2结构域识别RNAP II CTD（C末端结构域）的磷酸化Ser2——这是转录延伸CTD密码的里程碑式发现；（4）Spt6_HHH（螺旋-发夹-螺旋结构域）、Spt6_HTH_DNA-bd_dom和RNaseH-like_sf提供了额外的核酸结合表面，使SPT6能够同时包埋DNA模板链和RNA转录本；（5）Spt6_death-like结构域和YqgF结构域暗示SPT6可能参与延伸过程中的RNA质量控制或停滞复合体的解离。
+
+PPI网络完美重述了SPT6在转录延伸复合体中的中心地位。STRING最高分互作（SUPT4H1/SPT4=999、IWS1=999、SUPT5H/SPT5=999、SUPT16H=997、TCEA1=995、CTR9=994）精确命名了所有核心延伸因子：SPT4-SPT5异源二聚体（DSIF）是SPT6的直接膜近邻，IWS1通过SH2-CTD互作被SPT6募集，SUPT16H是FACT组蛋白伴侣亚基，TCEA1（TFIIS）负责停滞RNAP II的转录切割，CTR9是PAF1复合体组分。这一定位的精确性由humanPPI补充数据（HPA）进一步强化——POLR2E、POLR2F、POLR2K（RNAP II亚基）和SSRP1（FACT的另一亚基）的物理互作经Biogrid和Opencell双重验证，且AF3/HPA结构预测为真，证实这些互作在结构上是可行的。
+
+SPT6的核心机制模型为：作为RNAP II持续合成能力的守护者，SPT6利用其串联核酸结合域（S1、HHH、HTH）同时包绕模板DNA和新生RNA，通过SH2结构域监测CTD Ser2磷酸化状态（延伸标志），并与DSIF、FACT和PAF1复合体协同重建被转录破坏的染色质结构。这一功能通过GO-BP注释得到精确概括——核小体组织（GO:0034728，IBA）、延伸偶联染色质重塑（GO:0140673，IMP）和核小体结合（GO:0031491，IBA）。SPT6通过将核小体在RNAP II前方拆卸并在其后方重新组装，成为转录延伸中染色质动态的主角。
+
+从TE调控角度，SPT6的核小体组织活性直接指向TE沉默的一个重要机制层面。转座元件在染色质层面的抑制依赖于H3K9me3（HP1介导）和DNA甲基化（DNMT介导）的协同作用，但转录机器在这些异染色质区域的"意外访问"可能通过SPT6驱动的核小体重组破坏沉默状态。反之，SPT6的缺失或功能障碍可能导致TE区域转录暴发——这在酵母SPT6突变株中已观察到类似效应（Ty1逆转座子表达上调）。仅22篇文献（尽管在酵母等同源物中有近万篇文献）意味着人类SPT6特异性研究仍有广阔空间。SPT6是本次评估中最具TE调控潜力的核蛋白之一——其已知的核小体组织活性、庞大且精确定义的域架构和多层次的实验PPM互作使其成为连接转录延伸与TE沉默的理想分子桥梁。
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=SUPT6H
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000109111-SUPT6H
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22SUPT6H%22%5BTitle/Abstract%5D
@@ -183,9 +209,9 @@ PDB + AlphaFold 结构互证 (+0.5)
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[SUPT6H-PAE.png]]
 

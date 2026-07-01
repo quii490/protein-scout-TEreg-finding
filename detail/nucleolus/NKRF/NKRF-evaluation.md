@@ -12,7 +12,7 @@ status: scored
 
 | 项目 | 内容 |
 |---|---|
-| 基因名 / 别名 | NKRF / XTBD3|ITBA4|NRF |
+| 基因名 / 别名 | NKRF / X暂无数据3|ITBA4|NRF |
 | 蛋白名称 | NF-kappa-B-repressing factor |
 | 蛋白大小 | 690 aa |
 | UniProt ID | O15226 |
@@ -164,6 +164,34 @@ IntAct 实验互作: 0 条
 - [ ] 功能研究: 基于 PPI 网络设计功能实验
 - [ ] 结构分析: 基于 PDB 结构设计功能实验
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| DHX15 | STRING | 983 |
+| KEAP1 | STRING | 892 |
+| JUN | STRING | 816 |
+| XRN2 | STRING | 805 |
+| RELA | STRING | 793 |
+| POU2F3 | STRING | 721 |
+| DCAF11 | STRING | 712 |
+| NFKB2 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/1476/24_F6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1476/24_F6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1476/16_D5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1476/16_D5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1476/13_D5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1476/13_D5_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=NKRF
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000186416-NKRF
@@ -176,9 +204,9 @@ IntAct 实验互作: 0 条
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[NKRF-PAE.png]]
 

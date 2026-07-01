@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 | LLPH |
+| 蛋白名称 | Protein LLP homolog |
 | 蛋白大小 | 129 aa |
 | UniProt ID | Q9BRT6 (Protein LLP homolog) |
 | 子定位分类 | nucleolus |
@@ -58,7 +59,7 @@ status: scored
 
 
 **已知复合体成员** (GO Cellular Component):
-- （待补充：通过 GO 数据库查询该蛋白所属的已知复合体）
+- （暂无数据：通过 GO 数据库查询该蛋白所属的已知复合体）
 **关键文献**:
 1. Susanto et al. (2024). "RAPIDASH: Tag-free enrichment of ribosome-associated proteins reveals composition dynamics in embryonic tissue, cancer cells, and macrophages.". *Mol Cell*. PMID: 39260367
 2. Zong et al. (2023). "Extracellular vesicles long RNA profiling identifies abundant mRNA, circRNA and lncRNA in human bile as potential biomarkers for cancer diagnosis.". *Carcinogenesis*. PMID: 37696683
@@ -179,6 +180,41 @@ status: scored
 - [ ] 使用 HPA/IF 确认 LLPH 的核定位
 - [ ] 在 TEreg 相关细胞系中检测 LLPH 表达水平
 - [ ] 通过 co-IP/MS 鉴定 LLPH 的染色质调控相关互作伙伴
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RPL30 | STRING | 894 |
+| ZNF593 | STRING | 890 |
+| RSL24D1 | STRING | 868 |
+| NMD3 | STRING | 861 |
+| GNL2 | STRING | 860 |
+| EIF6 | STRING | 849 |
+| EIF3A | STRING | 849 |
+| RPL36AL | STRING | 849 |
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/48920/749_C10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/48920/749_C10_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/48920/1392_B5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/48920/1392_B5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/48920/735_C10_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/48920/735_C10_3_blue_red_green.jpg)
+
+
+### ESMFold 结构预测
+
+| 指标 | 数值 |
+|---|---|
+| 平均 pLDDT | 0.62 |
+| >0.9 | 0.0% |
+| <0.5 | 20.9% |
+| 残基数 | 129 |
+
+ESMFold 从头折叠验证。PDB: `detail/_esm_structures/LLPH_esmfold.pdb`
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9BRT6

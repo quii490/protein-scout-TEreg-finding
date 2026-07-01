@@ -161,50 +161,38 @@ STRING 15 个预测互作，IntAct 15 个实验互作。调控相关配体占比
 - [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q0VF96
-- Protein Atlas: https://www.proteinatlas.org/search/CGNL1
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CGNL1
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q0VF96
-- STRING: https://string-db.org/network/9606.CGNL1
-- Packet data timestamp: 2026-06-03 04:53:51
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Cell Junctions (supported)。来源: https://www.proteinatlas.org/ENSG00000128849-CGNL1/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RACGAP1 | STRING | 840 |
+| PLEKHA7 | STRING | 830 |
+| TMOD2 | STRING | 760 |
+| YWHAG | BioGRID | 1 |
+| YWHAZ | BioGRID | 1 |
+| APC | BioGRID | 1 |
+| YWHAE | BioGRID | 1 |
+| TRAF7 | BioGRID | 1 |
 
-![](https://images.proteinatlas.org/69214/1635_H1_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/69214/1635_H1_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/69214/1647_D10_34_blue_red_green.jpg)
-![](https://images.proteinatlas.org/69214/1647_D10_40_blue_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q0VF96-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白的 GO-CC 注释中缺乏染色质/TE 沉默相关定位，TE 调控潜力较低。不建议作为 TE 调控优先靶标。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-07）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/CGNL1
+
+### PubMed
+
+**Count: 51**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q0VF96 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR002928; |
-| Pfam | PF01576; |
+| 42363465 | Screening of biomarkers related to lung adenocarcinoma based on construction of ceRNA regulation network. |
+| 42123512 | CRISPR/Cas9-Mediated Knockout of CGNL1 Confers Resistance to Aflatoxin B1 in Porcine Intestinal Epithelial Cells via Suppressing ROS Generation. |
+| 41787578 | A genome-wide interaction study of thyroid-stimulating hormone levels and particulate matter exposure among Koreans. |
+| 41367576 | Subtype-specific RNA sequencing using micro-dissection revealed extracellular matrix alterations as key factors in lung adenocarcinoma invasion. |
+| 40649943 | Transcriptomic Profiling of Lesional and Perilesional Skin in Atopic Dermatitis Suggests Barrier Dysfunction, Inflammatory Activation, and Alterations |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000128849-CGNL1/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| YWHAE | Intact, Biogrid | true |
-| YWHAG | Intact, Biogrid | true |
-| TP53 | Biogrid | false |
-| YWHAB | Biogrid | false |
-| YWHAH | Biogrid | false |
-| YWHAZ | Biogrid | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

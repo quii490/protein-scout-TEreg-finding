@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | CWC15 / CWC15 |
+| 蛋白名称 | Spliceosome-associated protein CWC15 homolog |
 | 蛋白大小 | 229 aa / ~25.2 kDa |
 | UniProt ID | Q9P013 |
 | 评估日期 | 2026-05-29 |
@@ -147,6 +148,24 @@ status: scored
 - [ ] SMART 结构域分析评估调控潜力
 - [ ] 深入文献检索确认已知功能
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RBM22 | STRING | 999 |
+| PRPF19 | STRING | 999 |
+| SNRPA1 | STRING | 999 |
+| CTNNBL1 | STRING | 999 |
+| CDC40 | STRING | 999 |
+| BCAS2 | STRING | 999 |
+| CDC5L | STRING | 999 |
+| CRNKL1 | STRING | 999 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9P013
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9P013
@@ -158,9 +177,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/CWC15/CWC15-PAE.png]]

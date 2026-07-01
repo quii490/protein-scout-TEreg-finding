@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | BOD1L2 / Biorientation of chromosomes in cell division protein 1-like 2 / BOD1P / FAM44C |
+| 蛋白名称 | Biorientation of chromosomes in cell division protein 1-like 2 |
 | 蛋白大小 | 172 aa / 18.1 kDa |
 | UniProt ID | Q8IYS8 |
 | 评估日期 | 2026-06-01 |
@@ -161,3 +162,22 @@ Source: https://www.proteinatlas.org/ENSG00000228075-BOD1L2/interaction
 | PRKAR1B | Intact | false |
 | TRAF2 | Intact | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| BOD1 | BioGRID | 0 |
+| CRX | BioGRID | 0 |
+| MEOX2 | BioGRID | 0 |
+| LHX4 | BioGRID | 0 |
+| TRAF2 | BioGRID | 0 |
+| PRKAR1B | BioGRID | 0 |
+| TAF1 | BioGRID | 0 |
+| BPGM | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。

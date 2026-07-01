@@ -155,6 +155,28 @@ status: scored
 - [ ] 分析 ETV7 结合基序是否在 TE 区域富集
 - [ ] 比较 ETV7 与 ETV6 在 TE 调控中的差异性
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ETV6 | STRING | 971 |
+| BATF2 | STRING | 866 |
+| L3MBTL1 | BioGRID | 1 |
+| IRF4 | BioGRID | 1 |
+| WT1 | BioGRID | 1 |
+| HIVEP1 | BioGRID | 1 |
+| NKX2-4 | BioGRID | 1 |
+| NFIB | BioGRID | 1 |
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/29033/326_C5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29033/326_C5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29033/323_C5_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29033/323_C5_5_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: Q9Y603 (https://www.uniprot.org/uniprotkb/Q9Y603)
 - AlphaFold: AF-Q9Y603-F1 v6 (https://alphafold.ebi.ac.uk/entry/Q9Y603)
@@ -167,9 +189,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[ETV7-PAE.png]]
 

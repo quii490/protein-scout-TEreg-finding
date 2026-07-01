@@ -174,6 +174,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TSG101 | STRING | 999 |
+| CHMP6 | STRING | 956 |
+| CHMP3 | STRING | 952 |
+| CHMP1B | STRING | 949 |
+| CHMP7 | STRING | 942 |
+| CHMP4A | STRING | 938 |
+| CHMP2B | STRING | 931 |
+| CD2AP | STRING | 828 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96EY5
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000141971-MVB12A/subcellular

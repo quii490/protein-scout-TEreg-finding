@@ -161,6 +161,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 - [ ] 考虑通过AlphaFold预测 + MD模拟获取结构信息
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PIWIL2 | STRING | 944 |
+| CWC15 | STRING | 909 |
+| DDX4 | STRING | 887 |
+| TDRD9 | STRING | 839 |
+| TSG101 | STRING | 833 |
+| MAEL | STRING | 797 |
+| PIWIL4 | STRING | 752 |
+| DEFB127 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 
 - UniProt: https://www.uniprot.org/uniprotkb/Q8WWH4

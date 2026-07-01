@@ -168,54 +168,38 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q5VW38
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000148358-GPR107/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=GPR107
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q5VW38
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Golgi apparatus (approved)。来源: https://www.proteinatlas.org/ENSG00000148358-GPR107/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TMEM17 | BioGRID | 0 |
+| TMEM216 | BioGRID | 0 |
+| TRAF2 | BioGRID | 0 |
+| BIRC2 | BioGRID | 0 |
+| LNPEP | BioGRID | 0 |
+| REEP5 | BioGRID | 0 |
+| NDUFA12 | BioGRID | 0 |
+| NEK7 | BioGRID | 0 |
 
-![](https://images.proteinatlas.org/31704/371_B11_2_red_green.jpg)
-![](https://images.proteinatlas.org/31704/371_B11_4_red_green.jpg)
-![](https://images.proteinatlas.org/31704/372_B11_1_red_green.jpg)
-![](https://images.proteinatlas.org/31704/372_B11_2_red_green.jpg)
-![](https://images.proteinatlas.org/31704/374_B11_1_red_green.jpg)
-![](https://images.proteinatlas.org/31704/374_B11_2_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q5VW38-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/GPR107
+
+### PubMed
+
+**Count: 32**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q5VW38 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR053937;IPR009637; |
-| Pfam | PF06814; |
+| 42362521 | GPR107 promotes autophagy secretion in psoriatic keratinocytes by inhibiting BECN1 K48-linked ubiquitination. |
+| 42314515 | GPR107-EGFR crosstalk promotes ovarian cancer metastasis by regulating IL-6 release via PI3K/AKT/NF-κB signaling pathway. |
+| 42208758 | Cyclic neuronostatin regulates glucose homeostasis and food intake through GPR107 phosphorylation. |
+| 41815169 | Cuprotosis-related gene subtypes, prognostic modeling, and tumor microenvironment remodeling in breast cancer. |
+| 41073571 | GPR107: A key driver of breast cancer invasion and metastasis through collagen IV modulation. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000148358-GPR107/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| ARFRP1 | Opencell | false |
-| HTN1 | Opencell | false |
-| JTB | Opencell | false |
-| KRAS | Biogrid | false |
-| SCFD1 | Opencell | false |
-| SYAP1 | Opencell | false |
-| TMEM165 | Opencell | false |
-| TMEM230 | Opencell | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

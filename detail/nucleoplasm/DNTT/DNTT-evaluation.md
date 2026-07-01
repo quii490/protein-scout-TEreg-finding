@@ -147,6 +147,35 @@ status: scored
 - [ ] AlphaFold 结构预测分析
 - [ ] Co-IP/MS 验证PPI网络
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| DNTTIP1 | STRING | 963 |
+| CASP3 | STRING | 882 |
+| BCL2 | STRING | 827 |
+| BCL-2 | STRING | 827 |
+| ANXA5 | STRING | 786 |
+| MME | STRING | 776 |
+| XRCC6 | STRING | 772 |
+| PRPF19 | STRING | 764 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+![PAE](https://alphafold.ebi.ac.uk/files/AF-P04053-F1-predicted_aligned_error_v6.png)
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/36532/1780_G2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36532/1780_G2_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44194/487_G5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44194/487_G5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44194/1778_F5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44194/1778_F5_4_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P04053
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=DNTT
@@ -157,9 +186,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 <!-- DOMAIN_HUMANPPI_REPAIR_START -->
 ## Domain/SMART 与 humanPPI 补充（2026-06-07）

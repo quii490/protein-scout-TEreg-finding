@@ -90,6 +90,24 @@ STRING 以 textmining 驱动为主（ACSL4 0.936, KCNE5 0.873, COL4A5 0.863 等 
 ### 4. 总体评价
 AMMECR1 是具有多源强证据的核蛋白：UniProt 实验级 Nucleus 注释、GO nucleoplasm IDA:HPA、HPA Supported 核质定位、蛋白名称直接标注 "Nuclear protein"。HNRNPF co-IP 和 HOXA1 two-hybrid 进一步支持其在核质中的定位和可能的转录调控功能。虽然 AlphaFold 结构质量中等（35.7% 无序），PubMed 研究量低（strict=19），但核定位证据坚实。建议作为中等优先级 nucleoplasm 候选保留。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NXT2 | STRING | 806 |
+| ELAVL1 | BioGRID | 1 |
+| CALCOCO2 | BioGRID | 1 |
+| RBPMS | BioGRID | 1 |
+| TSEN54 | BioGRID | 1 |
+| CLP1 | BioGRID | 1 |
+| PPIL4 | BioGRID | 1 |
+| ZNF703 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9Y4X0
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9Y4X0

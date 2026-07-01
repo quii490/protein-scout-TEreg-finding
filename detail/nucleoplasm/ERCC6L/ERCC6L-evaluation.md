@@ -157,6 +157,30 @@ status: scored
 - [ ] 通过 ATPase 实验验证其染色质重塑活性
 - [ ] 评估其在 TE 区域的可能调控角色
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RB1CC1 | BioGRID | 0 |
+| RPA3 | BioGRID | 0 |
+| PLK1 | BioGRID | 0 |
+| ACACA | BioGRID | 0 |
+| BARD1 | BioGRID | 0 |
+| HTT | BioGRID | 0 |
+| LMO4 | BioGRID | 0 |
+| ZDHHC17 | BioGRID | 0 |
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/50492/837_H8_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/50492/837_H8_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/50492/882_B11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/50492/882_B11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/50492/831_B11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/50492/831_B11_3_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: Q2NKX8 (https://www.uniprot.org/uniprotkb/Q2NKX8)
 - AlphaFold: AF-Q2NKX8-F1 v6 (https://alphafold.ebi.ac.uk/entry/Q2NKX8)
@@ -169,9 +193,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[ERCC6L-PAE.png]]
 

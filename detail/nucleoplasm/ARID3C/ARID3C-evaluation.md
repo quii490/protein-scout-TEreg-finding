@@ -168,6 +168,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ARID3A | STRING | 716 |
+| RNF4 | BioGRID | 1 |
+| CBX4 | BioGRID | 1 |
+| ARID3B | BioGRID | 1 |
+| ZNF609 | BioGRID | 1 |
+| C14orf119 | BioGRID | 0 |
+| SPRR2E | BioGRID | 0 |
+| OR2T1 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/A6NKF2
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000205143-ARID3C/subcellular

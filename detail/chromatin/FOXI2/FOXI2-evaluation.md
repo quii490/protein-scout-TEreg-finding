@@ -159,6 +159,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| FOXI1 | BioGRID | 1 |
+| YARS | BioGRID | 1 |
+| PDS5A | BioGRID | 1 |
+| NUP205 | BioGRID | 1 |
+| PA2G4 | BioGRID | 1 |
+| DDX39A | BioGRID | 1 |
+| IARS | BioGRID | 1 |
+| RECQL | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q6ZQN5
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000186766-FOXI2/subcellular

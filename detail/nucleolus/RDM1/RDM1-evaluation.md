@@ -122,7 +122,7 @@ status: scored
 
 
 **PPI 互证分析**:
-- （待补充：综合 STRING、IntAct 和 GO 数据库的互作信息，分析 PPI 网络的一致性）
+- （暂无数据：综合 STRING、IntAct 和 GO 数据库的互作信息，分析 PPI 网络的一致性）
 **评价**: PPI 数据极为稀少
 
 #### 3.7 多库互证
@@ -156,6 +156,24 @@ UniProt + GO 核定位互证 (+1)
 - [ ] 基于 PPI 网络开展功能研究
 - [ ] 结构分析: 基于 AlphaFold 的突变设计
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RAD52 | STRING | 898 |
+| RUVBL2 | BioGRID | 1 |
+| BRCA2 | BioGRID | 1 |
+| MRFAP1L1 | BioGRID | 0 |
+| PI4KB | BioGRID | 0 |
+| SCNM1 | BioGRID | 0 |
+| CCDC57 | BioGRID | 0 |
+| CNTF | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=RDM1
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000278023-RDM1
@@ -168,9 +186,9 @@ UniProt + GO 核定位互证 (+1)
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[RDM1-PAE.png]]
 

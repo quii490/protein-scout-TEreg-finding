@@ -171,6 +171,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| UBE2O | STRING | 973 |
+| NAP1L4 | STRING | 927 |
+| MAGED2 | STRING | 846 |
+| NPM1 | STRING | 827 |
+| NAP1L5 | STRING | 793 |
+| EP300 | STRING | 774 |
+| CDX4 | STRING | 762 |
+| NCL | STRING | 718 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P55209
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000187109-NAP1L1/subcellular

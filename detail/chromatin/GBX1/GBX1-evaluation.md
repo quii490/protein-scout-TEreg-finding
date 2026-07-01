@@ -161,6 +161,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| LHX8 | STRING | 904 |
+| SOHLH1 | STRING | 827 |
+| PKMYT1 | BioGRID | 1 |
+| TRIM11 | BioGRID | 1 |
+| GBX2 | BioGRID | 1 |
+| GABPA | BioGRID | 1 |
+| DNAJC6 | BioGRID | 0 |
+| GRN | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q14549
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000164900-GBX1/subcellular

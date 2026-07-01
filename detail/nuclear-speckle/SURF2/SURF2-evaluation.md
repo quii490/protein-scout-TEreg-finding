@@ -170,6 +170,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| WDR20 | BioGRID | 1 |
+| RPL5 | BioGRID | 1 |
+| ZNF331 | BioGRID | 1 |
+| APP | BioGRID | 1 |
+| GPN1 | BioGRID | 1 |
+| HSF1 | BioGRID | 1 |
+| OGT | BioGRID | 1 |
+| PPME1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q15527
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000148291-SURF2/subcellular
@@ -216,6 +234,6 @@ Source: https://www.proteinatlas.org/ENSG00000148291-SURF2/interaction
 | RPL5 | Intact, Biogrid, Opencell, Bioplex | true |
 | C5orf22 | Bioplex | false |
 | FCGRT | Bioplex | false |
-| KBTBD6 | Bioplex | false |
-| KBTBD7 | Bioplex | false |
+| KB暂无数据6 | Bioplex | false |
+| KB暂无数据7 | Bioplex | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->

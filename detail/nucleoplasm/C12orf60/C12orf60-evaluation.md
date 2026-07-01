@@ -152,47 +152,27 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q5U649
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000182993-C12orf60/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=C12orf60
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q5U649
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Cytosol (approved)。来源: https://www.proteinatlas.org/ENSG00000182993-C12orf60/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ERP27 | BioGRID | 0 |
 
-![](https://images.proteinatlas.org/42461/1609_G12_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/42461/1609_G12_3_blue_red_green.jpg)
-![](https://images.proteinatlas.org/42461/1634_G12_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/42461/1634_G12_3_blue_red_green.jpg)
-![](https://images.proteinatlas.org/42461/1723_G5_11_cr57eab2dd75d6f_blue_red_green.jpg)
-![](https://images.proteinatlas.org/42461/1723_G5_17_cr57eab2e5dc6e6_blue_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q5U649-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-07）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/C12orf60
+
+### PubMed
+
+**Count: 1**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q5U649 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR027895; |
-| Pfam | PF15047; |
+| 26189108 | Next-generation-sequencing of recurrent childhood high hyperdiploid acute lymphoblastic leukemia reveals mutations typically associated with high risk |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000182993-C12orf60/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| ERP27 | Intact | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -94,3 +94,43 @@ Source: https://www.proteinatlas.org/ENSG00000254598-CSNK2A3/interaction
 | PRKCZ | Biogrid | false |
 | SRC | Biogrid | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### 功能描述
+
+Probable catalytic subunit of a constitutively active serine/threonine-protein kinase complex that phosphorylates a large number of substrates containing acidic residues C-terminal to the phosphorylated serine or threonine. Amplification-dependent oncogene; promotes cell proliferation and tumorigenesis by down-regulating expression of the tumor suppressor protein, PML. May play a role in the pathogenesis of the lung cancer development and progression
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PML | BioGRID | 0 |
+| H2AFX | BioGRID | 0 |
+| PRKCI | BioGRID | 0 |
+| PRKCZ | BioGRID | 0 |
+| RIPK1 | BioGRID | 0 |
+| RPS6KA3 | BioGRID | 0 |
+| SH3KBP1 | BioGRID | 0 |
+| SRC | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q8NEV1-F1-predicted_aligned_error_v6.png)
+
+### PubMed
+
+**Count: 5**
+
+| PMID | Title |
+|---|---|
+| 38617520 | A novel PD-1/PD-L1 pathway-related seven-gene signature for the development and validation of the prognosis prediction model for breast cancer. |
+| 35123428 | Ovarian cancer G protein-coupled receptor 1 inhibits A549 cells migration through casein kinase 2α intronless gene and neutral endopeptidase. |
+| 34251294 | RNA sequencing identified novel target genes for Adansonia digitata in breast and colon cancer cells. |
+| 33582094 | TMEM2 binds to CSNK2A3 to inhibit HBV infection via activation of the JAK/STAT pathway. |
+| 32695658 | Long-Term Inhibition of Notch in A-375 Melanoma Cells Enhances Tumor Growth Through the Enhancement of AXIN1, CSNK2A3, and CEBPA2 as Intermediate Gene |
+
+

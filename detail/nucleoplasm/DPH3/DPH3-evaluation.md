@@ -166,6 +166,32 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| DPH1 | STRING | 993 |
+| EEF2 | STRING | 949 |
+| ELP3 | STRING | 927 |
+| DPH7 | STRING | 845 |
+| DPH6 | STRING | 811 |
+| ELP1 | STRING | 798 |
+| IKBKAP | STRING | 798 |
+| ELP4 | STRING | 792 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/35287/378_H9_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35287/378_H9_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35287/376_H9_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35287/376_H9_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96FX2
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000154813-DPH3/subcellular

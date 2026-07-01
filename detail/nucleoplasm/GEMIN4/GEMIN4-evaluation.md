@@ -185,7 +185,7 @@ status: scored
 3. AlphaFold 高质量预测 (pLDDT=84.3)
 
 **风险/不确定性**:
-1. IF 图像数据待补充，核定位需 HPA 验证
+1. IF 图像数据暂无数据，核定位需 HPA 验证
 2. PPI 数据有限，需实验验证互作网络
 3. 功能性研究不足，缺少直接的染色质调控证据
 
@@ -195,6 +195,24 @@ status: scored
 - [ ] ChIP-seq 或 CUT&RUN 鉴定染色质结合位点
 - [ ] CRISPR 敲除/敲低表型分析
 - [ ] AlphaFold-Multimer 预测潜在复合体结构
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| AGO2 | STRING | 999 |
+| GEMIN5 | STRING | 999 |
+| GEMIN2 | STRING | 999 |
+| DDX20 | STRING | 999 |
+| GEMIN6 | STRING | 998 |
+| GEMIN7 | STRING | 997 |
+| SMN1 | STRING | 995 |
+| SMN2 | STRING | 995 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
 
 ### 5. 数据来源
 

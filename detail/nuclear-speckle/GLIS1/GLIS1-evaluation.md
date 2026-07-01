@@ -162,48 +162,38 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q8NBF1
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000174332-GLIS1/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=GLIS1
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8NBF1
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (supported)。来源: https://www.proteinatlas.org/ENSG00000174332-GLIS1/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| HNRNPL | BioGRID | 1 |
+| GLIS1 | BioGRID | 1 |
+| SOX3 | BioGRID | 1 |
+| TCF3 | BioGRID | 1 |
+| ARNT | BioGRID | 1 |
+| CDK6 | BioGRID | 1 |
+| CDKN2A | BioGRID | 1 |
+| LATS2 | BioGRID | 1 |
 
-![](https://images.proteinatlas.org/1409/2136_C9_17_blue_red_green.jpg)
-![](https://images.proteinatlas.org/1409/2136_C9_60_blue_red_green.jpg)
-![](https://images.proteinatlas.org/1409/2151_E5_13_blue_red_green.jpg)
-![](https://images.proteinatlas.org/1409/2151_E5_44_blue_red_green.jpg)
-![](https://images.proteinatlas.org/1409/1442_C1_3_red_green.jpg)
-![](https://images.proteinatlas.org/1409/1442_C1_4_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q8NBF1-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/GLIS1
+
+### PubMed
+
+**Count: 93**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q8NBF1 |
-| SMART | SM00355; |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR043359;IPR056436;IPR036236;IPR013087; |
-| Pfam | PF00096;PF23561; |
+| 42221404 | Coexistence of Hyalinizing Trabecular Tumor and Papillary Thyroid Carcinoma: A Diagnostic Challenge. |
+| 42159303 | Pirfenidone Elevates GLIS1 by Disrupting the USP7/DNMT1 Complex and Alleviates Renal Fibrosis in Diabetic Kidney Disease Through ROS Reduction and TGF |
+| 42104453 | Sex-biased transcriptomic landscapes in bipolar disorder: integrating neurobiology and clinical heterogeneity through cross-study meta-analysis. |
+| 41684133 | Genomic Investigations Unveil the Genetic Underpinnings of Environmental Adaptation in African Goat Populations. |
+| 41563933 | Challenging Subtypes and Mimics of Papillary Thyroid Carcinoma: Highlights from a 22nd International Congress of Cytology Slide Seminar (Case Reports) |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000174332-GLIS1/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| SPRR1A | Intact | false |
-| ZDHHC23 | Intact | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | ACAT2 / Acetyl-CoA acetyltransferase, cytosolic; acetoacetyl-CoA thiolase |
+| 蛋白名称 | Acetyl-CoA acetyltransferase, cytosolic |
 | 蛋白大小 | 397 aa / 41351 Da |
 | UniProt ID | Q9BWD1 |
 | 评估日期 | 2026-05-28 |
@@ -173,3 +174,39 @@ Top 15 partners:
 
 
 
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CS | STRING | 966 |
+| ACOX1 | STRING | 965 |
+| ACSS2 | STRING | 959 |
+| ACAA2 | STRING | 922 |
+| FDPS | STRING | 829 |
+| KRT2 | STRING | 738 |
+| LCAT | STRING | 712 |
+| GGPS1 | STRING | 703 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+
+### HPA IF 图像
+
+HPA 检索: https://www.proteinatlas.org/search/ACAT2
+
+### PubMed
+
+**Count: 431**
+
+| PMID | Title |
+|---|---|
+| 42352906 | Blood-Based Epigenetic Aging Signatures in D3GHR Carriers: An Exploratory Pilot Study of Metabolic Adaptation and Aging-Related Pathways. |
+| 42352305 | A Subset of Caveolin-1 Interacts with a Fraction of Acyl-CoA:Cholesterol Acyltransferase 1 (ACAT1/SOAT1) at an Endoplasmic Reticulum Subdomain to Atte |
+| 42248851 | A chemoproteomic atlas of the human purine interactome for regioselective ligand discovery. |
+| 42127728 | Systems pharmacology approaches to modeling immune training and tolerance. |
+| 42119830 | Acetoacetyl-CoA synthetase modulates lipid partitioning and cholesterol-related gene expression in NEFA-challenged neonatal bovine hepatocytes. |

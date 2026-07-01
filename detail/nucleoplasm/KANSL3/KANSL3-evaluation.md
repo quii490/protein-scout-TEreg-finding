@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 | KANSL3 |
+| 蛋白名称 | KAT8 regulatory NSL complex subunit 3 |
 | 蛋白大小 | 904 aa |
 | UniProt ID | Q9P2N6 (KAT8 regulatory NSL complex subunit 3) |
 | 子定位分类 | nucleoplasm |
@@ -147,6 +148,20 @@ PPI 互证分析**:
 - [ ] 在 TEreg 相关细胞系中检测 KANSL3 表达水平
 - [ ] 通过 co-IP/MS 鉴定 KANSL3 的染色质调控相关互作伙伴
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MCRS1 | STRING | 999 |
+| KANSL2 | STRING | 999 |
+| PHF20 | STRING | 998 |
+| KANSL1 | STRING | 995 |
+| NSL1 | STRING | 995 |
+| OGT | STRING | 991 |
+| WDR5 | STRING | 987 |
+| KAT8 | STRING | 984 |
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9P2N6
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=KANSL3%5BTitle/Abstract%5D
@@ -159,9 +174,9 @@ PPI 互证分析**:
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[KANSL3-PAE.png]]
 

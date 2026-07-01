@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | AGBL2 / Cytosolic carboxypeptidase 2 / CCP2 |
+| 蛋白名称 | Cytosolic carboxypeptidase 2 |
 | 蛋白大小 | 902 aa / 104.2 kDa |
 | UniProt ID | Q5U5Z8 |
 | 评估日期 | 2026-05-29 |
@@ -147,6 +148,34 @@ status: scored
 - [ ] 确认 AGBL2 在核仁中的底物
 - [ ] 探索是否有核仁蛋白作为去酪氨酸化底物
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TP53 | BioGRID | 0 |
+| TP63 | BioGRID | 0 |
+| TP73 | BioGRID | 0 |
+| TPM2 | BioGRID | 0 |
+| NDUFB7 | BioGRID | 0 |
+| CEP70 | BioGRID | 0 |
+| NUDT5 | BioGRID | 0 |
+| P4HB | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/7718/2167_G3_14_blue_red_green.jpg)
+![](https://images.proteinatlas.org/7718/2167_G3_13_blue_red_green.jpg)
+![](https://images.proteinatlas.org/7718/2167_G3_12_blue_red_green.jpg)
+![](https://images.proteinatlas.org/7718/2167_G3_11_blue_red_green.jpg)
+![](https://images.proteinatlas.org/7718/2167_G3_10_blue_red_green.jpg)
+![](https://images.proteinatlas.org/7718/2167_G3_9_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q5U5Z8
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000165923-AGBL2/subcellular
@@ -157,9 +186,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[AGBL2-PAE.png]]
 

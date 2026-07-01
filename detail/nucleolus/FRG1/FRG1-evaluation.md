@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | FRG1 / — |
+| 蛋白名称 | Protein FRG1 |
 | 蛋白全名 | Protein FRG1 |
 | 蛋白大小 | 258 aa / 29.2 kDa |
 | UniProt ID | Q14331 |
@@ -84,6 +85,24 @@ PPI 网络集中在剪接体/RNA 加工复合物（CWC22, PRPF8, EFTUD2, SNRPF �
 
 ### 4. 总体评价
 FRG1 是一个核定位证据充分但文献量偏高的候选（52.5/100）。核心优势：Cajal body + nucleolus 双核内定位（UniProt 实验证据充分）、剪接体相关 PPI 网络（CWC22 等）、PDB 已有 EM 结构。核心弱点：文献量中等偏高（PM=64, broad=123 含 FSHD 方向大量关注）、结构域注释简单（仅 FRG1 结构域）、AF 置信度中等、无 HPA IF 验证。作为 nucleolus 类别候选，定位特异性（Cajal body + nucleolus）和剪接体功能关联是核心价值，但 FSHD 疾病关联使文献热度不低。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CWC22 | STRING | 998 |
+| FRG2 | STRING | 987 |
+| DUX4 | STRING | 927 |
+| PRPF8 | STRING | 906 |
+| SNRPF | STRING | 902 |
+| CIR1 | STRING | 901 |
+| PPWD1 | STRING | 870 |
+| WDR70 | STRING | 843 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q14331

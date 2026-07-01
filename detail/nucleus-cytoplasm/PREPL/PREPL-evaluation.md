@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | PREPL / KIAA0436 |
+| 蛋白名称 | Prolyl endopeptidase-like |
 | 蛋白全名 | Prolyl endopeptidase-like |
 | 蛋白大小 | 727 aa / 83.9 kDa |
 | UniProt ID | Q4J6C6 |
@@ -122,6 +123,24 @@ status: scored
 PREPL 是 serine peptidase S9A 家族成员，主要功能在蛋白水解和线粒体呼吸链。核定位有实验证据但非主导。CMS22 致病基因，疾病关联明确但在 TE/染色质调控背景下不突出。PPI 以代谢蛋白为主，USP22 (chromatin deubiquitinase) 互作提供有限调控价值。2个PDB结构覆盖催化域，AF结构置信度高。
 
 **推荐**: 中等优先级。结构信息丰富，但染色质调控关联有限。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| USP22 | BioGRID | 0 |
+| ELAVL1 | BioGRID | 0 |
+| COIL | BioGRID | 0 |
+| APEH | BioGRID | 0 |
+| UNKL | BioGRID | 0 |
+| LIG3 | BioGRID | 0 |
+| RARS2 | BioGRID | 0 |
+| ACAA2 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprot/Q4J6C6

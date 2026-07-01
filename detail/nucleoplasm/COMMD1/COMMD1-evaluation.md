@@ -161,54 +161,38 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q8N668
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000173163-COMMD1/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=COMMD1
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8N668
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (supported)。来源: https://www.proteinatlas.org/ENSG00000173163-COMMD1/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CUL2 | STRING | 999 |
+| CCDC22 | STRING | 996 |
+| COMMD6 | STRING | 995 |
+| KAT2A | STRING | 986 |
+| COMMD10 | STRING | 980 |
+| COMMD9 | STRING | 977 |
+| COMMD4 | STRING | 976 |
+| COMMD5 | STRING | 974 |
 
-![](https://images.proteinatlas.org/49223/682_A4_1_red_green.jpg)
-![](https://images.proteinatlas.org/49223/682_A4_2_red_green.jpg)
-![](https://images.proteinatlas.org/49223/757_F3_1_red_green.jpg)
-![](https://images.proteinatlas.org/49223/757_F3_2_red_green.jpg)
-![](https://images.proteinatlas.org/49223/761_F3_1_red_green.jpg)
-![](https://images.proteinatlas.org/49223/761_F3_2_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q8N668-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/COMMD1
+
+### PubMed
+
+**Count: 215**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q8N668 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | DOMAIN 118..186; /note="COMM"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00602" |
-| InterPro | IPR017920;IPR033776;IPR037351; |
-| Pfam | PF07258;PF17221; |
+| 42258904 | Copper nanoregulator with organelle-level precision reprograms COMMD1-Mediated copper homeostasis for myocardial infarction repair. |
+| 42156174 | COMMD1 Induces Copper Deficiency of SOD1 by Inhibiting the Palmitoylation of CCS in ALS. |
+| 42080393 | Drug-Induced Cuproptosis Defines the Therapeutic Window of Celecoxib in Intervertebral Disc Degeneration via the HSP90-RBX1 Axis. |
+| 41839849 | Identification of cis-regulatory elements provides insights into tissue-specific gene regulation in the sheep genome. |
+| 41306130 | COMMD1 Regulates Osteoclast Differentiation in Talaromyces marneffei-Induced Osteomyelitis via the NF-κB Pathway. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000173163-COMMD1/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| ATP7B | Intact, Biogrid | true |
-| CCDC22 | Intact, Biogrid, Opencell, Bioplex | true |
-| CCDC93 | Intact, Biogrid, Opencell, Bioplex | true |
-| COMMD10 | Intact, Biogrid, Opencell, Bioplex | true |
-| COMMD2 | Intact, Biogrid, Opencell, Bioplex | true |
-| COMMD3 | Intact, Biogrid, Bioplex | true |
-| COMMD4 | Intact, Biogrid, Opencell, Bioplex | true |
-| COMMD5 | Intact, Biogrid, Opencell, Bioplex | true |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

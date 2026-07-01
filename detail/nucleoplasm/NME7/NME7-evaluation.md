@@ -249,3 +249,22 @@ Source: https://www.proteinatlas.org/ENSG00000143156-NME7/interaction
 | TUBGCP4 | Intact, Biogrid | true |
 | AMOTL2 | Intact | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NEDD1 | STRING | 964 |
+| MZT2B | STRING | 963 |
+| ITPA | STRING | 960 |
+| DTYMK | STRING | 944 |
+| MZT2A | STRING | 941 |
+| CTPS | STRING | 940 |
+| CTPS1 | STRING | 940 |
+| CMPK2 | STRING | 939 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。

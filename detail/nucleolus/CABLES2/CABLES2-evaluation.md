@@ -37,7 +37,7 @@ status: scored
 | 🏗️ 三维结构 | 5/10 | ×3 | 15 | AlphaFold pLDDT: 59.8 |
 | 🧬 调控结构域 | 6/10 | ×2 | 12 | UniProt domains: None identified |
 | 🔗 PPI | 4/10 | ×3 | 12 | 待细化（默认基线） |
-| ➕ 互证加分 | — | — | **+0** | 待补充 |
+| ➕ 互证加分 | — | — | **+0** | 暂无数据 |
 | **原始总分** |  |  | **113/183** |  |
 | **归一化总分** |  |  | **61.7/100** |  |
 
@@ -93,6 +93,34 @@ HPA 免疫荧光（IF）实验数据确认 CABLES2 定位：
 **评价**: 基于 IntAct + UniProt GO-CC 综合分析。
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CDK5 | STRING | 884 |
+| FIBP | STRING | 829 |
+| ABL1 | STRING | 800 |
+| TP53 | BioGRID | 1 |
+| CDK3 | BioGRID | 1 |
+| HNRNPL | BioGRID | 1 |
+| BRCA2 | BioGRID | 1 |
+| DDX39A | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白的 GO-CC 注释中缺乏染色质/TE 沉默相关定位，TE 调控潜力较低。不建议作为 TE 调控优先靶标。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/43597/1832_B7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43597/1832_B7_7_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43597/1889_G12_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43597/1889_G12_6_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43597/1893_F20_11_cr5bbefd8920157_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43597/1893_F20_28_cr5bbefd8920c0f_blue_red_green.jpg)
+
+
 ### 5. 总体评价
 
 **推荐等级**: ⭐⭐
@@ -112,9 +140,9 @@ HPA 免疫荧光（IF）实验数据确认 CABLES2 定位：
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 
 ![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleolus/CABLES2/CABLES2-PAE.png]]

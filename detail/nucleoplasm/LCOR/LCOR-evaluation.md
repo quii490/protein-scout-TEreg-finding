@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 | LCOR |
+| 蛋白名称 | Ligand-dependent corepressor |
 | 蛋白大小 | 433 aa |
 | UniProt ID | Q96JN0 (Ligand-dependent corepressor) |
 | 子定位分类 | nucleoplasm |
@@ -146,6 +147,20 @@ PPI 互证分析**:
 - [ ] 在 TEreg 相关细胞系中检测 LCOR 表达水平
 - [ ] 通过 co-IP/MS 鉴定 LCOR 的染色质调控相关互作伙伴
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CTBP1 | STRING | 980 |
+| MTF2 | STRING | 949 |
+| EZH1 | STRING | 900 |
+| EZH2 | STRING | 900 |
+| PHF1 | STRING | 900 |
+| CTBP2 | STRING | 869 |
+| NR3A1 | STRING | 866 |
+| ESR1 | STRING | 866 |
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96JN0
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=LCOR%5BTitle/Abstract%5D
@@ -158,9 +173,9 @@ PPI 互证分析**:
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[LCOR-PAE.png]]
 

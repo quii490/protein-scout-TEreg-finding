@@ -174,6 +174,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CALM3 | STRING | 998 |
+| HEL-S-72 | STRING | 998 |
+| CALM1 | STRING | 998 |
+| CALML6 | STRING | 985 |
+| CAMK4 | STRING | 947 |
+| CALM2 | STRING | 927 |
+| CAMKK2 | STRING | 908 |
+| CAMK1 | STRING | 713 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8N5S9
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000004660-CAMKK1/subcellular

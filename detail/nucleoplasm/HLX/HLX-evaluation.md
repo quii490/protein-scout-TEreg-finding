@@ -86,6 +86,34 @@ TLE 家族（TLE1-5）在 STRING 和 IntAct 中均以实验证据出现，score 
 ### 4. 总体评价
 HLX 是经典 homeobox 转录因子，核定位确认、TLE 共抑制复合体和染色质调控功能明确。主要劣势是研究热度较高（PM=95）和 AlphaFold 结构置信度偏低。作为已明确功能的 TF，其新颖性有限，但其在 Th1 免疫和 medulloblastoma 中的角色仍有待深入机制研究。建议作为中等优先级核质候选保留。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TBX21 | STRING | 894 |
+| TLE2 | STRING | 744 |
+| TLE4 | STRING | 728 |
+| MOV10 | BioGRID | 1 |
+| CALCOCO2 | BioGRID | 1 |
+| C18ORF25 | BioGRID | 1 |
+| TLE1 | BioGRID | 1 |
+| CSNK2A1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/5968/1124_G12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5968/1124_G12_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5968/34_F2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5968/34_F2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5968/32_F2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5968/32_F2_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q14774
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q14774

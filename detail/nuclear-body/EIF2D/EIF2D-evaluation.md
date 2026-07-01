@@ -163,6 +163,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SUI1 | STRING | 984 |
+| EIF1 | STRING | 984 |
+| RPS25 | STRING | 898 |
+| RACK1 | STRING | 858 |
+| RPS16 | STRING | 856 |
+| RPS3 | STRING | 851 |
+| RPS13 | STRING | 847 |
+| RPS4X | STRING | 846 |
+
+
+### TE 调控评估
+
+该蛋白的 GO-CC 注释中缺乏染色质/TE 沉默相关定位，TE 调控潜力较低。不建议作为 TE 调控优先靶标。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/28220/282_G5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/28220/282_G5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/28220/281_G5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/28220/281_G5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/28220/283_G5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/28220/283_G5_1_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P41214
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000143486-EIF2D/subcellular

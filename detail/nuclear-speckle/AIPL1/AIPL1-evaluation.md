@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | AIPL1 / AIPL2 |
+| 蛋白名称 | Aryl-hydrocarbon-interacting protein-like 1 |
 | 蛋白大小 | 384 aa / 43.9 kDa |
 | UniProt ID | Q9NZN9 (AIPL1_HUMAN) |
 | 评估日期 | 2026-05-28 |
@@ -147,6 +148,24 @@ status: scored
 2. **表达限制**: 主要在视网膜感光细胞和松果体中表达，其他组织表达极低
 3. **域架构不支持**: FKBP + TPR 是经典伴侣蛋白域架构，缺乏任何 DNA/chromatin 结合潜力
 4. **PPI中的非经典功能
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NUB1 | BioGRID | 0 |
+| UBD | BioGRID | 0 |
+| UBA6 | BioGRID | 0 |
+| TINF2 | BioGRID | 0 |
+| ACD | BioGRID | 0 |
+| POT1 | BioGRID | 0 |
+| HSPA4 | BioGRID | 0 |
+| HSPA8 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9NZN9

@@ -162,54 +162,48 @@ STRING 15 个预测互作，IntAct 15 个实验互作。调控相关配体占比
 - [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q8IU89
-- Protein Atlas: https://www.proteinatlas.org/search/CERS3
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CERS3
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8IU89
-- STRING: https://string-db.org/network/9606.CERS3
-- Packet data timestamp: 2026-06-03 04:51:23
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (supported)。来源: https://www.proteinatlas.org/ENSG00000154227-CERS3/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PTPRE | BioGRID | 0 |
+| SLC39A9 | BioGRID | 0 |
+| PCBD2 | BioGRID | 0 |
+| ORMDL3 | BioGRID | 0 |
+| SLC29A2 | BioGRID | 0 |
+| NEU1 | BioGRID | 0 |
+| ATP6V0C | BioGRID | 0 |
+| OR2A4 | BioGRID | 0 |
 
-![](https://images.proteinatlas.org/24356/1791_E2_3_red_green.jpg)
-![](https://images.proteinatlas.org/24356/1791_E2_4_red_green.jpg)
-![](https://images.proteinatlas.org/24356/195_C12_1_red_green.jpg)
-![](https://images.proteinatlas.org/24356/195_C12_2_red_green.jpg)
-![](https://images.proteinatlas.org/24356/196_C12_1_red_green.jpg)
-![](https://images.proteinatlas.org/24356/196_C12_2_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### 深度机制分析
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q8IU89-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+**结构域架构**：CERS3（383 aa, UniProt Q8IU89）具有独特的双结构域架构——N端Homeobox-like结构域（IPR001356, PF00046）和C端TRAM/LAG1/CLN8结构域（IPR006634, PF03798）组成的鞘脂代谢酶催化模块。Homeobox-like结构域的存在尤为关键：该结构域超家族（IPR009057）经典地与DNA结合转录因子相关。尽管CERS3主要被定性为ER膜定位的神经酰胺合酶，AlphaFold v6（pLDDT=87.3，67.1%残基pLDDT>90）揭示N端homeodomain样模块（残基~1-80）折叠良好。PAE图表明两个结构域作为独立结构模块折叠，通过柔性linker连接，暗示可能存在构象切换机制。此外，Sphingolipid delta4-desaturase结构域（IPR016439）进一步扩展了其催化潜力。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+**PPI网络分析**：STRING互作网络完全围绕典型的鞘脂代谢功能展开：SGMS1（0.975）、KDSR（0.969）、ACER1（0.965）、DEGS1（0.965）均为神经酰胺/鞘脂通路酶，形成紧密的代谢簇。但IntAct实验数据（PMID:32296183, PMID:33961781）揭示了超出鞘脂范畴的互作：ORMDL3是公认的ER应激传感器和丝氨酸棕榈酰转移酶调节因子，将CERS3连接至细胞应激信号；PCBD2是参与HNF1介导的基因调控的转录共激活因子，提供了与核转录机器的间接但合理的联系；SLC39A9（锌转运蛋白）和NEU1（神经氨酸酶）暗示溶酶体/内体关联；SSUH2和AKR1B10（PMID:33961781, co-IP）则扩展了其氧化应激相关网络。
 
-### SMART / UniProt domain
-| Source | Data |
+**结构解读与机制模型**：我们提出"双定位模型"：基础条件下，CERS3主要定位于ER膜，其TRAM/LAG1/CLN8结构域催化神经酰胺合成（C18/C20-神经酰胺，用于皮肤屏障功能）。在特定细胞应激或信号条件下，一个亚群可能转运至核质，Homeobox-like结构域参与转录调控。AlphaFold高置信度（整体pLDDT=87.3，有序残基86.2%）支持两个结构域均为独立折叠单元，互不干扰。神经酰胺产物本身（神经酰胺及其下游S1P）是公认的核信号分子，可调节组蛋白去乙酰化酶和凋亡通路，因此CERS3可通过直接（核定位）或间接（脂质产物）方式影响核过程。HPA核质注释支持核池存在，但需要正交验证。
+
+**TE调控意义与实验建议**：神经酰胺代谢与染色质生物学存在多重交叉点。神经酰胺激活PP1和PP2A磷酸酶，去磷酸化剪接因子和组蛋白修饰酶。CERS3的神经酰胺合酶活性可能调节基因组位点局部的脂质微环境，通过HDAC招募影响TE沉默。Homeobox-like结构域在进化上可能源自转座酶或DNA结合结构域——这是TE来源调控蛋白的常见主题。实验优先级：（1）核分级+western blot确认核定位；（2）EMSA测试Homeobox-like结构域的DNA结合活性；（3）CERS3敲低后RNA-seq评估重复元件表达变化；（4）ChIP-seq检测全基因组结合图谱，特别关注重复序列区域。
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+HPA 检索: https://www.proteinatlas.org/search/CERS3
+
+### PubMed
+
+**Count: 93**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q8IU89 |
-| SMART | SM00389;SM00724; |
-| UniProt Domain [FT] | DOMAIN 130..331; /note="TLC"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00205" |
-| InterPro | IPR001356;IPR009057;IPR016439;IPR006634; |
-| Pfam | PF00046;PF03798; |
+| 42295031 | Potential of 3D Skin Models and N/TERT-2G Cell Line in Genetic Research on Autosomal Recessive Nonsyndromic Epidermal Differentiation Disorders. |
+| 42093330 | Uncoupling of nutrient sensing and cell size control by specific defects in ceramide structure. |
+| 42044130 | Dysregulation of fatty acid and sphingolipid metabolism is involved in abnormal nasal epithelial differentiation. |
+| 41966446 | Tape strips capture immune and epidermal hyperplasia markers in the major orphan ichthyoses. |
+| 41936882 | Response surface methodology optimization of cell-free supernatant from P. pentosaceus BJQ fermentation of CeRS3 and its in vitro lipid-lowering effec |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000154227-CERS3/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| A2ML1 | Bioplex | false |
-| AKR1B10 | Bioplex | false |
-| ANXA8 | Bioplex | false |
-| C3 | Bioplex | false |
-| CALML5 | Bioplex | false |
-| CBR1 | Bioplex | false |
-| DSG3 | Bioplex | false |
-| EVPL | Bioplex | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

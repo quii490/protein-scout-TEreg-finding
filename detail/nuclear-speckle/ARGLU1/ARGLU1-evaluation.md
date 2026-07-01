@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | ARGLU1 |
+| 蛋白名称 | Arginine and glutamate-rich protein 1 |
 | 蛋白大小 | 273 aa / 33.2 kDa |
 | UniProt ID | Q9NWB6 |
 | 评估日期 | 2026-05-29 |
@@ -159,51 +160,38 @@ ARGLU1 属于 ARGLU 蛋白家族（arginine and glutamate-rich），该家族功
 - [ ] 验证与剪接体核心组分的物理互作
 - [ ] 评估在特定剪接事件中的调控功能
 
-### 5. 数据来源
-- GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=ARGLU1
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000134884-ARGLU1
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=ARGLU1
-- UniProt: https://www.uniprot.org/uniprotkb/Q9NWB6
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9NWB6
+### PPI 互作网络
 
-
-#### PPI 网络（三源综合）
-| Partner | Source | Score/Evidence |
+| 互作伙伴 | 来源 | 评分 |
 |---|---|---|
-| 无记录 | — | — |
+| SRSF11 | STRING | 782 |
+| PNISR | STRING | 779 |
+| SRPK2 | STRING | 775 |
+| LUC7L3 | STRING | 728 |
+| PUF60 | STRING | 718 |
+| NCBP2 | STRING | 702 |
+| IKBKG | BioGRID | 1 |
+| ELAVL1 | BioGRID | 1 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
 
-![[ARGLU1-PAE.png]]
+### TE 调控评估
 
-PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
 
+### HPA IF 图像
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nuclear-speckle/ARGLU1/ARGLU1-PAE.png]]
+HPA 检索: https://www.proteinatlas.org/search/ARGLU1
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### PubMed
 
-### SMART / UniProt domain
-| Source | Data |
+**Count: 26**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q9NWB6 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR033371; |
-| Pfam | PF15346; |
+| 42346151 | ARGLU1 in Glioma: A Novel Potential Regulator of Splicing, DNA Repair, and Therapeutic Resistance. |
+| 42269182 | Rhein antagonizes glucocorticoid receptor signaling to activate SIRT1-dependent thermogenesis in brown adipose tissue and ameliorate obesity. |
+| 42140427 | Nuclear Proteome Map of Mouse Heart Chambers. |
+| 41286944 | Dynamic remodelling of epithelial plasticity in colorectal cancer from single-cell and spatially resolved perspectives. |
+| 41186411 | ARGLU1 is a negative regulator of the adenoviral replicative cycle. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000134884-ARGLU1/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| PUF60 | Intact, Biogrid | true |
-| SRPK2 | Intact, Biogrid | true |
-| AAMP | Opencell | false |
-| CD151 | Opencell | false |
-| CDKN2A | Opencell | false |
-| CENPA | Opencell | false |
-| COMMD1 | Opencell | false |
-| COMMD2 | Opencell | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

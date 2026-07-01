@@ -152,6 +152,20 @@ pm: 18
 - [ ] 研究 cGMP 信号是否影响 TE 表达
 - [ ] 探索 sGC 在核内可能的新功能
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PRKG1 | STRING | 948 |
+| PRKG2 | STRING | 946 |
+| NOS1 | STRING | 915 |
+| ITPA | STRING | 911 |
+| NUDT2 | STRING | 903 |
+| PKM | STRING | 903 |
+| GCH1 | STRING | 833 |
+| PDE2A | STRING | 787 |
+
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=GUCY1A1
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000164116-GUCY1A1

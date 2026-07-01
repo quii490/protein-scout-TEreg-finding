@@ -92,6 +92,24 @@ STRING 显示极其强大的 APC/C 复合体网络：ANAPC4/5/10/16/13/2/1/7/11�
 ### 4. 总体评价
 ANAPC15 是 APC/C（anaphase-promoting complex/cyclosome）的核心亚基，具有极其丰富的结构数据（18 PDB EM 结构）、极强的 PPI 网络（15+ APC/C partners）、极小的蛋白尺寸（121 aa）和极高的研究新颖性（strict=3）。HPA Approved 核质定位为实验级 IF 证据，与 GO nucleoplasm TAS 和 APC/C 功能背景一致。归一化得分 84.4/100，在当前评估队列中属于高分。建议作为高优先级 nucleoplasm 候选保留。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ANAPC5 | STRING | 999 |
+| CDC26 | STRING | 999 |
+| CDC23 | STRING | 999 |
+| ANAPC4 | STRING | 999 |
+| ANAPC10 | STRING | 999 |
+| ANAPC16 | STRING | 999 |
+| C10ORF104 | STRING | 999 |
+| ANAPC2 | STRING | 998 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P60006
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/P60006

@@ -218,7 +218,7 @@ Source: https://www.proteinatlas.org/ENSG00000204209-DAXX/interaction
 | AIRE | Intact, Biogrid | true |
 | AR | Intact, Biogrid | true |
 | ATRX | Intact, Biogrid | true |
-| BTBD6 | Intact, Biogrid | true |
+| B暂无数据6 | Intact, Biogrid | true |
 | CDKN2A | Intact, Biogrid | true |
 | CREBBP | Intact, Biogrid | true |
 | DEK | Intact, Biogrid | true |

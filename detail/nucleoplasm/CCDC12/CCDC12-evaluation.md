@@ -191,6 +191,24 @@ status: scored
 - [ ] 查阅最新关键文献补充功能细节
 - [ ] 设计体外 DNA/染色质结合实验
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CDC40 | STRING | 997 |
+| CRNKL1 | STRING | 997 |
+| CRN | STRING | 997 |
+| PRPF19 | STRING | 989 |
+| CDC5L | STRING | 981 |
+| EFTUD2 | STRING | 973 |
+| U5-116KD | STRING | 973 |
+| SNRP116 | STRING | 973 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8WUD4
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CCDC12

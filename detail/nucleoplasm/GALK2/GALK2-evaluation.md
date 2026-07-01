@@ -84,6 +84,24 @@ STRING PPI 强有力指向半乳糖代谢通路（GALE, GALT, GALM），均有�
 ### 4. 总体评价
 GALK2 的评分亮点在三维结构（全长 1.65A 晶体结构 + AlphaFold pLDDT 94.9）和极高新颖性（PM=8）。劣势是核定位仅靠 HPA 单源、无 UniProt 核注释。作为糖代谢酶，其潜在核内功能（核质糖基化/O-GlcNAc 相关？）值得探索。建议作为高优先级核质候选保留，但需优先验证 HPA 核定位信号。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ASPDH | BioGRID | 0 |
+| GALE | BioGRID | 0 |
+| GALM | BioGRID | 0 |
+| PGM1 | BioGRID | 0 |
+| LTA4H | BioGRID | 0 |
+| MEMO1 | BioGRID | 0 |
+| MVD | BioGRID | 0 |
+| POTEF | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q01415
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q01415

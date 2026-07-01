@@ -86,3 +86,36 @@ Source: https://www.proteinatlas.org/ENSG00000168096-ANKS3/interaction
 | NEK7 | Intact, Biogrid | true |
 | NEK8 | Intact, Biogrid | true |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| GFI1B | BioGRID | 0 |
+| NXF1 | BioGRID | 0 |
+| XPO1 | BioGRID | 0 |
+| ZNF669 | BioGRID | 0 |
+| ZNF214 | BioGRID | 0 |
+| ZNF556 | BioGRID | 0 |
+| ANKS6 | BioGRID | 0 |
+| NEK7 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q6ZW76-F1-predicted_aligned_error_v6.png)
+
+### PubMed
+
+**Count: 20**
+
+| PMID | Title |
+|---|---|
+| 40634109 | m(6)A methylation inhibits recruitment of the Dand5 3'UTR to the left-right determinant Bicc1. |
+| 37733651 | Bicc1 ribonucleoprotein complexes specifying organ laterality are licensed by ANKS6-induced structural remodeling of associated ANKS3. |
+| 37275520 | Antagonistic interactions among structured domains in the multivalent Bicc1-ANKS3-ANKS6 protein network govern phase transitioning of target mRNAs. |
+| 35708509 | Maternal Dietary Glycemic Index and Glycemic Load in Pregnancy and Offspring Cord Blood DNA Methylation. |
+| 32994509 | Nephronophthisis gene products display RNA-binding properties and are recruited to stress granules. |

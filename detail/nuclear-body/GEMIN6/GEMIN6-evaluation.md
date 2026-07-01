@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | GEMIN6 / — |
+| 蛋白名称 | Gem-associated protein 6 |
 | 蛋白全名 | Gem-associated protein 6 |
 | 蛋白大小 | 167 aa / 18.8 kDa |
 | UniProt ID | Q8WXD5 |
@@ -82,6 +83,30 @@ PPI 网络强大且以 SMN 复合物为中心，实验验证充分（co-IP, pull
 
 ### 4. 总体评价
 GEMIN6 是本批次评价很高的候选（76.5/100）。核心优势：极低文献量（PM=18）、三源核定位确认（UniProt/GO-CC/HPA IF 一致）、高实验验证的 SMN complex PPI 网络、结构已知（GEMIN6/7 heterodimer 高分辨晶体结构）。作为 nuclear-body 类别候选，GEMIN6 是 SMN 复合物的核心成员，定位于 Gemini of Cajal bodies，功能涉及剪接体 snRNP 组装。主要局限：结构域功能深度有限、蛋白仅 167 aa。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| GEMIN7 | STRING | 999 |
+| GEMIN8 | STRING | 999 |
+| STRAP | STRING | 999 |
+| GEMIN5 | STRING | 999 |
+| GEMIN2 | STRING | 999 |
+| DDX20 | STRING | 999 |
+| GEMIN4 | STRING | 998 |
+| SNRPE | STRING | 989 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/35727/1443_G3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35727/1443_G3_2_blue_red_green.jpg)
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8WXD5

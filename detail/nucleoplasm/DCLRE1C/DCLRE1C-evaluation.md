@@ -65,6 +65,24 @@ HPA IF images not reliably obtained (no subcellular IF images available on HPA s
 
 **Research Volume Assessment**: Moderate (<100 papers), some research foundation but unexplored niches remain
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PRKDC | STRING | 999 |
+| XRCC5 | STRING | 998 |
+| XRCC6 | STRING | 997 |
+| LIG4 | STRING | 997 |
+| NHEJ1 | STRING | 992 |
+| XRCC4 | STRING | 983 |
+| ATM | STRING | 956 |
+| MSH2 | STRING | 944 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. AlphaFold / PAE / PDB
 
 #### AlphaFold

@@ -165,6 +165,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TBX6 | STRING | 979 |
+| DLL3 | STRING | 857 |
+| TCF4 | STRING | 822 |
+| E2A | STRING | 820 |
+| TCF3 | STRING | 820 |
+| RIPPLY2 | STRING | 807 |
+| TCF12 | STRING | 805 |
+| DLL1 | STRING | 777 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q0VG99
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000188095-MESP2/subcellular

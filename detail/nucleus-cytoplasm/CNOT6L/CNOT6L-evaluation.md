@@ -65,6 +65,24 @@ HPA IF 可显示图像可用，可靠性: Supported。
 
 **Research Volume Assessment**: 较低（<50篇），研究空间充足
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| BTG2 | BioGRID | 0 |
+| LZTR1 | BioGRID | 0 |
+| ZSCAN1 | BioGRID | 0 |
+| CNOT1 | BioGRID | 0 |
+| CNOT2 | BioGRID | 0 |
+| CNOT3 | BioGRID | 0 |
+| CHAF1A | BioGRID | 0 |
+| RQCD1 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. AlphaFold / PAE / PDB
 
 #### AlphaFold

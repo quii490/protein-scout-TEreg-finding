@@ -44,6 +44,32 @@ status: scored
 
 FAM9C 是 FAM9 家族蛋白，UniProt 实验证据定位为 Nucleus。GO-CC 注释为 synaptonemal complex（减数分裂染色体联会复合体），与染色质功能相关。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NDC80 | BioGRID | 1 |
+| SKA1 | BioGRID | 1 |
+| SNAPC5 | BioGRID | 1 |
+| TRIML2 | BioGRID | 1 |
+| CCNC | BioGRID | 1 |
+| CAPN2 | BioGRID | 1 |
+| CBWD3 | BioGRID | 1 |
+| LAMB1 | BioGRID | 1 |
+
+
+### PubMed
+
+**Count: 4**
+
+| PMID | Title |
+|---|---|
+| 42239272 | Proteome-wide serology reveals immune-defined subtypes of gastrointestinal disease in systemic sclerosis. |
+| 36017582 | Whole-genome sequencing identifies new candidate genes for nonobstructive azoospermia. |
+| 23836295 | FAM9C plays an anti-apoptotic role through activation of the PI3K/Akt pathway in human hepatocellular carcinoma. |
+| 12213195 | A new gene family (FAM9) of low-copy repeats in Xp22.3 expressed exclusively in testis: implications for recombinations in this region. |
+
+
 ### 5. PubMed 证据
 
 | Type | Count |

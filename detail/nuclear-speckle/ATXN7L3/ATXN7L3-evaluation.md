@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | ATXN7L3 (Ataxin-7-like 3) / 无常见别名 |
+| 蛋白名称 | Ataxin-7-like protein 3 |
 | 蛋白大小 | 347 aa / 38.7 kDa |
 | UniProt ID | Q14CW9 (AT7L3_HUMAN, Swiss-Prot reviewed) |
 | Ensembl Gene ID | ENSG00000087152 |
@@ -216,6 +217,24 @@ ATXN7L3 是 SAGA 复合体去泛素化酶 (DUB) 模块的核心组分。UniProt 
 - [ ] RNA-seq 鉴定 ATXN7L3 调控的靶基因
 - [ ] 共表达 ENY2-USP22-ATXN7L3 复合体进行结构研究
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| USP22 | STRING | 999 |
+| ENY2 | STRING | 999 |
+| TRRAP | STRING | 998 |
+| TAF5L | STRING | 996 |
+| TADA3 | STRING | 996 |
+| TAF12 | STRING | 995 |
+| SUPT20H | STRING | 995 |
+| KAT2A | STRING | 994 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q14CW9
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000087152-ATXN7L3/subcellular
@@ -230,9 +249,9 @@ ATXN7L3 是 SAGA 复合体去泛素化酶 (DUB) 模块的核心组分。UniProt 
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[ATXN7L3-PAE.png]]
 

@@ -164,6 +164,34 @@ status: scored
 - [ ] 构建表达载体进行功能研究
 - [ ] Co-IP/MS 鉴定互作蛋白
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| DDX24 | BioGRID | 0 |
+| SHMT2 | BioGRID | 0 |
+| KLK5 | BioGRID | 0 |
+| TMEM231 | BioGRID | 0 |
+| ENPP6 | BioGRID | 0 |
+| LIPH | BioGRID | 0 |
+| THBS3 | BioGRID | 0 |
+| B9D2 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/21372/2183_B2_56_blue_red_green.jpg)
+![](https://images.proteinatlas.org/21372/2183_B2_55_blue_red_green.jpg)
+![](https://images.proteinatlas.org/21372/2183_B2_54_blue_red_green.jpg)
+![](https://images.proteinatlas.org/21372/2183_B2_53_blue_red_green.jpg)
+![](https://images.proteinatlas.org/21372/2183_B2_52_blue_red_green.jpg)
+![](https://images.proteinatlas.org/21372/2183_B2_51_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=MKS1
 - Protein Atlas: https://www.proteinatlas.org/MKS1
@@ -178,9 +206,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[MKS1-PAE.png]]
 

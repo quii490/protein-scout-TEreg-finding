@@ -167,6 +167,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ZNF32 | STRING | 913 |
+| CWC27 | STRING | 844 |
+| ESS2 | STRING | 831 |
+| SF3B2 | STRING | 739 |
+| SF3B1 | STRING | 739 |
+| IK | STRING | 714 |
+| C7ORF25 | BioGRID | 1 |
+| EEF1D | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q70Z53
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000148690-FRA10AC1/subcellular

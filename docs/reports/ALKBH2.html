@@ -12,6 +12,8 @@
   <nav>
     <a href="../protein_index.html">总表</a>
     <a href="../category/nucleoplasm.html">Nucleoplasm</a><a href="../category/nucleus-cytoplasm.html">Nucleus-cytoplasm</a><a href="../category/nuclear-speckle.html">Nuclear speckle</a><a href="../category/nuclear-body.html">Nuclear body</a><a href="../category/nucleolus.html">Nucleolus</a><a href="../category/nuclear-envelope.html">Nuclear envelope</a><a href="../category/chromatin.html">Chromatin</a><a href="../category/rejected.html">Rejected</a>
+    <a href="../centrosome/index.html">Centrosome</a>
+    <a href="../sperm/index.html">Sperm</a>
   </nav>
 </header><main class="container report-shell"><section class="panel"><h1>ALKBH2</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">总分: 73.9</span><span class="badge">核定位: 8</span><a class="button small" href="../protein_index.html">蛋白总表</a><a class="button small" href="../category/nucleoplasm.html">分类页</a></div><p class="source-path">原始 detail 路径: detail/nucleoplasm/ALKBH2/ALKBH2-evaluation.md</p></section><article class="report-body"><hr>
 <p>type: protein-evaluation gene: &quot;ALKBH2&quot; date: 2026-06-04 tags: [protein-scout, rescored, rescued-to-scored, critical-false-rejection] status: rescored-to-scored previous_status: scored previous_rejection_reason: nuclear_score ≤ 3 rescue_reason: &quot;ALL nuclear evidence is IDA-level across 3 nuclear compartments; DNA repair enzyme; 18 PDB structures; nuclear_score=3 was a clear scoring error&quot; revised_nuclear_score: 8 ---</p>
@@ -128,6 +130,18 @@
 <p><strong>IntAct实验互作</strong>:</p>
 <ul><li>SLX4: anti-tag co-IP (PMID: 19596235)</li><li>GOLGA2: two hybrid array (PMID: 32296183)</li><li>LCN15: anti-tag co-IP (PMID: 28514442)</li><li>AARSD1: anti-tag co-IP (PMID: 28514442)</li><li>SYNJ1: anti-tag co-IP (PMID: 28514442)</li><li>FTL: anti-tag co-IP (PMID: 33961781)</li></ul>
 <p>PPI网络主要依赖ALKBH家族的文本挖掘共现，实验互作伙伴较少且多为高通量筛选。SLX4是结构特异性核酸酶支架蛋白，参与DNA修复; LCN15 (Lipocalin-15) 功能未知，但与ALKBH2的co-IP来自系统性互作组研究。PPI网络薄弱。<strong>评分: 4/10</strong>。</p>
+<h4>PPI 互作网络</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>互作伙伴</th><th>来源</th><th>评分</th></tr></thead><tbody>
+<tr><td>ALKBH1</td><td>STRING</td><td>986</td></tr>
+<tr><td>JMJD4</td><td>STRING</td><td>862</td></tr>
+<tr><td>ALKBH6</td><td>STRING</td><td>840</td></tr>
+<tr><td>ALKBH8</td><td>STRING</td><td>835</td></tr>
+<tr><td>ALKBH4</td><td>STRING</td><td>769</td></tr>
+<tr><td>FTO</td><td>STRING</td><td>719</td></tr>
+<tr><td>GTF2B</td><td>BioGRID</td><td>1</td></tr>
+<tr><td>DHX16</td><td>BioGRID</td><td>1</td></tr>
+</tbody></table></div>
 <h4>5. Rescue Decision</h4>
 <p><strong>决策: RESCUED TO SCORED</strong></p>
 <p><strong>核定位评分修正</strong>: 从3/10 → 8/10。修正依据: 1. UniProt 3个核区室全部为ECO:0000269 (experimental evidence from PubMed, IDA等级) 2. GO-CC 3个核术语全部为IDA (实验验证) 3. HPA Nucleoplasm主定位 (Supported) 4. DNA修复功能预设核定位 5. 18个PDB晶体结构间接支持其作为核蛋白的生化功能</p>

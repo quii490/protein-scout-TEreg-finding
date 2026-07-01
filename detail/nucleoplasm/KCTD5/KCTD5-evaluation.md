@@ -170,6 +170,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CUL3 | STRING | 998 |
+| KCTD13 | STRING | 729 |
+| RBX1 | STRING | 727 |
+| CUL2 | BioGRID | 1 |
+| KCTD5 | BioGRID | 1 |
+| SMURF1 | BioGRID | 1 |
+| PAN2 | BioGRID | 1 |
+| NPM1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9NXV2
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000167977-KCTD5/subcellular
@@ -202,7 +220,7 @@ Source: https://www.proteinatlas.org/ENSG00000167977-KCTD5/interaction
 | Partner | Datasets | AF3/HPA structure |
 |---|---|:--:|
 | SLC9A3R2 | Intact, Biogrid | true |
-| BTBD10 | Biogrid | false |
+| B暂无数据10 | Biogrid | false |
 | CUL3 | Biogrid | false |
 | FAM193B | Biogrid | false |
 | GNB1 | Biogrid | false |

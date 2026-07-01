@@ -162,6 +162,33 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| LHX4 | BioGRID | 1 |
+| DENND2D | BioGRID | 1 |
+| EWSR1 | BioGRID | 1 |
+| KIF20B | BioGRID | 1 |
+| FAN1 | BioGRID | 1 |
+| RNASEH2B | BioGRID | 1 |
+| TNIP2 | BioGRID | 1 |
+| LMNA | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### PubMed
+
+**Count: 1**
+
+| PMID | Title |
+|---|---|
+| 39132489 | Genetic associations with human longevity are enriched for oncogenic genes. |
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8N6N3
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000162642-C1orf52/subcellular

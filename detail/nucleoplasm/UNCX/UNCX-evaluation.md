@@ -146,6 +146,29 @@ pm: 17
 - [ ] 在发育体系中验证 UNCX 对重复元件的调控
 - [ ] 解析 Homeobox 结构域的晶体结构（已有良好折叠预测区域）
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CEBPA | BioGRID | 1 |
+| LMNA | BioGRID | 1 |
+| DDX58 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/63294/1693_B2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/63294/1693_B2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/63294/1714_C5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/63294/1714_C5_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/63294/1695_B7_13_cr57d851f23a598_blue_red_green.jpg)
+![](https://images.proteinatlas.org/63294/1695_B7_18_cr57d851fa1ba65_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=UNCX
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000164853-UNCX

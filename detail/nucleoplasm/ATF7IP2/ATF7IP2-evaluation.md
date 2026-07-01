@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | ATF7IP2 / MCAF2 |
+| 蛋白名称 | Activating transcription factor 7-interacting protein 2 |
 | 蛋白大小 | 682 aa / 75.8 kDa |
 | UniProt ID | Q5U623 |
 | 评估日期 | 2026-05-29 |
@@ -162,6 +163,24 @@ ATF7IP_BD 是 ATF7IP 家族特有的蛋白结合域，参与转录共调节复�
 - [ ] 获取 IF 数据独立验证核定位
 - [ ] 鉴定其转录调控靶基因和辅助因子
 - [ ] 评估无序区域在转录调控中的功能性角色
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SETDB1 | STRING | 960 |
+| ARL14EP | STRING | 812 |
+| ATF7IP | STRING | 747 |
+| MBD1 | BioGRID | 1 |
+| SP1 | BioGRID | 1 |
+| EGFR | BioGRID | 1 |
+| MED4 | BioGRID | 1 |
+| NUP62 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
 
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=ATF7IP2

@@ -167,36 +167,38 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q9GZN0
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000181656-GPR88/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=GPR88
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9GZN0
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ATP13A3 | BioGRID | 0 |
+| ATP1A3 | BioGRID | 0 |
+| ATP12A | BioGRID | 0 |
+| SLC39A10 | BioGRID | 0 |
+| GRIN1 | BioGRID | 0 |
+| ATP2B2 | BioGRID | 0 |
+| SLC5A3 | BioGRID | 0 |
+| MFSD8 | BioGRID | 0 |
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q9GZN0-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### TE 调控评估
 
-### SMART / UniProt domain
-| Source | Data |
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+HPA 检索: https://www.proteinatlas.org/search/GPR88
+
+### PubMed
+
+**Count: 95**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q9GZN0 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR050125;IPR000276;IPR017452; |
-| Pfam | PF00001; |
+| 42269381 | International Union of Basic and Clinical Pharmacology. CXXII. Applying an objective evaluation to the status of class A orphan G protein-coupled rece |
+| 42162172 | Bioinformatics and experimental validation of druggable targets in non-alcoholic fatty liver disease. |
+| 41608022 | GPR88 promotes neurite outgrowth of sensory neurons via activation of G(i/o). |
+| 41513185 | Mechanism of μ-opioid receptor inhibition by orphan GPR88. |
+| 41330618 | GPR88 localization to primary cilia in neurons is cell-type specific. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000181656-GPR88/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| GNB1 | Intact | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

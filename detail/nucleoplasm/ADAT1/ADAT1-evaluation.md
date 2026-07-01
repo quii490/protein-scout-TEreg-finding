@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | ADAT1 / hADAT1, tRNA-specific adenosine deaminase 1 |
+| 蛋白名称 | tRNA-specific adenosine deaminase 1 |
 | 蛋白大小 | 502 aa / ~56 kDa |
 | UniProt ID | Q9BUB4 |
 | 评估日期 | 2026-05-29 |
@@ -168,6 +169,34 @@ status: scored
 - 该蛋白功能与项目核染色质调控研究方向不匹配，不推荐深入
 - 若项目转向 RNA 修饰/表观转录组学，可重新评估
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ADAT3 | STRING | 953 |
+| ADAT2 | STRING | 931 |
+| KARS | STRING | 922 |
+| AARS | STRING | 870 |
+| ELAVL1 | BioGRID | 1 |
+| MOV10 | BioGRID | 1 |
+| NXF1 | BioGRID | 1 |
+| TRIM25 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/40713/1179_B8_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40713/1179_B8_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40713/542_E4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40713/542_E4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40903/475_F11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40903/475_F11_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9BUB4
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000065457-ADAT1/subcellular
@@ -178,9 +207,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[ADAT1-PAE.png]]
 

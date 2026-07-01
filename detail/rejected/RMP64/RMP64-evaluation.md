@@ -53,6 +53,16 @@ status: scored
 
 RMP64 is 567 amino acids in length (~64.6 kDa). 567 aa, ideal range. Score 10/10.
 
+### 功能描述
+
+Specific component of the MRP ribonucleoprotein endoribonuclease, Rnase/Mrp complex, a ribonucleoprotein complex involved in pre-rRNA processing (PubMed:28115465, PubMed:40413743). May play a role in cortex development as part of the Notch signaling pathway. Downstream of Notch may repress the expression of proneural genes and inhibit neuronal differentiation thereby maintaining neural progenitors. May also play a role in preimplentation embryo development (By similarity)
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

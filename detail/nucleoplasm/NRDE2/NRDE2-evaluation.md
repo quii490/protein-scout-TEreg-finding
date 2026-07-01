@@ -152,6 +152,24 @@ PPI: IntAct + STRING 双源 (+0.5)
 - [ ] 功能研究: 基于 PPI 网络设计功能实验
 - [ ] 结构分析: 基于 PDB 结构设计功能实验
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MTREX | STRING | 977 |
+| PPP2R2A | STRING | 861 |
+| ZFC3H1 | STRING | 711 |
+| ZCCHC8 | STRING | 705 |
+| RNPS1 | BioGRID | 1 |
+| EED | BioGRID | 1 |
+| RPS10 | BioGRID | 1 |
+| ESR2 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=NRDE2
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000119720-NRDE2
@@ -164,9 +182,9 @@ PPI: IntAct + STRING 双源 (+0.5)
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[NRDE2-PAE.png]]
 

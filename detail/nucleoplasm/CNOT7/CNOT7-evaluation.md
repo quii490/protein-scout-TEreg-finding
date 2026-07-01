@@ -69,6 +69,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 
 **Research Volume Assessment**: 中等（<100篇），已有一定研究基础但仍存在未探索的niche
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CNOT2 | STRING | 999 |
+| CNOT1 | STRING | 999 |
+| CNOT3 | STRING | 999 |
+| TOB1 | STRING | 999 |
+| PATL1 | STRING | 998 |
+| DCP2 | STRING | 997 |
+| TOB2 | STRING | 969 |
+| BTG2 | STRING | 963 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. AlphaFold / PAE / PDB
 
 #### AlphaFold

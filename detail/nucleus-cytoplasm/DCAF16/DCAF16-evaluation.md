@@ -63,6 +63,24 @@ HPA IF display images available, reliability: Approved.
 
 **Research Volume Assessment**: Low (<50 papers), ample research space
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| DDB1 | STRING | 970 |
+| CUL4A | STRING | 965 |
+| CRBN | STRING | 956 |
+| CUL4B | STRING | 951 |
+| DCAF5 | STRING | 937 |
+| DET1 | STRING | 936 |
+| DDA1 | STRING | 924 |
+| DCAF12 | STRING | 917 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. AlphaFold / PAE / PDB
 
 #### AlphaFold

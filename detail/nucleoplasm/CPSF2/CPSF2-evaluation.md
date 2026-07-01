@@ -157,6 +157,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CPSF3 | STRING | 999 |
+| CPSF4 | STRING | 999 |
+| CPSF1 | STRING | 999 |
+| WDR33 | STRING | 999 |
+| FIP1L1 | STRING | 999 |
+| CSTF2 | STRING | 999 |
+| CSTF1 | STRING | 998 |
+| PCF11 | STRING | 998 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/24238/181_F11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/24238/181_F11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/24238/180_F11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/24238/180_F11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/24238/182_F11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/24238/182_F11_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9P2I0
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000165934-CPSF2/subcellular

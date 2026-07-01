@@ -62,6 +62,24 @@ status: scored
 
 RPRD1A is 312 amino acids in length, well within the ideal 200-800 aa range. This size is optimal for recombinant expression, purification, crystallization (validated by existing PDB structures), and functional assays. Size score: 10/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RPRD1B | STRING | 982 |
+| RPAP2 | STRING | 980 |
+| POLR2B | STRING | 965 |
+| POLR2G | STRING | 922 |
+| POLR2D | STRING | 906 |
+| DXO | STRING | 897 |
+| XRN2 | STRING | 883 |
+| GCOM1 | STRING | 823 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

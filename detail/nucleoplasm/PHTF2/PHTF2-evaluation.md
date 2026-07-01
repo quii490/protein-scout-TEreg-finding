@@ -168,6 +168,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ELAVL1 | BioGRID | 1 |
+| TRIM25 | BioGRID | 1 |
+| STXBP1 | BioGRID | 1 |
+| PHTF1 | BioGRID | 1 |
+| BTRC | BioGRID | 1 |
+| FBXW11 | BioGRID | 1 |
+| LYPD3 | BioGRID | 0 |
+| GPR156 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8N3S3
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000006576-PHTF2/subcellular

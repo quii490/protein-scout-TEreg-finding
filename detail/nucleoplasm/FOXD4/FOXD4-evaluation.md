@@ -168,6 +168,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| FOXD4L1 | STRING | 859 |
+| FOXC1 | BioGRID | 1 |
+| RALY | BioGRID | 1 |
+| RNASEH1 | BioGRID | 1 |
+| FOXD1 | BioGRID | 1 |
+| PPP2CA | BioGRID | 1 |
+| ZBTB9 | BioGRID | 1 |
+| PDK3 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q12950
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000170122-FOXD4/subcellular

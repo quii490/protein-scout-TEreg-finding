@@ -12,7 +12,7 @@ status: scored
 
 | 项目 | 内容 |
 |------|------|
-| 基因名 / 别名 | NAA15 / GA19, NARG1, NATH, TBDN100 |
+| 基因名 / 别名 | NAA15 / GA19, NARG1, NATH, 暂无数据N100 |
 | 蛋白名称 | N-alpha-acetyltransferase 15, NatA auxiliary subunit |
 | 蛋白大小 | 866 aa / 101.3 kDa |
 | UniProt ID | Q9BXJ9 |
@@ -64,7 +64,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 |------|------|
 | PubMed strict count | 52 |
 | PubMed broad count | 90 |
-| 别名(未计入scoring) | Aliases observed but not used for scoring: GA19, NARG1, NATH, TBDN100 |
+| 别名(未计入scoring) | Aliases observed but not used for scoring: GA19, NARG1, NATH, 暂无数据N100 |
 
 **关键文献**:
 1. Targeted sequencing identifies 91 neurodevelopmental-disorder risk genes with autism and developmental-disability biases.. *Nature genetics*. PMID: 28191889
@@ -172,6 +172,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| UBA5 | BioGRID | 0 |
+| XRCC6 | BioGRID | 0 |
+| XRCC5 | BioGRID | 0 |
+| RAD21 | BioGRID | 0 |
+| SIRT7 | BioGRID | 0 |
+| NAA10 | BioGRID | 0 |
+| HYPK | BioGRID | 0 |
+| ASUN | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9BXJ9

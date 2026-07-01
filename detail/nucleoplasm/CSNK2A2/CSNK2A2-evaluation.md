@@ -83,6 +83,30 @@ PPI 网络极为丰富，以 CSNK2B-CSNK2A1 为核心的 CK2 全酶复合体实�
 ### 4. 总体评价
 CSNK2A2 是 casein kinase II 的 alpha' 催化亚基，结构解析极其充分（pLDDT 94.1 + 33 PDB，最高 0.83A 分辨率），PPI 网络丰富且以实验验证为主（CK2 全酶 + 广谱底物网络）。主要不足：核定位证据仅依赖同源推断 (ECO:0000250)，HPA 无任何 IF 数据，且 CSNK2A2 作为 CK2 的 alternative catalytic subunit 缺乏独立的热度区分度。文献量中等 (PM=57)，作为广泛研究的 CK2 家族成员，新颖性有限。
 
+### 功能描述
+
+Catalytic subunit of a constitutively active serine/threonine-protein kinase complex that phosphorylates a large number of substrates containing acidic residues C-terminal to the phosphorylated serine or threonine (PubMed:11239457, PubMed:11704824, PubMed:16193064, PubMed:30898438). Regulates numerous cellular processes, such as cell cycle progression, apoptosis and transcription, as well as viral infection (PubMed:11704824, PubMed:16193064, PubMed:30898438). May act as a regulatory node which i
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CSNK2B | STRING | 999 |
+| CSNK2A1 | STRING | 993 |
+| PTEN | STRING | 954 |
+| TEP1 | STRING | 954 |
+| CTNNB1 | STRING | 945 |
+| TP53 | STRING | 939 |
+| NFKBIA | STRING | 927 |
+| DVL3 | STRING | 927 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P19784
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/P19784

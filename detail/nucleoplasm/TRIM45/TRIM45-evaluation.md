@@ -170,6 +170,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TRIM41 | STRING | 777 |
+| CDK2 | STRING | 747 |
+| ELAVL1 | BioGRID | 1 |
+| UBE2D1 | BioGRID | 1 |
+| UBE2D2 | BioGRID | 1 |
+| UBE2D3 | BioGRID | 1 |
+| UBE2D4 | BioGRID | 1 |
+| UBE2E1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9H8W5
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000134253-TRIM45/subcellular

@@ -169,6 +169,24 @@ status: scored
 - [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CFAP20 | STRING | 846 |
+| ARL3 | STRING | 829 |
+| RAC1 | BioGRID | 1 |
+| ELAVL1 | BioGRID | 1 |
+| CAMK2D | BioGRID | 1 |
+| MOV10 | BioGRID | 1 |
+| NXF1 | BioGRID | 1 |
+| HMCES | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 
 - UniProt: https://www.uniprot.org/uniprotkb/Q9Y2Y0

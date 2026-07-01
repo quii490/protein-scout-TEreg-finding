@@ -233,3 +233,22 @@ Source: https://www.proteinatlas.org/ENSG00000164654-MIOS/interaction
 | CCT2 | Bioplex | false |
 | DEPDC5 | Biogrid | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NPR2 | STRING | 999 |
+| SEH1L | STRING | 999 |
+| SESN1 | STRING | 823 |
+| RAE1 | BioGRID | 1 |
+| RFPL2 | BioGRID | 1 |
+| RFPL4B | BioGRID | 1 |
+| HERC2 | BioGRID | 1 |
+| FAF1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。

@@ -62,6 +62,20 @@ status: accepted
 
 358 aa -- within the ideal range for biochemical, structural, and cell-based approaches. Score: 10/10.
 
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/3548/54_F3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3548/54_F3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3548/55_F3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3548/55_F3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3548/53_F3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3548/53_F3_2_blue_red_green.jpg)
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

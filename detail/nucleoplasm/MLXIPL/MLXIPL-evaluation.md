@@ -186,6 +186,24 @@ nuclear_score: 7
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MLXIP | STRING | 992 |
+| MLX | STRING | 991 |
+| PPARGC1B | STRING | 944 |
+| MXD4 | STRING | 931 |
+| OGT | STRING | 926 |
+| YWHAB | STRING | 916 |
+| SREBF1 | STRING | 900 |
+| EP300 | STRING | 815 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9NP71
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000009950-MLXIPL

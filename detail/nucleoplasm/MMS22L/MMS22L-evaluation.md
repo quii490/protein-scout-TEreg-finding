@@ -187,6 +187,24 @@ nuclear_score: 7
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TONSL | STRING | 999 |
+| ASF1B | STRING | 874 |
+| ESCO2 | STRING | 824 |
+| SSRP1 | STRING | 815 |
+| MCM6 | STRING | 787 |
+| BRCA1 | STRING | 748 |
+| RAD51 | STRING | 713 |
+| ASF1A | STRING | 712 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q6ZRQ5
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000146263-MMS22L

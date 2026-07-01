@@ -174,6 +174,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| VPS54 | STRING | 999 |
+| STX6 | STRING | 992 |
+| COG5 | STRING | 827 |
+| GSK3B | BioGRID | 1 |
+| NUDT3 | BioGRID | 1 |
+| CDK12 | BioGRID | 1 |
+| CDKN1A | BioGRID | 1 |
+| YTHDC1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白的 GO-CC 注释中缺乏染色质/TE 沉默相关定位，TE 调控潜力较低。不建议作为 TE 调控优先靶标。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9UID3
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000149823-VPS51/subcellular

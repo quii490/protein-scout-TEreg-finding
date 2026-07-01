@@ -49,6 +49,29 @@ status: scored
 
 SAMD10 is 202 amino acids in length (~22.8 kDa). 202 aa, ideal range. Score 10/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| KIF14 | BioGRID | 1 |
+| CNKSR3 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/40973/424_D5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40973/424_D5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40973/429_D5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40973/429_D5_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40973/418_D5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40973/418_D5_2_blue_red_green.jpg)
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

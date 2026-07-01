@@ -167,6 +167,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CMTM1 | STRING | 975 |
+| APP | BioGRID | 1 |
+| MOB1A | BioGRID | 1 |
+| MOB3C | BioGRID | 1 |
+| LMNA | BioGRID | 1 |
+| TP63 | BioGRID | 1 |
+| CREB3L1 | BioGRID | 1 |
+| IKBIP | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96MX0
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000140931-CMTM3/subcellular

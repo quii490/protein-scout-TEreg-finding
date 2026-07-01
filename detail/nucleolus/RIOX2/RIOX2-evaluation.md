@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | RIOX2 / MDIG, MINA, MINA53, NO52 |
+| 蛋白名称 | Ribosomal oxygenase 2 |
 | 蛋白全名 | Ribosomal oxygenase 2 |
 | 蛋白大小 | 465 aa / 52.8 kDa |
 | UniProt ID | Q8IUF8 |
@@ -95,6 +96,26 @@ RIOX2 的 PPI 网络中等偏弱。最强的为 RPL27A（底物，exp 0.533）�
 
 ### 4. 总体评价
 RIOX2 是本批次评分最高的蛋白（84.2/100），也是整个筛选中极少见的 10-10-9 三高组合（新颖性 10 + 蛋白大小 10 + 结构 9）。核心优势：极低文献量（PubMed strict=8）、JmjC 组蛋白去甲基化酶（直接参与 H3K9me3 表观遗传调控）、PDB 3 个高分辨率 X-ray 结构（最高 2.05A）、AlphaFold pLDDT 90.0、HPA 核仁/核质双定位明确。H3K9me3 去甲基化与 TE 去抑制直接相关。作为 JmjC 家族的核仁双功能酶，是极佳的 TE 调控候选靶点。主要劣势是 PPI 网络偏弱（5/10），研究多集中在癌症预后关联分析。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RPL27A | STRING | 860 |
+| LRP4 | STRING | 783 |
+| RPL8 | STRING | 725 |
+| JMJD4 | STRING | 707 |
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/7603/75_C3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/7603/75_C3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/7603/74_C3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/7603/74_C3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/7603/76_C3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/7603/76_C3_2_blue_red_green.jpg)
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8IUF8

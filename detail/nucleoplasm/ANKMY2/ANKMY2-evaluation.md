@@ -90,3 +90,38 @@ Source: https://www.proteinatlas.org/ENSG00000106524-ANKMY2/interaction
 | GUCY1B1 | Bioplex | false |
 | PLD2 | Biogrid | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TINF2 | BioGRID | 0 |
+| ACD | BioGRID | 0 |
+| POT1 | BioGRID | 0 |
+| AARS | BioGRID | 0 |
+| CTSC | BioGRID | 0 |
+| DHPS | BioGRID | 0 |
+| DTD1 | BioGRID | 0 |
+| LRSAM1 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q8IV38-F1-predicted_aligned_error_v6.png)
+
+### PubMed
+
+**Count: 18**
+
+| PMID | Title |
+|---|---|
+| 42035399 | A gain-of-function screening reveals dAnkmy2 as a potential mediator of lifespan extension and oxidative stress resistance in Drosophila melanogaster. |
+| 41701679 | Correction: Lack of ANKMY2 suppresses kidney cystogenesis in embryonic- and adult-onset polycystic kidney disease. |
+| 41474822 | Lack of ANKMY2 suppresses kidney cystogenesis in embryonic- and adult-onset polycystic kidney disease. |
+| 41165157 | Comprehensive Analysis of Hub Telomere-Related Genes and Synovial Immune Characteristics in Osteoarthritis. |
+| 40501923 | Kidney cystogenesis in embryonic- and adult-onset ADPKD is suppressed from lack of adenylyl cyclase targeting to cilia. |
+
+

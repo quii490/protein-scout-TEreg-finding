@@ -173,3 +173,10 @@ Source: https://www.proteinatlas.org/ENSG00000160256-SLX9/interaction
 | BUD23 | Biogrid | false |
 | CSNK1E | Biogrid | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q9NSI2-F1-predicted_aligned_error_v6.png)

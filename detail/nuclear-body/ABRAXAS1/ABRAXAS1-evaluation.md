@@ -85,6 +85,25 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 
 **Aliases observed**: ABRA1, CCDC98, FAM175A
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| BARD1 | STRING | 999 |
+| BABAM2 | STRING | 999 |
+| BABAM1 | STRING | 999 |
+| BRCC3 | STRING | 999 |
+| UIMC1 | STRING | 999 |
+| BRCA1 | STRING | 999 |
+| MDC1 | STRING | 923 |
+| RBBP8 | STRING | 896 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q6UWZ7-F1-predicted_aligned_error_v6.png)
+
 ## 5. AlphaFold / PAE / PDB
 
 ### AlphaFold

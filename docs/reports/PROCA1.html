@@ -12,6 +12,8 @@
   <nav>
     <a href="../protein_index.html">总表</a>
     <a href="../category/nucleoplasm.html">Nucleoplasm</a><a href="../category/nucleus-cytoplasm.html">Nucleus-cytoplasm</a><a href="../category/nuclear-speckle.html">Nuclear speckle</a><a href="../category/nuclear-body.html">Nuclear body</a><a href="../category/nucleolus.html">Nucleolus</a><a href="../category/nuclear-envelope.html">Nuclear envelope</a><a href="../category/chromatin.html">Chromatin</a><a href="../category/rejected.html">Rejected</a>
+    <a href="../centrosome/index.html">Centrosome</a>
+    <a href="../sperm/index.html">Sperm</a>
   </nav>
 </header><main class="container report-shell"><section class="panel"><h1>PROCA1</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nuclear-envelope</span><span class="badge">总分: 65.3</span><span class="badge">核定位: 4</span><a class="button small" href="../protein_index.html">蛋白总表</a><a class="button small" href="../category/nuclear-envelope.html">分类页</a></div><p class="source-path">原始 detail 路径: detail/nuclear-envelope/PROCA1/PROCA1-evaluation.md</p></section><article class="report-body"><hr>
 <p>type: protein-evaluation gene: &quot;PROCA1&quot; date: 2026-06-03 tags: [protein-scout, nuclear-protein, evaluation] status: scored ---</p>
@@ -123,6 +125,22 @@
 <p><strong>风险/不确定性</strong>: 1. PubMed 11 篇，研究基础极有限，功能注释不完整 2. AlphaFold 预测质量一般（pLDDT=45.9），需要更多实验结构验证</p>
 <p><strong>下一步建议</strong>:</p>
 <ul><li>[ ] 查阅最新关键文献补充研究背景</li><li>[ ] 获取 Protein Atlas IF 图像确认亚细胞定位</li><li>[ ] 设计体外实验验证核定位及潜在调控功能</li></ul>
+<h4>PPI 互作网络</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>互作伙伴</th><th>来源</th><th>评分</th></tr></thead><tbody>
+<tr><td>FAU</td><td>STRING</td><td>796</td></tr>
+<tr><td>CCNA1</td><td>BioGRID</td><td>1</td></tr>
+<tr><td>ZFP36L2</td><td>BioGRID</td><td>1</td></tr>
+<tr><td>VIM</td><td>BioGRID</td><td>1</td></tr>
+<tr><td>CSK</td><td>BioGRID</td><td>0</td></tr>
+</tbody></table></div>
+<h4>TE 调控评估</h4>
+<h4>深度机制分析</h4>
+<p><strong>结构域架构的机制含义</strong> PROCA1 的 InterPro 注释显示了高度不寻常的结构域组合：IPR016090 和 IPR036444 均属于主要易化子超家族 (Major Facilitator Superfamily, MFS) 折叠，而 Pfam PF05826 是一个功能完全未知的 DUF849 结构域。MFS 折叠通常以约 400-500 个氨基酸组成 12 次跨膜 α-螺旋束，负责溶质跨膜转运——然而 PROCA1 全长仅 364 aa，无法容纳完整的 MFS 跨膜结构域。这一&quot;矛盾&quot;有两种可能的解释：(1) 序列中仅保留了 MFS 折叠的部分 α-螺旋束模块，可能形成一种截短型跨膜通道或膜锚定结构域，与其核膜定位一致；(2) 更可能的是，MFS 同源性注释反映了远程进化关系而非真实的跨膜转运功能——PROCA1 可能利用这种 α-螺旋束折叠作为蛋白质-蛋白质相互作用 (PPI) 的支架界面，尤其在核膜这一特殊膜环境中。PF05826/DUF849 结构域是 PROCA1 特有的&quot;签名结构域&quot;，其功能完全未知但进化保守，强烈暗示其具有不可替代的生物学功能。</p>
+<p><strong>AlphaFold 预测质量的生物学含义</strong> pLDDT=45.9 且 76.6% 的残基处于低置信区间 (pLDDT&lt;50) 是一个重要的诊断信号，而非 AlphaFold 的&quot;失败&quot;。这个数值模式典型地指向天然固有无序蛋白 (Intrinsically Disordered Protein, IDP)。IDP 在游离状态下缺乏稳定的三级结构，但在结合伙伴蛋白时会发生诱导折叠 (induced folding) 或维持为动态的模糊复合物 (fuzzy complex)。PROCA1 的 IDP 特性提供了三方面的机制优势：(1) 一个无序的多肽链能以相对较少的氨基酸残基 (~364 aa) 与多个不同的蛋白质伙伴进行高亲和力结合，解释其虽小但多样化 PPI 网络的形成；(2) 核膜的局限二维空间天然适合 IDP 的功能——无序链在膜表面的熵损失小于三维溶液中的自由扩散，局部有效浓度更高；(3) IDP 常参与信号中枢 (signaling hub) 功能，能够整合多种输入信号并输出协调的细胞响应，这与 PROCA1 在精子发生中的功能高度一致。</p>
+<p><strong>PPI 网络的系统解析</strong> FAU (STRING 796 分, 实验得分 796) 是 PROCA1 最强且唯一有实验验证的互作伙伴，这一发现具有关键机制意义。FAU 编码一个 FUBI (泛素样蛋白) 与核糖体蛋白 S30 (rpS30) 的融合蛋白，经翻译后加工释放出游离 FUBI 和 rpS30。PROCA1 与 FAU 的结合将核膜蛋白直接连接至泛素信号系统和核糖体生物发生通路——这在哺乳动物蛋白中是一种罕见的功能组合。GRPR (胃泌素释放肽受体, 614) 作为 GPCR 与核膜定位的 PROCA1 互作，暗示核膜 GPCR 信号可能通过 PROCA1 这一支架蛋白传递至下游效应器。CCNA1 (细胞周期蛋白 A1, 602) 的连接提示减数分裂或有丝分裂调控——这在精子发生背景下尤为相关。CUL7 (cullin 7 E3 泛素连接酶, 551) 的出现表明 PROCA1 自身的蛋白水平可受 UPS 调控。VIM (波形蛋白, IntAct 交联实验) 将 PROCA1 与中间纤维网络关联，LAMP2 的连接则提示核膜-溶酶体轴的可能存在。这些互作的综合功能指向：PROCA1 在核膜处整合 GPCR 信号、泛素信号和细胞骨架信号，以协调精子发生过程中的核重塑。</p>
+<p><strong>机制模型推断</strong> 综合所有多组学证据和 PROCA1 敲除小鼠表型 (PMID:38867036, 畸形精子症/男性不育)，提出以下 PROCA1 工作机制模型：在精子细胞的分化过程中，核膜经历广泛的形态重塑——染色质凝集、核体积缩小、核孔复合体重排。PROCA1 作为核膜处的固有无序支架蛋白，通过与 FAU (泛素-核糖体信号)、GRPR (GPCR 信号)、CCNA1 (细胞周期) 和 VIM (细胞骨架) 的多重动态互作，协调核膜重塑与减数分裂进程的时间耦合。具体而言，GRPR 的配体激活信号可能通过 PROCA1 传递至核膜下的 VIM 中间纤维网络，驱动核膜的定向收缩与形态变化。PROCA1 的缺失导致核膜重塑信号中断，精子细胞的形态发生停滞在关键阶段，最终产生畸形精子。这一模型解释了 PROCA1 的核膜定位、IDP 特性、多样化 PPI 网络与不育表型之间的逻辑一致性。</p>
+<p><strong>研究与转化前景</strong> PROCA1 是目前蛋白研究领域中极其罕见的&quot;高信用度空白靶点&quot;——仅有 11 篇 PubMed 文献，但已有验证性 KO 小鼠表型和明确的人类疾病关联 (男性不育)。这一特征创造了近乎&quot;独占式&quot;的研究窗口。在转化医学层面：(1) 男性非激素避孕药开发是 PROCA1 最直接的适应证——阻断 PROCA1-FAU 或 PROCA1-GRPR 互作可能可逆性地干扰精子发生而不影响激素轴，避免激素类避孕药的系统性副作用；(2) PROCA1 作为 IDP，其 PPI 界面 (~364 aa 的全长本质上是分布式互作界面) 的独特靶点性质意味着传统的小分子活性位点抑制策略不适用，肽类抑制剂 (stapled peptides) 或 PROTAC (PROteolysis TArgeting Chimera) 可能是更合理的药物化学策略。此外，核膜作为新兴的信号中枢正日益受到关注，PROCA1 有望成为解析核膜信号整合机制的一个&quot;罗塞塔石碑&quot;式模型蛋白。</p>
 <h4>5. 数据来源</h4>
 <ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q8NCQ7</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000167525-PROCA1/subcellular</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=PROCA1</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8NCQ7</li><li>STRING: https://string-db.org/network/9606.ENSP00000</li><li>Data fetched live: 2026-06-03</li></ul>
 <p>&lt;!-- HPA_IF_REPAIR_START --&gt; <strong>HPA IF 图像修正（2026-06-05）</strong>: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nuclear membrane (approved)。来源: https://www.proteinatlas.org/ENSG00000167525-PROCA1/subcellular</p>

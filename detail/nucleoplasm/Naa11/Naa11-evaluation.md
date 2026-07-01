@@ -174,6 +174,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NAA16 | STRING | 998 |
+| NAA30 | STRING | 944 |
+| NAA10 | STRING | 935 |
+| NAA38 | STRING | 910 |
+| NAA40 | STRING | 708 |
+| KIFAP3 | BioGRID | 1 |
+| CDCA5 | BioGRID | 1 |
+| CDC25A | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9BSU3
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000156269-NAA11/subcellular

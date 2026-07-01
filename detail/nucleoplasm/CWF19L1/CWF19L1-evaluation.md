@@ -158,6 +158,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CDC5L | STRING | 977 |
+| SYF2 | STRING | 854 |
+| DBR1 | STRING | 771 |
+| ISY1 | STRING | 765 |
+| CWF19L2 | STRING | 765 |
+| XAB2 | STRING | 760 |
+| CCDC12 | STRING | 734 |
+| CRNKL1 | STRING | 704 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q69YN2
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000095485-CWF19L1/subcellular

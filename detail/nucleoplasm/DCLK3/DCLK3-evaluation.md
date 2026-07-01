@@ -118,7 +118,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 |---------|------|------|
 | 39071" | psi-mi:"MI:0096"(pull down) | pubmed:17721511|imex:IM-19952 |
 | CDK5 | psi-mi:"MI:0676"(tandem affinity purification) | pubmed:23602568|imex:IM-17935 |
-| BTBD9 | psi-mi:"MI:0018"(two hybrid) | pubmed:29534157|imex:IM-26152 |
+| B暂无数据9 | psi-mi:"MI:0018"(two hybrid) | pubmed:29534157|imex:IM-26152 |
 | SALL1 | psi-mi:"MI:0018"(two hybrid) | pubmed:29534157|imex:IM-26152 |
 | TRIM39 | psi-mi:"MI:0018"(two hybrid) | pubmed:29534157|imex:IM-26152 |
 | TADA3 | psi-mi:"MI:0018"(two hybrid) | pubmed:29534157|imex:IM-26152 |
@@ -166,6 +166,22 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| KLRB1 | STRING | 829 |
+| CDK5 | BioGRID | 1 |
+| MLKL | BioGRID | 1 |
+| PSMA3 | BioGRID | 0 |
+| RAMP1 | BioGRID | 0 |
+| ADM | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9C098

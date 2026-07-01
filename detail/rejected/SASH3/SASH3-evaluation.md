@@ -49,6 +49,40 @@ status: scored
 
 SASH3 is 0 amino acids in length (~0.0 kDa). Unknown. Score 0/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| APP | BioGRID | 1 |
+| HNRNPC | BioGRID | 1 |
+| HIST2H2BE | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/1085/1848_F2_6_cr5abb8a9b97446_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1085/1848_F2_20_cr5abb8a9b97f6e_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1085/1778_B2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1085/1778_B2_3_blue_red_green.jpg)
+
+
+### PubMed
+
+**Count: 31**
+
+| PMID | Title |
+|---|---|
+| 42327758 | SLy1-deficiency results in functional impaired, exhausted and senescent NK cells. |
+| 42313235 | Integrated bioinformatics and machine learning for shared diagnostic genes and mechanisms between periodontitis and psoriasis. |
+| 42190849 | Psychosocial stress in the first 25 years of life and cognitive function in midlife: the role of inflammation. |
+| 40947476 | Osteogenesis imperfecta, intellectual disability and recurrent infections in a male with a pathogenic SASH3 variant. |
+| 40510848 | Expanding the phenotypic and genetic landscape of congenital neutropenia through whole-exome and genome sequencing. |
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

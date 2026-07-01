@@ -54,6 +54,53 @@ status: scored
 
 SMCR8 is 937 amino acids in length (~105.0 kDa). Acceptable size (937 aa), suitable for routine experiments. Score 8/10.
 
+### 功能描述
+
+Component of the C9orf72-SMCR8 complex, a complex that has guanine nucleotide exchange factor (GEF) activity and regulates autophagy (PubMed:20562859, PubMed:27103069, PubMed:27193190, PubMed:27559131, PubMed:27617292, PubMed:28195531, PubMed:32303654). In the complex, C9orf72 and SMCR8 probably constitute the catalytic subunits that promote the exchange of GDP to GTP, converting inactive GDP-bound RAB8A and RAB39B into their active GTP-bound form, thereby promoting autophagosome maturation (Pub
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RB1CC1 | BioGRID | 0 |
+| MMS19 | BioGRID | 0 |
+| CRYAB | BioGRID | 0 |
+| IMPDH2 | BioGRID | 0 |
+| NTRK1 | BioGRID | 0 |
+| TMEM17 | BioGRID | 0 |
+| CDC16 | BioGRID | 0 |
+| IMPDH1 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/21557/190_D1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/21557/190_D1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/21557/189_D1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/21557/189_D1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/21557/191_D1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/21557/191_D1_2_blue_red_green.jpg)
+
+
+### PubMed
+
+**Count: 52**
+
+| PMID | Title |
+|---|---|
+| 42215790 | The C9orf72/SMCR8 complex maintains microglial homeostasis via RAB8A-ESCRT-mediated lysosomal repair. |
+| 39967738 | Transcriptome analysis of 3D4/21 cells expressing CSFV NS4B. |
+| 39659205 | Unraveling the molecular mechanisms of ALS: a network biology and structural modeling approach of investigating the impact of C9orf72 mutations. |
+| 39570437 | Exploring dysregulated miRNAs in ALS: implications for disease pathogenesis and early diagnosis. |
+| 38390945 | Rab11a Controls Cell Shape via C9orf72 Protein: Possible Relationships to Frontotemporal Dementia/Amyotrophic Lateral Sclerosis (FTDALS) Type 1. |
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

@@ -37,7 +37,7 @@ status: scored
 | 🏗️ 三维结构 | 7/10 | ×3 | 21 | AlphaFold pLDDT: 81.0 |
 | 🧬 调控结构域 | 6/10 | ×2 | 12 | UniProt domains: None identified |
 | 🔗 PPI | 4/10 | ×3 | 12 | 待细化（默认基线） |
-| ➕ 互证加分 | — | — | **+0** | 待补充 |
+| ➕ 互证加分 | — | — | **+0** | 暂无数据 |
 | **原始总分** |  |  | **129/183** |  |
 | **归一化总分** |  |  | **70.5/100** |  |
 
@@ -102,6 +102,20 @@ HPA 免疫荧光（IF）实验数据确认 P3H3 定位：
 **评价**: 基于 IntAct + UniProt GO-CC 综合分析。
 
 
+### TE 调控评估
+
+该蛋白的 GO-CC 注释中缺乏染色质/TE 沉默相关定位，TE 调控潜力较低。不建议作为 TE 调控优先靶标。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/43695/512_B11_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43695/512_B11_7_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43695/501_B11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43695/501_B11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43695/498_B11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43695/498_B11_2_blue_red_green.jpg)
+
+
 ### 5. 总体评价
 
 **推荐等级**: ⭐⭐⭐
@@ -121,9 +135,9 @@ HPA 免疫荧光（IF）实验数据确认 P3H3 定位：
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 <!-- DOMAIN_HUMANPPI_REPAIR_START -->
 ## Domain/SMART 与 humanPPI 补充（2026-06-07）

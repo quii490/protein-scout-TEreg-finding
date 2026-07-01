@@ -166,6 +166,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| BIN1 | STRING | 918 |
+| CYFIP2 | BioGRID | 1 |
+| HSPA4 | BioGRID | 1 |
+| TUBA1A | BioGRID | 1 |
+| BUB1B | BioGRID | 1 |
+| KHDRBS1 | BioGRID | 1 |
+| FASLG | BioGRID | 1 |
+| XRCC5 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/58216/1331_H6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/58216/1331_H6_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/58216/1752_D2_3_cr5804cb949ef68_blue_red_green.jpg)
+![](https://images.proteinatlas.org/58216/1752_D2_13_cr5804cb9ec37a1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/58216/1345_H6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/58216/1345_H6_3_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q6XZF7
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000107554-DNMBP/subcellular

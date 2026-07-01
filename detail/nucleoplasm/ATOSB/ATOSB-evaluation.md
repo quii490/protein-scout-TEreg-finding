@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | ATOSB / Atos homolog protein B / FAM214B / KIAA1539 |
+| 蛋白名称 | Atos homolog protein B |
 | 蛋白大小 | 538 aa / 56.7 kDa |
 | UniProt ID | Q7L5A3 |
 | 评估日期 | 2026-06-01 |
@@ -169,3 +170,19 @@ Source: https://www.proteinatlas.org/ENSG00000005238-ATOSB/interaction
 | CEP70 | Intact | false |
 | CYSRT1 | Intact | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/48831/784_G4_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/48831/784_G4_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/48831/751_G9_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/48831/751_G9_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/48831/740_G4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/48831/740_G4_4_blue_red_green.jpg)
+

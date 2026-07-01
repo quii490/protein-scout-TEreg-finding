@@ -173,6 +173,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ELAVL1 | BioGRID | 0 |
+| LARP4B | BioGRID | 0 |
+| MRRF | BioGRID | 0 |
+| FIS1 | BioGRID | 0 |
+| LEMD3 | BioGRID | 0 |
+| PPP1R12A | BioGRID | 0 |
+| MRPL14 | BioGRID | 0 |
+| MRPS28 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白缺乏核/染色质定位证据，TE 调控潜力较低。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/29761/271_D5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29761/271_D5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29761/270_D5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29761/270_D5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29761/272_D5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29761/272_D5_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9UKY7
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000091527-CDV3/subcellular

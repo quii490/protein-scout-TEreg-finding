@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 | LHX5 |
+| 蛋白名称 | LIM/homeobox protein Lhx5 |
 | 蛋白大小 | 402 aa |
 | UniProt ID | Q9H2C1 (LIM/homeobox protein Lhx5) |
 | 子定位分类 | nucleoplasm |
@@ -145,6 +146,23 @@ PPI 互证分析**:
 - [ ] 在 TEreg 相关细胞系中检测 LHX5 表达水平
 - [ ] 通过 co-IP/MS 鉴定 LHX5 的染色质调控相关互作伙伴
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CCNK | STRING | 840 |
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/53908/1993_A3_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/53908/1993_A3_6_blue_red_green.jpg)
+![](https://images.proteinatlas.org/53908/1921_C3_1_cr5cac831261483_blue_red_green.jpg)
+![](https://images.proteinatlas.org/53908/1921_C3_26_cr5cac831261985_blue_red_green.jpg)
+![](https://images.proteinatlas.org/53908/1956_G11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/53908/1956_G11_3_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9H2C1
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=LHX5%5BTitle/Abstract%5D
@@ -157,9 +175,9 @@ PPI 互证分析**:
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[LHX5-PAE.png]]
 

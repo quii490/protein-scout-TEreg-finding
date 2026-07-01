@@ -150,6 +150,32 @@ PPI: IntAct + STRING 双源 (+0.5)
 - [ ] 功能研究: 基于 PPI 网络设计功能实验
 - [ ] 结构分析: AlphaFold 预测为基础，设计突变实验
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RANGAP1 | STRING | 846 |
+| RANBP2 | STRING | 827 |
+| UBE2I | STRING | 795 |
+| RGPD2 | STRING | 766 |
+| RAN | STRING | 747 |
+| TC4 | STRING | 747 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/14394/172_D12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/14394/172_D12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/14394/121_D12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/14394/121_D12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/14394/123_D12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/14394/123_D12_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=NEMP1
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000166881-NEMP1
@@ -162,9 +188,9 @@ PPI: IntAct + STRING 双源 (+0.5)
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[NEMP1-PAE.png]]
 

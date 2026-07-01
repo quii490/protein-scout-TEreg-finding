@@ -170,6 +170,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MORF4L1 | STRING | 999 |
+| SIN3A | STRING | 998 |
+| SIN3B | STRING | 996 |
+| HDAC1 | STRING | 987 |
+| HDAC2 | STRING | 985 |
+| ARID4B | STRING | 981 |
+| MORF4L2 | STRING | 981 |
+| RBBP7 | STRING | 972 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96QT6
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000109118-PHF12/subcellular

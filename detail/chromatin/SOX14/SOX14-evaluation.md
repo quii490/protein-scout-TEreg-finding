@@ -169,6 +169,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SOX2 | STRING | 740 |
+| NAIF1 | BioGRID | 1 |
+| CRX | BioGRID | 1 |
+| VENTX | BioGRID | 1 |
+| FOXH1 | BioGRID | 1 |
+| ZDHHC17 | BioGRID | 0 |
+| ROR2 | BioGRID | 0 |
+| TEX37 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O95416
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000168875-SOX14/subcellular

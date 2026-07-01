@@ -1,18 +1,18 @@
 ---
 type: protein-evaluation
-gene: "KBTBD6"
+gene: "KB暂无数据6"
 date: 2026-06-03
 tags: [protein-scout, nuclear-protein, evaluation]
 status: scored
 ---
 
-## KBTBD6 核蛋白评估报告 (Full Re-evaluation)
+## KB暂无数据6 核蛋白评估报告 (Full Re-evaluation)
 
 ### 1. 基本信息
 
 | 项目 | 内容 |
 |------|------|
-| 基因名 / 别名 | KBTBD6 |
+| 基因名 / 别名 | KB暂无数据6 |
 | 蛋白名称 | Kelch repeat and BTB domain-containing protein 6 |
 | 蛋白大小 | 674 aa / 76.1 kDa |
 | UniProt ID | Q86V97 |
@@ -65,9 +65,9 @@ status: scored
 
 **关键文献**:
 1. Identification of potential crucial genes in monocytes for atherosclerosis using bioinformatics analysis.. *The Journal of international medical research*. PMID: 32314637
-2. Imprinting at the KBTBD6 locus involves species-specific maternal methylation and monoallelic expression in livestock animals.. *Journal of animal science and biotechnology*. PMID: 37817239
+2. Imprinting at the KB暂无数据6 locus involves species-specific maternal methylation and monoallelic expression in livestock animals.. *Journal of animal science and biotechnology*. PMID: 37817239
 3. Human LC3 and GABARAP subfamily members achieve functional specificity via specific structural modulations.. *Autophagy*. PMID: 30982432
-4. The KBTBD6/7-DRD2 axis regulates pituitary adenoma sensitivity to dopamine agonist treatment.. *Acta neuropathologica*. PMID: 32572597
+4. The KB暂无数据6/7-DRD2 axis regulates pituitary adenoma sensitivity to dopamine agonist treatment.. *Acta neuropathologica*. PMID: 32572597
 5. Regular football training down-regulates miR-1303 muscle expression in veterans.. *European journal of applied physiology*. PMID: 34212217
 
 **评价**: 极度新颖，几乎未被系统研究（PubMed ≤20篇）。
@@ -103,10 +103,10 @@ status: scored
 
 | Partner | Combined Score | Experimental | 功能类别 |
 |---------|---------------|--------------|---------|
-| KBTBD7 | 0.995 | 0.809 | — |
+| KB暂无数据7 | 0.995 | 0.809 | — |
 | CUL3 | 0.991 | 0.649 | — |
 | RBX1 | 0.940 | 0.329 | — |
-| KBTBD8 | 0.920 | 0.045 | — |
+| KB暂无数据8 | 0.920 | 0.045 | — |
 | KLHL42 | 0.915 | 0.062 | — |
 | KLHL9 | 0.914 | 0.000 | — |
 | KCTD17 | 0.914 | 0.069 | — |
@@ -124,7 +124,7 @@ status: scored
 | GABARAPL2 | psi-mi:"MI:0096"(pull down) | pubmed:20562859|imex:IM-15184 |
 | MAP1LC3B | psi-mi:"MI:0096"(pull down) | pubmed:20562859|imex:IM-15184 |
 | MAP1LC3C | psi-mi:"MI:0096"(pull down) | pubmed:20562859|imex:IM-15184 |
-| KBTBD7 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:20562859|imex:IM-15184 |
+| KB暂无数据7 | psi-mi:"MI:0007"(anti tag coimmunoprecipitation) | pubmed:20562859|imex:IM-15184 |
 | CUL3 | psi-mi:"MI:0676"(tandem affinity purification) | pubmed:21145461|imex:IM-18651| |
 | NEDD8 | psi-mi:"MI:0676"(tandem affinity purification) | pubmed:21145461|imex:IM-18651| |
 | COPS5 | psi-mi:"MI:0676"(tandem affinity purification) | pubmed:21145461|imex:IM-18651| |
@@ -157,7 +157,7 @@ status: scored
 **推荐等级**: ⭐⭐⭐⭐
 
 **核心优势**:
-1. KBTBD6 — Kelch repeat and BTB domain-containing protein 6，极度新颖，几乎未被系统研究（PubMed ≤20篇）。
+1. KB暂无数据6 — Kelch repeat and BTB domain-containing protein 6，极度新颖，几乎未被系统研究（PubMed ≤20篇）。
 2. 蛋白大小674 aa，大小适中（200-800 aa），适合常规生化实验和结构解析。
 
 **风险/不确定性**:
@@ -170,10 +170,28 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| KB暂无数据7 | STRING | 995 |
+| CUL3 | STRING | 991 |
+| RBX1 | STRING | 940 |
+| KLHL8 | STRING | 912 |
+| TNFAIP1 | STRING | 909 |
+| SPOPL | STRING | 909 |
+| SPOP | STRING | 908 |
+| KLHL22 | STRING | 907 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q86V97
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000165572-KBTBD6/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=KBTBD6
+- Protein Atlas: https://www.proteinatlas.org/ENSG00000165572-KB暂无数据6/subcellular
+- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=KB暂无数据6
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q86V97
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
@@ -197,14 +215,14 @@ status: scored
 | Pfam | PF07707;PF00651;PF20165;PF01344; |
 
 ### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000165572-KBTBD6/interaction
+Source: https://www.proteinatlas.org/ENSG00000165572-KB暂无数据6/interaction
 
 | Partner | Datasets | AF3/HPA structure |
 |---|---|:--:|
 | GABARAP | Intact, Biogrid | true |
 | GABARAPL1 | Intact, Biogrid | true |
 | GABARAPL2 | Intact, Biogrid | true |
-| KBTBD7 | Intact, Biogrid, Bioplex | true |
+| KB暂无数据7 | Intact, Biogrid, Bioplex | true |
 | MAP1LC3B | Intact, Biogrid | true |
 | ABT1 | Bioplex | false |
 | APOBEC3C | Bioplex | false |

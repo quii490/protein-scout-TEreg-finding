@@ -172,6 +172,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| GPKOW | STRING | 999 |
+| SF3B3 | STRING | 999 |
+| SAP130 | STRING | 999 |
+| SNRNP200 | STRING | 999 |
+| SF3B2 | STRING | 999 |
+| SF3B1 | STRING | 999 |
+| XAB2 | STRING | 999 |
+| EFTUD2 | STRING | 999 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/51455/786_C1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/51455/786_C1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/51455/840_F9_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/51455/840_F9_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/51455/781_C1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/51455/781_C1_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O60231
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000204560-DHX16/subcellular

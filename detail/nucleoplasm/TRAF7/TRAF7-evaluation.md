@@ -170,6 +170,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| UBA52 | STRING | 967 |
+| MAP3K3 | STRING | 884 |
+| MAZ | STRING | 793 |
+| UBE2E2 | STRING | 774 |
+| UBE2L6 | BioGRID | 1 |
+| UBE2D1 | BioGRID | 1 |
+| UBE2D2 | BioGRID | 1 |
+| UBE2D4 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/40935/2208_E1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40935/2208_E1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40935/2162_B12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40935/2162_B12_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40935/1949_B8_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40935/1949_B8_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q6Q0C0
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000131653-TRAF7/subcellular

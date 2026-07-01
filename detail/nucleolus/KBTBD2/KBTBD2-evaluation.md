@@ -1,18 +1,18 @@
 ---
 type: protein-evaluation
-gene: "KBTBD2"
+gene: "KB暂无数据2"
 date: 2026-06-03
 tags: [protein-scout, nuclear-protein, evaluation]
 status: scored
 ---
 
-## KBTBD2 核蛋白评估报告 (Full Re-evaluation)
+## KB暂无数据2 核蛋白评估报告 (Full Re-evaluation)
 
 ### 1. 基本信息
 
 | 项目 | 内容 |
 |------|------|
-| 基因名 / 别名 | KBTBD2 / BKLHD1, KIAA1489 |
+| 基因名 / 别名 | KB暂无数据2 / BKLHD1, KIAA1489 |
 | 蛋白名称 | Kelch repeat and BTB domain-containing protein 2 |
 | 蛋白大小 | 623 aa / 71.3 kDa |
 | UniProt ID | Q8IY47 |
@@ -65,8 +65,8 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 **关键文献**:
 1. Long non-coding RNA NEAT1 mediated RPRD1B stability facilitates fatty acid metabolism and lymph node metastasis via c-Jun/c-Fos/SREBP1 axis in gastric cancer.. *Journal of experimental & clinical cancer research : CR*. PMID: 36171622
 2. Systematic druggable genome-wide mendelian randomization identifies therapeutic targets for childhood asthma.. *Medicine*. PMID: 41398767
-3. Insulin resistance and diabetes caused by genetic or diet-induced KBTBD2 deficiency in mice.. *Proceedings of the National Academy of Sciences of the United States of America*. PMID: 27708159
-4. KBTBD2 promotes proliferation and migration of gastric cancer via activating EGFR signaling pathway.. *Pathology, research and practice*. PMID: 38237399
+3. Insulin resistance and diabetes caused by genetic or diet-induced KB暂无数据2 deficiency in mice.. *Proceedings of the National Academy of Sciences of the United States of America*. PMID: 27708159
+4. KB暂无数据2 promotes proliferation and migration of gastric cancer via activating EGFR signaling pathway.. *Pathology, research and practice*. PMID: 38237399
 5. Integrative Computational Framework, Dyscovr, Links Mutated Driver Genes to Expression Dysregulation Across 19 Cancer Types.. *bioRxiv : the preprint server for biology*. PMID: 39605479
 
 **评价**: 极度新颖，几乎未被系统研究（PubMed ≤20篇）。
@@ -151,7 +151,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 **推荐等级**: ⭐⭐⭐⭐
 
 **核心优势**:
-1. KBTBD2 — Kelch repeat and BTB domain-containing protein 2，极度新颖，几乎未被系统研究（PubMed ≤20篇）。
+1. KB暂无数据2 — Kelch repeat and BTB domain-containing protein 2，极度新颖，几乎未被系统研究（PubMed ≤20篇）。
 2. 蛋白大小623 aa，大小适中（200-800 aa），适合常规生化实验和结构解析。
 
 **风险/不确定性**:
@@ -164,16 +164,34 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CUL3 | STRING | 740 |
+| UBXN7 | BioGRID | 1 |
+| NXF1 | BioGRID | 1 |
+| FMR1 | BioGRID | 1 |
+| PIK3R1 | BioGRID | 1 |
+| LMO1 | BioGRID | 1 |
+| ALOX15B | BioGRID | 0 |
+| DYNC1I2 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8IY47
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000170852-KBTBD2/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=KBTBD2
+- Protein Atlas: https://www.proteinatlas.org/ENSG00000170852-KB暂无数据2/subcellular
+- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=KB暂无数据2
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8IY47
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
 
 <!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000170852-KBTBD2/subcellular
+**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000170852-KB暂无数据2/subcellular
 
 ![](https://images.proteinatlas.org/21133/146_E2_1_blue_red_green.jpg)
 ![](https://images.proteinatlas.org/21133/146_E2_2_blue_red_green.jpg)
@@ -202,7 +220,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 | Pfam | PF07707;PF00651;PF01344; |
 
 ### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000170852-KBTBD2/interaction
+Source: https://www.proteinatlas.org/ENSG00000170852-KB暂无数据2/interaction
 
 | Partner | Datasets | AF3/HPA structure |
 |---|---|:--:|

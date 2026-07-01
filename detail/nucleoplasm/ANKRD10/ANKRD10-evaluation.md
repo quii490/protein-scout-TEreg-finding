@@ -87,3 +87,38 @@ Source: https://www.proteinatlas.org/ENSG00000088448-ANKRD10/interaction
 | TAB2 | Opencell | false |
 | TRIP6 | Opencell | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ELAVL1 | BioGRID | 0 |
+| APPBP2 | BioGRID | 0 |
+| NXF1 | BioGRID | 0 |
+| DPP9 | BioGRID | 0 |
+| CHRNA9 | BioGRID | 0 |
+| PITX1 | BioGRID | 0 |
+| TRIP13 | BioGRID | 0 |
+| CSTF2 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q9NXR5-F1-predicted_aligned_error_v6.png)
+
+### PubMed
+
+**Count: 7**
+
+| PMID | Title |
+|---|---|
+| 40969342 | A comprehensive analysis of allele-specific expression and transcriptomic profiling in pig limbic and endocrine tissues. |
+| 40909968 | Developing a prognostic model of glutamine metabolism-related genes associated with clinical features and immune status in melanoma. |
+| 40044952 | RBPMS inhibits bladder cancer metastasis by downregulating MYC pathway through alternative splicing of ANKRD10. |
+| 38284893 | Development and validation of a combined cuproptosis and immunogenic cell death prognostic model for diffuse large B-cell lymphoma. |
+| 33934391 | A ten N6-methyladenosine-related long non-coding RNAs signature predicts prognosis of triple-negative breast cancer. |
+
+

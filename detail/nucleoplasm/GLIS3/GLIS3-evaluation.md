@@ -163,49 +163,38 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q8NEA6
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000107249-GLIS3/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=GLIS3
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8NEA6
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000107249-GLIS3/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SUFU | STRING | 929 |
+| WWTR1 | STRING | 763 |
+| NEUROD1 | STRING | 752 |
+| NEUROG3 | STRING | 751 |
+| DHX9 | STRING | 743 |
+| SOX2 | BioGRID | 1 |
+| ITCH | BioGRID | 1 |
+| PRMT5 | BioGRID | 1 |
 
-![](https://images.proteinatlas.org/56426/2136_D11_52_red_green.jpg)
-![](https://images.proteinatlas.org/56426/2136_D11_6_red_green.jpg)
-![](https://images.proteinatlas.org/56426/2161_H3_32_red_green.jpg)
-![](https://images.proteinatlas.org/56426/2161_H3_4_red_green.jpg)
-![](https://images.proteinatlas.org/56426/2241_F5_37_red_green.jpg)
-![](https://images.proteinatlas.org/56426/2241_F5_51_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q8NEA6-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/GLIS3
+
+### PubMed
+
+**Count: 271**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q8NEA6 |
-| SMART | SM00355; |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR043359;IPR056436;IPR036236;IPR013087; |
-| Pfam | PF00096;PF23561; |
+| 42327870 | A Novel Renal Manifestation in GLIS3-Related Disorder in a Pediatric Patient With Cystic Nephroma. |
+| 42255230 | GLIS3 drives epithelial-mesenchymal transition and cancer stem-like traits in stomach adenocarcinoma via TGFBR3-Hedgehog signaling. |
+| 42221404 | Coexistence of Hyalinizing Trabecular Tumor and Papillary Thyroid Carcinoma: A Diagnostic Challenge. |
+| 42074236 | Decoding Prognostic Signatures in Brain Metastatic Non-Small-Cell Lung Cancer via Integrated Multi-Omics and Network Analysis. |
+| 42048185 | GLIS3 marks a neural-like progenitor cell state that drives metastasis in pancreatic ductal adenocarcinoma. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000107249-GLIS3/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| SUFU | Intact, Biogrid | true |
-| CLNK | Intact | false |
-| ITCH | Biogrid | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

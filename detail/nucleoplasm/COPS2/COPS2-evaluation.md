@@ -158,43 +158,38 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/P61201
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000166200-COPS2/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=COPS2
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/P61201
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| COPS3 | STRING | 999 |
+| COPS4 | STRING | 999 |
+| COPS8 | STRING | 999 |
+| COPS7B | STRING | 999 |
+| COPS5 | STRING | 999 |
+| GPS1 | STRING | 999 |
+| COPS6 | STRING | 999 |
+| COPS7A | STRING | 999 |
 
-![](https://alphafold.ebi.ac.uk/files/AF-P61201-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### TE 调控评估
 
-### SMART / UniProt domain
-| Source | Data |
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+HPA 检索: https://www.proteinatlas.org/search/COPS2
+
+### PubMed
+
+**Count: 67**
+
+| PMID | Title |
 |---|---|
-| UniProt | P61201 |
-| SMART | SM00753;SM00088; |
-| UniProt Domain [FT] | DOMAIN 254..416; /note="PCI"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU01185" |
-| InterPro | IPR050871;IPR058796;IPR000717;IPR011990;IPR036390; |
-| Pfam | PF25983;PF01399; |
+| 42325795 | Machine learning integration of bulk and single-cell RNA-Seq data reveals COPS2 as a central immune regulator in deep vein thrombosis. |
+| 41933527 | Genome-wide association study of molecular markers related to keel length in a specialized strain of yellow feathered broilers. |
+| 41269859 | COPS2 coordinates biphasic autophagy hijacking for non-lytic propagation of enveloped RNA viruses. |
+| 40745068 | Multi-omics identification of circulating protein biomarkers for intervertebral disc degeneration using Mendelian randomization and scRNA-seq. |
+| 40524221 | Prognostic analysis of bladder cancer with neddylation-related genes. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000166200-COPS2/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| COPS3 | Intact, Biogrid | true |
-| COPS4 | Intact, Biogrid | true |
-| COPS5 | Intact, Biogrid | true |
-| COPS6 | Intact, Biogrid | true |
-| COPS7A | Intact, Biogrid | true |
-| COPS7B | Intact, Biogrid | true |
-| COPS8 | Intact, Biogrid | true |
-| DDB1 | Biogrid, Opencell | true |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

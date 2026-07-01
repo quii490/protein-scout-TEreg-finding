@@ -170,6 +170,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SNRPD3 | STRING | 999 |
+| PHF5A | STRING | 999 |
+| SF3A2 | STRING | 999 |
+| SNRPE | STRING | 999 |
+| SNRPB | STRING | 999 |
+| SNRPF | STRING | 999 |
+| SF3B3 | STRING | 999 |
+| SAP130 | STRING | 999 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q68DK7
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000188895-MSL1/subcellular

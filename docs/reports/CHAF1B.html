@@ -12,6 +12,8 @@
   <nav>
     <a href="../protein_index.html">总表</a>
     <a href="../category/nucleoplasm.html">Nucleoplasm</a><a href="../category/nucleus-cytoplasm.html">Nucleus-cytoplasm</a><a href="../category/nuclear-speckle.html">Nuclear speckle</a><a href="../category/nuclear-body.html">Nuclear body</a><a href="../category/nucleolus.html">Nucleolus</a><a href="../category/nuclear-envelope.html">Nuclear envelope</a><a href="../category/chromatin.html">Chromatin</a><a href="../category/rejected.html">Rejected</a>
+    <a href="../centrosome/index.html">Centrosome</a>
+    <a href="../sperm/index.html">Sperm</a>
   </nav>
 </header><main class="container report-shell"><section class="panel"><h1>CHAF1B</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">总分: 73.8</span><span class="badge">核定位: 8</span><a class="button small" href="../protein_index.html">蛋白总表</a><a class="button small" href="../category/nucleoplasm.html">分类页</a></div><p class="source-path">原始 detail 路径: detail/nucleoplasm/CHAF1B/CHAF1B-evaluation.md</p></section><article class="report-body"><hr>
 <p>type: protein-evaluation gene: &quot;CHAF1B&quot; date: 2026-06-01 tags: [protein-scout, nucleoplasm, evaluation] status: scored ---</p>
@@ -89,6 +91,20 @@
 <p>PPI 网络以 CAF-1 染色质组装复合体（CHAF1A-RBBP4-ASF1A/B）为核心，实验互作高置信度（exp &gt;0.89, Co-IP/Y2H 验证）。Histone H3/H4 (H3C1/H4C6) 的 Co-IP 验证充分。与 PCNA 互作（0.884 exp）支持其 DNA replication-coupled chromatin assembly 功能。三条数据源（STRING + IntAct + UniProt）高度一致。</p>
 <h4>4. 总体评价</h4>
 <p>CHAF1B 是 chromatin assembly factor 1 的核心 p60 亚基，在 DNA 复制耦联核小体组装中发挥基础性染色质功能。优势：染色质定位高度特异（GO chromatin IDA + HPA Nucleoplasm sole），调控结构域与染色质直接相关（WD40 repeats + histone chaperone），PPI 网络丰富且三源一致（CHAF1A-RBBP4-ASF1A/B 核心复合体），文献量中低（strict=36）。主要不足：分子量中等偏大 (61.5 kDa)，AlphaFold pLDDT 中等 (74.7)，28.4% 无序区域。综合评分在 nucleoplasm 类别中具有较强的竞争力。</p>
+<h4>PPI 互作网络</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>互作伙伴</th><th>来源</th><th>评分</th></tr></thead><tbody>
+<tr><td>CHAF1A</td><td>STRING</td><td>999</td></tr>
+<tr><td>RBBP4</td><td>STRING</td><td>999</td></tr>
+<tr><td>ASF1B</td><td>STRING</td><td>993</td></tr>
+<tr><td>ASF1A</td><td>STRING</td><td>988</td></tr>
+<tr><td>PCNA</td><td>STRING</td><td>933</td></tr>
+<tr><td>HIST1H4H</td><td>STRING</td><td>929</td></tr>
+<tr><td>HEL25</td><td>STRING</td><td>911</td></tr>
+<tr><td>CBX5</td><td>STRING</td><td>911</td></tr>
+</tbody></table></div>
+<h4>TE 调控评估</h4>
+<p>该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。</p>
 <h4>5. 数据来源</h4>
 <ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q13112</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q13112</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CHAF1B</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000159259-CHAF1B</li></ul>
 <p><strong>PAE 图像说明</strong>: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。</p>

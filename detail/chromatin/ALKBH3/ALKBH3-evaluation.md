@@ -59,7 +59,7 @@ status: scored
 #### 3.2 蛋白大小评估
 
 **已知复合体成员** (GO Cellular Component):
-- （待补充：通过 GO 数据库查询该蛋白所属的已知复合体）
+- （暂无数据：通过 GO 数据库查询该蛋白所属的已知复合体）
 **评价**: 286 aa 处于200-300 aa范围，在评分尺度边缘。蛋白紧凑，适合重组表达、纯化和生化实验。分子量33.4 kDa便于SDS-PAGE检测和western blot。较大的结构域(172-278, 107aa)为核心催化区。评分8分。
 
 #### 3.3 研究现状
@@ -216,6 +216,20 @@ ALKBH3含有一个经典的Fe2OG/α-KG依赖的双加氧酶结构域, 属于催�
 **下一步建议**:
 - [ ] 深入分析ALKBH3在chromatin context中的潜在功能(与KDM6A/B、ARID4A/B的功能关联)
 - [ ] 评估其在TE调控或DNA去甲基化在重复序列中的角色
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ALKBH1 | STRING | 990 |
+| ASCC3 | STRING | 978 |
+| ASCC2 | STRING | 957 |
+| ASCC1 | STRING | 946 |
+| TRIP4 | STRING | 928 |
+| FTO | STRING | 816 |
+| ALKBH8 | STRING | 770 |
+| ALKBH5 | STRING | 718 |
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96Q83

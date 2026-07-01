@@ -161,6 +161,24 @@ pm: 17
 - [ ] 解析 RIPPLY1-TLE 复合体结构 (TLE 已有良好结构基础)
 - [ ] 在肝癌模型中验证 RIPPLY1 是否调控 TE 转录
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TLE5 | STRING | 825 |
+| TLE1 | STRING | 819 |
+| TLE2 | STRING | 803 |
+| TLE4 | STRING | 798 |
+| TLE3 | STRING | 745 |
+| REL | BioGRID | 1 |
+| TRAF2 | BioGRID | 1 |
+| RBPMS | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=RIPPLY1
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000147223-RIPPLY1

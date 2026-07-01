@@ -153,6 +153,34 @@ IntAct 实验互作: 0 条
 - [ ] 功能研究: 基于 PPI 网络设计功能实验
 - [ ] 结构分析: 基于 PDB 结构设计功能实验
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| EPOR | BioGRID | 0 |
+| CUL3 | BioGRID | 0 |
+| KPNA1 | BioGRID | 0 |
+| NOS3 | BioGRID | 0 |
+| DDX42 | BioGRID | 0 |
+| HECW2 | BioGRID | 0 |
+| WWOX | BioGRID | 0 |
+| POLL | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/43464/472_G7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43464/472_G7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43464/469_G7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43464/469_G7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43464/476_G7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/43464/476_G7_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=NOSIP
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000142546-NOSIP
@@ -165,9 +193,9 @@ IntAct 实验互作: 0 条
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[NOSIP-PAE.png]]
 

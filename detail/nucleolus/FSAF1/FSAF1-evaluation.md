@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | FSAF1 / C1orf131, cPERP-A |
+| 蛋白名称 | 40S small subunit processome assembly factor 1 |
 | 蛋白大小 | 293 aa / 32.6 kDa |
 | UniProt ID | Q8NDD1 |
 | 评估日期 | 2026-05-31 |

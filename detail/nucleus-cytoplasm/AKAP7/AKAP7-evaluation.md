@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | AKAP7 / AKAP18 |
+| 蛋白名称 | A-kinase anchor protein 7 isoform gamma |
 | 蛋白大小 | 348 aa / 39.5 kDa |
 | UniProt ID | Q9P0M2 |
 | 蛋白全名 | A-kinase anchor protein 7 isoform gamma |
@@ -131,6 +132,24 @@ AKAP7 是经典 A-kinase anchoring protein，将 PKA 靶向特异性亚细胞位
 **下一步建议**:
 - [ ] 确认 AKAP7 在目标细胞中的核质分布
 - [ ] 探索非 PKA 伙伴 (YBEY/SPA17) 的功能意义
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| DAP3 | STRING | 831 |
+| AKAP6 | STRING | 809 |
+| RPS11 | STRING | 793 |
+| RPL13 | STRING | 769 |
+| MRPL46 | STRING | 758 |
+| PRPF3 | STRING | 706 |
+| USP4 | BioGRID | 1 |
+| MEPCE | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9P0M2

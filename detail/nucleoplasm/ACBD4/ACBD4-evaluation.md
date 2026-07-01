@@ -76,6 +76,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 
 **Research Volume Assessment**: Moderate but focused literature (15 papers). Research centers on peroxisome biology and lipid metabolism. The JBC paper (PMID:37414147) is the definitive functional characterization. No paper specifically addresses nuclear localization or nuclear function. Gene symbol is unique.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| APP | BioGRID | 0 |
+| VAPB | BioGRID | 0 |
+| VAPA | BioGRID | 0 |
+| MEOX2 | BioGRID | 0 |
+| CRX | BioGRID | 0 |
+| MEOX1 | BioGRID | 0 |
+| REL | BioGRID | 0 |
+| KIF9 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ## 5. AlphaFold / PAE / PDB
 
 ### AlphaFold

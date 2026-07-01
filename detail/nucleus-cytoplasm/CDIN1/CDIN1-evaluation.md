@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | CDIN1 / C15orf41 |
+| 蛋白名称 | CDAN1-interacting nuclease 1 |
 | 蛋白全名 | CDAN1-interacting nuclease 1 |
 | 蛋白大小 | 281 aa / 32.3 kDa |
 | UniProt ID | Q9Y2V0 |
@@ -95,6 +96,10 @@ STRING top 为 CDAN1 + 组蛋白伴侣 ASF1A/ASF1B。ASF1B 在 IntAct 中有 ant
 ### 4. 总体评价
 CDIN1 是一个实验确认的核-胞质蛋白，AlphaFold 结构预测质量极高（pLDDT 93.5），功能指向红细胞生成与组蛋白代谢。PPI 网络包含 CDAN1、ASF1A、ASF1B 等染色质相关因子。PubMed strict=7，高度新颖。主要局限是无 PDB 实验结构和调控结构域注释有限（仅 IPR029404/PF14811）。建议作为中等优先级核-胞质候选。
 ![[CDIN1-PAE.png]]
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9Y2V0

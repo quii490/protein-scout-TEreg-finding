@@ -75,6 +75,24 @@ HPA IF 原图可获取。MT1H exhibits a distinctive immunofluorescence pattern:
 
 **Aliases observed**: MT1
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MT1E | STRING | 999 |
+| MT1 | STRING | 999 |
+| MT1G | STRING | 999 |
+| MT1F | STRING | 992 |
+| MT1M | STRING | 869 |
+| MT1HL1 | STRING | 864 |
+| MT1X | STRING | 860 |
+| MT2A | STRING | 788 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
 ## 5. AlphaFold / PAE / PDB
 
 ### AlphaFold

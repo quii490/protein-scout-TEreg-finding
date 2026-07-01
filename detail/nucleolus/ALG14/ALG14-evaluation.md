@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | ALG14 |
+| 蛋白名称 | UDP-N-acetylglucosamine transferase subunit ALG14 |
 | 蛋白大小 | 216 aa / 24.2 kDa |
 | UniProt ID | Q96F25 |
 | 蛋白全名 | UDP-N-acetylglucosamine transferase subunit ALG14 |
@@ -130,6 +131,24 @@ PPI 网络完全集中于 N-糖基化途径，ALG13 和 ALG8 有实验互作证�
 - [ ] 独立实验验证 ALG14 的核仁定位
 - [ ] 解析 HPA 核仁信号与 ER 标记的共定位
 - [ ] 评估核仁 ALG14 是否具有非经典功能
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ALG1 | STRING | 979 |
+| ALG8 | STRING | 726 |
+| GFPT1 | STRING | 706 |
+| HAUS7 | BioGRID | 1 |
+| FADS3 | BioGRID | 1 |
+| TSPAN1 | BioGRID | 1 |
+| LRTM2 | BioGRID | 0 |
+| CD53 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96F25

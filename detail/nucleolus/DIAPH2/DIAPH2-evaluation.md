@@ -158,52 +158,38 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/O60879
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000147202-DIAPH2/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=DIAPH2
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/O60879
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Endoplasmic reticulum (approved)。来源: https://www.proteinatlas.org/ENSG00000147202-DIAPH2/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RHOA | STRING | 955 |
+| DIAPH1 | STRING | 906 |
+| WDHD1 | STRING | 768 |
+| FMR1 | STRING | 744 |
+| FIGLA | STRING | 715 |
+| FOXL2 | STRING | 706 |
+| TCERG1 | BioGRID | 1 |
+| POLR1A | BioGRID | 1 |
 
-![](https://images.proteinatlas.org/5647/4_H8_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/5647/4_H8_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/5647/5_H8_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/5647/5_H8_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/5647/6_H8_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/5647/6_H8_2_blue_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-O60879-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白的 GO-CC 注释中缺乏染色质/TE 沉默相关定位，TE 调控潜力较低。不建议作为 TE 调控优先靶标。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/DIAPH2
+
+### PubMed
+
+**Count: 104**
+
+| PMID | Title |
 |---|---|
-| UniProt | O60879 |
-| SMART | SM01139;SM01140;SM00498; |
-| UniProt Domain [FT] | DOMAIN 98..464; /note="GBD/FH3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00579"; DOMAIN 549..623; /note="FH1"; DOMAIN 628..1028; /note="FH2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00774"; DOMAIN 1051..1081; /note="DAD"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00577" |
-| InterPro | IPR011989;IPR016024;IPR014767;IPR044933;IPR015425;IPR042201;IPR010472;IPR051412;IPR014768;IPR010473; |
-| Pfam | PF06367;PF06371;PF02181; |
+| 41851243 | Isobaric quantitative proteomics reveals altered extracellular matrix, cytoskeletal, and degradation pathways in glaucomatous trabecular meshwork cell |
+| 40835298 | Resolving structural variations missed by short-read sequencing uncovers their pathogenicity. |
+| 40282394 | Maternal Uniparental Isodisomy of Chromosome 6: A Novel Case of Teratoma and Autism Spectrum Disorder with a Diagnostic and Management Framework. |
+| 40150870 | Genome-Wide Analysis of Genetic Predispositions Linked to Damaged Membranes and Impaired Fertility as Indicators of Compromised Sperm-Egg Interaction  |
+| 39196658 | mDia2 is an important mediator of MRTF-A-dependent regulation of breast cancer cell migration. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000147202-DIAPH2/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| PFN1 | Biogrid, Opencell | true |
-| CDC42 | Biogrid | false |
-| ESD | Opencell | false |
-| RAB11A | Biogrid | false |
-| RHOB | Biogrid | false |
-| RHOD | Biogrid | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

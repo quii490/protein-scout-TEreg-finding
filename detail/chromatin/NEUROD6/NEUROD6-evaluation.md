@@ -164,6 +164,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TBR1 | STRING | 862 |
+| FEZF2 | STRING | 751 |
+| EMX1 | STRING | 749 |
+| FOXG1 | STRING | 726 |
+| SATB2 | STRING | 722 |
+| CDKN1C | BioGRID | 1 |
+| RANGAP1 | BioGRID | 1 |
+| KTN1 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96NK8
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000164600-NEUROD6/subcellular

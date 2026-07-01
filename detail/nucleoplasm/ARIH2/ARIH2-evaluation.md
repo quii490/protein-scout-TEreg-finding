@@ -170,6 +170,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CUL5 | STRING | 997 |
+| RNF7 | STRING | 985 |
+| UBE2L3 | STRING | 963 |
+| NEDD8 | STRING | 938 |
+| ELOB | STRING | 864 |
+| UBE2L6 | STRING | 848 |
+| BUB1 | STRING | 761 |
+| ELOC | STRING | 745 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O95376
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000177479-ARIH2/subcellular

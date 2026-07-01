@@ -149,6 +149,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| COPS3 | STRING | 999 |
+| COPS2 | STRING | 999 |
+| GPS1 | STRING | 999 |
+| COPS7A | STRING | 999 |
+| COPS8 | STRING | 999 |
+| COPS4 | STRING | 999 |
+| COPS5 | STRING | 999 |
+| COPS7B | STRING | 999 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/44315/622_F6_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44315/622_F6_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44315/616_F6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44315/616_F6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44315/619_F6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44315/619_F6_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q7L5N1
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000168090-COPS6/subcellular
@@ -180,8 +208,8 @@ Source: https://www.proteinatlas.org/ENSG00000168090-COPS6/interaction
 
 | Partner | Datasets | AF3/HPA structure |
 |---|---|:--:|
-| BTBD1 | Biogrid, Bioplex | true |
-| BTBD2 | Intact, Biogrid, Bioplex | true |
+| B暂无数据1 | Biogrid, Bioplex | true |
+| B暂无数据2 | Intact, Biogrid, Bioplex | true |
 | COP1 | Intact, Biogrid | true |
 | COPS2 | Intact, Biogrid | true |
 | COPS3 | Intact, Biogrid, Bioplex | true |

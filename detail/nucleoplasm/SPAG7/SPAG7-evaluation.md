@@ -223,3 +223,34 @@ Source: https://www.proteinatlas.org/ENSG00000091640-SPAG7/interaction
 | H2BC8 | Biogrid | false |
 | LXN | Intact | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| FAM220A | STRING | 952 |
+| NLE1 | BioGRID | 1 |
+| EWSR1 | BioGRID | 1 |
+| EGFR | BioGRID | 1 |
+| ANAPC13 | BioGRID | 1 |
+| SPAG7 | BioGRID | 1 |
+| UBA2 | BioGRID | 1 |
+| LMNA | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
+![PAE](https://alphafold.ebi.ac.uk/files/AF-O75391-F1-predicted_aligned_error_v6.png)
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/24032/181_A12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/24032/181_A12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/24032/180_A12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/24032/180_A12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/24032/182_A12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/24032/182_A12_2_blue_red_green.jpg)
+

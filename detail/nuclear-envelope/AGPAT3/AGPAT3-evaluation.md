@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | AGPAT3 / LPAAT3 |
+| 蛋白名称 | 1-acyl-sn-glycerol-3-phosphate acyltransferase gamma |
 | 蛋白全名 | 1-acyl-sn-glycerol-3-phosphate acyltransferase gamma |
 | 蛋白大小 | 376 aa / 43.4 kDa |
 | UniProt ID | Q9NRZ7 |
@@ -84,6 +85,24 @@ PPI 网络以 database 功能关联为主（AGPAT family、MBOAT 家族、CDS �
 
 ### 4. 总体评价
 AGPAT3 是一个独特的核膜蛋白候选（57.4/100）。核心优势：核膜定位（UniProt + GO-CC 双确认，ECO:0000269/IDA 证据级别）、极高 AF 置信度（pLDDT 94.6）、中等偏低文献量（PM=38）。核心弱点：无 PDB 实验结构、PPI 以代谢网络关联为主（实验互作弱）、HPA 无 IF 验证、作为代谢酶而非经典转录或染色质调控因子，功能与核膜定位的关系需要进一步确定。作为 nuclear-envelope 类别候选，定位特殊性是其核心价值。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| APP | BioGRID | 0 |
+| TSPAN3 | BioGRID | 0 |
+| TSPAN5 | BioGRID | 0 |
+| GPM6A | BioGRID | 0 |
+| TSPAN17 | BioGRID | 0 |
+| PTH1R | BioGRID | 0 |
+| GPR52 | BioGRID | 0 |
+| FAM189A2 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9NRZ7

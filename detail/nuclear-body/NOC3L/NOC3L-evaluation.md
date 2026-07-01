@@ -171,6 +171,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NOC2L | STRING | 998 |
+| BXDC2 | STRING | 997 |
+| BRIX1 | STRING | 997 |
+| MAK16 | STRING | 997 |
+| BOP1 | STRING | 996 |
+| GTPBP4 | STRING | 994 |
+| WDR12 | STRING | 992 |
+| PES1 | STRING | 992 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/63958/1247_E3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/63958/1247_E3_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/63958/1238_B6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/63958/1238_B6_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/63958/1244_E3_11_blue_red_green.jpg)
+![](https://images.proteinatlas.org/63958/1244_E3_12_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8WTT2
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000173145-NOC3L/subcellular

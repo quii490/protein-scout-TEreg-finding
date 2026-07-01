@@ -183,6 +183,20 @@ status: scored
 - [ ] NUTF2-NUP98 互作是否影响染色质定位基因调控
 - [ ] 作为对照蛋白用于核蛋白功能验证实验
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RAN | STRING | 999 |
+| TC4 | STRING | 999 |
+| NUP62 | STRING | 997 |
+| NXT1 | STRING | 985 |
+| NXF1 | STRING | 974 |
+| DKFZP667O0311 | STRING | 974 |
+| NUP54 | STRING | 964 |
+| NUP153 | STRING | 954 |
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P61970
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/P61970
@@ -193,9 +207,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[NUTF2-PAE.png]]
 

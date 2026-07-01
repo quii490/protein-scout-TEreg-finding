@@ -80,6 +80,20 @@ AGFG1 的核定位证据同样存在 UniProt-HPA 分歧。UniProt 以实验证�
 
 **新颖性评分: 10/10**（PubMed strict=14，极度新颖）。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| FCHO1 | STRING | 846 |
+| ITSN1 | STRING | 805 |
+| STON2 | STRING | 780 |
+| RAB3A | STRING | 768 |
+| DAB2 | STRING | 734 |
+| APC | BioGRID | 1 |
+| APP | BioGRID | 1 |
+| ALAD | BioGRID | 1 |
+
+
 ## 5. AlphaFold / PAE / PDB
 
 ### AlphaFold Structure

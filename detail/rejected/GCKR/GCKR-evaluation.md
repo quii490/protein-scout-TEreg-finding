@@ -146,6 +146,47 @@ status: scored
 - 不推荐作为染色质/表观遗传学研究靶标
 - 结构生物学价值高（若需糖代谢/异构酶结构研究）
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| GRB2 | STRING | 926 |
+| CRK | STRING | 895 |
+| AMDHD2 | STRING | 870 |
+| CRKL | STRING | 820 |
+| DGKB | STRING | 743 |
+| PNPLA3 | STRING | 701 |
+| TRAF2 | BioGRID | 1 |
+| CDKN1A | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/45855/763_H2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/45855/763_H2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/45855/2024_H1_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/45855/2024_H1_6_blue_red_green.jpg)
+![](https://images.proteinatlas.org/45855/2013_G10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/45855/2013_G10_2_blue_red_green.jpg)
+
+
+### PubMed
+
+**Count: 697**
+
+| PMID | Title |
+|---|---|
+| 42366560 | Genetic and Genomic Insights Across the SLD Spectrum. |
+| 42357869 | Multi-ancestry genome-wide association meta-analysis of hepatocellular carcinoma identifies eight risk loci including MAP3K9, DHRS1, MTTP, and 8q24.21 |
+| 42339691 | Glucokinase Regulatory Protein Gene Polymorphism as a Predictive Biomarker for Early Renal Injury in Newly Diagnosed Early-Onset Type 2 Diabetes Melli |
+| 42309256 | Glucokinase activity suppresses hepatic cholesterol synthesis and triglyceride accumulation: A new model for the effects of the GKRP P466L common huma |
+| 42287598 | Egyptian MASLD genetic map; between the leading TM6SF2 gene and role of epigenetic. |
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q14397
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000084734-GCKR

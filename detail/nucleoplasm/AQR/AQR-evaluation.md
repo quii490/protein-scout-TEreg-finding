@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | AQR / KIAA0560 / RNA helicase aquarius |
+| 蛋白名称 | RNA helicase aquarius |
 | 蛋白大小 | 1485 aa / 171.3 kDa |
 | UniProt ID | O60306 |
 | 评估日期 | 2026-05-29 |
@@ -156,6 +157,34 @@ STRING 预测互作主要通过 textmining/coexpression 关联，综合分与质
 - [ ] ChIP-seq 检查 AQR 是否在特定基因座富集
 - [ ] 仅在建立剪接-染色质 bridge 后才投入
 - [ ] 利用已有 PDB 结构进行功能域截短体研究
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| XAB2 | STRING | 999 |
+| RBM22 | STRING | 999 |
+| CDC5L | STRING | 999 |
+| BCAS2 | STRING | 999 |
+| PRPF19 | STRING | 999 |
+| CDC40 | STRING | 999 |
+| EFTUD2 | STRING | 999 |
+| U5-116KD | STRING | 999 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/40624/1470_A10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40624/1470_A10_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40624/1492_G11_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40624/1492_G11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40624/1468_A10_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40624/1468_A10_6_blue_red_green.jpg)
+
 
 ### 5. 数据来源
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000021776-AQR

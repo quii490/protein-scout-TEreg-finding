@@ -233,3 +233,24 @@ Source: https://www.proteinatlas.org/ENSG00000135900-MRPL44/interaction
 | MRPL28 | Biogrid, Bioplex | true |
 | MRPL37 | Biogrid, Bioplex | true |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RPL13 | STRING | 999 |
+| MRPL46 | STRING | 998 |
+| MRPL23 | STRING | 998 |
+| MRPL19 | STRING | 998 |
+| MRPS9 | STRING | 996 |
+| MRPS14 | STRING | 996 |
+| DAP3 | STRING | 995 |
+| RPS12 | STRING | 994 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q9H9J2-F1-predicted_aligned_error_v6.png)

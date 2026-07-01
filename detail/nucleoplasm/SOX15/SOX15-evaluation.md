@@ -159,6 +159,24 @@ UniProt + GO 核定位互证 (+1)
 - [ ] 基于 PPI 网络开展功能研究
 - [ ] 结构分析: 基于 AlphaFold 的突变设计
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| HOXB9 | BioGRID | 1 |
+| BHLHE40 | BioGRID | 1 |
+| HSFY1 | BioGRID | 1 |
+| PPP3R1 | BioGRID | 1 |
+| KDM6A | BioGRID | 1 |
+| POU2F1 | BioGRID | 1 |
+| FOXK1 | BioGRID | 1 |
+| FOXP1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=SOX15
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000129194-SOX15
@@ -171,9 +189,9 @@ UniProt + GO 核定位互证 (+1)
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[SOX15-PAE.png]]
 

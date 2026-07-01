@@ -16,6 +16,7 @@ tags: [protein-scout, sperm, evaluation]
 - **IF 可靠性:** 未获取
 - **PubMed:** 27 篇
 - **精子定位部位:** Calyx、End piece、Equatorial segment、Mid piece、Principal piece (5 个)
+- **UniProt Subcellular Location:** Cytoplasm, cytoskeleton, cilium axoneme; Cytoplasm, cytoskeleton, flagellum axoneme
 
 ## 2. HPA 精子定位证据
 - **来源:** Calyx、End piece、Equatorial segment、Mid piece、Principal piece ✓

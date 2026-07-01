@@ -176,6 +176,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| DHX30 | STRING | 769 |
+| MRPS31 | STRING | 766 |
+| MTO1 | STRING | 727 |
+| GFM1 | STRING | 719 |
+| VHL | BioGRID | 1 |
+| MAGEA12 | BioGRID | 1 |
+| FAM9B | BioGRID | 1 |
+| DAP3 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/74462/1523_G6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/74462/1523_G6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/74462/1486_E8_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/74462/1486_E8_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/74462/1496_E8_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/74462/1496_E8_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q14CZ7
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000124279-FASTKD3/subcellular

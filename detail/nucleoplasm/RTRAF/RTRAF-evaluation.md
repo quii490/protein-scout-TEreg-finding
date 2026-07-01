@@ -179,3 +179,24 @@ Source: https://www.proteinatlas.org/ENSG00000087302-RTRAF/interaction
 | BMI1 | Biogrid | false |
 | BYSL | Opencell | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RTCB | STRING | 999 |
+| DDX1 | STRING | 999 |
+| FAM98B | STRING | 999 |
+| C2ORF49 | STRING | 997 |
+| FAM98A | STRING | 985 |
+| ZBTB8OS | STRING | 959 |
+| NIN | STRING | 931 |
+| TAF15 | STRING | 764 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q9Y224-F1-predicted_aligned_error_v6.png)

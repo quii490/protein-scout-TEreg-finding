@@ -176,6 +176,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ELOB | STRING | 999 |
+| ELOC | STRING | 999 |
+| LEO1 | STRING | 984 |
+| CTR9 | STRING | 977 |
+| TCEA2 | STRING | 968 |
+| REXO1 | STRING | 958 |
+| ERCC6 | STRING | 953 |
+| PGBD3 | STRING | 953 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/5910/8_C5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5910/8_C5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5910/9_C5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5910/9_C5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5910/7_C5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5910/7_C5_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q14241
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000011007-ELOA/subcellular

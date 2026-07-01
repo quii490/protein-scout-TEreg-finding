@@ -16,6 +16,7 @@ tags: [protein-scout, sperm, evaluation]
 - **IF 可靠性:** 未获取
 - **PubMed:** 69 篇
 - **精子定位部位:** Calyx、Flagellar centriole、Mid piece、Perinuclear theca、Principal piece (5 个)
+- **UniProt Subcellular Location:** Secreted
 
 ## 2. HPA 精子定位证据
 - **来源:** Calyx、Flagellar centriole、Mid piece、Perinuclear theca、Principal piece ✓

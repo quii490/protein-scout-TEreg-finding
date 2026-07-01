@@ -186,3 +186,22 @@ Source: https://www.proteinatlas.org/ENSG00000165259-HDX/interaction
 | POLR1C | Intact | false |
 | RTN4IP1 | Intact | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ZBTB16 | BioGRID | 1 |
+| SUFU | BioGRID | 1 |
+| YWHAE | BioGRID | 1 |
+| NANOG | BioGRID | 1 |
+| CYLD | BioGRID | 1 |
+| UBE2M | BioGRID | 1 |
+| CCND1 | BioGRID | 1 |
+| FHL5 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。

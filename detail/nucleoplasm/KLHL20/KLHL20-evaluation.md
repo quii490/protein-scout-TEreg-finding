@@ -115,7 +115,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 | SPOP | 0.924 | 0.091 | — |
 | KLHL9 | 0.924 | 0.053 | — |
 | TNFAIP1 | 0.919 | 0.000 | — |
-| KBTBD8 | 0.919 | 0.092 | — |
+| KB暂无数据8 | 0.919 | 0.092 | — |
 | KCTD13 | 0.919 | 0.000 | — |
 
 **实验验证互作** (IntAct):
@@ -173,6 +173,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ECT2 | BioGRID | 0 |
+| KLHL20 | BioGRID | 0 |
+| ACTA1 | BioGRID | 0 |
+| CRMP1 | BioGRID | 0 |
+| PIN1 | BioGRID | 0 |
+| C14orf1 | BioGRID | 0 |
+| GBP2 | BioGRID | 0 |
+| KIAA1377 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9Y2M5

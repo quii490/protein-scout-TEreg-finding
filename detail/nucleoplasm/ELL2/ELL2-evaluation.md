@@ -154,6 +154,30 @@ status: scored
 - [ ] 通过 ChIP-seq 检测 ELL2 在 TE 区域的结合
 - [ ] 研究 ELL2-SEC 复合体在 TE 转录延伸中的作用
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| AFF1 | STRING | 999 |
+| AF-4 | STRING | 999 |
+| EAF1 | STRING | 999 |
+| AFF4 | STRING | 999 |
+| MLLT3 | STRING | 999 |
+| MLLT1 | STRING | 999 |
+| CCNT1 | STRING | 995 |
+| CDK9 | STRING | 995 |
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/13569/1866_H3_32_blue_red_green.jpg)
+![](https://images.proteinatlas.org/13569/1866_H3_33_blue_red_green.jpg)
+![](https://images.proteinatlas.org/13569/1168_A6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/13569/1168_A6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/13569/1257_A6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/13569/1257_A6_3_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: O00472 (https://www.uniprot.org/uniprotkb/O00472)
 - AlphaFold: AF-O00472-F1 v6 (https://alphafold.ebi.ac.uk/entry/O00472)
@@ -166,9 +190,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[ELL2-PAE.png]]
 

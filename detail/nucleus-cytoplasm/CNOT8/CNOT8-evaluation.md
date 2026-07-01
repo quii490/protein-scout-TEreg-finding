@@ -66,6 +66,24 @@ HPA IF 原图未可靠获取（HPA 检索页无可用的 subcellular IF 原图�
 
 **Research Volume Assessment**: 较低（<50篇），研究空间充足
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| BTG1 | BioGRID | 0 |
+| CNOT1 | BioGRID | 0 |
+| CNOT10 | BioGRID | 0 |
+| MCM7 | BioGRID | 0 |
+| BTG2 | BioGRID | 0 |
+| CNOT3 | BioGRID | 0 |
+| PRMT1 | BioGRID | 0 |
+| ELAVL1 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. AlphaFold / PAE / PDB
 
 #### AlphaFold

@@ -163,48 +163,38 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q9NXP7
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000145723-GIN1/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=GIN1
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9NXP7
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000145723-GIN1/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CPSF6 | BioGRID | 0 |
+| USP7 | BioGRID | 0 |
+| LMNA | BioGRID | 0 |
+| CUL4A | BioGRID | 0 |
+| DDX39A | BioGRID | 0 |
+| GSTA2 | BioGRID | 0 |
+| PARK2 | BioGRID | 0 |
+| RPS14 | BioGRID | 0 |
 
-![](https://images.proteinatlas.org/61362/1082_A12_1_red_green.jpg)
-![](https://images.proteinatlas.org/61362/1082_A12_2_red_green.jpg)
-![](https://images.proteinatlas.org/61362/1103_A12_1_red_green.jpg)
-![](https://images.proteinatlas.org/61362/1103_A12_2_red_green.jpg)
-![](https://images.proteinatlas.org/61362/1307_B6_1_red_green.jpg)
-![](https://images.proteinatlas.org/61362/1307_B6_3_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q9NXP7-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/GIN1
+
+### PubMed
+
+**Count: 57**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q9NXP7 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | DOMAIN 135..292; /note="Integrase catalytic"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00457" |
-| InterPro | IPR001584;IPR041588;IPR050951;IPR012337;IPR036397; |
-| Pfam | PF17921;PF00665; |
+| 33796126 | The Arabidopsis thaliana E3 Ubiquitin Ligase BRIZ Functions in Abscisic Acid Response. |
+| 31913381 | TiO(2) exposure alters transition metal ion quota in Rhodococcus ruber GIN-1. |
+| 29444316 | Glucose triggers stomatal closure mediated by basal signaling through HXK1 and PYR/RCAR receptors in Arabidopsis. |
+| 23452177 | Starch metabolism and antiflorigenic signals modulate the juvenile-to-adult phase transition in Arabidopsis. |
+| 22661644 | Genetic markers of rheumatoid arthritis susceptibility in anti-citrullinated peptide antibody negative patients. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000145723-GIN1/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| RPS14 | Biogrid | false |
-| RPS28 | Biogrid | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

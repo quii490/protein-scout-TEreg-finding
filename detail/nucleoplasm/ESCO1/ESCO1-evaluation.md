@@ -172,6 +172,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SMC3 | STRING | 997 |
+| PDS5A | STRING | 994 |
+| WAPL | STRING | 982 |
+| WAPAL | STRING | 982 |
+| RAD21 | STRING | 959 |
+| STAG1 | STRING | 952 |
+| PDS5B | STRING | 891 |
+| DSCC1 | STRING | 889 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q5FWF5
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000141446-ESCO1/subcellular

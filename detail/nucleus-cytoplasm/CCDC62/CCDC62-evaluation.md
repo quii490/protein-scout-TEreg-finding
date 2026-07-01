@@ -8,6 +8,16 @@ status: scored
 
 ## CCDC62 核-胞质蛋白
 
+### 基本信息
+
+| 项目 | 内容 |
+|---|---|
+| 基因名 | CCDC62 |
+| 蛋白名称 | Coiled-coil domain-containing protein 62 |
+| UniProt ID | Q6P9F0 |
+| 蛋白大小 | 684 aa |
+
+
 UniProt: Q6P9F0. Nuclear receptor coactivator (ESR1/ESR2).
 
 | 维度 | 得分 | 权重 | 加权 | 摘要 |
@@ -94,3 +104,38 @@ Source: https://www.proteinatlas.org/ENSG00000130783-CCDC62/interaction
 |---|---|:--:|
 | ESR2 | Intact | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### 功能描述
+
+Nuclear receptor coactivator that can enhance preferentially estrogen receptors ESR1 and ESR2 transactivation. Also modulates progesterone/PGR, glucocorticoid/NR3C1 and androgen/AR receptors transactivation, although at lower level; little effect on vitamin D receptor/VDR. Required for normal spermiogenesis. It probably plays a role in acrosome formation (By similarity)
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NR3A2 | STRING | 706 |
+| ESR2 | STRING | 706 |
+| DDX39A | BioGRID | 1 |
+| PLEC | BioGRID | 0 |
+| SDHA | BioGRID | 0 |
+| CIT | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### PubMed
+
+**Count: 36**
+
+| PMID | Title |
+|---|---|
+| 42048856 | A high-resolution plasma proteomic framework for stratifying treatment resistance and ultra-resistance in schizophrenia. |
+| 41516281 | Weighted Gene Co-Expression Network Analysis and Alternative Splicing Analysis Reveal Key Genes Regulating Overfeeding-Induced Fatty Liver in Lion-Hea |
+| 40371706 | scRNA-seq and scATAC-seq reveal that Sertoli cell mediates spermatogenesis disorders through stage-specific communications in non-obstructive azoosper |
+| 40346136 | Patient-specific gene co-expression networks reveal novel subtypes and predictive biomarkers in lung adenocarcinoma. |
+| 39794969 | Genome-Wide Association Analysis of Boar Semen Traits Based on Computer-Assisted Semen Analysis and Flow Cytometry. |

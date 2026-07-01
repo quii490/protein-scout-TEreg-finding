@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 | C15orf39 |
+| 蛋白名称 | Uncharacterized protein C15orf39 |
 | 蛋白全名 | Uncharacterized protein C15orf39 |
 | 蛋白大小 | 1047 aa / ~115 kDa |
 | UniProt ID | Q6ZRI6 |
@@ -61,6 +62,34 @@ PubMed strict: 5
 | MARF1 | IntAct | socio-affinity (PMID:unassigned1312) | Meiosis regulator |
 
 **STRING**: HTTP 502 — 数据不可用。**IntAct**: 15 条记录，含 CTBP2（核转录辅抑制因子）和 SRPK1（核 splicing 激酶）等核蛋白互作。**UniProt curated interactions**: 0。无 BioGrid 补充数据。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| APP | BioGRID | 1 |
+| CTBP2 | BioGRID | 1 |
+| RFPL4B | BioGRID | 1 |
+| CARD8 | BioGRID | 1 |
+| PRMT2 | BioGRID | 1 |
+| CTBP1 | BioGRID | 1 |
+| CCNJL | BioGRID | 1 |
+| EWSR1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/39961/461_C8_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39961/461_C8_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39961/462_C8_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39961/462_C8_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39961/464_C8_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39961/464_C8_3_blue_red_green.jpg)
+
 
 ### 5. 研究现状
 关键文献: C15orf39 通过 PI3K/AKT 信号促进胃癌发生 (PMID:40032127)、通过 PRMT2 抑制炎症反应 (PMID:38892217)。功能方向偏向癌症和炎症信号。PRMT2 为核蛋白精氨酸甲基转移酶，提示可能的核功能关联。

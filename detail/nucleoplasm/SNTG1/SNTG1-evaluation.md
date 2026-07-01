@@ -178,3 +178,22 @@ Source: https://www.proteinatlas.org/ENSG00000147481-SNTG1/interaction
 | SNTB1 | Bioplex | false |
 | UTRN | Bioplex | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SNAP23 | BioGRID | 0 |
+| STXBP3 | BioGRID | 0 |
+| VPS45 | BioGRID | 0 |
+| UBC | BioGRID | 0 |
+| FGF2 | BioGRID | 0 |
+| VTN | BioGRID | 0 |
+| PLEKHA2 | BioGRID | 0 |
+| PLEKHA1 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。

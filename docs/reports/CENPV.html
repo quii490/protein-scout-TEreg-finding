@@ -12,6 +12,8 @@
   <nav>
     <a href="../protein_index.html">总表</a>
     <a href="../category/nucleoplasm.html">Nucleoplasm</a><a href="../category/nucleus-cytoplasm.html">Nucleus-cytoplasm</a><a href="../category/nuclear-speckle.html">Nuclear speckle</a><a href="../category/nuclear-body.html">Nuclear body</a><a href="../category/nucleolus.html">Nucleolus</a><a href="../category/nuclear-envelope.html">Nuclear envelope</a><a href="../category/chromatin.html">Chromatin</a><a href="../category/rejected.html">Rejected</a>
+    <a href="../centrosome/index.html">Centrosome</a>
+    <a href="../sperm/index.html">Sperm</a>
   </nav>
 </header><main class="container report-shell"><section class="panel"><h1>CENPV</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">chromatin</span><span class="badge">总分: 75.4</span><span class="badge">核定位: 8</span><a class="button small" href="../protein_index.html">蛋白总表</a><a class="button small" href="../category/chromatin.html">分类页</a></div><p class="source-path">原始 detail 路径: detail/chromatin/CENPV/CENPV-evaluation.md</p></section><article class="report-body"><hr>
 <p>type: protein-evaluation gene: &quot;CENPV&quot; date: 2026-05-31 tags: [protein-scout, chromatin, evaluation] status: scored ---</p>
@@ -96,6 +98,20 @@
 <p>STRING 为 textmining 主导（SPI1, CEBPE 等转录因子）。IntAct 记录 MYC (TAP), SUMO1 (affinity chromatography) 和 RRP1B。UniProt curated 互作极丰富（19 个互作），包含 HTT (15 experiments)、ATXN1 (6 experiments)、SETDB1 (H3K9 甲基转移酶，异染色质核心酶)、KAT5 (Tip60 乙酰转移酶)、SNCA (α-synuclein)。SETDB1 和 KAT5 互作支持 CENPV 在着丝粒周围异染色质组织中的调控角色。</p>
 <h4>4. 总体评价</h4>
 <p>CENPV 是着丝粒/kinetochore 蛋白，定位证据极大丰富（UniProt 三处 ECO:0000269 + GO 八处实验赋值）。PPI 网络包含 SETDB1（H3K9 甲基转移酶）、KAT5（组蛋白乙酰转移酶）和 HTT（Huntingtin），提示其参与着丝粒周围异染色质组织。归一化总分 76.0/100，为当前评估最高。研究新颖性极高（PubMed strict=9）。建议作为高优先级 chromatin 候选保留，后续重点验证其与 SETDB1/KAT5 的染色质调控互作及 TE 沉默功能。</p>
+<h4>PPI 互作网络</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>互作伙伴</th><th>来源</th><th>评分</th></tr></thead><tbody>
+<tr><td>SPI1</td><td>STRING</td><td>880</td></tr>
+<tr><td>CEBPE</td><td>STRING</td><td>785</td></tr>
+<tr><td>HBZ</td><td>STRING</td><td>731</td></tr>
+<tr><td>LYN</td><td>BioGRID</td><td>1</td></tr>
+<tr><td>EED</td><td>BioGRID</td><td>1</td></tr>
+<tr><td>NPM1</td><td>BioGRID</td><td>1</td></tr>
+<tr><td>IFI16</td><td>BioGRID</td><td>1</td></tr>
+<tr><td>EZH2</td><td>BioGRID</td><td>1</td></tr>
+</tbody></table></div>
+<h4>TE 调控评估</h4>
+<p>该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。</p>
 <h4>5. 数据来源</h4>
 <ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q7Z7K6</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q7Z7K6</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CENPV</li></ul>
 <p>HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；此前“暂无/未可靠获取 IF”的表述为采集失败导致的误报。</p>

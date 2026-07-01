@@ -237,3 +237,24 @@ Source: https://www.proteinatlas.org/ENSG00000169189-NSMCE1/interaction
 | SMC6 | Intact, Biogrid, Bioplex | true |
 | MAGEB10 | Bioplex | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NSMCE2 | STRING | 999 |
+| NSMCE3 | STRING | 999 |
+| SMC5 | STRING | 999 |
+| SMC6 | STRING | 999 |
+| NSMCE4A | STRING | 999 |
+| EID3 | STRING | 998 |
+| SLF2 | STRING | 927 |
+| MAGEF1 | STRING | 840 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q8WV22-F1-predicted_aligned_error_v6.png)

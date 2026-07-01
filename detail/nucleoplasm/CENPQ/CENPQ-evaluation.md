@@ -166,54 +166,38 @@ STRING 15 个预测互作，IntAct 15 个实验互作。调控相关配体占比
 - [ ] 设计 ChIP-seq/CUT&RUN 验证染色质结合
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q7L2Z9
-- Protein Atlas: https://www.proteinatlas.org/search/CENPQ
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CENPQ
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q7L2Z9
-- STRING: https://string-db.org/network/9606.CENPQ
-- Packet data timestamp: 2026-06-03 04:47:05
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (enhanced)。来源: https://www.proteinatlas.org/ENSG00000031691-CENPQ/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CENPM | STRING | 999 |
+| MLF1IP | STRING | 999 |
+| CENPU | STRING | 999 |
+| CENPH | STRING | 999 |
+| CENPP | STRING | 999 |
+| CENPO | STRING | 999 |
+| CENPK | STRING | 999 |
+| ITGB3BP | STRING | 999 |
 
-![](https://images.proteinatlas.org/29043/1002_C9_1_red_green.jpg)
-![](https://images.proteinatlas.org/29043/1002_C9_2_red_green.jpg)
-![](https://images.proteinatlas.org/29043/1004_C9_4_red_green.jpg)
-![](https://images.proteinatlas.org/29043/1004_C9_5_red_green.jpg)
-![](https://images.proteinatlas.org/29043/1061_B4_1_red_green.jpg)
-![](https://images.proteinatlas.org/29043/1061_B4_2_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q7L2Z9-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/CENPQ
+
+### PubMed
+
+**Count: 25**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q7L2Z9 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR025212; |
-| Pfam | PF13094; |
+| 42003665 | Integration of Genome-Wide Association Studies With Single-Cell and Bulk Expression Quantitative Trait Locus to Identify Stroke Susceptibility Genes. |
+| 41502527 | CSRNP1 Promotes Apoptosis and Mitochondrial Dysfunction via ROS-Mediated JNK/p38 MAPK Pathway Activation in Hepatocellular Carcinoma. |
+| 39968732 | Novel Candidate Genes Detection Using Bayesian Network-Based Genome-Wide Association Study of Latent Traits in F2 Chicken Population. |
+| 38827182 | The Correlation of Centromere Protein Q with Diagnosis and Prognosis in Hepatocellular Carcinoma. |
+| 36691064 | Early peripheral blood gene expression associated with good and poor 90-day ischemic stroke outcomes. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000031691-CENPQ/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| ATF2 | Intact, Biogrid | true |
-| CCDC6 | Intact, Biogrid | true |
-| CENPP | Biogrid, Bioplex | true |
-| CENPU | Intact, Biogrid, Bioplex | true |
-| HOMER1 | Intact, Biogrid | true |
-| RPS16 | Biogrid, Opencell | true |
-| AARD | Intact | false |
-| ABI3 | Intact | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

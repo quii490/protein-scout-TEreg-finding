@@ -177,6 +177,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CHMP3 | STRING | 999 |
+| SPAST | STRING | 999 |
+| IST1 | STRING | 999 |
+| CHMP5 | STRING | 994 |
+| CHMP2B | STRING | 994 |
+| CHMP6 | STRING | 990 |
+| CHMP7 | STRING | 983 |
+| CHMP4A | STRING | 971 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/61997/1080_D10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/61997/1080_D10_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/61997/1169_B3_8_blue_red_green.jpg)
+![](https://images.proteinatlas.org/61997/1169_B3_11_blue_red_green.jpg)
+![](https://images.proteinatlas.org/61997/1102_D10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/61997/1102_D10_6_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q7LBR1
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000255112-CHMP1B/subcellular

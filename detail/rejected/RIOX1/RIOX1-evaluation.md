@@ -54,6 +54,39 @@ status: scored
 
 RIOX1 is 641 amino acids in length (~71.1 kDa). 641 aa, acceptable range. Score 8/10.
 
+### 功能描述
+
+Oxygenase that can act as both a histone lysine demethylase and a ribosomal histidine hydroxylase (PubMed:23103944). Specifically demethylates 'Lys-4' (H3K4me) and 'Lys-36' (H3K36me) of histone H3, thereby playing a central role in histone code (By similarity). Preferentially demethylates trimethylated H3 'Lys-4' (H3K4me3) and monomethylated H3 'Lys-4' (H3K4me1) residues, while it has weaker activity for dimethylated H3 'Lys-36' (H3K36me2) (By similarity). Acts as a regulator of osteoblast diffe
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RPL8 | STRING | 986 |
+| PHF19 | STRING | 940 |
+| SP7 | STRING | 920 |
+| RIOK1 | STRING | 807 |
+| SBNO1 | STRING | 796 |
+| TRAP1 | STRING | 782 |
+| JMJD4 | STRING | 737 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/3730/1601_C2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3730/1601_C2_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3730/1723_A3_12_cr57ea9b2f88939_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3730/1723_A3_23_cr57ea9b36cdf2f_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3730/1732_C2_3_cr58060a8227111_blue_red_green.jpg)
+![](https://images.proteinatlas.org/3730/1732_C2_18_cr58060a8b728d6_blue_red_green.jpg)
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

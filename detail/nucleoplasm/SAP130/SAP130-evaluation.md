@@ -62,6 +62,34 @@ Score 8/10 reflects strong functional evidence for nuclear localization through 
 
 SAP130 is a large protein at approximately 130 kDa (~1,048 aa), which is above the ideal 200-800 aa experimental range. Large proteins (>100 kDa) present technical challenges for recombinant expression, purification, and structural characterization. However, the modular nature of HDAC complex subunits may allow domain-level studies. Size score: 7/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SF3A1 | STRING | 999 |
+| PHF5A | STRING | 999 |
+| SF3A2 | STRING | 999 |
+| SF3B6 | STRING | 999 |
+| MSL1 | STRING | 999 |
+| SNRPB2 | STRING | 999 |
+| SNRPA1 | STRING | 999 |
+| PRPF6 | STRING | 999 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/34664/374_D12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/34664/374_D12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/34664/372_D12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/34664/372_D12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/34664/860_D10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/34664/860_D10_2_blue_red_green.jpg)
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

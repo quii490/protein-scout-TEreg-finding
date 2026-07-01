@@ -169,6 +169,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| DNAJB2 | BioGRID | 0 |
+| PALM2 | BioGRID | 0 |
+| ORC4 | BioGRID | 0 |
+| SIN3A | BioGRID | 0 |
+| NUFIP2 | BioGRID | 0 |
+| ARID4B | BioGRID | 0 |
+| GPATCH8 | BioGRID | 0 |
+| BRMS1L | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8IV20
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000179630-LACC1/subcellular

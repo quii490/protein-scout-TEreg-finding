@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 | AMPD3 |
+| 蛋白名称 | AMP deaminase 3 |
 | 蛋白全名 | AMP deaminase 3 |
 | 蛋白大小 | 767 aa / 88.8 kDa |
 | UniProt ID | Q01432 |
@@ -86,6 +87,34 @@ STRING PPI 网络是本批最强之一，嘌呤核苷酸代谢通路几乎全覆
 
 ### 4. 总体评价
 AMPD3 是核膜定位的代谢酶，评分居中（59.0/100）。核心优势：嘌呤代谢 PPI 网络极为完整且强（STRING combined scores >0.93）、AlphaFold 结构好、HPA Approved 核膜定位。劣势：蛋白大（88.8 kDa）、UniProt 无定位注释支持、核膜定位与经典胞质代谢酶角色矛盾。作为 nuclear-envelope 候选有其独特价值。建议作为中等优先级核膜候选保留。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| APRT | STRING | 986 |
+| ADK | STRING | 980 |
+| IMPDH | STRING | 966 |
+| IMPDH2 | STRING | 966 |
+| IMPDH1 | STRING | 965 |
+| ITPA | STRING | 934 |
+| DCK | STRING | 926 |
+| AK6 | STRING | 911 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/38662/1004_H5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38662/1004_H5_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38662/1203_A4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38662/1203_A4_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38662/1002_H5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38662/1002_H5_2_blue_red_green.jpg)
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q01432

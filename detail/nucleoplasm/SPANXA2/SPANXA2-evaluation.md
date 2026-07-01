@@ -225,3 +225,32 @@ Source: https://www.proteinatlas.org/ENSG00000203926-SPANXA2/interaction
 |---|---|:--:|
 | SETBP1 | Intact | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SPANXA1 | BioGRID | 1 |
+| SETBP1 | BioGRID | 1 |
+| EGFR | BioGRID | 1 |
+| SPANXB1 | BioGRID | 1 |
+| FLT3 | BioGRID | 0 |
+| EML2 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q9NS26-F1-predicted_aligned_error_v6.png)
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/46423/918_G10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/46423/918_G10_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/46423/984_B5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/46423/984_B5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/46423/981_B5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/46423/981_B5_4_blue_red_green.jpg)
+

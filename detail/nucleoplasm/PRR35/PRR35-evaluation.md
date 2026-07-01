@@ -102,7 +102,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 | OR51L1 | 0.707 | 0.000 | — |
 | OR52J3 | 0.694 | 0.000 | — |
 | OR51A2 | 0.680 | 0.000 | — |
-| KBTBD12 | 0.676 | 0.000 | — |
+| KB暂无数据12 | 0.676 | 0.000 | — |
 | RRP36 | 0.647 | 0.000 | — |
 | SPATA48 | 0.615 | 0.000 | — |
 | TOGARAM1 | 0.611 | 0.000 | — |
@@ -163,6 +163,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TRIM25 | BioGRID | 1 |
+| ZMYND12 | BioGRID | 1 |
+| PPP1R13B | BioGRID | 1 |
+| TTLL12 | BioGRID | 1 |
+| BIRC7 | BioGRID | 1 |
+| OIP5 | BioGRID | 1 |
+| CRX | BioGRID | 1 |
+| CNOT2 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P0CG20

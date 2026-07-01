@@ -165,6 +165,24 @@ status: scored
 - [ ] 构建表达载体进行功能研究
 - [ ] Co-IP/MS 鉴定互作蛋白
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TICRR | STRING | 984 |
+| HDM2 | STRING | 939 |
+| MDM2 | STRING | 939 |
+| TOPBP1 | STRING | 866 |
+| RECQL4 | STRING | 772 |
+| CCNA2 | BioGRID | 1 |
+| CLK1 | BioGRID | 1 |
+| CDK8 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=MTBP
 - Protein Atlas: https://www.proteinatlas.org/MTBP
@@ -179,9 +197,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[MTBP-PAE.png]]
 

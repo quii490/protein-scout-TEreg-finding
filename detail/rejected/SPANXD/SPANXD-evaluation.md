@@ -51,6 +51,44 @@ status: scored
 
 SPANXD is 97 amino acids in length (~11.0 kDa). Small/large (97 aa), presents moderate experimental challenges. Score 5/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SETBP1 | BioGRID | 1 |
+| LMNA | BioGRID | 1 |
+| SPANXB1 | BioGRID | 1 |
+| FLNA | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/46423/918_G10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/46423/918_G10_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/46423/984_B5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/46423/984_B5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/46423/981_B5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/46423/981_B5_4_blue_red_green.jpg)
+
+
+### PubMed
+
+**Count: 7**
+
+| PMID | Title |
+|---|---|
+| 41129177 | Multiomic Selection of Cancer-Testis Antigens as Precision Immuno-oncologic Targets in Head and Neck Cancer. |
+| 26895102 | The cancer-testis antigens SPANX-A/C/D and CTAG2 promote breast cancer invasion. |
+| 26625006 | Hypermethylation of genes in testicular embryonal carcinomas. |
+| 17373721 | Mutational analysis of SPANX genes in families with X-linked prostate cancer. |
+| 17012309 | Hominoid-specific SPANXA/D genes demonstrate differential expression in individuals and protein localization to a distinct nuclear envelope domain dur |
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

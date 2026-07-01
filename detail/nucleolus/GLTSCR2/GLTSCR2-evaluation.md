@@ -166,45 +166,38 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q9NZM5
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000105373-NOP53/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=GLTSCR2
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9NZM5
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoli (supported)。来源: https://www.proteinatlas.org/ENSG00000105373-NOP53/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MTREX | STRING | 999 |
+| FTSJ3 | STRING | 997 |
+| GTPBP4 | STRING | 996 |
+| GNL2 | STRING | 996 |
+| SDAD1 | STRING | 995 |
+| RPF2 | STRING | 994 |
+| RSL1D1 | STRING | 993 |
+| RPL5 | STRING | 992 |
 
-![](https://images.proteinatlas.org/18999/285_D2_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/18999/285_D2_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/18999/286_D2_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/18999/286_D2_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/49600/783_A2_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/49600/783_A2_2_blue_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q9NZM5-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/GLTSCR2
+
+### PubMed
+
+**Count: 65**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q9NZM5 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR011687; |
-| Pfam | PF07767; |
+| 40500699 | Genomic analysis association of tolerance to heat stress in subtropical Egyptian goats Raised in hot dry environment. |
+| 36403484 | MTR4 adaptor PICT1 functions in two distinct steps during pre-rRNA processing. |
+| 36306198 | PICT-1 regulates p53 splicing and sensitivity of medullary thyroid carcinoma cells to everolimus. |
+| 35605655 | The role of PICT1 in RPL11/Mdm2/p53 pathway-regulated inhibition of cell growth induced by topoisomerase IIα inhibitor against cervical cancer cell li |
+| 34502226 | NOP53 Suppresses Autophagy through ZKSCAN3-Dependent and -Independent Pathways. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000105373-NOP53/interaction
 
-未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

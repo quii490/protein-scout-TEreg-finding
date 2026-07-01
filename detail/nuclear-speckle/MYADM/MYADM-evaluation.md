@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 | MYADM |
+| 蛋白名称 | Myeloid-associated differentiation marker |
 | 蛋白全名 | Myeloid-associated differentiation marker |
 | 蛋白大小 | 322 aa / 35.3 kDa |
 | UniProt ID | Q96S97 |
@@ -81,6 +82,24 @@ PPI 网络主要指向膜运输、免疫信号和细胞连接，但也涉及 ESR
 
 ### 4. 总体评价
 MYADM 是一个有趣的矛盾案例：UniProt 和 GO-CC 主要支持其为膜/连接蛋白，但 HPA IF 给出 Approved 级别的 Nuclear speckle 定位。这种跨区室定位可能反映条件依赖的核转运或核膜关联。蛋白小（35.3 kDa）、结构置信度高、研究量适中，值得作为 nuclear speckle 候选继续追踪。建议进一步核查 HPA IF 原图，确认 nuclear speckle 信号的可靠性。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ELAVL1 | BioGRID | 1 |
+| CREB3 | BioGRID | 1 |
+| NTRK3 | BioGRID | 1 |
+| HAVCR2 | BioGRID | 1 |
+| FZD10 | BioGRID | 1 |
+| MUC1 | BioGRID | 1 |
+| TRIM25 | BioGRID | 1 |
+| LMNA | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96S97

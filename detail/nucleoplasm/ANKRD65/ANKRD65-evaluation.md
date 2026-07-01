@@ -151,6 +151,29 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| HECW2 | BioGRID | 0 |
+| ESR2 | BioGRID | 0 |
+| TTC19 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### PubMed
+
+**Count: 2**
+
+| PMID | Title |
+|---|---|
+| 41855783 | Cell-type-specific genetic associations in Lewy body dementia identified using single-cell eQTL-based Mendelian randomization. |
+| 39554687 | Identification of genetic risk variants for Type-2 Diabetes mellitus in Pakistani Pashtun population: A case-control association study. |
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/E5RJM6
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000235098-ANKRD65/subcellular

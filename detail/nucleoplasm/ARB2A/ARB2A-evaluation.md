@@ -155,6 +155,23 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### PubMed
+
+**Count: 20**
+
+| PMID | Title |
+|---|---|
+| 37264959 | m(6)A‑mediated LINC02038 inhibits colorectal cancer progression via regulation of the FAM172A/PI3K/AKT pathway via competitive binding with miR‑552‑5p |
+| 37221016 | The CHARGE syndrome-associated protein FAM172A controls AGO2 nuclear import. |
+| 36706893 | Chitosan targets PI3K/Akt/FoxO3a axis to up-regulate FAM172A and suppress MAPK/ERK pathway to exert anti-tumor effect in osteosarcoma. |
+| 36344488 | Epigenome-wide DNA methylation analysis of whole blood cells derived from patients with GAD and OCD in the Chinese Han population. |
+| 36014414 | Quantitative Proteomics Explore the Potential Targets and Action Mechanisms of Hydroxychloroquine. |
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8WUF8
 - Protein Atlas: https://www.proteinatlas.org/search/ARB2A

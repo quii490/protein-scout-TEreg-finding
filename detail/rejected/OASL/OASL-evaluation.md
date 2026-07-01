@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | OASL / 2'-5'-oligoadenylate synthetase-like / p59 / TRIP14 |
+| 蛋白名称 | 2'-5'-oligoadenylate synthase-like protein |
 | 蛋白大小 | 514 aa / ~59 kDa |
 | UniProt ID | Q15646 |
 | 评估日期 | 2026-05-28 |
@@ -127,6 +128,47 @@ status: scored
 **风险/不确定性**: 功能完全定位于先天免疫/抗病毒。虽然 OASL 有核信号且有独特的 ubiquitin-like domain（可能参与核蛋白降解），但整个研究方向与 TEreg/chromatin 不相关。
 
 **结论**: 不推荐作为染色质/转录调控实验室的研究目标。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ISG15 | STRING | 987 |
+| IFI44L | STRING | 951 |
+| IFI44 | STRING | 950 |
+| IFIH1 | STRING | 940 |
+| IRF7 | STRING | 913 |
+| STAT1 | STRING | 912 |
+| P27 | STRING | 888 |
+| ISGF3G | STRING | 872 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/1474/60_B7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1474/60_B7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1474/1386_H6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1474/1386_H6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1474/59_B7_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/1474/59_B7_4_blue_red_green.jpg)
+
+
+### PubMed
+
+**Count: 393**
+
+| PMID | Title |
+|---|---|
+| 42349522 | Genome-wide transcriptome profiling in crossbred pigs after challenge with Classical Swine Fever Virus. |
+| 42347213 | Integrated Downstream Analysis and Epidemiological Modelling of Hantavirus Infection: From Host Transcriptomics to Transmission Dynamics. |
+| 42341502 | Essential role of the D domain of linc000889 in inhibiting avian reovirus replication. |
+| 42332537 | Study on diagnostic genes and immune microenvironment disorder in comorbid atherosclerosis and Alzheimer disease. |
+| 42292443 | MEK1/2 inhibitor ATR-002 reshapes host transcriptome and modulates immune regulatory genes in SARS-CoV-2 infection. |
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q15646

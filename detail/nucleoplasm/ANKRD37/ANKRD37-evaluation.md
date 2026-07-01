@@ -84,3 +84,17 @@ Source: https://www.proteinatlas.org/ENSG00000186352-ANKRD37/interaction
 | HIF1AN | Intact | false |
 | ZNF76 | Intact | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ZNF76 | BioGRID | 0 |
+| HIF1AN | BioGRID | 0 |
+| TOP3B | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。

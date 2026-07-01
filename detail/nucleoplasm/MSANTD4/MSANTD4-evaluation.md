@@ -99,7 +99,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 | TMEM107 | 0.544 | 0.000 | — |
 | AASDHPPT | 0.537 | 0.094 | — |
 | CCDC117 | 0.536 | 0.000 | — |
-| KBTBD3 | 0.534 | 0.059 | — |
+| KB暂无数据3 | 0.534 | 0.059 | — |
 | ANKRD49 | 0.531 | 0.091 | — |
 | FAM110B | 0.506 | 0.000 | — |
 | AP1S2 | 0.493 | 0.000 | — |
@@ -162,6 +162,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PARD6B | BioGRID | 1 |
+| RALBP1 | BioGRID | 1 |
+| PNKP | BioGRID | 1 |
+| TCEA2 | BioGRID | 1 |
+| DAXX | BioGRID | 1 |
+| SOX2 | BioGRID | 1 |
+| AURKA | BioGRID | 1 |
+| LNX1 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8NCY6

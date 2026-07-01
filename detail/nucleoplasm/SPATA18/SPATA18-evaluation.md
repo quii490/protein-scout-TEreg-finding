@@ -228,3 +228,33 @@ Source: https://www.proteinatlas.org/ENSG00000163071-SPATA18/interaction
 | GAS8 | Intact | false |
 | GOLGA2 | Intact | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PAXIP1 | BioGRID | 0 |
+| CEP128 | BioGRID | 0 |
+| ODF2 | BioGRID | 0 |
+| PTEN | BioGRID | 0 |
+| PLK1 | BioGRID | 0 |
+| STAU1 | BioGRID | 0 |
+| MAD1L1 | BioGRID | 0 |
+| TACC3 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/36854/1761_E12_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36854/1761_E12_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36854/2175_B1_42_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36854/2175_B1_41_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36854/2175_B1_40_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36854/2175_B1_39_blue_red_green.jpg)
+

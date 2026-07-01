@@ -170,6 +170,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CCDC22 | STRING | 981 |
+| COMMD3 | STRING | 978 |
+| COMMD9 | STRING | 976 |
+| COMMD1 | STRING | 976 |
+| COMMD5 | STRING | 969 |
+| COMMD6 | STRING | 968 |
+| COMMD8 | STRING | 968 |
+| COMMD10 | STRING | 957 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9H0A8
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000140365-COMMD4/subcellular

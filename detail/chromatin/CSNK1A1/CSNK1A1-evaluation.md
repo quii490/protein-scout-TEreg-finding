@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | CSNK1A1 / Casein kinase I isoform alpha (CK1alpha) |
+| 蛋白名称 | Casein kinase I isoform alpha |
 | 蛋白大小 | 337 aa / 38.9 kDa |
 | UniProt ID | P48729 (KC1A_HUMAN) |
 | 评估日期 | 2026-06-01 |
@@ -161,6 +162,20 @@ CK1alpha通过这些底物间接参与染色质层面的基因调控。其Nuclea
 - [ ] 探索CK1alpha在Nuclear speckle中的底物和功能
 - [ ] 验证Cbx1/HP1beta互作在异染色质调控中的功能意义
 - [ ] 评估CK1alpha在TE调控/重复序列沉默中的潜在角色(通过HP1beta链接)
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| APC | STRING | 999 |
+| AXIN1 | STRING | 999 |
+| GSK3B | STRING | 999 |
+| CTNNB1 | STRING | 999 |
+| CRBN | STRING | 997 |
+| AXIN2 | STRING | 997 |
+| GSK3A | STRING | 991 |
+| MDM4 | STRING | 971 |
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P48729

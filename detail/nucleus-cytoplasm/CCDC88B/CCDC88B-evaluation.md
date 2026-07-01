@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | CCDC88B / BRLZ |
+| 蛋白名称 | Coiled-coil domain-containing protein 88B |
 | 蛋白全名 | Coiled-coil domain-containing protein 88B |
 | 蛋白大小 | 1476 aa / 164.8 kDa |
 | UniProt ID | A6NC98 |
@@ -192,6 +193,34 @@ status: scored
 - [ ] 获取 HPA IF 图像确认核定位
 - [ ] 查阅最新关键文献补充功能细节
 - [ ] 设计体外 DNA/染色质结合实验
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PLEKHA5 | BioGRID | 1 |
+| SRPK2 | BioGRID | 1 |
+| CDC73 | BioGRID | 1 |
+| RALBP1 | BioGRID | 1 |
+| USP2 | BioGRID | 1 |
+| TSG101 | BioGRID | 1 |
+| RBM7 | BioGRID | 1 |
+| EXOSC5 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/26652/1523_A1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/26652/1523_A1_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/26652/249_H4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/26652/249_H4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/26652/251_H4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/26652/251_H4_2_blue_red_green.jpg)
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/A6NC98

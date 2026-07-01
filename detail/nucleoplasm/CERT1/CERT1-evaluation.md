@@ -167,54 +167,33 @@ STRING 15 个预测互作，IntAct 15 个实验互作。调控相关配体占比
 - [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q9Y5P4
-- Protein Atlas: https://www.proteinatlas.org/search/CERT1
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CERT1
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9Y5P4
-- STRING: https://string-db.org/network/9606.CERT1
-- Packet data timestamp: 2026-06-03 04:52:12
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Golgi apparatus (enhanced)。来源: https://www.proteinatlas.org/ENSG00000113163-CERT1/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CSNK1G2 | STRING | 960 |
+| APCS | STRING | 862 |
+| PLEK | STRING | 751 |
 
-![](https://images.proteinatlas.org/35645/380_D7_1_red_green.jpg)
-![](https://images.proteinatlas.org/35645/380_D7_2_red_green.jpg)
-![](https://images.proteinatlas.org/35645/382_D7_1_red_green.jpg)
-![](https://images.proteinatlas.org/35645/382_D7_2_red_green.jpg)
-![](https://images.proteinatlas.org/35645/397_D7_1_red_green.jpg)
-![](https://images.proteinatlas.org/35645/397_D7_2_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q9Y5P4-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/CERT1
+
+### PubMed
+
+**Count: 125**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q9Y5P4 |
-| SMART | SM00233;SM00234; |
-| UniProt Domain [FT] | DOMAIN 23..117; /note="PH"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00145"; DOMAIN 389..618; /note="START"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00197" |
-| InterPro | IPR011993;IPR001849;IPR041952;IPR023393;IPR002913;IPR051213; |
-| Pfam | PF00169;PF01852; |
+| 42333849 | Prognostic Value of Ceramide-Based Lipid Scores in Cardiovascular Disease and Heart Failure: Insights From CERT1, CERT2, and Ceramide Ratios. |
+| 42311766 | Personalized polygenic profiling based on the genetic architecture of lipid metabolism in the Russian population. |
+| 42051775 | Choroid plexus and perivascular space abnormalities in CerTra syndrome: neuroimaging and histological findings. |
+| 41916286 | ER-localized ceramide accumulation contributes to replicative senescence. |
+| 41904120 | Expanding the targeted protein degradation approach with small molecule chimeras directed to the 26S proteasome. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000113163-CERT1/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| ARL6IP1 | Intact, Biogrid | true |
-| CSNK1G2 | Intact, Biogrid | true |
-| ITGB3BP | Intact, Biogrid | true |
-| RTN3 | Intact, Biogrid | true |
-| RTN4 | Intact, Biogrid | true |
-| ACTL8 | Intact | false |
-| APCS | Intact | false |
-| MARK2 | Biogrid | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

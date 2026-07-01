@@ -16,6 +16,7 @@ tags: [protein-scout, sperm, evaluation]
 - **IF 可靠性:** 未获取
 - **PubMed:** 65 篇
 - **精子定位部位:** Annulus、Connecting piece、Flagellar centriole (3 个)
+- **UniProt Subcellular Location:** Cytoplasm, cytoskeleton, cilium axoneme; Cell projection, cilium
 
 ## 2. HPA 精子定位证据
 - **来源:** Annulus、Connecting piece、Flagellar centriole ✓

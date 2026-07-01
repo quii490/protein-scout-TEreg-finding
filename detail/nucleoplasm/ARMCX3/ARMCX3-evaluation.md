@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | ARMCX3 / Armadillo repeat-containing X-linked protein 3 / ALEX3 |
+| 蛋白名称 | Armadillo repeat-containing X-linked protein 3 |
 | 蛋白大小 | 379 aa / 42.5 kDa |
 | UniProt ID | Q9UH62 |
 | 评估日期 | 2026-05-29 |
@@ -153,6 +154,24 @@ status: scored
 - [ ] 验证 NLS 是否真正指导核定位
 - [ ] 探索核内 ARMCX3 是否与转录调控相关
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CLTC | BioGRID | 0 |
+| IMMT | BioGRID | 0 |
+| GPN1 | BioGRID | 0 |
+| RPAP2 | BioGRID | 0 |
+| APP | BioGRID | 0 |
+| ACIN1 | BioGRID | 0 |
+| CSNK2A1 | BioGRID | 0 |
+| MAF1 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9UH62
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000102401-ARMCX3/subcellular
@@ -163,9 +182,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[ARMCX3-PAE.png]]
 

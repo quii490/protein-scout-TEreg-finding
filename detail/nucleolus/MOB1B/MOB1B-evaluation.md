@@ -183,6 +183,24 @@ nuclear_score: 7
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| LATS1 | STRING | 999 |
+| LATS2 | STRING | 996 |
+| MOB1A | STRING | 982 |
+| STK3 | STRING | 972 |
+| SAV1 | STRING | 939 |
+| STK4 | STRING | 920 |
+| STK38 | STRING | 919 |
+| WWTR1 | STRING | 790 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q7L9L4
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000173542-MOB1B

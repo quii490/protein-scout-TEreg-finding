@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | PHF2 / CENP-35, KIAA0662 |
+| 蛋白名称 | Lysine-specific demethylase PHF2 |
 | 蛋白全名 | Lysine-specific demethylase PHF2 |
 | 蛋白大小 | 1096 aa / 120.8 kDa |
 | UniProt ID | O75151 |
@@ -84,6 +85,34 @@ STRING 不可用 (502)。IntAct 互作以 BioID/CXL/Co-IP 为主，包含 NPM1 (
 
 ### 4. 总体评价
 PHF2 是组蛋白去甲基化酶，具有明确的 H3K9me2 催化活性 + rDNA 转录调控功能，与 nucleoli rim 的独特定位一致。优势在于调控结构域突出（PHD+JmjC），且有 9 个 PDB 实验结构覆盖催化域。主要不足：分子量大 (120.8 kDa)，AlphaFold 预测置信度低 (pLDDT 61.4)，文献量中等 (strict=66)，PPI 数据偏弱。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ARID5B | STRING | 976 |
+| JMJD1B | STRING | 701 |
+| KDM3B | STRING | 701 |
+| USP37 | BioGRID | 1 |
+| CDC14B | BioGRID | 1 |
+| FOXA1 | BioGRID | 1 |
+| HNRNPL | BioGRID | 1 |
+| BRD4 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/10831/1853_E4_6_cr5afd73bdef8e3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/10831/1853_E4_22_cr5afd73bdf0274_blue_red_green.jpg)
+![](https://images.proteinatlas.org/10831/88_C2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/10831/88_C2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/10831/1773_H10_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/10831/1773_H10_8_blue_red_green.jpg)
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O75151

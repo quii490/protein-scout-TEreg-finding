@@ -12,6 +12,8 @@
   <nav>
     <a href="../protein_index.html">总表</a>
     <a href="../category/nucleoplasm.html">Nucleoplasm</a><a href="../category/nucleus-cytoplasm.html">Nucleus-cytoplasm</a><a href="../category/nuclear-speckle.html">Nuclear speckle</a><a href="../category/nuclear-body.html">Nuclear body</a><a href="../category/nucleolus.html">Nucleolus</a><a href="../category/nuclear-envelope.html">Nuclear envelope</a><a href="../category/chromatin.html">Chromatin</a><a href="../category/rejected.html">Rejected</a>
+    <a href="../centrosome/index.html">Centrosome</a>
+    <a href="../sperm/index.html">Sperm</a>
   </nav>
 </header><main class="container report-shell"><section class="panel"><h1>TOPORS</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">总分: 38.3</span><span class="badge">核定位: 7</span><a class="button small" href="../protein_index.html">蛋白总表</a><a class="button small" href="../category/nucleoplasm.html">分类页</a></div><p class="source-path">原始 detail 路径: detail/nucleoplasm/TOPORS/TOPORS-evaluation.md</p></section><article class="report-body"><hr>
 <p>type: protein-evaluation gene: &quot;TOPORS&quot; date: 2026-06-01 tags: [protein-scout, nucleoplasm, evaluation] status: scored ---</p>
@@ -88,6 +90,24 @@
 <p>互作网络以 p53/TOP1/SUMO 通路为核心。STRING TP53 (exp 0.785) 和 TOP1 (exp 0.644) 的互作实验支持较好，SUMO E2 UBE2I 和 SUMO1 有中等实验支持。IntAct 含 TP53 (Y2H) 和 TOP1 (pull down direct) 两条关键互作。UniProt 互作记录极少（仅 Rep68）。</p>
 <h4>4. 总体评价</h4>
 <p>TOPORS 是 p53 和 TOP1 的 E3/SUMO 连接酶，核定位明确（PML body + nucleoplasm），文献量适中（strict=67）。主要劣势是 AlphaFold 预测极差（pLDDT 49.0, &lt;50 占 75.6%）、无 PDB 实验结构、蛋白偏大（119 kDa）。与染色质调控的关联主要通过 p53 和 SUMO 通路，缺乏直接的染色质结合结构域。总分较低，适合作为低优先级候补。</p>
+<h4>功能描述</h4>
+<p>Functions as an E3 ubiquitin-protein ligase and as an E3 SUMO1-protein ligase. Probable tumor suppressor involved in cell growth, cell proliferation and apoptosis that regulates p53/TP53 stability through ubiquitin-dependent degradation. May regulate chromatin modification through sumoylation of several chromatin modification-associated proteins. May be involved in DNA damage-induced cell death through IKBKE sumoylation</p>
+<h4>PPI 互作网络</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>互作伙伴</th><th>来源</th><th>评分</th></tr></thead><tbody>
+<tr><td>TP53</td><td>STRING</td><td>952</td></tr>
+<tr><td>TOP1</td><td>STRING</td><td>939</td></tr>
+<tr><td>UBE2I</td><td>STRING</td><td>900</td></tr>
+<tr><td>SUMO1</td><td>STRING</td><td>869</td></tr>
+<tr><td>UBE2D1</td><td>STRING</td><td>829</td></tr>
+<tr><td>KLHL7</td><td>STRING</td><td>811</td></tr>
+<tr><td>PRPF3</td><td>STRING</td><td>806</td></tr>
+<tr><td>PRPF31</td><td>STRING</td><td>800</td></tr>
+</tbody></table></div>
+<h4>TE 调控评估</h4>
+<p>该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。</p>
+<h4>HPA IF 图像</h4>
+<p><figure><img src="https://images.proteinatlas.org/60640/1523_A8_2_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/60640/1523_A8_3_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/60640/1486_D10_1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/60640/1486_D10_2_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/60640/1496_D10_1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/60640/1496_D10_2_blue_red_green.jpg" alt="image"></figure></p>
 <h4>5. 数据来源</h4>
 <ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9NS56</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9NS56</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=TOPORS</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000197579-TOPORS</li></ul>
 <p>HPA IF 图像已本地嵌入。</p>

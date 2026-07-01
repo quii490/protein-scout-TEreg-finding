@@ -95,6 +95,24 @@ STRING top 5 均为中心体/纤毛相关蛋白（PCNT, LRRC45, CROCC, NIN, CEP1
 ### 4. 总体评价
 CNTLN 是一个超大中心体蛋白，负责中心体 cohesion。GO nucleoplasm IDA:HPA 提示存在核定位，但需要以初级定位 centrosome/centriole 为背景理解。归一化总分 58.2/100。核定位置信度受 UniProt Subcellular Location 无 nucleus 记录的限制，建议将 CNTLN 作为低优先级 nucleoplasm 候选，后续如补 IF 原图确认核信号可提升定位置信度。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SP1 | BioGRID | 1 |
+| BRCA1 | BioGRID | 1 |
+| HDAC6 | BioGRID | 1 |
+| NDC80 | BioGRID | 1 |
+| PCM1 | BioGRID | 1 |
+| SOX2 | BioGRID | 1 |
+| YWHAB | BioGRID | 1 |
+| YWHAE | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9NXG0
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9NXG0

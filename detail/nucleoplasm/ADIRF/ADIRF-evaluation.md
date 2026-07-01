@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | ADIRF / AFRO, APM2, C10orf116, Adipogenesis regulatory factor |
+| 蛋白名称 | Adipogenesis regulatory factor |
 | 蛋白大小 | 76 aa / ~8.5 kDa |
 | UniProt ID | Q15847 |
 | 评估日期 | 2026-05-29 |
@@ -171,6 +172,34 @@ status: scored
 - [ ] 探究 ADIRF 是否通过 PPARG 间接影响染色质状态
 - [ ] 研究 ADIRF-AS1 lncRNA 与 PBAF 复合体的相互作用是否与 ADIRF 蛋白功能耦合
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PPARG | STRING | 789 |
+| NR1C3 | STRING | 789 |
+| GSK3B | BioGRID | 1 |
+| RPS6KA6 | BioGRID | 1 |
+| MIF | BioGRID | 1 |
+| TOP3B | BioGRID | 1 |
+| USP4 | BioGRID | 1 |
+| IL18 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/26810/259_G8_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/26810/259_G8_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/26810/1033_H2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/26810/1033_H2_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/26810/260_G8_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/26810/260_G8_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q15847
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000148671-ADIRF/subcellular
@@ -181,9 +210,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[ADIRF-PAE.png]]
 

@@ -62,6 +62,34 @@ status: scored
 
 RPRD2 is 1461 amino acids (156.0 kDa), placing it in the 1200-2000 aa range. This is considerably larger than the ideal 200-800 aa range. The protein is a scaffold within the transcription preinitiation complex, where large size is expected for proteins that serve as assembly platforms for multiple interaction partners. The paralog RPRD1A is much smaller (312 aa), suggesting RPRD2 may have gained additional domains or regulatory regions. Score 5/10 reflects the large size category.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RPAP2 | STRING | 970 |
+| RPRD1B | STRING | 939 |
+| POLR2G | STRING | 922 |
+| POLR2B | STRING | 843 |
+| SUPT5H | STRING | 813 |
+| SCAF8 | STRING | 757 |
+| PCF11 | STRING | 754 |
+| RPRD1A | STRING | 749 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/61693/1080_A4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/61693/1080_A4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/61693/1178_F5_8_blue_red_green.jpg)
+![](https://images.proteinatlas.org/61693/1178_F5_9_blue_red_green.jpg)
+![](https://images.proteinatlas.org/61693/1102_A4_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/61693/1102_A4_6_blue_red_green.jpg)
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

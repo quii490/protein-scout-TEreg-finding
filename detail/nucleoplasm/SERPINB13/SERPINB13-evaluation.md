@@ -62,6 +62,34 @@ status: accepted
 
 391 aa -- within the ideal range for biochemical, structural, and cell-based approaches. Score: 10/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SGOL2 | BioGRID | 0 |
+| GMCL1 | BioGRID | 0 |
+| RBM24 | BioGRID | 0 |
+| EIF2B1 | BioGRID | 0 |
+| ROR1 | BioGRID | 0 |
+| BSDC1 | BioGRID | 0 |
+| BRAP | BioGRID | 0 |
+| C1orf198 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/52630/1582_C12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/52630/1582_C12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/52630/1560_D3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/52630/1560_D3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/52630/1556_C12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/52630/1556_C12_2_blue_red_green.jpg)
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

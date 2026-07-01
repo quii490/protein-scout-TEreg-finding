@@ -171,6 +171,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CTPS | STRING | 983 |
+| CTPS1 | STRING | 983 |
+| NME7 | STRING | 936 |
+| NUDT2 | STRING | 936 |
+| NME2 | STRING | 936 |
+| ITPA | STRING | 815 |
+| POLR1A | STRING | 768 |
+| RPA1 | STRING | 768 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/75930/1973_E11_20_cr5de79b1d97233_blue_red_green.jpg)
+![](https://images.proteinatlas.org/75930/1973_E11_28_cr5de79b1d9788b_blue_red_green.jpg)
+![](https://images.proteinatlas.org/75930/1891_K14_20_cr5bbdd795dc22e_blue_red_green.jpg)
+![](https://images.proteinatlas.org/75930/1891_K14_30_cr5bbdd795dc156_blue_red_green.jpg)
+![](https://images.proteinatlas.org/75930/1913_N21_31_blue_red_green.jpg)
+![](https://images.proteinatlas.org/75930/1913_N21_32_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9NRF8
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000047230-CTPS2/subcellular

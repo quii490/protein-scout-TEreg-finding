@@ -101,6 +101,24 @@ PCGF6 PPI 网络极为完整，以 PRC1.6 非经典 Polycomb 复合体为核心�
 ### 4. 总体评价
 PCGF6 是本批次评分最高的基因之一。作为非经典 PRC1.6 复合体核心，核定位有强大的 UniProt/GO-CC 支持，PPI 网络极为完整（PRC1 多组分实验互作）。研究热度低 (strict=31)，新颖性良好。结构数据中等（仅 1 PDB, mean pLDDT 72.0）。PRC1.6 作为与经典 PRC1 不同的 Polycomb 变体，niche 空间充足。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| YAF2 | STRING | 999 |
+| BAP1 | STRING | 999 |
+| RNF2 | STRING | 999 |
+| RING1 | STRING | 999 |
+| L3MBTL2 | STRING | 997 |
+| E2F6 | STRING | 997 |
+| CBX3 | STRING | 996 |
+| RYBP | STRING | 996 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9BYE7
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9BYE7

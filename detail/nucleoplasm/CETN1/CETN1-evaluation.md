@@ -167,54 +167,38 @@ STRING 15 个预测互作，IntAct 15 个实验互作。调控相关配体占比
 - [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q12798
-- Protein Atlas: https://www.proteinatlas.org/search/CETN1
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CETN1
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q12798
-- STRING: https://string-db.org/network/9606.CETN1
-- Packet data timestamp: 2026-06-03 04:53:04
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (supported)。来源: https://www.proteinatlas.org/ENSG00000177143-CETN1/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| POC5 | STRING | 935 |
+| PISD | STRING | 924 |
+| NIN | STRING | 867 |
+| ENY2 | STRING | 804 |
+| PCM1 | STRING | 762 |
+| CETN2 | STRING | 741 |
+| CEP290 | STRING | 740 |
+| CEP164 | STRING | 721 |
 
-![](https://images.proteinatlas.org/28956/2204_A11_44_blue_red_green.jpg)
-![](https://images.proteinatlas.org/28956/2204_A11_9_blue_red_green.jpg)
-![](https://images.proteinatlas.org/69157/2200_B10_40_blue_red_green.jpg)
-![](https://images.proteinatlas.org/69157/2200_B10_8_blue_red_green.jpg)
-![](https://images.proteinatlas.org/28956/329_E8_1_red_green.jpg)
-![](https://images.proteinatlas.org/28956/329_E8_3_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q12798-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/CETN1
+
+### PubMed
+
+**Count: 30**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q12798 |
-| SMART | SM00054; |
-| UniProt Domain [FT] | DOMAIN 28..63; /note="EF-hand 1"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00448"; DOMAIN 64..99; /note="EF-hand 2"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00448"; DOMAIN 101..136; /note="EF-hand 3"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00448"; DOMAIN 137..172; /note="EF-hand 4"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00448" |
-| InterPro | IPR050145;IPR011992;IPR018247;IPR002048;IPR000629; |
-| Pfam | PF13499; |
+| 41020723 | Identification and validation of centrosome-related features predicting prognosis in hepatocellular carcinoma. |
+| 39008339 | Identification of potential differences in salivary proteomic profiles between estrus and diestrus stage of estrous cycle in dairy cows. |
+| 37699389 | Centrins control chicken cone cell lipid droplet dynamics through lipid-droplet-localized SPDL1. |
+| 37629094 | Genomic Scan for Runs of Homozygosity and Selective Signature Analysis to Identify Candidate Genes in Large White Pigs. |
+| 36125182 | Human SFI1 and Centrin form a complex critical for centriole architecture and ciliogenesis. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000177143-CETN1/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| POC5 | Intact, Biogrid, Bioplex | true |
-| SGSM1 | Intact, Biogrid | true |
-| CCDC191 | Bioplex | false |
-| CCP110 | Biogrid | false |
-| CETN2 | Bioplex | false |
-| CETN3 | Bioplex | false |
-| EFCAB11 | Bioplex | false |
-| ENY2 | Bioplex | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -50,6 +50,48 @@ status: scored
 
 SPAG7 is 227 amino acids in length (~26.0 kDa). Ideal size (227 aa), suitable for standard biochemical experiments. Score 10/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| FAM220A | STRING | 952 |
+| NLE1 | BioGRID | 1 |
+| EWSR1 | BioGRID | 1 |
+| EGFR | BioGRID | 1 |
+| ANAPC13 | BioGRID | 1 |
+| SPAG7 | BioGRID | 1 |
+| UBA2 | BioGRID | 1 |
+| LMNA | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/24032/181_A12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/24032/181_A12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/24032/180_A12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/24032/180_A12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/24032/182_A12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/24032/182_A12_2_blue_red_green.jpg)
+
+
+### PubMed
+
+**Count: 13**
+
+| PMID | Title |
+|---|---|
+| 42274543 | Multi-Omics Dissection of the Shared Genetic Architecture Between Sleep Traits and Epilepsy. |
+| 39056292 | SPAG7 deletion causes intrauterine growth restriction, resulting in adulthood obesity and metabolic dysfunction. |
+| 37304876 | Alterations in gene expressions of Caco-2 cell responses to LPS and ploy(I:C) stimulation. |
+| 36871032 | Expression of SPAG7 and its regulatory microRNAs in seminal plasma and seminal plasma-derived extracellular vesicles of patients with subfertility. |
+| 34862790 | Sperm associated antigen 7 is activated by T3 during Xenopus tropicalis metamorphosis via a thyroid hormone response element within the first intron. |
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

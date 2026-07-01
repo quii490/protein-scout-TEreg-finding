@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | AHCTF1 / Protein ELYS / MEL-28 |
+| 蛋白名称 | Protein ELYS |
 | 蛋白大小 | 2266 aa / 252.5 kDa |
 | UniProt ID | Q8WYP5 |
 | 评估日期 | 2026-05-29 |
@@ -155,6 +156,34 @@ status: scored
 - [ ] 利用 PDB 7R5K EM 结构进行同源建模
 - [ ] 探索 ELYS 在转录调控中的非核孔复合体角色
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NUP107 | STRING | 999 |
+| NUP133 | STRING | 999 |
+| NUP37 | STRING | 999 |
+| NUP160 | STRING | 999 |
+| NUP98 | STRING | 998 |
+| NUP43 | STRING | 998 |
+| SEH1L | STRING | 998 |
+| NUP85 | STRING | 995 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/31658/373_D3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/31658/373_D3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/31658/370_D3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/31658/370_D3_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/31658/366_D3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/31658/366_D3_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8WYP5
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000153207-AHCTF1/subcellular
@@ -165,9 +194,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[AHCTF1-PAE.png]]
 

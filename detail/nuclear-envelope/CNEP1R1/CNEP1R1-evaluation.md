@@ -167,37 +167,32 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q8N9A8
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000205423-CNEP1R1/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CNEP1R1
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8N9A8
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ELAVL1 | BioGRID | 1 |
+| UBE2N | BioGRID | 1 |
+| RNF4 | BioGRID | 1 |
+| ESR1 | BioGRID | 1 |
+| SREBF2 | BioGRID | 1 |
+| CTDNEP1 | BioGRID | 0 |
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q8N9A8-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### TE 调控评估
 
-### SMART / UniProt domain
-| Source | Data |
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+HPA 检索: https://www.proteinatlas.org/search/CNEP1R1
+
+### PubMed
+
+**Count: 1**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q8N9A8 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR019168; |
-| Pfam | PF09771; |
+| 40901985 | Cross-Trait Meta-Analysis Reveals a Genetic Link between Inflammation and Aging in Giant Cell Arteritis. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000205423-CNEP1R1/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| CTDNEP1 | Intact | false |
-| UBE2N | Biogrid | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -68,6 +68,24 @@ HPA IF images not reliably obtained (no subcellular IF images available on HPA s
 
 **Research Volume Assessment**: Low (<50 papers), ample research space
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| COPS3 | STRING | 999 |
+| COPS2 | STRING | 999 |
+| COPS6 | STRING | 999 |
+| COPS7A | STRING | 999 |
+| GPS1 | STRING | 999 |
+| COPS5 | STRING | 999 |
+| COPS7B | STRING | 999 |
+| COPS4 | STRING | 999 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. AlphaFold / PAE / PDB
 
 #### AlphaFold

@@ -184,6 +184,20 @@ status: scored
 - [ ] 探索 FIGNL1 是否影响 TE 来源的 R-loop 或重复序列稳定性
 - [ ] FIGNL1-IKZF1 相互作用的实验验证
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SPIDR | STRING | 870 |
+| RAD51 | STRING | 783 |
+| FANCM | STRING | 715 |
+| HSPA1L | BioGRID | 1 |
+| KDM1A | BioGRID | 1 |
+| TSC22D3 | BioGRID | 1 |
+| C1ORF112 | BioGRID | 1 |
+| THAP11 | BioGRID | 1 |
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q6PIW4
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q6PIW4
@@ -195,9 +209,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[FIGNL1-PAE.png]]
 

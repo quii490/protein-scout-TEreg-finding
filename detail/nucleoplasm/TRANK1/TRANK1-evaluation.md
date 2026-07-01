@@ -175,6 +175,45 @@ status: scored
 - [ ] CRISPR 敲除/敲低表型分析
 - [ ] AlphaFold-Multimer 预测潜在复合体结构
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CBX2 | BioGRID | 0 |
+| CBX4 | BioGRID | 0 |
+| KIF14 | BioGRID | 0 |
+| PARK2 | BioGRID | 0 |
+| FBXO22 | BioGRID | 0 |
+| RPL35 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/35508/389_C8_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35508/389_C8_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35508/398_C8_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35508/398_C8_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35508/381_C8_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35508/381_C8_2_blue_red_green.jpg)
+
+
+### PubMed
+
+**Count: 36**
+
+| PMID | Title |
+|---|---|
+| 41668247 | Genome Sequencing in 19 Families With Bladder Exstrophy and Epispadias Complex Indicates Involvement of the ADGR -Gene Family. |
+| 40972056 | Increased plasma TRANK1 levels in first-episode drug-naïve schizophrenia: Association with delayed memory decline. |
+| 40562893 | Fine-mapping genomic loci refines bipolar disorder risk genes. |
+| 39326774 | Trio-based whole-exome sequencing of 200 Chinese patients with keratoconus. |
+| 38806484 | The amyloid precursor protein and its derived fragments concomitantly contribute to the alterations of mitochondrial transport machinery in Alzheimer' |
+
+
 ### 5. 数据来源
 
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=TRANK1
@@ -188,9 +227,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 <!-- DOMAIN_HUMANPPI_REPAIR_START -->
 ## Domain/SMART 与 humanPPI 补充（2026-06-07）

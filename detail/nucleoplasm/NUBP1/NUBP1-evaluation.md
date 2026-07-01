@@ -167,6 +167,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CIAO1 | STRING | 969 |
+| MMS19 | STRING | 930 |
+| NUBP2 | STRING | 922 |
+| CIAO2B | STRING | 894 |
+| ISCU | STRING | 820 |
+| NFS1 | STRING | 798 |
+| CIAO2A | STRING | 791 |
+| NFU1 | STRING | 737 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/41656/571_B1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41656/571_B1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41656/544_B1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41656/544_B1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41656/542_B1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41656/542_B1_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P53384
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000103274-NUBP1/subcellular

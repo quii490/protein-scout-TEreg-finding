@@ -157,6 +157,18 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ZNF354A | STRING | 700 |
+| HEL104 | STRING | 700 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/A6NGY1
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000172969-FRG2C/subcellular

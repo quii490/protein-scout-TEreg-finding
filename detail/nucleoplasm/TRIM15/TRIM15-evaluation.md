@@ -82,6 +82,24 @@ PPI 网络以 Y2H 互作为主，涵盖 Wnt/Axin1、细胞周期、免疫及黏�
 ### 4. 总体评价
 TRIM15 为近年关注度上升的 TRIM 家族 E3 ligase（RING + B-box + SPRY），PubMed=29 属中低文献量。HPA IF 不确认核定位为其主要弱点（仅 Cytosol/Centriolar satellite），虽 UniProt IDA 支持核定位，定位证据矛盾需补内源 IF。结构预测中等（AF pLDDT 83.9），SPRY domain 已有晶体结构。建议优先补 IF 确认核定位后再决定是否深入。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| UBE2U | BioGRID | 1 |
+| GTF2E1 | BioGRID | 1 |
+| IRF5 | BioGRID | 1 |
+| MYBL2 | BioGRID | 1 |
+| MED7 | BioGRID | 1 |
+| SNW1 | BioGRID | 1 |
+| TAF9B | BioGRID | 1 |
+| EHMT1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9C019
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9C019

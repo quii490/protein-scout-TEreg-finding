@@ -156,6 +156,24 @@ status: scored
 - [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ABI1 | STRING | 999 |
+| CYFIP2 | STRING | 999 |
+| RAC1 | STRING | 964 |
+| WAS | STRING | 937 |
+| ACTR2 | STRING | 813 |
+| ACTR3 | STRING | 715 |
+| ACTBL2 | BioGRID | 1 |
+| CDKN2A | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 
 - UniProt: https://www.uniprot.org/uniprotkb/Q8WUW1

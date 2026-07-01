@@ -168,54 +168,36 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q92805
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000136935-GOLGA1/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=GOLGA1
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q92805
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Golgi apparatus (enhanced)。来源: https://www.proteinatlas.org/ENSG00000136935-GOLGA1/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ARL1 | BioGRID | 0 |
+| RAB6A | BioGRID | 0 |
+| SVIP | BioGRID | 0 |
+| ATXN10 | BioGRID | 0 |
+| ATF4 | BioGRID | 0 |
+| VPS52 | BioGRID | 0 |
+| TFIP11 | BioGRID | 0 |
+| PDCL2 | BioGRID | 0 |
 
-![](https://images.proteinatlas.org/13065/653_C2_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/13065/653_C2_3_blue_red_green.jpg)
-![](https://images.proteinatlas.org/13065/658_C2_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/13065/658_C2_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/13065/659_C2_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/13065/659_C2_2_blue_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q92805-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白缺乏核/染色质定位证据，TE 调控潜力较低。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-07）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/GOLGA1
+
+### PubMed
+
+**Count: 3**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q92805 |
-| SMART | SM00755; |
-| UniProt Domain [FT] | DOMAIN 688..737; /note="GRIP"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00250" |
-| InterPro | IPR051952;IPR000237; |
-| Pfam | PF01465; |
+| 37508488 | Golgi Apparatus Target Proteins in Gastroenterological Cancers: A Comprehensive Review of GOLPH3 and GOLGA Proteins. |
+| 31142229 | Axonal autophagosome maturation defect through failure of ATG9A sorting underpins pathology in AP-4 deficiency syndrome. |
+| 17394773 | Identification of novel universal housekeeping genes by statistical analysis of microarray data. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000136935-GOLGA1/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| ARL1 | Biogrid | false |
-| ATF4 | Intact | false |
-| EFHC2 | Intact | false |
-| HSF2BP | Intact | false |
-| KIAA1328 | Intact | false |
-| KRT27 | Intact | false |
-| LZTS1 | Intact | false |
-| PPP1R13B | Intact | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

@@ -96,3 +96,37 @@ Source: https://www.proteinatlas.org/ENSG00000164331-ANKRA2/interaction
 | NEK6 | Biogrid | false |
 | RFX5 | Biogrid | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| LRP2 | BioGRID | 0 |
+| HDAC4 | BioGRID | 0 |
+| HDAC5 | BioGRID | 0 |
+| HDAC9 | BioGRID | 0 |
+| AHRR | BioGRID | 0 |
+| RFX5 | BioGRID | 0 |
+| HDAC3 | BioGRID | 0 |
+| ABL1 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+
+### PubMed
+
+**Count: 22**
+
+| PMID | Title |
+|---|---|
+| 41959735 | Receptor-mediated endocytosis by Megalin: Exploring its role in ligand interaction and disease mechanisms. |
+| 39181888 | p53 target ANKRA2 cooperates with RFX7 to regulate tumor suppressor genes. |
+| 37610843 | Altered G-Protein Transduction Protein Gene Expression in the Testis of Infertile Patients with Nonobstructive Azoospermia. |
+| 36848325 | gBLUP-GWAS identifies candidate genes, signaling pathways, and putative functional polymorphisms for age at puberty in gilts. |
+| 34718924 | Effect of selected single nucleotide polymorphisms in SLC11A1, ANKRA2, IFNG and PGLYRP1 genes on host susceptibility to Mycobacterium avium subspecies |
+
+

@@ -170,6 +170,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| KDM1B | STRING | 947 |
+| HIST1H2BJ | STRING | 941 |
+| KDM1A | STRING | 897 |
+| H3F3A | STRING | 808 |
+| H3F3B | STRING | 808 |
+| ELAVL1 | BioGRID | 1 |
+| SIRT7 | BioGRID | 1 |
+| DHX9 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q49A26
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000140632-GLYR1/subcellular

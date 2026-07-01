@@ -165,54 +165,38 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q86WP2
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000062194-GPBP1/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=GPBP1
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q86WP2
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Vesicles (approved)。来源: https://www.proteinatlas.org/ENSG00000062194-GPBP1/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MCRS1 | BioGRID | 1 |
+| HNRNPD | BioGRID | 1 |
+| SLX1A | BioGRID | 1 |
+| OTUB2 | BioGRID | 1 |
+| DUSP14 | BioGRID | 1 |
+| SELENBP1 | BioGRID | 1 |
+| EPB41L5 | BioGRID | 1 |
+| EIF3A | BioGRID | 1 |
 
-![](https://images.proteinatlas.org/37773/422_H5_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/37773/422_H5_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/37773/423_H5_4_blue_red_green.jpg)
-![](https://images.proteinatlas.org/37773/423_H5_5_blue_red_green.jpg)
-![](https://images.proteinatlas.org/37773/426_H5_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/37773/426_H5_2_blue_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q86WP2-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/GPBP1
+
+### PubMed
+
+**Count: 10**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q86WP2 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR028128; |
-| Pfam | PF15337; |
+| 40708043 | Transplantation of miR-216a-5p-overexpressing mesenchymal stem cells encapsulated in a thermosensitive hydrogel promotes functional recovery in a rat  |
+| 35596061 | Loss of RTN3 phenocopies chronic kidney disease and results in activation of the IGF2-JAK2 pathway in proximal tubular epithelial cells. |
+| 34829754 | Identification of Disease-Related Genes That Are Common between Alzheimer's and Cardiovascular Disease Using Blood Genome-Wide Transcriptome Analysis. |
+| 30377252 | Unicellular ancestry and mechanisms of diversification of Goodpasture antigen-binding protein. |
+| 29669295 | A Quantitative Chemotherapy Genetic Interaction Map Reveals Factors Associated with PARP Inhibitor Resistance. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000062194-GPBP1/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| FNDC11 | Intact, Biogrid | true |
-| EIF3B | Opencell | false |
-| FAM161A | Intact | false |
-| HSF2BP | Intact | false |
-| MCRS1 | Intact | false |
-| MORF4L2 | Intact | false |
-| NXF1 | Intact | false |
-| PCMT1 | Biogrid | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

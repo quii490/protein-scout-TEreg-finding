@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | ABT1 / hABT1 (Activator of Basal Transcription 1) |
+| 蛋白名称 | Activator of basal transcription 1 |
 | 蛋白大小 | 272 aa / 31.1 kDa |
 | UniProt ID | Q9ULW3 (ABT1_HUMAN) |
 | 评估日期 | 2026-05-28 |
@@ -236,6 +237,34 @@ status: scored
 - [ ] **SMARD1机制延展**: 利用已有的IGHMBP2-ABT1复合体知识，探索ABT1在运动神经元疾病中的核仁应激/转录调控角色
 - [ ] **结构域功能验证**: 通过截短体和点突变解析RRM、coiled-coil、C端保守域的各自功能
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| DDX49 | STRING | 998 |
+| ESF1 | STRING | 995 |
+| RRP36 | STRING | 995 |
+| DDX10 | STRING | 992 |
+| BYSL | STRING | 991 |
+| KRR1 | STRING | 988 |
+| DHX15 | STRING | 984 |
+| NOP14 | STRING | 983 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 实验数据，可能在基因组水平参与 TE 调控。建议分析 ChIP 峰在 TE 区域的富集情况。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/77039/1662_F3_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/77039/1662_F3_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/77039/1758_C7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/77039/1758_C7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/77039/1756_C7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/77039/1756_C7_3_blue_red_green.jpg)
+
+
 ### 5. 关键文献
 
 1. Oda T et al. (2000). "A novel TATA-binding protein-binding protein, ABT1, activates basal transcription and has a yeast homolog that is essential for growth". *Mol Cell Biol*, 20(4):1407-18. PMID: 10648625
@@ -260,9 +289,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 
 PAE 图像已获取。结构判断基于 AlphaFold pLDDT 统计。

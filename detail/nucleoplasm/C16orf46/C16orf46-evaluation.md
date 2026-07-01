@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 | C16orf46 |
+| 蛋白名称 | Uncharacterized protein C16orf46 |
 | 蛋白全名 | Uncharacterized protein C16orf46 |
 | 蛋白大小 | 395 aa / ~44 kDa |
 | UniProt ID | Q6P387 |
@@ -55,6 +56,29 @@ PubMed strict: 1
 | PubMed broad | 1 |
 
 **关键文献**: PMID:29678742 (Life Sci, 2018) — C16orf46 作为肝癌预后六基因签名组成基因。无独立功能研究。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SNRPB | BioGRID | 1 |
+| C16orf46 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### ESMFold 结构预测
+
+| 指标 | 数值 |
+|---|---|
+| 平均 pLDDT | 0.27 |
+| >0.9 | 0.0% |
+| <0.5 | 97.7% |
+| 残基数 | 395 |
+
+ESMFold 从头折叠验证。PDB: `detail/_esm_structures/C16orf46_esmfold.pdb`
 
 ### 5. 三维结构
 

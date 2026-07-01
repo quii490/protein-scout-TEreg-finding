@@ -85,7 +85,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 | 有序区域 (pLDDT>70) 占比 | 46.6% |
 | 可用 PDB 条目 | 无 |
 
-**PAE**: PAE 图像未生成本地文件，结构判断基于 AlphaFold pLDDT 统计。
+**PAE 图像说明**: AlphaFold PAE 图像已重新获取并嵌入（见下方 PAE 图像修正块）；结构判断仍结合 pLDDT 与 PAE 综合判断。
 
 **评价**: AlphaFold 预测质量有限（pLDDT=66.8），有序残基占 46.6%。
 
@@ -161,6 +161,23 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SF3A2 | BioGRID | 1 |
+| CCNG2 | BioGRID | 1 |
+| ELF5 | BioGRID | 1 |
+| BANP | BioGRID | 1 |
+| HDAC7 | BioGRID | 1 |
+| ZNF76 | BioGRID | 1 |
+| AKT1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9BQI9
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000053702-NRIP2/subcellular
@@ -200,3 +217,9 @@ Source: https://www.proteinatlas.org/ENSG00000053702-NRIP2/interaction
 | BANP | Intact | false |
 | ZNF76 | Intact | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+<!-- AF_PAE_REPAIR_START -->
+**PAE 图像修正（2026-07-01）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+
+![](https://alphafold.ebi.ac.uk/files/AF-Q9BQI9-F1-predicted_aligned_error_v6.png)
+<!-- AF_PAE_REPAIR_END -->

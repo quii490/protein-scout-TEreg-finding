@@ -169,6 +169,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SUPT6H | STRING | 999 |
+| POLR2B | STRING | 999 |
+| POLR2D | STRING | 999 |
+| SUPT5H | STRING | 999 |
+| POLR2C | STRING | 998 |
+| POLR2I | STRING | 998 |
+| RTF1 | STRING | 998 |
+| POLR2G | STRING | 998 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P63272
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000213246-SUPT4H1/subcellular

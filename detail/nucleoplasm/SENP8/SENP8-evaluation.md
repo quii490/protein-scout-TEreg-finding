@@ -53,6 +53,24 @@ status: accepted
 
 212 aa -- moderately sized, acceptable for most experimental approaches. Score: 7/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| AKIP1 | BioGRID | 0 |
+| NEDD8 | BioGRID | 0 |
+| CUL1 | BioGRID | 0 |
+| CUL4A | BioGRID | 0 |
+| USP21 | BioGRID | 0 |
+| USP15 | BioGRID | 0 |
+| USP28 | BioGRID | 0 |
+| RPS14 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

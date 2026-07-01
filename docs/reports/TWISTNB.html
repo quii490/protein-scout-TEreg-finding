@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TWISTNB · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">总表</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a><a href="../category/nucleus-cytoplasm.html">Nucleus-cytoplasm</a><a href="../category/nuclear-speckle.html">Nuclear speckle</a><a href="../category/nuclear-body.html">Nuclear body</a><a href="../category/nucleolus.html">Nucleolus</a><a href="../category/nuclear-envelope.html">Nuclear envelope</a><a href="../category/chromatin.html">Chromatin</a><a href="../category/rejected.html">Rejected</a>
+    <a href="../centrosome/index.html">Centrosome</a>
+    <a href="../sperm/index.html">Sperm</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>TWISTNB</h1><div class="report-meta"><span class="badge muted">rejected</span><span class="badge">rejected</span><span class="badge">总分: NA</span><span class="badge">核定位: 0</span><a class="button small" href="../protein_index.html">蛋白总表</a><a class="button small" href="../category/rejected.html">分类页</a></div><p class="source-path">原始 detail 路径: detail/rejected/TWISTNB/TWISTNB-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;TWISTNB&quot; date: 2026-06-28 tags: [protein-scout, rejected, evaluation] status: rejected ---</p>
+<h3>TWISTNB — REJECTED (核定位证据不足 (核定位得分 0/10))</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名</td><td>TWISTNB</td></tr>
+<tr><td>蛋白名称</td><td>TWIST neighbor (TWISTNB, POLR1F-like, RNA polymerase I subunit-associated)</td></tr>
+<tr><td>蛋白大小</td><td>328 aa / ~37 kDa</td></tr>
+<tr><td>UniProt ID</td><td>Q5T6N3</td></tr>
+<tr><td>评估日期</td><td>2026-06-28</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>核定位特异性</td><td>0/10</td><td>×4</td><td>0</td><td>核仁相关但hpa_nuclear=False</td></tr>
+<tr><td>蛋白大小</td><td>3/10</td><td>×1</td><td>3</td><td>328 aa</td></tr>
+<tr><td>研究新颖性</td><td>7/10</td><td>×5</td><td>35</td><td>PubMed=~15</td></tr>
+<tr><td>三维结构</td><td>4/10</td><td>×3</td><td>12</td><td>AlphaFold中等</td></tr>
+<tr><td>调控结构域</td><td>3/10</td><td>×2</td><td>6</td><td>RPOLD domain-like</td></tr>
+<tr><td>PPI 网络</td><td>4/10</td><td>×3</td><td>12</td><td>PPI degree=17</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>68/180</strong></td><td></td></tr>
+<tr><td><strong>归一化总分</strong></td><td></td><td></td><td><strong>38/100</strong></td><td></td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<p><strong>GO Cellular Component</strong>:</p>
+<ul><li>RNA polymerase I complex (GO:0005736)</li><li>nucleolus (predicted by association, not confirmed)</li></ul>
+<p><strong>结论</strong>: 虽然TWISTNB与RNA聚合酶I相关（POLR1F样蛋白），理论上为核仁蛋白，但在当前筛选中因hpa_nuclear=False且未列为核蛋白准入基因，故按标准拒绝。该蛋白参与rRNA转录，涉及45S pre-rRNA的合成，但核仁定位缺乏直接的HPA实验验证。</p>
+<h5>3.2 蛋白大小、研究现状、结构、结构域、PPI（各1-2行简要说明）</h5>
+<ul><li><strong>蛋白大小</strong>: 328 aa，较小蛋白。</li><li><strong>研究现状</strong>: 很少研究（PubMed约15篇），主要因基因组位置与TWIST1基因相邻而命名，功能研究不足。</li><li><strong>三维结构</strong>: 无实验结构，AlphaFold预测覆盖中等。</li><li><strong>结构域</strong>: RPOLD（RNA polymerase Rpc34-like）结构域。</li><li><strong>PPI</strong>: PPI度=17，与RNA Pol I亚基有一定相互作用网络。</li></ul>
+<h4>4. 总体评价</h4>
+<p><strong>推荐等级</strong>: REJECTED</p>
+<p><strong>核心结论</strong>: TWISTNB — POLR1F样蛋白，与RNA聚合酶I相关。虽然功能上可能涉及核仁rRNA转录，但按照当前筛选标准（hpa_nuclear=False），核定位证据不足。不建议作为核蛋白研究目标。</p>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q5T6N3</li><li>Protein Atlas: https://www.proteinatlas.org/search/TWISTNB</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=TWISTNB</li><li>AlphaFold: https://alphafold.ebi.ac.uk/search/text/TWISTNB</li></ul></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

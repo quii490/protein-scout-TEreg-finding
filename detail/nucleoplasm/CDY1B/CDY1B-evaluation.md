@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | CDY1B / Chromodomain Y-linked 1B |
+| 蛋白名称 | Testis-specific chromodomain protein Y 1 |
 | 蛋白大小 | ~540 aa |
 | UniProt ID | Q9Y6F8 |
 | 评估日期 | 2026-06-01 |
@@ -148,3 +149,17 @@ Source: https://www.proteinatlas.org/ENSG00000172352-CDY1B/interaction
 
 未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| UBC | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q9Y6F8-F1-predicted_aligned_error_v6.png)

@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | BRF2 / TFIIIB50, BRFU |
+| 蛋白名称 | Polygalacturonase inhibiting protein 2 |
 | 蛋白大小 | 454 aa / 49.9 kDa |
 | UniProt ID | A0AAQ5BHI0 |
 | 评估日期 | 2026-05-29 |
@@ -156,6 +157,30 @@ status: scored
 - [ ] 鉴定 BRF2 是否参与非 Pol III 转录调控
 - [ ] 推荐作为 Pol III 转录研究
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TBP | STRING | 999 |
+| BDP1 | STRING | 999 |
+| GTF3C3 | STRING | 968 |
+| POLR3F | STRING | 966 |
+| MAPKAPK2 | STRING | 926 |
+| POLR3A | STRING | 923 |
+| ZFP36L1 | STRING | 917 |
+| POLR3B | STRING | 910 |
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/19269/618_F2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/19269/618_F2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/19269/611_F2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/19269/611_F2_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/19269/614_F2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/19269/614_F2_2_blue_red_green.jpg)
+
+
 ### 5. 关键文献
 
 1. Teichmann M et al. (2000). 'Human TFIIIB subunits.' J Biol Chem. PMID: 10748114
@@ -173,9 +198,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[BRF2-PAE.png]]
 

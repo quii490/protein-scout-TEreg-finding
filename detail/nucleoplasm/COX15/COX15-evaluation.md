@@ -162,6 +162,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MRPS14 | BioGRID | 1 |
+| MRPL15 | BioGRID | 1 |
+| NDUFA9 | BioGRID | 1 |
+| RPL12 | BioGRID | 1 |
+| RPL27 | BioGRID | 1 |
+| CENPV | BioGRID | 1 |
+| PABPC1 | BioGRID | 1 |
+| RPL30 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q7KZN9
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000014919-COX15/subcellular

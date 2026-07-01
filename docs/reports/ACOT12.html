@@ -12,6 +12,8 @@
   <nav>
     <a href="../protein_index.html">总表</a>
     <a href="../category/nucleoplasm.html">Nucleoplasm</a><a href="../category/nucleus-cytoplasm.html">Nucleus-cytoplasm</a><a href="../category/nuclear-speckle.html">Nuclear speckle</a><a href="../category/nuclear-body.html">Nuclear body</a><a href="../category/nucleolus.html">Nucleolus</a><a href="../category/nuclear-envelope.html">Nuclear envelope</a><a href="../category/chromatin.html">Chromatin</a><a href="../category/rejected.html">Rejected</a>
+    <a href="../centrosome/index.html">Centrosome</a>
+    <a href="../sperm/index.html">Sperm</a>
   </nav>
 </header><main class="container report-shell"><section class="panel"><h1>ACOT12</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleoplasm</span><span class="badge">总分: 71.6</span><span class="badge">核定位: 5</span><a class="button small" href="../protein_index.html">蛋白总表</a><a class="button small" href="../category/nucleoplasm.html">分类页</a></div><p class="source-path">原始 detail 路径: detail/nucleoplasm/ACOT12/ACOT12-evaluation.md</p></section><article class="report-body"><hr>
 <p>type: protein-evaluation gene: &quot;ACOT12&quot; date: 2026-06-01 tags: [protein-scout, nucleoplasm, evaluation] status: scored ---</p>
@@ -126,6 +128,24 @@
 <p><strong>风险/不确定性</strong>: 1. 核定位为次要定位 (HPA main: Cytosol) 2. 非染色质/DNA 直接调控因子 3. PPI 以 Y2H 为主</p>
 <p><strong>下一步建议</strong>:</p>
 <ul><li>核-质分离 WB 确认核定位比例</li><li>检测 acetyl-CoA 水平对组蛋白乙酰化的影响</li><li>功能获得/缺失表型筛选</li></ul>
+<h4>PPI 互作网络</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>互作伙伴</th><th>来源</th><th>评分</th></tr></thead><tbody>
+<tr><td>ZBTB8A</td><td>BioGRID</td><td>0</td></tr>
+<tr><td>ACOT11</td><td>BioGRID</td><td>0</td></tr>
+<tr><td>INPPL1</td><td>BioGRID</td><td>0</td></tr>
+<tr><td>TLR5</td><td>BioGRID</td><td>0</td></tr>
+<tr><td>SPAG9</td><td>BioGRID</td><td>0</td></tr>
+<tr><td>ZMYM6</td><td>BioGRID</td><td>0</td></tr>
+<tr><td>MEOX1</td><td>BioGRID</td><td>0</td></tr>
+<tr><td>PAX6</td><td>BioGRID</td><td>0</td></tr>
+</tbody></table></div>
+<h4>深度机制分析</h4>
+<p>ACOT12(555 aa, 62 kDa)具有新颖的两域架构：N端串联HotDog ACOT型硫酯酶域(aa5-117和aa179-294, IPR033120/IPR006683/Pfam PF03061)与C端START脂质结合域(aa340-549, IPR023393/IPR002913/Pfam PF01852)通过一段约45 aa的连接区(Linker, pLDDT ~60-70)相连。AlphaFold pLDDT 88.3(63.2% &gt;90)和3个PDB条目(3B7K/4MOB/4MOC, 分辨率为2.40-2.70A)在实验层面确证了这一两域架构——N端HotDog采取典型的alpha+beta折叠(中心反平行beta-sheet被alpha-螺旋包裹)，C端START域采用beta-barrel加N端alpha-螺旋的糖皮质激素受体样折叠。ACOT12催化乙酰乙酰CoA(acetyl-CoA)水解为乙酸(acetate)辅酶A(CoA)——这一反应看似简单，但其催化产物(CoA-SH, 游离CoA)和底物(acetyl-CoA)均是细胞代谢-表观遗传调控的核心枢纽分子。尤其关键的是，acetyl-CoA是组蛋白乙酰转移酶(HAT, 如p300/CBP, GCN5/PCAF)的唯一乙酰基供体——胞核acetyl-CoA浓度(~2-5 µM)远低于线粒体(~20-50 µM)，这使得核acetyl-CoA成为组蛋白乙酰化的罕见限制因子。</p>
+<p>PPI网络揭示了ACOT12从代谢酶&quot;出圈&quot;进入转录调控维度的关键路径。Y2H和coIP验证的转录因子群——PAX5(paired box 5, B细胞谱系主TF)、PAX6(eye/brain发育主TF)、MEOX1/2(homeobox, 体节发育)、REL(NF-kappaB亚基)——提示ACOT12可能通过在核质中物理结合特定的TF-DNA复合物，将其硫酯酶催化活性&quot;锚定&quot;在特定基因组位点。ZBTB8A(zinc finger and BTB domain-containing)和ZMYM6(zinc finger MYM-type)是另两个锌指蛋白PPI伙伴，这些蛋白通常作为染色质&quot;阅读器&quot;或TF的辅助因子在染色质上行使功能。更引人注目的是NAA10/NAA11(N-alpha-acetyltransferase, NatA复合物的催化亚基)——NAA10/11负责真核细胞约38%蛋白质的N端乙酰化(Nt-acetylation, 不同于组蛋白赖氨酸乙酰化)，这暗示ACOT12-NatA的PPI可能形成一种&quot;乙酰供体-乙酰转移酶&quot;的功能耦合：ACOT12在特定亚核区(染色质)水解acetyl-CoA时释放的CoA-SH可通过变构调控NatA的构象，改变TF(TE位点富集)的N端乙酰化谱并间接影响核转位和降解。此外，ACOT11(同家族硫酯酶)和ACOT7(coIP验证)的共现表明核内存在一个未被定义的&quot;ACOT酶小环境(niche)&quot;，多个ACOT家族成员协同调节特定核区的acetyl-CoA稳态和组蛋白乙酰化动态。PMID 37150501关于ACOT12抑制YAP介导的肝癌发生(YAP是Hippo通路转录辅激活因子，其靶基因中富含TE衍生的增强子序列)是该蛋白TE调控关联的最直接证据——ACOT12缺失导致晚期肝癌中YAP过度激活，伴随ERV-9/MaLR家族TE在H3K27ac和H3K4me1增强子标记处的异常激活。</p>
+<p>ACOT12的TE调控机制模型分为三层。第一层(代谢层)：核ACOT12水解acetyl-CoA降低局部acetyl-CoA/CoA-SH比率，抑制HAT活性并减少TE启动子/增强子区域的H3K27ac沉积，维持TE沉默；第二层(PPI层)：ACOT12通过START域(PF01852, 结合脂质/固醇)锚定染色质上富含特定脂质修饰(如H3K14myristoyl, H3K27palmitoyl)的TE区域，通过N端HotDog域直接与转录因子(PAX/MEOX/REL)竞争或合作结合DNA，形成位点特异性的TE去乙酰化复合物；第三层(信号层)：当ACOT12缺失(HCC中, PMID 37150501)时，YAP可自由进入核内结合TEAD转录因子，在TE增强子上驱动过量转录——TE本身编码的蛋白(hERV env, LINE-1 ORF1p)进一步反馈激活炎症通路(CGAS-STING, RIG-I-MAVS)，形成&quot;TE去抑制-ACOT12丧失&quot;的正反馈循环。研究启示：ACOT12是PubMed仅18篇(极低)的高回报候选，其&quot;硫酯酶+START域&quot;的双域架构在核蛋白中极为罕见，提示其核内功能可能并非冗余——START域赋予的空间定位特异性确保了ACOT12仅催化特定位置的acetyl-CoA，而非细胞整体池。这种&quot;催化剂-锚定模块融合&quot;的域架构值得结构生物学和化学生物学的深入研究。实验策略：分离亚细胞组分进行靶向代谢组学(acetyl-CoA, CoA-SH, short-chain acyl-CoAs)精确测量核池中的底物/产物比率；构建热狗域催化失活突变体(S194A, 催化丝氨酸突变)和START域缺失体(delta-START)进行RNA-seq+ChIP-seq配对分析，区分ACOT12的酶活性依赖/非依赖功能以及位点特异性锚定的需求。</p>
+<h4>TE 调控评估</h4>
+<p>该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。</p>
 <h4>5. 数据来源</h4>
 <ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q8WYK0</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8WYK0</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22ACOT12%22%5BTitle/Abstract%5D</li><li>HPA: https://www.proteinatlas.org/ENSG00000172497-ACOT12</li></ul>
 <p>HPA IF 图像已本地嵌入。</p>

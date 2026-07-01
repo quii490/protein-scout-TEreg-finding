@@ -79,6 +79,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 
 **Aliases observed**: C11orf67
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| APP | BioGRID | 1 |
+| BAG3 | BioGRID | 1 |
+| EGFR | BioGRID | 1 |
+| PIH1D1 | BioGRID | 1 |
+| OCRL | BioGRID | 1 |
+| ARHGAP35 | BioGRID | 1 |
+| NDC80 | BioGRID | 1 |
+| HEXIM1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ## 5. AlphaFold / PAE / PDB
 
 ### AlphaFold

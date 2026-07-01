@@ -36,7 +36,7 @@ status: scored
 | 🏗️ 三维结构 | 6/10 | ×3 | 18 | AlphaFold pLDDT: 67.1 |
 | 🧬 调控结构域 | 6/10 | ×2 | 12 | UniProt domains: None identified |
 | 🔗 PPI | 4/10 | ×3 | 12 | 待细化（默认基线） |
-| ➕ 互证加分 | — | — | **+0** | 待补充 |
+| ➕ 互证加分 | — | — | **+0** | 暂无数据 |
 | **原始总分** |  |  | **106/183** |  |
 | **归一化总分** |  |  | **57.9/100** |  |
 
@@ -103,6 +103,20 @@ HPA 免疫荧光（IF）实验数据确认 MESD 定位：
 **评价**: —
 
 
+### TE 调控评估
+
+该蛋白的 GO-CC 注释中缺乏染色质/TE 沉默相关定位，TE 调控潜力较低。不建议作为 TE 调控优先靶标。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/39414/523_A9_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39414/523_A9_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39414/520_A9_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39414/520_A9_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39414/517_A9_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/39414/517_A9_2_blue_red_green.jpg)
+
+
 ### 5. 总体评价
 
 **推荐等级**: ⭐⭐
@@ -122,9 +136,9 @@ HPA 免疫荧光（IF）实验数据确认 MESD 定位：
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[MESD-PAE.png]]
 

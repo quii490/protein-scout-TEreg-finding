@@ -89,3 +89,41 @@ Source: https://www.proteinatlas.org/ENSG00000143919-CAMKMT/interaction
 
 未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### 功能描述
+
+Catalyzes the trimethylation of 'Lys-116' in calmodulin
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PPM1B | STRING | 953 |
+| SLC3A1 | STRING | 935 |
+| PLOD1 | STRING | 900 |
+| EHMT2 | STRING | 861 |
+| DOT1L | STRING | 861 |
+| PRDM2 | STRING | 853 |
+| SUV39H1 | STRING | 849 |
+| SETD7 | STRING | 847 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q7Z624-F1-predicted_aligned_error_v6.png)
+
+### PubMed
+
+**Count: 15**
+
+| PMID | Title |
+|---|---|
+| 42025780 | CAMKMT knockdown delays myopia progression by reducing calcium Ion-mediated ER Stress-induced apoptosis. |
+| 40219552 | [Effect of CMTM6 on PD-L1 in Helicobacter pylori infected gastric epithelial cells]. |
+| 38949516 | Genome-wide comparative analyses highlight selection signatures underlying saline adaptation in Chilika buffalo. |
+| 37948850 | Anti-inflammatory activity of calmodulin-lysine N-methyltransferase through suppressing the caspase-11 non-canonical inflammasome. |
+| 35512135 | Pharmacogenetics of Dolutegravir Plasma Exposure Among Southern Africans With Human Immunodeficiency Virus. |

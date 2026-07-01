@@ -141,6 +141,34 @@ status: scored
 - [ ] 独立验证核定位
 - [ ] 评估核定位分数是否应下调
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MASTL | STRING | 995 |
+| PPP2R1A | STRING | 890 |
+| PPP2CA | STRING | 862 |
+| PPP2R2A | STRING | 854 |
+| CDC2 | STRING | 805 |
+| CDK1 | STRING | 805 |
+| MCM3 | BioGRID | 1 |
+| ARIH2 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/51294/824_G12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/51294/824_G12_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/51294/978_G12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/51294/978_G12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/51294/884_G12_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/51294/884_G12_4_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: O43768 (https://www.uniprot.org/uniprotkb/O43768)
 - AlphaFold: AF-O43768-F1 v6 (https://alphafold.ebi.ac.uk/entry/O43768)
@@ -153,9 +181,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[ENSA-PAE.png]]
 

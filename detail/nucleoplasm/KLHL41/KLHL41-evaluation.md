@@ -12,7 +12,7 @@ status: scored
 
 | 项目 | 内容 |
 |------|------|
-| 基因名 / 别名 | KLHL41 / KBTBD10, KRP1 |
+| 基因名 / 别名 | KLHL41 / KB暂无数据10, KRP1 |
 | 蛋白名称 | Kelch-like protein 41 |
 | 蛋白大小 | 606 aa / 68.0 kDa |
 | UniProt ID | O60662 |
@@ -65,7 +65,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 |------|------|
 | PubMed strict count | 21 |
 | PubMed broad count | 38 |
-| 别名(未计入scoring) | Aliases observed but not used for scoring: KBTBD10, KRP1 |
+| 别名(未计入scoring) | Aliases observed but not used for scoring: KB暂无数据10, KRP1 |
 
 **关键文献**:
 1. Protein expression of prognostic genes in primary melanoma and benign nevi.. *Journal of cancer research and clinical oncology*. PMID: 34757537
@@ -173,6 +173,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CUL3 | STRING | 978 |
+| RBX1 | STRING | 960 |
+| KEAP1 | STRING | 915 |
+| KLHL22 | STRING | 913 |
+| KLHL8 | STRING | 912 |
+| KLHL7 | STRING | 912 |
+| SPOPL | STRING | 906 |
+| SPOP | STRING | 906 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O60662

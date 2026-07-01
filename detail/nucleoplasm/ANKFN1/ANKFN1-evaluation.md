@@ -87,3 +87,18 @@ Source: https://www.proteinatlas.org/ENSG00000153930-ANKFN1/interaction
 
 未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PubMed
+
+**Count: 18**
+
+| PMID | Title |
+|---|---|
+| 42062651 | ANKFN1 in skin fibroblasts may modulate mast cell activity and is associated with dupilumab response in atopic dermatitis. |
+| 40835437 | mWAKE in the Central Amygdala Regulates Fear Learning and Memory. |
+| 39769061 | Loss of Glutathione-S-Transferase Theta 2 (GSTT2) Modulates the Tumor Microenvironment and Response to BCG Immunotherapy in a Murine Orthotopic Model  |
+| 39766302 | Rapid Detection of PML::RARA Fusions in Acute Promyelocytic Leukemia: CRISPR/Cas9 Nanopore Sequencing with Adaptive Sampling. |
+| 39303704 | An amygdalar oscillator coordinates cellular and behavioral rhythms. |
+
+

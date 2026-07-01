@@ -4,6 +4,7 @@ function initProteinTables() {
     const search = panel.querySelector('[data-search]');
     const statusFilter = panel.querySelector('[data-status-filter]');
     const categoryFilter = panel.querySelector('[data-category-filter]');
+    const newFilter = panel.querySelector('[data-new-filter]');
     const clear = panel.querySelector('[data-clear]');
     const sortScore = panel.querySelector('[data-sort-score]');
     const sortNuclear = panel.querySelector('[data-sort-nuclear]');
@@ -18,9 +19,13 @@ function initProteinTables() {
       const q = (search?.value || '').trim().toLowerCase();
       const status = statusFilter?.value || '';
       const category = categoryFilter?.value || '';
+      const showNew = newFilter?.value || '';
       let shown = 0;
       rows.forEach((row) => {
-        const ok = (!q || row.dataset.gene.includes(q)) && (!status || row.dataset.status === status) && (!category || row.dataset.category === category);
+        const ok = (!q || row.dataset.gene.includes(q))
+          && (!status || row.dataset.status === status)
+          && (!category || row.dataset.category === category)
+          && (!showNew || row.dataset.isNew === showNew);
         row.hidden = !ok; if (ok) shown += 1;
       });
       if (visibleCount) visibleCount.textContent = String(shown);
@@ -33,8 +38,11 @@ function initProteinTables() {
       });
       sorted.forEach((row) => tbody.appendChild(row));
     }
-    search?.addEventListener('input', apply); statusFilter?.addEventListener('change', apply); categoryFilter?.addEventListener('change', apply);
-    clear?.addEventListener('click', () => { if (search) search.value = ''; if (statusFilter) statusFilter.value = ''; if (categoryFilter) categoryFilter.value = ''; apply(); });
+    search?.addEventListener('input', apply);
+    statusFilter?.addEventListener('change', apply);
+    categoryFilter?.addEventListener('change', apply);
+    newFilter?.addEventListener('change', apply);
+    clear?.addEventListener('click', () => { if (search) search.value = ''; if (statusFilter) statusFilter.value = ''; if (categoryFilter) categoryFilter.value = ''; if (newFilter) newFilter.value = ''; apply(); });
     sortScore?.addEventListener('click', () => sortBy('score'));
     sortNuclear?.addEventListener('click', () => sortBy('nuclearScore'));
     apply();

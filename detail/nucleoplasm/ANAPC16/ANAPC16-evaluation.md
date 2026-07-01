@@ -96,6 +96,24 @@ STRING 显示极强的 APC/C 复合体网络：ANAPC10 (0.999, exp 0.998), CDC27
 ### 4. 总体评价
 ANAPC16 是 APC/C 复合体的核心小亚基，具有多源实验级核/染色体定位证据（UniProt Nucleus + centromere/kinetochore, ECO:0000269）、极其丰富的结构数据（22 PDB）、极强的 PPI 网络（14 APC/C partners ≥0.99）、极小的尺寸（110 aa）和极新的研究现状（strict=2）。CENP-27 别名和 kinetochore 定位提示其在有丝分裂染色体的着丝粒/动粒区域有特异性定位。需注意 HPA IF 仅注释 Cytosol，可能反映间期胞质定位，而核/动粒定位为细胞周期依赖性。归一化 84.7/100。建议作为高优先级 nucleoplasm 候选。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ANAPC5 | STRING | 999 |
+| ANAPC1 | STRING | 999 |
+| CDC16 | STRING | 999 |
+| CDC20 | STRING | 999 |
+| CDC26 | STRING | 999 |
+| CDC23 | STRING | 999 |
+| ANAPC7 | STRING | 999 |
+| ANAPC13 | STRING | 999 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96DE5
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q96DE5

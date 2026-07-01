@@ -178,3 +178,22 @@ Source: https://www.proteinatlas.org/ENSG00000168807-SNTB2/interaction
 | CFAP36 | Intact | false |
 | DTNA | Biogrid | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ERBB4 | BioGRID | 0 |
+| KCNJ12 | BioGRID | 0 |
+| DMD | BioGRID | 0 |
+| UTRN | BioGRID | 0 |
+| DGKZ | BioGRID | 0 |
+| MAST2 | BioGRID | 0 |
+| MAST1 | BioGRID | 0 |
+| SCN5A | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。

@@ -91,3 +91,33 @@ Source: https://www.proteinatlas.org/ENSG00000185046-ANKS1B/interaction
 | RIN1 | Biogrid | false |
 | UBC | Biogrid | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| LRP2 | BioGRID | 0 |
+| UBC | BioGRID | 0 |
+| LRP1 | BioGRID | 0 |
+| APP | BioGRID | 0 |
+| EGFR | BioGRID | 0 |
+| ERBB2 | BioGRID | 0 |
+| ERBB4 | BioGRID | 0 |
+| EPHA8 | BioGRID | 0 |
+
+
+
+### PubMed
+
+**Count: 59**
+
+| PMID | Title |
+|---|---|
+| 42228033 | ANKS1B in the Nucleus Accumbens Controls Escalated Cocaine Self-Administration via Regulating CBP-FoxO3 Complex. |
+| 41564684 | Lactylation-mediated degradation of ANKS1B mitigates ischemic excitotoxicity by impairing GluN2B trafficking. |
+| 41268768 | Alzheimer's disease multi-ancestry genome-wide interaction and stratified study with smoking. |
+| 41255714 | Complete stranded RNA profiling during early mouse gonad development. |
+| 40855683 | ANKS1B is a potential candidate gene for short stature and failure to thrive in children. |
+
+

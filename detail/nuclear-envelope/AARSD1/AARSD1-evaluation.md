@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 | AARSD1 |
+| 蛋白名称 | Alanyl-tRNA editing protein Aarsd1 |
 | 蛋白全名 | Alanyl-tRNA editing protein Aarsd1 |
 | 蛋白大小 | 412 aa / 45.5 kDa |
 | UniProt ID | Q9BTE6 |
@@ -97,6 +98,24 @@ status: scored
 
 ### 4. 总体评价
 AARSD1 经重新评估（HPA Approved IF 新数据）确认为核膜-胞质双定位蛋白。HPA Approved 级别 IF 图像明确显示 Nuclear membrane + Cytosol 染色模式，为核膜定位提供最高级别实验证据。GO-CC nucleus HDA 注释与 HPA 一致。蛋白主要功能为胞质 tRNA 编辑（校正氨酰化错误），核膜定位的生物学意义尚不明确。结构预测优秀（pLDDT 93.6, 0% 无序），研究新颖性极高（strict=8）。建议作为中等优先级 nuclear-envelope 候选，重点关注其在核膜上可能的功能角色。
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| AARS | STRING | 878 |
+| PTGES3L | STRING | 800 |
+| KARS | STRING | 710 |
+| EFTUD2 | BioGRID | 1 |
+| GTF2E1 | BioGRID | 1 |
+| LAP3 | BioGRID | 1 |
+| PFDN5 | BioGRID | 1 |
+| PPP2CB | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9BTE6

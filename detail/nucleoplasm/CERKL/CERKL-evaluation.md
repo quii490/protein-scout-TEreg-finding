@@ -172,48 +172,38 @@ STRING 15 个预测互作，IntAct 11 个实验互作。调控相关配体占比
 - [ ] 获取 Protein Atlas IF 图像确认亚细胞定位
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q49MI3
-- Protein Atlas: https://www.proteinatlas.org/search/CERKL
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CERKL
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q49MI3
-- STRING: https://string-db.org/network/9606.CERKL
-- Packet data timestamp: 2026-06-03 04:50:59
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (approved)。来源: https://www.proteinatlas.org/ENSG00000188452-CERKL/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| VHL | BioGRID | 0 |
+| MICAL3 | BioGRID | 0 |
+| PPM1A | BioGRID | 0 |
+| SIRT1 | BioGRID | 0 |
+| PPM1B | BioGRID | 0 |
+| PPM1G | BioGRID | 0 |
+| EIF3I | BioGRID | 0 |
+| ERBB2IP | BioGRID | 0 |
 
-![](https://images.proteinatlas.org/35443/1150_D12_1_red_green.jpg)
-![](https://images.proteinatlas.org/35443/1150_D12_3_red_green.jpg)
-![](https://images.proteinatlas.org/35443/1527_F10_1_red_green.jpg)
-![](https://images.proteinatlas.org/35443/1527_F10_2_red_green.jpg)
-![](https://images.proteinatlas.org/43203/1057_E4_1_red_green.jpg)
-![](https://images.proteinatlas.org/43203/1057_E4_2_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q49MI3-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/CERKL
+
+### PubMed
+
+**Count: 96**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q49MI3 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | DOMAIN 164..339; /note="DAGKc"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00783" |
-| InterPro | IPR017438;IPR045363;IPR057465;IPR001206;IPR050187;IPR016064; |
-| Pfam | PF19280;PF00781;PF25382; |
+| 42194986 | Expanding the Mutation Spectrum of Non-Syndromic Retinitis Pigmentosa in Consanguineous Pakistani Families: Unraveling Novel Pathogenic Variants in RP |
+| 42023663 | PCYT1A Hypophosphorylation Underlies Retinal Lipid Dysregulation in CERKL Retinitis Pigmentosa and Is Therapeutically Reversed by Phosphatidylcholine. |
+| 41867381 | The genotype-phenotype association of retinitis pigmentosa in a Chinese population: Analysis of three new cases and literature review. |
+| 41562913 | Clinical Characteristics and Genetic Factors in Retinitis Pigmentosa: A Retrospective Analysis of a Turkish Patient Cohort. |
+| 41288005 | CERKL Reduced PI3P/Autophagy to Promote Pancreatic Cancer. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000188452-CERKL/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| PPM1A | Intact | false |
-| VHL | Biogrid | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

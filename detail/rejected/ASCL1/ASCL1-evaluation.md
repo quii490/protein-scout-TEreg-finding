@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | ASCL1 / ASH1, HASH1, MASH1, bHLHa46 |
+| 蛋白名称 | Achaete-scute homolog 1 |
 | 蛋白大小 | 236 aa / 25.5 kDa |
 | UniProt ID | P50553 (ASCL1_HUMAN) |
 | 评估日期 | 2026-05-28 |
@@ -170,6 +171,47 @@ status: scored
 **下一步建议**:
 - [ ] **不推荐作为优先研究对象**: 热门度过高(评分仅2), 除非有极其特殊的chromatin角度(如pioneer factor活性依赖的特异性chromatin重塑机制)
 - [ ] 如研究, 建议关注ASCL1与其他bHLH TF的功能差异而非蛋白本身
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NEUROG2 | STRING | 976 |
+| POU3F2 | STRING | 971 |
+| MYT1L | STRING | 964 |
+| TCF12 | STRING | 960 |
+| POU3F3 | STRING | 931 |
+| DLX2 | STRING | 926 |
+| ID4 | STRING | 911 |
+| CREB1 | STRING | 906 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/76307/1850_E11_16_cr5af1b51eba458_blue_red_green.jpg)
+![](https://images.proteinatlas.org/76307/1850_E11_21_cr5af1b51ebc50f_blue_red_green.jpg)
+![](https://images.proteinatlas.org/76307/1796_F10_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/76307/1796_F10_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/76307/1868_C8_32_blue_red_green.jpg)
+![](https://images.proteinatlas.org/76307/1868_C8_33_blue_red_green.jpg)
+
+
+### PubMed
+
+**Count: 1620**
+
+| PMID | Title |
+|---|---|
+| 42371392 | Potentiated Maturation of hPSC-Derived Dopaminergic Neurons via Convergent Genetic and Small Molecule Modulation. |
+| 42371090 | CD68(+) tumor-associated macrophages exhibit prognostic value in surgically resected small cell lung cancer: a retrospective cohort study of 614 patie |
+| 42351220 | Srr2-dependent SOX2 levels govern the chromatin and transcriptional landscape of adult neural stem cell fate decisions in mouse. |
+| 42328440 | Esophageal Small Cell Carcinoma: From Bench Discoveries to Bedside Therapeutics. |
+| 42324360 | A decade of progress in small-cell lung cancer (2015-2025): a narrative review. |
+
 
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=ASCL1

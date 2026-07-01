@@ -166,54 +166,38 @@ STRING 15 个预测互作，IntAct 15 个实验互作。调控相关配体占比
 - [ ] 设计 ChIP-seq/CUT&RUN 验证染色质结合
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q96H22
-- Protein Atlas: https://www.proteinatlas.org/search/CENPN
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CENPN
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q96H22
-- STRING: https://string-db.org/network/9606.CENPN
-- Packet data timestamp: 2026-06-03 04:46:15
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (supported)。来源: https://www.proteinatlas.org/ENSG00000166451-CENPN/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CENPM | STRING | 999 |
+| CENPC | STRING | 999 |
+| CENPC1 | STRING | 999 |
+| MLF1IP | STRING | 999 |
+| CENPU | STRING | 999 |
+| CENPH | STRING | 999 |
+| CENPA | STRING | 999 |
+| CENPQ | STRING | 999 |
 
-![](https://images.proteinatlas.org/52870/782_C11_3_red_green.jpg)
-![](https://images.proteinatlas.org/52870/782_C11_5_red_green.jpg)
-![](https://images.proteinatlas.org/52870/787_C11_1_red_green.jpg)
-![](https://images.proteinatlas.org/52870/787_C11_2_red_green.jpg)
-![](https://images.proteinatlas.org/52870/840_C1_1_red_green.jpg)
-![](https://images.proteinatlas.org/52870/840_C1_2_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q96H22-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/CENPN
+
+### PubMed
+
+**Count: 87**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q96H22 |
-| SMART | 未在 UniProt xref 中检出 SMART 条目 |
-| UniProt Domain [FT] | 未检出显式 UniProt Domain feature |
-| InterPro | IPR052011;IPR007902; |
-| Pfam | PF05238; |
+| 42307250 | Structural dynamics in the CENP-A nucleosome impacted by protein-protein interactions with centromere protein N. |
+| 41453208 | Cnp1 N-terminal dynamics regulate L1 loop recognition by Mis15 to orchestrate kinetochore assembly in Schizosaccharomyces pombe. |
+| 41288681 | Comprehensive identification and validation of hub genes targeted by quercetin in hepatocellular carcinoma via integrated bioinformatics and experimen |
+| 41189173 | Identification of key genes related to bone metastasis of breast cancer using bioinformatics methods and construction of a prognostic model. |
+| 40855773 | Zwitterion-Coated Virus-Like Nanoparticles Enable Oral siRNA Delivery for Tumor Autophagy and Immune Activation. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000166451-CENPN/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| CENPA | Biogrid | false |
-| CENPH | Biogrid | false |
-| CENPI | Biogrid | false |
-| CENPK | Biogrid | false |
-| CENPL | Biogrid | false |
-| CENPM | Biogrid | false |
-| CENPO | Biogrid | false |
-| CENPQ | Biogrid | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

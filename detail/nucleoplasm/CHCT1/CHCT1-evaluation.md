@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 | CHCT1 |
+| 蛋白名称 | CHD1 helical C-terminal domain containing protein 1 |
 | 蛋白全名 | CHD1 helical C-terminal domain containing protein 1 |
 | 蛋白大小 | 236 aa / ~27 kDa |
 | UniProt ID | Q86WR6 |
@@ -55,6 +56,19 @@ PubMed strict: 0
 | PubMed broad | 0 |
 
 CHCT1 无任何独立文献。PubMed strict=0 为本项目最新颖蛋白之一。蛋白功能完全未知，仅通过序列中含 CHD1 helical C-terminal domain 命名。
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/44415/1356_A3_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44415/1356_A3_6_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44415/501_D8_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44415/501_D8_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44415/498_D8_1_blue_red_green.jpg)
+
 
 ### 5. 三维结构
 

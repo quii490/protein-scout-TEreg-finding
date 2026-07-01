@@ -167,6 +167,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| GCLC | STRING | 959 |
+| GGT5 | STRING | 948 |
+| SNRPD3 | STRING | 936 |
+| GGT7 | STRING | 935 |
+| DHODH | STRING | 797 |
+| ISOC2 | STRING | 758 |
+| RECQL4 | BioGRID | 1 |
+| POU6F2 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白的 GO-CC 注释中缺乏染色质/TE 沉默相关定位，TE 调控潜力较低。不建议作为 TE 调控优先靶标。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O14841
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000178814-OPLAH/subcellular

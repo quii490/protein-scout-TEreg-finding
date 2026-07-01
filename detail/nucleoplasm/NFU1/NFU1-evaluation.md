@@ -222,3 +222,33 @@ Source: https://www.proteinatlas.org/ENSG00000169599-NFU1/interaction
 | COIL | Intact | false |
 | CS | Biogrid | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NFS1 | STRING | 982 |
+| ISCU | STRING | 967 |
+| BOLA3 | STRING | 945 |
+| LIAS | STRING | 890 |
+| HMBS | STRING | 810 |
+| TXNL1 | STRING | 767 |
+| HEL-S-114 | STRING | 767 |
+| NUBP1 | STRING | 737 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/35826/593_C7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35826/593_C7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35826/594_C7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35826/594_C7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35826/596_C7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35826/596_C7_2_blue_red_green.jpg)
+

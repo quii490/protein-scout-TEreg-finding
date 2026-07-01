@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | BHLHA15 / MIST1, BHLHB8 |
+| 蛋白名称 | Class A basic helix-loop-helix protein 15 |
 | 蛋白大小 | 189 aa / 20.8 kDa |
 | UniProt ID | Q7RTS1 |
 | 评估日期 | 2026-05-29 |
@@ -152,6 +153,34 @@ status: scored
 - [ ] 探究分泌细胞分化中的染色质调控
 - [ ] 推荐作为分泌生物学 TF 研究
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TCF3 | BioGRID | 1 |
+| TCF4 | BioGRID | 1 |
+| PARP12 | BioGRID | 1 |
+| FAF1 | BioGRID | 1 |
+| PHF10 | BioGRID | 1 |
+| C1QBP | BioGRID | 1 |
+| HIST1H1T | BioGRID | 1 |
+| RPS27A | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/47834/1511_A7_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/47834/1511_A7_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/47834/1405_A4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/47834/1405_A4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/47834/1408_A4_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/47834/1408_A4_4_blue_red_green.jpg)
+
+
 ### 5. 关键文献
 
 1. Pin CL et al. (2000). 'MIST1 in pancreatic acinar cell differentiation.' Dev Biol. PMID: 11025623
@@ -169,9 +198,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[BHLHA15-PAE.png]]
 
@@ -202,7 +231,7 @@ Source: https://www.proteinatlas.org/ENSG00000180535-BHLHA15/interaction
 | DHX57 | Bioplex | false |
 | ELAC2 | Bioplex | false |
 | FAF1 | Bioplex | false |
-| KBTBD6 | Bioplex | false |
-| KBTBD7 | Bioplex | false |
+| KB暂无数据6 | Bioplex | false |
+| KB暂无数据7 | Bioplex | false |
 | LBR | Bioplex | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->

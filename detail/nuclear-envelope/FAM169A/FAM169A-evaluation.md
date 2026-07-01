@@ -161,6 +161,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| LMNA | BioGRID | 1 |
+| LMNB1 | BioGRID | 1 |
+| FASN | BioGRID | 1 |
+| APEX1 | BioGRID | 1 |
+| EMD | BioGRID | 1 |
+| NUP155 | BioGRID | 1 |
+| PARP1 | BioGRID | 1 |
+| TMPO | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/41574/557_H6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41574/557_H6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41574/502_H6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41574/502_H6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41574/493_H6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/41574/493_H6_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9Y6X4
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000198780-FAM169A/subcellular

@@ -50,6 +50,47 @@ status: scored
 
 SKOR1 is 965 amino acids in length (~99.8 kDa). Acceptable size (965 aa), suitable for routine experiments. Score 8/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| LBX1 | STRING | 887 |
+| B暂无数据9 | STRING | 884 |
+| MEIS1 | STRING | 844 |
+| TLE1 | STRING | 746 |
+| HDAC6 | BioGRID | 1 |
+| DYRK1B | BioGRID | 1 |
+| TRIM27 | BioGRID | 1 |
+| PRKAA1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/40673/424_F1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40673/424_F1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40673/2062_A2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40673/2062_A2_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40673/418_F1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/40673/418_F1_2_blue_red_green.jpg)
+
+
+### PubMed
+
+**Count: 38**
+
+| PMID | Title |
+|---|---|
+| 42074555 | A Cross-Species Single-Cell Atlas Reveals Conserved Regulatory Networks and Candidate Hearing Loss Genes in the Cochlea. |
+| 40250431 | Avian photoreceptor homologies and the origin of double cones. |
+| 39695147 | Overexpression of PDSS2-Del2 in HCC promotes tumor metastasis by interacting with macrophages. |
+| 38825861 | The 14-3-3 protein nt GF14e interacts with CIPK2 and increases low potassium stress in tobacco. |
+| 38529808 | Human α-synuclein overexpression upregulates SKOR1 in a rat model of simulated nigrostriatal ageing. |
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |
@@ -116,7 +157,7 @@ SKOR1 is 965 amino acids in length (~99.8 kDa). Acceptable size (965 aa), suitab
 |---------|---------------|--------------|----------|------------|
 | MAP2K5 | 0.974 | 0.000 | 0.0 | 0.967 |
 | LBX1 | 0.887 | 0.000 | 0.0 | 0.883 |
-| BTBD9 | 0.884 | 0.000 | 0.0 | 0.884 |
+| B暂无数据9 | 0.884 | 0.000 | 0.0 | 0.884 |
 | MEIS1 | 0.844 | 0.000 | 0.0 | 0.844 |
 | TLE1 | 0.746 | 0.095 | 0.0 | 0.731 |
 | PTPRD | 0.671 | 0.000 | 0.0 | 0.671 |

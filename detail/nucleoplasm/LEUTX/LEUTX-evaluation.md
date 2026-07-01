@@ -12,6 +12,7 @@ status: shortlisted
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | LEUTX / Leucine twenty homeobox |
+| 蛋白名称 | Paired-like homeodomain transcription factor LEUTX |
 | 蛋白大小 | 198 aa / 22.4 kDa |
 | UniProt ID | A8MZ59 |
 | 评估日期 | 2026-05-28 |
@@ -91,7 +92,7 @@ status: shortlisted
 4. Tang Y et al. (2023). "Renal CIC-LEUTX rearranged sarcoma with multiple pulmonary metastases: a case report and literature review". *BMC Nephrol*. PMID: 38036973
 5. Gawriyski L et al. (2023). "Comprehensive characterization of the embryonic factor LEUTX". *iScience*. PMID: 36876139
 
-**评价**: 待补充。
+**评价**: 暂无数据。
 
 **评价**: LEUTX 的 IntAct 数据 (44 partners) 与 STRING 预测 (EGA TF + 表观遗传因子) 之间存在严重脱节: IntAct 全部为膜蛋白/胞质蛋白 (Y2H 高通量假阳性), 而 STRING 指向早期胚胎激活 (EGA) 转录因子网络。可能原因: (1) LEUTX 在正常体细胞中不表达, 其真正互作伙伴仅在早期胚胎中存在; (2) Y2H 高通量筛选的假阳性率高。MBD3L2/3/5 (甲基化 CpG 结合) 的 STRING 预测值得关注, 暗示 LEUTX 可能在 EGA 期间与表观遗传调控因子的协调作用。评分: **8/10** (STRING 指向一致的 EGA 调控网络, 但 IntAct 实验数据不可靠 → 维持 8 分)。
 
@@ -117,6 +118,24 @@ status: shortlisted
 - [ ] 验证MBD3L2/3/5 的物理互作
 - [ ] 探索 IDR 区域是否介导相分离 (liquid-liquid phase separation)
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| DPRX | STRING | 825 |
+| MBD3L2 | STRING | 782 |
+| TPRX1 | STRING | 758 |
+| DUX4 | STRING | 749 |
+| DUXA | STRING | 746 |
+| DUXB | STRING | 735 |
+| MBD3L3 | STRING | 701 |
+| UNC93B1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/A8MZ59
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000213921-LEUTX
@@ -129,9 +148,9 @@ status: shortlisted
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[LEUTX-PAE.png]]
 

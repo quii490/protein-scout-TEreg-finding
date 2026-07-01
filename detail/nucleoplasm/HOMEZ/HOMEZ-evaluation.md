@@ -153,6 +153,34 @@ HOMEZ 极度新颖 (PM=10)，具 homeobox + leucine zipper 经典转录因子结
 - 解析 14-3-3 结合对 HOMEZ 核定位/活性的调控
 - 功能获得/缺失表型筛选（超越 fertility）
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| HOXC8 | STRING | 717 |
+| DVL3 | BioGRID | 1 |
+| DGCR6 | BioGRID | 1 |
+| EBF1 | BioGRID | 1 |
+| GRB2 | BioGRID | 1 |
+| KPNA2 | BioGRID | 1 |
+| PRKAA1 | BioGRID | 1 |
+| PRKAA2 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/36316/601_F6_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36316/601_F6_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36316/599_F6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36316/599_F6_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36316/603_F6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36316/603_F6_3_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8IX15
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8IX15

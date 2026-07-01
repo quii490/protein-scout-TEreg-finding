@@ -174,6 +174,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CDC14A | STRING | 905 |
+| FZR1 | STRING | 851 |
+| MAPK6 | STRING | 774 |
+| CDC27 | STRING | 743 |
+| ANAPC1 | STRING | 710 |
+| CDC16 | STRING | 705 |
+| CDC23 | STRING | 701 |
+| TP53 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O60729
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000081377-CDC14B/subcellular

@@ -163,6 +163,33 @@ status: scored
 - [ ] 构建表达载体进行功能研究
 - [ ] Co-IP/MS 鉴定互作蛋白
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NSUN5 | STRING | 732 |
+| SARS | STRING | 726 |
+| WNK1 | BioGRID | 1 |
+| DENND4A | BioGRID | 1 |
+| FOXC1 | BioGRID | 1 |
+| SUZ12 | BioGRID | 1 |
+| SH3D19 | BioGRID | 1 |
+| CCT7 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/35166/378_A5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35166/378_A5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35166/383_A5_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35166/376_A5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/35166/376_A5_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=METTL6
 - Protein Atlas: https://www.proteinatlas.org/METTL6
@@ -177,9 +204,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[METTL6-PAE.png]]
 

@@ -84,6 +84,24 @@ PPI 网络极为聚焦：以 RNA Pol II 全酶 (POLR2A/B/C/D/G/J) 和通用转�
 ### 4. 总体评价
 CTDP1 为本批次评分最高候选（76.0/100），核心优势为：极低文献量（PM=19, 新颖性满分 10/10）、坚实的核质定位证据（三源一致）、PPI 网络锁定在 RNA Pol II 转录 machinery 核心（GTF2F1-POLR2A 实验分数接近满分）、BRCT domain + FCP1 phosphatase 双调控结构域。主要不足为蛋白较大（961 aa）和 AF 结构预测中等质量。作为 RNA Pol II CTD 磷酸酶，其在转录调控（包括 TE 转录）中处于关键位置，是极具优先度的候选靶点。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| GTF2F1 | STRING | 999 |
+| GTF2F2 | STRING | 979 |
+| POLR2G | STRING | 972 |
+| POLR2C | STRING | 960 |
+| GTF2B | STRING | 950 |
+| POLR2B | STRING | 935 |
+| POLR2D | STRING | 922 |
+| TCEA1 | STRING | 918 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9Y5B0
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9Y5B0

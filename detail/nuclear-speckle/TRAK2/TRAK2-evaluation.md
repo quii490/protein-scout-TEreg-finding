@@ -174,6 +174,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TRAK1 | STRING | 966 |
+| GABRA1 | STRING | 954 |
+| STRADB | STRING | 929 |
+| GABRA3 | STRING | 913 |
+| GABRG3 | STRING | 905 |
+| OGT | STRING | 863 |
+| KIF5B | STRING | 810 |
+| KLC2 | STRING | 750 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O60296
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000115993-TRAK2/subcellular

@@ -83,6 +83,34 @@ STRING 网络以 textmining 为主集中于硫酸乙酰肝素生物合成途径�
 ### 4. 总体评价
 HS6ST1 是一个定位信息存在内部矛盾的案例：HPA Approved Nucleoplasm vs UniProt/Golgi membrane。作为硫酸乙酰肝素修饰酶，其经典定位应为高尔基体，但 HPA 核质信号值得进一步验证。蛋白结构好（pLDDT 86.6）、研究量适中（PM=54）、Kallmann syndrome 相关使其有生物学意义。建议作为低优先级核质候选保留，重点验证 HPA 核定位信号的可靠性。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NRG1 | BioGRID | 1 |
+| TRIM25 | BioGRID | 1 |
+| ITM2B | BioGRID | 0 |
+| B3GNT3 | BioGRID | 0 |
+| CHRNA9 | BioGRID | 0 |
+| INSL5 | BioGRID | 0 |
+| DEFA5 | BioGRID | 0 |
+| CRP | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/44586/640_F12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44586/640_F12_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44586/641_F12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44586/641_F12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44586/642_F12_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/44586/642_F12_3_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O60243
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/O60243

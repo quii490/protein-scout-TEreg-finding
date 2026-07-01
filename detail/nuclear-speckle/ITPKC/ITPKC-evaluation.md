@@ -170,6 +170,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| IPMK | STRING | 949 |
+| INPP5J | STRING | 919 |
+| ITPKB | STRING | 916 |
+| HEL-S-72 | STRING | 903 |
+| CALM1 | STRING | 903 |
+| PLCB1 | STRING | 728 |
+| PLCG2 | STRING | 713 |
+| PLCB3 | STRING | 707 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96DU7
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000086544-ITPKC/subcellular

@@ -166,6 +166,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| COQ4 | BioGRID | 0 |
+| NXF1 | BioGRID | 0 |
+| CACNG4 | BioGRID | 0 |
+| SCN2B | BioGRID | 0 |
+| ADCK3 | BioGRID | 0 |
+| COQ6 | BioGRID | 0 |
+| COQ9 | BioGRID | 0 |
+| COQ5 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白缺乏核/染色质定位证据，TE 调控潜力较低。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/49487/733_B5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/49487/733_B5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/49487/721_B5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/49487/721_B5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/49487/727_B5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/49487/727_B5_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q5HYK3
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000110871-COQ5/subcellular

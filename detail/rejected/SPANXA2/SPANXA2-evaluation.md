@@ -51,6 +51,46 @@ status: scored
 
 SPANXA2 is 97 amino acids in length (~11.0 kDa). Small/large (97 aa), presents moderate experimental challenges. Score 5/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SPANXA1 | BioGRID | 1 |
+| SETBP1 | BioGRID | 1 |
+| EGFR | BioGRID | 1 |
+| SPANXB1 | BioGRID | 1 |
+| FLT3 | BioGRID | 0 |
+| EML2 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/46423/918_G10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/46423/918_G10_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/46423/984_B5_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/46423/984_B5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/46423/981_B5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/46423/981_B5_4_blue_red_green.jpg)
+
+
+### PubMed
+
+**Count: 8**
+
+| PMID | Title |
+|---|---|
+| 41066194 | A systems approach to target discovery identifies the role of lncRNA-SPANXA2-OT1 in macrophage chemotaxis. |
+| 34646842 | LncRNA SPANXA2-OT1 Participates in the Occurrence and Development of EMT in Calcium Oxalate Crystal-Induced Kidney Injury by Adsorbing miR-204 and Up- |
+| 33175201 | Hypomethylated SPANXA1/A2 promotes the metastasis of head and neck squamous cell carcinoma. |
+| 22071885 | Xq;autosome translocation in POF: Xq27.2 deletion resulting in haploinsufficiency for SPANX. |
+| 17373721 | Mutational analysis of SPANX genes in families with X-linked prostate cancer. |
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

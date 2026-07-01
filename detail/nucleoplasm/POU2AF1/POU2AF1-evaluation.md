@@ -158,6 +158,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| POU2F1 | STRING | 995 |
+| MZB1 | STRING | 891 |
+| PAX5 | STRING | 884 |
+| POU2F2 | STRING | 884 |
+| SPIB | STRING | 874 |
+| SYK | STRING | 819 |
+| IKZF3 | STRING | 811 |
+| BLK | STRING | 741 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q16633
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000110777-POU2AF1/subcellular

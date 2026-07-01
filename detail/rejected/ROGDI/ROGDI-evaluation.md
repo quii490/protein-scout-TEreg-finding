@@ -56,6 +56,38 @@ status: scored
 
 ROGDI is 287 amino acids in length (~32.3 kDa). 287 aa, ideal range. Score 10/10.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| COPS6 | BioGRID | 0 |
+| KIAA1377 | BioGRID | 0 |
+| DISC1 | BioGRID | 0 |
+| ATP1A2 | BioGRID | 0 |
+| ATP2A1 | BioGRID | 0 |
+| DMXL1 | BioGRID | 0 |
+| DMXL2 | BioGRID | 0 |
+| WDR7 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
+
+### PubMed
+
+**Count: 40**
+
+| PMID | Title |
+|---|---|
+| 42332197 | mRAVE governs lysosomal catabolism through basal and mTORC1-regulated V-ATPase assembly. |
+| 41332866 | Common and rare variant genetic contributions in African Americans with autism. |
+| 41153423 | ROGDI-Related Disorder Resulting from Disruption of Complex Interactive Neuro-Dental Developmental Networks: A Review and Description of the First Mis |
+| 40960323 | Kohlschütter-Tönz Syndrome: A Rare Clinical Entity with Amelogenesis Imperfecta in Two Siblings, Dental Management and Scoping Review. |
+| 40665224 | The impact of dental intervention under general anesthesia in Kohlschutter-Tonz Syndrome: a case series. |
+
+
 ### 5. Research Novelty (PubMed Analysis)
 
 | Metric | Value |

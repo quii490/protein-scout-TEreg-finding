@@ -12,14 +12,17 @@
   <nav>
     <a href="../protein_index.html">总表</a>
     <a href="../category/nucleoplasm.html">Nucleoplasm</a><a href="../category/nucleus-cytoplasm.html">Nucleus-cytoplasm</a><a href="../category/nuclear-speckle.html">Nuclear speckle</a><a href="../category/nuclear-body.html">Nuclear body</a><a href="../category/nucleolus.html">Nucleolus</a><a href="../category/nuclear-envelope.html">Nuclear envelope</a><a href="../category/chromatin.html">Chromatin</a><a href="../category/rejected.html">Rejected</a>
+    <a href="../centrosome/index.html">Centrosome</a>
+    <a href="../sperm/index.html">Sperm</a>
   </nav>
-</header><main class="container report-shell"><section class="panel"><h1>ARNT2</h1><div class="report-meta"><span class="badge muted">rejected</span><span class="badge">rejected</span><span class="badge">总分: NA</span><span class="badge">核定位: 9</span><a class="button small" href="../protein_index.html">蛋白总表</a><a class="button small" href="../category/rejected.html">分类页</a></div><p class="source-path">原始 detail 路径: detail/rejected/ARNT2/ARNT2-evaluation.md</p></section><article class="report-body"><hr>
+</header><main class="container report-shell"><section class="panel"><h1>ARNT2</h1><div class="report-meta"><span class="badge muted">rejected</span><span class="badge">rejected</span><span class="badge">总分: NA</span><span class="badge">核定位: 2</span><a class="button small" href="../protein_index.html">蛋白总表</a><a class="button small" href="../category/rejected.html">分类页</a></div><p class="source-path">原始 detail 路径: detail/rejected/ARNT2/ARNT2-evaluation.md</p></section><article class="report-body"><hr>
 <p>type: protein-evaluation gene: &quot;ARNT2&quot; date: 2026-05-28 tags: [protein-scout, nuclear-protein, evaluation] status: scored ---</p>
 <h3>ARNT2 核蛋白评估报告</h3>
 <h4>1. 基本信息</h4>
 <div class="table-wrap"><table>
 <thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
 <tr><td>基因名 / 别名</td><td>ARNT2 / bHLHe1, KIAA0307</td></tr>
+<tr><td>蛋白名称</td><td>Aryl hydrocarbon receptor nuclear translocator 2</td></tr>
 <tr><td>蛋白大小</td><td>717 aa / 78.7 kDa</td></tr>
 <tr><td>UniProt ID</td><td>Q9HBZ2 (ARNT2_HUMAN)</td></tr>
 <tr><td>评估日期</td><td>2026-05-28</td></tr>
@@ -138,6 +141,22 @@
 <p><strong>核心优势</strong>: 1. <strong>结构域架构完整</strong>: bHLH-PAS-PAC是经典的DNA结合+蛋白互作架构，6+数据库一致确认，PAS2+PAC域AlphaFold置信度极高(pLDDT 92.4) 2. <strong>PPI3. </strong>研究新颖性佳<strong>: 141篇文献中chromatin方向仅9篇(6.4%)，其作为chromatin调控因子的角色几乎空白，niche空间大 4. </strong>大小理想**: 717 aa适合生化和结构实验，重组表达可行</p>
 <p><strong>风险/不确定性</strong>: 1. <strong>高度无序</strong>: C端(548-717)和N端(1-64)占蛋白长度53%，功能未知，可能影响蛋白表达纯化 2. <strong>无实验结构</strong>: PAS域虽有高质量AlphaFold预测，但无PDB实验结构；化学计量学(与HIF1A/AHR二聚体)需实验确定 3. <strong>功能冗余</strong>: 与ARNT(ARNT1)高度同源，可能存在功能冗余，需设计特异性工具(如domain swap) 4. **PPI，STRING显示进行结构解析</p>
 <ul><li>[ ] ChIP-seq/MS分析ARNT2在低氧/非低氧条件下的基因组占有率</li><li>[ ] 比较ARNT2 vs ARNT在全基因组chromatin结合位点的差异</li></ul>
+<h4>PPI 互作网络</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>互作伙伴</th><th>来源</th><th>评分</th></tr></thead><tbody>
+<tr><td>HIF1A</td><td>STRING</td><td>999</td></tr>
+<tr><td>HLF</td><td>STRING</td><td>998</td></tr>
+<tr><td>EPAS1</td><td>STRING</td><td>998</td></tr>
+<tr><td>NPAS4</td><td>STRING</td><td>998</td></tr>
+<tr><td>SIM1</td><td>STRING</td><td>979</td></tr>
+<tr><td>HIF3A</td><td>STRING</td><td>977</td></tr>
+<tr><td>ARNT</td><td>STRING</td><td>968</td></tr>
+<tr><td>AHR</td><td>STRING</td><td>940</td></tr>
+</tbody></table></div>
+<h4>TE 调控评估</h4>
+<p>该蛋白有 ChIP-Seq 实验数据，可能在基因组水平参与 TE 调控。建议分析 ChIP 峰在 TE 区域的富集情况。</p>
+<h4>HPA IF 图像</h4>
+<p><figure><img src="https://images.proteinatlas.org/1056/1766_G1_1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/1056/1766_G1_2_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/1056/2267_H4_1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/1056/2267_H4_2_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/1056/2267_H4_3_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/1056/2267_H4_4_blue_red_green.jpg" alt="image"></figure></p>
 <h4>5. 数据来源</h4>
 <ul><li>GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=ARNT2</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000172379-ARNT2</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=%22ARNT2%22</li><li>UniProt: https://www.uniprot.org/uniprotkb/Q9HBZ2</li><li>- - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9HBZ2</li><li>STRING: https://string-db.org/network/9606.ENSP00000307479</li><li>InterPro: https://www.ebi.ac.uk/interpro/protein/uniprot/Q9HBZ2</li></ul>
 <p><figure><img src="../../detail/rejected/ARNT2/ARNT2-PAE.png" alt="ARNT2-PAE.png"></figure></p>

@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | ARPP19 / cAMP-regulated phosphoprotein 19 |
+| 蛋白名称 | cAMP-regulated phosphoprotein 19 |
 | 蛋白大小 | 112 aa / 12.3 kDa |
 | UniProt ID | P56211 |
 | 评估日期 | 2026-05-29 |
@@ -147,6 +148,24 @@ STRING 预测互作以 textmining/coexpression 关联为主，主要指向 PP2A 
 - [ ] 不推荐作为核蛋白研究目标
 - [ ] 如有 PP2A-染色质的研究角度可考虑，但偏离项目核心
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MASTL | STRING | 994 |
+| ARPP21 | STRING | 890 |
+| PPP2R1A | STRING | 860 |
+| PPP2CA | STRING | 851 |
+| PPP2R2A | STRING | 805 |
+| PPP1R1B | STRING | 799 |
+| CDC2 | STRING | 798 |
+| CDK1 | STRING | 798 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000128989-ARPP19
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=ARPP19
@@ -157,9 +176,9 @@ STRING 预测互作以 textmining/coexpression 关联为主，主要指向 PP2A 
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[ARPP19-PAE.png]]
 

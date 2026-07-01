@@ -166,6 +166,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| DTYMK | STRING | 946 |
+| CMPK2 | STRING | 942 |
+| UCK2 | STRING | 831 |
+| UMPS | STRING | 776 |
+| DGUOK | STRING | 749 |
+| DCK | STRING | 745 |
+| RPL17 | STRING | 731 |
+| RPL23 | STRING | 731 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/A0A8V8TMN5
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000162368-CMPK1/subcellular

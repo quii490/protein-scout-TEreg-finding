@@ -154,6 +154,21 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### PubMed
+
+**Count: 3**
+
+| PMID | Title |
+|---|---|
+| 28545635 | Outcomes in Patients With Chest Pain Discharged After Evaluation Using a High-Sensitivity Troponin T Assay. |
+| 24353567 | Comparison between intrathecal and intravenous betamethasone for post-operative pain following cesarean section: a randomized clinical trial. |
+| 18577286 | Neuropsychological and behavioral functioning in children with and without obstructive sleep apnea referred for tonsillectomy. |
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q32MH5
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000047346-ATOSA/subcellular

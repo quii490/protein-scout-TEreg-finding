@@ -166,6 +166,34 @@ status: scored
 - [ ] 构建表达载体进行功能研究
 - [ ] Co-IP/MS 鉴定互作蛋白
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NIPBL | STRING | 999 |
+| PDS5A | STRING | 988 |
+| WAPL | STRING | 982 |
+| WAPAL | STRING | 982 |
+| SMC3 | STRING | 942 |
+| PDS5B | STRING | 922 |
+| CDCA5 | STRING | 917 |
+| STAG1 | STRING | 911 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/59897/1043_G9_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/59897/1043_G9_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/59897/1218_E9_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/59897/1218_E9_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/59897/1018_E9_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/59897/1018_E9_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=MAU2
 - Protein Atlas: https://www.proteinatlas.org/MAU2
@@ -180,9 +208,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[MAU2-PAE.png]]
 

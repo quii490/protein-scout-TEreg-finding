@@ -170,6 +170,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SUZ12 | STRING | 999 |
+| EZH1 | STRING | 998 |
+| EZH2 | STRING | 998 |
+| JARID2 | STRING | 998 |
+| EPOP | STRING | 994 |
+| RBBP7 | STRING | 978 |
+| PHF19 | STRING | 975 |
+| RBBP4 | STRING | 971 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9Y483
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000143033-MTF2/subcellular

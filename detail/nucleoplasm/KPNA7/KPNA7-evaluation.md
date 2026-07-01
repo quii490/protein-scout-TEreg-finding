@@ -164,6 +164,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| KPNB1 | STRING | 995 |
+| KPNA1 | STRING | 887 |
+| RCC1 | STRING | 865 |
+| NUP50 | STRING | 860 |
+| RNMT | STRING | 807 |
+| NCBP2 | STRING | 801 |
+| KPNA3 | STRING | 799 |
+| RAN | STRING | 783 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/A9QM74
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000185467-KPNA7/subcellular

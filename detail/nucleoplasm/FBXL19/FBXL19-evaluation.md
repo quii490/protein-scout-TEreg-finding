@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | FBXL19 |
+| 蛋白名称 | F-box/LRR-repeat protein 19 |
 | 蛋白大小 | 694 aa |
 | UniProt ID | Q6PCT2 (F-box/LRR-repeat protein 19) |
 | 评估日期 | 2026-05-30 |
@@ -156,6 +157,34 @@ status: scored
 - [ ] 通过 co-IP/MS 验证 PPI 网络
 - [ ] ChIP-seq 检查 FBXL19 在 TE 区域的 occupancy
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SKP1 | STRING | 991 |
+| SKP1A | STRING | 991 |
+| CUL1 | STRING | 979 |
+| NACC1 | STRING | 778 |
+| KDM7A | STRING | 771 |
+| NEDD8 | STRING | 746 |
+| TRIM27 | BioGRID | 1 |
+| CBFA2T2 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 实验数据，可能在基因组水平参与 TE 调控。建议分析 ChIP 峰在 TE 区域的富集情况。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/74250/1910_E6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/74250/1910_E6_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/74250/1795_G5_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/74250/1795_G5_4_blue_red_green.jpg)
+![](https://images.proteinatlas.org/74250/1893_G9_8_cr5bc068c6ca1ca_blue_red_green.jpg)
+![](https://images.proteinatlas.org/74250/1893_G9_19_cr5bc068c6cabb5_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q6PCT2
 - Protein Atlas: https://www.proteinatlas.org/search/FBXL19
@@ -167,9 +196,9 @@ status: scored
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[FBXL19-PAE.png]]
 

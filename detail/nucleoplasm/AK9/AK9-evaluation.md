@@ -147,6 +147,24 @@ status: scored
 - [ ] 利用BioID/APEX2鉴定AK9在核内的互作组
 - [ ] 解析AK9的域架构，确定哪些域负责核定位和chromatin调控partner互作
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CUL4A | BioGRID | 0 |
+| HSP90B1 | BioGRID | 0 |
+| RHOA | BioGRID | 0 |
+| LRRC23 | BioGRID | 0 |
+| EXOG | BioGRID | 0 |
+| C5orf34 | BioGRID | 0 |
+| HDAC3 | BioGRID | 0 |
+| TAF2 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q5TCS8
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000155085-AK9

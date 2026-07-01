@@ -85,6 +85,24 @@ PPI 网络极其强大，集中在着丝粒/动粒核心复合物（CENP-H/I/K/L
 ### 4. 总体评价
 CENPK 是一个着丝粒/动粒核心组件蛋白，核定位证据充分（着丝粒特异性定位），PPI 网络极强（与整个 CENP 家族紧密互作），研究热度中等（PM=50）。缺点是结构域注释简单、无 HPA IF 验证、AF 置信度中等。作为 chromatin 类别候选，功能特异性突出但文献量不低。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CENPM | STRING | 999 |
+| MLF1IP | STRING | 999 |
+| CENPU | STRING | 999 |
+| CENPH | STRING | 999 |
+| CENPQ | STRING | 999 |
+| CENPL | STRING | 999 |
+| CENPI | STRING | 999 |
+| CENPO | STRING | 999 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9BS16
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9BS16

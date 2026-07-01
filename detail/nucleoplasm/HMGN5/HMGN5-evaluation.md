@@ -37,7 +37,7 @@ status: scored
 | 🏗️ 三维结构 | 5/10 | ×3 | 15 | AlphaFold pLDDT: 52.8 |
 | 🧬 调控结构域 | 6/10 | ×2 | 12 | UniProt domains: None identified |
 | 🔗 PPI | 4/10 | ×3 | 12 | 待细化（默认基线） |
-| ➕ 互证加分 | — | — | **+0** | 待补充 |
+| ➕ 互证加分 | — | — | **+0** | 暂无数据 |
 | **原始总分** |  |  | **103/183** |  |
 | **归一化总分** |  |  | **56.3/100** |  |
 
@@ -90,8 +90,26 @@ HPA 免疫荧光（IF）实验数据确认 HMGN5 定位：
 
 **IntAct 查询记录**: IntAct: 未检索到实验验证互作
 
-**评价**: 待补充 IntAct/STRING/GO-CC 数据。
+**评价**: 暂无数据 IntAct/STRING/GO-CC 数据。
 
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| HMGN1 | STRING | 956 |
+| HMGN2 | STRING | 906 |
+| ZNF219 | STRING | 750 |
+| CBX8 | BioGRID | 1 |
+| HSPB1 | BioGRID | 1 |
+| ZC3H15 | BioGRID | 1 |
+| GTF2E2 | BioGRID | 1 |
+| SNRNP27 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
 
 ### 5. 总体评价
 
@@ -112,9 +130,9 @@ HPA 免疫荧光（IF）实验数据确认 HMGN5 定位：
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 <!-- DOMAIN_HUMANPPI_REPAIR_START -->
 ## Domain/SMART 与 humanPPI 补充（2026-06-07）

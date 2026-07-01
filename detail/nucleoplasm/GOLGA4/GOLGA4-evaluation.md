@@ -170,54 +170,38 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q13439
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000144674-GOLGA4/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=GOLGA4
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q13439
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Golgi apparatus (supported)。来源: https://www.proteinatlas.org/ENSG00000144674-GOLGA4/subcellular
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| GCC2 | STRING | 939 |
+| TGOLN2 | STRING | 852 |
+| STX6 | STRING | 724 |
+| ARL3 | BioGRID | 1 |
+| TRAF3IP1 | BioGRID | 1 |
+| TNIK | BioGRID | 1 |
+| APP | BioGRID | 1 |
+| TP63 | BioGRID | 1 |
 
-![](https://images.proteinatlas.org/40675/791_H2_2_red_green.jpg)
-![](https://images.proteinatlas.org/40675/791_H2_3_red_green.jpg)
-![](https://images.proteinatlas.org/40675/798_H2_1_red_green.jpg)
-![](https://images.proteinatlas.org/40675/798_H2_2_red_green.jpg)
-![](https://images.proteinatlas.org/40675/860_H7_1_red_green.jpg)
-![](https://images.proteinatlas.org/40675/860_H7_2_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+### TE 调控评估
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q13439-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-07）
+### HPA IF 图像
 
-### SMART / UniProt domain
-| Source | Data |
+HPA 检索: https://www.proteinatlas.org/search/GOLGA4
+
+### PubMed
+
+**Count: 72**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q13439 |
-| SMART | SM00755; |
-| UniProt Domain [FT] | DOMAIN 2168..2215; /note="GRIP"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00250" |
-| InterPro | IPR000237; |
-| Pfam | PF01465; |
+| 42072025 | Transcriptional and Alternative Splicing Regulation of Autophagy and Vesicle Transport Pathways in Large Yellow Croaker Cells During Megalocytivirus I |
+| 42042189 | Concomitant Clonal CBFB::MYH11 and PDGFRB Fusions in a Case of De Novo Acute Myeloid Leukemia. |
+| 41894669 | Myeloproliferative Neoplasm With Eosinophilia Exhibiting a Rare GOLGA4-PDGFRB Rearrangement in an Infant: Navigating a Rare Malignancy Amidst Limited  |
+| 41840584 | TCOF1 affects Golgi secretory pathway contributing to the angiogenesis in renal cancer. |
+| 41068906 | Transcriptional analysis reveals a markedly reduced expression of the voltage-dependent calcium channel α2δ1 subunit in canine prostate cancer compare |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000144674-GOLGA4/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| EXOC1 | Intact, Biogrid | true |
-| ANKRD27 | Intact | false |
-| ARL1 | Biogrid | false |
-| DNAJA1 | Biogrid | false |
-| DNAJB1 | Opencell | false |
-| HDAC2 | Biogrid | false |
-| LIMD1 | Intact | false |
-| RAB4A | Biogrid | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

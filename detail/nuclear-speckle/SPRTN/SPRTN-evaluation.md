@@ -170,6 +170,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PCNA | STRING | 992 |
+| VCP | STRING | 976 |
+| PPP2R3B | STRING | 827 |
+| PTEN2 | STRING | 809 |
+| TPTE | STRING | 809 |
+| PTEN | STRING | 809 |
+| TEP1 | STRING | 809 |
+| UFD1 | STRING | 807 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9H040
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000010072-SPRTN/subcellular

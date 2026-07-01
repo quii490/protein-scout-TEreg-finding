@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | CBR3 / SDR21C2 |
+| 蛋白名称 | Carbonyl reductase [NADPH] 3 |
 | 蛋白全名 | Carbonyl reductase [NADPH] 3 |
 | 蛋白大小 | 277 aa / 30.9 kDa |
 | UniProt ID | O75828 |
@@ -143,7 +144,7 @@ status: scored
 | NDUFS3 | 0007(anti tag coimmunoprecipitation) | pubmed:27499296|imex | — |
 | SDCBP | 0397(two hybrid array) | imex:IM-27438|doi:10 | — |
 | CBR1 | 0007(anti tag coimmunoprecipitation) | pubmed:28514442|doi: | — |
-| BTBD9 | 0007(anti tag coimmunoprecipitation) | pubmed:28514442|doi: | — |
+| B暂无数据9 | 0007(anti tag coimmunoprecipitation) | pubmed:28514442|doi: | — |
 
 
 **已知复合体成员** (GO Cellular Component):
@@ -191,6 +192,32 @@ status: scored
 - [ ] 获取 HPA IF 图像确认核定位
 - [ ] 查阅最新关键文献补充功能细节
 - [ ] 设计体外 DNA/染色质结合实验
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RAB35 | BioGRID | 0 |
+| ARIH2 | BioGRID | 0 |
+| USP3 | BioGRID | 0 |
+| DCUN1D1 | BioGRID | 0 |
+| UBC | BioGRID | 0 |
+| ELF3 | BioGRID | 0 |
+| SDCBP | BioGRID | 0 |
+| ABCE1 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/18434/150_A1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/18434/150_A1_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/18434/149_A1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/18434/149_A1_2_blue_red_green.jpg)
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O75828

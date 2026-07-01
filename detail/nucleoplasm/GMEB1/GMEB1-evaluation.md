@@ -166,55 +166,48 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
-### 5. 数据来源
-- UniProt: https://www.uniprot.org/uniprotkb/Q9Y692
-- Protein Atlas: https://www.proteinatlas.org/ENSG00000162419-GMEB1/subcellular
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=GMEB1
-- AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9Y692
-- STRING: https://string-db.org/network/9606.ENSP00000
-- Data fetched live: 2026-06-03
+### PPI 互作网络
 
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/GMEB1/IF_images/A-431_1.jpg]]
-![[/Users/quii/Documents/Obsidian Vault/Projects/TEreg-finding/protein-interested/detail/nucleoplasm/GMEB1/IF_images/U-251MG_1.jpg]]
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| GMEB2 | STRING | 860 |
+| PKNOX1 | STRING | 718 |
+| TRIM63 | BioGRID | 1 |
+| SMAD3 | BioGRID | 1 |
+| SMAD1 | BioGRID | 1 |
+| TRIM55 | BioGRID | 1 |
+| DNMT3L | BioGRID | 1 |
+| FOXL2 | BioGRID | 1 |
 
 
+### TE 调控评估
 
-<!-- HPA_IF_REPAIR_START -->
-**HPA IF 图像修正（2026-06-05）**: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Nucleoplasm (enhanced)。来源: https://www.proteinatlas.org/ENSG00000162419-GMEB1/subcellular
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
 
-![](https://images.proteinatlas.org/44811/550_G8_1_red_green.jpg)
-![](https://images.proteinatlas.org/44811/550_G8_2_red_green.jpg)
-![](https://images.proteinatlas.org/44811/559_G8_1_red_green.jpg)
-![](https://images.proteinatlas.org/44811/559_G8_2_red_green.jpg)
-![](https://images.proteinatlas.org/44811/567_G8_1_red_green.jpg)
-![](https://images.proteinatlas.org/44811/567_G8_2_red_green.jpg)
-<!-- HPA_IF_REPAIR_END -->
+### HPA IF 图像
 
-<!-- AF_PAE_REPAIR_START -->
-**PAE 图像修正（2026-06-05）**: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。
+HPA 亚细胞定位: https://www.proteinatlas.org/ENSG00000177694-GMEB1/subcellular
 
-![](https://alphafold.ebi.ac.uk/files/AF-Q9Y692-F1-predicted_aligned_error_v6.png)
-<!-- AF_PAE_REPAIR_END -->
+### HPA IF 图像
 
-<!-- DOMAIN_HUMANPPI_REPAIR_START -->
-## Domain/SMART 与 humanPPI 补充（2026-06-06）
+![](https://images.proteinatlas.org/12413/1774_A8_3_cr5950f77030918_blue_red_green.jpg)
+![](https://images.proteinatlas.org/12413/1774_A8_24_cr5950f7703119e_blue_red_green.jpg)
+![](https://images.proteinatlas.org/12413/1658_G2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/12413/1658_G2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/12413/1682_C11_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/12413/1682_C11_3_blue_red_green.jpg)
 
-### SMART / UniProt domain
-| Source | Data |
+
+### PubMed
+
+**Count: 33**
+
+| PMID | Title |
 |---|---|
-| UniProt | Q9Y692 |
-| SMART | SM00258; |
-| UniProt Domain [FT] | DOMAIN 82..166; /note="SAND"; /evidence="ECO:0000255\|PROSITE-ProRule:PRU00185" |
-| InterPro | IPR059099;IPR010919;IPR000770; |
-| Pfam | PF01342;PF25892; |
+| 41652412 | Genome-wide profiling of salivary promoter-region DNA methylation in periodontitis: the Tromsø Study. |
+| 37389116 | Transcription factor glucocorticoid modulatory element-binding protein 1 promotes hepatocellular carcinoma progression by activating Yes-associate pro |
+| 36980306 | Chromatin Accessibility and Transcriptional Landscape during Inhibition of Salmonella enterica by Lactobacillus reuteri in IPEC-J2 Cells. |
+| 36035160 | Fatty acid metabolism-related genes are associated with flavor-presenting aldehydes in Chinese local chicken. |
+| 35546387 | Identification of functionally important miRNA targeted genes associated with child obesity trait in genome-wide association studies. |
 
-### humanPPI / HPA Interaction
-Source: https://www.proteinatlas.org/ENSG00000162419-GMEB1/interaction
 
-| Partner | Datasets | AF3/HPA structure |
-|---|---|:--:|
-| GMEB2 | Intact, Biogrid | true |
-| TRAF3 | Intact, Biogrid | true |
-| CASP8 | Biogrid | false |
-| TRIM63 | Biogrid | false |
-<!-- DOMAIN_HUMANPPI_REPAIR_END -->

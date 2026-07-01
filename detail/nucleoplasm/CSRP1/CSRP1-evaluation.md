@@ -171,6 +171,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MTF1 | STRING | 770 |
+| MED14 | STRING | 718 |
+| LMO1 | STRING | 717 |
+| CSRP1 | BioGRID | 1 |
+| EGFR | BioGRID | 1 |
+| APP | BioGRID | 1 |
+| GRB2 | BioGRID | 1 |
+| BAG3 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P21291
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000159176-CSRP1/subcellular

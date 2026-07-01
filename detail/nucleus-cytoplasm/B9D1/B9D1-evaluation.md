@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | B9D1 / MKSR1 |
+| 蛋白名称 | B9 domain-containing protein 1 |
 | 蛋白全名 | B9 domain-containing protein 1 |
 | 蛋白大小 | 204 aa / 22.8 kDa |
 | UniProt ID | Q9UPM9 (B9D1_HUMAN) |
@@ -53,6 +54,37 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 3. PMID 40565534: Campobasso G, Mercuri L, De Razza F (2025 May 27). "Investigating the Role of B9D1 in Meckel-Gruber Syndrome: A Case Report and Comprehensive Literature Review.." *Genes*.
 4. PMID 25869670: Roberson EC, Dowdle WE, Ozanturk A (2015 Apr 13). "TMEM231, mutated in orofaciodigital and Meckel syndromes, organizes the ciliary transition zone.." *The Journal of cell biology*.
 5. PMID 41165761: He R, Li Y, Jin M (2026 Jan 16). "Ciliopathy-related B9 protein complex regulates ciliary axonemal microtubule posttranslational modifications and initiation of ciliogenesis.." *The Journal of clinical investigation*.
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| LIG4 | BioGRID | 0 |
+| EXOSC10 | BioGRID | 0 |
+| TMEM231 | BioGRID | 0 |
+| IFI30 | BioGRID | 0 |
+| CCT2 | BioGRID | 0 |
+| CCT3 | BioGRID | 0 |
+| CCT4 | BioGRID | 0 |
+| CCT5 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### PubMed
+
+**Count: 27**
+
+| PMID | Title |
+|---|---|
+| 20301500 | Joubert Syndrome. |
+| 41165761 | Ciliopathy-related B9 protein complex regulates ciliary axonemal microtubule posttranslational modifications and initiation of ciliogenesis. |
+| 41038357 | Gestational diabetes mellitus induces 5-HT system dysfunction and exacerbates an ASD-like phenotype in male offspring by inhibiting the Ahi1/B9D1/Shh  |
+| 40933483 | Compound heterozygous missense and intronic variants in B9D1 contribute to a recurrent Meckel syndrome pedigree. |
+| 40820203 | DNA methylation of food sensitization in a French-Canadian population. |
+
 
 ### 5. AlphaFold 结构预测
 

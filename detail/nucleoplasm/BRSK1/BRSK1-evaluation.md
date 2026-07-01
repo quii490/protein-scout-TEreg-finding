@@ -140,6 +140,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 探索BRSK1-KMT5C功能关联在H4K20甲基化调控中的意义
 - [ ] 利用YAP/TAZ通路探究BRSK1在转录调控中的间接角色
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CDR2 | STRING | 778 |
+| KMT5C | STRING | 776 |
+| CDC25B | STRING | 735 |
+| PRKAA1 | BioGRID | 1 |
+| BRCA1 | BioGRID | 1 |
+| PAK1 | BioGRID | 1 |
+| ZFP36L2 | BioGRID | 1 |
+| MAPT | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8TDC3
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000160469-BRSK1

@@ -58,6 +58,31 @@ PubMed strict: 33
 
 IntAct 14 条记录（均为酵母双杂交 array 数据，来自 PMID:20211142）。UniProt 无 interaction 记录。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| EP300 | BioGRID | 0 |
+| TFAP2A | BioGRID | 0 |
+| TFAP2B | BioGRID | 0 |
+| TFAP2C | BioGRID | 0 |
+| TRIM25 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/56434/918_B4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/56434/918_B4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/56434/985_F4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/56434/985_F4_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/56434/982_F4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/56434/982_F4_2_blue_red_green.jpg)
+
+
 ### 5. 结构域与染色质调控潜力
 | 来源 | 结构域 |
 |---|---|

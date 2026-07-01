@@ -85,6 +85,24 @@ PPI 网络极其强大且实验验证充分，呈现双重身份：Fanconi anemi
 ### 4. 总体评价
 CENPX 是本批次评分最高的候选（80.0/100）。核心优势：极低文献量（PM=11）、极高 AF 置信度（pLDDT 92.6）、丰富 PDB 结构（13个高分辨）、双重核定位确认（Fanconi anemia 核心复合物 + 动粒）、极强的实验验证 PPI 网络。小蛋白（9.0 kDa）在结构研究上具有天然优势。主要弱点：结构域功能注释简单、无 HPA IF 验证。作为 chromatin 类别候选，是兼具高结构置信度和低研究热度的优质目标。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| FANCE | STRING | 999 |
+| FANCM | STRING | 999 |
+| FANCC | STRING | 999 |
+| CENPS | STRING | 999 |
+| FANCF | STRING | 999 |
+| FAAP100 | STRING | 999 |
+| CENPW | STRING | 999 |
+| FANCG | STRING | 999 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/A8MT69
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/A8MT69

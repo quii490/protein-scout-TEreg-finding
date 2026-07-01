@@ -54,6 +54,38 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 4. PMID 42045320: Li Z, Sun X, Xie Y (2026 Apr 27). "YKL-40 alleviates the TNF-α-Induced chondrocyte injury in osteoarthritis in vitro.." *Scientific reports*.
 5. PMID 29630609: Anasa VV, Manickam M, Talwar P (2018). "Identification of ASB7 as ER stress responsive gene through a genome wide in silico screening for genes with ERSE.." *PloS one*.
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CUL5 | BioGRID | 0 |
+| RNF7 | BioGRID | 0 |
+| SRRM1 | BioGRID | 0 |
+| ATF4 | BioGRID | 0 |
+| TCEB1 | BioGRID | 0 |
+| TCEB2 | BioGRID | 0 |
+| HIF1AN | BioGRID | 0 |
+| ASB4 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+![PAE](https://alphafold.ebi.ac.uk/files/AF-Q9H672-F1-predicted_aligned_error_v6.png)
+
+### PubMed
+
+**Count: 12**
+
+| PMID | Title |
+|---|---|
+| 42086529 | ASB7 promotes osteosarcoma lung metastasis through ubiquitin-mediated degradation of ATF2. |
+| 42045320 | YKL-40 alleviates the TNF-α-Induced chondrocyte injury in osteoarthritis in vitro. |
+| 41252073 | Balancing heterochromatin: ASB7-mediated proteasomal control of H3K9me3 homeostasis. |
+| 40440427 | ASB7 is a negative regulator of H3K9me3 homeostasis. |
+| 40391905 | Complete genome sequences of gastric non-Helicobacter pylori Helicobacter species, H. suis HS1(T), H. heilmannii ASB1(T), and H. ailurogastricus ASB7( |
+
+
 ### 5. AlphaFold 结构预测
 
 | 平均 pLDDT | 92.3 |

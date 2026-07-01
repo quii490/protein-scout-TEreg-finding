@@ -168,6 +168,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ASF1A | STRING | 981 |
+| ASF1B | STRING | 962 |
+| RAD9A | STRING | 873 |
+| SRSF1 | STRING | 822 |
+| H3F3A | STRING | 729 |
+| H3F3B | STRING | 729 |
+| TLK1 | BioGRID | 1 |
+| YWHAE | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9UKI8
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000198586-TLK1/subcellular

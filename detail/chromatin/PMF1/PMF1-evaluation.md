@@ -111,7 +111,7 @@ status: scored
 
 
 **PPI 互证分析**:
-- （待补充：综合 STRING、IntAct 和 GO 数据库的互作信息，分析 PPI 网络的一致性）
+- （暂无数据：综合 STRING、IntAct 和 GO 数据库的互作信息，分析 PPI 网络的一致性）
 **评价**: PPI 数据极为稀少
 
 #### 3.7 多库互证
@@ -145,6 +145,24 @@ PDB + AlphaFold 结构互证 (+0.5)
 - [ ] 基于 PPI 网络开展功能研究
 - [ ] 结构分析: 基于 PDB 的功能位点设计
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| NSL1 | STRING | 999 |
+| DSN1 | STRING | 999 |
+| MIS12 | STRING | 999 |
+| ZWINT | STRING | 994 |
+| KNL1 | STRING | 980 |
+| CENPC | STRING | 976 |
+| CENPC1 | STRING | 976 |
+| SPC24 | STRING | 972 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - GeneCards: https://www.genecards.org/cgi-bin/carddisp.pl?gene=PMF1
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000160783-PMF1
@@ -157,9 +175,9 @@ PDB + AlphaFold 结构互证 (+0.5)
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[PMF1-PAE.png]]
 

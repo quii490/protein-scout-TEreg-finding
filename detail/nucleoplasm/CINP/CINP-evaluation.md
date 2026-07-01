@@ -167,6 +167,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| C1ORF109 | STRING | 918 |
+| SUPT16H | STRING | 877 |
+| ATRIP | STRING | 852 |
+| SPATA5L1 | STRING | 844 |
+| RTF1 | STRING | 839 |
+| SSRP1 | STRING | 807 |
+| LEO1 | STRING | 805 |
+| C12ORF43 | STRING | 774 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9BW66
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000100865-CINP/subcellular
@@ -203,7 +221,7 @@ Source: https://www.proteinatlas.org/ENSG00000100865-CINP/interaction
 | AMOTL2 | Intact | false |
 | ATR | Intact | false |
 | BLZF1 | Intact | false |
-| BTBD2 | Intact | false |
+| B暂无数据2 | Intact | false |
 | CFAP161 | Intact | false |
 | CLUAP1 | Intact | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->

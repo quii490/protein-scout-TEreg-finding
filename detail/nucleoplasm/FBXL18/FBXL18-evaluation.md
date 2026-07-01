@@ -173,6 +173,34 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CUL1 | STRING | 983 |
+| SKP1 | STRING | 974 |
+| SKP1A | STRING | 974 |
+| RBX1 | STRING | 956 |
+| CALCOCO2 | BioGRID | 1 |
+| PLSCR1 | BioGRID | 1 |
+| COPS5 | BioGRID | 1 |
+| COPS6 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/36049/415_C2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36049/415_C2_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36049/416_C2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36049/416_C2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36049/411_C2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36049/411_C2_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96ME1
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000155034-FBXL18/subcellular

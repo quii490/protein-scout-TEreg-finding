@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EXOG · Protein Scout</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="report-page">
+<header class="topbar">
+  <a class="brand" href="../index.html">Protein Scout</a>
+  <nav>
+    <a href="../protein_index.html">总表</a>
+    <a href="../category/nucleoplasm.html">Nucleoplasm</a><a href="../category/nucleus-cytoplasm.html">Nucleus-cytoplasm</a><a href="../category/nuclear-speckle.html">Nuclear speckle</a><a href="../category/nuclear-body.html">Nuclear body</a><a href="../category/nucleolus.html">Nucleolus</a><a href="../category/nuclear-envelope.html">Nuclear envelope</a><a href="../category/chromatin.html">Chromatin</a><a href="../category/rejected.html">Rejected</a>
+    <a href="../centrosome/index.html">Centrosome</a>
+    <a href="../sperm/index.html">Sperm</a>
+  </nav>
+</header><main class="container report-shell"><section class="panel"><h1>EXOG</h1><div class="report-meta"><span class="badge good">scored</span><span class="badge">nucleus-cytoplasm</span><span class="badge">总分: 41</span><span class="badge">核定位: 4</span><a class="button small" href="../protein_index.html">蛋白总表</a><a class="button small" href="../category/nucleus-cytoplasm.html">分类页</a></div><p class="source-path">原始 detail 路径: detail/nucleus-cytoplasm/EXOG/EXOG-evaluation.md</p></section><article class="report-body"><hr>
+<p>type: protein-evaluation gene: &quot;EXOG&quot; date: 2026-06-29 tags: [protein-scout, nuclear-protein, evaluation, nucleus-cytoplasm] status: shortlisted ---</p>
+<h3>EXOG (Nuclease EXOG, mitochondrial) 核蛋白评估报告</h3>
+<h4>1. 基本信息</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>项目</th><th>内容</th></tr></thead><tbody>
+<tr><td>基因名</td><td>EXOG</td></tr>
+<tr><td>蛋白全称</td><td>Nuclease EXOG, mitochondrial</td></tr>
+<tr><td>UniProt ID</td><td>Q9Y2C4</td></tr>
+<tr><td>蛋白大小</td><td>368.0 aa</td></tr>
+<tr><td>评估日期</td><td>2026-06-28</td></tr>
+<tr><td>HPA 亚细胞定位</td><td>HPA nuclear=False (unclassified_bare)</td></tr>
+<tr><td>ChIP-Atlas</td><td>无数据</td></tr>
+</tbody></table></div>
+<h4>2. 评分总览</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>维度</th><th>得分</th><th>新权重</th><th>加权后</th><th>关键证据摘要</th></tr></thead><tbody>
+<tr><td>🔴 核定位特异性</td><td>4/10</td><td>×4</td><td>16.0</td><td>unknown</td></tr>
+<tr><td>📏 蛋白大小</td><td>9/10</td><td>×1</td><td>9.0</td><td>368 aa</td></tr>
+<tr><td>🆕 研究新颖性</td><td>5/10</td><td>×5</td><td>25.0</td><td>PubMed计数待验证; unclassified_bare来源</td></tr>
+<tr><td>🏗️ 三维结构</td><td>5/10</td><td>×3</td><td>15.0</td><td>AF pLDDT待验证; 无PDB实验结构</td></tr>
+<tr><td>🧬 调控结构域</td><td>8/10</td><td>×2</td><td>16.0</td><td>IPR044929, IPR001604, IPR020821, IPR041003</td></tr>
+<tr><td>🔗 PPI</td><td>2/10</td><td>×3</td><td>6.0</td><td>PPI degree=51</td></tr>
+<tr><td><strong>加权总分</strong></td><td></td><td></td><td><strong>76/180</strong></td><td></td></tr>
+<tr><td><strong>归一化总分 (÷1.83)</strong></td><td></td><td></td><td><strong>41/100</strong></td><td>互证: +0</td></tr>
+</tbody></table></div>
+<h4>3. 详细分析</h4>
+<h5>3.1 核定位证据</h5>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>定位</th><th>可信度</th></tr></thead><tbody>
+<tr><td>UniProt GO-CC</td><td>Mitochondrion + Nucleus</td><td>实验验证</td></tr>
+<tr><td>HPA</td><td>hpa_nuclear=False</td><td>无IF核定位数据</td></tr>
+<tr><td>ChIP-Atlas</td><td>无数据</td><td>—</td></tr>
+</tbody></table></div>
+<p><strong>分析</strong>: EXOG 在 UniProt GO-CC 中具有 nucleus 注释，但其主要亚细胞定位和功能为Mitochondrion + Nucleus。核定位为次要或条件性定位，不适合作为染色质/TE调控核心靶标。</p>
+<h5>3.2 功能概述</h5>
+<p>mitochondrial endonuclease, apoptotic nuclear translocation。</p>
+<h5>3.3 PPI 网络</h5>
+<p>PPI degree=51。核相关互作待进一步验证。</p>
+<h4>4. 总体评价</h4>
+<p><strong>推荐等级</strong>: ⭐⭐ (2/5)</p>
+<p><strong>定位分类</strong>: nucleus-cytoplasm</p>
+<p>EXOG 具有条件性核定位，但主要功能在细胞质/其他细胞器。TE 调控潜力极低——缺乏 DNA/chromatin 结合结构域，无已知 TE 调控文献。不建议作为 TE 调控优先靶标。</p>
+<h4>结构域分析</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>ID</th></tr></thead><tbody>
+<tr><td>InterPro</td><td>IPR044929</td></tr>
+<tr><td>InterPro</td><td>IPR001604</td></tr>
+<tr><td>InterPro</td><td>IPR020821</td></tr>
+<tr><td>InterPro</td><td>IPR041003</td></tr>
+<tr><td>InterPro</td><td>IPR044925</td></tr>
+<tr><td>InterPro</td><td>IPR040255</td></tr>
+<tr><td>Pfam</td><td>PF01223</td></tr>
+<tr><td>Pfam</td><td>PF18026</td></tr>
+</tbody></table></div>
+<h4>HPA IF 图像</h4>
+<p>HPA 检索: https://www.proteinatlas.org/ENSG00000157036-EXOG</p>
+<p><figure><img src="https://images.proteinatlas.org/71050/1332_H1_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/71050/1332_H1_2_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/71050/1411_F4_2_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/71050/1411_F4_3_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/71050/1358_H1_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/71050/1358_H1_4_red_green.jpg" alt="image"></figure></p>
+<h4>Domain/SMART 结构域分析</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>来源</th><th>数据</th></tr></thead><tbody>
+<tr><td>SMART</td><td>SM00892;SM00477;</td></tr>
+<tr><td>InterPro</td><td>IPR044929;IPR001604;IPR020821;IPR041003;IPR044925;IPR040255;</td></tr>
+<tr><td>Pfam</td><td>PF01223;PF18026;</td></tr>
+<tr><td>UniProt Domain</td><td>未检出</td></tr>
+</tbody></table></div>
+<h4>PPI 互作网络</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>互作伙伴</th><th>来源</th><th>评分</th></tr></thead><tbody>
+<tr><td>FEN1</td><td>STRING</td><td>741</td></tr>
+<tr><td>EIF2B2</td><td>BioGRID</td><td>1</td></tr>
+<tr><td>CDH5</td><td>BioGRID</td><td>1</td></tr>
+<tr><td>RANBP6</td><td>BioGRID</td><td>1</td></tr>
+<tr><td>TRDN</td><td>BioGRID</td><td>1</td></tr>
+<tr><td>RIPPLY2</td><td>BioGRID</td><td>1</td></tr>
+<tr><td>RBM4</td><td>BioGRID</td><td>1</td></tr>
+<tr><td>MEPCE</td><td>BioGRID</td><td>1</td></tr>
+</tbody></table></div>
+<h4>PubMed</h4>
+<p><strong>Count: 48</strong></p>
+<div class="table-wrap"><table>
+<thead><tr><th>PMID</th><th>Title</th></tr></thead><tbody>
+<tr><td>42278383</td><td>Single-Nucleotide Polymorphisms in Genes Associated with Mitochondrial and DNA Damage Response Modulate the Risk of Non-Alcoholic Fatty Liver Disease</td></tr>
+<tr><td>41760790</td><td>Machine learning-based identification of potential diagnostic signatures in spinal cord injury.</td></tr>
+<tr><td>41680859</td><td>Forecasting malaria incidence in a resource-limited urban setting with climate variables as exogenous regressors: time series analysis using a SARIMAX</td></tr>
+<tr><td>40042814</td><td>Mitochondrial exonuclease EXOG supports DNA integrity by the removal of single-stranded DNA flaps.</td></tr>
+<tr><td>38918595</td><td>Artificial intelligence-enhanced electrocardiography derived body mass index as a predictor of future cardiometabolic disease.</td></tr>
+</tbody></table></div>
+<h4>ESMFold 结构预测</h4>
+<p><strong>方法</strong>: Meta ESM Metagenomic Atlas API ab initio 折叠预测。 <strong>PDB</strong>: <code>detail/_esm_structures/EXOG_esmfold.pdb</code></p>
+<div class="table-wrap"><table>
+<thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>ESMFold 平均 pLDDT</td><td>0.91</td></tr>
+<tr><td>pLDDT &gt; 0.9 占比</td><td>79.1%</td></tr>
+<tr><td>pLDDT &lt; 0.5 占比</td><td>1.6%</td></tr>
+<tr><td>建模残基数</td><td>368</td></tr>
+</tbody></table></div>
+<p>ESMFold 基于进化规模语言模型，进行无 MSA 搜索的从头折叠，可作为 AlphaFold 的独立验证。</p>
+<h4>5. 数据来源</h4>
+<ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9Y2C4</li><li>HPA: https://www.proteinatlas.org/</li></ul></article></main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

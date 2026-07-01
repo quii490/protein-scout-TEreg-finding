@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | AFF4 / AF5Q31, MCEF, CHOPS syndrome protein |
+| 蛋白名称 | AF4/FMR2 family member 4 |
 | 蛋白大小 | 1163 aa / 127.5 kDa |
 | UniProt ID | Q9UHB7 |
 | 评估日期 | 2026-05-28 |
@@ -134,10 +135,10 @@ status: scored
 **PPI 互证**:
 - 无法获取 humanPPI 数据 - 
 **实验验证互作** (BioGRID / IntAct):
-- （待补充：通过 BioGRID 或 IntAct 数据库查询实验验证的蛋白-蛋白互作）
+- （暂无数据：通过 BioGRID 或 IntAct 数据库查询实验验证的蛋白-蛋白互作）
 STRING 和 UniProt 均确认 SEC 
 **已知复合体成员** (GO Cellular Component):
-- （待补充：通过 GO 数据库查询该蛋白所属的已知复合体）
+- （暂无数据：通过 GO 数据库查询该蛋白所属的已知复合体）
 **评价**: AFF4 的 PPI , IWS1 (偶联转录延伸与 H3K36 甲基化), CTDP1 (RNA Pol II CTD 磷酸酶)，以及与 MeCP2 (DNA 甲基化阅读器) 的直接互作。这些连接将 AFF4 置于转录延伸、组蛋白修饰和 DNA 甲基化三者的交叉路口，PPI + GO (euchromatin, nucleoplasm, nuclear body) + Protein Atlas (nucleoplasm, Supported) → **+0.5**
 - 三维结构互证: AlphaFold高置信度C端CHD域(pLDDT>90)在PDB中有X-ray实验结构吻合(6K7P/6KN5/6R80, 2.0-2.4A) → **+0.5**; 实验结构fold与AF预测一致 → **+0.5**
 - 结构域: 未达到 3 独立来源 → 0
@@ -179,6 +180,34 @@ STRING 和 UniProt 均确认 SEC
 - [ ] IDP 介导的 LLPS 在 SEC 组装中的角色
 - [ ] AFF4 在神经发育中的独立功能 (通过 MeCP2/CHOPS 角度切入)
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ELL2 | STRING | 999 |
+| MLLT1 | STRING | 999 |
+| CCNT1 | STRING | 999 |
+| ELL | STRING | 999 |
+| MEN | STRING | 999 |
+| CCNT2 | STRING | 999 |
+| AFF1 | STRING | 999 |
+| AF-4 | STRING | 999 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/29634/1261_A12_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29634/1261_A12_6_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29634/1184_G9_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29634/1184_G9_8_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29634/1055_F8_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/29634/1055_F8_4_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9UHB7
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000072364-AFF4/subcellular
@@ -192,9 +221,9 @@ STRING 和 UniProt 均确认 SEC
 #### PPI 网络（三源综合）
 | Partner | Source | Score/Evidence |
 |---|---|---|
-| 无记录 | — | — |
+| 暂无互作数据 |
 
-IntAct 有限记录。无 BioGrid 补充数据。
+暂无实验验证互作。无 BioGrid 补充数据。
 
 ![[AFF4-PAE.png]]
 

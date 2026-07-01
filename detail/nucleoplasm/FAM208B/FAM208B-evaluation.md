@@ -173,6 +173,45 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CCDC85B | BioGRID | 0 |
+| LDOC1 | BioGRID | 0 |
+| FAM208B | BioGRID | 0 |
+| SIRT7 | BioGRID | 0 |
+| NFX1 | BioGRID | 0 |
+| CUL3 | BioGRID | 0 |
+| PRKAB2 | BioGRID | 0 |
+| TRIM23 | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/38043/423_E6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38043/423_E6_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38043/426_E6_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38043/426_E6_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38043/422_E6_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/38043/422_E6_2_blue_red_green.jpg)
+
+
+### PubMed
+
+**Count: 3**
+
+| PMID | Title |
+|---|---|
+| 32422573 | Comprehensive Characterization of the Mutational Landscape in Localized Anal Squamous Cell Carcinoma. |
+| 30429480 | Novel pleiotropic risk loci for melanoma and nevus density implicate multiple biological pathways. |
+| 27274726 | A Cross-Study Biomarker Signature of Human Bronchial Epithelial Cells Infected with Respiratory Syncytial Virus. |
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q5VWN6
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000108021-TASOR2/subcellular

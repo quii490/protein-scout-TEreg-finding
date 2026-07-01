@@ -81,6 +81,10 @@ STRING 仅 textmining 互作（SENP1, C12orf54, EGLN1, OR12D3），IntAct 无物
 ### 4. 总体评价
 ANP32D 是一个低文献量、结构预测可靠的小型 ANP32 family 候选。由于缺少 UniProt/GO/HPA IF 定位证据，只能低置信度保留在 nucleoplasm 类别，后续必须优先补内源 IF 或可靠定位证据。
 
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O95626
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/O95626

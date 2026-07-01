@@ -152,6 +152,30 @@ status: scored
 - [ ] 比较胞质NatA vs 核NatA的底物偏好差异
 - [ ] 探究HYPK无序区域的磷酸化/修饰如何调控NatA活性和定位
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| HTT | BioGRID | 0 |
+| APP | BioGRID | 0 |
+| NAA15 | BioGRID | 0 |
+| MYL12A | BioGRID | 0 |
+| SEPHS1 | BioGRID | 0 |
+| NAA16 | BioGRID | 0 |
+| ZPR1 | BioGRID | 0 |
+| UBQLN1 | BioGRID | 0 |
+
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/55252/1334_B8_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/55252/1334_B8_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/55252/957_D4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/55252/957_D4_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/55252/966_D4_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/55252/966_D4_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9NX55
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000242028-HYPK

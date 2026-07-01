@@ -167,6 +167,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| VCP | STRING | 864 |
+| TADA2B | STRING | 748 |
+| SUPT7L | STRING | 744 |
+| MTO1 | STRING | 743 |
+| UBXN6 | STRING | 742 |
+| MOV10 | BioGRID | 1 |
+| NXF1 | BioGRID | 1 |
+| NSFL1C | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q969W3
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000133193-FAM104A/subcellular

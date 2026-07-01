@@ -83,6 +83,10 @@ PubMed 中无任何以 CSNK2A2IP 或别名作为主题的文献记录，甚至�
 CSNK2A2IP 是信息严重匮乏的候选蛋白，多项指标显示其不适合作为研究目标：(1) PubMed 文献记录为零；(2) AlphaFold pLDDT 均值仅 44.7，蛋白可能高度无序；(3) 无 PDB 结构、无 Pfam 结构域；(4) 全部 PPI 数据库均无记录；(5) 核定位仅为预测（ECO:0000250, IEA）。归一化总分 43.2/100 为最低档。除非后续出现文献突破或实验验证，不建议作为核-胞质候选投入资源。
 ![[CSNK2A2IP-PAE.png]]
 
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/A0A1B0GTH6
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/A0A1B0GTH6

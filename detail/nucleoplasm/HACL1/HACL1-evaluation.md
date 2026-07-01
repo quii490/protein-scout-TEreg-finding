@@ -170,6 +170,24 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CS | STRING | 871 |
+| MKL1 | STRING | 863 |
+| MRTFA | STRING | 863 |
+| SCP2 | STRING | 830 |
+| DBP | STRING | 788 |
+| BCAM | STRING | 758 |
+| ACOX1 | STRING | 707 |
+| HACL1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与核内 TE 调控过程，但目前无直接实验证据支持。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9UJ83
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000131373-HACL1/subcellular

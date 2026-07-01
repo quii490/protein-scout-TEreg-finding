@@ -176,6 +176,19 @@ status: scored
 - [ ] 查阅最新关键文献补充功能细节
 - [ ] 设计体外 DNA/染色质结合实验
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| PABPC1 | BioGRID | 1 |
+| GAPDH | BioGRID | 1 |
+| CSK | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/A6NNP5
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CCDC169

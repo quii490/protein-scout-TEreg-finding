@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |------|------|
 | 基因名 / 别名 | AHCYL2 / KIAA0828 |
+| 蛋白名称 | S-adenosylhomocysteine hydrolase-like protein 2 |
 | 蛋白大小 | 611 aa / 66.7 kDa |
 | UniProt ID | Q96HN2 |
 | 蛋白全名 | Adenosylhomocysteinase 3 |
@@ -152,6 +153,24 @@ AHCYL2 为 S-腺苷同型半胱氨酸水解酶家族成员 (AHCY-like 2)，含�
 - [ ] 验证 AHCYL2 的核定位比例及其调控条件
 - [ ] 探索 AHCYL2-DNMT 关联的表观遗传意义
 - [ ] 分析 AHCYL1/AHCYL2 在 IRBIT 信号网络中的功能分工
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| BAP1 | BioGRID | 0 |
+| JOSD2 | BioGRID | 0 |
+| WDR48 | BioGRID | 0 |
+| CLK4 | BioGRID | 0 |
+| CSNK1E | BioGRID | 0 |
+| HOXC9 | BioGRID | 0 |
+| DHX8 | BioGRID | 0 |
+| UNKL | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能直接或间接参与 TE 沉默机制，值得进一步实验验证。
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q96HN2

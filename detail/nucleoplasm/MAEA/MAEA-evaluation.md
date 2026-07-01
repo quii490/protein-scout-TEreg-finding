@@ -62,6 +62,34 @@ IntAct 15 条记录。UniProt 记录 8 个互作 partner（均为 CTLH complex �
 
 **核功能关键线索**: 2025 年 Nature Communications (PMID:41315365) 报道 CTLH complex 底物 ZMYND19 和 MKLN1 负调控 mTORC1 在溶酶体膜上的活性，而 MAEA 本身定位于 nucleoplasm 和 nuclear matrix，提示 CTLH complex 可能在核内外具有时空分离的功能模块。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ARMC8 | STRING | 986 |
+| RMND5A | STRING | 969 |
+| WDR26 | STRING | 969 |
+| GID8 | STRING | 960 |
+| RANBP9 | STRING | 952 |
+| RANBP10 | STRING | 920 |
+| YPEL5 | STRING | 882 |
+| RMND5B | STRING | 866 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/36886/407_D2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36886/407_D2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36886/404_D2_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36886/404_D2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36886/410_D2_2_blue_red_green.jpg)
+![](https://images.proteinatlas.org/36886/410_D2_3_blue_red_green.jpg)
+
+
 ### 5. 结构域与染色质调控潜力
 | 来源 | 结构域 |
 |---|---|

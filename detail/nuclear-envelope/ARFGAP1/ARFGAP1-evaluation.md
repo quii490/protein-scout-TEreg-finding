@@ -166,6 +166,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| RGS2 | BioGRID | 0 |
+| KDELR1 | BioGRID | 0 |
+| COPA | BioGRID | 0 |
+| TK1 | BioGRID | 0 |
+| MAP1LC3B | BioGRID | 0 |
+| SMN1 | BioGRID | 0 |
+| LRRK2 | BioGRID | 0 |
+| APP | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白的 GO-CC 注释中缺乏染色质/TE 沉默相关定位，TE 调控潜力较低。不建议作为 TE 调控优先靶标。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/ARFGAP1
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000101199-ARFGAP1/subcellular

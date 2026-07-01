@@ -167,6 +167,24 @@ status: scored
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| HIST1H3E | STRING | 923 |
+| HIST1H3I | STRING | 923 |
+| SCP2 | STRING | 826 |
+| HINFP | BioGRID | 1 |
+| PRMT5 | BioGRID | 1 |
+| MOV10 | BioGRID | 1 |
+| NXF1 | BioGRID | 1 |
+| YEATS4 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8N8U2
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000166446-CDYL2/subcellular

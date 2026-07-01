@@ -81,6 +81,21 @@ PPI 网络极为薄弱。STRING 最高分仅 0.573（HRC），且以 textmining 
 ### 4. 总体评价
 HSF5 是一个高潜力的减数分裂特异性转录因子：核定位确认、研究新颖性高（PM=22）、近期高质量文献密集（2024-2025）、功能独特（雄性减数分裂粗线期进展）。主要短板是 PPI 网络极弱和无序结构比例高。但考虑到其 TF 属性和减数分裂中的染色质关联功能，PPI 弱可能因其为 pioneers 研究早期阶段。建议作为高优先级核质候选保留。
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SAMHD1 | BioGRID | 1 |
+| ZRANB1 | BioGRID | 1 |
+| ACTN1 | BioGRID | 0 |
+| SPPL3 | BioGRID | 0 |
+| PRNP | BioGRID | 0 |
+
+
+### TE 调控评估
+
+该蛋白具有染色质/DNA 调控相关结构域，可能参与 TE 沉默。需实验验证。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q4G112
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q4G112

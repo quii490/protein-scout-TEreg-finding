@@ -12,6 +12,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | CHTOP / C1orf77, FOP |
+| 蛋白名称 | Chromatin target of PRMT1 protein |
 | 蛋白全名 | Chromatin target of PRMT1 protein |
 | 蛋白大小 | 248 aa / 26.4 kDa |
 | UniProt ID | Q9Y3Y2 (CHTOP_HUMAN) |
@@ -137,6 +138,34 @@ status: scored
 - [ ] 解析CHTOP识别5hmC的结构基础
 - [ ] 探究CHTOP-methylosome在TE重复序列或异染色质区域的潜在靶向
 - [ ] 利用PRMT1/PRMT5抑制剂验证CHTOP依赖的H4R3me2a转录调控
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| DDX39B | STRING | 999 |
+| SARNP | STRING | 998 |
+| ALYREF | STRING | 992 |
+| THOC5 | STRING | 992 |
+| THOC1 | STRING | 988 |
+| THOC2 | STRING | 987 |
+| THOC7 | STRING | 982 |
+| THOC3 | STRING | 962 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 实验数据，可能在基因组水平参与 TE 调控。建议分析 ChIP 峰在 TE 区域的富集情况。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/30540/899_C1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/30540/899_C1_3_blue_red_green.jpg)
+![](https://images.proteinatlas.org/30540/789_C1_6_blue_red_green.jpg)
+![](https://images.proteinatlas.org/30540/789_C1_8_blue_red_green.jpg)
+![](https://images.proteinatlas.org/30540/776_C1_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/30540/776_C1_2_blue_red_green.jpg)
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9Y3Y2

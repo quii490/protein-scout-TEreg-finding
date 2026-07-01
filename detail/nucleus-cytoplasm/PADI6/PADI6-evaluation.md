@@ -13,6 +13,7 @@ status: scored
 | 项目 | 内容 |
 |---|---|
 | 基因名 / 别名 | PADI6 / PAD6 |
+| 蛋白名称 | Inactive protein-arginine deiminase type-6 |
 | 蛋白全名 | Inactive protein-arginine deiminase type-6 |
 | 蛋白大小 | 694 aa / 77.7 kDa |
 | UniProt ID | Q6TGC4 |
@@ -131,6 +132,30 @@ status: scored
 PADI6 是 cytoplasmic lattice 的结构组分，在早期胚胎发育中起关键作用。蛋白本身无酶活性(PAD inactive)。核定位信号较弱(ECO:0000250 only)，主要定位在 oocyte cytoplasm/cortical granule/cytoplasmic lattice。SCMC 复合体关联和部分染色质调控因子互作(SUV39H1, UHRF1)提供一定调控潜力。4个X-ray PDB结构覆盖全长，结构信息丰富。
 
 **推荐**: 中等优先级。核定位证据偏间接，但染色质调控因子 PPI 和完整结构值得关注。
+
+### 功能描述
+
+Structural constituent of cytoplasmic lattices, which plays a key role in early embryonic development (PubMed:37922900). Cytoplasmic lattices consist in fibrous structures found in the cytoplasm of oocytes and preimplantation embryos (PubMed:37922900). They are required to store maternal proteins critical for embryonic development, such as ribosomal proteins and proteins that control epigenetic reprogramming of the preimplantation embryo, and prevent their degradation or activation (PubMed:37922
+
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| OOEP | STRING | 965 |
+| TLE6 | STRING | 950 |
+| NLRP2 | STRING | 741 |
+| NBS1 | STRING | 741 |
+| ZBED3 | STRING | 705 |
+| SUV39H1 | BioGRID | 1 |
+| KLHL2 | BioGRID | 1 |
+| ZNF526 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。
+
 
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprot/Q6TGC4

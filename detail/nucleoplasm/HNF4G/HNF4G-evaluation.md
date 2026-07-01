@@ -152,6 +152,34 @@ HNF4G 是经典核受体转录因子，HPA Enhanced 级别最高可信度核定�
 - ChIP-seq 在全基因组水平鉴定 HNF4G 结合位点
 - 条件性敲除表型分析
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| HNF1A | STRING | 943 |
+| FOXA2 | STRING | 777 |
+| HLF | BioGRID | 1 |
+| TNNI2 | BioGRID | 1 |
+| GAPDH | BioGRID | 1 |
+| PRDX6 | BioGRID | 1 |
+| RANBP9 | BioGRID | 1 |
+| PNRC1 | BioGRID | 1 |
+
+
+### TE 调控评估
+
+该蛋白有 ChIP-Seq 数据，可能在基因组水平参与 TE 调控。建议验证。
+
+### HPA IF 图像
+
+![](https://images.proteinatlas.org/5438/1964_F11_5_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5438/1964_F11_6_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5438/1845_A2_67_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5438/1845_A2_68_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5438/73_C10_1_blue_red_green.jpg)
+![](https://images.proteinatlas.org/5438/73_C10_2_blue_red_green.jpg)
+
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q14541
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q14541
