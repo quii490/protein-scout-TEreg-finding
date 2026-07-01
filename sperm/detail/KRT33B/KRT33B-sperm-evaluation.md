@@ -17,7 +17,7 @@ tags: [protein-scout, sperm, evaluation]
 - **IF 可靠性:** 未获取
 - **PubMed:** 7 篇
 - **精子定位部位:** End piece、Equatorial segment、Mid piece、Principal piece (4 个)
-- **UniProt Subcellular Location:** No subcellular location annotated
+- **UniProt Subcellular Location:** GO: cytoskeleton; cytosol; extracellular exosome; extracellular space; keratin filament
 
 ## 2. HPA 精子定位证据
 - **来源:** End piece、Equatorial segment、Mid piece、Principal piece ✓

@@ -229,7 +229,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytoskeleton; cytosol; extracellular space; keratin filament"
     },
     {
       "gene": "KRT33B",
@@ -261,7 +261,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytoskeleton; cytosol; extracellular exosome; extracellular space; keratin filament"
     },
     {
       "gene": "LCA5L",
@@ -389,7 +389,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: acrosomal vesicle"
     },
     {
       "gene": "TEX37",
@@ -837,7 +837,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: intermediate filament"
     },
     {
       "gene": "NBPF10",
@@ -1157,7 +1157,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: centriole; sperm end piece; sperm midpiece"
     },
     {
       "gene": "SPATA48",
@@ -1317,7 +1317,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: ciliary basal body"
     },
     {
       "gene": "C4orf45",
@@ -1413,7 +1413,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: CatSper complex; sperm principal piece"
     },
     {
       "gene": "CATSPERZ",
@@ -1445,7 +1445,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: CatSper complex; sperm midpiece; sperm principal piece"
     },
     {
       "gene": "CCDC34",
@@ -1669,7 +1669,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytoplasm"
     },
     {
       "gene": "DCTN3",
@@ -1893,7 +1893,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: HAUS complex"
     },
     {
       "gene": "HAUS7",
@@ -1925,7 +1925,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: centrosome"
     },
     {
       "gene": "IFT22",
@@ -2117,7 +2117,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytoskeleton; cytosol; extracellular exosome; extracellular space; intermediate filament"
     },
     {
       "gene": "KRT34",
@@ -2149,7 +2149,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytosol; intermediate filament"
     },
     {
       "gene": "LNPK",
@@ -2277,7 +2277,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytoplasm"
     },
     {
       "gene": "NT5C1B-RDH14",
@@ -2309,7 +2309,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytoplasm"
     },
     {
       "gene": "OR6P1",
@@ -2373,7 +2373,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: sperm head-tail coupling apparatus; sperm midpiece; sperm principal piece"
     },
     {
       "gene": "PPP1R3D",
@@ -2661,7 +2661,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: plasma membrane"
     },
     {
       "gene": "TEKT2",
@@ -3397,7 +3397,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytosol"
     },
     {
       "gene": "RGS9BP",
@@ -3845,7 +3845,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: sperm midpiece"
     },
     {
       "gene": "DCDC2C",
@@ -4325,7 +4325,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: extracellular exosome; sperm principal piece"
     },
     {
       "gene": "PGPEP1L",
@@ -4421,7 +4421,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: proteasome complex"
     },
     {
       "gene": "RAB11FIP5",
@@ -5029,7 +5029,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: sperm principal piece"
     },
     {
       "gene": "CTXN3",
@@ -5285,7 +5285,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: sperm end piece; sperm midpiece; sperm principal piece"
     },
     {
       "gene": "DNALI1",
@@ -5349,7 +5349,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: sperm annulus; sperm midpiece"
     },
     {
       "gene": "EFCAB6",
@@ -5445,7 +5445,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytosol"
     },
     {
       "gene": "FSIP1",
@@ -6117,7 +6117,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: nucleus"
     },
     {
       "gene": "RNPEP",
@@ -6885,7 +6885,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: CatSper complex"
     },
     {
       "gene": "CCDC136",
@@ -6981,7 +6981,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: axoneme"
     },
     {
       "gene": "CCDC66",
@@ -7301,7 +7301,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: dynein complex"
     },
     {
       "gene": "DNAH7",
@@ -7333,7 +7333,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: sperm annulus; sperm midpiece"
     },
     {
       "gene": "DNAH8",
@@ -7845,7 +7845,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: mitochondrion"
     },
     {
       "gene": "NDUFA6",
@@ -7877,7 +7877,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: respiratory chain complex I"
     },
     {
       "gene": "NUDCD3",
@@ -8005,7 +8005,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: protein phosphatase type 2A complex"
     },
     {
       "gene": "PRSS21",
@@ -8133,7 +8133,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: proteasome core complex, alpha-subunit complex"
     },
     {
       "gene": "RSPH1",
@@ -8645,7 +8645,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: BBSome"
     },
     {
       "gene": "TUBB4B",
@@ -8933,7 +8933,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytosol; nuclear membrane; nucleoplasm"
     },
     {
       "gene": "ARL13A",
@@ -8997,7 +8997,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytosol; nucleoplasm; sperm principal piece"
     },
     {
       "gene": "CD300LG",
@@ -9125,7 +9125,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytosol"
     },
     {
       "gene": "CNTROB",
@@ -9253,7 +9253,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: centrosome; ciliary basal body"
     },
     {
       "gene": "DNAH10",
@@ -9285,7 +9285,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: dynein complex"
     },
     {
       "gene": "DNAH9",
@@ -9765,7 +9765,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: ciliary basal body; cytosol; nuclear body; nucleoplasm"
     },
     {
       "gene": "REEP6",
@@ -10085,7 +10085,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: ciliary transition zone; sperm midpiece"
     },
     {
       "gene": "SPEF2",
@@ -10437,7 +10437,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytoplasmic microtubule; cytoskeleton"
     },
     {
       "gene": "CCDC39",
@@ -10469,7 +10469,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: axoneme"
     },
     {
       "gene": "CCDC40",
@@ -10565,7 +10565,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: mitochondrion"
     },
     {
       "gene": "COX6A1",
@@ -10917,7 +10917,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: cytosol; microtubule; nucleolus; nucleoplasm"
     },
     {
       "gene": "NUDT5",
@@ -11653,7 +11653,7 @@
       "uniprot_id": "",
       "is_enzyme": false,
       "if_status": "none",
-      "uniprot_subcellular_location": "No subcellular location annotated"
+      "uniprot_subcellular_location": "GO: acrosomal vesicle"
     },
     {
       "gene": "ATP5PF",

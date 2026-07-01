@@ -16,7 +16,7 @@ tags: [protein-scout, sperm, evaluation]
 - **IF 可靠性:** 未获取
 - **PubMed:** 75 篇
 - **精子定位部位:** Calyx、Mid piece (2 个)
-- **UniProt Subcellular Location:** No subcellular location annotated
+- **UniProt Subcellular Location:** GO: ciliary basal body; cytosol; nuclear body; nucleoplasm
 
 ## 2. HPA 精子定位证据
 - **来源:** Calyx、Mid piece ✓

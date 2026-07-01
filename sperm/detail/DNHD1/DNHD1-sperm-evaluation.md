@@ -16,7 +16,7 @@ tags: [protein-scout, sperm, evaluation]
 - **IF 可靠性:** 未获取
 - **PubMed:** 16 篇
 - **精子定位部位:** Annulus、Mid piece (2 个)
-- **UniProt Subcellular Location:** No subcellular location annotated
+- **UniProt Subcellular Location:** GO: sperm annulus; sperm midpiece
 
 ## 2. HPA 精子定位证据
 - **来源:** Annulus、Mid piece ✓
