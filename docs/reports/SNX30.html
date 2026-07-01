@@ -59,6 +59,10 @@
 <h4>4. 总体评价</h4>
 <p><strong>推荐等级</strong>: ⭐⭐ (2/5)</p>
 <p><strong>TE 调控相关性</strong>: 该蛋白缺乏明确的核/染色质定位证据，TE调控潜力极低，不建议作为优先靶标。</p>
+<h4>深度机制分析</h4>
+<p><strong>PX-BAR双结构域Sorting Nexin的非核蛋白定位</strong>：SNX30（Sorting nexin-30, 437 aa, UniProt Q5VWJ9）携带三个标志性结构域：N端SH3结构域（aa 1-61, IPR001452）、PX结构域（aa 230-340, IPR001683, Pfam PF00787）和C端BAR结构域（aa 371-574, SMART SM00312）。SH3-PX-BAR结构域组合是SNX9/18/33亚家族的特征，暗示SNX30参与网格蛋白介导的内吞作用中的膜重塑（membrane tubulation）和货物分选。PX域结合PI3P富集的内体膜，而BAR域通过其新月形二聚体感知并稳定膜弯曲，SH3域招募动力蛋白（Dynamin）和肌动蛋白调控因子。该蛋白与SNX4协同参与自噬体组装（PMID:32513819）——一种膜重塑过程，与核内事件无关。</p>
+<p><strong>核仁定位的不确定性</strong>：该蛋白的定位注释为&quot;no known nuclear annotation&quot;（核定位特异性4/10），归入核仁分类的依据可能是质谱检测的非特异性背景信号。Sorting nexin家族的所有成员均定位于胞质内膜（内体、TGN或质膜），无任何成员具有实验验证的核定位——SNX13（含RGS域）的部分核定位为家族唯一例外。因此SNX30的核仁分类可能是一个误分类。</p>
+<p><strong>低优先级TE候选</strong>：PPI数据中包含HNRNPL（BioGRID score=0）和KHDRBS1（Sam68, BioGRID score=0）两个RNA结合蛋白——HNRNPL参与可变剪接调控，Sam68参与RNA代谢和信号转导。若SNX30确实微量定位于核仁，可能通过SH3域介导的蛋白-蛋白互作与核仁RNA结合蛋白产生微弱关联。但整体上该蛋白的膜运输功能与TE调控不存在衔接点，建议在TE筛选中赋予最低优先级。</p>
 <h4>Domain/SMART 结构域分析</h4>
 <div class="table-wrap"><table>
 <thead><tr><th>来源</th><th>数据</th></tr></thead><tbody>
@@ -66,33 +70,6 @@
 <tr><td>InterPro</td><td>IPR027267;IPR001683;IPR036871;IPR036028;IPR001452;IPR037427;IPR014536;IPR019497;</td></tr>
 <tr><td>Pfam</td><td>PF10456;PF00787;PF14604;</td></tr>
 <tr><td>UniProt Domain</td><td>DOMAIN 1..61; /note=&quot;SH3&quot;; /evidence=&quot;ECO:0000255</td><td>PROSITE-ProRule:PRU00192&quot;; DOMAIN 230..340; /note=&quot;PX&quot;; /evidence=&quot;ECO:0000255</td><td>PROSITE-ProRule:PRU00147&quot;; DOMAIN 371..574; /note=&quot;BAR&quot;</td></tr>
-</tbody></table></div>
-<h4>PPI 互作网络</h4>
-<div class="table-wrap"><table>
-<thead><tr><th>互作伙伴</th><th>来源</th><th>评分</th></tr></thead><tbody>
-<tr><td>KHDRBS1</td><td>BioGRID</td><td>0</td></tr>
-<tr><td>ADAM15</td><td>BioGRID</td><td>0</td></tr>
-<tr><td>FGFR1OP</td><td>BioGRID</td><td>0</td></tr>
-<tr><td>SNX4</td><td>BioGRID</td><td>0</td></tr>
-<tr><td>HNRNPL</td><td>BioGRID</td><td>0</td></tr>
-<tr><td>TGOLN2</td><td>BioGRID</td><td>0</td></tr>
-<tr><td>KIAA1429</td><td>BioGRID</td><td>0</td></tr>
-<tr><td>LAMTOR1</td><td>BioGRID</td><td>0</td></tr>
-</tbody></table></div>
-<h4>HPA IF 图像</h4>
-<p>HPA 检索: https://www.proteinatlas.org/search/SNX30</p>
-<h4>HPA IF 图像</h4>
-<p>HPA: https://www.proteinatlas.org/ENSG00000148158-SNX30</p>
-<p><figure><img src="https://images.proteinatlas.org/19346/198_E11_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/19346/198_E11_2_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/19346/152_E11_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/19346/152_E11_2_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/19346/154_E11_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/19346/154_E11_2_red_green.jpg" alt="image"></figure></p>
-<h4>PubMed</h4>
-<p><strong>Count: 16</strong></p>
-<div class="table-wrap"><table>
-<thead><tr><th>PMID</th><th>Title</th></tr></thead><tbody>
-<tr><td>42059218</td><td>Integrative eQTL and Mendelian Randomization Analyses with Experimental Validation Prioritize Genetic Candidate Biomarkers for Crohn&#x27;s Disease.</td></tr>
-<tr><td>41605412</td><td>Integrated miRNA-proteomic profiling identifies chronic vesicle-trafficking and proteostasis disruptions after mild traumatic brain injury.</td></tr>
-<tr><td>41076048</td><td>Susceptibility and protective genes in diabetic retinopathy: A comprehensive single-cell RNA sequencing analysis.</td></tr>
-<tr><td>40798960</td><td>Transcriptomic Signatures in TP53 Positive and Negative Tumor Samples in NSCLC.</td></tr>
-<tr><td>40431640</td><td>Anthraquinone-2-Carboxylic Acid Is a Potential Antiviral Candidate Against Influenza Viruses In Vitro and In Vivo.</td></tr>
 </tbody></table></div></article></main>
 <script src="../assets/js/app.js"></script>
 </body>

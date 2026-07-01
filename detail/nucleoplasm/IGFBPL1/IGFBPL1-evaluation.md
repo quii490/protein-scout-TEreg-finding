@@ -76,7 +76,17 @@ Nuclear protein
 | CUL3 | BioGRID | 0 |
 
 
-![PAE](https://alphafold.ebi.ac.uk/files/AF-Q8WX77-F1-predicted_aligned_error_v6.png)
+### 深度机制分析
+
+**结构域架构**：IGFBPL1（278 aa, 29.0 kDa）是胰岛素样生长因子结合蛋白家族（IGFBP family）成员。含N端IGFBP域（Pfam IGFBP, IPR013098, ~aa 30-100）——约70 aa的富含Cys模块含12个保守Cys残基形成6对intramolecular disulfide bonds，构成刚性、紧凑的globular fold（cystine knot-like scaffold）专一识别IGF-I/IGF-II的A和B domain。C端Ig-like domain（I-set immunoglobulin-like domain, IPR013098, IPR007110, IPR003599）——约90 aa的β-sandwich fold（两片anti-parallel β-sheet）——介导IGFBP-IGF-IGF receptor三元复合物的构象变化（conformational coupling）。中间Kazal_2（Pfam Kazal_2）域为丝氨酸蛋白酶抑制剂样模块。AlphaFold pLDDT=85.1（PDB=4, 高结构表征）——N端IGFBP域pLDDT>90（极高，disulfide-stabilized rigid core），C端Ig-like域pLDDT~80-90，仅中间的Kazal域linker区域pLDDT~60。
+
+**PPI互作网络解读**：PPI（degree=5, BioGRID）以SNX家族sorting nexin蛋白为核心——SNX1, SNX2, SNX5, SNX6均为retromer复合物（retromer complex, cargo-selective trimer VPS26-VPS29-VPS35 + SNX-BAR dimer）的组分。Retromer介导内体（endosome）→反式高尔基体网络（TGN）的逆行运输（retrograde transport）——SNX1/SNX2通过其PX domain识别PI3P富集的内体膜，并通过BAR domain感知/诱导膜曲率→形成tubular-vesicular carrier将cargo（如CI-MPR, Sortilin, IGF2R）从内体运回TGN。IGFBPL1与SNX1/SNX2/SNX5/SNX6的物理互作表明IGFBPL1可能作为retromer的cargo adapter——桥接IGF-IGFBP-IGF receptor复合物的内吞→retromer介导的IGF receptor（IGF1R）从内体回收至TGN再循环→延长IGF signal的持续时间和强度。CUL3（cullin-3, BioGRID）为CRL3 E3 ubiquitin ligase的支架蛋白——IGFBPL1-CUL3互作提示泛素化依赖的IGFBPL1蛋白稳定性和/或IGF1R的泛素化降解受Cullin-RING ligase系统调控。
+
+**结构解读与机制模型**：IGFBPL1的双功能模型（IGF carrier + retromer adapter）。在细胞外（分泌型），IGFBPL1以高亲和力（Kd ~0.1-1 nM）结合IGF-I/IGF-II→（a）延长IGF在血液循环和组织间质中的半衰期（保护IGF免受蛋白酶降解），（b）阻止IGF与IGF1R的过度结合（decoy/buffer功能），（c）在特定条件下将IGF呈递至IGF1R（IGF delivery功能）。在核质（HPA Uncertain Nucleoplasm + Vesicles）中——IGFBPL1的核定位可能是内吞IGF-IGFBP-IGF1R复合物经retromer-mediated TGN retrieval→TGN到核膜的vesicular transport→进入核质的结果——核内IGFBPL1可能携带IGF至核质中的IGF1R变体（nuclear IGF1R, nIGF1R, 在多种癌症中报道作为转录共激活因子）。nIGF1R直接结合RNA Pol II的C-terminal domain（CTD）并在gene promoters上增强转录——IGFBPL1在此过程中充当IGF-to-nIGF1R ligand delivery的角色→增强核内IGF信号→促进增殖基因（如CCND1, MYC）和TE-rich区域的转录。
+
+**TE调控展望**：IGFBPL1通过IGF信号间接参与TE调控。IGF-IGF1R-PI3K-AKT-mTOR信号轴是LINE-1转座的正调控因子——mTORC1激活S6K→磷酸化rpS6→增强5'TOP mRNA（含5'terminal oligopyrimidine tract）的翻译——LINE-1 ORF1 mRNA含类似的5'TOP-like motif→IGF pathway激活可增强LINE-1蛋白翻译。IGFBPL1作为IGF bioavailable pool的调控器（buffer/delivery）→调控IGF1R信号强度→间接影响mTORC1依赖的LINE-1表达。retromer依赖的IGF1R回收（经SNX1/SNX2/SNX5/SNX6）在核内体分选（endosomal sorting）层面调控IGF信号持续性→影响TE蛋白表达的time-window。CUL3泛素连接酶参与H3K4me3去甲基化酶（KDM5 family）的泛素化降解→CUL3功能失调导致H3K4me3异常积累→激活ERV LTR promoter——IGFBPL1-CUL3互作提示IGFBPL1作为CUL3 CRL复合物的adaptor可能影响染色质修饰酶（如KDM5B/C）的底物招募→间接调控TE位点的组蛋白甲基化状态。
+
+
 
 ### HPA IF 图像
 

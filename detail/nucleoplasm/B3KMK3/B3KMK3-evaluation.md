@@ -59,6 +59,18 @@ no known nuclear annotation
 
 **TE 调控相关性**: 该蛋白缺乏明确的核/染色质定位证据，TE调控潜力极低，不建议作为优先靶标。
 
+
+
+### 深度机制分析
+
+B3KMK3（(cDNA FLJ11241 fis, clone PLACE1008603, highly similar to Nuclear pore complex protein Nup155)）。定位于nucleoplasm。包含382 aa / 42.0 kDa。UniProt编号B3KMK3。其InterPro结构域组成为IPR007187、IPR004870、IPR042533、IPR042537、IPR042538。Pfam注释1个保守结构域（PF03177）。
+
+从功能机制角度，该蛋白目前功能注释有限，其序列高度相似于Nuclear pore complex protein Nup155，尚缺乏深入的功能表征研究。
+
+从结构生物学角度，在TE调控的背景下，B3KMK3的nucleoplasm定位使其具备接触转座子元件的空间可能性。
+
+从研究转化角度，该蛋白在PubMed中尚无直接研究发表（PubMed=0），属于高度新颖的靶标，综合评分67.8/100，属于中等优先级，建议在更大规模的筛选中进一步验证。
+
 ### HPA IF 图像
 
 HPA 检索: https://www.proteinatlas.org/search/B3KMK3

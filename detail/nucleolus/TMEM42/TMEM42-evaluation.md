@@ -72,6 +72,13 @@ HPA: https://www.proteinatlas.org/ENSG00000169964-TMEM42
 ### TE 调控相关性
 
 该蛋白无明确的染色质/TE 沉默相关定位。TE 调控潜力极低。
+
+### 深度机制分析
+
+**结构域架构**：TMEM42（159 aa, 17.5 kDa）是功能完全未知的小跨膜蛋白，含EmrE-like域（IPR037185）和TMEM42特异地标（IPR039632）。EmrE-like家族为SMR（Small Multidrug Resistance）型转运蛋白超家族，特征为约100 aa的4-helix antiparallel bundle——可在膜中同源二聚化形成功能转运孔。TMHMM预测TMEM42为3-4次跨膜蛋白——呈tetraspanin-like排列（类似于CD9/CD81/CD63）。AlphaFold pLDDT=72.5（transmembrane helices >80），ESMFold pLDDT=0.72轻微下降。PPI（degree=58）以SUMO化和核蛋白为核心：UBE2I/UBC9（STRING score=746, SUMO化E2 conjugase）是SUMO pathway的中枢酶——催化SUMO1/2/3的C端Gly与底物Lys的isopeptide bond形成。LMNA（lamin A/C, BioGRID）为核纤层主要组分——TMEM42-LMNA互作暗示TMEM42在inner nuclear membrane（INM）的定位——可能作为核膜上的SUMO化支架蛋白。DTX2（Deltex E3 ligase, BioGRID, Notch signaling regulator）连接至泛素化，VENTX（vent-like homeobox transcription factor, BioGRID）连接至转录调控。
+
+**TE调控展望**：UBE2I/UBC9是核内SUMO化通路的核心酶——SUMO化是转录沉默、PML nuclear body组装和DNA damage response的关键修饰——众多TE相关转录因子（如DAXX, TRIM28/KAP1, PIAS1/3/4）依赖SUMO化发挥功能。TMEM42在INM上与LMNA和UBE2I互作——可能在核膜邻域形成SUMO化微域——影响nuclear periphery的转录沉默——而LADs（lamin-associated domains）富含LINE-1重复序列。核仁定位（nucleolus）本身是rDNA repeats和pericentromeric satellite repeats的核内场所——TMEM42可能在nucleolus-periphery transport pathway中调控特定RNA的subnuclear trafficking。
+
 ### 4. 总体评价
 **69.4/100** | **nucleolus**
 Nuclear protein

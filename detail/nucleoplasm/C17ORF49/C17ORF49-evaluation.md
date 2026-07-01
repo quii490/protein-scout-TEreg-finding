@@ -77,6 +77,11 @@ TE candidate: Homeodomain-like_sf; SANT/Myb
 | BAZ1A | STRING | 921 |
 
 
+
+### 深度机制分析
+
+C17ORF49（BPTF-associated chromatin complex component 1/BAP18，172 aa）是最具TE调控潜力的候选者之一。结构域包含Homeodomain-like超家族（IPR009057）和SANT/Myb结构域（IPR001005, PF27797），两者均为经典的染色质/DNA结合模块。SANT结构域是组蛋白尾部识别和染色质重塑复合物招募的核心结构。PPI网络（degree=129）高度富集染色质调控因子：BPTF（990，NURF复合物的最大亚基）、HMGXB4（983，转座子靶向因子）、SMARCA5/SNF2H（974，ISWI家族ATP酶）、RBBP4（964，组蛋白伴侣）、WDR5（935，MLL复合物核心组分）、DPY30（943）和BAZ1A（921）。关键文献36828916揭示BAP18促进CTCF介导的染色质可及性以调控乳腺癌增强子活性（Cell Death Differ 2023），38042310发现BAP18作为PPARalpha新共调控因子促进肝癌发生。该蛋白作为MLL1/MLL和NURF染色质重塑复合物的组分，通过SANT结构域识别组蛋白尾部，直接参与建立和维持开放染色质状态。其与CTCF的功能关联尤其重要——CTCF是绝缘子和染色质环锚定蛋白，在TE区域广泛分布。C17ORF49可能通过稳定CTCF占据或增强NURF在TE增强子处的活性调控TE驱动的基因表达，是TE调控的高优先级机制候选者。
+
 ![PAE](https://alphafold.ebi.ac.uk/files/AF-Q8IXM2-F1-predicted_aligned_error_v6.png)
 
 ### HPA IF 图像

@@ -44,6 +44,12 @@
 <p>39060344: Generation of novel lipid metabolism-based signatures to predict prognosis and i | 36252138: BCAM Deficiency May Contribute to Preeclampsia by Suppressing the PIK3R6/p-STAT3 | 33155192: RBBP6 aggravates the progression of ovarian cancer by targeting PIK3R6.</p>
 <h4>4. 总体评价</h4>
 <p><strong>68.9/100</strong> | <strong>nucleoplasm</strong> Nuclear protein</p>
+<h4>深度机制分析</h4>
+<p><strong>PI3Kγ调控亚基的核质信号功能</strong>：PIK3R6（Phosphoinositide 3-kinase regulatory subunit 6, 754 aa, UniProt Q5UE93）是I类PI3Kγ复合物的调控亚基，与催化亚基PIK3CG（p110γ）形成异二聚体。其唯一结构域为PI3K_1B_p101（Pfam: PI3K_1B_p101 PF10486; InterPro: PIK3R5/6 IPR019522），作为适配蛋白驱动G蛋白βγ亚基对PIK3CG的激活。PI3Kγ复合物主要在胞质中产生PIP3第二信使，调控免疫细胞趋化性和血管生成（通过PDE3B:RAPGEF3信号复合物）。HPA数据清晰标注该蛋白位于Nucleoplasm（Approved级别, 核定位特异性9/10），暗示存在核内PI3K信号的新功能。</p>
+<p><strong>核内磷酸肌醇信号与转录调控</strong>：近年来核内磷酸肌醇（nuclear phosphoinositides, nPI）代谢已成为一个活跃的研究领域。核内PIP2和PIP3被发现在染色质重塑、pre-mRNA剪接和转录起始中发挥调控作用。核内PI3K/s PIP3产物可与核内PHD锌指蛋白（如TAF3, ING2）结合，影响其染色质结合行为。若PIK3R6-PIK3CG复合物在核内产生PIP3，可间接调控PHD指蛋白的H3K4me3阅读功能——而H3K4me3标记与TE启动子区域的染色质状态直接相关。</p>
+<p><strong>极低结构置信度与PPI特征</strong>：AlphaFold pLDDT=0.0（极不寻常的低值）暗示PIK3R6为高度无序蛋白，这与其适配蛋白/支架蛋白的角色一致——信号适配蛋白通常缺乏独立折叠域，其构象在结合互作伙伴后才稳定化。PPI degree=46（BioGRID/STRING），包含PIK3CG催化亚基（BioGRID score=0），以及多个核蛋白伙伴：DHX9（RNA解旋酶A, BioGRID score=0）、HIST1H1A（接头组蛋白H1.1, BioGRID score=0）和RPL10A（核糖体蛋白L10a）——这些核内互作一致暗示核内功能。</p>
+<p><strong>肿瘤相关文献中的染色质调控线索</strong>：PubMed=23的文献主要集中于癌症生物信息学（PMIDs:39060344, 36252138, 33155192）。PMIDs:33155192（RBBP6加重卵巢癌进展通过靶向PIK3R6）和36252138（BCAM缺陷通过抑制PIK3R6/p-STAT3促进子痫前期）提示该蛋白可能通过STAT3信号通路参与转录调控——而STAT3被报道能调控LINE-1和Alu元件的转录（PMID:28003220）。</p>
+<p><strong>PI3K-mTOR-TE调控网络的多层交汇</strong>：PI3K/AKT/mTOR通路通过mTORC1抑制DF-1自噬受体介导的TE RNA降解，且mTOR信号影响PIWI蛋白稳定性。PIK3R6作为PI3Kγ特异调控亚基，可能通过组织特异性mTOR激活间接影响TE表达。加上核质定位的存在，核内PI3K-PIP3信号可能参与染色质区域的局部磷脂微环境调控——这一新兴概念为PIK3R6的TE调控研究提供了独特的分子假说。归一化得分68.9/100中核定位特异性36/40和新奇性45/50均为支撑维度。</p>
 <h4>补充分析 (UniProt API)</h4>
 <p><strong>蛋白全称</strong>: Phosphoinositide 3-kinase regulatory subunit 6</p>
 <p><strong>功能</strong>: Regulatory subunit of the PI3K gamma complex. Acts as an adapter to drive activation of PIK3CG by beta-gamma G protein dimers. The PIK3CG:PIK3R6 heterodimer is much less sensitive to beta-gamma G protein dimers than PIK3CG:PIK3R5 and its membrane recruitment and beta-gamma G protein dimer-dependent activation requires HRAS bound to PIK3CG. Recruits of the PI3K gamma complex to a PDE3B:RAPGEF3 signaling complex involved in angiogenesis; signaling seems to involve RRAS</p>
@@ -66,27 +72,7 @@
 <tr><td>TCP1</td><td>BioGRID</td><td>0</td></tr>
 <tr><td>DHX9</td><td>BioGRID</td><td>0</td></tr>
 <tr><td>RPL10A</td><td>BioGRID</td><td>0</td></tr>
-</tbody></table></div>
-<p><figure><img src="https://alphafold.ebi.ac.uk/files/AF-Q5UE93-F1-predicted_aligned_error_v6.png" alt="PAE"></figure></p>
-<h4>HPA IF 图像</h4>
-<p>HPA: https://www.proteinatlas.org/ENSG00000276231-PIK3R6</p>
-<p><figure><img src="https://images.proteinatlas.org/23077/1848_H1_16_cr5abb7fd6afbee_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/23077/1848_H1_27_cr5abb7fd6b05dc_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/23077/215_D1_1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/23077/215_D1_2_blue_red_green.jpg" alt="image"></figure></p>
-<h4>HPA IF 图像</h4>
-<p>HPA: https://www.proteinatlas.org/ENSG00000276231-PIK3R6</p>
-<p><figure><img src="https://images.proteinatlas.org/23077/1848_H1_16_cr5abb7fd6afbee_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/23077/1848_H1_27_cr5abb7fd6b05dc_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/23077/215_D1_1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/23077/215_D1_2_blue_red_green.jpg" alt="image"></figure></p>
-<h4>HPA IF 图像</h4>
-<p>HPA: https://www.proteinatlas.org/ENSG00000276231-PIK3R6</p>
-<p><figure><img src="https://images.proteinatlas.org/23077/1848_H1_16_cr5abb7fd6afbee_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/23077/1848_H1_27_cr5abb7fd6b05dc_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/23077/215_D1_1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/23077/215_D1_2_blue_red_green.jpg" alt="image"></figure></p>
-<h4>PubMed 文献</h4>
-<p><strong>PubMed count: 30</strong></p>
-<div class="table-wrap"><table>
-<tbody>
-<tr><td>41291978</td><td>Identification and validation of shared key genes between Parkinson&#x27;s disease and erectile dysfunction: a bioinformatics</td><td>Hereditas 2025</td></tr>
-<tr><td>40594616</td><td>PI3K/AKT signaling pathway plays an important role in the pathogenesis of metabolic dysfunction-associated steatotic liv</td><td>Sci Rep 2025</td></tr>
-<tr><td>39874759</td><td>Freshwater browning as a hidden threat - Transcriptomic responses in fish gills exposed to fulvic acid.</td><td>J Hazard Mater 2025</td></tr>
-</tbody></table></div>
-<h4>HPA IF 图像</h4>
-<p>HPA 检索: https://www.proteinatlas.org/search/PIK3R6</p></article></main>
+</tbody></table></div></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

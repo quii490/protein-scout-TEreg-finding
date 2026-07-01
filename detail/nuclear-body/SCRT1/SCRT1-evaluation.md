@@ -115,3 +115,15 @@ HPA 检索: https://www.proteinatlas.org/search/SCRT1
 
 ESMFold 基于进化规模语言模型，进行无 MSA 搜索的从头折叠，可作为 AlphaFold 的独立验证。
 
+### 深度机制分析
+
+**结构域架构**：SCRT1（UniProt Q9BWW7，348 aa，38.3 kDa）是Snail超家族的转录抑制因子。其域架构以C2H2型锌指DNA结合域为核心（InterPro:IPR036236 - zinc finger, C2H2-like，SMART:SM00355；Pfam:PF00096 and PF13912），串联多个锌指单元。IPR050527为Snail/Scratch家族转录因子的特异性家族标记，IPR013087指示锌指C2H2型保守折叠。N端预计包含SNAG（Snail/Gfi）抑制域，该短肽基序（约9 aa）通过与组蛋白去甲基化酶LSD1（KDM1A）和组蛋白去乙酰化酶HDAC1/2的协同作用实现转录抑制。
+
+**PPI互作网络**：BioGRID互作数据显示IMPDH1（磷酸脱氢酶，评分1）、ZNF579（锌指蛋白，评分1）、WWP1（HECT E3泛素连接酶，评分1）、PRMT9（精氨酸甲基转移酶，评分1）、SORL1（分选受体，评分1）、KLHDC10（E3连接酶底物受体，评分1）、VRK3（非活性激酶，评分1）和NES（核输出信号相关蛋白，评分0）。PRMT9和WWP1的互作提示SCRT1活性可能受翻译后修饰调控——精氨酸甲基化和泛素化是已知的转录因子活性调控开关。
+
+**结构-功能关系**：SCRT1的ESMFold结构预测（平均pLDDT=0.66，pLDDT>0.9仅占4.0%，pLDDT<0.5占29.0%）显示整体折叠置信度偏低，这与其锌指域外存在大量柔性/固有无序区段一致。SNAG抑制域通常以短β-发夹/延伸构象嵌入LSD1活性位点，竞争性地被HDAC1/2核酸受体复合体识别。锌指识别E-box基序（CAGGTG），通过位阻机制拮抗bHLH转录因子（如Neurogenin、Mash1）与E-box的结合，从而抑制神经分化相关基因转录。
+
+**TE调控机制**：Snail/Scratch家族主要在神经分化和上皮-间质转化（EMT）中发挥转录抑制功能（PMID:41724853 - Scrt1-iCreER小鼠模型用于I型螺旋神经节神经元示踪）。在TE调控背景下，SCRT1可能通过SNAG域→LSD1→H3K4me2去甲基化的通路参与内源性逆转录病毒调控——LSD1是已知的ERV/LTR沉默因子，通过去除H3K4me2的活性标记使TE启动子进入抑制性染色质状态。ZNF579的C2H2锌指互作提示SCRT1可能作为KZFP-KAP1-TRIM28通路的协同因子。
+
+**前沿意义**：SCRT1尽管有17篇PubMed文献，但在TE调控领域的研究为完全空白。PRMT9精氨酸甲基转移酶互作赋予了不对称二甲基精氨酸修饰调控SCRT1活性的可能性——精氨酸甲基化在染色质调控和TE沉默中日益受到关注。利用小鼠Scrt1条件性敲除模型结合TE-RNA-seq分析，将验证其转座子调控的生理相关性。
+

@@ -43,6 +43,16 @@ status: shortlisted
 Nuclear protein
 
 
+### 深度机制分析
+
+CHRM4（Muscarinic Acetylcholine Receptor M4）是一个典型的A类G蛋白偶联受体（GPCR），拥有七次跨膜螺旋拓扑结构（479 aa, 53.0 kDa）。其核心结构域为GPCR视紫红质样家族7TM结构域（Pfam 7tm_1, PF00001），覆盖所有已知GPCR的保守结构和功能特征。InterPro注释包括GPCR视紫红质超家族（IPR000276）、7TM受体特征（IPR017452）和毒蕈碱型乙酰胆碱受体M4特异性特征（IPR000995）。AlphaFold2预测pLDDT=75.4（得分9/10），PDB数据库中高达36个实验结构，主要为激动剂/拮抗剂结合状态下的晶体和冷冻电镜结构，结构储备极为丰富。
+
+CHRM4的PPI网络度为97（得分6/10），主要互作伙伴反映了GPCR信号转导和药物靶标的经典特征。与XPO6（Exportin-6）的BioGRID互作提示CHRM4的核质定位可能通过核输出蛋白介导的主动转运实现。与PDS5B（cohesin相关因子）和PPP1R15B（PP1调控亚基）的互作暗示CHRM4可能参与染色质结构和磷酸酶调控。GPCR的传统信号主要通过异源三聚体G蛋白（Gαi/o家族）介导，CHRM4激活后抑制腺苷酸环化酶、降低cAMP水平，但核质中CHRM4的信号输出机制可能完全不同。
+
+CHRM4在核质中的定位（Uncertain级别）挑战了GPCR生物学的核心教条。传统上GPCR被认为仅在质膜上执行信号接收功能，但近十年来"核GPCR"概念逐渐获得认可。核膜内层和核质中存在功能性GPCR，它们接收亲脂性配体（如乙酰胆碱可能通过非经典途径转运）或通过组成性活性在核内独立于配体发出信号。最新研究（PMID:33398073）发现神经生长因子（NGF）与CHRM4互作并促进神经内分泌分化，提示CHRM4在核内可能调控分化相关基因的转录。
+
+CHRM4作为药物靶标的地位无可争议——它是精神分裂症和阿尔茨海默病等神经系统疾病的热门药物靶点，PDB中36个结构大多来自药物研发项目。从41篇PubMed文献（得分8/10）和Nucleoplasm定位来看，CHRM4的核内功能是GPCR领域的一个新兴方向。其在初级纤毛（Primary cilium）和初级纤毛尖端（Primary cilium tip）的额外定位提示CHRM4可能在信号接收和核转位之间存在纤毛介导的中继机制，这在Hedgehog信号通路中有先例可循。
+
 ### 补充分析 (UniProt API)
 
 **蛋白全称**: Muscarinic acetylcholine receptor M4

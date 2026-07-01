@@ -125,3 +125,18 @@ HPA: https://www.proteinatlas.org/ENSG00000124097-HMGB1P1
 
 HPA 检索: https://www.proteinatlas.org/search/HMGB1P1
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ABCE1 | physical | Kaerblane K (2015) |
+| HMGB1 | physical | Huttlin EL (2017) |
+| RPTOR | physical | Fonseca BD (2015) |
+| LARP7 | physical | Faust TB (2018) |
+| METTL14 | physical | Yue Y (2018) |
+| EP300 | physical | Raisner R (2018) |
+| CASP9 | physical | Kennedy SA (2020) |
+| RAC1 | physical | Kennedy SA (2020) |
+| RALBP1 | physical | Kennedy SA (2020) |
+| SH3GL3 | physical | Kennedy SA (2020) |
+

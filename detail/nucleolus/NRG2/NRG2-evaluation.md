@@ -61,6 +61,18 @@ Direct ligand for ERBB3 and ERBB4 tyrosine kinase receptors. Concomitantly recru
 
 **TE 调控相关性**: 该蛋白缺乏明确的核/染色质定位证据，TE调控潜力极低，不建议作为优先靶标。
 
+
+
+### 深度机制分析
+
+NRG2（(Pro-neuregulin-2, membrane-bound isoform)）。定位于nucleolus。包含850 aa / 93.5 kDa。UniProt编号O14511。其InterPro结构域组成为IPR000742、IPR007110、IPR036179、IPR013783、IPR013098、IPR003599。Pfam注释3个保守结构域（PF07679、PF02158、PF25518）。SMART注释发现SM00409、SM00408等模块。UniProt结构域注释表明其包含Ig-like C2-type；EGF-like。
+
+从功能机制角度，该蛋白的已知功能为Direct ligand for ERBB3 and ERBB4 tyrosine kinase receptors. Concomitantly recruits ERBB1 and ERBB2 coreceptors, resulting in ligand-stimulated tyrosine phosphorylation and activation of the ERBB receptors. May also promote the heterodimerization with the EGF receptor，PPI网络分析显示其与ERBB4(999)、EGFR(996)、ERBB2(994)、NRG1(918)、PVALB(700)等高置信度互作伙伴存在相互作用，此外还与DDX39A、ERBB3、KIAA1429等存在实验验证的低置信度互作。
+
+从结构生物学角度，其多结构域排列支持该蛋白作为支架平台整合多种信号输入的可能性，在TE调控的背景下，NRG2的nucleolus定位使其具备接触转座子元件的空间可能性。
+
+从研究转化角度，该蛋白在PubMed中尚无直接研究发表（PubMed=0），属于高度新颖的靶标，相关文献证据包括PMID:42144450、41193668、41173392，综合评分66.7/100，属于中等优先级，建议在更大规模的筛选中进一步验证。
+
 ### Domain/SMART 结构域分析
 
 | 来源 | 数据 |

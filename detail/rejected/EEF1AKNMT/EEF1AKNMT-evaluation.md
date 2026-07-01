@@ -166,3 +166,19 @@ status: rejected
 - AlphaFold: https://alphafold.ebi.ac.uk/entry/Q8N6R0
 - STRING: https://string-db.org/network/9606.ENSP00000
 - Data fetched live: 2026-06-03
+
+### 深度机制分析
+
+EEF1AKNMT（亦称METTL13）的深度机制分析聚焦于其在翻译延伸因子修饰中的独特角色。该蛋白大小699个氨基酸（78.8 kDa），在AlphaFold v6中获得了全局pLDDT=87.7的极高结构置信度，且有序区域（pLDDT>70）占比高达90.8%，64.2%残基pLDDT>0.9——在24个评估蛋白中结构数据质量排名前列。这种高置信度的结构预测为基于结构的药物设计和功能机制研究提供了坚实的模板，尤其考虑到该蛋白目前无实验PDB结构。然而，值得注意的是该蛋白的InterPro/Pfam注释显示"无注释结构域"，这意味着虽然AlphaFold预测出明确的折叠拓扑，但该折叠尚未被归类到已知结构域家族中——这既反映了其新颖性，也意味着其功能推断缺乏已知结构域的功能线索。
+
+EEF1AKNMT的功能由UniProt描述为"eEF1A lysine and N-terminal methyltransferase"——这是一个双特异性甲基转移酶，同时催化真核翻译延伸因子1A（eEF1A）的赖氨酸甲基化和N端甲基化。eEF1A是翻译装置中最丰富的蛋白之一，负责将氨酰tRNA递送至核糖体A位点。eEF1A的赖氨酸甲基化修饰是一个新兴的翻译后修饰，可能调控翻译的保真度、速度或eEF1A与其他翻译因子的互作。相比广泛研究的eEF1A磷酸化、乙酰化和泛素化，其赖氨酸甲基化的功能意义远未被充分探索。
+
+PPI互作网络显示EEF1AKNMT的STRING互作具有独特的分布模式。值得注意的是，STRING列表中的互作伙伴（METTL14、WTAP、VIRMA/ KIAA1429、METTL16、EEF1AKMT2、METTL21C等）的combined score均为0.000——这不是技术性错误，而是由于STRING在显示top 10时纳入了低分互作。但互作伙伴的功能一致性值得关注：METTL14和WTAP/VIRMA是m6A RNA甲基化写入复合体（MTC）的核心组分，参与mRNA的N6-甲基腺苷修饰；METTL16是U6 snRNA和MAT2A mRNA的m6A甲基转移酶；EEF1AKMT2是同类型eEF1A甲基转移酶的另一成员；METTL21C和METTL25也属于甲基转移酶超家族。这种"甲基转移酶家族富集"的互作模式虽然评分极低，但提示EEF1AKNMT可能与细胞甲基化网络存在功能性关联——它不是孤立的甲基转移酶，而是更广泛的甲基化修饰系统的一部分。
+
+在核定位方面，该蛋白被标记为REJECTED，因为其核定位特异性评分仅3/10。HPA将EEF1AKNMT定位于Cytosol（Enhanced可靠性，比Supported/Approved更可信），UniProt注释为"Cytoplasm; Nucleus; Mitochondrion"。这种HPA（纯胞质/cytosol）与UniProt（Cytoplasm+Nucleus+Mitochondrion）之间的不一致是REJECTED判定的关键依据——Enhanced可靠性的HPA胞质定位相比UniProt的多重定位提供了更高的权重。此外，EEF1AKNMT的底物eEF1A本身主要在胞质中执行翻译功能，甲基转移酶的作用位点理论上应与底物共定位。
+
+PubMed仅2篇直接研究文献（strict=2），使其成为极度新颖的蛋白（研究新颖性10/10）。PMID 36068491探讨了放疗应答与METTL13的关联，PMID 34832997对METTL13的结构、活性和功能进行了综述。文献极度稀少的现状反映该蛋白在基础生物学中几乎未被触及。
+
+EEF1AKNMT的归一化总分65.8/100虽然满足评分阈值，但因核定位得分≤3被拒绝。其深度机制模型为：METTL13催化eEF1A K-X甲基化→调控翻译延伸因子功能→影响翻译保真度→可能的m6A甲基转移酶网络交叉→放疗应答。这一模型与TE调控无直接关联，但eEF1A甲基化对翻译调控的全局影响可能间接改变TE编码蛋白的表达水平。如能解决核定位证据不足的问题（通过独立IF或细胞分馏验证），该蛋白因其卓越的结构数据质量（pLDDT=87.7, 90.8%有序区）而值得重新评估。
+
+

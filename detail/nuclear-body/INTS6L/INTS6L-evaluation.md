@@ -61,6 +61,19 @@ TrEMBL 未审查条目，功能尚未充分注释。
 
 **TE 调控相关性**: 该蛋白缺乏明确的核/染色质定位证据，TE调控潜力极低，不建议作为优先靶标。
 
+### 深度机制分析
+
+INTS6L（Integrator complex subunit 6-like，UniProt: Q5JSJ4，861 aa / 94.7 kDa）的结构域架构分析显示：InterPro结构域包括IPR002035, IPR029307, IPR036465, IPR051113, IPR057413；Pfam注释为PF13519, PF15300, PF25462；UniProt定义域:DOMAIN 3..227; /note="VWFA"; /evidence="ECO:0000255。 尚无AlphaFold结构数据。
+
+蛋白质互作网络分析揭示INTS6L与以下关键因子存在相互作用：INTS6、INTS3、INTS5、INTS1、INTS14。 功能注释显示TrEMBL 未审查条目，功能尚未充分注释。。 这些互作伙伴暗示该蛋白可能通过多蛋白复合物参与细胞过程调控，其互作网络的拓扑位置值得进一步实验验证。
+
+从结构-功能机制角度分析，INTS6L的亚细胞定位为无已知核定位注释，目前缺乏核定位的实验证据，其在核内的功能角色尚待阐明。 评估综合得分66.7/100，属于中等兴趣候选，在明确核定位后其TE调控潜力可能显著提升。 推荐等级为2/5。
+
+对于TE调控机制的意义而言，INTS6L的结构域组成不直接指向经典染色质调控因子，但其在核内的存在（若经实验确认）可能暗示非经典TE调控途径。 研究新颖性方面，PubMed检索获得0篇文献，该蛋白几乎未被研究，是一个高度新颖的靶标，具有较大的学术探索空间。 代表性文献包括PMID:39194544, 38169546等。
+
+综上所述，INTS6L作为一个861 aa / 94.7 kDa的无已知核定位注释定位蛋白，具有一定的TE调控研究价值，建议首先通过亚细胞分级和免疫荧光明确其在核内的分布模式，再设计针对性的功能实验。
+
+
 ### 补充分析 (UniProt API)
 
 **蛋白全称**: Integrator complex subunit 6-like
@@ -127,5 +140,4 @@ HPA 检索: https://www.proteinatlas.org/search/INTS6L
 |---|---|
 | 39194544 | Boolean Modeling of Biological Network Applied to Protein-Protein Interaction Network of Autism Patients. |
 | 38169546 | Comprehensive analysis based on glycolytic and glutaminolytic pathways signature for predicting prognosis and immunotherapy in ovarian cancer. |
-
 

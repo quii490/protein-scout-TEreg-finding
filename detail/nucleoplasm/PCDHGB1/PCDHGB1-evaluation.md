@@ -65,18 +65,17 @@ Nuclear protein
 ---
 
 
-### PPI 互作网络
+### 深度机制分析
 
-| 互作伙伴 | 来源 | 评分 |
-|---|---|---|
-| PCDHGB2 | BioGRID | 0 |
-| PCDHGB4 | BioGRID | 0 |
-| PCDHGB3 | BioGRID | 0 |
-| PCDHGC3 | BioGRID | 0 |
-| PCDHGA11 | BioGRID | 0 |
-| PCDH18 | BioGRID | 0 |
-| PCDHGC4 | BioGRID | 0 |
-| PCDHB2 | BioGRID | 0 |
+PCDHGB1是Protocadherin Gamma-B1亚家族成员，属于钙粘蛋白(Cadherin)超家族的成簇原钙粘蛋白(Clustered Protocadherin)分支。该蛋白长达927 aa(100.4 kDa)，含有6个串联的Cadherin-like_dom(IPR002126)胞外重复序列和C端Cadherin_C(IPR020894)结构域。每个Cadherin重复由约110个氨基酸组成希腊-钥匙β-折叠桶，6个重复排列成弯曲的棒状结构，整体通过Ca²⁺依赖的同嗜性结合介导细胞间粘附。pLDDT=74.9反映其重复结构域的柔性使整体预测有所下降。
+
+在神经生物学中，成簇原钙粘蛋白的显著性在于其随机单等位基因(random monoallelic)表达模式——每个神经元从5号染色体上的PCDHG基因簇中随机选择表达一个或少数几个亚型，从而创造出极大的单细胞表面粘附多样性。这种多样性是神经突自避(neuronal self-avoidance)和自我/非自我识别(Self/non-self recognition)的分子基础。
+
+HPA显示PCDHGB1定位于Focal adhesion sites、Midbody、Nucleoplasm和Plasma membrane(Approved)。核质定位对于这种经典的细胞粘附分子而言极不寻常。最可能的机制解释是：全长跨膜PCDHGB1经ADAM10/17金属蛋白酶在近膜区剪切(Shedding)释放胞外域后，剩余的C端胞内域(Ectodomain-ICD)通过γ-分泌酶进一步切割(Gamma-secretase processing)，释放的ICD片段随即可携入核质，类似Notch和E-cadherin的经典信号转导模式。
+
+PPI互作网络完全由PCDHG蛋白家族内涵盖——PCDHGB2/3/4、PCDHGA11、PCDHGC3/4和PCDHB2等均为原钙粘蛋白的同嗜/异嗜互作伙伴。同时也观察到PCDH18(BioGRID)的非γ簇互作，其可能作为异嗜性地转移PCDHGB1信号的适配器。核内PCDHGB1-ICD的功能假设为：结合β-catenin或p120-catenin等经典钙粘蛋白的信号伙伴，调控Wnt靶基因启动子的转录激活，进而影响神经突的可塑性基因表达。PubMed仅2篇，核内信号功能是几乎未被探索的研究前沿。
+
+
 
 
 ![PAE](https://alphafold.ebi.ac.uk/files/AF-Q9Y5G3-F1-predicted_aligned_error_v6.png)

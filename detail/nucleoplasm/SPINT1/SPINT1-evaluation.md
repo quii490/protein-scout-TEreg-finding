@@ -43,7 +43,15 @@ status: shortlisted
 Nuclear protein
 
 
-### 补充分析 (UniProt API)
+### 深度机制分析
+
+SPINT1（HAI-1，肝细胞生长因子激活因子抑制剂1）是一个529个氨基酸的多结构域丝氨酸蛋白酶抑制剂，其功能架构包含两个Kunitz型蛋白酶抑制结构域（IPR002223/Kunitz_BPTI）、一个LDL受体A类结构域（Ldl_recept_a）以及Ig-like折叠区域（IPR013783）。AlphaFold预测pLDDT为76.2，结合7个PDB条目提供的晶体结构数据，使SPINT1成为本批次中结构表征最好的蛋白之一。Kunitz_BPTI_sf（IPR036880）结构域通过经典的"底物样"刚性环插入靶蛋白酶活性位点，形成高度稳定的酶-抑制剂复合物（Ki可低至pM级别）。
+
+SPINT1的经典功能为细胞膜表面丝氨酸蛋白酶的负调控——通过抑制HGFAC（肝细胞生长因子激活因子，PMID:9045658）和ST14/matriptase（PMID:28710277）的活性，调控HGF/c-MET信号通路和细胞外基质的蛋白水解重塑。然而，HPA Supported的核质定位（Cytosol; Nucleoplasm; Plasma membrane）明确指向该蛋白的核内非经典功能。PPI网络（degree=56）揭示了令人信服的核功能关联：与FOXK1/FOXK2（BioGRID评分=1）的互作直接连接至FOX转录因子家族——这是一群调控自噬和代谢的核内转录因子；与HMGB1（BioGRID）的互作则涉及染色质高级结构的调控。
+
+分子机制的构建模型：SPINT1的N端Kunitz结构域在胞外/质膜表面抑制matriptase和HGFAC，而C端的LDL受体A类结构域可能介导内吞后的内体逃逸——这是多种细菌毒素利用的经典策略。逃逸入胞质后，SPINT1可能通过未被充分研究的核定位信号或"搭载"转运入核，与FOXK1/FOXK2共同调控代谢和自噬相关基因的转录。这一模型也合理解释了SPINT1-AS1 lncRNA通过miR-135b-5p/SPINT1轴在骨肉瘤中增强Warburg效应（PMID:42316270）——核内SPINT1池可能直接参与代谢重编程的转录调控。
+
+SPINT1在肿瘤生物学中具有双面角色：一方面作为蛋白酶抑制剂抑制肿瘤侵袭（HGF/c-MET途径），另一方面通过核内功能可能促进代谢适应和免疫逃逸。SPINT1的多组织表达与多通路互作（T-prolymphocytic leukemia中鉴定为STAT3/STAT5双重抑制靶点，PMID:40234614）使其成为潜在的泛癌种治疗靶点。从TE调控角度，SPINT1的Kunitz结构域与核定位的组合在已知蛋白组中极为罕见——这种"域创新"可能赋予其独特的染色质调控活性，值得通过ChIP-seq和ATAC-seq进行系统解析。
 
 **蛋白全称**: Kunitz-type protease inhibitor 1
 

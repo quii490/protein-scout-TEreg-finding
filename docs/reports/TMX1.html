@@ -88,6 +88,12 @@
 <tr><td>SPI1</td><td>BioGRID</td><td>1</td></tr>
 <tr><td>EWSR1</td><td>BioGRID</td><td>1</td></tr>
 </tbody></table></div>
+<h4>深度机制分析</h4>
+<p><strong>结构域架构</strong>：TMX1（280 aa，30.8 kDa）是硫氧还蛋白（Thioredoxin, Trx）超家族的跨膜成员。含N端Thioredoxin结构域（IPR013766，Thioredoxin_domain；Pfam PF00085，残基27-132），采用经典的硫氧还蛋白折叠——由4条平行/反平行β-链夹持3个α-螺旋构成混合β-片层核心，活性中心为典型的Cys-X-X-Cys（CXXC）基序。单次跨膜α-螺旋定位于残基约150-170处，C端胞质尾（约110 aa）含Thioredoxin-like超家族折叠（IPR036249）。TMX_domain-containing（IPR052454）注释其属于TMX亚家族——这是Trx超家族中特定的跨膜氧化还原酶群，在ER膜上发挥二硫键异构酶（PDI）样功能。Thioredoxin保守序列（IPR017937，Thioredoxin_CS）的CXXC基序（基于序列保守预测为CGPC）的Cys32和Cys35负责可逆的氧化还原反应。</p>
+<p><strong>PPI互作网络解读</strong>：PPI degree高达228，互作伙伴覆盖多个功能模块。ELAVL1（HuR，RNA结合蛋白，mRNA稳定性的核心调控子）和UPF1（无义介导的mRNA衰变NMD解旋酶）指向TMX1可能与RNA代谢调控存在功能关联。FAS（Fas/CD95死亡受体，外源性凋亡的启动器）和LYN（Src家族酪氨酸激酶，氧化还原敏感型激酶）的互作提示TMX1在氧化还原状态下调控凋亡信号。ATF2（激活转录因子2，JNK/p38 MAPK底物）和SPI1（PU.1，ETS家族转录因子）将TMX1与转录调控联系起来。EWSR1（Ewing肉瘤断点区蛋白1，FET家族RNA结合蛋白）的互作在PDI家族中罕见——EWSR1的氧化还原敏感性及其在转录和RNA加工中的双重角色为TMX1的功能提供了新颖视角。</p>
+<p><strong>结构解读</strong>：AlphaFold pLDDT=76.6，ESMFold平均pLDDT=86.0（52.1%残基pLDDT&gt;0.9）。Thioredoxin域的活性中心CXXC基序处pLDDT &gt;90，Cys32和Cys35硫醇基的距离（~3.8 angstroms）在还原态下适合二硫键的异构化和还原催化。跨膜螺旋区pLDDT中等（65-75），反映了单次跨膜蛋白的柔性——跨膜螺旋在ER膜平面上的旋转自由度对催化结构域接近ER腔面的不同底物至关重要。C端胞质尾（pLDDT 60-80）可能含另外的氧化还原活性区或蛋白互作基序——PDI家族的C端域通常含C端二聚化结构域和KDEL类ER滞留信号，但TMX1的C端缺少这两者，提示其ER定位可能通过跨膜螺旋实现而非可溶性KDEL回收。</p>
+<p><strong>机制模型</strong>：TMX1在ER膜上充当氧化还原催化剂，参与新生多肽的氧化折叠（oxidative folding）——通过CXXC活性中心的二硫醇（-SH/-SH）⇆ 二硫键（-S-S-）的氧化还原循环，催化底物蛋白的半胱氨酸残基之间形成正确的二硫键连接。具体机制包括：（1）氧化途径：TMX1的CXXC被Ero1（ER oxidoreductin 1）或PDI氧化为二硫键状态，然后将其传递给底物蛋白的半胱氨酸对完成氧化；（2）异构化途径：TMX1识别由错误二硫键导致的折叠中间体，通过还原-重排-再氧化循环纠正二硫键配对模式。在肝细胞肝癌（HCC）中，TMX1促进肿瘤进展的分子机制近期被阐明——TMX1通过稳定FABP5（脂肪酸结合蛋白5）抑制铁死亡（ferroptosis）（PMID:41482143），这提示TMX1能够通过氧化还原敏感的二硫键形成/断裂调控FABP5的构象稳定性和半衰期。核仁定位（nucleolus, GO-CC未知）在现有证据上缺乏支持——HPA IF中的核仁信号可能源自抗体的核蛋白交叉反应。</p>
+<p><strong>TE调控展望</strong>：TMX1的TE调控潜力极低。氧化还原调控在全局水平上影响转录因子活性（如AP-1、NF-κB、p53），但TMX1作为ER膜蛋白的拓扑限制使其无法直接接触染色质或核内调控因子。唯一值得注意的间接通路是：TMX1→调控FAS死亡受体信号→凋亡/存活平衡→染色质完整性和DNase I敏感性→TE区域可及性的多层间接级联——这一推测链条过于漫长，缺乏实验可检测性。</p>
 <p><figure><img src="https://alphafold.ebi.ac.uk/files/AF-Q9H3N1-F1-predicted_aligned_error_v6.png" alt="PAE"></figure></p>
 <h4>PubMed 文献</h4>
 <p><strong>PubMed count: 50</strong></p>

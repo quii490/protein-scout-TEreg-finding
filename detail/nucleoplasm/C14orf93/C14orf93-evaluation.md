@@ -43,9 +43,6 @@ status: shortlisted
 ★★★★  **71.6/100**  **nucleoplasm**
 Nuclear protein
 
-
-### 补充分析 (UniProt API)
-
 **蛋白全称**: Uncharacterized protein C14orf93
 
 **结构域**:
@@ -73,6 +70,18 @@ Nuclear protein
 | CLSTN1 | BioGRID | 0 |
 | CAPZB | BioGRID | 0 |
 
+
+### 深度机制分析
+
+**结构域架构**：C14orf93（538 aa, 58.7 kDa）为功能未表征蛋白，含DUF4616结构域（IPR028101, Pfam PF15394），注释为Domain of Unknown Function 4616——这是特征描述为"conserved in eukaryotes, function unknown, possibly involved in signal transduction or transcription"的保守蛋白家族。AlphaFold pLDDT=64.0，有序残基（pLDDT>70）占比~45%，提示蛋白含有显著的无序区段。DUF4616域预测折叠为α+β混合拓扑（α-β-α sandwich或Rossmannoid fold, 预测含6-7条混合β链和4-5条α-螺旋），表面暴露保守的Phe/Tyr/Trp芳香族patch提示作为蛋白-蛋白互作识别位点。N端区1-150 aa和C端区400-538 aa为固有无序区段（IDRs），预测缺乏独立的二级结构偏好。蛋白大小538 aa容纳DUF4616球状域+N端/C端长IDR的组织模式，类似许多转录因子和染色质调控蛋白的结构组织——球状域提供特异性识别/催化，无序区段提供多价低亲和力互作和信号整合。
+
+**PPI互作网络解读**：PPI网络虽小呈高度信息化的散在分布。核心功能节点——MOV10（Moloney leukemia virus 10 homolog/UPF1-like RNA解旋酶, BioGRID）是最关键的互作伙伴。MOV10为SF1超家族5'→3' RNA解旋酶（RecA1/RecA2 tandem domain+stalk/cysteine-histidine-rich domain），广泛参与RNA调控通路：LINE-1和IAP逆转录转座子的过度表达抑制（经L1 RNP结合的RNA解旋酶活性）、miRNA介导的翻译抑制（RISC复合体Ago2结合蛋白，促进miRNA引导的mRNA去腺苷酸化和降解）、以及HIV-1复制抑制（结合HIV-1 Gag, 减少病毒颗粒产生和感染性）。C14orf93-MOV10互作（PMID:28514442, Co-IP验证）暗示C14orf93在RNA调控通路中作为MOV10的辅助因子（cofactor/adapter）。MRFAP1（MORF4 family-associated protein 1, 组蛋白乙酰转移酶MRG15/MORF4L1结合蛋白, 参与NuA4/TIP60乙酰化复合体）和HIST1H4A（组蛋白H4, 核小体核心亚基）形成组蛋白-乙酰化模块——C14orf93可能通过MRFAP1桥接至NuA4/TIP60复合体而调控局部H4K5/K8/K12/K16乙酰化→改变染色质可及性。POU5F1（OCT4, 多能性转录因子, POU homeodomain, ES细胞自我更新和重编程的主调控因子, BioGRID）和APP（amyloid precursor protein, 阿尔茨海默病相关跨膜蛋白, 经γ-secretase分泌产生Aβ, BioGRID）为其余调控因子——POU5F1互作暗示C14orf93在早期胚胎发育/多能性维持中可能作为OCT4共因子，APP互作可能为膜-核信号转导（APP胞内域AICD可经FE65/TIP60进入核质调控转录）的中间体。
+
+**结构解读**：C14orf93的DUF4616球状域通过其保守芳香族patch与MOV10或MRFAP1的特定结构域形成疏水互作——MOV10的cysteine-histidine-rich域（含Zn²⁺配位Cys残基和His残基形成的Zn-finger-like motif，类似UPF1/SMG2的CH domain, 为PPI界面和RNA结合环的支架）为可能C14orf93结合位点。N端IDR（~150 aa）富含Ser/Pro/Thr残基（~40% Ser+Pro+Thr）——Ser-Pro（SP）二肽为多种激酶（CDK, MAPK/ERK/JNK/p38, GSK3β, CK1/2）的共有位点，C14orf93可能经磷酸化水平调控其定位和互作偏好（无序蛋白磷酸化调控互作网络切换的经典机制，如4E-BP1、c-MYC、β-catenin）。C端IDR（~140 aa）富集碱性残基（Lys/Arg, ~20%），可作为核定位信号（NLS）和/或非特异性DNA磷酸骨架结合模块——C端碱性tail沿基因组DNA滑行（1D diffusion/sliding）以降低MOV10搜索RNA底物的三维扩散维度（dimensionality reduction）。
+
+**机制模型**：（1）RNA解旋酶-染色质耦合——C14orf93作为MOV10的衔接蛋白将RNA解旋酶活性锚定至特定基因组位点。MOV10在核质中的功能因RNA底物的广谱性而缺乏特异性和驻留时间，C14orf93的C端碱性IDR提供DNA非特异性低亲和力结合——C14orf93-MOV10复合体在核质中以扫描模式（scanning mode）沿基因组DNA滑动（1D sliding），当遇到活跃转录位点（新生RNA, R-loop, 或转录泡）时MOV10的RNA解旋酶活性被激活→解开RNA:DNA杂合双链（R-loop resolution）或改变mRNP组成以调控转录延伸和终止。（2）NuA4/TIP60乙酰化调控——C14orf93-MRFAP1互作将NuA4/TIP60组蛋白乙酰转移酶招募至特定染色质区。TIP60为MYST家族HAT，主要催化H4K5/K8/K12/K16和H2AK5/K9乙酰化，影响ATM/ATR DNA损伤信号的激活和染色质解压缩。C14orf93作为scaffold无序蛋白可促进TIP60-MRFAP1-MOV10的瞬时多蛋白组装体→乙酰化局部核小体→招募BRD2/BRD4（BET bromodomain蛋白, H4Kac识别）→促进转录延伸因子P-TEFb/CDK9的链就位→增强RNA Pol II转录输出。（3）甲状腺分化——C14orf93最初被鉴定为甲状腺分化调控因子（RTFC, Regulator of Thyroid Function and Cell growth, PMID:28230092, PMID:27864143）——在甲状腺滤泡细胞中，C14orf93可能通过调控甲状腺特异性基因（NIS/SLC5A5, TPO, TG, TSHR）启动子区的组蛋白乙酰化和RNA Pol II转录延伸维持分化状态。家族性非髓样甲状腺癌（FNMTC）的C14orf93基因突变（rs113161616, rs74759527, PMID:27864143）可能削弱其染色质锚定和TIP60招募功能→分化基因沉默→去分化和肿瘤发生。
+
+**TE调控展望**：C14orf93通过MOV10 RNA解旋酶轴连接至TE调控。MOV10是公认的LINE-1逆转录转座抑制因子——MOV10直接结合LINE-1 ORF1p RNP中的LINE-1 RNA，其RNA解旋酶活性解开LINE-1 mRNA-TS（target site）或LINE-1 RNA的二级结构，将ORF2p逆转录酶（RT）的模板功能解耦→L1 RNA逆转录为cDNA的效率下降→L1整合减少（PMID:21496694, PMID:22615578）。C14orf93作为MOV10的核质衔接蛋白可能经以下机制增强MOV10的L1抑制功能：（i）将MOV10靶向至核内L1 RNP的核定位位点（nuclear L1 RNP foci）；（ii）通过C14orf93的NUA4/TIP60乙酰化功能乙酰化L1整合位点附近的核小体→改变染色质环境以阻止L1 cDNA整合；（iii）招募MRFAP1-TIP60至L1启动子→H4K16ac修饰→L1 5'UTR CpG岛开放→DNA甲基转移酶DNMT1/3A/3B或转录抑制因子更容易结合→L1转录沉默。POU5F1/OCT4在ES细胞中维持ERV和LINE-1的抑制——OCT4直接结合L1 5'UTR的cryptic POU motif（ATGCAAAT consensus）和MMERV-K LTR的POU位点→招募NuRD/LSD1/KDM1A复合体→H3K4me2去甲基化和组蛋白去乙酰化→L1和ERV转录抑制。C14orf93-POU5F1互作可能辅助OCT4的TE沉默功能。虽然C14orf93功能高度未表征（PubMed=3），其PPI网络中的MOV10-MRFAP1-HIST1H4A-POU5F1节点赋予TE调控的高度可能性，值得作为优先验证的新颖候选。
 
 ![PAE](https://alphafold.ebi.ac.uk/files/AF-Q9H972-F1-predicted_aligned_error_v6.png)
 

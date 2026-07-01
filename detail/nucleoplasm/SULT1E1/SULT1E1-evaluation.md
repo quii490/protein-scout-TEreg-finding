@@ -169,6 +169,16 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 **该蛋白PubMed文献数 173 > 100，研究热度过高，不符合novelty筛选标准。**
 
+### 深度机制分析
+
+SULT1E1（Sulfotransferase 1E1，也称雌激素磺基转移酶/EST）属于胞质磺基转移酶（SULT）超家族。其结构域架构包含典型的磺基转移酶折叠：InterPro注释为IPR027417（P-loop containing nucleoside triphosphate hydrolase）和IPR000863（Sulfotransferase domain），Pfam对应PF00685（Sulfotransfer_1）。AlphaFold v6预测整体pLDDT=97.2——这是所有评估蛋白中最高质量的结构预测——高置信度残基占95.2%，有序区域占98.9%。此外，该蛋白拥有5个实验性PDB结构（1G3M、1HY3、4JVL、4JVM、4JVN），提供了原子分辨率的催化机制信息。这种丰富的结构数据使SULT1E1成为机制研究中结构信息最完整的蛋白之一。
+
+SULT1E1的核心生化功能是将磺酸基（SO3-）从供体3'-磷酸腺苷-5'-磷酰硫酸（PAPS）转移至雌激素（E2）的3-羟基位，生成硫酸化雌激素（E2-S）。硫酸化显著改变底物的生物活性：硫酸化雌激素失去与雌激素受体（ER）的结合能力，同时增强水溶性促进排泄。因此，SULT1E1是雌激素信号的主要负调控节点，在激素依赖性组织（乳腺、子宫内膜）和代谢器官（肝脏）中发挥关键作用。近期研究进一步揭示了SULT1E1在肺腺癌进展和预后中的临床意义（PMID:39762281），以及其过表达缓解盐制补骨脂诱导的胆汁淤积性肝损伤（PMID:40256713）。
+
+PPI网络揭示了一些具有机制价值的互作。STRING记录的TERT（端粒酶逆转录酶，combined score=0.996）互作最为突出，提示SULT1E1可能与端粒维持和细胞衰老调控存在功能关联。IntAct实验验证的互作中，SETDB1（组蛋白H3K9甲基转移酶，PMID:16169070）和TP53（PMID:16169070）的出现尤为关键：SETDB1是转座子沉默和异染色质形成的主要酶，而TP53是基因组稳定性的核心守护者。SULT1E1-SETDB1互作提出了一个引人注目的假说：SULT1E1可能通过磺基化修饰调控SETDB1的活性或定位，间接参与TE的组蛋白修饰沉默。此外，RIF1（端粒相关蛋白和DNA双链断裂修复调控因子，PMID:16169070）和COPS6（COP9信号体亚基，PMID:16169070）的互作进一步支持SULT1E1在基因组稳定性网络中的潜在功能。
+
+尽管该蛋白已被REJECTED（PubMed strict=173，>100篇阈值），其原因仅是新颖性不足而非机制意义缺失。HPA IF定位显示核膜（uncertain）和胞质溶胶，GO-CC注释确认nuclear membrane（GO:0031965）。核膜定位提示SULT1E1可能在核周区域调控蛋白磺基化，间接影响核输入/输出和染色质相关蛋白的活性。对于TE调控研究，SULT1E1与SETDB1的生化互作以及极高的结构信息可用性（pLDDT=97.2 + 5个PDB）使其成为药物靶点和功能研究的理想工具蛋白，尽管其新颖性评分不符合本项目的筛选标准。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/P49888
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000109193-SULT1E1/subcellular

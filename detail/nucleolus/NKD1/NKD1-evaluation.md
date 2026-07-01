@@ -57,6 +57,18 @@ Cell autonomous antagonist of the canonical Wnt signaling pathway. May activate 
 
 **TE 调控相关性**: 该蛋白缺乏明确的核/染色质定位证据，TE调控潜力极低，不建议作为优先靶标。
 
+
+
+### 深度机制分析
+
+NKD1（(Protein naked cuticle homolog 1)）。定位于nucleolus。包含470 aa / 51.7 kDa。UniProt编号Q969G9。其InterPro结构域组成为IPR011992、IPR018247、IPR002048、IPR040140。UniProt结构域注释表明其包含EF-hand。
+
+从功能机制角度，该蛋白的已知功能为Cell autonomous antagonist of the canonical Wnt signaling pathway. May activate a second Wnt signaling pathway that controls planar cell polarity，PPI网络分析显示其与DVL3(977)、DVL2(962)、AXIN2(927)、PPP2CA(877)、PPP2R1A(869)、PTPA(761)等高置信度互作伙伴存在相互作用。
+
+从结构生物学角度，在TE调控的背景下，NKD1的nucleolus定位使其具备接触转座子元件的空间可能性。
+
+从研究转化角度，该蛋白在PubMed中尚无直接研究发表（PubMed=0），属于高度新颖的靶标，相关文献证据包括PMID:42220510、41975070、41857407，综合评分66.7/100，属于中等优先级，建议在更大规模的筛选中进一步验证。
+
 ### 补充分析 (UniProt API)
 
 **蛋白全称**: Protein naked cuticle homolog 1

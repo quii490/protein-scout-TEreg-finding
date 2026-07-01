@@ -60,6 +60,16 @@ no known nuclear annotation
 
 **TE 调控相关性**: 该蛋白缺乏明确的核/染色质定位证据，TE调控潜力极低，不建议作为优先靶标。
 
+### 深度机制分析
+
+SNX15（342 aa, UniProt Q9NRS6）是Sorting Nexin家族中含MIT-PX双结构域的另一个成员，其结构域架构与SNX30形成对比：N端PX结构域（aa 1-130, IPR001683, Pfam PF00787）和C端MIT结构域（aa 265-342, SMART SM00745）。PX结构域赋予PI3P依赖性内体定位能力，而MIT（Microtubule Interacting and Trafficking）结构域通常识别ESCRT-III组分（如CHMP1-6）的MIM（MIT Interacting Motif）序列，参与多囊泡体（MVB）分选途径。SMART还检出BAR结构域（SM00312），但UniProt未单独注释BAR域，提示可能出现不完全的BAR样折叠。SNX15的过表达破坏蛋白质从质膜到循环内体或TGN的正常运输，且被发现与APP的细胞表面循环和Aβ产生调控相关（PMID:36322338）。
+
+PPI数据揭示了具有强烈TE调控暗示的互作伙伴。METTL14（m6A甲基转移酶14, BioGRID评分1）和KDM1A（LSD1, 组蛋白去甲基化酶, BioGRID评分1）是核心亮点。METTL14与METTL3形成异源二聚体催化mRNA的m6A修饰——m6A已被证实广泛修饰LINE-1和ERV RNA转录本，影响其稳定性和翻译效率。METTL14与SNX15的互作可能在内体膜表面发生，参与m6A修饰的TE mRNA在内体-核质界面的转运质量控制。KDM1A/LSD1是CoREST抑制复合物的催化核心，通过去除H3K4me1/me2活化标记使染色质转录抑制——LSD1在胚胎干细胞中被证明直接结合并沉默ERV-MERVL元件，维持多能性基因网络的TE依赖性转录平衡。SNX15-KDM1A的互作提供了一条从内体运输到染色质修饰的直接分子链路。
+
+HOXC10（同源框转录因子Hox-C10）和TOP3B（拓扑异构酶IIIβ, DNA拓扑异构酶IA型）的互作进一步拓宽了SNX15的核内功能暗示。TOP3B与TDRD3形成复合物结合m6A修饰的mRNA并参与R-loop的解析——R-loop在TE基因座上的异常积累可引发DNA损伤和TE去抑制。值得注意的是，RARA-SNX15融合基因在APL中发现（t(11;17;15)染色体易位, PMID:35854096），将SNX15直接牵入核受体介导的转录调控——PML-RARA融合蛋白通过异常招募HDAC和DNMT改变染色质状态，可能连带SNX15进入RARA靶基因位点（包括TE衍生增强子）。ESMFold预测的平均pLDDT=0.77（33.9%残基>0.9）表明PX和MIT结构域折叠可独立验证。
+
+---
+
 ### HPA IF 图像
 
 HPA: https://www.proteinatlas.org/ENSG00000110025-SNX15
@@ -124,4 +134,3 @@ HPA 检索: https://www.proteinatlas.org/search/SNX15
 | 残基数 | 342 |
 
 ESMFold 基于进化规模语言模型，无MSA搜索的从头折叠，可作为AlphaFold的独立验证。
-

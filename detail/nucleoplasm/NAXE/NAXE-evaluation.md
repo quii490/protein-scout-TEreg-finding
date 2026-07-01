@@ -71,6 +71,21 @@ Nuclear protein
 | NUDT14 | STRING | 728 |
 
 
+### 深度机制分析
+
+**结构域架构**：NAXE（288 aa，31.7 kDa）含有YjeF_N_dom（IPR004443，YjeF_N_dom_sf IPR036652）和YJEFN_prot_NAXE-like（IPR032976，PF03853 YjeF_N）结构域。YjeF_N是NAD(P)HX差向异构酶的催化核心——催化NAD(P)H的受损形式NAD(P)HX（R型和S型差向异构体）之间的相互转化。YjeF_N折叠采用α/β/α三明治结构，由7股平行/反平行β-片层和8个α-螺旋组成，其ATP结合位点（Walker A/B样基序，GXXGXG(P-loop)+酸性催化残基）靠近C端结构域的界面。NAXE是NAD(P)HX修复系统（NAD(P)HX epimerase + NAD(P)HX dehydratase）的第一酶，与NAXD（ATP-NAD(P)HX dehydratase）串联合作完成NAD(P)H的代谢修复循环——这是细胞代谢质量控制的基本机制。
+
+**PPI互作网络解读**：PPI degree极低（仅7），主要互作为DCP2（mRNA脱帽酶2，催化m^7GpppN→m^7GDP + pN的脱帽反应，STRING 772分）和NUDT14（Nudix水解酶14，尿苷二磷酸葡萄糖/UDPG焦磷酸酶，STRING 728分）。这两个互作均基于STRING的基因组邻接（gene neighborhood）和共表达数据，可能反映功能关联而非直接物理互作。NAXE的低PPI度与其作为代谢酶的特性一致——代谢酶通常通过底物-产物关系而非稳定的蛋白复合物发挥作用。
+
+**结构解读**：AlphaFold pLDDT=86.5，预测质量较高。YjeF_N域在pLDDT >85的水平上呈现高度有序的α/β折叠。ATP结合位点由P-loop（GXXGXGK[ST]）的Lys残基（K79或等效位置）直接配位ATP的α-和β-磷酸。差向异构反应的活性位点由保守的酸性残基（Asp/Glu）组成，负责NAD(P)HX底物的C6位差向异构化——先通过碱性残基（Lys/Arg）抽取C6位的质子形成烯醇式中间体，再由酸性残基从相反面重新质子化完成立体化学翻转。C端延伸区（pLDDT 70-80）参与产物的释放和与下游NAXD的底物通道传递（substrate channeling）。
+
+**机制模型**：NAXE的功能是细胞代谢物修复（metabolite repair）的经典代表。NAD(P)H在酶促反应（如甘油醛-3-磷酸脱氢酶GAPDH的反应中间体）或自发热诱导水合下会形成环化的NAD(P)HX（6元NAD(P)H环+1 H2O）——这种异常代谢物积累对细胞有毒（抑制多种脱氢酶的活性并消耗细胞ATP/ADP池）。NAXE催化NAD(P)HX的R/S型差向异构化，使其转化为NAXD的底物形式，NAXD再利用ATP将NAD(P)HX脱水为正常NAD(P)H。NAXE的核质定位（Cytosol; Nucleoplasm; Vesicles Approved）与NAD(P)H代谢酶的广泛亚细胞分布一致——核内的NAD(P)H池支持PARP（多ADP-核糖聚合酶）、Sirtuin脱乙酰酶和多种氧化还原酶的活性，NAXE的核内代谢物修复功能对核内NAD(P)H稳态至关重要。
+
+**TE调控展望**：NAXE的TE调控潜力极低。NAD(P)H代谢的全局性意味着其通过影响核内氧化还原状态可间接影响许多生物过程，但TE特异性调控无任何实验线索。然而，NAXE突变导致的NADHX修复缺陷病（常染色体隐性遗传的进行性脑病，PMID:41737236报道中国患者新发复合杂合变异）呈现出严重的神经退行性表型——该类疾病的基因组不稳定性增加（可能通过NAD^+耗竭→降低PARP和Sirtuin底物水平→DNA修复缺陷→体细胞TE扩增）的理论可能性值得在罕见疾病的TE分析中提及，但非NAXE蛋白的直接功能。
+
+
+
+
 ![PAE](https://alphafold.ebi.ac.uk/files/AF-Q8NCW5-F1-predicted_aligned_error_v6.png)
 
 ### HPA IF 图像

@@ -74,6 +74,17 @@ Nuclear protein
 | AGO3 | BioGRID | 0 |
 
 
+### 深度机制分析
+
+RANGRF（也称为MOG1）编码Ran鸟嘌呤核苷酸释放因子，其结构域架构由Mog1结构域（InterPro: IPR007681; Pfam: PF04603）和Mog1/PsbP α/β/α-三明治折叠（IPR016123）组成。该蛋白通过独特的"双重调控"模式控制核内Ran-GTP水平：一方面促进Ran释放结合的GDP/GTP，另一方面阻止RanGEF（RCC1）催化新GTP的结合（PMID:29040603）。HPA定位为Cytosol/Nucleoplasm（Supported, 核定位特异性8/10），与其功能——调节Ran依赖的有丝分裂纺锤体动力学——高度一致。蛋白较小（186 aa / 20.4 kDa），但AlphaFold pLDDT=78.0且具有一个实验性PDB条目，表明其折叠状态明确。
+
+RanGTPase系统是真核细胞核质转运和有丝分裂纺锤体组装的核心分子开关。RANGRF作为Ran的"双向刹车"——同时切割核苷酸释放并阻断RCC1的再装载——其在核质中的定位使其能通过微调局部Ran-GTP梯度来影响核孔复合物（NPC）处的转运受体（importin/exportin）与货物蛋白的解离/结合动力学。此外，RANGRF在心肌细胞中增强SCN5A（NaV1.5钠通道）膜表达的能力（PMID:18184654）暗示其功能不仅限于Ran调控，可能通过未知机制将核质信号与离子通道运输偶联。
+
+PPI网络核心互作对象为RAN（BioGRID评分0，但功能意义最高）及多个具有核功能的蛋白（PHF19是PRC2多梳抑制复合物的辅助因子，AGO3参与核内小RNA介导的基因沉默）。THUMPD1的互作暗示tRNA/RNA修饰相关功能的潜在交叉。与Brugada综合征的临床关联（PMID:24142675, RANGRF p.E61X无义突变）为理解核质Ran信号与心脏电生理之间的致病机制提供了独特的切入点。7篇PubMed使其成为高度新颖靶标，其作为Ran系统"非经典调节器"的精细分子机制（特别是阻止RCC1结合的结构基础）仍是开放问题。
+
+
+
+
 ![PAE](https://alphafold.ebi.ac.uk/files/AF-Q9HD47-F1-predicted_aligned_error_v6.png)
 
 ### HPA IF 图像

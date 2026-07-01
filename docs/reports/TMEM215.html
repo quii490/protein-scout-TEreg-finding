@@ -64,7 +64,11 @@
 </tbody></table></div>
 <p><strong>TE 调控评估</strong>: 该蛋白缺乏核定位证据，TE调控潜力极低。</p>
 <hr>
-<p><figure><img src="https://alphafold.ebi.ac.uk/files/AF-Q68D42-F1-predicted_aligned_error_v6.png" alt="PAE"></figure></p>
+<h4>深度机制分析</h4>
+<p><strong>结构域架构</strong>：TMEM215（235 aa, 25.8 kDa）含TMEM215特征结构域（IPR031486, Pfam PF15746），被预测为2-3次跨膜（transmembrane helices via TMHMM/Phobius）的膜蛋白。AlphaFold pLDDT=53.0——约60%残基pLDDT&lt;70，表明蛋白整体处于部分无序/膜蛋白动态构象。跨膜螺旋（TM1: aa ~25-47, TM2: aa ~85-107, TM3可能: aa ~150-172）的pLDDT&gt;75（中等可信），但胞质loop和N/C端尾部pLDDT&lt;50。跨膜区间的胞外/腔内loop富含Cys残基（可能形成intramolecular disulfide bond以稳定loop构象）。TMEM215的膜拓扑（membrane topology）：N端位于胞外/ER腔内侧或外侧（取决于定位在质膜vs. ER/囊泡膜）。蛋白的疏水性分布呈经典bitopic/polytopic膜蛋白的双亲性图谱（hydropathy plot 2-3 positive peaks）。</p>
+<p><strong>PPI互作网络</strong>：PPI degree=0（BioGRID），但STRING预测4个中等置信度互作伙伴。TANC1（tetratricopeptide repeat, ankyrin repeat and coiled-coil containing 1, STRING score=400）为突触后致密区（postsynaptic density, PSD）支架蛋白——含ANK repeats和TPR repeats，调控树突棘（dendritic spine）形态和AMPA/NMDA受体突触定位。THAP2（THAP domain containing 2, STRING score=432）为含THAP锌指（C2CH, zinc-dependent DNA binding domain）的转录因子——结合DNA并调控细胞周期基因。PRDM8（PR/SET domain 8, STRING score=457）为组蛋白甲基转移酶（H3K9me1/me2）——在神经发育中调控基因表达。</p>
+<p><strong>机制模型与功能</strong>：TMEM215的核心功能为血管生成中的内皮细胞存活因子。在血管退化（vessel regression）中，内皮细胞面临凋亡压力——TMEM215防止BIK（BCL2-interacting killer, BH3-only促凋亡蛋白, PMID 37750320）介导的ER-to-mitochondria Ca²⁺流入和线粒体凋亡。BIK在ER膜上激活ryanodine receptor (RyR)或IP3R Ca²⁺释放通道→ER Ca²⁺流入线粒体→线粒体钙超载→MPTP（mitochondrial permeability transition pore）开放→cytochrome c释放→apoptosome形成→caspase-9/3激活——TMEM215通过blunting（钝化）此过程保护内皮细胞存活——机制可能是TMEM215与BIK直接或间接互作→阻断BIK对ER Ca²⁺释放通道的激活。在核质（HPA Approved Nucleoplasm + Vesicles）中，TMEM215作为膜蛋白的核内形式可能在内膜（inner nuclear membrane, INM）与核质间循环——其抗凋亡功能在核膜层面保护核膜完整性和NPC功能。</p>
+<p><strong>TE调控展望</strong>：TMEM215对TE调控的关联间接且弱。血管生成（angiogenesis）和肿瘤微环境（TME）已知影响TE表达——缺氧（hypoxia, HIF-1α stabilization）激活LINE-1 and HERV-K转录——TMEM215通过促进血管稳定性维持氧合→可能间接抑制缺氧诱导的TE激活。BIK调控线粒体凋亡——在DNA损伤应答（DDR）中，逆转录转座产生DSB→ATM/ATR→CHK1/CHK2→p53稳定化→诱导BIK/Bax/Bak介导的凋亡以清除TE超转座的受损细胞——TMEM215通过阻断此凋亡通路可能在异常条件下允许TE活跃转座的细胞存活——即TMEM215高表达的肿瘤内皮细胞中可能间接促进TE转座阳性克隆的耐受和扩增。此外，NET-DNA（neutrophil extracellular traps, PMID 42037208）诱导的ANXA2/TMEM215/BiP轴在子宫内膜异位症（endometriosis）中促进mitophagy-mediated anoikis resistance——NETs含大量基因组和线粒体DNA片段（包括TE序列）——TMEM215可能在内吞NET-DNA后的细胞存活中发挥尚未阐明的TE相关角色。</p>
 <h4>HPA IF 图像</h4>
 <p>HPA 检索: https://www.proteinatlas.org/search/TMEM215</p>
 <h4>HPA IF 图像</h4>

@@ -61,6 +61,19 @@ Acts as a scaffold for the formation of a ternary MAP3K2/MAP3K3-MAP3K5-MAPK7 sig
 
 **TE 调控相关性**: 该蛋白缺乏明确的核/染色质定位证据，TE调控潜力极低，不建议作为优先靶标。
 
+### 深度机制分析
+
+MAP2K5（Dual specificity mitogen-activated protein kinase kinase 5，UniProt: Q13163，448 aa / 49.3 kDa）的结构域架构分析显示：InterPro结构域包括IPR000270, IPR000719, IPR008271, IPR011009, IPR017441, IPR034851；Pfam注释为PF00069, PF00564；UniProt定义域:DOMAIN 18..109; /note="PB1"; /evidence="ECO:0000255。 尚无AlphaFold结构数据。
+
+蛋白质互作网络分析揭示MAP2K5与以下关键因子存在相互作用：MAP3K3、MAP3K2、PRKCZ、MAPK7、MAP2K5。 功能注释显示Acts as a scaffold for the formation of a ternary MAP3K2/MAP3K3-MAP3K5-MAPK7 signaling complex. Activation of this pathway appears to play a critical role in protecting cells from stress-induced apopt。 这些互作伙伴暗示该蛋白可能通过多蛋白复合物参与细胞过程调控，其互作网络的拓扑位置值得进一步实验验证。
+
+从结构-功能机制角度分析，MAP2K5的亚细胞定位为无已知核定位注释，目前缺乏核定位的实验证据，其在核内的功能角色尚待阐明。 评估综合得分67.8/100，属于中等兴趣候选，在明确核定位后其TE调控潜力可能显著提升。 推荐等级为2/5。
+
+对于TE调控机制的意义而言，MAP2K5的结构域组成不直接指向经典染色质调控因子，但其在核内的存在（若经实验确认）可能暗示非经典TE调控途径。 研究新颖性方面，PubMed检索获得0篇文献，该蛋白几乎未被研究，是一个高度新颖的靶标，具有较大的学术探索空间。 代表性文献包括PMID:42196425, 42036909, 41603468等。
+
+综上所述，MAP2K5作为一个448 aa / 49.3 kDa的无已知核定位注释定位蛋白，具有一定的TE调控研究价值，建议首先通过亚细胞分级和免疫荧光明确其在核内的分布模式，再设计针对性的功能实验。
+
+
 ### HPA IF 图像
 
 HPA: https://www.proteinatlas.org/ENSG00000137764-MAP2K5

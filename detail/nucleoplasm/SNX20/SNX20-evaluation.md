@@ -78,6 +78,15 @@ Nuclear protein
 | JMJD4 | BioGRID | 0 |
 
 
+
+### 深度机制分析
+
+**结构域架构**：SNX20（316 aa, 36.2 kDa）属SNX家族PX-only亚家族。含PX domain（Pfam PX, IPR001683）约120 aa的a/b fold——特异性识别PI3P和PI(3,4)P2（Kd nanomolar range）。AlphaFold pLDDT=83.0——PX域pLDDT>90（极高），但PX域外区域pLDDT<50（高度无序）。SNX20为单体PX domain adaptor——定位于early/sorting endosome膜。PPI（degree=22）以剪接因子和cancer-testis antigen为主：MAGEA11（BioGRID）为CTA——通过MAGE homology domain招募E3 ligase/转录因子；JMJD4（BioGRID）为JmjC domain-containing hydroxylase——催化eRF1 lysyl hydroxylation调控translation termination；TFIP11（BioGRID）为剪接体蛋白。
+
+**TE调控展望**：SNX20通过CTA的endosomal trafficking间接参与TE调控。CTA基因（MAGE-A/B/C）通常由LTR/ERV启动子驱动——在癌症中因DNA低甲基化被激活。SNX20在肿瘤免疫浸润中的预后价值（PMID 34764676, 33116590）暗示SNX20-MAGEA11轴在TE-driven CTA表达后蛋白分选和抗原呈递中的角色。JMJD4依赖的translation termination fidelity可能影响LINE-1 ORF1/ORF2的提前终止和NMD降解效率。
+
+
+
 ![PAE](https://alphafold.ebi.ac.uk/files/AF-Q7Z614-F1-predicted_aligned_error_v6.png)
 
 ### HPA IF 图像

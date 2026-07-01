@@ -99,7 +99,12 @@
 <tr><td>建模残基数</td><td>334</td></tr>
 </tbody></table></div>
 <p>ESMFold 基于进化规模语言模型，进行无 MSA 搜索的从头折叠，可作为 AlphaFold 的独立验证。</p>
-<h4>5. 数据来源</h4>
+<h4>深度机制分析</h4>
+<p>SNAPC2与SNAPC3同属snRNA激活蛋白复合体（SNAPc），但其在复合体中的功能角色和结构特征存在显著差异。SNAPC2含有一个SNAPC2-specific结构域（InterPro:IPR021281, Pfam:PF11035），这是SNAPc五个亚基中独特的存在。ESMFold预测的全局pLDDT为0.62（略优于SNAPC3的0.55），高置信残基占比6.0%，但仍有24.6%残基pLDDT&lt;0.5，表明SNAPC2同样含有大量固有无序区域——这与SNAPc支架亚基的共性一致。然而，SNAPC2独有的Pfam:PF11035结构域可能介导特定的蛋白互作或构象调控功能。</p>
+<p>PPI互作网络是SNAPC2的最大亮点。STRING数据显示SNAPC2与SNAPC1（score=999）、SNAPC4（score=999）和SNAPC5（score=997）之间存在极高置信度的互作——完美覆盖了SNAPc复合体中除SNAPC3外的所有亚基。更重要的是，TBP（TATA-box binding protein, score=922）和BRF2（TFIIIB组分, score=702）的高置信互作直接验证了UniProt功能注释中&quot;SNAPC2 recruits TBP and BRF2 to the U6 snRNA TATA box&quot;的描述。这种从STRING互作到功能注释的自洽性验证极为罕见，构成了SNAPC2功能机制的强有力证据闭环。SNAPC2在SNAPc中可能作为关键的衔接蛋白——一方面通过其特异性结构域锚定于PSE结合的SNAPc核心（SNAPC1/SNAPC4），另一方面以柔性区域招募TBP-BRF2复合体至下游TATA框。</p>
+<p>PubMed文献的深度分析揭示了SNAPC2在转录调控中的结构基础。PMID 39747245报道了PSE结合蛋白招募RNA聚合酶II和III至snRNA启动子的不同机制的结构解析——这是理解SNAPc双重聚合酶特异性的关键突破。SNAPC2很可能通过其独特的结构域构象变化，实现对Pol II（U1/U2 snRNA）和Pol III（U6 snRNA）的选择性招募。在这一模型中，SNAPC2的可诱导构象可能决定了PSE与下游TATA框之间的空间排列，从而允许大分子量的Pol II进入（Pol II型启动子）或优先容纳紧凑的Pol III机制（U6型启动子）。</p>
+<p>在TE调控的潜在关联方面，Alu元件（SINE家族）的转录部分依赖Pol III机制，而Pol III的PSE依赖性招募与snRNA基因启动子共享SNAPc-TBP-BRF2通路。此外，BioGRID互作中的MBD1（methyl-CpG binding domain protein 1）是DNA甲基化&quot;阅读器&quot;，可结合甲基化CpG岛并招募转录抑制复合体。MBD1与SNAPC2的互作可能将DNA甲基化信号与snRNA/TE转录耦合——即甲基化状态通过MBD1-SNAPC2轴调控PSE依赖性TE启动子活性。EGFR（表皮生长因子受体）的互作则提示生长因子信号可能通过磷酸化SNAPC2间接调节SNAPc活性。</p>
+<p>尽管SNAPC2的PPI数据质量远优于SNAPC3（STRING高置信度互作 vs BioGRID评分0），其核定位GO-CC注释仍然缺失。推荐等级2/5（64.5/100）。SNAPC2的深度机制模型为：PF11035结构域锚定于PSE结合的SNAPc核心→柔性区域招募TBP（score=922）和BRF2（score=702）→构象选择决定Pol II/III特异性→MBD1介导的甲基化耦合调控→EGFR信号磷酸化调控→可能间接影响含PSE样元件的TE转录。SNAPC2在SNAPc五个亚基中具有最优的PPI数据质量，是研究SNAPc-TE调控联系的最佳候选。</p>
 <ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q13487</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q13487</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=SNAPC2</li></ul></article></main>
 <script src="../assets/js/app.js"></script>
 </body>

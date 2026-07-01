@@ -68,6 +68,12 @@
 <tr><td>BLOC1S2</td><td>BioGRID</td><td>0</td></tr>
 <tr><td>DNMT3B</td><td>BioGRID</td><td>0</td></tr>
 </tbody></table></div>
+<h4>深度机制分析</h4>
+<p><strong>结构域架构</strong>：PAM16（125 aa，13.8 kDa）是线粒体内膜蛋白输入马达的核心调控亚基，含两个保守结构域——J_dom_sf（IPR036869）和Tim16（IPR005341，PF03656 Pam16）。J_dom_sf属于分子伴侣DnaJ超家族的类J结构域折叠，但PAM16的J-like结构域缺乏经典的HPD（His-Pro-Asp）三肽基序，取而代之的是非经典的类J折叠——这一&quot;失活&quot;的J结构域使其无法像典型DnaJ蛋白那样刺激Hsp70 ATPase活性，反而通过与DNAJC19（Tim14/PAM18）的竞争性结合<strong>抑制</strong>HSPA9/Mortalin的ATPase活性（UniProt功能注释）。Tim16结构域形成紧凑的螺旋束折叠，作为与TIMM17A等转位酶亚基的结合平台。</p>
+<p><strong>PPI互作网络解读</strong>：PPI degree=131，核心互作包括：DNAJC19（线粒体内膜转位酶J蛋白，PAM16的直接抑制靶标）、TIMM17A（线粒体内膜蛋白转位酶Tim17/Tim22/Tim23复合物的核心亚基，与PAM16共同构成PAM复合物的膜锚定点）、DNMT3B（DNA甲基转移酶3B，催化CpG位点的从头甲基化——此互作在非线粒体环境中提示PAM16可能通过调控线粒体代谢影响甲基供体SAM的产生）。FEZ1（Fasciculation and Elongation Protein Zeta 1，微管结合蛋白）和CEP70（中心体蛋白70）的互作进一步支持PAM16在微管和中心体相关过程中的非经典功能。</p>
+<p><strong>结构解读</strong>：AlphaFold pLDDT=89.3，预测质量极佳。J-like结构域（残基约1-70）形成经典的DnaJ折叠——4股α-螺旋束（helix I-IV），其中helix II和III之间的loop区在原核/线粒体DnaJ蛋白中负责与Hsp70的ATPase域互作。PAM16在此区域缺乏HPD基序（被替代为HDD或类似序列），结构上表现为更窄的loop构象，无法有效激活Hsp70。Tim16域（残基约70-125）为α-螺旋结构，pLDDT &gt;90，形成与TIMM17A的跨膜α-螺旋互补的结合界面。</p>
+<p><strong>机制模型</strong>：PAM16的经典功能是作为线粒体蛋白输入马达（PAM复合物）的抑制性调控亚基：（1）在膜间隙侧，PAM16通过J-like结构域与DNAJC19竞争HSPA9/Mortalin的结合位点，调控ATP驱动的蛋白转位进入线粒体基质的速率；（2）PAM16与TIMM17A和TIMM23共同构成内膜转位酶的完整性——PAM16的Tim16域直接结合TIMM17A，稳定内膜转位通道；（3）PAM16的核质定位（Microtubules; Mitochondria; Nucleoplasm Approved）的来源推测为：新生PAM16在胞质核糖体合成后至线粒体输入的中间状态（precursor pool），在此过程中部分PAM16可能结合微管并被HPA检测到核周信号。DNMT3B的互作是否为检测假象还是有生物学意义（如通过SAM代谢连接线粒体和核内甲基化）尚需验证。</p>
+<p><strong>TE调控展望</strong>：PAM16的TE调控潜力极低。其作为线粒体特异性蛋白的功能框架完全定位于线粒体蛋白稳态维持。唯一潜在的间接联系为：线粒体功能障碍（如PAM16缺失导致的蛋白输入缺陷）可激活线粒体未折叠蛋白应答（UPR^mt），该应激信号可通过ATF5-CHOP轴影响核基因表达——但这一通路与TE调控之间的关系非常间接，目前无任何实验证据支持。</p>
 <p><figure><img src="https://alphafold.ebi.ac.uk/files/AF-Q9Y3D7-F1-predicted_aligned_error_v6.png" alt="PAE"></figure></p>
 <h4>HPA IF 图像</h4>
 <p>HPA: https://www.proteinatlas.org/ENSG00000217930-PAM16</p>

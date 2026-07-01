@@ -43,6 +43,18 @@ status: shortlisted
 Nuclear protein
 
 
+
+
+### 深度机制分析
+
+NT5C（核蛋白评估报告）。定位于nucleoplasm。包含201 aa / 23.4 kDa。UniProt编号Q8TCD5。其InterPro结构域组成为IPR010708、IPR036412、IPR023214。Pfam注释1个保守结构域（PF06941）。AlphaFold预测三维结构pLDDT=96.1（极高置信度）。
+
+从功能机制角度，该蛋白的已知功能为Dephosphorylates the 5' and 2'(3')-phosphates of deoxyribonucleotides, with a preference for dUMP (Ref.12). Also dephosphsphorylates dTMP, exhibits intermediate activity towards dGMP, and low activity towards dCMP and dAMP (By similarity)，PPI网络分析显示其与POMP(995)、NT5C3(995)、NT5C1B(958)、DCK(948)、IMPDH(944)、IMPDH2(944)等高置信度互作伙伴存在相互作用。
+
+从结构生物学角度，该蛋白的AlphaFold预测结构质量优异（pLDDT=96.1），表明其整体折叠状态稳定，适合进行基于结构的药物设计或功能域划分研究，在TE调控的背景下，NT5C的nucleoplasm定位使其具备接触转座子元件的空间可能性。
+
+从研究转化角度，PubMed中仅有21篇相关文献报道，研究新颖度高，相关文献证据包括PMID:41209747、41187513、41107716，综合评分67.8/100，属于中等优先级，建议在更大规模的筛选中进一步验证。
+
 ### 补充分析 (UniProt API)
 
 **蛋白全称**: 5'(3')-deoxyribonucleotidase, cytosolic type

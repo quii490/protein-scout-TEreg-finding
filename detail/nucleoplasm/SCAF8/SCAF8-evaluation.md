@@ -41,6 +41,16 @@ PPI degree: 68  ChIP: None
 Nuclear protein
 
 
+### 深度机制分析
+
+SCAF8（SR-related and CTD-associated Factor 8）是此批25个核蛋白中核定位证据最强的蛋白之一（Nucleoplasm Enhanced, 得分8/10），也是功能定义最精确的核内调控因子。1271 aa的巨大分子量（140.5 kDa）容纳了多个功能结构域：N端CID结构域（CTD-Interacting Domain, Pfam CID, InterPro IPR006569）是RNA聚合酶II大亚基（POLR2A）C端结构域（CTD）磷酸化形式的直接结合模块；中间含有ENTH/VHS超家族折叠（InterPro IPR008942）；C端含有两个RRM型RNA识别基序（Pfam RRM_1, InterPro IPR000504）和一个核苷酸结合α/β折叠结构域（InterPro IPR012677）。这种多结构域串联排布使SCAF8能够在RNA聚合酶II转录的多个层面同时执行功能。
+
+SCAF8的PPI网络是其核内功能的最有力佐证。STRING网络中与PCF11的极高评分互作（STRING=964）尤为关键——PCF11是切割和聚腺苷酸化因子（CPA复合物）的核心组分，直接识别RNA聚合酶II CTD的Ser2磷酸化并介导转录终止和3'端加工。与SETX（senataxin, STRING=948）的互作则连接SCAF8与转录终止和R-loop解旋。与SSU72（STRING=784）、CPSF3（STRING=778）、CPSF2（STRING=745）、CPSF7（STRING=732）和WDR33（STRING=769）等一系列CPA复合物组分的紧密互作将SCAF8定位在RNA 3'端加工的核心枢纽。与RPRD2（RNA聚合酶II相关蛋白2, STRING=757）的互作进一步巩固了其在转录调控中的中心地位。
+
+SCAF8的核心功能机制已在开创性研究中精准阐明。PMID:31104839首次揭示了SCAF4和SCAF8作为mRNA反终止因子的分子功能——它们通过结合磷酸化POLR2A CTD并随后结合新生RNA上早期poly(A)位点上游序列，抑制早期poly(A)位点的使用，从而防止截短的非功能性蛋白产物的积累。这一"anti-terminator"机制在基因组完整性维护中具有基础性意义，因为早期poly(A)位点的异常激活可产生显性负性蛋白截短体或毒性多肽。PMID:36590686通过延伸因子的特异性捕获进一步证实SCAF8在RNA聚合酶II复合物中的直接作用。最新研究（PMID:42288759）揭示了SCAF8的一个全新调控维度——PRKN（Parkin）介导SCAF8的泛素化降解，降低KLF5 mRNA的稳定性及其对EFNA5的转录激活，连接了线粒体自噬蛋白Parkin与核内转录终止调控。
+
+SCAF8的pLDDT仅为51.4（得分7/10），但这极可能不反映真实的结构无序，而是因为1271 aa的巨大蛋白中多个结构域之间的柔性linker区域拉低了整体预测均值。PDB数据库中已有9个实验结构，主要覆盖CID结构域和RRM结构域的独立结构。16篇PubMed文献（得分9/10）虽然数量不多，但每一篇都质量极高。作为明确的核内反终止因子，SCAF8在核质Enhanced定位背景下的功能延伸——如其是否调控非编码RNA或增强子RNA（eRNA）的poly(A)位点选择——代表了mRNA加工领域的一个重要前沿问题。
+
 ### 补充分析 (UniProt API)
 
 **蛋白全称**: SR-related and CTD-associated factor 8

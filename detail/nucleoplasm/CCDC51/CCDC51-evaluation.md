@@ -97,6 +97,17 @@ HPA: https://www.proteinatlas.org/ENSG00000164051-CCDC51
 | 39718510 | Functionally conserved inner mitochondrial membrane proteins CCDC51 and Mdm33 demarcate a subset of fission events. | J Cell Biol 2025 |
 | 38562768 | Human CCDC51 and yeast Mdm33 are functionally conserved mitochondrial inner membrane proteins that demarcate a subset of | bioRxiv 2024 |
 
+### 深度机制分析
+
+CCDC51（也称MITOK）的域架构由卷曲螺旋（coiled-coil）二聚化模块主导（IPR037660）。411个残基（45.8 kDa）折叠为以两亲性α-螺旋卷曲螺旋为主的结构，插入线粒体内膜，C端面向膜间空间，N端面向基质。该蛋白被描述为线粒体钾通道（mitoK(ATP)）的成孔亚基，通过与ATP结合亚基ABCB8/MITOSUR形成异源复合物介导线粒体基质对ATP敏感的K⁺摄取（PMID 31435016）。
+
+AlphaFold pLDDT为中等水平（69.1），卷曲螺旋骨架可能正常折叠，但连接环和跨膜片段可能偏离典型构象。无实验PDB数据。mitoK(ATP)通道是动态的——高ATP水平促进闭合构象，低ATP则诱导开放构象，两种状态可能差异显著。PPI网络（degree=75）中CFTR和NXF1（核RNA输出因子）的互作具有提示性，MOV10（一种RNA解旋酶）的连接暗示可能的核糖核蛋白复合物参与。
+
+核质定位（HPA Supported, 8/10）与经典核编码线粒体蛋白形成对比。这可能表明蛋白质的双重靶向——一些蛋白质具有模糊的拓扑信号，可同时靶向线粒体和核质。另一种可能是HPA中检测到的核质定位反映的是尚未完成线粒体导入的新合成蛋白池，或从线粒体释放出的切割片段。线粒体与核之间的逆行信号通路已是广为人知的事实，CCDC51核质池可能充当ATP状态的代谢传感器。
+
+TE调控启示：转座子激活事件通常会损害线粒体功能并增加ROS负荷——mitoK(ATP)通道活性则通过轻度解偶联保护线粒体。CCDC51作为线粒体保护性因子可能间接维持TE激活细胞中的基因组稳定性。其母系功能保守性（酵母Mdm33在裂变中的作用得以保留，PMID 39718510）意味着其生化角色是古老而坚固的。6篇文献的极高新颖性为探索线粒体-TE串扰提供了广阔的创新空间。
+
+
 ### HPA IF 图像
 
 HPA 检索: https://www.proteinatlas.org/search/CCDC51

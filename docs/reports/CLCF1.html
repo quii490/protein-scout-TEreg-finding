@@ -99,7 +99,13 @@
 <tr><td>pLDDT &lt; 0.5 占比</td><td>1.8%</td></tr>
 <tr><td>建模残基数</td><td>225</td></tr>
 </tbody></table></div>
-<p>ESMFold 基于进化规模语言模型，进行无 MSA 搜索的从头折叠，可作为 AlphaFold 的独立验证。</p></article></main>
+<p>ESMFold 基于进化规模语言模型，进行无 MSA 搜索的从头折叠，可作为 AlphaFold 的独立验证。</p>
+<h4>深度机制分析</h4>
+<p>CLCF1（Cardiotrophin-like cytokine factor 1）属于IL-6家族细胞因子，其深度功能机制需从分泌蛋白的胞外信号转导框架中理解。该蛋白含有一个Four-helical cytokine core结构域（InterPro:IPR009079, Pfam:PF06875），这是IL-6/G-CSF/MGF家族细胞因子的标志性折叠。ESMFold预测的全局pLDDT=0.83且41.3%残基pLDDT&gt;0.9，表明其四螺旋束结构折叠极为完善——这代表了细胞因子家族中保守的&quot;上-上-下-下&quot;四螺旋拓扑，形成稳定的疏水核心。仅1.8%的残基pLDDT&lt;0.5，提示其结构高度有序，几乎没有显著的无序区域，这为基于结构的细胞因子工程和受体拮抗剂设计提供了极佳模板。</p>
+<p>CLCF1的独特之处在于其双模式信号机制。它既可以作为游离细胞因子单独发挥作用，也可以与可溶性CRLF1（细胞因子受体样因子1）或CNTFR（睫状神经营养因子受体）形成稳定分泌复合体（PMID:10448081, 10500198, 10966616, 11285233, 11294841）。在经典信号模式中，CLCF1-CRLF1复合体结合CNTFR复合体（CNTFR-IL6ST/gp130-LIFR异源三聚体）→激活JAK-STAT3信号级联。在转信号（trans-signaling）模式中，可溶性CNTFR亚基使不表达膜结合CNTFR的细胞也能响应CLCF1信号——这一机制扩展了其靶细胞范围。这种双模式信号架构赋予CLCF1独特的生物学可塑性。</p>
+<p>PPI互作网络直接支持上述机制：BioGRID数据显示CLCF1与CNTFR和CRLF1的互作，恰好对应于其两个核心结合伙伴。然而，所有互作评分均为0的低置信度，提示这些互作缺乏高通量实验的系统验证。VCP（valosin-containing protein/p97 AAA ATP酶）的互作极为独特——VCP是泛素-蛋白酶体通路的核心ATP酶，参与内质网相关降解（ERAD）和膜蛋白提取，其在分泌型细胞因子互作网络中的出现提示CLCF1可能经历VCP依赖的质量控制或降解过程。HNRNPH1（核不均一核糖核蛋白H1）是一种核内RNA结合蛋白，其与分泌型细胞因子的互作缺乏合理的生物学解释，可能是非特异性结合。</p>
+<p>PubMed文献分析揭示了CLCF1在肿瘤免疫微环境中的重要性。PMID 42102942发现在肝细胞癌中阻断CLCF1-CNTFR轴可增强GPC3 CAR-T细胞疗法的疗效——这是将CLCF1信号定位于肿瘤免疫抑制微环境的核心发现。PMID 41974852证实Saikosaponin D和paeoniflorin通过CLCF1/PD-L1介导的CAF-肿瘤细胞交叉对话改善HCC免疫微环境。PMID 41662978对CLCF1的调控和信号全景进行了综述。此外，PMID 41840139发现分泌蛋白CLCF1通过抑制肝内胆汁酸合成和促进胆汁酸排泄改善胆汁淤积性肝病，扩展了其肝肠调控功能。</p>
+<p>然而，CLCF1作为分泌型细胞因子，其天然作用位点为胞外空间——通过结合质膜受体激活胞内信号级联（JAK-STAT），其蛋白本身不进入细胞核。四螺旋束结构域不具备DNA结合能力，GO-CC中无核定位注释。虽然在核蛋白筛选项目中以nucleoplasm/nuclear bodies的HPA定位出现，但这可能反映了其在分泌通路中经由内质网/高尔基体时的瞬时染色，而非功能性核定位。推荐等级2/5（65.6/100）。其深度机制模型为：CLCF1-CRLF1/CNTFR复合体→结合CNTFR-gp130-LIFR三聚体→JAK2/STAT3磷酸化→pSTAT3核转位→调控靶基因转录。该模型与TE调控无关，但CLCF1作为肿瘤免疫治疗靶点的潜力（通过STAT3信号）值得在免疫-肿瘤交叉领域独立关注。</p></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

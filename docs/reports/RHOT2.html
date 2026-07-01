@@ -132,7 +132,13 @@
 <tr><td>C9orf72</td><td>Biogrid</td><td>false</td></tr>
 <tr><td>DKKL1</td><td>Bioplex</td><td>false</td></tr>
 </tbody></table></div>
-<p>&lt;!-- DOMAIN_HUMANPPI_REPAIR_END --&gt;</p></article></main>
+<p>&lt;!-- DOMAIN_HUMANPPI_REPAIR_END --&gt;</p>
+<h4>深度机制分析</h4>
+<p>RHOT2（Mitochondrial Rho GTPase 2，又称MIRO2）。包含约618 aa。UniProt编号Q8IXI1（Swiss-Prot已审查条目）。其结构域体系包含N端GTPase结构域（SM00175，Ras家族）、两个EF-hand Ca2+结合结构域（SM00173，残基184-219和304-339）、C端GTPase结构域（SM00174，残基414-576），以及C端跨膜锚定域。还包含InterPro注释IPR011992（EF-hand域对）、IPR018247（EF-hand钙结合）、IPR013566/013567（Miro结构域）、IPR002048/020860（小GTPase结合）、IPR052266、IPR027417（P-loop NTPase折叠）、IPR001806（小GTPase）。Pfam注释3个结构域PF08355、PF08356、PF00071。AlphaFold预测结构对可溶性域置信度较高，域间连接体置信度较低。</p>
+<p>从功能机制角度，RHOT2是线粒体外膜的IV型单次跨膜蛋白，其C端跨膜域（残基约590-615）不可逆地锚定于线粒体外膜，N端GTPase域面向胞质。该蛋白通过TRAK1/TRAK2驱动蛋白适配体复合体介导线粒体沿微管的顺行转运，Ca2+通过EF-hand域的变构调控实现线粒体亚细胞分布的调控。RHOT2还参与PINK1/Parkin介导的线粒体自噬通路——在线粒体去极化时，PINK1磷酸化MIRO蛋白以阻止线粒体运动，促进受损线粒体的隔离与清除。</p>
+<p>从核定位角度，HPA标注了部分细胞系中不确定的nucleoplasm信号，但UniProt、GO-CC、RefSeq四源均一致确认为线粒体外膜定位。C端跨膜锚定的拓扑结构在结构生物学层面排除了其作为可溶性核蛋白运作的可能性。HPA的微弱核质信号可能是过表达蛋白的非特异性定位、线粒体碎片化引起的样本制备假象或抗体交叉反应所致。该蛋白的核定位特异性评分为0/10，严格不符合TE调控候选靶标的基本准入条件。</p>
+<p>从PPI互作网络角度，RHOT2的核心互作体为TRAK1（驱动蛋白适配体，BioGRID+Intact验证）、TRAK2（线粒体运动调控）、MGARP（线粒体共定位，BioGRID+Bioplex验证），以及与IPO5（核输入受体Importin-5，BioGRID+Opencell验证）的非经典互作。此外还与AKAP1（线粒体锚定）、AIFM1（凋亡诱导因子）、C9orf72（ALS/FTD相关蛋白）存在互作。IPO5作为核质转运受体，其与RHOT2的互作可能暗示在某些应激条件下RHOT2片段可被误导向核，但无证据表明全蛋白具有核内功能。</p>
+<p>从TE调控角度，RHOT2的线粒体专属定位（0/10核定位，加权总分41.1/100）使其不适合作为TE调控的直接靶标。但需指出，线粒体外膜完整性间接影响mtDNA释放触发的cGAS-STING通路——MOMP释放的mtDNA激活IFN-I应答并可能影响TE转录。RHOT2通过维持线粒体转运网络间接参与此过程，这在PINK1/Parkin缺陷的帕金森病模型中具有潜在转座子调控意义。综合评分41.1/100，不推荐作为TE调控研究靶标。</p></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

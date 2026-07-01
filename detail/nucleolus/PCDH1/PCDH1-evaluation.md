@@ -61,6 +61,20 @@ May be involved in cell-cell interaction processes and in cell adhesion
 
 **TE 调控相关性**: 该蛋白缺乏明确的核/染色质定位证据，TE调控潜力极低，不建议作为优先靶标。
 
+
+
+### 深度机制分析
+
+PCDH1（(Protocadherin-1)）。定位于nucleolus。包含1060 aa / 116.6 kDa。UniProt编号Q08174。其InterPro结构域组成为IPR002126、IPR015919、IPR020894、IPR013164、IPR013585、IPR050174。Pfam注释3个保守结构域（PF00028、PF08266、PF08374）。SMART注释发现SM00112等模块。UniProt结构域注释表明其包含Cadherin 1；Cadherin 2；Cadherin 3；Cadherin 4；Cadherin 5。
+
+从功能机制角度，该蛋白的已知功能为May be involved in cell-cell interaction processes and in cell adhesion，此外还与SMAD3、GTF3C3、TRIB1、ZNFX1等存在实验验证的低置信度互作。
+
+从结构生物学角度，其多结构域排列支持该蛋白作为支架平台整合多种信号输入的可能性，在TE调控的背景下，PCDH1的nucleolus定位使其具备接触转座子元件的空间可能性。
+
+从研究转化角度，该蛋白在PubMed中尚无直接研究发表（PubMed=0），属于高度新颖的靶标，相关文献证据包括PMID:42327340、42104313、42005443，综合评分66.7/100，属于中等优先级，建议在更大规模的筛选中进一步验证。
+
+PCDH1作为钙黏蛋白超家族成员，传统上被认为是细胞黏附分子，但其在nucleolus的富集提示可能存在核内剪接变体或非经典转运途径。钙黏蛋白家族成员的核定位现象近年逐渐被关注，可能与染色质组织及基因表达调控有关，这为TE调控研究提供了新的切入点。
+
 ### 补充分析 (UniProt API)
 
 **蛋白全称**: Protocadherin-1

@@ -61,6 +61,18 @@ no known nuclear annotation
 
 **TE 调控相关性**: 该蛋白缺乏明确的核/染色质定位证据，TE调控潜力极低，不建议作为优先靶标。
 
+
+
+### 深度机制分析
+
+B3KPJ4（(cDNA FLJ31867 fis, clone NT2RP7001856, highly similar to Polyhomeotic-like protein 2)）。定位于nucleoplasm。包含464 aa / 51.0 kDa。UniProt编号B3KPJ4。其InterPro结构域组成为IPR050548、IPR001660、IPR013761、IPR012313、IPR038603。Pfam注释3个保守结构域（PF16616、PF00536、PF21319）。
+
+从功能机制角度，该蛋白目前功能注释有限，其序列高度相似于Polyhomeotic-like protein 2，尚缺乏深入的功能表征研究，PPI网络分析显示其与CBX7(969)、PCGF1(858)、PHC2(973)、CBX8(981)、CBX4(962)、CBX2(974)等高置信度互作伙伴存在相互作用，此外还与PCGF5、PHC3等存在实验验证的低置信度互作。
+
+从结构生物学角度，在TE调控的背景下，B3KPJ4的nucleoplasm定位使其具备接触转座子元件的空间可能性。
+
+从研究转化角度，该蛋白在PubMed中尚无直接研究发表（PubMed=0），属于高度新颖的靶标，综合评分67.8/100，属于中等优先级，建议在更大规模的筛选中进一步验证。
+
 ### HPA IF 图像
 
 HPA 检索: https://www.proteinatlas.org/search/B3KPJ4

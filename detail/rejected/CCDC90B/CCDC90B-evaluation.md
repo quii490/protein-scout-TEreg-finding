@@ -167,6 +167,14 @@ status: rejected
 - [ ] 设计体外实验验证核定位及潜在调控功能
 - [ ] **该蛋白核定位证据不足（≤3/10），不建议作为核蛋白研究目标。**
 
+### 深度机制分析
+
+CCDC90B（254 aa, pLDDT=81.9）是卷曲螺旋结构域蛋白90B，定位于线粒体膜。该蛋白无已知InterPro/Pfam注释结构域，但AlphaFold v6预测显示76.8%的有序区域（pLDDT>70），表明存在可辨识折叠域等待功能注释。其与MCUR1的STRING互作（Combined Score=0.000，但同域共存）提示在线粒体钙离子单向转运体（MCU）复合物中发挥调控功能。CCDC90B与MCUR1在包括原核生物在内的远缘物种中保守共现，支持其作为MCU辅助亚基的进化保守角色（PMID:30612859）。
+
+从蛋白互作网络角度，CCDC90B的STRING预测互作包含MICU1（线粒体钙吸收的门控亚基）、FAM32A、TRMT1L等，但combined score偏低的模式说明该蛋白的互作网络尚待实验验证。IntAct实验互作数据（30条记录）主要为酵母双杂交筛选结果，需经co-IP等正交方法确证。
+
+从TE调控角度，线粒体代谢状态与TE转录活性密切相关。线粒体钙离子稳态通过调控α-酮戊二酸脱氢酶活性影响TET家族DNA去甲基化酶活性，而TET酶是ERV/L1等TE位点去甲基化的重要调节因子。CCDC90B作为MCU调控复合物的可能成员，可能通过影响线粒体钙吸收速率间接调控TET依赖的TE去甲基化。但其评分仅61.9/100且核定位证据极弱（2/10），TE调控意义属于线粒体代谢的下游间接效应。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9GZT6
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000137500-CCDC90B/subcellular

@@ -154,6 +154,16 @@ status: scored
 - [ ] ChIP-seq 全基因组定位
 - [ ] 推荐作为 BEN 域染色质生物学研究
 
+### 深度机制分析
+
+BEND2的分子机制核心在于其串联排列的双BEN结构域（483-582aa与667-765aa，PF10523，IPR018379）。BEN结构域是近年来被定义的新兴DNA/染色质结合模块，最早在BANP、E5R（果蝇）和NAC1中鉴定（Dai Q et al., 2013, Nucleic Acids Res, PMID:23268447）。BANP的BEN结构域已被证实直接识别CGCG DNA motif并打开局部染色质以激活转录（Grand RS et al., 2021, Nature, PMID:34108682），这为BEND2的功能推断提供了直接的同源结构域范式。BEND2拥有两个BEN结构域，可能形成双价DNA结合模式：一个结构域负责序列特异性识别，另一个参与染色质锚定或寡聚化，从而增强DNA亲和力。
+
+AlphaFold预测显示该蛋白整体无序（平均pLDDT=49.5，70.7%残基<50分），但BEN域区域（大约480-580aa及665-770aa）的结构置信度应显著高于整体均值，这是核酸结合结构域折叠典型的模式——结合域有序、连接区柔性。PPI网络极度稀疏：无IntAct实验记录，STRING仅检测到BEN家族成员（BEND3 score=0.85，BANP score=0.72，NAC1 score=0.55）的共进化/共表达信号。此互作图谱暗示BEND2可能以独立于伴侣蛋白的方式直接作用于染色质靶点，而非参与大型调控复合体。
+
+临床意义方面，BEND2的融合基因已在星形母细胞瘤（NIPBL::BEND2 fusion，Dashti NK et al., 2024, PMID:39604143）和胰腺神经内分泌肿瘤（BEND2 fusions与不良预后相关，Wood-Trageser MA et al., 2025, PMID:40784487）中被发现。Federico A et al.（2026, PMID:41429568）进一步将星形母细胞瘤分为三种融合定义亚型，BEND2融合为其中之一。这些融合将BEND2的BEN染色质靶向结构域重新导向至新基因组位点，可能是驱动肿瘤发生的核心机制。
+
+对于TE调控的潜在作用，BEND2的BEN结构域介导的DNA结合活性使其理论上可作为TE元件的直接或间接调控因子。推荐通过ChIP-seq鉴定BEND2的全基因组结合谱，重点关注其是否富集于重复序列区域，以及BEN结构域是否识别特定的TE衍生DNA motif。
+
 ### PPI 互作网络
 
 | 互作伙伴 | 来源 | 评分 |

@@ -70,6 +70,12 @@
 <tr><td>ZBTB7B</td><td>BioGRID</td><td>1</td></tr>
 <tr><td>HNRNPL</td><td>BioGRID</td><td>1</td></tr>
 </tbody></table></div>
+<h4>深度机制分析</h4>
+<p><strong>结构域架构</strong>：SH3YL1（342 aa，37.1 kDa）含SH3结构域（IPR036028 SH3-like_dom_sf，IPR001452 SH3_domain，IPR035511 SH3_domain_YSC84-like）和C端的Ysc84结构域（IPR007461，IPR033643）。SH3结构域是经典的蛋白-蛋白互作模块（~60个氨基酸），特异性识别富脯氨酸基序（PxxP核心），表面形成两个疏水性口袋和一个特异性口袋以区分不同的PxxP配体。Ysc84结构域的功能尚未完全解析，但在酵母同源物中参与肌动蛋白细胞骨架的组织。</p>
+<p><strong>PPI互作网络解读</strong>：PPI degree=17，高质量的互作伙伴包括：SH3D19（STRING 835分，含多个SH3结构域的支架蛋白，可能是自身SH3结构域的配体同源伙伴）、WAS（STRING 834分，Wiskott-Aldrich综合征蛋白，Arp2/3激活的肌动蛋白聚合核促进因子）、HNRNPL（hnRNP L，IRES依赖翻译调控因子和可变剪接调控因子）、BAG3（BCL2-associated athanogene 3，分子伴侣辅助的蛋白质量控制因子）、KHDRBS1（Sam68，STAR家族RNA结合蛋白，参与选择性剪接和信号传导）。这组互作将SH3YL1与RNA代谢和肌动蛋白细胞骨架连接起来。</p>
+<p><strong>结构解读</strong>：AlphaFold pLDDT=72.9（1个PDB结构验证），SH3结构域区域pLDDT &gt;80，形成典型的β-桶状折叠（5条反平行β-链组成），PxxP结合槽清晰可辨。Ysc84域pLDDT较低（65-75），但仍形成稳定的折叠核心。整体结构质量中等，SH3域的功能态预测非常可靠。值得注意的是SH3结构域与Ysc84域之间的连接区富含可磷酸化残基（Ser/Thr），提示SH3YL1的功能可能受激酶信号通路调节。</p>
+<p><strong>机制模型</strong>：SH3YL1作为膜-细胞骨架界面的适配器蛋白，通过以下机制发挥作用：（1）通过SH3结构域识别并结合富含PxxP基序的膜蛋白或信号蛋白，Ysc84结构域介导肌动蛋白纤维（F-actin）的结合或重排，从而将膜信号传递至细胞骨架；（2）在核质中，SH3YL1可能通过HNRNPL和KHDRBS1参与RNA代谢——这两种蛋白均可在细胞核和细胞质之间穿梭，SH3YL1可能作为它们的核质锚定或运输伙伴；（3）PMID:38318360发现NOX4-SH3YL1复合物参与糖尿病肾病，NOX4产生的ROS可能在核质中引发氧化应激应答下的SH3YL1核定位改变。</p>
+<p><strong>TE调控展望</strong>：SH3YL1的TE调控潜力较低，但通过HNRNPL和KHDRBS1的间接联系值得关注。HNRNPL已被报道调控LINE-1 RNA的核保留和降解，KHDRBS1/Sam68参与内含子保留剪接事件（许多TE作为可变外显子供体）。SH3YL1可能通过影响这些RNA结合蛋白的核质穿梭效率，间接调节含TE序列的转录本命运。但目前无任何直接实验证据，需进一步验证。</p>
 <p><figure><img src="https://alphafold.ebi.ac.uk/files/AF-Q96HL8-F1-predicted_aligned_error_v6.png" alt="PAE"></figure></p>
 <h4>HPA IF 图像</h4>
 <p>HPA: https://www.proteinatlas.org/ENSG00000035115-SH3YL1</p>

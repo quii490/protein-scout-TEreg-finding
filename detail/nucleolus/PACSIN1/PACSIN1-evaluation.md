@@ -61,6 +61,16 @@ Plays a role in the reorganization of the microtubule cytoskeleton via its inter
 
 **TE 调控相关性**: 该蛋白缺乏明确的核/染色质定位证据，TE调控潜力极低，不建议作为优先靶标。
 
+
+### 深度机制分析
+
+**F-BAR/SH3膜重塑蛋白的肌动蛋白-微管-核骨架桥接**：PACSIN1（Protein kinase C and casein kinase substrate in neurons protein 1, 444 aa, UniProt Q9BY11）属于PACSIN/Syndapin家族，拥有N端F-BAR（FCH-BAR）结构域（IPR027267, IPR001060, IPR035743; Pfam: FCH）和C端SH3结构域（IPR036028, IPR001452）。F-BAR域以新月形二聚体感知并稳定负弯曲度的膜（内吞小窝的凹曲面），而SH3域招募动力蛋白（DNM1/2/3）和WASP/WAVE复合物的PRD富集区以驱动肌动蛋白聚合——构成经典的内吞-肌动蛋白耦合机器。该蛋白还通过与MAPT/Tau蛋白的互作降低微管稳定性并抑制微管聚合。
+
+**PACSIN1-Huntingtin互作与HD中的TE去抑制关联**：PPI中HTT/Huntingtin（STRING 917）的高互作评分提供了唯一TE相关线索。突变的Huntingtin蛋白（mHTT）在亨廷顿病（HD）中通过螯合转录因子（如CBP/p300, Sp1, TBP）导致全局转录失调，其中ERV和LINE-1的去抑制已被报道为HD纹状体神经元的早期分子事件。PACSIN1与HTT的互作可能在突触小泡内吞循环中发生，但HTT的核内片段（N-terminal fragments）可通过核孔进入核内，可能携带PACSIN1或影响其亚细胞分布。
+
+**低优先级TE候选**：PACSIN1的神经突触特异性表达（脑组织富集）和膜重塑正典功能使其TE调控的可信度极低。F-BAR/SH3蛋白无任何染色质/DNA结合能力，核仁分类（67.8/100, 核定位特异性4/10）可能为低丰度污染信号。建议作为不推荐的最低优先级候选。
+
+
 ### PPI 互作网络
 
 | 互作伙伴 | 来源 | 评分 |
@@ -73,30 +83,3 @@ Plays a role in the reorganization of the microtubule cytoskeleton via its inter
 | PACSIN1 | BioGRID | 1 |
 | KAT7 | BioGRID | 1 |
 | CYFIP2 | BioGRID | 1 |
-
-
-### HPA IF 图像
-
-HPA 检索: https://www.proteinatlas.org/search/PACSIN1
-
-
-### HPA IF 图像
-
-HPA: https://www.proteinatlas.org/ENSG00000124507-PACSIN1
-
-![](https://images.proteinatlas.org/55491/2241_G10_9_blue_red_green.jpg)
-![](https://images.proteinatlas.org/55491/2241_G10_37_blue_red_green.jpg)
-
-### PubMed
-
-**Count: 107**
-
-| PMID | Title |
-|---|---|
-| 42124546 | Identifying pleiotropic genes for backfat thickness and semen traits in pigs using GWAS summary data. |
-| 42105253 | Genome-wide association studies for feed efficiency, production and feeding behavior traits in Canadian purebred Duroc pigs. |
-| 41312000 | Glioma angiogenesis phosphoproteome landscape and biomarker sets identified with phenome-centered multiomics toward 3P medical approaches. |
-| 41173111 | Insights into transcriptomic changes in blood of a mouse model of LPS-induced peritonitis. |
-| 41023479 | Plasmacytoid dendritic cells are dispensable or detrimental in murine systemic or respiratory viral infections. |
-
-

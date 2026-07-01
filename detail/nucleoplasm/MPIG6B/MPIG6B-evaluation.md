@@ -43,7 +43,15 @@ status: shortlisted
 Nuclear protein
 
 
-### 补充分析 (UniProt API)
+### 深度机制分析
+
+MPIG6B（G6b/G6b-B）是一个241个氨基酸的I型跨膜抑制性免疫受体，属于免疫球蛋白超家族（IgSF）的血小板特异性亚群。其胞外区含有单个G6B_V-set Ig-like结构域（IPR048308），这是一类截短的V-set结构域——仅含部分β-三明治折叠，通过非经典二硫键稳定。胞内区含两个串联的免疫受体酪氨酸抑制基序（ITIM），这是抑制性免疫受体的标志性信号单元。AlphaFold预测pLDDT为73.2，结合1个PDB条目（胞外V-set结构域），结构表征较为完整。
+
+经典的ITIM信号机制为：受体被配体交联/聚集后，Src家族激酶磷酸化ITIM内的关键酪氨酸残基，磷酸化的ITIM招募含SH2结构域的蛋白酪氨酸磷酸酶（SHP-1/PTPN6和SHP-2/PTPN11，STRING评分=982/807），磷酸酶随后去磷酸化下游激活信号分子（如CLEC1B和GP6/FcRγ复合体的ITAM基序），从而抑制血小板聚集和激活。这种"ITIM-ITAM拮抗"机制是免疫平衡维持的核心策略。
+
+HPA Approved的多重定位（Cytosol; Endoplasmic reticulum; Golgi apparatus; Nucleoplasm; Plasma membrane）揭示了一个引人入胜的非经典运输/信号传导路径。MPIG6B可能在内质网中合成和折叠，经高尔基体成熟后运输至血小板质膜。核质定位则可能是：（1）内质网-核膜连续性导致的核膜被动定位；（2）ITIM基序被磷酸化后触发的内吞-内体逃逸-核转位信号级联——类似于EGFR或IFNAR的核转位机制。
+
+MPIG6B在血小板生成（thrombopoiesis）中的关键角色通过人类遗传学研究得到有力支持：MPIG6B基因突变导致先天性血小板减少伴骨髓纤维化（PMID:35940081、PMID:41838173）。G6b-B调控巨核细胞成熟的一个必需步骤（PMID:35134123），其缺失导致巨核细胞分泌促纤维化因子增多，引发骨髓微环境纤维化重塑。特别值得注意的是，MPIG6B缺陷巨核细胞呈现炎性特征（PMID:40643151），提示该受体在抑制固有免疫信号中具有扩展功能——可能通过阻断TLR或炎症小体信号的异常激活。从TE调控角度，免疫受体在核质中的定位极其罕见，MPIG6B可能代表了"非经典核ITIM信号"的新类别——值得通过磷酸化蛋白质组学解析核内ITIM信号网络。
 
 **蛋白全称**: Megakaryocyte and platelet inhibitory receptor G6b
 

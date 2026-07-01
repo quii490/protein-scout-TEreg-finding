@@ -44,6 +44,19 @@ status: shortlisted
 Nuclear protein
 
 
+### 深度机制分析
+
+**核糖体相关分子伴侣复合物组分与核质功能的分离**：HSPA14（Heat shock 70 kDa protein 14, 509 aa, UniProt Q0VDF9）是核糖体相关复合物（Ribosome-associated complex, RAC）的核心Hsp70型组分。其结构域组合包括ATPase核苷酸结合域（InterPro: ATPase_NBD IPR043129）、热休克蛋白70保守位点（Heat_shock_70_CS IPR018181）和肽结合超折叠（HSP70_peptide-bd_sf IPR029047）。RAC定位于核糖体Exit隧道出口处，接收新生多肽链并辅助其折叠至天然构象——这一功能发生在胞质核糖体上，远离核质转录调控环境。
+
+**高置信度pLDDT与核质定位的不解之谜**：AlphaFold pLDDT=91.4在HSP70家族中属于中上水平，表明NBD和SBD（底物结合域）在无配体状态下折叠良好。然而，该蛋白核定位证据为5/10（HPA n/a），即无任何直接核定位实验支持。其仅有的核功能线索来自PPI互作数据：DNAJC2（STRING score=998）既是RAC复合物的J-domain辅伴侣蛋白，也被报道在核内参与染色质重塑（DNAJC2/MPP11在酵母中定位核仁，与人Pes1/Bop1/WDR12复合物互作参与rRNA加工）。若HSPA14随DNAJC2一起穿梭入核，可能作为核内核糖体新生蛋白的折叠伴侣发挥功能。
+
+**PPI与核蛋白功能的延展**：PPI degree=113（STRING/BioGRID）反映了HSPA14在HSP70超家族互作网络中的核心地位。其最强互作伙伴除了DNAJC2外，还包含HSP90AB1（STRING 822）、HSPA12B（STRING 803）、HSPA4（STRING 807）和DNAJB4（STRING 704），构成经典的热休克蛋白折叠网络。特别值得注意的共表达伙伴是DNAJB4——本次批次中DNAJB4（第30号）同为候选蛋白，若两者均在核质中被检测到，可能共同行使核内新生蛋白的质量控制功能，而这种功能可能间接涉及核内TE衍生蛋白的折叠监督。
+
+**分子伴侣与TE调控的新兴概念**：近年文献已揭示分子伴侣系统深度参与TE调控：(1) HSP90通过稳定PIWI蛋白（piRNA通路核心Argonaut蛋白）直接影响TE的转录后沉默；(2) HSP70与HSP40协同促进L1 ORF1p蛋白的正确折叠和三聚化，若无此功能L1逆转座无法完成；(3) 分子伴侣作为蛋白质量传感器，可能优先降解错误表达的TE衍生蛋白，间接保护基因组不被TE干扰。HSPA14作为RAC组分，可能识别核糖体上正在合成的TE衍生异常蛋白并靶向降解。
+
+**新颖性与实验策略**：PubMed=27的低文献量（归一化中新颖性45/50）和核定位空白使该蛋白符合探索型TE调控候选的条件。建议的实验路径：(1) 亚细胞分级+Western blot确定核定位存在与否；(2) 若核定位阳性，进行HSPA14-TE交联免疫沉淀+质谱鉴定（XL-IP-MS）寻找其核内互作伙伴；(3) CRISPR干扰HSPA14后通过RNA-seq检测TE转录组表达变化。
+
+
 ### 补充分析 (UniProt API)
 
 **蛋白全称**: Heat shock 70 kDa protein 14
@@ -78,19 +91,3 @@ Nuclear protein
 | HSPA13 | STRING | 746 |
 | HSP90AA1 | STRING | 725 |
 | DNAJB4 | STRING | 704 |
-
-
-![PAE](https://alphafold.ebi.ac.uk/files/AF-Q0VDF9-F1-predicted_aligned_error_v6.png)
-
-### PubMed 文献
-
-**PubMed count: 61**
-
-| 42201521 | A network toxicology and molecular docking study predicting putative molecular targets and pathways linking bisphenol a  | Discov Oncol 2026 |
-| 41073803 | Genomic scans for diversity and selection signatures in Indian Red Sindhi cattle. | Mamm Genome 2025 |
-| 40106884 | Identification and characterization of hsp70 gene family in Acrossocheilus fasciatus based on genome and full-length tra | Comp Biochem Physiol Part D Genomics Proteomics 2025 |
-
-### HPA IF 图像
-
-HPA 检索: https://www.proteinatlas.org/search/HSPA14
-

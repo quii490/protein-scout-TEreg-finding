@@ -130,6 +130,12 @@
 <p><strong>风险/不确定性</strong>: 1. PubMed 1 篇，研究基础极有限，功能注释不完整 2. 结构数据质量可接受</p>
 <p><strong>下一步建议</strong>:</p>
 <ul><li>[ ] 查阅最新关键文献补充研究背景</li><li>[ ] 获取 Protein Atlas IF 图像确认亚细胞定位</li><li>[ ] 设计体外实验验证核定位及潜在调控功能</li></ul>
+<h4>深度机制分析</h4>
+<p>HSBP1L1（Heat shock factor-binding protein 1-like protein 1）属于HSBP1蛋白家族。InterPro注释为IPR009643（Heat shock factor-binding protein 1-like），Pfam对应PF06825（HSBP1）。该家族的原型成员HSFBP1（HSBP1）已被表征为热休克因子（HSF）转录活性的负调控因子——HSBP1结合HSF的三聚化结构域，抑制其DNA结合活性，从而减弱热休克应答。HSBP1L1作为&quot;like&quot;家族成员，其序列与HSBP1具有同源性，但功能域可能呈简并化或新功能化（neofunctionalization）。AlphaFold v6预测整体pLDDT=88.0，高置信度残基占67.6%，有序区域占86.5%——对于一个仅74个氨基酸的小蛋白而言，这种结构置信度表明它形成了一个高度紧凑且折叠良好的球形结构域。</p>
+<p>HSBP1L1的蛋白大小（74 aa / 8.4 kDa）是该候选名单中最小的蛋白之一，甚至接近肽段量级。如此小的尺寸限制了其独立酶活性的可能性，但其完整的HSBP1-like折叠暗示其保留蛋白-蛋白相互作用的能力——可能作为HSF调控网络的竞争性抑制剂、变构调节因子或接头蛋白发挥功能。PPI网络支持这一功能模型：STRING记录HSPA4（combined score=0.655）是HSP70家族应激诱导伴侣蛋白，HSBP1L1可能通过与HSPA4互作桥接HSF-热休克蛋白信号通路。WASHC3（0.639, experimental=0.411）是WASH复合体亚基，参与内体分选和自噬。</p>
+<p>IntAct实验验证互作中，NR2F6（PMID:20195357, display technology）是核孤儿受体/转录因子，参与免疫应答调控。AGTRAP（PMID:32296183, validated Y2H）是1型血管紧张素II受体相关蛋白，介导受体信号转导。PBX4（PMID:32296183, Y2H array）是pre-B细胞白血病同源框转录因子。这些互作提示HSBP1L1可能与核激素受体和发育转录因子的调控相关。BioGRID还记录了TNIP2（TNFAIP3相互作用蛋白2，NF-κB负调控因子）的互作，进一步支持HSBP1L1在应激信号和炎症通路中的功能交集。</p>
+<p>HSBP1L1的HPA IF定位于核质（Nucleoplasm, Approved），GO-CC注释同时包含nucleus（GO:0005634）和cytosol（GO:0005829）。核质定位与小蛋白的特征一致——低于40 kDa的蛋白可通过核孔自由扩散。但HPA IF的approved可靠性提示其核质富集可能是主动保留（nuclear retention）而非被动扩散的结果——可能通过与核内蛋白（如转录因子、核受体）结合后的复合物形成来实现核内驻留。</p>
+<p>从TE调控角度看，HSBP1L1的潜在机制包括：（1）通过调控HSF/HSPA4介导的应激应答影响TE在应激条件下的转录激活——热休克应激已知激活特定TE家族（如HERV和LINE-1）的转录；（2）通过与NR2F6和PBX4等转录因子的互作间接参与TE衍生调控元件的转录调控；（3）作为小分子蛋白接头，整合应激信号与核转录调控。其极端的研究新颖性（PubMed strict=1篇）、高置信度结构、明确的核定位和与应激-转录调控的机制关联，使其成为TE调控研究中一个高风险高回报的候选靶点。</p>
 <h4>PPI 互作网络</h4>
 <div class="table-wrap"><table>
 <thead><tr><th>互作伙伴</th><th>来源</th><th>评分</th></tr></thead><tbody>

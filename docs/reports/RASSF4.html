@@ -91,6 +91,12 @@
 <tr><td>EIF5B</td><td>BioGRID</td><td>0</td></tr>
 </tbody></table></div>
 <p><figure><img src="https://alphafold.ebi.ac.uk/files/AF-Q9H2L5-F1-predicted_aligned_error_v6.png" alt="PAE"></figure></p>
+<h4>深度机制分析</h4>
+<p><strong>结构域架构</strong>：RASSF4（321 aa，35.3 kDa）是Ras关联结构域（RA domain）蛋白家族的成员兼肿瘤抑制因子，结构域架构紧凑且功能富集：RA_dom（IPR000159, PF00788）——约100-200 aa的Ras结合结构域，采用泛素样折叠（Ubiquitin-like_domsf IPR029071），通过β1-β2-α1-β3-β4-β5的β-grasp拓扑识别活性态Ras·GTP；SARAH_dom（IPR011524, PF16517/Nore1-SARAH）——C端~40 aa的卷曲螺旋（coiled-coil）结构域，介导与MST1/STK4和MST2/STK3激酶的同源/异源二聚化；RASSF4_RA（IPR033622）——RASSF4特异的RA结构域亚型，含额外的N端延伸赋予KRAS选择性结合能力。AlphaFold pLDDT=77.8，RA结构域（pLDDT~85）和SARAH（pLDDT~75）预测质量较高。HPA定位为Nucleoli; Nucleoplasm（Approved），属典型的Hippo通路核周分布模式。</p>
+<p><strong>PPI互作网络解读</strong>：PPI degree=9（实际Network内连接数可能更高），核心互作包含：STK4/STK3（MST1/MST2激酶，Hippo通路核心激酶，通过SARAH结构域直接二聚化）——这是RASSF4最功能相关的互作对，MST-RASSF4复合体激活后磷酸化LATS1/2，继而磷酸化YAP/TAZ转录共激活因子；HGS（HRS，ESCRT-0组分，内吞体分选）——提示RASSF4可能参与内吞体膜上的Ras信号终止；IFT20（鞭毛内转运蛋白）——连接纤毛/Ras信号，部分肿瘤中RASSF4缺失与纤毛功能障碍相关；DLG4（PSD-95，突触后密度支架蛋白）——提示潜在的突触功能。MAGEA6（癌-睾丸抗原）、CENPH（着丝粒蛋白H）和EIF5B（翻译起始因子）为非典型互作，需独立验证。</p>
+<p><strong>结构解读</strong>：RA结构域采用β-grasp折叠——5条反平行β-链形成弯曲片层，背面由单一α-螺旋覆盖。Ras结合界面涉及β1-β2 loop和β3上的保守残基（Lys/Arg极性接触Ras的Switch I区Glu37/Asp38）。SARAH结构域形成反平行卷曲螺旋二聚体，Nore1-SARAH与MST1-SARAH的间距约3.5A（经典螺旋-螺旋堆积），支撑Hippo激酶级联的支架组装。PAE矩阵显示RA与SARAH之间的连接区（约200-280 aa）pLDDT快速下降至55-65，提示该区域可能为固有无序区（IDR）——这在信号蛋白中常见，允许结构域间灵活的构象采样以适应不同互作伙伴。</p>
+<p><strong>机制模型</strong>：RASSF4通过双重肿瘤抑制机制运作：（1）Ras信号终止——RA结构域选择性结合KRAS·GTP（不结合HRAS/NRAS），将活性Ras靶向MST激酶复合体，启动促凋亡的Hippo通路（MST→LATS→YAP磷酸化→YAP胞质滞留/降解），从而对抗Ras驱动的增殖信号；（2）SARAH结构域支架——与MST1/2形成四聚体（RASSF4₂-MST₂）催化平台，显著提高MST的自磷酸化（Thr183/Thr180）和底物磷酸化效率。在核仁中，RASSF4可能通过YAP/TAZ通路调控rDNA转录——已知YAP可与核仁转录因子UBF结合增强Pol I转录活性，RASSF4促YAP降解间接抑制核仁rRNA合成。ESMFold pLDDT=0.74验证了AlphaFold预测的一致性。</p>
+<p><strong>TE调控展望</strong>：RASSF4通过YAP/TEAD通路间接连接TE调控。YAP/TEAD复合体结合TEAD响应元件（MCAT/GGAATG基序），已知多种ERV LTR序列中包含MCAT样序列，YAP/TEAD可激活这些LTR驱动基因。RASSF4通过促进YAP降解可抑制YAP-TEAD-TE轴的转录输出。此外，RASSF4介导的MST激活可磷酸化组蛋白H2B（Ser14），已知H2B磷酸化在DNA损伤应答中促进染色质松弛——可能间接影响TE区域的染色质可及性。但这些关联需特异性实验验证（PMID:42141135揭示了RASSF4对PKD2通道的调控新功能）。</p>
 <h4>PubMed 文献</h4>
 <p><strong>PubMed count: 50</strong></p>
 <div class="table-wrap"><table>

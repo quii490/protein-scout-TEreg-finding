@@ -97,7 +97,11 @@ HPA: https://www.proteinatlas.org/ENSG00000127084-FGD3
 | 42271337 | FGD3 as a prognostic and immunological biomarker: a pan-cancer analysis of its role in tumor progression and the immune  | Cancer Cell Int 2026 |
 | 42192951 | A Zinc Finger Protein-Based Prognostic Model in Lung Adenocarcinoma Identifies FGD3 as a Marker Associated with Lorlatin | Cancers (Basel) 2026 |
 
-### HPA IF 图像
+### 深度机制分析
 
-HPA 检索: https://www.proteinatlas.org/search/FGD3
+FGD3（725 aa, 79.4 kDa）是一个多结构域RhoGEF（鸟苷酸交换因子），其结构域架构从N端到C端依次为：DH（Dbl同源）结构域（IPR000219）、PH（pleckstrin同源）结构域（IPR011993和IPR001849，含两个PH类似折叠）和FYVE锌指结构域。这种DH-PH-FYVE的三联体组合是含FYVE结构域的GEF家族的典型特征。DH结构域催化GDP/GTP交换以激活Rho家族小GTPase（特别是CDC42），PH结构域辅助膜定位（结合PIPs），而FYVE锌指选择性结合磷脂酰肌醇-3-磷酸（PI3P）引导蛋白至早期内体膜。AlphaFold预测pLDDT=68.6，整体结构含有较多柔性区域，但各折叠结构域的核心置信度尚可。
+
+FGD3的主要生化功能是激活CDC42以促进丝状伪足（filopodia）形成，从而调控肌动蛋白细胞骨架重塑和细胞形态。PPI网络（BioGRID degree=13）中，与BTRC（E3泛素连接酶亚基）和DDX39A（DEAD-box RNA解旋酶）的互作提示FGD3可能在蛋白降解和RNA代谢层面存在额外的非经典功能。与ARHGAP22（RhoGAP，负调控Rho信号）的互作则意味着FGD3的GEF活性可能受到GAP蛋白的拮抗性微调。
+
+HPA将FGD3定位为Cytosol; Nucleoplasm（Approved级别），这与多个GEF蛋白可在胞质和核质之间穿梭的报道一致。核内的RhoGEF可能在核内肌动蛋白动力学、染色质重塑复合物组装或RNA聚合酶II转录调控中发挥作用。文献提示FGD3作为乳腺癌新预后因子（PMID:32620603；PMID:31645624），且近期pan-cancer分析（PMID:42271337）揭示了其在肿瘤进展和免疫微环境中的广泛作用。在TE调控方面，FGD3的核定位可能使其通过以下机制间接影响TE：激活核内CDC42→调控核肌动蛋白网络→影响染色质结构域的空间组织→改变TE位点的表观遗传状态。考虑到FGD3在细胞骨架-核骨架（LINC复合物）信号转导中的潜在位置，核膜-胞质机械力耦合可能成为TE调控的新维度。
 

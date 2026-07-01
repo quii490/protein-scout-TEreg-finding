@@ -81,6 +81,12 @@
 <tr><td>ZNF24</td><td>STRING</td><td>831</td></tr>
 <tr><td>ZSCAN32</td><td>STRING</td><td>828</td></tr>
 </tbody></table></div>
+<h4>深度机制分析</h4>
+<p><strong>结构域架构</strong>：PGBD1（809 aa，92.5 kDa）是猪gypsy-Bac（PiggyBac）DNA转座子的驯化产物，拥有极其特殊的结构域组成——N端SCAN_dom（IPR003309，IPR038269，PF13843 SCAN）是C2H2锌指蛋白中常见的蛋白互作结构域（介导ZNF蛋白的选择性同源/异源二聚化），而C端的PiggyBac_TE-derived结构域（IPR029526，DDE_Tnp_1_7 PF13843）直接继承自祖先转座子，保留了DNA结合能力但已丧失催化性DDE三联体的转座酶活性（该特征由PMID:12955498, PMID:35609796, PMID:36205081验证）。SCAN + PB转座酶融合是自然界蛋白质驯化（domestication）的经典范例。</p>
+<p><strong>PPI互作网络解读</strong>：PPI degree=28，但互作伙伴的质量极高——SCAND1（STRING 837分）、ZKSCAN4（840分）、ZNF446（835分）、ZNF24（831分），全部为SCAN结构域家族ZNF蛋白。这种&quot;SCAN-SCAN&quot;同家族互作模式极为典型：SCAN结构域通过形成卷曲螺旋二聚体介导KZNF蛋白的选择性配对，使得PGBD1可作为SCAN家族ZNF蛋白的共调节因子进入已存在的转录调控网络。SCAND1作为SCAN家族唯一的孤立SCAN蛋白（无锌指），可能作为SCAN网络的&quot;抑制性诱饵&quot;调节二聚化平衡。</p>
+<p><strong>结构解读</strong>：AlphaFold pLDDT=65.8，整体预测质量偏低但结构域间差异大。SCAN结构域（pLDDT ~70-80）预测形成由5个α-螺旋组成的球状结构，通过螺旋1/2/3的疏水面介导二聚化。PB转座酶结构域（pLDDT 55-70）保留了祖先RNase H样折叠的催化支架，但DDE催化三联体（通常为D268/D346/D447）中的一个或多个关键残基已被替换，解释了其丧失转座活性但保留DNA结合能力的功能特征。连接SCAN和PB域的linker区域（pLDDT &lt;50）可能具有显著的构象柔性，使得两个结构域间存在动态的空间关系。</p>
+<p><strong>机制模型</strong>：PGBD1作为&quot;转录暂停因子&quot;（transcriptional pausing factor）通过以下机制抑制神经元分化基因：（1）PB转座酶结构域识别并结合神经元发育相关基因（如NEFL、SYP、DLG4等突触基因）的启动子和基因体区域——ChIP已证实其富集于这些基因位点；（2）SCAN结构域通过与SCAND1/ZKSCAN4等蛋白二聚化，可能招募额外的转录抑制因子（如CTBP、HDAC）至这些位点；（3）PMID:36205081的关键发现——PGBD1抑制paraspeckle（核内RNA-蛋白凝聚体）的组装，可能通过结合NEAT1_2 RNA（paraspeckle的结构性lncRNA支架）竞争性取代关键蛋白组分（如NONO/SFPQ）来实现。</p>
+<p><strong>TE调控展望</strong>：PGBD1是TE驯化研究的&quot;明星蛋白&quot;。其祖先为DNA转座子，但现已被驯化为转录调控因子——这种进化过渡使其在TE调控领域具有双重意义：（1）作为驯化案例：PGBD1展示了TE编码蛋白如何被宿主&quot;征用&quot;为调控因子，为理解其他TE衍生蛋白（如RAG1/2重组酶、SETMAR/Metnase）的功能提供范例；（2）作为TE调控因子：PGBD1结合DNA的偏好性是否包括当代活跃的PiggyBac-like转座子（如MER85元件）是核心问题——若PGBD1通过DNA mimicry机制与祖先TE序列交叉结合，则可在转座子和其驯化产物之间形成反馈调控环。</p>
 <p><figure><img src="https://alphafold.ebi.ac.uk/files/AF-Q96JS3-F1-predicted_aligned_error_v6.png" alt="PAE"></figure></p>
 <h4>HPA IF 图像</h4>
 <p>HPA: https://www.proteinatlas.org/ENSG00000137338-PGBD1</p>

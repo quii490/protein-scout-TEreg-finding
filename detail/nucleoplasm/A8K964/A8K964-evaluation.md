@@ -52,6 +52,16 @@ TrEMBL unreviewed entry, function not fully annotated.
 
 no known nuclear annotation
 
+### 深度机制分析
+
+A8K964编码Pinin（DRS蛋白/Desmosome-associated protein）的TrEMBL变体，其结构域架构以两个保守功能模块为特征：N端Pinin/SDK结构域（IPR039853、IPR006786、Pfam PF04696）参与细胞间粘附和上皮完整性维持，C端Pinin/SDK保守区域（IPR006787、Pfam PF04697）可能介导与桥粒蛋白或核内斑（nuclear speckle）组分的相互作用。717 aa（78.9 kDa）的大分子量使其具备多功能互作的空间能力。
+
+AlphaFold预测结构可用但缺乏实验PDB验证（归一化结构得分6/10）。该蛋白作为TrEMBL未审阅条目，PubMed=0且PPI数据有限。然而，基于Swiss-Prot中Pinin的已知功能，其核心互作伙伴包括CTNND1（p120-catenin）、DSG2（桥粒芯蛋白）、SFRS2/SC35（剪接因子）和SRRM1（核斑蛋白）——Pinin是少数位于桥粒黏着连接和核内斑处的双定位蛋白，通过在细胞间接触与基因表达调控之间建立物理连接。
+
+TE调控相关性的机制推论尤为特殊：Pinin在核内斑（nuclear speckle）中的定位暗示其可能参与mRNA剪接和加工，而剪接因子与转录延伸的耦合是TE嵌入后产生异常转录本的主要决定因素。若Pinin通过SFRS2/SC35或SR蛋白影响剪接体组装，其可能间接调控包含TE衍生外显子的pre-mRNA加工命运。此外，Pinin在上皮-间充质转化（EMT）中的角色与Wnt/beta-catenin通路的连接提示其可能影响染色质构象和增强子-启动子环化，从而改变TE衍生增强子的活性。
+
+然而，该TrEMBL变体缺少GO-CC核定位注释（核定位特异性仅4/10），且目前无直接实验数据支持其TE调控相关功能。归一化总分67.8/100，TE调控潜力评分低。若未来研究能在细胞核内确认Pinin定位并建立其与剪接因子/核内斑的直接互作关系，该蛋白的双位定位特性和EMT-TE调控的连接将成为引人注目的进一步研究方向。
+
 ### 4. 总体评价
 
 **推荐等级**: ⭐⭐ (2/5)

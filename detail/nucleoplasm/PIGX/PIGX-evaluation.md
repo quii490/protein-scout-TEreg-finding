@@ -217,3 +217,16 @@ Source: https://www.proteinatlas.org/ENSG00000163964-PIGX/interaction
 
 未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+### 深度机制分析
+
+PIGX编码GPI-alpha-1,4-mannosyltransferase I稳定亚基（258 aa, 28.8 kDa），属于GPI锚生物合成途径的PIG家族。其唯一已知结构域为PF08320（GPI mannosyltransferase I稳定亚基，InterPro: IPR013233/IPR040039），位于GPI生物合成的多亚基复合体中。AlphaFold v6预测的整体pLDDT为84.3，有序区域（pLDDT>70）占比82.2%，表明该蛋白在孤立状态下折叠可靠；但PAE图提示其单独存在时可能缺乏完整的活性构象，依赖于与催化亚基PIGM（STRING combined score=0.995）的异源二聚化以获得功能构象的稳定。值得注意的是一端约13.2%的低置信区域（pLDDT<50）可能为无固定结构的连接区或蛋白互作界面，在复合体形成后发生折叠转变。
+
+PPI网络分析揭示PIGX的核心互作圈围绕GPI生物合成（PIGM, score=0.995）和翻译机器（VARS1, EPRS1, MRPS15, MRPS14, RPL11, EIF5B等氨酰tRNA合成酶及核糖体蛋白）展开。IntAct实验验证的互作包括M蛋白（anti-tag CoIP, PMID:33208464）和CHRM3（anti-tag CoIP, PMID:28514442），但缺乏直接支撑GPI复合体组装的实验结构。STRING 15个预测互作中，调控相关占比为0%，提示PIGX不属于经典的转录或染色质调控网络，其进入核质（HPA Nucleoplasm, approved）可能是被动扩散或与其在ER膜上的生物合成角色相关的运输中间态，而非功能性核滞留。
+
+PIGX的研究极度新颖（PubMed strict=11篇），目前功能注释主要来自Serratia细菌中同名基因PigX的GGDEF/EAL结构域蛋白研究（PMID:17766413），与人类PIGX在序列和功能上无直接同源关系。人类PIGX的独立文献集中在癌症背景下的表达相关性：PIGX复合体通过抑制EHD2和ZIC1（推定的肿瘤抑制因子）促进癌细胞增殖（PMID:27572108），以及东亚非吸烟者肺腺癌中的胚系突变筛查（PMID:37197646）。这些观察提示PIGX可能通过GPI锚修饰间接影响细胞表面信号分子的锚定，进而调控增殖信号，但目前尚无该蛋白直接参与转录调控或TE沉默的实验证据。
+
+从机制推断角度，如果PIGX在核质中的定位具有功能意义，最合理的假设是其参与核膜或核质侧GPI锚中间体的加工。GPI锚前体在ER胞质面合成后需翻转至腔内，核质定位可能反映PIGX在核膜-ER连续体上的空间分布。此外，PIGX与VARS1、EPRS1等翻译机器的紧密共进化关联（STRING score>0.5）暗示其合成速率可能与细胞翻译状态偶联，作为GPI锚生物合成的限速调控节点。验证核质PIGX功能的关键实验包括：核质分离western blot确认核富集程度、CRISPR敲除后GPI锚定蛋白的表面表达谱变化、以及ChIP-seq排除直接的染色质结合。
+
+综合评估，PIGX作为GPI锚生物合成的辅助亚基，具备极度新颖性（11篇文献）和可接受的结构质量（pLDDT=84.3），但核定位信号较弱（HPA Nucleoplasm + ER membrane），且无染色质调控结构域或转录调控相关PPI。其在TE调控中的潜力有限，更值得关注的方向是GPI锚修饰异常如何通过改变细胞表面信号分子库间接影响肿瘤微环境或发育过程中的细胞命运决定。
+

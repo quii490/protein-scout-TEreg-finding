@@ -43,7 +43,15 @@ status: shortlisted
 Nuclear protein
 
 
-### 补充分析 (UniProt API)
+### 深度机制分析
+
+RAB11FIP2（Rab11 family-interacting protein 2）是512个氨基酸的RAB11效应蛋白，属于RAB11FIP家族（FIP1-FIP5）的核心成员。其多结构域架构体现为：一个C端C2结构域（IPR000008/C2_dom）负责磷脂结合，中间区域的螺旋束形成Rab11结合域（FIP-RBD_C_sf, IPR037245），N端则富含预测的内在无序区。C2结构域是经典的Ca2+依赖性磷脂结合模块，采用β-三明治折叠，含3个Ca2+配位环——但RAB11FIP2的C2结构域进化出优先识别磷脂酰肌醇-3,4,5-三磷酸（PtdInsP3）和磷脂酸（PA）而非Ca2+依赖性膜招募。AlphaFold预测pLDDT为61.5，较低的置信度主要源于N端大的IDR区段——这些柔性区域可能作为分子海绵招募多价互作伙伴。
+
+Rab11结合域的RBD-FIP（PF09457）采用独特的全α-螺旋折叠，以不同于经典Rab效应蛋白（如Rabaptin、Rabenosyn）的方式识别Rab11。这种"非经典Rab效应蛋白"结合模式赋予RAB11FIP2在回收内体（recycling endosome）膜上形成功能性hub的能力。PPI网络（degree=81）中与RAB11FIP3（STRING=965）和RAB11FIP5（STRING=953）的强互作暗示FIP蛋白在回收内体表面形成动态的异源寡聚体——不同FIP蛋白的组合决定了回收膜泡的靶向目的地（质膜vs高尔基体vs胞内特定区域）。
+
+HPA Supported的核质定位（Nucleoplasm; Vesicles）是该蛋白最令人困惑的特征——作为一个经典的胞质膜运输蛋白，其在核质中的存在是如何实现的？可能机制包括：（1）RAB11FIP2的IDR区域含有不被经典算法识别的核定位信号；（2）与MYO5B/REPS1等马达蛋白的互作使其沿细胞骨架被主动运输至核周，随后通过核孔扩散入核；（3）细胞周期依赖性的核膜破裂-重建过程中残留在核内。核内的RAB11FIP2可能参与核膜处回收内体-核孔复合体接触位点的形成，或调节胰岛素颗粒的分泌——这些过程在有丝分裂后的核膜重建中至关重要。
+
+最新发表的关键发现——GTPase Rab11b和效应因子Rab11-FIP2促进NLRP3炎症小体在priming阶段的蛋白质稳定性（PMID:41882227）——揭示了RAB11FIP2在先天免疫中的全新功能维度。RAB11FIP2通过防止蛋白酶体降解维持NLRP3蛋白水平，这一功能可能与Vesicles>Nucleoplasm的定位动态变化相关。从TE调控角度来看，虽然RAB11FIP2本身为非经典候选，但其作为膜运输-先天免疫-核质的连接枢纽，可能间接影响CGAS-STING通路对逆转录转座子来源胞质DNA的感知——这是TE调控研究中一个极富前景的间接作用模式。
 
 **蛋白全称**: Rab11 family-interacting protein 2
 

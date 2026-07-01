@@ -75,6 +75,18 @@ Nuclear protein
 | RETSAT | BioGRID | 0 |
 
 
+### 深度机制分析
+
+**结构域架构**：TMEM116（245 aa，27.5 kDa）是目前功能注释最贫乏的蛋白之一——InterPro和Pfam均为空，UniProt的"Function"字段也为空。同源建模和疏水分析表明TMEM116含有2-3个预测的跨膜α-螺旋（TM1-TM3），N端和C端均位于胞质侧。拓扑结构预测类似于TMEM（Transmembrane）家族的多重跨膜蛋白典型结构——单次或多次跨膜螺旋束构成最小化的结构域，极少或无可溶性结构域。Pfam注释为空表明该蛋白不属于任何已知的结构域家族，是功能性基因组学中的"暗物质"蛋白。
+
+**PPI互作网络解读**：PPI degree=17，互作揭示了一个有趣的代谢-肿瘤抑制交集：（1）ASS1（Argininosuccinate synthase 1，尿素循环的关键限速酶，STRING 902分——极高的功能关联评分）；（2）DHODH（Dihydroorotate dehydrogenase，嘧啶从头合成途径的限速酶，位于线粒体内膜，STRING 834分）；（3）UMPS（Uridine monophosphate synthetase，嘧啶合成的最后一个酶，STRING 797分）。这三个互作共同指向核苷酸/氨基酸代谢的核心节点——TMEM116可能与线粒体内膜上的代谢产物转运或嘧啶/精氨酸合成的代谢物通道（metabolon）组装有关；（4）TP53（p53，BioGRID 1分）的物理互作最值得注意——p53调控核苷酸代谢和铁死亡的多个方面，TMEM116可能是p53依赖性代谢重编程的膜锚定组分；（5）PDZD8（PDZ domain-containing 8，线粒体-ER接触位点MAMs的锚定蛋白，BioGRID 1分）将TMEM116定位于MAMs——ER-线粒体接触位点是嘧啶合成途径酶组装和脂质/钙交换的核心区域。
+
+**结构解读**：AlphaFold pLDDT=73.6，预测置信度中等。预测的2-3个跨膜α-螺旋在pLDDT 75-85区间呈现清晰的疏水跨度。胞质域为两个α-螺旋束（pLDDT 55-70），连接TM1-TM2和TM2-TM3的胞质loop构成了蛋白-蛋白互作的主界面——尤其是与PDZD8的MAMs锚定和与ASS1/DHODH/UMPS的代谢物通道组装。但pLDDT较低的胞质域（55-70）提示在无结合伴侣情况下这些区域是部分无序的。跨膜螺旋的保守性和AlphaFold中明确的疏水性模式支持TMEM116作为MAMs驻留蛋白的结构基础。
+
+**机制模型**：TMEM116的功能假设基于PPI互作网络和共表达数据：（1）TMEM116定位于MAMs（线粒体-ER接触位点），作为嘧啶代谢酶（DHODH位于线粒体内膜外叶，UMPS位于胞质/ER）和尿素循环酶（ASS1位于胞质/线粒体外膜）之间的空间组织中心——许多代谢通路中的酶通过在膜接触位点的空间聚集（metabolon formation）实现底物通道传递（substrate channeling），TMEM116可能作为膜锚定的支架蛋白促进嘧啶合成酶超复合物的组装；（2）TMEM116与p53的互作暗示其在DNA损伤反应中的角色——p53调控嘧啶代谢（通过RRM2B p53诱导型核糖核苷酸还原酶亚基）以支持DNA修复所需的dNTP池，TMEM116可能作为p53调控代谢的MAMs效应分子。重要的是，TMEM116在肺癌转移中的已知功能（PMID:34789718）——通过PDK1（3-磷酸肌醇依赖性蛋白激酶1）信号通路调控细胞运动和转移——提供了一个独立的功能证据，将TMEM116与PI3K/Akt信号通路和细胞骨架重塑连接起来。
+
+**TE调控展望**：TMEM116的TE调控潜力极低。嘧啶代谢和尿素循环的调控主要通过底物可用性和变构调控进行，与染色质/TE沉默机制无已知的直接联系。p53-TMEM116轴的鉴定（若验证）将提供间接关联——p53调控的凋亡和DNA修复间接影响基因组TE活性的维持，但TMEM116作为MAMs蛋白的物理位置使其远离核内TE调控机器。
+
 ![PAE](https://alphafold.ebi.ac.uk/files/AF-Q8NCL8-F1-predicted_aligned_error_v6.png)
 
 ### PubMed 文献

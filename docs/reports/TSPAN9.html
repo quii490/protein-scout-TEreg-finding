@@ -159,7 +159,13 @@
 <thead><tr><th>Partner</th><th>Datasets</th><th>AF3/HPA structure</th></tr></thead><tbody>
 <tr><td>EVA1B</td><td>Bioplex</td><td>false</td></tr>
 </tbody></table></div>
-<p>&lt;!-- DOMAIN_HUMANPPI_REPAIR_END --&gt;</p></article></main>
+<p>&lt;!-- DOMAIN_HUMANPPI_REPAIR_END --&gt;</p>
+<h4>深度机制分析</h4>
+<p>TSPAN9（Tetraspanin-9, 239 aa, 26.8 kDa）属于四跨膜超家族（tetraspanin family, InterPro: IPR018499, IPR000301, IPR018503），以四个跨膜螺旋和两个胞外环为拓扑特征。四跨膜蛋白不具酶活性，而是通过与整合素、免疫球蛋白超家族成员和其他四跨膜蛋白形成富含四跨膜蛋白的微区（tetraspanin-enriched microdomains, TEMs），充当膜组织者（membrane organizers）。AlphaFold v6预测的pLDDT高达89.6，有序区域占比93.7%，仅0.4%残基低于pLDDT 50——这是极度高质量的预测结构（共4个跨膜螺旋形成紧密的束状结构，胞外环区折叠明确）。无实验PDB结构。</p>
+<p>TSPAN9的PPI网络主要围绕四跨膜家族成员展开：CD9（combined score=0.761, 实验验证）、CD151（0.527）、CD63（0.515）、TSPAN15（0.493）、TSPAN32（0.715），以及与整合素beta1（ITGB1, 0.603）的直接或间接互作。IntAct实验验证的互作包括：EVA1B（anti-tag CoIP, PMID:33961781）、TSC22D3（virotrap, PMID:37316325）和来自CLASH数据的RNA-蛋白互作（PMID:23622248）。在这些互作中，TSC22D3（glucocorticoid-induced leucine zipper, GILZ）与TSPAN9的结合（virotrap法, PMID:37316325）具有格外重要的功能含义——GILZ是糖皮质激素信号下游的强效抗炎转录因子，通过与NF-kappaB和AP-1竞争结合而抑制促炎基因表达。</p>
+<p>TSPAN9的核定位信号较弱但不可忽视：HPA IF检测到Nucleoplasm（approved），同时标注Golgi apparatus和额外胞质信号；UniProt未注释核定位（仅标注Membrane），GO-CC被富集到tetraspanin-enriched microdomain、focal adhesion、plasma membrane和migrasome。核质的四跨膜蛋白定位在文献中偶有报道——部分tetraspanin可在特定信号条件下从质膜内化并转运至核膜/核质。此现象提示TSPAN9可能不具有传统的核定位信号（NLS），而是通过胞吞-核周转运路径部分进入核质。</p>
+<p>从TE调控机制角度，TSPAN9参与TE抑制的可能性非常间接。首要通路是通过TSPAN9-TSC22D3（GILZ）互作调节糖皮质激素响应——糖皮质激素是ERV/LTR元件（特别是含有糖皮质激素响应元件GRE的元件）的已知转录调节因子。TSPAN9若调节GILZ的可利用性或核转运，将间接影响糖皮质激素诱导的TE转录应答。其次，TSPAN9在肝细胞癌中抑制恶性进展（PMID:40792132），通过诱导EMT并激活FAK-Ras-ERK1/2通路促进骨肉瘤转移（PMID:35280793），以及加重心肌肥厚（PMID:40406987），提示其在多个病理背景下的信号调节功能。BioGRID捕获的互作包括一些RNA结合蛋白（ELAVL1, HNRNPL, HNRNPH1），暗示其可能参与RNP的组装或运输，潜在影响TE衍生RNA的命运。</p>
+<p>综合评估，TSPAN9的结构质量极高（pLDDT=89.6），研究新颖性优秀（31篇），可作为tetraspanin家族在TE-免疫交叉调控中的工具蛋白进行研究。但其作为典型膜蛋白的核质定位信号基础不足，建议优先进行核质分离western blot确认核富集，再进行相关的功能验证实验。</p></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

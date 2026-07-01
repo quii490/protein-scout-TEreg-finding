@@ -105,3 +105,16 @@ HPA: https://www.proteinatlas.org/ENSG00000139625-MAP3K12
 
 HPA 检索: https://www.proteinatlas.org/search/MAP3K12
 
+
+### 深度机制分析
+
+MAP3K12（Mitogen-activated protein kinase kinase kinase 12, 又名DLK/Dual leucine zipper kinase）是MAPK信号级联中的上游MAP3K，属于非经典MAPK通路的重要组成部分。结构层面，该蛋白由激酶催化结构域（InterPro:IPR011009, Kinase-like_dom_sf, Pfam:PK_Tyr_Ser-Thr, PF00069）以及MAP3K12/MAP3K13特异的调控结构域（IPR017419, IPR027257, MAPKKK12）构成。859个氨基酸使该蛋白含有大量调控序列——激酶催化结构域（约250-300 aa）仅占总长的约三分之一，其余为N端延伸区和C端调控模块。AlphaFold预测pLDDT=59.3偏低，这主要是由于大量内在无序区段（IDRs）在催化域两侧的延伸所致，但催化结构域本身拥有12个PDB实验结构支持——这是所有评估蛋白中PDB条目数最高的记录之一，说明其激酶活性中心的实验结构已得到充分解析。
+
+MAP3K12的信号传递路径为：上游信号（如APOE结合）→MAP3K12（DLK）激活→MAP2K7（MKK7）磷酸化→MAPK1/ERK2和MAPK3/ERK1磷酸化→AP-1转录因子活化→APP转录（PubMed:28111074）。这是一条完全从细胞膜（APOE受体）到核内（AP-1响应元件）的信号链，MAP3K12处于其上游节点。同时，MAP3K12也可激活JNK/SAPK应激信号通路。PPI互作网络（degree=22）全部来自BioGRID实验记录（score=0，最低置信度），核心伙伴包括MAPK8IP1/JIP1和MAPK8IP2/JIP2（JNK相互作用蛋白，支架蛋白）、MAP2K7/MKK7（直接磷酸化底物）、MBIP（MAP3K12结合抑制蛋白）以及EGFR（表皮生长因子受体，上游激活信号）。
+
+MAP3K12在神经退行性疾病中占据核心位置。PMID:42161275的关键发现揭示了ATF2（activating transcription factor 2）的磷酸化是神经元凋亡的核心转录驱动因子——而MAP3K12是磷酸化ATF2的上游激酶之一。HTT（huntingtin）与RAB7共迁移逆行信号体（retrograde signalosomes）的机制（PMID:36048753）进一步表明MAP3K12在神经元逆行运输和营养信号传导中的角色。PMID:38852762将肠道微生物-脑轴与MAPK信号联系起来，发现社交恐惧消退易感性与肠道菌群组成及MAP3K12表达水平相关。PMID 41598933在BmN细胞杆状病毒感染早期转录组动态中鉴定出MAPK基因家族的差异表达。PMID 42112758通过整合临床和计算数据，将econazole定位为MAP3K12相关自噬通路的新激活剂。
+
+核定位方面，MAP3K12在HPA中显示Nucleoplasm和Plasma membrane（Approved），碳化-膜双定位是其作为信号转导激酶的经典特征——细胞膜激活后转位至核，磷酸化核内转录因子或转录辅因子以调控基因表达。综合来看，MAP3K12的深度机制模型为：PK_Tyr_Ser-Thr催化激酶结构域→APOE/EGFR上游信号→MAP2K7/MAPK1/3级联磷酸化→AP-1/ATF2转录激活→神经元凋亡/自噬/社交行为调控。该蛋白通过MAPK信号级联间接调控下游转录因子和基因表达程序，虽具有HPA核定位Approved支持，但作为TE直接沉默/激活因子的角色不明确（TE调控评估：极低）。
+
+
+

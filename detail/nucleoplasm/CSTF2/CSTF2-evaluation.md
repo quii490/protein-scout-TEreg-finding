@@ -80,6 +80,16 @@ HPA IF images not reliably obtained (no subcellular IF images available on HPA s
 | PCF11 | STRING | 991 |
 
 
+### 深度机制分析
+
+CSTF2（Cleavage stimulation factor subunit 2）是mRNA前体3'末端加工机器的核心组分。其结构域架构包含两个关键RNA结合模块和一个C端蛋白-蛋白互作模块：N端RRM型RNA识别基序（UniProt FT: 16-94aa, SMART SM00360, Pfam PF00076）负责直接结合pre-mRNA的U/GU-rich下游序列元件（DSE）；C端（531-577aa）构成与CSTF1/CSTF3互作的对接平台。两者之间的约400个氨基酸区域富含InterPro注释的IPR025742、IPR026896、IPR038192和IPR012677（Nucleotide-binding alpha-beta plait domain），构成多个RNA结合超二级结构单元。AlphaFold v6预测整体pLDDT=59.8，为中等置信度——这在富含RNA结合域的蛋白中并不少见，因为RRM域在未结合RNA时常表现为构象柔性和动态性。实验NMR结构已有4个条目（1P1T, 2J8P, 6Q2I, 6TZE），分别覆盖N端和C端折叠域。
+
+CSTF2的分子机制已通过生物物理和生化手段深入表征：该蛋白通过RRM结构域以静电相互作用驱动的方式结合pre-mRNA的DSE序列（PMID:35090899, Biophysical Journal, 2022），其结合特异性决定了CSTF复合体对poly(A)位点的选择。CSTF2是前体mRNA切割和聚腺苷酸化特异因子（CPSF）与切割刺激因子（CSTF）协同网络中不可或缺的亚基。PPI网络极强地支持这一功能角色：STRING记录的所有高置信度互作均为mRNA 3'加工机器组分——CPSF3（0.999）、CSTF3（0.999）、SYMPK（0.999）、CPSF2（0.999）、CSTF1（0.999）、CPSF1（0.998）、CPSF4（0.997）、CPSF6（0.992）、PCF11（0.991）、FIP1L1（0.990）。这种高度收敛的PPI图谱是典型的核心分子机器亚基的特征。
+
+近年研究揭示了CSTF2在癌症生物学中的重要角色。CSTF2介导的mRNA m6A修饰失调驱动胰腺导管腺癌m6A亚型分类（PMID:37816727, Nature Communications, 2023），而其在肝细胞癌中通过使PGK1逃避m6A修饰以增强糖酵解，支持缺氧耐受（PMID:39514400, Cancer Research, 2025）。最引人注目的是，CSTF2阻碍先天αβ T细胞浸润和活化，加剧胰腺癌的免疫逃避（PMID:39972059, Cell Death and Differentiation, 2025）。这些研究将CSTF2从一个"管家"3'加工因子重新定义为一个有选择性地调控特定靶基因表达和表观转录组的调控因子。
+
+CSTF2的TE调控潜力来源于其多重功能交叠：（1）作为mRNA 3'加工因子，异常的poly(A)位点选择可能导致TE衍生的隐蔽poly(A)信号被异常激活，产生嵌合TE-宿主转录本；（2）通过m6A修饰调控分子间接影响TE转录本的稳定性和翻译；（3）HPA IF定位于核质和核体（Nuclear bodies, Enhanced），核体是mRNA加工和保留的场所，可能也是TE RNA的命运决定位点。PubMed strict=46篇确保了充分的研究空间（非零基础但远未饱和），核定位评分达9/10（最高之一），使其成为TE转录后调控研究中一个机制清晰的强候选因子。
+
 ### TE 调控评估
 
 该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。

@@ -43,6 +43,17 @@ status: shortlisted
 Nuclear protein
 
 
+### 深度机制分析
+
+**线粒体核苷酸激酶的核质救援功能**：CMPK2（UMP-CMP kinase 2, mitochondrial, 449 aa, UniProt Q5EBM0）是线粒体dNTP补救合成途径的关键激酶，催化(d)CMP和(d)UMP的磷酸化产生(d)CDP和(d)UDP（PMID:17999954）。其结构域为P-loop核苷酸激酶超家族（IPR027417）成员，含有一个胸苷酸激酶样结构域（Thymidylate_kin-like_dom IPR039430）和保守的P-loopWalker A/B基序，ATP依赖性磷酸基团转移机制已充分解析。该蛋白也通过IFN依赖和IFN非依赖途径发挥抗病毒免疫调节活性（PMIDs:30083606, 36930652, 37075076）。HPA定位数据显示线粒体和核质双定位（Nucleoplasm Supported, 核定位特异性8/10），推测其可能在线粒体和细胞核之间协调核苷酸代谢。
+
+**dNTP池平衡与TE逆转座的核苷酸供应角色**：LINE-1逆转座需要胞内dNTP作为逆转录底物——逆转录酶（ORF2p）利用宿主细胞的dNTP池合成cDNA。若CMPK2在核质中调节dNTP（特别是dCTP）的局部浓度，可能直接影响L1逆转座在核内的cDNA合成效率。支持这一观点的间接证据包括：核苷酸还原酶（RNR）亚基RRM2在S期与L1 ORF2p发生物理互作，限制dNTP供应用于抑制L1逆转座（PMID:32040502）。然而，从线粒体dNTP补给到核内cDNA合成的调控链条存在多个未验证的生化步骤。
+
+**抗病毒通路与TE免疫的共享信号**：CMPK2通过与Viperin（RSAD2）共同作用限制黄病毒和冠状病毒复制（PMID:36930652, 37075076）。Viperin通过合成ddhCTP（3'-脱氧-3',4'-二脱氢-CTP）作为链终止核苷酸抑制病毒RNA依赖的RNA聚合酶——从概念上，ddhCTP也可能抑制LINE-1逆转录酶的cDNA合成。CMPK2的抗病毒功能可能在先天免疫的TE防御层面具有对等性：IFN/ISG信号激活CMPK2后，通过与Viperin协作（STRING interaction）限制TE逆转座中间体的产生。PPI degree=70中包含DCK（脱氧胞苷激酶, STRING 956）和RRM1（STRING 954），完美构成dNTP代谢酶网络。
+
+**结构质量和新颖性**：AlphaFold pLDDT=86.6的中高置信度和PubMed=95的中等文献量使CMPK2位于领域认知和未知探索的边界。所有95篇文献均集中于抗病毒免疫和嘧啶代谢，无一篇涉及TE调控——但其dNTP代谢酶的身份和抗病毒路径使其成为连接核酸代谢、先天免疫和TE抑制的多功能枢纽蛋白。归一化得分68.3/100的核定位特异性32/40是候选的支撑维度。
+
+
 ### 补充分析 (UniProt API)
 
 **蛋白全称**: UMP-CMP kinase 2, mitochondrial
@@ -75,52 +86,3 @@ Nuclear protein
 | NME7 | STRING | 939 |
 | POMP | STRING | 939 |
 | NT5C3 | STRING | 939 |
-
-
-![PAE](https://alphafold.ebi.ac.uk/files/AF-Q5EBM0-F1-predicted_aligned_error_v6.png)
-
-### HPA IF 图像
-
-HPA: https://www.proteinatlas.org/ENSG00000134326-CMPK2
-
-![](https://images.proteinatlas.org/41430/555_D3_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/41430/555_D3_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/41430/1682_G2_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/41430/1682_G2_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/41430/504_D3_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/41430/504_D3_2_blue_red_green.jpg)
-
-### HPA IF 图像
-
-HPA: https://www.proteinatlas.org/ENSG00000134326-CMPK2
-
-![](https://images.proteinatlas.org/41430/555_D3_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/41430/555_D3_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/41430/1682_G2_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/41430/1682_G2_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/41430/504_D3_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/41430/504_D3_2_blue_red_green.jpg)
-
-### HPA IF 图像
-
-HPA: https://www.proteinatlas.org/ENSG00000134326-CMPK2
-
-![](https://images.proteinatlas.org/41430/555_D3_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/41430/555_D3_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/41430/1682_G2_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/41430/1682_G2_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/41430/504_D3_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/41430/504_D3_2_blue_red_green.jpg)
-
-### PubMed 文献
-
-**PubMed count: 138**
-
-| 42369828 | Tristetraprolin protects against osteoarthritis by restraining chondrocyte mitochondrial DNA release through post-transc | J Orthop Translat 2026 |
-| 42347213 | Integrated Downstream Analysis and Epidemiological Modelling of Hantavirus Infection: From Host Transcriptomics to Trans | Pathogens 2026 |
-| 42263979 | Cytidine/Uridine monophosphate kinase 2 promotes aflatoxin B1-induced hepatic pyroptosis and inflammation. | Int J Biol Macromol 2026 |
-
-### HPA IF 图像
-
-HPA 检索: https://www.proteinatlas.org/search/CMPK2
-

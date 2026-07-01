@@ -227,3 +227,11 @@ Source: https://www.proteinatlas.org/ENSG00000100749-VRK1/interaction
 | ATF2 | Intact | false |
 | ATP5PB | Bioplex | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+### 深度机制分析
+
+VRK1属于牛痘相关激酶（Vaccinia-related kinase）家族，其N端催化结构域（残基37-317）归属蛋白激酶超家族（IPR050235、IPR011009），含有经典Ser/Thr激酶活性位点SMART SM00220。催化核心采用双叶折叠（N-lobe beta-sheet + C-lobe alpha-helical），ATP结合于两叶之间的裂隙。该蛋白的实验结构已在多个PDB条目中得到验证（2KTY、2KUL、2LAV、2RSV、3OP5、5UKF、5UVF、6AC9、6BP0、6BRU），涵盖了X射线晶体学（含抑制剂共晶）和NMR溶液结构两种解析模式，为药物设计和功能研究提供了坚实基础。AlphaFold v6的全长预测因实验数据充足而无需依赖AF，但其PAE图仍可用于评估结构域间相对取向。
+
+VRK1的核心生化功能主要集中在三个轴线上：（1）核膜重组——VRK1磷酸化BAF（BANF1，屏障自整合因子，STRING combined score=0.916，实验得分0.496）以解除其对DNA的结合，这是有丝分裂后核膜重新组装的关键步骤。ANKLE2（0.920）与BAF磷酸化通路共同维持核膜完整性。（2）Cajal体功能与snRNP成熟——VRK1定位于Cajal体（GO:0015030），与Coilin（COIL，IntAct CoIP，PMID:21920476）直接互作，参与剪接体组装的前期步骤。（3）染色质应答与DNA损伤——VRK1磷酸化组蛋白H2B变体（H2BC21 combined score=0.955，实验=0.948；H2BC8=0.916，实验=0.916），并通过磷酸化TP53BP1（PMID:22621922）和NBN（来自humanPPI列表）参与DNA双链断裂信号转导。
+
+PPI网络的实验互作高度集中于核内过程：RAN和RCC1（PMID:18617507）揭示了VRK1与核质转运的关联，VRK3（PMID:18617507）表明激酶家族内部的交叉调控。JUN（PMID:15378002）与humanPPI中确认的TP53互作（PMID:15378002未涵盖）则指向AP-1和p53转录程序的调控输入。该蛋白已被充分研究（PubMed 180篇），在神经发育障碍（PMID:33894119）、胶质瘤干细胞干性维持（PMID:40990975——组蛋白乳酸化驱动VRK1表达上调）和结直肠癌（PMID:40384864——VRK1/BANF1/GLI1轴）中的作用已被阐明。VRK2启动子甲基化背景下VRK1作为合成致死靶点的潜力（PMID:36040810）则为治疗开发提供了新方向。染色质相关GO注释（GO:0000785）加上其与NBN和TP53BP1的已验证互作，确立了VRK1在染色质应答和基因组稳定性维持中的明确地位。

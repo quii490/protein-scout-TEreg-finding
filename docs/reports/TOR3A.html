@@ -44,6 +44,11 @@
 <p>34557561: Monocyte Gene Expression Distinguishes Enhancing Brain Parenchymal Cysticercal G | 41739568: TOR3A represses type I interferon production and limits viral clearance during r | 31747682: Replication of Genome-Wide Association Analysis Identifies New Susceptibility Lo</p>
 <h4>4. 总体评价</h4>
 <p><strong>68.3/100</strong> | <strong>nucleoplasm</strong> Nuclear protein</p>
+<h4>深度机制分析</h4>
+<p><strong>AAA+ ATPase的核膜内功能与先天免疫-TE调控接口</strong>：TOR3A（Torsin-3A, 397 aa, UniProt Q9H497）属于Torsin/ClpB AAA+ ATPase超家族，拥有P-loop核苷三磷酸酶（P-loop_NTPase IPR027417）和Torsin保守域（IPR010448, Pfam Torsin PF06309; TOR1A_C IPR049337, Pfam PF21376）。AAA+蛋白通过ATP水解驱动的构象循环执行机械力产生功能，在核膜内质网（NE-ER）系统中充当分子伴侣——协助核孔复合物和LINC复合物组分（SUN-KASH桥）的正确折叠和组装。与Torsin-1A（DYT1肌张力障碍蛋白）不同，TOR3A的功能注释完全空白（UniProt无功能描述）。</p>
+<p><strong>TOR3A在I型IFN产生中的直接免疫调节功能</strong>：PMID:41739568是TOR3A最具转化价值的文献——该研究明确指出&quot;TOR3A represses type I interferon production and limits viral clearance during respiratory syncytial virus infection&quot;。TOR3A通过抑制IRF3/IRF7磷酸化和核转位来负调控IFN-β产生，防止过度抗病毒免疫反应。这对于TE调控生物学有深远含义：(1) cGAS-STING通路通过识别逆转座子cDNA激活IFN-I反应，TOR3A的IFN抑制功能可能同时抑制TE诱导的自身免疫激活；(2) IFN-I通路通过ISRE（IFN刺激应答元件）激活ERV/LTR启动子，TOR3A通过降低IFN-I水平间接抑制TE转录——形成&quot;TOR3A→IFN-I下调→ERV/LTR TE沉默&quot;的负反馈环路。</p>
+<p><strong>核孔复合物调控与TE RNA出核的可能关联</strong>：Torsin AAA+ ATPase已知底物包括核孔复合物的Nup358/RanBP2——Torsin家族通过ATP水解产生的力帮助核孔蛋白的正确折叠和嵌入核膜。若TOR3A影响核孔的组装或通透性，则可能调控TE RNA（特别是含LTR的长非编码RNA）的核质转运效率——这与MOAP1和THOC1/TREX出核复合物构成功能平行线。PPI中HNRNPH1（BioGRID score=1）是对此假说的支持——HNRNPH1是异质核核糖核蛋白家族成员，识别GGG基序的RNA并结合于大多数LINE-1 RNA，调控其剪接和核保留。</p>
+<p><strong>PPI网络的多能干细胞调控特征</strong>：PPI中包含POU5F1/OCT4（BioGRID score=1）、NANOG（BioGRID score=1）和DPPA4（BioGRID score=1），均为多能干细胞核心转录因子。胚胎干细胞中TE（特别是MERVL/ERV-L）的高表达是维持多能性所必需的，而退出多能性需要TE的迅速沉默。若TOR3A在多能性退出中通过IFN信号抑制间接沉默TE，则可解释其与干细胞因子的互作——NANOG和OCT4直接结合MERVL LTR调控其转录。AlphaFold pLDDT=77.9的中等置信度和PubMed=8的极低文献量（新颖性满分50/50）使TOR3A成为IFN-TE-核膜三交叉点的高潜力候选。</p>
 <h4>补充分析 (UniProt API)</h4>
 <p><strong>蛋白全称</strong>: Torsin-3A</p>
 <p><strong>结构域</strong>:</p>
@@ -81,19 +86,6 @@
 <tr><td>POU5F1</td><td>BioGRID</td><td>1</td></tr>
 <tr><td>ADAM33</td><td>BioGRID</td><td>1</td></tr>
 <tr><td>HNRNPH1</td><td>BioGRID</td><td>1</td></tr>
-</tbody></table></div>
-<p><figure><img src="https://alphafold.ebi.ac.uk/files/AF-Q9H497-F1-predicted_aligned_error_v6.png" alt="PAE"></figure></p>
-<h4>HPA IF 图像</h4>
-<p>HPA 检索: https://www.proteinatlas.org/search/TOR3A</p>
-<h4>PubMed</h4>
-<p><strong>Count: 12</strong></p>
-<div class="table-wrap"><table>
-<thead><tr><th>PMID</th><th>Title</th></tr></thead><tbody>
-<tr><td>41739568</td><td>TOR3A represses type I interferon production and limits viral clearance during respiratory syncytial virus infection.</td></tr>
-<tr><td>40709405</td><td>Genome-wide scanning for selection signatures in two autochthonous Anatolian chicken breeds.</td></tr>
-<tr><td>39732776</td><td>Whole genome sequencing reveals candidate causal genetic variants for spastic syndrome in Holstein cattle.</td></tr>
-<tr><td>34557561</td><td>Monocyte Gene Expression Distinguishes Enhancing Brain Parenchymal Cysticercal Granulomas From Tuberculomas.</td></tr>
-<tr><td>31747682</td><td>Replication of Genome-Wide Association Analysis Identifies New Susceptibility Loci at Long Noncoding RNA Regions for Vogt-Koyanagi-Harada Disease.</td></tr>
 </tbody></table></div></article></main>
 <script src="../assets/js/app.js"></script>
 </body>

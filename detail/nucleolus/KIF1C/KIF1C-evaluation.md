@@ -61,6 +61,18 @@ Motor required for the retrograde transport of Golgi vesicles to the endoplasmic
 
 **TE 调控相关性**: 该蛋白缺乏明确的核/染色质定位证据，TE调控潜力极低，不建议作为优先靶标。
 
+
+
+### 深度机制分析
+
+KIF1C（(Kinesin-like protein KIF1C)）。定位于nucleolus。包含1103 aa / 121.3 kDa。UniProt编号O43896。其InterPro结构域组成为IPR000253、IPR032405、IPR019821、IPR001752、IPR036961、IPR027417。Pfam注释3个保守结构域（PF00498、PF00225、PF16183）。SMART注释发现SM00129等模块。UniProt结构域注释表明其包含Kinesin motor；FHA。
+
+从功能机制角度，该蛋白的已知功能为Motor required for the retrograde transport of Golgi vesicles to the endoplasmic reticulum. Has a microtubule plus end-directed motility，此外还与YWHAG、PTPN21、YWHAE、LAMC3等存在实验验证的低置信度互作。
+
+从结构生物学角度，其多结构域排列支持该蛋白作为支架平台整合多种信号输入的可能性，在TE调控的背景下，KIF1C的nucleolus定位使其具备接触转座子元件的空间可能性。
+
+从研究转化角度，该蛋白在PubMed中尚无直接研究发表（PubMed=0），属于高度新颖的靶标，相关文献证据包括PMID:42074063、41874815、41357347，综合评分66.7/100，属于中等优先级，建议在更大规模的筛选中进一步验证。
+
 ### HPA IF 图像
 
 HPA: https://www.proteinatlas.org/ENSG00000129250-KIF1C

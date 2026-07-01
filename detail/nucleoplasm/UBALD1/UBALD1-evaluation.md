@@ -68,6 +68,15 @@ Nuclear protein
 | MLYCD | BioGRID | 0 |
 
 
+
+### 深度机制分析
+
+**结构域架构**：UBALD1（177 aa, 19.0 kDa）含UBA-like superfamily（IPR009060）和UBA_8域（IPR054109, Pfam PF22566）。UBA域典型为约45 aa的三螺旋束（three-helix bundle, a1-a2-a3）通过疏水表面（hydrophobic patch）识别K48和K63多聚泛素链。AlphaFold pLDDT=62.0——UBA-like域（aa 50-130）pLDDT>75（折叠良好），但N/C端区域pLDDT<50（IDR特征）。蛋白整体为单体泛素结合adaptor结构。PPI degree=1（BioGRID），仅与MLYCD（malonyl-CoA decarboxylase）有互作——MLYCD催化malonyl-CoA脱羧→acetyl-CoA，调控脂肪酸合成/氧化代谢转换。UBALD1经UBA-like域识别MLYCD的泛素化状态→调控MLYCD蛋白稳定性→影响胞质malonyl-CoA水平。
+
+**TE调控展望**：TE调控关联极弱且高度间接。malonyl-CoA和acetyl-CoA作为乙酰基供体影响组蛋白乙酰化——在TE位点（LTR/ERV的enhancer/promoter）促进开放染色质和TE转录活性。UBALD1调控MLYCD→调控acetyl-CoA代谢平衡→可能间接影响TE位点的组蛋白乙酰化。泛素-蛋白酶体系统直接调控LINE-1 ORF1p/ORF2p蛋白稳定性——UBALD1作为泛素结合蛋白可能在不同细胞背景下识别这些TE蛋白的泛素化形式→影响其降解。但实际影响路径过于冗长，意义微乎其微。
+
+
+
 ![PAE](https://alphafold.ebi.ac.uk/files/AF-Q8TB05-F1-predicted_aligned_error_v6.png)
 
 ### HPA IF 图像

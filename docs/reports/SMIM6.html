@@ -81,7 +81,13 @@
 <tr><td>SLN</td><td>STRING</td><td>605</td></tr>
 <tr><td>SMIM6</td><td>STRING</td><td>444</td></tr>
 <tr><td>MRLN</td><td>STRING</td><td>871</td></tr>
-</tbody></table></div></article></main>
+</tbody></table></div>
+<h4>深度机制分析</h4>
+<p><strong>结构域架构</strong>：SMIM6/Endoregulin（62 aa，7.0 kDa）是本批次中最小的蛋白——一个微蛋白（microprotein/小开放阅读框编码肽，sORF-encoded peptide, SEP）。SMIM6缺乏任何已知的结构域注释（InterPro和Pfam均为空），由一个预测的单次跨膜α-螺旋（~20 aa）和极短的N端及C端亲水区组成。其功能注释来源于2015-2016年的功能基因组学研究：SMIM6通过直接结合内质网膜上的SERCA（Sarco/Endoplasmic Reticulum Ca^2+-ATPase）钙泵抑制其Ca^2+转运活性，降低SERCA对Ca^2+的表观亲和力。与同家族的Phospholamban（PLN）、Sarcolipin（SLN）和Myoregulin（MRLN）类似，SMIM6属于SERCA微肽调控家族（SERCA-regulatory micropeptide family），通过改变SERCA的钙转运动力学调控细胞内钙稳态。</p>
+<p><strong>PPI互作网络解读</strong>：PPI degree=3，互作极少但高度特异性：MRLN（Myoregulin，STRING 871分）、SLN（Sarcolipin，STRING 605分）。这两个互作不是蛋白-蛋白直接互作，而是STRING数据库基于&quot;功能关联&quot;（co-occurrence in same pathway）的预测——三者均为SERCA泵的抑制性微肽，在骨骼肌（SLN）、平滑肌/心脏（SMIM6）和骨骼肌（MRLN）中发挥组织特异性的钙稳态调控功能。真正的蛋白互作关系是SMIM6直接跨膜结合SERCA2（ATP2A2）和SERCA3（ATP2A3），但这一互作关系需通过共纯化或邻近标记实验检测，尚未被PPI数据库收录。</p>
+<p><strong>结构解读</strong>：AlphaFold pLDDT=77.5，对于62 aa的极短蛋白而言预测良好。预测的单次跨膜α-螺旋（残基约15-38）的pLDDT &gt;85。跨膜螺旋含典型的Gly-X-X-X-Gly二聚化基序，可能形成SMIM6-SMIM6同源二聚体或SMIM6-SERCA异源二聚体。N端和C端（pLDDT 60-70）各仅约15个氨基酸，C端可能含一个磷酸化位点（PKA/CaMKII靶点），类似于PLN的Ser16磷酸化调控机制。值得注意的是，62个残基的平均pLDDT仍有77.5，说明小蛋白折叠紧凑。</p>
+<p><strong>机制模型</strong>：（1）经典功能：SMIM6作为SERCA2/SERCA3的抑制性微肽调控亚基，通过稳定SERCA的Ca^2+-free E2构象（低Ca^2+亲和力状态）降低SERCA对胞质Ca^2+的表观亲和力，从而减少Ca^2+从胞质向内质网腔的再摄取速率；（2）核质中SMIM6的检测信号（Nucleoplasm Approved）需要特别注意：62 aa的微肽（7.0 kDa）远低于核孔复合物的被动扩散阈值（~40-60 kDa），SMIM6无需核定位信号即可自由扩散通过核孔。但作为跨膜蛋白，SMIM6在核质中的存在更可能反映其在核膜（outer/inner nuclear membrane）或核膜-ER膜连续体中的定位，或HPA抗体识别的表位与加工/降解产物交叉反应产生的假阳性信号；（3）作为SERCA调控因子，SMIM6通过影响ER/SR钙库的充盈状态间接调控钙依赖性信号通路的核内分支（如Ca^2+/钙调蛋白→钙调磷酸酶→NFAT→核转位→基因转录）。</p>
+<p><strong>TE调控展望</strong>：SMIM6的TE调控潜力为0。其功能完全局限于SERCA钙泵的调控，所有已知的生物学效应均通过钙稳态介导。即便考虑到钙信号通路的间接效应，SERCA活性→胞质Ca^2+→calcineurin→NFAT通路的调控范围主要涉及免疫应答基因和发育基因，与TE表达无已知交叉。SMIM6的极端新颖性（PubMed仅2篇）和价值主要体现在其作为微肽调控因子的模型系统意义——而非TE生物学。</p></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

@@ -107,7 +107,12 @@
 <h4>HPA IF 图像</h4>
 <p><figure><img src="https://images.proteinatlas.org/41367/557_D11_2_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/41367/557_D11_3_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/41367/493_D11_1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/41367/493_D11_2_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/76267/1719_B2_19_cr5804907328f94_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/76267/1719_B2_28_cr5804907c233ab_blue_red_green.jpg" alt="image"></figure></p>
 <h4>5. 数据来源</h4>
-<ul><li>UniProt REST API</li><li>AlphaFold Protein Structure Database</li><li>PubMed E-utilities</li><li>STRING/BioGRID protein-protein interaction</li><li>Human Protein Atlas (HPA)</li></ul></article></main>
+<ul><li>UniProt REST API</li><li>AlphaFold Protein Structure Database</li><li>PubMed E-utilities</li><li>STRING/BioGRID protein-protein interaction</li><li>Human Protein Atlas (HPA)</li></ul>
+<h4>深度机制分析</h4>
+<p>NGRN（Neugrin）是一个功能注释稀疏但互作网络广泛的核-线粒体双重定位蛋白。291个氨基酸的蛋白在AlphaFold中呈现低质量预测（pLDDT=67.6），仅有32.0%的残基pLDDT&gt;90%，而30.6%的残基pLDDT&lt;50%，表明该蛋白含有大量内在无序区段（IDRs）。这种结构特征——高IDR含量结合中等大小的分子量（32.4 kDa）——是典型&quot;支架蛋白&quot;（scaffold protein）的构象特征：IDRs赋予构象灵活性以介导多价互作，而少量有序结构域维持核心绑合界面。</p>
+<p>PPI互作网络是NGRN最显著的特征。Combined PPI degree高达236（总计），其中核内PPI degree为132——这在所有评估蛋白中处于最高端（仅排在其后的是PPIH的149）。STRING和BioGRID的联合数据揭示了NGRN与剪接因子（TRA2A, HNRNPDL, RBMS3）、核糖体蛋白（RPL6, MRPL4）、锌指蛋白（ZC3H3）以及线粒体蛋白（ICT1, PRKAG3）的广泛互作。TRA2A（Transformer-2 protein homolog alpha）是剪接因子SR家族的成员，直接参与pre-mRNA剪接调控；HNRNPDL是heterogeneous nuclear ribonucleoprotein D-like，是RNA加工的多功能调控因子。这些核内互作伙伴强烈暗示NGRN参与RNA代谢和剪接调控。</p>
+<p>亚细胞定位呈现核-线粒体双分布模式，这一模式在功能层面具有重要含义。HPA显示NGRN定位于nucleoplasm（Supported）、mitochondria（IDA）以及cytokinetic bridge。GO-CC注释包含了nucleoplasm（IDA:HPA）、mitochondrial matrix（IDA:FlyBase）、mitochondrial membrane（IDA:UniProtKB）和nucleus（IBA:GO_Central）。COMPARTMENTS数据库给出nuclear_score=4.000，基于HPA的IDA证据。核-线粒体双重定位常见于参与代谢-转录耦合的蛋白，如参与线粒体逆信号（mitochondrial retrograde signaling）的转录调控因子。</p>
+<p>PubMed研究主要将NGRN与线粒体功能和神经系统疾病相联系。PMID 40261608将NGRN鉴定为缺血性卒中中线粒体和琥珀酰化修饰相关基因标志物的成员，PMID 41351645在利用多组学孟德尔随机化分析脑卒中风险时进一步确认了NGRN与线粒体的关联。PMID 38192023在尼日利亚良性前列腺增生的全外显子测序中发现了NGRN的突变。Alzheimer病研究（PMID 32804135, 37438770）也将NGRN列为神经退行性疾病的潜在生物标志物。综合来看，NGRN的深度机制模型为：IDR支架蛋白→核-线粒体双重定位→广泛RNA加工因子互作→剪接调控/线粒体逆信号→神经保护功能。其作为支架蛋白介导多价互作的特性使其具有间接调控染色质/转录的潜力，但缺乏直接TE调控的实验证据（TE调控评估：需实验验证）。</p></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

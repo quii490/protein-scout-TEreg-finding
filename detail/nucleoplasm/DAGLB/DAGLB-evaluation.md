@@ -77,6 +77,15 @@ Nuclear protein
 | IPPK | BioGRID | 1 |
 
 
+
+### 深度机制分析
+
+**结构域架构**：DAGLB（672 aa, 73.7 kDa）为丝氨酸水解酶家族脂酶。AB_hydrolase_fold（IPR029058）含conserved catalytic triad: Ser-Asp-His (GXSXG lipase motif)——水解DAG的sn-1酯键→2-arachidonoylglycerol（2-AG, 体内最丰富的内源性大麻素）。AlphaFold pLDDT=72.5——catalytic core pLDDT>85，N/C端regulatory regions pLDDT~50-65。PPI（degree=63）以内源性大麻素系统为核心：NAPEPLD（STRING score=890）为anandamide合成酶——DAGLB（2-AG合成）与NAPEPLD（AEA合成）协同调控eCB tone；ABHD6（STRING score=812）为2-AG水解酶——DAGLB-ABHD6构成"on-off"开关。2-AG作为retrograde neurotransmitter激活CB1 receptor（Gi/o-coupled GPCR）→cAMP↓→PKA↓→CREB Ser133 phosphorylation↓→抑制CREB-dependent transcription。
+
+**TE调控展望**：TE LTR（HERV-K LTR5_Hs, MMTV LTR）的CRE motif是CREB结合位点——CB1 activation→cAMP↓→CREB-Pi↓→TE LTR transcription下降——DAGLB-generated 2-AG可能抑制CREB-dependent ERV transcription。反之，COX-2将2-AG代谢为PGE2→EP2/EP4 receptor→cAMP↑→PKA→CREB-Pi↑→CREB-dependent TE LTR activation——DAGLB的2-AG产物对TE调控具有双向效应——通过CB1（抑制）或COX-2（促进）途径——取决于炎症微环境和eCB system组成。
+
+
+
 ![PAE](https://alphafold.ebi.ac.uk/files/AF-Q8NCG7-F1-predicted_aligned_error_v6.png)
 
 ### HPA IF 图像

@@ -42,6 +42,10 @@
 <ul><li>nan (nan)</li><li>PubMed strict=0 broad=0</li><li>AF pLDDT=85.0 PDB=0</li><li>InterPro: Cullin; Cullin-like_AB; Cullin_CS</li><li>Pfam: Cullin; Cullin_AB; Cullin_Nedd8</li><li>PPI degree=0 ChIP: None</li></ul>
 <h4>4. 总体评价</h4>
 <p><strong>68.3/100</strong> | <strong>nucleoplasm</strong> Nuclear protein</p>
+<h4>深度机制分析</h4>
+<p><strong>Cullin-RING泛素连接酶核心组分的VHL通路角色</strong>：A0A140VKB1（745 aa, 87.0 kDa）属于Cullin蛋白超家族（InterPro: Cullin IPR050729, Cullin_CS IPR016157, Cullin_Nedd8 IPR036388; Pfam: Cullin PF00888, Cullin_Nedd8 PF10557）。Cullin蛋白是CRL（Cullin-RING Ligase）E3泛素连接酶复合物的骨架亚基——其N端域招募底物受体模块，C端域结合RING蛋白RBX1和E2泛素偶联酶，整体形成约400 kDa的多亚基泛素化机器。A0A140VKB1的PPI数据确证了其CUL2同源物身份：VHL（von Hippel-Lindau肿瘤抑制因子, STRING 430）、ELOB/Elongin B（STRING 611）和RBX1（STRING 930）构成CRL2^VHL复合物，专门泛素化HIF1α（STRING 999）并靶向蛋白酶体降解。COMMD1（STRING 888）的互作暗示该Cullin可能也参与COMMD/CCDC22/CCDC93复合物介导的NF-κB抑制。</p>
+<p><strong>CRL2泛素连接酶在染色质调控和TE中的潜在作用</strong>：CRL2^VHL在氧感应中泛素化羟基化的HIF1α，而HIF1α/p300通路直接激活多种TE衍生增强子——特别是HERV-K和HERV-W LTR中的缺氧应答元件（HRE）。VHL功能缺失导致HIF1α组成性积累，持续激活HRE-TE转录。CRL2复合物亦可与底物受体ZER1/ZYG11B（均为STRING互作伙伴）组装，泛素化降解N端甘氨酸去稳定化（degron）底物蛋白。若此类底物中包含染色质修饰因子（如BAF复合物亚基或组蛋白变体），则可通过泛素化调控TE位点的染色质可及性。</p>
+<p><strong>CRL-TE接口的泛在性与研究策略</strong>：CRL复合物在TE调控中的角色主要通过底物受体决定。本候选蛋白作为Cullin骨架，其TE调控能力完全取决于与之配对的特异性底物受体——目前CRL2-VHL的HIF1α底物已确定，但ZER1/ZYG11B路径的底物范围未知。AlphaFold pLDDT=85.0表明Cullin重复（三个串联的Cullin repeat域）折叠良好，而蛋白745 aa大于VHL复合物组装最低需求。实验验证CRL2对TE的调控：proteomics鉴定A0A140VKB1的泛素化底物谱系（diGly proteomics）、全基因组CRISPR筛选TE调控所需的CRL2底物受体。鉴于PubMed=0的完全新颖状态（50/50），对CRL底物受体的系统性鉴定是决定其TE调控角色的关键。</p>
 <h4>PPI 互作网络</h4>
 <div class="table-wrap"><table>
 <thead><tr><th>互作伙伴</th><th>来源</th><th>评分</th></tr></thead><tbody>
@@ -82,12 +86,7 @@
 <tr><td>CUL2</td><td>STRING</td><td>990</td></tr>
 <tr><td>HIF1A</td><td>STRING</td><td>999</td></tr>
 <tr><td>PRAME</td><td>STRING</td><td>901</td></tr>
-</tbody></table></div>
-<h4>TE 调控评估</h4>
-<p>该蛋白为核蛋白，但其 TE 调控相关性需进一步实验验证。目前无直接 TE 调控文献支持。</p>
-<p><figure><img src="https://alphafold.ebi.ac.uk/files/AF-A0A140-F1-predicted_aligned_error_v6.png" alt="PAE"></figure></p>
-<h4>HPA IF 图像</h4>
-<p>HPA 检索: https://www.proteinatlas.org/search/A0A140VKB1</p></article></main>
+</tbody></table></div></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

@@ -79,6 +79,18 @@ Nuclear protein
 | CSK | BioGRID | 0 |
 
 
+### 深度机制分析
+
+**结构域架构**：PXDNL/Peroxidasin-like（1463 aa，163.7 kDa）是本批次分子量最大的蛋白。含动物血红素过氧化物酶结构域（Haem_peroxidase_animal IPR010255，Haem_peroxidase_sf IPR037120，Pfam An_peroxidase）——采用α/β折叠，中央血红素（heme b）通过保守的His残基（近端His）和Gln/Asn（远端腔）配位，催化底物（如氯离子、溴离子、硫氰酸根离子）的两电子氧化产生次卤酸（HOCl, HOBr, HOSCN）。Cys-rich_flank_reg_C（IPR000483，富含半胱氨酸的C端侧翼区）提供结构稳定性。Pfam还注释了I-set（免疫球蛋白I-set结构域）和Ig_3（免疫球蛋白样结构域），提示PXDNL的胞外域含多个Ig样结构域串联——类似于过氧化物酶体（Peroxidasin, PXDN）的域架构。
+
+**PPI互作网络解读**：PPI degree=86，核心互作包括：（1）CUL3（Cullin-3——Cullin-RING E3泛素连接酶CRL3的核心骨架蛋白，BioGRID 0分）；（2）CSPP1（Centrosome and spindle pole-associated protein 1，中心体/纺锤体微管组织蛋白，BioGRID 0分）；（3）CARM1（Coactivator-associated arginine methyltransferase 1——催化组蛋白H3R17/H3R26非对称性二甲基化的关键精氨酸甲基转移酶，BioGRID 0分）；（4）SPTAN1（α-II-spectrin，细胞骨架交联蛋白，BioGRID 0分）；（5）OSTF1（Osteoclast stimulating factor 1，破骨细胞刺激因子，BioGRID 0分）。CARM1的互作在此背景下极为重要——CARM1介导的组蛋白精氨酸甲基化（H3R17me2a, H3R26me2a）是染色质的转录激活标志，与H3K4me3和H4ac协同。若PXDNL通过血红素过氧化物酶活性产生活性氧（HOSCN/HOBr等底物氧化产物），局部氧化环境可能调控CARM1的活性或底物可及性。
+
+**结构解读**：AlphaFold pLDDT=81.4，对于1463 aa的超大蛋白而言预测质量良好。过氧化物酶域（约残基700-1050）的pLDDT >88，血红素结合口袋由保守的远端His（推测H826或等效位置）和近端His（推测H918或等效位置）构成。Ig样结构域串联（约8-10个Ig域，残基50-650）预测为线性延伸的"beads-on-a-string"构象——这是过氧化物酶体（PXDN）和血管过氧化物酶（VPO1）等胞外过氧化物酶的特征性架构。Cys-rich区（残基1050-1250）的pLDDT中等（60-75），反映高Cys含量（>8% Cys）导致的二硫键配对多样性和氧化态依赖的构象不均一性。
+
+**机制模型**：PXDNL是过氧化物酶体（PXDN/Peroxidasin）的无活性同源物——实验证据（PMID:24253521）明确指出PXDNL缺乏过氧化物酶活性但通过与PXDN的直接互作抑制PXDN的催化活性。PXDN通过催化次溴酸（HOBr）的生成，在基底膜胶原IV的交联中发挥关键作用——HOBr氧化胶原IV NC1结构域的Met残基，形成共价Sulfilimine键（Met>S=N<Lys/Hyl），交联胶原IV网络。PXDNL通过抑制PXDN负调控这一过程——类似于血管过氧化物酶（VPO1）和甲状腺过氧化物酶（TPO）的双重氧化酶/过氧化物酶体系中的负调控机制。GWAS关联包括：PXDNL基因变异与原发性闭角型青光眼（PMID:38034647）、胃轻瘫（PMID:37688361）和丛集性头痛（PMID:40114078）的易感性。
+
+**TE调控展望**：PXDNL的TE调控潜力极低。PXDNL作为胞外基质交联调控因子，其功能场所（内质网腔→Golgi→胞外基质）与核内TE调控机器存在多重膜屏障的物理区隔。CARM1的互作提供了一个理论上的间接联系——但PXDNL在ER腔面，CARM1在核质中，若无特异性的PXDNL→胞质→核穿梭机制（当前无任何证据支持），此互作可能在标准的BioGRID Y2H实验中为假阳性。PXDNL在基底膜生物学和细胞外基质组装中的角色的重要性局限于细胞外环境。
+
 ![PAE](https://alphafold.ebi.ac.uk/files/AF-A1KZ92-F1-predicted_aligned_error_v6.png)
 
 ### HPA IF 图像

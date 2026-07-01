@@ -60,6 +60,16 @@ no known nuclear annotation
 
 **TE 调控相关性**: 该蛋白缺乏明确的核/染色质定位证据，TE调控潜力极低，不建议作为优先靶标。
 
+
+### 深度机制分析
+
+**PX-BAR双结构域Sorting Nexin的非核蛋白定位**：SNX30（Sorting nexin-30, 437 aa, UniProt Q5VWJ9）携带三个标志性结构域：N端SH3结构域（aa 1-61, IPR001452）、PX结构域（aa 230-340, IPR001683, Pfam PF00787）和C端BAR结构域（aa 371-574, SMART SM00312）。SH3-PX-BAR结构域组合是SNX9/18/33亚家族的特征，暗示SNX30参与网格蛋白介导的内吞作用中的膜重塑（membrane tubulation）和货物分选。PX域结合PI3P富集的内体膜，而BAR域通过其新月形二聚体感知并稳定膜弯曲，SH3域招募动力蛋白（Dynamin）和肌动蛋白调控因子。该蛋白与SNX4协同参与自噬体组装（PMID:32513819）——一种膜重塑过程，与核内事件无关。
+
+**核仁定位的不确定性**：该蛋白的定位注释为"no known nuclear annotation"（核定位特异性4/10），归入核仁分类的依据可能是质谱检测的非特异性背景信号。Sorting nexin家族的所有成员均定位于胞质内膜（内体、TGN或质膜），无任何成员具有实验验证的核定位——SNX13（含RGS域）的部分核定位为家族唯一例外。因此SNX30的核仁分类可能是一个误分类。
+
+**低优先级TE候选**：PPI数据中包含HNRNPL（BioGRID score=0）和KHDRBS1（Sam68, BioGRID score=0）两个RNA结合蛋白——HNRNPL参与可变剪接调控，Sam68参与RNA代谢和信号转导。若SNX30确实微量定位于核仁，可能通过SH3域介导的蛋白-蛋白互作与核仁RNA结合蛋白产生微弱关联。但整体上该蛋白的膜运输功能与TE调控不存在衔接点，建议在TE筛选中赋予最低优先级。
+
+
 ### Domain/SMART 结构域分析
 
 | 来源 | 数据 |
@@ -68,47 +78,3 @@ no known nuclear annotation
 | InterPro | IPR027267;IPR001683;IPR036871;IPR036028;IPR001452;IPR037427;IPR014536;IPR019497; |
 | Pfam | PF10456;PF00787;PF14604; |
 | UniProt Domain | DOMAIN 1..61; /note="SH3"; /evidence="ECO:0000255|PROSITE-ProRule:PRU00192"; DOMAIN 230..340; /note="PX"; /evidence="ECO:0000255|PROSITE-ProRule:PRU00147"; DOMAIN 371..574; /note="BAR" |
-
-
-### PPI 互作网络
-
-| 互作伙伴 | 来源 | 评分 |
-|---|---|---|
-| KHDRBS1 | BioGRID | 0 |
-| ADAM15 | BioGRID | 0 |
-| FGFR1OP | BioGRID | 0 |
-| SNX4 | BioGRID | 0 |
-| HNRNPL | BioGRID | 0 |
-| TGOLN2 | BioGRID | 0 |
-| KIAA1429 | BioGRID | 0 |
-| LAMTOR1 | BioGRID | 0 |
-
-
-### HPA IF 图像
-
-HPA 检索: https://www.proteinatlas.org/search/SNX30
-
-### HPA IF 图像
-
-HPA: https://www.proteinatlas.org/ENSG00000148158-SNX30
-
-![](https://images.proteinatlas.org/19346/198_E11_1_red_green.jpg)
-![](https://images.proteinatlas.org/19346/198_E11_2_red_green.jpg)
-![](https://images.proteinatlas.org/19346/152_E11_1_red_green.jpg)
-![](https://images.proteinatlas.org/19346/152_E11_2_red_green.jpg)
-![](https://images.proteinatlas.org/19346/154_E11_1_red_green.jpg)
-![](https://images.proteinatlas.org/19346/154_E11_2_red_green.jpg)
-
-### PubMed
-
-**Count: 16**
-
-| PMID | Title |
-|---|---|
-| 42059218 | Integrative eQTL and Mendelian Randomization Analyses with Experimental Validation Prioritize Genetic Candidate Biomarkers for Crohn's Disease. |
-| 41605412 | Integrated miRNA-proteomic profiling identifies chronic vesicle-trafficking and proteostasis disruptions after mild traumatic brain injury. |
-| 41076048 | Susceptibility and protective genes in diabetic retinopathy: A comprehensive single-cell RNA sequencing analysis. |
-| 40798960 | Transcriptomic Signatures in TP53 Positive and Negative Tumor Samples in NSCLC. |
-| 40431640 | Anthraquinone-2-Carboxylic Acid Is a Potential Antiviral Candidate Against Influenza Viruses In Vitro and In Vivo. |
-
-

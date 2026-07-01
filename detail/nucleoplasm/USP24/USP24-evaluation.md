@@ -62,6 +62,19 @@ Nuclear protein
 
 **TE 调控评估**: 该蛋白缺乏核定位证据，TE调控潜力极低。
 
+### 深度机制分析
+
+USP24（Ubiquitin carboxyl-terminal hydrolase 24，UniProt: Q9UPU5，2620 aa / 294.4 kDa）的结构域架构分析显示：InterPro结构域包括IPR001394, IPR015940, IPR016024, IPR038765, IPR050164, IPR056850。 AlphaFold预测的pLDDT均值为75.1，整体结构置信度中等，部分区域可能为内在无序区，需要注意其构象柔性对功能的影响。
+
+蛋白质互作网络分析揭示USP24与以下关键因子存在相互作用：DDB2、HIVEP3、KBP-1、ELAVL4、TP53（PPI度为111）。 功能注释显示Ubiquitin-specific protease that regulates cell survival in various contexts through modulating the protein stability of some of its substrates including DDB2, MCL1 or TP53. Plays a positive role on f。 这些互作伙伴暗示该蛋白可能通过多蛋白复合物参与细胞过程调控，其互作网络的拓扑位置值得进一步实验验证。
+
+从结构-功能机制角度分析，USP24的亚细胞定位为，具有明确的核/核周定位特征，提示其可能直接参与染色质水平或核内体的调控过程。 评估综合得分69.4/100，属于中等兴趣候选，在明确核定位后其TE调控潜力可能显著提升。
+
+对于TE调控机制的意义而言，USP24的结构域组成不直接指向经典染色质调控因子，但其在核内的存在（若经实验确认）可能暗示非经典TE调控途径。 研究新颖性方面，PubMed检索获得44篇文献，有一定研究基础但远未饱和，可从TE调控新角度切入。 代表性文献包括PMID:42321163, 42233473, 42218160等。
+
+综上所述，USP24作为一个2620 aa / 294.4 kDa的定位蛋白，具有一定的TE调控研究价值，建议首先通过亚细胞分级和免疫荧光明确其在核内的分布模式，再设计针对性的功能实验。 AlphaFold pLDDT=75.1的结构预测可作为设计突变体和结构-功能关系研究的起点。
+
+
 ---
 
 

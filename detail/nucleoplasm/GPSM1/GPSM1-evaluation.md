@@ -79,6 +79,12 @@ Nuclear protein
 | DAZAP2 | BioGRID | 1 |
 
 
+### 深度机制分析
+
+GPSM1（675 aa, pLDDT=75.5）是G蛋白信号调节因子1（AGS3），其结构域包含TPR重复（用于蛋白-蛋白互作）和GoLoco基序（G蛋白GDP解离抑制剂基序），Pfam条目GoLoco。GPSM1通过与异三聚体G蛋白Gα亚基结合并稳定GDP结合的非活化状态发挥信号调节功能，参与不对称细胞分裂、神经突触可塑性和趋化因子信号转导。GPSM1在核质中的定位（加权评分68.3）可能反映其在核内G蛋白信号调控中的功能。核内G蛋白信号已被证实调控RNA Pol II活性，而GPSM1作为Gα-GDP的分子"钳"，可能在核内G蛋白信号幅度和持续时间上设置阈值。从TE调控角度，G蛋白偶联的信号级联（如Wnt/Frizzled和Hedgehog/Smoothened）通过GLI和TCF/LEF转录因子调控ERV LTR，GPSM1可能通过调控这些GPCR信号间接参与TE转录。
+
+---
+
 ![PAE](https://alphafold.ebi.ac.uk/files/AF-Q86YR5-F1-predicted_aligned_error_v6.png)
 
 ### HPA IF 图像

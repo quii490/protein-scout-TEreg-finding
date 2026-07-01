@@ -130,6 +130,11 @@
 <p><strong>风险/不确定性</strong>: 1. PubMed 2 篇，研究基础极有限，功能注释不完整 2. 结构数据质量可接受</p>
 <p><strong>下一步建议</strong>:</p>
 <ul><li>[ ] 查阅最新关键文献补充研究背景</li><li>[ ] 获取 Protein Atlas IF 图像确认亚细胞定位</li><li>[ ] 设计体外实验验证核定位及潜在调控功能</li></ul>
+<h4>深度机制分析</h4>
+<p>TTC24（Tetratricopeptide repeat protein 24）属于含三十四肽重复序列（TPR）蛋白超家族。结构域分析显示该蛋白包含典型TPR结构域：InterPro注释为IPR011990（TPR-like helical domain）、IPR024812（TPR repeat domain）和IPR019734（TPR repeat），Pfam匹配PF13424（TPR_12）和PF13176（TPR_7），SMART确认SM00028（TPR motif）。TPR结构域由34个氨基酸的串联重复单元组成，形成螺旋-转角-螺旋的超螺旋结构，主要功能是介导蛋白-蛋白相互作用和作为多蛋白复合体的组装支架。AlphaFold v6预测整体pLDDT=73.8，高置信度残基（pLDDT&gt;90）占56.2%，有序区域（pLDDT&gt;70）占64.6%，表明TPR重复区域的折叠预测可信度较高。</p>
+<p>PPI网络揭示了TTC24与转录延伸和mRNA加工机制的潜在关联。STRING记录的互作伙伴中，LEO1（combined score=0.475, experimental=0.398）尤为值得关注：LEO1是PAF1复合体（PAF1C）的核心亚基，PAF1C在转录延伸、组蛋白修饰（H2B泛素化、H3K4和H3K36甲基化）和RNA聚合酶II调控中发挥关键作用。GON4L（score=0.575）是转录调控因子，与造血和白血病发生相关。IntAct实验数据记录了15个互作伙伴，主要来自高通量holdup assay筛选（doi:10.1038/s41467-022-33018-0），包括ARHGAP21、SCRIB、LIN7A、LIN7C、DLG5等细胞极性蛋白，以及HTRA3蛋白酶和PTPN13磷酸酶。这些互作提示TTC24可能通过TPR支架功能桥接转录调控与细胞信号网络。</p>
+<p>BioGRID额外记录了TTC24与NUP98（核孔蛋白98）的互作，这一发现具有重要的机制意义。NUP98是核孔复合体的组分，其N端含FG重复序列，已知在白血病中通过染色体易位形成NUP98融合蛋白，这些融合蛋白异常招募转录共激活因子和染色质修饰复合体。TTC24-NUP98互作提示TTC24可能参与核质运输或与核孔关联的转录调控。</p>
+<p>值得注意的是，TTC24的极早期研究（PMID:9714838，发表于1998年）报道了一个(gaa.ttc)24三核苷酸重复序列能特异性结合核蛋白并形成三链DNA结构。虽然该研究与TTC24蛋白的直接关联尚需验证，但TPR蛋白结合特定DNA结构的功能已有先例（如TPR-containing TFIIIC亚基结合tRNA基因内部启动子）。TTC24的PubMed严格计数仅2篇（broad=4篇），是极为新颖的研究对象。其核质定位（HPA Nucleoplasm, Approved）、TPR介导的多蛋白互作能力，以及潜在的转录调控关联，使其成为TE调控研究中值得优先探索的候选靶点。</p>
 <h4>PPI 互作网络</h4>
 <div class="table-wrap"><table>
 <thead><tr><th>互作伙伴</th><th>来源</th><th>评分</th></tr></thead><tbody>

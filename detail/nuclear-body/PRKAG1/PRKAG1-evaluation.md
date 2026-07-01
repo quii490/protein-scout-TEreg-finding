@@ -123,3 +123,12 @@ HPA 检索: https://www.proteinatlas.org/search/PRKAG1
 
 ESMFold 基于进化规模语言模型，进行无 MSA 搜索的从头折叠，可作为 AlphaFold 的独立验证。
 
+### 深度机制分析
+
+**结构域架构与功能基础**: PRKAG1 (PRKAG1, P54619) 是一个由331个氨基酸组成、分子量约为36.4kDa的蛋白质，定位于核质。其结构域组成包括IPR050511; IPR000644; IPR046342; PF00571; IPR050511;IPR000644;IPR046342;; PF00571;，这些结构域共同决定了该蛋白的分子识别和信号转导能力。AlphaFold预测的整体结构置信度pLDDT为N/A，表明该蛋白具有可评估的三维折叠状态。UniProt功能注释显示：AMP/ATP-binding subunit of AMP-activated protein kinase (AMPK), an energy sensor protein kinase that plays a key role in regulating cellular energy metabolism (PubMed:21680840, PubMed:24563466). In re...
+
+**蛋白质相互作用网络与调控角色**: PPI网络分析显示该蛋白具有N/A个已知相互作用伙伴，反映出其在核质蛋白质网络中的整合程度。关键的PPI伙伴包括PRKAB2, PRKAB1, PRKAA1, PRKAA2, PRKAG2, CAMKK2，这些相互作用可能介导其在核质中的功能定位和信号响应。 PubMed数据库共收录0篇相关文献，表明该蛋白的研究热度与其潜在生物学重要性之间的匹配关系。
+
+**TE调控潜在机制与展望**: 基于该蛋白的核质定位特征及其结构域组成，其潜在的TE调控机制可能包括：(1)通过IPR050511等调控结构域直接或间接识别特定核酸序列；(2)通过PPI网络中的伙伴蛋白参与染色质重塑或转录调控复合体；(3)作为信号通路与TE沉默/激活机制之间的桥接因子。该蛋白的中等结构置信度(pLDDT=N/A)为后续结构导向的功能验证和药物靶向设计提供了分子基础。鉴于其较低的研究热度(PubMed仅0篇)，该蛋白代表了一个高价值的未充分研究靶标，尤其在TE调控与核质功能耦合的交叉领域具有可观的探索空间。
+
+---

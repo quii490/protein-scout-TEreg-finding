@@ -95,6 +95,14 @@ PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判�
 
 ⚠️ *此为自动生成初步评估。UniProt/GO-CC、PDB/结构域、IntAct/BioGRID、关键文献等维度需人工补充完善。*
 
+### 深度机制分析
+
+ENKD1（346 aa, pLDDT=76.3, 评分62/100）是Enkurin结构域蛋白1，定位于中心体、初级纤毛基部和质膜（HPA supported）。其结构域包含Enkurin保守结构域（IPR027012、PF13864），属于Enkurin蛋白家族。ENKD1已被鉴定为中心体和纤毛微管相关蛋白（PMID:35072334），在纤毛发生中通过竞争CEP97促进CP110从母中心粒移除以启动纤毛轴丝延伸（PMID:35301795）。此外，ENKD1通过TRIM21介导的RUBCN降解抑制LC3相关吞噬和抗菌免疫（PMID:41187080），且HDAC6介导的ENKD1去乙酰化调控有丝分裂纺锤体行为（PMID:40155750）。
+
+该蛋白的STRING互作网络以GFOD2（Combined Score=0.760）、CLHC1（0.561）、TMEM129（0.560）为主，IntAct实验互作包含CEP70（中心体蛋白70, 酵母双杂交验证, PMID:16189514）、DVL2（Dishevelled-2）以及多个PDZ蛋白（PDLIM7）和转录因子（TSC22D4、RBPMS）。DVL2是Wnt信号通路的核心组分，与中心体/纤毛基部的初级纤毛信号转导密切相关。
+
+从TE调控角度，ENKD1主要通过纤毛/中心体通路与TE调控产生间接关联。初级纤毛是Hedgehog（Hh）和Wnt信号转导的关键细胞平台——Hh通路通过GLI转录因子调控多种靶基因，包括受ERV LTR调控的基因。ENKD1通过调节中心体CP110水平和纤毛发生，可能影响Hh信号在纤毛基质内的转导效率。然而，其TE调控潜力微弱：PubMed仅12篇（极低研究量）、Nucleoplasm定位为阴性（HPA:Plasma membrane/Centrosome/Primary cilium）、无直接染色质互作证据。评分62/100属于中等优先级候选，但定位决定其作为TE调控靶标的价值低于直接的核蛋白。
+
 ## 9. 人工复核备注
 
 - HPA 来源: 中心体

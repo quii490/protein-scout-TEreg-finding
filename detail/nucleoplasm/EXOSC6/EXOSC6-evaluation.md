@@ -98,3 +98,28 @@ EXOSC6的一个关键机制问题是：非催化亚基是否具有独立的结�
 
 HPA 检索: https://www.proteinatlas.org/search/EXOSC6
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| EXOSC5 | STRING | 999 |
+| MPHOSPH6 | STRING | 999 |
+| EXOSC7 | STRING | 999 |
+| EXOSC4 | STRING | 999 |
+| EXOSC3 | STRING | 999 |
+| EXOSC1 | STRING | 999 |
+| EXOSC2 | STRING | 999 |
+| EXOSC10 | STRING | 999 |
+| DIS3 | STRING | 999 |
+| EXOSC9 | STRING | 999 |
+| EXOSC8 | STRING | 999 |
+| C1D | STRING | 997 |
+| LRP1 | STRING | 997 |
+| MTREX | STRING | 995 |
+| ZFC3H1 | STRING | 948 |
+| PSMB1 | physical | Lehner B (2004) |
+| LSM1 | physical | Lehner B (2004) |
+| LSM7 | physical | Lehner B (2004) |
+| LSM8 | physical | Lehner B (2004) |
+| DNAJC30 | physical | Lehner B (2004) |
+

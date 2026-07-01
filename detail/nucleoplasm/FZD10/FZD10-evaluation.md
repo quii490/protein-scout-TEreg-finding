@@ -80,6 +80,11 @@ Nuclear protein
 | CTNNB1 | STRING | 731 |
 
 
+
+### 深度机制分析
+
+FZD10（Frizzled-10，581 aa）是Wnt信号通路的7次跨膜受体，属于Frizzled家族。结构域包括Frizzled/SFRP结构域（IPR015526, PF01392）、Frizzled/Smoothened 7TM（IPR000539, PF01534 Fz）和Frizzled胞外CRD结构域（IPR020067, IPR036790），CRD负责Wnt配体结合。AF pLDDT=80.6，PDB=2，跨膜受体结构置信度良好。PPI网络（degree=98）形成经典的Wnt信号体：RYK（945，Wnt共受体）、WNT2B（909）、GPC4（904，共受体）、WNT5A（869）、DVL2/DVL3（797/807，核心信号转导）、CTNNB1/beta-catenin（731）。关键文献41672294报道砷暴露通过E2F2/FZD10轴诱导人正常乳腺上皮细胞干性（Food Chem Toxicol 2026），40958973开发针对FZD10的钇标记免疫放疗用于宫颈癌。Wnt/FZD10/beta-catenin信号通路是公认的转录激活通路——Wnt结合后经DVL抑制GSK-3beta，beta-catenin稳定化并核转位，与TCF/LEF转录因子协同激活靶基因。FZD10自身核定位为Approved，可能通过核内体循环或NLS介导的异位机制进入核内。核内FZD10片段或全蛋白可能直接与TCF/LEF和beta-catenin在染色质上形成复合物，在TE驱动的Wnt响应增强子处调控转录（Wnt通路在进化中与TE密切相关，许多Wnt响应增强子源自TE插入）。FZD10的核定位赋予其不依赖配体结合的核内信号潜能。
+
 ![PAE](https://alphafold.ebi.ac.uk/files/AF-Q9ULW2-F1-predicted_aligned_error_v6.png)
 
 ### HPA IF 图像

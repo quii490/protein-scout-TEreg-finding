@@ -59,6 +59,12 @@ Hydrolyzes ADP-ribose (ADPR) to AMP and ribose 5'-phosphate (PubMed:11385575, Pu
 
 **TE 调控相关性**: 该蛋白缺乏明确的核/染色质定位证据，TE调控潜力极低，不建议作为优先靶标。
 
+### 深度机制分析
+
+**结构域架构**：NUDT9（ADP-ribose pyrophosphatase, 350 aa, 38.5 kDa, Q9BW91）是Nudix（Nucleoside diphosphate linked to X）水解酶超家族成员——以Nudix box motif（GX5EX7REUXEEXGU, U=hydrophobic）为特征。Nudix hydrolase域（IPR000086, Pfam PF00293, aa 178-334）折叠为a+b sandwich fold，保守Glu和Arg residues协调Mg2+离子参与催化——general base (Glu)激活水分子攻击ADPR的a-phosphate生成AMP+ribose-5-phosphate。Pfam额外条目PF25969为C端regulatory domain。AlphaFold pLDDT可用但无实验PDB结构，ESMFold pLDDT=0.60（43.1%残基<0.5,高度无序区域集中在N端前170 aa）。PPI（degree约50）以nucleotide metabolism为核心：NUDT5（STRING score=979）是ADP-sugar pyrophosphatase——与NUDT9形成功能对——协同调控nuclear ADP-ribose和8-oxo-dGDP（DNA damage nucleotide）水平。ADPRM（ADP-ribose/CDP-alcohol diphosphatase, STRING score=900）扩展至糖-nucleotide metabolism。NUDT14（STRING score=735）为UDP-glucose pyrophosphatase——共同构成Nudix-mediated nucleotide sanitization network。APP（BioGRID）出现于互作网络中。
+
+**TE调控展望**：ADP-ribose（ADPR）是TRPM2通道和MACRO-domain proteins的第二信使——核内ADPR浓度由PARP1/PARP2（poly-ADP-ribose polymerases）产生和PARG（poly-ADP-ribose glycohydrolase）水解动态调控。PARP1在TE-rich heterochromatin中被招募且其PARylation activity是DNA damage-triggered LINE-1/ERV transcription activation的上游信号——NUDT9通过水解游离ADPR降低nuclear ADPR水平——可能间接降低PARP1 hyperactivation的阈值——对抗DNA damage-induced TE activation。8-oxo-dGTP是ROS诱导的核/线粒体DNA损伤的致突变核苷酸——NUDT9的sanitization activity去除oxidized nucleotide pool——防止8-oxo-dG错配入新生DNA——减少TE区域的mutation负载——维持TE promoter的CG methylation pattern稳定性。NUDT9与NUDT5、NUDT14协同构建的nuclear nucleotide pool quality control可能在global genomic TE suppression中起底层支持作用。
+
 ### HPA IF 图像
 
 HPA 检索: https://www.proteinatlas.org/ENSG00000170502-NUDT9

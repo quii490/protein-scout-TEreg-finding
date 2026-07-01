@@ -162,6 +162,16 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### 深度机制分析
+
+DUSP26（Dual specificity protein phosphatase 26）。定位于nucleoplasm。包含211 aa / 23.9 kDa。UniProt编号Q9BV47。其InterPro结构域组成为IPR020405、IPR000340、IPR029021、IPR016130、IPR000387、IPR020422。Pfam注释1个保守结构域（PF00782，Dual specificity phosphatase catalytic domain）。AlphaFold预测三维结构pLDDT=84.3（高置信度），高置信残基占比67.8%，有序区域占比79.2%。此外拥有4个实验解析的PDB条目（2E0T、4B04、4HRF、5GTJ），预测结构与实验结构互补，结构可信度极高。
+
+从功能机制角度，该蛋白属于双特异性磷酸酶（DUSP）家族——能同时水解磷酸酪氨酸和磷酸丝氨酸/苏氨酸底物，是MAPK信号通路的关键负调控因子。文献证据表明DUSP26通过TAK1去磷酸化发挥心肌保护作用（PMID:33522247），通过与KIF3马达蛋白结合促进N-cadherin介导的细胞间黏附（PMID:19043453），并调控线粒体呼吸与氧化应激以保护神经元免受凋亡（PMID:35313355）。此外，在前列腺癌细胞中DUSP26过表达可抑制增殖、迁移和侵袭（PMID:39222869）。PPI网络分析显示其与AK2（STRING combined score=0.698）、HSF4（0.631）、TP53（0.462）、PTPN3（0.429）等存在预测互作，与CALCOCO2、EPHA2、NEURL4、HERC2、ABTB2等存在实验验证的低置信度互作（BioGRID）。
+
+从结构生物学角度，多个晶体结构揭示了其催化核心（aa 60-207，UniProt注释为Tyrosine-protein phosphatase domain，PROSITE-ProRule:PRU00160）具备经典的双特异性磷酸酶折叠，活性位点Cys残基被准确定位。有序区域占比79.2%表明整体结构稳定，适合基于结构的药物设计。在TE调控的背景下，DUSP26的nucleoplasm定位使其具备接触转座子元件的空间可能性，其去磷酸化活性可能参与TE区域组蛋白修饰或染色质重塑相关激酶级联的负调控。
+
+从研究转化角度，PubMed strict检索共39篇文献（broad 58篇），研究新颖度评分8/10。已有系统性综述总结其结构特征与疾病关联（PMID:33466673），但其与TE调控的直接关联尚未被任何文献探讨。综合评分73.6/100，属中高优先级靶标，建议优先进行TE相关磷酸化底物的功能验证实验。
+
 ### PPI 互作网络
 
 | 互作伙伴 | 来源 | 评分 |

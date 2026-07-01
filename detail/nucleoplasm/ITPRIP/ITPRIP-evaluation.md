@@ -44,6 +44,18 @@ status: shortlisted
 Nuclear protein
 
 
+
+
+### 深度机制分析
+
+ITPRIP（Inositol 1,4,5-trisphosphate receptor-interacting protein）。定位于nucleoplasm。包含547 aa / 62.1 kDa。UniProt编号Q8IWB1。其InterPro结构域组成为IPR026250、IPR046906、IPR024810。Pfam注释1个保守结构域（PF20266）。AlphaFold预测三维结构pLDDT=78.9（高置信度）。
+
+从功能机制角度，该蛋白的已知功能为Enhances Ca(2+)-mediated inhibition of inositol 1,4,5-triphosphate receptor (ITPR) Ca(2+) release，此外还与FBXO6、CD1B、RASSF1、ATP1B4等存在实验验证的低置信度互作。
+
+从结构生物学角度，AlphaFold预测结构显示中等置信度（pLDDT=78.9），提示部分区域可能存在内在无序区（IDR），这类无序区域在转录调控蛋白中常参与液-液相分离（LLPS）及多价弱相互作用，在TE调控的背景下，ITPRIP的nucleoplasm定位使其具备接触转座子元件的空间可能性。
+
+从研究转化角度，PubMed中仅有8篇相关文献报道，研究新颖度高，相关文献证据包括PMID:41538664、38682187、38561151，综合评分67.8/100，属于中等优先级，建议在更大规模的筛选中进一步验证。
+
 ### 补充分析 (UniProt API)
 
 **蛋白全称**: Inositol 1,4,5-trisphosphate receptor-interacting protein

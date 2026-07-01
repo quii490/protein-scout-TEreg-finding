@@ -71,6 +71,12 @@
 <tr><td>UNC119</td><td>BioGRID</td><td>0</td></tr>
 <tr><td>C14orf1</td><td>BioGRID</td><td>0</td></tr>
 </tbody></table></div>
+<h4>深度机制分析</h4>
+<p><strong>结构域架构</strong>：SEPHS1（392 aa，42.9 kDa）在2025年被重新定义为Zincore复合物的核心组分（PMID:40608935），含三个PurM样结构域——PurM-like_N（IPR010918）、PurM-like_C_dom（IPR036676）和PurM-like_C_sf（IPR036921）。PurM（磷酸核糖基氨基咪唑合成酶）折叠为典型的α/β结构域，其原始功能是在嘌呤从头合成途径中催化ATP依赖的氨基咪唑核苷酸（AIR）的合成。但SEPHS1已获得非经典功能（gene recruitment）：保留了PurM折叠的结构完整性，却利用其蛋白-蛋白互作表面识别锌指转录因子（Zinc Finger TFs, ZNFs）的锌指骨架（backbone）。这一&quot;代谢酶→转录共调控因子&quot;的功能转换在进化生物学中被称为&quot;双功能基因&quot;（bifunctional gene）或&quot;moonlighting&quot;蛋白的教科书案例。</p>
+<p><strong>PPI互作网络解读</strong>：PPI degree=83，核心互作包括：SEPHS1自身（形成同源二聚体/异源四聚体，BioGRID）、C9orf9（推测为Zincore的另一组分，BioGRID 0分）、GBP2（鸟苷酸结合蛋白2，GTPase参与先天免疫和细胞自主防御，BioGRID 0分）、SAT1（亚精胺/精胺N1-乙酰转移酶1，多胺代谢关键酶，BioGRID 0分）。值得注意的是，STRING和BioGRID的PPI数据尚未反映2025年Zincore发现的完整功能网络——Zincore复合物的ZNF合作伙伴（ZFP91、ZNF652、ZNF526、PRDM15）在其互作网络中尚未齐全。</p>
+<p><strong>结构解读</strong>：AlphaFold pLDDT=89.6（4个PDB结构验证），预测质量出色。N端PurM_N域形成特征性的βαββαβ Rossmann类折叠，ATP/ADP结合位点位于βα-loop-α的磷酸结合环（P-loop）中。C端PurM_C域为延伸的α-β-α三明治折叠，pLDDT &gt;90的区域涵盖了锌指识别面的核心残基。值得注意的是，SEPHS1的锌指识别面与传统的底物结合面（原PurM活性的AIR结合槽）在空间上明显不同——Zincore利用PurM折叠的背面（非催化面）识别锌指，而原始活性位点已被进化修饰退化或完全丧失催化功能。</p>
+<p><strong>机制模型</strong>：Zincore复合物通过以下机制调控转录：SEPHS1作为&quot;分子抓手&quot;（molecular grip），其PurM结构域识别并结合ZNF转录因子中锌指结构域的肽骨架（而非碱基特异性残基），将ZNF稳定锚定在它们的同源DNA结合位点上（PMID:40608935）。SEPHS1不直接接触DNA——它的功能类似分子伴侣，维持ZNF在染色质上的停留时间（residence time），防止ZNF过早从DNA上脱落。Zincore复合物的异源四聚体组装（可能为SEPHS1_2:C9orf9_2的四元结构）产生多位点ZNF结合能力，可能同时稳定多个临近的ZNF-DNA复合物以调控顺式调控元件（如超级增强子）的活性。</p>
+<p><strong>TE调控展望</strong>：SEPHS1/Zincore是目前本批次中TE调控潜力最高的候选之一。Zincore调控的ZNF转录因子——特别是PRDM15（含PR/SET甲基转移酶域和多个锌指）和ZNF526/ZNF652——是KRAB-ZNF基因家族的成员，该家族是人类基因组中TE（尤其是ERV和LINE-1）转录抑制的主力军。KRAB-ZNF通过识别TE序列中的特定DNA基序招募KAP1/TRIM28-SETDB1复合物，催化H3K9me3修饰建立TE的异染色质化。若Zincore通过SEPHS1稳定KRAB-ZNF在TE区域的结合，它实际上成为TE转录抑制机器的一个上游调控层。目前无直接实验数据支持，但Zincore→KRAB-ZNF→KAP1→H3K9me3的逻辑链具有极佳的可验证性（ChIP-seq实验设计可直接检测Zincore组分在TE位点的富集）。</p>
 <p><figure><img src="https://alphafold.ebi.ac.uk/files/AF-P49903-F1-predicted_aligned_error_v6.png" alt="PAE"></figure></p>
 <h4>HPA IF 图像</h4>
 <p>HPA: https://www.proteinatlas.org/ENSG00000086475-SEPHS1</p>

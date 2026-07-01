@@ -48,7 +48,15 @@ status: shortlisted
 Nuclear protein
 
 
-### 补充分析 (UniProt API)
+### 深度机制分析
+
+PSMC3IP（HOP2/TBPIP）是一个217个氨基酸的减数分裂特异性同源配对因子，其核心结构域组合为翼螺旋（Winged-Helix, WH）DNA结合结构域（IPR040661/WHD_TBPIP）与亮氨酸拉链三螺旋束（IPR010776/LZ3wCH）。WH结构域采用经典的α/β折叠——三个α-螺旋构成疏水核心，C端的"翼"环作为DNA磷酸骨架的辅助识别元件。LZ3wCH形成左手三股卷曲螺旋超二级结构，介导PSMC3IP与MND1形成稳定的异二聚体——这是其所有的减数分裂功能的前提。AlphaFold预测pLDDT高达92.1，结合0个PDB条目的矛盾（高预测置信度但无实验结构），使该蛋白成为结构生物学中极具吸引力的靶标。
+
+PSMC3IP的核心机制模型为：PSMC3IP-MND1异二聚体作为RAD51和DMC1重组酶的辅因子，促进减数分裂中同源染色体配对和链交换（strand exchange）过程。具体而言，该异二聚体结合DNA后稳定RAD51/DMC1在ssDNA上形成的核蛋白丝（presynaptic filament），并促进其对dsDNA的捕获（synaptic complex formation），从而催化同源重组中的关键步骤——链侵入（strand invasion）和D-loop形成。缺乏PSMC3IP的小鼠/人类模型中减数分裂完全停滞，导致不育（PMID:33170803）。
+
+HPA Supported的核质定位（Nucleoplasm）完全符合其在减数分裂同源重组中的核功能——该蛋白必须在染色质水平上发挥功能。PPI网络（degree=38）中与NR3C1（糖皮质激素受体）和BCAR3（乳腺癌抗雌激素耐药蛋白3）的核内互作（BioGRID=0）提示PSMC3IP可能具有减数分裂之外的、发生在体细胞中的DNA修复功能。事实上，PSMC3IP在胶质瘤中已被鉴定为预后生物标志物和免疫调节因子（PMID:40684322），其表达水平与患者生存期显著相关——这一观察如果反映的是PSMC3IP在体细胞同源重组修复中的角色，将具有重要的药物基因组学意义。
+
+尽管ChIP结果为None，PSMC3IP作为WH结构域蛋白在理论上具备直接结合DNA的能力。WH超折叠是转录因子中第二常见的DNA结合基序（仅次于HTH），包括FOX、ETS和HNF3等经典转录因子家族。PSMC3IP的WH结构域可能在进化上保留了对特定DNA序列（如减数分裂重组热点）的识别能力——这一假说若获证实，将使PSMC3IP从"纯重组辅因子"升级为"位点特异的染色质调控因子"。从TE调控角度看，PSMC3IP通过同源重组机制可能参与维持着丝粒和端粒附近的基因组稳定性——这些区域富含转座子衍生的重复序列——间接影响TE元件的维持与清除的平衡。
 
 **蛋白全称**: Homologous-pairing protein 2 homolog
 

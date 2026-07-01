@@ -41,7 +41,15 @@ PPI degree: 9  ChIP: Yes
 **TE candidate** -- Snail/Krueppel_Znf; Znf_C2H2_sf; Znf_C2H2_type
 
 
-### 补充分析 (UniProt API)
+### 深度机制分析
+
+SCRT2（Scratch 2）是Snail超家族（Snail/Slug/Scratch）中的转录抑制因子，307个氨基酸的经典锌指转录因子架构包含多个C2H2型锌指结构域（IPR013087/Znf_C2H2_type, PF00096/zf-C2H2）。每个C2H2锌指通过2个半胱氨酸和2个组氨酸配位一个Zn2+离子，形成紧凑的ββα折叠单元——α-螺旋插入DNA大沟进行序列特异性识别。Snail/Krueppel_Znf超家族（IPR050527/IPR036236）成员通常结合E-box（CAGGTG/CACCTG）基序，通过N端的SNAG（Snail/Gfi）抑制结构域招募共抑制因子（如CtBP、Sin3A/HDAC、PRC2）来沉默靶基因转录。
+
+HPA Approved的Nucleoplasm定位加上ChIP验证（核定位特异性9/10）使SCRT2成为本批次中核定位证据最强的蛋白之一。其PPI网络（degree=9）虽小但引人注目：与FZR1（Cdh1，APC/C泛素连接酶的底物识别亚基）、SBDS（核糖体成熟因子）、TRRAP（SAGA乙酰转移酶复合体的核心组分）和RECQL（RecQ DNA解旋酶）的互作（BioGRID=1）一一指向核内核心功能——细胞周期调控、核糖体生物合成、组蛋白乙酰化和DNA修复。尤为重要的是，TRRAP作为所有SAGA乙酰转移酶功能的必需支架蛋白，SCRT2-TRRAP互作暗示SCRT2可能通过SAGA复合体调控靶基因位点的H3K9/H3K27乙酰化水平。
+
+在发育生物学层面，SCRT2的最新突破性发现为：一个模块化增强子（enhancer）介导SCRT2对ISLET1的抑制——ISLET1是脊髓运动神经元分化的关键转录因子（PMID:40818523）。这一发现表明SCRT2通过结合ISLET1位点附近的特异性增强子元件，在脊髓背侧抑制运动神经元命运，维持感觉神经元谱系。在癌症方面，SCRT2在上皮间质转化（EMT）中的表达具有分化阶段特异性（PMID:39268037），提示其在不同EMT阶段（起始vs完成）发挥双向调控。
+
+SCRT2被标记为TE_REG_CANDIDATE，这一判断基于深刻的分子机制基础。Snail超家族转录因子是经典的表观遗传修饰招募因子——SCRT2通过其SNAG结构域直接结合LSD1（KDM1A，H3K4me2去甲基化酶）——这是其他Snail家族成员（如SNAI1）的共同机制。通过与LSD1/Sin3A/HDAC复合体的协同，SCRT2可将靶基因位点（包括转座子起始位点）上的活性H3K4me2转化为H3K4me0，同时去除乙酰化——创建"封闭型"染色质状态。无脊椎动物Scratch同源基因被证明直接调控转座子——这一进化保守性使SCRT2成为脊椎动物TE调控研究的极具价值候选。建议首先通过ChIP-seq鉴定SCRT2的全基因组结合图谱，重点分析TE区和增强子区的富集模式。
 
 **蛋白全称**: Transcriptional repressor scratch 2
 

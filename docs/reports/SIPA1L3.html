@@ -44,6 +44,12 @@
 <p>39651118: Uncovering the electrical synapse proteome in retinal neurons via in vivo proxim | 27993984: An Epha4/Sipa1l3/Wnt pathway regulates eye development and lens maturation. | 33130294: Host genetics influences the relationship between the gut microbiome and psychia</p>
 <h4>4. 总体评价</h4>
 <p><strong>68.9/100</strong> | <strong>nucleoplasm</strong> Nuclear protein</p>
+<h4>深度机制分析</h4>
+<p><strong>多结构域信号支架蛋白与核质功能的张力</strong>：SIPA1L3（Signal-induced proliferation-associated 1-like protein 3, 1781 aa, UniProt O60292）是本研究批次中分子量最大的蛋白（194.6 kDa）。其结构域架构包含PDZ结构域（IPR001478, Pfam PDZ）、Rap/Ran-GAP超折叠（IPR035974）和Rap-GAP二聚化域（Pfam Rap-GAP_dimer），构成了经典的信号支架蛋白拓扑。PDZ结构域通常通过识别靶蛋白C端PDZ结合基序（class I: X-S/T-X-Φ-COOH）介导蛋白-蛋白互作，在细胞极性、细胞连接组装中发挥核心功能。该蛋白的已知生理功能集中在晶状体上皮细胞形态发生和极性维持（PMID:26231217），PDZ介导的与AMOT-Patj紧密连接复合物的相互作用抑制是其分子机制的核心（PMID:41088697）。</p>
+<p><strong>核质定位的矛盾与TE调控窗口</strong>：HPA数据显示该蛋白定位于Golgi apparatus、Nucleoplasm和Plasma membrane（核定位特异性8/10, Approved evidence）。一个194.6 kDa的蛋白出现在核质中是反直觉的——其分子量远超被动扩散的核孔阈值（~40-60 kDa），因此必然存在主动核输入机制。可能的核定位信号（NLS）尚未被实验鉴定。PPI数据中出现了ELAVL1（HuR, STRING）——一种经典的RNA结合蛋白，穿梭于核质与胞质之间并参与mRNA稳定性和翻译调控。若SIPA1L3通过ELAVL1介导的核质穿梭进入核内，则可能在核内执行与胞质不同的信号功能。</p>
+<p><strong>Rap-GAP信号与染色质调控的潜在交汇</strong>：Rap/Ran-GAP超折叠赋予该蛋白GTPase激活蛋白功能，可能调控Rap或Ran小G蛋白家族。Ran GTPase是核质转运的核心调控因子，Ran-GTP梯度驱动importin-α/β介导的核输入和exportin介导的核输出。若SIPA1L3具有Ran-GAP活性，它可能直接参与核质转运机器的门控，甚至可能调控染色质修饰酶（如HDAC、SUV39H1）的核定位。此外，PPI中DYRK1B（双特异性酪氨酸磷酸化调控激酶1B, BioGRID）的存在值得关注——DYRK1B磷酸化HP1γ和H3，影响异染色质组装。这一间接的染色质连接是SIPA1L3-TE调控假说的唯一分子线索。</p>
+<p><strong>大尺寸蛋白的结构限制</strong>：AlphaFold pLDDT=55.5的极低置信度（蛋白大小1781 aa超出AF2可靠预测范围）和PDB=0的结构缺失严重阻碍了机制研究。1781 aa的蛋白大小为实验提供了空间——可设计截短体进行结构域功能映射。PDZ域和Rap-GAP域可作为独立模块进行体外生化分析。考虑到PPI degree=110（STRING/BioGRID）的中等互作复杂度和PubMed=17的低文献量，该蛋白属于信号蛋白的&quot;核内月光功能&quot;探索型候选。</p>
+<p><strong>风险收益评估</strong>：主要风险在于核定位可能为HPA抗体交叉反应的假阳性，且已知功能（上皮极性）与核质/TE调控之间存在巨大概念跳跃。归一化得分68.9/100中新奇性维度45/50、PPI 21/30是两大亮点，但三维结构得分12/30是显著短板。若推进，建议首先通过免疫荧光结合亚细胞分级确认核定位的真实性，随后通过BioID临近标记鉴定核内互作组。</p>
 <h4>补充分析 (UniProt API)</h4>
 <p><strong>蛋白全称</strong>: Signal-induced proliferation-associated 1-like protein 3</p>
 <p><strong>功能</strong>: Plays a critical role in epithelial cell morphogenesis, polarity, adhesion and cytoskeletal organization in the lens (PubMed:26231217)</p>
@@ -70,21 +76,7 @@
 <tr><td>SRPK2</td><td>BioGRID</td><td>1</td></tr>
 <tr><td>CEP152</td><td>BioGRID</td><td>1</td></tr>
 <tr><td>ODF2</td><td>BioGRID</td><td>1</td></tr>
-</tbody></table></div>
-<p><figure><img src="https://alphafold.ebi.ac.uk/files/AF-O60292-F1-predicted_aligned_error_v6.png" alt="PAE"></figure></p>
-<h4>HPA IF 图像</h4>
-<p>HPA: https://www.proteinatlas.org/ENSG00000105738-SIPA1L3</p>
-<p><figure><img src="https://images.proteinatlas.org/74988/2053_A9_4_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/74988/2053_A9_5_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/74988/1872_D8_31_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/74988/1872_D8_33_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/74988/1947_F11_1_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/74988/1947_F11_4_red_green.jpg" alt="image"></figure></p>
-<h4>PubMed 文献</h4>
-<p><strong>PubMed count: 24</strong></p>
-<div class="table-wrap"><table>
-<tbody>
-<tr><td>42159345</td><td>Uncovering the electrical synapse proteome in retinal neurons via in vivo proximity labeling.</td><td>Elife 2026</td></tr>
-<tr><td>41870631</td><td>Identification of potential diagnostic and therapeutic apoptosis-related casual targets for osteoporosis: an integrated</td><td>J Bone Miner Metab 2026</td></tr>
-<tr><td>41088697</td><td>SIPA1L3 via its PDZ domain inhibits the tight junction-associated AMOT-Patj to promote a malignant phenotype in NSCLC.</td><td>Medicine (Baltimore) 2025</td></tr>
-</tbody></table></div>
-<h4>HPA IF 图像</h4>
-<p>HPA 检索: https://www.proteinatlas.org/search/SIPA1L3</p></article></main>
+</tbody></table></div></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

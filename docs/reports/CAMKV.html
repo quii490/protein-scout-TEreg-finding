@@ -56,18 +56,11 @@
 </tbody></table></div>
 <p><strong>TE 调控评估</strong>: 该蛋白缺乏核定位证据，TE调控潜力极低。</p>
 <hr>
-<h4>PPI 互作网络</h4>
-<div class="table-wrap"><table>
-<thead><tr><th>互作伙伴</th><th>来源</th><th>评分</th></tr></thead><tbody>
-<tr><td>TCEA2</td><td>BioGRID</td><td>1</td></tr>
-<tr><td>COPS5</td><td>BioGRID</td><td>1</td></tr>
-<tr><td>APP</td><td>BioGRID</td><td>1</td></tr>
-<tr><td>HSP90AA1</td><td>BioGRID</td><td>1</td></tr>
-<tr><td>NUFIP1</td><td>BioGRID</td><td>1</td></tr>
-<tr><td>DGUOK</td><td>BioGRID</td><td>1</td></tr>
-<tr><td>DNAAF2</td><td>BioGRID</td><td>1</td></tr>
-<tr><td>UBTF</td><td>BioGRID</td><td>1</td></tr>
-</tbody></table></div>
+<h4>深度机制分析</h4>
+<p>CAMKV是CaM Kinase-like Vesicle-associated Protein，属于钙/钙调蛋白依赖性蛋白激酶(CaMK)家族的非典型成员。其结构域包含经典的Kinase-like_dom_sf(IPR011009)折叠和Prot_kinase_dom(IPR000719)，但与所有其他CaMK超家族成员的一个根本区别在于：CAMKV已被证实缺乏可检测的激酶催化活性(UniProt: &quot;Does not appear to have detectable kinase activity&quot;)。催化失活的分子基础可能是催化环(HRD基序)、镁结合环(DFG基序)或激活环中的关键残基发生非保守替换，使得ATP的γ-磷酸无法被转移。</p>
+<p>pLDDT仅70.6，是这批核蛋白中结构预测置信度最低的蛋白之一，但其较长的柔性区域(501 aa)暗示一个可能的结构模型：CAMKV通过催化失活的伪激酶结构域作为CaM诱导的蛋白-蛋白互作支架，而非行使磷酸化酶活性。在细胞质中，CAMKV依赖Ca²⁺/CaM信号被招募至囊泡膜，参与神经递质/神经肽的囊泡运输与分泌调节。</p>
+<p>CAMKV的HPA定位为Cytokinetic bridge和Nucleoplasm(Approved)。胞质分裂桥中的定位与已知的CaMK家族在细胞周期中的功能一致——CaMKII在末期参与肌动蛋白收缩环的调节。然而，核质定位提示CAMKV可能具有独立于囊泡运输的核功能。PPI网络揭示了几个关键线索：TCEA2(转录延伸因子A2)是RNA聚合酶II延伸复合体的组成部分；UBTF(上游结合转录因子)是RNA聚合酶I的转录因子，负责rRNA基因的转录调控；NUFIP1(核FMRP互作蛋白1)与RNA代谢和mRNA的核质穿梭有关。</p>
+<p>综合来看，CAMKV在核质中的机制模型为：CAMKV作为CaM诱导的骨架蛋白在Ca²⁺内流时发生构象变化，通过其伪激酶结构域的特异性PPI界面结合TCEA2、UBTF或NUFIP1，间接调控转录延伸效率。这种&quot;催化死亡、变构支架&quot;的功能模式已在多个伪激酶(如HER3、STRADα)中被证实是进化中的保守机制。值得注意的是，CAMKV自身抗体已被报道为副肿瘤性神经综合征的致病因子(PMID:38634529)，且其在纤维肌痛的GWAS中被鉴定为风险位点(PMID:41001472)，提示其在神经-免疫信号中具有关键的生物医学重要性。PubMed仅17篇，亟需CRISPR敲除功能研究来验证上述假设模型。</p>
 <p><figure><img src="https://alphafold.ebi.ac.uk/files/AF-Q8NCB2-F1-predicted_aligned_error_v6.png" alt="PAE"></figure></p>
 <h4>HPA IF 图像</h4>
 <p>HPA: https://www.proteinatlas.org/ENSG00000164076-CAMKV</p>
@@ -81,7 +74,21 @@
 <tr><td>41476076</td><td>Clinical course, risk factors and mitigating strategies for Immune effector cell-associated late onset neurotoxicities a</td><td>Blood Cancer J 2025</td></tr>
 </tbody></table></div>
 <h4>HPA IF 图像</h4>
-<p>HPA 检索: https://www.proteinatlas.org/search/CAMKV</p></article></main>
+<p>HPA 检索: https://www.proteinatlas.org/search/CAMKV</p>
+<h4>PPI 互作网络</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>互作伙伴</th><th>来源</th><th>评分</th></tr></thead><tbody>
+<tr><td>TCEA2</td><td>physical</td><td>Stelzl U (2005)</td></tr>
+<tr><td>COPS5</td><td>physical</td><td>Bennett EJ (2010)</td></tr>
+<tr><td>APP</td><td>physical</td><td>Olah J (2011)</td></tr>
+<tr><td>HSP90AA1</td><td>physical</td><td>Taipale M (2012)</td></tr>
+<tr><td>ARMC1</td><td>physical</td><td>Huttlin EL (2015)</td></tr>
+<tr><td>HAX1</td><td>physical</td><td>Huttlin EL (2015)</td></tr>
+<tr><td>NUFIP1</td><td>physical</td><td>Huttlin EL (2015)</td></tr>
+<tr><td>DGUOK</td><td>physical</td><td>Huttlin EL (2015)</td></tr>
+<tr><td>DNAAF2</td><td>physical</td><td>Huttlin EL (2015)</td></tr>
+<tr><td>UBTF</td><td>physical</td><td>Huttlin EL (2017)</td></tr>
+</tbody></table></div></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

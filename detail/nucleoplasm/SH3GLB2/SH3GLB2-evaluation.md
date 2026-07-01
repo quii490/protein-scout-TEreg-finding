@@ -63,18 +63,17 @@ Nuclear protein
 ---
 
 
-### PPI 互作网络
+### 深度机制分析
 
-| 互作伙伴 | 来源 | 评分 |
-|---|---|---|
-| CBLC | STRING | 801 |
-| CBLB | STRING | 800 |
-| BIN1 | STRING | 703 |
-| MAGEA1 | BioGRID | 1 |
-| PA2G4 | BioGRID | 1 |
-| SREK1 | BioGRID | 1 |
-| GADD45G | BioGRID | 1 |
-| PPP6R2 | BioGRID | 1 |
+SH3GLB2(Endophilin-B2)是BAR结构域超家族(Endophilin/BIN/Amphiphysin/Rvs)成员，介导膜重塑与囊泡运输。其395 aa蛋白包含两个核心功能模块：N端BAR_dom(IPR004148/AH/BAR_dom_sf)采用香蕉形同源二聚体拓扑，通过其正电性凹面结合带负电的细胞膜并诱导/感知膜曲率；C端Endophilin_B2_SH3(IPR035640/PF14604)是典型的SH3(SRC Homology 3)结构域，选择性结合富含脯氨酸基序(PXXP)的配体蛋白。pLDDT=78.3，反映了BAR-SH3双模结构域在AlphaFold中的良好预测置信度。
+
+在胞内膜运输中，Endophilin-B2的功能分为两步：(1)BAR结构域结合高曲率膜管(内吞颈或自噬体膜边缘)，通过静电-膜脂相互作用稳定曲率；(2)SH3结构域招募下游效应因子——dynamin GTP酶(BIN1互作，STRING=703)通过富含脯氨酸尾与SH3结合，催化膜剪切断裂。CBL家族E3泛素连接酶(CBLC、CBLB，STRING score>800)与SH3GLB2通过SH3-PXXP互作，将泛素化信号整合入膜重塑过程——这是调控内吞受体(receptor tyrosine kinase, RTK)下调和蛋白分选的重要机制。
+
+HPA定位为Cytosol和Nucleoplasm(Supported)。SH3GLB2的核质定位最能通过以下机制合理化：SH3GLB2通过SH3结构域与GADD45G和PA2G4(增殖相关蛋白2G4/Ebp1，BioGRID互作)结合。GADD45G和PA2G4均是受p53调控的核蛋白，参与DNA去甲基化和细胞周期抑制。Endophilin-B2在核质中可能通过SH3结构域的配体适配器功能锚定于核蛋白互作网络，而非通过膜重塑活性发挥作用。
+
+近年蛋白组学将SH3GLB2与WWOX(肿瘤抑制因子WW氧化还原酶)和Zfra(锌指样蛋白)信号通路联系起来(PMID:38542478, PMID:36498839)。Zfra-WWOX-TRAPPC6A通路涉及神经退行性疾病的蛋白聚集与小胶质细胞炎症。鉴于Endophilin-B2在自噬体成熟中的已知角色，其在核质中的出现可能反映了自噬-核质信号耦合(cross-talk)的存在。PubMed仅14篇，该蛋白的研究尚处于早期阶段。
+
+
 
 
 ![PAE](https://alphafold.ebi.ac.uk/files/AF-Q9NR46-F1-predicted_aligned_error_v6.png)
@@ -100,4 +99,17 @@ HPA: https://www.proteinatlas.org/ENSG00000148341-SH3GLB2
 ### HPA IF 图像
 
 HPA 检索: https://www.proteinatlas.org/search/SH3GLB2
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| CBLC | STRING | 801 |
+| CBLB | STRING | 800 |
+| BIN1 | STRING | 703 |
+| MAGEA1 | physical | Rual JF (2005) |
+| CCDC158 | physical | Rual JF (2005) |
+| SH3KBP1 | physical | Petrelli A (2002) |
+| SH3GLB1 | physical | Pierrat B (2001) |
+| UBA5 | physical | Behrends C (2010) |
 

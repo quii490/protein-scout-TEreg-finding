@@ -57,6 +57,19 @@ Negatively regulates NLRP3-driven inflammation (PubMed:39225180). Promotes NLRP3
 
 **TE 调控相关性**: 该蛋白缺乏明确的核/染色质定位证据，TE调控潜力极低，不建议作为优先靶标。
 
+### 深度机制分析
+
+ABHD8（Protein ABHD8，UniProt: Q96I13，439 aa / 48.3 kDa）的结构域架构分析显示：InterPro结构域包括IPR000073, IPR000639, IPR029058；Pfam注释为PF00561；UniProt定义域:DOMAIN 177..279; /note="AB hydrolase-1"; /evidence="ECO:0000255"。 尚无AlphaFold结构数据。
+
+蛋白质互作网络分析揭示ABHD8与以下关键因子存在相互作用：ANKLE1、LMO2、ZNF410、CHMP4C、BRD3。 功能注释显示Negatively regulates NLRP3-driven inflammation. Promotes NLRP3 degradation through the chaperone-mediated autophagy (CMA) pathway, hence attenuating inflammasome activation and IL1B。 这些互作伙伴暗示该蛋白可能通过多蛋白复合物参与细胞过程调控，其互作网络的拓扑位置值得进一步实验验证。
+
+从结构-功能机制角度分析，ABHD8的亚细胞定位为无已知核定位注释，目前缺乏核定位的实验证据，其在核内的功能角色尚待阐明。 评估综合得分66.7/100，属于中等兴趣候选，在明确核定位后其TE调控潜力可能显著提升。 推荐等级为2/5。
+
+对于TE调控机制的意义而言，ABHD8的结构域组成不直接指向经典染色质调控因子，但其在核内的存在（若经实验确认）可能暗示非经典TE调控途径。 研究新颖性方面，PubMed检索获得0篇文献，该蛋白几乎未被研究，是一个高度新颖的靶标，具有较大的学术探索空间。 代表性文献包括PMID:42000858, 41293172, 39225180等。
+
+综上所述，ABHD8作为一个439 aa / 48.3 kDa的无已知核定位注释定位蛋白，具有一定的TE调控研究价值，建议首先通过亚细胞分级和免疫荧光明确其在核内的分布模式，再设计针对性的功能实验。
+
+
 ### HPA IF 图像
 
 HPA 检索: https://www.proteinatlas.org/ENSG00000127220-ABHD8
@@ -108,5 +121,4 @@ HPA 检索: https://www.proteinatlas.org/search/ABHD8
 | 39225180 | ABHD8 antagonizes inflammation by facilitating chaperone-mediated autophagy-mediated degradation of NLRP3. |
 | 35026432 | Trans-omics analyses revealed key epigenetic genes associated with overall survival in secondary progressive multiple sclerosis. |
 | 33667223 | Genome-wide association meta-analysis identifies pleiotropic risk loci for aerodigestive squamous cell cancers. |
-
 

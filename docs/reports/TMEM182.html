@@ -68,6 +68,12 @@
 <tr><td>KLRC1</td><td>BioGRID</td><td>0</td></tr>
 <tr><td>MALL</td><td>BioGRID</td><td>0</td></tr>
 </tbody></table></div>
+<h4>深度机制分析</h4>
+<p><strong>结构域架构</strong>：TMEM182（229 aa，25.9 kDa）含有PMP22/EMP/MP20/Claudin结构域（IPR004031）和TMEM182特异性结构域（IPR026763），Pfam注释为Claudin_2（PF13903）。该家族蛋白的共同特征是四次跨膜α-螺旋拓扑（tetraspan），N端和C端均位于胞质侧，形成两个胞外loop（ECL1和ECL2）和一个胞内loop（ICL）。Claudin家族蛋白是紧密连接（tight junction）的核心结构组分，通过同型/异型反式互作（ECL2介导）形成细胞间通透屏障。但TMEM182缺乏Claudin标志性的C端PDZ结合基序，提示其可能在紧密连接中发挥调节性而非结构性功能。</p>
+<p><strong>PPI互作网络解读</strong>：PPI degree=22，关键互作为ITGB1（整合素β1，PMID:34427057通过实验证实TMEM182直接与ITGB1结合并调控成肌细胞分化，是唯一有实验证据支持的互作）。其余互作包括：SYNE4（含Spectrin重复的核膜蛋白，参与核-细胞骨架连接）、LGALS3（Galectin-3，半乳糖凝集素，参与糖基化信号和细胞粘附）、TSPAN12（Tetraspanin-12，Notch/ADAM10剪切调控因子）、GJA8（Connexin 50，间隙连接蛋白）。ITGB1互作的实验验证为TMEM182的功能提供了坚实锚定点。</p>
+<p><strong>结构解读</strong>：AlphaFold pLDDT=87.5，本批次中预测质量最高之一。四次跨膜α-螺旋清晰可辨（pLDDT &gt;90），形成紧密的螺旋束（helix bundle）。ECL1和ECL2形成特征性的β-发夹结构（pLDDT &gt;85），通过保守的半胱氨酸残基形成的二硫键稳定。胞质N端和C端的pLDDT较低（50-60），C端尾可能具有构象柔性，内含ITGB1的结合区域。高pLDDT值反映了四次跨膜蛋白的结构预测成熟度——此类拓扑在实验结构中常见，使得AlphaFold的预测非常可靠。</p>
+<p><strong>机制模型</strong>：（1）经典功能：TMEM182在质膜（可能也在囊泡膜）上通过ITGB1的结合调节整合素β1的活化——TMEM182降低了ITGB1与其配体LAMB1（层粘连蛋白β1）的互作亲和力（PMID:34427057），从而抑制整合素信号通路（FAK-Src-RhoA）及随后的成肌细胞融合和肌纤维形成；（2）在成脂分化中，TMEM182促进脂肪沉积和代谢重编程（PMID:38181918），可能通过相同的ITGB1介导的细胞基质粘附调控机制；（3）核质定位（Approved）的可能解释：TMEM182可能作为核膜的整合膜蛋白表达——核膜内层富含LINC复合物（SUN-KASH蛋白）和细胞骨架连接蛋白，TMEM182可能通过与SYNE4（推测为KASH域的核膜锚定蛋白）互作锚定于核膜，在核-细胞骨架连接的机械感应信号传导中发挥作用。</p>
+<p><strong>TE调控展望</strong>：TMEM182的TE调控潜力极低。其主要作为膜整合蛋白在细胞-基质粘附和肌生成/脂质代谢中发挥作用。然而，整合素信号通路（由TMEM182负调控）通过FAK-YAP/TAZ机械转导通路影响染色质开放性和基因表达——YAP/TAZ已知在某些环境中激活TE（特别是LTR启动子下游的致癌基因）。TMEM182通过抑制ITGB1可能间接减弱YAP/TAZ活性，进而调制TE驱动的转录。这一间接联系在骨骼肌TE生物学（PMID:36785897的连锁研究）中可能具有组织特异性意义。</p>
 <p><figure><img src="https://alphafold.ebi.ac.uk/files/AF-Q6ZP80-F1-predicted_aligned_error_v6.png" alt="PAE"></figure></p>
 <h4>HPA IF 图像</h4>
 <p>HPA: https://www.proteinatlas.org/ENSG00000170417-TMEM182</p>

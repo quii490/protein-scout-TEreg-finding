@@ -100,7 +100,12 @@
 <tr><td>pLDDT &lt; 0.5 占比</td><td>3.1%</td></tr>
 <tr><td>建模残基数</td><td>386</td></tr>
 </tbody></table></div>
-<p>ESMFold 基于进化规模语言模型，进行无 MSA 搜索的从头折叠，可作为 AlphaFold 的独立验证。</p></article></main>
+<p>ESMFold 基于进化规模语言模型，进行无 MSA 搜索的从头折叠，可作为 AlphaFold 的独立验证。</p>
+<h4>深度机制分析</h4>
+<p>PPME1（Protein phosphatase methylesterase 1）的深度机制分析需从其在PP2A磷酸酶调控网络中的核心角色切入。该蛋白属于alpha/beta水解酶超家族（InterPro:IPR029058），含有一个活性AB_hydrolase结构域（IPR000073, Pfam:PF12697），以丝氨酸水解酶机制催化PP2A催化亚基（PPP2CA/PPP2CB）C端亮氨酸309的可逆甲酯化修饰的去甲基化。ESMFold预测展示了极高的结构置信度——全局pLDDT=0.86且58.8%的残基pLDDT&gt;0.9，说明AB_hydrolase结构域折叠极为完善，活性位点催化三联体（Ser-Asp-His）具有精确的几何排列。这一去甲基化酶活性具有深远的调控意义：PP2A催化亚基的C端甲酯化状态直接调控其与B调控亚基的组装，从而决定PP2A全酶的底物特异性和亚细胞定位。</p>
+<p>PPI互作网络数据完美印证了这一机制模型。STRING互作谱显示PPME1与PP2A核心组分之间存在极高置信度的互作：PPP2R1A（支架A亚基, score=999）、PPP2CA（催化C亚基, score=999）、PPP2R5C（B56调控亚基, score=981）、PPP2R1B（score=978）、PPP2CB（score=966）以及LCMT1（PP2A甲酯转移酶, score=920）。其中PPME1与LCMT1构成一对功能拮抗的酶——LCMT1负责PP2A的甲酯化（激活），PPME1负责去甲基化（失活），两者共同维持PP2A甲酯化动态平衡。值得注意的是，PPP2R1A和PPP2CA均为score=999的最高置信互作，与UniProt功能注释&quot;demethylates PPP2CA (in vitro) and PPP2CB; binding to PPP2CA displaces manganese ion and inactivates PP2A&quot;完全吻合，形成了从序列注释→结构置信度→PPI验证的三层证据闭环。</p>
+<p>在疾病关联方面，PMID 41884849系统评估了PPME1在泛癌中的诊断、预后和免疫调控价值，并通过乳腺癌实验验证了其作为生物标志物的潜力——这直接关联PPME1对PP2A活性的调控，因为PP2A是已知的肿瘤抑制因子，其失活与多种癌症的发生发展相关。此外，PMID 42321189报道的动态组合库筛选方法将PPME1作为共价配体的潜在靶标，提示该蛋白的活性位点具有可药性。然而，PPME1现有的功能注释和文献完全聚焦于其对PP2A的调控，缺乏任何核定位或TE调控的直接证据——其GO-CC注释为&quot;无已知核定位注释&quot;，核定位特异性评分仅4/10。</p>
+<p>综合来看，PPME1是一个具有高度可信结构、清晰酶学机制和完美PPI验证的磷酸酶调控蛋白，但其生物学功能锚定于胞质PP2A信号网络，而非核内TE调控。推荐等级2/5（66.7/100）主要由新颖性（10/10）和良好的结构数据（6/10）驱动。其深度机制模型是：AB_hydrolase结构域催化PP2A催化亚基C端去甲基化→锰离子解离→PP2A失活→下游磷酸化信号改变。这一模型高度可信且实验证据充分，但与目标TE调控方向无关。若考虑重新定位研究价值，PPME1更适合作为PP2A相关肿瘤信号通路的调控靶标，而非TE调控候选蛋白。</p></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

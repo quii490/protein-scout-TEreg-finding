@@ -62,18 +62,17 @@ Nuclear protein
 ---
 
 
-### PPI 互作网络
+### 深度机制分析
 
-| 互作伙伴 | 来源 | 评分 |
-|---|---|---|
-| ARRB2 | BioGRID | 0 |
-| NCEH1 | BioGRID | 0 |
-| PCP2 | BioGRID | 0 |
-| DOK2 | BioGRID | 0 |
-| HSD3B2 | BioGRID | 0 |
-| OXLD1 | BioGRID | 0 |
-| LZTFL1 | BioGRID | 0 |
-| TRIM25 | BioGRID | 0 |
+TMEM38A(TRIC-A)是TRIC(Trimeric Intracellular Cation Channel)三聚体胞内阳离子通道家族成员，编码一个299 aa的跨膜蛋白。其核心功能域为TRIC_channel(IPR007866/PF05197)，该结构域在细菌到哺乳动物间高度保守，形成同源三聚体阳离子选择性孔道。pLDDT=80.5说明该三聚体跨膜结构在AlphaFold中具有较高的预测置信度，不过其柔性胞质N端和C端尾部的局部结构尚不确定。
+
+传统上，TMEM38A被定位于肌质网(内质网的内质网亚型)膜上，作为K⁺逆离子(Counter-ion)通道与RyR(雷诺丁受体)钙释放通道协同工作(PMID:41148795)。其生理机制为：在肌肉兴奋-收缩偶联中，动作电位触发肌质网释放Ca²⁺，产生的跨膜电位差由TRIC-A介导的K⁺回流所中和，从而维持Ca²⁺持续释放。然而，HPA将其注释为Nucleoplasm(Approved)，这一意外发现使得TRIC-A的功能范围被实质性扩展。
+
+核质定位机制假说包括：TMEM38A可能定位于内核膜(Inner Nuclear Membrane, INM)，其TRIC通道结构域跨越内核膜，三聚体孔径通过K⁺通量调节核周腔(Nuclear Envelope Lumen)和核质间的离子微环境，类似核膜上SUN-KASH复合体的离子偶联转运功能。TRIM25(BioGRID互作)作为经典的E3泛素连接酶，其核质定位涉及RIG-I抗病毒信号通路的泛素修饰，提示TMEM38A与先天免疫信号间可能存在非经典核膜通道-泛素化偶联机制。
+
+该蛋白的另一显著特征是PPI degree仅11——在所有分析蛋白中互作网络最稀疏。这种"低PPI-关键功能"的矛盾组合恰恰表明TMEM38A可能通过阳离子选择性而非蛋白-蛋白互作来发挥其核心功能。换言之，其生物学活性主要由K⁺的通透率决定，而不是依赖复杂的蛋白互作网络。在透明细胞肾细胞癌中，TMEM38A的过表达抑制肿瘤进展(PMID:39863641)，这为核质离子通道与肿瘤抑制信号间的关联提供了入口。PubMed仅8篇的新颖性意味着该核质离子通道领域几近空白。
+
+
 
 
 ![PAE](https://alphafold.ebi.ac.uk/files/AF-Q9H6F2-F1-predicted_aligned_error_v6.png)
@@ -100,4 +99,16 @@ HPA: https://www.proteinatlas.org/ENSG00000072954-TMEM38A
 ### HPA IF 图像
 
 HPA 检索: https://www.proteinatlas.org/search/TMEM38A
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ARRB2 | physical | Huttlin EL (2015) |
+| NCEH1 | physical | Huttlin EL (2015) |
+| PCP2 | physical | Huttlin EL (2015) |
+| DOK2 | physical | Huttlin EL (2015) |
+| HSD3B2 | physical | Huttlin EL (2017) |
+| OXLD1 | physical | Huttlin EL (2017) |
+| LZTFL1 | physical | Huttlin EL (2017) |
 

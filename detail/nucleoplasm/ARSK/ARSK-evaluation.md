@@ -52,6 +52,16 @@ Catalyzes the hydrolysis of pseudosubstrates such as p-nitrocatechol sulfate and
 
 no known nuclear annotation
 
+### 深度机制分析
+
+ARSK编码芳基硫酸酯酶K（Arylsulfatase K）的TrEMBL变体，其结构域架构以硫酸酯酶超家族催化模块为特征：采用经典的碱性磷酸酶样折叠（IPR017850、IPR051849），其活性位点含有保守的硫酸酯酶特征基序——甲酰甘氨酸（FGly）残基由SUMF1/Egs经翻译后氧化修饰产生，是催化硫酸酯水解所必需的亲核体。IPR047892指向ARSK在硫酸软骨素/肝素2-O-硫酸酯特异性水解中的选择性功能（PubMed:28055182、34916232，PMID均已验证）。IPR000917（硫酸酯酶家族）和Pfam PF00884覆盖催化核心区域。
+
+536 aa（59.0 kDa）的中型分子量在溶酶体/细胞外基质降解酶中较为典型。AlphaFold预测结构可用。PPI数据显示少量BioGRID互作：ZFP36L2（RNA结合锌指蛋白）、DDX39A（RNA解旋酶）、S100P（Ca2+结合蛋白）、TAZ（Hippo信号转录辅因子），以及Tissue Factor和IGHG等其他蛋白。其中ZFP36L2和DDX39A的连接暗示ARSK可能存在非经典的核酸相关互作角色。
+
+TE调控相关性的机制链条极为间接：ARSK主要功能为硫酸软骨素/肝素降解，属于细胞外基质（ECM）和溶酶体代谢酶类。其与TE调控的潜在连接包括：（1）通过调控细胞表面硫酸软骨素蛋白多糖浓度影响细胞外信号（如FGF、BMP、Wnt）的信号传导效率，这些信号最终通过下游转录因子影响TE表达；（2）通过ZFP36L2互作间接参与RNA代谢——ZFP36L2是一个RNA结合蛋白，参与mRNA降解调控；（3）TAZ蛋白的互作暗示可能参与Hippo-YAP/TAZ信号输出，该通路在机械力感知和染色质调控中发挥作用。
+
+但无已知核定位注释（核定位特异性仅4/10），PubMed 24篇赋予了较好的新颖性（10/10），但核心功能与TE调控无关。归一化总分67.8/100。不建议作为TE调控靶标，其ECM降解功能与TE调控的距离过远。
+
 ### 4. 总体评价
 
 **推荐等级**: ⭐⭐ (2/5)

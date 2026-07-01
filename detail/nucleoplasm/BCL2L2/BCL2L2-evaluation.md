@@ -79,6 +79,12 @@ Nuclear protein
 | BCL2L10 | STRING | 880 |
 
 
+### 深度机制分析
+
+BCL2L2（193 aa, pLDDT=79.1）是Bcl-2家族的抗凋亡成员Bcl-w。其结构域包含所有Bcl-2家族共有的BH1-BH4基序，通过疏水沟槽结合促凋亡蛋白（如BAX, BAK, BIM）以抑制其线粒体外膜通透化活性。BCL2L2的核质定位（Uncertain, 加权评分68.3）暗示其在非凋亡条件下的核内功能。Bcl-2家族蛋白在核内的研究主要集中于核膜定位和核内凋亡信号调控——BCL2L2可能通过结合核内BAX防止核被膜破裂，间接维持核内染色质结构完整性。从TE调控角度，线粒体外膜通透化（MOMP）释放的mtDNA和凋亡因子caspase非依赖性地促进IFN-I和TE转录，而BCL2L2通过维持线粒体完整性限制此通路。
+
+---
+
 ![PAE](https://alphafold.ebi.ac.uk/files/AF-Q92843-F1-predicted_aligned_error_v6.png)
 
 ### HPA IF 图像

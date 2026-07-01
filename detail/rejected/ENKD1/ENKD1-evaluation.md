@@ -175,6 +175,14 @@ status: rejected
 - [ ] 设计体外实验验证核定位及潜在调控功能
 - [ ] **该蛋白核定位证据不足（≤3/10），不建议作为核蛋白研究目标。**
 
+### 深度机制分析
+
+ENKD1（346 aa, pLDDT=76.3, IntAct 15条互作）是Enkurin结构域蛋白1。其结构域由Enkurin保守域（IPR027012、PF13864）和IRE1样激酶域（IPR052102）组成，SMART注释检出模块。ENKD1的核心功能覆盖中心体稳态、初级纤毛发生和有丝分裂纺锤体调控。其中心体/初级纤毛富集（GO:centrosome, GO:ciliary basal body, GO:centriole）与Enkurin家族蛋白在微管组织和钙信号调控中的功能一致。
+
+从PPI互作网络角度，ENKD1的IntAct实验互作包含CEP70（中心体蛋白70, 酵母双杂交验证, PMID:16189514）、DVL2（Dishevelled-2）、多个PDZ支架蛋白（PDLIM7, MAGI1类）以及转录调控因子（TSC22D4、RBPMS和MDFI）。RBPMS（RNA结合蛋白）和MDFI（MyoD家族抑制因子）的实验互作提示ENKD1可能通过转录因子信号调控通路参与核内基因表达调控。DVL2作为Wnt/PCP和Wnt/β-catenin通路的关键信号中间体，在中心体/基体富集时调节平面细胞极性——DVL2与ENKD1的中心体共定位可能在纤毛依赖的Hedgehog信号和Wnt信号整合中发挥作用。
+
+从TE调控角度，ENKD1评分63.1/100但核定位仅为2/10，已被淘汰。淘汰原因主要是HPA定位显示质膜、中心体和基体信号（不包含Nucleoplasm），与TE调控所需的最小核定位要求不符。即使IntAct检出与RBPMS和MDFI的互作，这些互作可能在中心粒/基体富集的局部信号域中发生而非核内。ENKD1对TE调控的潜在贡献仅限于中心体/纤毛功能障碍→Hh/Wnt通路扰动→ERV LTR活性的远端级联效应，这一因果链过于间接且缺乏实验证据支撑。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9H0I2
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000124074-ENKD1/subcellular

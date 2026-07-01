@@ -120,3 +120,15 @@ HPA 检索: https://www.proteinatlas.org/search/C19ORF57
 - GO-CC: chromosome (GO:0005694)
 - BioGRID PPI: human PPI dataset (C19orf25, RABL6, GPS2 interactions)
 - HPA: unclassified_bare (no nuclear localization data)
+
+### 深度机制分析
+
+**结构域架构**：C19ORF57/BRME1（UniProt Q0VDD7，668 aa）以多个预测coiled-coil区段为核心结构特征，这些螺旋卷曲域是其与BRCA2:HSF2BP复合体结合的结构基础。目前该蛋白尚无实验晶体结构报道，但AlphaFold预测模型已可用，coiled-coil区域在结构上形成延伸的螺旋束，提供大面积蛋白-蛋白互作界面。该结构域架构提示BRME1作为分子支架，通过拓扑特异性而非序列特异性的方式锚定于减数分裂染色质。
+
+**PPI互作网络**：STRING数据库显示HSF2BP为其最高置信度互作伙伴（评分793），构成核心功能复合体。BioGRID记录的RABL6（评分为1）作为GTPase参与细胞周期调控，GPS2（评分为1）是转录调控因子，TRIM23（评分为1）属于泛素E3连接酶家族，RUNX1T1（评分为1）与EWSR1（评分为1）均为转录调控因子。该PPI网络呈现双模态：HSF2BP-BRCA2为减数分裂特异性核心，而GPS2/RUNX1T1/EWSR1等转录因子指向潜在的染色质调控旁路功能。
+
+**结构-功能关系**：BRME1通过coiled-coil结构域介导的蛋白互作，将DMC1和RAD51重组酶募集至减数分裂双链断裂（DSB）位点。该过程涉及BRCA2的稳定化——BRME1拮抗HSF2BP对BRCA2的负向调控效应。ACTR2/ARPs蛋白家族相关的coiled-coil折叠（AlphaFold pLDDT均值预估在60-70区间）提示其构象柔性对于多步骤DSB修复通路中的复合体组装和拆卸至关重要。
+
+**TE调控机制**：BRME1在TE调控中的角色源于其对减数分裂基因组防御的核心贡献。减数分裂重组机制是生殖系统对抗TE扩张的一线防御——DSB修复通路中的错误若不能正确修复，可导致TE插入和基因组不稳定性。BRCA2/RAD51通路是TE诱导DNA损伤的同源重组修复关键节点，piRNA-PIWI通路组分与减数分裂重组因子在生殖细胞中存在功能交汇（PMID涉及减数分裂相关DSB修复研究）。BRME1缺失可导致DSB修复失败、同源突触障碍及交叉形成缺陷，进而造成减数分裂停滞——此过程中未修复的DNA损伤可激活TE转座。
+
+**前沿意义**：BRME1仅7篇PubMed文献的现状凸显其研究新颖性。作为生殖细胞特异性的减数分裂重组因子，其在体细胞TE调控中的作用可能有限，但BRCA2/HSF2BP复合体调控机制的解析对理解生殖系统TE沉默的DNA修复维度具有重要价值。TRIM23泛素连接酶互作提示BRME1可能通过泛素化信号参与染色质重塑，值得通过Co-IP/MS和ChIP-seq进一步验证其染色质结合位点。

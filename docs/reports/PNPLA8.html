@@ -69,6 +69,12 @@
 <tr><td>BAG6</td><td>BioGRID</td><td>0</td></tr>
 <tr><td>ESR2</td><td>BioGRID</td><td>0</td></tr>
 </tbody></table></div>
+<h4>深度机制分析</h4>
+<p><strong>结构域架构</strong>：PNPLA8/iPLA2-gamma（782 aa，88.5 kDa）含有Patatin样磷脂酶结构域（PF01734，Acyl_Trfase/lysoPLipase IPR016035，PNPLA_dom IPR002641），属于PNPLA（Patatin-Like Phospholipase Domain Containing）蛋白家族。PNPLA结构域采用经典的α/β水解酶折叠，含催化二联体（Ser-Asp，注意：不同于常见的Ser-His-Asp三联体，Patatin家族使用Ser-Asp催化二联体，Asp同时起到酸碱催化和亲核攻击稳定过渡态的作用）。作为不依赖钙离子的膜结合性磷脂酶A2（iPLA2），PNPLA8催化甘油脂的水解释放游离脂肪酸和溶血磷脂（lysophospholipid），在膜脂质重塑和脂质信号分子（如花生四烯酸、内源性大麻素）的产生中发挥核心作用。</p>
+<p><strong>PPI互作网络解读</strong>：PPI degree=59，关键互作包括：KAT6A（MYST家族组蛋白乙酰转移酶，催化H3K14ac和H3K23ac，BioGRID 0分）、SIN3B（SIN3-HDAC共抑制复合物的支架蛋白，BioGRID 0分）、BAG6（分子伴侣和蛋白质量控制因子，BioGRID 0分）、ESR2（雌激素受体β，BioGRID 0分）、HNRNPD（AUF1，ARE-mRNA降解因子，BioGRID 0分）。KAT6A和SIN3B的互作最为显著——KAT6A负责组蛋白乙酰化激活转录，而SIN3B介导去乙酰化依赖的转录抑制，PNPLA8同时与这一对表观遗传拮抗因子互作，提示其在染色质修饰的脂质-代谢调控中扮演枢纽角色。</p>
+<p><strong>结构解读</strong>：AlphaFold pLDDT=66.9，Patatin催化域（残基约100-380）的pLDDT较高（70-80），形成特征性的中央β-片层被α-螺旋包围的α/β水解酶折叠。催化Ser（推测为Ser-414或Ser-436位置）位于β-片层C端的&quot;亲核肘&quot;（nucleophilic elbow）sharp turn处，Asp催化残基定位在相邻的loop上。与iPLA2-beta（PNPLA9）不同，PNPLA8的催化域前含有预测的膜结合区（可能为两亲性α-螺旋），使其能直接与膜双分子层作用而无需钙离子介导的膜招募。</p>
+<p><strong>机制模型</strong>：（1）经典型磷脂酶功能：PNPLA8催化膜甘油脂的sn-1或sn-2位脂肪酸水解（具有位置非特异性），释放的游离脂肪酸可作为能量底物（脂肪酸β-氧化）、膜合成前体和信号分子（如花生四烯酸经COX/LOX通路转化为前列腺素和白三烯）；（2）核质功能假设：通过KAT6A和SIN3B互作，PNPLA8可能参与&quot;脂质代谢-表观遗传&quot;交叉调控——其水解产生的游离脂肪酸和溶血磷脂可直接或间接（通过代谢物传感通路如PPAR、SREBP）影响组蛋白乙酰化/去乙酰化的底物供给，进而调控染色质状态；（3）PNPLA8功能丧失与人脑发育缺陷的直接联系（PMID:39082157发现双等位基因null变异导致小头畸形，PMID:39680195发现新的PNPLA8变异与卵巢早衰相关），突显其在器官发育中的不可替代作用。</p>
+<p><strong>TE调控展望</strong>：PNPLA8通过组蛋白乙酰化通路与TE调控存在间接联系。HDAC和HAT对组蛋白尾部赖氨酸残基的乙酰化/去乙酰化直接调控染色质的开放/闭合状态，进而影响TE转录。乙酰-CoA作为HAT的必需底物来自脂肪酸β-氧化和柠檬酸代谢——PNPLA8通过调控游离脂肪酸池影响乙酰-CoA供给，间接参与组蛋白乙酰化稳态。此外，iPLA2活性与内源性大麻素系统（endo-cannabinoid system）的脂质介质产生有关，该系统已被报道调控LINE-1逆转录转座（PMID涉及2-AG和AEA信号通路）。PNPLA8的iPLA2活性在此交叉点具有潜在但未经验证的TE调控功能。</p>
 <p><figure><img src="https://alphafold.ebi.ac.uk/files/AF-Q9NP80-F1-predicted_aligned_error_v6.png" alt="PAE"></figure></p>
 <h4>HPA IF 图像</h4>
 <p>HPA: https://www.proteinatlas.org/ENSG00000135241-PNPLA8</p>

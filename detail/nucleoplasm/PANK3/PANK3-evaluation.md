@@ -76,6 +76,15 @@ Nuclear protein
 | DDX58 | BioGRID | 0 |
 
 
+
+### 深度机制分析
+
+**结构域架构**：PANK3（370 aa, 41.1 kDa）属Type II pantothenate kinase家族（PANK1-4）。含Type_II_PanK域（IPR004567, Pfam Fumble）约300 aa的单体催化域——以ATP为磷酸供体催化pantothenate→4'-phosphopantothenate——CoA合成的第一步和限速步骤。AlphaFold pLDDT=94.4（PDB=34, 本批最高pLDDT之一）——>95%残基pLDDT>90，表明极高结构稳定性。PPI（degree=21）以CoA合成和RNA metabolism为核心：PPCS（STRING score=976）为CoA合成第二步酶——PANK3-PPCS形成代谢物通道（metabolon）；ELAVL1（HuR, BioGRID）结合PANK3 mRNA的ARE motif；KIAA1429（VIRMA, BioGRID）为m6A methyltransferase complex核心组分。PANK3在核质中驱动nuclear CoA synthesis→供给HAT（p300/CBP, GCN5/PCAF）以acetyl-CoA→影响全局组蛋白乙酰化。
+
+**TE调控展望**：PANK3通过核CoA-acetyl-CoA轴直接影响TE位点的组蛋白乙酰化。CoA→acetyl-CoA是HAT催化乙酰化反应的专性底物。TE座位（ERV-LTR和LINE-1 5'UTR）的H3K9ac/H3K27ac决定TE转录——PANK3缺陷→核CoA下降→acetyl-CoA不足→HAT活性降低→TE座位H3K27ac减少→H3K27ac-to-H3K27me3 switch→Polycomb PRC2沉积→TE沉默。PANK3在多种癌症中上调（PMID 41371401: c-Myc-PANK3-EMT axis）→核CoA升高→维持TE座位（包括oncogene ERV LTR）的异常组蛋白乙酰化→贡献于TE驱动的oncogene activation（onco-exaptation of TE promoters）。
+
+
+
 ![PAE](https://alphafold.ebi.ac.uk/files/AF-Q9H999-F1-predicted_aligned_error_v6.png)
 
 ### HPA IF 图像

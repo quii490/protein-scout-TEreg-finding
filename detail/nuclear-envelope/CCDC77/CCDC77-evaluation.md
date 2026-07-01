@@ -214,6 +214,14 @@ status: scored
 ![](https://images.proteinatlas.org/38854/411_E12_3_blue_red_green.jpg)
 
 
+### 深度机制分析
+
+**结构域架构与功能基础**: CCDC77（Coiled-coil domain-containing protein 77，UniProt: Q9BR77, 488 aa / 57.5 kDa）是一个定位于核膜（Nuclear membrane，HPA Approved级别）的蛋白。其结构域组成包括InterPro注释的IPR037696结构域，Pfam未检出标准注释结构域。AlphaFold预测的整体结构置信度pLDDT为79.6，其中pLDDT>90区域占52.7%，pLDDT 70-90区域占19.5%，有序区域（pLDDT>70）占比达72.2%，表明该蛋白具有较稳定的三维折叠构象。
+
+**蛋白质相互作用网络与调控角色**: PPI网络分析显示CCDC77的STRING预测互作伙伴达15个（combined score>0.4），其中与CCDC14的互作置信度最高（combined score=0.699，实验分=0.624），提示二者可能存在物理互作关系。IntAct实验验证互作伙伴（物理关联）共计12条，包括FMR1（PMID:31413325）、Cep43（PMID:26496610）、SYT12（PMID:28514442）、IKZF5、PRDM5、OFD1、DYNLL1等功能多样的蛋白。值得注意的是，IKZF5是IKAROS家族锌指转录因子，PRDM5是含PR/SET结构域的组蛋白甲基转移酶，这些互作提示CCDC77可能通过蛋白间相互作用间接参与转录调控或染色质修饰过程。GO-CC注释包括centrosome（IDA:UniProtKB）和membrane（HDA:UniProtKB），与其核膜定位相符。
+
+**核膜定位与潜在调控机制**: CCDC77的核膜定位（HPA Reliability: Approved）使其在空间上处于核质运输和染色质锚定的关键界面。基于其定位和互作网络特征，潜在的调控机制包括：（1）作为核膜相关蛋白参与染色质-核纤层互作的调控，间接影响基因组区室化与TE区域的可及性；（2）通过与IKZF5等转录因子的互作调控特定基因座位的转录活性；（3）与centrosome/centriole相关蛋白（Cep43、Cep135、OFD1、PCM1等）的广泛互作提示其在细胞周期依赖的核膜动态变化中发挥结构组织功能。该蛋白具有极高的研究新颖性（PubMed仅2篇strict，PMID: 24613754、40707486），综合评分77.3/100，是一个具有较高探索价值的核膜相关蛋白。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q9BR77
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=CCDC77

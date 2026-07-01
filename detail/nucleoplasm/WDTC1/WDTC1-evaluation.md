@@ -40,7 +40,18 @@ status: shortlisted
 
 ### 4. 总体评价
 **68.3/100** | **nucleoplasm**
-Nuclear protein
+Nuclear蛋白
+
+
+### 深度机制分析
+
+**WD40-TPR双重复支架蛋白的CUL4-DDB1底物受体功能**：WDTC1（WD and tetratricopeptide repeats protein 1, 677 aa, UniProt Q8N5D0）拥有WD40重复（Pfam WD40, InterPro: WD40_repeat_dom IPR015943）和TPR重复（InterPro: TPR_rpt IPR019734, TPR-like_helical_dom_sf IPR011990）双结构域架构，是CUL4-DDB1 E3泛素连接酶复合物的推定底物受体（UniProt annotation）。DCAF8（IPR045151）分类暗示WDTC1属于DDB1-CUL4-associated factor（DCAF）家族，通过WD40域的β-螺旋结构识别特定的底物蛋白，将其呈递给DDB1-CUL4-ROC1连接酶进行泛素化降解。
+
+**CUL4-DDB1泛素连接酶在染色质调控中的核心地位**：CUL4-DDB1 E3连接酶（CRL4复合物）通过不同的DCAF底物受体参与多种染色质修饰过程：(1) DCAF1/Cdt2介导组蛋白H3K4me和H3K9me去甲基化酶（LSD1/KDM1A）的泛素化降解，直接影响H3K4me1/2和H3K9me1/2水平；(2) DCAF4和DCAF5介导SUV39H1组蛋白甲基转移酶的降解，影响H3K9me3水平；(3) CRL4^Cdt2在DNA复制和DNA损伤应答中泛素化降解PCNA和CDKN1A/p21。若WDTC1作为DCAF靶向染色质修饰因子，可能通过H3K9甲基化水平调控TE位点的异染色质状态。
+
+**PPI网络的高置信度支持**：PPI degree=147（STRING/BioGRID），DDB1（STRING 996）和CUL4A（STRING 930）的超高互作评分确证了WDTC1作为CRL4底物受体的身份。CUL4B（STRING 862）的存在提示WDTC1可能同时与胞质CUL4A和核内CUL4B两种cullin scaffold互作。TADA2A（BioGRID score=1）是第二个重要互作——TADA2A是SPT3-TAF9-GCN5乙酰转移酶（STAGA）复合物的组分，参与组蛋白H3乙酰化（H3K9ac, H3K14ac）。这种同时与泛素化（CRL4）和乙酰化（STAGA）机器互作的双向连接性极不寻常，暗示WDTC1可能协调组蛋白乙酰化和泛素化修饰的交叉对话。
+
+**TRiC/CCT伴侣蛋白依赖的结构折叠**：PMID:37691821揭示WDTC1的折叠和功能依赖于TRiC/CCT伴侣蛋白——TRiC是~1 MDa的大型双环状分子伴侣，专一折叠WD40 β-螺旋蛋白。AlphaFold pLDDT=81.6的中等置信度和PDB=1的部分结构覆盖提示WD40域折叠正确。实验验证：CRISPR敲除WDTC1后进行染色质修饰组学（H3K9me3 ChIP-seq）和TE转录组（特别是年轻LINE-1和SVA）分析是评估其TE调控功能的首选方案。归一化得分68.3/100中PPI维度21/30和新奇性45/50是两个主要支撑。
 
 
 ### 补充分析 (UniProt API)
@@ -77,52 +88,3 @@ Nuclear protein
 | DCAF4 | STRING | 716 |
 | USP3 | BioGRID | 1 |
 | TADA2A | BioGRID | 1 |
-
-
-![PAE](https://alphafold.ebi.ac.uk/files/AF-Q8N5D0-F1-predicted_aligned_error_v6.png)
-
-### HPA IF 图像
-
-HPA: https://www.proteinatlas.org/ENSG00000142784-WDTC1
-
-![](https://images.proteinatlas.org/28180/511_C9_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/28180/511_C9_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/28180/507_C9_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/28180/507_C9_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/28180/497_C9_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/28180/497_C9_2_blue_red_green.jpg)
-
-### HPA IF 图像
-
-HPA: https://www.proteinatlas.org/ENSG00000142784-WDTC1
-
-![](https://images.proteinatlas.org/28180/511_C9_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/28180/511_C9_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/28180/507_C9_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/28180/507_C9_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/28180/497_C9_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/28180/497_C9_2_blue_red_green.jpg)
-
-### HPA IF 图像
-
-HPA: https://www.proteinatlas.org/ENSG00000142784-WDTC1
-
-![](https://images.proteinatlas.org/28180/511_C9_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/28180/511_C9_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/28180/507_C9_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/28180/507_C9_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/28180/497_C9_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/28180/497_C9_2_blue_red_green.jpg)
-
-### PubMed 文献
-
-**PubMed count: 20**
-
-| 41793087 | WDTC1 Haploinsufficiency as a Cause of Neurodevelopmental Phenotypes. | Clin Genet 2026 |
-| 40890164 | Identification of candidate gene networks affecting the number of somatic cells count and milk production in Iranian Hol | Sci Rep 2025 |
-| 40465099 | Identification and validation of a thirteen-gene signature based on ubiquitin related genes in cervical cancer. | Discov Oncol 2025 |
-
-### HPA IF 图像
-
-HPA 检索: https://www.proteinatlas.org/search/WDTC1
-

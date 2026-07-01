@@ -70,6 +70,12 @@
 <tr><td>TRIP13</td><td>BioGRID</td><td>1</td></tr>
 <tr><td>CUL7</td><td>BioGRID</td><td>1</td></tr>
 </tbody></table></div>
+<h4>深度机制分析</h4>
+<p><strong>结构域架构</strong>：RAB9A（201 aa，22.8 kDa）是Ras超家族Rab亚家族的核心成员，含三个高度保守的特征性结构域/基序：（1）P-loop_NTPase（IPR027417）构成GTP/Mg^2+结合的催化核心；（2）Rab9特异性结构域（IPR041824）赋予其区别于其他Rab蛋白（60+成员）的效应器结合特异性；（3）Small_GTP-bd（IPR005225）和Small_GTPase（IPR001806）形成典型的G域折叠。由于Ras超家族折叠在真核生物极度保守（酵母到人类高度同源），其G1-G5 motif的序列特征已得到大量晶体学和生化学验证。C端CAAX盒经geranylgeranylation修饰后锚定于内体/溶酶体和反式高尔基网络（TGN）膜。</p>
+<p><strong>PPI互作网络解读</strong>：PPI degree=596（本批次第二高，仅次于RHOJ的626），反映了RAB9A在内体-TGN膜运输中的核心地位。关键互作伙伴分为三个功能层：（1）膜运输机制：GCC2（GCC185，TGN定位的GRIP域卷曲螺旋蛋白，STRING 976分，RAB9A的直接效应器）、VPS33A（HOPS/CORVET系留复合物的SM蛋白亚基，STRING 846分）、STX12（Syntaxin-12，内体定位的SNARE蛋白，STRING 716分）、NDE1（NudE Neurodevelopment Protein 1，STRING 914分——连接膜运输和微管/中心体动力学）；（2）Rab调节因子：CHM（Rab escort protein 1/REP-1，STRING 706分——Rab蛋白的geranylgeranylation所必需）、CHML（REP-2，STRING 702分）；（3）泛素连接酶：TRIP13（BioGRID 1分）、CUL7（BioGRID 1分）。</p>
+<p><strong>结构解读</strong>：AlphaFold pLDDT=91.1（2个PDB实验结构验证），预测质量极佳。GTP结合态（PDB: 1WMS, 2OCB等）显示紧密的switch I/II构象，效应器结合面完全暴露。Switch I（E/Q-x-x-x-R-F/Y-R/K，残基约35-45）在GTP结合时形成短α-螺旋和β-发夹，Mg^2+由switch I的Thr/Ser羟基和GTP的γ-磷酸共同配位，稳定活性构象。Switch II（残基约60-75）的构象重排涉及与GCC2的卷曲螺旋区域的识别（通过疏水性界面和盐桥网络）。GDP结合态的switch I/II松弛无序（RAB9A在此状态下无法有效结合效应器）。C端高度柔性的超变区（hypervariable region）pLDDT极低（&lt;50），但在与REP-1/CHM结合和随后的脂质修饰中发挥关键作用。</p>
+<p><strong>机制模型</strong>：RAB9A遵循经典的Rab分子开关模式调控内体到TGN的逆行运输：（1）GDP→GTP交换（由RabGEF催化）后，活性RAB9A-GTP锚定于晚期内体膜，通过GCC2效应器招募系留复合物（如GCC185-HOPS），促进内体与TGN膜的靠近；（2）RUTBC1和RUTBC2作为RAB9A的直接效应器和RabGAP（GTPase活化蛋白，PMID:21808068, PMID:22637480），通过加速GTP水解触发活性终止——此负反馈环路确保逆行运输的时间精确控制；（3）RAB9A的核质信号（Cytosol; Nucleoplasm Uncertain）可能反映其在胞质中通过CHM/REP-1复合物进行geranylgeranylation修饰和膜提取-重新递送循环——Rab蛋白在GDP结合态时被GDI（GDP dissociation inhibitor）从膜上提取并保护在胞质中，核质信号可能捕捉到这一胞质池。</p>
+<p><strong>TE调控展望</strong>：RAB9A与TE调控的直接联系极弱，但通过以下间接途径可能相关：（1）RAB9A通过调控内体-溶酶体系的货物分选影响自噬（autophagy）——自噬缺陷导致TE来源的胞质DNA积累和cGAS-STING通路激活，RAB9A已知参与自噬体成熟（与ATG5-ATG12/ATG16L1通路交叉）；（2）NDE1互作连接了内体运输和微管组织中心（MTOC）——NDE1是LIS1/PAFAH1B1的效应器，调控动力蛋白（dynein）功能，而动力蛋白介导的内体向核周逆行运输对核周信号传导至关重要；（3）CUL7泛素连接酶互作提示RAB9A可能被泛素化修饰——泛素化已被报道调控Rab蛋白的稳定性、活性和效应器选择性，若CUL7泛素化RAB9A发生在核周区域，可能影响RAB9A在核膜-内体接触位点的局部富集。</p>
 <p><figure><img src="https://alphafold.ebi.ac.uk/files/AF-P51151-F1-predicted_aligned_error_v6.png" alt="PAE"></figure></p>
 <h4>HPA IF 图像</h4>
 <p>HPA: https://www.proteinatlas.org/ENSG00000123595-RAB9A</p>

@@ -73,6 +73,12 @@
 <h4>HPA IF 图像</h4>
 <p>HPA: https://www.proteinatlas.org/ENSG00000178821-TMEM52</p>
 <p><figure><img src="https://images.proteinatlas.org/79372/2082_E2_3_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/79372/2082_E2_4_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/79372/2072_D2_3_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/79372/2072_D2_5_red_green.jpg" alt="image"></figure></p>
+<h4>深度机制分析</h4>
+<p><strong>结构域架构</strong>：TMEM52（209 aa，22.1 kDa）是跨膜蛋白52，属于TMEM52家族（IPR038942, PF14979）。结构域架构极简——预测为两次跨膜蛋白（TM1约20-45 aa, TM2约60-85 aa），N端和C端均为胞外区，胞内环极短（约14 aa）。TMEM52的全长蛋白缺乏任何已知的酶催化或配体结合结构域——蛋白功能完全由跨膜螺旋和胞外环介导的蛋白质互作赋予。AlphaFold pLDDT=58.8（较低，但对小跨膜蛋白属正常水平），跨膜α-螺旋区域预测质量可接受（pLDDT 70-80），N/C端胞外区pLDDT低（&lt;50），提示这些区域高度柔性或缺乏折叠核心。HPA定位显示Nucleoplasm; Plasma membrane（Approved），核定位对小跨膜蛋白极为罕见。</p>
+<p><strong>PPI互作网络解读</strong>：PPI degree=1（CALU唯一互作伙伴）。CALU（Calumenin，BioGRID 0）——含EF-hand的Ca²⁺结合蛋白，作为分泌途径的伴侣蛋白参与内质网蛋白质折叠和质量控制。CALU与TMEM52的单一互作可能反映了TMEM52在分泌途径中的折叠依赖于CALU的伴侣功能。PPI网络极小是TMEM52研究空白（PubMed仅7篇）的直接反映，但也暗示TMEM52可能作为&quot;孤立运作&quot;的单功能膜蛋白——这种蛋白通常作为信号肽或亚细胞定位的微调因子。</p>
+<p><strong>结构解读</strong>：TM1和TM2形成基本的反平行螺旋对——两个Gly和Pro残基富集的序列提供跨膜螺旋间的紧密堆积。胞外N端区（约1-19 aa）含信号肽样序列（疏水核心+信号肽酶切割位点），指示TMEM52经ER-Golgi共翻译转运途径插入膜。胞外C端区（约86-209 aa）占总蛋白的约60%，根据AlphaFold预测，可能形成不成对的半折叠或固有无序肽段——无序肽段通常富含Pro, Ser, Thr，是O-糖基化和磷酸化的主要位点，TMEM52可能通过其胞外无序尾端的翻译后修饰感知微环境信号。</p>
+<p><strong>机制模型</strong>：由于Pubmed仅7篇且功能几乎未被研究，TMEM52的机制仅能以蛋白结构推断为基础：（1）质膜定位——TM1-TM2反平行螺旋对形成膜拓扑锚定点，将胞外N端和长C端暴露于细胞外环境；（2）Nucleoplasm定位——TMEM52的核转位机制高度异于寻常：可能为TMEM52的新生链在ER插入前因信号识别颗粒（SRP）识别效率不足而部分逃逸至胞质（SRP bypass），暴露的疏水跨膜段被分子伴侣（Hsp70/Hsp40）结合并保护，随后经暴露的碱性NLS样区域进入细胞核。核质中TMEM52的疏水跨膜螺旋可能与核膜或核基质蛋白形成疏水相互作用网，锚定于核质亚区；（3）CALU伴侣功能——在ER中，CALU通过其EF-hand结构域感知Ca²⁺浓度变化，调控TMEM52的正确折叠以进入膜插入通路。</p>
+<p><strong>TE调控展望</strong>：TMEM52与TE调控几无关联——蛋白太小，PPI网络太稀疏（仅CALU），无任何染色质/核酸结合结构域。唯一极其间接的关联是Ca²⁺信号（通过CALU）已知可调控TE转录——钙调磷酸酶（calcineurin）-NFAT通路可结合特定LTR中的NFAT结合位点并激活TE转录。但这暴露了TMEM52 TE调控关联的零支持状态，不建议作为TE调控靶标。</p>
 <h4>PubMed 文献</h4>
 <p><strong>PubMed count: 8</strong></p>
 <div class="table-wrap"><table>

@@ -62,6 +62,19 @@ Nuclear protein
 
 **TE 调控评估**: 该蛋白缺乏核定位证据，TE调控潜力极低。
 
+### 深度机制分析
+
+PANK4（4'-phosphopantetheine phosphatase，UniProt: Q9NVE7，773 aa / 86.0 kDa）的结构域架构分析显示：InterPro结构域包括IPR002791, IPR004567, IPR015844, IPR035073, IPR036075, IPR043129。 AlphaFold预测的pLDDT均值为86.9，表明结构预测置信度较高，核心结构域折叠可靠，但部分柔性区域可能存在构象不确定性。
+
+蛋白质互作网络分析揭示PANK4与以下关键因子存在相互作用：PPCS、PTPN6、CDK20、NSUN2、ACTR2（PPI度为78）。 功能注释显示Phosphatase which shows a preference for 4'-phosphopantetheine and its oxidatively damaged forms (sulfonate or S-sulfonate), providing strong indirect evidence that the phosphatase activity pre-empts。 这些互作伙伴暗示该蛋白可能通过多蛋白复合物参与细胞过程调控，其互作网络的拓扑位置值得进一步实验验证。
+
+从结构-功能机制角度分析，PANK4的亚细胞定位为，核定位证据尚不充分，需要免疫荧光或亚细胞分级实验进一步验证。 评估综合得分69.4/100，属于中等兴趣候选，在明确核定位后其TE调控潜力可能显著提升。
+
+对于TE调控机制的意义而言，PANK4的结构域组成不直接指向经典染色质调控因子，但其在核内的存在（若经实验确认）可能暗示非经典TE调控途径。 研究新颖性方面，PubMed检索获得8篇文献，文献报道极少，属于低研究密度蛋白，适合作为独立探索方向。 代表性文献包括PMID:42341992, 42212001, 42047666等。
+
+综上所述，PANK4作为一个773 aa / 86.0 kDa的定位蛋白，具有一定的TE调控研究价值，建议首先通过亚细胞分级和免疫荧光明确其在核内的分布模式，再设计针对性的功能实验。 AlphaFold pLDDT=86.9的结构预测可作为设计突变体和结构-功能关系研究的起点。
+
+
 ---
 
 

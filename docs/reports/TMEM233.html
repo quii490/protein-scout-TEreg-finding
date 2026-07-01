@@ -56,12 +56,17 @@
 </tbody></table></div>
 <p><strong>TE 调控评估</strong>: 该蛋白缺乏核定位证据，TE调控潜力极低。</p>
 <hr>
+<h4>深度机制分析</h4>
+<p><strong>结构域架构</strong>：TMEM233（109 aa, 12.1 kDa, B4DJY2）是CD225/Dispanin家族成员（IPR051423, IPR007593, Pfam PF04505）——一个四次跨膜（tetraspan）膜蛋白超家族。Dispanin蛋白具有特征性的4-TM拓扑（N端胞内→TM1→胞外loop1→TM2→胞内loop2→TM3→胞外loop2→TM4→C端胞内），两个胞外loop含保守Cys-Cys（CC）和Cys-Cys-Gly（CCG）motif——形成两个disulfide bond稳定胞外结构。AlphaFold pLDDT=60.3，无PDB实验结构，109 aa的极小蛋白接近AlphaFold预测极限——四个TM螺旋相对置信度较高（pLDDT ~65-75），胞外loop区域pLDDT偏低（~40-55），反映其动态构象。Dispanin家族以电压门控钠通道（Nav）辅助亚基功能而闻名——dispanin作为Nav通道的beta-subunit或accessory protein调控通道的门控特性、表面表达和药物敏感性。</p>
+<p><strong>PPI互作网络解读</strong>：PPI degree=1（仅CSK, C-terminal Src kinase, BioGRID）。CSK是Src家族激酶（SFK）的负调控因子——通过磷酸化SFK（如Src, Fyn, Lyn, Yes, Lck, Hck）C末端tail的conserved tyrosine residue（如Src Y527）→该pTyr与SFK自身SH2域分子内结合→SFK处于闭合/自抑制构象→催化活性被抑制。TMEM233-CSK唯一的互作提示TMEM233可能通过binding CSK→将CSK recruitment至质膜的Nav channel complex附近的lipid raft microdomain→CSK局部磷酸化SFK→调控SFK依赖的Nav通道磷酸化和门控调制。Nav1.7和Nav1.8是疼痛感觉神经元的关键钠通道亚型——TMEM233作为两者辅助蛋白（PMID:37117223, PMID:41854608）的功能依赖于其dispanin结构。</p>
+<p><strong>结构解读</strong>：4-TM dispanin折叠形成紧凑的四螺旋束（four-helix bundle），TM1和TM3的极性残基（Ser/Thr）朝向通道孔方向与Nav alpha-subunit的voltage sensor domain（VSD, S1-S4 segments）或pore domain（S5-S6）形成氢键和疏水互作。胞外loop1和loop2中的conserved Cys残基形成分子内disulfide bond——维持胞外loop特定的3D构象以识别Nav通道的胞外糖基化loop。109 aa中C末端仅~15 aa胞质尾，缺乏信号转导能力——TMEM233本身无催化活性，完全依赖与Nav蛋白和CSK的物理互作实现功能。</p>
+<p><strong>机制模型</strong>：（1）Nav1.7/Nav1.8疼痛信号——TMEM233与Nav1.7（SCN9A）和Nav1.8（SCN10A）的直接互作增强Nav通道在细胞表面的表达和稳定（chaperone-like function）——降低Nav通道的泛素化降解速率→维持DRG（背根神经节）和trigeminal神经元中Nav电流密度→调节伤害感受神经元的兴奋阈。（2）Excelsatoxin A机制（PMID:41854608）——荨麻毒素Excelsatoxin A作为TMEM233的配体——结合TMEM233后诱导其构象改变→变构调控Nav1.8的门控电压依赖性激活曲线向超极化方向偏移→通道在更负的膜电位处开放→神经元超兴奋→剧烈疼痛。（3）CSK-SFK信号——TMEM233 recruitment CSK至Nav channel complex→CSK磷酸化抑制SFK→减少SFK依赖的Nav通道磷酸化（如Nav1.7的Tyr位点）→调控Nav通道的电压依赖性稳态失活——该机制可能参与炎症性疼痛中Nav通道的致敏。</p>
+<p><strong>TE调控展望</strong>：TMEM233与TE调控的直接关联极弱——其功能高度特化为神经元Nav通道辅助蛋白和疼痛信号。核质定位（HPA: Nucleoplasm Approved, 109 aa小蛋白可能经被动扩散经NPC进入核质）的生理意义尚不明确——核内TMEM233可能参与核膜上的离子稳态或内质网-核膜膜接触位点（membrane contact site）的膜微域组织。CSK互作间接连接至SFK signaling——SFK在一些肿瘤中已知激活HERV-K Env和LTR驱动的oncogenes——TMEM233-CSK-SFK轴可能以组织特异性（疼痛神经元）方式影响SFK介导的TE转录激活，但此推测需神经元特异性实验验证。</p>
 <h4>PPI 互作网络</h4>
 <div class="table-wrap"><table>
 <thead><tr><th>互作伙伴</th><th>来源</th><th>评分</th></tr></thead><tbody>
 <tr><td>CSK</td><td>BioGRID</td><td>0</td></tr>
 </tbody></table></div>
-<p><figure><img src="https://alphafold.ebi.ac.uk/files/AF-B4DJY2-F1-predicted_aligned_error_v6.png" alt="PAE"></figure></p>
 <h4>HPA IF 图像</h4>
 <p>HPA: https://www.proteinatlas.org/ENSG00000224982-TMEM233</p>
 <p><figure><img src="https://images.proteinatlas.org/75435/1782_E2_31_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/75435/1782_E2_33_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/75435/1585_H6_2_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/75435/1585_H6_5_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/75435/1616_H6_2_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/75435/1616_H6_3_red_green.jpg" alt="image"></figure></p>

@@ -80,6 +80,11 @@ Nuclear protein
 | WRAP53 | STRING | 813 |
 
 
+
+### 深度机制分析
+
+SHQ1（Protein SHQ1 homolog，577 aa）是H/ACA核糖核蛋白（RNP）生物合成和端粒酶组装的关键伴侣蛋白。结构域包含CS结构域（IPR007052）、HSP20样伴侣域（IPR008978）和Shq1特异区域（IPR039742, PF04925）。CS（CHORD-SGT1）结构域与Hsp90共伴侣蛋白同源，提示其作为分子伴侣的功能。AF pLDDT=72.5，PDB=3。PPI网络极度富集H/ACA RNP组分：DKC1（999，dyskerin假尿苷合酶）、GAR1（995）、NOP10（994）、NHP2（983）和RUVBL1/RUVBL2（861/829）——后者为染色质重塑相关的AAA+ ATP酶。关键文献41132854揭示VIRMA介导的SHQ1 m6A修饰通过HNRNPA2B1依赖机制增强肝再生（Acta Pharm Sin B 2025），这是SHQ1与表观转录组学的直接联系。41885709报道SHQ1相关神经发育障碍扩展基因型和表型前沿。核质定位为Supported。SHQ1作为H/ACA snoRNP伴侣，通过稳定DKC1确保假尿苷修饰的正常进行，这一修饰发生于rRNA、snRNA甚至mRNA，直接影响翻译和剪接精度。m6A修饰SHQ1自身mRNA则构成了表观转录组调控的反馈环路，TE调控可能性高。
+
 ![PAE](https://alphafold.ebi.ac.uk/files/AF-Q6PI26-F1-predicted_aligned_error_v6.png)
 
 ### HPA IF 图像

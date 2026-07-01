@@ -109,4 +109,16 @@ HPA 检索: https://www.proteinatlas.org/search/SLC27A6
 | 41751270 | Single-Cell Analysis Reveals Epithelial Heterogeneity and Tumor Microenvironment Characteristics During the Malignant Progression of Colorectal Cancer |
 | 41274132 | Placental nutrient transporter abundance in gestational diabetes mellitus with normal birthweight. |
 
+### 深度机制分析
+
+**结构域架构**：SLC27A6（UniProt Q9Y2P4，619 aa，68.1 kDa）属于长链脂肪酸转运蛋白家族（FATP/Slc27a家族）。其域架构为N端跨膜域和C端极长链酰基辅酶A合成酶（VLACS）催化域的双模块设计。AMP-结合域（InterPro:IPR020845 - AMP-dependent synthetase/ligase；Pfam:PF00501）采用α/β折叠，催化ATP依赖的脂肪酸→酰基-CoA转化。N端的FATP_N域（InterPro:IPR025110）和VLACS_N域（IPR045851）共同形成底物结合通道。Pfam:PF13193为辅助AMP-结合扩展域。SMART未检出明确域（因该家族域结构较新）。
+
+**PPI互作网络**：BioGRID互作数据揭示了一个意外地偏向核蛋白的PPI图谱：CHD3（染色质域解旋酶DNA结合蛋白3，评分1）是NuRD（核小体重塑去乙酰化酶）复合体的ATP酶亚基；ELAVL1（胚胎致死异常视觉样蛋白1，评分1）是RBPs家族的RNA结合蛋白；NPM1（核仁磷酸蛋白B23，评分1）在核仁rRNA加工和核-质穿梭中发挥核心功能。VIM（波形蛋白，评分1）构成中间纤维网络。CUTC（评分1）为铜转运伴侣。该PPI网络的核偏向性（CHD3、ELAVL1、NPM1）强烈提示SLC27A6参与核事件调控。
+
+**结构-功能关系**：SLC27A6作为脂肪酸转运蛋白和酰基-CoA连接酶的双重功能奠定了其代谢与信号调控的连接点。跨膜拓扑锚定于质膜和内质网，催化活性产物——长链酰基-CoA——不仅是β-氧化的代谢底物，更是组蛋白去乙酰化酶（Sirtuins）的激动剂和蛋白棕榈酰化的供体。极长链酰基-CoA的特异性使SLC27A6生成的产物优先进入鞘脂代谢和核膜脂筏组装通路。
+
+**TE调控机制**：脂质代谢与TE调控的连接是新兴研究领域。核内脂质信号通过以下机制影响染色质状态：（1）Sirtuins（SIRT1/6）被长链酰基-CoA激活后，去乙酰化H3K9ac/H3K56ac→促进TE位点的异染色质形成；（2）蛋白棕榈酰化（利用棕榈酰-CoA）调控HP1α（异染色质蛋白1α）的膜/染色质分配平衡——HP1α去棕榈酰化可能导致其从异染色质位点释放，造成TE去抑制；（3）NuRD复合体（CHD3互作的推论）是已知的LTR类ERV转录抑制因子；（4）ELAVL1/NPM1作为RBPs可能参与TE衍生RNA的稳定性调控。
+
+**前沿意义**：SLC27A6在TE调控维度的分析是目前最具原创性的探索方向之一。CHD3-NuRD-ELAVL1-NPM1的PPI集群是一个多维核调控枢纽——NuRD负责染色质重塑，ELAVL1负责RNA稳定性，NPM1负责核质分布——而SLC27A6通过长链酰基-CoA连接这三轴。67篇PubMed文献主要围绕脂肪酸代谢/疾病，TE调控为完全空白。代谢组学+ChIP-seq/ATAC-seq联合分析可验证SLC27A6→酰基-CoA→SIRT→H3K9ac级联对TE位点的调控。
+
 

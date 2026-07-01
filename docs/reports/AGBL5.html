@@ -205,7 +205,15 @@
 </tbody></table></div>
 <h4>humanPPI / HPA Interaction</h4>
 <p>Source: https://www.proteinatlas.org/ENSG00000084693-AGBL5/interaction</p>
-<p>未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。 &lt;!-- DOMAIN_HUMANPPI_REPAIR_END --&gt;</p></article></main>
+<p>未从 HPA Interaction 页面解析到互作伙伴；需人工复核或使用其他 humanPPI 来源。 &lt;!-- DOMAIN_HUMANPPI_REPAIR_END --&gt;</p>
+<h4>深度机制分析</h4>
+<p>AGBL5（CCP5）是本次评估24个蛋白中结构数据最丰富而核定位最具争议的一个。从结构生物学角度看，10个实验PDB结构（4个X射线晶体衍射 + 6个冷冻电镜）的覆盖深度极为罕见——尤其考虑到该蛋白的PubMed strict count仅为14篇。X射线结构的分辨率达到1.80A（PDB 8V3M），覆盖了催化域（2-338, 425-605位残基），而cryo-EM结构的分辨率在2.90-3.60A之间，涵盖了更广泛的N端至催化域（2-605位残基）。多个结构包含底物/抑制剂共晶（8V3N、8V3O含抑制剂，8V3R含tubulin peptide），提供了催化机制的原子水平解析。UniProt Domain注释将催化核心定义为Peptidase M14（157-570aa, PROSITE-ProRule:PRU01379），与结构覆盖区高度吻合。</p>
+<p>然而，AlphaFold预测揭示了结构中的一个关键弱点：41.3%的残基pLDDT&lt;0.50，仅5.5%位于pLDDT 70-90的中等置信区间。这41.3%的无序区域主要对应实验结构未解析的部分——可能是N端延伸区（1-157aa不含催化域的部分）和C端非催化尾（605-886aa）。这种&quot;核心有序+尾部无序&quot;的结构域架构符合许多多结构域金属羧肽酶的共性——催化域折叠致密，而N/C端延伸提供蛋白互作界面或调控功能。</p>
+<p>AGBL5的酶学功能已从结构和生化层面得到充分验证。它属于M14金属羧肽酶家族，但与传统蛋白水解羧肽酶不同，AGBL5是一种deglutamylase——它能够移除alpha/beta-tubulin C端尾部的polyglutamate修饰链。Tubulin glutamylation是一种重要的翻译后修饰，由TTLL家族酶（tubulin tyrosine ligase-like）催化添加polyglutamate链，而AGBL5/CCP5和AGBL2/CCP2等CCP家族酶负责去除它们。这一修饰系统调控微管稳定性、马达蛋白（kinesin/dynein）沿微管的运输、纤毛跳动模式和有丝分裂纺锤体的动态。AGBL5-CGAS轴是另一个独立的功能维度——PMID相关研究揭示了AGBL5对cGAS的去谷氨酰化激活cGAS-STING先天免疫通路，将微管修饰与抗病毒先天免疫耦联。</p>
+<p>STRING PPI网络的TTLL家族富集是AGBL5机制分析的亮点，但同时也是弱点。TTLL6（0.702）、TTLL4（0.688）、TTLL5（0.567）、TTLL10（0.544）和TTLL1（0.539）五个TTLL酶的富集在功能上完全合理——AGBL5（deglutamylase）与TTLL（glutamylase）构成修饰酶的对立/互补关系。然而，所有STRING互作的experimental score均为0.000（全部为textmining推断），缺乏co-IP、pull-down或structural complex的实验验证。这一gap在拥有10个实验结构的前提下尤为突出——尽管AGBL5-tubulin peptide复合体已通过cryo-EM解析（8V3R），但AGBL5-TTLL酶复合体的结构或生化证据尚不存在。</p>
+<p>核定位争议是AGBL5评估的核心问题。UniProt将Nucleus列为实验验证定位（ECO:0000269），GO-CC以IDA:UniProtKB支持；但HPA Approved可靠性下所有14张IF图像均未检出核信号——定位全部为Cytokinetic bridge、Primary cilium、Microtubules、Centriolar satellite和Basal body。这种UniProt-HPA矛盾有三种可能解释：(1)细胞类型/条件依赖的核定位——在特定应激、细胞周期阶段或分化状态下AGBL5入核，而HPA检测的静态培养细胞未触发这一状态；(2)核定位信号为弱信号——被HPA的标准IF阈值过滤掉，但在更灵敏的检测（如nuclear fractionation Western blot）中可能检出；(3)UniProt的核定位注释可能来源于将微管附着于核膜的间接关联误判——细胞分裂期间微管与核膜破裂后染色体的相互作用可能在GO注释中被归类为&quot;nucleus&quot;。</p>
+<p>IntAct实验互作数据（15个co-IP互作）的功能分布高度分散——从钙通道（TPCN2）、免疫检查点（HAVCR2/TIM-3）、细胞因子受体（IL20RA）、伴侣蛋白（HSPA8/DNAJA2）到铜转运蛋白（SLC31A1）。这种广泛但功能不一致的互作模式常见于含有大型无序区域的支架蛋白，其IDR区域可能通过&quot;sticky&quot;的线性基序与多种蛋白产生弱而广泛的互作。TPCN2（two-pore calcium channel 2）的co-IP互作（PMID 28514442）值得注意——该蛋白同样出现在本评估的nucleoplasm候选池中。</p>
+<p>综合考虑，AGBL5归一化得分63.4/100虽然在评分阈值之上，但因核定位争议被置于&quot;保留观察&quot;状态。其深度机制模型为：M14催化域→tubulin C端polyglutamate水解→微管修饰动态平衡→纤毛/有丝分裂调控；cGAS去谷氨酰化→STING通路激活→先天免疫。该模型的置信度在催化域层面极高（10个实验结构支持），但在TTLL-AGBL5功能对立的实验验证和核定位两个层面存在明显缺口。推荐在推进TE调控研究前完成核定位的独立实验验证（核质分离Western blot）和AGBL5-TTLL复合体的生化表征。</p></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

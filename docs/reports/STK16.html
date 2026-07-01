@@ -99,7 +99,13 @@
 <tr><td>pLDDT &lt; 0.5 占比</td><td>0.0%</td></tr>
 <tr><td>建模残基数</td><td>305</td></tr>
 </tbody></table></div>
-<p>ESMFold 基于进化规模语言模型，进行无 MSA 搜索的从头折叠，可作为 AlphaFold 的独立验证。</p></article></main>
+<p>ESMFold 基于进化规模语言模型，进行无 MSA 搜索的从头折叠，可作为 AlphaFold 的独立验证。</p>
+<h4>深度机制分析</h4>
+<p><strong>结构域架构</strong>：STK16（UniProt O75716，305 aa，33.5 kDa）属于丝氨酸/苏氨酸蛋白激酶超家族。其激酶催化域（UniProt Domain 注释：第20-293位为Protein kinase域，证据ECO:0000255|PROSITE:PRU00159）是蛋白的绝对主体，几乎占据整个蛋白序列（273/305 aa）。该激酶域采用经典的双叶折叠——N端小叶由β-折叠主导（ATP结合口袋），C端小叶以α-螺旋为主（底物识别面），活性位点夹在两叶之间的裂隙中。IPR011009（kinase-like domain superfamily）、IPR000719（protein kinase domain）、IPR008271（serine/threonine-protein kinase, active site）和SMART:SM00220（S_TKc）均指向保守的激酶催化中心。IPR052239为STK16家族特异性标记。</p>
+<p><strong>PPI互作网络</strong>：BioGRID互作数据显示NAGK（N-乙酰葡糖胺激酶，评分1）、VHL（von Hippel-Lindau肿瘤抑制蛋白，评分1）、PASK（PAS域含丝氨酸/苏氨酸激酶，评分1）、ROCK2（Rho相关coiled-coil激酶，评分1）、MKKS（McKusick-Kaufman综合征蛋白，评分1）、EBLN2（内源性博尔纳病毒样核蛋白2，评分1）、HNF4A（肝细胞核因子4α，评分1）和SNRK（SNF1相关激酶，评分1）。VHL是HIFα ubiquitylation E3连接酶组分，HNF4A为核受体转录因子，EBLN2是驯化的病毒核蛋白——该PPI集群连接代谢信号、缺氧应答和病毒驯化。</p>
+<p><strong>结构-功能关系</strong>：STK16的ESMFold结构预测质量极高——平均pLDDT=0.90，pLDDT&gt;0.9占比67.2%，pLDDT&lt;0.5占比0.0%。这说明305 aa的激酶域整体折叠高度有序，呈现典型的双叶激酶折叠。STK16已知的体外底物包括DRG1（发育调控GTP结合蛋白1）、ENO1（烯醇化酶1）和EIF4EBP1（真核翻译起始因子4E结合蛋白1），功能涉及分泌小泡运输和TGF-β信号通路。HPA定位含nucleoplasm和nuclear_bodies，支持其核内功能。</p>
+<p><strong>TE调控机制</strong>：STK16经STAT3磷酸化参与JAK2抑制抗性（PMID:38723720 - TNBC中STK16磷酸化STAT3），在结直肠癌中经c-MYC信号促进进展（PMID:38622518），在SARS-CoV-2感染中与Numb相关激酶协同（PMID:35738348）。TE调控维度上，STK16→STAT3磷酸化轴可能间接影响TE转录——STAT3是已知的LTR/ERV启动子激活转录因子，而STK16对STAT3的磷酸化调控可改变其DNA结合活性和靶基因谱。HNF4α互作指向代谢核受体→染色质重塑→转座子沉默的连接，VHL参与HIFα降解→缺氧应答→TE激活通路。EBLN2（驯化Bornavirus核蛋白）与STK16的互作最令人兴奋——EBLN蛋白是哺乳动物基因组中固定化的非逆转录病毒元件，其互作强烈暗示STK16参与驯化病毒蛋白的功能网络。</p>
+<p><strong>前沿意义</strong>：STK16通过HPA定位数据确认nucleoplasm/nuclear_bodies分布（HPA: location reactome nucleoplasm, nuclear_bodies, plasma_membrane），为核内激酶功能提供直接IF证据。尽管PubMed有31篇文献，但从TE调控视角出发属完全未探索领域。STK16作为相对研究充分的激酶，其已有的化学生物学工具（如激酶活性检测试剂盒）可加速TE调控假说的实验验证。c-MYC和STAT3是已知的ERV/LTR激活因子——STK16是否通过磷酸化调节这两个转录因子的TE靶向性是极具前景的研究问题。</p></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

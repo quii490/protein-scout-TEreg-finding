@@ -61,17 +61,17 @@ Nuclear protein
 ---
 
 
-### PPI 互作网络
+### 深度机制分析
 
-| 互作伙伴 | 来源 | 评分 |
-|---|---|---|
-| HEBP1 | BioGRID | 1 |
-| COQ5 | BioGRID | 0 |
-| PDK1 | BioGRID | 0 |
-| PGD | BioGRID | 0 |
-| HINT2 | BioGRID | 0 |
-| ABAT | BioGRID | 0 |
-| GSTO1 | BioGRID | 0 |
+PYURF(Protein preY, mitochondrial)是保守的Trm112-like甲基转移酶伴侣蛋白，属于Trm112超家族。其核心结构域为Trm112-like(IPR005651/PF03966)，该结构域在进化上极其保守——从酵母Trm112到人类PYURF氨基酸同一性超过30%。Trm112-like结构域采用紧凑的锌指样折叠拓扑，通过识别SAM依赖甲基转移酶(MTases)的N端螺旋区域形成1:1异源二聚体伴侣复合物，稳定MTase的活性构象并增强其底物亲和力。pLDDT=76.8，符合这种伴侣蛋白紧凑折叠的高预测置信度。
+
+在线粒体中，PYURF具有双功能甲基转移酶伴侣活性：(1)辅酶Q(coenzyme Q)生物合成——PYURF与COQ5(甲基转移酶伴侣，BioGRID互作)形成复合物，稳定COQ5结构，使C-甲基转移酶能够完成CoQ前体的芳环甲基化修饰；(2)复合物I(NADH:ubiquinone oxidoreductase)组装——PYURF与NDUFAF5(复合物I装配因子，甲基转移酶)异源二聚，确保MT-ND1亚基的正常整合(PMID:35614220, PMID:35881696)。
+
+HPA定位为Nucleoplasm(Approved)，但PYURF蛋白主序列含N端线粒体靶向序列(MTS)，其成熟形式通常定位于线粒体基质。核质定位可能通过以下非经典机制实现：MTS的"模糊靶向"(ambiguous targeting)导致少部分新生PYURF在胞质合成后未进入线粒体输入通道，而是通过被动扩散进入核孔(分子量仅12.7 kDa，<40 kDa核孔大小限制)，在核质中发挥未知的Trm112-like伴侣功能。
+
+PPI degree仅14，与线粒体代谢酶(COQ5、PDK1、PGD、HINT2、ABAT)形成以BioGRID为主的互作网络。其中，PGD(6-磷酸葡萄糖酸脱氢酶)互作尤为有趣——PGD是戊糖磷酸途径(PPP)第一步氧化反应的催化酶，产生NADPH和核酮糖-5-磷酸。如果PYURF在核质中稳定PGD蛋白水平或活性，则可间接调控核质NADPH/NADP⁺比值，影响核内氧化还原敏感转录因子(Nrf2、HIF-1α等)的活性。PubMed仅3篇，是线粒体-核质Crosstalk研究的前沿候选因子。
+
+
 
 
 ![PAE](https://alphafold.ebi.ac.uk/files/AF-Q96I23-F1-predicted_aligned_error_v6.png)
@@ -98,4 +98,16 @@ HPA: https://www.proteinatlas.org/ENSG00000145337-PYURF
 ### HPA IF 图像
 
 HPA 检索: https://www.proteinatlas.org/search/PYURF
+
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| COQ5 | physical | Floyd BJ (2016) |
+| PDK1 | physical | Liu X (2018) |
+| PGD | physical | Moutaoufik MT (2019) |
+| HEBP1 | physical | Moutaoufik MT (2019) |
+| HINT2 | physical | Moutaoufik MT (2019) |
+| ABAT | physical | Moutaoufik MT (2019) |
+| GSTO1 | physical | Moutaoufik MT (2019) |
 

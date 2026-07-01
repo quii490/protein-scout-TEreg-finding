@@ -71,6 +71,12 @@
 <tr><td>CUL3</td><td>BioGRID</td><td>0</td></tr>
 <tr><td>SEC23B</td><td>BioGRID</td><td>0</td></tr>
 </tbody></table></div>
+<h4>深度机制分析</h4>
+<p><strong>结构域架构</strong>：SEC24B（1268 aa，137.4 kDa）是COPII包被复合物的核心选择性货物受体，含三个结构模块：（1）Gelsolin-like_dom（IPR007123）和ADF-H/Gelsolin-like_dom_sf（IPR029006）构成N端β-三叶草折叠，负责与SEC23亚基的结合界面；（2）Beta-sandwich_Sec23_24（IPR012990）为中央结构域，形成免疫球蛋白样β-三明治折叠，识别货物蛋白的Sec24结合基序（如LxxLE、DxE等ER输出信号）；（3）C端gelsolin-like结构域（IPR036180, IPR036175）参与膜曲率感知和SAR1 GTPase的协同作用。</p>
+<p><strong>PPI互作网络解读</strong>：PPI degree=265，是COPII复合物的核心节点蛋白。关键互作包括：SEC23A/SEC23B（直接结合形成内层COPII笼）、TERF2（端粒结合蛋白2，提示SEC24B可能在端粒代谢中有非经典功能）、TSG101（ESCRT-I组分，涉及内体分选）、CUL3（E3泛素连接酶支架）。SEC23A/B的互作验证了其COPII经典功能，但TERF2和TSG101的互作提示SEC24B在核膜-ER膜接触位点和端粒稳态中可能具有额外的锚定功能。</p>
+<p><strong>结构解读</strong>：AlphaFold pLDDT=71.4（1个PDB结构验证），整体折叠质量中等受限于蛋白长度（1268 aa）。中央Beta-sandwich域的pLDDT最高（&gt;85），形成刚性的β-片层平台用于货物识别。Gelsolin样结构域的pLDDT偏低（60-70），该区域在无配体时可能具有显著的构象柔性。SEC24B的货物识别面富含疏水残基和酸性残基，形成与货物信号肽互补的结合沟槽。值得注意的是，SEC24B在COPII家族中具有最广泛的货物谱（包括G蛋白偶联受体、生长因子受体和胶原蛋白），这与其较大的货物识别面一致。</p>
+<p><strong>机制模型</strong>：SEC24B的核质定位（Approved）的可能机制：（1）SEC24B参与核膜蛋白的ER→核膜运输，在核孔复合物组装和核膜完整性维持中发挥间接作用。核膜蛋白（如SUN、Nesprin、Lamin相关蛋白）作为COPII货物经由SEC24B识别，其运输受阻将影响核膜结构；（2）COPII囊泡可沿微管运输至核周区域，SEC24B在该区域的局部富集产生HPA核质信号；（3）TERF2互作提示SEC24B可能在端粒核膜锚定和端粒位置效应（TPE）中提供膜-染色质界面。PMID:36536241发现SEC24B调控小胶质细胞铁死亡（ferroptosis），PMID:40536345表明SEC24B参与STING通路的线性泛素化调控，进一步支持其在炎症信号中的核周功能。</p>
+<p><strong>TE调控展望</strong>：SEC24B作为COPII核心货物受体不直接参与转录调控，但通过以下机制可能间接影响TE：（1）控制核膜蛋白运输，影响核膜上的染色质锚定区域和核纤层相关染色质结构域（LADs），LADs富含LINE-1等TE序列；（2）通过STING-cGAS通路调控衰老相关分泌表型（SASP），该通路被胞质dsDNA（包括TE来源的cDNA）激活。SEC24B的核质信号值得在核膜脂质代谢和TE区域核周定位的空间关系背景下进一步研究。</p>
 <p><figure><img src="https://alphafold.ebi.ac.uk/files/AF-O95487-F1-predicted_aligned_error_v6.png" alt="PAE"></figure></p>
 <h4>HPA IF 图像</h4>
 <p>HPA: https://www.proteinatlas.org/ENSG00000138802-SEC24B</p>

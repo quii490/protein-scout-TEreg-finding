@@ -120,7 +120,13 @@ HPA: https://www.proteinatlas.org/ENSG00000064115-TM7SF3
 | 38670107 | TM7SF3 controls TEAD1 splicing to prevent MASH-induced liver fibrosis. | Cell Metab 2024 |
 | 38135853 | Exosomal LncRNA TM7SF3-AU1 Aggravates White Matter Injury via MiR-702-3p/SARM1 Signaling After Subarachnoid Hemorrhage i | Mol Neurobiol 2024 |
 
-### HPA IF 图像
+### 深度机制分析
 
-HPA 检索: https://www.proteinatlas.org/search/TM7SF3
+TM7SF3（570 aa, 64.2 kDa）是最具TE调控直接证据的候选蛋白之一。其结构域架构独特，含有N端免疫球蛋白样结构域（Ig_TM7SF3_N, IPR059229）和C端七次跨膜结构域（TM7S3/TM198-like_dom, IPR025256），这种Ig+7TM的组合在蛋白质组中少见。AlphaFold预测pLDDT高达88.4，为所有25个分析蛋白质中质量最高的预测之一，但无PDB实验结构。Ig结构域可能介导蛋白-蛋白或蛋白-RNA互作，而7TM区域提示其可能作为膜整合蛋白参与信号转导。
+
+关键突破性发现是TM7SF3定位于核散斑体（nuclear speckles）（PMID:36304109）。核散斑体是富含剪接因子的无膜细胞器，是pre-mRNA剪接调控的中枢。TM7SF3在核散斑体中的存在直接暗示其参与RNA加工调控。最具说服力的功能证据来自肝脏纤维化的研究（PMID:38670107）：TM7SF3通过调控TEAD1（TEA域转录因子1）的选择性剪接来阻止MASH诱导的肝纤维化。TEAD1是Hippo信号通路的核心转录效应器，其剪接异构体的功能截然不同——TM7SF3通过维持TEAD1的正确剪接形式来发挥保护作用。
+
+PPI网络（BioGRID degree=6）中，TM7SF3与ELAVL1（HuR，RNA结合蛋白）、TRIM25（E3泛素连接酶/RNA结合蛋白）和HNRNPL（异质核核糖核蛋白L，剪接因子）的互作强烈强化了其核散斑体定位的功能意义。这些蛋白均为已知的RNA代谢和选择性剪接调控因子。TM7SF3作为p53/TP53的转录靶基因（UniProt注释），参与维持蛋白稳态和抑制内质网应激，这将其核内剪接调控功能与细胞应激反应联系起来。
+
+在TE调控语境下，TM7SF3通过调控剪接因子定位和剪接体组装来间接影响TE来源转录本的加工。许多TE序列位于内含子区域或以可变外显子形式存在，剪接调控是TE表达调控的关键环节。TM7SF3在核散斑体中的物理位置使其处于剪接调控的核心地带。建议未来实验：通过RIP-Seq鉴定TM7SF3结合的RNA靶标（特别是TE来源转录本），利用剪接报告基因系统验证TM7SF3对TE相关外显子包含/跳跃的直接影响，以及探讨其在p53通路中是否通过剪接调控影响TE去抑制后的细胞命运决定。
 

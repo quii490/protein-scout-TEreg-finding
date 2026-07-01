@@ -43,6 +43,19 @@ status: shortlisted
 Nuclear protein
 
 
+### 深度机制分析
+
+**氨转运蛋白的核质定位悖论**：RHBG（Ammonium transporter Rh type B, UniProt Q9H310）属于Rhesus血型氨转运蛋白家族（InterPro: RhesusRHD IPR002229, Ammonium/urea_transptr IPR029020），是位于基底侧质膜的12次跨膜转运蛋白。其氨/甲胺电中性转运功能已在爪蟾卵母细胞和肾上皮细胞中被充分验证（PMIDs:15284342, 15929723, 24077989），负责酸碱稳态维持和肾脏酸分泌。然而HPA数据明确显示该蛋白在Nucleoplasm中为Approved级别定位（核定位特异性9/10），这与12次跨膜蛋白的拓扑特征形成强烈矛盾。一个可能的解释是：RHBG的N端或C端可溶性片段经蛋白酶解后释放入核行使信号功能，类似于Notch的RIP（regulated intramembrane proteolysis）机制。
+
+**高置信度三维结构与功能洞察**：AlphaFold pLDDT=93.7为本次50个蛋白中的顶级结构质量指标，表明AlphaFold对RHBG跨膜螺旋束的建模非常自信。该蛋白包含NH4_transpt_AmtB-like_dom（IPR024041），采用Amt/MEP/Rh氨通道家族保守的伪二重对称折叠，中央为疏水性氨传递通道。跨膜通道蛋白在核质中的潜在非经典功能包括：(1) 作为核膜氨通道调节核内pH——核内pH波动直接影响组蛋白修饰酶（如HDAC和HAT）的活性，从而间接调控染色质状态；(2) 蛋白片段作为转录辅因子发挥功能。
+
+**低PPI度与信号通路关联**：PPI degree=4（BioGRID, 包含SH2B1和CYSRT1, score=1），互作网络极其稀疏。然而，SH2B1作为JAK-STAT信号调控接头蛋白（JAK2激酶的适配蛋白），暗示RHBG可能通过微弱的信号连接间接参与细胞因子信号——而IFN信号的STAT1激活已知影响LINE-1逆转座子表达。这是RHBG与TE调控之间较为牵强的关联线索。
+
+**酸-碱微环境与表观遗传调控的新概念**：氨转运影响细胞内外NH3/NH4+平衡，直接调控局部pH。核内pH是染色质构型的关键物理参数——酸性pH促进组蛋白-组蛋白和组蛋白-DNA的静电互作增强，提高染色质压缩度；碱性pH削弱核小体稳定性。若RHBG或其片段影响核仁/核质pH梯度，则可通过物理化学机制影响富含AT的TE区域（Alu, L1）的可及性。然而，这种pH-TE关联假说目前纯属理论推测。
+
+**新颖性与风险**：PubMed=92的文献量不算低，但所有文献集中于肾酸碱生理学（PMIDs:42192833, 42055369），无一篇涉及核功能。归一化得分68.9/100中核定位特异性36/40和新奇性35/50是主要支撑。这是一个需要多学科交叉验证（膜蛋白生物化学 + 核生物学 + TE基因组学）的低可行性候选，不建议作为首要靶标。
+
+
 ### 补充分析 (UniProt API)
 
 **蛋白全称**: Ammonium transporter Rh type B
@@ -71,28 +84,3 @@ Nuclear protein
 | CYSRT1 | BioGRID | 1 |
 | KRTAP19-1 | BioGRID | 0 |
 | KRTAP19-2 | BioGRID | 0 |
-
-
-![PAE](https://alphafold.ebi.ac.uk/files/AF-Q9H310-F1-predicted_aligned_error_v6.png)
-
-### HPA IF 图像
-
-HPA: https://www.proteinatlas.org/ENSG00000132677-RHBG
-
-![](https://images.proteinatlas.org/42726/1293_B9_3_red_green.jpg)
-![](https://images.proteinatlas.org/42726/1293_B9_4_red_green.jpg)
-![](https://images.proteinatlas.org/42726/1424_D12_1_red_green.jpg)
-![](https://images.proteinatlas.org/42726/1424_D12_7_red_green.jpg)
-
-### PubMed 文献
-
-**PubMed count: 153**
-
-| 42192833 | Genomic Profiling of Adults with Pharmacoresistant Genetic Generalized Epilepsy. | Brain Sci 2026 |
-| 42137134 | Strain-Specific Yeast Polysaccharides Enhance Growth, Antioxidant Capacity, Immune Response and Gut Microbiota Homeostas | Aquac Nutr 2026 |
-| 42055369 | Genome-wide analysis of the Rh gene family in Gymnocypris eckloni and its role in ammonia transport under carbonate alka | Int J Biol Macromol 2026 |
-
-### HPA IF 图像
-
-HPA 检索: https://www.proteinatlas.org/search/RHBG
-

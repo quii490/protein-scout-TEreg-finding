@@ -64,7 +64,19 @@ Nuclear protein
 
 ---
 
-![PAE](https://alphafold.ebi.ac.uk/files/AF-P23381-F1-predicted_aligned_error_v6.png)
+
+### 深度机制分析
+
+**结构域架构**：WARS1（471 aa, 53.2 kDa, P23381, Tryptophan--tRNA ligase, cytoplasmic）是I类氨酰tRNA合成酶（aaRS）家族成员，催化Trp-tRNA(Trp)的合成。含三个功能模块：（1）Rossmann-fold催化域（IPR001412, 含HIGH和KMSKS保守motif）——经典的beta-alpha-beta Rossmann核苷酸结合折叠，ATP和Trp在此区域被激活形成Trp-AMP混合酸酐；（2）WHEP-TRS域（Pfam WHEP-TRS）——独特的helix-turn-helix结构域，在I类aaRS中参与非经典功能，如血管新生信号中的VE-cadherin结合；（3）C末端反密码子结合域（IPR002306）——识别tRNA(Trp)的CCA反密码子stem-loop。AlphaFold pLDDT=91.6是最高值之一，PDB=13个实验结构，结构可信度极高。
+
+**PPI互作网络解读**：PPI degree=37，高度富集aaRS家族成员——AARS1（AlaRS, STRING 881）、MARS1（MetRS, STRING 878）、KARS1（LysRS, STRING 868）、VARS1（ValRS, STRING 846）、LARS1（LeuRS, STRING 844）、HARS1（HisRS, STRING 848）等全部胞质I类aaRS构成密集互作网络——这些aaRS在胞质中形成多tRNA合成酶复合体（multi-tRNA synthetase complex, MSC）——与MSC scaffold蛋白（AIMP1/p43, AIMP2/p38, AIMP3/p18）非共价组装成~1.2 MDa超分子机器。WARS2（线粒体TrpRS, STRING 829）互作连接胞质和线粒体tRNA氨酰化体系。
+
+**结构解读**：pLDDT=91.6和13个PDB结构提供了WARS1催化机制的原子级分辨率。Trp-AMP合成遵循two-step机制：（1）Trp + ATP → Trp-AMP + PPi（腺苷化）；（2）Trp-AMP + tRNA(Trp) → Trp-tRNA(Trp) + AMP（tRNA charging）。Trp吲哚侧链堆叠在Phe/Tyr保守残基的芳香笼中，ATP adenine与Asp/Glu残基形成氢键。WHEP-TRS域在血管新生信号中经proteolytic cleavage释放为mini-TrpRS——获得胞外细胞因子活性——结合VE-cadherin胞外域抑制VEGF诱导的血管通透性。
+
+**机制模型**：（1）经典功能——胞质Trp-tRNA(Trp)合成——WARS1作为MSC组分催化Trp激活和tRNA(Trp)氨酰化——确保Trp密码子（UGG）在核糖体A位被正确解码。（2）非经典功能——N端截短体（mini-TrpRS/T2-TrpRS）胞外分泌后作为促炎/抗血管新生信号分子，激活巨噬细胞和中性粒细胞（通过TLR4-MyD88和TLR2-MyD88 pathway）。（3）Trp depletion/stress response（PMID:35264796）——细胞Trp不足时Trp codon核糖体暂停→ribosome-associated quality control→GCN2/ISR激活→全局翻译抑制——WARS1作为Trp sensor间接参与氨基酸应激信号。（4）肝细胞线粒体应激（PMID:39515413）——WARS1下调导致线粒体应激和代谢紊乱。
+
+**TE调控展望**：WARS1 TE调控关联为间接路径。Trp作为最稀有的氨基酸（仅1个UGG codon），其tRNA charging效率直接影响TE编码蛋白（LINE-1 ORF1p/ORF2p, ERV Gag/Pol/Env）的翻译延伸速率。WARS1下调导致Trp-tRNA(Trp)不足→核糖体在TE mRNA的UGG codon上暂停→ribosome collision→RQC-mediated mRNA decay→TE mRNA周转加速——这构成翻译水平的TE表达调控——与转录水平的TRIM28/KRAB-ZNF/KAP1沉默协同限制TE蛋白产量。
+
 
 ### HPA IF 图像
 

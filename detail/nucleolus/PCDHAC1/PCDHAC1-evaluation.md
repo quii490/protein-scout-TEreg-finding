@@ -109,6 +109,18 @@ Nuclear protein
 
 ![PAE](https://alphafold.ebi.ac.uk/files/AF-Q9H158-F1-predicted_aligned_error_v6.png)
 
+### 深度机制分析
+
+**结构域架构**：PCDHAC1（963 aa，105.9 kDa）是原钙黏蛋白α-C1家族成员，拥有一套经典的钙黏蛋白重复结构域体系：N端6个Cadherin重复结构域（UniProt DOMAIN 19-667，每个约100-110 aa）、Cadherin_C（IPR032455）胞质尾端、Cadherin_CBD（IPR031904）和Cadherin_CS保守基序（IPR020894）。每个Cadherin重复采用β-三明治折叠，通过Ca²⁺离子桥连形成刚性棒状延伸结构。AlphaFold pLDDT=73.1表明整体折叠可信，但950+残基中长连接区（inter-repeat linkers）存在构象柔性（pLDDT 50-65区域）。HPA定位显示Nucleoli; Nucleoplasm; Vesicles（Approved），其中核仁定位对经典细胞黏附分子而言极为罕见。
+
+**PPI互作网络解读**：PPI degree=18，核心互作集中在该基因簇的其他原钙黏蛋白成员：PCDHA10（同簇α亚型蛋白，BioGRID评分0）、DNAJC18（Hsp40家族共伴侶，可能参与内质网内钙黏蛋白折叠质量控制）、ABCB9（ATP结合盒转运蛋白）、ATF6（内质网应激传感器）。此外，ACVR2A（激活素A受体IIA型）和CISD2（线粒体铁硫蛋白）的互作提示PCDHAC1可能参与非经典的信号通路交叉调控。C2CD2L和C1orf43的互作缺乏功能注释，体现该蛋白领域的研究空白（PubMed仅4篇）。
+
+**结构解读**：AlphaFold预测的胞外域呈刚性棒状结构——6个Cadherin重复串联成直线排列，每个重复的β-三明治核心由7条β-链折叠而成，Ca²⁺结合位点位于重复间界面（DxD, DRE, xDxE保守基序）。跨膜区（约700-720 aa）预测为单一α-螺旋。胞内Cadherin_C尾端（IPR032455）可能通过β-catenin/plakoglobin结合位点连接肌动蛋白细胞骨架。但PCDHAC1与其他经典cadherin不同，其胞内结构域较短且缺少典型的catenin结合基序（PxxxP），提示其可能通过与PCDHA10异源二聚化间接连接细胞骨架。
+
+**机制模型**：PCDHAC1可能通过一种非经典的核定位路径实现核仁定位：（1）胞内Cadherin_C片段经calpain或γ-secretase介导的蛋白水解释放，暴露隐性的NLS序列；（2）游离胞内段经importin-α/β转运进入核质；（3）在核仁中，Cadherin_C通过其与核仁蛋白（如nucleolin/NCL、nucleophosmin/B23）的互作锚定于GC区（granular component），可能参与rRNA加工成熟或核仁应激应答。这一"黏附分子核内信号"模式类似Notch/DCC的受控蛋白水解-核转位范式（PMID:27544570提示胎盘镉暴露通过PCDHAC1甲基化变化影响胎儿发育，进一步支持环境应激-PCDHAC1-核内信号轴）。
+
+**TE调控展望**：PCDHAC1不直接参与TE调控。PubMed仅4篇，CpG岛甲基化表型分析（PMID:22610075）提示该基因的启动子甲基化具有肿瘤分型价值。鉴于其核仁定位，PCDHAC1可能通过核仁应激信号间接影响异染色质维持——已知核仁是rDNA重复序列的组织中心，核仁扰动可释放核仁蛋白至核质激活p53通路，但这一机制与TE的关联无直接证据支持。
+
 ### PubMed 文献
 
 **PubMed count: 4**

@@ -101,3 +101,18 @@ HPA: https://www.proteinatlas.org/ENSG00000150551-LYPD1
 
 HPA 检索: https://www.proteinatlas.org/search/LYPD1
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| SPINK7 | physical | Huttlin EL (2017) |
+| SPSB3 | physical | Huttlin EL (2017) |
+| VWDE | physical | Huttlin EL (2017) |
+| PCSK5 | physical | Huttlin EL (2017) |
+| NPTX1 | physical | Huttlin EL (2017) |
+| TUBA4A | physical | Huttlin EL (2017) |
+| TUBA1A | physical | Huttlin EL (2017) |
+| EOGT | physical | Huttlin EL (2017) |
+| WNT5A | physical | Huttlin EL (2017) |
+| ZNF146 | physical | Huttlin EL (2017) |
+

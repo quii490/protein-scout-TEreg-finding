@@ -114,3 +114,16 @@ HPA: https://www.proteinatlas.org/ENSG00000137513-NARS2
 
 HPA 检索: https://www.proteinatlas.org/search/NARS2
 
+
+### 深度机制分析
+
+NARS2（Asparaginyl-tRNA synthetase, mitochondrial）是线粒体氨酰tRNA合成酶家族（aaRS-II类）的成员，其结构特征为三类保守结构域的组合：氨酰tRNA合成酶II类催化核心（InterPro:IPR006195, aa-tRNA-synth_II）、tRNA反密码子识别域（IPR045864, aa-tRNA-synth_II/BPL/LPL）以及N端附加结构域（IPR004364, Aa-tRNA-synt_II）。Pfam注释为tRNA-synt_2（PF00152, 催化结构域）和tRNA_anti-codon（PF01406, 反密码子绑合域）。AlphaFold预测结构整体良好（pLDDT=91.4），但该值反映的是全链均值，催化核心的置信度通常高于配体识别区段。
+
+NARS2催化的两步反应是天冬酰胺-tRNA氨酰化的经典机制：第一步，天冬酰胺（Asn）被ATP激活形成Asn-AMP中间体，释放焦磷酸；第二步，活化的天冬酰胺从Asn-AMP转移至同源tRNA^(Asn)的3'端腺苷（PubMed:25385316）。这一反应是线粒体蛋白质合成的核心步骤——只有正确加载了天冬酰胺的tRNA^(Asn)才能进入线粒体核糖体参与翻译延伸。PPI互作网络（degree=117）进一步确认了NARS2在氨酰tRNA合成酶超复合体（MSC, multi-synthetase complex）中的嵌入：STRING高分互作伙伴包括YARS（score=956, 酪氨酰tRNA合成酶）、YARS2（score=926, 线粒体型）、EARS2（score=913, 线粒体谷氨酰tRNA合成酶）、MARS（score=889, 甲硫氨酰tRNA合成酶）和AARS/IARS/SARS（各种胞质aaRS酶），说明胞质和线粒体aaRS在空间和功能上高度关联。
+
+NARS2的亚细胞定位为Cytosol-Mitochondria-Nucleoplasm三重分布（HPA Supported），核质定位的HPA信号可能反映了新合成的NARS2在进入线粒体前的胞质/核质转运中间态，或核内氨基酸感受（amino acid sensing）的非经典功能。aaRS-II类蛋白在特定条件下（如氧化应激、营养剥夺）可从线粒体转位至细胞核执行信号传导功能——这一"兼职功能"（moonlighting function）已在线粒体aaRS家族多名成员（如MARS, EARS2, YARS2）中被证实。
+
+NARS2的临床关联集中在Leigh综合征及其谱系疾病。PubMed文献（PMID:26425749, PMID:34374940, PMID:38310242）统一指向NARS2双等位基因突变导致常染色体隐性线粒体脑肌病——表型从新生儿期致死性线粒体脑病到儿童期起病的癫痫性线粒体病不等。NARS2突变的功能后果是天冬氨酰化tRNA的充电效率下降，直接影响线粒体编码的呼吸链亚基（如MT-ND1至MT-ND6和MT-CO1至MT-CO3）的翻译，继而导致氧化磷酸化缺陷和ATP耗竭。综合来看，NARS2的深度机制模型为：aaRS-II催化核心+tRNA反密码子识别→线粒体Asn-tRNA^(Asn)充电→线粒体翻译维持→呼吸链复合体组装→能量代谢→细胞存活。该蛋白的核心功能在线粒体翻译，核质定位信号可能反映兼职功能，但直接参与TE调控的潜力极低（TE调控评估：极低）。
+
+
+

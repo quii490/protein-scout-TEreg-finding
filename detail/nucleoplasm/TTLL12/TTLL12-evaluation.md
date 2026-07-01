@@ -242,3 +242,11 @@ Source: https://www.proteinatlas.org/ENSG00000100304-TTLL12/interaction
 | EEF1AKMT3 | Bioplex | false |
 | FAM222B | Intact | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+### 深度机制分析
+
+TTLL12属于微管蛋白酪氨酸连接酶样（TTLL）家族，其C端催化模块含有保守的TTL结构域（UniProt FT DOMAIN 300-644，PROSITE PRU00568），归属InterPro IPR004344（Tubulin-tyrosine ligase/TTL）超家族。尽管命名来源于微管蛋白的C端酪氨酸化修饰，TTLL12在TTLL家族中属于非经典成员——其催化口袋中的关键残基与典型TTL酶存在差异，提示其底物特异性可能远离微管蛋白。AlphaFold v6预测结构达到极高置信度（pLDDT=91.0，93.0%的有序区域），83.1%的残基pLDDT>90，结构与TTLL4（STRING 0.722）和TTLL1（STRING 0.609）的折叠高度保守，支持该蛋白在进化中维持了稳定的催化折叠，尽管生理底物尚未明确。
+
+PPI网络的突出特征是其与翻译延伸因子复合物的紧密关联：EEF1A1（STRING combined score=0.808，实验=0.803，humanPPI中Intact/BioGrid/BioPlex三源验证）、EEF1A2（0.724，实验=0.723，humanPPI确认）和EEF1AKMT1（0.786，实验=0.785，EEF1A赖氨酸甲基转移酶）构成TTLL12的核心互作簇。EEF1A是GTP依赖的氨酰tRNA递送机器，EEF1AKMT1的甲基化修饰调控其活性。TTLL12可能通过对EEF1A或其C端修饰状态施加影响来参与翻译调控。另一重要互作分支是分子伴侣网络：DNAJB1（STRING 0.797，实验=0.786）和DNAJB4（0.671，实验=0.662）均为Hsp40/DNAJ家族共伴侣，二者在humanPPI中均获多源验证（Intact/BioGrid/BioPlex）。这暗示TTLL12可能经由Hsp70-DNAJ系统被递送到特定亚细胞场所或在翻译质量控制中发挥作用。
+
+免疫信号转导中，TTLL12直接与VISA/MAVS（线粒体抗病毒信号蛋白）互作，抑制固有免疫中IRF3的磷酸化和I型干扰素诱导（PMID:28011935）。IntAct实验中IKBKE（IKKε，也是MAVS通路的关键激酶，PMID:17353931）和CSNK2A2（CK2α'，PMID:21988832）的互作进一步支持TTLL12在固有免疫负调控中的角色。PMID:40461158报道肿瘤内在的TTLL12通过调控髓源性抑制细胞（MDSC）驱动癌症免疫治疗抵抗，将上述免疫抑制功能延伸到肿瘤微环境。TTLL12与SIRT7（BioGRID）和SAP25（mSin3A复合物组分，IntAct，PMID:16449650）的互作暗示其在转录沉默中的可能参与。细胞分裂方面，TTLL12与mad2（纺锤体组装检查点蛋白，PMID:15575970）和SLX4（DNA修复支架，PMID:19596235）的酵母双杂交和CoIP互作揭示了该蛋白在细胞周期和基因组稳定性中的附加角色。核质定位（HPA额外标记）结合SIRT7和SAP25互作提示TTLL12在核内的翻译偶联质量控制中可能建有隐匿功能。

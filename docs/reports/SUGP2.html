@@ -105,7 +105,13 @@
 <tr><td>38800953</td><td>SUGP2 p.(Arg639Gln) variant is involved in the pathogenesis of hemochromatosis via the CIRBP/BMPER signaling pathway.</td></tr>
 <tr><td>34733907</td><td>Chromatin-Associated Protein Sugp2 Involved in mRNA Alternative Splicing During Mouse Spermatogenesis.</td></tr>
 <tr><td>34583728</td><td>Correlation of genotype and phenotype in 32 patients with hereditary hemochromatosis in China.</td></tr>
-</tbody></table></div></article></main>
+</tbody></table></div>
+<h4>深度机制分析</h4>
+<p>SUGP2 的域架构包含两个关键功能模块：N端的 SURP 结构域（SM00443）和C端的 G-patch 结构域（SM00648，残基1011-1057）。SURP 结构域（SWAP/Surp 超家族，IPR000061/IPR035967）是 RNA 识别模块，能够结合前体 mRNA 上的剪接调控序列；G-patch 结构域则是蛋白质-蛋白质相互作用界面，专门招募含 DEAH-box 的解旋酶家族成员（如 DHX9、DHX15）至剪接体复合物。这种 SURP-G-patch 串联架构是剪接因子 SR 超家族旁系同源物的经典拓扑特征，暗示 SUGP2 的功能是作为一个衔接蛋白，将 RNA 识别事件耦合到剪接体重构的 ATP 驱动步骤。</p>
+<p>PPI 网络分析揭示了 SUGP2 与核基质与剪接体蛋白的双重互作景观。degree=204 的核心互作网络由 MATR3（STRING=777）主导——MATR3 是一种核基质蛋白，结合核内不溶性骨架并调控 RNA 代谢。此外，BioGRID 互作数据指向剪接体核心成分 HNRNPA1、DHX9 和 NONO 等。DHX9 作为一种 DEAH-box RNA 解旋酶，很可能是 G-patch 结构域的直接招募目标，形成 G-patch/DHX9 剪接体重构模块。LZTR1、SIRT7 和 ATXN1 的互作提示 SUGP2 可能通过高尔基体相关通路或 NAD+ 依赖的去乙酰化通路接受上游调控信号。</p>
+<p>AlphaFold 整体 pLDDT 仅 52.9，表明该蛋白质大部分区域为内在无序序列（IDR），这与剪接因子的普遍结构特征一致——它们通常使用低复杂度结构域形成液-液相分离凝聚体。仅有 G-patch（残基 1011-1057）和 SURP 模块有望正确折叠，但原子分辨率结构仍待实验解析。典型剪接因子模型表明，IDR 富含 RS 二肽或 RG 重复序列的区域可驱动核斑点/核体的定位和动态凝聚体组装。</p>
+<p>综合机制模型显示，SUGP2 在核体（nuclear bodies）中作为剪接调控的支架蛋白发挥功能：其 SURP 结构域识别并结合未剪接 pre-mRNA 中的特定基序，而 G-patch 结构域则招募 DHX9/DHX15 解旋酶完成剪接体过渡。同时，与 MATR3 的互作将其锚定至核基质，实现剪接装置的空间组织。SUGP2 p.(Arg639Gln) 变体（PMID 38800953, 39629038）通过 CIRBP/BMPER 信号通路导致遗传性血色素沉着症，表明其剪接靶标包括铁代谢相关基因，这为 SUPT2 在铁稳态中的组织特异性剪接调控作用提供了遗传学证据。此外，作为肺腺癌N0分期的生物标志物（PMID 40148389），SUGP2 的表达失调可能反映异常剪接事件对肿瘤免疫微环境的影响。</p>
+<p>对 TE 调控的启示：SUGP2 的 SURP 结构域可能识别转座子（TE）衍生的隐蔽剪接位点，这些位点常出现在内含子 TE 插入中。G-patch/DHX9 模块具有抑制 TE 诱导的异常剪接事件的潜力，而该蛋白的极低研究密度（8 篇文献）结合其高 PPI 度（204）使其成为研究 TE 剪接调控功能的理想候选靶点。鉴于可变剪接是 TE 外显子化的主要机制之一，SUGP2 的功能探索可能为 TE 调控网络提供新入口。</p></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

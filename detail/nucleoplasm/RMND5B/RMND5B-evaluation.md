@@ -43,6 +43,17 @@ status: shortlisted
 Nuclear protein
 
 
+### 深度机制分析
+
+**CTLH泛素连接酶核心组分的转录因子降解功能**：RMND5B（393 aa, UniProt Q96G75）是CTLH（C-terminal to LisH）E3泛素连接酶复合物的核心催化组分。其结构域包括CTLH_C（IPR045098）和CRA（CT11-RanBPM）结构域（IPR013144），与RMND5A形成同源二聚体构成连接酶的底物识别模块。该复合物从UBE2H E2酶接受泛素，催化转录因子HBP1（HMG-box蛋白1）的多聚泛素化和蛋白酶体降解（PMID:29911972）。CTLH复合物的活性是正常细胞增殖所必需的，缺失会扰乱细胞周期调控。
+
+**CTLH复合物在癌症和免疫中的TE调控关联**：RMND5B的PPI核心组分组为ARMC8（STRING 985）、WDR26（STRING 980）、GID8（STRING 959）和MAEA（STRING 866）。这组蛋白构成人类GID/CTLH E3复合物——在酵母中GID复合物通过泛素化果糖-1,6-双磷酸酶（FBPase）调控糖异生，而在人类中底物扩展至多个转录因子和信号蛋白。PMID:31885576（The CTLH Complex in Cancer Cell Plasticity）总结了该复合物在EMT和肿瘤干细胞可塑性中的角色——而EMT过程中TE（特别是HERV-H LTR和MER41）作为增强子被广泛激活以驱动间充质基因表达。若CTLH泛素化降解的是抑制TE活性的转录因子（如ZNFs或SETDB1），则RMND5B可能正向调控TE表达。
+
+**RANBP9/10支架蛋白的细胞骨架-细胞核信号桥接**：RANBP10（STRING 854）和RANBP9（STRING 794）是CTLH复合物的两个支架伙伴，均含有SPRY、LisH和CTLH结构域。RANBP9/10定位于微管组织中心（MTOC）和细胞核，介导细胞骨架动力学与基因转录的耦合。ARMC8（Armadillo重复蛋白8, STRING 985）是具有α-超螺旋重复的支架，可能协调CTLH复合物的组装。YPEL5（STRING 832）是含Yippee样锌指基序的核蛋白，暗示DNA/染色质底物识别潜力。
+
+**高结构置信度与有限的文献支持**：AlphaFold pLDDT=90.5为本批次中结构置信度最高的蛋白之一，CTLH域可能采用α/β Rossmann样折叠。PubMed=4的极低文献量（新颖性满分50/50）与归一化得分68.3/100耦合，使RMND5B成为泛素-蛋白酶体-TE调控交叉领域的高风险候选。实验上建议AP-MS鉴定CTLH复合物的泛素化底物组（ubiquitinome），并筛选其中是否包含已知TE调控因子。
+
+
 ### 补充分析 (UniProt API)
 
 **蛋白全称**: E3 ubiquitin-protein transferase RMND5B
@@ -77,19 +88,3 @@ Nuclear protein
 | RANBP10 | STRING | 854 |
 | YPEL5 | STRING | 832 |
 | RANBP9 | STRING | 794 |
-
-
-![PAE](https://alphafold.ebi.ac.uk/files/AF-Q96G75-F1-predicted_aligned_error_v6.png)
-
-### PubMed 文献
-
-**PubMed count: 5**
-
-| 40883813 | RANBP9 and RANBP10 cooperate in regulating non-small cell lung cancer proliferation. | J Exp Clin Cancer Res 2025 |
-| 39895829 | Systematic Analysis of E3 Ligase-Related Genes Identified UBE2L3 as a Prognostic Biomarker Associated With Drug Resistan | Int J Gen Med 2025 |
-| 38903709 | Immune cell related signature predicts prognosis in esophageal squamous cell carcinoma based on single-cell and bulk-RNA | Front Oncol 2024 |
-
-### HPA IF 图像
-
-HPA 检索: https://www.proteinatlas.org/search/RMND5B
-

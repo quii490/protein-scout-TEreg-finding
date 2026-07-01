@@ -123,6 +123,10 @@
 <p><strong>风险/不确定性</strong>: 1. PubMed 0 篇，研究基础极有限，功能注释不完整 2. 结构数据质量可接受</p>
 <p><strong>下一步建议</strong>:</p>
 <ul><li>[ ] 查阅最新关键文献补充研究背景</li><li>[ ] 获取 Protein Atlas IF 图像确认亚细胞定位</li><li>[ ] 设计体外实验验证核定位及潜在调控功能</li><li>[ ] <strong>该蛋白核定位证据不足（≤3/10），不建议作为核蛋白研究目标。</strong></li></ul>
+<h4>深度机制分析</h4>
+<p>GPR31（319 aa, pLDDT=83.2）是G蛋白偶联受体31（OXER1），定位于细胞质膜（UniProt）。其结构域包含GPCR视紫红质样7跨膜螺旋束（IPR000276、IPR017452、PF00001），作为12(S)-HETE（羟基二十碳四烯酸）的高亲和力受体行使Gi/Go偶联信号转导功能。GPR31的AlphaFold预测pLDDT=83.2（有序区85.3%），7TM螺旋束折叠的高置信度与GPCR整体折叠特征完全一致。</p>
+<p>该蛋白的核心生理功能为花生四烯酸代谢产物的脂质介质感知。12(S)-HETE作为12-脂氧合酶的产物，通过GPR31激活Gi信号抑制cAMP产生并促进钙动员和PI3K/Akt通路。GPR31与RAMP1/2/3的实验验证互作（PMID:39083597, bead aggregation assay）提示其作为RAMP互作GPCR，RAMP蛋白（受体活性修饰蛋白）可调节GPCR的药理学特性和细胞内运输。</p>
+<p>从TE调控角度，GPR31的STRING互作网络包含ZIC3（Combined Score=0.841）、NODAL（0.767）、CFC1（0.721）等与发育信号通路密切相关的互作伙伴。ZIC3是锌指转录因子，在胚胎左-右不对称发育中发挥关键作用，NODAL/CFC1是TGFβ超家族信号的核心组分。这些互作提示GPR31可能通过GPCR-TGFβ信号串扰参与发育基因调控网络。然而，GPR31因核定位证据极弱（2/10）已被淘汰，其TE调控意义仅限于作为质膜启动的GPCR信号级联的远端效应器，通过PI3K/Akt→mTOR→TET通路间接影响TE甲基化状态的可能性微乎其微。评分64.2/100，定位决定其不适合作为核蛋白TE调控靶标。</p>
 <h4>5. 数据来源</h4>
 <ul><li>UniProt: https://www.uniprot.org/uniprotkb/O00270</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000120436-GPR31/subcellular</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=GPR31</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/O00270</li><li>STRING: https://string-db.org/network/9606.ENSP00000</li><li>Data fetched live: 2026-06-03</li></ul>
 <p>&lt;!-- AF_PAE_REPAIR_START --&gt; <strong>PAE 图像修正（2026-06-05）</strong>: AlphaFold 提供 predicted aligned error 图像；此前“PAE 图像暂无数据”的表述为未获取/未嵌入导致。</p>

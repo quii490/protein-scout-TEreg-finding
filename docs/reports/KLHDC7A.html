@@ -125,6 +125,10 @@
 <p><strong>风险/不确定性</strong>: 1. PubMed 4 篇，研究基础极有限，功能注释不完整 2. AlphaFold 预测质量一般（pLDDT=60.9），需要更多实验结构验证</p>
 <p><strong>下一步建议</strong>:</p>
 <ul><li>[ ] 查阅最新关键文献补充研究背景</li><li>[ ] 获取 Protein Atlas IF 图像确认亚细胞定位</li><li>[ ] 设计体外实验验证核定位及潜在调控功能</li></ul>
+<h4>深度机制分析</h4>
+<p>KLHDC7A（777 aa, pLDDT=60.9）是Kelch结构域蛋白7A成员，定位于Nuclear speckles（HPA approved）。其结构域包含Kelch型β螺旋桨重复（IPR015915、PF01344），SMART注释SM00612模块。Kelch结构域的β螺旋桨折叠提供多价蛋白-蛋白互作表面，通常作为Cullin-RING E3泛素连接酶（CRL）复合物的底物受体亚基行使功能。与KLHDC7A同源的KLHDC10（STRING Combined Score=0.486）已被证明作为CRL2复合物的底物受体，通过其Kelch repeats识别特异性降解底物。</p>
+<p>AlphaFold预测的pLDDT=60.9（有序区仅42.2%）表明该蛋白存在大幅无序区域，这通常与转录调控因子和RNA结合蛋白的无序区特征一致。Nuclear speckles作为mRNA剪接因子富集的亚核结构域，KLHDC7A在该区域的定位（评分65.6/100）提示其可能参与剪接因子泛素化调控或核内蛋白质量控制。</p>
+<p>从TE调控角度，IntAct实验验证的互作包括GRIP2、DLG3、MAGI1等PDZ/支架蛋白（holdup assay, PMID:10.1038/s41467-022-33018-0），这些蛋白虽主要定位于膜/胞质，但均具有核穿梭能力。KLHDC7A与TJP1（ZO-1）的实验互作（holdup assay验证）提示其可能通过核内紧密连接蛋白信号调控相关转录程序。TJP1的核内定位与Wnt/β-catenin信号调控密切相关，而Wnt通路通过TCF/LEF转录因子直接调控ERV LTR活性。KLHDC7A通过Cullin-RING底物受体活性可能调节特定剪接因子或转录调控因子的蛋白稳定性，从而间接影响TE衍生转录本的可变剪接和稳定性。</p>
 <h4>TE 调控评估</h4>
 <p>该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。</p>
 <h4>5. 数据来源</h4>

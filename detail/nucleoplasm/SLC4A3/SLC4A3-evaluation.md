@@ -43,6 +43,17 @@ status: shortlisted
 Nuclear protein
 
 
+### 深度机制分析
+
+**阴离子交换蛋白AE3的核质通路与短QT综合征基因功能**：SLC4A3（Anion exchange protein 3/AE3, 1232 aa, UniProt P48751）是SLC4阴离子交换蛋白家族成员，催化Cl-/HCO3-的电中性跨膜交换（PMID:29167417, 7923606）。蛋白包含N端胞质域（Band_3_cyto, Pfam）和C端跨膜域（HCO3_cotransp），通过"乒乓"机制交换一价阴离子。其核心生理功能为调节细胞内pH（pHi）和心肌动作电位的复极相位——功能获得性突变导致短QT综合征（SQTS, PMIDs:41039816, 40439641, 41780556），表现为心室复极加速和心律失常死亡风险增加。HPA数据显示Nucleoplasm为Approved级别定位（核定位特异性9/10），为跨膜离子转运蛋白的核质非经典功能提供了少见的确凿证据。
+
+**胞内pH调控与核内组蛋白修饰酶活性**：AE3的Cl-/HCO3-交换活性直接影响胞内pH——而核内pH（pHn）是染色质修饰酶催化活性的关键物理化学参数：(1) HDAC催化域的最适pH为7.5-8.0，酸性偏移（pH<7.0）显著抑制其活性，导致组蛋白乙酰化水平升高；(2) HAT（如p300/CBP）的最适pH相反（6.5-7.0），碱性偏移（pH>7.5）抑制乙酰化——因此AE3通过Cl-/HCO3-交换改变pHi和pHn可全局性地重塑组蛋白乙酰化景观。对于TE调控，H3K9ac和H4K16ac的富集促进活性TE（特别是SVA和年轻L1）的染色质开放——AE3通过碳酸酐酶或NHE协同调节核内pH可能间接调控"乙酰化-TE"功能轴。
+
+**核定位的双重机制**：1232 aa / 135.8 kDa的大分子量排除了被动核孔扩散，必然存在主动核输入机制。可能的NLS包括：(1) 蛋白水解后释放N端胞质域（约400 aa, 含多个碱性氨基酸簇），该片段进入核内发挥pH感知或信号转导功能；(2) AE3作为整合膜蛋白可能定位于核膜（inner/outer nuclear membrane），通过局部HCO3-转运调节核质与胞质之间的pH梯度。PPI degree=7虽然极低，但GAPDH（BioGRID score=1）和RANGAP1（BioGRID score=1）的互作提供了核转运相关功能的微妙线索——RANGAP1是Ran GTPase激活蛋白，参与核质转运的RanGTP梯度调控。DDX58/RIG-I（BioGRID score=0）的微弱互作则与先天免疫-TE交叉相关。
+
+**SQTS基因与TE调控的意外交点**：AE3突变导致SQTS的分子病理涉及心肌复极加速——这与心律失常性右室心肌病（ARVC）中的TE激活表型有潜在重叠。心脏传导系统的细胞中已发现LINE-1的去抑制与传导缺陷（如Brugada综合征）的关联（PMID:31378581），但在SQTS中的TE表达状态尚未被研究。归一化得分68.3/100中核定位特异性36/40和新奇性40/50使其成为膜蛋白中少有的高分候选。
+
+
 ### 补充分析 (UniProt API)
 
 **蛋白全称**: Anion exchange protein 3
@@ -76,30 +87,3 @@ Nuclear protein
 | PRKD2 | BioGRID | 0 |
 | DRD2 | BioGRID | 0 |
 | DDX58 | BioGRID | 0 |
-
-
-![PAE](https://alphafold.ebi.ac.uk/files/AF-P48751-F1-predicted_aligned_error_v6.png)
-
-### HPA IF 图像
-
-HPA: https://www.proteinatlas.org/ENSG00000114923-SLC4A3
-
-![](https://images.proteinatlas.org/63498/1248_E6_2_red_green.jpg)
-![](https://images.proteinatlas.org/63498/1248_E6_3_red_green.jpg)
-![](https://images.proteinatlas.org/63498/1219_G10_1_red_green.jpg)
-![](https://images.proteinatlas.org/63498/1219_G10_2_red_green.jpg)
-![](https://images.proteinatlas.org/63498/1189_G10_1_red_green.jpg)
-![](https://images.proteinatlas.org/63498/1189_G10_2_red_green.jpg)
-
-### PubMed 文献
-
-**PubMed count: 124**
-
-| 42028086 | Novel KCNH2 and SLC4A3 variants in short QT syndrome: Clinical phenotypes and antiarrhythmic drug response. | HeartRhythm Case Rep 2026 |
-| 41789352 | Phytohormone Signaling Induces Dormancy and Apoptosis in Prostate Cancer Disseminated Tumor Cells. | Med Res Arch 2026 |
-| 41780556 | SLC4A3-related short QT syndrome assessed in human induced pluripotent stem cell-derived cardiomyocytes: mechanisms of v | Eur Heart J 2026 |
-
-### HPA IF 图像
-
-HPA 检索: https://www.proteinatlas.org/search/SLC4A3
-

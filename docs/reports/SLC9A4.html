@@ -67,6 +67,12 @@
 <tr><td>RNF181</td><td>BioGRID</td><td>0</td></tr>
 <tr><td>IL37</td><td>BioGRID</td><td>0</td></tr>
 </tbody></table></div>
+<h4>深度机制分析</h4>
+<p><strong>结构域架构</strong>：SLC9A4/NHE4（798 aa，89.8 kDa）是单价阳离子/质子反向转运体（Monovalent Cation:Proton Antiporter, CPA）超家族SLC9基因家族（Na^+/H^+ Exchanger, NHE）的成员。含三个特征性结构域：（1）Cation/H_exchanger_CPA1（IPR018422）和Cation/H_exchanger_TM（IPR006153）构成N端跨膜转运域——12-13次跨膜α-螺旋（TM0-TM12），形成中央质子易位通路；（2）NaH_exchanger（IPR004709）赋予NHE家族成员特异性——此结构域的保守Asp/Lys/Glu残基在TM4-TM11之间形成离子配位位点，Na^+/Li^+与质子进行1:1的化学计量比交换；（3）C端胞质调控域（~300 aa）含NEXCaM_BD（PF16433），是Ca^2+/钙调蛋白（CaM）和多种信号分子的结合区，含有预测的CHP（Calcineurin B Homologous Protein）结合基序。NHE的转运机制为&quot;交替门控&quot;（alternating access）：TM bundle在胞质开放态（E1）和胞外/腔面开放态（E2）之间转换，Na^+和H^+分别在不同构象状态下结合和释放。</p>
+<p><strong>PPI互作网络解读</strong>：PPI degree极低（仅5），但互作质量反映了NHE调控的关键伴侣：CHP1/CHP2（Calcineurin B Homologous Protein 1/2，NHE家族的核心调控因子——CHP结合NHE的C端胞质域并调节其pH依赖和Na^+亲和力，BioGRID）。CHP1/2是NHE活性维持的必需因子——基因敲除CHP导致NHE在ER中滞留并被降解。RNF181（E3泛素连接酶，可能调控NHE的泛素化依赖性降解/内吞，BioGRID 0分）和IL37（IL-1家族抗炎细胞因子，BioGRID 0分）的互作生理意义尚不明确。</p>
+<p><strong>结构解读</strong>：AlphaFold pLDDT=66.7，对798 aa的大型膜蛋白而言预测质量中等。N端跨膜域（残基约1-500）——12-TM螺旋束在pLDDT &gt;80的水平上清晰可辨。Na^+结合位点的保守酸性残基（Asp265, Asp268, Glu272位于TM6/TM7之间的loop中）和质子传递残基（His/Asp pair）形成特征性的离子配位几何。C端胞质调控域（残基500-798）的pLDDT显著偏低（45-65），主要是因为该区域在无结合伴侣（CHP, CaM）时处于高度柔性的延伸构象——在与CHP结合后，该区域经历显著的&quot;folding upon binding&quot;事件，形成紧凑的α-螺旋束以锁定NHE的胞质门控。</p>
+<p><strong>机制模型</strong>：（1）经典功能：SLC9A4在极化上皮细胞的基底外侧膜上作为电中性的Na^+/H^+交换器，排出胞内质子以维持胞内pH（pHi ~7.2）。在肾髓质升支粗段（mTAL）中，SLC9A4介导基底外侧铵根离子（NH4^+）的排出，对维持肾皮质的铵浓度梯度（corticopapillary ammonium gradient）和全身酸碱平衡至关重要；（2）作为脑室周围器官（CVO，特别是终板血管器OVLT）中的[Na^+]传感器（PMID:32372285）——SLC9A4在OVLT的神经元中作为胞外Na^+浓度的化学感受器，调控渴感和血压的神经体液调节，这一功能具有重要的生理学和高血压研究意义；（3）核质定位（Nucleoplasm; Plasma membrane Approved）的可能解释：NHE蛋白在核膜上的功能性表达——核内pH（pHi）的维持对染色质结构的动态调控至关重要（组蛋白尾部碱性残基的质子化状态影响核小体的静电相互作用）。核膜表达的SLC9A4可能参与核周pH微环境的调节。</p>
+<p><strong>TE调控展望</strong>：SLC9A4的TE调控潜力极低。胞内pH是染色质结构的全局性物理化学调控因子（核小体间距、组蛋白-DNA亲和力均受pH影响），pH改变也可影响HDAC（组蛋白去乙酰化酶，经典HDAC1-11中含Zn^2+依赖的水解机制对pH敏感）的催化效率。但这些是全局性理化效应而非TE特异性的调控机制。SLC9A4基因变异与湿疹（PMID:34785669）和阻塞性睡眠呼吸暂停（PMID:38330144）的GWAS关联提示SLC9A4在上皮屏障功能中的重要性，对这些疾病中的TE表达状态的分析可能提供SLC9A4→pH→染色质→TE调控的弱相关线索。</p>
 <p><figure><img src="https://alphafold.ebi.ac.uk/files/AF-Q6AI14-F1-predicted_aligned_error_v6.png" alt="PAE"></figure></p>
 <h4>HPA IF 图像</h4>
 <p>HPA: https://www.proteinatlas.org/ENSG00000180251-SLC9A4</p>

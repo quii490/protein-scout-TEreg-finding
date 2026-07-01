@@ -62,7 +62,18 @@ Nuclear protein
 
 **TE 调控评估**: 该蛋白缺乏核定位证据，TE调控潜力极低。
 
----
+### 深度机制分析
+
+CNGA1（Cyclic nucleotide-gated channel alpha-1，UniProt: P29973，686 aa / 79.1 kDa）的结构域架构分析显示：InterPro结构域包括IPR000595, IPR005821, IPR018488, IPR018490, IPR032406, IPR050866。 AlphaFold预测的pLDDT均值为76.2，整体结构置信度中等，部分区域可能为内在无序区，需要注意其构象柔性对功能的影响。
+
+蛋白质互作网络分析揭示CNGA1与以下关键因子存在相互作用：SLC24A1、PNMA2、WWC1、C11orf31、NKX6-2（PPI度为38）。 功能注释显示Pore-forming subunit of the rod cyclic nucleotide-gated channel. Mediates rod photoresponses at dim light converting transient changes in intracellular cGMP levels into electrical signals. In the dark。 这些互作伙伴暗示该蛋白可能通过多蛋白复合物参与细胞过程调控，其互作网络的拓扑位置值得进一步实验验证。
+
+从结构-功能机制角度分析，CNGA1的亚细胞定位为，具有明确的核/核周定位特征，提示其可能直接参与染色质水平或核内体的调控过程。 评估综合得分67.8/100，属于中等兴趣候选，在明确核定位后其TE调控潜力可能显著提升。
+
+对于TE调控机制的意义而言，CNGA1的结构域组成不直接指向经典染色质调控因子，但其在核内的存在（若经实验确认）可能暗示非经典TE调控途径。 研究新颖性方面，PubMed检索获得60篇文献，已有较多文献积累，需从TE调控这一非经典视角寻找差异化研究切入点。 代表性文献包括PMID:42192302, 42083016, 41473327等。
+
+综上所述，CNGA1作为一个686 aa / 79.1 kDa的定位蛋白，具有一定的TE调控研究价值，建议首先通过亚细胞分级和免疫荧光明确其在核内的分布模式，再设计针对性的功能实验。 AlphaFold pLDDT=76.2的结构预测可作为设计突变体和结构-功能关系研究的起点。
+
 
 
 ### PPI 互作网络

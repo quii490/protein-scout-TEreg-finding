@@ -46,6 +46,16 @@ status: shortlisted
 Nuclear protein
 
 
+### 深度机制分析
+
+PSME3IP1（PSME3-interacting protein，亦称NIP30或FAM192A）是一个254 aa的核质蛋白（28.9 kDa），属于FAM192A/Fyv6_N结构域家族（Pfam PF10187, InterPro IPR019331）。该结构域在进化上从酵母到人类高度保守，但在高等真核生物中获得了核内特异性功能。AlphaFold2预测pLDDT=67.8（得分6/10），PDB数据库中有2个实验结构，提示至少部分结构域已获得结构验证。
+
+PSME3IP1的PPI网络具有一个鲜明的特征：其最强互作伙伴几乎全部来自剪接体和mRNA加工机器。STRING网络中以极高评分（>800）连接的DHX8（DEAH-box解旋酶8）、SLU7（剪接因子）、XAB2（XPA结合蛋白2）、BCAS2（乳腺癌扩增序列2）、CDC5L（细胞分裂周期5样蛋白）、PPIE（肽基脯氨酰异构酶E）、CACTIN（剪接体相关蛋白）和PRPF8（pre-mRNA加工因子8，核心剪接体组分，STRING=988）构成了一个紧密的剪接体互作簇。RBM8A（RNA结合基序蛋白8A，外显子连接复合物核心，STRING=999）和PRKRIP1（PRKRA互作蛋白1，STRING=820）的极端高评分进一步巩固了这一观察。这些互作表明PSME3IP1深度嵌入核内mRNA加工机器。
+
+PSME3IP1的核心功能机制涉及蛋白酶体系统与Cajal body（卡哈尔体）之间的调控回路。根据UniProt功能注释，PSME3IP1通过促进蛋白酶体激活因子PSME3（REGγ）与20S蛋白酶体的结合来调控蛋白酶体活性，并抑制PSME3介导的某些底物降解。同时，PSME3IP1抑制PSME3与COIL（coilin，Cajal body标志蛋白）的互作，抑制PSME3在Cajal body中的积累，从而正向调控Cajal body的数量。Cajal body是核内snRNP生物发生和剪接体组装的关键场所，PSME3IP1通过这一机制间接调控剪接体功能。
+
+唯一一篇直接相关的文献（PMID:32764536）揭示了NIP30通过REGγ抑制增加p53缺陷肿瘤细胞对化疗的敏感性。这是PSME3IP1在癌症治疗中的转化应用前景的重要线索。尽管PubMed=0直接文献（得分10/10，极高新颖性），但STRING网络揭示的剪接体互作簇为PSME3IP1的核内功能提供了强有力的预测证据。PSME3IP1可能代表了一类新型的蛋白酶体-剪接体交叉调控节点，在RNA加工和蛋白降解这两个关键核内过程之间建立功能连接。
+
 ### 补充分析 (UniProt API)
 
 **蛋白全称**: PSME3-interacting protein

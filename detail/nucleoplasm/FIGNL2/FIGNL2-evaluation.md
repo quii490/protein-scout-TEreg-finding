@@ -75,6 +75,18 @@ Nuclear protein
 | CXorf40A | BioGRID | 0 |
 
 
+### 深度机制分析
+
+FIGNL2（Fidgetin-like protein 2）。定位于nucleoplasm。包含653 aa / 66.6 kDa。UniProt编号A6NMB9。其InterPro结构域组成为IPR003593（AAA+ ATPase）、IPR003959（ATPase AAA核心）、IPR047828（Fidgetin ATPase）、IPR050304、IPR027417（P-loop NTPase折叠）。Pfam注释1个保守AAA结构域（PF00004）。AlphaFold预测三维结构pLDDT=60.4（中等置信度）。
+
+从功能机制角度，FIGNL2属于AAA+ ATPase超家族中的Fidgetin亚家族，是一种微管切割酶（microtubule-severing enzyme），负调控细胞迁移和伤口愈合（PMID:25756798、36523161）。在迁移细胞中，FIGNL2靶向并切割前沿的动态微管，释放ARHGEF2以激活RHOA，进而通过黏着斑激酶调节黏着斑周转，抑制细胞运动。该蛋白的nucleoplasm定位提示其可能参与有丝分裂期间核内微管网络的调控，这与AAA+ ATPase家族在染色质重塑、核骨架重构中的广泛作用一致。从结构域角度，AAA+ ATPase核心通过核苷酸结合诱导的构象变化驱动机械力传导，将ATP水解的化学能转化为微管切割的机械功。中等pLDDT（60.4）暗示存在较大无序区域，可能在细胞周期依赖的核质穿梭中发挥作用。
+
+从PPI互作网络角度，FIGNL2目前仅知与CUL7（Cullin-7，E3泛素连接酶复合体支架蛋白）存在低置信度生物网格互作，PPI degree=3，互作网络极为稀疏。CUL7作为CRL7泛素连接酶的支架亚基，参与细胞生长和分裂的调控，这一互作可能暗示FIGNL2在泛素化介导的蛋白降解通路中存在功能耦联。
+
+从TE调控角度，微管切割活性与染色质构象存在间接关联——有丝分裂期间的微管-着丝粒连接驱动染色体分离，而FIGNL2作为微管动力学调控因子，其nucleoplasm定位使其在与着丝粒周缘染色质接触时可能影响局部转座子元件的空间可及性。此外，FIGNL2的AAA+ ATPase折叠与染色质重塑ATP酶（如SNF2家族）共享P-loop NTPase折叠，提示其可能通过非经典机制参与染色质结构调控。
+
+从研究转化角度，PubMed中仅有4篇相关文献（PMID:33585441、33859359、41220267），研究新颖度极高（评分10/10），综合评分63.4/100，属于中等偏低优先级，但其独特的nucleoplasm定位与微管-染色质互作功能使其在TE调控领域具有探索价值，建议作为机制实验的备选靶标。
+
 
 ### HPA IF 图像
 

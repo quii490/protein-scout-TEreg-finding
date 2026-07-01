@@ -161,7 +161,13 @@
 <tr><td>PSMA5</td><td>Biogrid, Bioplex</td><td>true</td></tr>
 <tr><td>PSMB2</td><td>Biogrid, Bioplex</td><td>true</td></tr>
 </tbody></table></div>
-<p>&lt;!-- DOMAIN_HUMANPPI_REPAIR_END --&gt;</p></article></main>
+<p>&lt;!-- DOMAIN_HUMANPPI_REPAIR_END --&gt;</p>
+<h4>深度机制分析</h4>
+<p>FBXO7（F-box only protein 7, 522 aa, 58.5 kDa）是SCF（SKP1-CUL1-F-box）E3泛素连接酶复合体的底物识别亚基，其N端F-box结构域（329-375 aa, SMART: SM00256）直接介导与SKP1的结合（STRING combined score=0.997, IntAct实验验证, PMID:16278047）。FBXO7通过典型的F-box/SKP1/CUL1/RBX1四元骨架组装SCF^FBXO7泛素化机器。AlphaFold v6整体pLDDT仅为66.4，有序区域占比54.2%，且低置信残基占比高达33.3%，提示该蛋白含有大量内在无序区域（IDR）——这在F-box蛋白中常见，IDR赋予底物识别的构象灵活性。已有PDB实验结构4L9C和4L9H覆盖了部分结构域，为解析其底物识别模式提供了实验基础。</p>
+<p>PPI网络呈现出两个鲜明的功能模块。第一个模块是泛素化核心机器：SKP1（combined score=0.997）、CUL1（0.992）、RBX1（0.965），均经IntAct实验验证（PMID:16278047, PMID:19615732）；第二个模块是线粒体质量控制与帕金森病通路：PINK1（0.995, 实验验证）、PRKN/Parkin（0.917）、PARK7/DJ-1（0.864）、ATP13A2（0.885）。FBXO7与PINK1和Parkin的互作已被广泛验证——FBXO7与PINK1物理互作（IntAct, PMID:28514442），且FBXO7的致病突变导致早发性帕金森病（PMID:32613234, 35328025），机制涉及Parkin线粒体易位的调控和线粒体自噬的启动。</p>
+<p>在核功能方面，FBXO7具有多重亚细胞定位（UniProt: Cytoplasm, Nucleus, Mitochondrion, cytosol; HPA: Nucleoplasm, Cytosol (supported)）。核质定位的功能维度近年获得关注：FBXO7可泛素化PRMT1（蛋白质精氨酸甲基转移酶1），抑制丝氨酸合成并抑制肝细胞癌生长（PMID:38839752），揭示其通过底物泛素化直接干预代谢酶和表观遗传修饰酶的功能。此外，SCF^FBXO7复合体在核内可靶向多种转录和表观调控因子。COPS6（信号体亚基6, IntAct验证, PMID:19615732）、COPS5和COPS2为COP9信号体的组分，其与FBXO7的互作暗示FBXO7可能在CUL1的去NEDD化循环中发挥作用，精细调控SCF连接酶的组装-去组装动态平衡。</p>
+<p>从TE调控机制角度，FBXO7参与TE沉默的潜在通路包括：（1）通过泛素化PRMT1调控组蛋白精氨酸甲基化（H3R2me2a, H4R3me2a），间接影响异染色质状态；（2）通过COP9信号体的去NEDD化调控CUL1活性，整合信号通路与转录应答；（3）在氧化应激条件下，FBXO7的线粒体-核逆行信号可能将代谢状态与核基因表达偶联。然而，目前尚无FBXO7直接结合染色质或TE序列的实验证据。ChIP-seq验证其基因组结合位点、以及FBXO7敲除后的ATAC-seq或H3K9me3/H3K27me3 ChIP-seq分析TE区域的变化，将是阐明其TE调控潜力的关键实验。</p>
+<p>本研究被归类为REJECTED（PubMed strict=132篇，超过100篇阈值），研究热度较高。候选推荐优先级低，但对于理解泛素化-线粒体-核信号轴在TE调控中的角色提供了有启发性的机制框架。</p></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

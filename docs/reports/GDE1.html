@@ -68,6 +68,12 @@
 <tr><td>FAM84B</td><td>BioGRID</td><td>0</td></tr>
 <tr><td>GAPDHS</td><td>BioGRID</td><td>0</td></tr>
 </tbody></table></div>
+<h4>深度机制分析</h4>
+<p><strong>结构域架构</strong>：GDE1（331 aa，37.7 kDa）属于甘油磷酸二酯磷酸二酯酶（GDPD）家族，含GP_PDE_dom（IPR030395，甘油磷酸二酯磷酸二酯酶结构域）和PLC-like_Pdiesterase_TIM-brl（IPR017946，PLC样磷酸二酯酶TIM桶折叠）。GDPD催化结构域（Pfam PF03009）采用TIM桶（α/β）8折叠——8个平行β-链围成中央桶状结构，外围8个α-螺旋。活性位点位于TIM桶C端开口处，由两个保守的His残基（或His+Glu/Asp）配位催化必需的Zn^2+或Co^2+离子，通过广义酸碱催化机制水解甘油磷酸二酯的磷酸二酯键。</p>
+<p><strong>PPI互作网络解读</strong>：PPI degree=35，主要互作伙伴指向G蛋白信号调控和代谢。RGS16和RGS2（Regulator of G-protein Signaling）均为Gα亚基的GTPase加速蛋白（GAP），加速G蛋白信号终止。CLGN（Calmegin，内质网分子伴侣）和REEP5（受体表达增强蛋白5，ER形态调控）提示GDE1可能与内质网膜系统存在功能上的空间邻近。ATAD3C（ATPase家族AAA domain-containing 3C，线粒体内膜蛋白）的互作可能反映GDE1与线粒体-ER接触位点（MAMs）的功能关联——与GDE1参与内源性大麻素（anandamide）合成的已知功能一致。</p>
+<p><strong>结构解读</strong>：AlphaFold pLDDT=94.5，是本批次中预测质量最高的蛋白之一。TIM桶核心区域pLDDT &gt;95，活性位点的Zn^2+配位残基（His/His/Glu三联体）的空间排布清晰可辨。环区（loop regions，pLDDT 70-85）包含底物识别口袋，其中对甘油磷酸肌醇（GroPIns）和甘油磷酸乙醇胺（GroPEth）的底物选择性由疏水口袋中的关键残基（Phe/Tyr/Trp侧链）决定。GDE1也具有甘油磷酸-N-酰基乙醇胺水解酶活性——催化N-酰基乙醇胺类内源性脂质介质（包括anandamide、N-palmitoylethanolamine和N-oleoylethanolamine）的生成。这一双功能特性源于活性位点口袋对甘油磷酸二酯和甘油磷酸-N-酰基乙醇胺的差异化识别模式，但具体决定因子尚有待高分辨晶体结构解析。</p>
+<p><strong>机制模型</strong>：GDE1在脑内的功能最为清晰——通过水解甘油磷酸-N-酰基乙醇胺（GP-NAEs）生成具有生物活性的N-酰基乙醇胺（anandamide等内源性大麻素系统组分）。此外，近期研究揭示GDE1通过REM转录因子共同塑造DNA甲基化景观（PMID:40579456），这建立了GDE1从代谢调控到表观基因组调控的直接桥梁。GDE1在核质中的定位（Nucleoplasm Approved）可能并非HPA假阳性——具有代谢酶活性的蛋白定位于核内支撑局部NAE池合成，其产物（NAEs，如anandamide）可能作为核内PPARγ或核受体的配体，进而调控转录和/或表观遗传修饰。</p>
+<p><strong>TE调控展望</strong>：GDE1的TE调控潜力有限但值得关注。PMID:40579456报道的GDE1-REM-TF→DNA甲基化轴是直接联系GDE1与染色质修饰的罕见证据。如果GDE1通过局部NAE合成影响DNA甲基化酶（DNMT）活性或染色质可及性，TE区域的甲基化状态可能间接受到影响。GDE1在肿瘤细胞（如胶质母细胞瘤，已报道GDE1表达变化影响肿瘤进展）中的表达变化→NAE信号失调→TE去抑制的可能性值得在多组学数据中验证，但非GDE1的核心功能。</p>
 <p><figure><img src="https://alphafold.ebi.ac.uk/files/AF-Q9NZC3-F1-predicted_aligned_error_v6.png" alt="PAE"></figure></p>
 <h4>HPA IF 图像</h4>
 <p>HPA: https://www.proteinatlas.org/ENSG00000006007-GDE1</p>

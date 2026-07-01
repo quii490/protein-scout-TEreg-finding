@@ -171,6 +171,16 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 **该蛋白PubMed文献数 192 > 100，研究热度过高，不符合novelty筛选标准。**
 
+### 深度机制分析
+
+GRHL2（Grainyhead-like protein 2 homolog）。定位于nucleoplasm及chromatin（GO:0000785）。包含625 aa / 71.1 kDa。UniProt编号Q6ISB3。其InterPro结构域组成为IPR007604、IPR057520、IPR040167。Pfam注释2个保守结构域（PF04516、PF25416）。AlphaFold预测三维结构pLDDT=66.9（中等置信度），高置信残基占比仅37.8%，低置信残基（pLDDT<50）占比42.4%，有序区域占比53.2%。实验结构PDB条目5MR7为其DNA结合域提供了部分结构数据。
+
+从功能机制角度，GRHL2是一个CP2/Grh家族转录因子，含有Grh/CP2 DNA结合结构域（aa 244-482，PROSITE-ProRule:PRU01313），能直接识别CpG岛和特定DNA基序，调控上皮细胞分化、细胞间连接形成等关键生物学过程。文献证据表明GRHL2通过MLL3/GRHL2复合物（PPI网络显示与KMT2C/MLL3 STRING score=0.642）调控鳞状细胞癌恶性转化与抗肿瘤免疫（PMID:39964485），通过GRHL2-CDK19轴调控前列腺衰老进程（PMID:41266629），在胆道癌中作为分子分型标志物（PMID:40353839），并在腔面型乳腺癌中控制广泛的基因表达网络（PMID:36691073）。其chromatin直接定位注释（GO:0000785）进一步确认其作为染色质结合调控因子的功能身份。PPI网络显示其与ESRP1（STRING score=0.891）、OVOL2（0.832）、FOXA1（0.665）、LMO4（0.610，含实验验证score=0.605）、HOXB13（0.596）等存在高置信度互作。IntAct实验验证互作包括Sall4（PMID:20362541）、Tfcp2l1、GRHL1、PAX5、PAX6、PIAS2等发育转录因子，提示GRHL2在转录调控网络中居于枢纽位置。
+
+从结构生物学角度，该蛋白预测结构质量较低（pLDDT=66.9），42.4%残基处于低置信区域（pLDDT<50），提示存在大量内在无序区（IDR）及灵活片段。在真核转录因子中，IDR区域常介导液-液相分离（LLPS），通过形成转录凝聚体富集Pol II和共激活因子。GRHL2的chromatin直接定位与CpG结合能力使其成为TE调控的直接候选因子——其DNA结合域可能直接识别TE序列中的CpG元件，而IDR区域可能驱动TE区域的转录凝聚体形成。
+
+从研究转化角度，PubMed strict检索共192篇文献，已超过100篇筛选阈值（评分0/10），整体评定为REJECTED。但值得注意的是，其与TE调控的直接关联尚未被任何文献报道，在TE特异性功能层面仍属新颖方向。综合评分44.7/100，虽不满足本研究的新颖性筛选标准，但其chromatin定位与TF枢纽功能使其在TE机制研究的背景参考中仍有重要价值。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q6ISB3
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000083307-GRHL2/subcellular

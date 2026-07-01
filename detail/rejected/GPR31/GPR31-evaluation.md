@@ -156,6 +156,14 @@ status: rejected
 - [ ] 设计体外实验验证核定位及潜在调控功能
 - [ ] **该蛋白核定位证据不足（≤3/10），不建议作为核蛋白研究目标。**
 
+### 深度机制分析
+
+GPR31（319 aa, pLDDT=83.2）是G蛋白偶联受体31（OXER1），定位于细胞质膜（UniProt）。其结构域包含GPCR视紫红质样7跨膜螺旋束（IPR000276、IPR017452、PF00001），作为12(S)-HETE（羟基二十碳四烯酸）的高亲和力受体行使Gi/Go偶联信号转导功能。GPR31的AlphaFold预测pLDDT=83.2（有序区85.3%），7TM螺旋束折叠的高置信度与GPCR整体折叠特征完全一致。
+
+该蛋白的核心生理功能为花生四烯酸代谢产物的脂质介质感知。12(S)-HETE作为12-脂氧合酶的产物，通过GPR31激活Gi信号抑制cAMP产生并促进钙动员和PI3K/Akt通路。GPR31与RAMP1/2/3的实验验证互作（PMID:39083597, bead aggregation assay）提示其作为RAMP互作GPCR，RAMP蛋白（受体活性修饰蛋白）可调节GPCR的药理学特性和细胞内运输。
+
+从TE调控角度，GPR31的STRING互作网络包含ZIC3（Combined Score=0.841）、NODAL（0.767）、CFC1（0.721）等与发育信号通路密切相关的互作伙伴。ZIC3是锌指转录因子，在胚胎左-右不对称发育中发挥关键作用，NODAL/CFC1是TGFβ超家族信号的核心组分。这些互作提示GPR31可能通过GPCR-TGFβ信号串扰参与发育基因调控网络。然而，GPR31因核定位证据极弱（2/10）已被淘汰，其TE调控意义仅限于作为质膜启动的GPCR信号级联的远端效应器，通过PI3K/Akt→mTOR→TET通路间接影响TE甲基化状态的可能性微乎其微。评分64.2/100，定位决定其不适合作为核蛋白TE调控靶标。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/O00270
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000120436-GPR31/subcellular

@@ -131,6 +131,11 @@
 <p><strong>下一步建议</strong>:</p>
 <ul><li>[ ] 查阅最新关键文献补充研究背景</li><li>[ ] 获取 Protein Atlas IF 图像确认亚细胞定位</li><li>[ ] 设计体外实验验证核定位及潜在调控功能</li></ul>
 <p><strong>该蛋白PubMed文献数 101 &gt; 100，研究热度过高，不符合novelty筛选标准。</strong></p>
+<h4>深度机制分析</h4>
+<p>INPP5E（Phosphatidylinositol polyphosphate 5-phosphatase type IV）是磷酸肌醇代谢的关键酶。其结构域架构包括核心催化域和调控模块：InterPro注释为IPR036691（Endonuclease/exonuclease/phosphatase superfamily）、IPR042478（OCRL-like phosphatase domain）和IPR000300（IPPc domain），Pfam对应PF22669，SMART确认SM00128（IPPc domain）。AlphaFold v6预测整体pLDDT=71.2，高置信度残基占49.5%，但低置信度区域占39.6%，提示该蛋白约40%的部分可能为调控性无序区域或柔性连接区。实验PDB结构2XSW为该蛋白的催化域提供了原子分辨率的构象信息。</p>
+<p>INPP5E的核心生化功能是特异性水解PI(4,5)P2和PI(3,4,5)P3的D5位磷酸基团，产生PI(4)P和PI(3,4)P2。这两种底物是关键的信号分子：PI(4,5)P2是磷脂酶C的底物和离子通道/细胞骨架调控因子，PI(3,4,5)P3是PI3K-AKT通路的中心信号枢纽。因此，INPP5E通过去磷酸化同时调控G蛋白偶联受体信号（PI(4,5)P2途径）和PI3K-AKT信号（PI(3,4,5)P3途径）。在功能定位上，INPP5E主要富集于初级纤毛，其功能缺失导致Joubert综合征（PMID:20301500）——一种以脑干和小脑发育异常为特征的纤毛病。免疫突触（PMID:37670137）和光感受器外段维持（PMID:39871753）的研究进一步确立了INPP5E在特化膜区室中调控磷酸肌醇分布的全局性角色。</p>
+<p>PPI网络反映了INPP5E在磷酸肌醇信号网络中的核心位置。STRING记录的互作伙伴中，PDE6D（combined score=0.980, experimental=0.628）值得特别关注——PDE6D是纤毛靶向复合体和KRAS信号的关键调控因子，参与小GTPase的脂质修饰和膜定位。ARL13B（0.956）是纤毛发生的主要调控因子，与INPP5E在纤毛膜的共定位支持二者功能偶联。IntAct实验验证的互作中，MARK2（PMID:19615732, co-IP）是细胞极性激酶，与Joubert综合征病理中的纤毛极性缺陷相关。hPA Interaction汇集的调控相关互作包括HNRNPH2（异质核核糖核蛋白H2，pre-mRNA剪接）和多个14-3-3蛋白（YWHAB、YWHAE、YWHAG、YWHAH、YWHAZ），14-3-3蛋白已知通过磷酸化依赖的方式调控核质运输和染色质相关蛋白定位。</p>
+<p>尽管INPP5E已被REJECTED（PubMed strict=101，&gt;100篇阈值），其GO-CC注释中明确包含nucleus（GO:0005634），且在HPA IF中被检测到额外的核质定位（Nucleoplasm, Uncertain）。磷酸肌醇在核内构成独立的信号池——核PI(4,5)P2参与pre-mRNA剪接、染色质重塑和转录调控。INPP5E的核质定位（虽被标记为Uncertain）暗示其可能调控核内磷酸肌醇池，间接影响依赖于磷酸肌醇信号的核过程。其新颖性虽不符合本项目标准，但其在核磷酸肌醇代谢和TE调控交叉领域的潜在角色，仍为后续研究提供了值得关注的线索。</p>
 <h4>5. 数据来源</h4>
 <ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q9NRR6</li><li>Protein Atlas: https://www.proteinatlas.org/ENSG00000148384-INPP5E/subcellular</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=INPP5E</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q9NRR6</li><li>STRING: https://string-db.org/network/9606.ENSP00000</li><li>Data fetched live: 2026-06-03</li></ul>
 <p>&lt;!-- HPA_IF_REPAIR_START --&gt; <strong>HPA IF 图像修正（2026-06-05）</strong>: HPA subcellular 页面存在可用 IF 图像；此前“原图未可靠获取/暂无 IF”的表述为采集失败导致的误报。HPA 定位: Golgi apparatus (uncertain)。来源: https://www.proteinatlas.org/ENSG00000148384-INPP5E/subcellular</p>

@@ -44,7 +44,15 @@ status: shortlisted
 Nuclear protein
 
 
-### 补充分析 (UniProt API)
+### 深度机制分析
+
+GPRASP2（G蛋白偶联受体相关分选蛋白2）是838个氨基酸的大分子支架蛋白，其结构特征为ARM-like（IPR011989）串联重复折叠和ARM-type fold（IPR016024）的三维架构。ARM重复作为经典的蛋白-蛋白互作模块，赋予GPRASP2高度的构象可塑性——能够同时与多个伙伴蛋白形成动态的相互作用界面。然而，AlphaFold预测的pLDDT仅为49.9，提示蛋白含有大量内在无序区（IDR），这些柔性区域可能充当分子海绵，通过液-液相分离（LLPS）机制富集GPCR分选相关因子。
+
+PPI网络分析（degree=123）揭示了GPRASP2作为E3泛素连接酶底物适配器的核心功能：与BTRC（β-TrCP）、CUL3的互作（BioGRID评分=1）指示其参与基于Cullin-RING E3连接酶（CRL）的泛素化途径。GPRASP2通过识别特定GPCR的胞内尾部序列，将其招募至BTRC/CUL3复合体进行泛素化标记，从而介导受体的溶酶体分选与降解。与BARD1的互作进一步将GPRASP2连接至DNA损伤修复与中心体功能，而与HTT（亨廷顿蛋白）的互作则暗示可能的神经退行性疾病关联。
+
+HPA Approved的核质定位（Nucleoplasm）与经典胞质功能（endocytic trafficking）的共存是该蛋白最引人注目的特征。GPRASP2缺乏经典核定位信号，其入核可能通过ARM重复结构域介导的"piggyback"机制——即通过与携带NLS的核蛋白（如TCF25、LRIF1）结合而被动转运。最新研究显示GPRASP2维持造血干细胞（HSC）的静息态需要其内吞体分选功能（PMID:41726907），而GPRASP2缺陷导致淋巴增殖性疾病（PMID:39479518），这强烈提示该蛋白在核质中可能直接调控干性相关转录程序。
+
+从TE调控研究角度来看，GPRASP2作为核质定位的GPCR调控支架蛋白，其新颖性（PubMed=20，得分9/10）极高。GPRASP蛋白是HSC移植的关键负调控因子（PMID:32027737），敲除后可增强HSC的植入效率——这一表型可能部分通过其核内功能实现。鉴于ARM重复蛋白在TE调控网络中的潜在角色，GPRASP2值得作为优先候选进行功能获得/缺失的TE活性报告基因筛选。
 
 **蛋白全称**: G protein-coupled receptor-associated sorting protein 2
 

@@ -122,4 +122,16 @@ HPA: https://www.proteinatlas.org/ENSG00000146842-TMEM209
 | 39414762 | TMEM209 promotes hepatocellular carcinoma progression by activating the Wnt/β-catenin signaling pathway through KPNB1 stabilization. |
 | 38305770 | Risk model based on genes regulating the response of tumor cells to T-cell-mediated killing in esophageal squamous cell carcinoma. |
 
+### 深度机制分析
+
+**结构域架构**：TMEM209（UniProt Q96SK2，561 aa，62.9 kDa）是核孔复合体（NPC）的跨膜整合蛋白。InterPro和Pfam注释仅识别Cyt_B561相关域（Cytochrome_B561-rel / CytochromB561_N）——该域含两个Bis-His配位的b型血红素辅因子，参与跨膜电子传递和抗坏血酸再生。此域在核孔蛋白中极为罕见，赋予了TMEM209独特的功能可能性——作为核被膜的氧化还原传感器或在核孔中建立局部氧化还原微环境。
+
+**PPI互作网络**：BioGRID数据显示TMEM209与多个核孔/纤毛蛋白存在互作，包括TCTN2（构造蛋白2，评分0）、TCTN3（构造蛋白3，评分0）、CEP135（中心体蛋白135，评分0）、TMEM17（跨膜蛋白17，评分0）和TMEM216（跨膜蛋白216，评分0）。该PPI模式呈现核孔-初级纤毛膜蛋白轴的特征。ELAVL1（RNA结合蛋白，评分0）、MUS81（结构特异性内切酶，评分0）和IFI16（干扰素γ诱导蛋白16，评分0）的互作暗示功能涉及RNA代谢、DNA修复和先天免疫感知。PPI总度（combined degree=147）提示较大规模的互作网络。
+
+**结构-功能关系**：AlphaFold pLDDT=68.4（中等置信度）表明部分域折叠良好但存在柔性区段。TMEM209作为核被膜蛋白与NUP205协同参与核蛋白转运（含MYC核输入），关键文献（PMID:41582553）直接证明了TMEM209是NPC的完整组分并与Nup210互作。TMEM209-KPNB1（importin β）互作通过稳定KPNB1来促进Wnt/β-catenin信号通路（PMID:39414762），机制涉及核输入受体表达水平的蛋白质稳定性调控。GO-CC注释含nuclear envelope（IEA:UniProtKB-SubCell）。
+
+**TE调控机制**：TMEM209作为NPC组分的身份赋予了其TE调控的多维可能性。其一，NPC是TE转录本和TE编码蛋白出入核的物理瓶颈——NUP210（TMEM209互作伙伴）的功能改变直接影响核转运选择性。其二，KPNB1/importin β的稳定化可能增强特定的核输入通路（如KRAB-ZFP→KAP1→染色质修饰物的核输入），有利于TE沉默因子的核积累。其三，cGAS-STING通路感知胞质TE-DNA，IFI16已知在核内和胞质中识别TE/viral DNA以启动先天免疫——TMEM209在核孔微环境可能作为DNA传感器平台。其四，Wnt/β-catenin信号活化已知与ERV/LTR转录相关（TCF/LEF结合LTR增强子启动TE转录），TMEM209通过KPNB1稳定性调控Wnt信号强度可能间接影响TE转录组。
+
+**前沿意义**：TMEM209仅10篇PubMed文献，其中核孔功能的关键验证（PMID:41582553）是2025-2026年的最新发现，标志该蛋白研究正在进入功能性爆发期。b型血红素域的存在使TMEM209成为NPC中极少数具有氧化还原活性的跨膜蛋白——NPC腔道内的局部氧化还原状态可能调控富含半胱氨酸的核孔FG repeat蛋白的凝聚态行为（液-液相分离）。TMEM209敲除/敲低→核转运组+TE-RNA-seq联合分析可确定其对TE转录本核输出的选择性调控。
+
 

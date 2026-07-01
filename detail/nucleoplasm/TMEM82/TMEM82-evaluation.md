@@ -85,6 +85,11 @@ Nuclear protein
 | LOC102724334 | BioGRID | 0 |
 
 
+
+### 深度机制分析
+
+TMEM82（Transmembrane protein 82，343 aa）是功能完全未知的跨膜蛋白，在InterPro中被归为TMEM82家族（IPR031648），Pfam列为TMEM82（PF15816），无任何已知结构域同源。AF pLDDT=77.9提示其跨膜螺旋区域有明确的结构预测。PPI度仅4（MS4A1/CD20、APOA2、CYP4F2），均非核蛋白。PubMed仅2篇：24141781在肝细胞癌超深转录组中鉴定为潜在生物标志物，35418782发现miR-3148通过下调OTOP2（而非TMEM82本身）抑制CRC——TMEM82仅是转录组列表中的共表达基因。核质定位为Uncertain。TMEM82是此批候选者中信息最缺乏的蛋白之一——无功能注释、无极低PPI、无机制文献。核定位证据的不确定性增加了基础功能推断的难度。TE调控潜力可视为未知，但鉴于极度缺乏研究基础，任何功能发现都将是全新的。
+
 ![PAE](https://alphafold.ebi.ac.uk/files/AF-A0PJX8-F1-predicted_aligned_error_v6.png)
 
 ### HPA IF 图像

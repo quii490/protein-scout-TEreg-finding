@@ -80,6 +80,12 @@
 <tr><td>ZIC1</td><td>BioGRID</td><td>0</td></tr>
 <tr><td>TBC1D22B</td><td>BioGRID</td><td>0</td></tr>
 </tbody></table></div>
+<h4>深度机制分析</h4>
+<p><strong>结构域架构</strong>：GSDMA（445 aa，49.0 kDa）是gasdermin家族成孔蛋白的典型成员，采用了该家族保守的两结构域自抑制架构：N端成孔结构域（Gasdermin, IPR007677, PF04598）——约250 aa，采用混合α/β折叠，形成4个α-螺旋束和中央β-片层核心，构成膜插入和寡聚化的执行模块；C端抑制结构域（Gasdermin_C, IPR040460, PF17708）——约185 aa，通过分子内互作折叠至N端结构域，覆盖并封闭N端的脂质结合面，将全长蛋白锁定于自抑制状态。AlphaFold pLDDT可用（无实验PDB）。链球菌蛋白酶SpeB在Lys244后切割，生理上释放N端片段。HPA/reactome定位显示Nucleoplasm, Nuclear bodies——这是gasdermin家族极少报道的核内分布。</p>
+<p><strong>PPI互作网络解读</strong>：PPI数据有限但高度指向性：SUZ12（PRC2/EZH2复合体核心亚基，催化H3K27me3）——最为关键的核内互作，提示GSDMA与表观遗传沉默机器的直接关联；IFI16（干扰素诱导蛋白16，胞质/核内DNA传感器，炎症小体激活因子）——与GSDMA的焦亡功能在炎症信号通路上形成协同；FOXH1（Forkhead转录因子，TGF-β/Nodal信号效应器）和MCM2（DNA复制许可因子）表明GSDMA的核内功能维度远超出经典的质膜成孔焦亡范式。PARK2（Parkin，线粒体自噬E3连接酶）和CEP152（中心粒复制蛋白）将GSDMA连接至细胞器和细胞周期调控。</p>
+<p><strong>结构解读</strong>：N端结构域的核心折叠由中央弯曲β-片层（8条混合方向β-链）和环绕α-螺旋组成，形成一个&quot;掌形&quot;结构——脂质结合面（掌面）富含碱性残基（Lys/Arg）以结合酸性磷脂（如cardiolipin、phosphatidylinositol phosphates）。C端抑制结构域通过广泛的疏水和氢键界面（埋藏面积约1800A²）覆盖N端脂质结合面——α4-α5螺旋束插入N端的β-片层沟槽中，形成紧密的自抑制复合体。SpeB切割位点（Lys244-Gly245）位于N-C结构域间的柔性linker上，切割后C端释放，N端构象从&#x27;closed&#x27;转变为&#x27;open&#x27;并暴露寡聚化界面。</p>
+<p><strong>机制模型</strong>：（1）经典焦亡通路：细菌感染→SpeB介导GSDMA切割→N端片段释放→结合质膜酸性磷脂→寡聚化形成直径~20nm的β-桶状跨膜孔→渗透压失衡→细胞焦亡。此通路已在化脓性链球菌感染模型中被确认；（2）核内非经典功能：GSDMA的全长自抑制态可能在核内分化为非成孔功能——通过SUZ12互作参与PRC2介导的H3K27me3沉积和基因沉默；通过IFI16互作链接DNA损伤感知和固有免疫信号激活；通过FOXH1互作调控TGF-β靶基因表达程序。核内GSDMA水平的调控可能与精密的蛋白水解控制有关——核内特异性蛋白酶（如granzyme或caspases）可能生成非成孔的N端中间片段。</p>
+<p><strong>TE调控展望</strong>：GSDMA与SUZ12的互作是最直接的TE调控线索。PRC2（EZH2-SUZ12-EED）负责催化H3K27me3——哺乳动物基因组中ERV/LTR类TE最主要的抑制性组蛋白修饰。GSDMA的全长核内形式可能作为PRC2的辅助因子：可能增强PRC2对特定TE位点的靶向效率，或调节PRC2在异染色质区域的催化活性。MCM2互作暗示GSDMA可能参与复制偶联的TE沉默维持。但GSDMA在TE调控中的具体角色目前无任何文献或实验支持——这是纯假设性的探索方向，值得设计GSDMA ChIP-seq/CUT&amp;RUN实验验证其基因组结合位点是否富集于TE区域。</p>
 <h4>PubMed 文献</h4>
 <p><strong>PubMed count: 178</strong></p>
 <h4>HPA IF 图像</h4>

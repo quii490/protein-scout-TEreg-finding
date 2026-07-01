@@ -41,6 +41,17 @@ PPI degree: 8  ChIP: None
 **TE candidate** -- RNF180; RNF180_C; Znf_C3HC4_RING-type
 
 
+### 深度机制分析
+
+**RING型E3泛素连接酶的TE沉默潜质**：RNF180（E3 ubiquitin-protein ligase RNF180, 592 aa, UniProt Q86T96）属于RING finger蛋白家族，携带RING结构域（InterPro: Znf_C3HC4_RING-type IPR001841, Pfam: zf-C3HC4）作为E3泛素连接酶催化核心。RING域通过保守的C3HC4锌指基序同时结合E2泛素偶联酶和底物蛋白，催化泛素从E2直接转移至底物赖氨酸残基。RNF180还包含N端RNF180结构域（IPR033263）和C端RNF180_C域（IPR045790），其已知底物为ZIC2转录因子（PMID:BioGRID）。该蛋白促进ZIC2的多聚泛素化和蛋白酶体降解（UniProt annotation）。
+
+**Polycomb/染色质泛素化通路与TE沉默的接口**：泛素连接酶在染色质调控中的核心作用无需赘言——RING1A/B（PRC1组分）通过H2AK119ub1泛素化启动Polycomb沉默，对TE区域（特别是ERV和LINE-1）的持续沉默至关重要。RNF180虽非PRC1直接组分，但其PPI互作伙伴中CBX4（BioGRID score=0）和DNMT1（BioGRID score=0）的存在提供了与染色质沉默机器的直接连接。CBX4是PRC1复合物的chromobox亚基之一，通过chromodomain识别H3K27me3修饰；DNMT1负责DNA甲基化维持，是TE CpG甲基化的核心执行酶。
+
+**肿瘤抑制功能与TE去抑制的肿瘤关联**：RNF180在非小细胞肺癌（PMID:41807497）、胃癌（PMID:36703788, 40915184）和肝癌（PMID:40148674）中发挥肿瘤抑制功能，作为抑癌基因其启动子CpG岛异常高甲基化导致表达沉默。这种抑癌基因-TE表达的反向关系已有充分证据：全基因组DNA低甲基化（如LINE-1去甲基化）同时驱动TE转录激活和抑癌基因沉默。若RNF180通过泛素化降解某些转录激活因子间接抑制TE，则其自身在肿瘤中的沉默将导致TE去抑制——形成"抑癌基因缺失→TE激活→基因组不稳定"的致癌正反馈。
+
+**结构限制与实验方向**：AlphaFold pLDDT=56.9的较低置信度（可能由于蛋白大小592 aa和N端/中间区域的内在无序）和PDB=0的结构缺失提示需要实验结构生物学支持。PPI degree=8（BioGRID）暗示当前数据可能低估了其底物范围。若推进TE相关实验，建议进行RNF180 KO后的H3K27me3和H2AK119ub的ChIP-seq，以及TE转录组的RNA-seq分析。归一化得分68.3/100中核定位特异性36/40和新奇性40/50为主要支撑。
+
+
 ### 补充分析 (UniProt API)
 
 **蛋白全称**: E3 ubiquitin-protein ligase RNF180
@@ -75,52 +86,3 @@ PPI degree: 8  ChIP: None
 | RAD51 | BioGRID | 0 |
 | CBX4 | BioGRID | 0 |
 | DNMT1 | BioGRID | 0 |
-
-
-![PAE](https://alphafold.ebi.ac.uk/files/AF-Q86T96-F1-predicted_aligned_error_v6.png)
-
-### HPA IF 图像
-
-HPA: https://www.proteinatlas.org/ENSG00000164197-RNF180
-
-![](https://images.proteinatlas.org/6897/72_D12_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/6897/72_D12_3_blue_red_green.jpg)
-![](https://images.proteinatlas.org/6897/71_D12_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/6897/71_D12_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/6897/73_D12_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/6897/73_D12_2_blue_red_green.jpg)
-
-### HPA IF 图像
-
-HPA: https://www.proteinatlas.org/ENSG00000164197-RNF180
-
-![](https://images.proteinatlas.org/6897/72_D12_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/6897/72_D12_3_blue_red_green.jpg)
-![](https://images.proteinatlas.org/6897/71_D12_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/6897/71_D12_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/6897/73_D12_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/6897/73_D12_2_blue_red_green.jpg)
-
-### HPA IF 图像
-
-HPA: https://www.proteinatlas.org/ENSG00000164197-RNF180
-
-![](https://images.proteinatlas.org/6897/72_D12_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/6897/72_D12_3_blue_red_green.jpg)
-![](https://images.proteinatlas.org/6897/71_D12_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/6897/71_D12_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/6897/73_D12_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/6897/73_D12_2_blue_red_green.jpg)
-
-### PubMed 文献
-
-**PubMed count: 48**
-
-| 41807497 | The E3 ubiquitin ligase RNF180 modulates the EGFR/PI3K/AKT pathway to reduce cisplatin resistance in non-small cell lung | Sci Rep 2026 |
-| 41307824 | hsa_circ_0135681 functions as a novel tumor-suppressive circular RNA regulating Glycolysis and EMT to attenuate cisplati | Discov Oncol 2025 |
-| 40915184 | RNF180 suppressed aggressiveness by degrading NOTCH1, TRIM24 and FOXC1, and chemoresistance by degrading ACC1 and ACLY i | Int Immunopharmacol 2025 |
-
-### HPA IF 图像
-
-HPA 检索: https://www.proteinatlas.org/search/RNF180
-

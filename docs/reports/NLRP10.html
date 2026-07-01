@@ -71,6 +71,12 @@
 <tr><td>UBE4B</td><td>BioGRID</td><td>1</td></tr>
 <tr><td>TBC1D22B</td><td>BioGRID</td><td>0</td></tr>
 </tbody></table></div>
+<h4>深度机制分析</h4>
+<p><strong>结构域架构</strong>：NLRP10（655 aa，75.0 kDa）是NLRP（NACHT, LRR and PYD domains-containing）家族的非典型成员，含有三个经典的结构域模块：（1）N端DAPIN/PYD（Pyrin domain，IPR004020，DEATH-like_dom_sf IPR011029）——属于死亡结构域超家族，介导同型蛋白-蛋白互作，是炎症小体（inflammasome）组装的信号枢纽；（2）中央NACHT_NTPase结构域（IPR007111，IPR027417，NACHT PF02463）——ATPase活性驱动蛋白寡聚化，形成炎症小体的结构骨架；（3）C端LRR结构域（IPR050637）——可能参与配体识别和自身抑制（autoinhibition）。NLRP10特殊之处在于它是NLRP家族中唯一缺乏LRR-完整性的成员（仅有部分LRR或LRR-like序列），这使其处于NLRP家族中进化上的独特位置。</p>
+<p><strong>PPI互作网络解读</strong>：PPI degree=15，核心互作为PYCARD/ASC（STRING 784分，炎症小体适配器）、CASP1（Caspase-1，STRING 748分，炎症小体的效应蛋白酶）。这一PYD-PYD（NLRP10-PYCARD）互作模块是炎症小体组装的经典通路。与EGFR（BioGRID 1分）和AR（雄激素受体，BioGRID 1分）的互作提示NLRP10可能与非经典的炎症信号通路交叉，而与BECN1（Beclin-1，STRING 715分）的互作连接了炎症小体信号和自噬调控。</p>
+<p><strong>结构解读</strong>：AlphaFold pLDDT=73.4（1个PDB结构验证），PYD域的pLDDT &gt;85，形成经典的六α-螺旋束（Death domain fold），其酸性表面（helix-2/helix-3界面）负责PYCARD的PYD识别和炎症小体成核。NACHT域的pLDDT（60-75）反映了其在无核苷酸结合状态下的构象柔性；ATP结合后Walker A/B基序会经历显著的构象重排，驱动NACHT域闭合和寡聚化。LRR-like区域的pLDDT较低（&lt;60），这与NLRP10被认为缺乏完整LRR结构域的特征一致。</p>
+<p><strong>机制模型</strong>：NLRP10作为炎症小体信号的抑制性调控因子（而非经典的模式识别受体），通过以下机制运作：（1）不直接识别病原相关分子模式（PAMP）或损伤相关分子模式（DAMP），而是作为&quot;诱饵受体&quot;或&quot;竞争性抑制剂&quot;通过PYD-PYD互作侵占PYCARD/ASC，阻止其他NLRP成员（如NLRP1、NLRP3）的炎症小体组装和CASP1激活（PMID:15096476）；（2）同时具有抗炎活性（PMID:20393137），在角质形成细胞的表皮稳态维持中发挥关键作用（PMID:39424623）；（3）NLRP10在核质中的定位（Approved）提示可能存在非经典核内炎症小体功能——在细胞核内，NLRP10可能通过AR互作参与雄激素受体靶基因的转录调控，将炎症信号与核受体信号整合。</p>
+<p><strong>TE调控展望</strong>：NLRP10的TE调控潜力主要体现在炎症小体信号与TE激活的交叉调控上。LINE-1和ERV的异常表达可激活cGAS-STING和NLRP3炎症小体通路，导致炎症因子（IL-1β、IL-18）释放。NLRP10作为炎症小体的抑制因子可能在限制TE驱动的慢性炎症中发挥&quot;制动器&quot;作用。PMID:42362760（2026年最新研究）发现NLRP10在脂滴上的定位和寡聚化受C端赖氨酸残基调控，暗示其在代谢应激与TE炎症反应之间的潜在桥梁功能。</p>
 <p><figure><img src="https://alphafold.ebi.ac.uk/files/AF-Q86W26-F1-predicted_aligned_error_v6.png" alt="PAE"></figure></p>
 <h4>HPA IF 图像</h4>
 <p>HPA: https://www.proteinatlas.org/ENSG00000182261-NLRP10</p>

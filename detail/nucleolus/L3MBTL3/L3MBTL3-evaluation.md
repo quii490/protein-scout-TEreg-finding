@@ -60,6 +60,18 @@ Is a negative regulator of Notch target genes expression, required for RBPJ-medi
 
 **TE 调控相关性**: 该蛋白缺乏明确的核/染色质定位证据，TE调控潜力极低，不建议作为优先靶标。
 
+
+### 深度机制分析
+
+**MBT重复甲基赖氨酸阅读器与Notch/RBPJ共抑制的TE调控窗口**：L3MBTL3（Lethal(3)malignant brain tumor-like protein 3, 780 aa, UniProt Q96JM7）是MBT（恶性脑瘤）结构域蛋白家族成员，拥有3个串联MBT（恶性脑瘤）重复（IPR004092, Pfman: MBT PF02820），作为甲基化组蛋白的"阅读器"。MBT域以芳香笼（aromatic cage）识别单甲基化和二甲基化的赖氨酸（H3K20me1/2, H4K20me1/2），但不识别三甲基化（H3K20me3）——这种甲基化状态的选择性赋予L3MBTL3在"低甲基化"活跃染色质区域（如增强子和启动子）而非"高三甲基化"异染色质区域富集的独特能力。
+
+**Notch/RBPJ共抑制与TE衍生Notch增强子的沉默**：L3MBTL3的核心生化功能是被RBPJ（CSL/CBF1）招募至Notch靶基因，作为转录共抑制因子（PMID:29030483）。该蛋白将KDM1A/LSD1组蛋白去甲基化酶（BioGRID score=1）招募到Notch应答元件上，通过去除H3K4me2/me1活化标记使染色质沉默。对于TE生物学，Notch/RBPJ信号通路通过SLP/CSL结合基序（RTGRGAR）直接调控多个TE家族：(1) HERV-K LTR中的Notch应答元件在胶质母细胞瘤干细胞中驱动TE表达；(2) hAT-Charlie DNA转座子衍生的Notch增强子调控神经发育；(3) MER130元件为多个Notch靶基因提供替代启动子。L3MBTL3通过其KDM1A招募活性可主动去甲基化这些Notch-TE增强子上的H3K4me，在不需要DNA甲基化或H3K9me3的情况下实现转录抑制——这是非经典（KRAB/TRIM28非依赖）的TE沉默模式的范例。
+
+**SAMD1互作与CpG岛-TE甲基化调控**：PPI中SAMD1（STERILE ALPHA MOTIF DOMAIN-CONTAINING PROTEIN 1, STRING 854）的高互作评分提供了另一条TE调控线索——SAMD1通过其SAM域识别未甲基化的CpG岛并招募KDM1A/LSD1进行H3K4me去甲基化，形成DNA甲基化-组蛋白去甲基化的协同沉默。若L3MBTL3与SAMD1在TE CpG富集区域（如ERV-K LTR的CpG岛或IAP 5'LTR）协同作用，可驱动高效的DNA甲基化-组蛋白修饰双重沉默。KBF2/NFKB2（STRING 779）的互作则与炎症-TE激活的NF-κB通路连接。
+
+**结构域与实验方向**：MBT-β-夹心折叠和SAM域的空间排列尚需结构解析。PubMed=47的中等文献量指示功能研究已有基础。建议实验：L3MBTL3 KO后进行H3K4me2、H3K20me1 ChIP-seq与TE转录组联合分析，验证"MBT-KDM1A双效TE沉默"假说。归一化得分67.8/100的调控结构域维度16/30突出其作为染色质"阅读器-修饰器"的独特优势。
+
+
 ### PPI 互作网络
 
 | 互作伙伴 | 来源 | 评分 |
@@ -72,30 +84,3 @@ Is a negative regulator of Notch target genes expression, required for RBPJ-medi
 | LZTR1 | BioGRID | 1 |
 | LRRK2 | BioGRID | 1 |
 | KDM1A | BioGRID | 1 |
-
-
-### HPA IF 图像
-
-HPA: https://www.proteinatlas.org/ENSG00000198945-L3MBTL3
-
-![](https://images.proteinatlas.org/44382/1469_E6_1_red_green.jpg)
-![](https://images.proteinatlas.org/44382/1469_E6_2_red_green.jpg)
-![](https://images.proteinatlas.org/44382/1478_E6_1_red_green.jpg)
-![](https://images.proteinatlas.org/44382/1478_E6_4_red_green.jpg)
-![](https://images.proteinatlas.org/53035/1251_G3_1_red_green.jpg)
-![](https://images.proteinatlas.org/53035/1251_G3_2_red_green.jpg)
-![](https://images.proteinatlas.org/53035/1256_G3_1_red_green.jpg)
-![](https://images.proteinatlas.org/53035/1256_G3_2_red_green.jpg)
-
-### PubMed 文献
-
-**PubMed count: 47**
-
-| 42031729 | A combinatorial domain screening platform reveals epigenetic effector interactions for transcriptional perturbation. | Nat Commun 2026 |
-| 41593677 | Human blood cell traits and sporadic lymphangioleiomyomatosis: results from mediation joint multi-omics and eQTL Mendeli | Orphanet J Rare Dis 2026 |
-| 41593506 | Genome-wide association and integrative analyses of relative handgrip strength identify polygenic determinants of gastro | BMC Gastroenterol 2026 |
-
-### HPA IF 图像
-
-HPA 检索: https://www.proteinatlas.org/search/L3MBTL3
-

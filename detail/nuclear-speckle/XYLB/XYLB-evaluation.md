@@ -93,6 +93,14 @@ HPA 免疫荧光（IF）实验数据确认 XYLB 定位：
 **评价**: 暂无数据 IntAct/STRING/GO-CC 数据。
 
 
+### 深度机制分析
+
+XYLB（536 aa, pLDDT=95.9）为木酮糖激酶，定位于Nuclear speckles（HPA approved, 评分66.7/100）。其结构域包含ATPase_NAD/FMN型Rossmann折叠（IPR043129）、碳水化合物激酶结构域（IPR000577、PF02782/PF00370），催化木酮糖的ATP依赖性磷酸化生成木酮糖-5-磷酸（Xu5P）。AlphaFold预测pLDDT高达95.9，属于极高置信度的结构预测，表明该蛋白具有稳定的折叠域构象。
+
+XYLB是磷酸戊糖途径（PPP）的关键调节酶，其产物Xu5P作为ChREBP（碳水化合物响应元件结合蛋白）的激活配体。Xu5P通过激活蛋白磷酸酶2A（PP2A）去磷酸化ChREBP，促进其核转位和转录激活。ChREBP的靶基因包括脂肪合成和糖酵解相关基因，其转录调控网络通过碳水化合物应答元件（ChoRE）影响全基因组表达程序。
+
+从TE调控角度，XYLB在Nuclear speckles的富集具有特殊意义。Nuclear speckles富含pre-mRNA剪接因子和转录调控因子，而代谢酶核内定位的"兼职"功能近年被广泛关注。XYLB催化的Xu5P作为代谢信号分子，在核内可能通过局部浓度调节ChREBP活化阈值，间接影响ChREBP靶向的基因组位点（包括TE附近的增强子区域）。更值得关注的是，TKT（STRING Combined Score=912）和TALDO1（868）与XYLB形成PPP的非氧化支功能模块——TKT和TALDO1的核定位已被报道参与核内5-磷酸核糖生产以支持核苷酸合成，XYLB可能作为该核内PPP模块的关键成员共同参与核内代谢微环境的调控。从研究新颖性角度，XYLB仅PubMed 21篇，属于典型的"高结构质量+高新颖性"靶标。
+
 ### PPI 互作网络
 
 | 互作伙伴 | 来源 | 评分 |

@@ -57,6 +57,19 @@ Nuclear protein
 
 **TE 调控评估**: 该蛋白缺乏核定位证据，TE调控潜力极低。
 
+### 深度机制分析
+
+ZHX1-C8orf76（Zinc fingers and homeoboxes protein 1, isoform 2，UniProt: Q96EF9，292 aa / 33.3 kDa）的结构域架构分析显示：InterPro结构域包括IPR011990, IPR041404；Pfam注释为PF17826。 AlphaFold预测的pLDDT均值为78.7，整体结构置信度中等，部分区域可能为内在无序区，需要注意其构象柔性对功能的影响。
+
+蛋白质互作网络分析揭示ZHX1-C8orf76与以下关键因子存在相互作用：TUBA4A、PPIP5K1、ALMS1、CSTF2T、PNPLA2（PPI度为25）。 这些互作伙伴暗示该蛋白可能通过多蛋白复合物参与细胞过程调控，其互作网络的拓扑位置值得进一步实验验证。
+
+从结构-功能机制角度分析，ZHX1-C8orf76的亚细胞定位为，具有明确的核/核周定位特征，提示其可能直接参与染色质水平或核内体的调控过程。 评估综合得分69.4/100，属于中等兴趣候选，在明确核定位后其TE调控潜力可能显著提升。
+
+对于TE调控机制的意义而言，ZHX1-C8orf76的结构域组成不直接指向经典染色质调控因子，但其在核内的存在（若经实验确认）可能暗示非经典TE调控途径。 研究新颖性方面，PubMed检索获得0篇文献，该蛋白几乎未被研究，是一个高度新颖的靶标，具有较大的学术探索空间。
+
+综上所述，ZHX1-C8orf76作为一个292 aa / 33.3 kDa的定位蛋白，具有一定的TE调控研究价值，建议首先通过亚细胞分级和免疫荧光明确其在核内的分布模式，再设计针对性的功能实验。 AlphaFold pLDDT=78.7的结构预测可作为设计突变体和结构-功能关系研究的起点。
+
+
 ---
 
 
@@ -107,3 +120,4 @@ HPA: https://www.proteinatlas.org/ENSG00000259305-ZHX1-C8orf76
 ![](https://images.proteinatlas.org/23708/236_D12_2_red_green.jpg)
 ![](https://images.proteinatlas.org/23708/268_D12_2_red_green.jpg)
 ![](https://images.proteinatlas.org/23708/268_D12_1_red_green.jpg)
+

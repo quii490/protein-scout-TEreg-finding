@@ -68,6 +68,12 @@
 <tr><td>EAPP</td><td>BioGRID</td><td>0</td></tr>
 <tr><td>ECD</td><td>BioGRID</td><td>0</td></tr>
 </tbody></table></div>
+<h4>深度机制分析</h4>
+<p><strong>结构域架构</strong>：SLC7A6OS（309 aa，35.0 kDa）含两个特征性结构域——SLC7A6OS（IPR040218，一个未表征的保守蛋白家族）和TF_Iwr1_dom（IPR013883，PF08574 Iwr1）。Iwr1（Interacts With RNA polymerase II）结构域最先从酵母中被鉴定为RNA聚合酶II（RNAPII）的核输入因子——Iwr1通过识别RNAPII大亚基（Rpb1）的C端结构域（CTD）中非磷酸化的七肽重复序列（YSPTSPS），在胞质中结合新生RNAPII并将其护送通过核孔复合物（NPC）进入核质。SLC7A6OS的人类同源功能已在UniProt中注释为&quot;Directs RNA polymerase II nuclear import&quot;——这是目前人类中鉴定最明确的RNAPII专一性核输入适配器。</p>
+<p><strong>PPI互作网络解读</strong>：PPI degree=31，核心互作强有力地支持RNAPII核输入功能：（1）XPO1（CRM1/Exportin-1，核输出受体——可能参与SLC7A6OS自身的核质穿梭或与RNAPII输出相关，BioGRID 0分）；（2）RUVBL2（RuvB-like 2，AAA+ ATPase，INO80和TIP60染色质重塑复合物的核心组分，BioGRID 0分）；（3）AAR2（AAR2 splicing factor homolog，U5 snRNP组装因子，BioGRID 0分）；（4）DHX38（DEAH-box RNA解旋酶38，U4/U6 snRNP组装和剪接体催化激活的必需因子，BioGRID 0分）；（5）ECD（Ecdysoneless，细胞周期和转录调控因子，BioGRID 0分）；（6）EAPP（E2F-associated phosphoprotein，刺激E2F转录因子活性的蛋白，BioGRID 0分）。RUVBL2和DHX38的互作暗示SLC7A6OS在进入核质后可能与染色质重塑和剪接机器发生二次互作。</p>
+<p><strong>结构解读</strong>：AlphaFold pLDDT=65.5，预测质量偏低。Iwr1结构域（残基约50-200）的pLDDT为60-75——许多非磷酸化CTD重复序列识别的蛋白富含α-螺旋串联重复（HEAT/ARM类折叠），SLC7A6OS的二级结构预测显示，Iwr1域由多段α-螺旋通过linker连接形成延展的螺线管（solenoid）结构。pLDDT偏低的可能原因包括：（1）Iwr1域的构象在未结合RNAPII CTD时呈open/extended状态，具有显著柔性；（2）SLC7A6OS蛋白可能含预测的内在无序区，在功能状态下等通过&quot;folding upon binding&quot;机制稳定构象。N端约50个残基（SLC7A6OS domain）的pLDDT最低（&lt;50），可能为完全的内在无序区，在互作网络中参与多价弱结合。</p>
+<p><strong>机制模型</strong>：SLC7A6OS的RNAPII核输入机制如下：（1）在胞质中，刚完成翻译的RNAPII大亚基（Rpb1, Rpb2, Rpb3等）组装成pre-RNAPII复合物，其Rpb1 CTD处于低磷酸化状态（CTD磷酸化主要发生在转录起始后）；（2）SLC7A6OS通过Iwr1域识别未磷酸化/低磷酸化的CTD七肽重复序列，CTD七肽中各位置的羟基氨基酸（Y1S2P3T4S5P6S7）与Iwr1域的酸性残基和疏水性口袋形成氢键/范德华力互作网络；（3）SLC7A6OS-RNAPII复合物通过携带的核定位信号（NLS）被importin-α/β异源二聚体识别，经NPC转位入核；（4）核质中RanGTP触发importin复合物解离，SLC7A6OS释放RNAPII参与转录起始复合物（PIC）组装。</p>
+<p><strong>TE调控展望</strong>：SLC7A6OS是RNAPII转录机器的上游调控因子，因此理论上影响所有RNAPII依赖的转录——包括TE转录。然而其调控是非特异性的（调控RNAPII的总核输入量而非特定基因/TE的转录），因此TE调控特异性极低。值得注意的是，Progressive Myoclonus Epilepsy（进行性肌阵挛癫痫）由SLC7A6OS纯合剪接变异引起（PMID:33085104），提示SLC7A6OS的功能丧失导致神经元中转录谱的广泛改变——包括可能的TE去抑制。在斑马鱼CNS发育中SLC7A6OS的关键作用（PMID:25803583）也提示其在神经发育的转录编程中的必要性。总体上，SLC7A6OS的TE调控潜力间接且非特异性，但作为核心转录机器的关键输入因子值得记录。</p>
 <p><figure><img src="https://alphafold.ebi.ac.uk/files/AF-Q96CW6-F1-predicted_aligned_error_v6.png" alt="PAE"></figure></p>
 <h4>HPA IF 图像</h4>
 <p>HPA: https://www.proteinatlas.org/ENSG00000103061-SLC7A6OS</p>

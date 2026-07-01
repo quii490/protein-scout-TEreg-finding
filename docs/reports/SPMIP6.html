@@ -43,6 +43,11 @@
 <ul><li>HPA: Cytosol; Equatorial segment; Nucleoplasm; Principal piece (Supported)</li><li>PubMed: strict=0, broad=6</li><li>AF pLDDT: 53.7 / PDB: 0</li><li>InterPro: SPMIP6</li><li>Pfam: SMRP1</li><li>PPI degree=0 ChIP: None</li></ul>
 <h4>4. 总体评价</h4>
 <p>★★★★  <strong>68.9/100</strong>  <strong>nucleoplasm</strong> Nuclear protein</p>
+<h4>深度机制分析</h4>
+<p><strong>精子微管内部蛋白的核质异常定位</strong>：SPMIP6（Sperm microtubule inner protein 6, 262 aa, UniProt Q8NCR6）与SPMIP9同属精子鞭毛轴丝双联微管内部蛋白家族。其功能注释为参与精子尾部的manchette内转运和中段形成，可能在体细胞增殖中也发挥作用（UniProt annotation）。InterPro SPMIP6（IPR028195）和Pfam SMRP1（PF15181）均为精子微管特异性结构域。HPA标注该蛋白在Cytosol、Equatorial segment、Nucleoplasm和Principal piece中为Supported级别定位——其多定位特征提示该蛋白可能存在非鞭毛的体细胞功能。</p>
+<p><strong>低结构置信度与功能解析困难</strong>：AlphaFold pLDDT=53.7与SPMIP9（55.3）类似，属于极低置信度区间。这种低置信度通常由以下因素引起：(1) 蛋白在溶液中为天然无序状态；(2) 缺乏同源模板导致AF2无法准确折叠；(3) 蛋白需要结合伴侣蛋白才能获得稳定构象。对于微管内部蛋白（MIP），其正确折叠往往依赖于微管腔内的限制性环境和相邻tubulin异二聚体的模板效应，游离态的高无序度可以理解。</p>
+<p><strong>无PPI网络的&quot;盲区&quot;</strong>：与SPMIP9同样地，PPI degree=0、PubMed=0使该蛋白处于完全的实验真空。唯一的文献支持为间接相关的6篇论文（PMIDs:28863455, 28601408, 25635517）。SPMIP6的核质定位（Supported而非Approved）来源于HPA抗体HPA041767，其特异性未经额外验证。在缺乏正交证据的情况下（如CRISPR敲除后的亚细胞蛋白质组学分析），核质定位信号应被视为不确定。</p>
+<p><strong>体细胞增殖功能的微弱暗示</strong>：UniProt注释中&quot;May play a potential role in somatic cell proliferation&quot;提供了唯一的功能扩展线索。若SPMIP6确实参与体细胞增殖调控，则可能在细胞周期的某个阶段进入核内执行功能——类似于核内actin和myosin在基因转录和染色质重塑中的作用。然而，SPMIP6的结构域（SMRP1）与chromatin remodeling因子之间不存在任何已知联系。建议在TE筛选中赋予最低优先级，与SPMIP9同属&quot;暗蛋白&quot;类别。</p>
 <h4>补充分析 (UniProt API)</h4>
 <p><strong>蛋白全称</strong>: Sperm microtubule inner protein 6</p>
 <p><strong>功能</strong>: May participate in intramanchette transport and midpiece formation of the sperm tail. May play a potential role in somatic cell proliferation</p>
@@ -64,18 +69,7 @@
 <tr><td>Pfam</td><td>PF15181</td></tr>
 </tbody></table></div>
 <p><strong>TE 调控评估</strong>: 该蛋白缺乏核定位证据，TE调控潜力极低。</p>
-<hr>
-<p><figure><img src="https://alphafold.ebi.ac.uk/files/AF-Q8NCR6-F1-predicted_aligned_error_v6.png" alt="PAE"></figure></p>
-<h4>PubMed 文献</h4>
-<p><strong>PubMed count: 6</strong></p>
-<div class="table-wrap"><table>
-<tbody>
-<tr><td>28863455</td><td>Characterization of 2 Novel Ependymoma Cell Lines With Chromosome 1q Gain Derived From Posterior Fossa Tumors of Childho</td><td>J Neuropathol Exp Neurol 2017</td></tr>
-<tr><td>28601408</td><td>Expression of ciliated bronchial epithelium 1 during human spermatogenesis.</td><td>Fertil Steril 2017</td></tr>
-<tr><td>25635517</td><td>Advances and challenges in understanding the multifaceted pathogenesis of amyotrophic lateral sclerosis.</td><td>Swiss Med Wkly 2015</td></tr>
-</tbody></table></div>
-<h4>HPA IF 图像</h4>
-<p>HPA 检索: https://www.proteinatlas.org/search/SPMIP6</p></article></main>
+<hr></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

@@ -61,6 +61,19 @@ Mediator of localized membrane signals. Implicated in the regulation of lamellip
 
 **TE 调控相关性**: 该蛋白缺乏明确的核/染色质定位证据，TE调控潜力极低，不建议作为优先靶标。
 
+### 深度机制分析
+
+RAPH1（Ras-associated and pleckstrin homology domains-containing protein 1，UniProt: Q70E73，1250 aa / 137.5 kDa）的结构域架构分析显示：InterPro结构域包括IPR000159, IPR001849, IPR011993, IPR029071, IPR039664, IPR039665；Pfam注释为PF00169, PF21989；UniProt定义域:DOMAIN 269..355; /note="Ras-associating"; /evidence="ECO:0000255。 尚无AlphaFold结构数据。
+
+蛋白质互作网络分析揭示RAPH1与以下关键因子存在相互作用：ABI1、INPPL1、FH1、ELAVL1、PHB。 功能注释显示Mediator of localized membrane signals. Implicated in the regulation of lamellipodial dynamics. Negatively regulates cell adhesion。 这些互作伙伴暗示该蛋白可能通过多蛋白复合物参与细胞过程调控，其互作网络的拓扑位置值得进一步实验验证。
+
+从结构-功能机制角度分析，RAPH1的亚细胞定位为无已知核定位注释，目前缺乏核定位的实验证据，其在核内的功能角色尚待阐明。 评估综合得分66.7/100，属于中等兴趣候选，在明确核定位后其TE调控潜力可能显著提升。 推荐等级为2/5。
+
+对于TE调控机制的意义而言，RAPH1的结构域组成不直接指向经典染色质调控因子，但其在核内的存在（若经实验确认）可能暗示非经典TE调控途径。 研究新颖性方面，PubMed检索获得0篇文献，该蛋白几乎未被研究，是一个高度新颖的靶标，具有较大的学术探索空间。 代表性文献包括PMID:41584046, 41347062, 40666499等。
+
+综上所述，RAPH1作为一个1250 aa / 137.5 kDa的无已知核定位注释定位蛋白，具有一定的TE调控研究价值，建议首先通过亚细胞分级和免疫荧光明确其在核内的分布模式，再设计针对性的功能实验。
+
+
 ### HPA IF 图像
 
 HPA 检索: https://www.proteinatlas.org/ENSG00000173166-RAPH1
@@ -111,5 +124,4 @@ HPA 检索: https://www.proteinatlas.org/search/RAPH1
 | 40666499 | Clinicopathologic and proteomic characteristics of low-grade undifferentiated spindle cell sarcoma. |
 | 38744227 | Bayesian colocalization of GWAS and eQTL signals reveals cell type-specific genes and regulatory variants for susceptibility to subtypes of ischemic s |
 | 38218377 | Differential expression and alternative splicing analyses of multiple tissues reveal albinism-associated genes in the Wels catfish (Silurus glanis). |
-
 

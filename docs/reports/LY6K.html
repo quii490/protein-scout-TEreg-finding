@@ -78,7 +78,15 @@
 <tr><td>42214137</td><td>A sequence-based genome-wide association study for dominance effects on fertility traits in Holstein cattle.</td></tr>
 <tr><td>41454405</td><td>Long non-coding RNAs in the tumor immune microenvironment of non-small cell lung cancer: mechanisms and clinical translational perspectives.</td></tr>
 <tr><td>41009820</td><td>Nodal Spread Prediction in Human Oral Tongue Squamous Cell Carcinoma Using a Cancer-Testis Antigen Genes Signature.</td></tr>
-</tbody></table></div></article></main>
+</tbody></table></div>
+<h4>深度机制分析</h4>
+<p>LY6K（Lymphocyte antigen 6K）是Ly-6/UPAR超家族的成员，其深度机制分析揭示了该蛋白在精子功能和肿瘤免疫中的双重角色。该蛋白含有一个Snake toxin-like superfamily折叠（InterPro:IPR045860, IPR035076），属于三指毒素（three-finger toxin）折叠超家族——这是Ly-6/UPAR家族的标志性折叠，以三个β-折叠环（&quot;手指&quot;）从疏水核心向外延伸形成独特的蛋白识别表面。Pfam注释为PF00087（Toxin_TOLIP），进一步确认了其Toxin/TOLIP家族归属。IPR052874（Sperm-ZP_regulatory）同时指向该蛋白在精子-透明带识别中的调控角色。</p>
+<p>从结构层面审视，ESMFold预测的全局pLDDT为72.8（报告中未以小数形式给出详细的pLDDT&gt;0.9和pLDDT&lt;0.5占比），这一置信度在Ly-6/UPAR家族中属于正常范围——三指折叠结构通常由4-5个保守二硫键稳定，核心区域折叠良好但手指环区域具有构象柔性。PDB结构数为0，意味着该蛋白尚无实验解析结构，但Ly-6/UPAR家族的多名成员（如CD59、UPAR/uPAR/CD87、LYNX1等）已有高质量实验结构，可用于同源建模。</p>
+<p>LY6K的功能定位呈现显著的组织特异性。UniProt注释明确记载其&quot;required for sperm migration into the oviduct and male fertility by controlling binding of sperm to zona pellucida (By similarity)&quot;，同时&quot;may play a role in cell growth (PubMed:18089789)&quot;。这种功能二分——精子受精 vs 细胞生长——反映了该蛋白的癌症-睾丸抗原（Cancer-Testis Antigen, CTA）属性。CTA蛋白在正常组织中仅表达于睾丸生殖细胞，但在多种肿瘤中被异常激活，是肿瘤免疫治疗的理想靶标。</p>
+<p>PPI互作网络的数据极为有限——BioGRID仅收录3个互作伙伴：NPC1（Niemann-Pick C1 cholesterol transporter, score=0）、SPPL3（signal peptide peptidase-like 3, score=0）和TGOLN2（trans-Golgi network integral membrane protein 2, score=0）。这些互作均以最低置信度记录，功能相关性不明确。NPC1定位于晚期内吞体/溶酶体，参与胆固醇运输；TGOLN2是反式高尔基体的整合膜蛋白；SPPL3参与信号肽的膜内蛋白水解——三者分散的亚细胞定位与LY6K在精子膜/顶体的功能不匹配，提示这些可能是高通量筛选中的非特异性结合。</p>
+<p>PubMed文献分析显示LY6K在肿瘤免疫中的重要性。PMID 42351767系统评估了LY6/UPAR家族成员在膀胱尿路上皮癌中的表达和临床相关性，PMID 42334618报告了durvalumab联合铂类化疗在晚期大细胞神经内分泌肺癌中的II期临床结果中LY6K作为生物标志物的价值，PMID 41009820利用CTA基因标志物（包含LY6K）预测口腔舌鳞癌的淋巴结转移。PMID 37076981的关键发现——LY6K耗竭调控TGF-beta和EGF信号通路——提供了LY6K参与信号转导的直接功能证据，这可能解释了其&quot;role in cell growth&quot;的注释。</p>
+<p>核定位方面，LY6K在HPA中显示nucleoplasm信号（Supported可靠性），这使其成为本评估中唯二具有HPA核定位支持的蛋白之一（另一个是PGBD5）。但需谨慎解读：(1) LY6K通过GPI锚定附着于精子/细胞膜外表面，理论上是胞外蛋白而非核蛋白；(2) GPI锚定蛋白的核内信号可能来自新生肽链在ER/Golgi加工过程中的瞬时路径，或抗体的交叉反应；(3) HPA Supported可靠性为中等置信度，低于Approved和Enhanced。尽管如此，若LY6K确能进入细胞核，其作用机制可能涉及Ly-6结构域对核内信号蛋白（如TGF-β/EGF通路组分）的识别与调控。</p>
+<p>综合来看，LY6K（59.6/100）的深度机制模型为：GPI锚定→精子膜表面Ly-6三指折叠→精子-透明带结合→受精功能；肿瘤中异常激活→TGF-β/EGF信号调控→细胞增殖→肿瘤免疫靶标。这一模型以膜表面功能为主，核定位的角色和机制尚不明确。作为CTA蛋白和肿瘤免疫靶标的独立价值值得关注，但作为TE调控候选的证据不足。</p></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

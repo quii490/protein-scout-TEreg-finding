@@ -73,6 +73,13 @@ HPA: https://www.proteinatlas.org/ENSG00000164975-SNAPC3
 ### TE 调控相关性
 
 该蛋白无明确的染色质/TE 沉默相关定位。TE 调控潜力极低。
+
+### 深度机制分析
+
+**结构域架构**：SNAPC3（snRNA-activating protein complex subunit 3, 218 aa, 24.0 kDa, B4DDR9）是SNAPc（snRNA activating protein complex, 又称PTF）转录因子复合物的三个核心亚单位之一。结构域含snRNA-activating_su3（IPR022042）——这是SNAPC3特异性的保守区域，无已知结构折叠信息。AlphaFold pLDDT=63.2（较低），ESMFold pLDDT=0.55（极低）——暗示SNAPC3为单体IDP——在SNAPc复合物中通过"coupled folding-and-binding"获得稳定构象。PPI（degree=36）以SNAPc组分和RB1为核心：SNAPC1（BioGRID）和SNAPC2（BioGRID）为SNAPc其余两个亚单位——SNAPC1是最大亚基（~43 kDa, Myb domain），直接识别PSE DNA序列；SNAPC2（~38 kDa）含锌指。RB1（retinoblastoma protein, BioGRID）是核心肿瘤抑制因子——RB1-E2F complex抑制S期基因转录——SNAPC3-RB1互作暗示RB1可能将SNAPc从Pol II/III snRNA转录激活转变为抑制模式。XPO1/CRM1（exportin-1, BioGRID）为NES识别核export受体——暗示SNAPC3可能在核质-胞质间穿梭。
+
+**TE调控展望**：SNAPc复合物负责Pol II和Pol III依赖的snRNA基因转录——而LINE-1 5'UTR含sense promoter驱动L1 mRNA（Pol II products）和antisense promoter（ASP）——ASP可驱动邻近基因的Pol II转录。SNAPC3参与的snRNA transcription machinery可能与TE来源的promoter竞争Pol II转录起始因子（如TBP, TFIIB）。UBE3A（BioGRID, HECT E3 ligase, Angelman syndrome基因）的互作暗示泛素化参与SNAPC3的转换——E3 ubiquitin ligase activity可直接影响SNAPC3的TE-proximal promoter occupancy。SUMO化（PMID 40956881, PNAS 2025）揭示SUMO conjugation to PSE-associated proteins影响snRNA转录——SUMO pathway也调控LINE-1和ERV转录——SNAPC3可能是SUMO-mediated TE transcription repression的一个辅因子。PSME3（Proteasome activator subunit 3/REGγ, BioGRID）的互作提示proteasome-dependent degradation of TE-derived peptides可能是SNAPC3的一个附加功能。
+
 ### 4. 总体评价
 ★★★★  **68.3/100**  **nucleolus**
 Nuclear protein

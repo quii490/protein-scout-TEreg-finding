@@ -66,18 +66,11 @@
 </tbody></table></div>
 <p><strong>TE 调控评估</strong>: 该蛋白缺乏核定位证据，TE调控潜力极低。</p>
 <hr>
-<h4>PPI 互作网络</h4>
-<div class="table-wrap"><table>
-<thead><tr><th>互作伙伴</th><th>来源</th><th>评分</th></tr></thead><tbody>
-<tr><td>PRMT3</td><td>STRING</td><td>915</td></tr>
-<tr><td>RPS2</td><td>STRING</td><td>769</td></tr>
-<tr><td>COPS6</td><td>BioGRID</td><td>1</td></tr>
-<tr><td>SRP14</td><td>BioGRID</td><td>1</td></tr>
-<tr><td>PCBP3</td><td>BioGRID</td><td>1</td></tr>
-<tr><td>NAP1L5</td><td>BioGRID</td><td>1</td></tr>
-<tr><td>XPO1</td><td>BioGRID</td><td>1</td></tr>
-<tr><td>ARIH1</td><td>BioGRID</td><td>1</td></tr>
-</tbody></table></div>
+<h4>深度机制分析</h4>
+<p>PDCD2L是程序性细胞死亡蛋白2-like(PDCD2-like)家族成员，现已被重新注释为核糖体蛋白uS5的组装伴侣蛋白(Chaperone)。其核心结构域为PDCD2_C(IPR007320/PF04194)和PDCD2-like_regulator(IPR052815)，这两个结构域共同构成结合并稳定核糖体蛋白RPS2(uS5)的蛋白-蛋白互作界面。pLDDT仅75.4且无PDB结构，表明其结构信息较为有限，分子伴侣活性可能依赖于内在无序区域(IDR)的诱导契合结合机制。</p>
+<p>在核糖体生物合成中，PDCD2L的功能与PDCD2互为冗余——二者均在核仁中识别新合成的uS5(RPS2)，通过PDCD2_C结构域上的疏水裂隙插入uS5的未折叠核心，防止新生uS5在进入核糖体40S小亚基组装路径前发生错误折叠或聚集(PMID:37238722)。一旦uS5被正确整合入pre-40S颗粒，PDCD2L随即被XPO1(Exportin-1，BioGRID互作)识别并核输出，释放回胞质以循环使用。</p>
+<p>PPI网络高度支持该模型：PRMT3(STRING=915)作为PDCD2L的紧密互作伙伴，是精氨酸甲基化酶，可能通过甲基化uS5的RGG盒改变PDCD2L对uS5的亲和力，形成&quot;甲基化门控释放&quot;机制。COPS6(COP9信号体亚基6)和SRP14(信号识别颗粒14)的互作则暗示PDCD2L可能参与更多翻译机器的组装路径。</p>
+<p>HPA显示其定位于nucleoplasm (Approved)，与核糖体生物发生在核仁(核质亚区室)的已知组织学一致。但在肝细胞癌中，BTF3可转录上调PDCD2L的表达并使p53信号通路失活(PMID:39707202)，这揭示了一种额外的PDCD2L致癌机制——即PDCD2L可通过直接或间接方式影响p53启动子区域的染色质可及性或p53的翻译效率。此外，PDCD2L在肿瘤中高表达作为不良预后标志物(PMID:40891712)，表明其功能远超核糖体伴侣这一常规角色。PubMed仅14篇，是探索这种核糖体生物合成因子与癌症信号通路交叉对话的理想靶点。</p>
 <p><figure><img src="https://alphafold.ebi.ac.uk/files/AF-Q9BRP1-F1-predicted_aligned_error_v6.png" alt="PAE"></figure></p>
 <h4>HPA IF 图像</h4>
 <p>HPA: https://www.proteinatlas.org/ENSG00000126249-PDCD2L</p>

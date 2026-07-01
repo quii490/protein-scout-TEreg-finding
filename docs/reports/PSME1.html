@@ -104,7 +104,13 @@
 <tr><td>pLDDT &lt; 0.5 占比</td><td>0.0%</td></tr>
 <tr><td>建模残基数</td><td>249</td></tr>
 </tbody></table></div>
-<p>ESMFold 基于进化规模语言模型，进行无 MSA 搜索的从头折叠，可作为 AlphaFold 的独立验证。</p></article></main>
+<p>ESMFold 基于进化规模语言模型，进行无 MSA 搜索的从头折叠，可作为 AlphaFold 的独立验证。</p>
+<h4>深度机制分析</h4>
+<p><strong>结构域架构</strong>：PSME1/PA28α（UniProt Q06323，249 aa，27.4 kDa）是免疫蛋白酶体激活因子PA28（11S调节粒子）的α亚基。其域架构以两段串联PA28/REG型激活因子域为核心：N端激活域（IPR003186 - PA28/REG alpha/beta subunit, Pfam:PF02252）和C端激活域（IPR003185 - PA28/REG gamma subunit, Pfam:PF02251），两域均采用α-螺旋四螺旋束拓扑（IPR036252 - four-helix bundle）。IPR036997和IPR036996分别为α/β亚基和γ亚基的超家族标记。IPR009077（PA28 C-terminal domain）形成与20S核心蛋白酶体α环对接的C端尾结构。</p>
+<p><strong>PPI互作网络</strong>：STRING数据显示PSME1的PPI网络完全集中于蛋白酶体系统。PSME2（PA28β，评分999）形成α₃β₄异七聚体PA28环。PSMB5（20S核心β5亚基，评分988）为糜蛋白酶样催化位点。PSMD14（Rpn11去泛素化酶，评分940）、PSMD1（19S调节粒子支架，评分863）、PSMD4（泛素受体，评分830）均为26S蛋白酶体19S调控粒子组分。ADRM1（26S蛋白酶体泛素受体，评分814）、USP14（去泛素化酶，评分795）和UCHL5（泛素C端水解酶，评分765）构成去泛素化酶调控网络。</p>
+<p><strong>结构-功能关系</strong>：PSME1的ESMFold平均pLDDT=0.88（pLDDT&gt;0.9占57.0%），反映了高度结构化的四螺旋束域。PA28α₃β₄异七聚体通过与20S核心蛋白酶体α环C端的活化环对接，使其轴向通道打开，从而促进未折叠多肽底物的入口。PA28的突出特点是改变蛋白酶体裂解偏好——增强对碱性、疏水性残基的裂解活性，产生更适合MHC I类结合的8-10 aa肽段，优化抗原呈递效率。</p>
+<p><strong>TE调控机制</strong>：免疫蛋白酶体与TE调控的连接是抗原加工和先天免疫的核心交叉。内源性逆转录病毒（ERV）和LINE-1的ORF编码蛋白若被表达，需要通过MHC I类途径呈递以激活CTL介导的清除——PSME1通过增强蛋白酶体生成免疫原性肽段在此通路中发挥关键作用（PMID:42364494 - 免疫蛋白酶体为抗原加工机器的主要存活相关组分）。cGAS-STING感知TE来源的胞质DNA后，IFN-I信号上调PSME1表达（PSME1启动子含ISRE元件），形成炎症→免疫蛋白酶体活化→TE肽呈递的正反馈环路。同时，泛素化异常蛋白的积累（如TE编码的错误折叠蛋白）需PA28增强的蛋白酶体降解以维持蛋白稳态。</p>
+<p><strong>前沿意义</strong>：PSME1以243篇PubMed文献量成为研究最充分的蛋白之一，但现有文献几乎全部聚焦于免疫蛋白酶体在抗原呈递中的功能（含干扰素诱导和免疫调控），TE调控视角尚未被明确探索。PSME1的IFN-I诱导性和TE肽加工功能使其成为先天免疫感知与TE沉默之间的连接枢纽蛋白。PSME1/2敲除小鼠已有，结合TE-RNA-seq和MHC I-IP/MS鉴定TE来源肽组将能够直接验证PSME1→免疫蛋白酶体→TE抗原呈递轴的生理相关性。</p></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

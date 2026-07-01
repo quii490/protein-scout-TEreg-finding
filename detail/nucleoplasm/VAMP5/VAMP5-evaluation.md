@@ -97,7 +97,13 @@ HPA: https://www.proteinatlas.org/ENSG00000168899-VAMP5
 | 41855695 | Integrative transcriptomic and machine learning analysis identifies core immune genes and pathways driving graft-versus- | Leuk Res 2026 |
 | 41851715 | The Galectin-3-binding protein promotes angiogenesis in pancreatic cancer via simultaneous upregulation of VEGFA and dir | Cell Commun Signal 2026 |
 
-### HPA IF 图像
+### 深度机制分析
 
-HPA 检索: https://www.proteinatlas.org/search/VAMP5
+VAMP5（116 aa, 12.8 kDa）是囊泡相关膜蛋白（VAMP）/synaptobrevin家族的成员，属于SNARE蛋白超家族。SNARE蛋白以约60个氨基酸的保守卷曲螺旋（coiled-coil）SNARE基序为特征，通过四个SNARE基序（通常来自不同SNARE亚家族）的平行组装形成四螺旋束，将囊泡膜拉近靶膜以驱动膜融合。VAMP5结构域架构极为精简：N端含有一个Synaptobrevin样结构域（IPR001388），核心为V_SNARE卷曲螺旋（IPR042855），C端带有跨膜锚定螺旋。AlphaFold预测pLDDT=79.8，SNARE卷曲螺旋区域的预测置信度高（该区域趋向于形成稳定的α-螺旋）。
+
+VAMP5的已知功能主要与肌生成和GLUT4（葡萄糖转运蛋白）运输相关，参与成肌细胞融合和胰岛素响应的GLUT4囊泡向质膜转运。然而，HPA将其定位为Nucleoplasm; Plasma membrane（Approved级别），质膜定位符合其作为v-SNARE参与GLUT4囊泡融合的经典功能，而核质定位则提出了非经典核内功能的假说。与其他v-SNARE蛋白不同，VAMP5的核质定位可能是SNARE蛋白中的一个相对独特现象。
+
+PPI网络极为丰富（BioGRID degree=169），包括多种syntaxin（STX1A、STX4、STX16）和SNAP蛋白（SNAP23、SNAP29）等经典SNARE伴侣。值得特别关注的是与LMNA（核纤层蛋白A/C）和MDC1（DNA损伤检查点介质）的互作——LMNA是核纤层的主要结构组分，维持核的机械稳定性和染色质组织；MDC1是DNA双链断裂应答的关键支架蛋白。这两个互作将VAMP5与核结构维持和DNA损伤修复直接联系起来。
+
+文献提示VAMP5是多功能蛋白——PLK1驱动的胶质瘤生长受VAMP5靶向抑制（PMID:42257837），胚胎发育中VAMP5是固有防御因子（PMID:40624080）。在TE调控方面，VAMP5最值得关注的假设是"核膜-核质SNARE轴"：VAMP5是否参与内核膜（INM）附近的膜融合事件，从而影响核纤层相关的异染色质组织？若VAMP5与LMNA的互作具有功能性后果，VAMP5可能通过调控核纤层组装来间接影响LAD（核纤层相关结构域）中的TE表达。DNA损伤修复与TE去抑制之间的关联是另一个有前景的方向——持续的DNA损伤可导致重复序列的去抑制，VAMP5-MDC1互作是否参与DNA损伤应答中的重复序列调控值得探索。
 

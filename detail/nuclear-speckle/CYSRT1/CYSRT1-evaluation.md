@@ -165,6 +165,18 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### 深度机制分析
+
+**结构域架构**：CYSRT1（144 aa，15.3 kDa）是半胱氨酸富集尾蛋白1，属于Cornified Envelope（角质化包膜）相关蛋白家族。其单一结构域IPR018904（PF10631）覆盖了蛋白的大部分序列（约30-140 aa）——UniProt注释为"Cysteine-rich tail protein 1"，但无确切的3D折叠预测。AlphaFold pLDDT=56.3（较低），有序残基仅11.1%，残余53.5%在中等置信区间（pLDDT 50-70），提示CYSRT1可能采取"部分折叠/半无序"构象——这在表皮结构蛋白中常见（如loricrin, involucrin, SPRR家族），这类蛋白在溶液中flexible但在转谷氨酰胺酶交联后形成刚性结构。HPA定位显示Nuclear speckles; Vesicles; Midbody（Approved），其中Nuclear speckles是剪接因子的富集区，提示CYSRT1在RNA代谢中的非经典功能。
+
+**PPI互作网络解读**：CYSRT1的PPI网络由表皮分化蛋白家族主导——KPRP（富含脯氨酸的角化包膜前体蛋白）、LCE3A/LCE2C（晚期角化包膜蛋白）、KRT78（II型角蛋白）、KRTAP1-3/KRTAP9-8（角蛋白相关蛋白）。这些互作与CYSRT1在角质化/表皮终末分化中的经典功能一致。但核内互作簇揭示了新的功能维度：ZNF587/ZNF786（锌指转录因子，BioGRID）——提示CYSRT1可能作为转录辅助因子调控表皮分化基因表达程序；REST（RE1沉默转录因子，BioGRID）——最为关键的核内互作，REST招募CoREST-LSD1-HDAC1/2复合体催化H3K4me2去甲基化和组蛋白去乙酰化，是神经元基因和TE沉默的核心调控因子；ESR2（雌激素受体β，BioGRID）和HRAS（BioGRID）连接信号通路交叉；MED25（Mediator复合体亚基25）直接将CYSRT1与RNA Pol II转录启动装置关联。
+
+**结构解读**：CYSRT1的144 aa序列包含特征性的Cys富集模式（C-x(2)-C-x(2)-C-P-x(2)-C重复单元），这些Cys残基在表皮终末分化过程中被转谷氨酰胺酶1（TGM1）催化形成Nε-(γ-glutamyl)lysine异肽交联——CYSRT1通过此方式被共价整合至角化包膜。半胱氨酸富集区可能采用Zn²⁺配位驱动的局部折叠——每个CxxC簇可配位一个Zn²⁺形成锌指样结构（尽管非经典锌指折叠），赋予CYSRT1部分结构刚性。AlphaFold预测的低pLDDT可能反映了单独的CYSRT1单体在溶液中确实为无序——功能性折叠依赖于互作伙伴（如KPRP/LCE蛋白）提供的模板化折叠和Zn²⁺/Ca²⁺的辅因子稳定化。
+
+**机制模型**：（1）经典表皮功能——CYSRT1在表皮颗粒层表达，作为角化包膜前体蛋白，经TGM1交联整合至角质细胞周边的不可溶性角化包膜中，提供表皮屏障功能（PMID:36804407鉴定了CYSRT1的抗菌活性）；（2）核内非经典功能——Nuclear speckles的精确定位表明CYSRT1可能与剪接因子共定位（SC35/SRSF2标记物），可能参与表皮特异性基因转录本的共转录剪接调控；（3）REST互作最引人注目——REST·CoREST·LSD1复合体负责催化H3K4me2去甲基化，是神经元基因在非神经元组织中沉默的关键执行者，同时也是HERV-K和部分L1元件沉默所需的复合体。CYSRT1可能作为REST复合体的辅助蛋白——可能增强REST靶向特定基因座的能力或调控LSD1催化活性；（4）MED25互作——Mediator复合体招募至靶基因启动子是转录激活的必需步骤，CYSRT1可能作为REST-Mediator对话的桥梁蛋白。
+
+**TE调控展望**：CYSRT1通过REST和MED25互作直接连接到TE沉默通路。REST·CoREST·LSD1复合体结合RE1/NRSE（神经限制性沉默元件，21 bp共有序列）——虽然RE1在哺乳动物基因组中约2000个位点主要位于神经元基因启动子，但RE1-like基序在ERV LTR中也存在大量匹配。REST复合体对TE的沉默已有实验证实（特别是HERV-K和MER11元件）。CYSRT1作为REST的可能辅因子——若CYSRT1增强REST对TE-RE1的靶向或LSD1的去甲基化催化效率，则它对TE沉默的贡献可能是实质性的。此外，Zn²⁺配位的Cys富集区使CYSRT1成为氧化还原传感器——在ROS升高条件下，Cys被氧化可能释放Zn²⁺改变CYSRT1构象和REST亲和力，将氧化应激与TE去抑制耦合（这一假说完全基于生化推理，需要实验验证）。
+
 ### PPI 互作网络
 
 | 互作伙伴 | 来源 | 评分 |

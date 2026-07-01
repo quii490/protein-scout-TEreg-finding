@@ -41,6 +41,11 @@
 </tbody></table></div>
 <h4>3. 分析</h4>
 <ul><li>nan (nan)</li><li>PubMed strict=0 broad=0</li><li>AF pLDDT=91.1 PDB=0</li><li>InterPro: Aldolase_TIM; CBS_dom; CBS_dom_sf</li><li>Pfam: CBS; IMPDH</li><li>PPI degree=0 ChIP: None</li></ul>
+<h4>深度机制分析</h4>
+<p>B7Z1G4编码IMP脱氢酶（IMPDH）的TrEMBL变体，其结构域架构由两个保守区域组成：N端TIM桶状折叠的催化结构域（Aldolase_TIM、IPR013785、Pfam IMPDH）负责将IMP氧化为XMP的速率限制催化步骤；C端CBS结构域对（CBS_dom、CBS_dom_sf、IPR000644、IPR046342、Pfam CBS）形成串联的胱硫醚-beta-合成酶二聚化模块，负责变构调控——响应ATP/AMP比值以调控酶活性。</p>
+<p>357 aa（39.0 kDa）的紧凑分子量反映该TrEMBL变体可能缺少全长IMPDH的N端延伸区域。AlphaFold pLDDT高达91.1，在所有75个评估蛋白中结构质量位列前茅，且0个PDB实验结构赋予其高新颖性。CBS域对的存在暗示ATP/AMP比值可能作为该酶活性的直接代谢传感器。</p>
+<p>TE调控相关性的机制推论基于两个互不排斥的假说：<strong>核酸结合假说</strong>——IMPDH被报道具有单链核酸结合活性，若该TrEMBL变体保留此功能，其可能直接结合TE衍生的RNA或DNA，影响TE转录本的稳定性或反转录效率（尤其对LINE-1的TPRT机制）；<strong>核苷酸池调控假说</strong>——IMPDH作为GTP从头合成的限速酶，其活性直接决定细胞内dNTP/GTP池大小，而逆转录转座子的反转录步骤对dNTP浓度高度敏感。通过调控GTP水平，IMPDH可能间接但不系统地影响所有正在活跃转座TE的复制效率。</p>
+<p>但该变体无核定位GO-CC注释（核定位特异性仅4/10），PubMed=0，PPI degree=0。虽然pLDDT达91.1的结构质量极高，但功能性TE调控的机制链条过长，归一化总分67.8/100，不建议优先靶标地位。若未来获得该变体全长功能注释和核苷酸代谢与TE活性关联的直接数据，其代谢调控TE的假说将具有概念新颖性。</p>
 <h4>4. 总体评价</h4>
 <p><strong>67.8/100</strong> | <strong>nucleoplasm</strong> Nuclear protein</p>
 <h4>补充分析 (UniProt API)</h4>

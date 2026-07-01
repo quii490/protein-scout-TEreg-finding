@@ -102,6 +102,19 @@ Nuclear protein
 | TRIP10 | BioGRID | 0 |
 
 
+### 深度机制分析
+
+**结构域架构**：RHOJ（214 aa，23.5 kDa）是小G蛋白Rho家族的典型成员，含P-loop_NTPase结构域（IPR027417）和小GTP结合结构域（Small_GTP-bd IPR005225，Small_GTPase IPR001806），具体归类为Rho亚家族（IPR003578）。Ras超家族折叠（PF00071）形成六股β-片层被5个α-螺旋包围的经典G结构域，含有G1-G5五个保守基序：G1（GxxxxGKS/T P-loop）结合磷酸基团，G2（Switch I）和G3（Switch II）作为分子开关在GTP/GDP结合态之间转换。HPA显示Nucleoli; Nucleoplasm; Plasma membrane三重定位（Approved），其中核仁定位是Rho家族极为罕见的特征。
+
+**PPI互作网络解读**：PPI degree=626（本批次最高），反映了小G蛋白作为信号整合中枢的核心地位。关键互作包括：PAK1/PAK2（Rho效应器激酶，调控细胞骨架动力和MAPK通路）、WAS/WASL（Wiskott-Aldrich综合征蛋白，Arp2/3介导的肌动蛋白聚合上游调控因子）、MEOX2（同源框转录因子，调控血管发育）、TRIP10（Cdc42/Rac效应器）、BHLHE40（碱性螺旋-环-螺旋转录抑制因子）。这些互作描绘了RHOJ从质膜信号到核内基因表达调控的完整信号传导链。
+
+**结构解读**：AlphaFold pLDDT=88.0（ESMFold平均pLDDT=0.95，83.6%残基pLDDT>0.9），两种方法高度一致地预测出高质量的G结构域折叠。Switch I（残基30-40）和Switch II（残基60-70）区域在GDP结合态下呈现特征性构象，GTP结合后Switch区域发生显著重排暴露效应器结合面。C端CAAX盒（Cys-Leu-Ile-Met）介导法尼基化修饰和膜锚定。pLDDT在核心β-片层（>95）和Switch区域（85-90）均较高，表明预测结构具备功能态的代表性。
+
+**机制模型**：RHOJ通过经典的'GTPase分子开关'模式运作：（1）质膜上GDP→GTP交换（由GEF催化），激活后通过PAK激酶磷酸化级联调控细胞骨架重排和细胞迁移（血管新生中的关键功能，PMID:21628409, PMID:30158707）；（2）核质/核仁定位机制：Switch II区域含有一段推测的核定位信号（NLS）样序列（KKRx-like），GTP结合可能通过构象变化暴露此序列，允许importin-α/β识别并介导核输入。在核仁中，RHOJ可能通过BHLHE40互作参与rDNA转录调控或核仁应激信号传导；（3）GLUL（谷氨酰胺合成酶）被鉴定为RHOJ在内皮细胞中的直接互作伙伴（PMID:30158707），连接了GTPase信号和谷氨酰胺代谢。
+
+**TE调控展望**：RHOJ不直接参与TE调控。但作为BHLHE40的互作伙伴值得注意——BHLHE40（DEC1）是circadian clock的转录抑制因子，可结合E-box元件（CACGTG）调控靶基因。许多TE启动子（特别是MER/LTR元件）含有功能性E-box序列，BHLHE40理论上可经由这些基序调控TE转录。RHOJ通过对BHLHE40的调控可能间接影响昼夜节律依赖的TE表达模式，但这一假说需要实验验证。
+
+
 ![PAE](https://alphafold.ebi.ac.uk/files/AF-Q9H4E5-F1-predicted_aligned_error_v6.png)
 
 ### PubMed 文献

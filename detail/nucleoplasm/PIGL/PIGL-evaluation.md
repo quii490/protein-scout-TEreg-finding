@@ -71,6 +71,11 @@ Nuclear protein
 | LPAR2 | BioGRID | 0 |
 
 
+
+### 深度机制分析
+
+PIGL（N-acetylglucosaminyl-phosphatidylinositol de-N-acetylase，252 aa）是GPI锚定生物合成的第二步酶，催化GlcNAc-PI去-N-乙酰化生成GlcN-PI。结构域包含GlcNAc-PI去乙酰化酶相关域（IPR003737, PF02585）和LmbE样结构域超家族（IPR024078），采用锌依赖的酰胺水解酶折叠。AF pLDDT=91.7，结构置信度很高。PPI（degree=30）较为稀疏，包括MEIS2（转录因子）、RAMP3和LPAR2。PubMed 41篇集中在GPI缺陷疾病：35378319报道PIGL相关疾病中先天性膈疝和早期致死性，38819479揭示GPI锚定合成对合胞体滋养层分化至关重要，30023290报道PIGL相关高磷酸酶症伴智力障碍的扩展表型。核质定位为Approved。PIGL作为定位于内质网膜胞质侧的酶，其核质分布可能反映在核膜（与ER连续）上的定位。GPI锚定涉及100+种细胞表面蛋白的膜附着，包括多种信号受体和粘附分子。PIGL活性异常可通过改变Wnt、Hh等信号通路受体的GPI锚定间接影响核内转录程序。然而，直接的TE调控机制证据不足。PIGL可能通过在核膜局部合成GPI前体影响核膜蛋白组成，从而间接调节核内环境。
+
 ![PAE](https://alphafold.ebi.ac.uk/files/AF-Q9Y2B2-F1-predicted_aligned_error_v6.png)
 
 ### HPA IF 图像

@@ -43,6 +43,16 @@ status: shortlisted
 Nuclear protein
 
 
+### 深度机制分析
+
+CDH10（Cadherin-10）是一个经典的I型钙粘蛋白（788 aa, 88.5 kDa），其结构域架构遵循经典钙粘蛋白范式：5个钙粘蛋白胞外重复结构域（EC1-EC5, InterPro IPR002126），负责Ca²⁺依赖的同嗜性细胞黏附；一个单次跨膜螺旋；以及一个高度保守的胞内结构域，包含β-catenin结合区（InterPro IPR000233）和p120-catenin结合近膜区（InterPro IPR027397）。Cadherin-10属于II型钙粘蛋白亚家族（InterPro IPR039808），其特征是EC1结构域不含经典的HAV黏附基序。AlphaFold2预测pLDDT=78.4（得分6/10），无PDB实验结构。
+
+CDH10的PPI网络度为23，其STRING网络呈现出高度可信的钙粘蛋白-连环蛋白复合物特征。CTNNB1（β-catenin, STRING=866）和JUP（γ-catenin/plakoglobin, BioGRID score=1）是钙粘蛋白胞内结构域的核心结合伙伴——它们连接钙粘蛋白与α-catenin和肌动蛋白细胞骨架。CTNNA3（α-catenin-3, BioGRID）是神经元特异性α-catenin，参与突触黏附和信号传导。值得注意的是，CDH6（II型钙粘蛋白-6, STRING=782）可能通过顺式二聚化与CDH10协同调控黏附特异性。与COPS6（COP9信号体亚基6，调控Cullin-RING E3泛素连接酶活性）和PTN（多效生长因子/神经突生长促进因子）的互作则提示CDH10在非黏附性信号调控中的功能。
+
+CDH10在核质中的Approved级别定位是经典钙粘蛋白中的一个值得关注的发现。在Wnt信号通路激活条件下，β-catenin从钙粘蛋白复合物中释放并转位至核内，与TCF/LEF转录因子协同激活Wnt靶基因。CDH10作为膜锚点可能通过控制β-catenin的可用池间接调控Wnt信号的核内输出。然而，钙粘蛋白胞内结构域的直接核转位也在部分钙粘蛋白中被报道——γ-分泌酶可在跨膜区剪切钙粘蛋白，释放胞内片段入核调控转录。
+
+CDH10的功能研究集中在神经发育和肿瘤两个领域。PMID:32574161发现CDH10与多囊卵巢综合征的新遗传关联，PMID:32292512揭示了缺氧条件下G9a介导的CDH10抑制增强了乳腺癌细胞的运动性——这直接关联CDH10的表观遗传沉默与肿瘤转移。在神经系统中，CDH10参与特定神经元连接的建立和特化，其mRNA在前额叶皮层特定神经元亚群中富集。29篇PubMed文献（得分9/10）为CDH10提供了坚实的文献基础，但核质中CDH10的直接功能从未被实验验证，这代表了一个明确的机遇——使用CDH10胞内结构域特异的抗体进行ChIP-seq或Cut&Run可能揭示其在核内的染色质结合图谱。
+
 ### 补充分析 (UniProt API)
 
 **蛋白全称**: Cadherin-10

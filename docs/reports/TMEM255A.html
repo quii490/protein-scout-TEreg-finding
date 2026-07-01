@@ -118,6 +118,11 @@
 <tr><td>建模残基数</td><td>349</td></tr>
 </tbody></table></div>
 <p>ESMFold 基于进化规模语言模型，进行无 MSA 搜索的从头折叠，可作为 AlphaFold 的独立验证。</p>
+<h4>深度机制分析</h4>
+<p>TMEM255A（亦称FAM70A）是一个功能注释极不完整的跨膜蛋白，其唯一的已知结构域为DUF4487（Pfam:PF14967, InterPro:IPR028014），属于功能未知结构域家族。ESMFold预测的全局pLDDT仅0.69，且22.3%的残基pLDDT&lt;0.5，提示该蛋白含有大量无序区域或未折叠区段，这对结构生物学研究构成显著挑战。其UniProt条目仍为TrEMBL状态（未审查），意味着该蛋白的序列和功能注释尚未经过专家审核，在蛋白命名、结构域边界和翻译后修饰方面存在较大的注释不确定性。值得注意的是，HPA定位数据显示TMEM255A存在于nucleoplasm和nuclear bodies，这与报告中&quot;无已知核定位注释&quot;的GO-CC分类形成了矛盾——HPA IF图像的核内信号提示该蛋白可能在特定条件下具有核质分布，但缺乏GO层面的实验验证。</p>
+<p>PPI互作网络的BioGRID数据显示TMEM255A与8个蛋白存在互作（所有评分均为0的最低置信度），包括APP、SEC24B（COPII囊泡组分）、WWP2/HECT家族E3泛素连接酶）、ITCH（HECT E3连接酶）、WWP1、COLGALT2（胶原半乳糖基转移酶）、NEDD4（HECT E3连接酶）和KCTD2。这些互作伙伴以泛素化相关酶类为突出特征——WWP2、ITCH、WWP1和NEDD4均为含WW结构域的HECT型E3泛素连接酶，参与蛋白泛素化降解和内吞分选。尽管互作评分为0，这一功能聚集模式提示TMEM255A可能与膜蛋白泛素化降解通路存在关联。</p>
+<p>在疾病关联方面，仅有的4篇PubMed文献提供了有限的信息。PMID 32391621报道Fam70A（小鼠TMEM255A同源物）通过与Wnt5a结合调控小鼠卵母细胞的减数分裂和质量，揭示了其在生殖生物学中的潜在功能。PMID 31729179报道一例包含TMEM255A在内的Xq24区域缺失导致的Danon病（一种X连锁显性遗传性溶酶体贮积症），但该缺失同时涵盖CUL4B、LAMP2、ATP1B4和ZBTB33等多个基因，无法将表型归因于TMEM255A单一基因缺失。综合而言，该蛋白的结构和功能信息极度匮乏，缺乏任何TE调控相关的领域证据。</p>
+<p>TMEM255A推荐等级2/5（64.5/100），其得分主要由研究新颖性（10/10）驱动——PubMed仅4篇文献且无一直接功能研究。然而，DUF4487结构域功能完全未知、结构预测质量低下（22.3%低置信残基）、PPI数据质量极低（全部score=0）以及缺乏核定位GO注释等多项劣势，使其在TE调控领域的开发价值极为有限。目前的机制模型仅能推断其可能参与膜蛋白的泛素化调控（基于WW结构域E3连接酶互作富集），但缺乏任何核内功能的分子基础。</p>
 <h4>5. 数据来源</h4>
 <ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q5JRV8</li><li>AlphaFold: https://alphafold.ebi.ac.uk/entry/Q5JRV8</li><li>PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=TMEM255A</li></ul></article></main>
 <script src="../assets/js/app.js"></script>

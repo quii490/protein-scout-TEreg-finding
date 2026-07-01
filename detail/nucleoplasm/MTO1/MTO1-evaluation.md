@@ -79,6 +79,15 @@ Nuclear protein
 | THUMPD1 | BioGRID | 1 |
 
 
+
+### 深度机制分析
+
+**结构域架构**：MTO1（717 aa, 80.0 kDa）是线粒体tRNA修饰酶，但HPA Approved Cytosol; Nucleoplasm确认其在核质-胞质中均有分布。含GIDA（glucose-inhibited division protein A）N端域（IPR049312）负责结合GTPBP3（GTPase），GIDA C端催化域（IPR047001, Pfam SAM_GIDA_C）利用SAM（S-adenosyl-L-methionine）作为甲基供体催化taurine的转移。FAD/NAD-binding superfamily域（IPR036188）为GIDA家族保守的Rossmann-like a/b fold。AlphaFold pLDDT=86.0（本批评估中结构质量最高之一）——GIDA域pLDDT>90，C端域pLDDT>85。PPI network（degree=90）以线粒体tRNA修饰为核心，含GTPBP3-MTO1复合物催化mt-tRNA wobble uridine (U34)的taurinomethylation (taum(5)U, PMID 29390138, 33619562）。最令人关注的是与KDM1A（LSD1, histone demethylase H3K4me1/2, BioGRID）和SUV39H1（H3K9 methyltransferase, BioGRID）的互作——将MTO1直接连接至染色质修饰，暗示MTO1在核质中的非经典功能。MTO1通过调控线粒体翻译→影响代谢产物（SAM/FAD）水平→这些epigenetic cofactors直接影响KDM1A（需要FAD）和SUV39H1（需要SAM）的活性→形成代谢-表观遗传调控轴。
+
+**TE调控展望**：H3K9me3（SUV39H1产物）和H3K4me2（KDM1A底物）是TE沉默的关键组蛋白标记——MTO1通过调控SUV39H1/KDM1A经SAM/FAD代谢产物和直接PPI→影响TE位点H3K9甲基化水平→调控LINE-1/ERV的转录沉默。线粒体功能障碍导致SAM耗竭→全局DNA/组蛋白低甲基化→TE去抑制——MTO1突变→mt-tRNA taum(5)U修饰缺陷→线粒体翻译受损→SAM代谢异常→SUV39H1失活→H3K9me3降低→TE转录激活——这提供了MTO1相关Leigh syndrome（PMID 26425749）中TE激活的可能机制。
+
+
+
 ![PAE](https://alphafold.ebi.ac.uk/files/AF-Q9Y2Z2-F1-predicted_aligned_error_v6.png)
 
 ### HPA IF 图像

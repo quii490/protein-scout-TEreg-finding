@@ -79,6 +79,11 @@ Nuclear protein
 | FCGRT | BioGRID | 0 |
 
 
+
+### 深度机制分析
+
+PCDH10（Protocadherin-10，1040 aa）是钙依赖性细胞粘附蛋白的非簇集原钙粘蛋白亚家族成员。结构域由6个钙粘蛋白重复（IPR002126, PF00028 Cadherin; PF08266 Cadherin_2）和细胞质尾部（IPR032455 Cadherin_C_2）组成，形成经典的棒状胞外结构。AF pLDDT=73.2，PDB=7（实验结构较多）。PPI（degree=77）含DLG4/PSD-95（突触后支架）、PSMC2（26S蛋白酶体ATP酶）和RAD23A（核苷酸切除修复蛋白）。PubMed 99篇使其成为此批中文献最丰富的蛋白，但多数集中在神经科学领域：42363437综述非簇集原钙粘蛋白在自闭症中的角色，42235318综述原钙粘蛋白在实体肿瘤中的机制和治疗前景，42373071对牙髓炎疼痛相关生物标志物进行生物信息学分析。核质定位为Approved。PCDH10作为跨膜粘附蛋白的核定位非常不寻常，可能通过RIP（regulated intramembrane proteolysis）机制——gamma-secretase剪切释放胞内域进入核内调控基因表达，类似Notch和多种钙粘蛋白。核内PCDH10片段可能通过RAD23A/PSMC2参与蛋白酶体依赖的转录因子降解调控，影响Wnt/beta-catenin等关键信号通路。TE调控方面，钙粘蛋白家族被报道影响LINE-1反转录转座活性，PCDH10核片段可能与染色质调控因子协同影响TE表达。
+
 ![PAE](https://alphafold.ebi.ac.uk/files/AF-Q9P2E7-F1-predicted_aligned_error_v6.png)
 
 ### PubMed 文献

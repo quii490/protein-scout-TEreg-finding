@@ -61,6 +61,20 @@ no known nuclear annotation
 
 **TE 调控相关性**: 该蛋白缺乏明确的核/染色质定位证据，TE调控潜力极低，不建议作为优先靶标。
 
+### 深度机制分析
+
+PDZD8（PDZ domain-containing protein 8，UniProt: Q8NEN9，1154 aa / 126.9 kDa）的结构域架构分析显示：InterPro结构域包括IPR001478, IPR002219, IPR031468, IPR036034, IPR039275, IPR041489；Pfam注释为PF00130, PF17820, PF26547；UniProt定义域:DOMAIN 91..294; /note="SMP-LTD"; /evidence="ECO:0000255。 尚无AlphaFold结构数据。
+
+蛋白质互作网络分析揭示PDZD8与以下关键因子存在相互作用：ZFYVE27、ELAVL1、BARD1、CDH5、RAB9A。 功能注释显示Lipid transfer and molecular tethering protein, which plays a key role in the formation of membrane contact sites between the endoplasmic reticulum and other organelles, such as late endosomes/lysosom。 这些互作伙伴暗示该蛋白可能通过多蛋白复合物参与细胞过程调控，其互作网络的拓扑位置值得进一步实验验证。
+
+从结构-功能机制角度分析，PDZD8的亚细胞定位为no known nuclear annotation，目前缺乏核定位的实验证据，其在核内的功能角色尚待阐明。 评估综合得分66.7/100，属于中等兴趣候选，在明确核定位后其TE调控潜力可能显著提升。 推荐等级为⭐⭐ (2/5)。
+
+对于TE调控机制的意义而言，PDZD8的结构域组成不直接指向经典染色质调控因子，但其在核内的存在（若经实验确认）可能暗示非经典TE调控途径。 研究新颖性方面，PubMed检索获得0篇文献，该蛋白几乎未被研究，是一个高度新颖的靶标，具有较大的学术探索空间。 代表性文献包括PMID:42370547, 42337592, 42197056等。
+
+综上所述，PDZD8作为一个1154 aa / 126.9 kDa的no known nuclear annotation定位蛋白，具有一定的TE调控研究价值，建议首先通过亚细胞分级和免疫荧光明确其在核内的分布模式，再设计针对性的功能实验。
+
+
+
 ### HPA IF 图像
 
 HPA: https://www.proteinatlas.org/ENSG00000165650-PDZD8

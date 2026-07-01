@@ -63,14 +63,17 @@ PPI degree: 1  ChIP: None
 ---
 
 
-### PPI 互作网络
+### 深度机制分析
 
-| 互作伙伴 | 来源 | 评分 |
-|---|---|---|
-| RTL6 | STRING | 747 |
+RTL3(Retrotransposon Gag-like protein 3)是"驯化"自逆转录病毒Gag蛋白的哺乳动物基因组编码蛋白，代表着病毒-宿主共同进化的分子化石。在长达数百万年的进化中，原始Gag的逆转录酶和整合酶结构域已丢失，保留了Gag-like DUF4939结构域(IPR032549)和Znf_CCHC锌指结构(IPR001878/PF00098)。CCHC锌指是经典的反转录病毒核壳蛋白核心，负责与病毒RNA基因组的psi包装信号特异性结合。pLDDT仅58.9(整体结构质量最低)，表明RTL3可能具有较高的结构性无序，这与Gag蛋白的非结构化N端和柔性连接区域特征一致。
+
+RTL3已被本评估系统标记为高优先级TE(yourself regulation)候选因子(TE_REG_CANDIDATE)。作为Gag同源蛋白，RTL3可能保留了祖先Gag蛋白的核酸结合功能。在核质的已知功能中，RTL3可与SOX9转录因子协同调控软骨细胞中COL2A1(II型胶原)的表达(PMID:33043724)——这是RTL3基因功能的唯一直接实验证据。RTL3含有的Znf_CCHC锌指可通过RNA或DNA结合将SOX9稳定于COL2A1增强子区域，形成RTL3-SOX9-COL2A1转录调控三元复合体模型。
+
+PPI网络极度稀疏(degree=1，仅与RTL6互作，STRING=747)。这种孤独的互作模式是Gag驯化蛋白的典型特征——在驯化过程中，病毒蛋白的大多数互作伙伴被进化压力清除，仅保留对宿主有益的少数功能性相互作用。HPA定位为Golgi apparatus、Nucleoplasm和Plasma membrane(Approved)，这与Gag蛋白在病毒生命周期中的定位模式惊人相似——Gag在膜上组装、在核质中进行RNA结合。
+
+RTL3的DUF4939结构域功能完全未知——这是病毒驯化基因研究的前沿领域。已知RTL1(同样是驯化Gag蛋白)的突变可导致Kagami-Ogata和Temple综合征(亲本印记连锁)，RTL3是否在人类疾病中具有类似的印记调控功能尚不可知。该领域的一个关键悬而未决的问题是：在哺乳动物基因组中，驯化Gag蛋白(RTL1-6)是否仍保留对LTR/ERV序列的残留亲和力，而成为"内源性病毒序列的宿主监管者"？RTL3的测试可提供关键证据。PubMed仅3篇，是前沿蓝海研究领域。
 
 
-![PAE](https://alphafold.ebi.ac.uk/files/AF-Q8N8U3-F1-predicted_aligned_error_v6.png)
 
 ### HPA IF 图像
 

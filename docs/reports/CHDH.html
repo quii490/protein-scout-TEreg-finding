@@ -58,6 +58,11 @@
 <h4>4. 总体评价</h4>
 <p><strong>推荐等级</strong>: 2/5</p>
 <p><strong>TE 调控相关性</strong>: 该蛋白缺乏明确的核/染色质定位证据，TE调控潜力极低，不建议作为优先靶标。</p>
+<h4>深度机制分析</h4>
+<p>CHDH（594 aa, UniProt Q8NE62）是线粒体胆碱脱氢酶，属于葡萄糖-甲醇-胆碱（GMC）氧化还原酶超家族。其结构域架构包含IPR036188（FAD/NAD(P)结合结构域超折叠）、IPR012132（GMC氧化还原酶）、IPR000172（GMC氧化还原酶N端）和IPR007867（葡萄糖-甲醇-胆碱氧化还原酶C端），Pfam条目PF05199（GMC_oxred_C）和PF00732（GMC_oxred_N）。该酶催化胆碱向甜菜碱醛的线粒体脱氢反应（By similarity）——这是胆碱代谢为甜菜碱的第一步，后者是重要的甲基供体。CHDH还参与线粒体损伤后的线粒体自噬（PubMed:25483962），通过维持线粒体功能完整性间接影响细胞代谢状态。</p>
+<p>PPI数据显示RGN（钙结合蛋白, STRING评分859）、CEPT1（胆碱/乙醇胺磷酸转移酶1, 854）、PISD（磷脂酰丝氨酸脱羧酶, 843）和PLD3（磷脂酶D3, 809）为主要互作伙伴。这些互作共同指向磷脂代谢网络——CEPT1和PISD分别参与磷脂酰胆碱和磷脂酰乙醇胺的合成，而PLD3水解磷脂酰胆碱产生信号脂质磷脂酸。值得特别注意的是SQSTM1/p62（STRING评分781）的互作——p62是选择性自噬的关键受体蛋白，直接识别泛素化蛋白聚集体和受损线粒体以导向自噬降解，且p62已被证实直接结合LINE-1 ORF1p以抑制其核质积累。</p>
+<p>从TE调控角度，CHDH通过两个代谢轴间接影响TE活性。第一，胆碱-甜菜碱-甲硫氨酸循环是S-腺苷甲硫氨酸（SAM）合成的关键通路——SAM是所有组蛋白甲基转移酶（HMT）和DNA甲基转移酶（DNMT）的唯一甲基供体。CHDH催化的胆碱脱氢决定甜菜碱可用性，进而影响肝脏和肾外组织中的同型半胱氨酸重甲基化，最终控制DNA和组蛋白甲基化所需SAM的整体供应。TE序列（尤其是IAP和LINE-1启动子）的CpG甲基化和H3K9me3/H4K20me3异染色质修饰完全依赖SAM依赖性甲基转移酶。因此CHDH作为胆碱代谢的限速酶可能通过甲基供体供应间接调节全局TE甲基化水平。第二，CHDH调控的线粒体自噬影响mtDNA应激信号——mtDNA释放至细胞质激活cGAS-STING通路可诱导IFN反应，进而通过ISRE（干扰素刺激应答元件）激活ERV/LTR启动子。</p>
+<hr>
 <h4>HPA IF 图像</h4>
 <p>HPA: https://www.proteinatlas.org/ENSG00000016391-CHDH</p>
 <p><figure><img src="https://images.proteinatlas.org/36632/1239_H1_6_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/36632/1239_H1_7_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/36632/1404_B8_2_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/36632/1404_B8_3_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/36632/2192_C2_1_blue_red_green.jpg" alt="image"></figure> <figure><img src="https://images.proteinatlas.org/36632/2192_C2_2_blue_red_green.jpg" alt="image"></figure></p>
@@ -88,9 +93,7 @@
 <tr><td>42341503</td><td>Global and mitochondrial choline dehydrogenase contribute to goose fatty liver formation by differentially regulating en</td><td>Poult Sci 2026</td></tr>
 <tr><td>41684377</td><td>Genetic variants in acetylcholine processing and significant improvement with pyridostigmine in a patient with postural</td><td>Eur Heart J Case Rep 2026</td></tr>
 <tr><td>41457117</td><td>Tissue-Specific Transcriptomic Profiling of Vitamin-Dependent Mitochondrial Pathways in Female Buffalo.</td><td>Cell Biochem Biophys 2026</td></tr>
-</tbody></table></div>
-<h4>HPA IF 图像</h4>
-<p>HPA 检索: https://www.proteinatlas.org/search/CHDH</p></article></main>
+</tbody></table></div></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

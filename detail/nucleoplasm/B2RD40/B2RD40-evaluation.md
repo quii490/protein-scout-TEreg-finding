@@ -55,6 +55,16 @@ Calcium-dependent phospholipid-binding protein that plays a role in calcium-medi
 
 no known nuclear annotation
 
+### 深度机制分析
+
+B2RD40编码Copine-2（CPNE2）的TrEMBL变体，其结构域架构以Ca2+依赖性磷脂结合的双模块串联为特征：N端两枚C2结构域（IPR000008、IPR035892、Pfam PF00168）通过Ca2+离子桥与酸性磷脂头基（如磷脂酰丝氨酸、磷脂酰胆碱）结合，C端的VWA（von Willebrand factor A）结构域（IPR002035、IPR036465）形成经典Rossmann折叠，负责蛋白-蛋白互作表面。IPR037768（Copine特有）和IPR045052（Copine-2分类）进一步确认其特异性。
+
+532 aa（58.5 kDa）的分子量在Copine家族中较为保守。AlphaFold预测结构可用，C2域的Ca2+结合环和VWA域的MIDAS基序预测可靠。PPI数据有限（TrEMBL条目，PubMed=0），但Copine家族的功能注释提示其核心互作伙伴包括膜靶向蛋白、肌动蛋白骨架组分和多种信号通路节点（如MEK1、JAB1/COPS5）。
+
+TE调控相关性的机制推论较为间接：Copine-2的主要功能集中在Ca2+介导的膜运输和信号转导跨膜转位，但其在细胞应激条件下可能转位至核膜或核质。若其VWA域确实在核内存在结合伙伴（如染色质调节因子），则Ca2+信号可能通过Copine-2间接偶联胞外/胞内信号与核内基因表达调控。从这个角度，Copine-2可能作为Ca2+信号路径的"传送带"，将胞质事件传递给核内效应分子。极端应激（如UV损伤、热刺激）可同时触发TE激活和Ca2+内流，Copine-2可能在此交叉节点发挥桥接作用。
+
+但GO-CC缺乏核定位注释（核定位特异性仅4/10），且当前无任何直接数据支持Ca2+-Copine2-TE通路的存在。归一化总分67.8/100，TE调控潜力极低，不建议作为优先靶标。
+
 ### 4. 总体评价
 
 **推荐等级**: ⭐⭐ (2/5)

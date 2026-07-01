@@ -79,6 +79,11 @@ Nuclear protein
 | TNNI1 | STRING | 759 |
 
 
+
+### 深度机制分析
+
+MYH14（Myosin-14，1995 aa）是非肌肉肌球蛋白II家族成员，参与细胞分裂、细胞形态维持和细胞迁移。结构域以肌球蛋白马达头结构域（IPR001609）为核心，包含IQ基序（钙调素结合）、肌球蛋白N端和尾部coiled-coil区域，形成经典的双头分子马达结构。AF pLDDT=74.5，PDB=2。PPI网络（degree=205）较大：RPS12（939）连接核糖体、ACTB（914）为肌动蛋白、PURB（872）为转录激活因子、SOX6（853）为SRY-box转录因子、MED13（829）为中介体复合物亚基——PURB、SOX6和MED13的连接将MYH14直接链接至转录调控。关键文献42349317揭示ESR1-MYH14轴驱动宫颈癌进展和转移（Transl Oncol 2026），41890103在Friedreich共济失调转录组中发现MYH14失调。核质定位为Approved。作为肌球蛋白马达，MYH14的核定位意味着其可能在核内利用ATP水解沿核内肌动蛋白丝（F-actin）运输货物。核肌动蛋白已被确认参与转录调控、染色质重塑和mRNA加工，MYH14可能将这些核内过程与机械力产生耦合。SOX6和MED13的互作支持其直接参与转录调控复合物组装的推测。TE调控方面，核肌动蛋白-肌球蛋白系统可以形成动态支架影响增强子-启动子环的形成和稳定，进而调控TE驱动的基因表达。
+
 ![PAE](https://alphafold.ebi.ac.uk/files/AF-Q7Z406-F1-predicted_aligned_error_v6.png)
 
 ### HPA IF 图像

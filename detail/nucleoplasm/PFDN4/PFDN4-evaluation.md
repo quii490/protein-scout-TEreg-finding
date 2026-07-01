@@ -48,6 +48,16 @@ status: shortlisted
 Nuclear protein
 
 
+### 深度机制分析
+
+PFDN4（Prefoldin subunit 4）是一个134 aa的小蛋白（15.3 kDa），属于prefoldin分子伴侣复合物的β亚家族。其结构域架构简洁：N端为prefoldin β样折叠（InterPro IPR009053），中间为PFDN4特异性保守区（InterPro IPR016661），整体构成prefoldin β亚基特征性的长螺旋发夹结构（Pfam Prefoldin_2, PF01920）。AlphaFold2预测pLDDT=87.4（得分10/10），PDB数据库中有6个实验结构，主要是prefoldin六聚体复合物和与伴侣蛋白的复合物晶体结构，结构解析度极高。
+
+PFDN4的PPI网络极为丰富（degree=130，得分7/10），呈现出典型的分子伴侣复合物特征。与PFDN2、PFDN5、PFDN6、PFDN1和VBP1（von Hippel-Lindau结合蛋白1）的互作构成了经典的prefoldin六聚体（PFD1-PFD6），这是胞质中新生多肽折叠的关键辅助系统。但与PRPF4（pre-mRNA加工因子4）和SPATA2（精子发生相关蛋白2）的BioGRID互作提示PFDN4在核质中存在独立于经典prefoldin复合物的功能。PRPF4是U4/U6 snRNP的核心组分，参与pre-mRNA剪接，PFDN4可能通过协助剪接体蛋白的折叠或组装影响RNA加工。
+
+从功能机制角度，PFDN4在胞质中主要作为新生多肽的捕获和转运平台，将未折叠蛋白递送至伴侣蛋白CCT/TRiC进行ATP依赖的折叠。然而，在核质中缺乏CCT系统的情况下，PFDN4可能扮演不同的角色。prefoldin亚基在核内的重新定位已被多个研究证实——它们从细胞质中的经典折叠功能转变为核内转录和染色质调控的辅助因子。与TUBA3E（α-微管蛋白3E）的互作提示PFDN4可能参与核内微管蛋白的折叠和功能调控。
+
+PFDN4在癌症中的预后意义已被多项研究验证。PMID:39644788发现PFDN4在肝细胞癌中具有预后意义，可能是通过调控肿瘤免疫微环境实现的。PMID:38835051利用单细胞RNA-seq揭示PFDN4在脑海绵状血管畸形中与铜死亡相关的免疫浸润景观中发挥作用。尽管PubMed=15文献数相对较少（得分9/10），但PFDN4在prefoldin复合物背景下的结构生物学储备极为丰富（PBD=6），为核内功能研究提供了坚实的分子基础。
+
 ### 补充分析 (UniProt API)
 
 **蛋白全称**: Prefoldin subunit 4

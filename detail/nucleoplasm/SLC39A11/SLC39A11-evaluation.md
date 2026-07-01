@@ -100,3 +100,18 @@ HPA: https://www.proteinatlas.org/ENSG00000133195-SLC39A11
 
 HPA 检索: https://www.proteinatlas.org/search/SLC39A11
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| ELAVL1 | physical | Abdelmohsen K (2009) |
+| EGFR | physical | Foerster S (2013) |
+| CD33 | physical | Huttlin EL (2015) |
+| TMEM51 | physical | Huttlin EL (2015) |
+| CD274 | physical | Huttlin EL (2015) |
+| PVRIG | physical | Huttlin EL (2015) |
+| SLAMF1 | physical | Huttlin EL (2015) |
+| TMEFF1 | physical | Huttlin EL (2015) |
+| WBP1 | physical | Huttlin EL (2015) |
+| SPN | physical | Huttlin EL (2015) |
+

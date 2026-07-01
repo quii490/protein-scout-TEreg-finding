@@ -110,7 +110,13 @@ HPA: https://www.proteinatlas.org/ENSG00000141098-GFOD2
 | 38946427 | Molecular insight into the potential functional role of pseudoenzyme GFOD1 via interaction with NKIRAS2. | Acta Biochim Biophys Sin (Shanghai) 2024 |
 | 35477560 | Effects of stressful life-events on DNA methylation in panic disorder and major depressive disorder. | Clin Epigenetics 2022 |
 
-### HPA IF 图像
+### 深度机制分析
 
-HPA 检索: https://www.proteinatlas.org/search/GFOD2
+GFOD2（385 aa, 42.3 kDa）属于GFO/IDH/MocA氧化还原酶超家族，其结构域架构由N端的GFO/IDH/MocA样氧化还原酶结构域（IPR000683）和C端的辅助折叠区域（GFO_IDH_MocA_C3, PF22725）组成。该家族以葡萄糖-果糖氧化还原酶（GFOR）为原型，催化NADPH依赖的氧化还原反应。AlphaFold预测pLDDT高达92.0，为该25个候选蛋白中预测质量最高者之一，提示该蛋白折叠紧凑、有序程度高——这对于潜在的酶活性口袋结构解析极为有利。然而，无PDB实验结构验证，底物特异性和催化机制仍属推测。
+
+GFOD2的已知功能是促进基质组装（matrix assembly），但具体生化机制未明。GOF/IDH/MocA家族的酶活性通常涉及糖类底物的氧化或异构化，因此GFOD2可能作为胞外基质修饰酶或胶原交联调控因子发挥作用。PPI网络（BioGRID degree=10）中，与TGDS（TDP-葡萄糖4,6-脱水酶，STRING评分739）和GFOD1（同家族蛋白）的互作提示存在代谢通路协作；与TRIM25（E3泛素连接酶）和NKIRAS2（NF-kappaB信号抑制因子）的互作则暗示GFOD2与炎症和先天免疫通路可能有非催化的蛋白-蛋白互作功能。
+
+HPA将GFOD2定位为Cytosol; Nucleoplasm（Uncertain级别），定位可靠性低于Approved和Supported。这种模糊定位可能反映该蛋白在胞质和核质之间呈动态分布，也可能是细胞类型特异性的。IFITM1（干扰素诱导跨膜蛋白1）和DPP4（二肽基肽酶4）在PPI网络中的存在加强了GFOD2与炎症/代谢交叉调控的关联。
+
+在TE调控语境下，GFOD2的氧化还原酶活性若延伸至核质，则可能通过以下方式影响TE表达：调控核内NADPH/NADP+平衡→影响组蛋白去甲基化酶（如LSD1，依赖FAD）和TET蛋白（依赖α-KG和Fe2+）的活性→改变TE位点的DNA甲基化和组蛋白修饰状态。氧化还原代谢与表观基因组的偶联是新兴领域。PMID:25260659报道的GFOD2变异与支链氨基酸代谢的关联，以及PMID:35477560提示的应激生活事件通过DNA甲基化调控GFOD2，为"代谢→表观遗传→TE"轴提供了线索。建议通过代谢组学联合CUT&Tag实验，验证GFOD2敲低是否改变全局和TE位点的表观遗传标记。
 

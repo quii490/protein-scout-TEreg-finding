@@ -61,6 +61,18 @@ no known nuclear annotation
 
 **TE 调控相关性**: 该蛋白缺乏明确的核/染色质定位证据，TE调控潜力极低，不建议作为优先靶标。
 
+
+
+### 深度机制分析
+
+B3KNJ7（(cDNA FLJ14703 fis, clone NT2RP3000512, highly similar to Homeobox protein Hox-B3)）。定位于nucleoplasm。包含431 aa / 47.4 kDa。UniProt编号B3KNJ7。其InterPro结构域组成为IPR025281、IPR001356、IPR020479、IPR001827、IPR017970、IPR009057。Pfam注释2个保守结构域（PF13293、PF00046）。
+
+从功能机制角度，该蛋白的已知功能为Sequence-specific transcription factor which is part of a developmental regulatory system that provides cells with specific positional identities on the anterior-posterior axis。
+
+从结构生物学角度，在TE调控的背景下，B3KNJ7的nucleoplasm定位使其具备接触转座子元件的空间可能性。
+
+从研究转化角度，该蛋白在PubMed中尚无直接研究发表（PubMed=0），属于高度新颖的靶标，综合评分67.8/100，属于中等优先级，建议在更大规模的筛选中进一步验证。
+
 ### HPA IF 图像
 
 HPA 检索: https://www.proteinatlas.org/search/B3KNJ7

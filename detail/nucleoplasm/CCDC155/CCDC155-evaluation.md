@@ -62,6 +62,19 @@ Nuclear protein
 
 **TE 调控评估**: 该蛋白缺乏核定位证据，TE调控潜力极低。
 
+### 深度机制分析
+
+CCDC155（Protein KASH5，UniProt: Q8N6L0，562 aa / 62.8 kDa）的结构域架构分析显示：InterPro结构域包括IPR011992, IPR028168, IPR028170, IPR039508；Pfam注释为PF14658, PF14662。 AlphaFold预测的pLDDT均值为68.7，整体结构置信度较低，该蛋白可能含有大量内在无序区域或高度柔性片段。
+
+蛋白质互作网络分析揭示CCDC155与以下关键因子存在相互作用：UNC84A、SUN1、UNC84B、SYNE4、TERB1（PPI度为113）。 功能注释显示As a component of the LINC (LInker of Nucleoskeleton and Cytoskeleton) complex, involved in the connection between the nuclear lamina and the cytoskeleton. The nucleocytoplasmic interactions establish。 这些互作伙伴暗示该蛋白可能通过多蛋白复合物参与细胞过程调控，其互作网络的拓扑位置值得进一步实验验证。
+
+从结构-功能机制角度分析，CCDC155的亚细胞定位为，核定位证据尚不充分，需要免疫荧光或亚细胞分级实验进一步验证。 评估综合得分69.4/100，属于中等兴趣候选，在明确核定位后其TE调控潜力可能显著提升。
+
+对于TE调控机制的意义而言，CCDC155的结构域组成不直接指向经典染色质调控因子，但其在核内的存在（若经实验确认）可能暗示非经典TE调控途径。 研究新颖性方面，PubMed检索获得7篇文献，文献报道极少，属于低研究密度蛋白，适合作为独立探索方向。 代表性文献包括PMID:39086481, 37372436, 35587281等。
+
+综上所述，CCDC155作为一个562 aa / 62.8 kDa的定位蛋白，具有一定的TE调控研究价值，建议首先通过亚细胞分级和免疫荧光明确其在核内的分布模式，再设计针对性的功能实验。 AlphaFold pLDDT=68.7的结构预测可作为设计突变体和结构-功能关系研究的起点。
+
+
 ---
 
 
@@ -96,5 +109,4 @@ HPA 检索: https://www.proteinatlas.org/search/CCDC155
 | 35587281 | Homozygous missense mutation in CCDC155 disrupts the transmembrane distribution of CCDC155 and SUN1, resulting in non-obstructive azoospermia and prem |
 | 33238277 | Fertility Relevance Probability Analysis Shortlists Genetic Markers for Male Fertility Impairment. |
 | 29790874 | Point-of-care whole-exome sequencing of idiopathic male infertility. |
-
 

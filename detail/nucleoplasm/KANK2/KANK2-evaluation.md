@@ -101,7 +101,13 @@ HPA: https://www.proteinatlas.org/ENSG00000197256-KANK2
 | 42032724 | Regulation of reticular adhesions by KANK2 and talin2 in two melanoma cell lines. | Cell Commun Signal 2026 |
 | 42002769 | Integrated m6A methylome and transcriptome profiling of mRNAs and lncRNAs in nasal mucosal epithelial cells of allergic  | Clin Epigenetics 2026 |
 
-### HPA IF 图像
+### 深度机制分析
 
-HPA 检索: https://www.proteinatlas.org/search/KANK2
+KANK2是一种多功能支架蛋白（851 aa, 91.2 kDa），其结构域架构由N端的KN基序（KN_motif）和C端的多个Ankyrin重复序列（Ank/Ank_2, IPR002110）组成，中间区域含有KANK1-4保守结构域（IPR047184）。Ankyrin重复是已知的蛋白-蛋白相互作用模块，呈螺旋-转角-螺旋折叠，在KANK2中以串联重复形式形成延展的溶剂可及表面，能够同时招募多个结合伙伴。AlphaFold预测整体pLDDT仅60.1，提示该蛋白含有大量内在无序区域（IDR），这些IDR可能通过液-液相分离（LLPS）形成生物分子凝聚体，从而在胞质和核质之间动态分配。
+
+KANK2的功能核心在于其双重定位的转录调控机制（PMID:17476305）。在胞质中，KANK2通过KN基序和Ankyrin重复捕获核受体共激活因子NCOA1（SRC-1）、NCOA2（GRIP1）和NCOA3（AIB1），将其扣押在胞质中从而阻止它们入核激活靶基因转录。这一"胞质扣押"（cytoplasmic sequestration）机制为KANK2提供了间接但高效的转录负调控能力。PPI网络（BioGRID degree=281）证实了与NCOA1/2/3的高置信度互作（评分=1）。
+
+KANK2还参与调控caspase非依赖的凋亡程序（PMID:22371500）。它通过在线粒体中扣押促凋亡因子AIFM1来抑制凋亡；在促凋亡刺激下，KANK2经蛋白酶体降解后释放AIFM1，后者转位至核内诱导染色质凝集和DNA断裂。这揭示了KANK2作为"凋亡闸门"的分子开关角色。与CSNK2A1（酪蛋白激酶2）和EIF4E（翻译起始因子）的互作暗示其也在翻译调控层面发挥作用。
+
+鉴于KANK2通过扣押转录共激活因子来间接抑制核内转录活动，其对TE调控的潜在影响在于：若KANK2降解或被竞争性结合伙伴释放，NCOA1/2/3即可入核激活核受体靶基因及可能的下游TE位点。维生素D受体信号通路的负调控功能进一步扩展了其转录调控网络。未来研究应关注：是否有TE来源的启动子或增强子受KANK2-NCOA轴调控；KANK2在特定应激条件下是否发生液-液相分离以调节其扣押活性；PMID:38253280提示的E2F1/TFAP2C/NRF1转录调控KANK2的机制是否在TE去抑制中发挥作用。pLDDT=60.1的低置信区域可能正是介导LLPS和多功能接头的关键无序区。
 

@@ -79,6 +79,11 @@ Nuclear protein
 | RUVBL2 | BioGRID | 0 |
 
 
+
+### 深度机制分析
+
+DYNC2H1（Cytoplasmic dynein 2 heavy chain 1，4307 aa）是纤毛内逆向运输（IFT）的分子马达，以ATP水解驱动货物沿微管从纤毛顶部向基体运输。结构域以AAA+ ATP酶（IPR003593, PF00004/AAA_6/AAA_7/AAA_8）为核心，构成六聚ATP酶环马达结构域。AF pLDDT=83.4，PDB=4，4307aa的巨大蛋白中AAA+环结构置信度较高。PPI（degree=116）包括DYNC2LI1（轻链中间链）、NONO（核RNA结合蛋白）和RUVBL2（AAA+ ATP酶/染色质重塑因子），NONO和RUVBL2的互作提示核功能关联。PubMed 80篇集中在纤毛病领域：42067505报道短肋胸廓发育不良的产前诊断，41876698系统分析骨骼纤毛病的临床和分子图谱。核质定位为Approved。在纤毛外，DYNC2H1可能通过其在细胞分裂后的核膜重建中运输核孔蛋白而获得核质分布。作为微管马达，其核内功能可能涉及染色体运动或核内货物运输。NONO和RUVBL2的互作暗示可能参与核内RNA加工或染色质重塑，但作为4307 aa巨型蛋白，其在纤毛之外的核功能尚待深入研究。
+
 ![PAE](https://alphafold.ebi.ac.uk/files/AF-Q8NCM8-F1-predicted_aligned_error_v6.png)
 
 ### HPA IF 图像

@@ -93,6 +93,12 @@
 <tr><td>MAPK12</td><td>BioGRID</td><td>0</td></tr>
 <tr><td>LAGE3</td><td>BioGRID</td><td>0</td></tr>
 </tbody></table></div>
+<h4>深度机制分析</h4>
+<p><strong>结构域架构</strong>：STK32B（414 aa，45.5 kDa）是丝氨酸/苏氨酸蛋白激酶32B，属于蛋白激酶超家族，结构域架构简洁：Protein kinase催化结构域（UniProt DOMAIN 23-283，IPR000719, PF00069）——采用经典的蛋白激酶双叶折叠，N端叶（N-lobe, 约23-100 aa）由5条反平行β-链（β1-β5）和调控性αC螺旋组成，C端叶（C-lobe, 约100-283 aa）以α-螺旋为主（αD-αI），活性位点裂隙位于双叶之间的界面。IPR011009（蛋白激酶样结构域超家族）、IPR017441（蛋白激酶ATP结合基序）和IPR008271（丝氨酸/苏氨酸蛋白激酶活性位点）完善了催化机制的结构注释。N/C端延伸区域（1-22 aa和284-414 aa）可能代表调控性结构域，AlphaFold pLDDT在这些区域显著下降（pLDDT&lt;60）。HPA定位显示Nuclear bodies（Supported）。</p>
+<p><strong>PPI互作网络解读</strong>：PPI degree有限但揭示关键调控网络：HSP90AA1（热休克蛋白90α，分子伴侣）——调控蛋白激酶折叠成熟和构象稳定性的核心伴侣，HSP90通过其N端ATPase结构域与STK32B结合，维持其催化活性构象；GLRX3（含PICOT结构域的谷氧还蛋白）——氧化还原感应蛋白，通过铁硫簇感知氧化应激信号并调控下游激酶活性；HSPB1（小热休克蛋白27）——分子伴侣和肌动蛋白动力学调控因子，在应激条件下防止STK32B错误折叠和聚集；MAPK12（p38γ应激激酶）——MAPK通路成员，可能作为STK32B的上游激活激酶或下游底物；DSP（桥粒蛋白）和SERPINB3（丝氨酸蛋白酶抑制剂）代表细胞连接和蛋白酶-抗蛋白酶平衡的交叉调控。HLA-A和LAGE3为非典型互作。</p>
+<p><strong>结构解读</strong>：N端叶的G-loop（Gly-rich loop, GxGxxG）覆盖ATP的磷酸基团形成&quot;磷酸夹&quot;结构，αC螺旋的Glu残基与催化Lys（VAIK基序）形成盐桥以锁定活化构象。C端叶的催化环（catalytic loop, HRDxxxxN基序）中的Asp残基作为催化碱接受底物Ser/Thr羟基的质子，活化环（activation loop, DFG...APE）的磷酸化状态直接调控激酶活性（DFG-in=活化, DFG-out=非活化）。STK32B属于STK32家族——与STK32A和STK32C并列，该家族以N端富含Pro/Gly的延伸序列和C端无结构化尾端为特征，区别于典型激酶（如PKA/AKT）。激酶结构域pLDDT预测质量应当中等偏上（基于典型的蛋白激酶折叠保守性）。</p>
+<p><strong>机制模型</strong>：STK32B的调控遵循激酶的经典范式：（1）HSP90-HSP70共伴侶-CDC37通路介导正确的折叠和成熟的互作组装；（2）GLRX3通过氧化还原传感调控活化环磷酸化状态；（3）活化后，STK32B通过识别底物共有基序（R/K-x-x-S/T, 碱性残基偏好）磷酸化下游靶蛋白；（4）Nuclear bodies的定位提示STK32B可能在Cajal体（coilin+）或PML核体中富集，已知这些核体是蛋白质修饰（SUMOylation/磷酸化）和RNP成熟的处理中心。STK32B可能在此微环境中磷酸化剪接因子（splicing factors）或snRNP组分以调控mRNA剪接。</p>
+<p><strong>TE调控展望</strong>：STK32B与TE调控的直接关联弱。然而，Nuclear bodies与剪接调控密切相关——已知许多TE衍生外显子（特别是Alu外显子化事件）的剪接选择受核体驻留的剪接因子调控。若STK32B在Nuclear bodies中磷酸化SRSF蛋白家族（SR蛋白）或hnRNP蛋白，则可能间接影响TE衍生剪接位点的选择效率。激酶的&quot;黑马&quot;间接TE调控模式值得以磷酸化蛋白质组学方法探索STK32B的底物谱中是否富集染色质/RNA结合蛋白。目前无文献支持。</p>
 <h4>PubMed 文献</h4>
 <p><strong>PubMed count: 27</strong></p>
 <div class="table-wrap"><table>

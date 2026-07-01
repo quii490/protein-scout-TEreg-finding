@@ -72,6 +72,11 @@ Nuclear protein
 | ZDHHC17 | BioGRID | 0 |
 
 
+
+### 深度机制分析
+
+SPRED3（Sprouty-related, EVH1 domain-containing protein 3，410 aa）是Sprouty/SPRED家族的MAPK信号通路的负调控因子。结构域组合为EVH1（WH1）结构域（IPR000697, PF00568）、Sprouty/KBD结构域（IPR007875, PF05210）和PH样超家族（IPR011993）。EVH1识别富含脯氨酸的基序，Sprouty结构域介导膜定位和Cbl E3连接酶互作。AF pLDDT=65.2。PPI度仅为1（ZDHHC17，S-棕榈酰转移酶），但这种单一互作极有意义——ZDHHC17负责SPRED蛋白的S-棕榈酰化修饰（PMID:36442513），该修饰调控其膜定位。关键文献40806788报道SPRED3缺失导致原发性甲减并改变甲状腺ATG5/p62自噬调节因子表达，39227612揭示SPRED3通过NF-kB信号通路调控甲状腺癌并促进增殖。核质定位为Approved。SPRED3作为MAPK/ERK通路的抑制因子（抑制FGF诱导的ERK1/2磷酸化），其核质分布可能代表其功能的动态调控：膜定位时结合Ras/ERK抑制膜近端信号，核定位时可能通过不同于膜支架的机制抑制核内ERK底物（如ELK1、c-Fos等转录因子）。TE调控方面，MAPK/ERK通路激活众多TE来源的增强子RNA和反转录转座子，SPRED3通过抑制ERK活性可能间接下调TE驱动的异常转录。
+
 ![PAE](https://alphafold.ebi.ac.uk/files/AF-Q2MJR0-F1-predicted_aligned_error_v6.png)
 
 ### HPA IF 图像

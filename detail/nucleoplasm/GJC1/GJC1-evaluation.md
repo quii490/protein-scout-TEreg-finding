@@ -170,6 +170,19 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 
 
+### 深度机制分析
+
+**结构域架构**：GJC1（396 aa, 45.5 kDa, P36383, Gap junction gamma-1 protein/Connexin-45/Connexin-46.6, 别名GJA7）是connexin（间隙连接蛋白）家族成员。Connexin的标准拓扑为4次跨膜蛋白（4-TM: TM1-胞外loop1-TM2-胞内loop-TM3-胞外loop2-TM4），N端和C端均为胞质。结构域注释：Connexin domain（IPR000500, Pfam PF00029）——保守的connexin signature motif（约198 aa），涵盖四个TM段和两个胞外loop——每个胞外loop含3个conserved Cys residues形成intramolecular disulfide bond（C1-C3, C2-C2 cross-loop stabilization）——赋予胞外loop特定的3D构象以识别相邻细胞的connexin——两个相邻细胞的connexons（半通道, hexamer of connexin）在细胞间隙docking形成完整的gap junction channel（dodecamer）。Connexin_C domain（IPR019570）为C端胞质尾——Cx45的C-terminal tail（CT）约150 aa——是connexin家族中CT最长的之一——富含Ser/Thr phosphorylation sites（PKA, PKC, CK1, MAPK, CaMKII consensus sites）和SH3/SH2 binding motifs（PxxP, pYxxP）。AlphaFold pLDDT=69.4, PDB=1（3SHW, Cx26 gap junction channel的晶体结构作为同源模板），TM区域pLDDT>80但CT区pLDDT极低（<40）——CT是完全无序的IDR。
+
+**PPI互作网络解读**：PPI网络（STRING 15 partners）高度富集connexin家族成员——GJA1（Cx43, STRING 0.993）、GJA5（Cx40, STRING 0.991）、GJA4（Cx37, STRING 0.896）——这些connexin可形成heteromeric connexon（由不同connexin亚型混合组成的6-mer半通道）——Cx45与Cx43/Cx40/Cx37的heteromeric assembly调控gap junction的通道特性（unitary conductance, voltage gating, permeability to second messengers如Ca2+, IP3, cAMP, cGMP）。TJP1（ZO-1, Tight junction protein 1, STRING 0.898）是MAGUK family scaffold——通过其PDZ domain结合Cx45 CT的C末端PDZ-binding motif（最后4个氨基酸残基: -D/ExI/LSV-COOH）——将connexon锚定在紧密连接和gap junction plaque的边界。HCN4（hyperpolarization-activated cyclic nucleotide-gated channel 4, STRING 0.827）为心脏起搏（pacemaker, If/"funny" current）通道——Cx45-HCN4共定位提示两者在cardiac conduction system（SA node, AV node）中的功能耦合——gap junction的电耦合和If pacemaker电流协同调控心脏节律。IntAct: Gja1（Cx43, PMID:18055446），Cnst（Consortin, gap junction regulator, PMID:19864490）——Cnst是connexin trafficking and plaque assembly的正向调控因子。
+
+**结构解读**：Cx45的gap junction channel（12-mer, ~1.5 MDa）是一个4.5 nm长的圆柱形孔道——直径约1.2 nm（可通透up to ~1 kDa分子）。每个connexin subunit贡献一个TM domain（4-TM bundle）至通道壁——TM1和TM3的极性残基（Ser/Thr/Asn）朝向孔道内侧形成亲水性内壁——决定通道的离子选择性和分子通透性。两个相邻细胞的connexon（各6-mer）经胞外loop的disulfide bond配对和3D docking完成gap junction的fully assembled state。CT IDR在通道内壁形成"entropic gate"——在低pH或高Ca2+条件下CT折叠关闭通道（"ball-and-chain" gating model）——PKC/CaMKII/PKA的CT磷酸化调节通道开闭动力学和分子通透性。
+
+**机制模型**：（1）Cardiac conduction——Cx45在sinoatrial node（SA node, 窦房结, 心脏起搏点）和atrioventricular node（AV node, 房室结, 冲动传导延迟）以及cardiac conduction system（His bundle, Purkinje fibers）中高度表达——Cx45 gap junction低unitary conductance（~30 pS, Cx43为~100 pS）和voltage-sensitive closure实现了SA node→atrium的缓慢传导（保护ventricle免受atrial tachyarrhythmia的影响）。PMID:42368294——进行性心脏传导疾病与GJC1的关联。（2）内皮和血管功能——Cx45在endothelial cell表达的gap junction允许EC之间cAMP/cGMP/IP3/Ca2+ exchange——协调vasodilation（EDHF/endothelium-derived hyperpolarization factor signaling）和angiogenesis。Cx45与Cx37/Cx40/Cx43在特定血管床的差异性表达构成"connexin code"——确定血管段的电导和通透性。（3）淋巴管瓣膜功能（PMID:40720769）——Cx37, Cx47, Cx43, Cx45在淋巴管内皮细胞中的层次性（hierarchical）需求——维持淋巴管瓣膜形成和功能——Cx45可能作为"gatekeeper"限制淋巴返流。
+
+**TE调控展望**：GJC1的TE调控关联主要通过gap junction信号和核质定位。Gap junction允许IP3和Ca2+在细胞间直接diffuse——这一机制在组织范围内协调基因表达——Ca2+ waves可传递至核内→激活CaM kinase IV→CREB phosphorylation→CREB-dependent TE transcription。核质定位（HPA Nucleoplasm extra）说明Cx45 CT可能在特定条件下经proteolytic cleavage释放→进入核内——CT IDR可能作为transcriptional co-factor结合转录因子——许多connexin（Cx43 CT最为经典）的C-tail cleavage产物已知进入核内调控基因表达（如Cx43 CT-20kDa fragment抑制细胞增殖）。Cx45 CT可能以类似方式参与细胞周期和分化基因的转录调控——间接影响TE区域的chromatin state。Connexin gap junction的分子通透性对维持组织内代谢稳态 essential——氧化应激和DNA damage可导致TE activation——Cx45 gap junction coupling damage may cause local accumulation of DNA damage→TE de-repression。
+
+
 ### PPI 互作网络
 
 | 互作伙伴 | 来源 | 评分 |
@@ -187,6 +200,7 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 ### TE 调控评估
 
 该蛋白具有核定位证据，可能间接参与 TE 调控。需实验验证。
+
 
 ### HPA IF 图像
 

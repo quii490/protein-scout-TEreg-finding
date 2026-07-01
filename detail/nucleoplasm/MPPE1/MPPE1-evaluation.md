@@ -230,3 +230,11 @@ Source: https://www.proteinatlas.org/ENSG00000154889-MPPE1/interaction
 |---|---|:--:|
 | ZNF426 | Intact | false |
 <!-- DOMAIN_HUMANPPI_REPAIR_END -->
+
+### 深度机制分析
+
+MPPE1编码一种金属磷酸酯酶（Metallophosphoesterase），其催化核心由Pfam PF00149（Calcineurin-like phosphoesterase）结构域构成，归属于InterPro IPR004843超家族。该酶采用双金属离子催化机制，其活性位点可结合Zn2+或Mn2+，负责磷酸酯键的水解。AlphaFold v6预测的整体结构质量极高（pLDDT=89.7，79.3%残基置信度>90），87.4%的序列处于有序折叠状态，表明MPPE1在生理条件下维持稳定的三维构象。PAE图显示各结构域之间存在清晰的互作界面，支持该蛋白作为独立折叠单元的功能完整性。
+
+PPI网络分析揭示MPPE1定位在ER-Golgi中间区室膜上（GO:0033116），并与多个膜蛋白转运/加工因子互作。IntAct实验互作数据显示ADAM10（金属蛋白酶）、PLXNB2/PLXNA2（Plexin信号受体）、EXTL3（硫酸乙酰肝素共聚合酶）、GPC4（GPI锚定蛋白聚糖）、HSPA5/BiP（ER伴侣蛋白）和CANX（Calnexin折叠质检）均为MPPE1的CoIP阳性伴侣，均出自同一大规模膜蛋白互作筛查（PMID:28514442）。这些互作集中于ER-高尔基体蛋白质糖基化和膜蛋白质量控制系统。STRING预测互作CDC27（APC/C复合物亚基，combined score=0.962）、BATF3（转录因子，0.866）和PSMB5（蛋白酶体亚基，0.727）提示MPPE1可能通过蛋白降解通路间接参与细胞周期调控与转录程序。
+
+GPI锚定蛋白（GPI-AP）脂质重塑通路中MPPE1（又名PGAP5）的已知功能最为关键——该蛋白参与GPI锚的脂肪酸去酰基化步骤。GPI锚定蛋白包括许多信号受体、黏附分子和酶原，其成熟缺陷可导致广泛的细胞功能障碍。SUN1（SUN-domain蛋白，LINC复合物核心组分）同样出现在IntAct互作列表（PMID:28514442）中，暗示MPPE1或许通过GPI锚脂质加工间接影响核骨架-细胞骨架机械偶联（LINC complex）。PMID:35876425报道MED27、SLC6A7和MPPE1变异导致严重肌张力障碍的复杂神经发育障碍；PMID:19859903发现MPPE1多态性与双相情感障碍存在关联；PMID:33054568鉴定MPPE1为肝细胞癌恶性进展的新型候选基因。鉴于其核质定位和与蛋白酶体亚基PSMB5的预测互作，MPPE1可能在核内蛋白质量控制中扮演未被认知的角色。

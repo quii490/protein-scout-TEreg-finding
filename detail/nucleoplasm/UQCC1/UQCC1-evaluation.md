@@ -76,6 +76,19 @@ Nuclear protein
 | OXLD1 | BioGRID | 0 |
 
 
+### 深度机制分析
+
+**结构域架构**：UQCC1（299 aa，34.6 kDa）含有Ubiq_cyt_c_chap（PF03981，IPR021150）和Ubiqinol_cyt_c_chaperone_CPB3（IPR007129）两个保守结构域，属于线粒体呼吸链复合体III（cytochrome b-c1 complex）的组装因子家族。这些结构域的功能是在复合体III组装过程中协助细胞色素b（COB）的翻译与稳定性维持，其核心作用场所是线粒体内膜而非核质，但HPA免疫荧光在Actin filaments、Nucleoplasm、Plasma membrane三处均检出Approved级别的信号。
+
+**PPI互作网络解读**：UQCC1的PPI degree为110，互作伙伴中最为明确的是UQCC2（BioGRID），二者形成稳定的UQCC1-UQCC2异源二聚体，共同参与复合体III的早期组装步骤（PMID:24385928）。此外与BRCA2、COX20、ECHDC2等蛋白的互作提示UQCC1可能通过蛋白质-蛋白质相互作用界面被牵引至核周区域。BRCA2作为核定位蛋白参与DNA修复，与UQCC1的BioGRID互作虽评分较低但仍具提示意义——可能通过"piggyback"机制实现部分核定位，即UQCC1并非自身具备NLS序列，而是通过结合核定位蛋白被动态带入核质。
+
+**结构解读**：AlphaFold预测pLDDT=74.4，整体结构置信度中等偏低。Ubiq_cyt_C_chap结构域（PF03981）主要形成α-螺旋束状折叠，缺乏经典的DNA结合模块（如锌指、螺旋-转角-螺旋或碱性亮氨酸拉链）。这意味着UQCC1在核质中的功能不太可能是直接结合DNA或染色质，而更倾向于通过蛋白-蛋白互作界面在RNA加工、转录后调控或线粒体逆行信号传导中扮演适配器（adaptor）角色。
+
+**机制模型**：UQCC1的核质定位可用"兼职蛋白"（moonlighting protein）假说解释：（1）线粒体应激条件下，UQCC1可能作为逆行信号分子从线粒体释放至胞质再转运至核质，参与线粒体未折叠蛋白反应（UPR^mt）的核基因表达调控；（2）UQCC1可能通过与BRCA2等DNA修复因子的互作，间接影响基因组稳定性相关转录程序。GWAS研究（PMID:39825753, PMID:39135799）将UQCC1与肌肉减少症和线粒体功能障碍关联，支持其通过核质功能影响代谢性疾病的假说。
+
+**TE调控展望**：UQCC1缺乏经典的染色质/TE沉默结构域（KRAB、SET、PHD、chromodomain等），TE调控潜力极低。但其在核质中的出现提示线粒体-核信号交流的新维度：线粒体组装因子如何在特定条件下进入核质并影响基因表达，可能代表一类未被充分认识的核质蛋白功能模式。若未来ChIP-seq或CUT&RUN实验发现UQCC1在特定基因组区域（如代谢基因启动子、TE邻近区域）有富集信号，可重新评估其直接转录调控功能。
+
+
 ![PAE](https://alphafold.ebi.ac.uk/files/AF-Q9NVA1-F1-predicted_aligned_error_v6.png)
 
 ### HPA IF 图像

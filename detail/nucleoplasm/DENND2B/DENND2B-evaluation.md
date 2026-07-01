@@ -38,6 +38,18 @@ status: shortlisted
 Nuclear protein
 
 
+
+
+### 深度机制分析
+
+DENND2B（核蛋白评估报告）。定位于nucleoplasm。包含1137 aa / 126.5 kDa。UniProt编号P78524。其InterPro结构域组成为IPR001194、IPR005112、IPR043153、IPR051942、IPR037516、IPR005113。AlphaFold预测三维结构pLDDT=58.0（中等置信度）。
+
+从功能机制角度，该蛋白的已知功能为May be involved in cytoskeletal organization and tumorogenicity. Seems to be involved in a signaling transduction pathway leading to activation of MAPK1/ERK2. Plays a role in EGFR trafficking from recycling endosomes back to the cell membrane (PubMed:29030480)，PPI网络分析显示其与RAB13(738)、SDCBP(783)、HTN3(876)等高置信度互作伙伴存在相互作用，此外还与MMP11、CD82、RAB35、RAB9B等存在实验验证的低置信度互作。
+
+从结构生物学角度，该蛋白预测结构置信度较低（pLDDT=58.0），暗示其可能存在大量内在无序区域或灵活的铰链区，在TE调控的背景下，DENND2B的nucleoplasm定位使其具备接触转座子元件的空间可能性。
+
+从研究转化角度，PubMed中仅有11篇相关文献报道，研究新颖度高，相关文献证据包括PMID:42235154、42181237、40717498，综合评分67.8/100，属于中等优先级，建议在更大规模的筛选中进一步验证。
+
 ### 补充分析 (UniProt API)
 
 **蛋白全称**: DENN domain-containing protein 2B

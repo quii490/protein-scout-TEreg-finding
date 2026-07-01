@@ -98,3 +98,18 @@ HPA: https://www.proteinatlas.org/ENSG00000164076-CAMKV
 
 HPA 检索: https://www.proteinatlas.org/search/CAMKV
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| TCEA2 | physical | Stelzl U (2005) |
+| COPS5 | physical | Bennett EJ (2010) |
+| APP | physical | Olah J (2011) |
+| HSP90AA1 | physical | Taipale M (2012) |
+| ARMC1 | physical | Huttlin EL (2015) |
+| HAX1 | physical | Huttlin EL (2015) |
+| NUFIP1 | physical | Huttlin EL (2015) |
+| DGUOK | physical | Huttlin EL (2015) |
+| DNAAF2 | physical | Huttlin EL (2015) |
+| UBTF | physical | Huttlin EL (2017) |
+

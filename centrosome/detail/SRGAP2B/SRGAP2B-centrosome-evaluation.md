@@ -93,6 +93,14 @@ PAE 图像暂无数据（未生成本地图片或未可靠获取），结构判�
 
 ⚠️ *此为自动生成初步评估。UniProt/GO-CC、PDB/结构域、IntAct/BioGRID、关键文献等维度需人工补充完善。*
 
+### 深度机制分析
+
+SRGAP2B（paralog, P0DMP2, 评分73/100）是SRGAP2的人类特异性旁系同源基因，产生于约100万年前的基因复制事件。其结构域包含F-BAR（FCH）膜曲率感应/产生结构域（IPR027267/FCH_dom）和AH/BAR_dom_sf（IPR027267），但缺失全长SRGAP2的RhoGAP催化结构域和C端SH3域。这种截短保留了F-BAR介导的膜定位能力，但失去了Cdc42/Rac1的GTPase激活功能，使其作为SRGAP2的天然显性负调控（dominant-negative）变体。
+
+SRGAP2B的STRING互作网络以FAM72C（Combined Score=0.999）为主，WAS（Wiskott-Aldrich综合征蛋白, 0.919）、SRGAP2C（0.720）等构成辅助互作。WAS作为Arp2/3介导的肌动蛋白分支聚合的核心激活因子，与FAM72蛋白家族共同参与中心体/基体处的微管-肌动蛋白交互调控。
+
+从TE调控角度，SRGAP2B因其中心体/基体定位和与染色质/转录调控缺乏直接互作证据，TE调控潜力薄弱。PubMed仅7篇（极低研究量），表明该蛋白的独立功能远未被充分定义——其大多数细胞功能是通过与SRGAP2竞争性结合F-BAR配体而间接执行。人类特异旁系同源基因在进化上可能与脑皮层扩展相关，但对TE元件的直接调控能力尚无任何支持证据。从蛋白质量角度，Pfam:FCH结构域的一级保守性良好，但AlphaFold预测的跨域连接区域pLDDT可能较低。
+
 ## 9. 人工复核备注
 
 - HPA 来源: 中心体

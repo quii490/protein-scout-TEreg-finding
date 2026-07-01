@@ -43,6 +43,19 @@ status: shortlisted
 Nuclear protein
 
 
+### 深度机制分析
+
+**逆转座子衍生蛋白的病毒样结构域与TE同源关系**：MOAP1（Modulator of apoptosis 1, 351 aa, UniProt Q96BY2）携带PNMA（Paraneoplastic Ma antigen）结构域家族（InterPro: PNMA IPR026523, PNMA_C IPR048270, PNMA_N IPR048271; Pfam: PNMA PF14893, PNMA_N PF20846），这一结构域架构值得格外关注。PNMA家族蛋白被证实由逆转录病毒/逆转座子gag基因驯化而来，在人类中作为凋亡调控因子被"分子驯化"。PMID:34357660明确指出MOAP1和同家族蛋白PEG10均源自逆转录病毒/逆转座子Gag多蛋白的衣壳结构域——这使MOAP1成为本批次中与TE进化关系最密切的蛋白。
+
+**病毒样衣壳组装与核内"陷阱"假说**：MOAP1的功能注释明确指出该蛋白能够形成"病毒样衣壳"（virion-like capsids），这与逆转座子Gag蛋白的古老功能直接呼应。在凋亡期间，MOAP1富集于线粒体外膜并与BAX结合，促进线粒体外膜通透化和细胞色素c释放（PMIDs:11060313, 16199525）。然而，其核质定位（Nucleoplasm Approved, 核定位特异性9/10）暗示存在非凋亡核内功能。一个富有吸引力的假说是：MOAP1在核内通过其Gag衍生衣壳域识别并包裹TE RNA/RNP颗粒，将TE逆转座中间体隔离至"不活化"状态，从而抑制TE扩增。这种"分子驯化-反向抑制"模式在果蝇中已有先例——驯化的gypsy元件Env蛋白限制同源逆转录病毒的感染。
+
+**PPI网络中的染色质与RNA加工线索**：PPI degree=44（BioGRID/STRING），其中RASSF1（STRING score=912）和THOC1（STRING score=783）是两个关键互作节点。RASSF1的激活促进BAX构象变化和线粒体易位；THOC1是TREX mRNA出核复合物的核心组分，直接参与mRNA核质运输。此外，PNMA1（STRING score=797）和DPPA2（BioGRID score=1）支持了PNMA家族成员之间的互作网络。MOAP1-MOAP1自身互作（BioGRID score=1）与Gag衣壳蛋白的自我组装能力一致，是形成病毒样衣壳的结构基础。
+
+**结构特性与TRE调控机制**：AlphaFold pLDDT=78.0的中等置信度结构（PDB=1存在部分晶体结构）提示PNMA域采用β-桶状折叠，与逆转录病毒衣壳蛋白的CA域结构相似。若MOAP1在核内通过衣壳化机制形成大型超分子组装体（如核内包涵体），可能物理性隔离TE转录物或逆转座中间体。然而，目前缺乏任何TE调控相关的直接实验证据，且PubMed=54的文献全部集中于凋亡和线粒体生物学。归一化得分68.9/100中核定位特异性36/40是新奇性（35/50）之外的最大贡献者。
+
+**高优先级候选的理由与风险**：MOAP1经TE驯化起源、病毒样衣壳组装能力、核质双定位（Cell Junctions; Nucleoplasm Approved）使其成为独特的TE调控候选。主要风险为：所有已知功能均为胞质/线粒体凋亡功能，核内功能完全未知。实验验证路径：首选MOAP1 ChIP-seq检查染色质结合位点，结合RNA-IP检查其是否与TE衍生转录物互作。
+
+
 ### 补充分析 (UniProt API)
 
 **蛋白全称**: Modulator of apoptosis 1
@@ -76,19 +89,3 @@ Nuclear protein
 | CCDC85B | BioGRID | 1 |
 | MOAP1 | BioGRID | 1 |
 | BAX | BioGRID | 1 |
-
-
-![PAE](https://alphafold.ebi.ac.uk/files/AF-Q96BY2-F1-predicted_aligned_error_v6.png)
-
-### PubMed 文献
-
-**PubMed count: 76**
-
-| 41874166 | Establishment of a Sensitized 3D Spheroid Cancer Cell Model for Enhanced Anti-Cancer Drug Discovery. | Methods Protoc 2026 |
-| 40945664 | Prenatal BPB/BPAF exposure induces depression-like behavior in male mice offspring via compound-specific transcriptional | Neurotoxicology 2025 |
-| 40929959 | PNMA4 enhances anti-RNA virus immunity by promoting RIG-I signaling pathway. | Int Immunopharmacol 2025 |
-
-### HPA IF 图像
-
-HPA 检索: https://www.proteinatlas.org/search/MOAP1
-

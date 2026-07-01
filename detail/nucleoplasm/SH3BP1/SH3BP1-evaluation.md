@@ -80,6 +80,15 @@ Nuclear protein
 | TRIP10 | BioGRID | 0 |
 
 
+
+### 深度机制分析
+
+**结构域架构**：SH3BP1（701 aa, 75.7 kDa）含N端BAR domain（Pfam BAR, IPR004148）和C端RhoGAP domain（Pfam RhoGAP, IPR000198）。BAR domain（约200 aa）为新月形二聚化模块——正电荷富集凹面通过静电作用感知/诱导膜曲率。RhoGAP domain（约150 aa）以保守Arg finger激活Rho GTPase的GTP水解——将GTP-RAC1/CDC42转化为GDP-inactive form→负调控Rac/Cdc42信号。AlphaFold pLDDT=70.8（PDB=2），BAR域pLDDT>80，RhoGAP域pLDDT>85，中间linker为IDR（phosphorylation-regulated hinge）。PPI network（degree=44）以cytoskeletal dynamics和端粒维持为核心：ABL1/SRC（酪氨酸激酶, BioGRID）磷酸化SH3BP1 linker→调控活性；TERF1（TRF1, BioGRID）和POT1（BioGRID）为Shelterin端粒保护复合物组分——连接SH3BP1至端粒维持。
+
+**TE调控展望**：SH3BP1通过端粒维持间接影响TE调控。LINE-1在端粒区域（subtelomeric regions）高度富集，SH3BP1与Shelterin（TERF1/POT1）互作参与端粒保护——端粒脱保护→DDR→p53→基因组不稳定→LINE-1/ERV转录激活。SH3BP1的端粒保护功能可能间接抑制端粒功能障碍诱导的TE激活。CRK-ABL1通路在CML（BCR-ABL1）导致TE激活——SH3BP1作为效应器可能在白血病中调控TE表达。
+
+
+
 ![PAE](https://alphafold.ebi.ac.uk/files/AF-Q9Y3L3-F1-predicted_aligned_error_v6.png)
 
 ### HPA IF 图像

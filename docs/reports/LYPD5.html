@@ -68,6 +68,12 @@
 <tr><td>C14orf1</td><td>BioGRID</td><td>0</td></tr>
 <tr><td>IFITM3</td><td>BioGRID</td><td>0</td></tr>
 </tbody></table></div>
+<h4>深度机制分析</h4>
+<p><strong>结构域架构</strong>：LYPD5（251 aa，26.9 kDa）属于Ly6/urokinase-type plasminogen activator receptor（uPAR）蛋白超家族，含有标志性的LU结构域（LY6_UPA_recep-like，IPR045860）和CD59抗原保守序列（CD59_antigen_CS，IPR018363）。LU结构域采用三指毒素折叠（Snake_toxin-like_sf，IPR016054）——以高度保守的二硫键网络（8-10个Cys残基）稳定3个β-发夹环从中央疏水核心向外延伸，形成刚性的蛋白-蛋白互作界面。C端含GPI锚定信号，将LYPD5锚定于细胞膜外叶。Pfam注释为UPAR_LY6（PF00021），与尿激酶受体同源。</p>
+<p><strong>PPI互作网络解读</strong>：PPI degree仅14，且所有互作评分均为0（BioGRID低通量筛选）。互作伙伴包括CLSTN1（Calsyntenin-1，突触后膜货物转运受体）、TSPO（线粒体外膜转位蛋白18kDa）、IFITM3（干扰素诱导跨膜抗病毒蛋白3）和BET1（ER-Golgi SNARE蛋白）。这些互作的生物学相关性存疑——GPI锚定蛋白的互作瞬时性强（低亲和力细胞外互作），在酵母双杂交（BioGRID主要数据来源）中难以真实捕获。PPI度低与GPI锚定蛋白的生化特性一致。</p>
+<p><strong>结构解读</strong>：AlphaFold pLDDT=84.0，LU结构域核心区域预测质量良好（pLDDT &gt;90）。三指拓扑结构由N端α-螺旋和C端延伸区约束5条反平行β-链形成疏水核心，三个延伸环（Loop1-3）暴露于溶剂，构成潜在的配体结合表面。GPI锚定位点（ω位点）的预测在AlphaFold中未被建模（IDR区域）。值得注意的是，Pfam PF00021（UPAR_LY6）结构域对应uPAR的多配体结合面——在人uPAR中该结构域同时结合尿激酶（uPA）、玻连蛋白和整合素，但LYPD5是否保留这一多功能结合面需实验验证。</p>
+<p><strong>机制模型</strong>：LYPD5/Haldisin最初被鉴定为角质形成细胞终末分化标志物（PMID:23896969），定位于表皮颗粒层（stratum granulosum）。作为GPI锚定细胞表面蛋白，LYPD5的功能机制可能包括：（1）顺式调控相邻跨膜信号受体（如整合素或生长因子受体）的活性——这是uPAR家族成员的经典功能模式；（2）作为可溶性配体的诱饵受体，经GPI锚定磷脂酶（如GPI-PLD）切割后释放至细胞外间质；（3）参与角质形成细胞间粘附和分层。其在核质中的HPA阳性信号极可能是ER/Golgi运输途中沿核膜的GPI锚定蛋白转运中间体造成的免疫荧光假象——GPI锚定蛋白在ER腔面合成后经COPII囊泡→Golgi→细胞膜的路径不涉及核质分布。</p>
+<p><strong>TE调控展望</strong>：LYPD5的TE调控潜力为0。GPI锚定的拓扑限制使其永远无法接触染色质或核内调控因子。其在鳞状细胞分化和角质形成细胞生物学中的角色局限于细胞表面信号传导——与TE沉默机制无任何已知交叉。</p>
 <p><figure><img src="https://alphafold.ebi.ac.uk/files/AF-Q6UWN5-F1-predicted_aligned_error_v6.png" alt="PAE"></figure></p>
 <h4>HPA IF 图像</h4>
 <p>HPA: https://www.proteinatlas.org/ENSG00000159871-LYPD5</p>

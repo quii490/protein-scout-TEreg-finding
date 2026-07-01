@@ -60,6 +60,12 @@ Involved in transport of proteins into the mitochondrion
 
 **TE 调控相关性**: 该蛋白缺乏明确的核/染色质定位证据，TE调控潜力极低，不建议作为优先靶标。
 
+### 深度机制分析
+
+**结构域架构**：MTX2（Metaxin-2, 263 aa, 28.9 kDa, O75431）是线粒体外膜蛋白转运受体复合物（SAM/TOB complex）的cytosolic-facing subunit。结构域包含GSH-rich domain（IPR019564, Pfam PF17171）约100 aa的b-strand rich fold——在SAM complex中识别mitochondrial precursor proteins的b-signal。IPR033468（Metaxin-2 specific）和IPR036282（Glutathione S-transferase C-terminal domain-like superfamily）为GST fold——提示可能具有glutathione binding和redox-sensing功能。AlphaFold可用，ESMFold pLDDT=0.92（极高，75.3%残基>0.9，本批最佳ESM fold）——表明MTX2有极高的结构稳定性——几乎所有263个残基均折叠良好。PPI（degree有限）以线粒体和核蛋白为核心：CHCHD3（STRING score=984）为mitochondrial contact site and cristae organizing system（MICOS）组分——MTX2-CHCHD3互作暗示MTX2在mitochondria-ER contact junction和mtDNA nucleoid的组织角色。HNRNPR（BioGRID）和TADA2A（BioGRID）为核蛋白：HNRNPR为hnRNP R（RNA-binding protein, pre-mRNA processing），TADA2A为ADA2a-containing histone acetyltransferase complex（STAGA/ATAC）的亚基——连接至组蛋白乙酰化。MOV10（Moloney leukemia virus 10, BioGRID）是RNA helicase——也是LINE-1 retrotransposition的已知关键抑制因子——MOV10与APOBEC3和RNase L协同抑制LINE-1 ORF2。
+
+**TE调控展望**：MTX2的nuclear body/nucleolus定位（而非mitochondria）暗示其具有"moonlighting"核功能。HNRNPR通过pre-mRNA processing machinery可能与TE-embedded splice sites交互——调控TE外显子化（exonization）。TADA2A所在的STAGA HAT complex（含GCN5/PCAF, SPT3, TAFs）直接催化H3K9ac/H3K14ac——在TE启动子上，H3K9ac标记活跃LTR/ERV转录——MTX2-TADA2A互作可能招募HAT activity至TE LTR——激活ERV transcription——这可能是mt-nuclear stress retrograde signaling的一部分。MOV10是关键——MTX2-MOV10互作将MTX2直接连接至LINE-1 retrotransposition的抑制网络——MTX2可能作为"adaptor"将MOV10招募至mitochondria-associated membrane（MAM）——在MAM处处理潜在外泄的LINE-1 mRNA/RNP。USP10 deubiquitinates MTX2抑制cGAS-STING signaling（PMID 41705350, Circ Res 2026）——将MTX2定位于innate immune sensing of mtDNA and LINE-1 reverse transcripts的核心枢纽——cGAS-STING pathway在LINE-1 retrotransposition诱导的I型IFN response中是主要效应器——MTX2的USP10-dependent调控在TE-driven inflammation中可能是关键的checkpoint。PMID 42296340报道果蝇Myc减轻Metaxin-2缺陷引起的线粒体稳态缺陷（PNAS 2026），42180896报道Metaxins调控H1299肺癌干细胞样特性（Transl Cancer Res 2026）。
+
 ### 补充分析 (UniProt API)
 
 **蛋白全称**: Metaxin-2

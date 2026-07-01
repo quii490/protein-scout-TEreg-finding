@@ -80,6 +80,11 @@ Nuclear protein
 | APP | BioGRID | 0 |
 
 
+
+### 深度机制分析
+
+KIF3B（Kinesin-like protein KIF3B，747 aa）是异源三聚体kinesin-2的机动亚基，以ATP依赖方式沿微管正端运输货物。结构域包括Kinesin motor domain（IPR001752, PF00225）、Kinesin motor CS（IPR019821）和KIF3B特异的C端尾部区域，采用经典的P-loop NTP酶折叠。AF pLDDT=76.5，PDB=1。PPI网络（degree=63）涉及KIF3A（异源二聚体伙伴）、APP（淀粉样前体蛋白）、VHL（肿瘤抑制因子）、RAD21（cohesin组分）和NEDD4L（E3连接酶）。关键文献42329872报道miR-483-3p通过下调KIF3B抑制NSCLC肿瘤进展，42239121揭示kinesin-2自抑制的CC2和近端尾部结构域机制，41910726发现KIF3B/KAP3尾部特异性促进TRIM46向轴突起始段运输。核质定位为Approved。作为微管马达，KIF3B的核分布可能在有丝分裂后的核膜重建阶段发挥功能——核膜破裂时微管进入核区，且在间期可能存在核内微管网络。与cohesin组分RAD21的互作暗示KIF3B可能参与染色体分离或间期染色质组织。其核内运输功能可能是将核蛋白复合物沿核内肌动蛋白/微管丝运输至特定染色质区域，包括TE密集区。
+
 ![PAE](https://alphafold.ebi.ac.uk/files/AF-O15066-F1-predicted_aligned_error_v6.png)
 
 ### HPA IF 图像

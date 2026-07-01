@@ -43,6 +43,16 @@ status: shortlisted
 Nuclear protein
 
 
+### 深度机制分析
+
+PI4KA（Phosphatidylinositol 4-kinase alpha）是一个巨大的脂质激酶（2102 aa, 236.8 kDa），其多结构域架构如同一座分子机器。催化核心为PI3/PI4激酶结构域（Pfam PI3_PI4_kinase, InterPro IPR000403），负责将磷脂酰肌醇（PtdIns）磷酸化为PtdIns4P——这是肌醇磷脂信号系统的第一步关键反应。N端含有PI4K-N调控结构域（Pfam PI4K_N），中间包含ARM型折叠重复区（InterPro IPR016024）和PI3Ka螺旋结构域（Pfam PI3Ka）。AlphaFold2预测pLDDT=79.7（得分7/10），PDB有4个实验结构，但由于蛋白巨大，全长结构仍未解析。
+
+PI4KA的PPI网络是此批25个核蛋白中最为庞大的（degree=245，得分8/10），其STRING网络呈现出高度富集的磷脂酰肌醇信号互作簇。PIP5K1C（STRING=966）和PIP5K1B（STRING=958）是PtdIns4P的下游激酶，将PtdIns4P进一步磷酸化为PIP2。PIK3R1（STRING=924）和PIK3R2（STRING=925）是PI3K的调控亚基，暗示PI4KA和PI3K信号之间存在复杂的反馈和前馈调控。PTEN（STRING=916），经典的PIP3磷酸酶，也出现在互作网络中。OCRL（Lowe眼脑肾综合征蛋白，STRING=773）是一种PIP2 5-磷酸酶，其互作连接PI4KA与高尔基体和内体膜运输。
+
+PI4KA调控核内膜脂质环境的机制由其经典的质膜功能外推而来。PtdIns4P不仅是PIP2和PIP3的前体，其本身也是一个重要的信号脂质分子，通过募集含PH结构域或OSBP相关结构域的效应蛋白调控膜运输和信号转导。在核质Approved级别定位的背景下，PI4KA可能通过调控核内膜的PtdIns4P水平影响核内脂质信号和核膜动力学。最新研究（PMID:42258130）发现E-Syt1将PI4KA招募至内质网-质膜连接处增强PtdIns4P合成，类似机制可能存在于内核膜-核质界面。
+
+PI4KA的临床意义已被大量遗传学研究证实。PI4KA突变导致早发性小脑萎缩（PMID:38003592），影响转录和翻译过程（PMID:36341355）。棕榈酰化修饰将钙调磷酸酶靶向PI4KA（PMID:34663815），揭示了脂质信号和钙信号的交叉调控。59篇PubMed文献（得分7/10）的研究基础结合巨大的PPI网络，使PI4KA成为核内脂质调控研究中一个信息密集的中心节点。其巨大的分子量（236.8 kDa）需要主动核输入机制，目前在核质中PI4KA的入核信号和核内底物特异性仍完全未知。
+
 ### 补充分析 (UniProt API)
 
 **蛋白全称**: Phosphatidylinositol 4-kinase alpha

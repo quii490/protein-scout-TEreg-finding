@@ -174,6 +174,14 @@ HPA IF 图像已重新获取并嵌入（见下方 HPA IF 图像修正块）；�
 - [ ] 设计体外实验验证核定位及潜在调控功能
 - [ ] **该蛋白核定位证据不足（≤3/10），不建议作为核蛋白研究目标。**
 
+### 深度机制分析
+
+**结构域架构与功能基础**: SKA3（Spindle and kinetochore-associated protein 3, UniProt: Q8IX90, 412 aa / 46.4 kDa）是纺锤体与动粒关联复合体（SKA complex）的核心亚基之一。其结构域组成包括InterPro注释的IPR033341（SKA3 family），该保守结构域赋予SKA3与SKA1、SKA2形成异源三聚体的分子基础。AlphaFold预测的pLDDT平均值为63.8，有序区域（pLDDT>70）占比为36.2%，表明该蛋白存在较大比例的内在无序区域——这在其作为有丝分裂后期微管-动粒附着稳定因子的功能中可能发挥构象适应性作用。PDB条目4AJ5提供了实验结构验证，描述了SKA复合体的部分晶体结构。
+
+**蛋白质相互作用网络与调控角色**: SKA3的PPI网络高度集中于有丝分裂调控模块。STRING数据库中SKA3与SKA1（combined score=0.999, 实验分=0.985）和SKA2（combined score=0.999, 实验分=0.980）构成最强互作对，三者共同组装为功能性SKA复合体（GO Cellular Component: GO:0170027）。此外，SKA3还与NDC80（mitotic checkpoint复合体组分，combined score=0.943）、PLK1（有丝分裂主调控激酶，combined score=0.934）、BUB1B（纺锤体检查点激酶，combined score=0.976）等高置信度有丝分裂调控因子存在网络关联。IntAct实验验证互作伙伴共15条，涵盖SKA1、SKA2、PPP2R2B/D（蛋白磷酸酶2A调节亚基）等，支持其在磷酸化信号调控下组装微管结合界面的经典模型。
+
+**核外定位与TE调控的不相关性**: SKA3的主要亚细胞定位为细胞浆-细胞骨架-纺锤体、centrosome、kinetochore和outer kinetochore（UniProt与HPA一致），其核定位得分仅为2/10。作为严格的有丝分裂器相关蛋白，SKA3在原代功能上不具备直接参与核内染色质调控或TE沉默/激活的分子基础。尽管如此，SKA3的有丝分裂功能失调（如缺氧诱导的SKA3过表达，PMID:37821935）可能通过影响染色体分离保真度间接导致基因组不稳定性，从而在更宏观的层面影响TE元件的插入与扩增动力学。该蛋白的PubMed文献量（strict=68篇、broad=138篇）表明其已有较充分的研究基础，但在非小细胞肺癌（PMID:34533066）和胆管癌（PMID:37821935）中的促癌功能为后续研究提供了疾病关联性方向。综合评分44.7/100，因其核定位证据不足（REJECTED），不建议作为核TE调控的直接靶标。
+
 ### 5. 数据来源
 - UniProt: https://www.uniprot.org/uniprotkb/Q8IX90
 - Protein Atlas: https://www.proteinatlas.org/ENSG00000165480-SKA3/subcellular

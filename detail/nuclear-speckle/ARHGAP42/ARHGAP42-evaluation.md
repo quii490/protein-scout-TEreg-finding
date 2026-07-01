@@ -55,6 +55,16 @@ May influence blood pressure by functioning as a GTPase-activating protein for R
 
 无已知核定位注释
 
+### 深度机制分析
+
+ARHGAP42（Rho GTPase-activating protein 42）的结构域架构以RhoGAP催化模块与信号支架的多域整合为特征：N端RhoGAP催化结构域（IPR047234、IPR047225、IPR008936）通过保守的精氨酸指（arginine finger）加速Rho家族GTP酶（如RHOA、RAC1、CDC42）的GTP水解速率，将活性GTP-Rho转变为非活性GDP-Rho；PH结构域（IPR001849）负责磷酸肌醇依赖的膜靶向；BAR结构域（IPR027267、IPR004148）通过二聚化形成新月形膜弯曲诱导支架。IPR011993（PH-like domain superfamily）和IPR000198（RhoGAP family）进一步分类。
+
+874 aa（96.1 kDa）的大分子量在多域GAP家族中典型。AlphaFold预测结构可用。PPI数据显示与DENND2C（Rab GEF）、CRK（信号衔接蛋白）、DEK（染色质架构蛋白）、BTF3（转录因子）、NACA（转录共激活因子）、PABPN1（核poly(A)结合蛋白）、SLIRP（线粒体RNA结合蛋白）的互作。DEK和NACA的连接尤为值得注意——DEK是已知的染色质结构蛋白和转录调控因子，NACA参与新生多肽的共翻译靶向。
+
+TE调控相关性的机制推论基于核内肌动蛋白的调控角色：ARHGAP42通过抑制RHOA活性影响肌动蛋白骨架动力学，而核内肌动蛋白（nuclear actin）参与染色质重塑、转录延伸和DNA修复等多个核内过程。若ARHGAP42的BAR域使其在核膜凹陷处参与核内肌动蛋白组装调控，则其可能通过Rho信号通路间接影响：（1）SWI/SNF核小体重塑因子（含有actin和ARP作为核心组分）的活性；（2）RNA Pol II转录延伸复合物中的actin/ARP角色；（3）核膜周边异染色质（LADs）的锚定和TE沉默状态。DEK的互作进一步暗示可能参与染色质构象调控。
+
+无GO-CC核定位注释（核定位特异性4/10），PubMed 28篇，新颖性10/10。归一化总分66.7/100。核内肌动蛋白与染色质调控的连接虽有先例但非常间接近，不建议优先靶标。
+
 ### 4. 总体评价
 
 **推荐等级**: 2/5

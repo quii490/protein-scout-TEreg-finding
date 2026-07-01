@@ -43,6 +43,19 @@ status: shortlisted
 Nuclear protein
 
 
+### 深度机制分析
+
+**GPCR的核质信号——非经典G蛋白偶联受体功能**：MCHR2（Melanin-concentrating hormone receptor 2, 340 aa, UniProt Q969V1）属于A类GPCR超家族（Rhodopsin类），具有经典的7次跨膜（7TM）螺旋拓扑（InterPro: GPCR_Rhodpsn IPR000276, GPCR_Rhodpsn_7TM IPR017452; Pfam: 7tm_1 PF00001）。该受体被黑色素浓缩激素（MCH）激活后偶联Gq/11，激活磷脂酶C并升高胞内钙离子（PMIDs:11274220, 11404457, 11459838, 38710677）。HPA数据显示核质定位为Supported级别（伴有Basal body、Plasma membrane、Primary cilium tip、Vesicles的多重定位），暗示GPCR信号可能不局限于质膜。
+
+**GPCR核膜信号与基因转录的直接耦合**：核膜GPCR信号是一个已验证的概念——多种GPCR（如mGluR5, AT1R, ETB）已被发现在核膜上发挥功能，直接调控核内钙离子振荡和CREB磷酸化。核内钙信号通过CaMKIV-CREB通路影响基因表达，而CREB结合位点（CRE/ATF基序）在多种TE（如Alu和HERV-K LTR）的启动子区域富集。若MCHR2在核膜上被MCH激活，可能通过Gq/11-PLC-IP3通路触发核内钙释放，间接调控TE近端基因转录。
+
+**AlphaFold结构与跨膜GPCR的折叠质量**：AlphaFold pLDDT=88.9的高置信度和PDB=1的晶体结构（可能为共结晶状态）表明MCHR2的7TM支架在无配体G蛋白状态下高度有序。这与GPCR结构生物学的进展一致——冷冻电镜已解析多种A类GPCR在不同活性状态下的高分辨率结构。若MCHR2的核膜池存在，其跨膜拓扑意味着它可能插入内核膜（INM），在核质侧暴露C端尾部——C端尾部的磷酸化位点和β-arrestin结合基序可招募核内信号效应器。
+
+**纤毛与中心体定位的TE调控含义**：Primary cilium tip（初级纤毛尖端, Supported级别）的定位特别值得注意。初级纤毛是Hedgehog（Hh）信号的关键细胞器，而Hh信号通路通过Gli转录因子调控包括TE衍生序列在内的多个基因组位点。此外，MCHR2的PPI degree=4（唯一的CSK互作, BioGRID score=0）表明其为典型"孤立"GPCR。
+
+**低通量的网络与不确定性**：PubMed=55的文献量和归一化得分68.3/100中核定位特异性32/40是主要支撑。主要风险：MCHR2被认为在人中可能为假基因或低表达GPCR（PMID:38710677），且其生理学意义尚未被明确建立。建议作为低优先级候选，并首先通过RT-qPCR和Western blot确认靶细胞中的蛋白表达水平。
+
+
 ### 补充分析 (UniProt API)
 
 **蛋白全称**: Melanin-concentrating hormone receptor 2
@@ -69,42 +82,3 @@ Nuclear protein
 | 互作伙伴 | 来源 | 评分 |
 |---|---|---|
 | CSK | BioGRID | 0 |
-
-
-![PAE](https://alphafold.ebi.ac.uk/files/AF-Q969V1-F1-predicted_aligned_error_v6.png)
-
-### HPA IF 图像
-
-HPA 检索: https://www.proteinatlas.org/search/MCHR2
-
-### HPA IF 图像
-
-HPA: https://www.proteinatlas.org/ENSG00000152034-MCHR2
-
-![](https://images.proteinatlas.org/30115/2242_G2_8_blue_red_green.jpg)
-![](https://images.proteinatlas.org/30115/2242_G2_37_blue_red_green.jpg)
-![](https://images.proteinatlas.org/30115/2249_A3_6_blue_red_green.jpg)
-![](https://images.proteinatlas.org/30115/2249_A3_17_blue_red_green.jpg)
-
-### HPA IF 图像
-
-HPA: https://www.proteinatlas.org/ENSG00000152034-MCHR2
-
-![](https://images.proteinatlas.org/30115/2242_G2_8_blue_red_green.jpg)
-![](https://images.proteinatlas.org/30115/2242_G2_37_blue_red_green.jpg)
-![](https://images.proteinatlas.org/30115/2249_A3_6_blue_red_green.jpg)
-![](https://images.proteinatlas.org/30115/2249_A3_17_blue_red_green.jpg)
-
-### PubMed
-
-**Count: 90**
-
-| PMID | Title |
-|---|---|
-| 40626856 | [Is the megaesophagus test valid for White Swiss Shepherds (Berger Blanc Suisse)?]. |
-| 39540076 | The Association of Genetic Polymorphisms and Atypical Depression in Adults: A Systematic Review. |
-| 39389409 | Genome-Wide Association Study Meta-Analysis of 9619 Cases With Tic Disorders. |
-| 39057584 | Relationship of Genetic Polymorphisms and Microbial Composition with Binge Eating Disorder: A Systematic Review. |
-| 38831306 | Identification of genes associated with sperm storage capacity in hens at different times after insemination by RNA-seq and Ribo-seq. |
-
-

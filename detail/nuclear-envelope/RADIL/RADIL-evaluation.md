@@ -55,6 +55,16 @@ Downstream effector of Rap required for cell adhesion and migration of neural cr
 
 无已知核定位注释
 
+### 深度机制分析
+
+RADIL（Ras-associating and dilute domain-containing protein）的结构域架构以Rap信号下游效应分子的多模块组装为特征：N端RA（Ras-associating）结构域（IPR000159、IPR037983）选择性结合活性GTP-Rap1而非Ras（PubMed:25386172）；中央FERM结构域（IPR000253、IPR008984、IPR029071）通过三叶折叠与膜磷脂和跨膜蛋白结合；C端MyTH4-FERM串联（IPR002710、IPR001478、IPR036034）形成极长的骨架元件，参与肌动蛋白细胞骨架锚定和细胞粘附复合物的组装。1075 aa（118.2 kDa）的巨大分子量赋予该蛋白经典细胞骨架-信号支架蛋白的尺寸特征。
+
+PPI网络显示与SFI1（中心粒蛋白）、RHOXF2（同源异型转录因子）、MAGEA11（癌睾丸抗原）、RAD51D（DNA修复蛋白）、CCNH/CDK2（细胞周期激酶复合物）和MED19（Mediator复合物亚基）的互作。MED19和CDK2/CCNH的连接暗示RADIL可能通过Rap1信号通路与转录调控和细胞周期控制的交叉耦联。
+
+TE调控相关性机制推论较间接：RADIL定位于核膜（nuclear envelope）和细胞粘附位点，其主要功能为整合Rap1信号以调控细胞迁移和粘附。从核膜角度出发，RADIL可能参与核周边异染色质（如LADs）的锚定——LADs富含LINE-1等TE元件——若通过CRWN/SUN-KASH核骨架复合物间接参与核周异染色质组织，则其对TE沉默具有结构性贡献而非直接调控。CDK2联系暗示细胞周期调控与TE激活之间的间接联系（S期TE激活窗现象）。
+
+无核定位GO-CC注释（核定位特异性4/10），PubMed 186篇，新颖性10/10。归一化总分66.7/100。核骨架结构蛋白-TE调控的间接链条使其仅在核膜结构生物学层面具有理论意义，不建议作为TE调控优先靶标。
+
 ### 4. 总体评价
 
 **推荐等级**: 2/5

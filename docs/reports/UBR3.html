@@ -91,6 +91,12 @@
 <tr><td>ZSCAN32</td><td>BioGRID</td><td>0</td></tr>
 </tbody></table></div>
 <p><figure><img src="https://alphafold.ebi.ac.uk/files/AF-Q6ZT12-F1-predicted_aligned_error_v6.png" alt="PAE"></figure></p>
+<h4>深度机制分析</h4>
+<p><strong>结构域架构</strong>：UBR3（1888 aa，207.7 kDa）是N端规则（N-end rule）泛素化通路的E3泛素连接酶，含三个关键结构域：Znf_UBR（IPR003126, PF02207）——锌指结构域，特异性识别底物N端不稳定残基（Type-1/Type-2），采用交叉支架（cross-brace）锌指折叠；UBR1-like_WH（IPR055194, PF22960）——翼状螺旋（winged-helix）结构域，参与蛋白-蛋白/DNA识别界面；E3_ligase_UBR-like_C（IPR044046, PF18995/PRT6_C）——C端催化结构域，含RING-like指负责泛素从E2~Ub硫酯转移至底物Lys。AlphaFold pLDDT=77.2，在1888 aa长度上置信度中等偏上，N端Znf_UBR（~40-100 aa）和C端RING-like结构域（~1600-1750 aa）预测质量最高（pLDDT&gt;85），而中央长连接区（~500-1500 aa）pLDDT介于55-70，提示存在较大的内在无序区域（IDR）或多结构域间柔性铰链。</p>
+<p><strong>PPI互作网络解读</strong>：PPI degree=97，核心互作反映了UBR3在泛素化级联中的中心位置：UBE2A/UBE2B（E2泛素结合酶，直接负责Ub供体递送）、UBE2Z（非经典E2酶）、DZIP3（另一E3连接酶，可能形成异源二聚化调控复合体）。尤其值得关注的是HOXB7（同源框转录因子B7）和ZSCAN32（锌指转录因子）的互作——这提示UBR3可能通过N端规则途径直接调控特定转录因子的蛋白质稳态，从而影响基因表达程序。SPINT2（丝氨酸肽酶抑制剂）和FAHD1（富马酰乙酰乙酸水解酶）代表代谢酶-泛素化通路交叉。</p>
+<p><strong>结构解读</strong>：AlphaFold预测显示Znf_UBR采用经典的C4锌指折叠（4个Cys配位Zn²⁺），形成疏水结合口袋识别底物N端疏水/碱性残基。UBR1-like_WH结构域采用翼状螺旋折叠（α1-β1-α2-α3-β2-W1-β3），与转录因子的DNA结合结构域折叠相似，暗示UBR3可能保留祖先型DNA结合能力。C端PRT6_C结构域折叠成α/β混合构型，RING-like指（Cys-His簇）与E2酶（UBE2A/UBE2B）的催化Cys形成硫酯中间体过渡态。PAE矩阵显示Znf_UBR与C端催化结构域之间为高PAE（&gt;20A），表明这些结构域彼此独立运动，中间IDR可能作为蛋白质相互作用平台。</p>
+<p><strong>机制模型</strong>：UBR3通过经典的N端规则泛素化通路运作：（1）Znf_UBR识别底物蛋白N端暴露的不稳定残基（如Arg、Lys、His为Type-1，Phe、Tyr、Trp、Leu、Ile为Type-2）；（2）底物结合诱导构象变化，使C端RING-like结构域重排以招募E2~Ub；（3）Ub从E2转移至底物近端Lys残基形成K48连接多聚泛素链，靶向26S蛋白酶体降解。在核仁中，UBR3可能通过降解核仁驻留蛋白（如HOXB7转录调控靶标）参与核仁应激适应的蛋白质稳态重塑。PMID:41533598显示UBR3调控DNA修复蛋白APE1水平，连接了泛素化和基因组稳定性，暗示核仁UBR3可能在rDNA损伤修复中发挥作用。</p>
+<p><strong>TE调控展望</strong>：UBR3通过HOXB7和ZSCAN32互作间接连接转录调控。HOXB7作为同源框转录因子可识别TAAT/ATTA核心基序——许多内源性逆转录病毒（特别是HERV-H/MaLR LTR）启动子含TAAT富集序列。若UBR3介导HOXB7泛素化降解，则可能影响HOXB7靶基因（包括TE驱动基因）的表达水平。但此推测依赖实验验证，目前无直接的TE调控文献支持。</p>
 <h4>PubMed 文献</h4>
 <p><strong>PubMed count: 33</strong></p>
 <div class="table-wrap"><table>

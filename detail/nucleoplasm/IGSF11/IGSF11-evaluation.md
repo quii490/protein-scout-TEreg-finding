@@ -44,6 +44,17 @@ status: shortlisted
 Nuclear protein
 
 
+### 深度机制分析
+
+**免疫球蛋白超家族粘附分子的核内免疫检查点功能**：IGSF11（Immunoglobulin superfamily member 11, 431 aa, UniProt Q5DX21）是Ig超家族（IgSF）第V-set成员（InterPro: Ig-like_dom IPR007110, Ig-like_dom_sf IPR036179, Ig-like_fold IPR013783; Pfam: Ig_3, V-set），拥有两个Ig样胞外结构域、一个跨膜螺旋和一个短胞质尾部。其经典功能为通过同嗜性互作（IGSF11-IGSF11反式结合）介导细胞粘附和生长刺激（NCBI Gene）。HPA定位显示Nucleoplasm为Approved级别（核定位特异性9/10）——对于跨膜IgSF蛋白而言极其罕见。
+
+**免疫检查点VISTA-IGSF11轴与T细胞中的TE调控**：IGSF11作为免疫检查点分子的研究最近取得突破——PMID:41576930揭示"IGSF11-VISTA is a critical and targetable immune checkpoint axis in diffuse midline glioma"，PMID:40635001证实"IGSF11-RAP1 signaling promotes cell migration and invasion of cutaneous melanoma"，PMID:35831836将IGSF11与VISTA共同归类为肿瘤免疫治疗的新兴免疫检查点。免疫检查点与TE调控的关系在于：PD-1/PD-L1信号通路抑制T细胞激活时伴随LINE-1表达下调（通过STAT1/NF-κB依赖机制），而免疫检查点阻断（如anti-PD-1）导致L1逆转座子短暂去抑制——这可能为免疫检查点抑制剂诱发的自身免疫提供机制解释。IGSF11是否通过类似机制影响TE在T细胞或胶质瘤微环境中的表达，是需要探讨的问题。
+
+**RAP1小G蛋白信号与TE的近端调控**：IGSF11-RAP1信号通路（PMID:40635001）提供了另一条TE相关线索。RAP1小GTPase不仅是端粒结合蛋白（端粒与亚端粒区域富含ERV和LINE-1元件），还参与核内NF-κB转录活性调控。RAP1在端粒处招募异染色质因子（HP1α, CBX3）形成端粒异染色质，而端粒异染色质的组装涉及SUV39H1催化的H3K9me3——与TE沉默完全相同的分子机制。若IGSF11在核内调控RAP1活性，可能通过RAP1-HP1-SUV39H1轴间接促进端粒/TE近端异染色质的维持和扩展。
+
+**免疫治疗的意外TE效应**：IGSF11作为免疫检查点靶标，若其阻断导致LINE-1或ERV去抑制，可能构成anti-IGSF11治疗的双刃剑——免疫激活的同时增加基因组不稳定性。这一概念已在anti-PD-1和anti-CTLA-4的临床前模型中被提出（PMID:32231262）。实验上可设计：anti-IGSF11处理体外T细胞-glioma共培养体系后，通过TE transcriptomics（TEtranscripts/Telescope）和L1 ORF1p免疫荧光评估TE激活程度。归一化得分68.3/100中核定位特异性36/40是最大支撑。
+
+
 ### 补充分析 (UniProt API)
 
 **蛋白全称**: Immunoglobulin superfamily member 11
@@ -72,30 +83,3 @@ Nuclear protein
 |---|---|---|
 | IGSF11 | BioGRID | 0 |
 | LXN | BioGRID | 0 |
-
-
-![PAE](https://alphafold.ebi.ac.uk/files/AF-Q5DX21-F1-predicted_aligned_error_v6.png)
-
-### HPA IF 图像
-
-HPA: https://www.proteinatlas.org/ENSG00000144847-IGSF11
-
-![](https://images.proteinatlas.org/46377/1319_A6_1_red_green.jpg)
-![](https://images.proteinatlas.org/46377/1319_A6_2_red_green.jpg)
-![](https://images.proteinatlas.org/46377/1516_F2_3_red_green.jpg)
-![](https://images.proteinatlas.org/46377/1516_F2_5_red_green.jpg)
-![](https://images.proteinatlas.org/46377/565_A1_1_red_green.jpg)
-![](https://images.proteinatlas.org/46377/565_A1_2_red_green.jpg)
-
-### PubMed 文献
-
-**PubMed count: 67**
-
-| 42147813 | The miR-146a/IGSF11 Axis Potentially Mediates the Protective Effect of Dexmedetomidine Against Cigarette Smoke-Induced C | Hum Mutat 2026 |
-| 41981316 | Multi-ancestry genome-wide association study of severe pregnancy nausea and vomiting. | Nat Genet 2026 |
-| 41576930 | IGSF11-VISTA is a critical and targetable immune checkpoint axis in diffuse midline glioma. | Cancer Cell 2026 |
-
-### HPA IF 图像
-
-HPA 检索: https://www.proteinatlas.org/search/IGSF11
-

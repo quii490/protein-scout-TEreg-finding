@@ -61,6 +61,18 @@ status: shortlisted
 
 **TE 调控相关性**: 该蛋白缺乏明确的核/染色质定位证据，TE调控潜力极低，不建议作为优先靶标。
 
+
+
+### 深度机制分析
+
+OGDHL（(2-oxoglutarate dehydrogenase-like, mitochondrial)）。定位于nucleolus。包含1010 aa / 111.1 kDa。UniProt编号Q9ULD0。其InterPro结构域组成为IPR032106、IPR011603、IPR001017、IPR042179、IPR031717、IPR029061。Pfam注释4个保守结构域（PF16078、PF00676、PF16870、PF02779）。SMART注释发现SM00861等模块。
+
+从功能机制角度，该蛋白的已知功能为2-oxoglutarate dehydrogenase (E1-like) component of the 2-oxoglutarate dehydrogenase multienzyme complex (OGDHC) which mediates the decarboxylation of alpha-ketoglutarate in the tricarboxylic acid cycle. The OGDHC complex catalyzes the overall conversion of 2-oxoglutarate to succinyl-CoA and CO(2) while reducing NAD(+) to NADH (By similarity). The OGDHC complex is mainly active in the mitochondrio，PPI网络分析显示其与OGDH(975)、PDX1(892)、GOT1(887)、CS(880)、RNF8(834)、FH(793)等高置信度互作伙伴存在相互作用，此外还与STAT3、SMYD1等存在实验验证的低置信度互作。
+
+从结构生物学角度，在TE调控的背景下，OGDHL的nucleolus定位使其具备接触转座子元件的空间可能性。
+
+从研究转化角度，该蛋白在PubMed中尚无直接研究发表（PubMed=0），属于高度新颖的靶标，相关文献证据包括PMID:42286727、42269569、41664695，综合评分66.7/100，属于中等优先级，建议在更大规模的筛选中进一步验证。
+
 ### HPA IF 图像
 
 HPA: https://www.proteinatlas.org/ENSG00000197444-OGDHL

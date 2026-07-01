@@ -82,6 +82,11 @@ Nuclear protein
 | CSK | BioGRID | 0 |
 
 
+
+### 深度机制分析
+
+LUZP2（Leucine zipper protein 2，346 aa）是目前功能注释极度缺乏的核蛋白，仅含LUZP2结构域（IPR026718）。在Pfam中甚至无已知保守结构域匹配。AF pLDDT=72.6提示存在结构化的折叠核心。PPI度仅为3（HNRNPL和CSK），HNRNPL为核不均一核糖核蛋白参与选择性剪接和mRNA稳定性调控，CSK为胞质酪氨酸激酶调控SRC家族。PubMed 23篇但均为GWAS或转录组筛选中的附属发现：41758220揭示PLCG1通过K63泛素化促进七氟醚诱导的神经元铁死亡中LUZP2被下调，41300787在猪繁殖性状GWAS中发现LUZP2相关位点，41272432在猪睾丸发育单细胞分析中检测到表达。核质定位为Approved。虽然蛋白名称含Leucine zipper，但IPR026718并非经典bZIP结构域，缺乏直接DNA结合证据。与HNRNPL的互作是关键的机制线索——HNRNPL作为剪切因子可影响TE来源外显子的包含/排除，LUZP2可能作为HNRNPL的调控因子间接影响含有TE序列的转录本剪接命运。鉴于其核定位和RNA结合蛋白互作，LUZP2可能在核内RNA代谢中发挥辅助支架功能。
+
 ![PAE](https://alphafold.ebi.ac.uk/files/AF-Q86TE4-F1-predicted_aligned_error_v6.png)
 
 ### HPA IF 图像

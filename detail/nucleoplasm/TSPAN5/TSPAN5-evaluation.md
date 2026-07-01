@@ -43,6 +43,18 @@ status: shortlisted
 Nuclear protein
 
 
+### 深度机制分析
+
+TSPAN5（Tetraspanin-5）是tetraspanin超家族的典型成员，具有四次跨膜螺旋拓扑结构（268 aa, 30.3 kDa）。其结构域架构包含特征性的tetraspanin保守特征：一个小的胞外环（EC1）、一个大的胞外环（EC2）含保守的CCG基序和两对保守半胱氨酸（InterPro IPR018503），以及胞内N/C端短尾。Pfam Tetraspanin（PF00335）结构域覆盖整个蛋白。AlphaFold2预测pLDDT=89.2（得分7/10），高度可信，无PDB实验结构但tetraspanin折叠已有多个同源结构支持。
+
+TSPAN5的PPI网络度为80（得分6/10），其核心功能伙伴为ADAM10金属蛋白酶——TSPAN5属于TspanC8亚家族，该亚家族的6个成员均与ADAM10形成化学计量复合物，调控ADAM10从内质网的出口、酶成熟和底物特异性（PMID:26686862, 28600292, 37516108）。不同TspanC8/ADAM10复合物具有不同的底物偏好，TSPAN5特异性促进ADAM10对CD44的剪切。在PPI网络中，与APP的BioGRID互作提示TSPAN5可能在ADAM10介导的APP加工和Aβ生成中发挥作用。
+
+在核质环境中，TSPAN5的Approved级别定位挑战了传统认知。作为典型的质膜tetraspanin，TSPAN5如何进入核质是一个悬而未决的问题。一种可能性是TSPAN5通过retromer介导的逆行转运从内体-溶酶体系统泄漏至核周区域并入核。TSPAN5调控VE-cadherin表达的发现（UniProt功能注释）暗示核质TSPAN5可能通过ADAM10介导的剪切事件释放胞内片段，该片段可能入核调控转录。与THAP11（THAP结构域蛋白11，含锌指的转录调控因子）的BioGRID互作支持这一核内功能假设。
+
+TSPAN5在神经精神疾病中具有突出的临床相关性。PMID:32753686和33510640揭示TSPAN5影响血清素和犬尿氨酸通路，与选择性血清素再摄取抑制剂（SSRI）的药物基因组学机制相关。犬尿氨酸通路是色氨酸代谢的关键分支，其代谢产物（如喹啉酸）是NMDA受体调节剂，而TSPAN5通过调控ADAM10活性可能影响神经递质受体在突触后膜的表达。PMID:41485015发现Cldn11缺失通过Tspan5依赖性方式加重骨关节炎，进一步支持TSPAN5在非神经组织中的调控功能。
+
+TSPAN5是核质蛋白研究中的一个独特案例——经典的膜tetraspanin在核质中可能执行与质膜定位完全不同的信号调控功能。33篇PubMed文献（得分8/10）和Nucleoplasm Approved定位（得分9/10）的组合使其成为一个研究深度适中但核内机制几乎没有被探索的理想靶标。
+
 ### 补充分析 (UniProt API)
 
 **蛋白全称**: Tetraspanin-5

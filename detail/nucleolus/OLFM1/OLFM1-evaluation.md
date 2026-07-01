@@ -59,6 +59,18 @@ Contributes to the regulation of axonal growth in the embryonic and adult centra
 
 **TE 调控相关性**: 该蛋白缺乏明确的核/染色质定位证据，TE调控潜力极低，不建议作为优先靶标。
 
+
+### 深度机制分析
+
+**Olfactomedin结构域蛋白的分泌/细胞外天然功能**：OLFM1（Noelin, 485 aa, UniProt Q99784）以C端Olfactomedin样结构域（aa 226-478, IPR003112, Pfam PF02191）为特征，该结构域属于富含半胱氨酸的分泌蛋白模块（约250 aa），在脊椎动物神经发育中高度保守。OLFM1作为RTN4R（Nogo-66受体）拮抗剂，抑制RTN4R与LINGO1的互作，从而调控成年中枢神经系统中的轴突生长（By similarity）。此外，该蛋白在神经管来源的神经嵴细胞生成和嗅觉刺激的正常应答中发挥作用。Olfactomedin家族的已知功能均局限于分泌蛋白的胞外信号功能。
+
+**核仁定位的来源质疑**：HPA标注该蛋白"无已知核定位注释"（核定位特异性4/10），归入核仁分类的依据可能为质谱检测中的胞质/核仁交叉污染。Olfactomedin域的保守二硫键网络和糖基化修饰（N-糖基化）使其通过内质网-高尔基体分泌途径被分泌至胞外基质——这一生物合成通路与核仁完全不兼容。无任何Olfactomedin家族成员已被证实在核仁或核质中发挥功能。
+
+**PPI中的微弱染色质连接**：PPI数据中EHMT1（STRING 817, G9a样蛋白）的高互作评分提供了唯一的染色质调控线索。EHMT1是H3K9me1/2甲基转移酶GLP，与G9a（EHMT2）形成异二聚体在常染色质区域催化H3K9me1/2，对ERV和LINE-1元件的沉默有直接贡献。若OLFM1与EHMT1的互作是真实的（attention: STRING推断），则可能通过秘密蛋白-trans受体间接影响EHMT1活性。EGFR（BioGRID score=1）和MYCN（BioGRID score=1）的互作暗示RTK信号和发育转录调控的潜在关联。然而，OLFM1的分泌蛋白天然功能与该互作网络之间存在不兼容性——EHMT1和MYCN为核蛋白，需OLFM1进入核内才能产生互作，这在Olfactomedin家族中从未被报道。
+
+**不推荐的TE候选**：PubMed=54的非零文献量和OLFM1-胶质母细胞瘤肿瘤抑制功能（PMID:41831591）暗示存在非分泌性细胞自主功能，但与TE调控的距离过远。建议作为不推荐的最低优先级候选。
+
+
 ### Domain/SMART 结构域分析
 
 | 来源 | 数据 |
@@ -67,45 +79,3 @@ Contributes to the regulation of axonal growth in the embryonic and adult centra
 | InterPro | IPR022082;IPR003112;IPR050605;IPR011044; |
 | Pfam | PF12308;PF02191; |
 | UniProt Domain | DOMAIN 226..478; /note="Olfactomedin-like"; /evidence="ECO:0000255|PROSITE-ProRule:PRU00446" |
-
-
-### PPI 互作网络
-
-| 互作伙伴 | 来源 | 评分 |
-|---|---|---|
-| EHMT1 | STRING | 817 |
-| EGFR | BioGRID | 1 |
-| TRAF3IP1 | BioGRID | 1 |
-| APP | BioGRID | 1 |
-| TUBA3C | BioGRID | 1 |
-| ARNTL2 | BioGRID | 1 |
-| MEOX2 | BioGRID | 1 |
-| MYCN | BioGRID | 1 |
-
-
-### HPA IF 图像
-
-HPA 检索: https://www.proteinatlas.org/search/OLFM1
-
-### HPA IF 图像
-
-HPA: https://www.proteinatlas.org/ENSG00000130558-OLFM1
-
-![](https://images.proteinatlas.org/57444/1208_E10_2_red_green.jpg)
-![](https://images.proteinatlas.org/57444/1208_E10_3_red_green.jpg)
-![](https://images.proteinatlas.org/57444/1049_E1_1_red_green.jpg)
-![](https://images.proteinatlas.org/57444/1049_E1_2_red_green.jpg)
-
-### PubMed
-
-**Count: 54**
-
-| PMID | Title |
-|---|---|
-| 42282184 | Identifying circulating protein targets for common factors underlying schizophrenia, depression, and bipolar disorder. |
-| 41890717 | Inosine alleviates colorectal cancer liver metastasis by promoting M1 macrophage polarization and modulating the PI3K/AKT signaling pathway. |
-| 41831591 | Olfactomedin 1 acts as a tumor suppressor in glioblastoma: integrated analysis and mechanistic prediction. |
-| 41492412 | Decoding ulcerative colitis pathogenesis through transcriptomics: from dysregulated gene networks to targeted intervention strategies. |
-| 41259663 | Low OLFM1 and BMP6 Expression Predicts Recurrence in Early-Stage Nonsquamous NSCLC with Pure Solid Tumor Appearance. |
-
-

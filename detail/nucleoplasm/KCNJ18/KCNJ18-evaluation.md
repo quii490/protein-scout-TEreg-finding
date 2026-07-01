@@ -43,6 +43,17 @@ status: shortlisted
 Nuclear protein
 
 
+### 深度机制分析
+
+**Kir2.6内向整流钾通道的核质角色与周期性瘫痪基因**：KCNJ18（Inward rectifier potassium channel 18/Kir2.6, 433 aa, UniProt B7U540）属于Kir2.x亚家族内向整流钾通道。其结构域包括细胞质N端、两个跨膜螺旋（M1和M2）、P-环（K+选择性过滤器）和大型C端胞质域（IRK_C IPR041647, IRK_N IPR013673），辅以Ig_E-set（IPR014756）结构域。Kir通道的生理特征为允许K+内流远超外流（内向整流），由胞内Mg2+和多胺的电压依赖性阻断介导。KCNJ18在甲状腺毒性周期性瘫痪（TPP）中发挥关键作用——甲状腺激素通过cAMP/PKA信号增强Kir2.6的表达和活性，导致K+内流增加和膜电位过极化（PMIDs:39333966, 40434516, 41800133）。
+
+**核质K+浓度与染色质动力学的物理化学耦合**：核内K+浓度（~140 mM）是染色质纤维压缩的关键物理化学参数。高K+浓度屏蔽DNA磷酸骨架的负电荷，降低核小体间的静电排斥，促进异染色质凝聚。离子通道的核质定位（Nucleoplasm Supported，核定位特异性7/10）若为功能性（即在内核膜上形成功能性K+通道），则可局部调控核质K+微域，影响着丝粒周围异染色质和核纤层相关染色质域（LADs）的压缩状态——LADs区域的TE（LINE-1, ERV）通常在核纤层处被异染色质化沉默。若KCNJ18影响局部K+浓度进而改变异染色质物理特性，则间接影响LAD-TE的沉默稳定性。
+
+**Ig_E-set结构域与可能的蛋白-蛋白互作功能**：KCNJ18的N端Ig_E-set（IPR014756, 免疫球蛋白E-set折叠）在Kir家族中独特，其可能介导同源或异源Kir通道亚基组装（如与KCNJ2/Kir2.1或KCNJ5/Kir3.4的异源四聚化）。Ig样折叠也常见于细胞粘附分子和免疫检查点——IGSF11（第27号候选）的两个Ig_V-set结构域为本批次中的平行实例。PPI degree=15（含EMD和KCNJ2/KCNJ5）的低互作度反映了Kir通道的亚基组装特异性。
+
+**不确定性核定位与TPP的TE表达**：HPA核质定位为Uncertain级别（7/10）——在三个细胞系中的不一致性（某些U2OS细胞中核信号可能为过表达伪影）。AlphaFold pLDDT=80.6的中等置信度和PDB=0的结构缺失需实验结构补充。TPP中甲状腺激素的核受体（TRα/β）直接结合于HERV和MER4中的甲状腺激素应答元件（TRE），调控TE的转录激活——KCNJ18的核定位若伴随TR信号，可能构成K+通道-TR-TE调控的协同轴。归一化得分68.3/100。
+
+
 ### 补充分析 (UniProt API)
 
 **蛋白全称**: Inward rectifier potassium channel 18
@@ -72,52 +83,3 @@ Nuclear protein
 | EMD | BioGRID | 0 |
 | KCNJ2 | BioGRID | 0 |
 | KCNJ5 | BioGRID | 0 |
-
-
-![PAE](https://alphafold.ebi.ac.uk/files/AF-B7U540-F1-predicted_aligned_error_v6.png)
-
-### HPA IF 图像
-
-HPA: https://www.proteinatlas.org/ENSG00000260458-KCNJ18
-
-![](https://images.proteinatlas.org/27021/1746_D1_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/27021/1746_D1_3_blue_red_green.jpg)
-![](https://images.proteinatlas.org/27021/249_B11_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/27021/249_B11_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/27021/251_B11_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/27021/251_B11_2_blue_red_green.jpg)
-
-### HPA IF 图像
-
-HPA: https://www.proteinatlas.org/ENSG00000260458-KCNJ18
-
-![](https://images.proteinatlas.org/27021/1746_D1_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/27021/1746_D1_3_blue_red_green.jpg)
-![](https://images.proteinatlas.org/27021/249_B11_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/27021/249_B11_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/27021/251_B11_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/27021/251_B11_2_blue_red_green.jpg)
-
-### HPA IF 图像
-
-HPA: https://www.proteinatlas.org/ENSG00000260458-KCNJ18
-
-![](https://images.proteinatlas.org/27021/1746_D1_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/27021/1746_D1_3_blue_red_green.jpg)
-![](https://images.proteinatlas.org/27021/249_B11_2_blue_red_green.jpg)
-![](https://images.proteinatlas.org/27021/249_B11_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/27021/251_B11_1_blue_red_green.jpg)
-![](https://images.proteinatlas.org/27021/251_B11_2_blue_red_green.jpg)
-
-### PubMed 文献
-
-**PubMed count: 32**
-
-| 42004535 | Whole exome sequencing identifies somatically mutated genes in bladder cancer: A pilot study from Bangladesh. | Biochem Biophys Rep 2026 |
-| 41800133 | Clinical features and advances in the genetics of periodic paralysis. | PeerJ 2026 |
-| 41523487 | Thyrotoxic Periodic Paralysis (TPP): A Comprehensive Review with Regional Insights from the Middle East. | Cureus 2025 |
-
-### HPA IF 图像
-
-HPA 检索: https://www.proteinatlas.org/search/KCNJ18
-

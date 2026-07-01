@@ -104,3 +104,18 @@ HPA: https://www.proteinatlas.org/ENSG00000120910-PPP3CC
 
 HPA 检索: https://www.proteinatlas.org/search/PPP3CC
 
+### PPI 互作网络
+
+| 互作伙伴 | 来源 | 评分 |
+|---|---|---|
+| MLH1 | physical | Cannavo E (2007) |
+| APP | physical | Olah J (2011) |
+| BCL2 | physical | Weiwad M (2005) |
+| HAX1 | physical | Wang J (2011) |
+| CSNK2B | physical | Wang J (2011) |
+| SDC2 | physical | Wang J (2011) |
+| ITPKC | physical | Wang J (2011) |
+| THAP7 | physical | Wang J (2011) |
+| AMPH | physical | Rolland T (2014) |
+| PDHB | physical | Huttlin EL (2015) |
+

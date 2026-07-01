@@ -91,7 +91,11 @@
 <tr><td>残基数</td><td>232</td></tr>
 </tbody></table></div>
 <p>ESMFold 基于进化规模语言模型，无MSA搜索的从头折叠，可作为AlphaFold的独立验证。</p>
-<h4>5. 数据来源</h4>
+<h4>深度机制分析</h4>
+<p>IZUMO4属于Izumo精子-卵融合蛋白家族，其深度机制分析需置于受精生物学的框架中。该蛋白含有一个Izumo domain（InterPro:IPR029389, Pfam:PF15005），这是一个以免疫球蛋白样β-三明治折叠为核心的蛋白互作模块，在Izumo家族中高度保守。ESMFold预测显示了极差的结构置信度——全局pLDDT仅0.49(在所有24个评估蛋白中倒数第二），53.4%残基pLDDT&lt;0.5，且高置信残基占比为0%。这种广泛的结构无序可能并非技术性预测失败——在受精相关的膜表面蛋白中，免疫球蛋白样结构域通常需要与配体结合后才能稳定其折叠状态。IZUMO4类似其家族成员IZUMO1，可能在与卵表面受体（如JUNO）结合时经历显著的折叠耦合，单独存在时保持部分无序的&quot;开放&quot;构象。</p>
+<p>然而，IZUMO4与IZUMO1在功能层级上存在差异。IZUMO1已在遗传学和生物化学层面被确认为哺乳动物精卵融合的核心因子——IZUMO1敲除雄性小鼠完全不育，其与卵表面JUNO受体的识别是物种特异性受精的关键步骤。IZUMO4的功能角色相对不明确，可能作为Izumo家族的辅助成员参与精子膜蛋白复合体的组装或精卵融合的调控，而非核心融合因子。</p>
+<p>PPI互作网络的质量极差——BioGRID仅收录1个互作伙伴TEX101（score=0）。TEX101（Testis-expressed protein 101）是一种GPI锚定的精子膜蛋白，定位于精子表面，与IZUMO1存在直接互作（在精子成熟过程中TEX101被切割并释放）。IZUMO4与TEX101的互作可能反映了IZUMO家族蛋白在精子膜上的共定位或复合体组装。PPI degree=4的极低连通性（主要是STRING预测的弱链接）表明IZUMO4在现有的互作组学数据中几乎不可见。</p>
+<p>在核定位方面，UniProt的GO-CC将IZUMO4注释为&quot;Secreted + Nucleus&quot;——这是一个需要深入讨论的矛盾定位。作为精子膜蛋白，IZUMO4的核心功能必然发生于细胞表面（精卵识别与融合），而GO中的&quot;Nucleus&quot;注释可能来源于将非特异性核染色信号误判为功能性核定位的自动注释流程。HPA明确返回hpa_nuclear=False，支持核信号的缺失。此外，IZUMO4的Izumo结构域不具备任何DNA结合能力或染色质关联功能。PubMed几乎无直接功能研究（PMID 21630460等），在研究新颖性评分为5/10（unclassified_bare来源）。综合来看，推荐等级2/5（41/100）是合理的。深度机制模型为：精子膜上的IZUMO4→Izumo域维持部分无序构象→与TEX101或Izumo家族成员共定位→可能的精卵融合辅助功能。这一模型与TE调控完全无关，无任何核内功能的分子基础。</p>
 <ul><li>UniProt: https://www.uniprot.org/uniprotkb/Q1ZYL8</li><li>HPA: https://www.proteinatlas.org/</li></ul></article></main>
 <script src="../assets/js/app.js"></script>
 </body>

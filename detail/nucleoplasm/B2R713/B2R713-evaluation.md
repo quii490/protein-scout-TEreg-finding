@@ -58,6 +58,18 @@ no known nuclear annotation
 
 **TE 调控相关性**: 该蛋白缺乏明确的核/染色质定位证据，TE调控潜力极低，不建议作为优先靶标。
 
+
+
+### 深度机制分析
+
+B2R713（(tRNA (guanine(27)-N(2))-dimethyltransferase)）。定位于nucleoplasm。包含733 aa / 80.6 kDa。UniProt编号B2R713。其InterPro结构域组成为IPR029063、IPR002905、IPR042296、IPR013087。Pfam注释1个保守结构域（PF02005）。
+
+从功能机制角度，该蛋白的已知功能为Specifically dimethylates a single guanine residue at position 27 of tRNA(Tyr) using S-adenosyl-L-methionine as donor of the methyl groups. Dimethylation at position 27 of tRNA(Tyr) is required for efficient translation of tyrosine codons. Also required to maintain 3-(3-amino-3-carboxypropyl)uridine (acp3U) in the D-loop of several cytoplasmic tRNAs。
+
+从结构生物学角度，在TE调控的背景下，B2R713的nucleoplasm定位使其具备接触转座子元件的空间可能性。
+
+从研究转化角度，该蛋白在PubMed中尚无直接研究发表（PubMed=0），属于高度新颖的靶标，综合评分67.8/100，属于中等优先级，建议在更大规模的筛选中进一步验证。
+
 ### HPA IF 图像
 
 HPA 检索: https://www.proteinatlas.org/search/B2R713

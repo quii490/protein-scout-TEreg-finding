@@ -38,6 +38,16 @@ status: shortlisted
 - PPI degree=40 ChIP: None
 34236445: Early-Onset Osteoporosis. | 37668887: Bone fragility and osteoporosis in children and young adults. | 40158738: Stromal Stiffness-Regulated IGF2BP2 in Pancreatic Cancer Drives Immune Evasion v
 
+### 深度机制分析
+
+SGMS2编码磷脂酰胆碱：神经酰胺胆碱磷酸转移酶2（Sphingomyelin Synthase 2），其结构域架构以鞘磷脂合酶特征性折叠为特征：SAM羧基端跨膜螺旋（跨膜域）和N端催化结构域（IPR045221、IPR025749、Pfam PAP2_C）采用磷酸酯酶/磷酸转移酶折叠，催化两步可逆的磷酸胆碱转移反应。SGMS2与SGMS1在亚细胞分布上互补——SGMS1主要定位于高尔基体（反式高尔基网路），SGMS2主要定位于质膜（PubMed:12869553），但LOC注释同时显示核质定位（Nucleoplasm, Supported可信度）。
+
+365 aa（42.3 kDa）的小型蛋白中容纳了完整的催化结构域和一个跨膜螺旋。AlphaFold pLDDT为76.8，结构域折叠预测可靠，但无实验PDB验证。PPI网络以鞘磷脂生物合成路径为核心：与CERS6（神经酰胺合酶6，960评分）、ASAH1（神经酰胺酶，955评分）、SGPP1（S1P磷酸酶，942评分）、SGMS1（910评分）构成紧密的功能模块。BioGRID数据进一步揭示了与核膜/核骨架蛋白的关联——TMPO（LAP2）、LMNA（核纤层蛋白Lamin A/C）和CENPO（着丝粒蛋白），暗示SGMS2可能在核膜-质膜脂质交通中发挥角色。
+
+TE调控相关性的机制推论围绕核膜脂质环境与染色质组织的交叉：SGMS2通过控制鞘磷脂（SM）与磷脂酰胆碱（PC）的平衡，影响膜脂微域（lipid raft或caveolae）的形成和分布。核膜的内膜富含核纤层蛋白（Lamin）和层相关多肽（LAP），是异染色质（包括含TE的LADs：lamin-associated domains）的锚定位点。若SGMS2的质膜/高尔基体-核质穿梭影响内核膜的脂质组成，其可能间接改变LADs（异染色质锚定区域）的形成和维持，调控TE区域（如LINE-1富含的LADs）的压缩状态。
+
+然而，PCDHGA4核定位证据为Uncertain，TE调控链条过长。PubMed 44篇（严格匹配）赋分8/10新颖性。归一化总分67.8/100，互证+2。若未来获得SGMS2在核膜的明确定位和核膜脂质环境-TAD/LAD可及性关联的直接证据，其脂质调控TE的假说将具有跨领域的新颖性，但现阶段不作为优先靶标。
+
 ### 4. 总体评价
 **67.8/100** | **nucleoplasm**
 Nuclear protein

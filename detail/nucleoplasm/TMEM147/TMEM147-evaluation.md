@@ -56,6 +56,19 @@ Nuclear protein
 
 **TE 调控评估**: 该蛋白缺乏核定位证据，TE调控潜力极低。
 
+### 深度机制分析
+
+TMEM147（BOS complex subunit TMEM147，UniProt: Q9BVK8，224 aa / 25.3 kDa）的结构域架构分析显示：InterPro结构域包括IPR019164；Pfam注释为PF09767。 AlphaFold预测的pLDDT均值为92.5，表明整体结构预测置信度极高，各结构域折叠状态可靠。
+
+蛋白质互作网络分析揭示TMEM147与以下关键因子存在相互作用：ABHD16A、ABI3、CLN8、GLP1R、CREB3L1（PPI度为128）。 功能注释显示Component of the multi-pass translocon (MPT) complex that mediates insertion of multi-pass membrane proteins into the lipid bilayer of membranes (PubMed:32820719, PubMed:36261522). The MPT complex tak。 这些互作伙伴暗示该蛋白可能通过多蛋白复合物参与细胞过程调控，其互作网络的拓扑位置值得进一步实验验证。
+
+从结构-功能机制角度分析，TMEM147的亚细胞定位为，核定位证据尚不充分，需要免疫荧光或亚细胞分级实验进一步验证。 评估综合得分69.4/100，属于中等兴趣候选，在明确核定位后其TE调控潜力可能显著提升。
+
+对于TE调控机制的意义而言，TMEM147的结构域组成不直接指向经典染色质调控因子，但其在核内的存在（若经实验确认）可能暗示非经典TE调控途径。 研究新颖性方面，PubMed检索获得25篇文献，有一定研究基础但远未饱和，可从TE调控新角度切入。 代表性文献包括PMID:41080747, 41055764, 40865843等。
+
+综上所述，TMEM147作为一个224 aa / 25.3 kDa的定位蛋白，具有一定的TE调控研究价值，建议首先通过亚细胞分级和免疫荧光明确其在核内的分布模式，再设计针对性的功能实验。 AlphaFold pLDDT=92.5的结构预测可作为设计突变体和结构-功能关系研究的起点。
+
+
 ---
 
 

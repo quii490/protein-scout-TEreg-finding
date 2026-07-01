@@ -78,6 +78,11 @@
 <tr><td>37866487</td><td>Bavachin combined with epimedin B induce idiosyncratic liver injury under immunological stress conditions.</td><td>Chem Biol Interact 2023</td></tr>
 <tr><td>33620517</td><td>A novel podocyte protein, R3h domain containing-like, inhibits TGF-β-induced p38 MAPK and regulates the structure of pod</td><td>J Mol Med (Berl) 2021</td></tr>
 </tbody></table></div>
+<h4>深度机制分析</h4>
+<p>R3HDML的域架构以单个CAP结构域（半胱氨酸富集分泌蛋白/抗原5/致病相关蛋白1, IPR014044; Pfam PF00188）为中心，属于CRISP相关超家族（IPR047899）。CAP结构域采用保守的α-β-α三明治折叠（CAP_sf, IPR035940），具有特征性的保守半胱氨酸残基簇，形成多个二硫键用于胞外配体结合。该结构域被注释为推定的丝氨酸蛋白酶抑制剂，表明其通过底物样环区结合并阻断催化三联体Ser-His-Asp。</p>
+<p>AlphaFold pLDDT为82.8，CAP结构域区域处于高置信度区间，而N端和C端尾部的置信度较低。无实验PDB结构。PPI网络（degree=6）由APP（淀粉样前体蛋白，BioGRID=1）和CDK7（细胞周期蛋白依赖性激酶7，BioGRID=1）主导。CDK7是TFIIH复合物的催化亚基，参与转录起始和细胞周期调控——这为R3HDML在核质中的存在提供了功能锚点。</p>
+<p>综合机制模型：R3HDML作为分泌型/核质丝氨酸蛋白酶抑制剂双定位蛋白发挥功能。在胞外，CAP结构域可逆地结合并抑制参与TGF-β活化的丝氨酸蛋白酶；在核质中，它可能通过阻断CDK7磷酸化底物所需的蛋白水解步骤来调节CDK7活性。已证实R3HDML可抑制足细胞中TGF-β诱导的p38 MAPK活化并调控足细胞结构（PMID 33620517），暗示其蛋白酶抑制剂活性可直接靶向TGF-β信号级联中的蛋白酶步骤。双定位（Cytosol; Nucleoplasm, HPA Approved）表明存在条件性核易位机制。</p>
+<p>TE调控启示：CAP结构域是进化上古老的折叠，与许多TE衍生基因融合物中的病原体防御模块同源。R3HDML规模小（6篇文献）、结构良好（pLDDT=82.8），且与CDK7（TFIIH组分）的互作使其成为研究TE激活条件下蛋白酶抑制剂如何调控转录重编程的优秀候选底物。</p>
 <h4>HPA IF 图像</h4>
 <p>HPA 检索: https://www.proteinatlas.org/search/R3HDML</p></article></main>
 <script src="../assets/js/app.js"></script>

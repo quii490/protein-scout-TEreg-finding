@@ -57,6 +57,18 @@ Glycogenin participates in the glycogen biosynthetic process along with glycogen
 
 **TE 调控相关性**: 该蛋白缺乏明确的核/染色质定位证据，TE调控潜力极低，不建议作为优先靶标。
 
+
+
+### 深度机制分析
+
+GYG2（(Glycogenin-2)）。定位于nucleolus。包含501 aa / 55.1 kDa。UniProt编号O15488。其InterPro结构域组成为IPR002495、IPR050587、IPR029044。Pfam注释1个保守结构域（PF01501）。
+
+从功能机制角度，该蛋白的已知功能为Glycogenin participates in the glycogen biosynthetic process along with glycogen synthase and glycogen branching enzyme. It catalyzes the formation of a short alpha (1,4)-glucosyl chain covalently attached via a glucose 1-O-tyrosyl linkage to internal tyrosine residues and these chains act as primers for the elongation reaction catalyzed by glycogen synthase，此外还与GYS1、GYG1、IKBKG、APP等存在实验验证的低置信度互作。
+
+从结构生物学角度，在TE调控的背景下，GYG2的nucleolus定位使其具备接触转座子元件的空间可能性。
+
+从研究转化角度，该蛋白在PubMed中尚无直接研究发表（PubMed=0），属于高度新颖的靶标，相关文献证据包括PMID:42214298、41350820、41350704，综合评分66.7/100，属于中等优先级，建议在更大规模的筛选中进一步验证。
+
 ### Domain/SMART 结构域分析
 
 | 来源 | 数据 |

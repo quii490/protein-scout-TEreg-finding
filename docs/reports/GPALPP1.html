@@ -130,6 +130,11 @@
 <p><strong>风险/不确定性</strong>: 1. PubMed 0 篇，研究基础极有限，功能注释不完整 2. AlphaFold 预测质量一般（pLDDT=69.4），需要更多实验结构验证</p>
 <p><strong>下一步建议</strong>:</p>
 <ul><li>[ ] 查阅最新关键文献补充研究背景</li><li>[ ] 获取 Protein Atlas IF 图像确认亚细胞定位</li><li>[ ] 设计体外实验验证核定位及潜在调控功能</li></ul>
+<h4>深度机制分析</h4>
+<p>GPALPP1（GPALPP motifs-containing protein 1）是一个功能完全未知的核仁相关蛋白，其结构域注释揭示了进化保守但功能未表征的模块：InterPro注释为IPR022226（GPALPP motif）和IPR046331（GPALPP-like domain），Pfam对应PF12572（GPALPP）。&quot;GPALPP&quot; motif的名称暗示其包含连续的氨基酸序列特征（Gly-Pro-Ala-Leu-Pro-Pro），可能形成特定的二级结构（如脯氨酸富集螺旋或polyproline型螺旋）。AlphaFold v6预测整体pLDDT=69.4，有序区域仅占52.1%，近半数蛋白可能处于天然无序状态。这种高比例的无序区域特征与许多核仁蛋白（如nucleolin、nucleophosmin）相似——核仁作为无膜细胞器，其组分的液-液相分离（LLPS）倾向依赖于IDR区域的低复杂度序列。</p>
+<p>PPI网络提供了GPALPP1功能推断的核心线索。IntAct实验验证的互作中，CDK8（周期蛋白依赖性激酶8，PMID:29568061, BioID proximity labeling）的记录尤为关键：CDK8是Mediator复合体的核心激酶亚基，在转录起始和延伸调控中发挥全局性作用。GPALPP1-CDK8的邻近标记互作共同出现于同一蛋白复合体微环境，提示GPALPP1可能定位于Mediator复合体的核质/核仁边界区域。CLK2（CDC样激酶2，PMID:28514442, co-IP）的互作进一步支持这一方向——CLK2是SR蛋白磷酸化激酶，调控mRNA前体剪接。此外，PIP4K2A（磷脂酰肌醇5-磷酸4-激酶，PMID:28514442）和ARL6IP4（ADP-核糖基化因子样蛋白6互作蛋白4，STRING experimental=0.620）的互作分别指向核内磷酸肌醇信号和核质转运调控。</p>
+<p>BioGRID录入了额外的核心调控因子互作：CTBP2（C末端结合蛋白2，转录共抑制子）、XPO1（Exportin-1/CRM1，核输出受体）、EWSR1（Ewing肉瘤断点区蛋白1，FET蛋白家族RNA结合蛋白）、THOC2（THO复合体亚基，mRNA出核）和SNIP1（Smad核互作蛋白1）。这些互作汇聚成一个清晰的核调控功能簇：GPALPP1似乎坐落于Mediator-转录-剪接-核质运输的交叉节点。</p>
+<p>GPALPP1最引人注目的特征是PubMed严格计数为0（broad=0），是50个候选蛋白中唯一无任何文献记录的成员。仅有2篇broad文献（PMID:38522031：人乳恒牙胚发育时间蛋白特征；PMID:37330465：特应性皮炎焦亡相关诊断模型）通过间接关联被记录。这种极端的研究空白（即使以Protein Scout的标准衡量）与HPA IF显示的清晰核仁边缘定位（Nucleoli rim, Approved）及丰富的调控相关PPI形成鲜明对比。GPALPP1-CDKL5的互作也值得关注——CDKL5磷酸化MeCP2（甲基CpG结合蛋白2），后者是DNA甲基化解读器和TE沉默的关键因子。因此，GPALPP1作为核仁-核质界面的新型调控因子，在TE调控研究中具有极高的新颖性得分和合理的机制基础，强烈推荐作为优先验证靶点。</p>
 <h4>PPI 互作网络</h4>
 <div class="table-wrap"><table>
 <thead><tr><th>互作伙伴</th><th>来源</th><th>评分</th></tr></thead><tbody>

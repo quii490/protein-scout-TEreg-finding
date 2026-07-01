@@ -51,6 +51,16 @@ Mitochondrial serine protease that acts as a regulator of mitochondrial lipid me
 
 无已知核定位注释
 
+### 深度机制分析
+
+LACTB（丝氨酸beta-内酰胺酶样蛋白）采用经典的青霉素结合蛋白/β-内酰胺酶折叠（IPR001466、IPR012338、Pfam PF00144），其活性位点Ser-X-X-Lys基序为催化丝氨酸蛋白酶水解反应所必需。IPR052794指向其在真核生物中特定的线粒体脂质代谢功能。547 aa（60.2 kDa）的分子量在丝氨酸蛋白酶家族中属中上水平。AlphaFold pLDDT数据可用但无实验PDB验证。
+
+功能注释显示LACTB可降低PISD（磷脂酰丝氨酸脱羧酶）的蛋白水平，从而影响线粒体膜中磷脂酰丝氨酸（PtdSer）向磷脂酰乙醇胺（PtdEtn）的转化（PubMed:28329758）。PPI数据显示与CALM1（钙调蛋白）、ELAVL1（RNA结合蛋白HuR）、SPRTN（DNA修复蛋白酶）、PAXIP1（PAXIP1/PTIP，MLL3/4复合物亚基）、HERC2（E3泛素连接酶）、IBTK（BTB/Kelch蛋白）等多类功能因子的互作。其中PAXIP1的连接尤为值得注意——PAXIP1是COMPASS/MLL3-MLL4甲基转移酶复合物的组分，负责H3K4me1沉积在增强子区域。
+
+TE调控相关性的机制推论：LACTB作为线粒体蛋白酶可能通过（1）PAXIP1-MLL3/4复合物连接间接影响H3K4me1标记在TE衍生增强子上的沉积模式；（2）调控线粒体脂质环境改变线粒体逆行信号（mitochondrial retrograde signaling）的输出强度，该信号影响核内的转录重编程和TE表达；（3）与ELAVL1/HuR互作间接参与TE衍生RNA的稳定性和翻译调控。然而，这些机制均为间接推论，LACTB在线粒体中的主要定位和功能使其与核内TE调控的距离较远。
+
+无已知核定位注释（核定位特异性4/10），PubMed 79篇赋予了不错的新颖性（10/10）。归一化总分66.7/100。尽管LACTB的PAXIP互作暗示表观遗传调控的潜在链接，线粒体-核的通讯距离使得TE调控链条过长，不建议作为优先靶标。
+
 ### 4. 总体评价
 
 **推荐等级**: 2/5

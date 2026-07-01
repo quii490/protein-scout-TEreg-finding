@@ -131,7 +131,13 @@
 <tr><td>SDCBP</td><td>Intact</td><td>false</td></tr>
 <tr><td>SNRPC</td><td>Intact</td><td>false</td></tr>
 </tbody></table></div>
-<p>&lt;!-- DOMAIN_HUMANPPI_REPAIR_END --&gt;</p></article></main>
+<p>&lt;!-- DOMAIN_HUMANPPI_REPAIR_END --&gt;</p>
+<h4>深度机制分析</h4>
+<p>ODAM（Odontogenic ameloblast-associated protein, 279 aa）是一种非经典分泌蛋白，其结构特征极为有限：仅含一个InterPro注释结构域IPR026802（ODAM蛋白家族），无SMART域标记，无实验PDB结构。AlphaFold v6预测的pLDDT极低（42.8），且ESMFold从头折叠验证显示平均pLDDT仅0.35，90.0%残基低于0.5——这是所有评估蛋白中结构置信度最低的之一。如此大面积的无序结构提示ODAM可能不采取稳定的球形折叠（globular fold），而是以内在无序蛋白（intrinsically disordered protein, IDP）的形式存在，仅在特定配体结合或寡聚化状态下才获取部分有序构象。无序蛋白的特征——构象灵活性、短线性基序（SLiM）驱动的多配体互作、液-液相分离（LLPS）倾向——恰恰赋予其作为多功能枢纽蛋白的结构基础。</p>
+<p>HPA IF实验显示ODAM定位为Nucleoplasm（reliability: Supported），而UniProt的注释则为Secreted/Cytoplasm/Nucleus——这种双重定位（分泌+核）在IDP中较为典型：IDP通常缺乏经典的细胞器分选信号，可通过非经典途径分泌（如外泌体出胞），同时在特定信号条件下通过被动扩散进入核质。ODAM最初被原始评分误判为核定位不足（≤3），经HPA复核救回后确认为核蛋白——这一发现纠正了ODAM作为细胞外基质蛋白的单一认知，揭示了其核功能维度。</p>
+<p>PPI网络在BioGRID中捕获了若干引人注目的互作节点：IKBKG/NEMO（NF-kappaB必需调节因子）、APP（淀粉样前体蛋白）、MED25（Mediator复合体亚基25）、FHL2、SNRPC/U1C（U1 snRNP组分）和SDCBP/syntenin（外泌体生物合成蛋白）。其中，IKBKG和MED25的互作暗示ODAM可能参与转录调控：IKBKG作为IKK复合体的调节亚基，连接炎性信号与NF-kappaB转录应答；MED25则是Mediator共激活因子复合体的组分，直接桥接转录因子与RNA Pol II基础转录机器。ODAM作为IDP若同时与IKBKG和MED25发生直接互作，可能在炎症信号向转录机器的传导中起信号整合作用。</p>
+<p>从TE调控机制角度，ODAM参与TE沉默的潜在路径需从炎症-TE双向关系切入。TE的转录激活（特别是ERV/LTR元件）产生双链RNA，激活RIG-I/MDA5-MAVS途径，下游信号通过IKBKG-IKK复合体磷酸化IkappaB释放NF-kappaB。ODAM与IKBKG的结合可能在NF-kappaB通路中充当信号调节节点，影响下游炎症因子和IFN刺激基因（ISG）的表达——这些ISG本身常由TE衍生的增强子驱动，形成正反馈回路。此外，ODAM与SNRPC/U1C的结合暗示其可能参与pre-mRNA的剪接调控，影响TE衍生外显子的包含或排除——这在TE的转录后调控（splicing-mediated repression）中扮演关键角色。</p>
+<p>在肿瘤背景中，CRISPR/Cas9模型鉴定ODAM/Cabs1基因簇为前列腺癌转移的驱动因子（PMID:38453924），Kmt2c缺陷通过上调ODAM表达促进转移。ODAM在牙釉质生成（amelogenesis）和交界上皮再生中的多功能角色（PMID:36117697）进一步证明其IDP属性支持组织特异性功能转换。对于TE调控领域，ODAM的低结构质量和弱定位信号使其成为风险极高的候选因子；但其与IKBKG-MED25的双线互作和作为IDP的信号整合潜力，值得在炎症-TE交互信号领域进行初步筛选实验——如ODAM敲除后的NF-kappaB报告基因检测和ERV/LTR衍生RNA的RT-qPCR定量。</p></article></main>
 <script src="../assets/js/app.js"></script>
 </body>
 </html>

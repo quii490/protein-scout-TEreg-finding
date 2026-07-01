@@ -90,7 +90,13 @@ HPA: https://www.proteinatlas.org/ENSG00000226887-ERVMER34-1
 | 40360436 | Combination of a therapeutic cancer vaccine targeting the endogenous retroviral envelope protein ERVMER34-1 with immune- | J Immunother Cancer 2025 |
 | 38408442 | Human Endogenous Retroviruses in Breast Cancer: Altered Expression Pattern Implicates Divergent Roles in Carcinogenesis. | Oncology 2024 |
 
-### HPA IF 图像
+### 深度机制分析
 
-HPA 检索: https://www.proteinatlas.org/search/ERVMER34-1
+ERVMER34-1（563 aa, 63.5 kDa）是一个内源性逆转录病毒（ERV）包膜蛋白HEMO，源自古老逆转录病毒感染的基因组整合与驯化。其结构域架构仅包含TLV/ENV外壳多聚蛋白结构域（IPR018154），对应逆转录病毒包膜基因（env）编码的前体蛋白，该前体通常被弗林蛋白酶样蛋白酶切割为表面（SU）和跨膜（TM）亚基。AlphaFold预测pLDDT仅44.3，为所有25个蛋白中最低值之一，这种高度无序性在病毒包膜蛋白中常见——env蛋白的SU亚基通常含有高度糖基化和柔性的受体结合域，TM亚基则含有融合肽和跨膜锚定螺旋。
+
+作为驯化的ERV蛋白，ERVMER34-1的功能已偏离其祖先的病毒入侵角色。UniProt注释确认内源性包膜蛋白可能在进化过程中保留、丢失或改变了原有功能。近年研究揭示HEMO（ERVMER34-1）与BACE2（β分泌酶2）存在灵长类谱系特异的直接相互作用（PMID:41329733），这是ERV蛋白获得宿主新功能的典型案例。BACE2是阿尔茨海默病病理中BACE1的同源蛋白，参与APP剪切，ERVMER34-1-BACE2互作的驯化意味着该ERV蛋白已被整合入宿主蛋白酶网络。
+
+HPA将ERVMER34-1定位于Cytosol; Nucleoplasm（Approved级别），核质定位可能是ERV包膜蛋白未预期但合理的存在——在感染周期中，逆转录病毒的前整合复合物（PIC）需穿越核孔进入核质进行整合。驯化后的包膜蛋白可能在核质中保留了某些PIC相关功能或获得全新的核内角色。PPI网络（BioGRID degree=9）中，与BTLA（免疫检查点受体）、HLA-G（免疫耐受MHC I类分子）和FBXO2/FBXO6（F-box泛素连接酶底物受体）的互作提示ERVMER34-1参与免疫调控和蛋白泛素化降解通路。
+
+在TE调控语境下，ERVMER34-1作为自身来自TE的蛋白，为理解TE驯化和TE调控提供了独特视角。其作为ERV env蛋白在核质中的存在可能通过以下途径影响TE生物学：（1）作为显性负调控因子干扰现代ERV包膜蛋白的组装或功能；（2）通过结合核内受体或转录因子间接影响TE表达；（3）作为"TE印记"被宿主免疫系统识别，参与肿瘤免疫微环境中的TE去抑制检测。治疗性癌症疫苗靶向ERVMER34-1联合免疫检查点抑制的研究（PMID:40360436）表明其作为"肿瘤TE抗原"的临床应用前景。建议通过RNA-Seq和TEtranscripts分析ERVMER34-1过表达/敲低对全基因组TE家族表达的影响，以及CUT&Tag检测其是否直接结合特定TE家族。
 
